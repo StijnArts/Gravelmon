@@ -5,28 +5,28 @@
     {
       "aspects": [],
       "poser": "cobblemon:sage_florabri",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/sage/florabri.png",
+      "model": "cobblemon:sage_florabri.geo",
+      "texture": "cobblemon:textures/pokemon/sage/florabri/florabri.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/florabri_shiny.png"
+      "texture": "cobblemon:textures/pokemon/sage/florabri/florabri_shiny.png"
     },
     {
       "aspects": [
         "female"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/florabri_female.png"
+      "texture": "cobblemon:textures/pokemon/sage/florabri/florabri_female.png"
     },
     {
       "aspects": [
-        "female",
-        "shiny"
+        "shiny",
+		"female"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/florabri_female_shiny.png"
+      "texture": "cobblemon:textures/pokemon/sage/florabri/florabri_shiny_female.png"
     }
   ]
 }

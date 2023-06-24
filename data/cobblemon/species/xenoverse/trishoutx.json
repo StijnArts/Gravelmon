@@ -1,0 +1,93 @@
+{
+  "implemented": true,
+  "name": "trishoutx",
+  "nationalPokedexNumber": 1399,
+  "primaryType": "fire",
+  "secondaryType": "normal",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 125,
+    "defence": 60,
+    "special_attack": 115,
+    "special_defence": 60,
+    "speed": 72
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.15,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 90,
+  "experienceGroup": "slow",
+  "eggCycles": 41,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:ember",
+    "1:tackle",
+    "9:howl",
+    "13:takedown",
+    "18:firefang",
+    "22:uproar",
+    "26:crunch",
+    "28:screech",
+    "32:flamethrower",
+    "36:hypervoice",
+    "40:swagger",
+    "45:boomburst",
+    "51:inferno",
+    "61:flareblitz"  ],
+  "labels": [
+    "xenoverse"
+  ],
+  "pokedex": [
+    "cobblemon.species.trishoutx.desc"
+  ],
+  "baseScale": 0.09375,
+  "hitbox": {
+    "width": 0.5769230769230769,
+    "height": 0.5769230769230769,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 65,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

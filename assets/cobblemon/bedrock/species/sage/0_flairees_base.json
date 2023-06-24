@@ -5,14 +5,29 @@
     {
       "aspects": [],
       "poser": "cobblemon:sage_flairees",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/sage/flairees.png",
-      "layers": []
+      "model": "cobblemon:sage_flairees.geo",
+      "texture": "cobblemon:textures/pokemon/sage/flairees/flairees.png",
+      "layers": [
+        {
+          "name": "flame",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/sage/flairees/flame/flame1.png",
+              "cobblemon:textures/pokemon/sage/flairees/flame/flame2.png",
+              "cobblemon:textures/pokemon/sage/flairees/flame/flame3.png",
+              "cobblemon:textures/pokemon/sage/flairees/flame/flame4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        }
+      ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/sage/flairees_shiny.png"
+      "texture": "cobblemon:textures/pokemon/sage/flairees/flairees_shiny.png"
     }  ]
 }

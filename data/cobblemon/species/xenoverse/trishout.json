@@ -1,0 +1,173 @@
+{
+  "implemented": true,
+  "name": "trishout",
+  "nationalPokedexNumber": 1399,
+  "primaryType": "fire",
+  "secondaryType": "normal",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 75,
+    "defence": 50,
+    "special_attack": 65,
+    "special_defence": 44,
+    "speed": 58
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.15,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": true,
+  "baseExperienceYield": 90,
+  "experienceGroup": "slow",
+  "eggCycles": 41,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:ember",
+    "1:tackle",
+    "9:howl",
+    "13:takedown",
+    "18:firefang",
+    "23:uproar",
+    "28:screech",
+    "32:flamethrower",
+    "36:hypervoice",
+    "40:swagger",
+    "45:boomburst",
+    "51:inferno",
+    "56:crunch",
+    "61:flareblitz",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:thief",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:overheat",
+    "tm:fling",
+    "tm:willowisp",
+    "tm:gigaimpact",
+    "tm:bulldoze",
+    "tm:swagger",
+    "tm:substitute",
+    "tutor:blastburn",
+    "tutor:covet",
+    "tutor:heatwave",
+    "tutor:hypervoice",
+    "tutor:irontail",
+    "tutor:secretpower",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:uproar"  ],
+  "labels": [
+    "xenoverse"
+  ],
+  "pokedex": [
+    "cobblemon.species.trishout.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "trishout_trishoutterrestrial",
+      "variant": "level_up",
+      "result": "trishoutterrestrial",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:deepslate"
+        }
+      ]   
+ },
+    {
+      "id": "trishout_trishoutxenoversal",
+      "variant": "level_up",
+      "result": "trishoutxenoversal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:end_stone"
+        }
+      ]   
+ },
+    {
+      "id": "trishout_trishoutastral",
+      "variant": "level_up",
+      "result": "trishoutastral",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:diamond"
+        },
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.07857142857142858,
+  "hitbox": {
+    "width": 0.5769230769230769,
+    "height": 0.5769230769230769,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 65,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

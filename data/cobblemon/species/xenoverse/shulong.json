@@ -1,0 +1,176 @@
+{
+  "implemented": true,
+  "name": "shulong",
+  "nationalPokedexNumber": 1400,
+  "primaryType": "water",
+  "secondaryType": "dragon",
+  "abilities": [
+    "hydration",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 40,
+    "defence": 73,
+    "special_attack": 55,
+    "special_defence": 73,
+    "speed": 51
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": true,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.15,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": true,
+  "baseExperienceYield": 90,
+  "experienceGroup": "slow",
+  "eggCycles": 41,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:watergun",
+    "1:tackle",
+    "6:twister",
+    "9:harden",
+    "12:bide",
+    "18:bubblebeam",
+    "23:dragonbreath",
+    "28:protect",
+    "32:muddywater",
+    "36:dragontail",
+    "40:recover",
+    "45:dragonpulse",
+    "51:acidarmor",
+    "56:raindance",
+    "61:hydropump",
+    "tm:dragonclaw",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:earthquake",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:round",
+    "tm:scald",
+    "tm:fling",
+    "tm:shadowclaw",
+    "tm:smartstrike",
+    "tm:gigaimpact",
+    "tm:surf",
+    "tm:dragontail",
+    "tm:poisonjab",
+    "tm:waterfall",
+    "tm:substitute",
+    "tutor:aquatail",
+    "tutor:covet",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:dualchop",
+    "tutor:hydrocannon",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:outrage",
+    "tutor:secretpower",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:waterpulse"  ],
+  "labels": [
+    "xenoverse"
+  ],
+  "pokedex": [
+    "cobblemon.species.shulong.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "shulong_shulongterrestrial",
+      "variant": "level_up",
+      "result": "shulongterrestrial",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:deepslate"
+        }
+      ]   
+ },
+    {
+      "id": "shulong_shulongxenoversal",
+      "variant": "level_up",
+      "result": "shulongxenoversal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:end_stone"
+        }
+      ]   
+ },
+    {
+      "id": "shulong_shulongastral",
+      "variant": "level_up",
+      "result": "shulongastral",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:diamond"
+        },
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.07857142857142858,
+  "hitbox": {
+    "width": 0.5769230769230769,
+    "height": 0.5769230769230769,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 70,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

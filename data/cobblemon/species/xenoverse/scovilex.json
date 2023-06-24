@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scovilex",
-  "nationalPokedexNumber": 1399,
+  "nationalPokedexNumber": 1402,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -33,7 +33,7 @@
             "avoidsLand": false
         },
         "swim": {
-            "swimSpeed": 1.0,
+            "swimSpeed": 0.15,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
         },

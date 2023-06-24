@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragaliskx",
-  "nationalPokedexNumber": 1402,
+  "nationalPokedexNumber": 1405,
   "primaryType": "ground",
   "secondaryType": "ice",
   "abilities": [
@@ -32,7 +32,7 @@
             "avoidsLand": false
         },
         "swim": {
-            "swimSpeed": 1.0,
+            "swimSpeed": 0.15,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
         },

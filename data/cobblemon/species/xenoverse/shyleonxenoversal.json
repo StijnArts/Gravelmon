@@ -1,0 +1,175 @@
+{
+  "implemented": true,
+  "name": "shyleonxenoversal",
+  "nationalPokedexNumber": 1398,
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 118,
+    "attack": 54,
+    "defence": 73,
+    "special_attack": 108,
+    "special_defence": 73,
+    "speed": 124
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.15,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "slow",
+  "eggCycles": 41,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:dazzlinggleam",
+    "1:extrasensory",
+    "1:absorb",
+    "1:pound",
+    "8:disarmingvoice",
+    "13:growth",
+    "17:camouflage",
+    "21:leaftornado",
+    "25:magicalleaf",
+    "28:agility",
+    "32:gigadrain",
+    "40:synthesis",
+    "45:moonblast",
+    "48:earthpower",
+    "51:extrasensory",
+    "56:grasswhistle",
+    "61:leafstorm",
+    "tm:calmmind",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:round",
+    "tm:energyball",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:psychup",
+    "tm:grassknot",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:dazzlinggleam",
+    "tutor:bind",
+    "tutor:covet",
+    "tutor:frenzyplant",
+    "tutor:gigadrain",
+    "tutor:irontail",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:secretpower",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:synthesis",
+    "tutor:worryseed"  ],
+  "labels": [
+    "xenoverse"
+  ],
+  "pokedex": [
+    "cobblemon.species.shyleonxenoversal.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "shyleonxenoversal_shyleon",
+      "variant": "level_up",
+      "result": "shyleon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ]   
+ },
+    {
+      "id": "shyleonxenoversal_shyleonterrestrial",
+      "variant": "level_up",
+      "result": "shyleonterrestrial",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:deepslate"
+        }
+      ]   
+ },
+    {
+      "id": "shyleonxenoversal_shyleonastral",
+      "variant": "level_up",
+      "result": "shyleonastral",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:diamond"
+        },
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.50625,
+  "hitbox": {
+    "width": 3.115384615384615,
+    "height": 3.115384615384615,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 27,
+  "weight": 770,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:shyleon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:xenoverse_shyleon",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/shyleon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/shyleon_shiny.png"
+    }  ]
+}
