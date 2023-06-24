@@ -1,0 +1,168 @@
+{
+  "implemented": true,
+  "name": "nidorook",
+  "nationalPokedexNumber": 1342,
+  "primaryType": "poison",
+  "secondaryType": "ground",
+  "abilities": [
+    "poisonpoint",
+    "merciless",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 78,
+    "attack": 97,
+    "defence": 75,
+    "special_attack": 85,
+    "special_defence": 70,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 1.0,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 214,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 52,
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "moves": [
+    "1:leer",
+    "1:peck",
+    "1:focusenergy",
+    "1:doublekick",
+    "1:poisonsting",
+    "1:furyswipes",
+    "1:hornattack",
+    "1:helpinghand",
+    "23:bite",
+    "35:bodyslam",
+    "40:toxicspikes",
+    "43:flatter",
+    "45:earthpower",
+    "48:poisonjab",
+    "55:poisonfang",
+    "58:earthquake",
+    "62:megahorn",
+    "tm:dragonclaw",
+    "tm:roar",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:smackdown",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sludgewave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:focusblast",
+    "tm:fling",
+    "tm:quash",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:stoneedge",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:dragontail",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:rocksmash",
+    "tm:waterpulse",
+    "tm:cut",
+    "tm:surf",
+    "tm:strength",
+    "tutor:dragonpulse",
+    "tutor:drillrun",
+    "tutor:earthpower",
+    "tutor:megakick",
+    "tutor:superpower",
+    "egg:beatup",
+    "egg:charm",
+    "egg:chipaway",
+    "egg:counter",
+    "egg:disable",
+    "egg:endure",
+    "egg:focusenergy",
+    "egg:irontail",
+    "egg:poisontail",
+    "egg:pursuit",
+    "egg:skullbash",
+    "egg:supersonic",
+    "egg:takedown"  ],
+  "labels": [
+    "infinity"
+  ],
+  "pokedex": [
+    "cobblemon.species.nidorook.desc"
+  ],
+  "baseScale": 0.22000000000000003,
+  "hitbox": {
+    "width": 1.05,
+    "height": 1.05,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 14,
+  "weight": 768,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

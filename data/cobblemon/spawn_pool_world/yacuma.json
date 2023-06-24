@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "yacuma-1",
+      "pokemon": "yacuma",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "ultra-rare",
+      "level": "50-55",
+      "weight": 5.0E-4,
+      "condition": {
+"biomes": [ "#cobblemon:is_deep" ],
+        "maxY": 10,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "perishroom-1",
+      "pokemon": "perishroom",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-28",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush",
+"#cobblemon:is_autumn",
+"#cobblemon:is_abyss" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

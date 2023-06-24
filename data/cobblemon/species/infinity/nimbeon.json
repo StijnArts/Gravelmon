@@ -1,0 +1,149 @@
+{
+  "implemented": true,
+  "name": "nimbeon",
+  "nationalPokedexNumber": 1354,
+  "primaryType": "flying",
+  "abilities": [
+    "aerilate",
+    "h:galewings"
+  ],
+  "baseStats": {
+    "hp": 120,
+    "attack": 88,
+    "defence": 61,
+    "special_attack": 70,
+    "special_defence": 80,
+    "speed": 106
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 1.0,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:roost",
+    "1:helpinghand",
+    "1:tackle",
+    "1:tailwhip",
+    "1:agility",
+    "1:aircutter",
+    "6:swift",
+    "11:charm",
+    "14:skydrop",
+    "17:mist",
+    "20:icywind",
+    "26:airslash",
+    "30:whirlwind",
+    "36:haze",
+    "42:bodyslam",
+    "47:bravebird",
+    "53:tailwind",
+    "59:iciclecrash",
+    "62:defog",
+    "67:dragondance",
+    "tm:psyshock",
+    "tm:calmmind",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:skydrop",
+    "tm:acrobatics",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:fly",
+    "tutor:healbell",
+    "tutor:heatwave",
+    "tutor:icywind",
+    "tutor:roost",
+    "egg:charm",
+    "egg:covet",
+    "egg:curse",
+    "egg:detect",
+    "egg:endure",
+    "egg:faketears",
+    "egg:flail",
+    "egg:naturalgift",
+    "egg:storedpower",
+    "egg:synchronoise",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn"  ],
+  "labels": [
+    "infinity"
+  ],
+  "pokedex": [
+    "cobblemon.species.nimbeon.desc"
+  ],
+  "baseScale": 0.20428571428571432,
+  "hitbox": {
+    "width": 0.975,
+    "height": 0.975,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 140,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,165 @@
+{
+  "implemented": true,
+  "name": "ehgomagnezone",
+  "nationalPokedexNumber": 462,
+  "primaryType": "grass",
+  "secondaryType": "steel",
+  "abilities": [
+    "overgrow",
+    "regenerator",
+    "h:analytic"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 120,
+    "defence": 90,
+    "special_attack": 70,
+    "special_defence": 115,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 1.0,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 241,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "mineral"
+  ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:vines",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:heavyslam",
+    "1:growth",
+    "1:mirrorcoat",
+    "1:barrier",
+    "1:tackle",
+    "1:supersonic",
+    "1:magicalleaf",
+    "1:sonicboom",
+    "4:supersonic",
+    "7:leechseed",
+    "11:sonicboom",
+    "15:vinewhip",
+    "18:magnetbomb",
+    "21:razorleaf",
+    "25:slam",
+    "29:metalburst",
+    "34:bodyslam",
+    "43:hornleech",
+    "48:screech",
+    "53:ironhead",
+    "58:lockon",
+    "64:bulldoze",
+    "69:fissure",
+    "72:autotomize",
+    "75:woodhammer",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:telekinesis",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:return",
+    "tm:reflect",
+    "tm:sludgewave",
+    "tm:sludgebomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:quash",
+    "tm:acrobatics",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:stoneedge",
+    "tm:swordsdance",
+    "tm:bulldoze",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:bulletseed",
+    "tm:strength",
+    "tutor:earthpower",
+    "tutor:gigadrain",
+    "tutor:magnetrise",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:zenheadbutt",
+    "egg:aromatherapy",
+    "egg:bulletpunch",
+    "egg:explosion",
+    "egg:meteormash",
+    "egg:poisonpowder",
+    "egg:sleeppowder",
+    "egg:stunspore",
+    "egg:toxicspikes"  ],
+  "labels": [
+    "infinity",
+    "gen4"
+  ],
+  "pokedex": [
+    "cobblemon.species.ehgomagnezone.desc"
+  ],
+  "baseScale": 0.4125,
+  "hitbox": {
+    "width": 2.5384615384615383,
+    "height": 2.5384615384615383,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 22,
+  "weight": 6283,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

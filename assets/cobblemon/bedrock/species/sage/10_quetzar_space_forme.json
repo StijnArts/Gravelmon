@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:quetzar",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "space_forme"
+],
+      "poser": "cobblemon:sage_quetzar",
+      "model": "cobblemon:cutout.geo",
+      "texture": "cobblemon:textures/pokemon/sage/space_forme_quetzar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "space_forme",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sage/space_forme_quetzar_shiny.png"
+    }  ]
+}

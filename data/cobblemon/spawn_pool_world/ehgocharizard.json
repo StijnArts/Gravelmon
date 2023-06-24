@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ehgocharizard-1",
+      "pokemon": "ehgocharizard",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "36-48",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

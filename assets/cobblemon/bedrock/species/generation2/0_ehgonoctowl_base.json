@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ehgonoctowl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_ehgonoctowl",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/ehgonoctowl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/ehgonoctowl_shiny.png"
+    }  ]
+}

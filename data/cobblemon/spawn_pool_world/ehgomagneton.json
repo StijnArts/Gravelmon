@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ehgomagneton-1",
+      "pokemon": "ehgomagneton",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "22-34",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

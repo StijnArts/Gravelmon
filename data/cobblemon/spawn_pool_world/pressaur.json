@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pressaur-1",
+      "pokemon": "pressaur",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "30-43",
+      "weight": 0.4,
+      "condition": {
+        "maxY": -10,
+        "canSeeSky": false
+      }
+    }
+  ]
+}

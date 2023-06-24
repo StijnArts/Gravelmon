@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ehgotangrowth-1",
+      "pokemon": "ehgotangrowth",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-44",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ehgomagnemite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_ehgomagnemite",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/ehgomagnemite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/ehgomagnemite_shiny.png"
+    }  ]
+}

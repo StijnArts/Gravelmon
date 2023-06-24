@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lumishroom-1",
+      "pokemon": "lumishroom",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-28",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush",
+"#cobblemon:is_autumn" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

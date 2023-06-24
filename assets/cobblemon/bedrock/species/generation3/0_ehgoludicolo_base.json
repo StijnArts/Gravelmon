@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ehgoludicolo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_ehgoludicolo",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/ehgoludicolo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/ehgoludicolo_shiny.png"
+    }  ]
+}

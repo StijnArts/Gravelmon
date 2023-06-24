@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "glocto-1",
+      "pokemon": "glocto",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "10-30",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_deep" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_freshwater",
+"#cobblemon:is_cold" ]    }
+    }
+  ]
+}

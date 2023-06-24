@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ehgotrubbish",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_ehgotrubbish",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/ehgotrubbish.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/ehgotrubbish_shiny.png"
+    }  ]
+}

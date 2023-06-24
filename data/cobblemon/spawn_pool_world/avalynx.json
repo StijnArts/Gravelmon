@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "avalynx-1",
+      "pokemon": "avalynx",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-51",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "isRaining": true,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

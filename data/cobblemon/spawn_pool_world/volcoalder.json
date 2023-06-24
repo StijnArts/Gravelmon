@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "volcoalder-1",
+      "pokemon": "volcoalder",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "25-39",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_island",
+"#cobblemon:is_desert",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

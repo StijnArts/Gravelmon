@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ehgoferaligatr",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_ehgoferaligatr",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/ehgoferaligatr.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/ehgoferaligatr_shiny.png"
+    }  ]
+}

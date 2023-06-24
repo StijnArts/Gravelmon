@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ehgohoothoot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_ehgohoothoot",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/ehgohoothoot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/ehgohoothoot_shiny.png"
+    }  ]
+}

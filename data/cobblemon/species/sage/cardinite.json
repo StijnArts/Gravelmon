@@ -1,0 +1,163 @@
+{
+  "implemented": true,
+  "name": "cardinite",
+  "nationalPokedexNumber": 1197,
+  "primaryType": "fire",
+  "secondaryType": "flying",
+  "abilities": [
+    "earlybird",
+    "flashfire",
+    "h:flamebody"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 80,
+    "defence": 40,
+    "special_attack": 70,
+    "special_defence": 40,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 1.0,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 72,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:sandattack",
+    "1:gust",
+    "5:furyattack",
+    "8:mudsport",
+    "13:flamecharge",
+    "23:flameburst",
+    "26:tailwind",
+    "37:razorwind",
+    "41:firespin",
+    "44:roost",
+    "49:airslash",
+    "55:heatwave",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:frustration",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:echoedvoice",
+    "tm:overheat",
+    "tm:endure",
+    "tm:incinerate",
+    "tm:willowisp",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:fly",
+    "tutor:heatwave",
+    "tutor:ironhead",
+    "tutor:ominouswind",
+    "tutor:secretpower",
+    "tutor:snatch",
+    "tutor:snore",
+    "tutor:steelwing",
+    "tutor:swift",
+    "tutor:tailwind",
+    "egg:airslash",
+    "egg:featherdance",
+    "egg:heatwave",
+    "egg:ironhead",
+    "egg:mirrormove",
+    "egg:roost",
+    "egg:tailwind"  ],
+  "labels": [
+    "sage"
+  ],
+  "pokedex": [
+    "cobblemon.species.cardinite.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cardinite_chardinal",
+      "variant": "level_up",
+      "result": "chardinal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.047142857142857146,
+  "hitbox": {
+    "width": 0.225,
+    "height": 0.225,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 15,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

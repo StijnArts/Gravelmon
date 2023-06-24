@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mawasite-1",
+      "pokemon": "mawasite",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "4-15",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_lukewarm" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_freshwater" ]    }
+    }
+  ]
+}

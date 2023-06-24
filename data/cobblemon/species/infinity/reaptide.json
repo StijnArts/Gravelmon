@@ -1,0 +1,143 @@
+{
+  "implemented": true,
+  "name": "reaptide",
+  "nationalPokedexNumber": 1364,
+  "primaryType": "water",
+  "secondaryType": "ghost",
+  "abilities": [
+    "rattled",
+    "swiftswim",
+    "h:wonderguard"
+  ],
+  "baseStats": {
+    "hp": 28,
+    "attack": 130,
+    "defence": 57,
+    "special_attack": 90,
+    "special_defence": 57,
+    "speed": 118
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 1.0,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:pursuit",
+    "1:bite",
+    "1:thief",
+    "1:flail",
+    "6:aquajet",
+    "11:nightshade",
+    "15:mist",
+    "19:poisonfang",
+    "25:shadowsneak",
+    "31:agility",
+    "33:iceshard",
+    "38:crunch",
+    "42:aquatail",
+    "49:fling",
+    "57:phantomforce",
+    "66:hydropump",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:round",
+    "tm:embargo",
+    "tm:payback",
+    "tm:voltswitch",
+    "tm:psychup",
+    "tm:dragontail",
+    "tm:workup",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:rocksmash",
+    "tm:snarl",
+    "tm:cut",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:aquatail",
+    "tutor:darkpulse",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:suckerpunch",
+    "tutor:zenheadbutt",
+    "egg:absorb",
+    "egg:gigadrain",
+    "egg:grudge",
+    "egg:icefang",
+    "egg:megadrain",
+    "egg:muddywater",
+    "egg:superfang"  ],
+  "labels": [
+    "infinity"
+  ],
+  "pokedex": [
+    "cobblemon.species.reaptide.desc"
+  ],
+  "baseScale": 0.12571428571428572,
+  "hitbox": {
+    "width": 0.6,
+    "height": 0.6,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 60,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

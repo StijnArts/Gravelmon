@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "space_forme_quetzar-1",
+      "pokemon": "quetzar space_forme",
+      "presets": [ "ruined_structures"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-55",
+      "weight": 0.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true,
+        "minY": 271
+      }
+    }
+  ]
+}

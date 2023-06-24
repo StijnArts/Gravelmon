@@ -1,0 +1,170 @@
+{
+  "implemented": true,
+  "name": "ehgonoctowl",
+  "nationalPokedexNumber": 164,
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "abilities": [
+    "unnerve",
+    "h:noguard"
+  ],
+  "baseStats": {
+    "hp": 86,
+    "attack": 50,
+    "defence": 77,
+    "special_attack": 99,
+    "special_defence": 70,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 1.0,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 155,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "flying"
+  ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:foulplay",
+    "1:growl",
+    "1:gust",
+    "1:echoedvoice",
+    "5:hypnosis",
+    "9:confusion",
+    "13:nightshade",
+    "17:hornattack",
+    "21:nightmare",
+    "25:ominouswind",
+    "29:snarl",
+    "33:airslash",
+    "37:razorwind",
+    "41:moonblast",
+    "45:snatch",
+    "49:nightdaze",
+    "53:roost",
+    "57:dreameater",
+    "62:hurricane",
+    "66:nastyplot",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:skydrop",
+    "tm:willowisp",
+    "tm:acrobatics",
+    "tm:flash",
+    "tm:psychup",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:pluck",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:snarl",
+    "tm:fly",
+    "tutor:darkpulse",
+    "tutor:defog",
+    "tutor:icywind",
+    "tutor:roost",
+    "egg:agility",
+    "egg:drillpeck",
+    "egg:megahorn",
+    "egg:mirrormove",
+    "egg:moonlight",
+    "egg:skyattack",
+    "egg:supersonic",
+    "egg:whirlwind"  ],
+  "labels": [
+    "infinity",
+    "gen2"
+  ],
+  "pokedex": [
+    "cobblemon.species.ehgonoctowl.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ehgonoctowl_grimfowl",
+      "variant": "item_interact",
+      "result": "grimfowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone"   
+ }
+  ],
+  "baseScale": 0.35625,
+  "hitbox": {
+    "width": 2.1923076923076925,
+    "height": 2.1923076923076925,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 498,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

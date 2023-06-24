@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "erion-1",
+      "pokemon": "erion",
+      "presets": [
+          "ruined_structures"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-55",
+      "weight": 5.0E-4,
+      "condition": {
+"biomes": [ "#cobblemon:is_abyss" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

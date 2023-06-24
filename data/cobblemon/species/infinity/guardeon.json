@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "guardeon",
+  "nationalPokedexNumber": 1350,
+  "primaryType": "steel",
+  "abilities": [
+    "bulletproof",
+    "h:heatproof"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 60,
+    "defence": 130,
+    "special_attack": 110,
+    "special_defence": 95,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 1.0,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 35,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:irondefense",
+    "1:helpinghand",
+    "1:tackle",
+    "1:tailwhip",
+    "1:harden",
+    "1:heatcrash",
+    "6:magnetbomb",
+    "10:metalburst",
+    "12:confusion",
+    "15:nastyplot",
+    "17:mirrorshot",
+    "20:dragonbreath",
+    "24:psybeam",
+    "26:kingsshield",
+    "28:taunt",
+    "35:extrasensory",
+    "38:flashcannon",
+    "41:dragonpulse",
+    "45:uproar",
+    "52:quickguard",
+    "55:foulplay",
+    "63:hypervoice",
+    "70:destinybond",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:smackdown",
+    "tm:thunderbolt",
+    "tm:earthquake",
+    "tm:return",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:wildcharge",
+    "tm:rocksmash",
+    "tm:cut",
+    "tm:strength",
+    "tutor:ancientpower",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:healbell",
+    "tutor:irontail",
+    "egg:curse",
+    "egg:detect",
+    "egg:endure",
+    "egg:faketears",
+    "egg:flail",
+    "egg:naturalgift",
+    "egg:storedpower",
+    "egg:synchronoise",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn"  ],
+  "labels": [
+    "infinity"
+  ],
+  "pokedex": [
+    "cobblemon.species.guardeon.desc"
+  ],
+  "baseScale": 0.18857142857142858,
+  "hitbox": {
+    "width": 0.9,
+    "height": 0.9,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 585,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

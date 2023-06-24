@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ehgoaltaria-1",
+      "pokemon": "ehgoaltaria",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-50",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+  ]
+}
