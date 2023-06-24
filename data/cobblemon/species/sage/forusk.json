@@ -148,8 +148,8 @@
   ],
   "baseScale": 0.34571428571428575,
   "hitbox": {
-    "width": 1.65,
-    "height": 1.65,
+    "width": 2.5384615384615383,
+    "height": 2.5384615384615383,
     "fixed": false
   },
   "baseFriendship": 70,

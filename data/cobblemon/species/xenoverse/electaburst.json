@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "electaburst",
-  "nationalPokedexNumber": 1399,
+  "nationalPokedexNumber": 1400,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -125,8 +125,8 @@
   ],
   "baseScale": 0.28285714285714286,
   "hitbox": {
-    "width": 1.35,
-    "height": 1.35,
+    "width": 2.076923076923077,
+    "height": 2.076923076923077,
     "fixed": false
   },
   "baseFriendship": 70,

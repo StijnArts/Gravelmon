@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chientilly",
-  "nationalPokedexNumber": 1400,
+  "nationalPokedexNumber": 1401,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -90,16 +90,15 @@
     "tutor:secretpower",
     "tutor:snore"  ],
   "labels": [
-    "xenoverse",
-    "gen1"
+    "xenoverse"
   ],
   "pokedex": [
     "cobblemon.species.chientilly.desc"
   ],
   "baseScale": 0.2671428571428572,
   "hitbox": {
-    "width": 1.275,
-    "height": 1.275,
+    "width": 1.9615384615384612,
+    "height": 1.9615384615384612,
     "fixed": false
   },
   "baseFriendship": 40,

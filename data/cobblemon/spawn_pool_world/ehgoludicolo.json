@@ -15,8 +15,7 @@
       "level": "39-49",
       "weight": 2.3,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_nether" ]
       }
     }
   ]
