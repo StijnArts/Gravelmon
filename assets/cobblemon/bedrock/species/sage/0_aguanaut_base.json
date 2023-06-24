@@ -5,7 +5,7 @@
     {
       "aspects": [],
       "poser": "cobblemon:sage_aguanaut",
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:cutout.geo",
       "texture": "cobblemon:textures/pokemon/sage/aguanaut.png",
       "layers": []
     },
