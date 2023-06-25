@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "persage",
-  "nationalPokedexNumber": 1401,
+  "nationalPokedexNumber": 1418,
   "primaryType": "psychic",
   "abilities": [
     "pickup",
@@ -32,7 +32,7 @@
             "avoidsLand": false
         },
         "swim": {
-            "swimSpeed": 0.15,
+            "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
         },

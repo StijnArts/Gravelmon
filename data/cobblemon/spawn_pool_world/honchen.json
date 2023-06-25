@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "honchen-1",
+      "pokemon": "honchen",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-55",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo" ],
+        "isRaining": false,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "implemented": true,
+  "name": "bremand",
+  "nationalPokedexNumber": 1407,
+  "primaryType": "ghost",
+  "secondaryType": "normal",
+  "abilities": [
+    "moldbreaker",
+    "h:moldbreaker"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 80,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Guitarist",
+      "pokedex": [
+    "cobblemon.species.bremand.desc1"
+  ],
+      "primaryType": "electric",
+      "secondaryType": "normal",
+      "abilities": [
+    "moldbreaker",
+    "h:moldbreaker"
+      ],
+      "baseScale": 0.09375,
+        "hitbox": {
+          "width": 0.5769230769230769,
+          "height": 0.5769230769230769,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 60,
+        "defence": 80,
+        "special_attack": 100,
+        "special_defence": 80,
+        "speed": 100
+      },
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 146,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 32,
+      "eggGroups": [
+    "undiscovered"      ],
+      "moves": [
+    "1:growl",
+    "1:pound",
+    "5:thundershock",
+    "10:sing",
+    "15:thunderwave",
+    "20:chargebeam",
+    "25:screech",
+    "30:uproar",
+    "35:helpinghand",
+    "40:overdrive",
+    "50:thunderbolt",
+    "55:boomburst",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:substitute",
+    "egg:perishsong",
+    "egg:healingwish",
+    "egg:batonpass",
+    "egg:luckychant",
+    "egg:lastresort",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:lastresort",
+    "tutor:secretpower",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:uproar"      ],
+  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "xenoverse"
+      ],
+      "aspects": [
+
+      ],
+      "height": 0,
+      "weight": 590,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Drummer",
+      "pokedex": [
+    "cobblemon.species.bremand.desc1"
+  ],
+      "primaryType": "fighting",
+      "secondaryType": "normal",
+      "abilities": [
+    "moldbreaker",
+    "h:moldbreaker"
+      ],
+      "baseScale": 0.09375,
+        "hitbox": {
+          "width": 0.5769230769230769,
+          "height": 0.5769230769230769,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 80,
+        "special_defence": 60,
+        "speed": 60
+      },
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 146,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 32,
+      "eggGroups": [
+    "undiscovered"      ],
+      "moves": [
+    "1:growl",
+    "1:pound",
+    "5:rocksmash",
+    "10:sing",
+    "15:bulkup",
+    "20:wakeupslap",
+    "25:screech",
+    "30:uproar",
+    "35:helpinghand",
+    "40:vitalthrow",
+    "45:bellydrum",
+    "50:hammerarm",
+    "55:boomburst",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:substitute",
+    "egg:perishsong",
+    "egg:healingwish",
+    "egg:batonpass",
+    "egg:luckychant",
+    "egg:lastresort",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:lastresort",
+    "tutor:secretpower",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:uproar"      ],
+  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "xenoverse"
+      ],
+      "aspects": [
+
+      ],
+      "height": 0,
+      "weight": 590,
+      "cannotDynamax": false,
+      "battleOnly": false
+    },
+    {
+      "name": "Bassist",
+      "pokedex": [
+    "cobblemon.species.bremand.desc1"
+  ],
+      "primaryType": "dark",
+      "secondaryType": "normal",
+      "abilities": [
+    "moldbreaker",
+    "h:moldbreaker"
+      ],
+      "baseScale": 0.09375,
+        "hitbox": {
+          "width": 0.5769230769230769,
+          "height": 0.5769230769230769,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 100,
+        "attack": 100,
+        "defence": 80,
+        "special_attack": 80,
+        "special_defence": 60,
+        "speed": 60
+      },
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 146,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 32,
+      "eggGroups": [
+    "undiscovered"      ],
+      "moves": [
+    "1:growl",
+    "1:pound",
+    "5:pursuit",
+    "10:sing",
+    "15:torment",
+    "20:assurance",
+    "25:screech",
+    "30:uproar",
+    "35:helpinghand",
+    "40:crunch",
+    "50:foulplay",
+    "55:boomburst",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:substitute",
+    "egg:perishsong",
+    "egg:healingwish",
+    "egg:batonpass",
+    "egg:luckychant",
+    "egg:lastresort",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:lastresort",
+    "tutor:secretpower",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:uproar"      ],
+  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "xenoverse"
+      ],
+      "aspects": [
+
+      ],
+      "height": 0,
+      "weight": 590,
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+],
+  "baseExperienceYield": 146,
+  "experienceGroup": "slow",
+  "eggCycles": 32,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:growl",
+    "1:pound",
+    "5:astonish",
+    "10:sing",
+    "15:confuseray",
+    "20:shadowsneak",
+    "25:screech",
+    "30:uproar",
+    "35:helpinghand",
+    "40:ominouswind",
+    "50:phantomforce",
+    "55:boomburst",
+    "tm:roar",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:substitute",
+    "egg:perishsong",
+    "egg:healingwish",
+    "egg:batonpass",
+    "egg:luckychant",
+    "egg:lastresort",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:lastresort",
+    "tutor:secretpower",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:uproar"  ],
+  "labels": [
+    "xenoverse"
+  ],
+  "pokedex": [
+    "cobblemon.species.bremand.desc"
+  ],
+  "baseScale": 0.07857142857142858,
+  "hitbox": {
+    "width": 0.5769230769230769,
+    "height": 0.5769230769230769,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 59,
+  "aspects": [],
+"features": [
+"guitarist",
+"drummer",
+"bassist"
+  ],  "cannotDynamax": false
+}

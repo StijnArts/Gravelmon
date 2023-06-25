@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chientilly",
-  "nationalPokedexNumber": 1404,
+  "nationalPokedexNumber": 1439,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -33,7 +33,7 @@
             "avoidsLand": false
         },
         "swim": {
-            "swimSpeed": 0.15,
+            "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
         },
