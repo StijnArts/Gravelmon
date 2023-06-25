@@ -5,7 +5,7 @@
     {
       "aspects": [],
       "poser": "cobblemon:xenoverse_shulong",
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:xenoverse_shulong.geo",
       "texture": "cobblemon:textures/pokemon/xenoverse/shulong.png",
       "layers": []
     },

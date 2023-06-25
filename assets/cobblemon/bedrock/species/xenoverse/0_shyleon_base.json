@@ -5,7 +5,7 @@
     {
       "aspects": [],
       "poser": "cobblemon:xenoverse_shyleon",
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:xenoverse_shyleon.geo",
       "texture": "cobblemon:textures/pokemon/xenoverse/shyleon.png",
       "layers": []
     },
