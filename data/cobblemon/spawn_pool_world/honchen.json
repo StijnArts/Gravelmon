@@ -7,7 +7,7 @@
       "id": "honchen-1",
       "pokemon": "honchen",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

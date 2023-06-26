@@ -7,7 +7,7 @@
       "id": "kidoon-1",
       "pokemon": "kidoon",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

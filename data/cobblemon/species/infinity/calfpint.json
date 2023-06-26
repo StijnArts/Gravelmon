@@ -126,7 +126,8 @@
         },
         {
           "variant": "properties",
-          "target": "gender=female"
+          "target": "gender=female",
+          "contains": true
         }
       ]   
  },
@@ -143,7 +144,8 @@
         },
         {
           "variant": "properties",
-          "target": "gender=male"
+          "target": "gender=male",
+          "contains": true
         }
       ]   
  },
@@ -160,7 +162,8 @@
         },
         {
           "variant": "properties",
-          "target": "gender=male"
+          "target": "gender=male",
+          "contains": true
         }
       ]   
  },
@@ -177,7 +180,8 @@
         },
         {
           "variant": "properties",
-          "target": "gender=male"
+          "target": "gender=male",
+          "contains": true
         }
       ]   
  },
@@ -194,7 +198,8 @@
         },
         {
           "variant": "properties",
-          "target": "gender=male"
+          "target": "gender=male",
+          "contains": true
         }
       ]   
  }

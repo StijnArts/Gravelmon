@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vroombug-1",
+      "pokemon": "vroombug",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "9-20",
+      "weight": 2.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_plains",
+"#cobblemon:is_badlands",
+"#cobblemon:is_desert" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

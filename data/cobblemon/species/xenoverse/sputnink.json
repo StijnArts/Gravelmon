@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sputnink",
-  "nationalPokedexNumber": 1436,
+  "nationalPokedexNumber": 1435,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -118,7 +118,7 @@
       "id": "sputnink_nebyura",
       "variant": "level_up",
       "result": "nebyura",
-      "consumeHeldItem": true,
+      "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
         {

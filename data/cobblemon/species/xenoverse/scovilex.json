@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scovilex",
-  "nationalPokedexNumber": 1431,
+  "nationalPokedexNumber": 1430,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -104,7 +104,7 @@
   "pokedex": [
     "cobblemon.species.scovilex.desc"
   ],
-  "baseScale": 0.22000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
     "width": 1.6153846153846154,
     "height": 1.6153846153846154,

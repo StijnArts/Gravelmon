@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rockapye",
-  "nationalPokedexNumber": 1434,
+  "nationalPokedexNumber": 1433,
   "primaryType": "rock",
   "secondaryType": "normal",
   "abilities": [
@@ -124,7 +124,7 @@
       "id": "rockapye_troglolith",
       "variant": "level_up",
       "result": "troglolith",
-      "consumeHeldItem": true,
+      "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
         {

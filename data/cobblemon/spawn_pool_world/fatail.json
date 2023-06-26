@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fatail-1",
+      "pokemon": "fatail",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-56",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert",
+"#cobblemon:is_badlands" ],
+        "timeRange": "night",
+        "canSeeSky": false
+      }
+    }
+  ]
+}
