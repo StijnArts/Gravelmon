@@ -157,10 +157,10 @@
   "pokedex": [
     "cobblemon.species.sorcerice.desc"
   ],
-  "baseScale": 0.33,
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 2.423076923076923,
-    "height": 2.423076923076923,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -121,10 +121,10 @@
   "pokedex": [
     "cobblemon.species.indrolith.desc"
   ],
-  "baseScale": 0.5028571428571429,
+  "baseScale": 0.6,
   "hitbox": {
-    "width": 3.692307692307692,
-    "height": 3.692307692307692,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -144,7 +144,7 @@
   "pokedex": [
     "cobblemon.species.kecleodon.desc"
   ],
-  "baseScale": 0.40857142857142864,
+  "baseScale": 0.4875,
   "hitbox": {
     "width": 3.0,
     "height": 3.0,

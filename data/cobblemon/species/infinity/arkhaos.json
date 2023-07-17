@@ -192,7 +192,7 @@
   "pokedex": [
     "cobblemon.species.arkhaos.desc"
   ],
-  "baseScale": 13.828571428571431,
+  "baseScale": 16.5,
   "hitbox": {
     "width": 3.0,
     "height": 3.0,

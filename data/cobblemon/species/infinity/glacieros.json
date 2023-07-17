@@ -120,10 +120,10 @@
   "pokedex": [
     "cobblemon.species.glacieros.desc"
   ],
-  "baseScale": 0.2985714285714286,
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 2.1923076923076925,
-    "height": 2.1923076923076925,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

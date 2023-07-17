@@ -143,10 +143,10 @@
   "pokedex": [
     "cobblemon.species.lavoon.desc"
   ],
-  "baseScale": 1.0685714285714287,
+  "baseScale": 1.275,
   "hitbox": {
-    "width": 7.846153846153845,
-    "height": 7.846153846153845,
+    "width": 1.7307692307692306,
+    "height": 1.7307692307692306,
     "fixed": false
   },
   "baseFriendship": 70,

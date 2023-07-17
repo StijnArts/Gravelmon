@@ -127,10 +127,10 @@
   "pokedex": [
     "cobblemon.species.scorpeon.desc"
   ],
-  "baseScale": 0.17285714285714288,
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 1.2692307692307692,
-    "height": 1.2692307692307692,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

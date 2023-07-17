@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:tokakle",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "green"
+     ],
+      "poser": "cobblemon:xenoverse_tokakle",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/green_tokakle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "green",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/green_tokakle_shiny.png"
+    }  ]
+}

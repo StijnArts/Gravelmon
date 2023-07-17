@@ -1,0 +1,130 @@
+{
+  "implemented": true,
+  "name": "chimaooze",
+  "nationalPokedexNumber": 1455,
+  "primaryType": "poison",
+  "secondaryType": "ground",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 20,
+    "defence": 30,
+    "special_attack": 25,
+    "special_defence": 35,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 63,
+  "experienceGroup": "fast",
+  "eggCycles": 32,
+  "eggGroups": [
+    "amorphous",
+    "water_3"
+  ],
+  "moves": [
+    "1:mudsport",
+    "1:poisongas",
+    "5:mudslap",
+    "10:helpinghand",
+    "14:sludge",
+    "20:mudshot",
+    "25:beatup",
+    "29:stockpile",
+    "29:swallow",
+    "29:spitup",
+    "33:acidarmor",
+    "40:sludgewave",
+    "43:flamethrower",
+    "45:recover",
+    "50:earthquake",
+    "53:energyball",
+    "55:gunkshot",
+    "tm:roar",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:earthquake",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:round",
+    "tm:gigaimpact",
+    "tm:bulldoze",
+    "tm:infestation",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:substitute",
+    "egg:mudbomb",
+    "egg:earthpower",
+    "egg:venomdrench",
+    "egg:minimize",
+    "tutor:bind",
+    "tutor:block",
+    "tutor:earthpower",
+    "tutor:gastroacid",
+    "tutor:gunkshot",
+    "tutor:secretpower",
+    "tutor:sleeptalk",
+    "tutor:snore"  ],
+  "labels": [
+    "xenoverse"
+  ],
+  "pokedex": [
+    "cobblemon.species.chimaooze.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 1,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

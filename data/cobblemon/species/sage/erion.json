@@ -122,10 +122,10 @@
   "pokedex": [
     "cobblemon.species.erion.desc"
   ],
-  "baseScale": 0.55,
+  "baseScale": 0.65625,
   "hitbox": {
-    "width": 4.038461538461538,
-    "height": 4.038461538461538,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

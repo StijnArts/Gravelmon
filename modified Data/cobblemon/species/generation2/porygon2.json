@@ -207,6 +207,19 @@
           "itemCondition": "minecraft:music_disc_stal"
         }
       ]
+    },
+	{
+      "id": "porygon2_porygonwes",
+      "variant": "level_up",
+      "result": "porygonwes",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:music_disc_otherside"
+        }
+      ]
     }
   ],
   "baseScale": 0.8,

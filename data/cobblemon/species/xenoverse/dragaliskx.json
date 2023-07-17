@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragaliskx",
-  "nationalPokedexNumber": 1449,
+  "nationalPokedexNumber": 1474,
   "primaryType": "ground",
   "secondaryType": "ice",
   "abilities": [
@@ -83,10 +83,10 @@
   "pokedex": [
     "cobblemon.species.dragaliskx.desc"
   ],
-  "baseScale": 0.3928571428571429,
+  "baseScale": 0.46875,
   "hitbox": {
-    "width": 2.8846153846153846,
-    "height": 2.8846153846153846,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 40,

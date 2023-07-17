@@ -102,10 +102,10 @@
   "pokedex": [
     "cobblemon.species.pikachuxfemale.desc"
   ],
-  "baseScale": 0.075,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 0.4615384615384615,
-    "height": 0.4615384615384615,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

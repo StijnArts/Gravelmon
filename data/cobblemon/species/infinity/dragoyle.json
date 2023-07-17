@@ -146,10 +146,10 @@
   "pokedex": [
     "cobblemon.species.dragoyle.desc"
   ],
-  "baseScale": 0.5971428571428572,
+  "baseScale": 0.7125,
   "hitbox": {
-    "width": 4.384615384615385,
-    "height": 4.384615384615385,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

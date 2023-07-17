@@ -586,7 +586,33 @@
       ],
       "requirements": [],
       "requiredContext": "minecraft:ender_eye"
-    }
+    },
+	{
+      "id": "eevee_bandeon",
+      "variant": "level_up",
+      "result": "bandeon",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "soundpledge"
+        }
+      ]   
+	},
+	{
+      "id": "eevee_scaleon",
+      "variant": "level_up",
+      "result": "scaleon",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dragonpledge"
+        }
+      ]   
+	}
   ],
   "baseScale": 0.5,
   "hitbox": {

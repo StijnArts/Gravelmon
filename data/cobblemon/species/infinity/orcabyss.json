@@ -147,10 +147,10 @@
   "pokedex": [
     "cobblemon.species.orcabyss.desc"
   ],
-  "baseScale": 0.6285714285714287,
+  "baseScale": 0.75,
   "hitbox": {
-    "width": 4.615384615384615,
-    "height": 4.615384615384615,
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
     "fixed": false
   },
   "baseFriendship": 70,

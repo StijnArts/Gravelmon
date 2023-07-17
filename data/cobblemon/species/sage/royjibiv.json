@@ -150,10 +150,10 @@
   "pokedex": [
     "cobblemon.species.royjibiv.desc"
   ],
-  "baseScale": 0.7071428571428573,
+  "baseScale": 0.84375,
   "hitbox": {
-    "width": 5.1923076923076925,
-    "height": 5.1923076923076925,
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
     "fixed": false
   },
   "baseFriendship": 70,

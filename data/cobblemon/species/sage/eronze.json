@@ -118,10 +118,10 @@
   "pokedex": [
     "cobblemon.species.eronze.desc"
   ],
-  "baseScale": 0.5185714285714286,
+  "baseScale": 0.61875,
   "hitbox": {
-    "width": 3.8076923076923075,
-    "height": 3.8076923076923075,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

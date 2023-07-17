@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chientilly",
-  "nationalPokedexNumber": 1448,
+  "nationalPokedexNumber": 1460,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -95,10 +95,10 @@
   "pokedex": [
     "cobblemon.species.chientilly.desc"
   ],
-  "baseScale": 0.2671428571428572,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 1.9615384615384612,
-    "height": 1.9615384615384612,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 40,

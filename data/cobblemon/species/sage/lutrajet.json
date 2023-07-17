@@ -140,10 +140,10 @@
   "pokedex": [
     "cobblemon.species.lutrajet.desc"
   ],
-  "baseScale": 0.28285714285714286,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 2.076923076923077,
-    "height": 2.076923076923077,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

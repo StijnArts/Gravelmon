@@ -132,10 +132,10 @@
   "pokedex": [
     "cobblemon.species.hangead.desc"
   ],
-  "baseScale": 0.2671428571428572,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 1.9615384615384612,
-    "height": 1.9615384615384612,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

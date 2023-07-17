@@ -134,10 +134,10 @@
   "pokedex": [
     "cobblemon.species.solacari.desc"
   ],
-  "baseScale": 0.11000000000000001,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 0.8076923076923077,
-    "height": 0.8076923076923077,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

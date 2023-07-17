@@ -144,10 +144,10 @@
   "pokedex": [
     "cobblemon.species.snosquatch.desc"
   ],
-  "baseScale": 0.5342857142857144,
+  "baseScale": 0.6375,
   "hitbox": {
-    "width": 3.9230769230769225,
-    "height": 3.9230769230769225,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

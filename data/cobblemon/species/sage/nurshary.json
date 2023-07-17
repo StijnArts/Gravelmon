@@ -140,10 +140,10 @@
   "pokedex": [
     "cobblemon.species.nurshary.desc"
   ],
-  "baseScale": 0.25142857142857145,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 1.846153846153846,
-    "height": 1.846153846153846,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

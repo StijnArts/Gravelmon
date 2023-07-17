@@ -70,10 +70,10 @@
   "pokedex": [
     "cobblemon.species.shulongx.desc"
   ],
-  "baseScale": 0.09375,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 0.5769230769230769,
-    "height": 0.5769230769230769,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

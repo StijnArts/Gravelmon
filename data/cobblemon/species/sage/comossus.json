@@ -151,10 +151,10 @@
   "pokedex": [
     "cobblemon.species.comossus.desc"
   ],
-  "baseScale": 0.6914285714285715,
+  "baseScale": 0.825,
   "hitbox": {
-    "width": 5.076923076923077,
-    "height": 5.076923076923077,
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
     "fixed": false
   },
   "baseFriendship": 70,

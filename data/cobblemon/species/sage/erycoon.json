@@ -146,10 +146,10 @@
   "pokedex": [
     "cobblemon.species.erycoon.desc"
   ],
-  "baseScale": 0.14142857142857143,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 1.0384615384615385,
-    "height": 1.0384615384615385,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
