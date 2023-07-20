@@ -172,10 +172,10 @@
   "pokedex": [
     "cobblemon.species.aguanaut.desc"
   ],
-  "baseScale": 0.3375,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.8,
+    "height": 1.8,
     "fixed": false
   },
   "baseFriendship": 70,

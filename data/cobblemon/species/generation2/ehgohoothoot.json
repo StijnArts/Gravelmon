@@ -132,9 +132,9 @@
   ],
   "evolutions": [
     {
-      "id": "ehgohoothoot_eghonoctowl",
+      "id": "ehgohoothoot_ehgonoctowl",
       "variant": "level_up",
-      "result": "eghonoctowl",
+      "result": "ehgonoctowl",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

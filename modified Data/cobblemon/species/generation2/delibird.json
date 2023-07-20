@@ -187,6 +187,19 @@
       ],
       "requirements": [],
       "requiredContext": "minecraft:quartz"
+    },
+	{
+      "id": "delibird_blizentork",
+      "variant": "level_up",
+      "result": "blizentork",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
     }
   ],
   "baseScale": 1,

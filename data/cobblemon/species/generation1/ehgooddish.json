@@ -132,9 +132,9 @@
   ],
   "evolutions": [
     {
-      "id": "ehgooddish_eghogloom",
+      "id": "ehgooddish_ehgogloom",
       "variant": "level_up",
-      "result": "eghogloom",
+      "result": "ehgogloom",
       "consumeHeldItem": false,
       "learnableMoves": [    "venoshock"],
       "requirements": [

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pteriarch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vega_pteriarch",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/vega/pteriarch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vega/pteriarch_shiny.png"
+    }  ]
+}

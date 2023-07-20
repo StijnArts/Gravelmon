@@ -151,10 +151,10 @@
   "pokedex": [
     "cobblemon.species.flairees.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.5,
+    "height": 1.5,
     "fixed": false
   },
   "baseFriendship": 70,

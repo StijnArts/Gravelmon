@@ -276,7 +276,20 @@
           "move": "drillrun"
         }
       ]   
- }
+ },
+ {
+      "id": "dunsparce_auldsparce",
+      "variant": "level_up",
+      "result": "auldsparce",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ]
+    }
   ],
   "baseScale": 1.0,
   "hitbox": {

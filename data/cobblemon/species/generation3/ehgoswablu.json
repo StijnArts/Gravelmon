@@ -142,9 +142,9 @@
   ],
   "evolutions": [
     {
-      "id": "ehgoswablu_eghoaltaria",
+      "id": "ehgoswablu_ehgoaltaria",
       "variant": "level_up",
-      "result": "eghoaltaria",
+      "result": "ehgoaltaria",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

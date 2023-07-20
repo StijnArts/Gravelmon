@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pressie-1",
+      "pokemon": "pressie",
+      "presets": [
+          "ruined_structures"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-1",
+      "weight": 0.0,
+      "condition": {
+
+      }
+    }
+  ]
+}

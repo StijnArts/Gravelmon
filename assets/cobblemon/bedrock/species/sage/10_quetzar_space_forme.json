@@ -7,7 +7,7 @@
         "space_forme"
 ],
       "poser": "cobblemon:sage_quetzar",
-      "model": "cobblemon:cutout.geo",
+      "model": "cobblemon:cutout_gravelmon.geo",
       "texture": "cobblemon:textures/pokemon/sage/space_forme_quetzar.png",
       "layers": []
     },

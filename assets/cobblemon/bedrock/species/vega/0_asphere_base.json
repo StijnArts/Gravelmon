@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:asphere",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [
+	  ],
+      "poser": "cobblemon:vega_asphere",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/vega/asphere.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vega/asphere_shiny.png"
+    }  ]
+}

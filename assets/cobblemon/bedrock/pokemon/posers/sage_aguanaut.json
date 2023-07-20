@@ -1,14 +1,19 @@
 {
   "portraitScale": 0.3,
+  "head": "head",
   "portraitTranslation": [0.1, 1.5, 0.0],
   "profileScale": 0.3,
   "profileTranslation": [0.1, 1.5, 0.0],
   "poses": {
     "standing": {
-      "poseName": "standing",
-      "transformTicks": 10,
-      "allPoseTypes": true,
-      "animations": []
-    }
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": ["STAND", "WALK", "SWIM", "FLOAT","NONE", "PORTRAIT", "PROFILE"],
+        "animations": [
+          "look",
+		  "bedrock(aguanaut, blink)",
+          "bedrock(aguanaut, ground_idle)"
+        ]
+      }
   }
 }

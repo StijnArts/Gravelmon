@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ptervus-1",
+      "pokemon": "ptervus",
+      "presets": [
+          "ruined_structures"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-1",
+      "weight": 0.0,
+      "condition": {
+
+      }
+    }
+  ]
+}

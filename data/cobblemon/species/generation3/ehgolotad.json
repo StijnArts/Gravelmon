@@ -133,9 +133,9 @@
   ],
   "evolutions": [
     {
-      "id": "ehgolotad_egholombre",
+      "id": "ehgolotad_ehgolombre",
       "variant": "level_up",
-      "result": "egholombre",
+      "result": "ehgolombre",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

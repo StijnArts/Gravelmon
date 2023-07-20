@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation1_ehgobulbasaur",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation1/ehgobulbasaur.png",
+      "model": "cobblemon:generation1_ehgobulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/ehgobulbasaur/ehgobulbasaur.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation1/ehgobulbasaur_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation1/ehgobulbasaur/ehgobulbasaur_shiny.png"
     }  ]
 }

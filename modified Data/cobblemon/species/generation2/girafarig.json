@@ -238,6 +238,19 @@
       "learnableMoves": [],
       "requirements": [],
       "requiredContext": "cobblemon:dusk_stone"
+    },
+	{
+      "id": "girafarig_folifarig",
+      "variant": "level_up",
+      "result": "folifarig",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
     }
   ],
   "baseScale": 1,

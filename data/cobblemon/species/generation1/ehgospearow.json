@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": true
+            "canFly": false
         },
         "canLook": true,
         "walk": {
@@ -139,9 +139,9 @@
   ],
   "evolutions": [
     {
-      "id": "ehgospearow_eghofearow",
+      "id": "ehgospearow_ehgofearow",
       "variant": "level_up",
-      "result": "eghofearow",
+      "result": "ehgofearow",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

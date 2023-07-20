@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kinegasus-1",
+      "pokemon": "kinegasus",
+      "presets": [
+          "ruined_structures"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "1-1",
+      "weight": 0.0,
+      "condition": {
+
+      }
+    }
+  ]
+}

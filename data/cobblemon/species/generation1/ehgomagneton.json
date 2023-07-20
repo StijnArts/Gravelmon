@@ -141,9 +141,9 @@
   ],
   "evolutions": [
     {
-      "id": "ehgomagneton_eghomagnezone",
+      "id": "ehgomagneton_ehgomagnezone",
       "variant": "level_up",
-      "result": "eghomagnezone",
+      "result": "ehgomagnezone",
       "consumeHeldItem": true,
       "learnableMoves": [],
       "requirements": [

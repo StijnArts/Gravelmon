@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation1_ehgocharmander",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation1/ehgocharmander.png",
+      "model": "cobblemon:generation1_ehgocharmander.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/ehgocharmander/ehgocharmander.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation1/ehgocharmander_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation1/ehgocharmander/ehgocharmander_shiny.png"
     }  ]
 }
