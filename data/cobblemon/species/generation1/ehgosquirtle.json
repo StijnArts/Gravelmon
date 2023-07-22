@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -33,7 +33,7 @@
         },
         "swim": {
             "swimSpeed": 0.1,
-            "canSwimInWater": true,
+            "canSwimInWater": false,
             "canBreatheUnderwater": false
         },
         "wanderChance": 1.0
@@ -148,10 +148,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.7,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.5,
+    "height": 0.5,
     "fixed": false
   },
   "baseFriendship": 70,

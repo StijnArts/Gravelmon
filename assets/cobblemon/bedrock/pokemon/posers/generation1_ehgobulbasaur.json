@@ -31,8 +31,6 @@
         "transformTicks": 10,
         "poseTypes": ["SLEEP"],
         "animations": [
-          "look",
-          "bedrock(bulbasaur_ehgo, blink)",
           "bedrock(bulbasaur_ehgo, sleep)"
         ]
        }

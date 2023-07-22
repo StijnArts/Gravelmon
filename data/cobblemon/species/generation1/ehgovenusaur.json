@@ -152,10 +152,10 @@
   "pokedex": [
     "cobblemon.species.ehgovenusaur.desc"
   ],
-  "baseScale": 0.4875,
+  "baseScale": 2.0,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.5,
+    "height": 1.4,
     "fixed": false
   },
   "baseFriendship": 70,
