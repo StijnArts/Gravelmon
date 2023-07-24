@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ehgovenusaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_ehgovenusaur",
+      "model": "cobblemon:generation1_ehgovenusaur.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/ehgovenusaur/ehgovenusaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/ehgovenusaur/ehgovenusaur_shiny.png"
+    }  ]
+}

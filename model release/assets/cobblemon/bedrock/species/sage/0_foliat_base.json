@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:foliat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sage_foliat",
+      "model": "cobblemon:sage_foliat.geo",
+      "texture": "cobblemon:textures/pokemon/sage/foliat/foliat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sage/foliat/foliat_shiny.png"
+    },
+    {
+      "aspects": [
+        "female"
+      ],
+      "texture": "cobblemon:textures/pokemon/sage/foliat/foliat_female.png"
+    },
+    {
+      "aspects": [
+        "shiny",
+		"female"
+      ],
+      "texture": "cobblemon:textures/pokemon/sage/foliat/foliat_shiny_female.png"
+    }
+  ]
+}
