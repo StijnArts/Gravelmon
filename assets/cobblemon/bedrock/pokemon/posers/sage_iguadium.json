@@ -12,6 +12,12 @@
         "animations": [
           "look",
           "bedrock(iguadium, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(iguadium, blink)"]
+          }
         ]
       },
 	  "walking": {
@@ -22,6 +28,12 @@
           "look",
           "bedrock(iguadium, ground_idle)",
           "bedrock(iguadium, blink)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(iguadium, blink)"]
+          }
         ]
       },
 	  "floating": {
@@ -32,6 +44,12 @@
           "look",
           "bedrock(iguadium, ground_idle)",
           "bedrock(iguadium, blink)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(iguadium, blink)"]
+          }
         ]
       },
 	  "swimming": {
@@ -42,6 +60,12 @@
           "look",
           "bedrock(iguadium, ground_idle)",
           "bedrock(iguadium, blink)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(iguadium, blink)"]
+          }
         ]
       }
     }

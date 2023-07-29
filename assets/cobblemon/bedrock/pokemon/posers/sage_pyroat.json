@@ -12,6 +12,12 @@
         "animations": [
           "look",
           "bedrock(pyroat, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(pyroat, blink)"]
+          }
         ]
       },
 	  "walking": {
@@ -20,8 +26,13 @@
         "poseTypes": ["WALK"],
         "animations": [
           "look",
-          "bedrock(pyroat, ground_walk)",
-          "bedrock(pyroat, blink)"
+          "bedrock(pyroat, ground_walk)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(pyroat, blink)"]
+          }
         ]
       }
 	}

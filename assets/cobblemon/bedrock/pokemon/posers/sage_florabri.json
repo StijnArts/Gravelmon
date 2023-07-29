@@ -12,6 +12,12 @@
         "animations": [
           "look",
           "bedrock(florabri, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(florabri, blink)"]
+          }
         ]
       },
 	  "sleeping": {
@@ -30,6 +36,12 @@
         "animations": [
           "look",
           "bedrock(florabri, air_fly)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(florabri, blink)"]
+          }
         ]
       },
 	   "hovering": {
@@ -39,6 +51,12 @@
         "animations": [
           "look",
           "bedrock(florabri, air_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(florabri, blink)"]
+          }
         ]
       }
     }

@@ -12,6 +12,12 @@
         "animations": [
           "look",
           "bedrock(foliat, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(foliat, blink)"]
+          }
         ]
       },
 	  "sleeping": {

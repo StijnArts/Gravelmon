@@ -13,6 +13,12 @@
         "animations": [
           "look",
           "bedrock(aguade, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(aguade, blink)"]
+          }
         ]
       },
 	  "walking": {
@@ -21,8 +27,13 @@
         "poseTypes": ["WALK"],
         "animations": [
           "look",
-          "bedrock(aguade, ground_walk)",
-          "bedrock(aguade, blink)"
+          "bedrock(aguade, ground_walk)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(aguade, blink)"]
+          }
         ]
       },
 	  "floating": {
@@ -31,8 +42,13 @@
         "poseTypes": ["FLOAT"],
         "animations": [
           "look",
-          "bedrock(aguade, water_idle)",
-          "bedrock(aguade, blink)"
+          "bedrock(aguade, water_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(aguade, blink)"]
+          }
         ]
       },
 	  "swimming": {
@@ -41,8 +57,13 @@
         "poseTypes": ["SWIM"],
         "animations": [
           "look",
-          "bedrock(aguade, water_swim)",
-          "bedrock(aguade, blink)"
+          "bedrock(aguade, water_swim)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(aguade, blink)"]
+          }
         ]
       },
 	  "sleeping": {

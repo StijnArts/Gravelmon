@@ -12,6 +12,12 @@
         "animations": [
           "look",
           "bedrock(kidling, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(kidling, blink)"]
+          }
         ]
       },
 	  "walking": {
@@ -22,6 +28,12 @@
           "look",
           "bedrock(kidling, ground_walk)",
 		  "bedrock(kidling, blink"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(kidling, blink)"]
+          }
         ]
       }
 	}

@@ -1,14 +1,24 @@
 {
-  "portraitScale": 0.3,
-  "portraitTranslation": [0.0, 1.8, 0.0],
-  "profileScale": 0.3,
-  "profileTranslation": [0.0, 1.8, 0.0],
+  "portraitScale": 2.1,
+  "portraitTranslation": [-0.8, 2.4, 0.0],
+  "profileScale": 0.6,
+  "profileTranslation": [0.1, 1.2, 0.0],
+   "head": "head",
   "poses": {
     "standing": {
       "poseName": "standing",
       "transformTicks": 10,
       "allPoseTypes": true,
-      "animations": []
+      "animations": [
+			"look",
+          "bedrock(blastoise_ehgo, ground_idle)"
+	  ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(blastoise_ehgo, blink)"]
+          }
+        ]
     }
   }
 }

@@ -12,6 +12,12 @@
         "animations": [
           "look",
           "bedrock(flairees, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(flairees, blink)"]
+          }
         ]
       },
 	  "walking": {
@@ -21,6 +27,12 @@
         "animations": [
           "look",
           "bedrock(flairees, ground_walk)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(flairees, blink)"]
+          }
         ]
       }
     }
