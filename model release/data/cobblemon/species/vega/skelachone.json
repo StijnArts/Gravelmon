@@ -109,6 +109,7 @@
   "pokedex": [
     "cobblemon.species.skelachone.desc"
   ],
+  "preEvolution": "maelstream",
   "baseScale": 1.1,
   "hitbox": {
     "width": 2.0,

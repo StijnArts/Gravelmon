@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bullotus-1",
+      "pokemon": "bullotus",
+      "presets": [
+          "water_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "rare",
+      "level": "4-25",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp",
+"#cobblemon:is_freshwater" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

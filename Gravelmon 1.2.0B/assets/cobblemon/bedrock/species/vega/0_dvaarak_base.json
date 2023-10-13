@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:dvaarak",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vega_dvaarak",
+      "model": "cobblemon:vega_dvaarak.geo",
+      "texture": "cobblemon:textures/pokemon/vega/dvaarak/dvaarak.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vega/dvaarak/dvaarak_shiny.png"
+    }  ]
+}

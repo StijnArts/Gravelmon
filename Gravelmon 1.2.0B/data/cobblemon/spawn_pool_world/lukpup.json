@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lukpup-1",
+      "pokemon": "lukpup",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "3-22",
+      "weight": 18.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "isRaining": false,
+        "moonPhase": "1,2,8",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

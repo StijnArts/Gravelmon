@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "crawglock-1",
+      "pokemon": "crawglock",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "23-39",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_reef",
+"#cobblemon:is_cave" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_desert",
+"#cobblemon:is_mountain",
+"#cobblemon:is_hills" ]    }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "eronze-1",
+      "pokemon": "eronze",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-55",
+      "weight": 5.0E-4,
+      "condition": {
+        "canSeeSky": false,
+"biomes": [ "#cobblemon:is_overworld" ]
+      }
+    }
+  ]
+}

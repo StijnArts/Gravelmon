@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "eghomuk-1",
+      "pokemon": "eghomuk",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "38-44",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ]
+      }
+    }
+  ]
+}

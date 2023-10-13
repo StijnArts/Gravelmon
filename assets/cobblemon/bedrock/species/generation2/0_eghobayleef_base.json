@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:eghobayleef",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_eghobayleef",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/eghobayleef.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/eghobayleef_shiny.png"
+    }  ]
+}

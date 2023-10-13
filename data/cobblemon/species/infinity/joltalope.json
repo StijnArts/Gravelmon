@@ -150,6 +150,7 @@
   "pokedex": [
     "cobblemon.species.joltalope.desc"
   ],
+  "preEvolution": "zapalope",
   "baseScale": 0.20625,
   "hitbox": {
     "width": 3.0,

@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:mightyena",
+  "evolutions": [
+	{
+      "id": "mightyena_wereyena",
+      "variant": "item_interact",
+      "result": "wereyena",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:moon_stone"
+    }
+  ]
+}

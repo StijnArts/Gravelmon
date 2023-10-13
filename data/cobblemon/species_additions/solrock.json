@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:solrock",
+  "evolutions": [
+  {
+      "id": "solrock_planite",
+      "variant": "item_interact",
+      "result": "planite",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+	  "requiredContext": "cobblemon:sun_stone"
+    }
+  ]
+}

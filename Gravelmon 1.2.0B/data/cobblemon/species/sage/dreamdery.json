@@ -1,0 +1,168 @@
+{
+  "implemented": true,
+  "name": "dreamdery",
+  "nationalPokedexNumber": 1146,
+  "primaryType": "psychic",
+  "abilities": [
+    "keeneye",
+    "h:prankster"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 45,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 110,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 125,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 154,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 38,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:wool",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:growl",
+    "1:yawn",
+    "1:confusion",
+    "4:doubleslap",
+    "8:cottonspore",
+    "13:psybeam",
+    "16:hypnosis",
+    "25:flatter",
+    "28:nightmare",
+    "32:psyshock",
+    "37:lovelykiss",
+    "44:psychic",
+    "49:cottonguard",
+    "52:dreameater",
+    "tm:psyshock",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:telekinesis",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:skillswap",
+    "tm:echoedvoice",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:endure",
+    "tm:drainpunch",
+    "tm:rocksmash",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:thunderwave",
+    "tm:psychup",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:focuspunch",
+    "tm:sleeptalk",
+    "tutor:endeavor",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:magiccoat",
+    "tutor:metronome",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:roleplay",
+    "tutor:signalbeam",
+    "tutor:snatch",
+    "tutor:swift",
+    "tutor:trick",
+    "tutor:zenheadbutt",
+    "egg:batonpass",
+    "egg:confuseray",
+    "egg:followme",
+    "egg:foulplay",
+    "egg:hex",
+    "egg:mindreader",
+    "egg:perishsong",
+    "egg:wish"  ],
+  "labels": [
+    "sage"
+  ],
+  "pokedex": [
+    "cobblemon.species.dreamdery.desc"
+  ],
+  "baseScale": 0.16875,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 1
+  },
+  "height": 9,
+  "weight": 245,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

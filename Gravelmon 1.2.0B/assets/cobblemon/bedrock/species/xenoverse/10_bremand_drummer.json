@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:bremand",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+
+     ],
+      "poser": "cobblemon:xenoverse_bremand",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/drummer_bremand.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/drummer_bremand_shiny.png"
+    }  ]
+}

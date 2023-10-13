@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:pachirisu",
+  "evolutions": [
+  {
+      "id": "pachirisu_pachirikku",
+      "variant": "level_up",
+      "result": "pachirikku",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ]
+    }
+  ]
+}

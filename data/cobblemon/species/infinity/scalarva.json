@@ -118,9 +118,9 @@
   ],
   "evolutions": [
     {
-      "id": "scalarva_scalarva",
+      "id": "scalarva_dragalis",
       "variant": "level_up",
-      "result": "scalarva",
+      "result": "dragalis",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "volcaroc-1",
+      "pokemon": "volcaroc",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-39",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_island",
+"#cobblemon:is_desert",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

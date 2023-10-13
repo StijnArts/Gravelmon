@@ -1,0 +1,28 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "jawgodon-1",
+      "pokemon": "jawgodon",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "37-51",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_reef",
+"#cobblemon:is_lukewarm" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_desert",
+"#cobblemon:is_mountain",
+"#cobblemon:is_hills" ]    }
+    }
+  ]
+}

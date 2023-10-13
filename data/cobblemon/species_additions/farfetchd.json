@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:farfetchd",
+  "evolutions": [
+	{
+      "id": "farfetchd_rduckulus",
+      "variant": "level_up",
+      "result": "rduckulus",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:maelstream",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vega_maelstream",
+      "model": "cobblemon:vega_maelstream.geo",
+      "texture": "cobblemon:textures/pokemon/vega/maelstream/maelstream.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vega/maelstream/maelstream_shiny.png"
+    }  ]
+}

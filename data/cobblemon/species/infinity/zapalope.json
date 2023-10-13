@@ -142,9 +142,9 @@
   ],
   "evolutions": [
     {
-      "id": "zapalope_zapalope",
+      "id": "zapalope_joltalope",
       "variant": "level_up",
-      "result": "zapalope",
+      "result": "joltalope",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:eghoivysaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_eghoivysaur",
+      "model": "cobblemon:generation1_eghoivysaur.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/eghoivysaur/eghoivysaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/eghoivysaur/eghoivysaur_shiny.png"
+    }  ]
+}

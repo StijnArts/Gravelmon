@@ -139,6 +139,7 @@
   "pokedex": [
     "cobblemon.species.pyroat.desc"
   ],
+  "preEvolution": "kidling",
   "evolutions": [
     {
       "id": "pyroat_flairees",

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:eghofearow",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_eghofearow",
+      "model": "cobblemon:generation1_eghofearow.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/eghofearow/eghofearow.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/eghofearow/eghofearow_shiny.png"
+    }  ]
+}

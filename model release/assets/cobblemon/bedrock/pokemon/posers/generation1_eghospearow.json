@@ -1,0 +1,15 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [0.1, -0.8, 0.0],
+  "profileScale": 1,
+  "profileTranslation": [0.0, 0.2, 0.0],
+  "head": "head",
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+      "allPoseTypes": true,
+        "animations": []
+    }
+}
+}

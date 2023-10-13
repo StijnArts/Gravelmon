@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magroplex-1",
+      "pokemon": "magroplex",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "43-59",
+      "weight": 1.0,
+      "condition": {
+        "maxY": -30,
+        "canSeeSky": false
+      }
+    }
+  ]
+}

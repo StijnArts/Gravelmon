@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:torkoal",
+  "evolutions": [
+  {
+      "id": "torkoal_galavagos",
+      "variant": "level_up",
+      "result": "galavagos",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:eghocharmander",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_eghocharmander",
+      "model": "cobblemon:generation1_eghocharmander.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/eghocharmander/eghocharmander.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/eghocharmander/eghocharmander_shiny.png"
+    }  ]
+}

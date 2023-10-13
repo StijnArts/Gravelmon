@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hurricanine-1",
+      "pokemon": "hurricanine",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "28-42",
+      "weight": 2.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_coast" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -164,6 +164,7 @@
   "pokedex": [
     "cobblemon.species.iguadium.desc"
   ],
+  "preEvolution": "aguade",
   "evolutions": [
     {
       "id": "iguadium_aguanaut",

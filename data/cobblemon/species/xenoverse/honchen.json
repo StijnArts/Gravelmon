@@ -116,21 +116,7 @@
   "pokedex": [
     "cobblemon.species.honchen.desc"
   ],
-  "evolutions": [
-    {
-      "id": "honchen_honchen",
-      "variant": "level_up",
-      "result": "honchen",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 30
-        }
-      ]   
- }
-  ],
+  "preEvolution": "kidoon",
   "baseScale": 0.9,
   "hitbox": {
     "width": 1.1538461538461537,

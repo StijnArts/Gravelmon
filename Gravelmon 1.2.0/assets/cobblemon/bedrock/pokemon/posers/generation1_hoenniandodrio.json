@@ -1,0 +1,16 @@
+{
+  "portraitScale": 1.6,
+  "portraitTranslation": [-0.3, 1.2, 0.0],
+  "profileScale": 0.8,
+  "profileTranslation": [0.0, 0.6, 0.0],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "animations": [
+          "bedrock(dodrio_hoennian, ground_idle)"
+	  ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "target": "cobblemon:jynx",
+  "evolutions": [
+  {
+      "id": "jynx_sorcerice",
+      "variant": "item_interact",
+      "result": "sorcerice",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "minecraft:quartz"
+    },
+	{
+      "id": "jynx_rougella",
+      "variant": "level_up",
+      "result": "rougella",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ]
+    }
+  ]
+}

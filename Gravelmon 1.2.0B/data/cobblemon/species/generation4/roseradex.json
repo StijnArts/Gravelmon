@@ -1,0 +1,121 @@
+{
+  "implemented": true,
+  "name": "roseradex",
+  "nationalPokedexNumber": 407,
+  "primaryType": "normal",
+  "secondaryType": "poison",
+  "abilities": [
+    "serenegrace",
+    "h:soundproof"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 61,
+    "defence": 65,
+    "special_attack": 134,
+    "special_defence": 90,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 232,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 26,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:twineedle",
+    "1:poisonsting",
+    "1:growl",
+    "1:supersonic",
+    "1:echoedvoice",
+    "1:encore",
+    "1:screech",
+    "1:venoshock",
+    "1:sing",
+    "1:poisonjab",
+    "1:toxicspikes",
+    "1:uproar",
+    "1:flatter",
+    "1:hypervoice",
+    "40:toxic",
+    "45:perishsong",
+    "50:synchronoise",
+    "tm:roar",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:return",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:smartstrike",
+    "tm:gigaimpact",
+    "tm:swordsdance",
+    "tm:psychup",
+    "tm:xscissor",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:substitute",
+    "tutor:secretpower"  ],
+  "labels": [
+    "xenoverse",
+    "gen4"
+  ],
+  "pokedex": [
+    "cobblemon.species.roseradex.desc"
+  ],
+  "baseScale": 0.16875,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 145,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -110,6 +110,7 @@
   "pokedex": [
     "cobblemon.species.dragalis.desc"
   ],
+  "preEvolution": "scalarva",
   "evolutions": [
     {
       "id": "dragalis_ceregal",

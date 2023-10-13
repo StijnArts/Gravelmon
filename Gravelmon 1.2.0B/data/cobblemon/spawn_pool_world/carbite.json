@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "carbite-1",
+      "pokemon": "carbite",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-28",
+      "weight": 3.0,
+      "condition": {
+        "maxY": 0,
+        "canSeeSky": false
+      }
+    }
+  ]
+}

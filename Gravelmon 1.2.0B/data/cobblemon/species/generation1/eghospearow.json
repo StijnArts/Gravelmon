@@ -1,0 +1,176 @@
+{
+  "implemented": true,
+  "name": "eghospearow",
+  "nationalPokedexNumber": 21,
+  "primaryType": "dark",
+  "secondaryType": "fighting",
+  "abilities": [
+    "defiant",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 70,
+    "defence": 25,
+    "special_attack": 26,
+    "special_defence": 31,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 52,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "flying"
+  ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:peck",
+    "1:growl",
+    "1:beatup",
+    "5:furyattack",
+    "9:bite",
+    "13:doublekick",
+    "17:pursuit",
+    "21:lowsweep",
+    "24:agility",
+    "29:focusenergy",
+    "30:jumpkick",
+    "38:crunch",
+    "42:highjumpkick",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:return",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:falseswipe",
+    "tm:quash",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:retaliate",
+    "tm:stoneedge",
+    "tm:swordsdance",
+    "tm:xscissor",
+    "tm:workup",
+    "tm:swagger",
+    "tm:pluck",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:rocksmash",
+    "tm:bulletseed",
+    "tm:cut",
+    "tutor:darkpulse",
+    "tutor:drillrun",
+    "tutor:heatwave",
+    "tutor:icywind",
+    "tutor:roost",
+    "tutor:suckerpunch",
+    "egg:astonish",
+    "egg:crosspoison",
+    "egg:featherdance",
+    "egg:feintattack",
+    "egg:quickattack",
+    "egg:razorwind",
+    "egg:scaryface",
+    "egg:uproar",
+    "egg:whirlwind"  ],
+  "labels": [
+    "infinity",
+    "gen1"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghospearow.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "eghospearow_eghofearow",
+      "variant": "level_up",
+      "result": "eghofearow",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.4,
+    "height": 0.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 28,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

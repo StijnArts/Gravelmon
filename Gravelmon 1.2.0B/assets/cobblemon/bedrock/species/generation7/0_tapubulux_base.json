@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:tapubulux",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation7_tapubulux",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation7/tapubulux.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation7/tapubulux_shiny.png"
+    }  ]
+}

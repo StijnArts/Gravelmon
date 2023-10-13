@@ -1,0 +1,32 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [0.0, -0.4, 0.0],
+  "profileScale": 0.9,
+  "profileTranslation": [0.0, 0.4, 0.0],
+  "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": ["STAND", "NONE", "WALK", "PORTRAIT", "PROFILE"],
+        "animations": [
+          "bedrock(tentyrant, ground_idle)"
+        ]
+      },
+      "swimming": {
+        "poseName": "swimming",
+        "transformTicks": 10,
+        "poseTypes": ["SWIM"],
+        "animations": [
+          "bedrock(tentyrant, water_swim)"
+        ]
+      },
+      "floating": {
+        "poseName": "floating",
+        "transformTicks": 10,
+        "poseTypes": ["FLOAT"],
+        "animations": [
+          "bedrock(tentyrant, water_idle)"
+        ]
+      }
+    }
+}

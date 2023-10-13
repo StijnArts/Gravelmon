@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:eghotangrowth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation4_eghotangrowth",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/eghotangrowth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/eghotangrowth_shiny.png"
+    }  ]
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bluffin-1",
+      "pokemon": "bluffin",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "6-28",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain",
+"#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

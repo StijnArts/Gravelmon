@@ -119,19 +119,7 @@
   "pokedex": [
     "cobblemon.species.sunduke.desc"
   ],
-  "evolutions": [
-    {
-      "id": "sunduke_sunduke",
-      "variant": "item_interact",
-      "result": "sunduke",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "cobblemon:sun_stone"   
- }
-  ],
+  "preEvolution": "drosire",
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,
