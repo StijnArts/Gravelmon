@@ -155,6 +155,8 @@
     "cobblemon.species.galvantulax.desc1": "It freezes the air around its nest. Then it traps prey in a thick ice web, slowly leading them to hypothermia.",
     "cobblemon.species.bisharpx.name": "Bisharp",
     "cobblemon.species.bisharpx.desc1": "The Bisharp owned by Dimension Sergeant S. The consciences of both A & B's Bisharp coexist in this Pokémon.",
+    "cobblemon.species.hoennianemolga.name": "Emolga",
+    "cobblemon.species.hoennianemolga.desc1": "Emolga swoop down from the sky in an effort to frighten townsfolk. Due to their adorable appearance, however, they are rarely successful.",
     "cobblemon.species.greninjax.name": "Greninja",
     "cobblemon.species.greninjax.desc1": "It moves under cover of darkness. It throws knives of hell fire at its opponents, piercing their flesh and leaving them with atrocious burns.",
     "cobblemon.species.aegislashx.name": "Aegislash",
@@ -1120,5 +1122,7 @@
     "cobblemon.species.ehgotrubbish.name": "Evolve me to fix me!",
     "cobblemon.species.ehgotrubbish.desc1": "",
     "cobblemon.species.ehgogarbodor.name": "Evolve me to fix me!",
-    "cobblemon.species.ehgogarbodor.desc1": ""
+    "cobblemon.species.ehgogarbodor.desc1": "",
+    "cobblemon.species.hoennianemolga.name": "Evolve me to fix me!",
+    "cobblemon.species.hoennianemolga.desc1": ""
 }

@@ -1,5 +1,5 @@
 {
-  "species": "cobblemon:ehgohoothoot",
+  "species": "cobblemon:eghohoothoot",
   "order": 0,
   "variations": [
     {
@@ -20,7 +20,7 @@
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation2/eghohoothoot/ehgohoothoot_shiny.png",
+      "texture": "cobblemon:textures/pokemon/generation2/eghohoothoot/eghohoothoot_shiny.png",
 	  "layers": [
 	  {
           "name": "glow",
