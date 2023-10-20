@@ -23,7 +23,12 @@ loom {
 
 dependencies {
     minecraft("net.minecraft:minecraft:1.20.1")
-    mappings("net.fabricmc:yarn:1.20.1+build.9")
+    mappings(loom.layered() {
+        officialMojangMappings()
+        // Use parchment mappings. NOTE: Parchment maven must be manually added. (https://maven.parchmentmc.org)
+        mappings("net.fabricmc:yarn:1.20.1+build.9")
+    })
+
     modImplementation("net.fabricmc:fabric-loader:0.14.21")
 
     modImplementation("net.fabricmc.fabric-api:fabric-api:0.90.0+1.20.1")

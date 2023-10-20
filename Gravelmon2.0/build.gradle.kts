@@ -4,7 +4,7 @@ plugins {
     kotlin("jvm") version("1.7.10")
 
     id("dev.architectury.loom") version("1.2-SNAPSHOT") apply false
-    id("architectury-plugin") version("3.4-SNAPSHOT")
+    id("architectury-plugin") version("3.4-SNAPSHOT") apply false
 }
 
 group = "drai.dev"

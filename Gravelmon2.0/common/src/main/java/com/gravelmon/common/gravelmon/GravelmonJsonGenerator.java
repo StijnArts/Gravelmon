@@ -1,8 +1,5 @@
 package com.gravelmon.common.gravelmon;
 
-import com.gravelmon.common.gravelmon.games.*;
-import com.gravelmon.common.gravelmon.jsonwriters.*;
-import com.gravelmon.common.gravelmon.pokemon.*;
 
 public class GravelmonJsonGenerator
 {
