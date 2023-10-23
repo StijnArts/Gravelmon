@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltaludicolo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_deltaludicolo",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaludicolo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/deltaludicolo_shiny.png"
+    }  ]
+}

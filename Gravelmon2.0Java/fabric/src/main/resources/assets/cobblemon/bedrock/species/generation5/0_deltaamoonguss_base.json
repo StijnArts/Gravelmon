@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltaamoonguss",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_deltaamoonguss",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/deltaamoonguss.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/deltaamoonguss_shiny.png"
+    }  ]
+}

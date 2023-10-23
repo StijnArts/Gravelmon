@@ -1,0 +1,163 @@
+{
+  "implemented": true,
+  "name": "trenchula",
+  "nationalPokedexNumber": 1213,
+  "primaryType": "bug",
+  "secondaryType": "ground",
+  "abilities": [
+    "arenatrap",
+    "h:unnerve"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 109,
+    "special_attack": 40,
+    "special_defence": 60,
+    "speed": 84
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 164,
+  "experienceGroup": "fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "bug"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
+  "moves": [
+    "1:rapidspin",
+    "1:stringshot",
+    "1:scratch",
+    "1:magnitude",
+    "1:poisonfang",
+    "4:leechlife",
+    "7:sandtomb",
+    "11:foresight",
+    "17:spiderweb",
+    "21:bulldoze",
+    "24:bugbite",
+    "27:dig",
+    "27:twineedle",
+    "31:suckerpunch",
+    "34:drillrun",
+    "41:chipaway",
+    "44:rockslide",
+    "47:gastroacid",
+    "51:xscissor",
+    "54:wideguard",
+    "57:earthquake",
+    "61:fissure",
+    "tm:honeclaws",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:gigadrain",
+    "tm:endure",
+    "tm:rocksmash",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:stoneedge",
+    "tm:swordsdance",
+    "tm:strugglebug",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:xscissor",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:cut",
+    "tm:strength",
+    "tutor:ancientpower",
+    "tutor:bugbite",
+    "tutor:earthpower",
+    "tutor:electroweb",
+    "tutor:gastroacid",
+    "tutor:ironhead",
+    "tutor:mudslap",
+    "tutor:signalbeam",
+    "tutor:stealthrock",
+    "egg:disable",
+    "egg:drillpeck",
+    "egg:poisonsting",
+    "egg:powergem",
+    "egg:rockblast",
+    "egg:signalbeam",
+    "egg:steamroller",
+    "egg:twineedle"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.trenchula.desc"
+  ],
+  "preEvolution": "minarac",
+  "baseScale": 0.20625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 230,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

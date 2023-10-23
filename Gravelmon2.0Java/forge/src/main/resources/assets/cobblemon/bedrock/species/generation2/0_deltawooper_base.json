@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltawooper",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_deltawooper",
+      "model": "cobblemon:deltawooper.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/deltawooper.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/deltawooper_shiny.png"
+    }  ]
+}

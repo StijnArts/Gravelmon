@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltascizor-1",
+      "pokemon": "deltascizor",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-51",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ],
+        "isRaining": true,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

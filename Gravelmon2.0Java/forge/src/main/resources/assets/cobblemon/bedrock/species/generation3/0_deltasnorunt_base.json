@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltasnorunt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_deltasnorunt",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltasnorunt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/deltasnorunt_shiny.png"
+    }  ]
+}

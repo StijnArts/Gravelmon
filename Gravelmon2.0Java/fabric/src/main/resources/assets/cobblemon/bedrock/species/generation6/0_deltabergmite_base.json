@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltabergmite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation6_deltabergmite",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation6/deltabergmite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation6/deltabergmite_shiny.png"
+    }  ]
+}

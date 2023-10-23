@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltavenusaur",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation1_deltavenusaur",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/mega_deltavenusaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/mega_deltavenusaur_shiny.png"
+    }  ]
+}

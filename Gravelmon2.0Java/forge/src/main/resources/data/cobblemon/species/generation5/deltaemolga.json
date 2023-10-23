@@ -1,0 +1,218 @@
+{
+  "implemented": true,
+  "name": "deltaemolga",
+  "nationalPokedexNumber": 587,
+  "primaryType": "fire",
+  "secondaryType": "dark",
+  "abilities": [
+    "flashfire",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 75,
+    "special_defence": 60,
+    "speed": 103
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Blaze-Boost",
+      "primaryType": "fire",
+      "secondaryType": "dark",
+      "abilities": [
+    "flashfire",
+    "h:keeneye"
+      ],
+      "baseScale": 0.075,
+        "hitbox": {
+          "width": 0.9,
+          "height": 1.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 55,
+        "attack": 75,
+        "defence": 60,
+        "special_attack": 75,
+        "special_defence": 60,
+        "speed": 103
+      },
+      "catchRate": 90,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 150,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 2,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"      ],
+      "moves": [
+      ],
+  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence"
+      ],
+      "aspects": [
+        "blaze_boost"
+      ],
+      "height": 0,
+      "weight": 500,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 150,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:ember",
+    "4:quickattack",
+    "7:tailwhip",
+    "10:willowisp",
+    "13:flamewheel",
+    "15:flamecharge",
+    "16:pursuit",
+    "19:doubleteam",
+    "22:feintattack",
+    "26:mysticalfire",
+    "30:woodhammer",
+    "34:sunnyday",
+    "38:encore",
+    "42:darkpulse",
+    "46:nastyplot",
+    "50:lavaplume",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:irontail",
+    "tm:return",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:overheat",
+    "tm:energyball",
+    "tm:fling",
+    "tm:willowisp",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:acrobatics",
+    "tm:darkpulse",
+    "tm:incinerate",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:flash",
+    "tm:cut",
+    "tutor:acid",
+    "tutor:batonpass",
+    "tutor:bounce",
+    "tutor:bulletseed",
+    "tutor:covet",
+    "tutor:dig",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:headbutt",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:mimic",
+    "tutor:nastyplot",
+    "tutor:ominouswind",
+    "tutor:seismictoss",
+    "tutor:signalbeam",
+    "tutor:snore",
+    "tutor:suckerpunch",
+    "tutor:swift"  ],
+  "labels": [
+    "gen5",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaemolga.desc"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 50,
+  "aspects": [],
+"features": [
+"blazeboost"
+  ],  "cannotDynamax": false
+}

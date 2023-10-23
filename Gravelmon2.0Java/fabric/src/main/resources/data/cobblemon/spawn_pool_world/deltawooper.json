@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltawooper-1",
+      "pokemon": "deltawooper",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "22-39",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

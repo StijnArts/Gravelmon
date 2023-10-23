@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kobalt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sage_kobalt",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/sage/kobalt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sage/kobalt_shiny.png"
+    }  ]
+}

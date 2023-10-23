@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltaruinmetagross",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_deltaruinmetagross",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/deltaruinmetagross_shiny.png"
+    }  ]
+}

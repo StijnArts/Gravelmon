@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:tyranitar",
+  "evolutions": [
+	{
+      "id": "tyranitar_tyranitarx",
+      "variant": "item_interact",
+      "result": "tyranitarx",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:inductive_ring"
+    }
+  ]
+}

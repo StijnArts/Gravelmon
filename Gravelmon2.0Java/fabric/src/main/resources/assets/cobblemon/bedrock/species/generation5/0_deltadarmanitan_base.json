@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltadarmanitan",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_deltadarmanitan",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadarmanitan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/deltadarmanitan_shiny.png"
+    }  ]
+}

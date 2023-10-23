@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltascizor",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation2_deltascizor",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/mega_deltascizor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/mega_deltascizor_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltadiglett",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_deltadiglett",
+      "model": "cobblemon:deltadiglett.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltadiglett.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/deltadiglett_shiny.png"
+    }  ]
+}

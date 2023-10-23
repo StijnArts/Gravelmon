@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltaglalie-1",
+      "pokemon": "deltaglalie",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-52",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

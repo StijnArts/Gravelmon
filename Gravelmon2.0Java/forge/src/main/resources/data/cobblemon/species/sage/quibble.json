@@ -1,0 +1,176 @@
+{
+  "implemented": true,
+  "name": "quibble",
+  "nationalPokedexNumber": 1192,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "bigpecks",
+    "rivalry",
+    "h:competitive"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 40,
+    "special_attack": 70,
+    "special_defence": 40,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 59,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "field"
+  ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:leer",
+    "1:tackle",
+    "4:sandattack",
+    "7:gust",
+    "10:mudslap",
+    "13:echoedvoice",
+    "16:whirlwind",
+    "19:aircutter",
+    "22:tailwind",
+    "25:uproar",
+    "31:roost",
+    "34:razorwind",
+    "37:taunt",
+    "40:airslash",
+    "43:hypervoice",
+    "46:nastyplot",
+    "49:mirrormove",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:echoedvoice",
+    "tm:endure",
+    "tm:payback",
+    "tm:workup",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:fly",
+    "tutor:doubleedge",
+    "tutor:endeavor",
+    "tutor:fling",
+    "tutor:heatwave",
+    "tutor:hypervoice",
+    "tutor:knockoff",
+    "tutor:mudslap",
+    "tutor:payday",
+    "tutor:snatch",
+    "tutor:snore",
+    "tutor:spite",
+    "tutor:steelwing",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:trick",
+    "tutor:uproar",
+    "egg:aircutter",
+    "egg:razorwind",
+    "egg:roost",
+    "egg:sandtomb",
+    "egg:skyattack",
+    "egg:weatherball"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.quibble.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "quibble_fowattle",
+      "variant": "level_up",
+      "result": "fowattle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 19,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

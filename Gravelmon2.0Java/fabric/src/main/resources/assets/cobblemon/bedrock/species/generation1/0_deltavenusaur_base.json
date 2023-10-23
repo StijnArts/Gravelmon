@@ -1,0 +1,36 @@
+{
+  "species": "cobblemon:deltavenusaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_mdeltavenusaur",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltavenusaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/deltavenusaur_shiny.png"
+    },
+    {
+      "aspects": [
+        "female"
+      ],
+      "model": "cobblemon:deltavenusaur.geo",
+      "poser": "cobblemon:generation1_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltavenusaur_female.png"
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny"
+      ],
+      "model": "cobblemon:deltavenusaur.geo",
+      "poser": "cobblemon:generation1_deltaivysaur",
+      "texture": "cobblemon:textures/pokemon/generation1/deltavenusaur_female_shiny.png"
+    }
+  ]
+}

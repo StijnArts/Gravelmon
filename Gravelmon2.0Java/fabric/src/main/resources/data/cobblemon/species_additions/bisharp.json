@@ -1,0 +1,14 @@
+{
+  "target": "cobblemon:bisharp",
+  "evolutions": [
+	{
+      "id": "bisharp_bisharpx",
+      "variant": "item_interact",
+      "result": "bisharpx",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "gravelmon:inductive_ring"
+    }
+  ]
+}

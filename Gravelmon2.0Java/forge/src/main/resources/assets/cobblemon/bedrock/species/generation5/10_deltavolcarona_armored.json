@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltavolcarona",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "armored"
+     ],
+      "poser": "cobblemon:generation5_deltavolcarona",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/armored_deltavolcarona.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "armored",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/armored_deltavolcarona_shiny.png"
+    }  ]
+}

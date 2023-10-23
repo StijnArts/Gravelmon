@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltamedicham",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation3_deltamedicham",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/mega_deltamedicham.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/mega_deltamedicham_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltasableye",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_deltasableye",
+      "model": "cobblemon:deltasableye.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltasableye.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/deltasableye_shiny.png"
+    }  ]
+}

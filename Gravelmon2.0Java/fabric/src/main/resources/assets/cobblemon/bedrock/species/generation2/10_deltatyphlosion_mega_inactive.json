@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltatyphlosion",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation2_deltatyphlosion",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/mega_inactive_deltatyphlosion.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/mega_inactive_deltatyphlosion_shiny.png"
+    }  ]
+}

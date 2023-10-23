@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltaelectivire",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation4_deltaelectivire",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/deltaelectivire.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/deltaelectivire_shiny.png"
+    }  ]
+}

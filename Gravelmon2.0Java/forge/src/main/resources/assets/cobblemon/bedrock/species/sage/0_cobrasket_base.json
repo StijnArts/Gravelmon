@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cobrasket",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sage_cobrasket",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/sage/cobrasket.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sage/cobrasket_shiny.png"
+    }  ]
+}

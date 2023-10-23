@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cuppy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sage_cuppy",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/sage/cuppy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/sage/cuppy_shiny.png"
+    }  ]
+}

@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltacharizard",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation1_deltacharizard",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/mega_deltacharizard.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/mega_deltacharizard_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltamuk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_deltamuk",
+      "model": "cobblemon:deltamuk.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltamuk.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/deltamuk_shiny.png"
+    }  ]
+}

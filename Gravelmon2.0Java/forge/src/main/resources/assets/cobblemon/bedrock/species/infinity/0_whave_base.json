@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:whave",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:infinity_whave",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/whave.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/whave_shiny.png"
+    }  ]
+}

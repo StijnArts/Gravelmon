@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltaaipom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_deltaaipom",
+      "model": "cobblemon:deltaaipom.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/deltaaipom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/deltaaipom_shiny.png"
+    }  ]
+}

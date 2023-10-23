@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltapidgey",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_deltapidgey",
+      "model": "cobblemon:deltapidgey.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltapidgey.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/deltapidgey_shiny.png"
+    }  ]
+}

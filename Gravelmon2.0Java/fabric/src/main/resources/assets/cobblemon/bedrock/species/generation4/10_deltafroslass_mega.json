@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltafroslass",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation4_deltafroslass",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/mega_deltafroslass.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/mega_deltafroslass_shiny.png"
+    }  ]
+}

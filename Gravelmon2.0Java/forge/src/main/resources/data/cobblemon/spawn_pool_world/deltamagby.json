@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltamagby-1",
+      "pokemon": "deltamagby",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

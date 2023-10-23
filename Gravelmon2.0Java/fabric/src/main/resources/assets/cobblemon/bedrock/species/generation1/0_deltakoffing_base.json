@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltakoffing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_deltakoffing",
+      "model": "cobblemon:deltakoffing.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltakoffing.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/deltakoffing_shiny.png"
+    }  ]
+}

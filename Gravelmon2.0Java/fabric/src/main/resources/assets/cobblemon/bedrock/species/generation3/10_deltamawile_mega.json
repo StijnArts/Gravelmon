@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltamawile",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation3_deltamawile",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/mega_deltamawile.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/mega_deltamawile_shiny.png"
+    }  ]
+}

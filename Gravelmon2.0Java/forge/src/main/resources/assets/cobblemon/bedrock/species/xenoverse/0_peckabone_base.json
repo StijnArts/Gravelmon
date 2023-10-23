@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:peckabone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:xenoverse_peckabone",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/peckabone.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/peckabone_shiny.png"
+    }  ]
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltakirlia-1",
+      "pokemon": "deltakirlia",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "isThundering": true,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

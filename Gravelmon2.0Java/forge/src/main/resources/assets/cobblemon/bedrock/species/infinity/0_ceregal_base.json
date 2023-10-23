@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ceregal",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:infinity_ceregal",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/ceregal.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/ceregal_shiny.png"
+    }  ]
+}

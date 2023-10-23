@@ -1,0 +1,174 @@
+{
+  "implemented": true,
+  "name": "deltalotad",
+  "nationalPokedexNumber": 270,
+  "primaryType": "psychic",
+  "secondaryType": "water",
+  "abilities": [
+    "magicbounce",
+    "synchronize",
+    "h:unaware"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 30,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 44,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:confusion",
+    "3:telekinesis",
+    "6:psywave",
+    "9:watergun",
+    "12:roleplay",
+    "15:entrainment",
+    "18:psybeam",
+    "21:waterpulse",
+    "24:acupressure",
+    "27:psyshock",
+    "30:raindance",
+    "33:storedpower",
+    "36:whirlpool",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:recycle",
+    "tm:brine",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:embargo",
+    "tm:psychup",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:dazzlinggleam",
+    "tm:allyswitch",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:flash",
+    "tm:telekinesis",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:bodyslam",
+    "tutor:endure",
+    "tutor:gravity",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:icywind",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:signalbeam",
+    "tutor:snore",
+    "tutor:swift",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:waterpulse",
+    "tutor:whirlpool",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltalotad.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltalotad_deltalombre",
+      "variant": "level_up",
+      "result": "deltalombre",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 14
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 26,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

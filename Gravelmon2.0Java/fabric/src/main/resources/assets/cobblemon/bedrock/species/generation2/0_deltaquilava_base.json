@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltaquilava",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_deltaquilava",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/deltaquilava.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/deltaquilava_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ufi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:insurgence_ufi",
+      "model": "cobblemon:ufi.geo",
+      "texture": "cobblemon:textures/pokemon/insurgence/ufi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/insurgence/ufi_shiny.png"
+    }  ]
+}

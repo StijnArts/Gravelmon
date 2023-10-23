@@ -1,0 +1,144 @@
+{
+  "implemented": true,
+  "name": "sunduke",
+  "nationalPokedexNumber": 1289,
+  "primaryType": "grass",
+  "abilities": [
+    "chlorophyll",
+    "h:sweetveil"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 80,
+    "defence": 115,
+    "special_attack": 105,
+    "special_defence": 95,
+    "speed": 43
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 185,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 39,
+  "eggGroups": [
+    "grass"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:cactus",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
+  "moves": [
+    "1:feintattack",
+    "1:sweetscent",
+    "17:sunnyday",
+    "37:gigadrain",
+    "47:weatherball",
+    "50:synthesis",
+    "54:solarbeam",
+    "60:powerwhip",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sludgebomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:fling",
+    "tm:endure",
+    "tm:drainpunch",
+    "tm:rocksmash",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:swordsdance",
+    "tm:poisonjab",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:bulletseed",
+    "tm:cut",
+    "tm:strength",
+    "tutor:ancientpower",
+    "tutor:doubleedge",
+    "tutor:gastroacid",
+    "tutor:knockoff",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:recycle",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:synthesis",
+    "tutor:thunderpunch",
+    "tutor:worryseed"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.sunduke.desc"
+  ],
+  "preEvolution": "drosire",
+  "baseScale": 0.2625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 309,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltalopunny",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation4_deltalopunny",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/mega_deltalopunny.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/mega_deltalopunny_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltatreecko",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_deltatreecko",
+      "model": "cobblemon:deltatreecko.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltatreecko.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/deltatreecko_shiny.png"
+    }  ]
+}

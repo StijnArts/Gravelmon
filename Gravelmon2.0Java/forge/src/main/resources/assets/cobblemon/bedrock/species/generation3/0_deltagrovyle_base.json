@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltagrovyle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_deltagrovyle",
+      "model": "cobblemon:deltagrovyle.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltagrovyle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/deltagrovyle_shiny.png"
+    }  ]
+}

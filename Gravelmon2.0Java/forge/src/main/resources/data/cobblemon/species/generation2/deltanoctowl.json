@@ -1,0 +1,152 @@
+{
+  "implemented": true,
+  "name": "deltanoctowl",
+  "nationalPokedexNumber": 164,
+  "primaryType": "ice",
+  "secondaryType": "flying",
+  "abilities": [
+    "noguard",
+    "keeneye",
+    "h:snowcloak"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 76,
+    "special_defence": 96,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 158,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:sheercold",
+    "1:skyattack",
+    "1:powdersnow",
+    "1:growl",
+    "1:mist",
+    "1:hail",
+    "5:hail",
+    "9:peck",
+    "13:icywind",
+    "17:camouflage",
+    "22:aircutter",
+    "27:iceshard",
+    "32:feint",
+    "37:airslash",
+    "42:razorwind",
+    "47:blizzard",
+    "52:hurricane",
+    "57:defog",
+    "62:roost",
+    "67:sheercold",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roost",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:frostbreath",
+    "tm:acrobatics",
+    "tm:dazzlinggleam",
+    "tm:avalanche",
+    "tm:silverwind",
+    "tm:skydrop",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:pluck",
+    "tm:secretpower",
+    "tm:fly",
+    "tutor:acid",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:helpinghand",
+    "tutor:hurricane",
+    "tutor:hypervoice",
+    "tutor:icywind",
+    "tutor:mimic",
+    "tutor:skyattack",
+    "tutor:snore",
+    "tutor:tailwind",
+    "tutor:uproar"  ],
+  "labels": [
+    "gen2",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltanoctowl.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 408,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

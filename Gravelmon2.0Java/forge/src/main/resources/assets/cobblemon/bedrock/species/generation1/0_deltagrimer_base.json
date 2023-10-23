@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltagrimer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_deltagrimer",
+      "model": "cobblemon:deltagrimer.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltagrimer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/deltagrimer_shiny.png"
+    }  ]
+}

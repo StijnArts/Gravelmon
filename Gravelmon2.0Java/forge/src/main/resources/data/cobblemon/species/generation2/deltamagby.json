@@ -1,0 +1,160 @@
+{
+  "implemented": true,
+  "name": "deltamagby",
+  "nationalPokedexNumber": 240,
+  "primaryType": "water",
+  "abilities": [
+    "swiftswim",
+    "h:raindish"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 75,
+    "defence": 37,
+    "special_attack": 70,
+    "special_defence": 55,
+    "speed": 83
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 72,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:metalclaw",
+    "1:leer",
+    "5:watergun",
+    "8:haze",
+    "12:feintattack",
+    "15:whirlpool",
+    "19:crushclaw",
+    "22:waterpulse",
+    "26:confuseray",
+    "29:dive",
+    "33:aquajet",
+    "36:autotomize",
+    "40:aquatail",
+    "43:hydropump",
+    "tm:honeclaws",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:brine",
+    "tm:shadowclaw",
+    "tm:retaliate",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:aquatail",
+    "tutor:bodyslam",
+    "tutor:counter",
+    "tutor:dynamicpunch",
+    "tutor:endure",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:seismictoss",
+    "tutor:snore",
+    "tutor:waterpulse",
+    "tutor:whirlpool"  ],
+  "labels": [
+    "gen2",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltamagby.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltamagby_deltamagmar",
+      "variant": "level_up",
+      "result": "deltamagmar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.13125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 7,
+  "weight": 214,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

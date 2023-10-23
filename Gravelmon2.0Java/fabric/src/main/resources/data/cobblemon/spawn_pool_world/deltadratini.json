@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltadratini-1",
+      "pokemon": "deltadratini",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-43",
+      "weight": 2.0,
+      "condition": {
+        "canSeeSky": true,
+        "isThundering": true
+      }
+    }
+  ]
+}

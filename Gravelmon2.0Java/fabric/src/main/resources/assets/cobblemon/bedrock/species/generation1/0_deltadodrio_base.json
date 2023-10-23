@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltadodrio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_deltadodrio",
+      "model": "cobblemon:deltadodrio.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltadodrio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/deltadodrio_shiny.png"
+    }  ]
+}

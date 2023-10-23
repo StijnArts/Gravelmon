@@ -1,0 +1,180 @@
+{
+  "implemented": true,
+  "name": "zapalope",
+  "nationalPokedexNumber": 1395,
+  "primaryType": "grass",
+  "secondaryType": "electric",
+  "abilities": [
+    "fluffy",
+    "h:cheekpouch"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 75,
+    "defence": 40,
+    "special_attack": 35,
+    "special_defence": 30,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 105,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "grass",
+    "fairy"
+  ],
+  "moves": [
+    "1:leechseed",
+    "1:payday",
+    "1:thundershock",
+    "1:absorb",
+    "5:vinewhip",
+    "10:ingrain",
+    "15:rollout",
+    "15:megadrain",
+    "20:nuzzle",
+    "25:razorleaf",
+    "30:hornattack",
+    "35:gigadrain",
+    "40:hornleech",
+    "45:bodyslam",
+    "50:wildcharge",
+    "55:playrough",
+    "tm:honeclaws",
+    "tm:psyshock",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:telekinesis",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:allyswitch",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:chargebeam",
+    "tm:quash",
+    "tm:acrobatics",
+    "tm:embargo",
+    "tm:retaliate",
+    "tm:flash",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:gyroball",
+    "tm:xscissor",
+    "tm:workup",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:pluck",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:wildcharge",
+    "tm:rocksmash",
+    "tm:bulletseed",
+    "tm:cut",
+    "tutor:ancientpower",
+    "tutor:earthpower",
+    "tutor:gigadrain",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:megakick",
+    "tutor:rollout",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:suckerpunch",
+    "tutor:thunderpunch",
+    "tutor:zenheadbutt",
+    "egg:bellydrum",
+    "egg:cottonguard",
+    "egg:crosspoison",
+    "egg:defensecurl",
+    "egg:fakeout",
+    "egg:healpulse",
+    "egg:magnetrise",
+    "egg:shadowsneak",
+    "egg:synthesis"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.zapalope.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "zapalope_joltalope",
+      "variant": "level_up",
+      "result": "joltalope",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "hornleech"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 5,
+  "weight": 100,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

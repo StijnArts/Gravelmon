@@ -1,0 +1,157 @@
+{
+  "implemented": true,
+  "name": "orbatom",
+  "nationalPokedexNumber": 1205,
+  "primaryType": "normal",
+  "secondaryType": "electric",
+  "abilities": [
+    "lightningrod",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 46,
+    "special_attack": 100,
+    "special_defence": 86,
+    "speed": 200
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 176,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
+  "moves": [
+    "1:heatwave",
+    "1:tackle",
+    "1:charge",
+    "1:hiddenpower",
+    "2:thundershock",
+    "6:minimize",
+    "10:sonicboom",
+    "14:agility",
+    "15:thunderwave",
+    "19:shockwave",
+    "23:swift",
+    "27:chargebeam",
+    "28:lightscreen",
+    "32:magnetrise",
+    "36:triattack",
+    "41:electroball",
+    "48:discharge",
+    "53:overdrive",
+    "58:lockon",
+    "60:zapcannon",
+    "tm:psyshock",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:telekinesis",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:overheat",
+    "tm:focusblast",
+    "tm:chargebeam",
+    "tm:endure",
+    "tm:acrobatics",
+    "tm:explosion",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:gyroball",
+    "tm:psychup",
+    "tm:workup",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:sleeptalk",
+    "tutor:ancientpower",
+    "tutor:bounce",
+    "tutor:electroweb",
+    "tutor:gravity",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:recycle",
+    "tutor:signalbeam",
+    "tutor:swift",
+    "tutor:uproar",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.orbatom.desc"
+  ],
+  "preEvolution": "atomite",
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 1,
+  "weight": 1,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

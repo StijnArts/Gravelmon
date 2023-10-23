@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltahaxorus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_deltahaxorus",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/deltahaxorus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/deltahaxorus_shiny.png"
+    }  ]
+}

@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:deltawartortle",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_deltawartortle",
+      "model": "cobblemon:deltawartortle.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltawartortle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/deltawartortle__shiny.png"
+    }
+  ]
+}

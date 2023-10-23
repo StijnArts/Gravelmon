@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:masgot",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "ground"
+     ],
+      "poser": "cobblemon:xenoverse_masgot",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/ground_masgot.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "ground",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/xenoverse/ground_masgot_shiny.png"
+    }  ]
+}

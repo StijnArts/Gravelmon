@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:deltamaractus",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_deltamaractus",
+      "model": "cobblemon:deltamaractus.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus.png",
+      "layers": [
+		      {
+        "name": "glow",
+        "texture": "cobblemon:textures/pokemon/generation5/deltamaractus_emissive.png",
+        "emissive": true,
+        "translucent": true
+       }			  
+	  ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/deltamaractus_shiny.png",
+      "layers": [
+		      {
+        "name": "glow",
+        "texture": "cobblemon:textures/pokemon/generation5/deltamaractus_shiny_emissive.png",
+        "emissive": true,
+        "translucent": true
+        }			  
+	  ]
+    }
+  ]
+}

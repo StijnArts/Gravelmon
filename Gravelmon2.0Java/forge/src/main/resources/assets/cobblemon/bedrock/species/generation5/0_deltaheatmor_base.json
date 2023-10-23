@@ -1,0 +1,34 @@
+{
+    "species": "cobblemon:deltaheatmor",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:generation5_deltaheatmor",
+        "model": "cobblemon:deltaheatmor.geo",
+        "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor.png",
+        "layers": [
+		      {
+        "name": "glow",
+        "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor_emissive.png",
+        "emissive": true,
+        "translucent": true
+      }
+		]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor_shiny.png",
+        "layers": [
+		      {
+        "name": "glow",
+        "texture": "cobblemon:textures/pokemon/generation5/deltaheatmor_shiny_emissive.png",
+        "emissive": true,
+        "translucent": true
+      }
+		]		
+      }
+    ]
+  }

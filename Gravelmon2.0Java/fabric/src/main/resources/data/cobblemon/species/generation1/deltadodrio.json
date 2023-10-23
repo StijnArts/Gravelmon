@@ -1,0 +1,162 @@
+{
+  "implemented": true,
+  "name": "deltadodrio",
+  "nationalPokedexNumber": 85,
+  "primaryType": "psychic",
+  "abilities": [
+    "compoundeyes",
+    "trace",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 110,
+    "defence": 70,
+    "special_attack": 60,
+    "special_defence": 60,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:peck",
+    "1:growl",
+    "1:psywave",
+    "1:miracleeye",
+    "5:psywave",
+    "9:miracleeye",
+    "13:psybeam",
+    "17:mindreader",
+    "21:lowkick",
+    "25:psychocut",
+    "29:hypnosis",
+    "35:workup",
+    "41:drillpeck",
+    "47:synchronoise",
+    "53:zenheadbutt",
+    "59:futuresight",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:shadowclaw",
+    "tm:gigaimpact",
+    "tm:psychup",
+    "tm:poisonjab",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:sleeptalk",
+    "tm:dazzlinggleam",
+    "tm:allyswitch",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:pluck",
+    "tm:secretpower",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:batonpass",
+    "tutor:bounce",
+    "tutor:drillrun",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:gravity",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:hypnosis",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:snore",
+    "tutor:superpower",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen1",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltadodrio.desc"
+  ],
+  "baseScale": 1.6,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1.6,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 852,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

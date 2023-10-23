@@ -1,0 +1,238 @@
+{
+  "implemented": true,
+  "name": "deltavenusaur",
+  "nationalPokedexNumber": 3,
+  "primaryType": "fairy",
+  "secondaryType": "psychic",
+  "abilities": [
+    "keeneye",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 82,
+    "defence": 83,
+    "special_attack": 100,
+    "special_defence": 100,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Mega",
+      "primaryType": "psychic",
+      "secondaryType": "fairy",
+      "abilities": [
+    "keeneye",
+    "h:regenerator"
+      ],
+      "baseScale": 0.375,
+        "hitbox": {
+          "width": 1.5,
+          "height": 1.4,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 80,
+        "attack": 100,
+        "defence": 123,
+        "special_attack": 122,
+        "special_defence": 120,
+        "speed": 80
+      },
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 263,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"      ],
+      "moves": [
+      ],
+  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 2,
+      "weight": 10000,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 263,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:babydolleyes",
+    "1:leechseed",
+    "1:fairywind",
+    "3:babydolleyes",
+    "7:leechseed",
+    "9:fairywind",
+    "13:charm",
+    "13:hypnosis",
+    "15:psybeam",
+    "20:drainingkiss",
+    "23:sweetscent",
+    "28:calmmind",
+    "32:disarmingvoice",
+    "39:psychic",
+    "45:moonlight",
+    "50:moonblast",
+    "53:psychoboost",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:roar",
+    "tm:toxic",
+    "tm:dragonpulse",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:irontail",
+    "tm:thunderbolt",
+    "tm:earthquake",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sludgebomb",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:energyball",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:dragontail",
+    "tm:embargo",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:psychup",
+    "tm:thunderwave",
+    "tm:venoshock",
+    "tm:rockslide",
+    "tm:shockwave",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:sleeptalk",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:avalanche",
+    "tm:silverwind",
+    "tm:allyswitch",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:aquatail",
+    "tutor:bodyslam",
+    "tutor:endure",
+    "tutor:gravity",
+    "tutor:gunkshot",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hypervoice",
+    "tutor:hypnosis",
+    "tutor:icywind",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:painsplit",
+    "tutor:roleplay",
+    "tutor:seedbomb",
+    "tutor:signalbeam",
+    "tutor:snore",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:worryseed",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen1",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltavenusaur.desc"
+  ],
+  "baseScale": 2.0,
+  "hitbox": {
+    "width": 1.5,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 20,
+  "weight": 1000,
+  "aspects": [],
+"features": [
+"mega"
+  ],  "cannotDynamax": false
+}

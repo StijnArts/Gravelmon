@@ -1,0 +1,197 @@
+{
+  "implemented": true,
+  "name": "deltapidgey",
+  "nationalPokedexNumber": 16,
+  "primaryType": "dark",
+  "secondaryType": "dragon",
+  "abilities": [
+    "intimidate",
+    "earlybird",
+    "h:marvelscale"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 40,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 56
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:snarl",
+    "5:leer",
+    "9:dragonbreath",
+    "13:quickattack",
+    "17:whirlwind",
+    "21:pursuit",
+    "25:dragondance",
+    "29:glare",
+    "33:wingattack",
+    "37:roost",
+    "45:suckerpunch",
+    "49:darkpulse",
+    "53:outrage",
+    "tm:honeclaws",
+    "tm:dragonclaw",
+    "tm:roar",
+    "tm:toxic",
+    "tm:dragonpulse",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:irontail",
+    "tm:return",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sludgewave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:roost",
+    "tm:dragontail",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:rockpolish",
+    "tm:venoshock",
+    "tm:rockslide",
+    "tm:xscissor",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:acrobatics",
+    "tm:darkpulse",
+    "tm:silverwind",
+    "tm:skydrop",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:pluck",
+    "tm:quash",
+    "tm:infestation",
+    "tm:secretpower",
+    "tm:rocksmash",
+    "tm:workup",
+    "tm:cut",
+    "tm:fly",
+    "tutor:acid",
+    "tutor:aircutter",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:block",
+    "tutor:bounce",
+    "tutor:defog",
+    "tutor:dig",
+    "tutor:dracometeor",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:furycutter",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:headbutt",
+    "tutor:heatwave",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:ominouswind",
+    "tutor:outrage",
+    "tutor:skyattack",
+    "tutor:snore",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:tailwind",
+    "tutor:twister",
+    "tutor:uproar"  ],
+  "labels": [
+    "gen1",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltapidgey.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltapidgey_deltapidgeotto",
+      "variant": "level_up",
+      "result": "deltapidgeotto",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.7,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 18,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

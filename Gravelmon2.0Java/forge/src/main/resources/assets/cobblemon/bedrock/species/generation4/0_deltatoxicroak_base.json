@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltatoxicroak",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation4_deltatoxicroak",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/deltatoxicroak.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/deltatoxicroak_shiny.png"
+    }  ]
+}

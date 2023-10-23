@@ -1,0 +1,29 @@
+{
+  "target": "cobblemon:delibird",
+  "evolutions": [
+  {
+      "id": "delibird_jollibird",
+      "variant": "item_interact",
+      "result": "jollibird",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dazzlinggleam"
+      ],
+      "requirements": [],
+      "requiredContext": "gravelmon:astral_stone"
+    },
+	{
+      "id": "delibird_blizentork",
+      "variant": "level_up",
+      "result": "blizentork",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    }
+  ]
+}

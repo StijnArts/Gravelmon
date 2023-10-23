@@ -1,0 +1,131 @@
+{
+  "implemented": true,
+  "name": "gastlyx",
+  "nationalPokedexNumber": 92,
+  "primaryType": "dragon",
+  "abilities": [
+    "oblivious",
+    "moldbreaker",
+    "h:sturdy"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 35,
+    "defence": 30,
+    "special_attack": 100,
+    "special_defence": 65,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 26,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:dragonrage",
+    "1:leer",
+    "4:takedown",
+    "8:meanlook",
+    "12:payback",
+    "16:focusenergy",
+    "20:rapidspin",
+    "28:headbutt",
+    "32:suckerpunch",
+    "36:dragonpulse",
+    "40:zenheadbutt",
+    "44:scaryface",
+    "48:outrage",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:round",
+    "tm:fling",
+    "tm:embargo",
+    "tm:payback",
+    "tm:psychup",
+    "tm:swagger",
+    "tm:substitute",
+    "tutor:dragonpulse",
+    "tutor:outrage",
+    "tutor:secretpower",
+    "tutor:snore"  ],
+  "labels": [
+    "xenoverse",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.gastlyx.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "gastlyx_hauntersx",
+      "variant": "level_up",
+      "result": "hauntersx",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 210,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,19 @@
+{
+    "species": "cobblemon:deltaemolga",
+    "order": 1,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:generation5_deltaemolga",
+        "model": "cobblemon:deltaemolga.geo",
+        "texture": "cobblemon:textures/pokemon/generation5/deltaemolga.png",
+        "layers": []
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/generation5/deltaemolga_shiny.png"
+      }
+    ]
+  }

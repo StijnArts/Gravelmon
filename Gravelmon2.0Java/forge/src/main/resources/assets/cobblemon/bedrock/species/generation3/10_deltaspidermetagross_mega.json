@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltaspidermetagross",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation3_deltaspidermetagross",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/mega_deltaspidermetagross.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/mega_deltaspidermetagross_shiny.png"
+    }  ]
+}

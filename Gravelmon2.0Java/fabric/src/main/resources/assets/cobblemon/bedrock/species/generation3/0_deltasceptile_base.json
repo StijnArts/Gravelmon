@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltasceptile",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_deltasceptile",
+      "model": "cobblemon:deltasceptile.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltasceptile.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/deltasceptile_shiny.png"
+    }  ]
+}

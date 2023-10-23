@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:viledoom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:infinity_viledoom",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/viledoom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/viledoom_shiny.png"
+    }  ]
+}

@@ -1,0 +1,142 @@
+{
+  "implemented": true,
+  "name": "eronze",
+  "nationalPokedexNumber": 1321,
+  "primaryType": "steel",
+  "secondaryType": "fire",
+  "abilities": [
+    "filter",
+    "h:flashfire"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 130,
+    "defence": 110,
+    "special_attack": 95,
+    "special_defence": 70,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 261,
+  "experienceGroup": "slow",
+  "eggCycles": 200,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": "3",
+    "entries": [
+      {
+        "item": "minecraft:copper_block",
+        "quantityRange": "3-10",
+        "percentage": 90
+      }
+    ]
+  },
+  "moves": [
+    "1:ancientpower",
+    "1:lockon",
+    "1:incinerate",
+    "1:wideguard",
+    "10:metalclaw",
+    "19:firepunch",
+    "28:willowisp",
+    "37:ironhead",
+    "46:inferno",
+    "55:heavyslam",
+    "64:dynamicpunch",
+    "73:flareblitz",
+    "82:wonderroom",
+    "91:explosion",
+    "100:futuresight",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:overheat",
+    "tm:focusblast",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:endure",
+    "tm:incinerate",
+    "tm:willowisp",
+    "tm:rocksmash",
+    "tm:explosion",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:flash",
+    "tm:thunderwave",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:wildcharge",
+    "tm:focuspunch",
+    "tm:sleeptalk",
+    "tm:strength"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.eronze.desc"
+  ],
+  "baseScale": 0.61875,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 33,
+  "weight": 3625,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

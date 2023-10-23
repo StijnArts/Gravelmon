@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltawailmer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_deltawailmer",
+      "model": "cobblemon:deltawailmer.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltawailmer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/deltawailmer_shiny.png"
+    }  ]
+}

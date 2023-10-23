@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltablastoise",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation1_deltablastoise",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/mega_deltablastoise.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/mega_deltablastoise_shiny.png"
+    }  ]
+}

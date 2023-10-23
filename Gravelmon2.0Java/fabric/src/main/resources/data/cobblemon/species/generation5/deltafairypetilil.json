@@ -1,0 +1,172 @@
+{
+  "implemented": true,
+  "name": "deltafairypetilil",
+  "nationalPokedexNumber": 548,
+  "primaryType": "water",
+  "abilities": [
+    "serenegrace",
+    "synchronize",
+    "h:healer"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 35,
+    "defence": 50,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:fairywind",
+    "4:babydolleyes",
+    "8:featherdance",
+    "10:charm",
+    "13:gust",
+    "17:roost",
+    "19:disarmingvoice",
+    "22:whirlwind",
+    "26:aircutter",
+    "28:defog",
+    "31:mistyterrain",
+    "35:dazzlinggleam",
+    "37:entrainment",
+    "40:tailwind",
+    "44:afteryou",
+    "46:hurricane",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:roost",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:psychup",
+    "tm:thunderwave",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:sleeptalk",
+    "tm:steelwing",
+    "tm:acrobatics",
+    "tm:dazzlinggleam",
+    "tm:silverwind",
+    "tm:skydrop",
+    "tm:allyswitch",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:flash",
+    "tm:workup",
+    "tm:fly",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:aircutter",
+    "tutor:bounce",
+    "tutor:defog",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:healbell",
+    "tutor:helpinghand",
+    "tutor:hurricane",
+    "tutor:hypervoice",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:snore",
+    "tutor:swift",
+    "tutor:tailwind",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltafairypetilil.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltafairypetilil_deltafairylilligant",
+      "variant": "item_interact",
+      "result": "deltafairylilligant",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 662,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

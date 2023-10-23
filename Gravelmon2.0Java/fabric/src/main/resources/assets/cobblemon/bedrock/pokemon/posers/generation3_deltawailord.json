@@ -1,0 +1,32 @@
+{
+    "portraitScale": 1,
+    "portraitTranslation": [0, 0.4, 0],
+    "profileScale": 0.8,
+    "profileTranslation": [0, 0.4, 0],
+    "poses": {
+      "standing": {
+        "poseName": "hovering",
+        "transformTicks": 10,
+        "poseTypes": [ "HOVER", "NONE", "PORTRAIT", "PROFILE" ],
+        "animations": [
+          "bedrock(deltawailmer, ground_idle)"
+        ]
+      },
+      "flying": {
+        "poseName": "flying",
+        "transformTicks": 10,
+        "poseTypes": ["FLY"],
+        "animations": [
+          "bedrock(deltawailmer, air_fly)"
+        ]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": ["WALK"],
+        "animations": [
+          "bedrock(deltawailmer, ground_walk)"
+        ]
+      }
+    }
+  }

@@ -1,0 +1,161 @@
+{
+  "implemented": true,
+  "name": "deltashiftry",
+  "nationalPokedexNumber": 275,
+  "primaryType": "electric",
+  "abilities": [
+    "voltabsorb",
+    "minus",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 60,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 216,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:bounce",
+    "1:lightscreen",
+    "1:shockwave",
+    "1:nastyplot",
+    "20:voltswitch",
+    "32:doublehit",
+    "44:thunder",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:recycle",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:embargo",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:swordsdance",
+    "tm:wildcharge",
+    "tm:voltswitch",
+    "tm:shockwave",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:sleeptalk",
+    "tm:acrobatics",
+    "tm:dazzlinggleam",
+    "tm:skydrop",
+    "tm:round",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:aircutter",
+    "tutor:bodyslam",
+    "tutor:bounce",
+    "tutor:covet",
+    "tutor:dualchop",
+    "tutor:electroweb",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:fakeout",
+    "tutor:firepunch",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magnetrise",
+    "tutor:megakick",
+    "tutor:mimic",
+    "tutor:nastyplot",
+    "tutor:signalbeam",
+    "tutor:snore",
+    "tutor:superpower",
+    "tutor:tailwind",
+    "tutor:thunderpunch",
+    "tutor:twister"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltashiftry.desc"
+  ],
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 596,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

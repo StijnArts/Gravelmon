@@ -1,0 +1,103 @@
+plugins {
+    id "com.github.johnrengelman.shadow" version "7.1.2"
+    id 'org.jetbrains.kotlin.jvm' version "1.7.10"
+}
+
+architectury {
+    platformSetupLoomIde()
+    fabric()
+}
+
+loom {
+    runs {
+        // This adds a new gradle task that runs the datagen API: "gradlew runDatagen"
+        datagen {
+            inherit server
+            name "Data Generation"
+            vmArg "-Dfabric-api.datagen"
+            vmArg "-Dfabric-api.datagen.output-dir=${file("src/main/generated")}"
+            vmArg "-Dfabric-api.datagen.modid=gravelmon"
+
+            runDir "build/datagen"
+        }
+    }
+}
+configurations {
+    common
+    shadowCommon // Don't use shadow from the shadow plugin because we don't want IDEA to index this.
+    compileClasspath.extendsFrom common
+    runtimeClasspath.extendsFrom common
+    developmentFabric.extendsFrom common
+}
+
+dependencies {
+    implementation project(path: ':forge')
+    modApi "dev.architectury:architectury-fabric:${rootProject.architectury_version}"
+    modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
+    modApi "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
+    runtimeOnly files('libs/gravels_extended_battles-1.0.2.jar')
+    mappings loom.layered() {
+        officialMojangMappings()
+        parchment("org.parchmentmc.data:${mappings_channel}-${mappings_version}@zip")
+    }
+
+    common(project(path: ":common", configuration: "namedElements")) { transitive false }
+    shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
+    modImplementation "com.cobblemon:fabric:${cobblemon_file}"
+}
+
+def replaceProperties = [mod_id          : mod_id,
+                         mod_name        : mod_name,
+                         mod_version     : mod_version,
+                         mod_authors     : mod_authors,
+                         mod_description : mod_description,
+                         mod_base_package: mod_base_package,
+                         minecraft_version: minecraft_version,
+                         fabric_version  : fabric_api_version,
+                         loader_version  : fabric_loader_version]
+
+
+processResources {
+    inputs.properties replaceProperties
+
+    filesMatching("fabric.mod.json") {
+        expand replaceProperties
+    }
+}
+
+shadowJar {
+    configurations = [project.configurations.shadowCommon]
+    archiveClassifier.set("dev-shadow")
+}
+
+remapJar {
+    inputFile.set shadowJar.archiveFile
+    dependsOn shadowJar
+    archiveClassifier.set(null)
+}
+
+jar {
+    archiveClassifier.set("dev")
+}
+
+sourcesJar {
+    def commonSources = project(":common").sourcesJar
+    dependsOn commonSources
+    from commonSources.archiveFile.map { zipTree(it) }
+}
+
+components.java {
+    withVariantsFromConfiguration(project.configurations.shadowRuntimeElements) {
+        skip()
+    }
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDirs += [
+                    'src/main/generated'
+            ]
+        }
+    }
+}

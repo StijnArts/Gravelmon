@@ -1,0 +1,205 @@
+{
+  "implemented": true,
+  "name": "deltawartortle",
+  "nationalPokedexNumber": 8,
+  "primaryType": "dark",
+  "secondaryType": "fighting",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 59,
+    "attack": 63,
+    "defence": 80,
+    "special_attack": 65,
+    "special_defence": 80,
+    "speed": 58
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "1:bite",
+    "4:tailwhip",
+    "7:bite",
+    "10:withdraw",
+    "13:torment",
+    "16:vacuumwave",
+    "20:knockoff",
+    "24:protect",
+    "28:shadowsneak",
+    "32:darkpulse",
+    "36:aurasphere",
+    "40:irondefense",
+    "44:nastyplot",
+    "48:focusblast",
+    "tm:honeclaws",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:irontail",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:scald",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:dragontail",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:wildcharge",
+    "tm:drainpunch",
+    "tm:rockslide",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalk",
+    "tm:darkpulse",
+    "tm:allyswitch",
+    "tm:echoedvoice",
+    "tm:round",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:quash",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:cut",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:aurasphere",
+    "tutor:bodyslam",
+    "tutor:bounce",
+    "tutor:counter",
+    "tutor:covet",
+    "tutor:dig",
+    "tutor:dualchop",
+    "tutor:dynamicpunch",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:icepunch",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:mimic",
+    "tutor:nastyplot",
+    "tutor:seismictoss",
+    "tutor:snore",
+    "tutor:stealthrock",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:vacuumwave"  ],
+  "labels": [
+    "gen1",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltawartortle.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltawartortle_deltablastoise",
+      "variant": "level_up",
+      "result": "deltablastoise",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1.5,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 225,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

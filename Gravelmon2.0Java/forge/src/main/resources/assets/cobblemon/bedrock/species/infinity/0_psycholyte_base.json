@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:psycholyte",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:infinity_psycholyte",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/infinity/psycholyte.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/infinity/psycholyte_shiny.png"
+    }  ]
+}

@@ -1,0 +1,167 @@
+{
+  "implemented": true,
+  "name": "egholudicolo",
+  "nationalPokedexNumber": 272,
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "abilities": [
+    "harvest",
+    "h:dryskin"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 95,
+    "special_attack": 95,
+    "special_defence": 75,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 216,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 39,
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:fierydance",
+    "1:fierydance",
+    "1:heavyslam",
+    "1:sweetscent",
+    "1:mudslap",
+    "15:metalclaw",
+    "17:recycle",
+    "19:ember",
+    "23:stockpile",
+    "25:refresh",
+    "26:bulletpunch",
+    "27:incinerate",
+    "31:naturalgift",
+    "35:ironhead",
+    "38:sunnyday",
+    "42:protect",
+    "48:flamethrower",
+    "56:teeterdance",
+    "60:energyball",
+    "68:aromatherapy",
+    "78:overheat",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:round",
+    "tm:overheat",
+    "tm:energyball",
+    "tm:scald",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:incinerate",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:workup",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:wildcharge",
+    "tm:bulletseed",
+    "tm:strength",
+    "tutor:dazzlinggleam",
+    "tutor:firepunch",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:magnetrise",
+    "tutor:seedbomb",
+    "tutor:stealthrock",
+    "tutor:thunderpunch",
+    "egg:aromatherapy",
+    "egg:gigadrain",
+    "egg:hydropump",
+    "egg:leechseed",
+    "egg:petalblizzard",
+    "egg:spikes",
+    "egg:synthesis"  ],
+  "labels": [
+    "infinity",
+    "gen3",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.egholudicolo.desc"
+  ],
+  "baseScale": 0.31875,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 1300,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

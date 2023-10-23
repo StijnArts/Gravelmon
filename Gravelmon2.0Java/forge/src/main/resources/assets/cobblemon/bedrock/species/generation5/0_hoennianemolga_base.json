@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hoennianemolga",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_hoennianemolga",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianemolga.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianemolga_shiny.png"
+    }  ]
+}

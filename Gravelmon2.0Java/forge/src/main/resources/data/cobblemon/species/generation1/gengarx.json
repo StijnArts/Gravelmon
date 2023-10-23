@@ -1,0 +1,150 @@
+{
+  "implemented": true,
+  "name": "gengarx",
+  "nationalPokedexNumber": 94,
+  "primaryType": "dragon",
+  "secondaryType": "psychic",
+  "abilities": [
+    "oblivious",
+    "moldbreaker",
+    "h:angerpoint"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 70,
+    "defence": 80,
+    "special_attack": 130,
+    "special_defence": 85,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 26,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:extrasensory",
+    "1:amnesia",
+    "1:dragonrage",
+    "1:leer",
+    "1:takedown",
+    "1:meanlook",
+    "1:payback",
+    "1:focusenergy",
+    "1:rapidspin",
+    "1:headbutt",
+    "1:suckerpunch",
+    "1:dragonpulse",
+    "48:zenheadbutt",
+    "54:scaryface",
+    "60:outrage",
+    "tm:dragonclaw",
+    "tm:psyshock",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:earthquake",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:round",
+    "tm:focusblast",
+    "tm:fling",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:psychup",
+    "tm:bulldoze",
+    "tm:dragontail",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:darkpulse",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:earthpower",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:outrage",
+    "tutor:painsplit",
+    "tutor:secretpower",
+    "tutor:skillswap",
+    "tutor:snatch",
+    "tutor:snore",
+    "tutor:trick",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "xenoverse",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.gengarx.desc"
+  ],
+  "baseScale": 0.39375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 580,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

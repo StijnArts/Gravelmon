@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltasunflora-1",
+      "pokemon": "deltasunflora",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

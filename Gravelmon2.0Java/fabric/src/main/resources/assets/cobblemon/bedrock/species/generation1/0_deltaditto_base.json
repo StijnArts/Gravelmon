@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltaditto",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_deltaditto",
+      "model": "cobblemon:deltaditto.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaditto.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/deltaditto_shiny.png"
+    }  ]
+}

@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:eghohoothoot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_eghohoothoot",
+      "model": "cobblemon:generation2_eghohoothoot.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/eghohoothoot/eghohoothoot.png",
+      "layers": [
+	  {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation2/eghohoothoot/eghohoothoot_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+	  ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/eghohoothoot/eghohoothoot_shiny.png",
+	  "layers": [
+	  {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation2/eghohoothoot/eghohoothoot_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+	  ]
+    }  
+	]
+}

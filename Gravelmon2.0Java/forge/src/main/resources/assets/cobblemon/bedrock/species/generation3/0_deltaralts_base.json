@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltaralts",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_deltaralts",
+      "model": "cobblemon:deltaralts.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/deltaralts.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/deltaralts_shiny.png"
+    }  ]
+}

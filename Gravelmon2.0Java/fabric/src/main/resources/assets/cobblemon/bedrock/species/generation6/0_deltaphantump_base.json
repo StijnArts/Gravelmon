@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltaphantump",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation6_deltaphantump",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation6/deltaphantump.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation6/deltaphantump_shiny.png"
+    }  ]
+}

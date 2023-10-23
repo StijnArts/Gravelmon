@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltagardevoir",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "mega"
+     ],
+      "poser": "cobblemon:generation3_deltagardevoir",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/mega_deltagardevoir.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "mega",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/mega_deltagardevoir_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "target": "cobblemon:marowak",
+  "evolutions": [
+    {
+      "id": "marowak_terathwack",
+      "variant": "item_interact",
+      "result": "terathwack",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:long_club"
+        }
+      ]  
+    }
+  ]
+}

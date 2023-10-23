@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltadragonair-1",
+      "pokemon": "deltadragonair",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-43",
+      "weight": 2.0,
+      "condition": {
+        "canSeeSky": true,
+        "isThundering": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "implemented": true,
+  "name": "ponytax",
+  "nationalPokedexNumber": 77,
+  "primaryType": "flying",
+  "abilities": [
+    "cloudnine",
+    "h:cloudnine"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 75,
+    "defence": 55,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 82,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 26,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "5:tailwhip",
+    "10:gust",
+    "15:aircutter",
+    "20:agility",
+    "25:bounce",
+    "28:defog",
+    "30:stomp",
+    "35:cottonguard",
+    "41:takedown",
+    "45:airslash",
+    "50:hurricane",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:raindance",
+    "tm:roost",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:skydrop",
+    "tm:acrobatics",
+    "tm:swagger",
+    "tm:substitute",
+    "tutor:aircutter",
+    "tutor:bounce",
+    "tutor:heatwave",
+    "tutor:hurricane",
+    "tutor:icywind",
+    "tutor:lowkick",
+    "tutor:secretpower",
+    "tutor:snore",
+    "tutor:tailwind"  ],
+  "labels": [
+    "xenoverse",
+    "gen1"
+  ],
+  "pokedex": [
+    "cobblemon.species.ponytax.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ponytax_rapidashx",
+      "variant": "level_up",
+      "result": "rapidashx",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]   
+ }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 10,
+  "weight": 260,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

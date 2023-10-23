@@ -1,0 +1,173 @@
+{
+  "implemented": true,
+  "name": "burnaram",
+  "nationalPokedexNumber": 1336,
+  "primaryType": "fire",
+  "abilities": [
+    "reckless",
+    "cursedbody",
+    "h:flamebody"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 75,
+    "defence": 61,
+    "special_attack": 83,
+    "special_defence": 68,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        },
+        "wanderChance": 1.0
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 52,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "4:smokescreen",
+    "6:ember",
+    "10:meditate",
+    "12:headbutt",
+    "15:firespin",
+    "17:takedown",
+    "20:psywave",
+    "29:flamecharge",
+    "34:heatwave",
+    "35:calmmind",
+    "37:flareblitz",
+    "39:futuresight",
+    "40:jumpkick",
+    "46:extrasensory",
+    "51:flamethrower",
+    "55:zenheadbutt",
+    "60:fireblast",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:shadowball",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:overheat",
+    "tm:fling",
+    "tm:incinerate",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:psychup",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:rocksmash",
+    "tm:strength",
+    "tutor:dazzlinggleam",
+    "tutor:firepledge",
+    "tutor:headbutt",
+    "tutor:helpinghand",
+    "tutor:ironhead",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:zenheadbutt",
+    "egg:ancientpower",
+    "egg:beatup",
+    "egg:bellydrum",
+    "egg:bite",
+    "egg:counter",
+    "egg:crunch",
+    "egg:dragondance",
+    "egg:dragonpulse",
+    "egg:dragonrush",
+    "egg:flareblitz",
+    "egg:focuspunch",
+    "egg:metalclaw",
+    "egg:outrage"  ],
+  "labels": [
+    "infinity",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.burnaram.desc"
+  ],
+  "preEvolution": "chargo",
+  "evolutions": [
+    {
+      "id": "burnaram_psysteed",
+      "variant": "level_up",
+      "result": "psysteed",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 13,
+  "weight": 530,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

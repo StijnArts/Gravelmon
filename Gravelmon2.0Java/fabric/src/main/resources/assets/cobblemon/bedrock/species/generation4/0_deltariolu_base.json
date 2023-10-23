@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:deltariolu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation4_deltariolu",
+      "model": "cobblemon:deltariolu.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/deltariolu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/deltariolu_shiny.png"
+    }  ]
+}

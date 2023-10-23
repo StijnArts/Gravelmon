@@ -1,0 +1,16 @@
+{
+  "target": "cobblemon:shellder",
+  "evolutions": [
+    {
+      "id": "shellder_ehgoshellder",
+      "variant": "item_interact",
+      "result": "eghoshellder",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:slowpoke_tail"
+	}
+  ]
+}

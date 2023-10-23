@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:deltameloetta",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "magician"
+     ],
+      "poser": "cobblemon:generation5_deltameloetta",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/magician_deltameloetta.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "magician",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/magician_deltameloetta_shiny.png"
+    }  ]
+}

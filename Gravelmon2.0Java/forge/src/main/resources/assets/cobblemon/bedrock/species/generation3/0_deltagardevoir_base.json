@@ -1,0 +1,34 @@
+{
+    "species": "cobblemon:deltagardevoir",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:generation3_deltagardevoir",
+        "model": "cobblemon:deltagardevoir.geo",
+        "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir.png",
+        "layers": [
+		      {
+        "name": "glow",
+        "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir_emissive.png",
+        "emissive": true,
+        "translucent": true
+      }
+		]
+      },
+      {
+        "aspects": [
+          "shiny"
+        ],
+        "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir_shiny.png",
+        "layers": [
+		      {
+        "name": "glow",
+        "texture": "cobblemon:textures/pokemon/generation3/deltagardevoir_shiny_emissive.png",
+        "emissive": true,
+        "translucent": true
+      }
+		]		
+      }
+    ]
+  }
