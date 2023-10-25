@@ -61,15 +61,19 @@ public class Pokemon {
     private Boolean avoidsLand = false;
     private double baseScale;
     private double portraitScale;
-    private double portraitTranslationX;
-    private double portraitTranslationY;
-    private double portraitTranslationZ;
+    private double portraitTranslationX = 0;
+    private double portraitTranslationY = 1.8;
+    private double portraitTranslationZ = 0;
     private boolean nameDifferentInLangFile;
     private String langFileName;
     private double hitboxWidth = 1.0;
     private double hitboxHeight = 1.0;
     private String shoulderMountEffect;
     private boolean modeled = false;
+    private double profileTranslationZ = 0;
+    private double profileTranslationY = 1;
+    private double profileScale = 0.001;
+    private double profileTranslationX = 0;
 
     public Pokemon(String name, Type primaryType, Type secondaryType, List<EvolutionEntry> evolutions, List<Label> labels){
         this(name, primaryType, secondaryType, new Stats(10,10,10,10,10,10),List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
@@ -669,5 +673,37 @@ public class Pokemon {
 
     public String getPreEvolution() {
         return this.preEvolution;
+    }
+
+    public double getProfileTranslationZ() {
+        return profileTranslationZ;
+    }
+
+    public void setProfileTranslationZ(double profileTranslationZ) {
+        this.profileTranslationZ = profileTranslationZ;
+    }
+
+    public double getProfileTranslationY() {
+        return profileTranslationY;
+    }
+
+    public void setProfileTranslationY(double profileTranslationY) {
+        this.profileTranslationY = profileTranslationY;
+    }
+
+    public double getProfileScale() {
+        return profileScale;
+    }
+
+    public void setProfileScale(double profileScale) {
+        this.profileScale = profileScale;
+    }
+
+    public double getProfileTranslationX() {
+        return profileTranslationX;
+    }
+
+    public void setProfileTranslationX(double profileTranslationX) {
+        this.profileTranslationX = profileTranslationX;
     }
 }

@@ -127,6 +127,10 @@ public class EhgoTotodile extends EghoPokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
+        this.setCanBreathUnderwater(true);
+        this.setCanSwim(true);
+        this.setBaseScale(0.5);
+        this.setHitbox(0.85, 1.4);
         this.setLangFileName("Totodile");
         this.setPortraitXYZ(0,1.8,0);
     }

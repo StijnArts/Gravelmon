@@ -52,8 +52,8 @@ public class GenerationTwo extends Original {
         pokemon.add(new DeltaLanturn(171));
         pokemon.add(new DeltaPichu(172));
         pokemon.add(new DeltaAipom(190));
-        pokemon.add(new DeltaSunkern(192));
-        pokemon.add(new DeltaSunflora(193));
+        pokemon.add(new DeltaSunkern(191));
+        pokemon.add(new DeltaSunflora(192));
         pokemon.add(new DeltaYanma(193));
         pokemon.add(new DeltaWooper(194));
         pokemon.add(new DeltaQuagsire(195));

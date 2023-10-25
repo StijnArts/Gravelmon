@@ -23,16 +23,22 @@ public class PoserJSONWriter {
     private static void writePokemon(Pokemon pokemon, Game game, String dir) throws IOException {
         if(pokemon.isNew()&&!pokemon.isModeled()) {
             String fileContents = "{\n" +
-                    "  \"portraitScale\": " + pokemon.getPortraitScale() + ",\n" +
-                    "  \"portraitTranslation\": [" + pokemon.getPortraitTranslationX() + ", " + pokemon.getPortraitTranslationY() + ", " + pokemon.getPortraitTranslationZ() + "],\n" +
+                    "  \"portraitScale\": " + pokemon.getProfileScale() + ",\n" +
+                    "  \"portraitTranslation\": [" + pokemon.getProfileTranslationX() + ", " + pokemon.getProfileTranslationY() + ", " + pokemon.getProfileTranslationZ() + "],\n" +
                     "  \"profileScale\": " + pokemon.getPortraitScale() + ",\n" +
                     "  \"profileTranslation\": [" + pokemon.getPortraitTranslationX() + ", " + pokemon.getPortraitTranslationY() + ", " + pokemon.getPortraitTranslationZ() + "],\n" +
                     "  \"poses\": {\n" +
-                    "    \"standing\": {\n" +
-                    "      \"poseName\": \"standing\",\n" +
+                    "    \"profile\": {\n" +
+                    "      \"poseName\": \"profile\",\n" +
+                    "      \"poseTypes\": [\"PROFILE\"],\n" +
                     "      \"transformTicks\": 10,\n" +
-                    "      \"allPoseTypes\": true,\n" +
-                    "      \"animations\": []\n" +
+                    "      \"animations\": [\"bedrock(cutout, pc_fix)\"]\n" +
+                    "    },\n" +
+                    "    \"portrait\": {\n" +
+                    "      \"poseName\": \"portrait\",\n" +
+                    "      \"poseTypes\": [\"NONE\",\"PORTRAIT\"],\n" +
+                    "      \"transformTicks\": 10,\n" +
+                    "      \"animations\": [\"bedrock(cutout, summary_fix)\"]\n" +
                     "    }\n" +
                     "  }\n" +
                     "}";

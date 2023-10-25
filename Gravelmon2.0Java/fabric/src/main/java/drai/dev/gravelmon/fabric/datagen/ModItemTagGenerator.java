@@ -2,6 +2,7 @@ package drai.dev.gravelmon.fabric.datagen;
 
 import com.cobblemon.mod.common.api.tags.*;
 import drai.dev.gravelmon.*;
+import drai.dev.gravelmon.jsonwriters.*;
 import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
@@ -27,6 +28,7 @@ public class ModItemTagGenerator extends FabricTagProvider.ItemTagProvider {
                 .getParent().getParent().getParent().getParent().getParent().getParent().toString()+"\\resources";
         LanguageGenerator.generateLangFile();
         GravelmonJsonGenerator.run(generatedFolder);
+        SpeciesAssetsJSONWriter.createPlaceholderForExistingPokemon(generatedFolder);
         getOrCreateTagBuilder(CobblemonItemTags.EVOLUTION_ITEMS)
                 .add(GravelmonItems.CORRUPTED_DISC.get(),
                         GravelmonItems.QUANTUM_UPGRADE.get(),
