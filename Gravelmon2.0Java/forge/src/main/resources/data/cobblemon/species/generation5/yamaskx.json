@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 190,
@@ -79,7 +78,7 @@
     "tm:rocktomb",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:scald",
     "tm:rockpolish",
     "tm:surf",

@@ -1,9 +1,9 @@
 {
     "head": "head",
-    "portraitScale": 1.65,
-    "portraitTranslation": [0, 0, 0],
-    "profileScale": 1,
-    "profileTranslation": [0, 0.2, 0],
+    "portraitScale": 2.5,
+    "portraitTranslation": [-0.2, -0.8, 0],
+    "profileScale": 0.9,
+    "profileTranslation": [0, 0.4, 0],
     "poses": {
       "standing": {
         "poseName": "standing",

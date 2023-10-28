@@ -158,7 +158,7 @@ public class DeltaAipom extends Pokemon {
         this.setLangFileName("Aipom");
         this.setPortraitXYZ(0,1.8,0);
         this.setModeled(true);
-        this.setBaseScale(0.68);
+        this.setBaseScale(1);
         this.setHitbox(0.8,1.4);
     }
 }

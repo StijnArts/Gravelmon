@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -50,22 +49,23 @@
   ],
   "moves": [
     "1:firepunch",
-    "1:roar",
+    "1:jetstrike",
+    "1:roarsound",
     "1:ember",
     "1:tackle",
-    "13:howl",
+    "13:howlsound",
     "17:takedown",
     "21:firefang",
     "25:uproar",
-    "28:screech",
+    "28:screechsound",
     "32:flamethrower",
-    "36:hypervoice",
+    "36:hypervoicesound",
     "40:swagger",
-    "45:boomburst",
-    "51:roar",
+    "45:boomburstsound",
+    "51:roarsound",
     "56:scaryface",
     "61:flareblitz",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -82,8 +82,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:thief",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:overheat",
     "tm:fling",
     "tm:willowisp",
@@ -94,11 +94,11 @@
     "tutor:blastburn",
     "tutor:covet",
     "tutor:heatwave",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:irontail",
     "tutor:secretpower",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:uproar"  ],
   "labels": [
     "xenoverse",
@@ -127,7 +127,7 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:end_stone"
+          "itemCondition": "gravelmon:xenoversal_ring"
         }
       ]   
  },
@@ -140,7 +140,24 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:diamond"
+          "itemCondition": "gravelmon:terrestrial_ring"
+        },
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ]   
+ },
+    {
+      "id": "trishoutterrestrial_trishoutastral",
+      "variant": "level_up",
+      "result": "trishoutastral",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:xenoversal_ring"
         },
         {
           "variant": "level",

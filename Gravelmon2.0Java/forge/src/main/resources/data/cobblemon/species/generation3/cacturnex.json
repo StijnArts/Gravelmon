@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 60,
@@ -48,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:trickroom",
     "1:spikyshield",
@@ -85,7 +94,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:focusblast",
     "tm:energyball",
     "tm:fling",
@@ -109,7 +118,7 @@
     "tutor:lowkick",
     "tutor:secretpower",
     "tutor:seedbomb",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:superpower",
     "tutor:synthesis",

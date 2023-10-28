@@ -78,9 +78,10 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -135,9 +136,10 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -177,9 +179,10 @@
     "38:energyball",
     "41:rockpolish",
     "44:stoneedge",
-    "45:diamondstorm",
+    "45:diamondstormcrystal",
     "52:growth",
     "60:headsmash",
+    "65:crystalrush",
     "tm:honeclaws",
     "tm:bulldoze",
     "tm:toxic",
@@ -230,9 +233,10 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:dazzlinggleam",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -260,7 +264,7 @@
     "tutor:seedbomb",
     "tutor:seismictoss",
     "tutor:selfdestruct",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:synthesis",
     "tutor:thunderpunch",

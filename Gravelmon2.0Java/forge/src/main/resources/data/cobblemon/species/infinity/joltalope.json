@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 75,
@@ -96,7 +95,7 @@
     "tm:attract",
     "tm:thief",
     "tm:lowsweep",
-    "tm:round",
+    "tm:roundsound",
     "tm:allyswitch",
     "tm:energyball",
     "tm:falseswipe",
@@ -125,7 +124,7 @@
     "tutor:ancientpower",
     "tutor:earthpower",
     "tutor:gigadrain",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:helpinghand",
     "tutor:megakick",
     "tutor:rollout",

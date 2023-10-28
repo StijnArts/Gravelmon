@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -81,7 +80,7 @@
     "57:hydropump",
     "tm:honeclaws",
     "tm:dragonclaw",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hail",
     "tm:bulkup",
@@ -107,8 +106,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:focusblast",
     "tm:energyball",
     "tm:falseswipe",
@@ -136,6 +135,8 @@
     "tm:surf",
     "tm:waterfall",
     "tm:dive",
+    "tm:flashflood",
+    "tm:cinderbreath",
     "tutor:aquatail",
     "tutor:darkpulse",
     "tutor:dragonpulse",

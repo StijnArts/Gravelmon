@@ -57,6 +57,7 @@
     ]
   },
   "moves": [
+    "1:frostslash",
     "1:leafblade",
     "1:airslash",
     "1:revenge",
@@ -114,7 +115,8 @@
     "tm:swagger",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:miraclewill",
     "tm:cut",
     "tm:strength",
     "tutor:counter",
@@ -123,7 +125,7 @@
     "tutor:helpinghand",
     "tutor:ironhead",
     "tutor:knockoff",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superpower"  ],
   "labels": [
     "sage",

@@ -87,5 +87,9 @@ public class PorygonWES extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setPreEvolution("porygon2");
+        this.setModeled(true);
+        this.setBaseScale(0.9);
+        this.setCanFly(true);
+        this.setHitbox(0.8,1.2);
     }
 }

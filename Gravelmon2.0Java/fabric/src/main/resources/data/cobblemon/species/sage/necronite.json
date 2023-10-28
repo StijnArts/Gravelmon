@@ -6,6 +6,7 @@
   "secondaryType": "psychic",
   "abilities": [
     "levitate",
+    "feedback",
     "h:analytic"
   ],
   "baseStats": {
@@ -71,11 +72,12 @@
     "28:cosmicpower",
     "31:futuresight",
     "35:lockon",
-    "41:powergem",
+    "41:powergemcrystal",
     "45:powersplit",
     "45:guardsplit",
     "51:recover",
     "55:psychic",
+    "58:possession",
     "65:storedpower",
     "tm:psyshock",
     "tm:calmmind",
@@ -117,7 +119,9 @@
     "tm:swagger",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
+    "tm:miraclewill",
     "tutor:secretpower",
     "tutor:ironhead",
     "tutor:signalbeam",
@@ -131,8 +135,8 @@
     "tutor:earthpower",
     "tutor:zenheadbutt",
     "tutor:doubleedge",
-    "tutor:gravity",
-    "tutor:swift",
+    "tutor:gravitycosmic",
+    "tutor:swiftcosmic",
     "tutor:ominouswind",
     "tutor:painsplit"  ],
   "labels": [

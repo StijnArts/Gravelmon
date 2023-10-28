@@ -4,6 +4,7 @@
   "nationalPokedexNumber": 1288,
   "primaryType": "grass",
   "abilities": [
+    "sunbathe",
     "chlorophyll",
     "h:sweetveil"
   ],
@@ -34,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 120,
@@ -69,6 +69,7 @@
     "20:megadrain",
     "24:growth",
     "27:knockoff",
+    "30:leafshield",
     "34:poisonjab",
     "37:gigadrain",
     "40:tickle",
@@ -107,7 +108,7 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
     "tm:cut",
     "tutor:ancientpower",

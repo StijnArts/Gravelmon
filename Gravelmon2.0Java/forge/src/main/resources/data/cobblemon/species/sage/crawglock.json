@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 70,
@@ -69,7 +68,7 @@
     "1:vicegrip",
     "4:focusenergy",
     "7:aquajet",
-    "11:sonicboom",
+    "11:sonicboomsound",
     "14:metalclaw",
     "17:lockon",
     "21:waterpulse",
@@ -123,9 +122,11 @@
     "tm:swagger",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
     "tm:waterpulse",
+    "tm:depthcharge",
+    "tm:standoff",
     "tm:cut",
     "tm:surf",
     "tm:strength",
@@ -143,9 +144,9 @@
     "tutor:knockoff",
     "tutor:mudslap",
     "tutor:secretpower",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superpower",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "egg:agility",
     "egg:bulletpunch",
     "egg:crushclaw",

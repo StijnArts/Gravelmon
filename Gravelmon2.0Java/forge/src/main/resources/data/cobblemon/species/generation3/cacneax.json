@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 190,
@@ -77,7 +76,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:energyball",
     "tm:fling",
     "tm:brutalswing",
@@ -102,16 +101,14 @@
   "evolutions": [
     {
       "id": "cacneax_cacturnex",
-      "variant": "level_up",
+      "variant": "item_interact",
       "result": "cacturnex",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 32
-        }
-      ]   
+
+      ],
+      "requiredContext": "gravelmon:xenolith"   
  }
   ],
   "baseScale": 1.0,

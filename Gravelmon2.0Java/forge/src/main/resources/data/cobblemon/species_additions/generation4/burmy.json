@@ -1,0 +1,14 @@
+{"target": "cobblemon:Burmy",
+   "moves": [
+    "1:protect",
+    "10:tackle",
+    "15:bugbite",
+    "20:hiddenpower",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tutor:bugbite",
+    "tutor:electroweb",
+    "tutor:protect",
+    "tutor:snoresound",
+    "tutor:stringshot"
+  ]}

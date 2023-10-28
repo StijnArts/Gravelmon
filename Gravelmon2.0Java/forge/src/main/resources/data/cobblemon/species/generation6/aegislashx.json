@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -68,7 +67,7 @@
     "28:brickbreak",
     "32:poltergeist",
     "36:dazzlinggleam",
-    "39:powergem",
+    "39:powergemcrystal",
     "42:focusblast",
     "45:shiftgear",
     "48:gyroball",

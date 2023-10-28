@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -74,7 +73,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:fling",
     "tm:embargo",
     "tm:payback",
@@ -84,7 +83,7 @@
     "tutor:dragonpulse",
     "tutor:outrage",
     "tutor:secretpower",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "gen1",

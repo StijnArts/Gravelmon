@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 120,
@@ -57,7 +56,7 @@
     "tutor:heatwave",
     "tutor:magnetrise",
     "tutor:signalbeam",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "gen4",
     "insurgence",

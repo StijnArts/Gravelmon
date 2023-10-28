@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 90,
@@ -71,7 +70,7 @@
     "24:slash",
     "27:curse",
     "30:rest",
-    "30:snore",
+    "30:snoresound",
     "35:bodyslam",
     "39:surf",
     "43:entrainment",
@@ -113,8 +112,9 @@
     "tm:swagger",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
+    "tm:depthcharge",
     "tm:cut",
     "tm:surf",
     "tm:strength",

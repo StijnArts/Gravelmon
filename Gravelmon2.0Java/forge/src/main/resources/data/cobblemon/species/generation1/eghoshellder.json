@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 190,
@@ -94,7 +93,7 @@
     "tm:torment",
     "tm:facade",
     "tm:rest",
-    "tm:echoedvoice",
+    "tm:echoedvoicesound",
     "tm:falseswipe",
     "tm:scald",
     "tm:embargo",

@@ -80,9 +80,10 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -165,12 +166,15 @@
     "tm:uturn",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:darkpulse",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:snarl",
+    "tm:corrode",
     "tm:confide",
     "tm:quash",
+    "tm:darkmatter",
     "tm:infestation",
     "tm:spikes",
     "tm:secretpower",
@@ -193,7 +197,7 @@
     "tutor:foulplay",
     "tutor:furycutter",
     "tutor:gastroacid",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:gunkshot",
     "tutor:headbutt",
     "tutor:knockoff",
@@ -201,7 +205,7 @@
     "tutor:mimic",
     "tutor:mudslap",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:stringshot",
     "tutor:superfang",

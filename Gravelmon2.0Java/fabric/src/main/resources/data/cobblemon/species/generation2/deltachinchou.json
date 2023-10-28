@@ -87,19 +87,22 @@
     "tm:chargebeam",
     "tm:skillswap",
     "tm:willowisp",
+    "tm:newmoon",
     "tm:embargo",
     "tm:venoshock",
     "tm:dreameater",
     "tm:swagger",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:dazzlinggleam",
+    "tm:achillesheel",
     "tm:incinerate",
     "tm:allyswitch",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
+    "tm:darkmatter",
     "tm:secretpower",
     "tutor:acid",
     "tutor:afteryou",
@@ -107,7 +110,7 @@
     "tutor:earthpower",
     "tutor:endeavor",
     "tutor:endure",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:heatwave",
     "tutor:magiccoat",
     "tutor:magicroom",
@@ -115,14 +118,13 @@
     "tutor:nightshade",
     "tutor:ominouswind",
     "tutor:painsplit",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:trick",
     "tutor:wonderroom"  ],
   "labels": [
     "gen2",
-    "insurgence",
-    "not_modeled"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltachinchou.desc"
@@ -142,10 +144,10 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.6,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.7,
+    "height": 0.7,
     "fixed": false
   },
   "baseFriendship": 70,

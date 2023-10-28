@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 140,
@@ -71,10 +70,12 @@
     "20:feintattack",
     "24:grassknot",
     "27:willowisp",
+    "30:leafshield",
     "34:shadowpunch",
     "37:leafblade",
     "40:faketears",
     "47:painsplit",
+    "50:terrorize",
     "54:destinybond",
     "57:leafstorm",
     "tm:calmmind",
@@ -112,8 +113,9 @@
     "tm:trickroom",
     "tm:focuspunch",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
+    "tm:miraclewill",
     "tm:cut",
     "tutor:doubleedge",
     "tutor:fling",
@@ -124,7 +126,7 @@
     "tutor:secretpower",
     "tutor:seedbomb",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:trick",
     "tutor:worryseed",
     "egg:camouflage",

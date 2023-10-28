@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 200,
@@ -52,14 +51,14 @@
     "1:leer",
     "5:ember",
     "8:lowkick",
-    "12:swift",
+    "12:swiftcosmic",
     "15:incinerate",
     "19:firespin",
     "22:flameburst",
     "26:workup",
     "29:firepunch",
     "33:lavaplume",
-    "36:screech",
+    "36:screechsound",
     "40:flamethrower",
     "43:fireblast",
     "tm:toxic",
@@ -78,7 +77,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:overheat",
     "tm:fling",
     "tm:willowisp",
@@ -92,7 +91,7 @@
     "tutor:lowkick",
     "tutor:outrage",
     "tutor:secretpower",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "gen2"

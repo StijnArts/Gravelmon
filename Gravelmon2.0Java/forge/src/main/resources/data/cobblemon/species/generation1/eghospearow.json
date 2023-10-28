@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -97,8 +96,8 @@
     "tm:rest",
     "tm:thief",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:falseswipe",
     "tm:quash",
     "tm:embargo",

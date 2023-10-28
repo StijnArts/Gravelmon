@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 90,
@@ -59,6 +58,7 @@
     ]
   },
   "moves": [
+    "1:webball",
     "1:stringshot",
     "1:poisonsting",
     "4:tackle",
@@ -70,6 +70,7 @@
     "22:poisonfang",
     "25:gastroacid",
     "28:pinmissile",
+    "31:acidrain",
     "34:crosspoison",
     "37:swordsdance",
     "40:xscissor",
@@ -105,18 +106,19 @@
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:standoff",
     "tutor:bugbite",
     "tutor:doubleedge",
     "tutor:fling",
     "tutor:gastroacid",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:knockoff",
     "tutor:mudslap",
     "tutor:signalbeam",
     "tutor:uproar",
     "egg:leechlife",
-    "egg:bugbuzz",
+    "egg:bugbuzzsound",
     "egg:twineedle",
     "egg:furycutter",
     "egg:pursuit"  ],

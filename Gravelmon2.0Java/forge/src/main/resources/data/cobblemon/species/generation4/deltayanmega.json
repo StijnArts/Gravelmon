@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 30,
@@ -100,13 +99,14 @@
     "tm:swagger",
     "tm:uturn",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:steelwing",
     "tm:acrobatics",
     "tm:dazzlinggleam",
+    "tm:achillesheel",
     "tm:silverwind",
     "tm:skydrop",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -135,7 +135,7 @@
     "tutor:roleplay",
     "tutor:seedbomb",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:synthesis",
     "tutor:tailwind",
     "tutor:twister",

@@ -1,20 +1,55 @@
 {
-  "portraitScale": 0.001,
-  "portraitTranslation": [0.0, 1.0, 0.0],
-  "profileScale": 0.3,
-  "profileTranslation": [0.1, 2.0, 0.0],
+	"head": "head",
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.2, 0.3, 0.0],
+  "profileScale": 0.8,
+  "profileTranslation": [0.1, 0.8, 0.0],
   "poses": {
-    "profile": {
-      "poseName": "profile",
-      "poseTypes": ["PROFILE"],
-      "transformTicks": 10,
-      "animations": ["bedrock(cutout, pc_fix)"]
-    },
-    "portrait": {
-      "poseName": "portrait",
-      "poseTypes": ["NONE","PORTRAIT"],
-      "transformTicks": 10,
-      "animations": ["bedrock(cutout, summary_fix)"]
-    }
+    "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": ["STAND", "NONE", "WALK","PORTRAIT", "PROFILE"],
+        "animations": [
+          "look",
+          "bedrock(emolga_hoennian, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(emolga_hoennian, blink)"]
+          }
+        ]
+      ,
+	  "flying": {
+        "poseName": "flying",
+        "transformTicks": 10,
+        "poseTypes": ["FLY"],
+        "animations": [
+          "look",
+          "bedrock(emolga_hoennian, air_fly)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(emolga_hoennian, blink)"]
+          }
+        ]
+      },
+	  "hovering": {
+        "poseName": "hovering",
+        "transformTicks": 10,
+        "poseTypes": ["HOVER"],
+        "animations": [
+          "look",
+          "bedrock(emolga_hoennian, air_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(emolga_hoennian, blink)"]
+          }
+        ]
+      }
+	}
   }
 }

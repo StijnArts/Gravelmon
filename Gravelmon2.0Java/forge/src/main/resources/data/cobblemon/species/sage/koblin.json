@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -65,7 +64,7 @@
   },
   "moves": [
     "1:scratch",
-    "1:howl",
+    "1:howlsound",
     "4:leer",
     "7:taunt",
     "10:pursuit",
@@ -79,7 +78,7 @@
     "39:suckerpunch",
     "44:spite",
     "49:darkpulse",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:taunt",
@@ -105,7 +104,7 @@
     "tm:substitute",
     "tm:snarl",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:cut",
     "tm:strength",
     "tutor:counter",
@@ -115,7 +114,7 @@
     "tutor:knockoff",
     "tutor:mudslap",
     "tutor:secretpower",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:stealthrock",
     "tutor:uproar",

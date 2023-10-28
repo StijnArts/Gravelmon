@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -111,8 +110,9 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:smackdown",
-    "tm:sleeptalk",
-    "tm:round",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -134,7 +134,7 @@
     "tutor:roleplay",
     "tutor:shiftgear",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:thunderpunch",
     "tutor:zenheadbutt"  ],

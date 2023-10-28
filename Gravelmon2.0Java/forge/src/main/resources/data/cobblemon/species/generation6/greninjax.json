@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -48,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:nightdaze",
     "1:haze",
@@ -93,8 +102,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:thief",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:overheat",
     "tm:focusblast",
     "tm:energyball",

@@ -5,8 +5,8 @@
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "shadowcall",
+    "h:shadowdance"
   ],
   "baseStats": {
     "hp": 79,
@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -48,7 +47,7 @@
       "secondaryType": "fighting",
       "abilities": [
     "megalauncher",
-    "h:keeneye"
+    "h:shadowdance"
       ],
       "baseScale": 0.3,
         "hitbox": {
@@ -79,9 +78,10 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -159,6 +159,7 @@
     "tm:falseswipe",
     "tm:fling",
     "tm:dragontail",
+    "tm:newmoon",
     "tm:embargo",
     "tm:shadowclaw",
     "tm:payback",
@@ -176,16 +177,18 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:darkpulse",
+    "tm:achillesheel",
     "tm:avalanche",
     "tm:allyswitch",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
     "tm:quash",
+    "tm:darkmatter",
     "tm:spikes",
     "tm:secretpower",
     "tm:rockclimb",
@@ -218,7 +221,7 @@
     "tutor:nastyplot",
     "tutor:outrage",
     "tutor:seismictoss",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:suckerpunch",
     "tutor:superpower",

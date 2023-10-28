@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 190,
@@ -60,7 +59,7 @@
     "11:leer",
     "16:furyswipes",
     "21:taunt",
-    "26:screech",
+    "26:screechsound",
     "31:nightslash",
     "36:xscissor",
     "40:slash",
@@ -93,6 +92,7 @@
     "tm:lowsweep",
     "tm:falseswipe",
     "tm:fling",
+    "tm:newmoon",
     "tm:embargo",
     "tm:shadowclaw",
     "tm:payback",
@@ -105,13 +105,15 @@
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:darkpulse",
+    "tm:achillesheel",
     "tm:silverwind",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
+    "tm:darkmatter",
     "tm:secretpower",
     "tm:rockclimb",
     "tm:cut",
@@ -131,7 +133,7 @@
     "tutor:megakick",
     "tutor:mimic",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:superpower"  ],
   "labels": [

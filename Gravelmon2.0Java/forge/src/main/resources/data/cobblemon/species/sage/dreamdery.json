@@ -4,7 +4,7 @@
   "nationalPokedexNumber": 1146,
   "primaryType": "psychic",
   "abilities": [
-    "keeneye",
+    "psychout",
     "h:prankster"
   ],
   "baseStats": {
@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 125,
@@ -66,13 +65,16 @@
     "8:cottonspore",
     "13:psybeam",
     "16:hypnosis",
+    "20:psybolt",
     "25:flatter",
     "28:nightmare",
     "32:psyshock",
     "37:lovelykiss",
+    "40:possession",
     "44:psychic",
     "49:cottonguard",
     "52:dreameater",
+    "56:terrorize",
     "tm:psyshock",
     "tm:calmmind",
     "tm:toxic",
@@ -96,7 +98,7 @@
     "tm:attract",
     "tm:thief",
     "tm:skillswap",
-    "tm:echoedvoice",
+    "tm:echoedvoicesound",
     "tm:focusblast",
     "tm:energyball",
     "tm:fling",
@@ -115,11 +117,12 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:miraclewill",
     "tutor:endeavor",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:helpinghand",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:magiccoat",
     "tutor:metronome",
     "tutor:ominouswind",
@@ -127,7 +130,7 @@
     "tutor:roleplay",
     "tutor:signalbeam",
     "tutor:snatch",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:trick",
     "tutor:zenheadbutt",
     "egg:batonpass",
@@ -136,7 +139,7 @@
     "egg:foulplay",
     "egg:hex",
     "egg:mindreader",
-    "egg:perishsong",
+    "egg:perishsongsound",
     "egg:wish"  ],
   "labels": [
     "sage",

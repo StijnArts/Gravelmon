@@ -56,7 +56,7 @@
     "12:scaryface",
     "16:hex",
     "20:icefang",
-    "24:screech",
+    "24:screechsound",
     "28:swagger",
     "32:phantomforce",
     "36:agility",
@@ -78,7 +78,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:scald",
     "tm:willowisp",
     "tm:payback",
@@ -89,7 +89,7 @@
     "tm:substitute",
     "tm:darkpulse",
     "tutor:secretpower",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "gen3"

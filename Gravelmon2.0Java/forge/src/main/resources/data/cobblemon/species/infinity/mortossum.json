@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -61,7 +60,7 @@
   },
   "moves": [
     "1:teeterdance",
-    "1:disarmingvoice",
+    "1:disarmingvoicesound",
     "1:taunt",
     "1:protect",
     "1:charm",
@@ -97,8 +96,8 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:allyswitch",
     "tm:energyball",
     "tm:fling",
@@ -123,7 +122,7 @@
     "tutor:drainpunch",
     "tutor:foulplay",
     "tutor:gigadrain",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:helpinghand",
     "tutor:icepunch",
     "tutor:knockoff",

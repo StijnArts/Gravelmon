@@ -5,8 +5,8 @@
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "shadowcall",
+    "h:shadowdance"
   ],
   "baseStats": {
     "hp": 59,
@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -97,6 +96,7 @@
     "tm:falseswipe",
     "tm:fling",
     "tm:dragontail",
+    "tm:newmoon",
     "tm:embargo",
     "tm:shadowclaw",
     "tm:payback",
@@ -112,15 +112,17 @@
     "tm:uturn",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:darkpulse",
+    "tm:achillesheel",
     "tm:allyswitch",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
     "tm:quash",
+    "tm:darkmatter",
     "tm:spikes",
     "tm:secretpower",
     "tm:cut",
@@ -151,7 +153,7 @@
     "tutor:mimic",
     "tutor:nastyplot",
     "tutor:seismictoss",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:suckerpunch",
     "tutor:superpower",

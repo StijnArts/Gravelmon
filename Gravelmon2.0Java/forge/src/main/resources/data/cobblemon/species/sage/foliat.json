@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -75,9 +74,11 @@
     "25:agility",
     "28:aerialace",
     "31:gigadrain",
+    "34:windshear",
     "37:synthesis",
     "40:drillpeck",
     "43:solarbeam",
+    "46:leafshield",
     "49:mirrormove",
     "tm:toxic",
     "tm:hiddenpower",
@@ -103,7 +104,7 @@
     "tm:swagger",
     "tm:uturn",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
     "tm:cut",
     "tutor:bounce",
@@ -111,9 +112,10 @@
     "tutor:grasspledge",
     "tutor:secretpower",
     "tutor:seedbomb",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:synthesis",
     "tutor:worryseed",
+    "egg:leafshield",
     "egg:leechseed",
     "egg:leafblade",
     "egg:magicalleaf",

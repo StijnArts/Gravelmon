@@ -6,7 +6,7 @@
   "secondaryType": "poison",
   "abilities": [
     "defiant",
-    "h:keeneye"
+    "h:absolution"
   ],
   "baseStats": {
     "hp": 55,
@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -86,6 +85,7 @@
     "tm:attract",
     "tm:thief",
     "tm:energyball",
+    "tm:newmoon",
     "tm:embargo",
     "tm:payback",
     "tm:psychup",
@@ -97,15 +97,19 @@
     "tm:uturn",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:dracojet",
+    "tm:sleeptalksound",
     "tm:darkpulse",
+    "tm:achillesheel",
     "tm:silverwind",
     "tm:incinerate",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
+    "tm:corrode",
     "tm:confide",
     "tm:quash",
+    "tm:darkmatter",
     "tm:infestation",
     "tm:secretpower",
     "tm:flash",
@@ -117,16 +121,16 @@
     "tutor:endure",
     "tutor:foulplay",
     "tutor:gigadrain",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:gunkshot",
     "tutor:mimic",
     "tutor:morningsun",
     "tutor:outrage",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spacialrend",
     "tutor:spite",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:waterpulse",
     "tutor:zenheadbutt"  ],
   "labels": [

@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -61,11 +60,14 @@
     ]
   },
   "moves": [
+    "0:thornwhip",
     "1:tackle",
     "1:growl",
     "1:leechseed",
     "1:harden",
     "6:sandattack",
+    "8:dryneedles",
+    "10:barbedtackle",
     "14:absorb",
     "18:rockthrow",
     "20:sandstorm",
@@ -79,7 +81,7 @@
     "47:solarbeam",
     "49:earthquake",
     "tm:honeclaws",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -100,8 +102,8 @@
     "tm:rocktomb",
     "tm:facade",
     "tm:rest",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:energyball",
     "tm:fling",
     "tm:quash",

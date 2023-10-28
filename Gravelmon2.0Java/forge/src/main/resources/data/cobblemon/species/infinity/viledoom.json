@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -95,7 +94,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:echoedvoice",
+    "tm:echoedvoicesound",
     "tm:overheat",
     "tm:allyswitch",
     "tm:energyball",

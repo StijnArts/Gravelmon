@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 75,
@@ -76,7 +75,7 @@
     "26:sludgebomb",
     "29:fling",
     "32:rockslide",
-    "35:screech",
+    "35:screechsound",
     "37:sludgewave",
     "40:dizzypunch",
     "44:firepunch",
@@ -85,7 +84,8 @@
     "61:meteormash",
     "67:stoneedge",
     "73:closecombat",
-    "tm:roar",
+    "81:tartantrum",
+    "tm:roarsound",
     "tm:toxic",
     "tm:bulkup",
     "tm:venoshock",
@@ -111,7 +111,7 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:overheat",
     "tm:focusblast",
     "tm:scald",
@@ -133,6 +133,7 @@
     "tm:rocksmash",
     "tm:snarl",
     "tm:strength",
+    "tm:cinderbreath",
     "tutor:ancientpower",
     "tutor:darkpulse",
     "tutor:dragonpulse",

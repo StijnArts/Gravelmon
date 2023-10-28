@@ -78,9 +78,10 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -136,9 +137,10 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -184,7 +186,7 @@
     "61:rollout",
     "69:doubleedge",
     "74:thunder",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:hyperbeam",
@@ -210,6 +212,7 @@
     "tm:energyball",
     "tm:fling",
     "tm:chargebeam",
+    "tm:newmoon",
     "tm:shadowclaw",
     "tm:payback",
     "tm:retaliate",
@@ -225,14 +228,16 @@
     "tm:poweruppunch",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:dazzlinggleam",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
+    "tm:darkmatter",
     "tm:secretpower",
     "tm:rockclimb",
     "tm:flash",
@@ -263,8 +268,8 @@
     "tutor:rollout",
     "tutor:seismictoss",
     "tutor:signalbeam",
-    "tutor:snore",
-    "tutor:swift",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
     "tutor:thunderpunch",
     "tutor:zapcannon"  ],
   "labels": [

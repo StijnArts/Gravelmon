@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -72,14 +71,14 @@
     "tm:doubleteam",
     "tm:rest",
     "tm:attract",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:fling",
     "tm:psychup",
     "tm:substitute",
     "tm:dazzlinggleam",
     "tutor:secretpower",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "gen1",
@@ -98,7 +97,7 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:shiny_stone"   
+      "requiredContext": "gravelmon:xenolith"   
  }
   ],
   "baseScale": 0.225,

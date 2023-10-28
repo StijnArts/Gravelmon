@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 170,
@@ -74,7 +73,7 @@
     "37:toxicspikes",
     "41:poisonjab",
     "45:agility",
-    "49:bugbuzz",
+    "49:bugbuzzsound",
     "53:gigadrain",
     "57:megahorn",
     "61:horndrill",
@@ -105,7 +104,7 @@
     "tm:swagger",
     "tm:uturn",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tutor:bugbite",
     "tutor:endeavor",
     "tutor:gastroacid",

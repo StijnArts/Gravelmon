@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 120,
@@ -80,7 +79,7 @@
     "57:leafstorm",
     "tm:honeclaws",
     "tm:dragonclaw",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -108,7 +107,7 @@
     "tm:swagger",
     "tm:substitute",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
     "tm:cut"  ],
   "labels": [

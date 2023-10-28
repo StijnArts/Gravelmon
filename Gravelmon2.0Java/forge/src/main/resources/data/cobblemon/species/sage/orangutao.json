@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 100,
@@ -68,7 +67,7 @@
     "14:secretpower",
     "18:forcepalm",
     "22:smellingsalts",
-    "26:echoedvoice",
+    "26:echoedvoicesound",
     "30:extrasensory",
     "39:zenheadbutt",
     "44:counter",
@@ -109,7 +108,7 @@
     "tm:thief",
     "tm:lowsweep",
     "tm:skillswap",
-    "tm:echoedvoice",
+    "tm:echoedvoicesound",
     "tm:focusblast",
     "tm:fling",
     "tm:chargebeam",
@@ -129,7 +128,8 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:miraclewill",
     "tm:cut",
     "tm:strength",
     "tutor:ancientpower",
@@ -148,8 +148,8 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:snatch",
-    "tutor:snore",
-    "tutor:swift",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
     "tutor:thunderpunch",
     "tutor:zenheadbutt",
     "egg:amnesia",

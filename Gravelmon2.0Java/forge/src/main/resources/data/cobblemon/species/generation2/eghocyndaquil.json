@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -67,7 +66,7 @@
     "19:spark",
     "22:defensecurl",
     "28:flamecharge",
-    "31:swift",
+    "31:swiftcosmic",
     "37:lavaplume",
     "40:wildcharge",
     "46:naturepower",
@@ -98,8 +97,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:attract",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:overheat",
     "tm:focusblast",
     "tm:chargebeam",
@@ -121,6 +120,7 @@
     "tm:wildcharge",
     "tm:rocksmash",
     "tm:snarl",
+    "tm:cinderbreath",
     "tutor:ancientpower",
     "tutor:darkpulse",
     "tutor:earthpower",

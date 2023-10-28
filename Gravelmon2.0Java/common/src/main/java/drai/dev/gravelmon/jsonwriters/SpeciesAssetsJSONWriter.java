@@ -146,7 +146,7 @@ public class SpeciesAssetsJSONWriter {
 
 
     public static void createPlaceholderForExistingPokemon(String resourcesDir){
-        for (String pokemonName :
+        /*for (String pokemonName :
                 Placeholders.placeholders) {
             try {
                 createSpeciesFilePlaceholder(pokemonName, resourcesDir);
@@ -155,7 +155,7 @@ public class SpeciesAssetsJSONWriter {
             }
             //createPlaceholderTextureIfNotExists("placeholders\\"+pokemonName+".png", resourcesDir);
             //createPlaceholderTextureIfNotExists("placeholders\\"+pokemonName+"_shiny.png", resourcesDir);
-        }
+        }*/
     }
 
     private static void createSpeciesFilePlaceholder(String pokemonName, String resourcesDir) throws IOException {

@@ -6,6 +6,7 @@
   "secondaryType": "psychic",
   "abilities": [
     "levitate",
+    "feedback",
     "h:analytic"
   ],
   "baseStats": {
@@ -35,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 75,
@@ -75,7 +75,7 @@
     "28:cosmicpower",
     "31:futuresight",
     "35:lockon",
-    "39:powergem",
+    "39:powergemcrystal",
     "44:powersplit",
     "44:guardsplit",
     "52:recover",
@@ -124,7 +124,9 @@
     "tm:swagger",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
+    "tm:miraclewill",
     "tm:strength",
     "tutor:secretpower",
     "tutor:ironhead",
@@ -139,8 +141,8 @@
     "tutor:earthpower",
     "tutor:zenheadbutt",
     "tutor:doubleedge",
-    "tutor:gravity",
-    "tutor:swift",
+    "tutor:gravitycosmic",
+    "tutor:swiftcosmic",
     "tutor:ominouswind",
     "tutor:painsplit"  ],
   "labels": [

@@ -4,6 +4,7 @@
   "nationalPokedexNumber": 1241,
   "primaryType": "ghost",
   "abilities": [
+    "perforate",
     "cursedbody",
     "h:grimneigh"
   ],
@@ -99,7 +100,7 @@
     "tm:trickroom",
     "tm:wildcharge",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "egg:agility",
     "egg:doublekick",
     "egg:meanlook",

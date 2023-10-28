@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 150,
@@ -70,6 +69,7 @@
     "26:amnesia",
     "30:venoshock",
     "34:dragonbreath",
+    "38:acidrain",
     "42:aquatail",
     "46:sludgewave",
     "51:whirlwind",
@@ -98,8 +98,9 @@
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
+    "tm:depthcharge",
     "tm:surf",
     "tm:dive",
     "tm:waterfall",
@@ -112,7 +113,7 @@
     "tutor:icywind",
     "tutor:irontail",
     "tutor:magiccoat",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:steelwing",
     "egg:acidarmor",
     "egg:acidspray",

@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -100,8 +99,8 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:energyball",
     "tm:fling",
     "tm:chargebeam",
@@ -125,6 +124,7 @@
     "tm:bulletseed",
     "tm:cut",
     "tm:strength",
+    "tm:flashflood",
     "tutor:dazzlinggleam",
     "tutor:dragonpulse",
     "tutor:earthpower",

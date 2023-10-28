@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 200,
@@ -55,7 +54,7 @@
     "9:disable",
     "12:leechseed",
     "15:faketears",
-    "18:round",
+    "18:roundsound",
     "20:slackoff",
     "21:toxic",
     "24:gastroacid",
@@ -78,7 +77,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:poisonjab",
     "tm:swagger",
@@ -102,7 +101,7 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dusk_stone"   
+      "requiredContext": "gravelmon:xenolith"   
  }
   ],
   "baseScale": 0.13125,

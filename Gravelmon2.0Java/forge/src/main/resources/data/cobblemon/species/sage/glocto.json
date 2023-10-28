@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 100,
@@ -106,16 +105,17 @@
     "tm:flash",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
+    "tm:depthcharge",
     "tm:surf",
     "tm:dive",
     "tm:waterfall",
     "tutor:heatwave",
     "tutor:magiccoat",
     "tutor:signalbeam",
-    "tutor:snore",
-    "tutor:swift",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
     "tutor:zenheadbutt",
     "egg:aquaring",
     "egg:recover",

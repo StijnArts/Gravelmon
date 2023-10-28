@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 60,
@@ -72,9 +71,9 @@
     "tutor:darkpulse",
     "tutor:dazzlinggleam",
     "tutor:foulplay",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:headbutt",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:irontail",
     "tutor:knockoff",
     "tutor:megakick",
@@ -83,10 +82,10 @@
     "tutor:roleplay",
     "tutor:signalbeam",
     "tutor:skillswap",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:suckerpunch",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:trick",
     "tutor:uproar",
     "tutor:zenheadbutt",

@@ -66,7 +66,7 @@
     "1:foulplay",
     "1:growl",
     "1:gust",
-    "1:echoedvoice",
+    "1:echoedvoicesound",
     "5:hypnosis",
     "9:confusion",
     "13:nightshade",
@@ -99,8 +99,8 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:skydrop",
     "tm:willowisp",
     "tm:acrobatics",
@@ -127,7 +127,8 @@
     "egg:whirlwind"  ],
   "labels": [
     "infinity",
-    "gen2"
+    "gen2",
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.eghonoctowl.desc"
@@ -145,10 +146,10 @@
       "requiredContext": "cobblemon:dusk_stone"   
  }
   ],
-  "baseScale": 1.0,
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 1.0,
-    "height": 1.7,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

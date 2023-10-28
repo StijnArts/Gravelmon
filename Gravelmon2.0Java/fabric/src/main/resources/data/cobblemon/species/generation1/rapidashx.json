@@ -80,9 +80,10 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 26,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -153,8 +154,8 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:chargebeam",
     "tm:skydrop",
     "tm:acrobatics",
@@ -175,7 +176,7 @@
     "tutor:lowkick",
     "tutor:secretpower",
     "tutor:shockwave",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:tailwind"  ],
   "labels": [
     "xenoverse",
@@ -184,7 +185,7 @@
   "pokedex": [
     "cobblemon.species.rapidashx.desc"
   ],
-  "baseScale": 1.4,
+  "baseScale": 1.25,
   "hitbox": {
     "width": 0.9,
     "height": 2.0,

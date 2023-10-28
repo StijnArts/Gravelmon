@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -79,9 +78,10 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -168,12 +168,13 @@
     "tm:swagger",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:frostbreath",
     "tm:dazzlinggleam",
+    "tm:achillesheel",
     "tm:avalanche",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -183,7 +184,7 @@
     "tutor:earthpower",
     "tutor:endure",
     "tutor:helpinghand",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:icepunch",
     "tutor:icywind",
     "tutor:lastresort",
@@ -191,7 +192,7 @@
     "tutor:mimic",
     "tutor:roleplay",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:thunderpunch",
     "tutor:trick",
     "tutor:uproar",

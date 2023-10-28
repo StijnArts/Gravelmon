@@ -60,7 +60,7 @@
   "moves": [
     "1:snarl",
     "1:energyball",
-    "1:powergem",
+    "1:powergemcrystal",
     "1:confusion",
     "1:drainingkiss",
     "1:sludgebomb",
@@ -98,7 +98,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:fling",
     "tm:embargo",
     "tm:payback",

@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -84,7 +83,7 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:round",
+    "tm:roundsound",
     "tm:overheat",
     "tm:focusblast",
     "tm:scald",
@@ -115,8 +114,8 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore"  ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "not_modeled"

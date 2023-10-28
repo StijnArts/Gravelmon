@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 25,
@@ -67,6 +66,7 @@
     "5:leer",
     "10:glare",
     "15:razorleaf",
+    "19:leafshield",
     "24:poisonfang",
     "29:growth",
     "38:leafblade",
@@ -77,7 +77,7 @@
     "60:coil",
     "66:leafstorm",
     "71:outrage",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -108,7 +108,7 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
     "tm:cut",
     "tm:fly",

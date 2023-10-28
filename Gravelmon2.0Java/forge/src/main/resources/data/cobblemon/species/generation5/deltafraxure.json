@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 60,
@@ -69,7 +68,7 @@
     "60:hydropump",
     "66:gigaimpact",
     "tm:honeclaws",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
@@ -100,8 +99,10 @@
     "tm:xscissor",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
-    "tm:round",
+    "tm:dracojet",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -120,7 +121,7 @@
     "tutor:icywind",
     "tutor:mimic",
     "tutor:outrage",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superfang",
     "tutor:superpower",
     "tutor:waterpulse",

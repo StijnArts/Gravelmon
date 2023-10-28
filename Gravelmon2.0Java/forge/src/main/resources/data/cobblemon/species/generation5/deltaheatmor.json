@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 90,
@@ -109,13 +108,16 @@
     "tm:swagger",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:frostbreath",
     "tm:darkpulse",
+    "tm:achillesheel",
     "tm:incinerate",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
+    "tm:corrode",
     "tm:confide",
+    "tm:darkmatter",
     "tm:infestation",
     "tm:secretpower",
     "tm:rocksmash",
@@ -137,7 +139,7 @@
     "tutor:nastyplot",
     "tutor:shiftgear",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:waterpulse",
     "tutor:zapcannon"  ],
   "labels": [

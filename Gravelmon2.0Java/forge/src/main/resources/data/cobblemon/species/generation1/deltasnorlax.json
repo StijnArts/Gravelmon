@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 25,
@@ -70,7 +69,7 @@
     "50:earthquake",
     "57:woodhammer",
     "tm:bulldoze",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:bulkup",
     "tm:hiddenpower",
@@ -104,8 +103,9 @@
     "tm:poweruppunch",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
-    "tm:round",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:quash",
@@ -134,7 +134,7 @@
     "tutor:rollout",
     "tutor:seedbomb",
     "tutor:seismictoss",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superpower",
     "tutor:synthesis",
     "tutor:thunderpunch",

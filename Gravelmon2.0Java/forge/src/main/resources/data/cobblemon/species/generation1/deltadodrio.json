@@ -6,7 +6,7 @@
   "abilities": [
     "compoundeyes",
     "trace",
-    "h:keeneye"
+    "h:psychocall"
   ],
   "baseStats": {
     "hp": 60,
@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -101,13 +100,15 @@
     "tm:swagger",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:dazzlinggleam",
+    "tm:achillesheel",
     "tm:allyswitch",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:pluck",
+    "tm:darkmatter",
     "tm:secretpower",
     "tutor:acid",
     "tutor:afteryou",
@@ -116,9 +117,9 @@
     "tutor:drillrun",
     "tutor:endeavor",
     "tutor:endure",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:helpinghand",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:hypnosis",
     "tutor:knockoff",
     "tutor:lowkick",
@@ -126,7 +127,7 @@
     "tutor:magicroom",
     "tutor:mimic",
     "tutor:roleplay",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superpower",
     "tutor:trick",
     "tutor:uproar",

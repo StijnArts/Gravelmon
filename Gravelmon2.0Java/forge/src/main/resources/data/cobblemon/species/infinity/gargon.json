@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -65,7 +64,7 @@
     "30:rockslide",
     "34:dualchop",
     "36:uproar",
-    "41:hypervoice",
+    "41:hypervoicesound",
     "44:dragonclaw",
     "50:stoneedge",
     "55:dragonrush",
@@ -92,8 +91,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:falseswipe",
     "tm:incinerate",
     "tm:acrobatics",

@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 60,
@@ -102,9 +101,11 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
-    "tm:round",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
+    "tm:corrode",
     "tm:quash",
     "tm:infestation",
     "tm:spikes",
@@ -124,7 +125,7 @@
     "tutor:mimic",
     "tutor:painsplit",
     "tutor:seedbomb",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:synthesis",
     "tutor:whirlpool",

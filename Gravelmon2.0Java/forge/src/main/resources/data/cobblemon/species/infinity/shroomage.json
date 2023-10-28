@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 120,
@@ -68,7 +67,7 @@
     "34:leechseed",
     "35:venoshock",
     "38:synthesis",
-    "40:hypervoice",
+    "40:hypervoicesound",
     "45:magiccoat",
     "50:psyshock",
     "55:gigadrain",

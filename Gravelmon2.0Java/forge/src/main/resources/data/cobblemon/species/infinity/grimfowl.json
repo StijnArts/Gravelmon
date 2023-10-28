@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -68,7 +67,7 @@
     "1:foulplay",
     "1:growl",
     "1:gust",
-    "1:echoedvoice",
+    "1:echoedvoicesound",
     "5:hypnosis",
     "9:confusion",
     "13:nightshade",
@@ -101,8 +100,8 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:focusblast",
     "tm:skydrop",
     "tm:willowisp",

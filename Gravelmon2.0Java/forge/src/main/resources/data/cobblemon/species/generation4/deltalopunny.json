@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 60,
@@ -80,9 +79,10 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -188,16 +188,18 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:acrobatics",
     "tm:darkpulse",
     "tm:dazzlinggleam",
+    "tm:achillesheel",
     "tm:allyswitch",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
+    "tm:darkmatter",
     "tm:secretpower",
     "tm:rockclimb",
     "tm:rocksmash",
@@ -221,7 +223,7 @@
     "tutor:foulplay",
     "tutor:gunkshot",
     "tutor:headbutt",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:helpinghand",
     "tutor:highjumpkick",
     "tutor:icepunch",
@@ -237,10 +239,10 @@
     "tutor:nastyplot",
     "tutor:roleplay",
     "tutor:seismictoss",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:suckerpunch",
     "tutor:superpower",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:thunderpunch",
     "tutor:trick",
     "tutor:uproar",
@@ -255,7 +257,7 @@
   "pokedex": [
     "cobblemon.species.deltalopunny.desc"
   ],
-  "baseScale": 0.5,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 1.4,
     "height": 3.0,

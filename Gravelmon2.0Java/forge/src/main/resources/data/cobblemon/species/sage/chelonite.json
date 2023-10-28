@@ -5,6 +5,7 @@
   "primaryType": "psychic",
   "secondaryType": "rock",
   "abilities": [
+    "orbitaltide",
     "shellarmor",
     "h:levitate"
   ],
@@ -35,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 170,
@@ -70,7 +70,9 @@
     "28:ancientpower",
     "33:stealthrock",
     "37:cosmicpower",
+    "42:asteroidshot",
     "46:psychic",
+    "51:asteroidbelt",
     "60:guardswap",
     "tm:psyshock",
     "tm:calmmind",
@@ -117,13 +119,15 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
+    "tm:miraclewill",
     "tm:strength",
     "tutor:endeavor",
     "tutor:ironhead",
     "tutor:magiccoat",
     "tutor:signalbeam",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:trick",
     "egg:earthpower",
     "egg:moonlight",

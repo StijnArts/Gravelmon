@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 65,
@@ -64,7 +63,7 @@
     "1:tackle",
     "4:supersonic",
     "7:magicalleaf",
-    "11:sonicboom",
+    "11:sonicboomsound",
     "15:leechseed",
     "18:vinewhip",
     "21:magnetbomb",
@@ -72,7 +71,7 @@
     "29:metalburst",
     "32:slam",
     "35:seedbomb",
-    "39:screech",
+    "39:screechsound",
     "43:ironhead",
     "46:lockon",
     "49:bulldoze",

@@ -1,0 +1,332 @@
+{"target": "cobblemon:Eevee",
+ "evolutions": [
+  {
+   "id": "eevee_omeon",
+   "variant": "item_interact",
+   "result": "omeon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "phantomforce"
+   ],
+   "requirements": [],
+   "requiredContext": "cobblemon:dusk_stone"
+  },
+  {
+   "id": "eevee_champeon",
+   "variant": "level_up",
+   "result": "champeon",
+   "consumeHeldItem": true,
+   "learnableMoves": ["reversal"],
+   "requirements": [
+    {
+     "variant": "time_range",
+     "range": "day"
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:black_belt"
+    }
+   ]
+  },
+  {
+   "id": "eevee_lepideon",
+   "variant": "level_up",
+   "result": "lepideon",
+   "consumeHeldItem": true,
+   "learnableMoves": ["signalbeam"],
+   "requirements": [
+    {
+     "variant": "time_range",
+     "range": "day"
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:silver_powder"
+    }
+   ]
+  },
+  {
+   "id": "eevee_guardeon",
+   "variant": "level_up",
+   "result": "guardeon",
+   "consumeHeldItem": true,
+   "learnableMoves": ["irondefense"],
+   "requirements": [
+    {
+     "variant": "time_range",
+     "range": "night"
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:metal_coat"
+    }
+   ]
+  },
+  {
+   "id": "eevee_obsideon",
+   "variant": "level_up",
+   "result": "obsideon",
+   "consumeHeldItem": true,
+   "learnableMoves": ["smackdown"],
+   "requirements": [
+    {
+     "variant": "time_range",
+     "range": "night"
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:hard_stone"
+    }
+   ]
+  },
+  {
+   "id": "eevee_scorpeon",
+   "variant": "level_up",
+   "result": "scorpeon",
+   "consumeHeldItem": true,
+   "learnableMoves": ["poisontail"],
+   "requirements": [
+    {
+     "variant": "time_range",
+     "range": "night"
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:poison_barb"
+    }
+   ]
+  },
+  {
+   "id": "eevee_sphynxeon",
+   "variant": "level_up",
+   "result": "sphynxeon",
+   "consumeHeldItem": true,
+   "learnableMoves": ["bonemerang"],
+   "requirements": [
+    {
+     "variant": "time_range",
+     "range": "day"
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:soft_sand"
+    }
+   ]
+  },
+  {
+   "id": "eevee_nimbeon",
+   "variant": "level_up",
+   "result": "nimbeon",
+   "consumeHeldItem": true,
+   "learnableMoves": ["roost"],
+   "requirements": [
+    {
+     "variant": "time_range",
+     "range": "day"
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:sharp_beak"
+    }
+   ]
+  },
+  {
+   "id": "eevee_draconeon",
+   "variant": "level_up",
+   "result": "draconeon",
+   "consumeHeldItem": true,
+   "learnableMoves": ["dragonclaw"],
+   "requirements": [
+    {
+     "variant": "time_range",
+     "range": "night"
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:dragon_scale"
+    }
+   ]
+  },
+  {
+   "id": "eevee_eeveeon",
+   "variant": "item_interact",
+   "result": "eeveeon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "doubleedge"
+   ],
+   "requirements": [],
+   "requiredContext": "gravelmon:astral_stone"
+  },
+  {
+   "id": "eevee_vareon",
+   "variant": "item_interact",
+   "result": "vareon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "curse"
+   ],
+   "requirements": [],
+   "requiredContext": "gravelmon:varia_stone"
+  },
+  {
+   "id": "eevee_bandeon",
+   "variant": "level_up",
+   "result": "bandeon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "round"
+    }
+   ]
+  },
+  {
+   "id": "eevee_scaleon",
+   "variant": "level_up",
+   "result": "scaleon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "dragon_pulse"
+    }
+   ]
+  }
+ ],
+   "moves": [
+    "1:covet",
+    "1:growl",
+    "1:helpinghand",
+    "1:tackle",
+    "1:tailwhip",
+    "5:sandattack",
+    "10:quickattack",
+    "15:babydolleyes",
+    "20:refresh",
+    "20:swiftcosmic",
+    "25:bite",
+    "30:copycat",
+    "35:batonpass",
+    "40:takedown",
+    "45:charm",
+    "45:trumpcard",
+    "50:doubleedge",
+    "55:lastresort",
+    "egg:captivate",
+    "egg:charm",
+    "egg:covet",
+    "egg:curse",
+    "egg:detect",
+    "egg:doublekick",
+    "egg:endure",
+    "egg:faketears",
+    "egg:flail",
+    "egg:mudslap",
+    "egg:naturalgift",
+    "egg:storedpower",
+    "egg:synchronoise",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn",
+    "tm:attract",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:charm",
+    "tm:confide",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:echoedvoicesound",
+    "tm:endure",
+    "tm:facade",
+    "tm:faketears",
+    "tm:focusenergy",
+    "tm:frustration",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:hypervoicesound",
+    "tm:irontail",
+    "tm:mudslap",
+    "tm:naturalgift",
+    "tm:payday",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:retaliate",
+    "tm:return",
+    "tm:roundsound",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:sleeptalksound",
+    "tm:snoresound",
+    "tm:storedpower",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:takedown",
+    "tm:terablast",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:weatherball",
+    "tm:workup",
+    "tutor:attract",
+    "tutor:babydolleyes",
+    "tutor:batonpass",
+    "tutor:bide",
+    "tutor:bite",
+    "tutor:bodyslam",
+    "tutor:celebrate",
+    "tutor:charm",
+    "tutor:covet",
+    "tutor:curse",
+    "tutor:detect",
+    "tutor:dig",
+    "tutor:doubleedge",
+    "tutor:doublekick",
+    "tutor:doubleteam",
+    "tutor:echoedvoicesound",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:flail",
+    "tutor:focusenergy",
+    "tutor:frustration",
+    "tutor:growl",
+    "tutor:headbutt",
+    "tutor:healbellsound",
+    "tutor:helpinghand",
+    "tutor:hiddenpower",
+    "tutor:hypervoicesound",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lastresort",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:payday",
+    "tutor:protect",
+    "tutor:quickattack",
+    "tutor:rage",
+    "tutor:raindance",
+    "tutor:reflect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:sandattack",
+    "tutor:shadowball",
+    "tutor:singsound",
+    "tutor:skullbash",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:swiftcosmic",
+    "tutor:tackle",
+    "tutor:tailwhip",
+    "tutor:takedown",
+    "tutor:toxic",
+    "tutor:trumpcard"
+  ]}

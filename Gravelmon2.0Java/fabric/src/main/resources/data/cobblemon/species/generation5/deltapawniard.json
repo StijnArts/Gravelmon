@@ -7,7 +7,7 @@
   "abilities": [
     "defiant",
     "frisk",
-    "h:keeneye"
+    "h:windforce"
   ],
   "baseStats": {
     "hp": 45,
@@ -97,12 +97,13 @@
     "tm:uturn",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:steelwing",
     "tm:acrobatics",
+    "tm:achillesheel",
     "tm:skydrop",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -133,7 +134,7 @@
     "tutor:seismictoss",
     "tutor:signalbeam",
     "tutor:skyattack",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superpower",
     "tutor:tailwind",
     "tutor:thunderpunch",

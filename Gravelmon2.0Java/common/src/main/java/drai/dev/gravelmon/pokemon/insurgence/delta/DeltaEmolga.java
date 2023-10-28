@@ -140,7 +140,7 @@ public class DeltaEmolga extends Pokemon {
         this.setLangFileName("Emolga");
         this.setPortraitXYZ(0,1.8,0);
         this.setModeled(true);
-        this.setBaseScale(0.5);
+        this.setBaseScale(0.6);
         this.setHitbox(0.9,1);
     }
 }

@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 75,
@@ -72,6 +71,7 @@
     "13:flamecharge",
     "23:flameburst",
     "26:tailwind",
+    "31:jetstrike",
     "38:razorwind",
     "43:firespin",
     "47:roost",
@@ -95,7 +95,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:echoedvoice",
+    "tm:echoedvoicesound",
     "tm:overheat",
     "tm:endure",
     "tm:incinerate",
@@ -104,7 +104,7 @@
     "tm:swagger",
     "tm:uturn",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:fly",
     "tutor:doubleedge",
     "tutor:heatwave",
@@ -112,9 +112,9 @@
     "tutor:ominouswind",
     "tutor:secretpower",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:steelwing",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:tailwind",
     "egg:airslash",
     "egg:featherdance",

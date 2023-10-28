@@ -78,9 +78,10 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -149,19 +150,22 @@
     "tm:energyball",
     "tm:fling",
     "tm:willowisp",
+    "tm:newmoon",
     "tm:embargo",
     "tm:shadowclaw",
     "tm:payback",
     "tm:swagger",
     "tm:uturn",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:acrobatics",
     "tm:darkpulse",
+    "tm:achillesheel",
     "tm:incinerate",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
+    "tm:darkmatter",
     "tm:secretpower",
     "tm:flash",
     "tm:cut",
@@ -183,9 +187,9 @@
     "tutor:ominouswind",
     "tutor:seismictoss",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:suckerpunch",
-    "tutor:swift"  ],
+    "tutor:swiftcosmic"  ],
   "labels": [
     "gen5",
     "insurgence"
@@ -193,7 +197,7 @@
   "pokedex": [
     "cobblemon.species.deltaemolga.desc"
   ],
-  "baseScale": 0.5,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 0.9,
     "height": 1.0,

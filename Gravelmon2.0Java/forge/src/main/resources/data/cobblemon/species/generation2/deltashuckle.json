@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": false,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 190,
@@ -105,8 +104,9 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:smackdown",
-    "tm:sleeptalk",
-    "tm:round",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:spikes",
@@ -137,7 +137,7 @@
     "tutor:outrage",
     "tutor:roleplay",
     "tutor:seismictoss",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:superpower",
     "tutor:thunderpunch",

@@ -2,8 +2,8 @@
 	
   "portraitScale": 1.8,
   "portraitTranslation": [0.0, 0.2, 0.0],
-  "profileScale": 0.7,
-  "profileTranslation": [0.0, 0.6, 0.0],
+  "profileScale": 0.6,
+  "profileTranslation": [0.0, 0.8, 0.0],
   "head": "head",
   "poses": {
       "standing": {

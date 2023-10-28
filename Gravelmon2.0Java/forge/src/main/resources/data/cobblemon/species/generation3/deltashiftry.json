@@ -6,7 +6,7 @@
   "abilities": [
     "voltabsorb",
     "minus",
-    "h:keeneye"
+    "h:hubris"
   ],
   "baseStats": {
     "hp": 90,
@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -94,11 +93,12 @@
     "tm:uturn",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:acrobatics",
     "tm:dazzlinggleam",
+    "tm:achillesheel",
     "tm:skydrop",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -124,7 +124,7 @@
     "tutor:mimic",
     "tutor:nastyplot",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superpower",
     "tutor:tailwind",
     "tutor:thunderpunch",

@@ -91,6 +91,6 @@ public class PyukumukuX extends Pokemon {
         this.setCanBreathUnderwater(true);
         this.setCanSwim(true);
         this.setModeled(true);
-        this.setBaseScale(1);
+        this.setBaseScale(0.8);
     }
 }

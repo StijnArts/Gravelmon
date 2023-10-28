@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -69,7 +68,7 @@
     "40:hiddenpower",
     "56:xscissor",
     "60:quiverdance",
-    "65:bugbuzz",
+    "65:bugbuzzsound",
     "70:outrage",
     "75:silverwind",
     "80:bravebird",

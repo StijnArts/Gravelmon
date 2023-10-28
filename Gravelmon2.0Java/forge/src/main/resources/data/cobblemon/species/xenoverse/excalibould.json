@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -80,7 +79,7 @@
     "tm:sandstorm",
     "tm:rocktomb",
     "tm:rest",
-    "tm:round",
+    "tm:roundsound",
     "tm:falseswipe",
     "tm:payback",
     "tm:rockpolish",
@@ -93,7 +92,7 @@
     "egg:rockblast",
     "egg:curse",
     "egg:ancientpower",
-    "egg:powergem",
+    "egg:powergemcrystal",
     "egg:doubleedge",
     "tutor:secretpower"  ],
   "labels": [

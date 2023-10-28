@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -49,6 +48,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:extrasensory",
     "1:amnesia",
@@ -87,7 +96,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:focusblast",
     "tm:fling",
     "tm:embargo",
@@ -114,7 +123,7 @@
     "tutor:secretpower",
     "tutor:skillswap",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:trick",
     "tutor:wonderroom",
     "tutor:zenheadbutt"  ],

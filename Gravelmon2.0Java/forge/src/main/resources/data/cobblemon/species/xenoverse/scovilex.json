@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 70,
@@ -49,6 +48,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 20
+      }
+    ]
+  },
   "moves": [
     "1:nightslash",
     "1:firepunch",
@@ -85,7 +94,7 @@
     "tm:doubleteam",
     "tm:sludgebomb",
     "tm:rest",
-    "tm:round",
+    "tm:roundsound",
     "tm:energyball",
     "tm:fling",
     "tm:chargebeam",

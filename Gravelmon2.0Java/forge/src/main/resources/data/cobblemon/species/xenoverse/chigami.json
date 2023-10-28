@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -72,7 +71,7 @@
     "tm:aerialace",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:falseswipe",
     "tm:smartstrike",
     "tm:swordsdance",
@@ -89,8 +88,8 @@
     "tutor:hurricane",
     "tutor:irondefense",
     "tutor:secretpower",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:steelwing"  ],
   "labels": [
     "xenoverse",

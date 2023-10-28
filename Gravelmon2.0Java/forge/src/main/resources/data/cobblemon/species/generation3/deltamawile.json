@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -81,9 +80,10 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -129,7 +129,7 @@
     "49:petaldance",
     "tm:bulldoze",
     "tm:calmmind",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -157,6 +157,7 @@
     "tm:falseswipe",
     "tm:fling",
     "tm:skillswap",
+    "tm:newmoon",
     "tm:embargo",
     "tm:shadowclaw",
     "tm:payback",
@@ -173,14 +174,16 @@
     "tm:poweruppunch",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:darkpulse",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
     "tm:quash",
+    "tm:darkmatter",
     "tm:spikes",
     "tm:secretpower",
     "tm:cut",
@@ -200,9 +203,9 @@
     "tutor:foulplay",
     "tutor:gastroacid",
     "tutor:gigadrain",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:helpinghand",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:knockoff",
     "tutor:magiccoat",
     "tutor:megakick",
@@ -212,7 +215,7 @@
     "tutor:roleplay",
     "tutor:seedbomb",
     "tutor:seismictoss",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:suckerpunch",
     "tutor:superfang",

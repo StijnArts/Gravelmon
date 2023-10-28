@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -74,7 +73,10 @@
     "18:armthrust",
     "22:scaryface",
     "26:brine",
+    "30:cheapshot",
     "35:submission",
+    "39:saltcrash",
+    "43:brace",
     "48:aquatail",
     "52:hammerarm",
     "56:quickguard",
@@ -120,8 +122,10 @@
     "tm:swagger",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
+    "tm:shieldbash",
+    "tm:depthcharge",
     "tm:cut",
     "tm:surf",
     "tm:strength",
@@ -145,7 +149,7 @@
     "tutor:mudslap",
     "tutor:outrage",
     "tutor:secretpower",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superpower",
     "tutor:waterpledge",
     "tutor:zenheadbutt",

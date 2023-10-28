@@ -5,7 +5,7 @@
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
-    "keeneye",
+    "shadowdance",
     "h:sturdy"
   ],
   "baseStats": {
@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 30,
@@ -49,8 +48,10 @@
     "undiscovered"
   ],
   "moves": [
+    "1:newmoon",
     "1:embargo",
     "1:revenge",
+    "1:ancientroarsound",
     "1:tackle",
     "1:leer",
     "1:rockthrow",
@@ -68,10 +69,11 @@
     "49:rockslide",
     "55:outrage",
     "62:gigaimpact",
+    "65:newmoon",
     "tm:honeclaws",
     "tm:dragonclaw",
     "tm:bulldoze",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:dragonpulse",
     "tm:hiddenpower",
@@ -100,6 +102,7 @@
     "tm:falseswipe",
     "tm:fling",
     "tm:dragontail",
+    "tm:newmoon",
     "tm:embargo",
     "tm:explosion",
     "tm:shadowclaw",
@@ -112,15 +115,19 @@
     "tm:swagger",
     "tm:poweruppunch",
     "tm:substitute",
+    "tm:dracojet",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:steelwing",
     "tm:darkpulse",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
+    "tm:dragonify",
     "tm:quash",
+    "tm:darkmatter",
     "tm:spikes",
     "tm:secretpower",
     "tm:rockclimb",
@@ -158,7 +165,7 @@
     "tutor:painsplit",
     "tutor:seismictoss",
     "tutor:selfdestruct",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:stealthrock",
     "tutor:suckerpunch",

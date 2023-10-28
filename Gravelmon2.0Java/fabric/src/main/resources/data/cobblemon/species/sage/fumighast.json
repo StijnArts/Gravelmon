@@ -5,6 +5,7 @@
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
+    "pollution",
     "aftermath",
     "h:liquidooze"
   ],
@@ -65,6 +66,7 @@
     "8:disable",
     "12:acid",
     "15:confuseray",
+    "19:acidrain",
     "22:acidspray",
     "27:selfdestruct",
     "31:toxicspikes",
@@ -72,6 +74,7 @@
     "41:shadowball",
     "47:imprison",
     "52:destinybond",
+    "58:terrorize",
     "63:explosion",
     "tm:toxic",
     "tm:venoshock",
@@ -117,7 +120,7 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tutor:fling",
     "tutor:gastroacid",
     "tutor:gunkshot",

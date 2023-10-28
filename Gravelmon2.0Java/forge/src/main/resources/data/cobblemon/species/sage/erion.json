@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 3,
@@ -114,7 +113,8 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
     "tm:strength"  ],
   "labels": [
     "sage",

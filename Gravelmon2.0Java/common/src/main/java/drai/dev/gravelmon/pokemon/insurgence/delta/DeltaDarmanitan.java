@@ -128,5 +128,8 @@ public class DeltaDarmanitan extends Pokemon {
                 List.of());
         this.setLangFileName("Darmanitan");
         this.setPortraitXYZ(0,1.8,0);
+        this.setModeled(true);
+        this.setBaseScale(1);
+        this.setHitbox(1.4,2);
     }
 }

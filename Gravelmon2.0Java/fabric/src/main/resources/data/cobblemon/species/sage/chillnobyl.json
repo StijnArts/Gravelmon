@@ -60,6 +60,7 @@
   "moves": [
     "1:glaciate",
     "1:memento",
+    "1:acidrain",
     "1:powdersnow",
     "1:poisongas",
     "3:clearsmog",
@@ -109,7 +110,7 @@
     "tm:rockslide",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
     "tutor:avalanche",
     "tutor:bugbite",

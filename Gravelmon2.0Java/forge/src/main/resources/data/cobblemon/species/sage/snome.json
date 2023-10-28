@@ -4,6 +4,7 @@
   "nationalPokedexNumber": 1131,
   "primaryType": "ice",
   "abilities": [
+    "permafrost",
     "prankster",
     "h:icebody"
   ],
@@ -34,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 225,
@@ -102,7 +102,7 @@
     "tm:swagger",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
     "tm:strength",
     "tutor:ancientpower",
@@ -112,7 +112,7 @@
     "tutor:icywind",
     "tutor:knockoff",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:thunderpunch",
     "egg:bodyslam",
     "egg:counter",

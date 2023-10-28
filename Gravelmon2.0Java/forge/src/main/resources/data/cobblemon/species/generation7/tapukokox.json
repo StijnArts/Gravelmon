@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 3,
@@ -48,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:quickattack",
     "1:thunderwave",
@@ -84,7 +93,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:fling",
     "tm:skydrop",
     "tm:acrobatics",

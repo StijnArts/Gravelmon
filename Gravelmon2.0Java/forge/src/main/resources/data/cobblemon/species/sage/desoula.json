@@ -6,6 +6,7 @@
   "secondaryType": "flying",
   "abilities": [
     "sandveil",
+    "scavenger",
     "h:opportunist"
   ],
   "baseStats": {
@@ -35,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 170,
@@ -79,6 +79,7 @@
     "42:shadowclaw",
     "46:tailwind",
     "51:nastyplot",
+    "56:terrorize",
     "61:memento",
     "tm:calmmind",
     "tm:toxic",
@@ -109,7 +110,7 @@
     "tm:swagger",
     "tm:uturn",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:fly",
     "tutor:earthpower",
     "tutor:heatwave",

@@ -4,6 +4,7 @@
   "nationalPokedexNumber": 1289,
   "primaryType": "grass",
   "abilities": [
+    "sunbathe",
     "chlorophyll",
     "h:sweetveil"
   ],
@@ -96,7 +97,7 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
     "tm:cut",
     "tm:strength",

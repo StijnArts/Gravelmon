@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 65,
@@ -113,7 +112,7 @@
     "tm:dragontail",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:cut",
     "tutor:counter",
     "tutor:doubleedge",
@@ -122,7 +121,7 @@
     "tutor:knockoff",
     "tutor:megapunch",
     "tutor:mudslap",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:superfang",
     "tutor:uproar",

@@ -128,7 +128,7 @@ public class DeltaWailord extends Pokemon {
         this.setCanFly(true);
         this.setPortraitXYZ(0,1.8,0);
         this.setModeled(true);
-        this.setBaseScale(1.3);
-        this.setHitbox(3.5,2.3);
+        this.setBaseScale(2);
+        this.setHitbox(3.2,2.1);
     }
 }

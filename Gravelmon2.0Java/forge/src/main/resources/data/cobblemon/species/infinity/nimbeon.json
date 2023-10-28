@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -54,7 +53,7 @@
     "1:tailwhip",
     "1:agility",
     "1:aircutter",
-    "6:swift",
+    "6:swiftcosmic",
     "11:charm",
     "14:skydrop",
     "17:mist",
@@ -70,7 +69,7 @@
     "67:dragondance",
     "tm:psyshock",
     "tm:calmmind",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
@@ -91,8 +90,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:skydrop",
     "tm:acrobatics",
     "tm:gigaimpact",
@@ -102,7 +101,7 @@
     "tm:uturn",
     "tm:substitute",
     "tm:fly",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:heatwave",
     "tutor:icywind",
     "tutor:roost",

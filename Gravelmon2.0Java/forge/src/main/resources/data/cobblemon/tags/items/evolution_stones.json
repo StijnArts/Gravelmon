@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "gravelmon:astral_stone_ore_block_item",
+    "gravelmon:air_stone_ore",
+    "gravelmon:mystic_stone_ore",
+    "gravelmon:mystic_stone_ore",
+    "gravelmon:xenolith"
+  ]
+}

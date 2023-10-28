@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -82,7 +81,7 @@
     "tm:aerialace",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:steelwing",
     "tm:energyball",
     "tm:falseswipe",
@@ -105,8 +104,8 @@
     "tutor:ironhead",
     "tutor:secretpower",
     "tutor:seedbomb",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:synthesis",
     "tutor:worryseed"  ],

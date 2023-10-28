@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 200,
@@ -70,12 +69,13 @@
     "17:soak",
     "21:bubblebeam",
     "25:dive",
+    "29:webball",
     "33:aquajet",
     "37:muddywater",
     "41:agility",
     "45:raindance",
     "49:batonpass",
-    "53:bugbuzz",
+    "53:bugbuzzsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:icebeam",
@@ -96,8 +96,9 @@
     "tm:strugglebug",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
+    "tm:depthcharge",
     "tm:surf",
     "tm:dive",
     "tm:waterfall",

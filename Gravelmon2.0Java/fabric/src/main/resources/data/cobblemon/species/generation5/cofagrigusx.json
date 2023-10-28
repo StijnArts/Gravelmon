@@ -90,7 +90,7 @@
     "tm:rocktomb",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:scald",
     "tm:gigaimpact",
     "tm:rockpolish",
@@ -101,7 +101,7 @@
     "tm:waterfall",
     "tm:substitute",
     "tutor:secretpower",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "gen5",

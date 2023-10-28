@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:xenoverse_hystearic",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/xenoverse/hystearic.png",
+      "model": "cobblemon:xenoverse_hystearic.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/hystearic/hystearic.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/hystearic_shiny.png"
+      "texture": "cobblemon:textures/pokemon/xenoverse/hystearic/hystearic_shiny.png"
     }  ]
 }

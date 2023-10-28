@@ -1,0 +1,12 @@
+{"target": "cobblemon:Wurmple",
+   "moves": [
+    "1:stringshot",
+    "1:tackle",
+    "5:poisonsting",
+    "15:bugbite",
+    "tutor:bugbite",
+    "tutor:electroweb",
+    "tutor:poisonsting",
+    "tutor:snoresound",
+    "tutor:stringshot"
+  ]}

@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -71,6 +70,7 @@
     "7:quickattack",
     "10:wingattack",
     "13:helpinghand",
+    "16:jetstrike",
     "19:psychup",
     "22:dig",
     "25:swagger",
@@ -97,7 +97,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:echoedvoice",
+    "tm:echoedvoicesound",
     "tm:endure",
     "tm:acrobatics",
     "tm:rocksmash",
@@ -107,7 +107,8 @@
     "tm:swagger",
     "tm:uturn",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:standoff",
     "tm:cut",
     "tm:fly",
     "tutor:bounce",
@@ -116,9 +117,9 @@
     "tutor:heatwave",
     "tutor:mudslap",
     "tutor:ominouswind",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:steelwing",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:tailwind",
     "egg:agility",
     "egg:aircutter",

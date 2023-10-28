@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -49,12 +48,12 @@
     "dragon"
   ],
   "drops": {
-    "amount": "2",
+    "amount": "1",
     "entries": [
       {
-        "item": "minecraft:amethyst_cluster",
-        "quantityRange": "1-2",
-        "percentage": 90
+        "item": "gravelmon:kaleidoscope",
+        "quantityRange": "1-1",
+        "percentage": 25
       }
     ]
   },
@@ -79,7 +78,7 @@
     "51:solarbeam",
     "54:reflecttype",
     "57:hyperbeam",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
@@ -118,8 +117,9 @@
     "tm:uturn",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
+    "tm:miraclewill",
     "tm:fly",
     "tm:surf",
     "tm:dive",
@@ -127,22 +127,22 @@
     "tutor:aquatail",
     "tutor:dracometeor",
     "tutor:dragonpulse",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:heatwave",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:irontail",
     "tutor:magiccoat",
     "tutor:outrage",
     "tutor:signalbeam",
     "tutor:silverwind",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:wonderroom",
     "tutor:zenheadbutt",
     "egg:healpulse",
     "egg:irontail",
     "egg:mirrorcoat",
     "egg:naturepower",
-    "egg:powergem",
+    "egg:powergemcrystal",
     "egg:recover"  ],
   "labels": [
     "sage",

@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 70,
@@ -56,7 +55,7 @@
     "1:babydolleyes",
     "1:poisonsting",
     "1:assist",
-    "12:disarmingvoice",
+    "12:disarmingvoicesound",
     "15:attract",
     "19:poisontail",
     "23:charm",
@@ -82,8 +81,8 @@
     "egg:rest",
     "egg:attract",
     "egg:thief",
-    "egg:round",
-    "egg:echoedvoice",
+    "egg:roundsound",
+    "egg:echoedvoicesound",
     "egg:shadowclaw",
     "egg:gigaimpact",
     "egg:swordsdance",
@@ -93,12 +92,12 @@
     "egg:substitute",
     "egg:dazzlinggleam",
     "egg:secretpower",
-    "egg:sleeptalk",
+    "egg:sleeptalksound",
     "egg:aquatail",
     "egg:covet",
     "egg:foulplay",
     "egg:knockoff",
-    "egg:snore",
+    "egg:snoresound",
     "egg:spite"  ],
   "labels": [
     "xenoverse",

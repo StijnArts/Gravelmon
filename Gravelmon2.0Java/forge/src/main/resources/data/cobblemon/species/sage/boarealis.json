@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 80,
@@ -81,7 +80,7 @@
     "70:storedpower",
     "tm:psyshock",
     "tm:calmmind",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -110,7 +109,7 @@
     "tm:attract",
     "tm:thief",
     "tm:skillswap",
-    "tm:echoedvoice",
+    "tm:echoedvoicesound",
     "tm:energyball",
     "tm:chargebeam",
     "tm:endure",
@@ -131,10 +130,12 @@
     "tm:wildcharge",
     "tm:snarl",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:standoff",
+    "tm:miraclewill",
     "tm:surf",
     "tm:strength",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:gunkshot",
     "tutor:icywind",
     "tutor:magiccoat",

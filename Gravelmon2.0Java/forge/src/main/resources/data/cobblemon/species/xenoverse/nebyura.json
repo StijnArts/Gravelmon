@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -50,7 +49,7 @@
     "water_2"
   ],
   "moves": [
-    "1:powergem",
+    "1:powergemcrystal",
     "1:psychoshift",
     "1:icebeam",
     "1:confusion",
@@ -64,7 +63,7 @@
     "30:cosmicpower",
     "35:smackdown",
     "42:storedpower",
-    "48:gravity",
+    "48:gravitycosmic",
     "54:recover",
     "60:extrasensory",
     "64:trickroom",
@@ -90,7 +89,7 @@
     "tm:rocktomb",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:gigaimpact",
     "tm:rockpolish",
     "tm:stoneedge",
@@ -101,7 +100,7 @@
     "tutor:bind",
     "tutor:earthpower",
     "tutor:flash",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:magiccoat",
     "tutor:magicroom",
     "tutor:painsplit",
@@ -109,8 +108,8 @@
     "tutor:secretpower",
     "tutor:signalbeam",
     "tutor:skillswap",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:trick",
     "tutor:wonderroom"  ],

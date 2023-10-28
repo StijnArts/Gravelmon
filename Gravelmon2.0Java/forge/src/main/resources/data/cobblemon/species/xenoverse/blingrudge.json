@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -85,7 +84,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:brutalswing",
     "tm:shadowclaw",
     "tm:payback",
@@ -104,7 +103,7 @@
     "egg:spikes",
     "egg:stealthrock",
     "egg:autotomize",
-    "egg:powergem",
+    "egg:powergemcrystal",
     "egg:metalburst",
     "tutor:block",
     "tutor:drillrun",
@@ -115,8 +114,8 @@
     "tutor:irontail",
     "tutor:knockoff",
     "tutor:secretpower",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:stealthrock"  ],
   "labels": [
     "xenoverse",

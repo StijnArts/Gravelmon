@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 190,
@@ -67,6 +66,7 @@
     "8:disable",
     "12:acid",
     "15:confuseray",
+    "19:acidrain",
     "22:acidspray",
     "26:selfdestruct",
     "29:toxicspikes",
@@ -74,6 +74,7 @@
     "36:shadowball",
     "40:imprison",
     "43:destinybond",
+    "47:terrorize",
     "50:explosion",
     "tm:toxic",
     "tm:venoshock",
@@ -108,7 +109,7 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tutor:fling",
     "tutor:gastroacid",
     "tutor:gunkshot",

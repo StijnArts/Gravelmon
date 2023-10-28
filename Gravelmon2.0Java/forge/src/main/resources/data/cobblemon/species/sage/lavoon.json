@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 50,
@@ -61,7 +60,7 @@
     ]
   },
   "moves": [
-    "1:sing",
+    "1:singsound",
     "1:wrap",
     "1:smokescreen",
     "4:watergun",
@@ -83,7 +82,7 @@
     "61:eruption",
     "65:heavyslam",
     "70:waterspout",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
@@ -106,7 +105,7 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:attract",
-    "tm:echoedvoice",
+    "tm:echoedvoicesound",
     "tm:overheat",
     "tm:scald",
     "tm:endure",
@@ -118,8 +117,9 @@
     "tm:flash",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
+    "tm:depthcharge",
     "tm:surf",
     "tm:strength",
     "tm:dive",
@@ -127,11 +127,11 @@
     "tutor:aquatail",
     "tutor:dragonpulse",
     "tutor:heatwave",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:magiccoat",
     "tutor:signalbeam",
-    "tutor:snore",
-    "tutor:swift",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
     "tutor:uproar",
     "tutor:zenheadbutt",
     "egg:aquaring",

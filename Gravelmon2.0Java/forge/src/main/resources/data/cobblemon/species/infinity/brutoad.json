@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -103,8 +102,8 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:falseswipe",
     "tm:scald",
     "tm:fling",
@@ -125,6 +124,7 @@
     "tm:strength",
     "tm:waterfall",
     "tm:dive",
+    "tm:flashflood",
     "tutor:aquatail",
     "tutor:block",
     "tutor:darkpulse",
@@ -140,9 +140,9 @@
     "tutor:megapunch",
     "tutor:mudslap",
     "tutor:painsplit",
-    "tutor:sleeptalk",
+    "tutor:sleeptalksound",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:suckerpunch",
     "tutor:trick",
     "tutor:waterpledge",

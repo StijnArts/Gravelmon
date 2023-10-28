@@ -81,8 +81,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:ember",
@@ -110,7 +111,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -125,9 +126,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -185,8 +186,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:astonish",
@@ -215,7 +217,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -230,9 +232,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -290,8 +292,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:iceshard",
@@ -320,7 +323,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -335,9 +338,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -395,8 +398,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:twineedle",
     "1:stringshot",
     "5:fellstinger",
@@ -425,7 +429,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -440,9 +444,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -500,8 +504,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:thundershock",
@@ -530,7 +535,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -545,9 +550,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -605,8 +610,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:hornattack",
@@ -635,7 +641,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -650,9 +656,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -710,8 +716,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:peck",
@@ -740,7 +747,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -755,9 +762,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -815,8 +822,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:vinewhip",
@@ -845,7 +853,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -860,9 +868,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -920,8 +928,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:rockthrow",
@@ -950,7 +959,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -965,9 +974,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -1025,8 +1034,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:poisonsting",
@@ -1055,7 +1065,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -1070,9 +1080,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -1130,8 +1140,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:ember",
@@ -1160,7 +1171,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -1175,9 +1186,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -1235,8 +1246,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:bind",
@@ -1265,7 +1277,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -1280,9 +1292,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -1340,8 +1352,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:watergun",
@@ -1370,7 +1383,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -1385,9 +1398,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -1445,11 +1458,12 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
-    "5:round",
+    "5:roundsound",
     "10:hypnosis",
     "15:strugglebug",
     "20:endeavor",
@@ -1475,7 +1489,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -1490,9 +1504,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -1550,8 +1564,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:confusion",
@@ -1580,7 +1595,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -1595,9 +1610,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -1655,8 +1670,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:twister",
@@ -1685,7 +1701,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -1700,9 +1716,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -1760,8 +1776,9 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 32,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
+    "undiscovered"
+  ],
+  "moves": [
     "1:infestation",
     "1:sandattack",
     "5:twister",
@@ -1790,7 +1807,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -1805,9 +1822,9 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
-    "tutor:strugglebug"      ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug"  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -1861,7 +1878,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:psychup",
     "tm:xscissor",
     "tm:infestation",
@@ -1876,8 +1893,8 @@
     "tutor:recycle",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:strugglebug"  ],
   "labels": [
     "xenoverse",

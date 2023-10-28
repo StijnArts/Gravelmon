@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -51,7 +50,7 @@
   ],
   "moves": [
     "1:agility",
-    "1:screech",
+    "1:screechsound",
     "1:peck",
     "1:magnitude",
     "9:pursuit",
@@ -60,7 +59,7 @@
     "25:thrash",
     "32:bonerush",
     "40:drillpeck",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:fly",
     "tm:rocksmash",
@@ -92,8 +91,8 @@
   ],
   "baseScale": 1.6,
   "hitbox": {
-    "width": 1.8,
-    "height": 1.8,
+    "width": 0.6,
+    "height": 1.6,
     "fixed": false
   },
   "baseFriendship": 70,

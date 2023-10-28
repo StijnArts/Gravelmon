@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 140,
@@ -71,7 +70,7 @@
     "42:frustration",
     "49:endure",
     "56:brine",
-    "63:perishsong",
+    "63:perishsongsound",
     "70:finalgambit",
     "tm:toxic",
     "tm:hail",
@@ -90,7 +89,7 @@
     "tm:endure",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
     "tm:surf",
     "tm:dive",

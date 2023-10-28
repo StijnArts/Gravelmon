@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 150,
@@ -49,6 +48,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:confuseray",
     "1:headsmash",
@@ -61,7 +70,7 @@
     "1:hex",
     "16:shadowclaw",
     "20:icefang",
-    "25:screech",
+    "25:screechsound",
     "30:swagger",
     "35:phantomforce",
     "40:agility",
@@ -69,7 +78,7 @@
     "52:takedown",
     "58:headsmash",
     "62:poltergeist",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
@@ -89,7 +98,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:scald",
     "tm:willowisp",
     "tm:payback",
@@ -103,7 +112,7 @@
     "tm:substitute",
     "tm:darkpulse",
     "tutor:secretpower",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "gen3"

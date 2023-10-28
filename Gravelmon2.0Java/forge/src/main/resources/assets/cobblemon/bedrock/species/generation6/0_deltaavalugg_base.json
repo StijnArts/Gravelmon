@@ -5,7 +5,7 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation6_deltaavalugg",
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltaavalugg.geo",
       "texture": "cobblemon:textures/pokemon/generation6/deltaavalugg.png",
       "layers": []
     },

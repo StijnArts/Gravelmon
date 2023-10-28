@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 168,
@@ -47,6 +46,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 20
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:sweetscent",
@@ -55,7 +64,7 @@
     "9:disable",
     "12:leechseed",
     "15:faketears",
-    "18:round",
+    "18:roundsound",
     "20:slackoff",
     "21:toxic",
     "24:gastroacid",
@@ -81,7 +90,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:gigaimpact",
     "tm:psychup",
     "tm:poisonjab",
@@ -93,7 +102,7 @@
     "tutor:gunkshot",
     "tutor:helpinghand",
     "tutor:secretpower",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "gen6",

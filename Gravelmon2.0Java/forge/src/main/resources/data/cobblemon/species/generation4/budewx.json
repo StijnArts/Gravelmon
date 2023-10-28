@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -52,10 +51,10 @@
     "1:poisonsting",
     "4:growl",
     "7:supersonic",
-    "10:echoedvoice",
+    "10:echoedvoicesound",
     "13:encore",
-    "16:screech",
-    "tm:roar",
+    "16:screechsound",
+    "tm:roarsound",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -66,8 +65,8 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:swordsdance",
     "tm:psychup",
     "tm:xscissor",

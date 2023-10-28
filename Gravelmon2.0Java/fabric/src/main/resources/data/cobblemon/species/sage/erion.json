@@ -113,7 +113,8 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
     "tm:strength"  ],
   "labels": [
     "sage",

@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -61,7 +60,7 @@
     "18:psybeam",
     "22:shadowsneak",
     "27:slash",
-    "32:screech",
+    "32:screechsound",
     "37:substitute",
     "43:suckerpunch",
     "49:shadowclaw",
@@ -100,8 +99,8 @@
     "tm:facade",
     "tm:flamecharge",
     "tm:rest",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:falseswipe",
     "tm:shadowclaw",
     "tm:payback",

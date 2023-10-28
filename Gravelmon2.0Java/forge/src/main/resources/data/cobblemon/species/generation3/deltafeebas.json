@@ -6,7 +6,7 @@
   "abilities": [
     "rattled",
     "runaway",
-    "h:keeneye"
+    "h:spiritcall"
   ],
   "baseStats": {
     "hp": 20,
@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -68,16 +67,20 @@
     "tm:attract",
     "tm:thief",
     "tm:willowisp",
+    "tm:newmoon",
     "tm:embargo",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:dracojet",
+    "tm:sleeptalksound",
     "tm:frostbreath",
     "tm:darkpulse",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:quash",
+    "tm:darkmatter",
     "tm:secretpower",
     "tm:flash",
     "tutor:acid",
@@ -87,7 +90,7 @@
     "tutor:mimic",
     "tutor:ominouswind",
     "tutor:painsplit",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite"  ],
   "labels": [
     "gen3",

@@ -89,7 +89,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:echoedvoice",
+    "tm:echoedvoicesound",
     "tm:allyswitch",
     "tm:energyball",
     "tm:fling",

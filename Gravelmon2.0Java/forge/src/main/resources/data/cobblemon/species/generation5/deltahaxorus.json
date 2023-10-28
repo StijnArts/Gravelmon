@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -75,7 +74,7 @@
     "tm:honeclaws",
     "tm:dragonclaw",
     "tm:bulldoze",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hail",
     "tm:dragonpulse",
@@ -114,10 +113,13 @@
     "tm:swagger",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
-    "tm:round",
+    "tm:dracojet",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
+    "tm:dragonify",
     "tm:secretpower",
     "tm:rockclimb",
     "tm:rocksmash",
@@ -142,7 +144,7 @@
     "tutor:magnetrise",
     "tutor:mimic",
     "tutor:outrage",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superfang",
     "tutor:superpower",
     "tutor:waterpulse",

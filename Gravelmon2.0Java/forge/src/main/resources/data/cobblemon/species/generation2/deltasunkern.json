@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltasunkern",
-  "nationalPokedexNumber": 192,
+  "nationalPokedexNumber": 191,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 235,
@@ -100,14 +99,17 @@
     "tm:swagger",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:darkpulse",
+    "tm:achillesheel",
     "tm:incinerate",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
+    "tm:corrode",
     "tm:confide",
+    "tm:darkmatter",
     "tm:secretpower",
     "tutor:acid",
     "tutor:doubleedge",
@@ -118,7 +120,7 @@
     "tutor:gigadrain",
     "tutor:gunkshot",
     "tutor:heatwave",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:mimic",
     "tutor:morningsun",
     "tutor:mudslap",
@@ -126,7 +128,7 @@
     "tutor:painsplit",
     "tutor:seedbomb",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite"  ],
   "labels": [
     "gen2",

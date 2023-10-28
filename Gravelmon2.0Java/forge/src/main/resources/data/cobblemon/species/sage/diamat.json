@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 5,
@@ -65,6 +64,7 @@
     "1:rockpolish",
     "1:rage",
     "1:harden",
+    "1:causticbreath",
     "5:bide",
     "10:headbutt",
     "16:rockblast",
@@ -73,16 +73,17 @@
     "30:mirrorshot",
     "33:scaryface",
     "39:ancientpower",
+    "46:shieldbash",
     "54:rockslide",
     "60:earthpower",
-    "60:powergem",
+    "60:powergemcrystal",
     "69:dragonpulse",
     "79:mirrorcoat",
     "87:flashcannon",
     "96:hyperbeam",
     "tm:honeclaws",
     "tm:dragonclaw",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
@@ -124,7 +125,8 @@
     "tm:swagger",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
     "tm:cut",
     "tm:strength"  ],
   "labels": [

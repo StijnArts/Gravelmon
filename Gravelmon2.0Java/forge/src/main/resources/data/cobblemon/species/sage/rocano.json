@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 225,
@@ -73,6 +72,7 @@
     "29:ancientpower",
     "32:lavaplume",
     "36:stealthrock",
+    "39:mudslide",
     "39:rockslide",
     "43:flamethrower",
     "46:earthpower",
@@ -111,7 +111,7 @@
     "tm:rockslide",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:strength",
     "tutor:ancientpower",
     "tutor:earthpower",
@@ -120,13 +120,13 @@
     "tutor:ironhead",
     "tutor:mudslap",
     "tutor:secretpower",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:uproar",
     "egg:heavyslam",
     "egg:inferno",
     "egg:ironhead",
-    "egg:powergem",
+    "egg:powergemcrystal",
     "egg:wideguard"  ],
   "labels": [
     "sage",

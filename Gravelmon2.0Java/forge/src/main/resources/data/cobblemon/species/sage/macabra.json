@@ -4,7 +4,7 @@
   "nationalPokedexNumber": 1147,
   "primaryType": "dark",
   "abilities": [
-    "keeneye",
+    "psychout",
     "h:insomnia"
   ],
   "baseStats": {
@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 75,
@@ -61,22 +60,24 @@
   "moves": [
     "1:magiccoat",
     "1:scratch",
-    "5:howl",
+    "5:howlsound",
     "9:pursuit",
     "13:taunt",
     "18:bite",
     "22:mimic",
     "26:slash",
     "31:meanlook",
+    "35:cheapshot",
     "39:chipaway",
     "43:nightslash",
     "49:scaryface",
     "53:crunch",
     "57:cottonguard",
+    "61:terrorize",
     "65:snatch",
     "70:punishment",
     "tm:honeclaws",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -118,7 +119,7 @@
     "tm:focuspunch",
     "tm:snarl",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:cut",
     "tutor:bounce",
     "tutor:doubleedge",
@@ -133,9 +134,9 @@
     "tutor:roleplay",
     "tutor:secretpower",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superfang",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:trick",
     "tutor:wonderroom",
     "tutor:zenheadbutt",

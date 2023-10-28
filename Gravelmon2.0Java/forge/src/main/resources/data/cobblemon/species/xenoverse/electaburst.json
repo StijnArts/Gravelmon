@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 30,
@@ -48,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:electroball",
     "1:thunderwave",
@@ -59,11 +68,11 @@
     "1:leer",
     "1:ember",
     "1:lowkick",
-    "1:swift",
+    "1:swiftcosmic",
     "1:incinerate",
     "1:firespin",
     "1:flameburst",
-    "1:screech",
+    "1:screechsound",
     "26:workup",
     "29:firepunch",
     "36:lavaplume",
@@ -89,7 +98,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:overheat",
     "tm:focusblast",
     "tm:fling",

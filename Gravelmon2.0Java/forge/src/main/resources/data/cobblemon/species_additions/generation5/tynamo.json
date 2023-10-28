@@ -1,0 +1,11 @@
+{"target": "cobblemon:Tynamo",
+   "moves": [
+    "1:chargebeam",
+    "1:spark",
+    "1:tackle",
+    "1:thunderwave",
+    "tm:chargebeam",
+    "tm:terablast",
+    "tm:thunderwave",
+    "tutor:magnetrise"
+  ]}

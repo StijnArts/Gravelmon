@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 125,
@@ -102,13 +101,14 @@
     "tm:swagger",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:miraclewill",
     "tm:strength",
     "tutor:counter",
     "tutor:fling",
     "tutor:helpinghand",
     "tutor:ironhead",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "sage",
     "not_modeled"

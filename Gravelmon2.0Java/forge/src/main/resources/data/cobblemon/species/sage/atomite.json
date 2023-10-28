@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 180,
@@ -64,11 +63,11 @@
     "1:hiddenpower",
     "2:thundershock",
     "6:minimize",
-    "10:sonicboom",
+    "10:sonicboomsound",
     "14:agility",
     "15:thunderwave",
     "19:shockwave",
-    "23:swift",
+    "23:swiftcosmic",
     "27:chargebeam",
     "28:lightscreen",
     "32:magnetrise",
@@ -78,6 +77,7 @@
     "49:overdrive",
     "53:lockon",
     "54:zapcannon",
+    "58:atomsplitnuclear",
     "tm:psyshock",
     "tm:calmmind",
     "tm:toxic",
@@ -109,7 +109,7 @@
     "tm:swagger",
     "tm:substitute",
     "tm:wildcharge",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tutor:ancientpower",
     "tutor:bounce",
     "tutor:electroweb",
@@ -117,7 +117,7 @@
     "tutor:magnetrise",
     "tutor:recycle",
     "tutor:signalbeam",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:uproar"  ],
   "labels": [
     "sage",

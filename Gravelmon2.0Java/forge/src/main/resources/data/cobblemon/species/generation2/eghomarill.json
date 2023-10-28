@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 120,
@@ -69,7 +68,7 @@
     "13:quickattack",
     "16:flail",
     "18:rockthrow",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:bulkup",
     "tm:hiddenpower",
@@ -89,8 +88,8 @@
     "tm:facade",
     "tm:rest",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:fling",
     "tm:quash",
     "tm:retaliate",

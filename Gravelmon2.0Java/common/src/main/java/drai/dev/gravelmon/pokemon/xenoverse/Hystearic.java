@@ -81,5 +81,8 @@ public class Hystearic extends Pokemon {
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);
+        this.setModeled(true);
+        this.setBaseScale(0.6);
+        this.setHitbox(0.7,0.6);
     }
 }

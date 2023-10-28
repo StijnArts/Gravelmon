@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 60,
@@ -71,7 +70,7 @@
     "58:hurricane",
     "65:sheercold",
     "tm:bulldoze",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
@@ -104,13 +103,14 @@
     "tm:swagger",
     "tm:uturn",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:frostbreath",
     "tm:acrobatics",
+    "tm:achillesheel",
     "tm:avalanche",
     "tm:skydrop",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:quash",
@@ -128,13 +128,13 @@
     "tutor:counter",
     "tutor:endure",
     "tutor:hurricane",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:icywind",
     "tutor:mimic",
     "tutor:outrage",
     "tutor:selfdestruct",
     "tutor:skyattack",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:tailwind",
     "tutor:twister",
     "tutor:uproar",
@@ -146,10 +146,10 @@
   "pokedex": [
     "cobblemon.species.deltawailord.desc"
   ],
-  "baseScale": 1.3,
+  "baseScale": 2.0,
   "hitbox": {
-    "width": 3.5,
-    "height": 2.3,
+    "width": 3.2,
+    "height": 2.1,
     "fixed": false
   },
   "baseFriendship": 70,

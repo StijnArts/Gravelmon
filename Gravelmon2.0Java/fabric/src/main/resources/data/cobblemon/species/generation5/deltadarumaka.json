@@ -51,7 +51,7 @@
     "1:astonish",
     "3:beatup",
     "6:nightshade",
-    "9:roar",
+    "9:roarsound",
     "11:feintattack",
     "14:shadowsneak",
     "17:scaryface",
@@ -65,7 +65,7 @@
     "39:grudge",
     "42:darkpulse",
     "tm:honeclaws",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:taunt",
@@ -86,6 +86,7 @@
     "tm:falseswipe",
     "tm:fling",
     "tm:willowisp",
+    "tm:newmoon",
     "tm:embargo",
     "tm:shadowclaw",
     "tm:payback",
@@ -97,15 +98,17 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:darkpulse",
+    "tm:achillesheel",
     "tm:incinerate",
     "tm:allyswitch",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
     "tm:quash",
+    "tm:darkmatter",
     "tm:secretpower",
     "tutor:acid",
     "tutor:bounce",
@@ -121,14 +124,13 @@
     "tutor:nightshade",
     "tutor:ominouswind",
     "tutor:painsplit",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:suckerpunch",
     "tutor:uproar"  ],
   "labels": [
     "gen5",
-    "insurgence",
-    "not_modeled"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltadarumaka.desc"
@@ -148,10 +150,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

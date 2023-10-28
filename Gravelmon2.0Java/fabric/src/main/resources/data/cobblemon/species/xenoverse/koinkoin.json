@@ -76,7 +76,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:fling",
     "tm:gigaimpact",
     "tm:bulldoze",
@@ -92,8 +92,8 @@
     "tutor:lastresort",
     "tutor:recycle",
     "tutor:secretpower",
-    "tutor:sleeptalk",
-    "tutor:snore"  ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "not_modeled"

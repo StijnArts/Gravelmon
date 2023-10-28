@@ -6,7 +6,7 @@
   "secondaryType": "ground",
   "abilities": [
     "sapsipper",
-    "h:keeneye"
+    "h:athenian"
   ],
   "baseStats": {
     "hp": 60,
@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 90,
@@ -47,8 +46,8 @@
       "primaryType": "fairy",
       "secondaryType": "ground",
       "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "athenian",
+    "h:athenian"
       ],
       "baseScale": 0.24375,
         "hitbox": {
@@ -79,9 +78,10 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -120,7 +120,7 @@
     "9:faketears",
     "12:mudsport",
     "15:mudslap",
-    "17:disarmingvoice",
+    "17:disarmingvoicesound",
     "20:hiddenpower",
     "23:workup",
     "25:metronome",
@@ -159,6 +159,7 @@
     "tm:focusblast",
     "tm:energyball",
     "tm:skillswap",
+    "tm:newmoon",
     "tm:payback",
     "tm:retaliate",
     "tm:gigaimpact",
@@ -170,10 +171,11 @@
     "tm:poweruppunch",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:dazzlinggleam",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -194,10 +196,10 @@
     "tutor:endure",
     "tutor:focuspunch",
     "tutor:gigadrain",
-    "tutor:gravity",
-    "tutor:healbell",
+    "tutor:gravitycosmic",
+    "tutor:healbellsound",
     "tutor:helpinghand",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:ironhead",
     "tutor:knockoff",
     "tutor:lastresort",
@@ -211,7 +213,7 @@
     "tutor:roleplay",
     "tutor:seedbomb",
     "tutor:seismictoss",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:superpower",
     "tutor:thunderpunch",

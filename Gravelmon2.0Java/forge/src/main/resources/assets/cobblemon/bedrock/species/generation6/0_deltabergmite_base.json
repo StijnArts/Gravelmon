@@ -5,7 +5,7 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation6_deltabergmite",
-      "model": "cobblemon:cutout_gravelmon.geo",
+      "model": "cobblemon:deltabergmite.geo",
       "texture": "cobblemon:textures/pokemon/generation6/deltabergmite.png",
       "layers": []
     },

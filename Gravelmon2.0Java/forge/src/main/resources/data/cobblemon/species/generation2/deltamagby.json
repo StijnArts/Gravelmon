@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -85,8 +84,9 @@
     "tm:retaliate",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
-    "tm:round",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -110,7 +110,7 @@
     "tutor:mimic",
     "tutor:roleplay",
     "tutor:seismictoss",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:waterpulse",
     "tutor:whirlpool"  ],
   "labels": [

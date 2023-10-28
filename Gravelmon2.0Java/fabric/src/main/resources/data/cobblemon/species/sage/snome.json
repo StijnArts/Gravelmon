@@ -4,6 +4,7 @@
   "nationalPokedexNumber": 1131,
   "primaryType": "ice",
   "abilities": [
+    "permafrost",
     "prankster",
     "h:icebody"
   ],
@@ -101,7 +102,7 @@
     "tm:swagger",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
     "tm:strength",
     "tutor:ancientpower",
@@ -111,7 +112,7 @@
     "tutor:icywind",
     "tutor:knockoff",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:thunderpunch",
     "egg:bodyslam",
     "egg:counter",

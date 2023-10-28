@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -47,20 +46,30 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:quickattack",
     "1:leer",
     "1:ember",
     "5:ember",
     "8:lowkick",
-    "12:swift",
+    "12:swiftcosmic",
     "15:incinerate",
     "19:firespin",
     "22:flameburst",
     "26:workup",
     "29:firepunch",
     "36:lavaplume",
-    "42:screech",
+    "42:screechsound",
     "49:flamethrower",
     "55:fireblast",
     "tm:toxic",
@@ -79,7 +88,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:overheat",
     "tm:fling",
     "tm:willowisp",
@@ -94,7 +103,7 @@
     "tutor:lowkick",
     "tutor:outrage",
     "tutor:secretpower",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "gen1"
@@ -112,7 +121,7 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:fire_stone"   
+      "requiredContext": "gravelmon:xenolith"   
  }
   ],
   "baseScale": 0.8,

@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 125,
@@ -77,7 +76,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:chargebeam",
     "tm:skydrop",
     "tm:acrobatics",
@@ -99,8 +98,8 @@
     "tutor:signalbeam",
     "tutor:secretpower",
     "tutor:skyattack",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:steelwing",
     "tutor:tailwind"  ],
   "labels": [

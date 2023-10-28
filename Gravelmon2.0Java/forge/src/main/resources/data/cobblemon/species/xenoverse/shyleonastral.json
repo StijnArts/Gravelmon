@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -51,7 +50,7 @@
   "moves": [
     "1:absorb",
     "1:pound",
-    "6:disarmingvoice",
+    "6:disarmingvoicesound",
     "13:camouflage",
     "18:leaftornado",
     "23:magicalleaf",
@@ -65,7 +64,7 @@
     "61:leafstorm",
     "1:earthpower",
     "tm:calmmind",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -79,7 +78,7 @@
     "tm:reflect",
     "tm:facade",
     "tm:rest",
-    "tm:round",
+    "tm:roundsound",
     "tm:energyball",
     "tm:fling",
     "tm:gigaimpact",
@@ -97,8 +96,8 @@
     "tutor:magicroom",
     "tutor:secretpower",
     "tutor:seedbomb",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:synthesis",
     "tutor:worryseed"  ],
   "labels": [
@@ -128,7 +127,7 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:deepslate"
+          "itemCondition": "gravelmon:terrestrial_ring"
         }
       ]   
  },
@@ -141,7 +140,7 @@
       "requirements": [
         {
           "variant": "held_item",
-          "itemCondition": "minecraft:end_stone"
+          "itemCondition": "gravelmon:xenoversal_ring"
         }
       ]   
  }

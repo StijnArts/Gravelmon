@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 60,
@@ -66,11 +65,12 @@
     "8:sweetscent",
     "12:rollout",
     "16:disable",
+    "20:webball",
     "24:rockpolish",
     "28:slash",
     "32:hypnosis",
     "36:steamroller",
-    "40:screech",
+    "40:screechsound",
     "44:extrasensory",
     "48:batonpass",
     "52:xscissor",
@@ -105,7 +105,7 @@
     "tm:xscissor",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:cut",
     "egg:cosmicpower",
     "egg:hypnosis",

@@ -1,0 +1,6 @@
+{"target": "cobblemon:Complete",
+      "primaryType": "dragon",
+      "secondaryType": "ground",
+      "abilities": [
+        "powerconstruct"
+      ]}

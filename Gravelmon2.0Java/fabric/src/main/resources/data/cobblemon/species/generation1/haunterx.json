@@ -84,7 +84,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:fling",
     "tm:embargo",
     "tm:shadowclaw",
@@ -96,7 +96,7 @@
     "tutor:dragonpulse",
     "tutor:outrage",
     "tutor:secretpower",
-    "tutor:snore"  ],
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "gen1",

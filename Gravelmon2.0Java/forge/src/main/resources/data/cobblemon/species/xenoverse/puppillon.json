@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 190,
@@ -82,7 +81,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:fling",
     "tm:brutalswing",
     "tm:willowisp",
@@ -108,16 +107,16 @@
     "tutor:electroweb",
     "tutor:foulplay",
     "tutor:gigadrain",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:knockoff",
     "tutor:magiccoat",
     "tutor:painsplit",
     "tutor:roleplay",
     "tutor:secretpower",
     "tutor:skillswap",
-    "tutor:sleeptalk",
+    "tutor:sleeptalksound",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:trick",
     "tutor:wonderroom"  ],
   "labels": [
@@ -137,7 +136,7 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dusk_stone"   
+      "requiredContext": "gravelmon:dusk_pendant"   
  }
   ],
   "baseScale": 0.15,

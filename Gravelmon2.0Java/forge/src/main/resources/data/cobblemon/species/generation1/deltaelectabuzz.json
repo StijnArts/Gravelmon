@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -101,14 +100,16 @@
     "tm:poweruppunch",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:steelwing",
     "tm:acrobatics",
     "tm:darkpulse",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
+    "tm:darkmatter",
     "tm:spikes",
     "tm:secretpower",
     "tm:rocksmash",
@@ -137,7 +138,7 @@
     "tutor:ominouswind",
     "tutor:seismictoss",
     "tutor:selfdestruct",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:stealthrock",
     "tutor:suckerpunch",

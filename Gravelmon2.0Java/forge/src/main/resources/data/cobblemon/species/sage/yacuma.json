@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 3,
@@ -108,8 +107,11 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
+    "tm:depthcharge",
+    "tm:standoff",
+    "tm:miraclewill",
     "tm:cut",
     "tm:surf",
     "tm:dive",

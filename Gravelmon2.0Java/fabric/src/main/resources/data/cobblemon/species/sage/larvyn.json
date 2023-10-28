@@ -62,6 +62,7 @@
     "1:poisonsting",
     "10:twineedle",
     "15:defensecurl",
+    "20:causticbreath",
     "25:bugbite",
     "30:crunch",
     "tm:toxic",
@@ -79,7 +80,7 @@
     "tm:strugglebug",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk"  ],
+    "tm:sleeptalksound"  ],
   "labels": [
     "sage",
     "not_modeled"

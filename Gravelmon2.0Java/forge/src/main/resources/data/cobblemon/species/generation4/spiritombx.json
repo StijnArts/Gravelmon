@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 100,
@@ -48,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 20
+      }
+    ]
+  },
   "moves": [
     "1:confuseray",
     "1:growth",
@@ -79,7 +88,7 @@
     "tm:torment",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:energyball",
     "tm:embargo",
     "tm:gigaimpact",
@@ -94,7 +103,7 @@
     "tutor:painsplit",
     "tutor:secretpower",
     "tutor:seedbomb",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:synthesis",
     "tutor:trick",

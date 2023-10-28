@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 120,
@@ -96,9 +95,10 @@
     "tm:swagger",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
     "tm:incinerate",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:spikes",
@@ -120,7 +120,7 @@
     "tutor:rollout",
     "tutor:seismictoss",
     "tutor:selfdestruct",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock"  ],
   "labels": [
     "gen5",

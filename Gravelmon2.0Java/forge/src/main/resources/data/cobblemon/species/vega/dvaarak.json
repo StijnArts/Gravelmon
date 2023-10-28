@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 75,
@@ -54,7 +53,7 @@
     "1:scratch",
     "1:sandattack",
     "6:mudslap",
-    "10:screech",
+    "10:screechsound",
     "15:metalclaw",
     "19:rocktomb",
     "24:sandstorm",

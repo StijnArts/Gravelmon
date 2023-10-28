@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -84,7 +83,7 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:round",
+    "tm:roundsound",
     "tm:focusblast",
     "tm:gigaimpact",
     "tm:swordsdance",
@@ -106,8 +105,8 @@
     "tutor:lowkick",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:strugglebug",
     "tutor:superpower"  ],
   "labels": [

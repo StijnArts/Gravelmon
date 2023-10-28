@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 235,
@@ -93,11 +92,12 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:frostbreath",
+    "tm:achillesheel",
     "tm:avalanche",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -112,7 +112,7 @@
     "tutor:magnetrise",
     "tutor:mimic",
     "tutor:roleplay",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:thunderpunch",
     "tutor:trick",
     "tutor:uproar",
@@ -139,7 +139,7 @@
       ]   
  }
   ],
-  "baseScale": 0.8,
+  "baseScale": 1.0,
   "hitbox": {
     "width": 0.5,
     "height": 0.9,

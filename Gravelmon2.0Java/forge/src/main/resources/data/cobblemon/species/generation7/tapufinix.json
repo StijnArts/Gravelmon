@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 3,
@@ -48,10 +47,20 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:snarl",
     "1:energyball",
-    "1:powergem",
+    "1:powergemcrystal",
     "1:confusion",
     "1:drainingkiss",
     "1:sludgebomb",
@@ -89,7 +98,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:fling",
     "tm:embargo",
     "tm:payback",

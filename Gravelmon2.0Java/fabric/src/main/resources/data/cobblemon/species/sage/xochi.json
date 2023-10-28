@@ -59,7 +59,7 @@
   },
   "moves": [
     "1:ember",
-    "1:healbell",
+    "1:healbellsound",
     "1:pound",
     "10:absorb",
     "15:magicalleaf",
@@ -74,7 +74,7 @@
     "75:flareblitz",
     "79:petaldance",
     "83:amnesia",
-    "88:perishsong",
+    "88:perishsongsound",
     "91:leafstorm",
     "tm:psyshock",
     "tm:calmmind",
@@ -118,7 +118,8 @@
     "tm:uturn",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalk"  ],
+    "tm:sleeptalksound",
+    "tm:miraclewill"  ],
   "labels": [
     "sage",
     "not_modeled"

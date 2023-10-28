@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -52,7 +51,7 @@
     "1:helpinghand",
     "1:tackle",
     "1:tailwhip",
-    "5:howl",
+    "5:howlsound",
     "6:wrap",
     "6:twister",
     "13:hornattack",
@@ -84,8 +83,8 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:payback",
     "tm:gigaimpact",
     "tm:voltswitch",

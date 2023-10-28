@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -48,24 +47,34 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 20
+      }
+    ]
+  },
   "moves": [
     "1:poisonsting",
     "4:growl",
     "7:supersonic",
-    "10:echoedvoice",
+    "10:echoedvoicesound",
     "13:encore",
-    "16:screech",
+    "16:screechsound",
     "19:venoshock",
-    "22:sing",
+    "22:singsound",
     "25:poisonjab",
     "28:toxicspikes",
     "31:uproar",
     "34:flatter",
-    "37:hypervoice",
+    "37:hypervoicesound",
     "40:toxic",
-    "43:perishsong",
+    "43:perishsongsound",
     "46:synchronoise",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -76,8 +85,8 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:smartstrike",
     "tm:swordsdance",
     "tm:psychup",
@@ -104,7 +113,7 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:shiny_stone"   
+      "requiredContext": "gravelmon:xenolith"   
  }
   ],
   "baseScale": 0.1,

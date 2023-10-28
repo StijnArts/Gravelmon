@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 75,
@@ -67,6 +66,7 @@
     "1:charge",
     "5:spark",
     "9:disable",
+    "13:psybolt",
     "17:confuseray",
     "21:chargebeam",
     "25:psybeam",
@@ -123,15 +123,16 @@
     "tm:flashcannon",
     "tm:trickroom",
     "tm:wildcharge",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:miraclewill",
     "tutor:counter",
     "tutor:irondefense",
     "tutor:magiccoat",
     "tutor:recycle",
     "tutor:signalbeam",
     "tutor:snatch",
-    "tutor:snore",
-    "tutor:swift",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
     "tutor:trick",
     "tutor:vacuumwave",
     "tutor:wonderroom",

@@ -4,17 +4,21 @@ import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import org.jetbrains.annotations.*;
 
 import java.io.*;
 import java.nio.file.*;
+import java.util.*;
 
 public class SpeciesDataJSONWriter {
     public static void writeSpecies(Game game, String resourcesDir){
-        String dir = resourcesDir+"\\data\\cobblemon\\species\\"+game.getName().toLowerCase()+"\\";
         game.getPokemon().forEach(pokemon -> {
             try {
+                var dir = resourcesDir+"\\data\\cobblemon\\species\\"+game.getName().toLowerCase()+"\\";
                 Files.createDirectories(new File(dir).toPath());
-                writePokemon(pokemon, dir, game);
+                writePokemon(pokemon, dir, game, true);
+                //dir = resourcesDir+"\\data\\gravelmon\\species\\"+game.getName().toLowerCase()+"\\";
+                //writePokemon(pokemon, dir, game, false);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
@@ -25,14 +29,14 @@ public class SpeciesDataJSONWriter {
         EghoPokemon.placeholders.forEach(pokemon -> {
             try {
                 Files.createDirectories(new File(dir).toPath());
-                writePokemon(pokemon, dir, null);
+                writePokemon(pokemon, dir, null, false);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
         });
     }
 
-    private static void writePokemon(Pokemon pokemon, String dir, Game game) throws IOException {
+    private static void writePokemon(Pokemon pokemon, String dir, Game game, boolean isSubstitutedMoveImplementation) throws IOException {
         if(pokemon.getPrimaryType() == null){
             System.out.println(pokemon.getName());
         }
@@ -113,7 +117,7 @@ public class SpeciesDataJSONWriter {
                 } else {
                     fileContents += ",\n";
                 }
-                fileContents += generateForm(form, pokemon);
+                fileContents += generateForm(form, pokemon, isSubstitutedMoveImplementation);
             }
             fileContents += "\n],\n";
         }
@@ -157,20 +161,8 @@ public class SpeciesDataJSONWriter {
             fileContents += "\n    ]\n" +
                     "  },";
         }
-        fileContents +="\n  \"moves\": [\n";
-        boolean isFirstLearnSetEntry = true;
-        for (MoveLearnSetEntry moveLearnsetEntry : pokemon.getLearnSet()){
-            if(moveLearnsetEntry.getMove().isImplemented()) {
-                if(isFirstLearnSetEntry){
-                    isFirstLearnSetEntry=false;
-                } else {
-                    fileContents += ",\n";
-                }
-                fileContents += "    \"" + moveLearnsetEntry.getCondition() + ":" + moveLearnsetEntry.getMove().getName() + "\"";
-            }
-        }
-        fileContents += "  ],\n" +
-                        "  \"labels\": [\n";
+        fileContents += getMoves(pokemon.getLearnSet(), isSubstitutedMoveImplementation);
+        fileContents += "  \"labels\": [\n";
         boolean isFirstLabelEntry = true;
         for (Label label : pokemon.getLabels()){
             if(isFirstLabelEntry){
@@ -241,6 +233,32 @@ public class SpeciesDataJSONWriter {
             writerModeled.write(fileContents);
             writerModeled.close();
         }*/
+    }
+
+    @NotNull
+    private static String getMoves(List<MoveLearnSetEntry> learnSetEntries, boolean isSubstitutedMoveImplementation) {
+        var fileContents ="\n  \"moves\": [\n";
+        boolean isFirstLearnSetEntry = true;
+        var allowedTypes = new ArrayList<>(List.of("sound", "crystal", "nuclear", "cosmic"));
+        for (MoveLearnSetEntry moveLearnsetEntry : learnSetEntries){
+            var move = moveLearnsetEntry.getMove();
+            var moveName = move.getName();
+            if(move.isImplemented()) {
+                if(isSubstitutedMoveImplementation && move.getTypeOverwrite() != null){
+                    if(allowedTypes.contains(move.getTypeOverwrite())){
+                        moveName =move.getOverwittenMoveName();
+                    }
+                }
+                if(isFirstLearnSetEntry){
+                    isFirstLearnSetEntry=false;
+                } else {
+                    fileContents += ",\n";
+                }
+                fileContents += "    \"" + moveLearnsetEntry.getCondition() + ":" + moveName + "\"";
+            }
+        }
+        fileContents += "  ],\n";
+        return fileContents;
     }
 
     private static String getEvolutions(Pokemon pokemon, String fileContents) {
@@ -314,7 +332,7 @@ public class SpeciesDataJSONWriter {
         return fileContents;
     }
 
-    private static String generateForm(PokemonForm form, Pokemon pokemon){
+    private static String generateForm(PokemonForm form, Pokemon pokemon, boolean isSubstitutedMoveImplementation){
 
         String formString =
                 "    {\n" +
@@ -396,22 +414,11 @@ public class SpeciesDataJSONWriter {
                 formString += "    \""+EggGroup.UNDISCOVERED.name().toLowerCase()+"\"";
             }
         }
-        formString +="      ],\n" +
-                "      \"moves\": [\n";
-        boolean isFirstLearnSetEntry = true;
-        for (MoveLearnSetEntry moveLearnsetEntry : form.getLearnSet()){
-            if(moveLearnsetEntry.getMove().isImplemented()) {
-                if(isFirstLearnSetEntry){
-                    isFirstLearnSetEntry=false;
-                } else {
-                    formString += ",\n";
-                }
-                formString += "    \"" + moveLearnsetEntry.getCondition() + ":" + moveLearnsetEntry.getMove().getName() + "\"";
-            }
-        }
-        formString +="      ],\n" +
 
-                "  \"drops\": {\n" +
+        formString += "\n  ],";
+        formString += getMoves(form.getLearnSet(), isSubstitutedMoveImplementation);
+
+        formString +=        "  \"drops\": {\n" +
                 "    \"amount\": \""+form.getDropAmount()+"\",\n" +
                 "    \"entries\": [\n";
         boolean isFirstDropEntry = true;

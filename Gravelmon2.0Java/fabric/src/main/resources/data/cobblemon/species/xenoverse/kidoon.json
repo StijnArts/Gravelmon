@@ -59,8 +59,8 @@
     "tutor:aircutter",
     "tutor:bind",
     "tutor:hurricane",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:tailwind",
     "tutor:waterpulse"  ],
   "labels": [

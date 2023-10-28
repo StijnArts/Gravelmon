@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 190,
@@ -65,12 +64,14 @@
     "4:leechlife",
     "7:sandtomb",
     "11:foresight",
+    "14:webball",
     "17:spiderweb",
     "21:bulldoze",
     "24:bugbite",
     "27:dig",
     "31:suckerpunch",
     "34:drillrun",
+    "37:brace",
     "41:chipaway",
     "44:rockslide",
     "47:gastroacid",
@@ -106,7 +107,7 @@
     "tm:xscissor",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:cut",
     "tm:strength",
     "tutor:ancientpower",
@@ -121,7 +122,7 @@
     "egg:disable",
     "egg:drillpeck",
     "egg:poisonsting",
-    "egg:powergem",
+    "egg:powergemcrystal",
     "egg:rockblast",
     "egg:signalbeam",
     "egg:steamroller",

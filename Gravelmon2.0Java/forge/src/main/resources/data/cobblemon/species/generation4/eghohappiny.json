@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 80,
@@ -91,8 +90,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:overheat",
     "tm:fling",
     "tm:incinerate",
@@ -132,7 +131,7 @@
     "egg:bulletpunch",
     "egg:counter",
     "egg:endure",
-    "egg:healbell",
+    "egg:healbellsound",
     "egg:lastresort",
     "egg:megahorn",
     "egg:meteormash",

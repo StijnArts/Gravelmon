@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 75,
@@ -48,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 20
+      }
+    ]
+  },
   "moves": [
     "1:bind",
     "1:poisonsting",
@@ -79,7 +88,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:overheat",
     "tm:willowisp",
     "tm:payback",
@@ -98,7 +107,7 @@
     "tutor:painsplit",
     "tutor:secretpower",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite"  ],
   "labels": [
     "xenoverse",

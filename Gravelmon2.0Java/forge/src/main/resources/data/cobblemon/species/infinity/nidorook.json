@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -51,6 +50,7 @@
     "monster"
   ],
   "moves": [
+    "1:barbedtackle",
     "1:leer",
     "1:peck",
     "1:focusenergy",
@@ -69,7 +69,7 @@
     "58:earthquake",
     "62:megahorn",
     "tm:dragonclaw",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -100,8 +100,8 @@
     "tm:rest",
     "tm:thief",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:focusblast",
     "tm:fling",
     "tm:quash",
@@ -137,7 +137,8 @@
     "egg:pursuit",
     "egg:skullbash",
     "egg:supersonic",
-    "egg:takedown"  ],
+    "egg:takedown",
+    "egg:venomswipe"  ],
   "labels": [
     "infinity",
     "not_modeled"

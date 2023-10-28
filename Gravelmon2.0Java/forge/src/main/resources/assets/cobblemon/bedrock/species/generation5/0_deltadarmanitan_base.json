@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation5_deltadarmanitan",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation5/deltadarmanitan.png",
+      "model": "cobblemon:generation5_deltadarmanitan.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/deltadarmanitan/deltadarmanitan.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation5/deltadarmanitan_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation5/deltadarmanitan/deltadarmanitan_shiny.png"
     }  ]
 }

@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 90,
@@ -59,6 +58,7 @@
     ]
   },
   "moves": [
+    "1:webball",
     "1:stringshot",
     "1:poisonsting",
     "4:tackle",
@@ -73,6 +73,7 @@
     "31:spikes",
     "34:dig",
     "37:irondefense",
+    "40:shieldbash",
     "43:rockslide",
     "46:earthquake",
     "tm:toxic",
@@ -107,19 +108,20 @@
     "tm:workup",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
     "tutor:ancientpower",
     "tutor:bugbite",
     "tutor:counter",
     "tutor:doubleedge",
     "tutor:earthpower",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:irondefense",
     "tutor:mudslap",
     "tutor:signalbeam",
     "tutor:uproar",
     "egg:leechlife",
-    "egg:bugbuzz",
+    "egg:bugbuzzsound",
     "egg:twineedle",
     "egg:furycutter",
     "egg:pursuit"  ],

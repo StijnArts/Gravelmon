@@ -1,9 +1,9 @@
 {
   "head": "head",
-  "portraitScale": 1.65,
-  "portraitTranslation": [0, 1.78, 0],
-  "profileScale": 0.75,
-  "profileTranslation": [0, 0.9, 0],
+  "portraitScale": 2.6,
+  "portraitTranslation": [-0.2, 1.6, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.7, 0],
   "faint": "bedrock(deltagardevoir, faint)",
   "poses": {
     "standing": {

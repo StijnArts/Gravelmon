@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -65,7 +64,7 @@
     "33:airslash",
     "39:hiddenpower",
     "44:dazzlinggleam",
-    "49:bugbuzz",
+    "49:bugbuzzsound",
     "52:whirlwind",
     "58:quiverdance",
     "62:moonblast",
@@ -87,8 +86,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:energyball",
     "tm:falseswipe",
     "tm:chargebeam",

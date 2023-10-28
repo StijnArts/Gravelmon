@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 100,
@@ -91,8 +90,8 @@
     "tm:facade",
     "tm:attract",
     "tm:thief",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:focusblast",
     "tm:shadowclaw",
     "tm:payback",
@@ -117,9 +116,9 @@
     "tutor:knockoff",
     "tutor:roleplay",
     "tutor:secretpower",
-    "tutor:sleeptalk",
+    "tutor:sleeptalksound",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:trick",
     "tutor:uproar"  ],
   "labels": [

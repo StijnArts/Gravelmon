@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -68,6 +67,7 @@
     "7:rocktomb",
     "11:bide",
     "15:wrap",
+    "19:shieldbash",
     "22:irondefense",
     "26:dig",
     "31:ironhead",
@@ -80,7 +80,7 @@
     "63:metalburst",
     "69:heavyslam",
     "75:gigaimpact",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -109,7 +109,9 @@
     "tm:swagger",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
+    "tm:standoff",
     "tm:strength",
     "tutor:aquatail",
     "tutor:avalanche",

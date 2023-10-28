@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -52,7 +51,7 @@
   "moves": [
     "1:mudslap",
     "1:watergun",
-    "5:snore",
+    "5:snoresound",
     "9:mudsport",
     "13:waterpulse",
     "18:mudshot",
@@ -92,8 +91,9 @@
     "tm:swagger",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
-    "tm:round",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:infestation",
@@ -109,13 +109,13 @@
     "tutor:endeavor",
     "tutor:endure",
     "tutor:gigadrain",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:icywind",
     "tutor:mimic",
     "tutor:mudslap",
     "tutor:painsplit",
     "tutor:roleplay",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:waterpulse",
     "tutor:whirlpool",

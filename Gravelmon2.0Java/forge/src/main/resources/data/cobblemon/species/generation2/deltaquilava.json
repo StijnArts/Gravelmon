@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -88,6 +87,7 @@
     "tm:energyball",
     "tm:fling",
     "tm:chargebeam",
+    "tm:newmoon",
     "tm:shadowclaw",
     "tm:payback",
     "tm:retaliate",
@@ -102,14 +102,16 @@
     "tm:poweruppunch",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:dazzlinggleam",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
+    "tm:darkmatter",
     "tm:secretpower",
     "tm:flash",
     "tm:rocksmash",
@@ -131,8 +133,8 @@
     "tutor:mimic",
     "tutor:rollout",
     "tutor:signalbeam",
-    "tutor:snore",
-    "tutor:swift",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
     "tutor:thunderpunch",
     "tutor:zapcannon"  ],
   "labels": [

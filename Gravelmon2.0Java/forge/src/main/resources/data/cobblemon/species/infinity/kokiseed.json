@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -108,8 +107,8 @@
     "tutor:knockoff",
     "tutor:mudslap",
     "tutor:seedbomb",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:synthesis",
     "tutor:trick",
     "egg:amnesia",

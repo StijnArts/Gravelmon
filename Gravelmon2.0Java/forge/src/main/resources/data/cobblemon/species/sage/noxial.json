@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 120,
@@ -84,8 +83,9 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 51,
       "eggGroups": [
-    "amorphous"      ],
-      "moves": [
+    "amorphous"
+  ],
+  "moves": [
     "1:poisongas",
     "1:smokescreen",
     "1:astonish",
@@ -93,6 +93,7 @@
     "8:disable",
     "12:ember",
     "15:confuseray",
+    "19:acidrain",
     "22:flameburst",
     "27:selfdestruct",
     "31:toxicspikes",
@@ -139,7 +140,7 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tutor:fling",
     "tutor:gastroacid",
     "tutor:gunkshot",
@@ -161,7 +162,7 @@
     "egg:nightshade",
     "egg:nightslash",
     "egg:ominouswind",
-    "egg:smokescreen"      ],
+    "egg:smokescreen"  ],
   "drops": {
     "amount": "2",
     "entries": [
@@ -227,6 +228,7 @@
     "8:disable",
     "12:powdersnow",
     "15:confuseray",
+    "19:acidrain",
     "22:frostbreath",
     "27:selfdestruct",
     "31:toxicspikes",
@@ -273,7 +275,7 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tutor:fling",
     "tutor:gastroacid",
     "tutor:gunkshot",

@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -59,11 +59,11 @@
     "25:conversion2",
     "30:agility",
     "35:recover",
-    "40:hypervoice",
+    "40:hypervoicesound",
     "45:triattack",
     "50:magiccoat",
     "55:lockon",
-    "60:boomburst",
+    "60:boomburstsound",
     "tm:psyshock",
     "tm:toxic",
     "tm:hiddenpower",
@@ -86,8 +86,8 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:focusblast",
     "tm:energyball",
     "tm:chargebeam",
@@ -101,17 +101,16 @@
     "tm:dazzlinggleam",
     "tm:darkpulse"  ],
   "labels": [
-    "xenoverse",
-    "not_modeled"
+    "xenoverse"
   ],
   "pokedex": [
     "cobblemon.species.porygonwes.desc"
   ],
   "preEvolution": "porygon2",
-  "baseScale": 0.225,
+  "baseScale": 0.9,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.8,
+    "height": 1.2,
     "fixed": false
   },
   "baseFriendship": 70,

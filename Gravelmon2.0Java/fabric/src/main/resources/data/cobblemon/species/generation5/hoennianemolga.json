@@ -81,16 +81,15 @@
     "egg:nightshade"  ],
   "labels": [
     "blazing_emerald",
-    "gen5",
-    "not_modeled"
+    "gen5"
   ],
   "pokedex": [
     "cobblemon.species.hoennianemolga.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.52,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.6,
+    "height": 0.6,
     "fixed": false
   },
   "baseFriendship": 70,

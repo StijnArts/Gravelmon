@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 170,
@@ -104,7 +103,7 @@
     "tm:swagger",
     "tm:substitute",
     "tm:wildcharge",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:cut",
     "tutor:aquatail",
     "tutor:doubleedge",
@@ -117,7 +116,7 @@
     "tutor:outrage",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:thunderpunch",
     "egg:astonish",
     "egg:confuseray",

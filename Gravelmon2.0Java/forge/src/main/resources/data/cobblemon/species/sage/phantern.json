@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 50,
@@ -73,6 +72,7 @@
     "44:memento",
     "50:heatwave",
     "55:safeguard",
+    "61:possession",
     "66:imprison",
     "72:inferno",
     "77:healingwish",
@@ -114,9 +114,10 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:miraclewill",
     "tm:cut",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:heatwave",
     "tutor:helpinghand",
     "tutor:knockoff",
@@ -127,9 +128,9 @@
     "tutor:roleplay",
     "tutor:secretpower",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:trick",
     "tutor:wonderroom"  ],
   "labels": [

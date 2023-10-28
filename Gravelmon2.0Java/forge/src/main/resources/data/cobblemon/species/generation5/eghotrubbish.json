@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 120,
@@ -99,7 +98,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:energyball",
     "tm:fling",
     "tm:quash",
@@ -125,7 +124,7 @@
     "tutor:dragonpulse",
     "tutor:drainpunch",
     "tutor:firepunch",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:helpinghand",
     "tutor:rollout",
     "tutor:seedbomb",
@@ -134,7 +133,7 @@
     "egg:curse",
     "egg:haze",
     "egg:mudsport",
-    "egg:powergem",
+    "egg:powergemcrystal",
     "egg:rockblast",
     "egg:sandattack",
     "egg:selfdestruct",

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "gravelmon:deepslate_astral_stone_ore_block_item"
+  },
+  "result": "gravelmon:astral_stone"
+}

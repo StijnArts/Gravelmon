@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:generation1_mdeltaivysaur",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur.png",
+      "poser": "cobblemon:generation1_deltaivysaur",
+      "model": "cobblemon:deltaivysaur.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female.png",
       "layers": []
     },
     {
@@ -21,15 +21,13 @@
       ],
       "model": "cobblemon:deltaivysaur.geo",
       "poser": "cobblemon:generation1_deltaivysaur",
-      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female.png"
+      "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female_shiny.png"
     },
     {
       "aspects": [
         "female",
         "shiny"
       ],
-      "model": "cobblemon:deltaivysaur.geo",
-      "poser": "cobblemon:generation1_deltaivysaur",
       "texture": "cobblemon:textures/pokemon/generation1/deltaivysaur_female_shiny.png"
     }
   ]

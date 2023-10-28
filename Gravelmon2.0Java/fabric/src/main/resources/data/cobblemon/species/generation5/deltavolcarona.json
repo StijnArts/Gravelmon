@@ -6,7 +6,7 @@
   "secondaryType": "poison",
   "abilities": [
     "levitate",
-    "h:keeneye"
+    "h:absolution"
   ],
   "baseStats": {
     "hp": 85,
@@ -47,7 +47,7 @@
       "secondaryType": "poison",
       "abilities": [
     "levitate",
-    "h:keeneye"
+    "h:absolution"
       ],
       "baseScale": 0.3,
         "hitbox": {
@@ -78,9 +78,10 @@
       "experienceGroup": "slow",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -167,6 +168,7 @@
     "tm:thief",
     "tm:roost",
     "tm:energyball",
+    "tm:newmoon",
     "tm:embargo",
     "tm:explosion",
     "tm:payback",
@@ -181,19 +183,23 @@
     "tm:uturn",
     "tm:substitute",
     "tm:flashcannon",
-    "tm:sleeptalk",
+    "tm:dracojet",
+    "tm:sleeptalksound",
     "tm:steelwing",
     "tm:acrobatics",
     "tm:darkpulse",
     "tm:dazzlinggleam",
+    "tm:achillesheel",
     "tm:silverwind",
     "tm:incinerate",
     "tm:skydrop",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
+    "tm:corrode",
     "tm:confide",
     "tm:quash",
+    "tm:darkmatter",
     "tm:infestation",
     "tm:secretpower",
     "tm:flash",
@@ -211,7 +217,7 @@
     "tutor:endure",
     "tutor:foulplay",
     "tutor:gigadrain",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:gunkshot",
     "tutor:heatwave",
     "tutor:hurricane",
@@ -225,11 +231,11 @@
     "tutor:selfdestruct",
     "tutor:signalbeam",
     "tutor:skyattack",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spacialrend",
     "tutor:spite",
     "tutor:superpower",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:tailwind",
     "tutor:twister",
     "tutor:waterpulse",

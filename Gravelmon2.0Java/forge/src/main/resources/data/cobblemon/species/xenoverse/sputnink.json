@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -61,7 +60,7 @@
     "30:cosmicpower",
     "35:smackdown",
     "40:storedpower",
-    "44:gravity",
+    "44:gravitycosmic",
     "50:recover",
     "54:extrasensory",
     "58:trickroom",
@@ -85,7 +84,7 @@
     "tm:rocktomb",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:rockpolish",
     "tm:stoneedge",
     "tm:rockslide",
@@ -94,7 +93,7 @@
     "tm:trickroom",
     "tutor:bind",
     "tutor:flash",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:magiccoat",
     "tutor:magicroom",
     "tutor:painsplit",
@@ -102,8 +101,8 @@
     "tutor:secretpower",
     "tutor:signalbeam",
     "tutor:skillswap",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:trick",
     "tutor:wonderroom"  ],

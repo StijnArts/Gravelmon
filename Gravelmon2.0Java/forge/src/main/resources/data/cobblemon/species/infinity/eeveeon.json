@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -48,6 +47,7 @@
     "field"
   ],
   "moves": [
+    "1:eevoboost",
     "1:workup",
     "1:helpinghand",
     "1:tackle",
@@ -65,13 +65,13 @@
     "38:trumpcard",
     "40:agility",
     "44:assist",
-    "49:hypervoice",
+    "49:hypervoicesound",
     "53:slackoff",
     "57:holdback",
     "60:earthpower",
     "64:cosmicpower",
     "73:storedpower",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:icebeam",
@@ -87,8 +87,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:fling",
     "tm:shadowclaw",
     "tm:payback",

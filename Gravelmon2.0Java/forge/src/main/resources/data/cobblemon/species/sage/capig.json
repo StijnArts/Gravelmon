@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -103,7 +102,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:echoedvoice",
+    "tm:echoedvoicesound",
     "tm:fling",
     "tm:chargebeam",
     "tm:endure",
@@ -116,7 +115,7 @@
     "tm:swagger",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
     "tm:cut",
     "tm:surf",
@@ -127,9 +126,9 @@
     "tutor:icywind",
     "tutor:knockoff",
     "tutor:mudslap",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superfang",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:uproar",
     "tutor:zenheadbutt",
     "egg:counter",

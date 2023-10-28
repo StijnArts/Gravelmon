@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -53,6 +52,7 @@
     "1:scratch",
     "1:leer",
     "1:absorb",
+    "9:jetstrike",
     "12:razorleaf",
     "15:sweetscent",
     "20:aircutter",
@@ -76,7 +76,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:steelwing",
     "tm:energyball",
     "tm:skydrop",

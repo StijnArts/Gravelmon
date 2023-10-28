@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 200,
@@ -103,9 +102,10 @@
     "tm:poweruppunch",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:acrobatics",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -131,7 +131,7 @@
     "tutor:mimic",
     "tutor:outrage",
     "tutor:seedbomb",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:superfang",
     "tutor:synthesis",

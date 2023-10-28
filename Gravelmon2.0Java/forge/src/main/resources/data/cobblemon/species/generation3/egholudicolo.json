@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -102,7 +101,7 @@
     "tm:rest",
     "tm:thief",
     "tm:lowsweep",
-    "tm:round",
+    "tm:roundsound",
     "tm:overheat",
     "tm:energyball",
     "tm:scald",
@@ -120,6 +119,7 @@
     "tm:wildcharge",
     "tm:bulletseed",
     "tm:strength",
+    "tm:cinderbreath",
     "tutor:dazzlinggleam",
     "tutor:firepunch",
     "tutor:heatwave",

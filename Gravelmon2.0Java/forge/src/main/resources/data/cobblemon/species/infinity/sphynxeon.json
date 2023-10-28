@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -74,7 +73,7 @@
     "68:painsplit",
     "tm:psyshock",
     "tm:calmmind",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:hyperbeam",
@@ -93,8 +92,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:gigaimpact",
     "tm:flash",
     "tm:thunderwave",

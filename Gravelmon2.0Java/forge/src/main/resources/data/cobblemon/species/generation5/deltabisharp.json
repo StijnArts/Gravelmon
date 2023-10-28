@@ -7,7 +7,7 @@
   "abilities": [
     "defiant",
     "frisk",
-    "h:keeneye"
+    "h:windforce"
   ],
   "baseStats": {
     "hp": 65,
@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -49,7 +48,7 @@
       "secondaryType": "fighting",
       "abilities": [
     "technician",
-    "h:keeneye"
+    "h:windforce"
       ],
       "baseScale": 0.3,
         "hitbox": {
@@ -80,9 +79,10 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -164,12 +164,13 @@
     "tm:uturn",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:steelwing",
     "tm:acrobatics",
+    "tm:achillesheel",
     "tm:skydrop",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -200,7 +201,7 @@
     "tutor:seismictoss",
     "tutor:signalbeam",
     "tutor:skyattack",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superpower",
     "tutor:tailwind",
     "tutor:thunderpunch",

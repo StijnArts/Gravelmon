@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -78,8 +77,8 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:fling",
     "tm:brutalswing",
     "tm:poweruppunch",
@@ -87,7 +86,7 @@
     "tm:dazzlinggleam",
     "egg:charm",
     "egg:covet",
-    "egg:sing",
+    "egg:singsound",
     "egg:healingwish",
     "egg:icywind",
     "egg:feintattack",
@@ -96,8 +95,8 @@
     "tutor:endeavor",
     "tutor:helpinghand",
     "tutor:secretpower",
-    "tutor:sleeptalk",
-    "tutor:snore"  ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "not_modeled"

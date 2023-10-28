@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -71,20 +70,20 @@
     "tm:doubleteam",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:dragontail",
     "egg:glare",
     "egg:twister",
     "egg:dragondance",
-    "egg:disarmingvoice",
+    "egg:disarmingvoicesound",
     "egg:charm",
     "tutor:aquatail",
     "tutor:bind",
     "tutor:dragonpulse",
     "tutor:flash",
     "tutor:secretpower",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:substitute"  ],
   "labels": [
     "xenoverse",

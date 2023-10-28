@@ -96,8 +96,8 @@ public class EhgoHoothoot extends EghoPokemon {
                 List.of());
         this.setLangFileName("Hoothoot");
         this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setModeled(true);
-        this.setBaseScale(1);
-        this.setHitbox(1,1);
+        //this.setModeled(true);
+        //this.setBaseScale(1);
+       //this.setHitbox(1,1);
     }
 }

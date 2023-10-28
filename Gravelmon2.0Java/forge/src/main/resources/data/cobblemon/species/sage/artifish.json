@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 60,
@@ -126,7 +125,8 @@
     "tm:workup",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:standoff",
     "tm:cut",
     "tm:surf",
     "tm:strength",
@@ -143,10 +143,10 @@
     "tutor:metronome",
     "tutor:recycle",
     "tutor:secretpower",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superfang",
     "tutor:superpower",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:uproar",
     "tutor:zenheadbutt",
     "egg:batonpass",

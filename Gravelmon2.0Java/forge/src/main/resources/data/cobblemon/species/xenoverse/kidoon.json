@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -60,8 +59,8 @@
     "tutor:aircutter",
     "tutor:bind",
     "tutor:hurricane",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:tailwind",
     "tutor:waterpulse"  ],
   "labels": [

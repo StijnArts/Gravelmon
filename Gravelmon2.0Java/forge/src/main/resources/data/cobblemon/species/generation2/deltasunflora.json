@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltasunflora",
-  "nationalPokedexNumber": 193,
+  "nationalPokedexNumber": 192,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 120,
@@ -80,9 +79,10 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 50,
       "eggGroups": [
-    "undiscovered"      ],
-      "moves": [
-      ],
+    "undiscovered"
+  ],
+  "moves": [
+  ],
   "drops": {
     "amount": "0",
     "entries": [
@@ -165,14 +165,17 @@
     "tm:swagger",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:darkpulse",
+    "tm:achillesheel",
     "tm:incinerate",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
+    "tm:corrode",
     "tm:confide",
+    "tm:darkmatter",
     "tm:secretpower",
     "tm:cut",
     "tutor:acid",
@@ -185,7 +188,7 @@
     "tutor:gigadrain",
     "tutor:gunkshot",
     "tutor:heatwave",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:knockoff",
     "tutor:mimic",
     "tutor:morningsun",
@@ -194,7 +197,7 @@
     "tutor:painsplit",
     "tutor:seedbomb",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite"  ],
   "labels": [
     "gen2",

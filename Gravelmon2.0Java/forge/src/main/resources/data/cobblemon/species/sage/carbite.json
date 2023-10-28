@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -62,6 +61,7 @@
   "moves": [
     "1:rage",
     "1:harden",
+    "1:causticbreath",
     "5:bide",
     "10:headbutt",
     "16:rockblast",
@@ -69,12 +69,13 @@
     "25:dragonbreath",
     "31:scaryface",
     "35:ancientpower",
+    "40:shieldbash",
     "46:rockslide",
     "50:earthpower",
     "55:dragonpulse",
     "tm:honeclaws",
     "tm:dragonclaw",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -104,7 +105,8 @@
     "tm:rockslide",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
     "tm:strength"  ],
   "labels": [
     "sage",

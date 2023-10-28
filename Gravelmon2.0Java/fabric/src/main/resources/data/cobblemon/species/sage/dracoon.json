@@ -63,10 +63,12 @@
     "1:poisonsting",
     "10:twineedle",
     "15:defensecurl",
+    "20:causticbreath",
     "25:bugbite",
     "30:irondefense",
     "35:dragontail",
     "40:xscissor",
+    "45:brace",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -84,7 +86,7 @@
     "tm:dragontail",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk"  ],
+    "tm:sleeptalksound"  ],
   "labels": [
     "sage",
     "not_modeled"

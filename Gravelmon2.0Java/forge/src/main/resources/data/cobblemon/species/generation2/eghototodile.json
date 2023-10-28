@@ -34,9 +34,8 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+            "canBreatheUnderwater": true
+        }
     }
   },
   "catchRate": 45,
@@ -79,7 +78,7 @@
     "50:hydropump",
     "tm:honeclaws",
     "tm:dragonclaw",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hail",
     "tm:venoshock",
@@ -104,8 +103,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:focusblast",
     "tm:energyball",
     "tm:falseswipe",
@@ -131,6 +130,8 @@
     "tm:muddywater",
     "tm:cut",
     "tm:waterfall",
+    "tm:flashflood",
+    "tm:cinderbreath",
     "tutor:aquatail",
     "tutor:darkpulse",
     "tutor:dragonpulse",
@@ -175,10 +176,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.5,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.85,
+    "height": 1.4,
     "fixed": false
   },
   "baseFriendship": 70,

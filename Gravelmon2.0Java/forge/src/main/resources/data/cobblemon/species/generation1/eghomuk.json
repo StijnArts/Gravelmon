@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 75,
@@ -72,7 +71,7 @@
     "26:sludgebomb",
     "29:fling",
     "32:rockslide",
-    "35:screech",
+    "35:screechsound",
     "37:sludgewave",
     "43:acidarmor",
     "49:gunkshot",
@@ -81,6 +80,7 @@
     "61:meteormash",
     "66:stoneedge",
     "73:closecombat",
+    "81:tartantrum",
     "tm:toxic",
     "tm:bulkup",
     "tm:venoshock",
@@ -102,7 +102,7 @@
     "tm:facade",
     "tm:rest",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:scald",
     "tm:fling",
     "tm:incinerate",

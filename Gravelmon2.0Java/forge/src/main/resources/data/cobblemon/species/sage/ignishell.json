@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 170,
@@ -63,7 +62,7 @@
     "1:tackle",
     "4:withdraw",
     "7:firespin",
-    "10:roar",
+    "10:roarsound",
     "14:flamecharge",
     "17:headbutt",
     "20:curse",
@@ -78,7 +77,7 @@
     "50:fireblast",
     "tm:honeclaws",
     "tm:dragonclaw",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -106,7 +105,8 @@
     "tm:swagger",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
     "tm:cut",
     "tm:strength",
     "tutor:ancientpower",

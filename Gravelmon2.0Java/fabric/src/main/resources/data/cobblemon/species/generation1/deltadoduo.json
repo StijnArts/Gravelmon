@@ -6,7 +6,7 @@
   "abilities": [
     "compoundeyes",
     "trace",
-    "h:keeneye"
+    "h:psychocall"
   ],
   "baseStats": {
     "hp": 35,
@@ -95,10 +95,11 @@
     "tm:swagger",
     "tm:substitute",
     "tm:trickroom",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:dazzlinggleam",
+    "tm:achillesheel",
     "tm:allyswitch",
-    "tm:round",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:pluck",
@@ -109,9 +110,9 @@
     "tutor:drillrun",
     "tutor:endeavor",
     "tutor:endure",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:helpinghand",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:hypnosis",
     "tutor:knockoff",
     "tutor:lowkick",
@@ -119,7 +120,7 @@
     "tutor:magicroom",
     "tutor:mimic",
     "tutor:roleplay",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superpower",
     "tutor:trick",
     "tutor:uproar",

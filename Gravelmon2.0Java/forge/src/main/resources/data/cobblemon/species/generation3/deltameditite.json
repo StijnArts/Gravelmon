@@ -5,7 +5,7 @@
   "primaryType": "fairy",
   "abilities": [
     "sapsipper",
-    "h:keeneye"
+    "h:athenian"
   ],
   "baseStats": {
     "hp": 30,
@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 180,
@@ -54,7 +53,7 @@
     "9:faketears",
     "12:mudsport",
     "15:mudslap",
-    "17:disarmingvoice",
+    "17:disarmingvoicesound",
     "20:hiddenpower",
     "23:workup",
     "25:metronome",
@@ -83,6 +82,7 @@
     "tm:attract",
     "tm:lowsweep",
     "tm:recycle",
+    "tm:newmoon",
     "tm:payback",
     "tm:retaliate",
     "tm:psychup",
@@ -91,10 +91,11 @@
     "tm:swagger",
     "tm:poweruppunch",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:dazzlinggleam",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:achillesheel",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
     "tm:confide",
@@ -111,9 +112,9 @@
     "tutor:dynamicpunch",
     "tutor:endeavor",
     "tutor:endure",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:helpinghand",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:ironhead",
     "tutor:knockoff",
     "tutor:lastresort",
@@ -125,7 +126,7 @@
     "tutor:metronome",
     "tutor:mimic",
     "tutor:roleplay",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:thunderpunch",
     "tutor:uproar",

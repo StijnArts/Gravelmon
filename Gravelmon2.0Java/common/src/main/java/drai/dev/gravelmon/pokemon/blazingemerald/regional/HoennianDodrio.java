@@ -71,5 +71,6 @@ public class HoennianDodrio extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setModeled(true);
         this.setBaseScale(1.6);
+        this.setHitbox(0.6,1.6);
     }
 }

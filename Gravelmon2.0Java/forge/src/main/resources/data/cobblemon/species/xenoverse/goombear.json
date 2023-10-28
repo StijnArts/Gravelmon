@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 60,
@@ -81,8 +80,8 @@
     "tm:flamecharge",
     "tm:rest",
     "tm:attract",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:overheat",
     "tm:scald",
     "tm:fling",
@@ -93,7 +92,7 @@
     "tm:grassknot",
     "tm:substitute",
     "tm:dazzlinggleam",
-    "egg:snore",
+    "egg:snoresound",
     "egg:inferno",
     "egg:playrough",
     "egg:curse",
@@ -106,8 +105,8 @@
     "tutor:heatwave",
     "tutor:recycle",
     "tutor:secretpower",
-    "tutor:sleeptalk",
-    "tutor:snore"  ],
+    "tutor:sleeptalksound",
+    "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
     "not_modeled"

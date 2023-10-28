@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": false,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -61,6 +60,8 @@
     ]
   },
   "moves": [
+    "1:foggystrike",
+    "1:nimbusfist",
     "1:hail",
     "1:tackle",
     "1:tailwhip",
@@ -80,6 +81,7 @@
     "30:waterpulse",
     "32:aquatail",
     "37:iceshard",
+    "37:typhoon",
     "43:raindance",
     "48:hydropump",
     "52:hurricane",
@@ -101,8 +103,8 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:scald",
     "tm:chargebeam",
     "tm:quash",
@@ -118,6 +120,7 @@
     "tm:surf",
     "tm:waterfall",
     "tm:dive",
+    "tm:flashflood",
     "tutor:ancientpower",
     "tutor:aquatail",
     "tutor:icywind",

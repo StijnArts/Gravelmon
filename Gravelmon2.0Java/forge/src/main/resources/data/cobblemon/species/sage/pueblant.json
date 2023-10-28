@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 235,
@@ -106,7 +105,7 @@
     "tm:rockslide",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:strength",
     "tutor:ancientpower",
     "tutor:avalanche",
@@ -131,7 +130,7 @@
     "tutor:roleplay",
     "tutor:silverwind",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:zenheadbutt",
     "egg:destinybond",

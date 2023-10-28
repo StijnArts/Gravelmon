@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:xenoverse_wystearia",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/xenoverse/wystearia.png",
+      "model": "cobblemon:xenoverse_wystearia.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/wystearia/wystearia.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/wystearia_shiny.png"
+      "texture": "cobblemon:textures/pokemon/xenoverse/wystearia/wystearia_shiny.png"
     }  ]
 }

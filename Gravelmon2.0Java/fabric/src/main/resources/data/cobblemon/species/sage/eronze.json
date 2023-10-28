@@ -109,7 +109,8 @@
     "tm:flashcannon",
     "tm:wildcharge",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
     "tm:strength"  ],
   "labels": [
     "sage",

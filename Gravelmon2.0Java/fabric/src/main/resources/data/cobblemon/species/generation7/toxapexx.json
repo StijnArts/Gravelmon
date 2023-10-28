@@ -88,7 +88,7 @@
     "tm:facade",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:overheat",
     "tm:willowisp",
     "tm:payback",
@@ -107,7 +107,7 @@
     "tutor:painsplit",
     "tutor:secretpower",
     "tutor:snatch",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:spite"  ],
   "labels": [
     "xenoverse",

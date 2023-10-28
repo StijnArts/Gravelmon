@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 120,
@@ -97,11 +96,12 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:frostbreath",
+    "tm:achillesheel",
     "tm:avalanche",
-    "tm:echoedvoice",
-    "tm:round",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
     "tm:captivate",
     "tm:confide",
     "tm:secretpower",
@@ -116,7 +116,7 @@
     "tutor:magnetrise",
     "tutor:mimic",
     "tutor:roleplay",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:thunderpunch",
     "tutor:trick",
     "tutor:uproar",
@@ -158,7 +158,7 @@
       "requiredContext": "cobblemon:dawn_stone"   
  }
   ],
-  "baseScale": 0.8,
+  "baseScale": 0.9,
   "hitbox": {
     "width": 0.5,
     "height": 1.4,

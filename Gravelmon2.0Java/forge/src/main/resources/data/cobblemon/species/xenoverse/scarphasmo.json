@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 90,
@@ -87,8 +86,8 @@
     "tm:attract",
     "tm:thief",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:focusblast",
     "tm:fling",
     "tm:brutalswing",
@@ -106,14 +105,14 @@
     "tm:trickroom",
     "tm:darkpulse",
     "tutor:drainpunch",
-    "tutor:gravity",
+    "tutor:gravitycosmic",
     "tutor:magiccoat",
     "tutor:magicroom",
     "tutor:roleplay",
     "tutor:secretpower",
     "tutor:skillswap",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:spite",
     "tutor:substitute",
     "tutor:superpower",

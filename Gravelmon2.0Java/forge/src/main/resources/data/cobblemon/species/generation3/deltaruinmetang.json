@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 3,
@@ -65,6 +64,7 @@
     "44:stoneedge",
     "47:growth",
     "50:headsmash",
+    "60:crystalrush",
     "tm:honeclaws",
     "tm:bulldoze",
     "tm:toxic",
@@ -106,8 +106,9 @@
     "tm:poweruppunch",
     "tm:substitute",
     "tm:smackdown",
-    "tm:sleeptalk",
-    "tm:round",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
     "tm:confide",
     "tm:secretpower",
     "tm:rockclimb",
@@ -130,7 +131,7 @@
     "tutor:mimic",
     "tutor:mudslap",
     "tutor:seedbomb",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:synthesis",
     "tutor:thunderpunch",

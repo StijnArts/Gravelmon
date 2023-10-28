@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -72,11 +71,15 @@
     "16:flamecharge",
     "17:smackdown",
     "21:rockpolish",
+    "25:mudslide",
     "29:bulkup",
+    "33:brace",
     "37:blazekick",
+    "41:batteringram",
     "45:rockclimb",
     "49:swagger",
     "53:flamethrower",
+    "57:standoff",
     "61:flareblitz",
     "65:skullbash",
     "tm:toxic",
@@ -111,7 +114,8 @@
     "tm:swagger",
     "tm:substitute",
     "tm:wildcharge",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:standoff",
     "tm:strength",
     "tutor:bounce",
     "tutor:doubleedge",

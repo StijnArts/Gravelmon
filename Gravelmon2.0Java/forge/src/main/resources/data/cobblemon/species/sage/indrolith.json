@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -71,6 +70,7 @@
     "21:magnitude",
     "26:ancientpower",
     "31:sandstorm",
+    "36:shieldbash",
     "38:heavyslam",
     "43:focusenergy",
     "50:zenheadbutt",
@@ -78,7 +78,7 @@
     "64:curse",
     "71:megahorn",
     "78:stoneedge",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
@@ -107,7 +107,8 @@
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
     "tm:strength",
     "egg:bide",
     "egg:curse",

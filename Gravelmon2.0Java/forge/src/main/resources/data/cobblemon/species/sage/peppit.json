@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -104,7 +103,7 @@
     "tm:swagger",
     "tm:substitute",
     "tm:wildcharge",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
     "tm:cut",
     "tutor:bounce",
@@ -116,9 +115,9 @@
     "tutor:mudslap",
     "tutor:secretpower",
     "tutor:seedbomb",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:superfang",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:synthesis",
     "tutor:worryseed",
     "egg:aromatherapy",

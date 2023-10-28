@@ -105,8 +105,9 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
+    "tm:miraclewill",
     "tm:cut"  ],
   "labels": [
     "sage",

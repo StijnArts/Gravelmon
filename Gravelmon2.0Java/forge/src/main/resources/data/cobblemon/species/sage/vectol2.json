@@ -5,6 +5,7 @@
   "primaryType": "poison",
   "abilities": [
     "voltabsorb",
+    "feedback",
     "h:poisontouch"
   ],
   "baseStats": {
@@ -34,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 75,
@@ -81,6 +81,7 @@
     "48:acupressure",
     "52:poisonjab",
     "56:magnetrise",
+    "63:possession",
     "tm:honeclaws",
     "tm:toxic",
     "tm:venoshock",
@@ -125,13 +126,13 @@
     "tm:substitute",
     "tm:trickroom",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:cut",
     "tutor:electroweb",
     "tutor:painsplit",
     "tutor:signalbeam",
     "tutor:spite",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:uproar",
     "tutor:wonderroom"  ],
   "labels": [

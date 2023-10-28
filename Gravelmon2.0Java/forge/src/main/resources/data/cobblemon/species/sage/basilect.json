@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 5,
@@ -66,10 +65,12 @@
     "1:poisonsting",
     "10:twineedle",
     "15:defensecurl",
+    "20:causticbreath",
     "25:bugbite",
     "30:irondefense",
     "35:dragontail",
     "40:xscissor",
+    "45:brace",
     "50:dualchop",
     "55:swordsdance",
     "57:megahorn",
@@ -79,7 +80,7 @@
     "70:guillotine",
     "tm:honeclaws",
     "tm:dragonclaw",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:bulkup",
     "tm:venoshock",
@@ -120,7 +121,9 @@
     "tm:uturn",
     "tm:substitute",
     "tm:focuspunch",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
+    "tm:standoff",
     "tm:cut",
     "tm:strength"  ],
   "labels": [

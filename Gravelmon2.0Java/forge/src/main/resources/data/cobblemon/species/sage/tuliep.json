@@ -4,6 +4,7 @@
   "nationalPokedexNumber": 1144,
   "primaryType": "grass",
   "abilities": [
+    "allure",
     "naturalcure",
     "h:chlorophyll"
   ],
@@ -34,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -62,6 +62,7 @@
     "1:absorb",
     "1:charm",
     "1:sweetscent",
+    "5:leafshield",
     "8:megadrain",
     "12:leechseed",
     "15:magicalleaf",
@@ -101,20 +102,21 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
+    "tm:miraclewill",
     "tm:cut",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:helpinghand",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:knockoff",
     "tutor:magiccoat",
     "tutor:ominouswind",
     "tutor:painsplit",
     "tutor:roleplay",
     "tutor:signalbeam",
-    "tutor:snore",
-    "tutor:swift",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
     "tutor:tailwind",
     "tutor:trick",
     "tutor:uproar",

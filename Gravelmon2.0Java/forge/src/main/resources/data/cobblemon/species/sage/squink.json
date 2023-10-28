@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": true
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 190,
@@ -68,6 +67,7 @@
     "12:clearsmog",
     "15:minimize",
     "18:sludge",
+    "21:acidrain",
     "24:octazooka",
     "27:stockpile",
     "27:spitup",
@@ -106,7 +106,7 @@
     "tm:swagger",
     "tm:substitute",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:waterpulse",
     "tm:cut",
     "tutor:bounce",
@@ -115,8 +115,8 @@
     "tutor:gunkshot",
     "tutor:knockoff",
     "tutor:seedbomb",
-    "tutor:snore",
-    "tutor:swift",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
     "tutor:tailwind",
     "egg:acidarmor",
     "egg:amnesia",

@@ -5,14 +5,30 @@
     {
       "aspects": [],
       "poser": "cobblemon:xenoverse_porygonwes",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/xenoverse/porygonwes.png",
-      "layers": []
+      "model": "cobblemon:xenoverse_porygonwes.geo",
+      "texture": "cobblemon:textures/pokemon/xenoverse/porygonwes/porygonwes.png",
+      "layers": [
+	  {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/xenoverse/porygonwes/porygonwes_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+	  ]
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/xenoverse/porygonwes_shiny.png"
-    }  ]
+      "texture": "cobblemon:textures/pokemon/xenoverse/porygonwes/porygonwes_shiny.png",
+	  "layers": [
+	  {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/generation1/xenoverse/porygonwes/porygonwes.png",
+          "emissive": true,
+          "translucent": true
+        }
+	  ]
+    }  
+	]
 }

@@ -78,7 +78,7 @@
     "tm:flamethrower",
     "tm:rest",
     "tm:attract",
-    "tm:round",
+    "tm:roundsound",
     "tm:chargebeam",
     "tm:gigaimpact",
     "tm:voltswitch",
@@ -91,7 +91,7 @@
     "egg:glare",
     "egg:twister",
     "egg:dragondance",
-    "egg:disarmingvoice",
+    "egg:disarmingvoicesound",
     "egg:charm",
     "tutor:aquatail",
     "tutor:bind",
@@ -103,7 +103,7 @@
     "tutor:secretpower",
     "tutor:shockwave",
     "tutor:signalbeam",
-    "tutor:sleeptalk"  ],
+    "tutor:sleeptalksound"  ],
   "labels": [
     "xenoverse",
     "not_modeled"

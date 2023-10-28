@@ -34,8 +34,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -48,12 +47,13 @@
     "field"
   ],
   "moves": [
+    "1:venomswipe",
     "1:helpinghand",
     "1:tackle",
     "1:tailwhip",
     "1:bite",
     "4:poisonsting",
-    "9:roar",
+    "9:roarsound",
     "15:toxicspikes",
     "19:spikyshield",
     "21:poisontail",
@@ -68,7 +68,7 @@
     "62:electroball",
     "70:nastyplot",
     "tm:honeclaws",
-    "tm:roar",
+    "tm:roarsound",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
@@ -86,8 +86,8 @@
     "tm:rest",
     "tm:attract",
     "tm:lowsweep",
-    "tm:round",
-    "tm:echoedvoice",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
     "tm:falseswipe",
     "tm:chargebeam",
     "tm:shadowclaw",

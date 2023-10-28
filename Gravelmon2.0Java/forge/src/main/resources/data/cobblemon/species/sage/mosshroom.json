@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 65,
@@ -112,14 +111,14 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
     "tutor:doubleedge",
     "tutor:gunkshot",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:recycle",
     "tutor:seedbomb",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:uproar",
     "tutor:zenheadbutt",
     "egg:gastroacid",

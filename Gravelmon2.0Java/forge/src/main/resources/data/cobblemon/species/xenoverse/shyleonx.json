@@ -35,8 +35,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -51,7 +50,7 @@
   "moves": [
     "1:absorb",
     "1:pound",
-    "6:disarmingvoice",
+    "6:disarmingvoicesound",
     "13:camouflage",
     "18:leaftornado",
     "23:magicalleaf",

@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 80,
@@ -127,7 +126,7 @@
     "tutor:ancientpower",
     "tutor:drainpunch",
     "tutor:gigadrain",
-    "tutor:healbell",
+    "tutor:healbellsound",
     "tutor:helpinghand",
     "tutor:irontail",
     "tutor:magnetrise",
@@ -141,7 +140,7 @@
     "egg:flail",
     "egg:ingrain",
     "egg:knockoff",
-    "egg:powergem",
+    "egg:powergemcrystal",
     "egg:powerswap",
     "egg:spikes",
     "egg:takedown"  ],

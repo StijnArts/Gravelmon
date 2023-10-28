@@ -74,7 +74,7 @@ public class RaichuX extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setModeled(true);
         this.setHitbox(0.8,1.5);
-        this.setBaseScale(0.6);
+        this.setBaseScale(0.8);
         this.setCanFly(true);
     }
 }

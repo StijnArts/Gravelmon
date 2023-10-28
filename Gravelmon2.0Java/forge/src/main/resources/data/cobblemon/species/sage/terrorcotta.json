@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -68,6 +67,7 @@
     "8:mudslap",
     "13:growth",
     "17:vinewhip",
+    "20:mudslide",
     "25:ingrain",
     "29:smackdown",
     "32:needlearm",
@@ -115,8 +115,9 @@
     "tm:grassknot",
     "tm:swagger",
     "tm:substitute",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tm:bulletseed",
+    "tm:standoff",
     "tm:cut",
     "tm:strength",
     "tutor:ancientpower",

@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 255,
@@ -88,7 +87,7 @@
     "tm:attract",
     "tm:thief",
     "tm:lowsweep",
-    "tm:round",
+    "tm:roundsound",
     "tm:focusblast",
     "tm:fling",
     "tm:brutalswing",
@@ -117,8 +116,8 @@
     "tutor:knockoff",
     "tutor:lowkick",
     "tutor:secretpower",
-    "tutor:sleeptalk",
-    "tutor:snore",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
     "tutor:stealthrock",
     "tutor:superfang",
     "tutor:superpower",

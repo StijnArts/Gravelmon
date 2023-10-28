@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 65,
@@ -85,6 +84,7 @@
     "47:ragepowder",
     "50:destinybond",
     "54:grudge",
+    "57:terrorize",
     "61:spore",
     "tm:calmmind",
     "tm:toxic",
@@ -116,14 +116,14 @@
     "tm:swagger",
     "tm:substitute",
     "tm:darkpulse",
-    "tm:sleeptalk",
+    "tm:sleeptalksound",
     "tutor:doubleedge",
     "tutor:gunkshot",
-    "tutor:hypervoice",
+    "tutor:hypervoicesound",
     "tutor:magnetrise",
     "tutor:painsplit",
     "tutor:recycle",
-    "tutor:swift",
+    "tutor:swiftcosmic",
     "tutor:uproar",
     "egg:gastroacid",
     "egg:lightscreen",

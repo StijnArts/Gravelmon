@@ -36,8 +36,7 @@
             "swimSpeed": 0.1,
             "canSwimInWater": true,
             "canBreatheUnderwater": false
-        },
-        "wanderChance": 1.0
+        }
     }
   },
   "catchRate": 45,
@@ -61,8 +60,8 @@
     "28:suckerpunch",
     "32:slash",
     "37:freezedry",
-    "40:screech",
-    "44:bugbuzz",
+    "40:screechsound",
+    "44:bugbuzzsound",
     "48:blizzard",
     "tm:toxic",
     "tm:hail",
@@ -79,7 +78,7 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:round",
+    "tm:roundsound",
     "tm:frostbreath",
     "tm:xscissor",
     "tm:infestation",
@@ -90,7 +89,7 @@
     "tutor:icywind",
     "tutor:secretpower",
     "tutor:signalbeam",
-    "tutor:snore",
+    "tutor:snoresound",
     "tutor:strugglebug"  ],
   "labels": [
     "xenoverse",

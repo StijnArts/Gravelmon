@@ -4,16 +4,16 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:generation1_mdeltabulbasaur",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur.png",
+      "poser": "cobblemon:generation1_deltabulbasaur",
+      "model": "cobblemon:deltabulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_female.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_female_shiny.png"
     },
     {
       "aspects": [
@@ -28,8 +28,6 @@
         "female",
         "shiny"
       ],
-      "model": "cobblemon:deltabulbasaur.geo",
-      "poser": "cobblemon:generation1_deltabulbasaur",
       "texture": "cobblemon:textures/pokemon/generation1/deltabulbasaur_female_shiny.png"
     }
   ]

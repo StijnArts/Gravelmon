@@ -5,14 +5,14 @@
     {
       "aspects": [],
       "poser": "cobblemon:generation5_hoennianemolga",
-      "model": "cobblemon:cutout_gravelmon.geo",
-      "texture": "cobblemon:textures/pokemon/generation5/hoennianemolga.png",
+      "model": "cobblemon:generation5_hoennianemolga.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianemolga/hoennianemolga.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/generation5/hoennianemolga_shiny.png"
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianemolga/hoennianemolga_shiny.png"
     }  ]
 }
