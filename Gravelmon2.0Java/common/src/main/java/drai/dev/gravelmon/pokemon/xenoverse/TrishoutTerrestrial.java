@@ -103,6 +103,8 @@ public class TrishoutTerrestrial extends Pokemon {
                 List.of());
         this.setLangFileName("Trishout");
         this.setPortraitXYZ(0.1,2.0,0.0);
-        this.setCanFly(true);
+        this.setModeled(true);
+        this.setHitbox(0.7, 1.1);
+        this.setBaseScale(1);
     }
 }

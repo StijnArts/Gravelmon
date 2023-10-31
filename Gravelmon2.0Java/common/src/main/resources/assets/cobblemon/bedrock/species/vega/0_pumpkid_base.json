@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pumpkid",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vega_pumpkid",
+      "model": "cobblemon:vega_pumpkid.geo",
+      "texture": "cobblemon:textures/pokemon/vega/pumpkid/pumpkid.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vega/pumpkid/pumpkid_shiny.png"
+    }  ]
+}

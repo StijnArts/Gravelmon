@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoennianeelektrik-1",
+      "pokemon": "hoennianeelektrik",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "40-55",
+      "weight": 0.7,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

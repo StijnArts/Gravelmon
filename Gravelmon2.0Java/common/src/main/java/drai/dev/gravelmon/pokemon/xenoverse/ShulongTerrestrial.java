@@ -107,5 +107,8 @@ public class ShulongTerrestrial extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setCanSwim(true);
         this.setCanBreathUnderwater(true);
+        this.setModeled(true);
+        this.setHitbox(0.7, 1.2);
+        this.setBaseScale(1.2);
     }
 }

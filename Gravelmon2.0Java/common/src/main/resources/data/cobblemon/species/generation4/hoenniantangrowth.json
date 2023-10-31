@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "hoenniantangrowth",
+  "nationalPokedexNumber": 465,
+  "primaryType": "fighting",
+  "secondaryType": "dark",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 115,
+    "defence": 105,
+    "special_attack": 85,
+    "special_defence": 50,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 87,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:leer",
+    "10:razorleaf",
+    "13:revenge",
+    "19:knockoff",
+    "22:bulkup",
+    "32:needlearm",
+    "37:cheapshot",
+    "43:poisonjab",
+    "48:fakeout",
+    "54:submission",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:strength",
+    "tm:rocksmash",
+    "egg:uturn",
+    "egg:snatch"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen4",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoenniantangrowth.desc"
+  ],
+  "baseScale": 3.9375,
+  "hitbox": {
+    "width": 5.0,
+    "height": 5.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 210,
+  "weight": 970,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

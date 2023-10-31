@@ -17,8 +17,7 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("block.gravelmon.deepslate_solid_stone_ore","Deepslate Solid Stone Ore");
         LangJSONWriter.writeTranslationKey("block.gravelmon.mystic_stone_ore","Mystic Stone Ore");
         LangJSONWriter.writeTranslationKey("block.gravelmon.deepslate_mystic_stone_ore","Deepslate Mystic Stone Ore");
-        LangJSONWriter.writeTranslationKey("block.gravelmon.xenolith","Xenolith");
-        LangJSONWriter.writeTranslationKey("block.gravelmon.dread_pendant","Dread Pendant");
+
 
         //evolution items
         LangJSONWriter.writeTranslationKey("item.gravelmon.astral_stone","Astral Stone");
@@ -26,6 +25,7 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("item.gravelmon.air_stone","Air Stone");
         LangJSONWriter.writeTranslationKey("item.gravelmon.mystic_stone","Mystic Stone");
         LangJSONWriter.writeTranslationKey("item.gravelmon.solid_stone","Solid Stone");
+        LangJSONWriter.writeTranslationKey("item.gravelmon.xenolith","Xenolith");
         LangJSONWriter.writeTranslationKey("item.gravelmon.ancient_glyph","Ancient Glyph");
         LangJSONWriter.writeTranslationKey("item.gravelmon.quantum_upgrade","Quantum Upgrade");
         LangJSONWriter.writeTranslationKey("item.gravelmon.wes_update","WES Update");

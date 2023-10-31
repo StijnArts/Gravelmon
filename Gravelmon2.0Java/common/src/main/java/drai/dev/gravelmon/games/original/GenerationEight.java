@@ -11,9 +11,8 @@ public class GenerationEight extends Original {
     @Override
     public void registerPokemon() {
           //Pokemon Blazing Emerald
-//        pokemon.add(new HoennianDreepy(885));
-//        pokemon.add(new HoennianDrakloak(886));
-//        pokemon.add(new HoennianDragapult(887));
-
+        pokemon.add(new HoennianDreepy(885));
+        pokemon.add(new HoennianDrakloak(886));
+        pokemon.add(new HoennianDragapult(887));
     }
 }

@@ -1,0 +1,18 @@
+{
+  "portraitScale": 2.5,
+  "portraitTranslation": [0.0, 0, 0.0],
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.42, 0.0],
+  "head": "head",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "allPoseTypes": true,
+      "transformTicks": 10,
+      "animations": [
+	  "look",
+	  "bedrock(shyleon_terrestrial, ground_idle)"
+	  ]
+    }
+  }
+}

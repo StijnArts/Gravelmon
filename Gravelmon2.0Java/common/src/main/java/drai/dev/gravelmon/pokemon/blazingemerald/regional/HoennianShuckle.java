@@ -63,6 +63,7 @@ public class HoennianShuckle extends Pokemon {
         this.setLangFileName("Shuckle");
         this.setPortraitXYZ(0,1.8,0);
         this.setModeled(true);
+        this.setHitbox(1,1);
         this.setBaseScale(0.6);
     }
 }

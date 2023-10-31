@@ -22,14 +22,14 @@ public class GenerationTwo extends Original {
         registerXenoverseForms();
 
         //Pokemon Blazing Emerald
-//        pokemon.add(new HoennianChinchou(170));
-//        pokemon.add(new HoennianLanturn(171));
-//        pokemon.add(new HoennianDunsparce(206));
-//        pokemon.add(new HoennianQwilfish(211));
+        pokemon.add(new HoennianChinchou(170));
+        pokemon.add(new HoennianLanturn(171));
+        pokemon.add(new HoennianDunsparce(206));
+        pokemon.add(new HoennianQwilfish(211));
         pokemon.add(new HoennianShuckle(213));
-//        pokemon.add(new HoennianTeddiursa(216));
-//        pokemon.add(new HoennianUrsaring(217));
-//        pokemon.add(new HoennianSkarmory(227));
+        pokemon.add(new HoennianTeddiursa(216));
+        pokemon.add(new HoennianUrsaring(217));
+        pokemon.add(new HoennianSkarmory(227));
 
     }
 

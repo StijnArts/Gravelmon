@@ -21,8 +21,7 @@ public class GenerationSeven extends Original {
         pokemon.add(new TapuFiniX(788));
 
         //Pokemon Blazing Emerald
-//        pokemon.add(new HoennianMareanie(747));
-//        pokemon.add(new HoennianToxapex(748));
-
+        pokemon.add(new HoennianMareanie(747));
+        pokemon.add(new HoennianToxapex(748));
     }
 }

@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoenniantangela-1",
+      "pokemon": "hoenniantangela",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "19-44",
+      "weight": 1.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_plains" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold",
+"#cobblemon:is_temperate" ]    }
+    }
+  ]
+}

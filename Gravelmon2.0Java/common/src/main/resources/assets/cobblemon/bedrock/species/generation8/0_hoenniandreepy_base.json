@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hoenniandreepy",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation8_hoenniandreepy",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandreepy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandreepy_shiny.png"
+    }  ]
+}

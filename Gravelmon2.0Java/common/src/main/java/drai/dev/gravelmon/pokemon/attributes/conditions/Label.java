@@ -11,7 +11,7 @@ public enum Label {
     GEN7("gen7"),
     GEN8("gen8"),
     GEN9("gen9"),
-    LEGENDARY("legenary"),
+    LEGENDARY("legendary"),
     SAGE("sage"),
     INFINITY("infinity"),
     ALOLA_REGIONAL("alola_regional"),
@@ -20,7 +20,8 @@ public enum Label {
     INSURGENCE("insurgence"),
     XENOVERSE("xenoverse"),
     BLAZING_EMERALD("blazing_emerald"),
-    VEGA("vega");
+    VEGA("vega"),
+    FAKEMON("fakemon");
     private String name;
     Label(String name){
         this.name = name;

@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoennianpinsir-1",
+      "pokemon": "hoennianpinsir",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "25-50",
+      "weight": 10.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold",
+"#cobblemon:is_temperate" ]    }
+    }
+  ]
+}

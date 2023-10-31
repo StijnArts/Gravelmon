@@ -294,8 +294,17 @@ public class Pokemon {
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
                 Pokemon result = pokemonRegistry.getOrDefault(evolutionEntry.getResult(), null);
                 if(result != null){
+                    if(result.preEvolution==null){
+                        break;
+                    }
+                    else if(!result.preEvolution.isEmpty()){
+                        break;
+                    }
                     if(result.getCleanName().equals(pokemon.getCleanName())){
                         pokemonThatEvolveIntoThemselves+=pokemon.getCleanName()+",\n";
+                    }
+                    if(!isBasedOnOriginalPokemon(pokemon)){
+                        result.getLabels().add(Label.FAKEMON);
                     }
                     result.setPreEvolution(pokemon.getCleanName());
                 }
@@ -303,6 +312,20 @@ public class Pokemon {
         }
         System.out.println(pokemonThatEvolveIntoThemselves);
     }
+
+    private static boolean isBasedOnOriginalPokemon(Pokemon pokemon) {
+        boolean isEvoOfAPreviousPokemon = false;
+        for (Label label : pokemon.labels) {
+            String generationLabel = "gen";
+            for (int i = 1; i < 10; i++) {
+                if(label.getName().equalsIgnoreCase(generationLabel+i)){
+                    isEvoOfAPreviousPokemon = true;
+                }
+            }
+        }
+        return isEvoOfAPreviousPokemon;
+    }
+
     public void setShoulderMountable(boolean shoulderMountable) {
         isShoulderMountable = shoulderMountable;
     }
@@ -657,6 +680,7 @@ public class Pokemon {
 
     public void setModeled(boolean modeled) {
         labels.remove(Label.NOT_MODELED);
+        this.forms.forEach(pokemonForm -> pokemonForm.getLabels().remove(Label.NOT_MODELED));
         this.modeled = modeled;
     }
 

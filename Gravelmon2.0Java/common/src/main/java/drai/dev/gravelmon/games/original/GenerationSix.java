@@ -37,7 +37,7 @@ public class GenerationSix extends Original {
         pokemon.add(new SlurpuffX(685));
 
         //Pokemon Blazing Emerald
-//        pokemon.add(new HoennianGoomy(704));
+        pokemon.add(new HoennianGoomy(704));
 
     }
 }

@@ -34,6 +34,7 @@ public class Vega extends Game{
 //        pokemon.add(new PokemonDummy("Frozaiden", Type.ICE , null, List.of(new EvolutionEntry("Aurostice",
 //                EvolutionType.LEVEL_UP, List.of(), List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "30")))),List.of(Label.VEGA)));
 //        pokemon.add(new PokemonDummy("Aurostice", Type.ICE , null, List.of(),List.of(Label.VEGA)));
+        pokemon.add(new Machu());
 //        pokemon.add(new PokemonDummy("Jamberree", Type.GRASS , null, List.of(new EvolutionEntry("Strawna",
 //                EvolutionType.LEVEL_UP, List.of(), List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "25")))),List.of(Label.VEGA)));
 //        pokemon.add(new PokemonDummy("Strawna", Type.GRASS , null, List.of(),List.of(Label.VEGA)));
@@ -74,9 +75,8 @@ public class Vega extends Game{
 //pokemon.add(new PokemonDummy("Guldawn", Type.FIRE , Type.FLYING , List.of(new EvolutionEntry("Solarisen",
 //  EvolutionType.LEVEL_UP, List.of(), List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "45")))),List.of(Label.VEGA)));
 //pokemon.add(new PokemonDummy("Solarisen", Type.FIRE , Type.FLYING , List.of(),List.of(Label.VEGA)));
-//pokemon.add(new PokemonDummy("Mintch", Type.NORMAL , Type.FLYING , List.of(new EvolutionEntry("Blakjak",
-//  EvolutionType.LEVEL_UP, List.of(), List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "18")))),List.of(Label.VEGA)));
-//pokemon.add(new PokemonDummy("Blakjak", Type.PSYCHIC , Type.FLYING , List.of(),List.of(Label.VEGA)));
+pokemon.add(new Mintch());
+pokemon.add(new Blakjak());
 //pokemon.add(new PokemonDummy("Maneko", Type.NORMAL , Type.FIRE , List.of(new EvolutionEntry("Bakeko",
 //  EvolutionType.LEVEL_UP, List.of(), List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "18")))),List.of(Label.VEGA)));
 //pokemon.add(new PokemonDummy("Bakeko", Type.FIRE , Type.DARK , List.of(),List.of(Label.VEGA)));
@@ -129,9 +129,8 @@ pokemon.add(new Skelachone());
 //  EvolutionType.LEVEL_UP, List.of(), List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "23")))),List.of(Label.VEGA)));
 //pokemon.add(new PokemonDummy("Mingola", Type.WATER , Type.FLYING , List.of(),List.of(Label.VEGA)));
 //pokemon.add(new PokemonDummy("Pachirikku", Type.ELECTRIC , null, List.of(),List.of(Label.VEGA)));
-//pokemon.add(new PokemonDummy("Pumpkid", Type.GRASS , Type.GHOST , List.of(new EvolutionEntry("Wikkin",
-//  EvolutionType.LEVEL_UP, List.of(), List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "31")))),List.of(Label.VEGA)));
-//pokemon.add(new PokemonDummy("Wikkin", Type.GRASS , Type.GHOST , List.of(),List.of(Label.VEGA)));
+pokemon.add(new Pumpkid());
+pokemon.add(new Wikkin());
 //pokemon.add(new PokemonDummy("Lunabitt", Type.PSYCHIC , null, List.of(new EvolutionEntry("Lunabain",
 //        EvolutionType.ITEM_INTERACT, false, List.of(),
 //        List.of(),List.of(),"cobblemon:moon_stone")),List.of(Label.VEGA)));

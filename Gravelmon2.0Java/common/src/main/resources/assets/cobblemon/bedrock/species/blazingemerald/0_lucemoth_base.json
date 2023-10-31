@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:lucemoth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:blazingemerald_lucemoth",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/lucemoth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/blazingemerald/lucemoth_shiny.png"
+    }  ]
+}

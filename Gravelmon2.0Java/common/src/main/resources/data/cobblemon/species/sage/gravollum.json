@@ -1,0 +1,176 @@
+{
+  "implemented": true,
+  "name": "gravollum",
+  "nationalPokedexNumber": 1224,
+  "primaryType": "rock",
+  "secondaryType": "psychic",
+  "abilities": [
+    "levitate",
+    "feedback",
+    "h:analytic"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 50,
+    "defence": 135,
+    "special_attack": 90,
+    "special_defence": 115,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 179,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 62,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:sandstone",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
+  "moves": [
+    "1:powertrick",
+    "1:magnetrise",
+    "1:wideguard",
+    "1:confusion",
+    "1:harden",
+    "1:teleport",
+    "5:rocktomb",
+    "8:confuseray",
+    "11:miracleeye",
+    "15:psywave",
+    "18:hypnosis",
+    "21:ancientpower",
+    "25:mirrorcoat",
+    "28:cosmicpower",
+    "31:futuresight",
+    "35:lockon",
+    "39:powergemcrystal",
+    "44:powersplit",
+    "44:guardsplit",
+    "52:recover",
+    "57:psychic",
+    "61:block",
+    "70:storedpower",
+    "tm:psyshock",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:icebeam",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:telekinesis",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:skillswap",
+    "tm:chargebeam",
+    "tm:endure",
+    "tm:willowisp",
+    "tm:explosion",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:flash",
+    "tm:stoneedge",
+    "tm:psychup",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:sleeptalksound",
+    "tm:shieldbash",
+    "tm:miraclewill",
+    "tm:strength",
+    "tutor:secretpower",
+    "tutor:ironhead",
+    "tutor:signalbeam",
+    "tutor:recycle",
+    "tutor:wonderroom",
+    "tutor:stealthrock",
+    "tutor:trick",
+    "tutor:irondefense",
+    "tutor:magiccoat",
+    "tutor:ancientpower",
+    "tutor:earthpower",
+    "tutor:zenheadbutt",
+    "tutor:doubleedge",
+    "tutor:gravitycosmic",
+    "tutor:swiftcosmic",
+    "tutor:ominouswind",
+    "tutor:painsplit"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.gravollum.desc"
+  ],
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 20,
+  "weight": 3053,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

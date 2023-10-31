@@ -112,5 +112,6 @@ public class DeltaChinchou extends Pokemon {
         this.setModeled(true);
         this.setHitbox(0.7, 0.6);
         this.setBaseScale(0.6);
+        this.setCanFly(true);
     }
 }

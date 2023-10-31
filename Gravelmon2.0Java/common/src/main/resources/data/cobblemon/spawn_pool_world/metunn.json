@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "metunn-1",
+      "pokemon": "metunn",
+      "presets": [
+          "ruined_structures"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-100",
+      "weight": 1.0E-4,
+      "condition": {
+        "timeRange": "night"
+      }
+    }
+  ]
+}

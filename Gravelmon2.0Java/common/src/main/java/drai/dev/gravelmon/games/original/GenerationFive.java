@@ -75,15 +75,15 @@ public class GenerationFive extends Original {
         pokemon.add(new BisharpX(625));
 
         //Pokemon Blazing Emerald
-//        pokemon.add(new HoennianMaractus(556));
-//        pokemon.add(new HoennianSolosis(577));
-//        pokemon.add(new HoennianDuosion(578));
-//        pokemon.add(new HoennianReuniclus(579));
+        pokemon.add(new HoennianMaractus(556));
+        pokemon.add(new HoennianSolosis(577));
+        pokemon.add(new HoennianDuosion(578));
+        pokemon.add(new HoennianReuniclus(579));
         pokemon.add(new HoennianEmolga(587));
-//        pokemon.add(new HoennianTynamo(602));
-//        pokemon.add(new HoennianEelektrik(603));
-//        pokemon.add(new HoennianEelektross(604));
-//        pokemon.add(new HoennianPawniard(624));
-//        pokemon.add(new HoennianBisharp(625));
+        pokemon.add(new HoennianTynamo(602));
+        pokemon.add(new HoennianEelektrik(603));
+        pokemon.add(new HoennianEelektross(604));
+        pokemon.add(new HoennianPawniard(624));
+        pokemon.add(new HoennianBisharp(625));
     }
 }

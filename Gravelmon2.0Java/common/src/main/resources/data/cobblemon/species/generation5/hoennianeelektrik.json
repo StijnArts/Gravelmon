@@ -1,0 +1,129 @@
+{
+  "implemented": true,
+  "name": "hoennianeelektrik",
+  "nationalPokedexNumber": 603,
+  "primaryType": "ground",
+  "secondaryType": "electric",
+  "abilities": [
+    "shedskin",
+    "h:sandveil"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 100,
+    "defence": 40,
+    "special_attack": 30,
+    "special_defence": 80,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:tailwhip",
+    "1:acid",
+    "4:bite",
+    "8:spark",
+    "13:wrap",
+    "19:magnitude",
+    "26:dig",
+    "34:crunch",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:irontail",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "egg:earthpower",
+    "egg:dragonrage"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen5",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoennianeelektrik.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "hoennianeelektrik_hoennianeelektross",
+      "variant": "item_interact",
+      "result": "hoennianeelektross",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone"   
+ }
+  ],
+  "baseScale": 5.41875,
+  "hitbox": {
+    "width": 5.0,
+    "height": 5.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 289,
+  "weight": 617,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

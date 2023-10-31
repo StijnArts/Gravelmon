@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wikkin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vega_wikkin",
+      "model": "cobblemon:vega_wikkin.geo",
+      "texture": "cobblemon:textures/pokemon/vega/wikkin/wikkin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vega/wikkin/wikkin_shiny.png"
+    }  ]
+}

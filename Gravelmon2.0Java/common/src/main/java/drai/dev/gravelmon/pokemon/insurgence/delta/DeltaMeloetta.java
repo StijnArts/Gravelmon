@@ -11,7 +11,7 @@ public class DeltaMeloetta extends Pokemon {
         super(dexNo,"DeltaMeloetta",
                 Type.DARK, Type.FAIRY,
                 new Stats(100, 128, 90, 77, 77, 128),
-                List.of(Ability.FLASH_FIRE), Ability.BLAZE_BOOST,
+                List.of(Ability.FILTER), Ability.FILTER,
                 6, 65,
                 new Stats(0,0,0,1,1,1), 90,
                 -1,
@@ -164,5 +164,9 @@ public class DeltaMeloetta extends Pokemon {
                 )));
         this.setLangFileName("Meloetta");
         this.setPortraitXYZ(0,1.8,0);
+        this.setModeled(true);
+        this.setHitbox(0.5,1.3);
+        this.setBaseScale(0.7);
+        this.setCanFly(true);
     }
 }

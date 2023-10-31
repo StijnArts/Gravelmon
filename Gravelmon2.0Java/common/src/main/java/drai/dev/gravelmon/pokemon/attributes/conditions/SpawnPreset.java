@@ -14,6 +14,14 @@ public enum SpawnPreset {
     UNDERLAVA("underlava"),
     UNDERWATER("underwater"),
     URBAN("urban"),
+    HONEY_TREE("honey_tree"),
+    MANSION("mansion"),
+    MINESHAFT("mineshaft"),
+    NEAR_BERRY_BUSH("near_berry_bush"),
+    NEAR_WATER("near_water"),
+    OCEAN_MONUMENT("ocean_monument"),
+    SPIDERWEBS("spiderwebs"),
+    AMETHYST_GEODE("amethyst_geode"),
     WATER_SURFACE("water_surface");
     SpawnPreset(String name){
         this.name = name;

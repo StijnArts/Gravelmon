@@ -85,8 +85,8 @@ public class Nunvil extends Pokemon {
                         new MoveLearnSetEntry(Move.WONDER_ROOM,"tutor")
                         ),
                 List.of(Label.XENOVERSE),
-                0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 1.0, List.of(
+                1, List.of(new ItemDrop("gravelmon:dread_pendant",20, 1,1)),
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

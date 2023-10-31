@@ -27,6 +27,7 @@
     "java": ">=17",
     "fabric-api": "*",
     "cobblemon": ">=1.4",
-    "architectury": ">=9.1"
+    "architectury": ">=9.1",
+    "gravels_extended_battles": ">=1.0"
   }
 }

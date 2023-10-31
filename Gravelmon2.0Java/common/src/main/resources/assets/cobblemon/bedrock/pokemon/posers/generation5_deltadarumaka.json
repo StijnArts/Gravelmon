@@ -1,0 +1,48 @@
+{
+  "portraitScale": 0.001,
+  "portraitTranslation": [0.0, 1.0, 0.0],
+  "profileScale": 0.3,
+  "profileTranslation": [0.0, 1.8, 0.0],
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "allPoseTypes": true,
+      "transformTicks": 10,
+      "animations": ["bedrock(darumaka_delta, ground_idle)"],
+	  "quirks": [
+         {
+           "name": "blink",
+           "loopTimes": 1,
+           "minSecondsBetweenOccurrences": 8,
+           "maxSecondsBetweenOccurrences": 20,
+           "animations": ["bedrock(darumaka_delta, blink)"]
+         },
+         {
+           "name": "spook",
+		   "minSecondsBetweenOccurrences": 30,
+           "animations": ["bedrock(darumaka_delta, cry)"]
+         }
+       ]
+    },
+	"flying": {
+      "poseName": "flying",
+      "poseType": ["FLY", "HOVER"],
+      "transformTicks": 10,
+      "animations": ["bedrock(darumaka_delta, ground_idle)"],
+	  "quirks": [
+         {
+           "name": "blink",
+           "loopTimes": 1,
+           "minSecondsBetweenOccurrences": 8,
+           "maxSecondsBetweenOccurrences": 20,
+           "animations": ["bedrock(darumaka_delta, blink)"]
+         },
+         {
+           "name": "spook",
+		   "minSecondsBetweenOccurrences": 30,
+           "animations": ["bedrock(darumaka_delta, cry)"]
+         }
+       ]
+    }
+  }
+}

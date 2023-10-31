@@ -1,0 +1,116 @@
+{
+  "implemented": true,
+  "name": "hoennianursaring",
+  "nationalPokedexNumber": 217,
+  "primaryType": "normal",
+  "secondaryType": "fire",
+  "abilities": [
+    "toughclaws",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 120,
+    "defence": 90,
+    "special_attack": 55,
+    "special_defence": 85,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "1:ember",
+    "1:lick",
+    "7:furyswipes",
+    "13:meanlook",
+    "19:thrash",
+    "25:quickattack",
+    "30:flamewheel",
+    "37:slash",
+    "43:flareblitz",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:willowisp",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:overheat",
+    "tm:cut",
+    "tm:strength",
+    "tm:rocksmash",
+    "egg:crunch",
+    "egg:takedown",
+    "egg:seismictoss"  ],
+  "labels": [
+    "gen2",
+    "blazing_emerald"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoennianursaring.desc"
+  ],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1.8,
+    "height": 1.8,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 1258,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

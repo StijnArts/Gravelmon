@@ -112,6 +112,7 @@ public class PokemonForm {
         this.spawnAntiConditions = spawnAntiConditions;
         this.baseScale = baseScale;
         this.portraitScale = portraitScale;
+        this.labels.add(Label.NOT_MODELED);
     }
 
     public PokemonForm(String name, Boolean isBattleOnly,
@@ -174,6 +175,7 @@ public class PokemonForm {
         this.spawnAntiConditions = spawnAntiConditions;
         this.baseScale = (double)(height*1.5)/10/8;
         this.portraitScale = 0.3;
+        this.labels.add(Label.NOT_MODELED);
     }
 
     public boolean hasSeparateModel() {

@@ -121,5 +121,6 @@ public class DeltaLanturn extends Pokemon {
         this.setModeled(true);
         this.setHitbox(1, 1.4);
         this.setBaseScale(1);
+        this.setCanFly(true);
     }
 }

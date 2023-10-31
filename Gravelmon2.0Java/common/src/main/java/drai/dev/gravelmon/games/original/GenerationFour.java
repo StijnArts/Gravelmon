@@ -53,8 +53,8 @@ public class GenerationFour extends Original {
         pokemon.add(new SpiritombX(442));
 
         //Pokemon Blazing Emerald
-//        pokemon.add(new HoennianTangrowth(465));
-//        pokemon.add(new HoennianRegigigas(486));
+        pokemon.add(new HoennianTangrowth(465));
+        pokemon.add(new HoennianRegigigas(486));
 
     }
 }

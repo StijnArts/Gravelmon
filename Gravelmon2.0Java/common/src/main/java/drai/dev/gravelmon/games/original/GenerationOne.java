@@ -94,16 +94,15 @@ public class GenerationOne extends Original {
 
 
         //Pokemon Blazing Emerald
-//        pokemon.add(new HoennianButterfree(12));
-//        pokemon.add(new HoennianVenonat(48));
-//        pokemon.add(new HoennianTentacool(72));
-//        pokemon.add(new HoennianTentacruel(73));
+        pokemon.add(new HoennianVenonat(48));
+        pokemon.add(new HoennianTentacool(72));
+        pokemon.add(new HoennianTentacruel(73));
         pokemon.add(new HoennianDodrio(85));
-//        pokemon.add(new HoennianSeel(86));
-//        pokemon.add(new HoennianDewgong(87));
-//        pokemon.add(new HoennianOnix(95));
-//        pokemon.add(new HoennianTangela(114));
-//        pokemon.add(new HoennianPinsir(127));
+        pokemon.add(new HoennianSeel(86));
+        pokemon.add(new HoennianDewgong(87));
+        pokemon.add(new HoennianOnix(95));
+        pokemon.add(new HoennianTangela(114));
+        pokemon.add(new HoennianPinsir(127));
 
     }
 }
