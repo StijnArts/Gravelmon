@@ -80,7 +80,29 @@ public class Chimaooze extends Pokemon {
                 ), List.of(),
                 List.of(SpawnPreset.URBAN),
                 0.3, 0.3,
-                List.of());
+                List.of(new PokemonForm("Monster", true,
+                        Type.POISON, Type.FIGHTING,
+                        new Stats(45, 130, 140, 135, 140, 30),
+                        List.of(Ability.CLOUD_BURST), Ability.CLOUD_BURST,
+                        78, 2748,
+                        new Stats(1,0,0,0,0,0), 60,
+                        0.5,
+                        63, ExperienceGroup.FAST,
+                        70,
+                        32, List.of(EggGroup.AMORPHOUS, EggGroup.WATER_3),
+                        List.of(Aspect.MONSTER),
+                        List.of(),
+                        List.of(),
+                        List.of(
+                        ),
+                        List.of(Label.XENOVERSE, Label.GEN1),
+                        0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 18, 0.000, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP, Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3)));
         this.setPortraitXYZ(0.1,2.0,0.0);
     }
 }

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "seviiannoivern-1",
+      "pokemon": "seviiannoivern",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-34",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:seviiandhelmise",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation7_seviiandhelmise",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation7/seviiandhelmise.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation7/seviiandhelmise_shiny.png"
+    }  ]
+}

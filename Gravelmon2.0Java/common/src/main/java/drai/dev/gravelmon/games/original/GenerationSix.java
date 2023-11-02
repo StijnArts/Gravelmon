@@ -41,10 +41,10 @@ public class GenerationSix extends Original {
         pokemon.add(new HoennianGoomy(704));
 
         //Radical Red
-//        pokemon.add(new SeviianClauncher(692));
-//        pokemon.add(new SeviianClawitzer(693));
-//        pokemon.add(new SeviianNoibat(714));
-//        pokemon.add(new SeviianNoivern(715));
+        pokemon.add(new SeviianClauncher(692));
+        pokemon.add(new SeviianClawitzer(693));
+        pokemon.add(new SeviianNoibat(714));
+        pokemon.add(new SeviianNoivern(715));
 
     }
 }
