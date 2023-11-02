@@ -94,5 +94,6 @@ public class AegislashX extends Pokemon {
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setModeled(true);
         this.setBaseScale(0.9);
+        this.setHitbox(1.4, 1.6);
     }
 }

@@ -19,7 +19,7 @@ public class GastlyX extends Pokemon {
                 70,
                 26, List.of(EggGroup.XENO),
                 List.of("Compressed by an enormous pressure, it body is protected by a shell as hard as steel. Nobody knows how it looks inside this shell."),
-                List.of(new EvolutionEntry("hauntersx", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("haunterx", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGON_RAGE,1),

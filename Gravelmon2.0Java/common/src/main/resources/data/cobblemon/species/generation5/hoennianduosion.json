@@ -1,0 +1,136 @@
+{
+  "implemented": true,
+  "name": "hoennianduosion",
+  "nationalPokedexNumber": 578,
+  "primaryType": "psychic",
+  "secondaryType": "grass",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 30,
+    "defence": 70,
+    "special_attack": 125,
+    "special_defence": 60,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "tm:trickroom",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:energyball",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:flash",
+    "1:sleeppowder",
+    "1:stunspore",
+    "1:poisonpowder",
+    "7:confusion",
+    "13:magicalleaf",
+    "28:synthesis",
+    "32:psybeam",
+    "38:megadrain",
+    "42:recover",
+    "48:magiccoat",
+    "egg:growth",
+    "egg:seedbomb"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen5",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoennianduosion.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "hoennianduosion_hoennianreuniclus",
+      "variant": "level_up",
+      "result": "hoennianreuniclus",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        },
+        {
+          "variant": "time_range",
+          "range": "day"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.9375,
+  "hitbox": {
+    "width": 1.4423076923076923,
+    "height": 1.4423076923076923,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 50,
+  "weight": 94,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

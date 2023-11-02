@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:mintch",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vega_mintch",
+      "model": "cobblemon:vega_mintch.geo",
+      "texture": "cobblemon:textures/pokemon/vega/mintch/mintch.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vega/mintch/mintch_shiny.png"
+    }  ]
+}

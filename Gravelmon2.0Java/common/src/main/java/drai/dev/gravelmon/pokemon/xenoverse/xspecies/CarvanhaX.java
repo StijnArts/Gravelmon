@@ -79,5 +79,6 @@ public class CarvanhaX extends Pokemon {
         this.setAvoidsLand(true);
         this.setModeled(true);
         this.setBaseScale(0.7);
+        this.setHitbox(0.6, 0.8);
     }
 }

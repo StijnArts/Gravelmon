@@ -1,0 +1,44 @@
+{
+  "portraitScale": 1.8,
+  "portraitTranslation": [-1.2, 0.9, 0.0],
+  "profileScale": 0.7,
+  "profileTranslation": [-0.1, 0.6, 0.0],
+  "head": "head",
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+      "allPoseTypes": true,
+        "animations": [
+          "look",
+          "bedrock(fearow_egho, battle_idle)"
+        ],
+       "quirks": [
+         {
+           "name": "blink",
+           "loopTimes": 5,
+           "minSecondsBetweenOccurrences": 8,
+           "maxSecondsBetweenOccurrences": 20,
+           "animations": ["bedrock(fearow_egho, blink)"]
+         }
+       ]
+    },
+	"battle-idle": {
+       "poseName": "battle-idle",
+       "transformTicks": 10,
+       "poseTypes": ["STAND"],
+       "isBattle": true,
+       "isTouchingWater": false,
+       "animations": ["bedrock(fearow_egho, battle_idle)"],
+       "quirks": [
+         {
+           "name": "blink",
+           "loopTimes": 5,
+           "minSecondsBetweenOccurrences": 8,
+           "maxSecondsBetweenOccurrences": 20,
+           "animations": ["bedrock(fearow_egho, blink)"]
+         }
+       ]
+     }
+}
+}

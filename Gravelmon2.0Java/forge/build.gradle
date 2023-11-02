@@ -8,7 +8,15 @@ architectury {
     forge()
 }
 def generatedResources = file("src/generated")
+repositories {
 
+            maven {
+                name = "Modrinth"
+                url = "https://api.modrinth.com/maven"
+            }
+
+
+}
 sourceSets {
     main {
         resources.srcDir generatedResources
@@ -36,7 +44,7 @@ configurations {
 dependencies {
     forge "net.minecraftforge:forge:${rootProject.forge_version}"
     modApi "dev.architectury:architectury-forge:${rootProject.architectury_version}"
-    runtimeOnly( files('libs/gravels_extended_battles-1.0.2.jar'))
+    runtimeOnly "maven.modrinth:gravels-extended-battles:JHlPgr3T"
     runtimeOnly "maven.modrinth:midnightlib:1.1.0-forge"
 
     mappings loom.layered() {

@@ -6,6 +6,7 @@ import drai.dev.gravelmon.registries.*;
 import net.fabricmc.fabric.api.datagen.v1.*;
 import net.fabricmc.fabric.api.datagen.v1.provider.*;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.crafting.*;
 
 import java.util.function.*;
@@ -132,6 +133,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .requires(CobblemonItems.DAWN_STONE)
                 .requires(GravelmonItems.ASTRAL_STONE.get())
                 .unlockedBy("hasEvolutionStone", has(CobblemonItemTags.EVOLUTION_STONES))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, GravelmonItems.XENOVERSAL_RING.get(),1)
+                .pattern("WPW")
+                .pattern("P P")
+                .pattern("WPW")
+                .define('W', Items.TERRACOTTA).define('P', Items.PURPUR_BLOCK)
+                .unlockedBy("hasChorusFruit", has(Items.CHORUS_FRUIT))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, GravelmonItems.TERRESTRIAL_RING.get(),1)
+                .pattern("WPW")
+                .pattern("PDP")
+                .pattern("WPW")
+                .define('W', Items.RED_WOOL).define('D', Items.DEEPSLATE).define('P', Items.COPPER_INGOT)
+                .unlockedBy("hasDeepslate", has(Items.DEEPSLATE))
+                .save(exporter);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, GravelmonItems.INDUCTIVE_RING.get(),1)
+                .pattern("SCS")
+                .pattern("W W")
+                .pattern("WWW")
+                .define('W', Items.IRON_INGOT).define('S', Items.SCULK).define('C', Items.AMETHYST_SHARD)
+                .unlockedBy("hasSculk", has(Items.SCULK))
                 .save(exporter);
     }
 }

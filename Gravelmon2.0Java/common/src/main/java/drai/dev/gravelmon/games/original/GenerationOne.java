@@ -4,6 +4,7 @@ import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.xenoverse.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
@@ -15,28 +16,52 @@ public class GenerationOne extends Original {
     @Override
     public void registerPokemon() {
         //Pokemon Infinity
-        pokemon.add(new EhgoBulbasaur(1));
-        pokemon.add(new EhgoIvysaur(2));
-        pokemon.add(new EhgoVenusaur(3));
-        pokemon.add(new EhgoCharmander(4));
-        pokemon.add(new EhgoCharmeleon(5));
-        pokemon.add(new EhgoCharizard(6));
-        pokemon.add(new EhgoSquirtle(7));
-        pokemon.add(new EhgoWartortle(8));
-        pokemon.add(new EhgoBlastoise(9));
-        pokemon.add(new EhgoSpearow(21));
-        pokemon.add(new EhgoFearow(22));
-        pokemon.add(new EhgoOddish(43));
-        pokemon.add(new EhgoGloom(44));
-        pokemon.add(new EhgoMagnemite(81));
-        pokemon.add(new EhgoMagneton(82));
-        pokemon.add(new EhgoGrimer(88));
-        pokemon.add(new EhgoMuk(89));
-        pokemon.add(new EhgoShellder(90));
-        pokemon.add(new EhgoChansey(113));
-        pokemon.add(new EhgoTangela(114));
+        addEghoPokemon();
 
         //Pokemon Insurgance
+        addDeltaPokemon();
+
+        //Pokemon Xenoverse
+        addXPokemon();
+
+        //Pokemon Radical Red
+//        pokemon.add(new SeviianDoduo(84));
+//        pokemon.add(new SeviianDodrio(85));
+
+
+        //Pokemon Blazing Emerald
+        addHoennianPokemon();
+
+    }
+
+    private void addHoennianPokemon() {
+        pokemon.add(new HoennianVenonat(48));
+        pokemon.add(new HoennianTentacool(72));
+        pokemon.add(new HoennianTentacruel(73));
+        pokemon.add(new HoennianDodrio(85));
+        pokemon.add(new HoennianSeel(86));
+        pokemon.add(new HoennianDewgong(87));
+        pokemon.add(new HoennianOnix(95));
+        pokemon.add(new HoennianTangela(114));
+        pokemon.add(new HoennianPinsir(127));
+    }
+
+    private void addXPokemon() {
+        pokemon.add(new PikachuXFemale(25));
+        pokemon.add(new PikachuXMale(25));
+        pokemon.add(new RaichuX(26));
+        pokemon.add(new EldiwanMeowth(52));
+        pokemon.add(new PonytaX(77));
+        pokemon.add(new RapidashX(78));
+        pokemon.add(new GastlyX(92));
+        pokemon.add(new HaunterX(93));
+        pokemon.add(new GengarX(94));
+        pokemon.add(new ElectabuzzX(125));
+        pokemon.add(new DittoX(132));
+        pokemon.add(new MewtwoX(150));
+    }
+
+    private void addDeltaPokemon() {
         pokemon.add(new DeltaBulbasaur(1));
         pokemon.add(new DeltaIvysaur(2));
         pokemon.add(new DeltaVenusaur(3));
@@ -77,33 +102,28 @@ public class GenerationOne extends Original {
         pokemon.add(new DeltaDratini(147));
         pokemon.add(new DeltaDragonair(148));
         pokemon.add(new DeltaDragonite(149));
+    }
 
-        //Pokemon Xenoverse
-        pokemon.add(new PikachuXFemale(25));
-        pokemon.add(new PikachuXMale(25));
-        pokemon.add(new RaichuX(26));
-        pokemon.add(new EldiwanMeowth(52));
-        pokemon.add(new PonytaX(77));
-        pokemon.add(new RapidashX(78));
-        pokemon.add(new GastlyX(92));
-        pokemon.add(new HaunterX(93));
-        pokemon.add(new GengarX(94));
-        pokemon.add(new ElectabuzzX(125));
-        pokemon.add(new DittoX(132));
-        pokemon.add(new MewtwoX(150));
-
-
-        //Pokemon Blazing Emerald
-//        pokemon.add(new HoennianButterfree(12));
-//        pokemon.add(new HoennianVenonat(48));
-//        pokemon.add(new HoennianTentacool(72));
-//        pokemon.add(new HoennianTentacruel(73));
-        pokemon.add(new HoennianDodrio(85));
-//        pokemon.add(new HoennianSeel(86));
-//        pokemon.add(new HoennianDewgong(87));
-//        pokemon.add(new HoennianOnix(95));
-//        pokemon.add(new HoennianTangela(114));
-//        pokemon.add(new HoennianPinsir(127));
-
+    private void addEghoPokemon() {
+        pokemon.add(new EhgoBulbasaur(1));
+        pokemon.add(new EhgoIvysaur(2));
+        pokemon.add(new EhgoVenusaur(3));
+        pokemon.add(new EhgoCharmander(4));
+        pokemon.add(new EhgoCharmeleon(5));
+        pokemon.add(new EhgoCharizard(6));
+        pokemon.add(new EhgoSquirtle(7));
+        pokemon.add(new EhgoWartortle(8));
+        pokemon.add(new EhgoBlastoise(9));
+        pokemon.add(new EhgoSpearow(21));
+        pokemon.add(new EhgoFearow(22));
+        pokemon.add(new EhgoOddish(43));
+        pokemon.add(new EhgoGloom(44));
+        pokemon.add(new EhgoMagnemite(81));
+        pokemon.add(new EhgoMagneton(82));
+        pokemon.add(new EhgoGrimer(88));
+        pokemon.add(new EhgoMuk(89));
+        pokemon.add(new EhgoShellder(90));
+        pokemon.add(new EhgoChansey(113));
+        pokemon.add(new EhgoTangela(114));
     }
 }

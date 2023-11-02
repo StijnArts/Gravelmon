@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hoenniandrakloak",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation8_hoenniandrakloak",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation8/hoenniandrakloak_shiny.png"
+    }  ]
+}

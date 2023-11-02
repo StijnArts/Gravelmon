@@ -27,7 +27,7 @@ public class ModItemTagGenerator extends FabricTagProvider.ItemTagProvider {
          var generatedFolder = pathProvider.file(new ResourceLocation("cobblemon","blocks"),".json")
                 .getParent().getParent().getParent().getParent().getParent().getParent().toString()+"\\resources";
         LanguageGenerator.generateLangFile();
-        GravelmonJsonGenerator.run(generatedFolder);
+        GravelmonJsonGenerator.run(generatedFolder.replace("fabric", "common"));
         SpeciesAssetsJSONWriter.createPlaceholderForExistingPokemon(generatedFolder);
         getOrCreateTagBuilder(CobblemonItemTags.EVOLUTION_ITEMS)
                 .add(GravelmonItems.CORRUPTED_DISC.get(),

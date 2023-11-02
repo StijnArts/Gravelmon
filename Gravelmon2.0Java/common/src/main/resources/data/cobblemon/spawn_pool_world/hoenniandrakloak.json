@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoenniandrakloak-1",
+      "pokemon": "hoenniandrakloak",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "35-48",
+      "weight": 0.54,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ]
+      }
+    }
+  ]
+}

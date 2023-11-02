@@ -73,8 +73,8 @@ public class Vroombug extends Pokemon {
                         new MoveLearnSetEntry(Move.UPROAR,"tutor")
                         ),
                 List.of(Label.XENOVERSE),
-                0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 20, 2.5, List.of(
+                1, List.of(new ItemDrop("gravelmon:spare_parts",20, 1,1)),
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 20, 2.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_BADLANDS, Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

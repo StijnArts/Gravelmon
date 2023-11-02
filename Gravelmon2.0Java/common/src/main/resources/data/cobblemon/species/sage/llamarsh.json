@@ -1,0 +1,167 @@
+{
+  "implemented": true,
+  "name": "llamarsh",
+  "nationalPokedexNumber": 1118,
+  "primaryType": "normal",
+  "abilities": [
+    "rivalry",
+    "h:defiant"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 60,
+    "special_attack": 45,
+    "special_defence": 60,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 130,
+  "experienceGroup": "fast",
+  "eggCycles": 48,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:berries",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:swagger",
+    "1:tackle",
+    "1:growl",
+    "1:odorsleuth",
+    "7:furyattack",
+    "10:doublekick",
+    "14:stomp",
+    "18:bite",
+    "22:takedown",
+    "27:workup",
+    "31:icefang",
+    "36:jumpkick",
+    "40:stockpile",
+    "40:spitup",
+    "45:zenheadbutt",
+    "49:crunch",
+    "54:doubleedge",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:return",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:echoedvoicesound",
+    "tm:endure",
+    "tm:rocksmash",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:thunderwave",
+    "tm:bulldoze",
+    "tm:workup",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:sleeptalksound",
+    "tm:waterpulse",
+    "tm:standoff",
+    "tm:surf",
+    "tm:strength",
+    "tutor:bounce",
+    "tutor:doubleedge",
+    "tutor:ironhead",
+    "tutor:megakick",
+    "tutor:mudslap",
+    "tutor:snoresound",
+    "tutor:superfang",
+    "tutor:swiftcosmic",
+    "tutor:zenheadbutt",
+    "egg:blazekick",
+    "egg:bodyslam",
+    "egg:confuseray",
+    "egg:headsmash",
+    "egg:naturepower",
+    "egg:takedown"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.llamarsh.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "llamarsh_buckston",
+      "variant": "level_up",
+      "result": "buckston",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 606,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

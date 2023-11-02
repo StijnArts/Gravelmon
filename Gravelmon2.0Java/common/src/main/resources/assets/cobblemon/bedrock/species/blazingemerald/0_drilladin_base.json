@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:drilladin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:blazingemerald_drilladin",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/blazingemerald/drilladin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/blazingemerald/drilladin_shiny.png"
+    }  ]
+}

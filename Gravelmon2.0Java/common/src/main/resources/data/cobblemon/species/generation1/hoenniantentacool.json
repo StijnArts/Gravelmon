@@ -1,0 +1,131 @@
+{
+  "implemented": true,
+  "name": "hoenniantentacool",
+  "nationalPokedexNumber": 72,
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "abilities": [
+    "keeneye",
+    "h:raindish"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 80,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 45,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:aquajet",
+    "6:supersonic",
+    "12:wrap",
+    "15:acid",
+    "20:bubblebeam",
+    "25:spark",
+    "29:thunderwave",
+    "32:liquidation",
+    "41:poisonjab",
+    "tm:scald",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:energyball",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:sludgebomb",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:cut",
+    "tm:surf",
+    "tm:flash",
+    "tm:waterfall",
+    "tm:dive",
+    "egg:smokescreen"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoenniantentacool.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "hoenniantentacool_hoenniantentacruel",
+      "variant": "level_up",
+      "result": "hoenniantentacruel",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
+  "baseScale": 1.33125,
+  "hitbox": {
+    "width": 2.019230769230769,
+    "height": 2.019230769230769,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 71,
+  "weight": 238,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

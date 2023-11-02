@@ -1,0 +1,239 @@
+{
+  "implemented": true,
+  "name": "deltagirafarig",
+  "nationalPokedexNumber": 203,
+  "primaryType": "steel",
+  "secondaryType": "poison",
+  "abilities": [
+    "intimidate",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 65,
+    "special_attack": 90,
+    "special_defence": 65,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Mega",
+      "primaryType": "steel",
+      "secondaryType": "poison",
+      "abilities": [
+    "intimidate",
+    "h:intimidate"
+      ],
+      "baseScale": 0.28125,
+        "hitbox": {
+          "width": 3.0,
+          "height": 3.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 95,
+        "special_attack": 130,
+        "special_defence": 95,
+        "speed": 85
+      },
+      "catchRate": 45,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 199,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 2,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence",
+    "not_modeled"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 1,
+      "weight": 8300,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 159,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:belch",
+    "1:recycle",
+    "1:smog",
+    "1:tackle",
+    "1:leer",
+    "1:clearsmog",
+    "5:poisongas",
+    "10:bite",
+    "14:stomp",
+    "19:mirrorshot",
+    "23:autotomize",
+    "25:crosspoison",
+    "28:bodyslam",
+    "32:ironhead",
+    "37:crunch",
+    "41:toxicspikes",
+    "46:nastyplot",
+    "50:sludgebomb",
+    "tm:bulldoze",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:irontail",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sludgewave",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:recycle",
+    "tm:chargebeam",
+    "tm:dragontail",
+    "tm:willowisp",
+    "tm:embargo",
+    "tm:explosion",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:gyroball",
+    "tm:venoshock",
+    "tm:wildcharge",
+    "tm:shockwave",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:darkpulse",
+    "tm:achillesheel",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:corrode",
+    "tm:confide",
+    "tm:darkmatter",
+    "tm:infestation",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tm:rocksmash",
+    "tm:workup",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:aquatail",
+    "tutor:batonpass",
+    "tutor:bodyslam",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gunkshot",
+    "tutor:headbutt",
+    "tutor:hypervoicesound",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:magnetrise",
+    "tutor:mimic",
+    "tutor:nastyplot",
+    "tutor:outrage",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:suckerpunch",
+    "tutor:uproar",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen1",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltagirafarig.desc"
+  ],
+  "baseScale": 0.28125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 830,
+  "aspects": [],
+"features": [
+"mega"
+  ],  "cannotDynamax": false
+}

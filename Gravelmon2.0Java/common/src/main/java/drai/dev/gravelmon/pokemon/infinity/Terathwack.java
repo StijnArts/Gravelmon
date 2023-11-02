@@ -133,8 +133,8 @@ public class Terathwack extends Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"egg")
                         ),
                 List.of(Label.INFINITY),
-                0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 51, 0.2, List.of(
+                1, List.of(new ItemDrop("gravelmon:long_club",50, 1,1)),
+                SpawnContext.GROUNDED, SpawnPool.RARE, 41, 51, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

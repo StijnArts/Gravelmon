@@ -416,8 +416,9 @@ public class SpeciesDataJSONWriter {
         }
 
         formString += "\n  ],";
-        formString += getMoves(form.getLearnSet(), isSubstitutedMoveImplementation);
-
+        if(!form.getLearnSet().isEmpty()){
+            formString += getMoves(form.getLearnSet(), isSubstitutedMoveImplementation);
+        }
         formString +=        "  \"drops\": {\n" +
                 "    \"amount\": \""+form.getDropAmount()+"\",\n" +
                 "    \"entries\": [\n";

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoennianqwilfish-1",
+      "pokemon": "hoennianqwilfish",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "20-44",
+      "weight": 10.0,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold",
+"#cobblemon:is_reef" ]    }
+    }
+  ]
+}

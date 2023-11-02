@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hoennianursaring",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_hoennianursaring",
+      "model": "cobblemon:generation2_hoennianursaring.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/hoennianursaring/hoennianursaring.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/hoennianursaring/hoennianursaring_shiny.png"
+    }  ]
+}

@@ -3,6 +3,7 @@ package drai.dev.gravelmon.games.original;
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationSix extends Original {
@@ -37,7 +38,13 @@ public class GenerationSix extends Original {
         pokemon.add(new SlurpuffX(685));
 
         //Pokemon Blazing Emerald
-//        pokemon.add(new HoennianGoomy(704));
+        pokemon.add(new HoennianGoomy(704));
+
+        //Radical Red
+//        pokemon.add(new SeviianClauncher(692));
+//        pokemon.add(new SeviianClawitzer(693));
+//        pokemon.add(new SeviianNoibat(714));
+//        pokemon.add(new SeviianNoivern(715));
 
     }
 }

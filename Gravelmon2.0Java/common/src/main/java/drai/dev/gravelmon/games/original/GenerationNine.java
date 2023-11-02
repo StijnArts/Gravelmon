@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.*;
+import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.xenoverse.regional.*;
 
 public class GenerationNine extends Original {
@@ -10,6 +11,10 @@ public class GenerationNine extends Original {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new EldiwanTatsugiri(978));
+        //pokemon.add(new EldiwanTatsugiri(978));
+
+        //Radical Red
+        //pokemon.add(new SeviianNymble(919));
+        //pokemon.add(new SeviianLokix(920));
     }
 }

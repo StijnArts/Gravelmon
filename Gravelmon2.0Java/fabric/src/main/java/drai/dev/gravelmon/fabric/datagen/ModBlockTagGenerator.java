@@ -30,7 +30,7 @@ public class ModBlockTagGenerator extends FabricTagProvider.BlockTagProvider {
                 .add(GravelmonBlocks.DEEPSLATE_ASTRAL_STONE_ORE.get(),
                         GravelmonBlocks.DEEPSLATE_AIR_STONE_ORE.get(),
                         GravelmonBlocks.DEEPSLATE_MYSTIC_STONE_ORE.get(),
-                        GravelmonBlocks.DEEPSLATE_MYSTIC_STONE_ORE.get());
+                        GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE.get());
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
                 .add(GravelmonBlocks.ASTRAL_STONE_ORE.get(),

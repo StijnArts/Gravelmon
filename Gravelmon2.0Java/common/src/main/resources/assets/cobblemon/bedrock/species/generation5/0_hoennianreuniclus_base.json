@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hoennianreuniclus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_hoennianreuniclus",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianreuniclus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/hoennianreuniclus_shiny.png"
+    }  ]
+}

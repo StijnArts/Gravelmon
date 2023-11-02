@@ -102,8 +102,8 @@ public class Vectol2 extends Pokemon {
                         new MoveLearnSetEntry(Move.WONDER_ROOM,"tutor")
                         ),
                 List.of(Label.SAGE),
-                2, List.of(
-                        new ItemDrop("minecraft:spider_eye",90, 1,2)
+                1, List.of(
+                        new ItemDrop("gravelmon:corrupted_disc",40, 1,1)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 2, 17, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

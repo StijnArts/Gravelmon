@@ -1,0 +1,175 @@
+{
+  "implemented": true,
+  "name": "royjibiv",
+  "nationalPokedexNumber": 1285,
+  "primaryType": "normal",
+  "secondaryType": "dragon",
+  "abilities": [
+    "intimidate",
+    "h:prismarmor"
+  ],
+  "baseStats": {
+    "hp": 96,
+    "attack": 55,
+    "defence": 55,
+    "special_attack": 113,
+    "special_defence": 88,
+    "speed": 113
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 182,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 62,
+  "eggGroups": [
+    "dragon"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:kaleidoscope",
+        "quantityRange": "1-1",
+        "percentage": 25
+      }
+    ]
+  },
+  "moves": [
+    "1:psybeam",
+    "1:morningsun",
+    "1:sunnyday",
+    "6:twister",
+    "9:quickattack",
+    "12:glare",
+    "15:aurorabeam",
+    "18:dragonbreath",
+    "21:camouflage",
+    "24:agility",
+    "27:signalbeam",
+    "30:lightscreen",
+    "36:coil",
+    "39:safeguard",
+    "42:extremespeed",
+    "45:simplebeam",
+    "48:dragonpulse",
+    "51:solarbeam",
+    "54:reflecttype",
+    "57:hyperbeam",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:icebeam",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:energyball",
+    "tm:endure",
+    "tm:incinerate",
+    "tm:acrobatics",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:thunderwave",
+    "tm:psychup",
+    "tm:dragontail",
+    "tm:workup",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:sleeptalksound",
+    "tm:waterpulse",
+    "tm:miraclewill",
+    "tm:fly",
+    "tm:surf",
+    "tm:dive",
+    "tm:waterfall",
+    "tutor:aquatail",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:healbellsound",
+    "tutor:heatwave",
+    "tutor:hypervoicesound",
+    "tutor:irontail",
+    "tutor:magiccoat",
+    "tutor:outrage",
+    "tutor:signalbeam",
+    "tutor:silverwind",
+    "tutor:swiftcosmic",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt",
+    "egg:healpulse",
+    "egg:irontail",
+    "egg:mirrorcoat",
+    "egg:naturepower",
+    "egg:powergemcrystal",
+    "egg:recover"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.royjibiv.desc"
+  ],
+  "baseScale": 0.84375,
+  "hitbox": {
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 45,
+  "weight": 306,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

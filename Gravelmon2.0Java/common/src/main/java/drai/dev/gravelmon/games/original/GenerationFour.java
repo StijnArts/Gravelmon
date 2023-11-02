@@ -4,6 +4,7 @@ import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationFour extends Original {
@@ -53,8 +54,12 @@ public class GenerationFour extends Original {
         pokemon.add(new SpiritombX(442));
 
         //Pokemon Blazing Emerald
-//        pokemon.add(new HoennianTangrowth(465));
-//        pokemon.add(new HoennianRegigigas(486));
+        pokemon.add(new HoennianTangrowth(465));
+        pokemon.add(new HoennianRegigigas(486));
+
+        //Radical Red
+//        pokemon.add(new SeviianCarnivine(455));
+//        pokemon.add(new SeviianMantyke(458));
 
     }
 }

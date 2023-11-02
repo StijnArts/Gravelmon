@@ -1,0 +1,21 @@
+{"target": "cobblemon:Unown",
+  "evolutions": [
+    {
+      "id": "unown_metunn",
+      "variant": "item_interact",
+      "result": "metunn",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:ancient_glyph"
+        }
+      ]
+    }
+  ],
+   "moves": [
+    "1:hiddenpower",
+    "tm:hiddenpower",
+    "tutor:hiddenpower"
+  ]}

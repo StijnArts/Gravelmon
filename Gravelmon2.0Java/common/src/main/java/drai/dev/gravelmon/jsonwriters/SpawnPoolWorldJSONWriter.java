@@ -23,7 +23,7 @@ public class SpawnPoolWorldJSONWriter {
     }
 
     private static void writeSpawn(Pokemon pokemon, String dir, Game game) throws IOException {
-        if(pokemon.isNew()){
+        if(pokemon.isNew() && !pokemon.getCleanName().equalsIgnoreCase("machu")){
             String fileContents = "{\n" +
                     "  \"enabled\": true,\n" +
                     "  \"neededInstalledMods\": [],\n" +

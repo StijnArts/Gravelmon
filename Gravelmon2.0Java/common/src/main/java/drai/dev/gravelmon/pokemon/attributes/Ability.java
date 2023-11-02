@@ -389,7 +389,18 @@ public enum Ability {
     PETRIFY("petrify", false),
     SHARP_CORAL("sharpcoral", false),
     SOUND_BOOST("soundboost", false),
-    STORMBRINGER("stormbringer", false);
+    STORMBRINGER("stormbringer", false),
+    ELUSIVE("elusive", false),
+    TACTICIAN("tactician", false),
+    LEVISH_SKIN("levishskin", false),
+    CRYSTAL_CASE("crystalcase", false),
+    BARBED_NEST("barbednest", false),
+    AIR_CONTROL("aircontrol", false),
+    RESOLUTE("resolute", false),
+    FRUITRITION("fruitrition", false),
+    AMALGAM("amalgam", false),
+    EMPATHY("empathy", false),
+    SIEGE_DRIVE("siegedrive", false);
 
     private String name;
     private Boolean implemented;
