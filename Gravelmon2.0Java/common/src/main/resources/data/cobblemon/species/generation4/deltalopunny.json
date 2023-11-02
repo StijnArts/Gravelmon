@@ -50,7 +50,7 @@
     "infiltrator",
     "h:limber"
       ],
-      "baseScale": 0.225,
+      "baseScale": 0.6,
         "hitbox": {
           "width": 1.4,
           "height": 3.0,
@@ -80,10 +80,7 @@
       "eggCycles": 50,
       "eggGroups": [
     "undiscovered"
-  ],
-  "moves": [
-  ],
-  "drops": {
+  ],  "drops": {
     "amount": "0",
     "entries": [
 

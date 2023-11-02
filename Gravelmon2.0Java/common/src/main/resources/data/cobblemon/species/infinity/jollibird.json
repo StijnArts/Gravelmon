@@ -141,7 +141,8 @@
     "egg:splash"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.jollibird.desc"

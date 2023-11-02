@@ -51,7 +51,7 @@
     "keeneye",
     "h:keeneye"
       ],
-      "baseScale": 0.31875,
+      "baseScale": 1.25,
         "hitbox": {
           "width": 0.9,
           "height": 2.0,
@@ -81,10 +81,7 @@
       "eggCycles": 26,
       "eggGroups": [
     "undiscovered"
-  ],
-  "moves": [
-  ],
-  "drops": {
+  ],  "drops": {
     "amount": "0",
     "entries": [
 

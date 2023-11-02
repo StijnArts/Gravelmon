@@ -140,7 +140,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "blue"
@@ -250,7 +251,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "blue"
@@ -360,7 +362,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "green"
@@ -470,7 +473,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "yellow"
@@ -580,7 +584,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "red"

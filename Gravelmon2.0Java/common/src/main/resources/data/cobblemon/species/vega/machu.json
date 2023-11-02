@@ -117,7 +117,8 @@
     "egg:wish",
     "egg:yawn"  ],
   "labels": [
-    "vega"
+    "vega",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.machu.desc"

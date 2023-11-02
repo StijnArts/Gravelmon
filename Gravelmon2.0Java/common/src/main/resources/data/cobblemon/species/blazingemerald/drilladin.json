@@ -79,7 +79,8 @@
     "tm:rocksmash"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.drilladin.desc"

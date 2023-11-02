@@ -49,7 +49,7 @@
     "hubris",
     "h:superluck"
       ],
-      "baseScale": 0.375,
+      "baseScale": 0.85,
         "hitbox": {
           "width": 1.1,
           "height": 2.6,
@@ -79,10 +79,7 @@
       "eggCycles": 50,
       "eggGroups": [
     "undiscovered"
-  ],
-  "moves": [
-  ],
-  "drops": {
+  ],  "drops": {
     "amount": "0",
     "entries": [
 

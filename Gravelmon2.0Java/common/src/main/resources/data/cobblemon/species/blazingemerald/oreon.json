@@ -74,7 +74,9 @@
     "egg:wish"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.oreon.desc"

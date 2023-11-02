@@ -144,7 +144,7 @@ public class DeltaMeloetta extends Pokemon {
                         "Magician", true,
                         Type.DARK, Type.PSYCHIC,
                         new Stats(100, 77, 77, 128, 128, 90),
-                        List.of(Ability.FLASH_FIRE), Ability.BLAZE_BOOST,
+                        List.of(Ability.FILTER), Ability.FILTER,
                         6, 65,
                         new Stats(0,0,0,1,1,1), 90,
                         -1,

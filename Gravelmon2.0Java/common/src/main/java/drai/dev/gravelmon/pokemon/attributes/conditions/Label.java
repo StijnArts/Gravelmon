@@ -21,7 +21,10 @@ public enum Label {
     XENOVERSE("xenoverse"),
     BLAZING_EMERALD("blazing_emerald"),
     VEGA("vega"),
-    FAKEMON("fakemon");
+    FAKEMON("fakemon"),
+    EEVEELUTION("eeveelution"),
+    FAKEMON_EVOLUTION("fakemonevolution"),
+    RADICAL_RED("radicalred");
     private String name;
     Label(String name){
         this.name = name;

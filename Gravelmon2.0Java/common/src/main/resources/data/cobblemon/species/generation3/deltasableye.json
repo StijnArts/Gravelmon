@@ -51,7 +51,7 @@
     "dryskin",
     "h:unburden"
       ],
-      "baseScale": 0.09375,
+      "baseScale": 0.65,
         "hitbox": {
           "width": 0.7,
           "height": 1.2,
@@ -81,10 +81,7 @@
       "eggCycles": 50,
       "eggGroups": [
     "undiscovered"
-  ],
-  "moves": [
-  ],
-  "drops": {
+  ],  "drops": {
     "amount": "0",
     "entries": [
 

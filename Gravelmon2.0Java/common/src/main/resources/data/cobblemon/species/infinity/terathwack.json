@@ -171,7 +171,8 @@
     "egg:skullbash"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.terathwack.desc"

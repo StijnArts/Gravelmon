@@ -3,6 +3,7 @@ package drai.dev.gravelmon.games.original;
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationThree extends Original {
@@ -12,6 +13,19 @@ public class GenerationThree extends Original {
 
     @Override
     public void registerPokemon() {
+        addEghoPokemon();
+
+        addDeltaPokemon();
+
+        addXPokemon();
+
+        //Radical Red
+//        pokemon.add(new SeviianFeebas(349));
+//        pokemon.add(new SeviianMilotic(350));
+
+    }
+
+    private void addEghoPokemon() {
         //Pokemon Infinity
         pokemon.add(new EhgoLotad(270));
         pokemon.add(new EhgoLombre(271));
@@ -19,7 +33,9 @@ public class GenerationThree extends Original {
         pokemon.add(new EhgoAzurill(298));
         pokemon.add(new EhgoSwablu(333));
         pokemon.add(new EhgoAltaria(334));
+    }
 
+    private void addDeltaPokemon() {
         //Pokemon Insurgance
         pokemon.add(new DeltaTreecko(252));
         pokemon.add(new DeltaGrovyle(253));
@@ -66,13 +82,14 @@ public class GenerationThree extends Original {
         pokemon.add(new DeltaRegirock(377));
         pokemon.add(new DeltaRegice(378));
         pokemon.add(new DeltaRegisteel(379));
+    }
 
+    private void addXPokemon() {
         //X-Species (Xenoverse)
         pokemon.add(new RoseliaX(315));
         pokemon.add(new CarvanhaX(318));
         pokemon.add(new SharpedoX(319));
         pokemon.add(new CacneaX(331));
         pokemon.add(new CacturneX(332));
-
     }
 }

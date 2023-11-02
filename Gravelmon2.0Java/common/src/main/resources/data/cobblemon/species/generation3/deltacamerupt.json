@@ -77,17 +77,15 @@
       "eggCycles": 50,
       "eggGroups": [
     "undiscovered"
-  ],
-  "moves": [
-  ],
-  "drops": {
+  ],  "drops": {
     "amount": "0",
     "entries": [
 
     ]
       },
       "labels": [
-    "insurgence"
+    "insurgence",
+    "not_modeled"
       ],
       "aspects": [
         "mega"

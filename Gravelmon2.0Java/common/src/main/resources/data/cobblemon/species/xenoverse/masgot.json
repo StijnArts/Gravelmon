@@ -136,7 +136,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "fire"
@@ -242,7 +243,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "ghost"
@@ -348,7 +350,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "ice"
@@ -454,7 +457,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "dark"
@@ -560,7 +564,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "electric"
@@ -666,7 +671,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "fighting"
@@ -772,7 +778,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "flying"
@@ -878,7 +885,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "grass"
@@ -984,7 +992,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "rock"
@@ -1090,7 +1099,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "poison"
@@ -1196,7 +1206,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "ground"
@@ -1302,7 +1313,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "steel"
@@ -1408,7 +1420,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "water"
@@ -1514,7 +1527,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "sound"
@@ -1620,7 +1634,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "psychic"
@@ -1726,7 +1741,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "dragon"
@@ -1832,7 +1848,8 @@
     ]
       },
       "labels": [
-    "xenoverse"
+    "xenoverse",
+    "not_modeled"
       ],
       "aspects": [
         "fairy"

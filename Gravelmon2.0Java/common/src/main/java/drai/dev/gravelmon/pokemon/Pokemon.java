@@ -684,14 +684,26 @@ public class Pokemon {
         this.modeled = modeled;
     }
 
+    protected void setBaseScaleAndScaleHitbox(double scale) {
+        this.baseScale = scale;
+    }
+
     protected void setBaseScale(double scale) {
         this.baseScale = scale;
         double newHitboxWidth = (double)height/10;
         double newHitboxHeight = (double)height/10;
         setHitbox(newHitboxWidth,newHitboxHeight);
+        this.forms.forEach(forms->{forms.setBaseScale(scale);
+            double newFormHitboxWidth = (double)forms.getHeight()/10;
+            double newFormHitboxHeight = (double)forms.getHeight()/10;
+            setHitbox(newFormHitboxWidth,newFormHitboxHeight);});
     }
 
     protected void setPreEvolution(String cleanName) {
+        if(cleanName.equalsIgnoreCase("eevee")){
+            this.labels.add(Label.EEVEELUTION);
+        }
+        this.labels.add(Label.FAKEMON_EVOLUTION);
         this.preEvolution = cleanName;
     }
 

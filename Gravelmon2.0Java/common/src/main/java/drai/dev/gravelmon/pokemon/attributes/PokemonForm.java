@@ -20,7 +20,7 @@ public class PokemonForm {
     private int eggCycles;
     private List<EggGroup> eggGroups;
     private List<MoveLearnSetEntry> learnSet;
-    private List<Label> labels;
+    private List<Label> labels = new ArrayList<>();
     private List<Aspect> aspects;
     private int height;
     private int weight;
@@ -93,7 +93,6 @@ public class PokemonForm {
         this.eggCycles = eggCycles;
         this.eggGroups = eggGroups;
         this.learnSet = learnSet;
-        this.labels = labels;
         this.aspects = aspects;
         this.height = height;
         this.weight = weight;
@@ -112,6 +111,7 @@ public class PokemonForm {
         this.spawnAntiConditions = spawnAntiConditions;
         this.baseScale = baseScale;
         this.portraitScale = portraitScale;
+        this.labels.addAll(labels);
         this.labels.add(Label.NOT_MODELED);
     }
 
@@ -156,7 +156,6 @@ public class PokemonForm {
         this.eggCycles = eggCycles;
         this.eggGroups = eggGroups;
         this.learnSet = learnSet;
-        this.labels = labels;
         this.aspects = aspects;
         this.height = height;
         this.weight = weight;
@@ -175,6 +174,7 @@ public class PokemonForm {
         this.spawnAntiConditions = spawnAntiConditions;
         this.baseScale = (double)(height*1.5)/10/8;
         this.portraitScale = 0.3;
+        this.labels.addAll(labels);
         this.labels.add(Label.NOT_MODELED);
     }
 
@@ -333,5 +333,9 @@ public class PokemonForm {
 
     public double getPortraitTranslationZ() {
         return portraitTranslationZ;
+    }
+
+    public void setBaseScale(double scale) {
+        this.baseScale = scale;
     }
 }

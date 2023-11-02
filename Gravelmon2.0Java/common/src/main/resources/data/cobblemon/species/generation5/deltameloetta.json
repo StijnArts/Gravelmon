@@ -5,8 +5,8 @@
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
-    "flashfire",
-    "h:keeneye"
+    "filter",
+    "h:filter"
   ],
   "baseStats": {
     "hp": 100,
@@ -46,10 +46,10 @@
       "primaryType": "dark",
       "secondaryType": "psychic",
       "abilities": [
-    "flashfire",
-    "h:keeneye"
+    "filter",
+    "h:filter"
       ],
-      "baseScale": 0.1125,
+      "baseScale": 0.7,
         "hitbox": {
           "width": 0.6,
           "height": 0.6,
@@ -79,10 +79,7 @@
       "eggCycles": 50,
       "eggGroups": [
     "undiscovered"
-  ],
-  "moves": [
-  ],
-  "drops": {
+  ],  "drops": {
     "amount": "0",
     "entries": [
 

@@ -134,7 +134,9 @@
     "egg:wish",
     "egg:yawn"  ],
   "labels": [
-    "infinity"
+    "infinity",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.obsideon.desc"

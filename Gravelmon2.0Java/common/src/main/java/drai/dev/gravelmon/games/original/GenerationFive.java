@@ -4,6 +4,7 @@ import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationFive extends Original {
@@ -85,5 +86,10 @@ public class GenerationFive extends Original {
         pokemon.add(new HoennianEelektross(604));
         pokemon.add(new HoennianPawniard(624));
         pokemon.add(new HoennianBisharp(625));
+
+        //Radical Red
+//        pokemon.add(new SeviianBlitzle(522));
+//        pokemon.add(new SeviianZebstrika(523));
+
     }
 }

@@ -92,5 +92,6 @@ public class SharpedoX extends Pokemon {
         this.setAvoidsLand(true);
         this.setModeled(true);
         this.setBaseScale(1);
+        this.setHitbox(0.9, 1);
     }
 }

@@ -1169,7 +1169,8 @@ public enum Move {
     WEEPY_WAIL("weepywail", false),
     FANG_BARRAGE("fangbarrage", false),
     RUBBLE_RUSH("rubblerush", false),
-    COOKIE_CUT("cookie_cut", false);
+    COOKIE_CUT("cookie_cut", false),
+    DARK_HOLE("dark_hole", false);
 
     private String name;
     private boolean implemented;

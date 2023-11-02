@@ -125,7 +125,8 @@
     "egg:supersonic"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kablowfish.desc"

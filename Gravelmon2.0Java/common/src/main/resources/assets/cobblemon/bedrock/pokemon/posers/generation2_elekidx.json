@@ -7,7 +7,7 @@
       "standing": {
         "poseName": "standing",
         "transformTicks": 10,
-        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "allPoseTypes": true,
         "animations": [
           "bedrock(elekid_x, ground_idle)"
         ],

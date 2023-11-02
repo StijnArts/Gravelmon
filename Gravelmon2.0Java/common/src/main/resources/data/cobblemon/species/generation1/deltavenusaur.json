@@ -49,7 +49,7 @@
     "hubris",
     "h:regenerator"
       ],
-      "baseScale": 0.375,
+      "baseScale": 2.0,
         "hitbox": {
           "width": 1.5,
           "height": 1.4,
@@ -79,10 +79,7 @@
       "eggCycles": 50,
       "eggGroups": [
     "undiscovered"
-  ],
-  "moves": [
-  ],
-  "drops": {
+  ],  "drops": {
     "amount": "0",
     "entries": [
 

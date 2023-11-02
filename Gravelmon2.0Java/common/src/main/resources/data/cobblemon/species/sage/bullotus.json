@@ -177,7 +177,8 @@
     ]
       },
       "labels": [
-    "sage"
+    "sage",
+    "not_modeled"
       ],
       "aspects": [
         "blue"

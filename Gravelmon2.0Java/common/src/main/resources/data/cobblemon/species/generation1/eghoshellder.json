@@ -133,7 +133,8 @@
   "labels": [
     "gen1",
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghoshellder.desc"

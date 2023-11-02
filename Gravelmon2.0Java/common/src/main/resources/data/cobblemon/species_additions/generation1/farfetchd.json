@@ -3,13 +3,13 @@
   {
    "id": "farfetchd_rduckulus",
    "variant": "level_up",
-   "result": "rduckulus",
+   "result": "Mallarki",
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [
     {
      "variant": "level",
-     "minLevel": 35
+     "minLevel": 28
     }
    ]
   }

@@ -50,7 +50,7 @@
     "intimidate",
     "h:marvelscale"
       ],
-      "baseScale": 0.28125,
+      "baseScale": 1.85,
         "hitbox": {
           "width": 0.75,
           "height": 1.5,
@@ -80,10 +80,7 @@
       "eggCycles": 50,
       "eggGroups": [
     "undiscovered"
-  ],
-  "moves": [
-  ],
-  "drops": {
+  ],  "drops": {
     "amount": "0",
     "entries": [
 

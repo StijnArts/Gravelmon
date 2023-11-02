@@ -99,7 +99,8 @@
     "67:ancientpower"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.slingray.desc"

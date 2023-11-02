@@ -135,7 +135,8 @@
     "egg:sweetscent"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sunflorid.desc"

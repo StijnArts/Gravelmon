@@ -142,7 +142,9 @@
     "egg:yawn"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "eeveelution",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.vareon.desc"

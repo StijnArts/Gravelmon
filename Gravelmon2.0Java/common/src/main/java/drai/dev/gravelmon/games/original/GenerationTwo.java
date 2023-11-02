@@ -5,6 +5,7 @@ import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.xenoverse.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
@@ -21,6 +22,16 @@ public class GenerationTwo extends Original {
 
         registerXenoverseForms();
 
+        addHoennianPokemon();
+
+        //Radical Red
+//        pokemon.add(new SeviianTeddiursa(216));
+//        pokemon.add(new SeviianUrsaring(217));
+//        pokemon.add(new SeviianMantine(226));
+
+    }
+
+    private void addHoennianPokemon() {
         //Pokemon Blazing Emerald
         pokemon.add(new HoennianChinchou(170));
         pokemon.add(new HoennianLanturn(171));
@@ -30,7 +41,6 @@ public class GenerationTwo extends Original {
         pokemon.add(new HoennianTeddiursa(216));
         pokemon.add(new HoennianUrsaring(217));
         pokemon.add(new HoennianSkarmory(227));
-
     }
 
     private void registerXenoverseForms() {
