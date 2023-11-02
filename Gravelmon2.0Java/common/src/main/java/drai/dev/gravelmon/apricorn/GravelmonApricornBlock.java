@@ -21,6 +21,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.*;
 import net.minecraft.world.level.block.state.properties.*;
 import net.minecraft.world.level.gameevent.*;
+import net.minecraft.world.level.pathfinder.*;
 import net.minecraft.world.phys.*;
 import net.minecraft.world.phys.shapes.*;
 import org.jetbrains.annotations.*;
@@ -30,6 +31,7 @@ import java.lang.Deprecated;
 import java.util.*;
 
 import static com.google.gson.internal.$Gson$Types.arrayOf;
+import static net.minecraft.world.level.block.LecternBlock.SHAPE_COMMON;
 
 public class GravelmonApricornBlock extends HorizontalDirectionalBlock implements BonemealableBlock, ShearableBlock {
     public static IntegerProperty AGE;
@@ -45,7 +47,6 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
         builder.add(AGE, FACING);
-        super.createBlockStateDefinition(builder);
     }
     @Override
     public boolean isRandomlyTicking(BlockState state) {
@@ -69,29 +70,6 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
         return blockState.is(CobblemonBlockTags.APRICORN_LEAVES);
     }
 
-   /* @Override
-    public VoxelShape getCollisionShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        if (context instanceof EntityCollisionContext){
-            var entity = ((EntityCollisionContext) context).getEntity();
-            if(entity!=null){
-                if(entity instanceof ItemEntity){
-                    var pickResult = ((ItemEntity)entity).getItem();
-                    if (pickResult.is(CobblemonItemTags.APRICORNS)) {
-                        return Shapes.empty();
-                    }
-                }
-            }
-        }
-        return super.getCollisionShape(state, level,pos,context);
-    }*/
-   @Override
-    public VoxelShape getCollisionShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        return getVoxelShape(state);
-    }
-    @Override
-    public VoxelShape getVisualShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
-        return getVoxelShape(state);
-    }
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         var blockState = this.defaultBlockState();
@@ -108,20 +86,42 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
          return null;
     }
     @Override
+    public VoxelShape getOcclusionShape(BlockState state, BlockGetter level, BlockPos pos) {
+        return EAST_AABB[3];
+    }
+    @Override
+    public RenderShape getRenderShape(BlockState state) {
+        return RenderShape.MODEL;
+    }
+
+    @Override
     public VoxelShape getShape(BlockState state, BlockGetter level, BlockPos pos, CollisionContext context) {
         return getVoxelShape(state);
     }
-
+    @Override
+    public boolean isPathfindable(BlockState state, BlockGetter level, BlockPos pos, PathComputationType type) {
+        return false;
+    }
     private VoxelShape getVoxelShape(BlockState state) {
         var age = state.getValue(AGE);
-        return switch(state.getValue(FACING)) {
-            case EAST -> EAST_AABB[age];
-            case SOUTH -> SOUTH_AABB[age];
-            case WEST -> WEST_AABB[age];
-            default -> NORTH_AABB[age];
-        };
+        VoxelShape shape;
+        switch(state.getValue(FACING)) {
+            case EAST ->  shape = EAST_AABB[age];
+            case SOUTH -> shape =  SOUTH_AABB[age];
+            case WEST -> shape =  WEST_AABB[age];
+            default -> shape =  NORTH_AABB[age];
+        }
+        return shape;
+    }
+    @Override
+    public BlockState rotate(BlockState state, Rotation rotation) {
+        return (BlockState)state.setValue(FACING, rotation.rotate(state.getValue(FACING)));
     }
 
+    @Override
+    public BlockState mirror(BlockState state, Mirror mirror) {
+        return state.rotate(mirror.getRotation(state.getValue(FACING)));
+    }
     @Override
     public BlockState updateShape(BlockState state, Direction direction, BlockState neighborState, LevelAccessor level, BlockPos pos, BlockPos neighborPos) {
         return (direction == state.getValue(FACING) && !state.canSurvive(level, pos)) ? Blocks.AIR.defaultBlockState() :
@@ -191,24 +191,24 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
         FACING = BlockStateProperties.HORIZONTAL_FACING;
         // North
         // Stage 1
-         VoxelShape NORTH_TOP_STAGE_1 = Shapes.create(7.0, 11.0, 0.5, 9.0, 11.5, 2.5);
-         VoxelShape NORTH_BODY_STAGE_1 = Shapes.create(6.5, 9.0, 0.0, 9.5, 11.0, 3.0);
-         VoxelShape NORTH_BOTTOM_STAGE_1 = Shapes.create(7.0, 8.5, 0.5, 9.0, 9.0, 2.5);
+         VoxelShape NORTH_TOP_STAGE_1 = Block.box(7.0, 11.0, 0.5, 9.0, 11.5, 2.5);
+         VoxelShape NORTH_BODY_STAGE_1 = Block.box(6.5, 9.0, 0.0, 9.5, 11.0, 3.0);
+         VoxelShape NORTH_BOTTOM_STAGE_1 = Block.box(7.0, 8.5, 0.5, 9.0, 9.0, 2.5);
 
         // Stage 2
-         VoxelShape NORTH_TOP_STAGE_2 = Shapes.create(6.5, 10.5, 0.5, 9.5, 11.0, 3.5);
-         VoxelShape NORTH_BODY_STAGE_2 = Shapes.create(6.0, 7.5, 0.0, 10.0, 10.5, 4.0);
-         VoxelShape NORTH_BOTTOM_STAGE_2 = Shapes.create(6.5, 7.0, 0.5, 9.5, 7.5, 3.5);
+         VoxelShape NORTH_TOP_STAGE_2 = Block.box(6.5, 10.5, 0.5, 9.5, 11.0, 3.5);
+         VoxelShape NORTH_BODY_STAGE_2 = Block.box(6.0, 7.5, 0.0, 10.0, 10.5, 4.0);
+         VoxelShape NORTH_BOTTOM_STAGE_2 = Block.box(6.5, 7.0, 0.5, 9.5, 7.5, 3.5);
 
         // Stage 3
-         VoxelShape NORTH_TOP_STAGE_3 = Shapes.create(6.0, 9.75, 0.5, 10.0, 10.5, 4.5);
-         VoxelShape NORTH_BODY_STAGE_3 = Shapes.create(5.5, 5.75, 0.0, 10.5, 9.75, 5.0);
-         VoxelShape NORTH_BOTTOM_STAGE_3 = Shapes.create(6.0, 5.0, 0.5, 10.0, 5.75, 4.5);
+         VoxelShape NORTH_TOP_STAGE_3 = Block.box(6.0, 9.75, 0.5, 10.0, 10.5, 4.5);
+         VoxelShape NORTH_BODY_STAGE_3 = Block.box(5.5, 5.75, 0.0, 10.5, 9.75, 5.0);
+         VoxelShape NORTH_BOTTOM_STAGE_3 = Block.box(6.0, 5.0, 0.5, 10.0, 5.75, 4.5);
 
         // Full fruit
-         VoxelShape NORTH_TOP_FRUIT = Shapes.create(6.0, 9.0, 1.0, 10.0, 10.0, 5.0);
-         VoxelShape NORTH_BODY_FRUIT = Shapes.create(5.0, 4.0, 0.0, 11.0, 9.0, 6.0);
-         VoxelShape NORTH_BOTTOM_FRUIT = Shapes.create(5.5, 3.0, 0.5, 10.5, 4.0, 5.5);
+         VoxelShape NORTH_TOP_FRUIT = Block.box(6.0, 9.0, 1.0, 10.0, 10.0, 5.0);
+         VoxelShape NORTH_BODY_FRUIT = Block.box(5.0, 4.0, 0.0, 11.0, 9.0, 6.0);
+         VoxelShape NORTH_BOTTOM_FRUIT = Block.box(5.5, 3.0, 0.5, 10.5, 4.0, 5.5);
 
         NORTH_AABB = new VoxelShape[]{
                 Shapes.or(NORTH_BODY_STAGE_1, NORTH_TOP_STAGE_1, NORTH_BOTTOM_STAGE_1),
@@ -219,24 +219,24 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
 
         // South
         // Stage 1
-         VoxelShape SOUTH_TOP_STAGE_1 = Shapes.create(7.0, 11.0, 13.5, 9.0, 11.5, 15.5);
-         VoxelShape SOUTH_BODY_STAGE_1 = Shapes.create(6.5, 9.0, 13.0, 9.5, 11.0, 16.0);
-         VoxelShape SOUTH_BOTTOM_STAGE_1 = Shapes.create(7.0, 8.5, 13.5, 9.0, 9.0, 15.5);
+         VoxelShape SOUTH_TOP_STAGE_1 = Block.box(7.0, 11.0, 13.5, 9.0, 11.5, 15.5);
+         VoxelShape SOUTH_BODY_STAGE_1 = Block.box(6.5, 9.0, 13.0, 9.5, 11.0, 16.0);
+         VoxelShape SOUTH_BOTTOM_STAGE_1 = Block.box(7.0, 8.5, 13.5, 9.0, 9.0, 15.5);
 
         // Stage 2
-         VoxelShape SOUTH_TOP_STAGE_2 = Shapes.create(6.5, 10.5, 12.5, 9.5, 11.0, 15.5);
-         VoxelShape SOUTH_BODY_STAGE_2 = Shapes.create(6.0, 7.5, 12.0, 10.0, 10.5, 16.0);
-         VoxelShape SOUTH_BOTTOM_STAGE_2 = Shapes.create(6.5, 7.0, 12.5, 9.5, 7.5, 15.5);
+         VoxelShape SOUTH_TOP_STAGE_2 = Block.box(6.5, 10.5, 12.5, 9.5, 11.0, 15.5);
+         VoxelShape SOUTH_BODY_STAGE_2 = Block.box(6.0, 7.5, 12.0, 10.0, 10.5, 16.0);
+         VoxelShape SOUTH_BOTTOM_STAGE_2 = Block.box(6.5, 7.0, 12.5, 9.5, 7.5, 15.5);
 
         // Stage 3
-         VoxelShape SOUTH_TOP_STAGE_3 = Shapes.create(6.0, 9.75, 11.5, 10.0, 10.5, 15.5);
-         VoxelShape SOUTH_BODY_STAGE_3 = Shapes.create(5.5, 5.75, 11.0, 10.5, 9.75, 16.0);
-         VoxelShape SOUTH_BOTTOM_STAGE_3 = Shapes.create(6.0, 5.0, 11.5, 10.0, 5.75, 15.5);
+         VoxelShape SOUTH_TOP_STAGE_3 = Block.box(6.0, 9.75, 11.5, 10.0, 10.5, 15.5);
+         VoxelShape SOUTH_BODY_STAGE_3 = Block.box(5.5, 5.75, 11.0, 10.5, 9.75, 16.0);
+         VoxelShape SOUTH_BOTTOM_STAGE_3 = Block.box(6.0, 5.0, 11.5, 10.0, 5.75, 15.5);
 
         // Full fruit
-         VoxelShape SOUTH_TOP_FRUIT = Shapes.create(6.0, 9.0, 11.0, 10.0, 10.0, 15.0);
-         VoxelShape SOUTH_BODY_FRUIT = Shapes.create(5.0, 4.0, 10.0, 11.0, 9.0, 16.0);
-         VoxelShape SOUTH_BOTTOM_FRUIT = Shapes.create(5.5, 3.0, 10.5, 10.5, 4.0, 15.5);
+         VoxelShape SOUTH_TOP_FRUIT = Block.box(6.0, 9.0, 11.0, 10.0, 10.0, 15.0);
+         VoxelShape SOUTH_BODY_FRUIT = Block.box(5.0, 4.0, 10.0, 11.0, 9.0, 16.0);
+         VoxelShape SOUTH_BOTTOM_FRUIT = Block.box(5.5, 3.0, 10.5, 10.5, 4.0, 15.5);
 
         SOUTH_AABB = new VoxelShape[]{
                 Shapes.or(SOUTH_BODY_STAGE_1, SOUTH_TOP_STAGE_1, SOUTH_BOTTOM_STAGE_1),
@@ -247,24 +247,24 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
 
         // East
         // Stage 1
-         VoxelShape EAST_TOP_STAGE_1 = Shapes.create(13.5, 11.0, 7.0, 15.5, 11.5, 9.0);
-         VoxelShape EAST_BODY_STAGE_1 = Shapes.create(13.0, 9.0, 6.5, 16.0, 11.0, 9.5);
-         VoxelShape EAST_BOTTOM_STAGE_1 = Shapes.create(13.5, 8.5, 7.0, 15.5, 9.0, 9.0);
+         VoxelShape EAST_TOP_STAGE_1 = Block.box(13.5, 11.0, 7.0, 15.5, 11.5, 9.0);
+         VoxelShape EAST_BODY_STAGE_1 = Block.box(13.0, 9.0, 6.5, 16.0, 11.0, 9.5);
+         VoxelShape EAST_BOTTOM_STAGE_1 = Block.box(13.5, 8.5, 7.0, 15.5, 9.0, 9.0);
 
         // Stage 2
-         VoxelShape EAST_TOP_STAGE_2 = Shapes.create(12.5, 10.5, 6.5, 15.5, 11.0, 9.5);
-         VoxelShape EAST_BODY_STAGE_2 = Shapes.create(12.0, 7.5, 6.0, 16.0, 10.5, 10.0);
-         VoxelShape EAST_BOTTOM_STAGE_2 = Shapes.create(12.5, 7.0, 6.5, 15.5, 7.5, 9.5);
+         VoxelShape EAST_TOP_STAGE_2 = Block.box(12.5, 10.5, 6.5, 15.5, 11.0, 9.5);
+         VoxelShape EAST_BODY_STAGE_2 = Block.box(12.0, 7.5, 6.0, 16.0, 10.5, 10.0);
+         VoxelShape EAST_BOTTOM_STAGE_2 = Block.box(12.5, 7.0, 6.5, 15.5, 7.5, 9.5);
 
         // Stage 3
-         VoxelShape EAST_TOP_STAGE_3 = Shapes.create(11.5, 9.75, 6.0, 15.5, 10.5, 10.0);
-         VoxelShape EAST_BODY_STAGE_3 = Shapes.create(11.0, 5.75, 5.5, 16.0, 9.75, 10.5);
-         VoxelShape EAST_BOTTOM_STAGE_3 = Shapes.create(11.5, 5.0, 6.0, 15.5, 5.75, 10.0);
+         VoxelShape EAST_TOP_STAGE_3 = Block.box(11.5, 9.75, 6.0, 15.5, 10.5, 10.0);
+         VoxelShape EAST_BODY_STAGE_3 = Block.box(11.0, 5.75, 5.5, 16.0, 9.75, 10.5);
+         VoxelShape EAST_BOTTOM_STAGE_3 = Block.box(11.5, 5.0, 6.0, 15.5, 5.75, 10.0);
 
         // Full fruit
-         VoxelShape EAST_TOP_FRUIT = Shapes.create(11.0, 9.0, 6.0, 15.0, 10.0, 10.0);
-         VoxelShape EAST_BODY_FRUIT = Shapes.create(10.0, 4.0, 5.0, 16.0, 9.0, 11.0);
-         VoxelShape EAST_BOTTOM_FRUIT = Shapes.create(10.5, 3.0, 5.5, 15.5, 4.0, 10.5);
+         VoxelShape EAST_TOP_FRUIT = Block.box(11.0, 9.0, 6.0, 15.0, 10.0, 10.0);
+         VoxelShape EAST_BODY_FRUIT = Block.box(10.0, 4.0, 5.0, 16.0, 9.0, 11.0);
+         VoxelShape EAST_BOTTOM_FRUIT = Block.box(10.5, 3.0, 5.5, 15.5, 4.0, 10.5);
 
         EAST_AABB = new VoxelShape[]{
                 Shapes.or(EAST_BODY_STAGE_1, EAST_TOP_STAGE_1, EAST_BOTTOM_STAGE_1),
@@ -275,24 +275,24 @@ public class GravelmonApricornBlock extends HorizontalDirectionalBlock implement
 
         // West
         // Stage 1
-         VoxelShape WEST_TOP_STAGE_1 = Shapes.create(0.5, 11.0, 7.0, 2.5, 11.5, 9.0);
-         VoxelShape WEST_BODY_STAGE_1 = Shapes.create(0.0, 9.0, 6.5, 3.0, 11.0, 9.5);
-         VoxelShape WEST_BOTTOM_STAGE_1 = Shapes.create(0.5, 8.5, 7.0, 2.5, 9.0, 9.0);
+         VoxelShape WEST_TOP_STAGE_1 = Block.box(0.5, 11.0, 7.0, 2.5, 11.5, 9.0);
+         VoxelShape WEST_BODY_STAGE_1 = Block.box(0.0, 9.0, 6.5, 3.0, 11.0, 9.5);
+         VoxelShape WEST_BOTTOM_STAGE_1 = Block.box(0.5, 8.5, 7.0, 2.5, 9.0, 9.0);
 
         // Stage 2
-         VoxelShape WEST_TOP_STAGE_2 = Shapes.create(0.5, 10.5, 6.5, 3.5, 11.0, 9.5);
-         VoxelShape WEST_BODY_STAGE_2 = Shapes.create(0.0, 7.5, 6.0, 4.0, 10.5, 10.0);
-         VoxelShape WEST_BOTTOM_STAGE_2 = Shapes.create(0.5, 7.0, 6.5, 3.5, 7.5, 9.5);
+         VoxelShape WEST_TOP_STAGE_2 = Block.box(0.5, 10.5, 6.5, 3.5, 11.0, 9.5);
+         VoxelShape WEST_BODY_STAGE_2 = Block.box(0.0, 7.5, 6.0, 4.0, 10.5, 10.0);
+         VoxelShape WEST_BOTTOM_STAGE_2 = Block.box(0.5, 7.0, 6.5, 3.5, 7.5, 9.5);
 
         // Stage 3
-         VoxelShape WEST_TOP_STAGE_3 = Shapes.create(0.5, 9.75, 6.0, 4.5, 10.5, 10.0);
-         VoxelShape WEST_BODY_STAGE_3 = Shapes.create(0.0, 5.75, 5.5, 5.0, 9.75, 10.5);
-         VoxelShape WEST_BOTTOM_STAGE_3 = Shapes.create(0.5, 5.0, 6.0, 4.5, 5.75, 10.0);
+         VoxelShape WEST_TOP_STAGE_3 = Block.box(0.5, 9.75, 6.0, 4.5, 10.5, 10.0);
+         VoxelShape WEST_BODY_STAGE_3 = Block.box(0.0, 5.75, 5.5, 5.0, 9.75, 10.5);
+         VoxelShape WEST_BOTTOM_STAGE_3 = Block.box(0.5, 5.0, 6.0, 4.5, 5.75, 10.0);
 
         // Full fruit
-         VoxelShape WEST_TOP_FRUIT = Shapes.create(1.0, 9.0, 6.0, 5.0, 10.0, 10.0);
-         VoxelShape WEST_BODY_FRUIT = Shapes.create(0.0, 4.0, 5.0, 6.0, 9.0, 11.0);
-         VoxelShape WEST_BOTTOM_FRUIT = Shapes.create(0.5, 3.0, 5.5, 5.5, 4.0, 10.5);
+         VoxelShape WEST_TOP_FRUIT = Block.box(1.0, 9.0, 6.0, 5.0, 10.0, 10.0);
+         VoxelShape WEST_BODY_FRUIT = Block.box(0.0, 4.0, 5.0, 6.0, 9.0, 11.0);
+         VoxelShape WEST_BOTTOM_FRUIT = Block.box(0.5, 3.0, 5.5, 5.5, 4.0, 10.5);
         
         WEST_AABB = new VoxelShape[]{
                 Shapes.or(WEST_BODY_STAGE_1, WEST_TOP_STAGE_1, WEST_BOTTOM_STAGE_1),
