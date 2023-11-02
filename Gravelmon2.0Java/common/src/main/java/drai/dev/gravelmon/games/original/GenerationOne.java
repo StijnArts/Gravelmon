@@ -25,8 +25,8 @@ public class GenerationOne extends Original {
         addXPokemon();
 
         //Pokemon Radical Red
-//        pokemon.add(new SeviianDoduo(84));
-//        pokemon.add(new SeviianDodrio(85));
+        pokemon.add(new SeviianDoduo(84));
+        pokemon.add(new SeviianDodrio(85));
 
 
         //Pokemon Blazing Emerald

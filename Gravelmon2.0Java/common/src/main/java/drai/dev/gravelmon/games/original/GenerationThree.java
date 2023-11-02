@@ -20,8 +20,8 @@ public class GenerationThree extends Original {
         addXPokemon();
 
         //Radical Red
-//        pokemon.add(new SeviianFeebas(349));
-//        pokemon.add(new SeviianMilotic(350));
+        pokemon.add(new SeviianFeebas(349));
+        pokemon.add(new SeviianMilotic(350));
 
     }
 

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "seviianursaring-1",
+      "pokemon": "seviianursaring",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "28-55",
+      "weight": 0.18,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night"
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold" ]    }
+    }
+  ]
+}

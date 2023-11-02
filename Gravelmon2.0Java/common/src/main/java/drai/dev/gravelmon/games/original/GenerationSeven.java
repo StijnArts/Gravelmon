@@ -26,8 +26,8 @@ public class GenerationSeven extends Original {
         pokemon.add(new HoennianToxapex(748));
 
         //Radical Red
-        //pokemon.add(new SeviianWishiwashi(746));
-        //pokemon.add(new SeviianDhelmise(781));
+        pokemon.add(new SeviianWishiwashi(746));
+        pokemon.add(new SeviianDhelmise(781));
 
     }
 }

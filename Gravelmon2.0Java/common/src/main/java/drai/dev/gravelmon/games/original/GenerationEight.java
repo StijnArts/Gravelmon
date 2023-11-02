@@ -17,8 +17,8 @@ public class GenerationEight extends Original {
         pokemon.add(new HoennianDragapult(887));
 
         //Radical Red
-        //pokemon.add(new SeviianSizzlipede(850));
-        //pokemon.add(new SeviianCentiskorch(851));
+        pokemon.add(new SeviianSizzlipede(850));
+        pokemon.add(new SeviianCentiskorch(851));
 
     }
 }

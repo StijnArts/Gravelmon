@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:seviiandodrio",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_seviiandodrio",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/seviiandodrio.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/seviiandodrio_shiny.png"
+    }  ]
+}
