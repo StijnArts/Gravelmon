@@ -15,6 +15,7 @@ public class GravelmonApricornItem extends BlockItem {
     @Override
     protected boolean canPlace(BlockPlaceContext context, BlockState state) {
         Player player = context.getPlayer();
-        return player.isCreative() != false && super.canPlace(context,state);
+        assert player != null;
+        return player.isCreative() && super.canPlace(context,state);
     }
 }

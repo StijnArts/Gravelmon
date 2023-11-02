@@ -31,6 +31,9 @@ loom {
             programArgs "--output", generatedResources.absolutePath
         }
     }
+    forge {
+        mixinConfig "gravelmon.mixins.json"
+    }
 }
 
 configurations {

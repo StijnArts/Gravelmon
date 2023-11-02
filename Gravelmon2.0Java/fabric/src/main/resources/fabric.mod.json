@@ -19,6 +19,9 @@
     ],
     "main": [
       "drai.dev.gravelmon.fabric.GravelmonFabric"
+    ],
+    "client": [
+      "drai.dev.gravelmon.fabric.GravelmonFabricClient"
     ]
   },
   "depends": {
@@ -29,5 +32,8 @@
     "cobblemon": ">=1.4",
     "architectury": ">=9.1",
     "gravels_extended_battles": ">=1.0"
-  }
+  },
+  "mixins": [
+    "gravelmon.mixins.json"
+  ]
 }
