@@ -1,6 +1,10 @@
 package drai.dev.gravelmon.registries;
 
+import com.cobblemon.mod.common.*;
+import com.cobblemon.mod.common.item.*;
 import dev.architectury.registry.registries.*;
+import drai.dev.gravelmon.apricorn.*;
+import kotlin.jvm.*;
 import net.minecraft.core.registries.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;
@@ -57,8 +61,27 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> DEEPSLATE_MYSTIC_STONE_ORE = blockItem("deepslate_mystic_stone_ore",GravelmonBlocks.DEEPSLATE_MYSTIC_STONE_ORE);
     public static RegistrySupplier<Item> SOLID_STONE_ORE = blockItem("solid_stone_ore",GravelmonBlocks.SOLID_STONE_ORE);
     public static RegistrySupplier<Item> DEEPSLATE_SOLID_STONE_ORE = blockItem("deepslate_solid_stone_ore",GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE);
+
+
+
+    public static RegistrySupplier<GravelmonApricornItem> PURPLE_APRICORN = apricronItem("purple_apricorn", GravelmonBlocks.PURPLE_APRICORN);
+
+    public static RegistrySupplier<GravelmonApricornItem> ORANGE_APRICORN = apricronItem("orange_apricorn", GravelmonBlocks.ORANGE_APRICORN);
+
+
+    public static RegistrySupplier<GravelmonApricornSeedItem> PURPLE_APRICORN_SEED = apricronSeedItem("purple_apricorn_seed", GravelmonBlocks.PURPLE_APRICORN_SAPLING);
+
+    public static RegistrySupplier<GravelmonApricornSeedItem> ORANGE_APRICORN_SEED = apricronSeedItem("orange_apricorn_seed", GravelmonBlocks.ORANGE_APRICORN_SAPLING);
+
+    public static RegistrySupplier<GravelmonApricornSeedItem> apricronSeedItem(String name, RegistrySupplier<GravelmonApricornSaplingBlock> block){
+        return ITEMS.register(name,() -> new GravelmonApricornSeedItem(block.get()));
+    }
+
     public static RegistrySupplier<Item> item(String name){
         return ITEMS.register(name,() -> new Item(new Item.Properties()));
+    }
+    public static RegistrySupplier<GravelmonApricornItem> apricronItem(String name, RegistrySupplier<GravelmonApricornBlock> block){
+        return ITEMS.register(name,() -> new GravelmonApricornItem(block.get(),new Item.Properties()));
     }
 
     public static RegistrySupplier<Item> blockItem(String name, RegistrySupplier<Block> block){
