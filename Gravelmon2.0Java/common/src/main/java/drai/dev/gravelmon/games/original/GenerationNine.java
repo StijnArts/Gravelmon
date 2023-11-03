@@ -11,10 +11,8 @@ public class GenerationNine extends Original {
 
     @Override
     public void registerPokemon() {
-        //pokemon.add(new EldiwanTatsugiri(978));
-
         //Radical Red
-        //pokemon.add(new SeviianNymble(919));
-        //pokemon.add(new SeviianLokix(920));
+        pokemon.add(new SeviianNymble(919));
+        pokemon.add(new SeviianLokix(920));
     }
 }

@@ -58,8 +58,8 @@ public class GenerationFour extends Original {
         pokemon.add(new HoennianRegigigas(486));
 
         //Radical Red
-//        pokemon.add(new SeviianCarnivine(455));
-//        pokemon.add(new SeviianMantyke(458));
+        pokemon.add(new SeviianCarnivine(455));
+        pokemon.add(new SeviianMantyke(458));
 
     }
 }

@@ -88,8 +88,8 @@ public class GenerationFive extends Original {
         pokemon.add(new HoennianBisharp(625));
 
         //Radical Red
-//        pokemon.add(new SeviianBlitzle(522));
-//        pokemon.add(new SeviianZebstrika(523));
+        pokemon.add(new SeviianBlitzle(522));
+        pokemon.add(new SeviianZebstrika(523));
 
     }
 }

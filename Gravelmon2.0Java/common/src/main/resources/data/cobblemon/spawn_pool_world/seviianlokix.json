@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "seviianlokix-1",
+      "pokemon": "seviianlokix",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "24-41",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo" ]
+      }
+    }
+  ]
+}

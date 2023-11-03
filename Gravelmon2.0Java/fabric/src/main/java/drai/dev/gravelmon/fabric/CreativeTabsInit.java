@@ -93,5 +93,17 @@ public class CreativeTabsInit {
             entries.accept(GravelmonItems.XENOVERSAL_RING.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.INDUCTIVE_RING.get().asItem().getDefaultInstance());
         });
+
+        ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getAGRICULTURE_KEY()).register(entries -> {
+            entries.addBefore(CobblemonItems.PINK_APRICORN.asItem().getDefaultInstance(),
+                    GravelmonItems.ORANGE_APRICORN.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.PINK_APRICORN.asItem().getDefaultInstance(),
+                    GravelmonItems.PURPLE_APRICORN.get().asItem().getDefaultInstance());
+
+            entries.addBefore(CobblemonItems.PINK_APRICORN_SEED.asItem().getDefaultInstance(),
+                    GravelmonItems.ORANGE_APRICORN_SEED.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.PINK_APRICORN_SEED.asItem().getDefaultInstance(),
+                    GravelmonItems.PURPLE_APRICORN_SEED.get().asItem().getDefaultInstance());
+        });
     }
 }

@@ -105,7 +105,7 @@ public class RapidashX  extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE, Label.GEN1),
                         0, List.of(
-                        ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 56, 0.0001, List.of(
+                        ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 56, 0.0000, List.of(
                                 new BiomeSpawnCondition(List.of(Biome.IS_END))
                         ), List.of(),
                         List.of(SpawnPreset.NATURAL),

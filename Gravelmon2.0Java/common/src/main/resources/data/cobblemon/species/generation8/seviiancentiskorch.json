@@ -1,0 +1,127 @@
+{
+  "implemented": true,
+  "name": "seviiancentiskorch",
+  "nationalPokedexNumber": 851,
+  "primaryType": "ground",
+  "secondaryType": "bug",
+  "abilities": [
+    "shedskin",
+    "whitesmoke",
+    "h:moldbreaker"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 115,
+    "defence": 65,
+    "special_attack": 65,
+    "special_defence": 90,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:xscissor",
+    "1:mudslap",
+    "5:wrap",
+    "10:bite",
+    "15:mudshot",
+    "20:bugbite",
+    "25:coil",
+    "28:slam",
+    "33:bulldoze",
+    "37:crunch",
+    "40:stompingtantrum",
+    "44:lunge",
+    "48:highhorsepower",
+    "52:stoneedge",
+    "56:earthquake",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:dig",
+    "tm:earthquake",
+    "tm:facade",
+    "tm:hiddenpower",
+    "tm:leechseed",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:scorchingsands",
+    "tm:silverwind",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:xscissor",
+    "tutor:bugbite",
+    "tutor:bugbuzzsound",
+    "tutor:drillrun",
+    "tutor:pinmissile",
+    "tutor:rockblast",
+    "tutor:stompingtantrum"  ],
+  "labels": [
+    "radicalred",
+    "gen8",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.seviiancentiskorch.desc"
+  ],
+  "baseScale": 0.5625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 30,
+  "weight": 1200,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

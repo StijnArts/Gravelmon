@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:seviianclawitzer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation6_seviianclawitzer",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation6/seviianclawitzer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation6/seviianclawitzer_shiny.png"
+    }  ]
+}

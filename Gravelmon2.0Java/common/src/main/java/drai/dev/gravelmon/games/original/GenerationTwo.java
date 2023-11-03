@@ -25,9 +25,9 @@ public class GenerationTwo extends Original {
         addHoennianPokemon();
 
         //Radical Red
-//        pokemon.add(new SeviianTeddiursa(216));
-//        pokemon.add(new SeviianUrsaring(217));
-//        pokemon.add(new SeviianMantine(226));
+        pokemon.add(new SeviianTeddiursa(216));
+        pokemon.add(new SeviianUrsaring(217));
+        pokemon.add(new SeviianMantine(226));
 
     }
 

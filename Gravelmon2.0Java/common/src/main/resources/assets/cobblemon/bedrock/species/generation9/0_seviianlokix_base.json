@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:seviianlokix",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation9_seviianlokix",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation9/seviianlokix.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation9/seviianlokix_shiny.png"
+    }  ]
+}

@@ -1170,7 +1170,7 @@ public enum Move {
     FANG_BARRAGE("fangbarrage", false),
     RUBBLE_RUSH("rubblerush", false),
     COOKIE_CUT("cookie_cut", false),
-    DARK_HOLE("dark_hole", false);
+    DARK_HOLE("dark_hole", false), DRACO_BARRAGE("dracobarrage", false);
 
     private String name;
     private boolean implemented;

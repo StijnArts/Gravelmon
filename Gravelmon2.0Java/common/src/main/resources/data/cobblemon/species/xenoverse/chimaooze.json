@@ -41,6 +41,65 @@
   "catchRate": 60,
   "maleRatio": 0.5,
   "shoulderMountable": false,
+"forms": [    {
+      "name": "Monster",
+      "primaryType": "poison",
+      "secondaryType": "fighting",
+      "abilities": [
+    "keeneye",
+    "h:keeneye"
+      ],
+      "baseScale": 1.4625,
+        "hitbox": {
+          "width": 3.0,
+          "height": 3.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 130,
+        "defence": 140,
+        "special_attack": 135,
+        "special_defence": 140,
+        "speed": 30
+      },
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 63,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "fast",
+      "eggCycles": 32,
+      "eggGroups": [
+    "amorphous",
+    "water_3"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "xenoverse",
+    "gen1",
+    "not_modeled"
+      ],
+      "aspects": [
+        "monster"
+      ],
+      "height": 7,
+      "weight": 27480,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
   "baseExperienceYield": 63,
   "experienceGroup": "fast",
   "eggCycles": 32,
@@ -125,6 +184,6 @@
   "weight": 1,
   "aspects": [],
 "features": [
-
+"monster"
   ],  "cannotDynamax": false
 }
