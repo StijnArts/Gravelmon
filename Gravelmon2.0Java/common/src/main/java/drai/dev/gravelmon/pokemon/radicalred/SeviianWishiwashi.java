@@ -65,8 +65,8 @@ public class SeviianWishiwashi extends Pokemon {
                 ),
                 List.of(Label.RADICAL_RED, Label.GEN7),
                 0, List.of(),
-                SpawnContext.SUBMERGED, SpawnPool.COMMON, 12, 34, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                SpawnContext.SUBMERGED, SpawnPool.COMMON, 12, 56, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

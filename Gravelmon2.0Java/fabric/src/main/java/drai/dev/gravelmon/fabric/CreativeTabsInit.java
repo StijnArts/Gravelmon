@@ -105,5 +105,25 @@ public class CreativeTabsInit {
             entries.addAfter(CobblemonItems.PINK_APRICORN_SEED.asItem().getDefaultInstance(),
                     GravelmonItems.PURPLE_APRICORN_SEED.get().asItem().getDefaultInstance());
         });
+
+        ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getPOKEBALLS_KEY()).register(entries -> {
+            entries.addAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.MAUVE_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.CORAL_BALL.get().asItem().getDefaultInstance());
+
+            entries.accept(GravelmonItems.LUSTER_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.DAWN_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.SUN_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.FEATHER_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.GAY_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.LESBIAN_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.BI_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.PAN_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.TRANS_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.NON_BINARY_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.ACE_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.ARO_BALL.get().asItem().getDefaultInstance());
+        });
     }
 }

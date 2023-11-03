@@ -8,7 +8,9 @@ dependencies {
     modImplementation "com.cobblemon:mod:${cobblemon_file}"
     modImplementation "curse.maven:kotlin-common-351264:${kotlin_forge_file}"
 }
-
+loom {
+    accessWidenerPath = file "src/main/resources/gravelmon.accesswidener"
+}
 architectury {
     common()
 }
