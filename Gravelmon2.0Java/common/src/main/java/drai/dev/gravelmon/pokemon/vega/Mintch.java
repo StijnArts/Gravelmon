@@ -19,7 +19,8 @@ public class Mintch extends Pokemon {
                 70,
                 39, List.of(EggGroup.FLYING),
                 List.of("It builds its nest out of hardened mud. Sometimes, a Taillow will take over the nest for itself."),
-                List.of(),
+                List.of(new EvolutionEntry("blakjak", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORESIGHT,1),
                         new MoveLearnSetEntry(Move.PECK,1),
