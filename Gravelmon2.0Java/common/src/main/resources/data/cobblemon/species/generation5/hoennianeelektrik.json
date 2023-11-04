@@ -105,10 +105,10 @@
       "requiredContext": "cobblemon:thunder_stone"   
  }
   ],
-  "baseScale": 5.41875,
+  "baseScale": 0.525,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -120,8 +120,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 289,
-  "weight": 617,
+  "height": 28,
+  "weight": 699,
   "aspects": [],
 "features": [
 

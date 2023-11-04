@@ -98,7 +98,7 @@
   "pokedex": [
     "cobblemon.species.hoennianeelektross.desc"
   ],
-  "baseScale": 35.60625,
+  "baseScale": 3.54375,
   "hitbox": {
     "width": 5.0,
     "height": 5.0,
@@ -113,8 +113,8 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 1899,
-  "weight": 6155,
+  "height": 189,
+  "weight": 6979,
   "aspects": [],
 "features": [
 
