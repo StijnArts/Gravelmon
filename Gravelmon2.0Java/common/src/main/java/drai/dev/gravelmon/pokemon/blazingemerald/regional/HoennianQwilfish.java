@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianQwilfish extends Pokemon {
                 Type.POISON, Type.STEEL,
                 new Stats(55, 52, 160, 93, 110, 5),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                (int) (((2) * 12 + (7))*2.54), (int) (950*0.4),
+                UnitConverter.feetToMeters(2, 7), UnitConverter.lbsToKg(950),
                 new Stats(0,0,1,0,1,0), 45,
                 0.5,
                 88, ExperienceGroup.MEDIUM_FAST,

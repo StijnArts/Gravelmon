@@ -6,18 +6,18 @@ import net.minecraft.world.item.*;
 
 public class GravelmonPokeballs {
 
-    public static PokeBall CORAL_BALL;
-    public static PokeBall MAUVE_BALL;
-    public static PokeBall LUSTER_BALL;
-    public static PokeBall SUN_BALL;
-    public static PokeBall DAWN_BALL;
-    public static PokeBall FEATHER_BALL;
-    public static PokeBall GAY_BALL;
-    public static PokeBall LESBIAN_BALL;
-    public static PokeBall BI_BALL;
-    public static PokeBall PAN_BALL;
-    public static PokeBall TRANS_BALL;
-    public static PokeBall NON_BINARY_BALL;
-    public static PokeBall ACE_BALL;
-    public static PokeBall ARO_BALL;
+    public static GravelmonPokeBall CORAL_BALL;
+    public static GravelmonPokeBall MAUVE_BALL;
+    public static GravelmonPokeBall LUSTER_BALL;
+    public static GravelmonPokeBall SUN_BALL;
+    public static GravelmonPokeBall DAWN_BALL;
+    public static GravelmonPokeBall FEATHER_BALL;
+    public static GravelmonPokeBall GAY_BALL;
+    public static GravelmonPokeBall LESBIAN_BALL;
+    public static GravelmonPokeBall BI_BALL;
+    public static GravelmonPokeBall PAN_BALL;
+    public static GravelmonPokeBall TRANS_BALL;
+    public static GravelmonPokeBall NON_BINARY_BALL;
+    public static GravelmonPokeBall ACE_BALL;
+    public static GravelmonPokeBall ARO_BALL;
 }

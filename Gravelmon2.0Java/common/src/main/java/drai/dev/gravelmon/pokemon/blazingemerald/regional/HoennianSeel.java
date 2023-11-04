@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianSeel extends Pokemon {
                 Type.WATER, Type.DARK,
                 new Stats(90, 65, 80, 35, 80, 45),
                 List.of(Ability.THICK_FAT), Ability.SWIFT_SWIM,
-                (int) (((3)*12+(3))*2.54), (int) (185*0.4),
+                UnitConverter.feetToMeters(3, 3), UnitConverter.lbsToKg(185),
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,

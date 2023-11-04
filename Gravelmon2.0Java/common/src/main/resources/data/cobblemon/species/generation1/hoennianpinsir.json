@@ -92,10 +92,10 @@
   "pokedex": [
     "cobblemon.species.hoennianpinsir.desc"
   ],
-  "baseScale": 3.0,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -107,8 +107,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 160,
-  "weight": 784,
+  "height": 16,
+  "weight": 889,
   "aspects": [],
 "features": [
 

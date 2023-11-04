@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Silviper extends Pokemon {
                 Type.POISON, Type.STEEL,
                 new Stats(100, 130, 150, 35, 80, 55),
                 List.of(Ability.STRONG_JAW), Ability.MULTISCALE,
-                (int) (((12)*12+(6))*2.54), (int) (4387*0.4),
+                UnitConverter.feetToMeters(12, 6), UnitConverter.lbsToKg(4387),
                 new Stats(0,3,0,0,0,0), 60,
                 0.5,
                 200, ExperienceGroup.MEDIUM_FAST,

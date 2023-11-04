@@ -111,10 +111,10 @@
     "cobblemon.species.zangoro.desc"
   ],
   "preEvolution": "zangoose",
-  "baseScale": 3.75,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -126,8 +126,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 200,
-  "weight": 725,
+  "height": 20,
+  "weight": 822,
   "aspects": [],
 "features": [
 

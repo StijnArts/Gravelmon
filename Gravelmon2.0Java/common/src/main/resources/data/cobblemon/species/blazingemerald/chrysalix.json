@@ -92,10 +92,10 @@
   "pokedex": [
     "cobblemon.species.chrysalix.desc"
   ],
-  "baseScale": 16.14375,
+  "baseScale": 1.6125,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 2.3076923076923075,
+    "height": 2.3076923076923075,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -107,8 +107,8 @@
     "special_defence": 3,
     "speed": 0
   },
-  "height": 861,
-  "weight": 2645,
+  "height": 86,
+  "weight": 3000,
   "aspects": [],
 "features": [
 

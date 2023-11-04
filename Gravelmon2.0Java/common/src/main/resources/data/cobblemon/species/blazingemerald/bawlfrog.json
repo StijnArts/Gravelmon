@@ -91,10 +91,10 @@
   "pokedex": [
     "cobblemon.species.bawlfrog.desc"
   ],
-  "baseScale": 1.9875,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 2.8846153846153846,
-    "height": 2.8846153846153846,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -106,8 +106,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 106,
-  "weight": 200,
+  "height": 10,
+  "weight": 226,
   "aspects": [],
 "features": [
 

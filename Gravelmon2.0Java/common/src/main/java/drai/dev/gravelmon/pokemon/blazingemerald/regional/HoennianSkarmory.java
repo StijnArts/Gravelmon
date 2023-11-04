@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianSkarmory extends Pokemon {
                 Type.STEEL, Type.FIRE,
                 new Stats(85, 100,110,35,80,90),
                 List.of(Ability.RESOLUTE), Ability.FLASH_FIRE,
-                (int) (((5) * 12 + (11))*2.54), (int) (1146*0.4),
+                UnitConverter.feetToMeters(5, 11), UnitConverter.lbsToKg(1146),
                 new Stats(0,1,1,0,0,1), 25,
                 0.5,
                 163, ExperienceGroup.SLOW,

@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianPawniard extends Pokemon {
                 Type.FAIRY, Type.STEEL,
                 new Stats(55, 65, 75, 30, 65, 50),
                 List.of(Ability.PICKUP), Ability.OBLIVIOUS,
-                (int) (((2)*12+(4))*2.54), (int) (295*0.4),
+                UnitConverter.feetToMeters(2, 4), UnitConverter.lbsToKg(295),
                 new Stats(0,0,1,0,0,0), 120,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,

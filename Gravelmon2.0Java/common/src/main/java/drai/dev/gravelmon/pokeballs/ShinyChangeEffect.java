@@ -8,8 +8,5 @@ import org.jetbrains.annotations.*;
 public class ShinyChangeEffect implements CaptureEffect {
     @Override
     public void apply(@NotNull LivingEntity livingEntity, @NotNull Pokemon pokemon) {
-        var aspects = pokemon.getAspects();
-        aspects.add("shiny");
-        pokemon.setAspects(aspects);
     }
 }

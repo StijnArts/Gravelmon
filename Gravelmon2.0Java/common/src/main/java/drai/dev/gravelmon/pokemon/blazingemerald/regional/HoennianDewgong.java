@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianDewgong extends Pokemon {
                 Type.WATER, Type.DARK,
                 new Stats(135, 115, 85, 45, 70, 65),
                 List.of(Ability.THICK_FAT), Ability.SWIFT_SWIM,
-                (int) (((5)*12+(3))*2.54), (int) (2471*0.4),
+                UnitConverter.feetToMeters(5, 3), UnitConverter.lbsToKg(2471),
                 new Stats(1,1,0,0,0,0), 90,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,

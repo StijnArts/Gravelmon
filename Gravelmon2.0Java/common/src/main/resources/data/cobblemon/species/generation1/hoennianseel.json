@@ -104,10 +104,10 @@
       ]   
  }
   ],
-  "baseScale": 1.85625,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 2.5961538461538463,
-    "height": 2.5961538461538463,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -119,8 +119,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 99,
-  "weight": 74,
+  "height": 9,
+  "weight": 83,
   "aspects": [],
 "features": [
 

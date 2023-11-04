@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Vitellion extends Pokemon {
                 Type.QUESTION_MARK,
                 new Stats(250, 10, 130, 10, 130, 10),
                 List.of(Ability.AMALGAM), Ability.AMALGAM,
-                (int) (((2)*12+(6))*2.54), (int) (100*0.4),
+                UnitConverter.feetToMeters(2, 6), UnitConverter.lbsToKg(100),
                 new Stats(2,0,0,0,0,0), 15,
                 0.5,
                 600, ExperienceGroup.SLOW,

@@ -89,10 +89,10 @@
   "pokedex": [
     "cobblemon.species.lucemoth.desc"
   ],
-  "baseScale": 3.375,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -104,8 +104,8 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 180,
-  "weight": 555,
+  "height": 18,
+  "weight": 630,
   "aspects": [],
 "features": [
 

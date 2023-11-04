@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianMareanie extends Pokemon {
                 Type.ROCK, Type.POISON,
                 new Stats(50, 53, 92, 33, 52, 35),
                 List.of(Ability.POISON_POINT), Ability.SOLID_ROCK,
-                (int) (((1)*12+(8))*2.54), (int) (470*0.4),
+                UnitConverter.feetToMeters(1, 8), UnitConverter.lbsToKg(470),
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,

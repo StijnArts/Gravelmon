@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Drasparath extends Pokemon {
                 Type.DRAGON, Type.ELECTRIC,
                 new Stats(80, 90, 65, 100, 65, 142),
                 List.of(Ability.AIR_CONTROL), Ability.AIR_CONTROL,
-                (int) (((16)*12+(1))*2.54), (int) (1720*0.4),
+                UnitConverter.feetToMeters(16, 1), UnitConverter.lbsToKg(1720),
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 245, ExperienceGroup.MEDIUM_FAST,

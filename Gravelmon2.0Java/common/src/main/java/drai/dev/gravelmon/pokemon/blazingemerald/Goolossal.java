@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Goolossal extends Pokemon {
                 Type.FAIRY,
                 new Stats(200, 65, 70, 120, 110, 35),
                 List.of(Ability.LIQUID_OOZE), Ability.LIQUID_OOZE,
-                (int) (((22)*12+(4))*2.54), (int) (4625*0.4),
+                UnitConverter.feetToMeters(22, 4), UnitConverter.lbsToKg(4625),
                 new Stats(3,0,0,0,0,0), 15,
                 0.5,
                 360, ExperienceGroup.SLOW,

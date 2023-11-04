@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianToxapex extends Pokemon {
                 Type.ROCK, Type.POISON,
                 new Stats(60, 63, 182, 43, 122, 25),
                 List.of(Ability.POISON_POINT), Ability.SOLID_ROCK,
-                (int) (((4)*12+(3))*2.54), (int) (1080*0.4),
+                UnitConverter.feetToMeters(4, 3), UnitConverter.lbsToKg(1080),
                 new Stats(0,0,3,0,0,0), 75,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,

@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianDragapult extends Pokemon {
                 Type.FIRE, Type.DRAGON,
                 new Stats(118, 100, 75, 120, 75, 112),
                 List.of(Ability.LEVITATE), Ability.TECHNICIAN,
-                (int) (((10)*12+(6))*2.54), (int) (1962*0.4),
+                UnitConverter.feetToMeters(10, 6), UnitConverter.lbsToKg(1962),
                 new Stats(1,0,0,1,0,1), 45,
                 0.5,
                 300, ExperienceGroup.SLOW,

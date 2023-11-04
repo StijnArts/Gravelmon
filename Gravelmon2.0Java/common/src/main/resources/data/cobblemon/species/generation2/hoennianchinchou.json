@@ -102,10 +102,10 @@
       "requiredContext": "cobblemon:dusk_stone"   
  }
   ],
-  "baseScale": 1.125,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 1.7307692307692306,
-    "height": 1.7307692307692306,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -117,8 +117,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 60,
-  "weight": 26,
+  "height": 6,
+  "weight": 29,
   "aspects": [],
 "features": [
 

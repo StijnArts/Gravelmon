@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianTangela extends Pokemon {
                 Type.FIGHTING,
                 new Stats(65, 115, 85, 50, 45, 45),
                 List.of(Ability.BARBED_NEST), Ability.BARBED_NEST,
-                (int) (((3)*12+(7))*2.54), (int) (681*0.4),
+                UnitConverter.feetToMeters(3, 7), UnitConverter.lbsToKg(681),
                 new Stats(0,1,0,0,0,0), 45,
                 0.5,
                 87, ExperienceGroup.MEDIUM_FAST,

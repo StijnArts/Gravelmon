@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianDrakloak extends Pokemon {
                 Type.FIRE, Type.DRAGON,
                 new Stats(83, 60, 50, 85, 50, 82),
                 List.of(Ability.LEVITATE), Ability.TECHNICIAN,
-                (int) (((4)*12+(11))*2.54), (int) (860*0.4),
+                UnitConverter.feetToMeters(4, 11), UnitConverter.lbsToKg(860),
                 new Stats(1,0,0,1,0,0), 45,
                 0.5,
                 144, ExperienceGroup.SLOW,

@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Zangoro extends Pokemon {
                 Type.NORMAL, Type.DARK,
                 new Stats(75, 150, 65, 95, 65, 100),
                 List.of(Ability.NO_GUARD), Ability.ARENA_TRAP,
-                (int) (((6)*12+(7))*2.54), (int) (1814*0.4),
+                UnitConverter.feetToMeters(6, 7), UnitConverter.lbsToKg(1814),
                 new Stats(0,3,0,0,0,0), 60,
                 0.5,
                 200, ExperienceGroup.MEDIUM_FAST,
