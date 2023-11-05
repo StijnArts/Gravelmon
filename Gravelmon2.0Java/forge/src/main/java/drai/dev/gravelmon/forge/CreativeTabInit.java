@@ -196,6 +196,76 @@ public class CreativeTabInit {
                     GravelmonItems.PURPLE_APRICORN_SEED.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
+
+        if(event.getTab() == CobblemonItemGroups.getPOKEBALLS()) {
+            event.getEntries().putAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.MAUVE_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.CORAL_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.DUSK_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.DAWN_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putBefore(CobblemonItems.MOON_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.SUN_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.HEAVY_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.FEATHER_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.QUICK_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.TYPING_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.ULTRA_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ULTRA_ROCKET_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.ULTRA_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.GREAT_ROCKET_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.ULTRA_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ROCKET_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.NET_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.NUCLEAR_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.BEAST_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ATOM_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.NET_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.DELTA_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putBefore(CobblemonItems.BEAST_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ANCIENT_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.QUICK_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.SNORE_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putBefore(CobblemonItems.MASTER_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.SHINY_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.CHERISH_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.NUZLOCKE_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.CHERISH_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.LUSTER_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.GAY_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.LESBIAN_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.BI_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.PAN_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.TRANS_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.NON_BINARY_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.ACE_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().put(GravelmonItems.ARO_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        });
     }
 
     private static String baseLangKeyForItem(ItemStack stack) {
