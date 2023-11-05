@@ -1,20 +1,64 @@
 package drai.dev.gravelmon.forge;
 
 import com.cobblemon.mod.common.*;
+import com.cobblemon.mod.common.api.*;
+import com.cobblemon.mod.common.item.*;
 import com.cobblemon.mod.common.item.group.*;
+import com.cobblemon.mod.common.platform.events.*;
+import com.cobblemon.mod.common.util.*;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.registries.*;
+import kotlin.*;
+import net.minecraft.*;
+import net.minecraft.locale.*;
+import net.minecraft.network.chat.*;
 import net.minecraft.world.item.*;
 import net.minecraftforge.api.distmarker.*;
 import net.minecraftforge.event.*;
 import net.minecraftforge.eventbus.api.*;
 import net.minecraftforge.fml.common.*;
 
+import java.util.stream.*;
+
 @Mod.EventBusSubscriber(modid = Gravelmon.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class CreativeTabInit {
 
     @SubscribeEvent
     public static void buildContents(BuildCreativeModeTabContentsEvent event) {
+        PlatformEvents.CLIENT_ITEM_TOOLTIP.subscribe(Priority.LOWEST, itemTooltipEvent -> {
+            var stack = itemTooltipEvent.getStack();
+            var lines = itemTooltipEvent.getLines();
+            var stackDescription = stack.getItem().getDescriptionId();
+            var descriptionsForGravelmonBalls = GravelmonItems.POKE_BALLS.stream().flatMap(item-> Stream.of(item.get().getDescriptionId())).toList();
+            if (descriptionsForGravelmonBalls.contains(stackDescription)) {
+
+
+                if(stack.getTag() != null){
+                    if (!stack.getTag().getBoolean(DataKeys.HIDE_TOOLTIP)) {
+                        return Unit.INSTANCE;
+                    }
+                }
+                if(stackDescription.contains("nuzlocke")){
+                    var language = Language.getInstance();
+                    var key1 = baseLangKeyForItem(stack)+1;
+                    var key2 = baseLangKeyForItem(stack)+2;
+                    if (language.has(key1)) {
+                        lines.add(Component.translatable(key1).setStyle(Style.EMPTY.withColor(ChatFormatting.GRAY)));
+                    }
+                    if (language.has(key2)) {
+                        lines.add(Component.translatable(key2).setStyle(Style.EMPTY.withColor(ChatFormatting.DARK_RED)));
+                    }
+                } else {
+                    var language = Language.getInstance();
+                    var key = baseLangKeyForItem(stack);
+                    if (language.has(key)) {
+                        lines.add(Component.translatable(key).setStyle(Style.EMPTY.withColor(ChatFormatting.GRAY)));
+                    }
+                }
+            }
+            return Unit.INSTANCE;
+        });
+
         if(event.getTab() == CobblemonItemGroups.getEVOLUTION_ITEMS()) {
             //evolution stones
             event.getEntries().putAfter(CobblemonItems.ICE_STONE.getDefaultInstance(),
@@ -137,5 +181,28 @@ public class CreativeTabInit {
             event.getEntries().put(GravelmonItems.INDUCTIVE_RING.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
+
+        if(event.getTab() == CobblemonItemGroups.getAGRICULTURE()) {
+            event.getEntries().putBefore(CobblemonItems.PINK_APRICORN.asItem().getDefaultInstance(),
+                    GravelmonItems.ORANGE_APRICORN.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.PINK_APRICORN.asItem().getDefaultInstance(),
+                    GravelmonItems.PURPLE_APRICORN.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putBefore(CobblemonItems.PINK_APRICORN_SEED.asItem().getDefaultInstance(),
+                    GravelmonItems.ORANGE_APRICORN_SEED.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.PINK_APRICORN_SEED.asItem().getDefaultInstance(),
+                    GravelmonItems.PURPLE_APRICORN_SEED.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
+    }
+
+    private static String baseLangKeyForItem(ItemStack stack) {
+        if (stack.getItem() instanceof PokeBallItem) {
+            var asPokeball = (PokeBallItem)stack.getItem();
+            return "item.gravelmon."+asPokeball.getPokeBall().getName().getPath()+".tooltip";
+        }
+        return ".tooltip";
     }
 }

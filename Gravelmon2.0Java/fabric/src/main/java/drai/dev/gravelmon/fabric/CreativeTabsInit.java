@@ -116,6 +116,19 @@ public class CreativeTabsInit {
             entries.accept(GravelmonItems.DAWN_BALL.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.SUN_BALL.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.FEATHER_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.TYPING_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.ROCKET_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.GREAT_ROCKET_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.ULTRA_ROCKET_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.NUCLEAR_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.ATOM_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.DELTA_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.ANCIENT_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.SNORE_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.SHINY_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.NUZLOCKE_BALL.get().asItem().getDefaultInstance());
+
+
             entries.accept(GravelmonItems.GAY_BALL.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.LESBIAN_BALL.get().asItem().getDefaultInstance());
             entries.accept(GravelmonItems.BI_BALL.get().asItem().getDefaultInstance());

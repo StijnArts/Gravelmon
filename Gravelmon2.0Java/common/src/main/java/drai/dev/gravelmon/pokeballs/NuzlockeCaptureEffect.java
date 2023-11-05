@@ -5,7 +5,7 @@ import com.cobblemon.mod.common.pokemon.*;
 import net.minecraft.world.entity.*;
 import org.jetbrains.annotations.*;
 
-public class ShinyChangeEffect implements CaptureEffect {
+public class NuzlockeCaptureEffect implements CaptureEffect {
     @Override
     public void apply(@NotNull LivingEntity livingEntity, @NotNull Pokemon pokemon) {
     }

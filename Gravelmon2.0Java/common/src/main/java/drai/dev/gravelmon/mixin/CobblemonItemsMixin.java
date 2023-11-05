@@ -4,10 +4,18 @@ import com.cobblemon.mod.common.*;
 import com.cobblemon.mod.common.item.*;
 import com.cobblemon.mod.common.pokeball.*;
 import drai.dev.gravelmon.pokeballs.*;
+import drai.dev.gravelmon.registries.*;
 import org.spongepowered.asm.mixin.*;
 import org.spongepowered.asm.mixin.injection.*;
 import org.spongepowered.asm.mixin.injection.callback.*;
 
+import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.ATOM_BALL;
+import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.DELTA_BALL;
+import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.GREAT_ROCKET_BALL;
+import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.NUCLEAR_BALL;
+import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.ROCKET_BALL;
+import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.TYPING_BALL;
+import static drai.dev.gravelmon.pokeballs.GravelmonPokeballs.ULTRA_ROCKET_BALL;
 import static drai.dev.gravelmon.registries.GravelmonItems.*;
 
 @Mixin(CobblemonItems.class)
@@ -35,6 +43,29 @@ public class CobblemonItemsMixin {
         GravelmonPokeballs.DAWN_BALL.setPokeBallItem(DAWN_BALL);
         FEATHER_BALL = pokeballItem("feather_ball",GravelmonPokeballs.FEATHER_BALL);
         GravelmonPokeballs.FEATHER_BALL.setPokeBallItem(FEATHER_BALL);
+        GravelmonItems.TYPING_BALL = pokeballItem("typing_ball",GravelmonPokeballs.TYPING_BALL);
+        GravelmonPokeballs.TYPING_BALL.setPokeBallItem(GravelmonItems.TYPING_BALL);
+        GravelmonItems.ROCKET_BALL = pokeballItem("rocket_ball",GravelmonPokeballs.ROCKET_BALL);
+        GravelmonPokeballs.ROCKET_BALL.setPokeBallItem(GravelmonItems.ROCKET_BALL);
+        GravelmonItems.GREAT_ROCKET_BALL = pokeballItem("great_rocket_ball",GravelmonPokeballs.GREAT_ROCKET_BALL);
+        GravelmonPokeballs.GREAT_ROCKET_BALL.setPokeBallItem(GravelmonItems.GREAT_ROCKET_BALL);
+        GravelmonItems.ULTRA_ROCKET_BALL = pokeballItem("ultra_rocket_ball",GravelmonPokeballs.ULTRA_ROCKET_BALL);
+        GravelmonPokeballs.ULTRA_ROCKET_BALL.setPokeBallItem(GravelmonItems.ULTRA_ROCKET_BALL);
+        GravelmonItems.NUCLEAR_BALL = pokeballItem("nuclear_ball",GravelmonPokeballs.NUCLEAR_BALL);
+        GravelmonPokeballs.NUCLEAR_BALL.setPokeBallItem(GravelmonItems.NUCLEAR_BALL);
+        GravelmonItems.ATOM_BALL = pokeballItem("atom_ball",GravelmonPokeballs.ATOM_BALL);
+        GravelmonPokeballs.ATOM_BALL.setPokeBallItem(GravelmonItems.ATOM_BALL);
+        GravelmonItems.DELTA_BALL = pokeballItem("delta_ball",GravelmonPokeballs.DELTA_BALL);
+        GravelmonPokeballs.DELTA_BALL.setPokeBallItem(GravelmonItems.DELTA_BALL);
+        ANCIENT_BALL = pokeballItem("ancient_ball",GravelmonPokeballs.ANCIENT_BALL);
+        GravelmonPokeballs.ANCIENT_BALL.setPokeBallItem(GravelmonItems.ANCIENT_BALL);
+        SHINY_BALL = pokeballItem("shiny_ball",GravelmonPokeballs.SHINY_BALL);
+        GravelmonPokeballs.SHINY_BALL.setPokeBallItem(GravelmonItems.SHINY_BALL);
+        NUZLOCKE_BALL = pokeballItem("nuzlocke_ball",GravelmonPokeballs.NUZLOCKE_BALL);
+        GravelmonPokeballs.NUZLOCKE_BALL.setPokeBallItem(GravelmonItems.NUZLOCKE_BALL);
+        SNORE_BALL = pokeballItem("snore_ball",GravelmonPokeballs.SNORE_BALL);
+        GravelmonPokeballs.SNORE_BALL.setPokeBallItem(GravelmonItems.SNORE_BALL);
+        //LGBTQ+ balls
         GAY_BALL = pokeballItem("gay_ball",GravelmonPokeballs.GAY_BALL);
         GravelmonPokeballs.GAY_BALL.setPokeBallItem(GAY_BALL);
         LESBIAN_BALL = pokeballItem("lesbian_ball",GravelmonPokeballs.LESBIAN_BALL);
