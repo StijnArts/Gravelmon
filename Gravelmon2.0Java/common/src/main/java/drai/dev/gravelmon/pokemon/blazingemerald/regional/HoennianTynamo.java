@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianTynamo extends Pokemon {
                 Type.GROUND, Type.ELECTRIC,
                 new Stats(30, 60, 30, 20, 50, 70),
                 List.of(Ability.STENCH), Ability.SAND_VEIL,
-                (int) (((0)*12+(4))*2.54), (int) (15*0.4),
+                UnitConverter.feetToMeters(0, 4), UnitConverter.lbsToKg(15),
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 55, ExperienceGroup.SLOW,

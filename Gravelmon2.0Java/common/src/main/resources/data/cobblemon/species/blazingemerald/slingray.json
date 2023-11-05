@@ -106,10 +106,10 @@
     "cobblemon.species.slingray.desc"
   ],
   "preEvolution": "remoraid",
-  "baseScale": 3.75,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -121,8 +121,8 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 200,
-  "weight": 171,
+  "height": 20,
+  "weight": 194,
   "aspects": [],
 "features": [
 

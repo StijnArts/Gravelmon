@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Drilladin extends Pokemon {
                 Type.BUG, Type.POISON,
                 new Stats(110, 130, 130, 65, 80, 50),
                 List.of(Ability.BATTLE_ARMOR), Ability.SHIELD_DUST,
-                (int) (((3)*12+(5))*2.54), (int) (1000*0.4),
+                UnitConverter.feetToMeters(3, 5), UnitConverter.lbsToKg(1000),
                 new Stats(0,0,1,0,0,0), 45,
                 0.5,
                 178, ExperienceGroup.MEDIUM_FAST,

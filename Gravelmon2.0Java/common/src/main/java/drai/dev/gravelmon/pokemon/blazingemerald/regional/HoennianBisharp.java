@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianBisharp extends Pokemon {
                 Type.FAIRY, Type.STEEL,
                 new Stats(85, 90, 115, 40, 85, 75),
                 List.of(Ability.BATTLE_ARMOR), Ability.RESOLUTE,
-                (int) (((5)*12+(11))*2.54), (int) (1720*0.4),
+                UnitConverter.feetToMeters(5, 11), UnitConverter.lbsToKg(1720),
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,

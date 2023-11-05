@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianPinsir extends Pokemon {
                 Type.BUG, Type.GROUND,
                 new Stats(65, 105, 80, 50, 55, 50),
                 List.of(Ability.PURE_POWER), Ability.PURE_POWER,
-                (int) (((5)*12+(3))*2.54), (int) (1962*0.4),
+                UnitConverter.feetToMeters(5, 3), UnitConverter.lbsToKg(1962),
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 175, ExperienceGroup.SLOW,

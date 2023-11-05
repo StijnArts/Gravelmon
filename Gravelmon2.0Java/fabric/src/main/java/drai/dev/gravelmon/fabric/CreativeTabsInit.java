@@ -105,5 +105,50 @@ public class CreativeTabsInit {
             entries.addAfter(CobblemonItems.PINK_APRICORN_SEED.asItem().getDefaultInstance(),
                     GravelmonItems.PURPLE_APRICORN_SEED.get().asItem().getDefaultInstance());
         });
+
+        ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getPOKEBALLS_KEY()).register(entries -> {
+            entries.addAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.MAUVE_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.CITRINE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.CORAL_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.DUSK_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.DAWN_BALL.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.MOON_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.SUN_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.HEAVY_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.FEATHER_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.QUICK_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.TYPING_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.ULTRA_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ULTRA_ROCKET_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.ULTRA_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.GREAT_ROCKET_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.ULTRA_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ROCKET_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.NET_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.NUCLEAR_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.BEAST_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ATOM_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.NET_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.DELTA_BALL.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.BEAST_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ANCIENT_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.QUICK_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.SNORE_BALL.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.MASTER_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.SHINY_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.CHERISH_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.NUZLOCKE_BALL.get().asItem().getDefaultInstance());
+            entries.addAfter(CobblemonItems.CHERISH_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.LUSTER_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.GAY_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.LESBIAN_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.BI_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.PAN_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.TRANS_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.NON_BINARY_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.ACE_BALL.get().asItem().getDefaultInstance());
+            entries.accept(GravelmonItems.ARO_BALL.get().asItem().getDefaultInstance());
+        });
     }
 }

@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianTentacruel extends Pokemon {
                 Type.WATER, Type.ELECTRIC,
                 new Stats(80, 110, 83, 65, 75, 102),
                 List.of(Ability.LEVISH_SKIN), Ability.RAIN_DISH,
-                (int) (((3)*12+(7))*2.54), (int) (904*0.4),
+                UnitConverter.feetToMeters(3, 7), UnitConverter.lbsToKg(904),
                 new Stats(0,1,0,0,0,1), 90,
                 0.5,
                 161, ExperienceGroup.SLOW,

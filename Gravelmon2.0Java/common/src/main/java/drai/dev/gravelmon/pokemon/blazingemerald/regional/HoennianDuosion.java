@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianDuosion extends Pokemon {
                 Type.PSYCHIC, Type.GRASS,
                 new Stats(65, 30, 70, 125, 60, 30),
                 List.of(Ability.FRUITRITION), Ability.FRUITRITION,
-                (int) (((1)*12+(8))*2.54), (int) (236*0.4),
+                UnitConverter.feetToMeters(1, 8), UnitConverter.lbsToKg(236),
                 new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 130, ExperienceGroup.MEDIUM_SLOW,

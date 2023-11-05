@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianDunsparce extends Pokemon {
                 Type.NORMAL, Type.ELECTRIC,
                 new Stats(50, 70, 85, 65, 80, 65),
                 List.of(Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                (int) (((4)*12+(7))*2.54), (int) (267*0.4),
+                UnitConverter.feetToMeters(4, 7), UnitConverter.lbsToKg(267),
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 145, ExperienceGroup.MEDIUM_FAST,

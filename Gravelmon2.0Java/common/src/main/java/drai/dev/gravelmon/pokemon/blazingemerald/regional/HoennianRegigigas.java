@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianRegigigas extends Pokemon {
                 Type.GHOST,
                 new Stats(55, 195, 95, 90, 180, 85),
                 List.of(Ability.CLEAR_BODY), Ability.SHADOW_TAG,
-                (int) (((6)*12+(11))*2.54), (int) (2425*0.4),
+                UnitConverter.feetToMeters(6, 11), UnitConverter.lbsToKg(2425),
                 new Stats(0,2,0,0,1,0), 3,
                 0.5,
                 302, ExperienceGroup.SLOW,

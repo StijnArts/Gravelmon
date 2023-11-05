@@ -88,10 +88,10 @@
   "pokedex": [
     "cobblemon.species.hoenniantoxapex.desc"
   ],
-  "baseScale": 2.41875,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -103,8 +103,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 129,
-  "weight": 432,
+  "height": 12,
+  "weight": 489,
   "aspects": [],
 "features": [
 

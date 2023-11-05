@@ -171,7 +171,57 @@ public class Pokemon {
                    double baseScale, double portraitScale,
 
                    List<PokemonForm> forms) {
+        this(name,primaryType,stats,abilities,hiddenAbility,height,weight,
+                evYield,catchRate,maleRatio,baseExperienceYield,
+                experienceGroup,baseFriendship,eggCycles,eggGroups,
+                dexEntries,evolutions,learnSet,labels,dropAmount,drops,spawnContext,spawnPool,
+                minSpawnLevel,maxSpawnLevel,spawnWeight,spawnConditions,spawnAntiConditions,
+                spawnPresets,forms);
         GravelmonJsonGenerator.incrementDexCounter();
+    }
+
+    public Pokemon(int dexNo, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
+                   Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
+                   int eggCycles, List<EggGroup> eggGroups,
+
+                   List<String> dexEntries,
+
+                   List<EvolutionEntry> evolutions,
+
+                   List<MoveLearnSetEntry> learnSet,
+
+                   List<Label> labels,
+
+                   int dropAmount, List<ItemDrop> drops,
+
+                   SpawnContext spawnContext, SpawnPool spawnPool,
+                   int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
+                   List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
+
+                   double baseScale, double portraitScale,
+
+                   List<PokemonForm> forms) {
+        this(name,primaryType,stats,abilities,hiddenAbility,height,weight,
+            evYield,catchRate,maleRatio,baseExperienceYield,
+            experienceGroup,baseFriendship,eggCycles,eggGroups,
+            dexEntries,evolutions,learnSet,labels,dropAmount,drops,spawnContext,spawnPool,
+            minSpawnLevel,maxSpawnLevel,spawnWeight,spawnConditions,spawnAntiConditions,
+            spawnPresets,forms);
+        GravelmonJsonGenerator.setDexCounter(dexNo);
+    }
+
+    private Pokemon(String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
+                   Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
+                   int eggCycles, List<EggGroup> eggGroups,
+                   List<String> dexEntries,
+                   List<EvolutionEntry> evolutions,
+                   List<MoveLearnSetEntry> learnSet,
+                   List<Label> labels,
+                   int dropAmount, List<ItemDrop> drops,
+                   SpawnContext spawnContext, SpawnPool spawnPool,
+                   int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
+                   List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
+                   List<PokemonForm> forms) {
         this.name = name;
         this.stats = stats;
         this.primaryType = primaryType;
@@ -218,75 +268,6 @@ public class Pokemon {
         }
         this.portraitScale = 0.3;
         pokemonRegistry.put(getCleanName(), this);
-    }
-
-    public Pokemon(int dexNo, String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
-                   Stats evYield, int catchRate, double maleRatio, int baseExperienceYield, ExperienceGroup experienceGroup, int baseFriendship,
-                   int eggCycles, List<EggGroup> eggGroups,
-
-                   List<String> dexEntries,
-
-                   List<EvolutionEntry> evolutions,
-
-                   List<MoveLearnSetEntry> learnSet,
-
-                   List<Label> labels,
-
-                   int dropAmount, List<ItemDrop> drops,
-
-                   SpawnContext spawnContext, SpawnPool spawnPool,
-                   int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
-                   List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
-
-                   double baseScale, double portraitScale,
-
-                   List<PokemonForm> forms) {
-        GravelmonJsonGenerator.setDexCounter(dexNo);
-        this.name = name;
-        this.stats = stats;
-        this.primaryType = primaryType;
-        this.secondaryType = null;
-        this.abilities = abilities;
-        this.hiddenAbility = hiddenAbility;
-        this.catchRate = catchRate;
-        this.maleRatio = maleRatio;
-        this.baseExperienceYield = baseExperienceYield;
-        this.experienceGroup = experienceGroup;
-        this.eggCycles = eggCycles;
-        this.eggGroups = eggGroups;
-        this.dropAmount = dropAmount;
-        this.drops = drops;
-        this.pokedexNumber = GravelmonJsonGenerator.getDexCounter();
-        this.forms = forms;
-        this.learnSet = learnSet;
-        this.labels = new ArrayList<>(labels);
-        this.labels.add(Label.NOT_MODELED);
-        this.dexEntries = dexEntries;
-        this.evolutions = evolutions;
-        this.baseFriendship = baseFriendship;
-        this.evYield = evYield;
-        this.height = height;
-        this.weight = weight;
-        this.spawnContext = spawnContext;
-        this.spawnPool = spawnPool;
-        this.minSpawnLevel = minSpawnLevel;
-        this.maxSpawnLevel = maxSpawnLevel;
-        this.spawnWeight = spawnWeight;
-        this.spawnConditions = spawnConditions;
-        this.spawnAntiConditions = spawnAntiConditions;
-        this.spawnPresets = spawnPresets;
-        this.baseScale = Math.max((height*1.5) /10/8,0.1);
-        if(height/10 > 10){
-            this.hitboxWidth = 5;
-            this.hitboxHeight = 5;
-        } else if(height/10 < 4){
-            this.hitboxWidth = 3;
-            this.hitboxHeight = 3;
-        } else {
-            this.hitboxWidth = (height/10 * 1.5) / 4 / 1.3;
-            this.hitboxHeight = (height/10 * 1.5) / 4 / 1.3;
-        }
-        this.portraitScale = 0.3;
     }
 
     public static void scanEvolutions() {

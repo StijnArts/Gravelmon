@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianChinchou extends Pokemon {
                 Type.WATER, Type.GHOST,
                 new Stats(55, 38, 38, 100, 66, 57),
                 List.of(Ability.CLEAR_BODY), Ability.LIQUID_OOZE,
-                (int) (((2) * 12)*2.54), (int) (66*0.4),
+                UnitConverter.feetToMeters(2, 0), UnitConverter.lbsToKg(66),
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 66, ExperienceGroup.SLOW,

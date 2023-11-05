@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Mallarki extends Pokemon {
                 Type.FIGHTING, Type.FLYING,
                 new Stats(60, 110, 65, 58, 70, 110),
                 List.of(Ability.HYPER_CUTTER), Ability.RESOLUTE,
-                (int) (((3)*12+(7))*2.54), (int) (639*0.4),
+                UnitConverter.feetToMeters(3, 7), UnitConverter.lbsToKg(639),
                 new Stats(0,1,0,0,0,1), 30,
                 0.5,
                 220, ExperienceGroup.MEDIUM_FAST,

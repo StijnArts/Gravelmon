@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianOnix extends Pokemon {
                 Type.ROCK, Type.ICE,
                 new Stats(55, 35, 60, 65, 150, 60),
                 List.of(Ability.CRYSTAL_CASE), Ability.CRYSTAL_CASE,
-                (int) (((20)*12+(4))*2.54), (int) (3461*0.4),
+                UnitConverter.feetToMeters(20, 4), UnitConverter.lbsToKg(3461),
                 new Stats(0,0,0,0,1,0), 45,
                 0.5,
                 77, ExperienceGroup.MEDIUM_FAST,

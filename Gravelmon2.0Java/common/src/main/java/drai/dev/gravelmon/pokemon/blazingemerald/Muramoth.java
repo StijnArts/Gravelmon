@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Muramoth extends Pokemon {
                 Type.BUG, Type.DARK,
                 new Stats(60, 80, 50, 115, 75, 105),
                 List.of(Ability.ELUSIVE), Ability.ILLUMINATE,
-                (int) (((2)*12+(7))*2.54), (int) (836*0.4),
+                UnitConverter.feetToMeters(2, 7), UnitConverter.lbsToKg(836),
                 new Stats(0,0,0,1,0,1), 70,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,

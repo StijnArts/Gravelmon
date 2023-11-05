@@ -91,10 +91,10 @@
   "pokedex": [
     "cobblemon.species.hoennianmaractus.desc"
   ],
-  "baseScale": 1.65,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 2.3076923076923075,
-    "height": 2.3076923076923075,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -106,8 +106,8 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 88,
-  "weight": 211,
+  "height": 8,
+  "weight": 239,
   "aspects": [],
 "features": [
 

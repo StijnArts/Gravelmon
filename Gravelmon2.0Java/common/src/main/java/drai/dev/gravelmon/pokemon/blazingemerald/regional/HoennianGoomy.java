@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianGoomy extends Pokemon {
                 Type.FAIRY,
                 new Stats(100, 55, 60, 80, 90, 65),
                 List.of(Ability.LIQUID_OOZE), Ability.LIQUID_OOZE,
-                (int) (((1)*12+(4))*2.54), (int) (62*0.4),
+                UnitConverter.feetToMeters(1, 4), UnitConverter.lbsToKg(62),
                 new Stats(1,0,0,0,0,0), 45,
                 0.5,
                 60, ExperienceGroup.SLOW,

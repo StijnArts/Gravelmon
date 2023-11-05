@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianReuniclus extends Pokemon {
                 Type.PSYCHIC, Type.GRASS,
                 new Stats(80, 45, 105, 125, 90, 45),
                 List.of(Ability.FRUITRITION), Ability.FRUITRITION,
-                (int) (((3)*12+(3))*2.54), (int) (672*0.4),
+                UnitConverter.feetToMeters(3, 3), UnitConverter.lbsToKg(672),
                 new Stats(1,0,1,1,0,0), 50,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,

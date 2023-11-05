@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Bawlfrog extends Pokemon {
                 Type.WATER, Type.NORMAL,
                 new Stats(190, 38, 78, 83, 88, 43),
                 List.of(Ability.EMPATHY), Ability.EMPATHY,
-                (int) (((3)*12+(6))*2.54), (int) (500*0.4),
+                UnitConverter.feetToMeters(3, 6), UnitConverter.lbsToKg(500),
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 200, ExperienceGroup.MEDIUM_SLOW,

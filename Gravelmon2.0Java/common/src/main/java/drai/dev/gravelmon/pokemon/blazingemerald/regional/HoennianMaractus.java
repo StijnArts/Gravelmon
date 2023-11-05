@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianMaractus extends Pokemon {
                 Type.GRASS, Type.FIRE,
                 new Stats(62, 36, 106, 86, 106, 93),
                 List.of(Ability.CHLOROPHYLL), Ability.FLASH_FIRE,
-                (int) (((2)*12+(11))*2.54), (int) (529*0.4),
+                UnitConverter.feetToMeters(2, 11), UnitConverter.lbsToKg(529),
                 new Stats(0,0,1,0,1,0), 255,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,

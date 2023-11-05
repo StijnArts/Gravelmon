@@ -93,10 +93,10 @@
   "pokedex": [
     "cobblemon.species.goolossal.desc"
   ],
-  "baseScale": 12.75,
+  "baseScale": 1.275,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 1.7307692307692306,
+    "height": 1.7307692307692306,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -108,8 +108,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 680,
-  "weight": 1850,
+  "height": 68,
+  "weight": 2097,
   "aspects": [],
 "features": [
 

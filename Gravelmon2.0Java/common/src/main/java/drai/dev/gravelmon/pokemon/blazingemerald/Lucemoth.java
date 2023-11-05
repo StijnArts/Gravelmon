@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Lucemoth extends Pokemon {
                 Type.BUG, Type.FAIRY,
                 new Stats(80, 65, 100, 85, 100, 55),
                 List.of(Ability.TACTICIAN), Ability.ILLUMINATE,
-                (int) (((5)*12+(11))*2.54), (int) (1389*0.4),
+                UnitConverter.feetToMeters(5, 11), UnitConverter.lbsToKg(1389),
                 new Stats(0,0,1,0,1,0), 70,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,

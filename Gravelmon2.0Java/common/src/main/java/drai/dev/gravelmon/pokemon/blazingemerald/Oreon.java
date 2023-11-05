@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Oreon extends Pokemon {
                 Type.POISON,
                 new Stats(80, 100, 80, 100, 80, 60),
                 List.of(Ability.STICKY_HOLD), Ability.THICK_FAT,
-                (int) (((3)*12+(7))*2.54), (int) (639*0.4),
+                UnitConverter.feetToMeters(3, 7), UnitConverter.lbsToKg(639),
                 new Stats(0,1,0,1,0,0), 15,
                 0.5,
                 200, ExperienceGroup.MEDIUM_FAST,

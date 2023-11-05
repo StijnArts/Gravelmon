@@ -90,10 +90,10 @@
   "pokedex": [
     "cobblemon.species.hoenniantangrowth.desc"
   ],
-  "baseScale": 3.9375,
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -105,8 +105,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 210,
-  "weight": 970,
+  "height": 21,
+  "weight": 1099,
   "aspects": [],
 "features": [
 

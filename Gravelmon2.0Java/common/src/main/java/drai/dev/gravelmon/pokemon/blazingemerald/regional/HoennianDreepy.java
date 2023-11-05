@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianDreepy extends Pokemon {
                 Type.FIRE, Type.DRAGON,
                 new Stats(52, 40, 30, 60, 30, 58),
                 List.of(Ability.LEVITATE), Ability.TECHNICIAN,
-                (int) (((2)*12+(0))*2.54), (int) (176*0.4),
+                UnitConverter.feetToMeters(2, 0), UnitConverter.lbsToKg(176),
                 new Stats(0,0,0,1,0,0), 45,
                 0.5,
                 54, ExperienceGroup.SLOW,

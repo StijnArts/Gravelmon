@@ -86,10 +86,10 @@
     "cobblemon.species.drilladin.desc"
   ],
   "preEvolution": "kakuna",
-  "baseScale": 1.95,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 2.8846153846153846,
-    "height": 2.8846153846153846,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -101,8 +101,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 104,
-  "weight": 400,
+  "height": 10,
+  "weight": 453,
   "aspects": [],
 "features": [
 

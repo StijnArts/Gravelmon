@@ -1,18 +1,26 @@
 package drai.dev.gravelmon.registries;
 
 import com.cobblemon.mod.common.*;
+import com.cobblemon.mod.common.api.data.*;
+import com.cobblemon.mod.common.api.pokeball.*;
 import com.cobblemon.mod.common.item.*;
+import com.cobblemon.mod.common.pokeball.*;
+import com.google.gson.*;
 import dev.architectury.registry.registries.*;
 import drai.dev.gravelmon.apricorn.*;
+import drai.dev.gravelmon.pokeballs.*;
 import kotlin.jvm.*;
 import net.minecraft.core.registries.*;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.block.*;
 
+import java.util.*;
+
 import static drai.dev.gravelmon.Gravelmon.MOD_ID;
 
 public class GravelmonItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(MOD_ID, Registries.ITEM);
+    public static final ArrayList<RegistrySupplier<PokeBallItem>> POKE_BALLS = new ArrayList();
 
     //Evolution Items
     public static RegistrySupplier<Item> VARIA_STONE = item("varia_stone");
@@ -62,6 +70,33 @@ public class GravelmonItems {
     public static RegistrySupplier<Item> SOLID_STONE_ORE = blockItem("solid_stone_ore",GravelmonBlocks.SOLID_STONE_ORE);
     public static RegistrySupplier<Item> DEEPSLATE_SOLID_STONE_ORE = blockItem("deepslate_solid_stone_ore",GravelmonBlocks.DEEPSLATE_SOLID_STONE_ORE);
 
+    //Pokeballs
+    public static RegistrySupplier<PokeBallItem> MAUVE_BALL;
+    public static RegistrySupplier<PokeBallItem> CORAL_BALL;
+    public static RegistrySupplier<PokeBallItem> LUSTER_BALL;
+    public static RegistrySupplier<PokeBallItem> SUN_BALL;
+    public static RegistrySupplier<PokeBallItem> DAWN_BALL;
+    public static RegistrySupplier<PokeBallItem> FEATHER_BALL;
+    public static RegistrySupplier<PokeBallItem> TYPING_BALL;
+    public static RegistrySupplier<PokeBallItem> ROCKET_BALL;
+    public static RegistrySupplier<PokeBallItem> GREAT_ROCKET_BALL;
+    public static RegistrySupplier<PokeBallItem> ULTRA_ROCKET_BALL;
+    public static RegistrySupplier<PokeBallItem> NUCLEAR_BALL;
+    public static RegistrySupplier<PokeBallItem> ATOM_BALL;
+    public static RegistrySupplier<PokeBallItem> DELTA_BALL;
+    public static RegistrySupplier<PokeBallItem> ANCIENT_BALL;
+    public static RegistrySupplier<PokeBallItem> SHINY_BALL;
+    public static RegistrySupplier<PokeBallItem> NUZLOCKE_BALL;
+    public static RegistrySupplier<PokeBallItem> SNORE_BALL;
+    //LGBTQ+ balls
+    public static RegistrySupplier<PokeBallItem> GAY_BALL;
+    public static RegistrySupplier<PokeBallItem> LESBIAN_BALL;
+    public static RegistrySupplier<PokeBallItem> BI_BALL;
+    public static RegistrySupplier<PokeBallItem> PAN_BALL;
+    public static RegistrySupplier<PokeBallItem> TRANS_BALL;
+    public static RegistrySupplier<PokeBallItem> NON_BINARY_BALL;
+    public static RegistrySupplier<PokeBallItem> ACE_BALL;
+    public static RegistrySupplier<PokeBallItem> ARO_BALL;
 
 
     public static RegistrySupplier<GravelmonApricornItem> PURPLE_APRICORN = apricronItem("purple_apricorn", GravelmonBlocks.PURPLE_APRICORN);
@@ -75,6 +110,12 @@ public class GravelmonItems {
 
     public static RegistrySupplier<GravelmonApricornSeedItem> apricronSeedItem(String name, RegistrySupplier<GravelmonApricornSaplingBlock> block){
         return ITEMS.register(name,() -> new GravelmonApricornSeedItem(block.get()));
+    }
+
+    public static RegistrySupplier<PokeBallItem> pokeballItem(String name, PokeBall pokeBall){
+        var item = ITEMS.register(name,() -> new PokeBallItem(pokeBall));
+        POKE_BALLS.add(item);
+        return item;
     }
 
     public static RegistrySupplier<Item> item(String name){

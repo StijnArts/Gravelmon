@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianSolosis extends Pokemon {
                 Type.PSYCHIC, Type.GRASS,
                 new Stats(45, 25, 50, 105, 50, 20),
                 List.of(Ability.FRUITRITION), Ability.FRUITRITION,
-                (int) (((0)*12+(4))*2.54), (int) (13*0.4),
+                UnitConverter.feetToMeters(0, 4), UnitConverter.lbsToKg(13),
                 new Stats(0,0,0,1,0,0), 200,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,

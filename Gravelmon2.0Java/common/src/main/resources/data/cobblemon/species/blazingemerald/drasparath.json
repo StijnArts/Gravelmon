@@ -98,10 +98,10 @@
   "pokedex": [
     "cobblemon.species.drasparath.desc"
   ],
-  "baseScale": 9.1875,
+  "baseScale": 0.91875,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -113,8 +113,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 490,
-  "weight": 688,
+  "height": 49,
+  "weight": 780,
   "aspects": [],
 "features": [
 

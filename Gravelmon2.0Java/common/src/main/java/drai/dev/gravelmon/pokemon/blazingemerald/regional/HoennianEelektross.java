@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianEelektross extends Pokemon {
                 Type.GROUND, Type.ELECTRIC,
                 new Stats(95, 135, 85, 50, 110, 65),
                 List.of(Ability.SAND_SPIT), Ability.SAND_VEIL,
-                (int) (((62)*12+(4))*2.54), (int) (15388*0.4),
+                UnitConverter.feetToMeters(62, 4), UnitConverter.lbsToKg(15388),
                 new Stats(0,2,0,0,1,0), 30,
                 0.5,
                 258, ExperienceGroup.SLOW,

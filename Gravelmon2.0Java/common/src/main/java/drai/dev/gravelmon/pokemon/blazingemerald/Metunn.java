@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Metunn extends Pokemon {
                 Type.PSYCHIC, Type.GHOST,
                 new Stats(200, 120, 180, 120, 180, 200),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                (int) (((2)*12+(9))*2.54), (int) (1110*0.4),
+                UnitConverter.feetToMeters(2, 9), UnitConverter.lbsToKg(1110),
                 new Stats(0,3,0,0,0,0), 60,
                 -1,
                 200, ExperienceGroup.MEDIUM_FAST,

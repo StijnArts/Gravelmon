@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class HoennianLanturn extends Pokemon {
                 Type.WATER, Type.GHOST,
                 new Stats(90, 55, 50, 140, 78, 67),
                 List.of(Ability.CLEAR_BODY), Ability.SWIFT_SWIM,
-                (int) (((5)*12+(3))*2.54), (int) (66*0.4),
+                UnitConverter.feetToMeters(5, 3), UnitConverter.lbsToKg(66),
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 166, ExperienceGroup.SLOW,

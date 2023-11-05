@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class Slingray extends Pokemon {
                 Type.WATER, Type.ROCK,
                 new Stats(47, 121, 75, 82, 35, 134),
                 List.of(Ability.ROCK_HEAD), Ability.SIEGE_DRIVE,
-                (int) (((6)*12+(7))*2.54), (int) (428*0.4),
+                UnitConverter.feetToMeters(6, 7), UnitConverter.lbsToKg(428),
                 new Stats(0,1,0,0,0,2), 60,
                 0.5,
                 200, ExperienceGroup.MEDIUM_FAST,
