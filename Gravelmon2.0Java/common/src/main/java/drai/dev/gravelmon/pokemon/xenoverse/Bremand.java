@@ -68,7 +68,7 @@ public class Bremand extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 39, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 39, 4.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
@@ -137,7 +137,7 @@ public class Bremand extends Pokemon {
                                 ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 39, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 39, 4.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
@@ -206,7 +206,7 @@ public class Bremand extends Pokemon {
                                 ),
                                 List.of(Label.XENOVERSE),
                                 0, List.of(
-                        ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 39, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 39, 4.0, List.of(
                                 new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
                                 new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                                 new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
@@ -275,7 +275,7 @@ public class Bremand extends Pokemon {
                         ),
                         List.of(Label.XENOVERSE),
                         0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 39, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 39, 4.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

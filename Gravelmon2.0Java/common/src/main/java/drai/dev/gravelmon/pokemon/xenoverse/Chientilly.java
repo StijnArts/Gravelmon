@@ -69,7 +69,7 @@ public class Chientilly extends Pokemon {
                 List.of(Label.XENOVERSE),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",50, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 43, 0.1, List.of(
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 43, 0.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

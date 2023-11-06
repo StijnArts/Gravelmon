@@ -66,8 +66,8 @@ public class Gachigachoo extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 34, 4.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -41,12 +41,12 @@ public class Kidoon extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 12, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 8, 12, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.IS_RAINING, "false"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

@@ -74,7 +74,7 @@ public class ScovileX extends Pokemon {
                 List.of(Label.XENOVERSE),
                 1, List.of(
                         new ItemDrop("gravelmon:xenolith",20, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.RARE, 30, 43, 2.1, List.of(
+                SpawnContext.GROUNDED, SpawnPool.RARE, 30, 43, 4.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

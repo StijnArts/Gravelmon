@@ -61,7 +61,7 @@ public class Dusmee extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 9, 20, 3, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 9, 20, 4.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

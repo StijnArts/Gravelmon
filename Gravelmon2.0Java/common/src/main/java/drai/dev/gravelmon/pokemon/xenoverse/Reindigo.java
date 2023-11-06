@@ -93,7 +93,7 @@ public class Reindigo extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 45, 61, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 61, 5.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")

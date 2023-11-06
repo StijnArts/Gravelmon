@@ -73,7 +73,7 @@ public class Birigiri extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 8, 31, 2.0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 8, 31, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

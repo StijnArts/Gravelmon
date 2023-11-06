@@ -81,7 +81,7 @@ public class Shawkbird extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 31, 0.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());

@@ -86,12 +86,10 @@ public class Goombear extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 56, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 56, 7.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CAMPFIRE),
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

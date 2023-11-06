@@ -73,8 +73,8 @@ public class Hystearic extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 8, 12, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 12, 5.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

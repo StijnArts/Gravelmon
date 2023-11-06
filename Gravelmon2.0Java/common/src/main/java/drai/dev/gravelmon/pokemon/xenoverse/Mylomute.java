@@ -81,7 +81,7 @@ public class Mylomute extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 39, 57, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 57, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.IS_RAINING, "true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

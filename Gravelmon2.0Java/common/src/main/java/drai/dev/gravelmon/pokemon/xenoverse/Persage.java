@@ -98,7 +98,8 @@ public class Persage extends Pokemon {
                 4, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 40, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

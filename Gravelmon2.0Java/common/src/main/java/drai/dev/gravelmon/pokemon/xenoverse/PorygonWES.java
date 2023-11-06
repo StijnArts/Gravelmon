@@ -78,7 +78,7 @@ public class PorygonWES extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 44, 56, 0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 44, 56, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

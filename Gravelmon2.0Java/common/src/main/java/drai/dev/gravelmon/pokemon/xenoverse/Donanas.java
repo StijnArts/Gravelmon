@@ -84,7 +84,7 @@ public class Donanas extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 54, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 54, 5.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

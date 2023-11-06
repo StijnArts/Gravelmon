@@ -95,10 +95,9 @@ public class Troglolith extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 38, 52, 0.2, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 38, 52, 0.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                        new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,

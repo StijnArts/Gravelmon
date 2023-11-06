@@ -88,7 +88,7 @@ public class Skravroom extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 1, List.of(new ItemDrop("gravelmon:spare_parts",50, 1,1)),
-                SpawnContext.GROUNDED, SpawnPool.RARE, 34, 57, 2.0, List.of(
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 57, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_BADLANDS, Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

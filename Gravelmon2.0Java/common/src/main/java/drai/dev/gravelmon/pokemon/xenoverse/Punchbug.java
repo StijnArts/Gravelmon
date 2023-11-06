@@ -74,7 +74,7 @@ public class Punchbug extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 31, 0.2, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 31, 0.3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

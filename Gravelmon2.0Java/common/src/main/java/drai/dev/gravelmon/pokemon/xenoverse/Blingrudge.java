@@ -91,9 +91,8 @@ public class Blingrudge extends Pokemon {
                         ),
                 List.of(Label.XENOVERSE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 58, 1.2, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 58, 1.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERGROUND),
