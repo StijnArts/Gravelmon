@@ -85,7 +85,7 @@ public class Simayan extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:cocoa_beans",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 42, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 42, 0.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

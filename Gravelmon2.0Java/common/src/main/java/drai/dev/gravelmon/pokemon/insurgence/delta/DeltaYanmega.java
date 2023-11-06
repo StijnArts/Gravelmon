@@ -116,9 +116,8 @@ public class DeltaYanmega extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 35, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING, "true"),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 49, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

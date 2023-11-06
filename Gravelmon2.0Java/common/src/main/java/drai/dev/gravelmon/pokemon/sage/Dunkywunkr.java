@@ -86,9 +86,8 @@ public class Dunkywunkr extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
                 ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 38, 51, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP, Biome.IS_ABYSS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_MOUNTAIN, Biome.IS_HILLS, Biome.IS_COLD))),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN, Biome.IS_DEEP_DARK))
+                ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
                 0.4, 0.3,
                 List.of());

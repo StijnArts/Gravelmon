@@ -126,7 +126,7 @@ public class Viipii extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:feather",100, 1,1)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 18, 32, 0.9, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 18, 32, 8.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day")

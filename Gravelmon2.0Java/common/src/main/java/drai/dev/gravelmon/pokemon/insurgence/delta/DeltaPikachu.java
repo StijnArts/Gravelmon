@@ -127,8 +127,8 @@ public class DeltaPikachu extends Pokemon {
                         ),
                 List.of(Label.INSURGENCE, Label.GEN1),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 31, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -96,8 +96,8 @@ public class Chillnobyl extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:redstone",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 32, 41, 3.0, List.of(
-                        new SpawnCondition(SpawnConditionType.MAXY,"20"),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 41, 3.0, List.of(
+                        new SpawnCondition(SpawnConditionType.MAXY,"-20"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERGROUND),

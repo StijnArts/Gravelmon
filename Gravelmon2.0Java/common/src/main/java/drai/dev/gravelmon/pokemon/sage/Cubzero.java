@@ -86,14 +86,11 @@ public class Cubzero extends Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER_FANG,"egg")
                         ),
                 List.of(Label.SAGE),
-                2, List.of(
-                        new ItemDrop("minecraft:bone",50, 1,2),
-                        new ItemDrop("minecraft:ice",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 6.0, List.of(
+                0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 28, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING, "true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS))),
                 List.of(SpawnPreset.NATURAL),
                 0.5, 0.5,
                 List.of());

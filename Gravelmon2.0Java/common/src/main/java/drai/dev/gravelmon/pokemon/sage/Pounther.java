@@ -95,8 +95,8 @@ public class Pounther extends Pokemon {
                         ),
                 List.of(Label.SAGE),
                 2, List.of(
-                        new ItemDrop("minecraft:raw_chicken",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 6.0, List.of(
+                        new ItemDrop("cobblemon:quick_claw",100, 1,2)
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 28, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -1,5 +1,6 @@
-package drai.dev.gravelmon.games;
+package drai.dev.gravelmon.games.registry;
 
+import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.games.original.*;
 
 import java.util.*;
@@ -19,7 +20,7 @@ public class GameRegistry {
         games.add(new GenerationNine());
         games.add(new Sage());
         games.add(new Infinity());
-        //games.add(new Insurgence());
+        games.add(new Insurgence());
         games.add(new Xenoverse());
         games.add(new BlazingEmerald());
         games.add(new Vega());

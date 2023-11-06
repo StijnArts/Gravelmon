@@ -24,7 +24,7 @@ public enum Label {
     FAKEMON("fakemon"),
     EEVEELUTION("eeveelution"),
     FAKEMON_EVOLUTION("fakemonevolution"),
-    RADICAL_RED("radicalred");
+    RADICAL_RED("radicalred"), MYTHICAL("mythical");
     private String name;
     Label(String name){
         this.name = name;

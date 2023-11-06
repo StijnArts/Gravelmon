@@ -87,7 +87,7 @@ public class EhgoMarill extends EghoPokemon {
                 4, List.of(
                         new ItemDrop("minecraft:sand",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

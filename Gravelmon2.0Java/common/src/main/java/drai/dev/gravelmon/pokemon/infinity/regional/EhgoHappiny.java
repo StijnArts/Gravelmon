@@ -110,7 +110,7 @@ public class EhgoHappiny extends EghoPokemon {
                 List.of(Label.INFINITY, Label.GEN4),
                 1, List.of(
                         new ItemDrop("cobblemon:oval_stone",20, 1,1)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 22, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 22, 5.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

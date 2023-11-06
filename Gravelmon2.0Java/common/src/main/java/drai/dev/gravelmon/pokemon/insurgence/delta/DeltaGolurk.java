@@ -111,8 +111,8 @@ public class DeltaGolurk extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 43, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 44, 70, 5.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -111,11 +111,11 @@ public class DeltaElekid extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 10, 28, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.RUINED_STRUCTURES),
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Elekid");

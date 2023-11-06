@@ -116,9 +116,8 @@ public class DeltaSunflora extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 39, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_CRIMSON))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.26, 0.3,

@@ -68,7 +68,7 @@ public class Fortifry extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 4, 12, 2.0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 4, 12, 10.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE,Biome.IS_ARID))),

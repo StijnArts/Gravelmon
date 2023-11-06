@@ -98,10 +98,9 @@ public class Squink extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 4, 25, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 4, 25, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,
                 List.of());

@@ -79,10 +79,11 @@ public class Sunduke extends Pokemon {
                         ),
                 List.of(Label.SAGE),
                 2, List.of(
-                        new ItemDrop("minecraft:cactus",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 28, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT,Biome.IS_BADLANDS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new ItemDrop("cobblemon:sun_stone",90, 1,2)
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.34, 0.3,

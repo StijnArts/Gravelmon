@@ -112,7 +112,7 @@ public class Faeralynx extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 51, 61, 0.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ABYSS))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))),
                 List.of(SpawnPreset.UNDERGROUND),
                 0.3, 0.3,
                 List.of());

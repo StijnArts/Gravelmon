@@ -103,7 +103,7 @@ public class EhgoGrimer extends EghoPokemon {
                 4, List.of(
                         new ItemDrop("minecraft:basalt",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_SAND, Biome.IS_NETHER_TOXIC))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.29, 0.3,

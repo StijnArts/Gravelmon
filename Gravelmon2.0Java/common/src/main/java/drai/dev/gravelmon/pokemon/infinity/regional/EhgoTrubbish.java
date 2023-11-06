@@ -106,7 +106,7 @@ public class EhgoTrubbish extends EghoPokemon {
                 List.of(Label.INFINITY, Label.GEN5),
                 4, List.of(
                         new ItemDrop("minecraft:rotten_flesh",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 0.9, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 2.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -1,8 +1,7 @@
 package drai.dev.gravelmon.games;
 
+import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.sage.*;
-
-import java.util.*;
 
 public class Sage extends Game {
 

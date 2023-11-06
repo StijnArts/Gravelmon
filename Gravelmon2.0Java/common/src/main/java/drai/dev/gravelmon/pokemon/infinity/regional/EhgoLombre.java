@@ -98,9 +98,8 @@ public class EhgoLombre extends EghoPokemon {
                         ),
                 List.of(Label.INFINITY, Label.GEN3),
                 4, List.of(
-                        new ItemDrop("minecraft:egg",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 34, 0.3, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 34, 0.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.27, 0.3,

@@ -119,9 +119,9 @@ public class Nobunata extends Pokemon {
                         ),
                 List.of(Label.SAGE),
                 2, List.of(
-                        new ItemDrop("minecraft:sugar",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 28, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS,Biome.IS_SAVANNA)),
+                        new ItemDrop("cobblemon:rare_candy",100, 1,2)
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 45, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

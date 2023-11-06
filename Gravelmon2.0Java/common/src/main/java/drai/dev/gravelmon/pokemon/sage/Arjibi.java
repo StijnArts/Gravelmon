@@ -97,9 +97,9 @@ public class Arjibi extends Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,"egg")
                         ),
                 List.of(Label.SAGE),
-                2, List.of(
-                        new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 4, 25, 4.0, List.of(
+                1, List.of(
+                        new ItemDrop("gravelmon:kaleidoscope",10, 1,1)
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 4, 25, 7.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

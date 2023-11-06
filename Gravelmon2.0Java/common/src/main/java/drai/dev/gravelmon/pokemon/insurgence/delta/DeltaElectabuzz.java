@@ -126,11 +126,11 @@ public class DeltaElectabuzz extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 45, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.RUINED_STRUCTURES),
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Electabuzz");

@@ -111,7 +111,7 @@ public class Whave extends Pokemon {
                         ),
                 List.of(Label.SAGE),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 5, 28, 2.0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 5, 28, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE))),

@@ -104,8 +104,8 @@ public class Squidrift extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 4, 25, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 56, 3.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

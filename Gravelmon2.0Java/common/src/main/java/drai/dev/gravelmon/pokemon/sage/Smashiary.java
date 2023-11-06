@@ -101,7 +101,7 @@ public class Smashiary extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:feather",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 27, 47, 0.9, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 47, 3.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -90,7 +90,7 @@ public class Pangolash extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:dead_bush",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 49, 6.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 49, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

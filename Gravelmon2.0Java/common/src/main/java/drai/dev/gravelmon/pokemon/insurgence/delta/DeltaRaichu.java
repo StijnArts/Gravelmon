@@ -115,8 +115,8 @@ public class DeltaRaichu extends Pokemon {
                         ),
                 List.of(Label.INSURGENCE, Label.GEN1),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 54, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

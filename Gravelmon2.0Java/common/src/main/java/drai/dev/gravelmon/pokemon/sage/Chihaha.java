@@ -100,8 +100,8 @@ public class Chihaha extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:bone",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 28, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 28, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),

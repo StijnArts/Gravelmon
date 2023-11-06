@@ -99,7 +99,7 @@ public class Alpint extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:spruce_sapling",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 32, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

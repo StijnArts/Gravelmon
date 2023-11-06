@@ -119,7 +119,7 @@ public class DeltaKoffing extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 43, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 33, 9.0, List.of(
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true")
                 ), List.of(),

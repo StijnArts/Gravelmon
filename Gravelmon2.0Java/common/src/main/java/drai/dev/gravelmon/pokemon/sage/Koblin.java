@@ -95,7 +95,7 @@ public class Koblin extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:leather",50, 1,2),
                         new ItemDrop("minecraft:stone",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 28, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

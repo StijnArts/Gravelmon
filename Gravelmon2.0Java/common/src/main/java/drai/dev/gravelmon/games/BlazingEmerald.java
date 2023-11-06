@@ -1,8 +1,9 @@
 package drai.dev.gravelmon.games;
 
+import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.*;
 
-public class BlazingEmerald extends Game{
+public class BlazingEmerald extends Game {
     public BlazingEmerald() {
         super("BlazingEmerald");
     }

@@ -127,11 +127,11 @@ public class DeltaMagmortar extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 58, 9.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.OCEAN_MONUMENT),
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Magmortar");

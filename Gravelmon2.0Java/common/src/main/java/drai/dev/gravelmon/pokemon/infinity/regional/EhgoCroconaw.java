@@ -126,7 +126,7 @@ public class EhgoCroconaw extends EghoPokemon {
                 2, List.of(
                         new ItemDrop("minecraft:leather",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 18, 27, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

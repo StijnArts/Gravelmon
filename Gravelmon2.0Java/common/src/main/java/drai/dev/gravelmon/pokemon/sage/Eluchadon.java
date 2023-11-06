@@ -125,8 +125,8 @@ public class Eluchadon extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:leather", 50, 1, 2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 45, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 36, 45, 0.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

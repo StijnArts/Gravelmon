@@ -114,14 +114,13 @@ public class DeltaRegice extends Pokemon {
                         new MoveLearnSetEntry(Move.WATER_PULSE,"tutor"),
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tutor")
                         ),
-                List.of(Label.GEN3,Label.INSURGENCE),
+                List.of(Label.GEN3,Label.INSURGENCE, Label.LEGENDARY),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 69, 80, 0.003, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Regice");

@@ -102,7 +102,7 @@ public class Kidfoot extends Pokemon {
                         ),
                 List.of(Label.SAGE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 5.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

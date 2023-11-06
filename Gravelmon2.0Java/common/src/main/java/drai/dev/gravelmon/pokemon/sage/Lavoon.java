@@ -102,10 +102,10 @@ public class Lavoon extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:magma",90, 1,2)
-                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 45, 55, 0.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 45, 55, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER, Biome.IS_COLD))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.UNDERWATER),
                 1.2, 0.3,
                 List.of());

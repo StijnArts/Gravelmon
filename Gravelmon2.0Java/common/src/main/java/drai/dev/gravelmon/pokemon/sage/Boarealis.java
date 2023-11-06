@@ -120,10 +120,10 @@ public class Boarealis extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:feather",100, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 56, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE,Biome.IS_LUKEWARM, Biome.IS_ARID, Biome.IS_LUSH))),
+                ), List.of(),
                 List.of(SpawnPreset.RUINED_STRUCTURES),
                 0.5, 0.5,
                 List.of());

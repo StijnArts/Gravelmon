@@ -116,9 +116,8 @@ public class DeltaScyther extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 35, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 45, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING, "true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

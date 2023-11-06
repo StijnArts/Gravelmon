@@ -93,8 +93,8 @@ public class Solacari extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:feather",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 57, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 57, 3.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

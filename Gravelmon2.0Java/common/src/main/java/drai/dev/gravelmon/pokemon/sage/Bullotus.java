@@ -104,7 +104,7 @@ public class Bullotus extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:lily_pad",90, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.RARE, 4, 25, 2.0, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 4, 25, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP,Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -208,10 +208,10 @@ public class Bullotus extends Pokemon {
                         List.of(Label.SAGE),
                         2, List.of(
                         new ItemDrop("minecraft:lily_pad",90, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.RARE, 4, 25, 2.0, List.of(
+                        ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 4, 25, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP,Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                        ), List.of(),
                         List.of(SpawnPreset.WATER_SURFACE),
                         0.4, 0.5
                 )));

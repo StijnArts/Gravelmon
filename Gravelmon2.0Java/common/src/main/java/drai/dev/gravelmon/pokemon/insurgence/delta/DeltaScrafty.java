@@ -123,10 +123,10 @@ public class DeltaScrafty extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 49, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 40, 58, 0.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());

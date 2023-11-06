@@ -85,7 +85,7 @@ public class Erion extends Pokemon {
                 3, List.of(
                         new ItemDrop("minecraft:iron_block",90, 3,10)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 55, 0.0005, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_ABYSS)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.RUINED_STRUCTURES),

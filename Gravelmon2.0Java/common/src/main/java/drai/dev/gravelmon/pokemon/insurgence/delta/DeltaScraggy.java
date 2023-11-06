@@ -114,10 +114,10 @@ public class DeltaScraggy extends Pokemon {
                         ),
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 43, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 43, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,
                 List.of());

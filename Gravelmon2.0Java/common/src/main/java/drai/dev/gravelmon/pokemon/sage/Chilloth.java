@@ -81,11 +81,11 @@ public class Chilloth extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:leather",90, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 2, 17, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 2, 17, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.WATER_SURFACE),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.3, 0.5,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

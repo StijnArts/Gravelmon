@@ -95,7 +95,7 @@ public class Silkinder extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:string",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 10, 17, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 10, 17, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -87,7 +87,7 @@ public class Anvelid extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:iron_ore",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 39, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 23, 39, 0.4, List.of(
                         new SpawnCondition(SpawnConditionType.MAXY,"0"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

@@ -113,7 +113,7 @@ public class Platypow extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:potato",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

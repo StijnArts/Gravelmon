@@ -68,6 +68,7 @@ public class HoennianDodrio extends Pokemon {
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Dodrio");
+        this.setPreEvolution("Doduo");
         this.setPortraitXYZ(0.1,2.0,0.0);
         this.setModeled(true);
         this.setBaseScale(1.6);

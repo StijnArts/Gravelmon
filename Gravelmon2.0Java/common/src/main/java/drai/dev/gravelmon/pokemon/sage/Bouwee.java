@@ -85,7 +85,7 @@ public class Bouwee extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:string",90, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 2, 17, 1.0, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 2, 17, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

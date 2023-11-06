@@ -89,11 +89,11 @@ public class Ignishell extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:obsidian",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 28, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 28, 9.0, List.of(
                         new SpawnCondition(SpawnConditionType.MAXY,"-40"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

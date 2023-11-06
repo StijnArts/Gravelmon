@@ -1,6 +1,6 @@
 package drai.dev.gravelmon;
 
-import drai.dev.gravelmon.games.*;
+import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.jsonwriters.*;
 import drai.dev.gravelmon.pokemon.*;
 

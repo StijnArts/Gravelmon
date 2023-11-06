@@ -96,11 +96,11 @@ public class Magnitogre extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:iron_block",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 57, 0.9, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 57, 2.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.REDSTONE),
+                List.of(SpawnPreset.LAVA_SURFACE),
                 0.8, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

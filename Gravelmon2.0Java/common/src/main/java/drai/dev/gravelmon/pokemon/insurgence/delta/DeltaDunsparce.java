@@ -121,8 +121,8 @@ public class DeltaDunsparce extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 39, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 12, 39, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

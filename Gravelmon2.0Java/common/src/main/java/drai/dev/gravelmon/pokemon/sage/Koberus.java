@@ -108,10 +108,8 @@ public class Koberus extends Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,"egg")
                         ),
                 List.of(Label.SAGE),
-                2, List.of(
-                        new ItemDrop("minecraft:leather",50, 1,2),
-                        new ItemDrop("minecraft:coal",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 6, 28, 2.0, List.of(
+                0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 45, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_HIGHLANDS,Biome.IS_HILLS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

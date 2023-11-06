@@ -123,10 +123,10 @@ public class Crawglock extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 39, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_CAVE)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 23, 39, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_MOUNTAIN, Biome.IS_HILLS))),
+                ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
                 0.4, 0.3,
                 List.of());

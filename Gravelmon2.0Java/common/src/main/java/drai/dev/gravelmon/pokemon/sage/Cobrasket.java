@@ -105,8 +105,8 @@ public class Cobrasket extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:leather",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 30, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 30, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

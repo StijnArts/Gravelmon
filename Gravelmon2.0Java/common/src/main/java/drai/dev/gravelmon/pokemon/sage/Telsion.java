@@ -104,7 +104,7 @@ public class Telsion extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:redstone",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 28, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 45, 0.3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

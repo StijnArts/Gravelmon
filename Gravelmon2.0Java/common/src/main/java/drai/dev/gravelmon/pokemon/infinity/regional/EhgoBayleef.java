@@ -113,9 +113,9 @@ public class EhgoBayleef extends EghoPokemon {
                 2, List.of(
                         new ItemDrop("minecraft:apple",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 31, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_LUKEWARM)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.34, 0.3,
                 List.of());

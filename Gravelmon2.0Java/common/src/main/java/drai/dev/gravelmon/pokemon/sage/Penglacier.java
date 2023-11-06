@@ -122,8 +122,8 @@ public class Penglacier extends Pokemon {
                 5, List.of(
                         new ItemDrop("minecraft:dirt",50, 1,2),
                         new ItemDrop("minecraft:ice",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 28, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 56, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

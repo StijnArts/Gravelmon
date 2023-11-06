@@ -120,10 +120,10 @@ public class DeltaTrevenant extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 55, 0.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 52, 0.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of( new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.34, 0.3,
                 List.of());

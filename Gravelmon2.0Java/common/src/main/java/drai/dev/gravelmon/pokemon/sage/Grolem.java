@@ -104,7 +104,7 @@ public class Grolem extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:mossy_cobblestone",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 28, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 28, 4.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

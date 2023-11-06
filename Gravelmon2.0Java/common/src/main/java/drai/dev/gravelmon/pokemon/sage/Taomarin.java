@@ -122,10 +122,10 @@ public class Taomarin extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:cocao_beans",45, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 32, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 32, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_TEMPERATE))),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.5,
                 List.of());

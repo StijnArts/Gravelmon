@@ -104,9 +104,8 @@ public class DeltaFroslass extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 52, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 58, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_DESERT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.33, 0.3,
@@ -133,6 +132,7 @@ public class DeltaFroslass extends Pokemon {
                         0.38, 0.3
                 )));
         this.setLangFileName("Froslass");
+        this.setCanFly(true);
         this.setPortraitXYZ(0,1.8,0);
     }
 }

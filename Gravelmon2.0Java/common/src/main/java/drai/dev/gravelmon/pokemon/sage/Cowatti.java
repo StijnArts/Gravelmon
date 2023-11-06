@@ -89,7 +89,7 @@ public class Cowatti extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:redstone",100, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE, Biome.IS_FOREST)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

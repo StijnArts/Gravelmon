@@ -82,8 +82,8 @@ public class EhgoAzurill extends EghoPokemon {
                 List.of(Label.INFINITY, Label.GEN3),
                 4, List.of(
                         new ItemDrop("minecraft:sand",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

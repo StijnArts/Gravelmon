@@ -109,10 +109,9 @@ public class Lukagon extends Pokemon {
                 List.of(Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:leather",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 35, 53, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 0.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.IS_RAINING, "false"),
-                        new SpawnCondition(SpawnConditionType.MOONPHASE, "1,2,8"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

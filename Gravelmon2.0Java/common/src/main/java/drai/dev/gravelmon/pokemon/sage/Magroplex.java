@@ -93,7 +93,7 @@ public class Magroplex extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:iron_ore",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 59, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 43, 59, 1.0, List.of(
                         new SpawnCondition(SpawnConditionType.MAXY,"-30"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

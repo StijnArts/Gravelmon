@@ -99,7 +99,7 @@ public class Hoppanero extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:seeds",100, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 42, 0.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

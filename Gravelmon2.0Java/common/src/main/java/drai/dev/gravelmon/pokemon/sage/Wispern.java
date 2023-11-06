@@ -105,10 +105,11 @@ public class Wispern extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:stick",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 28, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 28, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TROPICAL_ISLAND, Biome.IS_TROPICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD,Biome.IS_TEMPERATE))),
+                ), List.of(),
                 List.of(SpawnPreset.URBAN),
                 0.18, 0.3,
                 List.of());

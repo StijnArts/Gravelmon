@@ -117,10 +117,10 @@ public class Berratel extends Pokemon {
                 4, List.of(
                         new ItemDrop("minecraft:sweet_berry",50, 1,2),
                         new ItemDrop("minecraft:apple",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 46, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 18, 46, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
                 List.of(SpawnPreset.URBAN),
                 0.5, 0.5,
                 List.of());

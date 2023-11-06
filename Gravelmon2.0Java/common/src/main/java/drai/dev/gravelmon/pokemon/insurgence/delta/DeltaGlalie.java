@@ -108,9 +108,8 @@ public class DeltaGlalie extends Pokemon {
                         ),
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 52, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 58, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_MOUNTAIN))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.31, 0.3,
@@ -137,6 +136,7 @@ public class DeltaGlalie extends Pokemon {
                         0.38, 0.3
                 )));
         this.setLangFileName("Glalie");
+        this.setCanFly(true);
         this.setPortraitXYZ(0,1.8,0);
     }
 }

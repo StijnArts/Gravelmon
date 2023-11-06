@@ -74,10 +74,9 @@ public class Dinkywink extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 4, 25, 5.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP, Biome.IS_ABYSS)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_MOUNTAIN, Biome.IS_HILLS, Biome.IS_COLD))),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 14, 34, 5.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN, Biome.IS_DEEP_DARK))
+                ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
                 0.4, 0.3,
                 List.of());

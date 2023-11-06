@@ -89,11 +89,9 @@ public class EhgoMagnemite extends EghoPokemon {
                         new MoveLearnSetEntry(Move.TOXIC_SPIKES,"egg")
                         ),
                 List.of(Label.INFINITY, Label.GEN1),
-                4, List.of(
-                        new ItemDrop("minecraft:vines",50, 1,2)
+                0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,

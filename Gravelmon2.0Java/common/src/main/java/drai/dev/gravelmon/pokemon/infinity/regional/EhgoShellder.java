@@ -96,8 +96,7 @@ public class EhgoShellder extends EghoPokemon {
                         new MoveLearnSetEntry(Move.SWALLOW,"egg")
                         ),
                 List.of(Label.GEN1,Label.INFINITY),
-                2, List.of(
-                        new ItemDrop("minecraft:iron_nugget",50, 1,2)
+                0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 20, 34, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

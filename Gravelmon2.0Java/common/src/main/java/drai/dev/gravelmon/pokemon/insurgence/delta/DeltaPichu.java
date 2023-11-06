@@ -102,12 +102,12 @@ public class DeltaPichu extends Pokemon {
                         ),
                 List.of(Label.INSURGENCE, Label.GEN2),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 17, 5.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.17, 0.3,
                 List.of());
         this.setLangFileName("Pichu");

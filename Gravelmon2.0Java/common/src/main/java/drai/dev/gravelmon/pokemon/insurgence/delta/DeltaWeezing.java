@@ -121,7 +121,7 @@ public class DeltaWeezing extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 54, 0.2, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 57, 2.0, List.of(
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true")
                 ), List.of(),

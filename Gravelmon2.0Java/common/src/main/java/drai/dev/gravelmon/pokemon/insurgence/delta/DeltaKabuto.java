@@ -92,9 +92,9 @@ public class DeltaKabuto extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 43, 2.0, List.of(
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.29, 0.3,

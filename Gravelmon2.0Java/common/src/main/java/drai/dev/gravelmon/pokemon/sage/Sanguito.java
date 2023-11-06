@@ -90,7 +90,7 @@ public class Sanguito extends Pokemon {
                 List.of(Label.SAGE),
                 4, List.of(
                         new ItemDrop("minecraft:spider_eye",100, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.RARE, 35, 50, 1.5, List.of(
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 35, 50, 1.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER,Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")

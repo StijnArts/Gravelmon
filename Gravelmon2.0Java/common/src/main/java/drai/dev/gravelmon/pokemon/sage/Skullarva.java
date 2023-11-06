@@ -36,7 +36,7 @@ public class Skullarva extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 17, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+            ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.2, 0.5,
                 List.of());

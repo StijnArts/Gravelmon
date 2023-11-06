@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.games;
+package drai.dev.gravelmon.games.registry;
 
 import drai.dev.gravelmon.pokemon.*;
 

@@ -88,8 +88,8 @@ public class Glauqua extends Pokemon {
                 List.of(Label.SAGE),
                 4, List.of(
                         new ItemDrop("minecraft:slime_ball",100, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 2.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM,Biome.IS_REEF)),
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN,Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP,Biome.IS_FRESHWATER))),
                 List.of(SpawnPreset.WATER_SURFACE),

@@ -94,11 +94,11 @@ public class Pawter extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:bone",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 22, 4.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+            List.of(SpawnPreset.NEAR_WATER),
                 0.3, 0.5,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

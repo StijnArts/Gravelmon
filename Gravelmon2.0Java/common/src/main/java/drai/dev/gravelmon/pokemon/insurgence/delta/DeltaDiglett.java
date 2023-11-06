@@ -96,11 +96,9 @@ public class DeltaDiglett extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 35, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING, "true"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 25, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

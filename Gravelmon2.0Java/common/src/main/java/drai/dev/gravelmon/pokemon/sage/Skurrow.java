@@ -99,10 +99,9 @@ public class Skurrow extends Pokemon {
                         new MoveLearnSetEntry(Move.WRING_OUT,"egg")
                         ),
                 List.of(Label.SAGE),
-                2, List.of(
-                        new ItemDrop("minecraft:feather",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 56, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT,Biome.IS_ARID)),
+                0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 56, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -96,7 +96,7 @@ public class Minarac extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:string",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 17, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 17, 5.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -117,7 +117,7 @@ public class Macabra extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 9, 29, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID))),
                 List.of(SpawnPreset.NATURAL),
                 0.5, 0.5,
                 List.of());

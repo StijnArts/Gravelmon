@@ -109,8 +109,8 @@ public class DeltaFrogadier extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 33, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

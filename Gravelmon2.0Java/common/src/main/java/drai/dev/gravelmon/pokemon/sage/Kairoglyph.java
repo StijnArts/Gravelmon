@@ -126,8 +126,8 @@ public class Kairoglyph extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:sandstone",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 43, 61, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 61, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

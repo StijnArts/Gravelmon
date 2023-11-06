@@ -115,7 +115,7 @@ public class Gnuru extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:leather",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 56, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 40, 56, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS,Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -119,9 +119,8 @@ public class DeltaScizor extends Pokemon {
                         ),
                 List.of(Label.GEN2,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 51, 0.2, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 58, 0.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING, "true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

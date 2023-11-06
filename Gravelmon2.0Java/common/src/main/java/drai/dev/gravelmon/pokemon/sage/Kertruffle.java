@@ -88,7 +88,7 @@ public class Kertruffle extends Pokemon {
                         new ItemDrop("minecraft:brown_mushroom",50, 1,2),
                         new ItemDrop("minecraft:red_mushroom",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 28, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_MUSHROOM)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

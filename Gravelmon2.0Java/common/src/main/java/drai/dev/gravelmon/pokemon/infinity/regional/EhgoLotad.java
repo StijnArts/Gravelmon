@@ -90,11 +90,10 @@ public class EhgoLotad extends EghoPokemon {
                         ),
                 List.of(Label.INFINITY, Label.GEN3),
                 4, List.of(
-                        new ItemDrop("minecraft:egg",50, 1,2)
-                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER))
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
-                List.of(SpawnPreset.LAVA_SURFACE),
+                List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Lotad");

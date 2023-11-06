@@ -91,7 +91,7 @@ public class Growmeo extends Pokemon {
                 List.of(Label.SAGE),
                 4, List.of(
                         new ItemDrop("minecraft:seeds",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 29, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 29, 4.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

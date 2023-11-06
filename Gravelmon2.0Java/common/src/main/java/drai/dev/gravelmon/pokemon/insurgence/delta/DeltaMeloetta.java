@@ -132,13 +132,13 @@ public class DeltaMeloetta extends Pokemon {
                         new MoveLearnSetEntry(Move.WONDER_ROOM,"tutor"),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tutor")
                         ),
-                List.of(Label.GEN5,Label.INSURGENCE),
+                List.of(Label.GEN5,Label.INSURGENCE, Label.MYTHICAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 43, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 70, 0.0002, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.22, 0.3,
                 List.of(new PokemonForm(
                         "Magician", true,

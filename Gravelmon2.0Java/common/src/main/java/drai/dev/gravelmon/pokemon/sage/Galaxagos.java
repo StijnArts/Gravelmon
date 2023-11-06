@@ -102,7 +102,7 @@ public class Galaxagos extends Pokemon {
                 List.of(Label.SAGE),
                 4, List.of(
                         new ItemDrop("minecraft:deepslate",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 43, 67, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),

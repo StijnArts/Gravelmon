@@ -100,7 +100,7 @@ public class Burrmudail extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 28, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_PLAINS))),
                 List.of(SpawnPreset.NATURAL),
                 0.5, 0.5,
                 List.of());

@@ -93,7 +93,7 @@ public class Lumishroom extends Pokemon {
                         new ItemDrop("minecraft:brown_mushroom",50, 1,2),
                         new ItemDrop("minecraft:redstone",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 28, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_MUSHROOM)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

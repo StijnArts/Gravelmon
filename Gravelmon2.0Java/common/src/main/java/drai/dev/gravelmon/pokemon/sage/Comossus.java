@@ -113,7 +113,7 @@ public class Comossus extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:mossy_cobblestone",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 42, 59, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 42, 59, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

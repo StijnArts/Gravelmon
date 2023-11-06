@@ -153,11 +153,11 @@ public class DeltaElectivire extends Pokemon {
                         ),
                 List.of(Label.GEN4,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 60, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.RUINED_STRUCTURES),
                 0.25, 0.3,
                 List.of());
         this.setLangFileName("Electivire");

@@ -59,11 +59,11 @@ public class HoennianEmolga extends EghoPokemon {
                         ),
                 List.of(Label.BLAZING_EMERALD, Label.GEN5),
                 4, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 32, 1.9, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 32, 1.9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
         this.setCanFly(true);

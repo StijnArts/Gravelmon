@@ -99,7 +99,7 @@ public class Kablowfish extends Pokemon {
                 List.of(Label.INFINITY),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 44, 56, 1.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM,Biome.IS_REEF)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN,Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),

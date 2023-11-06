@@ -96,8 +96,8 @@ public class Jawgodon extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 37, 51, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_LUKEWARM)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 37, 51, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_LUKEWARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_MOUNTAIN, Biome.IS_HILLS))),
                 List.of(SpawnPreset.UNDERWATER),

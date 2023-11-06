@@ -111,7 +111,7 @@ public class Wardern extends Pokemon {
                 ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 33, 0.3, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 33, 0.3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

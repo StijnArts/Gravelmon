@@ -102,7 +102,7 @@ public class DeltaKirlia extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 38, 8.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

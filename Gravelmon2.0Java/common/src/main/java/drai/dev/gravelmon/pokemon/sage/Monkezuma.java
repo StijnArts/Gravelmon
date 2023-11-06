@@ -90,7 +90,7 @@ public class Monkezuma extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:cocoa_beans",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 59, 0.2, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 59, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

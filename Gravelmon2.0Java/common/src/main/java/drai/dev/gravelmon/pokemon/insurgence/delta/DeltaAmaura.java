@@ -105,9 +105,8 @@ public class DeltaAmaura extends Pokemon {
                         ),
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 12, 34, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_WARM_OCEAN))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.30, 0.3,

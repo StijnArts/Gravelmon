@@ -61,7 +61,7 @@ public class HoennianSkarmory extends Pokemon {
                 List.of(Label.GEN2,Label.BLAZING_EMERALD),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 20, 46, 10.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_NETHER)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_SOUL_SAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

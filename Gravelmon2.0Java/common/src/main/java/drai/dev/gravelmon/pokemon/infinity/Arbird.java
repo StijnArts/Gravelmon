@@ -81,7 +81,7 @@ public class Arbird extends Pokemon {
                         ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 16, 3.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 16, 5.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -1,9 +1,9 @@
 package drai.dev.gravelmon.games;
 
-import drai.dev.gravelmon.pokemon.*;
+import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.infinity.*;
 
-public class Infinity extends Game{
+public class Infinity extends Game {
     public Infinity() {
         super("Infinity");
     }
@@ -57,7 +57,6 @@ public class Infinity extends Game{
         //TODO add move eevoboost to eevee evolution moves
         pokemon.add(new Eeveeon());
         pokemon.add(new Vareon());
-        //TODO change evolution item to long bone once implemented
         pokemon.add(new Terathwack());
 
         pokemon.add(new Grimfowl());

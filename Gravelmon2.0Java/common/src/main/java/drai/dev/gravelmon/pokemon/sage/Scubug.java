@@ -93,7 +93,8 @@ public class Scubug extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:string",90, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 27, 38, 1.0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 27, 38, 1.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.MAXY, "40"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

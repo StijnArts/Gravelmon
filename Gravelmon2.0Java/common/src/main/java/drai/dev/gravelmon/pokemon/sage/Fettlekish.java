@@ -93,10 +93,9 @@ public class Fettlekish extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 30, 45, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_LUKEWARM, Biome.IS_ARID)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_MOUNTAIN, Biome.IS_HILLS))),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 30, 45, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_LUKEWARM_OCEAN))
+                ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
                 0.4, 0.5,
                 List.of());

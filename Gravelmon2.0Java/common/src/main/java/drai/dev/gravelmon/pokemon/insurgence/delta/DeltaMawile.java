@@ -140,8 +140,8 @@ public class DeltaMawile extends Pokemon {
                         ),
                 List.of(Label.GEN1,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 48, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 38, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

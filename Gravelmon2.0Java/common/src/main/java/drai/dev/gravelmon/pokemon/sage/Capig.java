@@ -102,7 +102,7 @@ public class Capig extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());

@@ -86,10 +86,9 @@ public class Glocto extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:magma",90, 1,2)
-                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 10, 30, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER, Biome.IS_COLD))),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 10, 30, 4.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.UNDERWATER),
                 0.3, 0.5,
                 List.of());

@@ -105,7 +105,7 @@ public class Musburry extends Pokemon {
                         new ItemDrop("minecraft:sweet_berry",40, 1,3),
                         new ItemDrop("minecraft:glow_berry",40, 1,3),
                         new ItemDrop("cobblemon:berry_sweet",20, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 32, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

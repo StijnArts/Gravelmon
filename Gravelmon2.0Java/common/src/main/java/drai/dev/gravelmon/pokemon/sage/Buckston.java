@@ -93,9 +93,9 @@ public class Buckston extends Pokemon {
                         new ItemDrop("minecraft:leather",50, 1,2),
                         new ItemDrop("minecraft:berries",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 55, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_MOUNTAIN))),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.5,
                 List.of());

@@ -86,7 +86,7 @@ public class Crakling extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:gunpowder",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 28, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 28, 5.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

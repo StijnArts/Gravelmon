@@ -110,7 +110,7 @@ public class EhgoBlissey extends EghoPokemon {
                 List.of(Label.INFINITY, Label.GEN2),
                 1, List.of(
                         new ItemDrop("cobblemon:oval_stone",20, 1,1)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 50, 0.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 70, 0.3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

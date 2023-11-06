@@ -93,7 +93,7 @@ public class Basilect extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:string",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 63, 0.2, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 69, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

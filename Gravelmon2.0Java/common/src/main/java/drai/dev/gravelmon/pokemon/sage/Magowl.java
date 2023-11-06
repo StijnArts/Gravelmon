@@ -103,10 +103,10 @@ public class Magowl extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:feather",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 56, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT,Biome.IS_ARID)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 56, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.5, 0.5,
                 List.of());

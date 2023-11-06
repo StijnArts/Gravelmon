@@ -115,14 +115,12 @@ public class DeltaRegisteel extends Pokemon {
                         new MoveLearnSetEntry(Move.SUPERPOWER,"tutor"),
                         new MoveLearnSetEntry(Move.THUNDER_PUNCH,"tutor")
                         ),
-                List.of(Label.GEN3,Label.INSURGENCE),
+                List.of(Label.GEN3,Label.INSURGENCE, Label.LEGENDARY),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 69, 80, 0.00003, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.LAVA_SURFACE),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Registeel");

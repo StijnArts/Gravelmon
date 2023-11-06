@@ -19,10 +19,10 @@ public class ModItemTagGenerator extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void addTags(HolderLookup.Provider arg) {
         getOrCreateTagBuilder(CobblemonItemTags.EVOLUTION_STONES)
-                .add(GravelmonItems.ASTRAL_STONE_ORE.get(),
-                        GravelmonItems.AIR_STONE_ORE.get(),
-                        GravelmonItems.MYSTIC_STONE_ORE.get(),
-                        GravelmonItems.MYSTIC_STONE_ORE.get(),
+                .add(GravelmonItems.ASTRAL_STONE.get(),
+                        GravelmonItems.AIR_STONE.get(),
+                        GravelmonItems.MYSTIC_STONE.get(),
+                        GravelmonItems.SOLID_STONE.get(),
                         GravelmonItems.XENOLITH.get());
          var generatedFolder = pathProvider.file(new ResourceLocation("cobblemon","blocks"),".json")
                 .getParent().getParent().getParent().getParent().getParent().getParent().toString()+"\\resources";

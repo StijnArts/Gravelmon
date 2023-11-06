@@ -43,7 +43,7 @@ public class Maskoon extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 35, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.3, 0.5,
                 List.of());

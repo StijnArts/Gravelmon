@@ -107,10 +107,9 @@ public class Necronite extends Pokemon {
                         new MoveLearnSetEntry(Move.PAIN_SPLIT,"tutor")
                         ),
                 List.of(Label.SAGE),
-                2, List.of(
-                        new ItemDrop("minecraft:sandstone",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 6.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.RUINED_STRUCTURES),

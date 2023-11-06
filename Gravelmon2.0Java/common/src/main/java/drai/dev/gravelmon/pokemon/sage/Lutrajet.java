@@ -102,9 +102,10 @@ public class Lutrajet extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 4, 25, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.5, 0.3,
                 List.of());
         this.setCanSwim(true);

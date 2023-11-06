@@ -104,8 +104,8 @@ public class Volcaroc extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:magma",100, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 39, 0.7, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_DESERT, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 39, 1.7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_NETHER_BASALT, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERGROUND),

@@ -86,13 +86,11 @@ public class Bluffin extends Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"egg")
                         ),
                 List.of(Label.SAGE),
-                2, List.of(
-                        new ItemDrop("minecraft:feather",50, 1,2),
-                        new ItemDrop("minecraft:ice",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 6.0, List.of(
+                0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 28, 6.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_PLAINS))),
                 List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,
                 List.of());

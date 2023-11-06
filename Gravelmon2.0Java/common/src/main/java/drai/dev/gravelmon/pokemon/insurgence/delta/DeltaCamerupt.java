@@ -104,9 +104,9 @@ public class DeltaCamerupt extends Pokemon {
                         ),
                 List.of(Label.GEN3,Label.INSURGENCE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 59, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
-                        new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING, "true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -95,8 +95,8 @@ public class Shroomage extends Pokemon {
                         ),
                 List.of(Label.SAGE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 52, 1.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 52, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MAGICAL, Biome.IS_MUSHROOM)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
                 List.of(SpawnPreset.NATURAL),

@@ -1,6 +1,6 @@
 package drai.dev.gravelmon.jsonwriters;
 
-import drai.dev.gravelmon.games.*;
+import drai.dev.gravelmon.games.registry.*;
 
 public class JSONOutputGenerator {
     public static void generate(String resourcesDir) {

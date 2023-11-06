@@ -88,11 +88,11 @@ public class Atomite extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:spider_eye",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 2, 17, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 17, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.NATURAL),
                 0.2, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

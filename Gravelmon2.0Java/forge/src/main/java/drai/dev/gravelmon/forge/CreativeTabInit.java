@@ -265,7 +265,7 @@ public class CreativeTabInit {
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().put(GravelmonItems.ARO_BALL.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-        });
+        }
     }
 
     private static String baseLangKeyForItem(ItemStack stack) {

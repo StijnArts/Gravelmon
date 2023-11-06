@@ -104,7 +104,7 @@ public class Vectol2 extends Pokemon {
                 List.of(Label.SAGE),
                 1, List.of(
                         new ItemDrop("gravelmon:corrupted_disc",40, 1,1)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 2, 17, 0.2, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 22, 45, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -87,7 +87,7 @@ public class Tozecko extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:seeds",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 58, 0.05, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 58, 0.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

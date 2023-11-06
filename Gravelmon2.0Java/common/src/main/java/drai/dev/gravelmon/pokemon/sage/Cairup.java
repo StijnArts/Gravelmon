@@ -100,8 +100,8 @@ public class Cairup extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:sandstone",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 28, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

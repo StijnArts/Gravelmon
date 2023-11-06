@@ -118,7 +118,7 @@ public class Dilophlora extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:leather",90, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 56, 0.4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 56, 1.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

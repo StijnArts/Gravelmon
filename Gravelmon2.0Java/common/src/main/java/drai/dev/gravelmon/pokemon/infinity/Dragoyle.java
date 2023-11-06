@@ -113,7 +113,7 @@ public class Dragoyle extends Pokemon {
                 ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 46, 55, 0.03, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 46, 55, 0.3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),

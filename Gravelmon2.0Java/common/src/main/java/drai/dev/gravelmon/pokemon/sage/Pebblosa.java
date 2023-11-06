@@ -90,10 +90,8 @@ public class Pebblosa extends Pokemon {
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"egg")
                         ),
                 List.of(Label.SAGE),
-                2, List.of(
-                        new ItemDrop("minecraft:leather",50, 1,2),
-                        new ItemDrop("minecraft:sand",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 28, 6.0, List.of(
+                0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 28, 4.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

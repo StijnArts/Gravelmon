@@ -121,7 +121,7 @@ public class Kobalt extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:leather",50, 1,2),
                         new ItemDrop("minecraft:steel",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 6, 28, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 45, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_HIGHLANDS,Biome.IS_HILLS)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")

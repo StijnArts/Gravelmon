@@ -89,7 +89,7 @@ public class Kokiseed extends Pokemon {
                 List.of(Label.INFINITY),
                 2, List.of(
                         new ItemDrop("minecraft:seeds",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 8.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -110,7 +110,7 @@ public class Forthorn extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:dead_bush",50, 1,2)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 45, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 45, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")

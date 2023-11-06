@@ -98,10 +98,11 @@ public class Cascotta extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 4, 25, 2.0, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 24, 35, 0.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.4, 0.3,
                 List.of());
         this.setCanSwim(true);

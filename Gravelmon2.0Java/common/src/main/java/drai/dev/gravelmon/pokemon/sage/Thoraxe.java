@@ -93,8 +93,8 @@ public class Thoraxe extends Pokemon {
                 List.of(Label.SAGE),
                 2, List.of(
                         new ItemDrop("minecraft:iron_axe",100, 1,1)
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 57, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE,Biome.IS_FOREST)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 57, 1.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
