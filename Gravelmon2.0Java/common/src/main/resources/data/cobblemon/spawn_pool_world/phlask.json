@@ -13,10 +13,10 @@
       "context": "grounded",
       "bucket": "common",
       "level": "4-20",
-      "weight": 1.0,
+      "weight": 2.0,
       "condition": {
 "biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_abyss" ],
+"#cobblemon:is_deep_dark" ],
         "canSeeSky": true
       }
     }

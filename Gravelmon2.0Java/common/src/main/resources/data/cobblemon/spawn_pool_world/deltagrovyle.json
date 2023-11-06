@@ -15,9 +15,12 @@
       "level": "3-22",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
+"biomes": [ "#cobblemon:is_plains" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold",
+"#cobblemon:is_arid" ]    }
     }
   ]
 }

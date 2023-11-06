@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "20-38",
-      "weight": 0.5,
+      "weight": 2.5,
       "condition": {
 "biomes": [ "#cobblemon:is_forest" ],
         "canSeeSky": true

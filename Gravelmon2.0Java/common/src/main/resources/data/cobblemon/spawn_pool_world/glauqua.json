@@ -11,11 +11,11 @@
       ],
       "type": "pokemon",
       "context": "surface",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "3-22",
-      "weight": 2.5,
+      "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:is_lukewarm",
+"biomes": [ "#cobblemon:is_lukewarm_ocean",
 "#cobblemon:is_reef" ],
         "canSeeSky": true
       },

@@ -7,13 +7,13 @@
       "id": "flarrapin-1",
       "pokemon": "flarrapin",
       "presets": [
-          "underground"
+          "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "46-59",
-      "weight": 1.0,
+      "weight": 6.0,
       "condition": {
         "maxY": -40,
         "canSeeSky": false

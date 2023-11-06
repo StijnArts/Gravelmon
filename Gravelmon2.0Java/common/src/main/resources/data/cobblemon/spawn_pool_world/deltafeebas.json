@@ -10,14 +10,12 @@
           "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 8.0,
+      "level": "10-22",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "isThundering": true,
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky" ]
       }
     }
   ]

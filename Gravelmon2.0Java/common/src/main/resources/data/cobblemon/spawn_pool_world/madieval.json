@@ -15,10 +15,12 @@
       "level": "34-54",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "timeRange": "night",
-        "canSeeSky": false
-      }
+"biomes": [ "#cobblemon:is_badlands",
+"#cobblemon:is_magical" ],
+        "timeRange": "day"
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_forest" ]    }
     }
   ]
 }

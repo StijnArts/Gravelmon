@@ -13,9 +13,9 @@
       "context": "submerged",
       "bucket": "uncommon",
       "level": "4-15",
-      "weight": 1.0,
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_lukewarm" ],
+"biomes": [ "#cobblemon:is_lukewarm_ocean" ],
         "canSeeSky": true
       },
       "anticondition": {

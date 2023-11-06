@@ -11,7 +11,7 @@
       ],
       "type": "pokemon",
       "context": "surface",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "4-25",
       "weight": 2.0,
       "condition": {

@@ -7,15 +7,15 @@
       "id": "egholotad-1",
       "pokemon": "egholotad",
       "presets": [
-          "lava_surface"
+          "natural"
       ],
       "type": "pokemon",
       "context": "surface",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "3-22",
-      "weight": 2.0,
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ]
+"biomes": [ "#cobblemon:is_nether_forest" ]
       }
     }
   ]

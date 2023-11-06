@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
+      "bucket": "common",
       "level": "12-22",
-      "weight": 2.0,
+      "weight": 5.0,
       "condition": {
 "biomes": [ "#cobblemon:is_savanna" ],
         "timeRange": "day",

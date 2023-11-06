@@ -18,7 +18,9 @@
 "biomes": [ "#cobblemon:is_plains" ],
         "isThundering": true,
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold" ]    }
     }
   ]
 }

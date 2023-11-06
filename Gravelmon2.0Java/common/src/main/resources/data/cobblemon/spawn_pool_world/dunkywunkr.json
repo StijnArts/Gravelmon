@@ -15,15 +15,9 @@
       "level": "38-51",
       "weight": 0.1,
       "condition": {
-"biomes": [ "#cobblemon:is_deep",
-"#cobblemon:is_abyss" ],
-        "canSeeSky": true
-      },
-      "anticondition": {
-"biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_mountain",
-"#cobblemon:is_hills",
-"#cobblemon:is_cold" ]    }
+"biomes": [ "#minecraft:is_deep_ocean",
+"#cobblemon:is_deep_dark" ]
+      }
     }
   ]
 }

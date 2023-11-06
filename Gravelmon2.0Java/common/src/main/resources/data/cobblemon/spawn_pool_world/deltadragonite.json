@@ -10,13 +10,13 @@
           "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "rare",
-      "level": "12-43",
+      "context": "surface",
+      "bucket": "ultra-rare",
+      "level": "45-62",
       "weight": 2.0,
       "condition": {
-        "canSeeSky": true,
-        "isThundering": true
+"biomes": [ "#cobblemon:is_freshwater" ],
+        "canSeeSky": true
       }
     }
   ]

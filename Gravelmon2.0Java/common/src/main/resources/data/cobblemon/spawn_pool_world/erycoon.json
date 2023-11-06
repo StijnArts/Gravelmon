@@ -13,10 +13,9 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "18-32",
-      "weight": 0.9,
+      "weight": 2.9,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle",
-"#cobblemon:is_forest" ],
+"biomes": [ "#cobblemon:is_forest" ],
         "canSeeSky": true,
         "timeRange": "day"
       }

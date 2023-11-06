@@ -13,10 +13,12 @@
       "context": "grounded",
       "bucket": "common",
       "level": "3-22",
-      "weight": 0.5,
+      "weight": 4.5,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_desert",
+"#cobblemon:is_badlands" ],
+        "canSeeSky": true,
+        "timeRange": "night"
       }
     }
   ]

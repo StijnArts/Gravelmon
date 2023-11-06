@@ -11,11 +11,13 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
+      "bucket": "rare",
       "level": "36-52",
       "weight": 1.5,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+"biomes": [ "#cobblemon:is_taiga",
+"#cobblemon:is_magical",
+"#cobblemon:is_mushroom" ],
         "canSeeSky": true
       },
       "anticondition": {

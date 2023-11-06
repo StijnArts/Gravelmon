@@ -11,13 +11,16 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "30-55",
-      "weight": 0.5,
+      "bucket": "common",
+      "level": "30-52",
+      "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ],
+"biomes": [ "#cobblemon:is_floral" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_plains",
+"#cobblemon:is_autumn" ]    }
     }
   ]
 }

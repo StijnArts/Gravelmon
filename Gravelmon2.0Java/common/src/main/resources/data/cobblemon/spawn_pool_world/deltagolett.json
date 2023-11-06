@@ -13,9 +13,9 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "12-43",
-      "weight": 2.0,
+      "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
+"biomes": [ "#cobblemon:is_nether_desert" ],
         "canSeeSky": true
       }
     }

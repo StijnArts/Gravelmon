@@ -7,15 +7,15 @@
       "id": "deltamagmar-1",
       "pokemon": "deltamagmar",
       "presets": [
-          "natural"
+          "ocean_monument"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 8.0,
+      "bucket": "common",
+      "level": "30-49",
+      "weight": 0.9,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
+"biomes": [ "#minecraft:is_ocean" ],
         "canSeeSky": false
       }
     }

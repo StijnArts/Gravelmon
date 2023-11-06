@@ -7,21 +7,17 @@
       "id": "soakoth-1",
       "pokemon": "soakoth",
       "presets": [
-          "water_surface"
+          "near_water"
       ],
       "type": "pokemon",
       "context": "surface",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "30-51",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_freshwater" ],
+"biomes": [ "#cobblemon:is_jungle" ],
         "canSeeSky": true
-      },
-      "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_arid",
-"#cobblemon:is_temperate" ]    }
+      }
     }
   ]
 }

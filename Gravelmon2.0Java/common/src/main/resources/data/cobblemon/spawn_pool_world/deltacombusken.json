@@ -7,16 +7,15 @@
       "id": "deltacombusken-1",
       "pokemon": "deltacombusken",
       "presets": [
-          "natural"
+          "desert_temple"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "3-22",
+      "bucket": "rare",
+      "level": "16-32",
       "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_desert" ]
       }
     }
   ]

@@ -7,15 +7,15 @@
       "id": "deltamagby-1",
       "pokemon": "deltamagby",
       "presets": [
-          "natural"
+          "ocean_monument"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "3-22",
-      "weight": 8.0,
+      "weight": 9.0,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
+"biomes": [ "#minecraft:is_ocean" ],
         "canSeeSky": false
       }
     }

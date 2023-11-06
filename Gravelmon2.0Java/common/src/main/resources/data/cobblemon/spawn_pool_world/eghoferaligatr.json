@@ -15,7 +15,7 @@
       "level": "30-42",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_swamp" ],
+"biomes": [ "#cobblemon:is_badlands" ],
         "canSeeSky": true
       }
     }

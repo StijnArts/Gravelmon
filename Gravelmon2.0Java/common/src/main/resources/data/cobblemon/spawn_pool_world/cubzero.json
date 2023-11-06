@@ -11,14 +11,15 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "6-28",
       "weight": 6.0,
       "condition": {
 "biomes": [ "#cobblemon:is_snowy" ],
-        "isRaining": true,
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_hills" ]    }
     }
   ]
 }

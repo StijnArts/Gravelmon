@@ -11,12 +11,12 @@
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "37-51",
       "weight": 2.0,
       "condition": {
 "biomes": [ "#cobblemon:is_reef",
-"#cobblemon:is_lukewarm" ],
+"#cobblemon:is_lukewarm_ocean" ],
         "canSeeSky": true
       },
       "anticondition": {

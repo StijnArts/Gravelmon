@@ -7,15 +7,15 @@
       "id": "deltaelectivire-1",
       "pokemon": "deltaelectivire",
       "presets": [
-          "natural"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 8.0,
+      "level": "45-60",
+      "weight": 0.2,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
+"biomes": [ "#cobblemon:is_overworld" ],
         "canSeeSky": false
       }
     }

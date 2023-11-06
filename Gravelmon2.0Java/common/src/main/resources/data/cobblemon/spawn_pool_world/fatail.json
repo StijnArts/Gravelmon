@@ -11,14 +11,13 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "31-56",
-      "weight": 2.0,
+      "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_badlands" ],
-        "timeRange": "night",
-        "canSeeSky": false
+"biomes": [ "#cobblemon:is_spooky",
+"#cobblemon:is_swamp" ],
+        "timeRange": "night"
       }
     }
   ]

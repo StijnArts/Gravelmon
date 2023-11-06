@@ -12,12 +12,12 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 8.0,
+      "level": "40-59",
+      "weight": 0.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "isThundering": true,
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_nether_soul_sand",
+"#cobblemon:is_nether_soul_fire",
+"#cobblemon:is_nether_basalt" ]
       }
     }
   ]

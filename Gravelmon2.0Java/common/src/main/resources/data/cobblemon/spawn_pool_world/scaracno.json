@@ -13,10 +13,10 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "9-20",
-      "weight": 2.5,
+      "weight": 4.5,
       "condition": {
 "biomes": [ "#cobblemon:is_spooky" ],
-        "canSeeSky": true
+        "timeRange": "night"
       }
     }
   ]

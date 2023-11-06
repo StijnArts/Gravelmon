@@ -7,7 +7,7 @@
       "id": "lutrajet-1",
       "pokemon": "lutrajet",
       "presets": [
-          "underwater"
+          "near_water"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,6 +15,7 @@
       "level": "4-25",
       "weight": 0.2,
       "condition": {
+"biomes": [ "#cobblemon:is_river" ],
         "canSeeSky": true
       }
     }

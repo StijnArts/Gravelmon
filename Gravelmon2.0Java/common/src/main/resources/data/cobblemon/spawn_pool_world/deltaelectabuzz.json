@@ -7,15 +7,15 @@
       "id": "deltaelectabuzz-1",
       "pokemon": "deltaelectabuzz",
       "presets": [
-          "natural"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 8.0,
+      "level": "30-45",
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
+"biomes": [ "#cobblemon:is_overworld" ],
         "canSeeSky": false
       }
     }

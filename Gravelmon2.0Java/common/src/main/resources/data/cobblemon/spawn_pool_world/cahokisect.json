@@ -7,12 +7,12 @@
       "id": "cahokisect-1",
       "pokemon": "cahokisect",
       "presets": [
-          "underground"
+          "desert_temple"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "18-27",
+      "bucket": "uncommon",
+      "level": "35-56",
       "weight": 3.0,
       "condition": {
 "biomes": [ "#cobblemon:is_desert" ],
