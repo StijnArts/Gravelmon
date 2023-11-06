@@ -11,12 +11,11 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "26-56",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_arid" ],
+"biomes": [ "#cobblemon:is_desert" ],
         "canSeeSky": true
       }
     }

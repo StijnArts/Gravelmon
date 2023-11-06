@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arjibi",
-  "nationalPokedexNumber": 1284,
+  "nationalPokedexNumber": 1283,
   "primaryType": "normal",
   "abilities": [
     "infiltrator",
@@ -48,12 +48,12 @@
     "dragon"
   ],
   "drops": {
-    "amount": "2",
+    "amount": "1",
     "entries": [
       {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
+        "item": "gravelmon:kaleidoscope",
+        "quantityRange": "1-1",
+        "percentage": 10
       }
     ]
   },

@@ -17,7 +17,10 @@
       "condition": {
 "biomes": [ "#cobblemon:is_snowy" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_plains",
+"#cobblemon:is_forest" ]    }
     }
   ]
 }

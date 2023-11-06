@@ -12,10 +12,10 @@
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "12-43",
+      "level": "34-58",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
+"biomes": [ "#cobblemon:is_deep_dark" ],
         "canSeeSky": true
       }
     }

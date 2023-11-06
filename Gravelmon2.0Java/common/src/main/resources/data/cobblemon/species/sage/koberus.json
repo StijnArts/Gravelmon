@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "koberus",
-  "nationalPokedexNumber": 1125,
+  "nationalPokedexNumber": 1124,
   "primaryType": "dark",
   "secondaryType": "fire",
   "abilities": [
@@ -49,21 +49,6 @@
     "monster",
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:coal",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:megahorn",
     "1:sunnyday",

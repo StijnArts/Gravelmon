@@ -7,7 +7,7 @@
       "id": "hurricanine-1",
       "pokemon": "hurricanine",
       "presets": [
-          "urban"
+          "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",

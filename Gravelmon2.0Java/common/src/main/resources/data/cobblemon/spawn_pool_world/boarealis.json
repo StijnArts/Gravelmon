@@ -15,15 +15,10 @@
       "level": "26-56",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+"biomes": [ "#cobblemon:is_snowy_forest" ],
         "canSeeSky": true,
         "timeRange": "night"
-      },
-      "anticondition": {
-"biomes": [ "#cobblemon:is_temperate",
-"#cobblemon:is_lukewarm",
-"#cobblemon:is_arid",
-"#cobblemon:is_lush" ]    }
+      }
     }
   ]
 }

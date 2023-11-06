@@ -7,17 +7,15 @@
       "id": "chubiburny-1",
       "pokemon": "chubiburny",
       "presets": [
-          "natural"
+          "near_campfire"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "3-22",
-      "weight": 2.0,
+      "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
-        "timeRange": "day",
-        "canSeeSky": false
+"biomes": [ "#cobblemon:is_forest" ]
       }
     }
   ]

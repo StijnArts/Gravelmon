@@ -18,7 +18,9 @@
 "biomes": [ "#cobblemon:is_forest",
 "#cobblemon:is_jungle" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold" ]    }
     }
   ]
 }

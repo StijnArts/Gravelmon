@@ -16,9 +16,12 @@
       "weight": 8.0,
       "condition": {
 "biomes": [ "#cobblemon:is_island",
-"#cobblemon:is_lukewarm" ],
+"#cobblemon:is_tropical_island" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_arid",
+"#cobblemon:is_cold" ]    }
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghomagnemite",
-  "nationalPokedexNumber": 81,
+  "nationalPokedexNumber": 44,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -49,16 +49,6 @@
     "grass",
     "mineral"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:vines",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "4:supersonic",

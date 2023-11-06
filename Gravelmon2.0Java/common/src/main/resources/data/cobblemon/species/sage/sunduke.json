@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sunduke",
-  "nationalPokedexNumber": 1289,
+  "nationalPokedexNumber": 1288,
   "primaryType": "grass",
   "abilities": [
     "sunbathe",
@@ -51,7 +51,7 @@
     "amount": "2",
     "entries": [
       {
-        "item": "minecraft:cactus",
+        "item": "cobblemon:sun_stone",
         "quantityRange": "1-2",
         "percentage": 90
       }

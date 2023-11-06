@@ -13,14 +13,14 @@
       "context": "grounded",
       "bucket": "uncommon",
       "level": "3-28",
-      "weight": 2.0,
+      "weight": 8.0,
       "condition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_tropical_island",
+"#cobblemon:is_tropical" ],
         "canSeeSky": true,
         "timeRange": "night"
-      },
-      "anticondition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_temperate" ]    }
+      }
     }
   ]
 }

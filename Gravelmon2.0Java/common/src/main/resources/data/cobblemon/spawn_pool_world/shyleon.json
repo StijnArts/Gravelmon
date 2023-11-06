@@ -13,9 +13,10 @@
       "context": "grounded",
       "bucket": "ultra-rare",
       "level": "3-22",
-      "weight": 1.0,
+      "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_jungle" ],
+"biomes": [ "#cobblemon:is_jungle",
+"#minecraft:is_end" ],
         "canSeeSky": true
       }
     }

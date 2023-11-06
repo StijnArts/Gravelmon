@@ -11,12 +11,11 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 8.0,
+      "bucket": "common",
+      "level": "8-35",
+      "weight": 3.0,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
-        "canSeeSky": false
+"biomes": [ "#cobblemon:is_desert" ]
       }
     }
   ]

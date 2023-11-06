@@ -7,7 +7,7 @@
       "id": "leafish-1",
       "pokemon": "leafish",
       "presets": [
-          "underwater"
+          "foliage"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,14 +15,11 @@
       "level": "4-25",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_river" ],
+"biomes": [ "#cobblemon:is_river" ],
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_mountain",
-"#cobblemon:is_hills",
+"biomes": [ "#cobblemon:is_arid",
 "#cobblemon:is_cold" ]    }
     }
   ]

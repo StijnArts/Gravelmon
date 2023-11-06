@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaregisteel",
-  "nationalPokedexNumber": 379,
+  "nationalPokedexNumber": 378,
   "primaryType": "fire",
   "abilities": [
     "flamebody",
@@ -142,6 +142,7 @@
   "labels": [
     "gen3",
     "insurgence",
+    "legendary",
     "not_modeled"
   ],
   "pokedex": [

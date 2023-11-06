@@ -15,7 +15,8 @@
       "level": "3-28",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_lush" ],
+"biomes": [ "#cobblemon:is_lush",
+"#cobblemon:is_mushroom" ],
         "canSeeSky": true
       }
     }

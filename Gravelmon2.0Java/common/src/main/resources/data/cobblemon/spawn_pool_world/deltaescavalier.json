@@ -11,11 +11,11 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "12-43",
-      "weight": 2.0,
+      "bucket": "rare",
+      "level": "34-59",
+      "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_forest" ],
+"biomes": [ "#cobblemon:is_floral" ],
         "canSeeSky": true
       }
     }

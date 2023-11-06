@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
+      "bucket": "common",
       "level": "3-28",
-      "weight": 1.0,
+      "weight": 3.0,
       "condition": {
 "biomes": [ "#cobblemon:is_jungle" ],
         "canSeeSky": true

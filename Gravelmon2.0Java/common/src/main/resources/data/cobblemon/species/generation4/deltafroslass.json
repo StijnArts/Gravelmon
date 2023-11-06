@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltafroslass",
-  "nationalPokedexNumber": 478,
+  "nationalPokedexNumber": 475,
   "primaryType": "fire",
   "abilities": [
     "rockhead",
@@ -23,7 +23,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {

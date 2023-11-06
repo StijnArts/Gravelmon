@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghoshellder",
-  "nationalPokedexNumber": 90,
+  "nationalPokedexNumber": 89,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "water_3"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:iron_nugget",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:spikes",
     "1:withdraw",

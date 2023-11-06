@@ -7,22 +7,19 @@
       "id": "chlorofin-1",
       "pokemon": "chlorofin",
       "presets": [
-          "underwater"
+          "foliage"
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "33-49",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_forest",
-"#cobblemon:is_river" ],
+"biomes": [ "#cobblemon:is_river" ],
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_desert",
-"#cobblemon:is_mountain",
-"#cobblemon:is_hills",
+"biomes": [ "#cobblemon:is_arid",
 "#cobblemon:is_cold" ]    }
     }
   ]

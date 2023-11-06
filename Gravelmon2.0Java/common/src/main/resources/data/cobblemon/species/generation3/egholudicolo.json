@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "egholudicolo",
-  "nationalPokedexNumber": 272,
+  "nationalPokedexNumber": 271,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -48,16 +48,6 @@
     "monster",
     "field"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:egg",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:fierydance",
     "1:fierydance",

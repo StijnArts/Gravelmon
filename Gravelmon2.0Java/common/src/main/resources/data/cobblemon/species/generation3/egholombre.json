@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "egholombre",
-  "nationalPokedexNumber": 271,
+  "nationalPokedexNumber": 270,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -48,16 +48,6 @@
     "monster",
     "field"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:egg",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:heavyslam",
     "1:sweetscent",

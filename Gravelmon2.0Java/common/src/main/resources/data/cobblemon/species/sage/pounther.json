@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pounther",
-  "nationalPokedexNumber": 1155,
+  "nationalPokedexNumber": 1154,
   "primaryType": "normal",
   "abilities": [
     "limber",
@@ -50,7 +50,7 @@
     "amount": "2",
     "entries": [
       {
-        "item": "minecraft:raw_chicken",
+        "item": "cobblemon:quick_claw",
         "quantityRange": "1-2",
         "percentage": 100
       }

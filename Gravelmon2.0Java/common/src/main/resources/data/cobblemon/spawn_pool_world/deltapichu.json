@@ -7,15 +7,15 @@
       "id": "deltapichu-1",
       "pokemon": "deltapichu",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
-      "level": "12-22",
-      "weight": 2.0,
+      "bucket": "common",
+      "level": "2-17",
+      "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_savanna" ],
+"biomes": [ "#cobblemon:is_highlands" ],
         "timeRange": "day",
         "canSeeSky": true
       }

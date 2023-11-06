@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaregice",
-  "nationalPokedexNumber": 378,
+  "nationalPokedexNumber": 377,
   "primaryType": "water",
   "abilities": [
     "waterveil",
@@ -141,6 +141,7 @@
   "labels": [
     "gen3",
     "insurgence",
+    "legendary",
     "not_modeled"
   ],
   "pokedex": [

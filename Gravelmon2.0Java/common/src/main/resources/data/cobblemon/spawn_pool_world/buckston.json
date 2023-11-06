@@ -15,9 +15,13 @@
       "level": "36-55",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+"biomes": [ "#cobblemon:is_taiga",
+"#cobblemon:is_snowy" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_hills",
+"#cobblemon:is_mountain" ]    }
     }
   ]
 }

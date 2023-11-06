@@ -7,17 +7,16 @@
       "id": "deltaregice-1",
       "pokemon": "deltaregice",
       "presets": [
-          "natural"
+          "water_surface"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 8.0,
+      "context": "surface",
+      "bucket": "ultra-rare",
+      "level": "69-80",
+      "weight": 0.003,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "isThundering": true,
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_sandy" ],
+        "isThundering": true
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltagirafarig",
-  "nationalPokedexNumber": 203,
+  "nationalPokedexNumber": 200,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
@@ -208,7 +208,7 @@
     "tutor:uproar",
     "tutor:zenheadbutt"  ],
   "labels": [
-    "gen1",
+    "gen2",
     "insurgence",
     "not_modeled"
   ],

@@ -15,7 +15,9 @@
       "level": "5-28",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+"biomes": [ "#cobblemon:is_taiga",
+"#cobblemon:is_magical",
+"#cobblemon:is_mushroom" ],
         "canSeeSky": true
       },
       "anticondition": {

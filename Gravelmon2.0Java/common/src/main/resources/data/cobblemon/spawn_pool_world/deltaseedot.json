@@ -7,17 +7,16 @@
       "id": "deltaseedot-1",
       "pokemon": "deltaseedot",
       "presets": [
-          "natural"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 8.0,
+      "bucket": "common",
+      "level": "3-28",
+      "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "isThundering": true,
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_overworld" ],
+        "timeRange": "night"
       }
     }
   ]

@@ -13,11 +13,13 @@
       "context": "grounded",
       "bucket": "common",
       "level": "21-39",
-      "weight": 0.1,
+      "weight": 0.4,
       "condition": {
 "biomes": [ "#cobblemon:is_forest" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold" ]    }
     }
   ]
 }

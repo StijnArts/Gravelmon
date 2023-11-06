@@ -11,11 +11,12 @@
       ],
       "type": "pokemon",
       "context": "submerged",
-      "bucket": "ultra-rare",
+      "bucket": "rare",
       "level": "40-56",
-      "weight": 0.01,
+      "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_river" ],
+"biomes": [ "#cobblemon:is_river",
+"#cobblemon:is_cold_ocean" ],
         "canSeeSky": true
       },
       "anticondition": {

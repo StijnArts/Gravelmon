@@ -11,11 +11,11 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "36-48",
-      "weight": 0.2,
+      "bucket": "uncommon",
+      "level": "16-38",
+      "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_bamboo" ],
+"biomes": [ "#cobblemon:is_floral" ],
         "timeRange": "night",
         "canSeeSky": true
       }

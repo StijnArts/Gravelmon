@@ -13,7 +13,7 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "21-39",
-      "weight": 2.0,
+      "weight": 4.0,
       "condition": {
 "biomes": [ "#cobblemon:is_forest" ],
         "timeRange": "night",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoenniandodrio",
-  "nationalPokedexNumber": 85,
+  "nationalPokedexNumber": 73,
   "primaryType": "flying",
   "secondaryType": "ground",
   "abilities": [
@@ -84,11 +84,13 @@
     "egg:highjumpkick"  ],
   "labels": [
     "blazing_emerald",
-    "gen1"
+    "gen1",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoenniandodrio.desc"
   ],
+  "preEvolution": "Doduo",
   "baseScale": 1.6,
   "hitbox": {
     "width": 0.6,

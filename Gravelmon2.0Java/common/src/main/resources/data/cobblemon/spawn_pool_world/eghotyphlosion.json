@@ -15,10 +15,10 @@
       "level": "14-27",
       "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_island",
-"#cobblemon:is_lukewarm" ],
-        "maxY": 48,
-        "maxY": -16,
+"biomes": [ "#cobblemon:is_mountain",
+"#cobblemon:is_hills",
+"#cobblemon:is_highlands" ],
+        "isThundering": true,
         "canSeeSky": true
       }
     }

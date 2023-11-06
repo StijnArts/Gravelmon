@@ -10,12 +10,12 @@
           "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "surface",
       "bucket": "uncommon",
-      "level": "22-39",
-      "weight": 8.0,
+      "level": "12-39",
+      "weight": 1.8,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ],
+"biomes": [ "#cobblemon:is_freshwater" ],
         "canSeeSky": false
       }
     }

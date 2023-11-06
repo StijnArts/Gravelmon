@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cubzero",
-  "nationalPokedexNumber": 1115,
+  "nationalPokedexNumber": 1114,
   "primaryType": "ice",
   "abilities": [
     "snowcloak",
@@ -46,21 +46,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:bone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:ice",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:scratch",
     "4:growl",

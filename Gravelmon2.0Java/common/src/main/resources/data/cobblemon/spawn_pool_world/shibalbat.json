@@ -7,7 +7,7 @@
       "id": "shibalbat-1",
       "pokemon": "shibalbat",
       "presets": [
-          "natural"
+          "desert_temple"
       ],
       "type": "pokemon",
       "context": "grounded",

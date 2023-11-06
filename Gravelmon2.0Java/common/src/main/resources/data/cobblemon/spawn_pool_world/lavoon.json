@@ -13,14 +13,13 @@
       "context": "seafloor",
       "bucket": "rare",
       "level": "45-55",
-      "weight": 0.5,
+      "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_deep" ],
+"biomes": [ "#minecraft:is_deep_ocean" ],
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_freshwater",
-"#cobblemon:is_cold" ]    }
+"biomes": [ "#cobblemon:is_cold" ]    }
     }
   ]
 }

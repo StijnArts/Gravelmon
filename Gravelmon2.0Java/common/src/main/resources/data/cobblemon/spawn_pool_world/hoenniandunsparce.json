@@ -20,7 +20,7 @@
         "maxY": 20
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_abyss" ]    }
+"biomes": [ "#cobblemon:is_deep_dark" ]    }
     }
   ]
 }

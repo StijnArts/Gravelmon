@@ -13,11 +13,10 @@
       "context": "grounded",
       "bucket": "rare",
       "level": "24-56",
-      "weight": 2.0,
+      "weight": 5.0,
       "condition": {
 "biomes": [ "#cobblemon:is_snowy" ],
-        "timeRange": "night",
-        "canSeeSky": false
+        "timeRange": "night"
       }
     }
   ]

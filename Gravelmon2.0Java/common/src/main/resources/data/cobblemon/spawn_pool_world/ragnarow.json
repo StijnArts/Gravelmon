@@ -13,10 +13,10 @@
       "context": "surface",
       "bucket": "rare",
       "level": "43-58",
-      "weight": 0.05,
+      "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_temperate" ],
+"biomes": [ "#cobblemon:is_cold_ocean",
+"#cobblemon:is_frozen" ],
         "canSeeSky": true
       },
       "anticondition": {

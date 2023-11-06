@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pebblosa",
-  "nationalPokedexNumber": 1127,
+  "nationalPokedexNumber": 1126,
   "primaryType": "normal",
   "abilities": [
     "gluttony",
@@ -48,21 +48,6 @@
     "field",
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:sand",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:scratch",
     "1:sandattack",

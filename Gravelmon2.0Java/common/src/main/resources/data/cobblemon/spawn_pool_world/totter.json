@@ -7,14 +7,15 @@
       "id": "totter-1",
       "pokemon": "totter",
       "presets": [
-          "underwater"
+          "near_water"
       ],
       "type": "pokemon",
-      "context": "submerged",
-      "bucket": "uncommon",
+      "context": "surface",
+      "bucket": "common",
       "level": "4-25",
       "weight": 2.0,
       "condition": {
+"biomes": [ "#cobblemon:is_river" ],
         "canSeeSky": true
       }
     }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nobunata",
-  "nationalPokedexNumber": 1181,
+  "nationalPokedexNumber": 1180,
   "primaryType": "normal",
   "abilities": [
     "aftermath",
@@ -52,7 +52,7 @@
     "amount": "2",
     "entries": [
       {
-        "item": "minecraft:sugar",
+        "item": "cobblemon:rare_candy",
         "quantityRange": "1-2",
         "percentage": 100
       }

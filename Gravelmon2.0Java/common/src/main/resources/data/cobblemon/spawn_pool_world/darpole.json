@@ -18,9 +18,7 @@
 "biomes": [ "#cobblemon:is_freshwater",
 "#cobblemon:is_swamp" ],
         "canSeeSky": true
-      },
-      "anticondition": {
-"biomes": [ "#cobblemon:is_river" ]    }
+      }
     }
   ]
 }

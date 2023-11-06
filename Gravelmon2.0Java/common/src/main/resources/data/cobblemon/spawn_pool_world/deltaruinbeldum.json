@@ -7,17 +7,16 @@
       "id": "deltaruinbeldum-1",
       "pokemon": "deltaruinbeldum",
       "presets": [
-          "natural"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "uncommon",
-      "level": "3-22",
-      "weight": 8.0,
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 9.0,
       "condition": {
-"biomes": [ "#cobblemon:is_snowy" ],
-        "isThundering": true,
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": false
       }
     }
   ]

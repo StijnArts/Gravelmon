@@ -15,7 +15,8 @@
       "level": "35-48",
       "weight": 0.54,
       "condition": {
-"biomes": [ "#minecraft:is_nether" ]
+"biomes": [ "#cobblemon:is_nether_basalt",
+"#cobblemon:is_nether_soul_fire" ]
       }
     }
   ]

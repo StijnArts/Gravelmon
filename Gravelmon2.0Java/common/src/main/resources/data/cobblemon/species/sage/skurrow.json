@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skurrow",
-  "nationalPokedexNumber": 1199,
+  "nationalPokedexNumber": 1198,
   "primaryType": "ground",
   "abilities": [
     "dryskin",
@@ -48,16 +48,6 @@
     "field",
     "flying"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:growl",
     "1:wrap",

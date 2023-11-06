@@ -11,9 +11,9 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "27-47",
-      "weight": 0.9,
+      "weight": 3.9,
       "condition": {
 "biomes": [ "#cobblemon:is_savanna" ],
         "canSeeSky": true

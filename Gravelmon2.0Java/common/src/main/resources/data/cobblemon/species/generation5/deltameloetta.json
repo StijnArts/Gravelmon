@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltameloetta",
-  "nationalPokedexNumber": 648,
+  "nationalPokedexNumber": 637,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -215,7 +215,8 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen5",
-    "insurgence"
+    "insurgence",
+    "mythical"
   ],
   "pokedex": [
     "cobblemon.species.deltameloetta.desc"

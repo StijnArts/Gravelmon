@@ -15,7 +15,7 @@
       "level": "50-55",
       "weight": 5.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_abyss" ],
+"biomes": [ "#cobblemon:is_deep_dark" ],
         "canSeeSky": false
       }
     }

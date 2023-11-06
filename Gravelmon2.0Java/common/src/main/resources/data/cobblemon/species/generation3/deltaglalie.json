@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaglalie",
-  "nationalPokedexNumber": 362,
+  "nationalPokedexNumber": 361,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {

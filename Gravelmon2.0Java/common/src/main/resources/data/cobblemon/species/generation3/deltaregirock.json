@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaregirock",
-  "nationalPokedexNumber": 377,
+  "nationalPokedexNumber": 376,
   "primaryType": "ground",
   "abilities": [
     "sandveil",
@@ -135,6 +135,7 @@
   "labels": [
     "gen3",
     "insurgence",
+    "legendary",
     "not_modeled"
   ],
   "pokedex": [

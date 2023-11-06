@@ -16,7 +16,6 @@
       "weight": 1.0,
       "condition": {
 "biomes": [ "#cobblemon:is_snowy" ],
-        "isRaining": true,
         "canSeeSky": true
       }
     }

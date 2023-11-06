@@ -11,12 +11,12 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "rare",
+      "bucket": "uncommon",
       "level": "22-42",
       "weight": 5.0,
       "condition": {
 "biomes": [ "#cobblemon:is_spooky",
-"#cobblemon:is_abyss" ],
+"#cobblemon:is_deep_dark" ],
         "canSeeSky": true
       }
     }

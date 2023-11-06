@@ -15,7 +15,7 @@
       "level": "44-56",
       "weight": 1.2,
       "condition": {
-"biomes": [ "#cobblemon:is_lukewarm",
+"biomes": [ "#cobblemon:is_lukewarm_ocean",
 "#cobblemon:is_reef" ],
         "canSeeSky": true
       }

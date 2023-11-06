@@ -18,7 +18,9 @@
 "biomes": [ "#cobblemon:is_mountain",
 "#cobblemon:is_snowy" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_plains" ]    }
     }
   ]
 }

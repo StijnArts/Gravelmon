@@ -17,7 +17,9 @@
       "condition": {
 "biomes": [ "#cobblemon:is_plains" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_arid" ]    }
     }
   ]
 }

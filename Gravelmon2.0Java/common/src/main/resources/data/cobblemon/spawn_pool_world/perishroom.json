@@ -16,7 +16,8 @@
       "weight": 3.0,
       "condition": {
 "biomes": [ "#cobblemon:is_lush",
-"#cobblemon:is_abyss" ],
+"#cobblemon:is_deep_dark",
+"#cobblemon:is_mushroom" ],
         "canSeeSky": true
       }
     }

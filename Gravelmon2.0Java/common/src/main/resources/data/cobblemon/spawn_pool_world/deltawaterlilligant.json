@@ -11,13 +11,14 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "ultra-rare",
-      "level": "3-22",
-      "weight": 8.0,
+      "bucket": "uncommon",
+      "level": "27-48",
+      "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_magical" ],
-        "canSeeSky": true
-      }
+"biomes": [ "#minecraft:is_deep_ocean" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold" ]    }
     }
   ]
 }

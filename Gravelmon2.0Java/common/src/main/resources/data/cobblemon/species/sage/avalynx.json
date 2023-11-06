@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "avalynx",
-  "nationalPokedexNumber": 1116,
+  "nationalPokedexNumber": 1115,
   "primaryType": "ice",
   "abilities": [
     "snowcloak",
@@ -46,21 +46,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:bone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:ice",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:iciclespear",
     "1:scratch",
