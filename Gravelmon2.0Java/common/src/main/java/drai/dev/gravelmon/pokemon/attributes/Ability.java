@@ -346,7 +346,7 @@ public enum Ability {
     VENOMOUS("venomous", false),
     HELIOPHOBIA("heliophobia", true),
     CASTLE_MOAT("castlemoat", true),
-    EVENT_HORIZON("eventhotizon", true),
+    EVENT_HORIZON("eventhorizon", true),
     REGURGITATION("regurgitation", false),
     WINTER_JOY("winterjoy", false),
     SUPERCELL("supercell", false),

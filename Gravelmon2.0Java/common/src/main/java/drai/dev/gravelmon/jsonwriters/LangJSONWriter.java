@@ -39,7 +39,7 @@ public class LangJSONWriter {
             }
 
             for (String entry : pokemon.getDexEntries()) {
-                contents += "    \"cobblemon.species." + pokemon.getCleanName() + ".desc" + dexEntryCounter + "\": \"" + entry + "\"";
+                contents += "    \"cobblemon.species." + pokemon.getCleanName() + ".desc\": \"" + entry + "\"";
                 dexEntryCounter++;
             }
         }

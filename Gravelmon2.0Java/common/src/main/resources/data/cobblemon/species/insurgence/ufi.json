@@ -5,8 +5,8 @@
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
-    "eventhotizon",
-    "h:eventhotizon"
+    "eventhorizon",
+    "h:eventhorizon"
   ],
   "baseStats": {
     "hp": 100,
