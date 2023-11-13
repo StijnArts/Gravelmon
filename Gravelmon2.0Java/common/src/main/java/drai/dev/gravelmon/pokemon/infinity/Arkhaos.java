@@ -172,8 +172,7 @@ public class Arkhaos extends Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 70, 70, 0.00001, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END)),
-                        new SpawnCondition(SpawnConditionType.MINY,"200"),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.MINY,"200")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 5, 0.3,
