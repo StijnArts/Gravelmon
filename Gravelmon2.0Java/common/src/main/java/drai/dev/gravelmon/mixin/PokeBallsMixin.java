@@ -9,6 +9,7 @@ import com.cobblemon.mod.common.api.pokeball.catching.*;
 import com.cobblemon.mod.common.api.pokeball.catching.modifiers.*;
 import com.cobblemon.mod.common.api.pokemon.egg.*;
 import com.cobblemon.mod.common.api.storage.party.*;
+import com.cobblemon.mod.common.api.tags.CobblemonBiomeTags;
 import com.cobblemon.mod.common.battles.*;
 import com.cobblemon.mod.common.net.messages.server.storage.party.*;
 import com.cobblemon.mod.common.pokeball.*;
@@ -94,6 +95,24 @@ public abstract class PokeBallsMixin {
             }
             return 1F;
         });
+        WorldStateModifier lakeModifier = new WorldStateModifier((x, entity) -> {
+            if(x.isUnderWater()){
+                return 3F;
+            }
+            return 1F;
+        });
+        WorldStateModifier fishingModifier = new WorldStateModifier((x, entity) -> {
+            if(x.isUnderWater()){
+                return 1.5F;
+            }
+            return 1F;
+        });
+        WorldStateModifier safariModifier = new WorldStateModifier((x, entity) -> {
+            if(!entity.isBattling()){
+                return 1.5F;
+            }
+            return 1F;
+        });
         DynamicMultiplierModifier featherModifier = new DynamicMultiplierModifier((x, pokemon) -> {
             var weight = pokemon.getForm().getWeight();
             if(weight < 10){
@@ -155,6 +174,27 @@ public abstract class PokeBallsMixin {
             }
             return 1F;
         });
+        BattleModifier xenoverseModifier = new BattleModifier((x, playerPokemon, pokemon) -> {
+            boolean isOriginalPokemon = false;
+            boolean isXenoversePokemon = false;
+            var originalLabels = new ArrayList<>(List.of("gen1", "gen2", "gen3", "gen4", "gen5",
+                    "gen6", "gen7", "gen8", "gen9"));
+            for (var label : pokemon.getForm().getLabels()) {
+                if(originalLabels.contains(label)){
+                    isOriginalPokemon = true;
+                }
+                if(label.equals(Label.XENOVERSE.getName())){
+                    isXenoversePokemon = true;
+                }
+                if(isOriginalPokemon && isXenoversePokemon){
+                    break;
+                }
+            }
+            if(isOriginalPokemon && isXenoversePokemon){
+                return 2F;
+            }
+            return 1F;
+        });
         BattleModifier deltaModifier = new BattleModifier((x, playerPokemon, pokemon) -> {
             boolean isOriginalPokemon = false;
             boolean isInsurgencePokemon = false;
@@ -200,6 +240,20 @@ public abstract class PokeBallsMixin {
             }
             return 1F;
         });
+        BattleModifier lureModifier = new BattleModifier((x, playerPokemon, pokemon) -> {
+            boolean isWaterType = false;
+            for (var type :
+                    pokemon.getTypes()) {
+                if(type.getName().equals("water")){
+                    isWaterType = true;
+                    break;
+                }
+            }
+            if(isWaterType){
+                return 2F;
+            }
+            return 1F;
+        });
         CORAL_BALL = createFromDefaults("coral_ball");
         MAUVE_BALL = createFromDefaults("mauve_ball");
         LUSTER_BALL = createFromDefaults("luster_ball", List.of(new CaptureEffect() {
@@ -211,11 +265,6 @@ public abstract class PokeBallsMixin {
         DAWN_BALL = createFromDefaults("dawn_ball", dawnModifier);
         SUN_BALL = createFromDefaults("sun_ball", sunModifier);
         FEATHER_BALL = createFromDefaults("feather_ball", featherModifier);
-
-        TYPING_BALL = createFromDefaults("typing_ball", typingModifier);
-        ROCKET_BALL = createFromDefaults("rocket_ball");
-        GREAT_ROCKET_BALL = createFromDefaults("great_rocket_ball",1.5F);
-        ULTRA_ROCKET_BALL = createFromDefaults("ultra_rocket_ball",2F);
         NUCLEAR_BALL = createFromDefaults("nuclear_ball", nuclearModifier);
         ATOM_BALL = createFromDefaults("atom_ball",atomModifier);
         DELTA_BALL = createFromDefaults("delta_ball", deltaModifier);
@@ -223,6 +272,30 @@ public abstract class PokeBallsMixin {
         SHINY_BALL = createFromDefaults("shiny_ball", new ShinyBallBattleModifier());
         NUZLOCKE_BALL = createFromDefaults("nuzlocke_ball", List.of(new NuzlockeCaptureEffect()));
         SNORE_BALL = createFromDefaults("snore_ball", snoreModifier);
+        ARK_BALL = createFromDefaults("ark_ball", 255f);
+        LIME_BALL = createFromDefaults("lime_ball", 1.5F);
+        XENO_BALL = createFromDefaults("xeno_ball", xenoverseModifier);
+
+        //Official Game Poke balls
+        TYPING_BALL = createFromDefaults("typing_ball", typingModifier);
+        GS_BALL = createFromDefaults("gs_ball");
+        GEN2_LURE_BALL = createFromDefaults("gen2_lure_ball", lureModifier);
+
+        //Anime Poke balls
+        ROCKET_BALL = createFromDefaults("rocket_ball");
+        ULTRA_ROCKET_BALL = createFromDefaults("ultra_rocket_ball",2F);
+        LAKE_BALL = createFromDefaults("lake_ball", lakeModifier);
+        ANIME_SAFARI_BALL = createFromDefaults("anime_safari_ball", safariModifier);
+        ANNIE_BALL = createFromDefaults("annie_ball");
+        OAKLEY_BALL = createFromDefaults("oakley_ball");
+        FISHING_BALL = createFromDefaults("fishing_ball", fishingModifier);
+        ANIME_GS_BALL = createFromDefaults("anime_gs_ball");
+
+        //Manga Poke balls
+        MANGA_SAFARI_BALL = createFromDefaults("manga_safari_ball", safariModifier);
+
+        //TCG Poke balls
+        GREAT_ROCKET_BALL = createFromDefaults("great_rocket_ball",1.5F);
 
         //LGBTQ+ balls
         GAY_BALL = createFromDefaults("gay_ball", gLModifier);

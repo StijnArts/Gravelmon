@@ -73,14 +73,11 @@ public class GravelmonItems {
     //Pokeballs
     public static RegistrySupplier<PokeBallItem> MAUVE_BALL;
     public static RegistrySupplier<PokeBallItem> CORAL_BALL;
+    public static RegistrySupplier<PokeBallItem> LIME_BALL;
     public static RegistrySupplier<PokeBallItem> LUSTER_BALL;
     public static RegistrySupplier<PokeBallItem> SUN_BALL;
     public static RegistrySupplier<PokeBallItem> DAWN_BALL;
     public static RegistrySupplier<PokeBallItem> FEATHER_BALL;
-    public static RegistrySupplier<PokeBallItem> TYPING_BALL;
-    public static RegistrySupplier<PokeBallItem> ROCKET_BALL;
-    public static RegistrySupplier<PokeBallItem> GREAT_ROCKET_BALL;
-    public static RegistrySupplier<PokeBallItem> ULTRA_ROCKET_BALL;
     public static RegistrySupplier<PokeBallItem> NUCLEAR_BALL;
     public static RegistrySupplier<PokeBallItem> ATOM_BALL;
     public static RegistrySupplier<PokeBallItem> DELTA_BALL;
@@ -88,6 +85,30 @@ public class GravelmonItems {
     public static RegistrySupplier<PokeBallItem> SHINY_BALL;
     public static RegistrySupplier<PokeBallItem> NUZLOCKE_BALL;
     public static RegistrySupplier<PokeBallItem> SNORE_BALL;
+    public static RegistrySupplier<PokeBallItem> ARK_BALL;
+    public static RegistrySupplier<PokeBallItem> XENO_BALL;
+
+    //Official Game Poke balls
+    public static RegistrySupplier<PokeBallItem> TYPING_BALL;
+    public static RegistrySupplier<PokeBallItem> GS_BALL;
+    public static RegistrySupplier<PokeBallItem> GEN2_LURE_BALL;
+
+    //Anime Poke balls
+    public static RegistrySupplier<PokeBallItem> ROCKET_BALL;
+    public static RegistrySupplier<PokeBallItem> ULTRA_ROCKET_BALL;
+    public static RegistrySupplier<PokeBallItem> LAKE_BALL;
+    public static RegistrySupplier<PokeBallItem> ANIME_SAFARI_BALL;
+    public static RegistrySupplier<PokeBallItem> ANNIE_BALL;
+    public static RegistrySupplier<PokeBallItem> OAKLEY_BALL;
+    public static RegistrySupplier<PokeBallItem> FISHING_BALL;
+    public static RegistrySupplier<PokeBallItem> ANIME_GS_BALL;
+
+    //Manga Poke balls
+    public static RegistrySupplier<PokeBallItem> MANGA_SAFARI_BALL;
+
+    //TCG Poke balls
+    public static RegistrySupplier<PokeBallItem> GREAT_ROCKET_BALL;
+
     //LGBTQ+ balls
     public static RegistrySupplier<PokeBallItem> GAY_BALL;
     public static RegistrySupplier<PokeBallItem> LESBIAN_BALL;
