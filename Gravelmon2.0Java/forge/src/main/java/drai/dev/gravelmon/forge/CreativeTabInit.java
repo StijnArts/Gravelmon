@@ -249,6 +249,42 @@ public class CreativeTabInit {
             event.getEntries().putAfter(CobblemonItems.CHERISH_BALL.asItem().getDefaultInstance(),
                     GravelmonItems.LUSTER_BALL.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.MASTER_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ARK_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.GREAT_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.LIME_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.DIVE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.LAKE_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.SAFARI_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.FISHING_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.SAFARI_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ANIME_SAFARI_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.SAFARI_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.MANGA_SAFARI_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.ULTRA_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ANNIE_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.ULTRA_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.OAKLEY_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.PREMIER_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.GS_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.PREMIER_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.ANIME_GS_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.LURE_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.GEN2_LURE_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putAfter(CobblemonItems.BEAST_BALL.asItem().getDefaultInstance(),
+                    GravelmonItems.XENO_BALL.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().put(GravelmonItems.GAY_BALL.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             event.getEntries().put(GravelmonItems.LESBIAN_BALL.get().asItem().getDefaultInstance(),
