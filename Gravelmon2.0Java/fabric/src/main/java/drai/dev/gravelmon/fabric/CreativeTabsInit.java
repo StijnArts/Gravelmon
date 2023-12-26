@@ -66,14 +66,14 @@ public class CreativeTabsInit {
         });
 
         ItemGroupEvents.modifyEntriesEvent(CobblemonItemGroups.getBLOCKS_KEY()).register(entries -> {
-            entries.addAfter(CobblemonItems.APRICORN_LEAVES.asItem().getDefaultInstance(),
-                    GravelmonItems.DEEPSLATE_ASTRAL_STONE_ORE.get().asItem().getDefaultInstance());
-            entries.addAfter(CobblemonItems.APRICORN_LEAVES.asItem().getDefaultInstance(),
-                    GravelmonItems.ASTRAL_STONE_ORE.get().asItem().getDefaultInstance());
-            entries.addAfter(CobblemonItems.APRICORN_LEAVES.asItem().getDefaultInstance(),
-                    GravelmonItems.DEEPSLATE_AIR_STONE_ORE.get().asItem().getDefaultInstance());
-            entries.addAfter(CobblemonItems.APRICORN_LEAVES.asItem().getDefaultInstance(),
+            entries.addBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.AIR_STONE_ORE.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
+                    GravelmonItems.DEEPSLATE_AIR_STONE_ORE.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
+                    GravelmonItems.ASTRAL_STONE_ORE.get().asItem().getDefaultInstance());
+            entries.addBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
+                    GravelmonItems.DEEPSLATE_ASTRAL_STONE_ORE.get().asItem().getDefaultInstance());
 
             entries.addBefore(CobblemonItems.MOON_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.MYSTIC_STONE_ORE.get().asItem().getDefaultInstance());
