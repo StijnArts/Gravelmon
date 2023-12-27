@@ -141,17 +141,17 @@ public class CreativeTabInit {
         }
 
         if(event.getTab() == CobblemonItemGroups.getBLOCKS()) {
-            event.getEntries().putAfter(CobblemonItems.APRICORN_LEAVES.asItem().getDefaultInstance(),
-                    GravelmonItems.DEEPSLATE_ASTRAL_STONE_ORE.get().asItem().getDefaultInstance(),
+            event.getEntries().putBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
+                    GravelmonItems.AIR_STONE_ORE.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.getEntries().putAfter(CobblemonItems.APRICORN_LEAVES.asItem().getDefaultInstance(),
-                    GravelmonItems.ASTRAL_STONE_ORE.get().asItem().getDefaultInstance(),
-                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.getEntries().putAfter(CobblemonItems.APRICORN_LEAVES.asItem().getDefaultInstance(),
+            event.getEntries().putBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
                     GravelmonItems.DEEPSLATE_AIR_STONE_ORE.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            event.getEntries().putAfter(CobblemonItems.APRICORN_LEAVES.asItem().getDefaultInstance(),
-                    GravelmonItems.AIR_STONE_ORE.get().asItem().getDefaultInstance(),
+            event.getEntries().putBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
+                    GravelmonItems.ASTRAL_STONE_ORE.get().asItem().getDefaultInstance(),
+                    CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            event.getEntries().putBefore(CobblemonItems.DAWN_STONE_ORE.asItem().getDefaultInstance(),
+                    GravelmonItems.DEEPSLATE_ASTRAL_STONE_ORE.get().asItem().getDefaultInstance(),
                     CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
 
