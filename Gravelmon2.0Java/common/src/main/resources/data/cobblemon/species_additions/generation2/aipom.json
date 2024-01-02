@@ -1,4 +1,19 @@
 {"target": "cobblemon:Aipom",
+ "evolutions": [
+  {
+   "id": "pupitar_armirantyranitar",
+   "variant": "level_up",
+   "result": "armirantyranitar",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "rockthrow"
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:scratch",
     "1:tailwhip",
@@ -11,6 +26,7 @@
     "25:screechsound",
     "29:agility",
     "32:doublehit",
+    "34:rockthrow",
     "36:fling",
     "39:nastyplot",
     "43:lastresort",

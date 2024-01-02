@@ -1,0 +1,4 @@
+package drai.dev.gravelmon.pokemon.lockemon.regional;
+
+public class KaskadianCrabominable {
+}

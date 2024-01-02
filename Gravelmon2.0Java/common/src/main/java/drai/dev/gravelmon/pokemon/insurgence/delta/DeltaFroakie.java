@@ -9,7 +9,7 @@ import java.util.*;
 public class DeltaFroakie extends Pokemon {
     public DeltaFroakie(int dexNo) {
         super(dexNo,"DeltaFroakie",
-                Type.WATER,
+                Type.GRASS,
                 new Stats(41, 56, 40, 62, 44, 71),
                 List.of(Ability.STEADFAST), Ability.PRANKSTER,
                 3, 70,

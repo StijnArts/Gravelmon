@@ -1,9 +1,15 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.*;
+import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
+import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
+import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationThree extends Original {
@@ -22,6 +28,56 @@ public class GenerationThree extends Original {
         //Radical Red
         pokemon.add(new SeviianFeebas(349));
         pokemon.add(new SeviianMilotic(350));
+
+        //Pokemon Flux
+        pokemon.add(new AlteranShroomish(285));
+        pokemon.add(new AlteranBreloom(286));
+
+        //Daybreak
+        pokemon.add(new ArmiranSceptile(254));
+        pokemon.add(new ArmiranSwellow(277));
+
+        //Vanguard
+        pokemon.add(new AyreianTorchic(255));
+        pokemon.add(new AyreianCombusken(256));
+        pokemon.add(new AyreianBlaziken(257));
+        pokemon.add(new AyreianNosepass(299));
+        pokemon.add(new AyreianAron(304));
+        pokemon.add(new AyreianLairon(305));
+        pokemon.add(new AyreianAggron(306));
+        pokemon.add(new AyreianRoselia(315));
+        pokemon.add(new AyreianNumel(322));
+        pokemon.add(new AyreianCamerupt(323));
+        pokemon.add(new AyreianTrapinch(328));
+        pokemon.add(new AyreianVibrava(329));
+        pokemon.add(new AyreianFlygon(330));
+        pokemon.add(new AyreianSwablu(333));
+        pokemon.add(new AyreianAltaria(334));
+        pokemon.add(new AyreianLunatone(337));
+        pokemon.add(new AyreianRelicanth(369));
+        pokemon.add(new AyreianLuvdisc(370));
+
+        //Phoenix Rising
+        pokemon.add(new RelicRoselia(315));
+        pokemon.add(new RelicSpinda(327));
+
+        //Kaskadian
+        pokemon.add(new KaskadianExploud(295));
+        pokemon.add(new GutsyCastform(351));
+        pokemon.add(new WindyCastform(351));
+        pokemon.add(new SmoggyCastform(351));
+        pokemon.add(new DustyCastform(351));
+        pokemon.add(new SandyCastform(351));
+        pokemon.add(new SwarmyCastform(351));
+        pokemon.add(new SpookyCastform(351));
+        pokemon.add(new WhirlyCastform(351));
+        pokemon.add(new AllergyCastform(351));
+        pokemon.add(new ZappyCastform(351));
+        pokemon.add(new ZennyCastform(351));
+        pokemon.add(new SorceryCastform(351));
+        pokemon.add(new ShadyCastform(351));
+        pokemon.add(new LovelyCastform(351));
+        pokemon.add(new KaskadianTropius(357));
 
     }
 

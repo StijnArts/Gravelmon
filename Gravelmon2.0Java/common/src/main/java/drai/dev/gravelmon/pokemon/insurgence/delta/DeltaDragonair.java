@@ -19,7 +19,7 @@ public class DeltaDragonair extends Pokemon {
                 70,
                 50, List.of(EggGroup.DELTA),
                 List.of("Having better control over its power, it can sometimes be seen peeking above the ocean surface. If it sneezes, it looses a massive discharge of electricity. "),
-                List.of(new EvolutionEntry("deltadragonite", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("deltadragonite", EvolutionType.LEVEL_UP, false, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "55")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),

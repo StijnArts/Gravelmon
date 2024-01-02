@@ -400,7 +400,24 @@ public enum Ability {
     FRUITRITION("fruitrition", false),
     AMALGAM("amalgam", false),
     EMPATHY("empathy", false),
-    SIEGE_DRIVE("siegedrive", false);
+    SIEGE_DRIVE("siegedrive", false),
+    MOMENTUM("momentum", false),
+    FLYTRAP("flytrap", false),
+    CONDENSATION("condensation", false),
+    CARBON_CAPTURE("carboncapture", false),
+    WARP_MIST("warpmist", false),
+    MASTER_INSTINCT("masterinstinct", false),
+    ARCANUM("arcanum", false),
+    VEGETATE("vegetate", false),
+    POWER_WITHIN("powerwithin", false),
+    ROOT_CONTROL("rootcontrol", false),
+    SURVEILLANCE("surveillance", false),
+    EVERGREEN("evergreen", false),
+    CHAKRA("chakra", false),
+    INCANTATION("incantation", false),
+    HAUNTING("haunting", false),
+    SOUL_DRAIN("souldrain", false),
+    BIRDLIKE("birdlike", false), BLAZE_IMPACT("blazeimpact", false), DARKENED_SCALES("darkenedscales", false);
 
     private String name;
     private Boolean implemented;

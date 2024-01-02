@@ -1,4 +1,24 @@
 {"target": "cobblemon:Sandygast",
+ "evolutions": [
+  {
+   "id": "sandygast_kaskadianpalossand",
+   "variant": "level_up",
+   "result": "kaskadianpalossand",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#cobblemon:is_highlands"
+    },
+    {
+     "variant": "level",
+     "minLevel": 42
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:absorb",
     "1:harden",

@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class Tentyrant extends Pokemon {
-    public Tentyrant(int dexNo) {
-        super(dexNo, "Tentyrant",
+    public Tentyrant() {
+        super("Tentyrant",
                 Type.WATER, Type.DARK,
                 new Stats(90, 70, 65, 95, 135, 110),
                 List.of(Ability.CLEAR_BODY, Ability.IMMUNITY), Ability.RAIN_DISH,

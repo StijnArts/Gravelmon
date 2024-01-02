@@ -12,7 +12,7 @@ public class DeltaCharizard extends Pokemon {
                 Type.GHOST, Type.DRAGON,
                 new Stats(78, 84, 78, 109, 85, 100),
                 List.of(Ability.SPIRIT_CALL), Ability.DARK_AURA,
-                11, 419,
+                17, 419,
                 new Stats(0,0,0,3,0,0), 45,
                 0.875,
                 267, ExperienceGroup.MEDIUM_SLOW,

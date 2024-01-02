@@ -2,9 +2,14 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
+import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
+import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationFive extends Original {
@@ -91,5 +96,46 @@ public class GenerationFive extends Original {
         pokemon.add(new SeviianBlitzle(522));
         pokemon.add(new SeviianZebstrika(523));
 
+        addMythianPokemon();
+
+        //Pokemon Flux
+        pokemon.add(new AlteranZorua(570));
+
+        //Daybreak
+        pokemon.add(new ArmiranRoggenrola(524));
+        pokemon.add(new ArmiranBoldore(525));
+        pokemon.add(new ArmiranGigalith(526));
+
+        //Vanguard
+        pokemon.add(new AyreianDwebble(557));
+        pokemon.add(new AyreianArchen(566));
+        pokemon.add(new AyreianArcheops(566));
+        pokemon.add(new AyreianMinccino(572));
+        pokemon.add(new AyreianCinccino(573));
+        pokemon.add(new AyreianDucklett(580));
+        pokemon.add(new AyreianSwanna(581));
+        pokemon.add(new AyreianVanillite(582));
+        pokemon.add(new AyreianVanillish(583));
+        pokemon.add(new AyreianVanniluxe(584));
+        pokemon.add(new AyreianAxew(610));
+        pokemon.add(new AyreianFraxure(611));
+        pokemon.add(new AyreianHaxorus(612));
+
+        //Kaskadian
+        pokemon.add(new KaskadianExcadrill(530));
+        pokemon.add(new KaskadianGurdurr(533));
+        pokemon.add(new KaskadianConkeldurr(534));
+        pokemon.add(new KaskadianSolosis(577));
+        pokemon.add(new KaskadianDuosion(578));
+        pokemon.add(new KaskadianReuniclus(579));
+        pokemon.add(new KaskadianGolett(622));
+
+    }
+
+    private void addMythianPokemon() {
+        pokemon.add(new MythianZorua(570));
+        pokemon.add(new MythianZoroark(571));
+        pokemon.add(new MythianLarvesta(636));
+        pokemon.add(new MythianVolcarona(637));
     }
 }

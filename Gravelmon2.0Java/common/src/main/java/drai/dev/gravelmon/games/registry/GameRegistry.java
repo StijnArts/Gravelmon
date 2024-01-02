@@ -22,7 +22,13 @@ public class GameRegistry {
         games.add(new Infinity());
         games.add(new Insurgence());
         games.add(new Xenoverse());
+        games.add(new Uranium());
+        games.add(new Flux());
+        games.add(new Lockemon());
         games.add(new BlazingEmerald());
+        games.add(new Daybreak());
+        games.add(new Vanguard());
+        games.add(new Myth());
         games.add(new Vega());
     }
 }

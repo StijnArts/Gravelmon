@@ -1,4 +1,24 @@
 {"target": "cobblemon:Smoochum",
+ "evolutions": [
+{
+ "id": "smoochum_kaskadianjynx",
+ "variant": "level_up",
+ "result": "espeon",
+ "consumeHeldItem": false,
+ "learnableMoves": [],
+ "requirements": [
+  {
+   "variant": "friendship",
+   "amount": 160
+  },
+  {
+   "variant": "biome",
+   "biomeCondition": "#cobblemon:is_temperate"
+  }
+ ]
+}
+
+],
    "moves": [
     "1:lick",
     "1:pound",

@@ -2,7 +2,10 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
+import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
+import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 
 public class GenerationEight extends Original {
     public GenerationEight() {
@@ -19,6 +22,20 @@ public class GenerationEight extends Original {
         //Radical Red
         pokemon.add(new SeviianSizzlipede(850));
         pokemon.add(new SeviianCentiskorch(851));
+
+        //Myth
+        pokemon.add(new MythianKleavor(942));
+
+        //Vanguard
+        pokemon.add(new AyreianGrookey(810));
+        pokemon.add(new AyreianThwacky(811));
+        pokemon.add(new AyreianRillaboom(812));
+        pokemon.add(new AyreianSizzlipede(850));
+        pokemon.add(new AyreianCentiskorch(851));
+        pokemon.add(new AyreianObstagoon(862));
+
+        //Kaskadian
+        pokemon.add(new KaskadianDubwool(832));
 
     }
 }

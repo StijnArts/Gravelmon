@@ -1,4 +1,24 @@
 {"target": "cobblemon:Stunky",
+ "evolutions": [
+  {
+   "id": "stunky_kaskadianskuntank",
+   "variant": "level_up",
+   "result": "kaskadianskuntank",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#cobblemon:is_cold"
+    },
+    {
+     "variant": "level",
+     "minLevel": 34
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:focusenergy",
     "1:poisongas",

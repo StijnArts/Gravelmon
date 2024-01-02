@@ -1,4 +1,19 @@
 {"target": "cobblemon:Ledyba",
+ "evolutions": [
+  {
+   "id": "ledyba_alteranledian",
+   "variant": "level_up",
+   "result": "alteranledian",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 18
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:tackle",
     "5:supersonic",

@@ -2,8 +2,13 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
+import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
+import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
+import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationSix extends Original {
@@ -45,6 +50,37 @@ public class GenerationSix extends Original {
         pokemon.add(new SeviianClawitzer(693));
         pokemon.add(new SeviianNoibat(714));
         pokemon.add(new SeviianNoivern(715));
+
+        //Myth
+        pokemon.add(new MythianNoivern(715));
+
+        //Daybreak
+        pokemon.add(new ArmiranFroakie(656));
+        pokemon.add(new ArmiranFrogadier(657));
+        pokemon.add(new ArmiranGreninja(658));
+
+        //Vanguard
+        pokemon.add(new AyreianFletchling(661));
+        pokemon.add(new AyreianFletchinder(662));
+        pokemon.add(new AyreianPancham(674));
+        pokemon.add(new AyreianPangoro(675));
+        pokemon.add(new AyreianCarbink(703));
+        pokemon.add(new AyreianKlefki(707));
+        pokemon.add(new AyreianPumpkaboo(710));
+        pokemon.add(new AyreianGourgeist(711));
+        pokemon.add(new AyreianNoibat(714));
+        pokemon.add(new AyreianNoivern(715));
+
+        //Phoenix Rising
+        pokemon.add(new RelicSkiddo(672));
+        pokemon.add(new RelicGogoat(673));
+
+        //Kaskadian
+        pokemon.add(new KaskadianBunnelby(659));
+        pokemon.add(new KaskadianDiggersby(660));
+        pokemon.add(new KaskadianPhantump(708));
+        pokemon.add(new KaskadianTrevenant(709));
+        pokemon.add(new KaskadianDiancie(719));
 
     }
 }

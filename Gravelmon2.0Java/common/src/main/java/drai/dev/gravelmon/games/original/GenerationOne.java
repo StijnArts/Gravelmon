@@ -2,9 +2,15 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
+import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
+import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
+import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
@@ -28,10 +34,82 @@ public class GenerationOne extends Original {
         pokemon.add(new SeviianDoduo(84));
         pokemon.add(new SeviianDodrio(85));
 
-
         //Pokemon Blazing Emerald
         addHoennianPokemon();
 
+        //Pokemon Myth
+        addMythianPokemon();
+
+        //Pokemon Flux
+        pokemon.add(new AlteranEkans(23));
+        pokemon.add(new AlteranArbok(24));
+        pokemon.add(new AlteranNidoran(33));
+
+        //Armiran (Daybreak
+        pokemon.add(new ArmiranGrowlithe(58));
+        pokemon.add(new ArmiranArcanine(59));
+
+        //Vanguard
+        addAyreianPokemon();
+
+        //Phoenix Rising
+        pokemon.add(new RelicTentacool(72));
+        pokemon.add(new RelicTentacruel(73));
+        pokemon.add(new RelicKoffing(109));
+        pokemon.add(new RelicWeezing(110));
+
+        //Kaskadian
+        pokemon.add(new KaskadianRaticate(20));
+        pokemon.add(new KaskadianBellsprout(69));
+        pokemon.add(new KaskadianGastly(92));
+        pokemon.add(new KaskadianHaunter(93));
+        pokemon.add(new KaskadianGengar(94));
+        pokemon.add(new KaskadianJynx(124));
+        pokemon.add(new KaskadianLapras(131));
+
+    }
+
+    private void addAyreianPokemon() {
+        pokemon.add(new AyreianBulbasaur(1));
+        pokemon.add(new AyreianIvysaur(2));
+        pokemon.add(new AyreianVenusaur(3));
+        pokemon.add(new AyreianCharmander(4));
+        pokemon.add(new AyreianCharmeleon(5));
+        pokemon.add(new AyreianCharizard(6));
+        pokemon.add(new AyreianSquirtle(7));
+        pokemon.add(new AyreianWartortle(8));
+        pokemon.add(new AyreianBlastoise(9));
+        pokemon.add(new AyreianCaterpie(10));
+        pokemon.add(new AyreianMetapod(11));
+        pokemon.add(new AyreianButterfree(12));
+        pokemon.add(new AyreianPidgey(16));
+        pokemon.add(new AyreianPidgeotto(17));
+        pokemon.add(new AyreianPidgeot(18));
+        pokemon.add(new AyreianDiglett(50));
+        pokemon.add(new AyreianDugtrio(51));
+        pokemon.add(new AyreianAbra(63));
+        pokemon.add(new AyreianKadabra(64));
+        pokemon.add(new AyreianAlakazam(65));
+        pokemon.add(new AyreianMagnemite(81));
+        pokemon.add(new AyreianMagneton(82));
+        pokemon.add(new AyreianGrimer(88));
+        pokemon.add(new AyreianMuk(89));
+        pokemon.add(new AyreianGastly(92));
+        pokemon.add(new AyreianHaunter(93));
+        pokemon.add(new AyreianGengar(94));
+        pokemon.add(new AyreianVoltorb(100));
+        pokemon.add(new AyreianElectrode(101));
+        pokemon.add(new AyreianPinsir(127));
+    }
+
+    private void addMythianPokemon() {
+        pokemon.add(new MythianPidgey(16));
+        pokemon.add(new MythianPidgeotto(17));
+        pokemon.add(new MythianPidgeot(18));
+        /*pokemon.add(new MythianDrowzee(96));
+        pokemon.add(new MythianHypno(97));*/
+        pokemon.add(new MythianScyther(123));
+        pokemon.add(new MythianLapras(131));
     }
 
     private void addHoennianPokemon() {

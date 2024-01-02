@@ -100,7 +100,7 @@ public class Hydranticus extends Pokemon {
                 ), SpawnContext.SURFACE, SpawnPool.RARE, 35, 56, 3.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN,Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP,Biome.IS_FRESHWATER))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN,Biome.IS_FRESHWATER))),
                 List.of(SpawnPreset.WATER_SURFACE),
                 0.3, 0.5,
                 List.of());

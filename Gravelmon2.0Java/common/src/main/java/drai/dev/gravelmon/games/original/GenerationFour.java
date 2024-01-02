@@ -2,9 +2,14 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
+import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
+import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
+import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationFour extends Original {
@@ -20,6 +25,64 @@ public class GenerationFour extends Original {
         pokemon.add(new EhgoTangrowth(465));
 
         //Pokemon Insurgance
+        addDeltaPokemon();
+
+        //X-species
+        pokemon.add(new BudewX(406));
+        pokemon.add(new RoseradeX(407));
+        pokemon.add(new SpiritombX(442));
+
+        //Pokemon Blazing Emerald
+        pokemon.add(new HoennianTangrowth(465));
+        pokemon.add(new HoennianRegigigas(486));
+
+        //Radical Red
+        pokemon.add(new SeviianCarnivine(455));
+        pokemon.add(new SeviianMantyke(458));
+
+        addMythianPokemon();
+
+        //Daybreak
+        pokemon.add(new ArmiranGarchomp(445));
+        pokemon.add(new ArmiranHippopotas(449));
+        pokemon.add(new ArmiranHippowdon(450));
+
+        //Vanguard
+        pokemon.add(new AyreianShinx(403));
+        pokemon.add(new AyreianLuxio(404));
+        pokemon.add(new AyreianLuxray(405));
+        pokemon.add(new AyreianBudew(406));
+        pokemon.add(new AyreianRoserade(407));
+        pokemon.add(new AyreianDrifloon(425));
+        pokemon.add(new AyreianDrifblim(426));
+
+        //Phoenix Rising
+        pokemon.add(new RelicBudew(406));
+        pokemon.add(new RelicRoserade(407));
+        pokemon.add(new RelicAmbipom(424));
+
+        //Kaskadian
+        pokemon.add(new KaskadianShinx(403));
+        pokemon.add(new KaskadianLuxio(404));
+        pokemon.add(new KaskadianLuxray(405));
+        pokemon.add(new KaskadianAmbipom(424));
+        pokemon.add(new AmazeAllDrifblim(426));
+        pokemon.add(new KaskadianSkuntank(435));
+        pokemon.add(new KaskadianSnover(459));
+        pokemon.add(new KaskadianAbomasnow(460));
+        pokemon.add(new SolRotom(479));
+        pokemon.add(new SwayRotom(479));
+        pokemon.add(new BrawlRotom(479));
+        pokemon.add(new WebRotom(479));
+        pokemon.add(new JunkRotom(479));
+        pokemon.add(new HomeRotom(479));
+        pokemon.add(new BassRotom(479));
+        pokemon.add(new TwirlRotom(479));
+        pokemon.add(new MixRotom(479));
+
+    }
+
+    private void addDeltaPokemon() {
         pokemon.add(new DeltaTurtwig(387));
         pokemon.add(new DeltaGrotle(388));
         pokemon.add(new DeltaTorterra(389));
@@ -47,19 +110,12 @@ public class GenerationFour extends Original {
         pokemon.add(new DeltaYanmega(469));
         pokemon.add(new DeltaGallade(475));
         pokemon.add(new DeltaFroslass(478));
-
-        //X-species
-        pokemon.add(new BudewX(406));
-        pokemon.add(new RoseradeX(407));
-        pokemon.add(new SpiritombX(442));
-
-        //Pokemon Blazing Emerald
-        pokemon.add(new HoennianTangrowth(465));
-        pokemon.add(new HoennianRegigigas(486));
-
-        //Radical Red
-        pokemon.add(new SeviianCarnivine(455));
-        pokemon.add(new SeviianMantyke(458));
-
     }
+
+    private void addMythianPokemon() {
+        pokemon.add(new MythianRiolu(447));
+        pokemon.add(new MythianLucario(448));
+    }
+
+
 }
