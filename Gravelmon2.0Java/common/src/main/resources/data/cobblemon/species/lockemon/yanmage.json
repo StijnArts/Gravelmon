@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yanmage",
-  "nationalPokedexNumber": 1482,
+  "nationalPokedexNumber": 1405,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -101,21 +101,6 @@
   ],
   "pokedex": [
     "cobblemon.species.yanmage.desc"
-  ],
-  "evolutions": [
-    {
-      "id": "yanmage_yanmage",
-      "variant": "level_up",
-      "result": "yanmage",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "dragonsdice"
-        }
-      ]   
- }
   ],
   "baseScale": 0.225,
   "hitbox": {

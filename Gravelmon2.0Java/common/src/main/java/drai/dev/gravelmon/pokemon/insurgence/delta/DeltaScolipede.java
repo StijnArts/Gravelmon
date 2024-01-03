@@ -19,8 +19,7 @@ public class DeltaScolipede extends Pokemon {
                 70,
                 50, List.of(EggGroup.DELTA),
                 List.of("Though it prefers to remain still and blend in with its surroundings, when threatened it bursts forward at high speed and then crashes into its opponent explosively."),
-                List.of(new EvolutionEntry("deltascolipede", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MEGAHORN,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),

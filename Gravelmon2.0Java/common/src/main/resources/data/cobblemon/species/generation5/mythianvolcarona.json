@@ -81,19 +81,6 @@
   "pokedex": [
     "cobblemon.species.mythianvolcarona.desc"
   ],
-  "evolutions": [
-    {
-      "id": "mythianvolcarona_mythianvolcarona",
-      "variant": "item_interact",
-      "result": "mythianvolcarona",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-
-      ],
-      "requiredContext": "gravelmon:pixie_dust"   
- }
-  ],
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

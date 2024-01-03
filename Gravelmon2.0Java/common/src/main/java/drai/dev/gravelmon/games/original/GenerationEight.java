@@ -24,7 +24,7 @@ public class GenerationEight extends Original {
         pokemon.add(new SeviianCentiskorch(851));
 
         //Myth
-        pokemon.add(new MythianKleavor(942));
+        pokemon.add(new MythianKleavor(900));
 
         //Vanguard
         pokemon.add(new AyreianGrookey(810));

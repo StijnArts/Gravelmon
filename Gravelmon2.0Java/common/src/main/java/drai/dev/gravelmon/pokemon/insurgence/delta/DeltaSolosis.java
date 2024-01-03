@@ -19,7 +19,7 @@ public class DeltaSolosis extends Pokemon {
                 70,
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by Steads42. Its survival is dependent upon its soul remaining bound to its rock."),
-                List.of(new EvolutionEntry("deltasolosis", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("deltaduosion", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

@@ -19,8 +19,7 @@ public class RelicGogoat extends Pokemon {
                 70,
                 51, List.of(EggGroup.FIELD, EggGroup.MINERAL),
                 List.of("Relic Gogoat’s DNA was altered, and rocky outcrops grew all over its body. Old records tell of a mounted Relic Gogoat ending a month-long siege in a matter of seconds, by turning the castle gates to splinters with a full-speed horn bash. No momentum was lost."),
-                List.of(new EvolutionEntry("relicgogoat", EvolutionType.LEVEL_UP, false, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "30")))),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MILK_DRINK,1),
                         new MoveLearnSetEntry(Move.AERIAL_ACE,1),

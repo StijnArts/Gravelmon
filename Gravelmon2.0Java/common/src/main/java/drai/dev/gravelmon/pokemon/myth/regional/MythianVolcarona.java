@@ -19,8 +19,7 @@ public class MythianVolcarona extends Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Volcarona from Mythan have adapted to the rays ammitted from the moon at night, causing an outbreak of magical transformation once evolving."),
-                List.of(new EvolutionEntry("mythianvolcarona", EvolutionType.ITEM_INTERACT, false, List.of(),
-                        List.of(),List.of(),"gravelmon:pixie_dust")),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.QUIVER_DANCE,1),
                         new MoveLearnSetEntry(Move.FIERY_DANCE,1),

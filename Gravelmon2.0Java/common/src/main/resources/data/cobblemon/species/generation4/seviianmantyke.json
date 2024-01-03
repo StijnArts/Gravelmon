@@ -108,9 +108,9 @@
   ],
   "evolutions": [
     {
-      "id": "seviianmantyke_seviianmantyne",
+      "id": "seviianmantyke_seviianmantine",
       "variant": "level_up",
-      "result": "seviianmantyne",
+      "result": "seviianmantine",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -142,9 +142,9 @@
   ],
   "evolutions": [
     {
-      "id": "eghoswablu_eghEghoPokemonoaltaria",
+      "id": "eghoswablu_eghoaltaria",
       "variant": "level_up",
-      "result": "eghEghoPokemonoaltaria",
+      "result": "eghoaltaria",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

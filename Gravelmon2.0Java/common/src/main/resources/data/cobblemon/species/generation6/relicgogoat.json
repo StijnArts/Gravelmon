@@ -129,21 +129,6 @@
   "pokedex": [
     "cobblemon.species.relicgogoat.desc"
   ],
-  "evolutions": [
-    {
-      "id": "relicgogoat_relicgogoat",
-      "variant": "level_up",
-      "result": "relicgogoat",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 30
-        }
-      ]   
- }
-  ],
   "baseScale": 0.4125,
   "hitbox": {
     "width": 3.0,

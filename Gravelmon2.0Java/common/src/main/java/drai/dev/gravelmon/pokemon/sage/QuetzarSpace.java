@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class QuetzarSpace extends Pokemon {
-    public QuetzarSpace() {
-        super(1327,"QuetzarSpace",
+    public QuetzarSpace(int dexNo) {
+        super(dexNo,"QuetzarSpace",
                 Type.DRAGON, Type.PSYCHIC,
                 new Stats(105, 85, 105, 160, 125, 90),
                 List.of(Ability.PRESSURE), Ability.CLOUD_NINE,

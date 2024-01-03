@@ -150,21 +150,6 @@
   "pokedex": [
     "cobblemon.species.deltascolipede.desc"
   ],
-  "evolutions": [
-    {
-      "id": "deltascolipede_deltascolipede",
-      "variant": "level_up",
-      "result": "deltascolipede",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 30
-        }
-      ]   
- }
-  ],
   "baseScale": 0.225,
   "hitbox": {
     "width": 3.0,

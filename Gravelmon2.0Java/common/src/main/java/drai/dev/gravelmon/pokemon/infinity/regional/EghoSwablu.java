@@ -19,7 +19,7 @@ public class EghoSwablu extends Pokemon {
                 70,
                 39, List.of(EggGroup.FLYING, EggGroup.DRAGON),
                 List.of("Swablu tuck themselves into the cottony feathers they have to keep warm during blizzards. Flocks hum in unison as they're bundled up."),
-                List.of(new EvolutionEntry("eghEghoPokemonoaltaria", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("eghoaltaria", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),

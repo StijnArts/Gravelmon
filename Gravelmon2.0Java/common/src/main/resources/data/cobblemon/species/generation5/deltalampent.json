@@ -141,9 +141,9 @@
   ],
   "evolutions": [
     {
-      "id": "deltalampent_deltalampent",
+      "id": "deltalampent_deltachandelure",
       "variant": "item_interact",
-      "result": "deltalampent",
+      "result": "deltachandelure",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

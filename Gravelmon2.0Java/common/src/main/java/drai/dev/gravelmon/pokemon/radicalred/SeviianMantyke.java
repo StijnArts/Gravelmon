@@ -19,7 +19,7 @@ public class SeviianMantyke extends Pokemon {
                 70,
                 51, List.of(EggGroup.UNDISCOVERED),
                 List.of(""),
-                List.of(new EvolutionEntry("seviianmantyne", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("seviianmantine", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE, 1),
