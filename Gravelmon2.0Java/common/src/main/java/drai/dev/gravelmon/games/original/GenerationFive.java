@@ -20,8 +20,8 @@ public class GenerationFive extends Original {
     @Override
     public void registerPokemon() {
         //Pokemon Infinity
-        pokemon.add(new EhgoTrubbish(568));
-        pokemon.add(new EhgoGarbodor(569));
+        pokemon.add(new EghoTrubbish(568));
+        pokemon.add(new EghoGarbodor(569));
 
         //Pokemon Insurgance
         pokemon.add(new DeltaSnivy(495));
@@ -117,9 +117,6 @@ public class GenerationFive extends Original {
         pokemon.add(new AyreianVanillite(582));
         pokemon.add(new AyreianVanillish(583));
         pokemon.add(new AyreianVanniluxe(584));
-        pokemon.add(new AyreianAxew(610));
-        pokemon.add(new AyreianFraxure(611));
-        pokemon.add(new AyreianHaxorus(612));
 
         //Kaskadian
         pokemon.add(new KaskadianExcadrill(530));

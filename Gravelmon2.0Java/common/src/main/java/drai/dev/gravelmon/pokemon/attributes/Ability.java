@@ -417,7 +417,10 @@ public enum Ability {
     INCANTATION("incantation", false),
     HAUNTING("haunting", false),
     SOUL_DRAIN("souldrain", false),
-    BIRDLIKE("birdlike", false), BLAZE_IMPACT("blazeimpact", false), DARKENED_SCALES("darkenedscales", false);
+    BIRDLIKE("birdlike", false),
+    BLAZE_IMPACT("blazeimpact", false),
+    DARKENED_SCALES("darkenedscales", false),
+    MALEVOLENCE("malevolence", false), MINDTUNING("mindtuning", false);
 
     private String name;
     private Boolean implemented;

@@ -1,0 +1,165 @@
+{
+  "implemented": true,
+  "name": "ayreianmeganium",
+  "nationalPokedexNumber": 154,
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "abilities": [
+    "pixilate",
+    "triage",
+    "h:mistysurge"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 70,
+    "defence": 115,
+    "special_attack": 60,
+    "special_defence": 120,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 236,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "monster"
+  ],
+  "moves": [
+    "1:gigadrain",
+    "1:leechseed",
+    "1:tackle",
+    "1:growl",
+    "5:babydolleyes",
+    "6:absorb",
+    "9:fairywind",
+    "12:swiftcosmic",
+    "15:megadrain",
+    "18:reflect",
+    "20:magicalleaf",
+    "23:drainingkiss",
+    "27:lightscreen",
+    "32:calmmind",
+    "40:triattack",
+    "46:moonblast",
+    "54:leafstorm",
+    "60:aromatherapy",
+    "66:synthesis",
+    "70:earthpower",
+    "tutor:attract",
+    "tutor:bulldoze",
+    "tutor:bulletseed",
+    "tutor:confide",
+    "tutor:cut",
+    "tutor:doubleteam",
+    "tutor:dragontail",
+    "tutor:earthquake",
+    "tutor:echoedvoicesound",
+    "tutor:endure",
+    "tutor:energyball",
+    "tutor:facade",
+    "tutor:frenzyplant",
+    "tutor:frustration",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassknot",
+    "tutor:grasspledge",
+    "tutor:hiddenpower",
+    "tutor:hyperbeam",
+    "tutor:irontail",
+    "tutor:laserfocus",
+    "tutor:lightscreen",
+    "tutor:magiccoat",
+    "tutor:naturepower",
+    "tutor:outrage",
+    "tutor:protect",
+    "tutor:reflect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:rocksmash",
+    "tutor:roundsound",
+    "tutor:safeguard",
+    "tutor:seedbomb",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:solarbeam",
+    "tutor:stompingtantrum",
+    "tutor:strength",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:swordsdance",
+    "tutor:synthesis",
+    "tutor:toxic",
+    "tutor:workup",
+    "tutor:worryseed",
+    "tutor:dazzlinggleam",
+    "egg:vinewhip",
+    "egg:leechseed",
+    "egg:counter",
+    "egg:ancientpower",
+    "egg:flail",
+    "egg:naturepower",
+    "egg:ingrain",
+    "egg:grasswhistle",
+    "egg:leafstorm",
+    "egg:aromatherapy",
+    "egg:wringout",
+    "egg:bodyslam",
+    "egg:refresh",
+    "egg:healpulse",
+    "egg:grassyterrain"  ],
+  "labels": [
+    "gen2",
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianmeganium.desc"
+  ],
+  "baseScale": 0.3375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 1005,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

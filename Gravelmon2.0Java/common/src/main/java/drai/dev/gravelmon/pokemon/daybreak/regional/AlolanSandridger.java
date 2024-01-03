@@ -103,5 +103,6 @@ public class AlolanSandridger extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         setPreEvolution("Sandslash");
+        setLangFileName("Sandridger");
     }
 }

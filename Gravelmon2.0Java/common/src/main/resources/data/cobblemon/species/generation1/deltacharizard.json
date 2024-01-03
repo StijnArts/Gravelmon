@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltacharizard",
-  "nationalPokedexNumber": 5,
+  "nationalPokedexNumber": 6,
   "primaryType": "ghost",
   "secondaryType": "dragon",
   "abilities": [
@@ -236,7 +236,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 11,
+  "height": 17,
   "weight": 419,
   "aspects": [],
 "features": [

@@ -126,19 +126,19 @@ public class GenerationTwo extends Original {
 
     private void registerPokemonInfinityForms() {
         //Pokemon Infinity
-        pokemon.add(new EhgoChikorita(152));
-        pokemon.add(new EhgoBayleef(153));
-        pokemon.add(new EhgoMeganium(154));
-        pokemon.add(new EhgoCyndaquil(155));
-        pokemon.add(new EhgoQuilava(156));
-        pokemon.add(new EhgoTyphlosion(157));
-        pokemon.add(new EhgoTotodile(158));
-        pokemon.add(new EhgoCroconaw(159));
-        pokemon.add(new EhgoFeraligatr(160));
-        pokemon.add(new EhgoHoothoot(163));
-        pokemon.add(new EhgoNoctowl(164));
-        pokemon.add(new EhgoMarill(183));
-        pokemon.add(new EhgoAzumarill(184));
-        pokemon.add(new EhgoBlissey(242));
+        pokemon.add(new EghoChikorita(152));
+        pokemon.add(new EghoBayleef(153));
+        pokemon.add(new EghoMeganium(154));
+        pokemon.add(new EghoCyndaquil(155));
+        pokemon.add(new EghoQuilava(156));
+        pokemon.add(new EghoTyphlosion(157));
+        pokemon.add(new EghoTotodile(158));
+        pokemon.add(new EghoCroconaw(159));
+        pokemon.add(new EghoFeraligatr(160));
+        pokemon.add(new EghoHoothoot(163));
+        pokemon.add(new EghoNoctowl(164));
+        pokemon.add(new EghoMarill(183));
+        pokemon.add(new EghoAzumarill(184));
+        pokemon.add(new EghoBlissey(242));
     }
 }

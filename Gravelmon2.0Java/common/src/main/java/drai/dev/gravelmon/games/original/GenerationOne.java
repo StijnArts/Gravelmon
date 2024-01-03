@@ -43,7 +43,7 @@ public class GenerationOne extends Original {
         //Pokemon Flux
         pokemon.add(new AlteranEkans(23));
         pokemon.add(new AlteranArbok(24));
-        pokemon.add(new AlteranNidoran(33));
+        pokemon.add(new AlteranNidoran(32));
 
         //Armiran (Daybreak
         pokemon.add(new ArmiranGrowlithe(58));
@@ -183,25 +183,25 @@ public class GenerationOne extends Original {
     }
 
     private void addEghoPokemon() {
-        pokemon.add(new EhgoBulbasaur(1));
-        pokemon.add(new EhgoIvysaur(2));
-        pokemon.add(new EhgoVenusaur(3));
-        pokemon.add(new EhgoCharmander(4));
-        pokemon.add(new EhgoCharmeleon(5));
-        pokemon.add(new EhgoCharizard(6));
-        pokemon.add(new EhgoSquirtle(7));
-        pokemon.add(new EhgoWartortle(8));
-        pokemon.add(new EhgoBlastoise(9));
-        pokemon.add(new EhgoSpearow(21));
-        pokemon.add(new EhgoFearow(22));
-        pokemon.add(new EhgoOddish(43));
-        pokemon.add(new EhgoGloom(44));
-        pokemon.add(new EhgoMagnemite(81));
-        pokemon.add(new EhgoMagneton(82));
-        pokemon.add(new EhgoGrimer(88));
-        pokemon.add(new EhgoMuk(89));
-        pokemon.add(new EhgoShellder(90));
-        pokemon.add(new EhgoChansey(113));
-        pokemon.add(new EhgoTangela(114));
+        pokemon.add(new EghoBulbasaur(1));
+        pokemon.add(new EghoIvysaur(2));
+        pokemon.add(new EghoVenusaur(3));
+        pokemon.add(new EghoCharmander(4));
+        pokemon.add(new EghoCharmeleon(5));
+        pokemon.add(new EghoCharizard(6));
+        pokemon.add(new EghoSquirtle(7));
+        pokemon.add(new EghoWartortle(8));
+        pokemon.add(new EghoBlastoise(9));
+        pokemon.add(new EghoSpearow(21));
+        pokemon.add(new EghoFearow(22));
+        pokemon.add(new EghoOddish(43));
+        pokemon.add(new EghoGloom(44));
+        pokemon.add(new EghoMagnemite(81));
+        pokemon.add(new EghoMagneton(82));
+        pokemon.add(new EghoGrimer(88));
+        pokemon.add(new EghoMuk(89));
+        pokemon.add(new EghoShellder(90));
+        pokemon.add(new EghoChansey(113));
+        pokemon.add(new EghoTangela(114));
     }
 }

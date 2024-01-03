@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class Zorotsune  extends Pokemon {
-    public Zorotsune(int dexNo) {
-        super(dexNo,"Zorotsune",
+    public Zorotsune() {
+        super("Zorotsune",
                 Type.GHOST,
                 new Stats(60, 85, 65, 130, 75, 95),
                 List.of(Ability.ILLUSION), Ability.INFILTRATOR,

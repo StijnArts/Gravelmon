@@ -1200,7 +1200,7 @@ public enum Move {
     WAVE_LASH("wavelash", false),
     FIRECRACKERS("firecrackers", false),
     SWIFT_STRIKE("swiftstrike", false),
-    HEATED_REVUP("heatedrevup", false);
+    HEATED_REVUP("heatedrevup", false), SPECTRAL_BARRAGE("spectralbarrage", false), NIGHT_SHADE_BOUQUET("nightshadebouquet", false);
 
     private String name;
     private boolean implemented;

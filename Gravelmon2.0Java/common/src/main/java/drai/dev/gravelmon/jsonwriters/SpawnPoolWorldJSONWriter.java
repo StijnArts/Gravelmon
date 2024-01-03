@@ -158,7 +158,7 @@ public class SpawnPoolWorldJSONWriter {
                 } else {
                     fileContents += ",\n";
                 }
-                fileContents += "\"#"+biome.getId()+":"+biome.getName()+"\"";
+                fileContents += "\""+biome.getId()+":"+biome.getName()+"\"";
             }
             fileContents+=" ]";
         } else {

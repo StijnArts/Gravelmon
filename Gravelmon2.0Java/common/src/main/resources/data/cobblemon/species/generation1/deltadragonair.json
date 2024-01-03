@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadragonair",
-  "nationalPokedexNumber": 147,
+  "nationalPokedexNumber": 148,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -139,7 +139,7 @@
   "evolutions": [
     {
       "id": "deltadragonair_deltadragonite",
-      "variant": "item_interact",
+      "variant": "level_up",
       "result": "deltadragonite",
       "consumeHeldItem": false,
       "learnableMoves": [],

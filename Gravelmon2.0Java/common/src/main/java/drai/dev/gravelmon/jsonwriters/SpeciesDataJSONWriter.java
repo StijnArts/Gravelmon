@@ -24,17 +24,6 @@ public class SpeciesDataJSONWriter {
             }
         });
     }
-    public static void writePlaceholder(String resourcesDir) {
-        String dir = resourcesDir+"\\data\\cobblemon\\species\\infinity\\";
-        EghoPokemon.placeholders.forEach(pokemon -> {
-            try {
-                Files.createDirectories(new File(dir).toPath());
-                writePokemon(pokemon, dir, null, false);
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        });
-    }
 
     private static void writePokemon(Pokemon pokemon, String dir, Game game, boolean isSubstitutedMoveImplementation) throws IOException {
         if(pokemon.getPrimaryType() == null){

@@ -1,7 +1,9 @@
 package drai.dev.gravelmon.games.registry;
 
+import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.games.original.*;
+import drai.dev.gravelmon.pokemon.*;
 
 import java.util.*;
 
@@ -18,6 +20,7 @@ public class GameRegistry {
         games.add(new GenerationSeven());
         games.add(new GenerationEight());
         games.add(new GenerationNine());
+        GravelmonJsonGenerator.setDexCounter(1024);
         games.add(new Sage());
         games.add(new Infinity());
         games.add(new Insurgence());
@@ -30,5 +33,11 @@ public class GameRegistry {
         games.add(new Vanguard());
         games.add(new Myth());
         games.add(new Vega());
+        var sortedDex = new ArrayList<String>();
+        for (var pokedexEntry: Pokemon.pokemonRegistry) {
+            sortedDex.add(String.format("%04d", pokedexEntry.getPokedexNumber())+ ": " + pokedexEntry.getName());
+        }
+        sortedDex.sort(String::compareTo);
+        System.out.println("");
     }
 }

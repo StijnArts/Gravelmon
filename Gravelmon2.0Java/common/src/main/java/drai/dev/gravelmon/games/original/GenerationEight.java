@@ -32,7 +32,6 @@ public class GenerationEight extends Original {
         pokemon.add(new AyreianRillaboom(812));
         pokemon.add(new AyreianSizzlipede(850));
         pokemon.add(new AyreianCentiskorch(851));
-        pokemon.add(new AyreianObstagoon(862));
 
         //Kaskadian
         pokemon.add(new KaskadianDubwool(832));

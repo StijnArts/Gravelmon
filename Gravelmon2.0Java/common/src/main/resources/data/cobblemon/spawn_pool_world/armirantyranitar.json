@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "armirantyranitar-1",
+      "pokemon": "armirantyranitar",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "51-67",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic",
+"#minecraft:is_nether" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

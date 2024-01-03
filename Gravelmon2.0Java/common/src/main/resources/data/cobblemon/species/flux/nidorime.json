@@ -1,0 +1,205 @@
+{
+  "implemented": true,
+  "name": "nidorime",
+  "nationalPokedexNumber": 1478,
+  "primaryType": "ice",
+  "secondaryType": "ground",
+  "abilities": [
+    "snowcloak",
+    "slushrush",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 62,
+    "defence": 67,
+    "special_attack": 60,
+    "special_defence": 55,
+    "speed": 46
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Summer",
+      "pokedex": [
+    "cobblemon.species.nidorime.desc1"
+  ],
+      "primaryType": "ground",
+      "abilities": [
+    "sandveil",
+    "sandrush",
+    "h:adaptability"
+      ],
+      "baseScale": 0.3,
+        "hitbox": {
+          "width": 3.0,
+          "height": 3.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 46,
+        "attack": 52,
+        "defence": 42,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 55
+      },
+      "catchRate": 200,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 146,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "experienceGroup": "slow",
+      "eggCycles": 32,
+      "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "moves": [
+    "1:icywind",
+    "1:leer",
+    "1:tackle",
+    "1:focusenergy",
+    "15:mudshot",
+    "22:sandstorm",
+    "29:bulldoze",
+    "36:drillrun",
+    "43:quash",
+    "50:spikes",
+    "57:swagger",
+    "64:earthpower",
+    "71:fissure",
+    "egg:counter",
+    "egg:disable",
+    "egg:headsmash",
+    "egg:icefang"  ],
+  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "flux",
+    "not_modeled"
+      ],
+      "aspects": [
+
+      ],
+      "height": 0,
+      "weight": 900,
+  "evolutions": [
+    {
+      "id": "summer_nidorime_nidoregus",
+      "variant": "item_interact",
+      "result": "nidoregus",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:ice_stone"
+    }
+  ],
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+],
+  "baseExperienceYield": 128,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "moves": [
+    "1:bulldoze",
+    "1:growl",
+    "1:tackle",
+    "1:powdersnow",
+    "1:mist",
+    "15:iceshard",
+    "22:snowscape",
+    "29:icywind",
+    "36:freezedry",
+    "43:afteryou",
+    "50:auroraveil",
+    "57:swagger",
+    "64:iciclecrash",
+    "71:sheercold",
+    "egg:counter",
+    "egg:disable",
+    "egg:headsmash",
+    "egg:icefang"  ],
+  "labels": [
+    "flux",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.nidorime.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "nidorime_nidoregina",
+      "variant": "item_interact",
+      "result": "nidoregina",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:ice_stone"   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 200,
+  "aspects": [],
+"features": [
+"summer"
+  ],  "cannotDynamax": false
+}

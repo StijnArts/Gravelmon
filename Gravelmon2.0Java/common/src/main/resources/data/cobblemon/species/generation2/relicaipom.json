@@ -1,0 +1,162 @@
+{
+  "implemented": true,
+  "name": "relicaipom",
+  "nationalPokedexNumber": 190,
+  "primaryType": "fighting",
+  "abilities": [
+    "scrappy",
+    "pickup",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 90,
+    "defence": 45,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 15,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 72,
+  "experienceGroup": "fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:karatechop",
+    "1:leer",
+    "5:rocksmash",
+    "8:fakeout",
+    "12:rockthrow",
+    "18:fling",
+    "21:forcepalm",
+    "26:endure",
+    "29:acrobatics",
+    "31:triattack",
+    "33:tripleaxel",
+    "35:brickbreak",
+    "40:rockslide",
+    "46:closecombat",
+    "51:circlethrow",
+    "tm:workup",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:smackdown",
+    "tm:return",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sludgebomb",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:brutalswing",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:rockslide",
+    "tm:xscissor",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:confide",
+    "tm:aquatail",
+    "tm:dualchop",
+    "tm:firepunch",
+    "tm:knockoff",
+    "tm:lowkick",
+    "tm:skillswap",
+    "tm:superpower",
+    "tm:thunderpunch",
+    "tm:trick",
+    "egg:bulletpunch",
+    "egg:crosschop",
+    "egg:dynamicpunch",
+    "egg:feint",
+    "egg:headbutt",
+    "egg:quickguard",
+    "egg:wakeupslap"  ],
+  "labels": [
+    "phoenix_rising",
+    "gen2",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.relicaipom.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "relicaipom_relicambipom",
+      "variant": "level_up",
+      "result": "relicambipom",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "tripleaxel"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.16875,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 130,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

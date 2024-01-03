@@ -1,0 +1,162 @@
+{
+  "implemented": true,
+  "name": "ayreianbulbasaur",
+  "nationalPokedexNumber": 1,
+  "primaryType": "dark",
+  "secondaryType": "ground",
+  "abilities": [
+    "stamina",
+    "weakarmor",
+    "h:sandstream"
+  ],
+  "baseStats": {
+    "hp": 81,
+    "attack": 54,
+    "defence": 69,
+    "special_attack": 15,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "grass"
+  ],
+  "moves": [
+    "1:pursuit",
+    "1:growl",
+    "3:mudslap",
+    "8:fakeout",
+    "12:bulldoze",
+    "16:brutalswing",
+    "21:painsplit",
+    "25:stompingtantrum",
+    "30:suckerpunch",
+    "35:taunt",
+    "38:rockpolish",
+    "42:knockoff",
+    "49:shoreup",
+    "56:earthquake",
+    "tutor:amnesia",
+    "tutor:attract",
+    "tutor:bind",
+    "tutor:block",
+    "tutor:bodyslam",
+    "tutor:bulldoze",
+    "tutor:charm",
+    "tutor:confide",
+    "tutor:cut",
+    "tutor:doubleteam",
+    "tutor:earthpower",
+    "tutor:earthquake",
+    "tutor:echoedvoicesound",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:falseswipe",
+    "tutor:frenzyplant",
+    "tutor:frustration",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassknot",
+    "tutor:helpinghand",
+    "tutor:hiddenpower",
+    "tutor:hyperbeam",
+    "tutor:knockoff",
+    "tutor:lightscreen",
+    "tutor:naturepower",
+    "tutor:outrage",
+    "tutor:protect",
+    "tutor:reflect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:roarsound",
+    "tutor:rocksmash",
+    "tutor:roundsound",
+    "tutor:safeguard",
+    "tutor:sleeptalksound",
+    "tutor:poisonjab",
+    "tutor:snoresound",
+    "tutor:stompingtantrum",
+    "tutor:strength",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:swordsdance",
+    "tutor:terrainpulse",
+    "tutor:toxic",
+    "tutor:venoshock",
+    "tutor:weatherball",
+    "tutor:workup",
+    "tutor:worryseed"  ],
+  "labels": [
+    "gen1",
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianbulbasaur.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ayreianbulbasaur_ayreianivysaur",
+      "variant": "level_up",
+      "result": "ayreianivysaur",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.13125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 69,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

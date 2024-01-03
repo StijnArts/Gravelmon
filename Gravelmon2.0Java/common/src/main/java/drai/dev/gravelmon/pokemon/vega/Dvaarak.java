@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class Dvaarak extends Pokemon {
-    public Dvaarak(int dexNo) {
-        super(dexNo,"Dvaarak",
+    public Dvaarak() {
+        super("Dvaarak",
                 Type.GROUND, Type.STEEL,
                 new Stats(86, 110, 70, 55, 50, 94),
                 List.of(Ability.ARENA_TRAP), Ability.SAND_VEIL,

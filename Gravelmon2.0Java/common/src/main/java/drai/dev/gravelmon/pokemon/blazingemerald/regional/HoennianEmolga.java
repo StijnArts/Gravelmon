@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 
-public class HoennianEmolga extends EghoPokemon {
+public class HoennianEmolga extends Pokemon {
     public HoennianEmolga(int dexNo) {
         super(dexNo,"HoennianEmolga",
                 Type.GHOST, Type.FLYING,

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "armiranfrogadier-1",
+      "pokemon": "armiranfrogadier",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-33",
+      "weight": 2.0,
+      "condition": {
+        "canSeeSky": false,
+        "maxY": 0
+      }
+    }
+  ]
+}

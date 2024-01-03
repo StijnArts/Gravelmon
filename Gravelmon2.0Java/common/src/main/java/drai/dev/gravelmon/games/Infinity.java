@@ -105,7 +105,7 @@ public class Infinity extends Game {
 
         pokemon.add(new Arkhaos());
 
-        //Ehgo Oddish line
+        //Egho Oddish line
         pokemon.add(new Viledoom());
         pokemon.add(new Mortossum());
 

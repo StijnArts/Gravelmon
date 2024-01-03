@@ -1,8 +1,9 @@
 {
   "implemented": true,
   "name": "deltagreninja",
-  "nationalPokedexNumber": 657,
-  "primaryType": "water",
+  "nationalPokedexNumber": 658,
+  "primaryType": "grass",
+  "secondaryType": "fire",
   "abilities": [
     "steadfast",
     "h:prankster"

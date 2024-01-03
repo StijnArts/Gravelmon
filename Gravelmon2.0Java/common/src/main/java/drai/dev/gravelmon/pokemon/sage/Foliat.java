@@ -9,7 +9,7 @@ import java.util.*;
 
 public class Foliat extends Pokemon {
     public Foliat() {
-        super(1101,"Foliat",
+        super("Foliat",
                 Type.GRASS,
                 new Stats(42, 42, 45, 68, 46, 75),
                 List.of(Ability.OVERGROW), Ability.GALE_WINGS,

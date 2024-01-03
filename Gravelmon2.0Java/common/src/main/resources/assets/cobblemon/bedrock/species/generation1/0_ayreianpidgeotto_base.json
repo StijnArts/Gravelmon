@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreianpidgeotto",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_ayreianpidgeotto",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianpidgeotto.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianpidgeotto_shiny.png"
+    }  ]
+}

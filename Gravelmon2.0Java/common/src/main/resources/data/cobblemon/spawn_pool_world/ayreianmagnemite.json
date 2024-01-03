@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreianmagnemite-1",
+      "pokemon": "ayreianmagnemite",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 1.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_wasteland" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class UFI extends Pokemon {
-    public UFI(int pokedexNo) {
-        super(pokedexNo,"UFI",
+    public UFI() {
+        super("UFI",
                 Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(100, 100,100,100,100,100),
                 List.of(Ability.EVENT_HORIZON), Ability.EVENT_HORIZON,

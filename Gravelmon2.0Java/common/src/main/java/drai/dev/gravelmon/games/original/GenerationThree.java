@@ -83,12 +83,12 @@ public class GenerationThree extends Original {
 
     private void addEghoPokemon() {
         //Pokemon Infinity
-        pokemon.add(new EhgoLotad(270));
-        pokemon.add(new EhgoLombre(271));
-        pokemon.add(new EhgoLudicolo(272));
-        pokemon.add(new EhgoAzurill(298));
-        pokemon.add(new EhgoSwablu(333));
-        pokemon.add(new EhgoAltaria(334));
+        pokemon.add(new EghoLotad(270));
+        pokemon.add(new EghoLombre(271));
+        pokemon.add(new EghoLudicolo(272));
+        pokemon.add(new EghoAzurill(298));
+        pokemon.add(new EghoSwablu(333));
+        pokemon.add(new EghoAltaria(334));
     }
 
     private void addDeltaPokemon() {

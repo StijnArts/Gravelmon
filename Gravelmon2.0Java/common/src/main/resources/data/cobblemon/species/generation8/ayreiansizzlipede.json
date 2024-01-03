@@ -1,0 +1,136 @@
+{
+  "implemented": true,
+  "name": "ayreiansizzlipede",
+  "nationalPokedexNumber": 850,
+  "primaryType": "ghost",
+  "secondaryType": "bug",
+  "abilities": [
+    "flashfire",
+    "whitesmoke",
+    "h:magicbounce"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 55,
+    "defence": 45,
+    "special_attack": 60,
+    "special_defence": 65,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:shadowsneak",
+    "1:willowisp",
+    "5:wrap",
+    "10:bite",
+    "15:strugglebug",
+    "20:flamecharge",
+    "24:coil",
+    "27:hex",
+    "32:slam",
+    "39:bugbuzzsound",
+    "46:crunch",
+    "53:firstimpression",
+    "60:mysticalfire",
+    "67:lastrespects",
+    "tutor:attract",
+    "tutor:brutalswing",
+    "tutor:bugbuzzsound",
+    "tutor:crunch",
+    "tutor:endure",
+    "tutor:flamecharge",
+    "tutor:facade",
+    "tutor:heatcrash",
+    "tutor:heatwave",
+    "tutor:leechlife",
+    "tutor:powerwhip",
+    "tutor:protect",
+    "tutor:rest",
+    "tutor:roundsound",
+    "tutor:scald",
+    "tutor:scorchingsands",
+    "tutor:skittersmack",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:venoshock",
+    "egg:defensecurl",
+    "egg:knockoff",
+    "egg:rollout",
+    "egg:strugglebug"  ],
+  "labels": [
+    "vanguard",
+    "gen8",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiansizzlipede.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ayreiansizzlipede_ayreiancentiskorch",
+      "variant": "level_up",
+      "result": "ayreiancentiskorch",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.13125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 10,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -11,7 +11,7 @@ public enum EvolutionRequirementCondition {
     PROPERTY("properties", "target"),
     FRIENDSHIP("friendship", "amount"),
     PARTY_MEMBER("party_member", "target"),
-    BIOME("boime", "biomeCondition");
+    BIOME("biome", "biomeCondition");
     private String name;
     private String condition;
     EvolutionRequirementCondition(String name, String condition){

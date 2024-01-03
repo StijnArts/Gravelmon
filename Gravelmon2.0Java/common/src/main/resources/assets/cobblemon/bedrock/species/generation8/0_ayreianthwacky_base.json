@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreianthwacky",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation8_ayreianthwacky",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation8/ayreianthwacky.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation8/ayreianthwacky_shiny.png"
+    }  ]
+}

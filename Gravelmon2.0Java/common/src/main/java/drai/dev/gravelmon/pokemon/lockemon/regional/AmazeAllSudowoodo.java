@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 
-public class AmazeAllSudowoodo extends EghoPokemon {
+public class AmazeAllSudowoodo extends Pokemon {
     public AmazeAllSudowoodo(int dexNo) {
         super(dexNo,"AmazeAllSudowoodo",
                 Type.STEEL, Type.PSYCHIC,

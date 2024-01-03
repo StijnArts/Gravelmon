@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class Katuna extends Pokemon {
-    public Katuna(int dexNo) {
-            super(dexNo, "Katuna",
+    public Katuna() {
+            super( "Katuna",
                     Type.WATER,
                     new Stats(40, 64, 60, 40, 50, 64),
                     List.of(Ability.TORRENT), Ability.SWIFT_SWIM,

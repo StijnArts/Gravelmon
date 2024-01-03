@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltahoopa",
-  "nationalPokedexNumber": 715,
+  "nationalPokedexNumber": 720,
   "primaryType": "flying",
   "abilities": [
     "cloudnine",
@@ -152,7 +152,7 @@
     "tutor:waterpulse",
     "tutor:zenheadbutt"  ],
   "labels": [
-    "gen5",
+    "gen6",
     "insurgence",
     "not_modeled"
   ],

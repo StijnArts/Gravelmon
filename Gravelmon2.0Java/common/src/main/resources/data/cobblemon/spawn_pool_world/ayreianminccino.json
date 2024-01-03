@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreianminccino-1",
+      "pokemon": "ayreianminccino",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_sandy" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -16,10 +16,6 @@ public class LangJSONWriter {
         game.getPokemon().forEach(pokemon -> {writePokemon(pokemon);});
     }
 
-    public static void writePlaceholder(){
-        EghoPokemon.placeholders.forEach(pokemon -> {writePokemon(pokemon);});
-    }
-
     public static void writeTranslationKey(String key, String text){
         contents+="    \""+key+"\": \"" + text + "\",\n";
     }

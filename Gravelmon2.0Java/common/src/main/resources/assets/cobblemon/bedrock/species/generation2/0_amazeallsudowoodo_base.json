@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:amazeallsudowoodo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_amazeallsudowoodo",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/amazeallsudowoodo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/amazeallsudowoodo_shiny.png"
+    }  ]
+}

@@ -20,9 +20,9 @@ public class GenerationFour extends Original {
     @Override
     public void registerPokemon() {
         //Pokemon Infinity
-        pokemon.add(new EhgoHappiny(440));
-        pokemon.add(new EhgoMagnezone(462));
-        pokemon.add(new EhgoTangrowth(465));
+        pokemon.add(new EghoHappiny(440));
+        pokemon.add(new EghoMagnezone(462));
+        pokemon.add(new EghoTangrowth(465));
 
         //Pokemon Insurgance
         addDeltaPokemon();

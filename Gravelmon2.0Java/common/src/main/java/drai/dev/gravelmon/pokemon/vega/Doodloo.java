@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class Doodloo extends Pokemon {
-    public Doodloo(int dexNo) {
-        super(dexNo,"Doodloo",
+    public Doodloo() {
+        super("Doodloo",
                 Type.NORMAL,
                 new Stats(70, 30, 45, 30, 35, 65),
                 List.of(Ability.OWN_TEMPO), Ability.LIMBER,

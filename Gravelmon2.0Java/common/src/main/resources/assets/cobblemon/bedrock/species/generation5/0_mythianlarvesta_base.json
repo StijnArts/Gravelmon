@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:mythianlarvesta",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_mythianlarvesta",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/mythianlarvesta.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/mythianlarvesta_shiny.png"
+    }  ]
+}

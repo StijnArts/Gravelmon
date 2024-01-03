@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreianelectrode-1",
+      "pokemon": "ayreianelectrode",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-54",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_basalt" ],
+        "isRaining": true
+      }
+    }
+  ]
+}

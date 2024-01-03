@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreiangrimer",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_ayreiangrimer",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiangrimer.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/ayreiangrimer_shiny.png"
+    }  ]
+}

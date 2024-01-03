@@ -8,7 +8,7 @@ import java.util.*;
 
 public class Pokemon {
     public static String pokemonThatEvolveIntoThemselves = "Encountered pokemon that evolve into Themselves:";
-    public static HashMap<String, Pokemon> pokemonRegistry = new HashMap<>();
+    public static ArrayList<Pokemon> pokemonRegistry = new ArrayList<>();
     String name;
     Stats stats;
     Type primaryType;
@@ -208,6 +208,8 @@ public class Pokemon {
             minSpawnLevel,maxSpawnLevel,spawnWeight,spawnConditions,spawnAntiConditions,
             spawnPresets,forms);
         GravelmonJsonGenerator.setDexCounter(dexNo);
+        pokedexNumber = dexNo;
+        GravelmonJsonGenerator.incrementDexCounter();
     }
 
     private Pokemon(String name, Type primaryType, Stats stats, List<Ability> abilities, Ability hiddenAbility, int height, int weight,
@@ -267,13 +269,13 @@ public class Pokemon {
             this.hitboxHeight = (height/10 * 1.5) / 4 / 1.3;
         }
         this.portraitScale = 0.3;
-        pokemonRegistry.put(getCleanName(), this);
+        pokemonRegistry.add(this);
     }
 
     public static void scanEvolutions() {
-        for (Pokemon pokemon : pokemonRegistry.values()) {
+        for (Pokemon pokemon : pokemonRegistry) {
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
-                Pokemon result = pokemonRegistry.getOrDefault(evolutionEntry.getResult(), null);
+                Pokemon result = pokemonRegistry.stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
                 if(result != null){
                     if(result.preEvolution==null){
                         break;

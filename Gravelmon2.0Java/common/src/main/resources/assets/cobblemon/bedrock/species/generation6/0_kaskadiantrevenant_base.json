@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kaskadiantrevenant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation6_kaskadiantrevenant",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation6/kaskadiantrevenant.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation6/kaskadiantrevenant_shiny.png"
+    }  ]
+}

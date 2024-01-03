@@ -6,7 +6,7 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 
-public class KaskadianMarill extends EghoPokemon {
+public class KaskadianMarill extends Pokemon {
     public KaskadianMarill(int dexNo) {
         super(dexNo,"KaskadianMarill",
                 Type.WATER, Type.GRASS,
