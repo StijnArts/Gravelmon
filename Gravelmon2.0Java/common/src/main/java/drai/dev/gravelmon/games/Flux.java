@@ -2,7 +2,6 @@ package drai.dev.gravelmon.games;
 
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.flux.*;
-import drai.dev.gravelmon.pokemon.flux.regional.*;
 
 public class Flux extends Game {
     public Flux() {
@@ -39,7 +38,9 @@ public class Flux extends Game {
 //        pokemon.add(new Sluchuu());
 //        pokemon.add(new Gullitt());
 //        pokemon.add(new Garbagull());
-        pokemon.add(new Nidorime());
+        var nidorimewinter = new NidorimeWinterCoat();
+        pokemon.add(nidorimewinter);
+        pokemon.add(new NidorimeSummerCoat(nidorimewinter.getPokedexNumber()));
         pokemon.add(new Nidoregina());
         pokemon.add(new Nidoregus());
 //        pokemon.add(new Roadillo());

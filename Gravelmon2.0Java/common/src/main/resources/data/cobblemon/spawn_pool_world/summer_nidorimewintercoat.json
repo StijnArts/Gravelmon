@@ -4,16 +4,14 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "alterannidoran-1",
-      "pokemon": "alterannidoran",
-      "presets": [
-          "natural"
-      ],
+      "id": "summer_nidorimewintercoat-1",
+      "pokemon": "nidorimewintercoat summer",
+      "presets": [ "natural"],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "5-27",
-      "weight": 9.0,
+      "level": "16-36",
+      "weight": 0.9,
       "condition": {
 "biomes": [ "#cobblemon:is_taiga" ],
         "canSeeSky": true

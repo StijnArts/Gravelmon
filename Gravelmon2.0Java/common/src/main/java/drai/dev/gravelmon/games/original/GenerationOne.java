@@ -43,7 +43,8 @@ public class GenerationOne extends Original {
         //Pokemon Flux
         pokemon.add(new AlteranEkans(23));
         pokemon.add(new AlteranArbok(24));
-        pokemon.add(new AlteranNidoran(32));
+        pokemon.add(new AlteranNidoranWinterCoat(29));
+        pokemon.add(new AlteranNidoranSummerCoat(29));
 
         //Armiran (Daybreak
         pokemon.add(new ArmiranGrowlithe(58));

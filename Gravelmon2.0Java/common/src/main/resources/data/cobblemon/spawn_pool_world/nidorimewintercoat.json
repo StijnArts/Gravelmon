@@ -4,18 +4,19 @@
   "neededUninstalledMods": [],
   "spawns": [
     {
-      "id": "alterannidoran-1",
-      "pokemon": "alterannidoran",
+      "id": "nidorimewintercoat-1",
+      "pokemon": "nidorimewintercoat",
       "presets": [
           "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "5-27",
-      "weight": 9.0,
+      "level": "16-36",
+      "weight": 0.9,
       "condition": {
-"biomes": [ "#cobblemon:is_taiga" ],
+"biomes": [ "#cobblemon:is_snowy",
+"#cobblemon:is_snowy_forest" ],
         "canSeeSky": true
       }
     }

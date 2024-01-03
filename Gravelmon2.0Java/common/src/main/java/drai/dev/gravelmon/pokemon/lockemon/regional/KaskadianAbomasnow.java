@@ -19,9 +19,7 @@ public class KaskadianAbomasnow extends Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER, EggGroup.GRASS),
                 List.of("Originally thought to be a regional evolution of Snover, it is now understood to be the form Abomasnow adopts in warmer climates. It loses its mastery over ice by shedding its snowy coat, but gains access to strong earth-shattering attacks."),
-                List.of(new EvolutionEntry("kaskadianabomasnow", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
-                ),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
