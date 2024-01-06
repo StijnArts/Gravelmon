@@ -31,7 +31,7 @@ public enum Label {
     FLUX("flux"),
     MYTH("myth"),
     LOCKEMON("lockemon"),
-    VANGUARD("vanguard");
+    VANGUARD("vanguard"), URANIUM("uranium");
     private String name;
     Label(String name){
         this.name = name;

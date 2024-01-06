@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "modrille-1",
+      "pokemon": "modrille",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "11-42",
+      "weight": 2.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_plains" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

@@ -1,11 +1,10 @@
 package drai.dev.gravelmon.games.original;
 
-import drai.dev.gravelmon.games.*;
+import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
-import drai.dev.gravelmon.pokemon.xenoverse.regional.*;
 
-public class GenerationNine extends Original {
+public class GenerationNine extends Game {
     public GenerationNine() {
         super("generation9");
     }

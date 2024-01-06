@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lavarator-1",
+      "pokemon": "lavarator",
+      "presets": [
+          "near_lava"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "rare",
+      "level": "43-67",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#minecraft:is_nether" ]
+      }
+    }
+  ]
+}

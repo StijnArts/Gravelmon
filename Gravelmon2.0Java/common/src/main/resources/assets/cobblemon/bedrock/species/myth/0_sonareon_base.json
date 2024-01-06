@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:sonareon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:myth_sonareon",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/myth/sonareon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/myth/sonareon_shiny.png"
+    }  ]
+}

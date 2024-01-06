@@ -1,6 +1,6 @@
 package drai.dev.gravelmon.games.original;
 
-import drai.dev.gravelmon.games.*;
+import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
@@ -11,7 +11,7 @@ import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
-public class GenerationSix extends Original {
+public class GenerationSix extends Game {
     public GenerationSix() {
         super("generation6");
     }

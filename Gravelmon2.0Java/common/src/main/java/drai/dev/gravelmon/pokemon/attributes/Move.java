@@ -1200,7 +1200,26 @@ public enum Move {
     WAVE_LASH("wavelash", false),
     FIRECRACKERS("firecrackers", false),
     SWIFT_STRIKE("swiftstrike", false),
-    HEATED_REVUP("heatedrevup", false), SPECTRAL_BARRAGE("spectralbarrage", false), NIGHT_SHADE_BOUQUET("nightshadebouquet", false);
+    HEATED_REVUP("heatedrevup", false),
+    SPECTRAL_BARRAGE("spectralbarrage", false),
+    NIGHT_SHADE_BOUQUET("nightshadebouquet", false),
+    CUTE_SHOT("cuteshot", false),
+    JET_BLADE("jetblade", false),
+    AQUA_BLADE("wavstisnail", false),
+    PEBBLE_SHOT("pebbleshot", false),
+    SAND_WAVE("sandwave", false),
+    SEISMIC_WAVE("seismicwave", false),
+    SHRAPNEL_SPHERE("shrapnelsphere", false),
+    SEISMIC_PULSE("seismicpulse", false),
+    FEAR_PULSE("fearpulse", false),
+    FEAR_WAVE("fearwave", false),
+    VENOM_BLADE("venomblade", false),
+    DART_STRIKE("dartstrike", false),
+    DAZE("daze", false),
+    SHRAPNEL_PULSE("shrapnelpulse", false),
+    BBSHOT("bbshot", false),
+    INFERNOSTORM("infernostorm", false),
+    SKY_DIVE("skydive", false), LASER_PULSE("laserpulse", false);
 
     private String name;
     private boolean implemented;

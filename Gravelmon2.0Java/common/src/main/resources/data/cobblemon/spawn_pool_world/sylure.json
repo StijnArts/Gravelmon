@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sylure-1",
+      "pokemon": "sylure",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "4-36",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_reef" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

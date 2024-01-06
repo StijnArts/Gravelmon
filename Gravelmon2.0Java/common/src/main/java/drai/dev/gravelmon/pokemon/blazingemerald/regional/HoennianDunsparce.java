@@ -20,7 +20,8 @@ public class HoennianDunsparce extends Pokemon {
                 70,
                 51, List.of(EggGroup.FIELD),
                 List.of("This Pokemon's eyesight is so poor that it can barely see objects directly in front of it. It escapes predators by shocking them with its electric tail."),
-                List.of(),
+                List.of(new EvolutionEntry("drasparath", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"egg"),
                         new MoveLearnSetEntry(Move.COSMIC_POWER,"egg"),

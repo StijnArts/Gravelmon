@@ -1,0 +1,139 @@
+{
+  "implemented": true,
+  "name": "firoke",
+  "nationalPokedexNumber": 1433,
+  "primaryType": "bug",
+  "secondaryType": "fire",
+  "abilities": [
+    "sniper",
+    "h:sniper"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 100,
+    "special_defence": 60,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 149,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:incinerate",
+    "1:poisonsting",
+    "1:stringshot",
+    "1:scaryface",
+    "6:leechlife",
+    "11:incinerate",
+    "17:nightshade",
+    "25:bugbite",
+    "34:firespin",
+    "39:spiderweb",
+    "44:heatwave",
+    "49:xscissor",
+    "54:inferno",
+    "tm:attract",
+    "tm:bugbite",
+    "tm:covet",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:firefang",
+    "tm:flamethrower",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:gastroacid",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:heatwave",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:knockoff",
+    "tm:ominouswind",
+    "tm:overheat",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalksound",
+    "tm:snatch",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:torment",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:willowisp",
+    "tm:xscissor",
+    "egg:psychic",
+    "egg:psybeam",
+    "egg:disable",
+    "egg:sonicboomsound",
+    "egg:batonpass",
+    "egg:pursuit",
+    "egg:signalbeam"  ],
+  "labels": [
+    "uranium",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.firoke.desc"
+  ],
+  "baseScale": 0.20625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 192,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

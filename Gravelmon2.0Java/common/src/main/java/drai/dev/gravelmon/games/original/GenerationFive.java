@@ -1,6 +1,6 @@
 package drai.dev.gravelmon.games.original;
 
-import drai.dev.gravelmon.games.*;
+import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
@@ -12,7 +12,7 @@ import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
-public class GenerationFive extends Original {
+public class GenerationFive extends Game {
     public GenerationFive() {
         super("generation5");
     }

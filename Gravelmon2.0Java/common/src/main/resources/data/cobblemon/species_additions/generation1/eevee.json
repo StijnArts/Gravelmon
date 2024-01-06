@@ -203,6 +203,154 @@
    "learnableMoves": [],
    "requirements": [],
    "requiredContext": "gravelmon:magic_cookie"
+  },
+  {
+   "id": "eevee_plaineon",
+   "variant": "item_interact",
+   "result": "plaineon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "cobblemon:shiny_stone"
+  },
+  {
+   "id": "eevee_stingeon",
+   "variant": "level_up",
+   "result": "stingeon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "bugbite"
+    }
+   ]
+  },
+  {
+   "id": "eevee_combateon",
+   "variant": "level_up",
+   "result": "combateon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "bugbite"
+    }
+   ]
+  },
+  {
+   "id": "eevee_crystaleon",
+   "variant": "level_up",
+   "result": "crystaleon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "minecraft:deep_dark"
+    },
+    {
+     "variant": "level",
+     "minLevel": 36
+    }
+   ]
+  },
+  {
+   "id": "eevee_toxeon",
+   "variant": "level_up",
+   "result": "toxeon",
+   "consumeHeldItem": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:black_sludge"
+    }
+   ]
+  },
+  {
+   "id": "eevee_spectreon",
+   "variant": "level_up",
+   "result": "spectreon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "shadowball"
+    },
+    {
+     "variant": "level",
+     "minLevel": 25
+    }
+   ]
+  },
+  {
+   "id": "eevee_aereon",
+   "variant": "item_interact",
+   "result": "aereon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "gravelmon:air_stone"
+  },
+  {
+   "id": "eevee_duneon",
+   "variant": "level_up",
+   "result": "duneon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#cobblemon:is_sandy"
+    }
+   ]
+  },
+  {
+   "id": "eevee_titaneon",
+   "variant": "item_interact",
+   "result": "titaneon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "gravelmon:solid_stone"
+  },
+  {
+   "id": "eevee_ascenteon",
+   "variant": "level_up",
+   "result": "ascenteon",
+   "consumeHeldItem": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:dragon_fang"
+    }
+   ]
+  },
+  {
+   "id": "eevee_sonareon",
+   "variant": "level_up",
+   "result": "sonareon",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "sonicboom"
+    },
+    {
+     "variant": "level",
+     "minLevel": 25
+    }
+   ]
   }
  ],
    "moves": [
@@ -243,6 +391,7 @@
     "tm:attract",
     "tm:batonpass",
     "tm:bodyslam",
+    "tm:bugbite",
     "tm:calmmind",
     "tm:captivate",
     "tm:charm",

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:dredrock",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:myth_dredrock",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/myth/dredrock.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/myth/dredrock_shiny.png"
+    }  ]
+}

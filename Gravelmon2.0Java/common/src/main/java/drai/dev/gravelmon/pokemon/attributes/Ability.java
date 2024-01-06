@@ -420,7 +420,14 @@ public enum Ability {
     BIRDLIKE("birdlike", false),
     BLAZE_IMPACT("blazeimpact", false),
     DARKENED_SCALES("darkenedscales", false),
-    MALEVOLENCE("malevolence", false), MINDTUNING("mindtuning", false);
+    MALEVOLENCE("malevolence", false),
+    MINDTUNING("mindtuning", false),
+    REVIVAL_SHEDDING("revivalshedding", false),
+    OSCILLATE("oscillate", false),
+    SPRING_LOADED("springloaded", false),
+    INFURIATE("infuriate", false),
+    SERENE_VEIL("sereneveil", false),
+    ELEMENTALIST("elementalist", false), CACOPHONY("cacophony", false);
 
     private String name;
     private Boolean implemented;

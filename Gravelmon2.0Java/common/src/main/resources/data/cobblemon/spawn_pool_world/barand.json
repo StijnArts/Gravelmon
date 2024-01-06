@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "barand-1",
+      "pokemon": "barand",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "21-59",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

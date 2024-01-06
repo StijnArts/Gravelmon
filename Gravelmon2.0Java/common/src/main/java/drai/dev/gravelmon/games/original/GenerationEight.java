@@ -1,13 +1,13 @@
 package drai.dev.gravelmon.games.original;
 
-import drai.dev.gravelmon.games.*;
+import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 
-public class GenerationEight extends Original {
+public class GenerationEight extends Game {
     public GenerationEight() {
         super("generation8");
     }

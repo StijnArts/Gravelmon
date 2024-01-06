@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wolfum",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vanguard_wolfum",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/vanguard/wolfum.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/wolfum_shiny.png"
+    }  ]
+}

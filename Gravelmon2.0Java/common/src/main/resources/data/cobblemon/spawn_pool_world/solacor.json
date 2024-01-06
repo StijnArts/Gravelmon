@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "solacor-1",
+      "pokemon": "solacor",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "43-67",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_reef" ]
+      }
+    }
+  ]
+}

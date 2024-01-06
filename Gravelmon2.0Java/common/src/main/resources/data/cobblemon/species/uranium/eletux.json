@@ -1,0 +1,156 @@
+{
+  "implemented": true,
+  "name": "eletux",
+  "nationalPokedexNumber": 1405,
+  "primaryType": "water",
+  "secondaryType": "electric",
+  "abilities": [
+    "static",
+    "h:torrent"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 65,
+    "special_attack": 50,
+    "special_defence": 65,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 67,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "moves": [
+    "1:tackle",
+    "3:tailwhip",
+    "5:watergun",
+    "10:defensecurl",
+    "13:thundershock",
+    "17:aquajet",
+    "21:stomp",
+    "23:spark",
+    "25:magnetrise",
+    "28:protect",
+    "32:scald",
+    "36:thunderbolt",
+    "40:raindance",
+    "44:thunder",
+    "50:hydropump",
+    "tm:aquatail",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:brine",
+    "tm:chargebeam",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:facade",
+    "tm:flash",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:painsplit",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:rocksmash",
+    "tm:shockwave",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:surf",
+    "tm:swagger",
+    "tm:thunder",
+    "tm:thunderfang",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:zenheadbutt",
+    "tm:coralbreak",
+    "egg:flail",
+    "egg:haze",
+    "egg:mirrorcoat",
+    "egg:mist",
+    "egg:mudsport",
+    "egg:refresh",
+    "egg:thunder",
+    "egg:yawn"  ],
+  "labels": [
+    "uranium",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.eletux.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "eletux_electruxo",
+      "variant": "level_up",
+      "result": "electruxo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.20625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 11,
+  "weight": 185,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

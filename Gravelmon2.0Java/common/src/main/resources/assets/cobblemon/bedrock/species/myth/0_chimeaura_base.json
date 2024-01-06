@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:chimeaura",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:myth_chimeaura",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/myth/chimeaura.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/myth/chimeaura_shiny.png"
+    }  ]
+}

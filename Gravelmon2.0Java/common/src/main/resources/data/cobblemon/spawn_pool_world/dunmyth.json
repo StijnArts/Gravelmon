@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dunmyth-1",
+      "pokemon": "dunmyth",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "26-52",
+      "weight": 2.18,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": false
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_deep_dark" ]    }
+    }
+  ]
+}
