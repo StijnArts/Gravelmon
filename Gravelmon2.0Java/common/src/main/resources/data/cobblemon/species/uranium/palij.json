@@ -111,11 +111,14 @@
     "egg:uproar"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.palij.desc"
   ],
+  "preEvolution": "pahar",
   "evolutions": [
     {
       "id": "palij_pajay",

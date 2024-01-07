@@ -148,11 +148,14 @@
     "egg:takedown"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gnuru.desc"
   ],
+  "preEvolution": "psybex",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

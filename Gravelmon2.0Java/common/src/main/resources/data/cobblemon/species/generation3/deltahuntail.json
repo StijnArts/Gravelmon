@@ -129,11 +129,13 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltahuntail.desc"
   ],
+  "preEvolution": "deltaclamperl",
   "baseScale": 0.31875,
   "hitbox": {
     "width": 3.0,

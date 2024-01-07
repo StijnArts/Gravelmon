@@ -102,11 +102,13 @@
   "labels": [
     "xenoverse",
     "gen4",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.roseradex.desc"
   ],
+  "preEvolution": "roseliax",
   "baseScale": 0.16875,
   "hitbox": {
     "width": 3.0,

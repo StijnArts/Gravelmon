@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "golgre",
-  "nationalPokedexNumber": 1475,
+  "nationalPokedexNumber": 1498,
   "primaryType": "ghost",
   "secondaryType": "rock",
   "abilities": [
@@ -123,11 +123,13 @@
   "labels": [
     "lockemon",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.golgre.desc"
   ],
+  "preEvolution": "kaskadiangolett",
   "baseScale": 0.525,
   "hitbox": {
     "width": 3.0,

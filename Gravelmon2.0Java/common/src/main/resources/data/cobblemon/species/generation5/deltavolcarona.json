@@ -242,11 +242,13 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltavolcarona.desc"
   ],
+  "preEvolution": "deltalarvesta",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

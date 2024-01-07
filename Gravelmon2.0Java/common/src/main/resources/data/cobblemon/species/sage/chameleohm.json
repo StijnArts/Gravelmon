@@ -139,11 +139,14 @@
     "egg:zapcannon"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chameleohm.desc"
   ],
+  "preEvolution": "telsion",
   "baseScale": 0.28125,
   "hitbox": {
     "width": 3.0,

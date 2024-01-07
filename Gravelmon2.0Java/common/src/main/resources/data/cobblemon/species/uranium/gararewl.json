@@ -107,11 +107,14 @@
     "egg:stomp"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gararewl.desc"
   ],
+  "preEvolution": "dearewl",
   "baseScale": 0.54375,
   "hitbox": {
     "width": 3.0,

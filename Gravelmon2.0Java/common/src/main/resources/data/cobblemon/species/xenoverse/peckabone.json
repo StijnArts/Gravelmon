@@ -113,11 +113,14 @@
     "tutor:stealthrock"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.peckabone.desc"
   ],
+  "preEvolution": "chikaboo",
   "evolutions": [
     {
       "id": "peckabone_Rexquiem",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chrysalix",
-  "nationalPokedexNumber": 1485,
+  "nationalPokedexNumber": 1508,
   "primaryType": "rock",
   "secondaryType": "ice",
   "abilities": [
@@ -87,11 +87,13 @@
     "egg:hydrocannon"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chrysalix.desc"
   ],
+  "preEvolution": "hoennianonix",
   "baseScale": 1.6125,
   "hitbox": {
     "width": 2.3076923076923075,

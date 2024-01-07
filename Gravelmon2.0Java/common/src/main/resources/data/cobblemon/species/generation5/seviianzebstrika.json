@@ -103,11 +103,13 @@
   "labels": [
     "radicalred",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviianzebstrika.desc"
   ],
+  "preEvolution": "seviianblitzle",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

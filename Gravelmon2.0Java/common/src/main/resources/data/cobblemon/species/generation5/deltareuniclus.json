@@ -154,11 +154,13 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltareuniclus.desc"
   ],
+  "preEvolution": "deltaduosion",
   "baseScale": 0.1875,
   "hitbox": {
     "width": 3.0,

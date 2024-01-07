@@ -137,11 +137,13 @@
   "labels": [
     "gen6",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreiannoivern.desc"
   ],
+  "preEvolution": "ayreiannoibat",
   "baseScale": 0.28125,
   "hitbox": {
     "width": 3.0,

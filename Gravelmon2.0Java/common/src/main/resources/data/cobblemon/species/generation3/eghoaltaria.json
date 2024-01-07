@@ -142,11 +142,13 @@
   "labels": [
     "infinity",
     "gen3",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghoaltaria.desc"
   ],
+  "preEvolution": "eghoswablu",
   "baseScale": 0.1875,
   "hitbox": {
     "width": 3.0,

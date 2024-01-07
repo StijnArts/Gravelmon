@@ -132,11 +132,13 @@
   "labels": [
     "gen3",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianvibrava.desc"
   ],
+  "preEvolution": "ayreiantrapinch",
   "evolutions": [
     {
       "id": "ayreianvibrava_ayreianflygon",

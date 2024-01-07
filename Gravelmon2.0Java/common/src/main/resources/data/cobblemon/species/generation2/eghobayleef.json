@@ -148,11 +148,13 @@
   "labels": [
     "gen2",
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghobayleef.desc"
   ],
+  "preEvolution": "eghochikorita",
   "evolutions": [
     {
       "id": "eghobayleef_eghomeganium",

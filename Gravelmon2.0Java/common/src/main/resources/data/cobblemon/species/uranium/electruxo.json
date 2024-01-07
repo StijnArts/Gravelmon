@@ -115,11 +115,14 @@
     "egg:yawn"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.electruxo.desc"
   ],
+  "preEvolution": "eletux",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

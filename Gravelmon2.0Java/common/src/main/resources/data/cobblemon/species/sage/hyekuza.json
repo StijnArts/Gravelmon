@@ -159,11 +159,14 @@
     "egg:quickguard"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hyekuza.desc"
   ],
+  "preEvolution": "pompagoon",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

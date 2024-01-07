@@ -132,11 +132,14 @@
     "egg:waterpulse"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cascotta.desc"
   ],
+  "preEvolution": "totter",
   "evolutions": [
     {
       "id": "cascotta_lutrajet",

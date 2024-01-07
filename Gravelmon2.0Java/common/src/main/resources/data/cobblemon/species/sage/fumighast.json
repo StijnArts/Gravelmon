@@ -145,11 +145,14 @@
     "egg:smokescreen"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fumighast.desc"
   ],
+  "preEvolution": "noxial",
   "baseScale": 0.31875,
   "hitbox": {
     "width": 3.0,

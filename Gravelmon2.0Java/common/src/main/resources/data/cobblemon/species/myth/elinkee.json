@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elinkee",
-  "nationalPokedexNumber": 1530,
+  "nationalPokedexNumber": 1553,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -81,11 +81,14 @@
     "egg:outrage"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.elinkee.desc"
   ],
+  "preEvolution": "slinkee",
   "evolutions": [
     {
       "id": "elinkee_serpensync",

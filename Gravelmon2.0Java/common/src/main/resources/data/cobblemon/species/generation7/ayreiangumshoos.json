@@ -115,11 +115,13 @@
   "labels": [
     "vanguard",
     "gen7",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreiangumshoos.desc"
   ],
+  "preEvolution": "ayreianyungoos",
   "baseScale": 0.1,
   "hitbox": {
     "width": 3.0,

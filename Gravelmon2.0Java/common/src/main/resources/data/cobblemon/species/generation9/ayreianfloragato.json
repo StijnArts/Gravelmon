@@ -110,11 +110,13 @@
   "labels": [
     "gen9",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianfloragato.desc"
   ],
+  "preEvolution": "ayreiansprigatito",
   "evolutions": [
     {
       "id": "ayreianfloragato_ayreianmeowscarada",

@@ -169,11 +169,13 @@
   "labels": [
     "gen2",
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghoferaligatr.desc"
   ],
+  "preEvolution": "eghocroconaw",
   "baseScale": 0.43125,
   "hitbox": {
     "width": 3.0,

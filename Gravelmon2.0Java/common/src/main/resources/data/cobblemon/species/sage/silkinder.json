@@ -129,11 +129,14 @@
     "egg:wish"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.silkinder.desc"
   ],
+  "preEvolution": "lintle",
   "evolutions": [
     {
       "id": "silkinder_paramoth",

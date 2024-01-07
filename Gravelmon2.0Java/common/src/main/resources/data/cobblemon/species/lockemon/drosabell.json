@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drosabell",
-  "nationalPokedexNumber": 1474,
+  "nationalPokedexNumber": 1497,
   "primaryType": "grass",
   "abilities": [
     "triage",
@@ -103,11 +103,13 @@
     "tm:grassyglide"  ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.drosabell.desc"
   ],
+  "preEvolution": "kaskadianbellsprout",
   "baseScale": 0.1875,
   "hitbox": {
     "width": 3.0,

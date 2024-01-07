@@ -125,11 +125,14 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ankillosore.desc"
   ],
+  "preEvolution": "hornizard",
   "baseScale": 0.31875,
   "hitbox": {
     "width": 3.0,

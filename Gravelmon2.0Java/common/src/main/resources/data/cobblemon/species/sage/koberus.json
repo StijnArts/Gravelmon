@@ -137,11 +137,14 @@
     "egg:rollout"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.koberus.desc"
   ],
+  "preEvolution": "koblin",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

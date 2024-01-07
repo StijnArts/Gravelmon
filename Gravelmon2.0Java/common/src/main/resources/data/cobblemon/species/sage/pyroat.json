@@ -138,11 +138,14 @@
     "egg:takedown",
     "egg:thrash"  ],
   "labels": [
-    "sage"
+    "sage",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pyroat.desc"
   ],
+  "preEvolution": "kidling",
   "evolutions": [
     {
       "id": "pyroat_flairees",

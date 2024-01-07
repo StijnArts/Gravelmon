@@ -142,11 +142,13 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaserperior.desc"
   ],
+  "preEvolution": "deltaservine",
   "baseScale": 0.61875,
   "hitbox": {
     "width": 3.0,

@@ -97,11 +97,14 @@
     "tutor:snoresound",
     "tutor:synthesis"  ],
   "labels": [
-    "xenoverse"
+    "xenoverse",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.wystearia.desc"
   ],
+  "preEvolution": "hystearic",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.2,

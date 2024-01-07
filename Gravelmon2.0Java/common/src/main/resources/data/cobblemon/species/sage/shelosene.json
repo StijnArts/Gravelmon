@@ -134,11 +134,14 @@
     "egg:withdraw"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.shelosene.desc"
   ],
+  "preEvolution": "ignishell",
   "evolutions": [
     {
       "id": "shelosene_Flarrapin",

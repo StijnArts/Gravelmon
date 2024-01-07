@@ -135,11 +135,14 @@
     "egg:toxicspikes"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.trikotta.desc"
   ],
+  "preEvolution": "pottle",
   "evolutions": [
     {
       "id": "trikotta_terrorcotta",

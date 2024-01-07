@@ -71,11 +71,14 @@
     "egg:lastresort"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.alteraneshouten.desc"
   ],
+  "preEvolution": "alteranowten",
   "baseScale": 0.16875,
   "hitbox": {
     "width": 3.0,

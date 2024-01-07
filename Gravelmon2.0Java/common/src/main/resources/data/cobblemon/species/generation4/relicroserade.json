@@ -124,11 +124,13 @@
   "labels": [
     "phoenix_rising",
     "gen4",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.relicroserade.desc"
   ],
+  "preEvolution": "relicroselia",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

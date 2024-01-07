@@ -141,11 +141,13 @@
   "labels": [
     "gen6",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaaurorus.desc"
   ],
+  "preEvolution": "deltaamaura",
   "baseScale": 0.50625,
   "hitbox": {
     "width": 3.0,

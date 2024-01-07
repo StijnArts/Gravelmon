@@ -139,11 +139,13 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltagolurk.desc"
   ],
+  "preEvolution": "deltagolett",
   "baseScale": 0.525,
   "hitbox": {
     "width": 3.0,

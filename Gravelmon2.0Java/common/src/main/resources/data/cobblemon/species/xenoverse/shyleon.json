@@ -100,11 +100,14 @@
     "tutor:synthesis",
     "tutor:worryseed"  ],
   "labels": [
-    "xenoverse"
+    "xenoverse",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.shyleon.desc"
   ],
+  "preEvolution": "shyleonterrestrial",
   "evolutions": [
     {
       "id": "shyleon_shyleonterrestrial",

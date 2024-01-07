@@ -166,11 +166,13 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltagraveler.desc"
   ],
+  "preEvolution": "deltageodude",
   "evolutions": [
     {
       "id": "deltagraveler_deltagolem",

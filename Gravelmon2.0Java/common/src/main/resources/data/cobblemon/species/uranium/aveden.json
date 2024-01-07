@@ -114,11 +114,14 @@
     "egg:wish"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.aveden.desc"
   ],
+  "preEvolution": "birbie",
   "evolutions": [
     {
       "id": "aveden_splendifowl",

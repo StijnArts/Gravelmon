@@ -133,5 +133,6 @@ public class S51A extends Pokemon {
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
         setCanFly(true);
+        this.setLangFileName("S51-A");
     }
 }

@@ -108,11 +108,13 @@
   "labels": [
     "gen1",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianpidgeotto.desc"
   ],
+  "preEvolution": "ayreianpidgey",
   "evolutions": [
     {
       "id": "ayreianpidgeotto_ayreianpidgeot",

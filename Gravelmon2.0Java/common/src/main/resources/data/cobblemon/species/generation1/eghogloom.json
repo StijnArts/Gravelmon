@@ -126,11 +126,13 @@
   "labels": [
     "infinity",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghogloom.desc"
   ],
+  "preEvolution": "eghooddish",
   "evolutions": [
     {
       "id": "eghogloom_viledoom",

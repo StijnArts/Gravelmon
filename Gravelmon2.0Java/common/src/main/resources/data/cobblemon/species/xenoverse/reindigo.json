@@ -119,11 +119,14 @@
     "tutor:superpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.reindigo.desc"
   ],
+  "preEvolution": "reindear",
   "baseScale": 0.46875,
   "hitbox": {
     "width": 3.0,

@@ -108,11 +108,13 @@
     "tutor:strugglebug"  ],
   "labels": [
     "xenoverse",
-    "gen5"
+    "gen5",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.galvantulax.desc"
   ],
+  "preEvolution": "joltikx",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.0,

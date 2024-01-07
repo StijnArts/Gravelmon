@@ -77,11 +77,13 @@
   "labels": [
     "gen3",
     "flux",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.alteranbreloom.desc"
   ],
+  "preEvolution": "alteranshroomish",
   "baseScale": 0.225,
   "hitbox": {
     "width": 3.0,

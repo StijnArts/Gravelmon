@@ -130,11 +130,14 @@
     "egg:takedown"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.buckston.desc"
   ],
+  "preEvolution": "llamarsh",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

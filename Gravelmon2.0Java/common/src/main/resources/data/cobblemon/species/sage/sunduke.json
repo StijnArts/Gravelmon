@@ -115,11 +115,14 @@
     "tutor:worryseed"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sunduke.desc"
   ],
+  "preEvolution": "drosire",
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,

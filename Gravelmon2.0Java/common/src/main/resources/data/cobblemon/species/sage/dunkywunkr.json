@@ -122,11 +122,14 @@
     "egg:zenheadbutt"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dunkywunkr.desc"
   ],
+  "preEvolution": "dinkywink",
   "baseScale": 0.31875,
   "hitbox": {
     "width": 3.0,

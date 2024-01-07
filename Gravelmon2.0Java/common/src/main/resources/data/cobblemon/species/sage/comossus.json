@@ -149,11 +149,14 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.comossus.desc"
   ],
+  "preEvolution": "grolem",
   "baseScale": 0.825,
   "hitbox": {
     "width": 1.1538461538461537,

@@ -155,11 +155,13 @@
   "labels": [
     "gen2",
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghomeganium.desc"
   ],
+  "preEvolution": "eghobayleef",
   "baseScale": 0.43125,
   "hitbox": {
     "width": 3.0,

@@ -122,11 +122,14 @@
     "tm:waterfall"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.soakoth.desc"
   ],
+  "preEvolution": "chilloth",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

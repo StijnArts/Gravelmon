@@ -117,11 +117,14 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hornizard.desc"
   ],
+  "preEvolution": "gilla",
   "evolutions": [
     {
       "id": "hornizard_ankillosore",

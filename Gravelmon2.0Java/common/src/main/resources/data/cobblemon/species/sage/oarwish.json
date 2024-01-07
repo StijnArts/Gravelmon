@@ -135,11 +135,14 @@
     "egg:whirlpool"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.oarwish.desc"
   ],
+  "preEvolution": "fortifry",
   "baseScale": 0.4875,
   "hitbox": {
     "width": 3.0,

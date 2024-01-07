@@ -146,11 +146,14 @@
     "egg:withdraw"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.flarrapin.desc"
   ],
+  "preEvolution": "shelosene",
   "baseScale": 0.31875,
   "hitbox": {
     "width": 3.0,

@@ -125,11 +125,13 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltamagmar.desc"
   ],
+  "preEvolution": "deltamagby",
   "evolutions": [
     {
       "id": "deltamagmar_deltamagmortar",

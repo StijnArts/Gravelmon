@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "delugar",
-  "nationalPokedexNumber": 1519,
+  "nationalPokedexNumber": 1542,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -77,11 +77,14 @@
     "egg:liquidation"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.delugar.desc"
   ],
+  "preEvolution": "soakcuff",
   "baseScale": 0.31875,
   "hitbox": {
     "width": 3.0,

@@ -120,11 +120,13 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltagrotle.desc"
   ],
+  "preEvolution": "deltaturtwig",
   "evolutions": [
     {
       "id": "deltagrotle_deltatorterra",

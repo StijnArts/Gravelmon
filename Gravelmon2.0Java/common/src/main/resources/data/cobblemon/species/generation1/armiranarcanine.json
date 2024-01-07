@@ -139,11 +139,13 @@
   "labels": [
     "gen1",
     "daybreak",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.armiranarcanine.desc"
   ],
+  "preEvolution": "armirangrowlithe",
   "baseScale": 0.35625,
   "hitbox": {
     "width": 3.0,

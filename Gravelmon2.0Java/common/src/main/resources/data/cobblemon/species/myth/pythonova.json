@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pythonova",
-  "nationalPokedexNumber": 1525,
+  "nationalPokedexNumber": 1548,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -77,11 +77,14 @@
     "egg:fakeout"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pythonova.desc"
   ],
+  "preEvolution": "cobarett",
   "baseScale": 0.35625,
   "hitbox": {
     "width": 3.0,

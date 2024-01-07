@@ -126,12 +126,15 @@
     "egg:shellsmash",
     "egg:wildcharge"  ],
   "labels": [
-    "sage",
-    "not_modeled"
+    "infinity",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gigantusk.desc"
   ],
+  "preEvolution": "arctusk",
   "baseScale": 0.45,
   "hitbox": {
     "width": 3.0,

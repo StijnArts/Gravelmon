@@ -123,11 +123,14 @@
     "egg:roost"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.tozecko.desc"
   ],
+  "preEvolution": "quecko",
   "baseScale": 0.54375,
   "hitbox": {
     "width": 3.0,

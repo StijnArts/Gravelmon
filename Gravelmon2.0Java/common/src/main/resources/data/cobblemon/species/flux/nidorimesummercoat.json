@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nidorimesummercoat",
-  "nationalPokedexNumber": 1469,
+  "nationalPokedexNumber": 1492,
   "primaryType": "ground",
   "abilities": [
     "sandveil",
@@ -68,11 +68,13 @@
     "egg:icefang"  ],
   "labels": [
     "flux",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.nidorimesummercoat.desc"
   ],
+  "preEvolution": "alterannidoransummercoat",
   "evolutions": [
     {
       "id": "nidorimesummercoat_nidoregus",

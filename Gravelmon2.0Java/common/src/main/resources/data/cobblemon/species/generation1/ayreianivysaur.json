@@ -119,11 +119,13 @@
   "labels": [
     "gen1",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianivysaur.desc"
   ],
+  "preEvolution": "ayreianbulbasaur",
   "evolutions": [
     {
       "id": "ayreianivysaur_ayreianvenusaur",

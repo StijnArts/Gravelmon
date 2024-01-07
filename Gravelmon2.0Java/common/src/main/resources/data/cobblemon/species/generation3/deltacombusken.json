@@ -151,11 +151,13 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltacombusken.desc"
   ],
+  "preEvolution": "deltatorchic",
   "evolutions": [
     {
       "id": "deltacombusken_deltablaziken",

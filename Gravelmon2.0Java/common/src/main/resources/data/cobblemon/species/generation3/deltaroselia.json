@@ -149,11 +149,13 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaroselia.desc"
   ],
+  "preEvolution": "deltabudew",
   "evolutions": [
     {
       "id": "deltaroselia_deltaroserade",

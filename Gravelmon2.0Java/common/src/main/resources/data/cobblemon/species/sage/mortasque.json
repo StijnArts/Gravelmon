@@ -127,11 +127,14 @@
     "tutor:worryseed"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mortasque.desc"
   ],
+  "preEvolution": "maskoon",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

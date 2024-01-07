@@ -126,11 +126,13 @@
   "labels": [
     "gen4",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianroserade.desc"
   ],
+  "preEvolution": "ayreianroselia",
   "baseScale": 0.1,
   "hitbox": {
     "width": 3.0,

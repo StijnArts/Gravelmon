@@ -129,11 +129,14 @@
     "tutor:superpower"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.macuarrior.desc"
   ],
+  "preEvolution": "chayan",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

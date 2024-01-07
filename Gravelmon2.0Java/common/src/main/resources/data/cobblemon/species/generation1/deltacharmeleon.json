@@ -146,11 +146,13 @@
     "tutor:uproar"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltacharmeleon.desc"
   ],
+  "preEvolution": "deltacharmander",
   "evolutions": [
     {
       "id": "deltacharmeleon_deltacharizard",

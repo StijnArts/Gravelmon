@@ -427,7 +427,9 @@ public enum Ability {
     SPRING_LOADED("springloaded", false),
     INFURIATE("infuriate", false),
     SERENE_VEIL("sereneveil", false),
-    ELEMENTALIST("elementalist", false), CACOPHONY("cacophony", false);
+    ELEMENTALIST("elementalist", false),
+    CACOPHONY("cacophony", false),
+    GEIGER_SENSE("geigersense", false);
 
     private String name;
     private Boolean implemented;

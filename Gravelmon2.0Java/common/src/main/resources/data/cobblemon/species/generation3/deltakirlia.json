@@ -123,11 +123,13 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltakirlia.desc"
   ],
+  "preEvolution": "deltaralts",
   "evolutions": [
     {
       "id": "deltakirlia_deltagardevoir",

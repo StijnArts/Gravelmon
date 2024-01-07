@@ -129,11 +129,14 @@
     "egg:shellsmash"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.escartress.desc"
   ],
+  "preEvolution": "sableau",
   "baseScale": 0.50625,
   "hitbox": {
     "width": 3.0,

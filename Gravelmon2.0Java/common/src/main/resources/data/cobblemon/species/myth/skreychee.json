@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skreychee",
-  "nationalPokedexNumber": 1527,
+  "nationalPokedexNumber": 1550,
   "primaryType": "sound",
   "secondaryType": "fairy",
   "abilities": [
@@ -76,11 +76,14 @@
     "egg:powergemcrystal"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.skreychee.desc"
   ],
+  "preEvolution": "waelin",
   "evolutions": [
     {
       "id": "skreychee_bindshii",

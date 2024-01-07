@@ -129,11 +129,14 @@
     "egg:stealthrock"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.magroplex.desc"
   ],
+  "preEvolution": "anvelid",
   "baseScale": 0.9375,
   "hitbox": {
     "width": 1.4423076923076923,

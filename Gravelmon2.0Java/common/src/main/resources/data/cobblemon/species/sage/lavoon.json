@@ -139,11 +139,14 @@
     "egg:soak"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lavoon.desc"
   ],
+  "preEvolution": "glocto",
   "baseScale": 1.275,
   "hitbox": {
     "width": 1.7307692307692306,

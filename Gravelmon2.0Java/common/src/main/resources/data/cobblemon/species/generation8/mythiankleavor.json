@@ -81,11 +81,13 @@
   "labels": [
     "gen8",
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mythiankleavor.desc"
   ],
+  "preEvolution": "mythianscyther",
   "baseScale": 0.28125,
   "hitbox": {
     "width": 3.0,

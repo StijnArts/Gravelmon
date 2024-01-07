@@ -135,11 +135,14 @@
     "tutor:wonderroom"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.phantern.desc"
   ],
+  "preEvolution": "wispern",
   "baseScale": 0.1,
   "hitbox": {
     "width": 3.0,

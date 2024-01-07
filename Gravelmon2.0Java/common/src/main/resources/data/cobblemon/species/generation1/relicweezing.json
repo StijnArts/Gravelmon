@@ -109,11 +109,13 @@
   "labels": [
     "phoenix_rising",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.relicweezing.desc"
   ],
+  "preEvolution": "relickoffing",
   "baseScale": 3.09375,
   "hitbox": {
     "width": 5.0,

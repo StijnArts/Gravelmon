@@ -138,11 +138,13 @@
     "egg:whirlwind"  ],
   "labels": [
     "infinity",
-    "gen1"
+    "gen1",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghofearow.desc"
   ],
+  "preEvolution": "eghospearow",
   "baseScale": 1.2,
   "hitbox": {
     "width": 1.0,

@@ -75,11 +75,13 @@
   "labels": [
     "blazing_emerald",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoennianbisharp.desc"
   ],
+  "preEvolution": "hoennianpawniard",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

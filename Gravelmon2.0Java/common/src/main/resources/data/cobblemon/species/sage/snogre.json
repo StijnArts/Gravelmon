@@ -141,11 +141,14 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.snogre.desc"
   ],
+  "preEvolution": "snome",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

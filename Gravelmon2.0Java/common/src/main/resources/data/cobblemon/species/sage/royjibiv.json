@@ -146,11 +146,14 @@
     "egg:recover"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.royjibiv.desc"
   ],
+  "preEvolution": "arjibi",
   "baseScale": 0.84375,
   "hitbox": {
     "width": 1.1538461538461537,

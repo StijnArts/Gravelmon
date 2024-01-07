@@ -1219,7 +1219,9 @@ public enum Move {
     SHRAPNEL_PULSE("shrapnelpulse", false),
     BBSHOT("bbshot", false),
     INFERNOSTORM("infernostorm", false),
-    SKY_DIVE("skydive", false), LASER_PULSE("laserpulse", false);
+    SKY_DIVE("skydive", false),
+    LASER_PULSE("laserpulse", false),
+    LOVE_LARIAT("lovelariat", false);
 
     private String name;
     private boolean implemented;

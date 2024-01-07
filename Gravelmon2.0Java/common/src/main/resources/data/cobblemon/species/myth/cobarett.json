@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cobarett",
-  "nationalPokedexNumber": 1524,
+  "nationalPokedexNumber": 1547,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -74,11 +74,14 @@
     "egg:fakeout"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cobarett.desc"
   ],
+  "preEvolution": "hissiorite",
   "evolutions": [
     {
       "id": "cobarett_pythonova",

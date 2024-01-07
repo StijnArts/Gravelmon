@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "loathedisc",
-  "nationalPokedexNumber": 1493,
+  "nationalPokedexNumber": 1516,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
@@ -112,11 +112,13 @@
     "egg:entrainment"  ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.loathedisc.desc"
   ],
+  "preEvolution": "ayreianluvdisc",
   "baseScale": 0.225,
   "hitbox": {
     "width": 3.0,

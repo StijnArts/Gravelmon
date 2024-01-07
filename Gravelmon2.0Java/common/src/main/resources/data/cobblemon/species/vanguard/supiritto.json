@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "supiritto",
-  "nationalPokedexNumber": 1502,
+  "nationalPokedexNumber": 1525,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -143,11 +143,14 @@
     "egg:suckerpunch"  ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.supiritto.desc"
   ],
+  "preEvolution": "wolfum",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

@@ -177,11 +177,13 @@
     "tutor:tailwind"  ],
   "labels": [
     "xenoverse",
-    "gen1"
+    "gen1",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.rapidashx.desc"
   ],
+  "preEvolution": "ponytax",
   "baseScale": 1.25,
   "hitbox": {
     "width": 0.9,

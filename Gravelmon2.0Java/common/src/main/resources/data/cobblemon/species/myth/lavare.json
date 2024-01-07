@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lavare",
-  "nationalPokedexNumber": 1543,
+  "nationalPokedexNumber": 1566,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -70,11 +70,14 @@
     "69:meteormash"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lavare.desc"
   ],
+  "preEvolution": "lavee",
   "evolutions": [
     {
       "id": "lavare_lavarator",

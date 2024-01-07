@@ -134,11 +134,14 @@
     "egg:whirlwind"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.necrow.desc"
   ],
+  "preEvolution": "desoula",
   "evolutions": [
     {
       "id": "necrow_vultergyst",

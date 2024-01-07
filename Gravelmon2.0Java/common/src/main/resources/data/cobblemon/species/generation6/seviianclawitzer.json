@@ -108,11 +108,13 @@
   "labels": [
     "radicalred",
     "gen6",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviianclawitzer.desc"
   ],
+  "preEvolution": "seviianclauncher",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

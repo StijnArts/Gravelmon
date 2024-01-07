@@ -141,11 +141,13 @@
   "labels": [
     "gen3",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianblaziken.desc"
   ],
+  "preEvolution": "ayreiancombusken",
   "baseScale": 0.35625,
   "hitbox": {
     "width": 3.0,

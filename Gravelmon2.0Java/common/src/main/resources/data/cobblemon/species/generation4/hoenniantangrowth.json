@@ -85,11 +85,13 @@
   "labels": [
     "blazing_emerald",
     "gen4",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoenniantangrowth.desc"
   ],
+  "preEvolution": "hoenniantangela",
   "baseScale": 0.39375,
   "hitbox": {
     "width": 3.0,

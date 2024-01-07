@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skelachone",
-  "nationalPokedexNumber": 1565,
+  "nationalPokedexNumber": 1588,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -103,11 +103,14 @@
     "egg:splash",
     "egg:torment"  ],
   "labels": [
-    "vega"
+    "vega",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.skelachone.desc"
   ],
+  "preEvolution": "maelstream",
   "baseScale": 1.1,
   "hitbox": {
     "width": 2.0,

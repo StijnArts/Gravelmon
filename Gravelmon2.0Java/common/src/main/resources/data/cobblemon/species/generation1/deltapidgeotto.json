@@ -160,11 +160,13 @@
     "tutor:uproar"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltapidgeotto.desc"
   ],
+  "preEvolution": "deltapidgey",
   "evolutions": [
     {
       "id": "deltapidgeotto_deltapidgeot",

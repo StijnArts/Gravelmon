@@ -93,11 +93,13 @@
   "labels": [
     "phoenix_rising",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.relictentacruel.desc"
   ],
+  "preEvolution": "relictentacool",
   "baseScale": 0.6,
   "hitbox": {
     "width": 3.0,

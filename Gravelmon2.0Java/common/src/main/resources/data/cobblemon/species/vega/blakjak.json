@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blakjak",
-  "nationalPokedexNumber": 1562,
+  "nationalPokedexNumber": 1585,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -115,11 +115,14 @@
     "egg:steelwing",
     "egg:sunnyday"  ],
   "labels": [
-    "vega"
+    "vega",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.blakjak.desc"
   ],
+  "preEvolution": "mintch",
   "baseScale": 0.7,
   "hitbox": {
     "width": 0.7,

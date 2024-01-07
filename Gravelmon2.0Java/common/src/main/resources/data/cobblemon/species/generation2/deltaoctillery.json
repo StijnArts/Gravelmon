@@ -144,11 +144,13 @@
   "labels": [
     "gen2",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaoctillery.desc"
   ],
+  "preEvolution": "deltaremoraid",
   "baseScale": 0.16875,
   "hitbox": {
     "width": 3.0,

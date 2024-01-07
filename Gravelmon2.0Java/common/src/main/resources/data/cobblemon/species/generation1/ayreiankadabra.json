@@ -152,11 +152,13 @@
   "labels": [
     "gen1",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreiankadabra.desc"
   ],
+  "preEvolution": "ayreianabra",
   "evolutions": [
     {
       "id": "ayreiankadabra_ayreianalakazam",

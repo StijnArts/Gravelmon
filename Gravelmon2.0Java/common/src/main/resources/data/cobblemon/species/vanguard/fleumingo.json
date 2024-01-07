@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fleumingo",
-  "nationalPokedexNumber": 1492,
+  "nationalPokedexNumber": 1515,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -110,11 +110,13 @@
     "egg:defog"  ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fleumingo.desc"
   ],
+  "preEvolution": "ayreianfletchinder",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

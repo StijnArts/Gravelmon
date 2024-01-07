@@ -98,11 +98,13 @@
   "labels": [
     "radicalred",
     "gen8",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviiancentiskorch.desc"
   ],
+  "preEvolution": "seviiansizzlipede",
   "baseScale": 0.5625,
   "hitbox": {
     "width": 3.0,

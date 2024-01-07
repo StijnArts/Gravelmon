@@ -136,11 +136,13 @@
     "egg:skullbash"  ],
   "labels": [
     "gen1",
-    "infinity"
+    "infinity",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghoivysaur.desc"
   ],
+  "preEvolution": "eghobulbasaur",
   "evolutions": [
     {
       "id": "eghoivysaur_eghovenusaur",

@@ -115,11 +115,14 @@
     "egg:swordsdance"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.archilles.desc"
   ],
+  "preEvolution": "raptorch",
   "baseScale": 0.35625,
   "hitbox": {
     "width": 3.0,

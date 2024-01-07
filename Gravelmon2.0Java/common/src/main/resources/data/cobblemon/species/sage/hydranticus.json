@@ -133,11 +133,14 @@
     "egg:waterspout"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hydranticus.desc"
   ],
+  "preEvolution": "glauqua",
   "baseScale": 0.4125,
   "hitbox": {
     "width": 3.0,

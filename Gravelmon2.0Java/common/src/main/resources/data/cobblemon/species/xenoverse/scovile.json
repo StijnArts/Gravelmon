@@ -67,11 +67,14 @@
     "tm:dragonclaw"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.scovile.desc"
   ],
+  "preEvolution": "pepequeno",
   "evolutions": [
     {
       "id": "scovile_scovilex",

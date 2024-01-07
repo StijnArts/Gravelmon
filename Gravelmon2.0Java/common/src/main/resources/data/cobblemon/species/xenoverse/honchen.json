@@ -111,11 +111,14 @@
     "tutor:waterpulse"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.honchen.desc"
   ],
+  "preEvolution": "kidoon",
   "baseScale": 0.9,
   "hitbox": {
     "width": 1.1538461538461537,

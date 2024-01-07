@@ -112,11 +112,13 @@
   "labels": [
     "lockemon",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kaskadianduosion.desc"
   ],
+  "preEvolution": "kaskadiansolosis",
   "evolutions": [
     {
       "id": "kaskadianduosion_kaskadianreuniclus",

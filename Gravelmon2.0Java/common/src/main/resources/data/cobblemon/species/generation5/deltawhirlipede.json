@@ -125,11 +125,13 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltawhirlipede.desc"
   ],
+  "preEvolution": "deltavenipede",
   "evolutions": [
     {
       "id": "deltawhirlipede_deltascolipede",

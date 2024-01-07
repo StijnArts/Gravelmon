@@ -137,11 +137,13 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaduosion.desc"
   ],
+  "preEvolution": "deltasolosis",
   "evolutions": [
     {
       "id": "deltaduosion_deltareuniclus",

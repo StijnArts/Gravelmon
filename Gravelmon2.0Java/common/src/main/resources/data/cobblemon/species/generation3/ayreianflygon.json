@@ -145,11 +145,13 @@
   "labels": [
     "gen3",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianflygon.desc"
   ],
+  "preEvolution": "ayreianvibrava",
   "baseScale": 0.20625,
   "hitbox": {
     "width": 3.0,

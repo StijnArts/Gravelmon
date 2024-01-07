@@ -158,11 +158,13 @@
     "egg:swallow"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.oozma.desc"
   ],
+  "preEvolution": "eghomuk",
   "baseScale": 0.4125,
   "hitbox": {
     "width": 3.0,

@@ -134,11 +134,13 @@
     "tutor:wonderroom"  ],
   "labels": [
     "gen2",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltalanturn.desc"
   ],
+  "preEvolution": "deltachinchou",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.2,

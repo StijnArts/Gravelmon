@@ -122,11 +122,14 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.troglolith.desc"
   ],
+  "preEvolution": "rockapye",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

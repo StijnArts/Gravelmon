@@ -147,11 +147,14 @@
     "egg:takedown"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.capabara.desc"
   ],
+  "preEvolution": "capig",
   "baseScale": 0.15,
   "hitbox": {
     "width": 3.0,

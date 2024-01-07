@@ -144,11 +144,13 @@
   "labels": [
     "infinity",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghogarbodor.desc"
   ],
+  "preEvolution": "eghotrubbish",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

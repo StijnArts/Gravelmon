@@ -93,11 +93,13 @@
   "labels": [
     "blazing_emerald",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoennianeelektross.desc"
   ],
+  "preEvolution": "hoennianeelektrik",
   "baseScale": 3.54375,
   "hitbox": {
     "width": 5.0,

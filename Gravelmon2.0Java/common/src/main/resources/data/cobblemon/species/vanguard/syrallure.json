@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "syrallure",
-  "nationalPokedexNumber": 1506,
+  "nationalPokedexNumber": 1529,
   "primaryType": "poison",
   "secondaryType": "sound",
   "abilities": [
@@ -129,11 +129,14 @@
     "tutor:workup"  ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.syrallure.desc"
   ],
+  "preEvolution": "sylure",
   "evolutions": [
     {
       "id": "syrallure_syrenade",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wavstisnail",
-  "nationalPokedexNumber": 1513,
+  "nationalPokedexNumber": 1536,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -86,11 +86,14 @@
     "egg:icywind"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.wavstisnail.desc"
   ],
+  "preEvolution": "torsnail",
   "baseScale": 0.15,
   "hitbox": {
     "width": 3.0,

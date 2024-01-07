@@ -153,11 +153,14 @@
     "egg:skullbash",
     "egg:sludge"  ],
   "labels": [
-    "infinity"
+    "infinity",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kokismash.desc"
   ],
+  "preEvolution": "kokipound",
   "baseScale": 1.1,
   "hitbox": {
     "width": 2.1,

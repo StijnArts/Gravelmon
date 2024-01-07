@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tekagon",
-  "nationalPokedexNumber": 1541,
+  "nationalPokedexNumber": 1564,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -70,11 +70,14 @@
     "69:meteormash"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.tekagon.desc"
   ],
+  "preEvolution": "dredrock",
   "baseScale": 0.73125,
   "hitbox": {
     "width": 3.0,

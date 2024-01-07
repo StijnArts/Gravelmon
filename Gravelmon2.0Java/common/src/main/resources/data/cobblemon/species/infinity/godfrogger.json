@@ -169,11 +169,14 @@
     "egg:yawn"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.godfrogger.desc"
   ],
+  "preEvolution": "brutoad",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

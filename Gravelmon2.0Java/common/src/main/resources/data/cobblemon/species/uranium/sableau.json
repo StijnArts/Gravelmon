@@ -128,11 +128,14 @@
     "egg:shellsmash"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sableau.desc"
   ],
+  "preEvolution": "cassnail",
   "evolutions": [
     {
       "id": "sableau_escartress",

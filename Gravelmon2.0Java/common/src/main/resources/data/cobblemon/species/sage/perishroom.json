@@ -131,11 +131,14 @@
     "egg:pursuit"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.perishroom.desc"
   ],
+  "preEvolution": "kertruffle",
   "baseScale": 0.20625,
   "hitbox": {
     "width": 3.0,

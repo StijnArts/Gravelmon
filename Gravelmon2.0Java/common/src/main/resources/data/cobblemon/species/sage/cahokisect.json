@@ -150,11 +150,14 @@
     "egg:scaryface"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cahokisect.desc"
   ],
+  "preEvolution": "pueblant",
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,

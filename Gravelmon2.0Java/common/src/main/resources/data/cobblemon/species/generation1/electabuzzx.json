@@ -106,11 +106,13 @@
     "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
-    "gen1"
+    "gen1",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.electabuzzx.desc"
   ],
+  "preEvolution": "elekidx",
   "evolutions": [
     {
       "id": "electabuzzx_electaburst",

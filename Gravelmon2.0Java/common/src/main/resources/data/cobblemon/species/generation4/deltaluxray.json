@@ -140,11 +140,13 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaluxray.desc"
   ],
+  "preEvolution": "deltaluxio",
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,

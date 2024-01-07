@@ -165,11 +165,13 @@
     "egg:outrage"  ],
   "labels": [
     "gen1",
-    "infinity"
+    "infinity",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghocharizard.desc"
   ],
+  "preEvolution": "eghocharmeleon",
   "baseScale": 1.05,
   "hitbox": {
     "width": 2.3,

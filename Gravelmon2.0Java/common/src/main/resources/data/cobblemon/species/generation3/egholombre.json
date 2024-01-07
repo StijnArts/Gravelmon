@@ -125,11 +125,13 @@
   "labels": [
     "infinity",
     "gen3",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.egholombre.desc"
   ],
+  "preEvolution": "egholotad",
   "evolutions": [
     {
       "id": "egholombre_egholudicolo",

@@ -131,11 +131,14 @@
     "egg:thunderfang"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.jawgodon.desc"
   ],
+  "preEvolution": "barracute",
   "baseScale": 0.375,
   "hitbox": {
     "width": 3.0,

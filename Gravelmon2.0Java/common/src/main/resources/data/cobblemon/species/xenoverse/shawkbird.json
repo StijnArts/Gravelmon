@@ -104,11 +104,14 @@
     "tutor:tailwind"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.shawkbird.desc"
   ],
+  "preEvolution": "sparkowl",
   "evolutions": [
     {
       "id": "shawkbird_harrowk",

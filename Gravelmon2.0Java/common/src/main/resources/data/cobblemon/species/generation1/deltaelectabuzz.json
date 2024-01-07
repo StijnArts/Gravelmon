@@ -150,11 +150,13 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaelectabuzz.desc"
   ],
+  "preEvolution": "deltaelekid",
   "evolutions": [
     {
       "id": "deltaelectabuzz_deltaelectivire",

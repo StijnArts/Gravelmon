@@ -151,11 +151,13 @@
     "egg:waterpulse"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.skulkraken.desc"
   ],
+  "preEvolution": "eghoshellder",
   "baseScale": 0.375,
   "hitbox": {
     "width": 3.0,

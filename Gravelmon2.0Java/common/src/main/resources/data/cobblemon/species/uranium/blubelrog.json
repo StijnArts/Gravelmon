@@ -112,11 +112,14 @@
     "egg:frostbreath"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.blubelrog.desc"
   ],
+  "preEvolution": "folerog",
   "baseScale": 0.35625,
   "hitbox": {
     "width": 3.0,

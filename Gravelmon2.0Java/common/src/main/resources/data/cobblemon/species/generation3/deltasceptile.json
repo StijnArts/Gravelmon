@@ -162,11 +162,13 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen3",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltasceptile.desc"
   ],
+  "preEvolution": "deltagrovyle",
   "baseScale": 1.1,
   "hitbox": {
     "width": 1.0,

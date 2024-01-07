@@ -134,11 +134,14 @@
     "egg:headsmash"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.paraboom.desc"
   ],
+  "preEvolution": "paraudio",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

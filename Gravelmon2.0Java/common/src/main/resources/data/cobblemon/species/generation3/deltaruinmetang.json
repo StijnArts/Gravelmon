@@ -140,11 +140,13 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaruinmetang.desc"
   ],
+  "preEvolution": "deltaruinbeldum",
   "evolutions": [
     {
       "id": "deltaruinmetang_deltaruinmetagross",

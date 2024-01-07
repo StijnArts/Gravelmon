@@ -126,11 +126,13 @@
   "labels": [
     "gen1",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianwartortle.desc"
   ],
+  "preEvolution": "ayreiansquirtle",
   "evolutions": [
     {
       "id": "ayreianwartortle_ayreianblastoise",

@@ -144,11 +144,13 @@
   "labels": [
     "infinity",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghomuk.desc"
   ],
+  "preEvolution": "eghogrimer",
   "evolutions": [
     {
       "id": "eghomuk_oozma",

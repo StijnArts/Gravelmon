@@ -163,11 +163,14 @@
     "egg:superpower",
     "egg:waterpulse"  ],
   "labels": [
-    "sage"
+    "sage",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.iguadium.desc"
   ],
+  "preEvolution": "aguade",
   "evolutions": [
     {
       "id": "iguadium_aguanaut",

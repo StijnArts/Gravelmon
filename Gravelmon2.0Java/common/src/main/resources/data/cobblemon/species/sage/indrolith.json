@@ -118,11 +118,14 @@
     "egg:thrash"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.indrolith.desc"
   ],
+  "preEvolution": "calphite",
   "baseScale": 0.6,
   "hitbox": {
     "width": 3.0,

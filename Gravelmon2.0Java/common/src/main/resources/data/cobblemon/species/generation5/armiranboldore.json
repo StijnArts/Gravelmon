@@ -115,11 +115,13 @@
   "labels": [
     "gen5",
     "daybreak",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.armiranboldore.desc"
   ],
+  "preEvolution": "armiranroggenrola",
   "evolutions": [
     {
       "id": "armiranboldore_ArmiranGigalith",

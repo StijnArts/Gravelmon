@@ -97,11 +97,13 @@
   "labels": [
     "gen9",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianquaquaval.desc"
   ],
+  "preEvolution": "ayreianquaxwell",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

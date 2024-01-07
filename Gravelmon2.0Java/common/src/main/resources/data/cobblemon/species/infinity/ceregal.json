@@ -133,11 +133,14 @@
     "egg:taunt"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ceregal.desc"
   ],
+  "preEvolution": "dragalis",
   "baseScale": 0.4125,
   "hitbox": {
     "width": 3.0,

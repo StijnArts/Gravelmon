@@ -121,11 +121,13 @@
   "labels": [
     "radicalred",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviiandodrio.desc"
   ],
+  "preEvolution": "seviiandoduo",
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,

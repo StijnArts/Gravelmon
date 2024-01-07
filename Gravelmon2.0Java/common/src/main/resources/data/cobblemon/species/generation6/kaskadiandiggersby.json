@@ -103,11 +103,13 @@
   "labels": [
     "lockemon",
     "gen6",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kaskadiandiggersby.desc"
   ],
+  "preEvolution": "kaskadianbunnelby",
   "baseScale": 0.1875,
   "hitbox": {
     "width": 3.0,

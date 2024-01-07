@@ -203,11 +203,13 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltagallade.desc"
   ],
+  "preEvolution": "deltakirlia",
   "baseScale": 1.0,
   "hitbox": {
     "width": 0.6,

@@ -123,11 +123,14 @@
     "egg:zapcannon"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gellin.desc"
   ],
+  "preEvolution": "nupin",
   "evolutions": [
     {
       "id": "gellin_gellin",

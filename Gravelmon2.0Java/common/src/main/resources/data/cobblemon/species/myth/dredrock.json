@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dredrock",
-  "nationalPokedexNumber": 1540,
+  "nationalPokedexNumber": 1563,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -70,11 +70,14 @@
     "69:meteormash"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dredrock.desc"
   ],
+  "preEvolution": "baulder",
   "evolutions": [
     {
       "id": "dredrock_Tekagon",

@@ -149,11 +149,13 @@
   "labels": [
     "gen5",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianarcheops.desc"
   ],
+  "preEvolution": "ayreianarchen",
   "baseScale": 0.1,
   "hitbox": {
     "width": 3.0,

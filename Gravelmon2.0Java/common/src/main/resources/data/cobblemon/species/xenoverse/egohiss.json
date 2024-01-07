@@ -87,11 +87,14 @@
     "tutor:substitute"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.egohiss.desc"
   ],
+  "preEvolution": "dusmee",
   "evolutions": [
     {
       "id": "egohiss_egorgeon",

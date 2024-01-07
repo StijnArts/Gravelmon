@@ -148,11 +148,13 @@
   "labels": [
     "infinity",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghochansey.desc"
   ],
+  "preEvolution": "eghohappiny",
   "evolutions": [
     {
       "id": "eghochansey_eghoblissey",

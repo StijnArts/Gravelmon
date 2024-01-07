@@ -144,11 +144,13 @@
   "labels": [
     "gen2",
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghoquilava.desc"
   ],
+  "preEvolution": "eghocyndaquil",
   "evolutions": [
     {
       "id": "eghoquilava_eghotyphlosion",

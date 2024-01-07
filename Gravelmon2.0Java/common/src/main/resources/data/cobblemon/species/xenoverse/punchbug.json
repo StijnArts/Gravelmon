@@ -100,11 +100,14 @@
     "tutor:superpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.punchbug.desc"
   ],
+  "preEvolution": "beefle",
   "evolutions": [
     {
       "id": "punchbug_hercurcules",

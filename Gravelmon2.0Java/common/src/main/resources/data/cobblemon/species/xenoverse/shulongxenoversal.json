@@ -106,11 +106,14 @@
     "tutor:waterpulse"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.shulongxenoversal.desc"
   ],
+  "preEvolution": "shulong",
   "evolutions": [
     {
       "id": "shulongxenoversal_shulong",

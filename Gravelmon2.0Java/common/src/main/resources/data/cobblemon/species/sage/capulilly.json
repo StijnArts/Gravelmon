@@ -141,11 +141,14 @@
     "egg:teeterdance"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.capulilly.desc"
   ],
+  "preEvolution": "tuliep",
   "baseScale": 0.20625,
   "hitbox": {
     "width": 3.0,

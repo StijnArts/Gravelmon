@@ -131,11 +131,13 @@
     "egg:whirlwind"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.grimfowl.desc"
   ],
+  "preEvolution": "eghonoctowl",
   "baseScale": 0.45,
   "hitbox": {
     "width": 3.0,

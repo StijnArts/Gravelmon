@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drasparath",
-  "nationalPokedexNumber": 1480,
+  "nationalPokedexNumber": 1503,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
@@ -93,11 +93,13 @@
   "labels": [
     "blazing_emerald",
     "gen2",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.drasparath.desc"
   ],
+  "preEvolution": "hoenniandunsparce",
   "baseScale": 0.91875,
   "hitbox": {
     "width": 1.1538461538461537,

@@ -131,11 +131,14 @@
     "egg:sunnyday"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cocancer.desc"
   ],
+  "preEvolution": "cararalm",
   "baseScale": 0.69375,
   "hitbox": {
     "width": 3.0,

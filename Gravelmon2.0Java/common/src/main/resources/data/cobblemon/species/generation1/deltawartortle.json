@@ -163,11 +163,13 @@
     "tutor:vacuumwave"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltawartortle.desc"
   ],
+  "preEvolution": "deltasquirtle",
   "evolutions": [
     {
       "id": "deltawartortle_deltablastoise",

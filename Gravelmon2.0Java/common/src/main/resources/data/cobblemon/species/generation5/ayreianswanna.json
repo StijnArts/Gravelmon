@@ -109,11 +109,13 @@
   "labels": [
     "gen5",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianswanna.desc"
   ],
+  "preEvolution": "ayreianducklett",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bindshii",
-  "nationalPokedexNumber": 1528,
+  "nationalPokedexNumber": 1551,
   "primaryType": "sound",
   "abilities": [
     "levitate",
@@ -75,11 +75,14 @@
     "egg:powergemcrystal"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.bindshii.desc"
   ],
+  "preEvolution": "skreychee",
   "baseScale": 0.31875,
   "hitbox": {
     "width": 3.0,

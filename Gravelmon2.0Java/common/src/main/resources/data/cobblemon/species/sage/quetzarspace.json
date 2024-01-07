@@ -139,11 +139,14 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.quetzarspace.desc"
   ],
+  "preEvolution": "quetzar",
   "evolutions": [
     {
       "id": "quetzarspace_quetzar",

@@ -152,11 +152,13 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltahaxorus.desc"
   ],
+  "preEvolution": "deltafraxure",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

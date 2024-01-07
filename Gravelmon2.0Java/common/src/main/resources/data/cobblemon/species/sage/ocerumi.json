@@ -130,11 +130,14 @@
     "tutor:thunderpunch"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ocerumi.desc"
   ],
+  "preEvolution": "chayan",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

@@ -216,11 +216,13 @@
     "tutor:uproar"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltacharizard.desc"
   ],
+  "preEvolution": "deltacharmeleon",
   "baseScale": 1.35,
   "hitbox": {
     "width": 1.0,

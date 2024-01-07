@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zorotsune",
-  "nationalPokedexNumber": 1472,
+  "nationalPokedexNumber": 1495,
   "primaryType": "ghost",
   "abilities": [
     "illusion",
@@ -68,11 +68,13 @@
     "egg:haze"  ],
   "labels": [
     "flux",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.zorotsune.desc"
   ],
+  "preEvolution": "alteranzorua",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

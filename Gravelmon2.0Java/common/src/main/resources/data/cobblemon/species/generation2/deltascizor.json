@@ -199,11 +199,13 @@
     "tutor:waterpulse"  ],
   "labels": [
     "gen2",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltascizor.desc"
   ],
+  "preEvolution": "deltascyther",
   "baseScale": 0.85,
   "hitbox": {
     "width": 1.1,

@@ -139,11 +139,13 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltakabutops.desc"
   ],
+  "preEvolution": "deltakabuto",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

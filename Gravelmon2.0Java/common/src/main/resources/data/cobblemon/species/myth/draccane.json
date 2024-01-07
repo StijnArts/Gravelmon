@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "draccane",
-  "nationalPokedexNumber": 1537,
+  "nationalPokedexNumber": 1560,
   "primaryType": "poison",
   "secondaryType": "dragon",
   "abilities": [
@@ -70,11 +70,14 @@
     "egg:twister"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.draccane.desc"
   ],
+  "preEvolution": "raccane",
   "evolutions": [
     {
       "id": "draccane_raccolossus",

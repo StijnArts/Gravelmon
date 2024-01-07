@@ -160,11 +160,14 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eluchadon.desc"
   ],
+  "preEvolution": "luchito",
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,

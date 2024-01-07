@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cocofested",
-  "nationalPokedexNumber": 1534,
+  "nationalPokedexNumber": 1557,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -69,11 +69,14 @@
     "63:fakeout"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cocofested.desc"
   ],
+  "preEvolution": "coconab",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

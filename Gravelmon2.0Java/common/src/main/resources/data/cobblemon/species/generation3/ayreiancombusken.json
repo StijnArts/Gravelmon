@@ -141,11 +141,13 @@
   "labels": [
     "gen3",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreiancombusken.desc"
   ],
+  "preEvolution": "ayreiantorchic",
   "evolutions": [
     {
       "id": "ayreiancombusken_ayreianblaziken",

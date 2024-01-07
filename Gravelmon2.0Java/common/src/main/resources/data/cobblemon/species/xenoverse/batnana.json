@@ -91,11 +91,14 @@
     "tutor:secretpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.batnana.desc"
   ],
+  "preEvolution": "chiripe",
   "evolutions": [
     {
       "id": "batnana_vesperfum",

@@ -76,11 +76,13 @@
   "labels": [
     "gen5",
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mythianvolcarona.desc"
   ],
+  "preEvolution": "mythianlarvesta",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

@@ -142,11 +142,14 @@
     "egg:wish"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.paramoth.desc"
   ],
+  "preEvolution": "silkinder",
   "baseScale": 0.1875,
   "hitbox": {
     "width": 3.0,

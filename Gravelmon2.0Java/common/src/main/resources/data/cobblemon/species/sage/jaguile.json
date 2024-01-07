@@ -135,11 +135,14 @@
     "egg:punishment"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.jaguile.desc"
   ],
+  "preEvolution": "pounther",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

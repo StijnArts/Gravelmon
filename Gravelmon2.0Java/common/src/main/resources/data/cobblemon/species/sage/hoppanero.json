@@ -132,11 +132,14 @@
     "egg:nastyplot"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoppanero.desc"
   ],
+  "preEvolution": "peppit",
   "evolutions": [
     {
       "id": "hoppanero_scovalope",

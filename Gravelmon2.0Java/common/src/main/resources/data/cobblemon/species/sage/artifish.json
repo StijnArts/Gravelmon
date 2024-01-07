@@ -158,11 +158,14 @@
     "egg:yawn"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.artifish.desc"
   ],
+  "preEvolution": "doppole",
   "baseScale": 0.16875,
   "hitbox": {
     "width": 3.0,

@@ -136,11 +136,14 @@
     "egg:crushclaw"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.drilgann.desc"
   ],
+  "preEvolution": "modrille",
   "baseScale": 0.45,
   "hitbox": {
     "width": 3.0,

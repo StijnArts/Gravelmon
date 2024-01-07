@@ -130,11 +130,13 @@
   "labels": [
     "xenoverse",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gengarx.desc"
   ],
+  "preEvolution": "haunterx",
   "baseScale": 0.39375,
   "hitbox": {
     "width": 3.0,

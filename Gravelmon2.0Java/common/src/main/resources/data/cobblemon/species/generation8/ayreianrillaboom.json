@@ -122,11 +122,13 @@
   "labels": [
     "gen8",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianrillaboom.desc"
   ],
+  "preEvolution": "ayreianthwacky",
   "baseScale": 0.39375,
   "hitbox": {
     "width": 3.0,

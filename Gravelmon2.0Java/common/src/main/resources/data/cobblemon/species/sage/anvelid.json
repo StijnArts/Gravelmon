@@ -122,11 +122,14 @@
     "egg:stealthrock"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.anvelid.desc"
   ],
+  "preEvolution": "orett",
   "evolutions": [
     {
       "id": "anvelid_magroplex",

@@ -112,11 +112,13 @@
   "labels": [
     "xenoverse",
     "gen7",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.toxapexx.desc"
   ],
+  "preEvolution": "mareaniex",
   "baseScale": 0.13125,
   "hitbox": {
     "width": 3.0,

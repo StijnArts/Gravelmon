@@ -117,11 +117,13 @@
   "labels": [
     "radicalred",
     "gen3",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviianmilotic.desc"
   ],
+  "preEvolution": "seviianfeebas",
   "baseScale": 1.1625,
   "hitbox": {
     "width": 1.7307692307692306,

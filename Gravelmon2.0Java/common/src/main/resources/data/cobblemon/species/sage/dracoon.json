@@ -89,11 +89,14 @@
     "tm:sleeptalksound"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dracoon.desc"
   ],
+  "preEvolution": "larvyn",
   "evolutions": [
     {
       "id": "dracoon_basilect",

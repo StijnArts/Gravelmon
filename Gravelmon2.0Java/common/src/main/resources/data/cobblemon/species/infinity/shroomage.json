@@ -121,11 +121,14 @@
     "egg:spore"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.shroomage.desc"
   ],
+  "preEvolution": "psycholyte",
   "baseScale": 0.31875,
   "hitbox": {
     "width": 3.0,

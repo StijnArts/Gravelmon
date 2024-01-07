@@ -101,11 +101,14 @@
     "egg:spite"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fatail.desc"
   ],
+  "preEvolution": "manticoeur",
   "baseScale": 0.225,
   "hitbox": {
     "width": 3.0,

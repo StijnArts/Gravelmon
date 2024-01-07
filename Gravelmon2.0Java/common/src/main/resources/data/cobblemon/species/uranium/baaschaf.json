@@ -130,11 +130,14 @@
     "egg:rockslide"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.baaschaf.desc"
   ],
+  "preEvolution": "baashaun",
   "evolutions": [
     {
       "id": "baaschaf_baariette",

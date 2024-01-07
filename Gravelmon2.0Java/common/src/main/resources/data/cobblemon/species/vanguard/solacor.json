@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solacor",
-  "nationalPokedexNumber": 1496,
+  "nationalPokedexNumber": 1519,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -136,11 +136,14 @@
     "egg:waterpulse"  ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.solacor.desc"
   ],
+  "preEvolution": "amacorala",
   "baseScale": 0.35625,
   "hitbox": {
     "width": 3.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nidoregina",
-  "nationalPokedexNumber": 1470,
+  "nationalPokedexNumber": 1493,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -72,11 +72,14 @@
     "egg:icefang"  ],
   "labels": [
     "flux",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.nidoregina.desc"
   ],
+  "preEvolution": "nidorimewintercoat",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

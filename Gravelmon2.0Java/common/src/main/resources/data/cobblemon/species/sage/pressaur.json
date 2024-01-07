@@ -111,11 +111,14 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pressaur.desc"
   ],
+  "preEvolution": "carbite",
   "evolutions": [
     {
       "id": "pressaur_diamat",

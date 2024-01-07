@@ -100,11 +100,13 @@
   "labels": [
     "xenoverse",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.haunterx.desc"
   ],
+  "preEvolution": "gastlyx",
   "evolutions": [
     {
       "id": "haunterx_gengarx",

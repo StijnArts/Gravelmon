@@ -129,11 +129,14 @@
     "egg:mist"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hurricanine.desc"
   ],
+  "preEvolution": "pawter",
   "baseScale": 0.20625,
   "hitbox": {
     "width": 3.0,

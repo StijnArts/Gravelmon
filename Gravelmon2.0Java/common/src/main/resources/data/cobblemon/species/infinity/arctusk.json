@@ -117,7 +117,7 @@
     "egg:shellsmash",
     "egg:wildcharge"  ],
   "labels": [
-    "sage",
+    "infinity",
     "not_modeled"
   ],
   "pokedex": [

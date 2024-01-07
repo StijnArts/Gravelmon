@@ -73,11 +73,13 @@
   "labels": [
     "gen1",
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mythianpidgeotto.desc"
   ],
+  "preEvolution": "mythianpidgey",
   "evolutions": [
     {
       "id": "mythianpidgeotto_mythianpidgeot",

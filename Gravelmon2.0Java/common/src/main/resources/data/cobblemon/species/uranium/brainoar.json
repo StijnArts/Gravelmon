@@ -120,11 +120,14 @@
     "egg:psybeam"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.brainoar.desc"
   ],
+  "preEvolution": "brailip",
   "baseScale": 0.75,
   "hitbox": {
     "width": 1.1538461538461537,

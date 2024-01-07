@@ -85,11 +85,13 @@
   "labels": [
     "blazing_emerald",
     "gen2",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoennianlanturn.desc"
   ],
+  "preEvolution": "hoennianchinchou",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

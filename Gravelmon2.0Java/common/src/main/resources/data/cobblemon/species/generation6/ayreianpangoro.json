@@ -168,11 +168,13 @@
   "labels": [
     "gen6",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianpangoro.desc"
   ],
+  "preEvolution": "ayreianpancham",
   "baseScale": 0.1125,
   "hitbox": {
     "width": 3.0,

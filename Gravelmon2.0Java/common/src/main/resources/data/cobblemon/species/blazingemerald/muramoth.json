@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "muramoth",
-  "nationalPokedexNumber": 1477,
+  "nationalPokedexNumber": 1500,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -77,11 +77,13 @@
     "tm:steelwing"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.muramoth.desc"
   ],
+  "preEvolution": "hoennianvenonat",
   "baseScale": 0.13125,
   "hitbox": {
     "width": 3.0,

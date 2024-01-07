@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magnemelt",
-  "nationalPokedexNumber": 1491,
+  "nationalPokedexNumber": 1514,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -114,11 +114,13 @@
     "tutor:wildcharge"  ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.magnemelt.desc"
   ],
+  "preEvolution": "ayreianmagneton",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

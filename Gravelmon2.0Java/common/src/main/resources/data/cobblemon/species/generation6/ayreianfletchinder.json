@@ -109,11 +109,13 @@
   "labels": [
     "gen6",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianfletchinder.desc"
   ],
+  "preEvolution": "ayreianfletchling",
   "evolutions": [
     {
       "id": "ayreianfletchinder_fleumingo",

@@ -98,11 +98,13 @@
   "labels": [
     "xenoverse",
     "gen3",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.roseliax.desc"
   ],
+  "preEvolution": "budewx",
   "evolutions": [
     {
       "id": "roseliax_roseradex",

@@ -123,11 +123,14 @@
     "egg:takedown"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.llamarsh.desc"
   ],
+  "preEvolution": "fawning",
   "evolutions": [
     {
       "id": "llamarsh_buckston",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "serpensync",
-  "nationalPokedexNumber": 1531,
+  "nationalPokedexNumber": 1554,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -87,11 +87,14 @@
     "egg:outrage"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.serpensync.desc"
   ],
+  "preEvolution": "elinkee",
   "baseScale": 0.46875,
   "hitbox": {
     "width": 3.0,

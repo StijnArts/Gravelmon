@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goolossal",
-  "nationalPokedexNumber": 1484,
+  "nationalPokedexNumber": 1507,
   "primaryType": "fairy",
   "abilities": [
     "liquidooze",
@@ -88,11 +88,13 @@
     "egg:hydropump"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.goolossal.desc"
   ],
+  "preEvolution": "hoenniangoomy",
   "baseScale": 1.275,
   "hitbox": {
     "width": 1.7307692307692306,

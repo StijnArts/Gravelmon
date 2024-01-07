@@ -73,11 +73,14 @@
     "tutor:snoresound"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.maskoon.desc"
   ],
+  "preEvolution": "skullarva",
   "evolutions": [
     {
       "id": "maskoon_mortasque",

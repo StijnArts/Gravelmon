@@ -95,11 +95,13 @@
   "labels": [
     "gen6",
     "daybreak",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.armirangreninja.desc"
   ],
+  "preEvolution": "armiranfrogadier",
   "baseScale": 0.28125,
   "hitbox": {
     "width": 3.0,

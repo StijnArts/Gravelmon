@@ -129,11 +129,14 @@
     "egg:outrage"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.burnaram.desc"
   ],
+  "preEvolution": "chargo",
   "evolutions": [
     {
       "id": "burnaram_psysteed",

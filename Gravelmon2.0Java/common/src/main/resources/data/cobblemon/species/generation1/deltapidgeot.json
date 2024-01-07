@@ -216,11 +216,13 @@
     "tutor:uproar"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltapidgeot.desc"
   ],
+  "preEvolution": "deltapidgeotto",
   "baseScale": 1.85,
   "hitbox": {
     "width": 0.75,

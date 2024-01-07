@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yanmage",
-  "nationalPokedexNumber": 1473,
+  "nationalPokedexNumber": 1496,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -97,11 +97,13 @@
   "labels": [
     "gen2",
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.yanmage.desc"
   ],
+  "preEvolution": "kaskadianyanma",
   "baseScale": 0.225,
   "hitbox": {
     "width": 3.0,

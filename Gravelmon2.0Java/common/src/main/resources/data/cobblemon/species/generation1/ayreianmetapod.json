@@ -62,11 +62,13 @@
   "labels": [
     "gen1",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianmetapod.desc"
   ],
+  "preEvolution": "ayreiancaterpie",
   "evolutions": [
     {
       "id": "ayreianmetapod_ayreianbutterfree",

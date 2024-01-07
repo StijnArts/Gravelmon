@@ -126,11 +126,13 @@
     "tutor:worryseed"  ],
   "labels": [
     "xenoverse",
-    "gen3"
+    "gen3",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cacturnex.desc"
   ],
+  "preEvolution": "cacneax",
   "baseScale": 1.0,
   "hitbox": {
     "width": 0.8,

@@ -120,11 +120,14 @@
     "egg:rockslide"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.terlard.desc"
   ],
+  "preEvolution": "grozard",
   "baseScale": 0.4125,
   "hitbox": {
     "width": 3.0,

@@ -119,11 +119,14 @@
     "egg:quickguard"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.simayan.desc"
   ],
+  "preEvolution": "chimpoca",
   "evolutions": [
     {
       "id": "simayan_monkezuma",

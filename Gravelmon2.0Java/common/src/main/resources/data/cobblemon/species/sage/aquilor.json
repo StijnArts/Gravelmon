@@ -135,11 +135,14 @@
     "egg:whirlwind"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.aquilor.desc"
   ],
+  "preEvolution": "harpee",
   "evolutions": [
     {
       "id": "aquilor_warquila",

@@ -110,11 +110,14 @@
     "egg:spore"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.psycholyte.desc"
   ],
+  "preEvolution": "mushling",
   "evolutions": [
     {
       "id": "psycholyte_shroomage",

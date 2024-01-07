@@ -87,11 +87,13 @@
     "egg:seismictoss"  ],
   "labels": [
     "gen2",
-    "blazing_emerald"
+    "blazing_emerald",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoennianursaring.desc"
   ],
+  "preEvolution": "hoennianteddiursa",
   "baseScale": 1.1,
   "hitbox": {
     "width": 1.8,

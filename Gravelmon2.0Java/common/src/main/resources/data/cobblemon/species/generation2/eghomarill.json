@@ -122,11 +122,13 @@
   "labels": [
     "infinity",
     "gen2",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghomarill.desc"
   ],
+  "preEvolution": "eghoazurill",
   "evolutions": [
     {
       "id": "eghomarill_eghoazumarill",

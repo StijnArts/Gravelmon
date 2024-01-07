@@ -144,11 +144,14 @@
     "egg:ironhead"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.s51a.desc"
   ],
+  "preEvolution": "s51",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

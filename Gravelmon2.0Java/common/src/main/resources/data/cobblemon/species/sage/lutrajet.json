@@ -136,11 +136,14 @@
     "egg:waterpulse"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lutrajet.desc"
   ],
+  "preEvolution": "cascotta",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

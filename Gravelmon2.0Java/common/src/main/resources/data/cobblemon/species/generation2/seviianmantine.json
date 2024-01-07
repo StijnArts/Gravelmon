@@ -107,11 +107,13 @@
   "labels": [
     "radicalred",
     "gen2",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviianmantine.desc"
   ],
+  "preEvolution": "seviianmantyke",
   "baseScale": 0.39375,
   "hitbox": {
     "width": 3.0,

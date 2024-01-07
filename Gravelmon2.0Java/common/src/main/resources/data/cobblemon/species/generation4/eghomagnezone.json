@@ -136,11 +136,13 @@
   "labels": [
     "infinity",
     "gen4",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghomagnezone.desc"
   ],
+  "preEvolution": "eghomagneton",
   "baseScale": 0.4125,
   "hitbox": {
     "width": 3.0,

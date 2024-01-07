@@ -128,11 +128,13 @@
   "labels": [
     "vanguard",
     "gen2",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianariados.desc"
   ],
+  "preEvolution": "ayreianspinarak",
   "baseScale": 0.20625,
   "hitbox": {
     "width": 3.0,

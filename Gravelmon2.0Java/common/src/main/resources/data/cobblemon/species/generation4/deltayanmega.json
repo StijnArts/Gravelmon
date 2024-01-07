@@ -143,11 +143,13 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltayanmega.desc"
   ],
+  "preEvolution": "deltayanma",
   "baseScale": 0.35625,
   "hitbox": {
     "width": 3.0,

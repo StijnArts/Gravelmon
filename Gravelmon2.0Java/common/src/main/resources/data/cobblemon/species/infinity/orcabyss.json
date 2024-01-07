@@ -144,11 +144,14 @@
     "egg:snarl"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.orcabyss.desc"
   ],
+  "preEvolution": "whave",
   "baseScale": 0.75,
   "hitbox": {
     "width": 1.1538461538461537,

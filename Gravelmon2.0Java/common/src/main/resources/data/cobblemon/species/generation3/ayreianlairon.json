@@ -164,11 +164,13 @@
   "labels": [
     "gen3",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianlairon.desc"
   ],
+  "preEvolution": "ayreianaron",
   "evolutions": [
     {
       "id": "ayreianlairon_ayreianaggron",

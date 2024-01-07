@@ -129,11 +129,14 @@
     "tutor:wonderroom"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.whisteract.desc"
   ],
+  "preEvolution": "nunvil",
   "baseScale": 0.225,
   "hitbox": {
     "width": 3.0,

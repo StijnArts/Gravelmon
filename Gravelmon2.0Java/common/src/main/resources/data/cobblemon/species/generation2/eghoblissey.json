@@ -147,11 +147,13 @@
   "labels": [
     "infinity",
     "gen2",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghoblissey.desc"
   ],
+  "preEvolution": "eghochansey",
   "baseScale": 0.28125,
   "hitbox": {
     "width": 3.0,

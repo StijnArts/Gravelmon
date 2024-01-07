@@ -89,11 +89,13 @@
   "labels": [
     "blazing_emerald",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoennianreuniclus.desc"
   ],
+  "preEvolution": "hoennianduosion",
   "baseScale": 0.16875,
   "hitbox": {
     "width": 3.0,

@@ -110,11 +110,13 @@
   "labels": [
     "vanguard",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianelectrode.desc"
   ],
+  "preEvolution": "ayreianvoltorb",
   "baseScale": 0.225,
   "hitbox": {
     "width": 3.0,

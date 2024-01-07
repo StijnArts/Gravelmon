@@ -145,11 +145,14 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.terratetra.desc"
   ],
+  "preEvolution": "pebblosa",
   "evolutions": [
     {
       "id": "terratetra_gigaard",

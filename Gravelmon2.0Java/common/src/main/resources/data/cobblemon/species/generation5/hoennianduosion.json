@@ -88,11 +88,13 @@
   "labels": [
     "blazing_emerald",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoennianduosion.desc"
   ],
+  "preEvolution": "hoenniansolosis",
   "evolutions": [
     {
       "id": "hoennianduosion_hoennianreuniclus",

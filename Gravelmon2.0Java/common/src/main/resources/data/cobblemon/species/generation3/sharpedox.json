@@ -115,11 +115,13 @@
     "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
-    "gen3"
+    "gen3",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sharpedox.desc"
   ],
+  "preEvolution": "carvanhax",
   "baseScale": 1.0,
   "hitbox": {
     "width": 0.9,

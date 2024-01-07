@@ -131,11 +131,13 @@
   "labels": [
     "gen2",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianbayleef.desc"
   ],
+  "preEvolution": "ayreianchikorita",
   "evolutions": [
     {
       "id": "ayreianbayleef_ayreianmeganium",

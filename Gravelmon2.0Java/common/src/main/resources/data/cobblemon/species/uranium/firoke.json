@@ -110,11 +110,14 @@
     "egg:signalbeam"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.firoke.desc"
   ],
+  "preEvolution": "smore",
   "baseScale": 0.20625,
   "hitbox": {
     "width": 3.0,

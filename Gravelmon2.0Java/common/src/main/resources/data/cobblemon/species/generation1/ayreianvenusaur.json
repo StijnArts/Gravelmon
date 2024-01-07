@@ -121,11 +121,13 @@
   "labels": [
     "gen1",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianvenusaur.desc"
   ],
+  "preEvolution": "ayreianivysaur",
   "baseScale": 0.375,
   "hitbox": {
     "width": 3.0,

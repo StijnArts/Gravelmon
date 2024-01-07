@@ -134,11 +134,13 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltalampent.desc"
   ],
+  "preEvolution": "deltalitwick",
   "evolutions": [
     {
       "id": "deltalampent_deltachandelure",

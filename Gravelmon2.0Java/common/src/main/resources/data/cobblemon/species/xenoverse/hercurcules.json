@@ -111,11 +111,14 @@
     "tutor:superpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hercurcules.desc"
   ],
+  "preEvolution": "punchbug",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

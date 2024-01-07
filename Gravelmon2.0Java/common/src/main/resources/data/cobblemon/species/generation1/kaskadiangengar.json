@@ -112,11 +112,13 @@
   "labels": [
     "lockemon",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kaskadiangengar.desc"
   ],
+  "preEvolution": "kaskadianhaunter",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

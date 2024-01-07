@@ -150,11 +150,13 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaspidermetang.desc"
   ],
+  "preEvolution": "deltaspiderbeldum",
   "evolutions": [
     {
       "id": "deltaspidermetang_deltaspidermetagross",

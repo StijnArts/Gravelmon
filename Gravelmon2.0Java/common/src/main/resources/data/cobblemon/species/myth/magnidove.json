@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magnidove",
-  "nationalPokedexNumber": 1516,
+  "nationalPokedexNumber": 1539,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
@@ -77,11 +77,14 @@
     "egg:defog"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.magnidove.desc"
   ],
+  "preEvolution": "eledove",
   "baseScale": 0.20625,
   "hitbox": {
     "width": 3.0,

@@ -129,11 +129,14 @@
     "egg:scald"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.scubug.desc"
   ],
+  "preEvolution": "bouwee",
   "baseScale": 0.16875,
   "hitbox": {
     "width": 3.0,

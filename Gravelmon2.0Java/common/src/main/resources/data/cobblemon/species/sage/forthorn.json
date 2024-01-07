@@ -146,11 +146,14 @@
     "egg:stunspore"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.forthorn.desc"
   ],
+  "preEvolution": "loneleaf",
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,

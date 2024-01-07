@@ -105,11 +105,13 @@
   "labels": [
     "xenoverse",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cofagrigusx.desc"
   ],
+  "preEvolution": "yamaskx",
   "baseScale": 0.28125,
   "hitbox": {
     "width": 3.0,

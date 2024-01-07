@@ -136,11 +136,13 @@
   "labels": [
     "gen2",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianmeganium.desc"
   ],
+  "preEvolution": "ayreianbayleef",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

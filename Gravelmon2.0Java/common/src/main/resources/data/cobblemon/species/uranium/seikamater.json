@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seikamater",
-  "nationalPokedexNumber": 1468,
+  "nationalPokedexNumber": 1491,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -117,11 +117,14 @@
     "tm:xscissor"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seikamater.desc"
   ],
+  "preEvolution": "smore",
   "baseScale": 0.80625,
   "hitbox": {
     "width": 1.1538461538461537,

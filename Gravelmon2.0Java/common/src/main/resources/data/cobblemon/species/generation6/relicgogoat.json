@@ -124,11 +124,13 @@
   "labels": [
     "phoenix_rising",
     "gen6",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.relicgogoat.desc"
   ],
+  "preEvolution": "relicskiddo",
   "baseScale": 0.4125,
   "hitbox": {
     "width": 3.0,

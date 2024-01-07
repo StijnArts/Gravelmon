@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raccolossus",
-  "nationalPokedexNumber": 1538,
+  "nationalPokedexNumber": 1561,
   "primaryType": "poison",
   "secondaryType": "dragon",
   "abilities": [
@@ -70,11 +70,14 @@
     "egg:twister"  ],
   "labels": [
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.raccolossus.desc"
   ],
+  "preEvolution": "draccane",
   "baseScale": 0.39375,
   "hitbox": {
     "width": 3.0,

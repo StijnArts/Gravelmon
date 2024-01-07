@@ -128,11 +128,13 @@
   "labels": [
     "infinity",
     "gen2",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghonoctowl.desc"
   ],
+  "preEvolution": "eghohoothoot",
   "evolutions": [
     {
       "id": "eghonoctowl_grimfowl",

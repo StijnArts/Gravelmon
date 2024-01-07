@@ -109,11 +109,14 @@
     "egg:icebeam"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sponaree.desc"
   ],
+  "preEvolution": "sponaree",
   "evolutions": [
     {
       "id": "sponaree_sponaree",

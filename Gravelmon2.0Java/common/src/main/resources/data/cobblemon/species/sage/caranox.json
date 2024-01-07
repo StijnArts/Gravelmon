@@ -124,11 +124,14 @@
     "egg:pursuit"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.caranox.desc"
   ],
+  "preEvolution": "larvabidae",
   "baseScale": 0.13125,
   "hitbox": {
     "width": 3.0,

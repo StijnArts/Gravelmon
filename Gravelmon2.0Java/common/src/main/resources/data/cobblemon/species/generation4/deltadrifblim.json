@@ -140,11 +140,13 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltadrifblim.desc"
   ],
+  "preEvolution": "deltadrifloon",
   "baseScale": 0.225,
   "hitbox": {
     "width": 3.0,

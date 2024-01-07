@@ -131,11 +131,14 @@
     "egg:mistyterrain"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cubblfly.desc"
   ],
+  "preEvolution": "cubbug",
   "evolutions": [
     {
       "id": "cubblfly_nimflora",

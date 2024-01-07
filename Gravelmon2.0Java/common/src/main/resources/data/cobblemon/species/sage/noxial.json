@@ -301,11 +301,14 @@
     "egg:smokescreen"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.noxial.desc"
   ],
+  "preEvolution": "phlask",
   "evolutions": [
     {
       "id": "noxial_fumighast",

@@ -146,11 +146,14 @@
     "egg:weatherball"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.turkistador.desc"
   ],
+  "preEvolution": "fowattle",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

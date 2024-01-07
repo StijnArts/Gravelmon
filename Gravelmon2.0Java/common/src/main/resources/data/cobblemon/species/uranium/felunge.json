@@ -130,11 +130,14 @@
     "egg:swagger"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.felunge.desc"
   ],
+  "preEvolution": "feleng",
   "evolutions": [
     {
       "id": "felunge_feliger",

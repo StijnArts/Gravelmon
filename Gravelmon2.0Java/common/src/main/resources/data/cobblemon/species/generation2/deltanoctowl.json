@@ -123,11 +123,13 @@
   "labels": [
     "gen2",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltanoctowl.desc"
   ],
+  "preEvolution": "deltahoothoot",
   "baseScale": 0.3,
   "hitbox": {
     "width": 3.0,

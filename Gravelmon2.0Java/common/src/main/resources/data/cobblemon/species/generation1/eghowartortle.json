@@ -139,11 +139,13 @@
     "egg:waterspout"  ],
   "labels": [
     "gen1",
-    "infinity"
+    "infinity",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghowartortle.desc"
   ],
+  "preEvolution": "eghosquirtle",
   "evolutions": [
     {
       "id": "eghowartortle_eghoblastoise",

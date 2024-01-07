@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dundragon",
-  "nationalPokedexNumber": 1498,
+  "nationalPokedexNumber": 1521,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -154,11 +154,14 @@
     "egg:hex"  ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dundragon.desc"
   ],
+  "preEvolution": "dunmyth",
   "baseScale": 0.4125,
   "hitbox": {
     "width": 3.0,

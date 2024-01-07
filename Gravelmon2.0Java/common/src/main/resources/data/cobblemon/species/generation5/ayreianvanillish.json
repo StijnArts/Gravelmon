@@ -105,11 +105,13 @@
   "labels": [
     "gen5",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianvanillish.desc"
   ],
+  "preEvolution": "ayreianvanillite",
   "evolutions": [
     {
       "id": "ayreianvanillish_ayreianvanniluxe",

@@ -117,11 +117,13 @@
   "labels": [
     "phoenix_rising",
     "gen4",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.relicambipom.desc"
   ],
+  "preEvolution": "relicaipom",
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,

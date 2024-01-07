@@ -75,11 +75,13 @@
   "labels": [
     "gen1",
     "flux",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.alteranarbok.desc"
   ],
+  "preEvolution": "alteranekans",
   "baseScale": 0.75,
   "hitbox": {
     "width": 1.1538461538461537,

@@ -150,11 +150,13 @@
   "labels": [
     "insurgence",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltapikachu.desc"
   ],
+  "preEvolution": "deltapichu",
   "evolutions": [
     {
       "id": "deltapikachu_deltaraichu",

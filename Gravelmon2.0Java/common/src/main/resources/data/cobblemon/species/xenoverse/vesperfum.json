@@ -106,11 +106,14 @@
     "tutor:secretpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.vesperfum.desc"
   ],
+  "preEvolution": "batnana",
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,

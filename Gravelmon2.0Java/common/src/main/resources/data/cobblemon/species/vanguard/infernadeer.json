@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "infernadeer",
-  "nationalPokedexNumber": 1503,
+  "nationalPokedexNumber": 1526,
   "primaryType": "steel",
   "secondaryType": "fire",
   "abilities": [
@@ -135,11 +135,13 @@
     "egg:mefirst"  ],
   "labels": [
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.infernadeer.desc"
   ],
+  "preEvolution": "ayreianstantler",
   "baseScale": 0.375,
   "hitbox": {
     "width": 3.0,

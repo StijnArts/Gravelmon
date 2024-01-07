@@ -172,11 +172,14 @@
     "egg:superpower",
     "egg:waterpulse"  ],
   "labels": [
-    "sage"
+    "sage",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.aguanaut.desc"
   ],
+  "preEvolution": "iguadium",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.8,

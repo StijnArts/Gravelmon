@@ -143,11 +143,13 @@
   "labels": [
     "vanguard",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreianhaunter.desc"
   ],
+  "preEvolution": "ayreiangastly",
   "evolutions": [
     {
       "id": "ayreianhaunter_Ayreiangengar",

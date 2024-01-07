@@ -139,11 +139,14 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.volcaroc.desc"
   ],
+  "preEvolution": "rocano",
   "evolutions": [
     {
       "id": "volcaroc_volcoalder",

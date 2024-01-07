@@ -143,11 +143,13 @@
     "tutor:uproar"  ],
   "labels": [
     "gen5",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltadarmanitan.desc"
   ],
+  "preEvolution": "deltadarumaka",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.4,

@@ -151,11 +151,13 @@
   "labels": [
     "infinity",
     "gen4",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghotangrowth.desc"
   ],
+  "preEvolution": "eghotangela",
   "baseScale": 0.375,
   "hitbox": {
     "width": 3.0,

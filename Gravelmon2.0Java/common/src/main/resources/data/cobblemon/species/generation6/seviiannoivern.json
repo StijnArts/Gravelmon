@@ -136,11 +136,13 @@
   "labels": [
     "radicalred",
     "gen6",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviiannoivern.desc"
   ],
+  "preEvolution": "seviiannoibat",
   "baseScale": 0.28125,
   "hitbox": {
     "width": 3.0,

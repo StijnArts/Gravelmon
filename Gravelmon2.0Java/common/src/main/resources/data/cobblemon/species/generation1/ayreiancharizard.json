@@ -142,11 +142,13 @@
   "labels": [
     "gen1",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreiancharizard.desc"
   ],
+  "preEvolution": "ayreiancharmeleon",
   "baseScale": 0.31875,
   "hitbox": {
     "width": 3.0,

@@ -117,11 +117,14 @@
     "egg:silverwind"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.harylect.desc"
   ],
+  "preEvolution": "tricwe",
   "baseScale": 0.1,
   "hitbox": {
     "width": 3.0,

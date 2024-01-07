@@ -145,11 +145,14 @@
     "egg:skullbash",
     "egg:sludge"  ],
   "labels": [
-    "infinity"
+    "infinity",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kokipound.desc"
   ],
+  "preEvolution": "kokiseed",
   "evolutions": [
     {
       "id": "kokipound_kokismash",

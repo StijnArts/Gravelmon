@@ -145,11 +145,14 @@
     "egg:sweetkiss"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.montegrew.desc"
   ],
+  "preEvolution": "growmeo",
   "baseScale": 0.225,
   "hitbox": {
     "width": 3.0,

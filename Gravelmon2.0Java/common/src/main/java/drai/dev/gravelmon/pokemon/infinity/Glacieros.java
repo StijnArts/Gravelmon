@@ -87,7 +87,7 @@ public class Glacieros extends Pokemon {
                         new MoveLearnSetEntry(Move.IRON_HEAD,"egg"),
                         new MoveLearnSetEntry(Move.SLACK_OFF,"egg")
                         ),
-                List.of(Label.SAGE),
+                List.of(Label.INFINITY),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 31, 46, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),

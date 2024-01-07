@@ -116,11 +116,13 @@
   "labels": [
     "gen4",
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kaskadianluxray.desc"
   ],
+  "preEvolution": "kaskadianluxio",
   "baseScale": 0.16875,
   "hitbox": {
     "width": 3.0,

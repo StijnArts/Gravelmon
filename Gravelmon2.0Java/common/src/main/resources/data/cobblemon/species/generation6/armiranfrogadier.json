@@ -94,11 +94,13 @@
   "labels": [
     "gen6",
     "daybreak",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.armiranfrogadier.desc"
   ],
+  "preEvolution": "armiranfroakie",
   "evolutions": [
     {
       "id": "armiranfrogadier_armirangreninja",

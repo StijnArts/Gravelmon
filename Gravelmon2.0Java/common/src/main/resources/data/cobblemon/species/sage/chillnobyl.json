@@ -129,11 +129,14 @@
     "egg:toxicspikes"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chillnobyl.desc"
   ],
+  "preEvolution": "icetope",
   "baseScale": 0.24375,
   "hitbox": {
     "width": 3.0,

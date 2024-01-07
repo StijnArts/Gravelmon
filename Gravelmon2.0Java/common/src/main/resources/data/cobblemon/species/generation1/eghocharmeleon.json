@@ -144,11 +144,13 @@
     "egg:outrage"  ],
   "labels": [
     "gen1",
-    "infinity"
+    "infinity",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghocharmeleon.desc"
   ],
+  "preEvolution": "eghocharmander",
   "evolutions": [
     {
       "id": "eghocharmeleon_eghocharizard",

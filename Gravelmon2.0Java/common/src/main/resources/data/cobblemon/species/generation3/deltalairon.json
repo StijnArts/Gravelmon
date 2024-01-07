@@ -143,11 +143,13 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltalairon.desc"
   ],
+  "preEvolution": "deltaaron",
   "evolutions": [
     {
       "id": "deltalairon_deltaaggron",

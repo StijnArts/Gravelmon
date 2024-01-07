@@ -115,12 +115,15 @@
     "egg:ironhead",
     "egg:slackoff"  ],
   "labels": [
-    "sage",
-    "not_modeled"
+    "infinity",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.glacieros.desc"
   ],
+  "preEvolution": "iceros",
   "baseScale": 0.35625,
   "hitbox": {
     "width": 3.0,

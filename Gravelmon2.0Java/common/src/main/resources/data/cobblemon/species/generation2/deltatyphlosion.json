@@ -271,11 +271,13 @@
   "labels": [
     "gen2",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltatyphlosion.desc"
   ],
+  "preEvolution": "deltaquilava",
   "baseScale": 0.31875,
   "hitbox": {
     "width": 3.0,

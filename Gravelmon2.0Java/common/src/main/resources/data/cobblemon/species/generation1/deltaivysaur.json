@@ -141,11 +141,13 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaivysaur.desc"
   ],
+  "preEvolution": "deltabulbasaur",
   "evolutions": [
     {
       "id": "deltaivysaur_deltavenusaur",

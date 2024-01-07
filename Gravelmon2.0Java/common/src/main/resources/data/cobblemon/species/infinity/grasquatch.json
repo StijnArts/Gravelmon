@@ -144,11 +144,14 @@
     "egg:yawn"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.grasquatch.desc"
   ],
+  "preEvolution": "kidfoot",
   "baseScale": 0.5625,
   "hitbox": {
     "width": 3.0,

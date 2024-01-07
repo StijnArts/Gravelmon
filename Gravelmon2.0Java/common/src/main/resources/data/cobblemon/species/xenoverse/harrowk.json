@@ -108,11 +108,14 @@
     "egg:airslash"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.harrowk.desc"
   ],
+  "preEvolution": "shawkbird",
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,

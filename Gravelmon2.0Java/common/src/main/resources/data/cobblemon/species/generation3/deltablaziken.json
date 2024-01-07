@@ -194,11 +194,13 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltablaziken.desc"
   ],
+  "preEvolution": "deltacombusken",
   "baseScale": 0.35625,
   "hitbox": {
     "width": 3.0,

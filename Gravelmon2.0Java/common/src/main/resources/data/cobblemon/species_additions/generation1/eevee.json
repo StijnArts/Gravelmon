@@ -351,7 +351,27 @@
      "minLevel": 25
     }
    ]
+  },
+  {
+   "id": "eevee_nucleon",
+   "variant": "level_up",
+   "result": "mantine",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 20
+    },
+    {
+     "variant": "party_member",
+     "target": "type=nuclear",
+     "contains": true
+    }
+   ]
+
   }
+
  ],
    "moves": [
     "1:covet",

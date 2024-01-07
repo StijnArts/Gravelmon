@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lucemoth",
-  "nationalPokedexNumber": 1478,
+  "nationalPokedexNumber": 1501,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
@@ -84,11 +84,13 @@
     "tm:cosmicpower"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lucemoth.desc"
   ],
+  "preEvolution": "hoennianvenonat",
   "baseScale": 0.3375,
   "hitbox": {
     "width": 3.0,

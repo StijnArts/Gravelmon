@@ -144,11 +144,14 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.forusk.desc"
   ],
+  "preEvolution": "alpint",
   "baseScale": 0.4125,
   "hitbox": {
     "width": 3.0,

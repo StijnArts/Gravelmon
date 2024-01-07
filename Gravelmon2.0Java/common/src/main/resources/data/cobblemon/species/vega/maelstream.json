@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maelstream",
-  "nationalPokedexNumber": 1564,
+  "nationalPokedexNumber": 1587,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -97,11 +97,14 @@
     "egg:splash",
     "egg:torment"  ],
   "labels": [
-    "vega"
+    "vega",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.maelstream.desc"
   ],
+  "preEvolution": "katuna",
   "evolutions": [
     {
       "id": "maelstream_skelachone",

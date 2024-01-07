@@ -130,11 +130,13 @@
   "labels": [
     "gen2",
     "vanguard",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ayreiancroconaw.desc"
   ],
+  "preEvolution": "ayreiantotodile",
   "evolutions": [
     {
       "id": "ayreiancroconaw_ayreianferaligatr",

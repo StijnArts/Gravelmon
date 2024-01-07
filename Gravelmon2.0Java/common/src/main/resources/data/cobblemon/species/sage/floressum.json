@@ -124,11 +124,14 @@
     "egg:synthesis",
     "egg:worryseed"  ],
   "labels": [
-    "sage"
+    "sage",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.floressum.desc"
   ],
+  "preEvolution": "florabri",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.4,

@@ -78,11 +78,13 @@
   "labels": [
     "gen2",
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mythianflaaffy.desc"
   ],
+  "preEvolution": "mythianmareep",
   "evolutions": [
     {
       "id": "mythianflaaffy_mythianampharos",

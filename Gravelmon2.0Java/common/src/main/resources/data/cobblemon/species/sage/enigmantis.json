@@ -117,11 +117,14 @@
     "egg:slash"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.enigmantis.desc"
   ],
+  "preEvolution": "enigmite",
   "baseScale": 0.20625,
   "hitbox": {
     "width": 3.0,

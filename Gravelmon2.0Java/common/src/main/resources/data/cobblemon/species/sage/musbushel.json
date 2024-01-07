@@ -153,11 +153,14 @@
     "egg:synthesis"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.musbushel.desc"
   ],
+  "preEvolution": "musburry",
   "baseScale": 0.15,
   "hitbox": {
     "width": 3.0,

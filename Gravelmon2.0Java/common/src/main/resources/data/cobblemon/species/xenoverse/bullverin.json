@@ -94,11 +94,14 @@
     "tutor:secretpower"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.bullverin.desc"
   ],
+  "preEvolution": "croakling",
   "evolutions": [
     {
       "id": "bullverin_croakraze",
