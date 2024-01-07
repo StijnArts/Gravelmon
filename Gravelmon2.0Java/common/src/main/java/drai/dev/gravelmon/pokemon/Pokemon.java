@@ -277,11 +277,8 @@ public class Pokemon {
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
                 Pokemon result = pokemonRegistry.stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
                 if(result != null){
-                    if(result.preEvolution==null){
-                        break;
-                    }
-                    else if(!result.preEvolution.isEmpty()){
-                        break;
+                    if(result.preEvolution!=null){
+                        continue;
                     }
                     if(result.getCleanName().equals(pokemon.getCleanName())){
                         pokemonThatEvolveIntoThemselves+=pokemon.getCleanName()+",\n";
