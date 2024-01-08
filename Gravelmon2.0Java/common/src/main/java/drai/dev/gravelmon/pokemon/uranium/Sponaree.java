@@ -19,10 +19,7 @@ public class Sponaree extends Pokemon {
                 70,
                 100, List.of(EggGroup.BUG),
                 List.of("SPONEE are covered by a bizarre sponge-like material. When dropped, they bounce."),
-                List.of(new EvolutionEntry("sponaree", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.BUBBLE_BEAM.getName()+"\""))),
-                        new EvolutionEntry("seikamater", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"gravelmon:royal_jelly\"")))),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_STING,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),

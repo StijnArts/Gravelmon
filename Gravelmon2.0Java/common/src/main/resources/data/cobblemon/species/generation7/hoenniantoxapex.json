@@ -83,13 +83,11 @@
   "labels": [
     "blazing_emerald",
     "gen7",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.hoenniantoxapex.desc"
   ],
-  "preEvolution": "hoennianmareanie",
   "baseScale": 0.225,
   "hitbox": {
     "width": 3.0,

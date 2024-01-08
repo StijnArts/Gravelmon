@@ -103,14 +103,11 @@
     "tutor:snoresound",
     "tutor:waterpulse"  ],
   "labels": [
-    "xenoverse",
-    "fakemon",
-    "fakemonevolution"
+    "xenoverse"
   ],
   "pokedex": [
     "cobblemon.species.shulong.desc"
   ],
-  "preEvolution": "shulongterrestrial",
   "evolutions": [
     {
       "id": "shulong_shulongterrestrial",

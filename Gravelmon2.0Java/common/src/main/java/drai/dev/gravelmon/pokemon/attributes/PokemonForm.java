@@ -5,6 +5,7 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class PokemonForm {
+    public String preEvolution;
     private String name;
     private Type primaryType;
     private Type secondaryType;
@@ -178,6 +179,13 @@ public class PokemonForm {
         this.labels.add(Label.NOT_MODELED);
     }
 
+    public void setPreEvolution(String cleanName) {
+        if(cleanName.equalsIgnoreCase("eevee")){
+            this.labels.add(Label.EEVEELUTION);
+        }
+        this.labels.add(Label.FAKEMON_EVOLUTION);
+        this.preEvolution = cleanName;
+    }
     public boolean hasSeparateModel() {
         return hasSeparateModel;
     }
@@ -337,5 +345,9 @@ public class PokemonForm {
 
     public void setBaseScale(double scale) {
         this.baseScale = scale;
+    }
+
+    public String getPreEvolution() {
+        return preEvolution;
     }
 }

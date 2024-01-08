@@ -150,13 +150,11 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltahoopaunleashed.desc"
   ],
-  "preEvolution": "deltahoopa",
   "evolutions": [
     {
       "id": "deltahoopaunleashed_deltahoopa",

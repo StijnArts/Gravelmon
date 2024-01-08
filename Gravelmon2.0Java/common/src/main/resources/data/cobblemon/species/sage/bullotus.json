@@ -85,7 +85,8 @@
       "eggGroups": [
     "water_1",
     "grass"
-  ],
+  ],  "preEvolution": "flowger form=blue",
+
   "moves": [
     "1:uproar",
     "1:mudslide",
@@ -178,7 +179,9 @@
       },
       "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
       ],
       "aspects": [
         "blue"

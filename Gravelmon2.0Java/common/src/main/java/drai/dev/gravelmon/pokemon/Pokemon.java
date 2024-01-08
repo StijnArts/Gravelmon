@@ -273,10 +273,22 @@ public class Pokemon {
     }
 
     public static void scanEvolutions() {
+        var evaluatedMons = new ArrayList<>();
         for (Pokemon pokemon : pokemonRegistry) {
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
                 Pokemon result = pokemonRegistry.stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
                 if(result != null){
+                    if(result.getLangFileName() != null){
+                        if(result.getLangFileName().equalsIgnoreCase(pokemon.getName())) continue;
+                        if(pokemon.getLangFileName() != null){
+                            if(result.getLangFileName().equalsIgnoreCase(pokemon.getLangFileName())) continue;
+                        }
+                    } else if(pokemon.getLangFileName() != null){
+                        if(pokemon.getLangFileName().equalsIgnoreCase(result.getName())) continue;
+                    }
+
+                    if(evaluatedMons.contains(result)) continue;
+                    evaluatedMons.add(result);
                     if(result.preEvolution!=null){
                         continue;
                     }
@@ -287,6 +299,31 @@ public class Pokemon {
                         result.getLabels().add(Label.FAKEMON);
                     }
                     result.setPreEvolution(pokemon.getCleanName());
+                }
+            }
+            var evaluatedForms = new ArrayList<>();
+            for (PokemonForm form : pokemon.getForms()) {
+                for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
+                    String resultName = evolutionEntry.getResult();
+                    PokemonForm result = pokemonRegistry.stream()
+                            .filter(p -> p.getName().equalsIgnoreCase(resultName))
+                            .map(pokemon1 -> pokemon1.getForms()).flatMap(List::stream).filter(pokemonForm -> new HashSet<>(pokemonForm.getAspects()).containsAll(evolutionEntry.getAspects())).findFirst().orElse(null);
+                    if (result != null) {
+
+                        if (evaluatedForms.contains(result)) continue;
+                        evaluatedForms.add(result);
+                        if (result.preEvolution != null) {
+                            continue;
+                        }
+                        if (result.getCleanName().equals(pokemon.getCleanName())) {
+                            pokemonThatEvolveIntoThemselves += pokemon.getCleanName() + ", Aspect: " + evolutionEntry.getAspects() +",\n";
+                        }
+                        if (!isBasedOnOriginalPokemon(pokemon)) {
+                            result.getLabels().add(Label.FAKEMON);
+                        }
+                        String aspect = evolutionEntry.getAspects().stream().findFirst().isEmpty() ? "": " form="+evolutionEntry.getAspects().stream().findFirst().get().getName();
+                        result.setPreEvolution(pokemon.getCleanName() + aspect);
+                    }
                 }
             }
         }
@@ -304,6 +341,14 @@ public class Pokemon {
             }
         }
         return isEvoOfAPreviousPokemon;
+    }
+
+    protected void setPreEvolution(String cleanName) {
+        if(cleanName.equalsIgnoreCase("eevee")){
+            this.labels.add(Label.EEVEELUTION);
+        }
+        this.labels.add(Label.FAKEMON_EVOLUTION);
+        this.preEvolution = cleanName;
     }
 
     public void setShoulderMountable(boolean shoulderMountable) {
@@ -677,14 +722,6 @@ public class Pokemon {
             double newFormHitboxWidth = (double)forms.getHeight()/10;
             double newFormHitboxHeight = (double)forms.getHeight()/10;
             setHitbox(newFormHitboxWidth,newFormHitboxHeight);});
-    }
-
-    protected void setPreEvolution(String cleanName) {
-        if(cleanName.equalsIgnoreCase("eevee")){
-            this.labels.add(Label.EEVEELUTION);
-        }
-        this.labels.add(Label.FAKEMON_EVOLUTION);
-        this.preEvolution = cleanName;
     }
 
     public String getPreEvolution() {

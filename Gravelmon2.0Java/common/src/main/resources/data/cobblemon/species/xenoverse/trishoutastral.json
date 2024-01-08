@@ -99,14 +99,11 @@
     "tutor:uproar"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.trishoutastral.desc"
   ],
-  "preEvolution": "trishout",
   "evolutions": [
     {
       "id": "trishoutastral_trishout",

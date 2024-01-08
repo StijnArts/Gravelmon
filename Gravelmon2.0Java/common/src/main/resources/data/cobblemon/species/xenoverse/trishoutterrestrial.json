@@ -101,14 +101,11 @@
     "tutor:snoresound",
     "tutor:uproar"  ],
   "labels": [
-    "xenoverse",
-    "fakemon",
-    "fakemonevolution"
+    "xenoverse"
   ],
   "pokedex": [
     "cobblemon.species.trishoutterrestrial.desc"
   ],
-  "preEvolution": "trishout",
   "evolutions": [
     {
       "id": "trishoutterrestrial_trishout",

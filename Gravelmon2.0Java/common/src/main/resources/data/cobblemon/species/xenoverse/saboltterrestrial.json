@@ -105,14 +105,11 @@
     "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.saboltterrestrial.desc"
   ],
-  "preEvolution": "sabolt",
   "evolutions": [
     {
       "id": "saboltterrestrial_sabolt",

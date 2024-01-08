@@ -109,41 +109,10 @@
     "egg:icebeam"  ],
   "labels": [
     "uranium",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.sponaree.desc"
-  ],
-  "preEvolution": "sponaree",
-  "evolutions": [
-    {
-      "id": "sponaree_sponaree",
-      "variant": "level_up",
-      "result": "sponaree",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "has_move",
-          "move": "bubblebeam"
-        }
-      ]   
- },
-    {
-      "id": "sponaree_seikamater",
-      "variant": "level_up",
-      "result": "seikamater",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "gravelmon:royal_jelly"
-        }
-      ]   
- }
   ],
   "baseScale": 0.1,
   "hitbox": {

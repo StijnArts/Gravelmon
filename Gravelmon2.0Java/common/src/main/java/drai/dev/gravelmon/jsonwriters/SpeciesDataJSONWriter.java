@@ -405,6 +405,9 @@ public class SpeciesDataJSONWriter {
         }
 
         formString += "\n  ],";
+        if(form.getPreEvolution()!=null){
+            formString += "  \"preEvolution\": \""+form.getPreEvolution()+"\",\n";
+        }
         if(!form.getLearnSet().isEmpty()){
             formString += getMoves(form.getLearnSet(), isSubstitutedMoveImplementation);
         }
