@@ -1,8 +1,9 @@
 {
   "implemented": true,
   "name": "bindshii",
-  "nationalPokedexNumber": 1551,
+  "nationalPokedexNumber": 1613,
   "primaryType": "sound",
+  "secondaryType": "fairy",
   "abilities": [
     "levitate",
     "tanglinghair",

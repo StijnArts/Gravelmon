@@ -33,11 +33,5 @@ public class GameRegistry {
         games.add(new Vanguard());
         games.add(new Myth());
         games.add(new Vega());
-        var sortedDex = new ArrayList<String>();
-        for (var pokedexEntry: Pokemon.pokemonRegistry) {
-            sortedDex.add(String.format("%04d", pokedexEntry.getPokedexNumber())+ ": " + pokedexEntry.getName());
-        }
-        sortedDex.sort(String::compareTo);
-        System.out.println("");
     }
 }

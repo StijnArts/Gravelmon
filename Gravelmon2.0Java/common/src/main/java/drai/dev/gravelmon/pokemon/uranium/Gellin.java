@@ -24,8 +24,7 @@ public class Gellin extends Pokemon {
                 70,
                 100, List.of(EggGroup.AMORPHOUS),
                 List.of("Nupin is the largest single-celled organism on the planet. It obtains energy from photosynthesis."),
-                List.of(new EvolutionEntry("gellin", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ACUPRESSURE,1),
                         new MoveLearnSetEntry(Move.MAGNET_RISE,1),

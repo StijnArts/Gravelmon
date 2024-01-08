@@ -131,21 +131,6 @@
     "cobblemon.species.gellin.desc"
   ],
   "preEvolution": "nupin",
-  "evolutions": [
-    {
-      "id": "gellin_gellin",
-      "variant": "level_up",
-      "result": "gellin",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 35
-        }
-      ]   
- }
-  ],
   "baseScale": 0.2625,
   "hitbox": {
     "width": 3.0,

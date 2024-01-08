@@ -429,7 +429,7 @@ public enum Ability {
     SERENE_VEIL("sereneveil", false),
     ELEMENTALIST("elementalist", false),
     CACOPHONY("cacophony", false),
-    GEIGER_SENSE("geigersense", false);
+    GEIGER_SENSE("geigersense", false), REBUILD("rebuild", false);
 
     private String name;
     private Boolean implemented;

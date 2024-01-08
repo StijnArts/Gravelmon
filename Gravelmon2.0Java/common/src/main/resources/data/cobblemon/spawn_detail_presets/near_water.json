@@ -6,8 +6,6 @@
      ],
      "neededNearbyBlocks": [
       "minecraft:water"
-     ],
-     "timeRange": "day",
-     "minY": 61
+     ]
   }
 }

@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "navighast-1",
+      "pokemon": "navighast",
+      "presets": [
+          "near_ship_wreck"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "rare",
+      "level": "55-67",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach",
+"#minecraft:is_ocean" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_hills" ]    }
+    }
+  ]
+}

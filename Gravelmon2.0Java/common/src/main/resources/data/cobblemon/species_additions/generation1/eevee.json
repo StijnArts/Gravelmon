@@ -355,7 +355,7 @@
   {
    "id": "eevee_nucleon",
    "variant": "level_up",
-   "result": "mantine",
+   "result": "nucleon",
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [

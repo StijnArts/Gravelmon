@@ -1221,7 +1221,9 @@ public enum Move {
     INFERNOSTORM("infernostorm", false),
     SKY_DIVE("skydive", false),
     LASER_PULSE("laserpulse", false),
-    LOVE_LARIAT("lovelariat", false);
+    LOVE_LARIAT("lovelariat", false),
+    GOLD_BREAKER("goldbreaker", false),
+    FILTHY_TERRAIN("filthyterrain", false);
 
     private String name;
     private boolean implemented;

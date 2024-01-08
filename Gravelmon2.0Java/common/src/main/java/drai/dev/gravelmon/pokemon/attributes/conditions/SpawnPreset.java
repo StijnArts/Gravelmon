@@ -23,7 +23,12 @@ public enum SpawnPreset {
     SPIDERWEBS("spiderwebs"),
     AMETHYST_GEODE("amethyst_geode"),
     WATER_SURFACE("water_surface"),
-    DESERT_TEMPLE("desert_temple"), NEAR_LAVA("near_lava"), NEAR_CAMPFIRE("near_campfire"), NEAR_CROPS("near_crops");
+    DESERT_TEMPLE("desert_temple"),
+    NEAR_LAVA("near_lava"),
+    NEAR_CAMPFIRE("near_campfire"),
+    NEAR_CROPS("near_crops"),
+    NEAR_MAGMA("near_magma"),
+    NEAR_SHIP_WRECK("near_ship_wreck");
     SpawnPreset(String name){
         this.name = name;
     }

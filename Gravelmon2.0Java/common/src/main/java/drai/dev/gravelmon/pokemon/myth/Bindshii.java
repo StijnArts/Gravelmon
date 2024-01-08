@@ -9,7 +9,7 @@ import java.util.*;
 public class Bindshii extends Pokemon {
     public Bindshii() {
         super("Bindshii",
-                Type.SOUND,
+                Type.SOUND, Type.FAIRY,
                 new Stats(70,50,65,80,140,115),
                 List.of(Ability.LEVITATE, Ability.TANGLING_HAIR), Ability.OSCILLATE,
                 17, 69,
