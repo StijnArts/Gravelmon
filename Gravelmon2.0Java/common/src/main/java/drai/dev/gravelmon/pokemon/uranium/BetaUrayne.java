@@ -7,8 +7,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class BetaUrayne extends Pokemon {
-    public BetaUrayne() {
-        super("BetaUrayne",
+    public BetaUrayne(int dexNo) {
+        super(dexNo,"BetaUrayne",
                 Type.NUCLEAR,
                 new Stats(102,
                         130,

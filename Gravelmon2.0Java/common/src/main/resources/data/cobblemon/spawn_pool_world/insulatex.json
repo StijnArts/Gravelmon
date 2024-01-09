@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "insulatex-1",
+      "pokemon": "insulatex",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "26-50",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "isThundering": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_highlands" ]    }
+    }
+  ]
+}

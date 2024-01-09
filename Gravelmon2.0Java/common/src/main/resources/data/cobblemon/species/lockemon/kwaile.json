@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "kwaile",
+  "nationalPokedexNumber": 1632,
+  "primaryType": "flying",
+  "abilities": [
+    "shellarmor",
+    "rattled",
+    "h:vitalspirit"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 55,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 51,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:leer",
+    "1:peck",
+    "4:powertrip",
+    "8:mudslap",
+    "12:furyattack",
+    "16:pluck",
+    "20:taunt",
+    "24:scaryface",
+    "28:drillpeck",
+    "32:swagger",
+    "36:bravebird",
+    "egg:defog",
+    "egg:rocksmash",
+    "egg:roost",
+    "egg:sandattack",
+    "egg:skyattack",
+    "egg:spite",
+    "egg:tailwind"  ],
+  "labels": [
+    "lockemon",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kwaile.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "kwaile_quailert",
+      "variant": "level_up",
+      "result": "quailert",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 14,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

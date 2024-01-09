@@ -20,7 +20,7 @@ public class AyreianIvysaur extends Pokemon {
                 50, List.of(EggGroup.MONSTER, EggGroup.GRASS),
                 List.of("It burrows itself in sand, then waits for a prey to get closer, which is then showered by a substance similar to glue, blocking its escape."),
                 List.of(new EvolutionEntry("ayreianvenusaur", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CURSE, 1),
                         new MoveLearnSetEntry(Move.PURSUIT, 1),

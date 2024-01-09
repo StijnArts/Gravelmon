@@ -429,7 +429,28 @@ public enum Ability {
     SERENE_VEIL("sereneveil", false),
     ELEMENTALIST("elementalist", false),
     CACOPHONY("cacophony", false),
-    GEIGER_SENSE("geigersense", false), REBUILD("rebuild", false);
+    GEIGER_SENSE("geigersense", false),
+    REBUILD("rebuild", false),
+    BLOODLUST("bloodlust", false),
+    BOMBARDIER("bombardier", false),
+    DEFIBRILLATOR("defibrillator", false),
+    MINDS_EYE("mindseye", false),
+    SATELLITE("satellite", false),
+    QUICK_CHARGE("quickcharge", false),
+    POWER_THIEF("powerthief", false),
+    CRYSTALLIZE("crystallize", false),
+    DROUGHTPROOF("droughtproof", false),
+    HYDROPHOBIC("hydrophobic", false),
+    BUBBLE_HELM("bubblehelm", false),
+    TO_BE("tobe", false),
+    NOT_TO_BE("nottobe", false),
+    FOIL("foil", false),
+    TRUMPET_WEEVIL("trumpetweevil", false),
+    NESTING("nesting", false),
+    HAY_FEVER("hayfever", false),
+    BLOOMSPRING("bloomspring", false),
+    SWARMING("swarming", false),
+    PEARL_DROP("pearldrop", false);
 
     private String name;
     private Boolean implemented;

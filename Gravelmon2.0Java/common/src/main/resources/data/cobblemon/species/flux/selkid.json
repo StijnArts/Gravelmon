@@ -1,0 +1,117 @@
+{
+  "implemented": true,
+  "name": "selkid",
+  "nationalPokedexNumber": 1566,
+  "primaryType": "water",
+  "secondaryType": "fairy",
+  "abilities": [
+    "cutecharm",
+    "swiftswim",
+    "h:pixilate"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 51,
+    "speed": 54
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "human_like"
+  ],
+  "moves": [
+    "1:echoedvoicesound",
+    "1:growl",
+    "5:bubble",
+    "8:disarmingvoicesound",
+    "13:singsound",
+    "15:whirlpool",
+    "20:drainingkiss",
+    "22:charm",
+    "27:bubblebeam",
+    "29:lifedew",
+    "34:brine",
+    "36:calmmind",
+    "41:hypervoicesound",
+    "43:sparklingariasound",
+    "48:raindance",
+    "50:moonblast",
+    "55:perishsongsound",
+    "57:hydropump",
+    "egg:soak",
+    "egg:uproar",
+    "egg:mist",
+    "egg:coralbreak",
+    "egg:refresh"  ],
+  "labels": [
+    "flux",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.selkid.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "selkid_syrentide",
+      "variant": "item_interact",
+      "result": "syrentide",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:moon_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 155,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

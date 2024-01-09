@@ -19,7 +19,8 @@ public class AlteranBreloom extends Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.FAIRY),
                 List.of("Its strikes have less force behind them than its cousins from Hoenn. However, the deadly spores it delivers with each blow definitely pack a punch!"),
-                List.of(),
+                List.of(new EvolutionEntry("brontoloom", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_TAIL,1),
                         new MoveLearnSetEntry(Move.STUN_SPORE,1),

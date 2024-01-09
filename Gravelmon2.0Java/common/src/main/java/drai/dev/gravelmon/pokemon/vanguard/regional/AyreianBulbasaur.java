@@ -20,7 +20,7 @@ public class AyreianBulbasaur extends Pokemon {
                 50, List.of(EggGroup.MONSTER, EggGroup.GRASS),
                 List.of("From birth, a sticky paste that it produces forms peculiar patterns on its body. Every Bulbasaur has a slightly different formation."),
                 List.of(new EvolutionEntry("ayreianivysaur", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PURSUIT, 1),
                         new MoveLearnSetEntry(Move.GROWL, 1),

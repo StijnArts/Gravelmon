@@ -12,7 +12,7 @@ public class AlteranArbok extends Pokemon {
                 Type.FIGHTING,
                 new Stats(60, 100, 74, 60, 79, 75),
                 List.of(Ability.GUTS, Ability.SHED_SKIN), Ability.TECHNICIAN,
-                40, 700,
+                20, 700,
                 new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,

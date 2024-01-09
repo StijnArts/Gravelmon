@@ -1223,7 +1223,10 @@ public enum Move {
     LASER_PULSE("laserpulse", false),
     LOVE_LARIAT("lovelariat", false),
     GOLD_BREAKER("goldbreaker", false),
-    FILTHY_TERRAIN("filthyterrain", false);
+    FILTHY_TERRAIN("filthyterrain", false),
+    ECHOLOCATE("echolocate", false),
+    WRIGGLE("wriggle", false),
+    THORN_FALL("thornfall", false);
 
     private String name;
     private boolean implemented;

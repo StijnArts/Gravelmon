@@ -52,7 +52,8 @@ public enum Aspect {
     YELLOW("yellow", true, false),
     MONSTER("monster", true, false),
     SUMMER("summer", true, false),
-    SCHOOL("school", true, false);
+    SCHOOL("school", true, false),
+    SWARM("swarm", true, false);
     private String name;
     private boolean isNew;
     private boolean isDefault;

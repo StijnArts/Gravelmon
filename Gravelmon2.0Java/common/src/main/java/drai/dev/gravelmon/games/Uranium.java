@@ -158,8 +158,9 @@ public class Uranium extends Game {
         pokemon.add(new Krakanao());
         pokemon.add(new Lanthan());
         pokemon.add(new Actan());
-        pokemon.add(new Urayne());
-        pokemon.add(new BetaUrayne());
+        var urayne = new Urayne();
+        pokemon.add(urayne);
+        pokemon.add(new BetaUrayne(urayne.getPokedexNumber()));
         pokemon.add(new Aotius());
         pokemon.add(new Mutios());
         pokemon.add(new Zephy());

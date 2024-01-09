@@ -12,7 +12,7 @@ public class RelicWeezing extends Pokemon {
                 Type.FIRE, Type.STEEL,
                 new Stats(75, 85, 125, 90, 75, 40),
                 List.of(Ability.AFTERMATH), Ability.WHITE_SMOKE,
-                165, 2590,
+                17, 2590,
                 new Stats(0,0,2,0,0,0), 20,
                 0.5,
                 172, ExperienceGroup.SLOW,

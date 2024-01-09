@@ -12,7 +12,7 @@ public class DeltaMilotic extends Pokemon {
                 Type.GHOST,
                 new Stats(95, 60, 79, 100, 125, 81),
                 List.of(Ability.REGENERATOR, Ability.DEFIANT), Ability.CURSED_BODY,
-                62, 1620,
+                31, 1620,
                 new Stats(0,0,0,0,2,0), 60,
                 0.5,
                 189, ExperienceGroup.FLUCTUATING,

@@ -124,10 +124,10 @@
     "cobblemon.species.seviianmilotic.desc"
   ],
   "preEvolution": "seviianfeebas",
-  "baseScale": 1.1625,
+  "baseScale": 0.58125,
   "hitbox": {
-    "width": 1.7307692307692306,
-    "height": 1.7307692307692306,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -139,7 +139,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 62,
+  "height": 31,
   "weight": 1620,
   "aspects": [],
 "features": [

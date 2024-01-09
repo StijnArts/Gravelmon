@@ -116,10 +116,10 @@
     "cobblemon.species.relicweezing.desc"
   ],
   "preEvolution": "relickoffing",
-  "baseScale": 3.09375,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -131,7 +131,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 165,
+  "height": 17,
   "weight": 2590,
   "aspects": [],
 "features": [

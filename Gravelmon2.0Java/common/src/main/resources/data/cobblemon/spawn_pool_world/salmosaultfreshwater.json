@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "salmosaultfreshwater-1",
+      "pokemon": "salmosaultfreshwater",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "24-49",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_river" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_arid",
+"#cobblemon:is_temperate" ]    }
+    }
+  ]
+}

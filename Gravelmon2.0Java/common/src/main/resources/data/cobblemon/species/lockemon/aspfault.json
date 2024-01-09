@@ -1,0 +1,121 @@
+{
+  "implemented": true,
+  "name": "aspfault",
+  "nationalPokedexNumber": 1623,
+  "primaryType": "fire",
+  "secondaryType": "ground",
+  "abilities": [
+    "blaze",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 50,
+    "defence": 65,
+    "special_attack": 25,
+    "special_defence": 65,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "moves": [
+    "1:smog",
+    "1:yawn",
+    "6:ember",
+    "8:mudshot",
+    "13:flamecharge",
+    "20:clearsmog",
+    "22:magnitude",
+    "27:flamewheel",
+    "29:highhorsepower",
+    "34:firefang",
+    "36:amnesia",
+    "41:bodyslam",
+    "43:recover",
+    "48:flareblitz",
+    "50:earthquake",
+    "egg:acidarmor",
+    "egg:curse",
+    "egg:guardswap",
+    "egg:inferno",
+    "egg:memento",
+    "egg:rollout",
+    "egg:smokescreen",
+    "egg:stockpile"  ],
+  "labels": [
+    "lockemon",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.aspfault.desc"
+  ],
+  "preEvolution": "therpal",
+  "evolutions": [
+    {
+      "id": "aspfault_tarmendoa",
+      "variant": "level_up",
+      "result": "tarmendoa",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 13,
+  "weight": 216,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

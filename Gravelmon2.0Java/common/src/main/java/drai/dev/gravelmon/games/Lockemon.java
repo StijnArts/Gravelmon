@@ -4,39 +4,34 @@ import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.lockemon.*;
 
 public class Lockemon extends Game {
-    public Lockemon() {
-        super("Lockemon");
-    }
+    public Lockemon() {super("Lockemon");}
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new Llampas());
-//        pokemon.add(new Danfluff());
-//        pokemon.add(new Alfalphalops());
-//        pokemon.add(new Therpal());
-//        pokemon.add(new Aspfault());
-//        pokemon.add(new Tarmendoa());
-//        pokemon.add(new Burbwhirl());
-//        pokemon.add(new Spoutlaw());
-//        pokemon.add(new Vaquamael());
-//        pokemon.add(new Sighlo());
-//        pokemon.add(new Cooreds());
-//        pokemon.add(new Probaska());
-//        pokemon.add(new Chewmunk());
-//        pokemon.add(new Cheekat());
-//        pokemon.add(new Mosster());
-//        pokemon.add(new Mosskrat());
-//        pokemon.add(new Specoey());
-//        pokemon.add(new Opakespiel());
-//        pokemon.add(new Histameanie());
-//        pokemon.add(new Kwaile());
-//        pokemon.add(new Quailert());
-//        pokemon.add(new Quailstion());
-//        pokemon.add(new Apheed());
-//        pokemon.add(new Musleafo());
-//        pokemon.add(new Eecroach());
-//        pokemon.add(new Stackem());
-//        pokemon.add(new Clamtrip());
+        pokemon.add(new Llampas());
+        pokemon.add(new Danfluff());
+        pokemon.add(new Alfalphalops());
+        pokemon.add(new Therpal());
+        pokemon.add(new Aspfault());
+        pokemon.add(new Tarmendoa());
+        pokemon.add(new Burbwhirl());
+        pokemon.add(new Spoutlaw());
+        pokemon.add(new Vaquamael());
+        pokemon.add(new Chewmunk());
+        pokemon.add(new Cheekat());
+        pokemon.add(new Specoey());
+        pokemon.add(new Opakespiel());
+        pokemon.add(new Kwaile());
+        pokemon.add(new Quailert());
+        pokemon.add(new Quailstion());
+        pokemon.add(new Sighlo());
+        pokemon.add(new Cooreds());
+        pokemon.add(new Probaska());
+        pokemon.add(new Histameanie());
+        pokemon.add(new Apheed());
+        pokemon.add(new Musleafo());
+        pokemon.add(new Eecroach());
+        pokemon.add(new Clamtrip());
 //        pokemon.add(new Rowviar());
 //        pokemon.add(new Sanook());
 //        pokemon.add(new Cereboral());
@@ -44,6 +39,8 @@ public class Lockemon extends Game {
 //        pokemon.add(new Kaskazog());
 //        pokemon.add(new Ananot());
 //        pokemon.add(new Ananoop());
+//        pokemon.add(new Mosster());
+//        pokemon.add(new Mosskrat());
 //        pokemon.add(new Catteraxe());
 //        pokemon.add(new Catatomb());
         pokemon.add(new Yanmage());
