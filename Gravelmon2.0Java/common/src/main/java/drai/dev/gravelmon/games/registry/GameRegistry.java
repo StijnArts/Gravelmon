@@ -22,6 +22,7 @@ public class GameRegistry {
         games.add(new GenerationNine());
         GravelmonJsonGenerator.setDexCounter(1024);
         games.add(new Sage());
+        games.add(new Realidea());
         games.add(new Infinity());
         games.add(new Insurgence());
         games.add(new Xenoverse());
@@ -32,6 +33,7 @@ public class GameRegistry {
         games.add(new Daybreak());
         games.add(new Vanguard());
         games.add(new Myth());
+        games.add(new Deneb());
         games.add(new Vega());
     }
 }
