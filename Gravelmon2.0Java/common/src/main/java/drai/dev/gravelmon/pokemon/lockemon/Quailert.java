@@ -48,7 +48,7 @@ public class Quailert extends Pokemon {
                 ),
                 List.of(Label.LOCKEMON),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 16, 54, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 54, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

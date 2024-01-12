@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": true
+            "canFly": false
         },
         "canLook": true,
         "walk": {

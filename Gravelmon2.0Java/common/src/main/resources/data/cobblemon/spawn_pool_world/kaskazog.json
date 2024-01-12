@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kaskazog-1",
+      "pokemon": "kaskazog",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "29-48",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -43,7 +43,7 @@ public class Probaska extends Pokemon {
                         ),
                 List.of(Label.LOCKEMON),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 18, 41, 1.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 41, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

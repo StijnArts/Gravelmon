@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mosskrat-1",
+      "pokemon": "mosskrat",
+      "presets": [
+          "foliage"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "28-56",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

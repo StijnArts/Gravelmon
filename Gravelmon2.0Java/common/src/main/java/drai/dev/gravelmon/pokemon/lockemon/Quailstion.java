@@ -48,7 +48,7 @@ public class Quailstion extends Pokemon {
                 ),
                 List.of(Label.LOCKEMON),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 36, 56, 0.7, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 36, 56, 0.7, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

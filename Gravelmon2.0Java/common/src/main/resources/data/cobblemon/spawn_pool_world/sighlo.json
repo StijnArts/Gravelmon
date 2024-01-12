@@ -10,7 +10,7 @@
           "foliage"
       ],
       "type": "pokemon",
-      "context": "surface",
+      "context": "grounded",
       "bucket": "common",
       "level": "3-22",
       "weight": 7.0,

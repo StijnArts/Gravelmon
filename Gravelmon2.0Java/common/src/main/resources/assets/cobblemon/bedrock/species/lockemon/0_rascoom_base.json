@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:rascoom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lockemon_rascoom",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lockemon/rascoom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lockemon/rascoom_shiny.png"
+    }  ]
+}

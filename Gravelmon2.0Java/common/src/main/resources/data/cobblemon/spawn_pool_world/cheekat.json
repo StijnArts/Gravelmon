@@ -10,7 +10,7 @@
           "natural"
       ],
       "type": "pokemon",
-      "context": "surface",
+      "context": "grounded",
       "bucket": "common",
       "level": "20-42",
       "weight": 2.0,

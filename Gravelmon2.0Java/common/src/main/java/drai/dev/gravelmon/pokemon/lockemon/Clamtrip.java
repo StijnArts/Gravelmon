@@ -47,7 +47,7 @@ public class Clamtrip extends Pokemon {
                 ),
                 List.of(Label.LOCKEMON),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 12, 27, 4.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 27, 4.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),

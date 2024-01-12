@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:desoray",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lockemon_desoray",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lockemon/desoray.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lockemon/desoray_shiny.png"
+    }  ]
+}

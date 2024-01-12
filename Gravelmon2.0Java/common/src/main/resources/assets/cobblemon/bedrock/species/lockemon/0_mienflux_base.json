@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:mienflux",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lockemon_mienflux",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lockemon/mienflux.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lockemon/mienflux_shiny.png"
+    }  ]
+}

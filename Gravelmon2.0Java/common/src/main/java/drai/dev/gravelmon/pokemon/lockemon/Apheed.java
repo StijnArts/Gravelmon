@@ -44,7 +44,7 @@ public class Apheed extends Pokemon {
                         ),
                 List.of(Label.LOCKEMON),
                 0, List.of(
-                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 7.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 7.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -62,6 +62,8 @@ public class GenerationFour extends Game {
         pokemon.add(new RelicAmbipom(424));
 
         //Kaskadian
+        pokemon.add(new KaskadianBidoof(399));
+        pokemon.add(new KaskadianBibarel(400));
         pokemon.add(new KaskadianShinx(403));
         pokemon.add(new KaskadianLuxio(404));
         pokemon.add(new KaskadianLuxray(405));

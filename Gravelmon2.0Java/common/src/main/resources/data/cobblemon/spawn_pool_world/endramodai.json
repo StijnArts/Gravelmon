@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "endramodai-1",
+      "pokemon": "endramodai",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70-90",
+      "weight": 5.0E-5,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

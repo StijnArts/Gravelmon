@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:probat",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lockemon_probat",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lockemon/probat.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lockemon/probat_shiny.png"
+    }  ]
+}
