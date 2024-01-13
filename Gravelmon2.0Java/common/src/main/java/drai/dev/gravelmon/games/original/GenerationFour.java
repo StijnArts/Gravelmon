@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
@@ -82,6 +83,9 @@ public class GenerationFour extends Game {
         pokemon.add(new TwirlRotom(479));
         pokemon.add(new MixRotom(479));
 
+        //Azure (Mystic)
+        pokemon.add(new MysticRiolu(447));
+        pokemon.add(new MysticLucario(448));
     }
 
     private void addDeltaPokemon() {

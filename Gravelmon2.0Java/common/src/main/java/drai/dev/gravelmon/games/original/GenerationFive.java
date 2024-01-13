@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
@@ -126,6 +127,11 @@ public class GenerationFive extends Game {
         pokemon.add(new KaskadianDuosion(578));
         pokemon.add(new KaskadianReuniclus(579));
         pokemon.add(new KaskadianGolett(622));
+
+        //Azure (Mystic)
+        pokemon.add(new MysticSolosis(577));
+        pokemon.add(new MysticDuosion(578));
+        pokemon.add(new MysticReuniclus(579));
 
     }
 

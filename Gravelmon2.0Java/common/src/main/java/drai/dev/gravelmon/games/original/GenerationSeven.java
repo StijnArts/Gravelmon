@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
@@ -42,6 +43,10 @@ public class GenerationSeven extends Game {
         //Kaskadian
         pokemon.add(new KaskadianPalossand(770));
         pokemon.add(new KaskadianBruxish(779));
+
+        //Azure (Mystic)
+        pokemon.add(new MysticStufful(759));
+        pokemon.add(new MysticBewear(760));
 
     }
 }

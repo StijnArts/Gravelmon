@@ -86,8 +86,7 @@ public class AyreianElectrode extends Pokemon {
                 List.of(Label.VANGUARD, Label.GEN1),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT)),
-                        new SpawnCondition(SpawnConditionType.IS_RAINING, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_BASALT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,

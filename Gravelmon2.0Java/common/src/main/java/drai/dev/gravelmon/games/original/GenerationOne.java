@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
@@ -68,6 +69,9 @@ public class GenerationOne extends Game {
         pokemon.add(new KaskadianJynx(124));
         pokemon.add(new KaskadianLapras(131));
 
+        //Azure (Mystic)
+        pokemon.add(new MysticVoltorb(100));
+        pokemon.add(new MysticElectrode(101));
     }
 
     private void addAyreianPokemon() {

@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
@@ -77,6 +78,19 @@ public class GenerationThree extends Game {
         pokemon.add(new ShadyCastform(351));
         pokemon.add(new LovelyCastform(351));
         pokemon.add(new KaskadianTropius(357));
+
+        //Azure (Mystic)
+        pokemon.add(new MysticTreecko(252));
+        pokemon.add(new MysticGrovyle(253));
+        pokemon.add(new MysticSceptile(254));
+        pokemon.add(new MysticTorchic(255));
+        pokemon.add(new MysticCombusken(256));
+        pokemon.add(new MysticBlaziken(257));
+        pokemon.add(new MysticMudkip(258));
+        pokemon.add(new MysticMarshtomp(259));
+        pokemon.add(new MysticSwampert(260));
+        pokemon.add(new MysticPoochyena(261));
+        pokemon.add(new MysticMightyena(262));
 
     }
 
