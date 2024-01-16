@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cefiranhariyama",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_cefiranhariyama",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/cefiranhariyama.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/cefiranhariyama_shiny.png"
+    }  ]
+}

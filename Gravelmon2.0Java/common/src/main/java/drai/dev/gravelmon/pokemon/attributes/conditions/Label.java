@@ -32,7 +32,7 @@ public enum Label {
     MYTH("myth"),
     LOCKEMON("lockemon"),
     VANGUARD("vanguard"), URANIUM("uranium"),
-    REALIDEA_SYSTEM("realidea_system"), AZURE("azure");
+    REALIDEA_SYSTEM("realidea_system"), AZURE("azure"), OPAL("opal");
     private String name;
     Label(String name){
         this.name = name;

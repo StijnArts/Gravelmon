@@ -8,6 +8,7 @@ import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
@@ -67,6 +68,14 @@ public class GenerationTwo extends Game {
         pokemon.add(new KaskadianAzumarill(184));
         pokemon.add(new AmazeAllSudowoodo(185));
         pokemon.add(new KaskadianYanma(193));
+
+        //Pokemon Opalo
+        pokemon.add(new CefiranTeddiursa(216));
+        pokemon.add(new CefiranUrsaring(217));
+        pokemon.add(new CefiranSlugma(218));
+        pokemon.add(new CefiranMagcargo(219));
+        pokemon.add(new CefiranDelibird(225));
+        pokemon.add(new CefiranSmeargle(235));
 
     }
 

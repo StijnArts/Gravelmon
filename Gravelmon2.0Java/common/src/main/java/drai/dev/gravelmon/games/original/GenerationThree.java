@@ -7,6 +7,7 @@ import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
@@ -91,6 +92,17 @@ public class GenerationThree extends Game {
         pokemon.add(new MysticSwampert(260));
         pokemon.add(new MysticPoochyena(261));
         pokemon.add(new MysticMightyena(262));
+
+        //Pokemon Opalo
+        pokemon.add(new CefiranMakuhita(296));
+        pokemon.add(new CefiranHariyama(297));
+        pokemon.add(new CefiranSableye(302));
+        pokemon.add(new CefiranNumel(322));
+        pokemon.add(new CefiranCamerupt(323));
+        pokemon.add(new CefiranVibrava(329));
+        pokemon.add(new CefiranFlygon(330));
+        pokemon.add(new CefiranSnorunt(361));
+        pokemon.add(new CefiranGlalie(362));
 
     }
 

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:astrem",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:opal_astrem",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/opal/astrem.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/opal/astrem_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:narvalor",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:opal_narvalor",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/opal/narvalor.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/opal/narvalor_shiny.png"
+    }  ]
+}

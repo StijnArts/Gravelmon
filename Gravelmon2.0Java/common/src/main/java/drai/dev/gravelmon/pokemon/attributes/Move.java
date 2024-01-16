@@ -1226,7 +1226,9 @@ public enum Move {
     FILTHY_TERRAIN("filthyterrain", false),
     ECHOLOCATE("echolocate", false),
     WRIGGLE("wriggle", false),
-    THORN_FALL("thornfall", false);
+    THORN_FALL("thornfall", false),
+    FURY_TOTEM("furytotem", false),
+    CARICATURE("caricature", false);
 
     private String name;
     private boolean implemented;

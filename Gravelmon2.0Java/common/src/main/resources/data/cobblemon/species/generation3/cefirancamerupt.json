@@ -1,0 +1,116 @@
+{
+  "implemented": true,
+  "name": "cefirancamerupt",
+  "nationalPokedexNumber": 323,
+  "primaryType": "fire",
+  "secondaryType": "water",
+  "abilities": [
+    "sheerforce",
+    "solidrock",
+    "h:owntempo"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 100,
+    "defence": 70,
+    "special_attack": 40,
+    "special_defence": 105,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 161,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:growl",
+    "1:tackle",
+    "1:ember",
+    "1:magnitude",
+    "5:ember",
+    "8:magnitude",
+    "12:focusenergy",
+    "15:flameburst",
+    "19:amnesia",
+    "22:lavaplume",
+    "26:earthpower",
+    "29:curse",
+    "31:takedown",
+    "33:rockslide",
+    "39:yawn",
+    "46:earthquake",
+    "52:eruption",
+    "59:steameruption",
+    "egg:ancientpower",
+    "egg:bodyslam",
+    "egg:defensecurl",
+    "egg:endure",
+    "egg:heatwave",
+    "egg:howlsound",
+    "egg:ironhead",
+    "egg:mudbomb",
+    "egg:rollout",
+    "egg:scaryface",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:stomp",
+    "egg:swallow",
+    "egg:yawn"  ],
+  "labels": [
+    "gen3",
+    "opal",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefirancamerupt.desc"
+  ],
+  "preEvolution": "cefirannumel",
+  "baseScale": 0.35625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 2200,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

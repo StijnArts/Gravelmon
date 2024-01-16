@@ -8,6 +8,7 @@ import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
@@ -86,6 +87,12 @@ public class GenerationFour extends Game {
         //Azure (Mystic)
         pokemon.add(new MysticRiolu(447));
         pokemon.add(new MysticLucario(448));
+
+        //Pokemon Opalo
+        pokemon.add(new CefiranSnover(459));
+        pokemon.add(new CefiranAbomasnow(460));
+        pokemon.add(new CefiranFroslass(478));
+
     }
 
     private void addDeltaPokemon() {

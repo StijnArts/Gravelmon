@@ -12,6 +12,16 @@
    "requiredContext": "cobblemon:dusk_stone"
   },
   {
+   "id": "eevee_cefireon",
+   "variant": "item_interact",
+   "result": "cefireon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "gravelmon:air_stone"
+  },
+  {
    "id": "eevee_champeon",
    "variant": "level_up",
    "result": "champeon",

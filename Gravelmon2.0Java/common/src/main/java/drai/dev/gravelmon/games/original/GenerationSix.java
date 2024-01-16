@@ -6,6 +6,7 @@ import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
@@ -82,5 +83,7 @@ public class GenerationSix extends Game {
         pokemon.add(new KaskadianTrevenant(709));
         pokemon.add(new KaskadianDiancie(719));
 
+        //Pokemon Opalo
+        pokemon.add(new CefiranKlefki(707));
     }
 }

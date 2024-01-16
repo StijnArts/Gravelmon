@@ -1,4 +1,24 @@
 {"target": "cobblemon:Gothorita",
+ "evolutions": [
+  {
+   "id": "trapinch_CefiranGothitelle",
+   "variant": "level_up",
+   "result": "CefiranGothitelle",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#minecraft:is_nether"
+    },
+    {
+     "variant": "level",
+     "minLevel": 38
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:confusion",
     "1:playnice",

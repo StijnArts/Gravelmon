@@ -9,6 +9,7 @@ import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
@@ -132,6 +133,13 @@ public class GenerationFive extends Game {
         pokemon.add(new MysticSolosis(577));
         pokemon.add(new MysticDuosion(578));
         pokemon.add(new MysticReuniclus(579));
+
+        //Pokemon Opalo
+        pokemon.add(new CefiranPetilil(548));
+        pokemon.add(new CefiranLilligant(549));
+        pokemon.add(new CefiranGothitelle(576));
+        pokemon.add(new CefiranGolett(622));
+        pokemon.add(new CefiranGolurk(623));
 
     }
 

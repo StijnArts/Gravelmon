@@ -24,10 +24,12 @@ public class GameRegistry {
         games.add(new Sage());
         games.add(new Realidea());
         games.add(new Infinity());
+        games.add(new Opal());
         games.add(new Insurgence());
         games.add(new Xenoverse());
         games.add(new Uranium());
         games.add(new Flux());
+        games.add(new EternalForest());
         games.add(new Lockemon());
         games.add(new BlazingEmerald());
         games.add(new Daybreak());

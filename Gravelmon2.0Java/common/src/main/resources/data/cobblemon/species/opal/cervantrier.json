@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "name": "cervantrier",
+  "nationalPokedexNumber": 1342,
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "abilities": [
+    "overgrow",
+    "h:reckless"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 115,
+    "defence": 70,
+    "special_attack": 90,
+    "special_defence": 80,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 234,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "5:vinewhip",
+    "8:rollout",
+    "11:doublekick",
+    "15:leechseed",
+    "18:razorleaf",
+    "23:stomp",
+    "26:synthesis",
+    "29:leafblade",
+    "34:mudshot",
+    "38:bulkup",
+    "42:playrough",
+    "46:ironhead",
+    "50:swordsdance",
+    "56:sacredsword",
+    "64:wildcharge",
+    "70:woodhammer",
+    "egg:poisonjab",
+    "egg:curse",
+    "egg:defensecurl",
+    "egg:quickguard",
+    "egg:rollout",
+    "egg:megahorn",
+    "egg:synthesis"  ],
+  "labels": [
+    "opal",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cervantrier.desc"
+  ],
+  "preEvolution": "fungorse",
+  "baseScale": 0.3375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 1590,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

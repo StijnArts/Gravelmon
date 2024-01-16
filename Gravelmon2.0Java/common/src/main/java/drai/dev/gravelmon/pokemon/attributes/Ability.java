@@ -479,7 +479,9 @@ public enum Ability {
     NEUTRALIZE("neutralize", false),
     SOUL_PASSAGE("soulpassage", false),
     TRANSCENDENCE("transcendence", false),
-    EXPIATION("expiation", false);
+    EXPIATION("expiation", false),
+    ASTONISHMENT("astonishment", false),
+    INFLAMABLE("inflamable", false), STEALTH_WINGED("stealthwinged", false);
 
     private String name;
     private Boolean implemented;

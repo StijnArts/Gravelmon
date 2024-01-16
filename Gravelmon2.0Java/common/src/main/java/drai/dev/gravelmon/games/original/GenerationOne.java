@@ -9,6 +9,7 @@ import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
@@ -72,6 +73,17 @@ public class GenerationOne extends Game {
         //Azure (Mystic)
         pokemon.add(new MysticVoltorb(100));
         pokemon.add(new MysticElectrode(101));
+
+        //Pokemon Opalo
+        pokemon.add(new CefiranVenomoth(49));
+        pokemon.add(new CefiranDiglett(50));
+        pokemon.add(new CefiranDugtrio(51));
+        pokemon.add(new CefiranMeowthFire(52));
+        pokemon.add(new CefiranPersianFire(53));
+        pokemon.add(new CefiranMeowthIce(52));
+        pokemon.add(new CefiranPersianIce(53));
+        pokemon.add(new CefiranMeowthElectric(52));
+        pokemon.add(new CefiranPersianElectric(53));
     }
 
     private void addAyreianPokemon() {
