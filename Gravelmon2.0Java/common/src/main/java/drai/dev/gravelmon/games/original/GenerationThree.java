@@ -81,6 +81,7 @@ public class GenerationThree extends Game {
         pokemon.add(new KaskadianTropius(357));
 
         //Azure (Mystic)
+        //TODO STARTER SET
         pokemon.add(new MysticTreecko(252));
         pokemon.add(new MysticGrovyle(253));
         pokemon.add(new MysticSceptile(254));

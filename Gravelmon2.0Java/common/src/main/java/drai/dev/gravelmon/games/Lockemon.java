@@ -8,6 +8,7 @@ public class Lockemon extends Game {
 
     @Override
     public void registerPokemon() {
+        //TODO STARTER SET
         pokemon.add(new Llampas());
         pokemon.add(new Danfluff());
         pokemon.add(new Alfalphalops());

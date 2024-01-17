@@ -12,6 +12,7 @@ public class Sage extends Game {
 
     @Override
     public void registerPokemon() {
+        //TODO STARTER SET
         //Foliat Line
         pokemon.add(new Foliat());
         pokemon.add(new Florabri());

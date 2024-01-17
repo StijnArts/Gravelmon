@@ -10,6 +10,7 @@ public class Realidea extends Game {
 
     @Override
     public void registerPokemon() {
+        //TODO STARTER SET
         pokemon.add(new Meadew());
         pokemon.add(new Ninfae());
         pokemon.add(new Faeuna());

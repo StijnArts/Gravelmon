@@ -1,0 +1,169 @@
+{
+  "implemented": true,
+  "name": "antager",
+  "nationalPokedexNumber": 1663,
+  "primaryType": "bug",
+  "secondaryType": "fighting",
+  "abilities": [
+    "defeatist",
+    "defeatist",
+    "h:defeatist"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 90,
+    "defence": 60,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:pound",
+    "1:leer",
+    "6:leechlife",
+    "12:minimize",
+    "17:armthrust",
+    "23:focusenergy",
+    "28:lowkick",
+    "34:bugbite",
+    "39:poisonfang",
+    "44:workup",
+    "48:bite",
+    "52:submission",
+    "56:uturn",
+    "60:hyperfang",
+    "68:irondefense",
+    "72:thunderfang",
+    "72:icefang",
+    "76:superfang",
+    "80:crosschop",
+    "84:quickguard",
+    "88:ironhead",
+    "92:crunch",
+    "96:bulkup",
+    "105:superpower",
+    "110:guillotine",
+    "tutor:strength",
+    "tutor:roarsound",
+    "tutor:toxic",
+    "tutor:bulkup",
+    "tutor:hiddenpower",
+    "tutor:hyperbeam",
+    "tutor:lightscreen",
+    "tutor:protect",
+    "tutor:safeguard",
+    "tutor:frustration",
+    "tutor:return",
+    "tutor:dig",
+    "tutor:brickbreak",
+    "tutor:doubleteam",
+    "tutor:reflect",
+    "tutor:rocktomb",
+    "tutor:facade",
+    "tutor:secretpower",
+    "tutor:rest",
+    "tutor:attract",
+    "tutor:thief",
+    "tutor:fling",
+    "tutor:endure",
+    "tutor:payback",
+    "tutor:psychup",
+    "tutor:xscissor",
+    "tutor:sleeptalksound",
+    "tutor:naturalgift",
+    "tutor:poisonjab",
+    "tutor:swagger",
+    "tutor:uturn",
+    "tutor:substitute",
+    "tutor:lowsweep",
+    "tutor:roundsound",
+    "tutor:echoedvoicesound",
+    "tutor:retaliate",
+    "tutor:strugglebug",
+    "tutor:workup",
+    "tutor:rocksmash",
+    "egg:beatup",
+    "egg:reversal",
+    "egg:endeavor",
+    "egg:rage",
+    "egg:infestation",
+    "egg:stoneedge",
+    "egg:thrash",
+    "egg:knockoff",
+    "egg:entrainment",
+    "egg:drillrun"  ],
+  "labels": [
+    "eternal_forest",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.antager.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "antager_antoldier",
+      "variant": "level_up",
+      "result": "antoldier",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 24,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

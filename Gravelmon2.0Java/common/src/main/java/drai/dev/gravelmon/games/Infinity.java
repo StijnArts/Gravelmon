@@ -13,7 +13,7 @@ public class Infinity extends Game {
         //Lukpup line
         pokemon.add(new Lukpup());
         pokemon.add(new Lukagon());
-
+//TODO STARTER SET
         //Kokiseed line
         pokemon.add(new Kokiseed());
         pokemon.add(new Kokipound());

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wormeel-1",
+      "pokemon": "wormeel",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "32-44",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": false
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_snowy" ]    }
+    }
+  ]
+}

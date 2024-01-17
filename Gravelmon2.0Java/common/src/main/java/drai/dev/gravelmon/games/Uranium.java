@@ -8,6 +8,7 @@ public class Uranium extends Game {
     public Uranium() { super("Uranium"); }
     @Override
     public void registerPokemon() {
+        //TODO STARTER SET
         pokemon.add(new Orchynx());
         pokemon.add(new Metalynx());
         pokemon.add(new Raptorch());

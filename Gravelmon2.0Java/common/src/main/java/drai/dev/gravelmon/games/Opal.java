@@ -10,6 +10,7 @@ public class Opal extends Game {
 
     @Override
     public void registerPokemon() {
+        //TODO STARTER SET
         pokemon.add(new Snampery());
         pokemon.add(new Descargot());
         pokemon.add(new Gastesla());
@@ -20,6 +21,7 @@ public class Opal extends Game {
         pokemon.add(new Norspear());
         pokemon.add(new Narvalor());
         pokemon.add(new Cefireon());
+        //TODO STARTER SET
         pokemon.add(new Polekin());
         pokemon.add(new Fungorse());
         pokemon.add(new Cervantrier());

@@ -481,7 +481,9 @@ public enum Ability {
     TRANSCENDENCE("transcendence", false),
     EXPIATION("expiation", false),
     ASTONISHMENT("astonishment", false),
-    INFLAMABLE("inflamable", false), STEALTH_WINGED("stealthwinged", false);
+    INFLAMABLE("inflamable", false),
+    STEALTH_WINGED("stealthwinged", false),
+    STRENGTHENING("strengthening", false);
 
     private String name;
     private Boolean implemented;

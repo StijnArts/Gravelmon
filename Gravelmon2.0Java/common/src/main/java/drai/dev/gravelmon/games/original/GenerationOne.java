@@ -87,6 +87,7 @@ public class GenerationOne extends Game {
     }
 
     private void addAyreianPokemon() {
+        //TODO STARTER SET
         pokemon.add(new AyreianBulbasaur(1));
         pokemon.add(new AyreianIvysaur(2));
         pokemon.add(new AyreianVenusaur(3));
@@ -157,6 +158,7 @@ public class GenerationOne extends Game {
     }
 
     private void addDeltaPokemon() {
+        //TODO STARTER SET
         pokemon.add(new DeltaBulbasaur(1));
         pokemon.add(new DeltaIvysaur(2));
         pokemon.add(new DeltaVenusaur(3));
@@ -200,6 +202,7 @@ public class GenerationOne extends Game {
     }
 
     private void addEghoPokemon() {
+        //TODO STARTER SET
         pokemon.add(new EghoBulbasaur(1));
         pokemon.add(new EghoIvysaur(2));
         pokemon.add(new EghoVenusaur(3));

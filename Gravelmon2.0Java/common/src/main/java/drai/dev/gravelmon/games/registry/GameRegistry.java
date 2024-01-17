@@ -3,7 +3,6 @@ package drai.dev.gravelmon.games.registry;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.games.original.*;
-import drai.dev.gravelmon.pokemon.*;
 
 import java.util.*;
 
@@ -31,6 +30,7 @@ public class GameRegistry {
         games.add(new Flux());
         games.add(new EternalForest());
         games.add(new Lockemon());
+        games.add(new Umbra());
         games.add(new BlazingEmerald());
         games.add(new Daybreak());
         games.add(new Vanguard());
