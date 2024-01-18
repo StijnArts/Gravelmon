@@ -7,7 +7,7 @@
       "id": "magroplex-1",
       "pokemon": "magroplex",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

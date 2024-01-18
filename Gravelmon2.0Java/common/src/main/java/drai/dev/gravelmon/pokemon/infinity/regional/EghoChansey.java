@@ -117,7 +117,7 @@ public class EghoChansey extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Chansey");

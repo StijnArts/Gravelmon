@@ -24,8 +24,7 @@ public class Dramsama extends Pokemon {
                 70,
                 100, List.of(EggGroup.AMORPHOUS),
                 List.of("A sinister and vengeful Mon, it puts its foes into an eternal sleep and steals their souls to add to its tail."),
-                List.of(new EvolutionEntry("dramsama", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPNOSIS,1),
                         new MoveLearnSetEntry(Move.NIGHTMARE,1),

@@ -76,9 +76,9 @@
   ],
   "evolutions": [
     {
-      "id": "gunafix_fixnit",
+      "id": "gunafix_Fixinit",
       "variant": "level_up",
-      "result": "fixnit",
+      "result": "Fixinit",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

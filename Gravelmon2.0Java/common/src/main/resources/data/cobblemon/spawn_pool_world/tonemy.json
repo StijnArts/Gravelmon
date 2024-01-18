@@ -7,7 +7,7 @@
       "id": "tonemy-1",
       "pokemon": "tonemy",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

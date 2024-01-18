@@ -101,7 +101,7 @@ public class Barand extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
         this.setPortraitXYZ(0,1.8,0);

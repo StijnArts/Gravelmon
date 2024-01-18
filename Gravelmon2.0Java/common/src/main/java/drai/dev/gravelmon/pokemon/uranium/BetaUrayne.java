@@ -109,7 +109,7 @@ public class BetaUrayne extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
                         new SpawnCondition(SpawnConditionType.MAXY, "30")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
         this.setPortraitXYZ(0,1.8,0);

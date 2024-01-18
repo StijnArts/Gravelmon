@@ -7,7 +7,7 @@
       "id": "wormini-1",
       "pokemon": "wormini",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

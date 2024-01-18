@@ -24,7 +24,7 @@ public class Hoofern extends Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.FIELD),
                 List.of("The main body has grown its own legs, and the roots have receded. Hoofern can move freely."),
-                List.of(new EvolutionEntry("asperies", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Asparies", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

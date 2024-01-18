@@ -19,8 +19,7 @@ public class MysticSwampert extends Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1, EggGroup.MONSTER),
                 List.of(""),
-                List.of(new EvolutionEntry("mysticswampert", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

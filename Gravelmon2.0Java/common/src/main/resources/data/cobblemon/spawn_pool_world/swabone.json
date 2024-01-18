@@ -7,7 +7,7 @@
       "id": "swabone-1",
       "pokemon": "swabone",
       "presets": [
-          "near_ship_wreck"
+          "ship_wreck"
       ],
       "type": "pokemon",
       "context": "surface",

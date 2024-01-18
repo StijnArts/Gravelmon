@@ -118,7 +118,7 @@ public class DeltaTorchic extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 8.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT))
                 ), List.of(),
-                List.of(SpawnPreset.DESERT_TEMPLE),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Torchic");

@@ -129,7 +129,7 @@ public class DeltaCombusken extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 32, 8.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT))
                 ), List.of(),
-                List.of(SpawnPreset.DESERT_TEMPLE),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Combusken");

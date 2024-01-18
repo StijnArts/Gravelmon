@@ -914,7 +914,7 @@ public class Masgot extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.UNDERGROUND),
+                        List.of(SpawnPreset.NATURAL),
                         0.3, 0.3
                 ),new PokemonForm(
                         "Water", false,

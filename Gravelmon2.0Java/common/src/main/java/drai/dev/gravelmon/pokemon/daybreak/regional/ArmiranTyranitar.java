@@ -121,7 +121,7 @@ public class ArmiranTyranitar extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Tyranitar");

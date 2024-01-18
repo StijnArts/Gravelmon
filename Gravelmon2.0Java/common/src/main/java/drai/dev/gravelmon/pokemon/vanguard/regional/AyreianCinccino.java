@@ -109,7 +109,7 @@ public class AyreianCinccino extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Cinccino");

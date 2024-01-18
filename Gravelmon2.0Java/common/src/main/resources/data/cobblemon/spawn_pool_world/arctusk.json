@@ -7,7 +7,7 @@
       "id": "arctusk-1",
       "pokemon": "arctusk",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

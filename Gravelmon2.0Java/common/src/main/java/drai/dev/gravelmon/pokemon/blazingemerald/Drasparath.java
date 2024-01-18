@@ -74,7 +74,7 @@ public class Drasparath extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "false"),
                         new SpawnCondition(SpawnConditionType.MAXY, "0")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

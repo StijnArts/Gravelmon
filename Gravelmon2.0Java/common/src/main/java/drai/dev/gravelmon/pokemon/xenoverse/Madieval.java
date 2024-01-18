@@ -79,7 +79,7 @@ public class Madieval extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

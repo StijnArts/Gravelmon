@@ -7,7 +7,7 @@
       "id": "webbat-1",
       "pokemon": "webbat",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

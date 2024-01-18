@@ -7,7 +7,7 @@
       "id": "deltapikachu-1",
       "pokemon": "deltapikachu",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -119,9 +119,9 @@
   ],
   "evolutions": [
     {
-      "id": "cutesnoot_caotisnotti",
+      "id": "cutesnoot_Coatisnotti",
       "variant": "level_up",
-      "result": "caotisnotti",
+      "result": "Coatisnotti",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

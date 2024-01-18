@@ -7,7 +7,7 @@
       "id": "barand-1",
       "pokemon": "barand",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

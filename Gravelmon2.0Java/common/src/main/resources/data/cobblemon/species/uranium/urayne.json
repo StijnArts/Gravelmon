@@ -132,9 +132,9 @@
   ],
   "evolutions": [
     {
-      "id": "urayne_uraynebeta",
+      "id": "urayne_BetaUrayne",
       "variant": "item_interact",
-      "result": "uraynebeta",
+      "result": "BetaUrayne",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

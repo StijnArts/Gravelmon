@@ -1,4 +1,4 @@
-// 1.20.1	2024-01-18T13:22:09.1964591	Gravelmon/Model Definitions
+// 1.20.1	2024-01-18T13:59:07.3630565	Gravelmon/Model Definitions
 8a58a4786186f46fa85fd8af9dacd3ac2ff149d1 assets\gravelmon\models\item\spare_parts.json
 82682822322760bdeb84e6d4bb8663aaa7b6822c assets\gravelmon\models\item\mystic_stone.json
 3d1c5cd9d004b8afd47d6b9978ea93c5e5a167d2 assets\gravelmon\models\item\quantum_upgrade.json
@@ -18,13 +18,13 @@ d959203f8f1b801e9ad46146402aa421b2218a69 assets\gravelmon\models\item\electrix.j
 2a98df43225333eca81c9e0cdd603c8ebd95cbf3 assets\gravelmon\models\item\solid_stone_ore.json
 98ea6649a52037713af45f8fbfcdfe55f912dc09 assets\gravelmon\models\item\deepslate_air_stone_ore.json
 d70f1e82b25e013ffdfc8e791c43a7c96bfbe864 assets\gravelmon\models\item\deepslate_mystic_stone_ore.json
-d3db9321e4eee61a16ea95491ba92e2a64a03913 assets\gravelmon\models\item\horn_fossil.json
 25c611138062e263556a73422a437793f365554a assets\gravelmon\models\item\air_stone.json
+d3db9321e4eee61a16ea95491ba92e2a64a03913 assets\gravelmon\models\item\horn_fossil.json
 0d8a17123c2549e6ea9d3719636056c749743776 assets\gravelmon\models\item\ancient_glyph.json
 d98bd702ebcbe832eeabf71515d45cb52b9847a1 assets\gravelmon\models\item\pathix.json
-3d6dfcaa3788d8cd0a31d877875a735291f4d7d9 assets\gravelmon\models\item\mystic_stone_ore.json
 f9f0c9266a17816f33e470d291324762ce0e613f assets\gravelmon\models\item\silver_scale.json
 c08a9b5edec2d15c9990eb15680ac8923a15d531 assets\gravelmon\models\item\inductive_ring.json
+3d6dfcaa3788d8cd0a31d877875a735291f4d7d9 assets\gravelmon\models\item\mystic_stone_ore.json
 121126c19db188406c9e6cfff68e8a418c1a4104 assets\gravelmon\models\item\deepslate_solid_stone_ore.json
 3f9f33b2db4ea1d6482e83050ded42c9510374bf assets\gravelmon\models\item\verdix.json
 5b4aa1340708236fae860aca855377a049c98bb8 assets\gravelmon\blockstates\deepslate_mystic_stone_ore.json

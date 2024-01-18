@@ -112,9 +112,9 @@
   "preEvolution": "oviseed",
   "evolutions": [
     {
-      "id": "hoofern_asperies",
+      "id": "hoofern_Asparies",
       "variant": "level_up",
-      "result": "asperies",
+      "result": "Asparies",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

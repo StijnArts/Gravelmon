@@ -141,9 +141,9 @@
   ],
   "evolutions": [
     {
-      "id": "sheebit_terrabit",
+      "id": "sheebit_Terrabbit",
       "variant": "level_up",
-      "result": "terrabit",
+      "result": "Terrabbit",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

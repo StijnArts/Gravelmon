@@ -134,11 +134,14 @@
     "egg:uproar"  ],
   "labels": [
     "uranium",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.terrabbit.desc"
   ],
+  "preEvolution": "sheebit",
   "evolutions": [
     {
       "id": "terrabbit_laissure",

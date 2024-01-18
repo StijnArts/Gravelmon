@@ -24,7 +24,7 @@ public class Spoutlaw extends Pokemon {
                 70,
                 50, List.of(EggGroup.BUG, EggGroup.WATER_3),
                 List.of("When in battle, Spoutlaw will motionlessly stare down their opponent, hands hovering over the water pouches on their hips. At the slightest noise, Spoutlaw will lash out and shoot water from its pouches at blinding speeds."),
-                List.of(new EvolutionEntry("vaquameal", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Vaquamael", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.INFESTATION,1),

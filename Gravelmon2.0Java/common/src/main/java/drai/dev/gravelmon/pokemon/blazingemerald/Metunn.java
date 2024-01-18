@@ -30,7 +30,7 @@ public class Metunn extends Pokemon {
                 SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 70, 100, 0.0001, List.of(
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.19, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

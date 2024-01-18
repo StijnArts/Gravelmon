@@ -24,8 +24,8 @@ public class Timiphid extends Pokemon {
                 70,
                 50, List.of(EggGroup.BUG, EggGroup.WATER_1),
                 List.of("Be careful when approaching Skittail. While they are quite timid, they may caller for help from something bigger."),
-                List.of(new EvolutionEntry("timiphid", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
+                List.of(new EvolutionEntry("chromite", EvolutionType.TRADE, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,6),

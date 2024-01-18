@@ -95,7 +95,7 @@ public class Xotec extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.18, 0.5,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

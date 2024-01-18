@@ -132,7 +132,7 @@ public class DeltaPikachu extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.17, 0.3,
                 List.of());
         this.setLangFileName("Pikachu");

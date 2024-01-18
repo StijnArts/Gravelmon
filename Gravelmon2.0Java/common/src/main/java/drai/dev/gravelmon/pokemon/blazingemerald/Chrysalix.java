@@ -68,7 +68,7 @@ public class Chrysalix extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(new BiomeSpawnCondition(List.of())),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

@@ -79,9 +79,9 @@
   "preEvolution": "burbwhirl",
   "evolutions": [
     {
-      "id": "spoutlaw_vaquameal",
+      "id": "spoutlaw_Vaquamael",
       "variant": "level_up",
-      "result": "vaquameal",
+      "result": "Vaquamael",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

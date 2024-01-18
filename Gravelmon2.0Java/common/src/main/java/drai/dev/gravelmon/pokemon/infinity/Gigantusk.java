@@ -104,7 +104,7 @@ public class Gigantusk extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.42, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

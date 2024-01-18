@@ -116,7 +116,7 @@ public class Navighast extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS))),
-                List.of(SpawnPreset.NEAR_SHIP_WRECK),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.21, 0.3,
                 List.of());
         this.setPortraitXYZ(0,1.8,0);

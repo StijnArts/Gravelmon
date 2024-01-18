@@ -7,7 +7,7 @@
       "id": "doodloo-1",
       "pokemon": "doodloo",
       "presets": [
-          "ruined_structures"
+          "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

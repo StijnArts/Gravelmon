@@ -51,7 +51,7 @@ public class Mercryni extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
                         new SpawnCondition(SpawnConditionType.MAXY,"20")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
     }

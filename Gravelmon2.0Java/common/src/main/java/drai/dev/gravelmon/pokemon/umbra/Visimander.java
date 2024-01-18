@@ -97,7 +97,7 @@ public class Visimander extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_LUSH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,
                 List.of());
         setCanFly(true);

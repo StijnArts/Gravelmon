@@ -7,7 +7,7 @@
       "id": "indrolith-1",
       "pokemon": "indrolith",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

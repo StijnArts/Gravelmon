@@ -7,7 +7,7 @@
       "id": "meraculisk-1",
       "pokemon": "meraculisk",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

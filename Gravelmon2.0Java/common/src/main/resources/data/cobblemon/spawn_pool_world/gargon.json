@@ -7,7 +7,7 @@
       "id": "gargon-1",
       "pokemon": "gargon",
       "presets": [
-          "ruined_structures"
+          "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

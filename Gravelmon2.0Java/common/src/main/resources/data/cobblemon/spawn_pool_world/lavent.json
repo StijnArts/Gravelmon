@@ -7,7 +7,7 @@
       "id": "lavent-1",
       "pokemon": "lavent",
       "presets": [
-          "near_magma"
+          "stronghold"
       ],
       "type": "pokemon",
       "context": "submerged",

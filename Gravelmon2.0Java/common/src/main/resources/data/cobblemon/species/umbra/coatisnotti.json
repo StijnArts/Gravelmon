@@ -116,11 +116,14 @@
     "tutor:hypervoicesound"  ],
   "labels": [
     "umbra",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.coatisnotti.desc"
   ],
+  "preEvolution": "cutesnoot",
   "baseScale": 0.1875,
   "hitbox": {
     "width": 3.0,

@@ -7,7 +7,7 @@
       "id": "durtwurm-1",
       "pokemon": "durtwurm",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

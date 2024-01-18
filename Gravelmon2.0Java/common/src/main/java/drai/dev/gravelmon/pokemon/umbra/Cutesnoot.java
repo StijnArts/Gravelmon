@@ -24,7 +24,7 @@ public class Cutesnoot extends Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Cutesnoot love food, and often cause mischief while seeking for it. The easiest way to befriend a Cutesnoot is by leaving out an offering of food."),
-                List.of(new EvolutionEntry("caotisnotti", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Coatisnotti", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),

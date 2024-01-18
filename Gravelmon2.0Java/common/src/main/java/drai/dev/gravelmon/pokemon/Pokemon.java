@@ -79,7 +79,7 @@ public class Pokemon {
         this(name, primaryType, secondaryType, new Stats(10,10,10,10,10,10),List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 10,10,new Stats(0,0,0,0,0,0),255, 0.5, 50, ExperienceGroup.MEDIUM_FAST, 70, 30, List.of(EggGroup.UNDISCOVERED),
                 List.of(""), evolutions, List.of(new MoveLearnSetEntry(Move.TACKLE,1), new MoveLearnSetEntry(Move.GROWL, 1)),labels, 0, List.of(),SpawnContext.GROUNDED,
-                SpawnPool.COMMON, 1,1,0,List.of(), List.of(),List.of(SpawnPreset.RUINED_STRUCTURES),0.4,0.4,List.of());
+                SpawnPool.COMMON, 1,1,0,List.of(), List.of(),List.of(SpawnPreset.ANCIENT_CITY),0.4,0.4,List.of());
         this.setSecondaryType(secondaryType);
     }
 
@@ -87,7 +87,7 @@ public class Pokemon {
         this(dexNo, name, primaryType, secondaryType, new Stats(10,10,10,10,10,10),List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 10,10,new Stats(0,0,0,0,0,0),255, 0.5, 50, ExperienceGroup.MEDIUM_FAST, 70, 30, List.of(EggGroup.UNDISCOVERED),
                 List.of(""), evolutions, List.of(new MoveLearnSetEntry(Move.TACKLE,1), new MoveLearnSetEntry(Move.GROWL, 1)),labels, 0, List.of(),SpawnContext.GROUNDED,
-                SpawnPool.COMMON, 1,1,0,List.of(), List.of(),List.of(SpawnPreset.RUINED_STRUCTURES),0.4,0.4,List.of());
+                SpawnPool.COMMON, 1,1,0,List.of(), List.of(),List.of(SpawnPreset.ANCIENT_CITY),0.4,0.4,List.of());
         this.setSecondaryType(secondaryType);
     }
 

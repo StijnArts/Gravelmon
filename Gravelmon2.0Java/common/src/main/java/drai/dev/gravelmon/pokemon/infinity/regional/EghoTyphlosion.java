@@ -120,7 +120,7 @@ public class EghoTyphlosion extends Pokemon {
                         new SpawnCondition(SpawnConditionType.IS_THUNDERING, "true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.32, 0.3,
                 List.of());
         this.setLangFileName("Typhlosion");

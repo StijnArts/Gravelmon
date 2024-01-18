@@ -7,7 +7,7 @@
       "id": "dunmyth-1",
       "pokemon": "dunmyth",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

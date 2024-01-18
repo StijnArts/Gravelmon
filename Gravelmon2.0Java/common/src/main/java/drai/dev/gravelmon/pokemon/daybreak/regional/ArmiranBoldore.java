@@ -93,7 +93,7 @@ public class ArmiranBoldore extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Boldore");

@@ -119,7 +119,7 @@ public class DeltaRiolu extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.DESERT_TEMPLE),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Riolu");

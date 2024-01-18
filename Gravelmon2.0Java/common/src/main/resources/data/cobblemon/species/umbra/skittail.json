@@ -93,15 +93,15 @@
   ],
   "evolutions": [
     {
-      "id": "skittail_chromite",
-      "variant": "trade",
-      "result": "chromite",
+      "id": "skittail_timiphid",
+      "variant": "level_up",
+      "result": "timiphid",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
         {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:metal_coat"
+          "variant": "level",
+          "minLevel": 19
         }
       ]   
  }

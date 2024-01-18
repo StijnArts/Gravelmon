@@ -9,7 +9,7 @@
       "presets": [
           "near_lava",
           "near_water",
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

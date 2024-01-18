@@ -69,11 +69,14 @@
     "egg:stockpile"  ],
   "labels": [
     "lockemon",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.vaquamael.desc"
   ],
+  "preEvolution": "spoutlaw",
   "baseScale": 0.35625,
   "hitbox": {
     "width": 3.0,

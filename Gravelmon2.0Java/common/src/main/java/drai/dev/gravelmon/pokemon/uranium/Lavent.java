@@ -98,7 +98,7 @@ public class Lavent extends Pokemon {
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 33, 57, 5.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NEAR_MAGMA),
+                List.of(SpawnPreset.STRONGHOLD),
                 0.21, 0.3,
                 List.of());
         this.setPortraitXYZ(0,1.8,0);

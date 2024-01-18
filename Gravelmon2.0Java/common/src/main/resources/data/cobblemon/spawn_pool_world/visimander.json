@@ -7,7 +7,7 @@
       "id": "visimander-1",
       "pokemon": "visimander",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "submerged",

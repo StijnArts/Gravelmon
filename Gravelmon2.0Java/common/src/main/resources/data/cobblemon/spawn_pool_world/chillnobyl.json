@@ -7,7 +7,7 @@
       "id": "chillnobyl-1",
       "pokemon": "chillnobyl",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

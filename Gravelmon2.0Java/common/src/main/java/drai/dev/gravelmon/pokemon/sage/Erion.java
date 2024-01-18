@@ -88,7 +88,7 @@ public class Erion extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 1.4, 0.5,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

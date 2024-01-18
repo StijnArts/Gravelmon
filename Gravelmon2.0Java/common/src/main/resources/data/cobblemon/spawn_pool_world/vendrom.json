@@ -7,7 +7,7 @@
       "id": "vendrom-1",
       "pokemon": "vendrom",
       "presets": [
-          "near_magma",
+          "stronghold",
           "underwater"
       ],
       "type": "pokemon",

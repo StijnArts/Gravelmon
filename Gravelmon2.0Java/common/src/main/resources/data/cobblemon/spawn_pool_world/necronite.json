@@ -7,7 +7,7 @@
       "id": "necronite-1",
       "pokemon": "necronite",
       "presets": [
-          "ruined_structures"
+          "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -24,7 +24,7 @@ public class Gunafix extends Pokemon {
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE, EggGroup.MONSTER),
                 List.of("In the wild, it picks apart rocks deep underground to feed on rare ores. It has adapted to urban environments by taking refuge in factories."),
-                List.of(new EvolutionEntry("fixnit", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Fixinit", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -54,7 +54,7 @@ public class Gunafix extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
                         new SpawnCondition(SpawnConditionType.MAXY,"20")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
     }

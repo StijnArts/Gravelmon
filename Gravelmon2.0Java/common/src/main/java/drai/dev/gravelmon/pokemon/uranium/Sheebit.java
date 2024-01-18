@@ -24,7 +24,7 @@ public class Sheebit extends Pokemon {
                 70,
                 100, List.of(EggGroup.FIELD),
                 List.of("These Mon live in packs in mountainous regions. They will often headbutt each other to improve their strength."),
-                List.of(new EvolutionEntry("terrabit", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Terrabbit", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

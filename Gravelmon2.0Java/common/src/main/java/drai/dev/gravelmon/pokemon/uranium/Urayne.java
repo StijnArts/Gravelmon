@@ -24,7 +24,7 @@ public class Urayne extends Pokemon {
                     70,
                     100, List.of(EggGroup.UNDISCOVERED),
                     List.of("An artificial Mon created to be a source of unlimited energy. The more radioactive fuel it consumes, the greater its power becomes. At max potential, it can split atoms."),
-                    List.of(new EvolutionEntry("uraynebeta", EvolutionType.ITEM_INTERACT, false, List.of(),
+                    List.of(new EvolutionEntry("BetaUrayne", EvolutionType.ITEM_INTERACT, false, List.of(),
                             List.of(),List.of(),"gravelmon:uranium_core")),
                     List.of(
                             new MoveLearnSetEntry(Move.MEGA_PUNCH,1),
@@ -109,7 +109,7 @@ public class Urayne extends Pokemon {
                             new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
                             new SpawnCondition(SpawnConditionType.MAXY, "30")
                     ), List.of(),
-                    List.of(SpawnPreset.UNDERGROUND),
+                    List.of(SpawnPreset.NATURAL),
                     0.21, 0.3,
                     List.of());
             this.setPortraitXYZ(0,1.8,0);
