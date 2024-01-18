@@ -1254,7 +1254,17 @@ public enum Move {
     SOULABSORB("soulabsorb", false),
     SHADOWPLAY("shadowplay", false),
     SPECTRALSHOCK("spectralshock", false),
-    ICYSPIKES("icyspikes", false), PSYCHICBLADE("psychicblade", false), DARKNESSBLADE("darknessblade", false), METEORSHOWER("meteorshower", false);
+    ICYSPIKES("icyspikes", false),
+    PSYCHICBLADE("psychicblade", false),
+    DARKNESSBLADE("darknessblade", false),
+    METEORSHOWER("meteorshower", false),
+    PSYCHIC_PLEDGE("psychicpledge", false),
+    HEADACHE("headache", false),
+    MESMERIZE("mesmerize", false),
+    FIGHTING_PLEDGE("fightingpledge", false),
+    DARK_PLEDGE("darkpledge", false),
+    NIBBLE("nibble", false),
+    TRANSPIRATION("transpiration", false);
 
     private String name;
     private boolean implemented;

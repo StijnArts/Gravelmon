@@ -1,0 +1,168 @@
+{
+  "implemented": true,
+  "name": "mangetsu",
+  "nationalPokedexNumber": 1783,
+  "primaryType": "dark",
+  "secondaryType": "ice",
+  "abilities": [
+    "guts",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 120,
+    "defence": 72,
+    "special_attack": 78,
+    "special_defence": 73,
+    "speed": 117
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:snarl",
+    "1:frostbreath",
+    "1:honeclaws",
+    "1:tackle",
+    "5:tailwhip",
+    "7:howlsound",
+    "9:pursuit",
+    "10:taunt",
+    "13:quickattack",
+    "16:odorsleuth",
+    "19:bite",
+    "23:icywind",
+    "27:lick",
+    "32:icefang",
+    "38:takedown",
+    "44:iceshard",
+    "49:crunch",
+    "55:torment",
+    "61:hammerarm",
+    "66:blizzard",
+    "72:iciclecrash",
+    "tm:workup",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:frustration",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:fling",
+    "tm:brutalswing",
+    "tm:quash",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:swordsdance",
+    "tm:dig",
+    "tm:psychup",
+    "tm:frostbreath",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:rocksmash",
+    "tm:snarl",
+    "tm:darkpulse",
+    "tm:confide",
+    "tm:cut",
+    "tm:strength",
+    "tutor:snoresound",
+    "tutor:uproar",
+    "tutor:helpinghand",
+    "tutor:lastresort",
+    "tutor:covet",
+    "tutor:snatch",
+    "tutor:irontail",
+    "tutor:aquatail",
+    "tutor:thunderpunch",
+    "tutor:endeavor",
+    "tutor:focuspunch",
+    "tutor:icywind",
+    "tutor:laserfocus",
+    "tutor:icepunch",
+    "tutor:foulplay",
+    "tutor:superfang",
+    "tutor:throatchop",
+    "tutor:drainpunch",
+    "tutor:hypervoicesound",
+    "tutor:superpower",
+    "tutor:knockoff"  ],
+  "labels": [
+    "umbra",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.mangetsu.desc"
+  ],
+  "preEvolution": "kousetsu",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 20,
+  "weight": 831,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

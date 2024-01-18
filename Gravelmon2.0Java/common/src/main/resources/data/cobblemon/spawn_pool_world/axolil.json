@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "axolil-1",
+      "pokemon": "axolil",
+      "presets": [
+          "underground"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "2-17",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

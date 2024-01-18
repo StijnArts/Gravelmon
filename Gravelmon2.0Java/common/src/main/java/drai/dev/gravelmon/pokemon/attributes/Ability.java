@@ -483,7 +483,12 @@ public enum Ability {
     ASTONISHMENT("astonishment", false),
     INFLAMABLE("inflamable", false),
     STEALTH_WINGED("stealthwinged", false),
-    STRENGTHENING("strengthening", false);
+    STRENGTHENING("strengthening", false),
+    SIDE_EFFECT("sideeffect", false),
+    FINISHER("finisher", false),
+    PREDATOR("predator", false),
+    SENSORY_BOOST("sensoryboost", false),
+    VAMPIRISM("vampirism", false);
 
     private String name;
     private Boolean implemented;
