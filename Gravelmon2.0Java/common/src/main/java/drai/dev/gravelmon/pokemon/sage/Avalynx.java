@@ -74,7 +74,7 @@ public class Avalynx extends Pokemon {
                         new MoveLearnSetEntry(Move.SNOWY_TERRAIN,"tm"),
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.AVALANCHE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ICY_WIND,"tutor"),
                         new MoveLearnSetEntry(Move.IRON_HEAD,"tutor"),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tutor"),

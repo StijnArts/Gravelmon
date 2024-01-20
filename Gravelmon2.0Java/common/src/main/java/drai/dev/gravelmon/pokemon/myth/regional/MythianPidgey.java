@@ -23,7 +23,7 @@ public class MythianPidgey extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,5),
+                        new MoveLearnSetEntry(Move.SANDATTACK,5),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,9),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,13),
                         new MoveLearnSetEntry(Move.NUZZLE,17),

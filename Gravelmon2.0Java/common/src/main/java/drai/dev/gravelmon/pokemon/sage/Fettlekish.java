@@ -73,7 +73,7 @@ public class Fettlekish extends Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm"),
                         new MoveLearnSetEntry(Move.WATERFALL,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.HEAL_BELL,"tutor"),
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tutor"),
                         new MoveLearnSetEntry(Move.HYPER_VOICE,"tutor"),

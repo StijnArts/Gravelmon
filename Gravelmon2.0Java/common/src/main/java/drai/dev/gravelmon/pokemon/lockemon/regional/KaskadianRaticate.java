@@ -36,7 +36,7 @@ public class KaskadianRaticate extends Pokemon {
                         new MoveLearnSetEntry(Move.AURORA_VEIL,24),
                         new MoveLearnSetEntry(Move.FREEZEDRY,29),
                         new MoveLearnSetEntry(Move.SUPER_FANG,34),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,39),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,39),
                         new MoveLearnSetEntry(Move.ENDEAVOR,44),
                         new MoveLearnSetEntry(Move.BITE,"egg"),
                         new MoveLearnSetEntry(Move.COUNTER,"egg"),

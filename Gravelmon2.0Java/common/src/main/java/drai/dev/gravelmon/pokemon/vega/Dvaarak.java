@@ -23,7 +23,7 @@ public class Dvaarak extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,6),
                         new MoveLearnSetEntry(Move.SCREECH,10),
                         new MoveLearnSetEntry(Move.METAL_CLAW,15),
@@ -94,7 +94,7 @@ public class Dvaarak extends Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"egg"),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"egg")
                         ),
-                List.of(Label.VEGA),
+                List.of(Label.DENEB),
                 0, List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 44, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")

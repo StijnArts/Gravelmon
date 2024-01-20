@@ -27,7 +27,7 @@ public class MythianVolcarona extends Pokemon {
                         new MoveLearnSetEntry(Move.DRAINING_KISS,1),
                         new MoveLearnSetEntry(Move.PSYCHIC,1),
                         new MoveLearnSetEntry(Move.TAKE_DOWN,1),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,1),
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,1),
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),

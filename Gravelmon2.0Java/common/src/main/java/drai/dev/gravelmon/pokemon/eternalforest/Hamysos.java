@@ -98,7 +98,7 @@ public class Hamysos extends Pokemon {
                         new MoveLearnSetEntry(Move.RETALIATE, "tutor"),
 
                         new MoveLearnSetEntry(Move.BIOSHOCK, "egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, "egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, "egg"),
                         new MoveLearnSetEntry(Move.BARRAGE, "egg"),
                         new MoveLearnSetEntry(Move.WAKEUP_SLAP, "egg"),
                         new MoveLearnSetEntry(Move.LEAF_STORM, "egg"),

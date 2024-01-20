@@ -38,7 +38,7 @@ public class Dunmyth extends Pokemon {
                         new MoveLearnSetEntry(Move.ROOST, 40),
                         new MoveLearnSetEntry(Move.DRAGON_RUSH, 44),
                         new MoveLearnSetEntry(Move.COIL, 48),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 52),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 52),
                         new MoveLearnSetEntry(Move.ENDEAVOR, 56),
 
                         new MoveLearnSetEntry(Move.AIR_SLASH, "tutor"),

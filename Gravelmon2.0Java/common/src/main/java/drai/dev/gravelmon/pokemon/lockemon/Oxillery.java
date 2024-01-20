@@ -38,7 +38,7 @@ public class Oxillery extends Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,40),
                         new MoveLearnSetEntry(Move.RAGING_BULL,45),
                         new MoveLearnSetEntry(Move.REST,50),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,55),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,55),
                         new MoveLearnSetEntry(Move.GIGA_IMPACT,60),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,"egg"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"egg")

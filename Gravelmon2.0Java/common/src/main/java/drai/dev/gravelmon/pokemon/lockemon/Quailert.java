@@ -41,7 +41,7 @@ public class Quailert extends Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"egg"),
                         new MoveLearnSetEntry(Move.ROCK_SMASH,"egg"),
                         new MoveLearnSetEntry(Move.ROOST,"egg"),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,"egg"),
+                        new MoveLearnSetEntry(Move.SANDATTACK,"egg"),
                         new MoveLearnSetEntry(Move.SKY_ATTACK,"egg"),
                         new MoveLearnSetEntry(Move.SPITE,"egg"),
                         new MoveLearnSetEntry(Move.TAILWIND,"egg")

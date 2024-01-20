@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:asphere",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "altair"
+     ],
+      "poser": "cobblemon:vega_asphere",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/vega/altair_asphere.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "altair",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vega/altair_asphere_shiny.png"
+    }  ]
+}

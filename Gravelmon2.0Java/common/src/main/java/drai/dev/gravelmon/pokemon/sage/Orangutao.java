@@ -98,7 +98,7 @@ public class Orangutao extends Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.COUNTER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.FIRE_PUNCH,"tutor"),
                         new MoveLearnSetEntry(Move.FLING,"tutor"),

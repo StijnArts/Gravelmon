@@ -23,7 +23,7 @@ public class Skurrow extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.WRAP,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,4),
+                        new MoveLearnSetEntry(Move.SANDATTACK,4),
                         new MoveLearnSetEntry(Move.SCRATCH,8),
                         new MoveLearnSetEntry(Move.SAND_TOMB,11),
                         new MoveLearnSetEntry(Move.FURY_SWIPES,15),
@@ -78,7 +78,7 @@ public class Skurrow extends Pokemon {
                         new MoveLearnSetEntry(Move.PINCER_ATTACK,"tm"),
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.COUNTER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.IRON_HEAD,"tutor"),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tutor"),

@@ -37,7 +37,7 @@ public enum Label {
     AZURE("azure"),
     OPAL("opal"),
     ETERNAL_FOREST("eternal_forest"),
-    UMBRA("umbra");
+    UMBRA("umbra"), DENEB("deneb");
     private String name;
     Label(String name){
         this.name = name;

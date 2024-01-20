@@ -39,7 +39,7 @@ public class Grizzlet extends Pokemon {
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,42),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,46),
                         new MoveLearnSetEntry(Move.STONE_EDGE,50),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,56),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,56),
                         new MoveLearnSetEntry(Move.AIR_CUTTER,"egg"),
                         new MoveLearnSetEntry(Move.LASER_FOCUS,"egg"),
                         new MoveLearnSetEntry(Move.DRILL_PECK,"egg"),

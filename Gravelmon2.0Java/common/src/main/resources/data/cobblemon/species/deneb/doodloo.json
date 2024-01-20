@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "doodloo",
-  "nationalPokedexNumber": 1940,
+  "nationalPokedexNumber": 2047,
   "primaryType": "normal",
   "abilities": [
     "owntempo",
@@ -59,7 +59,7 @@
     "81:sketch",
     "91:sketch"  ],
   "labels": [
-    "vega"
+    "deneb"
   ],
   "pokedex": [
     "cobblemon.species.doodloo.desc"

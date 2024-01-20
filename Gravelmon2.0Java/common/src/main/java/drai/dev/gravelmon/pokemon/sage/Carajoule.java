@@ -76,7 +76,7 @@ public class Carajoule extends Pokemon {
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm"),
                         new MoveLearnSetEntry(Move.PINCER_ATTACK,"tm"),
                         new MoveLearnSetEntry(Move.BUG_BITE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ELECTROWEB,"tutor"),
                         new MoveLearnSetEntry(Move.HYPER_VOICE,"tutor"),
                         new MoveLearnSetEntry(Move.MAGNET_RISE,"tutor"),

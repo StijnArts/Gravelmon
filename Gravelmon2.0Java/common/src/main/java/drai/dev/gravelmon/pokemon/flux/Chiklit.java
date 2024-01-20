@@ -44,7 +44,7 @@ public class Chiklit extends Pokemon {
                         new MoveLearnSetEntry(Move.LASER_FOCUS,"egg"),
                         new MoveLearnSetEntry(Move.HEAD_SMASH,"egg"),
                         new MoveLearnSetEntry(Move.TAILWIND,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg")
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg")
                         ),
                 List.of(Label.FLUX),
                 0, List.of(

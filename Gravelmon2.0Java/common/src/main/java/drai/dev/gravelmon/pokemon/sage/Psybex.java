@@ -80,7 +80,7 @@ public class Psybex extends Pokemon {
                         new MoveLearnSetEntry(Move.MIRACLE_WILL,"tm"),
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
                         new MoveLearnSetEntry(Move.BOUNCE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.GRAVITY,"tutor"),
                         new MoveLearnSetEntry(Move.HEAL_BELL,"tutor"),

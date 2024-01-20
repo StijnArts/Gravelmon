@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.lockemon.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import drai.dev.gravelmon.util.*;
 
 import java.util.*;
 
@@ -27,7 +26,7 @@ public class KaskadianPalossand extends Pokemon {
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,1),
                         new MoveLearnSetEntry(Move.MEGA_DRAIN,15),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,20),
+                        new MoveLearnSetEntry(Move.SANDATTACK,20),
                         new MoveLearnSetEntry(Move.ROCK_TOMB,25),
                         new MoveLearnSetEntry(Move.HYPNOSIS,30),
                         new MoveLearnSetEntry(Move.GIGA_DRAIN,35),

@@ -47,7 +47,7 @@ public class Goaturly extends Pokemon {
                         new MoveLearnSetEntry(Move.FACADE, 95),
                         new MoveLearnSetEntry(Move.WILD_CHARGE, 100),
                         new MoveLearnSetEntry(Move.ACUPRESSURE, 105),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 110),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 110),
                         new MoveLearnSetEntry(Move.MEGAHORN, 115),
                         new MoveLearnSetEntry(Move.HEAD_CHARGE, 120),
                         new MoveLearnSetEntry(Move.HORN_DRILL, 125),

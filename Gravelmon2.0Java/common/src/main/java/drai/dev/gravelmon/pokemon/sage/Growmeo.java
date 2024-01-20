@@ -68,7 +68,7 @@ public class Growmeo extends Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_SEED,"tm"),
                         new MoveLearnSetEntry(Move.MIRACLE_WILL,"tm"),
                         new MoveLearnSetEntry(Move.CUT,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tutor"),
                         new MoveLearnSetEntry(Move.HYPER_VOICE,"tutor"),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tutor"),

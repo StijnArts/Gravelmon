@@ -38,7 +38,7 @@ public class AlteranEshouten extends Pokemon {
                         new MoveLearnSetEntry(Move.HURRICANE,49),
                         new MoveLearnSetEntry(Move.PARTING_SHOT,"egg"),
                         new MoveLearnSetEntry(Move.TAILWIND,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
                         new MoveLearnSetEntry(Move.MOONBLAST,"egg"),
                         new MoveLearnSetEntry(Move.LAST_RESORT,"egg")
                         ),

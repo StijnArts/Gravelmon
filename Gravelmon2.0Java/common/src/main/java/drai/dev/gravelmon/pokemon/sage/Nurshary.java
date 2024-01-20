@@ -77,7 +77,7 @@ public class Nurshary extends Pokemon {
                         new MoveLearnSetEntry(Move.WATERFALL,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
                         new MoveLearnSetEntry(Move.AVALANCHE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.HEAL_BELL,"tutor"),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tutor"),
                         new MoveLearnSetEntry(Move.ICY_WIND,"tutor"),

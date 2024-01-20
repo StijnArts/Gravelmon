@@ -38,7 +38,7 @@ public class CefiranAbomasnow extends Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP, 58),
                         new MoveLearnSetEntry(Move.AVALANCHE, "egg"),
                         new MoveLearnSetEntry(Move.BULLET_SEED, "egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, "egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, "egg"),
                         new MoveLearnSetEntry(Move.GROWTH, "egg"),
                         new MoveLearnSetEntry(Move.LEECH_SEED, "egg"),
                         new MoveLearnSetEntry(Move.MAGICAL_LEAF, "egg"),

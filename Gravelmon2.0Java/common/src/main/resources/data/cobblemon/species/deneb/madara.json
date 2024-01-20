@@ -1,0 +1,122 @@
+{
+  "implemented": true,
+  "name": "madara",
+  "nationalPokedexNumber": 2026,
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "abilities": [
+    "toxicboost",
+    "h:sniper"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 90,
+    "defence": 76,
+    "special_attack": 85,
+    "special_defence": 61,
+    "speed": 111
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "moves": [
+    "1:peck",
+    "1:tailwhip",
+    "5:supersonic",
+    "10:waterpulse",
+    "15:assurance",
+    "20:agility",
+    "25:aquaring",
+    "30:flail",
+    "35:waterfall",
+    "40:soak",
+    "45:crunch",
+    "tm:waterpulse",
+    "tm:hail",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:protect",
+    "tm:raindance",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:endure",
+    "tm:swordsdance",
+    "tm:sleeptalksound",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:surf",
+    "tm:waterfall",
+    "egg:acupressure",
+    "egg:aquatail",
+    "egg:bodyslam",
+    "egg:haze",
+    "egg:hydropump",
+    "egg:mudshot",
+    "egg:mudslap",
+    "egg:psybeam",
+    "egg:skullbash"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.madara.desc"
+  ],
+  "preEvolution": "perame",
+  "baseScale": 0.13125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 7,
+  "weight": 1276,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

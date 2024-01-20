@@ -26,7 +26,7 @@ public class Obsideon extends Pokemon {
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.BITE,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,4),
+                        new MoveLearnSetEntry(Move.SANDATTACK,4),
                         new MoveLearnSetEntry(Move.SMACK_DOWN,9),
                         new MoveLearnSetEntry(Move.STOMP,14),
                         new MoveLearnSetEntry(Move.SPIKES,14),

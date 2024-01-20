@@ -84,7 +84,7 @@ public class Aguade extends Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
                         new MoveLearnSetEntry(Move.AVALANCHE,"tutor"),
                         new MoveLearnSetEntry(Move.COUNTER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.FLING,"tutor"),
                         new MoveLearnSetEntry(Move.ICE_PUNCH,"tutor"),

@@ -30,7 +30,7 @@ public class Dinkywink extends Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,21),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,26),
                         new MoveLearnSetEntry(Move.RAIN_DANCE,31),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,36),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,36),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,41),
                         new MoveLearnSetEntry(Move.AQUA_RING,46),
                         new MoveLearnSetEntry(Move.AGILITY,51),

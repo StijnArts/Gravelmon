@@ -40,7 +40,7 @@ public class Tascorch extends Pokemon {
                         new MoveLearnSetEntry(Move.FLAME_CHARGE,39),
                         new MoveLearnSetEntry(Move.SWIFT,43),
                         new MoveLearnSetEntry(Move.HEAT_CRASH,47),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,51),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,51),
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,55),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm"),
                         new MoveLearnSetEntry(Move.ROAR,"tm"),

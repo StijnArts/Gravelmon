@@ -35,7 +35,7 @@ public class KaskadianSnover extends Pokemon {
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,41),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,45),
                         new MoveLearnSetEntry(Move.SHEER_COLD,50),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
                         new MoveLearnSetEntry(Move.GROWTH,"egg"),
                         new MoveLearnSetEntry(Move.LEECH_SEED,"egg"),
                         new MoveLearnSetEntry(Move.STOMP,"egg"),

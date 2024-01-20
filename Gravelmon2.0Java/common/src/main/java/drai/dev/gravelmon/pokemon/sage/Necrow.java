@@ -23,7 +23,7 @@ public class Necrow extends Pokemon {
                         List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.PECK,6),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,9),
                         new MoveLearnSetEntry(Move.PURSUIT,12),

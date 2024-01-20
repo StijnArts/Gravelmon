@@ -93,7 +93,7 @@ public class Wikkin extends Pokemon {
                         new MoveLearnSetEntry(Move.SWIFT,"egg"),
                         new MoveLearnSetEntry(Move.WILD_GROWTH,"egg")
                         ),
-                List.of(Label.VEGA),
+                List.of(Label.DENEB),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 51, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),

@@ -23,7 +23,7 @@ public class DeltaGrimer extends Pokemon {
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.HARDEN,4),
                         new MoveLearnSetEntry(Move.MUDSLAP,7),
                         new MoveLearnSetEntry(Move.STOCKPILE,12),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wikkin",
-  "nationalPokedexNumber": 1937,
+  "nationalPokedexNumber": 2044,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -109,7 +109,7 @@
     "egg:sleeppowder",
     "egg:swiftcosmic"  ],
   "labels": [
-    "vega"
+    "deneb"
   ],
   "pokedex": [
     "cobblemon.species.wikkin.desc"

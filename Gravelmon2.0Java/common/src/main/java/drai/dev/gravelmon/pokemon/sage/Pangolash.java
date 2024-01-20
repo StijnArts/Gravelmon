@@ -24,7 +24,7 @@ public class Pangolash extends Pokemon {
                         new MoveLearnSetEntry(Move.SPIKES,1),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,1),
                         new MoveLearnSetEntry(Move.RAPID_SPIN,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.METAL_CLAW,5),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,9),
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,13),

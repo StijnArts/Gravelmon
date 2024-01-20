@@ -40,7 +40,7 @@ public class Manadza extends Pokemon {
                         new MoveLearnSetEntry(Move.INFERNO,49),
                         new MoveLearnSetEntry(Move.FIRE_BLAST,56),
                         new MoveLearnSetEntry(Move.SEARING_SHOT,63),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,70),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,70),
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,77),
                         new MoveLearnSetEntry(Move.OVERHEAT,84),
                         new MoveLearnSetEntry(Move.FINAL_GAMBIT,91)

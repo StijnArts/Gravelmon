@@ -87,7 +87,7 @@ public class Snogre extends Pokemon {
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.AVALANCHE,"tutor"),
                         new MoveLearnSetEntry(Move.COUNTER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ICE_PUNCH,"tutor"),
                         new MoveLearnSetEntry(Move.ICY_WIND,"tutor"),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tutor"),

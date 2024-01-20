@@ -55,7 +55,7 @@ public class Dashean extends Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_TAIL, 110),
                         new MoveLearnSetEntry(Move.HEAL_BELL, 115),
                         new MoveLearnSetEntry(Move.HYDROSHOCK, 120),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 125),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 125),
                         new MoveLearnSetEntry(Move.HYDRO_PUMP, 130),
 
                         new MoveLearnSetEntry(Move.CUT, "tutor"),

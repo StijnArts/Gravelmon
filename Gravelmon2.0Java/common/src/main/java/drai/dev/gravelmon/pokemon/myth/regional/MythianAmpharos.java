@@ -43,7 +43,7 @@ public class MythianAmpharos extends Pokemon {
                         new MoveLearnSetEntry(Move.ODOR_SLEUTH,"egg"),
                         new MoveLearnSetEntry(Move.CHARGE,"egg"),
                         new MoveLearnSetEntry(Move.FLATTER,"egg"),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,"egg"),
+                        new MoveLearnSetEntry(Move.SANDATTACK,"egg"),
                         new MoveLearnSetEntry(Move.IRON_TAIL,"egg"),
                         new MoveLearnSetEntry(Move.AFTER_YOU,"egg"),
                         new MoveLearnSetEntry(Move.AGILITY,"egg"),

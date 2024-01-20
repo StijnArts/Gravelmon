@@ -24,7 +24,7 @@ public class Terlard extends Pokemon {
                         new MoveLearnSetEntry(Move.TRI_ATTACK,1),
                         new MoveLearnSetEntry(Move.DOUBLE_HIT,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.GROWL,5),
                         new MoveLearnSetEntry(Move.MAGNITUDE,9),

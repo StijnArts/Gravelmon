@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pumpkid",
-  "nationalPokedexNumber": 1936,
+  "nationalPokedexNumber": 2043,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -111,7 +111,7 @@
     "egg:sleeppowder",
     "egg:swiftcosmic"  ],
   "labels": [
-    "vega"
+    "deneb"
   ],
   "pokedex": [
     "cobblemon.species.pumpkid.desc"

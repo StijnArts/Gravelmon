@@ -39,7 +39,7 @@ public class Auditaur extends Pokemon {
                         new MoveLearnSetEntry(Move.REST,40),
                         new MoveLearnSetEntry(Move.RAGING_BULL,45),
                         new MoveLearnSetEntry(Move.THRASH,50),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,55),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,55),
                         new MoveLearnSetEntry(Move.GIGA_IMPACT,60),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,"egg"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"egg")

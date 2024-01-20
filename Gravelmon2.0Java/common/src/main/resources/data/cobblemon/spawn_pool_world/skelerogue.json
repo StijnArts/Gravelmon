@@ -7,7 +7,7 @@
       "id": "skelerogue-1",
       "pokemon": "skelerogue",
       "presets": [
-          "ship_wreck"
+          "shipwreck"
       ],
       "type": "pokemon",
       "context": "surface",

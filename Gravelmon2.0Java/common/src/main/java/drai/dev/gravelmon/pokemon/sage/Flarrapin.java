@@ -92,7 +92,7 @@ public class Flarrapin extends Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.BOUNCE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.FIRE_PUNCH,"tutor"),
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tutor"),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tutor"),

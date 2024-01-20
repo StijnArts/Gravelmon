@@ -23,7 +23,7 @@ public class Desoula extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.PECK,6),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,9),
                         new MoveLearnSetEntry(Move.PURSUIT,12),

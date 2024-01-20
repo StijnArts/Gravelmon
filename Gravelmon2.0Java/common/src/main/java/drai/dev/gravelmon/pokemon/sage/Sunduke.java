@@ -65,7 +65,7 @@ public class Sunduke extends Pokemon {
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.GASTRO_ACID,"tutor"),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tutor"),
                         new MoveLearnSetEntry(Move.MUDSLAP,"tutor"),

@@ -31,7 +31,7 @@ public class MysticSceptile extends Pokemon {
                         new MoveLearnSetEntry(Move.AIR_CUTTER,20),
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,24),
                         new MoveLearnSetEntry(Move.HURRICANE,28),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,32),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,32),
                         new MoveLearnSetEntry(Move.SAFEGUARD,36),
                         new MoveLearnSetEntry(Move.FOLLOW_ME,40),
                         new MoveLearnSetEntry(Move.BATON_PASS,44),

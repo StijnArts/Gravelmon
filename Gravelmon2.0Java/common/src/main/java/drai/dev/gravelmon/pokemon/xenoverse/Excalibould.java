@@ -66,7 +66,7 @@ public class Excalibould extends Pokemon {
                         new MoveLearnSetEntry(Move.CURSE,"egg"),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"egg"),
                         new MoveLearnSetEntry(Move.POWER_GEM,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
                         new MoveLearnSetEntry(Move.SECRET_POWER,"tutor")
                         ),
                 List.of(Label.XENOVERSE),

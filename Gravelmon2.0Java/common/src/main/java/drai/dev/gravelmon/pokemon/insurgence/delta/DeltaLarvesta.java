@@ -92,7 +92,7 @@ public class DeltaLarvesta extends Pokemon {
                         new MoveLearnSetEntry(Move.NATURE_POWER,"tm"),
                         new MoveLearnSetEntry(Move.ACID,"tutor"),
                         new MoveLearnSetEntry(Move.AIR_CUTTER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDURE,"tutor"),
                         new MoveLearnSetEntry(Move.FOUL_PLAY,"tutor"),
                         new MoveLearnSetEntry(Move.GIGA_DRAIN,"tutor"),

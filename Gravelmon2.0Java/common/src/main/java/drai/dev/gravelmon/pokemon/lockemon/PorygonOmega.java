@@ -40,7 +40,7 @@ public class PorygonOmega extends Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,35),
                         new MoveLearnSetEntry(Move.DISCHARGE,40),
                         new MoveLearnSetEntry(Move.TRI_ATTACK,45),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,50),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,50),
                         new MoveLearnSetEntry(Move.LOCKON,55),
                         new MoveLearnSetEntry(Move.ZAP_CANNON,60),
                         new MoveLearnSetEntry(Move.HYPER_BEAM,65)

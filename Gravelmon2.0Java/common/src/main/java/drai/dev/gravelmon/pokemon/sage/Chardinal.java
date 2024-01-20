@@ -21,7 +21,7 @@ public class Chardinal extends Pokemon {
                 List.of("Chardinal routinely sets its own nest on fire to keep the eggs at the right temperature. When it takes off, it looks like the blazing streak of a comet."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.GUST,1),
                         new MoveLearnSetEntry(Move.FURY_ATTACK,5),
                         new MoveLearnSetEntry(Move.MUD_SPORT,8),
@@ -64,7 +64,7 @@ public class Chardinal extends Pokemon {
                         new MoveLearnSetEntry(Move.SUBSTITUTE,"tm"),
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm"),
                         new MoveLearnSetEntry(Move.FLY,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tutor"),
                         new MoveLearnSetEntry(Move.IRON_HEAD,"tutor"),
                         new MoveLearnSetEntry(Move.OMINOUS_WIND,"tutor"),

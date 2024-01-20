@@ -49,7 +49,7 @@ public class Gargryph extends Pokemon {
                         new MoveLearnSetEntry(Move.CRUNCH,"tm"),
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tm"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tm"),
                         new MoveLearnSetEntry(Move.DRAGON_RAGE,"tm"),
                         new MoveLearnSetEntry(Move.DRAGON_TAIL,"tm"),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,"tm"),

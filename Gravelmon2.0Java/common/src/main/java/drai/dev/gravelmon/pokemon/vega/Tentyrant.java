@@ -85,7 +85,7 @@ public class Tentyrant extends Pokemon {
                         new MoveLearnSetEntry(Move.WATER_GUN,"egg"),
                         new MoveLearnSetEntry(Move.WAVE_SPLASH,"egg")
                         ),
-                List.of(Label.VEGA),
+                List.of(Label.DENEB),
                 0, List.of(), SpawnContext.SUBMERGED, SpawnPool.RARE, 39, 49, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),

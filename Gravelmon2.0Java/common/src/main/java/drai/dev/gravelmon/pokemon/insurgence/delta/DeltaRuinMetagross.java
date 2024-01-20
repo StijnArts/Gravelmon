@@ -106,7 +106,7 @@ public class DeltaRuinMetagross extends Pokemon {
                         new MoveLearnSetEntry(Move.BODY_SLAM,"tutor"),
                         new MoveLearnSetEntry(Move.BULLET_SEED,"tutor"),
                         new MoveLearnSetEntry(Move.DIG,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.DYNAMICPUNCH,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.ENDURE,"tutor"),

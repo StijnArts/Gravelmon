@@ -55,7 +55,7 @@ public class Pomara extends Pokemon {
                         new MoveLearnSetEntry(Move.MIRROR_COAT, 85),
                         new MoveLearnSetEntry(Move.AQUA_TAIL, 90),
                         new MoveLearnSetEntry(Move.HEAL_BELL, 95),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 100),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 100),
                         new MoveLearnSetEntry(Move.HYDRO_PUMP, 105),
 
                         new MoveLearnSetEntry(Move.CUT, "tutor"),

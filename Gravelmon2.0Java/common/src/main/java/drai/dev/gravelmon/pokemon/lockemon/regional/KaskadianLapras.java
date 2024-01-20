@@ -88,7 +88,7 @@ public class KaskadianLapras extends Pokemon {
                         new MoveLearnSetEntry(Move.HAZE,"tm"),
                         new MoveLearnSetEntry(Move.ICICLE_SPEAR,"tm"),
                         new MoveLearnSetEntry(Move.WEATHER_BALL,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tm"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tm"),
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm"),
                         new MoveLearnSetEntry(Move.MUDDY_WATER,"tm"),
                         new MoveLearnSetEntry(Move.CURSE,"tm")

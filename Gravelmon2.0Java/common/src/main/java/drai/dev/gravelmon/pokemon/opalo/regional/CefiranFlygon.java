@@ -22,7 +22,7 @@ public class CefiranFlygon extends Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SONIC_BOOM, 1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK, 1),
+                        new MoveLearnSetEntry(Move.SANDATTACK, 1),
                         new MoveLearnSetEntry(Move.DRAGON_CLAW, 1),
                         new MoveLearnSetEntry(Move.SAND_TOMB, 1),
                         new MoveLearnSetEntry(Move.DRAGON_DANCE, 4),

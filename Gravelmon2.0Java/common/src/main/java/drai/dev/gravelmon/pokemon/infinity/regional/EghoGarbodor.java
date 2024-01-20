@@ -101,7 +101,7 @@ public class EghoGarbodor extends Pokemon {
                         new MoveLearnSetEntry(Move.MUD_SPORT,"egg"),
                         new MoveLearnSetEntry(Move.POWER_GEM,"egg"),
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"egg"),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,"egg"),
+                        new MoveLearnSetEntry(Move.SANDATTACK,"egg"),
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"egg"),
                         new MoveLearnSetEntry(Move.SPIKES,"egg")
                         ),

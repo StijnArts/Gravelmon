@@ -81,7 +81,7 @@ public class Fuelong extends Pokemon {
                         new MoveLearnSetEntry(Move.FLY,"tm"),
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.DRACO_METEOR,"tutor"),
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,"tutor"),
                         new MoveLearnSetEntry(Move.FIRE_PLEDGE,"tutor"),

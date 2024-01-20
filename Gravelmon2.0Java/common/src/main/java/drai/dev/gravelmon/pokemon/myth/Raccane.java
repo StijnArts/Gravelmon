@@ -36,7 +36,7 @@ public class Raccane extends Pokemon {
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY, 40),
                         new MoveLearnSetEntry(Move.FLAMETHROWER, 45),
                         new MoveLearnSetEntry(Move.OUTRAGE, 50),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 55),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 55),
 
                         new MoveLearnSetEntry(Move.DEFENSE_CURL, "egg"),
                         new MoveLearnSetEntry(Move.DRAGON_RUSH, "egg"),

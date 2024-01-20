@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "katuna",
-  "nationalPokedexNumber": 1931,
+  "nationalPokedexNumber": 1963,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -95,7 +95,7 @@
     "egg:splash",
     "egg:torment"  ],
   "labels": [
-    "vega"
+    "deneb"
   ],
   "pokedex": [
     "cobblemon.species.katuna.desc"

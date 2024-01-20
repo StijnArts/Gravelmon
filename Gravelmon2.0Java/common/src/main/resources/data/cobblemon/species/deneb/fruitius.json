@@ -1,0 +1,125 @@
+{
+  "implemented": true,
+  "name": "fruitius",
+  "nationalPokedexNumber": 2037,
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "abilities": [
+    "chlorophyll",
+    "h:solarpower"
+  ],
+  "baseStats": {
+    "hp": 109,
+    "attack": 88,
+    "defence": 78,
+    "special_attack": 97,
+    "special_defence": 82,
+    "speed": 101
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 20,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 226,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "monster"
+  ],
+  "moves": [
+    "1:dracometeor",
+    "1:leafblade",
+    "1:growth",
+    "1:razorleaf",
+    "1:leer",
+    "1:gust",
+    "6:sweetscent",
+    "10:stomp",
+    "16:magicalleaf",
+    "21:whirlwind",
+    "26:dragonbreath",
+    "36:dragonpulse",
+    "41:bodyslam",
+    "46:bestow",
+    "50:synthesis",
+    "56:solarbeam",
+    "61:leafstorm",
+    "tm:ancientpower",
+    "tm:dragonbreath",
+    "tm:leechseed",
+    "tm:frustration",
+    "tm:aerialace",
+    "tm:cut",
+    "tm:fly",
+    "tm:strength",
+    "tm:flash",
+    "tutor:twister",
+    "tutor:naturepower",
+    "tutor:furycutter",
+    "tutor:silverwind",
+    "tutor:dragondance",
+    "tutor:outrage",
+    "tutor:typhoon",
+    "egg:razorwind",
+    "egg:earthquake",
+    "egg:safeguard",
+    "egg:slam",
+    "egg:bulletseed",
+    "egg:mudslap",
+    "egg:worryseed",
+    "egg:curse",
+    "egg:petalblizzard",
+    "egg:roarsound",
+    "egg:leafblade",
+    "egg:dragonpulse"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.fruitius.desc"
+  ],
+  "baseScale": 0.65625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 35,
+  "weight": 1450,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -7,7 +7,7 @@
       "id": "navighast-1",
       "pokemon": "navighast",
       "presets": [
-          "ship_wreck"
+          "shipwreck"
       ],
       "type": "pokemon",
       "context": "surface",

@@ -23,7 +23,7 @@ public class Chikaboo extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.PECK,5),
                         new MoveLearnSetEntry(Move.FEINT_ATTACK,10),
                         new MoveLearnSetEntry(Move.FAKE_TEARS,16),

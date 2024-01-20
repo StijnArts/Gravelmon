@@ -74,7 +74,7 @@ public class Jawgodon extends Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm"),
                         new MoveLearnSetEntry(Move.WATERFALL,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),

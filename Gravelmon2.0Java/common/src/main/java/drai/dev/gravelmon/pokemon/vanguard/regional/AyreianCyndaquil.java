@@ -37,7 +37,7 @@ public class AyreianCyndaquil extends Pokemon {
                         new MoveLearnSetEntry(Move.FLAMETHROWER, 40),
                         new MoveLearnSetEntry(Move.INFERNO, 46),
                         new MoveLearnSetEntry(Move.ROLLOUT, 49),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 55),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 55),
                         new MoveLearnSetEntry(Move.ERUPTION, 58),
 
                         new MoveLearnSetEntry(Move.AERIAL_ACE, "tutor"),
@@ -54,7 +54,7 @@ public class AyreianCyndaquil extends Pokemon {
                         new MoveLearnSetEntry(Move.DEFENSE_CURL, "tutor"),
                         new MoveLearnSetEntry(Move.DETECT, "tutor"),
                         new MoveLearnSetEntry(Move.DIG, "tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, "tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, "tutor"),
                         new MoveLearnSetEntry(Move.DOUBLE_KICK, "tutor"),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM, "tutor"),
                         new MoveLearnSetEntry(Move.EMBER, "tutor"),
@@ -111,7 +111,7 @@ public class AyreianCyndaquil extends Pokemon {
 
                         new MoveLearnSetEntry(Move.COVET, "egg"),
                         new MoveLearnSetEntry(Move.CRUSH_CLAW, "egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, "egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, "egg"),
                         new MoveLearnSetEntry(Move.DOUBLE_KICK, "egg"),
                         new MoveLearnSetEntry(Move.EXTRASENSORY, "egg"),
                         new MoveLearnSetEntry(Move.FLAME_BURST, "egg"),

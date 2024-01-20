@@ -35,7 +35,7 @@ public class GameRegistry {
         games.add(new Daybreak());
         games.add(new Vanguard());
         games.add(new Myth());
-        games.add(new Deneb());
         games.add(new Vega());
+        games.add(new Deneb());
     }
 }

@@ -39,7 +39,7 @@ public class Terathwack extends Pokemon {
                         new MoveLearnSetEntry(Move.OUTRAGE,46),
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,49),
                         new MoveLearnSetEntry(Move.BONE_RUSH,53),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,53),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,53),
                         new MoveLearnSetEntry(Move.RETALIATE,59),
                         new MoveLearnSetEntry(Move.REVERSAL,62),
                         new MoveLearnSetEntry(Move.HEAD_CHARGE,66),

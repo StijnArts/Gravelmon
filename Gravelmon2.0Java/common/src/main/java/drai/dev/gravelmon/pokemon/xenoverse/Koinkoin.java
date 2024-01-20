@@ -56,7 +56,7 @@ public class Koinkoin extends Pokemon {
                         new MoveLearnSetEntry(Move.SWAGGER,"tm"),
                         new MoveLearnSetEntry(Move.SUBSTITUTE,"tm"),
                         new MoveLearnSetEntry(Move.TAKE_DOWN,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
                         new MoveLearnSetEntry(Move.CRUNCH,"egg"),
                         new MoveLearnSetEntry(Move.SLACK_OFF,"egg"),
                         new MoveLearnSetEntry(Move.CURSE,"egg"),

@@ -23,7 +23,7 @@ public class DeltaRuinMetang extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,1),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,1),
                         new MoveLearnSetEntry(Move.MEGA_DRAIN,1),
                         new MoveLearnSetEntry(Move.SMACK_DOWN,1),
                         new MoveLearnSetEntry(Move.MEGA_DRAIN,20),
@@ -94,7 +94,7 @@ public class DeltaRuinMetang extends Pokemon {
                         new MoveLearnSetEntry(Move.BODY_SLAM,"tutor"),
                         new MoveLearnSetEntry(Move.BULLET_SEED,"tutor"),
                         new MoveLearnSetEntry(Move.DIG,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.DYNAMICPUNCH,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.ENDURE,"tutor"),

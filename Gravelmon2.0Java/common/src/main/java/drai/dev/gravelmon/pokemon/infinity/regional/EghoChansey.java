@@ -40,7 +40,7 @@ public class EghoChansey extends Pokemon {
                         new MoveLearnSetEntry(Move.EGG_BOMB,41),
                         new MoveLearnSetEntry(Move.FLING,45),
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,50),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,53),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,53),
                         new MoveLearnSetEntry(Move.BULK_UP,57),
                         new MoveLearnSetEntry(Move.HAMMER_ARM,62),
                         new MoveLearnSetEntry(Move.THRASH,68),

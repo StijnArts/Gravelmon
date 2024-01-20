@@ -22,11 +22,11 @@ public class Gigantusk extends Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_HEAD,1),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,1),
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,1),
                         new MoveLearnSetEntry(Move.PROTECT,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.HAIL,4),
                         new MoveLearnSetEntry(Move.ICE_SHARD,8),

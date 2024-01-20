@@ -23,7 +23,7 @@ public class Bullverin extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.FLING,9),
                         new MoveLearnSetEntry(Move.FLAME_WHEEL,12),
@@ -62,7 +62,7 @@ public class Bullverin extends Pokemon {
                         new MoveLearnSetEntry(Move.UTURN,"tm"),
                         new MoveLearnSetEntry(Move.SUBSTITUTE,"tm"),
                         new MoveLearnSetEntry(Move.HEAD_SMASH,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
                         new MoveLearnSetEntry(Move.SPIKES,"egg"),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"egg"),
                         new MoveLearnSetEntry(Move.ERUPTION,"egg"),

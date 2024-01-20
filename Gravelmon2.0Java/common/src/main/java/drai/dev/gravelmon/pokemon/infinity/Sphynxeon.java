@@ -27,7 +27,7 @@ public class Sphynxeon extends Pokemon {
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.ROCK_POLISH,1),
                         new MoveLearnSetEntry(Move.SIMPLE_BEAM,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,5),
+                        new MoveLearnSetEntry(Move.SANDATTACK,5),
                         new MoveLearnSetEntry(Move.SAND_TOMB,9),
                         new MoveLearnSetEntry(Move.COVET,12),
                         new MoveLearnSetEntry(Move.PSYCHO_SHIFT,14),

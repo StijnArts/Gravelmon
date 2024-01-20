@@ -94,7 +94,7 @@ public class Pumpkid extends Pokemon {
                         new MoveLearnSetEntry(Move.SWIFT,"egg"),
                         new MoveLearnSetEntry(Move.WILD_GROWTH,"egg")
                         ),
-                List.of(Label.VEGA),
+                List.of(Label.DENEB),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 28, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),

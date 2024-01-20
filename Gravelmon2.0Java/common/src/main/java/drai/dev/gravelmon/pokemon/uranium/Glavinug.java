@@ -81,7 +81,7 @@ public class Glavinug extends Pokemon {
                         new MoveLearnSetEntry(Move.HEADBUTT,"egg"),
                         new MoveLearnSetEntry(Move.SCARY_FACE,"egg"),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
                         new MoveLearnSetEntry(Move.WATER_PULSE,"egg"),
                         new MoveLearnSetEntry(Move.BODY_SLAM,"egg"),
                         new MoveLearnSetEntry(Move.SCREECH,"egg"),

@@ -25,7 +25,7 @@ public class Eledove extends Pokemon {
                         new MoveLearnSetEntry(Move.TACKLE, 1),
                         new MoveLearnSetEntry(Move.SING, 1),
                         new MoveLearnSetEntry(Move.GUST, 1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK, 7),
+                        new MoveLearnSetEntry(Move.SANDATTACK, 7),
                         new MoveLearnSetEntry(Move.SONIC_BOOM, 11),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK, 15),
                         new MoveLearnSetEntry(Move.FAIRY_WIND, 19),

@@ -40,7 +40,7 @@ public class Roadillo extends Pokemon {
                         new MoveLearnSetEntry(Move.STEAMROLLER,30),
                         new MoveLearnSetEntry(Move.TAKE_DOWN,34),
                         new MoveLearnSetEntry(Move.ENDEAVOR,37),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,40),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,40),
                         new MoveLearnSetEntry(Move.STEEL_ROLLER,43),
                         new MoveLearnSetEntry(Move.SKULL_BASH,47),
                         new MoveLearnSetEntry(Move.ODOR_SLEUTH,"egg"),

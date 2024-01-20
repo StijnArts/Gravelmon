@@ -30,7 +30,7 @@ public class Shrimpink extends Pokemon {
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,6),
+                        new MoveLearnSetEntry(Move.SANDATTACK,6),
                         new MoveLearnSetEntry(Move.ROCK_SMASH,10),
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,15),
                         new MoveLearnSetEntry(Move.DIG,19),

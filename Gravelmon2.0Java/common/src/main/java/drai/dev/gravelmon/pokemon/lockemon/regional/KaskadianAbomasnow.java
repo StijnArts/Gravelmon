@@ -34,7 +34,7 @@ public class KaskadianAbomasnow extends Pokemon {
                         new MoveLearnSetEntry(Move.EARTH_POWER,45),
                         new MoveLearnSetEntry(Move.SHEER_COLD,50),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,55),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
                         new MoveLearnSetEntry(Move.GROWTH,"egg"),
                         new MoveLearnSetEntry(Move.LEECH_SEED,"egg"),
                         new MoveLearnSetEntry(Move.STOMP,"egg"),

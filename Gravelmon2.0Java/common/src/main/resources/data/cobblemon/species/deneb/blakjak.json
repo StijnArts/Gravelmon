@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blakjak",
-  "nationalPokedexNumber": 1935,
+  "nationalPokedexNumber": 2042,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -115,7 +115,7 @@
     "egg:steelwing",
     "egg:sunnyday"  ],
   "labels": [
-    "vega",
+    "deneb",
     "fakemon",
     "fakemonevolution"
   ],

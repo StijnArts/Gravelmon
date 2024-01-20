@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mintch",
-  "nationalPokedexNumber": 1934,
+  "nationalPokedexNumber": 2041,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -107,7 +107,7 @@
     "egg:steelwing",
     "egg:sunnyday"  ],
   "labels": [
-    "vega"
+    "deneb"
   ],
   "pokedex": [
     "cobblemon.species.mintch.desc"
@@ -123,6 +123,23 @@
         {
           "variant": "level",
           "minLevel": 18
+        }
+      ]   
+ },
+    {
+      "id": "mintch_signetanblakjak",
+      "variant": "level_up",
+      "result": "signetanblakjak",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_spooky"
         }
       ]   
  }

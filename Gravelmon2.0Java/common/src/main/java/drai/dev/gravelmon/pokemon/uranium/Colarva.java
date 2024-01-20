@@ -37,7 +37,7 @@ public class Colarva extends Pokemon {
                         new MoveLearnSetEntry(Move.ICE_BALL,29),
                         new MoveLearnSetEntry(Move.SNOWSCAPE,35),
                         new MoveLearnSetEntry(Move.AVALANCHE,42),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,48),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,48),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.AVALANCHE,"tm"),
                         new MoveLearnSetEntry(Move.BLIZZARD,"tm"),

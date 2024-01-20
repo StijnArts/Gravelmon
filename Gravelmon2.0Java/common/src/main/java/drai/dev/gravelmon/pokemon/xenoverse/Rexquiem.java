@@ -25,7 +25,7 @@ public class Rexquiem extends Pokemon {
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,1),
                         new MoveLearnSetEntry(Move.PUNISHMENT,1),
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SANDATTACK,1),
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.FEINT_ATTACK,1),
                         new MoveLearnSetEntry(Move.FAKE_TEARS,1),

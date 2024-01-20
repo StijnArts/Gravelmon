@@ -31,7 +31,7 @@ public class ArmiranHippopotas extends Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_RING,25),
                         new MoveLearnSetEntry(Move.CRUNCH,31),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,37),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,44),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,44),
                         new MoveLearnSetEntry(Move.MUDDY_WATER,50),
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
                         new MoveLearnSetEntry(Move.HIDDEN_POWER,"tm"),

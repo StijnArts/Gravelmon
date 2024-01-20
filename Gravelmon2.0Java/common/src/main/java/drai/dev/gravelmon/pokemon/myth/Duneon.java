@@ -35,7 +35,7 @@ public class Duneon extends Pokemon {
                         new MoveLearnSetEntry(Move.SWORDS_DANCE, 24),
                         new MoveLearnSetEntry(Move.EARTHQUAKE, 27),
                         new MoveLearnSetEntry(Move.TOXIC, 29),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK, 32),
+                        new MoveLearnSetEntry(Move.SANDATTACK, 32),
                         new MoveLearnSetEntry(Move.SANDSTORM, 36),
                         new MoveLearnSetEntry(Move.ROCK_TOMB, 37),
                         new MoveLearnSetEntry(Move.ROCK_BLAST, 40),

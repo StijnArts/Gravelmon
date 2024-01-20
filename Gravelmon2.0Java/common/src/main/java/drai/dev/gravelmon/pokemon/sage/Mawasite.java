@@ -77,7 +77,7 @@ public class Mawasite extends Pokemon {
                         new MoveLearnSetEntry(Move.WATERFALL,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
                         new MoveLearnSetEntry(Move.BUG_BITE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.GASTRO_ACID,"tutor"),
                         new MoveLearnSetEntry(Move.GUNK_SHOT,"tutor"),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,"tutor"),

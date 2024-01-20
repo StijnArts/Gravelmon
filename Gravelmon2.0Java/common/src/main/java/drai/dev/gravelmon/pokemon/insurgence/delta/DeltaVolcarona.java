@@ -129,7 +129,7 @@ public class DeltaVolcarona extends Pokemon {
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.AURA_SPHERE,"tutor"),
                         new MoveLearnSetEntry(Move.DEFOG,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.ENDURE,"tutor"),
                         new MoveLearnSetEntry(Move.FOUL_PLAY,"tutor"),

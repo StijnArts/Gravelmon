@@ -29,7 +29,7 @@ public class Nucleon extends Pokemon {
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,5),
+                        new MoveLearnSetEntry(Move.SANDATTACK,5),
                         new MoveLearnSetEntry(Move.GAMMA_RAY,9),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,12),
                         new MoveLearnSetEntry(Move.SWIFT,17),

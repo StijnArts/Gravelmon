@@ -37,7 +37,7 @@ public class KaskadianYanma extends Pokemon {
                         new MoveLearnSetEntry(Move.UTURN,49),
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,54),
                         new MoveLearnSetEntry(Move.BUG_BUZZ,57),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
                         new MoveLearnSetEntry(Move.FEINT,"egg"),
                         new MoveLearnSetEntry(Move.WHIRLWIND,"egg"),
                         new MoveLearnSetEntry(Move.TAKE_DOWN,"tm"),

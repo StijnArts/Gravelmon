@@ -32,7 +32,7 @@ public class KaskadianDubwool extends Pokemon {
                         new MoveLearnSetEntry(Move.GUARD_SWAP,32),
                         new MoveLearnSetEntry(Move.REVERSAL,38),
                         new MoveLearnSetEntry(Move.COTTON_GUARD,44),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,50),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,50),
                         new MoveLearnSetEntry(Move.LAST_RESORT,56),
                         new MoveLearnSetEntry(Move.COUNTER,"egg"),
                         new MoveLearnSetEntry(Move.STOMP,"egg"),

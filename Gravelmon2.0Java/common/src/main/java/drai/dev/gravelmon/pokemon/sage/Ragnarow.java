@@ -79,7 +79,7 @@ public class Ragnarow extends Pokemon {
                         new MoveLearnSetEntry(Move.AVALANCHE,"tutor"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
                         new MoveLearnSetEntry(Move.COUNTER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.DRACO_METEOR,"tutor"),
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),

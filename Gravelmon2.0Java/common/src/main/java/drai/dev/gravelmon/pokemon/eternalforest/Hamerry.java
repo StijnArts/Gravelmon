@@ -89,7 +89,7 @@ public class Hamerry extends Pokemon {
                         new MoveLearnSetEntry(Move.QUASH, "tutor"),
 
                         new MoveLearnSetEntry(Move.BIOSHOCK, "egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, "egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, "egg"),
                         new MoveLearnSetEntry(Move.BARRAGE, "egg"),
                         new MoveLearnSetEntry(Move.WAKEUP_SLAP, "egg"),
                         new MoveLearnSetEntry(Move.LEAF_STORM, "egg"),

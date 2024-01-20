@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "bari",
+  "nationalPokedexNumber": 2008,
+  "primaryType": "fighting",
+  "abilities": [
+    "ironfist",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 70,
+    "defence": 60,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 124,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "moves": [
+    "1:leer",
+    "1:pound",
+    "4:lowkick",
+    "8:rockthrow",
+    "12:focusenergy",
+    "16:bulkup",
+    "20:rockslide",
+    "24:slam",
+    "28:scaryface",
+    "32:dynamicpunch",
+    "36:hammerarm",
+    "40:stoneedge",
+    "44:superpower",
+    "48:focuspunch",
+    "tm:takedown",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:lowkick",
+    "tm:thief",
+    "tm:facade",
+    "tm:rocktomb",
+    "tm:lowsweep",
+    "tm:fling",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:icepunch",
+    "tm:sleeptalksound",
+    "tm:drainpunch",
+    "tm:grassknot",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:taunt",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:reversal",
+    "tm:stoneedge",
+    "tm:focusblast",
+    "tm:closecombat",
+    "tm:terablast",
+    "tm:smackdown",
+    "tm:knockoff",
+    "tm:focuspunch",
+    "egg:counter",
+    "egg:defog",
+    "egg:detect",
+    "egg:machpunch",
+    "egg:wideguard"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bari.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "bari_yaban",
+      "variant": "level_up",
+      "result": "yaban",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 178,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

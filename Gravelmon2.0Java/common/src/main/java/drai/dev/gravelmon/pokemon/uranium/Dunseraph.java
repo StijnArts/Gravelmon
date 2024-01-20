@@ -35,7 +35,7 @@ public class Dunseraph extends Pokemon {
                         new MoveLearnSetEntry(Move.ROOST,25),
                         new MoveLearnSetEntry(Move.GLARE,28),
                         new MoveLearnSetEntry(Move.DIG,31),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,34),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,34),
                         new MoveLearnSetEntry(Move.COIL,37),
                         new MoveLearnSetEntry(Move.ENDURE,40),
                         new MoveLearnSetEntry(Move.DRAGON_BREATH,43),

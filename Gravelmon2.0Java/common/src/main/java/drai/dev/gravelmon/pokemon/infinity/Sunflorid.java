@@ -22,7 +22,7 @@ public class Sunflorid extends Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.INCINERATE,1),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,1),
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,1),
                         new MoveLearnSetEntry(Move.BULLET_SEED,1),
                         new MoveLearnSetEntry(Move.WORRY_SEED,1),

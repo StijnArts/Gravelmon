@@ -81,7 +81,7 @@ public class Calfpint extends Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tutor"),
                         new MoveLearnSetEntry(Move.CURSE,"egg"),
                         new MoveLearnSetEntry(Move.DIZZY_PUNCH,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
                         new MoveLearnSetEntry(Move.ENDURE,"egg"),
                         new MoveLearnSetEntry(Move.HAMMER_ARM,"egg"),
                         new MoveLearnSetEntry(Move.HEART_STAMP,"egg"),

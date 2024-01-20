@@ -36,7 +36,7 @@ public class SeviianDodrio extends Pokemon {
                         new MoveLearnSetEntry(Move.DRILL_RUN, 29),
                         new MoveLearnSetEntry(Move.SWORDS_DANCE, 38),
                         new MoveLearnSetEntry(Move.JUMP_KICK, 43),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 47),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 47),
                         new MoveLearnSetEntry(Move.FLARE_BLITZ, 52),
                         new MoveLearnSetEntry(Move.WILLOWISP, 56),
                         new MoveLearnSetEntry(Move.BRAVE_BIRD, 60),

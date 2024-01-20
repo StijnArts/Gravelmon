@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "guppyre-1",
+      "pokemon": "guppyre",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "5-28",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_reef" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

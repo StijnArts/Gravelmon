@@ -23,7 +23,7 @@ public class Magnidove extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.HURRICANE, 1),
                         new MoveLearnSetEntry(Move.TACKLE, 1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK, 1),
+                        new MoveLearnSetEntry(Move.SANDATTACK, 1),
                         new MoveLearnSetEntry(Move.GUST, 1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK, 1),
                         new MoveLearnSetEntry(Move.SONIC_BOOM, 9),

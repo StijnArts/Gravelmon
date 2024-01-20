@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skelachone",
-  "nationalPokedexNumber": 1933,
+  "nationalPokedexNumber": 1965,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -103,7 +103,7 @@
     "egg:splash",
     "egg:torment"  ],
   "labels": [
-    "vega",
+    "deneb",
     "fakemon",
     "fakemonevolution"
   ],

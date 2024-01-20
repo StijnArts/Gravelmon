@@ -49,7 +49,7 @@ public class Rabatuta extends Pokemon {
                         new MoveLearnSetEntry(Move.INFERNO, 44),
                         new MoveLearnSetEntry(Move.BOUNCE, 46),
                         new MoveLearnSetEntry(Move.OVERHEAT, 47),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 54),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 54),
                         new MoveLearnSetEntry(Move.FLARE_BLITZ, 62)
                 ),
                 List.of(Label.REALIDEA_SYSTEM),

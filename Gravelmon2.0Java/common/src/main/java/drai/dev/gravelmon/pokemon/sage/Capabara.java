@@ -23,7 +23,7 @@ public class Capabara extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
-                        new MoveLearnSetEntry(Move.SAND_ATTACK,4),
+                        new MoveLearnSetEntry(Move.SANDATTACK,4),
                         new MoveLearnSetEntry(Move.ROLLOUT,7),
                         new MoveLearnSetEntry(Move.CHARM,10),
                         new MoveLearnSetEntry(Move.BITE,13),
@@ -78,7 +78,7 @@ public class Capabara extends Pokemon {
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.SURF,"tm"),
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tutor"),
                         new MoveLearnSetEntry(Move.ICE_PUNCH,"tutor"),
