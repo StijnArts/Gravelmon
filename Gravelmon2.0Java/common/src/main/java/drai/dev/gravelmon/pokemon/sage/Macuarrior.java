@@ -85,7 +85,7 @@ public class Macuarrior extends Pokemon {
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
                         new MoveLearnSetEntry(Move.COUNTER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.FLING,"tutor"),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tutor"),
                         new MoveLearnSetEntry(Move.IRON_HEAD,"tutor"),

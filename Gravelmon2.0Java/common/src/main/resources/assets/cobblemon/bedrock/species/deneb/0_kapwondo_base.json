@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kapwondo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:deneb_kapwondo",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/kapwondo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/kapwondo_shiny.png"
+    }  ]
+}

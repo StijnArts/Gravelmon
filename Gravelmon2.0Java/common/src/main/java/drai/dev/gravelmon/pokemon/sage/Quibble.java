@@ -24,7 +24,7 @@ public class Quibble extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,4),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,4),
                         new MoveLearnSetEntry(Move.GUST,7),
                         new MoveLearnSetEntry(Move.MUDSLAP,10),
                         new MoveLearnSetEntry(Move.ECHOED_VOICE,13),
@@ -66,7 +66,7 @@ public class Quibble extends Pokemon {
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm"),
                         new MoveLearnSetEntry(Move.STANDOFF,"tm"),
                         new MoveLearnSetEntry(Move.FLY,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.FLING,"tutor"),
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tutor"),

@@ -69,7 +69,7 @@ public class Viperzang extends Pokemon {
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.SPIN_TAIL,"tutor"),
                         new MoveLearnSetEntry(Move.IRON_TAIL,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.BOLD_BLAZE,"egg"),
                         new MoveLearnSetEntry(Move.COUNTER,"egg"),
                         new MoveLearnSetEntry(Move.CURSE,"egg"),

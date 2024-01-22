@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:darca",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:deneb_darca",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/darca.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/darca_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:rubball",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:deneb_rubball",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/rubball.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/rubball_shiny.png"
+    }  ]
+}

@@ -85,7 +85,7 @@ public class Leukoon extends Pokemon {
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm"),
                         new MoveLearnSetEntry(Move.MIRACLE_WILL,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.GRAVITY,"tutor"),
                         new MoveLearnSetEntry(Move.HEAL_BELL,"tutor"),

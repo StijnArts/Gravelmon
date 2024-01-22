@@ -58,7 +58,7 @@ public class Psycolt extends Pokemon {
                         new MoveLearnSetEntry(Move.CALM_MIND,"egg"),
                         new MoveLearnSetEntry(Move.COVET,"egg"),
                         new MoveLearnSetEntry(Move.DOUBLE_KICK,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.DREAM_EATER,"egg"),
                         new MoveLearnSetEntry(Move.EXTRASENSORY,"egg"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"egg"),

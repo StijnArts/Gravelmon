@@ -37,7 +37,7 @@ public class Cupricorn extends Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,31),
                         new MoveLearnSetEntry(Move.METAL_SOUND,37),
                         new MoveLearnSetEntry(Move.BOUNCE,42),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,46),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,46),
                         new MoveLearnSetEntry(Move.CRASH_IMPACT,52),
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,"tm"),
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,"tm"),

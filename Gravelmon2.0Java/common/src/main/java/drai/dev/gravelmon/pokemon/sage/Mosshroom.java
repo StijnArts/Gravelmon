@@ -70,7 +70,7 @@ public class Mosshroom extends Pokemon {
                         new MoveLearnSetEntry(Move.SUBSTITUTE,"tm"),
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm"),
                         new MoveLearnSetEntry(Move.BULLET_SEED,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.GUNK_SHOT,"tutor"),
                         new MoveLearnSetEntry(Move.HYPER_VOICE,"tutor"),
                         new MoveLearnSetEntry(Move.RECYCLE,"tutor"),

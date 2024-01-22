@@ -37,7 +37,7 @@ public class Nobunata extends Pokemon {
                         new MoveLearnSetEntry(Move.RETALIATE,46),
                         new MoveLearnSetEntry(Move.STANDOFF,50),
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,55),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,58),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,58),
                         new MoveLearnSetEntry(Move.DESTINY_BOND,62),
                         new MoveLearnSetEntry(Move.EXPLOSION,67),
                         new MoveLearnSetEntry(Move.FINAL_GAMBIT,70),

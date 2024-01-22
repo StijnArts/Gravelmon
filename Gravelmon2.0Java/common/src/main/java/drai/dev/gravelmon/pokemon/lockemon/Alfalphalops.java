@@ -28,7 +28,7 @@ public class Alfalphalops extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.MEGAHORN,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.DOUBLE_KICK,10),
                         new MoveLearnSetEntry(Move.LEECH_SEED,13),

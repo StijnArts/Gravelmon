@@ -80,7 +80,7 @@ public class Loneleaf extends Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_SEED,"tm"),
                         new MoveLearnSetEntry(Move.MIRACLE_WILL,"tm"),
                         new MoveLearnSetEntry(Move.CUT,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.FLING,"tutor"),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tutor"),
                         new MoveLearnSetEntry(Move.MUDSLAP,"tutor"),

@@ -29,7 +29,7 @@ public class Wallachy extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.LEER,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,6),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,6),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,9),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,14),
                         new MoveLearnSetEntry(Move.DOUBLE_HIT,17),

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:blitzune",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:deneb_blitzune",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/blitzune.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/blitzune_shiny.png"
+    }  ]
+}

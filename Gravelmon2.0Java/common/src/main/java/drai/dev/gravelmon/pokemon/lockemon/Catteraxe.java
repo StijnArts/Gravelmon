@@ -41,7 +41,7 @@ public class Catteraxe extends Pokemon {
                         new MoveLearnSetEntry(Move.IRON_TAIL,31),
                         new MoveLearnSetEntry(Move.COVET,34),
                         new MoveLearnSetEntry(Move.HEAL_BELL,37),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,40),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,40),
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,43),
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,46),
                         new MoveLearnSetEntry(Move.BATON_PASS,"egg"),

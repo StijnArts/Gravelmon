@@ -24,7 +24,7 @@ public class DeltaTangrowth extends Pokemon {
                         new MoveLearnSetEntry(Move.HAMMER_ARM,1),
                         new MoveLearnSetEntry(Move.ENDURE,1),
                         new MoveLearnSetEntry(Move.CONSTRICT,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,4),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,4),
                         new MoveLearnSetEntry(Move.VINE_WHIP,7),
                         new MoveLearnSetEntry(Move.SAND_TOMB,10),
                         new MoveLearnSetEntry(Move.ROLLOUT,14),

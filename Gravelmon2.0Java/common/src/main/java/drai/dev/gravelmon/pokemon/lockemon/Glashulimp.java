@@ -39,7 +39,7 @@ public class Glashulimp extends Pokemon {
                         new MoveLearnSetEntry(Move.TAKE_DOWN,31),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,40),
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,43),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,47),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,47),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"egg"),
                         new MoveLearnSetEntry(Move.BODY_SLAM,"egg"),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,"egg"),

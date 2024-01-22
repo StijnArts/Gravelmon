@@ -22,7 +22,7 @@ public class Masgot extends Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.INFESTATION,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.HORN_ATTACK,5),
                         new MoveLearnSetEntry(Move.SCARY_FACE,10),
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -92,7 +92,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.EMBER,5),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
                                 new MoveLearnSetEntry(Move.ENDEAVOR,20),
@@ -161,7 +161,7 @@ public class Masgot extends Pokemon {
                                 List.of(),
                                 List.of(
                                         new MoveLearnSetEntry(Move.INFESTATION,1),
-                                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                         new MoveLearnSetEntry(Move.ASTONISH,5),
                                         new MoveLearnSetEntry(Move.CONFUSE_RAY,10),
                                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -231,7 +231,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.ICE_SHARD,5),
                                 new MoveLearnSetEntry(Move.TAUNT,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -371,7 +371,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.THUNDER_SHOCK,5),
                                 new MoveLearnSetEntry(Move.THUNDER_WAVE,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -442,7 +442,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.HORN_ATTACK,5),
                                 new MoveLearnSetEntry(Move.BULK_UP,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -512,7 +512,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.PECK,5),
                                 new MoveLearnSetEntry(Move.WHIRLWIND,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -582,7 +582,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.VINE_WHIP,5),
                                 new MoveLearnSetEntry(Move.LEECH_SEED,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -652,7 +652,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.ROCK_THROW,5),
                                 new MoveLearnSetEntry(Move.STEALTH_ROCK,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -722,7 +722,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.POISON_STING,5),
                                 new MoveLearnSetEntry(Move.TOXIC,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -792,7 +792,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.EMBER,5),
                                 new MoveLearnSetEntry(Move.AMNESIA,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -862,7 +862,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.BIND,5),
                                 new MoveLearnSetEntry(Move.IRON_DEFENSE,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -932,7 +932,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.WATER_GUN,5),
                                 new MoveLearnSetEntry(Move.WATER_SPORT,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -1002,7 +1002,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.ROUND,5),
                                 new MoveLearnSetEntry(Move.HYPNOSIS,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -1072,7 +1072,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.CONFUSION,5),
                                 new MoveLearnSetEntry(Move.KINESIS,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -1142,7 +1142,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.TWISTER,5),
                                 new MoveLearnSetEntry(Move.DRAGON_DANCE,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),
@@ -1212,7 +1212,7 @@ public class Masgot extends Pokemon {
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
-                                new MoveLearnSetEntry(Move.SANDATTACK,1),
+                                new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                                 new MoveLearnSetEntry(Move.TWISTER,5),
                                 new MoveLearnSetEntry(Move.DRAGON_DANCE,10),
                                 new MoveLearnSetEntry(Move.STRUGGLE_BUG,15),

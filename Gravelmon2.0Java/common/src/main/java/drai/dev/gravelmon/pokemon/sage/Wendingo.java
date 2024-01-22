@@ -72,7 +72,7 @@ public class Wendingo extends Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
                         new MoveLearnSetEntry(Move.AVALANCHE,"tutor"),
                         new MoveLearnSetEntry(Move.COUNTER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.FLING,"tutor"),
                         new MoveLearnSetEntry(Move.ICY_WIND,"tutor"),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tutor"),

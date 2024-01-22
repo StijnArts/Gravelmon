@@ -37,7 +37,7 @@ public class Rynos extends Pokemon {
                         new MoveLearnSetEntry(Move.SONIC_SAND,27),
                         new MoveLearnSetEntry(Move.BULLDOZE,32),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,36),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,40),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,40),
                         new MoveLearnSetEntry(Move.SCREECH,45),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,49),
                         new MoveLearnSetEntry(Move.FISSURE,53),

@@ -22,7 +22,7 @@ public class AyreianCharmander extends Pokemon {
                 List.of(new EvolutionEntry("ayreiancharmeleon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
-                        new MoveLearnSetEntry(Move.SANDATTACK, 1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK, 1),
                         new MoveLearnSetEntry(Move.GROWL, 1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND, 4),
                         new MoveLearnSetEntry(Move.CALM_MIND, 8),

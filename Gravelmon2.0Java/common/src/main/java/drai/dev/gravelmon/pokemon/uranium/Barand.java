@@ -27,7 +27,7 @@ public class Barand extends Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,6),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,6),
                         new MoveLearnSetEntry(Move.LEER,11),
                         new MoveLearnSetEntry(Move.BITE,16),
                         new MoveLearnSetEntry(Move.DRAGON_CLAW,21),

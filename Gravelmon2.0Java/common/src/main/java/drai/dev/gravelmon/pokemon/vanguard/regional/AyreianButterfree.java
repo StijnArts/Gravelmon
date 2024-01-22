@@ -55,7 +55,7 @@ public class AyreianButterfree extends Pokemon {
                         new MoveLearnSetEntry(Move.CONFUSION, "tutor"),
                         new MoveLearnSetEntry(Move.CURSE, "tutor"),
                         new MoveLearnSetEntry(Move.DEFOG, "tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, "tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE, "tutor"),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM, "tutor"),
                         new MoveLearnSetEntry(Move.DRAINING_KISS, "tutor"),
                         new MoveLearnSetEntry(Move.DREAM_EATER, "tutor"),

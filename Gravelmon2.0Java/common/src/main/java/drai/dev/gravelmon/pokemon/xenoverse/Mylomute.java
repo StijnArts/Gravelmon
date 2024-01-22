@@ -38,7 +38,7 @@ public class Mylomute extends Pokemon {
                         new MoveLearnSetEntry(Move.AVALANCHE,1),
                         new MoveLearnSetEntry(Move.HAIL,1),
                         new MoveLearnSetEntry(Move.JET_STRIKE,50),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,54),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,54),
                         new MoveLearnSetEntry(Move.EXTREME_SPEED,60),
                         new MoveLearnSetEntry(Move.BLIZZARD,64),
                         new MoveLearnSetEntry(Move.ROAR,"tm"),

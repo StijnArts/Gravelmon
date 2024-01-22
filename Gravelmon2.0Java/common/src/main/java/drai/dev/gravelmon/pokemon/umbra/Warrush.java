@@ -30,7 +30,7 @@ public class Warrush extends Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,6),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,6),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,10),
                         new MoveLearnSetEntry(Move.BITE,14),
                         new MoveLearnSetEntry(Move.FURY_SWIPES,18),

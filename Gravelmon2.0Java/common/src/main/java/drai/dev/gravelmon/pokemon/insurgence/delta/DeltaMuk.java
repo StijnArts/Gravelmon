@@ -22,7 +22,7 @@ public class DeltaMuk extends Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.HARDEN,4),

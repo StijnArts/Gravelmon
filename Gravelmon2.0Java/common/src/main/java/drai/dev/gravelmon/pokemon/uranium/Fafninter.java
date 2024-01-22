@@ -92,7 +92,7 @@ public class Fafninter extends Pokemon {
                         new MoveLearnSetEntry(Move.CRUNCH,"egg"),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,"egg"),
                         new MoveLearnSetEntry(Move.CURSE,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.SHEER_COLD,"egg"),
                         new MoveLearnSetEntry(Move.ICICLE_CRASH,"egg"),
                         new MoveLearnSetEntry(Move.ICICLE_SPEAR,"egg"),

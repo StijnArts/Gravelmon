@@ -26,7 +26,7 @@ public class Ishiarare extends Pokemon {
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,5),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,5),
                         new MoveLearnSetEntry(Move.ROCK_THROW,9),
                         new MoveLearnSetEntry(Move.SPEEDMITE,14),
                         new MoveLearnSetEntry(Move.ROCK_BLAST,18),

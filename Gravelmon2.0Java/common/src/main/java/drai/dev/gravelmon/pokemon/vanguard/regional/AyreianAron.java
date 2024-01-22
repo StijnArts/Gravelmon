@@ -130,7 +130,7 @@ public class AyreianAron extends Pokemon {
 
                         new MoveLearnSetEntry(Move.MAGNITUDE, "egg"),
                         new MoveLearnSetEntry(Move.ROLLOUT, "egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, "egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE, "egg"),
                         new MoveLearnSetEntry(Move.BLOCK, "egg"),
                         new MoveLearnSetEntry(Move.STEALTH_ROCK, "egg"),
                         new MoveLearnSetEntry(Move.ENDURE, "egg"),

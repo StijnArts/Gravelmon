@@ -43,7 +43,7 @@ public class Tyranos extends Pokemon {
                         new MoveLearnSetEntry(Move.CRUNCH,43),
                         new MoveLearnSetEntry(Move.HAMMER_ARM,48),
                         new MoveLearnSetEntry(Move.SANDSTORM,53),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,57),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,57),
                         new MoveLearnSetEntry(Move.DEVASTATE,61),
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,"tm"),
                         new MoveLearnSetEntry(Move.SPIKES,"tm"),

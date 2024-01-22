@@ -1,0 +1,141 @@
+{
+  "implemented": true,
+  "name": "cocrogue",
+  "nationalPokedexNumber": 2097,
+  "primaryType": "dark",
+  "secondaryType": "bug",
+  "abilities": [
+    "immunity",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 90,
+    "defence": 75,
+    "special_attack": 40,
+    "special_defence": 75,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:scratch",
+    "1:screechsound",
+    "1:quickattack",
+    "1:batonpass",
+    "6:quickattack",
+    "15:detect",
+    "19:pursuit",
+    "24:confuseray",
+    "28:feintattack",
+    "33:bugbuzzsound",
+    "37:agility",
+    "42:slash",
+    "46:xscissor",
+    "51:honeclaws",
+    "55:nightslash",
+    "tm:airslash",
+    "tm:headbutt",
+    "tm:shadowclaw",
+    "tm:substitute",
+    "tm:signalbeam",
+    "tm:darkpulse",
+    "tm:leechseed",
+    "tm:poisonjab",
+    "tm:shadowball",
+    "tm:batonpass",
+    "tm:confuseray",
+    "tm:sludgebomb",
+    "tm:focusblast",
+    "tm:nightslash",
+    "tm:cut",
+    "tm:strength",
+    "tm:rocksmash",
+    "tutor:hiddenpower",
+    "tutor:rest",
+    "tutor:toxic",
+    "tutor:nastyplot",
+    "egg:aerialace",
+    "egg:aircutter",
+    "egg:disable",
+    "egg:doubleteam",
+    "egg:doubleedge",
+    "egg:endure",
+    "egg:falseswipe",
+    "egg:furycutter",
+    "egg:furyswipes",
+    "egg:leechlife",
+    "egg:metalclaw",
+    "egg:safeguard",
+    "egg:silverwind",
+    "egg:snatch",
+    "egg:steelwing",
+    "egg:stringshot",
+    "egg:strugglebug",
+    "egg:sunnyday",
+    "egg:toxic",
+    "egg:vacuumwave",
+    "egg:whirlwind",
+    "egg:wingattack"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cocrogue.desc"
+  ],
+  "preEvolution": "toxroach",
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 12,
+  "weight": 269,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

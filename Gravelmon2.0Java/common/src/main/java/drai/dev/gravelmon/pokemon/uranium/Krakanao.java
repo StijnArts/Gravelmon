@@ -73,6 +73,9 @@ public class Krakanao extends Pokemon {
                 List.of(SpawnPreset.UNDERWATER),
                 0.21, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
         this.setPortraitXYZ(0,1.8,0);
     }
 }

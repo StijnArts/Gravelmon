@@ -45,7 +45,7 @@ public class Herolune extends Pokemon {
                         new MoveLearnSetEntry(Move.HOWL,1),
                         new MoveLearnSetEntry(Move.DUST_KICK,1),
                         new MoveLearnSetEntry(Move.DOUBLE_KICK,1),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.ICE_FANG,"egg"),
                         new MoveLearnSetEntry(Move.QUASH,"egg"),
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"egg"),

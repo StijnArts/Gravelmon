@@ -42,7 +42,7 @@ public class Stackem extends Pokemon {
                         new MoveLearnSetEntry(Move.CROSS_CHOP,48),
                         new MoveLearnSetEntry(Move.STONE_EDGE,54),
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,"egg"),
-                        new MoveLearnSetEntry(Move.SANDATTACK,"egg"),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,"egg"),
                         new MoveLearnSetEntry(Move.SWITCHEROO,"egg")
                 ),
                 List.of(Label.LOCKEMON),

@@ -1,0 +1,123 @@
+{
+  "implemented": true,
+  "name": "keruena",
+  "nationalPokedexNumber": 2187,
+  "primaryType": "dark",
+  "abilities": [
+    "intimidate",
+    "h:quickfeet"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 120,
+    "defence": 90,
+    "special_attack": 70,
+    "special_defence": 65,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 217,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:firefang",
+    "1:thunderfang",
+    "1:icefang",
+    "1:tackle",
+    "1:howlsound",
+    "1:sandattack",
+    "1:bite",
+    "4:howlsound",
+    "7:sandattack",
+    "10:bite",
+    "13:odorsleuth",
+    "16:roarsound",
+    "18:snarl",
+    "20:swagger",
+    "28:scaryface",
+    "32:snatch",
+    "36:taunt",
+    "39:triattack",
+    "42:crunch",
+    "48:yawn",
+    "60:suckerpunch",
+    "tm:toxic",
+    "tm:taunt",
+    "tm:return",
+    "tm:dig",
+    "tm:strength",
+    "tutor:astonish",
+    "tutor:leer",
+    "tutor:poisonfang",
+    "tutor:confide",
+    "tutor:thunderfang",
+    "tutor:icefang",
+    "tutor:firefang",
+    "tutor:spite",
+    "tutor:thief",
+    "tutor:foulplay",
+    "tutor:doubleedge",
+    "egg:yawn",
+    "egg:facade",
+    "egg:uproar",
+    "egg:playrough",
+    "egg:entrainment",
+    "egg:suckerpunch",
+    "egg:covet",
+    "egg:snatch"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.keruena.desc"
+  ],
+  "baseScale": 0.3375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 742,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

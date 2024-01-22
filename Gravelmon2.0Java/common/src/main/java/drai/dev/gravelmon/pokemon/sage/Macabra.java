@@ -86,7 +86,7 @@ public class Macabra extends Pokemon {
                         new MoveLearnSetEntry(Move.PINCER_ATTACK,"tm"),
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.BOUNCE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.FLING,"tutor"),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tutor"),

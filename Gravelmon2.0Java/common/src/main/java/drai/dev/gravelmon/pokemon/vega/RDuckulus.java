@@ -30,7 +30,7 @@ public class RDuckulus extends Pokemon {
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.CROSS_POISON,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.XSCISSOR,1),
                         new MoveLearnSetEntry(Move.LEAF_BLADE,1),
                         new MoveLearnSetEntry(Move.FURY_ATTACK,7),

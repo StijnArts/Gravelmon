@@ -37,7 +37,7 @@ public class KaskadianMarill extends Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_RING,24),
                         new MoveLearnSetEntry(Move.RAIN_DANCE,27),
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,30),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,33),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,33),
                         new MoveLearnSetEntry(Move.POWER_WHIP,36),
                         new MoveLearnSetEntry(Move.AQUA_JET,"egg"),
                         new MoveLearnSetEntry(Move.BELLY_DRUM,"egg"),

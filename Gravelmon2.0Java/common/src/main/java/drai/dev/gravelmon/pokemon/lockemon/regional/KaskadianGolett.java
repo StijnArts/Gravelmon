@@ -91,7 +91,7 @@ public class KaskadianGolett extends Pokemon {
                         new MoveLearnSetEntry(Move.FOCUS_PUNCH,"tm"),
                         new MoveLearnSetEntry(Move.POLTERGEIST,"tm"),
                         new MoveLearnSetEntry(Move.PSYCH_UP,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tm"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tm"),
                         new MoveLearnSetEntry(Move.SCORCHING_SANDS,"tm"),
                         new MoveLearnSetEntry(Move.CURSE,"tm")
                         ),

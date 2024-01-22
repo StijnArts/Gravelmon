@@ -29,7 +29,7 @@ public class Grasquatch extends Pokemon {
                         new MoveLearnSetEntry(Move.LICK,1),
                         new MoveLearnSetEntry(Move.BATON_PASS,1),
                         new MoveLearnSetEntry(Move.HOWL,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,4),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,4),
                         new MoveLearnSetEntry(Move.BITE,7),
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,12),
                         new MoveLearnSetEntry(Move.DIZZY_PUNCH,20),

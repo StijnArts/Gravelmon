@@ -28,7 +28,7 @@ public class Tanscure extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_SLAP,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.HOWL,1),
                         new MoveLearnSetEntry(Move.SUDDEN_STRIKE,1),
                         new MoveLearnSetEntry(Move.ODOR_SLEUTH,10),
@@ -48,7 +48,7 @@ public class Tanscure extends Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,"egg"),
                         new MoveLearnSetEntry(Move.ICE_FANG,"egg"),
                         new MoveLearnSetEntry(Move.THUNDER_FANG,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg")
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg")
                 ),
                 List.of(Label.FLUX),
                 0, List.of(

@@ -24,7 +24,7 @@ public class Karebani extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
-                        new MoveLearnSetEntry(Move.SANDATTACK,7),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,7),
                         new MoveLearnSetEntry(Move.DOUBLE_KICK,10),
                         new MoveLearnSetEntry(Move.LEECH_SEED,13),
                         new MoveLearnSetEntry(Move.BULLET_SEED,16),
@@ -32,7 +32,7 @@ public class Karebani extends Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,24),
                         new MoveLearnSetEntry(Move.ENERGY_BALL,28),
                         new MoveLearnSetEntry(Move.CHARM,32),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,37),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,37),
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,42),
                         new MoveLearnSetEntry(Move.TAKE_DOWN,"tm"),
                         new MoveLearnSetEntry(Move.CHARM,"tm"),

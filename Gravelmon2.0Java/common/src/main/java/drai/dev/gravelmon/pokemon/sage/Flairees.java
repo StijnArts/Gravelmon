@@ -85,7 +85,7 @@ public class Flairees  extends Pokemon {
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.BLAST_BURN,"tutor"),
                         new MoveLearnSetEntry(Move.BOUNCE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.FIRE_PLEDGE,"tutor"),

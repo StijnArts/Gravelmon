@@ -36,7 +36,7 @@ public class Hikiloo extends Pokemon {
                         new MoveLearnSetEntry(Move.AGILITY,39),
                         new MoveLearnSetEntry(Move.AVALANCHE,43),
                         new MoveLearnSetEntry(Move.HAIL,46),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,50),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,50),
                         new MoveLearnSetEntry(Move.ROAR,"tm"),
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
                         new MoveLearnSetEntry(Move.HAIL,"tm"),

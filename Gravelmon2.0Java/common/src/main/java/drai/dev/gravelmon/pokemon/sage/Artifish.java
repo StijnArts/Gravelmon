@@ -84,7 +84,7 @@ public class Artifish extends Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
                         new MoveLearnSetEntry(Move.BUG_BITE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.FLING,"tutor"),

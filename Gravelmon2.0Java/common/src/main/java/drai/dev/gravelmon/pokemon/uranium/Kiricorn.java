@@ -90,7 +90,7 @@ public class Kiricorn extends Pokemon {
                         new MoveLearnSetEntry(Move.UTURN,"tm"),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm"),
                         new MoveLearnSetEntry(Move.DOUBLE_KICK,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.MEGAHORN,"egg"),
                         new MoveLearnSetEntry(Move.DRILL_RUN,"egg"),
                         new MoveLearnSetEntry(Move.SAFEGUARD,"egg"),

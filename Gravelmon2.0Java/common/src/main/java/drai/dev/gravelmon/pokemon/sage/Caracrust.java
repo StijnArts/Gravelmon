@@ -77,7 +77,7 @@ public class Caracrust extends Pokemon {
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.BUG_BITE,"tutor"),
                         new MoveLearnSetEntry(Move.COUNTER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.HYPER_VOICE,"tutor"),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,"tutor"),

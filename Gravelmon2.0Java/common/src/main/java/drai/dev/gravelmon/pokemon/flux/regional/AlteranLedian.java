@@ -26,7 +26,7 @@ public class AlteranLedian extends Pokemon {
                         new MoveLearnSetEntry(Move.AIR_SLASH,1),
                         new MoveLearnSetEntry(Move.AGILITY,1),
                         new MoveLearnSetEntry(Move.BUG_BUZZ,1),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,1),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,1),
                         new MoveLearnSetEntry(Move.MACH_PUNCH,1),

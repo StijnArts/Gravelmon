@@ -36,7 +36,7 @@ public class Rowviar extends Pokemon {
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,30),
                         new MoveLearnSetEntry(Move.CRUNCH,36),
                         new MoveLearnSetEntry(Move.LIQUIDATION,42),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,48),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,48),
                         new MoveLearnSetEntry(Move.ACUPRESSURE,"egg"),
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,"egg"),
                         new MoveLearnSetEntry(Move.SLASH,"egg"),

@@ -73,7 +73,7 @@ public class Pawter extends Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm"),
                         new MoveLearnSetEntry(Move.WATERFALL,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tutor"),
                         new MoveLearnSetEntry(Move.IRON_TAIL,"tutor"),

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "toranya-1",
+      "pokemon": "toranya",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-33",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

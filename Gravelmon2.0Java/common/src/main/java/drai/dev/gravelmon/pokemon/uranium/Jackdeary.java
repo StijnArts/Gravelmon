@@ -107,7 +107,7 @@ public class Jackdeary extends Pokemon {
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,"tm"),
                         new MoveLearnSetEntry(Move.DIG,"tm"),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tm"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tm"),
                         new MoveLearnSetEntry(Move.DRAIN_PUNCH,"tm"),
                         new MoveLearnSetEntry(Move.EGG_BOMB,"tm"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tm"),

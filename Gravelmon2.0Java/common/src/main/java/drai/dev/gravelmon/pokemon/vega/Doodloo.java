@@ -33,7 +33,7 @@ public class Doodloo extends Pokemon {
                         new MoveLearnSetEntry(Move.SKETCH,91)
                         ),
                 List.of(Label.DENEB),
-                0, List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 44, 0.6, List.of(
+                0, List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 44, 5.6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day")

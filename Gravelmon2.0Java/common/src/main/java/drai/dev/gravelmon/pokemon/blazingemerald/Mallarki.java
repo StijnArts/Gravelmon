@@ -52,7 +52,7 @@ public class Mallarki extends Pokemon {
                         new MoveLearnSetEntry(Move.STEEL_WING,"tm"),
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm"),
                         new MoveLearnSetEntry(Move.PECK,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.FURY_CUTTER,1),
                         new MoveLearnSetEntry(Move.WING_ATTACK,4),

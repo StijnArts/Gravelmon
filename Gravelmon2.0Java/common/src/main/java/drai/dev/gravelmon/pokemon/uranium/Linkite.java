@@ -50,7 +50,7 @@ public class Linkite extends Pokemon {
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.DARK_PULSE,"tm"),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tm"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tm"),
                         new MoveLearnSetEntry(Move.DRAIN_PUNCH,"tm"),
                         new MoveLearnSetEntry(Move.DREAM_EATER,"tm"),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,"tm"),

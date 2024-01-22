@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magukigai-1",
+      "pokemon": "magukigai",
+      "presets": [
+          "lava_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "common",
+      "level": "45-66",
+      "weight": 0.02,
+      "condition": {
+
+      }
+    }
+  ]
+}

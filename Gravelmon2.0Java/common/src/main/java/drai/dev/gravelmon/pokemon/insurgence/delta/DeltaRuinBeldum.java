@@ -22,8 +22,8 @@ public class DeltaRuinBeldum extends Pokemon {
                 List.of(new EvolutionEntry("deltaruinmetang", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,1),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.HOLD_BACK,"tutor")
                         ),
                 List.of(Label.GEN3,Label.INSURGENCE),

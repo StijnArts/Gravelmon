@@ -71,7 +71,7 @@ public class Cuppa extends Pokemon {
                         new MoveLearnSetEntry(Move.COUNTER,"egg"),
                         new MoveLearnSetEntry(Move.DELUGE,"egg"),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.FAKE_OUT,"egg"),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,"egg"),
                         new MoveLearnSetEntry(Move.FORESIGHT,"egg"),

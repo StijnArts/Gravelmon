@@ -73,7 +73,7 @@ public class Caranox extends Pokemon {
                         new MoveLearnSetEntry(Move.STANDOFF,"tm"),
                         new MoveLearnSetEntry(Move.PINCER_ATTACK,"tm"),
                         new MoveLearnSetEntry(Move.BUG_BITE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.FLING,"tutor"),
                         new MoveLearnSetEntry(Move.GASTRO_ACID,"tutor"),
                         new MoveLearnSetEntry(Move.HYPER_VOICE,"tutor"),

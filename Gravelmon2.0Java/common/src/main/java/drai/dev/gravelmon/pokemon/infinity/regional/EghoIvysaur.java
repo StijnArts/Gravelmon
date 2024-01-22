@@ -27,7 +27,7 @@ public class EghoIvysaur extends Pokemon {
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.LEECH_SEED,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,6),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,6),
                         new MoveLearnSetEntry(Move.DRY_NEEDLES,8),
                         new MoveLearnSetEntry(Move.BARBED_TACKLE,10),
                         new MoveLearnSetEntry(Move.ABSORB,14),

@@ -45,7 +45,7 @@ public class Tastorture extends Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_LASH,45),
                         new MoveLearnSetEntry(Move.SWIFT,52),
                         new MoveLearnSetEntry(Move.HEAT_CRASH,59),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,66),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,66),
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,73),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm"),
                         new MoveLearnSetEntry(Move.ROAR,"tm"),

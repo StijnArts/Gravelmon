@@ -23,7 +23,7 @@ public class CefiranDiglett extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH, 1),
-                        new MoveLearnSetEntry(Move.SANDATTACK, 1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK, 1),
                         new MoveLearnSetEntry(Move.GROWL, 4),
                         new MoveLearnSetEntry(Move.ASTONISH, 7),
                         new MoveLearnSetEntry(Move.MUDSLAP, 12),

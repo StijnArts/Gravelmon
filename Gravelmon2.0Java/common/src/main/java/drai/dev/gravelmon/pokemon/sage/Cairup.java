@@ -23,7 +23,7 @@ public class Cairup extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"43")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,4),
                         new MoveLearnSetEntry(Move.HYPNOSIS,7),
                         new MoveLearnSetEntry(Move.SAND_TOMB,10),
@@ -75,7 +75,7 @@ public class Cairup extends Pokemon {
                         new MoveLearnSetEntry(Move.SNARL,"tm"),
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm"),
                         new MoveLearnSetEntry(Move.MIRACLE_WILL,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.GRAVITY,"tutor"),
                         new MoveLearnSetEntry(Move.HEAL_BELL,"tutor"),

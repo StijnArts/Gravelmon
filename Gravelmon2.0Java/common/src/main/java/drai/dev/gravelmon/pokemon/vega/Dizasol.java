@@ -75,7 +75,7 @@ public class Dizasol extends Pokemon {
                         new MoveLearnSetEntry(Move.COUNTER,"egg"),
                         new MoveLearnSetEntry(Move.CURSE,"egg"),
                         new MoveLearnSetEntry(Move.DARK_ROAR,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.FEINT_ATTACK,"egg"),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,"egg"),
                         new MoveLearnSetEntry(Move.FURY_CUTTER,"egg"),

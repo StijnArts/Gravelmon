@@ -36,7 +36,7 @@ public class AyreianNumel extends Pokemon {
                         new MoveLearnSetEntry(Move.YAWN, 36),
                         new MoveLearnSetEntry(Move.EARTHQUAKE, 40),
                         new MoveLearnSetEntry(Move.WATER_SPOUT, 43),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 47),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 47),
 
                         new MoveLearnSetEntry(Move.AFTER_YOU, "tutor"),
                         new MoveLearnSetEntry(Move.ATTRACT, "tutor"),

@@ -64,7 +64,7 @@ public class Dislichen extends Pokemon {
                         new MoveLearnSetEntry(Move.WAVE_SPLASH,"tutor"),
                         new MoveLearnSetEntry(Move.ACID_SPRAY,"egg"),
                         new MoveLearnSetEntry(Move.BODY_SLAM,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.GRASS_KNOT,"egg"),
                         new MoveLearnSetEntry(Move.GUARDIAN_LEAF,"egg"),
                         new MoveLearnSetEntry(Move.INGRAIN,"egg"),

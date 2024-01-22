@@ -76,7 +76,7 @@ public class ArmiranSwellow extends Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm"),
                         new MoveLearnSetEntry(Move.DEFOG,"tm"),
                         new MoveLearnSetEntry(Move.FLY,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.CHARGE,"tutor"),
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tutor"),
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tutor"),

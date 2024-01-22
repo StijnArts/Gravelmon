@@ -39,7 +39,7 @@ public class Roytsar extends Pokemon {
                         new MoveLearnSetEntry(Move.OUTRAGE,54),
                         new MoveLearnSetEntry(Move.DRAGON_DANCE,60),
                         new MoveLearnSetEntry(Move.STARDUST,66),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,72),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,72),
                         new MoveLearnSetEntry(Move.PAIN_SPLIT,78),
                         new MoveLearnSetEntry(Move.GIGA_IMPACT,84),
                         new MoveLearnSetEntry(Move.DRACO_METEOR,90),

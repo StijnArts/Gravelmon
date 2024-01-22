@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "mameden",
+  "nationalPokedexNumber": 2205,
+  "primaryType": "electric",
+  "abilities": [
+    "motordrive",
+    "h:magnetpull"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 70,
+    "special_defence": 45,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 208,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "dragon"
+  ],
+  "moves": [
+    "1:charge",
+    "1:tackle",
+    "4:thundershock",
+    "6:eerieimpulse",
+    "9:spark",
+    "11:rollout",
+    "13:screechsound",
+    "16:chargebeam",
+    "20:swiftcosmic",
+    "22:electroball",
+    "26:selfdestruct",
+    "29:lightscreen",
+    "34:magnetrise",
+    "37:discharge",
+    "41:explosion",
+    "46:gyroball",
+    "50:mirrorcoat",
+    "tm:takedown",
+    "tm:agility",
+    "tm:protect",
+    "tm:thief",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:swiftcosmic",
+    "tm:endure",
+    "tm:voltswitch",
+    "tm:raindance",
+    "tm:foulplay",
+    "tm:sleeptalksound",
+    "tm:electroball",
+    "tm:lightscreen",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:taunt",
+    "tm:eerieimpulse",
+    "tm:substitute",
+    "tm:thunderbolt",
+    "tm:helpinghand",
+    "tm:electricterrain",
+    "tm:wildcharge",
+    "tm:thunder",
+    "tm:terablast",
+    "egg:metalsound",
+    "egg:recycle",
+    "egg:psychup",
+    "egg:swiftcosmic",
+    "egg:chargebeam",
+    "egg:zapcannon",
+    "egg:triattack",
+    "egg:barrier",
+    "egg:discharge",
+    "egg:voltswitch",
+    "egg:magiccoat",
+    "egg:dragonrage"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mameden.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "mameden_daiomu",
+      "variant": "level_up",
+      "result": "daiomu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 525,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -29,7 +29,7 @@ public class Cocaran extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,5),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,5),
                         new MoveLearnSetEntry(Move.ABSORB,9),
                         new MoveLearnSetEntry(Move.WATER_GUN,13),
                         new MoveLearnSetEntry(Move.SAND_TOMB,17),

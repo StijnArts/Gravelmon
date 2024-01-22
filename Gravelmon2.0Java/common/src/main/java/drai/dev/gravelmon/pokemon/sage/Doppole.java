@@ -75,7 +75,7 @@ public class Doppole extends Pokemon {
                         new MoveLearnSetEntry(Move.SURF,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
                         new MoveLearnSetEntry(Move.BUG_BITE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tutor"),

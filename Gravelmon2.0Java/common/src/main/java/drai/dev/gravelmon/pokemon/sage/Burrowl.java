@@ -22,7 +22,7 @@ public class Burrowl extends Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.FURY_SWIPES,5),
                         new MoveLearnSetEntry(Move.MUDSLAP,8),
                         new MoveLearnSetEntry(Move.FURY_CUTTER,11),
@@ -76,7 +76,7 @@ public class Burrowl extends Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.COUNTER,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.FLING,"tutor"),
                         new MoveLearnSetEntry(Move.HYPER_VOICE,"tutor"),

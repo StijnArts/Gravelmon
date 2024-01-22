@@ -27,7 +27,7 @@ public class Cactana extends Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.POISON_STING,5),
                         new MoveLearnSetEntry(Move.SAND_TOMB,8),
                         new MoveLearnSetEntry(Move.SYNTHESIS,13),

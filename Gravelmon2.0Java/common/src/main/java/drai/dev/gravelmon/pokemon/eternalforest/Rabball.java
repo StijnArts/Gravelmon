@@ -44,7 +44,7 @@ public class Rabball extends Pokemon {
                         new MoveLearnSetEntry(Move.POWER_GEM, 68),
                         new MoveLearnSetEntry(Move.DARK_PULSE, 72),
                         new MoveLearnSetEntry(Move.NASTY_PLOT, 76),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 82),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 82),
                         new MoveLearnSetEntry(Move.TAUNT, 87),
                         new MoveLearnSetEntry(Move.BADENERGY, 93),
                         new MoveLearnSetEntry(Move.SELFDESTRUCT, 100),

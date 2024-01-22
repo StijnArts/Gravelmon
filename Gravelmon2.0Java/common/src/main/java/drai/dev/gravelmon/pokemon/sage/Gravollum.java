@@ -105,7 +105,7 @@ public class Gravollum extends Pokemon {
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.GRAVITY,"tutor"),
                         new MoveLearnSetEntry(Move.SWIFT,"tutor"),
                         new MoveLearnSetEntry(Move.OMINOUS_WIND,"tutor"),

@@ -80,11 +80,14 @@
   "labels": [
     "gen1",
     "myth",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mythianlapras.desc"
   ],
+  "preEvolution": "pressie",
   "baseScale": 0.46875,
   "hitbox": {
     "width": 3.0,

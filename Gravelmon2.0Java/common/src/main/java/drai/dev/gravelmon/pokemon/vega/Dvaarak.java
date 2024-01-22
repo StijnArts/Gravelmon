@@ -23,7 +23,7 @@ public class Dvaarak extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,6),
                         new MoveLearnSetEntry(Move.SCREECH,10),
                         new MoveLearnSetEntry(Move.METAL_CLAW,15),

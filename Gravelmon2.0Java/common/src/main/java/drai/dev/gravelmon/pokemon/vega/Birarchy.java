@@ -48,7 +48,7 @@ public class Birarchy extends Pokemon {
                         new MoveLearnSetEntry(Move.CORNER,"tutor"),
                         new MoveLearnSetEntry(Move.CONFIDE,"tutor"),
                         new MoveLearnSetEntry(Move.QUICK_TURN,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
                         new MoveLearnSetEntry(Move.OMINOUS_WIND,"tm"),
                         new MoveLearnSetEntry(Move.AIR_SLASH,"tm"),

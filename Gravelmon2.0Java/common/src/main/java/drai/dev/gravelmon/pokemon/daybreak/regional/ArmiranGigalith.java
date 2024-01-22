@@ -26,7 +26,7 @@ public class ArmiranGigalith extends Pokemon {
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.HARDEN,4),
-                        new MoveLearnSetEntry(Move.SANDATTACK,7),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,7),
                         new MoveLearnSetEntry(Move.HEADBUTT,10),
                         new MoveLearnSetEntry(Move.MUD_SHOT,14),
                         new MoveLearnSetEntry(Move.WILLOWISP,17),

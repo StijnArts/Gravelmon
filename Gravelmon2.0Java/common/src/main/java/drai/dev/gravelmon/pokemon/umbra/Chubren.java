@@ -41,7 +41,7 @@ public class Chubren extends Pokemon {
                         new MoveLearnSetEntry(Move.PURSUIT,30),
                         new MoveLearnSetEntry(Move.DRILL_PECK,34),
                         new MoveLearnSetEntry(Move.JUMP_KICK,38),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,42),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,42),
                         new MoveLearnSetEntry(Move.BATON_PASS,46),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm"),
                         new MoveLearnSetEntry(Move.DRAGON_CLAW,"tm"),

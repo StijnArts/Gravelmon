@@ -70,7 +70,7 @@ public class Harpee extends Pokemon {
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.FLY,"tm"),
                         new MoveLearnSetEntry(Move.BOUNCE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tutor"),
                         new MoveLearnSetEntry(Move.MUDSLAP,"tutor"),

@@ -64,7 +64,7 @@ public class ArmiranHippowdon extends Pokemon {
                         new MoveLearnSetEntry(Move.WATERFALL,"tm"),
                         new MoveLearnSetEntry(Move.WATER_PULSE,"tm"),
                         new MoveLearnSetEntry(Move.FROST_RUSH,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.AQUA_RING,"tutor"),
                         new MoveLearnSetEntry(Move.LIQUIDATION,"tutor"),
                         new MoveLearnSetEntry(Move.SCALD,"tutor"),

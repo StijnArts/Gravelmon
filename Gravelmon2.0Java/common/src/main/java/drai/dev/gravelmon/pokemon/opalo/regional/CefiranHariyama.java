@@ -24,7 +24,7 @@ public class CefiranHariyama extends Pokemon {
                         new MoveLearnSetEntry(Move.BRINE, 1),
                         new MoveLearnSetEntry(Move.TACKLE, 1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY, 1),
-                        new MoveLearnSetEntry(Move.SANDATTACK, 4),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK, 4),
                         new MoveLearnSetEntry(Move.CONFUSION, 7),
                         new MoveLearnSetEntry(Move.VACUUM_WAVE, 10),
                         new MoveLearnSetEntry(Move.FAKE_OUT, 13),

@@ -77,7 +77,7 @@ public class Magroplex extends Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tutor"),
                         new MoveLearnSetEntry(Move.AVALANCHE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tutor"),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,"tutor"),
                         new MoveLearnSetEntry(Move.IRON_HEAD,"tutor"),

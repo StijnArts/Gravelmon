@@ -31,7 +31,7 @@ public class Boulderoach extends Pokemon {
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,5),
                         new MoveLearnSetEntry(Move.ROCK_THROW,8),
                         new MoveLearnSetEntry(Move.FURY_CUTTER,12),
-                        new MoveLearnSetEntry(Move.SANDATTACK,16),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,16),
                         new MoveLearnSetEntry(Move.ROLLOUT,20),
                         new MoveLearnSetEntry(Move.BUG_BITE,25),
                         new MoveLearnSetEntry(Move.ROCK_POLISH,29),

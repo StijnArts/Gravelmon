@@ -53,7 +53,7 @@ public class Dokangu extends Pokemon {
                         new MoveLearnSetEntry(Move.CORNER,"tutor"),
                         new MoveLearnSetEntry(Move.CONFIDE,"tutor"),
                         new MoveLearnSetEntry(Move.QUICK_TURN,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.SKY_ATTACK,"tutor"),
 
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),

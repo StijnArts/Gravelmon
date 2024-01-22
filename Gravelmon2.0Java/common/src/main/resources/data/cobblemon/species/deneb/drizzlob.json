@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "drizzlob",
+  "nationalPokedexNumber": 2060,
+  "primaryType": "water",
+  "abilities": [
+    "drizzle",
+    "h:drizzle"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 85,
+    "defence": 75,
+    "special_attack": 105,
+    "special_defence": 85,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 149,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "moves": [
+    "1:defensecurl",
+    "1:tackle",
+    "1:tailwhip",
+    "1:watergun",
+    "1:waterspout",
+    "1:weatherball",
+    "5:watergun",
+    "9:whirlpool",
+    "14:supersonic",
+    "19:icywind",
+    "23:bodyslam",
+    "27:mist",
+    "32:waterpulse",
+    "33:icebeam",
+    "39:aquatail",
+    "45:acidarmor",
+    "51:thunder",
+    "58:reflect",
+    "tm:thunderwave",
+    "tm:headbutt",
+    "tm:amnesia",
+    "tm:substitute",
+    "tm:darkpulse",
+    "tm:icywind",
+    "tm:irontail",
+    "tm:zapcannon",
+    "tm:haze",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:mudbomb",
+    "tm:discharge",
+    "tm:surf",
+    "tm:strength",
+    "tm:flash",
+    "tm:waterfall",
+    "tutor:iciclecrash",
+    "tutor:rest",
+    "tutor:hiddenpower",
+    "tutor:toxic",
+    "tutor:hydropump",
+    "egg:acidspray",
+    "egg:avalanche",
+    "egg:barrier",
+    "egg:bide",
+    "egg:endure",
+    "egg:hail",
+    "egg:iceball",
+    "egg:icebeam",
+    "egg:magiccoat",
+    "egg:mirrorcoat",
+    "egg:muddywater",
+    "egg:poisontail",
+    "egg:protect",
+    "egg:psybeam",
+    "egg:raindance",
+    "egg:recover",
+    "egg:refresh",
+    "egg:safeguard",
+    "egg:scald",
+    "egg:sludgewave",
+    "egg:snatch",
+    "egg:takedown",
+    "egg:tickle",
+    "egg:toxic",
+    "egg:zenheadbutt"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.drizzlob.desc"
+  ],
+  "preEvolution": "lizzle",
+  "baseScale": 0.20625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 433,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

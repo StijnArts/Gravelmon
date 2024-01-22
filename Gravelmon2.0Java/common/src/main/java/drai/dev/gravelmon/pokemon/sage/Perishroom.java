@@ -74,7 +74,7 @@ public class Perishroom extends Pokemon {
                         new MoveLearnSetEntry(Move.SUBSTITUTE,"tm"),
                         new MoveLearnSetEntry(Move.DARK_PULSE,"tm"),
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.GUNK_SHOT,"tutor"),
                         new MoveLearnSetEntry(Move.HYPER_VOICE,"tutor"),
                         new MoveLearnSetEntry(Move.MAGNET_RISE,"tutor"),

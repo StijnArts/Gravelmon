@@ -31,7 +31,7 @@ public class Dunkywunkr extends Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,21),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,26),
                         new MoveLearnSetEntry(Move.RAIN_DANCE,31),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,36),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,36),
                         new MoveLearnSetEntry(Move.CRUNCH,38),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,43),
                         new MoveLearnSetEntry(Move.ICE_FANG,50),

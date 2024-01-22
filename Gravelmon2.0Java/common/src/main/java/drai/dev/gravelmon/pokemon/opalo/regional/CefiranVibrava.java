@@ -23,10 +23,10 @@ public class CefiranVibrava extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SONIC_BOOM, 1),
-                        new MoveLearnSetEntry(Move.SANDATTACK, 1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK, 1),
                         new MoveLearnSetEntry(Move.FEINT_ATTACK, 1),
                         new MoveLearnSetEntry(Move.SAND_TOMB, 1),
-                        new MoveLearnSetEntry(Move.SANDATTACK, 4),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK, 4),
                         new MoveLearnSetEntry(Move.FEINT_ATTACK, 7),
                         new MoveLearnSetEntry(Move.SAND_TOMB, 10),
                         new MoveLearnSetEntry(Move.MUDSLAP, 13),

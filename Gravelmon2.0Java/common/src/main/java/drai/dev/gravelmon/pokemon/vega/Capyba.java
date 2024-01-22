@@ -29,7 +29,7 @@ public class Capyba extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,4),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,4),
                         new MoveLearnSetEntry(Move.MUDSLAP,9),
                         new MoveLearnSetEntry(Move.BULLDOZE,12),
                         new MoveLearnSetEntry(Move.ODOR_SLEUTH,17),
@@ -38,7 +38,7 @@ public class Capyba extends Pokemon {
                         new MoveLearnSetEntry(Move.HELPING_HAND,28),
                         new MoveLearnSetEntry(Move.ENDEAVOR,33),
                         new MoveLearnSetEntry(Move.ENDURE,36),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,41),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,41),
                         new MoveLearnSetEntry(Move.AMNESIA,44),
                         new MoveLearnSetEntry(Move.CRASH_IMPACT,49),
                         new MoveLearnSetEntry(Move.BITE,"tutor"),

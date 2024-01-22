@@ -90,7 +90,7 @@ public class SeviianUrsaring extends Pokemon {
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT, "egg"),
                         new MoveLearnSetEntry(Move.COUNTER, "egg"),
                         new MoveLearnSetEntry(Move.CROSS_CHOP, "egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, "egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE, "egg"),
                         new MoveLearnSetEntry(Move.FAKE_TEARS, "egg"),
                         new MoveLearnSetEntry(Move.METAL_CLAW, "egg"),
                         new MoveLearnSetEntry(Move.NIGHT_SLASH, "egg"),

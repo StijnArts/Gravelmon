@@ -24,7 +24,7 @@ public class Diloweed extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_POLISH,1),
                         new MoveLearnSetEntry(Move.RAPID_SPIN,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,5),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,9),
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,13),

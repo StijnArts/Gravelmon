@@ -23,7 +23,7 @@ public class Grozard extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.GROWL,5),
                         new MoveLearnSetEntry(Move.BULLDOZE,9),
                         new MoveLearnSetEntry(Move.ENDURE,17),

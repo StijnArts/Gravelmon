@@ -28,7 +28,7 @@ public class Ploviey extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,4),
                         new MoveLearnSetEntry(Move.GUST,8),
                         new MoveLearnSetEntry(Move.DEFOG,13),

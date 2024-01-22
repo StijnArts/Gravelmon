@@ -48,7 +48,7 @@ public class Goatanaa extends Pokemon {
                         new MoveLearnSetEntry(Move.FACADE, 90),
                         new MoveLearnSetEntry(Move.WILD_CHARGE, 95),
                         new MoveLearnSetEntry(Move.ACUPRESSURE, 100),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE, 105),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE, 105),
 
                         new MoveLearnSetEntry(Move.ROAR, "tutor"),
                         new MoveLearnSetEntry(Move.HIDDEN_POWER, "tutor"),

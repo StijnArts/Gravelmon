@@ -40,7 +40,7 @@ public class Puugamu extends Pokemon {
                         new MoveLearnSetEntry(Move.MIMIC,28),
                         new MoveLearnSetEntry(Move.GYRO_BALL,32),
                         new MoveLearnSetEntry(Move.HYPER_VOICE,36),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,44),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,44),
                         new MoveLearnSetEntry(Move.TAKE_DOWN,"tm"),
                         new MoveLearnSetEntry(Move.CHARM,"tm"),
                         new MoveLearnSetEntry(Move.FAKE_TEARS,"tm"),

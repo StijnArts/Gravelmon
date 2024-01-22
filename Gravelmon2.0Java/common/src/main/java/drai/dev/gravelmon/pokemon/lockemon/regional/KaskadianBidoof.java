@@ -38,7 +38,7 @@ public class KaskadianBidoof extends Pokemon {
                         new MoveLearnSetEntry(Move.CURSE,49),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"egg"),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.FURY_SWIPES,"egg"),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,"egg"),
                         new MoveLearnSetEntry(Move.ROLLOUT,"egg"),

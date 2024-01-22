@@ -64,7 +64,7 @@ public class Folifarig extends Pokemon {
                         new MoveLearnSetEntry(Move.BODY_SLAM,"tutor"),
                         new MoveLearnSetEntry(Move.MAGIC_COAT,"tutor"),
                         new MoveLearnSetEntry(Move.FUTURE_SIGHT,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.PSYBURN,"tutor"),
                         new MoveLearnSetEntry(Move.ECTOBLAST,"egg"),
                         new MoveLearnSetEntry(Move.FORESIGHT,"egg"),

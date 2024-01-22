@@ -76,7 +76,7 @@ public class Skelachone extends Pokemon {
                         new MoveLearnSetEntry(Move.CURSED_WRATH,"egg"),
                         new MoveLearnSetEntry(Move.DISABLE,"egg"),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.DRILL_RUN,"egg"),
                         new MoveLearnSetEntry(Move.FROSTBITE,"egg"),
                         new MoveLearnSetEntry(Move.ICE_BEAM,"egg"),

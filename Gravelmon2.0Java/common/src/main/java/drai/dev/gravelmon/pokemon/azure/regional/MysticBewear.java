@@ -32,7 +32,7 @@ public class MysticBewear extends Pokemon {
                         new MoveLearnSetEntry(Move.SPITE,28),
                         new MoveLearnSetEntry(Move.AGILITY,32),
                         new MoveLearnSetEntry(Move.SHADOW_CLAW,36),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,40),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,40),
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,44),
                         new MoveLearnSetEntry(Move.DRAIN_PUNCH,48)
                 ),

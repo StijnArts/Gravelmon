@@ -22,7 +22,7 @@ public class Cardinite extends Pokemon {
                 List.of(new EvolutionEntry("chardinal", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
-                        new MoveLearnSetEntry(Move.SANDATTACK,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.GUST,1),
                         new MoveLearnSetEntry(Move.FURY_ATTACK,5),
                         new MoveLearnSetEntry(Move.MUD_SPORT,8),

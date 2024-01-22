@@ -23,7 +23,7 @@ public class AyreianCharmeleon extends Pokemon {
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPIRIT_BREAK, 1),
-                        new MoveLearnSetEntry(Move.SANDATTACK, 1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK, 1),
                         new MoveLearnSetEntry(Move.GROWL, 1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND, 4),
                         new MoveLearnSetEntry(Move.CALM_MIND, 8),

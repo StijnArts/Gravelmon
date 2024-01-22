@@ -79,7 +79,7 @@ public class Jaguile extends Pokemon {
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm"),
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.BOUNCE,"tutor"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"tutor"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"tutor"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tutor"),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tutor"),
                         new MoveLearnSetEntry(Move.HYPER_VOICE,"tutor"),

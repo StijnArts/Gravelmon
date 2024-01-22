@@ -13,6 +13,19 @@
      "minLevel": 36
     }
    ]
+  },
+  {
+   "id": "chimecho_karakoron",
+   "variant": "level_up",
+   "result": "karakoron",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "has_move",
+     "move": "hypervoice"
+    }
+   ]
   }
  ],
    "moves": [
@@ -30,6 +43,7 @@
     "32:uproar",
     "37:safeguard",
     "42:doubleedge",
+    "44:hypervoice",
     "46:psychic",
     "47:healpulse",
     "egg:cosmicpower",

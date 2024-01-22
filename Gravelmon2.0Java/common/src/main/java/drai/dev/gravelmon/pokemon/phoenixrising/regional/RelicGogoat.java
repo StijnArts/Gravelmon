@@ -25,7 +25,7 @@ public class RelicGogoat extends Pokemon {
                         new MoveLearnSetEntry(Move.AERIAL_ACE,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
-                        new MoveLearnSetEntry(Move.SANDATTACK,5),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,5),
                         new MoveLearnSetEntry(Move.ROCK_THROW,8),
                         new MoveLearnSetEntry(Move.LEECH_SEED,11),
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,14),

@@ -43,7 +43,7 @@ public class Ambilade extends Pokemon {
                         new MoveLearnSetEntry(Move.STARDUST,43),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,48),
                         new MoveLearnSetEntry(Move.YAWN,53),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,56),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,56),
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,"tm"),
                         new MoveLearnSetEntry(Move.SPIKES,"tm"),
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,"tm"),

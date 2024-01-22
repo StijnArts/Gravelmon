@@ -42,7 +42,7 @@ public class Armarauder extends Pokemon {
                         new MoveLearnSetEntry(Move.STEAMROLLER,34),
                         new MoveLearnSetEntry(Move.SUBMISSION,40),
                         new MoveLearnSetEntry(Move.ENDEAVOR,45),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,50),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,50),
                         new MoveLearnSetEntry(Move.STEEL_ROLLER,55),
                         new MoveLearnSetEntry(Move.HEAD_SMASH,61),
                         new MoveLearnSetEntry(Move.SHIFT_GEAR,66),

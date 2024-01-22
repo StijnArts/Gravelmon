@@ -32,10 +32,10 @@ public class GameRegistry {
         games.add(new Lockemon());
         games.add(new Umbra());
         games.add(new BlazingEmerald());
+        games.add(new EmeraldZ());
         games.add(new Daybreak());
         games.add(new Vanguard());
         games.add(new Myth());
-        games.add(new Vega());
         games.add(new Deneb());
     }
 }

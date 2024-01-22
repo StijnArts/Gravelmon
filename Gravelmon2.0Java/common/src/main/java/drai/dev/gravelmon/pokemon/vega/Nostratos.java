@@ -65,7 +65,7 @@ public class Nostratos extends Pokemon {
                         new MoveLearnSetEntry(Move.WAVE_SPLASH,"tutor"),
                         new MoveLearnSetEntry(Move.AIR_CUTTER,"egg"),
                         new MoveLearnSetEntry(Move.AURORA_BEAM,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.DRAGON_BREATH,"egg"),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,"egg"),
                         new MoveLearnSetEntry(Move.FIRE_FANG,"egg"),

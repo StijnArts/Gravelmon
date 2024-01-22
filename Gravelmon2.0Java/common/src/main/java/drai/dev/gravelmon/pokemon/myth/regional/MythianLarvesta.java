@@ -33,7 +33,7 @@ public class MythianLarvesta extends Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC,42),
                         new MoveLearnSetEntry(Move.TAKE_DOWN,48),
                         new MoveLearnSetEntry(Move.AMNESIA,54),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,60),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,60),
                         new MoveLearnSetEntry(Move.MOONBLAST,66),
                         new MoveLearnSetEntry(Move.STRING_SHOT,"egg"),
                         new MoveLearnSetEntry(Move.HARDEN,"egg"),

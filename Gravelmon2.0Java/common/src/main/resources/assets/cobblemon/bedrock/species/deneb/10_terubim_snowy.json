@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:terubim",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "snowy"
+     ],
+      "poser": "cobblemon:deneb_terubim",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/snowy_terubim.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "snowy",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/snowy_terubim_shiny.png"
+    }  ]
+}

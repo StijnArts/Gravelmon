@@ -71,7 +71,7 @@ public class Blitzune extends Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tutor"),
                         new MoveLearnSetEntry(Move.BLOCK,"egg"),
                         new MoveLearnSetEntry(Move.CRASH_IMPACT,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.FLAIL,"egg"),
                         new MoveLearnSetEntry(Move.FLASH_CANNON,"egg"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"egg"),

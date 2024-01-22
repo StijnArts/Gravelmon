@@ -24,7 +24,7 @@ public class CefiranDugtrio extends Pokemon {
                         new MoveLearnSetEntry(Move.NIGHT_SLASH, 1),
                         new MoveLearnSetEntry(Move.TRI_ATTACK, 1),
                         new MoveLearnSetEntry(Move.SCRATCH, 1),
-                        new MoveLearnSetEntry(Move.SANDATTACK, 1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK, 1),
                         new MoveLearnSetEntry(Move.GROWL, 1),
                         new MoveLearnSetEntry(Move.GROWL, 4),
                         new MoveLearnSetEntry(Move.ASTONISH, 7),

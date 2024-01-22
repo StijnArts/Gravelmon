@@ -45,7 +45,7 @@ public class Lunapup extends Pokemon {
                         new MoveLearnSetEntry(Move.HIGH_HORSEPOWER,50),
                         new MoveLearnSetEntry(Move.ENTRAINMENT,55),
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,57),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.ICE_FANG,"egg"),
                         new MoveLearnSetEntry(Move.QUASH,"egg"),
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"egg"),

@@ -60,7 +60,7 @@ public class Floatusk extends Pokemon {
                         new MoveLearnSetEntry(Move.LIQUIDATION,"egg"),
                         new MoveLearnSetEntry(Move.THRASH,"egg"),
                         new MoveLearnSetEntry(Move.HAMMER_ARM,"egg"),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,"egg"),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,"egg"),
                         new MoveLearnSetEntry(Move.SECRET_POWER,"tutor")
                         ),
                 List.of(Label.XENOVERSE),

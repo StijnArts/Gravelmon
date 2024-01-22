@@ -29,7 +29,7 @@ public class Diastryx extends Pokemon {
                         new MoveLearnSetEntry(Move.CRUSH_CLAW,1),
                         new MoveLearnSetEntry(Move.ACCELEROCK,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,1),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),

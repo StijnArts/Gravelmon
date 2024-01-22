@@ -37,7 +37,7 @@ public class EghoAzumarill extends Pokemon {
                         new MoveLearnSetEntry(Move.ASSURANCE,36),
                         new MoveLearnSetEntry(Move.FLING,42),
                         new MoveLearnSetEntry(Move.ARM_THRUST,46),
-                        new MoveLearnSetEntry(Move.DOUBLE_EDGE,50),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,50),
                         new MoveLearnSetEntry(Move.HAMMER_ARM,60),
                         new MoveLearnSetEntry(Move.ROAR,"tm"),
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
