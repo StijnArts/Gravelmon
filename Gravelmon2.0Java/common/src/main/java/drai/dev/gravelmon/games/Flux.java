@@ -8,7 +8,6 @@ public class Flux extends Game {
 
     @Override
     public void registerPokemon() {
-        //TODO STARTER SET
         pokemon.add(new Mozz());
         pokemon.add(new Mosseer());
         pokemon.add(new Daemoth());

@@ -43,7 +43,6 @@ public class GenerationTwo extends Game {
         pokemon.add(new ArmiranTyranitar(248));
 
         //Vanguard
-        //TODO STARTER SET
         pokemon.add(new AyreianChikorita(152));
         pokemon.add(new AyreianBayleef(153));
         pokemon.add(new AyreianMeganium(154));
@@ -136,7 +135,6 @@ public class GenerationTwo extends Game {
 
     private void registerPokemonInfinityForms() {
         //Pokemon Infinity
-        //TODO STARTER SET
         pokemon.add(new EghoChikorita(152));
         pokemon.add(new EghoBayleef(153));
         pokemon.add(new EghoMeganium(154));

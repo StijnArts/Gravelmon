@@ -10,7 +10,6 @@ public class EternalForest extends Game {
 
     @Override
     public void registerPokemon() {
-        //TODO STARTER SET
         pokemon.add(new Smettle());
         pokemon.add(new Smyucca());
         pokemon.add(new Demonagave());

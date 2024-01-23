@@ -8,7 +8,6 @@ public class Umbra extends Game {
 
     @Override
     public void registerPokemon() {
-        //TODO STARTER SET
         pokemon.add(new Psypole());
         pokemon.add(new Telefrog());
         pokemon.add(new Tarotoad());

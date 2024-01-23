@@ -7,8 +7,7 @@
     "CobblemonPlacedFeaturesMixin",
     "PokeBallsMixin",
     "CobblemonItemsMixin",
-    "PokeBallMixin",
-    "PokemonPropertiesMixin"
+    "PokeBallMixin"
   ],
   "client": [
   ],

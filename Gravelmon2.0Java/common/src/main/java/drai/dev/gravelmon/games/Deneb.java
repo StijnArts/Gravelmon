@@ -8,7 +8,6 @@ public class Deneb extends Game {
 
     @Override
     public void registerPokemon() {
-        // TODO Starter set
         pokemon.add(new Nimbleaf());
         pokemon.add(new Leafrond());
         pokemon.add(new Syleafid());
@@ -98,7 +97,6 @@ public class Deneb extends Game {
         pokemon.add(new Almaria());
         pokemon.add(new Asphere());
 
-        //TODO STARTER SET
         pokemon.add(new Basille());
         pokemon.add(new Basield());
         pokemon.add(new Basilux());
