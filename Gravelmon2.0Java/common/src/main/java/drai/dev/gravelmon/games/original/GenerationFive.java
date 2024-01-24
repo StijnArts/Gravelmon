@@ -21,6 +21,8 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new AvorianMaractus(556));
+
         //Pokemon Infinity
         pokemon.add(new EghoTrubbish(568));
         pokemon.add(new EghoGarbodor(569));

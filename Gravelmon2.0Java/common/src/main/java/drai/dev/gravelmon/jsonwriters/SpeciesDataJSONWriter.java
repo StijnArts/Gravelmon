@@ -4,6 +4,7 @@ import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 import org.jetbrains.annotations.*;
 
 import java.io.*;

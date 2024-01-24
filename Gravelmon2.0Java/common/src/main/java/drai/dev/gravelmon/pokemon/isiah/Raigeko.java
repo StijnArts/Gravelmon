@@ -1,0 +1,42 @@
+package drai.dev.gravelmon.pokemon.isiah;
+
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
+
+public class Raigeko extends drai.dev.gravelmon.pokemon.Pokemon {
+    public Raigeko() {
+        super("Raigeko",
+                Type.ELECTRIC,
+                new Stats(0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0),
+                List.of(Ability.SUCTION_CUPS), Ability.STATIC,
+                8, 165,
+                new Stats(0,0,0,0,0,0), 0,
+                0.5,
+                0, ExperienceGroup.MEDIUM_FAST,
+                70,
+                50, List.of(EggGroup.FIELD),
+                List.of("- Lick Ghost - Leer Normal - Feint Attack Dark - Thunder PunchSTAB Electric"),
+                List.of(),
+                List.of(
+                        new MoveLearnSetEntry(Move.THUNDER_PUNCH,1)                        ),
+                List.of(Label.ISIAH),
+                0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
+           setLangFileName("Raigeko");
+
+    }
+
+
+}

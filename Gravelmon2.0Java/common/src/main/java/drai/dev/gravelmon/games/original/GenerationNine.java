@@ -23,5 +23,6 @@ public class GenerationNine extends Game {
         pokemon.add(new AyreianQuaxwell(913));
         pokemon.add(new AyreianQuaquaval(914));
 
+//        pokemon.add(new AvorianCetitan(975));
     }
 }

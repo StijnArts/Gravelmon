@@ -21,6 +21,10 @@ public class GenerationTwo extends Game {
 
     @Override
     public void registerPokemon() {
+
+//        pokemon.add(new AvorianMareep(179));
+//        pokemon.add(new AvorianFlaaffy(180));
+
         registerPokemonInfinityForms();
 
         registerInsurganceForms();

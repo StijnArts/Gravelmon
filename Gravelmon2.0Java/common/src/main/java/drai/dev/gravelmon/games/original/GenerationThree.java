@@ -20,6 +20,9 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
+
+//        pokemon.add(new AvorianRoselia(315));
+
         addEghoPokemon();
 
         addDeltaPokemon();

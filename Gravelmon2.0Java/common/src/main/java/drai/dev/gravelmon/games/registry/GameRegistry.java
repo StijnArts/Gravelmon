@@ -26,6 +26,7 @@ public class GameRegistry {
         games.add(new Opal());
         games.add(new Insurgence());
         games.add(new Xenoverse());
+//        games.add(new Avoris());
         games.add(new Uranium());
         games.add(new Flux());
         games.add(new EternalForest());
@@ -36,5 +37,6 @@ public class GameRegistry {
         games.add(new Vanguard());
         games.add(new Myth());
         games.add(new Deneb());
+//        games.add(new Atlas());
     }
 }

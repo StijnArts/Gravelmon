@@ -23,6 +23,8 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new AvorianMrMime(122));
+
         //Pokemon Infinity
         addEghoPokemon();
 

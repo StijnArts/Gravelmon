@@ -37,7 +37,17 @@ public enum Label {
     AZURE("azure"),
     OPAL("opal"),
     ETERNAL_FOREST("eternal_forest"),
-    UMBRA("umbra"), DENEB("deneb");
+    UMBRA("umbra"),
+    DENEB("deneb"),
+    ATLAS("atlas"),
+    AVORIS("avoris"),
+    ENRIKO("enriko"),
+    FERROA("ferroa"),
+    INTERREGIONAL("interregional"),
+    JUNNIN("junnin"),
+    LONAVA("lonava"),
+    MYTHIRE("mythire"),
+    NOVRAI("novrai"), OKENO("okeno"), OROHNHAVAI("orohnhavai"), QAMOR("qamor"), VARITAS("varitas"), RICA("rica"), MIDAMIS("midamis"), NORHEIM("norheim"), ARISTOS("aristos"), HIZA("hiza"), NOSTO("nosto"), HUB("hub"), ISIAH("isiah"), OCEANE("oceane");
     private String name;
     Label(String name){
         this.name = name;

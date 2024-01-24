@@ -1,0 +1,110 @@
+package drai.dev.gravelmon.games.pokemmo;
+
+public class Lonava extends drai.dev.gravelmon.games.registry.Game {
+    public Lonava() {
+        super("Lonava");
+    }
+
+    @Override
+    public void registerPokemon() {
+//        pokemon.add(new Aeroluga());
+//        pokemon.add(new Aetumnal());
+//        pokemon.add(new Agapray());
+//        pokemon.add(new Agog());
+//        pokemon.add(new Alpacurrent());
+//        pokemon.add(new Altarock());
+//        pokemon.add(new Ammutt());
+//        pokemon.add(new Angloch());
+//        pokemon.add(new Auroreal());
+//        pokemon.add(new Avocadoze());
+//        pokemon.add(new Avocallite());
+//        pokemon.add(new Balloonga());
+//        pokemon.add(new Blizzarcher());
+//        pokemon.add(new Bluboon());
+//        pokemon.add(new Bodmeast());
+//        pokemon.add(new Bodmess());
+//        pokemon.add(new Boilink());
+//        pokemon.add(new Boongus());
+//        pokemon.add(new Brunelectric());
+//        pokemon.add(new Burnshee());
+//        pokemon.add(new Caltarcite());
+//        pokemon.add(new Caprihorn());
+//        pokemon.add(new Carvesque());
+//        pokemon.add(new Chainsnail());
+//        pokemon.add(new Chalker());
+//        pokemon.add(new Charitot());
+//        pokemon.add(new Chooft());
+//        pokemon.add(new Cladobe());
+//        pokemon.add(new Conedian());
+//        pokemon.add(new Corobelisk());
+//        pokemon.add(new Cygnicuffs());
+//        pokemon.add(new Deerie());
+//        pokemon.add(new Demagog());
+//        pokemon.add(new Dimwraith());
+//        pokemon.add(new Dolphin1());
+//        pokemon.add(new Dolphin2());
+//        pokemon.add(new Dorhouse());
+//        pokemon.add(new Dousear());
+//        pokemon.add(new Dragimo());
+//        pokemon.add(new Drakkoar());
+//        pokemon.add(new Druidune());
+//        pokemon.add(new Eldorchard());
+//        pokemon.add(new Enchantice());
+//        pokemon.add(new Escutchidae());
+//        pokemon.add(new Eucharite());
+//        pokemon.add(new Faeleaf());
+//        pokemon.add(new Finpact());
+//        pokemon.add(new Flightjar());
+//        pokemon.add(new Foreminn());
+//        pokemon.add(new Gassault());
+//        pokemon.add(new Geyseror());
+//        pokemon.add(new Gobbeel());
+//        pokemon.add(new Grainghoul());
+//        pokemon.add(new Herburrow());
+//        pokemon.add(new Hogrump());
+//        pokemon.add(new Honkream());
+//        pokemon.add(new Humpeat());
+//        pokemon.add(new Inviseel());
+//        pokemon.add(new Jamphibian());
+//        pokemon.add(new Jarmalade());
+//        pokemon.add(new Kitsunny());
+//        pokemon.add(new Kyuukit());
+//        pokemon.add(new Leilyne());
+//        pokemon.add(new Mellowick());
+//        pokemon.add(new Monumoon());
+//        pokemon.add(new Moortaur());
+//        pokemon.add(new Morbod());
+//        pokemon.add(new Morbotch());
+//        pokemon.add(new Mossowl());
+//        pokemon.add(new Mouhemian());
+//        pokemon.add(new Nomadent());
+//        pokemon.add(new Oogashroomga());
+//        pokemon.add(new Pagune());
+//        pokemon.add(new Palodefena());
+//        pokemon.add(new Paloshield());
+//        pokemon.add(new Pointriever());
+//        pokemon.add(new Professherb());
+//        pokemon.add(new Punkyhunk());
+//        pokemon.add(new Pussour());
+//        pokemon.add(new Redear());
+//        pokemon.add(new Rewaxation());
+//        pokemon.add(new Scaldrip());
+//        pokemon.add(new Slackonch());
+//        pokemon.add(new Sneep());
+//        pokemon.add(new Sphagern());
+//        pokemon.add(new Standeolith());
+//        pokemon.add(new Stug());
+//        pokemon.add(new Swallop());
+//        pokemon.add(new Tentaclubble());
+//        pokemon.add(new Tentpest());
+//        pokemon.add(new Terrapir());
+//        pokemon.add(new Terrapotta());
+//        pokemon.add(new Theragong());
+//        pokemon.add(new Threemasune());
+//        pokemon.add(new Whud());
+//        pokemon.add(new Wicruet());
+//        pokemon.add(new Willowanne());
+//        pokemon.add(new Yoink());
+    }
+
+}
