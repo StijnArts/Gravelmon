@@ -1,0 +1,110 @@
+{
+  "implemented": true,
+  "name": "avorianmrmime",
+  "nationalPokedexNumber": 122,
+  "primaryType": "fighting",
+  "secondaryType": "fairy",
+  "abilities": [
+    "vitalspirit",
+    "h:ironfist"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 65,
+    "special_attack": 55,
+    "special_defence": 90,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 0,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 0,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+
+  ],
+  "moves": [
+    "1:confusion",
+    "1:detect",
+    "1:firepunch",
+    "1:icepunch",
+    "1:thunderpunch",
+    "1:workup",
+    "12:endure",
+    "15:feint",
+    "17:forcepalm",
+    "20:psybeam",
+    "23:calmmind",
+    "25:zenheadbutt",
+    "28:highjumpkick",
+    "31:psychup",
+    "33:acupressure",
+    "36:powertrick",
+    "47:recover",
+    "53:axekick",
+    "53:counter",
+    "egg:hypnosis",
+    "egg:mimic",
+    "egg:confuseray",
+    "egg:charm",
+    "egg:futuresight",
+    "egg:fakeout",
+    "egg:teeterdance",
+    "egg:wakeupslap",
+    "egg:healingwish",
+    "egg:nastyplot",
+    "egg:powersplit",
+    "egg:psychicterrain"  ],
+  "labels": [
+    "avoris",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.avorianmrmime.desc"
+  ],
+  "baseScale": 0.2625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 590,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

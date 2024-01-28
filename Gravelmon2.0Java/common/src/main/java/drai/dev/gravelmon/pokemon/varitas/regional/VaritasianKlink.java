@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianKlink extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianKlink() {
-        super("Klink",
+    public VaritasianKlink(int dex) {
+        super(dex, "Klink",
                 Type.STEEL,Type.GROUND,
                 new Stats(40,
                         55,
@@ -17,14 +17,15 @@ public class VaritasianKlink extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         30),
                 List.of(Ability.PLUS,Ability.MINUS,Ability.SPEED_BOOST), Ability.SPEED_BOOST,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 130,
                 0.0,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("At the price of one minigear atrophying, it has now developed a somewhat soft, flexible outer membrane. Though it often floats, its seems to enjoy rolling along the ground, as it helps it both move faster and generate energy faster."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasianklang", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VISE_GRIP,1),
                         new MoveLearnSetEntry(Move.CHARGE,6),
@@ -76,8 +77,8 @@ public class VaritasianKlink extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 30, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

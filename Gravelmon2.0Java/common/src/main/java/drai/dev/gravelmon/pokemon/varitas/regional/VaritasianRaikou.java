@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianRaikou extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianRaikou() {
-        super("Raikou",
+    public VaritasianRaikou(int dex) {
+        super(dex,"Raikou",
                 Type.GHOST,Type.ELECTRIC,
                 new Stats(90,
                         85,
@@ -17,7 +17,7 @@ public class VaritasianRaikou extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         115),
                 List.of(Ability.PRESSURE), Ability.INNER_FOCUS,
-                8, 165,
+                19, 165,
                 new Stats(0,0,0,1,0,2), 3,
                 0.0,
                 261, ExperienceGroup.SLOW,
@@ -91,9 +91,9 @@ public class VaritasianRaikou extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, 0.000005, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

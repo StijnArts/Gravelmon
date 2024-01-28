@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianVenomoth extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianVenomoth() {
-        super("Venomoth",
+    public HizianVenomoth(int dex) {
+        super(dex, "Venomoth",
                 Type.BUG,Type.ELECTRIC,
                 new Stats(80,
                         65,
@@ -15,7 +15,7 @@ public class HizianVenomoth extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         90),
                 List.of(Ability.OVERCHARGED), Ability.OVERCHARGED,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,1,0,1), 75,
                 0.5,
                 158, ExperienceGroup.MEDIUM_FAST,
@@ -75,15 +75,15 @@ public class HizianVenomoth extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 45, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Venomoth");
-
+setCanFly(true);
     }
 
 

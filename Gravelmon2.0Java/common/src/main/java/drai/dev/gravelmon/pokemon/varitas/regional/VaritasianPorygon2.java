@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianPorygon2 extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianPorygon2() {
-        super("Porygon2",
+    public VaritasianPorygon2(int dex) {
+        super(dex, "Porygon2",
                 Type.NORMAL,Type.BUG,
                 new Stats(85,
                         105,
@@ -17,14 +17,15 @@ public class VaritasianPorygon2 extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         60),
                 List.of(Ability.TRACE,Ability.DOWNLOAD,Ability.ANALYTIC), Ability.ANALYTIC,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.0,
                 180, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Continued tampering allowed Porygon to successfully evolve. It still exhibits many glitches but is now well-made enough to pass Silph Co. software compatibility checks which can make it potentially dangerous."),
-                List.of(),
+                List.of(new EvolutionEntry("porygon0", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:upgrade")),
                 List.of(
                         new MoveLearnSetEntry(Move.STICKY_WEB,1),
                         new MoveLearnSetEntry(Move.PECK,7),
@@ -117,11 +118,11 @@ public class VaritasianPorygon2 extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLASH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 52, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Porygon2");

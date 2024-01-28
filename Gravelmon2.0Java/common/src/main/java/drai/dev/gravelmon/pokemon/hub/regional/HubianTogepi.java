@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HubianTogepi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HubianTogepi() {
-        super("Togepi",
+    public HubianTogepi(int dex) {
+        super(dex,"Togepi",
                 Type.FAIRY,
                 new Stats(35,
                         20,
@@ -15,14 +15,15 @@ public class HubianTogepi extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         20),
                 List.of(Ability.HUSTLE,Ability.SERENE_GRACE,Ability.SUPER_LUCK), Ability.SUPER_LUCK,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.875,
                 49, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("The shell seems to be filled with joy. It is said that it will share good luck when treated kindly."),
-                List.of(),
+                List.of(new EvolutionEntry("hubiantogetic", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.METRONOME,5),
@@ -127,7 +128,7 @@ public class HubianTogepi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 4, 24, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

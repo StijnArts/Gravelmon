@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianVictreebel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianVictreebel() {
-        super("Victreebel",
+    public AristosianVictreebel(int dexNo) {
+        super(dexNo,"AristosianVictreebel",
                 Type.GRASS,Type.FIRE,
                 new Stats(80,
                         90,
@@ -17,7 +17,7 @@ public class AristosianVictreebel extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         70),
                 List.of(Ability.CHLOROPHYLL), Ability.FLASH_FIRE,
-                8, 165,
+                15, 131,
                 new Stats(0,0,0,3,0,0), 45,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,
@@ -96,8 +96,8 @@ public class AristosianVictreebel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH_SAP,"tm")                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 49, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

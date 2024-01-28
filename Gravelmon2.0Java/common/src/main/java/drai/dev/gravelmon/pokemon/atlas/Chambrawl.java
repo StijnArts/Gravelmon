@@ -15,7 +15,7 @@ public class Chambrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         68),
                 List.of(Ability.TORRENT), Ability.IRON_FIST,
-                8, 165,
+                17, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -88,15 +88,16 @@ public class Chambrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Chambrawl");
-
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
     }
 
 

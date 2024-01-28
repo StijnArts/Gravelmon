@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianOnix extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianOnix() {
-        super("Onix",
+    public VaritasianOnix(int dex) {
+        super(dex, "VaritasianOnix",
                 Type.ROCK,Type.PSYCHIC,
                 new Stats(35,
                         45,
@@ -17,7 +17,7 @@ public class VaritasianOnix extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         70),
                 List.of(Ability.LEVITATE,Ability.STURDY,Ability.WEAK_ARMOR), Ability.WEAK_ARMOR,
-                8, 165,
+                42, 165,
                 new Stats(0,0,1,0,0,0), 45,
                 0.5,
                 77, ExperienceGroup.MEDIUM_FAST,
@@ -120,9 +120,8 @@ public class VaritasianOnix extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROTOTILLER,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 14, 39, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -17,7 +17,7 @@ public class Kvadract extends drai.dev.gravelmon.pokemon.Pokemon {
                         157,
                         89),
                 List.of(Ability.BEAST_BOOST), Ability.BEAST_BOOST,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,0,0), 0,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
@@ -42,9 +42,8 @@ public class Kvadract extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOUL_PLAY,73)                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 56, 67, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

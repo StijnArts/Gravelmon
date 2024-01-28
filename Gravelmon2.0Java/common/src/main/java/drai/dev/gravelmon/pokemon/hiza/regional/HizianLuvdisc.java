@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianLuvdisc extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianLuvdisc() {
-        super("Luvdisc",
+    public HizianLuvdisc(int dex) {
+        super(dex, "Luvdisc",
                 Type.GHOST,Type.WATER,
                 new Stats(43,
                         30,
@@ -22,7 +22,8 @@ public class HizianLuvdisc extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Its said to appear to those who lost their loved ones. Its sight was dreaded by sailors with family at home."),
-                List.of(),
+                List.of(new EvolutionEntry("luvanguish", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,4),
@@ -43,15 +44,18 @@ public class HizianLuvdisc extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PHANTOM_FORCE,49)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 8, 33, 10, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Luvdisc");
-
+            setCanBreathUnderwater(true);
+            setAvoidsLand(true);
+            setCanSwim(true);
     }
 
 

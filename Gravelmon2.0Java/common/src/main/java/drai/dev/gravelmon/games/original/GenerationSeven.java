@@ -5,8 +5,11 @@ import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.nosto.regional.*;
+import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
+import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationSeven extends Game {
@@ -16,6 +19,14 @@ public class GenerationSeven extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new QamoranSandygast(769));
+
+//        pokemon.add(new NostanMorelull(755)); NOT FINISHED
+//        pokemon.add(new NostanShiinotic(756)); NOT FINISHED
+
+        pokemon.add(new VaritasianBounsweet(761));
+        pokemon.add(new VaritasianSteenee(762));
+
         //X-Species (Xenoverse)
         pokemon.add(new MareanieX(747));
         pokemon.add(new ToxapexX(748));

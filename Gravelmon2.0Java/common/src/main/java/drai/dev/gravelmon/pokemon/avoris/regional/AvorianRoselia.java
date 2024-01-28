@@ -6,8 +6,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class AvorianRoselia extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AvorianRoselia() {
-        super("Roselia",
+    public AvorianRoselia(int dex) {
+        super(dex,"AvorianRoselia",
                 Type.GRASS,Type.FIRE,
                 new Stats(50,
                         60,
@@ -16,7 +16,7 @@ public class AvorianRoselia extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         65),
                 List.of(Ability.NATURAL_CURE,Ability.FLASH_FIRE,Ability.LEAF_GUARD), Ability.LEAF_GUARD,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,2,0,0), 150,
                 0.5,
                 140, ExperienceGroup.MEDIUM_SLOW,
@@ -89,12 +89,12 @@ public class AvorianRoselia extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASS_WHISTLE,"tm"),
                         new MoveLearnSetEntry(Move.EXTRASENSORY,"tm"),
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,"tm"),
-                        new MoveLearnSetEntry(Move.LEAF_STORM,"tm")                        ),
+                        new MoveLearnSetEntry(Move.LEAF_STORM,"tm")
+                ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 29, 40, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

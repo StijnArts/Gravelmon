@@ -1540,7 +1540,16 @@ public enum Move {
     COOLDOWN("cooldown", false),
     OVERRULE("overrule", false),
     COALTHROW("coalthrow", false),
-    ICEBREAKER("icebreaker", false), SAVAGESLASH("savageslash", false), TUCKIN("tuckin", false), KNOCKBACK("knockback", false), SUPERCELL("supercell", false), TORNADO("tornado", false), HARROWINGWAIL("harrowingwail", false), FINALSWIPE("finalswipe", false);
+    ICEBREAKER("icebreaker", false),
+    SAVAGESLASH("savageslash", false),
+    TUCKIN("tuckin", false),
+    KNOCKBACK("knockback", false),
+    SUPERCELL("supercell", false),
+    TORNADO("tornado", false),
+    HARROWINGWAIL("harrowingwail", false),
+    FINALSWIPE("finalswipe", false),
+    SUPERCELL_SLAM("true", false),
+    AIR_BUBBLE("airbubble", false);
 
     private String name;
     private boolean implemented;

@@ -8,7 +8,7 @@ import java.util.*;
 
 public class HavaiianKrabby extends drai.dev.gravelmon.pokemon.Pokemon {
     public HavaiianKrabby() {
-        super("Krabby",
+        super("HavaiianKrabby",
                 Type.DARK,Type.GHOST,
                 new Stats(0,
                         0,

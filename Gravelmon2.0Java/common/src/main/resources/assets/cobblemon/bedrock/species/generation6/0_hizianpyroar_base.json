@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hizianpyroar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation6_hizianpyroar",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation6/hizianpyroar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation6/hizianpyroar_shiny.png"
+    }  ]
+}

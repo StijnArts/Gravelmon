@@ -1,17 +1,23 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.aristos.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
+import drai.dev.gravelmon.pokemon.hiza.regional.*;
+import drai.dev.gravelmon.pokemon.hub.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
+import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
+import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationTwo extends Game {
@@ -21,9 +27,44 @@ public class GenerationTwo extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new QamoranTyrogue(236));
+        pokemon.add(new QamoranHitmontop(237));
 
-//        pokemon.add(new AvorianMareep(179));
-//        pokemon.add(new AvorianFlaaffy(180));
+        pokemon.add(new VaritasianTogepi(175));
+        pokemon.add(new VaritasianTogetic(176));
+//        pokemon.add(new VaritasianSudowoodo(185)); NOT FINISHED
+        pokemon.add(new VaritasianWobbuffet(202));
+//        pokemon.add(new VaritasianMantine(226)); NOT FINISHED
+//        pokemon.add(new VaritasianKingdra(230)); NOT FINISHED
+        pokemon.add(new VaritasianPorygon2(233));
+        pokemon.add(new VaritasianTyrogue(236));
+        pokemon.add(new VaritasianHitmontop(237));
+        pokemon.add(new VaritasianRaikou(243));
+        pokemon.add(new VaritasianEntei(244));
+        pokemon.add(new VaritasianSuicune(245));
+
+        pokemon.add(new HubianTogepi(175));
+        pokemon.add(new HubianTogetic(176));
+        pokemon.add(new HubianSmeargle(235));
+
+        pokemon.add(new HizianGligar(207));
+        pokemon.add(new HizianMurkrow(198));
+        pokemon.add(new HizianMisdreavus(200));
+
+        pokemon.add(new NorheimanUnown(201));
+//        pokemon.add(new NorheimanForretress(205)); NOT FINISHED
+//        pokemon.add(new NorheimanHoundour(228)); NOT FINISHED
+
+        //Aristosian
+        pokemon.add(new AristosianSentret(161));
+        pokemon.add(new AristosianFurret(162));
+        pokemon.add(new AristosianSpinarak(167));
+        pokemon.add(new AristosianMareep(179));
+        pokemon.add(new AristosianFlaaffy(180));
+
+        //Avorian
+//        pokemon.add(new AvorianMareep(179)); NOT FINISHED
+//        pokemon.add(new AvorianFlaaffy(180)); NOT FINISHED
 
         registerPokemonInfinityForms();
 

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianMisdreavus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianMisdreavus() {
-        super("Misdreavus",
+    public HizianMisdreavus(int dex) {
+        super(dex, "Misdreavus",
                 Type.FIRE,
                 new Stats(60,
                         60,
@@ -15,14 +15,15 @@ public class HizianMisdreavus extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         85),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,1,0), 45,
                 0.5,
                 87, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Their burning flames can be seen through nights and blizzards. They inhabit areas with colder climate as they enjoy startling ice-type Pokémon with their hot flames."),
-                List.of(),
+                List.of(new EvolutionEntry("HizianMismagius", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.SPITE,5),
@@ -39,15 +40,16 @@ public class HizianMisdreavus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OVERHEAT,55)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 44, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Misdreavus");
-
+setCanFly(true);
     }
 
 

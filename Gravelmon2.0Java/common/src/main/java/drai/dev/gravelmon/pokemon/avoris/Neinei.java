@@ -51,7 +51,7 @@ public class Neinei extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_RING,"tm"),
                         new MoveLearnSetEntry(Move.BRAVE_BIRD,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
-                List.of(Label.AVORIS),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

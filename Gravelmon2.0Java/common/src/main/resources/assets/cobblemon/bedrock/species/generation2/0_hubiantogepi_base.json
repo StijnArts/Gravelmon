@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hubiantogepi",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_hubiantogepi",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/hubiantogepi.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/hubiantogepi_shiny.png"
+    }  ]
+}

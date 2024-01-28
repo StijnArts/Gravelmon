@@ -17,7 +17,7 @@ public class Dunesparr extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         60),
                 List.of(Ability.SAND_VEIL,Ability.ARENA_TRAP,Ability.STRONG_JAW), Ability.STRONG_JAW,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -50,8 +50,8 @@ public class Dunesparr extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_DANCE,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 41, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY, Biome.IS_MOUNTAIN, Biome.IS_PEAK)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

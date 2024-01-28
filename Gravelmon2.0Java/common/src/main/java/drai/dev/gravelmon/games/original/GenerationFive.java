@@ -1,17 +1,24 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
+import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.interregional.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
+import drai.dev.gravelmon.pokemon.orohnhavai.regional.*;
+import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
+import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationFive extends Game {
@@ -21,7 +28,27 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new AvorianMaractus(556));
+        pokemon.add(new QamoranCubchoo(613));
+        pokemon.add(new QamoranBeartic(614));
+
+        pokemon.add(new VaritasianYamask(562));
+        pokemon.add(new VaritasianKlink(599));
+        pokemon.add(new VaritasianKlang(600));
+        pokemon.add(new VaritasianTynamo(602));
+        pokemon.add(new VaritasianEelektrik(603));
+        pokemon.add(new VaritasianEelektross(604));
+
+//        pokemon.add(new HavaiianOshawott(501)); NOT FINISHED
+
+        pokemon.add(new InterianGenesect(649));
+
+//        pokemon.add(new NorheimanSigilyph(561)); NOT FINISHED
+//        pokemon.add(new NorheimanFoongus(590)); NOT FINISHED
+
+        pokemon.add(new HizianHeatmor(631));
+        pokemon.add(new HizianDruddigon(621));
+
+        pokemon.add(new AvorianMaractus(556));
 
         //Pokemon Infinity
         pokemon.add(new EghoTrubbish(568));

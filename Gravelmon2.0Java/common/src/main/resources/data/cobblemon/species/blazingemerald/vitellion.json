@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vitellion",
-  "nationalPokedexNumber": 1858,
+  "nationalPokedexNumber": 1902,
   "primaryType": "questionmark",
   "abilities": [
     "keeneye",
@@ -68,6 +68,7 @@
     "45:cosmicpower"  ],
   "labels": [
     "blazing_emerald",
+    "joke",
     "not_modeled"
   ],
   "pokedex": [

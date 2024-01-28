@@ -15,14 +15,15 @@ public class Pumpel extends drai.dev.gravelmon.pokemon.Pokemon {
                         46,
                         49),
                 List.of(Ability.TORRENT), Ability.SAND_FORCE,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Whenever a Pumpeel finds water, it drinks it up, and stores it on its back. It can traverse hot deserts for weeks, and has been known to provide water for lost travelers from its hose-like tail."),
-                List.of(),
+                List.of(new EvolutionEntry("hydrank", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,5),
@@ -72,8 +73,8 @@ public class Pumpel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_PULSE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,16 +1,22 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.aristos.regional.*;
+import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
+import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
+import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
+import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationThree extends Game {
@@ -20,8 +26,37 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new QamoranSpoink(325));
+        pokemon.add(new QamoranGrumpig(326));
 
-//        pokemon.add(new AvorianRoselia(315));
+//        pokemon.add(new NorheimanMasquerain(284)); NOT FINISHED
+//        pokemon.add(new NorheimanWailmer(320)); NOT FINISHED
+        pokemon.add(new NorheimanNumel(322));
+//        pokemon.add(new NorheimanCorphish(341)); NOT FINISHED
+//        pokemon.add(new NorheimanCrawdaunt(342)); NOT FINISHED
+
+        pokemon.add(new VaritasianSwablu(333));
+        pokemon.add(new VaritasianAltaria(334));
+
+        pokemon.add(new HizianNosepass(299));
+        pokemon.add(new HizianSkitty(300));
+        pokemon.add(new HizianDelcatty(301));
+        pokemon.add(new HizianAron(304));
+        pokemon.add(new HizianLairon(305));
+        pokemon.add(new HizianAggron(306));
+        pokemon.add(new HizianLileep(345));
+        pokemon.add(new HizianCradily(346));
+        pokemon.add(new HizianAnorith(347));
+        pokemon.add(new HizianArmaldo(348));
+        pokemon.add(new HizianTropius(357));
+        pokemon.add(new HizianLuvdisc(370));
+
+//        pokemon.add(new AristosianNumel(322)); NOT FINISHED
+//        pokemon.add(new AristosianTaillow(276)); NOT FINISHED
+//        pokemon.add(new AristosianNosepass(299)); NOT FINISHED
+        pokemon.add(new AristosianTropius(357));
+
+        pokemon.add(new AvorianRoselia(315));
 
         addEghoPokemon();
 

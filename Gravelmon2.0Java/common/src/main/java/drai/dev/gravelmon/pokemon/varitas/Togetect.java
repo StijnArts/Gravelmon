@@ -17,7 +17,7 @@ public class Togetect extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         80),
                 List.of(Ability.MIRROR_ARMOR,Ability.SERENE_GRACE,Ability.SUPER_LUCK), Ability.SUPER_LUCK,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,2,1,0), 30,
                 0.875,
                 245, ExperienceGroup.FAST,
@@ -123,8 +123,8 @@ public class Togetect extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 45, 60, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -7,9 +7,9 @@ import java.util.*;
 
 
 public class AristosianMareep extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianMareep() {
-        super("Mareep",
-                Type.ELECTRIC,
+    public AristosianMareep(int dexNo) {
+        super(dexNo,"AristosianMareep",
+                Type.ELECTRIC, Type.DARK,
                 new Stats(55,
                         40,
                         40,
@@ -17,14 +17,15 @@ public class AristosianMareep extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         35),
                 List.of(Ability.STATIC), Ability.PLUS,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 235,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
-                List.of("- Tackle Normal - Growl Normal 4 Thunder Wave Electric 8 Thunder ShockSTAB Electric 11 Cotton Spore Grass 15 Charge Electric 18 Take Down Normal 22 Electro BallSTAB Electric 25 Confuse Ray Ghost 29 Power Gem Rock 32 DischargeSTAB Electric 36 Cotton Guard Grass 39 Signal Beam Bug 43 Light Screen Psychic 46 ThunderSTAB Electric"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("aristosianflaaffy", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,4),
@@ -83,10 +84,10 @@ public class AristosianMareep extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,"tm")                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 28, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

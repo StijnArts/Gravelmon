@@ -17,14 +17,15 @@ public class Arsinge extends drai.dev.gravelmon.pokemon.Pokemon {
                         47,
                         55),
                 List.of(Ability.BLAZE), Ability.FLASH_FIRE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Arsinge eat small rock chunks to keep their internal flame burning strong. Due to their continuous internal combustion, they emit an off-putting scent."),
-                List.of(),
+                List.of(new EvolutionEntry("rupsen", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.LEER,3),
@@ -96,8 +97,8 @@ public class Arsinge extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianBellsprout extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianBellsprout() {
-        super("Bellsprout",
+    public AristosianBellsprout(int dexNo) {
+        super(dexNo,"AristosianBellsprout",
                 Type.GRASS,Type.FIRE,
                 new Stats(50,
                         70,
@@ -17,14 +17,15 @@ public class AristosianBellsprout extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         40),
                 List.of(Ability.CHLOROPHYLL), Ability.FLASH_FIRE,
-                8, 165,
+                5, 32,
                 new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Bellsprout developed glands in its mouth which allow it to spit flames and catch prey more efficiently. It occasionally sets itself on fire while hunting."),
-                List.of(),
+                List.of(new EvolutionEntry("AristosianWeepingbell", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINGE,1),
                         new MoveLearnSetEntry(Move.GROWTH,7),
@@ -89,8 +90,8 @@ public class AristosianBellsprout extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH_SAP,"tm")                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 30, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,14 +15,15 @@ public class Bunfin extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         55),
                 List.of(Ability.BLAZE), Ability.FLASH_FIRE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Bunfin live in rocky, mountainous areas, where they mark their territory by scorching surrounding rocks. They can make a high-pitched whistling noise by quickly blowing hot air through their snouts."),
-                List.of(),
+                List.of(new EvolutionEntry("arsinge", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.LEER,3),
@@ -82,8 +83,8 @@ public class Bunfin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

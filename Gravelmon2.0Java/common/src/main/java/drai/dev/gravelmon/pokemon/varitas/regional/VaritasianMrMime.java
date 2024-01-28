@@ -8,7 +8,7 @@ import java.util.*;
 
 public class VaritasianMrMime extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianMrMime() {
-        super("MrMime",
+        super("VaritasianMrMime",
                 Type.DARK,Type.FAIRY,
                 new Stats(0,
                         0,

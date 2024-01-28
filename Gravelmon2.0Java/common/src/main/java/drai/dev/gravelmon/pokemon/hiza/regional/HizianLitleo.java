@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianLitleo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianLitleo() {
-        super("Litleo",
+    public HizianLitleo(int dex) {
+        super(dex, "Litleo",
                 Type.GHOST,
                 new Stats(62,
                         73,
@@ -15,14 +15,15 @@ public class HizianLitleo extends drai.dev.gravelmon.pokemon.Pokemon {
                         54,
                         72),
                 List.of(Ability.STEADFAST), Ability.STEADFAST,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 220,
                 0.125,
                 74, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They usually can be seen playing and pouncing on thin air, its unknown if they are playing with the wind or unseen spirits."),
-                List.of(),
+                List.of(new EvolutionEntry("hizianpyroar", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.GUST,5),
@@ -40,9 +41,10 @@ public class HizianLitleo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PHANTOM_FORCE,50)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 35, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

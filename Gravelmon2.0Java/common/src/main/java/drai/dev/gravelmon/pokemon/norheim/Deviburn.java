@@ -17,7 +17,7 @@ public class Deviburn extends drai.dev.gravelmon.pokemon.Pokemon {
                         96,
                         66),
                 List.of(Ability.VITAL_SPIRIT,Ability.INTIMIDATE,Ability.WHITE_SMOKE), Ability.WHITE_SMOKE,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,2,1,0), 30,
                 0.5,
                 243, ExperienceGroup.MEDIUM_FAST,
@@ -41,8 +41,8 @@ public class Deviburn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TORMENT,73)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 33, 10, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_VOLCANIC, Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

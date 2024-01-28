@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianYamask extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianYamask() {
-        super("Yamask",
+    public VaritasianYamask(int dex) {
+        super(dex, "Yamask",
                 Type.GHOST,Type.STEEL,
                 new Stats(38,
                         30,
@@ -17,14 +17,15 @@ public class VaritasianYamask extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         20),
                 List.of(Ability.MUMMY), Ability.MUMMY,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("It's bound to a mirror, possibly as a punishment for extreme vanity when alive. It constantly gazes at itself, sometimes appearing to show discomfort, yet it never looks away. Legends say that the mirror has the power to steal one's soul if looked into."),
-                List.of(),
+                List.of(new EvolutionEntry("mirrorigus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MIRROR_COAT,1),
                         new MoveLearnSetEntry(Move.DISABLE,6),
@@ -98,11 +99,11 @@ public class VaritasianYamask extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRAFTY_SHIELD,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 30, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Yamask");

@@ -15,14 +15,15 @@ public class Botaneer extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         65),
                 List.of(Ability.OVERGROW), Ability.CHLOROPHYLL,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,1,1,0), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.GRASS),
                 List.of("The flowerbuds growing from their ears generally emit a sweet fragrance, but when angered, Botaneer can use them to create a foul aroma to discourage enemies. Only the richest families keep herds of Botaneer, as a way to flaunt their wealth."),
-                List.of(),
+                List.of(new EvolutionEntry("forelk", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
@@ -77,10 +78,10 @@ public class Botaneer extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

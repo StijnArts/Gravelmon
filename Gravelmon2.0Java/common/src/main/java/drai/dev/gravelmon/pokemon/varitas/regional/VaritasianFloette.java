@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianFloette extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianFloette() {
-        super("Floette",
+    public VaritasianFloette(int dex) {
+        super(dex, "Floette",
                 Type.FAIRY,Type.POISON,
                 new Stats(54,
                         45,
@@ -17,14 +17,15 @@ public class VaritasianFloette extends drai.dev.gravelmon.pokemon.Pokemon {
                         98,
                         52),
                 List.of(Ability.EFFECT_SPORE), Ability.SYMBIOSIS,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,2,0), 120,
                 0.0,
                 130, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("It picks its favorite mushroom and uses it to shield itself from sunlight. If enraged, it swings the mushroom around madly spreading spores everywhere."),
-                List.of(),
+                List.of(new EvolutionEntry("sporges", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FAIRY_WIND,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,6),
@@ -82,8 +83,8 @@ public class VaritasianFloette extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 35, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

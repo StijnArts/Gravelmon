@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:qamorankoffing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_qamorankoffing",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/qamorankoffing.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/qamorankoffing_shiny.png"
+    }  ]
+}

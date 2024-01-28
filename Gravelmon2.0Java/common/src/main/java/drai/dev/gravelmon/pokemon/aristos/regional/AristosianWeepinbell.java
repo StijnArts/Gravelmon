@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianWeepinbell extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianWeepinbell() {
-        super("Weepinbell",
+    public AristosianWeepinbell(int dexNo) {
+        super(dexNo,"AristosianWeepinbell",
                 Type.GRASS,Type.FIRE,
                 new Stats(65,
                         85,
@@ -17,14 +17,15 @@ public class AristosianWeepinbell extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         55),
                 List.of(Ability.CHLOROPHYLL), Ability.FLASH_FIRE,
-                8, 165,
+                9, 59,
                 new Stats(0,0,0,2,0,0), 120,
                 0.5,
                 137, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Constant use of its fire glands may irritate Weepinbell’s throat and cause an uncontrollable fiery cough. Even a single cough may lead to a massive fire."),
-                List.of(),
+                List.of(new EvolutionEntry("AristosianVictreebel", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SINGE,1),
                         new MoveLearnSetEntry(Move.GROWTH,7),
@@ -104,8 +105,8 @@ public class AristosianWeepinbell extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH_SAP,"tm")                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 39, 0.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

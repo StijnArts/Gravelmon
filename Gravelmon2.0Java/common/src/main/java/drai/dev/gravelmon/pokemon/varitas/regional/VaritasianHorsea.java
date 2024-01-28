@@ -8,7 +8,7 @@ import java.util.*;
 
 public class VaritasianHorsea extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianHorsea() {
-        super("Horsea",
+        super("VaritasianHorsea",
                 Type.GRASS,Type.DRAGON,
                 new Stats(30,
                         40,

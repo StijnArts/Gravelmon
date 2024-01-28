@@ -1,5 +1,9 @@
 package drai.dev.gravelmon.games.pokemmo;
 
+import drai.dev.gravelmon.pokemon.novrai.*;
+import drai.dev.gravelmon.pokemon.qamor.*;
+import drai.dev.gravelmon.pokemon.qamor.regional.*;
+
 public class Qamor extends drai.dev.gravelmon.games.registry.Game {
     public Qamor() {
         super("Qamor");
@@ -7,6 +11,7 @@ public class Qamor extends drai.dev.gravelmon.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+
 //        pokemon.add(new Aggroroo());
 //        pokemon.add(new Albacross());
 //        pokemon.add(new Albat());
@@ -16,7 +21,6 @@ public class Qamor extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Aqube());
 //        pokemon.add(new Barbay());
 //        pokemon.add(new Barrakoba());
-//        pokemon.add(new Beartic());
 //        pokemon.add(new Beimota());
 //        pokemon.add(new Belublebug());
 //        pokemon.add(new Blubuoy());
@@ -41,14 +45,11 @@ public class Qamor extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Ciguapo());
 //        pokemon.add(new Clairbuoyant());
 //        pokemon.add(new Coldron());
-//        pokemon.add(new Combee());
 //        pokemon.add(new Coyohete());
 //        pokemon.add(new Cragato());
 //        pokemon.add(new Crickochet());
-//        pokemon.add(new Cryogonal());
-//        pokemon.add(new Cryometry());
+        pokemon.add(new Cryometry());
 //        pokemon.add(new Crysteavenly());
-//        pokemon.add(new Cubchoo());
 //        pokemon.add(new Culponi());
 //        pokemon.add(new Curbludgeon());
 //        pokemon.add(new Dambattoir());
@@ -57,39 +58,30 @@ public class Qamor extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Dewgong());
 //        pokemon.add(new Disgaze());
 //        pokemon.add(new Dokuduru());
-//        pokemon.add(new EXEon());
-//        pokemon.add(new Eevee());
+//        pokemon.add(new EXEon()); NOT FINISHED
 //        pokemon.add(new Effigeam());
 //        pokemon.add(new Encantomb());
 //        pokemon.add(new Espurr());
-//        pokemon.add(new Flappetite());
+        pokemon.add(new Flappetite());
 //        pokemon.add(new Forflush());
 //        pokemon.add(new Frigitank());
 //        pokemon.add(new Frijolop());
 //        pokemon.add(new Frodent());
 //        pokemon.add(new Gibboor());
 //        pokemon.add(new Glamglob());
-//        pokemon.add(new Gobbledyduck());
-//        pokemon.add(new Golduck());
+        pokemon.add(new Gobbledyduck());
 //        pokemon.add(new Gorsylum());
 //        pokemon.add(new Gremleaf());
 //        pokemon.add(new Grimandrill());
 //        pokemon.add(new Grimgrin());
-//        pokemon.add(new Grumpig());
 //        pokemon.add(new Harperyl());
 //        pokemon.add(new Hissteric());
-//        pokemon.add(new Hitmonchan());
-//        pokemon.add(new Hitmonlee());
-//        pokemon.add(new Hitmontop());
 //        pokemon.add(new Hollowhusk());
-//        pokemon.add(new Illumise());
 //        pokemon.add(new Impetal());
 //        pokemon.add(new Joulereign());
-//        pokemon.add(new Keclekid());
-//        pokemon.add(new Kecleon());
+        pokemon.add(new Keclekid());
 //        pokemon.add(new Kicsqueak());
 //        pokemon.add(new Kindlet());
-//        pokemon.add(new Koffing());
 //        pokemon.add(new Konsert());
 //        pokemon.add(new Lilpaca());
 //        pokemon.add(new Madrursa());
@@ -108,20 +100,18 @@ public class Qamor extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Numby());
 //        pokemon.add(new Occultlet());
 //        pokemon.add(new Pacalpine());
-//        pokemon.add(new Palosstone());
+        pokemon.add(new Palosstone());
 //        pokemon.add(new Paposy());
 //        pokemon.add(new Pappybara());
 //        pokemon.add(new Parumpum());
-//        pokemon.add(new Peritwinkle());
+        pokemon.add(new Peritwinkle());
 //        pokemon.add(new Planchelt());
 //        pokemon.add(new Pompurr());
 //        pokemon.add(new Popondot());
-//        pokemon.add(new Psyduck());
-//        pokemon.add(new Pudgey());
+        pokemon.add(new Pudgey());
 //        pokemon.add(new Puglup());
 //        pokemon.add(new Rabsca());
 //        pokemon.add(new Rascage());
-//        pokemon.add(new Rellor());
 //        pokemon.add(new Resistreak());
 //        pokemon.add(new Rubee());
 //        pokemon.add(new Saguartic());
@@ -135,27 +125,20 @@ public class Qamor extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Sombruja());
 //        pokemon.add(new Spectipilla());
 //        pokemon.add(new Spinister());
-//        pokemon.add(new Spoink());
 //        pokemon.add(new Stiltotem());
 //        pokemon.add(new Sweetilt());
 //        pokemon.add(new Sycelium());
-//        pokemon.add(new Tangela());
-//        pokemon.add(new Tangrowth());
 //        pokemon.add(new Terradobe());
 //        pokemon.add(new Thermoni());
 //        pokemon.add(new Trepinject());
 //        pokemon.add(new Tropifox());
-//        pokemon.add(new Tyrogue());
 //        pokemon.add(new Umbrub());
 //        pokemon.add(new Valkryce());
 //        pokemon.add(new Velverette());
-//        pokemon.add(new Vespidron());
-//        pokemon.add(new Vespiquen());
+        pokemon.add(new Vespidron());
 //        pokemon.add(new Vikice());
 //        pokemon.add(new Virchia());
-//        pokemon.add(new Volbeat());
 //        pokemon.add(new Wapolyp());
-//        pokemon.add(new Weezing());
 //        pokemon.add(new Whoopwing());
 //        pokemon.add(new Wibble());
 //        pokemon.add(new Wintweasel());

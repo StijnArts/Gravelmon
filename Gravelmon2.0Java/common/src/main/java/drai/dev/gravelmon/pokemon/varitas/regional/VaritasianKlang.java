@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianKlang extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianKlang() {
-        super("Klang",
+    public VaritasianKlang(int dex) {
+        super(dex, "Klang",
                 Type.STEEL,Type.GROUND,
                 new Stats(60,
                         80,
@@ -17,14 +17,15 @@ public class VaritasianKlang extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         50),
                 List.of(Ability.PLUS,Ability.MINUS,Ability.SPEED_BOOST), Ability.SPEED_BOOST,
-                8, 165,
+                6, 165,
                 new Stats(0,0,2,0,0,0), 60,
                 0.0,
                 154, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Given its increase in weight, Klang can now easily bowl over small obstacles with its large wheel. It can also swing either part of itself around by its joint to cause major damage."),
-                List.of(),
+                List.of(new EvolutionEntry("tanklang", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"49")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GEAR_GRIND,1),
                         new MoveLearnSetEntry(Move.CHARGE,6),
@@ -77,8 +78,8 @@ public class VaritasianKlang extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 38, 44, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

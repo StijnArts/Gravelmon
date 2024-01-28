@@ -48,6 +48,20 @@
      "itemCondition": "gravelmon:murky_claw"
     }
    ]
+  },
+  {
+   "id": "zangoose_zangarsh",
+   "variant": "level_up",
+   "result": "zangarsh",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 39
+    }
+   ]
   }
  ],
    "moves": [

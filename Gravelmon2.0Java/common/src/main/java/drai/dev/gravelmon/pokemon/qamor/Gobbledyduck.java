@@ -17,7 +17,7 @@ public class Gobbledyduck extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         82),
                 List.of(Ability.OBLIVIOUS,Ability.KLUTZ,Ability.CONTRARY), Ability.CONTRARY,
-                8, 165,
+                17, 165,
                 new Stats(1,0,0,0,1,0), 75,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
@@ -43,8 +43,8 @@ public class Gobbledyduck extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MIRROR_MOVE,51)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

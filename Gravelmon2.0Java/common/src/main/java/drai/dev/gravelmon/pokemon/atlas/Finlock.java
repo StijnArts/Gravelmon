@@ -15,14 +15,15 @@ public class Finlock extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         82),
                 List.of(Ability.TORRENT), Ability.MAGICIAN,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_2),
                 List.of("Finlock are generally just getting to grips with their psychic powers, making them unpredictable and dangerous to be around. They have developed the ability to teleport to avoid capture."),
-                List.of(),
+                List.of(new EvolutionEntry("gandolph", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,4),
@@ -89,14 +90,16 @@ public class Finlock extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Finlock");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

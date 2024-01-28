@@ -1,0 +1,135 @@
+{
+  "implemented": true,
+  "name": "tanklang",
+  "nationalPokedexNumber": 1450,
+  "primaryType": "steel",
+  "secondaryType": "ground",
+  "abilities": [
+    "plus",
+    "megalauncher",
+    "h:speedboost"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 100,
+    "defence": 115,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 234,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:gearup",
+    "6:charge",
+    "11:thundershock",
+    "16:geargrind",
+    "21:bind",
+    "25:chargebeam",
+    "31:autotomize",
+    "36:mirrorshot",
+    "40:screechsound",
+    "44:discharge",
+    "48:metalsound",
+    "54:shiftgear",
+    "60:lockon",
+    "66:zapcannon",
+    "72:hyperbeam",
+    "tm:bind",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:magiccoat",
+    "tm:recycle",
+    "tm:signalbeam",
+    "tm:irondefense",
+    "tm:shockwave",
+    "tm:gravitycosmic",
+    "tm:magnetrise",
+    "tm:telekinesis",
+    "tm:allyswitch",
+    "tm:hyperbeam",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:thunder",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:substitute",
+    "tm:protect",
+    "tm:sandstorm",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:facade",
+    "tm:rockpolish",
+    "tm:gigaimpact",
+    "tm:flashcannon",
+    "tm:trickroom",
+    "tm:chargebeam",
+    "tm:roundsound",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:confide"  ],
+  "labels": [
+    "varitas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.tanklang.desc"
+  ],
+  "preEvolution": "varitasianklang",
+  "baseScale": 0.3375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

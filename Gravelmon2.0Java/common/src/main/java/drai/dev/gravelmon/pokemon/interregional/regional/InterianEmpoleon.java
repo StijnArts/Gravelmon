@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class InterianEmpoleon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public InterianEmpoleon() {
-        super("Empoleon",
+    public InterianEmpoleon(int dex) {
+        super(dex ,"Empoleon",
                 Type.BUG,Type.ICE,
                 new Stats(0,
                         0,

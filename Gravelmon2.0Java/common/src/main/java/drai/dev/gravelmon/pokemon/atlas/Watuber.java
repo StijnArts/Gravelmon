@@ -15,14 +15,15 @@ public class Watuber extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         48),
                 List.of(Ability.TORRENT), Ability.CUTE_CHARM,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("Watuber are very playful and often like to amuse themselves in pools and near shores. Because they're not very good swimmers, they often borrow tubes and floaters."),
-                List.of(),
+                List.of(new EvolutionEntry("berswade", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.GROWL,5),
@@ -78,14 +79,16 @@ public class Watuber extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Watuber");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianSuicune extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianSuicune() {
-        super("Suicune",
+    public VaritasianSuicune(int dex) {
+        super(dex,"Suicune",
                 Type.DRAGON,Type.WATER,
                 new Stats(100,
                         75,
@@ -17,7 +17,7 @@ public class VaritasianSuicune extends drai.dev.gravelmon.pokemon.Pokemon {
                         115,
                         85),
                 List.of(Ability.PRESSURE), Ability.INNER_FOCUS,
-                8, 165,
+                20, 165,
                 new Stats(0,0,1,0,2,0), 3,
                 0.0,
                 261, ExperienceGroup.SLOW,
@@ -94,9 +94,9 @@ public class VaritasianSuicune extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AIR_SLASH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, 0.000005, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -25,18 +25,34 @@ public class Queendra extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(),
                 List.of("Evo Dragon PulseSTAB Dragon"),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.DRAGON_PULSE,1)                        ),
+                List.of(new MoveLearnSetEntry(Move.LEER,1),
+                        new MoveLearnSetEntry(Move.THUNDER_WAVE,1),
+                        new MoveLearnSetEntry(Move.TWISTER,1),
+                        new MoveLearnSetEntry(Move.WRAP,1),
+                        new MoveLearnSetEntry(Move.DRAGON_TAIL,15),
+                        new MoveLearnSetEntry(Move.AGILITY,20),
+                        new MoveLearnSetEntry(Move.SLAM,25),
+                        new MoveLearnSetEntry(Move.AQUA_TAIL,33),
+                        new MoveLearnSetEntry(Move.DRAGON_RUSH,39),
+                        new MoveLearnSetEntry(Move.SAFEGUARD,46),
+                        new MoveLearnSetEntry(Move.RAIN_DANCE,53),
+                        new MoveLearnSetEntry(Move.DRAGON_DANCE,60),
+                        new MoveLearnSetEntry(Move.OUTRAGE,67),
+                        new MoveLearnSetEntry(Move.HYPER_BEAM,74)
+                ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 45, 58, .18, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Queendra");
+        setCanSwim(true);
+        setAvoidsLand(true);
+        setCanBreathUnderwater(true);
 
     }
 

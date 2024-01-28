@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianMorgrem extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianMorgrem() {
-        super("Morgrem",
+    public VaritasianMorgrem(int dex) {
+        super(dex,"Morgrem",
                 Type.DARK,Type.FLYING,
                 new Stats(0,
                         0,
@@ -17,14 +17,15 @@ public class VaritasianMorgrem extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.UNBURDEN), Ability.FRISK,
-                8, 165,
+                8, 125,
                 new Stats(0,0,0,0,0,0), 0,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Varitan Morgrem's hair has adapted to act as wings, allowing it to fly for short periods of time. It delights in swooping down suddenly and scaring people."),
-                List.of(),
+                List.of(new EvolutionEntry("grimpire", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLATTER,1),
                         new MoveLearnSetEntry(Move.FAKE_TEARS,12),
@@ -74,11 +75,11 @@ public class VaritasianMorgrem extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THROAT_CHOP,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 40, .54, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Morgrem");

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianMilcery extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianMilcery() {
-        super("Milcery",
+    public VaritasianMilcery(int dex) {
+        super(dex, "Milcery",
                 Type.FAIRY,Type.POISON,
                 new Stats(45,
                         40,
@@ -17,14 +17,15 @@ public class VaritasianMilcery extends drai.dev.gravelmon.pokemon.Pokemon {
                         61,
                         34),
                 List.of(Ability.STENCH), Ability.GOOEY,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,1,0), 200,
                 0.0,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.AMORPHOUS),
                 List.of("Living in areas with humid, salty air caused its body to curdle. This also effected its demeanor as it now acts much more mischieviously. It likes to create puddles from its own gooey body for others to slip and fall into."),
-                List.of(),
+                List.of(new EvolutionEntry("VaritasianAlcremie", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AROMATIC_MIST,1),
                         new MoveLearnSetEntry(Move.SWEET_KISS,5),
@@ -57,8 +58,8 @@ public class VaritasianMilcery extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 27, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

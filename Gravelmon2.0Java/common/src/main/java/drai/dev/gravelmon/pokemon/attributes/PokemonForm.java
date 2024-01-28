@@ -82,7 +82,11 @@ public class PokemonForm {
     ) {
         this.name = name;
         this.primaryType = primaryType;
-        this.abilities = abilities;
+        this.abilities = new ArrayList<>();
+        this.abilities.addAll(abilities);
+        if(this.abilities.size() > 2){
+            this.abilities.remove(2);
+        }
         this.hiddenAbility = hiddenAbility;
         this.stats = stats;
         this.catchRate = catchRate;

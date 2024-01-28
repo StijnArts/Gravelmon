@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianTropius extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianTropius() {
-        super("Tropius",
+    public HizianTropius(int dex) {
+        super(dex, "Tropius",
                 Type.WATER,Type.GRASS,
                 new Stats(109,
                         58,
@@ -15,14 +15,15 @@ public class HizianTropius extends drai.dev.gravelmon.pokemon.Pokemon {
                         87,
                         41),
                 List.of(Ability.STORM_DRAIN), Ability.HARVEST,
-                8, 165,
+                20, 165,
                 new Stats(2,0,0,0,0,0), 200,
                 0.5,
                 161, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Large and heavy fruit grow out of its neck and back making it very exausting to walk around, so it spends most of time partially submerged in the water."),
-                List.of(),
+                List.of(new EvolutionEntry("Bountius", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
                         new MoveLearnSetEntry(Move.SWEET_SCENT,6),
@@ -75,10 +76,10 @@ public class HizianTropius extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SUMMER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_DESERT))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

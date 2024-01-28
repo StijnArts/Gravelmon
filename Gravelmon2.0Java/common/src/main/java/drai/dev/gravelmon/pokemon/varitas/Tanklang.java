@@ -17,7 +17,7 @@ public class Tanklang extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         90),
                 List.of(Ability.PLUS,Ability.MEGA_LAUNCHER,Ability.SPEED_BOOST), Ability.SPEED_BOOST,
-                8, 165,
+                18, 165,
                 new Stats(0,0,3,0,0,0), 30,
                 0.0,
                 234, ExperienceGroup.MEDIUM_SLOW,
@@ -80,8 +80,8 @@ public class Tanklang extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 49, 52, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

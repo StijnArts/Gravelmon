@@ -15,14 +15,15 @@ public class Inscepter extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         71),
                 List.of(Ability.OVERGROW), Ability.SWIFTDODGE,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.BUG),
                 List.of("Typically hiding from predators with it's camouflage, Inscepter try to feast on insects even tinier than it. Though it can eat leaves, it finds bugs tastier."),
-                List.of(),
+                List.of(new EvolutionEntry("chloradise", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -82,9 +83,9 @@ public class Inscepter extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.ATLAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

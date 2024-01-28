@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "hiziandruddigon",
+  "nationalPokedexNumber": 621,
+  "primaryType": "dragon",
+  "secondaryType": "rock",
+  "abilities": [
+    "stamina",
+    "h:stamina"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 120,
+    "defence": 90,
+    "special_attack": 50,
+    "special_defence": 100,
+    "speed": 48
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "monster"
+  ],
+  "moves": [
+    "1:ancientpower",
+    "1:roarsound",
+    "1:tackle",
+    "1:tailwhip",
+    "12:charm",
+    "16:bite",
+    "20:dragontail",
+    "24:stomp",
+    "28:rockslide",
+    "32:crunch",
+    "36:dragonclaw",
+    "42:thrash",
+    "48:earthquake",
+    "54:horndrill",
+    "60:gigaimpact",
+    "66:headsmash",
+    "tutor:lashout",
+    "tutor:meteorbeam",
+    "tutor:scaleshot",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:dig",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:snoresound",
+    "tm:protect",
+    "tm:scaryface",
+    "tm:charm",
+    "tm:attract",
+    "tm:sandstorm",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:rockblast",
+    "tm:assurance",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:roundsound",
+    "tm:bulldoze",
+    "tm:brutalswing",
+    "tm:stompingtantrum",
+    "tm:breakingswipe",
+    "tm:bodyslam",
+    "tm:earthquake",
+    "tm:substitute",
+    "tm:outrage",
+    "tm:endure",
+    "tm:sleeptalksound",
+    "tm:irontail",
+    "tm:crunch",
+    "tm:superpower",
+    "tm:hypervoicesound",
+    "tm:irondefense",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:closecombat",
+    "tm:darkpulse",
+    "tm:dragonpulse",
+    "tm:earthpower",
+    "tm:zenheadbutt",
+    "tm:ironhead",
+    "tm:stoneedge",
+    "tm:stealthrock",
+    "tm:playrough",
+    "tm:highhorsepower",
+    "tm:psychicfangs"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hiziandruddigon.desc"
+  ],
+  "baseScale": 0.28125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

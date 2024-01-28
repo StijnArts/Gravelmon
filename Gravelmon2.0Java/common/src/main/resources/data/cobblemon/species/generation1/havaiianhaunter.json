@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "havaiianhaunter",
+  "nationalPokedexNumber": 93,
+  "primaryType": "ghost",
+  "secondaryType": "fire",
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 45,
+    "defence": 55,
+    "special_attack": 115,
+    "special_defence": 50,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 0,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 0,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+
+  ],
+  "moves": [
+    "1:astonish",
+    "1:smog",
+    "4:ember",
+    "8:minimize",
+    "12:confuseray",
+    "16:hex",
+    "20:willowisp",
+    "24:firespin",
+    "28:nightshade",
+    "32:curse",
+    "36:shadowball",
+    "40:inferno",
+    "44:imprison",
+    "48:painsplit",
+    "52:overheat",
+    "56:memento",
+    "egg:acidarmor",
+    "egg:clearsmog",
+    "egg:haze",
+    "egg:powersplit",
+    "tm:protect",
+    "tm:confuseray",
+    "tm:thief",
+    "tm:firespin",
+    "tm:facade",
+    "tm:hex",
+    "tm:flamecharge",
+    "tm:nightshade",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:sleeptalksound",
+    "tm:rest",
+    "tm:taunt",
+    "tm:imprison",
+    "tm:darkpulse",
+    "tm:substitute",
+    "tm:willowisp",
+    "tm:trick",
+    "tm:shadowball",
+    "tm:heatwave",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:flamethrower",
+    "tm:calmmind",
+    "tm:fireblast",
+    "tm:overheat",
+    "tm:trickroom",
+    "tm:flareblitz",
+    "tm:solarbeam",
+    "tm:terablast",
+    "tm:haze",
+    "tm:spite",
+    "tm:burningjealousy",
+    "tm:poltergeist"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.havaiianhaunter.desc"
+  ],
+  "preEvolution": "havaiiangastly",
+  "evolutions": [
+    {
+      "id": "havaiianhaunter_havaiiangengar",
+      "variant": "level_up",
+      "result": "havaiiangengar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        },
+        {
+          "variant": "time_range",
+          "range": night
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianAltaria extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianAltaria() {
-        super("Altaria",
+    public VaritasianAltaria(int dex) {
+        super(dex,"Altaria",
                 Type.GRASS,Type.DRAGON,
                 new Stats(75,
                         70,
@@ -17,7 +17,7 @@ public class VaritasianAltaria extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         80),
                 List.of(Ability.NATURAL_CURE), Ability.CLOUD_NINE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 172, ExperienceGroup.ERRATIC,
@@ -102,15 +102,16 @@ public class VaritasianAltaria extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 0.02, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Altaria");
-
+        setCanSwim(true);
+        setCanFly(true);
     }
 
 

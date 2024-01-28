@@ -15,7 +15,7 @@ public class Phoenan extends drai.dev.gravelmon.pokemon.Pokemon {
                         92,
                         112),
                 List.of(Ability.OVERGROW), Ability.HARVEST,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,1,0,2), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -86,15 +86,15 @@ public class Phoenan extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEATHERRUSH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Phoenan");
-
+setCanFly(true);
     }
 
 

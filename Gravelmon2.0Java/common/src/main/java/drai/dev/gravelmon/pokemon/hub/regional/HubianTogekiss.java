@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HubianTogekiss extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HubianTogekiss() {
-        super("Togekiss",
+    public HubianTogekiss(int dex) {
+        super(dex, "Togekiss",
                 Type.FAIRY,Type.PSYCHIC,
                 new Stats(85,
                         50,
@@ -15,7 +15,7 @@ public class HubianTogekiss extends drai.dev.gravelmon.pokemon.Pokemon {
                         115,
                         80),
                 List.of(Ability.HUSTLE,Ability.SERENE_GRACE,Ability.SUPER_LUCK), Ability.SUPER_LUCK,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,2,1,0), 15,
                 0.875,
                 245, ExperienceGroup.FAST,
@@ -138,6 +138,7 @@ public class HubianTogekiss extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of());
            setLangFileName("Togekiss");
 
+        setCanFly(true);
     }
 
 

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianPorygon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianPorygon() {
-        super("Porygon",
+    public VaritasianPorygon(int dex) {
+        super(dex,"VaritasianPorygon",
                 Type.NORMAL,Type.BUG,
                 new Stats(65,
                         85,
@@ -24,7 +24,8 @@ public class VaritasianPorygon extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("At some point an unknown group obtained the source code for Porygon and attempted to make their own version. It seemingly didn't go as planned as this version is noticeably different and exhibits various glitches."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasianporygon2", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dubious_disc")),
                 List.of(
                         new MoveLearnSetEntry(Move.STICKY_WEB,1),
                         new MoveLearnSetEntry(Move.PECK,7),
@@ -113,11 +114,11 @@ public class VaritasianPorygon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLASH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 40, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Porygon");

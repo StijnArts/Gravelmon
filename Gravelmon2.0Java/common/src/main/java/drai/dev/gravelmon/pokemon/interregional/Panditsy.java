@@ -15,7 +15,7 @@ public class Panditsy extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         80),
                 List.of(Ability.OWN_TEMPO,Ability.UNAWARE,Ability.CONTRARY), Ability.CONTRARY,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,2,0,0), 40,
                 0.5,
                 190, ExperienceGroup.FAST,
@@ -44,8 +44,8 @@ public class Panditsy extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPOTLIGHT,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 36, 1.9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_HILLS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

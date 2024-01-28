@@ -1,5 +1,8 @@
 package drai.dev.gravelmon.games.pokemmo;
 
+import drai.dev.gravelmon.pokemon.nosto.*;
+import drai.dev.gravelmon.pokemon.nosto.regional.*;
+
 public class Nosto extends drai.dev.gravelmon.games.registry.Game {
     public Nosto() {
         super("Nosto");
@@ -7,8 +10,11 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
 
     @Override
     public void registerPokemon() {
+
+//        pokemon.add(new NostanTrubbish()); NOT FINISHED
+//        pokemon.add(new NostanGarbodor()); NOT FINISHED
+
 //        pokemon.add(new dog());
-//        pokemon.add(new Aegislash());
 //        pokemon.add(new Atlagon());
 //        pokemon.add(new Atlarv());
 //        pokemon.add(new Audibat());
@@ -33,18 +39,14 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Cherm());
 //        pokemon.add(new Cherrish());
 //        pokemon.add(new Chiraudio());
-//        pokemon.add(new Cloyster());
 //        pokemon.add(new Cresprit());
 //        pokemon.add(new Cursour());
 //        pokemon.add(new Denshirui());
 //        pokemon.add(new Diagem());
-//        pokemon.add(new Diglett());
 //        pokemon.add(new Doiliwoo());
-//        pokemon.add(new Doublade());
 //        pokemon.add(new Dragome());
 //        pokemon.add(new Drimp());
-//        pokemon.add(new Duggout());
-//        pokemon.add(new Dugtrio());
+        pokemon.add(new Duggout());
 //        pokemon.add(new Dysmerella());
 //        pokemon.add(new Echolocave());
 //        pokemon.add(new Encrona());
@@ -58,13 +60,11 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Frankensour());
 //        pokemon.add(new Furrocious());
 //        pokemon.add(new Galextrial());
-//        pokemon.add(new Garbodor());
 //        pokemon.add(new Glyptic());
 //        pokemon.add(new Grumpster());
 //        pokemon.add(new Hairibble());
 //        pokemon.add(new Halux());
 //        pokemon.add(new Hogstead());
-//        pokemon.add(new Honedge());
 //        pokemon.add(new Killarumi());
 //        pokemon.add(new Kookoon());
 //        pokemon.add(new Larvake());
@@ -82,7 +82,6 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Mieltzar());
 //        pokemon.add(new Mimoth());
 //        pokemon.add(new Mockoon());
-//        pokemon.add(new Morelull());
 //        pokemon.add(new Mosstrich());
 //        pokemon.add(new Mycelil());
 //        pokemon.add(new Necromanos());
@@ -120,8 +119,6 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Scruffur());
 //        pokemon.add(new Seasaw());
 //        pokemon.add(new Sedinane());
-//        pokemon.add(new Shellder());
-//        pokemon.add(new Shiinotic());
 //        pokemon.add(new Shrimpond());
 //        pokemon.add(new Signapsi());
 //        pokemon.add(new Sinsenella());
@@ -139,7 +136,6 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Titanoss());
 //        pokemon.add(new Torpepo());
 //        pokemon.add(new Treetle());
-//        pokemon.add(new Trubbish());
 //        pokemon.add(new Tuburrow());
 //        pokemon.add(new Tumball());
 //        pokemon.add(new Tunnelurm());

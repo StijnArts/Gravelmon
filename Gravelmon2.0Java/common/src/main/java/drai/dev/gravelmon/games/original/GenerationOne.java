@@ -1,18 +1,26 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.aristos.regional.*;
+import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
+import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.norheim.regional.*;
+import drai.dev.gravelmon.pokemon.nosto.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
+import drai.dev.gravelmon.pokemon.orohnhavai.regional.*;
+import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
+import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
@@ -23,7 +31,67 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new AvorianMrMime(122));
+        pokemon.add(new QamoranPsyduck(54));
+        pokemon.add(new QamoranSeel(86));
+        pokemon.add(new QamoranDewgong(87));
+        pokemon.add(new QamoranHitmonlee(106));
+        pokemon.add(new QamoranHitmonchan(107));
+        pokemon.add(new QamoranKoffing(109));
+        pokemon.add(new QamoranWeezing(110));
+//        pokemon.add(new QamoranTangela(114)); NOT FINISHED
+
+        pokemon.add(new NostanDiglett(50));
+        pokemon.add(new NostanDugtrio(51));
+        pokemon.add(new NostanShellder(90));
+        pokemon.add(new NostanCloyster(91));
+
+        pokemon.add(new NorheimanRattata(19));
+//        pokemon.add(new NorheimanDiglett(50)); NOT FINISHED
+//        pokemon.add(new NorheimanDugtrio(51)); NOT FINISHED
+//        pokemon.add(new NorheimanSeel(86)); NOT FINISHED
+        pokemon.add(new NorheimanShellder(90));
+//        pokemon.add(new NorheimanVoltorb(100)); NOT FINISHED
+//        pokemon.add(new NorheimanElectrode(101)); NOT FINISHED
+        pokemon.add(new NorheimanSeadra(117));
+        pokemon.add(new NorheimanDitto(132));
+//        pokemon.add(new NorheimanDragonair(148)); NOT FINISHED
+
+        pokemon.add(new VaritasianOnix(95)); //EVOLUTION NOT FINISHED
+        pokemon.add(new VaritasianCubone(104)); //EVOLUTION NOT FINISHED
+//        pokemon.add(new VaritasianMarowak(105)); NOT FINISHED
+        pokemon.add(new VaritasianHitmonlee(106));
+        pokemon.add(new VaritasianHitmonchan(107));
+//        pokemon.add(new VaritasianHorsea(116)); NOT FINISHED
+//        pokemon.add(new VaritasianSeadra(117)); NOT FINISHED
+//        pokemon.add(new VaritasianMrMime(122)); NOT FINISHED
+        pokemon.add(new VaritasianPorygon(137));
+
+//        pokemon.add(new HavaiianPoliwag(60)); NOT FINISHED
+//        pokemon.add(new HavaiianPoliwhirl(61)); NOT FINISHED
+        pokemon.add(new HavaiianGastly(92));
+        pokemon.add(new HavaiianHaunter(93));
+        pokemon.add(new HavaiianGengar(94));
+//        pokemon.add(new HavaiianKrabby(98)); NOT FINISHED
+//        pokemon.add(new HavaiianExeggcute(102)); NOT FINISHED
+//        pokemon.add(new HavaiianExeggutor(103)); NOT FINISHED
+//        pokemon.add(new HavaiianHorsea(116)); NOT FINISHED
+
+        pokemon.add(new HizianVenonat(48));
+        pokemon.add(new HizianVenomoth(49));
+        pokemon.add(new HizianLickitung(108));
+        pokemon.add(new HizianRhyhorn(111));
+        pokemon.add(new HizianRhydon(112));
+        pokemon.add(new HizianScyther(123));
+        pokemon.add(new HizianPinsir(123));
+
+        pokemon.add(new AristosianBellsprout(69));
+        pokemon.add(new AristosianWeepinbell(70));
+        pokemon.add(new AristosianVictreebel(71));
+//        pokemon.add(new AristosianGrowlithe(58)); NOT FINISHED
+//        pokemon.add(new AristosianArcanine(59)); NOT FINISHED
+        pokemon.add(new AristosianKangaskhan(115));
+
+        pokemon.add(new AvorianMrMime(122));
 
         //Pokemon Infinity
         addEghoPokemon();

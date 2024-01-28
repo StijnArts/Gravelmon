@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianTropius extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianTropius() {
-        super("Tropius",
+    public AristosianTropius(int dexNo) {
+        super(dexNo,"AristosianTropius",
                 Type.GRASS,Type.DRAGON,
                 new Stats(99,
                         99,
@@ -17,7 +17,7 @@ public class AristosianTropius extends drai.dev.gravelmon.pokemon.Pokemon {
                         81,
                         59),
                 List.of(Ability.SOLAR_POWER,Ability.ROUGH_SKIN,Ability.WONDER_SKIN), Ability.WONDER_SKIN,
-                8, 165,
+                24, 1145,
                 new Stats(2,0,0,0,0,0), 200,
                 0.5,
                 161, ExperienceGroup.SLOW,
@@ -93,8 +93,8 @@ public class AristosianTropius extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_HAMMER,"tm")                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

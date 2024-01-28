@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "qamorancubchoo-1",
+      "pokemon": "qamorancubchoo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-40",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky",
+"#cobblemon:is_nether_wasteland" ]
+      }
+    }
+  ]
+}

@@ -27,10 +27,6 @@ public class HUB extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Ovipter());
 //        pokemon.add(new Sakurovix());
 //        pokemon.add(new Sheetrick());
-//        pokemon.add(new Smeargle());
-//        pokemon.add(new Togekiss());
-//        pokemon.add(new Togepi());
-//        pokemon.add(new Togetic());
 //        pokemon.add(new Yokid());
     }
 

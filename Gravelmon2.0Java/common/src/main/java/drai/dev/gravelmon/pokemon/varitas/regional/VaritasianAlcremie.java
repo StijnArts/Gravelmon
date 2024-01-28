@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianAlcremie extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianAlcremie() {
-        super("Alcremie",
+    public VaritasianAlcremie(int dex) {
+        super(dex, "Alcremie",
                 Type.FAIRY,Type.POISON,
                 new Stats(65,
                         60,
@@ -17,7 +17,7 @@ public class VaritasianAlcremie extends drai.dev.gravelmon.pokemon.Pokemon {
                         121,
                         64),
                 List.of(Ability.STENCH), Ability.GOOEY,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,2,0), 100,
                 0.0,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -74,8 +74,8 @@ public class VaritasianAlcremie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 50, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

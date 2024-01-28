@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianMunchlax extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianMunchlax() {
-        super("Munchlax",
+    public VaritasianMunchlax(int dex) {
+        super(dex, "Munchlax",
                 Type.DARK,
                 new Stats(85,
                         135,
@@ -17,14 +17,15 @@ public class VaritasianMunchlax extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         5),
                 List.of(Ability.PICKUP,Ability.THICK_FAT,Ability.GLUTTONY), Ability.GLUTTONY,
-                8, 165,
+                6, 165,
                 new Stats(1,0,0,0,0,0), 50,
                 0.875,
                 78, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("They compete viciously for food. If you have something it wants to eat, it will chase you down relentlessly until it gets it."),
-                List.of(),
+                List.of(new EvolutionEntry("snarlax", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LAST_RESORT,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,4),
@@ -125,8 +126,8 @@ public class VaritasianMunchlax extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 39, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

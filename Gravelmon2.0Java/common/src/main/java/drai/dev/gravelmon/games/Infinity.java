@@ -100,9 +100,6 @@ public class Infinity extends Game {
         pokemon.add(new Dragoyle());
 
         pokemon.add(new PorygonX());
-        pokemon.add(new Oculeus());
-
-        pokemon.add(new Arkhaos());
 
         //Egho Oddish line
         pokemon.add(new Viledoom());
@@ -130,5 +127,9 @@ public class Infinity extends Game {
         pokemon.add(new Joltalope());
 
         pokemon.add(new Mewthree());
+
+        pokemon.add(new Oculeus());
+
+        pokemon.add(new Arkhaos());
     }
 }

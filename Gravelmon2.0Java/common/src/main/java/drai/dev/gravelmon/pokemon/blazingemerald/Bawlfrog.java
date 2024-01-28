@@ -63,7 +63,7 @@ public class Bawlfrog extends Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm"),
                         new MoveLearnSetEntry(Move.FOLLOW_ME,"egg")
                         ),
-                List.of(Label.BLAZING_EMERALD),
+                List.of(Label.BLAZING_EMERALD, Label.JOKE),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.RARE, 10, 40, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))

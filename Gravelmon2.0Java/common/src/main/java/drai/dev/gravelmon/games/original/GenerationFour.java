@@ -4,14 +4,20 @@ import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.hiza.regional.*;
+import drai.dev.gravelmon.pokemon.hub.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.interregional.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
+import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
+import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationFour extends Game {
@@ -21,6 +27,32 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new QamoranCombee(415));
+//        pokemon.add(new QamoranTangrowth(465)); NOT FINISHED
+
+//        pokemon.add(new NorheimanShinx(403)); NOT FINISHED
+//        pokemon.add(new NorheimanLuxio(404)); NOT FINISHED
+//        pokemon.add(new NorheimanLuxray(405)); NOT FINISHED
+//        pokemon.add(new NorheimanMismagius(429)); NOT FINISHED
+
+//        pokemon.add(new VaritasianBonsly(438)); NOT FINISHED
+//        pokemon.add(new VaritasianMimeJr(439)); NOT FINISHED
+        pokemon.add(new VaritasianMunchlax(446));
+//        pokemon.add(new VaritasianMantyke(458)); NOT FINISHED
+
+//        pokemon.add(new InterianPiplup(393)); NOT FINISHED
+//        pokemon.add(new InterianPrinplup(394)); NOT FINISHED
+//        pokemon.add(new InterianEmpoleon(395)); NOT FINISHED
+        pokemon.add(new InterianArceus(493));
+//
+        pokemon.add(new HubianTogekiss(468));
+
+        pokemon.add(new HizianMismagius(429));
+        pokemon.add(new HizianHonchkrow(430));
+        pokemon.add(new HizianGliscor(472));
+        pokemon.add(new HizianSkorupi(451));
+        pokemon.add(new HizianDrapion(452));
+
         //Pokemon Infinity
         pokemon.add(new EghoHappiny(440));
         pokemon.add(new EghoMagnezone(462));

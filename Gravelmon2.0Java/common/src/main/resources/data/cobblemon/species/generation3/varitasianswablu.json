@@ -1,0 +1,157 @@
+{
+  "implemented": true,
+  "name": "varitasianswablu",
+  "nationalPokedexNumber": 333,
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "abilities": [
+    "naturalcure",
+    "h:cloudnine"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 75,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "dragon"
+  ],
+  "moves": [
+    "1:peck",
+    "3:astonish",
+    "5:singsound",
+    "7:furyattack",
+    "9:safeguard",
+    "11:disarmingvoicesound",
+    "14:mist",
+    "17:roundsound",
+    "20:naturalgift",
+    "23:takedown",
+    "26:refresh",
+    "30:mirrormove",
+    "34:cottonguard",
+    "38:dragonpulse",
+    "42:perishsongsound",
+    "46:moonblast",
+    "tm:skyattack",
+    "tm:snoresound",
+    "tm:outrage",
+    "tm:healbellsound",
+    "tm:uproar",
+    "tm:heatwave",
+    "tm:hypervoicesound",
+    "tm:tailwind",
+    "tm:dragonpulse",
+    "tm:defog",
+    "tm:fly",
+    "tm:icebeam",
+    "tm:solarbeam",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:rest",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:swagger",
+    "tm:steelwing",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:safeguard",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:psychup",
+    "tm:facade",
+    "tm:aerialace",
+    "tm:roost",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:confide",
+    "tm:dazzlinggleam",
+    "tm:agility",
+    "tm:rage",
+    "tm:haze",
+    "tm:pursuit",
+    "tm:featherdance",
+    "tm:powerswap",
+    "tm:dragonrush",
+    "tm:playrough"  ],
+  "labels": [
+    "varitas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.varitasianswablu.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "varitasianswablu_VaritasianAltaria",
+      "variant": "level_up",
+      "result": "VaritasianAltaria",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianSkorupi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianSkorupi() {
-        super("Skorupi",
+    public HizianSkorupi(int dex) {
+        super(dex, "Skorupi",
                 Type.GROUND,
                 new Stats(40,
                         60,
@@ -22,12 +22,23 @@ public class HizianSkorupi extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_3),
                 List.of("Their nests are commonly found in steep cliffsides. Swarms of Skorupis can be seem climbing up mountains as the sun sets."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("hiziandrapion", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
+                List.of(           new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SCRATCH,1),
+                        new MoveLearnSetEntry(Move.HARDEN,5),
+                        new MoveLearnSetEntry(Move.FALSE_SWIPE,10),
+                        new MoveLearnSetEntry(Move.MUDSLAP,15),
+                        new MoveLearnSetEntry(Move.ABSORB,21),
+                        new MoveLearnSetEntry(Move.METAL_CLAW,25),
+                        new MoveLearnSetEntry(Move.FURY_SWIPES,30),
+                        new MoveLearnSetEntry(Move.MIND_READER,35),
+                        new MoveLearnSetEntry(Move.DIG,40)
+                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 39, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianSteenee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianSteenee() {
-        super("Steenee",
+    public VaritasianSteenee(int dex) {
+        super(dex, "Steenee",
                 Type.GHOST,Type.BUG,
                 new Stats(52,
                         40,
@@ -17,14 +17,15 @@ public class VaritasianSteenee extends drai.dev.gravelmon.pokemon.Pokemon {
                         48,
                         62),
                 List.of(Ability.UNNERVE), Ability.POISON_HEAL,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,2), 120,
                 0.0,
                 102, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It can use the multiple worms from its head to attack foes. It has an uptight and cruel temperment so it does this often. Most stay away from it anyways because it doesn't smell particularly good."),
-                List.of(),
+                List.of(new EvolutionEntry("frankensteen", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.PLAY_NICE,5),
@@ -97,8 +98,8 @@ public class VaritasianSteenee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 29, 0.18, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

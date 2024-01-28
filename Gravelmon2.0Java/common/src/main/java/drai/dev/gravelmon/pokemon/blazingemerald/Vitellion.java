@@ -45,7 +45,7 @@ public class Vitellion extends Pokemon {
                         new MoveLearnSetEntry(Move.COSMIC_POWER,45),
                         new MoveLearnSetEntry(Move.SHADE_TRANCE,50)
                         ),
-                List.of(Label.BLAZING_EMERALD),
+                List.of(Label.BLAZING_EMERALD, Label.JOKE),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 10, 40, 0.001, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

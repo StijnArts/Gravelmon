@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianPhantump extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianPhantump() {
-        super("Phantump",
+    public VaritasianPhantump(int dex) {
+        super(dex, "Phantump",
                 Type.GHOST,Type.POISON,
                 new Stats(43,
                         60,
@@ -17,14 +17,15 @@ public class VaritasianPhantump extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         38),
                 List.of(Ability.NATURAL_CURE,Ability.EFFECT_SPORE,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 62, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.AMORPHOUS),
                 List.of("The stumps of Varitan Phantump are particularly overrun with fungus, giving them power over its growth. Though sometimes they exhibit odd behavior, believed to be an effect of the fungus."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasianTrevenant", EvolutionType.TRADE, false, List.of(),
+                        List.of(),List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.STRENGTH_SAP,1),
                         new MoveLearnSetEntry(Move.ASTONISH,5),
@@ -91,8 +92,9 @@ public class VaritasianPhantump extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOM_DRENCH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 31, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

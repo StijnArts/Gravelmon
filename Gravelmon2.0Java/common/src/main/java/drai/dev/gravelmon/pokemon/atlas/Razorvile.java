@@ -15,7 +15,7 @@ public class Razorvile extends drai.dev.gravelmon.pokemon.Pokemon {
                         69,
                         74),
                 List.of(Ability.OVERGROW), Ability.ROUGH_SKIN,
-                8, 165,
+                16, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -97,11 +97,11 @@ public class Razorvile extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POISON_FANG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Razorvile");

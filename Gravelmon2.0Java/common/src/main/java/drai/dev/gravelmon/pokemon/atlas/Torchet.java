@@ -15,14 +15,15 @@ public class Torchet extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         86),
                 List.of(Ability.BLAZE), Ability.PICKPOCKET,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("Torchet is often found consuming berries or even taking them from other Pokemon. After eating, it tends to doze off and become exceedingly warm around the body."),
-                List.of(),
+                List.of(new EvolutionEntry("regalient", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,3),
@@ -81,10 +82,10 @@ public class Torchet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAIL_SLAP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

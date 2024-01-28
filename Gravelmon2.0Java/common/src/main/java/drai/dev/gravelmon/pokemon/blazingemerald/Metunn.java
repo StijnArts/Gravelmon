@@ -25,7 +25,7 @@ public class Metunn extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.HIDDEN_POWER,1)
                 ),
-                List.of(Label.BLAZING_EMERALD),
+                List.of(Label.BLAZING_EMERALD, Label.JOKE),
                 1, List.of(
                         new ItemDrop("gravelmon:ancient_glyph",10, 1,1)),
                 SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 70, 100, 0.0001, List.of(

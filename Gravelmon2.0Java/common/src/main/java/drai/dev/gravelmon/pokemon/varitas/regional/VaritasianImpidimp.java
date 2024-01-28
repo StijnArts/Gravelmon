@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianImpidimp extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianImpidimp() {
-        super("Impidimp",
+    public VaritasianImpidimp(int dex) {
+        super(dex ,"Impidimp",
                 Type.DARK,Type.FLYING,
                 new Stats(0,
                         0,
@@ -17,14 +17,15 @@ public class VaritasianImpidimp extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.UNBURDEN), Ability.FRISK,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,0), 0,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Though incapable of flight, the large wing-like tuft of hair on Varitan Impidimp's head makes it more aerodynamic and able to leap between tall trees. By rapidly swinging its head around, it can whip up somewhat strong gusts of wind."),
-                List.of(),
+                List.of(new EvolutionEntry("VaritasianMorgrem", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFIDE,1),
                         new MoveLearnSetEntry(Move.BITE,4),
@@ -72,11 +73,11 @@ public class VaritasianImpidimp extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 10, 30, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Impidimp");

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianGrowlithe extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianGrowlithe() {
-        super("Growlithe",
+    public AristosianGrowlithe(int dexNo) {
+        super(dexNo,"AristosianGrowlithe",
                 Type.ICE,
                 new Stats(0,
                         0,

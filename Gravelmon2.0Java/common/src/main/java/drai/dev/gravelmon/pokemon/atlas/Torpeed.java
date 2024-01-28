@@ -15,14 +15,15 @@ public class Torpeed extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         81),
                 List.of(Ability.TORRENT), Ability.SWIFT_SWIM,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
                 List.of("Torpeed's body is streamlined for fast swimming, even against strong currents. It is capable of harnessing the cold energy found in the icicles on its back."),
-                List.of(),
+                List.of(new EvolutionEntry("damasaor", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -82,14 +83,16 @@ public class Torpeed extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Torpeed");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

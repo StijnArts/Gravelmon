@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianFlabebe extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianFlabebe() {
-        super("Flabb",
+    public VaritasianFlabebe(int dex) {
+        super(dex, "VaritasianFlabebe",
                 Type.FAIRY,Type.POISON,
                 new Stats(44,
                         38,
@@ -17,14 +17,15 @@ public class VaritasianFlabebe extends drai.dev.gravelmon.pokemon.Pokemon {
                         79,
                         42),
                 List.of(Ability.EFFECT_SPORE), Ability.SYMBIOSIS,
-                8, 165,
+                1, 165,
                 new Stats(0,0,0,0,1,0), 225,
                 0.0,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("They collect spores and keep them on their head for various uses. They will sit quietly on mushrooms if observed but are likely to do something mischeivious if you look away."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasianfloette", EvolutionType.LEVEL_UP, false, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "19")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,6),
@@ -82,8 +83,8 @@ public class VaritasianFlabebe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 21, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

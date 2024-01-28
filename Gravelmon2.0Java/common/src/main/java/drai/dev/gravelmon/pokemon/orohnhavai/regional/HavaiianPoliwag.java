@@ -8,7 +8,7 @@ import java.util.*;
 
 public class HavaiianPoliwag extends drai.dev.gravelmon.pokemon.Pokemon {
     public HavaiianPoliwag() {
-        super("Poliwag",
+        super("HavaiianPoliwag",
                 Type.GHOST,Type.WATER,
                 new Stats(40,
                         50,

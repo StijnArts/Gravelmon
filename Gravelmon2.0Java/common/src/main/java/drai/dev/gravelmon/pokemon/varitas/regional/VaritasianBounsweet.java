@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianBounsweet extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianBounsweet() {
-        super("Bounsweet",
+    public VaritasianBounsweet(int dex) {
+        super(dex, "Bounsweet",
                 Type.GHOST,Type.BUG,
                 new Stats(42,
                         30,
@@ -17,14 +17,15 @@ public class VaritasianBounsweet extends drai.dev.gravelmon.pokemon.Pokemon {
                         38,
                         32),
                 List.of(Ability.UNNERVE), Ability.POISON_HEAL,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 235,
                 0.0,
                 42, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Heavy pollution of its habitat caused it to spoil and succumb to parasites, yet it still lives on somehow. It's unknown whether it controls the worm in its head or vice versa."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasiansteenee", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.PLAY_NICE,5),
@@ -88,8 +89,8 @@ public class VaritasianBounsweet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 21, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

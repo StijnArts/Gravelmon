@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianSandaconda extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianSandaconda() {
-        super("Sandaconda",
+    public HizianSandaconda(int dex) {
+        super(dex, "Sandaconda",
                 Type.FIRE,Type.GROUND,
                 new Stats(72,
                         65,
@@ -15,7 +15,7 @@ public class HizianSandaconda extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         71),
                 List.of(Ability.WHITE_SMOKE), Ability.UNAWARE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 179, ExperienceGroup.MEDIUM_FAST,
@@ -40,8 +40,8 @@ public class HizianSandaconda extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ERUPTION,63)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 50, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

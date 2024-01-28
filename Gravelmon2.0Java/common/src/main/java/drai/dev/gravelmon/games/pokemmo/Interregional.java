@@ -1,5 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo;
 
+import drai.dev.gravelmon.pokemon.interregional.*;
+
 public class Interregional extends drai.dev.gravelmon.games.registry.Game {
     public Interregional() {
         super("Interregional");
@@ -9,12 +11,11 @@ public class Interregional extends drai.dev.gravelmon.games.registry.Game {
     public void registerPokemon() {
 //        pokemon.add(new Acard());
 //        pokemon.add(new Agacloakis());
-//        pokemon.add(new Arceus());
 //        pokemon.add(new Archemite());
 //        pokemon.add(new Arisfly());
 //        pokemon.add(new Audibaah());
 //        pokemon.add(new Bactiny());
-//        pokemon.add(new Beagasso());
+        pokemon.add(new Beagasso());
 //        pokemon.add(new Bellabaah());
 //        pokemon.add(new Bitumin());
 //        pokemon.add(new Blastine());
@@ -37,7 +38,6 @@ public class Interregional extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Droophant());
 //        pokemon.add(new Dulswoop());
 //        pokemon.add(new Dynabuck());
-//        pokemon.add(new Empoleon());
 //        pokemon.add(new Etheeria());
 //        pokemon.add(new Exwahyzee());
 //        pokemon.add(new Ferrutail());
@@ -46,7 +46,6 @@ public class Interregional extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new FlyTrap2());
 //        pokemon.add(new Frog1());
 //        pokemon.add(new Frog2());
-//        pokemon.add(new Genesect());
 //        pokemon.add(new Genie1());
 //        pokemon.add(new Genie2());
 //        pokemon.add(new Gigantoid());
@@ -60,7 +59,6 @@ public class Interregional extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Hermish());
 //        pokemon.add(new Hiveum());
 //        pokemon.add(new Intellifoe());
-//        pokemon.add(new Jigglypuff());
 //        pokemon.add(new Juavarrior());
 //        pokemon.add(new Junkqual());
 //        pokemon.add(new Juvy());
@@ -97,13 +95,11 @@ public class Interregional extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Onnibud());
 //        pokemon.add(new Onnidix());
 //        pokemon.add(new Oofoe());
-//        pokemon.add(new Panditsy());
+        pokemon.add(new Panditsy());
 //        pokemon.add(new Periyeti());
 //        pokemon.add(new Phoeuck());
 //        pokemon.add(new Pipillar());
-//        pokemon.add(new Piplup());
 //        pokemon.add(new Polluga());
-//        pokemon.add(new Prinplup());
 //        pokemon.add(new Pyrockit());
 //        pokemon.add(new Quisewer());
 //        pokemon.add(new Rascoon());
@@ -143,8 +139,7 @@ public class Interregional extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Voltuff());
 //        pokemon.add(new Whirm());
 //        pokemon.add(new Zallut());
-//        pokemon.add(new Zangarsh());
-//        pokemon.add(new Zangoose());
+        pokemon.add(new Zangarsh());
 //        pokemon.add(new Zerbrahg());
 //        pokemon.add(new Zooboom());
     }

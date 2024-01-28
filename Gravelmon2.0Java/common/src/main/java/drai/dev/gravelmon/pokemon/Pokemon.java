@@ -225,11 +225,15 @@ public class Pokemon {
                    int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
                    List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
                    List<PokemonForm> forms) {
-        this.name = name;
+        this.name = getClass().getSimpleName();
         this.stats = stats;
         this.primaryType = primaryType;
         this.secondaryType = null;
-        this.abilities = abilities;
+        this.abilities = new ArrayList<>();
+               this.abilities.addAll(abilities);
+        if(this.abilities.size() > 2){
+            this.abilities.remove(2);
+        }
         this.hiddenAbility = hiddenAbility;
         this.catchRate = catchRate;
         this.maleRatio = maleRatio;

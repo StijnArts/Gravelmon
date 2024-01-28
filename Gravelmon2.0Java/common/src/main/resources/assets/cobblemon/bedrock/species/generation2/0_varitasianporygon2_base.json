@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:varitasianporygon2",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_varitasianporygon2",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/varitasianporygon2.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/varitasianporygon2_shiny.png"
+    }  ]
+}

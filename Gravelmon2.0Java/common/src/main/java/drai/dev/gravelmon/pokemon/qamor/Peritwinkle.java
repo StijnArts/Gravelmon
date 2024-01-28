@@ -17,14 +17,19 @@ public class Peritwinkle extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         42),
                 List.of(Ability.INSOMNIA,Ability.SWEET_VEIL,Ability.PRANKSTER), Ability.PRANKSTER,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 145,
                 0.5,
                 44, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It produces a soft and gentle light said to bring pleasant dreams and a full nights sleep, children often use it as a night light."),
-                List.of(),
+                List.of(new EvolutionEntry("illumise", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\""))),
+                        new EvolutionEntry("volbeat", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,5),
@@ -43,15 +48,16 @@ public class Peritwinkle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.INFESTATION,50)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 10, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER, SpawnPreset.NATURAL, SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Peritwinkle");
-
+setCanFly(true);
     }
 
 

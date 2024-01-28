@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianTrevenant extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianTrevenant() {
-        super("Trevenant",
+    public VaritasianTrevenant(int dex) {
+        super(dex, "Trevenant",
                 Type.GHOST,Type.POISON,
                 new Stats(85,
                         81,
@@ -17,7 +17,7 @@ public class VaritasianTrevenant extends drai.dev.gravelmon.pokemon.Pokemon {
                         82,
                         56),
                 List.of(Ability.NATURAL_CURE,Ability.EFFECT_SPORE,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                15, 165,
                 new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
@@ -95,8 +95,9 @@ public class VaritasianTrevenant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRUTAL_SWING,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 31, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

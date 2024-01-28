@@ -15,14 +15,15 @@ public class Vulkidna extends drai.dev.gravelmon.pokemon.Pokemon {
                         54,
                         34),
                 List.of(Ability.BLAZE), Ability.MAGMA_ARMOR,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Vulkidna make their homes near volcanic sites, where the earth is often dry and devoid of life. They bury down into the warm soil, and can lie there dormant for years until the volcano is active again."),
-                List.of(),
+                List.of(new EvolutionEntry("heatreme", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,3),
@@ -74,8 +75,8 @@ public class Vulkidna extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

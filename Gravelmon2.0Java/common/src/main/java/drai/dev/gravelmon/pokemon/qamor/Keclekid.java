@@ -17,14 +17,15 @@ public class Keclekid extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         28),
                 List.of(Ability.COLOR_CHANGE), Ability.MOODY,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 225,
                 0.5,
                 50, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Keclekid's body will involuntarily change color depending on its current mood. As this Pokemon develops, it associates colors with specific emotional responses so trainers have to be weary of minor color choices in even their wardrobe to keep it comfortable."),
-                List.of(),
+                List.of(new EvolutionEntry("kecleon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.BIND,4),
@@ -43,8 +44,8 @@ public class Keclekid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SYNCHRONOISE,50)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 12, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

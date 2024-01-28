@@ -15,7 +15,7 @@ public class Bountius extends drai.dev.gravelmon.pokemon.Pokemon {
                         102,
                         41),
                 List.of(Ability.STORM_DRAIN), Ability.RIPEN,
-                8, 165,
+                30, 165,
                 new Stats(3,0,0,0,0,0), 45,
                 0.5,
                 260, ExperienceGroup.SLOW,
@@ -75,10 +75,10 @@ public class Bountius extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ),SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 40, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SUMMER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_DESERT))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

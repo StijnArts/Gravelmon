@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianSentret extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianSentret() {
-        super("Sentret",
+    public AristosianSentret(int dexNo) {
+        super(dexNo,"AristosianSentret",
                 Type.NORMAL,Type.GRASS,
                 new Stats(55,
                         45,
@@ -17,14 +17,15 @@ public class AristosianSentret extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         40),
                 List.of(Ability.RUN_AWAY,Ability.GRASS_PELT,Ability.OVERCOAT), Ability.OVERCOAT,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 51, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Sentret's mosslike fur perfectly blends with foliage, so it's difficult to spot it as it camouflages itself in leaves. It won't sleep until it's sure its body is hidden entirely."),
-                List.of(),
+                List.of(new EvolutionEntry("AristosianFurret", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.AGILITY, "")),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CAMOUFLAGE,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,4),
@@ -100,10 +101,10 @@ public class AristosianSentret extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,"tm")                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 21, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_LUSH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

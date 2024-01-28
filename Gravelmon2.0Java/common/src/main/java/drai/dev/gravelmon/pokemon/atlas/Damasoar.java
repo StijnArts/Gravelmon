@@ -15,7 +15,7 @@ public class Damasoar extends drai.dev.gravelmon.pokemon.Pokemon {
                         77,
                         110),
                 List.of(Ability.TORRENT), Ability.SWIFT_SWIM,
-                8, 165,
+                24, 165,
                 new Stats(0,1,0,0,0,2), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -93,14 +93,16 @@ public class Damasoar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Damasoar");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

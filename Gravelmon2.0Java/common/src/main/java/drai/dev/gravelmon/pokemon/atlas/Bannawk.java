@@ -15,14 +15,15 @@ public class Bannawk extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         80),
                 List.of(Ability.OVERGROW), Ability.HARVEST,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FLYING),
                 List.of("Generally the leaders of a flock of Baneep, they never hesitate to attack with a barrage of seeds if threatened."),
-                List.of(),
+                List.of(new EvolutionEntry("phoenan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.CHIRP,5),
@@ -79,15 +80,15 @@ public class Bannawk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEATHERRUSH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bannawk");
-
+setCanFly(true);
     }
 
 

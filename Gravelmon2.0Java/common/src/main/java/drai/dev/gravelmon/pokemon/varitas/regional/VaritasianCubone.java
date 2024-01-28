@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianCubone extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianCubone() {
-        super("Cubone",
+    public VaritasianCubone(int dex) {
+        super(dex, "VaritasianCubone",
                 Type.DARK,Type.FLYING,
                 new Stats(50,
                         50,
@@ -17,7 +17,7 @@ public class VaritasianCubone extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         35),
                 List.of(Ability.ROCK_HEAD,Ability.LIGHTNING_ROD,Ability.BATTLE_ARMOR), Ability.BATTLE_ARMOR,
-                8, 165,
+                4, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
@@ -126,8 +126,8 @@ public class VaritasianCubone extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHIP_AWAY,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 32, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

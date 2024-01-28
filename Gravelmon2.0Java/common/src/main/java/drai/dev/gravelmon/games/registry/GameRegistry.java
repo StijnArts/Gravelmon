@@ -3,6 +3,7 @@ package drai.dev.gravelmon.games.registry;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.games.original.*;
+import drai.dev.gravelmon.games.pokemmo.*;
 
 import java.util.*;
 
@@ -23,20 +24,28 @@ public class GameRegistry {
         games.add(new Sage());
         games.add(new Realidea());
         games.add(new Infinity());
+        games.add(new Interregional());
         games.add(new Opal());
         games.add(new Insurgence());
         games.add(new Xenoverse());
-//        games.add(new Avoris());
+        games.add(new Avoris());
+        games.add(new Varitas());
+        games.add(new Aristos());
         games.add(new Uranium());
+        games.add(new Hiza());
         games.add(new Flux());
+        games.add(new OrohnHavai());
         games.add(new EternalForest());
+        games.add(new Norheim());
         games.add(new Lockemon());
+        games.add(new Nosto());
         games.add(new Umbra());
         games.add(new BlazingEmerald());
         games.add(new Daybreak());
+        games.add(new Qamor());
         games.add(new Vanguard());
         games.add(new Myth());
         games.add(new Deneb());
-//        games.add(new Atlas());
+        games.add(new Atlas());
     }
 }

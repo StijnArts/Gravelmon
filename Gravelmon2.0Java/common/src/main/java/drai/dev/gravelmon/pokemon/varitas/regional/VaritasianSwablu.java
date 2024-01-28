@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianSwablu extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianSwablu() {
-        super("Swablu",
+    public VaritasianSwablu(int dex) {
+        super(dex,"Swablu",
                 Type.GRASS,Type.FLYING,
                 new Stats(45,
                         40,
@@ -17,14 +17,15 @@ public class VaritasianSwablu extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         50),
                 List.of(Ability.NATURAL_CURE), Ability.CLOUD_NINE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 62, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.DRAGON),
                 List.of("Living in ponds among water plants caused its cottony wings to become filled with seeds and plant matter over time. It uses its new appearance to help camouflage itself."),
-                List.of(),
+                List.of(new EvolutionEntry("VaritasianAltaria", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.ASTONISH,3),
@@ -90,15 +91,15 @@ public class VaritasianSwablu extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 34, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Swablu");
-
+        setCanFly(true);
     }
 
 

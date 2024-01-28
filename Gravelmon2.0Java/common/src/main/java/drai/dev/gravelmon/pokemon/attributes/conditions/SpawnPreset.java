@@ -35,7 +35,7 @@ public enum SpawnPreset {
     GEMSTONES("gemstones"),
     STRONGHOLD("stronghold"),
     SHIP_WRECK("shipwreck"),
-    END_CITY("end_city");
+    END_CITY("end_city"), WILD("wild");
 
     SpawnPreset(String name){
         this.name = name;

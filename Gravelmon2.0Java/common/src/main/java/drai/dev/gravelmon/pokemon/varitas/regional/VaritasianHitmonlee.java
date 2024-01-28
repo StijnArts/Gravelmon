@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianHitmonlee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianHitmonlee() {
-        super("Hitmonlee",
+    public VaritasianHitmonlee(int dex) {
+        super(dex,"VaritasianHitmonlee",
                 Type.PSYCHIC,
                 new Stats(50,
                         35,
@@ -17,7 +17,7 @@ public class VaritasianHitmonlee extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         87),
                 List.of(Ability.LIMBER,Ability.RECKLESS,Ability.UNBURDEN), Ability.UNBURDEN,
-                8, 165,
+                15, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 1.0,
                 159, ExperienceGroup.MEDIUM_FAST,
@@ -114,9 +114,10 @@ public class VaritasianHitmonlee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 46, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

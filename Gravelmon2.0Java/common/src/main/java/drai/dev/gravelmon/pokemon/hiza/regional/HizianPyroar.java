@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianPyroar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianPyroar() {
-        super("Pyroar",
+    public HizianPyroar(int dex) {
+        super(dex, "Pyroar",
                 Type.GHOST,Type.FLYING,
                 new Stats(76,
                         119,
@@ -15,7 +15,7 @@ public class HizianPyroar extends drai.dev.gravelmon.pokemon.Pokemon {
                         66,
                         106),
                 List.of(Ability.WIND_RIDER), Ability.WIND_RIDER,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,2,0,0), 65,
                 0.125,
                 177, ExperienceGroup.MEDIUM_SLOW,
@@ -41,9 +41,10 @@ public class HizianPyroar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PHANTOM_FORCE,57)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 50, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

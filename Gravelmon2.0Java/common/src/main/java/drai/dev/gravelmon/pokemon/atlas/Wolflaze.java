@@ -15,14 +15,15 @@ public class Wolflaze extends drai.dev.gravelmon.pokemon.Pokemon {
                         67,
                         86),
                 List.of(Ability.BLAZE), Ability.VITAL_SPIRIT,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("Their bodies are warm to touch, but when sick or angered, they are capable of causing serious burns. In battle, its wrists and tail flame up."),
-                List.of(),
+                List.of(new EvolutionEntry("wolverize", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,4),
@@ -90,8 +91,8 @@ public class Wolflaze extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

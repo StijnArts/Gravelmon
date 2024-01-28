@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianTogetic extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianTogetic() {
-        super("Togetic",
+    public VaritasianTogetic(int dex) {
+        super(dex, "Togetic",
                 Type.FAIRY,Type.STEEL,
                 new Stats(55,
                         70,
@@ -24,7 +24,8 @@ public class VaritasianTogetic extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FAIRY),
                 List.of("Upon evolving, its shell forms into magnificent armor. It is a slightly clumsier flier than standard Togetic because the armor makes it heavier, but has a hardened head to compensate."),
-                List.of(),
+                List.of(new EvolutionEntry("togetect", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.STEEL_WING.getName()+"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGICAL_LEAF,1),
                         new MoveLearnSetEntry(Move.METRONOME,5),
@@ -36,7 +37,7 @@ public class VaritasianTogetic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BESTOW,25),
                         new MoveLearnSetEntry(Move.WISH,29),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,33),
-                        new MoveLearnSetEntry(Move.SAFEGUARD,37),
+                        new MoveLearnSetEntry(Move.STEEL_WING,37),
                         new MoveLearnSetEntry(Move.BATON_PASS,41),
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,45),
                         new MoveLearnSetEntry(Move.LAST_RESORT,49),
@@ -135,14 +136,15 @@ public class VaritasianTogetic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 40, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Togetic");
+           setCanFly(true);
 
     }
 

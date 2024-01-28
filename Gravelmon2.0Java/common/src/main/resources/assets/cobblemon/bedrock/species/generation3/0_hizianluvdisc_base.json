@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hizianluvdisc",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_hizianluvdisc",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/hizianluvdisc.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/hizianluvdisc_shiny.png"
+    }  ]
+}

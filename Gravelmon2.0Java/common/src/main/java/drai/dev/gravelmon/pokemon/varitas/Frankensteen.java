@@ -17,7 +17,7 @@ public class Frankensteen extends drai.dev.gravelmon.pokemon.Pokemon {
                         98,
                         72),
                 List.of(Ability.UNNERVE), Ability.POISON_HEAL,
-                8, 165,
+                12, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.0,
                 230, ExperienceGroup.MEDIUM_SLOW,
@@ -109,8 +109,8 @@ public class Frankensteen extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 39, 51, 0.02, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

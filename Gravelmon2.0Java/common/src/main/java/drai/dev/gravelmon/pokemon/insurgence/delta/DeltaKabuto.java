@@ -20,7 +20,7 @@ public class DeltaKabuto extends Pokemon {
                 70,
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by PokeNerd123. Though they buzz harmlessly when alone, a swarm can decimate a city's worth of crops within minutes."),
-                List.of(new EvolutionEntry("deltakabutops", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("deltakabutops", EvolutionType.LEVEL_UP, false, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),

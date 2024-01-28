@@ -1,4 +1,20 @@
 {"target": "cobblemon:Wynaut",
+ "evolutions": [
+  {
+   "id": "wynaut_varitasianwobbuffet",
+   "variant": "level_up",
+   "result": "varitasianwobbuffet",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 15
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:amnesia",
     "1:charm",

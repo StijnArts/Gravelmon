@@ -17,7 +17,7 @@ public class Sporges extends drai.dev.gravelmon.pokemon.Pokemon {
                         154,
                         75),
                 List.of(Ability.EFFECT_SPORE), Ability.SYMBIOSIS,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,3,0), 45,
                 0.0,
                 248, ExperienceGroup.MEDIUM_FAST,
@@ -74,8 +74,8 @@ public class Sporges extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 50, 0.05, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

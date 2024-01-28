@@ -17,7 +17,7 @@ public class Draftbee extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         80),
                 List.of(Ability.HEATPROOF,Ability.SWARM,Ability.HUSTLE), Ability.HUSTLE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,0), 0,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
@@ -47,7 +47,7 @@ public class Draftbee extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Draftbee");
-
+setCanFly(true);
     }
 
 

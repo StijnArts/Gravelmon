@@ -1,0 +1,146 @@
+{
+  "implemented": true,
+  "name": "aristosianspinarak",
+  "nationalPokedexNumber": 167,
+  "primaryType": "bug",
+  "secondaryType": "fairy",
+  "abilities": [
+    "swarm",
+    "cutecharm",
+    "h:furcoat"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 50,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:absorb",
+    "1:fairywind",
+    "6:stunspore",
+    "12:sweetscent",
+    "18:drainingkiss",
+    "24:strugglebug",
+    "30:covet",
+    "36:switcheroo",
+    "42:dazzlinggleam",
+    "48:bugbuzzsound",
+    "54:quiverdance",
+    "egg:aromaticmist",
+    "egg:moonblast",
+    "egg:stickyweb",
+    "tm:charm",
+    "tm:faketears",
+    "tm:protect",
+    "tm:acrobatics",
+    "tm:strugglebug",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:pounce",
+    "tm:facade",
+    "tm:swiftcosmic",
+    "tm:magicalleaf",
+    "tm:drainingkiss",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:uturn",
+    "tm:sleeptalksound",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:dazzlinggleam",
+    "tm:grassknot",
+    "tm:rest",
+    "tm:imprison",
+    "tm:leechlife",
+    "tm:skillswap",
+    "tm:substitute",
+    "tm:trick",
+    "tm:tailwind",
+    "tm:energyball",
+    "tm:psychic",
+    "tm:playrough",
+    "tm:calmmind",
+    "tm:helpinghand",
+    "tm:pollenpuff",
+    "tm:batonpass",
+    "tm:bugbuzzsound",
+    "tm:terablast",
+    "tm:bugbite"  ],
+  "labels": [
+    "aristos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.aristosianspinarak.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "aristosianspinarak_lanidos",
+      "variant": "level_up",
+      "result": "lanidos",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

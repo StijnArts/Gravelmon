@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class HizianVenonat extends drai.dev.gravelmon.pokemon.Pokemon {
-    public HizianVenonat() {
-        super("Venonat",
+    public HizianVenonat(int dex) {
+        super(dex,"Venonat",
                 Type.BUG,Type.ELECTRIC,
                 new Stats(60,
                         55,
@@ -15,14 +15,15 @@ public class HizianVenonat extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         45),
                 List.of(Ability.STATIC), Ability.STATIC,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It charges itself by touching other Venonat with its body. When low on energy, its eyes will flash bright red to attract others of its own."),
-                List.of(),
+                List.of(new EvolutionEntry("HizianVenomoth", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORESIGHT,1),
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,5),
@@ -38,8 +39,8 @@ public class HizianVenonat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC,47)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 31, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

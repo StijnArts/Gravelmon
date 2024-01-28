@@ -126,7 +126,7 @@
   "evolutions": [
     {
       "id": "deltakabuto_deltakabutops",
-      "variant": "item_interact",
+      "variant": "level_up",
       "result": "deltakabutops",
       "consumeHeldItem": false,
       "learnableMoves": [],

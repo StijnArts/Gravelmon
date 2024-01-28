@@ -15,7 +15,7 @@ public class Slymander extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         107),
                 List.of(Ability.BLAZE), Ability.REGENERATOR,
-                8, 165,
+                17, 165,
                 new Stats(0,2,0,0,0,1), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -96,8 +96,8 @@ public class Slymander extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_TAIL,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,8 +1,10 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.aristos.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
@@ -10,6 +12,7 @@ import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
+import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
 public class GenerationSix extends Game {
@@ -19,6 +22,18 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
+
+        pokemon.add(new VaritasianFlabebe(669));
+        pokemon.add(new VaritasianFloette(670));
+        pokemon.add(new VaritasianPhantump(708));
+        pokemon.add(new VaritasianTrevenant(709));
+
+        pokemon.add(new HizianLitleo(667));
+        pokemon.add(new HizianPyroar(668));
+
+//        pokemon.add(new AristosianLitleo(667)); NOT FINISHED
+
+
         //Pokemon Insurgance
         pokemon.add(new DeltaFroakie(656));
         pokemon.add(new DeltaFrogadier(657));

@@ -8,7 +8,7 @@ import java.util.*;
 
 public class HavaiianPoliwhirl extends drai.dev.gravelmon.pokemon.Pokemon {
     public HavaiianPoliwhirl() {
-        super("Poliwhirl",
+        super("HavaiianPoliwhirl",
                 Type.GHOST,Type.WATER,
                 new Stats(50,
                         65,

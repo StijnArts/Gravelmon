@@ -15,14 +15,15 @@ public class Heatreme extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         48),
                 List.of(Ability.BLAZE), Ability.MAGMA_ARMOR,
-                8, 165,
+                11, 165,
                 new Stats(1,0,0,1,0,0), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The orb of lava on a Hetreme's back is always overflowing and renewing itself to stop it from drying out. When a nearby volcano is about to erupt they go into a rampage."),
-                List.of(),
+                List.of(new EvolutionEntry("ekiama", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,3),
@@ -75,8 +76,8 @@ public class Heatreme extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

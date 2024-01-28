@@ -8,7 +8,7 @@ import java.util.*;
 
 public class VaritasianSeadra extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianSeadra() {
-        super("Seadra",
+        super("VaritasianSeadra",
                 Type.GRASS,Type.DRAGON,
                 new Stats(55,
                         65,

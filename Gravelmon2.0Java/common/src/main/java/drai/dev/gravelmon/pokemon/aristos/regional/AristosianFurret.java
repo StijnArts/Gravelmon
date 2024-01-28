@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianFurret extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianFurret() {
-        super("Furret",
+    public AristosianFurret(int dexNo) {
+        super(dexNo,"AristosianFurret",
                 Type.NORMAL,Type.GRASS,
                 new Stats(90,
                         86,
@@ -17,7 +17,7 @@ public class AristosianFurret extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         105),
                 List.of(Ability.RUN_AWAY,Ability.GRASS_PELT,Ability.OVERCOAT), Ability.OVERCOAT,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 156, ExperienceGroup.MEDIUM_FAST,
@@ -105,10 +105,10 @@ public class AristosianFurret extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,"tm")                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 41, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_LUSH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

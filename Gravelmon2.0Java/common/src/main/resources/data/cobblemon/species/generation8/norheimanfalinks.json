@@ -1,0 +1,181 @@
+{
+  "implemented": true,
+  "name": "norheimanfalinks",
+  "nationalPokedexNumber": 870,
+  "primaryType": "steel",
+  "secondaryType": "fighting",
+  "abilities": [
+    "battlearmor",
+    "h:steelyspirit"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 110,
+    "defence": 120,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 0,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "moves": [
+    "1:copycat",
+    "1:detect",
+    "1:feint",
+    "1:finalgambit",
+    "1:helpinghand",
+    "1:lifedew",
+    "1:metalclaw",
+    "1:quickattack",
+    "1:reversal",
+    "1:rocksmash",
+    "1:screechsound",
+    "1:vacuumwave",
+    "12:counter",
+    "16:workup",
+    "20:forcepalm",
+    "24:calmmind",
+    "28:metalsound",
+    "32:quickguard",
+    "36:bonerush",
+    "40:swordsdance",
+    "44:healpulse",
+    "48:meteormash",
+    "52:dragonpulse",
+    "56:extremespeed",
+    "60:closecombat",
+    "egg:bite",
+    "egg:bulletpunch",
+    "egg:circlethrow",
+    "egg:crosschop",
+    "egg:detect",
+    "egg:highjumpkick",
+    "egg:howlsound",
+    "tm:takedown",
+    "tm:agility",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:waterpulse",
+    "tm:lowkick",
+    "tm:trailblaze",
+    "tm:facade",
+    "tm:aerialace",
+    "tm:bulldoze",
+    "tm:metalclaw",
+    "tm:swiftcosmic",
+    "tm:rocktomb",
+    "tm:lowsweep",
+    "tm:fling",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:zenheadbutt",
+    "tm:shadowclaw",
+    "tm:bulkup",
+    "tm:bodyslam",
+    "tm:thunderpunch",
+    "tm:icepunch",
+    "tm:sleeptalksound",
+    "tm:drainpunch",
+    "tm:metronome",
+    "tm:poisonjab",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:swordsdance",
+    "tm:flashcannon",
+    "tm:darkpulse",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:crunch",
+    "tm:aurasphere",
+    "tm:shadowball",
+    "tm:dragonpulse",
+    "tm:psychic",
+    "tm:calmmind",
+    "tm:helpinghand",
+    "tm:reversal",
+    "tm:nastyplot",
+    "tm:earthquake",
+    "tm:stoneedge",
+    "tm:gigaimpact",
+    "tm:focusblast",
+    "tm:hyperbeam",
+    "tm:closecombat",
+    "tm:steelbeam",
+    "tm:terablast"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.norheimanfalinks.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "norheimanfalinks_vaiking",
+      "variant": "level_up",
+      "result": "vaiking",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 41
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

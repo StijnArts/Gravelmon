@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianEntei extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianEntei() {
-        super("Entei",
+    public VaritasianEntei(int dex) {
+        super(dex,"Entei",
                 Type.FAIRY,Type.FIRE,
                 new Stats(115,
                         115,
@@ -17,7 +17,7 @@ public class VaritasianEntei extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         100),
                 List.of(Ability.WHITE_SMOKE), Ability.INNER_FOCUS,
-                8, 165,
+                21, 165,
                 new Stats(1,2,0,0,0,0), 3,
                 0.0,
                 261, ExperienceGroup.SLOW,
@@ -89,9 +89,9 @@ public class VaritasianEntei extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, 0.000005, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

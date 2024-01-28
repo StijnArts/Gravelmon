@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class AristosianKangaskhan extends drai.dev.gravelmon.pokemon.Pokemon {
-    public AristosianKangaskhan() {
-        super("Kangaskhan",
+    public AristosianKangaskhan(int dexNo) {
+        super(dexNo,"AristosianKangaskhan",
                 Type.NORMAL,
                 new Stats(105,
                         95,
@@ -17,7 +17,7 @@ public class AristosianKangaskhan extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         90),
                 List.of(Ability.EARLY_BIRD,Ability.SCRAPPY,Ability.INNER_FOCUS), Ability.INNER_FOCUS,
-                8, 165,
+                22, 800,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -141,11 +141,11 @@ public class AristosianKangaskhan extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CIRCLE_THROW,"tm")                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 49, 10, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.WILD),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kangaskhan");

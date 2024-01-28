@@ -15,14 +15,15 @@ public class Berswade extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         58),
                 List.of(Ability.TORRENT), Ability.IRON_FIST,
-                8, 165,
+                11, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("Berswade swim everyday to workout their muscles. They like to join swimming athletes in their training and later train with boxers."),
-                List.of(),
+                List.of(new EvolutionEntry("chambrawl", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.GROWL,5),
@@ -83,14 +84,16 @@ public class Berswade extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Berswade");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

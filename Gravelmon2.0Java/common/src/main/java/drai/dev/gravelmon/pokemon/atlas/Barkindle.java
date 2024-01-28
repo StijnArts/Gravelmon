@@ -15,14 +15,15 @@ public class Barkindle extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         66),
                 List.of(Ability.BLAZE), Ability.VITAL_SPIRIT,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Barkindle's body is very warm to hug, meaning kids and other Pokémon love to snuggle up to it. When angry, it will heat up and its tail will burn hot."),
-                List.of(),
+                List.of(new EvolutionEntry("wolflaze", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,4),
@@ -78,8 +79,8 @@ public class Barkindle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:norheimanfalinks",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation8_norheimanfalinks",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation8/norheimanfalinks.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation8/norheimanfalinks_shiny.png"
+    }  ]
+}

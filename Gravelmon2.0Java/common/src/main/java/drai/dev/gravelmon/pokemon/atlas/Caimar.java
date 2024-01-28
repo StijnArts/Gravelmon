@@ -15,14 +15,15 @@ public class Caimar extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         65),
                 List.of(Ability.TORRENT), Ability.SWIFT_SWIM,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
                 List.of("Caimar's blood is unusually warm, so it is attracted to cold water currents. Commonly born in Arctic waters, they swim through harsh currents to the tropics, where food is plentiful."),
-                List.of(),
+                List.of(new EvolutionEntry("torpeed", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -76,14 +77,16 @@ public class Caimar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Caimar");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

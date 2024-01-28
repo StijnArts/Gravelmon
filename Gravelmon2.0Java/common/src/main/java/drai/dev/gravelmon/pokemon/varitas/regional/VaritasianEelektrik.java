@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianEelektrik extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianEelektrik() {
-        super("Eelektrik",
+    public VaritasianEelektrik(int dex) {
+        super(dex,"Eelektrik",
                 Type.GROUND,Type.WATER,
                 new Stats(65,
                         85,
@@ -17,14 +17,15 @@ public class VaritasianEelektrik extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         40),
                 List.of(Ability.SAP_SIPPER), Ability.SAP_SIPPER,
-                8, 165,
+                12, 165,
                 new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 142, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It's so slippery that it can comfortably swim through muddy ground as if it's liquid. It swallows vast amounts of mud, absorbs any nutrients or plant matter in it and then spits up what's left."),
-                List.of(),
+                List.of(new EvolutionEntry("VaritasianEelektross",EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_LIFE,1),
                         new MoveLearnSetEntry(Move.BIND,9),
@@ -76,15 +77,17 @@ public class VaritasianEelektrik extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 39, 50, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Eelektrik");
-
+            setCanBreathUnderwater(true);
+            setCanSwim(true);
+            setAvoidsLand(true);
     }
 
 

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianEelektross extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianEelektross() {
-        super("Eelektross",
+    public VaritasianEelektross(int dex) {
+        super(dex, "Eelektross",
                 Type.GROUND,Type.WATER,
                 new Stats(85,
                         115,
@@ -17,7 +17,7 @@ public class VaritasianEelektross extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         50),
                 List.of(Ability.SAP_SIPPER), Ability.SAP_SIPPER,
-                8, 165,
+                21, 165,
                 new Stats(0,3,0,0,0,0), 30,
                 0.5,
                 232, ExperienceGroup.SLOW,
@@ -84,14 +84,17 @@ public class VaritasianEelektross extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 45, 60, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Eelektross");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

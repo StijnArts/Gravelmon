@@ -15,7 +15,7 @@ public class Regalient extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         109),
                 List.of(Ability.BLAZE), Ability.LEVITATE,
-                8, 165,
+                19, 165,
                 new Stats(0,0,0,0,0,3), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -95,10 +95,10 @@ public class Regalient extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAIL_SLAP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

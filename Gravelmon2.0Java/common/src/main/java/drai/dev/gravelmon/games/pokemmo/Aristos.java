@@ -9,45 +9,27 @@ public class Aristos extends drai.dev.gravelmon.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new AristosianSentret());
-//        pokemon.add(new AristosianFurret());
-//        pokemon.add(new AristosianSpinarak());
-//        pokemon.add(new AristosianTaillow());
-//        pokemon.add(new AristosianBellsprout());
-//        pokemon.add(new AristosianWeepinbell());
-//        pokemon.add(new AristosianVictreebel());
-//        pokemon.add(new AristosianMareep());
-//        pokemon.add(new AristosianFlaaffy());
-//        pokemon.add(new AristosianGrowlithe());
-//        pokemon.add(new AristosianArcanine());
-//        pokemon.add(new AristosianNosepass());
-//        pokemon.add(new AristosianFlittle());
-//        pokemon.add(new AristosianTropius());
-//        pokemon.add(new AristosianKangaskhan());
-//        pokemon.add(new AristosianLitleo());
-//        pokemon.add(new AristosianNumel());
 
 
-//        pokemon.add(new Achiefd());
-//        pokemon.add(new EPP_v11());
-//        pokemon.add(new Fledjed());
-//        pokemon.add(new Kangazad());
-//        pokemon.add(new Kamurados());
-//        pokemon.add(new Kvadract());
-//        pokemon.add(new Lanidos());
-//        pokemon.add(new Navatoria());
-//        pokemon.add(new Probotheos());
-//        pokemon.add(new Pharoar());
-//        pokemon.add(new Plummora());
-//        pokemon.add(new Ramvolt());
-//        pokemon.add(new Sabroast());
-//        pokemon.add(new Soulix());
-//        pokemon.add(new Spiribloom());
-//        pokemon.add(new Tuckle());
-//        pokemon.add(new Trimmet());
-//        pokemon.add(new Tangorgon());
-//        pokemon.add(new Weeduza());
-//        pokemon.add(new Zoongus());
+//        pokemon.add(new Achiefd()); NOT FINISEHD
+//        pokemon.add(new EPP_v11()); NOT FINISEHD
+//        pokemon.add(new Fledjed()); NOT FINISHED
+//        pokemon.add(new Kangazad()); NOT FINISEHD
+//        pokemon.add(new Kamurados()); NOT FINISEHD
+//        pokemon.add(new Cactrian()); NOT FINISEHD
+        pokemon.add(new Lanidos());
+//        pokemon.add(new Probotheos()); NOT FINISHED
+//        pokemon.add(new Pharoar()); NOT FINISHED
+        pokemon.add(new Ramvolt());
+//        pokemon.add(new Soulix()); NOT FINISEHD
+//        pokemon.add(new Spiribloom()); NOT FINISEHD
+//        pokemon.add(new Tuckle()); NOT FINISHED
+//        pokemon.add(new Weeduza()); NOT FINISHED
+//        pokemon.add(new Tangorgon()); NOT FINISHED
+//        pokemon.add(new Zoongus()); NOT FINISEHD
+        pokemon.add(new Kvadract());
+        pokemon.add(new Navatoria());
+        pokemon.add(new Sabroast());
     }
 
 }

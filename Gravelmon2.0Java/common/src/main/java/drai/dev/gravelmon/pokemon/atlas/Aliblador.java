@@ -21,14 +21,15 @@ public class Aliblador extends drai.dev.gravelmon.pokemon.Pokemon {
                         52,
                         67),
                 List.of(Ability.OVERGROW), Ability.ROUGH_SKIN,
-                8, 165,
+                9, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.GRASS),
                 List.of("Aliblador may seem lazy and slow, but it can become quite vicious in a matter of seconds if provoked. On lazy days, Aliblador like to bask in the sun, usually near the beaches."),
-                List.of(),
+                List.of(new EvolutionEntry("razorvile", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -94,11 +95,11 @@ public class Aliblador extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POISON_FANG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Aliblador");

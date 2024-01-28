@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class VaritasianTogepi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public VaritasianTogepi() {
-        super("Togepi",
+    public VaritasianTogepi(int dex) {
+        super(dex, "Togepi",
                 Type.FAIRY,Type.STEEL,
                 new Stats(35,
                         20,
@@ -17,14 +17,15 @@ public class VaritasianTogepi extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         20),
                 List.of(Ability.MIRROR_ARMOR,Ability.SERENE_GRACE,Ability.SUPER_LUCK), Ability.SUPER_LUCK,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.875,
                 49, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Something in Varitan Togepi's diet caused its shell to harden and take on a golden color. It is rarely found and highly sought-after."),
-                List.of(),
+                List.of(new EvolutionEntry("varitasiantogetic", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.METRONOME,5),
@@ -120,8 +121,8 @@ public class VaritasianTogepi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 4, 24, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
