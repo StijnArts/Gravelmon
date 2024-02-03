@@ -15,7 +15,7 @@ public class Tankyard extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         25),
                 List.of(Ability.WEAK_ARMOR,Ability.HEATPROOF,Ability.HEAVY_METAL), Ability.HEAVY_METAL,
-                8, 165,
+                30, 165,
                 new Stats(2,0,0,0,0,0), 105,
                 0.0,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -91,9 +91,8 @@ public class Tankyard extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 56, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

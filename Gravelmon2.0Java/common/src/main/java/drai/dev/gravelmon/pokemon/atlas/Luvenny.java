@@ -15,14 +15,15 @@ public class Luvenny extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         70),
                 List.of(Ability.PICKUP,Ability.CUTE_CHARM,Ability.FRIEND_GUARD), Ability.FRIEND_GUARD,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 235,
                 0.5,
                 63, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("An actively hopping Luvenny is filled with happiness. They hop place to place spreading their love and warm kindness to people."),
-                List.of(),
+                List.of(new EvolutionEntry("suavenny", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.HAPPYSLAP,7),
@@ -84,10 +85,10 @@ public class Luvenny extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SYNCHRONOISE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_JUNGLE, Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

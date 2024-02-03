@@ -15,14 +15,15 @@ public class Yolken extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         53),
                 List.of(Ability.FIERYSPIRIT,Ability.CUTE_CHARM), Ability.RATTLED,
-                8, 165,
+                7, 165,
                 new Stats(0,1,0,0,0,0), 235,
                 0.5,
                 52, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Yolken live very close to one another to constantly exchange body heat, as they hate being cold. The orange marking on its stomach darkens as it gets closer to evolution."),
-                List.of(),
+                List.of(new EvolutionEntry("roostegg", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.CHIRP,3),
@@ -69,11 +70,11 @@ public class Yolken extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOFTBOILED,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 21, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+            ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Yolken");

@@ -15,14 +15,16 @@ public class Hoppiler extends drai.dev.gravelmon.pokemon.Pokemon {
                         38,
                         70),
                 List.of(Ability.RUN_AWAY,Ability.UNBURDEN,Ability.CUTE_CHARM), Ability.CUTE_CHARM,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 240,
                 0.5,
                 59, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Hoppiler can jump very high because of its powerful legs. This enables it to escape many foes and breed plentifully."),
-                List.of(),
+                List.of(new EvolutionEntry("cobworm", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,1),
                         new MoveLearnSetEntry(Move.CHIRP,6),
@@ -59,8 +61,8 @@ public class Hoppiler extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PESTER,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 16, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

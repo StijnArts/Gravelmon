@@ -17,7 +17,7 @@ public class Scubella extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         110),
                 List.of(Ability.DRIZZLE,Ability.WATER_ABSORB,Ability.OVERCOAT), Ability.OVERCOAT,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 153, ExperienceGroup.MEDIUM_SLOW,
@@ -81,14 +81,16 @@ public class Scubella extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 24, 47, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Scubella");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setCanFly(true);
 
     }
 

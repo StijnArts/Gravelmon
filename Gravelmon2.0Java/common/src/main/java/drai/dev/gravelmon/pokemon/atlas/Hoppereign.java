@@ -15,7 +15,7 @@ public class Hoppereign extends drai.dev.gravelmon.pokemon.Pokemon {
                         56,
                         105),
                 List.of(Ability.TINTED_LENS,Ability.UNBURDEN,Ability.HUSTLE), Ability.HUSTLE,
-                8, 165,
+                10, 165,
                 new Stats(0,1,0,0,0,2), 30,
                 0.5,
                 223, ExperienceGroup.MEDIUM_SLOW,
@@ -75,14 +75,15 @@ public class Hoppereign extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PESTER,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 53, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hoppereign");
+        setCanFly(true);
 
     }
 

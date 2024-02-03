@@ -15,7 +15,7 @@ public class Yanpaow extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         120),
                 List.of(Ability.ILLUMINATE,Ability.FLARE_BOOST,Ability.FLASH_FIRE), Ability.FLASH_FIRE,
-                8, 165,
+                19, 165,
                 new Stats(0,0,0,3,0,0), 25,
                 0.5,
                 234, ExperienceGroup.SLOW,
@@ -97,9 +97,10 @@ public class Yanpaow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 60, 72, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

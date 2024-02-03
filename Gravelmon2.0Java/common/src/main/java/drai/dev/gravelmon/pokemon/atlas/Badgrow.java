@@ -17,14 +17,16 @@ public class Badgrow extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         45),
                 List.of(Ability.NIGHTSTALKER), Ability.FRISK,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 235,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Badgrow are scavengers by day, hunters by night. Though they don't like to hunt in packs, they'll team up if one is in danger."),
-                List.of(),
+                List.of(new EvolutionEntry("wreclaw", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,6),
@@ -93,9 +95,10 @@ public class Badgrow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

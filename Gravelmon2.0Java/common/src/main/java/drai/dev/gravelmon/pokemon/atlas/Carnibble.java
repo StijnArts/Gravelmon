@@ -21,8 +21,10 @@ public class Carnibble extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- Tackle Normal - Growl Normal - Laser Focus Normal 2 Sharpen Normal 4 BiteSTAB Dark 9 Rock ThrowSTAB Rock 13 Ancient PowerSTAB Rock 17 Screech Normal 20 PaybackSTAB Dark 23 RolloutSTAB Rock 27 Iron Defense Steel 31 CrunchSTAB Dark 35 Scary Face Normal 40 Crystal CrunchSTAB Rock 44 Shed Fangs Normal 47 Hone Claws Dark 53 Drain LifeSTAB Dark 60 Skull Bash Normal"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("carnosteus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LASER_FOCUS,1),
                         new MoveLearnSetEntry(Move.SHARPEN,2),
@@ -78,8 +80,8 @@ public class Carnibble extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 33, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

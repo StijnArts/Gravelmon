@@ -15,14 +15,16 @@ public class Ghoulotine extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         20),
                 List.of(Ability.STRONG_JAW,Ability.HYPER_CUTTER,Ability.SHEER_FORCE), Ability.SHEER_FORCE,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,0,0,0), 35,
                 0.0,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("With its strong biting power, it can tear through flesh with its razor sharp teeth. Urban legends talk of a begrudging man who cursed a mirror to seek vengeance on two-faced people."),
-                List.of(),
+                List.of(new EvolutionEntry("guilloceive", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.VISE_GRIP,1),
                         new MoveLearnSetEntry(Move.SPITE,6),
@@ -87,9 +89,10 @@ public class Ghoulotine extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 37, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -15,14 +15,16 @@ public class Grevetiery extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         95),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,2,0,0), 80,
                 0.5,
                 196, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MONSTER),
                 List.of("Grevetiery carried the task of gathering the lost dark spirits at graveyards and bringing them to the underworld."),
-                List.of(),
+                List.of(new EvolutionEntry("necrogeist", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.CURSE,7),
@@ -97,14 +99,15 @@ public class Grevetiery extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NASTY_PLOT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 48, 2.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Grevetiery");
+        setCanFly(true);
 
     }
 

@@ -15,7 +15,7 @@ public class Dirterrier extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         84),
                 List.of(Ability.SCRAPPY,Ability.LIMBER,Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                7, 165,
                 new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 163, ExperienceGroup.MEDIUM_SLOW,
@@ -93,8 +93,8 @@ public class Dirterrier extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 27, 43, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Vimanzia extends drai.dev.gravelmon.pokemon.Pokemon {
                         98,
                         58),
                 List.of(Ability.FLARE_BOOST), Ability.AROMA_VEIL,
-                8, 165,
+                14, 165,
                 new Stats(2,0,0,0,0,0), 200,
                 0.0,
                 156, ExperienceGroup.MEDIUM_SLOW,
@@ -78,11 +78,11 @@ public class Vimanzia extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 29, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Vimanzia");

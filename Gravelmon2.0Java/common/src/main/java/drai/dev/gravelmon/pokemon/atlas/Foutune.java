@@ -15,14 +15,16 @@ public class Foutune extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         25),
                 List.of(Ability.RAIN_DISH,Ability.STURDY,Ability.LIQUID_VOICE), Ability.LIQUID_VOICE,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.0,
                 105, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Foutune can produce beautiful songs by blowing air through the hollow channels inside it's body. They will never sing under the care of a bad trainer."),
-                List.of(),
+                List.of(new EvolutionEntry("harmorial", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.SING,6),
@@ -72,11 +74,11 @@ public class Foutune extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_PULSE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 41, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Foutune");

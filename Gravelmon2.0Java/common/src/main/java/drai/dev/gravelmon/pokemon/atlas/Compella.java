@@ -15,14 +15,15 @@ public class Compella extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         50),
                 List.of(Ability.LEVITATE,Ability.ILLUMINATE,Ability.MAGNET_PULL), Ability.MAGNET_PULL,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,2,0,0), 110,
                 0.0,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.FAIRY),
                 List.of("All three stars can point North when asked to by their trainer. They gather in large numbers in the night skies and imitate real stars."),
-                List.of(),
+                List.of(new EvolutionEntry("esterite", EvolutionType.TRADE, List.of(),
+                        List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.TELEPORT,1),
                         new MoveLearnSetEntry(Move.PIXIEDUST,5),
@@ -88,9 +89,10 @@ public class Compella extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_SPLIT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 45, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

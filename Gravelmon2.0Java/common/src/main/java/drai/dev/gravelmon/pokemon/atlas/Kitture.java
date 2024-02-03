@@ -15,14 +15,17 @@ public class Kitture extends drai.dev.gravelmon.pokemon.Pokemon {
                         42,
                         65),
                 List.of(Ability.CUTE_CHARM), Ability.DAZZLING,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 235,
                 0.5,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Though not known for making trouble, Kitture can make accidents when attempting to get the attention from their owners. This makes them expensive to own, typically."),
-                List.of(),
+                List.of(new EvolutionEntry("fashewn", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
                         new MoveLearnSetEntry(Move.CHARM,6),
@@ -94,11 +97,11 @@ public class Kitture extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAINBOWRUSH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                    new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kitture");

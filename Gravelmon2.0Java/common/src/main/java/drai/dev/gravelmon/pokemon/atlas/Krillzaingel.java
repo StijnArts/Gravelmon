@@ -15,7 +15,7 @@ public class Krillzaingel extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         125),
                 List.of(Ability.MOTOR_DRIVE), Ability.LIGHT_METAL,
-                8, 165,
+                16, 165,
                 new Stats(0,1,0,1,0,1), 55,
                 0.5,
                 134, ExperienceGroup.MEDIUM_FAST,
@@ -93,14 +93,16 @@ public class Krillzaingel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 14, 44, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Krillzaingel");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

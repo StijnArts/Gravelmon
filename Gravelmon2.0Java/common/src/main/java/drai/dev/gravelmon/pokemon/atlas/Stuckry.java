@@ -15,7 +15,7 @@ public class Stuckry extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         60),
                 List.of(Ability.SUCTION_CUPS,Ability.STICKY_HOLD,Ability.OBLIVIOUS), Ability.OBLIVIOUS,
-                8, 165,
+                10, 165,
                 new Stats(1,0,0,0,1,0), 140,
                 0.5,
                 159, ExperienceGroup.FAST,
@@ -72,14 +72,16 @@ public class Stuckry extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Stuckry");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

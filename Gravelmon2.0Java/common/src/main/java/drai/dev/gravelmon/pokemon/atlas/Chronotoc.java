@@ -15,7 +15,7 @@ public class Chronotoc extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         25),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,0,0), 76,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
@@ -89,11 +89,11 @@ public class Chronotoc extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 54, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Chronotoc");

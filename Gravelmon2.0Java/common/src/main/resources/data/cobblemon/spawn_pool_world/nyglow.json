@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nyglow-1",
+      "pokemon": "nyglow",
+      "presets": [
+          "freshwater",
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "4-25",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_river",
+"#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -15,7 +15,7 @@ public class Stalliot extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         105),
                 List.of(Ability.GUTS,Ability.INTIMIDATE,Ability.SCRAPPY), Ability.SCRAPPY,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,0,0,2), 75,
                 1.0,
                 168, ExperienceGroup.MEDIUM_FAST,
@@ -90,8 +90,8 @@ public class Stalliot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 41, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

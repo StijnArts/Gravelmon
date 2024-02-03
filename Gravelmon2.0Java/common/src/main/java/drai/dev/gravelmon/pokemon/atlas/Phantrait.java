@@ -15,14 +15,16 @@ public class Phantrait extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         34),
                 List.of(Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 200,
                 1.0,
                 76, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Phantrait are weak spirits that require a vessel to exist. They cling onto objects they can find and hide in them, often to reappear and scare people."),
-                List.of(),
+                List.of(new EvolutionEntry("vanitom", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SPITE,1),
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,5),
@@ -69,11 +71,11 @@ public class Phantrait extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BLOCK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 29, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Phantrait");

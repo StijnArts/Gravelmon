@@ -15,7 +15,7 @@ public class Terbipan extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         80),
                 List.of(Ability.TANGLED_FEET,Ability.PINWHEEL,Ability.SECONDWIND), Ability.SECONDWIND,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,3,0,0), 45,
                 0.5,
                 218, ExperienceGroup.MEDIUM_FAST,
@@ -71,8 +71,8 @@ public class Terbipan extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 29, 48, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

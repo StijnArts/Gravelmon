@@ -15,14 +15,15 @@ public class Pichip extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         60),
                 List.of(Ability.GUTS), Ability.GUTS,
-                8, 165,
+                4, 165,
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 71, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MINERAL),
                 List.of("Every Pichip claims a boulder as its territory and will defend it to the death. Pichip alerts intruders with a loud bark."),
-                List.of(),
+                List.of(new EvolutionEntry("shifuu", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,9),
@@ -47,8 +48,8 @@ public class Pichip extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_HILLS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,14 +15,16 @@ public class Quetzap extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         70),
                 List.of(Ability.STATIC,Ability.EARLY_BIRD,Ability.INNER_FOCUS), Ability.INNER_FOCUS,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("As a storm brews, Quetzap swarm around it to gather electricity. You can view how charged it is by the tensity of its tails."),
-                List.of(),
+                List.of(new EvolutionEntry("shockatoo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.FLASH,6),
@@ -79,14 +81,15 @@ public class Quetzap extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Quetzap");
+        setCanFly(true);
 
     }
 

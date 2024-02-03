@@ -15,7 +15,7 @@ public class Haibril extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         109),
                 List.of(Ability.PICKUP,Ability.WEAK_ARMOR,Ability.HAYHIDE), Ability.HAYHIDE,
-                8, 165,
+                14, 165,
                 new Stats(1,0,0,0,0,1), 90,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
@@ -87,8 +87,8 @@ public class Haibril extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HORN_LEECH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 43, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

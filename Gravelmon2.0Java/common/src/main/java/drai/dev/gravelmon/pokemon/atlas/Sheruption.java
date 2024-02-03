@@ -15,7 +15,7 @@ public class Sheruption extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         80),
                 List.of(Ability.FLAME_BODY), Ability.FLUFFY,
-                8, 165,
+                23, 165,
                 new Stats(0,0,1,0,2,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -81,10 +81,10 @@ public class Sheruption extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 49, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

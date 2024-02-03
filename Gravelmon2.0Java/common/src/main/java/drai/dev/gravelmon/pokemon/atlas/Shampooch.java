@@ -15,7 +15,7 @@ public class Shampooch extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         50),
                 List.of(Ability.DAMP,Ability.BALL_FETCH,Ability.FLUFFY), Ability.FLUFFY,
-                8, 165,
+                11, 165,
                 new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 154, ExperienceGroup.FAST,
@@ -93,11 +93,11 @@ public class Shampooch extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_FANG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 45, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Shampooch");

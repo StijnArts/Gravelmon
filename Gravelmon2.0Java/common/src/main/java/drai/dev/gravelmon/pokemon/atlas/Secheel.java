@@ -15,14 +15,15 @@ public class Secheel extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         22),
                 List.of(Ability.STICKY_HOLD,Ability.SUCTION_CUPS), Ability.POWERLEECH,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 53, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Its mouth acts like a suction pad, which will attach to its prey and won't release until it has sucked enough blood to satisfy it. Inside its body, it will turn the blood into poison."),
-                List.of(),
+                List.of(new EvolutionEntry("lannelid", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,6),
@@ -72,15 +73,16 @@ public class Secheel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Secheel");
-
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
     }
 
 

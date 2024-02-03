@@ -15,7 +15,7 @@ public class Charnosaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         96),
                 List.of(Ability.BATTLE_ARMOR), Ability.WHITE_SMOKE,
-                8, 165,
+                20, 165,
                 new Stats(0,2,0,1,0,0), 45,
                 0.875,
                 188, ExperienceGroup.MEDIUM_SLOW,
@@ -87,8 +87,8 @@ public class Charnosaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 55, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -28,7 +28,9 @@ public class Albivore extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Albivore are known to be great hunters, due to their keen eyesight. They often perch high on treetops and cliffs, waiting to spot their next prey."),
-                List.of(),
+                List.of(new EvolutionEntry("emperiegle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.LEER,5),
@@ -80,7 +82,7 @@ public class Albivore extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 32, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -88,6 +90,7 @@ public class Albivore extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Albivore");
+        setCanFly(true);
 
     }
 

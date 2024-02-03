@@ -15,14 +15,16 @@ public class Crebb extends drai.dev.gravelmon.pokemon.Pokemon {
                         44,
                         23),
                 List.of(Ability.SHELL_ARMOR), Ability.SNIPER,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 0, ExperienceGroup.FAST,
                 70,
                 50, List.of(),
-                List.of("- Withdraw Water - BubbleSTAB Water 8 Vise Grip Normal 12 ClampSTAB Water 16 Slash Normal 21 Protect Normal 26 Night Slash Dark 30 Aqua JetSTAB Water 34 EnsnareSTAB Water 37 Bulk Up Fighting 41 Recover Normal 45 CrabhammerSTAB Water 49 Minimize Normal 53 Drag Under Water"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("crustocean", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.VISE_GRIP,8),
@@ -89,14 +91,16 @@ public class Crebb extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Crebb");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

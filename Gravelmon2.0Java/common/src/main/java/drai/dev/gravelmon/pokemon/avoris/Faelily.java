@@ -21,7 +21,7 @@ public class Faelily extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         40),
                 List.of(Ability.LEAF_GUARD,Ability.RAIN_DISH,Ability.HYDRATION), Ability.HYDRATION,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,2,0), 75,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
@@ -45,14 +45,16 @@ public class Faelily extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,52)                        ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 21, 39, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Faelily");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -15,14 +15,16 @@ public class Echidnum extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         45),
                 List.of(Ability.VOLT_ABSORB), Ability.IRON_BARBS,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Due to its happy and lovable disposition, Echidnum are always looking for a hug. It never seems to learn however, no matter how many times it hugs someone, that touching its quills gives a nasty static shock."),
-                List.of(),
+                List.of(new EvolutionEntry("thundret", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BARRIER,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,4),
@@ -95,8 +97,8 @@ public class Echidnum extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 25, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

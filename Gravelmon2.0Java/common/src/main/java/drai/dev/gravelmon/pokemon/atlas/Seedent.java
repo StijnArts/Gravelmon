@@ -15,14 +15,16 @@ public class Seedent extends drai.dev.gravelmon.pokemon.Pokemon {
                         46,
                         30),
                 List.of(Ability.CHEEK_POUCH,Ability.PICKUP,Ability.SAP_SIPPER), Ability.SAP_SIPPER,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 54, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They can carry large loads of food in their big cheeks, which are conserved for long periods to be eaten in times of scarcity."),
-                List.of(),
+                List.of(new EvolutionEntry("nuttone", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,4),
@@ -84,8 +86,8 @@ public class Seedent extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLINGPRESS,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 21, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Sandtome extends drai.dev.gravelmon.pokemon.Pokemon {
                         79,
                         74),
                 List.of(Ability.SAND_VEIL,Ability.SAND_FORCE,Ability.SAND_STREAM), Ability.SAND_STREAM,
-                8, 165,
+                39, 165,
                 new Stats(1,0,0,1,0,0), 205,
                 0.5,
                 70, ExperienceGroup.MEDIUM_SLOW,
@@ -83,8 +83,8 @@ public class Sandtome extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHORE_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 26, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

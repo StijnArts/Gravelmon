@@ -15,7 +15,7 @@ public class Vanitom extends drai.dev.gravelmon.pokemon.Pokemon {
                         87,
                         55),
                 List.of(Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,2,0,0), 190,
                 1.0,
                 153, ExperienceGroup.ERRATIC,
@@ -79,11 +79,11 @@ public class Vanitom extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BLOCK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 37, 57, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Vanitom");

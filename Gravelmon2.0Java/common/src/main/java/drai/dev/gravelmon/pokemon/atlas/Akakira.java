@@ -21,7 +21,7 @@ public class Akakira extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         111),
                 List.of(Ability.FRISK,Ability.VOLT_ABSORB,Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,2), 190,
                 0.5,
                 87, ExperienceGroup.MEDIUM_FAST,
@@ -106,9 +106,9 @@ public class Akakira extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.ATLAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_JUNGLE, Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

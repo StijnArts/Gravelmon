@@ -15,14 +15,16 @@ public class Nunette extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         40),
                 List.of(Ability.OBLIVIOUS,Ability.FOREWARN,Ability.HOLY_GUARD), Ability.HOLY_GUARD,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.0,
                 55, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Nunette spend their lives looking for places of purity where they will sit together in silence and focus their psychic powers. They have the ability to look past people's appearances and into their hearts."),
-                List.of(),
+                List.of(new EvolutionEntry("sisanne", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.FORESIGHT,4),
@@ -82,11 +84,11 @@ public class Nunette extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_PULSE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Nunette");

@@ -15,14 +15,15 @@ public class Roachem extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         55),
                 List.of(Ability.SWARM,Ability.INFILTRATOR,Ability.HUGE_POWER), Ability.HUGE_POWER,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 51, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Although one of the smallest Pokémon, Roachem refuse to go down easily. They gorge on waste and use numbers to take down their foes."),
-                List.of(),
+                List.of(new EvolutionEntry("enkroach", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,1),
                         new MoveLearnSetEntry(Move.LEER,3),
@@ -74,11 +75,11 @@ public class Roachem extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 16, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Roachem");

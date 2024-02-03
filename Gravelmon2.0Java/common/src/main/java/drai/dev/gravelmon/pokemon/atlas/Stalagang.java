@@ -15,7 +15,7 @@ public class Stalagang extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         85),
                 List.of(Ability.FRACTURE,Ability.MOXIE,Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                16, 165,
                 new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 158, ExperienceGroup.MEDIUM_SLOW,
@@ -102,9 +102,9 @@ public class Stalagang extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

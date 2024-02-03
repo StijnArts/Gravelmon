@@ -15,7 +15,7 @@ public class Emperiegle extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         90),
                 List.of(Ability.KEEN_EYE,Ability.INTIMIDATE,Ability.RIVALRY), Ability.RIVALRY,
-                8, 165,
+                18, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 216, ExperienceGroup.MEDIUM_FAST,
@@ -81,7 +81,7 @@ public class Emperiegle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -89,6 +89,7 @@ public class Emperiegle extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Emperiegle");
+        setCanFly(true);
 
     }
 

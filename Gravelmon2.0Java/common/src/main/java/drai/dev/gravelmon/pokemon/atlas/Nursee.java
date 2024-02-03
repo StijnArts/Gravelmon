@@ -15,14 +15,16 @@ public class Nursee extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         40),
                 List.of(Ability.NATURAL_CURE,Ability.TRIAGE,Ability.HEALER), Ability.HEALER,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 130,
                 0.25,
                 95, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.FAIRY),
                 List.of("Nursee are so caring and kind they will cry if another Pokémon is crying or hurt, often when they don't know why. They will also tend to injured Pokémon out of the goodness of their hearts, even if not asked."),
-                List.of(),
+                List.of(new EvolutionEntry("nurturse", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.HELPING_HAND,5),
@@ -88,10 +90,10 @@ public class Nursee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENTRAINMENT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 19, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

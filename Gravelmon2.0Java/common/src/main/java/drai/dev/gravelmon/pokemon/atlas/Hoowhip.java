@@ -15,14 +15,16 @@ public class Hoowhip extends drai.dev.gravelmon.pokemon.Pokemon {
                         77,
                         39),
                 List.of(Ability.OBLIVIOUS), Ability.DREAMER,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 56, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FLYING),
                 List.of("It sprinkles a dust that puts children to sleep at night. It is said that once hundreds of Hoowhip gathered in a single city, and its inhabitants slept for a whole month."),
-                List.of(),
+                List.of(new EvolutionEntry("maidnite", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:shiny_stone")
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.FOLLOW_ME,5),
@@ -95,14 +97,16 @@ public class Hoowhip extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 26, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hoowhip");
+        setCanFly(true);
 
     }
 

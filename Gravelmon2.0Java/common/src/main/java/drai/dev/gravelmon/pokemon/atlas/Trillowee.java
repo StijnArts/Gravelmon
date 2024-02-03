@@ -15,7 +15,7 @@ public class Trillowee extends drai.dev.gravelmon.pokemon.Pokemon {
                         79,
                         86),
                 List.of(Ability.UNBURDEN), Ability.INSOMNIA,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 180, ExperienceGroup.SLOW,
@@ -90,8 +90,8 @@ public class Trillowee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

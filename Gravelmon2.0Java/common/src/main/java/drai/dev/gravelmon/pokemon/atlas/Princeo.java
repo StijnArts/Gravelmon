@@ -15,14 +15,16 @@ public class Princeo extends drai.dev.gravelmon.pokemon.Pokemon {
                         36,
                         45),
                 List.of(Ability.RUN_AWAY), Ability.SAND_VEIL,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 196,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Typically found near their parents, Princeo are cowardly due to their small stature, though through proper raising, they learn to become strong and brave."),
-                List.of(),
+                List.of(new EvolutionEntry("reileo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,4),
@@ -78,8 +80,8 @@ public class Princeo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Titanodon extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         75),
                 List.of(Ability.ROCK_HEAD,Ability.STURDY,Ability.SHEER_FORCE), Ability.SHEER_FORCE,
-                8, 165,
+                25, 165,
                 new Stats(0,0,0,0,0,0), 25,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -41,8 +41,8 @@ public class Titanodon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_WRECKER,77)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 64, 76, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

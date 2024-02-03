@@ -22,7 +22,9 @@ public class Dandylie extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It is known as the weed Pokémon because after one Dandylie is seen, others start to appear all over in the area. The large buds on its hands and tail are good for physical attacks."),
-                List.of(),
+                List.of(new EvolutionEntry("withereen", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.POUND,2),
@@ -85,8 +87,8 @@ public class Dandylie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_PUNCH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 31, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

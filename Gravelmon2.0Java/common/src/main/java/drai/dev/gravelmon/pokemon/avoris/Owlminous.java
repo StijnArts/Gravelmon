@@ -21,7 +21,7 @@ public class Owlminous extends drai.dev.gravelmon.pokemon.Pokemon {
                         118,
                         75),
                 List.of(Ability.NOCTURNAL), Ability.INSOMNIA,
-                8, 165,
+                18, 165,
                 new Stats(0,1,0,0,2,0), 30,
                 0.5,
                 179, ExperienceGroup.MEDIUM_SLOW,
@@ -53,14 +53,15 @@ public class Owlminous extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_SLIDE,"tm")                        ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 56, 2.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Owlminous");
+        setCanFly(true);
 
     }
 

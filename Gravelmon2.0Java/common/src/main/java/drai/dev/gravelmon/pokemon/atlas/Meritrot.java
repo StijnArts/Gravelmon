@@ -15,14 +15,19 @@ public class Meritrot extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         72),
                 List.of(Ability.QUICK_FEET,Ability.RUN_AWAY,Ability.SCRAPPY), Ability.SCRAPPY,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Gentle-natured and friendly, Meritrot love being around people and giving rides. They are far stronger than they appear and are used for farm work all over Atlas."),
-                List.of(),
+                List.of(new EvolutionEntry("stalliot", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                        new EvolutionEntry("carosella", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,3),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,6),
@@ -88,8 +93,8 @@ public class Meritrot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 26, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

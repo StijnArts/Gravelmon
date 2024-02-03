@@ -15,14 +15,16 @@ public class Glozard extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         57),
                 List.of(Ability.SOLID_ROCK,Ability.LIGHTNING_ROD,Ability.TOUGH_CLAWS), Ability.TOUGH_CLAWS,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,1,0,0), 75,
                 0.5,
                 66, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("They flash the bio-luminescent spots on their tails and foreheads to communicate. Their head spike lets them detect electrical charges in the area."),
-                List.of(),
+                List.of(new EvolutionEntry("radizorb", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,6),
@@ -46,9 +48,9 @@ public class Glozard extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERTAIL,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 4, 27, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

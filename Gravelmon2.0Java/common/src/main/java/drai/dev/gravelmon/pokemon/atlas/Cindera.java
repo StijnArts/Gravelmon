@@ -15,14 +15,16 @@ public class Cindera extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         35),
                 List.of(Ability.MAGMA_ARMOR,Ability.FLAME_BODY,Ability.UNDERLING), Ability.UNDERLING,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,1,0,0), 235,
                 0.0,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It rarely surfaces, as its thin body would quickly harden if exposed too long. Wherever it surfaces it leaves a rocky-cone, and will often create them at frequented spots for easy access."),
-                List.of(),
+                List.of(new EvolutionEntry("caldona", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SINGE,1),
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,3),
@@ -81,9 +83,8 @@ public class Cindera extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_VOLCANIC))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

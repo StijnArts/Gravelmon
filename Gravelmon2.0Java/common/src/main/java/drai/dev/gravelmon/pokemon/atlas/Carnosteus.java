@@ -15,7 +15,7 @@ public class Carnosteus extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         91),
                 List.of(Ability.FEROCIOUS), Ability.STRONG_JAW,
-                8, 165,
+                17, 165,
                 new Stats(0,1,1,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -88,8 +88,8 @@ public class Carnosteus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 55, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

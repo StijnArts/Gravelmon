@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "hurdwall",
+  "nationalPokedexNumber": 2694,
+  "primaryType": "rock",
+  "abilities": [
+    "stall",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 83,
+    "defence": 202,
+    "special_attack": 57,
+    "special_defence": 69,
+    "speed": 34
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 0,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 0,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+
+  ],
+  "moves": [
+    "1:barrier",
+    "tm:attract",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:doubleteam",
+    "tm:earthquake",
+    "tm:explosion",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:roundsound",
+    "tm:sandstorm",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:toxic"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hurdwall.desc"
+  ],
+  "preEvolution": "brickler",
+  "baseScale": 0.31875,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

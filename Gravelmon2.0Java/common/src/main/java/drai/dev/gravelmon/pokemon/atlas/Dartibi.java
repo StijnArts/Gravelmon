@@ -15,14 +15,16 @@ public class Dartibi extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         52),
                 List.of(Ability.SHED_SKIN,Ability.MOXIE,Ability.ANGER_POINT), Ability.ANGER_POINT,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 59, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Groups of Dartibi secretly invade the nests of Twirpant to place their eggs together with Twirpant eggs. Then the newly hatched Dartibi will devour the eggs in the nest. The Dartibi then take over the nest and make it as their own. Despite its body being under-developed, Dartibi will try and fight any challenger. They constantly try to get stronger."),
-                List.of(),
+                List.of(new EvolutionEntry("revolpod", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,1),
                         new MoveLearnSetEntry(Move.LEER,5),
@@ -68,8 +70,8 @@ public class Dartibi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

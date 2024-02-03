@@ -21,14 +21,16 @@ public class Winklit extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         65),
                 List.of(Ability.STATIC,Ability.CHEEK_POUCH,Ability.MOTOR_DRIVE), Ability.MOTOR_DRIVE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 120,
                 0.5,
                 70, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("The electricity it stores from running causes its fur to shine. At night, they glow in the dark."),
-                List.of(),
+                List.of(new EvolutionEntry("gleamur", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
@@ -54,10 +56,11 @@ public class Winklit extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PARABOLIC_CHARGE,"tm")                        ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

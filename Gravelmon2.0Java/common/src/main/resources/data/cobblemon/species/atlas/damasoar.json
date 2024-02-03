@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "damasoar",
-  "nationalPokedexNumber": 2311,
+  "nationalPokedexNumber": 2545,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -113,11 +113,14 @@
     "tm:xscissor"  ],
   "labels": [
     "atlas",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.damasoar.desc"
   ],
+  "preEvolution": "torpeed",
   "baseScale": 0.45,
   "hitbox": {
     "width": 3.0,

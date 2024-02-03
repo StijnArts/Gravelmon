@@ -15,7 +15,7 @@ public class Shifuu extends drai.dev.gravelmon.pokemon.Pokemon {
                         118,
                         75),
                 List.of(Ability.HOLY_GUARD), Ability.HOLY_GUARD,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,2,0), 10,
                 0.5,
                 248, ExperienceGroup.SLOW,
@@ -105,8 +105,8 @@ public class Shifuu extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 44, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_HILLS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Vermpent extends drai.dev.gravelmon.pokemon.Pokemon {
                         81,
                         79),
                 List.of(Ability.DRY_SKIN,Ability.SAND_RUSH,Ability.INFILTRATOR), Ability.INFILTRATOR,
-                8, 165,
+                23, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 189, ExperienceGroup.SLOW,
@@ -83,9 +83,9 @@ public class Vermpent extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SANDSHOT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 20, 36, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

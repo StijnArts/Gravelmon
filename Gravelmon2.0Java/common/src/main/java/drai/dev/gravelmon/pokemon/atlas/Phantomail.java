@@ -15,7 +15,7 @@ public class Phantomail extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         89),
                 List.of(Ability.LEVITATE,Ability.CURSED_BODY,Ability.JUSTIFIED), Ability.JUSTIFIED,
-                8, 165,
+                14, 165,
                 new Stats(0,1,1,0,0,0), 25,
                 1.0,
                 170, ExperienceGroup.SLOW,
@@ -81,14 +81,15 @@ public class Phantomail extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Phantomail");
+        setCanFly(true);
 
     }
 

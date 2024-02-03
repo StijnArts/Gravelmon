@@ -15,7 +15,7 @@ public class Nyglare extends drai.dev.gravelmon.pokemon.Pokemon {
                         44,
                         106),
                 List.of(Ability.COMPOUND_EYES,Ability.SWARM,Ability.SOLAR_POWER), Ability.SOLAR_POWER,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,0,2), 100,
                 0.5,
                 132, ExperienceGroup.MEDIUM_FAST,
@@ -93,14 +93,14 @@ public class Nyglare extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 29, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nyglare");
+        setCanFly(true);
 
     }
 

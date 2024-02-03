@@ -15,14 +15,16 @@ public class Lizmoke extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         53),
                 List.of(Ability.BATTLE_ARMOR), Ability.WHITE_SMOKE,
-                8, 165,
+                13, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.875,
                 70, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("- Tackle Normal - Bite Dark 8 RolloutSTAB Rock 15 Smokescreen Normal 22 EmberSTAB Fire 29 Yawn Normal 36 Rock BlastSTAB Rock 43 IncinerateSTAB Fire 50 Ancient PowerSTAB Rock 57 Flame ChargeSTAB Fire 64 Explosion Normal"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("charnosaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),
                         new MoveLearnSetEntry(Move.ROLLOUT,8),
@@ -75,8 +77,8 @@ public class Lizmoke extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 33, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,14 +15,16 @@ public class Nuggle extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         25),
                 List.of(Ability.ROCK_HEAD,Ability.JACKPOT,Ability.SOLID_ROCK), Ability.SOLID_ROCK,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,1,0), 125,
                 0.0,
                 61, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Nuggles are often valued for the bulb of solid gold atop their heads. When without their gold nugget, they feel incredible discomfort."),
-                List.of(),
+                List.of(new EvolutionEntry("piragmid", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,4),
@@ -83,11 +85,12 @@ public class Nuggle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 22, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.MINY,"0"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.GEMSTONES, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Nuggle");

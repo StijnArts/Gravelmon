@@ -15,14 +15,16 @@ public class Nebulent extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         68),
                 List.of(Ability.NIGHTSTALKER,Ability.SHED_SKIN,Ability.ANTICIPATION), Ability.ANTICIPATION,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("This Pokemon's venom is extremely poisonous. It hunts at night, when its body blends in with the night sky."),
-                List.of(),
+                List.of(new EvolutionEntry("slithair", EvolutionType.TRADE, List.of(),
+                        List.of())
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -85,9 +87,10 @@ public class Nebulent extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CORROSIVEBITE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_SANDY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

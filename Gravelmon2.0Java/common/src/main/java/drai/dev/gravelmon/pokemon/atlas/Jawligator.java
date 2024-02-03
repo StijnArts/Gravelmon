@@ -15,7 +15,7 @@ public class Jawligator extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         73),
                 List.of(Ability.SWIFT_SWIM,Ability.ANALYTIC,Ability.STRONG_JAW), Ability.STRONG_JAW,
-                8, 165,
+                19, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 239, ExperienceGroup.MEDIUM_FAST,
@@ -105,14 +105,15 @@ public class Jawligator extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 42, 58, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Jawligator");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

@@ -15,7 +15,7 @@ public class Faram extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         75),
                 List.of(Ability.ROCK_HEAD,Ability.RIVALRY,Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                13, 165,
                 new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 170, ExperienceGroup.SLOW,
@@ -78,8 +78,8 @@ public class Faram extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

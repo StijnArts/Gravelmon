@@ -15,14 +15,16 @@ public class Sandan extends drai.dev.gravelmon.pokemon.Pokemon {
                         47,
                         39),
                 List.of(Ability.SAND_VEIL,Ability.SAND_FORCE,Ability.SAND_STREAM), Ability.SAND_STREAM,
-                8, 165,
+                15, 165,
                 new Stats(1,0,0,0,0,0), 225,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.AMORPHOUS),
                 List.of("Sandan stand on shorelines by the hundreds. Approaching sailors would often mistake their silhouettes for aggressive island dwellers amassing into an army."),
-                List.of(),
+                List.of(new EvolutionEntry("sandtome", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.ASTONISH,6),
@@ -79,8 +81,8 @@ public class Sandan extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHORE_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 26, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

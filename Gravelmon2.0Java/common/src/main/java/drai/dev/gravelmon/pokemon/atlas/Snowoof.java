@@ -15,14 +15,16 @@ public class Snowoof extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         70),
                 List.of(Ability.FRISK,Ability.SLUSH_RUSH,Ability.CUTE_CHARM), Ability.CUTE_CHARM,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Because they are only found in northern areas, Snowoof like to play and run around all day to keep their body heat at a suitable temperature. Their markings typically discern alphas from betas."),
-                List.of(),
+                List.of(new EvolutionEntry("blizzund", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FACADE,"tm"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"tm"),
@@ -58,8 +60,8 @@ public class Snowoof extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 35, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

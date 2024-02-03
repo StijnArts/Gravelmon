@@ -15,14 +15,16 @@ public class Icee extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         60),
                 List.of(Ability.ARENA_TRAP), Ability.DRY_SKIN,
-                8, 165,
+                2, 165,
                 new Stats(0,1,0,0,0,0), 105,
                 0.5,
                 75, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("These Pokémon live in such large groups, sometimes they can cover cave floors entirely. They grab passerby's legs and freeze their toes when happy."),
-                List.of(),
+                List.of(new EvolutionEntry("fraxeel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,5),
@@ -43,10 +45,10 @@ public class Icee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COIL,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPRING, Biome.IS_SUMMER, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

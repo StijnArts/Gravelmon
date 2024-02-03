@@ -15,14 +15,17 @@ public class Birchop extends drai.dev.gravelmon.pokemon.Pokemon {
                         51,
                         42),
                 List.of(Ability.SYMBIOSIS,Ability.HARVEST,Ability.LEAF_GUARD), Ability.LEAF_GUARD,
-                8, 165,
+                15, 165,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 138, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Birchop are great assistants to many gardeners as they help plant and tend plants. The leaf on its head allows it to detect any changes in its environment."),
-                List.of(),
+                List.of(new EvolutionEntry("birchard", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.RATIO,"DEFENCE_HIGHER")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.GRASS_WHISTLE,5),
@@ -81,10 +84,10 @@ public class Birchop extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 19, 32, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

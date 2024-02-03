@@ -15,15 +15,31 @@ public class Ghouch extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         65),
                 List.of(Ability.PRANKSTER,Ability.PERPLEXING,Ability.FRISK), Ability.FRISK,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,2,0,0), 175,
                 0.0,
                 100, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MONSTER),
                 List.of("Though it's appearance isn't much of a change, there's terrible things brewing underneath the fabric cocoon. It's eye can see through walls if it focuses."),
-                List.of(),
+                List.of(new EvolutionEntry("spireye", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))
+                ),
                 List.of(
+                        new MoveLearnSetEntry(Move.TICKLE,1),
+                        new MoveLearnSetEntry(Move.TORMENT,6),
+                        new MoveLearnSetEntry(Move.CURSE,12),
+                        new MoveLearnSetEntry(Move.OMINOUS_WIND,16),
+                        new MoveLearnSetEntry(Move.SPITE,20),
+                        new MoveLearnSetEntry(Move.HYPNOSIS,24),
+                        new MoveLearnSetEntry(Move.FLING,30),
+                        new MoveLearnSetEntry(Move.SNATCH,36),
+                        new MoveLearnSetEntry(Move.NIGHTMARE,40),
+                        new MoveLearnSetEntry(Move.DARK_PULSE,44),
+                        new MoveLearnSetEntry(Move.SHADOW_BALL,48),
+                        new MoveLearnSetEntry(Move.WILLOWISP,51),
+                        new MoveLearnSetEntry(Move.HEX,55),
+                        new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.FACADE,"tm"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"tm"),
                         new MoveLearnSetEntry(Move.HIDDEN_POWER,"tm"),
@@ -58,9 +74,10 @@ public class Ghouch extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 34, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

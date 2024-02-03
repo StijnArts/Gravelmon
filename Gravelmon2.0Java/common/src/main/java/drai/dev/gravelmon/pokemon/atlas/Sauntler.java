@@ -15,14 +15,16 @@ public class Sauntler extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         60),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 170,
                 0.5,
                 65, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MONSTER),
                 List.of("Sauntler are grave dwellers. They wander around cemeteries, visiting each grave to have a connection with lost spirits."),
-                List.of(),
+                List.of(new EvolutionEntry("grevetiery", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.CURSE,7),
@@ -97,14 +99,15 @@ public class Sauntler extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NASTY_PLOT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 27, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sauntler");
+        setCanFly(true);
 
     }
 

@@ -15,7 +15,7 @@ public class Wildyre extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         65),
                 List.of(Ability.FLAME_BODY,Ability.FLASH_FIRE,Ability.MOODY), Ability.MOODY,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -83,11 +83,11 @@ public class Wildyre extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Wildyre");

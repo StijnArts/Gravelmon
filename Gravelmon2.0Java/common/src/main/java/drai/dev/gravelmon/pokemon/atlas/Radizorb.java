@@ -15,14 +15,16 @@ public class Radizorb extends drai.dev.gravelmon.pokemon.Pokemon {
                         67,
                         73),
                 List.of(Ability.SOLID_ROCK,Ability.LIGHTNING_ROD,Ability.TOUGH_CLAWS), Ability.TOUGH_CLAWS,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,2,0,0), 60,
                 0.5,
                 151, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("Radizorb's glowing appendages evolved to double as both a battery and a weapon. Its lights can power a 3-story house for weeks at a time before needing to recharge."),
-                List.of(),
+                List.of(new EvolutionEntry("radiaze", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,6),
@@ -46,9 +48,9 @@ public class Radizorb extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERTAIL,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -22,7 +22,9 @@ public class Tinguano extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("Although clumsy, their hardened fists and thumb spikes allow them to fight off predators larger than them. Tinguano lived 125 million years ago, and was revived by modern science."),
-                List.of(),
+                List.of(new EvolutionEntry("donguano", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
                         new MoveLearnSetEntry(Move.COMET_PUNCH,6),
@@ -79,8 +81,8 @@ public class Tinguano extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 33, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

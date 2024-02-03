@@ -15,14 +15,15 @@ public class Wilspri extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         58),
                 List.of(Ability.UNBURDEN), Ability.INSOMNIA,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,1,0,0), 75,
                 0.5,
                 74, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.AMORPHOUS),
                 List.of("Rumor has it that Wilspri are children who became trapped after they wandered or were lured deep into the forest and never returned. In dark woods one can occasionally hear a child's weeping, which is said to be the sound of an angered Wilspri."),
-                List.of(),
+                List.of(new EvolutionEntry("trillowee", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.BIND,7),
@@ -100,14 +101,15 @@ public class Wilspri extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 27, 6.7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Wilspri");
+        setCanFly(true);
 
     }
 

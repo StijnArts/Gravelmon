@@ -15,7 +15,7 @@ public class Vegelamb extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         62),
                 List.of(Ability.CHLOROPHYLL,Ability.GRASS_PELT,Ability.FRIEND_GUARD), Ability.FRIEND_GUARD,
-                8, 165,
+                7, 165,
                 new Stats(2,0,0,0,0,0), 90,
                 0.5,
                 161, ExperienceGroup.MEDIUM_SLOW,
@@ -95,8 +95,8 @@ public class Vegelamb extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASS_WHISTLE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 39, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

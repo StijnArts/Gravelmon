@@ -15,14 +15,16 @@ public class Bubbauld extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         22),
                 List.of(Ability.NATURAL_CURE), Ability.GOOEY,
-                8, 165,
+                7, 165,
                 new Stats(0,0,1,0,0,0), 120,
                 0.0,
                 59, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("Everything they can find Bubbauld pick up and throw into their bubbling pot with their long arms. Once enough ingredients mix, the potion becomes potent enough to knock out an adult."),
-                List.of(),
+                List.of(new EvolutionEntry("bauldron", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOG,1),
                         new MoveLearnSetEntry(Move.DISABLE,9),
@@ -84,11 +86,11 @@ public class Bubbauld extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.ILLAGER_STRUCTURES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bubbauld");

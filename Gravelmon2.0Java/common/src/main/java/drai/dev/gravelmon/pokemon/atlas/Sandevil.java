@@ -15,14 +15,16 @@ public class Sandevil extends drai.dev.gravelmon.pokemon.Pokemon {
                         67,
                         98),
                 List.of(Ability.ROUGH_SKIN,Ability.DEFIANT,Ability.SAND_RUSH), Ability.SAND_RUSH,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,0,2), 95,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("Sandevil's hide under the sand, awaiting their prey. Upon being stepped on, they lash out at their wounded victim with impressive speed and ferocity. (http://fav.me/d4ramdz)"),
-                List.of(),
+                List.of(new EvolutionEntry("sandemonium", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:hard_stone\"")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,3),
@@ -46,8 +48,8 @@ public class Sandevil extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MAGNITUDE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 42, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

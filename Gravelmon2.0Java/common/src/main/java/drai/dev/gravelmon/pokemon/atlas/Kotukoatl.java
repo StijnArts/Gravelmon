@@ -15,7 +15,7 @@ public class Kotukoatl extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         130),
                 List.of(Ability.STATIC,Ability.CLOUD_NINE,Ability.INNER_FOCUS), Ability.INNER_FOCUS,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,0,0,3), 45,
                 0.5,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -81,14 +81,15 @@ public class Kotukoatl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 56, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kotukoatl");
+        setCanFly(true);
 
     }
 

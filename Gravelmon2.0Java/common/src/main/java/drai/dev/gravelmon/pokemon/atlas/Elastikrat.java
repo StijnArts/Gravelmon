@@ -15,7 +15,7 @@ public class Elastikrat extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         103),
                 List.of(Ability.HUSTLE,Ability.RUBBERBODY,Ability.MAGIC_BOUNCE), Ability.MAGIC_BOUNCE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,3), 75,
                 0.5,
                 203, ExperienceGroup.FAST,
@@ -103,8 +103,8 @@ public class Elastikrat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECYCLE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 36, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

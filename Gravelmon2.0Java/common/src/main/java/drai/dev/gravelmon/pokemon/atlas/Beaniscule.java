@@ -15,14 +15,16 @@ public class Beaniscule extends drai.dev.gravelmon.pokemon.Pokemon {
                         52,
                         55),
                 List.of(Ability.RATTLED,Ability.RUN_AWAY), Ability.GREENTHUMB,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.75,
                 75, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
                 List.of("Beaniscule are very easy to frighten due to their small size. They're rumored to be delicious, but no one knows due to them being protected by the Atlas government, as they're an endangered species."),
-                List.of(),
+                List.of(new EvolutionEntry("beanormous", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WISH,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,5),
@@ -72,11 +74,11 @@ public class Beaniscule extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 33, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HILLS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Beaniscule");

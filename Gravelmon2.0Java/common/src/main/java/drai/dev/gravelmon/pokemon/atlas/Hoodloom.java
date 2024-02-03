@@ -15,14 +15,16 @@ public class Hoodloom extends drai.dev.gravelmon.pokemon.Pokemon {
                         94,
                         79),
                 List.of(Ability.PICKPOCKET,Ability.DARKHOLD,Ability.STAKEOUT), Ability.STAKEOUT,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 175,
                 0.5,
                 44, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Hoodloom typically hides in dark alleyways, and always looking for stuff to loot. They don't like working together, but will team up if it needs to."),
-                List.of(),
+                List.of(new EvolutionEntry("cloacover", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.PURSUIT,1),
                         new MoveLearnSetEntry(Move.ASTONISH,6),
@@ -73,8 +75,8 @@ public class Hoodloom extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

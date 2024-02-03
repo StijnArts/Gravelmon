@@ -15,7 +15,7 @@ public class Sharquake extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         75),
                 List.of(Ability.STATIC,Ability.LIGHTNING_ROD,Ability.MOLD_BREAKER), Ability.MOLD_BREAKER,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,0,0), 35,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -75,8 +75,8 @@ public class Sharquake extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 42, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

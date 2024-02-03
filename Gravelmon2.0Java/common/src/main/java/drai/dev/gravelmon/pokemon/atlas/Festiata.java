@@ -15,14 +15,17 @@ public class Festiata extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         60),
                 List.of(Ability.AFTERMATH), Ability.RUN_AWAY,
-                8, 165,
+                9, 165,
                 new Stats(0,0,1,0,0,0), 205,
                 0.5,
                 100, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Festiñata seek joy and happiness wherever they go, but have a deathly fear of sticks. Their insides are said to be delicious."),
-                List.of(),
+                List.of(new EvolutionEntry("luchaburro", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FAIRY_WIND,1),
                         new MoveLearnSetEntry(Move.FALSE_SWIPE,"tm"),
@@ -54,11 +57,11 @@ public class Festiata extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 29, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Festiñata");

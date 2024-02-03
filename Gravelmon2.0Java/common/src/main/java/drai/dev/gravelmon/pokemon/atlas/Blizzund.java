@@ -15,7 +15,7 @@ public class Blizzund extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         100),
                 List.of(Ability.FRISK,Ability.SLUSH_RUSH,Ability.INFILTRATOR), Ability.INFILTRATOR,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,0), 75,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -61,8 +61,8 @@ public class Blizzund extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 44, 55, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

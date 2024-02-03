@@ -15,7 +15,7 @@ public class Wispette extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         125),
                 List.of(Ability.ILLUMINATE,Ability.CURSED_BODY,Ability.FLASH_FIRE), Ability.FLASH_FIRE,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,1,0,1), 75,
                 0.5,
                 168, ExperienceGroup.MEDIUM_SLOW,
@@ -76,8 +76,9 @@ public class Wispette extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 52, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

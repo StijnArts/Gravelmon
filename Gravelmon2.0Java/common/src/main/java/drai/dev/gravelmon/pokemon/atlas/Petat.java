@@ -15,14 +15,16 @@ public class Petat extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         45),
                 List.of(Ability.TANGLED_FEET), Ability.HARVEST,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,0), 205,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Its body emits a sweet and tangy aroma that entrances anyone who comes near it. Only found in tropical areas, they are found relaxing on beaches and drink different human beverages to cool down."),
-                List.of(),
+                List.of(new EvolutionEntry("pangai", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:sun_stone")
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,6),
@@ -68,8 +70,8 @@ public class Petat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,14 +15,16 @@ public class Goatee extends drai.dev.gravelmon.pokemon.Pokemon {
                         32,
                         50),
                 List.of(Ability.ROCK_HEAD,Ability.RIVALRY,Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                7, 165,
                 new Stats(0,1,0,0,0,0), 240,
                 0.5,
                 55, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Adept climbers, Goatee are only found in mountainous areas, where their nimble feet keep them out of danger."),
-                List.of(),
+                List.of(new EvolutionEntry("faram", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.LEER,5),
@@ -76,8 +78,8 @@ public class Goatee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

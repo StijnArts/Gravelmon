@@ -22,7 +22,8 @@ public class Orbranch extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.AMORPHOUS),
                 List.of("They hide among trees, leaving only their lantern-like appendage to be seen, and proceed to guide unsuspecting travelers into treacherous forests and swamps."),
-                List.of(),
+                List.of(
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BRANCH_POKE,1),
                         new MoveLearnSetEntry(Move.ASTONISH,2),
@@ -97,8 +98,9 @@ public class Orbranch extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 44, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

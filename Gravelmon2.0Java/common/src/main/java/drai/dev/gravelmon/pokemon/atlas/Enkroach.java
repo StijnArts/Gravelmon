@@ -15,7 +15,7 @@ public class Enkroach extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         93),
                 List.of(Ability.SWARM,Ability.INFILTRATOR,Ability.HUGE_POWER), Ability.HUGE_POWER,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,2), 155,
                 0.5,
                 145, ExperienceGroup.FAST,
@@ -85,15 +85,15 @@ public class Enkroach extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 31, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Enkroach");
-
+setCanFly(true);
     }
 
 

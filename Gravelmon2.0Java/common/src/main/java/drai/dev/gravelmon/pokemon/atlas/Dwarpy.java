@@ -15,15 +15,22 @@ public class Dwarpy extends drai.dev.gravelmon.pokemon.Pokemon {
                         38,
                         47),
                 List.of(Ability.PICKUP,Ability.SUPER_LUCK,Ability.UNAWARE), Ability.UNAWARE,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 240,
                 0.5,
                 34, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Lucky are those who can grasp the golden tip of a Dwarpy's tail. They gather near places where treasure is found."),
-                List.of(),
+                List.of(new EvolutionEntry("bonafant", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))
+                ),
                 List.of(
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.CONFUSION,1),
+                        new MoveLearnSetEntry(Move.MEDITATE,1),
+                        new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
+                        new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
                         new MoveLearnSetEntry(Move.FOCUS_PUNCH,1),
                         new MoveLearnSetEntry(Move.CONFUSION,8),
                         new MoveLearnSetEntry(Move.AFTER_YOU,11),
@@ -92,8 +99,8 @@ public class Dwarpy extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENCORE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 18, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Tanchor extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         140),
                 List.of(Ability.SWIFT_SWIM,Ability.WATER_VEIL,Ability.INTIMIDATE), Ability.INTIMIDATE,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 173, ExperienceGroup.MEDIUM_SLOW,
@@ -80,14 +80,16 @@ public class Tanchor extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 30, 52, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Tanchor");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

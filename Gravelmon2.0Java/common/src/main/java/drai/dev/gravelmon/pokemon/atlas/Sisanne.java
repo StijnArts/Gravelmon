@@ -15,14 +15,16 @@ public class Sisanne extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         53),
                 List.of(Ability.OBLIVIOUS,Ability.FOREWARN,Ability.HOLY_GUARD), Ability.HOLY_GUARD,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,1,1,0), 120,
                 0.0,
                 132, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Their third eye allows them to see all around them at any time, even whilst asleep. They avoid noise by all means and live in utmost silence."),
-                List.of(),
+                List.of(new EvolutionEntry("manna", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.FORESIGHT,4),
@@ -82,11 +84,11 @@ public class Sisanne extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_PULSE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 34, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sisanne");

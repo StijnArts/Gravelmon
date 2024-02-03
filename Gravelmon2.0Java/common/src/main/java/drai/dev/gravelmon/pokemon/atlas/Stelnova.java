@@ -15,7 +15,7 @@ public class Stelnova extends drai.dev.gravelmon.pokemon.Pokemon {
                         81,
                         72),
                 List.of(Ability.MAGMA_ARMOR,Ability.FLAME_BODY,Ability.QUEENLY_MAJESTY), Ability.QUEENLY_MAJESTY,
-                8, 165,
+                23, 165,
                 new Stats(1,0,0,2,1,0), 235,
                 0.0,
                 60, ExperienceGroup.MEDIUM_SLOW,
@@ -94,9 +94,8 @@ public class Stelnova extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 49, 57, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_VOLCANIC))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

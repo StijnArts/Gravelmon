@@ -17,7 +17,7 @@ public class Aquarcher extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         81),
                 List.of(Ability.POISON_POINT,Ability.SNIPER), Ability.SHARPSHOOTER,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
@@ -76,14 +76,16 @@ public class Aquarcher extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 22, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Aquarcher");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

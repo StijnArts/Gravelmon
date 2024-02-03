@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:territore",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:avoris_territore",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/avoris/territore.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/avoris/territore_shiny.png"
+    }  ]
+}

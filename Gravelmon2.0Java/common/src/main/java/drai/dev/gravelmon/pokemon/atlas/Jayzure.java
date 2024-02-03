@@ -15,7 +15,7 @@ public class Jayzure extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         125),
                 List.of(Ability.EARLY_BIRD,Ability.BIG_PECKS,Ability.UNBURDEN), Ability.UNBURDEN,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,2), 127,
                 0.5,
                 152, ExperienceGroup.MEDIUM_FAST,
@@ -77,14 +77,15 @@ public class Jayzure extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Jayzure");
+        setCanFly(true);
 
     }
 

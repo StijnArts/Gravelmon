@@ -15,7 +15,7 @@ public class Wreclaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         74),
                 List.of(Ability.NIGHTSTALKER), Ability.TOUGH_CLAWS,
-                8, 165,
+                22, 165,
                 new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 167, ExperienceGroup.MEDIUM_FAST,
@@ -105,9 +105,10 @@ public class Wreclaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 29, 47, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

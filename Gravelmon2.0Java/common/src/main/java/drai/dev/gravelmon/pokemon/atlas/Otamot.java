@@ -15,7 +15,7 @@ public class Otamot extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         75),
                 List.of(Ability.WATER_ABSORB,Ability.LEAF_GUARD,Ability.HYDRATION), Ability.HYDRATION,
-                8, 165,
+                4, 165,
                 new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 165, ExperienceGroup.FAST,
@@ -83,8 +83,8 @@ public class Otamot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

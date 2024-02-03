@@ -15,14 +15,16 @@ public class Rattoi extends drai.dev.gravelmon.pokemon.Pokemon {
                         28,
                         75),
                 List.of(Ability.HUSTLE,Ability.RUN_AWAY,Ability.MAGIC_BOUNCE), Ability.MAGIC_BOUNCE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 52, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Rattoi constantly squeak, which funnily enough is a defense mechanism against predators who think they're eating actual toys instead of a Pokemon."),
-                List.of(),
+                List.of(new EvolutionEntry("skweakrat", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,7),
@@ -96,8 +98,8 @@ public class Rattoi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECYCLE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

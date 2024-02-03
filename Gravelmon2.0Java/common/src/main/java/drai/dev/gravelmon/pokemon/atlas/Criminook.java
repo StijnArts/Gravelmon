@@ -15,14 +15,16 @@ public class Criminook extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         72),
                 List.of(Ability.PICKUP,Ability.FRISK,Ability.PICKPOCKET), Ability.PICKPOCKET,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("With their sly and sneaky tactics, Criminook like to steal at night from the homes of people. They take great pleasure in swindling the shiniest items they can find."),
-                List.of(),
+                List.of(new EvolutionEntry("bandicrook", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,6),
@@ -83,9 +85,10 @@ public class Criminook extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

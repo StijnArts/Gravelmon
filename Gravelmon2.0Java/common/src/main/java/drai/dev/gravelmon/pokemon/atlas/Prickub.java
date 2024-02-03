@@ -22,8 +22,28 @@ public class Prickub extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of("False Swipe Normal Facade Normal Nature Power Normal Frustration Normal Hidden Power Normal Return Normal Heartfelt Pulse Normal Round Normal Echoed Voice Normal Infestation Bug Energy BallSTAB Grass Grass KnotSTAB Grass Solar BeamSTAB Grass Bullet SeedSTAB Grass Giga DrainSTAB Grass Shadow Claw Ghost Thief Dark Brutal Swing Dark Poison Jab Poison Sand Shot Ground Love Lariat Fairy Attract Normal Protect Normal Rest Psychic Sleep Talk Normal Substitute Normal Swagger Normal Work Up Normal Reflect Psychic Light Screen Psychic Rain Dance Water Sunny Day Fire Sandstorm Rock Roar Normal Bulk Up Fighting Taunt Dark Toxic Poison Grassy Terrain Grass"),
-                List.of(),
+                List.of(new EvolutionEntry("hiberneedle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
+                        new MoveLearnSetEntry(Move.LEER,1),
+                        new MoveLearnSetEntry(Move.POISON_STING,1),
+                        new MoveLearnSetEntry(Move.ABSORB,4),
+                        new MoveLearnSetEntry(Move.GROWTH,7),
+                        new MoveLearnSetEntry(Move.LEECH_SEED,10),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,13),
+                        new MoveLearnSetEntry(Move.BULLET_SEED,16),
+                        new MoveLearnSetEntry(Move.POWER_TRIP,19),
+                        new MoveLearnSetEntry(Move.INGRAIN,22),
+                        new MoveLearnSetEntry(Move.DRAIN_PUNCH,26),
+                        new MoveLearnSetEntry(Move.SPIKES,30),
+                        new MoveLearnSetEntry(Move.SUCKER_PUNCH,34),
+                        new MoveLearnSetEntry(Move.PIN_MISSILE,38),
+                        new MoveLearnSetEntry(Move.ENERGY_BALL,42),
+                        new MoveLearnSetEntry(Move.COTTON_SPORE,46),
+                        new MoveLearnSetEntry(Move.SANDSTORM,50),
+                        new MoveLearnSetEntry(Move.CLOSE_COMBAT,54),
+
                         new MoveLearnSetEntry(Move.FALSE_SWIPE,"tm"),
                         new MoveLearnSetEntry(Move.FACADE,"tm"),
                         new MoveLearnSetEntry(Move.NATURE_POWER,"tm"),
@@ -64,8 +84,8 @@ public class Prickub extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 28, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -22,7 +22,8 @@ public class Twoolepin extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Their big heavy feet keep them grounded on the floor as they spin the petals on their heads. Some fields can contain a hundred Twoolepin of different colours."),
-                List.of(),
+                List.of(new EvolutionEntry("terbipan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.LEECH_SEED,6),
@@ -69,8 +70,8 @@ public class Twoolepin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 31, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

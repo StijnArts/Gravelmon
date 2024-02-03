@@ -17,14 +17,16 @@ public class Birchee extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         38),
                 List.of(Ability.SYMBIOSIS,Ability.HARVEST,Ability.LEAF_GUARD), Ability.LEAF_GUARD,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 235,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Often referred to as 'grove-tender's miracle', for its incredible effects on surrounding flora. Forests populated by them exhibit rapid growth that far exceeds neighboring woods."),
-                List.of(),
+                List.of(new EvolutionEntry("birchop", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.GRASS_WHISTLE,5),
@@ -76,10 +78,10 @@ public class Birchee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 19, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -15,7 +15,7 @@ public class Lannelid extends drai.dev.gravelmon.pokemon.Pokemon {
                         82,
                         55),
                 List.of(Ability.STICKY_HOLD,Ability.SUCTION_CUPS,Ability.POWERLEECH), Ability.POWERLEECH,
-                8, 165,
+                10, 165,
                 new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
@@ -83,14 +83,16 @@ public class Lannelid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Lannelid");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

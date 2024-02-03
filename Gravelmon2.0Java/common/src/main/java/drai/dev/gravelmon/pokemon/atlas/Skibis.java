@@ -21,8 +21,10 @@ public class Skibis extends drai.dev.gravelmon.pokemon.Pokemon {
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.WATER_1),
-                List.of("- Peck Flying - Chirp Normal 7 EmberSTAB Fire 10 Wing Attack Flying 14 Captivate Normal 17 Psych Up Normal 20 Air Cutter Flying 23 Fire SpinSTAB Fire 27 Feather Dance Flying 31 Mystical FireSTAB Fire 35 Teeter Dance Normal 38 Hyper Voice Normal 41 Mirror Move Flying 44 Fiery DanceSTAB Fire 49 Role Play Psychic 53 Paradise Display Flying"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("flamingant", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.EMBER,7),
@@ -82,14 +84,14 @@ public class Skibis extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REVELATION_DANCE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 25, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Skibis");
+        setCanFly(true);
 
     }
 

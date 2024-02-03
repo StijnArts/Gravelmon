@@ -15,7 +15,7 @@ public class Beanormous extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         55),
                 List.of(Ability.CLOUD_NINE,Ability.FRISK,Ability.GREENTHUMB), Ability.GREENTHUMB,
-                8, 165,
+                38, 165,
                 new Stats(0,0,0,3,0,0), 15,
                 0.75,
                 248, ExperienceGroup.MEDIUM_SLOW,
@@ -84,11 +84,11 @@ public class Beanormous extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 42, 56, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HILLS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Beanormous");

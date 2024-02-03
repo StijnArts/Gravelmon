@@ -15,14 +15,16 @@ public class Fumystic extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         68),
                 List.of(Ability.FLAME_BODY,Ability.VITAL_SPIRIT,Ability.WHITE_SMOKE), Ability.WHITE_SMOKE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.5,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Born from a mystical fire, these Pokémon can be spotted roaming abandoned sites that possess enigmatic energy. They are regarded as lucky Pokémon since they will guide and protect lost travelers on their journey."),
-                List.of(),
+                List.of(new EvolutionEntry("fumeseous", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.SINGE,5),
@@ -88,8 +90,9 @@ public class Fumystic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 31, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

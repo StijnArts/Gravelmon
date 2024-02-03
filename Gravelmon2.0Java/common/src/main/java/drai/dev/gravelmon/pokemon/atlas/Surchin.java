@@ -15,14 +15,16 @@ public class Surchin extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         30),
                 List.of(Ability.AFTERMATH), Ability.IRON_BARBS,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 70, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("At night, it scavenges the seafloor for discarded shells to fortify its armor. Its eyes allow it to see in the murky darkness."),
-                List.of(),
+                List.of(new EvolutionEntry("submurchin", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.BIDE,4),
@@ -41,14 +43,16 @@ public class Surchin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDDY_WATER,61)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 26, 37, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Surchin");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

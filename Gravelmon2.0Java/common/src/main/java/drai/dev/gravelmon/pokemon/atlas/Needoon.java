@@ -15,14 +15,16 @@ public class Needoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         32),
                 List.of(Ability.CURSED_BODY), Ability.IRON_BARBS,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,1,0), 90,
                 0.5,
                 126, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Wrapped in a sturdy silk, it's main form of defense is to roll around failing it's body, trying to hit it's predators with it's sharp needles."),
-                List.of(),
+                List.of(new EvolutionEntry("needella", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.FLAIL,12),
@@ -74,8 +76,8 @@ public class Needoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CROSS_POISON,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 10, 29, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

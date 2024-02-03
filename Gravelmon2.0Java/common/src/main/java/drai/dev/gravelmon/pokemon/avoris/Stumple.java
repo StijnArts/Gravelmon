@@ -21,14 +21,16 @@ public class Stumple extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         20),
                 List.of(Ability.NATURAL_CURE), Ability.STURDY,
-                8, 165,
+                7, 165,
                 new Stats(1,0,0,0,0,0), 210,
                 1.0,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("The sticky sap that drips from Stumple's nose is incredibly bitter to humans, but is considered a delicacy among Bug-type Mons. It has trouble running from them on account of its stubby legs."),
-                List.of(),
+                List.of(new EvolutionEntry("grample", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),
                         new MoveLearnSetEntry(Move.BLOCK,6),
@@ -45,10 +47,10 @@ public class Stumple extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,48)                        ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 4, 28, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_SPRING, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

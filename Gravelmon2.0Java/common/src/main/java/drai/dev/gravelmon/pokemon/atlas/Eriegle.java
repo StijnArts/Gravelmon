@@ -15,14 +15,16 @@ public class Eriegle extends drai.dev.gravelmon.pokemon.Pokemon {
                         38,
                         50),
                 List.of(Ability.KEEN_EYE,Ability.BIG_PECKS,Ability.RIVALRY), Ability.RIVALRY,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Born with fairly weak wings, Eriegle love to stay in their nest and be nurtured by their parents until it's strong enough to fly from its roost. They become more hostile as they grow."),
-                List.of(),
+                List.of(new EvolutionEntry("albivore", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.LEER,5),
@@ -70,7 +72,7 @@ public class Eriegle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 18, 8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -78,6 +80,7 @@ public class Eriegle extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Eriegle");
+        setCanFly(true);
 
     }
 

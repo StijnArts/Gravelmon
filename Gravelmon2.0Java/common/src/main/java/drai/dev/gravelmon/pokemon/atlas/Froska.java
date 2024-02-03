@@ -15,14 +15,16 @@ public class Froska extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         63),
                 List.of(Ability.FOREWARN,Ability.SNOW_WARNING,Ability.MAGIC_BOUNCE), Ability.MAGIC_BOUNCE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 135,
                 0.0,
                 78, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.HUMAN_LIKE),
                 List.of("Froska enjoy spending their time making small snowmen whenever they can, making each one have at least one thing unique to them. Whenever they make similar ones, they topple over the older ones instead."),
-                List.of(),
+                List.of(new EvolutionEntry("mafreozee", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ANCIENT_POWER.getName()+"\"")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.COLDSNAP,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,4),
@@ -77,11 +79,11 @@ public class Froska extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 29, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Froska");

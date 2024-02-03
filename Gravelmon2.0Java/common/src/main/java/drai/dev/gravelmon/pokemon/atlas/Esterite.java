@@ -15,7 +15,7 @@ public class Esterite extends drai.dev.gravelmon.pokemon.Pokemon {
                         89,
                         60),
                 List.of(Ability.LEVITATE,Ability.ILLUMINATE,Ability.MAGNET_PULL), Ability.MAGNET_PULL,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,3,0,0), 45,
                 0.0,
                 219, ExperienceGroup.MEDIUM_SLOW,
@@ -99,9 +99,10 @@ public class Esterite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_SPLIT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 39, 54, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

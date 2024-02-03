@@ -15,14 +15,16 @@ public class Needow extends drai.dev.gravelmon.pokemon.Pokemon {
                         38,
                         50),
                 List.of(Ability.CURSED_BODY), Ability.IRON_BARBS,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 57, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Commonly found in old homes and ruins, they gather in the dark to collect buttons, but disappear during the day. If you feel a sharp, stabbing pain, there may be a Needow on you."),
-                List.of(),
+                List.of(new EvolutionEntry("needoon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"9")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.BIND,4),
@@ -85,8 +87,8 @@ public class Needow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CROSS_POISON,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 11, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

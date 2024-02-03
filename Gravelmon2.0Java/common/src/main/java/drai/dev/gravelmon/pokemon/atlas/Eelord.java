@@ -15,7 +15,7 @@ public class Eelord extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         86),
                 List.of(Ability.FEROCIOUS,Ability.SWIFT_SWIM,Ability.IMMUNITY), Ability.IMMUNITY,
-                8, 165,
+                31, 165,
                 new Stats(0,2,0,0,0,0), 30,
                 0.5,
                 189, ExperienceGroup.SLOW,
@@ -86,14 +86,16 @@ public class Eelord extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 35, 56, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Eelord");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -15,7 +15,7 @@ public class Baobloat extends drai.dev.gravelmon.pokemon.Pokemon {
                         104,
                         52),
                 List.of(Ability.THICK_FAT,Ability.STORM_DRAIN), Ability.SUNSCREEN,
-                8, 165,
+                16, 165,
                 new Stats(0,0,2,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -82,8 +82,8 @@ public class Baobloat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_SPORT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,13 +15,13 @@ public class Bauldron extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         45),
                 List.of(Ability.LEVITATE), Ability.GOOEY,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,0), 45,
                 0.0,
                 119, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
-                List.of("- Smokescreen Normal - SmogSTAB Poison 9 Disable Normal 12 Night ShadeSTAB Ghost 16 Haze Ice 20 SludgeSTAB Poison 24 Toxic Poison 29 Acid Armor Poison 32 HexSTAB Ghost 35 Stockpile Normal 35 Spit Up Normal 35 Swallow Normal 40 Clear SmogSTAB Poison 45 Shadow BallSTAB Ghost 51 Magic Coat Psychic 57 Sludge WaveSTAB Poison 64 Explosion Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOG,1),
@@ -89,11 +89,11 @@ public class Bauldron extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 37, 57, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.ILLAGER_STRUCTURES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bauldron");

@@ -15,7 +15,7 @@ public class Impac extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         50),
                 List.of(Ability.REFLEXSTRIKE), Ability.REFLEXSTRIKE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.ERRATIC,
@@ -136,11 +136,11 @@ public class Impac extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 27, 41, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Impac");

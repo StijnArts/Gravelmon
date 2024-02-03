@@ -15,14 +15,16 @@ public class Caldona extends drai.dev.gravelmon.pokemon.Pokemon {
                         67,
                         48),
                 List.of(Ability.MAGMA_ARMOR,Ability.FLAME_BODY), Ability.UNDERLING,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,1,1,0), 235,
                 0.0,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(),
                 List.of("Unlike Cindera, with a body temperature of around 2000Â° F, it is capable of leaving its base for short periods of time. With each step it leaves behind crystalline footprints that sell for a high price to mineral collectors."),
-                List.of(),
+                List.of(new EvolutionEntry("stelnova", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"49")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SINGE,1),
                         new MoveLearnSetEntry(Move.ROCK_POLISH,6),
@@ -82,9 +84,8 @@ public class Caldona extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_VOLCANIC))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

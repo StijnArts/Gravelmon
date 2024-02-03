@@ -15,14 +15,15 @@ public class Lamber extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         45),
                 List.of(Ability.FLAME_BODY), Ability.FLUFFY,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 75,
                 0.875,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("Lamber are commonly kept for their wool. It is said that nothing is warmer than a pair of Lamber wool socks."),
-                List.of(),
+                List.of(new EvolutionEntry("volpaca", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
@@ -78,10 +79,10 @@ public class Lamber extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

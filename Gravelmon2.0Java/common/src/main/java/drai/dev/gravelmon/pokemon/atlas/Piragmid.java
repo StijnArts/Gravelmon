@@ -15,14 +15,16 @@ public class Piragmid extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         35),
                 List.of(Ability.ROCK_HEAD,Ability.JACKPOT,Ability.SOLID_ROCK), Ability.SOLID_ROCK,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.0,
                 143, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Piragmid's body is cumbersome and heavy, but it seems to strut around with little difficulty. It can often trip on itself, breaking some gold off from it's head."),
-                List.of(),
+                List.of(new EvolutionEntry("eldoredo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SANDSTORM,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,4),
@@ -83,11 +85,12 @@ public class Piragmid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 35, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.MINY,"0"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.GEMSTONES, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Piragmid");

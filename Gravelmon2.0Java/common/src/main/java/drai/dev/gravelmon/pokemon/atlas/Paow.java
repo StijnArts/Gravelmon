@@ -15,14 +15,16 @@ public class Paow extends drai.dev.gravelmon.pokemon.Pokemon {
                         27,
                         86),
                 List.of(Ability.AFTERMATH,Ability.FLARE_BOOST,Ability.FLASH_FIRE), Ability.FLASH_FIRE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 215,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.AMORPHOUS),
                 List.of("A Chinese princess once brought down an entire army with just a single Paow. They are found high up on mountains, blowing out ash and smoke from their gaping mouths."),
-                List.of(),
+                List.of(new EvolutionEntry("ganpaow", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
                         new MoveLearnSetEntry(Move.SMOG,4),
@@ -92,9 +94,10 @@ public class Paow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 37, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

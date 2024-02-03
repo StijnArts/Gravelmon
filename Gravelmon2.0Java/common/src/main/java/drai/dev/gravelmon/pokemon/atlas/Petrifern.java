@@ -15,14 +15,16 @@ public class Petrifern extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         30),
                 List.of(Ability.CHLOROPHYLL), Ability.SOLAR_POWER,
-                8, 165,
+                14, 165,
                 new Stats(0,0,1,0,0,0), 115,
                 0.875,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MINERAL),
                 List.of("Petrifern is known to have lived at the bottom of the worlds most ancient forests. Its convenient roots allowed it to constantly move in search of sunlight."),
-                List.of(),
+                List.of(new EvolutionEntry("serrarbo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,1),
                         new MoveLearnSetEntry(Move.SMACK_DOWN,6),
@@ -67,9 +69,8 @@ public class Petrifern extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 38, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

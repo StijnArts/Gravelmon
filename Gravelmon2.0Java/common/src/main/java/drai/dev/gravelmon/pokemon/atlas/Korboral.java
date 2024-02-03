@@ -15,7 +15,7 @@ public class Korboral extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         65),
                 List.of(Ability.SAP_SIPPER,Ability.HARVEST,Ability.SYMBIOSIS), Ability.SYMBIOSIS,
-                8, 165,
+                13, 165,
                 new Stats(2,0,0,0,0,0), 128,
                 0.5,
                 151, ExperienceGroup.FAST,
@@ -78,8 +78,8 @@ public class Korboral extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 42, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

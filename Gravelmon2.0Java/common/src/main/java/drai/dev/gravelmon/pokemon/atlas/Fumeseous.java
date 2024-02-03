@@ -15,7 +15,7 @@ public class Fumeseous extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         75),
                 List.of(Ability.FLAME_BODY,Ability.VITAL_SPIRIT,Ability.WHITE_SMOKE), Ability.WHITE_SMOKE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,2,0,0), 55,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -137,8 +137,9 @@ public class Fumeseous extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 45, 59, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

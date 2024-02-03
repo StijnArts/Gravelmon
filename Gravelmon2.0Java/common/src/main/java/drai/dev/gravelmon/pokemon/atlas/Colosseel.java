@@ -15,7 +15,7 @@ public class Colosseel extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         62),
                 List.of(Ability.SHEER_FORCE), Ability.STRONG_JAW,
-                8, 165,
+                28, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 248, ExperienceGroup.SLOW,
@@ -96,10 +96,10 @@ public class Colosseel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COIL,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 53, 65, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPRING, Biome.IS_SUMMER, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

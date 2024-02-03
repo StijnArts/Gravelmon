@@ -22,7 +22,9 @@ public class Wickvine extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Wickvine usually stay rooted in a spot their entire life. Many Wickvine would either group together like brambles or even line up to form a fence to block paths or entrances. It is best to avoid them at all costs."),
-                List.of(),
+                List.of(new EvolutionEntry("wicktrive", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BIND,1),
                         new MoveLearnSetEntry(Move.POISON_STING,6),
@@ -93,11 +95,11 @@ public class Wickvine extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 30, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Wickvine");

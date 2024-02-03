@@ -15,14 +15,16 @@ public class Moppup extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         30),
                 List.of(Ability.DAMP,Ability.BALL_FETCH,Ability.FLUFFY), Ability.FLUFFY,
-                8, 165,
+                7, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 55, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Odor Sleuth Normal - TackleSTAB Normal - Play Nice Normal 5 Lick Ghost 10 Aqua SlapSTAB Water 14 Life Dew Water 18 Bubble BeamSTAB Water 22 CovetSTAB Normal 25 Soak Water 29 Muddy WaterSTAB Water 33 Body SlamSTAB Normal 38 LiquidationSTAB Water 44 Play Rough Fairy 50 Double-EdgeSTAB Normal"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("shampooch", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.LICK,5),
@@ -91,11 +93,11 @@ public class Moppup extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_FANG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Moppup");

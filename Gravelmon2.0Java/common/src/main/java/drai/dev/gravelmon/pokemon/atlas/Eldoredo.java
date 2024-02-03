@@ -15,7 +15,7 @@ public class Eldoredo extends drai.dev.gravelmon.pokemon.Pokemon {
                         128,
                         45),
                 List.of(Ability.ROCK_HEAD,Ability.JACKPOT,Ability.SOLID_ROCK), Ability.SOLID_ROCK,
-                8, 165,
+                22, 165,
                 new Stats(0,0,0,0,3,0), 15,
                 0.0,
                 229, ExperienceGroup.SLOW,
@@ -83,11 +83,12 @@ public class Eldoredo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 56, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.MINY,"0"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.GEMSTONES, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Eldoredo");

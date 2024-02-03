@@ -23,11 +23,26 @@ public class Phanfrica extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.FALSE_SWIPE,1),
+                        new MoveLearnSetEntry(Move.GROWL,1),
+                        new MoveLearnSetEntry(Move.MUDSLAP,1),
+                        new MoveLearnSetEntry(Move.TAIL_WHIP,1),
+                        new MoveLearnSetEntry(Move.HEADBUTT,12),
+                        new MoveLearnSetEntry(Move.RETALIATE,16),
+                        new MoveLearnSetEntry(Move.FLING,20),
+                        new MoveLearnSetEntry(Move.STOMPING_TANTRUM,24),
+                        new MoveLearnSetEntry(Move.BONE_RUSH,31),
+                        new MoveLearnSetEntry(Move.FOCUS_ENERGY,36),
+                        new MoveLearnSetEntry(Move.ENDEAVOR,42),
+                        new MoveLearnSetEntry(Move.BONEMERANG,48),
+                        new MoveLearnSetEntry(Move.THRASH,54),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,60)
+                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 65, .0008, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

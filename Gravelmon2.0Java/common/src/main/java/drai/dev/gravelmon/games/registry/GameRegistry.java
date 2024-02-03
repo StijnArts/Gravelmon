@@ -27,6 +27,7 @@ public class GameRegistry {
         games.add(new Interregional());
         games.add(new Opal());
         games.add(new Insurgence());
+        games.add(new Enriko());
         games.add(new Xenoverse());
         games.add(new Avoris());
         games.add(new Varitas());

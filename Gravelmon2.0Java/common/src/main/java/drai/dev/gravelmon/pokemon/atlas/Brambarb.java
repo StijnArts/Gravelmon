@@ -15,14 +15,15 @@ public class Brambarb extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         48),
                 List.of(Ability.IRON_BARBS), Ability.SNIPER,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 165,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It latches onto its foes with its sharp barbs. It usually hides in bushes waiting for unsuspecting prey."),
-                List.of(),
+                List.of(new EvolutionEntry("wickvine", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.POISON_STING,6),
@@ -90,11 +91,11 @@ public class Brambarb extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 17, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Brambarb");

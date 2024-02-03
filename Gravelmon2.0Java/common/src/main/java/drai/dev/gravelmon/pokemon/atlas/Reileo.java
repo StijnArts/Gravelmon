@@ -15,7 +15,7 @@ public class Reileo extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         75),
                 List.of(Ability.INTIMIDATE), Ability.SAND_FORCE,
-                8, 165,
+                15, 165,
                 new Stats(0,2,0,0,0,0), 67,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -82,8 +82,8 @@ public class Reileo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 58, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Cloacover extends drai.dev.gravelmon.pokemon.Pokemon {
                         101,
                         89),
                 List.of(Ability.PICKPOCKET,Ability.DARKHOLD,Ability.STAKEOUT), Ability.STAKEOUT,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 216, ExperienceGroup.MEDIUM_SLOW,
@@ -79,8 +79,8 @@ public class Cloacover extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 52, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

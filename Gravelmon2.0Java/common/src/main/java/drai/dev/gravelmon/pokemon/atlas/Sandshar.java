@@ -15,14 +15,16 @@ public class Sandshar extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         35),
                 List.of(Ability.ROUGH_SKIN), Ability.WEAK_ARMOR,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 66, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.MONSTER),
                 List.of("Sandshar are highly drowsy Pokémon, which reside docile in a blanket of sand upon the sea bed. They will briefly leave it in order to escape a predator, but otherwise will remain still and unresponsive."),
-                List.of(),
+                List.of(new EvolutionEntry("sharkastle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,7),
@@ -41,14 +43,16 @@ public class Sandshar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,60)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sandshar");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

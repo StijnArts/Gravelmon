@@ -17,7 +17,7 @@ public class Birchard extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         53),
                 List.of(Ability.SYMBIOSIS,Ability.HARVEST,Ability.SOLID_ROCK), Ability.SOLID_ROCK,
-                8, 165,
+                22, 165,
                 new Stats(0,0,3,0,0,0), 25,
                 0.5,
                 225, ExperienceGroup.MEDIUM_SLOW,
@@ -87,10 +87,10 @@ public class Birchard extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 19, 32, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

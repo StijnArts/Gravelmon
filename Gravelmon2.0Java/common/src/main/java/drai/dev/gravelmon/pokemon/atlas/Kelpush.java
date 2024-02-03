@@ -15,14 +15,16 @@ public class Kelpush extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         65),
                 List.of(Ability.WATER_ABSORB,Ability.DAMP,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                14, 165,
                 new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 157, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Its ability to absorb water is impeccable, and often times can triple it's weight with liquid. Without water, it can be carried around with relative ease."),
-                List.of(),
+                List.of(new EvolutionEntry("kelprash", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,5),
@@ -39,14 +41,15 @@ public class Kelpush extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_WHIP,57)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 26, 37, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Kelpush");
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
 
     }
 

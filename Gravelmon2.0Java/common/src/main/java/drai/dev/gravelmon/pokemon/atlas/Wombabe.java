@@ -17,14 +17,16 @@ public class Wombabe extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         39),
                 List.of(Ability.SAP_SIPPER,Ability.GLUTTONY,Ability.SYMBIOSIS), Ability.SYMBIOSIS,
-                8, 165,
+                4, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 53, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It uses the pouch on its belly to store food. It later shares the food with the rest of the colony."),
-                List.of(),
+                List.of(new EvolutionEntry("korboral", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FACADE,"tm"),
                         new MoveLearnSetEntry(Move.NATURE_POWER,"tm"),
@@ -57,8 +59,8 @@ public class Wombabe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

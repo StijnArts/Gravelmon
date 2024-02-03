@@ -15,14 +15,15 @@ public class Squabling extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         40),
                 List.of(Ability.BIG_PECKS,Ability.GUTS,Ability.OBLIVIOUS), Ability.OBLIVIOUS,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 52, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Squabling form nests all over cities and anywhere humans are found. It builds up its body using shredded newspaper or whatever else it may find."),
-                List.of(),
+                List.of(new EvolutionEntry("suburvian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.GUST,5),
@@ -69,15 +70,15 @@ public class Squabling extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Squabling");
-
+setCanFly(true);
     }
 
 

@@ -15,7 +15,7 @@ public class Gigadozer extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         50),
                 List.of(Ability.BATTLE_ARMOR,Ability.MOXIE,Ability.ANGER_POINT), Ability.ANGER_POINT,
-                8, 165,
+                17, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 227, ExperienceGroup.MEDIUM_SLOW,
@@ -78,8 +78,8 @@ public class Gigadozer extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 52, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

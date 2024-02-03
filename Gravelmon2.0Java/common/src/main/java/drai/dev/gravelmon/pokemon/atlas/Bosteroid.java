@@ -15,7 +15,7 @@ public class Bosteroid extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         45),
                 List.of(Ability.SHEER_FORCE), Ability.MOLD_BREAKER,
-                8, 165,
+                20, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 1.0,
                 214, ExperienceGroup.MEDIUM_SLOW,
@@ -76,8 +76,8 @@ public class Bosteroid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DYNAMICPUNCH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED,SpawnPool.UNCOMMON, 29, 47, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -17,14 +17,16 @@ public class Aquaro extends drai.dev.gravelmon.pokemon.Pokemon {
                         48,
                         48),
                 List.of(Ability.POISON_POINT,Ability.SNIPER,Ability.SHARPSHOOTER), Ability.SHARPSHOOTER,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("The spiky barbs on its body are toxic, which it can use to defend itself when singled out. They flash their bright colours to warn others of the danger."),
-                List.of(),
+                List.of(new EvolutionEntry("aquarcher", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_STING,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,3),
@@ -41,14 +43,16 @@ public class Aquaro extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,52)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 20, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Aquaro");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

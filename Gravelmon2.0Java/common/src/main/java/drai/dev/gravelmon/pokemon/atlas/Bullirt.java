@@ -15,14 +15,16 @@ public class Bullirt extends drai.dev.gravelmon.pokemon.Pokemon {
                         29,
                         45),
                 List.of(Ability.PICKUP,Ability.LIMBER,Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 57, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("When approached they can be aggressive, and will often use dirty tactics like kicking sand in their enemies' eyes to win scuffles. They never back down from a challenge."),
-                List.of(),
+                List.of(new EvolutionEntry("dirterrier", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.HOWL,5),
@@ -93,7 +95,7 @@ public class Bullirt extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.ATLAS),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

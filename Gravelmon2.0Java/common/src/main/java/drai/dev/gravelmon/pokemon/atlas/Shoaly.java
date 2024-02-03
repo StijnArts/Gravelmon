@@ -15,14 +15,16 @@ public class Shoaly extends drai.dev.gravelmon.pokemon.Pokemon {
                         31,
                         96),
                 List.of(Ability.SWIFT_SWIM,Ability.WATER_VEIL,Ability.CUTE_CHARM), Ability.CUTE_CHARM,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Shoaly are always born in groups of three and depend on each other for safety. They form large shoals in the open sea and use their patterns to confuse predators."),
-                List.of(),
+                List.of(new EvolutionEntry("tanchor", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,5),
@@ -63,14 +65,16 @@ public class Shoaly extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATERFALL,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 3, 22, 6.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Shoaly");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

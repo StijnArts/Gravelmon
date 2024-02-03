@@ -15,14 +15,16 @@ public class Polypus extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         50),
                 List.of(Ability.WATER_VEIL,Ability.WATER_ABSORB,Ability.OVERCOAT), Ability.OVERCOAT,
-                8, 165,
+                2, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("Clusters of Polypus stay within the reef that they are born in. When the reef is in danger, they leave to find a new home wherever the ocean currents take them."),
-                List.of(),
+                List.of(new EvolutionEntry("scubella", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.POUND,4),
@@ -70,14 +72,16 @@ public class Polypus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 24, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Polypus");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

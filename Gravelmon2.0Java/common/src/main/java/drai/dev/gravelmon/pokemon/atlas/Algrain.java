@@ -21,14 +21,16 @@ public class Algrain extends drai.dev.gravelmon.pokemon.Pokemon {
                         46,
                         55),
                 List.of(Ability.WATER_ABSORB,Ability.DAMP,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Large gardens of Algrain cover the ocean surface. They use their vines to entangle and strangle anyone who gets too close. They can split to replicate themselves, without the need for a mate."),
-                List.of(),
+                List.of(new EvolutionEntry("kelpush", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,5),
@@ -45,14 +47,15 @@ public class Algrain extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_WHIP,53)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 4, 25, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Algrain");
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
 
     }
 

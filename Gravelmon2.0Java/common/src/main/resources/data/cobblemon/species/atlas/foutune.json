@@ -1,0 +1,140 @@
+{
+  "implemented": true,
+  "name": "foutune",
+  "nationalPokedexNumber": 2557,
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "abilities": [
+    "raindish",
+    "sturdy",
+    "h:liquidvoice"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 48,
+    "defence": 70,
+    "special_attack": 62,
+    "special_defence": 50,
+    "speed": 25
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 105,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:splash",
+    "6:singsound",
+    "10:roundsound",
+    "14:watergun",
+    "18:rockpolish",
+    "22:waterpulse",
+    "26:bodyslam",
+    "29:scald",
+    "35:aquaring",
+    "40:rockslide",
+    "43:soak",
+    "47:mirrorcoat",
+    "52:hydropump",
+    "63:waterspout",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:doubleteam",
+    "tm:echoedvoicesound",
+    "tm:explosion",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:mistyterrain",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:roundsound",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:waterpulse"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.foutune.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "foutune_harmorial",
+      "variant": "level_up",
+      "result": "harmorial",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.13125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

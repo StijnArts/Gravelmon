@@ -25,8 +25,7 @@ public class Selody extends Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY, EggGroup.WATER_2),
                 List.of("It lulls its opponents into their guards down with its beautiful singing voice. It can move on land by bouncing."),
-                List.of(new EvolutionEntry("selody", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.BUBBLE,1),

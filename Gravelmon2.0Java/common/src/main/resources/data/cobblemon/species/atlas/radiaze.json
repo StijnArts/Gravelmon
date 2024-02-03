@@ -1,0 +1,163 @@
+{
+  "implemented": true,
+  "name": "radiaze",
+  "nationalPokedexNumber": 2706,
+  "primaryType": "rock",
+  "secondaryType": "electric",
+  "abilities": [
+    "solidrock",
+    "lightningrod",
+    "h:toughclaws"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 95,
+    "defence": 70,
+    "special_attack": 120,
+    "special_defence": 85,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 243,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "1:charge",
+    "6:rockthrow",
+    "10:eerieimpulse",
+    "14:spark",
+    "19:rocktomb",
+    "23:confuseray",
+    "28:chargebeam",
+    "33:ancientpower",
+    "38:iondeluge",
+    "43:discharge",
+    "48:dazzlinggleam",
+    "54:glare",
+    "65:hyperbeam",
+    "tm:falseswipe",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:roundsound",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:drainpunch",
+    "tm:xscissor",
+    "tm:signalbeam",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:flamecharge",
+    "tm:firepunch",
+    "tm:chargebeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:thunderpunch",
+    "tm:aerialace",
+    "tm:flashcannon",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:darkpulse",
+    "tm:thief",
+    "tm:brutalswing",
+    "tm:poisonjab",
+    "tm:sludgebomb",
+    "tm:icepunch",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:dazzlinggleam",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:sandstorm",
+    "tm:stealthrock",
+    "tm:roarsound",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:electricterrain",
+    "tm:thunderpunch",
+    "tm:solarbeam",
+    "tm:rockpolish",
+    "tm:powergemcrystal",
+    "tm:earthpower",
+    "tm:flashcannon"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.radiaze.desc"
+  ],
+  "preEvolution": "radizorb",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 20,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

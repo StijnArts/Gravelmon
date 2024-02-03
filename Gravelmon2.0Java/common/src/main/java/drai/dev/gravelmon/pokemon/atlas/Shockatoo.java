@@ -15,14 +15,16 @@ public class Shockatoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         90),
                 List.of(Ability.STATIC,Ability.EARLY_BIRD,Ability.INNER_FOCUS), Ability.INNER_FOCUS,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,2), 75,
                 0.5,
                 139, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Rival Shockatoos are typically seen in lightning storms, building up energy and racing to see which is the strongest. Merely tapping their body can lead to brief electric shocks."),
-                List.of(),
+                List.of(new EvolutionEntry("kotukoatl", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.FLASH,6),
@@ -79,14 +81,15 @@ public class Shockatoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 37, 1.7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Shockatoo");
+        setCanFly(true);
 
     }
 

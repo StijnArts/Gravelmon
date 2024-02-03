@@ -15,15 +15,18 @@ public class Vimana extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         49),
                 List.of(Ability.FLARE_BOOST), Ability.AROMA_VEIL,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,0), 255,
                 0.0,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Vimana love to fly over people who're in love. They gather together to sing happy tunes, which can calm even the most restless soul."),
-                List.of(),
+                List.of(new EvolutionEntry("vimanzia", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))
+                ),
                 List.of(
+                        new MoveLearnSetEntry(Move.GUST,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,1),
                         new MoveLearnSetEntry(Move.FACADE,"tm"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"tm"),
@@ -60,11 +63,11 @@ public class Vimana extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Vimana");

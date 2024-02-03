@@ -15,14 +15,16 @@ public class Dustar extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         35),
                 List.of(Ability.LEVITATE,Ability.ILLUMINATE,Ability.MAGNET_PULL), Ability.MAGNET_PULL,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.0,
                 65, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.FAIRY),
                 List.of("Sailors have used Dustar throughout history to navigate the seas. They are sometimes found underwater where they crashed from outer space."),
-                List.of(),
+                List.of(new EvolutionEntry("compella", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TELEPORT,1),
                         new MoveLearnSetEntry(Move.PIXIEDUST,5),
@@ -88,9 +90,10 @@ public class Dustar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_SPLIT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 24, 7, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

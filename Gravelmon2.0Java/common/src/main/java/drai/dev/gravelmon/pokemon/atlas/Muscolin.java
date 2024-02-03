@@ -15,14 +15,15 @@ public class Muscolin extends drai.dev.gravelmon.pokemon.Pokemon {
                         20,
                         15),
                 List.of(Ability.VITAL_SPIRIT), Ability.MOLD_BREAKER,
-                8, 165,
+                7, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 1.0,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("- Pound Normal 5 Focus Energy Normal 8 Harden Normal 12 Karate ChopSTAB Fighting 15 Comet Punch Normal 18 Seismic TossSTAB Fighting 23 Endure Normal 27 Mega Punch Normal 30 Vital ThrowSTAB Fighting 34 Bulk Up Fighting 38 SubmissionSTAB Fighting 43 Captivate Normal 47 Hammer ArmSTAB Fighting 52 ReversalSTAB Fighting"),
-                List.of(),
+                List.of(new EvolutionEntry("bosteroid", EvolutionType.TRADE, List.of(),
+                        List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,5),
@@ -71,8 +72,8 @@ public class Muscolin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DYNAMICPUNCH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

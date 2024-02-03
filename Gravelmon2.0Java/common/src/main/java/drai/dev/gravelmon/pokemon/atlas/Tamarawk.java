@@ -15,14 +15,16 @@ public class Tamarawk extends drai.dev.gravelmon.pokemon.Pokemon {
                         42,
                         65),
                 List.of(Ability.OBLIVIOUS,Ability.RECKLESS,Ability.MOUNTAINEER), Ability.MOUNTAINEER,
-                8, 165,
+                11, 165,
                 new Stats(0,1,0,0,0,0), 25,
                 0.5,
                 70, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Tamarawk travel in large herds through canyons and mountain ranges. Their stampedes have been known to start earthquakes and avalanches."),
-                List.of(),
+                List.of(new EvolutionEntry("bouldalo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"43")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,5),
@@ -69,8 +71,8 @@ public class Tamarawk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_WRECKER,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 33, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

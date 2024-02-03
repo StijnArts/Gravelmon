@@ -15,7 +15,7 @@ public class Sharkastle extends drai.dev.gravelmon.pokemon.Pokemon {
                         135,
                         40),
                 List.of(Ability.ROUGH_SKIN), Ability.WEAK_ARMOR,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,2,0), 50,
                 0.5,
                 179, ExperienceGroup.MEDIUM_SLOW,
@@ -96,15 +96,16 @@ public class Sharkastle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 35, 51, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sharkastle");
-
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
     }
 
 

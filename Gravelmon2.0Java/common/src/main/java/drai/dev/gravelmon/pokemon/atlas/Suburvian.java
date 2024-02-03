@@ -15,14 +15,15 @@ public class Suburvian extends drai.dev.gravelmon.pokemon.Pokemon {
                         57,
                         68),
                 List.of(Ability.BIG_PECKS,Ability.GUTS,Ability.OBLIVIOUS), Ability.OBLIVIOUS,
-                8, 165,
+                5, 165,
                 new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 133, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Suburvian are commonly know to steal any food they see. They are quick to anger and attack agitators."),
-                List.of(),
+                List.of(new EvolutionEntry("horrendove", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.GUST,5),
@@ -69,14 +70,15 @@ public class Suburvian extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 38, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Suburvian");
+        setCanFly(true);
 
     }
 

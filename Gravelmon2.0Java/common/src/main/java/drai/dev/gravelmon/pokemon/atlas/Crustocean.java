@@ -15,7 +15,7 @@ public class Crustocean extends drai.dev.gravelmon.pokemon.Pokemon {
                         84,
                         38),
                 List.of(Ability.SHELL_ARMOR), Ability.SNIPER,
-                8, 165,
+                20, 165,
                 new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 120, ExperienceGroup.FAST,
@@ -91,14 +91,16 @@ public class Crustocean extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 32, 53, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Crustocean");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

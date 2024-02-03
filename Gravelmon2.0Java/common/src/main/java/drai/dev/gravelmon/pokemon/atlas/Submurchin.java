@@ -15,7 +15,7 @@ public class Submurchin extends drai.dev.gravelmon.pokemon.Pokemon {
                         115,
                         32),
                 List.of(Ability.AFTERMATH), Ability.IRON_BARBS,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -94,14 +94,16 @@ public class Submurchin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 41, 53, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Submurchin");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

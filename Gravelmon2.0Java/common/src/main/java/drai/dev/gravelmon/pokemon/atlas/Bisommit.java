@@ -15,7 +15,7 @@ public class Bisommit extends drai.dev.gravelmon.pokemon.Pokemon {
                         86,
                         43),
                 List.of(Ability.ROCK_HEAD), Ability.GRASSY_SURGE,
-                8, 165,
+                17, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 179, ExperienceGroup.MEDIUM_SLOW,
@@ -86,8 +86,8 @@ public class Bisommit extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAD_CHARGE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 53, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_HILLS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

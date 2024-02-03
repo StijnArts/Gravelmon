@@ -15,14 +15,15 @@ public class Tulifun extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         40),
                 List.of(Ability.TANGLED_FEET,Ability.LEAF_GUARD,Ability.OWN_TEMPO), Ability.OWN_TEMPO,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("With a rapid spin of its leaves it is able to produce winds anywhere from faint to strong in power. When doing this it is known to often make itself dizzy quite easily."),
-                List.of(),
+                List.of(new EvolutionEntry("twoolepin", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.LEECH_SEED,6),
@@ -68,8 +69,8 @@ public class Tulifun extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 18, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

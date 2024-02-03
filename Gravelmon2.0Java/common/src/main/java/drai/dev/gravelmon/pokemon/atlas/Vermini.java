@@ -15,14 +15,16 @@ public class Vermini extends drai.dev.gravelmon.pokemon.Pokemon {
                         20,
                         20),
                 List.of(Ability.DRY_SKIN,Ability.SAND_RUSH,Ability.LIMBER), Ability.LIMBER,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 40, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Vermini dig small tunnels underground, usually below cities. Occasionally, the rumbling caused by a large colony of Vermini moving together can be mistaken for a minor earthquake."),
-                List.of(),
+                List.of(new EvolutionEntry("vermpent", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.MUD_SPORT,6),
@@ -58,9 +60,9 @@ public class Vermini extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SANDSHOT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 16, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -15,7 +15,7 @@ public class Glacyak extends drai.dev.gravelmon.pokemon.Pokemon {
                         84,
                         55),
                 List.of(Ability.SNOW_CLOAK,Ability.OBLIVIOUS,Ability.ANGER_POINT), Ability.ANGER_POINT,
-                8, 165,
+                13, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -24,6 +24,16 @@ public class Glacyak extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Glacyak were once used as transportation by people centuries ago. They mastered their skill of quickly climbing up even the most rockiest and steepest of mountains. They are usually very friendly but when angered to a degree, they will rampage and destroy everything in its way."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.STOMP,1),
+                        new MoveLearnSetEntry(Move.HEADBUTT,1),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
+                        new MoveLearnSetEntry(Move.BLIZZARD,1),
+                        new MoveLearnSetEntry(Move.EARTHQUAKE,1),
+                        new MoveLearnSetEntry(Move.POWDER_SNOW,1),
+                        new MoveLearnSetEntry(Move.SUPERPOWER,1),
+                        new MoveLearnSetEntry(Move.ROCK_CLIMB,1),
+                        new MoveLearnSetEntry(Move.IRON_HEAD,1),
+                        new MoveLearnSetEntry(Move.BULLDOZE,1),
                         new MoveLearnSetEntry(Move.ICICLE_CRASH,1),
                         new MoveLearnSetEntry(Move.FALSE_SWIPE,"tm"),
                         new MoveLearnSetEntry(Move.FACADE,"tm"),
@@ -67,8 +77,8 @@ public class Glacyak extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COLDSNAP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 51, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TUNDRA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

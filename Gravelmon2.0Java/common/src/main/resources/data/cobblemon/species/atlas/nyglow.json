@@ -1,0 +1,151 @@
+{
+  "implemented": true,
+  "name": "nyglow",
+  "nationalPokedexNumber": 2627,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "abilities": [
+    "compoundeyes",
+    "swarm",
+    "h:solarpower"
+  ],
+  "baseStats": {
+    "hp": 38,
+    "attack": 50,
+    "defence": 48,
+    "special_attack": 61,
+    "special_defence": 20,
+    "speed": 82
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:flash",
+    "6:detect",
+    "9:thundershock",
+    "12:doubleteam",
+    "16:sonicboomsound",
+    "20:shockwave",
+    "23:aircutter",
+    "27:uturn",
+    "31:agility",
+    "35:signalbeam",
+    "40:electroball",
+    "45:lightscreen",
+    "51:bugbuzzsound",
+    "56:thunderbolt",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:chargebeam",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:flashcannon",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:hiddenpower",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roost",
+    "tm:roundsound",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalksound",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:ancientpower"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.nyglow.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "nyglow_nyglare",
+      "variant": "level_up",
+      "result": "nyglare",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 29
+        },
+        {
+          "variant": "time_range",
+          "range": night
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.13125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

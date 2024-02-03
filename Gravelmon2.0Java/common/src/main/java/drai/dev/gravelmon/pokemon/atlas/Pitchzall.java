@@ -15,14 +15,16 @@ public class Pitchzall extends drai.dev.gravelmon.pokemon.Pokemon {
                         59,
                         66),
                 List.of(Ability.PICKUP,Ability.BALL_FETCH,Ability.BULLETPROOF), Ability.BULLETPROOF,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 120,
                 1.0,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Though small, they train all night in parks and playgrounds to improve their throws. Their head is as tough as steel."),
-                List.of(),
+                List.of(new EvolutionEntry("strikezall", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.DOUBLE_HIT,5),
@@ -81,11 +83,11 @@ public class Pitchzall extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORM_THROW,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 27, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pitchzall");

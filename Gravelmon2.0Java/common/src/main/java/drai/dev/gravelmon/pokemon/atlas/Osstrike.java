@@ -15,7 +15,7 @@ public class Osstrike extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         120),
                 List.of(Ability.QUICK_FEET), Ability.KEEN_EYE,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,0,2), 100,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -82,8 +82,8 @@ public class Osstrike extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 15, 48, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

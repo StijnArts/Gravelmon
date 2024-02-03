@@ -15,20 +15,24 @@ public class Wisper extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         92),
                 List.of(Ability.ILLUMINATE,Ability.CURSED_BODY,Ability.FLASH_FIRE), Ability.FLASH_FIRE,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 66, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Wisper enjoy luring travellers to their deaths by creating a path of flickering lights, leading them into swamps and off the edges of cliffs."),
-                List.of(),
+                List.of(new EvolutionEntry("wispette", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))
+                ),
                 List.of(
-                        new MoveLearnSetEntry(Move.ASTONISH,1)                        ),
+                        new MoveLearnSetEntry(Move.EMBER,1)   ,
+                        new MoveLearnSetEntry(Move.ASTONISH,1)   ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

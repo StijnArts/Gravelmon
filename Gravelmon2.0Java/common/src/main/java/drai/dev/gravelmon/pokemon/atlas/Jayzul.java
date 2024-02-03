@@ -15,14 +15,16 @@ public class Jayzul extends drai.dev.gravelmon.pokemon.Pokemon {
                         33,
                         72),
                 List.of(Ability.EARLY_BIRD,Ability.BIG_PECKS,Ability.UNBURDEN), Ability.UNBURDEN,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 53, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Jayzul's song is very beautiful, so they are loved by many Trainers. They make their nests in trees along paths and pick up crumbs left behind by wandering adventurers."),
-                List.of(),
+                List.of(new EvolutionEntry("jayzure", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.LEER,3),
@@ -69,14 +71,15 @@ public class Jayzul extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 4, 22, 8.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Jayzul");
+        setCanFly(true);
 
     }
 

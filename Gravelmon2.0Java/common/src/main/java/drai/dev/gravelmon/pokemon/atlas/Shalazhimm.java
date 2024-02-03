@@ -15,7 +15,7 @@ public class Shalazhimm extends drai.dev.gravelmon.pokemon.Pokemon {
                         82,
                         40),
                 List.of(Ability.MAGICIAN), Ability.SUPER_LUCK,
-                8, 165,
+                21, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 220, ExperienceGroup.MEDIUM_SLOW,
@@ -24,7 +24,20 @@ public class Shalazhimm extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Shalazhimm are typically seen at any places emanating magic, as it feeds off of it. They're also typically found terrorizing magic shows, as they're upset by false acts of magician-ry."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.TWINBLADE,1),
+                        new MoveLearnSetEntry(Move.SWORDS_DANCE,1),
+                        new MoveLearnSetEntry(Move.TELEPORT,1),
+                        new MoveLearnSetEntry(Move.SHARPEN,1),
+                        new MoveLearnSetEntry(Move.SLASH,1),
+                        new MoveLearnSetEntry(Move.ROLE_PLAY,1),
+                        new MoveLearnSetEntry(Move.IMPRISON,1),
+                        new MoveLearnSetEntry(Move.NIGHT_SLASH,1),
+                        new MoveLearnSetEntry(Move.PSYCHO_CUT,1),
+                        new MoveLearnSetEntry(Move.WONDER_ROOM,1),
+                        new MoveLearnSetEntry(Move.MAGIC_ROOM,1),
+                        new MoveLearnSetEntry(Move.ENTRAINMENT,1),
+                        new MoveLearnSetEntry(Move.ALLY_SWITCH,1),
+                        new MoveLearnSetEntry(Move.TWIN_BLADE,1),
+                        new MoveLearnSetEntry(Move.JAB,1),
                         new MoveLearnSetEntry(Move.EXPLOSION,"tm"),
                         new MoveLearnSetEntry(Move.FALSE_SWIPE,"tm"),
                         new MoveLearnSetEntry(Move.FACADE,"tm"),
@@ -76,9 +89,10 @@ public class Shalazhimm extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SACRED_SWORD,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

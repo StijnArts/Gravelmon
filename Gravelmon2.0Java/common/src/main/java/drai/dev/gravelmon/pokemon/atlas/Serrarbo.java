@@ -15,7 +15,7 @@ public class Serrarbo extends drai.dev.gravelmon.pokemon.Pokemon {
                         76,
                         52),
                 List.of(Ability.CHLOROPHYLL), Ability.ROUGH_SKIN,
-                8, 165,
+                23, 165,
                 new Stats(1,0,1,0,0,0), 60,
                 0.875,
                 0, ExperienceGroup.ERRATIC,
@@ -69,9 +69,8 @@ public class Serrarbo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 56, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_JUNGLE, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

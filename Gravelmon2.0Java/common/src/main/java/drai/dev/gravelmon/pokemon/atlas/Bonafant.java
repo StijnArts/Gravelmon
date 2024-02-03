@@ -15,7 +15,7 @@ public class Bonafant extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         56),
                 List.of(Ability.PICKUP,Ability.SUPER_LUCK,Ability.UNAWARE), Ability.UNAWARE,
-                8, 165,
+                10, 165,
                 new Stats(1,2,0,0,0,0), 220,
                 0.5,
                 77, ExperienceGroup.MEDIUM_SLOW,
@@ -24,6 +24,11 @@ public class Bonafant extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("The bell at the tip of its tail makes an eerie, primal sound that aids focus. Because of this, they are kept in places of peace and meditation."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.CONFUSION,1),
+                        new MoveLearnSetEntry(Move.MEDITATE,1),
+                        new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
+                        new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
                         new MoveLearnSetEntry(Move.FOCUS_PUNCH,1),
                         new MoveLearnSetEntry(Move.CONFUSION,8),
                         new MoveLearnSetEntry(Move.KARATE_CHOP,14),
@@ -95,8 +100,8 @@ public class Bonafant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENCORE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 32, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

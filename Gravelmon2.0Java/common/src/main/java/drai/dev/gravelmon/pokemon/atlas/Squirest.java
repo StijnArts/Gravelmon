@@ -15,14 +15,16 @@ public class Squirest extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         52),
                 List.of(Ability.LEVITATE,Ability.CURSED_BODY,Ability.JUSTIFIED), Ability.JUSTIFIED,
-                8, 165,
+                7, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 1.0,
                 58, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.HUMAN_LIKE),
                 List.of("Squirest are believed to be the ghosts of young squires who never made it to the battlefield to fight, so they are constantly picking fights to improve themselves. Though eager, most are not very strong."),
-                List.of(),
+                List.of(new EvolutionEntry("phantomail", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,4),
@@ -77,14 +79,15 @@ public class Squirest extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 27, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Squirest");
+        setCanFly(true);
 
     }
 

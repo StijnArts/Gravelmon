@@ -15,7 +15,7 @@ public class Nurturse extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         65),
                 List.of(Ability.NATURAL_CURE,Ability.TRIAGE,Ability.HEALER), Ability.HEALER,
-                8, 165,
+                10, 165,
                 new Stats(2,0,0,0,0,0), 55,
                 0.25,
                 0, ExperienceGroup.ERRATIC,
@@ -89,10 +89,10 @@ public class Nurturse extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENTRAINMENT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 27, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

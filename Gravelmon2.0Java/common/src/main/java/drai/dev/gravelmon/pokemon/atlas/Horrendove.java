@@ -15,7 +15,7 @@ public class Horrendove extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         92),
                 List.of(Ability.BIG_PECKS,Ability.GUTS,Ability.OVERCOAT), Ability.OVERCOAT,
-                8, 165,
+                10, 165,
                 new Stats(3,0,0,0,0,0), 45,
                 0.5,
                 219, ExperienceGroup.MEDIUM_FAST,
@@ -76,14 +76,15 @@ public class Horrendove extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 36, 53, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Horrendove");
+        setCanFly(true);
 
     }
 

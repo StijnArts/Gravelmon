@@ -15,7 +15,7 @@ public class Donguano extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         85),
                 List.of(Ability.IRON_FIST), Ability.SKILL_LINK,
-                8, 165,
+                18, 165,
                 new Stats(1,0,2,0,0,0), 45,
                 0.875,
                 185, ExperienceGroup.MEDIUM_SLOW,
@@ -84,8 +84,8 @@ public class Donguano extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 55, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

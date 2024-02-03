@@ -15,7 +15,7 @@ public class Suavenny extends drai.dev.gravelmon.pokemon.Pokemon {
                         102,
                         80),
                 List.of(Ability.PICKUP,Ability.CUTE_CHARM,Ability.TECHNICIAN), Ability.TECHNICIAN,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 0, ExperienceGroup.FAST,
@@ -86,10 +86,10 @@ public class Suavenny extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SYNCHRONOISE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 41, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_JUNGLE, Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -1,0 +1,134 @@
+{
+  "implemented": true,
+  "name": "edifierce",
+  "nationalPokedexNumber": 2831,
+  "primaryType": "dragon",
+  "secondaryType": "ground",
+  "abilities": [
+    "oblivious",
+    "h:pressure"
+  ],
+  "baseStats": {
+    "hp": 132,
+    "attack": 84,
+    "defence": 130,
+    "special_attack": 54,
+    "special_defence": 101,
+    "speed": 24
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 0,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral",
+    "dragon"
+  ],
+  "moves": [
+    "1:harden",
+    "9:protect",
+    "12:nobleroarsound",
+    "16:dragonrage",
+    "20:spikecannon",
+    "24:magnitude",
+    "27:block",
+    "31:irondefense",
+    "36:stompingtantrum",
+    "40:dragonclaw",
+    "45:roarsound",
+    "50:spikes",
+    "56:megahorn",
+    "tm:explosion",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:return",
+    "tm:roundsound",
+    "tm:brickbreak",
+    "tm:flamethrower",
+    "tm:shadowclaw",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:attract",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:sunnyday",
+    "tm:sandstorm",
+    "tm:stealthrock",
+    "tm:roarsound",
+    "tm:bulkup",
+    "tm:toxic",
+    "tm:bodypress",
+    "tm:rocktomb",
+    "tm:metalclaw",
+    "tm:crushclaw",
+    "tm:shadowclaw",
+    "tm:heavyslam",
+    "tm:hornattack",
+    "tm:smartstrike"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.edifierce.desc"
+  ],
+  "preEvolution": "visclaw",
+  "baseScale": 0.76875,
+  "hitbox": {
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 41,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

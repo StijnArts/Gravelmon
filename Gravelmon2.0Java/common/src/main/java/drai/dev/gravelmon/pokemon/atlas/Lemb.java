@@ -15,14 +15,16 @@ public class Lemb extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         38),
                 List.of(Ability.CHLOROPHYLL,Ability.GRASS_PELT,Ability.FRIEND_GUARD), Ability.FRIEND_GUARD,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Lemb are known for pointing their butts in the air as they feed on grassy meadows which also serves as a form of camouflage. When it is spring, they leap and bounce everywhere they go with joy."),
-                List.of(),
+                List.of(new EvolutionEntry("vegelamb", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.PLAY_NICE,4),
@@ -90,8 +92,8 @@ public class Lemb extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASS_WHISTLE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

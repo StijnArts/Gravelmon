@@ -15,7 +15,7 @@ public class Lightwin extends drai.dev.gravelmon.pokemon.Pokemon {
                         92,
                         98),
                 List.of(Ability.SOLAR_POWER), Ability.EARLY_BIRD,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,2,0), 35,
                 0.0,
                 163, ExperienceGroup.SLOW,
@@ -93,7 +93,7 @@ public class Lightwin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 31, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -101,6 +101,7 @@ public class Lightwin extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Lightwin");
+        setCanFly(true);
 
     }
 

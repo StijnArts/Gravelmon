@@ -15,7 +15,7 @@ public class Eletize extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         126),
                 List.of(Ability.MOTOR_DRIVE,Ability.STATIC,Ability.INFILTRATOR), Ability.INFILTRATOR,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,2), 127,
                 0.5,
                 173, ExperienceGroup.FAST,
@@ -81,10 +81,10 @@ public class Eletize extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_CLAW,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 44, 1.78, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_JUNGLE, Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

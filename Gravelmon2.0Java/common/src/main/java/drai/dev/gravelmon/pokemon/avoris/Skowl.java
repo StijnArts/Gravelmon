@@ -21,14 +21,17 @@ public class Skowl extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         45),
                 List.of(Ability.NOCTURNAL), Ability.INSOMNIA,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,1,0), 150,
                 0.5,
                 67, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Active during the night, groups of Skowl gather at spots where there is supernatural activity, especially on nights of the full moon when activity is peaked. An old tale says if Skowl are on top your roof during the nights of a full moon, those who reside in the house will be cursed with misfortunes."),
-                List.of(),
+                List.of(new EvolutionEntry("owlminous", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.ASTONISH,5),
@@ -54,14 +57,15 @@ public class Skowl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLUDGE_BOMB,"tm")                        ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 24, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Skowl");
+        setCanFly(true);
 
     }
 

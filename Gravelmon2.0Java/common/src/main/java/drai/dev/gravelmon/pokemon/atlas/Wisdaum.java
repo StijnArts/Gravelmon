@@ -15,7 +15,7 @@ public class Wisdaum extends drai.dev.gravelmon.pokemon.Pokemon {
                         88,
                         67),
                 List.of(Ability.WONDER_SKIN,Ability.SUPER_LUCK,Ability.UNAWARE), Ability.UNAWARE,
-                8, 165,
+                17, 165,
                 new Stats(1,2,0,0,0,0), 30,
                 0.5,
                 177, ExperienceGroup.MEDIUM_SLOW,
@@ -24,6 +24,11 @@ public class Wisdaum extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It lives in seclusion, defending its tail with its four large arms. It is said that the sound of its tail is the sound of enlightenment itself."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.CONFUSION,1),
+                        new MoveLearnSetEntry(Move.MEDITATE,1),
+                        new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
+                        new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
                         new MoveLearnSetEntry(Move.FOCUS_PUNCH,1),
                         new MoveLearnSetEntry(Move.CONFUSION,8),
                         new MoveLearnSetEntry(Move.KARATE_CHOP,14),
@@ -101,8 +106,8 @@ public class Wisdaum extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENCORE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 38, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

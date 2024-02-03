@@ -15,7 +15,7 @@ public class Pangai extends drai.dev.gravelmon.pokemon.Pokemon {
                         77,
                         95),
                 List.of(Ability.DANCER), Ability.HARVEST,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,0,0), 75,
                 0.5,
                 0, ExperienceGroup.SLOW,
@@ -75,8 +75,8 @@ public class Pangai extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 48, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

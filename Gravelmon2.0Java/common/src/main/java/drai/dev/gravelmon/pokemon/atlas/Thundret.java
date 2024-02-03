@@ -15,7 +15,7 @@ public class Thundret extends drai.dev.gravelmon.pokemon.Pokemon {
                         93,
                         63),
                 List.of(Ability.VOLT_ABSORB), Ability.IRON_BARBS,
-                8, 165,
+                9, 165,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -95,8 +95,8 @@ public class Thundret extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 43, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

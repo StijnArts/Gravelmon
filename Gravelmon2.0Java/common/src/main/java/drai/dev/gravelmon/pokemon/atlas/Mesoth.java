@@ -21,8 +21,10 @@ public class Mesoth extends drai.dev.gravelmon.pokemon.Pokemon {
                 72, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Scratch Normal - Growl Normal 6 Powder SnowSTAB Ice 9 Bide Normal 13 Rest Psychic 17 Ice ShardSTAB Ice 22 BulldozeSTAB Ground 26 Ancient Power Rock 30 Slash Normal 34 AvalancheSTAB Ice 38 Slack Off Normal 42 Icicle CrashSTAB Ice 46 EarthquakeSTAB Ground 51 Superpower Fighting 56 Stone Edge Rock 61 Sheer ColdSTAB Ice"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("megatherice", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,6),
@@ -85,8 +87,8 @@ public class Mesoth extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONE_RUSH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 33, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TUNDRA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

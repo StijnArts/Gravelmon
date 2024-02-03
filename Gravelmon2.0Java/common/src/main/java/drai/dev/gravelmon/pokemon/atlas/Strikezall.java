@@ -15,7 +15,7 @@ public class Strikezall extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         98),
                 List.of(Ability.PICKUP,Ability.BALL_FETCH,Ability.BULLETPROOF), Ability.BULLETPROOF,
-                8, 165,
+                13, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 1.0,
                 180, ExperienceGroup.MEDIUM_SLOW,
@@ -84,11 +84,11 @@ public class Strikezall extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORM_THROW,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 47, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Strikezall");

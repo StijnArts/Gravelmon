@@ -15,14 +15,16 @@ public class Junkid extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         12),
                 List.of(Ability.WEAK_ARMOR,Ability.HEATPROOF,Ability.HEAVY_METAL), Ability.HEAVY_METAL,
-                8, 165,
+                11, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.0,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Comprised of pieces of junk screwed together and given life, Junkid are typically timid until approached gingerly. They love to bed fed small pieces of discarded garbage."),
-                List.of(),
+                List.of(new EvolutionEntry("tankyard", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BIND,1),
                         new MoveLearnSetEntry(Move.METAL_SOUND,8),
@@ -88,9 +90,8 @@ public class Junkid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 44, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

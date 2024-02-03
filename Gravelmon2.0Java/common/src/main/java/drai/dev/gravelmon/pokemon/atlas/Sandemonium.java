@@ -15,7 +15,7 @@ public class Sandemonium extends drai.dev.gravelmon.pokemon.Pokemon {
                         89,
                         41),
                 List.of(Ability.ROUGH_SKIN,Ability.DEFIANT,Ability.SAND_FORCE), Ability.SAND_FORCE,
-                8, 165,
+                28, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 241, ExperienceGroup.MEDIUM_FAST,
@@ -92,8 +92,8 @@ public class Sandemonium extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MAGNITUDE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 39, 56, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,14 +15,16 @@ public class Logrodile extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         73),
                 List.of(Ability.SWIFT_SWIM,Ability.ANALYTIC,Ability.STRONG_JAW), Ability.STRONG_JAW,
-                8, 165,
+                9, 165,
                 new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 134, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.MONSTER),
                 List.of("Logrodile floats, masquerading logs in the murky waters of swamps. When prey approaches, it bites them viciously with strong jaws that can tear through rocks and mulch bones."),
-                List.of(),
+                List.of(new EvolutionEntry("jawligator", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.RAGE,6),
@@ -98,14 +100,15 @@ public class Logrodile extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 28, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Logrodile");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

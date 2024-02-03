@@ -15,14 +15,16 @@ public class Barrose extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         25),
                 List.of(Ability.THICK_FAT,Ability.STORM_DRAIN,Ability.SUNSCREEN), Ability.SUNSCREEN,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 235,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Barrose live in dry regions, with little water, thus, when the rain does fall, they store as much as they can in their thick trunks. The flower atop its head has a spicy fragrance."),
-                List.of(),
+                List.of(new EvolutionEntry("baobloat", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.ABSORB,5),
@@ -77,8 +79,8 @@ public class Barrose extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_SPORT,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 33, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

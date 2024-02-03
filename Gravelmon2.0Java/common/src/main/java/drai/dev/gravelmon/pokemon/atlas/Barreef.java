@@ -15,7 +15,7 @@ public class Barreef extends drai.dev.gravelmon.pokemon.Pokemon {
                         66,
                         34),
                 List.of(Ability.MOLD_BREAKER,Ability.STURDY,Ability.STORM_DRAIN), Ability.STORM_DRAIN,
-                8, 165,
+                22, 165,
                 new Stats(0,1,2,0,0,0), 25,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
@@ -84,14 +84,16 @@ public class Barreef extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 36, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Barreef");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

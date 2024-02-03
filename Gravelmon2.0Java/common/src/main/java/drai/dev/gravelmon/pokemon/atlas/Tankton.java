@@ -15,7 +15,7 @@ public class Tankton extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         64),
                 List.of(Ability.ILLUMINATE,Ability.SWIFT_SWIM,Ability.MARVEL_SCALE), Ability.MARVEL_SCALE,
-                8, 165,
+                18, 165,
                 new Stats(0,2,0,0,0,0), 180,
                 0.5,
                 132, ExperienceGroup.MEDIUM_FAST,
@@ -79,14 +79,16 @@ public class Tankton extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 25, 39, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Tankton");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

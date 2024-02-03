@@ -15,14 +15,16 @@ public class Toxitube extends drai.dev.gravelmon.pokemon.Pokemon {
                         47,
                         20),
                 List.of(Ability.WHITE_SMOKE), Ability.ACIDCLOUD,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,0), 255,
                 0.0,
                 57, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Toxitube hide in discarded pipes to shield their fragile bodies. They blow out smoke constantly to intimidate predators. Even if it doesn't work, the gas is extremely toxic and will finish off any attacker."),
-                List.of(),
+                List.of(new EvolutionEntry("gassaster", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SLUDGE_BOMB.getName()+"\"")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
                         new MoveLearnSetEntry(Move.SMOG,3),
@@ -88,9 +90,8 @@ public class Toxitube extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

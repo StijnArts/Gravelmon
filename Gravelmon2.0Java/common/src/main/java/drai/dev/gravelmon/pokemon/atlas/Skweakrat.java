@@ -15,14 +15,15 @@ public class Skweakrat extends drai.dev.gravelmon.pokemon.Pokemon {
                         32,
                         88),
                 List.of(Ability.HUSTLE,Ability.RUN_AWAY,Ability.MAGIC_BOUNCE), Ability.MAGIC_BOUNCE,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,2), 127,
                 0.5,
                 125, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Skweakrat have incredibly springy bodies, allowing them to jump to incredible heights. They'll use this to their advantage when looking for food or escaping prey."),
-                List.of(),
+                List.of(new EvolutionEntry("elastikrat", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,7),
@@ -96,8 +97,8 @@ public class Skweakrat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECYCLE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 34, 2.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

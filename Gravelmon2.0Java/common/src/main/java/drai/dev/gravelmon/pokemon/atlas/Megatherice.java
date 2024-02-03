@@ -15,7 +15,7 @@ public class Megatherice extends drai.dev.gravelmon.pokemon.Pokemon {
                         83,
                         66),
                 List.of(Ability.SOUNDPROOF), Ability.TOUGH_CLAWS,
-                8, 165,
+                30, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 182, ExperienceGroup.MEDIUM_SLOW,
@@ -92,8 +92,8 @@ public class Megatherice extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONE_RUSH,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 55, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TUNDRA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Reparine extends drai.dev.gravelmon.pokemon.Pokemon {
                         56,
                         89),
                 List.of(Ability.ROCK_HEAD), Ability.ROUGH_SKIN,
-                8, 165,
+                12, 165,
                 new Stats(0,1,1,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -70,14 +70,15 @@ public class Reparine extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 48, 58, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND, Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Reparine");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

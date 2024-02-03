@@ -15,7 +15,7 @@ public class Flamingant extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         80),
                 List.of(Ability.FLASH_FIRE,Ability.OWN_TEMPO,Ability.DANCER), Ability.DANCER,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 174, ExperienceGroup.MEDIUM_SLOW,
@@ -100,14 +100,14 @@ public class Flamingant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REVELATION_DANCE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 47, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Flamingant");
+        setCanFly(true);
 
     }
 

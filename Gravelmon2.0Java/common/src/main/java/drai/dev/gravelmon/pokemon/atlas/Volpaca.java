@@ -15,14 +15,15 @@ public class Volpaca extends drai.dev.gravelmon.pokemon.Pokemon {
                         86,
                         64),
                 List.of(Ability.FLAME_BODY), Ability.FLUFFY,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.875,
                 145, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("- Tackle Normal 4 Tail Whip Normal 9 Cotton Spore Grass 11 EmberSTAB Fire 15 Stomp Normal 18 Safeguard Normal 22 Flame WheelSTAB Fire 27 Body Slam Normal 34 Flame Wool Fire 40 Lava PlumeSTAB Fire 45 Cotton Guard Grass 49 Double-Edge Normal 56 Heal Bell Normal 61 Fire BlastSTAB Fire"),
-                List.of(),
+                List.of(new EvolutionEntry("sheruption", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,4),
@@ -79,10 +80,10 @@ public class Volpaca extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 20, 38, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

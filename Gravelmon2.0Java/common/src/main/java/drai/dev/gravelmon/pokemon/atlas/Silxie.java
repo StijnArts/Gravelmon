@@ -15,7 +15,7 @@ public class Silxie extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         67),
                 List.of(Ability.SHIELD_DUST,Ability.SHED_SKIN,Ability.MULTISCALE), Ability.MULTISCALE,
-                8, 165,
+                7, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.5,
                 202, ExperienceGroup.MEDIUM_FAST,
@@ -80,14 +80,15 @@ public class Silxie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STICKY_WEB,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 38, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Silxie");
+        setCanFly(true);
 
     }
 

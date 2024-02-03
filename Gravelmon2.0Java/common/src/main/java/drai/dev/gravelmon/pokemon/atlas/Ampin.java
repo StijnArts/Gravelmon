@@ -17,14 +17,16 @@ public class Ampin extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         50),
                 List.of(Ability.STATIC,Ability.LIGHTNING_ROD,Ability.RUN_AWAY), Ability.RUN_AWAY,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,0), 195,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Ampin are often stepped on accidentally, due to their bodies blending in with the ground most of the time. If they're stepped on, they emit a small zap to scare off the threat."),
-                List.of(),
+                List.of(new EvolutionEntry("sharquake", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.BOLTIN,"tm"),
@@ -66,8 +68,8 @@ public class Ampin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 27, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

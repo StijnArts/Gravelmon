@@ -15,7 +15,7 @@ public class Nuttone extends drai.dev.gravelmon.pokemon.Pokemon {
                         73,
                         48),
                 List.of(Ability.CHEEK_POUCH,Ability.PICKUP,Ability.SAP_SIPPER), Ability.SAP_SIPPER,
-                8, 165,
+                15, 165,
                 new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 152, ExperienceGroup.FAST,
@@ -93,8 +93,8 @@ public class Nuttone extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLINGPRESS,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 32, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

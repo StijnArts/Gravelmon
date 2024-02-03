@@ -1,0 +1,146 @@
+{
+  "implemented": true,
+  "name": "nyglare",
+  "nationalPokedexNumber": 2628,
+  "primaryType": "bug",
+  "secondaryType": "electric",
+  "abilities": [
+    "compoundeyes",
+    "swarm",
+    "h:solarpower"
+  ],
+  "baseStats": {
+    "hp": 53,
+    "attack": 60,
+    "defence": 55,
+    "special_attack": 98,
+    "special_defence": 44,
+    "speed": 106
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 132,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:flash",
+    "7:detect",
+    "11:thundershock",
+    "14:doubleteam",
+    "19:sonicboomsound",
+    "23:shockwave",
+    "25:aircutter",
+    "29:uturn",
+    "33:agility",
+    "37:signalbeam",
+    "41:electroball",
+    "46:lightscreen",
+    "50:discharge",
+    "55:bugbuzzsound",
+    "59:thunderbolt",
+    "63:zapcannon",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:chargebeam",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:electricterrain",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:flashcannon",
+    "tm:fly",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roost",
+    "tm:roundsound",
+    "tm:shadowball",
+    "tm:signalbeam",
+    "tm:sleeptalksound",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:steelwing",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:xscissor",
+    "tm:ancientpower"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.nyglare.desc"
+  ],
+  "preEvolution": "nyglow",
+  "baseScale": 0.3375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

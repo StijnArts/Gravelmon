@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "crocodily-1",
+      "pokemon": "crocodily",
+      "presets": [
+          "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "6-27",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

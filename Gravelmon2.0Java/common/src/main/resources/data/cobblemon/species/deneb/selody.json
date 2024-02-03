@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "selody",
-  "nationalPokedexNumber": 2139,
+  "nationalPokedexNumber": 2373,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -129,21 +129,6 @@
     "cobblemon.species.selody.desc"
   ],
   "preEvolution": "sealkie",
-  "evolutions": [
-    {
-      "id": "selody_selody",
-      "variant": "level_up",
-      "result": "selody",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 35
-        }
-      ]   
- }
-  ],
   "baseScale": 0.15,
   "hitbox": {
     "width": 3.0,

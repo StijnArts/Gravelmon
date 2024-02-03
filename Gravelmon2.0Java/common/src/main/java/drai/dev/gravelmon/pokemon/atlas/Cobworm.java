@@ -15,14 +15,16 @@ public class Cobworm extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         55),
                 List.of(Ability.SHED_SKIN,Ability.SHIELD_DUST,Ability.SHELL_ARMOR), Ability.SHELL_ARMOR,
-                8, 165,
+                6, 165,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 126, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("When Hoppiler gets caught in a web, it evolves into a form with a hard outer shell to protect itself. Cobworm uses the net as a thick shield against attacking Pokemon."),
-                List.of(),
+                List.of(new EvolutionEntry("hoppereign", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,15),
@@ -55,8 +57,8 @@ public class Cobworm extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PESTER,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED,SpawnPool.COMMON, 15, 29, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

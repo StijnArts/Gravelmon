@@ -15,14 +15,16 @@ public class Revolpod extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         40),
                 List.of(Ability.BATTLE_ARMOR,Ability.MOXIE,Ability.ANGER_POINT), Ability.ANGER_POINT,
-                8, 165,
+                10, 165,
                 new Stats(0,1,1,0,0,0), 120,
                 0.5,
                 133, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Inside Revolpod's shell its body is changing. They can rotate at high speeds, and with sufficient torque, they can shatter stone like glass."),
-                List.of(),
+                List.of(new EvolutionEntry("gigadozer", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,1),
                         new MoveLearnSetEntry(Move.LEER,5),
@@ -70,8 +72,8 @@ public class Revolpod extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 37, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

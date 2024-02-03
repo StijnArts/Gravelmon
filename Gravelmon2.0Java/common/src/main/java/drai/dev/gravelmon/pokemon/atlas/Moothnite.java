@@ -15,7 +15,7 @@ public class Moothnite extends drai.dev.gravelmon.pokemon.Pokemon {
                         92,
                         80),
                 List.of(Ability.COMPOUND_EYES,Ability.NOCTURNAL,Ability.WONDER_SKIN), Ability.WONDER_SKIN,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,1,2,0), 45,
                 0.5,
                 202, ExperienceGroup.MEDIUM_SLOW,
@@ -98,14 +98,16 @@ public class Moothnite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 33, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Moothnite");
+        setCanFly(true);
 
     }
 

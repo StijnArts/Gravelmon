@@ -15,14 +15,16 @@ public class Spartzle extends drai.dev.gravelmon.pokemon.Pokemon {
                         38,
                         71),
                 List.of(Ability.MOTOR_DRIVE,Ability.RUN_AWAY,Ability.INFILTRATOR), Ability.INFILTRATOR,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 59, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Spartzle rub their tails against each other to charge. Its fur generally becomes very static and can be dangerous to handle."),
-                List.of(),
+                List.of(new EvolutionEntry("eletize", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.NUZZLE,6),
@@ -87,10 +89,10 @@ public class Spartzle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_JUNGLE, Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

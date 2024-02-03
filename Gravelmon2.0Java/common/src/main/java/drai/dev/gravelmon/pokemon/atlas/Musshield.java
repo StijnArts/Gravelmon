@@ -15,14 +15,16 @@ public class Musshield extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         15),
                 List.of(Ability.SHELL_ARMOR,Ability.SUCTION_CUPS,Ability.BULLETPROOF), Ability.BULLETPROOF,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 130,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("Musshield are incredibly weak. They are one of the most commonly fished Pokémon, as they cover large portions of the sea floor."),
-                List.of(),
+                List.of(new EvolutionEntry("anenemy", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.POISON_STING,6),
@@ -74,14 +76,16 @@ public class Musshield extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PAYBACK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Musshield");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

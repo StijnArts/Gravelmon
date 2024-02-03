@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:elescent",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:avoris_elescent",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/avoris/elescent.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/avoris/elescent_shiny.png"
+    }  ]
+}

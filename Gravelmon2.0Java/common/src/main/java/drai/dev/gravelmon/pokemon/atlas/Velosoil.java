@@ -15,14 +15,16 @@ public class Velosoil extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         35),
                 List.of(Ability.ROCK_HEAD,Ability.STURDY,Ability.SHEER_FORCE), Ability.SHEER_FORCE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,0), 105,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Eating minerals from rock formations is part of their healthy diet. It can chew a tunnel all the way through earth's mantle due to it's tough, heat-resistant skin. The eggs they hatch from are hard like rocks."),
-                List.of(),
+                List.of(new EvolutionEntry("rapterra", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,5),
@@ -39,8 +41,8 @@ public class Velosoil extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GIGA_IMPACT,61)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 9, 29, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

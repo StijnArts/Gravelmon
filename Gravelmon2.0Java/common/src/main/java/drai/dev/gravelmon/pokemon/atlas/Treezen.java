@@ -15,7 +15,7 @@ public class Treezen extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         67),
                 List.of(Ability.INTIMIDATE,Ability.SNOW_WARNING,Ability.PERMAFROST), Ability.PERMAFROST,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,0,2,0), 135,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
@@ -81,8 +81,8 @@ public class Treezen extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 27, 47, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

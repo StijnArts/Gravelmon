@@ -15,14 +15,16 @@ public class Ganpaow extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         65),
                 List.of(Ability.AFTERMATH,Ability.FLARE_BOOST,Ability.FLASH_FIRE), Ability.FLASH_FIRE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 154, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.AMORPHOUS),
                 List.of("Evolution gives Ganpaow an explosive personality. The draconic energy that was dormant bursts open its old shell, but it is still unable to manifest completely."),
-                List.of(),
+                List.of(new EvolutionEntry("yanpaow", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"60")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SMOG,4),
@@ -92,9 +94,10 @@ public class Ganpaow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 57, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -15,7 +15,7 @@ public class Edifierce extends drai.dev.gravelmon.pokemon.Pokemon {
                         101,
                         24),
                 List.of(Ability.OBLIVIOUS), Ability.PRESSURE,
-                8, 165,
+                41, 165,
                 new Stats(1,0,1,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.SLOW,
@@ -80,8 +80,8 @@ public class Edifierce extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMART_STRIKE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 39, 53, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -17,15 +17,21 @@ public class Aurorelk extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         110),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,1,0,1), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- Rainbow RushSTAB Fairy - Rainbow GustSTAB Fairy - Aurora BeamSTAB Ice - MoonblastSTAB Fairy - Ice BeamSTAB Ice - Moonlight Fairy - Wish Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.RAINBOW_RUSH,1),
+                        new MoveLearnSetEntry(Move.RAINBOW_GUST,1),
+                        new MoveLearnSetEntry(Move.AURORA_BEAM,1),
+                        new MoveLearnSetEntry(Move.MOONBLAST,1),
+                        new MoveLearnSetEntry(Move.ICE_BEAM,1),
+                        new MoveLearnSetEntry(Move.MOONLIGHT,1),
                         new MoveLearnSetEntry(Move.WISH,1),
                         new MoveLearnSetEntry(Move.FACADE,"tm"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"tm"),
@@ -59,9 +65,10 @@ public class Aurorelk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 22, 47, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

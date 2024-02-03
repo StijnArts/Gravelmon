@@ -15,7 +15,7 @@ public class Polyzap extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         50),
                 List.of(Ability.DAMP), Ability.REELIN,
-                8, 165,
+                17, 165,
                 new Stats(0,0,1,1,0,0), 45,
                 0.5,
                 167, ExperienceGroup.MEDIUM_SLOW,
@@ -80,14 +80,16 @@ public class Polyzap extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOAK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 30, 52, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Polyzap");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -21,14 +21,16 @@ public class Springily extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         30),
                 List.of(Ability.LEAF_GUARD,Ability.RAIN_DISH,Ability.HYDRATION), Ability.HYDRATION,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,1,0), 220,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
                 List.of("Floating at the water's surface, they absorb sunlight for energy. The leaf on top senses changes in the weather. During the spring season, large groups of them can be found in ponds or lakes."),
-                List.of(),
+                List.of(new EvolutionEntry("Faelily", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,5),
@@ -45,14 +47,16 @@ public class Springily extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,46)                        ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Springily");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

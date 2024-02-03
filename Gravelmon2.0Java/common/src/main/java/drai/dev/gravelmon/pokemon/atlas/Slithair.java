@@ -15,7 +15,7 @@ public class Slithair extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         110),
                 List.of(Ability.NIGHTSTALKER,Ability.SHED_SKIN,Ability.CLOUD_NINE), Ability.CLOUD_NINE,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 153, ExperienceGroup.MEDIUM_SLOW,
@@ -99,9 +99,10 @@ public class Slithair extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CORROSIVEBITE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_SANDY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

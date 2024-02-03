@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "torpeed",
-  "nationalPokedexNumber": 2310,
+  "nationalPokedexNumber": 2544,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -114,9 +114,9 @@
   "preEvolution": "caimar",
   "evolutions": [
     {
-      "id": "torpeed_damasaor",
+      "id": "torpeed_Damasoar",
       "variant": "level_up",
-      "result": "damasaor",
+      "result": "Damasoar",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

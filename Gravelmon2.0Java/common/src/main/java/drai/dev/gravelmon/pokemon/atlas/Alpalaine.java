@@ -21,7 +21,7 @@ public class Alpalaine extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         40),
                 List.of(Ability.FUR_COAT), Ability.SAP_SIPPER,
-                8, 165,
+                17, 165,
                 new Stats(2,0,0,0,0,0), 225,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
@@ -90,8 +90,8 @@ public class Alpalaine extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DOUBLE_KICK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_HILLS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

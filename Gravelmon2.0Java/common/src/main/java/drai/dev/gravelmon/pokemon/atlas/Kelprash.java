@@ -15,7 +15,7 @@ public class Kelprash extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         75),
                 List.of(Ability.WATER_ABSORB,Ability.DAMP,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                21, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 234, ExperienceGroup.MEDIUM_SLOW,
@@ -94,14 +94,15 @@ public class Kelprash extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 41, 52, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Kelprash");
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
 
     }
 

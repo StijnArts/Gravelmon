@@ -15,7 +15,7 @@ public class Carosella extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         105),
                 List.of(Ability.LIMBER,Ability.CUTE_CHARM,Ability.SCRAPPY), Ability.SCRAPPY,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,1,0,1), 75,
                 0.0,
                 168, ExperienceGroup.MEDIUM_FAST,
@@ -92,8 +92,8 @@ public class Carosella extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 41, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

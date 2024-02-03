@@ -17,7 +17,7 @@ public class Anenemy extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         30),
                 List.of(Ability.SHELL_ARMOR,Ability.SUCTION_CUPS,Ability.BULLETPROOF), Ability.BULLETPROOF,
-                8, 165,
+                10, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 142, ExperienceGroup.MEDIUM_FAST,
@@ -93,14 +93,16 @@ public class Anenemy extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PAYBACK,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 19, 34, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Anenemy");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

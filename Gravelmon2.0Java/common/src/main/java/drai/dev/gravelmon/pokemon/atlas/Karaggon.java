@@ -15,14 +15,16 @@ public class Karaggon extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         54),
                 List.of(Ability.RIVALRY,Ability.BATTLE_ARMOR,Ability.STURDY), Ability.STURDY,
-                8, 165,
+                10, 165,
                 new Stats(0,1,1,0,0,0), 60,
                 0.667,
                 151, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("With its powerful limbs it's developed upon evolving, it launches itself like a cannon ball at its foes. Very little can get past their sturdy shells."),
-                List.of(),
+                List.of(new EvolutionEntry("akrovern", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FALSE_SWIPE,"tm"),
                         new MoveLearnSetEntry(Move.FACADE,"tm"),
@@ -63,8 +65,8 @@ public class Karaggon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

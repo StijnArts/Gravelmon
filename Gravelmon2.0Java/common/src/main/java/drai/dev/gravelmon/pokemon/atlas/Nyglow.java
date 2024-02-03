@@ -15,14 +15,17 @@ public class Nyglow extends drai.dev.gravelmon.pokemon.Pokemon {
                         20,
                         82),
                 List.of(Ability.COMPOUND_EYES,Ability.SWARM,Ability.SOLAR_POWER), Ability.SOLAR_POWER,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("During moonless nights, groups of Nyglow gather around lakes, gracefully flying in pairs to create majestic light displays."),
-                List.of(),
+                List.of(new EvolutionEntry("nyglare", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FLASH,1),
                         new MoveLearnSetEntry(Move.DETECT,6),
@@ -81,14 +84,14 @@ public class Nyglow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 4, 25, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nyglow");
+        setCanFly(true);
 
     }
 

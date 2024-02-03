@@ -21,7 +21,7 @@ public class Akrovern extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         70),
                 List.of(Ability.RIVALRY,Ability.BATTLE_ARMOR,Ability.STURDY), Ability.STURDY,
-                8, 165,
+                28, 165,
                 new Stats(0,2,1,0,0,0), 30,
                 0.667,
                 243, ExperienceGroup.SLOW,
@@ -76,8 +76,8 @@ public class Akrovern extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 50, 65, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
