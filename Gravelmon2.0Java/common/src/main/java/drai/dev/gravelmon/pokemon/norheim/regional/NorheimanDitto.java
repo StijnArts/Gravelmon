@@ -18,7 +18,7 @@ public class NorheimanDitto extends drai.dev.gravelmon.pokemon.Pokemon {
                         28),
                 List.of(Ability.IMPOSTER,Ability.ICE_BODY,Ability.CLEAR_BODY), Ability.CLEAR_BODY,
                 3, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

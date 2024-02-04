@@ -15,7 +15,7 @@ public class Quivirus extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         108),
                 List.of(Ability.STATIC,Ability.TANGLED_FEET,Ability.ILLWILL), Ability.ILLWILL,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 165, ExperienceGroup.MEDIUM_SLOW,
@@ -123,11 +123,11 @@ public class Quivirus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 48, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WINTER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Quivirus");

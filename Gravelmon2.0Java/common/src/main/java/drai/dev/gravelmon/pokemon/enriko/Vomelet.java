@@ -15,8 +15,8 @@ public class Vomelet extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         55),
                 List.of(Ability.POISON_POINT,Ability.GOOEY,Ability.TOUGH_CLAWS), Ability.TOUGH_CLAWS,
-                8, 165,
-                new Stats(0,0,2,0,0,0), 0,
+                18, 165,
+                new Stats(0,0,2,0,0,0), 90,
                 1.0,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -37,11 +37,11 @@ public class Vomelet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_WRECKER,66)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 46, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Vomelet");

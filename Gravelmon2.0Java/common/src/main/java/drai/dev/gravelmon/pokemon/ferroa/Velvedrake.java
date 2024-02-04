@@ -15,7 +15,7 @@ public class Velvedrake extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         95),
                 List.of(Ability.SNIPER,Ability.SECRETINSIGHT,Ability.REFRIGERATE), Ability.REFRIGERATE,
-                8, 165,
+                19, 165,
                 new Stats(1,0,0,2,0,0), 45,
                 0.5,
                 243, ExperienceGroup.SLOW,
@@ -108,8 +108,8 @@ public class Velvedrake extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WEBSLAM,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 55, 67, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

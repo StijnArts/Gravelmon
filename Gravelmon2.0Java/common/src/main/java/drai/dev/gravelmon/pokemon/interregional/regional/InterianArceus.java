@@ -16,7 +16,7 @@ public class InterianArceus extends drai.dev.gravelmon.pokemon.Pokemon {
                         140),
                 List.of(Ability.HOLY_GUARD), Ability.HOLY_GUARD,
                 28, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 1,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

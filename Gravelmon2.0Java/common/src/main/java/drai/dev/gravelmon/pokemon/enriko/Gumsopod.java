@@ -15,14 +15,16 @@ public class Gumsopod extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         25),
                 List.of(Ability.GOOEY), Ability.AROMA_VEIL,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Its shell is made of 38 different layers of sugar. If swallowed, a Gumsopod can survive in the stomach for up to 7 years."),
-                List.of(),
+                List.of(new EvolutionEntry("whelasse", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.SWEET_SCENT,5),
@@ -39,8 +41,8 @@ public class Gumsopod extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AMNESIA,60)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

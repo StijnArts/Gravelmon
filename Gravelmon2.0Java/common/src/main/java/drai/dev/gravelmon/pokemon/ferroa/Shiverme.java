@@ -15,7 +15,7 @@ public class Shiverme extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         75),
                 List.of(Ability.NO_GUARD), Ability.STEELWORKER,
-                8, 165,
+                17, 165,
                 new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 175, ExperienceGroup.SLOW,
@@ -138,11 +138,11 @@ public class Shiverme extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Shiverme");

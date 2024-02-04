@@ -15,14 +15,15 @@ public class Fountusk extends drai.dev.gravelmon.pokemon.Pokemon {
                         69,
                         45),
                 List.of(Ability.WATER_VEIL,Ability.STURDY,Ability.STEADFAST), Ability.STEADFAST,
-                8, 165,
+                18, 165,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 144, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon has a helpful disposition that makes it a trusted ally of people. Often, they are tasked to rescue trapped people and Pokemon by using their flexible trunks for safe retrieval."),
-                List.of(),
+                List.of(new EvolutionEntry("eledrant", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.UPROAR,1),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
@@ -76,11 +77,11 @@ public class Fountusk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 43, 2.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fountusk");

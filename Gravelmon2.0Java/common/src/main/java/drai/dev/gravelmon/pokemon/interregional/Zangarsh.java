@@ -16,7 +16,7 @@ public class Zangarsh extends drai.dev.gravelmon.pokemon.Pokemon {
                         102),
                 List.of(Ability.POISON_HEAL), Ability.TOXIC_BOOST,
                 17, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

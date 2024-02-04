@@ -15,7 +15,7 @@ public class Florascent extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         10),
                 List.of(Ability.ILLUMINATE), Ability.ARENA_TRAP,
-                8, 165,
+                12, 165,
                 new Stats(0,2,0,0,0,0), 70,
                 0.5,
                 140, ExperienceGroup.ERRATIC,
@@ -37,9 +37,10 @@ public class Florascent extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,60)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 47, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

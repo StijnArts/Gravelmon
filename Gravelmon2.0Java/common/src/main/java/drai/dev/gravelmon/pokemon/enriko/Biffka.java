@@ -36,7 +36,7 @@ public class Biffka extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULK_UP,45),
                         new MoveLearnSetEntry(Move.BARRIER,54),
                         new MoveLearnSetEntry(Move.GIGA_IMPACT,63)                        ),
-                List.of(Label.ENRIKO),
+                List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

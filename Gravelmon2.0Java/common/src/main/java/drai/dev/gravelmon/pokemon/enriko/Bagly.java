@@ -15,14 +15,16 @@ public class Bagly extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         35),
                 List.of(Ability.INFILTRATOR,Ability.HARVEST,Ability.THICK_FAT), Ability.THICK_FAT,
-                8, 165,
+                4, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.75,
                 64, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It's face is supposedly so ugly it keeps itself hidden under a paper bag. It can commonly be seen around Poke Marts, scouring the dumpsters."),
-                List.of(),
+                List.of(new EvolutionEntry("haggage", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FAKE_TEARS,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,5),
@@ -34,11 +36,11 @@ public class Bagly extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLAM,25)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bagly");

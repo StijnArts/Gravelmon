@@ -15,7 +15,7 @@ public class Schwincer extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         120),
                 List.of(Ability.PICKUP), Ability.CONTRARY,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,0), 160,
                 0.5,
                 90, ExperienceGroup.FLUCTUATING,
@@ -39,8 +39,8 @@ public class Schwincer extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FINAL_GAMBIT,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

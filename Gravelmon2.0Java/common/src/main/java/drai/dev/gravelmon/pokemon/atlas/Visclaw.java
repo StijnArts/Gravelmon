@@ -16,7 +16,7 @@ public class Visclaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         5),
                 List.of(Ability.OBLIVIOUS), Ability.STALL,
                 8, 165,
-                new Stats(0,0,1,0,0,0), 0,
+                new Stats(0,0,1,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

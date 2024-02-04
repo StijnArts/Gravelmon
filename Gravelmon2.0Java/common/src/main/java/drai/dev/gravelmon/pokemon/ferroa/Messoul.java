@@ -15,14 +15,15 @@ public class Messoul extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         35),
                 List.of(Ability.POISON_TOUCH,Ability.CLEAR_BODY,Ability.FILTER), Ability.FILTER,
-                8, 165,
+                11, 165,
                 new Stats(1,0,0,0,0,0), 100,
                 0.5,
                 64, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It came from a meteor that passed through a cloud of smog. Very large ones can be found near major cities and highways, gorging on the exhaust fumes of cars."),
-                List.of(),
+                List.of(new EvolutionEntry("wastenaut", EvolutionType.TRADE, List.of(),
+                        List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SMOG,7),
@@ -71,9 +72,9 @@ public class Messoul extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDSLIDE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

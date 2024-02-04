@@ -15,7 +15,7 @@ public class Wanupp extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         150),
                 List.of(Ability.POISON_TOUCH,Ability.CORROSION,Ability.PRANKSTER), Ability.PRANKSTER,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,1), 180,
                 0.5,
                 120, ExperienceGroup.SLOW,
@@ -39,8 +39,8 @@ public class Wanupp extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISSURE,52)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 12, 39, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

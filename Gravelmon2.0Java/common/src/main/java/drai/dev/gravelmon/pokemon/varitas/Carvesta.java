@@ -18,7 +18,7 @@ public class Carvesta extends drai.dev.gravelmon.pokemon.Pokemon {
                         60),
                 List.of(Ability.SHELL_ARMOR,Ability.HYDRATION,Ability.POISON_TOUCH), Ability.POISON_TOUCH,
                 11, 165,
-                new Stats(0,1,0,0,0,0), 0,
+                new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -15,7 +15,7 @@ public class Wastenaut extends drai.dev.gravelmon.pokemon.Pokemon {
                         115,
                         45),
                 List.of(Ability.OVERCOAT,Ability.CLEAR_BODY,Ability.FILTER), Ability.FILTER,
-                8, 165,
+                18, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 175, ExperienceGroup.SLOW,
@@ -113,9 +113,9 @@ public class Wastenaut extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDSLIDE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 55, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

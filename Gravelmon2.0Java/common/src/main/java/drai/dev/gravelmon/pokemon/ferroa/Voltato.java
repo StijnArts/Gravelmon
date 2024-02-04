@@ -15,14 +15,16 @@ public class Voltato extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         31),
                 List.of(Ability.LEVITATE), Ability.BATTERY,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 220,
                 0.5,
                 68, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It communicates with other Voltato with gentle electric vibrations. If you feel the ground periodically shivering under you, it may be this Pokémon at work."),
-                List.of(),
+                List.of(new EvolutionEntry("levitato", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.STUN_SPORE,6),
@@ -113,11 +115,11 @@ public class Voltato extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTROCUTE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Voltato");

@@ -15,14 +15,17 @@ public class Clambat extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         20),
                 List.of(Ability.SHELL_ARMOR,Ability.HYDRATION,Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 170,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("Its long tongue is pure, densely packed muscle. It punches holes in the tidepool rocks to build its home inside of."),
-                List.of(),
+                List.of(new EvolutionEntry("mussuplex", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:water_stone")
+
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),
                         new MoveLearnSetEntry(Move.POUND,5),
@@ -43,14 +46,16 @@ public class Clambat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHELL_SMASH,65)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_REEF))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Clambat");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

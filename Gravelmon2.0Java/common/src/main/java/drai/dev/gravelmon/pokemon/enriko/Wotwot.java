@@ -21,14 +21,17 @@ public class Wotwot extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         75),
                 List.of(Ability.GUTS,Ability.NO_GUARD,Ability.MOLD_BREAKER), Ability.MOLD_BREAKER,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 165,
+                new Stats(0,0,0,0,0,0), 170,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.MONSTER),
                 List.of("Wotwot will do the bidding of whatever they look up to, no matter how dark or unsafe the job is. For this reason, they're often stereotyped as 'evil' Pokemon."),
-                List.of(),
+                List.of(new EvolutionEntry("dunnoboss", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SNARL,5),
@@ -45,11 +48,12 @@ public class Wotwot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GLARE,56)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 5.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Wotwot");

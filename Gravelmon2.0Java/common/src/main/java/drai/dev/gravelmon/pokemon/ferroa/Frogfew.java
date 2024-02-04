@@ -21,14 +21,15 @@ public class Frogfew extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         50),
                 List.of(Ability.STICKY_HOLD,Ability.HYDRATION), Ability.ADHESIVE,
-                8, 165,
+                12, 165,
                 new Stats(0,1,0,0,0,0), 225,
                 0.5,
                 68, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.WATER_2),
                 List.of("Frogfew lays flat on the ground in swampy riverbanks, covered in mud and leaf litter except for its sweet-smelling lure. Its sticky body is sometimes stepped upon by unwary creatures too big to be prey, and so it ends up tracked along and somewhat irritated by the whole experience."),
-                List.of(),
+                List.of(new EvolutionEntry("sundangler", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEET_SCENT,1),
                         new MoveLearnSetEntry(Move.ENDURE,8),
@@ -65,11 +66,11 @@ public class Frogfew extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_GLIDE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Frogfew");

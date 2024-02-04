@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:velvedrake",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ferroa_velvedrake",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ferroa/velvedrake.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/velvedrake_shiny.png"
+    }  ]
+}

@@ -15,7 +15,7 @@ public class Lumbrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         40),
                 List.of(Ability.DRY_SKIN,Ability.DUALSKIN,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,2,0), 90,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -109,8 +109,8 @@ public class Lumbrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DUAL_CHOP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 45, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

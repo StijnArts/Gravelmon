@@ -15,14 +15,17 @@ public class Celestar extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         80),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,1), 80,
                 0.0,
                 70, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokémon drifts through the upper atmosphere in large groups. It is made of a dense material not common on Earth."),
-                List.of(),
+                List.of(new EvolutionEntry("celestroid", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LIGHTUP,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,5),
@@ -104,7 +107,7 @@ public class Celestar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AGILITY,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -112,6 +115,7 @@ public class Celestar extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Celestar");
+        setCanFly(true);
 
     }
 

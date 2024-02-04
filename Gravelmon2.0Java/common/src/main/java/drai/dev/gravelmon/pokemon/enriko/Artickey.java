@@ -15,7 +15,7 @@ public class Artickey extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         20),
                 List.of(Ability.STURDY,Ability.SERENE_GRACE,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,0), 150,
                 0.5,
                 120, ExperienceGroup.SLOW,
@@ -41,11 +41,11 @@ public class Artickey extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,54)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 54, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Artickey");

@@ -15,14 +15,16 @@ public class Cacold extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         40),
                 List.of(Ability.STALWART,Ability.DAMP,Ability.ICE_BODY), Ability.ICE_BODY,
-                8, 165,
+                6, 165,
                 new Stats(2,0,0,0,0,0), 180,
                 0.5,
                 140, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It hides in a cocoon made of snow and tree bark. When the seasons change and it becomes warmer outside, it thaws and evolves."),
-                List.of(),
+                List.of(new EvolutionEntry("scaralanche", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPRING.getId() + ":" + Biome.IS_SPRING.getName() +"\"")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,"tm"),
                         new MoveLearnSetEntry(Move.COVET,"tm"),
@@ -44,8 +46,8 @@ public class Cacold extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STEAMROLLER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

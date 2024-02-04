@@ -15,14 +15,15 @@ public class Velveil extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         40),
                 List.of(Ability.FOREWARN,Ability.INNER_FOCUS,Ability.PRESSURE), Ability.PRESSURE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Groups of Velveil form in circles under the light of the full moon and stare up at the moon overhead. It is impossible to distract them during their ritual."),
-                List.of(),
+                List.of(new EvolutionEntry("lunartic", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:moon_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SING,3),
@@ -40,8 +41,9 @@ public class Velveil extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,55)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,8 +15,8 @@ public class PorytlegZ extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         100),
                 List.of(Ability.INFESTEDDRIVE,Ability.SIMPLE,Ability.DOWNLOAD), Ability.DOWNLOAD,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 165,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -36,11 +36,11 @@ public class PorytlegZ extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.IRON_HEAD,48)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 55, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Porytleg-Z");

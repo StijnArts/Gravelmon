@@ -15,7 +15,7 @@ public class Techknot extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         70),
                 List.of(Ability.INFESTEDDRIVE,Ability.SOUNDPROOF,Ability.DOWNLOAD), Ability.DOWNLOAD,
-                8, 165,
+                12, 165,
                 new Stats(0,1,1,0,0,0), 45,
                 0.0,
                 173, ExperienceGroup.MEDIUM_SLOW,
@@ -103,11 +103,11 @@ public class Techknot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 52, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Techknot");

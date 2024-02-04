@@ -15,7 +15,7 @@ public class Boilunk extends drai.dev.gravelmon.pokemon.Pokemon {
                         140,
                         35),
                 List.of(Ability.IGNITION,Ability.WHITE_SMOKE,Ability.STEAM_ENGINE), Ability.STEAM_ENGINE,
-                8, 165,
+                16, 165,
                 new Stats(0,0,1,0,1,0), 45,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -86,8 +86,8 @@ public class Boilunk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_SLIDE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 36, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_THERMAL, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

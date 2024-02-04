@@ -15,14 +15,16 @@ public class Hooptie extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         90),
                 List.of(Ability.STEAM_ENGINE,Ability.SPEED_BOOST,Ability.CORROSION), Ability.CORROSION,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Legends say that Hooptie are born from car crash wreckage, but in reality they just congregate in junkyards. They love to drink oil."),
-                List.of(),
+                List.of(new EvolutionEntry("wreckyard", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.SMOG,4),
@@ -42,11 +44,10 @@ public class Hooptie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_CRASH,65)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 33, 2, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hooptie");

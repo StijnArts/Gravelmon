@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:denkyu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ferroa_denkyu",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ferroa/denkyu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/denkyu_shiny.png"
+    }  ]
+}

@@ -16,7 +16,7 @@ public class Steank extends drai.dev.gravelmon.pokemon.Pokemon {
                         50),
                 List.of(Ability.UNAWARE,Ability.LIQUID_OOZE,Ability.SCRAPPY), Ability.SCRAPPY,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,
@@ -39,7 +39,7 @@ public class Steank extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,43),
                         new MoveLearnSetEntry(Move.BELCH,46),
                         new MoveLearnSetEntry(Move.GASTRO_ACID,50)                        ),
-                List.of(Label.ENRIKO),
+                List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

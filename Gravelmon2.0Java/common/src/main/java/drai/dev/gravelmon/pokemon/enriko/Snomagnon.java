@@ -16,13 +16,15 @@ public class Snomagnon extends drai.dev.gravelmon.pokemon.Pokemon {
                         50),
                 List.of(Ability.TINTED_LENS), Ability.NO_GUARD,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Snomagnon are living fossils, as they managed to survive several extinction events by freezing themselves. Sometimes they are accidentally released from glaciers."),
-                List.of(),
+                List.of(new EvolutionEntry("cromountain", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.ENDURE,1),
                         new MoveLearnSetEntry(Move.MACH_PUNCH,7),
@@ -41,9 +43,9 @@ public class Snomagnon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,56)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 37, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

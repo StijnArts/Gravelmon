@@ -23,7 +23,24 @@ public class Probee extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG),
                 List.of("Each individual Probee is nearly identical. They have weak telepathic abilities, mostly used to communicate with eachother."),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.CONFUSION,1),
+                        new MoveLearnSetEntry(Move.LIGHT_SCREEN,1),
+                        new MoveLearnSetEntry(Move.REFLECT,1),
+                        new MoveLearnSetEntry(Move.STRUGGLE_BUG,1),
+                        new MoveLearnSetEntry(Move.CONFUSE_RAY,4),
+                        new MoveLearnSetEntry(Move.MAGIC_COAT,8),
+                        new MoveLearnSetEntry(Move.AGILITY,12),
+                        new MoveLearnSetEntry(Move.PSYBEAM,16),
+                        new MoveLearnSetEntry(Move.HYPNOSIS,20),
+                        new MoveLearnSetEntry(Move.ALLY_SWITCH,24),
+                        new MoveLearnSetEntry(Move.BUG_BUZZ,28),
+                        new MoveLearnSetEntry(Move.MIRROR_COAT,32),
+                        new MoveLearnSetEntry(Move.PSYCHIC,36),
+                        new MoveLearnSetEntry(Move.AFTER_YOU,40),
+                        new MoveLearnSetEntry(Move.CALM_MIND,44),
+                        new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,48)
+                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

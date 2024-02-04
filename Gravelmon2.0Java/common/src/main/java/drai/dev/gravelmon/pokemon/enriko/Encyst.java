@@ -15,14 +15,16 @@ public class Encyst extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         60),
                 List.of(Ability.UNNERVE,Ability.LEVITATE,Ability.POWERLEECH), Ability.POWERLEECH,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,0), 200,
                 0.5,
                 78, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.BUG),
                 List.of("It can't survive long without a host, so seeing one in the wild is rare. Their eggs are laid under the skin of Probee and goomyroast."),
-                List.of(),
+                List.of(new EvolutionEntry("decapasite", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.ABSORB,4),
@@ -41,14 +43,15 @@ public class Encyst extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DESTINY_BOND,56)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Encyst");
+        setCanFly(true);
 
     }
 

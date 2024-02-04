@@ -15,14 +15,16 @@ public class Soponge extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         35),
                 List.of(Ability.WATER_ABSORB,Ability.DRY_SKIN,Ability.WATER_VEIL), Ability.WATER_VEIL,
-                8, 165,
+                9, 165,
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Its porous body can swell to four times its original size by taking in water. It can violently expel this stored water from the tubes on its head."),
-                List.of(),
+                List.of(new EvolutionEntry("bubbaluffa", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.BUBBLE,9),
@@ -104,14 +106,16 @@ public class Soponge extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_RING,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 6, 27, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Soponge");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

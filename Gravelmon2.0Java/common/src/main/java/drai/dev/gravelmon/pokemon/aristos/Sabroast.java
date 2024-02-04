@@ -18,7 +18,7 @@ public class Sabroast extends drai.dev.gravelmon.pokemon.Pokemon {
                         70),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 33, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 15,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

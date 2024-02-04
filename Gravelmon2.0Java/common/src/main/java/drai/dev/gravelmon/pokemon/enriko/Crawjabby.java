@@ -15,14 +15,16 @@ public class Crawjabby extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         60),
                 List.of(Ability.ANTICIPATION,Ability.FOREWARN,Ability.IRON_FIST), Ability.IRON_FIST,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.8,
                 84, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.BUG),
                 List.of("Crawjabby are aquatic Pokémon that take pride in their fists. They live in solitude, engaging other Crawjabby in violent boxing matches."),
-                List.of(),
+                List.of(new EvolutionEntry("crawjabby", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.MACH_PUNCH,5),
@@ -39,8 +41,8 @@ public class Crawjabby extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOCUS_PUNCH,90)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

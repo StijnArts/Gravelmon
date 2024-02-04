@@ -15,7 +15,7 @@ public class Broogah extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         70),
                 List.of(Ability.GUTS,Ability.BATTLE_ARMOR,Ability.ROUGHHOUSER), Ability.ROUGHHOUSER,
-                8, 165,
+                15, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.875,
                 180, ExperienceGroup.SLOW,
@@ -124,9 +124,9 @@ public class Broogah extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLAM,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

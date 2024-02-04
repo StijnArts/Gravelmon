@@ -15,7 +15,7 @@ public class Batellite extends drai.dev.gravelmon.pokemon.Pokemon {
                         130,
                         100),
                 List.of(Ability.SOLAR_POWER,Ability.CLOUD_NINE,Ability.CONTRARY), Ability.CONTRARY,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,1,1), 80,
                 0.5,
                 186, ExperienceGroup.MEDIUM_FAST,
@@ -93,7 +93,7 @@ public class Batellite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 55, 4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
@@ -101,6 +101,7 @@ public class Batellite extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
            setLangFileName("Batellite");
+        setCanFly(true);
 
     }
 

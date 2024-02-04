@@ -15,7 +15,7 @@ public class Charcool extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         60),
                 List.of(Ability.HEATPROOF,Ability.FLARE_BOOST,Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                12, 165,
                 new Stats(0,1,0,0,1,0), 80,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -104,9 +104,8 @@ public class Charcool extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENCORE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 55, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

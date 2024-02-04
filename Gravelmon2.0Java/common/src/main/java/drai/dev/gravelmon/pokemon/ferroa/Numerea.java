@@ -15,7 +15,7 @@ public class Numerea extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         60),
                 List.of(Ability.CLONALCOPY), Ability.CLONALCOPY,
-                8, 165,
+                1, 165,
                 new Stats(0,0,0,0,0,1), 120,
                 0.5,
                 50, ExperienceGroup.ERRATIC,
@@ -111,14 +111,14 @@ public class Numerea extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EERIE_IMPULSE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 1, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Numerea");
+        setCanFly(true);
 
     }
 

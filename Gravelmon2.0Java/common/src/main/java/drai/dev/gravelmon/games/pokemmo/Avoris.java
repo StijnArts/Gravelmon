@@ -32,8 +32,8 @@ public class Avoris extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Echomori()); NOT FINISHED
 //        pokemon.add(new Sipsap()); NOT FINISHED
 //        pokemon.add(new Ransap()); NOT FINISHED
-        pokemon.add(new Berricutie());
-        pokemon.add(new Frutanista());
+//        pokemon.add(new Berricutie()); NOT FINISHED
+//        pokemon.add(new Frutanista()); NOT FINISHED
 //        pokemon.add(new Grabbit()); NOT FINISHED
 //        pokemon.add(new Frobber()); NOT FINISHED
 //        pokemon.add(new Attraknid()); NOT FINISHED

@@ -18,7 +18,7 @@ public class NorheimanShellder extends drai.dev.gravelmon.pokemon.Pokemon {
                         20),
                 List.of(Ability.SHELL_ARMOR,Ability.STEELWORKER,Ability.OVERCOAT), Ability.OVERCOAT,
                 4, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

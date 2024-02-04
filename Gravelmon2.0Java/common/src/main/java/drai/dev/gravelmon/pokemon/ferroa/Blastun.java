@@ -15,14 +15,16 @@ public class Blastun extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         50),
                 List.of(Ability.BOMBARDIER,Ability.FLASH_FIRE,Ability.AFTERMATH), Ability.AFTERMATH,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 57, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("By igniting the gases in its body, it can jet through the air like a missile. A hard headbutt from this Pokémon can easily dent steel."),
-                List.of(),
+                List.of(new EvolutionEntry("bugbardier", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,5),
@@ -92,8 +94,8 @@ public class Blastun extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLAME_BURST,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

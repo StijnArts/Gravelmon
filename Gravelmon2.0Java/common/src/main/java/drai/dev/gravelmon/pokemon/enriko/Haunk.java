@@ -15,14 +15,17 @@ public class Haunk extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         75),
                 List.of(Ability.UNNERVE), Ability.PRANKSTER,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 200,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Haunk live off of emotions, positive or negative. Some prefer to entertain, while others thrive off of scaring people."),
-                List.of(),
+                List.of(new EvolutionEntry("apocalypso", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")
+
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BLOCK,1),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,4),
@@ -36,9 +39,10 @@ public class Haunk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MOONBLAST,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

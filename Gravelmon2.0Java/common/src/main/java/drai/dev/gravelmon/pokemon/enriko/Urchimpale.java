@@ -15,8 +15,8 @@ public class Urchimpale extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         45),
                 List.of(Ability.POISON_POINT,Ability.ROUGH_SKIN,Ability.SHELL_ARMOR), Ability.SHELL_ARMOR,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 165,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 156, ExperienceGroup.ERRATIC,
                 70,
@@ -39,14 +39,16 @@ public class Urchimpale extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GYRO_BALL,52)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 25, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_REEF))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Urchimpale");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

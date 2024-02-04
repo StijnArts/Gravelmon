@@ -15,7 +15,7 @@ public class Torplitz extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         90),
                 List.of(Ability.STATIC,Ability.UNAWARE,Ability.SUNSCREEN), Ability.SUNSCREEN,
-                8, 165,
+                16, 165,
                 new Stats(2,0,0,0,0,0), 85,
                 0.5,
                 163, ExperienceGroup.MEDIUM_SLOW,
@@ -109,14 +109,16 @@ public class Torplitz extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHOCK_WAVE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 27, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Torplitz");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

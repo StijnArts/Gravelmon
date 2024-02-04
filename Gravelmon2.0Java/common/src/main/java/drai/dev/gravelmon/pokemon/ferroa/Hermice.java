@@ -15,14 +15,16 @@ public class Hermice extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         55),
                 List.of(Ability.SNOW_WARNING,Ability.SHELL_ARMOR,Ability.ICE_BODY), Ability.ICE_BODY,
-                8, 165,
+                9, 165,
                 new Stats(0,0,1,0,0,0), 200,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_3),
                 List.of("Water vapor in the air around it condenses and freezes into its shell of ice. It must shed this ice daily or risk its whole body fatally freezing over."),
-                List.of(),
+                List.of(new EvolutionEntry("hermafrost", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.ICY_WIND,5),
@@ -60,14 +62,15 @@ public class Hermice extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 37, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Hermice");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

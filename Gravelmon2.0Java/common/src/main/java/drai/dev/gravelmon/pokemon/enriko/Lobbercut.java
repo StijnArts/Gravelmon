@@ -15,7 +15,7 @@ public class Lobbercut extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         80),
                 List.of(Ability.ANTICIPATION,Ability.FOREWARN,Ability.IRON_FIST), Ability.IRON_FIST,
-                8, 165,
+                14, 165,
                 new Stats(0,2,0,0,0,0), 50,
                 0.8,
                 180, ExperienceGroup.MEDIUM_SLOW,
@@ -39,8 +39,8 @@ public class Lobbercut extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOCUS_PUNCH,90)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 42, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

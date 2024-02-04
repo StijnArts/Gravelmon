@@ -15,8 +15,8 @@ public class Whelasse extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         45),
                 List.of(Ability.GOOEY), Ability.AROMA_VEIL,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 165,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -40,8 +40,8 @@ public class Whelasse extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AMNESIA,60)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 57, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

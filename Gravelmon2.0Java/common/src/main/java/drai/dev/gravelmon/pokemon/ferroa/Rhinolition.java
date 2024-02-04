@@ -15,7 +15,7 @@ public class Rhinolition extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         118),
                 List.of(Ability.SAND_RUSH,Ability.OBLIVIOUS,Ability.TRAMPLE), Ability.TRAMPLE,
-                8, 165,
+                17, 165,
                 new Stats(0,1,0,0,0,1), 45,
                 0.5,
                 172, ExperienceGroup.SLOW,
@@ -93,8 +93,8 @@ public class Rhinolition extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLASH_CANNON,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 53, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

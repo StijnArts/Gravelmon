@@ -15,14 +15,16 @@ public class Sprouton extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         40),
                 List.of(Ability.LEAF_GUARD), Ability.GRASSY_SURGE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 200,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MINERAL),
                 List.of("It thrives on soil rich in metal content, which it stores in its bulb. When it is ready to evolve, it drills deep underground and sprouts."),
-                List.of(),
+                List.of(new EvolutionEntry("utopion", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,1),
                         new MoveLearnSetEntry(Move.RAPID_SPIN,5),
@@ -78,11 +80,11 @@ public class Sprouton extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METAL_BURST,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 32, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sprouton");

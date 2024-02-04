@@ -15,7 +15,7 @@ public class Lunarach extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         90),
                 List.of(Ability.KEEN_EYE), Ability.ANALYTIC,
-                8, 165,
+                15, 165,
                 new Stats(0,1,0,1,0,0), 45,
                 0.5,
                 179, ExperienceGroup.MEDIUM_FAST,
@@ -100,9 +100,10 @@ public class Lunarach extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRANQUILIZE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

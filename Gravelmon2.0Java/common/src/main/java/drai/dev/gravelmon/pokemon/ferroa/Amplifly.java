@@ -15,7 +15,7 @@ public class Amplifly extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         130),
                 List.of(Ability.LEVITATE), Ability.SWARMINGSURGE,
-                8, 165,
+                14, 165,
                 new Stats(1,0,0,0,0,2), 45,
                 0.5,
                 230, ExperienceGroup.FAST,
@@ -91,14 +91,14 @@ public class Amplifly extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DARK_PULSE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Amplifly");
+        setCanFly(true);
 
     }
 

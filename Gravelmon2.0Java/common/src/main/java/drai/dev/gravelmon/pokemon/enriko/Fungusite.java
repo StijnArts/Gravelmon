@@ -15,14 +15,16 @@ public class Fungusite extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         50),
                 List.of(Ability.REGENERATOR), Ability.POISON_TOUCH,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                4, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
                 List.of("This Pokémon controls its host's every move. It uses its disguise to enter its host's habitat unnoticed and spread itself to other Pokémon."),
-                List.of(),
+                List.of(new EvolutionEntry("controll", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.ACID,4),
@@ -41,8 +43,8 @@ public class Fungusite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK_ROOM,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

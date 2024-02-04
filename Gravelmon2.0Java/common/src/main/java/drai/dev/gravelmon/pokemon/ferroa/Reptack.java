@@ -15,14 +15,16 @@ public class Reptack extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         64),
                 List.of(Ability.BLAZE), Ability.SAND_FORCE,
-                8, 165,
+                11, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Its tear ducts emit fire, and it can torch things with pinpoint accuracy as if shooting a ray of heat from its eyes, but it just as easily relies on its sharp claws to fight instead."),
-                List.of(),
+                List.of(new EvolutionEntry("calientrop", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.EMBER,8),
@@ -116,8 +118,9 @@ public class Reptack extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THORN_FALL,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

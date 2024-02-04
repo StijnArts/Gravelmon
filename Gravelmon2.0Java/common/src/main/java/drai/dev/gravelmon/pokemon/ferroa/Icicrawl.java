@@ -22,7 +22,9 @@ public class Icicrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.BUG),
                 List.of("A film of ice-cold slime coats its body. By spitting this slime from its mouth, it aids humans in factories to keep machinery from overheating."),
-                List.of(),
+                List.of(new EvolutionEntry("glacicrawl", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.ICE_SHARD,7),
@@ -63,8 +65,8 @@ public class Icicrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WEBSLAM,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 34, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

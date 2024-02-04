@@ -15,14 +15,16 @@ public class Anemeany extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         30),
                 List.of(Ability.RIVALRY,Ability.TIGHTGRIP,Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,1,0), 225,
                 0.5,
                 68, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("It gathers in swarms by the water's edge, attacking intruders by stretching out and flailing itself like a club. The colony pushes away boats that try to sail over their land."),
-                List.of(),
+                List.of(new EvolutionEntry("truculony", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.AQUASLAP,5),
@@ -64,14 +66,16 @@ public class Anemeany extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THRASH,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 6, 27, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Anemeany");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

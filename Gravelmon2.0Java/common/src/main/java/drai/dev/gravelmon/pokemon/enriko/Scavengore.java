@@ -15,19 +15,31 @@ public class Scavengore extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         50),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 165,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Actually a colony of multiple Maglut, with different specialized forms serving different roles for the colony. They'll disperse if threatened, but will come back together when the coast is clear."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("wrigormort", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))
+                ),
+                List.of(
+                        new MoveLearnSetEntry(Move.STRING_SHOT,1),
+                        new MoveLearnSetEntry(Move.BIND,5),
+                        new MoveLearnSetEntry(Move.BUG_BITE,8),
+                        new MoveLearnSetEntry(Move.HARDEN,11),
+                        new MoveLearnSetEntry(Move.ACID,15),
+                        new MoveLearnSetEntry(Move.RECYCLE,19),
+                        new MoveLearnSetEntry(Move.WAKEUP_SLAP,24),
+                        new MoveLearnSetEntry(Move.TOXIC_SPIKES,29),
+                        new MoveLearnSetEntry(Move.STEAMROLLER,35),
+                        new MoveLearnSetEntry(Move.WRING_OUT,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 44, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

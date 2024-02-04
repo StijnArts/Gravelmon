@@ -15,7 +15,7 @@ public class Durabarge extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         65),
                 List.of(Ability.SWARM,Ability.BATTLE_ARMOR,Ability.STAMINA), Ability.STAMINA,
-                8, 165,
+                12, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.5,
                 194, ExperienceGroup.FAST,
@@ -116,8 +116,8 @@ public class Durabarge extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRST_IMPRESSION,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 34, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

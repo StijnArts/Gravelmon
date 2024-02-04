@@ -15,7 +15,7 @@ public class Victorelic extends drai.dev.gravelmon.pokemon.Pokemon {
                         102,
                         70),
                 List.of(Ability.PICKUP,Ability.STEELY_SPIRIT,Ability.WONDER_SKIN), Ability.WONDER_SKIN,
-                8, 165,
+                17, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 179, ExperienceGroup.SLOW,
@@ -114,8 +114,9 @@ public class Victorelic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_TRICK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"false"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -22,7 +22,10 @@ public class Tadpunk extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("It will always follow the lead of the strongest fighter. It's flaky too, being quite likely to ditch a former ally if the tables start to turn."),
-                List.of(),
+                List.of(new EvolutionEntry("flatriarch", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.MUD_SPORT,4),
@@ -80,14 +83,15 @@ public class Tadpunk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THROAT_CHOP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Tadpunk");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

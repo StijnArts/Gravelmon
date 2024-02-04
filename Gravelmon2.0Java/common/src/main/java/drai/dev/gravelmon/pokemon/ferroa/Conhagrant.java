@@ -15,7 +15,7 @@ public class Conhagrant extends drai.dev.gravelmon.pokemon.Pokemon {
                         115,
                         70),
                 List.of(Ability.CORROSION,Ability.PYROTOXIN,Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 172, ExperienceGroup.MEDIUM_SLOW,
@@ -117,14 +117,16 @@ public class Conhagrant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDSLIDE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 38, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Conhagrant");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -15,14 +15,15 @@ public class Laharva extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         55),
                 List.of(Ability.MAGMA_ARMOR,Ability.ANTICIPATION,Ability.DROUGHT), Ability.DROUGHT,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 180,
                 0.5,
                 64, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
                 List.of("It swims in exposed pools of lava. Every day, it migrates to the edge of the shore to eat hardened volcano rocks."),
-                List.of(),
+                List.of(new EvolutionEntry("ignuana", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.BITE,9),
@@ -102,9 +103,8 @@ public class Laharva extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_CRIMSON))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

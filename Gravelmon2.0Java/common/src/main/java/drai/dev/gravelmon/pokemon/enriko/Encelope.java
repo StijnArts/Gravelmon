@@ -15,14 +15,15 @@ public class Encelope extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         60),
                 List.of(Ability.ANALYTIC), Ability.ADAPTABILITY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                9, 165,
+                new Stats(0,0,0,0,0,0), 170,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
                 List.of("They are said to have come from a meteor strike. Encelope attempt to cover the heads of unsuspecting prey to feed off of their thoughts."),
-                List.of(),
+                List.of(new EvolutionEntry("controlyu", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.AMNESIA.getName()+"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GRAVITY,1),
                         new MoveLearnSetEntry(Move.BIND,5),
@@ -41,9 +42,10 @@ public class Encelope extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SYNCHRONOISE,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 45, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

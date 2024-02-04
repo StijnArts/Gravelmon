@@ -18,7 +18,7 @@ public class Vespidron extends drai.dev.gravelmon.pokemon.Pokemon {
                         102),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 16, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.875,
                 0, ExperienceGroup.ERRATIC,
                 70,

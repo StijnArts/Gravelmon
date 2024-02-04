@@ -40,4 +40,8 @@ public class Stats {
     public int getSpeed() {
         return speed;
     }
+
+    public int getTotal() {
+        return  HP + attack + defense + specialAttack + specialDefense + speed;
+    }
 }

@@ -15,14 +15,16 @@ public class Eyesi extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         60),
                 List.of(Ability.NOCTURNAL), Ability.NOCTURNAL,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 200,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.DRAGON),
                 List.of("During the day, they blend in among the trees they nest in. At night, however, their big eyes open and they become active, hunting for prey with their unparalleled night vision."),
-                List.of(),
+                List.of(new EvolutionEntry("eyesaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.PECK,5),
@@ -137,9 +139,10 @@ public class Eyesi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_SPLIT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 36, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

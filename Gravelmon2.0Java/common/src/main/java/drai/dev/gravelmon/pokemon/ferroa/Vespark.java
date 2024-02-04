@@ -15,14 +15,16 @@ public class Vespark extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         65),
                 List.of(Ability.INFILTRATOR,Ability.DRONINGNOISE,Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,1), 180,
                 0.5,
                 57, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It's said to have the most excruciatingly painful sting of any Pokémon. Because of this, nothing will challenge it for territory, not even other Vespark."),
-                List.of(),
+                List.of(new EvolutionEntry("volthroe", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TRANQUILIZE,1),
                         new MoveLearnSetEntry(Move.BUG_BITE,"tm"),
@@ -43,14 +45,14 @@ public class Vespark extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHICNOISE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 26, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Vespark");
+        setCanFly(true);
 
     }
 

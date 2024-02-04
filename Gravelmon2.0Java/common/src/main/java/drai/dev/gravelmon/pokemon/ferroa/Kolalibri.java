@@ -15,7 +15,7 @@ public class Kolalibri extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         90),
                 List.of(Ability.COMPETITIVE,Ability.EARLY_BIRD,Ability.SAP_SIPPER), Ability.SAP_SIPPER,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,0,0,1), 80,
                 0.5,
                 151, ExperienceGroup.MEDIUM_SLOW,
@@ -103,14 +103,14 @@ public class Kolalibri extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Kolalibri");
+        setCanFly(true);
 
     }
 

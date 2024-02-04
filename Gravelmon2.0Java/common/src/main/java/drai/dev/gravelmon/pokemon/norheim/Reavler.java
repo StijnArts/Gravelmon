@@ -18,7 +18,7 @@ public class Reavler extends drai.dev.gravelmon.pokemon.Pokemon {
                         115),
                 List.of(Ability.JUMPIN,Ability.KEEN_EYE,Ability.PICKPOCKET), Ability.PICKPOCKET,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

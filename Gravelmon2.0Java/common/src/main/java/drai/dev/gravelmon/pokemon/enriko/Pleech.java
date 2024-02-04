@@ -7,7 +7,7 @@ import java.util.*;
 public class Pleech extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pleech() {
         super("Pleech",
-                Type.WATER,Type.FLYING,
+                Type.WATER,Type.POISON,
                 new Stats(30,
                         20,
                         50,
@@ -15,14 +15,16 @@ public class Pleech extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         40),
                 List.of(Ability.POISON_TOUCH,Ability.INFILTRATOR,Ability.POWERLEECH), Ability.POWERLEECH,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 64, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_1),
-                List.of("(water/hemo) Their sucker-shaped heads are flexible. Once it latches onto an artery or vein, it thrusts in and out, forcing blood to the surface like a plunger."),
-                List.of(),
+                List.of("Their sucker-shaped heads are flexible. Once it latches onto an artery or vein, it thrusts in and out, forcing blood to the surface like a plunger."),
+                List.of(new EvolutionEntry("denartery", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FLAIL,1),
                         new MoveLearnSetEntry(Move.BUG_BITE,4),
@@ -40,14 +42,15 @@ public class Pleech extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 8, 27, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Pleech");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

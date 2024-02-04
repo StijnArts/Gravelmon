@@ -15,14 +15,16 @@ public class Skite extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         80),
                 List.of(Ability.POISON_POINT,Ability.WONDER_SKIN,Ability.UNBURDEN), Ability.UNBURDEN,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,1), 180,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.WATER_2),
                 List.of("It floats in the wind, firmly anchored to the ground by the barbs on its tail. When in danger, it detaches itself and flutters away."),
-                List.of(),
+                List.of(new EvolutionEntry("despairay", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TRANQUILIZE,1),
                         new MoveLearnSetEntry(Move.AIR_SLASH,"tm"),
@@ -77,14 +79,15 @@ public class Skite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 37, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Skite");
+        setCanFly(true);
 
     }
 

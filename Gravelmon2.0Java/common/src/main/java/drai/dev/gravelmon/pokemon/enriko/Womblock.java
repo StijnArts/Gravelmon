@@ -15,8 +15,8 @@ public class Womblock extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         45),
                 List.of(Ability.STRONG_JAW,Ability.ROCK_HEAD,Ability.SAND_FORCE), Ability.SAND_FORCE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -39,8 +39,8 @@ public class Womblock extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAD_SMASH,65)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 42, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

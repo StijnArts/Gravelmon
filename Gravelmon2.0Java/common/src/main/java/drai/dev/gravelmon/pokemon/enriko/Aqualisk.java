@@ -15,14 +15,16 @@ public class Aqualisk extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         55),
                 List.of(Ability.TORRENT), Ability.MAGIC_BOUNCE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 80,
                 0.5,
                 64, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("Its paws are adhesive, which allow Aqualisk to climb both on walls and on the surface of water. It dives down when it is over a fish Pokemon to catch it."),
-                List.of(),
+                List.of(new EvolutionEntry("pearlizz", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.BUBBLE,6),
@@ -41,14 +43,15 @@ public class Aqualisk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRACO_METEOR,90)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Aqualisk");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

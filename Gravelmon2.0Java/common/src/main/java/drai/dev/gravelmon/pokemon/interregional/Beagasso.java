@@ -16,7 +16,7 @@ public class Beagasso extends drai.dev.gravelmon.pokemon.Pokemon {
                         105),
                 List.of(Ability.OWN_TEMPO,Ability.TECHNICIAN,Ability.MOODY), Ability.MOODY,
                 15, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -15,7 +15,7 @@ public class Cactank extends drai.dev.gravelmon.pokemon.Pokemon {
                         130,
                         35),
                 List.of(Ability.WATER_ABSORB,Ability.IRON_BARBS,Ability.WEAK_ARMOR), Ability.WEAK_ARMOR,
-                8, 165,
+                13, 165,
                 new Stats(0,0,1,0,1,0), 70,
                 0.5,
                 172, ExperienceGroup.ERRATIC,
@@ -109,8 +109,8 @@ public class Cactank extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LIQUIDATION,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 36, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

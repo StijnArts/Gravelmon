@@ -15,7 +15,7 @@ public class Skuzzly extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         64),
                 List.of(Ability.TANTRUM,Ability.RATTLED,Ability.TEARYEYED), Ability.TEARYEYED,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,2,0), 120,
                 0.5,
                 163, ExperienceGroup.MEDIUM_FAST,
@@ -78,9 +78,10 @@ public class Skuzzly extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 36, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -15,14 +15,16 @@ public class Elekrab extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         35),
                 List.of(Ability.POISON_TOUCH,Ability.SYNCHRONIZE,Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1),
-                List.of("It has two anemone Pokemon attached to its otherwise unimpressive claws. The anemones protect Elekrab with their paralyzing sting. (ability 1 - stinging cells. the pokemon's contact moves may paralyze)"),
-                List.of(),
+                List.of("It has two anemone Pokemon attached to its otherwise unimpressive claws. The anemones protect Elekrab with their paralyzing sting."),
+                List.of(new EvolutionEntry("krustinger", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,5),
@@ -41,14 +43,15 @@ public class Elekrab extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HAMMER_ARM,56)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 9, 27, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Elekrab");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

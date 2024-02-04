@@ -15,7 +15,7 @@ public class Craberrant extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         75),
                 List.of(Ability.HYPER_CUTTER,Ability.BULLETPROOF,Ability.FEROCIOUS), Ability.FEROCIOUS,
-                8, 165,
+                32, 165,
                 new Stats(0,1,1,0,0,0), 45,
                 0.5,
                 190, ExperienceGroup.MEDIUM_SLOW,
@@ -117,14 +117,16 @@ public class Craberrant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BREAKING_SWIPE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 23, 45, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Craberrant");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

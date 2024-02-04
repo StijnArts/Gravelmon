@@ -15,7 +15,7 @@ public class Squalucid extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         125),
                 List.of(Ability.TORRENT), Ability.COMATOSE,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,0,0,3), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -122,14 +122,16 @@ public class Squalucid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.MAXY,"10"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
-                List.of());
-           setLangFileName("Squalucid");
+                List.of());setCanBreathUnderwater(true);
+        setCanSwim(true);
+
 
     }
 

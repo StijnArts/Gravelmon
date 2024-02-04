@@ -15,14 +15,17 @@ public class Shardodon extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         40),
                 List.of(Ability.SAND_VEIL,Ability.SOLAR_POWER,Ability.FIREPROOF), Ability.FIREPROOF,
-                8, 165,
+                12, 165,
                 new Stats(0,1,0,0,0,0), 200,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.MINERAL),
                 List.of("As the crystal on its back grows taller, shards of it break off and are left behind. These pieces are often collected and sold as souvenirs, but they are razor-sharp."),
-                List.of(),
+                List.of(new EvolutionEntry("solardon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,4),
@@ -60,8 +63,9 @@ public class Shardodon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 27, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

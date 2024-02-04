@@ -15,7 +15,7 @@ public class Mandrazooka extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         60),
                 List.of(Ability.FLASH_FIRE,Ability.BULLETPROOF,Ability.LEAF_GUARD), Ability.LEAF_GUARD,
-                8, 165,
+                19, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 170, ExperienceGroup.MEDIUM_SLOW,
@@ -113,8 +113,8 @@ public class Mandrazooka extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRECRACKER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 48, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

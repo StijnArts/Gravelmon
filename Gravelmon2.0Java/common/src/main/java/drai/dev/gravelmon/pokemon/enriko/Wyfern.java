@@ -15,7 +15,7 @@ public class Wyfern extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         80),
                 List.of(Ability.GALE_WINGS), Ability.SERENE_GRACE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,0), 35,
                 0.5,
                 264, ExperienceGroup.SLOW,
@@ -39,8 +39,8 @@ public class Wyfern extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRACO_METEOR,65)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 55, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

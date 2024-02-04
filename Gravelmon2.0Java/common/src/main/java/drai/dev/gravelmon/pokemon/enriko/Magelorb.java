@@ -16,13 +16,14 @@ public class Magelorb extends drai.dev.gravelmon.pokemon.Pokemon {
                         30),
                 List.of(Ability.DAZZLING,Ability.DANCER,Ability.MULTISCALE), Ability.MULTISCALE,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Magelorb float in the sky, casting lights down below. They can be attracted to the ground by bright, flashing lights."),
-                List.of(),
+                List.of(new EvolutionEntry("discobrawl", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.FLASH_CANNON.getName()+"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TRICK_ROOM,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,5),
@@ -37,11 +38,12 @@ public class Magelorb extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,39)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 45, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Magelorb");

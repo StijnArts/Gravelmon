@@ -15,7 +15,7 @@ public class Feleye extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         95),
                 List.of(Ability.CUTE_CHARM,Ability.FRISK,Ability.UNNERVE), Ability.UNNERVE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
@@ -129,8 +129,8 @@ public class Feleye extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pteroast",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ferroa_pteroast",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ferroa/pteroast.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/pteroast_shiny.png"
+    }  ]
+}

@@ -15,7 +15,7 @@ public class Dessibello extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         45),
                 List.of(Ability.HYDRATION,Ability.SOUNDPROOF,Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
+                16, 165,
                 new Stats(2,0,0,0,0,0), 100,
                 0.5,
                 161, ExperienceGroup.SLOW,
@@ -112,11 +112,11 @@ public class Dessibello extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCH_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP, Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dessibello");

@@ -15,7 +15,7 @@ public class Hermafrost extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         55),
                 List.of(Ability.SNOW_WARNING,Ability.SHELL_ARMOR,Ability.PERMAFROST), Ability.PERMAFROST,
-                8, 165,
+                14, 165,
                 new Stats(0,0,2,0,0,0), 80,
                 0.5,
                 166, ExperienceGroup.SLOW,
@@ -105,14 +105,15 @@ public class Hermafrost extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Hermafrost");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

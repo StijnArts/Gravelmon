@@ -15,14 +15,16 @@ public class Sleetle extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         40),
                 List.of(Ability.STALWART,Ability.DAMP,Ability.ICE_BODY), Ability.ICE_BODY,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 200,
                 0.5,
                 55, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Sleetle spends all day rolling a ball of snow around. This snowball actually contains frozen food collected from its surroundings that it will use as rations to sustain its evolution."),
-                List.of(),
+                List.of(new EvolutionEntry("cacold", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,"tm"),
                         new MoveLearnSetEntry(Move.COVET,"tm"),
@@ -44,8 +46,8 @@ public class Sleetle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STEAMROLLER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,8 +15,8 @@ public class Lunartic extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         75),
                 List.of(Ability.UNNERVE,Ability.TOUGH_CLAWS,Ability.PIXILATE), Ability.PIXILATE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 165,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -35,8 +35,9 @@ public class Lunartic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FREEZING_GLARE,55)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 52, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

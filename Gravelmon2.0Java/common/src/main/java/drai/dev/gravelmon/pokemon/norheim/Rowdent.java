@@ -18,7 +18,7 @@ public class Rowdent extends drai.dev.gravelmon.pokemon.Pokemon {
                         45),
                 List.of(Ability.OUTBURST,Ability.GUTS,Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
                 9, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -15,14 +15,16 @@ public class Cykit extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         55),
                 List.of(Ability.CUTE_CHARM,Ability.FRISK,Ability.UNNERVE), Ability.UNNERVE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 200,
                 0.5,
                 55, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("People who look into its eye find themselves unable to resist doting on it. Some say it's really just because of its infectiously affectionate nature, however."),
-                List.of(),
+                List.of(new EvolutionEntry("feleye", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.FAKE_OUT,7),
@@ -122,8 +124,8 @@ public class Cykit extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

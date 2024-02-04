@@ -15,7 +15,7 @@ public class Electrocuke extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         80),
                 List.of(Ability.ELECTRIC_SURGE), Ability.STATIC,
-                8, 165,
+                12, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 160, ExperienceGroup.MEDIUM_SLOW,
@@ -24,7 +24,24 @@ public class Electrocuke extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It controls its electric field to form a raging thundercloud around itself. It is sometimes considered an emissary of the Forces of Nature."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.AIR_BUBBLE,1),
+                        new MoveLearnSetEntry(Move.CLOUD_CRASH,1),
+                        new MoveLearnSetEntry(Move.ELECTROCUTE,1),
+                        new MoveLearnSetEntry(Move.TWISTER,1),
+                        new MoveLearnSetEntry(Move.HURRICANE,1),
+                        new MoveLearnSetEntry(Move.SUPERCELL,1),
+                        new MoveLearnSetEntry(Move.ZING_ZAP,1),
+                        new MoveLearnSetEntry(Move.ION_DELUGE,1),
+                        new MoveLearnSetEntry(Move.CHARGE,1),
+                        new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,1),
+                        new MoveLearnSetEntry(Move.STORED_POWER,1),
+                        new MoveLearnSetEntry(Move.RECOVER,1),
+                        new MoveLearnSetEntry(Move.TEETER_DANCE,1),
+                        new MoveLearnSetEntry(Move.TAILWIND,1),
+                        new MoveLearnSetEntry(Move.LUCKY_CHANT,1),
+                        new MoveLearnSetEntry(Move.AIR_CUTTER,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
+
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.BIDE,"tm"),
                         new MoveLearnSetEntry(Move.BLIZZARD,"tm"),
@@ -72,14 +89,15 @@ public class Electrocuke extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Electrocuke");
+        setCanFly(true);
 
     }
 

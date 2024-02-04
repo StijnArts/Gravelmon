@@ -15,14 +15,16 @@ public class Burrliz extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         45),
                 List.of(Ability.BLAZE), Ability.SAND_FORCE,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.875,
                 28, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("When faced with danger, it prefers to stand its ground and fight no matter the odds, its spiny body making it hard for predators to safely attack."),
-                List.of(),
+                List.of(new EvolutionEntry("reptack", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.EMBER,8),
@@ -110,8 +112,9 @@ public class Burrliz extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THORN_FALL,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

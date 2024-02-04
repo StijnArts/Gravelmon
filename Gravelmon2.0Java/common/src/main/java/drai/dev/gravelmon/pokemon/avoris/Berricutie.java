@@ -22,7 +22,7 @@ public class Berricutie extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.CHLOROPHYLL,Ability.LEAF_GUARD,Ability.HARVEST), Ability.HARVEST,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

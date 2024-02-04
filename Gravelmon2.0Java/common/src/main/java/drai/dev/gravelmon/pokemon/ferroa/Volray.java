@@ -15,14 +15,16 @@ public class Volray extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         50),
                 List.of(Ability.STATIC,Ability.UNAWARE,Ability.SUNSCREEN), Ability.SUNSCREEN,
-                8, 165,
+                7, 165,
                 new Stats(1,0,0,0,0,0), 215,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Because it likes to hide under the sand, swimmers are warned to shuffle their feet in the water to avoid stepping on this Pokémon's electrified body."),
-                List.of(),
+                List.of(new EvolutionEntry("torplitz", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,5),
@@ -101,14 +103,16 @@ public class Volray extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHOCK_WAVE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Volray");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

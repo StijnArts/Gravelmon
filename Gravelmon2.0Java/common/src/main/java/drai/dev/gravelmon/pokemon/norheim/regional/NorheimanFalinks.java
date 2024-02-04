@@ -18,7 +18,7 @@ public class NorheimanFalinks extends drai.dev.gravelmon.pokemon.Pokemon {
                         75),
                 List.of(Ability.BATTLE_ARMOR), Ability.STEELY_SPIRIT,
                 12, 165,
-                new Stats(0,1,1,0,0,0), 0,
+                new Stats(0,1,1,0,0,0), 120,
                 0.0,
                 165, ExperienceGroup.MEDIUM_FAST,
                 70,

@@ -16,7 +16,7 @@ public class InterianGenesect extends drai.dev.gravelmon.pokemon.Pokemon {
                         100),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 15, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

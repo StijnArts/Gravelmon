@@ -15,7 +15,7 @@ public class Schnausage extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         115),
                 List.of(Ability.BALL_FETCH,Ability.TANGLED_FEET,Ability.SIMPLE), Ability.SIMPLE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,2), 80,
                 0.5,
                 163, ExperienceGroup.SLOW,
@@ -87,8 +87,8 @@ public class Schnausage extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.YAWN,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 52, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

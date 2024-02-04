@@ -22,14 +22,19 @@ public class Crystalis extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("When it evolves, Grubzero encases itself in its own ice and waits. It need not worry about predators, as no sane Pokémon would break open an ice block just to get such a small morsel."),
-                List.of(),
+                List.of(new EvolutionEntry("himilago", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                                new EvolutionEntry("bugsled", EvolutionType.LEVEL_UP, List.of(),
+                                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ICY_WIND,1),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,26)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 42, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

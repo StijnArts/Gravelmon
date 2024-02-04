@@ -15,7 +15,7 @@ public class Hayataga extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         115),
                 List.of(Ability.BATTERY,Ability.SPEED_BOOST,Ability.MAGIC_GUARD), Ability.MAGIC_GUARD,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,2), 125,
                 0.5,
                 151, ExperienceGroup.MEDIUM_FAST,
@@ -107,14 +107,14 @@ public class Hayataga extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENERGYLOOP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 33, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Hayataga");
+        setCanFly(true);
 
     }
 

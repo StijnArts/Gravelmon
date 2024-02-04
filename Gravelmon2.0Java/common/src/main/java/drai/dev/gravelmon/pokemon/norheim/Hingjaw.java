@@ -18,7 +18,7 @@ public class Hingjaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         40),
                 List.of(Ability.SHELL_ARMOR,Ability.STEELWORKER,Ability.OVERCOAT), Ability.OVERCOAT,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

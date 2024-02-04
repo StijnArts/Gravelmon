@@ -15,14 +15,16 @@ public class Sharby extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         70),
                 List.of(Ability.TORRENT), Ability.INSOMNIA,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,1), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("It's always on the move, so it rarely gets a chance to sleep. On the rare occasion it gets to take a nap, a strange aura emanates from it that pacifies everything around it too."),
-                List.of(),
+                List.of(new EvolutionEntry("lamnaw", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,7),
@@ -118,14 +120,14 @@ public class Sharby extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
-                List.of());
-           setLangFileName("Sharby");
+                List.of());setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

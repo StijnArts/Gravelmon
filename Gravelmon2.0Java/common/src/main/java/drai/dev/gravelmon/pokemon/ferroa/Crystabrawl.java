@@ -15,7 +15,7 @@ public class Crystabrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         80),
                 List.of(Ability.INNER_FOCUS,Ability.CLAIRVOYANCE,Ability.MAGNET_PULL), Ability.MAGNET_PULL,
-                8, 165,
+                16, 165,
                 new Stats(0,2,0,0,0,0), 90,
                 0.0,
                 175, ExperienceGroup.SLOW,
@@ -149,11 +149,11 @@ public class Crystabrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 54, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Crystabrawl");

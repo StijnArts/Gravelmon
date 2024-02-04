@@ -15,14 +15,16 @@ public class Helmhide extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         50),
                 List.of(Ability.SWARM,Ability.BATTLE_ARMOR,Ability.STAMINA), Ability.STAMINA,
-                8, 165,
+                5, 165,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 119, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Between evolutions, it simply ducks into its armored shell to protect its developing body. The horn gradually lengthens an inch every day."),
-                List.of(),
+                List.of(new EvolutionEntry("durabarge", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.BUG_BITE,"tm"),
@@ -47,8 +49,8 @@ public class Helmhide extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRST_IMPRESSION,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 14, 23, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

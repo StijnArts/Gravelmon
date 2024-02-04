@@ -15,14 +15,16 @@ public class Notifant extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         35),
                 List.of(Ability.WATER_VEIL,Ability.STURDY,Ability.STEADFAST), Ability.STEADFAST,
-                8, 165,
+                10, 165,
                 new Stats(0,0,1,0,0,0), 175,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("When it smells smoke with its sensitive trunk, it makes a loud, ringing call to alert other Pokemon to evacuate. Then, it douses the source of the smoke with a blast of water from its trunk."),
-                List.of(),
+                List.of(new EvolutionEntry("fountusk", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPOUT,1),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
@@ -76,11 +78,11 @@ public class Notifant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Notifant");

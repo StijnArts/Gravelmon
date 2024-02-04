@@ -18,7 +18,7 @@ public class NorheimanRattata extends drai.dev.gravelmon.pokemon.Pokemon {
                         69),
                 List.of(Ability.OUTBURST,Ability.GUTS,Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
                 3, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 200,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

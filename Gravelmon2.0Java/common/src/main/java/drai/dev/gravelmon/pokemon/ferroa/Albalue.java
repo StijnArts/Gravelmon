@@ -15,7 +15,7 @@ public class Albalue extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         125),
                 List.of(Ability.TINTED_LENS,Ability.SWIFT_SWIM,Ability.VITAL_SPIRIT), Ability.VITAL_SPIRIT,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,0,2), 70,
                 0.5,
                 162, ExperienceGroup.MEDIUM_SLOW,
@@ -102,14 +102,14 @@ public class Albalue extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Albalue");
+        setCanFly(true);
 
     }
 

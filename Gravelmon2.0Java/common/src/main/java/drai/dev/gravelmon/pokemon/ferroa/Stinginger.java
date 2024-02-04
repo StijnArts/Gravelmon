@@ -15,7 +15,7 @@ public class Stinginger extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         60),
                 List.of(Ability.ROUGH_SKIN,Ability.STURDY,Ability.POWERLEECH), Ability.POWERLEECH,
-                8, 165,
+                10, 165,
                 new Stats(0,1,0,0,1,0), 80,
                 0.5,
                 168, ExperienceGroup.FLUCTUATING,
@@ -112,11 +112,11 @@ public class Stinginger extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FACEPLANT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Stinginger");

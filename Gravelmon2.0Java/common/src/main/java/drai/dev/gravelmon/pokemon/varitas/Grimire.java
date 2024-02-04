@@ -18,7 +18,7 @@ public class Grimire extends drai.dev.gravelmon.pokemon.Pokemon {
                         25),
                 List.of(Ability.ARENA_TRAP,Ability.GOOEY,Ability.STICKY_HOLD), Ability.STICKY_HOLD,
                 9, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 200,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

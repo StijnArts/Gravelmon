@@ -10,7 +10,7 @@ import java.util.*;
 public class DeltaRuinMetagross extends Pokemon {
     public DeltaRuinMetagross(int dexNo) {
         super(dexNo,"DeltaRuinMetagross",
-                Type.GROUND, Type.BUG,
+                Type.GRASS, Type.ROCK,
                 new Stats(80, 135, 130, 95, 90, 70),
                 List.of(Ability.STURDY), Ability.ROCK_HEAD,
                 16, 5500,

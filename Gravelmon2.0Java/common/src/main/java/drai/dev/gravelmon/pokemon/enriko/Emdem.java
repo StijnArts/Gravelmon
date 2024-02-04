@@ -24,7 +24,7 @@ public class Emdem extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("(Hemo type.) Its amorphous body contains DNA from several unrelated Pokémon. It is able to regenerate missing parts of its edible body, making it a potential unlimited food source."),
                 List.of(),
                 List.of(                        ),
-                List.of(Label.ENRIKO),
+                List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

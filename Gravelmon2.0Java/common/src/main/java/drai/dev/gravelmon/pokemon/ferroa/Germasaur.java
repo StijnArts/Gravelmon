@@ -15,7 +15,7 @@ public class Germasaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         146,
                         40),
                 List.of(Ability.PATHOGENIC,Ability.OBLIVIOUS,Ability.FILTHYSURGE), Ability.FILTHYSURGE,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
@@ -113,8 +113,8 @@ public class Germasaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

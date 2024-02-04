@@ -18,7 +18,7 @@ public class Kvadract extends drai.dev.gravelmon.pokemon.Pokemon {
                         89),
                 List.of(Ability.BEAST_BOOST), Ability.BEAST_BOOST,
                 15, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 15,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

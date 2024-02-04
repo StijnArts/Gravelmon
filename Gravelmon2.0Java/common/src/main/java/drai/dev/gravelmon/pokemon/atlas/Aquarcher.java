@@ -80,7 +80,7 @@ public class Aquarcher extends drai.dev.gravelmon.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);

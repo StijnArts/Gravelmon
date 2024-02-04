@@ -15,7 +15,7 @@ public class Whalpool extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         110),
                 List.of(Ability.GLUTTONY), Ability.PROPELLER_TAIL,
-                8, 165,
+                70, 165,
                 new Stats(1,0,0,0,0,1), 60,
                 0.5,
                 175, ExperienceGroup.SLOW,
@@ -75,11 +75,11 @@ public class Whalpool extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATERFALL,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Whalpool");

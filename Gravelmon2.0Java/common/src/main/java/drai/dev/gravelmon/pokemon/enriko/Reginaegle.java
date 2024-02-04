@@ -15,7 +15,7 @@ public class Reginaegle extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         90),
                 List.of(Ability.WATER_ABSORB,Ability.WEAK_ARMOR,Ability.AERILATE), Ability.AERILATE,
-                8, 165,
+                16, 165,
                 new Stats(0,2,0,1,0,2), 65,
                 0.5,
                 211, ExperienceGroup.FAST,
@@ -33,8 +33,8 @@ public class Reginaegle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHELL_SMASH,54)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 55, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

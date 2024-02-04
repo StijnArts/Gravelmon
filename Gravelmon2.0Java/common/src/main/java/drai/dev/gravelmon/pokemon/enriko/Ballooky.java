@@ -15,14 +15,16 @@ public class Ballooky extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         30),
                 List.of(Ability.STATIC,Ability.LIMBER,Ability.MAGIC_BOUNCE), Ability.MAGIC_BOUNCE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,0), 255,
                 0.25,
                 70, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.FAIRY),
                 List.of("Believed to come from the same ancestor as Jigglypuff. It's thin skin is weak, so it uses its flashing eyes to ward off any would-be predators."),
-                List.of(),
+                List.of(new EvolutionEntry("unseelium", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.SAFEGUARD,5),
@@ -42,8 +44,9 @@ public class Ballooky extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HURRICANE,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

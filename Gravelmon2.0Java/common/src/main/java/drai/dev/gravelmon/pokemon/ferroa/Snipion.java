@@ -15,14 +15,16 @@ public class Snipion extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         45),
                 List.of(Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.875,
                 69, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_3),
                 List.of("In ancient seas, it held its prey down with its claws and stabbed them with its heavy tail. When this tail is reared up, it warns potential predators to stay away."),
-                List.of(),
+                List.of(new EvolutionEntry("chainscraw", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BLOCK,"tm"),
                         new MoveLearnSetEntry(Move.BUG_BITE,"tm"),
@@ -50,14 +52,15 @@ public class Snipion extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LASH_OUT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 22, 56, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Snipion");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

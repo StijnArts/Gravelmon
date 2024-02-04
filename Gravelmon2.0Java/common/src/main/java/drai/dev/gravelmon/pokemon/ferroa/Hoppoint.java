@@ -15,14 +15,16 @@ public class Hoppoint extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         50),
                 List.of(Ability.SWARM,Ability.EARLY_BIRD,Ability.STAMINA), Ability.STAMINA,
-                8, 165,
+                4, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 52, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("A plant-eating Pokémon that uses its horned head to poke through tree bark and eat the fresh wood within. Farmers despise Hoppoint as they like to devour their precious berry crops."),
-                List.of(),
+                List.of(new EvolutionEntry("helmhide", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,5),
@@ -57,8 +59,8 @@ public class Hoppoint extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRST_IMPRESSION,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 14, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

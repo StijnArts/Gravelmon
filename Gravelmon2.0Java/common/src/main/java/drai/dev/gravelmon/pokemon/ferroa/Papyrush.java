@@ -15,7 +15,7 @@ public class Papyrush extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         130),
                 List.of(Ability.SHED_SKIN,Ability.FLARE_BOOST,Ability.TRACE), Ability.TRACE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
@@ -88,9 +88,9 @@ public class Papyrush extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAGE_POWDER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 37, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

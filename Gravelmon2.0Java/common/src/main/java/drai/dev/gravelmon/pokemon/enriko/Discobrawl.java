@@ -15,8 +15,8 @@ public class Discobrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         80),
                 List.of(Ability.DAZZLING,Ability.DANCER,Ability.MULTISCALE), Ability.MULTISCALE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -35,11 +35,12 @@ public class Discobrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUIVER_DANCE,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 53, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Discobrawl");

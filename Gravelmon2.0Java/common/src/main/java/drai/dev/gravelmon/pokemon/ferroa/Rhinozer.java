@@ -15,14 +15,16 @@ public class Rhinozer extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         65),
                 List.of(Ability.SAND_RUSH,Ability.OBLIVIOUS,Ability.TRAMPLE), Ability.TRAMPLE,
-                8, 165,
+                11, 165,
                 new Stats(0,1,0,0,0,0), 200,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Rhinozer travel in herds, and as they move along they create visible dirt paths. Other Pokémon learn to cross these paths with caution as they may get trampled by an oncoming herd if they aren't careful."),
-                List.of(),
+                List.of(new EvolutionEntry("rhinolition", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.MUD_SPORT,5),
@@ -57,8 +59,8 @@ public class Rhinozer extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STEEL_ROLLER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 31, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

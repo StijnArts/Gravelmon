@@ -15,7 +15,7 @@ public class Pteroast extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         70),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,0,1), 140,
                 0.5,
                 64, ExperienceGroup.MEDIUM_SLOW,
@@ -107,14 +107,14 @@ public class Pteroast extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 37, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Pteroast");
+        setCanFly(true);
 
     }
 

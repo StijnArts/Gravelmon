@@ -15,14 +15,16 @@ public class Terrachnid extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         70),
                 List.of(Ability.STRONG_JAW), Ability.UNNERVE,
-                8, 165,
+                16, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 147, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.DRAGON),
                 List.of("It is able to maneuver easily across rough terrain as it stalks its prey, even able to walk on walls and ceilings to ambush an unsuspecting target."),
-                List.of(),
+                List.of(new EvolutionEntry("miserachnid", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WEBSLAM,1),
                         new MoveLearnSetEntry(Move.DRACO_METEOR,"tm"),
@@ -57,8 +59,8 @@ public class Terrachnid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCALE_SHOT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 56, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

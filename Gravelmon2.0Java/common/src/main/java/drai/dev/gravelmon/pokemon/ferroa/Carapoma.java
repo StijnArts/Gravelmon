@@ -15,14 +15,16 @@ public class Carapoma extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         36),
                 List.of(Ability.OVERGROW), Ability.HARVEST,
-                8, 165,
+                10, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.WATER_3),
                 List.of("The arm bearing the larger claw can extend to several times its resting length to clobber opponents. Conversely, the other claw is shrunken to near-uselessness."),
-                List.of(),
+                List.of(new EvolutionEntry("crustorchard", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.SEEDSHOT,9),
@@ -115,10 +117,10 @@ public class Carapoma extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HARDPRESS,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

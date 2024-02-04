@@ -18,7 +18,7 @@ public class Witherscence extends drai.dev.gravelmon.pokemon.Pokemon {
                         60),
                 List.of(Ability.COTTON_DOWN,Ability.REGENERATOR,Ability.HEATPROOF), Ability.HEATPROOF,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

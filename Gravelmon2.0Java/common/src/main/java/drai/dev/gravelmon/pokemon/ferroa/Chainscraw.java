@@ -15,7 +15,7 @@ public class Chainscraw extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         75),
                 List.of(Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                18, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -99,14 +99,15 @@ public class Chainscraw extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURE_POWER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 41, 66, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Chainscraw");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

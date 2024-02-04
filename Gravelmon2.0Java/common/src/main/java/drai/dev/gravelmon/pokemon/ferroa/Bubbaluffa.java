@@ -15,7 +15,7 @@ public class Bubbaluffa extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         65),
                 List.of(Ability.WATER_ABSORB,Ability.DRY_SKIN,Ability.WATER_VEIL), Ability.WATER_VEIL,
-                8, 165,
+                18, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 172, ExperienceGroup.SLOW,
@@ -104,14 +104,16 @@ public class Bubbaluffa extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_RING,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 33, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Bubbaluffa");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -15,14 +15,16 @@ public class Grubzero extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         40),
                 List.of(Ability.SNOW_CLOAK), Ability.SNOW_CLOAK,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 64, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FIELD),
                 List.of("Grubzero are herbivores that eat only the fallen winter leaves. Their superficial resemblance to Slunny is a defense mechanism, as predators avoid them instinctively."),
-                List.of(),
+                List.of(new EvolutionEntry("crystalis", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.ICY_WIND,5),
@@ -32,8 +34,8 @@ public class Grubzero extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,26)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

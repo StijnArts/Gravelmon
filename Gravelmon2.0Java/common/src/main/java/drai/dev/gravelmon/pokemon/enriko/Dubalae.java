@@ -15,14 +15,16 @@ public class Dubalae extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         50),
                 List.of(Ability.BATTERY,Ability.CORROSION,Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 68, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its thin shell holds an alkaline material which it uses to produce electricity. Wrapping a cord around its leg will transfer its electrical energy to any device."),
-                List.of(),
+                List.of(new EvolutionEntry("batterode", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SUPERSONIC,1),
                         new MoveLearnSetEntry(Move.ACID,8),
@@ -37,11 +39,11 @@ public class Dubalae extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ION_DELUGE,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dubalae");

@@ -15,7 +15,7 @@ public class Volthroe extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         130),
                 List.of(Ability.INFILTRATOR,Ability.DRONINGNOISE,Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
+                13, 165,
                 new Stats(0,1,0,0,0,1), 80,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
@@ -103,14 +103,14 @@ public class Volthroe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHICNOISE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 46, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Volthroe");
+        setCanFly(true);
 
     }
 

@@ -22,7 +22,9 @@ public class Cleame extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.MINERAL),
                 List.of("Notoriously easy to provoke and even easier to offend. When something upsets it greatly, steam puffs from holes on its shell."),
-                List.of(),
+                List.of(new EvolutionEntry("furiousc", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.RAGE,5),
@@ -34,14 +36,16 @@ public class Cleame extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHELL_SMASH,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_REEF))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Cleame");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

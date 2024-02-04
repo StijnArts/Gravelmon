@@ -15,14 +15,16 @@ public class Clockoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         55),
                 List.of(Ability.LEVITATE), Ability.KLUTZ,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 170,
                 0.5,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("A nervous Pokémon always fretting about as if it has some overdue business. Every night for a single hour, however, it focuses itself and prowls for those lost in the woods with deadly precision."),
-                List.of(),
+                List.of(new EvolutionEntry("nocturvian", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,8),
@@ -135,14 +137,15 @@ public class Clockoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEATHER_DANCE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 36, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Clockoo");
+        setCanFly(true);
 
     }
 

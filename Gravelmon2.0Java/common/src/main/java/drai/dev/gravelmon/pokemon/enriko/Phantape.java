@@ -15,14 +15,16 @@ public class Phantape extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         45),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                4, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It was first sighted in an abandoned warehouse. Whatever you do, do not put one in a VHS player."),
-                List.of(),
+                List.of(new EvolutionEntry("monitasm", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SPITE,1),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,7),
@@ -36,11 +38,11 @@ public class Phantape extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,42)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Phantape");

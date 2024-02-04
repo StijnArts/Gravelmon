@@ -15,7 +15,7 @@ public class Miserachnid extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         70),
                 List.of(Ability.STRONG_JAW), Ability.MALICE,
-                8, 165,
+                23, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 270, ExperienceGroup.SLOW,
@@ -105,8 +105,8 @@ public class Miserachnid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DARK_PULSE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 67, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

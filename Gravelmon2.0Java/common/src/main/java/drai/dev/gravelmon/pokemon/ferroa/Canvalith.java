@@ -15,7 +15,7 @@ public class Canvalith extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         45),
                 List.of(Ability.BODYGUARD,Ability.FRIEND_GUARD,Ability.MAGIC_GUARD), Ability.MAGIC_GUARD,
-                8, 165,
+                20, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.0,
                 175, ExperienceGroup.SLOW,
@@ -93,11 +93,11 @@ public class Canvalith extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MOONLIGHT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 52, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Canvalith");

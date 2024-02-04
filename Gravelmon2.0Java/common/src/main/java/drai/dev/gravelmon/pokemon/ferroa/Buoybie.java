@@ -22,7 +22,9 @@ public class Buoybie extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("A bird Pokémon that can neither fly nor swim very well, so it relies on its parents to guide it along. Its feathers are buoyant enough to keep it afloat without needing to tread water, but it can't dive and is often helpless if left unattended."),
-                List.of(),
+                List.of(new EvolutionEntry("albalue", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.GUST,5),
@@ -100,14 +102,14 @@ public class Buoybie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Buoybie");
+        setCanFly(true);
 
     }
 

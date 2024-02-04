@@ -15,7 +15,7 @@ public class Scaralanche extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         70),
                 List.of(Ability.STALWART,Ability.DAMP,Ability.MOUNTAINEER), Ability.MOUNTAINEER,
-                8, 165,
+                16, 165,
                 new Stats(2,1,0,0,0,0), 45,
                 0.5,
                 234, ExperienceGroup.MEDIUM_SLOW,
@@ -84,8 +84,8 @@ public class Scaralanche extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STEAMROLLER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 43, 61, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

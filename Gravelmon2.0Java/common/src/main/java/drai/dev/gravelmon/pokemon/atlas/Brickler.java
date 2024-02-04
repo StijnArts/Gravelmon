@@ -16,7 +16,7 @@ public class Brickler extends drai.dev.gravelmon.pokemon.Pokemon {
                         14),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 5, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

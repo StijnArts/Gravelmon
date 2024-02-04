@@ -15,14 +15,16 @@ public class Pooyo extends drai.dev.gravelmon.pokemon.Pokemon {
                         20,
                         65),
                 List.of(Ability.SAND_VEIL,Ability.GOOEY,Ability.SAND_FORCE), Ability.SAND_FORCE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,0), 255,
                 0.75,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It's body is made mostly of extremely fertile soil. Wherever it roams, plants always grow behind it."),
-                List.of(),
+                List.of(new EvolutionEntry("poogurt", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,8),
@@ -36,13 +38,12 @@ public class Pooyo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHORE_UP,49),
                         new MoveLearnSetEntry(Move.MUDDY_WATER,54),
                         new MoveLearnSetEntry(Move.FISSURE,90)                        ),
-                List.of(Label.ENRIKO),
+                List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 15, 6, List.of(
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pooyo");

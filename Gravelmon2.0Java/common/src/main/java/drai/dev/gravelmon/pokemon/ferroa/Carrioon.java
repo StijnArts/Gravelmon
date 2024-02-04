@@ -15,14 +15,16 @@ public class Carrioon extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         65),
                 List.of(Ability.IMMUNITY,Ability.SWARM,Ability.POISON_HEAL), Ability.POISON_HEAL,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,2), 100,
                 0.5,
                 130, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FLYING),
                 List.of("Gas builds up under its feather coat and causes it to float in the air. It sprays a foul-smelling red liquid around itself to keep hungry predators away."),
-                List.of(),
+                List.of(new EvolutionEntry("embuzzle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.POISON_STING,5),
@@ -102,8 +104,9 @@ public class Carrioon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRASHTALK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 39, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

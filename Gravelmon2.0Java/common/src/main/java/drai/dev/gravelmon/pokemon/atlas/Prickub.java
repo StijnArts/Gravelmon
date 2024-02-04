@@ -16,7 +16,7 @@ public class Prickub extends drai.dev.gravelmon.pokemon.Pokemon {
                         24),
                 List.of(Ability.IRON_BARBS,Ability.MOXIE,Ability.OVERCOAT), Ability.OVERCOAT,
                 8, 165,
-                new Stats(0,0,1,0,0,0), 0,
+                new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

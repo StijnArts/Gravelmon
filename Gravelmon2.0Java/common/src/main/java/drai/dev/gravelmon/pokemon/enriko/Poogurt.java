@@ -15,14 +15,16 @@ public class Poogurt extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         85),
                 List.of(Ability.SAND_VEIL,Ability.GOOEY,Ability.SAND_FORCE), Ability.SAND_FORCE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                7, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("As it eats a mostly herbivorous diet, they fiercely guard whatever crops they end up growing. Trained ones can replenish a farm in mere hours."),
-                List.of(),
+                List.of(new EvolutionEntry("poolem", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,8),
@@ -36,13 +38,12 @@ public class Poogurt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHORE_UP,49),
                         new MoveLearnSetEntry(Move.MUDDY_WATER,54),
                         new MoveLearnSetEntry(Move.FISSURE,90)                        ),
-                List.of(Label.ENRIKO),
+                List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 28, 2, List.of(
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Poogurt");

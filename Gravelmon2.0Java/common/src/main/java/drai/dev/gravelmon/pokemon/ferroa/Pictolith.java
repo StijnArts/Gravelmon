@@ -15,14 +15,16 @@ public class Pictolith extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         40),
                 List.of(Ability.STALWART,Ability.FRIEND_GUARD,Ability.MAGIC_GUARD), Ability.MAGIC_GUARD,
-                8, 165,
+                11, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.0,
                 65, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("The majority of its body is animated by the living paint on its face. If a Pictolith is washed clean, it stops moving entirely."),
-                List.of(),
+                List.of(new EvolutionEntry("canvalith", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.HAPPYSLAP,5),
@@ -57,11 +59,11 @@ public class Pictolith extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MOONLIGHT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pictolith");

@@ -1549,7 +1549,13 @@ public enum Move {
     HARROWINGWAIL("harrowingwail", false),
     FINALSWIPE("finalswipe", false),
     SUPERCELL_SLAM("true", false),
-    AIR_BUBBLE("airbubble", false), TWIN_BLADE("twinblade", false), RAINBOW_RUSH("rainbowrush", false), RAINBOW_GUST("rainbowgust", false);
+    AIR_BUBBLE("airbubble", false),
+    TWIN_BLADE("twinblade", false),
+    RAINBOW_RUSH("rainbowrush", false),
+    RAINBOW_GUST("rainbowgust", false),
+    WARM_EMBRACE("warmembrace", false),
+    KNOCK_BACK("knockback", false),
+    CLOUD_CRASH("cloudcrash", false);
 
     private String name;
     private boolean implemented;

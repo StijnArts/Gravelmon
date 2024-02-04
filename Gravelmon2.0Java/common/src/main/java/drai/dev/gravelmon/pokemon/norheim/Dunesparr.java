@@ -18,7 +18,7 @@ public class Dunesparr extends drai.dev.gravelmon.pokemon.Pokemon {
                         60),
                 List.of(Ability.SAND_VEIL,Ability.ARENA_TRAP,Ability.STRONG_JAW), Ability.STRONG_JAW,
                 15, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 200,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

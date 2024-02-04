@@ -22,7 +22,9 @@ public class Urnymph extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("They eat rotting flesh from catacombs and burial grounds. Their favorite food is cremated ash - they'll raid an urn and then wear it to protect its squishy body."),
-                List.of(),
+                List.of(new EvolutionEntry("monymph", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,5),
@@ -40,8 +42,9 @@ public class Urnymph extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_EDGE,46)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 35, 4, List.of(
+                    new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

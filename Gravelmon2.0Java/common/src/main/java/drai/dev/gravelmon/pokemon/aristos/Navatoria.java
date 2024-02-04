@@ -18,7 +18,7 @@ public class Navatoria extends drai.dev.gravelmon.pokemon.Pokemon {
                         101),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 24, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 15,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

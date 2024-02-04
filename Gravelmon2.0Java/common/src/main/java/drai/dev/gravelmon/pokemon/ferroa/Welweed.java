@@ -15,14 +15,16 @@ public class Welweed extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         40),
                 List.of(Ability.FOREWARN,Ability.MAGICIAN,Ability.CHLOROPHYLL), Ability.CHLOROPHYLL,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 200,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.HUMAN_LIKE),
                 List.of("Feigning helplessness, it cries for sympathy, pretending to be someone trapped in the sand. Then, it suddenly uproots itself, attacking with its long, sharp-edged leaf."),
-                List.of(),
+                List.of(new EvolutionEntry("welwitch", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FAKE_TEARS,1),
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm"),
@@ -84,8 +86,8 @@ public class Welweed extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRUDGE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Shankrosite extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         105),
                 List.of(Ability.JAWBREAKER,Ability.ROCK_HEAD,Ability.CUD_CHEW), Ability.CUD_CHEW,
-                8, 165,
+                19, 165,
                 new Stats(0,0,2,0,0,0), 80,
                 0.5,
                 172, ExperienceGroup.SLOW,
@@ -73,8 +73,8 @@ public class Shankrosite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 55, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

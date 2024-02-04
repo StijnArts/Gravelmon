@@ -15,7 +15,7 @@ public class Oculustrous extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         110),
                 List.of(Ability.PERCEIVE), Ability.FOREWARN,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.875,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -104,14 +104,16 @@ public class Oculustrous extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDROKINESIS,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 41, 65, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Oculustrous");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

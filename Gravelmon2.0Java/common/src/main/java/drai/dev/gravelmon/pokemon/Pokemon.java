@@ -279,7 +279,11 @@ public class Pokemon {
 
     public static void scanEvolutions() {
         var evaluatedMons = new ArrayList<>();
+        var pokemonWithZeroCatchrate = "Pokemon with 0 catch-rate: ";
+        var pokemonWithZeroBaseStats = "Pokemon with 0 Base Stats: ";
         for (Pokemon pokemon : pokemonRegistry) {
+            if(pokemon.getCatchRate() == 0) pokemonWithZeroCatchrate += pokemon.getCleanName()+",\n";
+            if(pokemon.getStats().getTotal() == 0) pokemonWithZeroBaseStats += pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()+": "+pokemon.getCleanName()+",\n";
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
                 Pokemon result = pokemonRegistry.stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
                 if(result != null){
@@ -308,6 +312,8 @@ public class Pokemon {
             }
             var evaluatedForms = new ArrayList<>();
             for (PokemonForm form : pokemon.getForms()) {
+                if(pokemon.getCatchRate() == 0) pokemonWithZeroCatchrate += pokemon.getCleanName() + ", Aspect: " + form.getAspects() +",\n";
+                if(form.getStats().getTotal() == 0) pokemonWithZeroBaseStats += form.getLabels().stream().findFirst().orElse(Label.MISSING).getName()+": "+pokemon.getCleanName()+ ", Aspect: " + form.getAspects() +",\n";
                 for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
                     String resultName = evolutionEntry.getResult();
                     PokemonForm result = pokemonRegistry.stream()
@@ -333,6 +339,8 @@ public class Pokemon {
             }
         }
         System.out.println(pokemonThatEvolveIntoThemselves);
+        System.out.println(pokemonWithZeroBaseStats);
+        System.out.println(pokemonWithZeroCatchrate);
     }
 
     private static boolean isBasedOnOriginalPokemon(Pokemon pokemon) {

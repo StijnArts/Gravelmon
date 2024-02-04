@@ -18,7 +18,7 @@ public class VaritasianMorgrem extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.UNBURDEN), Ability.FRISK,
                 8, 125,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 90,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -15,14 +15,16 @@ public class Metrognome extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         60),
                 List.of(Ability.SOUNDPROOF,Ability.SCRAPPY,Ability.CACOPHONY), Ability.CACOPHONY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                7, 165,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Born from the insecurities and grudges of artists, Metrognome makes a clicking sound every second until it dies. Listening to it for long periods of time is maddening."),
-                List.of(),
+                List.of(new EvolutionEntry("phonemon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.METRONOME.getName()+"\"")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SING,1),
                         new MoveLearnSetEntry(Move.UPROAR,4),
@@ -43,11 +45,11 @@ public class Metrognome extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOOMBURST,65)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Metrognome");

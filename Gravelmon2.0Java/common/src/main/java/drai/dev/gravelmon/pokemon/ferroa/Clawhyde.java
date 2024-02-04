@@ -15,7 +15,7 @@ public class Clawhyde extends drai.dev.gravelmon.pokemon.Pokemon {
                         87,
                         50),
                 List.of(Ability.SKILL_LINK,Ability.TOUGH_CLAWS,Ability.POISON_TOUCH), Ability.POISON_TOUCH,
-                8, 165,
+                19, 165,
                 new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 173, ExperienceGroup.MEDIUM_SLOW,
@@ -127,8 +127,8 @@ public class Clawhyde extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCARY_FACE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 54, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

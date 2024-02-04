@@ -15,14 +15,16 @@ public class Buzzoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         65),
                 List.of(Ability.IMMUNITY,Ability.SWARM,Ability.POISON_HEAL), Ability.POISON_HEAL,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.FLYING),
                 List.of("It's already self-sufficient right after hatching, but it will usually trek in packs of three. Using its keen sense of smell, it can sniff out food from miles away—any scraps will satisfy it."),
-                List.of(),
+                List.of(new EvolutionEntry("carrioon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.POISON_STING,5),
@@ -102,8 +104,9 @@ public class Buzzoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRASHTALK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

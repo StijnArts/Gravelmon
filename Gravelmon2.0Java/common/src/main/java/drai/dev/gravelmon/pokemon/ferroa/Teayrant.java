@@ -15,7 +15,7 @@ public class Teayrant extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         65),
                 List.of(Ability.RIPEN,Ability.HEATPROOF,Ability.RAIN_DISH), Ability.RAIN_DISH,
-                8, 165,
+                17, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 170, ExperienceGroup.MEDIUM_SLOW,
@@ -118,11 +118,11 @@ public class Teayrant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Teayrant");

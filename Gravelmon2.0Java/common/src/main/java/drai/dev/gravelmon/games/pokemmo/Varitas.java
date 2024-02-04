@@ -54,7 +54,7 @@ public class Varitas extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Grassola());
         pokemon.add(new Grimire());
         pokemon.add(new Stuk());
-        pokemon.add(new Grimpire());
+//        pokemon.add(new Grimpire()); NOT FINISHED
 //        pokemon.add(new Hatterage());
 //        pokemon.add(new Hoofin());
 //        pokemon.add(new Infesteed());

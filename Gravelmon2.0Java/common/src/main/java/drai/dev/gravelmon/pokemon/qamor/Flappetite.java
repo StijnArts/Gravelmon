@@ -18,7 +18,7 @@ public class Flappetite extends drai.dev.gravelmon.pokemon.Pokemon {
                         15),
                 List.of(Ability.GLUTTONY), Ability.GLUTTONY,
                 23, 165,
-                new Stats(2,0,0,0,0,0), 0,
+                new Stats(2,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

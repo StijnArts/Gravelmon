@@ -15,7 +15,7 @@ public class Batterode extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         60),
                 List.of(Ability.POISON_TOUCH,Ability.CORROSION,Ability.CLOUD_NINE), Ability.CLOUD_NINE,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,0,0), 95,
                 0.5,
                 185, ExperienceGroup.ERRATIC,
@@ -39,11 +39,11 @@ public class Batterode extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUNK_SHOT,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 47, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Batterode");

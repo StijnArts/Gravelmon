@@ -15,14 +15,16 @@ public class Manchinade extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         45),
                 List.of(Ability.FLASH_FIRE,Ability.AFTERMATH,Ability.LEAF_GUARD), Ability.LEAF_GUARD,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Its leaves act as a limiter that keeps the energy within from overflowing. If it loses them in a fight, it explodes, sending sharp seeds flying in all directions."),
-                List.of(),
+                List.of(new EvolutionEntry("mandrazooka", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),
                         new MoveLearnSetEntry(Move.EMBER,5),
@@ -106,8 +108,8 @@ public class Manchinade extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRECRACKER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 28, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

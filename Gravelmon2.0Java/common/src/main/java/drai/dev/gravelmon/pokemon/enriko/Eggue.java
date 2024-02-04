@@ -15,14 +15,17 @@ public class Eggue extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         40),
                 List.of(Ability.POISON_POINT,Ability.WEAK_ARMOR,Ability.GOOEY), Ability.GOOEY,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 240,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
                 List.of("It is a bird Pokémon's worst nightmare to find their eggs replaced with Eggue. Anything pulled into its shell is impossible to get back."),
-                List.of(),
+                List.of(new EvolutionEntry("vomelet", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.ACID,5),
@@ -40,11 +43,11 @@ public class Eggue extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OUTRAGE,72)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Eggue");

@@ -15,7 +15,7 @@ public class Snareball extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         40),
                 List.of(Ability.TANGLING_HAIR,Ability.INFILTRATOR,Ability.STORM_DRAIN), Ability.STORM_DRAIN,
-                8, 165,
+                15, 165,
                 new Stats(0,0,1,0,1,0), 45,
                 0.5,
                 173, ExperienceGroup.ERRATIC,
@@ -118,11 +118,12 @@ public class Snareball extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 36, 56, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Snareball");

@@ -15,7 +15,7 @@ public class Flingzer extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         95),
                 List.of(Ability.SKILL_LINK), Ability.STEADFAST,
-                8, 165,
+                14, 165,
                 new Stats(0,2,0,0,0,0), 100,
                 0.5,
                 172, ExperienceGroup.SLOW,
@@ -82,8 +82,8 @@ public class Flingzer extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEAMUP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 14, 37, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,14 +15,16 @@ public class Maptus extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         35),
                 List.of(Ability.ROUGH_SKIN,Ability.ARENA_TRAP,Ability.SAND_STREAM), Ability.SAND_STREAM,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 84, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("The sign attached to its tail is actually part of its body. It is covered in sharp spines which it uses to ambush bug Pokemon, its prey."),
-                List.of(),
+                List.of(new EvolutionEntry("diverguare", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.ABSORB,3),
@@ -41,8 +43,8 @@ public class Maptus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 27, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

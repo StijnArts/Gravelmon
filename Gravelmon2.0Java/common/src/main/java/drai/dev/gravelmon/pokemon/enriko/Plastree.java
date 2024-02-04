@@ -15,14 +15,16 @@ public class Plastree extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         10),
                 List.of(Ability.CLEAR_BODY,Ability.IMMUNITY,Ability.SAP_SIPPER), Ability.SAP_SIPPER,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,1,0), 210,
                 0.5,
                 64, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.MONSTER),
                 List.of("Its glossy body resembles a small plant. In barren wastelands and desert, they gather in great numbers pretending to be grass."),
-                List.of(),
+                List.of(new EvolutionEntry("plastree", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.FAKE_TEARS,5),
@@ -37,8 +39,8 @@ public class Plastree extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_WHIP,64)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPARSE, Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Auroreel extends drai.dev.gravelmon.pokemon.Pokemon {
                         132,
                         117),
                 List.of(Ability.SUPER_LUCK,Ability.LIMBER,Ability.DAZZLING), Ability.DAZZLING,
-                8, 165,
+                29, 165,
                 new Stats(0,0,0,0,1,1), 45,
                 0.5,
                 184, ExperienceGroup.MEDIUM_SLOW,
@@ -90,14 +90,17 @@ public class Auroreel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 31, 56, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Auroreel");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
+        setCanFly(true);
 
     }
 

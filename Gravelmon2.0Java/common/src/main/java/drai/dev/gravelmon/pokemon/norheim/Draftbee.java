@@ -18,7 +18,7 @@ public class Draftbee extends drai.dev.gravelmon.pokemon.Pokemon {
                         80),
                 List.of(Ability.HEATPROOF,Ability.SWARM,Ability.HUSTLE), Ability.HUSTLE,
                 13, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

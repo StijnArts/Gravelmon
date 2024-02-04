@@ -15,7 +15,7 @@ public class Haggage extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         50),
                 List.of(Ability.INFILTRATOR,Ability.HARVEST,Ability.THICK_FAT), Ability.THICK_FAT,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,0), 90,
                 0.75,
                 125, ExperienceGroup.SLOW,
@@ -35,11 +35,11 @@ public class Haggage extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELLY_DRUM,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Haggage");

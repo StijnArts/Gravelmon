@@ -15,14 +15,17 @@ public class Strelair extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         75),
                 List.of(Ability.WATER_ABSORB,Ability.SECONDWIND,Ability.AERILATE), Ability.AERILATE,
-                8, 165,
+                11, 165,
                 new Stats(0,1,0,1,0,1), 180,
                 0.5,
                 84, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FLYING),
                 List.of("Strelair's leaves generate enough lift to uproot itself and soar through the air. When it lands, it simply roots back into the ground."),
-                List.of(),
+                List.of(new EvolutionEntry("reginaegle", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone"),
+                        new EvolutionEntry("wyfern", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.PECK,3),
@@ -40,8 +43,8 @@ public class Strelair extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHELL_SMASH,54)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

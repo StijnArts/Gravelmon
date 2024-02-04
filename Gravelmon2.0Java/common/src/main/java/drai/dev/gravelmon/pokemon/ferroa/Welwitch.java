@@ -15,7 +15,7 @@ public class Welwitch extends drai.dev.gravelmon.pokemon.Pokemon {
                         128,
                         51),
                 List.of(Ability.FOREWARN,Ability.MAGICIAN,Ability.MALICE), Ability.MALICE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 163, ExperienceGroup.MEDIUM_SLOW,
@@ -103,8 +103,8 @@ public class Welwitch extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRUDGE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 47, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

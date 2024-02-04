@@ -15,14 +15,16 @@ public class Platoul extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         45),
                 List.of(Ability.PICKUP,Ability.STEELY_SPIRIT,Ability.WONDER_SKIN), Ability.WONDER_SKIN,
-                8, 165,
+                10, 165,
                 new Stats(0,0,1,0,0,0), 160,
                 0.5,
                 66, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("It wears a piece of metal like a mask to shield its face. Historically, Platoul wore discarded shields and armor, though modern Platoul are often found holding on to pieces of scrap metal instead."),
-                List.of(),
+                List.of(new EvolutionEntry("victorelic", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\"")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
                         new MoveLearnSetEntry(Move.PROTECT,5),
@@ -65,8 +67,9 @@ public class Platoul extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_TRICK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 33, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"false"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

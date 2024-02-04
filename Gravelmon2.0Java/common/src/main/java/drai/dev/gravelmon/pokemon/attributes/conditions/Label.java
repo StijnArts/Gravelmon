@@ -47,7 +47,7 @@ public enum Label {
     JUNNIN("junnin"),
     LONAVA("lonava"),
     MYTHIRE("mythire"),
-    NOVRAI("novrai"), OKENO("okeno"), OROHNHAVAI("orohnhavai"), QAMOR("qamor"), VARITAS("varitas"), RICA("rica"), MIDAMIS("midamis"), NORHEIM("norheim"), ARISTOS("aristos"), HIZA("hiza"), NOSTO("nosto"), HUB("hub"), ISIAH("isiah"), OCEANE("oceane"), JOKE("joke");
+    NOVRAI("novrai"), OKENO("okeno"), OROHNHAVAI("orohnhavai"), QAMOR("qamor"), VARITAS("varitas"), RICA("rica"), MIDAMIS("midamis"), NORHEIM("norheim"), ARISTOS("aristos"), HIZA("hiza"), NOSTO("nosto"), HUB("hub"), ISIAH("isiah"), OCEANE("oceane"), JOKE("joke"), MISSING("missing");
     private String name;
     Label(String name){
         this.name = name;

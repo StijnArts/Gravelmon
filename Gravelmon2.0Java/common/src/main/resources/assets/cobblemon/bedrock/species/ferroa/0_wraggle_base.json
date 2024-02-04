@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wraggle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ferroa_wraggle",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ferroa/wraggle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/wraggle_shiny.png"
+    }  ]
+}

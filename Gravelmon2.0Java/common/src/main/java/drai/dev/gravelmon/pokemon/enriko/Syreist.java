@@ -15,14 +15,16 @@ public class Syreist extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         75),
                 List.of(Ability.POISON_POINT), Ability.CLEAR_BODY,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,0), 210,
                 0.6,
                 70, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Its eyeball is its main body, and it feeds off of bacteria. It latches onto sick people during the night, sucking their blood to keep itself nourished."),
-                List.of(),
+                List.of(new EvolutionEntry("injectoplasm", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_STING,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -39,14 +41,15 @@ public class Syreist extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HORN_DRILL,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Syreist");
+        setCanFly(true);
 
     }
 

@@ -18,7 +18,7 @@ public class Molcarona extends drai.dev.gravelmon.pokemon.Pokemon {
                         100),
                 List.of(Ability.SHELL_ARMOR,Ability.HYDRATION,Ability.POISON_TOUCH), Ability.POISON_TOUCH,
                 16, 165,
-                new Stats(0,0,0,3,0,0), 0,
+                new Stats(0,0,0,3,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

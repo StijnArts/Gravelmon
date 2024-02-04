@@ -15,7 +15,7 @@ public class Thermonster extends drai.dev.gravelmon.pokemon.Pokemon {
                         144,
                         70),
                 List.of(Ability.ANGER_POINT), Ability.ANGER_POINT,
-                8, 165,
+                13, 165,
                 new Stats(0,0,1,0,1,0), 100,
                 0.5,
                 170, ExperienceGroup.MEDIUM_SLOW,
@@ -72,8 +72,8 @@ public class Thermonster extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEMPERFLARE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 54, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER,Biome.IS_VOLCANIC,Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

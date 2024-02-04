@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ensprout",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ferroa_ensprout",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ferroa/ensprout.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ferroa/ensprout_shiny.png"
+    }  ]
+}

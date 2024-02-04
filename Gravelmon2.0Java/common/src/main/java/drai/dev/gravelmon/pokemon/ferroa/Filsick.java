@@ -15,14 +15,19 @@ public class Filsick extends drai.dev.gravelmon.pokemon.Pokemon {
                         48,
                         48),
                 List.of(Ability.POISON_TOUCH,Ability.SYNCHRONIZE,Ability.ILLWILL), Ability.ILLWILL,
-                8, 165,
+                2, 165,
                 new Stats(0,1,0,0,0,0), 220,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It's a carrier of many strange diseases. It's believed that those who it points to with its antenna will fall ill, but modern medicine has made it mostly harmless."),
-                List.of(),
+                List.of(new EvolutionEntry("fevirus", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone"),
+                        new EvolutionEntry("shivirus", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:ice_stone"),
+                        new EvolutionEntry("quivirus", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.LOW_KICK,"tm"),
@@ -87,11 +92,11 @@ public class Filsick extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WINTER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Filsick");

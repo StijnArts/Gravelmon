@@ -16,13 +16,15 @@ public class Fatfish extends drai.dev.gravelmon.pokemon.Pokemon {
                         20),
                 List.of(Ability.CUTE_CHARM,Ability.SWIFT_SWIM,Ability.THICK_FAT), Ability.THICK_FAT,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Its appearance is disturbing and its smell is off-putting, but this Pokémon has the strange ability to charm almost any opponent."),
-                List.of(),
+                List.of(new EvolutionEntry("blobhorent", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FORESIGHT,1),
                         new MoveLearnSetEntry(Move.CHARM,3),
@@ -34,14 +36,16 @@ public class Fatfish extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,28)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Fatfish");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

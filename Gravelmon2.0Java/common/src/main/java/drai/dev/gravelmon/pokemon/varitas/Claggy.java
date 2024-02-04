@@ -18,7 +18,7 @@ public class Claggy extends drai.dev.gravelmon.pokemon.Pokemon {
                         48),
                 List.of(Ability.BIG_PECKS,Ability.OVERCOAT), Ability.WEAK_ARMOR,
                 6, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

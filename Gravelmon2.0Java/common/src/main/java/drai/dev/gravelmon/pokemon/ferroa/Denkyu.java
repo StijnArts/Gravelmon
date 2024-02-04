@@ -15,14 +15,15 @@ public class Denkyu extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         45),
                 List.of(Ability.ELECTRIC_SURGE), Ability.STATIC,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 220,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.DRAGON),
                 List.of("These lighter-than-air Pokemon often get stuck to each other due to the static electricity they generate—and release. A startled Denkyu may start a chain reaction of electrical bursts through all its neighbors."),
-                List.of(),
+                List.of(new EvolutionEntry("electrocuke", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AIRBUBBLE,1),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
@@ -63,8 +64,8 @@ public class Denkyu extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 34, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

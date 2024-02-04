@@ -15,7 +15,7 @@ public class Eledrant extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         58),
                 List.of(Ability.WATER_VEIL,Ability.STURDY,Ability.STEADFAST), Ability.STEADFAST,
-                8, 165,
+                25, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.5,
                 230, ExperienceGroup.SLOW,
@@ -84,11 +84,11 @@ public class Eledrant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 42, 58, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Eledrant");

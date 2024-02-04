@@ -15,7 +15,7 @@ public class Grimfernal extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         60),
                 List.of(Ability.INTIMIDATE,Ability.ILLUMINATE,Ability.STAKEOUT), Ability.STAKEOUT,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 200, ExperienceGroup.MEDIUM_SLOW,
@@ -138,9 +138,9 @@ public class Grimfernal extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCARY_FACE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 57, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

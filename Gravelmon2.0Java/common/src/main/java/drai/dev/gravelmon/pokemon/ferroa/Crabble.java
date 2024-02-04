@@ -15,14 +15,16 @@ public class Crabble extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         30),
                 List.of(Ability.OVERGROW), Ability.HARVEST,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.WATER_3),
                 List.of("It uses its large claw to knock fruit down from trees. Although its soft outer layer makes it resemble a tasty fruit, its bright coloration is actually to warn predators that it tastes foul."),
-                List.of(),
+                List.of(new EvolutionEntry("carapoma", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.SEEDSHOT,9),
@@ -115,10 +117,10 @@ public class Crabble extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HARDPRESS,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

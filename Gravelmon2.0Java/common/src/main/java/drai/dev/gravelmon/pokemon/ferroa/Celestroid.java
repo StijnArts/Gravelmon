@@ -15,7 +15,7 @@ public class Celestroid extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         145),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.0,
                 239, ExperienceGroup.ERRATIC,
@@ -106,14 +106,14 @@ public class Celestroid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AGILITY,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 53, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Celestroid");
+        setCanFly(true);
 
     }
 

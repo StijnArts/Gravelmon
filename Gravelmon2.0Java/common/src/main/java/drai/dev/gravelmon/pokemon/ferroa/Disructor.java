@@ -15,7 +15,7 @@ public class Disructor extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         50),
                 List.of(Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
+                46, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 173, ExperienceGroup.SLOW,
@@ -108,11 +108,11 @@ public class Disructor extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOLARCHARGER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.END_CITY),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Disructor");

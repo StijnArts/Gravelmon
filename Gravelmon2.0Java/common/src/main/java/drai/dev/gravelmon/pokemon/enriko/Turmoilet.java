@@ -21,7 +21,7 @@ public class Turmoilet extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         50),
                 List.of(Ability.STORM_DRAIN,Ability.RAIN_DISH,Ability.CLEAR_BODY), Ability.CLEAR_BODY,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,2,1,0), 110,
                 0.5,
                 133, ExperienceGroup.SLOW,
@@ -43,13 +43,12 @@ public class Turmoilet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLUDGE_BOMB,40),
                         new MoveLearnSetEntry(Move.WATER_SPOUT,44),
                         new MoveLearnSetEntry(Move.PROTECT,50)                        ),
-                List.of(Label.ENRIKO),
+                List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 54, .2, List.of(
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Turmoilet");

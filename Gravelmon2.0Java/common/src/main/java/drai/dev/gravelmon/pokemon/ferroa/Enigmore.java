@@ -15,14 +15,16 @@ public class Enigmore extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         80),
                 List.of(Ability.PERCEIVE), Ability.FOREWARN,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.875,
                 69, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_3),
                 List.of("Schools of Enigmore dig for food with their clawed snouts. Its fossils, found in ancient shales, are among the oldest of all Pokémon."),
-                List.of(),
+                List.of(new EvolutionEntry("oculustrous", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BIND,"tm"),
                         new MoveLearnSetEntry(Move.BUG_BITE,"tm"),
@@ -55,14 +57,16 @@ public class Enigmore extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDROKINESIS,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 22, 56, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Enigmore");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -15,14 +15,15 @@ public class Porytleg extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         60),
                 List.of(Ability.INFESTEDDRIVE,Ability.SIMPLE,Ability.DOWNLOAD), Ability.DOWNLOAD,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("(breed porygon in enriko to hatch porytleg.) The result of an indecent attempt to replicate Porygon's code. They're inferior to Porygon and are infamously vulnerable to diseases and parasites."),
-                List.of(),
+                List.of(new EvolutionEntry("porytlegz", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:dubious_disc\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.GLOWSIGNAL,4),
@@ -38,11 +39,11 @@ public class Porytleg extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,47)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 15, 40, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Porytleg");

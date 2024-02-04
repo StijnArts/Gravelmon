@@ -15,14 +15,16 @@ public class Blastpole extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         50),
                 List.of(Ability.BLAZE), Ability.INTIMIDATE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 80,
                 0.5,
                 64, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It can blow fire out of a pore in its backside, propelling it through the air. The fire is fueled by toxins inside its body."),
-                List.of(),
+                List.of(new EvolutionEntry("wogfire", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.EMBER,5),
@@ -37,8 +39,8 @@ public class Blastpole extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUNK_SHOT,54)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Woebehind extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         90),
                 List.of(Ability.PRESSURE,Ability.UNNERVE,Ability.SHADOW_TAG), Ability.SHADOW_TAG,
-                8, 165,
+                20, 165,
                 new Stats(0,1,0,1,0,0), 100,
                 0.5,
                 173, ExperienceGroup.MEDIUM_SLOW,
@@ -126,9 +126,10 @@ public class Woebehind extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOOBASH,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 56, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

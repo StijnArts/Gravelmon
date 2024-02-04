@@ -15,14 +15,16 @@ public class Wigfoot extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         50),
                 List.of(Ability.DRY_SKIN), Ability.RATTLED,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,0,0), 95,
                 0.75,
                 185, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("It stomps around the deepest forests in Enriko, leaving huge footprints and a trail of hair behind it. Its fur goes for a fortune in certain markets."),
-                List.of(),
+                List.of(new EvolutionEntry("fleesquach", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.COVET,1),
                         new MoveLearnSetEntry(Move.STOMP,28),
@@ -32,8 +34,8 @@ public class Wigfoot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

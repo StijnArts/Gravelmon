@@ -22,7 +22,7 @@ public class Mousummit extends drai.dev.gravelmon.pokemon.Pokemon {
                         20),
                 List.of(Ability.STALWART), Ability.MOUNTAINEER,
                 15, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

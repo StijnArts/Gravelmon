@@ -21,7 +21,7 @@ public class Embuzzle extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         122),
                 List.of(Ability.IMMUNITY,Ability.SCAVENGE), Ability.POISON_HEAL,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,0,3), 45,
                 0.5,
                 227, ExperienceGroup.MEDIUM_SLOW,
@@ -154,8 +154,9 @@ public class Embuzzle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRASHTALK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 62, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

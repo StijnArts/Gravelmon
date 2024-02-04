@@ -15,14 +15,16 @@ public class Maglut extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         40),
                 List.of(Ability.SCRAPPY), Ability.HARVEST,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("They feed on rotting things and other inedible substances, taking in enormous amounts of food at a time. They appear in the hundreds if they find a stable food source."),
-                List.of(),
+                List.of(new EvolutionEntry("scavengore", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.BIND,5),
@@ -36,8 +38,8 @@ public class Maglut extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WRING_OUT,45)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

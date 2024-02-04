@@ -15,7 +15,7 @@ public class Utopion extends drai.dev.gravelmon.pokemon.Pokemon {
                         130,
                         40),
                 List.of(Ability.CONTROLLEDBURN), Ability.GRASSY_SURGE,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 165, ExperienceGroup.SLOW,
@@ -80,11 +80,11 @@ public class Utopion extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METAL_BURST,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 49, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Utopion");

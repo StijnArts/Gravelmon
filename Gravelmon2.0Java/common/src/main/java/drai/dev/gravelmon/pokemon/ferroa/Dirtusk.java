@@ -15,14 +15,16 @@ public class Dirtusk extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         40),
                 List.of(Ability.SUNSCREEN,Ability.THICK_FAT,Ability.SAND_VEIL), Ability.SAND_VEIL,
-                8, 165,
+                12, 165,
                 new Stats(1,0,0,0,0,0), 225,
                 0.5,
                 64, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("By bathing in mud, this Pokémon can keep cool even during the hot summer months. Due to this coating of mud, plants are sometimes seen sprouting from its head."),
-                List.of(),
+                List.of(new EvolutionEntry("stalagrus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,5),
@@ -114,8 +116,8 @@ public class Dirtusk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELLY_DRUM,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 33, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

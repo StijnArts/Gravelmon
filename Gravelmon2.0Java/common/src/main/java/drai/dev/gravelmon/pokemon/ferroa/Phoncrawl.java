@@ -15,14 +15,15 @@ public class Phoncrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         50),
                 List.of(Ability.ANTICIPATION,Ability.SOUNDPROOF,Ability.DOWNLOAD), Ability.DOWNLOAD,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.0,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.BUG),
                 List.of("An early foray into communications tech that became a Pokémon. It can broadcast messages to other Phoncrawl over very long distances."),
-                List.of(),
+                List.of(new EvolutionEntry("techknot", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dubious_disc")),
                 List.of(
                         new MoveLearnSetEntry(Move.BARRIER,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,8),
@@ -54,11 +55,11 @@ public class Phoncrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RISING_VOLTAGE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Phoncrawl");

@@ -15,8 +15,8 @@ public class Knucquill extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         70),
                 List.of(Ability.SAND_VEIL,Ability.SHEER_FORCE,Ability.ROUGH_SKIN), Ability.ROUGH_SKIN,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                10, 165,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -36,10 +36,10 @@ public class Knucquill extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELLY_DRUM,54)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 36, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

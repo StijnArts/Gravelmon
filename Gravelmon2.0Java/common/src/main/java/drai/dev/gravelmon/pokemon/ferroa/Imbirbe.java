@@ -15,14 +15,16 @@ public class Imbirbe extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         70),
                 List.of(Ability.COMPETITIVE,Ability.EARLY_BIRD,Ability.SAP_SIPPER), Ability.SAP_SIPPER,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 53, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It daintily sips nectar from flowers with its long beak. In turn, it helps the plants grow extra healthy because of the natural fertilizer in its saliva."),
-                List.of(),
+                List.of(new EvolutionEntry("kolalibri", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.ABSORB,7),
@@ -99,14 +101,14 @@ public class Imbirbe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Imbirbe");
+        setCanFly(true);
 
     }
 

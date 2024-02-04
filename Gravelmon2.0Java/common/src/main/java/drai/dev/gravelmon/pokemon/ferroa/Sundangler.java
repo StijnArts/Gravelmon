@@ -21,7 +21,7 @@ public class Sundangler extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         75),
                 List.of(Ability.STICKY_HOLD,Ability.HYDRATION,Ability.ADHESIVE), Ability.ADHESIVE,
-                8, 165,
+                21, 165,
                 new Stats(1,1,0,0,0,0), 60,
                 0.5,
                 186, ExperienceGroup.MEDIUM_SLOW,
@@ -103,14 +103,16 @@ public class Sundangler extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURE_POWER,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 33, 55, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sundangler");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

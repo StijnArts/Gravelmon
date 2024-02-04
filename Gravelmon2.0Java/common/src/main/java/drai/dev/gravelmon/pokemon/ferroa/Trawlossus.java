@@ -15,7 +15,7 @@ public class Trawlossus extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         95),
                 List.of(Ability.STICKY_HOLD,Ability.IMMUNITY,Ability.MERCILESS), Ability.MERCILESS,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,2,0), 80,
                 0.5,
                 173, ExperienceGroup.MEDIUM_SLOW,
@@ -114,8 +114,8 @@ public class Trawlossus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WEBSLAM,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 48, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

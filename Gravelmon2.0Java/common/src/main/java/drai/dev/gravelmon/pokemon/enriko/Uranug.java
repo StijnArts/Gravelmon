@@ -15,14 +15,16 @@ public class Uranug extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         20),
                 List.of(Ability.ROCK_HEAD,Ability.CORROSION,Ability.MOLD_BREAKER), Ability.MOLD_BREAKER,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("The material Uranug is made of has a very short half-life. Prolonged contact with its skin can cause severe radiation burns."),
-                List.of(),
+                List.of(new EvolutionEntry("oreium", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SINGE,1),
                         new MoveLearnSetEntry(Move.ROCK_POLISH,3),
@@ -39,9 +41,9 @@ public class Uranug extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,60)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 27, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

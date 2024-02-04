@@ -18,7 +18,7 @@ public class VaritasianImpidimp extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.UNBURDEN), Ability.FRISK,
                 6, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

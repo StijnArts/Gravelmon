@@ -3,15 +3,11 @@ package drai.dev.gravelmon.games.pokemmo;
 import drai.dev.gravelmon.pokemon.enriko.*;
 
 public class Enriko extends drai.dev.gravelmon.games.registry.Game {
-    public Enriko() {
-        super("Enriko");
-    }
+    public Enriko() {        super("Enriko");    }
 
     @Override
     public void registerPokemon() {
-
         pokemon.add(new WoggleJr());
-
         pokemon.add(new Plantis());
         pokemon.add(new Ensencoon());
         pokemon.add(new Vivantis());
@@ -21,7 +17,6 @@ public class Enriko extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Aqualisk());
         pokemon.add(new Pearlizz());
         pokemon.add(new Reptide());
-
         pokemon.add(new Whipcrat());
         pokemon.add(new Ratonine());
         pokemon.add(new Hogspur());
@@ -34,9 +29,9 @@ public class Enriko extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Cyanidae());
         pokemon.add(new Bagly());
         pokemon.add(new Haggage());
-        pokemon.add(new Pooyo());
-        pokemon.add(new Poogurt());
-        pokemon.add(new Poolem());
+//        pokemon.add(new Pooyo()); NOT FINISHED
+//        pokemon.add(new Poogurt()); NOT FINISHED
+//        pokemon.add(new Poolem()); NOT FINISHED
         pokemon.add(new Bulberry());
         pokemon.add(new Florascent());
         pokemon.add(new Gumuppi());
@@ -49,39 +44,39 @@ public class Enriko extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Lobbercut());
         pokemon.add(new Elekrab());
         pokemon.add(new Krustinger());
-        pokemon.add(new Sakaline());
-        pokemon.add(new Amoebolt());
+//        pokemon.add(new Sakaline()); NOT FINISHED
+//        pokemon.add(new Amoebolt()); NOT FINISHED
         pokemon.add(new Dumpchin());
         pokemon.add(new Urchimpale());
         pokemon.add(new Schwincer());
         pokemon.add(new Cleame());
         pokemon.add(new Furiousc());
-        pokemon.add(new Clambat());
-        pokemon.add(new Mussuplex());
-        pokemon.add(new Maptus());
-        pokemon.add(new Diverguare());
+//        pokemon.add(new Clambat()); NOT FINISHED
+//        pokemon.add(new Mussuplex()); NOT FINISHED
+//        pokemon.add(new Maptus()); NOT FINISHED
+//        pokemon.add(new Diverguare()); NOT FINISHED
         pokemon.add(new Fungusite());
         pokemon.add(new Controll());
         pokemon.add(new Decomposite());
         pokemon.add(new Dubalae());
         pokemon.add(new Batterode());
-        pokemon.add(new Camelt());
-        pokemon.add(new Thermedary());
+//        pokemon.add(new Camelt()); NOT FINISHED
+//        pokemon.add(new Thermedary()); NOT FINISHED
         pokemon.add(new Womblock());
         pokemon.add(new Harihary());
         pokemon.add(new Wigfoot());
         pokemon.add(new Fleesquach());
-        pokemon.add(new Conkid());
-        pokemon.add(new Bonkrete());
-        pokemon.add(new Khancrete());
-        pokemon.add(new Cemu());
-        pokemon.add(new Solkiwi());
-        pokemon.add(new Osstillery());
-        pokemon.add(new Figura());
-        pokemon.add(new Tofigur());
-        pokemon.add(new Emdem());
-        pokemon.add(new Groney());
-        pokemon.add(new Meatburger());
+//        pokemon.add(new Conkid()); NOT FINISHED
+//        pokemon.add(new Bonkrete()); NOT FINISHED
+//        pokemon.add(new Khancrete()); NOT FINISHED
+//        pokemon.add(new Cemu()); NOT FINISHED
+//        pokemon.add(new Solkiwi()); NOT FINISHED
+//        pokemon.add(new Osstillery()); NOT FINISHED
+//        pokemon.add(new Figura()); NOT FINISHED
+//        pokemon.add(new Tofigur()); NOT FINISHED
+//        pokemon.add(new Emdem()); NOT FINISHED
+//        pokemon.add(new Groney()); NOT FINISHED
+//        pokemon.add(new Meatburger()); NOT FINISHED
         pokemon.add(new Velveil());
         pokemon.add(new Lunartic());
         pokemon.add(new Encyst());
@@ -92,8 +87,8 @@ public class Enriko extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Sluggummy());
         pokemon.add(new Gumsopod());
         pokemon.add(new Whelasse());
-        pokemon.add(new Derpants());
-        pokemon.add(new Laundronaut());
+//        pokemon.add(new Derpants()); NOT FINISHED
+//        pokemon.add(new Laundronaut()); NOT FINISHED
         pokemon.add(new Chrone());
         pokemon.add(new Reconuisance());
         pokemon.add(new Wotwot());
@@ -107,139 +102,139 @@ public class Enriko extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Lymfite());
         pokemon.add(new Leukofite());
         pokemon.add(new Ceresplit());
-        pokemon.add(new Probee());
-        pokemon.add(new Dysolony());
-        pokemon.add(new Tictoc());
-        pokemon.add(new Outatime());
+//        pokemon.add(new Probee()); NOT FINISHED
+//        pokemon.add(new Dysolony()); NOT FINISHED
+//        pokemon.add(new Tictoc()); NOT FINISHED
+//        pokemon.add(new Outatime()); NOT FINISHED
         pokemon.add(new Wahundo());
+        pokemon.add(new Swallet());
 
-//        pokemon.add(new Swallet());
-//        pokemon.add(new Pleech());
-//        pokemon.add(new Denartery());
-//        pokemon.add(new Psyrus());
-//        pokemon.add(new Adnaviria());
-//        pokemon.add(new Caecarette());
-//        pokemon.add(new Tobamander());
-//        pokemon.add(new Planeedle());
-//        pokemon.add(new Dualance());
-//        pokemon.add(new Ballooky());
-//        pokemon.add(new Unseelium());
-//        pokemon.add(new Ouronouro());
-//        pokemon.add(new Uranug());
-//        pokemon.add(new Oreium());
-//        pokemon.add(new Nukemu());
-//        pokemon.add(new Nomster());
-//        pokemon.add(new Beavomnom());
-//        pokemon.add(new Fatfish());
-//        pokemon.add(new Blobhorent());
-//        pokemon.add(new Floundirt());
-//        pokemon.add(new Gildefish());
-//        pokemon.add(new Haunk());
-//        pokemon.add(new Apocalypso());
-//        pokemon.add(new Erfwerm());
-//        pokemon.add(new Dunewyrm());
-//        pokemon.add(new Arcnid());
-//        pokemon.add(new Urinee());
-//        pokemon.add(new Turmoilet());
-//        pokemon.add(new Loameo());
-//        pokemon.add(new Cupidtera());
-//        pokemon.add(new Celibug());
-//        pokemon.add(new Pumacle());
-//        pokemon.add(new Tunicrust());
-//        pokemon.add(new Metrognome());
-//        pokemon.add(new Phonemon());
-//        pokemon.add(new Zuupie());
-//        pokemon.add(new Cocarid());
-//        pokemon.add(new Skelacian());
-//        pokemon.add(new Tapunt());
-//        pokemon.add(new Somniarch());
-//        pokemon.add(new Khatut());
-//        pokemon.add(new Cleocatra());
-//        pokemon.add(new Cavitrio());
-//        pokemon.add(new Cavitroupe());
-//        pokemon.add(new Macatherm());
-//        pokemon.add(new Geyserilla());
-//        pokemon.add(new Hooptie());
-//        pokemon.add(new Wreckyard());
-//        pokemon.add(new Phantape());
-//        pokemon.add(new Monitasm());
-//        pokemon.add(new Nafugu());
-//        pokemon.add(new Exploseave());
-//        pokemon.add(new Weathermach());
-//        pokemon.add(new Conductile());
-//        pokemon.add(new Batterex());
-//        pokemon.add(new Poyai());
-//        pokemon.add(new Beaki());
-//        pokemon.add(new Cockroast());
-//        pokemon.add(new Roaspector());
-//        pokemon.add(new Copperado());
-//        pokemon.add(new Relode());
-//        pokemon.add(new Snomagnon());
-//        pokemon.add(new Cromountain());
-//        pokemon.add(new Eyesoar());
-//        pokemon.add(new Pteroculus());
-//        pokemon.add(new Strelair());
-//        pokemon.add(new Reginaegle());
-//        pokemon.add(new Wyfern());
-//        pokemon.add(new Grippit());
-//        pokemon.add(new Palmpale());
-//        pokemon.add(new Jellysquish());
-//        pokemon.add(new Phonowar());
-//        pokemon.add(new Grubzero());
-//        pokemon.add(new Crystalis());
-//        pokemon.add(new Bugsled());
-//        pokemon.add(new Himilago());
-//        pokemon.add(new Volnellid());
-//        pokemon.add(new Chenchor());
-//        pokemon.add(new Foramini());
-//        pokemon.add(new Structica());
-//        pokemon.add(new Iceidic());
-//        pokemon.add(new Galvanade());
-//        pokemon.add(new Pinecoal());
-//        pokemon.add(new Confurnace());
-//        pokemon.add(new Slunny());
-//        pokemon.add(new Lagawake());
-//        pokemon.add(new Hibernabbit());
-//        pokemon.add(new Chichera());
-//        pokemon.add(new Ophifowl());
-//        pokemon.add(new Gizzardon());
-//        pokemon.add(new Porytleg());
-//        pokemon.add(new PorytlegZ());
-//        pokemon.add(new Golantern());
-//        pokemon.add(new Spotnight());
-//        pokemon.add(new Urnymph());
-//        pokemon.add(new Monymph());
-//        pokemon.add(new Nuishot());
-//        pokemon.add(new Watchtowl());
-//        pokemon.add(new Femimic());
-//        pokemon.add(new Tuncanny());
-//
-//        pokemon.add(new Udderling());
-//        pokemon.add(new Milkdud());
-//        pokemon.add(new Piessano());
-//        pokemon.add(new Fatom());
-//        pokemon.add(new Encelope());
-//        pokemon.add(new Controlyu());
-//        pokemon.add(new Magelorb());
-//        pokemon.add(new Discobrawl());
-//        pokemon.add(new Christrap());
-//        pokemon.add(new Natomy());
-//        pokemon.add(new Pigid());
-//        pokemon.add(new Bysoderm());
-//        pokemon.add(new Rubbison());
-//        pokemon.add(new Microcosmic());
-////        pokemon.add(new Anexcell()); NOT FINISHED
-////        pokemon.add(new Goolony()); NOT FINISHED
-////        pokemon.add(new Stentorent()); NOT FINISHED
-//        pokemon.add(new Sleetus());
-//        pokemon.add(new Artickey());
-//        pokemon.add(new Mettlemaw());
-//        pokemon.add(new Scourgeon());
-//        pokemon.add(new Tenanchre());
-//        pokemon.add(new Draginas());
-////        pokemon.add(new Fridgeraider()); NOT FINISHED
-//        pokemon.add(new Biffka());
-//        pokemon.add(new Nutzen());
+//        pokemon.add(new Pleech()); NOT FINISHED
+//        pokemon.add(new Denartery()); NOT FINISHED
+//        pokemon.add(new Psyrus()); NOT FINISHED
+//        pokemon.add(new Adnaviria()); NOT FINISHED
+//        pokemon.add(new Caecarette()); NOT FINISHED
+//        pokemon.add(new Tobamander()); NOT FINISHED
+        pokemon.add(new Planeedle());
+        pokemon.add(new Dualance());
+//        pokemon.add(new Ballooky()); NOT FINISHED
+//        pokemon.add(new Unseelium()); NOT FINISHED
+//        pokemon.add(new Ouronouro()); NOT FINISHED
+//        pokemon.add(new Uranug()); NOT FINISHED
+//        pokemon.add(new Oreium()); NOT FINISHED
+//        pokemon.add(new Nukemu()); NOT FINISHED
+//        pokemon.add(new Nomster()); NOT FINISHED
+//        pokemon.add(new Beavomnom()); NOT FINISHED
+        pokemon.add(new Fatfish());
+        pokemon.add(new Blobhorent());
+//        pokemon.add(new Floundirt()); NOT FINISHED
+//        pokemon.add(new Gildefish()); NOT FINISHED
+        pokemon.add(new Haunk());
+        pokemon.add(new Apocalypso());
+//        pokemon.add(new Erfwerm()); NOT FINISHED
+//        pokemon.add(new Dunewyrm()); NOT FINISHED
+        pokemon.add(new Arcnid());
+        pokemon.add(new Urinee());
+        pokemon.add(new Turmoilet());
+//        pokemon.add(new Loameo()); NOT FINISHED
+//        pokemon.add(new Cupidtera()); NOT FINISHED
+//        pokemon.add(new Celibug()); NOT FINISHED
+//        pokemon.add(new Pumacle()); NOT FINISHED
+//        pokemon.add(new Tunicrust()); NOT FINISHED
+        pokemon.add(new Metrognome());
+        pokemon.add(new Phonemon());
+//        pokemon.add(new Zuupie()); NOT FINISHED
+//        pokemon.add(new Cocarid()); NOT FINISHED
+//        pokemon.add(new Skelacian()); NOT FINISHED
+//        pokemon.add(new Tapunt()); NOT FINISHED
+//        pokemon.add(new Somniarch()); NOT FINISHED
+//        pokemon.add(new Khatut()); NOT FINISHED
+//        pokemon.add(new Cleocatra()); NOT FINISHED
+//        pokemon.add(new Cavitrio()); NOT FINISHED
+//        pokemon.add(new Cavitroupe()); NOT FINISHED
+//        pokemon.add(new Macatherm()); NOT FINISHED
+//        pokemon.add(new Geyserilla()); NOT FINISHED
+//        pokemon.add(new Hooptie()); NOT FINISHED
+//        pokemon.add(new Wreckyard()); NOT FINISHED
+        pokemon.add(new Phantape());
+        pokemon.add(new Monitasm());
+        pokemon.add(new Nafugu());
+        pokemon.add(new Exploseave());
+//        pokemon.add(new Weathermach()); NOT FINISHED
+//        pokemon.add(new Conductile()); NOT FINISHED
+//        pokemon.add(new Batterex()); NOT FINISHED
+//        pokemon.add(new Poyai()); NOT FINISHED
+//        pokemon.add(new Beaki()); NOT FINISHED
+//        pokemon.add(new Cockroast()); NOT FINISHED
+//        pokemon.add(new Roaspector()); NOT FINISHED
+//        pokemon.add(new Copperado()); NOT FINISHED
+//        pokemon.add(new Relode()); NOT FINISHED
+        pokemon.add(new Snomagnon());
+        pokemon.add(new Cromountain());
+//        pokemon.add(new Eyesoar()); NOT FINISHED
+//        pokemon.add(new Pteroculus()); NOT FINISHED
+        pokemon.add(new Strelair());
+        pokemon.add(new Reginaegle());
+        pokemon.add(new Wyfern());
+//        pokemon.add(new Grippit()); NOT FINISHED
+//        pokemon.add(new Palmpale()); NOT FINISHED
+//        pokemon.add(new Jellysquish()); NOT FINISHED
+//        pokemon.add(new Phonowar()); NOT FINISHED
+        pokemon.add(new Grubzero());
+        pokemon.add(new Crystalis());
+        pokemon.add(new Bugsled());
+        pokemon.add(new Himilago());
+//        pokemon.add(new Volnellid()); NOT FINISHED
+//        pokemon.add(new Chenchor()); NOT FINISHED
+//        pokemon.add(new Foramini()); NOT FINISHED
+//        pokemon.add(new Structica()); NOT FINISHED
+//        pokemon.add(new Iceidic()); NOT FINISHED
+//        pokemon.add(new Galvanade()); NOT FINISHED
+//        pokemon.add(new Pinecoal()); NOT FINISHED
+//        pokemon.add(new Confurnace()); NOT FINISHED
+//        pokemon.add(new Slunny()); NOT FINISHED
+//        pokemon.add(new Lagawake()); NOT FINISHED
+//        pokemon.add(new Hibernabbit()); NOT FINISHED
+//        pokemon.add(new Chichera()); NOT FINISHED
+//        pokemon.add(new Ophifowl()); NOT FINISHED
+//        pokemon.add(new Gizzardon()); NOT FINISHED
+        pokemon.add(new Porytleg());
+        pokemon.add(new PorytlegZ());
+//        pokemon.add(new Golantern()); NOT FINISHED
+//        pokemon.add(new Spotnight()); NOT FINISHED
+        pokemon.add(new Urnymph());
+        pokemon.add(new Monymph());
+//        pokemon.add(new Nuishot()); NOT FINISHED
+//        pokemon.add(new Watchtowl()); NOT FINISHED
+        pokemon.add(new Femimic());
+        pokemon.add(new Tuncanny());
+
+//        pokemon.add(new Udderling()); NOT FINISHED
+//        pokemon.add(new Milkdud()); NOT FINISHED
+//        pokemon.add(new Piessano()); NOT FINISHED
+//        pokemon.add(new Fatom()); NOT FINISHED
+        pokemon.add(new Encelope());
+        pokemon.add(new Controlyu());
+        pokemon.add(new Magelorb());
+        pokemon.add(new Discobrawl());
+        pokemon.add(new Christrap());
+//        pokemon.add(new Natomy()); NOT FINISHED
+//        pokemon.add(new Pigid()); NOT FINISHED
+//        pokemon.add(new Bysoderm()); NOT FINISHED
+        pokemon.add(new Rubbison());
+        pokemon.add(new Microcosmic());
+//        pokemon.add(new Anexcell()); NOT FINISHED
+//        pokemon.add(new Goolony()); NOT FINISHED
+//        pokemon.add(new Stentorent()); NOT FINISHED
+//        pokemon.add(new Sleetus()); NOT FINISHED
+        pokemon.add(new Artickey());
+//        pokemon.add(new Mettlemaw()); NOT FINISHED
+//        pokemon.add(new Scourgeon()); NOT FINISHED
+//        pokemon.add(new Tenanchre()); NOT FINISHED
+//        pokemon.add(new Draginas()); NOT FINISHED
+//        pokemon.add(new Fridgeraider()); NOT FINISHED
+        pokemon.add(new Biffka());
+        pokemon.add(new Nutzen());
 
     }
 

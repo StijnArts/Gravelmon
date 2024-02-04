@@ -15,7 +15,7 @@ public class Hangrove extends drai.dev.gravelmon.pokemon.Pokemon {
                         125,
                         80),
                 List.of(Ability.CHLOROPHYLL,Ability.LONG_REACH,Ability.ROUGH_SKIN), Ability.ROUGH_SKIN,
-                8, 165,
+                23, 165,
                 new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 199, ExperienceGroup.MEDIUM_FAST,
@@ -33,8 +33,8 @@ public class Hangrove extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,54)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

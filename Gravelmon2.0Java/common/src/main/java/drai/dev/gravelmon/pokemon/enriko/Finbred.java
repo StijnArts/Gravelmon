@@ -15,7 +15,7 @@ public class Finbred extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         70),
                 List.of(Ability.STRONG_JAW,Ability.GUTS,Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
+                25, 165,
                 new Stats(0,0,0,0,0,0), 85,
                 0.5,
                 134, ExperienceGroup.FAST,
@@ -34,14 +34,16 @@ public class Finbred extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISHIOUS_REND,48)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 26, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Finbred");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

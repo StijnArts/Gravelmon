@@ -15,7 +15,7 @@ public class Colsector extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         95),
                 List.of(Ability.UNBURDEN,Ability.PICKPOCKET,Ability.TECHNICIAN), Ability.TECHNICIAN,
-                8, 165,
+                11, 165,
                 new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 170, ExperienceGroup.MEDIUM_FAST,
@@ -135,8 +135,8 @@ public class Colsector extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 14, 42, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -16,7 +16,7 @@ public class Hurdwall extends drai.dev.gravelmon.pokemon.Pokemon {
                         34),
                 List.of(Ability.STALL), Ability.SUNSCREEN,
                 17, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

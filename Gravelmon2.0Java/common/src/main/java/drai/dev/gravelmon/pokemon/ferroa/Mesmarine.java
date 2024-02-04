@@ -15,7 +15,7 @@ public class Mesmarine extends drai.dev.gravelmon.pokemon.Pokemon {
                         125,
                         25),
                 List.of(Ability.STURDY,Ability.CLEAR_BODY,Ability.MULTISCALE), Ability.MULTISCALE,
-                8, 165,
+                12, 165,
                 new Stats(0,0,2,0,0,0), 150,
                 0.5,
                 172, ExperienceGroup.SLOW,
@@ -126,14 +126,16 @@ public class Mesmarine extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRYSTALDEFENSE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 23, 45, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Mesmarine");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

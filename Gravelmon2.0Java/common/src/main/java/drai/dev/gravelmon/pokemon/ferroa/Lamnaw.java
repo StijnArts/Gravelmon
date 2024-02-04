@@ -15,14 +15,16 @@ public class Lamnaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         95),
                 List.of(Ability.TORRENT), Ability.INSOMNIA,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Every day, it dives to great depths that no human could explore without a submarine. Hunting in total darkness, it navigates using electrical pulses from its snout."),
-                List.of(),
+                List.of(new EvolutionEntry("squalucid", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,7),
@@ -118,14 +120,15 @@ public class Lamnaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.MAXY,"10"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
-                List.of());
-           setLangFileName("Lamnaw");
+                List.of());setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

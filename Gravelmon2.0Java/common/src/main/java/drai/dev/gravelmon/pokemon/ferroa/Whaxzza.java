@@ -15,15 +15,30 @@ public class Whaxzza extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         56),
                 List.of(Ability.TOPPINGS), Ability.GUTS,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 66, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.AMORPHOUS),
                 List.of("Whaxzza is covered in an incredibly hot wax that it can control the solidity of—it can be as solid or liquid as the situation requires. Its flame produces a sweet scent that carries for miles."),
-                List.of(),
+                List.of(new EvolutionEntry("beatzza", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))
+                ),
                 List.of(
+                        new MoveLearnSetEntry(Move.ACID_ARMOR,1),
+                        new MoveLearnSetEntry(Move.FIRE_PUNCH,1),
+                        new MoveLearnSetEntry(Move.WARM_EMBRACE,1),
+                        new MoveLearnSetEntry(Move.FIRE_SPIN,1),
+                        new MoveLearnSetEntry(Move.RECYCLE,1),
+                        new MoveLearnSetEntry(Move.SWEET_SCENT,1),
+                        new MoveLearnSetEntry(Move.SKY_UPPERCUT,1),
+                        new MoveLearnSetEntry(Move.DETECT,1),
+                        new MoveLearnSetEntry(Move.BRICK_BREAK,1),
+                        new MoveLearnSetEntry(Move.KNOCK_BACK,1),
+                        new MoveLearnSetEntry(Move.MEGA_PUNCH,1),
+                        new MoveLearnSetEntry(Move.NATURAL_GIFT,1),
+                        new MoveLearnSetEntry(Move.WORK_UP,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.COVET,"tm"),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tm"),
@@ -96,11 +111,11 @@ public class Whaxzza extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRASHTALK,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 30, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Whaxzza");

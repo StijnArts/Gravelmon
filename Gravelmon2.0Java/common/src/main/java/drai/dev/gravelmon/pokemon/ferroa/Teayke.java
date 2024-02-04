@@ -15,14 +15,16 @@ public class Teayke extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         40),
                 List.of(Ability.RIPEN,Ability.HEATPROOF,Ability.RAIN_DISH), Ability.RAIN_DISH,
-                8, 165,
+                9, 165,
                 new Stats(0,0,1,0,0,0), 180,
                 0.5,
                 68, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MINERAL),
                 List.of("Teayke's head fills up with water and leaves when it rains. When it gets angry, its blood comes to a boil and brews the leaves into fresh tea. Generally it's angry because it has a hard time drinking from its own head."),
-                List.of(),
+                List.of(new EvolutionEntry("teayrant", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.BIDE,6),
@@ -75,11 +77,11 @@ public class Teayke extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 7, 29, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Teayke");

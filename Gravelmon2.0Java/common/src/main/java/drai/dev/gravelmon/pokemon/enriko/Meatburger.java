@@ -16,7 +16,7 @@ public class Meatburger extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.STENCH,Ability.REGENERATOR,Ability.INTIMIDATE), Ability.INTIMIDATE,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -24,7 +24,7 @@ public class Meatburger extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("(Hemo type.) Approximately a thousand carcasses could make up a single Meatburger. Despite it's grotesque appearance, it is sympathetic by nature and insists its meat be used in restaurants and fast food restaurants."),
                 List.of(),
                 List.of(                        ),
-                List.of(Label.ENRIKO),
+                List.of(Label.ENRIKO, Label.JOKE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

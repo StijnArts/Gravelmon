@@ -15,14 +15,15 @@ public class Digloo extends drai.dev.gravelmon.pokemon.Pokemon {
                         54,
                         62),
                 List.of(Ability.SLUSH_RUSH,Ability.TOUGH_CLAWS,Ability.THICK_FAT), Ability.THICK_FAT,
-                8, 165,
+                10, 165,
                 new Stats(0,2,0,0,0,0), 140,
                 0.5,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Digloo is just as at home in the water as it is in soil. Able to cut through ice with ease, it waits for something to wander onto the water's frozen surface, then strikes from below."),
-                List.of(),
+                List.of(new EvolutionEntry("frosmole", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.ENDURE,5),
@@ -67,9 +68,9 @@ public class Digloo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRUSH_CLAW,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

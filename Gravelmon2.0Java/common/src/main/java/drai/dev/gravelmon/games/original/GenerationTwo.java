@@ -51,7 +51,7 @@ public class GenerationTwo extends Game {
         pokemon.add(new HizianMurkrow(198));
         pokemon.add(new HizianMisdreavus(200));
 
-        pokemon.add(new NorheimanUnown(201));
+//        pokemon.add(new NorheimanUnown(201)); NOT FINISHED
 //        pokemon.add(new NorheimanForretress(205)); NOT FINISHED
 //        pokemon.add(new NorheimanHoundour(228)); NOT FINISHED
 

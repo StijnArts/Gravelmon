@@ -17,7 +17,7 @@ public class AvorianMaractus extends drai.dev.gravelmon.pokemon.Pokemon {
                         60),
                 List.of(Ability.SERENE_GRACE,Ability.SOULABSORB,Ability.WANDERING_SPIRIT), Ability.WANDERING_SPIRIT,
                 10, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

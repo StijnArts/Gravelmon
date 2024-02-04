@@ -15,14 +15,16 @@ public class Sinklot extends drai.dev.gravelmon.pokemon.Pokemon {
                         86,
                         24),
                 List.of(Ability.TANGLING_HAIR,Ability.INFILTRATOR,Ability.STORM_DRAIN), Ability.STORM_DRAIN,
-                8, 165,
+                6, 165,
                 new Stats(0,0,1,0,0,0), 200,
                 0.5,
                 62, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("This Pokemon makes its home inside of pipes, causing them to become clogged. Its fur is slick and oily to help it move through tight spaces."),
-                List.of(),
+                List.of(new EvolutionEntry("snareball", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,6),
@@ -113,11 +115,12 @@ public class Sinklot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 31, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sinklot");

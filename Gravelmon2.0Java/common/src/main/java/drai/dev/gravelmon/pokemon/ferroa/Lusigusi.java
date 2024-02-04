@@ -15,7 +15,7 @@ public class Lusigusi extends drai.dev.gravelmon.pokemon.Pokemon {
                         106,
                         42),
                 List.of(Ability.SUCTION_CUPS), Ability.ROCK_HEAD,
-                8, 165,
+                15, 165,
                 new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 173, ExperienceGroup.SLOW,
@@ -107,8 +107,8 @@ public class Lusigusi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 44, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

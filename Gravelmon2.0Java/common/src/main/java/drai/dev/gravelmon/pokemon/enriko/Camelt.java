@@ -15,14 +15,16 @@ public class Camelt extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         45),
                 List.of(Ability.ROCK_HEAD), Ability.ROCK_HEAD,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 165,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its hump is full of water, which is constantly boiling from its body heat. Contracting its hump allows it to erupt boiling water everywhere."),
-                List.of(),
+                List.of(new EvolutionEntry("thermedary", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SINGE,5),
@@ -39,8 +41,8 @@ public class Camelt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURN_UP,60)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

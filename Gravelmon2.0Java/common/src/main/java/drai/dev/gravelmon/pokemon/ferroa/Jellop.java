@@ -15,14 +15,16 @@ public class Jellop extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         65),
                 List.of(Ability.STATIC), Ability.REELIN,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,1,0,0), 200,
                 0.5,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.HUMAN_LIKE),
                 List.of("Underneath its rubbery head are thin tentacles that can stretch up to a mile long. Get stung by one and you'll be wracked with pain for days."),
-                List.of(),
+                List.of(new EvolutionEntry("irukarate", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SUPERSONIC,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,6),
@@ -63,14 +65,16 @@ public class Jellop extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LASH_OUT,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 6, 27, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Jellop");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

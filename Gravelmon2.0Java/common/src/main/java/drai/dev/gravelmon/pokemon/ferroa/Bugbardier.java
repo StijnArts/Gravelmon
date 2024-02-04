@@ -15,7 +15,7 @@ public class Bugbardier extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         92),
                 List.of(Ability.BOMBARDIER,Ability.FLASH_FIRE,Ability.AFTERMATH), Ability.AFTERMATH,
-                8, 165,
+                11, 165,
                 new Stats(0,1,0,1,0,0), 75,
                 0.5,
                 170, ExperienceGroup.MEDIUM_FAST,
@@ -100,8 +100,8 @@ public class Bugbardier extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLAME_BURST,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 39, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

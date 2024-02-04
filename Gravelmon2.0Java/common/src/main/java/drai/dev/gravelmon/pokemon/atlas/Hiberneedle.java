@@ -16,7 +16,7 @@ public class Hiberneedle extends drai.dev.gravelmon.pokemon.Pokemon {
                         61),
                 List.of(Ability.IRON_BARBS,Ability.MOXIE,Ability.VITAL_SPIRIT), Ability.VITAL_SPIRIT,
                 18, 165,
-                new Stats(0,1,1,0,0,0), 0,
+                new Stats(0,1,1,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

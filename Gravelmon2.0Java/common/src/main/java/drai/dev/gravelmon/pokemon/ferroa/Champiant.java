@@ -15,7 +15,7 @@ public class Champiant extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         115),
                 List.of(Ability.POWERLIFTER), Ability.STEADFAST,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,2), 100,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
@@ -120,8 +120,8 @@ public class Champiant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BATON_PASS,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 45, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

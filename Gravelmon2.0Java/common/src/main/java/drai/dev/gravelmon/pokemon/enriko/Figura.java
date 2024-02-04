@@ -15,14 +15,16 @@ public class Figura extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         50),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,0), 230,
                 0.5,
                 80, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Believed to be summoned via ancient cave drawings. Figura is two-dimensional; it will always appear flat from any angle to an observer."),
-                List.of(),
+                List.of(new EvolutionEntry("tofigur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SHARPEN,1),
                         new MoveLearnSetEntry(Move.CONVERSION,7),
@@ -37,11 +39,11 @@ public class Figura extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FUTURE_SIGHT,44)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Figura");

@@ -15,7 +15,7 @@ public class Fevirus extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         68),
                 List.of(Ability.FLAME_BODY,Ability.ANGER_POINT), Ability.ILLWILL,
-                8, 165,
+                14, 165,
                 new Stats(0,1,0,1,0,0), 45,
                 0.5,
                 165, ExperienceGroup.MEDIUM_SLOW,
@@ -130,11 +130,11 @@ public class Fevirus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 48, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WINTER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fevirus");

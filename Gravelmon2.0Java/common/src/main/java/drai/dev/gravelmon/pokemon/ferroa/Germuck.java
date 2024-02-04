@@ -15,14 +15,18 @@ public class Germuck extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         30),
                 List.of(Ability.PATHOGENIC,Ability.OBLIVIOUS,Ability.FILTHYSURGE), Ability.FILTHYSURGE,
-                8, 165,
+                1, 165,
                 new Stats(0,0,0,0,1,0), 220,
                 0.5,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It was accidentally unearthed from beneath a glacier, but it's mostly harmless. It forms colonies with such exponential growth that it will exhaust all food in the area within days."),
-                List.of(),
+                List.of(new EvolutionEntry("germasaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34"))),
+                        new EvolutionEntry("flaskatine", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:ice_stone")
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BIND,1),
                         new MoveLearnSetEntry(Move.POISON_GAS,5),
@@ -95,8 +99,8 @@ public class Germuck extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 31, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

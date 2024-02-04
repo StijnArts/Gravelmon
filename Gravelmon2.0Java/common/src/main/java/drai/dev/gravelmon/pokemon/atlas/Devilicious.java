@@ -16,7 +16,7 @@ public class Devilicious extends drai.dev.gravelmon.pokemon.Pokemon {
                         65),
                 List.of(Ability.CUTE_CHARM), Ability.CUTE_CHARM,
                 8, 165,
-                new Stats(0,0,1,0,1,0), 0,
+                new Stats(0,0,1,0,1,0), 15,
                 0.5,
                 145, ExperienceGroup.ERRATIC,
                 70,
