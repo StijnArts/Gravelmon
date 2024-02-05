@@ -1,0 +1,169 @@
+{
+  "implemented": true,
+  "name": "eghoshellder",
+  "nationalPokedexNumber": 90,
+  "primaryType": "water",
+  "secondaryType": "steel",
+  "abilities": [
+    "ironbarbs",
+    "h:superluck"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 40,
+    "defence": 70,
+    "special_attack": 55,
+    "special_defence": 57,
+    "speed": 31
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:spikes",
+    "1:withdraw",
+    "1:rapidspin",
+    "1:protect",
+    "1:acid",
+    "5:gastroacid",
+    "9:watergun",
+    "13:metalsound",
+    "15:bubble",
+    "17:absorb",
+    "19:aquaring",
+    "20:acidspray",
+    "23:bubblebeam",
+    "27:mirrorshot",
+    "33:razorshell",
+    "36:leechlife",
+    "38:spite",
+    "42:irondefense",
+    "45:poisonfang",
+    "48:hydropump",
+    "52:shellsmash",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:echoedvoicesound",
+    "tm:falseswipe",
+    "tm:scald",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:rocksmash",
+    "tm:snarl",
+    "tm:waterpulse",
+    "tm:muddywater",
+    "tm:cut",
+    "tm:surf",
+    "tm:strength",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:darkpulse",
+    "tutor:earthpower",
+    "tutor:gigadrain",
+    "tutor:irontail",
+    "tutor:suckerpunch",
+    "egg:belch",
+    "egg:bite",
+    "egg:clearsmog",
+    "egg:dragontail",
+    "egg:gunkshot",
+    "egg:refresh",
+    "egg:spitup",
+    "egg:stockpile",
+    "egg:swallow"  ],
+  "labels": [
+    "gen1",
+    "infinity",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghoshellder.desc"
+  ],
+  "preEvolution": "shellder",
+  "evolutions": [
+    {
+      "id": "eghoshellder_skulkraken",
+      "variant": "level_up",
+      "result": "skulkraken",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 39
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 410,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

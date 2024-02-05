@@ -1,0 +1,117 @@
+{
+  "implemented": true,
+  "name": "planite",
+  "nationalPokedexNumber": 2551,
+  "primaryType": "rock",
+  "secondaryType": "psychic",
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 80,
+    "special_attack": 110,
+    "special_defence": 80,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 255,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:firespin",
+    "1:hypnosis",
+    "1:shellsmash",
+    "1:swiftcosmic",
+    "1:triattack",
+    "34:stoneedge",
+    "43:ironhead",
+    "55:gigaimpact",
+    "58:explosion",
+    "tm:spikes",
+    "tm:magnetbomb",
+    "tm:thunderwave",
+    "tm:rockslide",
+    "tm:amnesia",
+    "tm:substitute",
+    "tm:signalbeam",
+    "tm:darkpulse",
+    "tm:icywind",
+    "tm:zapcannon",
+    "tm:haze",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:triattack",
+    "tm:batonpass",
+    "tm:confuseray",
+    "tm:mudbomb",
+    "tm:heatwave",
+    "tm:discharge",
+    "tm:explosion",
+    "tm:flash",
+    "tutor:hiddenpower",
+    "tutor:cosmicpower",
+    "tutor:rest",
+    "tutor:toxic",
+    "tutor:nastyplot",
+    "tutor:iciclecrash"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.planite.desc"
+  ],
+  "preEvolution": "stellith",
+  "baseScale": 0.35625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 2430,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

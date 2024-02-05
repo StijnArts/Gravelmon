@@ -1,0 +1,194 @@
+{
+  "implemented": true,
+  "name": "kairoglyph",
+  "nationalPokedexNumber": 1145,
+  "primaryType": "ground",
+  "secondaryType": "psychic",
+  "abilities": [
+    "sandstream",
+    "conundrum",
+    "h:sandveil"
+  ],
+  "baseStats": {
+    "hp": 102,
+    "attack": 70,
+    "defence": 95,
+    "special_attack": 95,
+    "special_defence": 70,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "field",
+    "monster"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:sandstone",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
+  "moves": [
+    "1:psychoshift",
+    "1:miracleeye",
+    "1:glare",
+    "1:whirlwind",
+    "1:tackle",
+    "1:sandattack",
+    "4:mudslap",
+    "7:hypnosis",
+    "10:sandtomb",
+    "13:psywave",
+    "16:mindreader",
+    "20:dig",
+    "24:confuseray",
+    "28:perplex",
+    "32:ancientpower",
+    "36:mudslide",
+    "40:sandstorm",
+    "46:psyshock",
+    "52:earthpower",
+    "58:healblock",
+    "64:futuresight",
+    "70:perishsongsound",
+    "tm:psyshock",
+    "tm:calmmind",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:telekinesis",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:skillswap",
+    "tm:energyball",
+    "tm:chargebeam",
+    "tm:endure",
+    "tm:acrobatics",
+    "tm:rocksmash",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:stoneedge",
+    "tm:thunderwave",
+    "tm:psychup",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:snarl",
+    "tm:sleeptalksound",
+    "tm:miraclewill",
+    "tm:fly",
+    "tm:strength",
+    "tutor:ancientpower",
+    "tutor:doubleedge",
+    "tutor:earthpower",
+    "tutor:gravitycosmic",
+    "tutor:healbellsound",
+    "tutor:heatwave",
+    "tutor:hypervoicesound",
+    "tutor:irontail",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:payday",
+    "tutor:payday",
+    "tutor:signalbeam",
+    "tutor:snatch",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:steelwing",
+    "tutor:swiftcosmic",
+    "tutor:tailwind",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:wonderroom",
+    "egg:confuseray",
+    "egg:hex",
+    "egg:memento"  ],
+  "labels": [
+    "sage",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.kairoglyph.desc"
+  ],
+  "preEvolution": "cairup",
+  "baseScale": 0.2625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 570,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,124 @@
+{
+  "implemented": true,
+  "name": "thermonster",
+  "nationalPokedexNumber": 1485,
+  "primaryType": "normal",
+  "secondaryType": "fire",
+  "abilities": [
+    "angerpoint",
+    "h:angerpoint"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 43,
+    "defence": 123,
+    "special_attack": 50,
+    "special_defence": 144,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:endure",
+    "5:foresight",
+    "8:rage",
+    "13:bide",
+    "17:yawn",
+    "21:followme",
+    "26:faketears",
+    "33:refresh",
+    "42:meanlook",
+    "46:taunt",
+    "51:encore",
+    "56:memento",
+    "tm:covet",
+    "tm:healbellsound",
+    "tm:helpinghand",
+    "tm:recycle",
+    "tm:snatch",
+    "tm:afteryou",
+    "tm:irondefense",
+    "tm:spite",
+    "tm:magiccoat",
+    "tm:trick",
+    "tm:terrainpulse",
+    "tm:burningjealousy",
+    "tm:lashout",
+    "tm:taunt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:rest",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:confide",
+    "tm:roarsound",
+    "tm:sunnyday",
+    "tm:attract",
+    "tm:quash",
+    "tm:willowisp",
+    "tm:psychup",
+    "tm:trickroom",
+    "tm:temperflare"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.thermonster.desc"
+  ],
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

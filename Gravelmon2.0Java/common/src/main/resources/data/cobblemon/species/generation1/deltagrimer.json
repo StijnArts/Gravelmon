@@ -1,0 +1,185 @@
+{
+  "implemented": true,
+  "name": "deltagrimer",
+  "nationalPokedexNumber": 88,
+  "primaryType": "ground",
+  "abilities": [
+    "sapsipper",
+    "sapsipper",
+    "h:waterabsorb"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 25
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:pound",
+    "1:sandattack",
+    "4:harden",
+    "7:mudslap",
+    "12:stockpile",
+    "15:sandtomb",
+    "18:swallow",
+    "18:spitup",
+    "21:minimize",
+    "26:bulldoze",
+    "29:mudbomb",
+    "32:magnitude",
+    "37:sandstorm",
+    "40:earthquake",
+    "43:quash",
+    "46:fissure",
+    "48:recover",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sludgewave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:focusblast",
+    "tm:fling",
+    "tm:embargo",
+    "tm:explosion",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:drainpunch",
+    "tm:rockslide",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:darkpulse",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:quash",
+    "tm:darkmatter",
+    "tm:infestation",
+    "tm:secretpower",
+    "tm:rocksmash",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:ancientpower",
+    "tutor:bind",
+    "tutor:block",
+    "tutor:dig",
+    "tutor:dynamicpunch",
+    "tutor:earthpower",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gastroacid",
+    "tutor:gunkshot",
+    "tutor:heatwave",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:selfdestruct",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:suckerpunch",
+    "tutor:uproar"  ],
+  "labels": [
+    "gen1",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltagrimer.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltagrimer_deltamuk",
+      "variant": "level_up",
+      "result": "deltamuk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]   
+ }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 1.0,
+    "height": 1.2,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 300,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

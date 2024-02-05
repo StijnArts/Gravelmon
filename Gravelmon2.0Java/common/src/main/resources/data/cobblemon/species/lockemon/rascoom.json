@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "rascoom",
+  "nationalPokedexNumber": 2278,
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "abilities": [
+    "aftermath",
+    "h:strongjaw"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 130,
+    "defence": 60,
+    "special_attack": 90,
+    "special_defence": 60,
+    "speed": 115
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 143,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "mineral"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:growl",
+    "4:fairywind",
+    "8:incinerate",
+    "12:bite",
+    "16:firefang",
+    "20:suckerpunch",
+    "24:irondefense",
+    "28:crunch",
+    "32:flamethrower",
+    "36:ironhead",
+    "40:taunt",
+    "44:flareblitz",
+    "48:playrough",
+    "egg:thunderfang",
+    "egg:icefang"  ],
+  "labels": [
+    "lockemon",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.rascoom.desc"
+  ],
+  "baseScale": 0.16875,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 1231,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

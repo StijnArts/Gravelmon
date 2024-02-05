@@ -1,0 +1,172 @@
+{
+  "implemented": true,
+  "name": "deltaphantump",
+  "nationalPokedexNumber": 708,
+  "primaryType": "fairy",
+  "abilities": [
+    "snowwarning",
+    "overcoat",
+    "h:snowcloak"
+  ],
+  "baseStats": {
+    "hp": 43,
+    "attack": 70,
+    "defence": 48,
+    "special_attack": 50,
+    "special_defence": 60,
+    "speed": 38
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:flowershield",
+    "5:fairywind",
+    "8:growth",
+    "13:ingrain",
+    "19:disarmingvoicesound",
+    "23:leechseed",
+    "28:moonlight",
+    "31:hail",
+    "35:playrough",
+    "39:mistyterrain",
+    "45:counter",
+    "49:petalblizzard",
+    "54:dazzlinggleam",
+    "tm:bulldoze",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hail",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:recycle",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:newmoon",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:drainpunch",
+    "tm:rockslide",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:frostbreath",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:avalanche",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:rockclimb",
+    "tm:cut",
+    "tutor:acid",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:focuspunch",
+    "tutor:healbellsound",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:mimic",
+    "tutor:snoresound",
+    "tutor:superpower",
+    "tutor:synthesis",
+    "tutor:uproar",
+    "tutor:vacuumwave",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen6",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaphantump.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltaphantump_deltatrevenant",
+      "variant": "trade",
+      "result": "deltatrevenant",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 70,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

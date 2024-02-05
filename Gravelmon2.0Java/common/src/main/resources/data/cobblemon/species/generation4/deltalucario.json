@@ -1,0 +1,269 @@
+{
+  "implemented": true,
+  "name": "deltalucario",
+  "nationalPokedexNumber": 448,
+  "primaryType": "dark",
+  "secondaryType": "ground",
+  "abilities": [
+    "justified",
+    "pressure",
+    "h:mummy"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 110,
+    "defence": 70,
+    "special_attack": 115,
+    "special_defence": 70,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Mega",
+      "primaryType": "dark",
+      "secondaryType": "ground",
+      "abilities": [
+    "defiant",
+    "defiant",
+    "h:mummy"
+      ],
+      "baseScale": 1.1,
+        "hitbox": {
+          "width": 0.8,
+          "height": 2.45,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 145,
+        "defence": 88,
+        "special_attack": 140,
+        "special_defence": 70,
+        "speed": 112
+      },
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 209,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 0,
+      "weight": 550,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:extremespeed",
+    "1:fissure",
+    "1:darkpulse",
+    "1:crunch",
+    "1:foresight",
+    "1:bite",
+    "1:detect",
+    "1:sandtomb",
+    "6:focusenergy",
+    "11:miracleeye",
+    "15:punishment",
+    "19:workup",
+    "24:quickguard",
+    "29:bonerush",
+    "33:embargo",
+    "37:sandstorm",
+    "42:crunch",
+    "47:calmmind",
+    "51:bonemerang",
+    "55:darkpulse",
+    "60:fissure",
+    "65:extremespeed",
+    "tm:honeclaws",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:irontail",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:newmoon",
+    "tm:embargo",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:stoneedge",
+    "tm:psychup",
+    "tm:swordsdance",
+    "tm:drainpunch",
+    "tm:rockslide",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:darkpulse",
+    "tm:achillesheel",
+    "tm:allyswitch",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:quash",
+    "tm:darkmatter",
+    "tm:secretpower",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:blazekick",
+    "tutor:block",
+    "tutor:counter",
+    "tutor:dig",
+    "tutor:dualchop",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:extremespeed",
+    "tutor:firepunch",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:gravitycosmic",
+    "tutor:helpinghand",
+    "tutor:hypervoicesound",
+    "tutor:icepunch",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:nastyplot",
+    "tutor:outrage",
+    "tutor:roleplay",
+    "tutor:seismictoss",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:suckerpunch",
+    "tutor:superpower",
+    "tutor:thunderpunch",
+    "tutor:uproar",
+    "tutor:vacuumwave",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen4",
+    "insurgence",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltalucario.desc"
+  ],
+  "preEvolution": "deltariolu",
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 0.8,
+    "height": 2.45,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 55,
+  "aspects": [],
+"features": [
+"mega"
+  ],  "cannotDynamax": false
+}

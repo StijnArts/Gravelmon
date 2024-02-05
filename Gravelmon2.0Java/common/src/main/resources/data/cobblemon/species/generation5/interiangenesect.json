@@ -1,0 +1,134 @@
+{
+  "implemented": true,
+  "name": "interiangenesect",
+  "nationalPokedexNumber": 649,
+  "primaryType": "electric",
+  "secondaryType": "steel",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 150,
+    "defence": 130,
+    "special_attack": 170,
+    "special_defence": 100,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 0,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+
+  ],
+  "moves": [
+    "1:electricterrain",
+    "1:magneticflux",
+    "1:mirrorcoat",
+    "1:supersonic",
+    "1:tackle",
+    "1:thundershock",
+    "1:thunderwave",
+    "1:triattack",
+    "12:electroball",
+    "16:gyroball",
+    "20:spark",
+    "24:screechsound",
+    "28:magnetrise",
+    "34:flashcannon",
+    "40:discharge",
+    "46:metalsound",
+    "52:lightscreen",
+    "58:lockon",
+    "64:zapcannon",
+    "egg:electroweb",
+    "egg:explosion",
+    "tm:takedown",
+    "tm:protect",
+    "tm:confuseray",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:swiftcosmic",
+    "tm:endure",
+    "tm:voltswitch",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:sandstorm",
+    "tm:bodyslam",
+    "tm:sleeptalksound",
+    "tm:electroball",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:bodypress",
+    "tm:flashcannon",
+    "tm:eerieimpulse",
+    "tm:ironhead",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:heavyslam",
+    "tm:thunderbolt",
+    "tm:helpinghand",
+    "tm:electricterrain",
+    "tm:wildcharge",
+    "tm:gigaimpact",
+    "tm:hyperbeam",
+    "tm:thunder",
+    "tm:steelbeam",
+    "tm:terablast"  ],
+  "labels": [
+    "interregional",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.interiangenesect.desc"
+  ],
+  "baseScale": 0.28125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

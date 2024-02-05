@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltaregisteel-1",
+      "pokemon": "deltaregisteel",
+      "presets": [
+          "lava_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "ultra-rare",
+      "level": "69-80",
+      "weight": 3.0E-5,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_wasteland" ]
+      }
+    }
+  ]
+}

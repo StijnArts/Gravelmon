@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "anemeany-1",
+      "pokemon": "anemeany",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "6-27",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_reef" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "implemented": true,
+  "name": "hunder",
+  "nationalPokedexNumber": 1961,
+  "primaryType": "electric",
+  "abilities": [
+    "moxie",
+    "defiant",
+    "h:toughclaws"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 87,
+    "defence": 70,
+    "special_attack": 77,
+    "special_defence": 60,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tailwhip",
+    "5:thundershock",
+    "9:howlsound",
+    "12:bite",
+    "17:thunderfang",
+    "21:charge",
+    "26:thunderwave",
+    "30:crunch",
+    "35:wildcharge",
+    "43:thunderbolt"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hunder.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,189 @@
+{
+  "implemented": true,
+  "name": "trishoutterrestrial",
+  "nationalPokedexNumber": 1637,
+  "primaryType": "fire",
+  "secondaryType": "sound",
+  "abilities": [
+    "guts",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 105,
+    "defence": 55,
+    "special_attack": 80,
+    "special_defence": 44,
+    "speed": 78
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "slow",
+  "eggCycles": 41,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:firepunch",
+    "1:jetstrike",
+    "1:roarsound",
+    "1:ember",
+    "1:tackle",
+    "13:howlsound",
+    "17:takedown",
+    "21:firefang",
+    "25:uproar",
+    "28:screechsound",
+    "32:flamethrower",
+    "36:hypervoicesound",
+    "40:swagger",
+    "45:boomburstsound",
+    "51:roarsound",
+    "56:scaryface",
+    "61:flareblitz",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:thief",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:overheat",
+    "tm:fling",
+    "tm:willowisp",
+    "tm:gigaimpact",
+    "tm:bulldoze",
+    "tm:swagger",
+    "tm:substitute",
+    "tutor:blastburn",
+    "tutor:covet",
+    "tutor:heatwave",
+    "tutor:hypervoicesound",
+    "tutor:irontail",
+    "tutor:secretpower",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:uproar"  ],
+  "labels": [
+    "xenoverse"
+  ],
+  "pokedex": [
+    "cobblemon.species.trishoutterrestrial.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "trishoutterrestrial_trishout",
+      "variant": "level_up",
+      "result": "trishout",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ]   
+ },
+    {
+      "id": "trishoutterrestrial_trishoutxenoversal",
+      "variant": "level_up",
+      "result": "trishoutxenoversal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:xenoversal_ring"
+        }
+      ]   
+ },
+    {
+      "id": "trishoutterrestrial_trishoutastral",
+      "variant": "level_up",
+      "result": "trishoutastral",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:terrestrial_ring"
+        },
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ]   
+ },
+    {
+      "id": "trishoutterrestrial_trishoutastral",
+      "variant": "level_up",
+      "result": "trishoutastral",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:xenoversal_ring"
+        },
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ]   
+ }
+  ],
+  "baseScale": 1.0,
+  "hitbox": {
+    "width": 0.9,
+    "height": 0.9,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 200,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

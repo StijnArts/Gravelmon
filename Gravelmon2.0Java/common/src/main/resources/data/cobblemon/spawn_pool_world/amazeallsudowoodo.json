@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "amazeallsudowoodo-1",
+      "pokemon": "amazeallsudowoodo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "20-39",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_sparse" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "implemented": true,
+  "name": "speeda",
+  "nationalPokedexNumber": 3017,
+  "primaryType": "electric",
+  "abilities": [
+    "speedboost",
+    "h:lightningrod"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 95,
+    "defence": 40,
+    "special_attack": 90,
+    "special_defence": 45,
+    "speed": 165
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 0,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+
+  ],
+  "moves": [
+    "1:bite",
+    "1:electrify",
+    "1:nuzzle",
+    "1:tackle",
+    "1:tailwhip",
+    "15:roarsound",
+    "20:spark",
+    "28:charm",
+    "34:crunch",
+    "41:charge",
+    "48:wildcharge",
+    "55:playrough",
+    "62:electricterrain",
+    "1:wildcharge",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:return",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:uturn",
+    "tm:chargebeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:acrobatics",
+    "tm:shadowclaw",
+    "tm:thief",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:roarsound",
+    "tm:bulkup",
+    "tm:taunt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:electricterrain"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.speeda.desc"
+  ],
+  "preEvolution": "cheecub",
+  "baseScale": 0.20625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

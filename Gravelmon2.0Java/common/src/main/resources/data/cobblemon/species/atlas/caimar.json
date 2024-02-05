@@ -1,0 +1,142 @@
+{
+  "implemented": true,
+  "name": "caimar",
+  "nationalPokedexNumber": 2809,
+  "primaryType": "water",
+  "abilities": [
+    "torrent",
+    "h:swiftswim"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 63,
+    "defence": 42,
+    "special_attack": 47,
+    "special_defence": 45,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "moves": [
+    "1:scratch",
+    "4:leer",
+    "7:watergun",
+    "11:mist",
+    "13:bite",
+    "16:aquajet",
+    "19:scaryface",
+    "22:icefang",
+    "25:brine",
+    "30:crunch",
+    "34:agility",
+    "41:raindance",
+    "45:slash",
+    "50:aquatail",
+    "53:swordsdance",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:bulldoze",
+    "tm:doubleteam",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:facade",
+    "tm:frustration",
+    "tm:snowscape",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:lightscreen",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:roundsound",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:snarl",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:workup",
+    "tm:xscissor"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.caimar.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "caimar_torpeed",
+      "variant": "level_up",
+      "result": "torpeed",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

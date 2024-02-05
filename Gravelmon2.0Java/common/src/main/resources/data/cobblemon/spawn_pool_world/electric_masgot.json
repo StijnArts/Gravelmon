@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "electric_masgot-1",
+      "pokemon": "masgot electric",
+      "presets": [ "natural"],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-18",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "isThundering": true,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

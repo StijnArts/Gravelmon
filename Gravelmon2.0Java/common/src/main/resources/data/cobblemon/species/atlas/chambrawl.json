@@ -1,0 +1,140 @@
+{
+  "implemented": true,
+  "name": "chambrawl",
+  "nationalPokedexNumber": 2814,
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "abilities": [
+    "torrent",
+    "h:ironfist"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 121,
+    "defence": 80,
+    "special_attack": 78,
+    "special_defence": 78,
+    "speed": 68
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:pound",
+    "5:growl",
+    "11:watersport",
+    "13:covet",
+    "17:bubblebeam",
+    "18:armthrust",
+    "21:yawn",
+    "25:dizzypunch",
+    "28:waterpulse",
+    "32:zenheadbutt",
+    "35:bodyslam",
+    "46:closecombat",
+    "51:icepunch",
+    "56:bulkup",
+    "63:hydropump",
+    "tm:attract",
+    "tm:blizzard",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:drainpunch",
+    "tm:earthquake",
+    "tm:facade",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:lightscreen",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roarsound",
+    "tm:rockslide",
+    "tm:roundsound",
+    "tm:scald",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:surf",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:workup"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.chambrawl.desc"
+  ],
+  "preEvolution": "berswade",
+  "baseScale": 0.31875,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

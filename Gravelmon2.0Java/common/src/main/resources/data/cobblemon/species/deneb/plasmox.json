@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "plasmox",
+  "nationalPokedexNumber": 2515,
+  "primaryType": "electric",
+  "secondaryType": "fairy",
+  "abilities": [
+    "static",
+    "h:lightningrod"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 75,
+    "special_defence": 55,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 92,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "6:thundershock",
+    "15:thunderwave",
+    "20:pursuit",
+    "25:spark",
+    "29:feintattack",
+    "39:discharge",
+    "48:agility",
+    "57:thunder",
+    "62:doubleedge",
+    "tm:magnetbomb",
+    "tm:thunderwave",
+    "tm:headbutt",
+    "tm:rockslide",
+    "tm:shadowclaw",
+    "tm:amnesia",
+    "tm:substitute",
+    "tm:signalbeam",
+    "tm:darkpulse",
+    "tm:irontail",
+    "tm:zapcannon",
+    "tm:batonpass",
+    "tm:confuseray",
+    "tm:discharge",
+    "tm:nightslash",
+    "tm:flash",
+    "tm:rocksmash",
+    "tutor:dig",
+    "tutor:hiddenpower",
+    "tutor:iciclecrash",
+    "tutor:nastyplot",
+    "tutor:rest",
+    "tutor:toxic",
+    "egg:block",
+    "egg:doubleedge",
+    "egg:flail",
+    "egg:flashcannon",
+    "egg:frustration",
+    "egg:gigaimpact",
+    "egg:endure",
+    "egg:hyperbeam",
+    "egg:ironhead",
+    "egg:lightscreen",
+    "egg:metalsound",
+    "egg:mirrorcoat",
+    "egg:mudslap",
+    "egg:nastyplot",
+    "egg:overheat",
+    "egg:rage",
+    "egg:raindance",
+    "egg:rapidspin",
+    "egg:reflect",
+    "egg:return",
+    "egg:roarsound",
+    "egg:rocktomb",
+    "egg:safeguard",
+    "egg:screechsound",
+    "egg:skullbash",
+    "egg:stoneedge",
+    "egg:thunderfang",
+    "egg:wildcharge"  ],
+  "labels": [
+    "deneb",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.plasmox.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "plasmox_blitzune",
+      "variant": "item_interact",
+      "result": "blitzune",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 50,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

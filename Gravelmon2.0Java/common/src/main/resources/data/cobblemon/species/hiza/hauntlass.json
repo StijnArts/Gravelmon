@@ -1,0 +1,80 @@
+{
+  "implemented": true,
+  "name": "hauntlass",
+  "nationalPokedexNumber": 2028,
+  "primaryType": "ghost",
+  "secondaryType": "psychic",
+  "abilities": [
+    "clearbody",
+    "h:illusion"
+  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 103,
+    "defence": 32,
+    "special_attack": 72,
+    "special_defence": 116,
+    "speed": 112
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 185,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hauntlass.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

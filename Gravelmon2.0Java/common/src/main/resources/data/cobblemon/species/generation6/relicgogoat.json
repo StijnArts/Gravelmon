@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "relicgogoat",
+  "nationalPokedexNumber": 673,
+  "primaryType": "grass",
+  "secondaryType": "rock",
+  "abilities": [
+    "battlearmor",
+    "noguard",
+    "h:rockhead"
+  ],
+  "baseStats": {
+    "hp": 99,
+    "attack": 110,
+    "defence": 82,
+    "special_attack": 72,
+    "special_defence": 86,
+    "speed": 82
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 15,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field",
+    "mineral"
+  ],
+  "moves": [
+    "1:milkdrink",
+    "1:aerialace",
+    "1:tackle",
+    "1:playnice",
+    "5:sandattack",
+    "8:rockthrow",
+    "11:leechseed",
+    "14:razorleaf",
+    "17:doublekick",
+    "20:takedown",
+    "25:charm",
+    "27:ancientpower",
+    "31:bulldoze",
+    "35:hornleech",
+    "39:rockslide",
+    "45:aerialace",
+    "47:leafblade",
+    "51:bulkup",
+    "56:stoneedge",
+    "63:highhorsepower",
+    "tm:workup",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:brutalswing",
+    "tm:acrobatics",
+    "tm:smartstrike",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:surf",
+    "tm:naturepower",
+    "tm:confide",
+    "tm:gigadrain",
+    "tm:lowkick",
+    "tm:recycle",
+    "tm:seedbomb",
+    "tm:stealthrock",
+    "egg:defensecurl",
+    "egg:headsmash",
+    "egg:milkdrink",
+    "egg:rollout",
+    "egg:stealthrock"  ],
+  "labels": [
+    "phoenix_rising",
+    "gen6",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.relicgogoat.desc"
+  ],
+  "preEvolution": "relicskiddo",
+  "baseScale": 0.4125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 22,
+  "weight": 1890,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

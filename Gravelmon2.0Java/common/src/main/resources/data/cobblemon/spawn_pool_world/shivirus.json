@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shivirus-1",
+      "pokemon": "shivirus",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-48",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_winter" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

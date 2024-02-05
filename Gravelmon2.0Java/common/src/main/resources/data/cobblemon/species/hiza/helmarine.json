@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "helmarine",
+  "nationalPokedexNumber": 2038,
+  "primaryType": "ghost",
+  "secondaryType": "steel",
+  "abilities": [
+    "battlearmor",
+    "h:battlearmor"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 40,
+    "defence": 70,
+    "special_attack": 40,
+    "special_defence": 70,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:watergun",
+    "5:astonish",
+    "9:supersonic",
+    "12:nightshade",
+    "19:waterpulse",
+    "23:screechsound",
+    "25:aquajet",
+    "27:ominouswind",
+    "32:metalsound",
+    "37:shadowsneak",
+    "42:curse",
+    "46:ironhead",
+    "49:hydropump",
+    "54:metalburst",
+    "57:phantomforce",
+    "61:wavecrash"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.helmarine.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

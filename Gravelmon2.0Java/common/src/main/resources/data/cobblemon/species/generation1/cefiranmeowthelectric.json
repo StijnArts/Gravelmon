@@ -1,0 +1,125 @@
+{
+  "implemented": true,
+  "name": "cefiranmeowthelectric",
+  "nationalPokedexNumber": 52,
+  "primaryType": "normal",
+  "secondaryType": "electric",
+  "abilities": [
+    "pickup",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 35,
+    "special_attack": 90,
+    "special_defence": 40,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 58,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "6:bite",
+    "9:ember",
+    "14:flamecharge",
+    "17:furyswipes",
+    "22:feintattack",
+    "25:taunt",
+    "30:firefang",
+    "30:icefang",
+    "30:thunderfang",
+    "33:slash",
+    "38:nastyplot",
+    "41:flareblitz",
+    "46:captivate",
+    "49:nightslash",
+    "54:feint",
+    "egg:amnesia",
+    "egg:assist",
+    "egg:charm",
+    "egg:flail",
+    "egg:foulplay",
+    "egg:hypnosis",
+    "egg:irontail",
+    "egg:return",
+    "egg:odorsleuth",
+    "egg:punishment",
+    "egg:snatch",
+    "egg:spite",
+    "egg:tailwhip"  ],
+  "labels": [
+    "opal",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranmeowthelectric.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cefiranmeowthelectric_CefiranPersianElectric",
+      "variant": "level_up",
+      "result": "CefiranPersianElectric",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 42,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

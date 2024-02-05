@@ -1,0 +1,140 @@
+{
+  "implemented": true,
+  "name": "donanas",
+  "nationalPokedexNumber": 1692,
+  "primaryType": "grass",
+  "secondaryType": "steel",
+  "abilities": [
+    "swarm",
+    "battlearmor",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 65,
+    "defence": 105,
+    "special_attack": 40,
+    "special_defence": 85,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 177,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "eggGroups": [
+    "grass",
+    "flying"
+  ],
+  "moves": [
+    "1:withdraw",
+    "1:absorb",
+    "4:peck",
+    "8:pinmissile",
+    "12:leechseed",
+    "15:doublekick",
+    "18:spikes",
+    "21:naturalgift",
+    "24:endeavor",
+    "28:irondefense",
+    "32:tropkick",
+    "35:synthesis",
+    "38:steelwing",
+    "43:spikyshield",
+    "48:gyroball",
+    "53:powerwhip",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:roost",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:steelwing",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:rockslide",
+    "tm:grassknot",
+    "tm:substitute",
+    "egg:gigadrain",
+    "egg:aromatherapy",
+    "egg:poisonsting",
+    "egg:bravebird",
+    "egg:leafblade",
+    "tutor:aircutter",
+    "tutor:gigadrain",
+    "tutor:hurricane",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:secretpower",
+    "tutor:seedbomb",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:synthesis",
+    "tutor:worryseed"  ],
+  "labels": [
+    "xenoverse",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.donanas.desc"
+  ],
+  "baseScale": 0.3375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 3280,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

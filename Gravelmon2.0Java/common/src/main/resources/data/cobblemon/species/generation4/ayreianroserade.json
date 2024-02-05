@@ -1,0 +1,157 @@
+{
+  "implemented": true,
+  "name": "ayreianroserade",
+  "nationalPokedexNumber": 407,
+  "primaryType": "steel",
+  "secondaryType": "poison",
+  "abilities": [
+    "steelyspirit",
+    "poisontouch",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 105,
+    "defence": 75,
+    "special_attack": 115,
+    "special_defence": 60,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "moves": [
+    "1:toxicspikes",
+    "1:poisonsting",
+    "1:bulletpunch",
+    "4:growth",
+    "8:bide",
+    "12:irondefense",
+    "20:poisonjab",
+    "24:needlearm",
+    "28:magnetbomb",
+    "34:toxic",
+    "38:healorder",
+    "42:barbbarrage",
+    "46:ironhead",
+    "50:curse",
+    "56:gunkshot",
+    "62:doubleironbash",
+    "tutor:attract",
+    "tutor:bodyslam",
+    "tutor:bulletseed",
+    "tutor:confide",
+    "tutor:covet",
+    "tutor:cut",
+    "tutor:dazzlinggleam",
+    "tutor:doubleteam",
+    "tutor:endure",
+    "tutor:energyball",
+    "tutor:facade",
+    "tutor:frustration",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:grassknot",
+    "tutor:grassyglide",
+    "tutor:grassyterrain",
+    "tutor:hiddenpower",
+    "tutor:hyperbeam",
+    "tutor:laserfocus",
+    "tutor:leafstorm",
+    "tutor:magicalleaf",
+    "tutor:naturepower",
+    "tutor:pinmissile",
+    "tutor:poisonjab",
+    "tutor:powerwhip",
+    "tutor:protect",
+    "tutor:psychup",
+    "tutor:raindance",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:roundsound",
+    "tutor:seedbomb",
+    "tutor:shadowball",
+    "tutor:sleeptalksound",
+    "tutor:sludgebomb",
+    "tutor:snoresound",
+    "tutor:solarbeam",
+    "tutor:spikes",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:swiftcosmic",
+    "tutor:swordsdance",
+    "tutor:synthesis",
+    "tutor:toxic",
+    "tutor:toxicspikes",
+    "tutor:uproar",
+    "tutor:venomdrench",
+    "tutor:venoshock",
+    "tutor:weatherball",
+    "tutor:worryseed",
+    "egg:cottonspore",
+    "egg:sleeppowder",
+    "egg:razorleaf",
+    "egg:extrasensory",
+    "egg:lifedew"  ],
+  "labels": [
+    "gen4",
+    "vanguard",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianroserade.desc"
+  ],
+  "preEvolution": "ayreianroselia",
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 20,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

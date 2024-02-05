@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoennianmareanie-1",
+      "pokemon": "hoennianmareanie",
+      "presets": [
+          "amethyst_geode"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "10-41",
+      "weight": 9.0,
+      "condition": {
+        "canSeeSky": false
+      }
+    }
+  ]
+}

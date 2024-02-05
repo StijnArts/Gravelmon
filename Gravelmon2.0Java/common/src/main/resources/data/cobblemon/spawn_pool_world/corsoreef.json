@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "corsoreef-1",
+      "pokemon": "corsoreef",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "43-67",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_reef" ]
+      }
+    }
+  ]
+}

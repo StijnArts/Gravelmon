@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreianspinarak-1",
+      "pokemon": "ayreianspinarak",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-25",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_forest" ]
+      }
+    }
+  ]
+}

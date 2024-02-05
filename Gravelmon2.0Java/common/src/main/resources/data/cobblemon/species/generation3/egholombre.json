@@ -1,0 +1,169 @@
+{
+  "implemented": true,
+  "name": "egholombre",
+  "nationalPokedexNumber": 271,
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "abilities": [
+    "harvest",
+    "h:dryskin"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 119,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 39,
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "moves": [
+    "1:heavyslam",
+    "1:sweetscent",
+    "1:mudslap",
+    "3:metalclaw",
+    "5:recycle",
+    "7:ember",
+    "11:stockpile",
+    "13:refresh",
+    "14:bulletpunch",
+    "15:incinerate",
+    "19:naturalgift",
+    "23:ironhead",
+    "26:sunnyday",
+    "30:protect",
+    "36:flamethrower",
+    "44:teeterdance",
+    "48:energyball",
+    "52:fierydance",
+    "60:aromatherapy",
+    "66:overheat",
+    "tm:calmmind",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:roundsound",
+    "tm:overheat",
+    "tm:energyball",
+    "tm:scald",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:incinerate",
+    "tm:flash",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:workup",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:wildcharge",
+    "tm:bulletseed",
+    "tm:strength",
+    "tm:cinderbreath",
+    "tutor:firepunch",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:magnetrise",
+    "tutor:seedbomb",
+    "tutor:stealthrock",
+    "tutor:thunderpunch",
+    "egg:aromatherapy",
+    "egg:gigadrain",
+    "egg:hydropump",
+    "egg:leechseed",
+    "egg:petalblizzard",
+    "egg:spikes",
+    "egg:synthesis"  ],
+  "labels": [
+    "infinity",
+    "gen3",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.egholombre.desc"
+  ],
+  "preEvolution": "egholotad",
+  "evolutions": [
+    {
+      "id": "egholombre_egholudicolo",
+      "variant": "item_interact",
+      "result": "egholudicolo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone"   
+ }
+  ],
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 735,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

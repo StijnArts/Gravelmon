@@ -1,0 +1,152 @@
+{
+  "implemented": true,
+  "name": "amazeallsudowoodo",
+  "nationalPokedexNumber": 185,
+  "primaryType": "steel",
+  "secondaryType": "psychic",
+  "abilities": [
+    "lightningrod",
+    "h:heavymetal"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 40,
+    "defence": 75,
+    "special_attack": 100,
+    "special_defence": 105,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 65,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 144,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 26,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:confuseray",
+    "1:confusion",
+    "1:payback",
+    "1:sunnyday",
+    "1:tackle",
+    "1:weatherball",
+    "12:imprison",
+    "16:gyroball",
+    "20:hypnosis",
+    "24:safeguard",
+    "28:extrasensory",
+    "32:heavyslam",
+    "38:irondefense",
+    "44:metalsound",
+    "50:futuresight",
+    "56:raindance",
+    "tm:takedown",
+    "tm:protect",
+    "tm:psybeam",
+    "tm:confuseray",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:bulldoze",
+    "tm:hex",
+    "tm:rocktomb",
+    "tm:storedpower",
+    "tm:nightshade",
+    "tm:endure",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:sandstorm",
+    "tm:psyshock",
+    "tm:zenheadbutt",
+    "tm:bodyslam",
+    "tm:sleeptalksound",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:rockblast",
+    "tm:grassknot",
+    "tm:stompingtantrum",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:bodypress",
+    "tm:imprison",
+    "tm:flashcannon",
+    "tm:skillswap",
+    "tm:ironhead",
+    "tm:powergemcrystal",
+    "tm:substitute",
+    "tm:irondefense",
+    "tm:trick",
+    "tm:shadowball",
+    "tm:stealthrock",
+    "tm:psychic",
+    "tm:heavyslam",
+    "tm:icespinner",
+    "tm:calmmind",
+    "tm:helpinghand",
+    "tm:psychicterrain",
+    "tm:earthquake",
+    "tm:gigaimpact",
+    "tm:trickroom",
+    "tm:hyperbeam",
+    "tm:solarbeam",
+    "tm:steelbeam",
+    "tm:terablast",
+    "egg:curse",
+    "egg:defensecurl",
+    "egg:harden",
+    "egg:headbutt",
+    "egg:rockpolish",
+    "egg:rollout"  ],
+  "labels": [
+    "lockemon",
+    "gen2",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.amazeallsudowoodo.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 285,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

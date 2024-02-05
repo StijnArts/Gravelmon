@@ -1,0 +1,113 @@
+{
+  "implemented": true,
+  "name": "narvalor",
+  "nationalPokedexNumber": 1341,
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "abilities": [
+    "torrent",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 125,
+    "defence": 95,
+    "special_attack": 75,
+    "special_defence": 65,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 264,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:slash",
+    "1:sacredsword",
+    "4:growl",
+    "8:watergun",
+    "11:focusenergy",
+    "15:razorshell",
+    "20:furycutter",
+    "24:iceshard",
+    "28:haze",
+    "32:aquajet",
+    "37:aquatail",
+    "41:iciclecrash",
+    "45:swordsdance",
+    "48:nightslash",
+    "62:megahorn",
+    "68:closecombat",
+    "egg:closecombat",
+    "egg:aquaring",
+    "egg:tackle",
+    "egg:brickbreak",
+    "egg:bulkup",
+    "egg:iciclespear",
+    "egg:hydropump",
+    "egg:icywind",
+    "egg:waterpulse",
+    "egg:brine",
+    "egg:swagger",
+    "egg:supersonic",
+    "egg:mist"  ],
+  "labels": [
+    "opal",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.narvalor.desc"
+  ],
+  "preEvolution": "norspear",
+  "baseScale": 0.35625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 52,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

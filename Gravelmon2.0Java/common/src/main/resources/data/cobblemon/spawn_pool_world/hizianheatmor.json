@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hizianheatmor-1",
+      "pokemon": "hizianheatmor",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-48",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_wasteland",
+"#cobblemon:is_nether_crimson" ]
+      }
+    }
+  ]
+}

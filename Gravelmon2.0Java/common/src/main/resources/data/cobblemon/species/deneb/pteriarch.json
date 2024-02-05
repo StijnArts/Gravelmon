@@ -1,0 +1,145 @@
+{
+  "implemented": true,
+  "name": "pteriarch",
+  "nationalPokedexNumber": 2555,
+  "primaryType": "rock",
+  "secondaryType": "flying",
+  "abilities": [
+    "intimidate",
+    "h:sturdy"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 130,
+    "defence": 75,
+    "special_attack": 55,
+    "special_defence": 60,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 200,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:bite",
+    "1:quickattack",
+    "1:supersonic",
+    "1:ancientpower",
+    "1:dragonpulse",
+    "7:ancientpower",
+    "13:feintattack",
+    "16:pursuit",
+    "19:steelwing",
+    "22:agility",
+    "28:rockslide",
+    "34:crunch",
+    "37:workup",
+    "40:scaryface",
+    "43:stoneedge",
+    "49:roost",
+    "55:bravebird",
+    "67:rockwrecker",
+    "tm:swordsdance",
+    "tm:airslash",
+    "tm:headbutt",
+    "tm:rockslide",
+    "tm:dragonrush",
+    "tm:shadowclaw",
+    "tm:substitute",
+    "tm:irontail",
+    "tm:irondefense",
+    "tm:bravebird",
+    "tm:brickbreak",
+    "tm:mudbomb",
+    "tm:woodhammer",
+    "tm:heatwave",
+    "tm:focusblast",
+    "tm:willowisp",
+    "tm:nightslash",
+    "tm:featherdance",
+    "tm:fly",
+    "tm:strength",
+    "tm:rocksmash",
+    "tutor:rest",
+    "tutor:hiddenpower",
+    "tutor:toxic",
+    "tutor:iciclecrash",
+    "egg:aircutter",
+    "egg:closecombat",
+    "egg:doubleedge",
+    "egg:dragondance",
+    "egg:dragonrage",
+    "egg:drillrun",
+    "egg:facade",
+    "egg:focusenergy",
+    "egg:mirrormove",
+    "egg:protect",
+    "egg:rage",
+    "egg:raindance",
+    "egg:sandstorm",
+    "egg:silverwind",
+    "egg:skyattack",
+    "egg:sunnyday",
+    "egg:swagger",
+    "egg:twister",
+    "egg:typhoon",
+    "egg:wingattack"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.pteriarch.desc"
+  ],
+  "preEvolution": "ptervus",
+  "baseScale": 0.6,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 32,
+  "weight": 2246,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltafroslass-1",
+      "pokemon": "deltafroslass",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "34-58",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_desert" ]
+      }
+    }
+  ]
+}

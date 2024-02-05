@@ -1,0 +1,89 @@
+{
+  "implemented": true,
+  "name": "bravelry",
+  "nationalPokedexNumber": 1970,
+  "primaryType": "fighting",
+  "abilities": [
+    "angerpoint",
+    "h:reckless"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 85,
+    "defence": 50,
+    "special_attack": 65,
+    "special_defence": 50,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 82,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tailwhip",
+    "8:lowkick",
+    "11:stomp",
+    "20:jumpkick",
+    "24:highhorsepower",
+    "29:takedown",
+    "33:bulkup",
+    "37:reversal",
+    "40:agility",
+    "46:highjumpkick",
+    "56:superpower"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bravelry.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

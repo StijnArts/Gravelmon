@@ -1,0 +1,121 @@
+{
+  "implemented": true,
+  "name": "aereon",
+  "nationalPokedexNumber": 2471,
+  "primaryType": "flying",
+  "abilities": [
+    "airlock",
+    "h:drizzle"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 65,
+    "special_defence": 120,
+    "speed": 115
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 184,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:gust",
+    "1:growl",
+    "3:peck",
+    "3:quickattack",
+    "6:glare",
+    "12:wish",
+    "15:bounce",
+    "18:quickattack",
+    "20:waterpulse",
+    "21:aircannon",
+    "24:calmmind",
+    "27:airslash",
+    "29:toxic",
+    "32:tailwind",
+    "36:silverwind",
+    "40:defog",
+    "42:weatherball",
+    "47:extremespeed",
+    "51:roost",
+    "57:hurricane",
+    "61:recover",
+    "egg:charm",
+    "egg:flail",
+    "egg:endure",
+    "egg:curse",
+    "egg:tickle",
+    "egg:wish",
+    "egg:yawn",
+    "egg:faketears",
+    "egg:covet",
+    "egg:detect",
+    "egg:naturalgift",
+    "egg:storedpower",
+    "egg:synchronoise",
+    "egg:captivate",
+    "egg:doublekick",
+    "egg:mudslap",
+    "egg:dragonpulse",
+    "egg:waterpulse",
+    "egg:icywind",
+    "egg:magicalleaf",
+    "egg:dragonclaw",
+    "egg:skullbash"  ],
+  "labels": [
+    "myth",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.aereon.desc"
+  ],
+  "baseScale": 0.1875,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 169,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

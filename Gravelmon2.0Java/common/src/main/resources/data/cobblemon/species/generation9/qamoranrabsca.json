@@ -1,0 +1,98 @@
+{
+  "implemented": true,
+  "name": "qamoranrabsca",
+  "nationalPokedexNumber": 954,
+  "primaryType": "ground",
+  "secondaryType": "psychic",
+  "abilities": [
+    "levitate",
+    "h:telepathy"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 50,
+    "defence": 100,
+    "special_attack": 115,
+    "special_defence": 85,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:confusion",
+    "1:harden",
+    "1:hyperbeam",
+    "1:mudslap",
+    "1:rapidspin",
+    "1:teleport",
+    "9:rocktomb",
+    "12:powertrick",
+    "15:psybeam",
+    "18:ancientpower",
+    "21:imprison",
+    "24:cosmicpower",
+    "27:extrasensory",
+    "30:earthpower",
+    "33:selfdestruct",
+    "38:guardsplit",
+    "38:powersplit",
+    "43:sandstorm",
+    "48:explosion"  ],
+  "labels": [
+    "qamor",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.qamoranrabsca.desc"
+  ],
+  "baseScale": 0.1125,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

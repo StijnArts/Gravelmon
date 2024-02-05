@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "tarandible",
+  "nationalPokedexNumber": 2160,
+  "primaryType": "bug",
+  "secondaryType": "dark",
+  "abilities": [
+    "intimidate",
+    "battlearmor",
+    "h:sandrush"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 95,
+    "defence": 117,
+    "special_attack": 53,
+    "special_defence": 77,
+    "speed": 71
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:bonerush",
+    "1:shadowbone",
+    "1:infestation",
+    "1:harden",
+    "1:stringshot",
+    "1:bite",
+    "12:bugbite",
+    "17:protect",
+    "21:knockoff",
+    "25:rockpolish",
+    "30:suckerpunch",
+    "34:dig",
+    "38:scaryface",
+    "43:lunge",
+    "47:crunch",
+    "51:stickyweb",
+    "56:megahorn"  ],
+  "labels": [
+    "flux",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.tarandible.desc"
+  ],
+  "preEvolution": "cuspide",
+  "baseScale": 0.1875,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 450,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

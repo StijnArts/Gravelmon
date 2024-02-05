@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "mysticbewear",
+  "nationalPokedexNumber": 760,
+  "primaryType": "normal",
+  "secondaryType": "ghost",
+  "abilities": [
+    "cursedbody",
+    "unaware",
+    "h:cutecharm"
+  ],
+  "baseStats": {
+    "hp": 125,
+    "attack": 120,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 60,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:leer",
+    "1:scratch",
+    "4:torment",
+    "8:honeclaws",
+    "12:shadowsneak",
+    "16:curse",
+    "20:taunt",
+    "24:knockoff",
+    "28:spite",
+    "32:agility",
+    "36:shadowclaw",
+    "40:doubleedge",
+    "44:swordsdance",
+    "48:drainpunch"  ],
+  "labels": [
+    "azure",
+    "gen7",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mysticbewear.desc"
+  ],
+  "baseScale": 0.39375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 1350,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

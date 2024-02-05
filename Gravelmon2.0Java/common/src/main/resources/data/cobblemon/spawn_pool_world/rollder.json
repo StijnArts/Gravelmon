@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rollder-1",
+      "pokemon": "rollder",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "12-28",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands",
+"#cobblemon:is_hills" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

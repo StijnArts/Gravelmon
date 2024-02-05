@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "sandrill",
+  "nationalPokedexNumber": 2635,
+  "primaryType": "ground",
+  "abilities": [
+    "sandveil",
+    "h:sandrush"
+  ],
+  "baseStats": {
+    "hp": 81,
+    "attack": 115,
+    "defence": 120,
+    "special_attack": 59,
+    "special_defence": 65,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 193,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:sandattack",
+    "1:scratch",
+    "1:defensecurl",
+    "1:superfang",
+    "1:poisonsting",
+    "3:defensecurl",
+    "7:poisonsting",
+    "9:rapidspin",
+    "13:twineedle",
+    "15:swiftcosmic",
+    "19:furyswipes",
+    "21:rollout",
+    "22:crushclaw",
+    "26:bulldoze",
+    "29:xscissor",
+    "34:sandtomb",
+    "36:drillrun",
+    "39:stoneedge",
+    "46:sandstorm",
+    "58:earthquake",
+    "63:fissure",
+    "tm:swordsdance",
+    "tm:spikes",
+    "tm:headbutt",
+    "tm:rockslide",
+    "tm:shadowclaw",
+    "tm:substitute",
+    "tm:poisonjab",
+    "tm:irontail",
+    "tm:irondefense",
+    "tm:brickbreak",
+    "tm:mudbomb",
+    "tm:focusblast",
+    "tm:nightslash",
+    "tm:cut",
+    "tm:strength",
+    "tm:rocksmash",
+    "tutor:dig",
+    "tutor:hiddenpower",
+    "tutor:rest",
+    "tutor:toxic",
+    "tutor:iciclecrash",
+    "egg:aerialace",
+    "egg:counter",
+    "egg:crosspoison",
+    "egg:crushclaw",
+    "egg:dig",
+    "egg:dragonclaw",
+    "egg:earthpower",
+    "egg:endure",
+    "egg:flail",
+    "egg:focusenergy",
+    "egg:honeclaws",
+    "egg:hyperfang",
+    "egg:knockoff",
+    "egg:metalclaw",
+    "egg:mudshot",
+    "egg:mudslap",
+    "egg:needlearm",
+    "egg:rapidspin",
+    "egg:rockclimb",
+    "egg:safeguard",
+    "egg:sandstorm",
+    "egg:seismictoss",
+    "egg:submission",
+    "egg:sunnyday",
+    "egg:superfang",
+    "egg:tickle"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sandrill.desc"
+  ],
+  "preEvolution": "sandslash",
+  "baseScale": 0.2625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 802,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

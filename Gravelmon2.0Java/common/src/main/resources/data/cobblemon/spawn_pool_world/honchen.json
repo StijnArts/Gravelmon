@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "honchen-1",
+      "pokemon": "honchen",
+      "presets": [
+          "water_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "rare",
+      "level": "31-55",
+      "weight": 2.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo" ],
+        "isRaining": false,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

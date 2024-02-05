@@ -1,0 +1,162 @@
+{
+  "implemented": true,
+  "name": "deltagoomy",
+  "nationalPokedexNumber": 704,
+  "primaryType": "ground",
+  "secondaryType": "water",
+  "abilities": [
+    "overcoat",
+    "waterabsorb",
+    "h:gooey"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 35,
+    "special_attack": 55,
+    "special_defence": 75,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:mudslap",
+    "1:watergun",
+    "5:snoresound",
+    "9:mudsport",
+    "13:waterpulse",
+    "18:mudshot",
+    "25:raindance",
+    "28:mudbomb",
+    "32:acidarmor",
+    "38:muddywater",
+    "42:earthquake",
+    "tm:bulldoze",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:recycle",
+    "tm:brine",
+    "tm:skillswap",
+    "tm:embargo",
+    "tm:explosion",
+    "tm:payback",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:infestation",
+    "tm:secretpower",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:acid",
+    "tutor:block",
+    "tutor:counter",
+    "tutor:dig",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:gigadrain",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:roleplay",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:waterpulse",
+    "tutor:whirlpool",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen6",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltagoomy.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltagoomy_deltasliggoo",
+      "variant": "level_up",
+      "result": "deltasliggoo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 28,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,93 @@
+{
+  "implemented": true,
+  "name": "womblock",
+  "nationalPokedexNumber": 1567,
+  "primaryType": "normal",
+  "secondaryType": "rock",
+  "abilities": [
+    "strongjaw",
+    "rockhead",
+    "h:sandforce"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 90,
+    "defence": 120,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 0,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:defensecurl",
+    "10:rockthrow",
+    "14:bite",
+    "21:lightscreen",
+    "24:rockslide",
+    "29:helpinghand",
+    "31:hyperfang",
+    "38:stealthrock",
+    "42:trickroom",
+    "49:barrier",
+    "55:doubleedge",
+    "60:wideguard",
+    "65:headsmash"  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.womblock.desc"
+  ],
+  "baseScale": 0.2625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoenniandodrio-1",
+      "pokemon": "hoenniandodrio",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "31-47",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

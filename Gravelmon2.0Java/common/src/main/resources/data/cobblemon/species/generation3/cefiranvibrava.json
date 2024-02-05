@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "cefiranvibrava",
+  "nationalPokedexNumber": 329,
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 70,
+    "defence": 50,
+    "special_attack": 70,
+    "special_defence": 50,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:sonicboomsound",
+    "1:sandattack",
+    "1:feintattack",
+    "1:sandtomb",
+    "4:sandattack",
+    "7:feintattack",
+    "10:sandtomb",
+    "13:mudslap",
+    "17:tackle",
+    "21:signalbeam",
+    "25:rockslide",
+    "29:supersonic",
+    "34:screechsound",
+    "35:dragonbreath",
+    "39:bugbuzzsound",
+    "44:leechlife",
+    "49:boomburstsound"  ],
+  "labels": [
+    "gen3",
+    "opal",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranvibrava.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cefiranvibrava_CefiranFlygon",
+      "variant": "level_up",
+      "result": "CefiranFlygon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.20625,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 153,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

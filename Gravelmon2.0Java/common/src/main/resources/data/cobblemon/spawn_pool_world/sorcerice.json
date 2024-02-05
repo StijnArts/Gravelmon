@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sorcerice-1",
+      "pokemon": "sorcerice",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "41-51",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy",
+"#cobblemon:is_tundra" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

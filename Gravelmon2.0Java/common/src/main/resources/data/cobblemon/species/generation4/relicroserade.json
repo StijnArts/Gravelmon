@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "relicroserade",
+  "nationalPokedexNumber": 407,
+  "primaryType": "fairy",
+  "secondaryType": "fighting",
+  "abilities": [
+    "stamina",
+    "justified",
+    "h:leafguard"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 115,
+    "defence": 110,
+    "special_attack": 65,
+    "special_defence": 65,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:growl",
+    "4:tearfullook",
+    "7:lowsweep",
+    "11:detect",
+    "13:matblock",
+    "17:disarmingvoicesound",
+    "22:swordsdance",
+    "25:charm",
+    "28:brickbreak",
+    "30:drainingkiss",
+    "35:disable",
+    "38:smartstrike",
+    "42:moonblast",
+    "47:sacredsword",
+    "50:poisonjab",
+    "55:playrough",
+    "63:leafstorm",
+    "tm:workup",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:roundsound",
+    "tm:focusblast",
+    "tm:falseswipe",
+    "tm:brutalswing",
+    "tm:acrobatics",
+    "tm:shadowclaw",
+    "tm:psychup",
+    "tm:xscissor",
+    "tm:poisonjab",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:dazzlinggleam",
+    "tm:confide",
+    "tm:lowkick",
+    "tm:knockoff",
+    "tm:endeavor",
+    "tm:seedbomb",
+    "tm:superpower",
+    "tm:afteryou",
+    "tm:helpinghand",
+    "egg:captivate",
+    "egg:counter",
+    "egg:covet",
+    "egg:crosschop",
+    "egg:detect",
+    "egg:feint",
+    "egg:foresight",
+    "egg:present",
+    "egg:revenge",
+    "egg:wideguard",
+    "egg:wish"  ],
+  "labels": [
+    "phoenix_rising",
+    "gen4",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.relicroserade.desc"
+  ],
+  "preEvolution": "relicroselia",
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 187,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

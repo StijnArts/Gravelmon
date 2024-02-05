@@ -1,0 +1,124 @@
+{
+  "implemented": true,
+  "name": "smearglex",
+  "nationalPokedexNumber": 235,
+  "primaryType": "fairy",
+  "abilities": [
+    "immunity",
+    "sweetveil",
+    "h:stickyhold"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 20,
+    "defence": 35,
+    "special_attack": 20,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 88,
+  "experienceGroup": "fast",
+  "eggCycles": 26,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:lick",
+    "1:sweetscent",
+    "3:vinewhip",
+    "6:fairywind",
+    "9:sweetkiss",
+    "12:drainingkiss",
+    "15:aromatherapy",
+    "18:flail",
+    "21:refresh",
+    "24:charm",
+    "28:wringout",
+    "32:milkdrink",
+    "39:present",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:fling",
+    "tm:psychup",
+    "tm:substitute",
+    "tm:dazzlinggleam",
+    "tutor:secretpower",
+    "tutor:snoresound"  ],
+  "labels": [
+    "xenoverse",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.smearglex.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "smearglex_chientilly",
+      "variant": "item_interact",
+      "result": "chientilly",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:xenolith"   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 12,
+  "weight": 580,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

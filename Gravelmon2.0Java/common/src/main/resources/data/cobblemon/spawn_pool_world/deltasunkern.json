@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltasunkern-1",
+      "pokemon": "deltasunkern",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "8-25",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_crimson" ]
+      }
+    }
+  ]
+}

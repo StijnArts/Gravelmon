@@ -1,0 +1,141 @@
+{
+  "implemented": true,
+  "name": "mylomute",
+  "nationalPokedexNumber": 1653,
+  "primaryType": "normal",
+  "secondaryType": "ice",
+  "abilities": [
+    "vitalspirit",
+    "snowcloak",
+    "h:snowwarning"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 100,
+    "defence": 95,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 195,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "eggGroups": [
+    "amorphous",
+    "mineral"
+  ],
+  "moves": [
+    "1:blizzard",
+    "1:iciclecrash",
+    "1:growl",
+    "1:tackle",
+    "1:powdersnow",
+    "1:bite",
+    "1:icywind",
+    "1:howlsound",
+    "1:iceshard",
+    "1:headbutt",
+    "1:scaryface",
+    "1:icefang",
+    "1:crunch",
+    "1:agility",
+    "1:avalanche",
+    "1:hail",
+    "50:jetstrike",
+    "54:doubleedge",
+    "60:extremespeed",
+    "64:blizzard",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:gigaimpact",
+    "tm:frostbreath",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:substitute",
+    "egg:rockclimb",
+    "egg:odorsleuth",
+    "egg:freezedry",
+    "egg:beatup",
+    "egg:thunderfang",
+    "egg:playrough",
+    "tutor:aquatail",
+    "tutor:bounce",
+    "tutor:covet",
+    "tutor:helpinghand",
+    "tutor:hypervoicesound",
+    "tutor:icywind",
+    "tutor:secretpower",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:uproar"  ],
+  "labels": [
+    "xenoverse",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.mylomute.desc"
+  ],
+  "preEvolution": "hikiloo",
+  "baseScale": 0.3375,
+  "hitbox": {
+    "width": 3.0,
+    "height": 3.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 1200,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,9 +1,9 @@
-// 1.20.1	2024-02-04T12:13:01.3028436	Gravelmon/Model Definitions
+// 1.20.1	2024-02-04T15:43:50.3536923	Gravelmon/Model Definitions
 8a58a4786186f46fa85fd8af9dacd3ac2ff149d1 assets\gravelmon\models\item\spare_parts.json
 82682822322760bdeb84e6d4bb8663aaa7b6822c assets\gravelmon\models\item\mystic_stone.json
 3d1c5cd9d004b8afd47d6b9978ea93c5e5a167d2 assets\gravelmon\models\item\quantum_upgrade.json
-735242ebeab586dca95a29637405bd5c805efcf3 assets\gravelmon\models\item\magic_cookie.json
 4cbd469503a70cdca1d640f96f050c9477dee667 assets\gravelmon\blockstates\solid_stone_ore.json
+735242ebeab586dca95a29637405bd5c805efcf3 assets\gravelmon\models\item\magic_cookie.json
 22d725d091d8178e82c127a2909fb8216f70e614 assets\gravelmon\models\block\deepslate_solid_stone_ore.json
 4c7d6b0d6383ed3f790833c6048a6add02b83328 assets\gravelmon\models\item\astral_stone_ore_block_item.json
 6d2c65018fb47c4a6f1ac418912a0b202eef7e31 assets\gravelmon\models\item\xenolith.json

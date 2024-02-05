@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreianvanillite-1",
+      "pokemon": "ayreianvanillite",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-37",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_basalt",
+"#cobblemon:is_nether_wasteland" ]
+      }
+    }
+  ]
+}
