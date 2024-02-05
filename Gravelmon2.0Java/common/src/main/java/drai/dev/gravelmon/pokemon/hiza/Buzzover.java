@@ -15,14 +15,16 @@ public class Buzzover extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         40),
                 List.of(Ability.DEFEATIST), Ability.DEFEATIST,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Buzzover's weak wings make it unable to fly 5 feet above the ground, even a small breeze can knock them off the air."),
-                List.of(),
+                List.of(new EvolutionEntry("chopteran", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SUPERSONIC,1),
                         new MoveLearnSetEntry(Move.FLAIL,5),
@@ -30,14 +32,14 @@ public class Buzzover extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AIR_CUTTER,25)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING,Biome.IS_AUTUMN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Buzzover");
+        setCanFly(true);
 
     }
 

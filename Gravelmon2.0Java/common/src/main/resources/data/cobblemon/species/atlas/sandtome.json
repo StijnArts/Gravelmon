@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandtome",
-  "nationalPokedexNumber": 3021,
+  "nationalPokedexNumber": 3040,
   "primaryType": "ground",
   "abilities": [
     "sandveil",
@@ -112,8 +112,8 @@
   "preEvolution": "sandan",
   "baseScale": 0.73125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
   "baseFriendship": 70,

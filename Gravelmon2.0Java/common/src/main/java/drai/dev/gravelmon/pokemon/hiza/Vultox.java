@@ -15,14 +15,16 @@ public class Vultox extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         35),
                 List.of(Ability.BIG_PECKS), Ability.STENCH,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.DRAGON),
                 List.of("They learn to survive alone when they are still very young. Unable to digest fresh fruit, Vultox uses acid to melt its food before eating."),
-                List.of(),
+                List.of(new EvolutionEntry("carriotten", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.ACID,5),
@@ -84,14 +86,15 @@ public class Vultox extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLY,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 26, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Vultox");
+        setCanFly(true);
 
     }
 

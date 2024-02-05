@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vespark",
-  "nationalPokedexNumber": 1417,
+  "nationalPokedexNumber": 1438,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -88,8 +88,8 @@
   ],
   "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

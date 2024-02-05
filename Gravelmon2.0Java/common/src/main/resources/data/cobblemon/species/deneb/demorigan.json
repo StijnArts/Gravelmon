@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "demorigan",
-  "nationalPokedexNumber": 2766,
+  "nationalPokedexNumber": 2785,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -91,8 +91,8 @@
   "preEvolution": "demiddul",
   "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

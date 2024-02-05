@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slingray",
-  "nationalPokedexNumber": 2400,
+  "nationalPokedexNumber": 2419,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -108,8 +108,8 @@
   "preEvolution": "remoraid",
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

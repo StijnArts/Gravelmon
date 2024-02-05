@@ -15,7 +15,7 @@ public class Babroote extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         98),
                 List.of(Ability.QUICK_FEET), Ability.GORILLA_TACTICS,
-                8, 165,
+                17, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 223, ExperienceGroup.MEDIUM_SLOW,
@@ -39,8 +39,8 @@ public class Babroote extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,59)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 58, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

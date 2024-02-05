@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bearvoyance",
-  "nationalPokedexNumber": 2288,
+  "nationalPokedexNumber": 2307,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -78,8 +78,8 @@
   "preEvolution": "oracub",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

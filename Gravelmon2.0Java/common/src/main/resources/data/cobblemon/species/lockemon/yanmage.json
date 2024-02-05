@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yanmage",
-  "nationalPokedexNumber": 2291,
+  "nationalPokedexNumber": 2310,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -106,8 +106,8 @@
   "preEvolution": "kaskadianyanma",
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

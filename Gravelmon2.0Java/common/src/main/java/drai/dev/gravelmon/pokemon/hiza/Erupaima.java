@@ -15,7 +15,7 @@ public class Erupaima extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         100),
                 List.of(Ability.FIREPROOF), Ability.FIREPROOF,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,1,0,1), 60,
                 0.5,
                 180, ExperienceGroup.SLOW,
@@ -61,14 +61,16 @@ public class Erupaima extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_BLAST,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 37, 58, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERLAVA),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Erupaima");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

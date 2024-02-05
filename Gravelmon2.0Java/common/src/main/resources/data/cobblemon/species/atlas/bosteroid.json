@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bosteroid",
-  "nationalPokedexNumber": 2876,
+  "nationalPokedexNumber": 2895,
   "primaryType": "fighting",
   "abilities": [
     "sheerforce",
@@ -106,8 +106,8 @@
   "preEvolution": "muscolin",
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

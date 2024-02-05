@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "silviper",
-  "nationalPokedexNumber": 2396,
+  "nationalPokedexNumber": 2415,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -111,8 +111,8 @@
   "preEvolution": "seviper",
   "baseScale": 0.7125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lylapse",
-  "nationalPokedexNumber": 2563,
+  "nationalPokedexNumber": 2582,
   "primaryType": "ground",
   "abilities": [
     "pressure",
@@ -89,8 +89,8 @@
   ],
   "baseScale": 0.4125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

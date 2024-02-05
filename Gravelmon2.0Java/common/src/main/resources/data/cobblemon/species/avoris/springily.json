@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "springily",
-  "nationalPokedexNumber": 1715,
+  "nationalPokedexNumber": 1736,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -87,8 +87,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

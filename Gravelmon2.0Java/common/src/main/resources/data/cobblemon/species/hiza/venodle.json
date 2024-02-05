@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "venodle",
-  "nationalPokedexNumber": 2029,
+  "nationalPokedexNumber": 2050,
   "primaryType": "poison",
   "abilities": [
     "shedskin",
@@ -69,10 +69,25 @@
   "pokedex": [
     "cobblemon.species.venodle.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "venodle_rattletack",
+      "variant": "level_up",
+      "result": "rattletack",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 160
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -84,7 +99,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 6,
   "weight": 165,
   "aspects": [],
 "features": [

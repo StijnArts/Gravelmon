@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "setoshiba",
-  "nationalPokedexNumber": 2730,
+  "nationalPokedexNumber": 2749,
   "primaryType": "normal",
   "abilities": [
     "rivalry",
@@ -84,8 +84,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

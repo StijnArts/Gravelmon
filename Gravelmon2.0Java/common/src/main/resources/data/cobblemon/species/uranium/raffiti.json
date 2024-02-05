@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raffiti",
-  "nationalPokedexNumber": 1838,
+  "nationalPokedexNumber": 1859,
   "primaryType": "dark",
   "abilities": [
     "insomnia",
@@ -100,8 +100,8 @@
   "preEvolution": "ratsy",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

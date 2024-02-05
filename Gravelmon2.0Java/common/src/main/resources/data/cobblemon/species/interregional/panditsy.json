@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "panditsy",
-  "nationalPokedexNumber": 1331,
+  "nationalPokedexNumber": 1352,
   "primaryType": "normal",
   "abilities": [
     "owntempo",
@@ -76,8 +76,8 @@
   ],
   "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

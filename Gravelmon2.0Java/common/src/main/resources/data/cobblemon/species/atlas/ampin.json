@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ampin",
-  "nationalPokedexNumber": 2949,
+  "nationalPokedexNumber": 2968,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
@@ -106,8 +106,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

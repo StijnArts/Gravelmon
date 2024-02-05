@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "opakespiel",
-  "nationalPokedexNumber": 2229,
+  "nationalPokedexNumber": 2248,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -78,8 +78,8 @@
   "preEvolution": "specoey",
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

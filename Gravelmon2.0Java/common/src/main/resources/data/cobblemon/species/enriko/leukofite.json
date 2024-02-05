@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leukofite",
-  "nationalPokedexNumber": 1592,
+  "nationalPokedexNumber": 1613,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -75,8 +75,8 @@
   "preEvolution": "lymfite",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

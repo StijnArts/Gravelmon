@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dashean",
-  "nationalPokedexNumber": 2205,
+  "nationalPokedexNumber": 2224,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
@@ -215,8 +215,8 @@
   "preEvolution": "pomara",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "disructor",
-  "nationalPokedexNumber": 1408,
+  "nationalPokedexNumber": 1429,
   "primaryType": "electric",
   "secondaryType": "poison",
   "abilities": [
@@ -141,8 +141,8 @@
   "preEvolution": "erradio",
   "baseScale": 0.8625,
   "hitbox": {
-    "width": 1.1538461538461537,
-    "height": 1.1538461538461537,
+    "width": 5.0,
+    "height": 5.0,
     "fixed": false
   },
   "baseFriendship": 70,

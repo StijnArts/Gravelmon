@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tyranos",
-  "nationalPokedexNumber": 2558,
+  "nationalPokedexNumber": 2577,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -134,8 +134,8 @@
   ],
   "baseScale": 1.21875,
   "hitbox": {
-    "width": 1.7307692307692306,
-    "height": 1.7307692307692306,
+    "width": 7.0,
+    "height": 7.0,
     "fixed": false
   },
   "baseFriendship": 70,

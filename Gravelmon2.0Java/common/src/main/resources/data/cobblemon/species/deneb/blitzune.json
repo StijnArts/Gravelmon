@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blitzune",
-  "nationalPokedexNumber": 2516,
+  "nationalPokedexNumber": 2535,
   "primaryType": "electric",
   "secondaryType": "fairy",
   "abilities": [
@@ -121,8 +121,8 @@
   "preEvolution": "plasmox",
   "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

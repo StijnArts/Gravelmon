@@ -15,14 +15,16 @@ public class Heaxen extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         60),
                 List.of(Ability.SUPER_LUCK), Ability.UNBURDEN,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 56, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Their fantastic hearing allow them to never be caught by surprise, they can hear the whole forest even while asleep."),
-                List.of(),
+                List.of(new EvolutionEntry("aurinel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.ECHOED_VOICE,4),
@@ -40,10 +42,10 @@ public class Heaxen extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,42)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

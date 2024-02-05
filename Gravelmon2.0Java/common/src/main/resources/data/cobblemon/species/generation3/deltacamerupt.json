@@ -49,8 +49,8 @@
       ],
       "baseScale": 0.48,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -194,8 +194,8 @@
   "preEvolution": "deltanumel",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

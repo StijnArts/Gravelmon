@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ganera",
-  "nationalPokedexNumber": 1949,
+  "nationalPokedexNumber": 1970,
   "primaryType": "psychic",
   "abilities": [
     "telepathy",
@@ -62,15 +62,18 @@
     "60:recover"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ganera.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "sagephant",
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -82,7 +85,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 20,
   "weight": 165,
   "aspects": [],
 "features": [

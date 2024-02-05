@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wogglejr",
-  "nationalPokedexNumber": 1523,
+  "nationalPokedexNumber": 1544,
   "primaryType": "fighting",
   "abilities": [
     "thickfat",
@@ -67,8 +67,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

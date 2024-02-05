@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "koalashi",
-  "nationalPokedexNumber": 2747,
+  "nationalPokedexNumber": 2766,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -85,8 +85,8 @@
   "preEvolution": "dakkoala",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

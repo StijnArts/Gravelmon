@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "porcupin",
-  "nationalPokedexNumber": 1915,
+  "nationalPokedexNumber": 1936,
   "primaryType": "poison",
   "secondaryType": "normal",
   "abilities": [
@@ -97,10 +97,25 @@
   "pokedex": [
     "cobblemon.species.porcupin.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "porcupin_anniquil",
+      "variant": "level_up",
+      "result": "anniquil",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -112,7 +127,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 6,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -15,7 +15,7 @@ public class Frazzelle extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         124),
                 List.of(Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 160, ExperienceGroup.MEDIUM_SLOW,
@@ -39,8 +39,8 @@ public class Frazzelle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEGAHORN,53)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 15, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

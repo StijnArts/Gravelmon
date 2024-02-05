@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kangaloop",
-  "nationalPokedexNumber": 1939,
+  "nationalPokedexNumber": 1960,
   "primaryType": "normal",
   "abilities": [
     "scrappy",
@@ -60,15 +60,18 @@
     "51:highjumpkick"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kangaloop.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "pogoroo",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -80,7 +83,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

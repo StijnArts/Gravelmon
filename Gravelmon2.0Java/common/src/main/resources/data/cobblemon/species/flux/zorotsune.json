@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zorotsune",
-  "nationalPokedexNumber": 2157,
+  "nationalPokedexNumber": 2176,
   "primaryType": "ghost",
   "abilities": [
     "illusion",
@@ -77,8 +77,8 @@
   "preEvolution": "alteranzorua",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

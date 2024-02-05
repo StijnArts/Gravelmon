@@ -15,7 +15,7 @@ public class Garbadjinn extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         15),
                 List.of(Ability.GLUTTONY,Ability.STICKY_HOLD,Ability.SWEET_VEIL), Ability.SWEET_VEIL,
-                8, 165,
+                21, 165,
                 new Stats(2,0,0,0,0,0), 225,
                 0.0,
                 142, ExperienceGroup.MEDIUM_SLOW,
@@ -98,11 +98,12 @@ public class Garbadjinn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Garbadjinn");

@@ -15,7 +15,7 @@ public class Bearver extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         70),
                 List.of(Ability.SWIFT_SWIM), Ability.CHEEK_POUCH,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 149, ExperienceGroup.MEDIUM_FAST,
@@ -38,11 +38,11 @@ public class Bearver extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,60)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bearver");

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stinginger",
-  "nationalPokedexNumber": 1379,
+  "nationalPokedexNumber": 1400,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -143,8 +143,8 @@
   "preEvolution": "buroot",
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

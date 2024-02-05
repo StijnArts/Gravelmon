@@ -15,14 +15,16 @@ public class Gunkile extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         52),
                 List.of(Ability.STRONG_JAW), Ability.STRONG_JAW,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
                 List.of("Gunkile can inject a powerful poison by latching onto larger fish and take them down. They can also use this technique to cross strong currents by using other fish's strenght."),
-                List.of(),
+                List.of(new EvolutionEntry("crocoxic", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.BITE,3),
@@ -39,14 +41,15 @@ public class Gunkile extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,58)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 33, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Gunkile");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "taquana",
-  "nationalPokedexNumber": 1946,
+  "nationalPokedexNumber": 1967,
   "primaryType": "grass",
   "abilities": [
     "multiscale",
@@ -61,15 +61,18 @@
     "55:hyperbeam"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.taquana.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "scalivid",
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -81,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

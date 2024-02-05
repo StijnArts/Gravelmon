@@ -7,16 +7,15 @@
       "id": "catastropod-1",
       "pokemon": "catastropod",
       "presets": [
-          "natural"
+          "underlava"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "surface",
+      "bucket": "ultra-rare",
+      "level": "65-75",
+      "weight": 2.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#minecraft:is_nether" ],
         "canSeeSky": true
       }
     }

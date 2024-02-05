@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "osstrike",
-  "nationalPokedexNumber": 3010,
+  "nationalPokedexNumber": 3029,
   "primaryType": "fighting",
   "abilities": [
     "quickfeet",
@@ -107,8 +107,8 @@
   ],
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harmorial",
-  "nationalPokedexNumber": 2824,
+  "nationalPokedexNumber": 2843,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -110,8 +110,8 @@
   "preEvolution": "foutune",
   "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

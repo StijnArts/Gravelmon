@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "imploda",
-  "nationalPokedexNumber": 2975,
+  "nationalPokedexNumber": 2994,
   "primaryType": "fire",
   "abilities": [
     "aftermath",
@@ -152,8 +152,8 @@
   "preEvolution": "impie",
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

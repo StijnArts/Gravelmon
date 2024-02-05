@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eldoredo",
-  "nationalPokedexNumber": 2967,
+  "nationalPokedexNumber": 2986,
   "primaryType": "rock",
   "secondaryType": "steel",
   "abilities": [
@@ -113,8 +113,8 @@
   "preEvolution": "piragmid",
   "baseScale": 0.4125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "truculony",
-  "nationalPokedexNumber": 1445,
+  "nationalPokedexNumber": 1466,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -136,8 +136,8 @@
   "preEvolution": "anemeany",
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

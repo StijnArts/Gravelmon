@@ -15,8 +15,8 @@ public class Mesmoth extends drai.dev.gravelmon.pokemon.Pokemon {
                         93,
                         83),
                 List.of(Ability.NO_GUARD), Ability.MAGIC_GUARD,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -36,13 +36,14 @@ public class Mesmoth extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHO_SHIFT,47)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 24, 36, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Mesmoth");
 
     }

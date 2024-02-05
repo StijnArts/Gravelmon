@@ -264,14 +264,11 @@ public class Pokemon {
         this.spawnPresets = spawnPresets;
         this.baseScale = Math.max((height*1.5) /10/8,0.1);
         if(height/10 > 10){
-            this.hitboxWidth = 5;
-            this.hitboxHeight = 5;
-        } else if(height/10 < 4){
-            this.hitboxWidth = 3;
-            this.hitboxHeight = 3;
+            this.hitboxWidth = 8;
+            this.hitboxHeight = 8;
         } else {
-            this.hitboxWidth = (height/10 * 1.5) / 4 / 1.3;
-            this.hitboxHeight = (height/10 * 1.5) / 4 / 1.3;
+            this.hitboxWidth = height;
+            this.hitboxHeight = height;
         }
         this.portraitScale = 0.3;
         pokemonRegistry.add(this);
@@ -279,11 +276,11 @@ public class Pokemon {
 
     public static void scanEvolutions() {
         var evaluatedMons = new ArrayList<>();
-        var pokemonWithZeroCatchrate = "Pokemon with 0 catch-rate: ";
-        var pokemonWithZeroBaseStats = "Pokemon with 0 Base Stats: ";
+        StringBuilder pokemonWithZeroCatchrate = new StringBuilder("Pokemon with 0 catch-rate: ");
+        StringBuilder pokemonWithZeroBaseStats = new StringBuilder("Pokemon with 0 Base Stats: ");
         for (Pokemon pokemon : pokemonRegistry) {
-            if(pokemon.getCatchRate() == 0) pokemonWithZeroCatchrate += pokemon.getCleanName()+",\n";
-            if(pokemon.getStats().getTotal() == 0) pokemonWithZeroBaseStats += pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()+": "+pokemon.getCleanName()+",\n";
+            if(pokemon.getCatchRate() == 0) pokemonWithZeroCatchrate.append(pokemon.getCleanName()).append(",\n");
+            if(pokemon.getStats().getTotal() == 0) pokemonWithZeroBaseStats.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
                 Pokemon result = pokemonRegistry.stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
                 if(result != null){
@@ -312,13 +309,13 @@ public class Pokemon {
             }
             var evaluatedForms = new ArrayList<>();
             for (PokemonForm form : pokemon.getForms()) {
-                if(pokemon.getCatchRate() == 0) pokemonWithZeroCatchrate += pokemon.getCleanName() + ", Aspect: " + form.getAspects() +",\n";
-                if(form.getStats().getTotal() == 0) pokemonWithZeroBaseStats += form.getLabels().stream().findFirst().orElse(Label.MISSING).getName()+": "+pokemon.getCleanName()+ ", Aspect: " + form.getAspects() +",\n";
+                if(pokemon.getCatchRate() == 0) pokemonWithZeroCatchrate.append(pokemon.getCleanName()).append(", Aspect: ").append(form.getAspects()).append(",\n");
+                if(form.getStats().getTotal() == 0) pokemonWithZeroBaseStats.append(form.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", Aspect: ").append(form.getAspects()).append(",\n");
                 for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
                     String resultName = evolutionEntry.getResult();
                     PokemonForm result = pokemonRegistry.stream()
                             .filter(p -> p.getName().equalsIgnoreCase(resultName))
-                            .map(pokemon1 -> pokemon1.getForms()).flatMap(List::stream).filter(pokemonForm -> new HashSet<>(pokemonForm.getAspects()).containsAll(evolutionEntry.getAspects())).findFirst().orElse(null);
+                            .map(Pokemon::getForms).flatMap(List::stream).filter(pokemonForm -> new HashSet<>(pokemonForm.getAspects()).containsAll(evolutionEntry.getAspects())).findFirst().orElse(null);
                     if (result != null) {
 
                         if (evaluatedForms.contains(result)) continue;
@@ -348,8 +345,9 @@ public class Pokemon {
         for (Label label : pokemon.labels) {
             String generationLabel = "gen";
             for (int i = 1; i < 10; i++) {
-                if(label.getName().equalsIgnoreCase(generationLabel+i)){
+                if (label.getName().equalsIgnoreCase(generationLabel + i)) {
                     isEvoOfAPreviousPokemon = true;
+                    break;
                 }
             }
         }

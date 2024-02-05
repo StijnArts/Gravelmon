@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "twydra",
-  "nationalPokedexNumber": 2107,
+  "nationalPokedexNumber": 2126,
   "primaryType": "fire",
   "secondaryType": "ice",
   "abilities": [
@@ -49,18 +49,36 @@
     "dragon"
   ],
   "moves": [
-  ],
+    "1:lick",
+    "1:ember",
+    "4:smog",
+    "7:taunt",
+    "10:assurance",
+    "13:icefang",
+    "17:firefang",
+    "21:headbutt",
+    "25:screechsound",
+    "28:flamecharge",
+    "32:swagger",
+    "36:iciclespear",
+    "41:uproar",
+    "50:gunkshot",
+    "egg:haze",
+    "egg:blizzard"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.twydra.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "duomeleon",
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +90,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 21,
   "weight": 165,
   "aspects": [],
 "features": [

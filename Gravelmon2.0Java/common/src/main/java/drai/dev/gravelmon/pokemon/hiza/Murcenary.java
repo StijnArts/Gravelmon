@@ -15,7 +15,7 @@ public class Murcenary extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         112),
                 List.of(Ability.LIMBER,Ability.IRON_FIST,Ability.SKILL_LINK), Ability.SKILL_LINK,
-                8, 165,
+                19, 165,
                 new Stats(0,0,0,0,0,3), 45,
                 0.5,
                 225, ExperienceGroup.MEDIUM_FAST,
@@ -41,8 +41,8 @@ public class Murcenary extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOCUS_PUNCH,50)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 37, 52, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chopteran",
-  "nationalPokedexNumber": 2011,
+  "nationalPokedexNumber": 2032,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -60,15 +60,18 @@
     "60:boomburstsound"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chopteran.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "buzzover",
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -80,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

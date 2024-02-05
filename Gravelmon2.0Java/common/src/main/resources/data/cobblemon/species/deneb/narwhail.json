@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "narwhail",
-  "nationalPokedexNumber": 2501,
+  "nationalPokedexNumber": 2520,
   "primaryType": "ice",
   "abilities": [
     "waterabsorb",
@@ -124,8 +124,8 @@
   "preEvolution": "dorfin",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "florascent",
-  "nationalPokedexNumber": 1546,
+  "nationalPokedexNumber": 1567,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -71,8 +71,8 @@
   "preEvolution": "bulberry",
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barkana",
-  "nationalPokedexNumber": 1986,
+  "nationalPokedexNumber": 2007,
   "primaryType": "grass",
   "secondaryType": "normal",
   "abilities": [
@@ -60,15 +60,18 @@
     "56:lastresort"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.barkana.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "banup",
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -80,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

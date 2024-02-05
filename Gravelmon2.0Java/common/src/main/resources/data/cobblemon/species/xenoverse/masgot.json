@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "masgot",
-  "nationalPokedexNumber": 1644,
+  "nationalPokedexNumber": 1665,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -54,8 +54,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -160,8 +160,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -267,8 +267,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -374,8 +374,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -481,8 +481,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -588,8 +588,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -695,8 +695,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -802,8 +802,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -909,8 +909,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -1016,8 +1016,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -1123,8 +1123,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -1230,8 +1230,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -1337,8 +1337,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -1444,8 +1444,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -1551,8 +1551,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -1658,8 +1658,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -1765,8 +1765,8 @@
       ],
       "baseScale": 0.075,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -1922,8 +1922,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

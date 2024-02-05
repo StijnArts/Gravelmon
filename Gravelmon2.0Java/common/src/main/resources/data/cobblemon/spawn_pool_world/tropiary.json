@@ -7,16 +7,16 @@
       "id": "tropiary-1",
       "pokemon": "tropiary",
       "presets": [
-          "natural"
+          "urban",
+          "foliage"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "33-55",
+      "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_spring" ],
         "canSeeSky": true
       }
     }

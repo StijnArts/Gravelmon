@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gnabling",
-  "nationalPokedexNumber": 1899,
+  "nationalPokedexNumber": 1920,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -101,10 +101,25 @@
   "pokedex": [
     "cobblemon.species.gnabling.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "gnabling_beastalk",
+      "variant": "level_up",
+      "result": "beastalk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 14
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -116,7 +131,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

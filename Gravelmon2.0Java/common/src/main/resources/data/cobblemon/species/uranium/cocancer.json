@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cocancer",
-  "nationalPokedexNumber": 1798,
+  "nationalPokedexNumber": 1819,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -141,8 +141,8 @@
   "preEvolution": "cararalm",
   "baseScale": 0.69375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
   "baseFriendship": 70,

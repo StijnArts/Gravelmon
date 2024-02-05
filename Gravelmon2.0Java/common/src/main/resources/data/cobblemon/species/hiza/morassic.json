@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "morassic",
-  "nationalPokedexNumber": 1901,
+  "nationalPokedexNumber": 1922,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -109,15 +109,18 @@
     "tm:dragondance"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.morassic.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "beastalk",
+  "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -129,7 +132,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 23,
   "weight": 165,
   "aspects": [],
 "features": [

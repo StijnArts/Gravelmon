@@ -22,7 +22,9 @@ public class Parabella extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("During their mating season, people are advised to stay out of the water. Their tentacles can deliver a powerful sting that instantly paralyzes."),
-                List.of(),
+                List.of(new EvolutionEntry("drizzella", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,3),
@@ -39,14 +41,17 @@ public class Parabella extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,55)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 22, 36, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.MAXY,"30")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Parabella");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

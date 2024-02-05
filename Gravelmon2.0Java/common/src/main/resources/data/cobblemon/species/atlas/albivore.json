@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "albivore",
-  "nationalPokedexNumber": 2865,
+  "nationalPokedexNumber": 2884,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -120,8 +120,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

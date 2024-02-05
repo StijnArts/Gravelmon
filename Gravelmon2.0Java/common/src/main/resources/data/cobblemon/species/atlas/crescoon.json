@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crescoon",
-  "nationalPokedexNumber": 2839,
+  "nationalPokedexNumber": 2858,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -81,8 +81,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

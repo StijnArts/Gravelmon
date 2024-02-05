@@ -102,8 +102,8 @@
   "preEvolution": "hoennianeelektrik",
   "baseScale": 3.54375,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 8.0,
+    "height": 8.0,
     "fixed": false
   },
   "baseFriendship": 70,

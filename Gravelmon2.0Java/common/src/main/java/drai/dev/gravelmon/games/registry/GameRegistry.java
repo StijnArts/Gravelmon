@@ -24,6 +24,7 @@ public class GameRegistry {
         games.add(new Sage());
         games.add(new Realidea());
         games.add(new Infinity());
+        games.add(new HUB());
         games.add(new Interregional());
         games.add(new Opal());
         games.add(new Ferroa());

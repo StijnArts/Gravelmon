@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flatriarch",
-  "nationalPokedexNumber": 1471,
+  "nationalPokedexNumber": 1492,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -161,8 +161,8 @@
   "preEvolution": "tadpunk",
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

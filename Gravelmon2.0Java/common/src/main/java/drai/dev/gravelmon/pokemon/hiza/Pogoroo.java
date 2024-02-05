@@ -22,7 +22,9 @@ public class Pogoroo extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.HUMAN_LIKE),
                 List.of("They use their spring like tail to move around at impressive speeds, their feet barely ever touch the ground and is mostly used for combat."),
-                List.of(),
+                List.of(new EvolutionEntry("kangaloop", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,7),
@@ -36,8 +38,8 @@ public class Pogoroo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HIGH_JUMP_KICK,46)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

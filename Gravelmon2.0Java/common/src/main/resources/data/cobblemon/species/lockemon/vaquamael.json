@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vaquamael",
-  "nationalPokedexNumber": 2225,
+  "nationalPokedexNumber": 2244,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -79,8 +79,8 @@
   "preEvolution": "spoutlaw",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

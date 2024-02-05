@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wickvine",
-  "nationalPokedexNumber": 2930,
+  "nationalPokedexNumber": 2949,
   "primaryType": "dark",
   "secondaryType": "grass",
   "abilities": [
@@ -137,8 +137,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

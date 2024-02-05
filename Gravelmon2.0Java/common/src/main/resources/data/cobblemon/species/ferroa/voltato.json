@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "voltato",
-  "nationalPokedexNumber": 1489,
+  "nationalPokedexNumber": 1510,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -157,8 +157,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

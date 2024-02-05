@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cheecub",
-  "nationalPokedexNumber": 3016,
+  "nationalPokedexNumber": 3035,
   "primaryType": "electric",
   "abilities": [
     "quickfeet",
@@ -118,8 +118,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

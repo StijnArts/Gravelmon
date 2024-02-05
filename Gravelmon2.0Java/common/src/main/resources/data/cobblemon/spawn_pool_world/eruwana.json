@@ -7,16 +7,15 @@
       "id": "eruwana-1",
       "pokemon": "eruwana",
       "presets": [
-          "natural"
+          "underlava"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "7-33",
+      "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#minecraft:is_nether" ],
         "canSeeSky": true
       }
     }

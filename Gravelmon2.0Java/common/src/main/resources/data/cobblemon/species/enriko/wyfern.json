@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wyfern",
-  "nationalPokedexNumber": 1615,
+  "nationalPokedexNumber": 1636,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -74,8 +74,8 @@
   "preEvolution": "strelair",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

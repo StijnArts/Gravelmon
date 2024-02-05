@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "manecore",
-  "nationalPokedexNumber": 1928,
+  "nationalPokedexNumber": 1949,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -64,15 +64,18 @@
     "45:gunkshot"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.manecore.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "needlion",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -84,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

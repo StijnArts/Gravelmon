@@ -15,14 +15,16 @@ public class Sandray extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         42),
                 List.of(Ability.WATER_COMPACTION), Ability.STORM_DRAIN,
-                8, 165,
+                7, 165,
                 new Stats(0,0,1,0,0,0), 225,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Sandray can change its color to blend with the ambient. Finding one in the shore is almost impossible."),
-                List.of(),
+                List.of(new EvolutionEntry("sandozer", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,3),
@@ -64,14 +66,16 @@ public class Sandray extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_SLIDE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sandray");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

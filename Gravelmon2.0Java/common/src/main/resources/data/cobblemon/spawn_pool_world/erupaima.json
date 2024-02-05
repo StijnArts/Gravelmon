@@ -7,16 +7,15 @@
       "id": "erupaima-1",
       "pokemon": "erupaima",
       "presets": [
-          "natural"
+          "underlava"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "37-58",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#minecraft:is_nether" ],
         "canSeeSky": true
       }
     }

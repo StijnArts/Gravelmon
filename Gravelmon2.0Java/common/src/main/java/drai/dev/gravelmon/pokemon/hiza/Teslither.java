@@ -15,14 +15,16 @@ public class Teslither extends drai.dev.gravelmon.pokemon.Pokemon {
                         32,
                         115),
                 List.of(Ability.MOTOR_DRIVE), Ability.MOTOR_DRIVE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.DRAGON),
                 List.of("They like to hide inside underwater holes which most creatures can't fit. When startled they create a paralysing field to run away."),
-                List.of(),
+                List.of(new EvolutionEntry("aampeel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,4),
@@ -37,14 +39,16 @@ public class Teslither extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER,40)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 7, 26, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Teslither");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

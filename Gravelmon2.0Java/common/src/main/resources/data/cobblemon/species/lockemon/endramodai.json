@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "endramodai",
-  "nationalPokedexNumber": 2317,
+  "nationalPokedexNumber": 2336,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
@@ -136,8 +136,8 @@
   ],
   "baseScale": 3.0,
   "hitbox": {
-    "width": 5.0,
-    "height": 5.0,
+    "width": 8.0,
+    "height": 8.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -15,14 +15,16 @@ public class Frozeal extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         60),
                 List.of(Ability.ICE_BODY), Ability.PERMAFROST,
-                8, 165,
+                15, 165,
                 new Stats(0,0,1,1,0,0), 120,
                 0.5,
                 119, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("The icy chunks on its body can never melt. It uses its icy breath to freeze alive fish that are too fast for it."),
-                List.of(),
+                List.of(new EvolutionEntry("hauntberg", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.ENCORE,7),
@@ -38,14 +40,15 @@ public class Frozeal extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLIZZARD,55)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 25, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_FROZEN_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Frozeal");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "levitato",
-  "nationalPokedexNumber": 1490,
+  "nationalPokedexNumber": 1511,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -151,8 +151,8 @@
   "preEvolution": "voltato",
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

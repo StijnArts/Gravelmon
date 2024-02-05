@@ -15,14 +15,15 @@ public class Nezutama extends drai.dev.gravelmon.pokemon.Pokemon {
                         73,
                         40),
                 List.of(Ability.OBLIVIOUS), Ability.OBLIVIOUS,
-                8, 165,
+                10, 165,
                 new Stats(1,0,1,0,0,0), 180,
                 0.5,
                 152, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
                 List.of("Often hides itself among clutches of Eggs. It can use its weak electric abilities to sense the health of an unhatched Egg."),
-                List.of(),
+                List.of(new EvolutionEntry("nuzzeltama", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,7),
@@ -77,8 +78,8 @@ public class Nezutama extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOFTBOILED,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

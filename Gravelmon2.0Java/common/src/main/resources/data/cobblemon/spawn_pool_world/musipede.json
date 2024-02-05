@@ -7,16 +7,15 @@
       "id": "musipede-1",
       "pokemon": "musipede",
       "presets": [
-          "natural"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
+      "bucket": "rare",
+      "level": "13-54",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_forest" ],
         "canSeeSky": true
       }
     }

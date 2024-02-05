@@ -15,7 +15,7 @@ public class Najaconda extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         80),
                 List.of(Ability.SHED_SKIN,Ability.PRESSURE,Ability.SAND_RUSH), Ability.SAND_RUSH,
-                8, 165,
+                21, 165,
                 new Stats(0,1,1,1,0,0), 45,
                 0.5,
                 239, ExperienceGroup.MEDIUM_FAST,
@@ -40,8 +40,8 @@ public class Najaconda extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUNK_SHOT,61)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 42, 64, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

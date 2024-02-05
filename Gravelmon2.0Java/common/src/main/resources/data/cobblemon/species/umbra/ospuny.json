@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ospuny",
-  "nationalPokedexNumber": 2336,
+  "nationalPokedexNumber": 2355,
   "primaryType": "flying",
   "abilities": [
     "bigpecks",
@@ -119,8 +119,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

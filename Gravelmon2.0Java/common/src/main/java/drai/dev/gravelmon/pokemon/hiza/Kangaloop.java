@@ -15,7 +15,7 @@ public class Kangaloop extends drai.dev.gravelmon.pokemon.Pokemon {
                         82,
                         110),
                 List.of(Ability.SCRAPPY), Ability.OWN_TEMPO,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,0,0,2), 75,
                 0.5,
                 169, ExperienceGroup.MEDIUM_FAST,
@@ -36,8 +36,8 @@ public class Kangaloop extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HIGH_JUMP_KICK,51)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Ripwreck extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         91),
                 List.of(Ability.DRIZZLE), Ability.STRONG_JAW,
-                8, 165,
+                67, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 182, ExperienceGroup.MEDIUM_FAST,
@@ -41,14 +41,17 @@ public class Ripwreck extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_EDGE,69)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 41, 65, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.MAXY,"30")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Ripwreck");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

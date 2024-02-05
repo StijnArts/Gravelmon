@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shroudra",
-  "nationalPokedexNumber": 2056,
+  "nationalPokedexNumber": 2075,
   "primaryType": "dragon",
   "secondaryType": "dark",
   "abilities": [
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -49,18 +49,36 @@
     "water_2"
   ],
   "moves": [
-  ],
+    "1:leer",
+    "1:smokescreen",
+    "1:twister",
+    "1:watergun",
+    "1:whirlpool",
+    "1:yawn",
+    "15:focusenergy",
+    "20:dragonbreath",
+    "25:bubblebeam",
+    "30:agility",
+    "37:waterpulse",
+    "44:dragonpulse",
+    "51:hydropump",
+    "58:dragondance",
+    "65:raindance",
+    "72:wavecrash"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.shroudra.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "luminay",
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +90,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

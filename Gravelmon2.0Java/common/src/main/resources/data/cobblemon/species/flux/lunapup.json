@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunapup",
-  "nationalPokedexNumber": 2128,
+  "nationalPokedexNumber": 2147,
   "primaryType": "ground",
   "secondaryType": "fighting",
   "abilities": [
@@ -97,8 +97,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

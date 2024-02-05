@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "feroceros",
-  "nationalPokedexNumber": 2544,
+  "nationalPokedexNumber": 2563,
   "primaryType": "steel",
   "secondaryType": "ground",
   "abilities": [
@@ -119,8 +119,8 @@
   "preEvolution": "rynos",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

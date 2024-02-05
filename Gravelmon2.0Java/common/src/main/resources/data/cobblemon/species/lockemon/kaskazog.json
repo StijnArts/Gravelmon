@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kaskazog",
-  "nationalPokedexNumber": 2244,
+  "nationalPokedexNumber": 2263,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
@@ -84,8 +84,8 @@
   "preEvolution": "tofrug",
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

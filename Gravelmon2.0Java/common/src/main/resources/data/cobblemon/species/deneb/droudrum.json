@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "droudrum",
-  "nationalPokedexNumber": 2614,
+  "nationalPokedexNumber": 2633,
   "primaryType": "fire",
   "abilities": [
     "drought",
@@ -127,8 +127,8 @@
   "preEvolution": "droudrop",
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

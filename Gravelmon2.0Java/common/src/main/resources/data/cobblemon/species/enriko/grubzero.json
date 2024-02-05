@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grubzero",
-  "nationalPokedexNumber": 1616,
+  "nationalPokedexNumber": 1637,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
@@ -79,8 +79,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

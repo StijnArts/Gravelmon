@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aampeel",
-  "nationalPokedexNumber": 1935,
+  "nationalPokedexNumber": 1956,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -62,15 +62,18 @@
     "45:thunder"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.aampeel.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "teslither",
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -82,7 +85,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 9,
   "weight": 165,
   "aspects": [],
 "features": [

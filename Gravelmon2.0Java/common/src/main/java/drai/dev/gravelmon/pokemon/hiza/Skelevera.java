@@ -15,14 +15,16 @@ public class Skelevera extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         50),
                 List.of(Ability.CURSED_BODY), Ability.CURSED_BODY,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.HUMAN_LIKE),
                 List.of("This Pokémon was at first believed to be a human brought back to life through dark magic. The colored parts of its body are actually a sticky goop that hold the bones it collects together."),
-                List.of(),
+                List.of(new EvolutionEntry("orcleton", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
                         new MoveLearnSetEntry(Move.BONE_CLUB,6),
@@ -39,11 +41,11 @@ public class Skelevera extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONEMERANG,46)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 30, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Skelevera");

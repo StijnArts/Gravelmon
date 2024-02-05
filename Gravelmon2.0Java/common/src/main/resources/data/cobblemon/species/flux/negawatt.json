@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "negawatt",
-  "nationalPokedexNumber": 2170,
+  "nationalPokedexNumber": 2189,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -80,8 +80,8 @@
   "preEvolution": "insulatex",
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

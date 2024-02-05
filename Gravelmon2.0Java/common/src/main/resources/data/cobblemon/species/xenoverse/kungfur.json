@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kungfur",
-  "nationalPokedexNumber": 1643,
+  "nationalPokedexNumber": 1664,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -139,8 +139,8 @@
   "preEvolution": "yemin",
   "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

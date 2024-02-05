@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flaringo",
-  "nationalPokedexNumber": 1999,
+  "nationalPokedexNumber": 2020,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -93,15 +93,31 @@
     "tm:fireblast"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.flaringo.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "heathling",
+  "evolutions": [
+    {
+      "id": "flaringo_infermingo",
+      "variant": "item_interact",
+      "result": "infermingo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone"   
+ }
+  ],
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -113,7 +129,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 9,
   "weight": 165,
   "aspects": [],
 "features": [

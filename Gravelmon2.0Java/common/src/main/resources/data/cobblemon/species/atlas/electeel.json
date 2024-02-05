@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "electeel",
-  "nationalPokedexNumber": 2807,
+  "nationalPokedexNumber": 2826,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -125,8 +125,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

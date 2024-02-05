@@ -15,7 +15,7 @@ public class Barbavelry extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         110),
                 List.of(Ability.ANGER_POINT), Ability.RECKLESS,
-                8, 165,
+                27, 165,
                 new Stats(0,0,0,0,0,2), 65,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -37,8 +37,8 @@ public class Barbavelry extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUPERPOWER,61)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 56, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

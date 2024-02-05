@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glaslug",
-  "nationalPokedexNumber": 1808,
+  "nationalPokedexNumber": 1829,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -138,8 +138,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

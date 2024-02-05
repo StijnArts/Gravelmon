@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rokunaito",
-  "nationalPokedexNumber": 2695,
+  "nationalPokedexNumber": 2714,
   "primaryType": "rock",
   "abilities": [
     "skilllink",
@@ -95,8 +95,8 @@
   "preEvolution": "dorisuton",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

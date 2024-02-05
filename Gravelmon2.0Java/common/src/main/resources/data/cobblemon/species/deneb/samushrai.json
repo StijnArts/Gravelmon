@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "samushrai",
-  "nationalPokedexNumber": 2652,
+  "nationalPokedexNumber": 2671,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -155,8 +155,8 @@
   "preEvolution": "shretainer",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

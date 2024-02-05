@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "obsidious",
-  "nationalPokedexNumber": 2293,
+  "nationalPokedexNumber": 2312,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -78,8 +78,8 @@
   ],
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

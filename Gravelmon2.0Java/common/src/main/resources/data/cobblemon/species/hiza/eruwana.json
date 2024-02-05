@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eruwana",
-  "nationalPokedexNumber": 2001,
+  "nationalPokedexNumber": 2022,
   "primaryType": "fire",
   "abilities": [
     "keeneye",
@@ -28,12 +28,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -87,10 +87,25 @@
   "pokedex": [
     "cobblemon.species.eruwana.desc"
   ],
+  "evolutions": [
+    {
+      "id": "eruwana_erupaima",
+      "variant": "level_up",
+      "result": "erupaima",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

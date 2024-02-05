@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ospredator",
-  "nationalPokedexNumber": 2338,
+  "nationalPokedexNumber": 2357,
   "primaryType": "flying",
   "secondaryType": "dark",
   "abilities": [
@@ -112,8 +112,8 @@
   "preEvolution": "osprowl",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

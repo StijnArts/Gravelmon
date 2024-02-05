@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cassnail",
-  "nationalPokedexNumber": 1802,
+  "nationalPokedexNumber": 1823,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -148,8 +148,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

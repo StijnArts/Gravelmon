@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shoxin",
-  "nationalPokedexNumber": 2382,
+  "nationalPokedexNumber": 2401,
   "primaryType": "poison",
   "secondaryType": "electric",
   "abilities": [
@@ -123,8 +123,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

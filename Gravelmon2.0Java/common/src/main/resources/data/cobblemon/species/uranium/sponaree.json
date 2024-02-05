@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sponaree",
-  "nationalPokedexNumber": 1783,
+  "nationalPokedexNumber": 1804,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
@@ -116,8 +116,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

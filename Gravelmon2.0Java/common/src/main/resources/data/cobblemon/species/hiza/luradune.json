@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luradune",
-  "nationalPokedexNumber": 2008,
+  "nationalPokedexNumber": 2029,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -48,7 +48,16 @@
 
   ],
   "moves": [
-  ],
+    "1:sandattack",
+    "1:scratch",
+    "5:harden",
+    "10:falseswipe",
+    "15:mudslap",
+    "21:absorb",
+    "25:metalclaw",
+    "30:furyswipes",
+    "35:mindreader",
+    "40:dig"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +65,25 @@
   "pokedex": [
     "cobblemon.species.luradune.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "luradune_tombarach",
+      "variant": "level_up",
+      "result": "tombarach",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +95,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

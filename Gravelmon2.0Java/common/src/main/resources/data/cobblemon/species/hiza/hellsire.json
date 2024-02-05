@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hellsire",
-  "nationalPokedexNumber": 2116,
+  "nationalPokedexNumber": 2135,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -48,7 +48,22 @@
     "undiscovered"
   ],
   "moves": [
-  ],
+    "1:incinerate",
+    "1:leer",
+    "1:stomp",
+    "1:sunnyday",
+    "7:firefang",
+    "14:howlsound",
+    "21:bite",
+    "28:dragonclaw",
+    "35:crushclaw",
+    "42:morningsun",
+    "56:dragonrush",
+    "63:fireblast",
+    "70:lavaplume",
+    "77:outrage",
+    "84:flareblitz",
+    "91:ragingfury"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +71,10 @@
   "pokedex": [
     "cobblemon.species.hellsire.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 1.05,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 56,
   "weight": 165,
   "aspects": [],
 "features": [

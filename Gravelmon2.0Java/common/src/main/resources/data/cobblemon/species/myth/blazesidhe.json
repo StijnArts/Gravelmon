@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blazesidhe",
-  "nationalPokedexNumber": 2444,
+  "nationalPokedexNumber": 2463,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -85,8 +85,8 @@
   "preEvolution": "caitfyr",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

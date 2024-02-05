@@ -111,8 +111,7 @@ public class Rotpot extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.FERROA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 42, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.MANSION),
                 0.28, 0.3,

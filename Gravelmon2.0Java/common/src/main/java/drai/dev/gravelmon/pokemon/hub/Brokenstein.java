@@ -15,14 +15,15 @@ public class Brokenstein extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         60),
                 List.of(Ability.RATTLED), Ability.KLUTZ,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 3,
                 0.0,
                 64, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("A failed experiment that was discarded by its creator. Its body appears to have been stitched together from various parts."),
-                List.of(),
+                List.of(new EvolutionEntry("monstricity", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"gravelmon:charged_conduit")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.ASTONISH,3),
@@ -87,11 +88,11 @@ public class Brokenstein extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Brokenstein");

@@ -7,17 +7,15 @@
       "id": "gargross-1",
       "pokemon": "gargross",
       "presets": [
-          "natural"
+          "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "6-27",
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky" ]
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wrigormort",
-  "nationalPokedexNumber": 1590,
+  "nationalPokedexNumber": 1611,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -70,8 +70,8 @@
   "preEvolution": "scavengore",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

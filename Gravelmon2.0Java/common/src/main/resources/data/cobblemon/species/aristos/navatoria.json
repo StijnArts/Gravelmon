@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "navatoria",
-  "nationalPokedexNumber": 1745,
+  "nationalPokedexNumber": 1766,
   "primaryType": "flying",
   "secondaryType": "water",
   "abilities": [
@@ -58,8 +58,8 @@
   ],
   "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

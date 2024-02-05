@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "discobrawl",
-  "nationalPokedexNumber": 1629,
+  "nationalPokedexNumber": 1650,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -70,8 +70,8 @@
   "preEvolution": "magelorb",
   "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

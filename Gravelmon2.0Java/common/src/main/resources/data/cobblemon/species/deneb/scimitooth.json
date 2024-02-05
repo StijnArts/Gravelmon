@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scimitooth",
-  "nationalPokedexNumber": 2557,
+  "nationalPokedexNumber": 2576,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -118,8 +118,8 @@
   "preEvolution": "grindon",
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

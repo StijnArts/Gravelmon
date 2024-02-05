@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hauntberg",
-  "nationalPokedexNumber": 2091,
+  "nationalPokedexNumber": 2110,
   "primaryType": "ice",
   "secondaryType": "ghost",
   "abilities": [
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -66,15 +66,18 @@
     "60:sheercold"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hauntberg.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "frozeal",
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -86,7 +89,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 18,
   "weight": 165,
   "aspects": [],
 "features": [

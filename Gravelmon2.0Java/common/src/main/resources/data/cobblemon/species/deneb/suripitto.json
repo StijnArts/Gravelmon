@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "suripitto",
-  "nationalPokedexNumber": 2762,
+  "nationalPokedexNumber": 2781,
   "primaryType": "psychic",
   "abilities": [
     "insomnia",
@@ -96,8 +96,8 @@
   ],
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -22,7 +22,9 @@ public class Eruwana extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Eruwana lives exclusively in scalding hot waters or even molten magma. It needs to keep its body temperature extremely high or else it will freeze."),
-                List.of(),
+                List.of(new EvolutionEntry("erupaima", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.EMBER,4),
@@ -59,14 +61,16 @@ public class Eruwana extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_BLAST,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 7, 33, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERLAVA),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Eruwana");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

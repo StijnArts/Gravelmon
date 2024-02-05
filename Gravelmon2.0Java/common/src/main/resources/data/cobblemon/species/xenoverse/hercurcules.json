@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hercurcules",
-  "nationalPokedexNumber": 1660,
+  "nationalPokedexNumber": 1681,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -121,8 +121,8 @@
   "preEvolution": "punchbug",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "matriwi",
-  "nationalPokedexNumber": 2060,
+  "nationalPokedexNumber": 2079,
   "primaryType": "normal",
   "abilities": [
     "parentalbond",
@@ -106,10 +106,10 @@
   "pokedex": [
     "cobblemon.species.matriwi.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -121,7 +121,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 7,
   "weight": 165,
   "aspects": [],
 "features": [

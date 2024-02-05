@@ -15,14 +15,16 @@ public class Mudian extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         75),
                 List.of(Ability.SWIFT_SWIM), Ability.DRY_SKIN,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 120, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Mudian will cover its body with mud before leaving their swamps, the mud protects their body against the harsh sunlight."),
-                List.of(),
+                List.of(new EvolutionEntry("goosmire", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.MUD_SHOT,4),
@@ -93,14 +95,14 @@ public class Mudian extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 32, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Mudian");
+        setCanFly(true);
 
     }
 

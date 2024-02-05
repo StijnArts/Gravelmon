@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jestreat",
-  "nationalPokedexNumber": 1972,
+  "nationalPokedexNumber": 1993,
   "primaryType": "fairy",
   "abilities": [
     "cutecharm",
@@ -37,7 +37,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -47,7 +47,21 @@
 
   ],
   "moves": [
-  ],
+    "1:astonish",
+    "1:copycat",
+    "1:scratch",
+    "1:splash",
+    "1:woodhammer",
+    "6:shadowsneak",
+    "12:doubleteam",
+    "18:babydolleyes",
+    "24:mimic",
+    "30:honeclaws",
+    "36:slash",
+    "42:shadowclaw",
+    "48:charm",
+    "54:playrough",
+    "60:painsplit"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -55,10 +69,23 @@
   "pokedex": [
     "cobblemon.species.jestreat.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "jestreat_jestrick",
+      "variant": "item_interact",
+      "result": "jestrick",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone"   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -70,7 +97,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 4,
   "weight": 165,
   "aspects": [],
 "features": [

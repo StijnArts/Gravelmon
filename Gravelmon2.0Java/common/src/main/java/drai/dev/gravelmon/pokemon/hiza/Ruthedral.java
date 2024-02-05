@@ -15,7 +15,7 @@ public class Ruthedral extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         75),
                 List.of(Ability.UNBURDEN), Ability.HOLY_GUARD,
-                8, 165,
+                16, 165,
                 new Stats(0,0,2,0,0,0), 60,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -37,15 +37,13 @@ public class Ruthedral extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_EDGE,61)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Ruthedral");
-
+        setCanFly(true);
     }
 
 

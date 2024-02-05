@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "voladillo",
-  "nationalPokedexNumber": 1903,
+  "nationalPokedexNumber": 1924,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -100,15 +100,33 @@
     "tm:heatwave"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.voladillo.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "kerodillo",
+  "evolutions": [
+    {
+      "id": "voladillo_flamaggedon",
+      "variant": "level_up",
+      "result": "flamaggedon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -120,7 +138,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

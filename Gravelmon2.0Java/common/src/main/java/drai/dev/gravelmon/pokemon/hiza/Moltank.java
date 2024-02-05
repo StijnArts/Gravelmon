@@ -15,7 +15,7 @@ public class Moltank extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         40),
                 List.of(Ability.MAGMA_ARMOR), Ability.BULLETPROOF,
-                8, 165,
+                33, 165,
                 new Stats(0,0,1,0,1,0), 150,
                 0.25,
                 150, ExperienceGroup.MEDIUM_FAST,
@@ -38,14 +38,15 @@ public class Moltank extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ERUPTION,59)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Moltank");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

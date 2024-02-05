@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pyrebolt",
-  "nationalPokedexNumber": 2101,
+  "nationalPokedexNumber": 2120,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -48,18 +48,49 @@
     "flying"
   ],
   "moves": [
-  ],
+    "1:ember",
+    "1:tackle",
+    "4:taunt",
+    "8:bite",
+    "12:incinerate",
+    "16:thundershock",
+    "20:firefang",
+    "24:headbutt",
+    "28:firepunch",
+    "32:uproar",
+    "36:thunderbolt",
+    "40:flareblitz",
+    "44:thrash",
+    "48:thunder"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pyrebolt.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "burstich",
+  "evolutions": [
+    {
+      "id": "pyrebolt_aviterate",
+      "variant": "level_up",
+      "result": "aviterate",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +102,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

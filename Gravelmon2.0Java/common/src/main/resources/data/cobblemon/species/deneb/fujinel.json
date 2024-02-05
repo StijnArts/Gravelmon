@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fujinel",
-  "nationalPokedexNumber": 2628,
+  "nationalPokedexNumber": 2647,
   "primaryType": "fire",
   "abilities": [
     "flashfire",
@@ -126,8 +126,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

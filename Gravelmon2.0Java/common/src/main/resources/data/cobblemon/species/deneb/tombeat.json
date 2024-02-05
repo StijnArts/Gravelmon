@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tombeat",
-  "nationalPokedexNumber": 2670,
+  "nationalPokedexNumber": 2689,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -95,8 +95,8 @@
   "preEvolution": "hyorhythm",
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

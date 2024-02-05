@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raccolossus",
-  "nationalPokedexNumber": 2460,
+  "nationalPokedexNumber": 2479,
   "primaryType": "poison",
   "secondaryType": "dragon",
   "abilities": [
@@ -80,8 +80,8 @@
   "preEvolution": "draccane",
   "baseScale": 0.39375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

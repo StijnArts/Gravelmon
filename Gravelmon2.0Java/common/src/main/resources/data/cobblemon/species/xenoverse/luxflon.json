@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luxflon",
-  "nationalPokedexNumber": 1711,
+  "nationalPokedexNumber": 1732,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -118,8 +118,8 @@
   ],
   "baseScale": 1.6875,
   "hitbox": {
-    "width": 2.5961538461538463,
-    "height": 2.5961538461538463,
+    "width": 10.0,
+    "height": 10.0,
     "fixed": false
   },
   "baseFriendship": 70,

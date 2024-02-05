@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scovilex",
-  "nationalPokedexNumber": 1668,
+  "nationalPokedexNumber": 1689,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -119,8 +119,8 @@
   "preEvolution": "scovile",
   "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 40,

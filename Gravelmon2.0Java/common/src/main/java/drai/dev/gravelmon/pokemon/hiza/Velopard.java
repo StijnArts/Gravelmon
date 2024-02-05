@@ -15,7 +15,7 @@ public class Velopard extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         118),
                 List.of(Ability.SNOW_CLOAK), Ability.SNOW_CLOAK,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 177, ExperienceGroup.SLOW,
@@ -83,8 +83,8 @@ public class Velopard extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 43, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

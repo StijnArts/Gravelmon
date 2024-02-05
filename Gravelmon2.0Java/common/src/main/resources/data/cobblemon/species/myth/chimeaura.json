@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chimeaura",
-  "nationalPokedexNumber": 2457,
+  "nationalPokedexNumber": 2476,
   "primaryType": "sound",
   "secondaryType": "steel",
   "abilities": [
@@ -74,8 +74,8 @@
   ],
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

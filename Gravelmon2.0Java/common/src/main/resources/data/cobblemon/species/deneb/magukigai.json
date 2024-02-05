@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magukigai",
-  "nationalPokedexNumber": 2748,
+  "nationalPokedexNumber": 2767,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -130,8 +130,8 @@
   "preEvolution": "magcargo",
   "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

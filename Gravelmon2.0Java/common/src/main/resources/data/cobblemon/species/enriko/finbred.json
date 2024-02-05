@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "finbred",
-  "nationalPokedexNumber": 1548,
+  "nationalPokedexNumber": 1569,
   "primaryType": "water",
   "abilities": [
     "strongjaw",
@@ -68,8 +68,8 @@
   "preEvolution": "gumuppi",
   "baseScale": 0.46875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

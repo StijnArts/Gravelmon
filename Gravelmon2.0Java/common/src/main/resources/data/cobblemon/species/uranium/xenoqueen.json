@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "xenoqueen",
-  "nationalPokedexNumber": 1868,
+  "nationalPokedexNumber": 1889,
   "primaryType": "nuclear",
   "abilities": [
     "damp",
@@ -116,8 +116,8 @@
   "preEvolution": "xenogen",
   "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

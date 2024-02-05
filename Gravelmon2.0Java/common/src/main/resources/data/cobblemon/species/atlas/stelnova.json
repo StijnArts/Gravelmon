@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stelnova",
-  "nationalPokedexNumber": 2948,
+  "nationalPokedexNumber": 2967,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -125,8 +125,8 @@
   "preEvolution": "caldona",
   "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "needoon",
-  "nationalPokedexNumber": 2992,
+  "nationalPokedexNumber": 3011,
   "primaryType": "bug",
   "secondaryType": "ghost",
   "abilities": [
@@ -123,8 +123,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

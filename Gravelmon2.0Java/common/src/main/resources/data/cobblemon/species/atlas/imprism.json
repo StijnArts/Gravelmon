@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "imprism",
-  "nationalPokedexNumber": 2978,
+  "nationalPokedexNumber": 2997,
   "primaryType": "ice",
   "abilities": [
     "slushrush",
@@ -153,8 +153,8 @@
   "preEvolution": "impie",
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

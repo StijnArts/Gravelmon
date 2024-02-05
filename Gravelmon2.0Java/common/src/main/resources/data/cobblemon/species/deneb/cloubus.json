@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cloubus",
-  "nationalPokedexNumber": 2616,
+  "nationalPokedexNumber": 2635,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
@@ -130,8 +130,8 @@
   "preEvolution": "clouff",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

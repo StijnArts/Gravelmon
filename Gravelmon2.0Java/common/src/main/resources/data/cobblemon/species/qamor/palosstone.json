@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "palosstone",
-  "nationalPokedexNumber": 2409,
+  "nationalPokedexNumber": 2428,
   "primaryType": "rock",
   "secondaryType": "ghost",
   "abilities": [
@@ -74,8 +74,8 @@
   "preEvolution": "qamoransandygast",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

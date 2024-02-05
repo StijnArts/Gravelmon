@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jemineye",
-  "nationalPokedexNumber": 2286,
+  "nationalPokedexNumber": 2305,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -74,8 +74,8 @@
   ],
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

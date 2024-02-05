@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shrimputy",
-  "nationalPokedexNumber": 1855,
+  "nationalPokedexNumber": 1876,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -131,8 +131,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

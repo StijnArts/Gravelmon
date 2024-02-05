@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mercenade",
-  "nationalPokedexNumber": 2655,
+  "nationalPokedexNumber": 2674,
   "primaryType": "steel",
   "secondaryType": "fighting",
   "abilities": [
@@ -132,8 +132,8 @@
   "preEvolution": "ambilade",
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

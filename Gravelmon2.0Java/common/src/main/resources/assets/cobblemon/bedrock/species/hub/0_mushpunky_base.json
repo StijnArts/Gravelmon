@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:mushpunky",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hub_mushpunky",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hub/mushpunky.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hub/mushpunky_shiny.png"
+    }  ]
+}

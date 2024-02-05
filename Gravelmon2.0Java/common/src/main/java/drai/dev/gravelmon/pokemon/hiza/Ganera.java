@@ -15,7 +15,7 @@ public class Ganera extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         48),
                 List.of(Ability.TELEPATHY,Ability.SYNCHRONIZE,Ability.OVERCOAT), Ability.OVERCOAT,
-                8, 165,
+                20, 165,
                 new Stats(1,0,2,0,0,0), 50,
                 0.5,
                 210, ExperienceGroup.MEDIUM_FAST,
@@ -38,8 +38,8 @@ public class Ganera extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,60)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 43, 59, .23, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

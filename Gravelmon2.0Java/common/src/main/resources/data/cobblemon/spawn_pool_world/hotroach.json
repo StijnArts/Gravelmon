@@ -7,17 +7,17 @@
       "id": "hotroach-1",
       "pokemon": "hotroach",
       "presets": [
-          "natural"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "33-53",
+      "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true,
+        "isRaining": false
       }
     }
   ]

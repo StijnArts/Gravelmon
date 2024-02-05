@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunatiken",
-  "nationalPokedexNumber": 1955,
+  "nationalPokedexNumber": 1976,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -48,18 +48,33 @@
     "flying"
   ],
   "moves": [
-  ],
+    "1:attract",
+    "1:gust",
+    "5:confusion",
+    "10:endeavor",
+    "15:aircutter",
+    "20:imprison",
+    "25:assurance",
+    "30:amnesia",
+    "35:airslash",
+    "40:psychic",
+    "45:calmmind",
+    "50:futuresight",
+    "55:simplebeam"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lunatiken.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "fowlkly",
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 14,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -7,17 +7,18 @@
       "id": "fulgnash-1",
       "pokemon": "fulgnash",
       "presets": [
-          "natural"
+          "trail_ruins",
+          "illager_structures"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "32-54",
+      "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_arid",
+"#cobblemon:is_temperate" ],
+        "timeRange": "night"
       }
     }
   ]

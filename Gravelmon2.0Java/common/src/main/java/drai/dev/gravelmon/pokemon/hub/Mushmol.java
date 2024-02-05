@@ -15,14 +15,16 @@ public class Mushmol extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         45),
                 List.of(Ability.EFFECT_SPORE,Ability.RATTLED,Ability.DAMP), Ability.DAMP,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Multiple patterns of Mushmol exist, but they co-exist peacefully. This particular Pattern is usually more lazy and spends the majority of time sleeping."),
-                List.of(),
+                List.of(new EvolutionEntry("mushpunky", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"13")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.ASTONISH,5),
@@ -81,13 +83,70 @@ public class Mushmol extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 15, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MUSHROOM)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
-                List.of());
+                List.of(new PokemonForm("NosePattern", true,
+                        Type.POISON,
+                        new Stats(60,
+                                50,
+                                50,
+                                50,
+                                50,
+                                45),
+                        List.of(Ability.EFFECT_SPORE,Ability.RATTLED,Ability.DAMP), Ability.DAMP,
+                        3, 165,
+                        new Stats(1,0,0,0,0,0), 255,
+                        0.5,
+                        62, ExperienceGroup.MEDIUM_SLOW,
+                        70,
+                        50, List.of(EggGroup.GRASS),
+                        List.of(Aspect.NOSE_PATTERN),
+                        List.of(),
+                        List.of(new EvolutionEntry("mushilly", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"13")))),
+                        List.of(
+                        ),
+                        List.of(Label.HUB),
+                        0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 15, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MUSHROOM)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3),
+                new PokemonForm("BrowPattern", true,
+                        Type.POISON,
+                        new Stats(60,
+                                50,
+                                50,
+                                50,
+                                50,
+                                45),
+                        List.of(Ability.EFFECT_SPORE,Ability.RATTLED,Ability.DAMP), Ability.DAMP,
+                        3, 165,
+                        new Stats(1,0,0,0,0,0), 255,
+                        0.5,
+                        62, ExperienceGroup.MEDIUM_SLOW,
+                        70,
+                        50, List.of(EggGroup.GRASS),
+                        List.of(Aspect.BROW_PATTERN),
+                        List.of(),
+                        List.of(new EvolutionEntry("mushcary", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"13")))),
+                        List.of(
+                        ),
+                        List.of(Label.HUB),
+                        0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 15, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MUSHROOM)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                        List.of(SpawnPreset.NATURAL),
+                        1.4, 0.3)));
            setLangFileName("Mushmol");
 
     }

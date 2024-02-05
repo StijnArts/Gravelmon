@@ -45,7 +45,6 @@ public class Luvanguish extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 39, 51, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

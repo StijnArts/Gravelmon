@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boxeroo",
-  "nationalPokedexNumber": 2322,
+  "nationalPokedexNumber": 2341,
   "primaryType": "fighting",
   "abilities": [
     "ironfist",
@@ -148,8 +148,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

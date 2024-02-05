@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "estoe",
-  "nationalPokedexNumber": 2260,
+  "nationalPokedexNumber": 2279,
   "primaryType": "psychic",
   "secondaryType": "poison",
   "abilities": [
@@ -85,8 +85,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

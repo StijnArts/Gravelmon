@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eggue",
-  "nationalPokedexNumber": 1551,
+  "nationalPokedexNumber": 1572,
   "primaryType": "poison",
   "abilities": [
     "poisonpoint",
@@ -92,8 +92,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

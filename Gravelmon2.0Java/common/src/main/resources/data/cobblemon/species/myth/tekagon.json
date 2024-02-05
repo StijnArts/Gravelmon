@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tekagon",
-  "nationalPokedexNumber": 2463,
+  "nationalPokedexNumber": 2482,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -80,8 +80,8 @@
   "preEvolution": "dredrock",
   "baseScale": 0.73125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
   "baseFriendship": 70,

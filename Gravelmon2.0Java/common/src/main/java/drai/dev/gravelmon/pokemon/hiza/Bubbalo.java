@@ -4,6 +4,8 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
+import static drai.dev.gravelmon.pokemon.attributes.conditions.SpawnPreset.NATURAL;
+
 public class Bubbalo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bubbalo() {
         super("Bubbalo",
@@ -15,14 +17,16 @@ public class Bubbalo extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         44),
                 List.of(Ability.TORRENT), Ability.ROCK_HEAD,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 45,
                 0.75,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("The fur collar around its neck acts as a buoy, allowing it freely cross riverbanks."),
-                List.of(),
+                List.of(new EvolutionEntry("bullfount", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.BUBBLE,6),
@@ -65,11 +69,11 @@ public class Bubbalo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bubbalo");

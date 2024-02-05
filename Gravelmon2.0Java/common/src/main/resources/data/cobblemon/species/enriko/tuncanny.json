@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tuncanny",
-  "nationalPokedexNumber": 1625,
+  "nationalPokedexNumber": 1646,
   "primaryType": "steel",
   "abilities": [
     "battlearmor",
@@ -64,8 +64,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

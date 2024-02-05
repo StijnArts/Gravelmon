@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "melant",
-  "nationalPokedexNumber": 1956,
+  "nationalPokedexNumber": 1977,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -67,10 +67,25 @@
   "pokedex": [
     "cobblemon.species.melant.desc"
   ],
+  "evolutions": [
+    {
+      "id": "melant_moltank",
+      "variant": "level_up",
+      "result": "moltank",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

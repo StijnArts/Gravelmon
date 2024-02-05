@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lemunk",
-  "nationalPokedexNumber": 1917,
+  "nationalPokedexNumber": 1938,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -70,10 +70,25 @@
   "pokedex": [
     "cobblemon.species.lemunk.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "lemunk_skirmaki",
+      "variant": "level_up",
+      "result": "skirmaki",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -85,7 +100,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 7,
   "weight": 165,
   "aspects": [],
 "features": [

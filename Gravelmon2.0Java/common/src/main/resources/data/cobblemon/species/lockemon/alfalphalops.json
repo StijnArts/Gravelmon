@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "alfalphalops",
-  "nationalPokedexNumber": 2219,
+  "nationalPokedexNumber": 2238,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -115,8 +115,8 @@
   "preEvolution": "danfluff",
   "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

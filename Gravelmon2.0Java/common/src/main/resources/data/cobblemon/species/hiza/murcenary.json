@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "murcenary",
-  "nationalPokedexNumber": 1919,
+  "nationalPokedexNumber": 1940,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -66,15 +66,18 @@
     "50:focuspunch"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.murcenary.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "skirmaki",
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -86,7 +89,7 @@
     "special_defence": 0,
     "speed": 3
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

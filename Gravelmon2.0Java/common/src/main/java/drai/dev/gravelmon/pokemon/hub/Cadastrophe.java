@@ -15,7 +15,7 @@ public class Cadastrophe extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         90),
                 List.of(Ability.BERSERK), Ability.LIGHTNING_ROD,
-                8, 165,
+                21, 165,
                 new Stats(0,2,0,1,0,0), 3,
                 0.0,
                 270, ExperienceGroup.SLOW,
@@ -122,11 +122,11 @@ public class Cadastrophe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Cadastrophe");

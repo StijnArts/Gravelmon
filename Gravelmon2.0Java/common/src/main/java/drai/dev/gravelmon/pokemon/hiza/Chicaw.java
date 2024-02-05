@@ -15,14 +15,16 @@ public class Chicaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         55),
                 List.of(Ability.KEEN_EYE), Ability.ANTICIPATION,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It learns how to fly when it still is very young. Its colors made it extremely popular among tourists."),
-                List.of(),
+                List.of(new EvolutionEntry("cawlor", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.PECK,4),
@@ -61,11 +63,11 @@ public class Chicaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Chicaw");

@@ -7,16 +7,15 @@
       "id": "luradune-1",
       "pokemon": "luradune",
       "presets": [
-          "natural"
+          "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "13-45",
+      "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_desert" ],
         "canSeeSky": true
       }
     }

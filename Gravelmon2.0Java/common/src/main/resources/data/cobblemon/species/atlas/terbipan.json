@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terbipan",
-  "nationalPokedexNumber": 2831,
+  "nationalPokedexNumber": 2850,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -104,8 +104,8 @@
   "preEvolution": "twoolepin",
   "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

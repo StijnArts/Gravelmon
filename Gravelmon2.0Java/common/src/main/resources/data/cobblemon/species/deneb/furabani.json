@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "furabani",
-  "nationalPokedexNumber": 2683,
+  "nationalPokedexNumber": 2702,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -112,8 +112,8 @@
   "preEvolution": "karebani",
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

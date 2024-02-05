@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zaptera",
-  "nationalPokedexNumber": 2070,
+  "nationalPokedexNumber": 2089,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -48,18 +48,32 @@
     "flying"
   ],
   "moves": [
-  ],
+    "1:growl",
+    "1:peck",
+    "4:thundershock",
+    "7:quickattack",
+    "11:pluck",
+    "15:spark",
+    "19:uproar",
+    "23:roost",
+    "27:dualwingbeat",
+    "32:agility",
+    "37:voltswitch",
+    "43:discharge"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.zaptera.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "pterai",
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +85,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 18,
   "weight": 165,
   "aspects": [],
 "features": [

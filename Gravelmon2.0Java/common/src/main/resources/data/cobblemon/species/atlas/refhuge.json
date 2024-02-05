@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "refhuge",
-  "nationalPokedexNumber": 3031,
+  "nationalPokedexNumber": 3050,
   "primaryType": "water",
   "abilities": [
     "thickfat",
@@ -119,8 +119,8 @@
   "preEvolution": "whelter",
   "baseScale": 1.7625,
   "hitbox": {
-    "width": 2.5961538461538463,
-    "height": 2.5961538461538463,
+    "width": 10.0,
+    "height": 10.0,
     "fixed": false
   },
   "baseFriendship": 70,

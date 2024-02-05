@@ -23,11 +23,25 @@ public class Diamamba extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("Rattletack who didn't shed its skin enough will have it harden and become Diamamba. Its fangs are hard as diamond and can pierce through the hardest armor."),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.BITE,1),
+                        new MoveLearnSetEntry(Move.WRAP,3),
+                        new MoveLearnSetEntry(Move.LICK,7),
+                        new MoveLearnSetEntry(Move.ACID,10),
+                        new MoveLearnSetEntry(Move.GLARE,14),
+                        new MoveLearnSetEntry(Move.POISON_TAIL,19),
+                        new MoveLearnSetEntry(Move.ACID_SPRAY,24),
+                        new MoveLearnSetEntry(Move.FOCUS_ENERGY,28),
+                        new MoveLearnSetEntry(Move.POISON_FANG,31),
+                        new MoveLearnSetEntry(Move.GASTRO_ACID,35),
+                        new MoveLearnSetEntry(Move.NIGHT_SLASH,38),
+                        new MoveLearnSetEntry(Move.WRING_OUT,45),
+                        new MoveLearnSetEntry(Move.COIL,49),
+                        new MoveLearnSetEntry(Move.GUNK_SHOT,57)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 42, 64, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

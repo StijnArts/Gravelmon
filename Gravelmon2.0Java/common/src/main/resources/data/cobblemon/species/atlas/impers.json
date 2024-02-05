@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "impers",
-  "nationalPokedexNumber": 2976,
+  "nationalPokedexNumber": 2995,
   "primaryType": "poison",
   "abilities": [
     "gooey",
@@ -160,8 +160,8 @@
   "preEvolution": "impie",
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -15,7 +15,7 @@ public class Aampeel extends drai.dev.gravelmon.pokemon.Pokemon {
                         54,
                         147),
                 List.of(Ability.MOTOR_DRIVE), Ability.MOTOR_DRIVE,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 157, ExperienceGroup.MEDIUM_FAST,
@@ -37,14 +37,16 @@ public class Aampeel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER,45)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 29, 48, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Aampeel");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

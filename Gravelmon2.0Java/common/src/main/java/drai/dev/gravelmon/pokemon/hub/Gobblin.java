@@ -15,7 +15,7 @@ public class Gobblin extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         40),
                 List.of(Ability.GLUTTONY,Ability.STENCH,Ability.RIPEN), Ability.RIPEN,
-                8, 165,
+                7, 165,
                 new Stats(2,0,0,0,0,0), 160,
                 0.5,
                 168, ExperienceGroup.MEDIUM_SLOW,
@@ -102,9 +102,9 @@ public class Gobblin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_FANGS,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 43, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

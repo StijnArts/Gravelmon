@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flamaggedon",
-  "nationalPokedexNumber": 1904,
+  "nationalPokedexNumber": 1925,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -111,15 +111,18 @@
     "tm:heatwave"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.flamaggedon.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "voladillo",
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -131,7 +134,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

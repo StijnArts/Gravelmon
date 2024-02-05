@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wochecho",
-  "nationalPokedexNumber": 2672,
+  "nationalPokedexNumber": 2691,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -113,8 +113,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vintera",
-  "nationalPokedexNumber": 2114,
+  "nationalPokedexNumber": 2133,
   "primaryType": "ice",
   "abilities": [
     "snowwarning",
@@ -47,7 +47,24 @@
     "undiscovered"
   ],
   "moves": [
-  ],
+    "1:harden",
+    "1:powdersnow",
+    "1:rapidspin",
+    "1:tackle",
+    "1:wideguard",
+    "9:curse",
+    "12:icywind",
+    "15:protect",
+    "18:avalanche",
+    "21:bite",
+    "24:icefang",
+    "27:irondefense",
+    "30:recover",
+    "33:crunch",
+    "36:takedown",
+    "41:blizzard",
+    "46:doubleedge",
+    "51:iciclecrash"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -55,10 +72,10 @@
   "pokedex": [
     "cobblemon.species.vintera.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.69375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -70,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 37,
   "weight": 165,
   "aspects": [],
 "features": [

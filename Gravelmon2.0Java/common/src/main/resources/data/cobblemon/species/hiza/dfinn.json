@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dfinn",
-  "nationalPokedexNumber": 2015,
+  "nationalPokedexNumber": 2036,
   "primaryType": "psychic",
   "abilities": [
     "keeneye",
@@ -37,7 +37,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 60,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -47,7 +47,19 @@
 
   ],
   "moves": [
-  ],
+    "1:confusion",
+    "1:tackle",
+    "4:confuseray",
+    "8:payback",
+    "12:imprison",
+    "16:gyroball",
+    "20:hypnosis",
+    "24:safeguard",
+    "28:extrasensory",
+    "32:heavyslam",
+    "36:irondefense",
+    "40:metalsound",
+    "44:futuresight"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -55,10 +67,10 @@
   "pokedex": [
     "cobblemon.species.dfinn.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -70,7 +82,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

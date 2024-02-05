@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shakuzora",
-  "nationalPokedexNumber": 2700,
+  "nationalPokedexNumber": 2719,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -107,8 +107,8 @@
   "preEvolution": "kureigu",
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

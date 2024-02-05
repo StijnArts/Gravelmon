@@ -7,18 +7,19 @@
       "id": "bearver-1",
       "pokemon": "bearver",
       "presets": [
-          "natural"
+          "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "28-45",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_forest" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_summer" ]    }
     }
   ]
 }

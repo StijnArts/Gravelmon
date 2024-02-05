@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yukidaru",
-  "nationalPokedexNumber": 2759,
+  "nationalPokedexNumber": 2778,
   "primaryType": "ice",
   "abilities": [
     "icebody",
@@ -109,8 +109,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

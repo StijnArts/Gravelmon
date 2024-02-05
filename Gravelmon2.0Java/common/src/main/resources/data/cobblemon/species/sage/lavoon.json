@@ -149,8 +149,8 @@
   "preEvolution": "glocto",
   "baseScale": 1.275,
   "hitbox": {
-    "width": 1.7307692307692306,
-    "height": 1.7307692307692306,
+    "width": 7.0,
+    "height": 7.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skideer",
-  "nationalPokedexNumber": 2298,
+  "nationalPokedexNumber": 2317,
   "primaryType": "ice",
   "abilities": [
     "pixilate",
@@ -89,8 +89,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

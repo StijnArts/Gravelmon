@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "furiousc",
-  "nationalPokedexNumber": 1561,
+  "nationalPokedexNumber": 1582,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -71,8 +71,8 @@
   "preEvolution": "cleame",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

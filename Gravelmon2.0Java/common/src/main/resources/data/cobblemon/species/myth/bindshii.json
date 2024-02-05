@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bindshii",
-  "nationalPokedexNumber": 2450,
+  "nationalPokedexNumber": 2469,
   "primaryType": "sound",
   "secondaryType": "fairy",
   "abilities": [
@@ -86,8 +86,8 @@
   "preEvolution": "skreychee",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

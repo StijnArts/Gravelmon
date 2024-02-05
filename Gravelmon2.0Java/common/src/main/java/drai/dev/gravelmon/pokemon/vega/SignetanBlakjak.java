@@ -95,7 +95,6 @@ public class SignetanBlakjak extends Pokemon {
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 43, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COAST))),
                 List.of(SpawnPreset.NATURAL),

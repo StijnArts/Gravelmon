@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harylect",
-  "nationalPokedexNumber": 1791,
+  "nationalPokedexNumber": 1812,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -127,8 +127,8 @@
   "preEvolution": "tricwe",
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

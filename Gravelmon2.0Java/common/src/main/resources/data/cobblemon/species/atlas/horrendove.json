@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "horrendove",
-  "nationalPokedexNumber": 2819,
+  "nationalPokedexNumber": 2838,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -106,8 +106,8 @@
   "preEvolution": "suburvian",
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

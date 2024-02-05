@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "concealeon",
-  "nationalPokedexNumber": 1728,
+  "nationalPokedexNumber": 1749,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -140,8 +140,8 @@
   ],
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -15,7 +15,7 @@ public class Flamaggedon extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         50),
                 List.of(Ability.BLAZE), Ability.FILTER,
-                8, 165,
+                19, 165,
                 new Stats(0,0,2,1,0,0), 45,
                 0.75,
                 245, ExperienceGroup.MEDIUM_SLOW,
@@ -86,8 +86,8 @@ public class Flamaggedon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hogawatt",
-  "nationalPokedexNumber": 1921,
+  "nationalPokedexNumber": 1942,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
@@ -63,15 +63,18 @@
     "52:earthquake"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hogawatt.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "socklett",
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -83,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

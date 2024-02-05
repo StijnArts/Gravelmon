@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tracton",
-  "nationalPokedexNumber": 1823,
+  "nationalPokedexNumber": 1844,
   "primaryType": "dragon",
   "secondaryType": "steel",
   "abilities": [
@@ -134,8 +134,8 @@
   ],
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

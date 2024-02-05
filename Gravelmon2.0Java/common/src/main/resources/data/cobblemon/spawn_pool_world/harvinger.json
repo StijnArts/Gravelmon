@@ -7,17 +7,15 @@
       "id": "harvinger-1",
       "pokemon": "harvinger",
       "presets": [
-          "natural"
+          "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "ultra-rare",
+      "level": "65-75",
+      "weight": 5.0E-4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "strawna",
-  "nationalPokedexNumber": 2528,
+  "nationalPokedexNumber": 2547,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -121,8 +121,8 @@
   "preEvolution": "jamberree",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

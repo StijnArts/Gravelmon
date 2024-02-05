@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "silxie",
-  "nationalPokedexNumber": 2913,
+  "nationalPokedexNumber": 2932,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
@@ -112,8 +112,8 @@
   "preEvolution": "cachoe",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

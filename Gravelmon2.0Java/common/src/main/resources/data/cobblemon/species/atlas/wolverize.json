@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wolverize",
-  "nationalPokedexNumber": 2799,
+  "nationalPokedexNumber": 2818,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -128,8 +128,8 @@
   "preEvolution": "wolflaze",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

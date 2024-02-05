@@ -15,7 +15,7 @@ public class Beestical extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         96),
                 List.of(Ability.TRIAGE), Ability.TRIAGE,
-                8, 165,
+                7, 165,
                 new Stats(2,0,0,0,0,0), 30,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -43,11 +43,11 @@ public class Beestical extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEALING_WISH,66)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 54, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.HONEY_TREE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Beestical");

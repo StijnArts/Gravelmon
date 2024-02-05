@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "larvozer",
-  "nationalPokedexNumber": 2048,
+  "nationalPokedexNumber": 2067,
   "primaryType": "bug",
   "abilities": [
     "bulletproof",
@@ -48,7 +48,22 @@
     "bug"
   ],
   "moves": [
-  ],
+    "1:furycutter",
+    "1:sandattack",
+    "4:visegrip",
+    "8:metalclaw",
+    "12:beatup",
+    "16:bugbite",
+    "20:bite",
+    "24:agility",
+    "28:dig",
+    "32:xscissor",
+    "36:crunch",
+    "40:metalsound",
+    "44:ironhead",
+    "48:entrainment",
+    "52:irondefense",
+    "56:guillotine"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +71,25 @@
   "pokedex": [
     "cobblemon.species.larvozer.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "larvozer_armanzer",
+      "variant": "level_up",
+      "result": "armanzer",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +101,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 9,
   "weight": 165,
   "aspects": [],
 "features": [

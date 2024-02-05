@@ -15,7 +15,7 @@ public class Sandozer extends drai.dev.gravelmon.pokemon.Pokemon {
                         76,
                         50),
                 List.of(Ability.WATER_COMPACTION), Ability.STORM_DRAIN,
-                8, 165,
+                16, 165,
                 new Stats(0,1,1,0,0,0), 60,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -66,14 +66,16 @@ public class Sandozer extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_SLIDE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 28, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sandozer");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

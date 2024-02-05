@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wanupp",
-  "nationalPokedexNumber": 1577,
+  "nationalPokedexNumber": 1598,
   "primaryType": "grass",
   "secondaryType": "poison",
   "abilities": [
@@ -71,8 +71,8 @@
   ],
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

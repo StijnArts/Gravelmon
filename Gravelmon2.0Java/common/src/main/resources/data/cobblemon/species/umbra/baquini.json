@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baquini",
-  "nationalPokedexNumber": 2387,
+  "nationalPokedexNumber": 2406,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -126,8 +126,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phanfrica",
-  "nationalPokedexNumber": 3099,
+  "nationalPokedexNumber": 3118,
   "primaryType": "ground",
   "abilities": [
     "pressure",
@@ -70,8 +70,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -22,7 +22,9 @@ public class Confectious extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.FAIRY),
                 List.of("It is a being of discarded candy that somehow gained sentience and now roams the fairgrounds searching for more sweets to eat. It ensnares opponents in a sticky sugary goo that's nearly impossible to escape by force."),
-                List.of(),
+                List.of(new EvolutionEntry("garbadjinn", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,3),
@@ -77,11 +79,11 @@ public class Confectious extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOSHOCK,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 26, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Confectious");

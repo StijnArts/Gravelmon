@@ -22,12 +22,29 @@ public class Fortuller extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("They gather all sorts of rare minerals to roll up and fuse into a crystal ball, those who look into the ball will see their future."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("mysteele", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
+                List.of(       new MoveLearnSetEntry(Move.CONFUSION,1),
+                        new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,4),
+                        new MoveLearnSetEntry(Move.STRUGGLE_BUG,7),
+                        new MoveLearnSetEntry(Move.ROLLOUT,11),
+                        new MoveLearnSetEntry(Move.PSYBEAM,15),
+                        new MoveLearnSetEntry(Move.BUG_BITE,20),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,24),
+                        new MoveLearnSetEntry(Move.EXTRASENSORY,29),
+                        new MoveLearnSetEntry(Move.LUNGE,35),
+                        new MoveLearnSetEntry(Move.GUARD_SWAP,40),
+                        new MoveLearnSetEntry(Move.POWER_SWAP,40),
+                        new MoveLearnSetEntry(Move.SPEED_SWAP,40),
+                        new MoveLearnSetEntry(Move.BUG_BUZZ,45),
+                        new MoveLearnSetEntry(Move.PSYCHIC,50)),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 27, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -7,16 +7,15 @@
       "id": "blitzchief-1",
       "pokemon": "blitzchief",
       "presets": [
-          "natural"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "25-46",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_overworld" ],
         "canSeeSky": true
       }
     }

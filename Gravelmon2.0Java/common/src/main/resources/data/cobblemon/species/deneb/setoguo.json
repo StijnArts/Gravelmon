@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "setoguo",
-  "nationalPokedexNumber": 2732,
+  "nationalPokedexNumber": 2751,
   "primaryType": "normal",
   "abilities": [
     "rivalry",
@@ -72,8 +72,8 @@
   "preEvolution": "setohachi",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

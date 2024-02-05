@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beatzza",
-  "nationalPokedexNumber": 1437,
+  "nationalPokedexNumber": 1458,
   "primaryType": "fighting",
   "secondaryType": "fire",
   "abilities": [
@@ -141,8 +141,8 @@
   "preEvolution": "whaxzza",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

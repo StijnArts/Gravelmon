@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "whisteract",
-  "nationalPokedexNumber": 1649,
+  "nationalPokedexNumber": 1670,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -139,8 +139,8 @@
   "preEvolution": "nunvil",
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -15,14 +15,16 @@ public class Babrat extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         65),
                 List.of(Ability.QUICK_FEET), Ability.HUSTLE,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They dislike people and other Pokémon that are not part of their group. They make loud noises to scare intruders away."),
-                List.of(),
+                List.of(new EvolutionEntry("babreak", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
                         new MoveLearnSetEntry(Move.ASSURANCE,8),
@@ -39,8 +41,8 @@ public class Babrat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,50)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baretta",
-  "nationalPokedexNumber": 2738,
+  "nationalPokedexNumber": 2757,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -87,8 +87,8 @@
   "preEvolution": "baburun",
   "baseScale": 0.39375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

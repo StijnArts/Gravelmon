@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blowzzard",
-  "nationalPokedexNumber": 2062,
+  "nationalPokedexNumber": 2081,
   "primaryType": "ice",
   "secondaryType": "poison",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -111,15 +111,18 @@
     "tm:venoshock"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.blowzzard.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "ballosh",
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -131,7 +134,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 14,
   "weight": 165,
   "aspects": [],
 "features": [

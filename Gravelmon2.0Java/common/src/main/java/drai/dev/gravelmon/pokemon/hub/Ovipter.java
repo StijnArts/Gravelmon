@@ -15,7 +15,7 @@ public class Ovipter extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         98),
                 List.of(Ability.SHELL_ARMOR,Ability.PICKUP,Ability.QUICK_FEET), Ability.QUICK_FEET,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,2), 255,
                 0.5,
                 86, ExperienceGroup.MEDIUM_FAST,
@@ -81,8 +81,8 @@ public class Ovipter extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOFTBOILED,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

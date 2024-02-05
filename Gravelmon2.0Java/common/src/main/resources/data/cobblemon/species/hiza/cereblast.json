@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cereblast",
-  "nationalPokedexNumber": 2083,
+  "nationalPokedexNumber": 2102,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -48,18 +48,38 @@
     "undiscovered"
   ],
   "moves": [
-  ],
+    "1:eerieimpulse",
+    "4:disarmingvoicesound",
+    "7:charge",
+    "11:roleplay",
+    "16:shockwave",
+    "20:allyswitch",
+    "25:psyshock",
+    "31:electrify",
+    "38:psychic",
+    "43:thunderbolt",
+    "48:coil",
+    "52:recover",
+    "58:iondeluge",
+    "65:boltbeak",
+    "tm:thunderwave",
+    "tm:psychic",
+    "tm:thunderbolt",
+    "tm:toxic"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cereblast.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "invoider",
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +91,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 20,
   "weight": 165,
   "aspects": [],
 "features": [

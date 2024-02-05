@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dionysseur",
-  "nationalPokedexNumber": 2272,
+  "nationalPokedexNumber": 2291,
   "primaryType": "poison",
   "secondaryType": "grass",
   "abilities": [
@@ -78,8 +78,8 @@
   "preEvolution": "vitisquash",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

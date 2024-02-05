@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "karmilarie",
-  "nationalPokedexNumber": 2175,
+  "nationalPokedexNumber": 2194,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -79,8 +79,8 @@
   ],
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

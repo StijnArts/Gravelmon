@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chompal",
-  "nationalPokedexNumber": 2054,
+  "nationalPokedexNumber": 2073,
   "primaryType": "water",
   "abilities": [
     "intimidate",
@@ -28,12 +28,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -47,7 +47,22 @@
     "water_2"
   ],
   "moves": [
-  ],
+    "1:splash",
+    "3:growl",
+    "6:astonish",
+    "12:watergun",
+    "15:mist",
+    "18:waterpulse",
+    "21:heavyslam",
+    "24:brine",
+    "27:whirlpool",
+    "30:dive",
+    "33:bounce",
+    "36:bodyslam",
+    "39:rest",
+    "42:amnesia",
+    "45:hydropump",
+    "48:waterspout"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -55,10 +70,10 @@
   "pokedex": [
     "cobblemon.species.chompal.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -70,7 +85,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

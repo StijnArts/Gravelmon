@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rockroach",
-  "nationalPokedexNumber": 2328,
+  "nationalPokedexNumber": 2347,
   "primaryType": "bug",
   "secondaryType": "rock",
   "abilities": [
@@ -124,8 +124,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

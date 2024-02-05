@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "falcher",
-  "nationalPokedexNumber": 2023,
+  "nationalPokedexNumber": 2044,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
@@ -71,8 +71,8 @@
   "preEvolution": "hizianscyther",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

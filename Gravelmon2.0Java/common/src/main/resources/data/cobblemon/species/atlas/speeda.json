@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "speeda",
-  "nationalPokedexNumber": 3017,
+  "nationalPokedexNumber": 3036,
   "primaryType": "electric",
   "abilities": [
     "speedboost",
@@ -106,8 +106,8 @@
   "preEvolution": "cheecub",
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lumbrawl",
-  "nationalPokedexNumber": 1466,
+  "nationalPokedexNumber": 1487,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -139,8 +139,8 @@
   ],
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

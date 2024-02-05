@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yanpaow",
-  "nationalPokedexNumber": 3093,
+  "nationalPokedexNumber": 3112,
   "primaryType": "dragon",
   "abilities": [
     "illuminate",
@@ -127,8 +127,8 @@
   "preEvolution": "ganpaow",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

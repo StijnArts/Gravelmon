@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ramvolt",
-  "nationalPokedexNumber": 1743,
+  "nationalPokedexNumber": 1764,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -116,8 +116,8 @@
   "preEvolution": "aristosianflaaffy",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

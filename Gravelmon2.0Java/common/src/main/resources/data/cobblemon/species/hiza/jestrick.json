@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jestrick",
-  "nationalPokedexNumber": 1973,
+  "nationalPokedexNumber": 1994,
   "primaryType": "fairy",
   "secondaryType": "ghost",
   "abilities": [
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 60,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -48,18 +48,34 @@
 
   ],
   "moves": [
-  ],
+    "1:copycat",
+    "1:scratch",
+    "1:splash",
+    "1:woodhammer",
+    "6:shadowsneak",
+    "12:doubleteam",
+    "18:babydolleyes",
+    "24:mimic",
+    "30:honeclaws",
+    "36:slash",
+    "42:shadowclaw",
+    "48:charm",
+    "54:playrough",
+    "60:painsplit"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.jestrick.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "jestreat",
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 9,
   "weight": 165,
   "aspects": [],
 "features": [

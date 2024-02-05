@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "thermonster",
-  "nationalPokedexNumber": 1485,
+  "nationalPokedexNumber": 1506,
   "primaryType": "normal",
   "secondaryType": "fire",
   "abilities": [
@@ -102,8 +102,8 @@
   ],
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maidnite",
-  "nationalPokedexNumber": 2852,
+  "nationalPokedexNumber": 2871,
   "primaryType": "fairy",
   "abilities": [
     "oblivious",
@@ -129,8 +129,8 @@
   "preEvolution": "hoowhip",
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

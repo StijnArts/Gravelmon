@@ -15,7 +15,7 @@ public class Scorchion extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         77),
                 List.of(Ability.FLAME_BODY), Ability.FLAME_BODY,
-                8, 165,
+                12, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
@@ -37,9 +37,8 @@ public class Scorchion extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUILLOTINE,55)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 48, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

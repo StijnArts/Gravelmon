@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crystabrawl",
-  "nationalPokedexNumber": 1502,
+  "nationalPokedexNumber": 1523,
   "primaryType": "psychic",
   "secondaryType": "fighting",
   "abilities": [
@@ -175,8 +175,8 @@
   ],
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

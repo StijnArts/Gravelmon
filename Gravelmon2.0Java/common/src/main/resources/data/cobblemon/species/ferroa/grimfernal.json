@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grimfernal",
-  "nationalPokedexNumber": 1496,
+  "nationalPokedexNumber": 1517,
   "primaryType": "dark",
   "secondaryType": "fire",
   "abilities": [
@@ -169,8 +169,8 @@
   "preEvolution": "lurelit",
   "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "firoke",
-  "nationalPokedexNumber": 1779,
+  "nationalPokedexNumber": 1800,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -120,8 +120,8 @@
   "preEvolution": "smore",
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

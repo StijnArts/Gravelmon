@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fortuller",
-  "nationalPokedexNumber": 1990,
+  "nationalPokedexNumber": 2011,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -48,7 +48,22 @@
     "bug"
   ],
   "moves": [
-  ],
+    "1:confusion",
+    "1:defensecurl",
+    "1:tackle",
+    "4:sandattack",
+    "7:strugglebug",
+    "11:rollout",
+    "15:psybeam",
+    "20:bugbite",
+    "24:takedown",
+    "29:extrasensory",
+    "35:lunge",
+    "40:guardswap",
+    "40:powerswap",
+    "40:speedswap",
+    "45:bugbuzzsound",
+    "50:psychic"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +71,25 @@
   "pokedex": [
     "cobblemon.species.fortuller.desc"
   ],
+  "evolutions": [
+    {
+      "id": "fortuller_mysteele",
+      "variant": "level_up",
+      "result": "mysteele",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dielebi",
-  "nationalPokedexNumber": 1713,
+  "nationalPokedexNumber": 1734,
   "primaryType": "psychic",
   "secondaryType": "bug",
   "abilities": [
@@ -110,8 +110,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

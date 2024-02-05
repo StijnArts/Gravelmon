@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hangrove",
-  "nationalPokedexNumber": 1550,
+  "nationalPokedexNumber": 1571,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -66,8 +66,8 @@
   "preEvolution": "tangrue",
   "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

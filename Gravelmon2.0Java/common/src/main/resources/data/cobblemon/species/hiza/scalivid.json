@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scalivid",
-  "nationalPokedexNumber": 1945,
+  "nationalPokedexNumber": 1966,
   "primaryType": "grass",
   "abilities": [
     "multiscale",
@@ -60,15 +60,33 @@
     "49:powerwhip"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.scalivid.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "sprocko",
+  "evolutions": [
+    {
+      "id": "scalivid_taquana",
+      "variant": "level_up",
+      "result": "taquana",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -80,7 +98,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

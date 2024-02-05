@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vermpent",
-  "nationalPokedexNumber": 2826,
+  "nationalPokedexNumber": 2845,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -112,8 +112,8 @@
   "preEvolution": "vermini",
   "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

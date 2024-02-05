@@ -22,7 +22,9 @@ public class Hollotite extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("They like to sleep upside down in dark caves. Their sturdy rock shell protects them if one happens to fall down on the floor."),
-                List.of(),
+                List.of(new EvolutionEntry("stalacpace", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,5),
@@ -40,9 +42,8 @@ public class Hollotite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAD_SMASH,53)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 32, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

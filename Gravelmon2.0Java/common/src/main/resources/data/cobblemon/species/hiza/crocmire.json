@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crocmire",
-  "nationalPokedexNumber": 2007,
+  "nationalPokedexNumber": 2028,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -48,7 +48,20 @@
     "grass"
   ],
   "moves": [
-  ],
+    "1:absorb",
+    "1:razorleaf",
+    "1:tackle",
+    "1:withdraw",
+    "1:woodhammer",
+    "17:curse",
+    "22:bite",
+    "27:megadrain",
+    "33:leechseed",
+    "39:synthesis",
+    "45:crunch",
+    "51:gigadrain",
+    "57:leafstorm",
+    "63:headlongrush"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +69,10 @@
   "pokedex": [
     "cobblemon.species.crocmire.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.4125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 22,
   "weight": 165,
   "aspects": [],
 "features": [

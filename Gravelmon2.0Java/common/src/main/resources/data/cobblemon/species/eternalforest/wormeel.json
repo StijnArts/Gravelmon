@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wormeel",
-  "nationalPokedexNumber": 2194,
+  "nationalPokedexNumber": 2213,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -144,8 +144,8 @@
   "preEvolution": "wormini",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

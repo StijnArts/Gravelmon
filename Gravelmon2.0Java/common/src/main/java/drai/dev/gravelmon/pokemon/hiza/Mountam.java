@@ -15,7 +15,7 @@ public class Mountam extends drai.dev.gravelmon.pokemon.Pokemon {
                         73,
                         42),
                 List.of(Ability.STURDY), Ability.ROUGH_SKIN,
-                8, 165,
+                16, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 167, ExperienceGroup.MEDIUM_FAST,
@@ -37,8 +37,8 @@ public class Mountam extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAD_SMASH,55)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "calientrop",
-  "nationalPokedexNumber": 1359,
+  "nationalPokedexNumber": 1380,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -159,8 +159,8 @@
   "preEvolution": "reptack",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

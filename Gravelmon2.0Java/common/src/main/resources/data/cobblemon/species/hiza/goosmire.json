@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goosmire",
-  "nationalPokedexNumber": 1994,
+  "nationalPokedexNumber": 2015,
   "primaryType": "ground",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -124,15 +124,18 @@
     "tm:whirlwind"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.goosmire.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "mudian",
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -144,7 +147,7 @@
     "special_defence": 0,
     "speed": 3
   },
-  "height": 8,
+  "height": 13,
   "weight": 165,
   "aspects": [],
 "features": [

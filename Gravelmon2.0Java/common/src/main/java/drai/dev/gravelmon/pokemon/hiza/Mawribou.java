@@ -15,7 +15,7 @@ public class Mawribou extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         65),
                 List.of(Ability.INTIMIDATE), Ability.LIGHTNING_ROD,
-                8, 165,
+                15, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 182, ExperienceGroup.MEDIUM_FAST,
@@ -106,8 +106,8 @@ public class Mawribou extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

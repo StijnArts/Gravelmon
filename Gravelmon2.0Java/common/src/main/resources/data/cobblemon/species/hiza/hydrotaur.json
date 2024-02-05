@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hydrotaur",
-  "nationalPokedexNumber": 1907,
+  "nationalPokedexNumber": 1928,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -109,15 +109,18 @@
     "tm:aquajet"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hydrotaur.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "bullfount",
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -129,7 +132,7 @@
     "special_defence": 3,
     "speed": 0
   },
-  "height": 8,
+  "height": 21,
   "weight": 165,
   "aspects": [],
 "features": [

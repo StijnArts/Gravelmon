@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seikamater",
-  "nationalPokedexNumber": 1888,
+  "nationalPokedexNumber": 1909,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -127,8 +127,8 @@
   "preEvolution": "smore",
   "baseScale": 0.80625,
   "hitbox": {
-    "width": 1.1538461538461537,
-    "height": 1.1538461538461537,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
   "baseFriendship": 70,

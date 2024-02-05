@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aliblador",
-  "nationalPokedexNumber": 2783,
+  "nationalPokedexNumber": 2802,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -132,8 +132,8 @@
   ],
   "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

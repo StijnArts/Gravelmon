@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rabbeti",
-  "nationalPokedexNumber": 2018,
+  "nationalPokedexNumber": 2039,
   "primaryType": "ice",
   "abilities": [
     "slushrush",
@@ -48,7 +48,18 @@
     "field"
   ],
   "moves": [
-  ],
+    "1:mudslap",
+    "1:tackle",
+    "5:powdersnow",
+    "10:flail",
+    "15:iceshard",
+    "20:mist",
+    "25:endure",
+    "30:icywind",
+    "35:amnesia",
+    "40:takedown",
+    "45:earthquake",
+    "50:blizzard"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +67,23 @@
   "pokedex": [
     "cobblemon.species.rabbeti.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "rabbeti_haresquatch",
+      "variant": "item_interact",
+      "result": "haresquatch",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:ice_stone"   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +95,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

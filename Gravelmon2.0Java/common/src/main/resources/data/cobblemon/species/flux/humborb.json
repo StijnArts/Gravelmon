@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "humborb",
-  "nationalPokedexNumber": 2134,
+  "nationalPokedexNumber": 2153,
   "primaryType": "flying",
   "secondaryType": "normal",
   "abilities": [
@@ -86,8 +86,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

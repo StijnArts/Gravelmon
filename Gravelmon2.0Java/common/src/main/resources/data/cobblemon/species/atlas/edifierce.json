@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "edifierce",
-  "nationalPokedexNumber": 3097,
+  "nationalPokedexNumber": 3116,
   "primaryType": "dragon",
   "secondaryType": "ground",
   "abilities": [
@@ -112,8 +112,8 @@
   "preEvolution": "visclaw",
   "baseScale": 0.76875,
   "hitbox": {
-    "width": 1.1538461538461537,
-    "height": 1.1538461538461537,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
   "baseFriendship": 70,

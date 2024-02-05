@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "histameanie",
-  "nationalPokedexNumber": 2236,
+  "nationalPokedexNumber": 2255,
   "primaryType": "grass",
   "abilities": [
     "leafguard",
@@ -73,8 +73,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "controll",
-  "nationalPokedexNumber": 1563,
+  "nationalPokedexNumber": 1584,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -91,8 +91,8 @@
   ],
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

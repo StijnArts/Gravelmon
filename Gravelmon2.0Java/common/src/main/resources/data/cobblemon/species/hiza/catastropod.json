@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "catastropod",
-  "nationalPokedexNumber": 2112,
+  "nationalPokedexNumber": 2131,
   "primaryType": "fire",
   "secondaryType": "water",
   "abilities": [
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 3,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -48,7 +48,24 @@
 
   ],
   "moves": [
-  ],
+    "1:firespin",
+    "1:steameruption",
+    "1:watergun",
+    "6:leer",
+    "12:weatherball",
+    "18:flamecharge",
+    "24:waterpulse",
+    "30:scaryface",
+    "36:incinerate",
+    "42:stomp",
+    "48:scald",
+    "54:takedown",
+    "60:haze",
+    "60:mist",
+    "66:hydropump",
+    "78:flareblitz",
+    "84:overheat",
+    "90:explosion"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +73,10 @@
   "pokedex": [
     "cobblemon.species.catastropod.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +88,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 21,
   "weight": 165,
   "aspects": [],
 "features": [

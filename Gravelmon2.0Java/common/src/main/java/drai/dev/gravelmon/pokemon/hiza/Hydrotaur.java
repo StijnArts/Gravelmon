@@ -15,7 +15,7 @@ public class Hydrotaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         107,
                         83),
                 List.of(Ability.TORRENT), Ability.ROCK_HEAD,
-                8, 165,
+                21, 165,
                 new Stats(0,0,0,0,3,0), 45,
                 0.5,
                 245, ExperienceGroup.MEDIUM_SLOW,
@@ -84,11 +84,11 @@ public class Hydrotaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE,  36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hydrotaur");

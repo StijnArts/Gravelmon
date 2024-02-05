@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "squini",
-  "nationalPokedexNumber": 2190,
+  "nationalPokedexNumber": 2209,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -145,8 +145,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

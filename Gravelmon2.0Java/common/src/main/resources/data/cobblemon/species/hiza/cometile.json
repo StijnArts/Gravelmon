@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cometile",
-  "nationalPokedexNumber": 2108,
+  "nationalPokedexNumber": 2127,
   "primaryType": "dragon",
   "secondaryType": "steel",
   "abilities": [
@@ -49,7 +49,19 @@
     "mineral"
   ],
   "moves": [
-  ],
+    "1:leer",
+    "1:metalclaw",
+    "6:rocksmash",
+    "12:honeclaws",
+    "18:metalsound",
+    "24:breakingswipe",
+    "30:dragontail",
+    "36:irondefense",
+    "42:focusenergy",
+    "48:dragonclaw",
+    "54:flashcannon",
+    "60:metalburst",
+    "66:hyperbeam"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -57,10 +69,25 @@
   "pokedex": [
     "cobblemon.species.cometile.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "cometile_orbitalon",
+      "variant": "level_up",
+      "result": "orbitalon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +99,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 6,
   "weight": 165,
   "aspects": [],
 "features": [

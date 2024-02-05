@@ -15,7 +15,7 @@ public class Fulgnash extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         95),
                 List.of(Ability.MOTOR_DRIVE), Ability.STATIC,
-                8, 165,
+                19, 165,
                 new Stats(0,1,0,1,0,0), 65,
                 0.5,
                 182, ExperienceGroup.MEDIUM_FAST,
@@ -40,11 +40,11 @@ public class Fulgnash extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER,61)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS, SpawnPreset.ILLAGER_STRUCTURES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fulgnash");

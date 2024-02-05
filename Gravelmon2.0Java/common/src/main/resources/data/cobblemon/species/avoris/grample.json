@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grample",
-  "nationalPokedexNumber": 1722,
+  "nationalPokedexNumber": 1743,
   "primaryType": "grass",
   "abilities": [
     "naturalcure",
@@ -72,8 +72,8 @@
   "preEvolution": "stumple",
   "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

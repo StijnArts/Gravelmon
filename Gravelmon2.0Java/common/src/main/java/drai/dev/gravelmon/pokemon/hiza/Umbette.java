@@ -15,14 +15,16 @@ public class Umbette extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         45),
                 List.of(Ability.STATIC), Ability.WATER_VEIL,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 55, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("They usually live in the deep sea till they mature enough to leave. Their tentacles glow so they can find eachother in the dark."),
-                List.of(),
+                List.of(new EvolutionEntry("parabella", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,3),
@@ -39,14 +41,17 @@ public class Umbette extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,55)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 7, 25, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.MAXY,"30")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Umbette");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

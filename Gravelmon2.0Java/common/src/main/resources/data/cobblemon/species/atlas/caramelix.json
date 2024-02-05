@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caramelix",
-  "nationalPokedexNumber": 2854,
+  "nationalPokedexNumber": 2873,
   "primaryType": "fairy",
   "abilities": [
     "keeneye",
@@ -107,8 +107,8 @@
   "preEvolution": "lickypop",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

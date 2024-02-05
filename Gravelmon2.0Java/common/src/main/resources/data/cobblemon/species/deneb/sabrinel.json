@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sabrinel",
-  "nationalPokedexNumber": 2629,
+  "nationalPokedexNumber": 2648,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -119,8 +119,8 @@
   "preEvolution": "fujinel",
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

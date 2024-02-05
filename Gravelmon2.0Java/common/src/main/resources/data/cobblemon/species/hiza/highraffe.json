@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "highraffe",
-  "nationalPokedexNumber": 2059,
+  "nationalPokedexNumber": 2078,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -68,10 +68,10 @@
   "pokedex": [
     "cobblemon.species.highraffe.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 1.66875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 9.0,
+    "height": 9.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -83,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 89,
   "weight": 165,
   "aspects": [],
 "features": [

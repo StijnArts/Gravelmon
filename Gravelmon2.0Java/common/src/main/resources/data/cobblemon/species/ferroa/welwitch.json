@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "welwitch",
-  "nationalPokedexNumber": 1416,
+  "nationalPokedexNumber": 1437,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -137,8 +137,8 @@
   "preEvolution": "welweed",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

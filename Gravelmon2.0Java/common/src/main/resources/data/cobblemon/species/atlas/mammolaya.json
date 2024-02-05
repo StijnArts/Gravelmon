@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mammolaya",
-  "nationalPokedexNumber": 3088,
+  "nationalPokedexNumber": 3107,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -111,8 +111,8 @@
   "preEvolution": "mampth",
   "baseScale": 0.4125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

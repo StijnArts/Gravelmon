@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "corsuave",
-  "nationalPokedexNumber": 2156,
+  "nationalPokedexNumber": 2175,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -76,8 +76,8 @@
   "preEvolution": "magief",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

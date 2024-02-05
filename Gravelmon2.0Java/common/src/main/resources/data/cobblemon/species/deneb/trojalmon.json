@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trojalmon",
-  "nationalPokedexNumber": 2631,
+  "nationalPokedexNumber": 2650,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -115,8 +115,8 @@
   "preEvolution": "smalmon",
   "baseScale": 0.39375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

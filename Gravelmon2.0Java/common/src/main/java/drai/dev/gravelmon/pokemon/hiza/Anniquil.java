@@ -15,7 +15,7 @@ public class Anniquil extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         70),
                 List.of(Ability.POISON_POINT,Ability.INTIMIDATE,Ability.GUTS), Ability.GUTS,
-                8, 165,
+                11, 165,
                 new Stats(0,1,1,0,0,0), 130,
                 0.5,
                 145, ExperienceGroup.MEDIUM_FAST,
@@ -74,10 +74,10 @@ public class Anniquil extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 42, .54, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

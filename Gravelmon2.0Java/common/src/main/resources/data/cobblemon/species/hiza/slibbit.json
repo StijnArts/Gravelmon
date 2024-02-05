@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slibbit",
-  "nationalPokedexNumber": 1958,
+  "nationalPokedexNumber": 1979,
   "primaryType": "poison",
   "abilities": [
     "poisontouch",
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -49,7 +49,22 @@
     "monster"
   ],
   "moves": [
-  ],
+    "1:pound",
+    "5:yawn",
+    "8:poisongas",
+    "10:sludge",
+    "12:amnesia",
+    "17:acidspray",
+    "20:encore",
+    "25:toxic",
+    "28:spitup",
+    "28:stockpile",
+    "28:swallow",
+    "33:sludgebomb",
+    "36:gastroacid",
+    "41:belch",
+    "44:painsplit",
+    "49:gunkshot"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -57,10 +72,25 @@
   "pokedex": [
     "cobblemon.species.slibbit.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "slibbit_caustibian",
+      "variant": "level_up",
+      "result": "caustibian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "sludgebomb"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +102,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 2,
   "weight": 165,
   "aspects": [],
 "features": [

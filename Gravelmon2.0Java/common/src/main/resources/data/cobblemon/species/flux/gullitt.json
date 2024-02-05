@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gullitt",
-  "nationalPokedexNumber": 2141,
+  "nationalPokedexNumber": 2160,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -92,8 +92,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

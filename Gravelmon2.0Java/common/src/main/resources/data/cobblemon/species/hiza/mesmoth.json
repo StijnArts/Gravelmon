@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mesmoth",
-  "nationalPokedexNumber": 1931,
+  "nationalPokedexNumber": 1952,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -60,15 +60,18 @@
     "47:psychoshift"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mesmoth.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "maskoon",
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -80,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 14,
   "weight": 165,
   "aspects": [],
 "features": [

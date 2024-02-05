@@ -22,7 +22,9 @@ public class Fawniler extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Poached by hunters for the antlers since old times, Fawniler has grown to fear humans. Their appearance in forests indicate the coming of a cold front."),
-                List.of(),
+                List.of(new EvolutionEntry("mawribou", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.POWDER_SNOW,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -84,8 +86,8 @@ public class Fawniler extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 32, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

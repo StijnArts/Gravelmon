@@ -15,7 +15,7 @@ public class Tubalord extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         70),
                 List.of(Ability.WATER_BUBBLE), Ability.RAIN_DISH,
-                8, 165,
+                19, 165,
                 new Stats(2,0,0,0,0,0), 65,
                 0.5,
                 236, ExperienceGroup.MEDIUM_FAST,
@@ -60,14 +60,15 @@ public class Tubalord extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLIZZARD,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 35, 54, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Tubalord");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

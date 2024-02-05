@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mandrazooka",
-  "nationalPokedexNumber": 1439,
+  "nationalPokedexNumber": 1460,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -146,8 +146,8 @@
   "preEvolution": "manchinade",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

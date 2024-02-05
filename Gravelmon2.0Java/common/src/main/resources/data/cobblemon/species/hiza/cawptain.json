@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cawptain",
-  "nationalPokedexNumber": 1910,
+  "nationalPokedexNumber": 1931,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -94,15 +94,18 @@
     "tm:confide"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cawptain.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "cawlor",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -114,7 +117,7 @@
     "special_defence": 0,
     "speed": 3
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

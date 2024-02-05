@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "moothnite",
-  "nationalPokedexNumber": 2840,
+  "nationalPokedexNumber": 2859,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -129,8 +129,8 @@
   "preEvolution": "crescoon",
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

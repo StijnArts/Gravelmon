@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bannawk",
-  "nationalPokedexNumber": 2777,
+  "nationalPokedexNumber": 2796,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -122,8 +122,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

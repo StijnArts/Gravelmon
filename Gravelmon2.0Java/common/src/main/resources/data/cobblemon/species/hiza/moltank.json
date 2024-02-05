@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "moltank",
-  "nationalPokedexNumber": 1957,
+  "nationalPokedexNumber": 1978,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -62,12 +62,15 @@
     "59:eruption"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.moltank.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "melant",
+  "baseScale": 0.61875,
   "hitbox": {
     "width": 3.0,
     "height": 3.0,
@@ -82,7 +85,7 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 8,
+  "height": 33,
   "weight": 165,
   "aspects": [],
 "features": [

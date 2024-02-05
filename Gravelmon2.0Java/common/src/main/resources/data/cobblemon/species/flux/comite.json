@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "comite",
-  "nationalPokedexNumber": 2163,
+  "nationalPokedexNumber": 2182,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -90,8 +90,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

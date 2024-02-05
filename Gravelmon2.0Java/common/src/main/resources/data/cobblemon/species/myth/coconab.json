@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coconab",
-  "nationalPokedexNumber": 2455,
+  "nationalPokedexNumber": 2474,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -89,8 +89,8 @@
   ],
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

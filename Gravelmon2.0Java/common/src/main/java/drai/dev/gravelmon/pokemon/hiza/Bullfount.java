@@ -15,14 +15,16 @@ public class Bullfount extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         56),
                 List.of(Ability.TORRENT), Ability.ROCK_HEAD,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.75,
                 140, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("With horns and muscles developed to defend against predators, they spend most of their time near water banks with no fear."),
-                List.of(),
+                List.of(new EvolutionEntry("hydrotaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.BUBBLE,6),
@@ -75,11 +77,11 @@ public class Bullfount extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE,  16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bullfount");

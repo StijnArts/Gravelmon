@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "emporeel",
-  "nationalPokedexNumber": 2808,
+  "nationalPokedexNumber": 2827,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -116,8 +116,8 @@
   "preEvolution": "electeel",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

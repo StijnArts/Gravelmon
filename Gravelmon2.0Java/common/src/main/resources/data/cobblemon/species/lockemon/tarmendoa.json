@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tarmendoa",
-  "nationalPokedexNumber": 2222,
+  "nationalPokedexNumber": 2241,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -84,8 +84,8 @@
   "preEvolution": "aspfault",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

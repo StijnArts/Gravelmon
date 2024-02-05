@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hedgit",
-  "nationalPokedexNumber": 1963,
+  "nationalPokedexNumber": 1984,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -49,7 +49,18 @@
     "grass"
   ],
   "moves": [
-  ],
+    "1:harden",
+    "1:tackle",
+    "5:metalclaw",
+    "10:pinmissile",
+    "15:ingrain",
+    "20:flashcannon",
+    "25:ironhead",
+    "30:selfdestruct",
+    "35:irondefense",
+    "41:curse",
+    "45:gyroball",
+    "50:explosion"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -57,10 +68,23 @@
   "pokedex": [
     "cobblemon.species.hedgit.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "hedgit_tropiary",
+      "variant": "item_interact",
+      "result": "tropiary",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:leaf_stone"   
+ }
+  ],
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +96,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 9,
   "weight": 165,
   "aspects": [],
 "features": [

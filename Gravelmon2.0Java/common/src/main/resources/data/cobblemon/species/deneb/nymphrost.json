@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nymphrost",
-  "nationalPokedexNumber": 2591,
+  "nationalPokedexNumber": 2610,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
@@ -120,8 +120,8 @@
   "preEvolution": "shivermin",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

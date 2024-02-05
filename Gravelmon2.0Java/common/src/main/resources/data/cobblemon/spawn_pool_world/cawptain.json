@@ -7,18 +7,20 @@
       "id": "cawptain-1",
       "pokemon": "cawptain",
       "presets": [
-          "natural"
+          "natural",
+          "shipwreck"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "30-45",
+      "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_beach" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_winter" ]    }
     }
   ]
 }

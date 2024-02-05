@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pufluff",
-  "nationalPokedexNumber": 1847,
+  "nationalPokedexNumber": 1868,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -146,8 +146,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

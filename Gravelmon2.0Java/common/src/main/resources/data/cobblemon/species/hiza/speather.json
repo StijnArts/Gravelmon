@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "speather",
-  "nationalPokedexNumber": 1976,
+  "nationalPokedexNumber": 1997,
   "primaryType": "flying",
   "secondaryType": "water",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 60,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -48,18 +48,31 @@
 
   ],
   "moves": [
-  ],
+    "1:growl",
+    "1:watergun",
+    "5:quickattack",
+    "10:supersonic",
+    "15:wingattack",
+    "20:waterpulse",
+    "26:agility",
+    "30:airslash",
+    "35:mist",
+    "40:roost",
+    "45:hurricane"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.speather.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "yuffin",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

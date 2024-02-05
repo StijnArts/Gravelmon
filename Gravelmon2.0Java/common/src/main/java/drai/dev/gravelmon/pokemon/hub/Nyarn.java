@@ -15,7 +15,7 @@ public class Nyarn extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         70),
                 List.of(Ability.PICKUP), Ability.PICKUP,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 120,
                 0.5,
                 63, ExperienceGroup.MEDIUM_FAST,
@@ -80,9 +80,8 @@ public class Nyarn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

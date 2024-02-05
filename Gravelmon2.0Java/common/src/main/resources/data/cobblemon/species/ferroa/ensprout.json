@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ensprout",
-  "nationalPokedexNumber": 1370,
+  "nationalPokedexNumber": 1391,
   "primaryType": "grass",
   "abilities": [
     "harvest",
@@ -137,8 +137,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

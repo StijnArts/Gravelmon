@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mafreozee",
-  "nationalPokedexNumber": 3046,
+  "nationalPokedexNumber": 3065,
   "primaryType": "ice",
   "secondaryType": "psychic",
   "abilities": [
@@ -114,8 +114,8 @@
   "preEvolution": "froska",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

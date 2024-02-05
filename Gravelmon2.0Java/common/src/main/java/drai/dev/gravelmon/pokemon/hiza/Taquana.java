@@ -15,7 +15,7 @@ public class Taquana extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         75),
                 List.of(Ability.MULTISCALE), Ability.MULTISCALE,
-                8, 165,
+                19, 165,
                 new Stats(0,0,0,2,0,0), 65,
                 0.5,
                 236, ExperienceGroup.MEDIUM_FAST,
@@ -37,10 +37,10 @@ public class Taquana extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPER_BEAM,55)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

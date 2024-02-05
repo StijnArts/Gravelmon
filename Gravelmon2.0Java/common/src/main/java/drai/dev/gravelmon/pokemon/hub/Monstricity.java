@@ -15,14 +15,15 @@ public class Monstricity extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         70),
                 List.of(Ability.BERSERK), Ability.LIGHTNING_ROD,
-                8, 165,
+                12, 165,
                 new Stats(0,1,0,1,0,0), 3,
                 0.0,
                 175, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("By harnessing the power in lightning, it has achieved a more complete form. However, it tends lash out like a mindless beast and attack anything in sight."),
-                List.of(),
+                List.of(new EvolutionEntry("cadastrophe", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:soul_fuse")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.ASTONISH,3),
@@ -106,11 +107,11 @@ public class Monstricity extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Monstricity");

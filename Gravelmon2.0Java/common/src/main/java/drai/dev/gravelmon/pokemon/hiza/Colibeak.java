@@ -15,14 +15,16 @@ public class Colibeak extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         60),
                 List.of(Ability.NATURAL_CURE,Ability.CLOUD_NINE,Ability.FRIEND_GUARD), Ability.FRIEND_GUARD,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,1,0,0), 200,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Colibeak are so small and quick that are hard to keep track of. The dust they leave behind have powerful healing properties."),
-                List.of(),
+                List.of(new EvolutionEntry("hummintale", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SAFEGUARD,1),
                         new MoveLearnSetEntry(Move.GUST,5),
@@ -59,14 +61,14 @@ public class Colibeak extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Colibeak");
+        setCanFly(true);
 
     }
 

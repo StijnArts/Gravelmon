@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vitisquash",
-  "nationalPokedexNumber": 2271,
+  "nationalPokedexNumber": 2290,
   "primaryType": "normal",
   "secondaryType": "grass",
   "abilities": [
@@ -88,8 +88,8 @@
   ],
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -15,7 +15,7 @@ public class Blowzzard extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         55),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 151, ExperienceGroup.MEDIUM_FAST,
@@ -90,14 +90,14 @@ public class Blowzzard extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOSHOCK,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Blowzzard");
+        setCanFly(true);
 
     }
 

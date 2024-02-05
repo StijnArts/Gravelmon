@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swove",
-  "nationalPokedexNumber": 2436,
+  "nationalPokedexNumber": 2455,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
@@ -96,8 +96,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

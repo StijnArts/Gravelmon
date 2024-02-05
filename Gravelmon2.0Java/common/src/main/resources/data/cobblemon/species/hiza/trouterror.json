@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trouterror",
-  "nationalPokedexNumber": 2039,
+  "nationalPokedexNumber": 2058,
   "primaryType": "ghost",
   "secondaryType": "steel",
   "abilities": [
@@ -66,15 +66,18 @@
     "66:wavecrash"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.trouterror.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "helmarine",
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -86,7 +89,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

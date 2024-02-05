@@ -15,7 +15,7 @@ public class Artreelery extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         63),
                 List.of(Ability.LONG_REACH), Ability.SKILL_LINK,
-                8, 165,
+                14, 165,
                 new Stats(0,1,1,0,0,0), 75,
                 0.5,
                 161, ExperienceGroup.SLOW,
@@ -39,8 +39,8 @@ public class Artreelery extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SYNTHESIS,53)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 54, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hatarakuma",
-  "nationalPokedexNumber": 2687,
+  "nationalPokedexNumber": 2706,
   "primaryType": "normal",
   "abilities": [
     "hustle",
@@ -125,8 +125,8 @@
   "preEvolution": "darakuma",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

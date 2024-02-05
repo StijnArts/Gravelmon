@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magnidove",
-  "nationalPokedexNumber": 2438,
+  "nationalPokedexNumber": 2457,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
@@ -87,8 +87,8 @@
   "preEvolution": "eledove",
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

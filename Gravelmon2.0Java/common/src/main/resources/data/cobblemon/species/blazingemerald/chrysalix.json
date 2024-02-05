@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chrysalix",
-  "nationalPokedexNumber": 2399,
+  "nationalPokedexNumber": 2418,
   "primaryType": "rock",
   "secondaryType": "ice",
   "abilities": [
@@ -96,8 +96,8 @@
   "preEvolution": "hoennianonix",
   "baseScale": 0.80625,
   "hitbox": {
-    "width": 1.1538461538461537,
-    "height": 1.1538461538461537,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
   "baseFriendship": 70,

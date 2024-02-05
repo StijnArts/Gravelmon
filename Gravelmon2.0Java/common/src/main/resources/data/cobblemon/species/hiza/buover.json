@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "buover",
-  "nationalPokedexNumber": 1950,
+  "nationalPokedexNumber": 1971,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -68,10 +68,25 @@
   "pokedex": [
     "cobblemon.species.buover.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "buover_bearver",
+      "variant": "level_up",
+      "result": "bearver",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -83,7 +98,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 4,
   "weight": 165,
   "aspects": [],
 "features": [

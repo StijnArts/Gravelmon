@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "haresquatch",
-  "nationalPokedexNumber": 2019,
+  "nationalPokedexNumber": 2040,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -49,18 +49,32 @@
     "field"
   ],
   "moves": [
-  ],
+    "1:mudslap",
+    "1:tackle",
+    "5:powdersnow",
+    "10:flail",
+    "15:iceshard",
+    "20:mist",
+    "25:endure",
+    "30:icywind",
+    "35:amnesia",
+    "40:takedown",
+    "45:earthquake",
+    "50:blizzard"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.haresquatch.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "rabbeti",
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 11,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scovile",
-  "nationalPokedexNumber": 1668,
+  "nationalPokedexNumber": 1689,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -90,8 +90,8 @@
   ],
   "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

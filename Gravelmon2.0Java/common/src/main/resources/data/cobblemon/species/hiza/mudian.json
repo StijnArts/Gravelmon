@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mudian",
-  "nationalPokedexNumber": 1993,
+  "nationalPokedexNumber": 2014,
   "primaryType": "ground",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -116,15 +116,33 @@
     "tm:whirlwind"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mudian.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "slushling",
+  "evolutions": [
+    {
+      "id": "mudian_goosmire",
+      "variant": "level_up",
+      "result": "goosmire",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -136,7 +154,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

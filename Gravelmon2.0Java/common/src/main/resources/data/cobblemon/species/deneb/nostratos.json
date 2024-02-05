@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nostratos",
-  "nationalPokedexNumber": 2562,
+  "nationalPokedexNumber": 2581,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
@@ -109,8 +109,8 @@
   "preEvolution": "dragune",
   "baseScale": 1.29375,
   "hitbox": {
-    "width": 1.7307692307692306,
-    "height": 1.7307692307692306,
+    "width": 7.0,
+    "height": 7.0,
     "fixed": false
   },
   "baseFriendship": 70,

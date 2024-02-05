@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "visclaw",
-  "nationalPokedexNumber": 3096,
+  "nationalPokedexNumber": 3115,
   "primaryType": "dragon",
   "secondaryType": "ground",
   "abilities": [
@@ -116,8 +116,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

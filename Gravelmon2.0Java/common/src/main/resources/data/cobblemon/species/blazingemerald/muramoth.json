@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "muramoth",
-  "nationalPokedexNumber": 2391,
+  "nationalPokedexNumber": 2410,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -86,8 +86,8 @@
   "preEvolution": "hoennianvenonat",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -10,13 +10,12 @@
           "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "21-53",
+      "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_beach" ],
         "canSeeSky": true
       }
     }

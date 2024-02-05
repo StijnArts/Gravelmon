@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crystaleon",
-  "nationalPokedexNumber": 2468,
+  "nationalPokedexNumber": 2487,
   "primaryType": "rock",
   "abilities": [
     "mirrorarmor",
@@ -95,8 +95,8 @@
   ],
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

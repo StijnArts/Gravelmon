@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "forsect",
-  "nationalPokedexNumber": 1997,
+  "nationalPokedexNumber": 2018,
   "primaryType": "fighting",
   "secondaryType": "bug",
   "abilities": [
@@ -49,18 +49,35 @@
     "human_like"
   ],
   "moves": [
-  ],
+    "1:armthrust",
+    "1:leer",
+    "1:tackle",
+    "5:furyattack",
+    "10:endure",
+    "15:aerialace",
+    "20:hornattack",
+    "25:counter",
+    "30:brickbreak",
+    "35:pinmissile",
+    "40:throatchop",
+    "45:thrash",
+    "50:swordsdance",
+    "55:megahorn",
+    "60:closecombat"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.forsect.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "knocust",
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +89,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

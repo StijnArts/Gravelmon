@@ -15,14 +15,16 @@ public class Gnabling extends drai.dev.gravelmon.pokemon.Pokemon {
                         37,
                         55),
                 List.of(Ability.OVERGROW), Ability.HARVEST,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.75,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Their scent attracts swarms of small insects as source of food. They seem to be always hungry, and constantly growing."),
-                List.of(),
+                List.of(new EvolutionEntry("beastalk", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.VINE_WHIP,3),
@@ -72,9 +74,8 @@ public class Gnabling extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_DANCE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

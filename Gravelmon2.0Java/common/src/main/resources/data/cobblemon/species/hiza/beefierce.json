@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beefierce",
-  "nationalPokedexNumber": 1989,
+  "nationalPokedexNumber": 2010,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
@@ -48,7 +48,23 @@
     "field"
   ],
   "moves": [
-  ],
+    "1:defensecurl",
+    "1:hornattack",
+    "1:rollout",
+    "1:sunnyday",
+    "7:bulldoze",
+    "14:taunt",
+    "21:rapidspin",
+    "28:brickbreak",
+    "35:stompingtantrum",
+    "42:knockoff",
+    "49:earthquake",
+    "56:gigaimpact",
+    "63:closecombat",
+    "70:endeavor",
+    "77:megahorn",
+    "84:headsmash",
+    "91:headlongrush"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +72,10 @@
   "pokedex": [
     "cobblemon.species.beefierce.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

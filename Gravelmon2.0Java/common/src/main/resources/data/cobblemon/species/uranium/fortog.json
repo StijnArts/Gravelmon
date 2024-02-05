@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fortog",
-  "nationalPokedexNumber": 1769,
+  "nationalPokedexNumber": 1790,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -129,8 +129,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

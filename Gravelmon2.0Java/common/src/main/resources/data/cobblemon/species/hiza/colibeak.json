@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "colibeak",
-  "nationalPokedexNumber": 1913,
+  "nationalPokedexNumber": 1934,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
@@ -25,7 +25,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -89,10 +89,25 @@
   "pokedex": [
     "cobblemon.species.colibeak.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "colibeak_hummintale",
+      "variant": "level_up",
+      "result": "hummintale",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -104,7 +119,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 3,
   "weight": 165,
   "aspects": [],
 "features": [

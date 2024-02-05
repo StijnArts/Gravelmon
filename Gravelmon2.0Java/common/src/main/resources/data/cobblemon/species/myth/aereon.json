@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aereon",
-  "nationalPokedexNumber": 2471,
+  "nationalPokedexNumber": 2490,
   "primaryType": "flying",
   "abilities": [
     "airlock",
@@ -99,8 +99,8 @@
   ],
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

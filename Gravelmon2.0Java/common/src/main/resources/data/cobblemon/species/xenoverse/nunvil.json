@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nunvil",
-  "nationalPokedexNumber": 1648,
+  "nationalPokedexNumber": 1669,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -142,8 +142,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

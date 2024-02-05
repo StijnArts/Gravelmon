@@ -15,14 +15,15 @@ public class Hunder extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         80),
                 List.of(Ability.MOXIE,Ability.DEFIANT,Ability.TOUGH_CLAWS), Ability.TOUGH_CLAWS,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 140, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They live in small packs lead by the strongest one. Those packs are known to invade powerplants to chew on cables and other electricity sources."),
-                List.of(),
+                List.of(new EvolutionEntry("voyote", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,5),
@@ -36,8 +37,9 @@ public class Hunder extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERBOLT,43)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 34, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

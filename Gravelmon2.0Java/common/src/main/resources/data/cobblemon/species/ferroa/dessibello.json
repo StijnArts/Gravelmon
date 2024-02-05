@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dessibello",
-  "nationalPokedexNumber": 1391,
+  "nationalPokedexNumber": 1412,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
@@ -145,8 +145,8 @@
   "preEvolution": "lungob",
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

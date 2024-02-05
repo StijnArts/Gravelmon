@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aquaro",
-  "nationalPokedexNumber": 3036,
+  "nationalPokedexNumber": 3055,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -85,8 +85,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

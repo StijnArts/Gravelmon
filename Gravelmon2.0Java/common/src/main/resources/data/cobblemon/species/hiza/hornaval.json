@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hornaval",
-  "nationalPokedexNumber": 2093,
+  "nationalPokedexNumber": 2112,
   "primaryType": "ice",
   "secondaryType": "water",
   "abilities": [
@@ -30,12 +30,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -50,18 +50,36 @@
     "field"
   ],
   "moves": [
-  ],
+    "1:defensecurl",
+    "1:growl",
+    "1:rollout",
+    "1:swagger",
+    "1:watergun",
+    "12:powdersnow",
+    "16:rest",
+    "20:snoresound",
+    "24:brine",
+    "28:aurorabeam",
+    "35:encore",
+    "40:bodyslam",
+    "46:surf",
+    "52:blizzard",
+    "58:hail",
+    "64:sheercold"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hornaval.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "narpoon",
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -73,7 +91,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

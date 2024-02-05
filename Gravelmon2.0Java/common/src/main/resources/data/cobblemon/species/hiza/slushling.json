@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slushling",
-  "nationalPokedexNumber": 1992,
+  "nationalPokedexNumber": 2013,
   "primaryType": "ground",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -115,10 +115,25 @@
   "pokedex": [
     "cobblemon.species.slushling.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "slushling_mudian",
+      "variant": "level_up",
+      "result": "mudian",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -130,7 +145,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 3,
   "weight": 165,
   "aspects": [],
 "features": [

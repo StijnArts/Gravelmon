@@ -15,14 +15,16 @@ public class Kerodillo extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         40),
                 List.of(Ability.BLAZE), Ability.STURDY,
-                8, 165,
+                6, 165,
                 new Stats(0,0,1,0,0,0), 45,
                 0.75,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("Its shell gets sturdier with higher temperatures. It is able to curl into a ball and roll up steep slopes."),
-                List.of(),
+                List.of(new EvolutionEntry("voladillo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.EMBER,6),
@@ -74,8 +76,8 @@ public class Kerodillo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

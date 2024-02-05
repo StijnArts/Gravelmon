@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gunkile",
-  "nationalPokedexNumber": 2012,
+  "nationalPokedexNumber": 2033,
   "primaryType": "poison",
   "secondaryType": "water",
   "abilities": [
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -69,10 +69,25 @@
   "pokedex": [
     "cobblemon.species.gunkile.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "gunkile_crocoxic",
+      "variant": "level_up",
+      "result": "crocoxic",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -84,7 +99,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 6,
   "weight": 165,
   "aspects": [],
 "features": [

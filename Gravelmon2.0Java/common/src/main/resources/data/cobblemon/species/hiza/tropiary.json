@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tropiary",
-  "nationalPokedexNumber": 1964,
+  "nationalPokedexNumber": 1985,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -49,18 +49,32 @@
     "grass"
   ],
   "moves": [
-  ],
+    "1:harden",
+    "1:tackle",
+    "5:metalclaw",
+    "10:pinmissile",
+    "15:ingrain",
+    "20:flashcannon",
+    "25:ironhead",
+    "30:selfdestruct",
+    "35:irondefense",
+    "41:curse",
+    "45:gyroball",
+    "50:explosion"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.tropiary.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "hedgit",
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 13,
   "weight": 165,
   "aspects": [],
 "features": [

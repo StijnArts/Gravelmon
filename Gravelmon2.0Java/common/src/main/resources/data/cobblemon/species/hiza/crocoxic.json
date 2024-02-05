@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crocoxic",
-  "nationalPokedexNumber": 2013,
+  "nationalPokedexNumber": 2034,
   "primaryType": "poison",
   "secondaryType": "water",
   "abilities": [
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -64,15 +64,18 @@
     "68:toxic"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.crocoxic.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "gunkile",
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -84,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 17,
   "weight": 165,
   "aspects": [],
 "features": [

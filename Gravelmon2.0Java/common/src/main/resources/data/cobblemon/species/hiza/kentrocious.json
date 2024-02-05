@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kentrocious",
-  "nationalPokedexNumber": 2068,
+  "nationalPokedexNumber": 2087,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -48,18 +48,31 @@
     "monster"
   ],
   "moves": [
-  ],
+    "1:rapidspin",
+    "1:smackdown",
+    "1:smokescreen",
+    "1:tackle",
+    "15:rockpolish",
+    "20:ancientpower",
+    "27:incinerate",
+    "35:stealthrock",
+    "41:heatcrash",
+    "48:rockblast",
+    "55:stoneedge"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kentrocious.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "stegosear",
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 21,
   "weight": 165,
   "aspects": [],
 "features": [

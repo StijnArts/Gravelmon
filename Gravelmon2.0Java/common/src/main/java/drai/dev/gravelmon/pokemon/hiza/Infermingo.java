@@ -15,7 +15,7 @@ public class Infermingo extends drai.dev.gravelmon.pokemon.Pokemon {
                         97,
                         100),
                 List.of(Ability.FLASH_FIRE,Ability.LEVITATE,Ability.COMPETITIVE), Ability.COMPETITIVE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,2,0,1), 45,
                 0.5,
                 220, ExperienceGroup.MEDIUM_SLOW,
@@ -58,9 +58,8 @@ public class Infermingo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_BLAST,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 54, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST, Biome.IS_VOLCANIC, Biome.IS_THERMAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

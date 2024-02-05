@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "manna",
-  "nationalPokedexNumber": 2859,
+  "nationalPokedexNumber": 2878,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -109,8 +109,8 @@
   "preEvolution": "sisanne",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

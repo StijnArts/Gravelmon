@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "encyst",
-  "nationalPokedexNumber": 1573,
+  "nationalPokedexNumber": 1594,
   "primaryType": "bug",
   "secondaryType": "ghost",
   "abilities": [
@@ -89,8 +89,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

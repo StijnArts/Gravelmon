@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "doomture",
-  "nationalPokedexNumber": 2088,
+  "nationalPokedexNumber": 2107,
   "primaryType": "poison",
   "secondaryType": "dragon",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -111,15 +111,18 @@
     "tm:fly"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.doomture.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "carriotten",
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -131,7 +134,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 20,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunabitt",
-  "nationalPokedexNumber": 2505,
+  "nationalPokedexNumber": 2524,
   "primaryType": "psychic",
   "abilities": [
     "keeneye",
@@ -130,8 +130,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

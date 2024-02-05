@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pogoroo",
-  "nationalPokedexNumber": 1938,
+  "nationalPokedexNumber": 1959,
   "primaryType": "normal",
   "abilities": [
     "scrappy",
@@ -65,10 +65,25 @@
   "pokedex": [
     "cobblemon.species.pogoroo.desc"
   ],
+  "evolutions": [
+    {
+      "id": "pogoroo_kangaloop",
+      "variant": "level_up",
+      "result": "kangaloop",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

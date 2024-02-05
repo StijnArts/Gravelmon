@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fowlkly",
-  "nationalPokedexNumber": 1954,
+  "nationalPokedexNumber": 1975,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -48,7 +48,19 @@
     "flying"
   ],
   "moves": [
-  ],
+    "1:attract",
+    "1:gust",
+    "5:confusion",
+    "10:endeavor",
+    "15:aircutter",
+    "20:imprison",
+    "25:assurance",
+    "30:amnesia",
+    "35:airslash",
+    "40:psychic",
+    "45:calmmind",
+    "50:futuresight",
+    "55:simplebeam"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +68,25 @@
   "pokedex": [
     "cobblemon.species.fowlkly.desc"
   ],
+  "evolutions": [
+    {
+      "id": "fowlkly_lunatiken",
+      "variant": "level_up",
+      "result": "lunatiken",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ]   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

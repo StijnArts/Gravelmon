@@ -15,14 +15,16 @@ public class Skirmaki extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         90),
                 List.of(Ability.LIMBER,Ability.IRON_FIST,Ability.SKILL_LINK), Ability.SKILL_LINK,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 152, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It is really smart and won't back away from a fight. If one seeN running away, its most likely luring its foe into an ambush."),
-                List.of(),
+                List.of(new EvolutionEntry("murcenary", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.HELPING_HAND,5),
@@ -40,8 +42,8 @@ public class Skirmaki extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPER_VOICE,46)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 35, 2.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

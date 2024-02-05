@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "biffka",
-  "nationalPokedexNumber": 1634,
+  "nationalPokedexNumber": 1655,
   "primaryType": "normal",
   "abilities": [
     "intimidate",
@@ -70,8 +70,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

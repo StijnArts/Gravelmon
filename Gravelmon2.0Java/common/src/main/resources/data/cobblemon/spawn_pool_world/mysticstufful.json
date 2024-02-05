@@ -15,8 +15,7 @@
       "level": "27-38",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_spooky" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky" ]
       }
     }
   ]

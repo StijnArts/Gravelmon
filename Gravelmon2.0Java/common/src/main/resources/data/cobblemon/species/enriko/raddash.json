@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raddash",
-  "nationalPokedexNumber": 1537,
+  "nationalPokedexNumber": 1558,
   "primaryType": "grass",
   "abilities": [
     "naturalcure",
@@ -83,8 +83,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

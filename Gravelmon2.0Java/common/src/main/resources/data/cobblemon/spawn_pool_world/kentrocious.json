@@ -11,13 +11,12 @@
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "41-56",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:is_nether_wasteland" ]
       }
     }
   ]

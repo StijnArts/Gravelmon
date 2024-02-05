@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vespidron",
-  "nationalPokedexNumber": 2412,
+  "nationalPokedexNumber": 2431,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -75,8 +75,8 @@
   "preEvolution": "qamorancombee",
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

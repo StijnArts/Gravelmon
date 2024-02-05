@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coloceros",
-  "nationalPokedexNumber": 2099,
+  "nationalPokedexNumber": 2118,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -48,18 +48,34 @@
     "grass"
   ],
   "moves": [
-  ],
+    "1:absorb",
+    "1:razorleaf",
+    "1:tackle",
+    "1:withdraw",
+    "1:woodhammer",
+    "17:curse",
+    "22:bite",
+    "27:megadrain",
+    "33:leechseed",
+    "39:synthesis",
+    "45:crunch",
+    "51:gigadrain",
+    "57:leafstorm",
+    "63:headlongrush"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.coloceros.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "verblunt",
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 20,
   "weight": 165,
   "aspects": [],
 "features": [

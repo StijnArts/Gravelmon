@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brambarb",
-  "nationalPokedexNumber": 2929,
+  "nationalPokedexNumber": 2948,
   "primaryType": "dark",
   "secondaryType": "grass",
   "abilities": [
@@ -131,8 +131,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

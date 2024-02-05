@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pachyvory",
-  "nationalPokedexNumber": 2189,
+  "nationalPokedexNumber": 2208,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
@@ -159,8 +159,8 @@
   "preEvolution": "pachyndou",
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

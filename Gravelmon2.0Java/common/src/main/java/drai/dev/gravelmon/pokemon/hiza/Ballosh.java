@@ -15,14 +15,16 @@ public class Ballosh extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         55),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 50, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Its body is full of toxic gases that keep it floating in the air. It rolls on the snow to increase its size when threatened."),
-                List.of(),
+                List.of(new EvolutionEntry("blowzzard", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,4),
@@ -88,14 +90,14 @@ public class Ballosh extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOSHOCK,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 2, 34, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Ballosh");
+        setCanFly(true);
 
     }
 

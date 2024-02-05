@@ -7,16 +7,15 @@
       "id": "moltank-1",
       "pokemon": "moltank",
       "presets": [
-          "natural"
+          "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "32-56",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#minecraft:is_nether" ],
         "canSeeSky": true
       }
     }

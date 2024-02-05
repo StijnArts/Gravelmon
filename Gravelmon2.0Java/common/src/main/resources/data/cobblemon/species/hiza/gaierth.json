@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gaierth",
-  "nationalPokedexNumber": 2115,
+  "nationalPokedexNumber": 2134,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -48,7 +48,18 @@
     "undiscovered"
   ],
   "moves": [
-  ],
+    "1:falseswipe",
+    "1:razorleaf",
+    "1:stringshot",
+    "1:tackle",
+    "22:strugglebug",
+    "29:fellstinger",
+    "32:helpinghand",
+    "36:leafblade",
+    "39:xscissor",
+    "43:entrainment",
+    "46:swordsdance",
+    "50:leafstorm"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +67,10 @@
   "pokedex": [
     "cobblemon.species.gaierth.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 1.63125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 9.0,
+    "height": 9.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +82,7 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 8,
+  "height": 87,
   "weight": 165,
   "aspects": [],
 "features": [

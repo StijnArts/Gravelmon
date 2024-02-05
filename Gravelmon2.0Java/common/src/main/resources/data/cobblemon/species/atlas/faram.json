@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "faram",
-  "nationalPokedexNumber": 2863,
+  "nationalPokedexNumber": 2882,
   "primaryType": "normal",
   "abilities": [
     "rockhead",
@@ -108,8 +108,8 @@
   "preEvolution": "goatee",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

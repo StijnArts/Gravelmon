@@ -15,7 +15,7 @@ public class Chainmaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         84),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                15, 165,
                 new Stats(0,3,0,0,0,0), 70,
                 0.5,
                 130, ExperienceGroup.MEDIUM_FAST,
@@ -64,14 +64,15 @@ public class Chainmaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 38, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Chainmaw");
+        setCanFly(true);
 
     }
 

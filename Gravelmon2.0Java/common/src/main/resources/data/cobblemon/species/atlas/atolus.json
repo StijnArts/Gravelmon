@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "atolus",
-  "nationalPokedexNumber": 3051,
+  "nationalPokedexNumber": 3070,
   "primaryType": "fighting",
   "abilities": [
     "sheerforce",
@@ -73,8 +73,8 @@
   "preEvolution": "diskobolus",
   "baseScale": 0.4125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

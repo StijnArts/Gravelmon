@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coropper",
-  "nationalPokedexNumber": 2608,
+  "nationalPokedexNumber": 2627,
   "primaryType": "bug",
   "abilities": [
     "limber",
@@ -93,8 +93,8 @@
   "preEvolution": "yolkid",
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

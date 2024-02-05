@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "signetanblakjak",
-  "nationalPokedexNumber": 2519,
+  "nationalPokedexNumber": 2538,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
@@ -118,8 +118,8 @@
   "preEvolution": "mintch",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

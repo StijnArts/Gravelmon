@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "forestic",
-  "nationalPokedexNumber": 1540,
+  "nationalPokedexNumber": 1561,
   "primaryType": "normal",
   "abilities": [
     "clearbody",
@@ -69,8 +69,8 @@
   ],
   "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

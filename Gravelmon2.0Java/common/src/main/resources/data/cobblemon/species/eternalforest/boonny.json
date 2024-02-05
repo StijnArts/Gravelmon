@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boonny",
-  "nationalPokedexNumber": 2206,
+  "nationalPokedexNumber": 2225,
   "primaryType": "rock",
   "abilities": [
     "purepower",
@@ -219,8 +219,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

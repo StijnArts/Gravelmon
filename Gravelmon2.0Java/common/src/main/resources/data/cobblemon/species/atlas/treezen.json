@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "treezen",
-  "nationalPokedexNumber": 2980,
+  "nationalPokedexNumber": 2999,
   "primaryType": "grass",
   "secondaryType": "ice",
   "abilities": [
@@ -113,8 +113,8 @@
   "preEvolution": "freezef",
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

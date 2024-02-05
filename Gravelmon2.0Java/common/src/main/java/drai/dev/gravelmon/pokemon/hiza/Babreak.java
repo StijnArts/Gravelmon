@@ -15,14 +15,16 @@ public class Babreak extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         80),
                 List.of(Ability.QUICK_FEET), Ability.HUSTLE,
-                8, 165,
+                12, 165,
                 new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 137, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Babreak will intimidate and pick on smaller Pokémon to steal their food, however if they attempt to fight back they are quick to run away."),
-                List.of(),
+                List.of(new EvolutionEntry("babroote", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
                         new MoveLearnSetEntry(Move.ASSURANCE,8),
@@ -39,8 +41,8 @@ public class Babreak extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,59)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

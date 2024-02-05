@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "musshield",
-  "nationalPokedexNumber": 2936,
+  "nationalPokedexNumber": 2955,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -119,8 +119,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

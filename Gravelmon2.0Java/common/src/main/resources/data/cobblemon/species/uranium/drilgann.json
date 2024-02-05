@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drilgann",
-  "nationalPokedexNumber": 1795,
+  "nationalPokedexNumber": 1816,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -146,8 +146,8 @@
   "preEvolution": "modrille",
   "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

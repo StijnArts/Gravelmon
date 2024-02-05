@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luvanguish",
-  "nationalPokedexNumber": 2003,
+  "nationalPokedexNumber": 2024,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
@@ -77,8 +77,8 @@
   "preEvolution": "hizianluvdisc",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

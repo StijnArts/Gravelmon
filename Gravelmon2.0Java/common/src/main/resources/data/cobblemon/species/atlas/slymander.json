@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slymander",
-  "nationalPokedexNumber": 2793,
+  "nationalPokedexNumber": 2812,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -126,8 +126,8 @@
   "preEvolution": "reparch",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

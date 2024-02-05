@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luchabra",
-  "nationalPokedexNumber": 1844,
+  "nationalPokedexNumber": 1865,
   "primaryType": "poison",
   "secondaryType": "fighting",
   "abilities": [
@@ -199,8 +199,8 @@
   "preEvolution": "chupacho",
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

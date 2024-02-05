@@ -15,7 +15,7 @@ public class Hauntberg extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         85),
                 List.of(Ability.ICE_BODY), Ability.PERMAFROST,
-                8, 165,
+                18, 165,
                 new Stats(0,0,1,2,0,0), 45,
                 0.5,
                 234, ExperienceGroup.MEDIUM_SLOW,
@@ -41,14 +41,15 @@ public class Hauntberg extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHEER_COLD,60)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 40, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_FROZEN_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Hauntberg");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

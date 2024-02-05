@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drizzella",
-  "nationalPokedexNumber": 2078,
+  "nationalPokedexNumber": 2097,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -48,18 +48,35 @@
     "water_3"
   ],
   "moves": [
+    "1:watergun",
+    "1:supersonic",
+    "1:flash",
+    "1:thunderwave",
+    "1:waterpulse",
+    "1:safeguard",
+    "1:magnetrise",
+    "1:brine",
+    "1:memento",
+    "1:screechsound",
+    "1:raindance",
+    "1:recover",
+    "1:hydropump",
+    "1:thunder",
     "1:shockwave"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.drizzella.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "parabella",
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +88,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

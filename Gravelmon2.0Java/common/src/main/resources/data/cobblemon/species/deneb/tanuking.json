@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tanuking",
-  "nationalPokedexNumber": 2587,
+  "nationalPokedexNumber": 2606,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -124,8 +124,8 @@
   "preEvolution": "percussoon",
   "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

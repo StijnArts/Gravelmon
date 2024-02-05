@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stalagoliath",
-  "nationalPokedexNumber": 2053,
+  "nationalPokedexNumber": 2072,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -65,15 +65,18 @@
     "66:headsmash"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.stalagoliath.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "stalacpace",
+  "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -85,7 +88,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 23,
   "weight": 165,
   "aspects": [],
 "features": [

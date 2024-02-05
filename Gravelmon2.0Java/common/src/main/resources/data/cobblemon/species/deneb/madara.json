@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "madara",
-  "nationalPokedexNumber": 2705,
+  "nationalPokedexNumber": 2724,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -100,8 +100,8 @@
   "preEvolution": "perame",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

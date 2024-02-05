@@ -15,7 +15,7 @@ public class Gobidus extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         30),
                 List.of(Ability.SAND_STREAM), Ability.GLUTTONY,
-                8, 165,
+                74, 165,
                 new Stats(2,0,0,0,0,0), 80,
                 0.5,
                 240, ExperienceGroup.MEDIUM_SLOW,
@@ -64,10 +64,10 @@ public class Gobidus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 65, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_PLATEAU))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

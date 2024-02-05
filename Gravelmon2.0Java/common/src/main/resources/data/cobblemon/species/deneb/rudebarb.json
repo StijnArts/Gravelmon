@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rudebarb",
-  "nationalPokedexNumber": 2641,
+  "nationalPokedexNumber": 2660,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -127,8 +127,8 @@
   "preEvolution": "rooten",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

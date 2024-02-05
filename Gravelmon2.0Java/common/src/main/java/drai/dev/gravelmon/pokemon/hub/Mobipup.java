@@ -15,7 +15,7 @@ public class Mobipup extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         63),
                 List.of(Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
+                6, 165,
                 new Stats(1,0,0,0,0,0), 45,
                 0.0,
                 75, ExperienceGroup.MEDIUM_SLOW,
@@ -112,11 +112,9 @@ public class Mobipup extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3.8, List.of(
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mobipup");

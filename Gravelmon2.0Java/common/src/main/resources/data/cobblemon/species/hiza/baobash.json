@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baobash",
-  "nationalPokedexNumber": 2047,
+  "nationalPokedexNumber": 2066,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -48,18 +48,33 @@
     "grass"
   ],
   "moves": [
-  ],
+    "1:growl",
+    "1:vinewhip",
+    "8:rollout",
+    "11:bite",
+    "15:leechseed",
+    "20:seedbomb",
+    "24:pinmissile",
+    "29:takedown",
+    "34:mudshot",
+    "38:bulkup",
+    "43:bodyslam",
+    "47:painsplit",
+    "53:woodhammer"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.baobash.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "brambeat",
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

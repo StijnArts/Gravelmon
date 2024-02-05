@@ -15,14 +15,16 @@ public class Termunch extends drai.dev.gravelmon.pokemon.Pokemon {
                         52,
                         50),
                 List.of(Ability.SAP_SIPPER), Ability.SAP_SIPPER,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 250,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("They eat nothing but wood, for that reason, building homes in certain areas of Hiza is not adviced."),
-                List.of(),
+                List.of(new EvolutionEntry("chainmaw", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.HARDEN,5),
@@ -43,8 +45,8 @@ public class Termunch extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUBSTITUTE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 15, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

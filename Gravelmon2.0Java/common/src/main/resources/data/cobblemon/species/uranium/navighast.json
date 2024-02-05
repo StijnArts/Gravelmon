@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "navighast",
-  "nationalPokedexNumber": 1860,
+  "nationalPokedexNumber": 1881,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
@@ -141,8 +141,8 @@
   "preEvolution": "skelerogue",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

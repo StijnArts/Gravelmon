@@ -15,14 +15,15 @@ public class Orcleton extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         50),
                 List.of(Ability.CURSED_BODY), Ability.CURSED_BODY,
-                8, 165,
+                12, 165,
                 new Stats(0,1,0,1,0,0), 90,
                 0.5,
                 137, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.HUMAN_LIKE),
                 List.of("It carefully picks apart the bones it finds to strenghten its armor. if one of its limbs falls off it can easily be reconnected."),
-                List.of(),
+                List.of(new EvolutionEntry("bonemancer", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
                         new MoveLearnSetEntry(Move.BONE_CLUB,6),
@@ -39,11 +40,11 @@ public class Orcleton extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONEMERANG,53)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Orcleton");

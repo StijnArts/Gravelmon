@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kaminary",
-  "nationalPokedexNumber": 2597,
+  "nationalPokedexNumber": 2616,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
@@ -123,8 +123,8 @@
   "preEvolution": "lilynary",
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "plummora",
-  "nationalPokedexNumber": 1736,
+  "nationalPokedexNumber": 1757,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
@@ -125,8 +125,8 @@
   "preEvolution": "trimmet",
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

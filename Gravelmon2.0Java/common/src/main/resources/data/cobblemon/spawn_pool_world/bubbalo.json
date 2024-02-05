@@ -7,16 +7,16 @@
       "id": "bubbalo-1",
       "pokemon": "bubbalo",
       "presets": [
+          "near_water",
           "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
+      "bucket": "ultra-rare",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 8.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_grassland" ],
         "canSeeSky": true
       }
     }

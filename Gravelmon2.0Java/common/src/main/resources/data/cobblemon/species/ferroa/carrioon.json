@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carrioon",
-  "nationalPokedexNumber": 1386,
+  "nationalPokedexNumber": 1407,
   "primaryType": "dragon",
   "secondaryType": "flying",
   "abilities": [
@@ -148,8 +148,8 @@
   ],
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "whalpool",
-  "nationalPokedexNumber": 1473,
+  "nationalPokedexNumber": 1494,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -107,8 +107,8 @@
   ],
   "baseScale": 1.3125,
   "hitbox": {
-    "width": 2.019230769230769,
-    "height": 2.019230769230769,
+    "width": 7.0,
+    "height": 7.0,
     "fixed": false
   },
   "baseFriendship": 70,

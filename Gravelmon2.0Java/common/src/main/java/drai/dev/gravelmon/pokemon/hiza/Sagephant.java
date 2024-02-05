@@ -15,14 +15,16 @@ public class Sagephant extends drai.dev.gravelmon.pokemon.Pokemon {
                         86,
                         36),
                 List.of(Ability.TELEPATHY,Ability.SYNCHRONIZE,Ability.OVERCOAT), Ability.OVERCOAT,
-                8, 165,
+                16, 165,
                 new Stats(0,0,2,0,0,0), 100,
                 0.5,
                 130, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They have poor eyesight, but all their other senses are acute. Sagephant can look into the future to avoid conflict before it happens."),
-                List.of(),
+                List.of(new EvolutionEntry("Ganera", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSION,1),
                         new MoveLearnSetEntry(Move.KINESIS,5),
@@ -38,8 +40,8 @@ public class Sagephant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,60)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 39, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

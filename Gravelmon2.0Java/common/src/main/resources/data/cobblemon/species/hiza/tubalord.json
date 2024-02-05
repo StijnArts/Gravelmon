@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tubalord",
-  "nationalPokedexNumber": 1943,
+  "nationalPokedexNumber": 1964,
   "primaryType": "water",
   "abilities": [
     "waterbubble",
@@ -33,7 +33,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -83,15 +83,18 @@
     "tm:blizzard"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.tubalord.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "soappo",
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -103,7 +106,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

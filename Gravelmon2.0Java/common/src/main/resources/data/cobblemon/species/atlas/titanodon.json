@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "titanodon",
-  "nationalPokedexNumber": 3029,
+  "nationalPokedexNumber": 3048,
   "primaryType": "dragon",
   "secondaryType": "rock",
   "abilities": [
@@ -76,8 +76,8 @@
   "preEvolution": "rapterra",
   "baseScale": 0.46875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

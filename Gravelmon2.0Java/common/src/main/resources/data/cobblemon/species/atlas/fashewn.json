@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fashewn",
-  "nationalPokedexNumber": 2847,
+  "nationalPokedexNumber": 2866,
   "primaryType": "fairy",
   "abilities": [
     "cutecharm",
@@ -127,8 +127,8 @@
   "preEvolution": "kitture",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ballosh",
-  "nationalPokedexNumber": 2061,
+  "nationalPokedexNumber": 2080,
   "primaryType": "ice",
   "secondaryType": "poison",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -114,10 +114,25 @@
   "pokedex": [
     "cobblemon.species.ballosh.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "ballosh_blowzzard",
+      "variant": "level_up",
+      "result": "blowzzard",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -129,7 +144,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

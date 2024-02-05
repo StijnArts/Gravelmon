@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tubareel",
-  "nationalPokedexNumber": 1801,
+  "nationalPokedexNumber": 1822,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -128,8 +128,8 @@
   "preEvolution": "tubjaw",
   "baseScale": 0.7125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
   "baseFriendship": 70,

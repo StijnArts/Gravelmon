@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hotdach",
-  "nationalPokedexNumber": 1430,
+  "nationalPokedexNumber": 1451,
   "primaryType": "fire",
   "abilities": [
     "ballfetch",
@@ -104,8 +104,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

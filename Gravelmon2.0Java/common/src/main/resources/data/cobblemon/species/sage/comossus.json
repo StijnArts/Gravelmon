@@ -159,8 +159,8 @@
   "preEvolution": "grolem",
   "baseScale": 0.825,
   "hitbox": {
-    "width": 1.1538461538461537,
-    "height": 1.1538461538461537,
+    "width": 4.0,
+    "height": 4.0,
     "fixed": false
   },
   "baseFriendship": 70,

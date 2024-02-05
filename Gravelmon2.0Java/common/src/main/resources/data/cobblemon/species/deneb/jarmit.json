@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jarmit",
-  "nationalPokedexNumber": 2524,
+  "nationalPokedexNumber": 2543,
   "primaryType": "ghost",
   "abilities": [
     "stench",
@@ -122,8 +122,8 @@
   "preEvolution": "ajarimus",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

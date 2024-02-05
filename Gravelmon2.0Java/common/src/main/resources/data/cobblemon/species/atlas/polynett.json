@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "polynett",
-  "nationalPokedexNumber": 2994,
+  "nationalPokedexNumber": 3013,
   "primaryType": "water",
   "abilities": [
     "damp",
@@ -87,8 +87,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wavstisnail",
-  "nationalPokedexNumber": 2435,
+  "nationalPokedexNumber": 2454,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -96,8 +96,8 @@
   "preEvolution": "torsnail",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

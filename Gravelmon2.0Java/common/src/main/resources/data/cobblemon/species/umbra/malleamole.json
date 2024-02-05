@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "malleamole",
-  "nationalPokedexNumber": 2381,
+  "nationalPokedexNumber": 2400,
   "primaryType": "steel",
   "abilities": [
     "toughclaws",
@@ -110,8 +110,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -15,7 +15,7 @@ public class Chopteran extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         80),
                 List.of(Ability.AERILATE), Ability.AERILATE,
-                8, 165,
+                10, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 182, ExperienceGroup.MEDIUM_SLOW,
@@ -36,14 +36,14 @@ public class Chopteran extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOOMBURST,60)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 31, 48, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING,Biome.IS_AUTUMN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Chopteran");
+        setCanFly(true);
 
     }
 

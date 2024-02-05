@@ -15,7 +15,7 @@ public class Cawptain extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         100),
                 List.of(Ability.PICKPOCKET), Ability.ANTICIPATION,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,0,0,3), 45,
                 0.5,
                 200, ExperienceGroup.MEDIUM_SLOW,
@@ -70,11 +70,11 @@ public class Cawptain extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CONFIDE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 30, 45, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Cawptain");

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chessire",
-  "nationalPokedexNumber": 2580,
+  "nationalPokedexNumber": 2599,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
@@ -131,8 +131,8 @@
   "preEvolution": "cheshile",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

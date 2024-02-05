@@ -7,17 +7,15 @@
       "id": "hauntlass-1",
       "pokemon": "hauntlass",
       "presets": [
-          "natural"
+          "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "31-56",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky" ]
       }
     }
   ]

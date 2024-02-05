@@ -15,14 +15,16 @@ public class Gargross extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         50),
                 List.of(Ability.UNBURDEN), Ability.BATTLE_ARMOR,
-                8, 165,
+                12, 165,
                 new Stats(0,0,1,0,0,0), 120,
                 0.5,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.MONSTER),
                 List.of("Gargross can be often seem carrying rocks as they fly. They select the best looking ones to build their nests."),
-                List.of(),
+                List.of(new EvolutionEntry("ruthedral", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,6),
@@ -37,14 +39,13 @@ public class Gargross extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_EDGE,53)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 27, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Gargross");
+        setCanFly(true);
 
     }
 

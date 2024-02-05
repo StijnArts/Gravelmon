@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pyroad",
-  "nationalPokedexNumber": 1529,
+  "nationalPokedexNumber": 1550,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
@@ -71,8 +71,8 @@
   "preEvolution": "wogfire",
   "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

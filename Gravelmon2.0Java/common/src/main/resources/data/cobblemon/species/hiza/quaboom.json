@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quaboom",
-  "nationalPokedexNumber": 1940,
+  "nationalPokedexNumber": 1961,
   "primaryType": "rock",
   "secondaryType": "poison",
   "abilities": [
@@ -49,7 +49,22 @@
     "water_2"
   ],
   "moves": [
-  ],
+    "1:harden",
+    "1:rockthrow",
+    "1:smackdown",
+    "1:spikyshield",
+    "1:toxicspikes",
+    "7:acidspray",
+    "11:ancientpower",
+    "15:rockpolish",
+    "18:stealthrock",
+    "22:venoshock",
+    "26:sandstorm",
+    "29:selfdestruct",
+    "33:rockslide",
+    "39:powergemcrystal",
+    "44:acidarmor",
+    "50:sludgewave"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -57,10 +72,10 @@
   "pokedex": [
     "cobblemon.species.quaboom.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 6,
   "weight": 165,
   "aspects": [],
 "features": [

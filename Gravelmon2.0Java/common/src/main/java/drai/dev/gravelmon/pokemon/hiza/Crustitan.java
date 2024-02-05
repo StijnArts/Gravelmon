@@ -15,7 +15,7 @@ public class Crustitan extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         75),
                 List.of(Ability.MOLD_BREAKER), Ability.MOLD_BREAKER,
-                8, 165,
+                23, 165,
                 new Stats(0,0,3,0,0,0), 15,
                 0.5,
                 245, ExperienceGroup.SLOW,
@@ -39,9 +39,9 @@ public class Crustitan extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GIGA_IMPACT,81)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 55, 65, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

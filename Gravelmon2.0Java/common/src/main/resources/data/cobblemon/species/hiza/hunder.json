@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hunder",
-  "nationalPokedexNumber": 1961,
+  "nationalPokedexNumber": 1982,
   "primaryType": "electric",
   "abilities": [
     "moxie",
@@ -60,15 +60,31 @@
     "43:thunderbolt"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hunder.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "canimble",
+  "evolutions": [
+    {
+      "id": "hunder_voyote",
+      "variant": "item_interact",
+      "result": "voyote",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone"   
+ }
+  ],
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -80,7 +96,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

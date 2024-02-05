@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "musipede",
-  "nationalPokedexNumber": 1965,
+  "nationalPokedexNumber": 1986,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -47,7 +47,20 @@
     "bug"
   ],
   "moves": [
-  ],
+    "1:growl",
+    "1:tackle",
+    "14:absorb",
+    "18:singsound",
+    "22:focusenergy",
+    "26:slash",
+    "30:xscissor",
+    "34:screechsound",
+    "36:fellstinger",
+    "38:taunt",
+    "42:nightslash",
+    "44:stickyweb",
+    "46:bugbuzzsound",
+    "50:perishsongsound"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -55,10 +68,10 @@
   "pokedex": [
     "cobblemon.species.musipede.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -70,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 7,
   "weight": 165,
   "aspects": [],
 "features": [

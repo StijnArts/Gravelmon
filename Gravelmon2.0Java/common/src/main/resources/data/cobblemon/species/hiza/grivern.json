@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grivern",
-  "nationalPokedexNumber": 2096,
+  "nationalPokedexNumber": 2115,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 60,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -48,7 +48,21 @@
 
   ],
   "moves": [
-  ],
+    "1:astonish",
+    "1:minimize",
+    "4:gust",
+    "8:focusenergy",
+    "12:payback",
+    "16:hex",
+    "20:shadowball",
+    "24:spitup",
+    "24:stockpile",
+    "24:swallow",
+    "29:selfdestruct",
+    "32:destinybond",
+    "36:batonpass",
+    "40:tailwind",
+    "44:explosion"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -58,8 +72,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

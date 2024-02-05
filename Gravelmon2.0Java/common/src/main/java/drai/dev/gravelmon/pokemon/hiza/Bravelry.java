@@ -15,14 +15,16 @@ public class Bravelry extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         80),
                 List.of(Ability.ANGER_POINT), Ability.RECKLESS,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 82, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Despite not being very strong it prefers to live alone, in hopes of growing strong and fully independent."),
-                List.of(),
+                List.of(new EvolutionEntry("barbavelry", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.LOW_KICK,8),
@@ -37,8 +39,8 @@ public class Bravelry extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUPERPOWER,56)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 27, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

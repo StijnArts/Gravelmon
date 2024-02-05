@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "artreelery",
-  "nationalPokedexNumber": 2045,
+  "nationalPokedexNumber": 2064,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -63,15 +63,18 @@
     "53:synthesis"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.artreelery.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "pomegrenade",
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -83,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 14,
   "weight": 165,
   "aspects": [],
 "features": [

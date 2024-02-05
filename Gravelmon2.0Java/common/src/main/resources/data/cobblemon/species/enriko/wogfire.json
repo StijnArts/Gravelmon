@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wogfire",
-  "nationalPokedexNumber": 1528,
+  "nationalPokedexNumber": 1549,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
@@ -86,8 +86,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

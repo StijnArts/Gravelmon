@@ -15,14 +15,19 @@ public class Rattletack extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         55),
                 List.of(Ability.SHED_SKIN,Ability.UNNERVE,Ability.SAND_VEIL), Ability.SAND_VEIL,
-                8, 165,
+                11, 165,
                 new Stats(0,0,1,1,0,0), 120,
                 0.5,
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("It shakes its rattle tail to warn predators that its poisonous and dangerous. Its rattle grows bigger, harder and louder as it sheds, it can eventually become as hard as a diamond."),
-                List.of(),
+                List.of(new EvolutionEntry("najaconda", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"))),
+                        new EvolutionEntry("diamamba", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))
+
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),
                         new MoveLearnSetEntry(Move.WRAP,3),
@@ -40,8 +45,8 @@ public class Rattletack extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUNK_SHOT,57)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 44, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

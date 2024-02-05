@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chimaconda",
-  "nationalPokedexNumber": 1815,
+  "nationalPokedexNumber": 1836,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
@@ -140,8 +140,8 @@
   "preEvolution": "chimical",
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

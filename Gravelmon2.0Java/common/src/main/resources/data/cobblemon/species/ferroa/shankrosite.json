@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shankrosite",
-  "nationalPokedexNumber": 1482,
+  "nationalPokedexNumber": 1503,
   "primaryType": "rock",
   "abilities": [
     "rockhead",
@@ -104,8 +104,8 @@
   ],
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

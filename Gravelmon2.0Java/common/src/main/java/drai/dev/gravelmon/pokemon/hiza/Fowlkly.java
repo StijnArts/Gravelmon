@@ -22,15 +22,30 @@ public class Fowlkly extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Its not very intelligent but has impressive psychic abilities. Its own psychic moves will often cause it to get confused."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("lunatiken", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))
+                ),
+                List.of(       new MoveLearnSetEntry(Move.ATTRACT,1),
+                        new MoveLearnSetEntry(Move.GUST,1),
+                        new MoveLearnSetEntry(Move.CONFUSION,5),
+                        new MoveLearnSetEntry(Move.ENDEAVOR,10),
+                        new MoveLearnSetEntry(Move.AIR_CUTTER,15),
+                        new MoveLearnSetEntry(Move.IMPRISON,20),
+                        new MoveLearnSetEntry(Move.ASSURANCE,25),
+                        new MoveLearnSetEntry(Move.AMNESIA,30),
+                        new MoveLearnSetEntry(Move.AIR_SLASH,35),
+                        new MoveLearnSetEntry(Move.PSYCHIC,40),
+                        new MoveLearnSetEntry(Move.CALM_MIND,45),
+                        new MoveLearnSetEntry(Move.FUTURE_SIGHT,50),
+                        new MoveLearnSetEntry(Move.SIMPLE_BEAM,55)
+                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fowlkly");

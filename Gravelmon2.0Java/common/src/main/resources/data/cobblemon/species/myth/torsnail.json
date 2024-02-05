@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "torsnail",
-  "nationalPokedexNumber": 2434,
+  "nationalPokedexNumber": 2453,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -104,8 +104,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "syrenade",
-  "nationalPokedexNumber": 2429,
+  "nationalPokedexNumber": 2448,
   "primaryType": "poison",
   "secondaryType": "sound",
   "abilities": [
@@ -142,8 +142,8 @@
   "preEvolution": "syrallure",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

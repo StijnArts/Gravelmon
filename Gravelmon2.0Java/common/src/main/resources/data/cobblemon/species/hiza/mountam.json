@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mountam",
-  "nationalPokedexNumber": 1923,
+  "nationalPokedexNumber": 1944,
   "primaryType": "rock",
   "abilities": [
     "sturdy",
@@ -60,15 +60,18 @@
     "55:headsmash"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mountam.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "cragoat",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -80,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

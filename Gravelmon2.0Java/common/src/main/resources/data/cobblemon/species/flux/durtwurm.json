@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "durtwurm",
-  "nationalPokedexNumber": 2137,
+  "nationalPokedexNumber": 2156,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -65,8 +65,8 @@
   "preEvolution": "squrmy",
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

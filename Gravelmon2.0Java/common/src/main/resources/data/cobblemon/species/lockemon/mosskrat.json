@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mosskrat",
-  "nationalPokedexNumber": 2248,
+  "nationalPokedexNumber": 2267,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -77,8 +77,8 @@
   "preEvolution": "mosster",
   "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

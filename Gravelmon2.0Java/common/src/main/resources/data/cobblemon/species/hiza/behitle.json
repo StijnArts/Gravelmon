@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "behitle",
-  "nationalPokedexNumber": 1952,
+  "nationalPokedexNumber": 1973,
   "primaryType": "bug",
   "abilities": [
     "heatproof",
@@ -47,7 +47,19 @@
     "bug"
   ],
   "moves": [
-  ],
+    "1:ember",
+    "1:smokescreen",
+    "5:wrap",
+    "10:bite",
+    "15:flamewheel",
+    "20:bugbite",
+    "25:coil",
+    "30:slam",
+    "35:firespin",
+    "40:crunch",
+    "45:firelash",
+    "50:lunge",
+    "55:burnup"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -55,10 +67,25 @@
   "pokedex": [
     "cobblemon.species.behitle.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "behitle_hotroach",
+      "variant": "level_up",
+      "result": "hotroach",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -70,7 +97,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 3,
   "weight": 165,
   "aspects": [],
 "features": [

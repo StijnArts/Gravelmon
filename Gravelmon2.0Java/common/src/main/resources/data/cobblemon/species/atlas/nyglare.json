@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nyglare",
-  "nationalPokedexNumber": 2894,
+  "nationalPokedexNumber": 2913,
   "primaryType": "bug",
   "secondaryType": "electric",
   "abilities": [
@@ -124,8 +124,8 @@
   "preEvolution": "nyglow",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

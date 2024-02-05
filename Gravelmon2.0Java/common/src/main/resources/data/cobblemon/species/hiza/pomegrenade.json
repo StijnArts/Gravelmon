@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pomegrenade",
-  "nationalPokedexNumber": 2044,
+  "nationalPokedexNumber": 2063,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -68,10 +68,25 @@
   "pokedex": [
     "cobblemon.species.pomegrenade.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "pomegrenade_artreelery",
+      "variant": "level_up",
+      "result": "artreelery",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -83,7 +98,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 3,
   "weight": 165,
   "aspects": [],
 "features": [

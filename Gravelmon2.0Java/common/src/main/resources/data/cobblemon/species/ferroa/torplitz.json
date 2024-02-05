@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "torplitz",
-  "nationalPokedexNumber": 1394,
+  "nationalPokedexNumber": 1415,
   "primaryType": "electric",
   "secondaryType": "water",
   "abilities": [
@@ -142,8 +142,8 @@
   "preEvolution": "volray",
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

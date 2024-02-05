@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:yokid",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hub_yokid",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hub/yokid.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hub/yokid_shiny.png"
+    }  ]
+}

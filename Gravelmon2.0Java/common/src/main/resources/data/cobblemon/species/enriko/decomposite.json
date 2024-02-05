@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "decomposite",
-  "nationalPokedexNumber": 1564,
+  "nationalPokedexNumber": 1585,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -76,8 +76,8 @@
   "preEvolution": "controll",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

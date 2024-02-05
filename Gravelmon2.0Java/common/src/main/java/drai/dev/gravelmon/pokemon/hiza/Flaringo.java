@@ -15,14 +15,15 @@ public class Flaringo extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         72),
                 List.of(Ability.FLASH_FIRE,Ability.LEVITATE,Ability.COMPETITIVE), Ability.COMPETITIVE,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,1,0,0), 90,
                 0.5,
                 145, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Its feathers combust into flames as they fall off. The ones with the most vivid colors are the most respected in the flock."),
-                List.of(),
+                List.of(new EvolutionEntry("infermingo", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.PECK,5),
@@ -68,9 +69,8 @@ public class Flaringo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_BLAST,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST, Biome.IS_VOLCANIC, Biome.IS_THERMAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

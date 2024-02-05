@@ -15,7 +15,7 @@ public class Drizzella extends drai.dev.gravelmon.pokemon.Pokemon {
                         93,
                         60),
                 List.of(Ability.STATIC), Ability.DRIZZLE,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,3,0,0), 45,
                 0.5,
                 224, ExperienceGroup.MEDIUM_SLOW,
@@ -24,17 +24,34 @@ public class Drizzella extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("They can be seem floating above the sea during stormy days. Their watery veil allows them to breath outside the water."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.SHOCK_WAVE,1)                        ),
+                        new MoveLearnSetEntry(Move.WATER_GUN,1),
+                        new MoveLearnSetEntry(Move.SUPERSONIC,1),
+                        new MoveLearnSetEntry(Move.FLASH,1),
+                        new MoveLearnSetEntry(Move.THUNDER_WAVE,1),
+                        new MoveLearnSetEntry(Move.WATER_PULSE,1),
+                        new MoveLearnSetEntry(Move.SAFEGUARD,1),
+                        new MoveLearnSetEntry(Move.MAGNET_RISE,1),
+                        new MoveLearnSetEntry(Move.BRINE,1),
+                        new MoveLearnSetEntry(Move.MEMENTO,1),
+                        new MoveLearnSetEntry(Move.SCREECH,1),
+                        new MoveLearnSetEntry(Move.RAIN_DANCE,1),
+                        new MoveLearnSetEntry(Move.RECOVER,1),
+                        new MoveLearnSetEntry(Move.HYDRO_PUMP,1),
+                        new MoveLearnSetEntry(Move.THUNDER,1),
+                        new MoveLearnSetEntry(Move.SHOCK_WAVE,1)),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 37, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.MAXY,"30")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Drizzella");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "surudoika",
-  "nationalPokedexNumber": 2707,
+  "nationalPokedexNumber": 2726,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -99,8 +99,8 @@
   "preEvolution": "kodachiuo",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gastesla",
-  "nationalPokedexNumber": 1335,
+  "nationalPokedexNumber": 1356,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -93,8 +93,8 @@
   "preEvolution": "descargot",
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "royalert",
-  "nationalPokedexNumber": 2574,
+  "nationalPokedexNumber": 2593,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -102,8 +102,8 @@
   "preEvolution": "gardleon",
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

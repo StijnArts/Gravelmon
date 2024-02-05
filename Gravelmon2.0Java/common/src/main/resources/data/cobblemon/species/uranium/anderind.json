@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "anderind",
-  "nationalPokedexNumber": 1849,
+  "nationalPokedexNumber": 1870,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -139,8 +139,8 @@
   "preEvolution": "pufluff",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

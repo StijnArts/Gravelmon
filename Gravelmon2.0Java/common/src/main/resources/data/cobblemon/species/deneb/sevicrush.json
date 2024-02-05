@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sevicrush",
-  "nationalPokedexNumber": 2697,
+  "nationalPokedexNumber": 2716,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -127,8 +127,8 @@
   ],
   "baseScale": 0.39375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

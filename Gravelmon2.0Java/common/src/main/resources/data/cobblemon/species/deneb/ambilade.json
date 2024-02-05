@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ambilade",
-  "nationalPokedexNumber": 2653,
+  "nationalPokedexNumber": 2672,
   "primaryType": "steel",
   "abilities": [
     "owntempo",
@@ -146,8 +146,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

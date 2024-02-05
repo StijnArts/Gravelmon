@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "poppamo",
-  "nationalPokedexNumber": 1941,
+  "nationalPokedexNumber": 1962,
   "primaryType": "water",
   "abilities": [
     "waterbubble",
@@ -28,12 +28,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -75,10 +75,25 @@
   "pokedex": [
     "cobblemon.species.poppamo.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "poppamo_soappo",
+      "variant": "level_up",
+      "result": "soappo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -90,7 +105,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -1,9 +1,9 @@
 {"target": "cobblemon:Smeargle",
  "evolutions": [
   {
-   "id": "wynaut_varitasianwobbuffet",
+   "id": "smeargle_beagasso",
    "variant": "level_up",
-   "result": "varitasianwobbuffet",
+   "result": "beagasso",
    "consumeHeldItem": false,
    "learnableMoves": [
    ],

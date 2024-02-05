@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rhinolition",
-  "nationalPokedexNumber": 1410,
+  "nationalPokedexNumber": 1431,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -126,8 +126,8 @@
   "preEvolution": "rhinozer",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

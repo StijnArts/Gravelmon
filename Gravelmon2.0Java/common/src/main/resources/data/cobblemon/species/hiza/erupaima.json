@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "erupaima",
-  "nationalPokedexNumber": 2002,
+  "nationalPokedexNumber": 2023,
   "primaryType": "fire",
   "abilities": [
     "keeneye",
@@ -28,12 +28,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -84,15 +84,18 @@
     "tm:fireblast"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.erupaima.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "eruwana",
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -104,7 +107,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 17,
   "weight": 165,
   "aspects": [],
 "features": [

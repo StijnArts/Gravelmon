@@ -15,7 +15,7 @@ public class Hoppolat extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         83),
                 List.of(Ability.STURDY), Ability.UNAWARE,
-                8, 165,
+                20, 165,
                 new Stats(2,0,0,0,0,0), 100,
                 0.5,
                 108, ExperienceGroup.MEDIUM_FAST,
@@ -81,8 +81,8 @@ public class Hoppolat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 44, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

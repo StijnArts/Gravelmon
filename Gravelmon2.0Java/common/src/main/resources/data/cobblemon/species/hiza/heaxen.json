@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "heaxen",
-  "nationalPokedexNumber": 1924,
+  "nationalPokedexNumber": 1945,
   "primaryType": "normal",
   "abilities": [
     "superluck",
@@ -68,10 +68,25 @@
   "pokedex": [
     "cobblemon.species.heaxen.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "heaxen_aurinel",
+      "variant": "level_up",
+      "result": "aurinel",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -83,7 +98,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 6,
   "weight": 165,
   "aspects": [],
 "features": [

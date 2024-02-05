@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swallet",
-  "nationalPokedexNumber": 1595,
+  "nationalPokedexNumber": 1616,
   "primaryType": "dark",
   "secondaryType": "steel",
   "abilities": [
@@ -68,8 +68,8 @@
   "preEvolution": "wahundo",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quivirus",
-  "nationalPokedexNumber": 1401,
+  "nationalPokedexNumber": 1422,
   "primaryType": "poison",
   "secondaryType": "electric",
   "abilities": [
@@ -155,8 +155,8 @@
   "preEvolution": "filsick",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -15,14 +15,16 @@ public class Stalacpace extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         40),
                 List.of(Ability.ROCK_HEAD), Ability.SHELL_ARMOR,
-                8, 165,
+                11, 165,
                 new Stats(0,1,1,0,0,0), 75,
                 0.5,
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("It utilizes its sharp rock shell as horn by ramming into its foes in combat. Its eyes are adapted to see in the dark, allowing it to live in the deepest caves."),
-                List.of(),
+                List.of(new EvolutionEntry("stalagoliath", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,5),
@@ -41,9 +43,8 @@ public class Stalacpace extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAD_SMASH,59)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 48, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drilladin",
-  "nationalPokedexNumber": 2393,
+  "nationalPokedexNumber": 2412,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -88,8 +88,8 @@
   "preEvolution": "kakuna",
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

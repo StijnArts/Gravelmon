@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lihgeri",
-  "nationalPokedexNumber": 2479,
+  "nationalPokedexNumber": 2498,
   "primaryType": "fairy",
   "secondaryType": "electric",
   "abilities": [
@@ -73,8 +73,8 @@
   ],
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beestical",
-  "nationalPokedexNumber": 2071,
+  "nationalPokedexNumber": 2090,
   "primaryType": "normal",
   "secondaryType": "bug",
   "abilities": [
@@ -73,10 +73,10 @@
   "pokedex": [
     "cobblemon.species.beestical.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -88,7 +88,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 7,
   "weight": 165,
   "aspects": [],
 "features": [

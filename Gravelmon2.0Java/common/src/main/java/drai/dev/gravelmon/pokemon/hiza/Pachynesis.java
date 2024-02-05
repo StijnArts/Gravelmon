@@ -15,14 +15,16 @@ public class Pachynesis extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         20),
                 List.of(Ability.TELEPATHY,Ability.SYNCHRONIZE,Ability.OVERCOAT), Ability.OVERCOAT,
-                8, 165,
+                10, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Pachynesis are said to be able to float using their large ears as wings, but they actually float using their telekinetic powers."),
-                List.of(),
+                List.of(new EvolutionEntry("sagephant", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSION,1),
                         new MoveLearnSetEntry(Move.KINESIS,5),
@@ -38,8 +40,8 @@ public class Pachynesis extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,57)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

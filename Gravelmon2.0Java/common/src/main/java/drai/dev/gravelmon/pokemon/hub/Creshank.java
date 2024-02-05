@@ -15,7 +15,7 @@ public class Creshank extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         95),
                 List.of(Ability.KEEN_EYE), Ability.IRON_BARBS,
-                8, 165,
+                7, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 151, ExperienceGroup.MEDIUM_FAST,
@@ -90,14 +90,14 @@ public class Creshank extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 32, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Creshank");
+        setCanFly(true);
 
     }
 

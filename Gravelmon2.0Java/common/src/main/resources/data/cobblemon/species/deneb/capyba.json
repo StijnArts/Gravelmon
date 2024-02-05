@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "capyba",
-  "nationalPokedexNumber": 2664,
+  "nationalPokedexNumber": 2683,
   "primaryType": "normal",
   "abilities": [
     "unaware",
@@ -106,8 +106,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "victorelic",
-  "nationalPokedexNumber": 1513,
+  "nationalPokedexNumber": 1534,
   "primaryType": "ghost",
   "secondaryType": "steel",
   "abilities": [
@@ -149,8 +149,8 @@
   "preEvolution": "platoul",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

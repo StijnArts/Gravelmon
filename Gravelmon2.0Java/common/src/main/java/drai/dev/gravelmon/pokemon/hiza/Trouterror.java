@@ -15,7 +15,7 @@ public class Trouterror extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         75),
                 List.of(Ability.BATTLE_ARMOR), Ability.BATTLE_ARMOR,
-                8, 165,
+                15, 165,
                 new Stats(0,0,2,0,0,0), 60,
                 0.5,
                 158, ExperienceGroup.MEDIUM_FAST,
@@ -42,9 +42,9 @@ public class Trouterror extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WAVE_CRASH,66)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 31, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

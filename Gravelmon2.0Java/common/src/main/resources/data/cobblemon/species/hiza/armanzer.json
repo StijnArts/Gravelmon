@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "armanzer",
-  "nationalPokedexNumber": 2049,
+  "nationalPokedexNumber": 2068,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
@@ -49,18 +49,36 @@
     "bug"
   ],
   "moves": [
-  ],
+    "1:furycutter",
+    "1:sandattack",
+    "4:visegrip",
+    "8:metalclaw",
+    "12:beatup",
+    "16:bugbite",
+    "20:bite",
+    "24:agility",
+    "28:dig",
+    "32:xscissor",
+    "36:crunch",
+    "40:metalsound",
+    "44:ironhead",
+    "48:entrainment",
+    "52:irondefense",
+    "56:guillotine"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.armanzer.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "larvozer",
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +90,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

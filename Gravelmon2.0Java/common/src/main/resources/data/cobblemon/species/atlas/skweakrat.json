@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skweakrat",
-  "nationalPokedexNumber": 2821,
+  "nationalPokedexNumber": 2840,
   "primaryType": "normal",
   "abilities": [
     "hustle",
@@ -140,8 +140,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

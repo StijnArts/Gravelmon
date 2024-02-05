@@ -15,7 +15,7 @@ public class Manecore extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         80),
                 List.of(Ability.POISON_TOUCH,Ability.SHEER_FORCE,Ability.SNIPER), Ability.SNIPER,
-                8, 165,
+                16, 165,
                 new Stats(0,2,0,1,0,0), 45,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,
@@ -39,9 +39,9 @@ public class Manecore extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUNK_SHOT,45)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 55, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

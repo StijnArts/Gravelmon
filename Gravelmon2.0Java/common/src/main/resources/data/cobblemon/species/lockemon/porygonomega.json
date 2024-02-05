@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "porygonomega",
-  "nationalPokedexNumber": 2259,
+  "nationalPokedexNumber": 2278,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -74,8 +74,8 @@
   ],
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

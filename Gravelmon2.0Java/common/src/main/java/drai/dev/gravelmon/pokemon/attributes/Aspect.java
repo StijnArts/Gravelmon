@@ -86,7 +86,7 @@ public enum Aspect {
     TWENTYSEVEN("twentyseven", true, false),
     SUNNY("sunny", true, false),
     RAINY("rainy", true, false),
-    SNOWY("snowy", true, false);
+    SNOWY("snowy", true, false), NOSE_PATTERN("nosepattern", true, false), BROW_PATTERN("browpattern", true, false);
     private String name;
     private boolean isNew;
     private boolean isDefault;

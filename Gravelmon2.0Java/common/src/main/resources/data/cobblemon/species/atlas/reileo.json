@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reileo",
-  "nationalPokedexNumber": 3019,
+  "nationalPokedexNumber": 3038,
   "primaryType": "ground",
   "abilities": [
     "intimidate",
@@ -110,8 +110,8 @@
   "preEvolution": "princeo",
   "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

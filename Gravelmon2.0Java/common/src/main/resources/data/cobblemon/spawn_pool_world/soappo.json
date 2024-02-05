@@ -10,15 +10,17 @@
           "natural"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "18-33",
+      "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_river" ],
         "canSeeSky": true
-      }
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_winter",
+"#cobblemon:is_autumn" ]    }
     }
   ]
 }

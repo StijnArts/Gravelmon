@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luchaburro",
-  "nationalPokedexNumber": 3009,
+  "nationalPokedexNumber": 3028,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -97,8 +97,8 @@
   "preEvolution": "festiata",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

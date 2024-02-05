@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lucemoth",
-  "nationalPokedexNumber": 2392,
+  "nationalPokedexNumber": 2411,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
@@ -93,8 +93,8 @@
   "preEvolution": "hoennianvenonat",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

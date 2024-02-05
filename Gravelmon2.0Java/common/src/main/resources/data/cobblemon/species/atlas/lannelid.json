@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lannelid",
-  "nationalPokedexNumber": 2890,
+  "nationalPokedexNumber": 2909,
   "primaryType": "poison",
   "abilities": [
     "stickyhold",
@@ -112,8 +112,8 @@
   "preEvolution": "secheel",
   "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

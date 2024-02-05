@@ -15,14 +15,16 @@ public class Poppamo extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         25),
                 List.of(Ability.WATER_BUBBLE), Ability.RAIN_DISH,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 88, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("Poppamo can be seen floating around riverbanks. A large concentration of Poppamo is a sign that the water is warm."),
-                List.of(),
+                List.of(new EvolutionEntry("soappo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.AIRBUBBLE,10),
@@ -47,14 +49,16 @@ public class Poppamo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWIFT,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Poppamo");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

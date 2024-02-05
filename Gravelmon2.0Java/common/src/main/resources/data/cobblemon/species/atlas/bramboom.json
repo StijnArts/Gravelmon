@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bramboom",
-  "nationalPokedexNumber": 2775,
+  "nationalPokedexNumber": 2794,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -120,8 +120,8 @@
   "preEvolution": "burramble",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

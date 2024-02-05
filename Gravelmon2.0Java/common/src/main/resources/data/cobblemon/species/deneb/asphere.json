@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "asphere",
-  "nationalPokedexNumber": 2568,
+  "nationalPokedexNumber": 2587,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -54,8 +54,8 @@
       ],
       "baseScale": 0.9375,
         "hitbox": {
-          "width": 1.4423076923076923,
-          "height": 1.4423076923076923,
+          "width": 5.0,
+          "height": 5.0,
           "fixed": false
       },
       "baseStats": {
@@ -113,8 +113,8 @@
       ],
       "baseScale": 0.9375,
         "hitbox": {
-          "width": 1.4423076923076923,
-          "height": 1.4423076923076923,
+          "width": 5.0,
+          "height": 5.0,
           "fixed": false
       },
       "baseStats": {
@@ -231,8 +231,8 @@
   ],
   "baseScale": 0.9375,
   "hitbox": {
-    "width": 1.4423076923076923,
-    "height": 1.4423076923076923,
+    "width": 5.0,
+    "height": 5.0,
     "fixed": false
   },
   "baseFriendship": 70,

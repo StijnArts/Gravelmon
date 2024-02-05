@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "malarva",
-  "nationalPokedexNumber": 2195,
+  "nationalPokedexNumber": 2214,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -76,8 +76,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

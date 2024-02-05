@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crustitan",
-  "nationalPokedexNumber": 2095,
+  "nationalPokedexNumber": 2114,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
@@ -63,15 +63,18 @@
     "81:gigaimpact"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.crustitan.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "armust",
+  "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -83,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 23,
   "weight": 165,
   "aspects": [],
 "features": [

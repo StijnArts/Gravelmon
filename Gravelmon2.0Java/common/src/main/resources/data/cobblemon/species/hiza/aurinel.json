@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aurinel",
-  "nationalPokedexNumber": 1925,
+  "nationalPokedexNumber": 1946,
   "primaryType": "normal",
   "abilities": [
     "unburden",
@@ -63,15 +63,18 @@
     "50:lastresort"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.aurinel.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "heaxen",
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -83,7 +86,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

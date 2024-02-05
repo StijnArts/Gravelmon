@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "moluschant",
-  "nationalPokedexNumber": 2040,
+  "nationalPokedexNumber": 2059,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
@@ -48,7 +48,22 @@
     "amorphous"
   ],
   "moves": [
-  ],
+    "1:hypnosis",
+    "1:peck",
+    "1:reversal",
+    "1:tackle",
+    "1:wrap",
+    "9:payback",
+    "12:pluck",
+    "15:psybeam",
+    "18:swagger",
+    "21:slash",
+    "24:nightslash",
+    "27:psychocut",
+    "33:switcheroo",
+    "37:foulplay",
+    "42:topsyturvy",
+    "47:superpower"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +71,10 @@
   "pokedex": [
     "cobblemon.species.moluschant.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 6,
   "weight": 165,
   "aspects": [],
 "features": [

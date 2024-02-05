@@ -71,5 +71,8 @@ public class Perame extends Pokemon {
                 List.of(SpawnPreset.UNDERWATER),
                 0.4, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
     }
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "miserachnid",
-  "nationalPokedexNumber": 1517,
+  "nationalPokedexNumber": 1538,
   "primaryType": "dragon",
   "secondaryType": "bug",
   "abilities": [
@@ -137,8 +137,8 @@
   "preEvolution": "terrachnid",
   "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

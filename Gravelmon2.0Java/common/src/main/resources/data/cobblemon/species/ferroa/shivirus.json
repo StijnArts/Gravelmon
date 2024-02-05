@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shivirus",
-  "nationalPokedexNumber": 1400,
+  "nationalPokedexNumber": 1421,
   "primaryType": "poison",
   "secondaryType": "ice",
   "abilities": [
@@ -154,8 +154,8 @@
   "preEvolution": "filsick",
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

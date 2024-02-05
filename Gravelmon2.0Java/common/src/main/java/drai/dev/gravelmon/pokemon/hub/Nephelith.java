@@ -15,7 +15,7 @@ public class Nephelith extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         110),
                 List.of(Ability.VOLT_ABSORB), Ability.VOLT_ABSORB,
-                8, 165,
+                41, 165,
                 new Stats(0,0,0,0,3,0), 3,
                 0.0,
                 306, ExperienceGroup.SLOW,
@@ -40,14 +40,14 @@ public class Nephelith extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,99)                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, .0003, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nephelith");
+        setCanFly(true);
 
     }
 

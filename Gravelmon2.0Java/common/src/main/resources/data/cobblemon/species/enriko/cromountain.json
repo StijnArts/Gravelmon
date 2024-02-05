@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cromountain",
-  "nationalPokedexNumber": 1612,
+  "nationalPokedexNumber": 1633,
   "primaryType": "ice",
   "secondaryType": "fighting",
   "abilities": [
@@ -75,8 +75,8 @@
   "preEvolution": "snomagnon",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

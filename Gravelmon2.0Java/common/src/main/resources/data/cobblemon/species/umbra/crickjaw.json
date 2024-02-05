@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crickjaw",
-  "nationalPokedexNumber": 2371,
+  "nationalPokedexNumber": 2390,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -101,8 +101,8 @@
   "preEvolution": "gichet",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

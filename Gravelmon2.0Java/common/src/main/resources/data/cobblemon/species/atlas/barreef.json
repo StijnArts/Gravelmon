@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barreef",
-  "nationalPokedexNumber": 2933,
+  "nationalPokedexNumber": 2952,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -114,8 +114,8 @@
   "preEvolution": "coralony",
   "baseScale": 0.4125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

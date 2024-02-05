@@ -15,14 +15,16 @@ public class Armust extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         50),
                 List.of(Ability.MOLD_BREAKER), Ability.MOLD_BREAKER,
-                8, 165,
+                10, 165,
                 new Stats(0,0,1,0,0,0), 45,
                 0.5,
                 76, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("It lives in hard-to-reach underwater caves, making it a very rare Pokémon. It molts multiple times during a year, trying to get the perfect armor."),
-                List.of(),
+                List.of(new EvolutionEntry("crustitan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.ASSURANCE,12),
@@ -36,9 +38,9 @@ public class Armust extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_EDGE,60)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

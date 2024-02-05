@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bufierce",
-  "nationalPokedexNumber": 1988,
+  "nationalPokedexNumber": 2009,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
@@ -48,7 +48,23 @@
     "field"
   ],
   "moves": [
-  ],
+    "1:defensecurl",
+    "1:hornattack",
+    "1:rollout",
+    "1:sunnyday",
+    "7:bulldoze",
+    "14:taunt",
+    "21:rapidspin",
+    "28:brickbreak",
+    "35:stompingtantrum",
+    "42:knockoff",
+    "49:earthquake",
+    "56:gigaimpact",
+    "63:closecombat",
+    "70:endeavor",
+    "77:megahorn",
+    "84:headsmash",
+    "91:headlongrush"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +72,29 @@
   "pokedex": [
     "cobblemon.species.bufierce.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "bufierce_chloradise",
+      "variant": "level_up",
+      "result": "chloradise",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        },
+        {
+          "variant": "time_range",
+          "range": day
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +106,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

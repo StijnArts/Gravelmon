@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sheebit",
-  "nationalPokedexNumber": 1879,
+  "nationalPokedexNumber": 1900,
   "primaryType": "ground",
   "abilities": [
     "intimidate",
@@ -156,8 +156,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

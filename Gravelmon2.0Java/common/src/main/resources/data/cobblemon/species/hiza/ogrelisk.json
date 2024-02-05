@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ogrelisk",
-  "nationalPokedexNumber": 2111,
+  "nationalPokedexNumber": 2130,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -48,7 +48,22 @@
     "undiscovered"
   ],
   "moves": [
-  ],
+    "1:electricterrain",
+    "1:hornattack",
+    "1:leer",
+    "1:rockthrow",
+    "7:quickattack",
+    "14:slash",
+    "21:agility",
+    "28:psychocut",
+    "35:counter",
+    "42:rocktomb",
+    "49:sacredsword",
+    "63:swordsdance",
+    "70:megahorn",
+    "77:quickguard",
+    "84:stoneedge",
+    "91:gigaimpact"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.ogrelisk.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.54375,
   "hitbox": {
     "width": 3.0,
     "height": 3.0,
@@ -71,7 +86,7 @@
     "special_defence": 3,
     "speed": 0
   },
-  "height": 8,
+  "height": 29,
   "weight": 165,
   "aspects": [],
 "features": [

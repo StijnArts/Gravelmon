@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reconuisance",
-  "nationalPokedexNumber": 1582,
+  "nationalPokedexNumber": 1603,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -63,8 +63,8 @@
   "preEvolution": "chrone",
   "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

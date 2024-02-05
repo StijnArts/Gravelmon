@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragune",
-  "nationalPokedexNumber": 2561,
+  "nationalPokedexNumber": 2580,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
@@ -124,8 +124,8 @@
   ],
   "baseScale": 1.03125,
   "hitbox": {
-    "width": 1.4423076923076923,
-    "height": 1.4423076923076923,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

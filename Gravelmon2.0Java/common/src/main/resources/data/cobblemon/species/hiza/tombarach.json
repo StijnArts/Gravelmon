@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tombarach",
-  "nationalPokedexNumber": 2009,
+  "nationalPokedexNumber": 2030,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 50,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -48,18 +48,30 @@
 
   ],
   "moves": [
-  ],
+    "1:sandattack",
+    "1:scratch",
+    "5:harden",
+    "10:falseswipe",
+    "15:mudslap",
+    "21:absorb",
+    "25:metalclaw",
+    "30:furyswipes",
+    "35:mindreader",
+    "40:dig"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.tombarach.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "luradune",
+  "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 23,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pupsicle",
-  "nationalPokedexNumber": 2089,
+  "nationalPokedexNumber": 2108,
   "primaryType": "ice",
   "abilities": [
     "icebody",
@@ -33,7 +33,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -67,10 +67,25 @@
   "pokedex": [
     "cobblemon.species.pupsicle.desc"
   ],
+  "evolutions": [
+    {
+      "id": "pupsicle_frozeal",
+      "variant": "level_up",
+      "result": "frozeal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

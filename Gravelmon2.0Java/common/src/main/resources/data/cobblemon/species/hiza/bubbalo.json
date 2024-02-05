@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bubbalo",
-  "nationalPokedexNumber": 1905,
+  "nationalPokedexNumber": 1926,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -94,10 +94,25 @@
   "pokedex": [
     "cobblemon.species.bubbalo.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "bubbalo_bullfount",
+      "variant": "level_up",
+      "result": "bullfount",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -109,7 +124,7 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

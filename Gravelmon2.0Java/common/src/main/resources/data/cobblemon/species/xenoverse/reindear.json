@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reindear",
-  "nationalPokedexNumber": 1680,
+  "nationalPokedexNumber": 1701,
   "primaryType": "fairy",
   "abilities": [
     "vitalspirit",
@@ -121,8 +121,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

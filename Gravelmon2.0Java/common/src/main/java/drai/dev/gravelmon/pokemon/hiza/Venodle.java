@@ -15,14 +15,16 @@ public class Venodle extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         30),
                 List.of(Ability.SHED_SKIN,Ability.UNNERVE,Ability.SAND_VEIL), Ability.SAND_VEIL,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 225,
                 0.5,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
                 List.of("Its fangs are still too small and fragile to be used to bite. It will instead spit poison and try to blind its foes."),
-                List.of(),
+                List.of(new EvolutionEntry("rattletack", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"160")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.WRAP,3),
@@ -39,8 +41,8 @@ public class Venodle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GUNK_SHOT,52)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

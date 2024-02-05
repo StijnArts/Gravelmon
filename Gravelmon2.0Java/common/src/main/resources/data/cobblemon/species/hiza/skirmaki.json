@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skirmaki",
-  "nationalPokedexNumber": 1918,
+  "nationalPokedexNumber": 1939,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -65,15 +65,33 @@
     "46:hypervoicesound"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.skirmaki.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "lemunk",
+  "evolutions": [
+    {
+      "id": "skirmaki_murcenary",
+      "variant": "level_up",
+      "result": "murcenary",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -85,7 +103,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 11,
   "weight": 165,
   "aspects": [],
 "features": [

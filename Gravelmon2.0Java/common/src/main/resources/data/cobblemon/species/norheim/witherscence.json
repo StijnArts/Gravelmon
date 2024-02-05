@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "witherscence",
-  "nationalPokedexNumber": 2216,
+  "nationalPokedexNumber": 2235,
   "primaryType": "psychic",
   "secondaryType": "grass",
   "abilities": [
@@ -105,8 +105,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

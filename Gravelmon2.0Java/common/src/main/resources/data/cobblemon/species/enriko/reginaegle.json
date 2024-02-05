@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reginaegle",
-  "nationalPokedexNumber": 1614,
+  "nationalPokedexNumber": 1635,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -69,8 +69,8 @@
   "preEvolution": "strelair",
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

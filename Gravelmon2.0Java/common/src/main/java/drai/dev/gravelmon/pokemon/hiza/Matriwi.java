@@ -15,7 +15,7 @@ public class Matriwi extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         96),
                 List.of(Ability.PARENTAL_BOND), Ability.PARENTAL_BOND,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,1), 45,
                 0.0,
                 110, ExperienceGroup.MEDIUM_FAST,
@@ -78,8 +78,8 @@ public class Matriwi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEATHER_DANCE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 32, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

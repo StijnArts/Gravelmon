@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vulkidna",
-  "nationalPokedexNumber": 2788,
+  "nationalPokedexNumber": 2807,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -115,8 +115,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

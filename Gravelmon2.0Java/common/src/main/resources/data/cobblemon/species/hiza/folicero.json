@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "folicero",
-  "nationalPokedexNumber": 2097,
+  "nationalPokedexNumber": 2116,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -47,7 +47,18 @@
     "grass"
   ],
   "moves": [
-  ],
+    "1:absorb",
+    "1:tackle",
+    "1:withdraw",
+    "13:razorleaf",
+    "17:curse",
+    "22:bite",
+    "27:megadrain",
+    "32:leechseed",
+    "37:synthesis",
+    "42:crunch",
+    "47:gigadrain",
+    "52:leafstorm"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -55,10 +66,25 @@
   "pokedex": [
     "cobblemon.species.folicero.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "folicero_verblunt",
+      "variant": "level_up",
+      "result": "verblunt",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -70,7 +96,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 7,
   "weight": 165,
   "aspects": [],
 "features": [

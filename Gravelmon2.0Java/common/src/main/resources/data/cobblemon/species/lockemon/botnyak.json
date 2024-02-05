@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "botnyak",
-  "nationalPokedexNumber": 2280,
+  "nationalPokedexNumber": 2299,
   "primaryType": "steel",
   "abilities": [
     "trace",
@@ -73,8 +73,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "charnosaur",
-  "nationalPokedexNumber": 3080,
+  "nationalPokedexNumber": 3099,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -115,8 +115,8 @@
   "preEvolution": "lizmoke",
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

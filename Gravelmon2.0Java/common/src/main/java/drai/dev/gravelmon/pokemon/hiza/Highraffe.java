@@ -15,7 +15,7 @@ public class Highraffe extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         55),
                 List.of(Ability.STURDY), Ability.CLOUD_NINE,
-                8, 165,
+                89, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -39,8 +39,8 @@ public class Highraffe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLIZZARD,58)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 54, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "parabella",
-  "nationalPokedexNumber": 2077,
+  "nationalPokedexNumber": 2096,
   "primaryType": "water",
   "abilities": [
     "static",
@@ -28,12 +28,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -62,15 +62,33 @@
     "55:hydropump"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.parabella.desc"
   ],
+  "preEvolution": "umbette",
+  "evolutions": [
+    {
+      "id": "parabella_drizzella",
+      "variant": "level_up",
+      "result": "drizzella",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]   
+ }
+  ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

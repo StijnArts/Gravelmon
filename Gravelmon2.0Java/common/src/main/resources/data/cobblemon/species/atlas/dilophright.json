@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dilophright",
-  "nationalPokedexNumber": 3086,
+  "nationalPokedexNumber": 3105,
   "primaryType": "poison",
   "secondaryType": "dragon",
   "abilities": [
@@ -106,8 +106,8 @@
   "preEvolution": "dilophang",
   "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

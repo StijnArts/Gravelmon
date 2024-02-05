@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandray",
-  "nationalPokedexNumber": 1936,
+  "nationalPokedexNumber": 1957,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -93,10 +93,25 @@
   "pokedex": [
     "cobblemon.species.sandray.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "sandray_sandozer",
+      "variant": "level_up",
+      "result": "sandozer",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -108,7 +123,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 7,
   "weight": 165,
   "aspects": [],
 "features": [

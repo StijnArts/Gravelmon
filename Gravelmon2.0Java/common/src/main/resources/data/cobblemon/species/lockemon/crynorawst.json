@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crynorawst",
-  "nationalPokedexNumber": 2305,
+  "nationalPokedexNumber": 2324,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -73,8 +73,8 @@
   ],
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

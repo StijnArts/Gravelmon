@@ -7,17 +7,16 @@
       "id": "teslither-1",
       "pokemon": "teslither",
       "presets": [
-          "natural"
+          "underwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "7-26",
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_reef" ],
+        "canSeeSky": false
       }
     }
   ]

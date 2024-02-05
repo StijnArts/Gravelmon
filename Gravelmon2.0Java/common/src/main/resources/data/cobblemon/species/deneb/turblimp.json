@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "turblimp",
-  "nationalPokedexNumber": 2605,
+  "nationalPokedexNumber": 2624,
   "primaryType": "poison",
   "secondaryType": "fire",
   "abilities": [
@@ -121,8 +121,8 @@
   "preEvolution": "puffume",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

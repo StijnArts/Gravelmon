@@ -15,14 +15,16 @@ public class Voladillo extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         45),
                 List.of(Ability.BLAZE), Ability.STURDY,
-                8, 165,
+                12, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.75,
                 140, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("It tends to make their home in volcanic areas, due to its shell being able to safely endure explosions."),
-                List.of(),
+                List.of(new EvolutionEntry("flamaggedon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.EMBER,6),
@@ -76,8 +78,8 @@ public class Voladillo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_THERMAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

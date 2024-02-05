@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rubbison",
-  "nationalPokedexNumber": 1631,
+  "nationalPokedexNumber": 1652,
   "primaryType": "grass",
   "secondaryType": "normal",
   "abilities": [
@@ -73,8 +73,8 @@
   ],
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

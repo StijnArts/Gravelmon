@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tokakle",
-  "nationalPokedexNumber": 1691,
+  "nationalPokedexNumber": 1712,
   "primaryType": "sound",
   "abilities": [
     "simple",
@@ -52,8 +52,8 @@
       ],
       "baseScale": 0.4,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -163,8 +163,8 @@
       ],
       "baseScale": 0.4,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -274,8 +274,8 @@
       ],
       "baseScale": 0.4,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -385,8 +385,8 @@
       ],
       "baseScale": 0.4,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -496,8 +496,8 @@
       ],
       "baseScale": 0.4,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 0.0,
+          "height": 0.0,
           "fixed": false
       },
       "baseStats": {
@@ -663,8 +663,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

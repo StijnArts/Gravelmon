@@ -15,14 +15,16 @@ public class Hairubb extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         55),
                 List.of(Ability.FLUFFY), Ability.SWARM,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 57, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Hairubb was once a really popular pet due to its cuddly appearance and behaviour. The fad died down when many of them grew to be not so cuddly."),
-                List.of(),
+                List.of(new EvolutionEntry("horrifluff", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.INFESTATION,6),
@@ -37,9 +39,8 @@ public class Hairubb extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LUNGE,46)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 34, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

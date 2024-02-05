@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mesmarine",
-  "nationalPokedexNumber": 1451,
+  "nationalPokedexNumber": 1472,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
@@ -155,8 +155,8 @@
   ],
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

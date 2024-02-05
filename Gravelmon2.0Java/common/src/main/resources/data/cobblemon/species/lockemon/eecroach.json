@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eecroach",
-  "nationalPokedexNumber": 2239,
+  "nationalPokedexNumber": 2258,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -51,8 +51,8 @@
       ],
       "baseScale": 1.9125,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 1.0,
+          "height": 1.0,
           "fixed": false
       },
       "baseStats": {
@@ -133,8 +133,8 @@
   "preEvolution": "musleafo",
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kalamark",
-  "nationalPokedexNumber": 2085,
+  "nationalPokedexNumber": 2104,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -48,18 +48,34 @@
     "amorphous"
   ],
   "moves": [
-  ],
+    "1:absorb",
+    "1:watergun",
+    "4:poisonsting",
+    "8:nightshade",
+    "12:waterpulse",
+    "16:raindance",
+    "20:hex",
+    "24:brine",
+    "28:recover",
+    "32:shadowball",
+    "36:whirlpool",
+    "41:hydropump",
+    "44:destinybond",
+    "48:waterspout"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kalamark.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "lurkitopi",
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 11,
   "weight": 165,
   "aspects": [],
 "features": [

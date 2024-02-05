@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scorchet",
-  "nationalPokedexNumber": 2785,
+  "nationalPokedexNumber": 2804,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -120,8 +120,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

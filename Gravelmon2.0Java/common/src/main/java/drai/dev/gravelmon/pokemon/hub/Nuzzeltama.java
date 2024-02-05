@@ -15,7 +15,7 @@ public class Nuzzeltama extends drai.dev.gravelmon.pokemon.Pokemon {
                         83,
                         70),
                 List.of(Ability.THICK_FAT), Ability.THICK_FAT,
-                8, 165,
+                14, 165,
                 new Stats(1,0,1,0,0,0), 50,
                 0.5,
                 152, ExperienceGroup.MEDIUM_FAST,
@@ -89,8 +89,8 @@ public class Nuzzeltama extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOFTBOILED,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 55, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wormini",
-  "nationalPokedexNumber": 2193,
+  "nationalPokedexNumber": 2212,
   "primaryType": "ground",
   "abilities": [
     "dryskin",
@@ -134,8 +134,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

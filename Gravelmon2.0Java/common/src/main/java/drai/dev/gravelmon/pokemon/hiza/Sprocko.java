@@ -15,14 +15,16 @@ public class Sprocko extends drai.dev.gravelmon.pokemon.Pokemon {
                         20,
                         50),
                 List.of(Ability.MULTISCALE), Ability.MULTISCALE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 88, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
                 List.of("It carries seeds in its mouth whenever it finds them. When confronted by enemies, it will spit them all at once in a powerful burst."),
-                List.of(),
+                List.of(new EvolutionEntry("scalivid", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -35,10 +37,10 @@ public class Sprocko extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,40)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

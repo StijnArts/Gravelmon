@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ovipter",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hub_ovipter",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hub/ovipter.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hub/ovipter_shiny.png"
+    }  ]
+}

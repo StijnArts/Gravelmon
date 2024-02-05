@@ -15,7 +15,7 @@ public class Mushcary extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         65),
                 List.of(Ability.EFFECT_SPORE,Ability.INTIMIDATE,Ability.UNNERVE), Ability.UNNERVE,
-                8, 165,
+                11, 165,
                 new Stats(2,0,0,0,0,0), 70,
                 0.5,
                 166, ExperienceGroup.MEDIUM_SLOW,
@@ -105,8 +105,8 @@ public class Mushcary extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA, Biome.IS_MUSHROOM)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

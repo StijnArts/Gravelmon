@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magelorb",
-  "nationalPokedexNumber": 1628,
+  "nationalPokedexNumber": 1649,
   "primaryType": "fairy",
   "abilities": [
     "dazzling",
@@ -83,8 +83,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

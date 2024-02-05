@@ -16,7 +16,6 @@
       "weight": 10.0,
       "condition": {
 "biomes": [ "#cobblemon:is_spooky" ],
-        "canSeeSky": true,
         "timeRange": "day"
       }
     }

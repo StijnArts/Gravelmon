@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tingillar",
-  "nationalPokedexNumber": 1929,
+  "nationalPokedexNumber": 1950,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -37,7 +37,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 220,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -63,10 +63,25 @@
   "pokedex": [
     "cobblemon.species.tingillar.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "tingillar_maskoon",
+      "variant": "level_up",
+      "result": "maskoon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -78,7 +93,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 3,
   "weight": 165,
   "aspects": [],
 "features": [

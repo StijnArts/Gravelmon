@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "doraiasu",
-  "nationalPokedexNumber": 2760,
+  "nationalPokedexNumber": 2779,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
@@ -98,8 +98,8 @@
   "preEvolution": "yukidaru",
   "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

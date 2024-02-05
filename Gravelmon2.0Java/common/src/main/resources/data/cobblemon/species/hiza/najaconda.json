@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "najaconda",
-  "nationalPokedexNumber": 2031,
+  "nationalPokedexNumber": 2052,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -66,15 +66,18 @@
     "61:gunkshot"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.najaconda.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "rattletack",
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -86,7 +89,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 21,
   "weight": 165,
   "aspects": [],
 "features": [

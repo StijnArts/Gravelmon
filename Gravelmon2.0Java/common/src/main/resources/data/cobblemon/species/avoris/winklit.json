@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "winklit",
-  "nationalPokedexNumber": 1723,
+  "nationalPokedexNumber": 1744,
   "primaryType": "electric",
   "abilities": [
     "static",
@@ -91,8 +91,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

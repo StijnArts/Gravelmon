@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grimmposs",
-  "nationalPokedexNumber": 2149,
+  "nationalPokedexNumber": 2168,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -87,8 +87,8 @@
   "preEvolution": "pouchelet",
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

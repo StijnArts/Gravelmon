@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "plastree",
-  "nationalPokedexNumber": 1539,
+  "nationalPokedexNumber": 1560,
   "primaryType": "normal",
   "abilities": [
     "clearbody",
@@ -84,8 +84,8 @@
   ],
   "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

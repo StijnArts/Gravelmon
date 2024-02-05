@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tasmimp",
-  "nationalPokedexNumber": 1932,
+  "nationalPokedexNumber": 1953,
   "primaryType": "dark",
   "abilities": [
     "angerpoint",
@@ -48,7 +48,21 @@
     "monster"
   ],
   "moves": [
-  ],
+    "1:tackle",
+    "4:howlsound",
+    "7:sandattack",
+    "10:bite",
+    "13:leer",
+    "16:roarsound",
+    "19:swagger",
+    "22:assurance",
+    "25:scaryface",
+    "28:taunt",
+    "31:crunch",
+    "34:yawn",
+    "36:takedown",
+    "40:suckerpunch",
+    "44:playrough"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +70,25 @@
   "pokedex": [
     "cobblemon.species.tasmimp.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "tasmimp_tasmevil",
+      "variant": "level_up",
+      "result": "tasmevil",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +100,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

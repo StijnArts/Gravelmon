@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shalazhimm",
-  "nationalPokedexNumber": 3057,
+  "nationalPokedexNumber": 3076,
   "primaryType": "psychic",
   "abilities": [
     "magician",
@@ -119,8 +119,8 @@
   "preEvolution": "zhimm",
   "baseScale": 0.39375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

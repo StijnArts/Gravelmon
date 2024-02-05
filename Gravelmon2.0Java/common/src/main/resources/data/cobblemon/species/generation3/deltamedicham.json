@@ -51,8 +51,8 @@
       ],
       "baseScale": 0.24375,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 1.0,
+          "height": 1.0,
           "fixed": false
       },
       "baseStats": {
@@ -230,8 +230,8 @@
   "preEvolution": "deltameditite",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kusomarume",
-  "nationalPokedexNumber": 2753,
+  "nationalPokedexNumber": 2772,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -95,8 +95,8 @@
   "preEvolution": "sukabi",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

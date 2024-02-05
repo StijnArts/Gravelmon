@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baashaun",
-  "nationalPokedexNumber": 1787,
+  "nationalPokedexNumber": 1808,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -133,8 +133,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

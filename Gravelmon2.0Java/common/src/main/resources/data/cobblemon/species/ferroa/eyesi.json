@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eyesi",
-  "nationalPokedexNumber": 1462,
+  "nationalPokedexNumber": 1483,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -180,8 +180,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

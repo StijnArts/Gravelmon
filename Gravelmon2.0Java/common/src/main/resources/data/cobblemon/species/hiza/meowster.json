@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "meowster",
-  "nationalPokedexNumber": 1981,
+  "nationalPokedexNumber": 2002,
   "primaryType": "normal",
   "secondaryType": "dark",
   "abilities": [
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 70,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 0,
@@ -48,7 +48,24 @@
 
   ],
   "moves": [
-  ],
+    "1:babydolleyes",
+    "1:growl",
+    "1:pinmissile",
+    "1:sandattack",
+    "1:slash",
+    "1:switcheroo",
+    "1:tackle",
+    "1:tailwhip",
+    "9:covet",
+    "12:headbutt",
+    "15:honeclaws",
+    "18:furyswipes",
+    "23:rest",
+    "28:takedown",
+    "33:fling",
+    "38:flail",
+    "43:bellydrum",
+    "48:doubleedge"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -56,10 +73,10 @@
   "pokedex": [
     "cobblemon.species.meowster.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +88,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

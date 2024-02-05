@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cervantrier",
-  "nationalPokedexNumber": 1345,
+  "nationalPokedexNumber": 1366,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -85,8 +85,8 @@
   "preEvolution": "fungorse",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

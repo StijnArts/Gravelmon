@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arctikull",
-  "nationalPokedexNumber": 2310,
+  "nationalPokedexNumber": 2329,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
@@ -105,8 +105,8 @@
   ],
   "baseScale": 0.84375,
   "hitbox": {
-    "width": 1.1538461538461537,
-    "height": 1.1538461538461537,
+    "width": 5.0,
+    "height": 5.0,
     "fixed": false
   },
   "baseFriendship": 70,

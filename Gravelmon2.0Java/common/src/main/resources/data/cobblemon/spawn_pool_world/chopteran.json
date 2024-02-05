@@ -7,16 +7,16 @@
       "id": "chopteran-1",
       "pokemon": "chopteran",
       "presets": [
-          "natural"
+          "freshwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "surface",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "31-48",
+      "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_spring",
+"#cobblemon:is_autumn" ],
         "canSeeSky": true
       }
     }

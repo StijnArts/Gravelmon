@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zaptang",
-  "nationalPokedexNumber": 3033,
+  "nationalPokedexNumber": 3052,
   "primaryType": "electric",
   "abilities": [
     "waterabsorb",
@@ -125,8 +125,8 @@
   "preEvolution": "gammar",
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

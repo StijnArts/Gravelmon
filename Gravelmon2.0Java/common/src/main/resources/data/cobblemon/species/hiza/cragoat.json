@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cragoat",
-  "nationalPokedexNumber": 1922,
+  "nationalPokedexNumber": 1943,
   "primaryType": "rock",
   "abilities": [
     "sturdy",
@@ -65,10 +65,25 @@
   "pokedex": [
     "cobblemon.species.cragoat.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "cragoat_mountam",
+      "variant": "level_up",
+      "result": "mountam",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -80,7 +95,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 9,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terrobalt",
-  "nationalPokedexNumber": 1979,
+  "nationalPokedexNumber": 2000,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -49,18 +49,35 @@
     "field"
   ],
   "moves": [
-  ],
+    "1:leer",
+    "1:peck",
+    "4:sandattack",
+    "8:furyattack",
+    "12:metalclaw",
+    "16:agility",
+    "20:wingattack",
+    "24:slash",
+    "28:steelwing",
+    "32:payback",
+    "36:drillpeck",
+    "40:metalsound",
+    "44:spikes",
+    "48:irondefense",
+    "52:bravebird"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.terrobalt.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "kookabill",
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +89,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 17,
   "weight": 165,
   "aspects": [],
 "features": [

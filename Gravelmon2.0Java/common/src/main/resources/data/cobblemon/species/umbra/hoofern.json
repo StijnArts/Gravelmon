@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoofern",
-  "nationalPokedexNumber": 2355,
+  "nationalPokedexNumber": 2374,
   "primaryType": "grass",
   "abilities": [
     "harvest",
@@ -127,8 +127,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

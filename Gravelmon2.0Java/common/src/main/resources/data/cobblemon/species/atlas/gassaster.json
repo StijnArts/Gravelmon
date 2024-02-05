@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gassaster",
-  "nationalPokedexNumber": 2962,
+  "nationalPokedexNumber": 2981,
   "primaryType": "poison",
   "abilities": [
     "intimidate",
@@ -118,8 +118,8 @@
   "preEvolution": "toxitube",
   "baseScale": 0.43125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "enigmeon",
-  "nationalPokedexNumber": 2251,
+  "nationalPokedexNumber": 2270,
   "primaryType": "normal",
   "abilities": [
     "unaware",
@@ -131,8 +131,8 @@
   "preEvolution": "eevee",
   "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

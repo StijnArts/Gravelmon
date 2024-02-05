@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "teslither",
-  "nationalPokedexNumber": 1934,
+  "nationalPokedexNumber": 1955,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -67,10 +67,25 @@
   "pokedex": [
     "cobblemon.species.teslither.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "teslither_aampeel",
+      "variant": "level_up",
+      "result": "aampeel",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -82,7 +97,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 6,
   "weight": 165,
   "aspects": [],
 "features": [

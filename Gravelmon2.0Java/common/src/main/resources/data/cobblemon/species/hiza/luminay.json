@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luminay",
-  "nationalPokedexNumber": 2055,
+  "nationalPokedexNumber": 2074,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -49,7 +49,22 @@
     "water_2"
   ],
   "moves": [
-  ],
+    "1:leer",
+    "1:smokescreen",
+    "1:twister",
+    "1:watergun",
+    "1:whirlpool",
+    "1:yawn",
+    "15:focusenergy",
+    "20:dragonbreath",
+    "25:bubblebeam",
+    "30:agility",
+    "37:waterpulse",
+    "44:dragonpulse",
+    "51:hydropump",
+    "58:dragondance",
+    "65:raindance",
+    "72:wavecrash"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -57,10 +72,25 @@
   "pokedex": [
     "cobblemon.species.luminay.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "luminay_shroudra",
+      "variant": "level_up",
+      "result": "shroudra",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "dragondance"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +102,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

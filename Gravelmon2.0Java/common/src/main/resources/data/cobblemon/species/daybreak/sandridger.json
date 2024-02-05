@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandridger",
-  "nationalPokedexNumber": 2404,
+  "nationalPokedexNumber": 2423,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -147,8 +147,8 @@
   "preEvolution": "Sandslash",
   "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

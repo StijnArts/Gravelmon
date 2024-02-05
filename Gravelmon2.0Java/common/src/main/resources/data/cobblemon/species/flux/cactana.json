@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cactana",
-  "nationalPokedexNumber": 2176,
+  "nationalPokedexNumber": 2195,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -75,8 +75,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blastpole",
-  "nationalPokedexNumber": 1527,
+  "nationalPokedexNumber": 1548,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -82,8 +82,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

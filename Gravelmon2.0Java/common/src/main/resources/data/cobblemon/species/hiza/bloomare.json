@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bloomare",
-  "nationalPokedexNumber": 1984,
+  "nationalPokedexNumber": 2005,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -49,18 +49,37 @@
     "human_like"
   ],
   "moves": [
-  ],
+    "1:absorb",
+    "1:destinybond",
+    "1:growth",
+    "1:leer",
+    "1:poisonsting",
+    "10:leechseed",
+    "13:sandattack",
+    "16:bulletseed",
+    "19:powertrip",
+    "22:ingrain",
+    "26:payback",
+    "30:spikes",
+    "35:suckerpunch",
+    "38:pinmissile",
+    "44:energyball",
+    "49:cottonspore",
+    "54:sandstorm"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.bloomare.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "dryath",
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +91,7 @@
     "special_defence": 3,
     "speed": 0
   },
-  "height": 8,
+  "height": 18,
   "weight": 165,
   "aspects": [],
 "features": [

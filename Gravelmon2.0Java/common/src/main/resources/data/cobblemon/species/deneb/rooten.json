@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rooten",
-  "nationalPokedexNumber": 2640,
+  "nationalPokedexNumber": 2659,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -129,8 +129,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

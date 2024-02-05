@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tanklang",
-  "nationalPokedexNumber": 1740,
+  "nationalPokedexNumber": 1761,
   "primaryType": "steel",
   "secondaryType": "ground",
   "abilities": [
@@ -113,8 +113,8 @@
   "preEvolution": "varitasianklang",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

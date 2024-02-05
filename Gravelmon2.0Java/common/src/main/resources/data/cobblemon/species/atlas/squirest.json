@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "squirest",
-  "nationalPokedexNumber": 2900,
+  "nationalPokedexNumber": 2919,
   "primaryType": "ghost",
   "abilities": [
     "levitate",
@@ -121,8 +121,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

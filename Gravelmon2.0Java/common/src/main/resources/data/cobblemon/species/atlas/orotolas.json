@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "orotolas",
-  "nationalPokedexNumber": 3103,
+  "nationalPokedexNumber": 3122,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -69,8 +69,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

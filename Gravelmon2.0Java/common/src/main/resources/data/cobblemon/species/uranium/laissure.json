@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "laissure",
-  "nationalPokedexNumber": 1881,
+  "nationalPokedexNumber": 1902,
   "primaryType": "ground",
   "abilities": [
     "intimidate",
@@ -145,8 +145,8 @@
   "preEvolution": "terrabbit",
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

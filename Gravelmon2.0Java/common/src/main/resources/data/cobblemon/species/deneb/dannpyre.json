@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dannpyre",
-  "nationalPokedexNumber": 2675,
+  "nationalPokedexNumber": 2694,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -112,8 +112,8 @@
   "preEvolution": "parakka",
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

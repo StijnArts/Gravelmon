@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "twoolepin",
-  "nationalPokedexNumber": 2830,
+  "nationalPokedexNumber": 2849,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -117,8 +117,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "esterite",
-  "nationalPokedexNumber": 2916,
+  "nationalPokedexNumber": 2935,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -130,8 +130,8 @@
   "preEvolution": "compella",
   "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

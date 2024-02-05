@@ -15,14 +15,16 @@ public class Carriotten extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         45),
                 List.of(Ability.BIG_PECKS), Ability.STENCH,
-                8, 165,
+                11, 165,
                 new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 120, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.DRAGON),
                 List.of("Carriotten will often search leftovers in the trash of populated towns. The rotten food it eats strengthens the potency of its poison."),
-                List.of(),
+                List.of(new EvolutionEntry("doomture", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.ACID,5),
@@ -85,14 +87,15 @@ public class Carriotten extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLY,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Carriotten");
+        setCanFly(true);
 
     }
 

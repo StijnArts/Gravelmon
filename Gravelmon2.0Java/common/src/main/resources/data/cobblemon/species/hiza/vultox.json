@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vultox",
-  "nationalPokedexNumber": 2086,
+  "nationalPokedexNumber": 2105,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -114,10 +114,25 @@
   "pokedex": [
     "cobblemon.species.vultox.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "vultox_carriotten",
+      "variant": "level_up",
+      "result": "carriotten",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -129,7 +144,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

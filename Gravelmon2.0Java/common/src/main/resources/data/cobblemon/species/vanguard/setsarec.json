@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "setsarec",
-  "nationalPokedexNumber": 2432,
+  "nationalPokedexNumber": 2451,
   "primaryType": "poison",
   "secondaryType": "rock",
   "abilities": [
@@ -132,8 +132,8 @@
   "preEvolution": "Arbok",
   "baseScale": 0.46875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

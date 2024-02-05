@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eameiru",
-  "nationalPokedexNumber": 2708,
+  "nationalPokedexNumber": 2727,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -91,8 +91,8 @@
   ],
   "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

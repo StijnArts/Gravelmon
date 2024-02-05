@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "foutune",
-  "nationalPokedexNumber": 2823,
+  "nationalPokedexNumber": 2842,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -118,8 +118,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

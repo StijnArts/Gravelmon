@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nyaga",
-  "nationalPokedexNumber": 2722,
+  "nationalPokedexNumber": 2741,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -116,8 +116,8 @@
   ],
   "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scorchion",
-  "nationalPokedexNumber": 2042,
+  "nationalPokedexNumber": 2061,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -65,10 +65,10 @@
   "pokedex": [
     "cobblemon.species.scorchion.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -80,7 +80,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

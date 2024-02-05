@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tamarawk",
-  "nationalPokedexNumber": 2944,
+  "nationalPokedexNumber": 2963,
   "primaryType": "normal",
   "secondaryType": "rock",
   "abilities": [
@@ -112,8 +112,8 @@
   ],
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

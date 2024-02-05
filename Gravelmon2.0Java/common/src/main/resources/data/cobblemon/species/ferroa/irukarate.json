@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "irukarate",
-  "nationalPokedexNumber": 1453,
+  "nationalPokedexNumber": 1474,
   "primaryType": "fighting",
   "secondaryType": "electric",
   "abilities": [
@@ -139,8 +139,8 @@
   "preEvolution": "jellop",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

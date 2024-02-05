@@ -15,7 +15,7 @@ public class Barkana extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         80),
                 List.of(Ability.PICKUP), Ability.OBLIVIOUS,
-                8, 165,
+                12, 165,
                 new Stats(0,1,1,0,0,0), 45,
                 0.5,
                 180, ExperienceGroup.FAST,
@@ -36,8 +36,8 @@ public class Barkana extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,56)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL, Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

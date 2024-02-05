@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "demini",
-  "nationalPokedexNumber": 2764,
+  "nationalPokedexNumber": 2783,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -102,8 +102,8 @@
   ],
   "baseScale": 0.1125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

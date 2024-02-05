@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dunnoboss",
-  "nationalPokedexNumber": 1584,
+  "nationalPokedexNumber": 1605,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -75,8 +75,8 @@
   "preEvolution": "wotwot",
   "baseScale": 0.4125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

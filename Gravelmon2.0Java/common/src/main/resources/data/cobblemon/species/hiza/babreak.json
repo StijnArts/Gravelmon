@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "babreak",
-  "nationalPokedexNumber": 1968,
+  "nationalPokedexNumber": 1989,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -63,15 +63,33 @@
     "59:closecombat"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.babreak.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "babrat",
+  "evolutions": [
+    {
+      "id": "babreak_babroote",
+      "variant": "level_up",
+      "result": "babroote",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 42
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -83,7 +101,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

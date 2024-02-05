@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solarelo",
-  "nationalPokedexNumber": 2014,
+  "nationalPokedexNumber": 2035,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -48,7 +48,25 @@
     "amorphous"
   ],
   "moves": [
-  ],
+    "1:confusion",
+    "1:harden",
+    "1:hyperbeam",
+    "1:mudslap",
+    "1:rapidspin",
+    "1:teleport",
+    "9:rocktomb",
+    "12:powertrick",
+    "15:psybeam",
+    "18:ancientpower",
+    "21:imprison",
+    "24:cosmicpower",
+    "27:extrasensory",
+    "30:earthpower",
+    "33:selfdestruct",
+    "38:guardsplit",
+    "38:powersplit",
+    "43:sandstorm",
+    "48:explosion"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -58,8 +76,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

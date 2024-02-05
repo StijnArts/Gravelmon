@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "anniquil",
-  "nationalPokedexNumber": 1916,
+  "nationalPokedexNumber": 1937,
   "primaryType": "poison",
   "secondaryType": "normal",
   "abilities": [
@@ -99,15 +99,18 @@
     "tm:confide"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.anniquil.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "porcupin",
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -119,7 +122,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 11,
   "weight": 165,
   "aspects": [],
 "features": [

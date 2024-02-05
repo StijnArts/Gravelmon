@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rockabill",
-  "nationalPokedexNumber": 1980,
+  "nationalPokedexNumber": 2001,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -49,18 +49,37 @@
     "field"
   ],
   "moves": [
-  ],
+    "1:leer",
+    "1:quickattack",
+    "1:rockthrow",
+    "1:wingattack",
+    "9:dragonbreath",
+    "12:ancientpower",
+    "15:pluck",
+    "18:quickguard",
+    "21:uturn",
+    "24:rockslide",
+    "27:scaryface",
+    "30:crunch",
+    "33:agility",
+    "36:tailwind",
+    "41:dragonclaw",
+    "46:thrash",
+    "51:endeavor"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.rockabill.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "kookabill",
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +91,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 14,
   "weight": 165,
   "aspects": [],
 "features": [

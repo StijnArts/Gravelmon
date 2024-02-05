@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barbavelry",
-  "nationalPokedexNumber": 1971,
+  "nationalPokedexNumber": 1992,
   "primaryType": "fighting",
   "abilities": [
     "angerpoint",
@@ -60,12 +60,15 @@
     "61:superpower"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.barbavelry.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "bravelry",
+  "baseScale": 0.50625,
   "hitbox": {
     "width": 3.0,
     "height": 3.0,
@@ -80,7 +83,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 27,
   "weight": 165,
   "aspects": [],
 "features": [

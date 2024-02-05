@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "daiomu",
-  "nationalPokedexNumber": 2758,
+  "nationalPokedexNumber": 2777,
   "primaryType": "electric",
   "secondaryType": "dragon",
   "abilities": [
@@ -105,8 +105,8 @@
   "preEvolution": "mameden",
   "baseScale": 0.3375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

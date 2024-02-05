@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "voyote",
-  "nationalPokedexNumber": 1962,
+  "nationalPokedexNumber": 1983,
   "primaryType": "electric",
   "abilities": [
     "moxie",
@@ -48,18 +48,28 @@
     "field"
   ],
   "moves": [
+    "1:tailwhip",
+    "1:thunderfang",
+    "1:thunderbolt",
+    "1:slash",
+    "1:swordsdance",
+    "1:thunderwave",
+    "1:crunch",
     "1:thunder"  ],
   "labels": [
     "hiza",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.voyote.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "hunder",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -71,7 +81,7 @@
     "special_defence": 0,
     "speed": 3
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mandiblade",
-  "nationalPokedexNumber": 2654,
+  "nationalPokedexNumber": 2673,
   "primaryType": "steel",
   "secondaryType": "rock",
   "abilities": [
@@ -127,8 +127,8 @@
   "preEvolution": "ambilade",
   "baseScale": 0.24375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

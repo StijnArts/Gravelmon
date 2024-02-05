@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "knocust",
-  "nationalPokedexNumber": 1996,
+  "nationalPokedexNumber": 2017,
   "primaryType": "fighting",
   "secondaryType": "bug",
   "abilities": [
@@ -49,7 +49,21 @@
     "human_like"
   ],
   "moves": [
-  ],
+    "1:armthrust",
+    "1:leer",
+    "1:tackle",
+    "5:furyattack",
+    "10:endure",
+    "15:aerialace",
+    "20:hornattack",
+    "25:counter",
+    "30:brickbreak",
+    "35:pinmissile",
+    "40:throatchop",
+    "45:thrash",
+    "50:swordsdance",
+    "55:megahorn",
+    "60:closecombat"  ],
   "labels": [
     "hiza",
     "not_modeled"
@@ -57,10 +71,25 @@
   "pokedex": [
     "cobblemon.species.knocust.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "knocust_forsect",
+      "variant": "level_up",
+      "result": "forsect",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -72,7 +101,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 9,
   "weight": 165,
   "aspects": [],
 "features": [

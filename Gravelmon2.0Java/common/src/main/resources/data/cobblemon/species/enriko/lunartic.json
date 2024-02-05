@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunartic",
-  "nationalPokedexNumber": 1572,
+  "nationalPokedexNumber": 1593,
   "primaryType": "fairy",
   "abilities": [
     "unnerve",
@@ -69,8 +69,8 @@
   "preEvolution": "velveil",
   "baseScale": 0.28125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

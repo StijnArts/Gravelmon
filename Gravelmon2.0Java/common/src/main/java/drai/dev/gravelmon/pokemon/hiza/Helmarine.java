@@ -15,14 +15,16 @@ public class Helmarine extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         40),
                 List.of(Ability.BATTLE_ARMOR), Ability.BATTLE_ARMOR,
-                8, 165,
+                4, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Stories tell the tale of a knight whose soul was corrupted by a curse, the knight ended up drowning in one of his travels and his armor turned into a school of Helmarine."),
-                List.of(),
+                List.of(new EvolutionEntry("trouterror", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.ASTONISH,5),
@@ -42,9 +44,9 @@ public class Helmarine extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WAVE_CRASH,61)                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 35, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

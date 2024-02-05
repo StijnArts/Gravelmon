@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "teranigrade",
-  "nationalPokedexNumber": 2431,
+  "nationalPokedexNumber": 2450,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
@@ -56,8 +56,8 @@
       ],
       "baseScale": 0.2625,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 1.0,
+          "height": 1.0,
           "fixed": false
       },
       "baseStats": {
@@ -181,8 +181,8 @@
       ],
       "baseScale": 0.2625,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 1.0,
+          "height": 1.0,
           "fixed": false
       },
       "baseStats": {
@@ -303,8 +303,8 @@
       ],
       "baseScale": 0.2625,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 1.0,
+          "height": 1.0,
           "fixed": false
       },
       "baseStats": {
@@ -505,8 +505,8 @@
   "preEvolution": "tartot",
   "baseScale": 0.2625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -7,16 +7,16 @@
       "id": "hydrotaur-1",
       "pokemon": "hydrotaur",
       "presets": [
+          "near_water",
           "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "ultra-rare",
+      "level": "36-58",
+      "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_grassland" ],
         "canSeeSky": true
       }
     }

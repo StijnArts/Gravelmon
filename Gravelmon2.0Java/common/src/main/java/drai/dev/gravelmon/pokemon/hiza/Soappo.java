@@ -15,14 +15,16 @@ public class Soappo extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         55),
                 List.of(Ability.WATER_BUBBLE), Ability.RAIN_DISH,
-                8, 165,
+                12, 165,
                 new Stats(1,0,0,0,0,0), 90,
                 0.5,
                 140, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("Soappo are great swimmers, but very sluggish on land. This Pokemon relies on its slippery skin and bubbles to move around."),
-                List.of(),
+                List.of(new EvolutionEntry("tubalord", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.AIRBUBBLE,10),
@@ -51,14 +53,15 @@ public class Soappo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWIFT,"tm")                        ),
                 List.of(Label.HIZA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 18, 33, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_AUTUMN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Soappo");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

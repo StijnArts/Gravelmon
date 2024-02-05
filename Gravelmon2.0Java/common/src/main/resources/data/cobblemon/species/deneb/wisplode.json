@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wisplode",
-  "nationalPokedexNumber": 2514,
+  "nationalPokedexNumber": 2533,
   "primaryType": "fire",
   "abilities": [
     "levitate",
@@ -114,8 +114,8 @@
   "preEvolution": "willisp",
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

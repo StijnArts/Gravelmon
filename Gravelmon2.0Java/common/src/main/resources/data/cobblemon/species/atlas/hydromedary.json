@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hydromedary",
-  "nationalPokedexNumber": 2805,
+  "nationalPokedexNumber": 2824,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -108,8 +108,8 @@
   "preEvolution": "hydrank",
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

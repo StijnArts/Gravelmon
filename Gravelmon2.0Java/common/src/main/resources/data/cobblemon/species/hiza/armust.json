@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "armust",
-  "nationalPokedexNumber": 2094,
+  "nationalPokedexNumber": 2113,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -65,10 +65,25 @@
   "pokedex": [
     "cobblemon.species.armust.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "armust_crustitan",
+      "variant": "level_up",
+      "result": "crustitan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 55
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -80,7 +95,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

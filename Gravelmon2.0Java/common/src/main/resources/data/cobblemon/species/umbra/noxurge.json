@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "noxurge",
-  "nationalPokedexNumber": 2383,
+  "nationalPokedexNumber": 2402,
   "primaryType": "poison",
   "secondaryType": "electric",
   "abilities": [
@@ -114,8 +114,8 @@
   "preEvolution": "shoxin",
   "baseScale": 0.20625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

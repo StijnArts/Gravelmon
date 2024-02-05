@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "axolil",
-  "nationalPokedexNumber": 2330,
+  "nationalPokedexNumber": 2349,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -127,8 +127,8 @@
   ],
   "baseScale": 0.13125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shiverme",
-  "nationalPokedexNumber": 1472,
+  "nationalPokedexNumber": 1493,
   "primaryType": "ghost",
   "secondaryType": "ice",
   "abilities": [
@@ -161,8 +161,8 @@
   ],
   "baseScale": 0.31875,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 1.0,
+    "height": 1.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ceresplit",
-  "nationalPokedexNumber": 1593,
+  "nationalPokedexNumber": 1614,
   "primaryType": "ground",
   "secondaryType": "fire",
   "abilities": [
@@ -75,8 +75,8 @@
   ],
   "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 0.0,
+    "height": 0.0,
     "fixed": false
   },
   "baseFriendship": 70,

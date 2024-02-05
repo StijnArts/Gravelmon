@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fulgnash",
-  "nationalPokedexNumber": 2041,
+  "nationalPokedexNumber": 2060,
   "primaryType": "electric",
   "secondaryType": "dragon",
   "abilities": [
@@ -70,10 +70,10 @@
   "pokedex": [
     "cobblemon.species.fulgnash.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -85,7 +85,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

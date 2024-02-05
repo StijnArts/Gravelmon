@@ -15,7 +15,7 @@ public class Sakurovix extends drai.dev.gravelmon.pokemon.Pokemon {
                         125,
                         86),
                 List.of(Ability.GRASSY_SURGE), Ability.GRASSY_SURGE,
-                8, 165,
+                22, 165,
                 new Stats(3,0,0,0,0,0), 3,
                 0.0,
                 270, ExperienceGroup.SLOW,
@@ -106,14 +106,15 @@ public class Sakurovix extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, .0003, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sakurovix");
+        setCanFly(true);
 
     }
 

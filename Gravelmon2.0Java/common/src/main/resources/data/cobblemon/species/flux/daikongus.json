@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "daikongus",
-  "nationalPokedexNumber": 2154,
+  "nationalPokedexNumber": 2173,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -84,8 +84,8 @@
   "preEvolution": "taroot",
   "baseScale": 0.4125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,

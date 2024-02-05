@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "archilles",
-  "nationalPokedexNumber": 1750,
+  "nationalPokedexNumber": 1771,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -125,8 +125,8 @@
   "preEvolution": "raptorch",
   "baseScale": 0.35625,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 2.0,
+    "height": 2.0,
     "fixed": false
   },
   "baseFriendship": 70,
