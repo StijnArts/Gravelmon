@@ -15,7 +15,7 @@ public class Liquphage extends drai.dev.gravelmon.pokemon.Pokemon {
                         200,
                         34),
                 List.of(Ability.PATHOGENIC), Ability.SYNCHRONIZE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 161, ExperienceGroup.FAST,
@@ -48,8 +48,8 @@ public class Liquphage extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CORROSIONWAVE,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 27, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

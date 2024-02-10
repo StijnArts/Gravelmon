@@ -21,8 +21,10 @@ public class Munchwin extends drai.dev.gravelmon.pokemon.Pokemon {
                 133, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Astonish Ghost - Tail Whip Normal - ScratchSTAB Normal - Focus Energy Normal 5 ScratchSTAB Normal 8 Focus Energy Normal 14 Fury SwipesSTAB Normal 16 Double HitSTAB Normal 20 Screech Normal 24 Fake OutSTAB Normal 29 SlashSTAB Normal 33 Shadow Claw Ghost 38 Will-O-Wisp Fire 42 Hone Claws Dark 47 Night Slash Dark"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("nemokat", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
                         new MoveLearnSetEntry(Move.SCRATCH,5),
@@ -107,11 +109,11 @@ public class Munchwin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,"tm")                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 17, 29, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Munchwin");

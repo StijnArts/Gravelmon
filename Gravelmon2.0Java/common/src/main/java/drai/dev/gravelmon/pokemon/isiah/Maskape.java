@@ -15,14 +15,16 @@ public class Maskape extends drai.dev.gravelmon.pokemon.Pokemon {
                         42,
                         55),
                 List.of(Ability.INTIMIDATE,Ability.RELENTLESS,Ability.TANGLED_FEET), Ability.TANGLED_FEET,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 56, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- TackleSTAB Normal 7 Tickle Normal 13 Low Kick Fighting 19 Double Team Normal 22 SwiftSTAB Normal 26 SlamSTAB Normal"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("triboon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.TICKLE,7),
@@ -36,8 +38,8 @@ public class Maskape extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COMET_PUNCH,"tm")                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 33, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND, Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,14 +15,16 @@ public class Pipillar extends drai.dev.gravelmon.pokemon.Pokemon {
                         20,
                         40),
                 List.of(Ability.BATTLE_ARMOR), Ability.MULTISCALE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                4, 165,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Pipillar is not a bug to be messed with due to tough and stubborn nature. Its pincers can tear other small Pokemon to pieces."),
-                List.of(),
+                List.of(new EvolutionEntry("vicoon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.JAB,1),
                         new MoveLearnSetEntry(Move.BITE,3),
@@ -34,10 +36,10 @@ public class Pipillar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LUNGE,30)                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 16, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

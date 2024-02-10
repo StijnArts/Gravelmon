@@ -7,16 +7,16 @@
       "id": "garbadjinn-1",
       "pokemon": "garbadjinn",
       "presets": [
-          "natural"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "31-56",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_overworld" ],
+        "timeRange": "night",
         "canSeeSky": true
       }
     }

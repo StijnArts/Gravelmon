@@ -15,14 +15,16 @@ public class Cactabit extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         70),
                 List.of(Ability.CHLOROPHYLL,Ability.DRY_SKIN,Ability.ROUGH_SKIN), Ability.ROUGH_SKIN,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,1), 225,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("- Pound Normal - Defense Curl Normal 5 Pin Missile Bug 8 Sand Attack Ground 12 Bite Dark 16 Needle ArmSTAB Grass 18 Work Up Normal 21 Snap TrapSTAB Grass 25 Spikes Ground 28 Dragon Tail Dragon 33 Seed BombSTAB Grass 37 Fruit Munch Grass 40 Thorn FallSTAB Grass 45 Spiky Shield Grass 50 Thrash Normal 56 Entrainment Normal 64 Verdant TailSTAB Grass"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("gymnozard", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.PIN_MISSILE,5),
@@ -102,8 +104,8 @@ public class Cactabit extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PAIN_SPLIT,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,14 +15,16 @@ public class Drizzlen extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         45),
                 List.of(Ability.CLOUD_NINE), Ability.DRIZZLE,
-                8, 165,
-                new Stats(0,0,0,0,1,0), 0,
+                4, 165,
+                new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("- AstonishSTAB Ghost - Minimize Normal 6 GustSTAB Flying 11 Thunder Shock Electric 14 Growth Normal 17 Disable Normal 22 HexSTAB Ghost 27 Mist Ice 30 Memento Dark 33 Ominous WindSTAB Ghost 38 Cotton Guard Grass 43 Thunderbolt Electric 46 Tailwind Flying 51 HurricaneSTAB Flying"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("cumucloud", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.MINIMIZE,1),
                         new MoveLearnSetEntry(Move.GUST,6),
@@ -39,14 +41,14 @@ public class Drizzlen extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HURRICANE,51)                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Drizzlen");
+        setCanFly(true);
 
     }
 

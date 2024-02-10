@@ -15,13 +15,13 @@ public class Pepprex extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         70),
                 List.of(Ability.CHLOROPHYLL), Ability.FLAME_BODY,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 161, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
-                List.of("- Fire FangSTAB Fire - Tackle Normal - Growth Normal - Bullet SeedSTAB Grass - Natural Gift Normal - Synthesis Grass 5 Growth Normal 9 Bullet SeedSTAB Grass 14 Stun Spore Grass 18 Seed ShotSTAB Grass 23 Synthesis Grass 26 Magical LeafSTAB Grass 30 Flame BurstSTAB Fire 33 Crunch Dark 37 Swagger Normal 40 Seed BombSTAB Grass 44 Energy BallSTAB Grass 47 Spore Grass 51 Seed FlareSTAB Grass 55 Heat WaveSTAB Fire"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SYNTHESIS,1),
@@ -81,8 +81,8 @@ public class Pepprex extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,"tm")                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

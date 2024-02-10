@@ -77,7 +77,7 @@ public class Cloacover extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm"),
                         new MoveLearnSetEntry(Move.UTURN,"tm"),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 52, 1.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))

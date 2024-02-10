@@ -70,7 +70,7 @@ public class Stuckry extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PAIN_SPLIT,"tm"),
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),

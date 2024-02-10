@@ -69,7 +69,7 @@ public class Liqueel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATERFALL,"tm"),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm"),
                         new MoveLearnSetEntry(Move.VORTEXDRAIN,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_REEF)),

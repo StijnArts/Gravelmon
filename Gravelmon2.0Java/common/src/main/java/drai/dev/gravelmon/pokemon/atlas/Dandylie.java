@@ -85,7 +85,7 @@ public class Dandylie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm"),
                         new MoveLearnSetEntry(Move.FIRE_PUNCH,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 31, 1.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_FLORAL)),

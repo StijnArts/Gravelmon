@@ -55,7 +55,7 @@ public class Cobworm extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
                         new MoveLearnSetEntry(Move.EXTREME_SPEED,"tm"),
                         new MoveLearnSetEntry(Move.PESTER,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED,SpawnPool.COMMON, 15, 29, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),

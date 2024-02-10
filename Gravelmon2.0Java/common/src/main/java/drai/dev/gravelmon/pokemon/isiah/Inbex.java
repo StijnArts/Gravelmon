@@ -15,14 +15,16 @@ public class Inbex extends drai.dev.gravelmon.pokemon.Pokemon {
                         34,
                         42),
                 List.of(Ability.LIMBER), Ability.RECKLESS,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 44, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Tackle Normal 7 Headbutt Normal 13 Iron Defense Steel 38 Take Down Normal 43 Iron HeadSTAB Steel 56 Double-Edge Normal"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("titanbex", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.HEADBUTT,7),
@@ -32,8 +34,8 @@ public class Inbex extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,56)                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

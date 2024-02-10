@@ -15,14 +15,16 @@ public class Juvy extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         50),
                 List.of(Ability.BIG_PECKS), Ability.HUSTLE,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 240,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Juvy swoop down from the sky to quickly snatch any valuable that a trainer may be holding. They often work with Thefcoon to pull off larger heists."),
-                List.of(),
+                List.of(new EvolutionEntry("convird", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.THIEF,5),
@@ -40,14 +42,15 @@ public class Juvy extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRAVE_BIRD,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Juvy");
+        setCanFly(true);
 
     }
 

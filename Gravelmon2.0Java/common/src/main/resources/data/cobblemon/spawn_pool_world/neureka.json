@@ -7,16 +7,16 @@
       "id": "neureka-1",
       "pokemon": "neureka",
       "presets": [
-          "urban"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",
-      "level": "6-28",
+      "level": "6-29",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_overworld" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky",
+"#cobblemon:is_old_growth_taiga" ]
       }
     }
   ]

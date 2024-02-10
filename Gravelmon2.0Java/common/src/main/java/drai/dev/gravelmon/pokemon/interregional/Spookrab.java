@@ -15,14 +15,16 @@ public class Spookrab extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         60),
                 List.of(Ability.HYPER_CUTTER,Ability.RUN_AWAY,Ability.SAND_RUSH), Ability.SAND_RUSH,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 70, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("Spookrab are rarely ever seen in person as they haunt the beaches through the night. Their claws can mimic the sounds of screaming."),
-                List.of(),
+                List.of(new EvolutionEntry("crustgeist", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.PINCH,7),
@@ -51,14 +53,16 @@ public class Spookrab extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CLAMP,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 31, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Spookrab");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

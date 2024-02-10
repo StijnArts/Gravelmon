@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo;
 
 import drai.dev.gravelmon.pokemon.atlas.*;
+import drai.dev.gravelmon.pokemon.junnin.*;
 
 public class Atlas extends drai.dev.gravelmon.games.registry.Game {
     public Atlas() {        super("Atlas");
@@ -44,9 +45,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Pumpel());
         pokemon.add(new Hydrank());
         pokemon.add(new Hydromedary());
-        pokemon.add(new Liqueel());
-        pokemon.add(new Electeel());
-        pokemon.add(new Emporeel());
         pokemon.add(new Caimar());
         pokemon.add(new Torpeed());
         pokemon.add(new Damasoar());
@@ -65,23 +63,12 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Harmorial());
         pokemon.add(new Vermini());
         pokemon.add(new Vermpent());
-        pokemon.add(new Jayzul());
-        pokemon.add(new Jayzure());
-        pokemon.add(new Tulifun());
-        pokemon.add(new Twoolepin());
-        pokemon.add(new Terbipan());
-        pokemon.add(new Dandyseed());
-        pokemon.add(new Dandylie());
-        pokemon.add(new Withereen());
         pokemon.add(new Seedent());
         pokemon.add(new Nuttone());
         pokemon.add(new Flutterbi());
         pokemon.add(new Stellarva());
         pokemon.add(new Crescoon());
         pokemon.add(new Moothnite());
-        pokemon.add(new Hoppiler());
-        pokemon.add(new Cobworm());
-        pokemon.add(new Hoppereign());
         pokemon.add(new Bullirt());
         pokemon.add(new Dirterrier());
         pokemon.add(new Kitture());
@@ -100,8 +87,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Manna());
         pokemon.add(new Lemb());
         pokemon.add(new Vegelamb());
-        pokemon.add(new Goatee());
-        pokemon.add(new Faram());
         pokemon.add(new Eriegle());
         pokemon.add(new Albivore());
         pokemon.add(new Emperiegle());
@@ -113,8 +98,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Eletize());
         pokemon.add(new Luvenny());
         pokemon.add(new Suavenny());
-        pokemon.add(new Muscolin());
-        pokemon.add(new Bosteroid());
         pokemon.add(new Barilbil());
         pokemon.add(new Haibril());
         pokemon.add(new Tomabi());
@@ -129,8 +112,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Roostegg());
         pokemon.add(new Secheel());
         pokemon.add(new Lannelid());
-        pokemon.add(new Stuckarp());
-        pokemon.add(new Stuckry());
         pokemon.add(new Nyglow());
         pokemon.add(new Nyglare());
         pokemon.add(new Neonite());
@@ -165,8 +146,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Dartibi());
         pokemon.add(new Revolpod());
         pokemon.add(new Gigadozer());
-        pokemon.add(new Campyre());
-        pokemon.add(new Wildyre());
         pokemon.add(new Brambarb());
         pokemon.add(new Wickvine());
         pokemon.add(new Wicktrive());
@@ -190,22 +169,13 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Ampin());
         pokemon.add(new Sharquake());
         pokemon.add(new Bashbee());
-        pokemon.add(new Buffhilla());
-        pokemon.add(new Bisommit());
         pokemon.add(new Woolam());
         pokemon.add(new Alpalaine());
         pokemon.add(new Battenbae());
-        pokemon.add(new Hoodloom());
-        pokemon.add(new Cloacover());
         pokemon.add(new Brickler());
         pokemon.add(new Hurdwall());
         pokemon.add(new Toxitube());
         pokemon.add(new Gassaster());
-        pokemon.add(new Junkid());
-        pokemon.add(new Tankyard());
-        pokemon.add(new Nuggle());
-        pokemon.add(new Piragmid());
-        pokemon.add(new Eldoredo());
         pokemon.add(new Stalagrunt());
         pokemon.add(new Stalagang());
 
@@ -285,8 +255,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Blizzund());
         pokemon.add(new Hoofrost());
         pokemon.add(new Glacyak());
-        pokemon.add(new Froska());
-        pokemon.add(new Mafreozee());
         pokemon.add(new Ragtoc());
         pokemon.add(new Chronotoc());
 //        pokemon.add(new Glacyte()); NOT FINISHED
@@ -325,8 +293,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Serrarbo());
         pokemon.add(new Juraseed());
         pokemon.add(new Carnaceous());
-        pokemon.add(new Lizmoke());
-        pokemon.add(new Charnosaur());
         pokemon.add(new Tinguano());
         pokemon.add(new Donguano());
         pokemon.add(new Carnibble());

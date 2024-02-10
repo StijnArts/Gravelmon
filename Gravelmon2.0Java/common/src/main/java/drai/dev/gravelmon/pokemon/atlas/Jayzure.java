@@ -75,7 +75,7 @@ public class Jayzure extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
                         new MoveLearnSetEntry(Move.UTURN,"tm"),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 44, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),

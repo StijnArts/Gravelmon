@@ -89,7 +89,7 @@ public class Tankyard extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LOCKON,"tm"),
                         new MoveLearnSetEntry(Move.METAL_BURST,"tm"),
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 56, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))

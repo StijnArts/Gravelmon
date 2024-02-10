@@ -81,7 +81,7 @@ public class Eldoredo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
                         new MoveLearnSetEntry(Move.HYPNOSIS,"tm"),
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 41, 56, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),

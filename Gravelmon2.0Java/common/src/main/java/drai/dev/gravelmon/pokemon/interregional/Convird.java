@@ -15,7 +15,7 @@ public class Convird extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         110),
                 List.of(Ability.BIG_PECKS), Ability.HUSTLE,
-                8, 165,
+                11, 165,
                 new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 160, ExperienceGroup.MEDIUM_SLOW,
@@ -40,14 +40,15 @@ public class Convird extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRAVE_BIRD,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 35, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Convird");
+        setCanFly(true);
 
     }
 

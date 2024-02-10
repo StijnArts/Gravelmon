@@ -15,14 +15,16 @@ public class Thefcoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         80),
                 List.of(Ability.FRISK), Ability.CUTE_CHARM,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 44, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Despite their adorable appearance, Thefcoon are infamous for their incredible thieving ability. Thefcoon are so sly that their schemes are nearly undetectable."),
-                List.of(),
+                List.of(new EvolutionEntry("rascoon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.TAUNT,4),
@@ -43,10 +45,10 @@ public class Thefcoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -36,6 +36,7 @@ public class GameRegistry {
         games.add(new Aristos());
         games.add(new Uranium());
         games.add(new Hiza());
+        games.add(new Junnin());
         games.add(new Flux());
         games.add(new OrohnHavai());
         games.add(new EternalForest());
@@ -47,6 +48,7 @@ public class GameRegistry {
         games.add(new Daybreak());
         games.add(new Qamor());
         games.add(new Vanguard());
+        games.add(new Isiah());
         games.add(new Myth());
         games.add(new Deneb());
         games.add(new Atlas());

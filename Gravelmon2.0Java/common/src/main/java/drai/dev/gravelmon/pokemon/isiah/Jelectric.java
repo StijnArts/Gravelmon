@@ -23,17 +23,31 @@ public class Jelectric extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_3),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(           new MoveLearnSetEntry(Move.MUDSLAP,1),
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.THUNDER_SHOCK,7),
+                        new MoveLearnSetEntry(Move.WATER_GUN,11),
+                        new MoveLearnSetEntry(Move.CHARGE,17),
+                        new MoveLearnSetEntry(Move.SPARK,21),
+                        new MoveLearnSetEntry(Move.MUD_SHOT,24),
+                        new MoveLearnSetEntry(Move.FLAIL,25),
+                        new MoveLearnSetEntry(Move.DISCHARGE,32),
+                        new MoveLearnSetEntry(Move.WEATHER_BALL,36),
+                        new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,40),
+                        new MoveLearnSetEntry(Move.SUCKER_PUNCH,45),
+                        new MoveLearnSetEntry(Move.ZAP_CANNON,50)),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 32, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Jelectric");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

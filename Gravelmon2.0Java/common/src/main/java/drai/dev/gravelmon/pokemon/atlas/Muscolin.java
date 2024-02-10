@@ -70,7 +70,7 @@ public class Muscolin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm"),
                         new MoveLearnSetEntry(Move.VISE_GRIP,"tm"),
                         new MoveLearnSetEntry(Move.DYNAMICPUNCH,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),

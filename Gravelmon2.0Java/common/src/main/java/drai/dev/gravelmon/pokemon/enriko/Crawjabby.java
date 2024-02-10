@@ -22,7 +22,7 @@ public class Crawjabby extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.BUG),
                 List.of("Crawjabby are aquatic Pokémon that take pride in their fists. They live in solitude, engaging other Crawjabby in violent boxing matches."),
-                List.of(new EvolutionEntry("crawjabby", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Lobbercut", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))
                 ),
                 List.of(

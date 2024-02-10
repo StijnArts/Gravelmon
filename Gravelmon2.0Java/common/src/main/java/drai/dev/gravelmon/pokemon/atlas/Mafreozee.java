@@ -80,7 +80,7 @@ public class Mafreozee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm"),
                         new MoveLearnSetEntry(Move.DEFOG,"tm"),
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 54, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),

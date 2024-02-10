@@ -22,7 +22,7 @@ public class Plastree extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.MONSTER),
                 List.of("Its glossy body resembles a small plant. In barren wastelands and desert, they gather in great numbers pretending to be grass."),
-                List.of(new EvolutionEntry("plastree", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Forestic", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))
                 ),
                 List.of(

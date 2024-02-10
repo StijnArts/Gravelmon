@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "jawful-1",
+      "pokemon": "jawful",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "23-45",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_reef" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

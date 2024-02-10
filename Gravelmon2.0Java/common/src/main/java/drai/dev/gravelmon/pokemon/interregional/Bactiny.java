@@ -15,14 +15,16 @@ public class Bactiny extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         34),
                 List.of(Ability.PATHOGENIC), Ability.SYNCHRONIZE,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,1,0,0), 200,
                 0.5,
                 52, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Bactiny are believed to be tied to the origin of the Pokérus virus. Contact with these Pokemon can cause numerous illnesses."),
-                List.of(),
+                List.of(new EvolutionEntry("liquphage", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
                         new MoveLearnSetEntry(Move.MINIMIZE,5),
@@ -48,8 +50,8 @@ public class Bactiny extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CORROSIONWAVE,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 7, 32, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

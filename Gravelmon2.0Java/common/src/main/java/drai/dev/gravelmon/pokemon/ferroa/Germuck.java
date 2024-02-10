@@ -24,7 +24,7 @@ public class Germuck extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It was accidentally unearthed from beneath a glacier, but it's mostly harmless. It forms colonies with such exponential growth that it will exhaust all food in the area within days."),
                 List.of(new EvolutionEntry("germasaur", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34"))),
-                        new EvolutionEntry("flaskatine", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        new EvolutionEntry("Flaskantine", EvolutionType.ITEM_INTERACT, false, List.of(),
                                 List.of(),List.of(),"cobblemon:ice_stone")
                 ),
                 List.of(

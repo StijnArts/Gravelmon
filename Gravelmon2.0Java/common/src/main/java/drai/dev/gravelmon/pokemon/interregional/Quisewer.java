@@ -15,7 +15,7 @@ public class Quisewer extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         51),
                 List.of(Ability.STENCH,Ability.STICKY_HOLD,Ability.GOOEY), Ability.GOOEY,
-                8, 165,
+                18, 165,
                 new Stats(2,0,0,0,0,0), 80,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
@@ -54,8 +54,8 @@ public class Quisewer extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CLEAR_SMOG,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 32, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

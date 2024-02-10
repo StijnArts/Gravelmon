@@ -76,7 +76,7 @@ public class Faram extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,"tm"),
                         new MoveLearnSetEntry(Move.TAUNT,"tm"),
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, 1.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_HILLS, Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),

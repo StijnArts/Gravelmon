@@ -84,7 +84,7 @@ public class Campyre extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPNOSIS,"tm"),
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm")
                 ),
-                List.of(Label.ATLAS),
+                List.of(Label.ISIAH),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 7, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),

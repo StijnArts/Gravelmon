@@ -15,13 +15,13 @@ public class Nemokat extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         80),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                16, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 225, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Nasty Plot Dark - Dark Pulse Dark - Astonish Ghost - Tail Whip Normal - ScratchSTAB Normal - Focus Energy Normal 5 ScratchSTAB Normal 8 Focus Energy Normal 14 Fury SwipesSTAB Normal 16 Double HitSTAB Normal 20 Screech Normal 24 Fake OutSTAB Normal 29 SlashSTAB Normal 36 Shadow Claw Ghost 42 Will-O-Wisp Fire 51 Hone Claws Dark 59 Night Slash Dark"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
@@ -112,11 +112,11 @@ public class Nemokat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,"tm")                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 55, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Nemokat");

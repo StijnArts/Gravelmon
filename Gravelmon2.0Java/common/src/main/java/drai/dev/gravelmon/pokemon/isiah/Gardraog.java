@@ -15,7 +15,7 @@ public class Gardraog extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         64),
                 List.of(Ability.OVERGROW), Ability.OVERCOAT,
-                8, 165,
+                17, 165,
                 new Stats(2,1,0,0,0,0), 45,
                 0.875,
                 241, ExperienceGroup.MEDIUM_SLOW,
@@ -23,7 +23,22 @@ public class Gardraog extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("Frenzy PlantSTAB Grass Grass PledgeSTAB Grass Snore Normal Play Rough Fairy Grass KnotSTAB Grass Solar BeamSTAB Grass Earthquake Ground Attract Normal Confide Normal Double-Edge Normal Facade Normal Giga Impact Normal Hidden Power Normal Hyper Beam Normal Natural Gift Normal Protect Normal Return Normal Round Normal Secret Power Normal Sleep Talk Normal Substitute Normal Toxic Poison Rest Psychic"),
                 List.of(),
-                List.of(
+                List.of(new MoveLearnSetEntry(Move.LEER,1),
+                        new MoveLearnSetEntry(Move.POUND,1),
+                        new MoveLearnSetEntry(Move.LEAFAGE,3),
+                        new MoveLearnSetEntry(Move.QUICK_ATTACK,6),
+                        new MoveLearnSetEntry(Move.MEGA_DRAIN,9),
+                        new MoveLearnSetEntry(Move.DETECT,12),
+                        new MoveLearnSetEntry(Move.QUICK_GUARD,15),
+                        new MoveLearnSetEntry(Move.ASSURANCE,18),
+                        new MoveLearnSetEntry(Move.GIGA_DRAIN,21),
+                        new MoveLearnSetEntry(Move.SLAM,24),
+                        new MoveLearnSetEntry(Move.DOUBLE_TEAM,27),
+                        new MoveLearnSetEntry(Move.ENERGY_BALL,30),
+                        new MoveLearnSetEntry(Move.SCREECH,33),
+                        new MoveLearnSetEntry(Move.ENDEAVOR,36),
+                        new MoveLearnSetEntry(Move.LEAF_STORM,39),
+
                         new MoveLearnSetEntry(Move.FRENZY_PLANT,"tm"),
                         new MoveLearnSetEntry(Move.GRASS_PLEDGE,"tm"),
                         new MoveLearnSetEntry(Move.SNORE,"tm"),
@@ -49,8 +64,8 @@ public class Gardraog extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,"tm")                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

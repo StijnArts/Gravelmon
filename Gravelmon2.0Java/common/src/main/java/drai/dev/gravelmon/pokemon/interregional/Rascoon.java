@@ -15,7 +15,7 @@ public class Rascoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         125),
                 List.of(Ability.FRISK), Ability.PICKPOCKET,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,2), 127,
                 0.5,
                 147, ExperienceGroup.MEDIUM_SLOW,
@@ -110,10 +110,10 @@ public class Rascoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,"tm")                        ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 36, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
