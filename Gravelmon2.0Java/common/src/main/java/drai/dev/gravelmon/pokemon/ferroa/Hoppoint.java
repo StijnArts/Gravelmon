@@ -21,7 +21,7 @@ public class Hoppoint extends drai.dev.gravelmon.pokemon.Pokemon {
                 52, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("A plant-eating Pokémon that uses its horned head to poke through tree bark and eat the fresh wood within. Farmers despise Hoppoint as they like to devour their precious berry crops."),
+                List.of("A plant-eating Pokemon that uses its horned head to poke through tree bark and eat the fresh wood within. Farmers despise Hoppoint as they like to devour their precious berry crops."),
                 List.of(new EvolutionEntry("helmhide", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))
                 ),

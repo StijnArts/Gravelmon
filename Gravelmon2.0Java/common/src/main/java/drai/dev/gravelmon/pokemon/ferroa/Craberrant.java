@@ -21,7 +21,7 @@ public class Craberrant extends drai.dev.gravelmon.pokemon.Pokemon {
                 190, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.BUG),
-                List.of("A temperamental Pokémon that emerges from the sea at night, or if disturbed by offshore human activity. Its hard shell is highly resistant to undersea pressures but is also very flexible."),
+                List.of("A temperamental Pokemon that emerges from the sea at night, or if disturbed by offshore human activity. Its hard shell is highly resistant to undersea pressures but is also very flexible."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

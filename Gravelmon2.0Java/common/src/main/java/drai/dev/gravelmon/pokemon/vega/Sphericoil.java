@@ -24,7 +24,7 @@ public class Sphericoil extends Pokemon {
                 208, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("Despite its similarity to a Master Ball, it's unknown if the two are related in the same way that Voltorb is to Poké Ball."),
+                List.of("Despite its similarity to a Master Ball, it's unknown if the two are related in the same way that Voltorb is to Poke Ball."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),

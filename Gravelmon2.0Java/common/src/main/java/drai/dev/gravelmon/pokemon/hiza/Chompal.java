@@ -21,7 +21,7 @@ public class Chompal extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("It's huge sharp teeth tend to scare people away, but its actually very docile. Whenever it sees people or Pokémon drowning it will urge to help them."),
+                List.of("It's huge sharp teeth tend to scare people away, but its actually very docile. Whenever it sees people or Pokemon drowning it will urge to help them."),
                 List.of(),
                 List.of(       new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.GROWL,3),

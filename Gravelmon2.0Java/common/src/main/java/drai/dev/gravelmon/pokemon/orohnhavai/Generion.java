@@ -23,7 +23,7 @@ public class Generion extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(),
-                List.of("A mystical Pokémon that taught the people generosity. People believe they will be blessed by Generion with good fortune in return for being generous and unselfish. People believe burning a personal belonging while reciting a prayer about Generion will purify themselves of their greediness and feel renewed."),
+                List.of("A mystical Pokemon that taught the people generosity. People believe they will be blessed by Generion with good fortune in return for being generous and unselfish. People believe burning a personal belonging while reciting a prayer about Generion will purify themselves of their greediness and feel renewed."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

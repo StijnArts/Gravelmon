@@ -23,7 +23,7 @@ public class Sleepnir extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Hypnotizing its foes with a determined glare, Sleepnir may cast unusual spells onto any opponent. An old man once witnessed this stock Pokémon walking around with eight legs. Perhaps it was due to its swift hooves?"),
+                List.of("Hypnotizing its foes with a determined glare, Sleepnir may cast unusual spells onto any opponent. An old man once witnessed this stock Pokemon walking around with eight legs. Perhaps it was due to its swift hooves?"),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

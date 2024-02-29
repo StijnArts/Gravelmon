@@ -23,7 +23,7 @@ public class Elfini extends drai.dev.gravelmon.pokemon.Pokemon {
                 68, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
-                List.of("Elfini and Flabébé live in a colony somewhere deep in Umbropine Woods. Elfini and Flabébé like to dance at night in secret. Rings of flowers sprout unnaturally fast where they dance."),
+                List.of("Elfini and Flabebe live in a colony somewhere deep in Umbropine Woods. Elfini and Flabebe like to dance at night in secret. Rings of flowers sprout unnaturally fast where they dance."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

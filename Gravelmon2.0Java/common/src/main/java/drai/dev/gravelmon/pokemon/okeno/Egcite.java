@@ -20,7 +20,7 @@ public class Egcite extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
-                List.of("Children find them extremely cute, but Egcite are timid—if anyone approaches, they will run away immediately. People say if you were to able to look at the sun, you'd see this Pokémon."),
+                List.of("Children find them extremely cute, but Egcite are timid—if anyone approaches, they will run away immediately. People say if you were to able to look at the sun, you'd see this Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),

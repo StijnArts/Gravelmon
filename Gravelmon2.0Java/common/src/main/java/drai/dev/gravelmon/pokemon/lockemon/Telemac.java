@@ -24,7 +24,7 @@ public class Telemac extends Pokemon {
                 169, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Telemac can speak telepathically with other Telemac, allowing them to call others when under attack by a pack of Vaicear. When in battle, Telemac use this ability to confuse other Pokémon."),
+                List.of("Telemac can speak telepathically with other Telemac, allowing them to call others when under attack by a pack of Vaicear. When in battle, Telemac use this ability to confuse other Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),

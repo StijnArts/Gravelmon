@@ -19,7 +19,7 @@ public class EldiwanMeowth extends Pokemon {
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 51, List.of(EggGroup.AMORPHOUS, EggGroup.MONSTER),
-                List.of("Due to its delicate fur and its psychic powers, even veteran Trainers find it difficult to raise this Pokémon."),
+                List.of("Due to its delicate fur and its psychic powers, even veteran Trainers find it difficult to raise this Pokemon."),
                 List.of(new EvolutionEntry("persage", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.FUTURE_SIGHT,"")),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(

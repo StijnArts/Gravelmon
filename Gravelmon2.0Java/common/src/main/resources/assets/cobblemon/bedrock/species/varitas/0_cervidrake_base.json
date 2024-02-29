@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cervidrake",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:varitas_cervidrake",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/varitas/cervidrake.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/varitas/cervidrake_shiny.png"
+    }  ]
+}

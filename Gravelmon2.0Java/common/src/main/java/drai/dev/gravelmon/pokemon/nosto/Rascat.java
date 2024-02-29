@@ -21,7 +21,7 @@ public class Rascat extends drai.dev.gravelmon.pokemon.Pokemon {
                 57, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("These sly Pokémon sneak around, believing themselves to be invisible, when they are actually very much visible and adorable. Some people believe them to be omens of bad luck, but this is just superstition."),
+                List.of("These sly Pokemon sneak around, believing themselves to be invisible, when they are actually very much visible and adorable. Some people believe them to be omens of bad luck, but this is just superstition."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tm"),

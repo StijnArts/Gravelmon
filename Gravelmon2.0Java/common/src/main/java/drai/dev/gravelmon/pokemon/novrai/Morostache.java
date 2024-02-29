@@ -21,7 +21,7 @@ public class Morostache extends drai.dev.gravelmon.pokemon.Pokemon {
                 70, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("A parasitic Pokémon that attaches itself above the mouths of larger creatures, stealing pieces of food with its hairy whiskers as they eat. Once it falls asleep, though, it can be easily removed."),
+                List.of("A parasitic Pokemon that attaches itself above the mouths of larger creatures, stealing pieces of food with its hairy whiskers as they eat. Once it falls asleep, though, it can be easily removed."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.COVET,1),

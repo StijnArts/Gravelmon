@@ -24,7 +24,7 @@ public class Vaicear extends Pokemon {
                 177, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("With a new found homeostasis, Vaicear have mastered the balance between fire and ice. This apex Pokémon once used their heated claws to traverse through the frigid arctic."),
+                List.of("With a new found homeostasis, Vaicear have mastered the balance between fire and ice. This apex Pokemon once used their heated claws to traverse through the frigid arctic."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),

@@ -19,7 +19,7 @@ public class Hercurcules extends Pokemon {
                 260, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.BUG),
-                List.of("It overcomes opponents with its huge body. It categorically refuses to battle against a Pokémon it doesn't deem worthy."),
+                List.of("It overcomes opponents with its huge body. It categorically refuses to battle against a Pokemon it doesn't deem worthy."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MEGAHORN,1),

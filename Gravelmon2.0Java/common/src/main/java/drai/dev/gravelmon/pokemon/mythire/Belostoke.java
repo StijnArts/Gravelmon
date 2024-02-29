@@ -21,7 +21,7 @@ public class Belostoke extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("It uses gusts of smog to smoke out its Bug Pokémon prey, then sucks them up by inhaling through its tiny mouth. The leftover shells of its prey are used as fuel to create more smoke."),
+                List.of("It uses gusts of smog to smoke out its Bug Pokemon prey, then sucks them up by inhaling through its tiny mouth. The leftover shells of its prey are used as fuel to create more smoke."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TOXICFUMES,1),

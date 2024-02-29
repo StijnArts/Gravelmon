@@ -19,7 +19,7 @@ public class DeltaLiepard extends Pokemon {
                 156, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon makes use of illusions and trickery to catch its prey."),
+                List.of("This Pokemon makes use of illusions and trickery to catch its prey."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BULLET_SEED,1),

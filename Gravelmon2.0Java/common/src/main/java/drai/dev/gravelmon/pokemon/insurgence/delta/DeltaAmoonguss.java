@@ -19,7 +19,7 @@ public class DeltaAmoonguss extends Pokemon {
                 162, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("Though not always malicious in nature, they offer to shield Pokémon from the rain using their arms only to play pranks once the Pokémon's guard has dropped."),
+                List.of("Though not always malicious in nature, they offer to shield Pokemon from the rain using their arms only to play pranks once the Pokemon's guard has dropped."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),

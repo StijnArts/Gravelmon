@@ -19,14 +19,16 @@ public class Insignel extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         58),
                 List.of(Ability.VOLT_ABSORB,Ability.OVERCHARGED,Ability.INFILTRATOR), Ability.INFILTRATOR,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,2,0), 120,
                 0.5,
                 141, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Evo Signal BeamSTAB Bug - String Shot Bug - Scuttle HopSTAB Bug - Growl Normal - ElectrowebSTAB Electric - Pester Bug 4 SparkSTAB Electric 7 Bug BiteSTAB Bug 10 Iron Defense Steel 13 Charge Electric 16 Thunder Wave Electric 19 Thunder ShockSTAB Electric 22 Tail Glow Bug 25 Dig Ground 28 Bug BuzzSTAB Bug 31 Iron Defense Steel 34 Parabolic ChargeSTAB Electric 37 Stun JabSTAB Electric 41 ElectrocuteSTAB Electric 46 Zap WrapSTAB Electric 49 LungeSTAB Bug 54 ThunderSTAB Electric"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("stagnel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.PESTER,1),
                         new MoveLearnSetEntry(Move.SPARK,4),
@@ -91,8 +93,8 @@ public class Insignel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STICKY_WEB,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 38, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

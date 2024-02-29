@@ -19,7 +19,7 @@ public class EghoFeraligatr extends Pokemon {
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER, EggGroup.WATER_1),
-                List.of("This form of Feraligatr thrives in the dark murky waters of swamps and sewers. These Pokémon can cause problems in sewers because their strong jaws can rip through pipes with ease."),
+                List.of("This form of Feraligatr thrives in the dark murky waters of swamps and sewers. These Pokemon can cause problems in sewers because their strong jaws can rip through pipes with ease."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.VENOM_SWIPE,1),

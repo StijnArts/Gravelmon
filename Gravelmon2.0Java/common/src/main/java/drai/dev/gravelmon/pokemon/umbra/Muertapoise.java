@@ -24,7 +24,7 @@ public class Muertapoise extends Pokemon {
                 147, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1, EggGroup.FIELD),
-                List.of("It is said that the hook this Pokémon carries is used to sink fishing ships as penance for its own death."),
+                List.of("It is said that the hook this Pokemon carries is used to sink fishing ships as penance for its own death."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,1),

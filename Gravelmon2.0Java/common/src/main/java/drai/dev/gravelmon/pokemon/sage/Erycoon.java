@@ -19,7 +19,7 @@ public class Erycoon extends Pokemon {
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
                 51, List.of(EggGroup.FIELD, EggGroup.FAIRY),
-                List.of("Erycoon is constantly taking care of the forest it calls its home. It carries seeds and berries in its pouch-like tail to be planted or fed to weaker Pokémon."),
+                List.of("Erycoon is constantly taking care of the forest it calls its home. It carries seeds and berries in its pouch-like tail to be planted or fed to weaker Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STOCKPILE,1),

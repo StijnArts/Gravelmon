@@ -90,7 +90,7 @@ public class VaritasianFlabebe extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Flabébé");
+           setLangFileName("Flabebe");
 
     }
 

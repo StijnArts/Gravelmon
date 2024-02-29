@@ -24,7 +24,7 @@ public class Lylapse extends Pokemon {
                 217, ExperienceGroup.SLOW,
                 70,
                 100, List.of(EggGroup.UNDISCOVERED),
-                List.of("A Pokémon that can distort space. When it runs, its legs move at such a high speed that it appears to be gliding."),
+                List.of("A Pokemon that can distort space. When it runs, its legs move at such a high speed that it appears to be gliding."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUA_JET,1),

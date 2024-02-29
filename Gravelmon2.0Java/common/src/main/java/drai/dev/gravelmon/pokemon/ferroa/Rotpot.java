@@ -21,7 +21,7 @@ public class Rotpot extends drai.dev.gravelmon.pokemon.Pokemon {
                 168, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("It is said this Pokémon was born from the remains of an abandoned greenhouse. Its entire body is dry and brittle, but can reform if torn apart. Rotpot doesn't care at all when this happens."),
+                List.of("It is said this Pokemon was born from the remains of an abandoned greenhouse. Its entire body is dry and brittle, but can reform if torn apart. Rotpot doesn't care at all when this happens."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),

@@ -24,7 +24,7 @@ public class Calientoad extends Pokemon {
                 65, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER, EggGroup.DRAGON),
-                List.of("This easygoing Pokémon prefers to move as little as possible to conserve energy while avoiding anything flammable."),
+                List.of("This easygoing Pokemon prefers to move as little as possible to conserve energy while avoiding anything flammable."),
                 List.of(new EvolutionEntry("picantoad", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

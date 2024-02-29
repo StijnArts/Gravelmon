@@ -23,7 +23,7 @@ public class AristosianTropius extends drai.dev.gravelmon.pokemon.Pokemon {
                 161, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.GRASS),
-                List.of("This rare Pokémon hides from people in dense forests as it's targeted by poachers for its spikes and sweet tail."),
+                List.of("This rare Pokemon hides from people in dense forests as it's targeted by poachers for its spikes and sweet tail."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BULLET_SEED,1),

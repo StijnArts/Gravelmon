@@ -21,7 +21,7 @@ public class Ribitar extends drai.dev.gravelmon.pokemon.Pokemon {
                 72, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
-                List.of("It was revived from a fossil found in a tar pit. Strangely, this Pokémon's face is inside its mouth! This peculiarity has made it a true scientific curiosity as to how it survived like this."),
+                List.of("It was revived from a fossil found in a tar pit. Strangely, this Pokemon's face is inside its mouth! This peculiarity has made it a true scientific curiosity as to how it survived like this."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.OILFIRE,1)                        ),

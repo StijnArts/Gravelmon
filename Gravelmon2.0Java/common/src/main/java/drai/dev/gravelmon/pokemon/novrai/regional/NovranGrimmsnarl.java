@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranGrimmsnarl extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranGrimmsnarl() {
-        super("Grimmsnarl",
+    public NovranGrimmsnarl(int dex) {
+        super(dex, "Grimmsnarl",
                 Type.DARK,Type.STEEL,
                 new Stats(95,
                         120,
@@ -15,7 +15,7 @@ public class NovranGrimmsnarl extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         60),
                 List.of(Ability.PRANKSTER,Ability.QUICK_DRAW,Ability.SAND_RUSH), Ability.SAND_RUSH,
-                8, 165,
+                16, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.75,
                 230, ExperienceGroup.MEDIUM_FAST,
@@ -121,8 +121,8 @@ public class NovranGrimmsnarl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FURY_SWIPES,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 42, 55, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -24,7 +24,7 @@ public class Cavamie extends Pokemon {
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD, EggGroup.FAIRY),
-                List.of("A cheerful, mild-natured Pokémon that is agreeable and affectionate to all. Their friendly attitude makes them popular as family pets."),
+                List.of("A cheerful, mild-natured Pokemon that is agreeable and affectionate to all. Their friendly attitude makes them popular as family pets."),
                 List.of(new EvolutionEntry("capymigo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(

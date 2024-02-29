@@ -24,7 +24,7 @@ public class Yulfoe extends Pokemon {
                 147, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("It is rumored that the effects of the Hoenn Catastrophe caused this Pokémon to fly to this planet from outer space."),
+                List.of("It is rumored that the effects of the Hoenn Catastrophe caused this Pokemon to fly to this planet from outer space."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HIDDEN_POWER,1),

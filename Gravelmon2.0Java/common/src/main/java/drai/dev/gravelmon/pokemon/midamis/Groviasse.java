@@ -17,7 +17,7 @@ public class Groviasse extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         110),
                 List.of(Ability.CHLOROPHYLL), Ability.SAP_SIPPER,
-                8, 165,
+                18, 165,
                 new Stats(0,1,0,0,0,2), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -45,11 +45,10 @@ public class Groviasse extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOAK,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Groviasse");

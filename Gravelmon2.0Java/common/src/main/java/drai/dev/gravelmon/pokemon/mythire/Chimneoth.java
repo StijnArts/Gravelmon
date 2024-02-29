@@ -21,7 +21,7 @@ public class Chimneoth extends drai.dev.gravelmon.pokemon.Pokemon {
                 214, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Chimneoth's wings are patterned to let it hide against tree bark. Populations of this Pokémon have darker wings the closer they are to human civilization because of pollution."),
+                List.of("Chimneoth's wings are patterned to let it hide against tree bark. Populations of this Pokemon have darker wings the closer they are to human civilization because of pollution."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),

@@ -20,7 +20,7 @@ public class Coastone extends drai.dev.gravelmon.pokemon.Pokemon {
                 66, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.WATER_3),
-                List.of("Coastone dig small caves, which end up serving as home for fish Pokémon. Although they seem to be covered in sand, they just have a rough spongy skin."),
+                List.of("Coastone dig small caves, which end up serving as home for fish Pokemon. Although they seem to be covered in sand, they just have a rough spongy skin."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

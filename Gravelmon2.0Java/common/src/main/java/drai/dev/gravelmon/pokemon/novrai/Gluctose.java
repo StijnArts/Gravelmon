@@ -21,7 +21,7 @@ public class Gluctose extends drai.dev.gravelmon.pokemon.Pokemon {
                 59, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.FAIRY),
-                List.of("Its shed skin has long been harvested as a sweet food source by the people of Novrai, but industrialization has led to overexploitation of this slow-moving Pokémon."),
+                List.of("Its shed skin has long been harvested as a sweet food source by the people of Novrai, but industrialization has led to overexploitation of this slow-moving Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),

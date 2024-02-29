@@ -19,7 +19,7 @@ public class Dragoyle extends Pokemon {
                 199, ExperienceGroup.MEDIUM_FAST,
                 70,
                 100, List.of(EggGroup.MINERAL, EggGroup.DRAGON),
-                List.of("Hundreds of years ago, this Pokémon would be perched atop cathedrals and large stone architecture. It seemed to want to protect the inhabitants below."),
+                List.of("Hundreds of years ago, this Pokemon would be perched atop cathedrals and large stone architecture. It seemed to want to protect the inhabitants below."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_POLISH,1),

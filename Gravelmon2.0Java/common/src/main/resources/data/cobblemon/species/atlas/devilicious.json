@@ -1,0 +1,91 @@
+{
+  "implemented": true,
+  "name": "devilicious",
+  "nationalPokedexNumber": 3548,
+  "primaryType": "normal",
+  "secondaryType": "fairy",
+  "abilities": [
+    "cutecharm",
+    "h:cutecharm"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 90,
+    "special_attack": 60,
+    "special_defence": 90,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 15,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 145,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:charm",
+    "5:fakeout",
+    "11:fairywind",
+    "15:feintattack",
+    "21:shadowball",
+    "25:swallow",
+    "31:trickortreat",
+    "35:nastyplot",
+    "41:darkpulse",
+    "45:moonlight",
+    "55:nightdaze",
+    "60:belch"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.devilicious.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

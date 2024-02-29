@@ -19,7 +19,7 @@ public class ArmiranArcanine extends Pokemon {
                 194, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. Supposedly, it can also run on water."),
+                List.of("This fleet-footed Pokemon is said to run over 6,200 miles in a single day and night. Supposedly, it can also run on water."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranDubwool extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranDubwool() {
-        super("Dubwool",
+    public NovranDubwool(int dex) {
+        super(dex, "Dubwool",
                 Type.STEEL,Type.NORMAL,
                 new Stats(72,
                         80,
@@ -15,7 +15,7 @@ public class NovranDubwool extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         88),
                 List.of(Ability.IRON_BARBS,Ability.STEADFAST,Ability.BULLETPROOF), Ability.BULLETPROOF,
-                8, 165,
+                13, 165,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -96,8 +96,8 @@ public class NovranDubwool extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NUGGETFLING,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 24, 49, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -21,7 +21,7 @@ public class Slithotter extends drai.dev.gravelmon.pokemon.Pokemon {
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Slithotter are fierce but cooperative Pokémon, patrolling the Mythirean rivers for food. They take down their prey by latching on with their razor-sharp fangs and wearing it down with sheer numbers."),
+                List.of("Slithotter are fierce but cooperative Pokemon, patrolling the Mythirean rivers for food. They take down their prey by latching on with their razor-sharp fangs and wearing it down with sheer numbers."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WRING_OUT,1),

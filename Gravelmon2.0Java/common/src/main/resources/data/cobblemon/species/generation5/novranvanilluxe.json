@@ -1,0 +1,150 @@
+{
+  "implemented": true,
+  "name": "novranvanilluxe",
+  "nationalPokedexNumber": 585,
+  "primaryType": "ice",
+  "secondaryType": "grass",
+  "abilities": [
+    "ripen",
+    "h:weakarmor"
+  ],
+  "baseStats": {
+    "hp": 71,
+    "attack": 95,
+    "defence": 85,
+    "special_attack": 110,
+    "special_defence": 95,
+    "speed": 79
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 241,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:razorleaf",
+    "13:icywind",
+    "16:mist",
+    "19:avalanche",
+    "22:naturalgift",
+    "26:leaftornado",
+    "37:icebeam",
+    "44:snowscape",
+    "50:energyball",
+    "59:blizzard",
+    "65:sheercold",
+    "tm:irondefense",
+    "tm:seedbomb",
+    "tm:recycle",
+    "tm:earthpower",
+    "tm:synthesis",
+    "tm:refresh",
+    "tm:icywind",
+    "tm:magiccoat",
+    "tm:snoresound",
+    "tm:grassyterrain",
+    "tm:weatherball",
+    "tm:mistyexplosion",
+    "tm:snowscape",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:gigadrain",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:facade",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:ancientpower",
+    "tm:signalbeam",
+    "tm:energyball",
+    "tm:waterpulse",
+    "tm:curse",
+    "tm:flash",
+    "tm:explosion",
+    "tm:gigaimpact",
+    "tm:avalanche",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:triattack",
+    "tm:naturalgift",
+    "tm:dazzlinggleam",
+    "tm:confide",
+    "tm:trailblaze",
+    "tm:icespinner",
+    "tm:attract",
+    "tm:auroraveil",
+    "tm:powdersnow",
+    "tm:belch",
+    "tm:grasswhistle",
+    "tm:iceshard",
+    "tm:autotomize",
+    "tm:leafstorm"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.novranvanilluxe.desc"
+  ],
+  "preEvolution": "novranvanillish",
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

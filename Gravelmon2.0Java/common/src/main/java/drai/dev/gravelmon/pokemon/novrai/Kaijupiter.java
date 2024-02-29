@@ -21,7 +21,7 @@ public class Kaijupiter extends drai.dev.gravelmon.pokemon.Pokemon {
                 248, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
-                List.of("It looks intimidating, but it is really a gentle Pokémon that loves to share the information it gathers each night about the movements of celestial bodies with like-minded humans."),
+                List.of("It looks intimidating, but it is really a gentle Pokemon that loves to share the information it gathers each night about the movements of celestial bodies with like-minded humans."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TELEPORT,1),

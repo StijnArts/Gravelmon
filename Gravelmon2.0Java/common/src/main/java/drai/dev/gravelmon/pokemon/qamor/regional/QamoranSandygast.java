@@ -9,7 +9,7 @@ import java.util.*;
 public class QamoranSandygast extends Pokemon {
 
     public QamoranSandygast(int dex) {
-        super(dex, "Psyduck",
+        super(dex, "Sandygast",
                 Type.ROCK, Type.GHOST,
                 new Stats(60,
                         65,
@@ -52,7 +52,7 @@ public class QamoranSandygast extends Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-        setLangFileName("Psyduck");
+        setLangFileName("Sandygast");
 
     }
 }

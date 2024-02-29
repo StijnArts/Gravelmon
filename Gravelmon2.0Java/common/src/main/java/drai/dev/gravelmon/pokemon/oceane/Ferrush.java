@@ -21,7 +21,7 @@ public class Ferrush extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Ferrush seemingly defy known laws of physics through their ability to run on either side of the ocean surface with unmatched deftness. Though they primarily roam the photic zone, encounters with these fierce Pokémon on land have been documented."),
+                List.of("Ferrush seemingly defy known laws of physics through their ability to run on either side of the ocean surface with unmatched deftness. Though they primarily roam the photic zone, encounters with these fierce Pokemon on land have been documented."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OCEANE),

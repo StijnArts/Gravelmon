@@ -21,7 +21,7 @@ public class Purrth extends drai.dev.gravelmon.pokemon.Pokemon {
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.DRAGON),
-                List.of("With its pair of beaks, it will deliver a vicious nip if handled. It takes a very skilled trainer to earn the trust of this skittish Pokémon."),
+                List.of("With its pair of beaks, it will deliver a vicious nip if handled. It takes a very skilled trainer to earn the trust of this skittish Pokemon."),
                 List.of(new EvolutionEntry("terrachnid", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
                 ),

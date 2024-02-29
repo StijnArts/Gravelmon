@@ -21,7 +21,7 @@ public class Vespark extends drai.dev.gravelmon.pokemon.Pokemon {
                 57, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It's said to have the most excruciatingly painful sting of any Pokémon. Because of this, nothing will challenge it for territory, not even other Vespark."),
+                List.of("It's said to have the most excruciatingly painful sting of any Pokemon. Because of this, nothing will challenge it for territory, not even other Vespark."),
                 List.of(new EvolutionEntry("volthroe", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
                 ),

@@ -19,7 +19,7 @@ public class Timberawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         81),
                 List.of(Ability.OVERGROW), Ability.IRON_FIST,
-                8, 165,
+                16, 165,
                 new Stats(0,2,1,0,0,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -93,8 +93,8 @@ public class Timberawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

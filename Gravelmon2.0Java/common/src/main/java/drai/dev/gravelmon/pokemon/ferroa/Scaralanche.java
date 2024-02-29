@@ -21,7 +21,7 @@ public class Scaralanche extends drai.dev.gravelmon.pokemon.Pokemon {
                 234, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It's a sturdy Pokémon that tirelessly accumulates snow onto its snowball to make it bigger. When time comes to lay eggs, it hides them deep within the snowball to protect them from predators. Occasionally, it may roll the snowball down the mountain slopes, and anything trampled beneath it becomes food for the young Sleetle within."),
+                List.of("It's a sturdy Pokemon that tirelessly accumulates snow onto its snowball to make it bigger. When time comes to lay eggs, it hides them deep within the snowball to protect them from predators. Occasionally, it may roll the snowball down the mountain slopes, and anything trampled beneath it becomes food for the young Sleetle within."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.AVALANCHE,1),

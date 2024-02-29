@@ -21,7 +21,7 @@ public class Crustitan extends drai.dev.gravelmon.pokemon.Pokemon {
                 245, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
-                List.of("An incredibly strong Pokémon that leaves the waters and wanders the land searching for strong opponents to fight. They are an invasive species that originate from a distant region."),
+                List.of("An incredibly strong Pokemon that leaves the waters and wanders the land searching for strong opponents to fight. They are an invasive species that originate from a distant region."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),

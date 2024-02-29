@@ -19,7 +19,7 @@ public class AyreianNoivern extends Pokemon {
                         187, ExperienceGroup.MEDIUM_SLOW,
                         70,
                         50, List.of(EggGroup.FLYING, EggGroup.DRAGON),
-                        List.of("While it may look intimidating, it has a gentle and caring disposition. That said, it will shoot down anyone threatening its protégé with beams of light."),
+                        List.of("While it may look intimidating, it has a gentle and caring disposition. That said, it will shoot down anyone threatening its protege with beams of light."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.DAZZLING_GLEAM, 1),

@@ -20,7 +20,7 @@ public class Piratross extends drai.dev.gravelmon.pokemon.Pokemon {
                 128, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("Although menacing, Piratross cannot hunt for themselves. Instead, they steal food caught by other Pokémon, trying to scare them with screeches and then battling if necessary."),
+                List.of("Although menacing, Piratross cannot hunt for themselves. Instead, they steal food caught by other Pokemon, trying to scare them with screeches and then battling if necessary."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),

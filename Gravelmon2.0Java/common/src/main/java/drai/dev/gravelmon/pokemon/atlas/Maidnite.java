@@ -21,7 +21,7 @@ public class Maidnite extends drai.dev.gravelmon.pokemon.Pokemon {
                 148, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FLYING),
-                List.of("Mothers always closed their home's windows in the past to protect their children from the intense stare of this pokémon. At exact midnight it searches for sleeping prey."),
+                List.of("Mothers always closed their home's windows in the past to protect their children from the intense stare of this pokemon. At exact midnight it searches for sleeping prey."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),

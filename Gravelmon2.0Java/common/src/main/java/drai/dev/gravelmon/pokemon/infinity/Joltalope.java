@@ -19,7 +19,7 @@ public class Joltalope extends Pokemon {
                 214, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 20, List.of(EggGroup.GRASS, EggGroup.FAIRY),
-                List.of("A Pokémon that expends high amounts of energy during its active hours. During its resting hours, it sleeps for long periods of time in overgrown forest nests. The foliage starts to take root in Joltalopes fur."),
+                List.of("A Pokemon that expends high amounts of energy during its active hours. During its resting hours, it sleeps for long periods of time in overgrown forest nests. The foliage starts to take root in Joltalopes fur."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ION_DELUGE,0),

@@ -19,7 +19,7 @@ public class TrishoutX extends Pokemon {
                 90, ExperienceGroup.SLOW,
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
-                List.of("Made of pure X Energy, this Pokémon attacks its enemies ruthlessly until you knock them out."),
+                List.of("Made of pure X Energy, this Pokemon attacks its enemies ruthlessly until you knock them out."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),

@@ -19,7 +19,7 @@ public class Psypole extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1),
-                List.of("Psypole are very intelligent Pokémon that hatch with an orb. The orb helps them learn to control their psychic abilities."),
+                List.of("Psypole are very intelligent Pokemon that hatch with an orb. The orb helps them learn to control their psychic abilities."),
                 List.of(new EvolutionEntry("telefrog", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.IRON_DEFENSE,"")),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

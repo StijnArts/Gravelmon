@@ -21,7 +21,7 @@ public class Titanodon extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Titanodon is a very destructive Pokémon. It can destroy big buildings with ease and is always up for a challenge against other strong Pokémon."),
+                List.of("Titanodon is a very destructive Pokemon. It can destroy big buildings with ease and is always up for a challenge against other strong Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_THROW,1),

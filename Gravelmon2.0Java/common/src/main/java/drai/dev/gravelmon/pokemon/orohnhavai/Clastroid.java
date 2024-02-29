@@ -23,7 +23,7 @@ public class Clastroid extends drai.dev.gravelmon.pokemon.Pokemon {
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("Scientists have traced its tracks coming from a planet outside our solar system. The planet is covered in ice and only these Pokémon were found to be inhabiting it."),
+                List.of("Scientists have traced its tracks coming from a planet outside our solar system. The planet is covered in ice and only these Pokemon were found to be inhabiting it."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

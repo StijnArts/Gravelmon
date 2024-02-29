@@ -17,14 +17,15 @@ public class Raniron extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         45),
                 List.of(Ability.CUTE_CHARM), Ability.RATTLED,
-                8, 165,
+                7, 165,
                 new Stats(0,0,1,0,0,0), 230,
                 0.5,
                 45, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Cute, dainty Pokemon that are often used by girls because of its pretty and sweet appearence. But don't judge Raniron on its appearance as they put up a fight and can hold their own, even for such small Pokemon. Raniron, despite being the offspring of Steelke are also looked after by Stantler who accompany the group."),
-                List.of(),
+                List.of(new EvolutionEntry("steelke", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,1),
                         new MoveLearnSetEntry(Move.REFLECT,5),
@@ -47,8 +48,8 @@ public class Raniron extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

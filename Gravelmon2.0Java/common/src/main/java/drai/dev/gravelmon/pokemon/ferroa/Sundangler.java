@@ -27,7 +27,7 @@ public class Sundangler extends drai.dev.gravelmon.pokemon.Pokemon {
                 186, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.WATER_2),
-                List.of("Floating on the water's surface, the flowery tree on its back might look safe to rest under, but its entire body is as sticky as flypaper. Bird Pokémon will roost on top of it and find themselves unable to fly away as it submerges to drown them."),
+                List.of("Floating on the water's surface, the flowery tree on its back might look safe to rest under, but its entire body is as sticky as flypaper. Bird Pokemon will roost on top of it and find themselves unable to fly away as it submerges to drown them."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEET_SCENT,1),

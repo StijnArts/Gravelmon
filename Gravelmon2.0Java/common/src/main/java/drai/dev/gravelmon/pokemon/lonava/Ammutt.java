@@ -15,14 +15,16 @@ public class Ammutt extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         65),
                 List.of(Ability.FRIEND_GUARD), Ability.SCRAPPY,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 120,
                 0.5,
                 59, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("As Ammutt grow in age and size, their drooping puppy fat fills out and they gain greater stability."),
-                List.of(),
+                List.of(new EvolutionEntry("pointriever", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.LOCKON,5),
@@ -65,11 +67,11 @@ public class Ammutt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FACADE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 26, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ammutt");

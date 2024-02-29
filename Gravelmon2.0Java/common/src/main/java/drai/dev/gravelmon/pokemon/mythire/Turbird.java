@@ -21,7 +21,7 @@ public class Turbird extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("It's one of the most lightweight bird Pokémon, so it can fly at consistent fast speeds for hours. When it sees food, it flies directly at it with bullet-like precision."),
+                List.of("It's one of the most lightweight bird Pokemon, so it can fly at consistent fast speeds for hours. When it sees food, it flies directly at it with bullet-like precision."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),

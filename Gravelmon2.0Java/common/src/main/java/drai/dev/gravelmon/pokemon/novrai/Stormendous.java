@@ -21,7 +21,7 @@ public class Stormendous extends drai.dev.gravelmon.pokemon.Pokemon {
                 238, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("Having reined in its bad attitude, Stormendous is a peaceful and kindhearted Pokémon that brings rain to dry areas and clears up the skies during downpours."),
+                List.of("Having reined in its bad attitude, Stormendous is a peaceful and kindhearted Pokemon that brings rain to dry areas and clears up the skies during downpours."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WHIRLWIND,1),

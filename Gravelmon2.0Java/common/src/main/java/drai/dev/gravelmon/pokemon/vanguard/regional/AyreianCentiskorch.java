@@ -19,7 +19,7 @@ public class AyreianCentiskorch extends Pokemon {
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 51, List.of(EggGroup.BUG),
-                List.of("While its burning body is already dangerous on its own, this excessively hostile Pokémon also has large and very sharp fangs."),
+                List.of("While its burning body is already dangerous on its own, this excessively hostile Pokemon also has large and very sharp fangs."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_BALL, 1),

@@ -1,0 +1,113 @@
+{
+  "implemented": true,
+  "name": "raunny",
+  "nationalPokedexNumber": 2897,
+  "primaryType": "rock",
+  "abilities": [
+    "quickfeet",
+    "h:speedboost"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 55,
+    "defence": 70,
+    "special_attack": 40,
+    "special_defence": 45,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 215,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral",
+    "field"
+  ],
+  "moves": [
+    "1:sandattack",
+    "8:rollout",
+    "13:defensecurl",
+    "17:rockthrow",
+    "22:leer",
+    "26:bodyslam",
+    "31:mudsport",
+    "35:sandstorm",
+    "40:rockpolish",
+    "44:earthquake",
+    "49:megakick",
+    "53:headsmash",
+    "tm:headbutt",
+    "tm:fissure",
+    "tm:agility",
+    "tm:harden",
+    "tm:rest",
+    "tm:rocktomb",
+    "tm:stoneedge"  ],
+  "labels": [
+    "midamis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.raunny.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "raunny_raudren",
+      "variant": "level_up",
+      "result": "raudren",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

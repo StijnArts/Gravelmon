@@ -23,7 +23,7 @@ public class Mylili extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("The ghost of an abandoned child in the forest. Mylili's eerie wailing keeps humans and Pokémon alike out of the woods. Its stare gives the creeps. None knows what it is thinking."),
+                List.of("The ghost of an abandoned child in the forest. Mylili's eerie wailing keeps humans and Pokemon alike out of the woods. Its stare gives the creeps. None knows what it is thinking."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

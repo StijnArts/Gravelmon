@@ -1,0 +1,140 @@
+{
+  "implemented": true,
+  "name": "kaskadianjynx",
+  "nationalPokedexNumber": 124,
+  "primaryType": "psychic",
+  "secondaryType": "fighting",
+  "abilities": [
+    "dancer",
+    "pickpocket",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 115,
+    "defence": 90,
+    "special_attack": 35,
+    "special_defence": 50,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 225,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 26,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:copycat",
+    "1:lick",
+    "1:pound",
+    "1:lowkick",
+    "1:sweetkiss",
+    "12:confusion",
+    "16:covet",
+    "20:singsound",
+    "24:faketears",
+    "28:drainpunch",
+    "34:psychic",
+    "40:lovelykiss",
+    "46:meanlook",
+    "52:perishsongsound",
+    "58:closecombat",
+    "egg:fakeout",
+    "egg:poweruppunch",
+    "egg:roleplay",
+    "egg:wish",
+    "tm:focuspunch",
+    "tm:waterpulse",
+    "tm:calmmind",
+    "tm:hail",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:skillswap",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:fling",
+    "tm:endure",
+    "tm:drainpunch",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:recycle",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:lowsweep",
+    "tm:psychup",
+    "tm:sleeptalksound",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom"  ],
+  "labels": [
+    "lockemon",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kaskadianjynx.desc"
+  ],
+  "baseScale": 0.2625,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 406,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

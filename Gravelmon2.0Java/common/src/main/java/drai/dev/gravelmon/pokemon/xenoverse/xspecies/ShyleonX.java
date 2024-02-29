@@ -19,7 +19,7 @@ public class ShyleonX extends Pokemon {
                 90, ExperienceGroup.SLOW,
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
-                List.of("Made of pure X Energy, this serpentine Pokémon wraps around enemies until it chokes them."),
+                List.of("Made of pure X Energy, this serpentine Pokemon wraps around enemies until it chokes them."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),

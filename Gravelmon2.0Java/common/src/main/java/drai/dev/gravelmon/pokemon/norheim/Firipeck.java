@@ -23,7 +23,7 @@ public class Firipeck extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Quick to flee. Firipeck are picky when choosing a tree to peck. When hurled up they are often mistaken for Poké Balls."),
+                List.of("Quick to flee. Firipeck are picky when choosing a tree to peck. When hurled up they are often mistaken for Poke Balls."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

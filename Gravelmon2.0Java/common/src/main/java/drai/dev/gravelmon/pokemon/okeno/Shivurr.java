@@ -20,7 +20,7 @@ public class Shivurr extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("This Pokémon prefers the cold shadows of caves over the tropical sunlight. It seems unable to properly regulate its body temperature, because it is always shivering."),
+                List.of("This Pokemon prefers the cold shadows of caves over the tropical sunlight. It seems unable to properly regulate its body temperature, because it is always shivering."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GUST,1),

@@ -27,7 +27,7 @@ public class Cacotile extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Traveling through the rough terrains of Avoris, you're likely to encounter Cacotile. They store water in their tails and provide water to those in need. These carefree Pokémon are usually friendly to strangers, as long as they don't mess with their habitat."),
+                List.of("Traveling through the rough terrains of Avoris, you're likely to encounter Cacotile. They store water in their tails and provide water to those in need. These carefree Pokemon are usually friendly to strangers, as long as they don't mess with their habitat."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.AVORIS),

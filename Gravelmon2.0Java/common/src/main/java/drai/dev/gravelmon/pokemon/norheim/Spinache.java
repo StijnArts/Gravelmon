@@ -23,7 +23,7 @@ public class Spinache extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Spinache spins around at all times, preventing it from getting attacked by Moler, leaving it with constant nausea. While spinning, this Pokémon ruins crops and turns farmland into a complete mess."),
+                List.of("Spinache spins around at all times, preventing it from getting attacked by Moler, leaving it with constant nausea. While spinning, this Pokemon ruins crops and turns farmland into a complete mess."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

@@ -19,7 +19,7 @@ public class DeltaPurrloin extends Pokemon {
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by Zero_Breaker. This Pokémon wanders the city streets while scaring people with its illusions."),
+                List.of("A Delta Species discovered by Zero_Breaker. This Pokemon wanders the city streets while scaring people with its illusions."),
                 List.of(new EvolutionEntry("deltaliepard", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(

@@ -21,7 +21,7 @@ public class Chondrius extends drai.dev.gravelmon.pokemon.Pokemon {
                 261, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("It presents itself as a weak and injured Pokémon and hypnotizes its victims into caring for it. All the while, it silently infects them with disease, then disappears."),
+                List.of("It presents itself as a weak and injured Pokemon and hypnotizes its victims into caring for it. All the while, it silently infects them with disease, then disappears."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOG,1),

@@ -20,7 +20,7 @@ public class Kisadee extends drai.dev.gravelmon.pokemon.Pokemon {
                 53, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("They manuver their movements easily in the air, even through the strongest storms. By making quick turns, they catch bug Pokémon mid-flight."),
+                List.of("They manuver their movements easily in the air, even through the strongest storms. By making quick turns, they catch bug Pokemon mid-flight."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),

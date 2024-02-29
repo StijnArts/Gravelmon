@@ -15,14 +15,17 @@ public class Herburrow extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         90),
                 List.of(Ability.CHLOROPHYLL,Ability.HERBALIST,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Often found buried in soil, sleeping Herburrow's leaves have become a source of macronutrients for local Stug populations. Fortunately these curious creatures grow extremely quickly, making them very popular with students of herbalism."),
-                List.of(),
+                List.of(new EvolutionEntry("professherb", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,4),
@@ -83,8 +86,9 @@ public class Herburrow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAKE_DOWN,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

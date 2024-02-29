@@ -17,8 +17,8 @@ public class Tumbeaver extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         55),
                 List.of(Ability.OBLIVIOUS), Ability.SIMPLE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                7, 165,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -31,8 +31,8 @@ public class Tumbeaver extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEADBUTT,11)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HILLS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

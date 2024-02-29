@@ -19,7 +19,7 @@ public class Erion extends Pokemon {
                 261, ExperienceGroup.SLOW,
                 70,
                 200, List.of(EggGroup.UNDISCOVERED),
-                List.of("Erion is an industrial titan, ravenously consuming fuel and spewing it out as toxic smog. Plants and Pokémon in its wake wither and gasp for air."),
+                List.of("Erion is an industrial titan, ravenously consuming fuel and spewing it out as toxic smog. Plants and Pokemon in its wake wither and gasp for air."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,1),

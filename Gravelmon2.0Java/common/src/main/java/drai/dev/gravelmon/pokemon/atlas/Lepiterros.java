@@ -21,7 +21,7 @@ public class Lepiterros extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("This Pokémon appears in legends, where its wings were said to contain the secrets of the world. Its said it would share this knowledge with those who sought it out with kind and pure intent."),
+                List.of("This Pokemon appears in legends, where its wings were said to contain the secrets of the world. Its said it would share this knowledge with those who sought it out with kind and pure intent."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WANDERLUST,1),

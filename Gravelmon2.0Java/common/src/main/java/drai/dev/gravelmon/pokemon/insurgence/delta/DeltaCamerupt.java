@@ -19,7 +19,7 @@ public class DeltaCamerupt extends Pokemon {
                 161, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon feeds on nuclear radiation. It has been shown that atoms within its vicinity become more and more unstable as its temper reaches its peak."),
+                List.of("This Pokemon feeds on nuclear radiation. It has been shown that atoms within its vicinity become more and more unstable as its temper reaches its peak."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DESTINY_BOND,1),

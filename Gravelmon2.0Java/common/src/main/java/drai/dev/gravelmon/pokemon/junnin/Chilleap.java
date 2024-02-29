@@ -19,7 +19,7 @@ public class Chilleap extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         90),
                 List.of(Ability.FLUFFY,Ability.PICKUP,Ability.WONDER_SKIN), Ability.WONDER_SKIN,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,2), 127,
                 0.5,
                 147, ExperienceGroup.MEDIUM_FAST,
@@ -27,7 +27,19 @@ public class Chilleap extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Though Chilleap's bushy tail is made of fur, it packs a powerful punch. The tail is both thick and heavy, so using the leverage Chilleap gets from its body, it can knock out a foe."),
                 List.of(),
-                List.of(
+                List.of(         new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.TAIL_WHIP,1),
+                        new MoveLearnSetEntry(Move.QUICK_ATTACK,4),
+                        new MoveLearnSetEntry(Move.FOCUS_ENERGY,7),
+                        new MoveLearnSetEntry(Move.BITE,10),
+                        new MoveLearnSetEntry(Move.LASER_FOCUS,13),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,16),
+                        new MoveLearnSetEntry(Move.ASSURANCE,19),
+                        new MoveLearnSetEntry(Move.CRUNCH,22),
+                        new MoveLearnSetEntry(Move.SUCKER_PUNCH,25),
+                        new MoveLearnSetEntry(Move.SUPER_FANG,28),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,31),
+                        new MoveLearnSetEntry(Move.ENDEAVOR,34),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tm"),
                         new MoveLearnSetEntry(Move.SNORE,"tm"),
                         new MoveLearnSetEntry(Move.THIEF,"tm"),
@@ -64,8 +76,8 @@ public class Chilleap extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

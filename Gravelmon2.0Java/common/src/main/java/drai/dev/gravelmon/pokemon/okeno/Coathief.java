@@ -20,7 +20,7 @@ public class Coathief extends drai.dev.gravelmon.pokemon.Pokemon {
                 44, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Coathief form packs that live in the woods. At night, they run rampage and invade the nearest city or town, stealing food and items from any Pokémon or trainer they encounter."),
+                List.of("Coathief form packs that live in the woods. At night, they run rampage and invade the nearest city or town, stealing food and items from any Pokemon or trainer they encounter."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),

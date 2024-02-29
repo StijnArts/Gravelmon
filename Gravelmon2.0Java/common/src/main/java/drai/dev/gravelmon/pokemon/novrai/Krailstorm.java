@@ -21,7 +21,7 @@ public class Krailstorm extends drai.dev.gravelmon.pokemon.Pokemon {
                 285, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("A Kreakup owned by a great king is said to have been turned into this Pokémon. Cracks in its body rapidly freeze over, but the water within it somehow remains liquid."),
+                List.of("A Kreakup owned by a great king is said to have been turned into this Pokemon. Cracks in its body rapidly freeze over, but the water within it somehow remains liquid."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHILLING_WATER,1),

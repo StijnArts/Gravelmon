@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "spelotl",
+  "nationalPokedexNumber": 2018,
+  "primaryType": "psychic",
+  "secondaryType": "water",
+  "abilities": [
+    "hydration",
+    "h:forewarn"
+  ],
+  "baseStats": {
+    "hp": 37,
+    "attack": 47,
+    "defence": 48,
+    "special_attack": 75,
+    "special_defence": 59,
+    "speed": 54
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "moves": [
+    "1:wrap",
+    "1:bubble",
+    "9:yawn",
+    "13:psybeam",
+    "18:bubblebeam",
+    "23:aquaring",
+    "27:zenheadbutt",
+    "31:lifedew",
+    "36:eeriespell",
+    "41:aquatail",
+    "45:earthpower",
+    "49:magicroom",
+    "54:muddywater",
+    "59:futuresight",
+    "egg:soak",
+    "egg:haze",
+    "egg:switcheroo",
+    "egg:curse"  ],
+  "labels": [
+    "flux",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.spelotl.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "spelotl_salamancer",
+      "variant": "item_interact",
+      "result": "salamancer",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 80,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

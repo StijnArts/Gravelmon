@@ -17,14 +17,15 @@ public class Flurse extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         40),
                 List.of(Ability.SUPER_LUCK), Ability.SUPER_LUCK,
-                8, 165,
-                new Stats(1,0,0,0,0,0), 0,
+                5, 165,
+                new Stats(1,0,0,0,0,0), 160,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("New Ability - Lucky Charm: Raises the succes chance for your party, and lowers that of the opponent."),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("elvile", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PIN_MISSILE,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,5),
@@ -47,8 +48,8 @@ public class Flurse extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ME_FIRST,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "lunaye",
+  "nationalPokedexNumber": 1411,
+  "primaryType": "fire",
+  "secondaryType": "fairy",
+  "abilities": [
+    "blaze",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 110,
+    "special_defence": 110,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 264,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:ominouswind",
+    "1:scratch",
+    "1:shadowball",
+    "1:focusblast",
+    "3:tailwhip",
+    "7:ember",
+    "9:metalclaw",
+    "13:furyswipes",
+    "15:incinerate",
+    "19:fairywind",
+    "23:confuseray",
+    "27:acrobatics",
+    "31:dazzlinggleam",
+    "35:futuresight",
+    "38:flamethrower",
+    "42:moonblast",
+    "48:calmmind",
+    "62:willowisp",
+    "68:nastyplot",
+    "egg:trick",
+    "egg:zenheadbutt",
+    "egg:healpulse",
+    "egg:endeavor",
+    "egg:mirrorcoat",
+    "egg:hypnosis",
+    "egg:sleeptalksound",
+    "egg:lavaplume",
+    "egg:sweetkiss",
+    "egg:yawn"  ],
+  "labels": [
+    "opal",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.lunaye.desc"
+  ],
+  "preEvolution": "shaboon",
+  "baseScale": 0.3375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 199,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

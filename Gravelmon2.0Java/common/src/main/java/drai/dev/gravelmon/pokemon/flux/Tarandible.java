@@ -24,7 +24,7 @@ public class Tarandible extends Pokemon {
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It lies still during the day, disguised as a Pokémon's skull. As it prowls at night, it makes an eerie noise that sounds like rattling bones."),
+                List.of("It lies still during the day, disguised as a Pokemon's skull. As it prowls at night, it makes an eerie noise that sounds like rattling bones."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BONE_RUSH,1),

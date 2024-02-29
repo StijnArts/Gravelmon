@@ -15,13 +15,13 @@ public class Terrapir extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         65),
                 List.of(Ability.OBLIVIOUS), Ability.ANGER_POINT,
-                8, 165,
+                11, 165,
                 new Stats(0,0,2,0,0,0), 75,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("These sturdy Pokémon sleep in the day and roam the forests and hills of Lonava at night. Despite their placid demeanour and appearance, they can pack a nasty bite if disturbed or threatened."),
+                List.of("These sturdy Pokemon sleep in the day and roam the forests and hills of Lonava at night. Despite their placid demeanour and appearance, they can pack a nasty bite if disturbed or threatened."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ODOR_SLEUTH,1),
@@ -40,8 +40,9 @@ public class Terrapir extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BODY_SLAM,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

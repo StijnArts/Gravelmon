@@ -24,7 +24,7 @@ public class Solarisen extends Pokemon {
                 203, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FLYING, EggGroup.DRAGON),
-                List.of("When this Pokémon is sick, the flames of its wings get smaller. This might cause it to fall from the sky."),
+                List.of("When this Pokemon is sick, the flames of its wings get smaller. This might cause it to fall from the sky."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),

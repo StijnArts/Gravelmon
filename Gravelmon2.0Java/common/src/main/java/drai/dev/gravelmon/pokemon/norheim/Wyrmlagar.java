@@ -23,7 +23,7 @@ public class Wyrmlagar extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Wyrmlagar can grow tremendously in size. Its shadow appears the same as a Gyarados. Legends tell of this Pokémon, corrupting entire lakes."),
+                List.of("Wyrmlagar can grow tremendously in size. Its shadow appears the same as a Gyarados. Legends tell of this Pokemon, corrupting entire lakes."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

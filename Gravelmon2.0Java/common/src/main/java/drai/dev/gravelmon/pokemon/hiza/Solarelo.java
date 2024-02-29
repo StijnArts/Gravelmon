@@ -21,7 +21,7 @@ public class Solarelo extends drai.dev.gravelmon.pokemon.Pokemon {
                 150, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("These mysterious Pokémon are believed to have been created by an ancient civilization. When the sun sets, they all vanish in the sands till the next day."),
+                List.of("These mysterious Pokemon are believed to have been created by an ancient civilization. When the sun sets, they all vanish in the sands till the next day."),
                 List.of(),
                 List.of(      new MoveLearnSetEntry(Move.CONFUSION,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),

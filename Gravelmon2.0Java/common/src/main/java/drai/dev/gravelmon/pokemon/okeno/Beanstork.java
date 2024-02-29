@@ -26,7 +26,7 @@ public class Beanstork extends drai.dev.gravelmon.pokemon.Pokemon {
                 162, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("Stores many seeds on its swollen-looking necks. When Pokémon approach it thinking it bears a red fruit on its neck, it will shoot the seeds to defend itself and get this prey."),
+                List.of("Stores many seeds on its swollen-looking necks. When Pokemon approach it thinking it bears a red fruit on its neck, it will shoot the seeds to defend itself and get this prey."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.JAB,1),

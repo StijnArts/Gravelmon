@@ -21,7 +21,7 @@ public class Culprint extends drai.dev.gravelmon.pokemon.Pokemon {
                 65, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
-                List.of("Anything it sees, it tries to steal, leaving behind a distinctive, oily marking. A Culprint once single-handedly heisted a Poké Mart's entire supply of Burn Heals."),
+                List.of("Anything it sees, it tries to steal, leaving behind a distinctive, oily marking. A Culprint once single-handedly heisted a Poke Mart's entire supply of Burn Heals."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FAKE_OUT,1),

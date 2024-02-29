@@ -19,7 +19,7 @@ public class Supiritto extends Pokemon {
                 179, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("This Pokémon will pretend to be an empty shedding and wait for it's prey to get close enough before attacking."),
+                List.of("This Pokemon will pretend to be an empty shedding and wait for it's prey to get close enough before attacking."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SLASH, 1),

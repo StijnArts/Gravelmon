@@ -15,7 +15,7 @@ public class Pussour extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         55),
                 List.of(Ability.STENCH,Ability.LIQUID_OOZE,Ability.DRY_SKIN), Ability.DRY_SKIN,
-                8, 165,
+                19, 165,
                 new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
@@ -82,8 +82,8 @@ public class Pussour extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 44, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

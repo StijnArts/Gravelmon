@@ -23,7 +23,7 @@ public class Squisker extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Squisker delivers messages of genetic code to categorize and file the knowledge of each Pokémon; running up and down a giant tree. The drill like horn on top of its head works as a multi-purpose tool, drilling holes in both trees and the ground."),
+                List.of("Squisker delivers messages of genetic code to categorize and file the knowledge of each Pokemon; running up and down a giant tree. The drill like horn on top of its head works as a multi-purpose tool, drilling holes in both trees and the ground."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DIG,1),

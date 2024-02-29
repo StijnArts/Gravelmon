@@ -1,0 +1,139 @@
+{
+  "implemented": true,
+  "name": "cheauking",
+  "nationalPokedexNumber": 3131,
+  "primaryType": "poison",
+  "secondaryType": "dark",
+  "abilities": [
+    "intimidate",
+    "h:intimidate"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 105,
+    "defence": 130,
+    "special_attack": 100,
+    "special_defence": 80,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:poisongas",
+    "1:tackle",
+    "1:smog",
+    "1:smokescreen",
+    "1:doubleteam",
+    "1:fireblast",
+    "6:smog",
+    "10:smokescreen",
+    "15:acidspray",
+    "24:selfdestruct",
+    "33:haze",
+    "38:toxic",
+    "44:explosion",
+    "45:triattack",
+    "50:sludgebomb",
+    "55:destinybond",
+    "63:sludgewave",
+    "tm:spikes",
+    "tm:amnesia",
+    "tm:substitute",
+    "tm:darkpulse",
+    "tm:leechseed",
+    "tm:zapcannon",
+    "tm:haze",
+    "tm:shadowball",
+    "tm:triattack",
+    "tm:confuseray",
+    "tm:sludgebomb",
+    "tm:mudbomb",
+    "tm:heatwave",
+    "tm:discharge",
+    "tm:willowisp",
+    "tm:explosion",
+    "tm:flash",
+    "tutor:hiddenpower",
+    "tutor:rest",
+    "tutor:toxic",
+    "tutor:nastyplot",
+    "egg:curse",
+    "egg:destinybond",
+    "egg:flamethrower",
+    "egg:grudge",
+    "egg:gunkshot",
+    "egg:nastyplot",
+    "egg:painsplit",
+    "egg:protect",
+    "egg:psybeam",
+    "egg:psywave",
+    "egg:pursuit",
+    "egg:raindance",
+    "egg:rollout",
+    "egg:screechsound",
+    "egg:spitup",
+    "egg:spite",
+    "egg:stockpile",
+    "egg:sunnyday",
+    "egg:swallow",
+    "egg:thunderbolt"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cheauking.desc"
+  ],
+  "preEvolution": "weezing",
+  "baseScale": 0.28125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 139,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

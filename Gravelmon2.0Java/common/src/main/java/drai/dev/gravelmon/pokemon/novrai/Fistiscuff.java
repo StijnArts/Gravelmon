@@ -21,7 +21,7 @@ public class Fistiscuff extends drai.dev.gravelmon.pokemon.Pokemon {
                 54, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.FAIRY),
-                List.of("It has tremendous strength, but it will never attack an opponent unless hit first. If it sees another Pokémon being bullied, it will take it upon itself to break up the conflict."),
+                List.of("It has tremendous strength, but it will never attack an opponent unless hit first. If it sees another Pokemon being bullied, it will take it upon itself to break up the conflict."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),

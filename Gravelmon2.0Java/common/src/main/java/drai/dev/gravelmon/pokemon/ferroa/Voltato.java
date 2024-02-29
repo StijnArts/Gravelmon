@@ -21,7 +21,7 @@ public class Voltato extends drai.dev.gravelmon.pokemon.Pokemon {
                 68, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("It communicates with other Voltato with gentle electric vibrations. If you feel the ground periodically shivering under you, it may be this Pokémon at work."),
+                List.of("It communicates with other Voltato with gentle electric vibrations. If you feel the ground periodically shivering under you, it may be this Pokemon at work."),
                 List.of(new EvolutionEntry("levitato", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))
                 ),

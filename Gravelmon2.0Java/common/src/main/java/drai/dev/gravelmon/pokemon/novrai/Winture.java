@@ -21,7 +21,7 @@ public class Winture extends drai.dev.gravelmon.pokemon.Pokemon {
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
-                List.of("From birth, this Pokémon is full of curiosity and starts exploring. After only a week, it can scale a cliff as fast as a professional rock climber."),
+                List.of("From birth, this Pokemon is full of curiosity and starts exploring. After only a week, it can scale a cliff as fast as a professional rock climber."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

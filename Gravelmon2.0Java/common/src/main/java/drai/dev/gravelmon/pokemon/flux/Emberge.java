@@ -24,7 +24,7 @@ public class Emberge extends Pokemon {
                 54, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS, EggGroup.FLYING),
-                List.of("This Pokémon is born at sites of calamitous fires. Though still hot to the touch, its flames only burn at 200 degrees Fahrenheit."),
+                List.of("This Pokemon is born at sites of calamitous fires. Though still hot to the touch, its flames only burn at 200 degrees Fahrenheit."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WILLOWISP,1),

@@ -21,7 +21,7 @@ public class Neyloch extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
-                List.of("At full running speed, it can gallop on the surface of water. Only a trusted companion can ride this Pokémon; anyone else would be kicked off or worse, dragged to the bottom of the sea."),
+                List.of("At full running speed, it can gallop on the surface of water. Only a trusted companion can ride this Pokemon; anyone else would be kicked off or worse, dragged to the bottom of the sea."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NATURE_POWER,1),

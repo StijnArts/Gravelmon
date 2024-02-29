@@ -23,7 +23,7 @@ public class Conduvan extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Conduvan (UB Cluster) was first seen on the night skies of the Northern Hemisphere. A parent of multiple star clusters and a bringer of eggs; this outlandish Pokémon may occasionally sacrifice bad eggs."),
+                List.of("Conduvan (UB Cluster) was first seen on the night skies of the Northern Hemisphere. A parent of multiple star clusters and a bringer of eggs; this outlandish Pokemon may occasionally sacrifice bad eggs."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BLOCK,1),

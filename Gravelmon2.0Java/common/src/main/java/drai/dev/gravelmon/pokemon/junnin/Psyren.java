@@ -19,15 +19,26 @@ public class Psyren extends drai.dev.gravelmon.pokemon.Pokemon {
                         104,
                         89),
                 List.of(Ability.TORRENT), Ability.TORRENT,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,2,1,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1),
-                List.of("Icy Wind Ice Triple Axel Ice Endeavor Normal Helping Hand Normal Snore Normal Terrain Pulse Normal Uproar Normal Expanding ForceSTAB Psychic Gravity Psychic Magic Coat Psychic Telekinesis Psychic Wonder Room Psychic Flip TurnSTAB Water Hydro CannonSTAB Water Water PledgeSTAB Water X-Scissor Bug Brutal Swing Dark Nasty Plot Dark Thief Dark Charge Beam Electric Electrocute Electric Thunder Electric Thunderbolt Electric Thunder Wave Electric Cuddle Fairy Dazzling Gleam Fairy Love Lariat Fairy Brick Break Fighting Rock Smash Fighting Acrobatics Flying Aerial Ace Flying Shadow Ball Ghost Shadow Claw Ghost Energy Ball Grass Grass Knot Grass Bulldoze Ground Dig Ground Earthquake Ground Landslide Ground Blizzard Ice Snowscape Ice Ice Beam Ice Attract Normal Confide Normal Cut Normal Double Team Normal Double-Edge Normal Facade Normal Flash Normal Frustration Normal Giga Impact Normal Heartfelt Pulse Normal Hidden Power Normal Hyper Beam Normal Protect Normal Return Normal Round Normal Safeguard Normal Sleep Talk Normal Strength Normal Substitute Normal Swagger Normal Swords Dance Normal Work Up Normal Sludge Bomb Poison Sludge Wave Poison Toxic Poison Calm Mind Psychic Light Screen Psychic PsychicSTAB Psychic Psychic Terrain Psychic PsyshockSTAB Psychic Reflect Psychic Rest Psychic Trick Room Psychic DiveSTAB Water LiquidationSTAB Water Rain Dance Water ScaldSTAB Water SurfSTAB Water WaterfallSTAB Water WhirlpoolSTAB Water"),
+                List.of(""),
                 List.of(),
-                List.of(
+                List.of(new MoveLearnSetEntry(Move.WATER_GUN,1),
+                        new MoveLearnSetEntry(Move.ASTONISH,4),
+                        new MoveLearnSetEntry(Move.CONFUSION,9),
+                        new MoveLearnSetEntry(Move.BITE,12),
+                        new MoveLearnSetEntry(Move.AQUA_JET,17),
+                        new MoveLearnSetEntry(Move.DISABLE,20),
+                        new MoveLearnSetEntry(Move.PSYSHOCK,25),
+                        new MoveLearnSetEntry(Move.CRUNCH,28),
+                        new MoveLearnSetEntry(Move.AQUA_TAIL,33),
+                        new MoveLearnSetEntry(Move.SCREECH,36),
+                        new MoveLearnSetEntry(Move.PSYCHIC_FANGS,41),
+                        new MoveLearnSetEntry(Move.WAVE_CRASH,44),
                         new MoveLearnSetEntry(Move.ICY_WIND,"tm"),
                         new MoveLearnSetEntry(Move.TRIPLE_AXEL,"tm"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tm"),
@@ -114,14 +125,15 @@ public class Psyren extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HAPPYSLAP,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Psyren");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

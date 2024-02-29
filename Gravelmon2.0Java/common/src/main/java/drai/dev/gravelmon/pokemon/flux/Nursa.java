@@ -24,7 +24,7 @@ public class Nursa extends Pokemon {
                 264, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("The mild shocks it delivers through its paw pads have a healing effect. It can use slightly stronger shocks to revive fainted Pokémon."),
+                List.of("The mild shocks it delivers through its paw pads have a healing effect. It can use slightly stronger shocks to revive fainted Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NUZZLE,1),

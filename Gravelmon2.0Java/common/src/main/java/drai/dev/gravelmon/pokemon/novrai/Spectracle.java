@@ -21,7 +21,7 @@ public class Spectracle extends drai.dev.gravelmon.pokemon.Pokemon {
                 163, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
-                List.of("An intelligent Pokémon that can shift not only its body color, but its typing as well. Its incredible unpredictability makes it a fearsome hunter in the wild."),
+                List.of("An intelligent Pokemon that can shift not only its body color, but its typing as well. Its incredible unpredictability makes it a fearsome hunter in the wild."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),

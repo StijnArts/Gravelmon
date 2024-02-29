@@ -19,7 +19,7 @@ public class DeltaWailmer extends Pokemon {
                 80, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by EchoTheThird. Currently, it is still unknown how this Pokémon manages to keep itself in the air despite its weight."),
+                List.of("A Delta Species discovered by EchoTheThird. Currently, it is still unknown how this Pokemon manages to keep itself in the air despite its weight."),
                 List.of(new EvolutionEntry("deltawailord", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(

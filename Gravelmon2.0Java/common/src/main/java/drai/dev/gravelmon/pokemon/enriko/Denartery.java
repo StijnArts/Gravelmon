@@ -21,7 +21,7 @@ public class Denartery extends drai.dev.gravelmon.pokemon.Pokemon {
                 133, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_1),
-                List.of("It has grown to take on a more predatory lifestyle. Old habits die hard, though, as it is commonly seen trying to latch onto a larger Pokémon and getting dragged around uncomfortably."),
+                List.of("It has grown to take on a more predatory lifestyle. Old habits die hard, though, as it is commonly seen trying to latch onto a larger Pokemon and getting dragged around uncomfortably."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FLAIL,1),

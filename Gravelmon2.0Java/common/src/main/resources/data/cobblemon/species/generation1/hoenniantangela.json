@@ -1,0 +1,125 @@
+{
+  "implemented": true,
+  "name": "hoenniantangela",
+  "nationalPokedexNumber": 114,
+  "primaryType": "fighting",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 115,
+    "defence": 85,
+    "special_attack": 50,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 87,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "egg:uturn",
+    "egg:snatch",
+    "tm:strength",
+    "tm:rocksmash",
+    "tm:toxic",
+    "tm:pursuit",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:raindance",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "1:leer",
+    "10:razorleaf",
+    "13:revenge",
+    "19:knockoff",
+    "22:bulkup",
+    "28:needlearm",
+    "37:poisonjab",
+    "40:fakeout",
+    "47:submission"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoenniantangela.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "hoenniantangela_hoenniantangrowth",
+      "variant": "level_up",
+      "result": "hoenniantangrowth",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "needlearm"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1875,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 308,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

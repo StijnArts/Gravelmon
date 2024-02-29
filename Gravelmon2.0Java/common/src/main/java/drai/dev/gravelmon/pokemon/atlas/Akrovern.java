@@ -27,7 +27,7 @@ public class Akrovern extends drai.dev.gravelmon.pokemon.Pokemon {
                 243, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
-                List.of("Akrovern are vicious and aggressive towards anyone in their way and are so hard to tame hardly any Trainer has one. Those able to control this powerful beast are often honored and respected for their achievement. During medieval times, Akrovern was known to be one of the most powerful Dragon-type Pokémon in the world, that could destroy an entire kingdom on its own when angered."),
+                List.of("Akrovern are vicious and aggressive towards anyone in their way and are so hard to tame hardly any Trainer has one. Those able to control this powerful beast are often honored and respected for their achievement. During medieval times, Akrovern was known to be one of the most powerful Dragon-type Pokemon in the world, that could destroy an entire kingdom on its own when angered."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FALSE_SWIPE,"tm"),

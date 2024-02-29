@@ -21,7 +21,7 @@ public class Cantankoo extends drai.dev.gravelmon.pokemon.Pokemon {
                 161, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It's so lazy that it places its offspring in other Pokémon's nests. It will usually push one of the eggs out of the nest so it appears nothing has changed."),
+                List.of("It's so lazy that it places its offspring in other Pokemon's nests. It will usually push one of the eggs out of the nest so it appears nothing has changed."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_STING,1),

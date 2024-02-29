@@ -21,7 +21,7 @@ public class Baytate extends drai.dev.gravelmon.pokemon.Pokemon {
                 62, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("It attaches discarded Poké Balls to the end of its horn. When other Pokémon investigate the object, the ball opens to reveal a sharp hook."),
+                List.of("It attaches discarded Poke Balls to the end of its horn. When other Pokemon investigate the object, the ball opens to reveal a sharp hook."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

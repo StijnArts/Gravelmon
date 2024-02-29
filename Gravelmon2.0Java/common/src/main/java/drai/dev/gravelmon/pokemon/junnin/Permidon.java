@@ -19,14 +19,16 @@ public class Permidon extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         50),
                 List.of(Ability.TORRENT), Ability.ANGER_POINT,
-                8, 165,
+                11, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.MONSTER),
                 List.of("Permidon has large fins on its arms which it uses to swim upstream. Permidon can do amazing tricks underwater, but on land it is very slow."),
-                List.of(),
+                List.of(new EvolutionEntry("lividon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
@@ -54,14 +56,15 @@ public class Permidon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOAK,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Permidon");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

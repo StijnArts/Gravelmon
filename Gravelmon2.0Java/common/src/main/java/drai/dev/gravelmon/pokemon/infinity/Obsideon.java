@@ -19,7 +19,7 @@ public class Obsideon extends Pokemon {
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
                 35, List.of(EggGroup.FIELD),
-                List.of("Among mountainous Pokémon, it is relatively faster. It rams its obsidian covered spine against Graveler and Onix as a way of playing around to get them to chase it."),
+                List.of("Among mountainous Pokemon, it is relatively faster. It rams its obsidian covered spine against Graveler and Onix as a way of playing around to get them to chase it."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PRESSURIZE,1),

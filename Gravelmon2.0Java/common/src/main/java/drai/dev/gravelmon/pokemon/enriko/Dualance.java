@@ -21,7 +21,7 @@ public class Dualance extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.AMORPHOUS),
-                List.of("This Pokémon's bladed tails are used to spar with rivals. Great care is taken to avoid dealing serious injury, however."),
+                List.of("This Pokemon's bladed tails are used to spar with rivals. Great care is taken to avoid dealing serious injury, however."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),

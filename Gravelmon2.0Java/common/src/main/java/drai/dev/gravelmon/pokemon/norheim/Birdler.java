@@ -23,7 +23,7 @@ public class Birdler extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("When Tweetler wags its tail feathers, it gives off a signal that the coast is clear. This Pokémon is obsessed with shiny objects; it will go far in order to retrieve what it is looking for."),
+                List.of("When Tweetler wags its tail feathers, it gives off a signal that the coast is clear. This Pokemon is obsessed with shiny objects; it will go far in order to retrieve what it is looking for."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

@@ -1,0 +1,109 @@
+{
+  "implemented": true,
+  "name": "kidoon",
+  "nationalPokedexNumber": 1727,
+  "primaryType": "flying",
+  "abilities": [
+    "dryskin",
+    "h:weakarmor"
+  ],
+  "baseStats": {
+    "hp": 25,
+    "attack": 20,
+    "defence": 55,
+    "special_attack": 10,
+    "special_defence": 20,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 40,
+  "experienceGroup": "erratic",
+  "eggCycles": 32,
+  "eggGroups": [
+    "water_2",
+    "dragon"
+  ],
+  "moves": [
+    "1:splash",
+    "15:gust",
+    "25:flail",
+    "egg:aquajet",
+    "egg:hurricane",
+    "egg:whirlwind",
+    "egg:dragonbreath",
+    "egg:haze",
+    "tutor:aircutter",
+    "tutor:bind",
+    "tutor:hurricane",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:tailwind",
+    "tutor:waterpulse"  ],
+  "labels": [
+    "xenoverse",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kidoon.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "kidoon_honchen",
+      "variant": "level_up",
+      "result": "honchen",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 12,
+  "weight": 55,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -21,7 +21,7 @@ public class Amoebolt extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.WATER_2),
-                List.of("Pollutants processed by its cytoplasm are converted into electrical energy. This makes it one of the most versatile Pokémon when it comes to environmental preservation, being both a reliable source of renewable energy and a cleaner of oceanic pollution."),
+                List.of("Pollutants processed by its cytoplasm are converted into electrical energy. This makes it one of the most versatile Pokemon when it comes to environmental preservation, being both a reliable source of renewable energy and a cleaner of oceanic pollution."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

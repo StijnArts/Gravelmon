@@ -19,7 +19,7 @@ public class Vamfire extends drai.dev.gravelmon.pokemon.Pokemon {
                         69,
                         91),
                 List.of(Ability.BLAZE), Ability.BLAZE,
-                8, 165,
+                16, 165,
                 new Stats(0,2,0,1,0,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -97,8 +97,9 @@ public class Vamfire extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GYRO_BALL,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON,  36, 58, 0.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

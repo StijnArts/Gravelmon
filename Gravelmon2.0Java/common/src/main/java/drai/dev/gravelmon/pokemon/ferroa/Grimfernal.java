@@ -21,7 +21,7 @@ public class Grimfernal extends drai.dev.gravelmon.pokemon.Pokemon {
                 200, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("Its glowing eye is shaped like a Poké Ball. The eye flickers enticingly while the rest of its body remains hidden in darkness."),
+                List.of("Its glowing eye is shaped like a Poke Ball. The eye flickers enticingly while the rest of its body remains hidden in darkness."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.RAGE,1),

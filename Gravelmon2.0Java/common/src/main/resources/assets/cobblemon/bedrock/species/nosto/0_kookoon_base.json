@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kookoon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nosto_kookoon",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/nosto/kookoon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/nosto/kookoon_shiny.png"
+    }  ]
+}

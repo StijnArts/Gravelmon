@@ -21,7 +21,7 @@ public class Babreak extends drai.dev.gravelmon.pokemon.Pokemon {
                 137, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Babreak will intimidate and pick on smaller Pokémon to steal their food, however if they attempt to fight back they are quick to run away."),
+                List.of("Babreak will intimidate and pick on smaller Pokemon to steal their food, however if they attempt to fight back they are quick to run away."),
                 List.of(new EvolutionEntry("babroote", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))
                 ),

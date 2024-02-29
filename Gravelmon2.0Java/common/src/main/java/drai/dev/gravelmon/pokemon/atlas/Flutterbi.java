@@ -21,7 +21,7 @@ public class Flutterbi extends drai.dev.gravelmon.pokemon.Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Flutterbi create beautiful swarms of colours in meadows and are a sign of the seasons. Though common and weak, they are great for educating children about Pokémon."),
+                List.of("Flutterbi create beautiful swarms of colours in meadows and are a sign of the seasons. Though common and weak, they are great for educating children about Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),

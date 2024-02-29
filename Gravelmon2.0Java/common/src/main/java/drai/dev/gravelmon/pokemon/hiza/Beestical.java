@@ -21,7 +21,7 @@ public class Beestical extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.BUG),
-                List.of("A rare Pokémon that only shows up during the spring. The sweet honey they make is said to be able to rejuvenate those who eat."),
+                List.of("A rare Pokemon that only shows up during the spring. The sweet honey they make is said to be able to rejuvenate those who eat."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:metalien",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nosto_metalien",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/nosto/metalien.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/nosto/metalien_shiny.png"
+    }  ]
+}

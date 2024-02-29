@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranGrimer extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranGrimer() {
-        super("Grimer",
+    public NovranGrimer(int id) {
+        super(id, "Grimer",
                 Type.POISON,Type.GROUND,
                 new Stats(80,
                         40,
@@ -15,14 +15,15 @@ public class NovranGrimer extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         25),
                 List.of(Ability.SAND_FORCE,Ability.STICKY_HOLD,Ability.FLARE_BOOST), Ability.FLARE_BOOST,
-                8, 165,
+                9, 165,
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The composition of its body causes sand to stick to it. Some people burn bits of its body that drop off as an energy source, but this creates extremely toxic smoke."),
-                List.of(),
+                List.of(new EvolutionEntry("muk", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUD_SPORT,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,4),
@@ -110,8 +111,9 @@ public class NovranGrimer extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LICK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 33, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

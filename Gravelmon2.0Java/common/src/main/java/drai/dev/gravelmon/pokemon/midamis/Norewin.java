@@ -17,8 +17,8 @@ public class Norewin extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         75),
                 List.of(Ability.EARLY_BIRD), Ability.REGENERATOR,
-                8, 165,
-                new Stats(0,0,2,0,1,0), 0,
+                15, 165,
+                new Stats(0,0,2,0,1,0), 60,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -42,14 +42,14 @@ public class Norewin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHEER_COLD,57)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 36, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Norewin");
+        setCanFly(true);
 
     }
 

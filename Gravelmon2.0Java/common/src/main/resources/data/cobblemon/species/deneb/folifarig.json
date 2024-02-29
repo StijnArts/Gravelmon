@@ -1,0 +1,130 @@
+{
+  "implemented": true,
+  "name": "folifarig",
+  "nationalPokedexNumber": 3040,
+  "primaryType": "normal",
+  "secondaryType": "psychic",
+  "abilities": [
+    "innerfocus",
+    "h:earlybird"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 85,
+    "defence": 75,
+    "special_attack": 130,
+    "special_defence": 85,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 205,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:powerswap",
+    "1:guardswap",
+    "1:astonish",
+    "1:tackle",
+    "1:growl",
+    "1:confusion",
+    "5:odorsleuth",
+    "10:signalbeam",
+    "14:stomp",
+    "19:psybeam",
+    "23:agility",
+    "28:doublehit",
+    "30:mirrorcoat",
+    "33:zenheadbutt",
+    "39:crunch",
+    "44:batonpass",
+    "50:nastyplot",
+    "61:psychic",
+    "tm:thunderwave",
+    "tm:frustration",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:recycle",
+    "tm:willowisp",
+    "tm:strength",
+    "tm:flash",
+    "tutor:doublekick",
+    "tutor:skillswap",
+    "tutor:beatup",
+    "tutor:wish",
+    "tutor:bodyslam",
+    "tutor:magiccoat",
+    "tutor:futuresight",
+    "tutor:doubleedge",
+    "egg:foresight",
+    "egg:foulplay",
+    "egg:irontail",
+    "egg:meanlook",
+    "egg:mimic",
+    "egg:mirrorcoat",
+    "egg:mudslap",
+    "egg:powergemcrystal",
+    "egg:psychup",
+    "egg:safeguard",
+    "egg:secretpower",
+    "egg:shockwave",
+    "egg:swiftcosmic",
+    "egg:takedown",
+    "egg:trick"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.folifarig.desc"
+  ],
+  "preEvolution": "girafarig",
+  "baseScale": 0.31875,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 512,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

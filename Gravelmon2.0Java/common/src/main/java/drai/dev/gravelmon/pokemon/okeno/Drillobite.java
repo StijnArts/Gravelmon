@@ -20,7 +20,7 @@ public class Drillobite extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("This Pokémon can sense gold deposits in the soil. They are used in mining because of this—but should never be left unnatended, as they will feed on any rare minerals they come across."),
+                List.of("This Pokemon can sense gold deposits in the soil. They are used in mining because of this—but should never be left unnatended, as they will feed on any rare minerals they come across."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_POLISH,"tm"),

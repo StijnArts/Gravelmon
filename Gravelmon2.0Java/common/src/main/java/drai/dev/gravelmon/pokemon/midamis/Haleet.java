@@ -17,7 +17,7 @@ public class Haleet extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         65),
                 List.of(Ability.WONDER_GUARD), Ability.WONDER_GUARD,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,1), 45,
                 0.75,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -40,8 +40,8 @@ public class Haleet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AVALANCHE,61)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 32, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

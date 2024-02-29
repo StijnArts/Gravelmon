@@ -19,7 +19,7 @@ public class Kertruffle extends Pokemon {
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("Needing little more than water and air to live, Kertruffle can adapt to hostile environments where few other Pokémon would survive."),
+                List.of("Needing little more than water and air to live, Kertruffle can adapt to hostile environments where few other Pokemon would survive."),
                 List.of(new EvolutionEntry("mosshroom", EvolutionType.LEVEL_UP, true, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"minecraft:moss\""))),

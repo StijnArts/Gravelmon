@@ -7,17 +7,17 @@
       "id": "bansheet-1",
       "pokemon": "bansheet",
       "presets": [
-          "natural"
+          "mansion"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
+      "level": "14-33",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night",
+        "canSeeSky": false
       }
     }
   ]

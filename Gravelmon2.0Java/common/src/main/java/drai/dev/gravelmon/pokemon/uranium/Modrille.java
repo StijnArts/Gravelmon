@@ -24,7 +24,7 @@ public class Modrille extends Pokemon {
                 63, ExperienceGroup.SLOW,
                 70,
                 100, List.of(EggGroup.FIELD, EggGroup.MONSTER),
-                List.of("MODRILLE hate being confined within any space and will always drill their way out of it. Trainers are advised to keep spare Pokéballs on hand."),
+                List.of("MODRILLE hate being confined within any space and will always drill their way out of it. Trainers are advised to keep spare Pokeballs on hand."),
                 List.of(new EvolutionEntry("drilgann", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(

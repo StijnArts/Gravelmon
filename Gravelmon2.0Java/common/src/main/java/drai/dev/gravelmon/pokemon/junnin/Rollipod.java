@@ -19,14 +19,16 @@ public class Rollipod extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         56),
                 List.of(Ability.SWARM), Ability.BATTLE_ARMOR,
-                8, 165,
+                10, 165,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 126, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Rollipod is curled up into a ball. Its body is changing and growing stronger. When it gets strong enough it will open back up and evolve."),
-                List.of(),
+                List.of(new EvolutionEntry("isopanzer", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,16),
@@ -67,10 +69,10 @@ public class Rollipod extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC_THREAD,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 17, 31, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -21,7 +21,7 @@ public class Unifly extends drai.dev.gravelmon.pokemon.Pokemon {
                 49, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("A pesky Pokémon infamous for swarming people in large numbers, yet being nearly impossible to fend off. It flies off with whatever human food it can carry."),
+                List.of("A pesky Pokemon infamous for swarming people in large numbers, yet being nearly impossible to fend off. It flies off with whatever human food it can carry."),
                 List.of(new EvolutionEntry("multifly", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
                 ),

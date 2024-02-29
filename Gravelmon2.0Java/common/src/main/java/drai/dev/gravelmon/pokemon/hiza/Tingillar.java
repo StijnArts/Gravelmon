@@ -22,7 +22,7 @@ public class Tingillar extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of("It can produce two kinds of silk. The dark silk is harmless, however the lighter silk contains powerful tranquilizer agents."),
-                List.of(new EvolutionEntry("maskoon", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("covkoon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"12")))
                 ),
                 List.of(

@@ -19,7 +19,7 @@ public class ArmiranSceptile extends Pokemon {
                 270, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER, EggGroup.DRAGON),
-                List.of("It recides by itself, and is extremely competitive. This Pokémon disintergrates trees and plants."),
+                List.of("It recides by itself, and is extremely competitive. This Pokemon disintergrates trees and plants."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,1),

@@ -19,7 +19,7 @@ public class RapidashX  extends Pokemon {
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,
                 26, List.of(EggGroup.XENO),
-                List.of("A peaceful tempered X Pokémon. However, if it gets furious, it wraps itself in thunderclouds and triggers raging lightning storms."),
+                List.of("A peaceful tempered X Pokemon. However, if it gets furious, it wraps itself in thunderclouds and triggers raging lightning storms."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SUBSTITUTE,1),
@@ -100,7 +100,7 @@ public class RapidashX  extends Pokemon {
                         70,
                         26, List.of(EggGroup.XENO),
                         List.of(Aspect.STORM),
-                        List.of("A peaceful tempered X Pokémon. However, if it gets furious, it wraps itself in thunderclouds and triggers raging lightning storms."),
+                        List.of("A peaceful tempered X Pokemon. However, if it gets furious, it wraps itself in thunderclouds and triggers raging lightning storms."),
                         List.of(),
                         List.of(
                         ),

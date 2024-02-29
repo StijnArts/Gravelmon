@@ -21,7 +21,7 @@ public class Wrassassin extends drai.dev.gravelmon.pokemon.Pokemon {
                 177, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("Pretending to offer cleanings, it instead bites other Pokémon to drain their energy. It attacks Wrassure, causing them to evolve into more Wrassassin."),
+                List.of("Pretending to offer cleanings, it instead bites other Pokemon to drain their energy. It attacks Wrassure, causing them to evolve into more Wrassassin."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),

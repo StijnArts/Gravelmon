@@ -24,7 +24,7 @@ public class Hamerry extends Pokemon {
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.FIELD),
-                List.of("Hamerry is a very popular Pokémon among children. Its cheeks give off a sweet smell, and give it a very friendly look."),
+                List.of("Hamerry is a very popular Pokemon among children. Its cheeks give off a sweet smell, and give it a very friendly look."),
                 List.of(new EvolutionEntry("hamysos", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(

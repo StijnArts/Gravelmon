@@ -21,7 +21,7 @@ public class Necrogeist extends drai.dev.gravelmon.pokemon.Pokemon {
                 241, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MONSTER),
-                List.of("Imbued with the souls of vengeful spirits, this Pokémon hunts down anyone who has ever attacked it before. It is said to be a servant to the Ruler of the Underworld."),
+                List.of("Imbued with the souls of vengeful spirits, this Pokemon hunts down anyone who has ever attacked it before. It is said to be a servant to the Ruler of the Underworld."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NASTY_PLOT,1),

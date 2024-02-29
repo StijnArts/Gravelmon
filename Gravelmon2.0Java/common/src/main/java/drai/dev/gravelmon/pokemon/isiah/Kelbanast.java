@@ -21,7 +21,7 @@ public class Kelbanast extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FIELD),
-                List.of("In order to shoot as accurately as possible, they're able to stretch their neck up to three meters (9.8 feet). They also use that skill to reach the highest foliage, which is unreachable to most other Pokémon."),
+                List.of("In order to shoot as accurately as possible, they're able to stretch their neck up to three meters (9.8 feet). They also use that skill to reach the highest foliage, which is unreachable to most other Pokemon."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.ISIAH),

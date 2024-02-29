@@ -21,7 +21,7 @@ public class Colosseel extends drai.dev.gravelmon.pokemon.Pokemon {
                 248, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
-                List.of("This Pokémon becomes so big upon evolving that it cannot leave its cave. It lures prey and finishes them with jaws large enough to tear through the hull of a cargo ship."),
+                List.of("This Pokemon becomes so big upon evolving that it cannot leave its cave. It lures prey and finishes them with jaws large enough to tear through the hull of a cargo ship."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ICICLE_CRASH,1),

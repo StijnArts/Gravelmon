@@ -23,7 +23,7 @@ public class Chainect extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("These Pokémon are being used to run small facilities and are used in tests regarding space-flight products. They feed on electricity by draining them from many sources. Chainect connect with other Chainect to transfer electricity."),
+                List.of("These Pokemon are being used to run small facilities and are used in tests regarding space-flight products. They feed on electricity by draining them from many sources. Chainect connect with other Chainect to transfer electricity."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

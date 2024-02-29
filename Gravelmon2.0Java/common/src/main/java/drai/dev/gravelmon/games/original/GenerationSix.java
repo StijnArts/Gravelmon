@@ -8,6 +8,7 @@ import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
@@ -22,6 +23,8 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new NovranSkrelp(690));
+        pokemon.add(new NovranDragalge(691));
 
         pokemon.add(new VaritasianFlabebe(669));
         pokemon.add(new VaritasianFloette(670));

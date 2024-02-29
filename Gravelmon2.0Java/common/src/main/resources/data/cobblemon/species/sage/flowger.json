@@ -1,0 +1,345 @@
+{
+  "implemented": true,
+  "name": "flowger",
+  "nationalPokedexNumber": 1107,
+  "primaryType": "grass",
+  "secondaryType": "water",
+  "abilities": [
+    "raindish",
+    "hydration",
+    "h:swiftswim"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 58,
+    "defence": 58,
+    "special_attack": 40,
+    "special_defence": 48,
+    "speed": 74
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Blue",
+      "pokedex": [
+    "cobblemon.species.flowger.desc1"
+  ],
+      "primaryType": "grass",
+      "secondaryType": "water",
+      "abilities": [
+    "raindish",
+    "hydration",
+    "h:swiftswim"
+      ],
+      "baseScale": 0.05625,
+        "hitbox": {
+          "width": 6.0,
+          "height": 6.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 60,
+        "attack": 58,
+        "defence": 58,
+        "special_attack": 40,
+        "special_defence": 48,
+        "speed": 74
+      },
+      "catchRate": 190,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 68,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 50,
+      "eggGroups": [
+    "water_1",
+    "grass"
+  ],
+  "moves": [
+    "1:watergun",
+    "4:tailwhip",
+    "7:watersport",
+    "11:quickattack",
+    "14:encore",
+    "17:waterpulse",
+    "21:swiftcosmic",
+    "24:mist",
+    "27:slam",
+    "31:taunt",
+    "34:aquajet",
+    "37:doubleteam",
+    "41:whirlpool",
+    "44:agility",
+    "47:aquatail",
+    "51:entrainment",
+    "54:hydropump",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:endure",
+    "tm:rocksmash",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalksound",
+    "tm:waterpulse",
+    "tm:depthcharge",
+    "tm:surf",
+    "tm:strength",
+    "tm:dive",
+    "tm:waterfall",
+    "tutor:aquatail",
+    "tutor:avalanche",
+    "tutor:bounce",
+    "tutor:counter",
+    "tutor:doubleedge",
+    "tutor:endeavor",
+    "tutor:fling",
+    "tutor:helpinghand",
+    "tutor:hypervoicesound",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:secretpower",
+    "tutor:signalbeam",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
+    "tutor:trick",
+    "tutor:uproar",
+    "egg:aquaring",
+    "egg:brine",
+    "egg:honeclaws",
+    "egg:knockoff",
+    "egg:waterpulse"  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:lily_pad",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+      },
+      "labels": [
+    "sage",
+    "not_modeled"
+      ],
+      "aspects": [
+        "blue"
+      ],
+      "height": 0,
+      "weight": 240,
+  "evolutions": [
+    {
+      "id": "blue_flowger_bullotus",
+      "variant": "item_interact",
+      "result": "bullotus blue",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone"
+    },
+    {
+      "id": "blue_flowger_bullotus",
+      "variant": "item_interact",
+      "result": "bullotus blue",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:leaf_stone"
+    }
+  ],
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+],
+  "baseExperienceYield": 68,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "grass"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:lily_pad",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
+  "moves": [
+    "1:watergun",
+    "4:tailwhip",
+    "7:watersport",
+    "11:quickattack",
+    "14:encore",
+    "17:waterpulse",
+    "21:swiftcosmic",
+    "24:mist",
+    "27:slam",
+    "31:taunt",
+    "34:aquajet",
+    "37:doubleteam",
+    "41:whirlpool",
+    "44:agility",
+    "47:aquatail",
+    "51:entrainment",
+    "54:hydropump",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:endure",
+    "tm:rocksmash",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalksound",
+    "tm:waterpulse",
+    "tm:depthcharge",
+    "tm:surf",
+    "tm:strength",
+    "tm:dive",
+    "tm:waterfall",
+    "tutor:aquatail",
+    "tutor:avalanche",
+    "tutor:bounce",
+    "tutor:counter",
+    "tutor:doubleedge",
+    "tutor:endeavor",
+    "tutor:fling",
+    "tutor:helpinghand",
+    "tutor:hypervoicesound",
+    "tutor:icywind",
+    "tutor:irontail",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:secretpower",
+    "tutor:signalbeam",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
+    "tutor:trick",
+    "tutor:uproar",
+    "egg:aquaring",
+    "egg:brine",
+    "egg:honeclaws",
+    "egg:knockoff",
+    "egg:waterpulse"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.flowger.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "flowger_bullotus",
+      "variant": "item_interact",
+      "result": "bullotus",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone"   
+ },
+    {
+      "id": "flowger_bullotus",
+      "variant": "item_interact",
+      "result": "bullotus",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:leaf_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 24,
+  "aspects": [],
+"features": [
+"blue"
+  ],  "cannotDynamax": false
+}

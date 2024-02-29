@@ -19,7 +19,7 @@ public class Desoula extends Pokemon {
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("Desoula feeds on the souls of creatures who have become exhausted by the desert. This nimble Pokémon zips around the desert sands in search of food."),
+                List.of("Desoula feeds on the souls of creatures who have become exhausted by the desert. This nimble Pokemon zips around the desert sands in search of food."),
                 List.of(new EvolutionEntry("necrow", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(

@@ -21,7 +21,7 @@ public class Foolmingo extends drai.dev.gravelmon.pokemon.Pokemon {
                 175, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.MINERAL),
-                List.of("It pretends to be a bird Pokémon, but it can't fly. Some people will scatter imitation birdseed on their lawns to attract Foolmingo."),
+                List.of("It pretends to be a bird Pokemon, but it can't fly. Some people will scatter imitation birdseed on their lawns to attract Foolmingo."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),

@@ -21,7 +21,7 @@ public class Effipy extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.HUMAN_LIKE),
-                List.of("Its feathers are made of sharp metal fibers that can cut through stone. This Pokémon is very hard to please and will chirp incessantly if it doesn't get its way."),
+                List.of("Its feathers are made of sharp metal fibers that can cut through stone. This Pokemon is very hard to please and will chirp incessantly if it doesn't get its way."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.MYTHIRE),

@@ -20,7 +20,7 @@ public class Felifluff extends drai.dev.gravelmon.pokemon.Pokemon {
                 119, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
-                List.of("Their playful but elegant behavior makes them the most popular Pokémon among high-society. Brushing its fur improves not only its looks, but also its battling capabilities."),
+                List.of("Their playful but elegant behavior makes them the most popular Pokemon among high-society. Brushing its fur improves not only its looks, but also its battling capabilities."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),

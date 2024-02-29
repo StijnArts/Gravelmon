@@ -24,7 +24,7 @@ public class Coatisnotti extends Pokemon {
                 147, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Coatisnotti are tricksters who work in packs to steal food from humans and Pokémon. Each pack member has an assigned role in their schemes, based upon the Coatisnotti's strength."),
+                List.of("Coatisnotti are tricksters who work in packs to steal food from humans and Pokemon. Each pack member has an assigned role in their schemes, based upon the Coatisnotti's strength."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),

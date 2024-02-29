@@ -21,7 +21,7 @@ public class Spookebal extends drai.dev.gravelmon.pokemon.Pokemon {
                 167, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
-                List.of("Thought to be the spirit of a Pokémon that perished while inside its Poké Ball. It wears its original Poké Ball as a helmet, hoping to lure in its former Trainer."),
+                List.of("Thought to be the spirit of a Pokemon that perished while inside its Poke Ball. It wears its original Poke Ball as a helmet, hoping to lure in its former Trainer."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,1),

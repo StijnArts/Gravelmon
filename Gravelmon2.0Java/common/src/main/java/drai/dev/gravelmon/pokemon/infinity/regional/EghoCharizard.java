@@ -19,7 +19,7 @@ public class EghoCharizard extends Pokemon {
                 240, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON, EggGroup.MONSTER),
-                List.of("A powerful dragon Pokémon that is said to be hard to tame. It likes to soar high above the clouds."),
+                List.of("A powerful dragon Pokemon that is said to be hard to tame. It likes to soar high above the clouds."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,0),

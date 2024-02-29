@@ -21,7 +21,7 @@ public class Mollup extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_3),
-                List.of("On its tail is a coral polyp that is slowly growing. When this Pokémon eats, it feeds the polyp too, and they will eventually evolve together."),
+                List.of("On its tail is a coral polyp that is slowly growing. When this Pokemon eats, it feeds the polyp too, and they will eventually evolve together."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),

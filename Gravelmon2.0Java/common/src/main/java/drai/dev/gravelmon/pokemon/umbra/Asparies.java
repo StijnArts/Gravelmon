@@ -24,7 +24,7 @@ public class Asparies extends Pokemon {
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.FIELD),
-                List.of("The roots that were once its legs have grown around the body, protecting the Pokémon as it charges about."),
+                List.of("The roots that were once its legs have grown around the body, protecting the Pokemon as it charges about."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BULLDOZE,1),

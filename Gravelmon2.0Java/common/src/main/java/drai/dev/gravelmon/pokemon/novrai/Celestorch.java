@@ -21,7 +21,7 @@ public class Celestorch extends drai.dev.gravelmon.pokemon.Pokemon {
                 182, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("Once thought to be a celestial phenomenon, it's now known that if the sky lights up with color outside of an aurora, it's usually this Pokémon rocketing around in the atmosphere."),
+                List.of("Once thought to be a celestial phenomenon, it's now known that if the sky lights up with color outside of an aurora, it's usually this Pokemon rocketing around in the atmosphere."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FLAME_CHARGE,1),

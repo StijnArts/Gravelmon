@@ -21,7 +21,7 @@ public class Ceresplit extends drai.dev.gravelmon.pokemon.Pokemon {
                 128, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
-                List.of("An elusive lava-bodied Pokémon that only grows a protective shell on one half of its body. If, by accident, it were to grow one on the other half, it would break it off. Nobody really knows why it does this."),
+                List.of("An elusive lava-bodied Pokemon that only grows a protective shell on one half of its body. If, by accident, it were to grow one on the other half, it would break it off. Nobody really knows why it does this."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),

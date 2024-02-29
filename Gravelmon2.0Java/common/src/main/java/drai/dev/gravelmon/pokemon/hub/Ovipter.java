@@ -21,7 +21,7 @@ public class Ovipter extends drai.dev.gravelmon.pokemon.Pokemon {
                 86, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
-                List.of("These troublesome Pokémon are notorious egg thieves. They are often seen snatching eggs and carrying them back to their nest."),
+                List.of("These troublesome Pokemon are notorious egg thieves. They are often seen snatching eggs and carrying them back to their nest."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

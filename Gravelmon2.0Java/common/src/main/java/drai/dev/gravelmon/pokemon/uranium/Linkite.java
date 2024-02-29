@@ -24,7 +24,7 @@ public class Linkite extends Pokemon {
                 78, ExperienceGroup.SLOW,
                 70,
                 100, List.of(EggGroup.AMORPHOUS),
-                List.of("The spirit of a Mon that died inside its Pokéball. It has forgotten its original appearance so it takes the form of a Substitute decoy."),
+                List.of("The spirit of a Mon that died inside its Pokeball. It has forgotten its original appearance so it takes the form of a Substitute decoy."),
                 List.of(new EvolutionEntry("chainite", EvolutionType.TRADE, List.of(),
                         List.of())),
                 List.of(

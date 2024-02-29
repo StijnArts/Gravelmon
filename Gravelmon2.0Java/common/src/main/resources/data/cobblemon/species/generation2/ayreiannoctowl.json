@@ -1,0 +1,165 @@
+{
+  "implemented": true,
+  "name": "ayreiannoctowl",
+  "nationalPokedexNumber": 164,
+  "primaryType": "psychic",
+  "secondaryType": "flying",
+  "abilities": [
+    "insomnia",
+    "mirrorarmor",
+    "h:tintedlens"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 100,
+    "special_defence": 90,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 52,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 39,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:gust",
+    "1:growl",
+    "1:dreameater",
+    "3:tackle",
+    "6:echoedvoicesound",
+    "9:confusion",
+    "12:reflect",
+    "15:psychoshift",
+    "18:aircutter",
+    "21:psybeam",
+    "24:swiftcosmic",
+    "28:hex",
+    "32:nastyplot",
+    "35:psychic",
+    "38:roost",
+    "43:moonblast",
+    "48:hypnosis",
+    "53:hurricane",
+    "tutor:confuseray",
+    "tutor:snarl",
+    "tutor:aerialace",
+    "tutor:agility",
+    "tutor:airslash",
+    "tutor:amnesia",
+    "tutor:attract",
+    "tutor:calmmind",
+    "tutor:confide",
+    "tutor:defog",
+    "tutor:doubleteam",
+    "tutor:dreameater",
+    "tutor:dualwingbeat",
+    "tutor:echoedvoicesound",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:fly",
+    "tutor:frustration",
+    "tutor:heatwave",
+    "tutor:hiddenpower",
+    "tutor:hurricane",
+    "tutor:hypervoicesound",
+    "tutor:imprison",
+    "tutor:magiccoat",
+    "tutor:nastyplot",
+    "tutor:protect",
+    "tutor:psychic",
+    "tutor:psychup",
+    "tutor:raindance",
+    "tutor:recycle",
+    "tutor:reflect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:roost",
+    "tutor:roundsound",
+    "tutor:screechsound",
+    "tutor:shadowball",
+    "tutor:skyattack",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:steelwing",
+    "tutor:storedpower",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:swiftcosmic",
+    "tutor:tailwind",
+    "tutor:thief",
+    "tutor:toxic",
+    "tutor:uproar",
+    "tutor:workup",
+    "tutor:zenheadbutt",
+    "egg:mirrormove",
+    "egg:supersonic",
+    "egg:feintattack",
+    "egg:wingattack",
+    "egg:whirlwind",
+    "egg:skyattack",
+    "egg:featherdance",
+    "egg:agility",
+    "egg:nightshade",
+    "egg:defog",
+    "egg:meanlook",
+    "egg:hurricane"  ],
+  "labels": [
+    "vanguard",
+    "gen2",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiannoctowl.desc"
+  ],
+  "preEvolution": "ayreianhoothoot",
+  "baseScale": 0.13125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 212,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

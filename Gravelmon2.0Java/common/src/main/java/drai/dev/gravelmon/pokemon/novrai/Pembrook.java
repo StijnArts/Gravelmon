@@ -21,7 +21,7 @@ public class Pembrook extends drai.dev.gravelmon.pokemon.Pokemon {
                 175, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
-                List.of("A brave Pokémon commonly raised by lifeguards. It's a powerful swimmer that can sense distress in the water and quickly save people from drowning."),
+                List.of("A brave Pokemon commonly raised by lifeguards. It's a powerful swimmer that can sense distress in the water and quickly save people from drowning."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HOWL,1),

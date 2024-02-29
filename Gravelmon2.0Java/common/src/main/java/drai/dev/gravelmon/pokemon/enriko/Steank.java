@@ -21,7 +21,7 @@ public class Steank extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
-                List.of("(Hemo type.) Although it resembles a slab of meat, this Pokémon tastes incredibly foul. It tends to wander around without aim or purpose, as if entranced by something."),
+                List.of("(Hemo type.) Although it resembles a slab of meat, this Pokemon tastes incredibly foul. It tends to wander around without aim or purpose, as if entranced by something."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),

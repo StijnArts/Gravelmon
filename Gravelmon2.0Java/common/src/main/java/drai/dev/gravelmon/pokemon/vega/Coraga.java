@@ -24,7 +24,7 @@ public class Coraga extends Pokemon {
                 158, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("A Pokémon with five different heads. The head covered with a shell is the only one capable of intelligent thought."),
+                List.of("A Pokemon with five different heads. The head covered with a shell is the only one capable of intelligent thought."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,3),

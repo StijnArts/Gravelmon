@@ -19,7 +19,7 @@ public class Lukpup extends Pokemon {
                 147, ExperienceGroup.SLOW,
                 70,
                 100, List.of(EggGroup.DRAGON, EggGroup.FIELD),
-                List.of("A shy Pokémon that only appears in perfect weather conditions. It's seen so rarely that some people aren't convinced that they're real."),
+                List.of("A shy Pokemon that only appears in perfect weather conditions. It's seen so rarely that some people aren't convinced that they're real."),
                 List.of(new EvolutionEntry("lukagon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160")))),
                 List.of(

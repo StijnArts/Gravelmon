@@ -24,7 +24,7 @@ public class Droudrum extends Pokemon {
                 148, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Due to its ability to intensify the sunlight, this Pokémon can help grow berries or heat up cold places."),
+                List.of("Due to its ability to intensify the sunlight, this Pokemon can help grow berries or heat up cold places."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

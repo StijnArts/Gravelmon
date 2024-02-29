@@ -17,14 +17,16 @@ public class Pyrall extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         40),
                 List.of(Ability.BLAZE), Ability.FLAME_BODY,
-                8, 165,
-                new Stats(0,1,0,0,0,0), 0,
+                4, 165,
+                new Stats(0,1,0,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Basically a burning ball of fluff, Pyrall are fearsome battlers that always put 110% into their battles. They rarely befriend people, but if they do that person is a friend for life; Pyrall will fight for them no matter what."),
-                List.of(),
+                List.of(new EvolutionEntry("baufire", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.EMBER,7),
@@ -47,9 +49,8 @@ public class Pyrall extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER_FANG,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "eldorchard",
+  "nationalPokedexNumber": 2409,
+  "primaryType": "grass",
+  "abilities": [
+    "harvest",
+    "h:naturalcure"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 120,
+    "defence": 120,
+    "special_attack": 80,
+    "special_defence": 70,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 236,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:leer",
+    "4:leechseed",
+    "7:vinewhip",
+    "10:growth",
+    "13:bulletseed",
+    "16:megadrain",
+    "19:ingrain",
+    "22:naturepower",
+    "25:synthesis",
+    "28:magicalleaf",
+    "31:sunnyday",
+    "34:energyball",
+    "37:aromatherapy",
+    "40:woodhammer",
+    "44:leafstorm",
+    "48:grassyterrain",
+    "56:solarbeam"  ],
+  "labels": [
+    "lonava",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.eldorchard.desc"
+  ],
+  "baseScale": 0.28125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

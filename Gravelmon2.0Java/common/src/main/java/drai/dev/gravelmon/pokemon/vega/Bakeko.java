@@ -24,7 +24,7 @@ public class Bakeko extends Pokemon {
                 181, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
-                List.of("Those who happen to meet this Pokémon are said to be destined for something. No one knows what, though."),
+                List.of("Those who happen to meet this Pokemon are said to be destined for something. No one knows what, though."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASSIST,1),

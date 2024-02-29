@@ -24,7 +24,7 @@ public class Burnychus extends Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING, EggGroup.FIELD),
-                List.of("A primal bird Pokémon that fights fiercely with barbed talons and fire breath. They are highly protective of their young."),
+                List.of("A primal bird Pokemon that fights fiercely with barbed talons and fire breath. They are highly protective of their young."),
                 List.of(new EvolutionEntry("pyropteryx", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

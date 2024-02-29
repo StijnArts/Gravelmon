@@ -21,7 +21,7 @@ public class Volray extends drai.dev.gravelmon.pokemon.Pokemon {
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("Because it likes to hide under the sand, swimmers are warned to shuffle their feet in the water to avoid stepping on this Pokémon's electrified body."),
+                List.of("Because it likes to hide under the sand, swimmers are warned to shuffle their feet in the water to avoid stepping on this Pokemon's electrified body."),
                 List.of(new EvolutionEntry("torplitz", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))
                 ),

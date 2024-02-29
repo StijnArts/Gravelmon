@@ -23,7 +23,7 @@ public class Fridgid extends drai.dev.gravelmon.pokemon.Pokemon {
                 187, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
-                List.of("This Pokémon stores water inside its body. By freezing and melting said water, it is capable of adjusting its density in order to float or submerge."),
+                List.of("This Pokemon stores water inside its body. By freezing and melting said water, it is capable of adjusting its density in order to float or submerge."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BLOCK,1),

@@ -21,7 +21,7 @@ public class Utopion extends drai.dev.gravelmon.pokemon.Pokemon {
                 165, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MINERAL),
-                List.of("Deep within is an organic plant core, protected by several layers of metal. In desolate, polluted lands, this Pokémon will take root, slowly healing the environment."),
+                List.of("Deep within is an organic plant core, protected by several layers of metal. In desolate, polluted lands, this Pokemon will take root, slowly healing the environment."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,1),

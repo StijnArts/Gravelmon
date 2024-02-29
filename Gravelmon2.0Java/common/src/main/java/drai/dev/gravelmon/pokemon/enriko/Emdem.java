@@ -21,7 +21,7 @@ public class Emdem extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
-                List.of("(Hemo type.) Its amorphous body contains DNA from several unrelated Pokémon. It is able to regenerate missing parts of its edible body, making it a potential unlimited food source."),
+                List.of("(Hemo type.) Its amorphous body contains DNA from several unrelated Pokemon. It is able to regenerate missing parts of its edible body, making it a potential unlimited food source."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.ENRIKO, Label.JOKE),

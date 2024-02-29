@@ -12,6 +12,7 @@ import drai.dev.gravelmon.pokemon.interregional.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
+import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
@@ -27,6 +28,12 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new NovranCranidos(408));
+        pokemon.add(new NovranRampardos(409));
+        pokemon.add(new NovranBonsly(438));
+        pokemon.add(new NovranCherubi(420));
+        pokemon.add(new NovranCherrim(421));
+
         pokemon.add(new QamoranCombee(415));
 //        pokemon.add(new QamoranTangrowth(465)); NOT FINISHED
 

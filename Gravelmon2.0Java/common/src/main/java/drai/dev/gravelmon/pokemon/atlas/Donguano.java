@@ -21,7 +21,7 @@ public class Donguano extends drai.dev.gravelmon.pokemon.Pokemon {
                 185, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
-                List.of("A Pokémon that first lived 125 million years ago, Donguano strive to be the best in one-on-one combat, usually challenging stronger Donguano both inside and outside their social circles."),
+                List.of("A Pokemon that first lived 125 million years ago, Donguano strive to be the best in one-on-one combat, usually challenging stronger Donguano both inside and outside their social circles."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.RUSHDOWN,1),

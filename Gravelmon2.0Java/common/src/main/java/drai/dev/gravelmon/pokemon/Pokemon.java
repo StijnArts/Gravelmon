@@ -237,7 +237,7 @@ public class Pokemon {
         this.hiddenAbility = hiddenAbility;
         this.catchRate = catchRate;
         this.maleRatio = maleRatio;
-        this.baseExperienceYield = baseExperienceYield;
+        this.baseExperienceYield = baseExperienceYield == 0 ? 60 : baseExperienceYield;
         this.experienceGroup = experienceGroup;
         this.eggCycles = eggCycles;
         this.eggGroups = eggGroups;
@@ -263,13 +263,13 @@ public class Pokemon {
         this.spawnAntiConditions = spawnAntiConditions;
         this.spawnPresets = spawnPresets;
         this.baseScale = Math.max((height*1.5) /10/8,0.1);
-        if(height > 50){
-            this.hitboxWidth = 8;
-            this.hitboxHeight = 8;
-        } else {
-            this.hitboxWidth = Math.max((height*1.5),0.1);
-            this.hitboxHeight = Math.max((height*1.5),0.1);
-        }
+//        if(height > 50){
+            this.hitboxWidth = 6;
+            this.hitboxHeight = 6;
+//        } else {
+//            this.hitboxWidth = Math.max((height*1.5),0.1);
+//            this.hitboxHeight = Math.max((height*1.5),0.1);
+//        }
         this.portraitScale = 0.3;
         pokemonRegistry.add(this);
     }

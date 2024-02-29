@@ -17,7 +17,7 @@ public class Yeraze extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         95),
                 List.of(Ability.SOUNDPROOF,Ability.CONTRARY,Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,2,0,1), 45,
                 0.75,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -45,8 +45,8 @@ public class Yeraze extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_RAGE,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

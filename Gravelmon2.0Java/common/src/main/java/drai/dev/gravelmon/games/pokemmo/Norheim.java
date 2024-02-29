@@ -1,8 +1,28 @@
 package drai.dev.gravelmon.games.pokemmo;
 
+import drai.dev.gravelmon.pokemon.aristos.*;
+import drai.dev.gravelmon.pokemon.atlas.*;
+import drai.dev.gravelmon.pokemon.avoris.*;
+import drai.dev.gravelmon.pokemon.enriko.*;
+import drai.dev.gravelmon.pokemon.ferroa.*;
+import drai.dev.gravelmon.pokemon.hiza.*;
+import drai.dev.gravelmon.pokemon.hub.*;
+import drai.dev.gravelmon.pokemon.interregional.*;
+import drai.dev.gravelmon.pokemon.isiah.*;
+import drai.dev.gravelmon.pokemon.junnin.*;
+import drai.dev.gravelmon.pokemon.lonava.*;
+import drai.dev.gravelmon.pokemon.midamis.*;
+import drai.dev.gravelmon.pokemon.mythire.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
-import drai.dev.gravelmon.pokemon.norheim.regional.*;
+import drai.dev.gravelmon.pokemon.nosto.*;
+import drai.dev.gravelmon.pokemon.novrai.*;
+import drai.dev.gravelmon.pokemon.oceane.*;
+import drai.dev.gravelmon.pokemon.okeno.*;
+import drai.dev.gravelmon.pokemon.orohnhavai.*;
 import drai.dev.gravelmon.pokemon.qamor.*;
+import drai.dev.gravelmon.pokemon.rica.*;
+import drai.dev.gravelmon.pokemon.varitas.*;
+
 
 public class Norheim extends drai.dev.gravelmon.games.registry.Game {
     public Norheim() {
@@ -88,8 +108,8 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Hexelotl());
         pokemon.add(new Hingjaw());
 //        pokemon.add(new Hoglog());
-//        pokemon.add(new Huldamer()); NOT FINISHED
-//        pokemon.add(new Hulding()); NOT FINISHED
+////        pokemon.add(new Huldamer());// NOT FINISHED
+////        pokemon.add(new Hulding());// NOT FINISHED
 //        pokemon.add(new Huskerous());
 //        pokemon.add(new Hydroram());
 //        pokemon.add(new Hyfae());
@@ -103,20 +123,20 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Larver());
 //        pokemon.add(new Laxish());
 //        pokemon.add(new Lemini());
-//        pokemon.add(new Lilpras()); NOT FINISHED
+////        pokemon.add(new Lilpras());// NOT FINISHED
 //        pokemon.add(new Lilyquack());
 //        pokemon.add(new Magnificant());
 //        pokemon.add(new Magpyja());
 //        pokemon.add(new Mamoheim());
 //        pokemon.add(new Mannbrann());
 //        pokemon.add(new Meerii());
-//        pokemon.add(new Milthunk()); NOT FINISHED
+////        pokemon.add(new Milthunk());// NOT FINISHED
 //        pokemon.add(new Minkit());
 //        pokemon.add(new Moleheimer());
 //        pokemon.add(new Moler());
 //        pokemon.add(new Monsturge());
 //        pokemon.add(new Mothight());
-//        pokemon.add(new Mountox()); NOT FINISHED
+////        pokemon.add(new Mountox());// NOT FINISHED
 //        pokemon.add(new Mountunn());
 //        pokemon.add(new Mudrake());
 //        pokemon.add(new Mylili());
@@ -128,7 +148,7 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Pawstry());
 //        pokemon.add(new Pelasquall());
 //        pokemon.add(new Pengwin());
-//        pokemon.add(new Permaent()); NOT FINISHED
+////        pokemon.add(new Permaent());// NOT FINISHED
 //        pokemon.add(new Phantocean());
 //        pokemon.add(new Potiti());
 //        pokemon.add(new Potota());
@@ -137,7 +157,7 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Pumfin());
 //        pokemon.add(new Pyrelk());
 //        pokemon.add(new Pyrstack());
-//        pokemon.add(new Queendra()); NOT FINISHED
+////        pokemon.add(new Queendra());// NOT FINISHED
 //        pokemon.add(new Rampina());
         pokemon.add(new Reavler());
 //        pokemon.add(new Rhydoom());
@@ -149,8 +169,7 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Sardiner());
 //        pokemon.add(new Scubaa());
 //        pokemon.add(new Sealady());
-//        pokemon.add(new Seascull()); NOT FINISHED
-//        pokemon.add(new Seel());
+////        pokemon.add(new Seascull());// NOT FINISHED
 //        pokemon.add(new Shrisker());
 //        pokemon.add(new Shrumin());
 //        pokemon.add(new Slamander());
@@ -173,7 +192,6 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Surgeskit());
 //        pokemon.add(new Svalbat());
 //        pokemon.add(new Svalor());
-//        pokemon.add(new Swinub());
 //        pokemon.add(new Swirrell());
 //        pokemon.add(new Tadit());
 //        pokemon.add(new Temto());
@@ -188,7 +206,7 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Trollskgur());
 //        pokemon.add(new Tundrius());
 //        pokemon.add(new Tuscal());
-//        pokemon.add(new Uldidi()); NOT FINISHED
+////        pokemon.add(new Uldidi());// NOT FINISHED
         pokemon.add(new Vaiking());
 //        pokemon.add(new Valcurie());
 //        pokemon.add(new Varghast());

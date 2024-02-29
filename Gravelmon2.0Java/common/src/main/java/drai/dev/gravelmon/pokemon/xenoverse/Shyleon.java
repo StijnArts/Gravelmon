@@ -19,7 +19,7 @@ public class Shyleon extends Pokemon {
                 64, ExperienceGroup.SLOW,
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
-                List.of("An exceptionally timid Pokémon always wearing a mask that covers it face. The mask itself seems to be its power source."),
+                List.of("An exceptionally timid Pokemon always wearing a mask that covers it face. The mask itself seems to be its power source."),
                 List.of(new EvolutionEntry("shyleonterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
                         new EvolutionEntry("shyleonxenoversal", EvolutionType.LEVEL_UP, false, List.of(),

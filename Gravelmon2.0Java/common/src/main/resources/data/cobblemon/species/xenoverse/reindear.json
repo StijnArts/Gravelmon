@@ -1,0 +1,143 @@
+{
+  "implemented": true,
+  "name": "reindear",
+  "nationalPokedexNumber": 1753,
+  "primaryType": "fairy",
+  "abilities": [
+    "vitalspirit",
+    "h:vitalspirit"
+  ],
+  "baseStats": {
+    "hp": 76,
+    "attack": 20,
+    "defence": 77,
+    "special_attack": 35,
+    "special_defence": 78,
+    "speed": 53
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 32,
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "moves": [
+    "1:drainingkiss",
+    "1:helpinghand",
+    "1:playnice",
+    "1:fairywind",
+    "6:present",
+    "12:drainingkiss",
+    "19:heartstamp",
+    "24:stomp",
+    "27:followme",
+    "29:bestow",
+    "34:wish",
+    "39:entrainment",
+    "44:frustration",
+    "50:return",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:fling",
+    "tm:brutalswing",
+    "tm:poweruppunch",
+    "tm:substitute",
+    "tm:dazzlinggleam",
+    "egg:charm",
+    "egg:covet",
+    "egg:singsound",
+    "egg:healingwish",
+    "egg:icywind",
+    "egg:feintattack",
+    "egg:suckerpunch",
+    "tutor:covet",
+    "tutor:endeavor",
+    "tutor:helpinghand",
+    "tutor:secretpower",
+    "tutor:sleeptalksound",
+    "tutor:snoresound"  ],
+  "labels": [
+    "xenoverse",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.reindear.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "reindear_reindigo",
+      "variant": "level_up",
+      "result": "reindigo",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "frustration"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 120,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

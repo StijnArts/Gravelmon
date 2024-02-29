@@ -21,7 +21,7 @@ public class Peculine extends drai.dev.gravelmon.pokemon.Pokemon {
                 114, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
-                List.of("A bizarre creature that displays traits from several unrelated groups of Pokémon. It's very rare in the wild, but valued by collectors."),
+                List.of("A bizarre creature that displays traits from several unrelated groups of Pokemon. It's very rare in the wild, but valued by collectors."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),

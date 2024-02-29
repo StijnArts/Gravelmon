@@ -24,7 +24,7 @@ public class Hornikel extends Pokemon {
                 152, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Due to its ability to withstand even harsh environments, it makes a very useful companion for Pokémon Rangers."),
+                List.of("Due to its ability to withstand even harsh environments, it makes a very useful companion for Pokemon Rangers."),
                 List.of(new EvolutionEntry("goabalt", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(

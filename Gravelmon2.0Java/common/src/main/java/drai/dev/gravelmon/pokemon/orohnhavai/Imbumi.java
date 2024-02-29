@@ -23,7 +23,7 @@ public class Imbumi extends drai.dev.gravelmon.pokemon.Pokemon {
                 41, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
-                List.of("Imbumi love to help others. They will provide water to Pokémon and people when needed. Known for their playful and calm nature, they are the perfect companion for little children."),
+                List.of("Imbumi love to help others. They will provide water to Pokemon and people when needed. Known for their playful and calm nature, they are the perfect companion for little children."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

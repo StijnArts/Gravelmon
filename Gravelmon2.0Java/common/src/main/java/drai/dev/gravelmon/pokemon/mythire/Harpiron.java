@@ -21,7 +21,7 @@ public class Harpiron extends drai.dev.gravelmon.pokemon.Pokemon {
                 175, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.HUMAN_LIKE),
-                List.of("Harpiron are very fussy and stubborn Pokémon that aren't willing to back down from what they've learned. In ancient times, they were used to guard sacred places."),
+                List.of("Harpiron are very fussy and stubborn Pokemon that aren't willing to back down from what they've learned. In ancient times, they were used to guard sacred places."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ENERGYLOOP,1)                        ),

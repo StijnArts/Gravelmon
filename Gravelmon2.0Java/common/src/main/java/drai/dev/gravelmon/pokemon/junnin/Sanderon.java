@@ -26,7 +26,9 @@ public class Sanderon extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("Sanderon's body is made of hard compacted sand. It often sleeps under the sand on a beach and and waits for unsuspecting people or Pokemon to step on its large horn."),
-                List.of(),
+                List.of(new EvolutionEntry("shoreking", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CAMOUFLAGE,1),
                         new MoveLearnSetEntry(Move.SAND_TOMB,6),
@@ -69,14 +71,15 @@ public class Sanderon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sanderon");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

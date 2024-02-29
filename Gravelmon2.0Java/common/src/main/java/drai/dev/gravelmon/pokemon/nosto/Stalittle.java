@@ -21,7 +21,7 @@ public class Stalittle extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("Sturdy Pokémon that hide in caves full of mineral-rich water. The rocky spikes on their bodies are deposits of this water."),
+                List.of("Sturdy Pokemon that hide in caves full of mineral-rich water. The rocky spikes on their bodies are deposits of this water."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NOSTO),

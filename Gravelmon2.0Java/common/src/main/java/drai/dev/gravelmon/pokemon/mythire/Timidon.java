@@ -21,7 +21,7 @@ public class Timidon extends drai.dev.gravelmon.pokemon.Pokemon {
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
-                List.of("A cowardly Pokémon often abandoned by its parents at birth. In the absence of parental care, it collects whatever it can find with little regard for its own basic needs, hoarding them in its lonesome burrow."),
+                List.of("A cowardly Pokemon often abandoned by its parents at birth. In the absence of parental care, it collects whatever it can find with little regard for its own basic needs, hoarding them in its lonesome burrow."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.COVET,1),

@@ -24,7 +24,7 @@ public class Conductot extends Pokemon {
                 205, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("Its beautiful singing voice can calm down quick-tempered Pokémon and put an end to most conflicts."),
+                List.of("Its beautiful singing voice can calm down quick-tempered Pokemon and put an end to most conflicts."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),

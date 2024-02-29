@@ -17,8 +17,8 @@ public class Feegremin extends drai.dev.gravelmon.pokemon.Pokemon {
                         82,
                         63),
                 List.of(Ability.HYPER_CUTTER), Ability.SKILL_LINK,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 165,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -40,14 +40,17 @@ public class Feegremin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PIN_MISSILE,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 35, 58, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Feegremin");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -21,7 +21,7 @@ public class Chainsnail extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.BUG),
-                List.of("With their metal bodies getting significantly heavier upon evolution, Chainsnail are the slowest Pokémon encounterable in Lonava, second to Stug. Their eyestalks are extremely sensitive, and retract when Chainsnail feel threatened."),
+                List.of("With their metal bodies getting significantly heavier upon evolution, Chainsnail are the slowest Pokemon encounterable in Lonava, second to Stug. Their eyestalks are extremely sensitive, and retract when Chainsnail feel threatened."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

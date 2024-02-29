@@ -1,0 +1,153 @@
+{
+  "implemented": true,
+  "name": "chessire",
+  "nationalPokedexNumber": 3087,
+  "primaryType": "dark",
+  "secondaryType": "psychic",
+  "abilities": [
+    "earlybird",
+    "h:runaway"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 69,
+    "defence": 60,
+    "special_attack": 105,
+    "special_defence": 85,
+    "speed": 91
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 183,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:growl",
+    "1:sandattack",
+    "4:sandattack",
+    "8:feintattack",
+    "13:assist",
+    "16:pursuit",
+    "20:taunt",
+    "26:payday",
+    "30:torment",
+    "35:fakeout",
+    "45:nastyplot",
+    "50:psychocut",
+    "56:psychic",
+    "tm:thunderwave",
+    "tm:headbutt",
+    "tm:rockslide",
+    "tm:shadowclaw",
+    "tm:amnesia",
+    "tm:substitute",
+    "tm:signalbeam",
+    "tm:energyball",
+    "tm:darkpulse",
+    "tm:irontail",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:confuseray",
+    "tm:mudbomb",
+    "tm:focusblast",
+    "tm:nightslash",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "tutor:hiddenpower",
+    "tutor:cosmicpower",
+    "tutor:dig",
+    "tutor:iciclecrash",
+    "tutor:nastyplot",
+    "tutor:rest",
+    "tutor:toxic",
+    "egg:aerialace",
+    "egg:attract",
+    "egg:calmmind",
+    "egg:doubleteam",
+    "egg:doubleedge",
+    "egg:faketears",
+    "egg:frustration",
+    "egg:gigaimpact",
+    "egg:honeclaws",
+    "egg:hyperbeam",
+    "egg:hypervoicesound",
+    "egg:lightscreen",
+    "egg:lowkick",
+    "egg:mimic",
+    "egg:nightshade",
+    "egg:perishsongsound",
+    "egg:protect",
+    "egg:psychup",
+    "egg:psychocut",
+    "egg:psywave",
+    "egg:quickattack",
+    "egg:raindance",
+    "egg:reflect",
+    "egg:return",
+    "egg:safeguard",
+    "egg:skillswap",
+    "egg:snatch",
+    "egg:sunnyday",
+    "egg:thief"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.chessire.desc"
+  ],
+  "preEvolution": "cheshile",
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 354,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

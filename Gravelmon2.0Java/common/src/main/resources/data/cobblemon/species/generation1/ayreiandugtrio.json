@@ -1,0 +1,150 @@
+{
+  "implemented": true,
+  "name": "ayreiandugtrio",
+  "nationalPokedexNumber": 51,
+  "primaryType": "ice",
+  "abilities": [
+    "snowcloak",
+    "arenatrap",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 120,
+    "attack": 95,
+    "defence": 50,
+    "special_attack": 105,
+    "special_defence": 35,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 149,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:iceshard",
+    "1:scratch",
+    "4:fakeout",
+    "8:astonish",
+    "12:bulldoze",
+    "20:suckerpunch",
+    "24:iciclecrash",
+    "28:hail",
+    "32:auroraveil",
+    "36:dig",
+    "42:tripleaxel",
+    "48:earthquake",
+    "54:fissure",
+    "tutor:aerialace",
+    "tutor:agility",
+    "tutor:allyswitch",
+    "tutor:assurance",
+    "tutor:attract",
+    "tutor:beatup",
+    "tutor:bodyslam",
+    "tutor:bulldoze",
+    "tutor:confide",
+    "tutor:cut",
+    "tutor:dig",
+    "tutor:doubleteam",
+    "tutor:earthpower",
+    "tutor:earthquake",
+    "tutor:echoedvoicesound",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:frustration",
+    "tutor:gigaimpact",
+    "tutor:hiddenpower",
+    "tutor:highhorsepower",
+    "tutor:hyperbeam",
+    "tutor:protect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:reversal",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rocktomb",
+    "tutor:roundsound",
+    "tutor:sandstorm",
+    "tutor:sandtomb",
+    "tutor:scorchingsands",
+    "tutor:screechsound",
+    "tutor:shadowclaw",
+    "tutor:sleeptalksound",
+    "tutor:sludgebomb",
+    "tutor:sludgewave",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:thief",
+    "tutor:toxic",
+    "tutor:triattack",
+    "tutor:uproar",
+    "tutor:workup",
+    "egg:ancientpower",
+    "egg:headbutt",
+    "egg:finalgambit",
+    "egg:memento",
+    "egg:honeclaws"  ],
+  "labels": [
+    "gen1",
+    "vanguard",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiandugtrio.desc"
+  ],
+  "preEvolution": "ayreiandiglett",
+  "baseScale": 0.13125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 333,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

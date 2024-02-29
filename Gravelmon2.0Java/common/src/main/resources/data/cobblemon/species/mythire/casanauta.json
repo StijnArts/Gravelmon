@@ -1,0 +1,120 @@
+{
+  "implemented": true,
+  "name": "casanauta",
+  "nationalPokedexNumber": 2640,
+  "primaryType": "poison",
+  "secondaryType": "psychic",
+  "abilities": [
+    "rivalry",
+    "suctioncups",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 100,
+    "defence": 60,
+    "special_attack": 50,
+    "special_defence": 95,
+    "speed": 125
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "water_3"
+  ],
+  "moves": [
+    "tm:return",
+    "tm:frustration",
+    "tm:hyperbeam",
+    "tm:facade",
+    "tm:protect",
+    "tm:swordsdance",
+    "tm:sleeptalksound",
+    "tm:swagger",
+    "tm:echoedvoicesound",
+    "tm:hiddenpower",
+    "tm:safeguard",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:calmmind",
+    "tm:raindance",
+    "tm:rest",
+    "tm:taunt",
+    "tm:attract",
+    "tm:infestation",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:mysticalfire",
+    "tm:surf",
+    "tm:scald",
+    "tm:aquajet",
+    "tm:waterfall",
+    "tm:focusblast",
+    "tm:psychic",
+    "tm:storedpower",
+    "tm:psyshock",
+    "tm:trickroom",
+    "tm:sludgebomb",
+    "tm:venoshock",
+    "tm:poisonjab",
+    "tm:darkpulse",
+    "tm:fling",
+    "tm:nastyplot",
+    "tm:toxic",
+    "tm:hypnosis"  ],
+  "labels": [
+    "mythire",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.casanauta.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

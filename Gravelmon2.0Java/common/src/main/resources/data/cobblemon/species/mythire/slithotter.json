@@ -1,0 +1,99 @@
+{
+  "implemented": true,
+  "name": "slithotter",
+  "nationalPokedexNumber": 2625,
+  "primaryType": "poison",
+  "abilities": [
+    "damp",
+    "strongjaw",
+    "h:poisontouch"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 90,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:wringout",
+    "tm:bind",
+    "tm:covet",
+    "tm:helpinghand",
+    "tm:lastresort",
+    "tm:recycle",
+    "tm:snatch",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:aquatail",
+    "tm:endeavor",
+    "tm:zenheadbutt",
+    "tm:foulplay",
+    "tm:gastroacid",
+    "tm:gunkshot",
+    "tm:stompingtantrum",
+    "tm:superfang",
+    "tm:throatchop",
+    "tm:corrosivegas"  ],
+  "labels": [
+    "mythire",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.slithotter.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

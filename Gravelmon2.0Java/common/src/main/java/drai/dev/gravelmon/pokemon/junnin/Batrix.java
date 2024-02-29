@@ -26,18 +26,36 @@ public class Batrix extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of(""),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("vamfire", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))
+                ),
+                List.of(      new MoveLearnSetEntry(Move.SCRATCH,1),
+                        new MoveLearnSetEntry(Move.LEER,3),
+                        new MoveLearnSetEntry(Move.SMOKESCREEN,6),
+                        new MoveLearnSetEntry(Move.SINGE,8),
+                        new MoveLearnSetEntry(Move.PECK,11),
+                        new MoveLearnSetEntry(Move.SCREECH,15),
+                        new MoveLearnSetEntry(Move.METAL_CLAW,16),
+                        new MoveLearnSetEntry(Move.FLAME_BURST,21),
+                        new MoveLearnSetEntry(Move.METAL_SOUND,26),
+                        new MoveLearnSetEntry(Move.MIRROR_SHOT,29),
+                        new MoveLearnSetEntry(Move.IRON_DEFENSE,33),
+                        new MoveLearnSetEntry(Move.FLASH_CANNON,39),
+                        new MoveLearnSetEntry(Move.FLAMETHROWER,42),
+                        new MoveLearnSetEntry(Move.AUTOTOMIZE,47),
+                        new MoveLearnSetEntry(Move.FIRE_BLAST,53),
+                        new MoveLearnSetEntry(Move.METAL_BURST,59)                  ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Batrix");
+        setCanFly(true);
 
     }
 

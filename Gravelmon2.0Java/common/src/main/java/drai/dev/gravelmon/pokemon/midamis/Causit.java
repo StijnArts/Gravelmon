@@ -17,14 +17,15 @@ public class Causit extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         50),
                 List.of(Ability.SWIFT_SWIM), Ability.OVERCOAT,
-                8, 165,
-                new Stats(0,1,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,1,0,0,0,0), 220,
                 0.75,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.WATER_1),
                 List.of("Not the most mobile of Pokemon, Causit is just a nuisance both on water andon land. Its not the most useful Pokemon either, but when it evolves, this changes."),
-                List.of(),
+                List.of(new EvolutionEntry("cassidite", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.PECK,6),
@@ -41,14 +42,17 @@ public class Causit extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_BALL,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Causit");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+
+        setCanFly(true);
 
     }
 

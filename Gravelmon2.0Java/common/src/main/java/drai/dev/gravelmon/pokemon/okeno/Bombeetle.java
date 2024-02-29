@@ -20,7 +20,7 @@ public class Bombeetle extends drai.dev.gravelmon.pokemon.Pokemon {
                 205, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("All the energy stored while it was Chococoon is converted into this Pokémon's intense fighting spirit. It attacks with mighty punches."),
+                List.of("All the energy stored while it was Chococoon is converted into this Pokemon's intense fighting spirit. It attacks with mighty punches."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WIDE_GUARD,1),

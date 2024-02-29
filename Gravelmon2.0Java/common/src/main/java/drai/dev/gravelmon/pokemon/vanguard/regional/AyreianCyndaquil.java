@@ -19,7 +19,7 @@ public class AyreianCyndaquil extends Pokemon {
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("It flares flames from its back to protect itself. The fire burns vigorously if the Pokémon is angry. When it is tired, it sputters with incomplete combustion."),
+                List.of("It flares flames from its back to protect itself. The fire burns vigorously if the Pokemon is angry. When it is tired, it sputters with incomplete combustion."),
                 List.of(new EvolutionEntry("ayreianquilava", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(

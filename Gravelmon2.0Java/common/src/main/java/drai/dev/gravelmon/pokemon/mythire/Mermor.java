@@ -21,7 +21,7 @@ public class Mermor extends drai.dev.gravelmon.pokemon.Pokemon {
                 56, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
-                List.of("It's small and picked on by other sea Pokémon, so it hides inside of shells for protection. However, it tends to get stuck and becomes even easier to catch."),
+                List.of("It's small and picked on by other sea Pokemon, so it hides inside of shells for protection. However, it tends to get stuck and becomes even easier to catch."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

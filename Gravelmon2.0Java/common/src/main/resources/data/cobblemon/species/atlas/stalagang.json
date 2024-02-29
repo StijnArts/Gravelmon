@@ -1,0 +1,153 @@
+{
+  "implemented": true,
+  "name": "stalagang",
+  "nationalPokedexNumber": 3425,
+  "primaryType": "ice",
+  "secondaryType": "rock",
+  "abilities": [
+    "moxie",
+    "h:defiant"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 115,
+    "defence": 110,
+    "special_attack": 30,
+    "special_defence": 70,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 158,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:tackle",
+    "6:harden",
+    "9:rockthrow",
+    "13:powdersnow",
+    "16:spite",
+    "20:smackdown",
+    "23:iceshard",
+    "27:irondefense",
+    "30:freezedry",
+    "34:ancientpower",
+    "37:swagger",
+    "42:iciclecrash",
+    "47:rockslide",
+    "tm:explosion",
+    "tm:falseswipe",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:roundsound",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:drainpunch",
+    "tm:uturn",
+    "tm:signalbeam",
+    "tm:chargebeam",
+    "tm:voltswitch",
+    "tm:thunderpunch",
+    "tm:aerialace",
+    "tm:acrobatics",
+    "tm:flashcannon",
+    "tm:gyroball",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:darkpulse",
+    "tm:thief",
+    "tm:poisonjab",
+    "tm:blizzard",
+    "tm:icebeam",
+    "tm:freezedry",
+    "tm:icepunch",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:dazzlinggleam",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:snowscape",
+    "tm:sandstorm",
+    "tm:stealthrock",
+    "tm:bulkup",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:iciclespear",
+    "tm:rockblast",
+    "tm:suckerpunch"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.stalagang.desc"
+  ],
+  "preEvolution": "stalagrunt",
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

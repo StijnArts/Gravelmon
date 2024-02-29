@@ -21,7 +21,7 @@ public class HubianTogekiss extends drai.dev.gravelmon.pokemon.Pokemon {
                 245, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FAIRY),
-                List.of("Togekiss on Easter Island is an incredibly revered Pokémon. It is the protector of the island, and upon growing too old, it will appoint a new successor."),
+                List.of("Togekiss on Easter Island is an incredibly revered Pokemon. It is the protector of the island, and upon growing too old, it will appoint a new successor."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.EGG_BOMB,1),

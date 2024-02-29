@@ -26,7 +26,7 @@ public class Gnetic extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.DITTO),
-                List.of("A strange Pokémon created in a lab. It's cellular structure was made incredibly stable, so it began to be used in a variety of tests."),
+                List.of("A strange Pokemon created in a lab. It's cellular structure was made incredibly stable, so it began to be used in a variety of tests."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OKENO),

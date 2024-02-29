@@ -21,7 +21,7 @@ public class Wolvaxe extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MINERAL),
-                List.of("Wolvaxe protects the forest, and has historically tormented lumberjacks by sabotaging their work. This Pokémon can be bartered with to reserve only certain areas of woodland for people to harvest from."),
+                List.of("Wolvaxe protects the forest, and has historically tormented lumberjacks by sabotaging their work. This Pokemon can be bartered with to reserve only certain areas of woodland for people to harvest from."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HOWL,1),

@@ -23,7 +23,7 @@ public class Maritide extends drai.dev.gravelmon.pokemon.Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
-                List.of("Maritide are protective of the reef it was born in. They are very helpful towards their community in the reefs. It helps to clean the area and get rid of trash and pollution. They are very friendly and noble Pokémon and will look out for its Trainer."),
+                List.of("Maritide are protective of the reef it was born in. They are very helpful towards their community in the reefs. It helps to clean the area and get rid of trash and pollution. They are very friendly and noble Pokemon and will look out for its Trainer."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUASLAP,1),

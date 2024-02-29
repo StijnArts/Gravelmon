@@ -21,14 +21,15 @@ public class Dimwraith extends drai.dev.gravelmon.pokemon.Pokemon {
                         10,
                         90),
                 List.of(Ability.FLASH_FIRE,Ability.UNNERVE,Ability.DROUGHT), Ability.DROUGHT,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Originally discovered in faraway Mystis, this regional variant lingers around farms, suppressing the growth of crops. A common Lonavan 'saying goes worry not about your bountiful harvests, or risk attracting the Dimwraith.'"),
-                List.of(),
+                List.of(new EvolutionEntry("grainghoul", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_LIFE,1),
                         new MoveLearnSetEntry(Move.MEAN_LOOK,6),
@@ -101,11 +102,12 @@ public class Dimwraith extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.INFESTATION,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dimwraith");

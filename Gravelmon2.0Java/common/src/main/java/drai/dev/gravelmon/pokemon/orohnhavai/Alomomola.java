@@ -23,7 +23,7 @@ public class Alomomola extends drai.dev.gravelmon.pokemon.Pokemon {
                 165, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
-                List.of("It gently holds injured and weak Pokémon in its fins. Its special membrane heals their wounds."),
+                List.of("It gently holds injured and weak Pokemon in its fins. Its special membrane heals their wounds."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),

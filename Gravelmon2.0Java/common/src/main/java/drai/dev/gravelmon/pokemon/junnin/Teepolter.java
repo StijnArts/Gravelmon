@@ -19,13 +19,13 @@ public class Teepolter extends drai.dev.gravelmon.pokemon.Pokemon {
                         107,
                         73),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.0,
                 176, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("- AstonishSTAB Ghost - WrapSTAB Normal - Echoed VoiceSTAB Normal - Shadow SneakSTAB Ghost - Confuse Ray Ghost - Double SlapSTAB Normal - Screech Normal 5 Ominous WindSTAB Ghost 10 FlailSTAB Normal 15 Metronome Normal 20 Reflect Type Normal 25 Secret PowerSTAB Normal 30 Shadow BallSTAB Ghost 35 Assurance Dark 40 Night ShadeSTAB Ghost 45 EndeavorSTAB Normal 50 Trick-or-Treat Ghost 55 Phantom ForceSTAB Ghost 60 Power Whip Grass 65 Wring OutSTAB Normal 71 Ear SplitSTAB Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCREECH,1),
@@ -99,11 +99,12 @@ public class Teepolter extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Teepolter");

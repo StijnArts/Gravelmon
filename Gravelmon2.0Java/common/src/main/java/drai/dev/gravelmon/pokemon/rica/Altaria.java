@@ -23,7 +23,7 @@ public class Altaria extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.DRAGON),
-                List.of("Altaria dances and wheels through the sky among billowing, cotton-like clouds. This Pokémon catches updrafts with its buoyant wings and soars way up into the wild blue yonder."),
+                List.of("Altaria dances and wheels through the sky among billowing, cotton-like clouds. This Pokemon catches updrafts with its buoyant wings and soars way up into the wild blue yonder."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PLUCK,1),

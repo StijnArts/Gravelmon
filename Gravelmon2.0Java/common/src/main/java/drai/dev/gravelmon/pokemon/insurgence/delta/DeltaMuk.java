@@ -19,7 +19,7 @@ public class DeltaMuk extends Pokemon {
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("It puts anything it finds in its massive mouth and hunts smaller Pokémon as prey. It tracks sand everywhere it goes, making it tedious to care for indoors."),
+                List.of("It puts anything it finds in its massive mouth and hunts smaller Pokemon as prey. It tracks sand everywhere it goes, making it tedious to care for indoors."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

@@ -15,14 +15,16 @@ public class Yoink extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         65),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Yoink hide in orchards, patiently waiting for farmers to take their eyes off the trees. When they do, Yoink steal as much fruit as they can hold, before hightailing it back to their dens."),
-                List.of(),
+                List.of(new EvolutionEntry("hogrump", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.THIEF,5),
@@ -41,8 +43,9 @@ public class Yoink extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK,50)                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

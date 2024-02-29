@@ -19,7 +19,7 @@ public class Hangead extends Pokemon {
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.AMORPHOUS, EggGroup.HUMAN_LIKE),
-                List.of("It controls Pokémon and human beings as puppets using its strings. Feeding on their life energy, it turns their bodies in soul-less empty shells."),
+                List.of("It controls Pokemon and human beings as puppets using its strings. Feeding on their life energy, it turns their bodies in soul-less empty shells."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SPIRIT_SHACKLE,1),

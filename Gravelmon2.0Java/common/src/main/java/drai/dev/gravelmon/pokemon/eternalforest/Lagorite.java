@@ -24,7 +24,7 @@ public class Lagorite extends Pokemon {
                 205, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("Lagorite uses its arms as both a shield and a sharp blade. A Meteor Mash from this Pokémon knocks out a Rhydon"),
+                List.of("Lagorite uses its arms as both a shield and a sharp blade. A Meteor Mash from this Pokemon knocks out a Rhydon"),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE, 1),

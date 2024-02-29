@@ -24,7 +24,7 @@ public class Auldsparce extends Pokemon {
                 185, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("An unusual Pokémon that lives deep underground. It almost never shows itself to humans."),
+                List.of("An unusual Pokemon that lives deep underground. It almost never shows itself to humans."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.RAGE,1),

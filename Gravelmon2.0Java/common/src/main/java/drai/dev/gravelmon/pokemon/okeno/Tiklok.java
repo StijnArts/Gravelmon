@@ -20,7 +20,7 @@ public class Tiklok extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Titok are often found in abandoned houses, waiting for curious souls to pass by. If anyone comes near, this Pokémon will startle them with screeching sounds."),
+                List.of("Titok are often found in abandoned houses, waiting for curious souls to pass by. If anyone comes near, this Pokemon will startle them with screeching sounds."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),

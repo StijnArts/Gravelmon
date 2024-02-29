@@ -15,14 +15,16 @@ public class Agog extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         40),
                 List.of(Ability.CHLOROPHYLL,Ability.HARVEST,Ability.NATURAL_CURE), Ability.NATURAL_CURE,
-                8, 165,
-                new Stats(0,1,0,0,0,0), 0,
+                4, 165,
+                new Stats(0,1,0,0,0,0), 170,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Agog are kindhearted, often grouping together to protect vulnerable forest areas. It's said if you burn an Agog, accidentally or deliberately, the devil appears."),
-                List.of(),
+                List.of(new EvolutionEntry("demagog", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_NETHER.getId() + ":" + Biome.IS_NETHER.getName() +"\"")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -68,10 +70,10 @@ public class Agog extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

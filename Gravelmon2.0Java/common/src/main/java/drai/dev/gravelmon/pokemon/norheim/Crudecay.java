@@ -23,7 +23,7 @@ public class Crudecay extends drai.dev.gravelmon.pokemon.Pokemon {
                 170, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.BUG),
-                List.of("Burrowed inside the body of an unknown water dwelling Pokémon. Crudecay (Cloaked form) lurks during nighttime on dark shores, waiting to feed on innocent pray. It reeks of death."),
+                List.of("Burrowed inside the body of an unknown water dwelling Pokemon. Crudecay (Cloaked form) lurks during nighttime on dark shores, waiting to feed on innocent pray. It reeks of death."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCARY_FACE,1),

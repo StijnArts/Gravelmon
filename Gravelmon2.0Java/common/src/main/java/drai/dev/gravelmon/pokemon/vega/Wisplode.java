@@ -24,7 +24,7 @@ public class Wisplode extends Pokemon {
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("The bits of fire that surround this Pokémon's body move as if they each had a mind of their own."),
+                List.of("The bits of fire that surround this Pokemon's body move as if they each had a mind of their own."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),

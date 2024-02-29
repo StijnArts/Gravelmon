@@ -24,7 +24,7 @@ public class Accerval extends Pokemon {
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("They are quick to chase small Pokémon, but will cower away from larger ones."),
+                List.of("They are quick to chase small Pokemon, but will cower away from larger ones."),
                 List.of(new EvolutionEntry("warrush", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(

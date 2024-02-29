@@ -21,7 +21,7 @@ public class Motocyclops extends drai.dev.gravelmon.pokemon.Pokemon {
                 175, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MONSTER),
-                List.of("Motocyclops live for speed. At night, when people are all asleep, packs of this Pokémon race each other on the streets. Its spiked wheels maintain perfect traction even on rough or icy terrain."),
+                List.of("Motocyclops live for speed. At night, when people are all asleep, packs of this Pokemon race each other on the streets. Its spiked wheels maintain perfect traction even on rough or icy terrain."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STEEL_ROLLER,1),

@@ -21,7 +21,7 @@ public class Gandolph extends drai.dev.gravelmon.pokemon.Pokemon {
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_2),
-                List.of("One of the most intelligent Pokémon in existence, they exhibit an extreme psychic ability. To avoid being seen, they create complicated illusions and psychic barriers across the sea."),
+                List.of("One of the most intelligent Pokemon in existence, they exhibit an extreme psychic ability. To avoid being seen, they create complicated illusions and psychic barriers across the sea."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,4),

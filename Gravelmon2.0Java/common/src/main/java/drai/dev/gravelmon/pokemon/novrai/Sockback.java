@@ -21,7 +21,7 @@ public class Sockback extends drai.dev.gravelmon.pokemon.Pokemon {
                 112, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.MINERAL),
-                List.of("An artificial Pokémon designed to help train other Pokémon for battle. It can stand up to even the strongest beatings without falling over."),
+                List.of("An artificial Pokemon designed to help train other Pokemon for battle. It can stand up to even the strongest beatings without falling over."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

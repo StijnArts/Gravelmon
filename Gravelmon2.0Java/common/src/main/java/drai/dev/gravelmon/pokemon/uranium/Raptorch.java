@@ -19,7 +19,7 @@ public class Raptorch extends Pokemon {
                 70, ExperienceGroup.MEDIUM_FAST,
                 70,
                 100, List.of(EggGroup.MONSTER, EggGroup.DRAGON),
-                List.of("RAPTORCH are energetic Pokémon that require constant attention, or they will start setting their surroundings on fire."),
+                List.of("RAPTORCH are energetic Pokemon that require constant attention, or they will start setting their surroundings on fire."),
                 List.of(new EvolutionEntry("archilles", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(

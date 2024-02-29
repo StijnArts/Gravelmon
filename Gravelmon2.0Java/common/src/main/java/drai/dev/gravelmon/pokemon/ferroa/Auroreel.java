@@ -21,7 +21,7 @@ public class Auroreel extends drai.dev.gravelmon.pokemon.Pokemon {
                 184, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.WATER_2),
-                List.of("A rare and peaceful Pokémon, sailors fear its silhouette which resembles more dangerous Pokémon, but those courageous enough to approach it kindly are said to be blessed with good luck."),
+                List.of("A rare and peaceful Pokemon, sailors fear its silhouette which resembles more dangerous Pokemon, but those courageous enough to approach it kindly are said to be blessed with good luck."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DRACO_METEOR,"tm"),

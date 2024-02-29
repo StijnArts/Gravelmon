@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranClobbopus extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranClobbopus() {
-        super("Clobbopus",
+    public NovranClobbopus(int dex) {
+        super(dex, "Clobbopus",
                 Type.FIGHTING,Type.POISON,
                 new Stats(70,
                         75,
@@ -15,14 +15,15 @@ public class NovranClobbopus extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         50),
                 List.of(Ability.POISON_TOUCH,Ability.SUCTION_CUPS,Ability.MERCILESS), Ability.MERCILESS,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 180,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.HUMAN_LIKE),
                 List.of("Its bright blue rings are an easily-recognizable sign of its venom. It often brawls with others of its kind, lashing out with powerful, toxin-laced punches."),
-                List.of(),
+                List.of(new EvolutionEntry("novrangrapploct", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.POISON_JAB.getName()+"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_SMASH,1),
                         new MoveLearnSetEntry(Move.FEINT,5),
@@ -107,14 +108,15 @@ public class NovranClobbopus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DARKEST_LARIAT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 10, 30, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Clobbopus");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

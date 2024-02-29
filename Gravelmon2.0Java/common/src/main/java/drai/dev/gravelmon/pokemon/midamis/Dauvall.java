@@ -17,15 +17,19 @@ public class Dauvall extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         70),
                 List.of(Ability.PRANKSTER), Ability.PRANKSTER,
-                8, 165,
-                new Stats(0,1,0,1,0,1), 0,
+                6, 165,
+                new Stats(0,1,0,1,0,1), 120,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("An extremely strange Pokemon that almost has an attack of every type. Unfortunately they are probably the most annoying attacks and so that's how Dauvall got its classification."),
+                List.of("An extremely strange Pokemon that has an attack of almost every type. Unfortunately they are probably the most annoying attacks and so that's how Dauvall got its classification."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.SWEET_KISS,1),
+                        new MoveLearnSetEntry(Move.ENCORE,1),
+                        new MoveLearnSetEntry(Move.WILLOWISP,1),
+                        new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.ICE_SHARD,1),
                         new MoveLearnSetEntry(Move.WHIRLWIND,5),
                         new MoveLearnSetEntry(Move.DRAGON_RAGE,10),
@@ -42,9 +46,9 @@ public class Dauvall extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,53)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 43, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -21,7 +21,7 @@ public class Refhuge extends drai.dev.gravelmon.pokemon.Pokemon {
                 240, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("The largest fish pokemon, Refhuge is incredibly docile and has gained a reputation for ferrying people and Pokémon across wide expanses of water. Its red gills can light up to illuminate their paths, creating strange underwater roads at night."),
+                List.of("The largest fish pokemon, Refhuge is incredibly docile and has gained a reputation for ferrying people and Pokemon across wide expanses of water. Its red gills can light up to illuminate their paths, creating strange underwater roads at night."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),

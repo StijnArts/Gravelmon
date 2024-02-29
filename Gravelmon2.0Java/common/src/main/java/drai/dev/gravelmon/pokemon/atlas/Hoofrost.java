@@ -21,7 +21,7 @@ public class Hoofrost extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("When snowstorms hit, these Pokémon can be seen gathering in big herds so they don't get lost. Its rock-hard ice hooves are durable enough to climb up rocky mountains."),
+                List.of("When snowstorms hit, these Pokemon can be seen gathering in big herds so they don't get lost. Its rock-hard ice hooves are durable enough to climb up rocky mountains."),
                 List.of(new EvolutionEntry("glacyak", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))
                 ),

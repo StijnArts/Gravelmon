@@ -21,7 +21,7 @@ public class Drozerain extends drai.dev.gravelmon.pokemon.Pokemon {
                 175, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.HUMAN_LIKE),
-                List.of("Its four heavy, sticky arms give it an advantage when fighting most other Pokémon. As soon as its foe is stuck, it will wrap them in a crushing bear hug to defeat them."),
+                List.of("Its four heavy, sticky arms give it an advantage when fighting most other Pokemon. As soon as its foe is stuck, it will wrap them in a crushing bear hug to defeat them."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEET_SCENT,1),

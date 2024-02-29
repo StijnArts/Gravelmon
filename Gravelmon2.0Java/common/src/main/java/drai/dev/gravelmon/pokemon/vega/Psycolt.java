@@ -19,7 +19,7 @@ public class Psycolt extends Pokemon {
                 68, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD, EggGroup.FAIRY),
-                List.of("Beautiful flowers sprout from the ground wherever it treads. Seeing this Pokémon is said to bring good luck."),
+                List.of("Beautiful flowers sprout from the ground wherever it treads. Seeing this Pokemon is said to bring good luck."),
                 List.of(new EvolutionEntry("kinegasus", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:moon_stone"),
                         new EvolutionEntry("yunesis", EvolutionType.ITEM_INTERACT, false, List.of(),

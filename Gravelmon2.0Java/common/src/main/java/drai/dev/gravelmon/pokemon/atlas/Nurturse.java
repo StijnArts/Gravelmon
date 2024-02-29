@@ -21,7 +21,7 @@ public class Nurturse extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.FAIRY),
-                List.of("Nurturse will do everything in their power to help another Pokémon feel better and get well. With a special ability, they can give their life power to another Pokémon to save them."),
+                List.of("Nurturse will do everything in their power to help another Pokemon feel better and get well. With a special ability, they can give their life power to another Pokemon to save them."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,5),

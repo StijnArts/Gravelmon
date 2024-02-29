@@ -21,7 +21,7 @@ public class Suavenny extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
-                List.of("Suavenny like to snugly hug people and Pokémon with its fluffy tail. It fills them with kindness and happiness."),
+                List.of("Suavenny like to snugly hug people and Pokemon with its fluffy tail. It fills them with kindness and happiness."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),

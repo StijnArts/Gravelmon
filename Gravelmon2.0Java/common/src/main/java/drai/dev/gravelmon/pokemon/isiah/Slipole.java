@@ -21,7 +21,7 @@ public class Slipole extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
-                List.of("As soon as they feel their home heating up, these Pokémon will migrate marching in a row until they reach a colder home."),
+                List.of("As soon as they feel their home heating up, these Pokemon will migrate marching in a row until they reach a colder home."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.ISIAH),

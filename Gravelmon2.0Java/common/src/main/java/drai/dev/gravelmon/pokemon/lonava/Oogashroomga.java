@@ -15,7 +15,7 @@ public class Oogashroomga extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         100),
                 List.of(Ability.POISON_TOUCH), Ability.DISGUISE,
-                8, 165,
+                25, 165,
                 new Stats(0,0,0,0,2,0), 90,
                 0.5,
                 181, ExperienceGroup.MEDIUM_SLOW,
@@ -117,9 +117,9 @@ public class Oogashroomga extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STUN_SPORE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 49, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_OLD_GROWTH_TAIGA, Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

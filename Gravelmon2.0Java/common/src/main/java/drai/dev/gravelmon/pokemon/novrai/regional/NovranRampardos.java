@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranRampardos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranRampardos() {
-        super("Rampardos",
+    public NovranRampardos(int dex) {
+        super(dex, "Rampardos",
                 Type.ROCK,Type.FIRE,
                 new Stats(87,
                         155,
@@ -15,7 +15,7 @@ public class NovranRampardos extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         68),
                 List.of(Ability.MOUNTAINEER), Ability.RELENTLESS,
-                8, 165,
+                16, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 173, ExperienceGroup.MEDIUM_SLOW,
@@ -122,8 +122,8 @@ public class NovranRampardos extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACCELEROCK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED,  SpawnPool.ULTRA_RARE, 40, 50, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

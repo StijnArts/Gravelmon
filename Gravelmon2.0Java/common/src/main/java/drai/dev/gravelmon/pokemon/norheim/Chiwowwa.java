@@ -23,7 +23,7 @@ public class Chiwowwa extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Chiwowwa blend in well in densely populated areas among both people and Pokémon. Despite being popular in suburban families, this small Pokémon longs for its home in the deep woods; forging escape plans behind its trainer’s back."),
+                List.of("Chiwowwa blend in well in densely populated areas among both people and Pokemon. Despite being popular in suburban families, this small Pokemon longs for its home in the deep woods; forging escape plans behind its trainer’s back."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

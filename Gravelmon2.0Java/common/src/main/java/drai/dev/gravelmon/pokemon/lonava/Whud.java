@@ -15,14 +15,15 @@ public class Whud extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         45),
                 List.of(Ability.DAMP,Ability.WATER_ABSORB,Ability.DRY_SKIN), Ability.DRY_SKIN,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.AMORPHOUS),
                 List.of("Whud are often found bathing in rivers and dirty puddles to keep their naturally dry bodies moist. They slam their heavy bodies against walls and obstacles to startle opponents."),
-                List.of(),
+                List.of(new EvolutionEntry("pussour", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.GROWL,5),
@@ -65,8 +66,8 @@ public class Whud extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

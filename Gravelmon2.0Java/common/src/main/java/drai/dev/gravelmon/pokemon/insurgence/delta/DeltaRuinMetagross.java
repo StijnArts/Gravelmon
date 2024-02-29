@@ -19,7 +19,7 @@ public class DeltaRuinMetagross extends Pokemon {
                 270, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("After two altered Metang fuse into this Pokémon, all but the exterior of its body is composed of crystal. Additional crystals allow it to break free of its rocky shell."),
+                List.of("After two altered Metang fuse into this Pokemon, all but the exterior of its body is composed of crystal. Additional crystals allow it to break free of its rocky shell."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,1),

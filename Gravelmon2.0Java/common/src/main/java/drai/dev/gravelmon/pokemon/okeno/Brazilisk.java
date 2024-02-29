@@ -20,7 +20,7 @@ public class Brazilisk extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.DRAGON),
-                List.of("This Pokémon cannot be encountered in the wild because it has been led to extinction."),
+                List.of("This Pokemon cannot be encountered in the wild because it has been led to extinction."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OKENO),

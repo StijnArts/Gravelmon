@@ -19,13 +19,13 @@ public class Frostoss extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         55),
                 List.of(Ability.SNOWPLOW), Ability.SNOW_WARNING,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,2,0,0), 200,
                 0.5,
                 166, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Frostoss loves to throw snowballs. It has an amazing aim, which is unfortunate for people or Pokémon passing by, but it only does this for fun and never gets mad."),
+                List.of("Frostoss loves to throw snowballs. It has an amazing aim, which is unfortunate for people or Pokemon passing by, but it only does this for fun and never gets mad."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
@@ -137,10 +137,10 @@ public class Frostoss extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_THROW,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

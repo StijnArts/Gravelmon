@@ -21,7 +21,7 @@ public class HizianLairon extends drai.dev.gravelmon.pokemon.Pokemon {
                 151, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("Other Pokémon refrain from attacking Lairon due to its large intimidating horns. Because of that, it usually ends up growing lazy and unfazed by danger."),
+                List.of("Other Pokemon refrain from attacking Lairon due to its large intimidating horns. Because of that, it usually ends up growing lazy and unfazed by danger."),
                 List.of(new EvolutionEntry("hizianaggron", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(

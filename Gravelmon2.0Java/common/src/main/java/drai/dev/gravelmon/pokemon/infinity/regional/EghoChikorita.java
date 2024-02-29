@@ -19,7 +19,7 @@ public class EghoChikorita extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.DRAGON),
-                List.of("Chikorita's thick, spiky exterior protects it from most predators. The tips of the spikes are coated in a sweet and sticky substance that humans love, but repulses most Pokémon."),
+                List.of("Chikorita's thick, spiky exterior protects it from most predators. The tips of the spikes are coated in a sweet and sticky substance that humans love, but repulses most Pokemon."),
                 List.of(new EvolutionEntry("eghobayleef", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

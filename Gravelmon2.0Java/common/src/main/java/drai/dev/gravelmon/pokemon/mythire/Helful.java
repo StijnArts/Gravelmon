@@ -21,7 +21,7 @@ public class Helful extends drai.dev.gravelmon.pokemon.Pokemon {
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
-                List.of("Dust sticks to this Pokémon's body and forms its protective overcoat. It can clean a dirty floor simply by rolling around on its side."),
+                List.of("Dust sticks to this Pokemon's body and forms its protective overcoat. It can clean a dirty floor simply by rolling around on its side."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DUST_KICK,1),

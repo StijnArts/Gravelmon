@@ -20,7 +20,7 @@ public class Albagross extends drai.dev.gravelmon.pokemon.Pokemon {
                 220, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("Ulike Piratross, Albagross are great at hunting. This doesn't stop them from stealing food from other Pokémon, however, and they are even more relentless when doing so."),
+                List.of("Ulike Piratross, Albagross are great at hunting. This doesn't stop them from stealing food from other Pokemon, however, and they are even more relentless when doing so."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),

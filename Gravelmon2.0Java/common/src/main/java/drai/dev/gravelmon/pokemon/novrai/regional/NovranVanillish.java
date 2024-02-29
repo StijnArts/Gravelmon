@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranVanillish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranVanillish() {
-        super("Vanillish",
+    public NovranVanillish(int dex) {
+        super(dex, "Vanillish",
                 Type.ICE,Type.GRASS,
                 new Stats(51,
                         65,
@@ -15,14 +15,15 @@ public class NovranVanillish extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         59),
                 List.of(Ability.RIPEN,Ability.LEAF_GUARD,Ability.WEAK_ARMOR), Ability.WEAK_ARMOR,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,2,0,0), 120,
                 0.5,
                 138, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It strips tree bark to form a protective shell for itself. It's a glutton that hoards Berries and leaves inside its shell to eat later, preserved by its naturally cold body."),
-                List.of(),
+                List.of(new EvolutionEntry("novranvanilluxe", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,1),
                         new MoveLearnSetEntry(Move.ICY_WIND,13),
@@ -94,8 +95,8 @@ public class NovranVanillish extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 46, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

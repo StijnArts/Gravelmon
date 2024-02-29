@@ -21,7 +21,7 @@ public class Musshield extends drai.dev.gravelmon.pokemon.Pokemon {
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3),
-                List.of("Musshield are incredibly weak. They are one of the most commonly fished Pokémon, as they cover large portions of the sea floor."),
+                List.of("Musshield are incredibly weak. They are one of the most commonly fished Pokemon, as they cover large portions of the sea floor."),
                 List.of(new EvolutionEntry("anenemy", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
                 ),

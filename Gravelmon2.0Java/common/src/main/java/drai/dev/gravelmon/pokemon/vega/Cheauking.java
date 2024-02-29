@@ -24,7 +24,7 @@ public class Cheauking extends Pokemon {
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("A rare set of three Koffing combined into a single Pokémon. Its intense smell can cause people to pass out."),
+                List.of("A rare set of three Koffing combined into a single Pokemon. Its intense smell can cause people to pass out."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_GAS,1),

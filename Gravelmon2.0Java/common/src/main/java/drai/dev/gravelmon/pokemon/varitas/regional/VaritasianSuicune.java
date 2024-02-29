@@ -23,7 +23,7 @@ public class VaritasianSuicune extends drai.dev.gravelmon.pokemon.Pokemon {
                 261, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Suicune embodies the compassion of a pure spring of water. It runs across the land with gracefulness. This Pokémon has the power to purify dirty water."),
+                List.of("Suicune embodies the compassion of a pure spring of water. It runs across the land with gracefulness. This Pokemon has the power to purify dirty water."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MEGAHORN,1),

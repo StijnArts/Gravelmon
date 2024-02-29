@@ -23,7 +23,7 @@ public class Birchard extends drai.dev.gravelmon.pokemon.Pokemon {
                 225, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("A very hearty Pokémon that enjoys the company of others. Upon evolution, it's body has petrified to withstand damage from harsh weather effects or attacks. Its hollow body serves as a shelter to any Pokémon or Trainer in need."),
+                List.of("A very hearty Pokemon that enjoys the company of others. Upon evolution, it's body has petrified to withstand damage from harsh weather effects or attacks. Its hollow body serves as a shelter to any Pokemon or Trainer in need."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

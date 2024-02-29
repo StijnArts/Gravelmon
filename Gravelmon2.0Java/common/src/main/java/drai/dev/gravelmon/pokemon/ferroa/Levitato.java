@@ -21,7 +21,7 @@ public class Levitato extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("The electrical pulses this Pokémon emits cause it to float in the air. When it burrows into the ground to gather nutrients from the soil, it releases waves that jam communication signals."),
+                List.of("The electrical pulses this Pokemon emits cause it to float in the air. When it burrows into the ground to gather nutrients from the soil, it releases waves that jam communication signals."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STUNJAB,1),

@@ -23,7 +23,7 @@ public class Makrabla extends drai.dev.gravelmon.pokemon.Pokemon {
                 142, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
-                List.of("Makrabla love nothing more then picking fights on lesser Pokémon. They tend to keep in groups, and even start gangs and alliances to keep others away from their territory."),
+                List.of("Makrabla love nothing more then picking fights on lesser Pokemon. They tend to keep in groups, and even start gangs and alliances to keep others away from their territory."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),

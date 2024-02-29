@@ -18,13 +18,14 @@ public class Lauvered extends drai.dev.gravelmon.pokemon.Pokemon {
                         40),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 8, 165,
-                new Stats(2,0,0,0,0,0), 0,
+                new Stats(2,0,0,0,0,0),160,
                 0.0,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("New Ability - Absent Minded: All of the users stats excluding health have a 50% chance to reset at the begin of the next turn (i.e. stat effects, stat boosts and downgrades dissapear)."),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("lauvader", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFIDE,1),
                         new MoveLearnSetEntry(Move.METAL_SOUND,21),
@@ -38,11 +39,10 @@ public class Lauvered extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYPER_VOICE,53)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 39, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS, SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Lauvered");

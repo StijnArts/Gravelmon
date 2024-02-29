@@ -21,7 +21,7 @@ public class Purrwess extends drai.dev.gravelmon.pokemon.Pokemon {
                 241, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
-                List.of("With their regal look and attitude, most Pokémon respect Purrwess, they will never attempt to confront and keep their distance from it."),
+                List.of("With their regal look and attitude, most Pokemon respect Purrwess, they will never attempt to confront and keep their distance from it."),
                 List.of(),
                 List.of(     new MoveLearnSetEntry(Move.SWEET_SCENT,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

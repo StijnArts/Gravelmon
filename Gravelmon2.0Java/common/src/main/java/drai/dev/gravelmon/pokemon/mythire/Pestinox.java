@@ -21,7 +21,7 @@ public class Pestinox extends drai.dev.gravelmon.pokemon.Pokemon {
                 270, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("A cruel Pokémon of the sea that detests humans almost as much as it hates the coming of summer. It spreads misery wherever it goes, but if it touches clean, fresh water, it will be kept away."),
+                List.of("A cruel Pokemon of the sea that detests humans almost as much as it hates the coming of summer. It spreads misery wherever it goes, but if it touches clean, fresh water, it will be kept away."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TRASHTALK,1),

@@ -23,7 +23,7 @@ public class Nursee extends drai.dev.gravelmon.pokemon.Pokemon {
                 95, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.FAIRY),
-                List.of("Nursee are so caring and kind they will cry if another Pokémon is crying or hurt, often when they don't know why. They will also tend to injured Pokémon out of the goodness of their hearts, even if not asked."),
+                List.of("Nursee are so caring and kind they will cry if another Pokemon is crying or hurt, often when they don't know why. They will also tend to injured Pokemon out of the goodness of their hearts, even if not asked."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

@@ -21,7 +21,7 @@ public class Cherrish extends drai.dev.gravelmon.pokemon.Pokemon {
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
-                List.of("Cherrish's two heads work together in perfect unison. At night time, they hang from tall branches and sleep peacefully out of reach from any hungry Pokémon."),
+                List.of("Cherrish's two heads work together in perfect unison. At night time, they hang from tall branches and sleep peacefully out of reach from any hungry Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BATON_PASS,37),

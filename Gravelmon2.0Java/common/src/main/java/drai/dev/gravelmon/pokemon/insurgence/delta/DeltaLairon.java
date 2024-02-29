@@ -19,7 +19,7 @@ public class DeltaLairon extends Pokemon {
                 151, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A territorial Pokémon that defends its land by releasing bursts of flames from within its armor. Deafening explosions can be heard when it collides with objects."),
+                List.of("A territorial Pokemon that defends its land by releasing bursts of flames from within its armor. Deafening explosions can be heard when it collides with objects."),
                 List.of(new EvolutionEntry("deltaaggron", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(

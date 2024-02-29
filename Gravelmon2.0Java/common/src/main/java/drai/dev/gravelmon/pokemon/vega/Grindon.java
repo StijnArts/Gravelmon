@@ -24,7 +24,7 @@ public class Grindon extends Pokemon {
                 121, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("A prehistoric Pokémon that was revived by scientists. Its two sharp fangs are unbreakable by any known method."),
+                List.of("A prehistoric Pokemon that was revived by scientists. Its two sharp fangs are unbreakable by any known method."),
                 List.of(new EvolutionEntry("scimitooth", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(

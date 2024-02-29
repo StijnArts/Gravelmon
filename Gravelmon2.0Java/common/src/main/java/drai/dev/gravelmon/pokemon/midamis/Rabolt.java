@@ -17,14 +17,15 @@ public class Rabolt extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         65),
                 List.of(Ability.GUTS), Ability.RECKLESS,
-                8, 165,
-                new Stats(0,0,0,0,0,1), 0,
+                3, 165,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Rabolts are very hyper Pokémon. Though relatively fragile, they are often feared by Trainers for the fact that they will go beyond the bitter end in battle, damaging themselves as much as the opponent to lay a hit."),
-                List.of(),
+                List.of("Rabolts are very hyper Pokemon. Though relatively fragile, they are often feared by Trainers for the fact that they will go beyond the bitter end in battle, damaging themselves as much as the opponent to lay a hit."),
+                List.of(new EvolutionEntry("rabullet", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
                         new MoveLearnSetEntry(Move.UPROAR,9),
@@ -48,8 +49,8 @@ public class Rabolt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -23,7 +23,7 @@ public class VaritasianEntei extends drai.dev.gravelmon.pokemon.Pokemon {
                 261, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch."),
+                List.of("Entei embodies the passion of magma. This Pokemon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,1),

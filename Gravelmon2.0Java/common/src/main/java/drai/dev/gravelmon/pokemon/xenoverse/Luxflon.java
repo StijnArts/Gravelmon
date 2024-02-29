@@ -19,7 +19,7 @@ public class Luxflon extends Pokemon {
                 335, ExperienceGroup.SLOW,
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
-                List.of("A legendary Pokémon that protects planet Earth. It has full control over nature it can shape at its will."),
+                List.of("A legendary Pokemon that protects planet Earth. It has full control over nature it can shape at its will."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTRAL_LANCE,1),

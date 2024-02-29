@@ -21,7 +21,7 @@ public class Hallucid extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Through complicated motions and shifting the color of the lights emitted from its tentacles, this ancient Pokémon was believed to have enhanced and expanded its psychic influence to confound all the known senses."),
+                List.of("Through complicated motions and shifting the color of the lights emitted from its tentacles, this ancient Pokemon was believed to have enhanced and expanded its psychic influence to confound all the known senses."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OCEANE),

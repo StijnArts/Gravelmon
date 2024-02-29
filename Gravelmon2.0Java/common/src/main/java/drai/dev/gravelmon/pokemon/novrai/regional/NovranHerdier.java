@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranHerdier extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranHerdier() {
-        super("Herdier",
+    public NovranHerdier(int dex) {
+        super(dex, "Herdier",
                 Type.NORMAL,Type.ICE,
                 new Stats(65,
                         80,
@@ -14,15 +14,16 @@ public class NovranHerdier extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         65,
                         60),
-                List.of(Ability.INTIMIDATE,Ability.SLUSH_RUSH,Ability.SNOW_WARNING), Ability.SNOW_WARNING,
-                8, 165,
+                List.of(Ability.INTIMIDATE,Ability.SLUSH_RUSH), Ability.SNOW_WARNING,
+                9, 165,
                 new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 130, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This ancestral form of Herdier is well-adapted to the cold. It used to be trained to pull sleds across the snow, and many people continue this practice today."),
-                List.of(),
+                List.of(new EvolutionEntry("novranstoutland", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,10),
@@ -96,8 +97,8 @@ public class NovranHerdier extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONE_RUSH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 37, .54, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

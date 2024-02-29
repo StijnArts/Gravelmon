@@ -1,0 +1,127 @@
+{
+  "implemented": true,
+  "name": "webrotom",
+  "nationalPokedexNumber": 479,
+  "primaryType": "electric",
+  "secondaryType": "dark",
+  "abilities": [
+    "levitate",
+    "adaptability",
+    "h:infiltrator"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 107,
+    "special_attack": 105,
+    "special_defence": 107,
+    "speed": 86
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 67,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:doubleteam",
+    "5:thundershock",
+    "10:confuseray",
+    "15:charge",
+    "20:electroball",
+    "25:thunderwave",
+    "30:shockwave",
+    "35:hex",
+    "40:substitute",
+    "45:trick",
+    "50:discharge",
+    "55:uproar",
+    "tm:protect",
+    "tm:confuseray",
+    "tm:thief",
+    "tm:chargebeam",
+    "tm:facade",
+    "tm:hex",
+    "tm:swiftcosmic",
+    "tm:storedpower",
+    "tm:nightshade",
+    "tm:endure",
+    "tm:voltswitch",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:foulplay",
+    "tm:sleeptalksound",
+    "tm:electroball",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:thunderwave",
+    "tm:rest",
+    "tm:darkpulse",
+    "tm:eerieimpulse",
+    "tm:substitute",
+    "tm:willowisp",
+    "tm:trick",
+    "tm:shadowball",
+    "tm:hypervoicesound",
+    "tm:thunderbolt",
+    "tm:helpinghand",
+    "tm:electricterrain",
+    "tm:nastyplot",
+    "tm:thunder",
+    "tm:terablast"  ],
+  "labels": [
+    "gen4",
+    "lockemon",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.webrotom.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 3,
+  "weight": 3,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

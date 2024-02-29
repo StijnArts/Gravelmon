@@ -19,7 +19,7 @@ public class Mushling extends Pokemon {
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 62, List.of(EggGroup.GRASS),
-                List.of("Consuming the spores from this Pokémon has been known to cause psychic hallucinations. It can also lead to nausea and migraines, it is not advised."),
+                List.of("Consuming the spores from this Pokemon has been known to cause psychic hallucinations. It can also lead to nausea and migraines, it is not advised."),
                 List.of(new EvolutionEntry("psycholyte", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.CALM_MIND, "")),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

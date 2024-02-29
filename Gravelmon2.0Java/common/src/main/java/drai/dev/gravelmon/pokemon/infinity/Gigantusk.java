@@ -19,7 +19,7 @@ public class Gigantusk extends Pokemon {
                 140, ExperienceGroup.ERRATIC,
                 70,
                 48, List.of(EggGroup.MONSTER, EggGroup.FIELD),
-                List.of("This Pokémon was revived from a specimen found frozen in an ancient glacier. It was hunted by ancient humans for its extremely durable armor."),
+                List.of("This Pokemon was revived from a specimen found frozen in an ancient glacier. It was hunted by ancient humans for its extremely durable armor."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.IRON_HEAD,1),

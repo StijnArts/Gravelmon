@@ -27,7 +27,7 @@ public class Ekino extends drai.dev.gravelmon.pokemon.Pokemon {
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
-                List.of("Ekino are very well known to be courteous to people and Pokémon. They are high intelligent and want to impress their trainers. However, if they feel like a disappointment they will go hide and cry. When threatened, spikes come out their arms and they prepare to attack."),
+                List.of("Ekino are very well known to be courteous to people and Pokemon. They are high intelligent and want to impress their trainers. However, if they feel like a disappointment they will go hide and cry. When threatened, spikes come out their arms and they prepare to attack."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.AVORIS),

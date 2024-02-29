@@ -23,7 +23,7 @@ public class Tourtell extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Tourtell has a peaceful and relaxed nature. Pokémon usually gather on their back to travel across lakes and ponds. History is written on their sturdy bodies."),
+                List.of("Tourtell has a peaceful and relaxed nature. Pokemon usually gather on their back to travel across lakes and ponds. History is written on their sturdy bodies."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

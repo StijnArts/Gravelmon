@@ -23,7 +23,7 @@ public class Indureion extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(),
-                List.of("A mystical Pokémon that taught the people patience and kindness. Many farmers and gardeners believe that with patience, Indureion will bless them with bountiful crops and successful planting. Many believe eating the crops blessed by Indureion will purify them of their envy and impatience."),
+                List.of("A mystical Pokemon that taught the people patience and kindness. Many farmers and gardeners believe that with patience, Indureion will bless them with bountiful crops and successful planting. Many believe eating the crops blessed by Indureion will purify them of their envy and impatience."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

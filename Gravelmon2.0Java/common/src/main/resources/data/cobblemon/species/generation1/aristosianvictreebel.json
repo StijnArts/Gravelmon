@@ -1,0 +1,150 @@
+{
+  "implemented": true,
+  "name": "aristosianvictreebel",
+  "nationalPokedexNumber": 71,
+  "primaryType": "grass",
+  "secondaryType": "fire",
+  "abilities": [
+    "chlorophyll",
+    "h:flashfire"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 90,
+    "defence": 65,
+    "special_attack": 115,
+    "special_defence": 70,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 221,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:weatherball",
+    "32:leafstorm",
+    "45:firelash",
+    "tm:bind",
+    "tm:snoresound",
+    "tm:gigadrain",
+    "tm:synthesis",
+    "tm:knockoff",
+    "tm:gastroacid",
+    "tm:worryseed",
+    "tm:seedbomb",
+    "tm:swordsdance",
+    "tm:hyperbeam",
+    "tm:solarbeam",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:rest",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:sludgebomb",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:naturepower",
+    "tm:poisonjab",
+    "tm:energyball",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:venoshock",
+    "tm:roundsound",
+    "tm:confide",
+    "tm:infestation",
+    "tm:swordsdance",
+    "tm:toxic",
+    "tm:bodyslam",
+    "tm:takedown",
+    "tm:doubleedge",
+    "tm:hyperbeam",
+    "tm:rage",
+    "tm:megadrain",
+    "tm:solarbeam",
+    "tm:mimic",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:bide",
+    "tm:rest",
+    "tm:substitute",
+    "tm:cut",
+    "tm:flash",
+    "tm:leechlife",
+    "tm:encore",
+    "tm:ingrain",
+    "tm:tickle",
+    "tm:bulletseed",
+    "tm:magicalleaf",
+    "tm:naturalgift",
+    "tm:powerwhip",
+    "tm:acidspray",
+    "tm:clearsmog",
+    "tm:belch",
+    "tm:strengthsap"  ],
+  "labels": [
+    "aristos",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.aristosianvictreebel.desc"
+  ],
+  "preEvolution": "aristosianweepinbell",
+  "baseScale": 0.28125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 131,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

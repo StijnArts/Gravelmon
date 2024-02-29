@@ -21,14 +21,16 @@ public class Eucuwala extends drai.dev.gravelmon.pokemon.Pokemon {
                         48,
                         50),
                 List.of(Ability.OVERGROW), Ability.UNAWARE,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.HUMAN_LIKE),
                 List.of("Eucuwala spends the day collecting leaves in the forest canopy. If two Eucuwalas encounter each other, they swap leaves to taste different parts of the forest."),
-                List.of(),
+                List.of(new EvolutionEntry("gulacuff", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.LEAFAGE,5),
@@ -76,8 +78,8 @@ public class Eucuwala extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

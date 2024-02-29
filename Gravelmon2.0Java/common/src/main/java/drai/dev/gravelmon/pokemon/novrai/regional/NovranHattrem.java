@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranHattrem extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranHattrem() {
-        super("Hattrem",
+    public NovranHattrem(int dex) {
+        super(dex, "Hattrem",
                 Type.GRASS,Type.FAIRY,
                 new Stats(57,
                         40,
@@ -15,14 +15,15 @@ public class NovranHattrem extends drai.dev.gravelmon.pokemon.Pokemon {
                         73,
                         49),
                 List.of(Ability.SYMBIOSIS,Ability.HARVEST,Ability.GRASSY_SURGE), Ability.GRASSY_SURGE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,2,0,0), 120,
                 0.25,
                 130, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("Farmers will employ this form of Hattrem to care for their crops. When Impidimp tries to steal from the harvest, it will unleash its wrath."),
-                List.of(),
+                List.of(new EvolutionEntry("novranhatterene", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CUDDLE,1),
                         new MoveLearnSetEntry(Move.AROMATHERAPY,13),
@@ -96,8 +97,8 @@ public class NovranHattrem extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_GLIDE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 40, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

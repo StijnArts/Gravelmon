@@ -19,7 +19,7 @@ public class Tarzorus extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         30),
                 List.of(Ability.STICKY_HOLD), Ability.FILTER,
-                8, 165,
+                16, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 170, ExperienceGroup.SLOW,
@@ -87,14 +87,15 @@ public class Tarzorus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 31, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_DESERT, Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Tarzorus");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "scorment",
+  "nationalPokedexNumber": 3106,
+  "primaryType": "fire",
+  "secondaryType": "ghost",
+  "abilities": [
+    "flamebody",
+    "h:insomnia"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 100,
+    "special_defence": 70,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "fairy"
+  ],
+  "moves": [
+    "1:ember",
+    "1:growl",
+    "6:shadowsneak",
+    "8:hypnosis",
+    "20:shadowpunch",
+    "22:doubleteam",
+    "27:ominouswind",
+    "29:nightmare",
+    "34:firepunch",
+    "36:willowisp",
+    "43:shadowball",
+    "47:nastyplot",
+    "54:flamethrower",
+    "50:perishsongsound",
+    "65:inferno",
+    "tm:thunderwave",
+    "tm:headbutt",
+    "tm:shadowclaw",
+    "tm:substitute",
+    "tm:darkpulse",
+    "tm:poisonjab",
+    "tm:zapcannon",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:confuseray",
+    "tm:heatwave",
+    "tm:focusblast",
+    "tm:discharge",
+    "tm:willowisp",
+    "tm:nightslash",
+    "tm:cut",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "tutor:hiddenpower",
+    "tutor:cosmicpower",
+    "tutor:nastyplot",
+    "tutor:rest",
+    "tutor:toxic",
+    "egg:acidarmor",
+    "egg:curse",
+    "egg:extrasensory",
+    "egg:faketears",
+    "egg:fireblast",
+    "egg:flatter",
+    "egg:frustration",
+    "egg:grudge",
+    "egg:hyperbeam",
+    "egg:meanlook",
+    "egg:mimic",
+    "egg:minimize",
+    "egg:mirrorcoat",
+    "egg:overheat",
+    "egg:protect",
+    "egg:psybeam",
+    "egg:psywave",
+    "egg:return",
+    "egg:safeguard",
+    "egg:skillswap",
+    "egg:snatch",
+    "egg:solarbeam",
+    "egg:sunnyday",
+    "egg:thunderpunch"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.scorment.desc"
+  ],
+  "preEvolution": "grieflame",
+  "baseScale": 0.16875,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 9,
+  "weight": 85,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

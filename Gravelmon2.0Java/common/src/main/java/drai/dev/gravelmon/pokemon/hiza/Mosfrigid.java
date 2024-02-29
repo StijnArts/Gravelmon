@@ -21,7 +21,7 @@ public class Mosfrigid extends drai.dev.gravelmon.pokemon.Pokemon {
                 144, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It drains the warmth of people and Pokémon it stings. The warmer its own body gets, the better it can fly."),
+                List.of("It drains the warmth of people and Pokemon it stings. The warmer its own body gets, the better it can fly."),
                 List.of(new EvolutionEntry("skiito", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))
                 ),

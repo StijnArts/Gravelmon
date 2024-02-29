@@ -21,7 +21,7 @@ public class Tenanchre extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Significant paranormal activity inside a house has turned the house itself into a ghostly Pokémon. Furniture and pipes inside the house form its inner workings."),
+                List.of("Significant paranormal activity inside a house has turned the house itself into a ghostly Pokemon. Furniture and pipes inside the house form its inner workings."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.ENRIKO),

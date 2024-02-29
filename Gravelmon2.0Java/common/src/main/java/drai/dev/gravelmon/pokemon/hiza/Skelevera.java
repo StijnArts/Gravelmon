@@ -21,7 +21,7 @@ public class Skelevera extends drai.dev.gravelmon.pokemon.Pokemon {
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.HUMAN_LIKE),
-                List.of("This Pokémon was at first believed to be a human brought back to life through dark magic. The colored parts of its body are actually a sticky goop that hold the bones it collects together."),
+                List.of("This Pokemon was at first believed to be a human brought back to life through dark magic. The colored parts of its body are actually a sticky goop that hold the bones it collects together."),
                 List.of(new EvolutionEntry("orcleton", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
                 ),

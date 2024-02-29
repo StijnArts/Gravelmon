@@ -21,7 +21,7 @@ public class Pteroast extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.FLYING),
-                List.of("It's lightweight for a Steel-type Pokémon, so it can easily fly. Flocks of them congregate in volcanic plains, frolicking in the warm updrafts that emerge from the ground."),
+                List.of("It's lightweight for a Steel-type Pokemon, so it can easily fly. Flocks of them congregate in volcanic plains, frolicking in the warm updrafts that emerge from the ground."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFOG,"tm"),

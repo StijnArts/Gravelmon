@@ -21,7 +21,7 @@ public class Dodojo extends drai.dev.gravelmon.pokemon.Pokemon {
                 68, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
-                List.of("A recently extinct Pokémon whose fighting spirit was so tenacious that it refused to pass on. Its bones now serve as weapons for it."),
+                List.of("A recently extinct Pokemon whose fighting spirit was so tenacious that it refused to pass on. Its bones now serve as weapons for it."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),

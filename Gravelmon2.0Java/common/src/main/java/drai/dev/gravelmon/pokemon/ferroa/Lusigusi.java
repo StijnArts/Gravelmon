@@ -21,7 +21,7 @@ public class Lusigusi extends drai.dev.gravelmon.pokemon.Pokemon {
                 173, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_3),
-                List.of("It perches on rocks with its sucker-foot. It's often mistaken for a bird Pokémon from a distance, but it's only shaped like one; it can't even fly."),
+                List.of("It perches on rocks with its sucker-foot. It's often mistaken for a bird Pokemon from a distance, but it's only shaped like one; it can't even fly."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),

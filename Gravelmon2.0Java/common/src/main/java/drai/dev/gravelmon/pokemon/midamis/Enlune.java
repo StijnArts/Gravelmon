@@ -17,8 +17,8 @@ public class Enlune extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         75),
                 List.of(Ability.VOLT_ABSORB), Ability.VOLT_ABSORB,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 165,
+                new Stats(0,0,0,0,0,0), 140,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -41,8 +41,8 @@ public class Enlune extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER_FANG,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 54, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,6 +1,27 @@
 package drai.dev.gravelmon.games.pokemmo;
 
+import drai.dev.gravelmon.pokemon.aristos.*;
+import drai.dev.gravelmon.pokemon.atlas.*;
+import drai.dev.gravelmon.pokemon.avoris.*;
+import drai.dev.gravelmon.pokemon.enriko.*;
+import drai.dev.gravelmon.pokemon.ferroa.*;
+import drai.dev.gravelmon.pokemon.hiza.*;
+import drai.dev.gravelmon.pokemon.hub.*;
 import drai.dev.gravelmon.pokemon.interregional.*;
+import drai.dev.gravelmon.pokemon.isiah.*;
+import drai.dev.gravelmon.pokemon.junnin.*;
+import drai.dev.gravelmon.pokemon.lonava.*;
+import drai.dev.gravelmon.pokemon.midamis.*;
+import drai.dev.gravelmon.pokemon.mythire.*;
+import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.nosto.*;
+import drai.dev.gravelmon.pokemon.novrai.*;
+import drai.dev.gravelmon.pokemon.oceane.*;
+import drai.dev.gravelmon.pokemon.okeno.*;
+import drai.dev.gravelmon.pokemon.orohnhavai.*;
+import drai.dev.gravelmon.pokemon.qamor.*;
+import drai.dev.gravelmon.pokemon.rica.*;
+import drai.dev.gravelmon.pokemon.varitas.*;
 
 public class Interregional extends drai.dev.gravelmon.games.registry.Game {
     public Interregional() {

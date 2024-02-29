@@ -19,7 +19,7 @@ public class EghoVenusaur extends Pokemon {
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.MONSTER),
-                List.of("Large, thorn covered brambles protect an aged cactus. Small rodent Pokémon tend to make nests in the dry grass patches at the base of the cactus."),
+                List.of("Large, thorn covered brambles protect an aged cactus. Small rodent Pokemon tend to make nests in the dry grass patches at the base of the cactus."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BULLDOZE,0),

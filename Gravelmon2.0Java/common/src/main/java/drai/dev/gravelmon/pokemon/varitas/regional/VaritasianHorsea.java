@@ -23,7 +23,7 @@ public class VaritasianHorsea extends drai.dev.gravelmon.pokemon.Pokemon {
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
-                List.of("If Horsea senses danger, it will reflexively spray a dense black ink from its mouth and try to escape. This Pokémon swims by cleverly flapping the fin on its back."),
+                List.of("If Horsea senses danger, it will reflexively spray a dense black ink from its mouth and try to escape. This Pokemon swims by cleverly flapping the fin on its back."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

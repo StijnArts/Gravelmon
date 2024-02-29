@@ -21,7 +21,7 @@ public class Amalgarment extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
-                List.of("It's made up of Caughtton stuck together through built-up static charge. Pokémon resistant to electricity may use it as a place to sleep, due to how soft and warm it is."),
+                List.of("It's made up of Caughtton stuck together through built-up static charge. Pokemon resistant to electricity may use it as a place to sleep, due to how soft and warm it is."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,1),

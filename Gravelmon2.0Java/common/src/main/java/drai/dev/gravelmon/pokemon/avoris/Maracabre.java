@@ -27,7 +27,7 @@ public class Maracabre extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("They dance all night as a way of honoring the departed. It is said these Pokémon help wandering spirits find their way to visit their living relatives. The trail of petals they leave guide them back home to the world of spirits."),
+                List.of("They dance all night as a way of honoring the departed. It is said these Pokemon help wandering spirits find their way to visit their living relatives. The trail of petals they leave guide them back home to the world of spirits."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.INGRAIN,1),

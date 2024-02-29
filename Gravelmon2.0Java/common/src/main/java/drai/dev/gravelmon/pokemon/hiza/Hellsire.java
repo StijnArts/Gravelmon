@@ -21,7 +21,7 @@ public class Hellsire extends drai.dev.gravelmon.pokemon.Pokemon {
                 306, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("A legendary Pokémon that lives deep in the planet's core. A single flap of its wings can burn whole continents to a crisp."),
+                List.of("A legendary Pokemon that lives deep in the planet's core. A single flap of its wings can burn whole continents to a crisp."),
                 List.of(),
                 List.of(           new MoveLearnSetEntry(Move.INCINERATE,1),
                         new MoveLearnSetEntry(Move.LEER,1),

@@ -17,8 +17,8 @@ public class Birryde extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         120),
                 List.of(Ability.KEEN_EYE,Ability.NOCTURNAL,Ability.INFILTRATOR), Ability.INFILTRATOR,
-                8, 165,
-                new Stats(0,0,1,0,0,2), 0,
+                14, 165,
+                new Stats(0,0,1,0,0,2), 90,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -44,14 +44,14 @@ public class Birryde extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROOST,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 53, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Birryde");
+        setCanFly(true);
 
     }
 

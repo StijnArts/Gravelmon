@@ -21,7 +21,7 @@ public class Mesmarine extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.MINERAL),
-                List.of("Mesmarine slowly creep across the seafloor collecting minerals from the sand. They use these to form their disorientingly sparkly shells, which are tough enough to resist the battering of waves which would sweep away most other Pokémon."),
+                List.of("Mesmarine slowly creep across the seafloor collecting minerals from the sand. They use these to form their disorientingly sparkly shells, which are tough enough to resist the battering of waves which would sweep away most other Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LIGHT_SCREEN,1),

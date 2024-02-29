@@ -24,7 +24,7 @@ public class Mornwing extends Pokemon {
                 69, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FLYING, EggGroup.DRAGON),
-                List.of("Its ferocious vigilance is its greatest strength. It often attacks the second it sees another Pokémon."),
+                List.of("Its ferocious vigilance is its greatest strength. It often attacks the second it sees another Pokemon."),
                 List.of(new EvolutionEntry("guldawn", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

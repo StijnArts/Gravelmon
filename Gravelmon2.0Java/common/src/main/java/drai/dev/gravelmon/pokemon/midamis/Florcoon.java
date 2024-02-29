@@ -17,14 +17,16 @@ public class Florcoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         40),
                 List.of(Ability.OVERGROW), Ability.SCRAPPY,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.875,
                 54, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Florcoon are rather energetic Pokemon, who like foraging through small forests for fallen berries and such. They are generally friendly, but upon evolution it can grow a rather aggressive nature. A Florcoon likes nothing better than to walk up to a person's behind and poke them with their horns."),
-                List.of(),
+                List.of(new EvolutionEntry("bufaroon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.LEECH_SEED,6),
@@ -48,11 +50,11 @@ public class Florcoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.INGRAIN,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_BERRY_BUSH),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Florcoon");

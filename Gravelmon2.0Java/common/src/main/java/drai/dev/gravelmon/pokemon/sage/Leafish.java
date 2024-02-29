@@ -19,7 +19,7 @@ public class Leafish extends Pokemon {
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2, EggGroup.GRASS),
-                List.of("When food is scarce, it floats sideways on the water's surface and absorbs sunlight for energy. Bug Pokémon often land on it, mistaking Leafish for a real leaf."),
+                List.of("When food is scarce, it floats sideways on the water's surface and absorbs sunlight for energy. Bug Pokemon often land on it, mistaking Leafish for a real leaf."),
                 List.of(new EvolutionEntry("chlorofin", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranOmanyte extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranOmanyte() {
-        super("Omanyte",
+    public NovranOmanyte(int id) {
+        super(id, "Omanyte",
                 Type.ROCK,Type.DRAGON,
                 new Stats(35,
                         40,
@@ -15,14 +15,15 @@ public class NovranOmanyte extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         35),
                 List.of(Ability.DAZZLING,Ability.MARVEL_SCALE,Ability.JACKPOT), Ability.JACKPOT,
-                8, 165,
+                4, 165,
                 new Stats(0,0,1,0,0,0), 45,
                 0.5,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_3),
                 List.of("It was a greedy creature that would hoard anything it considered to be valuable. Fossils of its beautiful blue shell are often used for jewelry."),
-                List.of(),
+                List.of(new EvolutionEntry("novranomastar", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONSTRICT,1),
                         new MoveLearnSetEntry(Move.PAY_DAY,7),
@@ -109,14 +110,16 @@ public class NovranOmanyte extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_BALL,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 11, 36, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Omanyte");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

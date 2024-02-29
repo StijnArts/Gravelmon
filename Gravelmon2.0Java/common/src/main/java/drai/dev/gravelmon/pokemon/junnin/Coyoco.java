@@ -19,7 +19,7 @@ public class Coyoco extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         50),
                 List.of(Ability.FLAME_BODY), Ability.MOXIE,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,1,0,0), 120,
                 0.5,
                 133, ExperienceGroup.MEDIUM_FAST,
@@ -79,8 +79,8 @@ public class Coyoco extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OUTRAGE,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 38, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

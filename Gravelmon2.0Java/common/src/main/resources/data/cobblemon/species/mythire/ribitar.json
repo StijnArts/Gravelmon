@@ -1,0 +1,81 @@
+{
+  "implemented": true,
+  "name": "ribitar",
+  "nationalPokedexNumber": 2691,
+  "primaryType": "rock",
+  "secondaryType": "poison",
+  "abilities": [
+    "gooey",
+    "h:flareboost"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 52,
+    "special_attack": 70,
+    "special_defence": 65,
+    "speed": 25
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 72,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "amorphous"
+  ],
+  "moves": [
+  ],
+  "labels": [
+    "mythire",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ribitar.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

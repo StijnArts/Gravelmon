@@ -1,8 +1,27 @@
 package drai.dev.gravelmon.games.pokemmo;
 
+import drai.dev.gravelmon.pokemon.aristos.*;
+import drai.dev.gravelmon.pokemon.atlas.*;
+import drai.dev.gravelmon.pokemon.avoris.*;
+import drai.dev.gravelmon.pokemon.enriko.*;
+import drai.dev.gravelmon.pokemon.ferroa.*;
+import drai.dev.gravelmon.pokemon.hiza.*;
+import drai.dev.gravelmon.pokemon.hub.*;
+import drai.dev.gravelmon.pokemon.interregional.*;
+import drai.dev.gravelmon.pokemon.isiah.*;
+import drai.dev.gravelmon.pokemon.junnin.*;
+import drai.dev.gravelmon.pokemon.lonava.*;
+import drai.dev.gravelmon.pokemon.midamis.*;
+import drai.dev.gravelmon.pokemon.mythire.*;
+import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.nosto.*;
 import drai.dev.gravelmon.pokemon.novrai.*;
+import drai.dev.gravelmon.pokemon.oceane.*;
+import drai.dev.gravelmon.pokemon.okeno.*;
+import drai.dev.gravelmon.pokemon.orohnhavai.*;
 import drai.dev.gravelmon.pokemon.qamor.*;
-import drai.dev.gravelmon.pokemon.qamor.regional.*;
+import drai.dev.gravelmon.pokemon.rica.*;
+import drai.dev.gravelmon.pokemon.varitas.*;
 
 public class Qamor extends drai.dev.gravelmon.games.registry.Game {
     public Qamor() {
@@ -55,10 +74,9 @@ public class Qamor extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Dambattoir());
 //        pokemon.add(new Dashkite());
 //        pokemon.add(new Decibelle());
-//        pokemon.add(new Dewgong());
 //        pokemon.add(new Disgaze());
 //        pokemon.add(new Dokuduru());
-//        pokemon.add(new EXEon()); NOT FINISHED
+////        pokemon.add(new EXEon()); //NOT FINISHED
 //        pokemon.add(new Effigeam());
 //        pokemon.add(new Encantomb());
 //        pokemon.add(new Espurr());
@@ -110,14 +128,11 @@ public class Qamor extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Popondot());
         pokemon.add(new Pudgey());
 //        pokemon.add(new Puglup());
-//        pokemon.add(new Rabsca());
 //        pokemon.add(new Rascage());
 //        pokemon.add(new Resistreak());
 //        pokemon.add(new Rubee());
 //        pokemon.add(new Saguartic());
-//        pokemon.add(new Sandygast());
 //        pokemon.add(new Seasnug());
-//        pokemon.add(new Seel());
 //        pokemon.add(new Selkreeper());
 //        pokemon.add(new Servolt());
 //        pokemon.add(new Snipspawn());

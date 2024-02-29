@@ -17,14 +17,15 @@ public class Kwauwk extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         50),
                 List.of(Ability.MOODY), Ability.UNAWARE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("These Pokemon are well-known for their odd assortment of attack types. Kwauwk is said to shift type entirely when they lose focus, but this has been unproven."),
-                List.of(),
+                List.of(new EvolutionEntry("quwauzrel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.NATURE_POWER,1),
                         new MoveLearnSetEntry(Move.SKETCH,7),
@@ -39,14 +40,14 @@ public class Kwauwk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Kwauwk");
+        setCanFly(true);
 
     }
 

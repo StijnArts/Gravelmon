@@ -21,7 +21,7 @@ public class Kyuukit extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Kyuukit adore hot springs, especially those found near the western seaboard of Lonava. These scrappy Pokémon can alter the humidity of the surrounding air to slow down their opponents, though it usually leaves their fur very poofy."),
+                List.of("Kyuukit adore hot springs, especially those found near the western seaboard of Lonava. These scrappy Pokemon can alter the humidity of the surrounding air to slow down their opponents, though it usually leaves their fur very poofy."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

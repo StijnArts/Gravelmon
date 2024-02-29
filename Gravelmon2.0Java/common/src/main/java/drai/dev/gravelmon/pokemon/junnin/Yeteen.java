@@ -25,8 +25,10 @@ public class Yeteen extends drai.dev.gravelmon.pokemon.Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.GRASS),
-                List.of("Grass PledgeSTAB Grass Grassy GlideSTAB Grass Helping Hand Normal Snore Normal Grass KnotSTAB Grass Grassy Terrain Grass Attract Normal Bide Normal Confide Normal Double Team Normal Encore Normal Endure Normal Facade Normal Frustration Normal Heartfelt Pulse Normal Hidden Power Normal Natural Gift Normal Nature Power Normal Protect Normal Return Normal Roar Normal Round Normal Scary Face Normal Secret Power Normal Sleep Talk Normal Substitute Normal Swagger Normal Swift Normal Toxic Poison Rest Psychic"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("yetitan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GRASS_PLEDGE,"tm"),
                         new MoveLearnSetEntry(Move.GRASSY_GLIDE,"tm"),
@@ -63,9 +65,9 @@ public class Yeteen extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm"),
                         new MoveLearnSetEntry(Move.CHARM,"tm")                        ),
                 List.of(Label.JUNNIN),
-                0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                0, List.of(),
+                SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

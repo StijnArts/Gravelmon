@@ -19,7 +19,7 @@ public class DeltaLucario extends Pokemon {
                 184, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("The afterlife and rebirth of souls are sacred to this Pokémon. It will fiercely guard any tomb or cemetery that it comes across from graverobbers."),
+                List.of("The afterlife and rebirth of souls are sacred to this Pokemon. It will fiercely guard any tomb or cemetery that it comes across from graverobbers."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.EXTREME_SPEED,1),

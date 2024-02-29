@@ -23,7 +23,7 @@ public class Dambattoir extends drai.dev.gravelmon.pokemon.Pokemon {
                 240, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Dambattoir's flame is always lit throughout its lifetime, even after death the fire will still burn for weeks as a sign of its lingering soul. It is also said that the flame will shrink if something disastrous happens in the Pokémon's life, such as the loss of a loved one."),
+                List.of("Dambattoir's flame is always lit throughout its lifetime, even after death the fire will still burn for weeks as a sign of its lingering soul. It is also said that the flame will shrink if something disastrous happens in the Pokemon's life, such as the loss of a loved one."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

@@ -23,7 +23,7 @@ public class Steinfjorir extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Steinfjorir usually attacks from below, raising sharp rocks to trap its foes. The rugged coasts and fjords surrounding and entering Norheim has been shaped by this bird Pokémon."),
+                List.of("Steinfjorir usually attacks from below, raising sharp rocks to trap its foes. The rugged coasts and fjords surrounding and entering Norheim has been shaped by this bird Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_TOMB,1),

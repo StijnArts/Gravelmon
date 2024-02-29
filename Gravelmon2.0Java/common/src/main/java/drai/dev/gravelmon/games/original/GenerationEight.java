@@ -6,6 +6,7 @@ import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
+import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.orohnhavai.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
@@ -18,6 +19,16 @@ public class GenerationEight extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new NovranWooloo(831));
+        pokemon.add(new NovranDubwool(832));
+        pokemon.add(new NovranClobbopus(852));
+        pokemon.add(new NovranGrapploct(853));
+        pokemon.add(new NovranHatenna(856));
+        pokemon.add(new NovranHattrem(857));
+        pokemon.add(new NovranHatterene(858));
+        pokemon.add(new NovranImpidimp(859));
+        pokemon.add(new NovranMorgrem(860));
+        pokemon.add(new NovranGrimmsnarl(861));
 
 //        pokemon.add(new NorheimanRookidee(821)); NOT FINISHED
 //        pokemon.add(new NorheimanCorvisquire(822)); NOT FINISHED

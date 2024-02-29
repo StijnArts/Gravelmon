@@ -23,7 +23,7 @@ public class Rivulcred extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("It is known to be a guardian to a sacred river in the Orohn Division. It kept the waters clean and pure. When it disappeared the river became polluted which killed all the plants and made the Pokémon sick."),
+                List.of("It is known to be a guardian to a sacred river in the Orohn Division. It kept the waters clean and pure. When it disappeared the river became polluted which killed all the plants and made the Pokemon sick."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

@@ -21,7 +21,7 @@ public class Lurelit extends drai.dev.gravelmon.pokemon.Pokemon {
                 85, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("A cave-dwelling Pokémon that leads prey astray with misleading beams of light. It hates the touch of sunlight."),
+                List.of("A cave-dwelling Pokemon that leads prey astray with misleading beams of light. It hates the touch of sunlight."),
                 List.of(new EvolutionEntry("grimfernal", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
                 ),

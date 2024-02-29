@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranSkrelp extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranSkrelp() {
-        super("Skrelp",
+    public NovranSkrelp(int dex) {
+        super(dex, "Skrelp",
                 Type.GRASS,Type.WATER,
                 new Stats(50,
                         60,
@@ -15,14 +15,15 @@ public class NovranSkrelp extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         30),
                 List.of(Ability.IMMUNITY,Ability.NATURAL_CURE,Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 225,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
                 List.of("Novrai's kelp forests are pristine and healthy, so Skrelp has evolved to blend in. Its body still contains deadly toxins, though, and even a single nibble can prove fatal."),
-                List.of(),
+                List.of(new EvolutionEntry("novrandragalge", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,5),
@@ -96,14 +97,15 @@ public class NovranSkrelp extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_RAGE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 32, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Skrelp");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

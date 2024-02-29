@@ -20,7 +20,7 @@ public class Grubait extends drai.dev.gravelmon.pokemon.Pokemon {
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It falls common prey to Flying-types such as Kisadee. Fishermen are sometimes caught using Grubait as lure, claiming it brings them better fish Pokémon."),
+                List.of("It falls common prey to Flying-types such as Kisadee. Fishermen are sometimes caught using Grubait as lure, claiming it brings them better fish Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEET_SCENT,1),

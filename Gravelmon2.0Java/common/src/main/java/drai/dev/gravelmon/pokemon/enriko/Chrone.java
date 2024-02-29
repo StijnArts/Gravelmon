@@ -21,7 +21,7 @@ public class Chrone extends drai.dev.gravelmon.pokemon.Pokemon {
                 87, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("A presumably manmade Pokémon that can be seen spying on people. It seems to subsist solely on visual stimulation, as it can only die if its lens is blocked for too long."),
+                List.of("A presumably manmade Pokemon that can be seen spying on people. It seems to subsist solely on visual stimulation, as it can only die if its lens is blocked for too long."),
                 List.of(new EvolutionEntry("reconuisance", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:upgrade")),
                 List.of(

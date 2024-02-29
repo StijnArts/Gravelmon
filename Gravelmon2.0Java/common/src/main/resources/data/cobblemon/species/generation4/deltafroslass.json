@@ -1,0 +1,217 @@
+{
+  "implemented": true,
+  "name": "deltafroslass",
+  "nationalPokedexNumber": 478,
+  "primaryType": "fire",
+  "abilities": [
+    "rockhead",
+    "h:flashfire"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 70,
+    "special_attack": 80,
+    "special_defence": 70,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Mega",
+      "primaryType": "fire",
+      "secondaryType": "ghost",
+      "abilities": [
+    "magicguard",
+    "h:flashfire"
+      ],
+      "baseScale": 0.24375,
+        "hitbox": {
+          "width": 6.0,
+          "height": 6.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 80,
+        "defence": 85,
+        "special_attack": 120,
+        "special_defence": 105,
+        "speed": 120
+      },
+      "catchRate": 75,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 259,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+      },
+      "experienceGroup": "medium_fast",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence",
+    "not_modeled"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 1,
+      "weight": 2660,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 259,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:inferno",
+    "1:ember",
+    "1:leer",
+    "1:doubleteam",
+    "1:flamecharge",
+    "5:doubleteam",
+    "10:flamecharge",
+    "14:incinerate",
+    "19:echoedvoicesound",
+    "23:firespin",
+    "28:charm",
+    "32:willowisp",
+    "37:lavaplume",
+    "41:hypervoicesound",
+    "42:fierydance",
+    "48:fireblast",
+    "54:batonpass",
+    "61:inferno",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:overheat",
+    "tm:energyball",
+    "tm:willowisp",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalksound",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:snarl",
+    "tm:confide",
+    "tm:darkmatter",
+    "tm:spikes",
+    "tm:secretpower",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:ancientpower",
+    "tutor:batonpass",
+    "tutor:block",
+    "tutor:earthpower",
+    "tutor:endure",
+    "tutor:firepunch",
+    "tutor:foulplay",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:hypervoicesound",
+    "tutor:knockoff",
+    "tutor:mimic",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:uproar"  ],
+  "labels": [
+    "gen4",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltafroslass.desc"
+  ],
+  "preEvolution": "deltasnorunt",
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 13,
+  "weight": 266,
+  "aspects": [],
+"features": [
+"mega"
+  ],  "cannotDynamax": false
+}

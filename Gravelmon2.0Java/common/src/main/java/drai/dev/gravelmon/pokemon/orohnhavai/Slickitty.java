@@ -23,7 +23,7 @@ public class Slickitty extends drai.dev.gravelmon.pokemon.Pokemon {
                 59, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("These energetic speedy Pokémon love to chase after others. The static it generates in its fur is sure to shock whoever pets it."),
+                List.of("These energetic speedy Pokemon love to chase after others. The static it generates in its fur is sure to shock whoever pets it."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,1),

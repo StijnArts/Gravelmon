@@ -27,7 +27,7 @@ public class Faelily extends drai.dev.gravelmon.pokemon.Pokemon {
                 161, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
-                List.of("Faelily are gentle Pokémon. They store water in their leaf-bowl, which they then purify. They share the water with Pokémon in need, and can also be seen watering plants and flowers."),
+                List.of("Faelily are gentle Pokemon. They store water in their leaf-bowl, which they then purify. They share the water with Pokemon in need, and can also be seen watering plants and flowers."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

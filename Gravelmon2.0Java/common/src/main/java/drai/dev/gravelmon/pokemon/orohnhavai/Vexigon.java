@@ -23,7 +23,7 @@ public class Vexigon extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Vexigon can be quite a handful for Trainers. They like causing ruckus and disobeying commands. These stubborn Pokémon can go hours or even days of causing trouble."),
+                List.of("Vexigon can be quite a handful for Trainers. They like causing ruckus and disobeying commands. These stubborn Pokemon can go hours or even days of causing trouble."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

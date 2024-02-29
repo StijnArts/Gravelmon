@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranGrapploct extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranGrapploct() {
-        super("Grapploct",
+    public NovranGrapploct(int dex) {
+        super(dex, "Grapploct",
                 Type.FIGHTING,Type.POISON,
                 new Stats(80,
                         118,
@@ -15,7 +15,7 @@ public class NovranGrapploct extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         42),
                 List.of(Ability.POISON_TOUCH,Ability.SUCTION_CUPS,Ability.MERCILESS), Ability.MERCILESS,
-                8, 165,
+                16, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 168, ExperienceGroup.MEDIUM_SLOW,
@@ -112,14 +112,15 @@ public class NovranGrapploct extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DARKEST_LARIAT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 35, 50, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Grapploct");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

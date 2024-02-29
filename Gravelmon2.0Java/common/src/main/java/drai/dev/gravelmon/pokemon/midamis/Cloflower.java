@@ -17,14 +17,15 @@ public class Cloflower extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         35),
                 List.of(Ability.EFFECT_SPORE), Ability.FOREWARN,
-                8, 165,
-                new Stats(0,0,0,1,0,0), 0,
+                3, 165,
+                new Stats(0,0,0,1,0,0), 190,
                 0.125,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
                 List.of("These gentle Pokemon can often be seen digging for roots underneath the soil of forests and even jungles. They are not aware of their psychic powers but that doesn't stop them from trying."),
-                List.of(),
+                List.of(new EvolutionEntry("petafleur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"12")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
                         new MoveLearnSetEntry(Move.STUN_SPORE,6),
@@ -47,10 +48,10 @@ public class Cloflower extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 15, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

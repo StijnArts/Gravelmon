@@ -24,7 +24,7 @@ public class Blizentork extends Pokemon {
                 207, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_1, EggGroup.FIELD),
-                List.of("It goes around giving out food to hungry Pokémon. Because of this, some call it 'The Pokémon Santa Claus'."),
+                List.of("It goes around giving out food to hungry Pokemon. Because of this, some call it 'The Pokemon Santa Claus'."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PRESENT,1),

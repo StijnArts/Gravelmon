@@ -1,0 +1,119 @@
+{
+  "implemented": true,
+  "name": "cefiranpetilil",
+  "nationalPokedexNumber": 548,
+  "primaryType": "grass",
+  "secondaryType": "poison",
+  "abilities": [
+    "prankster",
+    "owntempo",
+    "h:leafguard"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 35,
+    "defence": 50,
+    "special_attack": 30,
+    "special_defence": 70,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 56,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:absorb",
+    "4:growth",
+    "8:leechseed",
+    "10:sleeppowder",
+    "13:megadrain",
+    "17:synthesis",
+    "19:magicalleaf",
+    "22:stunspore",
+    "26:gigadrain",
+    "28:aromatherapy",
+    "31:helpinghand",
+    "35:energyball",
+    "37:sludgebomb",
+    "40:sunnyday",
+    "44:sludgewave",
+    "46:leafstorm",
+    "egg:tackle",
+    "egg:charm",
+    "egg:endure",
+    "egg:grasswhistle",
+    "egg:healingwish",
+    "egg:ingrain",
+    "egg:naturalgift",
+    "egg:sweetscent",
+    "egg:worryseed"  ],
+  "labels": [
+    "gen5",
+    "opal",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiranpetilil.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cefiranpetilil_Cefiranlilligant",
+      "variant": "item_interact",
+      "result": "Cefiranlilligant",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 66,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

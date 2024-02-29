@@ -21,7 +21,7 @@ public class Crystalis extends drai.dev.gravelmon.pokemon.Pokemon {
                 110, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("When it evolves, Grubzero encases itself in its own ice and waits. It need not worry about predators, as no sane Pokémon would break open an ice block just to get such a small morsel."),
+                List.of("When it evolves, Grubzero encases itself in its own ice and waits. It need not worry about predators, as no sane Pokemon would break open an ice block just to get such a small morsel."),
                 List.of(new EvolutionEntry("himilago", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),

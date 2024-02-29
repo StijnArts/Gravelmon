@@ -19,14 +19,16 @@ public class Baybolt extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         60),
                 List.of(Ability.STATIC,Ability.PICKUP,Ability.MOTOR_DRIVE), Ability.MOTOR_DRIVE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 235,
                 0.5,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Baybolt lives in the canopy of the Junnin trees. In certain areas it has become the cause of forest fires because it sometimes attracts lightning, which strikes the trees around it."),
-                List.of(),
+                List.of(new EvolutionEntry("bolteen", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.CHARGE,4),
@@ -102,8 +104,8 @@ public class Baybolt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWAGGER,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -25,7 +25,7 @@ public class Withereen extends drai.dev.gravelmon.pokemon.Pokemon {
                 222, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("It is known as the weed Pokémon because after one Dandylie is seen, others start to appear all over in the area. The large buds on its hands and tail are good for physical attacks."),
+                List.of("It is known as the weed Pokemon because after one Dandylie is seen, others start to appear all over in the area. The large buds on its hands and tail are good for physical attacks."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BULLET_SEED,1),

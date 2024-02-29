@@ -1,0 +1,163 @@
+{
+  "implemented": true,
+  "name": "ayreiancamerupt",
+  "nationalPokedexNumber": 323,
+  "primaryType": "water",
+  "secondaryType": "ground",
+  "abilities": [
+    "unaware",
+    "sapsipper",
+    "h:berserk"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 80,
+    "defence": 75,
+    "special_attack": 40,
+    "special_defence": 115,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:muddywater",
+    "1:growl",
+    "1:tackle",
+    "5:watergun",
+    "8:focusenergy",
+    "12:mudshot",
+    "15:waterpulse",
+    "19:amnesia",
+    "22:ancientpower",
+    "26:earthpower",
+    "29:curse",
+    "31:takedown",
+    "36:yawn",
+    "41:scald",
+    "47:earthquake",
+    "52:waterspout",
+    "59:fissure",
+    "tutor:afteryou",
+    "tutor:attract",
+    "tutor:bulldoze",
+    "tutor:confide",
+    "tutor:dig",
+    "tutor:doubleteam",
+    "tutor:earthpower",
+    "tutor:earthquake",
+    "tutor:echoedvoicesound",
+    "tutor:endure",
+    "tutor:explosion",
+    "tutor:facade",
+    "tutor:fireblast",
+    "tutor:flamecharge",
+    "tutor:flamethrower",
+    "tutor:flashcannon",
+    "tutor:frustration",
+    "tutor:gigaimpact",
+    "tutor:heatwave",
+    "tutor:hiddenpower",
+    "tutor:hyperbeam",
+    "tutor:ironhead",
+    "tutor:naturepower",
+    "tutor:overheat",
+    "tutor:protect",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:roarsound",
+    "tutor:rockpolish",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rocktomb",
+    "tutor:roundsound",
+    "tutor:sandstorm",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:solarbeam",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:stoneedge",
+    "tutor:strength",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:toxic",
+    "tutor:willowisp",
+    "egg:howlsound",
+    "egg:scaryface",
+    "egg:bodyslam",
+    "egg:rollout",
+    "egg:defensecurl",
+    "egg:stomp",
+    "egg:yawn",
+    "egg:ancientpower",
+    "egg:mudbomb",
+    "egg:heatwave",
+    "egg:stockpile",
+    "egg:swallow",
+    "egg:spitup",
+    "egg:endure",
+    "egg:ironhead",
+    "egg:growth",
+    "egg:heavyslam"  ],
+  "labels": [
+    "gen3",
+    "vanguard",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreiancamerupt.desc"
+  ],
+  "preEvolution": "ayreiannumel",
+  "baseScale": 0.35625,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 2200,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

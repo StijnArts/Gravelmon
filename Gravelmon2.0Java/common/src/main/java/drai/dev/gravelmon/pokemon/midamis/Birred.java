@@ -17,14 +17,15 @@ public class Birred extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         80),
                 List.of(Ability.KEEN_EYE), Ability.NOCTURNAL,
-                8, 165,
-                new Stats(0,0,0,0,0,1), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Birred like to collect things, it differs per Birred what they're after but every single Birred has an obsession which can be quite annoying for passing trainers, because it's impossible to tell what object they have to keep pocketed."),
-                List.of(),
+                List.of(new EvolutionEntry("birryde", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GUST,1),
                         new MoveLearnSetEntry(Move.HAZE,6),
@@ -50,14 +51,14 @@ public class Birred extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROOST,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Birred");
+        setCanFly(true);
 
     }
 

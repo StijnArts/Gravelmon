@@ -21,7 +21,7 @@ public class Palodefena extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("This tiny Pokémon curls up inside its shell when attacked. Despite only learning the weakest, most basic attacks, it makes up for it with a sturdy defence."),
+                List.of("This tiny Pokemon curls up inside its shell when attacked. Despite only learning the weakest, most basic attacks, it makes up for it with a sturdy defence."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

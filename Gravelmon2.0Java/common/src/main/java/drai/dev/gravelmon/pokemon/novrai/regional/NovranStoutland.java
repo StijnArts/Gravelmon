@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranStoutland extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranStoutland() {
-        super("Stoutland",
+    public NovranStoutland(int dex) {
+        super(dex, "Stoutland",
                 Type.NORMAL,Type.ICE,
                 new Stats(85,
                         110,
@@ -15,7 +15,7 @@ public class NovranStoutland extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         80),
                 List.of(Ability.INTIMIDATE,Ability.SLUSH_RUSH,Ability.SNOW_WARNING), Ability.SNOW_WARNING,
-                8, 165,
+                12, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 221, ExperienceGroup.MEDIUM_SLOW,
@@ -100,8 +100,8 @@ public class NovranStoutland extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONE_RUSH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 32, 50, .06, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

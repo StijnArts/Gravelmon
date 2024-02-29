@@ -26,20 +26,36 @@ public class Nesshoal extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("Charm Fairy Happy Slap Fairy"),
-                List.of(),
+                List.of(new EvolutionEntry("psyren", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
+                        new MoveLearnSetEntry(Move.WATER_GUN,1),
+                        new MoveLearnSetEntry(Move.ASTONISH,4),
+                        new MoveLearnSetEntry(Move.CONFUSION,9),
+                        new MoveLearnSetEntry(Move.BITE,12),
+                        new MoveLearnSetEntry(Move.AQUA_JET,17),
+                        new MoveLearnSetEntry(Move.DISABLE,20),
+                        new MoveLearnSetEntry(Move.PSYSHOCK,25),
+                        new MoveLearnSetEntry(Move.CRUNCH,28),
+                        new MoveLearnSetEntry(Move.AQUA_TAIL,33),
+                        new MoveLearnSetEntry(Move.SCREECH,36),
+                        new MoveLearnSetEntry(Move.PSYCHIC_FANGS,41),
+                        new MoveLearnSetEntry(Move.WAVE_CRASH,44),
                         new MoveLearnSetEntry(Move.CHARM,"tm"),
                         new MoveLearnSetEntry(Move.HAPPYSLAP,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FRESHWATER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nesshoal");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+
 
     }
 

@@ -23,7 +23,7 @@ public class Gremleaf extends drai.dev.gravelmon.pokemon.Pokemon {
                 142, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FIELD),
-                List.of("Little to nothing seems to peek a Gremleaf's curiosity, it goes about its days caring about less and less. Nevertheless, this Pokémon is known for prancing around the jungle floor, flapping wildly to confuse and startle predators while dancing rhythmically to entertain others- all with a completely dull poker face."),
+                List.of("Little to nothing seems to peek a Gremleaf's curiosity, it goes about its days caring about less and less. Nevertheless, this Pokemon is known for prancing around the jungle floor, flapping wildly to confuse and startle predators while dancing rhythmically to entertain others- all with a completely dull poker face."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCREECH,1),

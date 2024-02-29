@@ -24,7 +24,7 @@ public class Phantonate extends Pokemon {
                 108, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Despite its ghostly appearance, it is completely solid. It brings the wandering souls of Pokémon to their rightful place."),
+                List.of("Despite its ghostly appearance, it is completely solid. It brings the wandering souls of Pokemon to their rightful place."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,1),

@@ -21,7 +21,7 @@ public class Haibril extends drai.dev.gravelmon.pokemon.Pokemon {
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
-                List.of("Haibril are irritable Pokémon on average, and often become absolutely livid at the most minor inconveniences. They are often found locking horns during combat in farms and fields. | Movepool needs adjusting."),
+                List.of("Haibril are irritable Pokemon on average, and often become absolutely livid at the most minor inconveniences. They are often found locking horns during combat in farms and fields. | Movepool needs adjusting."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TAUNT,8),

@@ -19,7 +19,7 @@ public class Wikkin extends Pokemon {
                 179, ExperienceGroup.FAST,
                 70,
                 39, List.of(EggGroup.GRASS, EggGroup.FAIRY),
-                List.of("It carries a single leaf with it at all times. With one wave of the leaf, all surrounding Pokémon start to smile. "),
+                List.of("It carries a single leaf with it at all times. With one wave of the leaf, all surrounding Pokemon start to smile. "),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,1),

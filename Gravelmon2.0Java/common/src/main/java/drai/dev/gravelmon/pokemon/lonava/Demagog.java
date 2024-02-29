@@ -15,7 +15,7 @@ public class Demagog extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         55),
                 List.of(Ability.FLAME_BODY,Ability.FLASH_FIRE,Ability.NATURAL_CURE), Ability.NATURAL_CURE,
-                8, 165,
+                18, 165,
                 new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
@@ -24,6 +24,18 @@ public class Demagog extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("When set alight, usually by candles placed in its mouth, Agog evolve, becoming wrathful in the process. Demagog rule over forests by exploiting the fears and insecurities of its inhabitants."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,1),
+                        new MoveLearnSetEntry(Move.HEADBUTT,1),
+                        new MoveLearnSetEntry(Move.WOOD_HAMMER,1),
+                        new MoveLearnSetEntry(Move.BIDE,1),
+                        new MoveLearnSetEntry(Move.COUNTER,1),
+                        new MoveLearnSetEntry(Move.INGRAIN,1),
+                        new MoveLearnSetEntry(Move.GROWTH,1),
+                        new MoveLearnSetEntry(Move.HARDEN,1),
+                        new MoveLearnSetEntry(Move.BRANCH_POKE,1),
+                        new MoveLearnSetEntry(Move.INCINERATE,1),
+                        new MoveLearnSetEntry(Move.FLAME_BURST,1),
                         new MoveLearnSetEntry(Move.HORN_LEECH,1),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.BIDE,"tm"),
@@ -81,9 +93,8 @@ public class Demagog extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 47, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

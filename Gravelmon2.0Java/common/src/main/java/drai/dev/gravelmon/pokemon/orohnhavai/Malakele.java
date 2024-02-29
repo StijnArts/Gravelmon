@@ -23,7 +23,7 @@ public class Malakele extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Malakel'e gather under the moonlight to practice their chanting. It is said their chants can cause headaches, nausea, and give bad dreams to those who hear it. According to old Havaian legend, these Pokémon represented the spirits of fallen warriors."),
+                List.of("Malakel'e gather under the moonlight to practice their chanting. It is said their chants can cause headaches, nausea, and give bad dreams to those who hear it. According to old Havaian legend, these Pokemon represented the spirits of fallen warriors."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

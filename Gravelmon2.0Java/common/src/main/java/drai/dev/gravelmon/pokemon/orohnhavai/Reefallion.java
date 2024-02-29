@@ -23,7 +23,7 @@ public class Reefallion extends drai.dev.gravelmon.pokemon.Pokemon {
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
-                List.of("Any coral reef that is inhabited by a Reefallion is said to be of pristine beauty. Its rock-like appendages become harder as it ages. They are known to be loyal and protective Pokémon of their Trainers."),
+                List.of("Any coral reef that is inhabited by a Reefallion is said to be of pristine beauty. Its rock-like appendages become harder as it ages. They are known to be loyal and protective Pokemon of their Trainers."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUASLAP,1),

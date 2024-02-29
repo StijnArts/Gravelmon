@@ -19,7 +19,7 @@ public class DeltaQuagsire extends Pokemon {
                 151, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("Despite its appearance, this Delta Species is kind to every Pokémon it meets. It glows with Halloween spirit."),
+                List.of("Despite its appearance, this Delta Species is kind to every Pokemon it meets. It glows with Halloween spirit."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),

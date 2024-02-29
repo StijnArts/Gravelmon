@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "wisdaum",
+  "nationalPokedexNumber": 3510,
+  "primaryType": "normal",
+  "secondaryType": "psychic",
+  "abilities": [
+    "wonderskin",
+    "superluck",
+    "h:unaware"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 103,
+    "defence": 66,
+    "special_attack": 96,
+    "special_defence": 88,
+    "speed": 67
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 177,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "human_like"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:confusion",
+    "1:meditate",
+    "1:defensecurl",
+    "1:focusenergy",
+    "1:focuspunch",
+    "8:confusion",
+    "14:karatechop",
+    "17:armthrust",
+    "20:mindreader",
+    "25:psychoshift",
+    "31:psychocut",
+    "35:healbellsound",
+    "38:calmmind",
+    "44:focusblast",
+    "50:zenheadbutt",
+    "61:psychic",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:drainpunch",
+    "tm:signalbeam",
+    "tm:energyball",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:firepunch",
+    "tm:surf",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:wildcharge",
+    "tm:thunderpunch",
+    "tm:shadowball",
+    "tm:brutalswing",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:blizzard",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:dazzlinggleam",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:snowscape",
+    "tm:sandstorm",
+    "tm:roarsound",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:hypnosis",
+    "tm:trickroom",
+    "tm:psychicterrain",
+    "tm:encore"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.wisdaum.desc"
+  ],
+  "baseScale": 0.31875,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

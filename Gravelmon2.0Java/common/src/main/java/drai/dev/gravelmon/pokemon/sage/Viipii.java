@@ -19,7 +19,7 @@ public class Viipii extends Pokemon {
                 155, ExperienceGroup.ERRATIC,
                 70,
                 51, List.of(EggGroup.DITTO),
-                List.of("Although they are friendly to most Pokémon, in the wild, groups of Viipii are known to bicker and fight over nothing for days on end."),
+                List.of("Although they are friendly to most Pokemon, in the wild, groups of Viipii are known to bicker and fight over nothing for days on end."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.YAWN,1),

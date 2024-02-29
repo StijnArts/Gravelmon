@@ -33,7 +33,7 @@ public class Falcryo extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Known to the Avorian people as the Protector of the North, these majestic Pokémon survey their territory from the sky. They shoot out sharp ice-covered feathers towards their targets, never missing them, even from high up in the sky due to their keen eyes and perfect aim."),
+                List.of("Known to the Avorian people as the Protector of the North, these majestic Pokemon survey their territory from the sky. They shoot out sharp ice-covered feathers towards their targets, never missing them, even from high up in the sky due to their keen eyes and perfect aim."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.AVORIS),

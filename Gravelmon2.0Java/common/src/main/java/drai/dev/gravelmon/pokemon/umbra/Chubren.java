@@ -24,7 +24,7 @@ public class Chubren extends Pokemon {
                 54, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING, EggGroup.FIELD),
-                List.of("A bit of a glutton, this bird is a nuisance to grass-type Pokémon because of its constant attempts to eat their fruits."),
+                List.of("A bit of a glutton, this bird is a nuisance to grass-type Pokemon because of its constant attempts to eat their fruits."),
                 List.of(new EvolutionEntry("roadren", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(

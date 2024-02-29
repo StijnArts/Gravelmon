@@ -21,7 +21,7 @@ public class Kitsunny extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("These Pokémon appear during droughts, summoning prevailing rains that rehydrate land deemed cruel by the sun. Originally discovered in Okeno, Kitsunny in Lonava are popular amongst doctors for their healing skills, but also because of their calming dispositions."),
+                List.of("These Pokemon appear during droughts, summoning prevailing rains that rehydrate land deemed cruel by the sun. Originally discovered in Okeno, Kitsunny in Lonava are popular amongst doctors for their healing skills, but also because of their calming dispositions."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

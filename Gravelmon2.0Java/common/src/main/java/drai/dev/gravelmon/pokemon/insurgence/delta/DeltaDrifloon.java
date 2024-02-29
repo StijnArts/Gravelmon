@@ -19,7 +19,7 @@ public class DeltaDrifloon extends Pokemon {
                 70, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by yungbro. It is formed by the passionate spirits of people and Pokémon."),
+                List.of("A Delta Species discovered by yungbro. It is formed by the passionate spirits of people and Pokemon."),
                 List.of(new EvolutionEntry("deltadrifblim", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
                 ),

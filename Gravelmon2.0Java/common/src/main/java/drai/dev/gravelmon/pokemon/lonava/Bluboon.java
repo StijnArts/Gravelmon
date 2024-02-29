@@ -15,14 +15,16 @@ public class Bluboon extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         50),
                 List.of(Ability.CLEAR_BODY), Ability.REELIN,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 235,
                 0.5,
                 59, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Bluboon move through water by condensing the air in their inflatable sac. Their tentacles are ice cold, allowing Bluboon to easily stun anything passing by."),
-                List.of(),
+                List.of(new EvolutionEntry("tentaclubble", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.MIST,1),
                         new MoveLearnSetEntry(Move.BIND,5),
@@ -98,14 +100,16 @@ public class Bluboon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAPID_SPIN,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Bluboon");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

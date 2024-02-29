@@ -23,7 +23,7 @@ public class VaritasianKingdra extends drai.dev.gravelmon.pokemon.Pokemon {
                 243, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
-                List.of("Kingdra lives at extreme ocean depths that are otherwise uninhabited. It has long been believed that the yawning of this Pokémon creates spiraling ocean currents."),
+                List.of("Kingdra lives at extreme ocean depths that are otherwise uninhabited. It has long been believed that the yawning of this Pokemon creates spiraling ocean currents."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.YAWN,1),

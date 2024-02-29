@@ -15,14 +15,15 @@ public class Shrewpy extends drai.dev.gravelmon.pokemon.Pokemon {
                         52,
                         45),
                 List.of(Ability.PICKUP,Ability.FRIEND_GUARD,Ability.SKILL_LINK), Ability.SKILL_LINK,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 51, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It follows other Pokemon to find its way to food; if it's left alone, it will get lost and starve."),
-                List.of(),
+                List.of(new EvolutionEntry("rattotem", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.COVET,"tm"),
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tm"),
@@ -41,8 +42,8 @@ public class Shrewpy extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUPER_FANG,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

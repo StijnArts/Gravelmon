@@ -24,7 +24,7 @@ public class Worcane extends Pokemon {
                 267, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
-                List.of("This Pokémon is notoriously hard to train, but very rewarding when done right. Worcane are the alpha of the ocean, leading Pokémon on their team to victory."),
+                List.of("This Pokemon is notoriously hard to train, but very rewarding when done right. Worcane are the alpha of the ocean, leading Pokemon on their team to victory."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SUPERSONIC,1),

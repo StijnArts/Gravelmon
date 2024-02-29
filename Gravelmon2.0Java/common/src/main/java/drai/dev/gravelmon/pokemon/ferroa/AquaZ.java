@@ -21,7 +21,7 @@ public class AquaZ extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("A high-tech artificial Pokémon designed to explore the deepest depths of the ocean. The bubble on its head contains a lens that lets it record what it finds, which can then be uploaded onto a computer for study."),
+                List.of("A high-tech artificial Pokemon designed to explore the deepest depths of the ocean. The bubble on its head contains a lens that lets it record what it finds, which can then be uploaded onto a computer for study."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_RISE,1),

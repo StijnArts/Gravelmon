@@ -21,7 +21,7 @@ public class Trouterror extends drai.dev.gravelmon.pokemon.Pokemon {
                 158, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("The sound of its clanking armor terrorizes any sea creature. To this day it was not able to conclude if this Pokémon is sentient."),
+                List.of("The sound of its clanking armor terrorizes any sea creature. To this day it was not able to conclude if this Pokemon is sentient."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,1),

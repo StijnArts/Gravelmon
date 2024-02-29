@@ -19,7 +19,7 @@ public class Gargon extends Pokemon {
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 100, List.of(EggGroup.MINERAL, EggGroup.DRAGON),
-                List.of("Gargon is one of the earliest discovered Dragon Pokémon, and was a symbol of the Dragon Tamer Clan in Johto. Statues of this Pokémon are scattered around the world."),
+                List.of("Gargon is one of the earliest discovered Dragon Pokemon, and was a symbol of the Dragon Tamer Clan in Johto. Statues of this Pokemon are scattered around the world."),
                 List.of(new EvolutionEntry("wardern", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(

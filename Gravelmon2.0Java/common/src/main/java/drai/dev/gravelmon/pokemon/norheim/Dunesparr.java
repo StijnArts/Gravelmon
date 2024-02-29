@@ -23,7 +23,7 @@ public class Dunesparr extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Exotic Pokémon such as Dunsparce were once brought to the Island of Norheim by traders and seafarers. They were quick to escape however, burrowing themselves into the sandy shores. Over time they became a new species, Dunesparr; a nastier version of Dunsparce."),
+                List.of("Exotic Pokemon such as Dunsparce were once brought to the Island of Norheim by traders and seafarers. They were quick to escape however, burrowing themselves into the sandy shores. Over time they became a new species, Dunesparr; a nastier version of Dunsparce."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),

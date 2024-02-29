@@ -19,7 +19,7 @@ public class Hydranticus extends Pokemon {
                 183, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3, EggGroup.AMORPHOUS),
-                List.of("Hydranticus is a curious Pokémon that loves soaring behind ships for weeks on end, happily absorbing the toxic runoff left in their wakes."),
+                List.of("Hydranticus is a curious Pokemon that loves soaring behind ships for weeks on end, happily absorbing the toxic runoff left in their wakes."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUA_RING,1),

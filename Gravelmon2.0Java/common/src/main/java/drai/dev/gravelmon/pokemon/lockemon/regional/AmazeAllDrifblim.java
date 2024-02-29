@@ -19,7 +19,7 @@ public class AmazeAllDrifblim extends Pokemon {
                 174, ExperienceGroup.FLUCTUATING,
                 70,
                 51, List.of(EggGroup.AMORPHOUS),
-                List.of("Driftblim enjoys being of service, frequently foregoing sleep and food to fulfill duties for its trainer. Because of its kind nature, it's an excellent pokémon for package delivery, but they grow enraged if anything gets in the way of performing their mission."),
+                List.of("Driftblim enjoys being of service, frequently foregoing sleep and food to fulfill duties for its trainer. Because of its kind nature, it's an excellent pokemon for package delivery, but they grow enraged if anything gets in the way of performing their mission."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),

@@ -21,7 +21,7 @@ public class Marimigo extends drai.dev.gravelmon.pokemon.Pokemon {
                 158, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("A docile Pokémon that loves to cuddle. It sleeps at the bottom of cold lakes, spreading a wide network of roots across the floor."),
+                List.of("A docile Pokemon that loves to cuddle. It sleeps at the bottom of cold lakes, spreading a wide network of roots across the floor."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

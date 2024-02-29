@@ -17,14 +17,15 @@ public class Irise extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         65),
                 List.of(Ability.SOUNDPROOF,Ability.CONTRARY,Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
-                new Stats(0,0,0,1,0,1), 0,
+                7, 165,
+                new Stats(0,0,0,1,0,1), 130,
                 0.75,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
                 List.of("These Pokemon are deaf but are excellent lip readers. Irise and their Trainers have a true bond because of the level of trust both must have in the heat of battle."),
-                List.of(),
+                List.of(new EvolutionEntry("yeraze", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ICICLE_SPEAR,1),
                         new MoveLearnSetEntry(Move.HAZE,5),
@@ -45,8 +46,8 @@ public class Irise extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_RAGE,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

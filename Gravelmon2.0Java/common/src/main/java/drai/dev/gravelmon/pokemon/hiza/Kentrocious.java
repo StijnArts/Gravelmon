@@ -21,7 +21,7 @@ public class Kentrocious extends drai.dev.gravelmon.pokemon.Pokemon {
                 182, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("Its huge back plates detonate when struck too hard, this defense mechanism protected them from large Pokémon who hunted them down in the past."),
+                List.of("Its huge back plates detonate when struck too hard, this defense mechanism protected them from large Pokemon who hunted them down in the past."),
                 List.of(),
                 List.of(            new MoveLearnSetEntry(Move.RAPID_SPIN,1),
                         new MoveLearnSetEntry(Move.SMACK_DOWN,1),

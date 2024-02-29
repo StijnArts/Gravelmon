@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranMorgrem extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranMorgrem() {
-        super("Morgrem",
+    public NovranMorgrem(int dex) {
+        super(dex, "Morgrem",
                 Type.DARK,Type.STEEL,
                 new Stats(65,
                         75,
@@ -15,14 +15,15 @@ public class NovranMorgrem extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         70),
                 List.of(Ability.PRANKSTER,Ability.QUICK_DRAW,Ability.SAND_RUSH), Ability.SAND_RUSH,
-                8, 165,
+                4, 165,
                 new Stats(0,2,0,0,0,0), 120,
                 0.75,
                 130, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("Its greasy hair is strong and metallic, and forms natural barbs. It ties off a braid of this hair to loop around things it likes and drag them close to steal them."),
-                List.of(),
+                List.of(new EvolutionEntry("novrangrimmsnarl", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BEAT_UP,1),
                         new MoveLearnSetEntry(Move.SPIKE_CANNON,11),
@@ -106,8 +107,8 @@ public class NovranMorgrem extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FURY_SWIPES,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 43, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

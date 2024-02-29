@@ -24,7 +24,7 @@ public class Willisp extends Pokemon {
                 84, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("A nocturnal Pokémon. Sightings of ghosts or floating fireballs usually turn out to be a wild Willisp."),
+                List.of("A nocturnal Pokemon. Sightings of ghosts or floating fireballs usually turn out to be a wild Willisp."),
                 List.of(new EvolutionEntry("wisplode", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(

@@ -15,14 +15,16 @@ public class Sphagern extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         50),
                 List.of(Ability.WATER_ABSORB), Ability.GRASS_PELT,
-                8, 165,
+                12, 165,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 119, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.DRAGON),
                 List.of("Gaining size during evolution, the now more conspicuous Sphagern set off alone. When frightened or tired, they can blend into the surrounding landscape, appearing to be a mossy hummock."),
-                List.of(),
+                List.of(new EvolutionEntry("humpeat", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDDY_WATER,1),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
@@ -73,9 +75,8 @@ public class Sphagern extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_GUN,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

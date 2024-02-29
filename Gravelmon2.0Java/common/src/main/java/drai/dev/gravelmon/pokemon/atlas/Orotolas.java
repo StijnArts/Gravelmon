@@ -21,7 +21,7 @@ public class Orotolas extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("This Pokémon appears in legends, where it's said to have ripped the wings from another legendary Pokémon. It sleeps in a pile of gold, in a mountain deep within the Atlas Region."),
+                List.of("This Pokemon appears in legends, where it's said to have ripped the wings from another legendary Pokemon. It sleeps in a pile of gold, in a mountain deep within the Atlas Region."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GILDEDSPEAR,1),

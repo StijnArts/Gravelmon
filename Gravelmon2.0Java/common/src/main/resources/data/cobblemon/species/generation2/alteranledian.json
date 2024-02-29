@@ -1,0 +1,103 @@
+{
+  "implemented": true,
+  "name": "alteranledian",
+  "nationalPokedexNumber": 166,
+  "primaryType": "bug",
+  "secondaryType": "fighting",
+  "abilities": [
+    "swarm",
+    "ironfist",
+    "h:justified"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 85,
+    "defence": 45,
+    "special_attack": 40,
+    "special_defence": 80,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 137,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:poweruppunch",
+    "1:silverwind",
+    "1:airslash",
+    "1:agility",
+    "1:bugbuzzsound",
+    "1:doubleedge",
+    "1:tackle",
+    "1:supersonic",
+    "1:machpunch",
+    "1:swiftcosmic",
+    "15:lightscreen",
+    "15:reflect",
+    "15:safeguard",
+    "21:skyuppercut",
+    "26:cometpunch",
+    "32:batonpass",
+    "37:lunge",
+    "43:cosmicpower",
+    "48:meteormash",
+    "54:wish",
+    "egg:wish",
+    "egg:screechsound"  ],
+  "labels": [
+    "flux",
+    "gen2",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.alteranledian.desc"
+  ],
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 520,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

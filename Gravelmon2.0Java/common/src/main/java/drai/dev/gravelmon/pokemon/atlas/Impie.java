@@ -21,7 +21,7 @@ public class Impie extends drai.dev.gravelmon.pokemon.Pokemon {
                 57, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("Impie was one of the first Pokémon created in a lab, but its genome is highly unstable. It has the tendency to transform upon any small disturbance in its physical state."),
+                List.of("Impie was one of the first Pokemon created in a lab, but its genome is highly unstable. It has the tendency to transform upon any small disturbance in its physical state."),
                 List.of(new EvolutionEntry("impers", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:dusk_stone"),
                         new EvolutionEntry("impulso", EvolutionType.ITEM_INTERACT, false, List.of(),

@@ -24,7 +24,7 @@ public class Bakpakrat extends Pokemon {
                 147, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Bakpakrat are nomadic, wandering the region, so they can deliver mail to humans and Pokémon alike."),
+                List.of("Bakpakrat are nomadic, wandering the region, so they can deliver mail to humans and Pokemon alike."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),

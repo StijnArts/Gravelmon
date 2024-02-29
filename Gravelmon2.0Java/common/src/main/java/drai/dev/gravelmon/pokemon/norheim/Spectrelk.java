@@ -23,7 +23,7 @@ public class Spectrelk extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Spectrelk is a rare sight to behold and it is the cause of foggy and gloomy weather. While bellowing and rutting, it calls for the morning mist. The foggy weather protects the corners of Norheim’s primal forests and greets the passing of Pokémon to join the spirit world."),
+                List.of("Spectrelk is a rare sight to behold and it is the cause of foggy and gloomy weather. While bellowing and rutting, it calls for the morning mist. The foggy weather protects the corners of Norheim’s primal forests and greets the passing of Pokemon to join the spirit world."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

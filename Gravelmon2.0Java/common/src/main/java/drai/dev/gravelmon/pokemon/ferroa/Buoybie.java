@@ -21,7 +21,7 @@ public class Buoybie extends drai.dev.gravelmon.pokemon.Pokemon {
                 54, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("A bird Pokémon that can neither fly nor swim very well, so it relies on its parents to guide it along. Its feathers are buoyant enough to keep it afloat without needing to tread water, but it can't dive and is often helpless if left unattended."),
+                List.of("A bird Pokemon that can neither fly nor swim very well, so it relies on its parents to guide it along. Its feathers are buoyant enough to keep it afloat without needing to tread water, but it can't dive and is often helpless if left unattended."),
                 List.of(new EvolutionEntry("albalue", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))
                 ),

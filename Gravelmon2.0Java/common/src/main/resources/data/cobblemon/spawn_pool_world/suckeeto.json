@@ -7,16 +7,15 @@
       "id": "suckeeto-1",
       "pokemon": "suckeeto",
       "presets": [
-          "natural"
+          "near_water"
       ],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "level": "2-23",
+      "weight": 0.4,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_grassland" ],
         "canSeeSky": true
       }
     }

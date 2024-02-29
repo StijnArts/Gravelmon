@@ -17,8 +17,8 @@ public class Quwauzrel extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         75),
                 List.of(Ability.MOODY), Ability.UNAWARE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 165,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -40,7 +40,7 @@ public class Quwauzrel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 56, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

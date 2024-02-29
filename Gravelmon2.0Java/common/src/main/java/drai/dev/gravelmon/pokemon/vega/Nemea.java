@@ -24,7 +24,7 @@ public class Nemea extends Pokemon {
                 216, ExperienceGroup.SLOW,
                 70,
                 100, List.of(EggGroup.UNDISCOVERED),
-                List.of("A Pokémon that can control minds. It tosses its opponents over its head with its single powerful horn."),
+                List.of("A Pokemon that can control minds. It tosses its opponents over its head with its single powerful horn."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),

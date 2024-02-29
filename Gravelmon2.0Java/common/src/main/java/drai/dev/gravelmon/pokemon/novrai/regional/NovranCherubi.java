@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranCherubi extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranCherubi() {
-        super("Cherubi",
+    public NovranCherubi(int dex) {
+        super(dex, "Cherubi",
                 Type.GRASS,Type.FLYING,
                 new Stats(45,
                         35,
@@ -15,14 +15,15 @@ public class NovranCherubi extends drai.dev.gravelmon.pokemon.Pokemon {
                         43,
                         55),
                 List.of(Ability.WIND_RIDER), Ability.SOLAR_POWER,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 55, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
                 List.of("Cherubi in Novrai have specially-adapted leaves that let them fly on gusts of wind. This lets them escape predators and get closer to the sun."),
-                List.of(),
+                List.of(new EvolutionEntry("novrancherrim", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.MORNING_SUN,1),
                         new MoveLearnSetEntry(Move.LEAFAGE,4),
@@ -88,8 +89,8 @@ public class NovranCherubi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 29, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -24,7 +24,7 @@ public class Rabyoose extends Pokemon {
                 143, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING, EggGroup.WATER_1),
-                List.of("Most wild Rabyoose have no interest in humans or other Pokémon, making them hostile to anyone not of their kind. Rabyoose are known to aggressively charge at others in their pack to assert dominance."),
+                List.of("Most wild Rabyoose have no interest in humans or other Pokemon, making them hostile to anyone not of their kind. Rabyoose are known to aggressively charge at others in their pack to assert dominance."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HONE_CLAWS,1),

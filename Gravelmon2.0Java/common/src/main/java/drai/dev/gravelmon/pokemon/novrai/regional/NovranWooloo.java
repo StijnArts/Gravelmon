@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranWooloo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranWooloo() {
-        super("Wooloo",
+    public NovranWooloo(int dex) {
+        super(dex, "Wooloo",
                 Type.STEEL,Type.NORMAL,
                 new Stats(42,
                         40,
@@ -15,14 +15,15 @@ public class NovranWooloo extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         48),
                 List.of(Ability.IRON_BARBS,Ability.RUN_AWAY,Ability.BULLETPROOF), Ability.BULLETPROOF,
-                8, 165,
+                6, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 122, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This form of Wooloo was fed iron-rich plants to encourage the growth of metallic wool. This wool is sheared and then melted down to create all sorts of useful tools."),
-                List.of(),
+                List.of(new EvolutionEntry("novrandubwool", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,4),
@@ -93,8 +94,8 @@ public class NovranWooloo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NUGGETFLING,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 27, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

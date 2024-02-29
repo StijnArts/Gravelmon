@@ -15,14 +15,16 @@ public class Boongus extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         70),
                 List.of(Ability.POISON_TOUCH), Ability.DISGUISE,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 67, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Though it appears to be a ghost, Boongus is actually a mushroom. The 'eyes' on its cap are coagulated poison, it's strongly advised not to touch them."),
-                List.of(),
+                List.of(new EvolutionEntry("oogashroomga", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SCARY_FACE,1),
                         new MoveLearnSetEntry(Move.POISON_POWDER,6),
@@ -117,9 +119,9 @@ public class Boongus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STUN_SPORE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_OLD_GROWTH_TAIGA, Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

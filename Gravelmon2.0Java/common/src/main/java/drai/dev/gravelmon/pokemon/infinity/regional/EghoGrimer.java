@@ -19,7 +19,7 @@ public class EghoGrimer extends Pokemon {
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("This version of Grimer is made up of hot asphalt. Often used in cities to help fill potholes, this Pokémon's body reaches temperatures of just over 300 degrees."),
+                List.of("This version of Grimer is made up of hot asphalt. Often used in cities to help fill potholes, this Pokemon's body reaches temperatures of just over 300 degrees."),
                 List.of(new EvolutionEntry("eghomuk", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(

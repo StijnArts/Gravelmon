@@ -21,7 +21,7 @@ public class Barreef extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.MONSTER),
-                List.of("Its body is made up of dozens of different coral Pokémon, hosting an entire miniature ecosystem. They spend their lives asleep, half buried in the seabed, only moving in search of purer waters."),
+                List.of("Its body is made up of dozens of different coral Pokemon, hosting an entire miniature ecosystem. They spend their lives asleep, half buried in the seabed, only moving in search of purer waters."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.REEFBARRIER,1),

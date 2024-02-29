@@ -24,7 +24,7 @@ public class Seijitsu extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Seijitsu are pack Pokémon and become very protective of those close to them. They love to run around and chase other Pokémon."),
+                List.of("Seijitsu are pack Pokemon and become very protective of those close to them. They love to run around and chase other Pokemon."),
                 List.of(new EvolutionEntry("kousetsu", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

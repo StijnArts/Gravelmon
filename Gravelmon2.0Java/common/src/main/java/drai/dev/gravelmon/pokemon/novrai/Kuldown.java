@@ -21,7 +21,7 @@ public class Kuldown extends drai.dev.gravelmon.pokemon.Pokemon {
                 177, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.HUMAN_LIKE),
-                List.of("It sprays cold, hydrating mist to keep itself and others cool in the desert. Many lost wanderers would have succumbed to thirst if not for this kind Pokémon."),
+                List.of("It sprays cold, hydrating mist to keep itself and others cool in the desert. Many lost wanderers would have succumbed to thirst if not for this kind Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),

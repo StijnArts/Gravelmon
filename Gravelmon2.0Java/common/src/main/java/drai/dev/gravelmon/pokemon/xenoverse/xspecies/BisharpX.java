@@ -19,7 +19,7 @@ public class BisharpX extends Pokemon {
                 190, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.XENO),
-                List.of("The Bisharp owned by Dimension Sergeant S. The consciences of both A & B's Bisharp coexist in this Pokémon."),
+                List.of("The Bisharp owned by Dimension Sergeant S. The consciences of both A & B's Bisharp coexist in this Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,1),

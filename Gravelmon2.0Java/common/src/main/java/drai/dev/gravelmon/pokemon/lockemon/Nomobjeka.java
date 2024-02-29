@@ -24,7 +24,7 @@ public class Nomobjeka extends Pokemon {
                 143, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY, EggGroup.HUMAN_LIKE),
-                List.of("The existence of Nomobjeka, a fun-loving guardian Pokémon, was just recently proven. It goes out in search of fainted wild Pokémon and guards them until they recover. These Pokémon can only be found in hidden areas shrouded by foliage, making them a rare sight in the wild."),
+                List.of("The existence of Nomobjeka, a fun-loving guardian Pokemon, was just recently proven. It goes out in search of fainted wild Pokemon and guards them until they recover. These Pokemon can only be found in hidden areas shrouded by foliage, making them a rare sight in the wild."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DISABLE,1),

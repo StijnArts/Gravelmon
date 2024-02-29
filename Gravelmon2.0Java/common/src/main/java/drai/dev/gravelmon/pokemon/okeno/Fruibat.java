@@ -20,7 +20,7 @@ public class Fruibat extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FLYING),
-                List.of("Fruibat like to hide in trees, covering themselves with their leaf-shaped wings. They trick other Pokémon into thinking they are berries, then attack."),
+                List.of("Fruibat like to hide in trees, covering themselves with their leaf-shaped wings. They trick other Pokemon into thinking they are berries, then attack."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),

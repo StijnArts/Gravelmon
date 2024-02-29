@@ -21,7 +21,7 @@ public class Fungusite extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
-                List.of("This Pokémon controls its host's every move. It uses its disguise to enter its host's habitat unnoticed and spread itself to other Pokémon."),
+                List.of("This Pokemon controls its host's every move. It uses its disguise to enter its host's habitat unnoticed and spread itself to other Pokemon."),
                 List.of(new EvolutionEntry("controll", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
                 ),

@@ -21,7 +21,7 @@ public class Agapray extends drai.dev.gravelmon.pokemon.Pokemon {
                 390, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
-                List.of("This loving Pokémon is often found working in hospitals, assisting medics in the field, or running clinics out of caves or trees to help injured wild Pokémon. Their acts of kindness come without expectation, and many respect Agapray for this reason."),
+                List.of("This loving Pokemon is often found working in hospitals, assisting medics in the field, or running clinics out of caves or trees to help injured wild Pokemon. Their acts of kindness come without expectation, and many respect Agapray for this reason."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),

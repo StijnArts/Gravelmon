@@ -15,14 +15,16 @@ public class Balloonga extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         70),
                 List.of(Ability.THICK_FAT,Ability.REFRIGERATE,Ability.AIRBORNE), Ability.AIRBORNE,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_2),
                 List.of("Their balloons consist of an elastic film made from ice and filled with internally-converted helium. As a result, Balloonga can fly!"),
-                List.of(),
+                List.of(new EvolutionEntry("aeroluga", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.AIRBUBBLE,1),
                         new MoveLearnSetEntry(Move.TAILWIND,3),
@@ -93,14 +95,18 @@ public class Balloonga extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 11, 33, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Balloonga");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
+
+        setCanFly(true);
 
     }
 

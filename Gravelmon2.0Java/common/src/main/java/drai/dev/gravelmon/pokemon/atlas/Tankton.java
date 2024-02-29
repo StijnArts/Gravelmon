@@ -21,7 +21,7 @@ public class Tankton extends drai.dev.gravelmon.pokemon.Pokemon {
                 132, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1),
-                List.of("Steel-hard scales have protected this Pokémon since prehistoric times. A single ram from its head is enough to sink any boat."),
+                List.of("Steel-hard scales have protected this Pokemon since prehistoric times. A single ram from its head is enough to sink any boat."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),

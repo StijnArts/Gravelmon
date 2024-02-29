@@ -19,7 +19,7 @@ public class EghoChansey extends Pokemon {
                 160, ExperienceGroup.FAST,
                 70,
                 100, List.of(EggGroup.FAIRY),
-                List.of("Chansey is so obsessed with protecting eggs that it will even defend the nests of other Pokémon species. It uses its rock as a decoy egg to trick other predators."),
+                List.of("Chansey is so obsessed with protecting eggs that it will even defend the nests of other Pokemon species. It uses its rock as a decoy egg to trick other predators."),
                 List.of(new EvolutionEntry("eghoblissey", EvolutionType.LEVEL_UP, true, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160")))),
                 List.of(

@@ -23,7 +23,7 @@ public class Flabb extends drai.dev.gravelmon.pokemon.Pokemon {
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
-                List.of("It draws out and controls the hidden power of flowers. The flower Flabébé holds is most likely part of its body. It floats in the wind's embrace with an untroubled heart."),
+                List.of("It draws out and controls the hidden power of flowers. The flower Flabebe holds is most likely part of its body. It floats in the wind's embrace with an untroubled heart."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
@@ -90,7 +90,7 @@ public class Flabb extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Flabébé");
+           setLangFileName("Flabebe");
 
     }
 

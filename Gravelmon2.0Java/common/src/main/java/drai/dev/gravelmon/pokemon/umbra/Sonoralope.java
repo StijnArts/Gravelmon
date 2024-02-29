@@ -24,7 +24,7 @@ public class Sonoralope extends Pokemon {
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.FIELD),
-                List.of("Its powerful arms and legs enable this Pokémon to make huge bounds across the desert landscape. Sonoralope protects Pokémon from danger with thorny, bone-cracking kicks."),
+                List.of("Its powerful arms and legs enable this Pokemon to make huge bounds across the desert landscape. Sonoralope protects Pokemon from danger with thorny, bone-cracking kicks."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

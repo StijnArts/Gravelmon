@@ -21,7 +21,7 @@ public class Blockstack extends drai.dev.gravelmon.pokemon.Pokemon {
                 216, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.MINERAL),
-                List.of("When helping to train stronger Pokémon, Sockback evolves into Blockstack. Now it fights back with its rotating arms, helping other Pokémon learn to dodge attacks."),
+                List.of("When helping to train stronger Pokemon, Sockback evolves into Blockstack. Now it fights back with its rotating arms, helping other Pokemon learn to dodge attacks."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ENDURE,1),

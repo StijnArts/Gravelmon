@@ -17,8 +17,8 @@ public class Rabullet extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         105),
                 List.of(Ability.ROCK_HEAD), Ability.RECKLESS,
-                8, 165,
-                new Stats(0,0,0,0,0,2), 0,
+                7, 165,
+                new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -48,8 +48,8 @@ public class Rabullet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 43, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

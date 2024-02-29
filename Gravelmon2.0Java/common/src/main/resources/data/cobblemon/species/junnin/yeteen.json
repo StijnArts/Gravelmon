@@ -1,0 +1,130 @@
+{
+  "implemented": true,
+  "name": "yeteen",
+  "nationalPokedexNumber": 2258,
+  "primaryType": "grass",
+  "secondaryType": "ice",
+  "abilities": [
+    "overgrow",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 89,
+    "defence": 63,
+    "special_attack": 64,
+    "special_defence": 59,
+    "speed": 68
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like",
+    "grass"
+  ],
+  "moves": [
+    "tm:grasspledge",
+    "tm:grassyglide",
+    "tm:helpinghand",
+    "tm:snoresound",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:attract",
+    "tm:bide",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:return",
+    "tm:roarsound",
+    "tm:roundsound",
+    "tm:scaryface",
+    "tm:secretpower",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:toxic",
+    "tm:rest",
+    "tm:flatter",
+    "tm:captivate",
+    "tm:charm"  ],
+  "labels": [
+    "junnin",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.yeteen.desc"
+  ],
+  "preEvolution": "yetini",
+  "evolutions": [
+    {
+      "id": "yeteen_yetitan",
+      "variant": "level_up",
+      "result": "yetitan",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

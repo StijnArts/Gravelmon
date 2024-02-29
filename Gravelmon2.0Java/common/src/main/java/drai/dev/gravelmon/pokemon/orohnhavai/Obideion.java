@@ -23,7 +23,7 @@ public class Obideion extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(),
-                List.of("A mystical Pokémon that taught the people ambition and hope. Long ago, a large river flowed through the islands but then went dry. The people prayed and hoped for the river to come back. Until one day, Obideion appeared and made the river flow again. Because of this, Obideion has been a symbol of ambition and hope. They say swimming in the river is good luck to achieving one's ambitions. Drinking from the river will purify those of their dishonesty and hatred."),
+                List.of("A mystical Pokemon that taught the people ambition and hope. Long ago, a large river flowed through the islands but then went dry. The people prayed and hoped for the river to come back. Until one day, Obideion appeared and made the river flow again. Because of this, Obideion has been a symbol of ambition and hope. They say swimming in the river is good luck to achieving one's ambitions. Drinking from the river will purify those of their dishonesty and hatred."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

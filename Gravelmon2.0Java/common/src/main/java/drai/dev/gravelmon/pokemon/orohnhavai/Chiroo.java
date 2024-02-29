@@ -23,7 +23,7 @@ public class Chiroo extends drai.dev.gravelmon.pokemon.Pokemon {
                 110, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("These Pokémon are commonly found near daycares. They love to snuggle up to eggs and keep them warm, hoping to hatch them faster."),
+                List.of("These Pokemon are commonly found near daycares. They love to snuggle up to eggs and keep them warm, hoping to hatch them faster."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),

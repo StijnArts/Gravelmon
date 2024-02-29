@@ -21,7 +21,7 @@ public class Lickypop extends drai.dev.gravelmon.pokemon.Pokemon {
                 56, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.AMORPHOUS),
-                List.of("Lickypop lives near carnivals and follows kids wherever they go. It secretes a sticky and sweet goo that is used to decorate Poffins and PokéPuffs."),
+                List.of("Lickypop lives near carnivals and follows kids wherever they go. It secretes a sticky and sweet goo that is used to decorate Poffins and PokePuffs."),
                 List.of(new EvolutionEntry("caramelix", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))
                 ),

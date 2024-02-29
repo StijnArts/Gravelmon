@@ -19,7 +19,7 @@ public class DeltaWailord extends Pokemon {
                 80, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("Hail falls over the land below as this Pokémon flies. It is suspected that the phrase 'the sky is falling' originated due to its shadow blanketing the ground."),
+                List.of("Hail falls over the land below as this Pokemon flies. It is suspected that the phrase 'the sky is falling' originated due to its shadow blanketing the ground."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SHEER_COLD,1),

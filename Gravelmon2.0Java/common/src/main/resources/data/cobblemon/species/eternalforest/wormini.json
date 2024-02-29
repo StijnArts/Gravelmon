@@ -1,0 +1,156 @@
+{
+  "implemented": true,
+  "name": "wormini",
+  "nationalPokedexNumber": 2337,
+  "primaryType": "ground",
+  "abilities": [
+    "dryskin",
+    "sandforce",
+    "h:shedskin"
+  ],
+  "baseStats": {
+    "hp": 64,
+    "attack": 65,
+    "defence": 45,
+    "special_attack": 40,
+    "special_defence": 45,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:mudslap",
+    "1:leer",
+    "5:bind",
+    "7:protect",
+    "10:camouflage",
+    "13:sandtomb",
+    "24:sandstorm",
+    "29:slam",
+    "34:mudbomb",
+    "42:doubleteam",
+    "47:magnitude",
+    "53:block",
+    "61:counter",
+    "68:dragontail",
+    "75:dig",
+    "81:coil",
+    "88:aquatail",
+    "95:drillrun",
+    "102:swordsdance",
+    "109:earthquake",
+    "115:fissure",
+    "tutor:roarsound",
+    "tutor:hiddenpower",
+    "tutor:taunt",
+    "tutor:hyperbeam",
+    "tutor:lightscreen",
+    "tutor:protect",
+    "tutor:safeguard",
+    "tutor:frustration",
+    "tutor:return",
+    "tutor:dig",
+    "tutor:doubleteam",
+    "tutor:reflect",
+    "tutor:sandstorm",
+    "tutor:facade",
+    "tutor:secretpower",
+    "tutor:rest",
+    "tutor:attract",
+    "tutor:thief",
+    "tutor:snatch",
+    "tutor:endure",
+    "tutor:payback",
+    "tutor:stealthrock",
+    "tutor:psychup",
+    "tutor:sleeptalksound",
+    "tutor:naturalgift",
+    "tutor:swagger",
+    "tutor:substitute",
+    "tutor:roundsound",
+    "tutor:echoedvoicesound",
+    "tutor:quash",
+    "tutor:retaliate",
+    "egg:suckerpunch",
+    "egg:dualchop",
+    "egg:infestation",
+    "egg:wrap",
+    "egg:minimize",
+    "egg:powerwhip",
+    "egg:taunt",
+    "egg:refresh",
+    "egg:earthpower",
+    "egg:wringout"  ],
+  "labels": [
+    "eternal_forest",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.wormini.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "wormini_wormeel",
+      "variant": "level_up",
+      "result": "wormeel",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 8,
+  "weight": 147,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

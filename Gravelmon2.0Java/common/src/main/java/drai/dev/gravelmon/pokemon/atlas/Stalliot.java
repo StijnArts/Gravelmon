@@ -21,7 +21,7 @@ public class Stalliot extends drai.dev.gravelmon.pokemon.Pokemon {
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Despite their gruff, tough looks, Stalliot are trustful Pokémon that allow almost anyone to ride them, making them popular with farmers and Trainers alike."),
+                List.of("Despite their gruff, tough looks, Stalliot are trustful Pokemon that allow almost anyone to ride them, making them popular with farmers and Trainers alike."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,3),

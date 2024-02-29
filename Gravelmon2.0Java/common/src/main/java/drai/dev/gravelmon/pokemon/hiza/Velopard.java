@@ -21,7 +21,7 @@ public class Velopard extends drai.dev.gravelmon.pokemon.Pokemon {
                 177, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Its roar can create thunderbolts, so it lives high up in the mountains to avoid forest fires. It is an extremely furtive Pokémon and its cubs are never seen."),
+                List.of("Its roar can create thunderbolts, so it lives high up in the mountains to avoid forest fires. It is an extremely furtive Pokemon and its cubs are never seen."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POWDER_SNOW,1),

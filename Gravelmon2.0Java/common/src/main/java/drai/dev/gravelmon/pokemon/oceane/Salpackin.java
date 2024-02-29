@@ -21,7 +21,7 @@ public class Salpackin extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Apart from using it as jet propulsion to provide movement, Salpackin in the Ammo Formation will continue to store water causing their tough bodies to stiffen via high turgor pressure. These pokémon always occur in swarms."),
+                List.of("Apart from using it as jet propulsion to provide movement, Salpackin in the Ammo Formation will continue to store water causing their tough bodies to stiffen via high turgor pressure. These pokemon always occur in swarms."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OCEANE),

@@ -24,7 +24,7 @@ public class Wicoot extends Pokemon {
                 306, ExperienceGroup.SLOW,
                 70,
                 200, List.of(EggGroup.UNDISCOVERED),
-                List.of("This mythical Pokémon is cunning and intelligent, although these skills are mostly used to play pranks on others. Even with their mischievous demeanor, Wicoot is said to have brought peace between a clash of titans."),
+                List.of("This mythical Pokemon is cunning and intelligent, although these skills are mostly used to play pranks on others. Even with their mischievous demeanor, Wicoot is said to have brought peace between a clash of titans."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,1),

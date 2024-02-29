@@ -23,7 +23,7 @@ public class Siberizen extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Known as the judge of the north, Siberizen is a powerful yet wise Pokémon. It chooses the fate of those found within its territory by its underlings."),
+                List.of("Known as the judge of the north, Siberizen is a powerful yet wise Pokemon. It chooses the fate of those found within its territory by its underlings."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

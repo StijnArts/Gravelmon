@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranVanilluxe extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranVanilluxe() {
-        super("Vanilluxe",
+    public NovranVanilluxe(int dex) {
+        super(dex, "Vanilluxe",
                 Type.ICE,Type.GRASS,
                 new Stats(71,
                         95,
@@ -15,7 +15,7 @@ public class NovranVanilluxe extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         79),
                 List.of(Ability.RIPEN,Ability.BANANASPLIT,Ability.WEAK_ARMOR), Ability.WEAK_ARMOR,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,3,0,0), 45,
                 0.5,
                 241, ExperienceGroup.SLOW,
@@ -96,8 +96,8 @@ public class NovranVanilluxe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 43, 57, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -81,11 +81,11 @@ public class Rowdent extends drai.dev.gravelmon.pokemon.Pokemon {
                 ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 20, 40, 2, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 25, 9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Rowdent");

@@ -19,7 +19,7 @@ public class PikachuXFemale extends Pokemon {
                 105, ExperienceGroup.MEDIUM_FAST,
                 70,
                 26, List.of(EggGroup.XENO),
-                List.of("It is a real anomaly between X Pokémon. Its nature makes it friendly even to human."),
+                List.of("It is a real anomaly between X Pokemon. Its nature makes it friendly even to human."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),

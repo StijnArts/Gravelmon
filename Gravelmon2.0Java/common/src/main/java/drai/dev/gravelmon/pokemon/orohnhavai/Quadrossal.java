@@ -23,7 +23,7 @@ public class Quadrossal extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("A legendary Pokémon that came from the depths of the abyss. Folklore says it once flooded the islands to cleanse it of impurities. It went to slumber deep in the icy depths of the region."),
+                List.of("A legendary Pokemon that came from the depths of the abyss. Folklore says it once flooded the islands to cleanse it of impurities. It went to slumber deep in the icy depths of the region."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ROUND,1),

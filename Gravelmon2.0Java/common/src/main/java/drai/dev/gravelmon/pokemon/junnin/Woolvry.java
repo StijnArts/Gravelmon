@@ -19,14 +19,16 @@ public class Woolvry extends drai.dev.gravelmon.pokemon.Pokemon {
                         42,
                         60),
                 List.of(Ability.BLAZE), Ability.FUR_COAT,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Woolvry has a scarf around its body which keeps its body warm to make fire come out. If the scarf is removed it will die."),
-                List.of(),
+                List.of(new EvolutionEntry("clokruel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SINGE,4),
@@ -97,8 +99,8 @@ public class Woolvry extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AGILITY,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

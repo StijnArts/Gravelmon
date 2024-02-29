@@ -23,7 +23,7 @@ public class Hematick extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It feeds on the blood of any big Pokémon it latches onto without them noticing. It will not let go until it's full."),
+                List.of("It feeds on the blood of any big Pokemon it latches onto without them noticing. It will not let go until it's full."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

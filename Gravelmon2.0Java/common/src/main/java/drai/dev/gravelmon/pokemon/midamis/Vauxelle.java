@@ -17,8 +17,8 @@ public class Vauxelle extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         80),
                 List.of(Ability.SAND_VEIL), Ability.SAND_RUSH,
-                8, 165,
-                new Stats(2,0,0,0,0,0), 0,
+                14, 165,
+                new Stats(2,0,0,0,0,0), 90,
                 0.25,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -43,8 +43,8 @@ public class Vauxelle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,28 @@
 package drai.dev.gravelmon.games.pokemmo;
 
+import drai.dev.gravelmon.pokemon.aristos.*;
 import drai.dev.gravelmon.pokemon.atlas.*;
+import drai.dev.gravelmon.pokemon.atlas.Barkindle;
+import drai.dev.gravelmon.pokemon.avoris.*;
+import drai.dev.gravelmon.pokemon.enriko.*;
+import drai.dev.gravelmon.pokemon.ferroa.*;
+import drai.dev.gravelmon.pokemon.hiza.*;
+import drai.dev.gravelmon.pokemon.hub.*;
+import drai.dev.gravelmon.pokemon.interregional.*;
+import drai.dev.gravelmon.pokemon.isiah.*;
 import drai.dev.gravelmon.pokemon.junnin.*;
+import drai.dev.gravelmon.pokemon.lonava.*;
+import drai.dev.gravelmon.pokemon.midamis.*;
+import drai.dev.gravelmon.pokemon.mythire.*;
+import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.nosto.*;
+import drai.dev.gravelmon.pokemon.novrai.*;
+import drai.dev.gravelmon.pokemon.oceane.*;
+import drai.dev.gravelmon.pokemon.okeno.*;
+import drai.dev.gravelmon.pokemon.orohnhavai.*;
+import drai.dev.gravelmon.pokemon.qamor.*;
+import drai.dev.gravelmon.pokemon.rica.*;
+import drai.dev.gravelmon.pokemon.varitas.*;
 
 public class Atlas extends drai.dev.gravelmon.games.registry.Game {
     public Atlas() {        super("Atlas");
@@ -33,9 +54,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Ruflame());
         pokemon.add(new Reparch());
         pokemon.add(new Slymander());
-        pokemon.add(new Bunfin());
-        pokemon.add(new Arsinge());
-        pokemon.add(new Rupsen());
         pokemon.add(new Barkindle());
         pokemon.add(new Wolflaze());
         pokemon.add(new Wolverize());
@@ -73,8 +91,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Dirterrier());
         pokemon.add(new Kitture());
         pokemon.add(new Fashewn());
-        pokemon.add(new Nursee());
-        pokemon.add(new Nurturse());
         pokemon.add(new Lightwin());
         pokemon.add(new Hoowhip());
         pokemon.add(new Maidnite());
@@ -87,17 +103,10 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Manna());
         pokemon.add(new Lemb());
         pokemon.add(new Vegelamb());
-        pokemon.add(new Eriegle());
-        pokemon.add(new Albivore());
-        pokemon.add(new Emperiegle());
         pokemon.add(new Geomoss());
         pokemon.add(new Dialith());
         pokemon.add(new Solmec());
         pokemon.add(new Akakira());
-        pokemon.add(new Spartzle());
-        pokemon.add(new Eletize());
-        pokemon.add(new Luvenny());
-        pokemon.add(new Suavenny());
         pokemon.add(new Barilbil());
         pokemon.add(new Haibril());
         pokemon.add(new Tomabi());
@@ -105,9 +114,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Lamber());
         pokemon.add(new Volpaca());
         pokemon.add(new Sheruption());
-        pokemon.add(new Meritrot());
-        pokemon.add(new Stalliot());
-        pokemon.add(new Carosella());
         pokemon.add(new Yolken());
         pokemon.add(new Roostegg());
         pokemon.add(new Secheel());
@@ -116,7 +122,9 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Nyglare());
         pokemon.add(new Neonite());
         pokemon.add(new Tankton());
-        pokemon.add(new Crocodily());
+        var crocodily = new Crocodily();
+        pokemon.add(crocodily);
+//        pokemon.add(new OkenianCrocodily(crocodily.getPokedexNumber())); NOT FINISHED
         pokemon.add(new Logrodile());
         pokemon.add(new Jawligator());
         pokemon.add(new Squirest());
@@ -133,7 +141,9 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Silkch());
         pokemon.add(new Cachoe());
         pokemon.add(new Silxie());
-        pokemon.add(new Dustar());
+        var dustar = new Dustar();
+        pokemon.add(dustar);
+//        pokemon.add(new OkenianDustar(dustar.getPokedexNumber()));
         pokemon.add(new Compella());
         pokemon.add(new Esterite());
         pokemon.add(new Badgrow());
@@ -146,9 +156,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Dartibi());
         pokemon.add(new Revolpod());
         pokemon.add(new Gigadozer());
-        pokemon.add(new Brambarb());
-        pokemon.add(new Wickvine());
-        pokemon.add(new Wicktrive());
         pokemon.add(new Coralony());
         pokemon.add(new Barreef());
         pokemon.add(new Crebb());
@@ -159,8 +166,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Tanchor());
         pokemon.add(new Petat());
         pokemon.add(new Pangai());
-        pokemon.add(new Wilspri());
-        pokemon.add(new Trillowee());
         pokemon.add(new Tamarawk());
         pokemon.add(new Bouldalo());
         pokemon.add(new Cindera());
@@ -179,9 +184,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Stalagrunt());
         pokemon.add(new Stalagang());
 
-        pokemon.add(new Glozard());
-        pokemon.add(new Radizorb());
-        pokemon.add(new Radiaze());
         pokemon.add(new Impie());
         pokemon.add(new Impac());
         pokemon.add(new Imploda());
@@ -234,9 +236,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Sandtome());
         pokemon.add(new Phantrait());
         pokemon.add(new Vanitom());
-        pokemon.add(new Turtelisk());
-        pokemon.add(new Karaggon());
-        pokemon.add(new Akrovern());
         pokemon.add(new Velosoil());
         pokemon.add(new Rapterra());
         pokemon.add(new Titanodon());
@@ -275,8 +274,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Wisdaum());
         pokemon.add(new Vimana());
         pokemon.add(new Vimanzia());
-        pokemon.add(new Pichip());
-        pokemon.add(new Shifuu());
 
         pokemon.add(new Yokeye());
         pokemon.add(new Ghouch());

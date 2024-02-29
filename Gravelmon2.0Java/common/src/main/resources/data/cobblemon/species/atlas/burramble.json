@@ -1,0 +1,149 @@
+{
+  "implemented": true,
+  "name": "burramble",
+  "nationalPokedexNumber": 3281,
+  "primaryType": "grass",
+  "abilities": [
+    "overgrow",
+    "h:toughclaws"
+  ],
+  "baseStats": {
+    "hp": 61,
+    "attack": 86,
+    "defence": 64,
+    "special_attack": 59,
+    "special_defence": 60,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "3:growl",
+    "9:sandattack",
+    "13:razorleaf",
+    "18:detect",
+    "20:bulldoze",
+    "23:honeclaws",
+    "26:slash",
+    "30:dig",
+    "35:leafblade",
+    "40:crunch",
+    "53:earthquake",
+    "60:leafstorm",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:naturepower",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:roundsound",
+    "tm:sandstorm",
+    "tm:shadowclaw",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thief",
+    "tm:toxic",
+    "tm:workup",
+    "tm:xscissor",
+    "tm:mudslap"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.burramble.desc"
+  ],
+  "preEvolution": "scurley",
+  "evolutions": [
+    {
+      "id": "burramble_bramboom",
+      "variant": "level_up",
+      "result": "bramboom",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

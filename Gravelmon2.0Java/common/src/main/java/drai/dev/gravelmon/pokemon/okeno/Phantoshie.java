@@ -20,7 +20,7 @@ public class Phantoshie extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
-                List.of("Many claim this Pokémon gives the best hugs. It's hard to gain one's trust, however, and because of this, people seen with Phantoshie are considered caring trainers."),
+                List.of("Many claim this Pokemon gives the best hugs. It's hard to gain one's trust, however, and because of this, people seen with Phantoshie are considered caring trainers."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,"tm"),

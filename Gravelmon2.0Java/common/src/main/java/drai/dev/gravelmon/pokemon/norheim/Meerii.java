@@ -23,7 +23,7 @@ public class Meerii extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Meerii are cheerful Pokémon, playing around in rocky riverbeds. Their agile movements is an advantage while hunting along with their electric powers, stunning weaker freshwater Pokémon."),
+                List.of("Meerii are cheerful Pokemon, playing around in rocky riverbeds. Their agile movements is an advantage while hunting along with their electric powers, stunning weaker freshwater Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),

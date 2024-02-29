@@ -19,7 +19,7 @@ public class DeltaTrevenant extends Pokemon {
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("It guards the forest and would lay down its life to protect weaker Pokémon."),
+                List.of("It guards the forest and would lay down its life to protect weaker Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SACRED_SWORD,1),

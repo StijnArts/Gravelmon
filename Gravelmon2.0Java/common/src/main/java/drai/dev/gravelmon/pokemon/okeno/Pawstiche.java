@@ -20,7 +20,7 @@ public class Pawstiche extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
-                List.of("This Pokémon is startled by any loud noise or sudden movent. However, it also tends to scare others because of its frightening looks. The fur it sheds is commonly used as stuffing in toys."),
+                List.of("This Pokemon is startled by any loud noise or sudden movent. However, it also tends to scare others because of its frightening looks. The fur it sheds is commonly used as stuffing in toys."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.COTTON_SPORE,1),

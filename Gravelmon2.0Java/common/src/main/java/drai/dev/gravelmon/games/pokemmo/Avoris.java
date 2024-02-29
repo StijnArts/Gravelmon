@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo;
 
 import drai.dev.gravelmon.pokemon.avoris.*;
+import drai.dev.gravelmon.pokemon.orohnhavai.*;
 
 public class Avoris extends drai.dev.gravelmon.games.registry.Game {
     public Avoris() {
@@ -42,8 +43,6 @@ public class Avoris extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Desperasca()); NOT FINISHED
 //        pokemon.add(new Aridart()); NOT FINISHED
 //        pokemon.add(new Territhorn()); NOT FINISHED
-        pokemon.add(new Winklit());
-        pokemon.add(new Gleamur());
 //        pokemon.add(new Elescent()); NOT FINISHED
 //        pokemon.add(new Aromaphant()); NOT FINISHED
 //        pokemon.add(new Shooba()); NOT FINISHED

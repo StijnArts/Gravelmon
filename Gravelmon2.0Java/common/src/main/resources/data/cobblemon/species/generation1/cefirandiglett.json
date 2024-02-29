@@ -1,0 +1,121 @@
+{
+  "implemented": true,
+  "name": "cefirandiglett",
+  "nationalPokedexNumber": 50,
+  "primaryType": "ground",
+  "secondaryType": "flying",
+  "abilities": [
+    "anticipation",
+    "h:sandforce"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 60,
+    "defence": 35,
+    "special_attack": 95,
+    "special_defence": 35,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 53,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:sandattack",
+    "4:growl",
+    "7:astonish",
+    "12:mudslap",
+    "15:magnitude",
+    "18:aircutter",
+    "23:weatherball",
+    "26:mudbomb",
+    "29:earthquake",
+    "37:airslash",
+    "40:bravebird",
+    "45:fissure",
+    "egg:ancientpower",
+    "egg:astonish",
+    "egg:beatup",
+    "egg:endure",
+    "egg:feintattack",
+    "egg:return",
+    "egg:headbutt",
+    "egg:memento",
+    "egg:mudbomb",
+    "egg:pursuit",
+    "egg:reversal",
+    "egg:screechsound",
+    "egg:uproar"  ],
+  "labels": [
+    "gen1",
+    "opal",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefirandiglett.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cefirandiglett_cefirandugtrio",
+      "variant": "level_up",
+      "result": "cefirandugtrio",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 26
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 8,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

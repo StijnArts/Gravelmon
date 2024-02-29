@@ -19,14 +19,16 @@ public class Bloatick extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         55),
                 List.of(Ability.OWN_TEMPO,Ability.POWERLEECH,Ability.SWARM), Ability.SWARM,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,1,0), 244,
                 0.5,
                 69, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Bloatick sucks the energy from its foe until it is blown up like a balloon. It can either use the energy to heal itself, or send back a powerful attack."),
-                List.of(),
+                List.of(new EvolutionEntry("Suckeeto", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,3),
@@ -99,11 +101,11 @@ public class Bloatick extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACID_SPRAY,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 23, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bloatick");

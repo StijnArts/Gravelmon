@@ -19,7 +19,7 @@ public class AyreianVoltorb extends Pokemon {
                 66, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 26, List.of(EggGroup.MINERAL),
-                List.of("Usually found in power plants. Easily mistaken for a Poké Ball, it has zapped many people."),
+                List.of("Usually found in power plants. Easily mistaken for a Poke Ball, it has zapped many people."),
                 List.of(new EvolutionEntry("Ayreianelectrode", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(

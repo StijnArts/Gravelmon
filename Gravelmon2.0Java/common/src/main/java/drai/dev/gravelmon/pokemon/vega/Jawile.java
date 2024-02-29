@@ -24,7 +24,7 @@ public class Jawile extends Pokemon {
                 178, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY, EggGroup.FIELD),
-                List.of("When it is mistaken for a weak Pokémon and approached, it turns around and bites into the foe with its huge jaws."),
+                List.of("When it is mistaken for a weak Pokemon and approached, it turns around and bites into the foe with its huge jaws."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),

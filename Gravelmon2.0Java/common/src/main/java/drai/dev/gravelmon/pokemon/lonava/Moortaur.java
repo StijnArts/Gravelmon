@@ -15,13 +15,13 @@ public class Moortaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         35),
                 List.of(Ability.INTIMIDATE), Ability.TRUANT,
-                8, 165,
+                21, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("These cumbersome and strong Pokémon roam the moors of Lonava. Their stubborn disposition has made their species impossible to domesticate."),
+                List.of("These cumbersome and strong Pokemon roam the moors of Lonava. Their stubborn disposition has made their species impossible to domesticate."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -40,8 +40,8 @@ public class Moortaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BODY_SLAM,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 45, 2.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

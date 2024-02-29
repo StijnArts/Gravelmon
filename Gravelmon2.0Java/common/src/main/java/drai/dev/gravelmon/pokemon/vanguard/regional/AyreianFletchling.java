@@ -19,7 +19,7 @@ public class AyreianFletchling extends Pokemon {
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("When this Pokémon gets excited, its body temperature lowers harshly. If you touch a Fletchling with bare hands, you might catch a cold."),
+                List.of("When this Pokemon gets excited, its body temperature lowers harshly. If you touch a Fletchling with bare hands, you might catch a cold."),
                 List.of(new EvolutionEntry("ayreianfletchinder", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(

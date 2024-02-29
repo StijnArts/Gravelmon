@@ -19,7 +19,7 @@ public class KaskadianBellsprout extends Pokemon {
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("Bellsprout's tiny, flexible body allows it to bend and sway to dodge any assault, no matter how powerful. This Pokémon discharges a corrosive fluid that melts even iron from its mouth."),
+                List.of("Bellsprout's tiny, flexible body allows it to bend and sway to dodge any assault, no matter how powerful. This Pokemon discharges a corrosive fluid that melts even iron from its mouth."),
                 List.of(new EvolutionEntry("Drosabell", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE, "\"psychicterrain\"")))),
                 List.of(

@@ -21,7 +21,7 @@ public class Morbotch extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("A bastardised attempt to recreate the illusive Morbod from a child's drawing. Following activist intervention, several specimens managed to escape the lab and breed, ravaging many local ecosystems. As a result of this, they're often bullied by wild Pokémon, though they're not smart enough to understand why."),
+                List.of("A bastardised attempt to recreate the illusive Morbod from a child's drawing. Following activist intervention, several specimens managed to escape the lab and breed, ravaging many local ecosystems. As a result of this, they're often bullied by wild Pokemon, though they're not smart enough to understand why."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

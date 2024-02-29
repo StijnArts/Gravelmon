@@ -21,7 +21,7 @@ public class Plectric extends drai.dev.gravelmon.pokemon.Pokemon {
                 47, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.MONSTER),
-                List.of("It attaches itself to rocks to feed on algae, forming a static seal that makes it impossible to pry off. It also gets metaphorically attached to other Pokémon, particularly Dark-types."),
+                List.of("It attaches itself to rocks to feed on algae, forming a static seal that makes it impossible to pry off. It also gets metaphorically attached to other Pokemon, particularly Dark-types."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),

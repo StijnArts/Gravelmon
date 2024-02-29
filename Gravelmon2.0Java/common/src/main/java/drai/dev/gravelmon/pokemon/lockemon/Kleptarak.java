@@ -24,7 +24,7 @@ public class Kleptarak extends Pokemon {
                 143, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("These menacing Pokémon use their long legs and hand-like tail to rapidly climb in ways that defy gravity. Kleptarak are notorious for stalking their prey at night and snatching them into the shadows."),
+                List.of("These menacing Pokemon use their long legs and hand-like tail to rapidly climb in ways that defy gravity. Kleptarak are notorious for stalking their prey at night and snatching them into the shadows."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DETECT,1),

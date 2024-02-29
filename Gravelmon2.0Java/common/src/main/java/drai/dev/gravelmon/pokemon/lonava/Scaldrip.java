@@ -15,14 +15,16 @@ public class Scaldrip extends drai.dev.gravelmon.pokemon.Pokemon {
                         36,
                         30),
                 List.of(Ability.STEAMPOWER), Ability.WATER_ABSORB,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,1,0,0), 180,
                 0.5,
                 48, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.MINERAL),
                 List.of("Scaldrip are feisty and unpredictable, often transforming the landscape of their habitat by blasting a combination of blistering water and jagged rocks at the walls of their caves. Spas will often employ Scaldrip to regulate the humidity of their steam rooms."),
-                List.of(),
+                List.of(new EvolutionEntry("dousear", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,6),
@@ -72,9 +74,9 @@ public class Scaldrip extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRINE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

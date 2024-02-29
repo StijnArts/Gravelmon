@@ -21,7 +21,7 @@ public class Corobelisk extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Considered to be a sun deity by locals, Corobelisk is depicted in murals as emitting a beautiful shining light. Thousands gather on the height of the summer solstice to pay tribute to this radiant Pokémon."),
+                List.of("Considered to be a sun deity by locals, Corobelisk is depicted in murals as emitting a beautiful shining light. Thousands gather on the height of the summer solstice to pay tribute to this radiant Pokemon."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

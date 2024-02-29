@@ -21,7 +21,7 @@ public class Roachem extends drai.dev.gravelmon.pokemon.Pokemon {
                 51, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Although one of the smallest Pokémon, Roachem refuse to go down easily. They gorge on waste and use numbers to take down their foes."),
+                List.of("Although one of the smallest Pokemon, Roachem refuse to go down easily. They gorge on waste and use numbers to take down their foes."),
                 List.of(new EvolutionEntry("enkroach", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(

@@ -23,7 +23,7 @@ public class Basshark extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Basshark provides strong currents to the Ore Sea, creating whats known as the Gold Stream. It can launch other Pokémon with its powered tuck mouth; that also captures large quantities of Sardiner in the process."),
+                List.of("Basshark provides strong currents to the Ore Sea, creating whats known as the Gold Stream. It can launch other Pokemon with its powered tuck mouth; that also captures large quantities of Sardiner in the process."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPER_VOICE,1),

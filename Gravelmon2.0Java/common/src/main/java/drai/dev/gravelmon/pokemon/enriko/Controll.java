@@ -21,7 +21,7 @@ public class Controll extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
-                List.of("It lives and hides under bridges and other man-made structures. When a person or Pokémon approaches, it sprays them with toxic spores."),
+                List.of("It lives and hides under bridges and other man-made structures. When a person or Pokemon approaches, it sprays them with toxic spores."),
                 List.of(new EvolutionEntry("decomposite", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))
                 ),

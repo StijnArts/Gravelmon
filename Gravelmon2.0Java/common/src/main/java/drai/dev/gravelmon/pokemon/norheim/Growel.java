@@ -23,7 +23,7 @@ public class Growel extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_3),
-                List.of("Growel are incredibly rare in the wild in relation to its pre evolved form. Considered ancient warriors of the great forests of Norheim, Growel practices stealth tactics like no other Pokémon."),
+                List.of("Growel are incredibly rare in the wild in relation to its pre evolved form. Considered ancient warriors of the great forests of Norheim, Growel practices stealth tactics like no other Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CAMOUFLAGE,1)                        ),

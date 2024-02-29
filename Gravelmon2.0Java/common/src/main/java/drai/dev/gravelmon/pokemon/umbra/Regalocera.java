@@ -24,7 +24,7 @@ public class Regalocera extends Pokemon {
                 185, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("While Regalocera are proud of their majestic beauty, they are far from cocky, spending most of their energy protecting and nourishing weaker Pokémon."),
+                List.of("While Regalocera are proud of their majestic beauty, they are far from cocky, spending most of their energy protecting and nourishing weaker Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BUG_BITE,12),

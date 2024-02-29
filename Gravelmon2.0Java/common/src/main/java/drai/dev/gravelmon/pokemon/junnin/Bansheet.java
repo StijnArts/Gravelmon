@@ -19,14 +19,16 @@ public class Bansheet extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         29),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.0,
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Bansheet resembles a sheet. If someone were to lift it, there would be nothing underneath. It was first spotted in the workshop of a tailor."),
-                List.of(),
+                List.of(new EvolutionEntry("teepolter", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SONIC_BOOM,1),
                         new MoveLearnSetEntry(Move.WRAP,3),
@@ -93,11 +95,12 @@ public class Bansheet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 14, 33, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bansheet");

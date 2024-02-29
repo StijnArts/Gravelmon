@@ -21,7 +21,7 @@ public class Chainscraw extends drai.dev.gravelmon.pokemon.Pokemon {
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_3),
-                List.of("It was part of a now-extinct lineage of Bug Pokémon relatives. The undersides of its claws spin and vibrate at such rates that it is easily able to grind through stone."),
+                List.of("It was part of a now-extinct lineage of Bug Pokemon relatives. The undersides of its claws spin and vibrate at such rates that it is easily able to grind through stone."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BLOCK,"tm"),

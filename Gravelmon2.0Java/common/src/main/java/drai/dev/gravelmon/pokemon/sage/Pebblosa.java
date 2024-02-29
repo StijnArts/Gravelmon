@@ -19,7 +19,7 @@ public class Pebblosa extends Pokemon {
                 67, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD, EggGroup.MINERAL),
-                List.of("It loves to collect rocks from different mountains and caves by carrying them in its mouth. When threatened, Pebblosa will spit them at other Pokémon. "),
+                List.of("It loves to collect rocks from different mountains and caves by carrying them in its mouth. When threatened, Pebblosa will spit them at other Pokemon. "),
                 List.of(new EvolutionEntry("terratetra", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(

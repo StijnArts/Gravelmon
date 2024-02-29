@@ -23,7 +23,7 @@ public class Armodieval extends drai.dev.gravelmon.pokemon.Pokemon {
                 195, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("Known also in the medieval times of the Pokémon world, Armodieval would protect and stand guard in a castle with its ultimate defense. Its unbreakable shield is made of solid titanium and can stop even the most powerful blast."),
+                List.of("Known also in the medieval times of the Pokemon world, Armodieval would protect and stand guard in a castle with its ultimate defense. Its unbreakable shield is made of solid titanium and can stop even the most powerful blast."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SPIKES,1),

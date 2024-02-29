@@ -23,7 +23,7 @@ public class Fifii extends drai.dev.gravelmon.pokemon.Pokemon {
                 270, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("The spirit of a solitary but joyful girl. Fifii brings happiness among both children and Pokémon. She is incredibly strong and can carry a Sleepnir with her braid-like arms."),
+                List.of("The spirit of a solitary but joyful girl. Fifii brings happiness among both children and Pokemon. She is incredibly strong and can carry a Sleepnir with her braid-like arms."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,1),

@@ -21,7 +21,7 @@ public class Maskilisk extends drai.dev.gravelmon.pokemon.Pokemon {
                 142, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
-                List.of("A mysterious Pokémon that lives in the woods, a covering of feathers keeps it warm in the winter months. There are stories of a human child that was raised by these Pokémon as one of their own."),
+                List.of("A mysterious Pokemon that lives in the woods, a covering of feathers keeps it warm in the winter months. There are stories of a human child that was raised by these Pokemon as one of their own."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCALE_SHOT,"tm"),

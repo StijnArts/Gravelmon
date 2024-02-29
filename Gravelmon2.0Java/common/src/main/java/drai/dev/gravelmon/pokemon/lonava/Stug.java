@@ -21,7 +21,7 @@ public class Stug extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.BUG),
-                List.of("Stug are the ultimate pest, with their metal bodies withstanding even the most concentrated insecticide. They have evolved to be able to eat literally anything organic, ranging from vegetables and plants, to other deceased Pokémon. Whilst this sounds bleak, Stug are essential parts of their local ecosystem."),
+                List.of("Stug are the ultimate pest, with their metal bodies withstanding even the most concentrated insecticide. They have evolved to be able to eat literally anything organic, ranging from vegetables and plants, to other deceased Pokemon. Whilst this sounds bleak, Stug are essential parts of their local ecosystem."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

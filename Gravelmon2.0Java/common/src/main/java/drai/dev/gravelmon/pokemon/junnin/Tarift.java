@@ -19,14 +19,16 @@ public class Tarift extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         18),
                 List.of(Ability.STICKY_HOLD), Ability.FILTER,
-                8, 165,
+                7, 165,
                 new Stats(0,0,1,0,0,0), 235,
                 0.5,
                 61, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
                 List.of("It was believed that Tarift was a different Pokemon millions of years ago, but got stuck in the tar pits and turned into what it is today. Its body is composed mainly of a thick tar that absorbs physical attacks quite well."),
-                List.of(),
+                List.of(new EvolutionEntry("tarzorus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,4),
@@ -91,11 +93,11 @@ public class Tarift extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROLLOUT,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_DESERT, Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Tarift");

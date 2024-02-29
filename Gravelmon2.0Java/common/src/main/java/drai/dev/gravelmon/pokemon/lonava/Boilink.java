@@ -21,7 +21,7 @@ public class Boilink extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Boilink find food by heating small bodies of water, then eating whatever floats to the surface first. Their glistening coats are the envy of both Pokémon and trainers alike."),
+                List.of("Boilink find food by heating small bodies of water, then eating whatever floats to the surface first. Their glistening coats are the envy of both Pokemon and trainers alike."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

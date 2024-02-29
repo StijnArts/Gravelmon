@@ -24,7 +24,7 @@ public class Rowviar extends Pokemon {
                 51, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("These small Pokémon travel in schools of 12 and tend to swim in a V formation. When one evolves into Sanook, they leave their colony to start a new one."),
+                List.of("These small Pokemon travel in schools of 12 and tend to swim in a V formation. When one evolves into Sanook, they leave their colony to start a new one."),
                 List.of(new EvolutionEntry("sanook", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(

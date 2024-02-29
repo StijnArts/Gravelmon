@@ -21,7 +21,7 @@ public class Churlice extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.MINERAL),
-                List.of("Churlice's Limbtacles were a bright red-orange when heat coursed through them. When it wasn't feeding, this ancient Pokémon would hide amongst the rocks hoping to be left alone."),
+                List.of("Churlice's Limbtacles were a bright red-orange when heat coursed through them. When it wasn't feeding, this ancient Pokemon would hide amongst the rocks hoping to be left alone."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OCEANE),

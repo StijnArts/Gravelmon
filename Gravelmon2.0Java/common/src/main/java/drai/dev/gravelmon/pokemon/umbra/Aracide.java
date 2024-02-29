@@ -24,7 +24,7 @@ public class Aracide extends Pokemon {
                 140, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It can envenom the foe by biting or by being bitten. This Pokémon will intentionally leave itself open to attack."),
+                List.of("It can envenom the foe by biting or by being bitten. This Pokemon will intentionally leave itself open to attack."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),

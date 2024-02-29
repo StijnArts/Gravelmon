@@ -21,7 +21,7 @@ public class HizianSilicobra extends drai.dev.gravelmon.pokemon.Pokemon {
                 63, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.FIELD),
-                List.of("The volley of flames it spits can cover a impressive distance. Their overconfidence can lead them to take on much stronger Pokémon."),
+                List.of("The volley of flames it spits can cover a impressive distance. Their overconfidence can lead them to take on much stronger Pokemon."),
                 List.of(new EvolutionEntry("HizianSandaconda", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

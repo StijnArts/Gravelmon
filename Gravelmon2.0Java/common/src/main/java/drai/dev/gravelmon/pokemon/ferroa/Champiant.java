@@ -21,7 +21,7 @@ public class Champiant extends drai.dev.gravelmon.pokemon.Pokemon {
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Although it is small, this Pokémon is able to lift practically anything, even heavy boulders. In numbers, they can carry an entire Metagross away."),
+                List.of("Although it is small, this Pokemon is able to lift practically anything, even heavy boulders. In numbers, they can carry an entire Metagross away."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

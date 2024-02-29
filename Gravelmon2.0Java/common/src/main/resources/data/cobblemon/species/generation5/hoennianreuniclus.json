@@ -1,0 +1,120 @@
+{
+  "implemented": true,
+  "name": "hoennianreuniclus",
+  "nationalPokedexNumber": 579,
+  "primaryType": "psychic",
+  "secondaryType": "grass",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 45,
+    "defence": 105,
+    "special_attack": 125,
+    "special_defence": 90,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 221,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:sleeppowder",
+    "1:stunspore",
+    "1:poisonpowder",
+    "7:confusion",
+    "13:magicalleaf",
+    "28:synthesis",
+    "41:psybeam",
+    "48:recover",
+    "55:magiccoat",
+    "65:frenzyplant",
+    "tm:trickroom",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:energyball",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:reflect",
+    "tm:shockwave",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "egg:growth",
+    "egg:seedbomb"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen5",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoennianreuniclus.desc"
+  ],
+  "preEvolution": "hoennianduosion",
+  "baseScale": 0.16875,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 304,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

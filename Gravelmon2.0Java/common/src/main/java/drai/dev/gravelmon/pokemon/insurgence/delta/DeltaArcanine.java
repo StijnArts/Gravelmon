@@ -19,7 +19,7 @@ public class DeltaArcanine extends Pokemon {
                 194, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("If placed in front of castles or temples, this Pokémon will watch the entrance without moving. Its strength is determined by its claws, teeth, and eyes."),
+                List.of("If placed in front of castles or temples, this Pokemon will watch the entrance without moving. Its strength is determined by its claws, teeth, and eyes."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ANCIENT_ROAR,1),

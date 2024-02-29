@@ -22,7 +22,7 @@ public class Aridart extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Found in the hot deserts of Avoris, these Pokémon adapted to the harsh living conditions and are able to survive without food or water for months. With the skillful use of their limbs they easily dash across rocky terrains and even through deep sand at high speeds. They can outspeed almost any of their enemies."),
+                List.of("Found in the hot deserts of Avoris, these Pokemon adapted to the harsh living conditions and are able to survive without food or water for months. With the skillful use of their limbs they easily dash across rocky terrains and even through deep sand at high speeds. They can outspeed almost any of their enemies."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.AVORIS),

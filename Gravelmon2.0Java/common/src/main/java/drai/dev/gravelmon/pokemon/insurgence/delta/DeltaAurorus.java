@@ -19,7 +19,7 @@ public class DeltaAurorus extends Pokemon {
                 104, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon willingly offers rides to other Pokémon and ferries them to other islands. It can float in the ocean endlessly so long as the sun is shining."),
+                List.of("This Pokemon willingly offers rides to other Pokemon and ferries them to other islands. It can float in the ocean endlessly so long as the sun is shining."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SOAK,1),

@@ -23,7 +23,7 @@ public class Noxareo extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Noxareo enjoy causing ruckus for their own amusement. These troublesome Pokémon are known for causing damage with their reckless behavior. Studies show that its recklessness pumps itself up with energy and gets other Noxareo pumped up. However, they get too carried away and end up causing tremendous damage."),
+                List.of("Noxareo enjoy causing ruckus for their own amusement. These troublesome Pokemon are known for causing damage with their reckless behavior. Studies show that its recklessness pumps itself up with energy and gets other Noxareo pumped up. However, they get too carried away and end up causing tremendous damage."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

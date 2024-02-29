@@ -17,13 +17,13 @@ public class Elvile extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         55),
                 List.of(Ability.SUPER_LUCK), Ability.SUPER_LUCK,
-                8, 165,
-                new Stats(2,0,0,0,0,0), 0,
+                14, 165,
+                new Stats(2,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("New Ability - Lucky Charm: Raises the succes chance for your party, and lowers that of the opponent."),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MUD_SHOT,1),
@@ -42,8 +42,8 @@ public class Elvile extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ME_FIRST,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 19, 43, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

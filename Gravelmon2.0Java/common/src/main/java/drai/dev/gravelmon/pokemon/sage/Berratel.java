@@ -19,7 +19,7 @@ public class Berratel extends Pokemon {
                 167, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Berratel eats so many berries that its fur is permanently stained. It waits for other Pokémon to gather berries, and then mugs them for an easy meal."),
+                List.of("Berratel eats so many berries that its fur is permanently stained. It waits for other Pokemon to gather berries, and then mugs them for an easy meal."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SEED_BOMB,1),

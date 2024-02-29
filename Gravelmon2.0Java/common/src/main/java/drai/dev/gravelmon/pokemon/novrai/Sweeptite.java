@@ -21,7 +21,7 @@ public class Sweeptite extends drai.dev.gravelmon.pokemon.Pokemon {
                 75, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
-                List.of("Sweeptite crawl along the ground, eating dust collected in their fur. These Pokémon are pleasant to have around and eager to help with cleaning."),
+                List.of("Sweeptite crawl along the ground, eating dust collected in their fur. These Pokemon are pleasant to have around and eager to help with cleaning."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

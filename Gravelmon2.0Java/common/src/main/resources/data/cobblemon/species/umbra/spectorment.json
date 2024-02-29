@@ -1,0 +1,150 @@
+{
+  "implemented": true,
+  "name": "spectorment",
+  "nationalPokedexNumber": 2562,
+  "primaryType": "ghost",
+  "abilities": [
+    "insomnia",
+    "soundproof",
+    "h:unaware"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 65,
+    "defence": 85,
+    "special_attack": 90,
+    "special_defence": 130,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 221,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:psywave",
+    "1:faketears",
+    "6:confide",
+    "11:screechsound",
+    "15:hypnosis",
+    "20:nightshade",
+    "25:icywind",
+    "30:shadowball",
+    "36:rest",
+    "36:sleeptalksound",
+    "44:quash",
+    "51:ominouswind",
+    "59:nightmare",
+    "67:dreameater",
+    "74:memento",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:sludgebomb",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:quash",
+    "tm:willowisp",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:infestation",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:darkpulse",
+    "tm:confide",
+    "tutor:snoresound",
+    "tutor:uproar",
+    "tutor:lastresort",
+    "tutor:spite",
+    "tutor:afteryou",
+    "tutor:gravitycosmic",
+    "tutor:telekinesis",
+    "tutor:roleplay",
+    "tutor:firepunch",
+    "tutor:painsplit",
+    "tutor:thunderpunch",
+    "tutor:focuspunch",
+    "tutor:icywind",
+    "tutor:trick",
+    "tutor:icepunch",
+    "tutor:skillswap"  ],
+  "labels": [
+    "umbra",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.spectorment.desc"
+  ],
+  "preEvolution": "depressoul",
+  "baseScale": 0.24375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 3,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 445,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

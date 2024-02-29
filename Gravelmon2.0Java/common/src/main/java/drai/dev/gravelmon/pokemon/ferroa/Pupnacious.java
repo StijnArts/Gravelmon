@@ -21,7 +21,7 @@ public class Pupnacious extends drai.dev.gravelmon.pokemon.Pokemon {
                 159, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
-                List.of("Pupnacious are popular guard Pokémon because of their tenacity and fearsome bite. Because of its diminutive size, people tend to underestimate it and learn their mistake the hard way."),
+                List.of("Pupnacious are popular guard Pokemon because of their tenacity and fearsome bite. Because of its diminutive size, people tend to underestimate it and learn their mistake the hard way."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

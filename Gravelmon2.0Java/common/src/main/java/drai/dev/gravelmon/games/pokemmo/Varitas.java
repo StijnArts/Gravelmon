@@ -1,9 +1,11 @@
 package drai.dev.gravelmon.games.pokemmo;
 
 import drai.dev.gravelmon.pokemon.aristos.*;
+import drai.dev.gravelmon.pokemon.hiza.*;
 import drai.dev.gravelmon.pokemon.qamor.*;
 import drai.dev.gravelmon.pokemon.varitas.*;
-import drai.dev.gravelmon.pokemon.varitas.regional.*;
+import drai.dev.gravelmon.pokemon.hub.Confectious;
+import drai.dev.gravelmon.pokemon.hub.Garbadjinn;
 
 public class Varitas extends drai.dev.gravelmon.games.registry.Game {
     public Varitas() {
@@ -32,20 +34,20 @@ public class Varitas extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Cloddle());
         pokemon.add(new Concealeon());
 //        pokemon.add(new Confectious());
-//        pokemon.add(new Coreef()); NOT FINISHED
+////        pokemon.add(new Coreef()); NOT FINISHED
 //        pokemon.add(new Dancentric());
 //        pokemon.add(new Dapperition());
 //        pokemon.add(new Diamondure());
 //        pokemon.add(new Dicell());
 //        pokemon.add(new Dorsel());
-//        pokemon.add(new Dustout()); NOT FINISHED
+////        pokemon.add(new Dustout()); NOT FINISHED
 //        pokemon.add(new Enforester());
 //        pokemon.add(new Feebleg());
         pokemon.add(new Frankensteen());
 //        pokemon.add(new Fretal());
 //        pokemon.add(new Frostooth());
 //        pokemon.add(new Fulgoryu());
-//        pokemon.add(new Galactix()); NOT FINISHED
+////        pokemon.add(new Galactix()); NOT FINISHED
 //        pokemon.add(new Garbadjinn());
 //        pokemon.add(new Gastropox());
 //        pokemon.add(new Germite());
@@ -54,14 +56,13 @@ public class Varitas extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Grassola());
         pokemon.add(new Grimire());
         pokemon.add(new Stuk());
-//        pokemon.add(new Grimpire()); NOT FINISHED
+////        pokemon.add(new Grimpire()); NOT FINISHED
 //        pokemon.add(new Hatterage());
 //        pokemon.add(new Hoofin());
 //        pokemon.add(new Infesteed());
 //        pokemon.add(new Jawcicle());
-//        pokemon.add(new Jollibird()); NOT FINISHED
-//        pokemon.add(new Kecleon());
-//        pokemon.add(new Kirinirik()); NOT FINISHED
+////        pokemon.add(new Jollibird()); NOT FINISHED
+////        pokemon.add(new Kirinirik()); NOT FINISHED
 //        pokemon.add(new Knifish());
 //        pokemon.add(new Kwiklik());
 //        pokemon.add(new Lasaur());
@@ -71,7 +72,7 @@ public class Varitas extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Meanstalk());
 //        pokemon.add(new Menasuit());
 //        pokemon.add(new Minicule());
-        pokemon.add(new Mirrorigus());
+//        pokemon.add(new Mirrorigus());
         pokemon.add(new Carvesta());
         pokemon.add(new Molcarona());
 //        pokemon.add(new MrCrime());
@@ -96,7 +97,7 @@ public class Varitas extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Severm());
 //        pokemon.add(new Sinistalk());
 //        pokemon.add(new Sinklutter());
-//        pokemon.add(new Smeartiste()); NOT FINISHED
+////        pokemon.add(new Smeartiste()); NOT FINISHED
         pokemon.add(new Snarlax());
 //        pokemon.add(new Snowbrawl());
         pokemon.add(new Sporges());

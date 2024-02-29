@@ -20,7 +20,7 @@ public class Unfortunist extends drai.dev.gravelmon.pokemon.Pokemon {
                 175, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("Upon evolving, it no longer uses spores to lure prey. Unfortunist infect roots in the forest, which allows them to control them to ensnare and drag Pokémon to their location."),
+                List.of("Upon evolving, it no longer uses spores to lure prey. Unfortunist infect roots in the forest, which allows them to control them to ensnare and drag Pokemon to their location."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),

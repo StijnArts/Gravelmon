@@ -21,7 +21,7 @@ public class Mushmettle extends drai.dev.gravelmon.pokemon.Pokemon {
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.FIELD),
-                List.of("It's actually a fungal Pokémon, with a soft body full of spores. It was born from a branch carrying certain spores being struck by lightning and catching fire."),
+                List.of("It's actually a fungal Pokemon, with a soft body full of spores. It was born from a branch carrying certain spores being struck by lightning and catching fire."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

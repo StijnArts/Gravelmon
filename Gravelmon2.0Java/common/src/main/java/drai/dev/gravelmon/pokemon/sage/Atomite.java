@@ -19,7 +19,7 @@ public class Atomite extends Pokemon {
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Atomite is the smallest known Pokémon. Sometimes a big group of Atomite will group together to mimic the shape of something else."),
+                List.of("Atomite is the smallest known Pokemon. Sometimes a big group of Atomite will group together to mimic the shape of something else."),
                 List.of(new EvolutionEntry("orbatom", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "36")))),
                 List.of(

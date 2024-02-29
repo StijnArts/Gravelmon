@@ -1,0 +1,182 @@
+{
+  "implemented": true,
+  "name": "eghotyphlosion",
+  "nationalPokedexNumber": 157,
+  "primaryType": "fire",
+  "secondaryType": "electric",
+  "abilities": [
+    "static",
+    "h:cloudnine"
+  ],
+  "baseStats": {
+    "hp": 84,
+    "attack": 68,
+    "defence": 94,
+    "special_attack": 120,
+    "special_defence": 74,
+    "speed": 97
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 240,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:shockwave",
+    "1:firepledge",
+    "1:flamewheel",
+    "1:tackle",
+    "1:leer",
+    "6:smokescreen",
+    "10:ember",
+    "13:thundershock",
+    "19:spark",
+    "22:defensecurl",
+    "28:flamecharge",
+    "31:swiftcosmic",
+    "37:lavaplume",
+    "40:wildcharge",
+    "46:naturepower",
+    "49:thunderbolt",
+    "55:heatwave",
+    "58:thunder",
+    "tm:dragonclaw",
+    "tm:calmmind",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:flamethrower",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:overheat",
+    "tm:focusblast",
+    "tm:chargebeam",
+    "tm:incinerate",
+    "tm:willowisp",
+    "tm:embargo",
+    "tm:explosion",
+    "tm:retaliate",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:stoneedge",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:swordsdance",
+    "tm:rockslide",
+    "tm:workup",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:wildcharge",
+    "tm:rocksmash",
+    "tm:snarl",
+    "tm:strength",
+    "tm:cinderbreath",
+    "tutor:ancientpower",
+    "tutor:blastburn",
+    "tutor:darkpulse",
+    "tutor:earthpower",
+    "tutor:firepunch",
+    "tutor:heatwave",
+    "tutor:helpinghand",
+    "tutor:megapunch",
+    "tutor:rollout",
+    "tutor:stealthrock",
+    "tutor:thunderpunch",
+    "egg:bounce",
+    "egg:defog",
+    "egg:electroball",
+    "egg:firepledge",
+    "egg:foulplay",
+    "egg:mudslap",
+    "egg:zapcannon"  ],
+  "labels": [
+    "gen2",
+    "infinity",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghotyphlosion.desc"
+  ],
+  "preEvolution": "eghoquilava",
+  "baseScale": 0.35625,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 19,
+  "weight": 680,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

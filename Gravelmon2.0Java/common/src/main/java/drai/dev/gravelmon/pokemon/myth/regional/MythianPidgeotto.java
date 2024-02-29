@@ -19,7 +19,7 @@ public class MythianPidgeotto extends Pokemon {
                 122, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder."),
+                List.of("Very protective of its sprawling territorial area, this Pokemon will fiercely peck at any intruder."),
                 List.of(new EvolutionEntry("mythianpidgeot", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

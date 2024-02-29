@@ -19,7 +19,7 @@ public class Doppole extends Pokemon {
                 62, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.MONSTER, EggGroup.FAIRY),
-                List.of("Doppole wears a half of a broken Poké Ball as a sturdy improvised helmet. Whilst it might act bold and spunky, in reality, it loves being coddled."),
+                List.of("Doppole wears a half of a broken Poke Ball as a sturdy improvised helmet. Whilst it might act bold and spunky, in reality, it loves being coddled."),
                 List.of(new EvolutionEntry("artifish", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "33")))),
                 List.of(

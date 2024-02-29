@@ -23,7 +23,7 @@ public class Wreckore extends drai.dev.gravelmon.pokemon.Pokemon {
                 227, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Wreckore are one of the bravest, daring Pokémon out there and are very protective of its allies and trainers. They easily knockout their foes with a strike from their powerful arms. They still have anger issues."),
+                List.of("Wreckore are one of the bravest, daring Pokemon out there and are very protective of its allies and trainers. They easily knockout their foes with a strike from their powerful arms. They still have anger issues."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_PUNCH,1),

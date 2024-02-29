@@ -21,7 +21,7 @@ public class Truculony extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
-                List.of("It's so territorial that it will not rest until it has scared off all other Pokémon from its habitat. Colonies of this Pokémon will enter blood feuds that last for generations."),
+                List.of("It's so territorial that it will not rest until it has scared off all other Pokemon from its habitat. Colonies of this Pokemon will enter blood feuds that last for generations."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

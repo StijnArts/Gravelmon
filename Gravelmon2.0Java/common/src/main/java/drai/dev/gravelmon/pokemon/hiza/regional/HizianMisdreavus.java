@@ -21,7 +21,7 @@ public class HizianMisdreavus extends drai.dev.gravelmon.pokemon.Pokemon {
                 87, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Their burning flames can be seen through nights and blizzards. They inhabit areas with colder climate as they enjoy startling ice-type Pokémon with their hot flames."),
+                List.of("Their burning flames can be seen through nights and blizzards. They inhabit areas with colder climate as they enjoy startling ice-type Pokemon with their hot flames."),
                 List.of(new EvolutionEntry("HizianMismagius", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(

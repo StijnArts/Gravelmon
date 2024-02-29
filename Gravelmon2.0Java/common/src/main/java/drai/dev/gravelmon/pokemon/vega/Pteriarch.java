@@ -24,7 +24,7 @@ public class Pteriarch extends Pokemon {
                 200, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("It is said to be Aerodactyl's rival. Both Pokémon are referred to as 'The King of the Sky'."),
+                List.of("It is said to be Aerodactyl's rival. Both Pokemon are referred to as 'The King of the Sky'."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),

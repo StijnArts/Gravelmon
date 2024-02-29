@@ -21,7 +21,7 @@ public class Mushilly extends drai.dev.gravelmon.pokemon.Pokemon {
                 166, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("The size of the umbrella differs between individuals. There are stories of a Mushilly so big that it took root and it served as a home to a whole forest of Pokémon."),
+                List.of("The size of the umbrella differs between individuals. There are stories of a Mushilly so big that it took root and it served as a home to a whole forest of Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ENCORE,1),

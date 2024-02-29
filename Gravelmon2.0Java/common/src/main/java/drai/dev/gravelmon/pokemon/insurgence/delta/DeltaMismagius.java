@@ -19,7 +19,7 @@ public class DeltaMismagius extends Pokemon {
                 173, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon loves making snow-ghosts with humans. It has an unquenchable love for the holidays."),
+                List.of("This Pokemon loves making snow-ghosts with humans. It has an unquenchable love for the holidays."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FREEZEDRY,1),

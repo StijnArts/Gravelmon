@@ -35,21 +35,24 @@ public class GameRegistry {
         games.add(new Varitas());
         games.add(new Aristos());
         games.add(new Uranium());
+        games.add(new Flux());
         games.add(new Hiza());
         games.add(new Junnin());
-        games.add(new Flux());
         games.add(new OrohnHavai());
         games.add(new EternalForest());
         games.add(new Norheim());
+        games.add(new Lonava());
         games.add(new Lockemon());
         games.add(new Nosto());
         games.add(new Umbra());
         games.add(new BlazingEmerald());
+        games.add(new Mythire());
         games.add(new Daybreak());
         games.add(new Qamor());
         games.add(new Vanguard());
         games.add(new Isiah());
         games.add(new Myth());
+        games.add(new Midamis());
         games.add(new Deneb());
         games.add(new Atlas());
     }

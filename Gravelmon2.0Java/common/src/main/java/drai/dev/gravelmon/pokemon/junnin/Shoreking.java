@@ -19,13 +19,13 @@ public class Shoreking extends drai.dev.gravelmon.pokemon.Pokemon {
                         86,
                         62),
                 List.of(Ability.SAND_VEIL,Ability.WATER_COMPACTION,Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                8, 165,
+                20, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.5,
                 232, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
-                List.of("- Wide Guard Rock - BubbleSTAB Water - Camouflage Normal 6 Sand TombSTAB Ground 8 Sand Attack Ground 12 Bide Normal 16 BrineSTAB Water 19 BulldozeSTAB Ground 23 WhirlpoolSTAB Water 28 Protect Normal 32 Beach TideSTAB Water 35 Sandstorm Rock 41 Sand ShotSTAB Ground 45 Iron Defense Steel 50 Sand TideSTAB Ground 55 FissureSTAB Ground"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CAMOUFLAGE,1),
@@ -71,14 +71,15 @@ public class Shoreking extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Shoreking");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

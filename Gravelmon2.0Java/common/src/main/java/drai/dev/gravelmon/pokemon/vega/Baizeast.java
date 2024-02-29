@@ -24,7 +24,7 @@ public class Baizeast extends Pokemon {
                 187, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
-                List.of("A very appreciated Pokémon that prevents sickness for anyone nearby using some sort of mysterious power."),
+                List.of("A very appreciated Pokemon that prevents sickness for anyone nearby using some sort of mysterious power."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

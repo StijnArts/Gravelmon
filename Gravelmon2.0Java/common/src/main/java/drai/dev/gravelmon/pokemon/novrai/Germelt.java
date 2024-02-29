@@ -21,7 +21,7 @@ public class Germelt extends drai.dev.gravelmon.pokemon.Pokemon {
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("A strange species of Pokémon uncovered during excavations of an iceberg. It's highly infectious, but the ice that coats it seems to slow it down and keep it docile."),
+                List.of("A strange species of Pokemon uncovered during excavations of an iceberg. It's highly infectious, but the ice that coats it seems to slow it down and keep it docile."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),

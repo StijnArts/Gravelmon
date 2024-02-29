@@ -21,7 +21,7 @@ public class Cambryo extends drai.dev.gravelmon.pokemon.Pokemon {
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.WATER_3),
-                List.of("A very early Pokémon with a simple body plan. The bubble on its front end is filled with a mysterious gas, and it bursts when attacked to cause vivid hallucinations."),
+                List.of("A very early Pokemon with a simple body plan. The bubble on its front end is filled with a mysterious gas, and it bursts when attacked to cause vivid hallucinations."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),

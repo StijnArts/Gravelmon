@@ -24,7 +24,7 @@ public class Pramblo extends Pokemon {
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("This Pokémon has a tube of hot glass coming off of its protective shell. This tube is formed from the glass leftover after the shell’s formation. Pramblo use it to interact with the outside world."),
+                List.of("This Pokemon has a tube of hot glass coming off of its protective shell. This tube is formed from the glass leftover after the shell’s formation. Pramblo use it to interact with the outside world."),
                 List.of(new EvolutionEntry("glashulimp", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(

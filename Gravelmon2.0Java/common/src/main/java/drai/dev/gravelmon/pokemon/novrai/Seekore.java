@@ -21,7 +21,7 @@ public class Seekore extends drai.dev.gravelmon.pokemon.Pokemon {
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("A strange Pokémon, believed to have been created by humans long ago. It dwells inside caves, using its sturdy metal claws to scgoomy and pry iron loose."),
+                List.of("A strange Pokemon, believed to have been created by humans long ago. It dwells inside caves, using its sturdy metal claws to scgoomy and pry iron loose."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

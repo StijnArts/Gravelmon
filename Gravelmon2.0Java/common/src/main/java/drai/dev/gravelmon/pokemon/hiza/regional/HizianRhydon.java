@@ -21,7 +21,7 @@ public class HizianRhydon extends drai.dev.gravelmon.pokemon.Pokemon {
                 170, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
-                List.of("It goes through rigorous training in the montains to keep its body warm and grow stronger. Whenever it finds other Pokémon lost in its mountains it tries to guide them back to safety."),
+                List.of("It goes through rigorous training in the montains to keep its body warm and grow stronger. Whenever it finds other Pokemon lost in its mountains it tries to guide them back to safety."),
                 List.of(new EvolutionEntry("rhyferal", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))),
                 List.of(

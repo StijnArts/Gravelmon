@@ -21,7 +21,7 @@ public class Solstarian extends drai.dev.gravelmon.pokemon.Pokemon {
                 270, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Old legends tell of an ancient, evil Pokémon that burned the land with its one eye before being struck down by a hero. It is possible that this is a resurrection of that Pokémon from the legend."),
+                List.of("Old legends tell of an ancient, evil Pokemon that burned the land with its one eye before being struck down by a hero. It is possible that this is a resurrection of that Pokemon from the legend."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PUNISHMENT,1),

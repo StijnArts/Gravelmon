@@ -20,7 +20,7 @@ public class Reekoral extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.DRAGON),
-                List.of("Despite its cute appearance, this Pokémon's fangs carry a deadly venom. Its rattle and bright colors..."),
+                List.of("Despite its cute appearance, this Pokemon's fangs carry a deadly venom. Its rattle and bright colors..."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CONSTRICT,1),

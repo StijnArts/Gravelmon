@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranGorebyss extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranGorebyss() {
-        super("Gorebyss",
+    public NovranGorebyss(int dex) {
+        super(dex, "Gorebyss",
                 Type.WATER,Type.FAIRY,
                 new Stats(55,
                         84,
@@ -15,7 +15,7 @@ public class NovranGorebyss extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         52),
                 List.of(Ability.POISON_HEAL), Ability.MAGIC_BOUNCE,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,2,0,0), 60,
                 0.5,
                 170, ExperienceGroup.SLOW,
@@ -125,14 +125,16 @@ public class NovranGorebyss extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHELL_SMASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 30, 49, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Gorebyss");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

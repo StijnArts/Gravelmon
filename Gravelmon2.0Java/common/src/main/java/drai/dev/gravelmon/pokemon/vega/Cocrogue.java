@@ -24,7 +24,7 @@ public class Cocrogue extends Pokemon {
                 142, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("The attacks dealt by its four arms can't be matched in power by any Pokémon with only two arms."),
+                List.of("The attacks dealt by its four arms can't be matched in power by any Pokemon with only two arms."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),

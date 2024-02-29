@@ -14,6 +14,7 @@ import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.nosto.regional.*;
+import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.orohnhavai.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
@@ -31,6 +32,14 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new NovranSlowpoke(79));
+        pokemon.add(new NovranSlowbro(80));
+        pokemon.add(new NovranGrimer(88));
+        pokemon.add(new NovranMuk(88));
+        pokemon.add(new NovranLapras(131));
+        pokemon.add(new NovranOmanyte(138));
+        pokemon.add(new NovranOmastar(139));
+
         pokemon.add(new QamoranPsyduck(54));
         pokemon.add(new QamoranSeel(86));
         pokemon.add(new QamoranDewgong(87));

@@ -21,7 +21,7 @@ public class Candleru extends drai.dev.gravelmon.pokemon.Pokemon {
                 57, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("Its head is coated in wax that can burn even underwater. It's oddly compelled to light itself on fire, so it follows Trainers with Fire-type Pokémon, hoping to join them."),
+                List.of("Its head is coated in wax that can burn even underwater. It's oddly compelled to light itself on fire, so it follows Trainers with Fire-type Pokemon, hoping to join them."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),

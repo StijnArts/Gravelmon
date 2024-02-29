@@ -1,0 +1,178 @@
+{
+  "implemented": true,
+  "name": "deltalampent",
+  "nationalPokedexNumber": 608,
+  "primaryType": "fairy",
+  "secondaryType": "fire",
+  "abilities": [
+    "flashfire",
+    "weakarmor",
+    "h:fairyaura"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 95,
+    "special_defence": 60,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:ember",
+    "1:fairywind",
+    "1:flash",
+    "1:mist",
+    "3:flash",
+    "5:mist",
+    "7:firespin",
+    "10:charm",
+    "13:disarmingvoicesound",
+    "16:healblock",
+    "20:flameburst",
+    "24:imprison",
+    "28:dazzlinggleam",
+    "33:wish",
+    "38:lavaplume",
+    "45:fairylock",
+    "53:moonblast",
+    "61:moonlight",
+    "69:overheat",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:recycle",
+    "tm:overheat",
+    "tm:energyball",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:skillswap",
+    "tm:willowisp",
+    "tm:embargo",
+    "tm:psychup",
+    "tm:gyroball",
+    "tm:dreameater",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:trickroom",
+    "tm:sleeptalksound",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:allyswitch",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:flash",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:earthpower",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:healbellsound",
+    "tutor:heatwave",
+    "tutor:irondefense",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:signalbeam",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
+    "tutor:trick",
+    "tutor:wish",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltalampent.desc"
+  ],
+  "preEvolution": "deltalitwick",
+  "evolutions": [
+    {
+      "id": "deltalampent_deltachandelure",
+      "variant": "item_interact",
+      "result": "deltachandelure",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone"   
+ }
+  ],
+  "baseScale": 0.1125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 130,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

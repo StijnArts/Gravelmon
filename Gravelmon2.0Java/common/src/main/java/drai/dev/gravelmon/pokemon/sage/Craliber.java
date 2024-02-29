@@ -19,7 +19,7 @@ public class Craliber extends Pokemon {
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3, EggGroup.MINERAL),
-                List.of("Hatched near undersea mineral deposits, this Pokémon develops a sturdy shell. Its body rotates, helping it maintain course at high speeds."),
+                List.of("Hatched near undersea mineral deposits, this Pokemon develops a sturdy shell. Its body rotates, helping it maintain course at high speeds."),
                 List.of(new EvolutionEntry("crawglock", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(

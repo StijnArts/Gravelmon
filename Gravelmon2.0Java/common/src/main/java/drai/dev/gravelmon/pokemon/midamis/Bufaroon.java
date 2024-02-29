@@ -17,14 +17,16 @@ public class Bufaroon extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         60),
                 List.of(Ability.OVERGROW), Ability.SCRAPPY,
-                8, 165,
-                new Stats(0,2,0,0,0,0), 0,
+                9, 165,
+                new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("If trained properly Bufaroon can become great battlers or even gaurd dogs. Through evolution they grow an aggressive nature, but if trained from a Florcoon they can be more of a help. Wild Bufaroons are quite dangerous and warning is given to those who come across any."),
-                List.of(),
+                List.of(new EvolutionEntry("grandaroon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEET_SCENT,1),
                         new MoveLearnSetEntry(Move.RAGE,19),
@@ -44,11 +46,11 @@ public class Bufaroon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.INGRAIN,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE,  16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_BERRY_BUSH),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bufaroon");

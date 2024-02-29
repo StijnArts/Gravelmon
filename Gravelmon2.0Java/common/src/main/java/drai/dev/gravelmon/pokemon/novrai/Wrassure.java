@@ -21,7 +21,7 @@ public class Wrassure extends drai.dev.gravelmon.pokemon.Pokemon {
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("A helpful Pokémon that feeds on grime accumulated by others. Many aquatic Pokémon trust them, and will seek them out to get a cleaning."),
+                List.of("A helpful Pokemon that feeds on grime accumulated by others. Many aquatic Pokemon trust them, and will seek them out to get a cleaning."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUASLAP,1),

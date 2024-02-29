@@ -24,7 +24,7 @@ public class Serplant extends Pokemon {
                 184, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("This Pokémon's leafy body constantly releases a sweet smell with the ability to calm hearts and clear minds."),
+                List.of("This Pokemon's leafy body constantly releases a sweet smell with the ability to calm hearts and clear minds."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

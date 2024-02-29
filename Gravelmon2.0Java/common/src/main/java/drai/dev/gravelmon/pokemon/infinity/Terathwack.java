@@ -19,7 +19,7 @@ public class Terathwack extends Pokemon {
                 195, ExperienceGroup.MEDIUM_FAST,
                 70,
                 39, List.of(EggGroup.MONSTER),
-                List.of("A rarely seen evolution to Marowak. The skull once worn as a Cubone has now become a natural part of the Pokémon. Can often be seen protecting wild Kangaskhan."),
+                List.of("A rarely seen evolution to Marowak. The skull once worn as a Cubone has now become a natural part of the Pokemon. Can often be seen protecting wild Kangaskhan."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BONE_SWEEP,1),

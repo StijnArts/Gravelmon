@@ -19,7 +19,7 @@ public class Kidling extends Pokemon {
                 28, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 41, List.of(EggGroup.FIELD),
-                List.of("Kidling headbutts humans and Pokémon as a sign of affection. When its head makes contact, even gently, the flame on its tail flares up briefly."),
+                List.of("Kidling headbutts humans and Pokemon as a sign of affection. When its head makes contact, even gently, the flame on its tail flares up briefly."),
                 List.of(new EvolutionEntry("pyroat", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(

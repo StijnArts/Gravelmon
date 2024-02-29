@@ -20,7 +20,7 @@ public class Tintap extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("These Pokémon's markings shine dimly in the darkness of caves. Different patterns have been documented already, although extremely rare."),
+                List.of("These Pokemon's markings shine dimly in the darkness of caves. Different patterns have been documented already, although extremely rare."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FLASH,1),

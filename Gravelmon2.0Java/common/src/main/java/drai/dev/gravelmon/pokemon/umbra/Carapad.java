@@ -24,7 +24,7 @@ public class Carapad extends Pokemon {
                 40, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1, EggGroup.GRASS),
-                List.of("Carapad use their shells to mimic lily pads. People and Pokémon alike often fall for their disguise. But, if disturbed, Carapad will shoot a jet of water at the offender's face."),
+                List.of("Carapad use their shells to mimic lily pads. People and Pokemon alike often fall for their disguise. But, if disturbed, Carapad will shoot a jet of water at the offender's face."),
                 List.of(new EvolutionEntry("puripad", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.GUST, "")),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.RAIN_DANCE.getName()+"\"")))),
                 List.of(

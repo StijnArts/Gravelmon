@@ -23,7 +23,7 @@ public class Valecred extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("It is known to be a guardian to a sacred valley in the Orohn Division. It kept the land rich and healthy. When it disappeared the vegetation began dying and the Pokémon fled the valley."),
+                List.of("It is known to be a guardian to a sacred valley in the Orohn Division. It kept the land rich and healthy. When it disappeared the vegetation began dying and the Pokemon fled the valley."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

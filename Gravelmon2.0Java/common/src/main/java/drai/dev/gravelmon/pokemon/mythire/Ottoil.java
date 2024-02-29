@@ -21,7 +21,7 @@ public class Ottoil extends drai.dev.gravelmon.pokemon.Pokemon {
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("It didn't appear in the region until modern times, but it doesn't cause trouble with the native Pokémon. A film of waterproof goo keeps it insulated in chilly water."),
+                List.of("It didn't appear in the region until modern times, but it doesn't cause trouble with the native Pokemon. A film of waterproof goo keeps it insulated in chilly water."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.MYTHIRE),

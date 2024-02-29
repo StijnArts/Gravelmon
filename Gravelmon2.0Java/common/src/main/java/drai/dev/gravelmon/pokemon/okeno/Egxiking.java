@@ -20,7 +20,7 @@ public class Egxiking extends drai.dev.gravelmon.pokemon.Pokemon {
                 230, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
-                List.of("This Pokémon rules over Egcite and Egxel. When approaching its burrow, you may feel the temperature become slightly warmer. It tries to create the perfect environment for its eggs to hatch."),
+                List.of("This Pokemon rules over Egcite and Egxel. When approaching its burrow, you may feel the temperature become slightly warmer. It tries to create the perfect environment for its eggs to hatch."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WARMEMBRACE,1),

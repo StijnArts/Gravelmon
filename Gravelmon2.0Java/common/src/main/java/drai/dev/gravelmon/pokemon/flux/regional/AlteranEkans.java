@@ -13,7 +13,7 @@ public class AlteranEkans extends Pokemon {
                 Type.FIGHTING,
                 new Stats(35, 60, 44, 40, 54, 55),
                 List.of(Ability.GUTS, Ability.SHED_SKIN), Ability.TECHNICIAN,
-                23, 80,
+                7, 80,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,

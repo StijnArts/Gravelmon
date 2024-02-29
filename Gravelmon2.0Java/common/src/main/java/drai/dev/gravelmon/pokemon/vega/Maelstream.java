@@ -19,7 +19,7 @@ public class Maelstream extends Pokemon {
                 143, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1, EggGroup.WATER_2),
-                List.of("When it swims at high speed, it can't see its surroundings, so it often collides with walls or other Pokémon."),
+                List.of("When it swims at high speed, it can't see its surroundings, so it often collides with walls or other Pokemon."),
                 List.of(new EvolutionEntry("skelachone", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(

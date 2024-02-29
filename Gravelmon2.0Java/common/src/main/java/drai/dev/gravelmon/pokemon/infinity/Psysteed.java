@@ -19,7 +19,7 @@ public class Psysteed extends Pokemon {
                 240, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.FIELD),
-                List.of("This Pokémon helps nomadic tribes haul building material using its telekenetic powers. Humans also dye the fur with archaic symbols."),
+                List.of("This Pokemon helps nomadic tribes haul building material using its telekenetic powers. Humans also dye the fur with archaic symbols."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

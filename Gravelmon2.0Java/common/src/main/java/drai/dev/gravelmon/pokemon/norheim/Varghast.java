@@ -23,7 +23,7 @@ public class Varghast extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Varghast is considered fabled due to its rarity. Long ago, they used to hunt in packs, but today they are solitary Pokémon. It howls with great pride during a full moon; comparing its white fur with the moonlight itself."),
+                List.of("Varghast is considered fabled due to its rarity. Long ago, they used to hunt in packs, but today they are solitary Pokemon. It howls with great pride during a full moon; comparing its white fur with the moonlight itself."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

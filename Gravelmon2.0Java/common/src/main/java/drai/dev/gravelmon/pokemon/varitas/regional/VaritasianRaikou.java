@@ -23,7 +23,7 @@ public class VaritasianRaikou extends drai.dev.gravelmon.pokemon.Pokemon {
                 261, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Raikou embodies the speed of lightning. The roars of this Pokémon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down."),
+                List.of("Raikou embodies the speed of lightning. The roars of this Pokemon send shock waves shuddering through the air and shake the ground as if lightning bolts had come crashing down."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.OMINOUS_WIND,1),

@@ -21,7 +21,7 @@ public class Redear extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Viewed as sacred and favoured by druids, seeing this fragile Pokémon means that you will soon experience great happiness. Its nimble nature allows it to avoid predators with ease, silently moving through forests and thickets."),
+                List.of("Viewed as sacred and favoured by druids, seeing this fragile Pokemon means that you will soon experience great happiness. Its nimble nature allows it to avoid predators with ease, silently moving through forests and thickets."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

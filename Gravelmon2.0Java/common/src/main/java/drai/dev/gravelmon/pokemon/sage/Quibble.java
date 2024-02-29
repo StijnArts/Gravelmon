@@ -19,7 +19,7 @@ public class Quibble extends Pokemon {
                 59, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING, EggGroup.FIELD),
-                List.of("Irascible and immature, Quibble squawks loudly when it doesn't get its way. It picks on smaller Pokémon but it's quick to flee when its targets fight back."),
+                List.of("Irascible and immature, Quibble squawks loudly when it doesn't get its way. It picks on smaller Pokemon but it's quick to flee when its targets fight back."),
                 List.of(new EvolutionEntry("fowattle", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(

@@ -21,7 +21,7 @@ public class Spectrance extends drai.dev.gravelmon.pokemon.Pokemon {
                 227, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("By rapidly shifting colours, this Pokémon over-stimulates opponents until they're incapacitated. In its time, Spectrance kept hypnotised victims in strategic locations around its den, allowing them to move only to fend off invaders in its place."),
+                List.of("By rapidly shifting colours, this Pokemon over-stimulates opponents until they're incapacitated. In its time, Spectrance kept hypnotised victims in strategic locations around its den, allowing them to move only to fend off invaders in its place."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DARK_PULSE,1)                        ),

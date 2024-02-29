@@ -19,14 +19,16 @@ public class Whiscleo extends drai.dev.gravelmon.pokemon.Pokemon {
                         53,
                         77),
                 List.of(Ability.FOREWARN,Ability.PRESSURE,Ability.SAND_RUSH), Ability.SAND_RUSH,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 149, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Whiscleo has large ears that can hear from many miles away. Ancient writings say that it can hear the voices of the past and future as well."),
-                List.of(),
+                List.of(new EvolutionEntry("pharoar", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"50")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,6),
@@ -122,11 +124,11 @@ public class Whiscleo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKILL_SWAP,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Whiscleo");

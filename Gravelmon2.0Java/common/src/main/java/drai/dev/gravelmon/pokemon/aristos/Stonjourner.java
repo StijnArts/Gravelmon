@@ -23,7 +23,7 @@ public class Stonjourner extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokémon has a talent for delivering dynamic kicks."),
+                List.of("It stands in grasslands, watching the sun's descent from zenith to horizon. This Pokemon has a talent for delivering dynamic kicks."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.ARISTOS),

@@ -21,7 +21,7 @@ public class Origalleon extends drai.dev.gravelmon.pokemon.Pokemon {
                 234, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Origalleon have let go of their obsessions, instead deciding to spend the rest of its days at sea offering aid to pokémon and people alike. But should they ever find what they were searching for, they pledge to be by its side forever."),
+                List.of("Origalleon have let go of their obsessions, instead deciding to spend the rest of its days at sea offering aid to pokemon and people alike. But should they ever find what they were searching for, they pledge to be by its side forever."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OCEANE),

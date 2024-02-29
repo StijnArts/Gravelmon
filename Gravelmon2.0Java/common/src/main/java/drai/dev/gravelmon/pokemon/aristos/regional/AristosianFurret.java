@@ -23,7 +23,7 @@ public class AristosianFurret extends drai.dev.gravelmon.pokemon.Pokemon {
                 156, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Plants growing on Furret's mossy cloak absorb nutrients from its body, and nourish it in return when they photosynthesize. Small Bug Pokémon sometimes hide in its fur."),
+                List.of("Plants growing on Furret's mossy cloak absorb nutrients from its body, and nourish it in return when they photosynthesize. Small Bug Pokemon sometimes hide in its fur."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.COIL,1),

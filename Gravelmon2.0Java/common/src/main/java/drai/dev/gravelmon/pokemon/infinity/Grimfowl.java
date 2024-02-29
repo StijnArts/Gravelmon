@@ -19,7 +19,7 @@ public class Grimfowl extends Pokemon {
                 205, ExperienceGroup.MEDIUM_FAST,
                 70,
                 39, List.of(EggGroup.FLYING),
-                List.of("In ancient times, people believed Grimfowl to be the harbinger of death, sent from the underworld. Nowadays its feathers are used as funeral décor."),
+                List.of("In ancient times, people believed Grimfowl to be the harbinger of death, sent from the underworld. Nowadays its feathers are used as funeral decor."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_DAZE,1),

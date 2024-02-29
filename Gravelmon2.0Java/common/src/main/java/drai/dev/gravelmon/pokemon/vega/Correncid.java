@@ -24,7 +24,7 @@ public class Correncid extends Pokemon {
                 210, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1, EggGroup.AMORPHOUS),
-                List.of("A mysterious Pokémon that connects this world and the next. Anyone who follows it to the next world will not return."),
+                List.of("A mysterious Pokemon that connects this world and the next. Anyone who follows it to the next world will not return."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HYDRO_CANNON,1),

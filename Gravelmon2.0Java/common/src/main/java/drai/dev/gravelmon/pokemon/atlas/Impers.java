@@ -21,7 +21,7 @@ public class Impers extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("Toxins have caused Impers' genes to fall apart, so it is unable to keep itself in one shape. Its genes are extremely toxic to other Pokémon."),
+                List.of("Toxins have caused Impers' genes to fall apart, so it is unable to keep itself in one shape. Its genes are extremely toxic to other Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),

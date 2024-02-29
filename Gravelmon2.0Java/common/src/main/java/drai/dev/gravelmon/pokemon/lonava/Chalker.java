@@ -15,7 +15,7 @@ public class Chalker extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         105),
                 List.of(Ability.ROUGH_SKIN,Ability.ROCK_HEAD,Ability.NIGHTSTALKER), Ability.NIGHTSTALKER,
-                8, 165,
+                14, 165,
                 new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 216, ExperienceGroup.FAST,
@@ -120,8 +120,8 @@ public class Chalker extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMART_STRIKE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 42, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_SAVANNA, Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

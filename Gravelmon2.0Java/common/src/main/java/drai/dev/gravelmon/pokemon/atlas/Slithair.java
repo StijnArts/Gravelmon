@@ -21,7 +21,7 @@ public class Slithair extends drai.dev.gravelmon.pokemon.Pokemon {
                 153, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
-                List.of("Slithair glide through the night skies, using noxious smoke as cloud cover. When they spot prey from above, they dive down the from the skies, incapacitating their victims with a quick venomous bite. It's said that in other regions, Nebulent will evolve into a different Pokémon."),
+                List.of("Slithair glide through the night skies, using noxious smoke as cloud cover. When they spot prey from above, they dive down the from the skies, incapacitating their victims with a quick venomous bite. It's said that in other regions, Nebulent will evolve into a different Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MOONBLAST,1),

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranCherrim extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranCherrim() {
-        super("Cherrim",
+    public NovranCherrim(int dex) {
+        super(dex, "Cherrim",
                 Type.FIRE,Type.GHOST,
                 new Stats(70,
                         60,
@@ -15,7 +15,7 @@ public class NovranCherrim extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         100),
                 List.of(Ability.DRY_SKIN), Ability.FLASH_FIRE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
@@ -113,8 +113,8 @@ public class NovranCherrim extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 49, .54, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

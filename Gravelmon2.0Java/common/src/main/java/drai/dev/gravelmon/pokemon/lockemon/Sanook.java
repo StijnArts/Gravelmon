@@ -24,7 +24,7 @@ public class Sanook extends Pokemon {
                 151, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("Sanook have immensely strong jaws that rival Pokémon such as Drednaw. Their beaks grow sharper with age, making elder Sanook the most powerful in their colony."),
+                List.of("Sanook have immensely strong jaws that rival Pokemon such as Drednaw. Their beaks grow sharper with age, making elder Sanook the most powerful in their colony."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUA_JET,1),

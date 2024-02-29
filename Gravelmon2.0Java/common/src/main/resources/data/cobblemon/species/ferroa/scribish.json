@@ -1,0 +1,120 @@
+{
+  "implemented": true,
+  "name": "scribish",
+  "nationalPokedexNumber": 1447,
+  "primaryType": "bug",
+  "abilities": [
+    "shedskin",
+    "flareboost",
+    "h:trace"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 58,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:stringshot",
+    "5:quickattack",
+    "9:copycat",
+    "13:strugglebug",
+    "16:swiftcosmic",
+    "19:encore",
+    "23:bugbite",
+    "27:silverwind",
+    "31:agility",
+    "34:retaliate",
+    "38:luckychant",
+    "42:uturn",
+    "45:roleplay",
+    "tm:bugbite",
+    "tm:electroweb",
+    "tm:helpinghand",
+    "tm:recycle",
+    "tm:snoresound",
+    "tm:signalbeam",
+    "tm:endeavor",
+    "tm:knockoff",
+    "tm:foulplay",
+    "tm:skittersmack",
+    "tm:coaching",
+    "tm:switcheroo",
+    "tm:ragepowder"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.scribish.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "scribish_papyrush",
+      "variant": "level_up",
+      "result": "papyrush",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

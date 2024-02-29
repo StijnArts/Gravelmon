@@ -24,7 +24,7 @@ public class Shrimpink extends Pokemon {
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Oddly enough, Shrimpink emit a pleasant aroma that draws in Pokémon and humans alike. Their tough shells make them inedible, however."),
+                List.of("Oddly enough, Shrimpink emit a pleasant aroma that draws in Pokemon and humans alike. Their tough shells make them inedible, however."),
                 List.of(new EvolutionEntry("armaroma", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(

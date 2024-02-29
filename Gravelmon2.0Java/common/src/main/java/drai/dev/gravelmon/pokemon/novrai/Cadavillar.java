@@ -21,7 +21,7 @@ public class Cadavillar extends drai.dev.gravelmon.pokemon.Pokemon {
                 72, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Formed by the fearful souls of weak Bug-type Pokémon, it clings to a set of bones, which it collects from other corpses and reassembles into a familiar form."),
+                List.of("Formed by the fearful souls of weak Bug-type Pokemon, it clings to a set of bones, which it collects from other corpses and reassembles into a familiar form."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

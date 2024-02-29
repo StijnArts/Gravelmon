@@ -21,7 +21,7 @@ public class Amberado extends drai.dev.gravelmon.pokemon.Pokemon {
                 175, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MINERAL),
-                List.of("It's thought that a Combee hive left abandoned with honey reserves still inside will eventually turn into Amberado, a honey Pokémon with its own unique intellect. It will do whatever it takes to defend the hives of its fellow Bug Pokémon."),
+                List.of("It's thought that a Combee hive left abandoned with honey reserves still inside will eventually turn into Amberado, a honey Pokemon with its own unique intellect. It will do whatever it takes to defend the hives of its fellow Bug Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.VIOLENTSWARM,1),

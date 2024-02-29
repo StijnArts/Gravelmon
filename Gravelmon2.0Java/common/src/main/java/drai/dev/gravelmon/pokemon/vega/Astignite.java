@@ -24,7 +24,7 @@ public class Astignite extends Pokemon {
                 209, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("This Pokémon was once the key to ending an ancient war. It relaxes by taking a bath in molten lava."),
+                List.of("This Pokemon was once the key to ending an ancient war. It relaxes by taking a bath in molten lava."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BLAST_BURN,1),

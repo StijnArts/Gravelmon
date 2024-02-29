@@ -19,14 +19,16 @@ public class Indascent extends drai.dev.gravelmon.pokemon.Pokemon {
                         76,
                         49),
                 List.of(Ability.AROMA_VEIL,Ability.FOREWARN,Ability.MISTY_SURGE), Ability.MISTY_SURGE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,1,1,0), 120,
                 0.5,
                 70, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("- Sweet Scent Normal - Fairy WindSTAB Fairy 3 Mist Ice 6 ConfusionSTAB Psychic 9 Aromatic Mist Fairy 11 Lucky Chant Normal 13 Swift Normal 17 Aromatherapy Grass 19 Rainbow GustSTAB Fairy 22 Misty Terrain Fairy 29 Mystical Fire Fire 32 Wish Normal 36 Calm Mind Psychic 39 Strange SteamSTAB Fairy 44 Future SightSTAB Psychic 48 Magic Room Psychic 48 Wonder Room Psychic 50 Healing Wish Psychic 60 Misty ExplosionSTAB Fairy"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("lamplume", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38"))
+                )),
                 List.of(
                         new MoveLearnSetEntry(Move.FAIRY_WIND,1),
                         new MoveLearnSetEntry(Move.MIST,3),
@@ -72,11 +74,11 @@ public class Indascent extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WITHDRAW,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 34, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Indascent");

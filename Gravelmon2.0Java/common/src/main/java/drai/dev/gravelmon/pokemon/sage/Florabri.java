@@ -19,7 +19,7 @@ public class Florabri extends Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 41, List.of(EggGroup.GRASS, EggGroup.FLYING),
-                List.of("This energetic Pokémon zips around at speeds that make it nearly invisible to the naked eye. It is playful and competitive by nature."),
+                List.of("This energetic Pokemon zips around at speeds that make it nearly invisible to the naked eye. It is playful and competitive by nature."),
                 List.of(new EvolutionEntry("floressum", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

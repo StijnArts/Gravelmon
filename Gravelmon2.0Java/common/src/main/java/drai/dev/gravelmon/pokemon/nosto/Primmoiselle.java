@@ -21,7 +21,7 @@ public class Primmoiselle extends drai.dev.gravelmon.pokemon.Pokemon {
                 239, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
-                List.of("Primmoiselle are very sophisticated and classy Pokémon, but fierce fighters in battle nonetheless."),
+                List.of("Primmoiselle are very sophisticated and classy Pokemon, but fierce fighters in battle nonetheless."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,1),

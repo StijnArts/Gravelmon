@@ -21,7 +21,7 @@ public class Gammar extends drai.dev.gravelmon.pokemon.Pokemon {
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("Because it is only small, it takes shelter in coral patches and rock formations. When cornered, it will release a jolt of electricity allowing make its escape. It is famed for having such bright colours, and is a sought after prize for many Trainers who participate in Pokémon Beauty Contests."),
+                List.of("Because it is only small, it takes shelter in coral patches and rock formations. When cornered, it will release a jolt of electricity allowing make its escape. It is famed for having such bright colours, and is a sought after prize for many Trainers who participate in Pokemon Beauty Contests."),
                 List.of(new EvolutionEntry("zaptang", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))
                 ),

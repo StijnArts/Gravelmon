@@ -19,14 +19,16 @@ public class Antini extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         43),
                 List.of(Ability.VOLT_ABSORB,Ability.OVERCHARGED,Ability.INFILTRATOR), Ability.INFILTRATOR,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("- String Shot Bug - Scuttle HopSTAB Bug - Growl Normal 4 Pester Bug 7 SparkSTAB Electric 10 Bug BiteSTAB Bug 13 Charge Electric 16 Thunder Wave Electric 19 Thunder ShockSTAB Electric 22 Tail Glow Bug 25 Dig Ground 28 Struggle BugSTAB Bug 32 Parabolic ChargeSTAB Electric 36 Stun JabSTAB Electric 40 ElectrocuteSTAB Electric 44 Bug BuzzSTAB Bug 48 Zap WrapSTAB Electric"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("insignel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.PESTER,4),
@@ -86,8 +88,8 @@ public class Antini extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STICKY_WEB,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

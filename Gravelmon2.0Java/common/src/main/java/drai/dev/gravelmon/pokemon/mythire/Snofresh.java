@@ -21,7 +21,7 @@ public class Snofresh extends drai.dev.gravelmon.pokemon.Pokemon {
                 140, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
-                List.of("The effervescent aroma from the leaves of this Pokémon soothes the body and mind, so they're brewed to create teas and perfumes. Eaten raw, however, the leaves will freeze you solid!"),
+                List.of("The effervescent aroma from the leaves of this Pokemon soothes the body and mind, so they're brewed to create teas and perfumes. Eaten raw, however, the leaves will freeze you solid!"),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.INGRAIN,1),

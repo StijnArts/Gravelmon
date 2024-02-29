@@ -20,7 +20,7 @@ public class Mudpole extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
-                List.of("It lives in mud, which it absorbs into a second skin. The mud forms blisters that are filled with poison, and if any Pokémon bites into it, they will be knocked out cold."),
+                List.of("It lives in mud, which it absorbs into a second skin. The mud forms blisters that are filled with poison, and if any Pokemon bites into it, they will be knocked out cold."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OKENO),

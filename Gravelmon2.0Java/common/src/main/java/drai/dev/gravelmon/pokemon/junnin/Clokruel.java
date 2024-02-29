@@ -25,8 +25,10 @@ public class Clokruel extends drai.dev.gravelmon.pokemon.Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Evo Parting Shot Dark - BiteSTAB Dark - Growl Normal - Leer Normal - SingeSTAB Fire - Tackle Normal - Pound Normal - EmberSTAB Fire - Flame Wool Fire - Warm EmbraceSTAB Fire - Taunt Dark - Torment Dark - Swagger Normal - Flatter Dark 18 Hone Claws Dark 21 Wrap Normal 25 Odor Sleuth Normal 28 Slash Normal 31 Roar Normal 35 PursuitSTAB Dark 38 Fire SpinSTAB Fire 42 Flame PounceSTAB Fire 45 Slam Normal 49 SnarlSTAB Dark 52 Shadow Claw Ghost 54 Sucker PunchSTAB Dark"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("smoldrine", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.FLATTER,1),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,18),
@@ -96,8 +98,8 @@ public class Clokruel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AGILITY,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

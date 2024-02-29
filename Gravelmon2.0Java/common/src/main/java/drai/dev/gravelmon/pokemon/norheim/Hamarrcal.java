@@ -23,7 +23,7 @@ public class Hamarrcal extends drai.dev.gravelmon.pokemon.Pokemon {
                 306, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Once worshipped by agricultural people for centuries in hope of rain and a successful harvest. Little did they know however how this Pokémon once drained multiple seas; creating stormy, cosmic clouds. Hamarrcal's precison when striking is out of this world."),
+                List.of("Once worshipped by agricultural people for centuries in hope of rain and a successful harvest. Little did they know however how this Pokemon once drained multiple seas; creating stormy, cosmic clouds. Hamarrcal's precison when striking is out of this world."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMP,1),

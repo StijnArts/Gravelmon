@@ -15,13 +15,13 @@ public class Alpacurrent extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         90),
                 List.of(Ability.LIGHTNING_ROD), Ability.FLUFFY,
-                8, 165,
+                19, 165,
                 new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("These intelligent Pokémon travel predominantly in herds, and are revered for their luxurious wool. Its high conductivity means that Alpacurrent attract lightning more than most Electric type Pokémon. As a consequence, it can't be kept in a barn."),
+                List.of("These intelligent Pokemon travel predominantly in herds, and are revered for their luxurious wool. Its high conductivity means that Alpacurrent attract lightning more than most Electric type Pokemon. As a consequence, it can't be kept in a barn."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -39,8 +39,8 @@ public class Alpacurrent extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,58)                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_PLATEAU)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

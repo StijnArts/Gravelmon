@@ -24,7 +24,7 @@ public class Puripad extends Pokemon {
                 166, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1, EggGroup.GRASS),
-                List.of("Puripad's air of gentleness draws in smaller Pokémon, who will then rest on their shells."),
+                List.of("Puripad's air of gentleness draws in smaller Pokemon, who will then rest on their shells."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

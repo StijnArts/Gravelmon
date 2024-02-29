@@ -11,6 +11,7 @@ import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
+import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
@@ -26,6 +27,9 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new NovranHuntail(367));
+        pokemon.add(new NovranGorebyss(368));
+
         pokemon.add(new QamoranSpoink(325));
         pokemon.add(new QamoranGrumpig(326));
 

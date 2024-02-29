@@ -21,7 +21,7 @@ public class Exfinguish extends drai.dev.gravelmon.pokemon.Pokemon {
                 168, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("Older Candleru gradually lose their capacity to catch fire, and eventually evolve into Exfinguish. Merely being in this Pokémon's presence is enough to snuff out most flames."),
+                List.of("Older Candleru gradually lose their capacity to catch fire, and eventually evolve into Exfinguish. Merely being in this Pokemon's presence is enough to snuff out most flames."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHILLING_WATER,1),

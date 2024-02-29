@@ -21,7 +21,7 @@ public class Blastun extends drai.dev.gravelmon.pokemon.Pokemon {
                 57, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("By igniting the gases in its body, it can jet through the air like a missile. A hard headbutt from this Pokémon can easily dent steel."),
+                List.of("By igniting the gases in its body, it can jet through the air like a missile. A hard headbutt from this Pokemon can easily dent steel."),
                 List.of(new EvolutionEntry("bugbardier", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
                 ),

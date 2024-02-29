@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranDruddigon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranDruddigon() {
-        super("Druddigon",
+    public NovranDruddigon(int dex) {
+        super(dex, "Druddigon",
                 Type.ICE,Type.DRAGON,
                 new Stats(77,
                         120,
@@ -15,7 +15,7 @@ public class NovranDruddigon extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         48),
                 List.of(Ability.ROUGH_SKIN,Ability.SHEER_FORCE,Ability.ICE_SCALES), Ability.ICE_SCALES,
-                8, 165,
+                16, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 170, ExperienceGroup.MEDIUM_FAST,
@@ -129,8 +129,8 @@ public class NovranDruddigon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REVERSAL,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 54, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

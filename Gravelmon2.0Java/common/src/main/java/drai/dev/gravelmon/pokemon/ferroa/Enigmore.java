@@ -21,7 +21,7 @@ public class Enigmore extends drai.dev.gravelmon.pokemon.Pokemon {
                 69, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_3),
-                List.of("Schools of Enigmore dig for food with their clawed snouts. Its fossils, found in ancient shales, are among the oldest of all Pokémon."),
+                List.of("Schools of Enigmore dig for food with their clawed snouts. Its fossils, found in ancient shales, are among the oldest of all Pokemon."),
                 List.of(new EvolutionEntry("oculustrous", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))
                 ),

@@ -16,7 +16,7 @@ public class Nettini extends drai.dev.gravelmon.pokemon.Pokemon {
                         80),
                 List.of(Ability.POISON_POINT), Ability.DEFIANT,
                 7, 165,
-                new Stats(0,0,0,0,1,0), 0,
+                new Stats(0,0,0,0,1,0), 70,
                 0.5,
                 151, ExperienceGroup.SLOW,
                 70,

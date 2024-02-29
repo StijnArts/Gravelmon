@@ -21,7 +21,7 @@ public class Ovection extends drai.dev.gravelmon.pokemon.Pokemon {
                 167, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.FAIRY),
-                List.of("Ovection grows delicious foods inside itself, which are cooked to perfection by its internal temperature. Hungry Pokémon flock to its distinctive scent to get a taste."),
+                List.of("Ovection grows delicious foods inside itself, which are cooked to perfection by its internal temperature. Hungry Pokemon flock to its distinctive scent to get a taste."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

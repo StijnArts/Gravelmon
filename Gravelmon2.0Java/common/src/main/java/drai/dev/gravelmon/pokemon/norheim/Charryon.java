@@ -23,7 +23,7 @@ public class Charryon extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Charryon can only feel sorrow. It leaves safe passage to the afterlife for both Pokémon and humans."),
+                List.of("Charryon can only feel sorrow. It leaves safe passage to the afterlife for both Pokemon and humans."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DESTINY_BOND,1)                        ),

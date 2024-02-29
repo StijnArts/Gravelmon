@@ -21,7 +21,7 @@ public class Rokkap extends drai.dev.gravelmon.pokemon.Pokemon {
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.MINERAL),
-                List.of("Born from old rocks, they are irritable Pokémon that live in the mountains. They often hike down into the surrounding forests and cause trouble, marking trees by gouging the bark with their claws."),
+                List.of("Born from old rocks, they are irritable Pokemon that live in the mountains. They often hike down into the surrounding forests and cause trouble, marking trees by gouging the bark with their claws."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BODY_PRESS,1),

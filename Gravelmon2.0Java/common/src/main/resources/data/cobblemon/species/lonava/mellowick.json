@@ -1,0 +1,106 @@
+{
+  "implemented": true,
+  "name": "mellowick",
+  "nationalPokedexNumber": 2380,
+  "primaryType": "fire",
+  "abilities": [
+    "flashfire",
+    "h:flamebody"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 50,
+    "defence": 60,
+    "special_attack": 75,
+    "special_defence": 70,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 74,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:smokescreen",
+    "5:sweetscent",
+    "9:firespin",
+    "12:lightscreen",
+    "15:aromatherapy",
+    "18:incinerate",
+    "21:willowisp",
+    "24:flameburst",
+    "28:sunnyday",
+    "32:fierydance",
+    "36:flamethrower",
+    "42:heatwave",
+    "48:overheat"  ],
+  "labels": [
+    "lonava",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mellowick.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "mellowick_rewaxation",
+      "variant": "level_up",
+      "result": "rewaxation",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

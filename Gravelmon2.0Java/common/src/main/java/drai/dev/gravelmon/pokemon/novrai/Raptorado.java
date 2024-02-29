@@ -21,7 +21,7 @@ public class Raptorado extends drai.dev.gravelmon.pokemon.Pokemon {
                 230, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
-                List.of("A proud, show-offish Pokémon that collects nuggets of pure gold to decorate its nests. Some Raptorado will steal gold from others' nests to add to their own."),
+                List.of("A proud, show-offish Pokemon that collects nuggets of pure gold to decorate its nests. Some Raptorado will steal gold from others' nests to add to their own."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),

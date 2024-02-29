@@ -21,7 +21,7 @@ public class Astroyatlas extends drai.dev.gravelmon.pokemon.Pokemon {
                 306, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("This legendary Pokémon is said to hold galaxies within its wings. In ancient times, people would worship it and use its starry wings as a map, but now, sightings of it have become less and less common."),
+                List.of("This legendary Pokemon is said to hold galaxies within its wings. In ancient times, people would worship it and use its starry wings as a map, but now, sightings of it have become less and less common."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.AURORA_BEAM,1),

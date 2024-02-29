@@ -24,7 +24,7 @@ public class Baquini extends Pokemon {
                 65, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1, EggGroup.FIELD),
-                List.of("Due to overfishing, this Pokémon's population has dropped to almost zero in the wild."),
+                List.of("Due to overfishing, this Pokemon's population has dropped to almost zero in the wild."),
                 List.of(new EvolutionEntry("modelfin", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

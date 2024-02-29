@@ -21,7 +21,7 @@ public class Rhinozer extends drai.dev.gravelmon.pokemon.Pokemon {
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Rhinozer travel in herds, and as they move along they create visible dirt paths. Other Pokémon learn to cross these paths with caution as they may get trampled by an oncoming herd if they aren't careful."),
+                List.of("Rhinozer travel in herds, and as they move along they create visible dirt paths. Other Pokemon learn to cross these paths with caution as they may get trampled by an oncoming herd if they aren't careful."),
                 List.of(new EvolutionEntry("rhinolition", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))
                 ),

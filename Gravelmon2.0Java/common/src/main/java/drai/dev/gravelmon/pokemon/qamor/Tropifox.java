@@ -23,7 +23,7 @@ public class Tropifox extends drai.dev.gravelmon.pokemon.Pokemon {
                 236, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Tropifox are known as a sort of guardian warrior that protects Pokémon and nature from those who seek to harm it. Their scruff fur is naturally white, but they rub the juices from their favorite fruit as natural protection against parasites. Because of this, they have a very pleasant tropical fruit smell."),
+                List.of("Tropifox are known as a sort of guardian warrior that protects Pokemon and nature from those who seek to harm it. Their scruff fur is naturally white, but they rub the juices from their favorite fruit as natural protection against parasites. Because of this, they have a very pleasant tropical fruit smell."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCARY_FACE,1),

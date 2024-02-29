@@ -20,7 +20,7 @@ public class Dirthrown extends drai.dev.gravelmon.pokemon.Pokemon {
                 160, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("It is coated by what appears to be some sort of water-proofing powder. These Pokémon are helpful to slouchy home owners, because Dirthrown absorb all the dirt and dust around them."),
+                List.of("It is coated by what appears to be some sort of water-proofing powder. These Pokemon are helpful to slouchy home owners, because Dirthrown absorb all the dirt and dust around them."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),

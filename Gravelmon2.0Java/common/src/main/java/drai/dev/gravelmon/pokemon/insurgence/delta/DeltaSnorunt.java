@@ -19,7 +19,7 @@ public class DeltaSnorunt extends Pokemon {
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by EchoTheThird. It is said that this Pokémon helps to guard volcanoes and deep caves from intruders."),
+                List.of("A Delta Species discovered by EchoTheThird. It is said that this Pokemon helps to guard volcanoes and deep caves from intruders."),
                 List.of(new EvolutionEntry("deltaglalie", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42"))),
                         new EvolutionEntry("deltafroslass", EvolutionType.ITEM_INTERACT, false, List.of(),

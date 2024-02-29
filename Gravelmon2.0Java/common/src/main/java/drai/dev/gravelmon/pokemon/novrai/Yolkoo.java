@@ -21,7 +21,7 @@ public class Yolkoo extends drai.dev.gravelmon.pokemon.Pokemon {
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It's actually a larva that mimics an egg, usually placed in another Pokémon's nest. It's a natural bully and pushes other Pokémon around while crying loudly for food."),
+                List.of("It's actually a larva that mimics an egg, usually placed in another Pokemon's nest. It's a natural bully and pushes other Pokemon around while crying loudly for food."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),

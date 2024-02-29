@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "squrmy",
+  "nationalPokedexNumber": 1988,
+  "primaryType": "bug",
+  "secondaryType": "ground",
+  "abilities": [
+    "limber",
+    "damp",
+    "h:damp"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 30,
+    "defence": 25,
+    "special_attack": 30,
+    "special_defence": 25,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 38,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug",
+    "mineral"
+  ],
+  "moves": [
+    "1:mudslap"  ],
+  "labels": [
+    "flux",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.squrmy.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "squrmy_durtwurm",
+      "variant": "level_up",
+      "result": "durtwurm",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 2,
+  "weight": 10,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -21,7 +21,7 @@ public class Rosinella extends drai.dev.gravelmon.pokemon.Pokemon {
                 57, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.FAIRY),
-                List.of("These tiny Pokémon are very adventurous and tend to be oblivious when it comes to danger. They often get lost."),
+                List.of("These tiny Pokemon are very adventurous and tend to be oblivious when it comes to danger. They often get lost."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),

@@ -23,7 +23,7 @@ public class Kombantis extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Kombantis are so well fit they can spare with each other for 72 hours before they are tired. Their striking is known to be faster and stronger than most Fighting-Type Pokémon."),
+                List.of("Kombantis are so well fit they can spare with each other for 72 hours before they are tired. Their striking is known to be faster and stronger than most Fighting-Type Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LASER_FOCUS,1)                        ),

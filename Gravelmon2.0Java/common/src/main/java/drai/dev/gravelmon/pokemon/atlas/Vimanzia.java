@@ -21,7 +21,7 @@ public class Vimanzia extends drai.dev.gravelmon.pokemon.Pokemon {
                 156, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("This Pokémon's appearance causes joy for everyone looking at it. Because of that, the pheromones Vimanzia pours out are known to help cure depression."),
+                List.of("This Pokemon's appearance causes joy for everyone looking at it. Because of that, the pheromones Vimanzia pours out are known to help cure depression."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSION,1),

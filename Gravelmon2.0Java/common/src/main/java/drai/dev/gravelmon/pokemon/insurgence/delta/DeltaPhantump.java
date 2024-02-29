@@ -19,7 +19,7 @@ public class DeltaPhantump extends Pokemon {
                 62, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by Zero_Breaker. It protects all woodland Pokémon as a spirit guardian of the forest."),
+                List.of("A Delta Species discovered by Zero_Breaker. It protects all woodland Pokemon as a spirit guardian of the forest."),
                 List.of(new EvolutionEntry("deltatrevenant", EvolutionType.TRADE, false,List.of(),
                         List.of())),
                 List.of(

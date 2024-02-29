@@ -21,7 +21,7 @@ public class Pitcharade extends drai.dev.gravelmon.pokemon.Pokemon {
                 175, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
-                List.of("The fire-like flower on its tongue glows and emits real heat to attract Bug-type Pokémon. Once they're within range, it strikes and devours them."),
+                List.of("The fire-like flower on its tongue glows and emits real heat to attract Bug-type Pokemon. Once they're within range, it strikes and devours them."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),

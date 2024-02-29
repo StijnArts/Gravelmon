@@ -21,7 +21,7 @@ public class Elegent extends drai.dev.gravelmon.pokemon.Pokemon {
                 166, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.FAIRY),
-                List.of("A skilled, nimble Pokémon that fights by slapping its opponents across the face with its tough hands. It will always give its foes a chance to strike back, however, due to its strong sense of decorum."),
+                List.of("A skilled, nimble Pokemon that fights by slapping its opponents across the face with its tough hands. It will always give its foes a chance to strike back, however, due to its strong sense of decorum."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DETECT,1),

@@ -21,7 +21,7 @@ public class Puppest extends drai.dev.gravelmon.pokemon.Pokemon {
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3),
-                List.of("A tricky Pokémon made of cloth that seems to eat and attack only through the puppets on its arms. It is fiercely protective of its puppets and will never let go of them."),
+                List.of("A tricky Pokemon made of cloth that seems to eat and attack only through the puppets on its arms. It is fiercely protective of its puppets and will never let go of them."),
                 List.of(new EvolutionEntry("socktopus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))
                 ),

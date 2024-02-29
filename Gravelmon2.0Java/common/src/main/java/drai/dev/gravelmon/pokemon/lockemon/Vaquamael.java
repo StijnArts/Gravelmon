@@ -24,7 +24,7 @@ public class Vaquamael extends Pokemon {
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG, EggGroup.WATER_3),
-                List.of("Vaquamael are natural leaders and are often seen protecting other Pokémon. When someone is out causing trouble, a Vaquamael will rush to catch them using its powerful water lasso."),
+                List.of("Vaquamael are natural leaders and are often seen protecting other Pokemon. When someone is out causing trouble, a Vaquamael will rush to catch them using its powerful water lasso."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.INFESTATION,1),

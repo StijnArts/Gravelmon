@@ -24,7 +24,7 @@ public class Visimander extends Pokemon {
                 147, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_1),
-                List.of("Visimander are alert Pokémon, whose sensitivity more than makes up for their blindness. They can physically and psychically map their surroundings in a fraction of a second."),
+                List.of("Visimander are alert Pokemon, whose sensitivity more than makes up for their blindness. They can physically and psychically map their surroundings in a fraction of a second."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),

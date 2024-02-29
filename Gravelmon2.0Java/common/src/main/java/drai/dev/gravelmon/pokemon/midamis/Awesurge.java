@@ -17,8 +17,8 @@ public class Awesurge extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         95),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 165,
+                new Stats(0,0,0,0,0,0), 50,
                 0.0,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -39,8 +39,8 @@ public class Awesurge extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TWISTER,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 39, 58, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

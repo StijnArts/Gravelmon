@@ -15,14 +15,16 @@ public class Chooft extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         60),
                 List.of(Ability.LIGHTNING_ROD), Ability.STATIC,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Chooft are docile Pokémon, and choose to spend most of their days asleep in a field or grazing. If mishandled, they may spit or refuse to move."),
-                List.of(),
+                List.of("Chooft are docile Pokemon, and choose to spend most of their days asleep in a field or grazing. If mishandled, they may spit or refuse to move."),
+                List.of(new EvolutionEntry("alpacurrent", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,5),
@@ -39,8 +41,8 @@ public class Chooft extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,53)                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_PLATEAU)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -17,8 +17,8 @@ public class Grizzik extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         65),
                 List.of(Ability.VITAL_SPIRIT), Ability.VITAL_SPIRIT,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -44,8 +44,8 @@ public class Grizzik extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRUSH_CLAW,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 53, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

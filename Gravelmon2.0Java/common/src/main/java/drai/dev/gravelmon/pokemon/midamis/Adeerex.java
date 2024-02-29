@@ -16,8 +16,8 @@ public class Adeerex extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         70),
                 List.of(Ability.ANGER_POINT), Ability.FEROCIOUS,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 165,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -41,8 +41,8 @@ public class Adeerex extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GIGA_IMPACT,72)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 49, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

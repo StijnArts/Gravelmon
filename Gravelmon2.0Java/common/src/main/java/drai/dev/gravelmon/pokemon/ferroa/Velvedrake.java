@@ -21,7 +21,7 @@ public class Velvedrake extends drai.dev.gravelmon.pokemon.Pokemon {
                 243, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.BUG),
-                List.of("This Pokémon's body is cold enough to quickly lower a room's temperature to freezing. It constantly shoots blasts of ice out of its shoulder vents."),
+                List.of("This Pokemon's body is cold enough to quickly lower a room's temperature to freezing. It constantly shoots blasts of ice out of its shoulder vents."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),

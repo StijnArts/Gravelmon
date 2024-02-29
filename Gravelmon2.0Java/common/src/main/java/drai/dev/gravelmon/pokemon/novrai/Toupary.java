@@ -118,7 +118,7 @@ public class Toupary extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Toupéary");
+           setLangFileName("Toupeary");
 
     }
 

@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo;
 
 import drai.dev.gravelmon.pokemon.aristos.*;
+import drai.dev.gravelmon.pokemon.aristos.Paloarmo;
 
 public class Aristos extends drai.dev.gravelmon.games.registry.Game {
     public Aristos() {
@@ -19,7 +20,7 @@ public class Aristos extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Cactrian()); NOT FINISEHD
         pokemon.add(new Lanidos());
 //        pokemon.add(new Probotheos()); NOT FINISHED
-//        pokemon.add(new Pharoar()); NOT FINISHED
+//        pokemon.add(new Paloarmo()); NOT FINISHED
         pokemon.add(new Ramvolt());
 //        pokemon.add(new Soulix()); NOT FINISEHD
 //        pokemon.add(new Spiribloom()); NOT FINISEHD

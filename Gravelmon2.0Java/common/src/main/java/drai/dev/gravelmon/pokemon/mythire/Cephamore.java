@@ -21,7 +21,7 @@ public class Cephamore extends drai.dev.gravelmon.pokemon.Pokemon {
                 58, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.WATER_3),
-                List.of("These tiny Pokémon swarm swimmers in great numbers out of curiosity, sensing their thoughts. They mean no harm, but they secrete a toxic fluid that can sicken people."),
+                List.of("These tiny Pokemon swarm swimmers in great numbers out of curiosity, sensing their thoughts. They mean no harm, but they secrete a toxic fluid that can sicken people."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CONSTRICT,1),

@@ -23,7 +23,7 @@ public class Mothight extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Sparring and thrashing into Battlefly makes this Pokémon's temperature rise; a way of surviving and fighting over a potential mate."),
+                List.of("Sparring and thrashing into Battlefly makes this Pokemon's temperature rise; a way of surviving and fighting over a potential mate."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BULK_UP,1)                        ),

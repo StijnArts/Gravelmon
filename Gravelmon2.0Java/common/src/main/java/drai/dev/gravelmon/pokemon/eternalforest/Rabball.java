@@ -24,7 +24,7 @@ public class Rabball extends Pokemon {
                 144, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("After evolution, this Pokémon is enclosed in a meteoric shell. It is able to resist the trampling of a horde of Tauros."),
+                List.of("After evolution, this Pokemon is enclosed in a meteoric shell. It is able to resist the trampling of a horde of Tauros."),
                 List.of(new EvolutionEntry("lagorite", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))),
                 List.of(

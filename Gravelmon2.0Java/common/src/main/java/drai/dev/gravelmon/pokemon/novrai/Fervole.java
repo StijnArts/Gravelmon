@@ -21,7 +21,7 @@ public class Fervole extends drai.dev.gravelmon.pokemon.Pokemon {
                 46, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Common in northern Novrai, this small Pokémon spends its life surrounded by others of its kind. They must be kept in pairs when owned as pets."),
+                List.of("Common in northern Novrai, this small Pokemon spends its life surrounded by others of its kind. They must be kept in pairs when owned as pets."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HOLD_HANDS,1),

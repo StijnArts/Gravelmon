@@ -21,7 +21,7 @@ public class NostanDiglett extends drai.dev.gravelmon.pokemon.Pokemon {
                 53, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
-                List.of("It spends most of its time partially underground, leaving only its leaf poking out. Wherever this Pokémon burrows, the soil is left perfectly tilled for planting crops."),
+                List.of("It spends most of its time partially underground, leaving only its leaf poking out. Wherever this Pokemon burrows, the soil is left perfectly tilled for planting crops."),
                 List.of(new EvolutionEntry("nostandugtrio", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(

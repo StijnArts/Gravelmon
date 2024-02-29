@@ -19,7 +19,7 @@ public class Necronite extends Pokemon {
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 62, List.of(EggGroup.MINERAL),
-                List.of("Necronite emits a strange frequency as it floats about the ancient ruins it inhabits. Making contact with this Pokémon can leave one lightheaded."),
+                List.of("Necronite emits a strange frequency as it floats about the ancient ruins it inhabits. Making contact with this Pokemon can leave one lightheaded."),
                 List.of(new EvolutionEntry("gravollum", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(

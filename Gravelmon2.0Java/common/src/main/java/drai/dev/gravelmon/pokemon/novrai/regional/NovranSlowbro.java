@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranSlowbro extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranSlowbro() {
-        super("Slowbro",
+    public NovranSlowbro(int id) {
+        super(id, "Slowbro",
                 Type.BUG,
                 new Stats(95,
                         100,
@@ -15,7 +15,7 @@ public class NovranSlowbro extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         30),
                 List.of(Ability.HONEY_GATHER,Ability.THICK_FAT,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                16, 165,
                 new Stats(0,0,2,0,0,0), 75,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -101,10 +101,9 @@ public class NovranSlowbro extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 37, 49, .54, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
+        ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

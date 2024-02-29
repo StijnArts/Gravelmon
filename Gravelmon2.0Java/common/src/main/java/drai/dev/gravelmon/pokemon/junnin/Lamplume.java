@@ -19,13 +19,13 @@ public class Lamplume extends drai.dev.gravelmon.pokemon.Pokemon {
                         122,
                         65),
                 List.of(Ability.AROMA_VEIL,Ability.FOREWARN,Ability.MISTY_SURGE), Ability.MISTY_SURGE,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,2,1,0), 60,
                 0.5,
                 175, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("- Sweet Scent Normal - Fairy WindSTAB Fairy - Mist Ice - ConfusionSTAB Psychic - Aromatic Mist Fairy - Lucky Chant Normal - Swift Normal - Heal Block Psychic - Imprison Psychic 18 Aromatherapy Grass 20 Rainbow GustSTAB Fairy 26 Misty Terrain Fairy 29 Mystical Fire Fire 32 Wish Normal 36 Calm Mind Psychic 39 Strange SteamSTAB Fairy 45 Future SightSTAB Psychic 49 Magic Room Psychic 49 Wonder Room Psychic 54 Healing Wish Psychic 62 Misty ExplosionSTAB Fairy"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.IMPRISON,1),
@@ -49,11 +49,11 @@ public class Lamplume extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WITHDRAW,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 61, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Lamplume");

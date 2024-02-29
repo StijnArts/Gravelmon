@@ -21,7 +21,7 @@ public class Topsee extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("In the distant past, these Pokémon were a common source of light on the seafloor. They used their psychic abilities to hoodwink other Pokémon drawn to their light into protecting or ignoring them while they amble about."),
+                List.of("In the distant past, these Pokemon were a common source of light on the seafloor. They used their psychic abilities to hoodwink other Pokemon drawn to their light into protecting or ignoring them while they amble about."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OCEANE),

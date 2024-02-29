@@ -19,15 +19,28 @@ public class Equia extends drai.dev.gravelmon.pokemon.Pokemon {
                         162,
                         96),
                 List.of(Ability.PRESSURE), Ability.PRESSURE,
-                8, 165,
+                28, 165,
                 new Stats(0,0,0,0,3,0), 3,
                 0.0,
                 306, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Misty ExplosionSTAB Fairy Icy Wind Ice Endeavor Normal Helping Hand Normal Snore Normal Terrain Pulse Normal Uproar Normal Flip TurnSTAB Water Dazzling GleamSTAB Fairy Misty Terrain Fairy Focus Blast Fighting Shadow Ball Ghost Energy Ball Grass Bulldoze Ground Dig Ground Earthquake Ground Landslide Ground Blizzard Ice Snowscape Ice Ice Beam Ice Confide Normal Double-Edge Normal Facade Normal Flash Normal Frustration Normal Giga Impact Normal Heartfelt Pulse Normal Hidden Power Normal Hyper Beam Normal Protect Normal Return Normal Round Normal Safeguard Normal Sleep Talk Normal Strength Normal Substitute Normal Swagger Normal Swords Dance Normal Work Up Normal Toxic Poison Calm Mind Psychic Light Screen Psychic Psychic Psychic Psyshock Psychic Reflect Psychic Rest Psychic Gyro Ball Steel DiveSTAB Water LiquidationSTAB Water Rain Dance Water ScaldSTAB Water SurfSTAB Water WaterfallSTAB Water WhirlpoolSTAB Water"),
+                List.of(""),
                 List.of(),
-                List.of(
+                List.of(new MoveLearnSetEntry(Move.DISARMING_VOICE,1),
+                        new MoveLearnSetEntry(Move.GROWL,1),
+                        new MoveLearnSetEntry(Move.POUND,1),
+                        new MoveLearnSetEntry(Move.WATER_GUN,1),
+                        new MoveLearnSetEntry(Move.AQUA_JET,9),
+                        new MoveLearnSetEntry(Move.BABYDOLL_EYES,12),
+                        new MoveLearnSetEntry(Move.ICY_WIND,15),
+                        new MoveLearnSetEntry(Move.SING,20),
+                        new MoveLearnSetEntry(Move.BUBBLE_BEAM,25),
+                        new MoveLearnSetEntry(Move.ENCORE,30),
+                        new MoveLearnSetEntry(Move.MISTY_TERRAIN,37),
+                        new MoveLearnSetEntry(Move.HYPER_VOICE,44),
+                        new MoveLearnSetEntry(Move.MOONBLAST,51),
+                        new MoveLearnSetEntry(Move.HYDRO_PUMP,58),
                         new MoveLearnSetEntry(Move.MISTY_EXPLOSION,"tm"),
                         new MoveLearnSetEntry(Move.ICY_WIND,"tm"),
                         new MoveLearnSetEntry(Move.ENDEAVOR,"tm"),
@@ -84,14 +97,17 @@ public class Equia extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.MAXY,"30"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Equia");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

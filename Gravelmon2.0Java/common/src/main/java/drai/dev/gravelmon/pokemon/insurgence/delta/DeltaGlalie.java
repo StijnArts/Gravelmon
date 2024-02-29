@@ -19,7 +19,7 @@ public class DeltaGlalie extends Pokemon {
                 259, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon has the power to evaporate entire oceans with a single breath."),
+                List.of("This Pokemon has the power to evaporate entire oceans with a single breath."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HEAD_SMASH,1),

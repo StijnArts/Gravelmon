@@ -15,7 +15,7 @@ public class Caltarcite extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         45),
                 List.of(Ability.ROCK_HEAD,Ability.STURDY,Ability.SOLID_ROCK), Ability.SOLID_ROCK,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 175, ExperienceGroup.ERRATIC,
@@ -82,9 +82,9 @@ public class Caltarcite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 55, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

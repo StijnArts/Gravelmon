@@ -21,7 +21,7 @@ public class Barkindle extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Barkindle's body is very warm to hug, meaning kids and other Pokémon love to snuggle up to it. When angry, it will heat up and its tail will burn hot."),
+                List.of("Barkindle's body is very warm to hug, meaning kids and other Pokemon love to snuggle up to it. When angry, it will heat up and its tail will burn hot."),
                 List.of(new EvolutionEntry("wolflaze", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

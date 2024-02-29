@@ -58,7 +58,7 @@ public class CefiranCamerupt extends Pokemon {
                 ),
                 List.of(Label.GEN3,Label.OPAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 30, 4, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 56, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

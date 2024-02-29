@@ -23,7 +23,7 @@ public class Hatterage extends drai.dev.gravelmon.pokemon.Pokemon {
                 255, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
-                List.of("If you're too loud around it, you risk being torn apart by the claws on its tentacle. This Pokémon is also known as the Forest Witch."),
+                List.of("If you're too loud around it, you risk being torn apart by the claws on its tentacle. This Pokemon is also known as the Forest Witch."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,1),

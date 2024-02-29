@@ -21,7 +21,7 @@ public class Maskrusher extends drai.dev.gravelmon.pokemon.Pokemon {
                 239, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
-                List.of("A solitary Pokémon that lives only in the deepest forests of Mythire. Seeing one standing tall in the woods is a rare sight to behold, but this Pokémon can charge with its rock-hard head at any intruder."),
+                List.of("A solitary Pokemon that lives only in the deepest forests of Mythire. Seeing one standing tall in the woods is a rare sight to behold, but this Pokemon can charge with its rock-hard head at any intruder."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BERSERKFURY,1),

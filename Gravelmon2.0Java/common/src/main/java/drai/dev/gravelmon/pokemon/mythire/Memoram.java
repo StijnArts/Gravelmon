@@ -21,7 +21,7 @@ public class Memoram extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
-                List.of("This Pokémon can sense the feelings of others using the energy stored in its curved horns. If it detects ill will, it will repel the foe with ear-splitting wailing, signaling the rest of the herd to assist."),
+                List.of("This Pokemon can sense the feelings of others using the energy stored in its curved horns. If it detects ill will, it will repel the foe with ear-splitting wailing, signaling the rest of the herd to assist."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SUBCONJURE,1),

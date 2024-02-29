@@ -17,14 +17,15 @@ public class Petri extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         55),
                 List.of(Ability.RATTLED), Ability.INTIMIDATE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Petri are natural shy Pokemon. In a pinch, they will fluff up their tail feathers to intimidate their foes."),
-                List.of(),
+                List.of(new EvolutionEntry("petricus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.CONFUSION,5),
@@ -44,10 +45,10 @@ public class Petri extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AERIAL_ACE,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 25, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

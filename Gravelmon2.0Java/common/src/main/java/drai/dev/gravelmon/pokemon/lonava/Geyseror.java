@@ -15,13 +15,13 @@ public class Geyseror extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         50),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(1,0,0,2,0,0), 0,
+                27, 165,
+                new Stats(1,0,0,2,0,0), 45,
                 0.5,
                 255, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.MINERAL),
-                List.of("Each Geyseror has a unique hissing sound as it emits steam. Despite its fearsome appearance, locals are fond of these 'singing' Pokémon."),
+                List.of("Each Geyseror has a unique hissing sound as it emits steam. Despite its fearsome appearance, locals are fond of these 'singing' Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ERUPTION,1),
@@ -73,9 +73,9 @@ public class Geyseror extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRINE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 43, 65, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

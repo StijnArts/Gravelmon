@@ -21,7 +21,7 @@ public class Noxight extends drai.dev.gravelmon.pokemon.Pokemon {
                 170, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.FLYING),
-                List.of("Other Pokémon are scared away by the eye markings on its body, which glow a sinister red. In the chance that a Pokémon isn't fooled, Noxight whips up a gust from its gas-filled body and floats away."),
+                List.of("Other Pokemon are scared away by the eye markings on its body, which glow a sinister red. In the chance that a Pokemon isn't fooled, Noxight whips up a gust from its gas-filled body and floats away."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WING_ATTACK,1),

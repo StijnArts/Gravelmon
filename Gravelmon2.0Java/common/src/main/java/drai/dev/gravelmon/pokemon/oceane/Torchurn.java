@@ -21,7 +21,7 @@ public class Torchurn extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.MINERAL),
-                List.of("In ancient times, these Pokémon would anchor themselves close to the shore partially-submerged. Torchurn used sunlight to enhance their flames whilst incubating with enough intensity to breach its hardened Limbtacle shell, which doubled as a deterrent to predators."),
+                List.of("In ancient times, these Pokemon would anchor themselves close to the shore partially-submerged. Torchurn used sunlight to enhance their flames whilst incubating with enough intensity to breach its hardened Limbtacle shell, which doubled as a deterrent to predators."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OCEANE),

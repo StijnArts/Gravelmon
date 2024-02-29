@@ -21,7 +21,7 @@ public class Strikezall extends drai.dev.gravelmon.pokemon.Pokemon {
                 180, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
-                List.of("A very competitive Pokémon, they are always training and working at improving their skills. Some have been known to wield more than one steel bat, which they use with ease and skill both on the battlefield and the sports field."),
+                List.of("A very competitive Pokemon, they are always training and working at improving their skills. Some have been known to wield more than one steel bat, which they use with ease and skill both on the battlefield and the sports field."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

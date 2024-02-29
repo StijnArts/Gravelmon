@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranSlowpoke extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranSlowpoke() {
-        super("Slowpoke",
+    public NovranSlowpoke(int id) {
+        super(id, "Slowpoke",
                 Type.BUG,
                 new Stats(90,
                         65,
@@ -15,14 +15,17 @@ public class NovranSlowpoke extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         15),
                 List.of(Ability.HONEY_GATHER,Ability.THICK_FAT,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                12, 165,
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 63, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
                 List.of("This form of Slowpoke doesn't fish, but instead uses its tail to attract pollinating Bug-types. It emits a soporific aura that lulls Combee to sleep, letting it eat the Honey they carry."),
-                List.of(),
+                List.of(new EvolutionEntry("novranslowbro", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37"))),
+                        new EvolutionEntry("novranslowking", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"minecraft:honey_bottle")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.INFESTATION,5),
@@ -86,9 +89,8 @@ public class NovranSlowpoke extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 7, 32, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranMuk extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranMuk() {
-        super("Muk",
+    public NovranMuk(int id) {
+        super(id, "Muk",
                 Type.POISON,Type.GROUND,
                 new Stats(105,
                         65,
@@ -15,7 +15,7 @@ public class NovranMuk extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         50),
                 List.of(Ability.SAND_FORCE,Ability.FILTHYSURGE,Ability.FLARE_BOOST), Ability.FLARE_BOOST,
-                8, 165,
+                15, 165,
                 new Stats(1,0,0,1,0,0), 75,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
@@ -119,8 +119,9 @@ public class NovranMuk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LICK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 38, 50, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

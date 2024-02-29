@@ -21,7 +21,7 @@ public class Dirtusk extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
-                List.of("By bathing in mud, this Pokémon can keep cool even during the hot summer months. Due to this coating of mud, plants are sometimes seen sprouting from its head."),
+                List.of("By bathing in mud, this Pokemon can keep cool even during the hot summer months. Due to this coating of mud, plants are sometimes seen sprouting from its head."),
                 List.of(new EvolutionEntry("stalagrus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))
                 ),

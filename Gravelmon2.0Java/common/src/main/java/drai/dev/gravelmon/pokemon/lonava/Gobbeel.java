@@ -15,14 +15,16 @@ public class Gobbeel extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         40),
                 List.of(Ability.STRONG_JAW), Ability.SHED_SKIN,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.5,
                 55, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.WATER_1),
                 List.of("Gobbeel are found in every waterway in Lonava, though their natural ability to change colours will make it a much harder task to actually acquire one."),
-                List.of(),
+                List.of(new EvolutionEntry("inviseel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),
                         new MoveLearnSetEntry(Move.RAGE,4),
@@ -75,14 +77,16 @@ public class Gobbeel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRINE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 29, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Gobbeel");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

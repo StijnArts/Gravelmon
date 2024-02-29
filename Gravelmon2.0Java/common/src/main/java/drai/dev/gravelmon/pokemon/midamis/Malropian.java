@@ -17,21 +17,34 @@ public class Malropian extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         75),
                 List.of(Ability.LIQUID_OOZE), Ability.POISON_POINT,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Malropian's tail cannot sting, rather, it can spray terrible acid that can melt skin. It's large appearance can be quite intimidating, comparable to Drapion."),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
+                        new MoveLearnSetEntry(Move.POISON_STING,1),
+                        new MoveLearnSetEntry(Move.ROLLOUT,4),
+                        new MoveLearnSetEntry(Move.PROTECT,8),
+                        new MoveLearnSetEntry(Move.POISON_TAIL,12),
+                        new MoveLearnSetEntry(Move.SCREECH,16),
+                        new MoveLearnSetEntry(Move.BUG_BITE,20),
+                        new MoveLearnSetEntry(Move.VENOSHOCK,24),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,28),
+                        new MoveLearnSetEntry(Move.AGILITY,32),
+                        new MoveLearnSetEntry(Move.TOXIC,36),
+                        new MoveLearnSetEntry(Move.VENOM_DRENCH,40),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,44)
+                ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
+                ), List.of( new BiomeSpawnCondition(List.of(Biome.IS_SUMMER,Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -23,7 +23,7 @@ public class Hingjaw extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Hingjaw is a member of the Shellder and the Cloyster family. While its insides are soft and fragile and served as a delicacy in Norheim, its exterior shell is incredibly hard and tough. This Pokémon has a tendency to bite onto anything that approaches it."),
+                List.of("Hingjaw is a member of the Shellder and the Cloyster family. While its insides are soft and fragile and served as a delicacy in Norheim, its exterior shell is incredibly hard and tough. This Pokemon has a tendency to bite onto anything that approaches it."),
                 List.of(),
                 List.of(      new MoveLearnSetEntry(Move.SPIKES,1),
                         new MoveLearnSetEntry(Move.WITHDRAW,1),

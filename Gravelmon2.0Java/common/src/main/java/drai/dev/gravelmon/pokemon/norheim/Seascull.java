@@ -23,7 +23,7 @@ public class Seascull extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Seascull thrives in toxic waves of waste, bathing in it. So much that this Pokémon has gained special properties. Seascull's screech may even damage the health of other Pokémon."),
+                List.of("Seascull thrives in toxic waves of waste, bathing in it. So much that this Pokemon has gained special properties. Seascull's screech may even damage the health of other Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POISONDART,1)                        ),

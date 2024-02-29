@@ -21,7 +21,7 @@ public class Avocadoze extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("This sleepy Pokémon never wakes for anything, often leaving it vulnerable to predators. As a result of this, Avocadoze has become an endangered species. If spotted, Lonavan locals will place them somewhere obscured and away from harm."),
+                List.of("This sleepy Pokemon never wakes for anything, often leaving it vulnerable to predators. As a result of this, Avocadoze has become an endangered species. If spotted, Lonavan locals will place them somewhere obscured and away from harm."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

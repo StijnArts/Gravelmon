@@ -17,15 +17,16 @@ public class Awespark extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         35),
                 List.of(Ability.VOLT_ABSORB), Ability.VOLT_ABSORB,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                3, 165,
+                new Stats(0,0,0,0,0,0), 160,
                 0.0,
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
-                List.of("- Thunder ShockSTAB Electric - Thunder Wave Electric 10 Charge Electric 15 SparkSTAB Electric"),
-                List.of(),
-                List.of(
+                List.of(""),
+                List.of(new EvolutionEntry("awesurge", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
+                List.of(new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,1),
                         new MoveLearnSetEntry(Move.CHARGE,10),
                         new MoveLearnSetEntry(Move.SPARK,15),
@@ -33,8 +34,8 @@ public class Awespark extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TWISTER,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                    new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

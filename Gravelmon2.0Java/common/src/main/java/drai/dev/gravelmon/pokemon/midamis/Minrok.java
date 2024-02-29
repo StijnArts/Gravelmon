@@ -17,14 +17,15 @@ public class Minrok extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         40),
                 List.of(Ability.DAMP), Ability.CHLOROPHYLL,
-                8, 165,
-                new Stats(0,0,1,0,0,0), 0,
+                7, 165,
+                new Stats(0,0,1,0,0,0), 160,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MINERAL),
                 List.of("Minrok are mossy Pokemon traits of Grass-types but are Poison / Rock types. They absorb light and are also fond of damp areas where they multiply very quickly and easily. They like to speed demonically through open fields, exhausting gases while doing it."),
-                List.of(),
+                List.of(new EvolutionEntry("minryde", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ROCK_BLAST,1),
                         new MoveLearnSetEntry(Move.SLEEP_POWDER,5),
@@ -33,9 +34,8 @@ public class Minrok extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEGA_DRAIN,19)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -21,7 +21,7 @@ public class Carrauntain extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("With powerful jaws and thick, durable legs, this Pokémon is a force to be reckoned with if you step foot in its territory."),
+                List.of("With powerful jaws and thick, durable legs, this Pokemon is a force to be reckoned with if you step foot in its territory."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tm"),

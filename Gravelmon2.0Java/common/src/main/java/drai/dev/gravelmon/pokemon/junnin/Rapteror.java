@@ -26,7 +26,9 @@ public class Rapteror extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Rapteror circles its foe from the sky, and strikes when the enemy is looking away. Its body is made of tightly packed foliage, so it is very light and can make amazing maneuvers in the air."),
-                List.of(),
+                List.of(new EvolutionEntry("velosaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.DUAL_WINGBEAT,"tm"),
                         new MoveLearnSetEntry(Move.GRASS_PLEDGE,"tm"),
@@ -62,14 +64,14 @@ public class Rapteror extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEADBUTT,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Rapteror");
+        setCanFly(true);
 
     }
 

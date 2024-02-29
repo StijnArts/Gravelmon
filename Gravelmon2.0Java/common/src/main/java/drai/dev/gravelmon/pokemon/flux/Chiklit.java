@@ -24,7 +24,7 @@ public class Chiklit extends Pokemon {
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING, EggGroup.FIELD),
-                List.of("A poor flyer, it glides and hops from branch to branch to traverse the forests where it lives. It uses tiny bursts of fire to prey on smaller bug-type Pokémon and fend off attackers."),
+                List.of("A poor flyer, it glides and hops from branch to branch to traverse the forests where it lives. It uses tiny bursts of fire to prey on smaller bug-type Pokemon and fend off attackers."),
                 List.of(new EvolutionEntry("burnychus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

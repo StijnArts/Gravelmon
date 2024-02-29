@@ -1,0 +1,90 @@
+{
+  "implemented": true,
+  "name": "cefiransmeargle",
+  "nationalPokedexNumber": 235,
+  "primaryType": "normal",
+  "secondaryType": "fighting",
+  "abilities": [
+    "prankster",
+    "h:moody"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 20,
+    "defence": 35,
+    "special_attack": 75,
+    "special_defence": 20,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 88,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:sketch",
+    "11:sketch",
+    "21:sketch",
+    "31:sketch",
+    "41:sketch",
+    "51:sketch",
+    "61:sketch",
+    "71:sketch",
+    "81:sketch",
+    "91:sketch"  ],
+  "labels": [
+    "gen2",
+    "opal",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cefiransmeargle.desc"
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 580,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

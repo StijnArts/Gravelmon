@@ -1,0 +1,110 @@
+{
+  "implemented": true,
+  "name": "aquarrior",
+  "nationalPokedexNumber": 2644,
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "abilities": [
+    "shellarmor",
+    "justified",
+    "h:longreach"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 110,
+    "defence": 105,
+    "special_attack": 50,
+    "special_defence": 95,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 225,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "moves": [
+    "1:nobleroarsound",
+    "tm:block",
+    "tm:lastresort",
+    "tm:recycle",
+    "tm:shockwave",
+    "tm:snatch",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:irontail",
+    "tm:spite",
+    "tm:aquatail",
+    "tm:focuspunch",
+    "tm:icepunch",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:laserfocus",
+    "tm:painsplit",
+    "tm:zenheadbutt",
+    "tm:drainpunch",
+    "tm:foulplay",
+    "tm:knockoff",
+    "tm:liquidation",
+    "tm:waterpulse",
+    "tm:outrage",
+    "tm:superpower",
+    "tm:throatchop",
+    "tm:coaching",
+    "tm:lashout",
+    "tm:scaleshot"  ],
+  "labels": [
+    "mythire",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.aquarrior.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

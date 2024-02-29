@@ -21,7 +21,7 @@ public class Armust extends drai.dev.gravelmon.pokemon.Pokemon {
                 76, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
-                List.of("It lives in hard-to-reach underwater caves, making it a very rare Pokémon. It molts multiple times during a year, trying to get the perfect armor."),
+                List.of("It lives in hard-to-reach underwater caves, making it a very rare Pokemon. It molts multiple times during a year, trying to get the perfect armor."),
                 List.of(new EvolutionEntry("crustitan", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"55")))
                 ),

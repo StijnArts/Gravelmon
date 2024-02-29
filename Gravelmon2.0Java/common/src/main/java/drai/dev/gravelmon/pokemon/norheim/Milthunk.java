@@ -23,7 +23,7 @@ public class Milthunk extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Milthunk can predict storms by focusing on different wind patterns with its mind. By ringing both the bell on the tip of its tail and around its neck may warn both farmers and other Pokémon to seek shelter. Its milk tastes just as good as a Miltank’s but may come with unknown side effects."),
+                List.of("Milthunk can predict storms by focusing on different wind patterns with its mind. By ringing both the bell on the tip of its tail and around its neck may warn both farmers and other Pokemon to seek shelter. Its milk tastes just as good as a Miltank’s but may come with unknown side effects."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

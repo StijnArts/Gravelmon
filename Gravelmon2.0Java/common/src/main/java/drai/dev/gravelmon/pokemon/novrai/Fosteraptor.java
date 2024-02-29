@@ -21,7 +21,7 @@ public class Fosteraptor extends drai.dev.gravelmon.pokemon.Pokemon {
                 334, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FAIRY),
-                List.of("It took eggs from abandoned nests and raised them as its own. It went extinct because it spent so much time tending to other Pokémon's eggs that it never laid any of its own."),
+                List.of("It took eggs from abandoned nests and raised them as its own. It went extinct because it spent so much time tending to other Pokemon's eggs that it never laid any of its own."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),

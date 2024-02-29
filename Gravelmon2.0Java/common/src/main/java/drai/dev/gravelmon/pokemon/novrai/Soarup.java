@@ -21,7 +21,7 @@ public class Soarup extends drai.dev.gravelmon.pokemon.Pokemon {
                 168, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.GRASS),
-                List.of("It can be trained to regurgitate the sap it drains from trees. The sap is then boiled down into a delectable syrup that people and Pokémon love."),
+                List.of("It can be trained to regurgitate the sap it drains from trees. The sap is then boiled down into a delectable syrup that people and Pokemon love."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),

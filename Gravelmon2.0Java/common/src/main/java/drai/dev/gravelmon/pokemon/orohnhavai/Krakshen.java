@@ -23,7 +23,7 @@ public class Krakshen extends drai.dev.gravelmon.pokemon.Pokemon {
                 185, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.MONSTER),
-                List.of("These 'sea monsters' lurk deep in the ocean. When starving, they grow vicious and actively hunt for food. Their diet mainly consists of Slowpoke and Cloyster. After feeding enough to last them months, they return to dwell on the ocean floor. Many believe these Pokémon are responsible for swimmers going missing."),
+                List.of("These 'sea monsters' lurk deep in the ocean. When starving, they grow vicious and actively hunt for food. Their diet mainly consists of Slowpoke and Cloyster. After feeding enough to last them months, they return to dwell on the ocean floor. Many believe these Pokemon are responsible for swimmers going missing."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGUNDER,1),

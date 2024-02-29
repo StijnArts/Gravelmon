@@ -21,7 +21,7 @@ public class Stalagrus extends drai.dev.gravelmon.pokemon.Pokemon {
                 173, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
-                List.of("It's able to crush rocks with its heavy body alone. This Pokémon is extremely patient and can wait weeks for food to come by, often becoming cloaked in sand and harder for its prey to spot."),
+                List.of("It's able to crush rocks with its heavy body alone. This Pokemon is extremely patient and can wait weeks for food to come by, often becoming cloaked in sand and harder for its prey to spot."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),

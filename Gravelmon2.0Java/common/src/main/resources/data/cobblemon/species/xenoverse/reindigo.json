@@ -1,0 +1,151 @@
+{
+  "implemented": true,
+  "name": "reindigo",
+  "nationalPokedexNumber": 1754,
+  "primaryType": "dark",
+  "abilities": [
+    "defeatist",
+    "h:defeatist"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 128,
+    "defence": 90,
+    "special_attack": 54,
+    "special_defence": 108,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 183,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 32,
+  "eggGroups": [
+    "monster",
+    "field"
+  ],
+  "moves": [
+    "1:payback",
+    "1:scaryface",
+    "1:frustration",
+    "1:playnice",
+    "1:fairywind",
+    "1:present",
+    "1:drainingkiss",
+    "19:heartstamp",
+    "24:stomp",
+    "29:bestow",
+    "35:wish",
+    "42:entrainment",
+    "48:frustration",
+    "56:foulplay",
+    "61:superpower",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:earthquake",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:fling",
+    "tm:brutalswing",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:poweruppunch",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:dazzlinggleam",
+    "tm:darkpulse",
+    "egg:charm",
+    "egg:covet",
+    "egg:singsound",
+    "egg:healingwish",
+    "egg:icywind",
+    "egg:feintattack",
+    "egg:suckerpunch",
+    "tutor:block",
+    "tutor:endeavor",
+    "tutor:foulplay",
+    "tutor:helpinghand",
+    "tutor:icepunch",
+    "tutor:knockoff",
+    "tutor:outrage",
+    "tutor:painsplit",
+    "tutor:secretpower",
+    "tutor:sleeptalksound",
+    "tutor:snatch",
+    "tutor:snoresound",
+    "tutor:superpower"  ],
+  "labels": [
+    "xenoverse",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.reindigo.desc"
+  ],
+  "preEvolution": "reindear",
+  "baseScale": 0.46875,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 25,
+  "weight": 1200,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

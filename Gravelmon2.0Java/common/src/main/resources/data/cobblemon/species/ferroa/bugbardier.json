@@ -1,0 +1,153 @@
+{
+  "implemented": true,
+  "name": "bugbardier",
+  "nationalPokedexNumber": 1442,
+  "primaryType": "bug",
+  "secondaryType": "fire",
+  "abilities": [
+    "flashfire",
+    "h:aftermath"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 93,
+    "defence": 70,
+    "special_attack": 95,
+    "special_defence": 70,
+    "speed": 92
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:tackle",
+    "8:ember",
+    "12:focusenergy",
+    "15:incinerate",
+    "21:signalbeam",
+    "29:smokescreen",
+    "40:bugbuzzsound",
+    "45:spotlight",
+    "50:doubleedge",
+    "55:lockon",
+    "62:burnup",
+    "70:explosion",
+    "tm:bugbite",
+    "tm:shockwave",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:bounce",
+    "tm:irondefense",
+    "tm:signalbeam",
+    "tm:laserfocus",
+    "tm:seedbomb",
+    "tm:zenheadbutt",
+    "tm:gastroacid",
+    "tm:gunkshot",
+    "tm:heatwave",
+    "tm:knockoff",
+    "tm:burningjealousy",
+    "tm:skittersmack",
+    "tm:attract",
+    "tm:bide",
+    "tm:chargebeam",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:mimic",
+    "tm:overheat",
+    "tm:protect",
+    "tm:rage",
+    "tm:rest",
+    "tm:return",
+    "tm:roundsound",
+    "tm:sleeptalksound",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:torment",
+    "tm:toxic",
+    "tm:whirlwind",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:headbutt",
+    "tm:headsmash",
+    "tm:acidspray",
+    "tm:flameburst"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bugbardier.desc"
+  ],
+  "preEvolution": "blastun",
+  "baseScale": 0.20625,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -21,7 +21,7 @@ public class Gobblin extends drai.dev.gravelmon.pokemon.Pokemon {
                 168, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_2),
-                List.of("This Pokémon was said to be born from remains of different food that fell into a groddy pond. Although clumsy and awkward-looking, it is loved by many."),
+                List.of("This Pokemon was said to be born from remains of different food that fell into a groddy pond. Although clumsy and awkward-looking, it is loved by many."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

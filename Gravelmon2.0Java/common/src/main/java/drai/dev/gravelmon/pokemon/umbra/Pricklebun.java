@@ -24,7 +24,7 @@ public class Pricklebun extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.FIELD),
-                List.of("Timid and easily frightened, this Pokémon often avoids danger by hiding among cacti and other drybrush. The fruit that grows from its ears is used to make tasty jams and jellies."),
+                List.of("Timid and easily frightened, this Pokemon often avoids danger by hiding among cacti and other drybrush. The fruit that grows from its ears is used to make tasty jams and jellies."),
                 List.of(new EvolutionEntry("cackrabbit", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(

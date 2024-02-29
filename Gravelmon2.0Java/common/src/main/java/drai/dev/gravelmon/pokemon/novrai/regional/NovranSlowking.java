@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranSlowking extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranSlowking() {
-        super("Slowking",
+    public NovranSlowking(int id) {
+        super(id, "Slowking",
                 Type.BUG,Type.PSYCHIC,
                 new Stats(95,
                         100,
@@ -15,7 +15,7 @@ public class NovranSlowking extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         30),
                 List.of(Ability.HONEY_GATHER,Ability.THICK_FAT,Ability.SWARMINGSURGE), Ability.SWARMINGSURGE,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,0,3,0), 70,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -120,9 +120,8 @@ public class NovranSlowking extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 37, 49, .54, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

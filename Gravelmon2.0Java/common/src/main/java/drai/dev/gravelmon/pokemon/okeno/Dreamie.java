@@ -20,7 +20,7 @@ public class Dreamie extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
-                List.of("This Pokémon moves as if it is leaping through the air, leading herds of Dormie. It also lulls people into sleep with the trail of magic dust it leaves behind."),
+                List.of("This Pokemon moves as if it is leaping through the air, leading herds of Dormie. It also lulls people into sleep with the trail of magic dust it leaves behind."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FOLLOW_ME,1),

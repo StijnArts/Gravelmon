@@ -12,6 +12,7 @@ import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
+import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
@@ -27,6 +28,9 @@ public class GenerationTwo extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new NovranSudowoodo(185));
+        pokemon.add(new NovranSlowking(199));
+
         pokemon.add(new QamoranTyrogue(236));
         pokemon.add(new QamoranHitmontop(237));
 

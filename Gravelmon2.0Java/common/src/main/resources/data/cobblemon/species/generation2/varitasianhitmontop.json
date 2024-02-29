@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "varitasianhitmontop",
+  "nationalPokedexNumber": 237,
+  "primaryType": "psychic",
+  "abilities": [
+    "intimidate",
+    "technician",
+    "h:steadfast"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 35,
+    "defence": 95,
+    "special_attack": 95,
+    "special_defence": 110,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 159,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:closecombat",
+    "6:focusenergy",
+    "10:pursuit",
+    "15:quickattack",
+    "19:rapidspin",
+    "24:feint",
+    "28:counter",
+    "33:triplekick",
+    "37:agility",
+    "42:gyroball",
+    "46:quickguard",
+    "50:detect",
+    "55:closecombat",
+    "60:endeavor",
+    "tm:lowkick",
+    "tm:snoresound",
+    "tm:helpinghand",
+    "tm:roleplay",
+    "tm:endeavor",
+    "tm:covet",
+    "tm:laserfocus",
+    "tm:coaching",
+    "tm:tripleaxel",
+    "tm:earthquake",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:sandstorm",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:aerialace",
+    "tm:bulkup",
+    "tm:gyroball",
+    "tm:stoneedge",
+    "tm:lowsweep",
+    "tm:roundsound",
+    "tm:bulldoze",
+    "tm:workup",
+    "tm:confide",
+    "tm:megapunch",
+    "tm:megakick",
+    "tm:bodyslam",
+    "tm:doubleedge",
+    "tm:counter",
+    "tm:seismictoss",
+    "tm:rage",
+    "tm:dig",
+    "tm:mimic",
+    "tm:bide",
+    "tm:swiftcosmic",
+    "tm:horndrill",
+    "tm:takedown",
+    "tm:submission",
+    "tm:skullbash",
+    "tm:counter",
+    "tm:highjumpkick",
+    "tm:mindreader",
+    "tm:machpunch",
+    "tm:endure",
+    "tm:pursuit",
+    "tm:rapidspin",
+    "tm:feint",
+    "tm:vacuumwave",
+    "tm:bulletpunch"  ],
+  "labels": [
+    "varitas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.varitasianhitmontop.desc"
+  ],
+  "preEvolution": "varitasiantyrogue",
+  "baseScale": 0.2625,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

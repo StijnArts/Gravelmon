@@ -51,12 +51,14 @@ public class Salmini extends Pokemon {
                         ),
                 List.of(Label.URANIUM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 21, 4.5, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 5, 21, 4.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_RIVER))
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_TEMPERATE))),
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
                 List.of());
-        this.setPortraitXYZ(0,1.8,0);
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
     }
 }

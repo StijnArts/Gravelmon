@@ -23,7 +23,7 @@ public class Nectavian extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("A rare Pokémon from far away that was found in the Havai region feeding on the nectar of flowers. They hover in mid-air at rapid wing flapping rates, typically around 150 times per second, allowing them also to fly at incredibly high speeds, backwards or upside down."),
+                List.of("A rare Pokemon from far away that was found in the Havai region feeding on the nectar of flowers. They hover in mid-air at rapid wing flapping rates, typically around 150 times per second, allowing them also to fly at incredibly high speeds, backwards or upside down."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

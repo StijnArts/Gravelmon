@@ -20,7 +20,7 @@ public class Egxel extends drai.dev.gravelmon.pokemon.Pokemon {
                 162, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
-                List.of("Using their powerful feet, these Pokémon are capable of jumping over a whole two-story house! In a popular fairy tale, Egxel leapt over the sun to have its trainer's wish granted."),
+                List.of("Using their powerful feet, these Pokemon are capable of jumping over a whole two-story house! In a popular fairy tale, Egxel leapt over the sun to have its trainer's wish granted."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),

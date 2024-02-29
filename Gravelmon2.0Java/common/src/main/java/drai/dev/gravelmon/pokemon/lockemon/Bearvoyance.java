@@ -24,7 +24,7 @@ public class Bearvoyance extends Pokemon {
                 220, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Bearvoyance can use their psychic abilities to wisely predict their foe’s next move. Elder Bearvoyance love to work at daycares, giving words of wisdom to Pokémon while they’re still in eggs."),
+                List.of("Bearvoyance can use their psychic abilities to wisely predict their foe’s next move. Elder Bearvoyance love to work at daycares, giving words of wisdom to Pokemon while they’re still in eggs."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,1),

@@ -17,13 +17,13 @@ public class Minryde extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         90),
                 List.of(Ability.DAMP), Ability.CHLOROPHYLL,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 165,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- Bite Dark 4 Rock ThrowSTAB Rock 8 Poison StingSTAB Poison 13 Poison FangSTAB Poison 17 Razor Leaf Grass 22 Rock BlastSTAB Rock 26 VenoshockSTAB Poison 30 Crunch Dark 35 Leaf Blade Grass 39 Rock SlideSTAB Rock 42 Cross PoisonSTAB Poison 48 Rock Polish Rock 53 Solar Beam Grass 59 Stone EdgeSTAB Rock 64 Coil Poison"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),
@@ -43,9 +43,8 @@ public class Minryde extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COIL,64)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 46, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

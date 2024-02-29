@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranHatenna extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranHatenna() {
-        super("Hatenna",
+    public NovranHatenna(int dex) {
+        super(dex, "Hatenna",
                 Type.GRASS,Type.FAIRY,
                 new Stats(42,
                         30,
@@ -15,14 +15,15 @@ public class NovranHatenna extends drai.dev.gravelmon.pokemon.Pokemon {
                         53,
                         39),
                 List.of(Ability.SYMBIOSIS,Ability.HARVEST,Ability.GRASSY_SURGE), Ability.GRASSY_SURGE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 235,
                 0.25,
                 53, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("Its wide brim of hair contains cells that absorb sunlight, so it never has to eat. It causes other plants to grow large so it can hide below their leaves when frightened."),
-                List.of(),
+                List.of(new EvolutionEntry("novraihattrem", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.ROTOTILLER,6),
@@ -98,8 +99,8 @@ public class NovranHatenna extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_GLIDE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 10, 30, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

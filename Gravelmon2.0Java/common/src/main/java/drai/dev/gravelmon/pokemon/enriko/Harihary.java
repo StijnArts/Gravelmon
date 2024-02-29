@@ -21,7 +21,7 @@ public class Harihary extends drai.dev.gravelmon.pokemon.Pokemon {
                 100, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
-                List.of("An extremely elusive Pokémon that supposedly only lives deep in the darkest woods. Anybody who claims to have seen one also claims it disappeared in a puff of scraggly hairs upon capture."),
+                List.of("An extremely elusive Pokemon that supposedly only lives deep in the darkest woods. Anybody who claims to have seen one also claims it disappeared in a puff of scraggly hairs upon capture."),
                 List.of(new EvolutionEntry("wigfoot", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
                 ),

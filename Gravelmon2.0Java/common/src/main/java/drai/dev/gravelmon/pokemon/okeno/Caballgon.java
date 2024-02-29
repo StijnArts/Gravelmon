@@ -20,7 +20,7 @@ public class Caballgon extends drai.dev.gravelmon.pokemon.Pokemon {
                 239, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.DRAGON),
-                List.of("Caballgon's breath is capable of making flowers whither and trees perish. After stomping the ground with its hooved feet, this Pokémon lifts off and flies."),
+                List.of("Caballgon's breath is capable of making flowers whither and trees perish. After stomping the ground with its hooved feet, this Pokemon lifts off and flies."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,1),

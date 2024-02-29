@@ -21,7 +21,7 @@ public class Barbavelry extends drai.dev.gravelmon.pokemon.Pokemon {
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("It is very proud of its abilities and competitive. It will dash past other running Pokémon to boast about its speed."),
+                List.of("It is very proud of its abilities and competitive. It will dash past other running Pokemon to boast about its speed."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),

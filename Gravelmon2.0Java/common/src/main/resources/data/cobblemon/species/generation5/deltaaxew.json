@@ -1,0 +1,170 @@
+{
+  "implemented": true,
+  "name": "deltaaxew",
+  "nationalPokedexNumber": 610,
+  "primaryType": "water",
+  "abilities": [
+    "strongjaw",
+    "waterveil",
+    "h:swiftswim"
+  ],
+  "baseStats": {
+    "hp": 46,
+    "attack": 87,
+    "defence": 60,
+    "special_attack": 30,
+    "special_defence": 40,
+    "speed": 57
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:scratch",
+    "4:leer",
+    "7:bite",
+    "10:whirlpool",
+    "13:aquajet",
+    "16:scaryface",
+    "20:poisonfang",
+    "24:icefang",
+    "28:crunch",
+    "32:agility",
+    "36:taunt",
+    "41:aquatail",
+    "46:swordsdance",
+    "50:thrash",
+    "56:hydropump",
+    "61:gigaimpact",
+    "tm:honeclaws",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:irontail",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:falseswipe",
+    "tm:brine",
+    "tm:fling",
+    "tm:dragontail",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:swordsdance",
+    "tm:xscissor",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:dracojet",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:rocksmash",
+    "tm:cut",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:dive",
+    "tutor:acid",
+    "tutor:aquatail",
+    "tutor:counter",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:furycutter",
+    "tutor:headbutt",
+    "tutor:icywind",
+    "tutor:mimic",
+    "tutor:outrage",
+    "tutor:snoresound",
+    "tutor:superfang",
+    "tutor:superpower",
+    "tutor:waterpulse",
+    "tutor:whirlpool"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltaaxew.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltaaxew_deltafraxure",
+      "variant": "level_up",
+      "result": "deltafraxure",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 180,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

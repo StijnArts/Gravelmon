@@ -24,7 +24,7 @@ public class Hamysos extends Pokemon {
                 145, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.FIELD),
-                List.of("Hamysos is a festive Pokémon. It is said that its cheeks are actually large Ceriz berries, and that tasting them causes a euphoric state."),
+                List.of("Hamysos is a festive Pokemon. It is said that its cheeks are actually large Ceriz berries, and that tasting them causes a euphoric state."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND, 1),

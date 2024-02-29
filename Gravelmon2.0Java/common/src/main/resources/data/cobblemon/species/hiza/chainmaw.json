@@ -1,0 +1,120 @@
+{
+  "implemented": true,
+  "name": "chainmaw",
+  "nationalPokedexNumber": 2048,
+  "primaryType": "bug",
+  "secondaryType": "steel",
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 115,
+    "defence": 60,
+    "special_attack": 61,
+    "special_defence": 60,
+    "speed": 84
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 70,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:scratch",
+    "5:harden",
+    "8:bugbite",
+    "12:scaryface",
+    "14:strugglebug",
+    "20:endure",
+    "22:wingattack",
+    "27:slash",
+    "30:geargrind",
+    "34:xscissor",
+    "37:irondefense",
+    "39:screechsound",
+    "42:uturn",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:roost",
+    "tm:frustration",
+    "tm:return",
+    "tm:leechlife",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:steelwing",
+    "tm:falseswipe",
+    "tm:smartstrike",
+    "tm:gigaimpact",
+    "tm:thunderwave",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:xscissor",
+    "tm:infestation",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:confide"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.chainmaw.desc"
+  ],
+  "preEvolution": "termunch",
+  "baseScale": 0.28125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

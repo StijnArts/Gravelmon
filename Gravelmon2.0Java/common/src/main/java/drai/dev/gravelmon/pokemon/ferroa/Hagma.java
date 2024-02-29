@@ -21,7 +21,7 @@ public class Hagma extends drai.dev.gravelmon.pokemon.Pokemon {
                 65, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("Its body is coated in super-flammable slime that ignites easily. Holding onto this Pokémon is difficult because the slippery slime allows it to wriggle through even the tightest grip."),
+                List.of("Its body is coated in super-flammable slime that ignites easily. Holding onto this Pokemon is difficult because the slippery slime allows it to wriggle through even the tightest grip."),
                 List.of(new EvolutionEntry("conhagrant", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))
                 ),

@@ -22,7 +22,7 @@ public class AvorianMaractus extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Once every fall, groups of this Pokémon gather and dance in unison throughout the entire night. Other Ghost-type Pokémon are invited to dance along with them. The bone-chilling rattling in their hollow bodies is enough to paralyze adults with fear."),
+                List.of("Once every fall, groups of this Pokemon gather and dance in unison throughout the entire night. Other Ghost-type Pokemon are invited to dance along with them. The bone-chilling rattling in their hollow bodies is enough to paralyze adults with fear."),
                 List.of(new EvolutionEntry("maracabre", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "night")))),

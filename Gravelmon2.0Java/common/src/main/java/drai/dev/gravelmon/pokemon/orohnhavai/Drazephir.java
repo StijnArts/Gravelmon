@@ -23,7 +23,7 @@ public class Drazephir extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("A Pokémon spoken about in folklore where it controls winds. Some locals believe windy days mean Drazephir is very active and playful, while strong winds are seen as warning signs of incoming danger. It guards the sky over the islands."),
+                List.of("A Pokemon spoken about in folklore where it controls winds. Some locals believe windy days mean Drazephir is very active and playful, while strong winds are seen as warning signs of incoming danger. It guards the sky over the islands."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

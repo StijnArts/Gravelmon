@@ -23,7 +23,7 @@ public class Carosella extends drai.dev.gravelmon.pokemon.Pokemon {
                 168, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("A popular Pokémon known for its majestic beauty and horseback riding. Their stubborn attitude makes it difficult for beginning riders and an evolved Meritrot may suddenly regard its Trainer with disdain."),
+                List.of("A popular Pokemon known for its majestic beauty and horseback riding. Their stubborn attitude makes it difficult for beginning riders and an evolved Meritrot may suddenly regard its Trainer with disdain."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

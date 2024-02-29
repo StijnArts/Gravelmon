@@ -21,7 +21,7 @@ public class Fatfish extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("Its appearance is disturbing and its smell is off-putting, but this Pokémon has the strange ability to charm almost any opponent."),
+                List.of("Its appearance is disturbing and its smell is off-putting, but this Pokemon has the strange ability to charm almost any opponent."),
                 List.of(new EvolutionEntry("blobhorent", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))
                 ),

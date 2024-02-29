@@ -23,7 +23,7 @@ public class Geoglyphic extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("An ancient Pokémon known to be found on ancient burial sites. Most of these burial sites date back thousands of years. Scientists believe it guarded the graves from any intruder and protect the area with an unknown ancient energy."),
+                List.of("An ancient Pokemon known to be found on ancient burial sites. Most of these burial sites date back thousands of years. Scientists believe it guarded the graves from any intruder and protect the area with an unknown ancient energy."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

@@ -24,7 +24,7 @@ public class Jamberree extends Pokemon {
                 75, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY, EggGroup.GRASS),
-                List.of("The berry attached to this Pokémon's head is sweet and nutritious. It is a favourite snack among forest Pokémon."),
+                List.of("The berry attached to this Pokemon's head is sweet and nutritious. It is a favourite snack among forest Pokemon."),
                 List.of(new EvolutionEntry("strawna", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(

@@ -1,0 +1,120 @@
+{
+  "implemented": true,
+  "name": "hoenniandewgong",
+  "nationalPokedexNumber": 87,
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "abilities": [
+    "thickfat",
+    "h:swiftswim"
+  ],
+  "baseStats": {
+    "hp": 135,
+    "attack": 115,
+    "defence": 85,
+    "special_attack": 45,
+    "special_defence": 70,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 165,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:cometpunch",
+    "1:aquajet",
+    "1:hornattack",
+    "9:pursuit",
+    "17:beatup",
+    "21:knockoff",
+    "29:slackoff",
+    "42:icepunch",
+    "50:megahorn",
+    "64:bulkup",
+    "tm:scald",
+    "tm:toxic",
+    "tm:hail",
+    "tm:pursuit",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:freezedry",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:gigaimpact",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:surf",
+    "tm:strength",
+    "tm:rocksmash",
+    "tm:waterfall",
+    "tm:dive",
+    "egg:iceshard",
+    "egg:shadowpunch",
+    "egg:fakeout"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen1",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoenniandewgong.desc"
+  ],
+  "preEvolution": "hoennianseel",
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 1120,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

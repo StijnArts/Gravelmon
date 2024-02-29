@@ -24,7 +24,7 @@ public class Cackrabbit extends Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.FIELD),
-                List.of("Although less skiddish than its predecessor, this Pokémon will spray needles by violently shaking its body whenever it feels threatened. This makes it a difficult Pokémon for young trainers to train."),
+                List.of("Although less skiddish than its predecessor, this Pokemon will spray needles by violently shaking its body whenever it feels threatened. This makes it a difficult Pokemon for young trainers to train."),
                 List.of(new EvolutionEntry("sonoralope", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(

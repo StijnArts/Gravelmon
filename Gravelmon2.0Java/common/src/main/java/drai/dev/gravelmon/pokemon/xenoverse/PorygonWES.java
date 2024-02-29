@@ -19,7 +19,7 @@ public class PorygonWES extends Pokemon {
                 241, ExperienceGroup.MEDIUM_FAST,
                 70,
                 39, List.of(EggGroup.MINERAL),
-                List.of("It was updated with the most cutting-edge technology ever created. It was originally meant to be an assistant in PokéWES."),
+                List.of("It was updated with the most cutting-edge technology ever created. It was originally meant to be an assistant in PokeWES."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TRICK_ROOM,1),

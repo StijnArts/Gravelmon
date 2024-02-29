@@ -20,7 +20,7 @@ public class Hatchick extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FIELD),
-                List.of("This timid Pokémon only feels safe if it is wearing its eggshell, and it will boldly drive off children that reach for its head. Trainers are always confused seeing them hatch."),
+                List.of("This timid Pokemon only feels safe if it is wearing its eggshell, and it will boldly drive off children that reach for its head. Trainers are always confused seeing them hatch."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1)                        ),

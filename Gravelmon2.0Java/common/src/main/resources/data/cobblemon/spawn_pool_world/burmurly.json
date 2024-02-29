@@ -7,16 +7,16 @@
       "id": "burmurly-1",
       "pokemon": "burmurly",
       "presets": [
-          "natural"
+          "treetop"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "ultra-rare",
+      "level": "16-46",
+      "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_savanna" ],
         "canSeeSky": true
       }
     }

@@ -23,7 +23,7 @@ public class Valcurie extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(),
-                List.of("The queen of six former heroines and the last of her kind. Valcurie decides the fate of Pokémon; who may die with glory or to live to finish their story."),
+                List.of("The queen of six former heroines and the last of her kind. Valcurie decides the fate of Pokemon; who may die with glory or to live to finish their story."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SMART_STRIKE,1),

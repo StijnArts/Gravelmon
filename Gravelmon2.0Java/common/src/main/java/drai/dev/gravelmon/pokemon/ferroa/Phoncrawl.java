@@ -21,7 +21,7 @@ public class Phoncrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.BUG),
-                List.of("An early foray into communications tech that became a Pokémon. It can broadcast messages to other Phoncrawl over very long distances."),
+                List.of("An early foray into communications tech that became a Pokemon. It can broadcast messages to other Phoncrawl over very long distances."),
                 List.of(new EvolutionEntry("techknot", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:dubious_disc")),
                 List.of(

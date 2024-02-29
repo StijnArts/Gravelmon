@@ -24,7 +24,7 @@ public class Findolf extends Pokemon {
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1, EggGroup.MONSTER),
-                List.of("A resilient Pokémon that thrives on land as well as it does in the water. To defend itself, it sprays a forceful water jet from the blowhole on its head."),
+                List.of("A resilient Pokemon that thrives on land as well as it does in the water. To defend itself, it sprays a forceful water jet from the blowhole on its head."),
                 List.of(new EvolutionEntry("delfender", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

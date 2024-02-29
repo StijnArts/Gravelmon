@@ -7,16 +7,15 @@
       "id": "pharoar-1",
       "pokemon": "pharoar",
       "presets": [
-          "natural"
+          "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "51-65",
+      "weight": 0.2,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_desert" ],
         "canSeeSky": true
       }
     }

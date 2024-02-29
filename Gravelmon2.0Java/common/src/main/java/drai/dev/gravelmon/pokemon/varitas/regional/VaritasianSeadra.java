@@ -23,7 +23,7 @@ public class VaritasianSeadra extends drai.dev.gravelmon.pokemon.Pokemon {
                 154, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
-                List.of("Seadra generates whirlpools by spinning its body. The whirlpools are strong enough to swallow even fishing boats. This Pokémon weakens prey with these currents, then swallows it whole."),
+                List.of("Seadra generates whirlpools by spinning its body. The whirlpools are strong enough to swallow even fishing boats. This Pokemon weakens prey with these currents, then swallows it whole."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

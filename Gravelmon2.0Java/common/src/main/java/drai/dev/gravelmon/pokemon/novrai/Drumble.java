@@ -21,7 +21,7 @@ public class Drumble extends drai.dev.gravelmon.pokemon.Pokemon {
                 56, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
-                List.of("An odd Pokémon that can be seen sitting in treetops, grazing on leaves. It clumsily falls from its perches often, but its hard scales keep it safe."),
+                List.of("An odd Pokemon that can be seen sitting in treetops, grazing on leaves. It clumsily falls from its perches often, but its hard scales keep it safe."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),

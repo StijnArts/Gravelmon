@@ -23,7 +23,7 @@ public class Wispear extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Wispear are spirits of young children who got lost after dark and never returned home. They may whisper in the ears of travelers, telling them which way to go and return to safety. They may play tricks however, making both people and Pokémon to walk astray into the unknown wilderness."),
+                List.of("Wispear are spirits of young children who got lost after dark and never returned home. They may whisper in the ears of travelers, telling them which way to go and return to safety. They may play tricks however, making both people and Pokemon to walk astray into the unknown wilderness."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),

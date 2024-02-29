@@ -21,7 +21,7 @@ public class Babrat extends drai.dev.gravelmon.pokemon.Pokemon {
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("They dislike people and other Pokémon that are not part of their group. They make loud noises to scare intruders away."),
+                List.of("They dislike people and other Pokemon that are not part of their group. They make loud noises to scare intruders away."),
                 List.of(new EvolutionEntry("babreak", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
                 ),

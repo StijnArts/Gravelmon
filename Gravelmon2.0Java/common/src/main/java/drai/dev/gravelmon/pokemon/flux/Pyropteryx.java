@@ -24,7 +24,7 @@ public class Pyropteryx extends Pokemon {
                 265, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING, EggGroup.FIELD),
-                List.of("Descended from a common ancestor of bird and dinosaur Pokémon. Its developed feathers allow it to glide, leaving scorching flames in its wake."),
+                List.of("Descended from a common ancestor of bird and dinosaur Pokemon. Its developed feathers allow it to glide, leaving scorching flames in its wake."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FLY,1),

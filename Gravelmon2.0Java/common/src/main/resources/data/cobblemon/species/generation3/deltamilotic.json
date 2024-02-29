@@ -1,0 +1,236 @@
+{
+  "implemented": true,
+  "name": "deltamilotic",
+  "nationalPokedexNumber": 350,
+  "primaryType": "ghost",
+  "abilities": [
+    "regenerator",
+    "defiant",
+    "h:cursedbody"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 60,
+    "defence": 79,
+    "special_attack": 100,
+    "special_defence": 125,
+    "speed": 81
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "Mega",
+      "primaryType": "ghost",
+      "abilities": [
+    "absolution",
+    "absolution",
+    "h:cursedbody"
+      ],
+      "baseScale": 0.48,
+        "hitbox": {
+          "width": 6.0,
+          "height": 6.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 95,
+        "attack": 70,
+        "defence": 109,
+        "special_attack": 130,
+        "special_defence": 155,
+        "speed": 81
+      },
+      "catchRate": 60,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 229,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "experienceGroup": "fluctuating",
+      "eggCycles": 50,
+      "eggGroups": [
+    "undiscovered"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "insurgence",
+    "not_modeled"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "height": 6,
+      "weight": 16200,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 189,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:infestation",
+    "1:shadowsneak",
+    "4:spite",
+    "7:curse",
+    "11:confusion",
+    "14:nightshade",
+    "17:hex",
+    "21:perishsongsound",
+    "24:meanlook",
+    "27:extrasensory",
+    "31:recover",
+    "34:phantomforce",
+    "37:confuseray",
+    "41:destinybond",
+    "44:calmmind",
+    "47:shadowball",
+    "51:aurasphere",
+    "55:mirrorcoat",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:dragonpulse",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:irontail",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:energyball",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:dragontail",
+    "tm:willowisp",
+    "tm:newmoon",
+    "tm:embargo",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:psychup",
+    "tm:shockwave",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:dracojet",
+    "tm:sleeptalksound",
+    "tm:frostbreath",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:dragonify",
+    "tm:quash",
+    "tm:darkmatter",
+    "tm:infestation",
+    "tm:secretpower",
+    "tm:flash",
+    "tm:telekinesis",
+    "tutor:acid",
+    "tutor:aquatail",
+    "tutor:aurasphere",
+    "tutor:bind",
+    "tutor:bodyslam",
+    "tutor:covet",
+    "tutor:endure",
+    "tutor:extrasensory",
+    "tutor:gravitycosmic",
+    "tutor:icywind",
+    "tutor:ironhead",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:nightshade",
+    "tutor:ominouswind",
+    "tutor:painsplit",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:trick",
+    "tutor:twister",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "gen3",
+    "insurgence",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltamilotic.desc"
+  ],
+  "preEvolution": "deltafeebas",
+  "baseScale": 0.58125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 31,
+  "weight": 1620,
+  "aspects": [],
+"features": [
+"mega"
+  ],  "cannotDynamax": false
+}

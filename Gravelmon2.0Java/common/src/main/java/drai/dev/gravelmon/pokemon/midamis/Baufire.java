@@ -18,13 +18,15 @@ public class Baufire extends drai.dev.gravelmon.pokemon.Pokemon {
                         60),
                 List.of(Ability.BLAZE), Ability.FLAME_BODY,
                 8, 165,
-                new Stats(0,2,0,0,0,0), 0,
+                new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("This Pokemon is said to be the origin of the beliefs of demons, because of their blood red fur and its two horns. However in battle this Pokemon is as strong as a bulldozer and can take down the toughest of foes."),
-                List.of(),
+                List.of(new EvolutionEntry("chloradise", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.MUD_SPORT,17),
@@ -46,9 +48,8 @@ public class Baufire extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER_FANG,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

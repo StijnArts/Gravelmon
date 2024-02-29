@@ -21,7 +21,7 @@ public class Bactiny extends drai.dev.gravelmon.pokemon.Pokemon {
                 52, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Bactiny are believed to be tied to the origin of the Pokérus virus. Contact with these Pokemon can cause numerous illnesses."),
+                List.of("Bactiny are believed to be tied to the origin of the Pokerus virus. Contact with these Pokemon can cause numerous illnesses."),
                 List.of(new EvolutionEntry("liquphage", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
                 ),

@@ -24,7 +24,7 @@ public class Picantoad extends Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER, EggGroup.DRAGON),
-                List.of("This Pokémon has no agility with which to speak of. Instead, it shoots thick jets of lava from its eyes with impeccable accuracy and range."),
+                List.of("This Pokemon has no agility with which to speak of. Instead, it shoots thick jets of lava from its eyes with impeccable accuracy and range."),
                 List.of(new EvolutionEntry("volcantoad", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

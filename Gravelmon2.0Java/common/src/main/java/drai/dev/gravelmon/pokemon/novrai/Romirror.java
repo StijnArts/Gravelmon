@@ -21,7 +21,7 @@ public class Romirror extends drai.dev.gravelmon.pokemon.Pokemon {
                 70, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("Romirror is a vain Pokémon obsessed with keeping itself clean and free of cracks. Its brain cells are distributed across its shiny, reflective surface."),
+                List.of("Romirror is a vain Pokemon obsessed with keeping itself clean and free of cracks. Its brain cells are distributed across its shiny, reflective surface."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,1),

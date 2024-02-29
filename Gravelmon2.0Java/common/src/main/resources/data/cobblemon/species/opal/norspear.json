@@ -1,0 +1,127 @@
+{
+  "implemented": true,
+  "name": "norspear",
+  "nationalPokedexNumber": 1413,
+  "primaryType": "water",
+  "secondaryType": "ice",
+  "abilities": [
+    "torrent",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 98,
+    "defence": 75,
+    "special_attack": 65,
+    "special_defence": 62,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 164,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:tackle",
+    "4:growl",
+    "8:watergun",
+    "11:supersonic",
+    "15:focusenergy",
+    "17:razorshell",
+    "22:furycutter",
+    "26:iceshard",
+    "29:haze",
+    "33:aquajet",
+    "37:aquatail",
+    "40:iciclecrash",
+    "44:swordsdance",
+    "48:nightslash",
+    "52:hydropump",
+    "56:closecombat",
+    "egg:closecombat",
+    "egg:aquaring",
+    "egg:tackle",
+    "egg:brickbreak",
+    "egg:bulkup",
+    "egg:iciclespear",
+    "egg:hydropump",
+    "egg:icywind",
+    "egg:waterpulse",
+    "egg:brine",
+    "egg:swagger",
+    "egg:supersonic",
+    "egg:mist"  ],
+  "labels": [
+    "opal",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.norspear.desc"
+  ],
+  "preEvolution": "swolphin",
+  "evolutions": [
+    {
+      "id": "norspear_narvalor",
+      "variant": "level_up",
+      "result": "narvalor",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 45
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 52,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

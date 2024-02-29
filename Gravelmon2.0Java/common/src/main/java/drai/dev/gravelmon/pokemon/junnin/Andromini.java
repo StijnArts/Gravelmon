@@ -19,13 +19,13 @@ public class Andromini extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         100),
                 List.of(Ability.SOUNDPROOF), Ability.CALCULATE,
-                8, 165,
+                10, 165,
                 new Stats(0,0,1,1,1,0), 3,
                 0.0,
                 270, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("- Self-Repair Steel - Recycle Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.RECYCLE,1),
@@ -98,8 +98,8 @@ public class Andromini extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMART_STRIKE,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .002, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

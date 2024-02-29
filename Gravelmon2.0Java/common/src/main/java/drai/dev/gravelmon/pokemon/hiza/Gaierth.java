@@ -21,7 +21,7 @@ public class Gaierth extends drai.dev.gravelmon.pokemon.Pokemon {
                 302, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("By flapping its majestic wings, it constantly spreads various seeds that fully grow in mere seconds. It is deeply connected with the region of Hiza and all Pokémon that inhabit it."),
+                List.of("By flapping its majestic wings, it constantly spreads various seeds that fully grow in mere seconds. It is deeply connected with the region of Hiza and all Pokemon that inhabit it."),
                 List.of(),
                 List.of(           new MoveLearnSetEntry(Move.FALSE_SWIPE,1),
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,1),

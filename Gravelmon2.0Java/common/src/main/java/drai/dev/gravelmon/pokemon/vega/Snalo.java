@@ -24,7 +24,7 @@ public class Snalo extends Pokemon {
                 118, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("It is a popular choice of Pokémon amongst office workers due to its power to quickly and efficiently relieve stress."),
+                List.of("It is a popular choice of Pokemon amongst office workers due to its power to quickly and efficiently relieve stress."),
                 List.of(new EvolutionEntry("serplant", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(

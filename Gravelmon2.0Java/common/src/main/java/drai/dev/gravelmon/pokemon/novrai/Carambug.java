@@ -21,7 +21,7 @@ public class Carambug extends drai.dev.gravelmon.pokemon.Pokemon {
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MINERAL),
-                List.of("The amber has melted into a viscous liquid still under control of the tiny bug. Though it is large and appears intimidating, it acts similarly to most weak, colonial Bug-type Pokémon."),
+                List.of("The amber has melted into a viscous liquid still under control of the tiny bug. Though it is large and appears intimidating, it acts similarly to most weak, colonial Bug-type Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),

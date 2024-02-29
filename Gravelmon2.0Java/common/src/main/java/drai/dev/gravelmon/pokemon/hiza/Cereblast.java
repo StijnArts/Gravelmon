@@ -21,7 +21,7 @@ public class Cereblast extends drai.dev.gravelmon.pokemon.Pokemon {
                 270, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Most records about this Pokémon were burned down in a fire. However it is known that Cereblast can control multiples of its own species as a hivemind."),
+                List.of("Most records about this Pokemon were burned down in a fire. However it is known that Cereblast can control multiples of its own species as a hivemind."),
                 List.of(),
                 List.of(      new MoveLearnSetEntry(Move.EERIE_IMPULSE,1),
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,4),

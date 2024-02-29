@@ -17,7 +17,7 @@ public class Dauriasse extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         80),
                 List.of(Ability.INTIMIDATE), Ability.ANGER_POINT,
-                8, 165,
+                15, 165,
                 new Stats(0,2,1,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -45,11 +45,10 @@ public class Dauriasse extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOAK,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dauriasse");

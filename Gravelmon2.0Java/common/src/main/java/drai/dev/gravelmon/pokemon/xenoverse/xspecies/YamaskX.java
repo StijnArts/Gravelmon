@@ -19,7 +19,7 @@ public class YamaskX extends Pokemon {
                 45, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.XENO),
-                List.of("Its calcareous shell resembles an ancient water jar. It is unknown if men's artifacts were inspired by this Pokémon or vice versa."),
+                List.of("Its calcareous shell resembles an ancient water jar. It is unknown if men's artifacts were inspired by this Pokemon or vice versa."),
                 List.of(new EvolutionEntry("cofagrigusx", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(

@@ -20,7 +20,7 @@ public class Drogaster extends drai.dev.gravelmon.pokemon.Pokemon {
                 165, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Drogaster are the result of a failed experiment that employed genetic coding. It's had a terrible impact on the environment, but the Pokémon has no intentions of harm."),
+                List.of("Drogaster are the result of a failed experiment that employed genetic coding. It's had a terrible impact on the environment, but the Pokemon has no intentions of harm."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,1),

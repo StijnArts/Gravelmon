@@ -21,7 +21,7 @@ public class Fumystic extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Born from a mystical fire, these Pokémon can be spotted roaming abandoned sites that possess enigmatic energy. They are regarded as lucky Pokémon since they will guide and protect lost travelers on their journey."),
+                List.of("Born from a mystical fire, these Pokemon can be spotted roaming abandoned sites that possess enigmatic energy. They are regarded as lucky Pokemon since they will guide and protect lost travelers on their journey."),
                 List.of(new EvolutionEntry("fumeseous", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))
                 ),

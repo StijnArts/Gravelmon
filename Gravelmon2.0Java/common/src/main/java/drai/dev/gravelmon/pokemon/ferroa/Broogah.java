@@ -21,7 +21,7 @@ public class Broogah extends drai.dev.gravelmon.pokemon.Pokemon {
                 180, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.HUMAN_LIKE),
-                List.of("An ancient Pokémon that builds tools and armor from stone. Though they have a tough and rugged exterior, they're known to be quite compassionate and cooperative among each other."),
+                List.of("An ancient Pokemon that builds tools and armor from stone. Though they have a tough and rugged exterior, they're known to be quite compassionate and cooperative among each other."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),

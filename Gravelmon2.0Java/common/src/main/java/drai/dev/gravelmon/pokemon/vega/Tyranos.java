@@ -24,7 +24,7 @@ public class Tyranos extends Pokemon {
                 214, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER, EggGroup.FIELD),
-                List.of("A prehistoric Pokémon that was revived by scientists. Despite how heavy it looks, it is actually quite fast."),
+                List.of("A prehistoric Pokemon that was revived by scientists. Despite how heavy it looks, it is actually quite fast."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,1),

@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranOmastar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranOmastar() {
-        super("Omastar",
+    public NovranOmastar(int id) {
+        super(id, "Omastar",
                 Type.ROCK,Type.DRAGON,
                 new Stats(70,
                         60,
@@ -15,7 +15,7 @@ public class NovranOmastar extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         55),
                 List.of(Ability.DAZZLING,Ability.MARVEL_SCALE,Ability.JACKPOT), Ability.JACKPOT,
-                8, 165,
+                10, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -112,14 +112,16 @@ public class NovranOmastar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_BALL,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 40, 50, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Omastar");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

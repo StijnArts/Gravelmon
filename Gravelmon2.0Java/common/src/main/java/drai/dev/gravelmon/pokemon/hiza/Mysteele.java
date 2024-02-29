@@ -21,7 +21,7 @@ public class Mysteele extends drai.dev.gravelmon.pokemon.Pokemon {
                 175, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Because it concentrates all its power on its crystal ball, if it loses its crystal it will lose all its psychic powers. The crystal can awaken the power contained in other Pokémon."),
+                List.of("Because it concentrates all its power on its crystal ball, if it loses its crystal it will lose all its psychic powers. The crystal can awaken the power contained in other Pokemon."),
                 List.of(),
                 List.of(       new MoveLearnSetEntry(Move.CONFUSION,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),

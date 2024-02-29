@@ -20,7 +20,7 @@ public class Torquoise extends drai.dev.gravelmon.pokemon.Pokemon {
                 100, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.MINERAL),
-                List.of("Despite their appearance, Torquoise's shells are composed of glittering ice crystals. Pressure has given this Pokémon's body the properties of real diamonds."),
+                List.of("Despite their appearance, Torquoise's shells are composed of glittering ice crystals. Pressure has given this Pokemon's body the properties of real diamonds."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ROLLOUT,1),

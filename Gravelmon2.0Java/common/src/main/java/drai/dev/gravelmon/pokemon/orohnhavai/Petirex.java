@@ -23,7 +23,7 @@ public class Petirex extends drai.dev.gravelmon.pokemon.Pokemon {
                 72, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("An ancient Pokémon revived from a Big Tooth Fossil. This Pokémon used to roam the lands in ancient times. Scarcity of food was the reason for its extinction."),
+                List.of("An ancient Pokemon revived from a Big Tooth Fossil. This Pokemon used to roam the lands in ancient times. Scarcity of food was the reason for its extinction."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),

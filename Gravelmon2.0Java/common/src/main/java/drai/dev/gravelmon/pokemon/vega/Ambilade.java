@@ -24,7 +24,7 @@ public class Ambilade extends Pokemon {
                 89, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL, EggGroup.MONSTER),
-                List.of("It's tail is incredibly sharp. Strong Pokémon used the tail as a weapon in the Great Pokémon War."),
+                List.of("It's tail is incredibly sharp. Strong Pokemon used the tail as a weapon in the Great Pokemon War."),
                 List.of(new EvolutionEntry("mandiblade", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38"))),
                         new EvolutionEntry("mercenade", EvolutionType.LEVEL_UP, List.of(),

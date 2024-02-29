@@ -24,7 +24,7 @@ public class AristosianBellsprout extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Bellsprout developed glands in its mouth which allow it to spit flames and catch prey more efficiently. It occasionally sets itself on fire while hunting."),
-                List.of(new EvolutionEntry("AristosianWeepingbell", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("AristosianWeepinbell", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SINGE,1),

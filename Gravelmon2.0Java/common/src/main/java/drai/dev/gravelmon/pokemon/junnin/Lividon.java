@@ -19,7 +19,7 @@ public class Lividon extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         70),
                 List.of(Ability.TORRENT), Ability.ANGER_POINT,
-                8, 165,
+                16, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -54,14 +54,15 @@ public class Lividon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOAK,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Lividon");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

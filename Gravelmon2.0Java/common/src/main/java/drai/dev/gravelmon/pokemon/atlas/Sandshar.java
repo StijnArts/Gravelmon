@@ -21,7 +21,7 @@ public class Sandshar extends drai.dev.gravelmon.pokemon.Pokemon {
                 66, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.MONSTER),
-                List.of("Sandshar are highly drowsy Pokémon, which reside docile in a blanket of sand upon the sea bed. They will briefly leave it in order to escape a predator, but otherwise will remain still and unresponsive."),
+                List.of("Sandshar are highly drowsy Pokemon, which reside docile in a blanket of sand upon the sea bed. They will briefly leave it in order to escape a predator, but otherwise will remain still and unresponsive."),
                 List.of(new EvolutionEntry("sharkastle", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
                 ),

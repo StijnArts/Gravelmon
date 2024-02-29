@@ -19,7 +19,7 @@ public class Kaboo extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         110),
                 List.of(Ability.AFTERMATH), Ability.AFTERMATH,
-                8, 165,
+                5, 165,
                 new Stats(0,2,0,0,0,0), 30,
                 0.0,
                 161, ExperienceGroup.FAST,
@@ -55,10 +55,10 @@ public class Kaboo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEMENTO,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

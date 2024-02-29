@@ -21,7 +21,7 @@ public class Sakurovix extends drai.dev.gravelmon.pokemon.Pokemon {
                 270, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("The guardian of Easter Island. It awakens in the spring, and its song causes all Pokémon Eggs in its vicinity to hatch. If it does not awaken, the islanders perform a ritual to rouse it from its slumber."),
+                List.of("The guardian of Easter Island. It awakens in the spring, and its song causes all Pokemon Eggs in its vicinity to hatch. If it does not awaken, the islanders perform a ritual to rouse it from its slumber."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,1),

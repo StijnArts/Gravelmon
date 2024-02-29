@@ -25,7 +25,7 @@ public class Aromutt extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Aromutt has an amazing sense of smell that lets it seek out lost people and things. It is known as the Domestic Pokémon because it can only be found in captivity. It only lives with humans in cities and towns."),
+                List.of("Aromutt has an amazing sense of smell that lets it seek out lost people and things. It is known as the Domestic Pokemon because it can only be found in captivity. It only lives with humans in cities and towns."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),

@@ -17,14 +17,15 @@ public class Vauxee extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         55),
                 List.of(Ability.CUTE_CHARM), Ability.SAND_RUSH,
-                8, 165,
-                new Stats(0,0,0,0,0,1), 0,
+                4, 165,
+                new Stats(0,0,0,0,0,1), 220,
                 0.25,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
                 List.of("Cute and lazy Pokemon, who are very unaware of the power they posses. They often flurry around and scoot up sand, looking for treasure and such. Vauxee are very adventurous and love having fun."),
-                List.of(),
+                List.of(new EvolutionEntry("vauxelle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"200")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,6),
@@ -48,8 +49,8 @@ public class Vauxee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

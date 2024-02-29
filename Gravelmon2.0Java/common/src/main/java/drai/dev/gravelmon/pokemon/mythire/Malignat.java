@@ -21,7 +21,7 @@ public class Malignat extends drai.dev.gravelmon.pokemon.Pokemon {
                 40, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("This Pokémon saps energy from unhappy people. On busy subway trains full of people making their morning commute, many Malignat can be found hooked underneath the train."),
+                List.of("This Pokemon saps energy from unhappy people. On busy subway trains full of people making their morning commute, many Malignat can be found hooked underneath the train."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PESTER,1),

@@ -24,7 +24,7 @@ public class Sluchuu extends Pokemon {
                 151, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS, EggGroup.WATER_1),
-                List.of("Although its appearance resembles PIKACHU, it is in fact a mollusk Pokémon more closely related to SHELLOS and GOOMY. It prefers a solitary lifestyle, and will not hesitate to shock those that disturb it."),
+                List.of("Although its appearance resembles PIKACHU, it is in fact a mollusk Pokemon more closely related to SHELLOS and GOOMY. It prefers a solitary lifestyle, and will not hesitate to shock those that disturb it."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NUZZLE,1),

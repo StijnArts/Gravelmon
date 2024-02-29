@@ -17,8 +17,8 @@ public class Florown extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         75),
                 List.of(Ability.EFFECT_SPORE), Ability.MAGIC_BOUNCE,
-                8, 165,
-                new Stats(1,0,0,2,0,0), 0,
+                14, 165,
+                new Stats(1,0,0,2,0,0), 30,
                 0.125,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -39,10 +39,10 @@ public class Florown extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

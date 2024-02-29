@@ -19,7 +19,7 @@ public class DeltaMunchlax extends Pokemon {
                 78, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by Sparrows413. This Pokémon lays in the fields all day after eating, absorbing nutrients from the sun."),
+                List.of("A Delta Species discovered by Sparrows413. This Pokemon lays in the fields all day after eating, absorbing nutrients from the sun."),
                 List.of(new EvolutionEntry("deltasnorlax", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160")))),
                 List.of(

@@ -19,7 +19,7 @@ public class Bremand extends Pokemon {
                 146, ExperienceGroup.SLOW,
                 70,
                 32, List.of(EggGroup.UNDISCOVERED),
-                List.of("It is said this Pokémon represents the soul of music. It has full control over its voice so that it can adapt to any kind of song."),
+                List.of("It is said this Pokemon represents the soul of music. It has full control over its voice so that it can adapt to any kind of song."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -88,7 +88,7 @@ public class Bremand extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(),
-                        List.of("It is said this Pokémon represents the soul of music. The electrifying solos it plays with its big whiskers will make your hair stand on end."),
+                        List.of("It is said this Pokemon represents the soul of music. The electrifying solos it plays with its big whiskers will make your hair stand on end."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.GROWL,1),
@@ -157,7 +157,7 @@ public class Bremand extends Pokemon {
                                 70,
                                 32, List.of(EggGroup.UNDISCOVERED),
                                 List.of(),
-                                List.of("It is said this Pokémon represents the soul of music. Thumping its chest with two drumsticks, it boost the morale to anyone who's listening."),
+                                List.of("It is said this Pokemon represents the soul of music. Thumping its chest with two drumsticks, it boost the morale to anyone who's listening."),
                                 List.of(),
                                 List.of(
                                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -226,7 +226,7 @@ public class Bremand extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(),
-                        List.of("It is said this Pokémon represents the soul of music. It quietly strims its tail, but occasionally it can play unexpectedly energetic grooves."),
+                        List.of("It is said this Pokemon represents the soul of music. It quietly strims its tail, but occasionally it can play unexpectedly energetic grooves."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.GROWL,1),

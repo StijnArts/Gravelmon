@@ -21,7 +21,7 @@ public class HizianGliscor extends drai.dev.gravelmon.pokemon.Pokemon {
                 179, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It freezes its food with its icy breath inside cave walls, so other Pokémon are unable to take it. When hungry it uses its sharp claws and fangs to easily break through those fronzen walls."),
+                List.of("It freezes its food with its icy breath inside cave walls, so other Pokemon are unable to take it. When hungry it uses its sharp claws and fangs to easily break through those fronzen walls."),
                 List.of(),
                 List.of(     new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,1),

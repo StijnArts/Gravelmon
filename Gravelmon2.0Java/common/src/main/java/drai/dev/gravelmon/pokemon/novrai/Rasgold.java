@@ -21,7 +21,7 @@ public class Rasgold extends drai.dev.gravelmon.pokemon.Pokemon {
                 163, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("It appears to be made of solid gold, but analysis reveals its composition to be closer to copper. It's said it was created by a greedy legendary Pokémon to guard its treasure hoard."),
+                List.of("It appears to be made of solid gold, but analysis reveals its composition to be closer to copper. It's said it was created by a greedy legendary Pokemon to guard its treasure hoard."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MUD_SPORT,1),

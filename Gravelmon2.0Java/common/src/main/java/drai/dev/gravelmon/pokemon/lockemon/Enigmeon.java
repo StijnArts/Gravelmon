@@ -19,7 +19,7 @@ public class Enigmeon extends Pokemon {
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
                 35, List.of(EggGroup.FIELD),
-                List.of("The origins of this Pokémon remain shrouded in mystery. While it evolves from the use of a Mist Stone, there is no record of Enigmeon existing at any point in the past."),
+                List.of("The origins of this Pokemon remain shrouded in mystery. While it evolves from the use of a Mist Stone, there is no record of Enigmeon existing at any point in the past."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MIST,1),

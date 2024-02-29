@@ -1,0 +1,130 @@
+{
+  "implemented": true,
+  "name": "seviianfeebas",
+  "nationalPokedexNumber": 349,
+  "primaryType": "water",
+  "secondaryType": "ground",
+  "abilities": [
+    "swiftswim",
+    "oblivious",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 15,
+    "defence": 20,
+    "special_attack": 10,
+    "special_defence": 55,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 40,
+  "experienceGroup": "erratic",
+  "eggCycles": 51,
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "moves": [
+    "1:splash",
+    "15:tackle",
+    "30:flail",
+    "tm:bulldoze",
+    "tm:dig",
+    "tm:drainingkiss",
+    "tm:facade",
+    "tm:flipturn",
+    "tm:hiddenpower",
+    "tm:irontail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:sandstorm",
+    "tm:scald",
+    "tm:sleeptalksound",
+    "tm:snowscape",
+    "tm:substitute",
+    "tm:surf",
+    "tm:toxic",
+    "egg:captivate",
+    "egg:confuseray",
+    "egg:dazzlinggleam",
+    "egg:dragonbreath",
+    "egg:haze",
+    "egg:hypnosis",
+    "egg:irontail",
+    "egg:mirrorcoat",
+    "egg:mist",
+    "egg:mudshot",
+    "egg:mudsport",
+    "egg:tickle"  ],
+  "labels": [
+    "radicalred",
+    "gen3",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.seviianfeebas.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "seviianfeebas_seviianmilotic",
+      "variant": "level_up",
+      "result": "seviianmilotic",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:prism_scale"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 74,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

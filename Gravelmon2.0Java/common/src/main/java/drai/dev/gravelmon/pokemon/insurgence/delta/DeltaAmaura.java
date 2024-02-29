@@ -19,7 +19,7 @@ public class DeltaAmaura extends Pokemon {
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by Steads42. This Pokémon floats around unnoticed in the ocean until it comes into contact with humans and greets them."),
+                List.of("A Delta Species discovered by Steads42. This Pokemon floats around unnoticed in the ocean until it comes into contact with humans and greets them."),
                 List.of(new EvolutionEntry("deltaaurorus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))),

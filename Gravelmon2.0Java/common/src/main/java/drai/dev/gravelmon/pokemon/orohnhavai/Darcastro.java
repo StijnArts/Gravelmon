@@ -23,7 +23,7 @@ public class Darcastro extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
-                List.of("These Pokémon soar across the land, compelling local Pokemon to rampage around. Sightings of them are immediately followed with city-wide warnings. In Havai, they are seen as superiors to all Dragon-type Pokémon. It is very difficult to gain trust and loyalty from Darcastro. They do not like taking orders from anyone and rather do things their own way. Once trust is gained, they can be the most loyal partner to a Trainer."),
+                List.of("These Pokemon soar across the land, compelling local Pokemon to rampage around. Sightings of them are immediately followed with city-wide warnings. In Havai, they are seen as superiors to all Dragon-type Pokemon. It is very difficult to gain trust and loyalty from Darcastro. They do not like taking orders from anyone and rather do things their own way. Once trust is gained, they can be the most loyal partner to a Trainer."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OROHNHAVAI

@@ -20,7 +20,7 @@ public class Batornado extends drai.dev.gravelmon.pokemon.Pokemon {
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FLYING),
-                List.of("A single flap from their wings can destroy a tree's canopy. They are known to feed almost strictly on berries, but Batornado will viciously bite any Pokémon that approaches it."),
+                List.of("A single flap from their wings can destroy a tree's canopy. They are known to feed almost strictly on berries, but Batornado will viciously bite any Pokemon that approaches it."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEECH_LIFE,1),

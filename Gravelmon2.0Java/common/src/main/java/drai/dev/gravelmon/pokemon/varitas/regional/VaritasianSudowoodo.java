@@ -23,7 +23,7 @@ public class VaritasianSudowoodo extends drai.dev.gravelmon.pokemon.Pokemon {
                 144, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("Despite appearing to be a tree, its body is closer to rocks and stones. It's so popular with the elderly that there's a magazine devoted to this Pokémon. Fans obsess over the particular length and angle of its arms."),
+                List.of("Despite appearing to be a tree, its body is closer to rocks and stones. It's so popular with the elderly that there's a magazine devoted to this Pokemon. Fans obsess over the particular length and angle of its arms."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,1),

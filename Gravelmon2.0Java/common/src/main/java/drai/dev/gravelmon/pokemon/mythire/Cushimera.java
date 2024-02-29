@@ -21,7 +21,7 @@ public class Cushimera extends drai.dev.gravelmon.pokemon.Pokemon {
                 161, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
-                List.of("Its tail looks like a mouth lined with razor teeth, but it's just for show; this Pokémon prefers to shy away from conflict. In the presence of children, it becomes placid and will not try to escape."),
+                List.of("Its tail looks like a mouth lined with razor teeth, but it's just for show; this Pokemon prefers to shy away from conflict. In the presence of children, it becomes placid and will not try to escape."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),

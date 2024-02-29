@@ -19,14 +19,16 @@ public class Reptling extends drai.dev.gravelmon.pokemon.Pokemon {
                         34,
                         78),
                 List.of(Ability.OVERGROW), Ability.HUSTLE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 45,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Reptling possesses both reptilian and avian traits. Some say that, millions of years ago, it gained its feathers and wings to survive the attacks of predators."),
-                List.of(),
+                List.of(new EvolutionEntry("rapteror", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.SEEDSHOT,4),
@@ -91,8 +93,8 @@ public class Reptling extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEADBUTT,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

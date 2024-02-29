@@ -19,7 +19,7 @@ public class Isopanzer extends drai.dev.gravelmon.pokemon.Pokemon {
                         96,
                         64),
                 List.of(Ability.HEAVY_METAL,Ability.BATTLE_ARMOR,Ability.BOMBARDIER), Ability.BOMBARDIER,
-                8, 165,
+                19, 165,
                 new Stats(0,0,3,0,0,0), 30,
                 0.5,
                 223, ExperienceGroup.MEDIUM_SLOW,
@@ -86,10 +86,10 @@ public class Isopanzer extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC_THREAD,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

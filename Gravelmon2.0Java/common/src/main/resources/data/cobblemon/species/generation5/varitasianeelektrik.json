@@ -1,0 +1,143 @@
+{
+  "implemented": true,
+  "name": "varitasianeelektrik",
+  "nationalPokedexNumber": 603,
+  "primaryType": "ground",
+  "secondaryType": "water",
+  "abilities": [
+    "sapsipper",
+    "h:sapsipper"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 85,
+    "defence": 70,
+    "special_attack": 75,
+    "special_defence": 70,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:leechlife",
+    "9:bind",
+    "19:acid",
+    "29:dig",
+    "44:waterpulse",
+    "54:coil",
+    "59:aquatail",
+    "64:gastroacid",
+    "69:earthquake",
+    "74:thrash",
+    "tm:bind",
+    "tm:superfang",
+    "tm:snoresound",
+    "tm:gigadrain",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:signalbeam",
+    "tm:bounce",
+    "tm:shockwave",
+    "tm:gastroacid",
+    "tm:magnetrise",
+    "tm:aquatail",
+    "tm:throatchop",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:thunder",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:lightscreen",
+    "tm:rest",
+    "tm:substitute",
+    "tm:protect",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:facade",
+    "tm:uturn",
+    "tm:flashcannon",
+    "tm:chargebeam",
+    "tm:roundsound",
+    "tm:acrobatics",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:confide"  ],
+  "labels": [
+    "varitas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.varitasianeelektrik.desc"
+  ],
+  "preEvolution": "varitasiantynamo",
+  "evolutions": [
+    {
+      "id": "varitasianeelektrik_VaritasianEelektross",
+      "variant": "item_interact",
+      "result": "VaritasianEelektross",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone"   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

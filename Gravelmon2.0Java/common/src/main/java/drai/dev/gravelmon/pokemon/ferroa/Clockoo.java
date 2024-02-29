@@ -21,7 +21,7 @@ public class Clockoo extends drai.dev.gravelmon.pokemon.Pokemon {
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("A nervous Pokémon always fretting about as if it has some overdue business. Every night for a single hour, however, it focuses itself and prowls for those lost in the woods with deadly precision."),
+                List.of("A nervous Pokemon always fretting about as if it has some overdue business. Every night for a single hour, however, it focuses itself and prowls for those lost in the woods with deadly precision."),
                 List.of(new EvolutionEntry("nocturvian", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))
                 ),

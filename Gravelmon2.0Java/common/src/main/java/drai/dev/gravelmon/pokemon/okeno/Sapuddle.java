@@ -20,7 +20,7 @@ public class Sapuddle extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
-                List.of("They need humidity to survive. When the weather becomes too hot, they hibernate in burrows. It defeats Pokémon by grabbing them with its tongue and forcing them against its poisonous body."),
+                List.of("They need humidity to survive. When the weather becomes too hot, they hibernate in burrows. It defeats Pokemon by grabbing them with its tongue and forcing them against its poisonous body."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OKENO),

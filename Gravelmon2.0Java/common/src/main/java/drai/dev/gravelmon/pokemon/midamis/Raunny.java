@@ -17,14 +17,15 @@ public class Raunny extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         35),
                 List.of(Ability.QUICK_FEET), Ability.SPEED_BOOST,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 215,
                 0.5,
                 65, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.FIELD),
                 List.of("Most definitely the fastest family of Rock Pokemon known so far. These Pokemon combine their agility with their brute force to knock down opponents in a flash. Raunny are found mostly in mountains where they feed on vegetation, although are also sometimes known to eat pebbles."),
-                List.of(),
+                List.of(new EvolutionEntry("raudren", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.ROLLOUT,8),
@@ -47,9 +48,8 @@ public class Raunny extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STONE_EDGE,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

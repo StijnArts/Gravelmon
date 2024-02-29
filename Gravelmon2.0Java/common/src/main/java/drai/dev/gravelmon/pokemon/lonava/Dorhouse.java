@@ -15,14 +15,16 @@ public class Dorhouse extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         72),
                 List.of(Ability.RUN_AWAY), Ability.PICKUP,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 51, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Dorhouse carry around a hollowed wooden stump, which at night they climb inside and sleep. Locals know not to disturb the stumps should they find one, instead leaving fruit offerings outside."),
-                List.of(),
+                List.of(new EvolutionEntry("nomadent", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,4),
@@ -40,10 +42,10 @@ public class Dorhouse extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,50)                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

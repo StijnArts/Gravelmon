@@ -19,7 +19,7 @@ public class Artifish extends Pokemon {
                 165, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.MONSTER, EggGroup.FAIRY),
-                List.of("Despite its predator-like appearance, Artifish is very kind and laid back. It uses its Poké Ball bait to play with other Pokémon."),
+                List.of("Despite its predator-like appearance, Artifish is very kind and laid back. It uses its Poke Ball bait to play with other Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.RAGE,1),

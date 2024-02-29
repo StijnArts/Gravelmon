@@ -23,7 +23,7 @@ public class Mudrake extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.DRAGON),
-                List.of("One of the earliest Pokémon found in the mountains of Migard. The intelligence of a Mudrake can be seen from its ability to carve symbols on cave walls. The bone-like horns on its head may break after aggressive fights with its opponents."),
+                List.of("One of the earliest Pokemon found in the mountains of Migard. The intelligence of a Mudrake can be seen from its ability to carve symbols on cave walls. The bone-like horns on its head may break after aggressive fights with its opponents."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),

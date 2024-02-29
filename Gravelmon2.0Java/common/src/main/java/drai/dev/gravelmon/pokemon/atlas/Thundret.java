@@ -21,7 +21,7 @@ public class Thundret extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("When it runs its quills rub together, violently charging up large amounts of static electricity. When levels get too high it must discharge it, but even though it never seems to notice, it is usually on nearby people or Pokémon."),
+                List.of("When it runs its quills rub together, violently charging up large amounts of static electricity. When levels get too high it must discharge it, but even though it never seems to notice, it is usually on nearby people or Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BARRIER,1),

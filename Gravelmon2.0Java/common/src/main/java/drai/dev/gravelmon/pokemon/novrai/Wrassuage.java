@@ -21,7 +21,7 @@ public class Wrassuage extends drai.dev.gravelmon.pokemon.Pokemon {
                 177, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
-                List.of("Not only does it keep other Pokémon clean, it also heals their wounds. They are sometimes employed to clean dead skin cells off of spa-goers."),
+                List.of("Not only does it keep other Pokemon clean, it also heals their wounds. They are sometimes employed to clean dead skin cells off of spa-goers."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LIFE_DEW,1),

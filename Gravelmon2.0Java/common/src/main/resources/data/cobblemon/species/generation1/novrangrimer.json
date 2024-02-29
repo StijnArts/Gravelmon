@@ -1,0 +1,173 @@
+{
+  "implemented": true,
+  "name": "novrangrimer",
+  "nationalPokedexNumber": 88,
+  "primaryType": "poison",
+  "secondaryType": "ground",
+  "abilities": [
+    "sandforce",
+    "stickyhold",
+    "h:flareboost"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 80,
+    "special_defence": 50,
+    "speed": 25
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:mudsport",
+    "4:sandattack",
+    "7:mudslap",
+    "12:sandstorm",
+    "15:sludge",
+    "18:mudbomb",
+    "21:minimize",
+    "23:tarshot",
+    "29:scorchingsands",
+    "34:sludgewave",
+    "37:acidarmor",
+    "40:belch",
+    "48:shoreup",
+    "tm:recycle",
+    "tm:firepunch",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:earthpower",
+    "tm:knockoff",
+    "tm:gunkshot",
+    "tm:foulplay",
+    "tm:throatchop",
+    "tm:suckerpunch",
+    "tm:toxicthread",
+    "tm:snoresound",
+    "tm:focuspunch",
+    "tm:poweruppunch",
+    "tm:terrainpulse",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:gigadrain",
+    "tm:earthquake",
+    "tm:return",
+    "tm:shadowball",
+    "tm:painsplit",
+    "tm:sludgewave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:rocksmash",
+    "tm:ancientpower",
+    "tm:curse",
+    "tm:explosion",
+    "tm:payback",
+    "tm:stealthrock",
+    "tm:bulldoze",
+    "tm:venoshock",
+    "tm:rockslide",
+    "tm:infestation",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:naturalgift",
+    "tm:darkpulse",
+    "tm:confide",
+    "tm:scorchingsands",
+    "tm:smackdown",
+    "tm:venomdrench",
+    "tm:attract",
+    "tm:hex",
+    "tm:strength",
+    "tm:clearsmog",
+    "tm:haze",
+    "tm:imprison",
+    "tm:sandtomb",
+    "tm:incinerate",
+    "tm:acidspray",
+    "tm:lick"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.novrangrimer.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "novrangrimer_muk",
+      "variant": "level_up",
+      "result": "muk",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.16875,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

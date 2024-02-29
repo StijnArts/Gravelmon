@@ -19,7 +19,7 @@ public class DeltaLotad extends Pokemon {
                 44, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by Kalorian. It is known to entertain small Pokémon by performing magic tricks for them."),
+                List.of("A Delta Species discovered by Kalorian. It is known to entertain small Pokemon by performing magic tricks for them."),
                 List.of(new EvolutionEntry("deltalombre", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(

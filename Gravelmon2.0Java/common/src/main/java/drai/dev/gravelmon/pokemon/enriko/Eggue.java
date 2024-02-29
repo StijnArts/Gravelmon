@@ -21,7 +21,7 @@ public class Eggue extends drai.dev.gravelmon.pokemon.Pokemon {
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.AMORPHOUS),
-                List.of("It is a bird Pokémon's worst nightmare to find their eggs replaced with Eggue. Anything pulled into its shell is impossible to get back."),
+                List.of("It is a bird Pokemon's worst nightmare to find their eggs replaced with Eggue. Anything pulled into its shell is impossible to get back."),
                 List.of(new EvolutionEntry("vomelet", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\"")))

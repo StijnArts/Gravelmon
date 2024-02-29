@@ -20,7 +20,7 @@ public class Squeezoa extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_3),
-                List.of("The underside of its body is composed of many poisonous tentacles and frills — touching them results in stinging pain. However, it is a gentle Pokémon and people have learned to ride it across the seas."),
+                List.of("The underside of its body is composed of many poisonous tentacles and frills — touching them results in stinging pain. However, it is a gentle Pokemon and people have learned to ride it across the seas."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),

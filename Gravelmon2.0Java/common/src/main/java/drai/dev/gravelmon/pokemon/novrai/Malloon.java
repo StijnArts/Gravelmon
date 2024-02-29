@@ -21,7 +21,7 @@ public class Malloon extends drai.dev.gravelmon.pokemon.Pokemon {
                 170, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("A gentle, gregarious Pokémon which is loved by many throughout Novrai. Great flocks of them bob up and down through the sky, unbothered even during harsh lightning storms."),
+                List.of("A gentle, gregarious Pokemon which is loved by many throughout Novrai. Great flocks of them bob up and down through the sky, unbothered even during harsh lightning storms."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GUST,1),

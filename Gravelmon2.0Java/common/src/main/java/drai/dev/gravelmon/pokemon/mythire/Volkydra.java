@@ -21,7 +21,7 @@ public class Volkydra extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
-                List.of("If it winds up in danger, this Pokémon paralyzes its enemies with a single glare, then escapes into the grass. With enough focus from its eyes, this Pokémon can light fires from a distance."),
+                List.of("If it winds up in danger, this Pokemon paralyzes its enemies with a single glare, then escapes into the grass. With enough focus from its eyes, this Pokemon can light fires from a distance."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

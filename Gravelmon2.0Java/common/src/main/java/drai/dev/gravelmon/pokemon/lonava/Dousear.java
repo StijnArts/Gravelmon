@@ -15,14 +15,16 @@ public class Dousear extends drai.dev.gravelmon.pokemon.Pokemon {
                         53,
                         40),
                 List.of(Ability.STEAMPOWER), Ability.WATER_ABSORB,
-                8, 165,
-                new Stats(0,0,0,2,0,0), 0,
+                9, 165,
+                new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 144, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.MINERAL),
                 List.of("Absorbing water through their porous scales, Dousear keep the environment around them heavily misted. All that pass through its mist cite the soothing effect it has."),
-                List.of(),
+                List.of(new EvolutionEntry("geyseror", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,6),
@@ -71,9 +73,9 @@ public class Dousear extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRINE,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 29, 54, 1.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

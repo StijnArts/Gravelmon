@@ -19,7 +19,7 @@ public class Glacieros extends Pokemon {
                 140, ExperienceGroup.ERRATIC,
                 70,
                 48, List.of(EggGroup.MONSTER, EggGroup.FIELD),
-                List.of("Glacieros shares a common ancestor with the Rhyhorn family. The horn is encased in ice, which makes up about half of the total body weight of these Pokémon."),
+                List.of("Glacieros shares a common ancestor with the Rhyhorn family. The horn is encased in ice, which makes up about half of the total body weight of these Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DRILL_RUN,1),

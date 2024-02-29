@@ -19,7 +19,7 @@ public class AyreianCinccino extends Pokemon {
                 165, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Its body secretes oil that this Pokémon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff."),
+                List.of("Its body secretes oil that this Pokemon spreads over its nest as a coating to protect it from dust. Cinccino won't tolerate even a speck of the stuff."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGICAL_LEAF, 1),

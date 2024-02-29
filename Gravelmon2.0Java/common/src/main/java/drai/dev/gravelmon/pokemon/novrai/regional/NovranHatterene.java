@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranHatterene extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranHatterene() {
-        super("Hatterene",
+    public NovranHatterene(int dex) {
+        super(dex, "Hatterene",
                 Type.GRASS,Type.FAIRY,
                 new Stats(57,
                         90,
@@ -15,7 +15,7 @@ public class NovranHatterene extends drai.dev.gravelmon.pokemon.Pokemon {
                         103,
                         29),
                 List.of(Ability.SYMBIOSIS,Ability.HARVEST,Ability.GRASSY_SURGE), Ability.GRASSY_SURGE,
-                8, 165,
+                21, 165,
                 new Stats(0,0,0,3,0,0), 45,
                 0.25,
                 230, ExperienceGroup.MEDIUM_FAST,
@@ -106,8 +106,8 @@ public class NovranHatterene extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_GLIDE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 42, 55, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

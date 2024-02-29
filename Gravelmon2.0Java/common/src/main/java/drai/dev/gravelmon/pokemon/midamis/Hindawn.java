@@ -17,8 +17,8 @@ public class Hindawn extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         90),
                 List.of(Ability.LEVITATE), Ability.CURSED_BODY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                13, 165,
+                new Stats(0,0,0,0,0,0), 140,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -38,9 +38,9 @@ public class Hindawn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MIRACLE_EYE,52)                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 17, 36, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

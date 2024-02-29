@@ -19,7 +19,7 @@ public class DeltaKirlia extends Pokemon {
                 97, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon loves dancing to swing music. As it grows more excited from dancing, it generates sparks and snow begins to fall within the surrounding area."),
+                List.of("This Pokemon loves dancing to swing music. As it grows more excited from dancing, it generates sparks and snow begins to fall within the surrounding area."),
                 List.of(new EvolutionEntry("deltagardevoir", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30"))),
                         new EvolutionEntry("deltagallade", EvolutionType.ITEM_INTERACT, false, List.of(),

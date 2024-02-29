@@ -24,7 +24,7 @@ public class Llampas extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD, EggGroup.GRASS),
-                List.of("Llampas are cheerful Pokémon with carefree attitudes, which makes them a common choice for new trainers. Although, the Pollen from their fur is especially strong, causing anyone nearby to sneeze violently."),
+                List.of("Llampas are cheerful Pokemon with carefree attitudes, which makes them a common choice for new trainers. Although, the Pollen from their fur is especially strong, causing anyone nearby to sneeze violently."),
                 List.of(new EvolutionEntry("danfluff", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

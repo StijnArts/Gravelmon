@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranCranidos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranCranidos() {
-        super("Cranidos",
+    public NovranCranidos(int dex) {
+        super(dex, "Cranidos",
                 Type.ROCK,Type.FIRE,
                 new Stats(67,
                         115,
@@ -15,14 +15,15 @@ public class NovranCranidos extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         58),
                 List.of(Ability.MOUNTAINEER), Ability.RELENTLESS,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.5,
                 70, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("This form of Cranidos adapted to live near ancient volcanoes and gained flaming-hot headbutts. It can keep its footing even in the midst of an eruption."),
-                List.of(),
+                List.of(new EvolutionEntry("novranrampardos", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,6),
@@ -114,8 +115,8 @@ public class NovranCranidos extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACCELEROCK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 11, 36, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

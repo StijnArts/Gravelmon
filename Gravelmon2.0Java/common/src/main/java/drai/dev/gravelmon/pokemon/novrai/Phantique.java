@@ -21,7 +21,7 @@ public class Phantique extends drai.dev.gravelmon.pokemon.Pokemon {
                 171, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("If its clay pot is shattered, it is banished permanently to the spirit world. Sometimes, museums will put this Pokémon in their exhibits."),
+                List.of("If its clay pot is shattered, it is banished permanently to the spirit world. Sometimes, museums will put this Pokemon in their exhibits."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),

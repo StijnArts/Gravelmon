@@ -1,0 +1,153 @@
+{
+  "implemented": true,
+  "name": "bluffin",
+  "nationalPokedexNumber": 1045,
+  "primaryType": "ice",
+  "abilities": [
+    "keeneye",
+    "h:superluck"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 43,
+    "defence": 45,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 235,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 57,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:pound",
+    "1:tickle",
+    "4:peck",
+    "7:powdersnow",
+    "11:swiftcosmic",
+    "14:icywind",
+    "17:mist",
+    "24:doubleteam",
+    "27:aurorabeam",
+    "31:featherdance",
+    "34:tailwind",
+    "37:drillpeck",
+    "41:roost",
+    "44:blizzard",
+    "47:mirrormove",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:echoedvoicesound",
+    "tm:endure",
+    "tm:frostbreath",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:sleeptalksound",
+    "tm:waterpulse",
+    "tutor:avalanche",
+    "tutor:endeavor",
+    "tutor:healbellsound",
+    "tutor:helpinghand",
+    "tutor:hypervoicesound",
+    "tutor:icywind",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:ominouswind",
+    "tutor:recycle",
+    "tutor:steelwing",
+    "tutor:swiftcosmic",
+    "tutor:tailwind",
+    "tutor:uproar",
+    "egg:agility",
+    "egg:hurricane",
+    "egg:psychup",
+    "egg:skyattack",
+    "egg:weatherball",
+    "egg:whirlwind"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bluffin.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "bluffin_burrmudail",
+      "variant": "level_up",
+      "result": "burrmudail",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 22,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

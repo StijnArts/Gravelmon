@@ -21,13 +21,13 @@ public class Eldorchard extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         20),
                 List.of(Ability.HARVEST), Ability.NATURAL_CURE,
-                8, 165,
+                15, 165,
                 new Stats(0,1,1,0,0,0), 45,
                 1.0,
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("Said to be the spirit of the oldest tree in an apple orchard, local farmers pay tribute to Eldorchard on winter's eve by offering up their last mug of mulled cider. If this Pokémon ever perishes, its entire orchard will perish too."),
+                List.of("Said to be the spirit of the oldest tree in an apple orchard, local farmers pay tribute to Eldorchard on winter's eve by offering up their last mug of mulled cider. If this Pokemon ever perishes, its entire orchard will perish too."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -50,10 +50,10 @@ public class Eldorchard extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ORCHARDSEMBRACE,64)                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 54, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_AUTUMN,Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -21,7 +21,7 @@ public class Icee extends drai.dev.gravelmon.pokemon.Pokemon {
                 75, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.DRAGON),
-                List.of("These Pokémon live in such large groups, sometimes they can cover cave floors entirely. They grab passerby's legs and freeze their toes when happy."),
+                List.of("These Pokemon live in such large groups, sometimes they can cover cave floors entirely. They grab passerby's legs and freeze their toes when happy."),
                 List.of(new EvolutionEntry("fraxeel", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))
                 ),

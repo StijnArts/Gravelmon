@@ -21,7 +21,7 @@ public class Avocallite extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Through evolution Avocallite has gained the power of levitation, helping it keep far from the reach of predators. It's unknown which part of Avocallite is the Pokémon: the seed, the fruit slice, or both."),
+                List.of("Through evolution Avocallite has gained the power of levitation, helping it keep far from the reach of predators. It's unknown which part of Avocallite is the Pokemon: the seed, the fruit slice, or both."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.LONAVA),

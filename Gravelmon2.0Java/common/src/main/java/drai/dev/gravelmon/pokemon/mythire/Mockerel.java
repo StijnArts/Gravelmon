@@ -21,7 +21,7 @@ public class Mockerel extends drai.dev.gravelmon.pokemon.Pokemon {
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("Though it looks like a fish, it's actually a Grass Pokémon that hunts in the water. It tangles up prey with the leaf on its belly when they are enticed by its sweet smell."),
+                List.of("Though it looks like a fish, it's actually a Grass Pokemon that hunts in the water. It tangles up prey with the leaf on its belly when they are enticed by its sweet smell."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),

@@ -1,34 +1,27 @@
 package drai.dev.gravelmon.games.pokemmo;
 
 import drai.dev.gravelmon.pokemon.atlas.*;
-import drai.dev.gravelmon.pokemon.avoris.*;
-import drai.dev.gravelmon.pokemon.avoris.Barkindle;
-import drai.dev.gravelmon.pokemon.avoris.Nawdile;
-import drai.dev.gravelmon.pokemon.avoris.Watuber;
-import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.atlas.Akrovern;
+import drai.dev.gravelmon.pokemon.atlas.Albivore;
+import drai.dev.gravelmon.pokemon.atlas.Carosella;
+import drai.dev.gravelmon.pokemon.atlas.Eletize;
+import drai.dev.gravelmon.pokemon.atlas.Emperiegle;
+import drai.dev.gravelmon.pokemon.atlas.Eriegle;
+import drai.dev.gravelmon.pokemon.atlas.Glozard;
+import drai.dev.gravelmon.pokemon.atlas.Karaggon;
+import drai.dev.gravelmon.pokemon.atlas.Luvenny;
+import drai.dev.gravelmon.pokemon.atlas.Meritrot;
+import drai.dev.gravelmon.pokemon.atlas.Nursee;
+import drai.dev.gravelmon.pokemon.atlas.Nurturse;
+import drai.dev.gravelmon.pokemon.atlas.Radiaze;
+import drai.dev.gravelmon.pokemon.atlas.Radizorb;
+import drai.dev.gravelmon.pokemon.atlas.Spartzle;
+import drai.dev.gravelmon.pokemon.atlas.Stalliot;
+import drai.dev.gravelmon.pokemon.atlas.Suavenny;
+import drai.dev.gravelmon.pokemon.atlas.Trillowee;
+import drai.dev.gravelmon.pokemon.atlas.Turtelisk;
+import drai.dev.gravelmon.pokemon.atlas.Wilspri;
 import drai.dev.gravelmon.pokemon.orohnhavai.*;
-import drai.dev.gravelmon.pokemon.orohnhavai.Akrovern;
-import drai.dev.gravelmon.pokemon.orohnhavai.Albivore;
-import drai.dev.gravelmon.pokemon.orohnhavai.Carosella;
-import drai.dev.gravelmon.pokemon.orohnhavai.Eletize;
-import drai.dev.gravelmon.pokemon.orohnhavai.Emperiegle;
-import drai.dev.gravelmon.pokemon.orohnhavai.Eriegle;
-import drai.dev.gravelmon.pokemon.orohnhavai.Glozard;
-import drai.dev.gravelmon.pokemon.orohnhavai.Karaggon;
-import drai.dev.gravelmon.pokemon.orohnhavai.Luvenny;
-import drai.dev.gravelmon.pokemon.orohnhavai.Meritrot;
-import drai.dev.gravelmon.pokemon.orohnhavai.Nursee;
-import drai.dev.gravelmon.pokemon.orohnhavai.Nurturse;
-import drai.dev.gravelmon.pokemon.orohnhavai.Radiaze;
-import drai.dev.gravelmon.pokemon.orohnhavai.Radizorb;
-import drai.dev.gravelmon.pokemon.orohnhavai.Spartzle;
-import drai.dev.gravelmon.pokemon.orohnhavai.Stalliot;
-import drai.dev.gravelmon.pokemon.orohnhavai.Suavenny;
-import drai.dev.gravelmon.pokemon.orohnhavai.Trillowee;
-import drai.dev.gravelmon.pokemon.orohnhavai.Turtelisk;
-import drai.dev.gravelmon.pokemon.orohnhavai.Wilspri;
-import drai.dev.gravelmon.pokemon.orohnhavai.regional.*;
-import drai.dev.gravelmon.pokemon.qamor.*;
 
 public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
     public OrohnHavai() {
@@ -49,10 +42,8 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Arrocknid());
 //        pokemon.add(new Axeleraze());
 //        pokemon.add(new Barbenin());
-//        pokemon.add(new Barkindle());
 //        pokemon.add(new Bonzire());
 //        pokemon.add(new Bonzumi());
-//        pokemon.add(new Brambarb());
 //        pokemon.add(new Burnuki());
 //        pokemon.add(new Camofirma());
 //        pokemon.add(new Camohut());
@@ -62,7 +53,7 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Chainector());
 //        var chemecko = new Chemecko();
 //        pokemon.add(chemecko);
-//        pokemon.add(new AvorianChemecko(chemecko.getPokedexNumber()));
+////        pokemon.add(new AvorianChemecko(chemecko.getPokedexNumber()));
 //        pokemon.add(new Chenileaf());
 //        pokemon.add(new Chillimp());
 //        pokemon.add(new Chiroo());
@@ -170,7 +161,6 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Rivulcred());
 //        pokemon.add(new Rocroset());
 //        pokemon.add(new Ruffski());
-//        pokemon.add(new Sandygast());
 //        pokemon.add(new Scoprikon());
 //        pokemon.add(new Sedavlin());
 //        pokemon.add(new Sensarat());
@@ -187,11 +177,9 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Stegovore());
 //        pokemon.add(new Stegrump());
 //        pokemon.add(new Suavenny());
-//        pokemon.add(new Swinub());
 //        pokemon.add(new Tadapt());
 //        pokemon.add(new Tasticky());
 //        pokemon.add(new Tekichu());
-//        pokemon.add(new Territore());
 //        pokemon.add(new Therasloth());
 //        pokemon.add(new Thistling());
 //        pokemon.add(new Thornment());
@@ -212,10 +200,11 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Vortexol());
 //        pokemon.add(new Vorvosip());
 //        pokemon.add(new Warblu());
+//        pokemon.add(new Territore());
 //        pokemon.add(new Warshrike());
-//        pokemon.add(new Watuber());
-//        pokemon.add(new Wicktrive());
+//        pokemon.add(new Brambarb());
 //        pokemon.add(new Wickvine());
+//        pokemon.add(new Wicktrive());
 //        pokemon.add(new Wilspri());
 //        pokemon.add(new Winklit());
 //        pokemon.add(new Withettle());

@@ -24,7 +24,7 @@ public class Ganimede extends Pokemon {
                 215, ExperienceGroup.SLOW,
                 70,
                 100, List.of(EggGroup.UNDISCOVERED),
-                List.of("A Pokémon that can confuse the senses. It continues to chase after prey until the prey collapses from exhaustion."),
+                List.of("A Pokemon that can confuse the senses. It continues to chase after prey until the prey collapses from exhaustion."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSION,1),

@@ -23,7 +23,7 @@ public class VaritasianOnix extends drai.dev.gravelmon.pokemon.Pokemon {
                 77, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("Onix has a magnet in its brain. It acts as a compass so that this Pokémon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother."),
+                List.of("Onix has a magnet in its brain. It acts as a compass so that this Pokemon does not lose direction while it is tunneling. As it grows older, its body becomes increasingly rounder and smoother."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MUD_SPORT,1),

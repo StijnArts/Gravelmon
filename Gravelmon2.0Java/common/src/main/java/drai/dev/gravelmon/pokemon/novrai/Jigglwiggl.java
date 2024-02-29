@@ -21,7 +21,7 @@ public class Jigglwiggl extends drai.dev.gravelmon.pokemon.Pokemon {
                 52, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("An odd, fungal Pokémon that lives under the sea. Its body is sweet, but contains spores that begin to grow into new Jigglwiggl once ingested."),
+                List.of("An odd, fungal Pokemon that lives under the sea. Its body is sweet, but contains spores that begin to grow into new Jigglwiggl once ingested."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),

@@ -17,7 +17,7 @@ public class Bidengel extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         90),
                 List.of(Ability.LEVITATE), Ability.CURSED_BODY,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.125,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -49,14 +49,14 @@ public class Bidengel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 47, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Bidengel");
+        setCanFly(true);
 
     }
 

@@ -19,8 +19,8 @@ public class Suckeeto extends drai.dev.gravelmon.pokemon.Pokemon {
                         98,
                         82),
                 List.of(Ability.OWN_TEMPO,Ability.POWERLEECH,Ability.SWARM), Ability.SWARM,
-                8, 165,
-                new Stats(0,0,2,0,1,0), 0,
+                5, 165,
+                new Stats(0,0,2,0,1,0), 140,
                 0.5,
                 161, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -115,14 +115,14 @@ public class Suckeeto extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACID_SPRAY,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 23, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Suckeeto");
+        setCanFly(true);
 
     }
 

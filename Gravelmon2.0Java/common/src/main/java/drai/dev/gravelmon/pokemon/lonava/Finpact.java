@@ -15,7 +15,7 @@ public class Finpact extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         75),
                 List.of(Ability.ROCK_HEAD), Ability.SWIFT_SWIM,
-                8, 165,
+                7, 165,
                 new Stats(0,0,2,0,0,0), 75,
                 0.5,
                 161, ExperienceGroup.ERRATIC,
@@ -84,8 +84,8 @@ public class Finpact extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 30, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

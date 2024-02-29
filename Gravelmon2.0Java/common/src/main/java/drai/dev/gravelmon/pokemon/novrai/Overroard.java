@@ -21,7 +21,7 @@ public class Overroard extends drai.dev.gravelmon.pokemon.Pokemon {
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
-                List.of("Smaller Pokémon would once ride on its back to cross bodies of water. It went extinct when temperatures rose, causing chunks of glaciers to break off and float into its habitat."),
+                List.of("Smaller Pokemon would once ride on its back to cross bodies of water. It went extinct when temperatures rose, causing chunks of glaciers to break off and float into its habitat."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),

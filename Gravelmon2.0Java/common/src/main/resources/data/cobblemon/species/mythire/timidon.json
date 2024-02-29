@@ -1,0 +1,81 @@
+{
+  "implemented": true,
+  "name": "timidon",
+  "nationalPokedexNumber": 2693,
+  "primaryType": "dragon",
+  "abilities": [
+    "klutz",
+    "h:anticipation"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 58,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "monster"
+  ],
+  "moves": [
+    "1:covet",
+    "tm:scaleshot"  ],
+  "labels": [
+    "mythire",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.timidon.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

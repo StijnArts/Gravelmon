@@ -23,7 +23,7 @@ public class Stegrump extends drai.dev.gravelmon.pokemon.Pokemon {
                 72, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("An ancient Pokémon revived from a Sturdy Plate Fossil. Centuries ago, Stegrump were widespread throughout Orohn and grazed wherever there was food to be had. Slow and taciturn, Stegrump travel in large herds, dutifully lumbering and munching on almost everything they pass by."),
+                List.of("An ancient Pokemon revived from a Sturdy Plate Fossil. Centuries ago, Stegrump were widespread throughout Orohn and grazed wherever there was food to be had. Slow and taciturn, Stegrump travel in large herds, dutifully lumbering and munching on almost everything they pass by."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),

@@ -24,7 +24,7 @@ public class Ptervus extends Pokemon {
                 120, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("A prehistoric Pokémon that was revived by scientists. It flies so fast that it might collide with an airplane."),
+                List.of("A prehistoric Pokemon that was revived by scientists. It flies so fast that it might collide with an airplane."),
                 List.of(new EvolutionEntry("pteriarch", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(

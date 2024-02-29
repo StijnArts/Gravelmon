@@ -19,14 +19,16 @@ public class Sandstrum extends drai.dev.gravelmon.pokemon.Pokemon {
                         59,
                         45),
                 List.of(Ability.SAND_VEIL,Ability.WATER_COMPACTION,Ability.RATTLED), Ability.RATTLED,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 220,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("Sandstrum hides under the sand on the beach. Trainers sometimes step on it and are surprised when the ground starts to move from under their feet."),
-                List.of(),
+                List.of(new EvolutionEntry("sanderon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.CAMOUFLAGE,1),
                         new MoveLearnSetEntry(Move.SAND_TOMB,6),
@@ -69,14 +71,15 @@ public class Sandstrum extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sandstrum");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

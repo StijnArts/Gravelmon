@@ -19,7 +19,7 @@ public class Smettle extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.MONSTER),
-                List.of("Smettle is a mischievous Pokémon. It likes to use its quills to make fun of other Pokémon, which doesn't attract it friends."),
+                List.of("Smettle is a mischievous Pokemon. It likes to use its quills to make fun of other Pokemon, which doesn't attract it friends."),
                 List.of(new EvolutionEntry("smyucca", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

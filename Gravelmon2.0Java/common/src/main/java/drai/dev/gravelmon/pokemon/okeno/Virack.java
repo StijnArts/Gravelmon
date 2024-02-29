@@ -20,7 +20,7 @@ public class Virack extends drai.dev.gravelmon.pokemon.Pokemon {
                 154, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
-                List.of("These Pokémon live in abandoned laboratories, where they feed from old generators and chemical substances. Gatherings of them can lead computers to malfunction."),
+                List.of("These Pokemon live in abandoned laboratories, where they feed from old generators and chemical substances. Gatherings of them can lead computers to malfunction."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.OKENO),

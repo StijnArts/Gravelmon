@@ -21,7 +21,7 @@ public class Bankarak extends drai.dev.gravelmon.pokemon.Pokemon {
                 172, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MINERAL),
-                List.of("It gobbles up anything that has monetary value. People looking for riches inside a Bankarak's den will end up knocked over as this Pokémon eats all of their money."),
+                List.of("It gobbles up anything that has monetary value. People looking for riches inside a Bankarak's den will end up knocked over as this Pokemon eats all of their money."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WEBSLAM,1),

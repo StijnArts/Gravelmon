@@ -24,7 +24,7 @@ public class Botnyak extends Pokemon {
                 143, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Originally created by Tom Bezzle as a companion Pokémon, Botnyak were engineered to be extremely marketable. When the product flopped, Botnyak were repurposed by Amaze-All for other projects."),
+                List.of("Originally created by Tom Bezzle as a companion Pokemon, Botnyak were engineered to be extremely marketable. When the product flopped, Botnyak were repurposed by Amaze-All for other projects."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FAKE_OUT,1),

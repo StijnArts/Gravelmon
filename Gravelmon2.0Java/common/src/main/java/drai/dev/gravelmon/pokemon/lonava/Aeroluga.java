@@ -15,7 +15,7 @@ public class Aeroluga extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         100),
                 List.of(Ability.THICK_FAT,Ability.REFRIGERATE,Ability.AIRBORNE), Ability.AIRBORNE,
-                8, 165,
+                36, 165,
                 new Stats(0,0,0,0,0,2), 75,
                 0.5,
                 179, ExperienceGroup.MEDIUM_FAST,
@@ -100,14 +100,18 @@ public class Aeroluga extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 39, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Aeroluga");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
+
+        setCanFly(true);
 
     }
 

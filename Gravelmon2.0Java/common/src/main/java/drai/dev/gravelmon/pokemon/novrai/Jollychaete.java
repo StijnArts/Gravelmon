@@ -21,7 +21,7 @@ public class Jollychaete extends drai.dev.gravelmon.pokemon.Pokemon {
                 178, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3),
-                List.of("The patterns of its blinking lights have a strange effect on other Pokémon, causing them to be more generous and leave morsels of food for it beneath its coiled bristles."),
+                List.of("The patterns of its blinking lights have a strange effect on other Pokemon, causing them to be more generous and leave morsels of food for it beneath its coiled bristles."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POWDER_SNOW,1),

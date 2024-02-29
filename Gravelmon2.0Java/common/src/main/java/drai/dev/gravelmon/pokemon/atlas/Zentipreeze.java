@@ -21,7 +21,7 @@ public class Zentipreeze extends drai.dev.gravelmon.pokemon.Pokemon {
                 222, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Zentipreeze are wise and clever Pokémon, due to their time as Glacyte. They hide beneath the snow or on cave walls, and use these vantage points to capture prey. The length of their beard-like feelers show their age."),
+                List.of("Zentipreeze are wise and clever Pokemon, due to their time as Glacyte. They hide beneath the snow or on cave walls, and use these vantage points to capture prey. The length of their beard-like feelers show their age."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FREEZEDRY,1),

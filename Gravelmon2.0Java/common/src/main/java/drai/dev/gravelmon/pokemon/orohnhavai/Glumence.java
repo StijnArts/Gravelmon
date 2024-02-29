@@ -23,7 +23,7 @@ public class Glumence extends drai.dev.gravelmon.pokemon.Pokemon {
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.AMORPHOUS),
-                List.of("The trails they leave behind is a mixture of toxins and a glue-like substance containing electricity. Touching the trail will shock you, and the toxins along with it may make you very ill. Many Glumence set trails around their area to prevent intruders. They illuminate forests, disrupting the natural cycles of the plants and Pokémon that live there."),
+                List.of("The trails they leave behind is a mixture of toxins and a glue-like substance containing electricity. Touching the trail will shock you, and the toxins along with it may make you very ill. Many Glumence set trails around their area to prevent intruders. They illuminate forests, disrupting the natural cycles of the plants and Pokemon that live there."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),

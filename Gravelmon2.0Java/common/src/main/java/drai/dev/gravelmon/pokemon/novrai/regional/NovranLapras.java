@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranLapras extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranLapras() {
-        super("Lapras",
+    public NovranLapras(int id) {
+        super(id, "Lapras",
                 Type.DRAGON,Type.ELECTRIC,
                 new Stats(130,
                         85,
@@ -15,7 +15,7 @@ public class NovranLapras extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         60),
                 List.of(Ability.ELECTRIC_SURGE,Ability.PRESSURE,Ability.DRIZZLE), Ability.DRIZZLE,
-                8, 165,
+                25, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 187, ExperienceGroup.SLOW,
@@ -125,14 +125,17 @@ public class NovranLapras extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRINE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 29, 54, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Lapras");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

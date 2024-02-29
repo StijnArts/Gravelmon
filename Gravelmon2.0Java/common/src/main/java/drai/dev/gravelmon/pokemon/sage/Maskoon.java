@@ -19,7 +19,7 @@ public class Maskoon extends Pokemon {
                 121, ExperienceGroup.FAST,
                 70,
                 39, List.of(EggGroup.BUG),
-                List.of("It imitates the cries of other Pokémon, but warps them so they sound morbid and unnatural. The pattern on its back is used to scare off predators."),
+                List.of("It imitates the cries of other Pokemon, but warps them so they sound morbid and unnatural. The pattern on its back is used to scare off predators."),
                 List.of(new EvolutionEntry("mortasque", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(

@@ -20,7 +20,7 @@ public class Popkern extends drai.dev.gravelmon.pokemon.Pokemon {
                 52, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("This Pokémon's organism is mostly composed of water and thus is very sensible to changes in the weather. If Popkern ever reaches elevated temperatures, it will evolve."),
+                List.of("This Pokemon's organism is mostly composed of water and thus is very sensible to changes in the weather. If Popkern ever reaches elevated temperatures, it will evolve."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),

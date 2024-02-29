@@ -21,7 +21,7 @@ public class Sootillar extends drai.dev.gravelmon.pokemon.Pokemon {
                 36, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("A hardy Bug Pokémon that thrives even in heavily industrialized areas. It's considered a pest as it likes to enter houses through chimneys, attracted by the soot lining the inside."),
+                List.of("A hardy Bug Pokemon that thrives even in heavily industrialized areas. It's considered a pest as it likes to enter houses through chimneys, attracted by the soot lining the inside."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),

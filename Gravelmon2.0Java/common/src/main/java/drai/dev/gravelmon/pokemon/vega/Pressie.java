@@ -25,12 +25,15 @@ public class Pressie extends Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It likes to float leisurely along the water's surface. When provoked, it will use ice to attack."),
+                //TODO lapras evolutions
                 List.of(new EvolutionEntry("lapras", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))),
                         new EvolutionEntry("kaskadianlapras", EvolutionType.LEVEL_UP, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))),
                         new EvolutionEntry("mythianlapras", EvolutionType.LEVEL_UP, List.of(),
-                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160")))),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"160"))),
+                        new EvolutionEntry("novranlapras", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,1),

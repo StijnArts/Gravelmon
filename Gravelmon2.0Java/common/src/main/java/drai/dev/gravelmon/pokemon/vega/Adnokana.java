@@ -24,7 +24,7 @@ public class Adnokana extends Pokemon {
                 185, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD, EggGroup.DRAGON),
-                List.of("Its thick hide is as hard as steel. Pokémon that attack it may end up breaking their own bones."),
+                List.of("Its thick hide is as hard as steel. Pokemon that attack it may end up breaking their own bones."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

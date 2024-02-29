@@ -21,7 +21,7 @@ public class HizianDelcatty extends drai.dev.gravelmon.pokemon.Pokemon {
                 140, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
-                List.of("It will actively groom itself whenever it thinks its dirty. If another Pokémon touches their fur, they will spend most of the day cleaning themselves."),
+                List.of("It will actively groom itself whenever it thinks its dirty. If another Pokemon touches their fur, they will spend most of the day cleaning themselves."),
                 List.of(new EvolutionEntry("purrwess", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:sun_stone")),
                 List.of(     new MoveLearnSetEntry(Move.SWEET_SCENT,1),

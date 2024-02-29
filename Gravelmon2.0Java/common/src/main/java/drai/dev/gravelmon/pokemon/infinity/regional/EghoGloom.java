@@ -19,7 +19,7 @@ public class EghoGloom extends Pokemon {
                 138, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 51, List.of(EggGroup.AMORPHOUS, EggGroup.MONSTER),
-                List.of("Despite their abiotic features, when exposed to enough light, Oddish may evolve into Gloom. Gloom use decorative skulls to scare away other Pokémon."),
+                List.of("Despite their abiotic features, when exposed to enough light, Oddish may evolve into Gloom. Gloom use decorative skulls to scare away other Pokemon."),
                 List.of(new EvolutionEntry("viledoom", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.SPORE, "")),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.TOXIC.getName()+"\""))),
                         new EvolutionEntry("mortossum", EvolutionType.LEVEL_UP, List.of(

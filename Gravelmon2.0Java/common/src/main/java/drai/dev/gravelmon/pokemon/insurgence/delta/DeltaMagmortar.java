@@ -19,7 +19,7 @@ public class DeltaMagmortar extends Pokemon {
                 243, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("With additional armor, this Pokémon can easily endure pressures at the bottom of the ocean. Its cannons serve as defense from lurking dangerous opponents."),
+                List.of("With additional armor, this Pokemon can easily endure pressures at the bottom of the ocean. Its cannons serve as defense from lurking dangerous opponents."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.AURA_SPHERE,1),

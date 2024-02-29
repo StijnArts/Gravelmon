@@ -23,7 +23,7 @@ public class Huldamer extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Huldamer can drive its vicitms crazy with its toxic mind. They're not easily trusted, forming a relationship with this Pokémon is nearly impossible. What seems to be tails are actually its hair."),
+                List.of("Huldamer can drive its vicitms crazy with its toxic mind. They're not easily trusted, forming a relationship with this Pokemon is nearly impossible. What seems to be tails are actually its hair."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

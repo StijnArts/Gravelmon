@@ -21,7 +21,7 @@ public class Ensprout extends drai.dev.gravelmon.pokemon.Pokemon {
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("Farmers carefully tend to this Pokémon to ensure it grows healthily before evolving. Its leaves look different depending on the type of soil it grows in."),
+                List.of("Farmers carefully tend to this Pokemon to ensure it grows healthily before evolving. Its leaves look different depending on the type of soil it grows in."),
                 List.of(new EvolutionEntry("treenanza", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))
                 ),

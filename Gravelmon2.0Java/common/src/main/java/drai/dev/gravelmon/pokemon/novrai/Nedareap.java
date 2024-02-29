@@ -21,7 +21,7 @@ public class Nedareap extends drai.dev.gravelmon.pokemon.Pokemon {
                 297, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("It appears to people and Pokémon and promises to grant wishes in exchange for possessing their bodies. However, it is never satisfied with its new form, and disappears before holding up its end of the deal."),
+                List.of("It appears to people and Pokemon and promises to grant wishes in exchange for possessing their bodies. However, it is never satisfied with its new form, and disappears before holding up its end of the deal."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,1),

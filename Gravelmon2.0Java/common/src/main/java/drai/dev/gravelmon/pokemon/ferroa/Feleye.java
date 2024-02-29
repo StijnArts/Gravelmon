@@ -21,7 +21,7 @@ public class Feleye extends drai.dev.gravelmon.pokemon.Pokemon {
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Its gaze pacifies foes, making them bend to the whims of this rather aloof Pokémon. It sits as still as a statue unless in the presence of a trusted companion."),
+                List.of("Its gaze pacifies foes, making them bend to the whims of this rather aloof Pokemon. It sits as still as a statue unless in the presence of a trusted companion."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),

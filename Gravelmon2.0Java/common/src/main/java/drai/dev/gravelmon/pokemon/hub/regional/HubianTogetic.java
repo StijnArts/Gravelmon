@@ -21,7 +21,7 @@ public class HubianTogetic extends drai.dev.gravelmon.pokemon.Pokemon {
                 142, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FAIRY),
-                List.of("Easter Island Togetic is an elusive Pokémon that is responsible for golden eggs appearing all over the island. It likes to remain hidden, and only appears under special circumstances."),
+                List.of("Easter Island Togetic is an elusive Pokemon that is responsible for golden eggs appearing all over the island. It likes to remain hidden, and only appears under special circumstances."),
                 List.of(new EvolutionEntry("hubiantogekiss", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"gravelmon:golden_feather")),
                 List.of(

@@ -17,25 +17,39 @@ public class Sevris extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         30),
                 List.of(Ability.SWARM), Ability.SHELL_ARMOR,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,0), 210,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("cradvris", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
+                List.of(   new MoveLearnSetEntry(Move.PROTECT,1),
+                        new MoveLearnSetEntry(Move.WATER_SPORT,10),
+                        new MoveLearnSetEntry(Move.CHILLING_WATER,13),
+                        new MoveLearnSetEntry(Move.LIFE_DEW,16),
+                        new MoveLearnSetEntry(Move.BUBBLE_BEAM,20),
+                        new MoveLearnSetEntry(Move.VIOLENTSWARM,24),
+                        new MoveLearnSetEntry(Move.WIDE_GUARD,28),
+                        new MoveLearnSetEntry(Move.BEACHTIDE,32),
+                        new MoveLearnSetEntry(Move.BUG_BUZZ,36),
+                        new MoveLearnSetEntry(Move.MUDDY_WATER,40),
+                        new MoveLearnSetEntry(Move.SWARMINGTERRAIN,44),
+                        new MoveLearnSetEntry(Move.NATURE_POWER,48),
+                        new MoveLearnSetEntry(Move.HYDRO_PUMP,52)                     ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sevris");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

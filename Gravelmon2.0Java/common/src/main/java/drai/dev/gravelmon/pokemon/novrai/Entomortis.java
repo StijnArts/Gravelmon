@@ -21,7 +21,7 @@ public class Entomortis extends drai.dev.gravelmon.pokemon.Pokemon {
                 248, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Having overcome its fears, it absorbs ambient souls into itself to keep them safe. It's often referred to as the guardian of the spirit realm, and other Ghost-type Pokémon revere it."),
+                List.of("Having overcome its fears, it absorbs ambient souls into itself to keep them safe. It's often referred to as the guardian of the spirit realm, and other Ghost-type Pokemon revere it."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HEX,1),

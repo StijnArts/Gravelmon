@@ -23,7 +23,7 @@ public class Hyfae extends drai.dev.gravelmon.pokemon.Pokemon {
                 232, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
-                List.of("Not even the greatest vocal coach can learn its song techniques. It is a wonder that this Pokémon can produce sound at all; while having such a long neck."),
+                List.of("Not even the greatest vocal coach can learn its song techniques. It is a wonder that this Pokemon can produce sound at all; while having such a long neck."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.NORHEIM),

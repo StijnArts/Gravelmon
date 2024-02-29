@@ -19,7 +19,7 @@ public class Stagnel extends drai.dev.gravelmon.pokemon.Pokemon {
                         108,
                         60),
                 List.of(Ability.VOLT_ABSORB,Ability.OVERCHARGED,Ability.INFILTRATOR), Ability.INFILTRATOR,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,3,0), 45,
                 0.5,
                 212, ExperienceGroup.MEDIUM_SLOW,
@@ -97,8 +97,8 @@ public class Stagnel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STICKY_WEB,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 54, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

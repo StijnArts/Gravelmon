@@ -19,7 +19,7 @@ public class DeltaWooper extends Pokemon {
                 42, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by EchoTheThird. This mischievous Pokémon likes to surprise people on Halloween with tons of candy."),
+                List.of("A Delta Species discovered by EchoTheThird. This mischievous Pokemon likes to surprise people on Halloween with tons of candy."),
                 List.of(new EvolutionEntry("deltaquagsire", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(

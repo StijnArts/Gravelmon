@@ -19,7 +19,7 @@ public class EghoCharmander extends Pokemon {
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON, EggGroup.MONSTER),
-                List.of("A small dragon Pokémon that enjoys a competitive bout. As it battles, the flame on its tail gets hotter."),
+                List.of("A small dragon Pokemon that enjoys a competitive bout. As it battles, the flame on its tail gets hotter."),
                 List.of(new EvolutionEntry("eghocharmeleon", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

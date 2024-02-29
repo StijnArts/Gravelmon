@@ -24,7 +24,7 @@ public class Diaduna extends Pokemon {
                 149, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2, EggGroup.MONSTER),
-                List.of("This Pokémon was born to battle. When two males see each other, they will immediately start fighting."),
+                List.of("This Pokemon was born to battle. When two males see each other, they will immediately start fighting."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),

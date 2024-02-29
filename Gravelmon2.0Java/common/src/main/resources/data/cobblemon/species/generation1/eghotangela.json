@@ -1,0 +1,189 @@
+{
+  "implemented": true,
+  "name": "eghotangela",
+  "nationalPokedexNumber": 114,
+  "primaryType": "electric",
+  "secondaryType": "steel",
+  "abilities": [
+    "voltabsorb",
+    "motordrive",
+    "h:static"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 70,
+    "defence": 90,
+    "special_attack": 80,
+    "special_defence": 90,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 87,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "mineral"
+  ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "1:discharge",
+    "1:thundershock",
+    "1:bind",
+    "1:magnetrise",
+    "1:vinewhip",
+    "7:protect",
+    "10:absorb",
+    "14:hiddenpower",
+    "17:coil",
+    "20:chargebeam",
+    "23:megadrain",
+    "25:ironhead",
+    "27:recover",
+    "30:irondefense",
+    "33:gigadrain",
+    "36:thunderbolt",
+    "40:flashcannon",
+    "46:powerwhip",
+    "49:simplebeam",
+    "55:autotomize",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:overheat",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:chargebeam",
+    "tm:incinerate",
+    "tm:embargo",
+    "tm:flash",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:gyroball",
+    "tm:psychup",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:wildcharge",
+    "tm:cut",
+    "tm:strength",
+    "tutor:ancientpower",
+    "tutor:drainpunch",
+    "tutor:gigadrain",
+    "tutor:healbellsound",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:magnetrise",
+    "tutor:signalbeam",
+    "tutor:stealthrock",
+    "tutor:thunderpunch",
+    "tutor:zenheadbutt",
+    "egg:batonpass",
+    "egg:electroball",
+    "egg:endeavor",
+    "egg:flail",
+    "egg:ingrain",
+    "egg:knockoff",
+    "egg:powergemcrystal",
+    "egg:powerswap",
+    "egg:spikes",
+    "egg:takedown"  ],
+  "labels": [
+    "infinity",
+    "gen1",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghotangela.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "eghotangela_eghotangrowth",
+      "variant": "item_interact",
+      "result": "eghotangrowth",
+      "consumeHeldItem": false,
+      "learnableMoves": [    "thunder"],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone"   
+ }
+  ],
+  "baseScale": 0.1875,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 350,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

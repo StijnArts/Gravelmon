@@ -13,6 +13,7 @@ import drai.dev.gravelmon.pokemon.interregional.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
+import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.orohnhavai.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
@@ -28,6 +29,13 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new NovranHerdier(507));
+        pokemon.add(new NovranStoutland(508));
+        pokemon.add(new NovranVanillite(583));
+        pokemon.add(new NovranVanillish(584));
+        pokemon.add(new NovranVanilluxe(585));
+        pokemon.add(new NovranDruddigon(621));
+
         pokemon.add(new QamoranCubchoo(613));
         pokemon.add(new QamoranBeartic(614));
 

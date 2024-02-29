@@ -27,7 +27,7 @@ public class Winvern extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Found only in the northern snowy parts of Avoris, these Pokémon can withstand harsh freezing weather with the help of their thick feathers. They were actually born and raised in the cold as their nests were made with snow. So it's no surprise these Pokémon love to play in the snow."),
+                List.of("Found only in the northern snowy parts of Avoris, these Pokemon can withstand harsh freezing weather with the help of their thick feathers. They were actually born and raised in the cold as their nests were made with snow. So it's no surprise these Pokemon love to play in the snow."),
                 List.of(),
                 List.of(                        ),
                 List.of(Label.AVORIS),

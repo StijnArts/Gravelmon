@@ -1,0 +1,110 @@
+{
+  "implemented": true,
+  "name": "dampurr",
+  "nationalPokedexNumber": 2801,
+  "primaryType": "water",
+  "secondaryType": "rock",
+  "abilities": [
+    "furcoat",
+    "raindish",
+    "h:berserk"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 35,
+    "defence": 65,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:bubble",
+    "1:tackle",
+    "7:watergun",
+    "10:helpinghand",
+    "13:rockthrow",
+    "14:furyswipes",
+    "16:smokescreen",
+    "20:stealthrock",
+    "egg:skullbash",
+    "egg:crunch",
+    "egg:stoneedge",
+    "egg:dragonclaw",
+    "egg:ancientpower",
+    "egg:brine",
+    "egg:liquidation"  ],
+  "labels": [
+    "myth",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.dampurr.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "dampurr_soakcuff",
+      "variant": "level_up",
+      "result": "soakcuff",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 21
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 69,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

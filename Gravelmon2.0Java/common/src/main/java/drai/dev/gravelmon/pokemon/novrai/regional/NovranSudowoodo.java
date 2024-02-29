@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranSudowoodo extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranSudowoodo() {
-        super("Sudowoodo",
+    public NovranSudowoodo(int id) {
+        super(id, "Sudowoodo",
                 Type.ROCK,Type.ICE,
                 new Stats(90,
                         125,
@@ -15,7 +15,7 @@ public class NovranSudowoodo extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         30),
                 List.of(Ability.STURDY,Ability.SKILL_LINK,Ability.ROUGH_SKIN), Ability.ROUGH_SKIN,
-                8, 165,
+                13, 165,
                 new Stats(0,2,0,0,0,0), 65,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
@@ -108,8 +108,8 @@ public class NovranSudowoodo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPIKE_CANNON,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 41, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

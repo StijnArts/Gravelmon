@@ -19,7 +19,7 @@ public class Yetitan extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         84),
                 List.of(Ability.OVERGROW), Ability.GREENTHUMB,
-                8, 165,
+                21, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -75,8 +75,8 @@ public class Yetitan extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARM,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

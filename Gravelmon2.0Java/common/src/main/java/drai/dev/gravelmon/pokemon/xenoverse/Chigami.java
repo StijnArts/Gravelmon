@@ -19,7 +19,7 @@ public class Chigami extends Pokemon {
                 40, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.FAIRY, EggGroup.DRAGON),
-                List.of("Its skin has the same properties as the paper. Apparently origamis were invented looking at this exact Pokémon."),
+                List.of("Its skin has the same properties as the paper. Apparently origamis were invented looking at this exact Pokemon."),
                 List.of(new EvolutionEntry("grudako", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.XSCISSOR.getName()+"\"")))),
                 List.of(

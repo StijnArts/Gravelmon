@@ -19,13 +19,13 @@ public class Membry extends drai.dev.gravelmon.pokemon.Pokemon {
                         150,
                         65),
                 List.of(Ability.FOREWARN), Ability.TELEPATHY,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,2,0), 90,
                 0.5,
                 167, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("- Thunder Wave Electric - Hypnosis Psychic - Barrier Psychic - Light Screen Psychic - Reflect Psychic - Amnesia Psychic - Poison Gas Poison - Mirror CoatSTAB Psychic - Shock Wave Electric - PsyshockSTAB Psychic - Reflect Type Normal - ConfusionSTAB Psychic - PsychicSTAB Psychic - Calm Mind Psychic"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CALM_MIND,1),
@@ -78,9 +78,8 @@ public class Membry extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

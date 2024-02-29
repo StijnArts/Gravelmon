@@ -19,7 +19,7 @@ public class Merculey extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         100),
                 List.of(Ability.BLAZE), Ability.COMPETITIVE,
-                8, 165,
+                17, 165,
                 new Stats(0,1,0,1,0,1), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -28,6 +28,18 @@ public class Merculey extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Merculey's body is filled with a hot acid that makes it very light. It is able to flip and spin to dodge enemy attacks, but it can also use the liquid for hot acid attacks."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.LEER,1),
+                        new MoveLearnSetEntry(Move.SCRATCH,1),
+                        new MoveLearnSetEntry(Move.EMBER,7),
+                        new MoveLearnSetEntry(Move.TAUNT,9),
+                        new MoveLearnSetEntry(Move.FURY_SWIPES,15),
+                        new MoveLearnSetEntry(Move.FLAME_WHEEL,17),
+                        new MoveLearnSetEntry(Move.NASTY_PLOT,23),
+                        new MoveLearnSetEntry(Move.TORMENT,25),
+                        new MoveLearnSetEntry(Move.FACADE,31),
+                        new MoveLearnSetEntry(Move.FIRE_SPIN,33),
+                        new MoveLearnSetEntry(Move.ACROBATICS,39),
+                        new MoveLearnSetEntry(Move.SLACK_OFF,41),
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,"tm"),
                         new MoveLearnSetEntry(Move.THUNDER_PUNCH,"tm"),
                         new MoveLearnSetEntry(Move.DRAIN_PUNCH,"tm"),
@@ -96,11 +108,11 @@ public class Merculey extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACID_ARMOR,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Merculey");

@@ -15,14 +15,16 @@ public class Foreminn extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         55),
                 List.of(Ability.ROCK_HEAD), Ability.SWIFT_SWIM,
-                8, 165,
+                4, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 66, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Foreminn are only found deep underground in very specific bodies of water, far from the ocean. It's believed they swim for miles through complex cave systems in search of a particular plant."),
-                List.of(),
+                List.of(new EvolutionEntry("finpact", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUA_RING,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,8),
@@ -77,8 +79,8 @@ public class Foreminn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

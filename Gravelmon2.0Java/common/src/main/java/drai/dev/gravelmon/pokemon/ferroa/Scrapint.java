@@ -21,7 +21,7 @@ public class Scrapint extends drai.dev.gravelmon.pokemon.Pokemon {
                 55, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.DRAGON),
-                List.of("This Pokémon is very popular, but it's terrible with children—it often ends up released into the wild by unprepared owners. When it bites, it aims for the ankles to trip opponents much larger than it."),
+                List.of("This Pokemon is very popular, but it's terrible with children—it often ends up released into the wild by unprepared owners. When it bites, it aims for the ankles to trip opponents much larger than it."),
                 List.of(new EvolutionEntry("pupnacious", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))
                 ),

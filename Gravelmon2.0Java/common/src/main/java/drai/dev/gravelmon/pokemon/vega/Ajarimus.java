@@ -24,7 +24,7 @@ public class Ajarimus extends Pokemon {
                 101, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
-                List.of("Unlike Clotaku, it lives in a group. The group wanders around, attacking weaker Pokémon for no good reason."),
+                List.of("Unlike Clotaku, it lives in a group. The group wanders around, attacking weaker Pokemon for no good reason."),
                 List.of(new EvolutionEntry("jarmit", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(

@@ -17,14 +17,15 @@ public class Petafleur extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         65),
                 List.of(Ability.EFFECT_SPORE), Ability.MAGIC_BOUNCE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,2,1,0), 45,
                 0.125,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
                 List.of("Upon evolution, Petafleur are confident in its new awakened power and trusts itself more than it did as a Cloflower. Petafleur has attacks that most Pokemon of the same type wouldn't and this gives it a great advantage in battle."),
-                List.of(),
+                List.of(new EvolutionEntry("florown", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.STUN_SPORE,1),
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,18),
@@ -45,10 +46,10 @@ public class Petafleur extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURAL_GIFT,"tm")                        ),
                 List.of(Label.MIDAMIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 38, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

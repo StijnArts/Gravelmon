@@ -19,7 +19,7 @@ public class Ornitherb extends Pokemon {
                 144, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 62, List.of(EggGroup.GRASS, EggGroup.DRAGON),
-                List.of("Ornitherb work together to steal eggs from other Pokémon's nests. A few will distract the parents while others make off with their target."),
+                List.of("Ornitherb work together to steal eggs from other Pokemon's nests. A few will distract the parents while others make off with their target."),
                 List.of(new EvolutionEntry("dilophlora", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.ANCIENT_POWER.getName()+"\"")))),
                 List.of(

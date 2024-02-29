@@ -15,13 +15,13 @@ public class Humpeat extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         70),
                 List.of(Ability.WATER_ABSORB), Ability.GRASS_PELT,
-                8, 165,
+                32, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.5,
                 216, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.DRAGON),
-                List.of("Despite being the largest non-legendary Pokémon native to Lonava, Humpeat are extremely difficult to find. Their ability to blend into the surrounding landscape is truly astonishing, gaining them the nickname of 'moving mountain range'."),
+                List.of("Despite being the largest non-legendary Pokemon native to Lonava, Humpeat are extremely difficult to find. Their ability to blend into the surrounding landscape is truly astonishing, gaining them the nickname of 'moving mountain range'."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,1),
@@ -87,9 +87,8 @@ public class Humpeat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_GUN,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 51, 65, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

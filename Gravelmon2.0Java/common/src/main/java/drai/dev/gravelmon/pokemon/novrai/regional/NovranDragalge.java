@@ -5,8 +5,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class NovranDragalge extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NovranDragalge() {
-        super("Dragalge",
+    public NovranDragalge(int dex) {
+        super(dex, "Dragalge",
                 Type.GRASS,Type.DRAGON,
                 new Stats(65,
                         75,
@@ -15,7 +15,7 @@ public class NovranDragalge extends drai.dev.gravelmon.pokemon.Pokemon {
                         123,
                         44),
                 List.of(Ability.IMMUNITY,Ability.NATURAL_CURE,Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,2,0), 55,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -104,14 +104,16 @@ public class NovranDragalge extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_RAGE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 48, 49, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Dragalge");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

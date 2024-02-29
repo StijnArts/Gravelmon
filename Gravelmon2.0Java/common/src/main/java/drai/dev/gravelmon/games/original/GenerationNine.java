@@ -4,6 +4,7 @@ import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.aristos.regional.*;
 import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
+import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
@@ -15,6 +16,7 @@ public class GenerationNine extends Game {
 
     @Override
     public void registerPokemon() {
+
         pokemon.add(new QamoranRabsca(954));
 
 //        pokemon.add(new NorheimanGlimmora(970)); NOT FINISHED

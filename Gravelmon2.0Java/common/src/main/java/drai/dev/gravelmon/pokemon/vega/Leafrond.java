@@ -24,7 +24,7 @@ public class Leafrond extends Pokemon {
                 141, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS, EggGroup.MONSTER),
-                List.of("Be careful not to approach this Pokémon when it is angry. Its leaf is sharp enough to cut through bone."),
+                List.of("Be careful not to approach this Pokemon when it is angry. Its leaf is sharp enough to cut through bone."),
                 List.of(new EvolutionEntry("syleafid", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
