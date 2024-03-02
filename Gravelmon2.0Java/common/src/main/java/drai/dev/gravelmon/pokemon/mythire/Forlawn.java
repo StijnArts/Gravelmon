@@ -15,7 +15,7 @@ public class Forlawn extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         45),
                 List.of(Ability.CURSED_BODY), Ability.GRASSY_SURGE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,2,0,0,0), 180,
                 0.5,
                 161, ExperienceGroup.SLOW,
@@ -102,8 +102,8 @@ public class Forlawn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FACEPLANT,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 10, 30, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

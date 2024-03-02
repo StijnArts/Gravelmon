@@ -15,7 +15,7 @@ public class Gatherelf extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         85),
                 List.of(Ability.SAND_RUSH,Ability.PICKUP,Ability.COMPETITIVE), Ability.COMPETITIVE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,2,0), 120,
                 0.5,
                 170, ExperienceGroup.MEDIUM_SLOW,
@@ -86,11 +86,11 @@ public class Gatherelf extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TICKLE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 41, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gatherelf");

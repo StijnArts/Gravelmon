@@ -15,7 +15,7 @@ public class Salamuncher extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         80),
                 List.of(Ability.GLUTTONY), Ability.TASTEBUDS,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
@@ -152,14 +152,15 @@ public class Salamuncher extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Salamuncher");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

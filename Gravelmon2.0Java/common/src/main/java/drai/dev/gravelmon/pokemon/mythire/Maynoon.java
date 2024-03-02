@@ -15,25 +15,40 @@ public class Maynoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         125),
                 List.of(Ability.GALE_WINGS,Ability.CLOUD_NINE,Ability.SWIFTDODGE), Ability.SWIFTDODGE,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,0,2), 80,
                 0.5,
                 158, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It has the shortest period before evolution of any Pokemon. After congregating with others of its kind above the lake it was born in, it becomes dormant and falls into the water, all in the span of an hour."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("nymphemeral", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
+                List.of(                 new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SOAK,1),
+                        new MoveLearnSetEntry(Move.SWEET_SCENT,1),
+                        new MoveLearnSetEntry(Move.WATER_GUN,1),
+                        new MoveLearnSetEntry(Move.WHIRLWIND,1),
+                        new MoveLearnSetEntry(Move.GUST,17),
+                        new MoveLearnSetEntry(Move.AIR_CUTTER,22),
+                        new MoveLearnSetEntry(Move.SCARY_FACE,22),
+                        new MoveLearnSetEntry(Move.STUN_SPORE,26),
+                        new MoveLearnSetEntry(Move.AIR_SLASH,32),
+                        new MoveLearnSetEntry(Move.GIGA_DRAIN,38),
+                        new MoveLearnSetEntry(Move.BUG_BUZZ,44),
+                        new MoveLearnSetEntry(Move.QUIVER_DANCE,52)),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 24, 25, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Maynoon");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setCanFly(true);
 
     }
 

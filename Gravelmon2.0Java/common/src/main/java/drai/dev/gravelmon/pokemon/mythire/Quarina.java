@@ -15,14 +15,15 @@ public class Quarina extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         56),
                 List.of(Ability.LIQUID_VOICE), Ability.SERENE_GRACE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,1,0), 220,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Schools of Quarina will poke their heads out of the water and sing in unison, blowing air from the horn on their heads to produce a melodic sound. Different lakes are associated with different songs."),
-                List.of(),
+                List.of(new EvolutionEntry("sonoreef", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ROUND,1),
                         new MoveLearnSetEntry(Move.HELPING_HAND,5),
@@ -84,14 +85,16 @@ public class Quarina extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLURINGVOICE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Quarina");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

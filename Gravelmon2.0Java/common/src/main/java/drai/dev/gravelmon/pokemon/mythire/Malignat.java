@@ -15,14 +15,15 @@ public class Malignat extends drai.dev.gravelmon.pokemon.Pokemon {
                         20,
                         55),
                 List.of(Ability.INFILTRATOR,Ability.COMPOUND_EYES,Ability.EXPLOITATIVE), Ability.EXPLOITATIVE,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 40, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("This Pokemon saps energy from unhappy people. On busy subway trains full of people making their morning commute, many Malignat can be found hooked underneath the train."),
-                List.of(),
+                List.of(new EvolutionEntry("skeejack", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PESTER,1),
                         new MoveLearnSetEntry(Move.SUDDEN_STRIKE,6),
@@ -73,14 +74,14 @@ public class Malignat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRANQUILIZE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Malignat");
+        setCanFly(true);
 
     }
 

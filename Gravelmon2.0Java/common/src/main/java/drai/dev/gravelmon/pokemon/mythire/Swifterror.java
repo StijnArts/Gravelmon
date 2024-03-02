@@ -15,7 +15,7 @@ public class Swifterror extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         120),
                 List.of(Ability.AIRBORNE), Ability.GALE_WINGS,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,0,0,3), 45,
                 0.5,
                 225, ExperienceGroup.MEDIUM_FAST,
@@ -115,14 +115,14 @@ public class Swifterror extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHIP_AWAY,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 46, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Swifterror");
+        setCanFly(true);
 
     }
 

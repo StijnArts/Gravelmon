@@ -15,7 +15,7 @@ public class Slithotter extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         100),
                 List.of(Ability.DAMP,Ability.STRONG_JAW,Ability.POISON_TOUCH), Ability.POISON_TOUCH,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,0,0,2), 80,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
@@ -46,14 +46,15 @@ public class Slithotter extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CORROSIVE_GAS,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 44, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Slithotter");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

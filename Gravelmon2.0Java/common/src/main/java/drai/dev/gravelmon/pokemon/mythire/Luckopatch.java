@@ -15,7 +15,7 @@ public class Luckopatch extends drai.dev.gravelmon.pokemon.Pokemon {
                         92,
                         108),
                 List.of(Ability.SUPER_LUCK,Ability.LEAF_GUARD,Ability.VITAL_SPIRIT), Ability.VITAL_SPIRIT,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,0,2), 125,
                 0.5,
                 168, ExperienceGroup.MEDIUM_SLOW,
@@ -60,8 +60,8 @@ public class Luckopatch extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRAILBLAZE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 42, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

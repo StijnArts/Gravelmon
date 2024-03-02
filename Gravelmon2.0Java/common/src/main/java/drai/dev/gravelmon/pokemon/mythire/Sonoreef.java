@@ -15,7 +15,7 @@ public class Sonoreef extends drai.dev.gravelmon.pokemon.Pokemon {
                         98,
                         85),
                 List.of(Ability.LIQUID_VOICE), Ability.SERENE_GRACE,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,2,0), 90,
                 0.5,
                 158, ExperienceGroup.MEDIUM_FAST,
@@ -90,14 +90,16 @@ public class Sonoreef extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLURINGVOICE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 24, 41, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sonoreef");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

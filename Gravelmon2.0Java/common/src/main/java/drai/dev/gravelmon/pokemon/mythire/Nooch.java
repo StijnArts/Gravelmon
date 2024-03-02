@@ -15,14 +15,15 @@ public class Nooch extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         60),
                 List.of(Ability.GLUTTONY), Ability.TASTEBUDS,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 230,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("It doesn't gather food for itself; rather, it establishes a psychic link with another being and steals nutrients telekinetically. The link is broken if it tastes salty food, which it hates."),
-                List.of(),
+                List.of(new EvolutionEntry("salamuncher", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SUPERSONIC,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,6),
@@ -114,14 +115,15 @@ public class Nooch extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 5.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nooch");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

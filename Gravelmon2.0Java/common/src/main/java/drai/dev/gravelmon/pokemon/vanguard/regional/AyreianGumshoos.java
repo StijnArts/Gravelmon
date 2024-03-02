@@ -13,7 +13,7 @@ public class AyreianGumshoos extends Pokemon {
                 Type.DARK,
                 new Stats(88,140,70,45,55,70),
                 List.of(Ability.MALEVOLENCE), Ability.ADAPTABILITY,
-                4, 60,
+                7, 60,
                 new Stats(0,2,0,0,0,0), 127,
                 0.5,
                 146, ExperienceGroup.MEDIUM_FAST,
