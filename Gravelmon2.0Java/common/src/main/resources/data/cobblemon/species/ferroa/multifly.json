@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "multifly",
-  "nationalPokedexNumber": 1541,
+  "nationalPokedexNumber": 1551,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -91,7 +91,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

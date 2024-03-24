@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aldina",
-  "nationalPokedexNumber": 3073,
+  "nationalPokedexNumber": 3682,
   "primaryType": "ghost",
   "abilities": [
     "insomnia",
@@ -60,6 +60,7 @@
     "70:faketears",
     "75:psychic",
     "80:nastyplot",
+    "90:psyburn",
     "95:perishsongsound",
     "100:doomdesire",
     "tm:swordsdance",
@@ -84,11 +85,12 @@
     "tm:willowisp",
     "tm:explosion",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:nastyplot"  ],
+    "tutor:nastyplot",
+    "tutor:bugnoise"  ],
   "labels": [
     "vega",
     "mythical",

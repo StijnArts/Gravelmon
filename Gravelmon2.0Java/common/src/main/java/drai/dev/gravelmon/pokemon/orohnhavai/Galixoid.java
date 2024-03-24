@@ -17,7 +17,7 @@ public class Galixoid extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         50),
                 List.of(Ability.ANALYTIC,Ability.STURDY,Ability.SOLID_ROCK), Ability.SOLID_ROCK,
-                8, 165,
+                21, 165,
                 new Stats(0,0,2,0,1,0), 45,
                 0.0,
                 227, ExperienceGroup.MEDIUM_SLOW,
@@ -45,8 +45,9 @@ public class Galixoid extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 63, .02, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

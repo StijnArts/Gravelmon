@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "argonacre",
-  "nationalPokedexNumber": 2647,
+  "nationalPokedexNumber": 3053,
   "primaryType": "rock",
   "abilities": [
     "dazzling",
@@ -23,17 +23,17 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -48,6 +48,18 @@
     "mineral"
   ],
   "moves": [
+    "1:powergemcrystal",
+    "1:ancientpower",
+    "1:rollout",
+    "1:bind",
+    "1:powerwhip",
+    "1:rockpolish",
+    "1:shellsmash",
+    "1:flash",
+    "1:dazzlinggleam",
+    "1:mirrorcoat",
+    "1:tickle",
+    "1:slam",
     "tm:return",
     "tm:frustration",
     "tm:hyperbeam",
@@ -91,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.argonacre.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -106,7 +118,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

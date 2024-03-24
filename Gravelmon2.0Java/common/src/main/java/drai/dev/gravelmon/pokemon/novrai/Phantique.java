@@ -15,7 +15,7 @@ public class Phantique extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         55),
                 List.of(Ability.BATTLE_ARMOR,Ability.FRACTURE,Ability.SOLID_ROCK), Ability.SOLID_ROCK,
-                8, 165,
+                11, 165,
                 new Stats(0,0,2,0,0,0), 60,
                 0.5,
                 171, ExperienceGroup.MEDIUM_SLOW,
@@ -121,11 +121,10 @@ public class Phantique extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DESTINY_BOND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 45, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Phantique");

@@ -15,14 +15,15 @@ public class Narysite extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         25),
                 List.of(Ability.DRY_SKIN,Ability.HUGE_POWER,Ability.SYMBIOSIS), Ability.SYMBIOSIS,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 200,
                 0.5,
                 49, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.BUG),
                 List.of("What appear to be its nostrils are actually the eyes of its symbiotic worm. The worm has incredible eyesight even underground, and helps the body to navigate when digging."),
-                List.of(),
+                List.of(new EvolutionEntry("condyceps", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUD_SPORT,1),
                         new MoveLearnSetEntry(Move.ODOR_SLEUTH,5),
@@ -103,9 +104,9 @@ public class Narysite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BITE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

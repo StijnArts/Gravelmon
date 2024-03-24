@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "florafay",
-  "nationalPokedexNumber": 2555,
+  "nationalPokedexNumber": 2961,
   "primaryType": "fairy",
   "abilities": [
     "dancer",
@@ -113,7 +113,7 @@
     "cobblemon.species.florafay.desc"
   ],
   "preEvolution": "pixipetal",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

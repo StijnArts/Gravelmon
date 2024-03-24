@@ -4,6 +4,7 @@
   "nationalPokedexNumber": 1170,
   "primaryType": "normal",
   "abilities": [
+    "feisty",
     "prankster",
     "h:pickup"
   ],
@@ -47,16 +48,6 @@
     "monster",
     "fairy"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "cobblemon:poke_ball",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:rage",
     "1:defensecurl",

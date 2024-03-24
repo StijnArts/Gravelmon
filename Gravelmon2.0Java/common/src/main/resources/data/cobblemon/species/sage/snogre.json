@@ -47,16 +47,6 @@
   "eggGroups": [
     "human_like"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:ice",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:frostslash",
     "1:defensecurl",
@@ -149,7 +139,7 @@
     "cobblemon.species.snogre.desc"
   ],
   "preEvolution": "snome",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

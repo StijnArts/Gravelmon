@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wildyre",
-  "nationalPokedexNumber": 2296,
+  "nationalPokedexNumber": 2367,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -110,7 +110,7 @@
     "cobblemon.species.wildyre.desc"
   ],
   "preEvolution": "campyre",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "motocyclops",
-  "nationalPokedexNumber": 2662,
+  "nationalPokedexNumber": 3068,
   "primaryType": "ghost",
   "abilities": [
     "speedboost",
@@ -48,6 +48,16 @@
     "monster"
   ],
   "moves": [
+    "1:agility",
+    "1:grudge",
+    "1:skullbash",
+    "1:astonish",
+    "1:ironhead",
+    "1:uturn",
+    "1:takedown",
+    "1:doubleedge",
+    "1:doubleteam",
+    "1:shiftgear",
     "1:steelroller",
     "tm:return",
     "tm:frustration",
@@ -85,12 +95,15 @@
     "tm:wildcharge"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.motocyclops.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "scooclops",
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -105,7 +118,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 14,
   "weight": 165,
   "aspects": [],
 "features": [

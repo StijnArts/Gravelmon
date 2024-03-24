@@ -17,14 +17,15 @@ public class Kicsqueak extends drai.dev.gravelmon.pokemon.Pokemon {
                         36,
                         68),
                 List.of(Ability.GUTS), Ability.JUMPIN,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Kicsqueak have incredibly powerful legs that allow them to jump over 10 meters horizontally with a single kick- which comes in handy for quick getaways when they are confronted by predators."),
-                List.of(),
+                List.of(new EvolutionEntry("aggroroo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,5),
@@ -44,8 +45,8 @@ public class Kicsqueak extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GYRO_BALL,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

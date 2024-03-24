@@ -14,14 +14,15 @@ public class Plurshie extends drai.dev.gravelmon.pokemon.Pokemon {
                         41,
                         35),
                 List.of(Ability.RATTLED), Ability.TANTRUM,
-                8, 165,
-                new Stats(0,1,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,1,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("If it's left alone for too long, it will throw a tantrum. Plurshie are traditionally given as gifts to young trainers in carnivals and fairs."),
-                List.of(),
+                List.of(new EvolutionEntry("phantoshie", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.PLAY_NICE,2),
@@ -49,11 +50,11 @@ public class Plurshie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COTTON_GUARD,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 26, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Plurshie");

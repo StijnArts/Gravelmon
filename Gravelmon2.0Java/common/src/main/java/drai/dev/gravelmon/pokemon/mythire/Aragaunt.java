@@ -15,14 +15,15 @@ public class Aragaunt extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         81),
                 List.of(Ability.UNNERVE,Ability.SKILL_LINK,Ability.TECHNICIAN), Ability.TECHNICIAN,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,0,1), 180,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("The spines on its neck are receptive to even the slightest movement. Hooked to the ceiling, Aragaunt suddenly stretches its head down and grabs prey with its fangs."),
-                List.of(),
+                List.of(new EvolutionEntry("trenchula", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.BITE,5),
@@ -94,14 +95,14 @@ public class Aragaunt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRANQUILIZE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Aragaunt");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stalagrus",
-  "nationalPokedexNumber": 1450,
+  "nationalPokedexNumber": 1460,
   "primaryType": "ground",
   "secondaryType": "rock",
   "abilities": [
@@ -145,7 +145,7 @@
     "cobblemon.species.stalagrus.desc"
   ],
   "preEvolution": "dirtusk",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

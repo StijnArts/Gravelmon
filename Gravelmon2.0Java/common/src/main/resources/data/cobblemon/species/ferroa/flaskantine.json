@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flaskantine",
-  "nationalPokedexNumber": 1501,
+  "nationalPokedexNumber": 1511,
   "primaryType": "poison",
   "secondaryType": "ice",
   "abilities": [
@@ -142,7 +142,7 @@
     "cobblemon.species.flaskantine.desc"
   ],
   "preEvolution": "germuck",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

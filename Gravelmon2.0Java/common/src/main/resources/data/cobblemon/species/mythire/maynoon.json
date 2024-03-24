@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maynoon",
-  "nationalPokedexNumber": 2627,
+  "nationalPokedexNumber": 3033,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -25,7 +25,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -35,7 +35,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -49,15 +49,45 @@
     "bug"
   ],
   "moves": [
-  ],
+    "1:quickattack",
+    "1:soak",
+    "1:sweetscent",
+    "1:watergun",
+    "1:whirlwind",
+    "17:gust",
+    "22:aircutter",
+    "22:scaryface",
+    "26:stunspore",
+    "32:airslash",
+    "38:gigadrain",
+    "44:bugbuzzsound",
+    "52:quiverdance"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.maynoon.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "naiadawn",
+  "evolutions": [
+    {
+      "id": "maynoon_nymphemeral",
+      "variant": "level_up",
+      "result": "nymphemeral",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +102,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

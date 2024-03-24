@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tsuruborosu",
-  "nationalPokedexNumber": 3248,
+  "nationalPokedexNumber": 3857,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -107,7 +107,7 @@
     "cobblemon.species.tsuruborosu.desc"
   ],
   "preEvolution": "hanamimizu",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

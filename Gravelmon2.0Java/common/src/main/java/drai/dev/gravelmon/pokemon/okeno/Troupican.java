@@ -14,13 +14,13 @@ public class Troupican extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         71),
                 List.of(Ability.BIG_PECKS,Ability.COMPETITIVE,Ability.OWN_TEMPO), Ability.OWN_TEMPO,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,0), 90,
                 0.75,
                 163, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("- PeckSTAB Flying - Flatter Dark - Roost Flying - Chirp Normal 6 Encore Normal 10 Sing Normal 15 RoundSTAB Normal 19 Disarming Voice Fairy 23 Swagger Normal 27 UproarSTAB Normal 30 Mirror Move Flying 34 Echoed VoiceSTAB Normal 39 Drill PeckSTAB Flying 43 Feather Dance Flying 46 Role Play Psychic 50 Hyper VoiceSTAB Normal 55 Paradise DisplaySTAB Flying 59 Perish Song Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
@@ -46,14 +46,14 @@ public class Troupican extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOOMBURST,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 33, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Troupican");
+        setCanFly(true);
 
     }
 

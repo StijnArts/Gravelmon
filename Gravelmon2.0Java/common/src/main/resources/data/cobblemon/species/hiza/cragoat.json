@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cragoat",
-  "nationalPokedexNumber": 2058,
+  "nationalPokedexNumber": 2129,
   "primaryType": "rock",
   "abilities": [
     "sturdy",
@@ -80,7 +80,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

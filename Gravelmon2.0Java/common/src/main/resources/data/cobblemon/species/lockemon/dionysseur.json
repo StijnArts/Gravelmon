@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dionysseur",
-  "nationalPokedexNumber": 2469,
+  "nationalPokedexNumber": 2768,
   "primaryType": "poison",
   "secondaryType": "grass",
   "abilities": [
@@ -48,6 +48,16 @@
     "human_like",
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:bacchus_laurel",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:sweetscent",
     "1:tackle",
@@ -76,7 +86,7 @@
     "cobblemon.species.dionysseur.desc"
   ],
   "preEvolution": "vitisquash",
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

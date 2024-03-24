@@ -50,6 +50,7 @@
   "moves": [
     "1:slash",
     "1:batonpass",
+    "50:knightsvow",
     "tm:toxic",
     "tm:pursuit",
     "tm:hiddenpower",
@@ -60,6 +61,7 @@
     "tm:earthquake",
     "tm:return",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:sandstorm",
     "tm:gigaimpact",
@@ -82,7 +84,7 @@
     "cobblemon.species.hoennianbisharp.desc"
   ],
   "preEvolution": "hoennianpawniard",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

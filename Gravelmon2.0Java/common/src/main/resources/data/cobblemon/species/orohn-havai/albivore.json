@@ -1,0 +1,142 @@
+{
+  "implemented": true,
+  "name": "albivore",
+  "nationalPokedexNumber": 2429,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye",
+    "intimidate",
+    "h:rivalry"
+  ],
+  "baseStats": {
+    "hp": 64,
+    "attack": 85,
+    "defence": 52,
+    "special_attack": 35,
+    "special_defence": 50,
+    "speed": 74
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 122,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:peck",
+    "5:leer",
+    "8:aircutter",
+    "11:furyattack",
+    "14:scaryface",
+    "19:wingattack",
+    "25:roost",
+    "30:retaliate",
+    "34:featherdance",
+    "46:swordsdance",
+    "52:bravebird",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:bulkup",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:echoedvoicesound",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fly",
+    "tm:frustration",
+    "tm:lightscreen",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roost",
+    "tm:roundsound",
+    "tm:shadowclaw",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thief",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:workup"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.albivore.desc"
+  ],
+  "preEvolution": "eriegle",
+  "evolutions": [
+    {
+      "id": "albivore_emperiegle",
+      "variant": "level_up",
+      "result": "emperiegle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

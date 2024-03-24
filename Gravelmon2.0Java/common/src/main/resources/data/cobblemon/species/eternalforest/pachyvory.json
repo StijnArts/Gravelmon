@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pachyvory",
-  "nationalPokedexNumber": 2333,
+  "nationalPokedexNumber": 2543,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
@@ -157,7 +157,7 @@
     "cobblemon.species.pachyvory.desc"
   ],
   "preEvolution": "pachyndou",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

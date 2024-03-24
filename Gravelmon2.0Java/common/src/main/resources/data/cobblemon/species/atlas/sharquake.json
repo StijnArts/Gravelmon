@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sharquake",
-  "nationalPokedexNumber": 3415,
+  "nationalPokedexNumber": 4320,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
@@ -102,7 +102,7 @@
     "cobblemon.species.sharquake.desc"
   ],
   "preEvolution": "ampin",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

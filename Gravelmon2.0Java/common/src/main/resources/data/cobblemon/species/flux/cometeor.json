@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cometeor",
-  "nationalPokedexNumber": 2016,
+  "nationalPokedexNumber": 2087,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -61,7 +61,7 @@
     "28:gravitycosmic",
     "28:magnetrise",
     "33:psyshock",
-    "38:cosmicpower",
+    "38:cosmicpowercosmic",
     "43:stealthrock",
     "48:powergemcrystal",
     "53:recover",
@@ -90,7 +90,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

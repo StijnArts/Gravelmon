@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kinegasus",
-  "nationalPokedexNumber": 3046,
+  "nationalPokedexNumber": 3655,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -79,6 +79,8 @@
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:bugnoise",
+    "tutor:shadowclamp",
     "tutor:nastyplot",
     "egg:aircutter",
     "egg:calmmind",
@@ -94,6 +96,7 @@
     "egg:lightscreen",
     "egg:mirrorcoat",
     "egg:mudslap",
+    "egg:psyburn",
     "egg:psychup",
     "egg:raindance",
     "egg:reflect",
@@ -114,7 +117,7 @@
     "cobblemon.species.kinegasus.desc"
   ],
   "preEvolution": "psycolt",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

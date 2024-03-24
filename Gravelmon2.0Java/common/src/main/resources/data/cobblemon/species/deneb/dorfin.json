@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dorfin",
-  "nationalPokedexNumber": 3006,
+  "nationalPokedexNumber": 3615,
   "primaryType": "water",
   "abilities": [
     "waterveil",
@@ -72,10 +72,12 @@
     "tm:triattack",
     "tm:batonpass",
     "tm:mudbomb",
+    "tm:dragonbeat",
     "tm:surf",
     "tm:waterfall",
     "tutor:iciclecrash",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:toxic",
     "tutor:hydropump",
@@ -139,7 +141,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "unymph",
-  "nationalPokedexNumber": 1888,
+  "nationalPokedexNumber": 1959,
   "primaryType": "bug",
   "abilities": [
     "shielddust",
@@ -148,7 +148,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

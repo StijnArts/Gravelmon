@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chilleap",
-  "nationalPokedexNumber": 2279,
+  "nationalPokedexNumber": 2350,
   "primaryType": "normal",
   "abilities": [
     "fluffy",
@@ -102,7 +102,7 @@
     "cobblemon.species.chilleap.desc"
   ],
   "preEvolution": "chinchul",
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

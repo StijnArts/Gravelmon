@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vitisquash",
-  "nationalPokedexNumber": 2468,
+  "nationalPokedexNumber": 2767,
   "primaryType": "normal",
   "secondaryType": "grass",
   "abilities": [
@@ -48,6 +48,16 @@
     "human_like",
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:bacchus_laurel",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:sweetscent",
     "1:tackle",
@@ -86,7 +96,7 @@
       "requiredContext": "gravelmon:bacchus_laurel"   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

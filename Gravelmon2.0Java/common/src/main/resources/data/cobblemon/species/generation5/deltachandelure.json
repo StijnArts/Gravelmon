@@ -94,6 +94,7 @@
     "tm:sleeptalksound",
     "tm:dazzlinggleam",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:incinerate",
     "tm:allyswitch",
     "tm:roundsound",
@@ -130,7 +131,7 @@
     "cobblemon.species.deltachandelure.desc"
   ],
   "preEvolution": "deltalampent",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

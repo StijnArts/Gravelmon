@@ -15,7 +15,7 @@ public class Psyphemus extends drai.dev.gravelmon.pokemon.Pokemon {
                         76,
                         68),
                 List.of(Ability.NO_GUARD,Ability.BERSERK,Ability.ANGER_POINT), Ability.ANGER_POINT,
-                8, 165,
+                22, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 184, ExperienceGroup.MEDIUM_SLOW,
@@ -138,8 +138,8 @@ public class Psyphemus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BODY_SLAM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

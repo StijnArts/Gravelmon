@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunatiken",
-  "nationalPokedexNumber": 2091,
+  "nationalPokedexNumber": 2162,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.lunatiken.desc"
   ],
   "preEvolution": "fowlkly",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

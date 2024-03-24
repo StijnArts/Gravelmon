@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kelprash",
-  "nationalPokedexNumber": 3453,
+  "nationalPokedexNumber": 4358,
   "primaryType": "grass",
   "abilities": [
     "waterabsorb",
@@ -121,7 +121,7 @@
     "cobblemon.species.kelprash.desc"
   ],
   "preEvolution": "kelpush",
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

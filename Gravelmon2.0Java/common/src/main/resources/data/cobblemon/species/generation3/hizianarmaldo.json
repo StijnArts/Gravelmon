@@ -125,7 +125,7 @@
     "cobblemon.species.hizianarmaldo.desc"
   ],
   "preEvolution": "hiziananorith",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

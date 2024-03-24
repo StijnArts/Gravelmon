@@ -15,7 +15,7 @@ public class Tarantailor extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         120),
                 List.of(Ability.INNER_FOCUS,Ability.ADHESIVE,Ability.OVERCOAT), Ability.OVERCOAT,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,2), 80,
                 0.5,
                 166, ExperienceGroup.FAST,
@@ -109,9 +109,8 @@ public class Tarantailor extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLOCK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 42, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

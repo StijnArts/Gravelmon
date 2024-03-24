@@ -15,7 +15,7 @@ public class Casanauta extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         125),
                 List.of(Ability.RIVALRY,Ability.SUCTION_CUPS,Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,2), 90,
                 1.0,
                 175, ExperienceGroup.SLOW,
@@ -24,7 +24,23 @@ public class Casanauta extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("As part of its courtship ritual, it present a bouquet of torn-off Tentacruel tentacles as a gift to a Sirenara. The more potent the venom, the more likely she will accept the Casanauta's offer."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.ATTRACT,1),
+                        new MoveLearnSetEntry(Move.CAPTIVATE,1),
+                        new MoveLearnSetEntry(Move.VENOM_DRENCH,1),
+                        new MoveLearnSetEntry(Move.TOXIC,1),
+                        new MoveLearnSetEntry(Move.ACID_SPRAY,1),
+                        new MoveLearnSetEntry(Move.POISON_JAB,1),
+                        new MoveLearnSetEntry(Move.SWEET_KISS,1),
+                        new MoveLearnSetEntry(Move.DRAINING_KISS,1),
+                        new MoveLearnSetEntry(Move.LOVE_LARIAT,1),
+                        new MoveLearnSetEntry(Move.BIND,1),
+                        new MoveLearnSetEntry(Move.OCTAZOOKA,1),
+                        new MoveLearnSetEntry(Move.DUAL_CHOP,1),
+                        new MoveLearnSetEntry(Move.AQUA_JET,1),
+                        new MoveLearnSetEntry(Move.CROSS_POISON,1),
+                        new MoveLearnSetEntry(Move.CUDDLE,1),
                         new MoveLearnSetEntry(Move.NEUROTOXIN,1),
+
                         new MoveLearnSetEntry(Move.RETURN,"tm"),
                         new MoveLearnSetEntry(Move.HEARTFELTPULSE,"tm"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"tm"),
@@ -68,14 +84,16 @@ public class Casanauta extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLURINGVOICE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 21, 39, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Casanauta");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

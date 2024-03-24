@@ -24,7 +24,8 @@ public class Petirex extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("An ancient Pokemon revived from a Big Tooth Fossil. This Pokemon used to roam the lands in ancient times. Scarcity of food was the reason for its extinction."),
-                List.of(),
+                List.of(new EvolutionEntry("wreckasaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BITE,1),
                         new MoveLearnSetEntry(Move.ROAR,6),
@@ -48,8 +49,8 @@ public class Petirex extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 21, 45, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Rayth extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         90),
                 List.of(Ability.INTIMIDATE), Ability.UNNERVE,
-                8, 165,
+                14, 165,
                 new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -23,19 +23,32 @@ public class Rayth extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING,EggGroup.WATER_1),
                 List.of("They often command large groups of normally mischievous Rayscal to do more sinister things like attack ships. Their horns are burning hot to the touch."),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.WING_ATTACK,1),
-                        new MoveLearnSetEntry(Move.STEEL_WING,"tm")                        ),
+                List.of(         new MoveLearnSetEntry(Move.MALICE_STRIKE,1),
+                        new MoveLearnSetEntry(Move.HORN_ATTACK,1),
+                        new MoveLearnSetEntry(Move.FIRE_FANG,1),
+                        new MoveLearnSetEntry(Move.FIRE_LASH,1),
+                        new MoveLearnSetEntry(Move.FEINT_ATTACK,1),
+                        new MoveLearnSetEntry(Move.NIGHT_SLASH,1),
+                        new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
+                        new MoveLearnSetEntry(Move.MEGAHORN,1),
+                        new MoveLearnSetEntry(Move.CONFUSE_RAY,1),
+                        new MoveLearnSetEntry(Move.TAUNT,1),
+                        new MoveLearnSetEntry(Move.MEAN_LOOK,1),
+                        new MoveLearnSetEntry(Move.LEER,1),
+                        new MoveLearnSetEntry(Move.WING_ATTACK,1)),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 31, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Rayth");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

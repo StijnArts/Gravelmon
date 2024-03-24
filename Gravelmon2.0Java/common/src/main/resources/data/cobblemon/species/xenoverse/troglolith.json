@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "troglolith",
-  "nationalPokedexNumber": 1745,
+  "nationalPokedexNumber": 1755,
   "primaryType": "rock",
   "secondaryType": "normal",
   "abilities": [
@@ -130,7 +130,7 @@
     "cobblemon.species.troglolith.desc"
   ],
   "preEvolution": "rockapye",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

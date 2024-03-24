@@ -7,7 +7,7 @@
       "id": "jawful-1",
       "pokemon": "jawful",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,7 @@
       "level": "23-45",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

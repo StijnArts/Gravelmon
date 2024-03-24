@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kirgicia",
-  "nationalPokedexNumber": 3059,
+  "nationalPokedexNumber": 3668,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -59,7 +59,8 @@
     "12:teleport",
     "17:recover",
     "21:magicalleaf",
-    "28:cosmicpower",
+    "23:hypnopulse",
+    "28:cosmicpowercosmic",
     "32:psychic",
     "34:lightscreen",
     "34:reflect",
@@ -68,6 +69,7 @@
     "45:charm",
     "50:hypnosis",
     "54:followme",
+    "56:gravitywavecosmic",
     "tm:thunderwave",
     "tm:headbutt",
     "tm:amnesia",
@@ -86,10 +88,11 @@
     "tm:willowisp",
     "tm:flash",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
+    "tutor:bugnoise",
     "egg:attract",
     "egg:destinybond",
     "egg:disable",
@@ -142,7 +145,7 @@
       "requiredContext": "cobblemon:moon_stone"   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

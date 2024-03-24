@@ -15,7 +15,7 @@ public class Morosquatch extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         45),
                 List.of(Ability.TANGLING_HAIR), Ability.EMERGENCY_EXIT,
-                8, 165,
+                20, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 186, ExperienceGroup.SLOW,
@@ -132,9 +132,8 @@ public class Morosquatch extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.UPROAR,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

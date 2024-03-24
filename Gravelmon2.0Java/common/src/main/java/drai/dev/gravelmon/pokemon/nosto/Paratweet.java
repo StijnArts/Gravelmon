@@ -15,7 +15,7 @@ public class Paratweet extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         90),
                 List.of(Ability.TANGLED_FEET,Ability.BIG_PECKS,Ability.GALE_WINGS), Ability.GALE_WINGS,
-                8, 165,
+                13, 165,
                 new Stats(0,1,0,0,0,1), 90,
                 0.5,
                 158, ExperienceGroup.MEDIUM_SLOW,
@@ -64,14 +64,14 @@ public class Paratweet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STEEL_WING,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 44, .76, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Paratweet");
+        setCanFly(true);
 
     }
 

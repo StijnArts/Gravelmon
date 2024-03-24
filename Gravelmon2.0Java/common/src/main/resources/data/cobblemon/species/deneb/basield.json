@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "basield",
-  "nationalPokedexNumber": 3077,
+  "nationalPokedexNumber": 3686,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -62,6 +62,7 @@
     "28:gigadrain",
     "37:leafblade",
     "42:aromatherapy",
+    "46:rapidgrowth",
     "51:leafstorm",
     "tm:toxic",
     "tm:gigadrain",
@@ -79,7 +80,9 @@
     "tutor:slash",
     "tutor:seedbomb",
     "tutor:synthesis",
+    "tutor:poisonleaf",
     "tutor:refresh",
+    "tutor:rapidgrowth",
     "egg:bulletseed",
     "egg:charge",
     "egg:chargebeam",
@@ -88,6 +91,7 @@
     "egg:lightscreen",
     "egg:mirrorcoat",
     "egg:naturepower",
+    "egg:psyburn",
     "egg:shockwave",
     "egg:spark",
     "egg:teeterdance",
@@ -117,7 +121,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

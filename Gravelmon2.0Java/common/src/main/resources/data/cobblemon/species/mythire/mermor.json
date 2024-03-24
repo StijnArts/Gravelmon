@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mermor",
-  "nationalPokedexNumber": 2642,
+  "nationalPokedexNumber": 3048,
   "primaryType": "water",
   "abilities": [
     "shellarmor",
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -49,6 +49,8 @@
     "water_2"
   ],
   "moves": [
+    "1:splash",
+    "1:harden",
     "1:tackle",
     "tm:scaleshot"  ],
   "labels": [
@@ -58,7 +60,22 @@
   "pokedex": [
     "cobblemon.species.mermor.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "mermor_shellance",
+      "variant": "level_up",
+      "result": "shellance",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -73,7 +90,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 4,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -15,15 +15,26 @@ public class Swandola extends drai.dev.gravelmon.pokemon.Pokemon {
                         67,
                         108),
                 List.of(Ability.RUBBERBODY), Ability.SWIFT_SWIM,
-                8, 165,
-                new Stats(0,0,0,2,0,1), 0,
+                18, 165,
+                new Stats(0,0,0,2,0,1), 60,
                 0.5,
                 222, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1),
-                List.of("Bounce Flying Dual Wingbeat Flying Tailwind Flying Icy Wind Ice After You Normal EndeavorSTAB Normal Helping Hand Normal Laser Focus Normal Last ResortSTAB Normal Recycle Normal SnoreSTAB Normal Terrain PulseSTAB Normal UproarSTAB Normal Flip TurnSTAB Water LiquidationSTAB Water Water PulseSTAB Water Cuddle Fairy Dazzling Gleam Fairy Love Lariat Fairy Acrobatics Flying Aerial Ace Flying Defog Flying Feather Slash Flying Fly Flying Roost Flying Shadow Ball Ghost Energy Ball Grass Landslide Ground Aurora Veil Ice Blizzard Ice Snowscape Ice Ice Beam Ice Attract Normal Body SlamSTAB Normal Confide Normal Double Team Normal Double-EdgeSTAB Normal Echoed VoiceSTAB Normal FacadeSTAB Normal False SwipeSTAB Normal FrustrationSTAB Normal Giga ImpactSTAB Normal Heartfelt PulseSTAB Normal Hidden PowerSTAB Normal Hyper BeamSTAB Normal Protect Normal Psych Up Normal ReturnSTAB Normal RoundSTAB Normal Safeguard Normal Sleep Talk Normal StrengthSTAB Normal Substitute Normal Swagger Normal Toxic Poison Calm Mind Psychic Light Screen Psychic Reflect Psychic Rest Psychic Steel Wing Steel DiveSTAB Water LiquidationSTAB Water Rain Dance Water ScaldSTAB Water SurfSTAB Water WaterfallSTAB Water WhirlpoolSTAB Water"),
+                List.of(""),
                 List.of(),
-                List.of(
+                List.of(new MoveLearnSetEntry(Move.PLAY_NICE,1),
+                        new MoveLearnSetEntry(Move.LICK,5),
+                        new MoveLearnSetEntry(Move.AQUASLAP,10),
+                        new MoveLearnSetEntry(Move.LIFE_DEW,14),
+                        new MoveLearnSetEntry(Move.BUBBLE_BEAM,18),
+                        new MoveLearnSetEntry(Move.COVET,22),
+                        new MoveLearnSetEntry(Move.SOAK,25),
+                        new MoveLearnSetEntry(Move.MUDDY_WATER,29),
+                        new MoveLearnSetEntry(Move.BODY_SLAM,33),
+                        new MoveLearnSetEntry(Move.LIQUIDATION,38),
+                        new MoveLearnSetEntry(Move.PLAY_ROUGH,44),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,50),
                         new MoveLearnSetEntry(Move.BOUNCE,"tm"),
                         new MoveLearnSetEntry(Move.DUAL_WINGBEAT,"tm"),
                         new MoveLearnSetEntry(Move.TAILWIND,"tm"),
@@ -93,14 +104,15 @@ public class Swandola extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 33, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Swandola");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

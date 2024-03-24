@@ -14,14 +14,15 @@ public class Felifluff extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         80),
                 List.of(Ability.CHLOROPHYLL,Ability.OVERCOAT,Ability.COTTON_DOWN), Ability.COTTON_DOWN,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 119, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("Their playful but elegant behavior makes them the most popular Pokemon among high-society. Brushing its fur improves not only its looks, but also its battling capabilities."),
-                List.of(),
+                List.of(new EvolutionEntry("empurroar", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.GROWTH,6),
@@ -46,10 +47,10 @@ public class Felifluff extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FAKE_OUT,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 33, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

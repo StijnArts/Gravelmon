@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mandiblade",
-  "nationalPokedexNumber": 3161,
+  "nationalPokedexNumber": 3770,
   "primaryType": "steel",
   "secondaryType": "rock",
   "abilities": [
@@ -75,6 +75,7 @@
     "tm:irontail",
     "tm:irondefense",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:mudbomb",
     "tm:woodhammer",
     "tm:nightslash",
@@ -82,6 +83,7 @@
     "tm:strength",
     "tm:rocksmash",
     "tutor:dig",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
@@ -125,7 +127,7 @@
     "cobblemon.species.mandiblade.desc"
   ],
   "preEvolution": "ambilade",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,7 +15,7 @@ public class Ohmigosh extends drai.dev.gravelmon.pokemon.Pokemon {
                         20,
                         155),
                 List.of(Ability.RATTLED,Ability.RUN_AWAY,Ability.WIMP_OUT), Ability.WIMP_OUT,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,2), 80,
                 0.5,
                 177, ExperienceGroup.FAST,
@@ -107,9 +107,8 @@ public class Ohmigosh extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAINING_KISS,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

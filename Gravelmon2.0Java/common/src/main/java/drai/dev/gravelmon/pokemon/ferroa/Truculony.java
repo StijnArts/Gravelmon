@@ -105,10 +105,10 @@ public class Truculony extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.FERROA),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 36, 54, 1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);

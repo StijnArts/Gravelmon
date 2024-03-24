@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "alpalaine",
-  "nationalPokedexNumber": 3418,
+  "nationalPokedexNumber": 4323,
   "primaryType": "normal",
   "abilities": [
     "furcoat",
@@ -110,7 +110,7 @@
     "cobblemon.species.alpalaine.desc"
   ],
   "preEvolution": "woolam",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -23,9 +23,18 @@ public class Wapolyp extends drai.dev.gravelmon.pokemon.Pokemon {
                 230, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_3),
-                List.of("Evo Drain PunchSTAB Fighting - LiquidationSTAB Water - Close CombatSTAB Fighting - Sucker Punch Dark - Acid Armor Poison - Drain PunchSTAB Fighting - Pound Normal - Harden Normal - Work Up Normal - Aqua JetSTAB Water 5 Work Up Normal 9 Aqua JetSTAB Water 16 Circle ThrowSTAB Fighting 23 Flip TurnSTAB Water 30 Soak Water 36 WaterfallSTAB Water 40 Double-Edge Normal 50 Belly Drum Normal 61 Focus PunchSTAB Fighting"),
+                List.of(""),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.DRAIN_PUNCH,1),
+                        new MoveLearnSetEntry(Move.LIQUIDATION,1),
+                        new MoveLearnSetEntry(Move.CLOSE_COMBAT,1),
+                        new MoveLearnSetEntry(Move.SUCKER_PUNCH,1),
+                        new MoveLearnSetEntry(Move.ACID_ARMOR,1),
+                        new MoveLearnSetEntry(Move.DRAIN_PUNCH,1),
+                        new MoveLearnSetEntry(Move.POUND,1),
+                        new MoveLearnSetEntry(Move.HARDEN,1),
+                        new MoveLearnSetEntry(Move.WORK_UP,1),
                         new MoveLearnSetEntry(Move.AQUA_JET,1),
                         new MoveLearnSetEntry(Move.WORK_UP,5),
                         new MoveLearnSetEntry(Move.AQUA_JET,9),
@@ -38,14 +47,16 @@ public class Wapolyp extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOCUS_PUNCH,61)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 29, 43, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Wapolyp");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

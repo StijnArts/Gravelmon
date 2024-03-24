@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mechrazore",
-  "nationalPokedexNumber": 1402,
+  "nationalPokedexNumber": 1412,
   "primaryType": "steel",
   "secondaryType": "dragon",
   "abilities": [
@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.mechrazore.desc"
   ],
-  "baseScale": 0.7125,
+  "baseScale": 0.9500000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

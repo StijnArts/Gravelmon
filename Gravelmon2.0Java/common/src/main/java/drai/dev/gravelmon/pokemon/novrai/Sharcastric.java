@@ -15,7 +15,7 @@ public class Sharcastric extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         75),
                 List.of(Ability.FEROCIOUS), Ability.ELECTROMORPHOSIS,
-                8, 165,
+                14, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 189, ExperienceGroup.SLOW,
@@ -114,14 +114,16 @@ public class Sharcastric extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEGA_DRAIN,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 36, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sharcastric");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

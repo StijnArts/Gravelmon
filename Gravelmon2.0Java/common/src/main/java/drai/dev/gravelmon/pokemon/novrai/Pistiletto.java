@@ -15,7 +15,7 @@ public class Pistiletto extends drai.dev.gravelmon.pokemon.Pokemon {
                         113,
                         99),
                 List.of(Ability.TANGLED_FEET,Ability.AROMA_VEIL,Ability.CUTE_CHARM), Ability.CUTE_CHARM,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,2,0), 70,
                 0.25,
                 175, ExperienceGroup.FAST,
@@ -111,8 +111,8 @@ public class Pistiletto extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "chrysalix",
-  "nationalPokedexNumber": 2596,
+  "nationalPokedexNumber": 3002,
   "primaryType": "rock",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "crystalcase",
+    "h:crystalcase"
   ],
   "baseStats": {
     "hp": 80,
@@ -71,6 +71,7 @@
     "tm:earthquake",
     "tm:return",
     "tm:dig",
+    "tm:shimmershot",
     "tm:sandstorm",
     "tm:rocktomb",
     "tm:gigaimpact",
@@ -94,7 +95,7 @@
     "cobblemon.species.chrysalix.desc"
   ],
   "preEvolution": "hoennianonix",
-  "baseScale": 0.80625,
+  "baseScale": 1.075,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

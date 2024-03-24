@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "birryde",
-  "nationalPokedexNumber": 2886,
+  "nationalPokedexNumber": 3406,
   "primaryType": "flying",
   "abilities": [
     "keeneye",
@@ -73,7 +73,7 @@
     "cobblemon.species.birryde.desc"
   ],
   "preEvolution": "birred",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

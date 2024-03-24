@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chainmaw",
-  "nationalPokedexNumber": 2048,
+  "nationalPokedexNumber": 2119,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
@@ -96,7 +96,7 @@
     "cobblemon.species.chainmaw.desc"
   ],
   "preEvolution": "termunch",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

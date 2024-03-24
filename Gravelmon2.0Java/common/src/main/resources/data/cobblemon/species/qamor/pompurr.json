@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "pompurr",
+  "nationalPokedexNumber": 3130,
+  "primaryType": "normal",
+  "secondaryType": "fairy",
+  "abilities": [
+    "cutecharm",
+    "h:friendguard"
+  ],
+  "baseStats": {
+    "hp": 64,
+    "attack": 95,
+    "defence": 50,
+    "special_attack": 95,
+    "special_defence": 50,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.75,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "moves": [
+    "1:tickle",
+    "4:babydolleyes",
+    "8:bite",
+    "12:furyswipes",
+    "14:attract",
+    "19:heartstamp",
+    "25:agility",
+    "29:drainingkiss",
+    "34:batonpass",
+    "37:drainpunch",
+    "43:captivate",
+    "46:playrough",
+    "50:moonblast",
+    "58:hypervoicesound",
+    "tm:amnesia",
+    "tm:tailslap",
+    "tm:copycat",
+    "tm:disarmingvoicesound",
+    "tm:dragondance",
+    "tm:calmmind",
+    "tm:irontail",
+    "tm:assist"  ],
+  "labels": [
+    "qamor",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.pompurr.desc"
+  ],
+  "preEvolution": "munchkitty",
+  "baseScale": 0.45,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 18,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

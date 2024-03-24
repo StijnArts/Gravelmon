@@ -47,7 +47,7 @@
 
   ],
   "moves": [
-    "1:cosmicpower",
+    "1:cosmicpowercosmic",
     "1:seismictoss",
     "10:gravitycosmic",
     "20:earthpower",
@@ -66,7 +66,7 @@
   "pokedex": [
     "cobblemon.species.interianarceus.desc"
   ],
-  "baseScale": 0.525,
+  "baseScale": 0.7000000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

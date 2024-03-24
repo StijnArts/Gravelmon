@@ -48,16 +48,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-1",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:stockpile",
     "1:swallow",
@@ -149,7 +139,7 @@
   "pokedex": [
     "cobblemon.species.leukoon.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

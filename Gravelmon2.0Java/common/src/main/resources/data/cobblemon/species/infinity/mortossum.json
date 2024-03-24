@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mortossum",
-  "nationalPokedexNumber": 1315,
+  "nationalPokedexNumber": 1325,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -48,16 +48,6 @@
     "amorphous",
     "monster"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:teeterdance",
     "1:disarmingvoicesound",

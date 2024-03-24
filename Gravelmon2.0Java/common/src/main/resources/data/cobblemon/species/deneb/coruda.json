@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coruda",
-  "nationalPokedexNumber": 3116,
+  "nationalPokedexNumber": 3725,
   "primaryType": "flying",
   "abilities": [
     "rockhead",
@@ -49,6 +49,7 @@
   "moves": [
     "3:peck",
     "5:defog",
+    "11:glide",
     "13:whirlwind",
     "15:aerialace",
     "21:featherdance",
@@ -79,6 +80,7 @@
     "tm:featherdance",
     "tm:fly",
     "tm:flash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:rest",
@@ -93,7 +95,7 @@
     "cobblemon.species.coruda.desc"
   ],
   "preEvolution": "yolkid",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

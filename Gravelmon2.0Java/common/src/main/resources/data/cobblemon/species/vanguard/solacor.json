@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solacor",
-  "nationalPokedexNumber": 2717,
+  "nationalPokedexNumber": 3237,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -144,7 +144,7 @@
     "cobblemon.species.solacor.desc"
   ],
   "preEvolution": "amacorala",
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

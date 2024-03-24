@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "underrap",
-  "nationalPokedexNumber": 2654,
+  "nationalPokedexNumber": 3060,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -136,12 +136,15 @@
     "tm:coil"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.underrap.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "gauza",
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -156,7 +159,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 8,
+  "height": 18,
   "weight": 165,
   "aspects": [],
 "features": [

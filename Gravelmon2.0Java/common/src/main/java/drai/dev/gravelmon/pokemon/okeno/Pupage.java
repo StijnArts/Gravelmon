@@ -14,23 +14,23 @@ public class Pupage extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         20),
                 List.of(Ability.SHIELD_DUST), Ability.PLOTTWIST,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,2,0), 120,
                 0.5,
                 72, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Evo Rest Psychic"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("beetome", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.REST,1)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 22, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_BOOKSHELVES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pupage");

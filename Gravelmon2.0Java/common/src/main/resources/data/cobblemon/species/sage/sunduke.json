@@ -47,16 +47,6 @@
   "eggGroups": [
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "cobblemon:sun_stone",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:feintattack",
     "1:sweetscent",
@@ -123,7 +113,7 @@
     "cobblemon.species.sunduke.desc"
   ],
   "preEvolution": "drosire",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

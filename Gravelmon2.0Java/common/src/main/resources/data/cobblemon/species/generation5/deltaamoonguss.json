@@ -110,6 +110,7 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:roundsound",
     "tm:captivate",
@@ -149,7 +150,7 @@
     "cobblemon.species.deltaamoonguss.desc"
   ],
   "preEvolution": "deltafoongus",
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

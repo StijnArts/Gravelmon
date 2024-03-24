@@ -49,16 +49,6 @@
     "monster",
     "mineral"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:redstone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:discharge",
     "1:thundershock",
@@ -165,7 +155,7 @@
       "requiredContext": "cobblemon:thunder_stone"   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

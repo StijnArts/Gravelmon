@@ -15,14 +15,15 @@ public class Nemosis extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         73),
                 List.of(Ability.SURGE_SURFER,Ability.PICKPOCKET,Ability.GALVANIZE), Ability.GALVANIZE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 220,
                 0.5,
                 70, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("The tentacles on its back were once a separate symbiotic organism, but over time the two fused together. Its body is covered in a special film so it doesn't shock itself."),
-                List.of(),
+                List.of(new EvolutionEntry("anembidex", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,5),
@@ -94,14 +95,16 @@ public class Nemosis extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BATON_PASS,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 4, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nemosis");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

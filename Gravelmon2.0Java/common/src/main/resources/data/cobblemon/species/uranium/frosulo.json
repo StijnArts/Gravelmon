@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "frosulo",
-  "nationalPokedexNumber": 1921,
+  "nationalPokedexNumber": 1992,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
@@ -128,7 +128,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "battenbae",
-  "nationalPokedexNumber": 3419,
+  "nationalPokedexNumber": 4324,
   "primaryType": "fairy",
   "abilities": [
     "sweetveil",
@@ -56,6 +56,7 @@
     "29:safeguard",
     "34:recycle",
     "38:dazzlinggleam",
+    "43:sugarrush",
     "47:recover",
     "52:energyball",
     "58:moonblast",
@@ -102,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.battenbae.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

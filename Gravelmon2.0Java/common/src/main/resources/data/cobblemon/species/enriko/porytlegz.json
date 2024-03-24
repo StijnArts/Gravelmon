@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "porytlegz",
-  "nationalPokedexNumber": 1694,
+  "nationalPokedexNumber": 1704,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.porytlegz.desc"
   ],
   "preEvolution": "porytleg",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

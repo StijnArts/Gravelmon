@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "botaneer",
-  "nationalPokedexNumber": 3278,
+  "nationalPokedexNumber": 4181,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -121,7 +121,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

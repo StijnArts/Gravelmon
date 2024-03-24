@@ -15,14 +15,15 @@ public class Puppond extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         75),
                 List.of(Ability.SWIFT_SWIM,Ability.COURAGEOUS,Ability.LIMBER), Ability.LIMBER,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 160,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("Originally, it was trained to herd fish into a net so they could be easily scooped out of the water. It's a loyal pet for those who don't mind the wet dog smell."),
-                List.of(),
+                List.of(new EvolutionEntry("pembrook", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -103,11 +104,11 @@ public class Puppond extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUASLAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Puppond");

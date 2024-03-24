@@ -15,14 +15,15 @@ public class Cupscape extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         13),
                 List.of(Ability.BATTLE_ARMOR), Ability.DAZZLING,
-                8, 165,
-                new Stats(0,0,1,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,1,0,0,0), 220,
                 0.5,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Cupscapes are small, sparkling pieces of reef that are generally very docile and passive. They hardly move, and typically let other lifeforms take refuge on top of them."),
-                List.of(),
+                List.of(new EvolutionEntry("nodescape", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"Hypnode\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.HAPPYSLAP,3),
@@ -41,14 +42,15 @@ public class Cupscape extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_GEM,51)                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 2, 23, 5.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Cupscape");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

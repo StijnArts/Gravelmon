@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "auroreel",
-  "nationalPokedexNumber": 1567,
+  "nationalPokedexNumber": 1577,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -121,7 +121,7 @@
   "pokedex": [
     "cobblemon.species.auroreel.desc"
   ],
-  "baseScale": 0.54375,
+  "baseScale": 0.725,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

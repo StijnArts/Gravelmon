@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zhimm",
-  "nationalPokedexNumber": 3504,
+  "nationalPokedexNumber": 4409,
   "primaryType": "psychic",
   "abilities": [
     "magician",
@@ -84,7 +84,7 @@
       ]   
  }
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

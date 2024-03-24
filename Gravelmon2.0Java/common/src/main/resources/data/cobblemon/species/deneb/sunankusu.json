@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sunankusu",
-  "nationalPokedexNumber": 3218,
+  "nationalPokedexNumber": 3827,
   "primaryType": "ground",
   "abilities": [
     "sandstream",
@@ -57,6 +57,7 @@
     "22:headbutt",
     "25:yawn",
     "31:stomp",
+    "36:gravitywavecosmic",
     "38:powergemcrystal",
     "45:zenheadbutt",
     "53:calmmind",
@@ -72,6 +73,7 @@
     "tutor:psychup",
     "tutor:extrasensory",
     "tutor:hypnosis",
+    "tutor:hypnopulse",
     "egg:grudge",
     "egg:vacuumwave",
     "egg:sandattack",
@@ -91,7 +93,7 @@
     "cobblemon.species.sunankusu.desc"
   ],
   "preEvolution": "rakusuna",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

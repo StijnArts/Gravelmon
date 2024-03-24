@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tetoraito",
-  "nationalPokedexNumber": 3256,
+  "nationalPokedexNumber": 3865,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -112,7 +112,7 @@
     "cobblemon.species.tetoraito.desc"
   ],
   "preEvolution": "lumineon",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -17,14 +17,15 @@ public class Aquatick extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         50),
                 List.of(Ability.WATER_ABSORB), Ability.WATER_BUBBLE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                2, 165,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- Bug BiteSTAB Bug - Water Sport Water - String Shot Bug 6 Leer Normal 12 Bite Dark 22 Sticky Web Bug 32 DiveSTAB Water 36 InfestationSTAB Bug 40 LiquidationSTAB Water 46 Rain Dance Water 52 Crunch Dark 60 Leech LifeSTAB Bug"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("clagcoon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.LEER,6),
@@ -42,11 +43,11 @@ public class Aquatick extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 19, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Aquatick");

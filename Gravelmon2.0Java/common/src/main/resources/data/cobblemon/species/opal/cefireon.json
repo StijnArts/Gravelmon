@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cefireon",
-  "nationalPokedexNumber": 1415,
+  "nationalPokedexNumber": 1425,
   "primaryType": "flying",
   "abilities": [
     "lightningrod",
@@ -73,7 +73,7 @@
     "cobblemon.species.cefireon.desc"
   ],
   "preEvolution": "eevee",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

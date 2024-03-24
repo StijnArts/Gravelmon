@@ -17,7 +17,7 @@ public class Pappybara extends drai.dev.gravelmon.pokemon.Pokemon {
                         79,
                         67),
                 List.of(Ability.PARENTAL_BOND), Ability.PARENTAL_BOND,
-                8, 165,
+                11, 165,
                 new Stats(2,0,0,0,0,0), 30,
                 1.0,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -42,11 +42,11 @@ public class Pappybara extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SURF,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 43, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pappybara");

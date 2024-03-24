@@ -5,8 +5,8 @@
   "primaryType": "psychic",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "fruitrition",
+    "h:fruitrition"
   ],
   "baseStats": {
     "hp": 80,
@@ -53,6 +53,7 @@
     "1:poisonpowder",
     "7:confusion",
     "13:magicalleaf",
+    "20:ripen",
     "28:synthesis",
     "41:psybeam",
     "48:recover",
@@ -64,6 +65,7 @@
     "tm:bulletseed",
     "tm:hiddenpower",
     "tm:sunnyday",
+    "tm:veiledsky",
     "tm:hyperbeam",
     "tm:lightscreen",
     "tm:protect",
@@ -75,6 +77,7 @@
     "tm:return",
     "tm:psychic",
     "tm:shadowball",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:flamethrower",
@@ -96,7 +99,7 @@
     "cobblemon.species.hoennianreuniclus.desc"
   ],
   "preEvolution": "hoennianduosion",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

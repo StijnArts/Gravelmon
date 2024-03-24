@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "moluschant",
-  "nationalPokedexNumber": 2174,
+  "nationalPokedexNumber": 2245,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.moluschant.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

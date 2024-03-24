@@ -17,7 +17,7 @@ public class Quadrossal extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         100),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                33, 165,
                 new Stats(2,0,0,0,1,0), 3,
                 0.0,
                 0, ExperienceGroup.SLOW,
@@ -43,14 +43,16 @@ public class Quadrossal extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Quadrossal");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

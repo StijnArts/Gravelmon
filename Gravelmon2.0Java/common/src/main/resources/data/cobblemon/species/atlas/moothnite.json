@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "moothnite",
-  "nationalPokedexNumber": 3333,
+  "nationalPokedexNumber": 4236,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -127,7 +127,7 @@
     "cobblemon.species.moothnite.desc"
   ],
   "preEvolution": "crescoon",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -7,16 +7,15 @@
       "id": "helful-1",
       "pokemon": "helful",
       "presets": [
-          "natural"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
+      "bucket": "rare",
       "level": "3-22",
-      "weight": 3.8,
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_sandy" ],
         "canSeeSky": true
       }
     }

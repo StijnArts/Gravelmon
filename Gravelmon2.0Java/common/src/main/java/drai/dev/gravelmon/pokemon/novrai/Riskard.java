@@ -15,14 +15,15 @@ public class Riskard extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         55),
                 List.of(Ability.SUPER_LUCK,Ability.JACKPOT,Ability.MALICE), Ability.MALICE,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,1,0,0), 180,
                 0.5,
                 71, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("A discarded playing card that took on a life of its own. It's naturally attracted to lucky people, but its presence seems to cause misfortune."),
-                List.of(),
+                List.of(new EvolutionEntry("dektout", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,4),
@@ -107,11 +108,11 @@ public class Riskard extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Riskard");

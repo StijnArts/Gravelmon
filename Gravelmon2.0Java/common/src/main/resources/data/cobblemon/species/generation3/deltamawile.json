@@ -175,6 +175,7 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:echoedvoicesound",
     "tm:roundsound",
     "tm:captivate",
@@ -230,7 +231,7 @@
   "pokedex": [
     "cobblemon.species.deltamawile.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

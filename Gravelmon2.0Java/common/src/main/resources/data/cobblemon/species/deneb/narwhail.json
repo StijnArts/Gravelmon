@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "narwhail",
-  "nationalPokedexNumber": 3008,
+  "nationalPokedexNumber": 3617,
   "primaryType": "ice",
   "abilities": [
     "waterabsorb",
@@ -64,6 +64,7 @@
     "44:hail",
     "48:drillrun",
     "55:calmmind",
+    "62:frostbite",
     "66:horndrill",
     "70:blizzard",
     "tm:headbutt",
@@ -79,14 +80,17 @@
     "tm:triattack",
     "tm:batonpass",
     "tm:mudbomb",
+    "tm:dragonbeat",
     "tm:surf",
     "tm:rocksmash",
     "tm:waterfall",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
+    "tutor:bugnoise",
     "tutor:iciclecrash",
     "egg:aquajet",
     "egg:aquatail",
@@ -122,7 +126,7 @@
     "cobblemon.species.narwhail.desc"
   ],
   "preEvolution": "dorfin",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

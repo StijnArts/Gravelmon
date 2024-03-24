@@ -5,6 +5,7 @@
   "primaryType": "normal",
   "abilities": [
     "limber",
+    "adrenaline",
     "h:unburden"
   ],
   "baseStats": {
@@ -46,16 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_chicken",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:growl",
     "1:scratch",
@@ -143,7 +134,7 @@
     "cobblemon.species.jaguile.desc"
   ],
   "preEvolution": "pounther",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pajay",
-  "nationalPokedexNumber": 1856,
+  "nationalPokedexNumber": 1927,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -121,7 +121,7 @@
     "cobblemon.species.pajay.desc"
   ],
   "preEvolution": "palij",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

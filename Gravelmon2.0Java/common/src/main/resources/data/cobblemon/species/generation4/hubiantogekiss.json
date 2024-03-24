@@ -49,6 +49,16 @@
     "flying",
     "fairy"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:golden_feather",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:eggbomb",
     "tm:snoresound",
@@ -161,7 +171,7 @@
     "cobblemon.species.hubiantogekiss.desc"
   ],
   "preEvolution": "hubiantogetic",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

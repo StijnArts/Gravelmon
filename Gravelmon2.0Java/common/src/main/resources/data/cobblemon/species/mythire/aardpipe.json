@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aardpipe",
-  "nationalPokedexNumber": 2652,
+  "nationalPokedexNumber": 3058,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -47,6 +47,19 @@
     "field"
   ],
   "moves": [
+    "1:hypervoicesound",
+    "1:roundsound",
+    "1:teeterdance",
+    "1:followme",
+    "1:entrainment",
+    "1:scratch",
+    "1:supersonic",
+    "1:taunt",
+    "1:odorsleuth",
+    "1:astonish",
+    "1:wakeupslap",
+    "1:uproar",
+    "1:workup",
     "1:stomp",
     "tm:aerialace",
     "tm:attract",
@@ -116,7 +129,7 @@
   "pokedex": [
     "cobblemon.species.aardpipe.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

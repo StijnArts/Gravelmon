@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glaufang",
-  "nationalPokedexNumber": 2938,
+  "nationalPokedexNumber": 3458,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
@@ -88,7 +88,7 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

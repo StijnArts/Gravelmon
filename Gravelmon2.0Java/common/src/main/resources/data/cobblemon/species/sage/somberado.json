@@ -48,16 +48,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:bulletseed",
     "1:lockon",
@@ -142,7 +132,7 @@
   "pokedex": [
     "cobblemon.species.somberado.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

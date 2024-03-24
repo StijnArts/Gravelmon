@@ -15,26 +15,41 @@ public class Nodescape extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         21),
                 List.of(Ability.BATTLE_ARMOR), Ability.MAGIC_GUARD,
-                8, 165,
-                new Stats(0,0,1,0,1,0), 0,
+                11, 165,
+                new Stats(0,0,1,0,1,0), 110,
                 0.5,
                 144, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("When a Hypnode has taken residence inside a Cupscape, it evolves into Nodescape. The Cupscape always appears to let the Hypnode take residence, but its partnership with it is considered parasitic."),
-                List.of(),
+                List.of(new EvolutionEntry("reefazoid", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
-                        new MoveLearnSetEntry(Move.HARDEN,1)                        ),
+                        new MoveLearnSetEntry(Move.HYPNOSIS,1),
+                        new MoveLearnSetEntry(Move.DAZZLING_GLEAM,1),
+                        new MoveLearnSetEntry(Move.PROTECT,1),
+                        new MoveLearnSetEntry(Move.HELPING_HAND,1),
+                        new MoveLearnSetEntry(Move.ROCK_THROW,1),
+                        new MoveLearnSetEntry(Move.WIDE_GUARD,1),
+                        new MoveLearnSetEntry(Move.ALLY_SWITCH,1),
+                        new MoveLearnSetEntry(Move.ROCK_BLAST,1),
+                        new MoveLearnSetEntry(Move.RAINBOW_GUST,1),
+                        new MoveLearnSetEntry(Move.BIDE,1),
+                        new MoveLearnSetEntry(Move.MIRROR_COAT,1),
+                        new MoveLearnSetEntry(Move.LIGHT_SCREEN,1),
+                        new MoveLearnSetEntry(Move.REFLECT,1),
+                        new MoveLearnSetEntry(Move.HARDEN,1)),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 2, 23, 5.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nodescape");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

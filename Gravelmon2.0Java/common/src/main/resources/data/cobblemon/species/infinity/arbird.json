@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arbird",
-  "nationalPokedexNumber": 1320,
+  "nationalPokedexNumber": 1330,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
@@ -127,7 +127,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "squinja",
-  "nationalPokedexNumber": 2335,
+  "nationalPokedexNumber": 2545,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -155,7 +155,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

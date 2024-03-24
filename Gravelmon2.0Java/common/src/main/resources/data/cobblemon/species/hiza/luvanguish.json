@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luvanguish",
-  "nationalPokedexNumber": 2139,
+  "nationalPokedexNumber": 2210,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.luvanguish.desc"
   ],
   "preEvolution": "hizianluvdisc",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

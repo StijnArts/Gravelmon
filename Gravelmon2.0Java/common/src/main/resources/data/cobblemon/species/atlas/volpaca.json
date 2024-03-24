@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "volpaca",
-  "nationalPokedexNumber": 3359,
+  "nationalPokedexNumber": 4262,
   "primaryType": "fire",
   "abilities": [
     "flamebody",
@@ -121,7 +121,7 @@
       "requiredContext": "cobblemon:fire_stone"   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

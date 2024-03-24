@@ -7,16 +7,15 @@
       "id": "ottoil-1",
       "pokemon": "ottoil",
       "presets": [
-          "natural"
+          "freshwater"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
+      "bucket": "uncommon",
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_swamp" ],
         "canSeeSky": true
       }
     }

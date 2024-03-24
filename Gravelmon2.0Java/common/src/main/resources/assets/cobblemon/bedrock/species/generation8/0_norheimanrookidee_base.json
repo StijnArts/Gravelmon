@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:norheimanrookidee",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation8_norheimanrookidee",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation8/norheimanrookidee.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation8/norheimanrookidee_shiny.png"
+    }  ]
+}

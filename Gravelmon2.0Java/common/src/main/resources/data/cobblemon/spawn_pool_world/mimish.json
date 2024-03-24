@@ -7,7 +7,7 @@
       "id": "mimish-1",
       "pokemon": "mimish",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,7 @@
       "level": "1-20",
       "weight": 7.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

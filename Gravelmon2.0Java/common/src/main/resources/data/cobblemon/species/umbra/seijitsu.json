@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seijitsu",
-  "nationalPokedexNumber": 2522,
+  "nationalPokedexNumber": 2928,
   "primaryType": "dark",
   "abilities": [
     "guts",
@@ -132,7 +132,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

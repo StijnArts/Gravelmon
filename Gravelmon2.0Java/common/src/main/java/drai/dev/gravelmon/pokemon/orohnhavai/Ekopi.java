@@ -17,14 +17,15 @@ public class Ekopi extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         55),
                 List.of(Ability.OVERGROW), Ability.KEEN_EYE,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Ekopi love to climb up trees and eat the leaves that make up most of its diet. They like to craft various objects and weapons with leaves and twigs."),
-                List.of(),
+                List.of(new EvolutionEntry("ekoraft", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.VINE_WHIP,5),
@@ -49,8 +50,8 @@ public class Ekopi extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

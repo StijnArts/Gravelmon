@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rivird",
-  "nationalPokedexNumber": 3088,
+  "nationalPokedexNumber": 3697,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -54,6 +54,7 @@
     "7:watergun",
     "11:watersport",
     "17:aquajet",
+    "21:glide",
     "27:whirlwind",
     "31:aerialace",
     "37:agility",
@@ -83,6 +84,7 @@
     "egg:calmmind",
     "egg:doubleteam",
     "egg:endure",
+    "egg:frostbite",
     "egg:furyattack",
     "egg:magiccoat",
     "egg:mist",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ruffiguin",
-  "nationalPokedexNumber": 2637,
+  "nationalPokedexNumber": 3043,
   "primaryType": "ice",
   "secondaryType": "fighting",
   "abilities": [
@@ -35,7 +35,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -50,6 +50,21 @@
     "field"
   ],
   "moves": [
+    "1:payback",
+    "1:peck",
+    "1:iceshard",
+    "1:crosschop",
+    "1:throatchop",
+    "1:agility",
+    "1:reversal",
+    "1:takedown",
+    "1:skyuppercut",
+    "1:icepunch",
+    "1:detect",
+    "1:iciclespear",
+    "1:lowkick",
+    "1:pluck",
+    "1:acrobatics",
     "tm:block",
     "tm:covet",
     "tm:helpinghand",
@@ -140,12 +155,15 @@
     "tm:zenheadbutt"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ruffiguin.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "strappen",
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -160,7 +178,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

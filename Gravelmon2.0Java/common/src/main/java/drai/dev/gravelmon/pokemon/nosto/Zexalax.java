@@ -15,7 +15,7 @@ public class Zexalax extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         50),
                 List.of(Ability.LEVITATE), Ability.ILLUMINATE,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,3,0,0), 90,
                 0.5,
                 177, ExperienceGroup.FLUCTUATING,
@@ -40,14 +40,16 @@ public class Zexalax extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZAP_CANNON,62)                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 39, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Zexalax");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -17,14 +17,15 @@ public class Mousense extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         55),
                 List.of(Ability.RUN_AWAY,Ability.ANTICIPATION,Ability.TELEPATHY), Ability.TELEPATHY,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 55, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("A common sight throughout the Havai region. Its whiskers allow it to sense any changes in its surroundings."),
-                List.of(),
+                List.of(new EvolutionEntry("sensarat", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ODOR_SLEUTH,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -47,9 +48,8 @@ public class Mousense extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 21, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

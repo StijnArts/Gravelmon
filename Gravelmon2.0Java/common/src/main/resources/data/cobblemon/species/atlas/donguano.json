@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "donguano",
-  "nationalPokedexNumber": 3526,
+  "nationalPokedexNumber": 4431,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
@@ -109,7 +109,7 @@
     "cobblemon.species.donguano.desc"
   ],
   "preEvolution": "tinguano",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

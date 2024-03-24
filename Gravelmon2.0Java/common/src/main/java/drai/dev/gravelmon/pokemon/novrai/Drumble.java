@@ -15,14 +15,16 @@ public class Drumble extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         60),
                 List.of(Ability.MULTISCALE), Ability.SAP_SIPPER,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 90,
                 0.5,
                 56, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("An odd Pokemon that can be seen sitting in treetops, grazing on leaves. It clumsily falls from its perches often, but its hard scales keep it safe."),
-                List.of(),
+                List.of(new EvolutionEntry("draggop", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.SCARY_FACE,5),
@@ -119,11 +121,10 @@ public class Drumble extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGONFANG,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Drumble");

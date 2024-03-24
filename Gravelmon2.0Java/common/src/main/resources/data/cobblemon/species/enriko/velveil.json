@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "velveil",
-  "nationalPokedexNumber": 1644,
+  "nationalPokedexNumber": 1654,
   "primaryType": "fairy",
   "abilities": [
     "forewarn",
@@ -82,7 +82,7 @@
       "requiredContext": "cobblemon:moon_stone"   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

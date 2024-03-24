@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lihgeri",
-  "nationalPokedexNumber": 2841,
+  "nationalPokedexNumber": 3361,
   "primaryType": "fairy",
   "secondaryType": "electric",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.lihgeri.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lizzle",
-  "nationalPokedexNumber": 3118,
+  "nationalPokedexNumber": 3727,
   "primaryType": "water",
   "abilities": [
     "drizzle",
@@ -81,11 +81,13 @@
     "tutor:hiddenpower",
     "tutor:toxic",
     "tutor:hydropump",
+    "tutor:shadowclamp",
     "egg:acidspray",
     "egg:avalanche",
     "egg:barrier",
     "egg:bide",
     "egg:endure",
+    "egg:frostbite",
     "egg:hail",
     "egg:iceball",
     "egg:icebeam",

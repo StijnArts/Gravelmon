@@ -21,8 +21,8 @@ public class GenerationSeven extends Game {
     public void registerPokemon() {
         pokemon.add(new QamoranSandygast(769));
 
-//        pokemon.add(new NostanMorelull(755)); NOT FINISHED
-//        pokemon.add(new NostanShiinotic(756)); NOT FINISHED
+//        pokemon.add(new NostanMorelull(755)); Missing Stats
+//        pokemon.add(new NostanShiinotic(756)); Missing Stats
 
         pokemon.add(new VaritasianBounsweet(761));
         pokemon.add(new VaritasianSteenee(762));

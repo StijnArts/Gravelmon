@@ -15,7 +15,7 @@ public class Kuldown extends drai.dev.gravelmon.pokemon.Pokemon {
                         121,
                         97),
                 List.of(Ability.MISTY_SURGE,Ability.HEATPROOF,Ability.RAIN_DISH), Ability.RAIN_DISH,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 177, ExperienceGroup.MEDIUM_FAST,
@@ -95,8 +95,9 @@ public class Kuldown extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_SHARD,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

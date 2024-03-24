@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunabitt",
-  "nationalPokedexNumber": 3012,
+  "nationalPokedexNumber": 3621,
   "primaryType": "psychic",
   "abilities": [
     "keeneye",
@@ -55,6 +55,7 @@
     "16:swiftcosmic",
     "20:psybeam",
     "25:meanlook",
+    "31:hypnopulse",
     "35:moonlight",
     "40:futuresight",
     "46:lightscreen",
@@ -77,7 +78,7 @@
     "tm:flash",
     "tm:rocksmash",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:rest",
     "tutor:toxic",
     "tutor:dig",
@@ -85,7 +86,7 @@
     "egg:assist",
     "egg:attract",
     "egg:barrier",
-    "egg:cosmicpower",
+    "egg:cosmicpowercosmic",
     "egg:doubleedge",
     "egg:encore",
     "egg:fakeout",
@@ -98,6 +99,7 @@
     "egg:icepunch",
     "egg:imprison",
     "egg:protect",
+    "egg:psyburn",
     "egg:psychup",
     "egg:raindance",
     "egg:rapidspin",
@@ -105,6 +107,7 @@
     "egg:roleplay",
     "egg:skillswap",
     "egg:snoresound",
+    "egg:stardustcosmic",
     "egg:sunnyday",
     "egg:superfang",
     "egg:thunderpunch"  ],
@@ -128,7 +131,7 @@
       "requiredContext": "cobblemon:moon_stone"   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

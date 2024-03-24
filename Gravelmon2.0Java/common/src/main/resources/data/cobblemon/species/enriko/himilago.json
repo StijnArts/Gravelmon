@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "himilago",
-  "nationalPokedexNumber": 1692,
+  "nationalPokedexNumber": 1702,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
@@ -66,7 +66,7 @@
     "cobblemon.species.himilago.desc"
   ],
   "preEvolution": "crystalis",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

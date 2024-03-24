@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vermacrom",
-  "nationalPokedexNumber": 2687,
+  "nationalPokedexNumber": 3093,
   "primaryType": "ground",
   "secondaryType": "fire",
   "abilities": [
@@ -50,6 +50,21 @@
     "monster"
   ],
   "moves": [
+    "1:magnitude",
+    "1:earthpower",
+    "1:stompingtantrum",
+    "1:drillrun",
+    "1:leechlife",
+    "1:dig",
+    "1:eruption",
+    "1:firelash",
+    "1:flameburst",
+    "1:incinerate",
+    "1:focusenergy",
+    "1:coil",
+    "1:wringout",
+    "1:rapidspin",
+    "1:firespin",
     "1:hyperdrill",
     "tm:attract",
     "tm:bide",
@@ -122,7 +137,7 @@
   "pokedex": [
     "cobblemon.species.vermacrom.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -137,7 +152,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 21,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kusomarume",
-  "nationalPokedexNumber": 3260,
+  "nationalPokedexNumber": 3869,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -93,7 +93,7 @@
     "cobblemon.species.kusomarume.desc"
   ],
   "preEvolution": "sukabi",
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

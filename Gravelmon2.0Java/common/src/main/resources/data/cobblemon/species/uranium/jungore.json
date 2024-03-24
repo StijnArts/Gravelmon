@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jungore",
-  "nationalPokedexNumber": 1932,
+  "nationalPokedexNumber": 2003,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
@@ -140,7 +140,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

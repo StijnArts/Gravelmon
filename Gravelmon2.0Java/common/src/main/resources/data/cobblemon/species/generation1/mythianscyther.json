@@ -48,6 +48,16 @@
   "eggGroups": [
     "bug"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:preadite",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:bulletpunch",
     "1:flamecharge",
@@ -111,7 +121,7 @@
       "requiredContext": "gravelmon:preadite"   
  }
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

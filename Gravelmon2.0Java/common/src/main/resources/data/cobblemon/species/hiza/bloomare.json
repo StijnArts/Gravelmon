@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bloomare",
-  "nationalPokedexNumber": 2120,
+  "nationalPokedexNumber": 2191,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.bloomare.desc"
   ],
   "preEvolution": "dryath",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

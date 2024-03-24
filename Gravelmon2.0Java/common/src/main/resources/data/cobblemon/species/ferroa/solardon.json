@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solardon",
-  "nationalPokedexNumber": 1457,
+  "nationalPokedexNumber": 1467,
   "primaryType": "rock",
   "abilities": [
     "mirrorarmor",
@@ -140,7 +140,7 @@
     "cobblemon.species.solardon.desc"
   ],
   "preEvolution": "shardodon",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

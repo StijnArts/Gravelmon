@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mandrazooka",
-  "nationalPokedexNumber": 1512,
+  "nationalPokedexNumber": 1522,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -133,7 +133,8 @@
     "tm:worryseed",
     "tm:counter",
     "tm:smog",
-    "tm:smokescreen"  ],
+    "tm:smokescreen",
+    "tm:firecracker"  ],
   "labels": [
     "ferroa",
     "not_modeled",
@@ -144,7 +145,7 @@
     "cobblemon.species.mandrazooka.desc"
   ],
   "preEvolution": "manchinade",
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

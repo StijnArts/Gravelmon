@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arctikull",
-  "nationalPokedexNumber": 2507,
+  "nationalPokedexNumber": 2806,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
@@ -103,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.arctikull.desc"
   ],
-  "baseScale": 0.84375,
+  "baseScale": 1.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

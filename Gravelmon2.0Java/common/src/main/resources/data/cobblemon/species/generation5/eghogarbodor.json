@@ -47,16 +47,6 @@
   "eggGroups": [
     "mineral"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:rotten_flesh",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:mudslap",
     "1:smog",
@@ -151,7 +141,7 @@
     "cobblemon.species.eghogarbodor.desc"
   ],
   "preEvolution": "eghotrubbish",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

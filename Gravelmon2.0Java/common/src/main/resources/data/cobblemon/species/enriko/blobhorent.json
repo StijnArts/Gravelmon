@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blobhorent",
-  "nationalPokedexNumber": 1672,
+  "nationalPokedexNumber": 1682,
   "primaryType": "water",
   "abilities": [
     "cutecharm",
@@ -67,7 +67,7 @@
     "cobblemon.species.blobhorent.desc"
   ],
   "preEvolution": "fatfish",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

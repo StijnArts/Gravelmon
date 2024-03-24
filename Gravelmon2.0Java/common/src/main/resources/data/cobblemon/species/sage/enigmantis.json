@@ -48,16 +48,6 @@
   "eggGroups": [
     "bug"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:scratch",
     "1:meditate",
@@ -107,7 +97,7 @@
     "tm:substitute",
     "tm:sleeptalksound",
     "tm:cut",
-    "egg:cosmicpower",
+    "egg:cosmicpowercosmic",
     "egg:hypnosis",
     "egg:magicroom",
     "egg:meditate",
@@ -125,7 +115,7 @@
     "cobblemon.species.enigmantis.desc"
   ],
   "preEvolution": "enigmite",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

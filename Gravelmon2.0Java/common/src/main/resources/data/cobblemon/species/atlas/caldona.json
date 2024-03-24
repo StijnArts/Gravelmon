@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caldona",
-  "nationalPokedexNumber": 3412,
+  "nationalPokedexNumber": 4317,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -125,7 +125,7 @@
       ]   
  }
   ],
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

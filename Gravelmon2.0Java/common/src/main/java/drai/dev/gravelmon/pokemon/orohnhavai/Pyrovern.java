@@ -17,7 +17,7 @@ public class Pyrovern extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         100),
                 List.of(Ability.BLAZE), Ability.DEFIANT,
-                8, 165,
+                15, 165,
                 new Stats(0,1,0,2,0,0), 45,
                 0.875,
                 231, ExperienceGroup.MEDIUM_SLOW,
@@ -53,14 +53,13 @@ public class Pyrovern extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Pyrovern");
+        setCanFly(true);
 
     }
 

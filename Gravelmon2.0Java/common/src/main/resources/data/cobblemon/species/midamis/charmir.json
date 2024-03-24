@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "charmir",
-  "nationalPokedexNumber": 2872,
+  "nationalPokedexNumber": 3392,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -88,7 +88,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

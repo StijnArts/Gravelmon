@@ -15,25 +15,26 @@ public class Neurymph extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         30),
                 List.of(Ability.UNNERVE,Ability.TELEPATHY,Ability.RATTLED), Ability.RATTLED,
-                8, 165,
+                1, 165,
                 new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 42, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It sends signals to others by emitting subtle psychic pulses. Neurymph eggs are commonly laid upon the back of a Cascarapace."),
-                List.of(),
+                List.of(new EvolutionEntry("cognisalis", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MIRACLE_EYE,1),
                         new MoveLearnSetEntry(Move.FLAIL,5),
                         new MoveLearnSetEntry(Move.BUG_BITE,15)                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 12, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Neurymph");

@@ -15,14 +15,15 @@ public class Karroot extends drai.dev.gravelmon.pokemon.Pokemon {
                         42,
                         40),
                 List.of(Ability.TINTED_LENS,Ability.FRISK,Ability.CHLOROPHYLL), Ability.CHLOROPHYLL,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,1,0,0), 230,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Its strange eyes are incredibly powerful, giving it perfect vision even in the dark. A single bite of its body will cause you to glow orange for several days."),
-                List.of(),
+                List.of(new EvolutionEntry("kerratic", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,5),
@@ -111,11 +112,11 @@ public class Karroot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORRY_SEED,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 29, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Karroot");

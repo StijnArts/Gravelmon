@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flingzer",
-  "nationalPokedexNumber": 1502,
+  "nationalPokedexNumber": 1512,
   "primaryType": "grass",
   "abilities": [
     "skilllink",
@@ -109,7 +109,7 @@
   "pokedex": [
     "cobblemon.species.flingzer.desc"
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

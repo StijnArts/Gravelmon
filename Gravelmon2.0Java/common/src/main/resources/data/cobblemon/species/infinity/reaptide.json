@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reaptide",
-  "nationalPokedexNumber": 1296,
+  "nationalPokedexNumber": 1306,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -119,7 +119,7 @@
   "pokedex": [
     "cobblemon.species.reaptide.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

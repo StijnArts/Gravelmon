@@ -15,7 +15,7 @@ public class Whirlibyg extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         75),
                 List.of(Ability.LEVITATE,Ability.PINWHEEL,Ability.SPEED_BOOST), Ability.SPEED_BOOST,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 58, ExperienceGroup.FAST,
@@ -37,14 +37,14 @@ public class Whirlibyg extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TWISTER,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Whirlibyg");
+        setCanFly(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snalo",
-  "nationalPokedexNumber": 3041,
+  "nationalPokedexNumber": 3650,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -68,6 +68,7 @@
     "tm:amnesia",
     "tm:substitute",
     "tm:energyball",
+    "tm:poisonleaf",
     "tm:icywind",
     "tm:leechseed",
     "tm:irondefense",
@@ -79,7 +80,7 @@
     "tm:cut",
     "tm:surf",
     "tm:flash",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:hydropump",
     "tutor:hiddenpower",
     "tutor:iciclecrash",
@@ -89,6 +90,7 @@
     "egg:blizzard",
     "egg:crosspoison",
     "egg:encore",
+    "egg:frostbite",
     "egg:grassknot",
     "egg:grasswhistle",
     "egg:growth",
@@ -100,6 +102,7 @@
     "egg:mirrorcoat",
     "egg:naturepower",
     "egg:raindance",
+    "egg:rapidgrowth",
     "egg:reflect",
     "egg:safeguard",
     "egg:sunnyday",
@@ -127,7 +130,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

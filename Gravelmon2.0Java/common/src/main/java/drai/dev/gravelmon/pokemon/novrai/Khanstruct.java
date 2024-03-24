@@ -15,7 +15,7 @@ public class Khanstruct extends drai.dev.gravelmon.pokemon.Pokemon {
                         82,
                         35),
                 List.of(Ability.STALWART,Ability.MOLD_BREAKER,Ability.SKILL_LINK), Ability.SKILL_LINK,
-                8, 165,
+                22, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 184, ExperienceGroup.MEDIUM_SLOW,
@@ -111,11 +111,11 @@ public class Khanstruct extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 35, 54, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Khanstruct");

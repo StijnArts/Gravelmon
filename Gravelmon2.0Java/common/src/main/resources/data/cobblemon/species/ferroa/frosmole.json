@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "frosmole",
-  "nationalPokedexNumber": 1477,
+  "nationalPokedexNumber": 1487,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -135,7 +135,7 @@
     "cobblemon.species.frosmole.desc"
   ],
   "preEvolution": "digloo",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

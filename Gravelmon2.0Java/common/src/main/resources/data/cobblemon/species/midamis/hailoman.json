@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hailoman",
-  "nationalPokedexNumber": 2971,
+  "nationalPokedexNumber": 3491,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.hailoman.desc"
   ],
   "preEvolution": "karmean",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

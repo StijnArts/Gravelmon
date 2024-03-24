@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tyranntric",
-  "nationalPokedexNumber": 1399,
+  "nationalPokedexNumber": 1409,
   "primaryType": "electric",
   "secondaryType": "dragon",
   "abilities": [
@@ -58,6 +58,7 @@
     "28:discharge",
     "35:dragontail",
     "42:calmmind",
+    "49:thunderclap",
     "56:dragonhammer",
     "63:risingvoltage",
     "70:dragonpulse",
@@ -71,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.tyranntric.desc"
   ],
-  "baseScale": 0.46875,
+  "baseScale": 0.625,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -17,7 +17,7 @@ public class Dambattoir extends drai.dev.gravelmon.pokemon.Pokemon {
                         94,
                         70),
                 List.of(Ability.BLAZE), Ability.WANDERING_SPIRIT,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,3,0,0), 45,
                 0.875,
                 240, ExperienceGroup.ERRATIC,
@@ -55,8 +55,9 @@ public class Dambattoir extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

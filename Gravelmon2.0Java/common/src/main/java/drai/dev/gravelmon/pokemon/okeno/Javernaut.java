@@ -14,8 +14,8 @@ public class Javernaut extends drai.dev.gravelmon.pokemon.Pokemon {
                         66,
                         54),
                 List.of(Ability.SUNSCREEN,Ability.THICK_FAT,Ability.SCRAPPY), Ability.SCRAPPY,
-                8, 165,
-                new Stats(1,2,0,0,0,0), 0,
+                21, 165,
+                new Stats(1,2,0,0,0,0), 45,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -33,11 +33,12 @@ public class Javernaut extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_CRASH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.NEAR_MUD),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Javernaut");

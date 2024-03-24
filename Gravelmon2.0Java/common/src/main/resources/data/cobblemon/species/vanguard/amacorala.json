@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "amacorala",
-  "nationalPokedexNumber": 2716,
+  "nationalPokedexNumber": 3236,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -154,7 +154,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

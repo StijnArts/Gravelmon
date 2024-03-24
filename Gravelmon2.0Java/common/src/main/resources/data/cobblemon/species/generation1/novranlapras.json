@@ -141,6 +141,7 @@
     "tm:sheercold",
     "tm:horndrill",
     "tm:megahorn",
+    "tm:thunderclap",
     "tm:hypnosis",
     "tm:brine"  ],
   "labels": [
@@ -153,7 +154,7 @@
     "cobblemon.species.novranlapras.desc"
   ],
   "preEvolution": "pressie",
-  "baseScale": 0.46875,
+  "baseScale": 0.625,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

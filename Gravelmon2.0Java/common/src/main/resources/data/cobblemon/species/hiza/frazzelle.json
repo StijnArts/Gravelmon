@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "frazzelle",
-  "nationalPokedexNumber": 2131,
+  "nationalPokedexNumber": 2202,
   "primaryType": "electric",
   "secondaryType": "grass",
   "abilities": [
@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.frazzelle.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

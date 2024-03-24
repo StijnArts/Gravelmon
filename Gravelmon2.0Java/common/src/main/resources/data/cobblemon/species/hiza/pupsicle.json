@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pupsicle",
-  "nationalPokedexNumber": 2223,
+  "nationalPokedexNumber": 2294,
   "primaryType": "ice",
   "abilities": [
     "icebody",
@@ -82,7 +82,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flurse",
-  "nationalPokedexNumber": 2862,
+  "nationalPokedexNumber": 3382,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
@@ -89,7 +89,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

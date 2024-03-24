@@ -17,7 +17,7 @@ public class Clawgigus extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         60),
                 List.of(Ability.SHELL_ARMOR,Ability.STAKEOUT,Ability.ARENA_TRAP), Ability.ARENA_TRAP,
-                8, 165,
+                13, 165,
                 new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 167, ExperienceGroup.MEDIUM_FAST,
@@ -42,10 +42,10 @@ public class Clawgigus extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 59, .45, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

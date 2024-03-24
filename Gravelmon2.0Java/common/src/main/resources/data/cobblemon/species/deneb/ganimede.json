@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ganimede",
-  "nationalPokedexNumber": 3071,
+  "nationalPokedexNumber": 3680,
   "primaryType": "flying",
   "abilities": [
     "pressure",
@@ -60,6 +60,7 @@
     "73:skyattack",
     "81:typhoon",
     "89:calmmind",
+    "97:psyburn",
     "tm:airslash",
     "tm:thunderwave",
     "tm:substitute",
@@ -70,17 +71,19 @@
     "tm:shadowball",
     "tm:triattack",
     "tm:confuseray",
+    "tm:ragingflame",
     "tm:heatwave",
     "tm:willowisp",
     "tm:featherdance",
     "tm:fly",
     "tm:flash",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:rest",
     "tutor:toxic",
     "tutor:iciclecrash",
-    "tutor:nastyplot"  ],
+    "tutor:nastyplot",
+    "tutor:bugnoise"  ],
   "labels": [
     "deneb",
     "legendary",
@@ -89,7 +92,7 @@
   "pokedex": [
     "cobblemon.species.ganimede.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

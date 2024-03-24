@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ptervus",
-  "nationalPokedexNumber": 3061,
+  "nationalPokedexNumber": 3670,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
@@ -71,6 +71,7 @@
     "tm:irondefense",
     "tm:bravebird",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:heatwave",
     "tm:willowisp",
     "tm:nightslash",
@@ -78,6 +79,7 @@
     "tm:fly",
     "tm:rocksmash",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:toxic",
     "egg:aircutter",
@@ -88,6 +90,7 @@
     "egg:drillrun",
     "egg:facade",
     "egg:focusenergy",
+    "egg:glide",
     "egg:mirrormove",
     "egg:protect",
     "egg:rage",
@@ -122,7 +125,7 @@
       ]   
  }
   ],
-  "baseScale": 0.50625,
+  "baseScale": 0.6749999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

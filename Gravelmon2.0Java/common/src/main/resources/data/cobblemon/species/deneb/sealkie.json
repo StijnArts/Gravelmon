@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sealkie",
-  "nationalPokedexNumber": 3145,
+  "nationalPokedexNumber": 3754,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -81,19 +81,21 @@
     "tm:surf",
     "tm:rocksmash",
     "tutor:rest",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:hiddenpower",
     "tutor:toxic",
     "tutor:nastyplot",
     "egg:aquajet",
     "egg:aquatail",
     "egg:blizzard",
+    "egg:bugnoise",
     "egg:calmmind",
     "egg:charm",
     "egg:faketears",
     "egg:frustration",
     "egg:hail",
     "egg:hyperbeam",
+    "egg:hypnopulse",
     "egg:icebeam",
     "egg:lightscreen",
     "egg:magiccoat",
@@ -133,7 +135,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

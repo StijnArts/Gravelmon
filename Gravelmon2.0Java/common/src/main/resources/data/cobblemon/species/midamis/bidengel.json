@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bidengel",
-  "nationalPokedexNumber": 2890,
+  "nationalPokedexNumber": 3410,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -80,7 +80,7 @@
     "cobblemon.species.bidengel.desc"
   ],
   "preEvolution": "biduane",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

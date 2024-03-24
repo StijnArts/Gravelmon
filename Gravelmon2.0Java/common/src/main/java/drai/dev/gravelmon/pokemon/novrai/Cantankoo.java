@@ -15,7 +15,7 @@ public class Cantankoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         95),
                 List.of(Ability.UNBURDEN,Ability.INFILTRATOR,Ability.OPPORTUNIST), Ability.OPPORTUNIST,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,1), 70,
                 0.5,
                 161, ExperienceGroup.FAST,
@@ -101,14 +101,13 @@ public class Cantankoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COMEUPPANCE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 46, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Cantankoo");
+        setCanFly(true);
 
     }
 

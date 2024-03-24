@@ -14,14 +14,15 @@ public class Frutifeye extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         50),
                 List.of(Ability.CLAIRVOYANCE,Ability.KEEN_EYE,Ability.FOREWARN), Ability.FOREWARN,
-                8, 165,
-                new Stats(0,0,0,0,1,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,1,0), 150,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
-                List.of("- PsywaveSTAB Psychic - Foresight Normal 5 Mean Look Normal 8 Razor LeafSTAB Grass 12 Mind Reader Normal 18 PsybeamSTAB Psychic 22 Magical LeafSTAB Grass 25 Fake Tears Dark 29 Miracle Eye Psychic 31 Solar BeamSTAB Grass 36 Worry Seed Grass 40 Phantom Force Ghost 47 Memento Dark 52 Future SightSTAB Psychic"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("guaraneye", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.FORESIGHT,1),
                         new MoveLearnSetEntry(Move.MEAN_LOOK,5),
@@ -43,8 +44,9 @@ public class Frutifeye extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEX,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 31, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"false"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "visimander",
-  "nationalPokedexNumber": 2528,
+  "nationalPokedexNumber": 2934,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -122,7 +122,7 @@
     "cobblemon.species.visimander.desc"
   ],
   "preEvolution": "axolil",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

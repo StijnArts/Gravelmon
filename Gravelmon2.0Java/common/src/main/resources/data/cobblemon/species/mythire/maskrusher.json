@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maskrusher",
-  "nationalPokedexNumber": 2669,
+  "nationalPokedexNumber": 3075,
   "primaryType": "dragon",
   "abilities": [
     "intimidate",
@@ -49,6 +49,21 @@
     "monster"
   ],
   "moves": [
+    "1:skullbash",
+    "1:focusenergy",
+    "1:dragondance",
+    "1:reversal",
+    "1:detect",
+    "1:foresight",
+    "1:slam",
+    "1:dragontail",
+    "1:dragonclaw",
+    "1:headsmash",
+    "1:stomp",
+    "1:breakingswipe",
+    "1:nobleroarsound",
+    "1:bellydrum",
+    "1:scaryface",
     "tm:return",
     "tm:frustration",
     "tm:gigaimpact",
@@ -93,12 +108,15 @@
     "tm:toxic"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.maskrusher.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "maskilisk",
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

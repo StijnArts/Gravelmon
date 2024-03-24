@@ -53,11 +53,12 @@
       {
         "item": "gravelmon:kaleidoscope",
         "quantityRange": "1-1",
-        "percentage": 25
+        "percentage": 40
       }
     ]
   },
   "moves": [
+    "1:tempest",
     "1:psybeam",
     "1:morningsun",
     "1:sunnyday",
@@ -154,7 +155,7 @@
     "cobblemon.species.royjibiv.desc"
   ],
   "preEvolution": "arjibi",
-  "baseScale": 0.84375,
+  "baseScale": 1.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

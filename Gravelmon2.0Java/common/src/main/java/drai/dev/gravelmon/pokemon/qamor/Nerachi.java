@@ -17,7 +17,7 @@ public class Nerachi extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         30),
                 List.of(Ability.STURDY,Ability.PICKUP,Ability.SHELL_ARMOR), Ability.SHELL_ARMOR,
-                8, 165,
+                22, 165,
                 new Stats(2,0,0,0,0,0), 50,
                 0.5,
                 196, ExperienceGroup.SLOW,
@@ -49,14 +49,16 @@ public class Nerachi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRINE,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 31, 47, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nerachi");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

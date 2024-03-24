@@ -49,16 +49,6 @@
     "dragon",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:gunpowder",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:luckychant",
     "1:ember",
@@ -145,7 +135,7 @@
     "cobblemon.species.fuelong.desc"
   ],
   "preEvolution": "crakling",
-  "baseScale": 0.6,
+  "baseScale": 0.7999999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

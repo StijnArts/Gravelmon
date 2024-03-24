@@ -7,7 +7,7 @@ import java.util.*;
 public class Astroyatlas extends drai.dev.gravelmon.pokemon.Pokemon {
     public Astroyatlas() {
         super("Astroyatlas",
-                Type.FAIRY,Type.BUG,
+                Type.COSMIC,Type.BUG,
                 new Stats(120,
                         80,
                         90,
@@ -15,7 +15,7 @@ public class Astroyatlas extends drai.dev.gravelmon.pokemon.Pokemon {
                         130,
                         100),
                 List.of(Ability.LUNARPHASE), Ability.LUNARPHASE,
-                8, 165,
+                32, 165,
                 new Stats(0,0,0,3,0,0), 3,
                 0.0,
                 306, ExperienceGroup.SLOW,
@@ -109,14 +109,14 @@ public class Astroyatlas extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Astroyatlas");
+        setCanFly(true);
 
     }
 

@@ -15,7 +15,7 @@ public class Blendulum extends drai.dev.gravelmon.pokemon.Pokemon {
                         141,
                         52),
                 List.of(Ability.MAGICIAN), Ability.ILLUSION,
-                8, 165,
+                19, 165,
                 new Stats(0,0,0,0,2,0), 60,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -129,11 +129,12 @@ public class Blendulum extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MINIMIZE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Blendulum");

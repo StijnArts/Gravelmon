@@ -17,14 +17,15 @@ public class Gremleaf extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         90),
                 List.of(Ability.OVERGROW), Ability.RIPEN,
-                8, 165,
+                12, 165,
                 new Stats(0,1,0,1,0,0), 45,
                 0.875,
                 142, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FIELD),
                 List.of("Little to nothing seems to peek a Gremleaf's curiosity, it goes about its days caring about less and less. Nevertheless, this Pokemon is known for prancing around the jungle floor, flapping wildly to confuse and startle predators while dancing rhythmically to entertain others- all with a completely dull poker face."),
-                List.of(),
+                List.of(new EvolutionEntry("tropifox", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCREECH,1),
                         new MoveLearnSetEntry(Move.CUT,6),
@@ -55,14 +56,15 @@ public class Gremleaf extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROUND,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Gremleaf");
+        setCanFly(true);
 
     }
 

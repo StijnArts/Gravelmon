@@ -15,14 +15,15 @@ public class Prospecktor extends drai.dev.gravelmon.pokemon.Pokemon {
                         47,
                         73),
                 List.of(Ability.PRIDEFULSTANCE,Ability.JACKPOT,Ability.SAND_RUSH), Ability.SAND_RUSH,
-                8, 165,
+                7, 165,
                 new Stats(0,1,0,0,0,1), 80,
                 0.5,
                 134, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("It carves minerals from the caves it lives in to supplement its diet. It will often repurpose abandoned minecarts as nests in which to lay its eggs."),
-                List.of(),
+                List.of(new EvolutionEntry("raptorado", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.GROWL,6),
@@ -96,14 +97,15 @@ public class Prospecktor extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROTOTILLER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 38, 1.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Prospecktor");
+        setCanFly(true);
 
     }
 

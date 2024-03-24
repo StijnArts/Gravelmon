@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zebatoru",
-  "nationalPokedexNumber": 3184,
+  "nationalPokedexNumber": 3793,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -81,10 +81,12 @@
     "tutor:nastyplot",
     "egg:blizzard",
     "egg:curse",
+    "egg:cursedwrath",
     "egg:disable",
     "egg:doubleteam",
     "egg:doubleedge",
     "egg:drillrun",
+    "egg:frostbite",
     "egg:icebeam",
     "egg:iciclecrash",
     "egg:muddywater",
@@ -105,7 +107,7 @@
     "cobblemon.species.zebatoru.desc"
   ],
   "preEvolution": "shobuna",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,7 +15,7 @@ public class Snomatcha extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         60),
                 List.of(Ability.AROMA_VEIL,Ability.ICE_BODY,Ability.NATURAL_CURE), Ability.NATURAL_CURE,
-                8, 165,
+                26, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
@@ -100,8 +100,9 @@ public class Snomatcha extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLASH,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 58, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tricwe",
-  "nationalPokedexNumber": 1860,
+  "nationalPokedexNumber": 1931,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -47,6 +47,16 @@
   "eggGroups": [
     "bug"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:poisonsting",
     "1:stringshot",

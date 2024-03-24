@@ -15,14 +15,15 @@ public class Piluma extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         20),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 57, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("- Tackle Normal - Harden Normal - Confuse Ray Ghost 4 PsywaveSTAB Psychic 7 Rock ThrowSTAB Rock 10 ConfusionSTAB Psychic 13 Rock Polish Rock 16 Moonlight Fairy 19 Swift Normal 23 Cosmic Power Psychic 26 Lucky Chant Normal 29 Ancient PowerSTAB Rock 32 Crop Circle Psychic 35 PsychicSTAB Psychic 38 Earth Power Ground 41 Power GemSTAB Rock 45 StarstreamSTAB Psychic 49 Stone EdgeSTAB Rock"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("killarumi", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,1),
                         new MoveLearnSetEntry(Move.PSYWAVE,4),
@@ -67,11 +68,11 @@ public class Piluma extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 31, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS, SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Piluma");

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "korboral",
-  "nationalPokedexNumber": 3457,
+  "nationalPokedexNumber": 4362,
   "primaryType": "normal",
   "secondaryType": "grass",
   "abilities": [
@@ -109,7 +109,7 @@
     "cobblemon.species.korboral.desc"
   ],
   "preEvolution": "wombabe",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

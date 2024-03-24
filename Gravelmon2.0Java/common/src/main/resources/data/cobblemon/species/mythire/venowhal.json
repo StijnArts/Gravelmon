@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "venowhal",
-  "nationalPokedexNumber": 2671,
+  "nationalPokedexNumber": 3077,
   "primaryType": "ice",
   "secondaryType": "poison",
   "abilities": [
@@ -30,12 +30,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -150,7 +150,7 @@
   "pokedex": [
     "cobblemon.species.venowhal.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -165,7 +165,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 23,
   "weight": 165,
   "aspects": [],
 "features": [

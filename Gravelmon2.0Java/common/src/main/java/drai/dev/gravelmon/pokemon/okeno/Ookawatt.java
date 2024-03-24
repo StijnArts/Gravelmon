@@ -14,7 +14,7 @@ public class Ookawatt extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         104),
                 List.of(Ability.SWIFT_SWIM,Ability.HUSTLE,Ability.SURGE_SURFER), Ability.SURGE_SURFER,
-                8, 165,
+                10, 165,
                 new Stats(1,0,0,0,0,0), 200,
                 0.5,
                 105, ExperienceGroup.ERRATIC,
@@ -46,14 +46,15 @@ public class Ookawatt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLIP_TURN,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, .67, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Ookawatt");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

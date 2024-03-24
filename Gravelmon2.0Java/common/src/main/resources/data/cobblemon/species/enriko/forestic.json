@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "forestic",
-  "nationalPokedexNumber": 1613,
+  "nationalPokedexNumber": 1623,
   "primaryType": "normal",
   "abilities": [
     "clearbody",
@@ -70,7 +70,7 @@
     "cobblemon.species.forestic.desc"
   ],
   "preEvolution": "plastree",
-  "baseScale": 0.45,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

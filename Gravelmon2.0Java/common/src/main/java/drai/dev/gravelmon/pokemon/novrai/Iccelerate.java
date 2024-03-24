@@ -15,7 +15,7 @@ public class Iccelerate extends drai.dev.gravelmon.pokemon.Pokemon {
                         66,
                         129),
                 List.of(Ability.SLUSH_RUSH), Ability.SPEED_BOOST,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,2), 60,
                 0.5,
                 182, ExperienceGroup.MEDIUM_FAST,
@@ -97,8 +97,8 @@ public class Iccelerate extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENDURE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

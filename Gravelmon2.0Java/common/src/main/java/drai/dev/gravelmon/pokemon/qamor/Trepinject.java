@@ -17,7 +17,7 @@ public class Trepinject extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         90),
                 List.of(Ability.INTIMIDATE), Ability.INTIMIDATE,
-                8, 165,
+                1, 165,
                 new Stats(0,0,0,0,0,0), 75,
                 0.5,
                 162, ExperienceGroup.MEDIUM_SLOW,
@@ -39,14 +39,15 @@ public class Trepinject extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FELL_STINGER,49)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 41, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Trepinject");
+        setCanFly(true);
 
     }
 

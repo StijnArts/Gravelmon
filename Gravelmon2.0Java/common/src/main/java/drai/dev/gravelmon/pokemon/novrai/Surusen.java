@@ -15,7 +15,7 @@ public class Surusen extends drai.dev.gravelmon.pokemon.Pokemon {
                         130,
                         80),
                 List.of(Ability.OBLIVIOUS), Ability.STAMINA,
-                8, 165,
+                24, 165,
                 new Stats(0,0,3,0,0,0), 3,
                 0.0,
                 297, ExperienceGroup.SLOW,
@@ -110,9 +110,9 @@ public class Surusen extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_CLIMB,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

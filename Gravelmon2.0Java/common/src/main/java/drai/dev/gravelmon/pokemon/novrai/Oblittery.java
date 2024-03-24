@@ -15,14 +15,15 @@ public class Oblittery extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         45),
                 List.of(Ability.VOLT_ABSORB,Ability.LEVITATE,Ability.BATTERY), Ability.BATTERY,
-                8, 165,
+                7, 165,
                 new Stats(0,2,0,0,0,0), 110,
                 0.0,
                 131, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Its aggressive tendencies are multiplied tenfold when it's overloaded with electricity. It may intentionally break electrical devices, trying to provoke confrontations."),
-                List.of(),
+                List.of(new EvolutionEntry("durassault", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ACID,1),
                         new MoveLearnSetEntry(Move.CHARGE_BEAM,12),
@@ -91,11 +92,12 @@ public class Oblittery extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 34, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Oblittery");

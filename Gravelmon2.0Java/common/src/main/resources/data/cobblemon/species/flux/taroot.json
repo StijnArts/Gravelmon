@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "taroot",
-  "nationalPokedexNumber": 2005,
+  "nationalPokedexNumber": 2076,
   "primaryType": "grass",
   "abilities": [
     "rattled",
@@ -84,7 +84,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

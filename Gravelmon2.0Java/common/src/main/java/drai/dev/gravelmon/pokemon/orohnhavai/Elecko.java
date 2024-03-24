@@ -17,7 +17,7 @@ public class Elecko extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         100),
                 List.of(Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 210, ExperienceGroup.MEDIUM_SLOW,
@@ -47,8 +47,8 @@ public class Elecko extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 28, 45, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

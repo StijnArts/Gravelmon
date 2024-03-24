@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lephan",
-  "nationalPokedexNumber": 3048,
+  "nationalPokedexNumber": 3657,
   "primaryType": "ground",
   "abilities": [
     "synchronize",
@@ -73,9 +73,10 @@
     "tm:rocksmash",
     "tutor:dig",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:shadowclamp",
     "tutor:nastyplot",
     "egg:ancientpower",
     "egg:calmmind",
@@ -84,6 +85,7 @@
     "egg:earthpower",
     "egg:earthquake",
     "egg:extrasensory",
+    "egg:gravitywavecosmic",
     "egg:hiddenpower",
     "egg:hyperbeam",
     "egg:hypnosis",
@@ -101,6 +103,7 @@
     "egg:sleeptalksound",
     "egg:snatch",
     "egg:snoresound",
+    "egg:stardustcosmic",
     "egg:stomp",
     "egg:sunnyday",
     "egg:takedown",
@@ -127,7 +130,7 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

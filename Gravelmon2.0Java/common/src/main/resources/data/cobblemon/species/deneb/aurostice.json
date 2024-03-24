@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aurostice",
-  "nationalPokedexNumber": 3011,
+  "nationalPokedexNumber": 3620,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -62,9 +62,11 @@
     "32:icebeam",
     "38:icepunch",
     "45:amnesia",
+    "50:frostbite",
     "56:moonblast",
     "63:blizzard",
     "tm:waterpulse",
+    "tm:frostbite",
     "tm:frustration",
     "tm:willowisp",
     "tm:ominouswind",
@@ -109,7 +111,7 @@
     "cobblemon.species.aurostice.desc"
   ],
   "preEvolution": "frozaiden",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

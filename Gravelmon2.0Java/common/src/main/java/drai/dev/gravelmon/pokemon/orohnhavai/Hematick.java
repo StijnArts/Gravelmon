@@ -17,14 +17,15 @@ public class Hematick extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         60),
                 List.of(Ability.KEEN_EYE,Ability.RUN_AWAY,Ability.POWERLEECH), Ability.POWERLEECH,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 50, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It feeds on the blood of any big Pokemon it latches onto without them noticing. It will not let go until it's full."),
-                List.of(),
+                List.of(new EvolutionEntry("vorvosip", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.LEECH_LIFE,5),
@@ -49,8 +50,8 @@ public class Hematick extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

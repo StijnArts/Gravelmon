@@ -15,14 +15,15 @@ public class Principillar extends drai.dev.gravelmon.pokemon.Pokemon {
                         25,
                         40),
                 List.of(Ability.SHIELD_DUST,Ability.SWARM,Ability.EARLY_BIRD), Ability.EARLY_BIRD,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 39, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("- String Shot Bug - Tackle Normal - Growl Normal 3 Scuttle HopSTAB Bug 6 Struggle BugSTAB Bug 14 Bug BiteSTAB Bug"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("kookoon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"7")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,3),
@@ -63,10 +64,10 @@ public class Principillar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKILL_SWAP,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 11, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

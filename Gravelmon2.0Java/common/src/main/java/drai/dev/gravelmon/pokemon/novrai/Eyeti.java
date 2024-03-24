@@ -15,14 +15,15 @@ public class Eyeti extends drai.dev.gravelmon.pokemon.Pokemon {
                         81,
                         56),
                 List.of(Ability.COMPOUND_EYES,Ability.TRACE,Ability.DOWNLOAD), Ability.DOWNLOAD,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 180,
                 0.5,
                 58, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("It floats up to the surface from the deepest parts of the ocean, examining life on land. No one knows what information it gathers before returning to the sea."),
-                List.of(),
+                List.of(new EvolutionEntry("cerebarrel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GLOWSIGNAL,1),
                         new MoveLearnSetEntry(Move.FLASH,3),
@@ -110,14 +111,16 @@ public class Eyeti extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Eyeti");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

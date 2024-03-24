@@ -15,7 +15,7 @@ public class Gliderweb extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         113),
                 List.of(Ability.INTIMIDATE), Ability.AERILATE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 162, ExperienceGroup.FAST,
@@ -106,10 +106,10 @@ public class Gliderweb extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SILK_TRAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 26, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_TAIGA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

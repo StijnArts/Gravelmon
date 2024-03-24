@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "charryon",
+  "nationalPokedexNumber": 2628,
+  "primaryType": "ghost",
+  "secondaryType": "water",
+  "abilities": [
+    "swiftswim",
+    "h:drizzle"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 85,
+    "defence": 75,
+    "special_attack": 95,
+    "special_defence": 120,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 40,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+
+  ],
+  "moves": [
+    "1:raindance",
+    "1:tearfullook",
+    "1:aquajet",
+    "1:aquaring",
+    "1:surf",
+    "1:hex",
+    "1:ominouswind",
+    "1:tailwind",
+    "1:hurricane",
+    "1:gust",
+    "1:liquidation",
+    "1:dive",
+    "1:aquatail",
+    "1:perishsongsound",
+    "1:destinybond"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.charryon.desc"
+  ],
+  "baseScale": 0.47500000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

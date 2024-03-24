@@ -15,7 +15,7 @@ public class Belostoke extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         80),
                 List.of(Ability.SNIPER,Ability.MAGMA_ARMOR,Ability.NEUTRALIZING_GAS), Ability.NEUTRALIZING_GAS,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 172, ExperienceGroup.MEDIUM_SLOW,
@@ -24,7 +24,18 @@ public class Belostoke extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It uses gusts of smog to smoke out its Bug Pokemon prey, then sucks them up by inhaling through its tiny mouth. The leftover shells of its prey are used as fuel to create more smoke."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.TOXICFUMES,1),
+                        new MoveLearnSetEntry(Move.SMOKESCREEN,1),
+                        new MoveLearnSetEntry(Move.SMOKE_BOMB,1),
+                        new MoveLearnSetEntry(Move.SMOG,1),
+                        new MoveLearnSetEntry(Move.INCINERATE,1),
+                        new MoveLearnSetEntry(Move.FIRE_BLAST,1),
+                        new MoveLearnSetEntry(Move.FLAME_BURST,1),
+                        new MoveLearnSetEntry(Move.LOCKON,1),
+                        new MoveLearnSetEntry(Move.DRAGON_BREATH,1),
+                        new MoveLearnSetEntry(Move.WHIRLWIND,1),
+                        new MoveLearnSetEntry(Move.STOMP,1),
+                        new MoveLearnSetEntry(Move.CAUSTIC_BREATH,1),
+                        new MoveLearnSetEntry(Move.TOXIC_FUMES,1),
                         new MoveLearnSetEntry(Move.DEFOG,"tm"),
                         new MoveLearnSetEntry(Move.LAST_RESORT,"tm"),
                         new MoveLearnSetEntry(Move.LOW_KICK,"tm"),
@@ -42,11 +53,10 @@ public class Belostoke extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCORCHING_SANDS,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 45, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_BASALT, Biome.IS_NETHER_WASTELAND))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Belostoke");

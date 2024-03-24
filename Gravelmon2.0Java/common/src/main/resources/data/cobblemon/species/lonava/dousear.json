@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dousear",
-  "nationalPokedexNumber": 2378,
+  "nationalPokedexNumber": 2677,
   "primaryType": "fire",
   "secondaryType": "water",
   "abilities": [
@@ -117,7 +117,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

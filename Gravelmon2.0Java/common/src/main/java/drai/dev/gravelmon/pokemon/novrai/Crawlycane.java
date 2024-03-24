@@ -15,7 +15,7 @@ public class Crawlycane extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         122),
                 List.of(Ability.NATURAL_CURE,Ability.COMPOUND_EYES,Ability.SWEET_VEIL), Ability.SWEET_VEIL,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
@@ -97,8 +97,8 @@ public class Crawlycane extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SILVER_WIND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 53, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

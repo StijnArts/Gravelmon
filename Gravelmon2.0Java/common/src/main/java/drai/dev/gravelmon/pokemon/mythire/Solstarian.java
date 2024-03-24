@@ -15,7 +15,7 @@ public class Solstarian extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         75),
                 List.of(Ability.DROUGHT), Ability.DROUGHT,
-                8, 165,
+                38, 165,
                 new Stats(0,0,3,0,0,0), 3,
                 0.0,
                 270, ExperienceGroup.SLOW,
@@ -24,6 +24,22 @@ public class Solstarian extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Old legends tell of an ancient, evil Pokemon that burned the land with its one eye before being struck down by a hero. It is possible that this is a resurrection of that Pokemon from the legend."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.SETTING_SUN,1),
+                        new MoveLearnSetEntry(Move.LOCKON,1),
+                        new MoveLearnSetEntry(Move.IMPRISON,1),
+                        new MoveLearnSetEntry(Move.MEAN_LOOK,1),
+                        new MoveLearnSetEntry(Move.HEAT_WAVE,1),
+                        new MoveLearnSetEntry(Move.HEAT_CRASH,1),
+                        new MoveLearnSetEntry(Move.FIRE_PUNCH,1),
+                        new MoveLearnSetEntry(Move.ERUPTION,1),
+                        new MoveLearnSetEntry(Move.FOUL_PLAY,1),
+                        new MoveLearnSetEntry(Move.POWER_TRIP,1),
+                        new MoveLearnSetEntry(Move.SUCKER_PUNCH,1),
+                        new MoveLearnSetEntry(Move.MEGA_PUNCH,1),
+                        new MoveLearnSetEntry(Move.BREAKING_SWIPE,1),
+                        new MoveLearnSetEntry(Move.FLASH,1),
+                        new MoveLearnSetEntry(Move.FLASH_CANNON,1),
+                        new MoveLearnSetEntry(Move.THRASH,1),
                         new MoveLearnSetEntry(Move.PUNISHMENT,1),
                         new MoveLearnSetEntry(Move.LASH_OUT,"tm"),
                         new MoveLearnSetEntry(Move.METEOR_BEAM,"tm"),
@@ -106,9 +122,9 @@ public class Solstarian extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BODY_PRESS,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_ISLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "turmoilet",
-  "nationalPokedexNumber": 1677,
+  "nationalPokedexNumber": 1687,
   "primaryType": "water",
   "abilities": [
     "stormdrain",
@@ -72,7 +72,7 @@
     "cobblemon.species.turmoilet.desc"
   ],
   "preEvolution": "urinee",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

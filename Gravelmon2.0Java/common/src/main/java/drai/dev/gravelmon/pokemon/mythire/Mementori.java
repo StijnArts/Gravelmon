@@ -15,7 +15,7 @@ public class Mementori extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         160),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,3), 3,
                 0.0,
                 270, ExperienceGroup.SLOW,
@@ -24,6 +24,20 @@ public class Mementori extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Wherever Mementori roosts, a terrible battle is sure to follow. When the carnage has ceased, it guides the spirits of the fallen to the afterlife."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.MALICE_STRIKE,1),
+                        new MoveLearnSetEntry(Move.OMINOUS_WIND,1),
+                        new MoveLearnSetEntry(Move.SKY_ATTACK,1),
+                        new MoveLearnSetEntry(Move.MEMENTO,1),
+                        new MoveLearnSetEntry(Move.DARK_PULSE,1),
+                        new MoveLearnSetEntry(Move.EMBARGO,1),
+                        new MoveLearnSetEntry(Move.PERISH_SONG,1),
+                        new MoveLearnSetEntry(Move.DESTINY_BOND,1),
+                        new MoveLearnSetEntry(Move.SHADOW_CLAW,1),
+                        new MoveLearnSetEntry(Move.ROOST,1),
+                        new MoveLearnSetEntry(Move.FEATHER_DANCE,1),
+                        new MoveLearnSetEntry(Move.AIR_SLASH,1),
+                        new MoveLearnSetEntry(Move.TRICK,1),
+                        new MoveLearnSetEntry(Move.STEEL_WING,1),
                         new MoveLearnSetEntry(Move.SACRED_SWORD,1),
                         new MoveLearnSetEntry(Move.MISTY_EXPLOSION,"tm"),
                         new MoveLearnSetEntry(Move.DUAL_WINGBEAT,"tm"),
@@ -87,14 +101,15 @@ public class Mementori extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THROAT_CHOP,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Mementori");
+        setCanFly(true);
 
     }
 

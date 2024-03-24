@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "burnaram",
-  "nationalPokedexNumber": 1268,
+  "nationalPokedexNumber": 1278,
   "primaryType": "fire",
   "abilities": [
     "reckless",
@@ -47,16 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -152,7 +142,7 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "batrix",
-  "nationalPokedexNumber": 2267,
+  "nationalPokedexNumber": 2338,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -89,7 +89,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

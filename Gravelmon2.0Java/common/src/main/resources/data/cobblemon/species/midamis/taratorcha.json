@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "taratorcha",
-  "nationalPokedexNumber": 2855,
+  "nationalPokedexNumber": 3375,
   "primaryType": "fire",
   "secondaryType": "bug",
   "abilities": [
@@ -62,7 +62,7 @@
     "cobblemon.species.taratorcha.desc"
   ],
   "preEvolution": "mitorch",
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

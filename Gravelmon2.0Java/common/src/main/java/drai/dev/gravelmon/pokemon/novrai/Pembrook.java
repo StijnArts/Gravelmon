@@ -15,7 +15,7 @@ public class Pembrook extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         113),
                 List.of(Ability.SWIFT_SWIM,Ability.COURAGEOUS,Ability.LIMBER), Ability.LIMBER,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,2), 60,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -107,11 +107,11 @@ public class Pembrook extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUASLAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pembrook");

@@ -15,7 +15,7 @@ public class Percusshell extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         30),
                 List.of(Ability.SCRAPPY), Ability.SHELL_ARMOR,
-                8, 165,
+                15, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.5,
                 243, ExperienceGroup.MEDIUM_SLOW,
@@ -113,11 +113,11 @@ public class Percusshell extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 45, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Percusshell");

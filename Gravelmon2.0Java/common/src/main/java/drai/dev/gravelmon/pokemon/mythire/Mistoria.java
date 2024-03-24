@@ -15,7 +15,7 @@ public class Mistoria extends drai.dev.gravelmon.pokemon.Pokemon {
                         150,
                         100),
                 List.of(Ability.PASTEL_VEIL), Ability.MISTY_SURGE,
-                8, 165,
+                26, 165,
                 new Stats(1,0,0,0,2,0), 3,
                 0.0,
                 270, ExperienceGroup.SLOW,
@@ -24,6 +24,20 @@ public class Mistoria extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("A spirit of calm weather and the eternal rival of Vortereign. It uses its power over water to weaken the intense summer storms created by it and its rival's constant quarreling."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.LIFE_DEW,1),
+                        new MoveLearnSetEntry(Move.NATURAL_GIFT,1),
+                        new MoveLearnSetEntry(Move.WEATHER_BALL,1),
+                        new MoveLearnSetEntry(Move.WATER_PULSE,1),
+                        new MoveLearnSetEntry(Move.AQUA_RING,1),
+                        new MoveLearnSetEntry(Move.WHIRLPOOL,1),
+                        new MoveLearnSetEntry(Move.BREAKDOWN,1),
+                        new MoveLearnSetEntry(Move.PSYCHIC,1),
+                        new MoveLearnSetEntry(Move.PSYCHO_SHIFT,1),
+                        new MoveLearnSetEntry(Move.SKILL_SWAP,1),
+                        new MoveLearnSetEntry(Move.POWER_GEM,1),
+                        new MoveLearnSetEntry(Move.HEAL_PULSE,1),
+                        new MoveLearnSetEntry(Move.HEAL_BELL,1),
+                        new MoveLearnSetEntry(Move.HEAL_BLOCK,1),
                         new MoveLearnSetEntry(Move.HYDROKINESIS,1),
                         new MoveLearnSetEntry(Move.EXPANDING_FORCE,"tm"),
                         new MoveLearnSetEntry(Move.MISTY_EXPLOSION,"tm"),
@@ -87,14 +101,16 @@ public class Mistoria extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDROKINESIS,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Mistoria");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setCanFly(true);
 
     }
 

@@ -48,26 +48,6 @@
   "eggGroups": [
     "flying"
   ],
-  "drops": {
-    "amount": "6",
-    "entries": [
-      {
-        "item": "cobblemon:sharp_beak",
-        "quantityRange": "1-1",
-        "percentage": 40
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 40
-      },
-      {
-        "item": "minecraft:egg",
-        "quantityRange": "1-2",
-        "percentage": 40
-      }
-    ]
-  },
   "moves": [
     "1:skydrop",
     "1:peck",
@@ -147,7 +127,7 @@
     "cobblemon.species.warquila.desc"
   ],
   "preEvolution": "aquilor",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

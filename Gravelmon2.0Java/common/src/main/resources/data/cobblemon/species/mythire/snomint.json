@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snomint",
-  "nationalPokedexNumber": 2676,
+  "nationalPokedexNumber": 3082,
   "primaryType": "ice",
   "secondaryType": "grass",
   "abilities": [
@@ -80,7 +80,22 @@
   "pokedex": [
     "cobblemon.species.snomint.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "snomint_snofresh",
+      "variant": "level_up",
+      "result": "snofresh",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 33
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -95,7 +110,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

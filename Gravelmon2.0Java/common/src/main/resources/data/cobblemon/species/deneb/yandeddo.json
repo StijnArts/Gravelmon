@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yandeddo",
-  "nationalPokedexNumber": 3252,
+  "nationalPokedexNumber": 3861,
   "primaryType": "grass",
   "secondaryType": "poison",
   "abilities": [
@@ -101,7 +101,7 @@
     "cobblemon.species.yandeddo.desc"
   ],
   "preEvolution": "iyaiya",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

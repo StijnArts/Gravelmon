@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swelephant",
-  "nationalPokedexNumber": 1783,
+  "nationalPokedexNumber": 1793,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -112,7 +112,7 @@
     "cobblemon.species.swelephant.desc"
   ],
   "preEvolution": "floatusk",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

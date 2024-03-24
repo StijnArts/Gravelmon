@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "asphere",
-  "nationalPokedexNumber": 3075,
+  "nationalPokedexNumber": 3684,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -202,12 +202,15 @@
     "tm:zapcannon",
     "tm:bravebird",
     "tm:triattack",
+    "tm:devastate",
     "tm:batonpass",
     "tm:confuseray",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:heatwave",
     "tm:focusblast",
     "tm:discharge",
+    "tm:dragonbeat",
     "tm:willowisp",
     "tm:nightslash",
     "tm:cut",
@@ -215,8 +218,9 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:rest",
     "tutor:toxic",
     "tutor:dig",
@@ -229,7 +233,7 @@
   "pokedex": [
     "cobblemon.species.asphere.desc"
   ],
-  "baseScale": 0.9375,
+  "baseScale": 1.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

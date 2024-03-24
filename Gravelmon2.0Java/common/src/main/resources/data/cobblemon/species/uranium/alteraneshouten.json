@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "alteraneshouten",
-  "nationalPokedexNumber": 1847,
+  "nationalPokedexNumber": 1918,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.alteraneshouten.desc"
   ],
   "preEvolution": "alteranowten",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

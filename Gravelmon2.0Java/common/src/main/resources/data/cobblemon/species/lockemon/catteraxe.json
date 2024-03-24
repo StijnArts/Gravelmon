@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "catteraxe",
-  "nationalPokedexNumber": 2446,
+  "nationalPokedexNumber": 2745,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:keybone",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:fakeout",
     "1:growl",
@@ -67,7 +77,7 @@
     "43:babydolleyes",
     "46:playrough",
     "egg:batonpass",
-    "egg:cosmicpower",
+    "egg:cosmicpowercosmic",
     "egg:fakeout",
     "egg:faketears",
     "egg:helpinghand",
@@ -98,7 +108,7 @@
       "requiredContext": "gravelmon:keybone"   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

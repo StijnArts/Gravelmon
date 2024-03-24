@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bullverin",
-  "nationalPokedexNumber": 1779,
+  "nationalPokedexNumber": 1789,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -117,7 +117,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

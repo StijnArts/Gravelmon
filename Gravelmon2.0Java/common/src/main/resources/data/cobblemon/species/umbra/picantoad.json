@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "picantoad",
-  "nationalPokedexNumber": 2582,
+  "nationalPokedexNumber": 2988,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -137,7 +137,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

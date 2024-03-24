@@ -17,8 +17,8 @@ public class Camofirma extends drai.dev.gravelmon.pokemon.Pokemon {
                         87,
                         53),
                 List.of(Ability.BATTLE_ARMOR,Ability.OVERCOAT,Ability.STAMINA), Ability.STAMINA,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                20, 165,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -45,8 +45,8 @@ public class Camofirma extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

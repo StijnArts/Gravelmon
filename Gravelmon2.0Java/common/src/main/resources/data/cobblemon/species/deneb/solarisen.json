@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solarisen",
-  "nationalPokedexNumber": 3038,
+  "nationalPokedexNumber": 3647,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -67,6 +67,7 @@
     "44:dragondance",
     "45:dragonrush",
     "52:overheat",
+    "63:dragonbeat",
     "71:skyattack",
     "tm:airslash",
     "tm:dragonrush",
@@ -74,13 +75,17 @@
     "tm:energyball",
     "tm:bravebird",
     "tm:batonpass",
+    "tm:ragingflame",
     "tm:heatwave",
+    "tm:dragonbeat",
     "tm:willowisp",
     "tm:featherdance",
     "tm:fly",
+    "tutor:bugnoise",
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:toxic",
     "egg:aerialace",
     "egg:aircutter",
@@ -110,7 +115,7 @@
     "cobblemon.species.solarisen.desc"
   ],
   "preEvolution": "guldawn",
-  "baseScale": 0.69375,
+  "baseScale": 0.9249999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

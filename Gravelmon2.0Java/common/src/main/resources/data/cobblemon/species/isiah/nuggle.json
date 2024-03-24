@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nuggle",
-  "nationalPokedexNumber": 2784,
+  "nationalPokedexNumber": 3304,
   "primaryType": "rock",
   "abilities": [
     "rockhead",
@@ -122,7 +122,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

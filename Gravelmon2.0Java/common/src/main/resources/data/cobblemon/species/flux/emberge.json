@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "emberge",
-  "nationalPokedexNumber": 2029,
+  "nationalPokedexNumber": 2100,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
@@ -60,7 +60,7 @@
   "pokedex": [
     "cobblemon.species.emberge.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ceregal",
-  "nationalPokedexNumber": 1309,
+  "nationalPokedexNumber": 1319,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -141,7 +141,7 @@
     "cobblemon.species.ceregal.desc"
   ],
   "preEvolution": "dragalis",
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

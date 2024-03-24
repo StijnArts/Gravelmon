@@ -15,14 +15,15 @@ public class Ghostage extends drai.dev.gravelmon.pokemon.Pokemon {
                         18,
                         78),
                 List.of(Ability.WANDERING_SPIRIT,Ability.WIND_RIDER,Ability.CLOUD_NINE), Ability.CLOUD_NINE,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 175,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The back of its body is sticky, letting it adhere to any surface. When inanimate objects move on their own, it's often because a Ghostage is possessing them."),
-                List.of(),
+                List.of(new EvolutionEntry("paranormail", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GUST,1),
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,7),
@@ -109,11 +110,11 @@ public class Ghostage extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASTONISH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ghostage");

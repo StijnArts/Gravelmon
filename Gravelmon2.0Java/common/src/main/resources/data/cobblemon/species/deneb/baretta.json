@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baretta",
-  "nationalPokedexNumber": 3245,
+  "nationalPokedexNumber": 3854,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -85,7 +85,7 @@
     "cobblemon.species.baretta.desc"
   ],
   "preEvolution": "baburun",
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

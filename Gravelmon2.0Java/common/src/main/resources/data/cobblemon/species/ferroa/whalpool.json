@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "whalpool",
-  "nationalPokedexNumber": 1546,
+  "nationalPokedexNumber": 1556,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -105,7 +105,7 @@
   "pokedex": [
     "cobblemon.species.whalpool.desc"
   ],
-  "baseScale": 1.3125,
+  "baseScale": 1.75,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

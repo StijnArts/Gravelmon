@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oblivicorn",
-  "nationalPokedexNumber": 1943,
+  "nationalPokedexNumber": 2014,
   "primaryType": "fairy",
   "secondaryType": "dark",
   "abilities": [
@@ -141,7 +141,7 @@
     "cobblemon.species.oblivicorn.desc"
   ],
   "preEvolution": "minicorn",
-  "baseScale": 0.46875,
+  "baseScale": 0.625,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

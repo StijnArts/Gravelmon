@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stinginger",
-  "nationalPokedexNumber": 1452,
+  "nationalPokedexNumber": 1462,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -141,7 +141,7 @@
     "cobblemon.species.stinginger.desc"
   ],
   "preEvolution": "buroot",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leukofite",
-  "nationalPokedexNumber": 1665,
+  "nationalPokedexNumber": 1675,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.leukofite.desc"
   ],
   "preEvolution": "lymfite",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

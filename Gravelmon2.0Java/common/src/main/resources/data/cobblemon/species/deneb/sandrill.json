@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandrill",
-  "nationalPokedexNumber": 3142,
+  "nationalPokedexNumber": 3751,
   "primaryType": "ground",
   "abilities": [
     "sandveil",
@@ -78,7 +78,9 @@
     "tm:irontail",
     "tm:irondefense",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:focusblast",
     "tm:nightslash",
     "tm:cut",
@@ -88,6 +90,7 @@
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:shadowclamp",
     "tutor:iciclecrash",
     "egg:aerialace",
     "egg:counter",
@@ -124,7 +127,7 @@
     "cobblemon.species.sandrill.desc"
   ],
   "preEvolution": "sandslash",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

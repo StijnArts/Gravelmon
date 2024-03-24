@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lochitent",
-  "nationalPokedexNumber": 1377,
+  "nationalPokedexNumber": 1387,
   "primaryType": "ground",
   "secondaryType": "ice",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.lochitent.desc"
   ],
   "preEvolution": "lochnes",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

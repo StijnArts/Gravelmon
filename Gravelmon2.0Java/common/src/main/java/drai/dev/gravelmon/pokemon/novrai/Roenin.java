@@ -15,14 +15,15 @@ public class Roenin extends drai.dev.gravelmon.pokemon.Pokemon {
                         39,
                         59),
                 List.of(Ability.PRIDEFULSTANCE,Ability.SHARPNESS,Ability.JUSTIFIED), Ability.JUSTIFIED,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 150,
                 0.5,
                 62, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Its fins are sharp, and it uses them to chop up aquatic plants to eat. As it grows older, it develops a strong desire to wander from its home."),
-                List.of(),
+                List.of(new EvolutionEntry("salmurai", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.SWORDS_DANCE.getName()+"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUASLAP,1),
                         new MoveLearnSetEntry(Move.KARATE_CHOP,5),
@@ -104,14 +105,16 @@ public class Roenin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AURA_SPHERE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Roenin");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -15,7 +15,7 @@ public class Smeltdown extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         96),
                 List.of(Ability.FLASH_FIRE,Ability.FIERYSPIRIT,Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,2,0,0), 60,
                 0.5,
                 168, ExperienceGroup.FAST,
@@ -88,14 +88,15 @@ public class Smeltdown extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 29, 46, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Smeltdown");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

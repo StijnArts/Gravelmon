@@ -14,14 +14,15 @@ public class Nyanyum extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         55),
                 List.of(Ability.SWEET_VEIL,Ability.PASTEL_VEIL,Ability.FRIEND_GUARD), Ability.FRIEND_GUARD,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.25,
                 70, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
                 List.of("Their fur is silky and has a glimmering appearance when under light. They wag their star-shaped tails during nights when the moon is full, and become lethargic when its not visible."),
-                List.of(),
+                List.of(new EvolutionEntry("yummyan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HAPPYSLAP,1),
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,4),
@@ -47,9 +48,9 @@ public class Nyanyum extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 32, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

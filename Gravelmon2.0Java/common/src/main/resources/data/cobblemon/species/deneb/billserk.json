@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "billserk",
-  "nationalPokedexNumber": 3126,
+  "nationalPokedexNumber": 3735,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -103,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.billserk.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

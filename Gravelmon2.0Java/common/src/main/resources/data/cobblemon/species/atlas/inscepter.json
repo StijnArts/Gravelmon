@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "inscepter",
-  "nationalPokedexNumber": 3287,
+  "nationalPokedexNumber": 4190,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -127,7 +127,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

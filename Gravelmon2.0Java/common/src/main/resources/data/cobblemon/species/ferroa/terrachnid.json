@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terrachnid",
-  "nationalPokedexNumber": 1589,
+  "nationalPokedexNumber": 1599,
   "primaryType": "dragon",
   "secondaryType": "bug",
   "abilities": [
@@ -104,7 +104,7 @@
       ]   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

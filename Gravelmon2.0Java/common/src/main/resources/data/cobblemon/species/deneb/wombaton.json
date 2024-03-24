@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wombaton",
-  "nationalPokedexNumber": 3141,
+  "nationalPokedexNumber": 3750,
   "primaryType": "ground",
   "secondaryType": "ghost",
   "abilities": [
@@ -54,6 +54,7 @@
     "11:meditate",
     "15:boneclub",
     "20:disable",
+    "25:shadowclamp",
     "34:honeclaws",
     "39:shadowpunch",
     "43:bonemerang",
@@ -76,8 +77,10 @@
     "tm:irondefense",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:confuseray",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:woodhammer",
     "tm:focusblast",
     "tm:willowisp",
@@ -91,6 +94,7 @@
     "tutor:toxic",
     "tutor:iciclecrash",
     "tutor:nastyplot",
+    "tutor:shadowclamp",
     "egg:beatup",
     "egg:bellydrum",
     "egg:bulldoze",
@@ -126,7 +130,7 @@
   "pokedex": [
     "cobblemon.species.wombaton.desc"
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,14 +15,15 @@ public class Papernova extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         33),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("Under its thin skin, it contains flammable, lighter-than-air gases. A group of them, usually seen drifting serenely through the night sky, is called a constellation."),
-                List.of(),
+                List.of(new EvolutionEntry("orbitgami", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_SPIN,1),
                         new MoveLearnSetEntry(Move.FLASH,5),
@@ -107,14 +108,15 @@ public class Papernova extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METEORSHOWER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE, Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Papernova");
+        setCanFly(true);
 
     }
 

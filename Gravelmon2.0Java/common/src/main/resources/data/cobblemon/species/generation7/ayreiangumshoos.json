@@ -122,7 +122,7 @@
     "cobblemon.species.ayreiangumshoos.desc"
   ],
   "preEvolution": "ayreianyungoos",
-  "baseScale": 0.1,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -137,7 +137,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 4,
+  "height": 7,
   "weight": 60,
   "aspects": [],
 "features": [

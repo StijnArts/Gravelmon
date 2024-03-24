@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "infermingo",
-  "nationalPokedexNumber": 2136,
+  "nationalPokedexNumber": 2207,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -91,7 +91,7 @@
     "cobblemon.species.infermingo.desc"
   ],
   "preEvolution": "flaringo",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

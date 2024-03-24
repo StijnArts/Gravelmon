@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ovipter",
-  "nationalPokedexNumber": 1333,
+  "nationalPokedexNumber": 1343,
   "primaryType": "normal",
   "abilities": [
     "shellarmor",
@@ -109,7 +109,7 @@
   "pokedex": [
     "cobblemon.species.ovipter.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

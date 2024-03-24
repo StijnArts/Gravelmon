@@ -15,14 +15,15 @@ public class Winture extends drai.dev.gravelmon.pokemon.Pokemon {
                         42,
                         47),
                 List.of(Ability.SNOWPLOW,Ability.SLUSH_RUSH,Ability.MOUNTAINEER), Ability.MOUNTAINEER,
-                8, 165,
+                7, 165,
                 new Stats(0,1,0,0,0,0), 230,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("From birth, this Pokemon is full of curiosity and starts exploring. After only a week, it can scale a cliff as fast as a professional rock climber."),
-                List.of(),
+                List.of(new EvolutionEntry("expolar", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,4),
@@ -99,8 +100,8 @@ public class Winture extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MACH_PUNCH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 28, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tombarach",
-  "nationalPokedexNumber": 2145,
+  "nationalPokedexNumber": 2216,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.tombarach.desc"
   ],
   "preEvolution": "luradune",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

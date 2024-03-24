@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tankyard",
-  "nationalPokedexNumber": 2789,
+  "nationalPokedexNumber": 3309,
   "primaryType": "steel",
   "abilities": [
     "weakarmor",
@@ -117,7 +117,7 @@
     "cobblemon.species.tankyard.desc"
   ],
   "preEvolution": "junkid",
-  "baseScale": 0.5625,
+  "baseScale": 0.75,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

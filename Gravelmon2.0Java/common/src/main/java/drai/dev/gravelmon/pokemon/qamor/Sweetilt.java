@@ -17,14 +17,15 @@ public class Sweetilt extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         38),
                 List.of(Ability.SERENE_GRACE), Ability.SERENE_GRACE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 70, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MINERAL),
                 List.of("Sweetilt's fragile body makes them easy prey, so they hide among sugarcane stalks for most of the day. They are able to produce a very sweet, sugary juice"),
-                List.of(),
+                List.of(new EvolutionEntry("stiltotem", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
                         new MoveLearnSetEntry(Move.LEAFAGE,5),
@@ -41,8 +42,8 @@ public class Sweetilt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_BLADE,40)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Condyceps extends drai.dev.gravelmon.pokemon.Pokemon {
                         125,
                         42),
                 List.of(Ability.DRY_SKIN,Ability.HUGE_POWER,Ability.SYMBIOSIS), Ability.SYMBIOSIS,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,2,0), 70,
                 0.5,
                 166, ExperienceGroup.SLOW,
@@ -107,9 +107,9 @@ public class Condyceps extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BITE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 46, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

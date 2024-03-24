@@ -7,16 +7,16 @@
       "id": "sootillar-1",
       "pokemon": "sootillar",
       "presets": [
-          "natural"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "1-15",
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_overworld" ],
+        "timeRange": "night",
         "canSeeSky": true
       }
     }

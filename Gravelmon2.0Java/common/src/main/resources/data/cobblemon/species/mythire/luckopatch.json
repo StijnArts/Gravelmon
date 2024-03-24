@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luckopatch",
-  "nationalPokedexNumber": 2610,
+  "nationalPokedexNumber": 3016,
   "primaryType": "grass",
   "abilities": [
     "superluck",
@@ -81,12 +81,15 @@
     "tm:trailblaze"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.luckopatch.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "shamseed",
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -101,7 +104,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

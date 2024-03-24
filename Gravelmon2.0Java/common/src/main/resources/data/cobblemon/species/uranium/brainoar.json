@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brainoar",
-  "nationalPokedexNumber": 1851,
+  "nationalPokedexNumber": 1922,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -128,7 +128,7 @@
     "cobblemon.species.brainoar.desc"
   ],
   "preEvolution": "brailip",
-  "baseScale": 0.75,
+  "baseScale": 1.0,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

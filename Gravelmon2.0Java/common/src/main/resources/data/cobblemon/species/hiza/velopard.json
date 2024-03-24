@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "velopard",
-  "nationalPokedexNumber": 2102,
+  "nationalPokedexNumber": 2173,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -112,7 +112,7 @@
   "pokedex": [
     "cobblemon.species.velopard.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

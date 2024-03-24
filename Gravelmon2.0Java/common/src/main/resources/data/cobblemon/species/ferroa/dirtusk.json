@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dirtusk",
-  "nationalPokedexNumber": 1449,
+  "nationalPokedexNumber": 1459,
   "primaryType": "ground",
   "abilities": [
     "thickfat",
@@ -154,7 +154,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

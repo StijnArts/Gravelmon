@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boilunk",
-  "nationalPokedexNumber": 1574,
+  "nationalPokedexNumber": 1584,
   "primaryType": "steel",
   "secondaryType": "fire",
   "abilities": [
@@ -117,7 +117,7 @@
     "cobblemon.species.boilunk.desc"
   ],
   "preEvolution": "smolter",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "decomposite",
-  "nationalPokedexNumber": 1637,
+  "nationalPokedexNumber": 1647,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.decomposite.desc"
   ],
   "preEvolution": "controll",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

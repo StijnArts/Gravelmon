@@ -15,14 +15,15 @@ public class Gourmaggot extends drai.dev.gravelmon.pokemon.Pokemon {
                         46,
                         15),
                 List.of(Ability.TASTEBUDS,Ability.GLUTTONY,Ability.IMMUNITY), Ability.IMMUNITY,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 50, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.AMORPHOUS),
                 List.of("It spends most of its time eating whatever's around. It isn't picky at all, and will happily chow down on leaves, carrion, mushrooms, and even dirt."),
-                List.of(),
+                List.of(new EvolutionEntry("pheromage", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,5),
@@ -116,11 +117,11 @@ public class Gourmaggot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STUFF_CHEEKS,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gourmaggot");

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mallarki",
-  "nationalPokedexNumber": 2592,
+  "nationalPokedexNumber": 2998,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -66,6 +66,7 @@
     "tm:return",
     "tm:dig",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:sandstorm",
     "tm:bravebird",
     "tm:gigaimpact",
@@ -98,7 +99,7 @@
     "cobblemon.species.mallarki.desc"
   ],
   "preEvolution": "farfetchd",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

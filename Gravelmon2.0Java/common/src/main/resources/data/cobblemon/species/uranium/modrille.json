@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "modrille",
-  "nationalPokedexNumber": 1864,
+  "nationalPokedexNumber": 1935,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -152,7 +152,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

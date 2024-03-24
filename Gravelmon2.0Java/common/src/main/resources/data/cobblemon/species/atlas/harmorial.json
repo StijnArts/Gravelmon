@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harmorial",
-  "nationalPokedexNumber": 3325,
+  "nationalPokedexNumber": 4228,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -108,7 +108,7 @@
     "cobblemon.species.harmorial.desc"
   ],
   "preEvolution": "foutune",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

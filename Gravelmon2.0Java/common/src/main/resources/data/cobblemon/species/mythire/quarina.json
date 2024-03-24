@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quarina",
-  "nationalPokedexNumber": 2622,
+  "nationalPokedexNumber": 3028,
   "primaryType": "water",
   "abilities": [
     "liquidvoice",
@@ -28,12 +28,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -107,7 +107,22 @@
   "pokedex": [
     "cobblemon.species.quarina.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "quarina_sonoreef",
+      "variant": "level_up",
+      "result": "sonoreef",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -122,7 +137,7 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 8,
+  "height": 4,
   "weight": 165,
   "aspects": [],
 "features": [

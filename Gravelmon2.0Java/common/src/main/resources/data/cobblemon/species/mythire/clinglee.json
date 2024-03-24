@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "clinglee",
-  "nationalPokedexNumber": 2663,
+  "nationalPokedexNumber": 3069,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
@@ -74,7 +74,22 @@
   "pokedex": [
     "cobblemon.species.clinglee.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "clinglee_valentox",
+      "variant": "level_up",
+      "result": "valentox",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 180
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -89,7 +104,7 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 8,
+  "height": 7,
   "weight": 165,
   "aspects": [],
 "features": [

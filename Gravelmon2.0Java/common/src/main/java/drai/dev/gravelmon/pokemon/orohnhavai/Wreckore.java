@@ -17,7 +17,7 @@ public class Wreckore extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         55),
                 List.of(Ability.RIVALRY,Ability.NO_GUARD,Ability.IRON_FIST), Ability.IRON_FIST,
-                8, 165,
+                15, 165,
                 new Stats(1,2,0,0,0,0), 45,
                 0.75,
                 227, ExperienceGroup.ERRATIC,
@@ -53,8 +53,9 @@ public class Wreckore extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 58, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

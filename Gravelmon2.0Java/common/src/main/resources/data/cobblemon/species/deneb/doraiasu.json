@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "doraiasu",
-  "nationalPokedexNumber": 3267,
+  "nationalPokedexNumber": 3876,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
@@ -66,6 +66,7 @@
     "55:dragondance",
     "64:dragonrush",
     "tm:waterpulse",
+    "tm:frostbite",
     "tm:dragonbreath",
     "tm:frustration",
     "tm:cut",
@@ -96,7 +97,7 @@
     "cobblemon.species.doraiasu.desc"
   ],
   "preEvolution": "yukidaru",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

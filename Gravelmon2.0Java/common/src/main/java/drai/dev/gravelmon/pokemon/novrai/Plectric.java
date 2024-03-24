@@ -15,14 +15,16 @@ public class Plectric extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         20),
                 List.of(Ability.SUCTION_CUPS), Ability.ELECTROMORPHOSIS,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 47, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.MONSTER),
                 List.of("It attaches itself to rocks to feed on algae, forming a static seal that makes it impossible to pry off. It also gets metaphorically attached to other Pokemon, particularly Dark-types."),
-                List.of(),
+                List.of(new EvolutionEntry("sharcastric", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"type=dark\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,5),
@@ -80,14 +82,16 @@ public class Plectric extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEGA_DRAIN,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Plectric");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

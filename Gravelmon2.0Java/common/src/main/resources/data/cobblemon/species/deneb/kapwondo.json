@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kapwondo",
-  "nationalPokedexNumber": 3005,
+  "nationalPokedexNumber": 3614,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -63,6 +63,7 @@
     "43:swagger",
     "48:drainpunch",
     "52:detect",
+    "55:magnumpunch",
     "61:closecombat",
     "66:superpower",
     "tm:headbutt",
@@ -85,6 +86,7 @@
     "tm:waterfall",
     "tutor:iciclecrash",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:toxic",
     "tutor:hydropump",
@@ -120,7 +122,7 @@
     "cobblemon.species.kapwondo.desc"
   ],
   "preEvolution": "cuppa",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

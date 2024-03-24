@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vortereign",
-  "nationalPokedexNumber": 2699,
+  "nationalPokedexNumber": 3105,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -48,6 +48,18 @@
     "undiscovered"
   ],
   "moves": [
+    "1:megahorn",
+    "1:smartstrike",
+    "1:iciclecrash",
+    "1:sheercold",
+    "1:weatherball",
+    "1:discharge",
+    "1:blizzard",
+    "1:shockwave",
+    "1:iondeluge",
+    "1:hurricane",
+    "1:twister",
+    "1:meanlook",
     "1:skydrop",
     "tm:risingvoltage",
     "tm:terrainpulse",
@@ -127,7 +139,7 @@
   "pokedex": [
     "cobblemon.species.vortereign.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -142,7 +154,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 20,
   "weight": 165,
   "aspects": [],
 "features": [

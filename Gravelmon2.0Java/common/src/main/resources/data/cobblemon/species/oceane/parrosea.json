@@ -1,0 +1,104 @@
+{
+  "implemented": true,
+  "name": "parrosea",
+  "nationalPokedexNumber": 1822,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "swiftswim",
+    "h:multiscale"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 52,
+    "defence": 35,
+    "special_attack": 50,
+    "special_defence": 38,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 54,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "water_2"
+  ],
+  "moves": [
+    "1:tackle",
+    "3:peck",
+    "6:singsound",
+    "9:wingattack",
+    "14:aquaring",
+    "18:twister",
+    "22:defog",
+    "27:takedown",
+    "43:doubleedge"  ],
+  "labels": [
+    "oceane",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.parrosea.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "parrosea_nauticaw",
+      "variant": "level_up",
+      "result": "nauticaw",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dakkoala",
-  "nationalPokedexNumber": 3253,
+  "nationalPokedexNumber": 3862,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -112,7 +112,7 @@
       "requiredContext": "cobblemon:leaf_stone"   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

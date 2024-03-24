@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shakuzora",
-  "nationalPokedexNumber": 3207,
+  "nationalPokedexNumber": 3816,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -105,7 +105,7 @@
     "cobblemon.species.shakuzora.desc"
   ],
   "preEvolution": "kureigu",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

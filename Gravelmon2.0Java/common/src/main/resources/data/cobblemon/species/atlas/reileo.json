@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reileo",
-  "nationalPokedexNumber": 3472,
+  "nationalPokedexNumber": 4377,
   "primaryType": "ground",
   "abilities": [
     "intimidate",
@@ -108,7 +108,7 @@
     "cobblemon.species.reileo.desc"
   ],
   "preEvolution": "princeo",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

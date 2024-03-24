@@ -57,7 +57,7 @@
     "10:rockpolish",
     "15:rockslide",
     "20:roundsound",
-    "25:cosmicpower",
+    "25:cosmicpowercosmic",
     "30:hypervoicesound",
     "35:powergemcrystal",
     "40:futuresight",
@@ -73,7 +73,7 @@
     "tutor:calmmind",
     "tutor:chargebeam",
     "tutor:confide",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:doubleteam",
     "tutor:dreameater",
     "tutor:earthpower",
@@ -149,7 +149,7 @@
   "pokedex": [
     "cobblemon.species.ayreianlunatone.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -131,7 +131,7 @@
     "cobblemon.species.hizianaggron.desc"
   ],
   "preEvolution": "hizianlairon",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chronotoc",
-  "nationalPokedexNumber": 3496,
+  "nationalPokedexNumber": 4401,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -119,7 +119,7 @@
     "cobblemon.species.chronotoc.desc"
   ],
   "preEvolution": "ragtoc",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

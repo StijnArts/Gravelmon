@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "moucroon",
-  "nationalPokedexNumber": 2963,
+  "nationalPokedexNumber": 3483,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.moucroon.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

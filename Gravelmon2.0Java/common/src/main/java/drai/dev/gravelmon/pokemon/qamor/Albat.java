@@ -17,14 +17,15 @@ public class Albat extends drai.dev.gravelmon.pokemon.Pokemon {
                         52,
                         65),
                 List.of(Ability.OVERGROW), Ability.RIPEN,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.875,
                 64, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("Albat is short tempered and often throws tantrums when it doesnt get its way. Its downy fur protects it from harsh weather."),
-                List.of(),
+                List.of(new EvolutionEntry("gremleaf", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCREECH,1),
                         new MoveLearnSetEntry(Move.CUT,7),
@@ -55,14 +56,15 @@ public class Albat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROUND,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Albat");
+        setCanFly(true);
 
     }
 

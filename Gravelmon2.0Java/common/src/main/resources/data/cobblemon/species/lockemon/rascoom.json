@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rascoom",
-  "nationalPokedexNumber": 2475,
+  "nationalPokedexNumber": 2774,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.rascoom.desc"
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

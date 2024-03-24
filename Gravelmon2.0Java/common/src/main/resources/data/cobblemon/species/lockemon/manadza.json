@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "manadza",
-  "nationalPokedexNumber": 2506,
+  "nationalPokedexNumber": 2805,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.manadza.desc"
   ],
-  "baseScale": 0.65625,
+  "baseScale": 0.875,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

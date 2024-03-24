@@ -15,16 +15,27 @@ public class Chainjaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         54,
                         101),
                 List.of(Ability.STRONG_JAW,Ability.RAZORFINS,Ability.HYPER_CUTTER), Ability.HYPER_CUTTER,
-                8, 165,
+                17, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.FIELD),
-                List.of("- CrunchSTAB Dark - Jaw LockSTAB Dark - Night SlashSTAB Dark - Guillotine Normal - Hyper Fang Normal - Jab Normal - Razor Wind Normal - Slash Normal - Super Fang Normal - Crystal CrunchSTAB Rock - Psycho Cut Psychic - BiteSTAB Dark"),
+                List.of(""),
                 List.of(),
-                List.of(
+                List.of(           new MoveLearnSetEntry(Move.CRUNCH,1),
+                        new MoveLearnSetEntry(Move.JAW_LOCK,1),
+                        new MoveLearnSetEntry(Move.NIGHT_SLASH,1),
+                        new MoveLearnSetEntry(Move.GUILLOTINE,1),
+                        new MoveLearnSetEntry(Move.HYPER_FANG,1),
+                        new MoveLearnSetEntry(Move.JAB,1),
+                        new MoveLearnSetEntry(Move.RAZOR_WIND,1),
+                        new MoveLearnSetEntry(Move.SLASH,1),
+                        new MoveLearnSetEntry(Move.SUPER_FANG,1),
+                        new MoveLearnSetEntry(Move.CRYSTAL_CRUNCH,48),
+                        new MoveLearnSetEntry(Move.PSYCHO_CUT,1),
                         new MoveLearnSetEntry(Move.BITE,1),
+
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tm"),
                         new MoveLearnSetEntry(Move.LASH_OUT,"tm"),
                         new MoveLearnSetEntry(Move.SNATCH,"tm"),
@@ -101,17 +112,19 @@ public class Chainjaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LIQUIDATION,"tm"),
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm"),
                         new MoveLearnSetEntry(Move.SURF,"tm"),
-                        new MoveLearnSetEntry(Move.TORPEDODASH,"tm")                        ),
+                        new MoveLearnSetEntry(Move.TORPEDODASH,"tm")             ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 38, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Chainjaw");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

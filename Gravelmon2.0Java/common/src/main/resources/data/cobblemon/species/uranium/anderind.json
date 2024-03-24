@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "anderind",
-  "nationalPokedexNumber": 1919,
+  "nationalPokedexNumber": 1990,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -137,7 +137,7 @@
     "cobblemon.species.anderind.desc"
   ],
   "preEvolution": "pufluff",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

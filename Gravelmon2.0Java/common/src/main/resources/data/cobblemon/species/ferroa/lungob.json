@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lungob",
-  "nationalPokedexNumber": 1463,
+  "nationalPokedexNumber": 1473,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
@@ -144,7 +144,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

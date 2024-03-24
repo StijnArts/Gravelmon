@@ -15,13 +15,13 @@ public class Merluscious extends drai.dev.gravelmon.pokemon.Pokemon {
                         59,
                         83),
                 List.of(Ability.DISGUISE), Ability.DISGUISE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 165,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 165, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1),
-                List.of("- Poison StingSTAB Poison - Harden Normal 15 Fury Attack Normal 20 Acid Armor Poison 30 Draining Kiss Fairy 35 Reef Barrier Rock 40 VenoshockSTAB Poison"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
@@ -33,14 +33,16 @@ public class Merluscious extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LIQUEFACTION,"tm")                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 11, 34, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Merluscious");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shpell",
-  "nationalPokedexNumber": 2617,
+  "nationalPokedexNumber": 3023,
   "primaryType": "psychic",
   "abilities": [
     "magician",
@@ -84,7 +84,22 @@
   "pokedex": [
     "cobblemon.species.shpell.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "shpell_wiznail",
+      "variant": "level_up",
+      "result": "wiznail",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 27
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

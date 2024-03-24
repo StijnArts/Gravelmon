@@ -15,7 +15,7 @@ public class Salmurai extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         105),
                 List.of(Ability.PRIDEFULSTANCE,Ability.SHARPNESS,Ability.JUSTIFIED), Ability.JUSTIFIED,
-                8, 165,
+                13, 165,
                 new Stats(0,1,0,0,0,1), 45,
                 0.5,
                 179, ExperienceGroup.MEDIUM_FAST,
@@ -107,14 +107,16 @@ public class Salmurai extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AURA_SPHERE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 36, 56, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Salmurai");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

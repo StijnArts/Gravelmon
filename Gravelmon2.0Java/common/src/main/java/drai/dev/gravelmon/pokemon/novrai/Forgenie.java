@@ -15,7 +15,7 @@ public class Forgenie extends drai.dev.gravelmon.pokemon.Pokemon {
                         82,
                         32),
                 List.of(Ability.STEELY_SPIRIT,Ability.FLAME_BODY,Ability.MAGICIAN), Ability.MAGICIAN,
-                8, 165,
+                21, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 184, ExperienceGroup.MEDIUM_SLOW,
@@ -123,11 +123,11 @@ public class Forgenie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HAMMER_ARM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 39, 61, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Forgenie");

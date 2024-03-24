@@ -17,7 +17,7 @@ public class Zaptenna extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         85),
                 List.of(Ability.VOLT_ABSORB,Ability.STATIC,Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,2,1,0), 45,
                 0.5,
                 214, ExperienceGroup.MEDIUM_SLOW,
@@ -47,11 +47,11 @@ public class Zaptenna extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 32, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Zaptenna");

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yetini",
-  "nationalPokedexNumber": 2257,
+  "nationalPokedexNumber": 2328,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -104,7 +104,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

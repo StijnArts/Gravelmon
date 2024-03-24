@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terbipan",
-  "nationalPokedexNumber": 2760,
+  "nationalPokedexNumber": 3280,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -102,7 +102,7 @@
     "cobblemon.species.terbipan.desc"
   ],
   "preEvolution": "twoolepin",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

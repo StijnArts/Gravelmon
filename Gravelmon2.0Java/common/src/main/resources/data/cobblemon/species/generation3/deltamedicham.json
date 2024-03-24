@@ -172,6 +172,7 @@
     "tm:sleeptalksound",
     "tm:dazzlinggleam",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:echoedvoicesound",
     "tm:roundsound",
     "tm:captivate",
@@ -228,7 +229,7 @@
     "cobblemon.species.deltamedicham.desc"
   ],
   "preEvolution": "deltameditite",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

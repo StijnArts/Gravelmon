@@ -15,14 +15,15 @@ public class Pendelf extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         63),
                 List.of(Ability.MAGIC_BOUNCE,Ability.LIGHT_METAL,Ability.MAGIC_GUARD), Ability.MAGIC_GUARD,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,2,0,0), 120,
                 0.5,
                 132, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.MINERAL),
                 List.of("It pays close attention to its wearer's heartbeat to monitor its health. It radiates an aura that wards off hex."),
-                List.of(),
+                List.of(new EvolutionEntry("encrona", EvolutionType.TRADE, List.of(),
+                        List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.METAL_SOUND,1),
                         new MoveLearnSetEntry(Move.LUCKY_CHANT,5),
@@ -41,9 +42,8 @@ public class Pendelf extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MOONBLAST,56)                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 53, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

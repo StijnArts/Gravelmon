@@ -17,14 +17,15 @@ public class Barbenin extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         60),
                 List.of(Ability.POISON_POINT,Ability.SWIFT_SWIM,Ability.LIQUID_OOZE), Ability.LIQUID_OOZE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 185,
                 0.5,
                 58, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Barbenin produce a very toxic substance in its mouth that it spits onto their foes, badly poisoning them. The tips of their fins are also very poisonous."),
-                List.of(),
+                List.of(new EvolutionEntry("scoprikon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_STING,1),
                         new MoveLearnSetEntry(Move.BUBBLE,5),
@@ -50,14 +51,16 @@ public class Barbenin extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 1, 25, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Barbenin");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

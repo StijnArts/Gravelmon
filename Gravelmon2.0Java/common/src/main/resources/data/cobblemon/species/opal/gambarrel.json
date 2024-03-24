@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gambarrel",
-  "nationalPokedexNumber": 1423,
+  "nationalPokedexNumber": 1433,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -101,7 +101,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,14 +15,15 @@ public class Bulbright extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         75),
                 List.of(Ability.DAZZLING,Ability.LEVITATE,Ability.ILLUMINATE), Ability.ILLUMINATE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,2,0,0), 110,
                 0.0,
                 131, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It draws energy from new ideas, so it's most at home around big cities with inventors and artists. It can deliver small jolts to forgetful people to jog their memories."),
-                List.of(),
+                List.of(new EvolutionEntry("brillumint", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HIDDEN_POWER,1),
                         new MoveLearnSetEntry(Move.SPARK,12),
@@ -85,11 +86,12 @@ public class Bulbright extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKILL_SWAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 19, 35, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bulbright");

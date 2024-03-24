@@ -14,7 +14,7 @@ public class Drogaster extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         95),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                10, 165,
                 new Stats(2,0,0,0,0,0), 75,
                 0.5,
                 165, ExperienceGroup.FAST,
@@ -49,14 +49,14 @@ public class Drogaster extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 43, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Drogaster");
+        setCanFly(true);
 
     }
 

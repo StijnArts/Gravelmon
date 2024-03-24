@@ -15,14 +15,15 @@ public class Yolkoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         48,
                         50),
                 List.of(Ability.SHELL_ARMOR,Ability.INFILTRATOR,Ability.STENCH), Ability.STENCH,
-                8, 165,
+                2, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It's actually a larva that mimics an egg, usually placed in another Pokemon's nest. It's a natural bully and pushes other Pokemon around while crying loudly for food."),
-                List.of(),
+                List.of(new EvolutionEntry("cantankoo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.INFESTATION,5),
@@ -87,11 +88,10 @@ public class Yolkoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COMEUPPANCE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Yolkoo");

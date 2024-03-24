@@ -7,7 +7,7 @@
       "id": "emporeel-1",
       "pokemon": "emporeel",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,7 @@
       "level": "36-58",
       "weight": 0.8,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

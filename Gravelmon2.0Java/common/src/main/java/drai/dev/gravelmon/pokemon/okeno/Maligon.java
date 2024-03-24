@@ -14,14 +14,15 @@ public class Maligon extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         58),
                 List.of(Ability.OUTBURST), Ability.CONTRARY,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.875,
                 145, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("Its vicious attitude makes it extremely hard to form a bond with. It takes a skilled trainer to make a Maligon value them as partners."),
-                List.of(),
+                List.of(new EvolutionEntry("caballgon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.JAB,1),
                         new MoveLearnSetEntry(Move.MEAN_LOOK,5),
@@ -43,8 +44,9 @@ public class Maligon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NASTY_PLOT,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 17, 34, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

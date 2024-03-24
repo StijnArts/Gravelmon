@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aveden",
-  "nationalPokedexNumber": 1826,
+  "nationalPokedexNumber": 1897,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -137,7 +137,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

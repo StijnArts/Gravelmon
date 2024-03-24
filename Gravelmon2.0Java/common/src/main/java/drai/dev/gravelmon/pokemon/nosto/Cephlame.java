@@ -15,13 +15,13 @@ public class Cephlame extends drai.dev.gravelmon.pokemon.Pokemon {
                         102,
                         72),
                 List.of(Ability.BLAZE), Ability.LIQUID_OOZE,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,3,0,0), 45,
                 0.875,
                 241, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.AMORPHOUS),
-                List.of("Evo Toxic FumesSTAB Poison - Sludge WaveSTAB Poison - Scald Water - Heat WaveSTAB Fire - Toxic Spikes Poison - Burn UpSTAB Fire - Tackle Normal - Leer Normal 7 EmberSTAB Fire 12 Clear SmogSTAB Poison 16 Flame BurstSTAB Fire 21 Acid SpraySTAB Poison 26 Toxic Poison 33 Corrosive Gas Poison 35 FlamethrowerSTAB Fire 39 Sludge BombSTAB Poison 42 Will-O-Wisp Fire 47 Dark Pulse Dark 50 Fire BlastSTAB Fire 54 Light Up Fire 60 Sludge WaveSTAB Poison"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -40,8 +40,8 @@ public class Cephlame extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLUDGE_WAVE,60)                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

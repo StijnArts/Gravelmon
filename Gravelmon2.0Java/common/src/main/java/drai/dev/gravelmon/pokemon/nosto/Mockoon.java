@@ -15,14 +15,15 @@ public class Mockoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         49,
                         33),
                 List.of(Ability.SHED_SKIN), Ability.INTIMIDATE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,1,0,1,0), 120,
                 0.5,
                 98, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Upon evolution, Larvake develop a strong outer shell which protects them from being eaten. They mimic a dragon's mouth to scare off foes."),
-                List.of(),
+                List.of(new EvolutionEntry("mimoth", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,5),
@@ -50,10 +51,11 @@ public class Mockoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FAKE_OUT,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gararewl",
-  "nationalPokedexNumber": 1833,
+  "nationalPokedexNumber": 1904,
   "primaryType": "steel",
   "abilities": [
     "sturdy",
@@ -115,7 +115,7 @@
     "cobblemon.species.gararewl.desc"
   ],
   "preEvolution": "dearewl",
-  "baseScale": 0.54375,
+  "baseScale": 0.725,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

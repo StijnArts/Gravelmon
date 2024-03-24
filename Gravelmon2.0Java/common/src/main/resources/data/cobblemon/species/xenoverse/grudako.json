@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grudako",
-  "nationalPokedexNumber": 1735,
+  "nationalPokedexNumber": 1745,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -99,6 +99,7 @@
     "tutor:dualchop",
     "tutor:hurricane",
     "tutor:irondefense",
+    "tutor:magicwall",
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
@@ -113,7 +114,7 @@
     "cobblemon.species.grudako.desc"
   ],
   "preEvolution": "chigami",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

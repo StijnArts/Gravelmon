@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "demorigan",
-  "nationalPokedexNumber": 3273,
+  "nationalPokedexNumber": 3882,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -54,8 +54,10 @@
     "1:beatup",
     "35:foulplay",
     "65:wormholecosmic",
+    "72:devastate",
     "tm:waterpulse",
     "tm:thunderwave",
+    "tm:frostbite",
     "tm:drainpunch",
     "tm:frustration",
     "tm:reflect",
@@ -67,6 +69,7 @@
     "tutor:trick",
     "tutor:magiccoat",
     "tutor:earthquake",
+    "tutor:ragingflame",
     "egg:lovelykiss",
     "egg:foulplay",
     "egg:shadowsneak",
@@ -89,7 +92,7 @@
     "cobblemon.species.demorigan.desc"
   ],
   "preEvolution": "demiddul",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

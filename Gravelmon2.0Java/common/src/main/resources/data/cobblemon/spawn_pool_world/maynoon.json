@@ -7,16 +7,15 @@
       "id": "maynoon-1",
       "pokemon": "maynoon",
       "presets": [
-          "natural"
+          "freshwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "24-25",
+      "weight": 0.3,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_river" ],
         "canSeeSky": true
       }
     }

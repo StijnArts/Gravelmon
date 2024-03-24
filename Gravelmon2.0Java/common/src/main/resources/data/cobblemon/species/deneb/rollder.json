@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rollder",
-  "nationalPokedexNumber": 3016,
+  "nationalPokedexNumber": 3625,
   "primaryType": "rock",
   "secondaryType": "bug",
   "abilities": [
@@ -71,6 +71,8 @@
     "tm:explosion",
     "tm:strength",
     "tm:rocksmash",
+    "tutor:bugnoise",
+    "tutor:shadowclamp",
     "tutor:dig",
     "tutor:hiddenpower",
     "tutor:rest",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gargarool",
-  "nationalPokedexNumber": 2648,
+  "nationalPokedexNumber": 3054,
   "primaryType": "electric",
   "secondaryType": "poison",
   "abilities": [
@@ -25,17 +25,17 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -50,6 +50,21 @@
     "monster"
   ],
   "moves": [
+    "1:electrify",
+    "1:crunch",
+    "1:spark",
+    "1:charge",
+    "1:venomdrench",
+    "1:wildcharge",
+    "1:thunderbolt",
+    "1:haze",
+    "1:acid",
+    "1:venoshock",
+    "1:painsplit",
+    "1:psychicfangs",
+    "1:scald",
+    "1:embargo",
+    "1:smokescreen",
     "tm:lastresort",
     "tm:recycle",
     "tm:shockwave",
@@ -79,7 +94,7 @@
   "pokedex": [
     "cobblemon.species.gargarool.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -94,7 +109,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

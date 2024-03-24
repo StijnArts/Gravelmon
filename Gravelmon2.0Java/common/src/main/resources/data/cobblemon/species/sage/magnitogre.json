@@ -47,16 +47,6 @@
   "eggGroups": [
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:iron_block",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:spikes",
     "1:metalsound",
@@ -136,7 +126,7 @@
   "pokedex": [
     "cobblemon.species.magnitogre.desc"
   ],
-  "baseScale": 0.5625,
+  "baseScale": 0.75,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

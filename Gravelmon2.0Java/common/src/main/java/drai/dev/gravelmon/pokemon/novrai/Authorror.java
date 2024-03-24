@@ -15,7 +15,7 @@ public class Authorror extends drai.dev.gravelmon.pokemon.Pokemon {
                         92,
                         74),
                 List.of(Ability.PLOTTWIST), Ability.TRACE,
-                8, 165,
+                22, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 236, ExperienceGroup.MEDIUM_SLOW,
@@ -107,11 +107,11 @@ public class Authorror extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESPECTS,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 43, 56, .23, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Authorror");

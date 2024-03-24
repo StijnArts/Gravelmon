@@ -15,14 +15,15 @@ public class Subzerebrum extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         55),
                 List.of(Ability.NEUROFORCE,Ability.REFRIGERATE,Ability.FOREWARN), Ability.FOREWARN,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 149, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It telepathically manipulates hands made of ice to interact with its surroundings. In warmer temperatures, its intelligence seems to suffer."),
-                List.of(),
+                List.of(new EvolutionEntry("amygdalanche", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TELEKINESIS,1),
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,10),
@@ -100,8 +101,8 @@ public class Subzerebrum extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MAGIC_ROOM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 44, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

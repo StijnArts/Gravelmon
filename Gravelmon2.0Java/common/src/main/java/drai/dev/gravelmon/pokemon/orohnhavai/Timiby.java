@@ -17,14 +17,15 @@ public class Timiby extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         50),
                 List.of(Ability.RATTLED,Ability.RUN_AWAY,Ability.IRON_FIST), Ability.IRON_FIST,
-                8, 165,
+                4, 165,
                 new Stats(1,0,0,0,0,0), 190,
                 0.75,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Sometimes it will cry and wimp out from any conflict or anxious situation. But don't let its weak looks fool you, it can be aggressive and fight back."),
-                List.of(),
+                List.of(new EvolutionEntry("nervreck", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FAKE_TEARS,1),
                         new MoveLearnSetEntry(Move.BIDE,4),
@@ -48,8 +49,8 @@ public class Timiby extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

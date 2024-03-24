@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stalagrunt",
-  "nationalPokedexNumber": 3424,
+  "nationalPokedexNumber": 4329,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -85,7 +85,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -47,16 +47,6 @@
   "eggGroups": [
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:gold_ingot",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:hypervoicesound",
     "1:rockthrow",
@@ -66,7 +56,7 @@
     "18:ancientpower",
     "24:moonlight",
     "30:lavaplume",
-    "36:cosmicpower",
+    "36:cosmicpowercosmic",
     "42:wideguard",
     "48:powergemcrystal",
     "54:meanlook",
@@ -140,7 +130,7 @@
   "pokedex": [
     "cobblemon.species.shibalbat.desc"
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

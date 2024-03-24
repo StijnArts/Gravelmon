@@ -14,7 +14,7 @@ public class Duolecule extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         85),
                 List.of(Ability.HYDRATION), Ability.HYDRATION,
-                8, 165,
+                5, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.0,
                 141, ExperienceGroup.MEDIUM_SLOW,
@@ -39,8 +39,9 @@ public class Duolecule extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHEER_COLD,52)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 27, 1.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lannelid",
-  "nationalPokedexNumber": 3364,
+  "nationalPokedexNumber": 4267,
   "primaryType": "poison",
   "abilities": [
     "stickyhold",
@@ -110,7 +110,7 @@
     "cobblemon.species.lannelid.desc"
   ],
   "preEvolution": "secheel",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

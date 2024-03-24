@@ -98,9 +98,9 @@ public class NovranSkrelp extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.NOVRAI),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 32, 9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF))
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);

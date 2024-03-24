@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "comite",
-  "nationalPokedexNumber": 2015,
+  "nationalPokedexNumber": 2086,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -59,7 +59,7 @@
     "23:rockblast",
     "26:gravitycosmic",
     "29:psyshock",
-    "32:cosmicpower",
+    "32:cosmicpowercosmic",
     "35:stealthrock",
     "38:powergemcrystal",
     "41:recover",
@@ -88,7 +88,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bubbaluffa",
-  "nationalPokedexNumber": 1516,
+  "nationalPokedexNumber": 1526,
   "primaryType": "normal",
   "abilities": [
     "waterabsorb",
@@ -134,7 +134,7 @@
     "cobblemon.species.bubbaluffa.desc"
   ],
   "preEvolution": "soponge",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

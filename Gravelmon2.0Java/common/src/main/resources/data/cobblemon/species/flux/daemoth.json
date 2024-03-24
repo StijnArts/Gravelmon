@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "daemoth",
-  "nationalPokedexNumber": 1971,
+  "nationalPokedexNumber": 2042,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.daemoth.desc"
   ],
   "preEvolution": "mosseer",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

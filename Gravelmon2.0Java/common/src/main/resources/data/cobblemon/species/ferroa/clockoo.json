@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "clockoo",
-  "nationalPokedexNumber": 1537,
+  "nationalPokedexNumber": 1547,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -176,7 +176,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

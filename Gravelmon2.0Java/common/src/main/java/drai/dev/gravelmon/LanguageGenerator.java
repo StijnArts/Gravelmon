@@ -62,5 +62,18 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.eldiw","Eldiw");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.xenoverse","Xenoverse");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.signet","Signet");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.rica","Rica");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.ferroa","Ferroa");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.enriko","Enriko");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.tandor","Tandor");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.hiza","Hiza");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.junnin","Junnin");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.nosto","Nosto");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.qamor","Qamor");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.isiah","Isiah");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.midamis","Midamis");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.novrai","Novrai");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.atlas","Atlas");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.orohnhavai","Orohn-Havai");
     }
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pharoar",
-  "nationalPokedexNumber": 2323,
+  "nationalPokedexNumber": 2394,
   "primaryType": "psychic",
   "secondaryType": "ground",
   "abilities": [
@@ -157,7 +157,7 @@
     "cobblemon.species.pharoar.desc"
   ],
   "preEvolution": "whiscleo",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

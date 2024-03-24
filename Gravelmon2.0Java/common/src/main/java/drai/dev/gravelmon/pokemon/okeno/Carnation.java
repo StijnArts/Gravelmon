@@ -14,8 +14,8 @@ public class Carnation extends drai.dev.gravelmon.pokemon.Pokemon {
                         81,
                         97),
                 List.of(Ability.ANGER_POINT,Ability.FLOWER_GIFT,Ability.CHLOROPHYLL), Ability.CHLOROPHYLL,
-                8, 165,
-                new Stats(0,1,0,0,0,1), 0,
+                16, 165,
+                new Stats(0,1,0,0,0,1), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -43,8 +43,9 @@ public class Carnation extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OUTRAGE,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 41, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

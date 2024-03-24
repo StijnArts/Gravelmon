@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pupnacious",
-  "nationalPokedexNumber": 1462,
+  "nationalPokedexNumber": 1472,
   "primaryType": "fighting",
   "secondaryType": "dragon",
   "abilities": [
@@ -161,7 +161,7 @@
     "cobblemon.species.pupnacious.desc"
   ],
   "preEvolution": "scrapint",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

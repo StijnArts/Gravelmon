@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cupricorn",
-  "nationalPokedexNumber": 3001,
+  "nationalPokedexNumber": 3610,
   "primaryType": "steel",
   "abilities": [
     "sturdy",
@@ -77,11 +77,13 @@
     "tutor:toxic",
     "tutor:dig",
     "tutor:iciclecrash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "egg:ancientpower",
     "egg:aquatail",
     "egg:bounce",
     "egg:bulldoze",
+    "egg:darkroarsound",
     "egg:endeavor",
     "egg:fissure",
     "egg:flashcannon",
@@ -94,6 +96,7 @@
     "egg:scaryface",
     "egg:snatch",
     "egg:spark",
+    "egg:stardustcosmic",
     "egg:sunnyday",
     "egg:wildcharge"  ],
   "labels": [
@@ -118,7 +121,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

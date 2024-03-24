@@ -14,7 +14,7 @@ public class Dullahaunt extends drai.dev.gravelmon.pokemon.Pokemon {
                         112,
                         101),
                 List.of(Ability.WANDERING_SPIRIT), Ability.WANDERING_SPIRIT,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.25,
                 0, ExperienceGroup.SLOW,
@@ -42,9 +42,9 @@ public class Dullahaunt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OMINOUS_WIND,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 17, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

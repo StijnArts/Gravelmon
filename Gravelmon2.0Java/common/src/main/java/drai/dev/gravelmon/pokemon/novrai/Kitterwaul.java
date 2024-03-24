@@ -15,14 +15,15 @@ public class Kitterwaul extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         71),
                 List.of(Ability.SOUNDPROOF,Ability.CONTRARY,Ability.PERPLEXING), Ability.PERPLEXING,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 90,
                 0.5,
                 57, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Some say that seeing a Kitterwaul's piercing yellow eyes gazing at you from afar is a sign of bad luck, but really they're just shy. Their amorphous bodies can shift like shadows."),
-                List.of(),
+                List.of(new EvolutionEntry("impawzible", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:moon_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,3),
@@ -111,11 +112,11 @@ public class Kitterwaul extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.UPROAR,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kitterwaul");

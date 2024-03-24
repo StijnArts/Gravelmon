@@ -15,7 +15,7 @@ public class Rorschade extends drai.dev.gravelmon.pokemon.Pokemon {
                         126,
                         107),
                 List.of(Ability.FOREWARN), Ability.TRACE,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,2,0,0), 60,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -111,11 +111,12 @@ public class Rorschade extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EMBARGO,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Rorschade");

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "corsoreef",
-  "nationalPokedexNumber": 1869,
+  "nationalPokedexNumber": 1940,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -142,7 +142,7 @@
   "pokedex": [
     "cobblemon.species.corsoreef.desc"
   ],
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

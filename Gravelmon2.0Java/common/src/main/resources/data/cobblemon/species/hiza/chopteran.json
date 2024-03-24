@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chopteran",
-  "nationalPokedexNumber": 2147,
+  "nationalPokedexNumber": 2218,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.chopteran.desc"
   ],
   "preEvolution": "buzzover",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

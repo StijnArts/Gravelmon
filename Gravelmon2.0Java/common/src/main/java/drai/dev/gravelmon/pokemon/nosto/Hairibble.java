@@ -15,14 +15,15 @@ public class Hairibble extends drai.dev.gravelmon.pokemon.Pokemon {
                         37,
                         52),
                 List.of(Ability.TANGLING_HAIR), Ability.TANGLING_HAIR,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("- Sand Attack Ground - Jab Normal 3 Leer Normal 6 Poison StingSTAB Poison 8 Scary Face Normal 10 Pinch Bug 12 Bide Normal 15 Sand TombSTAB Ground 17 Bite Dark 19 Prickle BarbsSTAB Poison 21 MagnitudeSTAB Ground 24 Bug Bite Bug 27 DigSTAB Ground 29 Toxic Thread Poison 31 Fell Stinger Bug 34 BulldozeSTAB Ground 37 Cross PoisonSTAB Poison 40 Hair Sweep Psychic 43 LandslideSTAB Ground 48 Poison JabSTAB Poison 53 EarthquakeSTAB Ground"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("furrocious", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.JAB,1),
                         new MoveLearnSetEntry(Move.LEER,3),
@@ -151,9 +152,10 @@ public class Hairibble extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TICKLE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 33, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

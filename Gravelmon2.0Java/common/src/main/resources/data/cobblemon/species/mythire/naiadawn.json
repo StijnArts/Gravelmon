@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "naiadawn",
-  "nationalPokedexNumber": 2626,
+  "nationalPokedexNumber": 3032,
   "primaryType": "bug",
   "abilities": [
     "waterveil",
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -48,7 +48,16 @@
     "bug"
   ],
   "moves": [
-  ],
+    "1:watergun",
+    "6:quickattack",
+    "9:sweetscent",
+    "14:soak",
+    "17:bubblebeam",
+    "22:agility",
+    "25:haze",
+    "25:mist",
+    "35:batonpass",
+    "38:stickyweb"  ],
   "labels": [
     "mythire",
     "not_modeled"
@@ -56,7 +65,22 @@
   "pokedex": [
     "cobblemon.species.naiadawn.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "naiadawn_maynoon",
+      "variant": "level_up",
+      "result": "maynoon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +95,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 4,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brailip",
-  "nationalPokedexNumber": 1850,
+  "nationalPokedexNumber": 1921,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -134,7 +134,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

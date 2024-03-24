@@ -15,13 +15,13 @@ public class Cephalotox extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         72),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,0), 60,
                 0.0,
                 168, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("- SmogSTAB Poison - Poison Gas Poison 4 Rock ThrowSTAB Rock 8 AcidSTAB Poison 11 Ancient PowerSTAB Rock 15 Venom Drench Poison 19 Hex Ghost 23 Brine Water 29 Toxic Poison 34 Scald Water 39 Sludge BombSTAB Poison 44 Power GemSTAB Rock 50 Stealth Rock Rock 57 Sludge WaveSTAB Poison 65 Head SmashSTAB Rock"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.POISON_GAS,1),
@@ -119,14 +119,16 @@ public class Cephalotox extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 2, 33, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Cephalotox");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -15,8 +15,8 @@ public class Urtichum extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         34),
                 List.of(Ability.POISON_POINT), Ability.POISON_POINT,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 157, ExperienceGroup.ERRATIC,
                 70,
@@ -24,17 +24,22 @@ public class Urtichum extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("If all its spines are broken off, it can release a cloud of poison from its posterior."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.SPIKY_SHIELD,1)                        ),
+                        new MoveLearnSetEntry(Move.EXPLOSION,1),
+                        new MoveLearnSetEntry(Move.GYRO_BALL,1),
+                        new MoveLearnSetEntry(Move.GUNK_SHOT,1),
+                        new MoveLearnSetEntry(Move.SPIKY_SHIELD,1)),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 19, 32, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Urtichum");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -15,7 +15,7 @@ public class Imitacean extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         95),
                 List.of(Ability.SHED_SKIN,Ability.SCAVENGE,Ability.INTIMIDATE), Ability.INTIMIDATE,
-                8, 165,
+                42, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 189, ExperienceGroup.SLOW,
@@ -117,14 +117,16 @@ public class Imitacean extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 27, 47, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN, Biome.IS_RIVER, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Imitacean");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

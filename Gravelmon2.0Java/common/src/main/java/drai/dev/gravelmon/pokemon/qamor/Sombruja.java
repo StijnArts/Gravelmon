@@ -17,7 +17,7 @@ public class Sombruja extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         110),
                 List.of(Ability.TANGLING_HAIR), Ability.DARKHOLD,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,1,0,1), 50,
                 0.5,
                 173, ExperienceGroup.SLOW,
@@ -42,9 +42,9 @@ public class Sombruja extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AFTER_YOU,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 46, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

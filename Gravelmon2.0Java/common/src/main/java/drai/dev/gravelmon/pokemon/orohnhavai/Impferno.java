@@ -17,14 +17,15 @@ public class Impferno extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         75),
                 List.of(Ability.BLAZE), Ability.DEFIANT,
-                8, 165,
+                10, 165,
                 new Stats(0,1,0,1,0,0), 45,
                 0.875,
                 161, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FLYING),
                 List.of("An avid hunter, Impferno can control the light emitted from its ear tips to confuse its prey. When agitated, its horns can reach dangerously high temperatures and attacks its foes with them. They communicate with each other by displaying light signals from its horns."),
-                List.of(),
+                List.of(new EvolutionEntry("pyrovern", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,1),
                         new MoveLearnSetEntry(Move.FIRE_SPIN,5),
@@ -51,14 +52,13 @@ public class Impferno extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Impferno");
+        setCanFly(true);
 
     }
 

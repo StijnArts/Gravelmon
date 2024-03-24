@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maskilisk",
-  "nationalPokedexNumber": 2668,
+  "nationalPokedexNumber": 3074,
   "primaryType": "dragon",
   "abilities": [
     "steadfast",
@@ -49,15 +49,48 @@
     "monster"
   ],
   "moves": [
+    "1:skullbash",
+    "1:focusenergy",
+    "1:dragondance",
+    "1:reversal",
+    "1:detect",
+    "1:foresight",
+    "1:slam",
+    "1:dragontail",
+    "1:dragonclaw",
+    "1:headsmash",
+    "1:stomp",
+    "1:breakingswipe",
+    "1:nobleroarsound",
+    "1:bellydrum",
+    "1:scaryface",
     "tm:scaleshot"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.maskilisk.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "facadino",
+  "evolutions": [
+    {
+      "id": "maskilisk_maskrusher",
+      "variant": "level_up",
+      "result": "maskrusher",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +105,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 17,
   "weight": 165,
   "aspects": [],
 "features": [

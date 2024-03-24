@@ -46,16 +46,6 @@
   "eggGroups": [
     "human_like"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:cocoa_beans",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:bulletpunch",
     "1:dizzypunch",
@@ -138,7 +128,7 @@
     "cobblemon.species.ocerumi.desc"
   ],
   "preEvolution": "chayan",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

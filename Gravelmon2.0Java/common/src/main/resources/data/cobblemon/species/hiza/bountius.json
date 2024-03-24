@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bountius",
-  "nationalPokedexNumber": 2184,
+  "nationalPokedexNumber": 2255,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -108,7 +108,7 @@
     "cobblemon.species.bountius.desc"
   ],
   "preEvolution": "hiziantropius",
-  "baseScale": 0.5625,
+  "baseScale": 0.75,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

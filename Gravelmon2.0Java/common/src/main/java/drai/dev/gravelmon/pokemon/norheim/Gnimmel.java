@@ -17,14 +17,15 @@ public class Gnimmel extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         60),
                 List.of(Ability.OVERCOAT,Ability.GLUTTONY,Ability.THICK_FAT), Ability.THICK_FAT,
-                8, 165,
-                new Stats(0,1,0,0,0,1), 0,
+                5, 165,
+                new Stats(0,1,0,0,0,1), 150,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Gnimmel are great lookouts for potential danger. They guard their burrowed nests with care to provide safety for Lemini."),
-                List.of(),
+                List.of(new EvolutionEntry("wolverage", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"41")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,4),
@@ -39,10 +40,10 @@ public class Gnimmel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,53)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 23, 34, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

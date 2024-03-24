@@ -15,14 +15,17 @@ public class Morostache extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         50),
                 List.of(Ability.TANGLING_HAIR), Ability.PRANKSTER,
-                8, 165,
+                1, 165,
                 new Stats(0,1,0,0,0,0), 100,
                 0.5,
                 70, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("A parasitic Pokemon that attaches itself above the mouths of larger creatures, stealing pieces of food with its hairy whiskers as they eat. Once it falls asleep, though, it can be easily removed."),
-                List.of(),
+                List.of(new EvolutionEntry("impostache", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"gravelmon:prim_shears"),
+                        new EvolutionEntry("morosquatch", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"gravelmon:hair_tonic")),
                 List.of(
                         new MoveLearnSetEntry(Move.COVET,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -103,9 +106,8 @@ public class Morostache extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.UPROAR,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

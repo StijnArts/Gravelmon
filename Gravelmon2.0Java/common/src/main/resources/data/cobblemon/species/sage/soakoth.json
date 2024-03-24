@@ -5,6 +5,7 @@
   "primaryType": "water",
   "abilities": [
     "swiftswim",
+    "content",
     "h:regenerator"
   ],
   "baseStats": {
@@ -46,16 +47,6 @@
   "eggGroups": [
     "water_1"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:hammerarm",
     "1:recycle",
@@ -130,7 +121,7 @@
     "cobblemon.species.soakoth.desc"
   ],
   "preEvolution": "chilloth",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

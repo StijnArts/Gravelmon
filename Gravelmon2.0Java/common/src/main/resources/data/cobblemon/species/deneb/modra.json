@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "modra",
-  "nationalPokedexNumber": 3101,
+  "nationalPokedexNumber": 3710,
   "primaryType": "poison",
   "abilities": [
     "liquidooze",
@@ -79,9 +79,11 @@
     "tm:strength",
     "tutor:dig",
     "tutor:hiddenpower",
+    "tutor:shadowclamp",
     "tutor:rest",
     "tutor:toxic",
     "tutor:iciclecrash",
+    "tutor:bugnoise",
     "tutor:hydropump",
     "egg:acid",
     "egg:acidspray",
@@ -95,6 +97,7 @@
     "egg:earthquake",
     "egg:firespin",
     "egg:flamethrower",
+    "egg:frostbite",
     "egg:gigaimpact",
     "egg:mudshot",
     "egg:overheat",
@@ -103,6 +106,7 @@
     "egg:raindance",
     "egg:safeguard",
     "egg:scald",
+    "egg:shadowclamp",
     "egg:stoneedge",
     "egg:sunnyday",
     "egg:twister"  ],
@@ -128,7 +132,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

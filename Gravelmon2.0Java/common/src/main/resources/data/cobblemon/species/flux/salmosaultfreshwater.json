@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "salmosaultfreshwater",
-  "nationalPokedexNumber": 2003,
+  "nationalPokedexNumber": 2074,
   "primaryType": "water",
   "abilities": [
     "stamina",
@@ -77,7 +77,7 @@
     "cobblemon.species.salmosaultfreshwater.desc"
   ],
   "preEvolution": "salmini",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

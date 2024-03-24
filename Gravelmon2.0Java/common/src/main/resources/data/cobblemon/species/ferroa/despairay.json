@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "despairay",
-  "nationalPokedexNumber": 1571,
+  "nationalPokedexNumber": 1581,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -115,7 +115,7 @@
     "cobblemon.species.despairay.desc"
   ],
   "preEvolution": "skite",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,14 +15,16 @@ public class Dodojo extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         65),
                 List.of(Ability.CURSED_BODY,Ability.FINALE,Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 60,
                 0.5,
                 68, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("A recently extinct Pokemon whose fighting spirit was so tenacious that it refused to pass on. Its bones now serve as weapons for it."),
-                List.of(),
+                List.of(new EvolutionEntry("taekwondodo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.POUND,6),
@@ -105,8 +107,9 @@ public class Dodojo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

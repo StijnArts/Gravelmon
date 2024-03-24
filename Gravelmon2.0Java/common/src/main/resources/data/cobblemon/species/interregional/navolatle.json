@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "navolatle",
-  "nationalPokedexNumber": 1375,
+  "nationalPokedexNumber": 1385,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.navolatle.desc"
   ],
   "preEvolution": "blastine",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

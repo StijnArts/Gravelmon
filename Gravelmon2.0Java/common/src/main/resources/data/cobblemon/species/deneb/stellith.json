@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stellith",
-  "nationalPokedexNumber": 3057,
+  "nationalPokedexNumber": 3666,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -57,7 +57,8 @@
     "16:rockpolish",
     "19:psywave",
     "25:batonpass",
-    "28:cosmicpower",
+    "28:cosmicpowercosmic",
+    "37:stardustcosmic",
     "43:zenheadbutt",
     "49:calmmind",
     "58:explosion",
@@ -79,10 +80,11 @@
     "tm:explosion",
     "tm:flash",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:nastyplot"  ],
+    "tutor:nastyplot",
+    "tutor:bugnoise"  ],
   "labels": [
     "deneb",
     "not_modeled"
@@ -114,7 +116,7 @@
       "requiredContext": "cobblemon:moon_stone"   
  }
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

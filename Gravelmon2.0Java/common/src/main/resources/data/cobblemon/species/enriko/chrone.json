@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chrone",
-  "nationalPokedexNumber": 1654,
+  "nationalPokedexNumber": 1664,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -71,7 +71,7 @@
       "requiredContext": "cobblemon:upgrade"   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

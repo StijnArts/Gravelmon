@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lodie",
-  "nationalPokedexNumber": 2688,
+  "nationalPokedexNumber": 3094,
   "primaryType": "electric",
   "abilities": [
     "levitate",
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -48,6 +48,15 @@
     "mineral"
   ],
   "moves": [
+    "1:gravitycosmic",
+    "1:magnetbomb",
+    "1:magnetrise",
+    "1:magneticflux",
+    "1:astonish",
+    "1:sonicboomsound",
+    "1:electroball",
+    "1:triattack",
+    "1:iondeluge",
     "1:defensecurl"  ],
   "labels": [
     "mythire",
@@ -56,7 +65,20 @@
   "pokedex": [
     "cobblemon.species.lodie.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "lodie_lodeoni",
+      "variant": "item_interact",
+      "result": "lodeoni",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone"   
+ }
+  ],
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +93,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 9,
   "weight": 165,
   "aspects": [],
 "features": [

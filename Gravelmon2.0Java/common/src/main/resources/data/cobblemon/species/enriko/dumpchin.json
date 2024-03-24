@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dumpchin",
-  "nationalPokedexNumber": 1630,
+  "nationalPokedexNumber": 1640,
   "primaryType": "poison",
   "abilities": [
     "hydration",
@@ -80,7 +80,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

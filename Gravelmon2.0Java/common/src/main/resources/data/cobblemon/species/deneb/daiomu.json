@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "daiomu",
-  "nationalPokedexNumber": 3265,
+  "nationalPokedexNumber": 3874,
   "primaryType": "electric",
   "secondaryType": "dragon",
   "abilities": [
@@ -103,7 +103,7 @@
     "cobblemon.species.daiomu.desc"
   ],
   "preEvolution": "mameden",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

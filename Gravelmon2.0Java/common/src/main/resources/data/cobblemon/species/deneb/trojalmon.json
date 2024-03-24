@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trojalmon",
-  "nationalPokedexNumber": 3138,
+  "nationalPokedexNumber": 3747,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -60,6 +60,7 @@
     "23:torment",
     "29:bulldoze",
     "33:raindance",
+    "34:shadowclamp",
     "38:aquatail",
     "45:thrash",
     "50:scaryface",
@@ -75,10 +76,12 @@
     "tm:haze",
     "tm:shadowball",
     "tm:triattack",
+    "tm:devastate",
     "tm:sludgebomb",
     "tm:mudbomb",
     "tm:surf",
     "tm:waterfall",
+    "tutor:shadowclamp",
     "tutor:rest",
     "tutor:hiddenpower",
     "tutor:dig",
@@ -113,7 +116,7 @@
     "cobblemon.species.trojalmon.desc"
   ],
   "preEvolution": "smalmon",
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

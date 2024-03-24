@@ -15,14 +15,15 @@ public class Splattod extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         50),
                 List.of(Ability.TOXIC_DEBRIS,Ability.STENCH,Ability.AFTERMATH), Ability.AFTERMATH,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 55, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It marks its territory with a spray of colorful toxins. These toxins remain potent even after drying, so it's a pest in urban areas."),
-                List.of(),
+                List.of(new EvolutionEntry("vandibal", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUNCE,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,5),
@@ -102,11 +103,11 @@ public class Splattod extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Splattod");

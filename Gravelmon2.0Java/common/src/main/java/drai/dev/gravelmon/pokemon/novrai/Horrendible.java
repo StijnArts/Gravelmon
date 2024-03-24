@@ -15,7 +15,7 @@ public class Horrendible extends drai.dev.gravelmon.pokemon.Pokemon {
                         83,
                         39),
                 List.of(Ability.LIMBER,Ability.STRONG_JAW,Ability.POISON_POINT), Ability.POISON_POINT,
-                8, 165,
+                56, 165,
                 new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 169, ExperienceGroup.MEDIUM_FAST,
@@ -113,14 +113,16 @@ public class Horrendible extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 35, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Horrendible");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

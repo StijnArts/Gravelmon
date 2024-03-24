@@ -21,7 +21,7 @@ public class Neinei extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         60),
                 List.of(Ability.FRIEND_GUARD,Ability.SIMPLE,Ability.MAGIC_GUARD), Ability.MAGIC_GUARD,
-                8, 165,
+                10, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 158, ExperienceGroup.MEDIUM_FAST,
@@ -53,14 +53,16 @@ public class Neinei extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 23, 47, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Neinei");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setCanFly(true);
 
     }
 

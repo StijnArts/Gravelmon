@@ -15,7 +15,7 @@ public class Cerebarrel extends drai.dev.gravelmon.pokemon.Pokemon {
                         121,
                         76),
                 List.of(Ability.COMPOUND_EYES,Ability.TRACE,Ability.DOWNLOAD), Ability.DOWNLOAD,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -111,14 +111,15 @@ public class Cerebarrel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 32, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Cerebarrel");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

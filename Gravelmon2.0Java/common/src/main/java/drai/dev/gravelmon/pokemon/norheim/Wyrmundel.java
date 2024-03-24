@@ -17,7 +17,7 @@ public class Wyrmundel extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         90),
                 List.of(Ability.MEGA_LAUNCHER), Ability.DRIZZLE,
-                8, 165,
+                76, 165,
                 new Stats(0,1,0,2,0,0), 45,
                 0.0,
                 306, ExperienceGroup.SLOW,
@@ -41,14 +41,17 @@ public class Wyrmundel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ORIGIN_PULSE,78)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Wyrmundel");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

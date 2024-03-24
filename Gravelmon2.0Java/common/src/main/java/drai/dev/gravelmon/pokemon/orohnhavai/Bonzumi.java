@@ -17,14 +17,15 @@ public class Bonzumi extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         50),
                 List.of(Ability.FLASH_FIRE,Ability.GLUTTONY,Ability.RUN_AWAY), Ability.RUN_AWAY,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 41, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Bonzumi are almost never tired and can go days without sleep due to their hyperactive energy. Known for their playful and hyper nature, they are the perfect companion for little children."),
-                List.of(),
+                List.of(new EvolutionEntry("bonzire", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,3),
@@ -46,11 +47,11 @@ public class Bonzumi extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of( new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bonzumi");

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flaringo",
-  "nationalPokedexNumber": 2135,
+  "nationalPokedexNumber": 2206,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -114,7 +114,7 @@
       "requiredContext": "cobblemon:fire_stone"   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

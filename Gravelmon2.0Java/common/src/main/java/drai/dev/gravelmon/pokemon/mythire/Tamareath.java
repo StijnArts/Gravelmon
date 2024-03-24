@@ -15,7 +15,7 @@ public class Tamareath extends drai.dev.gravelmon.pokemon.Pokemon {
                         130,
                         70),
                 List.of(Ability.SERENE_GRACE,Ability.SYNCHRONIZE,Ability.WANDERING_SPIRIT), Ability.WANDERING_SPIRIT,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,2,0), 90,
                 0.5,
                 166, ExperienceGroup.MEDIUM_SLOW,
@@ -24,7 +24,15 @@ public class Tamareath extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("A Tamareath's tail is decorated with baubles representing its past lives. Biologically immortal, its life only ends when it chooses to be buried alongside a lifelong companion."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.SHADOW_DANCE,1),
+                        new MoveLearnSetEntry(Move.OMINOUS_WIND,1),
+                        new MoveLearnSetEntry(Move.DESTINY_BOND,1),
+                        new MoveLearnSetEntry(Move.CURSE,1),
+                        new MoveLearnSetEntry(Move.TAIL_WHIP,1),
+                        new MoveLearnSetEntry(Move.MOONLIGHT,1),
+                        new MoveLearnSetEntry(Move.CRAFTY_SHIELD,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,1),
+
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.BIDE,"tm"),
                         new MoveLearnSetEntry(Move.CALM_MIND,"tm"),
@@ -72,9 +80,8 @@ public class Tamareath extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENERGYLOOP,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "miasmedic",
-  "nationalPokedexNumber": 1902,
+  "nationalPokedexNumber": 1973,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.miasmedic.desc"
   ],
   "preEvolution": "spritzee",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

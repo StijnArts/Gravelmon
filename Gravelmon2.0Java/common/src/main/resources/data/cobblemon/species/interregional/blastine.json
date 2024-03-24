@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blastine",
-  "nationalPokedexNumber": 1374,
+  "nationalPokedexNumber": 1384,
   "primaryType": "steel",
   "abilities": [
     "aftermath",
@@ -82,7 +82,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

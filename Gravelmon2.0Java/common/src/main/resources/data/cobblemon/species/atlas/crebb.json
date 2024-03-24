@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crebb",
-  "nationalPokedexNumber": 3401,
+  "nationalPokedexNumber": 4306,
   "primaryType": "water",
   "abilities": [
     "shellarmor",
@@ -127,7 +127,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

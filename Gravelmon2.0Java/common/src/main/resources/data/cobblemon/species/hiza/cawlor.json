@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cawlor",
-  "nationalPokedexNumber": 2045,
+  "nationalPokedexNumber": 2116,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -108,7 +108,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

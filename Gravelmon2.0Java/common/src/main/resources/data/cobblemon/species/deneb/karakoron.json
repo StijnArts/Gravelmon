@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "karakoron",
-  "nationalPokedexNumber": 3270,
+  "nationalPokedexNumber": 3879,
   "primaryType": "psychic",
   "abilities": [
     "levitate",
@@ -56,6 +56,7 @@
     "7:astonish",
     "10:confusion",
     "13:yawn",
+    "16:hypnopulse",
     "19:takedown",
     "22:extrasensory",
     "27:healbellsound",
@@ -88,7 +89,7 @@
   "pokedex": [
     "cobblemon.species.karakoron.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

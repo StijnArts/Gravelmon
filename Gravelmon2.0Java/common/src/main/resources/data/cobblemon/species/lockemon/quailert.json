@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quailert",
-  "nationalPokedexNumber": 2428,
+  "nationalPokedexNumber": 2727,
   "primaryType": "flying",
   "secondaryType": "ground",
   "abilities": [
@@ -92,7 +92,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

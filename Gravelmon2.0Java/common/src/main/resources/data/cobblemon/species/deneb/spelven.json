@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spelven",
-  "nationalPokedexNumber": 3033,
+  "nationalPokedexNumber": 3642,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -73,16 +73,20 @@
     "tm:haze",
     "tm:psychic",
     "tm:shadowball",
+    "tm:devastate",
     "tm:batonpass",
     "tm:confuseray",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:heatwave",
     "tm:focusblast",
     "tm:discharge",
     "tm:willowisp",
     "tm:flash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
+    "tutor:bugnoise",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
@@ -94,6 +98,7 @@
     "egg:dreameater",
     "egg:faketears",
     "egg:flatter",
+    "egg:frostbite",
     "egg:frustration",
     "egg:futuresight",
     "egg:hyperbeam",
@@ -102,6 +107,7 @@
     "egg:mirrorcoat",
     "egg:nastyplot",
     "egg:painsplit",
+    "egg:psyburn",
     "egg:psychup",
     "egg:psywave",
     "egg:raindance",
@@ -110,6 +116,7 @@
     "egg:return",
     "egg:skillswap",
     "egg:spite",
+    "egg:stardustcosmic",
     "egg:sunnyday",
     "egg:trick"  ],
   "labels": [
@@ -119,7 +126,7 @@
   "pokedex": [
     "cobblemon.species.spelven.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

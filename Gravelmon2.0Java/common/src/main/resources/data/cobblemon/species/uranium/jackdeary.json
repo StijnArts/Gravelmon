@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jackdeary",
-  "nationalPokedexNumber": 1903,
+  "nationalPokedexNumber": 1974,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -49,6 +49,16 @@
     "human_like",
     "fairy"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:carrot_wine",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:quickattack",
     "1:foresight",
@@ -212,7 +222,7 @@
       "requiredContext": "gravelmon:carrot_wine"   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

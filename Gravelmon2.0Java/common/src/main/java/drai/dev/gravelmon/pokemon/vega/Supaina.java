@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Supaina extends Pokemon {
     public Supaina() {
         super( "Supaina",
@@ -72,7 +70,7 @@ public class Supaina extends Pokemon {
                 0,
                 List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 45, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),

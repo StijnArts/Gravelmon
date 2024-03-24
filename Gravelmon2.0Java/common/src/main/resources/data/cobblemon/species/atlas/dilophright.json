@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dilophright",
-  "nationalPokedexNumber": 3530,
+  "nationalPokedexNumber": 4435,
   "primaryType": "poison",
   "secondaryType": "dragon",
   "abilities": [
@@ -104,7 +104,7 @@
     "cobblemon.species.dilophright.desc"
   ],
   "preEvolution": "dilophang",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

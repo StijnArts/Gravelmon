@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "taekwondodo-1",
+      "pokemon": "taekwondodo",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "35-54",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical_island" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

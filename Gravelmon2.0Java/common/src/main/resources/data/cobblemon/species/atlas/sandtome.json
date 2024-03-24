@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sandtome",
-  "nationalPokedexNumber": 3474,
+  "nationalPokedexNumber": 4379,
   "primaryType": "ground",
   "abilities": [
     "sandveil",
@@ -110,7 +110,7 @@
     "cobblemon.species.sandtome.desc"
   ],
   "preEvolution": "sandan",
-  "baseScale": 0.73125,
+  "baseScale": 0.975,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

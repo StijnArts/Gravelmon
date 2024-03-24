@@ -15,7 +15,7 @@ public class Hotrog extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         117),
                 List.of(Ability.TRAMPLE,Ability.MOTOR_DRIVE,Ability.HEAVY_METAL), Ability.HEAVY_METAL,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,0,0,2), 60,
                 0.5,
                 179, ExperienceGroup.FAST,
@@ -108,11 +108,11 @@ public class Hotrog extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METAL_SOUND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 53, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Hotrog");

@@ -109,6 +109,7 @@
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
@@ -146,7 +147,7 @@
     "cobblemon.species.deltakabutops.desc"
   ],
   "preEvolution": "deltakabuto",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

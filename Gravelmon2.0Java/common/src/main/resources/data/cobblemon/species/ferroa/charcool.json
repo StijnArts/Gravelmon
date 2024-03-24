@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "charcool",
-  "nationalPokedexNumber": 1552,
+  "nationalPokedexNumber": 1562,
   "primaryType": "rock",
   "secondaryType": "grass",
   "abilities": [
@@ -136,7 +136,7 @@
     "cobblemon.species.charcool.desc"
   ],
   "preEvolution": "grily",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

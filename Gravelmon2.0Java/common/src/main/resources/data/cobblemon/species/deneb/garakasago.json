@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "garakasago",
-  "nationalPokedexNumber": 3243,
+  "nationalPokedexNumber": 3852,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -87,7 +87,7 @@
     "cobblemon.species.garakasago.desc"
   ],
   "preEvolution": "baburun",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

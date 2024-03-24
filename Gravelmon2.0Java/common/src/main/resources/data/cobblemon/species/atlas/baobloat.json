@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baobloat",
-  "nationalPokedexNumber": 3460,
+  "nationalPokedexNumber": 4365,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -112,7 +112,7 @@
     "cobblemon.species.baobloat.desc"
   ],
   "preEvolution": "barrose",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

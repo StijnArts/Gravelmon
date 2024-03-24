@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "furiousc",
-  "nationalPokedexNumber": 1634,
+  "nationalPokedexNumber": 1644,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.furiousc.desc"
   ],
   "preEvolution": "cleame",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

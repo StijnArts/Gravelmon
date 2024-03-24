@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terrapir",
-  "nationalPokedexNumber": 2393,
+  "nationalPokedexNumber": 2692,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.terrapir.desc"
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

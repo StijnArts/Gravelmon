@@ -15,7 +15,7 @@ public class Amphibrea extends drai.dev.gravelmon.pokemon.Pokemon {
                         91,
                         30),
                 List.of(Ability.GOOEY), Ability.FLARE_BOOST,
-                8, 165,
+                16, 165,
                 new Stats(1,1,0,0,0,0), 45,
                 0.5,
                 182, ExperienceGroup.MEDIUM_FAST,
@@ -24,7 +24,18 @@ public class Amphibrea extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Amphibrea basks in sunlight for most of the day, using its sticky skin like boiling-hot flypaper. In spite of its heavy body, its spring-like hind legs can vault its bulk into the air to crush foes."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.CRUCIBLESPILL,1),
+                        new MoveLearnSetEntry(Move.TAR_SHOT,1),
+                        new MoveLearnSetEntry(Move.ACID_ARMOR,1),
+                        new MoveLearnSetEntry(Move.GASTRO_ACID,1),
+                        new MoveLearnSetEntry(Move.ANCIENT_POWER,1),
+                        new MoveLearnSetEntry(Move.MUDDY_WATER,1),
+                        new MoveLearnSetEntry(Move.SLUDGE_WAVE,1),
+                        new MoveLearnSetEntry(Move.GUNK_SHOT,1),
+                        new MoveLearnSetEntry(Move.SMOKESCREEN,1),
+                        new MoveLearnSetEntry(Move.SMOG,1),
+                        new MoveLearnSetEntry(Move.BOUNCE,1),
+                        new MoveLearnSetEntry(Move.HEAVY_SLAM,1),
+                        new MoveLearnSetEntry(Move.CRUCIBLE_SPILL,1),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.BIDE,"tm"),
                         new MoveLearnSetEntry(Move.BODY_PRESS,"tm"),
@@ -94,8 +105,9 @@ public class Amphibrea extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

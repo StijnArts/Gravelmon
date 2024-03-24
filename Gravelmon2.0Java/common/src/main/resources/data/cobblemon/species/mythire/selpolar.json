@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "selpolar",
-  "nationalPokedexNumber": 2670,
+  "nationalPokedexNumber": 3076,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -49,6 +49,21 @@
     "water_1"
   ],
   "moves": [
+    "1:singsound",
+    "1:surf",
+    "1:dive",
+    "1:haze",
+    "1:mist",
+    "1:icywind",
+    "1:frostbreath",
+    "1:freezedry",
+    "1:aurorabeam",
+    "1:waterspout",
+    "1:bubble",
+    "1:endeavor",
+    "1:hypervoicesound",
+    "1:retaliate",
+    "1:bodyslam",
     "tm:return",
     "tm:frustration",
     "tm:hyperbeam",
@@ -89,7 +104,7 @@
   "pokedex": [
     "cobblemon.species.selpolar.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -104,7 +119,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

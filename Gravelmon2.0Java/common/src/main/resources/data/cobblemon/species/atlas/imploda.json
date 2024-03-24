@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "imploda",
-  "nationalPokedexNumber": 3428,
+  "nationalPokedexNumber": 4333,
   "primaryType": "fire",
   "abilities": [
     "aftermath",
@@ -150,7 +150,7 @@
     "cobblemon.species.imploda.desc"
   ],
   "preEvolution": "impie",
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cervantrier",
-  "nationalPokedexNumber": 1418,
+  "nationalPokedexNumber": 1428,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -83,7 +83,7 @@
     "cobblemon.species.cervantrier.desc"
   ],
   "preEvolution": "fungorse",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

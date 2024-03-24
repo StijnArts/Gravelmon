@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ratonine",
-  "nationalPokedexNumber": 1607,
+  "nationalPokedexNumber": 1617,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -67,7 +67,7 @@
     "cobblemon.species.ratonine.desc"
   ],
   "preEvolution": "whipcrat",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

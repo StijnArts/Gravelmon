@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mercenade",
-  "nationalPokedexNumber": 3162,
+  "nationalPokedexNumber": 3771,
   "primaryType": "steel",
   "secondaryType": "fighting",
   "abilities": [
@@ -79,6 +79,7 @@
     "tm:irontail",
     "tm:irondefense",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:mudbomb",
     "tm:woodhammer",
     "tm:focusblast",
@@ -87,6 +88,7 @@
     "tm:strength",
     "tm:rocksmash",
     "tutor:dig",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
@@ -130,7 +132,7 @@
     "cobblemon.species.mercenade.desc"
   ],
   "preEvolution": "ambilade",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

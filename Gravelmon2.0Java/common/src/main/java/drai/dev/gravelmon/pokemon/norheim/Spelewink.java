@@ -17,8 +17,8 @@ public class Spelewink extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         50),
                 List.of(Ability.CUTE_CHARM,Ability.DRY_SKIN,Ability.PROTEAN), Ability.PROTEAN,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -26,6 +26,9 @@ public class Spelewink extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Strange fluids can be collected from Spelewink's skin, making what seems to be love potions. These said love potions can be lethal however, according to witnesses from a number of victims."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.GROWL,1),
+                        new MoveLearnSetEntry(Move.BUBBLE,1),
+                        new MoveLearnSetEntry(Move.SLUDGE,1),
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,4),
                         new MoveLearnSetEntry(Move.POUND,8),
@@ -41,8 +44,8 @@ public class Spelewink extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,60)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

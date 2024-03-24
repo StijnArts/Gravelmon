@@ -15,13 +15,13 @@ public class Frankensour extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         75),
                 List.of(Ability.PLUS,Ability.MINUS,Ability.BATTERY), Ability.BATTERY,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,1,1,0), 90,
                 0.5,
                 180, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("- Juice SpraySTAB Grass"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.JUICESPRAY,1),
@@ -88,11 +88,11 @@ public class Frankensour extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOLTIN,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 2, 26, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Frankensour");

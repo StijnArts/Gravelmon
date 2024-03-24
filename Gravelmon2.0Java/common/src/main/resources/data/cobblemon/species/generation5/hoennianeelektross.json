@@ -67,6 +67,7 @@
     "tm:return",
     "tm:dig",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:flamethrower",
@@ -87,8 +88,10 @@
     "8:magnitude",
     "13:dig",
     "19:crunch",
+    "40:boltblitz",
     "57:fissure",
     "egg:earthpower",
+    "egg:electroburst",
     "egg:dragonrage"  ],
   "labels": [
     "blazing_emerald",
@@ -100,7 +103,7 @@
     "cobblemon.species.hoennianeelektross.desc"
   ],
   "preEvolution": "hoennianeelektrik",
-  "baseScale": 3.54375,
+  "baseScale": 4.7250000000000005,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

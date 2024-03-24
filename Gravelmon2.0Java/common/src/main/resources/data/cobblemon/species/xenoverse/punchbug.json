@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "punchbug",
-  "nationalPokedexNumber": 1732,
+  "nationalPokedexNumber": 1742,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -123,7 +123,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

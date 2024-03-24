@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "joltalope",
-  "nationalPokedexNumber": 1326,
+  "nationalPokedexNumber": 1336,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -153,7 +153,7 @@
     "cobblemon.species.joltalope.desc"
   ],
   "preEvolution": "zapalope",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

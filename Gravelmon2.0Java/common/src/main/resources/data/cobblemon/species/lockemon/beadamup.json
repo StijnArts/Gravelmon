@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beadamup",
-  "nationalPokedexNumber": 2474,
+  "nationalPokedexNumber": 2773,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
@@ -91,7 +91,7 @@
     "cobblemon.species.beadamup.desc"
   ],
   "preEvolution": "kituff",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

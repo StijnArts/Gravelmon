@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "royalert",
-  "nationalPokedexNumber": 3081,
+  "nationalPokedexNumber": 3690,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -85,6 +85,7 @@
     "tutor:fireblast",
     "egg:curse",
     "egg:howlsound",
+    "egg:magmaring",
     "egg:mirrorcoat",
     "egg:mudslap",
     "egg:outrage",
@@ -100,7 +101,7 @@
     "cobblemon.species.royalert.desc"
   ],
   "preEvolution": "gardleon",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

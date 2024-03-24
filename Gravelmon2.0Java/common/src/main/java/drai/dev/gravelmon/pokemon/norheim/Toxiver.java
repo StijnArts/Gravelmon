@@ -17,26 +17,44 @@ public class Toxiver extends drai.dev.gravelmon.pokemon.Pokemon {
                         76,
                         80),
                 List.of(Ability.POISON_POINT), Ability.SWIFT_SWIM,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 165,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Toxiver are ruthless and groups of them can contaminate entire stretches of water. One's spikes can kill a grown man."),
                 List.of(),
-                List.of(
-                        new MoveLearnSetEntry(Move.VENOM_DRENCH,1)                        ),
+                List.of(                    new MoveLearnSetEntry(Move.POISON_STING,1),
+                        new MoveLearnSetEntry(Move.VENOM_DRENCH,1),
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.HARDEN,4),
+                        new MoveLearnSetEntry(Move.WATER_GUN,8),
+                        new MoveLearnSetEntry(Move.FELL_STINGER,12),
+                        new MoveLearnSetEntry(Move.MINIMIZE,16),
+                        new MoveLearnSetEntry(Move.SPIKES,20),
+                        new MoveLearnSetEntry(Move.BRINE,24),
+                        new MoveLearnSetEntry(Move.POISON_JAB,28),
+                        new MoveLearnSetEntry(Move.PIN_MISSILE,32),
+                        new MoveLearnSetEntry(Move.TOXIC_SPIKES,36),
+                        new MoveLearnSetEntry(Move.SPIT_UP,40),
+                        new MoveLearnSetEntry(Move.STOCKPILE,40),
+                        new MoveLearnSetEntry(Move.TOXIC,44),
+                        new MoveLearnSetEntry(Move.AQUA_TAIL,48),
+                        new MoveLearnSetEntry(Move.ACUPRESSURE,52),
+                        new MoveLearnSetEntry(Move.DESTINY_BOND,56)    ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 25, 41, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Toxiver");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

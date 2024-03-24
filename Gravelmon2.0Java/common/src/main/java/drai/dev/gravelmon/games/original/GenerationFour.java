@@ -17,6 +17,7 @@ import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
+import drai.dev.gravelmon.pokemon.rica.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
@@ -28,6 +29,9 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new RicanShellos(422));
+        pokemon.add(new RicanGastrodon(423));
+
         pokemon.add(new NovranCranidos(408));
         pokemon.add(new NovranRampardos(409));
         pokemon.add(new NovranBonsly(438));
@@ -35,21 +39,21 @@ public class GenerationFour extends Game {
         pokemon.add(new NovranCherrim(421));
 
         pokemon.add(new QamoranCombee(415));
-//        pokemon.add(new QamoranTangrowth(465)); NOT FINISHED
+//        pokemon.add(new QamoranTangrowth(465)); Missing Stats
 
-//        pokemon.add(new NorheimanShinx(403)); NOT FINISHED
-//        pokemon.add(new NorheimanLuxio(404)); NOT FINISHED
-//        pokemon.add(new NorheimanLuxray(405)); NOT FINISHED
-//        pokemon.add(new NorheimanMismagius(429)); NOT FINISHED
+//        pokemon.add(new NorheimanShinx(403)); Member of line Not Finished
+//        pokemon.add(new NorheimanLuxio(404)); Missing Art
+//        pokemon.add(new NorheimanLuxray(405)); Member of line Not Finished
+//        pokemon.add(new NorheimanMismagius(429)); Missing Stats
 
-//        pokemon.add(new VaritasianBonsly(438)); NOT FINISHED
-//        pokemon.add(new VaritasianMimeJr(439)); NOT FINISHED
+//        pokemon.add(new VaritasianBonsly(438)); Member of line Not Finished
+//        pokemon.add(new VaritasianMimeJr(439)); Missing Art
         pokemon.add(new VaritasianMunchlax(446));
-//        pokemon.add(new VaritasianMantyke(458)); NOT FINISHED
+//        pokemon.add(new VaritasianMantyke(458)); Member of line Not Finished
 
-//        pokemon.add(new InterianPiplup(393)); NOT FINISHED
-//        pokemon.add(new InterianPrinplup(394)); NOT FINISHED
-//        pokemon.add(new InterianEmpoleon(395)); NOT FINISHED
+//        pokemon.add(new InterianPiplup(393)); Missing Stats
+//        pokemon.add(new InterianPrinplup(394)); Missing Stats
+//        pokemon.add(new InterianEmpoleon(395)); Missing Stats
         pokemon.add(new InterianArceus(493));
 //
         pokemon.add(new HubianTogekiss(468));

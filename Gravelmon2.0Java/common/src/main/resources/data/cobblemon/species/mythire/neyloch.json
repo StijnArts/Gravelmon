@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "neyloch",
-  "nationalPokedexNumber": 2621,
+  "nationalPokedexNumber": 3027,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -35,7 +35,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -50,6 +50,19 @@
     "grass"
   ],
   "moves": [
+    "1:stomp",
+    "1:highhorsepower",
+    "1:grassknot",
+    "1:razorleaf",
+    "1:whirlpool",
+    "1:soak",
+    "1:brine",
+    "1:aquajet",
+    "1:tropkick",
+    "1:worryseed",
+    "1:refresh",
+    "1:singsound",
+    "1:naturepower",
     "1:naturepower",
     "tm:return",
     "tm:frustration",
@@ -88,12 +101,15 @@
     "tm:hypnosis"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.neyloch.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "foaloch",
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -108,7 +124,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 21,
   "weight": 165,
   "aspects": [],
 "features": [

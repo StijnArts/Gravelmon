@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gunkile",
-  "nationalPokedexNumber": 2148,
+  "nationalPokedexNumber": 2219,
   "primaryType": "poison",
   "secondaryType": "water",
   "abilities": [
@@ -84,7 +84,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

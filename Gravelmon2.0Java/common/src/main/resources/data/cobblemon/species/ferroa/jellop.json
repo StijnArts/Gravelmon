@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jellop",
-  "nationalPokedexNumber": 1525,
+  "nationalPokedexNumber": 1535,
   "primaryType": "fighting",
   "secondaryType": "electric",
   "abilities": [
@@ -107,7 +107,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

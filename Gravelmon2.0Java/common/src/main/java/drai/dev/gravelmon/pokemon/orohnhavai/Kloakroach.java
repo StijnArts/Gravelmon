@@ -17,7 +17,7 @@ public class Kloakroach extends drai.dev.gravelmon.pokemon.Pokemon {
                         102,
                         30),
                 List.of(Ability.OVERCOAT,Ability.PICKPOCKET,Ability.BULLETPROOF), Ability.BULLETPROOF,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,2,0), 87,
                 0.5,
                 85, ExperienceGroup.MEDIUM_SLOW,
@@ -39,11 +39,11 @@ public class Kloakroach extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 32, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kloakroach");

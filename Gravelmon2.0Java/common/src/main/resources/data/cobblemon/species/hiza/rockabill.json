@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rockabill",
-  "nationalPokedexNumber": 2116,
+  "nationalPokedexNumber": 2187,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.rockabill.desc"
   ],
   "preEvolution": "kookabill",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "inferlauf",
-  "nationalPokedexNumber": 2850,
+  "nationalPokedexNumber": 3370,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.inferlauf.desc"
   ],
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

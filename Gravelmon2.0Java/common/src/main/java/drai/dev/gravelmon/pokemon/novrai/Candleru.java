@@ -15,14 +15,19 @@ public class Candleru extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         35),
                 List.of(Ability.FLASH_FIRE,Ability.THERMAL_EXCHANGE,Ability.FLARE_BOOST), Ability.FLARE_BOOST,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,1,0), 220,
                 0.5,
                 57, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Its head is coated in wax that can burn even underwater. It's oddly compelled to light itself on fire, so it follows Trainers with Fire-type Pokemon, hoping to join them."),
-                List.of(),
+                List.of(new EvolutionEntry("smeltdown", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:moon_stone"),
+                        new EvolutionEntry("exfinguish", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:moon_stone")
+
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,3),
@@ -82,14 +87,15 @@ public class Candleru extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 1, 24, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Candleru");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

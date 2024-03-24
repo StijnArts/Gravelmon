@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flawsy",
-  "nationalPokedexNumber": 2946,
+  "nationalPokedexNumber": 3466,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -85,7 +85,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

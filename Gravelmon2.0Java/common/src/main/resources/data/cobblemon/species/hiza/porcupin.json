@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "porcupin",
-  "nationalPokedexNumber": 2051,
+  "nationalPokedexNumber": 2122,
   "primaryType": "poison",
   "secondaryType": "normal",
   "abilities": [
@@ -112,7 +112,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

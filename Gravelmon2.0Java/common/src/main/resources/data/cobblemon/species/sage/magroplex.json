@@ -48,16 +48,6 @@
     "mineral",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:iron_ore",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:thrash",
     "1:spikes",
@@ -137,7 +127,7 @@
     "cobblemon.species.magroplex.desc"
   ],
   "preEvolution": "anvelid",
-  "baseScale": 0.9375,
+  "baseScale": 1.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

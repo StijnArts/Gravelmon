@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harpiron",
-  "nationalPokedexNumber": 2697,
+  "nationalPokedexNumber": 3103,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -25,7 +25,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -50,15 +50,25 @@
     "human_like"
   ],
   "moves": [
-  ],
+    "1:metalsound",
+    "1:metalclaw",
+    "1:wingattack",
+    "1:scaryface",
+    "1:singsound",
+    "1:perishsongsound",
+    "1:destinybond",
+    "1:screechsound"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.harpiron.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "effipy",
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -73,7 +83,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 13,
   "weight": 165,
   "aspects": [],
 "features": [

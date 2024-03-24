@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "intellifoe",
-  "nationalPokedexNumber": 1393,
+  "nationalPokedexNumber": 1403,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.intellifoe.desc"
   ],
   "preEvolution": "oofoe",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

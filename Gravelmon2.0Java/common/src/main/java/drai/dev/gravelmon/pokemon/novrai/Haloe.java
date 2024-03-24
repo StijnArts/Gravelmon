@@ -15,14 +15,15 @@ public class Haloe extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         40),
                 List.of(Ability.TRIAGE,Ability.WATER_VEIL,Ability.HEALER), Ability.HEALER,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,1,0), 135,
                 0.25,
                 67, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.HUMAN_LIKE),
                 List.of("It carries an orb of pure water that it uses to keep itself hydrated during droughts. This water is also very soothing to burns, but Haloe will never offer it to someone it does not trust."),
-                List.of(),
+                List.of(new EvolutionEntry("aloverity", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,4),
@@ -95,8 +96,8 @@ public class Haloe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BEACHTIDE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

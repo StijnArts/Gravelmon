@@ -24,17 +24,17 @@ public class Coralony extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("The three different species of Coralony are constantly fighting for dominance over the group, but there can only ever be one leader. They make up the greatest barrier reefs in the world."),
                 List.of(new EvolutionEntry("Barreef", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
-                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_REEF.getId() + ":" + Biome.IS_REEF.getName() +"\"")))
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_WARM_OCEAN.getId() + ":" + Biome.IS_WARM_OCEAN.getName() +"\"")))
                 ),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1)                        ),
                 List.of(Label.ATLAS),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);

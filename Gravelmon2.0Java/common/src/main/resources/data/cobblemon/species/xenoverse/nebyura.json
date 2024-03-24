@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nebyura",
-  "nationalPokedexNumber": 1747,
+  "nationalPokedexNumber": 1757,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -60,7 +60,7 @@
     "1:dive",
     "22:ancientpower",
     "26:haze",
-    "30:cosmicpower",
+    "30:cosmicpowercosmic",
     "35:smackdown",
     "42:storedpower",
     "48:gravitycosmic",
@@ -123,7 +123,7 @@
     "cobblemon.species.nebyura.desc"
   ],
   "preEvolution": "sputnink",
-  "baseScale": 0.45,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

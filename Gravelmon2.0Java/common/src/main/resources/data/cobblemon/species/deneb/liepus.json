@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "liepus",
-  "nationalPokedexNumber": 3014,
+  "nationalPokedexNumber": 3623,
   "primaryType": "dark",
   "abilities": [
     "runaway",
@@ -69,6 +69,7 @@
     "tm:darkpulse",
     "tm:irontail",
     "tm:shadowball",
+    "tm:devastate",
     "tm:batonpass",
     "tm:confuseray",
     "tm:mudbomb",
@@ -76,6 +77,7 @@
     "tm:cut",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:dig",
     "tutor:nastyplot",
@@ -101,6 +103,7 @@
     "egg:psychup",
     "egg:raindance",
     "egg:return",
+    "egg:shadowclamp",
     "egg:snatch",
     "egg:spite",
     "egg:sunnyday",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snick",
-  "nationalPokedexNumber": 2795,
+  "nationalPokedexNumber": 3315,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -96,7 +96,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

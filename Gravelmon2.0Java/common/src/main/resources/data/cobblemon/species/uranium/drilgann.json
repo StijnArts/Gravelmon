@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drilgann",
-  "nationalPokedexNumber": 1865,
+  "nationalPokedexNumber": 1936,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -144,7 +144,7 @@
     "cobblemon.species.drilgann.desc"
   ],
   "preEvolution": "modrille",
-  "baseScale": 0.45,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

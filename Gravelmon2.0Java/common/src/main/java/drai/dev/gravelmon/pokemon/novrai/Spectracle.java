@@ -15,7 +15,7 @@ public class Spectracle extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         102),
                 List.of(Ability.PROTEAN), Ability.PROTEAN,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 50,
                 0.5,
                 163, ExperienceGroup.FAST,
@@ -184,14 +184,16 @@ public class Spectracle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OCTAZOOKA,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 9, 37, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Spectracle");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

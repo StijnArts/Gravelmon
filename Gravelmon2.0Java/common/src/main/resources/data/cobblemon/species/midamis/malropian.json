@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "malropian",
-  "nationalPokedexNumber": 2859,
+  "nationalPokedexNumber": 3379,
   "primaryType": "poison",
   "secondaryType": "bug",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.malropian.desc"
   ],
   "preEvolution": "geropian",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

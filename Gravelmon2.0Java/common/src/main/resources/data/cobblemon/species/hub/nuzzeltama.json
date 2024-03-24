@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nuzzeltama",
-  "nationalPokedexNumber": 1332,
+  "nationalPokedexNumber": 1342,
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
@@ -119,7 +119,7 @@
     "cobblemon.species.nuzzeltama.desc"
   ],
   "preEvolution": "nezutama",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

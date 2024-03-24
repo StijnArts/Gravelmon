@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eledove",
-  "nationalPokedexNumber": 2799,
+  "nationalPokedexNumber": 3319,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
@@ -98,7 +98,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

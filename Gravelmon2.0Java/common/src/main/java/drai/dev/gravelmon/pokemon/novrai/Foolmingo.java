@@ -15,7 +15,7 @@ public class Foolmingo extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         70),
                 List.of(Ability.FALSEFLIER), Ability.FALSEFLIER,
-                8, 165,
+                13, 165,
                 new Stats(1,0,0,0,0,0), 75,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -121,11 +121,11 @@ public class Foolmingo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLURRYPECK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 35, 1.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Foolmingo");

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "viperzang",
-  "nationalPokedexNumber": 3203,
+  "nationalPokedexNumber": 3812,
   "primaryType": "normal",
   "secondaryType": "dark",
   "abilities": [
@@ -65,7 +65,9 @@
     "43:taunt",
     "47:swordsdance",
     "50:closecombat",
+    "54:devastate",
     "tm:waterpulse",
+    "tm:frostbite",
     "tm:falseswipe",
     "tm:frustration",
     "tm:dig",
@@ -97,7 +99,7 @@
   "pokedex": [
     "cobblemon.species.viperzang.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

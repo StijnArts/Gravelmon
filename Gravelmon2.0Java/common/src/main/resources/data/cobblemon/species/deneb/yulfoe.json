@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yulfoe",
-  "nationalPokedexNumber": 3143,
+  "nationalPokedexNumber": 3752,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
@@ -57,6 +57,7 @@
     "6:disable",
     "9:psywave",
     "20:electroweb",
+    "23:hypnopulse",
     "28:mirrorcoat",
     "31:signalbeam",
     "34:lightscreen",
@@ -66,6 +67,8 @@
     "45:calmmind",
     "50:thunder",
     "53:skillswap",
+    "56:bugnoise",
+    "61:latentpower",
     "tm:magnetbomb",
     "tm:thunderwave",
     "tm:headbutt",
@@ -80,8 +83,10 @@
     "tm:shadowball",
     "tm:brickbreak",
     "tm:triattack",
+    "tm:devastate",
     "tm:confuseray",
     "tm:focusblast",
+    "tm:ragingflame",
     "tm:woodhammer",
     "tm:heatwave",
     "tm:discharge",
@@ -91,11 +96,12 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:bugnoise",
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:cosmicpower"  ],
+    "tutor:cosmicpowercosmic"  ],
   "labels": [
     "deneb",
     "not_modeled"
@@ -103,7 +109,7 @@
   "pokedex": [
     "cobblemon.species.yulfoe.desc"
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

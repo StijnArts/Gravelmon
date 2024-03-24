@@ -15,7 +15,7 @@ public class Ruffiguin extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         115),
                 List.of(Ability.BATTLE_ARMOR,Ability.BIG_PECKS,Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
-                8, 165,
+                15, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 172, ExperienceGroup.MEDIUM_SLOW,
@@ -24,6 +24,22 @@ public class Ruffiguin extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Ruffiguin are extremely territorial. When something they don't like wanders into their habitat, they will rush it down in packs and attack with their sharp wings."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.PAYBACK,1),
+                        new MoveLearnSetEntry(Move.PECK,1),
+                        new MoveLearnSetEntry(Move.ICE_BLADE,1),
+                        new MoveLearnSetEntry(Move.ICE_SHARD,1),
+                        new MoveLearnSetEntry(Move.CROSS_CHOP,1),
+                        new MoveLearnSetEntry(Move.THROAT_CHOP,1),
+                        new MoveLearnSetEntry(Move.AGILITY,1),
+                        new MoveLearnSetEntry(Move.REVERSAL,1),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,1),
+                        new MoveLearnSetEntry(Move.SKY_UPPERCUT,1),
+                        new MoveLearnSetEntry(Move.ICE_PUNCH,1),
+                        new MoveLearnSetEntry(Move.DETECT,1),
+                        new MoveLearnSetEntry(Move.ICICLE_SPEAR,1),
+                        new MoveLearnSetEntry(Move.LOW_KICK,1),
+                        new MoveLearnSetEntry(Move.PLUCK,1),
+                        new MoveLearnSetEntry(Move.ACROBATICS,1),
                         new MoveLearnSetEntry(Move.RUSHDOWN,1),
                         new MoveLearnSetEntry(Move.BLOCK,"tm"),
                         new MoveLearnSetEntry(Move.COVET,"tm"),
@@ -117,14 +133,15 @@ public class Ruffiguin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 52, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_FROZEN_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Ruffiguin");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

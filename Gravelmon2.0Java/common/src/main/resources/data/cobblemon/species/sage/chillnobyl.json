@@ -47,16 +47,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:redstone",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:glaciate",
     "1:memento",
@@ -79,6 +69,7 @@
     "44:sludgebomb",
     "47:blizzard",
     "51:recover",
+    "57:meltdownnuclear",
     "60:sheercold",
     "tm:toxic",
     "tm:hail",
@@ -137,7 +128,7 @@
     "cobblemon.species.chillnobyl.desc"
   ],
   "preEvolution": "icetope",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

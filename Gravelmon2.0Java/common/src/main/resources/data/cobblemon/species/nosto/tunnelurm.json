@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "tunnelurm",
+  "nationalPokedexNumber": 2845,
+  "primaryType": "ground",
+  "secondaryType": "steel",
+  "abilities": [
+    "solidrock",
+    "rockhead",
+    "h:sandforce"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 110,
+    "defence": 110,
+    "special_attack": 62,
+    "special_defence": 68,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:knockoff",
+    "tm:magnetrise",
+    "tm:shockwave",
+    "tm:superpower",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:scorchingsands",
+    "tm:stompingtantrum",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:irondefense",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:infestation",
+    "tm:brutalswing",
+    "tm:payback",
+    "tm:dragontail",
+    "tm:chargebeam",
+    "tm:thunderwave",
+    "tm:focusblast",
+    "tm:flamethrower",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:grassknot",
+    "tm:bulldoze",
+    "tm:dig",
+    "tm:earthquake",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:confide",
+    "tm:doubleedge",
+    "tm:facade",
+    "tm:flash",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:return",
+    "tm:roundsound",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:toxic",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:sandstorm",
+    "tm:flashcannon",
+    "tm:gyroball",
+    "tm:smartstrike"  ],
+  "labels": [
+    "nosto",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.tunnelurm.desc"
+  ],
+  "preEvolution": "tuburrow",
+  "baseScale": 0.625,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 25,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

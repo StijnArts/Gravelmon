@@ -15,7 +15,7 @@ public class Spiraclean extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         90),
                 List.of(Ability.SAND_SPIT,Ability.OVERCOAT,Ability.EARTH_EATER), Ability.EARTH_EATER,
-                8, 165,
+                14, 165,
                 new Stats(0,0,1,0,1,0), 90,
                 0.5,
                 177, ExperienceGroup.FAST,
@@ -108,11 +108,11 @@ public class Spiraclean extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BITE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 33, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Spiraclean");

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "plasmox",
-  "nationalPokedexNumber": 3022,
+  "nationalPokedexNumber": 3631,
   "primaryType": "electric",
   "secondaryType": "fairy",
   "abilities": [
@@ -82,6 +82,7 @@
     "tutor:iciclecrash",
     "tutor:nastyplot",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:toxic",
     "egg:block",
     "egg:doubleedge",

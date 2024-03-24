@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "geogriff",
-  "nationalPokedexNumber": 2033,
+  "nationalPokedexNumber": 2104,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
@@ -97,7 +97,7 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

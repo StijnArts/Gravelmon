@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mornwing",
-  "nationalPokedexNumber": 3036,
+  "nationalPokedexNumber": 3645,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -68,13 +68,17 @@
     "tm:energyball",
     "tm:bravebird",
     "tm:batonpass",
+    "tm:ragingflame",
     "tm:heatwave",
+    "tm:dragonbeat",
     "tm:willowisp",
     "tm:featherdance",
     "tm:fly",
+    "tutor:bugnoise",
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:toxic",
     "egg:aerialace",
     "egg:aircutter",
@@ -116,7 +120,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

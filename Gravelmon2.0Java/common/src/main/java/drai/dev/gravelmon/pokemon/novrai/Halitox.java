@@ -15,14 +15,15 @@ public class Halitox extends drai.dev.gravelmon.pokemon.Pokemon {
                         57,
                         68),
                 List.of(Ability.FEROCIOUS,Ability.STENCH,Ability.QUICK_FEET), Ability.QUICK_FEET,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,2,0,0), 50,
                 0.5,
                 147, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("It harbors over a hundred million kinds of infectious bacteria in its mouth. The more disgusting its breath is, the worse its venom is, and the more respect it gets from its peers."),
-                List.of(),
+                List.of(new EvolutionEntry("juroxic", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"52")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.FURY_SWIPES,11),
@@ -111,8 +112,9 @@ public class Halitox extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASTONISH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 49, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

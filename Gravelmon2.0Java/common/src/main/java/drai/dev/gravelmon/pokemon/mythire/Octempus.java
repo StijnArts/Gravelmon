@@ -15,7 +15,7 @@ public class Octempus extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         60),
                 List.of(Ability.OWN_TEMPO,Ability.WONDER_SKIN,Ability.TIMETWIST), Ability.TIMETWIST,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 175, ExperienceGroup.SLOW,
@@ -24,6 +24,24 @@ public class Octempus extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It's somewhat listless, but always follows commands on schedule. One Octempus became world famous for accurately predicting the results of battle tournaments."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.SMOKESCREEN,1),
+                        new MoveLearnSetEntry(Move.OCTAZOOKA,1),
+                        new MoveLearnSetEntry(Move.ENTRAINMENT,1),
+                        new MoveLearnSetEntry(Move.HYPNOSIS,1),
+                        new MoveLearnSetEntry(Move.TEETER_DANCE,1),
+                        new MoveLearnSetEntry(Move.PSYWAVE,1),
+                        new MoveLearnSetEntry(Move.FUTURE_SIGHT,1),
+                        new MoveLearnSetEntry(Move.TELEKINESIS,1),
+                        new MoveLearnSetEntry(Move.WONDER_ROOM,1),
+                        new MoveLearnSetEntry(Move.FLASH_CANNON,1),
+                        new MoveLearnSetEntry(Move.AUTOTOMIZE,1),
+                        new MoveLearnSetEntry(Move.MIRROR_SHOT,1),
+                        new MoveLearnSetEntry(Move.POWER_WHIP,1),
+                        new MoveLearnSetEntry(Move.BLOCK,1),
+                        new MoveLearnSetEntry(Move.COPYCAT,1),
+                        new MoveLearnSetEntry(Move.ME_FIRST,1),
+                        new MoveLearnSetEntry(Move.DETECT,1),
+                        new MoveLearnSetEntry(Move.STUN_JAB,1),
                         new MoveLearnSetEntry(Move.MORNING_SUN,1),
                         new MoveLearnSetEntry(Move.BIND,"tm"),
                         new MoveLearnSetEntry(Move.HEAL_BELL,"tm"),
@@ -48,11 +66,11 @@ public class Octempus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDROKINESIS,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 41, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Octempus");

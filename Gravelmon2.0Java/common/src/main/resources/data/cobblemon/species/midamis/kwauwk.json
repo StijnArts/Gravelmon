@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kwauwk",
-  "nationalPokedexNumber": 2955,
+  "nationalPokedexNumber": 3475,
   "primaryType": "flying",
   "abilities": [
     "moody",
@@ -80,7 +80,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

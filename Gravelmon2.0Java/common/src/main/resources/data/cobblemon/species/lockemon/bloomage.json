@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bloomage",
-  "nationalPokedexNumber": 2489,
+  "nationalPokedexNumber": 2788,
   "primaryType": "fire",
   "secondaryType": "grass",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.bloomage.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

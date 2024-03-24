@@ -15,7 +15,7 @@ public class Rasgold extends drai.dev.gravelmon.pokemon.Pokemon {
                         77,
                         27),
                 List.of(Ability.JACKPOT), Ability.PRANKSTER,
-                8, 165,
+                2, 165,
                 new Stats(2,0,0,0,0,0), 80,
                 0.0,
                 163, ExperienceGroup.FAST,
@@ -111,11 +111,10 @@ public class Rasgold extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 34, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MINESHAFT, SpawnPreset.GEMSTONES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Rasgold");

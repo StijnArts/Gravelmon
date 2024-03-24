@@ -15,14 +15,15 @@ public class Caughtton extends drai.dev.gravelmon.pokemon.Pokemon {
                         49,
                         76),
                 List.of(Ability.STATIC,Ability.SYMBIOSIS,Ability.FLUFFY), Ability.FLUFFY,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("A social species that greets others of its kind by rubbing up against each other affectionately. This builds static electricity in its body, which it then uses to defend itself against attackers."),
-                List.of(),
+                List.of(new EvolutionEntry("amalgarment", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.POUND,4),
@@ -93,11 +94,11 @@ public class Caughtton extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RISING_VOLTAGE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Caughtton");

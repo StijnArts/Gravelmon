@@ -7,7 +7,7 @@
       "id": "carvesta-1",
       "pokemon": "carvesta",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,8 +15,7 @@
       "level": "12-43",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef",
-"#cobblemon:is_warm_ocean" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

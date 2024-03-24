@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reparch",
-  "nationalPokedexNumber": 3299,
+  "nationalPokedexNumber": 4202,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -130,7 +130,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

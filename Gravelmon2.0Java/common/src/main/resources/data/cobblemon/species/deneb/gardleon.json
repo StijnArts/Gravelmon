@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gardleon",
-  "nationalPokedexNumber": 3080,
+  "nationalPokedexNumber": 3689,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -82,6 +82,7 @@
     "tm:strength",
     "egg:curse",
     "egg:howlsound",
+    "egg:magmaring",
     "egg:mirrorcoat",
     "egg:mudslap",
     "egg:outrage",
@@ -112,7 +113,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

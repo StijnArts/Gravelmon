@@ -14,8 +14,8 @@ public class Lepikite extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         94),
                 List.of(Ability.UNBURDEN,Ability.PINWHEEL,Ability.SIMPLE), Ability.SIMPLE,
-                8, 165,
-                new Stats(0,0,0,0,0,1), 0,
+                10, 165,
+                new Stats(0,0,0,0,0,1), 120,
                 0.5,
                 0, ExperienceGroup.FAST,
                 70,
@@ -47,14 +47,14 @@ public class Lepikite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAINBOWRUSH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Lepikite");
+        setCanFly(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gargryph",
-  "nationalPokedexNumber": 1909,
+  "nationalPokedexNumber": 1980,
   "primaryType": "rock",
   "abilities": [
     "keeneye",
@@ -60,7 +60,7 @@
     "57:explosion",
     "65:powergemcrystal",
     "73:stoneedge",
-    "81:cosmicpower",
+    "81:cosmicpowercosmic",
     "89:storedpower",
     "tm:aircutter",
     "tm:attract",
@@ -131,7 +131,7 @@
   "pokedex": [
     "cobblemon.species.gargryph.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

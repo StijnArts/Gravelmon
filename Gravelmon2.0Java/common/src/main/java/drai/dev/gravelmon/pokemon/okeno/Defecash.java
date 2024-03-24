@@ -20,8 +20,8 @@ public class Defecash extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         37),
                 List.of(Ability.STORM_DRAIN,Ability.OBLIVIOUS,Ability.STRONG_JAW), Ability.STRONG_JAW,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 165,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -30,11 +30,19 @@ public class Defecash extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NATURESCALL,1),
+                        new MoveLearnSetEntry(Move.FLYTRAP_FANG,1),
+                        new MoveLearnSetEntry(Move.VORTEX_DRAIN,1),
+                        new MoveLearnSetEntry(Move.WHIRLPOOL,1),
+                        new MoveLearnSetEntry(Move.TWISTER,1),
+                        new MoveLearnSetEntry(Move.DRAGON_BREATH,1),
+                        new MoveLearnSetEntry(Move.OUTRAGE,1),
+                        new MoveLearnSetEntry(Move.NATURES_CALL,1),
+
                         new MoveLearnSetEntry(Move.DRAGONFANG,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 33, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -33,11 +33,11 @@ public class GenerationThree extends Game {
         pokemon.add(new QamoranSpoink(325));
         pokemon.add(new QamoranGrumpig(326));
 
-//        pokemon.add(new NorheimanMasquerain(284)); NOT FINISHED
-//        pokemon.add(new NorheimanWailmer(320)); NOT FINISHED
+//        pokemon.add(new NorheimanMasquerain(284)); Missing Stats
+//        pokemon.add(new NorheimanWailmer(320)); Missing Stats
         pokemon.add(new NorheimanNumel(322));
-//        pokemon.add(new NorheimanCorphish(341)); NOT FINISHED
-//        pokemon.add(new NorheimanCrawdaunt(342)); NOT FINISHED
+//        pokemon.add(new NorheimanCorphish(341)); Missing Stats
+//        pokemon.add(new NorheimanCrawdaunt(342)); Missing Stats
 
         pokemon.add(new VaritasianSwablu(333));
         pokemon.add(new VaritasianAltaria(334));
@@ -55,9 +55,9 @@ public class GenerationThree extends Game {
         pokemon.add(new HizianTropius(357));
         pokemon.add(new HizianLuvdisc(370));
 
-//        pokemon.add(new AristosianNumel(322)); NOT FINISHED
-//        pokemon.add(new AristosianTaillow(276)); NOT FINISHED
-//        pokemon.add(new AristosianNosepass(299)); NOT FINISHED
+//        pokemon.add(new AristosianNumel(322)); Missing Art
+//        pokemon.add(new AristosianTaillow(276)); Member of line not finished
+//        pokemon.add(new AristosianNosepass(299)); Missing Art
         pokemon.add(new AristosianTropius(357));
 
         pokemon.add(new AvorianRoselia(315));

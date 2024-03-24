@@ -15,7 +15,7 @@ public class Entomortis extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         100),
                 List.of(Ability.RATTLED), Ability.UNNERVE,
-                8, 165,
+                17, 165,
                 new Stats(0,3,0,0,0,0), 15,
                 0.5,
                 248, ExperienceGroup.SLOW,
@@ -121,9 +121,8 @@ public class Entomortis extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXTRASENSORY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 49, 65, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

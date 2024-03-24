@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elekrab",
-  "nationalPokedexNumber": 1628,
+  "nationalPokedexNumber": 1638,
   "primaryType": "electric",
   "abilities": [
     "poisontouch",
@@ -85,7 +85,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

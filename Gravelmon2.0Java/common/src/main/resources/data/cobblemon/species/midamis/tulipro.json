@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tulipro",
-  "nationalPokedexNumber": 2903,
+  "nationalPokedexNumber": 3423,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.tulipro.desc"
   ],
   "preEvolution": "proseed",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

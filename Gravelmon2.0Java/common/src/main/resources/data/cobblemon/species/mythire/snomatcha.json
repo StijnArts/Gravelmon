@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snomatcha",
-  "nationalPokedexNumber": 2678,
+  "nationalPokedexNumber": 3084,
   "primaryType": "ice",
   "secondaryType": "grass",
   "abilities": [
@@ -126,12 +126,15 @@
     "tm:flash"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.snomatcha.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "snofresh",
+  "baseScale": 0.65,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -146,7 +149,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 26,
   "weight": 165,
   "aspects": [],
 "features": [

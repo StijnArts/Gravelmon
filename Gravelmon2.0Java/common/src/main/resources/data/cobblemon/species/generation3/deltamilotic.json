@@ -212,7 +212,7 @@
     "cobblemon.species.deltamilotic.desc"
   ],
   "preEvolution": "deltafeebas",
-  "baseScale": 0.58125,
+  "baseScale": 0.775,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cascassidine",
-  "nationalPokedexNumber": 2936,
+  "nationalPokedexNumber": 3456,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.cascassidine.desc"
   ],
   "preEvolution": "cassidite",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

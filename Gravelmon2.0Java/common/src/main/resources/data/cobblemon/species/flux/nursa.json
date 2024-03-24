@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nursa",
-  "nationalPokedexNumber": 2010,
+  "nationalPokedexNumber": 2081,
   "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
@@ -77,7 +77,7 @@
   "pokedex": [
     "cobblemon.species.nursa.desc"
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

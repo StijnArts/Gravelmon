@@ -15,14 +15,15 @@ public class Glaburrow extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         31),
                 List.of(Ability.UNAWARE), Ability.ADAPTABILITY,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its skin is thick and pliable, so it can escape from even a cave-in unharmed. It digs elaborate tunnel systems that can support whole ecosystems."),
-                List.of(),
+                List.of(new EvolutionEntry("glaborehol", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,3),
@@ -103,8 +104,8 @@ public class Glaburrow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SAND_TOMB,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

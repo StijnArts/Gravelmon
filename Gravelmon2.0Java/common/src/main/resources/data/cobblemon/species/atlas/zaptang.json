@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zaptang",
-  "nationalPokedexNumber": 3483,
+  "nationalPokedexNumber": 4388,
   "primaryType": "electric",
   "abilities": [
     "waterabsorb",
@@ -59,6 +59,7 @@
     "27:aquajet",
     "36:slam",
     "38:aquatail",
+    "42:thunderclap",
     "45:switcheroo",
     "49:wringout",
     "57:doubleshock",
@@ -123,7 +124,7 @@
     "cobblemon.species.zaptang.desc"
   ],
   "preEvolution": "gammar",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

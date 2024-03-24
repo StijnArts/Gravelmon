@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wyfern",
-  "nationalPokedexNumber": 1688,
+  "nationalPokedexNumber": 1698,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -57,7 +57,7 @@
     "24:woodhammer",
     "28:synthesis",
     "34:skyattack",
-    "38:cosmicpower",
+    "38:cosmicpowercosmic",
     "42:dragonpulse",
     "46:solarbeam",
     "56:hyperbeam",
@@ -72,7 +72,7 @@
     "cobblemon.species.wyfern.desc"
   ],
   "preEvolution": "strelair",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

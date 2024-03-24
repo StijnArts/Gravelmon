@@ -17,7 +17,7 @@ public class Bronconvict extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         22),
                 List.of(Ability.STAMINA), Ability.PICKPOCKET,
-                8, 165,
+                22, 165,
                 new Stats(1,1,1,0,0,0), 60,
                 0.5,
                 240, ExperienceGroup.MEDIUM_FAST,
@@ -40,8 +40,8 @@ public class Bronconvict extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEGA_KICK,63)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 54, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

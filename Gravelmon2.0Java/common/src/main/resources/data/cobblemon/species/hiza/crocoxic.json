@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crocoxic",
-  "nationalPokedexNumber": 2149,
+  "nationalPokedexNumber": 2220,
   "primaryType": "poison",
   "secondaryType": "water",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.crocoxic.desc"
   ],
   "preEvolution": "gunkile",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

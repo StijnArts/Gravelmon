@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "regalocera",
-  "nationalPokedexNumber": 2540,
+  "nationalPokedexNumber": 2946,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.regalocera.desc"
   ],
   "preEvolution": "superbpa",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

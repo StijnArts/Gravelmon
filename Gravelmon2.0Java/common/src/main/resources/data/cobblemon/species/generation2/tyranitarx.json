@@ -47,16 +47,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:xenolith",
-        "quantityRange": "1-1",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:payback",
     "1:bite",
@@ -91,6 +81,7 @@
     "tm:hyperbeam",
     "tm:protect",
     "tm:raindance",
+    "tm:subwoofer",
     "tm:smackdown",
     "tm:earthquake",
     "tm:return",
@@ -130,7 +121,7 @@
   "pokedex": [
     "cobblemon.species.tyranitarx.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

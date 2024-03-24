@@ -15,14 +15,15 @@ public class Pix extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         64),
                 List.of(Ability.DOWNLOAD), Ability.CALCULATE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,0), 190,
                 0.0,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Pix are born from errors in code lines. It likes to cause trouble by interrupting electrical signals and breaking computer programs."),
-                List.of(),
+                List.of(new EvolutionEntry("pixe", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.NASTY_PLOT,6),
@@ -83,11 +84,11 @@ public class Pix extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METAL_SOUND,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pix");

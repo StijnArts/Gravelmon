@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dirterrier",
-  "nationalPokedexNumber": 3335,
+  "nationalPokedexNumber": 4238,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
@@ -120,7 +120,7 @@
     "cobblemon.species.dirterrier.desc"
   ],
   "preEvolution": "bullirt",
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gymnozard",
-  "nationalPokedexNumber": 1391,
+  "nationalPokedexNumber": 1401,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -131,7 +131,7 @@
     "cobblemon.species.gymnozard.desc"
   ],
   "preEvolution": "cactabit",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

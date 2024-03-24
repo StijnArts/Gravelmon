@@ -15,7 +15,7 @@ public class Pingushion extends drai.dev.gravelmon.pokemon.Pokemon {
                         81,
                         59),
                 List.of(Ability.SNOW_WARNING,Ability.IRON_BARBS,Ability.FLUFFY), Ability.FLUFFY,
-                8, 165,
+                13, 165,
                 new Stats(2,0,0,0,0,0), 60,
                 0.5,
                 177, ExperienceGroup.FAST,
@@ -104,8 +104,8 @@ public class Pingushion extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HELPING_HAND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING, Biome.IS_FROZEN_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

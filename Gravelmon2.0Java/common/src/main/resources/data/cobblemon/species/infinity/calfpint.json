@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "calfpint",
-  "nationalPokedexNumber": 1319,
+  "nationalPokedexNumber": 1329,
   "primaryType": "normal",
   "abilities": [
     "forewarn",
@@ -204,7 +204,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

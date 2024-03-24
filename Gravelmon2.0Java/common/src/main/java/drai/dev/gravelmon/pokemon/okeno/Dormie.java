@@ -14,14 +14,15 @@ public class Dormie extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         37),
                 List.of(Ability.DREAMER), Ability.MAGIC_BOUNCE,
-                8, 165,
-                new Stats(0,0,0,0,1,0), 0,
+                5, 165,
+                new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
                 List.of("Sand or dust that comes in contact with Dormie gain wondrous proprieties known for making people fall asleep. Doctors recommend it for treating insomnia."),
-                List.of(),
+                List.of(new EvolutionEntry("dreamie", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,4),
@@ -48,9 +49,8 @@ public class Dormie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MOONLIGHT,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

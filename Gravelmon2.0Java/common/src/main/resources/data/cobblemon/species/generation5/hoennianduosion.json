@@ -5,8 +5,8 @@
   "primaryType": "psychic",
   "secondaryType": "grass",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "fruitrition",
+    "h:fruitrition"
   ],
   "baseStats": {
     "hp": 65,
@@ -64,6 +64,7 @@
     "tm:return",
     "tm:psychic",
     "tm:shadowball",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:flamethrower",
@@ -78,6 +79,7 @@
     "1:poisonpowder",
     "7:confusion",
     "13:magicalleaf",
+    "20:ripen",
     "28:synthesis",
     "32:psybeam",
     "38:megadrain",
@@ -114,7 +116,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

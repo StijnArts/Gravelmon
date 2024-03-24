@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "betaurayne",
-  "nationalPokedexNumber": 1965,
+  "nationalPokedexNumber": 2036,
   "primaryType": "nuclear",
   "abilities": [
     "keeneye",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:uranium_core",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:megapunch",
     "1:nuclearslash",
@@ -142,7 +152,7 @@
       ]   
  }
   ],
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -34,7 +34,7 @@ public class GenerationSix extends Game {
         pokemon.add(new HizianLitleo(667));
         pokemon.add(new HizianPyroar(668));
 
-//        pokemon.add(new AristosianLitleo(667)); NOT FINISHED
+//        pokemon.add(new AristosianLitleo(667)); Missing Art
 
 
         //Pokemon Insurgance

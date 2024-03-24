@@ -48,16 +48,6 @@
     "field",
     "fairy"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "cobblemon:rare_candy",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:endure",
     "1:present",
@@ -161,7 +151,7 @@
   "pokedex": [
     "cobblemon.species.nobunata.desc"
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

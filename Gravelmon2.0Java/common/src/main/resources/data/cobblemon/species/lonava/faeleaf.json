@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "faeleaf",
-  "nationalPokedexNumber": 2412,
+  "nationalPokedexNumber": 2711,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.faeleaf.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

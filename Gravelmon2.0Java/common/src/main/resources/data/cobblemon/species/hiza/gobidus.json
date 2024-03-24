@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gobidus",
-  "nationalPokedexNumber": 2113,
+  "nationalPokedexNumber": 2184,
   "primaryType": "ground",
   "abilities": [
     "sandstream",
@@ -91,7 +91,7 @@
   "pokedex": [
     "cobblemon.species.gobidus.desc"
   ],
-  "baseScale": 1.3875,
+  "baseScale": 1.8499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

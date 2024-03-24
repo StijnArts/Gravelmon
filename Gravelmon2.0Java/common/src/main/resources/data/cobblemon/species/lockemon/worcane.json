@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "worcane",
-  "nationalPokedexNumber": 2481,
+  "nationalPokedexNumber": 2780,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.worcane.desc"
   ],
   "preEvolution": "wasgrowl",
-  "baseScale": 0.45,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

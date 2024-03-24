@@ -58,7 +58,7 @@
     "17:shadowpunch",
     "20:safeguard",
     "24:willowisp",
-    "29:cosmicpower",
+    "29:cosmicpowercosmic",
     "31:trick",
     "36:triattack",
     "43:shadowball",
@@ -132,7 +132,7 @@
   "pokedex": [
     "cobblemon.species.relicspinda.desc"
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

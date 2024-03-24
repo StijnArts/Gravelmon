@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pinchor",
-  "nationalPokedexNumber": 3129,
+  "nationalPokedexNumber": 3738,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -74,6 +74,7 @@
     "tm:irondefense",
     "tm:brickbreak",
     "tm:triattack",
+    "tm:devastate",
     "tm:mudbomb",
     "tm:woodhammer",
     "tm:focusblast",
@@ -82,8 +83,10 @@
     "tm:strength",
     "tm:rocksmash",
     "tutor:hiddenpower",
+    "tutor:shadowclamp",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:bugnoise",
     "tutor:nastyplot",
     "tutor:dig",
     "tutor:iciclecrash",
@@ -116,7 +119,7 @@
     "cobblemon.species.pinchor.desc"
   ],
   "preEvolution": "pinsir",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

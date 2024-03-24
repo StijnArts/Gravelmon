@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grample",
-  "nationalPokedexNumber": 1795,
+  "nationalPokedexNumber": 1805,
   "primaryType": "grass",
   "abilities": [
     "naturalcure",
@@ -70,7 +70,7 @@
     "cobblemon.species.grample.desc"
   ],
   "preEvolution": "stumple",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -124,9 +124,9 @@
   ],
   "evolutions": [
     {
-      "id": "novranhatenna_novraihattrem",
+      "id": "novranhatenna_NovranHattrem",
       "variant": "level_up",
-      "result": "novraihattrem",
+      "result": "NovranHattrem",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

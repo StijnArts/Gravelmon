@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "granvesp",
-  "nationalPokedexNumber": 3258,
+  "nationalPokedexNumber": 3867,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -111,7 +111,7 @@
   "pokedex": [
     "cobblemon.species.granvesp.desc"
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

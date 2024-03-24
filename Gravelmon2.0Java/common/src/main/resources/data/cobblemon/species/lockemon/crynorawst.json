@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crynorawst",
-  "nationalPokedexNumber": 2502,
+  "nationalPokedexNumber": 2801,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.crynorawst.desc"
   ],
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stalagoliath",
-  "nationalPokedexNumber": 2187,
+  "nationalPokedexNumber": 2258,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.stalagoliath.desc"
   ],
   "preEvolution": "stalacpace",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

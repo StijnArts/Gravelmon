@@ -15,14 +15,15 @@ public class Tumball extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         63),
                 List.of(Ability.OVERGROW), Ability.SHEER_FORCE,
-                8, 165,
+                9, 165,
                 new Stats(0,1,1,0,0,0), 45,
                 0.875,
                 152, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.GRASS),
-                List.of("- Pound Normal 4 Leer Normal 7 AbsorbSTAB Grass 11 Bug BiteSTAB Bug 13 Mud Sport Ground 16 Razor LeafSTAB Grass 21 Rollout Rock 26 Mud Bomb Ground 32 Bulldoze Ground 35 Grassy GlideSTAB Grass 39 Bug BuzzSTAB Bug 42 Earthquake Ground 47 Rock Slide Rock"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("titanoss", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -40,8 +41,8 @@ public class Tumball extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASS_PLEDGE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

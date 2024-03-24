@@ -39,9 +39,9 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Sharby());
         pokemon.add(new Lamnaw());
         pokemon.add(new Squalucid());
-//        pokemon.add(new Chirunner()); NOT FINISHED
-//        pokemon.add(new Roaduner()); NOT FINISHED
-//        pokemon.add(new Misthary()); NOT FINISHED
+//        pokemon.add(new Chirunner()); Missing Stats
+//        pokemon.add(new Roaduner()); Missing Stats
+//        pokemon.add(new Misthary()); Member of line Not Finished
         pokemon.add(new Hoppoint());
         pokemon.add(new Helmhide());
         pokemon.add(new Durabarge());
@@ -93,8 +93,8 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Notifant());
         pokemon.add(new Fountusk());
         pokemon.add(new Eledrant());
-//        pokemon.add(new Wraggle()); NOT FINISHED
-//        pokemon.add(new Wranglash()); NOT FINISHED
+//        pokemon.add(new Wraggle()); Missing Stats
+//        pokemon.add(new Wranglash()); Missing Stats
         pokemon.add(new Hayataga());
         pokemon.add(new Welweed());
         pokemon.add(new Welwitch());
@@ -111,11 +111,13 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Germasaur());
         pokemon.add(new Flaskantine());
         pokemon.add(new Flingzer());
-//        pokemon.add(new Partae()); NOT FINISHED
-//        pokemon.add(new Loftival()); NOT FINISHED
+//        pokemon.add(new Partae()); Missing Stats
+//        pokemon.add(new LostIslandsPartae()); Missing Stats
+//        pokemon.add(new Loftival()); Missing Stats
+//        pokemon.add(new LostIslandsLoftival()); Missing Stats
         pokemon.add(new Hotdach());
         pokemon.add(new Schnausage());
-//        pokemon.add(new Hammerod()); NOT FINISHED
+//        pokemon.add(new Hammerod()); Missing Stats
         pokemon.add(new Pictolith());
         pokemon.add(new Canvalith());
         pokemon.add(new Sinklot());
@@ -146,8 +148,8 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Lunarach());
         pokemon.add(new Rotpot());
         pokemon.add(new Woebehind());
-//        pokemon.add(new Choppup()); NOT FINISHED
-//        pokemon.add(new Wolvaxe()); NOT FINISHED
+//        pokemon.add(new Choppup()); Member of line Not Finished
+//        pokemon.add(new Wolvaxe()); Missing Art
         pokemon.add(new Skuzzly());
         pokemon.add(new Eyesi());
         pokemon.add(new Eyesaur());
@@ -181,7 +183,7 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Sleetle());
         pokemon.add(new Cacold());
         pokemon.add(new Scaralanche());
-//        pokemon.add(new AquaZ()); NOT FINISHED
+//        pokemon.add(new AquaZ()); Missing Stats
         pokemon.add(new Auroreel());
         pokemon.add(new Lurelit());
         pokemon.add(new Grimfernal());
@@ -191,8 +193,8 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Smolter());
         pokemon.add(new Boilunk());
         pokemon.add(new Crystabrawl());
-//        pokemon.add(new Gambowl()); NOT FINISHED
-//        pokemon.add(new Gamphora()); NOT FINISHED
+//        pokemon.add(new Gambowl()); Missing Art
+//        pokemon.add(new Gamphora()); Member of line Not Finished
         pokemon.add(new Icicrawl());
         pokemon.add(new Glacicrawl());
         pokemon.add(new Velvedrake());
@@ -210,8 +212,8 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Miserachnid());
         pokemon.add(new Messoul());
         pokemon.add(new Wastenaut());
-//        pokemon.add(new Draguma()); NOT FINISHED
-//       pokemon.add(new Scivern()); NOT FINISHED
+//        pokemon.add(new Draguma()); Member of line Not Finished
+//       pokemon.add(new Scivern()); Missing Art
         pokemon.add(new Celestar());
         pokemon.add(new Celestroid());
 

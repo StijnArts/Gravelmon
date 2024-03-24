@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vamfire",
-  "nationalPokedexNumber": 2268,
+  "nationalPokedexNumber": 2339,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.vamfire.desc"
   ],
   "preEvolution": "batrix",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

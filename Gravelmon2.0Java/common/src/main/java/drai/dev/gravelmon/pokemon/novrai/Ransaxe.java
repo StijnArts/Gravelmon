@@ -15,7 +15,7 @@ public class Ransaxe extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         65),
                 List.of(Ability.ROCK_HEAD,Ability.SHEER_FORCE,Ability.ILLUMINATE), Ability.ILLUMINATE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.0,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -103,11 +103,10 @@ public class Ransaxe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_CLIMB,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MINESHAFT),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ransaxe");

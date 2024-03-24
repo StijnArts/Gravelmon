@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vomelet",
-  "nationalPokedexNumber": 1625,
+  "nationalPokedexNumber": 1635,
   "primaryType": "poison",
   "secondaryType": "rock",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.vomelet.desc"
   ],
   "preEvolution": "eggue",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

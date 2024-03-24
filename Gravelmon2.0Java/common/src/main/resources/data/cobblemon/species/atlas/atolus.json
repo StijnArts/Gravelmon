@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "atolus",
-  "nationalPokedexNumber": 3499,
+  "nationalPokedexNumber": 4404,
   "primaryType": "fighting",
   "abilities": [
     "sheerforce",
@@ -71,7 +71,7 @@
     "cobblemon.species.atolus.desc"
   ],
   "preEvolution": "diskobolus",
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

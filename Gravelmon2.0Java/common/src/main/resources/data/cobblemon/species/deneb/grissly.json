@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grissly",
-  "nationalPokedexNumber": 3044,
+  "nationalPokedexNumber": 3653,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -51,6 +51,7 @@
     "1:lick",
     "1:leer",
     "1:scratch",
+    "1:devastate",
     "1:taunt",
     "1:gigaimpact",
     "7:taunt",
@@ -76,6 +77,7 @@
     "tm:substitute",
     "tm:poisonjab",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:mudbomb",
     "tm:woodhammer",
     "tm:focusblast",
@@ -86,6 +88,7 @@
     "tutor:dig",
     "tutor:iciclecrash",
     "tutor:hiddenpower",
+    "tutor:shadowclamp",
     "tutor:rest",
     "tutor:toxic",
     "egg:bellydrum",
@@ -125,7 +128,7 @@
     "cobblemon.species.grissly.desc"
   ],
   "preEvolution": "velvelt",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

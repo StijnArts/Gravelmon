@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "spiraclean-1",
+      "pokemon": "spiraclean",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "11-33",
+      "weight": 1.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

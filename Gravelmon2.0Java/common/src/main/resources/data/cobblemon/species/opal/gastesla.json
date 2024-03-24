@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gastesla",
-  "nationalPokedexNumber": 1408,
+  "nationalPokedexNumber": 1418,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -91,7 +91,7 @@
     "cobblemon.species.gastesla.desc"
   ],
   "preEvolution": "descargot",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

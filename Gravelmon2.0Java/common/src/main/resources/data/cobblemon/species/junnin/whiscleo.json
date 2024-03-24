@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "whiscleo",
-  "nationalPokedexNumber": 2322,
+  "nationalPokedexNumber": 2393,
   "primaryType": "psychic",
   "abilities": [
     "forewarn",
@@ -162,7 +162,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

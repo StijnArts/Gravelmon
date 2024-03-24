@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jerbolta",
-  "nationalPokedexNumber": 2026,
+  "nationalPokedexNumber": 2097,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
@@ -76,7 +76,7 @@
   "pokedex": [
     "cobblemon.species.jerbolta.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

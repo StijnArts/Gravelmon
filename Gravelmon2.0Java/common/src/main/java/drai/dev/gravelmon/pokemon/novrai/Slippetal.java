@@ -15,14 +15,15 @@ public class Slippetal extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         62),
                 List.of(Ability.TANGLED_FEET,Ability.AROMA_VEIL,Ability.CUTE_CHARM), Ability.CUTE_CHARM,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,1,0), 230,
                 0.25,
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
                 List.of("It mates for life, and wraps a vine tightly around its partner, never letting go. Typically docile and passive, it will flail wildly if any attempt is made to separate the two."),
-                List.of(),
+                List.of(new EvolutionEntry("pistiletto", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEET_SCENT,1),
                         new MoveLearnSetEntry(Move.INGRAIN,5),
@@ -100,8 +101,8 @@ public class Slippetal extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 23, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

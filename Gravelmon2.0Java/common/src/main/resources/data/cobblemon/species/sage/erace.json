@@ -47,16 +47,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "3",
-    "entries": [
-      {
-        "item": "minecraft:redstone_block",
-        "quantityRange": "3-10",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:ancientpower",
     "1:lockon",
@@ -117,7 +107,7 @@
   "pokedex": [
     "cobblemon.species.erace.desc"
   ],
-  "baseScale": 0.54375,
+  "baseScale": 0.725,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

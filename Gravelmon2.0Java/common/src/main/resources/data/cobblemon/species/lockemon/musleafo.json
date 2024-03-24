@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "musleafo",
-  "nationalPokedexNumber": 2435,
+  "nationalPokedexNumber": 2734,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -88,7 +88,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -17,13 +17,13 @@ public class Fyrepecker extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         80),
                 List.of(Ability.BIG_PECKS,Ability.SKILL_LINK,Ability.STEELWORKER), Ability.STEELWORKER,
-                8, 165,
-                new Stats(0,2,0,0,0,0), 25,
+                16, 165,
+                new Stats(0,2,0,0,0,0), 70,
                 0.5,
                 163, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("- EmberSTAB Fire - Leer Normal - PluckSTAB Flying - Fury Attack Normal 12 Flurry PeckSTAB Flying 16 Flame BurstSTAB Fire 20 Screech Normal 26 Steel Wing Steel 30 Feather Dance Flying 34 Blaze ArrowSTAB Fire 38 Roost Flying 44 Drill PeckSTAB Flying 48 Smart Strike Steel 54 Swords Dance Normal 58 Drill Run Ground 64 Flare BlitzSTAB Fire"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FURY_ATTACK,1),
@@ -41,14 +41,14 @@ public class Fyrepecker extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLARE_BLITZ,64)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Fyrepecker");
+        setCanFly(true);
 
     }
 

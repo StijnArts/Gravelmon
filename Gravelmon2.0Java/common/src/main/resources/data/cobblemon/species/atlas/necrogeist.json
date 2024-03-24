@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "necrogeist",
-  "nationalPokedexNumber": 3502,
+  "nationalPokedexNumber": 4407,
   "primaryType": "dark",
   "secondaryType": "ghost",
   "abilities": [
@@ -129,7 +129,7 @@
     "cobblemon.species.necrogeist.desc"
   ],
   "preEvolution": "grevetiery",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

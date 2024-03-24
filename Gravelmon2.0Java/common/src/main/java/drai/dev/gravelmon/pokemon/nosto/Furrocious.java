@@ -15,7 +15,7 @@ public class Furrocious extends drai.dev.gravelmon.pokemon.Pokemon {
                         52,
                         69),
                 List.of(Ability.TANGLING_HAIR,Ability.INTIMIDATE,Ability.FEROCIOUS), Ability.FEROCIOUS,
-                8, 165,
+                14, 165,
                 new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
@@ -189,9 +189,10 @@ public class Furrocious extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TICKLE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 54, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

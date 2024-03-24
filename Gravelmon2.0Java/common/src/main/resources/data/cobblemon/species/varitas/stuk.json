@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stuk",
-  "nationalPokedexNumber": 1802,
+  "nationalPokedexNumber": 1873,
   "primaryType": "ground",
   "abilities": [
     "arenatrap",
@@ -112,7 +112,7 @@
     "cobblemon.species.stuk.desc"
   ],
   "preEvolution": "grimire",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

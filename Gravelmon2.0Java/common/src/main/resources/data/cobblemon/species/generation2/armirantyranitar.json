@@ -151,7 +151,7 @@
     "cobblemon.species.armirantyranitar.desc"
   ],
   "preEvolution": "Pupitar",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

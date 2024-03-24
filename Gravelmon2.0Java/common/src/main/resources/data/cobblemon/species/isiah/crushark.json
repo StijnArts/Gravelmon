@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crushark",
-  "nationalPokedexNumber": 2740,
+  "nationalPokedexNumber": 3260,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.crushark.desc"
   ],
   "preEvolution": "bullark",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

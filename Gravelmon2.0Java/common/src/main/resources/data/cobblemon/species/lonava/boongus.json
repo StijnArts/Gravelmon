@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boongus",
-  "nationalPokedexNumber": 2384,
+  "nationalPokedexNumber": 2683,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -159,7 +159,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

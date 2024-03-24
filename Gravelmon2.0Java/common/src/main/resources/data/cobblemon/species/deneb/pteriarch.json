@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pteriarch",
-  "nationalPokedexNumber": 3062,
+  "nationalPokedexNumber": 3671,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
@@ -77,10 +77,13 @@
     "tm:irondefense",
     "tm:bravebird",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:woodhammer",
     "tm:heatwave",
     "tm:focusblast",
+    "tm:dragonbeat",
     "tm:willowisp",
     "tm:nightslash",
     "tm:featherdance",
@@ -88,6 +91,7 @@
     "tm:strength",
     "tm:rocksmash",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:toxic",
     "tutor:iciclecrash",
@@ -99,6 +103,7 @@
     "egg:drillrun",
     "egg:facade",
     "egg:focusenergy",
+    "egg:glide",
     "egg:mirrormove",
     "egg:protect",
     "egg:rage",
@@ -121,7 +126,7 @@
     "cobblemon.species.pteriarch.desc"
   ],
   "preEvolution": "ptervus",
-  "baseScale": 0.6,
+  "baseScale": 0.7999999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

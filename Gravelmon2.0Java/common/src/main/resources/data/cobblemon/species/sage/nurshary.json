@@ -48,16 +48,6 @@
     "water_2",
     "fairy"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:wideguard",
     "1:safeguard",
@@ -142,7 +132,7 @@
   "pokedex": [
     "cobblemon.species.nurshary.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

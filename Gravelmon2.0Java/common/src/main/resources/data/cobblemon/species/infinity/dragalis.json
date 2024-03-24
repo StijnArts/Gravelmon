@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragalis",
-  "nationalPokedexNumber": 1308,
+  "nationalPokedexNumber": 1318,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -128,7 +128,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

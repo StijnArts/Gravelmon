@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aquarrior",
-  "nationalPokedexNumber": 2644,
+  "nationalPokedexNumber": 3050,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -30,12 +30,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -50,6 +50,21 @@
     "water_2"
   ],
   "moves": [
+    "1:smartstrike",
+    "1:quickguard",
+    "1:block",
+    "1:razorshell",
+    "1:submission",
+    "1:machpunch",
+    "1:aquatail",
+    "1:waterpulse",
+    "1:brine",
+    "1:horndrill",
+    "1:hornattack",
+    "1:shellsmash",
+    "1:retaliate",
+    "1:payback",
+    "1:suckerpunch",
     "1:nobleroarsound",
     "tm:block",
     "tm:lastresort",
@@ -81,12 +96,15 @@
     "tm:scaleshot"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.aquarrior.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "shellance",
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -101,7 +119,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

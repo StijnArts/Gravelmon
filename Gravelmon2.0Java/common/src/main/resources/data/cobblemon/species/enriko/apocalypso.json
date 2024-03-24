@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "apocalypso",
-  "nationalPokedexNumber": 1674,
+  "nationalPokedexNumber": 1684,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.apocalypso.desc"
   ],
   "preEvolution": "haunk",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

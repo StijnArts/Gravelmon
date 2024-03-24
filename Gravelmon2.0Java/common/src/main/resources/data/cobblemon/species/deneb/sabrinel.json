@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sabrinel",
-  "nationalPokedexNumber": 3136,
+  "nationalPokedexNumber": 3745,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -51,7 +51,9 @@
     "1:tailwhip",
     "1:ember",
     "1:quickattack",
+    "1:glide",
     "4:quickattack",
+    "8:glide",
     "11:hyperfang",
     "15:encore",
     "18:firespin",
@@ -75,11 +77,13 @@
     "tm:shadowball",
     "tm:batonpass",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:heatwave",
     "tm:willowisp",
     "tm:nightslash",
     "tm:cut",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
@@ -117,7 +121,7 @@
     "cobblemon.species.sabrinel.desc"
   ],
   "preEvolution": "fujinel",
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

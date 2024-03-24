@@ -15,7 +15,7 @@ public class Maliscuit extends drai.dev.gravelmon.pokemon.Pokemon {
                         113,
                         44),
                 List.of(Ability.SWEET_VEIL,Ability.WELL_BAKED_BODY,Ability.MAGICIAN), Ability.MAGICIAN,
-                8, 165,
+                31, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 173, ExperienceGroup.SLOW,
@@ -116,11 +116,11 @@ public class Maliscuit extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPIT_UP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 54, .45, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Maliscuit");

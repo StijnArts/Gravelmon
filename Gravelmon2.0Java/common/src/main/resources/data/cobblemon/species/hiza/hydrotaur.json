@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hydrotaur",
-  "nationalPokedexNumber": 2043,
+  "nationalPokedexNumber": 2114,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -117,7 +117,7 @@
     "cobblemon.species.hydrotaur.desc"
   ],
   "preEvolution": "bullfount",
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

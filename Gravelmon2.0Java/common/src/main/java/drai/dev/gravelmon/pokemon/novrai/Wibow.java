@@ -15,14 +15,15 @@ public class Wibow extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         85),
                 List.of(Ability.INNER_FOCUS,Ability.ADHESIVE,Ability.SWARM), Ability.SWARM,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 230,
                 0.5,
                 52, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Wibow hurls itself at its prey's neck to drain their body fluids. Its abdomen is so adhesive that victims have no choice but to let it eat its fill."),
-                List.of(),
+                List.of(new EvolutionEntry("tarantailor", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -106,9 +107,8 @@ public class Wibow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLOCK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

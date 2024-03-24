@@ -15,7 +15,7 @@ public class Durassault extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         60),
                 List.of(Ability.VOLT_ABSORB,Ability.IRON_FIST,Ability.BATTERY), Ability.BATTERY,
-                8, 165,
+                17, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.0,
                 230, ExperienceGroup.SLOW,
@@ -100,11 +100,12 @@ public class Durassault extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 56, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Durassault");

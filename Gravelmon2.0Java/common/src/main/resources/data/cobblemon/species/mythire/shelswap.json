@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shelswap",
-  "nationalPokedexNumber": 2686,
+  "nationalPokedexNumber": 3092,
   "primaryType": "fairy",
   "abilities": [
     "pickpocket",
@@ -48,6 +48,22 @@
     "flying"
   ],
   "moves": [
+    "1:eggbomb",
+    "1:softboiled",
+    "1:switcheroo",
+    "1:allyswitch",
+    "1:shadowsneak",
+    "1:bestow",
+    "1:batonpass",
+    "1:copycat",
+    "1:mimic",
+    "1:imprison",
+    "1:charm",
+    "1:sweetkiss",
+    "1:disarmingvoicesound",
+    "1:curse",
+    "1:perishsongsound",
+    "1:moonblast",
     "1:featherdance"  ],
   "labels": [
     "mythire",
@@ -56,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.shelswap.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +87,7 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 8,
+  "height": 14,
   "weight": 165,
   "aspects": [],
 "features": [

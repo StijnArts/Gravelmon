@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "inflagetah",
-  "nationalPokedexNumber": 2025,
+  "nationalPokedexNumber": 2096,
   "primaryType": "fire",
   "abilities": [
     "keeneye",
@@ -78,7 +78,7 @@
     "cobblemon.species.inflagetah.desc"
   ],
   "preEvolution": "flager",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -22,7 +22,8 @@ public class Vileech extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_3),
                 List.of("If you must travel through its habitat at night, rub garlic on any exposed skin. It can't stand the scent and will stay far away instead of biting."),
-                List.of(),
+                List.of(new EvolutionEntry("encreech", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.LEER,3),
@@ -99,14 +100,14 @@ public class Vileech extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLIP_TURN,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 2, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Vileech");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

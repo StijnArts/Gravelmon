@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lurelit",
-  "nationalPokedexNumber": 1568,
+  "nationalPokedexNumber": 1578,
   "primaryType": "dark",
   "abilities": [
     "intimidate",
@@ -171,7 +171,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

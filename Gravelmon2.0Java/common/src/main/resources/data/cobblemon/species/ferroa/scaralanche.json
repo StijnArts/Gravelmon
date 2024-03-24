@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scaralanche",
-  "nationalPokedexNumber": 1566,
+  "nationalPokedexNumber": 1576,
   "primaryType": "ice",
   "secondaryType": "bug",
   "abilities": [
@@ -116,7 +116,7 @@
     "cobblemon.species.scaralanche.desc"
   ],
   "preEvolution": "cacold",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -175,7 +175,7 @@
     "cobblemon.species.deltadragonite.desc"
   ],
   "preEvolution": "deltadragonair",
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,7 +15,7 @@ public class Icecreep extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         90),
                 List.of(Ability.WEAK_ARMOR,Ability.DAMP,Ability.WATER_VEIL), Ability.WATER_VEIL,
-                8, 165,
+                17, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 177, ExperienceGroup.MEDIUM_SLOW,
@@ -98,11 +98,11 @@ public class Icecreep extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PURSUIT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 37, 56, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Icecreep");

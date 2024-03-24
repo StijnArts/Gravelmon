@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bravelry",
-  "nationalPokedexNumber": 2106,
+  "nationalPokedexNumber": 2177,
   "primaryType": "fighting",
   "abilities": [
     "angerpoint",
@@ -80,7 +80,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sheetrick",
-  "nationalPokedexNumber": 1340,
+  "nationalPokedexNumber": 1350,
   "primaryType": "ghost",
   "secondaryType": "normal",
   "abilities": [
@@ -94,7 +94,7 @@
   "pokedex": [
     "cobblemon.species.sheetrick.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

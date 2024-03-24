@@ -109,10 +109,10 @@ public class Diaduna extends Pokemon {
                 List.of(Label.VEGA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 28, 54, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERWATER, SpawnPreset.NEAR_MAGMA),
+                List.of(SpawnPreset.REEF, SpawnPreset.NEAR_MAGMA),
                 0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);

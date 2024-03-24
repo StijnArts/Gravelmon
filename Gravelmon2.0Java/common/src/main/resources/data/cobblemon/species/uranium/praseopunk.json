@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "praseopunk",
-  "nationalPokedexNumber": 1947,
+  "nationalPokedexNumber": 2018,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
@@ -61,7 +61,7 @@
     "12:shockwave",
     "20:chargebeam",
     "23:psywave",
-    "28:cosmicpower",
+    "28:cosmicpowercosmic",
     "37:discharge",
     "44:psychic",
     "49:voltswitch",
@@ -128,7 +128,7 @@
   "pokedex": [
     "cobblemon.species.praseopunk.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

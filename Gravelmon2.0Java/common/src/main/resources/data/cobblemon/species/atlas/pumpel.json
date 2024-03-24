@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pumpel",
-  "nationalPokedexNumber": 3307,
+  "nationalPokedexNumber": 4210,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -112,7 +112,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

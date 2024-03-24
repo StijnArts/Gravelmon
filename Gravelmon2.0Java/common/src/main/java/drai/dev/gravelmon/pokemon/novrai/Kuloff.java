@@ -15,14 +15,15 @@ public class Kuloff extends drai.dev.gravelmon.pokemon.Pokemon {
                         67,
                         50),
                 List.of(Ability.MISTY_SURGE,Ability.HEATPROOF,Ability.RAIN_DISH), Ability.RAIN_DISH,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,1,0), 200,
                 0.5,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.HUMAN_LIKE),
                 List.of("Although it is always dripping water, its body never seems to fully melt, even in the extreme temperatures of the deserts to which it's native."),
-                List.of(),
+                List.of(new EvolutionEntry("kuldown", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),
                         new MoveLearnSetEntry(Move.RAIN_DANCE,5),
@@ -92,8 +93,9 @@ public class Kuloff extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_SHARD,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 26, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

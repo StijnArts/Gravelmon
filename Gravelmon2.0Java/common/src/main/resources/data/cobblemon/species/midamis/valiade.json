@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "valiade",
-  "nationalPokedexNumber": 2933,
+  "nationalPokedexNumber": 3453,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.valiade.desc"
   ],
   "preEvolution": "fleetade",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

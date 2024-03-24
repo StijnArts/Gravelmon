@@ -15,7 +15,7 @@ public class Vortereign extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         105),
                 List.of(Ability.SNOW_WARNING), Ability.STORMSTREAM,
-                8, 165,
+                20, 165,
                 new Stats(0,2,0,1,0,0), 3,
                 0.0,
                 270, ExperienceGroup.SLOW,
@@ -24,6 +24,19 @@ public class Vortereign extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("A spirit of winter who battles with Mistoria over control of the sea; the coming of winter is a sign that it's gotten the upper hand. As long as it's active, the weather rages, preventing the sailing of ships."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.MEGAHORN,1),
+                        new MoveLearnSetEntry(Move.SMART_STRIKE,1),
+                        new MoveLearnSetEntry(Move.ICICLE_CRASH,1),
+                        new MoveLearnSetEntry(Move.SHEER_COLD,1),
+                        new MoveLearnSetEntry(Move.WEATHER_BALL,1),
+                        new MoveLearnSetEntry(Move.DISCHARGE,1),
+                        new MoveLearnSetEntry(Move.BLIZZARD,1),
+                        new MoveLearnSetEntry(Move.SHOCK_WAVE,1),
+                        new MoveLearnSetEntry(Move.ION_DELUGE,1),
+                        new MoveLearnSetEntry(Move.CLOUD_CRASH,1),
+                        new MoveLearnSetEntry(Move.HURRICANE,1),
+                        new MoveLearnSetEntry(Move.TWISTER,1),
+                        new MoveLearnSetEntry(Move.MEAN_LOOK,1),
                         new MoveLearnSetEntry(Move.SKY_DROP,1),
                         new MoveLearnSetEntry(Move.RISING_VOLTAGE,"tm"),
                         new MoveLearnSetEntry(Move.TERRAIN_PULSE,"tm"),
@@ -99,14 +112,16 @@ public class Vortereign extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDROKINESIS,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Vortereign");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setCanFly(true);
 
     }
 

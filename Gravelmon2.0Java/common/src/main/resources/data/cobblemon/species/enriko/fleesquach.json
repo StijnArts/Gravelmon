@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fleesquach",
-  "nationalPokedexNumber": 1643,
+  "nationalPokedexNumber": 1653,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
@@ -64,7 +64,7 @@
     "cobblemon.species.fleesquach.desc"
   ],
   "preEvolution": "wigfoot",
-  "baseScale": 0.6,
+  "baseScale": 0.7999999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

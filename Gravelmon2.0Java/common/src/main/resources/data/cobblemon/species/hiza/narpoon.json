@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "narpoon",
-  "nationalPokedexNumber": 2226,
+  "nationalPokedexNumber": 2297,
   "primaryType": "ice",
   "secondaryType": "water",
   "abilities": [
@@ -86,7 +86,7 @@
       "requiredContext": "cobblemon:water_stone"   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

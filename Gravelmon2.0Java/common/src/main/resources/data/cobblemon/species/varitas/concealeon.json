@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "concealeon",
-  "nationalPokedexNumber": 1799,
+  "nationalPokedexNumber": 1870,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -138,7 +138,7 @@
   "pokedex": [
     "cobblemon.species.concealeon.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

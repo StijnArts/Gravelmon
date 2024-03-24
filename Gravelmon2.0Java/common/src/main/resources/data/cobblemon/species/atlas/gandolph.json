@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gandolph",
-  "nationalPokedexNumber": 3306,
+  "nationalPokedexNumber": 4209,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.gandolph.desc"
   ],
   "preEvolution": "finlock",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

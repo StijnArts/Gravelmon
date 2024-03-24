@@ -5,6 +5,7 @@
   "primaryType": "water",
   "abilities": [
     "scavenger",
+    "ironjaw",
     "h:swiftswim"
   ],
   "baseStats": {
@@ -47,16 +48,6 @@
     "water_2",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:poisonfang",
     "1:bite",
@@ -139,7 +130,7 @@
     "cobblemon.species.jawgodon.desc"
   ],
   "preEvolution": "barracute",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

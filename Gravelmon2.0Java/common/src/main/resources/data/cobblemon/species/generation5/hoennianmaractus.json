@@ -63,6 +63,7 @@
     "tm:solarbeam",
     "tm:return",
     "tm:shadowball",
+    "tm:shimmershot",
     "tm:flamethrower",
     "tm:sludgebomb",
     "tm:sandstorm",
@@ -80,6 +81,7 @@
     "17:torment",
     "20:smog",
     "25:rapidspin",
+    "28:kindleseed",
     "33:needlearm",
     "36:scaryface",
     "41:heatwave"  ],
@@ -91,7 +93,7 @@
   "pokedex": [
     "cobblemon.species.hoennianmaractus.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

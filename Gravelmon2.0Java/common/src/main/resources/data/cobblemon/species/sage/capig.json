@@ -47,26 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "cobblemon:quick_claw",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "minecraft:wool",
-        "quantityRange": "1-2",
-        "percentage": 45
-      },
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 45
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:defensecurl",

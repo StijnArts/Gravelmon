@@ -15,14 +15,15 @@ public class Kookoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         25),
                 List.of(Ability.SHED_SKIN), Ability.EARLY_BIRD,
-                8, 165,
+                6, 165,
                 new Stats(0,0,1,0,1,0), 120,
                 0.5,
                 72, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("Evo Harden Normal - Scuttle HopSTAB Bug - Growl Normal - String Shot Bug - Harden Normal 5 Struggle BugSTAB Bug 13 Protect Normal"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("fluttereign", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,5),
@@ -65,10 +66,10 @@ public class Kookoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKILL_SWAP,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 16, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

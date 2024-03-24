@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maracabre",
-  "nationalPokedexNumber": 1796,
+  "nationalPokedexNumber": 1806,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.maracabre.desc"
   ],
   "preEvolution": "avorianmaractus",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,14 +15,15 @@ public class Scholarva extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         30),
                 List.of(Ability.COMPOUND_EYES,Ability.TECHNICIAN,Ability.SHED_SKIN), Ability.SHED_SKIN,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 230,
                 0.5,
                 57, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("It sheds its skin frequently and stores layers of it on its back. Ancient humans would harvest this shed skin and use it as material on which to write."),
-                List.of(),
+                List.of(new EvolutionEntry("intellibee", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.PARTY_MEMBER,"\"unown\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.CONFIDE,5),
@@ -87,11 +88,10 @@ public class Scholarva extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_BOOKSHELVES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Scholarva");

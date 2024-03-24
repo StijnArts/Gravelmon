@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "faelily",
-  "nationalPokedexNumber": 1789,
+  "nationalPokedexNumber": 1799,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.faelily.desc"
   ],
   "preEvolution": "springily",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "capymigo",
-  "nationalPokedexNumber": 1985,
+  "nationalPokedexNumber": 2056,
   "primaryType": "normal",
   "abilities": [
     "friendguard",
@@ -85,7 +85,7 @@
     "cobblemon.species.capymigo.desc"
   ],
   "preEvolution": "cavamie",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

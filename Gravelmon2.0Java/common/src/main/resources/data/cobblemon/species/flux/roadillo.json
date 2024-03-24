@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "roadillo",
-  "nationalPokedexNumber": 1998,
+  "nationalPokedexNumber": 2069,
   "primaryType": "normal",
   "abilities": [
     "reckless",
@@ -94,7 +94,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beagasso",
-  "nationalPokedexNumber": 1363,
+  "nationalPokedexNumber": 1373,
   "primaryType": "normal",
   "abilities": [
     "owntempo",
@@ -65,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.beagasso.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

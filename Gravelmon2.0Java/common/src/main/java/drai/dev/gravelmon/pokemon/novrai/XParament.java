@@ -15,7 +15,7 @@ public class XParament extends drai.dev.gravelmon.pokemon.Pokemon {
                         83,
                         43),
                 List.of(Ability.HEATPROOF,Ability.ANALYTIC,Ability.POWER_OF_ALCHEMY), Ability.POWER_OF_ALCHEMY,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.0,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -107,9 +107,8 @@ public class XParament extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 52, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

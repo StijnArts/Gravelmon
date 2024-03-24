@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mushilly",
-  "nationalPokedexNumber": 1345,
+  "nationalPokedexNumber": 1355,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
@@ -131,7 +131,7 @@
   "pokedex": [
     "cobblemon.species.mushilly.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

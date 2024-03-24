@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chrystasis",
-  "nationalPokedexNumber": 2695,
+  "nationalPokedexNumber": 3101,
   "primaryType": "dragon",
   "secondaryType": "psychic",
   "abilities": [
@@ -49,6 +49,18 @@
     "monster"
   ],
   "moves": [
+    "1:flash",
+    "1:dragonclaw",
+    "1:powergemcrystal",
+    "1:breakingswipe",
+    "1:tearfullook",
+    "1:barrier",
+    "1:magiccoat",
+    "1:miracleeye",
+    "1:psyshock",
+    "1:confusion",
+    "1:flail",
+    "1:covet",
     "tm:block",
     "tm:covet",
     "tm:healbellsound",
@@ -79,12 +91,15 @@
     "tm:burningjealousy"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chrystasis.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "enduron",
+  "baseScale": 0.7000000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -99,7 +114,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 28,
   "weight": 165,
   "aspects": [],
 "features": [

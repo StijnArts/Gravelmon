@@ -15,14 +15,15 @@ public class Chillow extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         20),
                 List.of(Ability.COTTON_DOWN,Ability.SNOWPLOW,Ability.THERMAL_EXCHANGE), Ability.THERMAL_EXCHANGE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 220,
                 0.5,
                 53, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("Its rear is intensely cold. When it falls asleep, it buries itself face-down in the snow, so only its coldest half is exposed to enemies."),
-                List.of(),
+                List.of(new EvolutionEntry("mattreeze", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,5),
@@ -88,11 +89,11 @@ public class Chillow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_BALL,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Chillow");

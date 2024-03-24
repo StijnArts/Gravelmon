@@ -125,6 +125,7 @@
     "tm:darkpulse",
     "tm:dazzlinggleam",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -174,7 +175,7 @@
     "cobblemon.species.deltaliepard.desc"
   ],
   "preEvolution": "deltapurrloin",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

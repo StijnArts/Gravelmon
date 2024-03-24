@@ -47,16 +47,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "3",
-    "entries": [
-      {
-        "item": "minecraft:iron_block",
-        "quantityRange": "3-10",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:ancientpower",
     "1:lockon",
@@ -123,7 +113,7 @@
   "pokedex": [
     "cobblemon.species.erion.desc"
   ],
-  "baseScale": 0.65625,
+  "baseScale": 0.875,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "forelk",
-  "nationalPokedexNumber": 3279,
+  "nationalPokedexNumber": 4182,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -115,7 +115,7 @@
     "cobblemon.species.forelk.desc"
   ],
   "preEvolution": "botaneer",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

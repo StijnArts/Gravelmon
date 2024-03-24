@@ -15,7 +15,7 @@ public class Moreen extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         84),
                 List.of(Ability.DEFIANT), Ability.MARVEL_SCALE,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,0,0), 120,
                 0.0,
                 163, ExperienceGroup.MEDIUM_FAST,
@@ -24,17 +24,31 @@ public class Moreen extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Moreen are always competing for who has the biggest front and back fins - the bigger they are the more beautiful they consider them."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.FLATTER,1)                        ),
+                        new MoveLearnSetEntry(Move.TAUNT,1),
+                        new MoveLearnSetEntry(Move.ATTRACT,1),
+                        new MoveLearnSetEntry(Move.CAPTIVATE,1),
+                        new MoveLearnSetEntry(Move.FOLLOW_ME,1),
+                        new MoveLearnSetEntry(Move.LOVELY_KISS,1),
+                        new MoveLearnSetEntry(Move.DRAINING_KISS,1),
+                        new MoveLearnSetEntry(Move.BITE,1),
+                        new MoveLearnSetEntry(Move.CRUNCH,1),
+                        new MoveLearnSetEntry(Move.SUCKER_PUNCH,1),
+                        new MoveLearnSetEntry(Move.WRAP,1),
+                        new MoveLearnSetEntry(Move.KNOCK_OFF,1),
+                        new MoveLearnSetEntry(Move.SWAGGER,1),
+                        new MoveLearnSetEntry(Move.FLATTER,1)),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Moreen");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -17,14 +17,15 @@ public class Flaero extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         55),
                 List.of(Ability.BLAZE), Ability.DEFIANT,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FLYING),
                 List.of("The tips of its horn glows as guides its way into the darkness. In the dark, it likes to communicate with glowing signals from its horns. They dart themselves from place to place, almost looking like flaming arrows, which its name was derived from."),
-                List.of(),
+                List.of(new EvolutionEntry("impferno", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.FIRE_SPIN,5),
@@ -51,14 +52,13 @@ public class Flaero extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Flaero");
+        setCanFly(true);
 
     }
 

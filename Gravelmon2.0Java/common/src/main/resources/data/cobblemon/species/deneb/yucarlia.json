@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yucarlia",
-  "nationalPokedexNumber": 3055,
+  "nationalPokedexNumber": 3664,
   "primaryType": "ghost",
   "abilities": [
     "levitate",
@@ -55,6 +55,7 @@
     "23:shadowpunch",
     "29:meanlook",
     "33:ominouswind",
+    "43:shadowclamp",
     "47:shadowball",
     "51:memento",
     "tm:swordsdance",
@@ -65,9 +66,11 @@
     "tm:icywind",
     "tm:psychic",
     "tm:shadowball",
+    "tm:devastate",
     "tm:batonpass",
     "tm:discharge",
     "tm:willowisp",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
@@ -113,7 +116,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

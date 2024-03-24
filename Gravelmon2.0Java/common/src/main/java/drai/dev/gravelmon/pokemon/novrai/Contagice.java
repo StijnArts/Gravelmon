@@ -15,14 +15,15 @@ public class Contagice extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         25),
                 List.of(Ability.ADAPTABILITY,Ability.ICE_BODY,Ability.FILTHYSURGE), Ability.FILTHYSURGE,
-                8, 165,
+                6, 165,
                 new Stats(0,1,1,0,0,0), 80,
                 0.5,
                 145, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Its slimy body leaves behind a film that freezes into slippery and near-invisible patches of ice. It absorbs melting ice into its body, but seawater causes it to shrivel up."),
-                List.of(),
+                List.of(new EvolutionEntry("brumalaise", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,7),
@@ -101,9 +102,11 @@ public class Contagice extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GASTRO_ACID,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 47, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

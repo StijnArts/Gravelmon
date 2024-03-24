@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barkana",
-  "nationalPokedexNumber": 2122,
+  "nationalPokedexNumber": 2193,
   "primaryType": "grass",
   "secondaryType": "normal",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.barkana.desc"
   ],
   "preEvolution": "banup",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

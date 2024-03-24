@@ -17,14 +17,15 @@ public class Lilabaa extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         40),
                 List.of(Ability.CUTE_CHARM,Ability.MAGIC_GUARD,Ability.CACOPHONY), Ability.CACOPHONY,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 185,
                 0.5,
                 104, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Listening to its soothing lullaby is said to bring instant calmness and positivity."),
-                List.of(),
+                List.of(new EvolutionEntry("lulabaa", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SING,1),
                         new MoveLearnSetEntry(Move.ROUND,3),
@@ -48,8 +49,9 @@ public class Lilabaa extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

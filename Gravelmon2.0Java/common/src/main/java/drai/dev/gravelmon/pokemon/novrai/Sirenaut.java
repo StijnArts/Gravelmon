@@ -15,7 +15,7 @@ public class Sirenaut extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         97),
                 List.of(Ability.LIQUID_VOICE), Ability.SWIFT_SWIM,
-                8, 165,
+                14, 165,
                 new Stats(0,0,1,1,0,0), 45,
                 0.25,
                 189, ExperienceGroup.MEDIUM_SLOW,
@@ -127,14 +127,15 @@ public class Sirenaut extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DESTINY_BOND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 46, 61, .56, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sirenaut");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

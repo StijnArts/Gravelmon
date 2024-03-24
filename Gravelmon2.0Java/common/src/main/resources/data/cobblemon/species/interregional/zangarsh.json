@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zangarsh",
-  "nationalPokedexNumber": 1362,
+  "nationalPokedexNumber": 1372,
   "primaryType": "normal",
   "abilities": [
     "poisonheal",
@@ -137,7 +137,7 @@
   "pokedex": [
     "cobblemon.species.zangarsh.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

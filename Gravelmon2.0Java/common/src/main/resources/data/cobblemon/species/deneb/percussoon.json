@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "percussoon",
-  "nationalPokedexNumber": 3000,
+  "nationalPokedexNumber": 3609,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -93,6 +93,7 @@
     "egg:endeavor",
     "egg:firepunch",
     "egg:followme",
+    "egg:frostbite",
     "egg:frustration",
     "egg:hammerarm",
     "egg:howlsound",
@@ -135,7 +136,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

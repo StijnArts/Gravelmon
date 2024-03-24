@@ -15,7 +15,7 @@ public class Ornamelt extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         35),
                 List.of(Ability.INTIMIDATE,Ability.SHELL_ARMOR,Ability.LIQUID_OOZE), Ability.LIQUID_OOZE,
-                8, 165,
+                12, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 175, ExperienceGroup.MEDIUM_FAST,
@@ -106,11 +106,11 @@ public class Ornamelt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDDY_WATER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 22, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ornamelt");

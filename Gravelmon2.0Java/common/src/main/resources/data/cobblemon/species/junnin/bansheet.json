@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bansheet",
-  "nationalPokedexNumber": 2313,
+  "nationalPokedexNumber": 2384,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -130,7 +130,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

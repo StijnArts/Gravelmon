@@ -15,14 +15,15 @@ public class Whispore extends drai.dev.gravelmon.pokemon.Pokemon {
                         52,
                         17),
                 List.of(Ability.EFFECT_SPORE,Ability.MUMMY,Ability.MYCELIUM_MIGHT), Ability.MYCELIUM_MIGHT,
-                8, 165,
+                2, 165,
                 new Stats(0,0,1,0,0,0), 220,
                 0.5,
                 52, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.AMORPHOUS),
                 List.of("It murmurs strange incantations as it absorbs decaying matter. It has a fondness for collecting flowers from where it feeds."),
-                List.of(),
+                List.of(new EvolutionEntry("mysoleum", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.INGRAIN,5),
@@ -104,9 +105,8 @@ public class Whispore extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIG,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 25, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_TAIGA))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

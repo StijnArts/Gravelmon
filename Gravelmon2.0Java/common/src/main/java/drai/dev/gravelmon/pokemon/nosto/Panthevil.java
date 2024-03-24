@@ -15,13 +15,13 @@ public class Panthevil extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         100),
                 List.of(Ability.LIMBER,Ability.PICKUP,Ability.SUPER_LUCK), Ability.SUPER_LUCK,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                21, 165,
+                new Stats(0,0,0,0,0,0), 40,
                 0.4,
                 150, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Fire Fang Fire - Ice Fang Ice - Thunder Fang Electric"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_FANG,1),
@@ -82,10 +82,11 @@ public class Panthevil extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 45, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

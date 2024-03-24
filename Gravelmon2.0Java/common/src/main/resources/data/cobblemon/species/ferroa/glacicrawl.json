@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glacicrawl",
-  "nationalPokedexNumber": 1577,
+  "nationalPokedexNumber": 1587,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
@@ -110,7 +110,7 @@
       ]   
  }
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

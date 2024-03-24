@@ -15,14 +15,15 @@ public class Chiraudio extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         80),
                 List.of(Ability.FRISK,Ability.KLUTZ,Ability.NO_GUARD), Ability.NO_GUARD,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,0,0,1), 100,
                 0.5,
                 147, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FIELD),
-                List.of("- Supersonic Normal - Scratch Normal - Screech Normal - Astonish Ghost 8 BiteSTAB Dark 11 Wing AttackSTAB Flying 14 Flatter Dark 17 Feint AttackSTAB Dark 20 Echolocate Normal 23 Echoed Voice Normal 26 Air CutterSTAB Flying 29 Snatch Dark 32 Round Normal 35 Embargo Dark 38 Beat UpSTAB Dark 42 Air SlashSTAB Flying 46 Jumpscare Ghost 50 Drain LifeSTAB Dark 54 Aerial AceSTAB Flying 58 Parting Shot Dark 62 Throat ChopSTAB Dark"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("echolocave", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.BITE,8),
@@ -136,14 +137,14 @@ public class Chiraudio extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METAL_SOUND,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 37, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Chiraudio");
+        setCanFly(true);
 
     }
 

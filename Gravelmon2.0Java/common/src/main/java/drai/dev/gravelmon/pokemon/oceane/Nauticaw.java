@@ -15,26 +15,40 @@ public class Nauticaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         52,
                         75),
                 List.of(Ability.SWIFT_SWIM), Ability.MULTISCALE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 131, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.WATER_2),
                 List.of("Hardened scales adorn the top of Seaparrot's head, which it uses to headbutt wildly when enraged. The gills have grown so large that they can produce strong gusts of wind."),
-                List.of(),
+                List.of(new EvolutionEntry("coronacaw", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
-                        new MoveLearnSetEntry(Move.PECK,1)                        ),
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.PECK,3),
+                        new MoveLearnSetEntry(Move.SING,6),
+                        new MoveLearnSetEntry(Move.WING_ATTACK,9),
+                        new MoveLearnSetEntry(Move.AQUA_RING,14),
+                        new MoveLearnSetEntry(Move.TWISTER,18),
+                        new MoveLearnSetEntry(Move.DEFOG,22),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,27),
+                        new MoveLearnSetEntry(Move.TORPEDODASH,32),
+                        new MoveLearnSetEntry(Move.FEATHERRUSH,38),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,43)                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 16, 31, 1.32, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nauticaw");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
+        setCanFly(true);
 
     }
 

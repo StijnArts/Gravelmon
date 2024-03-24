@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magukigai",
-  "nationalPokedexNumber": 3255,
+  "nationalPokedexNumber": 3864,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -128,7 +128,7 @@
     "cobblemon.species.magukigai.desc"
   ],
   "preEvolution": "magcargo",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

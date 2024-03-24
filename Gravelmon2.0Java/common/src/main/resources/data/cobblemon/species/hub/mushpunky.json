@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mushpunky",
-  "nationalPokedexNumber": 1344,
+  "nationalPokedexNumber": 1354,
   "primaryType": "poison",
   "secondaryType": "fighting",
   "abilities": [
@@ -143,7 +143,7 @@
     "cobblemon.species.mushpunky.desc"
   ],
   "preEvolution": "mushmol",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

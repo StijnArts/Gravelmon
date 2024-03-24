@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tyranos",
-  "nationalPokedexNumber": 3065,
+  "nationalPokedexNumber": 3674,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -67,6 +67,7 @@
     "48:hammerarm",
     "53:sandstorm",
     "57:doubleedge",
+    "61:devastate",
     "tm:swordsdance",
     "tm:spikes",
     "tm:magnetbomb",
@@ -80,14 +81,18 @@
     "tm:irondefense",
     "tm:brickbreak",
     "tm:triattack",
+    "tm:devastate",
     "tm:batonpass",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:woodhammer",
     "tm:focusblast",
+    "tm:dragonbeat",
     "tm:nightslash",
     "tm:cut",
     "tm:strength",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
@@ -132,7 +137,7 @@
   "pokedex": [
     "cobblemon.species.tyranos.desc"
   ],
-  "baseScale": 1.21875,
+  "baseScale": 1.625,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

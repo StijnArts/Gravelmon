@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "toranya",
-  "nationalPokedexNumber": 3228,
+  "nationalPokedexNumber": 3837,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -61,6 +61,7 @@
     "61:mist",
     "tm:waterpulse",
     "tm:thunderwave",
+    "tm:frostbite",
     "tm:frustration",
     "tm:dig",
     "tm:aerialace",
@@ -110,7 +111,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

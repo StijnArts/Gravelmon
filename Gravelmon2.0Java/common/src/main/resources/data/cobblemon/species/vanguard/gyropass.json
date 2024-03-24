@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gyropass",
-  "nationalPokedexNumber": 2715,
+  "nationalPokedexNumber": 3235,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -140,7 +140,7 @@
     "cobblemon.species.gyropass.desc"
   ],
   "preEvolution": "ayreiannosepass",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

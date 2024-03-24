@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "veefere",
-  "nationalPokedexNumber": 2870,
+  "nationalPokedexNumber": 3390,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.veefere.desc"
   ],
   "preEvolution": "vacule",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

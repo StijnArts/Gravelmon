@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "monartide",
-  "nationalPokedexNumber": 2772,
+  "nationalPokedexNumber": 3292,
   "primaryType": "water",
   "abilities": [
     "multiscale",
@@ -76,7 +76,7 @@
     "cobblemon.species.monartide.desc"
   ],
   "preEvolution": "uselake",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

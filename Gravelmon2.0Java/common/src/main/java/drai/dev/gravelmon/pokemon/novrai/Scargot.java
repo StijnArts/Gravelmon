@@ -15,7 +15,7 @@ public class Scargot extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         30),
                 List.of(Ability.STATIC,Ability.FLAME_BODY,Ability.TRAFFICJAM), Ability.TRAFFICJAM,
-                8, 165,
+                11, 165,
                 new Stats(0,0,1,1,0,0), 60,
                 0.5,
                 165, ExperienceGroup.MEDIUM_SLOW,
@@ -110,11 +110,11 @@ public class Scargot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PARABOLIC_CHARGE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 36, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Scargot");

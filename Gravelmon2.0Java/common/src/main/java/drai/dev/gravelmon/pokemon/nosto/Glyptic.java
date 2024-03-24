@@ -15,7 +15,7 @@ public class Glyptic extends drai.dev.gravelmon.pokemon.Pokemon {
                         112,
                         70),
                 List.of(Ability.LEVITATE), Ability.KEEN_EYE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,2,0), 168,
                 0.5,
                 154, ExperienceGroup.FLUCTUATING,
@@ -101,14 +101,15 @@ public class Glyptic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 2, 26, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Glyptic");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

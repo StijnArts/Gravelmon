@@ -17,7 +17,7 @@ public class Madrursa extends drai.dev.gravelmon.pokemon.Pokemon {
                         104,
                         98),
                 List.of(Ability.SNOW_WARNING), Ability.SNOW_WARNING,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,2,0,0), 55,
                 0.0,
                 170, ExperienceGroup.MEDIUM_SLOW,
@@ -44,8 +44,9 @@ public class Madrursa extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEETER_DANCE,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 41, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

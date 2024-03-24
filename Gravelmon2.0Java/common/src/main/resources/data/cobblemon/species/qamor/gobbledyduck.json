@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gobbledyduck",
-  "nationalPokedexNumber": 2706,
+  "nationalPokedexNumber": 3160,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.gobbledyduck.desc"
   ],
   "preEvolution": "qamoranpsyduck",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

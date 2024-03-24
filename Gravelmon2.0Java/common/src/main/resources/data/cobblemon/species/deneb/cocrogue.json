@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cocrogue",
-  "nationalPokedexNumber": 3156,
+  "nationalPokedexNumber": 3765,
   "primaryType": "dark",
   "secondaryType": "bug",
   "abilities": [
@@ -70,9 +70,11 @@
     "tm:substitute",
     "tm:signalbeam",
     "tm:darkpulse",
+    "tm:poisonleaf",
     "tm:leechseed",
     "tm:poisonjab",
     "tm:shadowball",
+    "tm:devastate",
     "tm:batonpass",
     "tm:confuseray",
     "tm:sludgebomb",
@@ -82,8 +84,10 @@
     "tm:strength",
     "tm:rocksmash",
     "tutor:hiddenpower",
+    "tutor:shadowclamp",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:bugnoise",
     "tutor:nastyplot",
     "egg:aerialace",
     "egg:aircutter",
@@ -97,6 +101,7 @@
     "egg:leechlife",
     "egg:metalclaw",
     "egg:safeguard",
+    "egg:shadowclamp",
     "egg:silverwind",
     "egg:snatch",
     "egg:steelwing",
@@ -117,7 +122,7 @@
     "cobblemon.species.cocrogue.desc"
   ],
   "preEvolution": "toxroach",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

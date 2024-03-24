@@ -15,7 +15,7 @@ public class Gargarool extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         95),
                 List.of(Ability.SURGE_SURFER,Ability.STENCH,Ability.STEAM_ENGINE), Ability.STEAM_ENGINE,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,2,0,0), 125,
                 0.5,
                 170, ExperienceGroup.MEDIUM_SLOW,
@@ -24,7 +24,24 @@ public class Gargarool extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Its body is always boiling hot to the touch from chemical processes going on inside of it; wherever it goes, water turns to steam and the air surges with electricity. When the sea bubbles over with strange foam, sailors are warned to stay away."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.TOXICFUMES,1),
+                        new MoveLearnSetEntry(Move.ELECTRIFY,1),
+                        new MoveLearnSetEntry(Move.CRUNCH,1),
+                        new MoveLearnSetEntry(Move.SPARK,1),
+                        new MoveLearnSetEntry(Move.CHARGE,1),
+                        new MoveLearnSetEntry(Move.VENOM_DRENCH,1),
+                        new MoveLearnSetEntry(Move.WILD_CHARGE,1),
+                        new MoveLearnSetEntry(Move.THUNDERBOLT,1),
+                        new MoveLearnSetEntry(Move.HAZE,1),
+                        new MoveLearnSetEntry(Move.ACID,1),
+                        new MoveLearnSetEntry(Move.POISON_BURST,1),
+                        new MoveLearnSetEntry(Move.VENOSHOCK,1),
+                        new MoveLearnSetEntry(Move.PAIN_SPLIT,1),
+                        new MoveLearnSetEntry(Move.PSYCHIC_FANGS,1),
+                        new MoveLearnSetEntry(Move.SCALD,1),
+                        new MoveLearnSetEntry(Move.EMBARGO,1),
+                        new MoveLearnSetEntry(Move.SMOKESCREEN,1),
+                        new MoveLearnSetEntry(Move.SOLAR_CHARGER,1),
+                        new MoveLearnSetEntry(Move.TOXIC_FUMES,1),
                         new MoveLearnSetEntry(Move.LAST_RESORT,"tm"),
                         new MoveLearnSetEntry(Move.RECYCLE,"tm"),
                         new MoveLearnSetEntry(Move.SHOCK_WAVE,"tm"),
@@ -49,14 +66,17 @@ public class Gargarool extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLIP_TURN,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 13, 33, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.OCEAN_MONUMENT),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Gargarool");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
+        setCanFly(true);
 
     }
 

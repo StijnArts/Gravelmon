@@ -15,14 +15,15 @@ public class Gluctose extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         15),
                 List.of(Ability.STICKY_HOLD,Ability.TASTEBUDS,Ability.SWEET_VEIL), Ability.SWEET_VEIL,
-                8, 165,
+                7, 165,
                 new Stats(1,0,0,0,0,0), 120,
                 0.5,
                 59, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.FAIRY),
                 List.of("Its shed skin has long been harvested as a sweet food source by the people of Novrai, but industrialization has led to overexploitation of this slow-moving Pokemon."),
-                List.of(),
+                List.of(new EvolutionEntry("onychew", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.JUICESPRAY,3),
@@ -101,9 +102,8 @@ public class Gluctose extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HONEYPOUR,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 21, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

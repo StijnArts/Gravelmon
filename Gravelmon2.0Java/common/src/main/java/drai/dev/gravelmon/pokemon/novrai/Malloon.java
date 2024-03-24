@@ -15,7 +15,7 @@ public class Malloon extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         106),
                 List.of(Ability.RUBBERBODY), Ability.SOUNDPROOF,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,2), 100,
                 0.5,
                 170, ExperienceGroup.FAST,
@@ -101,14 +101,14 @@ public class Malloon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COUNTER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Malloon");
+        setCanFly(true);
 
     }
 

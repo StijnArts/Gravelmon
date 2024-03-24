@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "surudoika",
-  "nationalPokedexNumber": 3214,
+  "nationalPokedexNumber": 3823,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -97,7 +97,7 @@
     "cobblemon.species.surudoika.desc"
   ],
   "preEvolution": "kodachiuo",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

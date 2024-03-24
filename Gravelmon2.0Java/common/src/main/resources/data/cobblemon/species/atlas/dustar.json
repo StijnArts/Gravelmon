@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dustar",
-  "nationalPokedexNumber": 3386,
+  "nationalPokedexNumber": 4289,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -57,7 +57,7 @@
     "21:luckychant",
     "26:reflect",
     "30:signalbeam",
-    "34:cosmicpower",
+    "34:cosmicpowercosmic",
     "39:flashcannon",
     "43:powergemcrystal",
     "48:wish",
@@ -130,7 +130,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

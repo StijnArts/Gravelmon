@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "roytsar",
-  "nationalPokedexNumber": 3168,
+  "nationalPokedexNumber": 3777,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -59,6 +59,7 @@
     "42:recover",
     "54:outrage",
     "60:dragondance",
+    "66:stardustcosmic",
     "72:doubleedge",
     "78:painsplit",
     "84:gigaimpact",
@@ -80,19 +81,22 @@
     "tm:triattack",
     "tm:confuseray",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:woodhammer",
     "tm:focusblast",
     "tm:discharge",
+    "tm:dragonbeat",
     "tm:cut",
     "tm:surf",
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:hydropump",
     "tutor:rest",
-    "tutor:toxic"  ],
+    "tutor:toxic",
+    "tutor:bugnoise"  ],
   "labels": [
     "vega",
     "legendary",
@@ -101,7 +105,7 @@
   "pokedex": [
     "cobblemon.species.roytsar.desc"
   ],
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

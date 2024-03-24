@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "velvedrake",
-  "nationalPokedexNumber": 1578,
+  "nationalPokedexNumber": 1588,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
@@ -138,7 +138,7 @@
     "cobblemon.species.velvedrake.desc"
   ],
   "preEvolution": "glacicrawl",
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

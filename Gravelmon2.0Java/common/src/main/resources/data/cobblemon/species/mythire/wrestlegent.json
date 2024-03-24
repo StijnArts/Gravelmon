@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wrestlegent",
-  "nationalPokedexNumber": 2681,
+  "nationalPokedexNumber": 3087,
   "primaryType": "fighting",
   "secondaryType": "fairy",
   "abilities": [
@@ -49,6 +49,17 @@
     "fairy"
   ],
   "moves": [
+    "1:spiritbreak",
+    "1:block",
+    "1:partingshot",
+    "1:bodypress",
+    "1:circlethrow",
+    "1:wakeupslap",
+    "1:submission",
+    "1:retaliate",
+    "1:helpinghand",
+    "1:swagger",
+    "1:counter",
     "1:coaching",
     "tm:firepunch",
     "tm:icepunch",
@@ -124,7 +135,7 @@
   "pokedex": [
     "cobblemon.species.wrestlegent.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -139,7 +150,7 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 8,
+  "height": 19,
   "weight": 165,
   "aspects": [],
 "features": [

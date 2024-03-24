@@ -166,8 +166,8 @@ public class Hiza extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Skelevera());
         pokemon.add(new Orcleton());
         pokemon.add(new Bonemancer());
-//        pokemon.add(new Venarch()); NOT FINISHED
-//        pokemon.add(new Vempress()); NOT FINISHED
+//        pokemon.add(new Venarch()); Missing Stats
+//        pokemon.add(new Vempress()); Missing Stats
         pokemon.add(new Helmarine());
         pokemon.add(new Trouterror());
         pokemon.add(new Moluschant());

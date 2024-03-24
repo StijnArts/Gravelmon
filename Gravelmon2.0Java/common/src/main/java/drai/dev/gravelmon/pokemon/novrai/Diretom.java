@@ -15,14 +15,15 @@ public class Diretom extends drai.dev.gravelmon.pokemon.Pokemon {
                         20,
                         29),
                 List.of(Ability.NUTRIENTRUNOFF,Ability.STORM_DRAIN,Ability.SOLAR_POWER), Ability.SOLAR_POWER,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 55, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.WATER_3),
                 List.of("When a fresh source of nutrients pours into a body of water, Diretom populations explode. It releases poison from its body that, in large numbers, can contaminate an entire lake."),
-                List.of(),
+                List.of(new EvolutionEntry("eruptide", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"gravelmon:growth_mulch")),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOG,1),
                         new MoveLearnSetEntry(Move.EMBER,3),
@@ -108,9 +109,8 @@ public class Diretom extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MORTAL_SPIN,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

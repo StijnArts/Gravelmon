@@ -15,7 +15,7 @@ public class Dumpback extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         59),
                 List.of(Ability.CLEAR_BODY), Ability.FILTER,
-                8, 165,
+                72, 165,
                 new Stats(2,0,0,0,0,0), 60,
                 0.5,
                 185, ExperienceGroup.MEDIUM_SLOW,
@@ -110,14 +110,16 @@ public class Dumpback extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLAM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 42, 65, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Dumpback");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -17,7 +17,7 @@ public class Vortexol extends drai.dev.gravelmon.pokemon.Pokemon {
                         125,
                         100),
                 List.of(Ability.ADAPTABILITY), Ability.HYDRATION,
-                8, 165,
+                11, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 210, ExperienceGroup.MEDIUM_SLOW,
@@ -47,14 +47,16 @@ public class Vortexol extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 28, 45, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Vortexol");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

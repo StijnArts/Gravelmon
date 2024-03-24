@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baizeast",
-  "nationalPokedexNumber": 3024,
+  "nationalPokedexNumber": 3633,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -65,6 +65,7 @@
     "50:safeguard",
     "55:psychic",
     "59:nastyplot",
+    "64:psyburn",
     "tm:airslash",
     "tm:thunderwave",
     "tm:headbutt",
@@ -80,13 +81,15 @@
     "tm:shadowball",
     "tm:confuseray",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:heatwave",
     "tm:discharge",
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:nastyplot",
@@ -97,7 +100,9 @@
     "egg:dreameater",
     "egg:encore",
     "egg:flamethrower",
+    "egg:frostbite",
     "egg:frustration",
+    "egg:gravitywavecosmic",
     "egg:hail",
     "egg:healbellsound",
     "egg:hyperbeam",
@@ -123,7 +128,7 @@
   "pokedex": [
     "cobblemon.species.baizeast.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

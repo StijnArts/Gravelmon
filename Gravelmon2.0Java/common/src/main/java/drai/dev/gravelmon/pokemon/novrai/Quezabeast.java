@@ -15,7 +15,7 @@ public class Quezabeast extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         70),
                 List.of(Ability.OWN_TEMPO,Ability.WONDER_SKIN,Ability.CONTRARY), Ability.CONTRARY,
-                8, 165,
+                21, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 280, ExperienceGroup.MEDIUM_SLOW,
@@ -153,8 +153,8 @@ public class Quezabeast extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DOUBLE_KICK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 65, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

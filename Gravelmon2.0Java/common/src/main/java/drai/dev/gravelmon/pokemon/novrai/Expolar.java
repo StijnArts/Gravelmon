@@ -15,7 +15,7 @@ public class Expolar extends drai.dev.gravelmon.pokemon.Pokemon {
                         76,
                         85),
                 List.of(Ability.SNOWPLOW,Ability.SLUSH_RUSH,Ability.MOUNTAINEER), Ability.MOUNTAINEER,
-                8, 165,
+                17, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 172, ExperienceGroup.MEDIUM_SLOW,
@@ -108,8 +108,8 @@ public class Expolar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MACH_PUNCH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 49, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

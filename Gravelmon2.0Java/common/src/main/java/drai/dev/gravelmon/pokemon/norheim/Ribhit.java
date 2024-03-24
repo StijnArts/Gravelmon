@@ -17,13 +17,13 @@ public class Ribhit extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         55),
                 List.of(Ability.PARENTAL_BOND), Ability.PARENTAL_BOND,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 165,
+                new Stats(0,0,0,0,0,0), 100,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Evo Double HitSTAB Normal - Splash Normal 4 TackleSTAB Normal 11 Tail Whip Normal 16 BubbleSTAB Water 20 Quick AttackSTAB Normal 27 Aqua Ring Water 31 Aqua JetSTAB Water 36 Rain Dance Water 40 Bubble BeamSTAB Water 45 Body SlamSTAB Normal 47 Yawn Normal 52 Muddy WaterSTAB Water 58 Amnesia Psychic 66 Last ResortSTAB Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
@@ -42,14 +42,16 @@ public class Ribhit extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,66)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 27, 39, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Ribhit");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

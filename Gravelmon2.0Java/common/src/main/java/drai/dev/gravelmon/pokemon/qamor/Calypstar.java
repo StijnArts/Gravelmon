@@ -17,7 +17,7 @@ public class Calypstar extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         52),
                 List.of(Ability.SAP_SIPPER), Ability.SAP_SIPPER,
-                8, 165,
+                6, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 158, ExperienceGroup.MEDIUM_SLOW,
@@ -46,14 +46,15 @@ public class Calypstar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOMBSHELL,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 9, 34, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Calypstar");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

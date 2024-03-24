@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "celestar",
-  "nationalPokedexNumber": 1593,
+  "nationalPokedexNumber": 1603,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
@@ -52,7 +52,7 @@
     "11:haze",
     "16:flash",
     "20:firespin",
-    "33:cosmicpower",
+    "33:cosmicpowercosmic",
     "42:heatwave",
     "48:wish",
     "60:healingwish",
@@ -146,7 +146,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

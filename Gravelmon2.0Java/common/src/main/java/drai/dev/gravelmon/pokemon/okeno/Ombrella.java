@@ -14,8 +14,8 @@ public class Ombrella extends drai.dev.gravelmon.pokemon.Pokemon {
                         108,
                         88),
                 List.of(Ability.DRIZZLE), Ability.PRANKSTER,
-                8, 165,
-                new Stats(0,0,0,2,0,0), 0,
+                7, 165,
+                new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 170, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -50,9 +50,9 @@ public class Ombrella extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 17, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

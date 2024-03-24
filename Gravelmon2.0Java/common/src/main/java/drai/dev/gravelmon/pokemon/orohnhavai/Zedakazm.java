@@ -17,7 +17,7 @@ public class Zedakazm extends drai.dev.gravelmon.pokemon.Pokemon {
                         130,
                         90),
                 List.of(Ability.PRESSURE), Ability.SHADOW_TAG,
-                8, 165,
+                42, 165,
                 new Stats(0,2,0,0,1,0), 3,
                 0.0,
                 306, ExperienceGroup.SLOW,
@@ -45,9 +45,8 @@ public class Zedakazm extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_SOUL_SAND, Biome.IS_NETHER_SOUL_FIRE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

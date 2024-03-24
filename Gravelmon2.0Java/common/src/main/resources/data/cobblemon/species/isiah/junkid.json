@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "junkid",
-  "nationalPokedexNumber": 2788,
+  "nationalPokedexNumber": 3308,
   "primaryType": "steel",
   "abilities": [
     "weakarmor",
@@ -126,7 +126,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

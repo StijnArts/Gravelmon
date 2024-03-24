@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rexquiem",
-  "nationalPokedexNumber": 1760,
+  "nationalPokedexNumber": 1770,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -133,7 +133,7 @@
     "cobblemon.species.rexquiem.desc"
   ],
   "preEvolution": "peckabone",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

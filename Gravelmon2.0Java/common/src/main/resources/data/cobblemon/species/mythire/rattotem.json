@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rattotem",
-  "nationalPokedexNumber": 2602,
+  "nationalPokedexNumber": 3008,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -119,12 +119,15 @@
     "tm:playrough"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.rattotem.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "shrewpy",
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -139,7 +142,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

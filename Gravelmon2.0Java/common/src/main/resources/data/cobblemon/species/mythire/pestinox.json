@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pestinox",
-  "nationalPokedexNumber": 2700,
+  "nationalPokedexNumber": 3106,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
@@ -48,6 +48,19 @@
     "undiscovered"
   ],
   "moves": [
+    "1:spiritbreak",
+    "1:jawlock",
+    "1:sludgewave",
+    "1:toxicspikes",
+    "1:poisonjab",
+    "1:poisontail",
+    "1:strangesteam",
+    "1:healblock",
+    "1:roarsound",
+    "1:breakingswipe",
+    "1:infestation",
+    "1:shadowclaw",
+    "1:causticbreath",
     "tm:corrosivegas",
     "tm:lashout",
     "tm:mistyexplosion",
@@ -129,7 +142,7 @@
   "pokedex": [
     "cobblemon.species.pestinox.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.65,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -144,7 +157,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 26,
   "weight": 165,
   "aspects": [],
 "features": [

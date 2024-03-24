@@ -15,14 +15,15 @@ public class Dimwatt extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         65),
                 List.of(Ability.DAZZLING,Ability.LEVITATE,Ability.ILLUMINATE), Ability.ILLUMINATE,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,1,0,0), 180,
                 0.0,
                 53, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It's usually slow-witted, but sometimes it is struck by a flash of inspiration. When this happens, its bulb glows brightly."),
-                List.of(),
+                List.of(new EvolutionEntry("bulbright", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLASH,1),
                         new MoveLearnSetEntry(Move.GLOWSIGNAL,3),
@@ -86,11 +87,12 @@ public class Dimwatt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKILL_SWAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dimwatt");

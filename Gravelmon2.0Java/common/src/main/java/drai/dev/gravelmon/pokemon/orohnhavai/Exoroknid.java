@@ -17,7 +17,7 @@ public class Exoroknid extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         100),
                 List.of(Ability.TECHNICIAN,Ability.STURDY,Ability.COMPOUND_EYES), Ability.COMPOUND_EYES,
-                8, 165,
+                18, 165,
                 new Stats(0,1,0,0,0,1), 45,
                 0.5,
                 177, ExperienceGroup.MEDIUM_SLOW,
@@ -51,9 +51,9 @@ public class Exoroknid extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 64, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

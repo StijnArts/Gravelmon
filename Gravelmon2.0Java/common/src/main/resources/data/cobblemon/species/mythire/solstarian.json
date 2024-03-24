@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solstarian",
-  "nationalPokedexNumber": 2701,
+  "nationalPokedexNumber": 3107,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -48,6 +48,21 @@
     "undiscovered"
   ],
   "moves": [
+    "1:lockon",
+    "1:imprison",
+    "1:meanlook",
+    "1:heatwave",
+    "1:heatcrash",
+    "1:firepunch",
+    "1:eruption",
+    "1:foulplay",
+    "1:powertrip",
+    "1:suckerpunch",
+    "1:megapunch",
+    "1:breakingswipe",
+    "1:flash",
+    "1:flashcannon",
+    "1:thrash",
     "1:punishment",
     "tm:lashout",
     "tm:meteorbeam",
@@ -135,7 +150,7 @@
   "pokedex": [
     "cobblemon.species.solstarian.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.9500000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -150,7 +165,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 38,
   "weight": 165,
   "aspects": [],
 "features": [

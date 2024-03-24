@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "refhuge",
-  "nationalPokedexNumber": 3481,
+  "nationalPokedexNumber": 4386,
   "primaryType": "water",
   "abilities": [
     "thickfat",
@@ -117,7 +117,7 @@
     "cobblemon.species.refhuge.desc"
   ],
   "preEvolution": "whelter",
-  "baseScale": 1.7625,
+  "baseScale": 2.35,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

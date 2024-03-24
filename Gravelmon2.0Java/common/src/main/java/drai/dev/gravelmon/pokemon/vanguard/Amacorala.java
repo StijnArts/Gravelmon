@@ -111,9 +111,9 @@ public class Amacorala extends Pokemon {
                 List.of(Label.VANGUARD),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 26, 52, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF))
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
         this.setCanBreathUnderwater(true);

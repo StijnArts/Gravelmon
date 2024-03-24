@@ -14,14 +14,15 @@ public class Popkern extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         30),
                 List.of(Ability.FLARE_BOOST,Ability.OWN_TEMPO,Ability.LEAF_GUARD), Ability.LEAF_GUARD,
-                8, 165,
+                2, 165,
                 new Stats(0,0,1,0,0,0), 235,
                 0.5,
                 52, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("This Pokemon's organism is mostly composed of water and thus is very sensible to changes in the weather. If Popkern ever reaches elevated temperatures, it will evolve."),
-                List.of(),
+                List.of(new EvolutionEntry("pipkorn", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.FLAME_CHARGE.getName()+"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),
                         new MoveLearnSetEntry(Move.SEEDSHOT,3),
@@ -39,11 +40,11 @@ public class Popkern extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORRY_SEED,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Popkern");

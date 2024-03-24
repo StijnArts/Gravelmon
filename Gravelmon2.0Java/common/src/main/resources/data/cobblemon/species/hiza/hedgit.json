@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hedgit",
-  "nationalPokedexNumber": 2099,
+  "nationalPokedexNumber": 2170,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -81,7 +81,7 @@
       "requiredContext": "cobblemon:leaf_stone"   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -14,7 +14,7 @@ public class Dopibara extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         68),
                 List.of(Ability.TASTEBUDS,Ability.THICK_FAT,Ability.UNAWARE), Ability.UNAWARE,
-                8, 165,
+                12, 165,
                 new Stats(2,0,0,0,0,0), 127,
                 0.5,
                 147, ExperienceGroup.MEDIUM_FAST,
@@ -96,8 +96,8 @@ public class Dopibara extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 42, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

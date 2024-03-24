@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glaure",
-  "nationalPokedexNumber": 2939,
+  "nationalPokedexNumber": 3459,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.glaure.desc"
   ],
   "preEvolution": "glaufang",
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

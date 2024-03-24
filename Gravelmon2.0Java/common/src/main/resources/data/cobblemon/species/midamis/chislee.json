@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chislee",
-  "nationalPokedexNumber": 2913,
+  "nationalPokedexNumber": 3433,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.chislee.desc"
   ],
   "preEvolution": "chanalee",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

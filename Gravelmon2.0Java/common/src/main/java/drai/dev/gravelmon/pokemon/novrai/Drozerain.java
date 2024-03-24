@@ -15,7 +15,7 @@ public class Drozerain extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         40),
                 List.of(Ability.STICKY_HOLD,Ability.ADHESIVE,Ability.CHLOROPHYLL), Ability.CHLOROPHYLL,
-                8, 165,
+                15, 165,
                 new Stats(0,0,2,0,0,0), 60,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -119,9 +119,8 @@ public class Drozerain extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BODY_SLAM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

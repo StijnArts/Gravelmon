@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "causit",
-  "nationalPokedexNumber": 2934,
+  "nationalPokedexNumber": 3454,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -84,7 +84,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hadrosmoke",
-  "nationalPokedexNumber": 2651,
+  "nationalPokedexNumber": 3057,
   "primaryType": "fire",
   "abilities": [
     "angerpoint",
@@ -48,6 +48,16 @@
     "monster"
   ],
   "moves": [
+    "1:smokescreen",
+    "1:smog",
+    "1:incinerate",
+    "1:fireblast",
+    "1:flameburst",
+    "1:lockon",
+    "1:dragonbreath",
+    "1:whirlwind",
+    "1:stomp",
+    "1:causticbreath",
     "tm:defog",
     "tm:lastresort",
     "tm:lowkick",
@@ -65,12 +75,15 @@
     "tm:scorchingsands"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hadrosmoke.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "snuffellow",
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -85,7 +98,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 18,
   "weight": 165,
   "aspects": [],
 "features": [

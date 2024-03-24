@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seevile",
-  "nationalPokedexNumber": 2118,
+  "nationalPokedexNumber": 2189,
   "primaryType": "grass",
   "abilities": [
     "cutecharm",
@@ -87,7 +87,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

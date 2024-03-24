@@ -15,7 +15,7 @@ public class Gangraeae extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         88),
                 List.of(Ability.ANGER_POINT,Ability.INNARDS_OUT,Ability.HUSTLE), Ability.HUSTLE,
-                8, 165,
+                17, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.25,
                 174, ExperienceGroup.SLOW,
@@ -136,9 +136,9 @@ public class Gangraeae extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COMEUPPANCE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

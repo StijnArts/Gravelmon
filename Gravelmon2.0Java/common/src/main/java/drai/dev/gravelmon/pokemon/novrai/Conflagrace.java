@@ -15,7 +15,7 @@ public class Conflagrace extends drai.dev.gravelmon.pokemon.Pokemon {
                         109,
                         110),
                 List.of(Ability.EARLY_BIRD,Ability.COMPETITIVE,Ability.SERENE_GRACE), Ability.SERENE_GRACE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 186, ExperienceGroup.MEDIUM_SLOW,
@@ -107,8 +107,8 @@ public class Conflagrace extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRAVE_BIRD,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

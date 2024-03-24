@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "galaxia",
-  "nationalPokedexNumber": 3144,
+  "nationalPokedexNumber": 3753,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
@@ -57,7 +57,8 @@
     "12:sludge",
     "20:psychocut",
     "28:counter",
-    "34:cosmicpower",
+    "31:hypnopulse",
+    "34:cosmicpowercosmic",
     "39:zenheadbutt",
     "45:meditate",
     "50:gunkshot",
@@ -74,7 +75,8 @@
     "tutor:payback",
     "tutor:clearsmog",
     "tutor:knockoff",
-    "tutor:poisonjab"  ],
+    "tutor:poisonjab",
+    "tutor:stardustcosmic"  ],
   "labels": [
     "deneb",
     "not_modeled"
@@ -82,7 +84,7 @@
   "pokedex": [
     "cobblemon.species.galaxia.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

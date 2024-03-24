@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dielebi",
-  "nationalPokedexNumber": 1786,
+  "nationalPokedexNumber": 1796,
   "primaryType": "psychic",
   "secondaryType": "bug",
   "abilities": [
@@ -108,7 +108,7 @@
   "pokedex": [
     "cobblemon.species.dielebi.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

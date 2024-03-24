@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leeceri",
-  "nationalPokedexNumber": 2981,
+  "nationalPokedexNumber": 3501,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.leeceri.desc"
   ],
   "preEvolution": "leebrey",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "calientoad",
-  "nationalPokedexNumber": 2581,
+  "nationalPokedexNumber": 2987,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -131,7 +131,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

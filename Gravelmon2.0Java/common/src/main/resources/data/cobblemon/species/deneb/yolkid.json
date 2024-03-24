@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yolkid",
-  "nationalPokedexNumber": 3113,
+  "nationalPokedexNumber": 3722,
   "primaryType": "normal",
   "abilities": [
     "cutecharm",
@@ -69,6 +69,7 @@
     "tm:triattack",
     "tm:confuseray",
     "tm:flash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic"  ],

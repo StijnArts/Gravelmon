@@ -15,13 +15,13 @@ public class Killarumi extends drai.dev.gravelmon.pokemon.Pokemon {
                         123,
                         40),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,2,0), 75,
                 0.5,
                 160, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("- Tackle Normal - Harden Normal - Confuse Ray Ghost - PsywaveSTAB Psychic - Rock ThrowSTAB Rock - Signal Beam Bug - Hypnosis Psychic 8 ConfusionSTAB Psychic 14 Rock Polish Rock 17 Moonlight Fairy 21 Swift Normal 24 Cosmic Power Psychic 28 Lucky Chant Normal 33 Ancient PowerSTAB Rock 34 Crop Circle Psychic 37 PsychicSTAB Psychic 42 Earth Power Ground 45 Power GemSTAB Rock 49 StarstreamSTAB Psychic 54 Gem CrashSTAB Rock 57 Stone EdgeSTAB Rock 61 Meteor ShowerSTAB Rock 65 Lunar Dance Psychic 70 Meteor BeamSTAB Rock"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HYPNOSIS,1),
@@ -72,11 +72,11 @@ public class Killarumi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS, SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Killarumi");

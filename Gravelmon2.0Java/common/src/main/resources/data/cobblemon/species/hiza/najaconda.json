@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "najaconda",
-  "nationalPokedexNumber": 2167,
+  "nationalPokedexNumber": 2238,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.najaconda.desc"
   ],
   "preEvolution": "rattletack",
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

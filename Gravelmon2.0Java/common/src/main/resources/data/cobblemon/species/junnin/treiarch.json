@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "treiarch",
-  "nationalPokedexNumber": 2325,
+  "nationalPokedexNumber": 2396,
   "primaryType": "rock",
   "secondaryType": "fighting",
   "abilities": [
@@ -133,7 +133,7 @@
   "pokedex": [
     "cobblemon.species.treiarch.desc"
   ],
-  "baseScale": 0.7125,
+  "baseScale": 0.9500000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scavengore",
-  "nationalPokedexNumber": 1662,
+  "nationalPokedexNumber": 1672,
   "primaryType": "bug",
   "abilities": [
     "keeneye",
@@ -82,7 +82,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

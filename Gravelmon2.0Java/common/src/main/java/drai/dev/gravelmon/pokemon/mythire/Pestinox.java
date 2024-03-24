@@ -15,7 +15,7 @@ public class Pestinox extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         120),
                 List.of(Ability.POISON_TOUCH), Ability.POISON_TOUCH,
-                8, 165,
+                26, 165,
                 new Stats(0,0,0,1,0,2), 3,
                 0.0,
                 270, ExperienceGroup.SLOW,
@@ -24,7 +24,22 @@ public class Pestinox extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("A cruel Pokemon of the sea that detests humans almost as much as it hates the coming of summer. It spreads misery wherever it goes, but if it touches clean, fresh water, it will be kept away."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.TRASHTALK,1),
+                        new MoveLearnSetEntry(Move.SPIRIT_BREAK,1),
+                        new MoveLearnSetEntry(Move.JAW_LOCK,1),
+                        new MoveLearnSetEntry(Move.SOLID_KICK,1),
+                        new MoveLearnSetEntry(Move.SLUDGE_WAVE,1),
+                        new MoveLearnSetEntry(Move.TOXIC_SPIKES,1),
+                        new MoveLearnSetEntry(Move.FILTHY_TERRAIN,1),
+                        new MoveLearnSetEntry(Move.POISON_JAB,1),
+                        new MoveLearnSetEntry(Move.POISON_TAIL,1),
+                        new MoveLearnSetEntry(Move.STRANGE_STEAM,1),
+                        new MoveLearnSetEntry(Move.HEAL_BLOCK,1),
+                        new MoveLearnSetEntry(Move.ROAR,1),
+                        new MoveLearnSetEntry(Move.BREAKING_SWIPE,1),
+                        new MoveLearnSetEntry(Move.INFESTATION,1),
+                        new MoveLearnSetEntry(Move.SHADOW_CLAW,1),
+                        new MoveLearnSetEntry(Move.CAUSTIC_BREATH,1),
+                        new MoveLearnSetEntry(Move.TRASH_TALK,1),
                         new MoveLearnSetEntry(Move.CORROSIVE_GAS,"tm"),
                         new MoveLearnSetEntry(Move.LASH_OUT,"tm"),
                         new MoveLearnSetEntry(Move.MISTY_EXPLOSION,"tm"),
@@ -101,9 +116,9 @@ public class Pestinox extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_FANGS,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

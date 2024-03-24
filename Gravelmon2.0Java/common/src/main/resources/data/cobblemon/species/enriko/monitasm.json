@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "monitasm",
-  "nationalPokedexNumber": 1681,
+  "nationalPokedexNumber": 1691,
   "primaryType": "ghost",
   "secondaryType": "electric",
   "abilities": [
@@ -63,7 +63,7 @@
     "cobblemon.species.monitasm.desc"
   ],
   "preEvolution": "phantape",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

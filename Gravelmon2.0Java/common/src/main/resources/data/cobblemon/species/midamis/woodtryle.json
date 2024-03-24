@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "woodtryle",
-  "nationalPokedexNumber": 2888,
+  "nationalPokedexNumber": 3408,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.woodtryle.desc"
   ],
   "preEvolution": "tweetrille",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

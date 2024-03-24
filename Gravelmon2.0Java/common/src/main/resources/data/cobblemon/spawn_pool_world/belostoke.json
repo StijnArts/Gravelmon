@@ -7,17 +7,17 @@
       "id": "belostoke-1",
       "pokemon": "belostoke",
       "presets": [
-          "natural"
+          "near_lava"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "35-45",
+      "weight": 0.6,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_volvanic",
+"#cobblemon:is_nether_basalt",
+"#cobblemon:is_nether_wasteland" ]
       }
     }
   ]

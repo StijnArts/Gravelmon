@@ -15,7 +15,7 @@ public class Pitcharade extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         50),
                 List.of(Ability.FALSEFIRE), Ability.FALSEFIRE,
-                8, 165,
+                19, 165,
                 new Stats(0,1,0,0,0,0), 75,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -128,9 +128,8 @@ public class Pitcharade extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPIT_UP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 18, 41, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

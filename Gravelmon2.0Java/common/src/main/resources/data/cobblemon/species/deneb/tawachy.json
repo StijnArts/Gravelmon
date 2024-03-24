@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tawachy",
-  "nationalPokedexNumber": 3174,
+  "nationalPokedexNumber": 3783,
   "primaryType": "normal",
   "abilities": [
     "intimidate",
@@ -91,6 +91,7 @@
     "egg:mudslap",
     "egg:chipaway",
     "egg:superpower",
+    "egg:magnumpunch",
     "egg:furyswipes",
     "egg:rockclimb"  ],
   "labels": [
@@ -103,7 +104,7 @@
     "cobblemon.species.tawachy.desc"
   ],
   "preEvolution": "wallachy",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

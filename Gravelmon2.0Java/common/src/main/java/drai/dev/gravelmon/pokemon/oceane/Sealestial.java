@@ -15,7 +15,7 @@ public class Sealestial extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         72),
                 List.of(Ability.SHELL_ARMOR), Ability.POISON_POINT,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,3,0,0), 45,
                 0.5,
                 203, ExperienceGroup.MEDIUM_FAST,
@@ -29,14 +29,15 @@ public class Sealestial extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHELL_SMASH,"tm")                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 20, 43, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sealestial");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

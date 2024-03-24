@@ -15,14 +15,15 @@ public class Audibat extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         62),
                 List.of(Ability.FRISK,Ability.KLUTZ,Ability.NO_GUARD), Ability.NO_GUARD,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FIELD),
                 List.of("Playful but mischevous, it's known to fly out of caves at night to mess with unsuspecting Cherm. Its cry can be heard from nearly a mile away."),
-                List.of(),
+                List.of(new EvolutionEntry("chiraudio", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCREECH,1),
                         new MoveLearnSetEntry(Move.ASTONISH,4),
@@ -133,14 +134,14 @@ public class Audibat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METAL_SOUND,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 24, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Audibat");
+        setCanFly(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skreychee",
-  "nationalPokedexNumber": 2811,
+  "nationalPokedexNumber": 3331,
   "primaryType": "sound",
   "secondaryType": "fairy",
   "abilities": [
@@ -99,7 +99,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

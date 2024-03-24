@@ -15,8 +15,8 @@ public class Jawson extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         83),
                 List.of(Ability.SWIFT_SWIM,Ability.MOXIE,Ability.RAZORFINS), Ability.RAZORFINS,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 157, ExperienceGroup.ERRATIC,
                 70,
@@ -41,14 +41,16 @@ public class Jawson extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CROSS_CHOP,"tm")                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 22, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Jawson");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

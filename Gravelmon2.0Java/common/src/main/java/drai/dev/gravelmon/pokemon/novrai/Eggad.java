@@ -15,14 +15,15 @@ public class Eggad extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         25),
                 List.of(Ability.STICKY_HOLD,Ability.SHELL_ARMOR,Ability.LIQUID_OOZE), Ability.LIQUID_OOZE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("Eggad clings tightly to its eggshell for its entire life. It secretes a chemical that strengthens the shell, and it squeezes itself inside to protect itself from attack."),
-                List.of(),
+                List.of(new EvolutionEntry("ornamelt", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:oval_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.BIDE,5),
@@ -91,11 +92,11 @@ public class Eggad extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDDY_WATER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 2, 21, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Eggad");

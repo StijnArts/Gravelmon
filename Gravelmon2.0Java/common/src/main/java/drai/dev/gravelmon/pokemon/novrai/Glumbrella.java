@@ -15,14 +15,15 @@ public class Glumbrella extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         75),
                 List.of(Ability.OVERCOAT,Ability.DRIZZLE,Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,1), 120,
                 0.5,
                 62, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Its body is so light that it is often carried away by strong winds. It refuses to bond with others for fear of being blown away and leaving them."),
-                List.of(),
+                List.of(new EvolutionEntry("pourasoul", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.FAKE_TEARS,3),
@@ -94,8 +95,10 @@ public class Glumbrella extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRUDGE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 26, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

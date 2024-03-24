@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bunnler-1",
+      "pokemon": "bunnler",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "13-33",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ]
+      }
+    }
+  ]
+}

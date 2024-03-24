@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pestalation",
-  "nationalPokedexNumber": 2510,
+  "nationalPokedexNumber": 2809,
   "primaryType": "flying",
   "secondaryType": "poison",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.pestalation.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

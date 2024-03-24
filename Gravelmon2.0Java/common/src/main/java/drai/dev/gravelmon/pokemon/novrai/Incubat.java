@@ -15,14 +15,15 @@ public class Incubat extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         86),
                 List.of(Ability.BLAZE), Ability.SCAVENGE,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.875,
                 145, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("It perches on tall buildings, staring down menacingly to inspire fear. It's known for treachery and trickery, but it's forever loyal to a Trainer that's earned its respect."),
-                List.of(),
+                List.of(new EvolutionEntry("nocturnace", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SUPERSONIC,1),
                         new MoveLearnSetEntry(Move.BITE,10),
@@ -112,14 +113,14 @@ public class Incubat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PURSUIT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Incubat");
+        setCanFly(true);
 
     }
 

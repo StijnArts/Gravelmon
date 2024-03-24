@@ -17,7 +17,7 @@ public class Glumexin extends drai.dev.gravelmon.pokemon.Pokemon {
                         102,
                         25),
                 List.of(Ability.GOOEY,Ability.STICKY_HOLD,Ability.ANALYTIC), Ability.ANALYTIC,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,2,0,0), 100,
                 0.5,
                 160, ExperienceGroup.MEDIUM_SLOW,
@@ -46,9 +46,9 @@ public class Glumexin extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 41, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "burmurly",
-  "nationalPokedexNumber": 2261,
+  "nationalPokedexNumber": 2332,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -85,7 +85,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

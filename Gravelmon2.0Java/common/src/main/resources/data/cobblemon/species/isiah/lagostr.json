@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lagostr",
-  "nationalPokedexNumber": 2762,
+  "nationalPokedexNumber": 3282,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.lagostr.desc"
   ],
   "preEvolution": "scalfib",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mangetsu",
-  "nationalPokedexNumber": 2524,
+  "nationalPokedexNumber": 2930,
   "primaryType": "dark",
   "secondaryType": "ice",
   "abilities": [
@@ -144,7 +144,7 @@
     "cobblemon.species.mangetsu.desc"
   ],
   "preEvolution": "kousetsu",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

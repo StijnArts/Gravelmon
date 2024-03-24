@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "smore",
-  "nationalPokedexNumber": 1848,
+  "nationalPokedexNumber": 1919,
   "primaryType": "bug",
   "abilities": [
     "intimidate",
@@ -47,6 +47,16 @@
   "eggGroups": [
     "bug"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:poisonsting",
     "1:stringshot",

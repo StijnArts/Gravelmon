@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "psycolt",
-  "nationalPokedexNumber": 3045,
+  "nationalPokedexNumber": 3654,
   "primaryType": "psychic",
   "abilities": [
     "runaway",
@@ -53,6 +53,7 @@
     "7:confusion",
     "13:hornattack",
     "17:safeguard",
+    "23:hypnopulse",
     "29:recover",
     "33:psybeam",
     "39:magiccoat",
@@ -87,6 +88,7 @@
     "egg:lightscreen",
     "egg:mirrorcoat",
     "egg:mudslap",
+    "egg:psyburn",
     "egg:psychup",
     "egg:raindance",
     "egg:reflect",
@@ -128,7 +130,7 @@
       "requiredContext": "cobblemon:sun_stone"   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,14 +15,15 @@ public class Calligrave extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         74),
                 List.of(Ability.PLOTTWIST), Ability.TRACE,
-                8, 165,
+                4, 165,
                 new Stats(0,2,0,0,0,0), 80,
                 0.5,
                 140, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
                 List.of("It can bite hard enough to remove a person's hand, but becomes docile when its yellow limb is gripped. It records conversations it hears while asleep on its paper-like tongue."),
-                List.of(),
+                List.of(new EvolutionEntry("authorror", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.PURSUIT,1),
                         new MoveLearnSetEntry(Move.BITE,13),
@@ -101,11 +102,11 @@ public class Calligrave extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESPECTS,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 43, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Calligrave");

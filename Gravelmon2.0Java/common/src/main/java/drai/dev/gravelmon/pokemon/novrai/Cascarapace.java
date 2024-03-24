@@ -15,7 +15,7 @@ public class Cascarapace extends drai.dev.gravelmon.pokemon.Pokemon {
                         104,
                         59),
                 List.of(Ability.TORRENT), Ability.RAIN_DISH,
-                8, 165,
+                16, 165,
                 new Stats(0,0,2,0,1,0), 45,
                 0.875,
                 240, ExperienceGroup.MEDIUM_SLOW,
@@ -112,14 +112,15 @@ public class Cascarapace extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROTOTILLER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Cascarapace");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

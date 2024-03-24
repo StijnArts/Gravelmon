@@ -17,25 +17,39 @@ public class Castide extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         46),
                 List.of(Ability.MARVEL_SCALE,Ability.RIVALRY,Ability.WATER_VEIL), Ability.WATER_VEIL,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                4, 165,
+                new Stats(0,0,0,0,0,0), 210,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Castide are sociable Pokemon that travel in large schools with other Castide and miscellaneous fish Pokemon. They are popular Pokemon to keep as pets considering they're cute demeanor, friendly nature, and colorfull patterns."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("miragill", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
+                List.of(new MoveLearnSetEntry(Move.WATER_GUN,1),
+                        new MoveLearnSetEntry(Move.HELPING_HAND,7),
+                        new MoveLearnSetEntry(Move.TEAMUP,11),
+                        new MoveLearnSetEntry(Move.AQUA_JET,15),
+                        new MoveLearnSetEntry(Move.CAPTIVATE,19),
+                        new MoveLearnSetEntry(Move.WATER_PULSE,22),
+                        new MoveLearnSetEntry(Move.SOAK,26),
+                        new MoveLearnSetEntry(Move.AGILITY,31),
+                        new MoveLearnSetEntry(Move.AQUA_RING,35),
+                        new MoveLearnSetEntry(Move.FLAIL,40),
+                        new MoveLearnSetEntry(Move.HYDRO_PUMP,45),
+                        new MoveLearnSetEntry(Move.ALLY_SWITCH,50)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Castide");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

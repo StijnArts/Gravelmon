@@ -49,16 +49,6 @@
     "water_2",
     "water_3"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:magma",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:singsound",
     "1:wrap",
@@ -147,7 +137,7 @@
     "cobblemon.species.lavoon.desc"
   ],
   "preEvolution": "glocto",
-  "baseScale": 1.275,
+  "baseScale": 1.7,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

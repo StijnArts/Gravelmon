@@ -15,7 +15,7 @@ public class Reefazoid extends drai.dev.gravelmon.pokemon.Pokemon {
                         114,
                         26),
                 List.of(Ability.BATTLE_ARMOR), Ability.MAGIC_GUARD,
-                8, 165,
+                21, 165,
                 new Stats(0,0,2,0,1,0), 45,
                 0.5,
                 250, ExperienceGroup.MEDIUM_SLOW,
@@ -24,17 +24,34 @@ public class Reefazoid extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("The Cupscape itself has evolved, and grows a much larger exterior. The Hypnode takes advantage of this and makes it into a pilot-able armor for itself. Its rock-hard coral surface is considered unbreakable."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.CRUSH_GRIP,1)                        ),
+                        new MoveLearnSetEntry(Move.ROCK_BLAST,1),
+                        new MoveLearnSetEntry(Move.ROCK_WRECKER,1),
+                        new MoveLearnSetEntry(Move.STONE_EDGE,1),
+                        new MoveLearnSetEntry(Move.ROCK_POLISH,1),
+                        new MoveLearnSetEntry(Move.LOCKON,1),
+                        new MoveLearnSetEntry(Move.ZAP_CANNON,1),
+                        new MoveLearnSetEntry(Move.SPIKE_CANNON,1),
+                        new MoveLearnSetEntry(Move.FLASH_CANNON,1),
+                        new MoveLearnSetEntry(Move.MACH_PUNCH,1),
+                        new MoveLearnSetEntry(Move.RAINBOW_RUSH,1),
+                        new MoveLearnSetEntry(Move.IRON_DEFENSE,1),
+                        new MoveLearnSetEntry(Move.DAZZLING_GLEAM,1),
+                        new MoveLearnSetEntry(Move.GRAVITY,1),
+                        new MoveLearnSetEntry(Move.ZEN_HEADBUTT,1),
+                        new MoveLearnSetEntry(Move.COSMIC_POWER,1),
+                        new MoveLearnSetEntry(Move.CRUSH_GRIP,1)
+                ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 2, 23, 5.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Reefazoid");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bludgion",
-  "nationalPokedexNumber": 2177,
+  "nationalPokedexNumber": 2248,
   "primaryType": "ice",
   "secondaryType": "steel",
   "abilities": [
@@ -65,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.bludgion.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

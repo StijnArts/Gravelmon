@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "erupaima",
-  "nationalPokedexNumber": 2138,
+  "nationalPokedexNumber": 2209,
   "primaryType": "fire",
   "abilities": [
     "keeneye",
@@ -92,7 +92,7 @@
     "cobblemon.species.erupaima.desc"
   ],
   "preEvolution": "eruwana",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

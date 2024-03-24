@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bisommit",
-  "nationalPokedexNumber": 2306,
+  "nationalPokedexNumber": 2377,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.bisommit.desc"
   ],
   "preEvolution": "buffhilla",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

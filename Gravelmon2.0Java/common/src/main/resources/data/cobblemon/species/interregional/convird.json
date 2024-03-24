@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "convird",
-  "nationalPokedexNumber": 1353,
+  "nationalPokedexNumber": 1363,
   "primaryType": "flying",
   "secondaryType": "dark",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.convird.desc"
   ],
   "preEvolution": "juvy",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

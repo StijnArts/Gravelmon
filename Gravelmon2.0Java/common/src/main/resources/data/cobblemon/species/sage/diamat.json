@@ -7,7 +7,7 @@
   "abilities": [
     "clearbody",
     "sheerforce",
-    "h:keeneye"
+    "h:conditioning"
   ],
   "baseStats": {
     "hp": 95,
@@ -49,16 +49,6 @@
     "mineral",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:diamond",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:sharpen",
     "1:rockpolish",
@@ -139,7 +129,7 @@
     "cobblemon.species.diamat.desc"
   ],
   "preEvolution": "pressaur",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

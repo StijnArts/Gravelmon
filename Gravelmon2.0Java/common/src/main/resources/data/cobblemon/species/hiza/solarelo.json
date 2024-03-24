@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solarelo",
-  "nationalPokedexNumber": 2150,
+  "nationalPokedexNumber": 2221,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -59,7 +59,7 @@
     "15:psybeam",
     "18:ancientpower",
     "21:imprison",
-    "24:cosmicpower",
+    "24:cosmicpowercosmic",
     "27:extrasensory",
     "30:earthpower",
     "33:selfdestruct",
@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.solarelo.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

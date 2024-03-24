@@ -49,16 +49,6 @@
     "grass",
     "human_like"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:dead_bush",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:helpinghand",
     "1:worryseed",
@@ -154,7 +144,7 @@
     "cobblemon.species.forthorn.desc"
   ],
   "preEvolution": "loneleaf",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

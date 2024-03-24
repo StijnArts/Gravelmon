@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jestrick",
-  "nationalPokedexNumber": 2109,
+  "nationalPokedexNumber": 2180,
   "primaryType": "fairy",
   "secondaryType": "ghost",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.jestrick.desc"
   ],
   "preEvolution": "jestreat",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

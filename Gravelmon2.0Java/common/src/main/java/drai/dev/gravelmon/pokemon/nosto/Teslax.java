@@ -15,14 +15,15 @@ public class Teslax extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         45),
                 List.of(Ability.LEVITATE), Ability.ILLUMINATE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 235,
                 0.5,
                 49, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.AMORPHOUS),
                 List.of("Their bodies are almost completely transparent, making them extremely hard to find in daylight. At night, however, their multicoloured lights flicker beautifully."),
-                List.of(),
+                List.of(new EvolutionEntry("zexalax", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SUPERSONIC,1),
                         new MoveLearnSetEntry(Move.FLASH,4),
@@ -38,14 +39,16 @@ public class Teslax extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NASTY_PLOT,52)                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 13, 35, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Teslax");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

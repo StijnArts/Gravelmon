@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "heaxen",
-  "nationalPokedexNumber": 2060,
+  "nationalPokedexNumber": 2131,
   "primaryType": "normal",
   "abilities": [
     "superluck",
@@ -83,7 +83,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

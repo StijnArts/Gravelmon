@@ -15,7 +15,7 @@ public class Spookebal extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         127),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 70,
                 0.0,
                 167, ExperienceGroup.MEDIUM_SLOW,
@@ -105,9 +105,8 @@ public class Spookebal extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEX,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 36, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

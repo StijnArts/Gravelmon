@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vanitom",
-  "nationalPokedexNumber": 3476,
+  "nationalPokedexNumber": 4381,
   "primaryType": "ghost",
   "secondaryType": "water",
   "abilities": [
@@ -108,7 +108,7 @@
     "cobblemon.species.vanitom.desc"
   ],
   "preEvolution": "phantrait",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

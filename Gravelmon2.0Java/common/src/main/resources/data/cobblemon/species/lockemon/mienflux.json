@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mienflux",
-  "nationalPokedexNumber": 2464,
+  "nationalPokedexNumber": 2763,
   "primaryType": "fighting",
   "secondaryType": "electric",
   "abilities": [
@@ -78,7 +78,7 @@
   "pokedex": [
     "cobblemon.species.mienflux.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -14,7 +14,7 @@ public class Beetome extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         42),
                 List.of(Ability.SHIELD_DUST), Ability.PLOTTWIST,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,3,0), 45,
                 0.5,
                 178, ExperienceGroup.MEDIUM_FAST,
@@ -38,11 +38,10 @@ public class Beetome extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEGAHORN,55)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 32, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_BOOKSHELVES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Beetome");

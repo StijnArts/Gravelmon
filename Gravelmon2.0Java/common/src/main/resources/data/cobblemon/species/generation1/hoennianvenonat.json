@@ -62,6 +62,7 @@
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
+    "tm:veiledsky",
     "tm:lightscreen",
     "tm:protect",
     "tm:raindance",
@@ -73,13 +74,14 @@
     "tm:psychic",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:shockwave",
     "tm:facade",
     "tm:secretpower",
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "egg:cosmicpower"  ],
+    "egg:cosmicpowercosmic"  ],
   "labels": [
     "blazing_emerald",
     "gen1",
@@ -118,7 +120,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

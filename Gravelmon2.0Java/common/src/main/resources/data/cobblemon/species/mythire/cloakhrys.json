@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cloakhrys",
-  "nationalPokedexNumber": 2604,
+  "nationalPokedexNumber": 3010,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -60,12 +60,30 @@
     "tm:charm"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cloakhrys.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "sootillar",
+  "evolutions": [
+    {
+      "id": "cloakhrys_chimneoth",
+      "variant": "level_up",
+      "result": "chimneoth",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 23
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -80,7 +98,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 8,
+  "height": 9,
   "weight": 165,
   "aspects": [],
 "features": [

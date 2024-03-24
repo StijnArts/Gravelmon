@@ -15,7 +15,7 @@ public class Intellibee extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         104),
                 List.of(Ability.COMPOUND_EYES,Ability.TECHNICIAN,Ability.MAGIC_GUARD), Ability.MAGIC_GUARD,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 175, ExperienceGroup.FAST,
@@ -110,14 +110,13 @@ public class Intellibee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_BOOKSHELVES),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Intellibee");
+        setCanFly(true);
 
     }
 

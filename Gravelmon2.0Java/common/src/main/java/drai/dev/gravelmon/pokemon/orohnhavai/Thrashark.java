@@ -17,7 +17,7 @@ public class Thrashark extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         85),
                 List.of(Ability.INTIMIDATE,Ability.SNIPER,Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
-                8, 165,
+                12, 165,
                 new Stats(0,2,0,0,0,0), 140,
                 0.75,
                 0, ExperienceGroup.MEDIUM_FAST,
@@ -49,14 +49,16 @@ public class Thrashark extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 25, 43, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Thrashark");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -15,7 +15,7 @@ public class Scurvessel extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         90),
                 List.of(Ability.SNIPER,Ability.OPPORTUNIST,Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                39, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 236, ExperienceGroup.SLOW,
@@ -97,14 +97,15 @@ public class Scurvessel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCARY_FACE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 54, 65, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Scurvessel");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

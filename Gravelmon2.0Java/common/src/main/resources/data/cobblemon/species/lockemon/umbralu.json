@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "umbralu",
-  "nationalPokedexNumber": 2470,
+  "nationalPokedexNumber": 2769,
   "primaryType": "dark",
   "secondaryType": "water",
   "abilities": [
@@ -76,7 +76,7 @@
   "pokedex": [
     "cobblemon.species.umbralu.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

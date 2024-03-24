@@ -100,6 +100,7 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:confide",
@@ -138,7 +139,7 @@
     "cobblemon.species.deltagorebyss.desc"
   ],
   "preEvolution": "deltaclamperl",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

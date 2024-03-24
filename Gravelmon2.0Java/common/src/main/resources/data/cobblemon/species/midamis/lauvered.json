@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lauvered",
-  "nationalPokedexNumber": 2895,
+  "nationalPokedexNumber": 3415,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -83,7 +83,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

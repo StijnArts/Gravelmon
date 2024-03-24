@@ -48,26 +48,6 @@
   "eggGroups": [
     "flying"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "cobblemon:sharp_beak",
-        "quantityRange": "1-1",
-        "percentage": 20
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 40
-      },
-      {
-        "item": "minecraft:egg",
-        "quantityRange": "1-2",
-        "percentage": 40
-      }
-    ]
-  },
   "moves": [
     "1:peck",
     "1:twister",
@@ -158,7 +138,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

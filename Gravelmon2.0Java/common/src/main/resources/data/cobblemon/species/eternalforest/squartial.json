@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "squartial",
-  "nationalPokedexNumber": 2336,
+  "nationalPokedexNumber": 2546,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -144,7 +144,7 @@
     "cobblemon.species.squartial.desc"
   ],
   "preEvolution": "squinja",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

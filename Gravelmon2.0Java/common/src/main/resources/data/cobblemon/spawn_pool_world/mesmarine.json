@@ -7,7 +7,7 @@
       "id": "mesmarine-1",
       "pokemon": "mesmarine",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,7 +15,7 @@
       "level": "23-45",
       "weight": 3.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

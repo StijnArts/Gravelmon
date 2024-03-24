@@ -15,7 +15,7 @@ public class Explodent extends drai.dev.gravelmon.pokemon.Pokemon {
                         84,
                         65),
                 List.of(Ability.BLAZE), Ability.AFTERMATH,
-                8, 165,
+                16, 165,
                 new Stats(0,2,1,0,0,0), 45,
                 0.875,
                 241, ExperienceGroup.MEDIUM_SLOW,
@@ -83,9 +83,8 @@ public class Explodent extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_CRIMSON))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

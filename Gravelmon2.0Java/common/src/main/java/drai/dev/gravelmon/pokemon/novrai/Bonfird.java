@@ -15,14 +15,16 @@ public class Bonfird extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         75),
                 List.of(Ability.EARLY_BIRD,Ability.COMPETITIVE,Ability.SERENE_GRACE), Ability.SERENE_GRACE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 90,
                 0.5,
                 69, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("When it fans out its tailfeathers, it sends sparks flying everywhere. It has a vain personality and doesn't get along with others."),
-                List.of(),
+                List.of(new EvolutionEntry("conflagrace", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FIRE_SPIN,1),
                         new MoveLearnSetEntry(Move.PECK,4),
@@ -94,8 +96,8 @@ public class Bonfird extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRAVE_BIRD,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 29, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

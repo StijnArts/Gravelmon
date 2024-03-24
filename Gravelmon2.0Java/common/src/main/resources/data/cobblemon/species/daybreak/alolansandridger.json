@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "alolansandridger",
-  "nationalPokedexNumber": 2703,
+  "nationalPokedexNumber": 3109,
   "primaryType": "ice",
   "secondaryType": "steel",
   "abilities": [
@@ -125,7 +125,7 @@
     "cobblemon.species.alolansandridger.desc"
   ],
   "preEvolution": "Sandslash",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

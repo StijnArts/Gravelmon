@@ -15,14 +15,15 @@ public class Mushmettle extends drai.dev.gravelmon.pokemon.Pokemon {
                         43,
                         52),
                 List.of(Ability.LIGHTNING_ROD,Ability.FIERYSPIRIT,Ability.EFFECT_SPORE), Ability.EFFECT_SPORE,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 160,
                 0.5,
                 56, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.FIELD),
                 List.of("It's actually a fungal Pokemon, with a soft body full of spores. It was born from a branch carrying certain spores being struck by lightning and catching fire."),
-                List.of(),
+                List.of(new EvolutionEntry("smashkebab", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
@@ -96,9 +97,8 @@ public class Mushmettle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAZOR_LEAF,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 28, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "winotinger",
-  "nationalPokedexNumber": 1904,
+  "nationalPokedexNumber": 1975,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -49,6 +49,16 @@
     "human_like",
     "fairy"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:carrot_wine",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:quickattack",
     "1:foresight",
@@ -203,7 +213,7 @@
     "cobblemon.species.winotinger.desc"
   ],
   "preEvolution": "jackdeary",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

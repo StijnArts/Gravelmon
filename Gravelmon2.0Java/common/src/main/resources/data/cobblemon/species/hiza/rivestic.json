@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rivestic",
-  "nationalPokedexNumber": 2238,
+  "nationalPokedexNumber": 2309,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -86,7 +86,7 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

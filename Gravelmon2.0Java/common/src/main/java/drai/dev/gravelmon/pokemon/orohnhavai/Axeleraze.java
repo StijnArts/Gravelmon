@@ -17,7 +17,7 @@ public class Axeleraze extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         125),
                 List.of(Ability.UNBURDEN,Ability.QUICK_FEET,Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,2), 75,
                 0.5,
                 166, ExperienceGroup.MEDIUM_SLOW,
@@ -26,6 +26,10 @@ public class Axeleraze extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("The speed of Axeleraze is quite remarkable. They run all day, generating electricity, which is stored in their fur. They can store up to an amount of 1 million volts. By sleeping and licking itself, it discharges electricity."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.ROAR,1),
+                        new MoveLearnSetEntry(Move.THUNDER_WAVE,1),
+                        new MoveLearnSetEntry(Move.AGILITY,1),
+                        new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
                         new MoveLearnSetEntry(Move.FLAME_CHARGE,1),
                         new MoveLearnSetEntry(Move.EXTREME_SPEED,34),
                         new MoveLearnSetEntry(Move.CHARM,"tm"),
@@ -38,8 +42,8 @@ public class Axeleraze extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 27, 46, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -14,13 +14,13 @@ public class Selveger extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         80),
                 List.of(Ability.PRESSURE), Ability.TOUGH_CLAWS,
-                8, 165,
+                28, 165,
                 new Stats(1,2,0,0,0,0), 3,
                 0.5,
                 270, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("- Hone Claws Dark - Nature's Call Grass - Razor LeafSTAB Grass - Solar BladeSTAB Grass 6 Chip Away Normal 13 Fury Cutter Bug 22 Scary Face Normal 29 DigSTAB Ground 37 Camouflage Normal 45 Crush Claw Normal 53 Roar Normal 62 Savage SlashSTAB Ground 70 Leaf BladeSTAB Grass 79 Superpower Fighting 87 Wood HammerSTAB Grass 94 FissureSTAB Ground"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SOLAR_BLADE,1),
@@ -38,8 +38,8 @@ public class Selveger extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISSURE,94)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

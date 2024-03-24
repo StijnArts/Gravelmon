@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "digloo",
-  "nationalPokedexNumber": 1476,
+  "nationalPokedexNumber": 1486,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -113,7 +113,7 @@
       "requiredContext": "cobblemon:ice_stone"   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

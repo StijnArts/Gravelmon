@@ -49,16 +49,6 @@
     "field",
     "water_1"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:bone",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:thunderfang",
     "1:tackle",
@@ -137,7 +127,7 @@
     "cobblemon.species.hurricanine.desc"
   ],
   "preEvolution": "pawter",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

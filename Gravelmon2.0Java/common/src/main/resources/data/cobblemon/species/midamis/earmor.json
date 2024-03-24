@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "earmor",
-  "nationalPokedexNumber": 2878,
+  "nationalPokedexNumber": 3398,
   "primaryType": "ground",
   "secondaryType": "bug",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.earmor.desc"
   ],
   "preEvolution": "earwick",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

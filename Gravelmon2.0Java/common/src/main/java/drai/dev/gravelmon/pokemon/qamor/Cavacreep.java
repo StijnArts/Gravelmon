@@ -17,7 +17,7 @@ public class Cavacreep extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         70),
                 List.of(Ability.RIPEN,Ability.UNNERVE,Ability.THICK_FAT), Ability.THICK_FAT,
-                8, 165,
+                14, 165,
                 new Stats(1,1,0,0,0,0), 200,
                 0.5,
                 165, ExperienceGroup.SLOW,
@@ -47,8 +47,8 @@ public class Cavacreep extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ELECTROWEB,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 43, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

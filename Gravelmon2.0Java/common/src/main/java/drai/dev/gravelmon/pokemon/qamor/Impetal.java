@@ -17,7 +17,7 @@ public class Impetal extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         65),
                 List.of(Ability.CURSED_BODY), Ability.CURSED_BODY,
-                8, 165,
+                19, 165,
                 new Stats(0,0,0,2,1,0), 45,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
@@ -42,9 +42,10 @@ public class Impetal extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DESTINY_BOND,65)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 44, 61, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

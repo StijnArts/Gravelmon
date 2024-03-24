@@ -21,14 +21,15 @@ public class Goosea extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         50),
                 List.of(Ability.TANGLED_FEET,Ability.SIMPLE,Ability.MAGIC_GUARD), Ability.MAGIC_GUARD,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.5,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.WATER_1),
                 List.of("It was discovered that Goosea migrate from Orohn-Havai to Avoris in the autumn season. Many of them get lost during their migration because they are clumsy and have short attention spans."),
-                List.of(),
+                List.of(new EvolutionEntry("neinei", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,5),
@@ -51,14 +52,16 @@ public class Goosea extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 2.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Goosea");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setCanFly(true);
 
     }
 

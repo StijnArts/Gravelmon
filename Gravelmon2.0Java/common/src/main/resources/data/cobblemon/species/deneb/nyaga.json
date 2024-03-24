@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nyaga",
-  "nationalPokedexNumber": 3229,
+  "nationalPokedexNumber": 3838,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -62,6 +62,7 @@
     "61:mist",
     "tm:waterpulse",
     "tm:thunderwave",
+    "tm:frostbite",
     "tm:frustration",
     "tm:dig",
     "tm:aerialace",
@@ -114,7 +115,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

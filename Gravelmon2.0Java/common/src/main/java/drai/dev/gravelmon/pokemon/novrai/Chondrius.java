@@ -15,7 +15,7 @@ public class Chondrius extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         135),
                 List.of(Ability.ILLWILL), Ability.ILLWILL,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,1,0,2), 3,
                 0.0,
                 261, ExperienceGroup.SLOW,
@@ -110,8 +110,9 @@ public class Chondrius extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

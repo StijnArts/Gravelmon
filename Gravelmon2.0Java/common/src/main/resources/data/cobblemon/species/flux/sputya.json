@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sputya",
-  "nationalPokedexNumber": 2023,
+  "nationalPokedexNumber": 2094,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
@@ -55,7 +55,7 @@
     "15:acrobatics",
     "19:morningsun",
     "23:psybeam",
-    "27:cosmicpower",
+    "27:cosmicpowercosmic",
     "31:flashcannon",
     "39:lockon",
     "43:fly",
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.sputya.desc"
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

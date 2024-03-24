@@ -15,14 +15,15 @@ public class Bubbeetle extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         46),
                 List.of(Ability.TORRENT), Ability.RAIN_DISH,
-                8, 165,
+                11, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.875,
                 145, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_1),
                 List.of("Its water is always pure enough to drink. If its supply ever runs low, it becomes stressed and upset, so Trainers must take care to monitor its water level."),
-                List.of(),
+                List.of(new EvolutionEntry("cascarapace", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PROTECT,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,10),
@@ -100,14 +101,15 @@ public class Bubbeetle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROTOTILLER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Bubbeetle");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

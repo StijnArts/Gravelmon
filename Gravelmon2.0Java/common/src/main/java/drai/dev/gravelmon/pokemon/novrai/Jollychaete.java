@@ -15,7 +15,7 @@ public class Jollychaete extends drai.dev.gravelmon.pokemon.Pokemon {
                         136,
                         25),
                 List.of(Ability.STORM_DRAIN,Ability.LIGHTNING_ROD,Ability.DAZZLING), Ability.DAZZLING,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,2,0), 60,
                 0.5,
                 178, ExperienceGroup.MEDIUM_FAST,
@@ -117,11 +117,11 @@ public class Jollychaete extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARGE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 45, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Jollychaete");

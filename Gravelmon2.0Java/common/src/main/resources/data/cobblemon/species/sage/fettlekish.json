@@ -48,16 +48,6 @@
   "eggGroups": [
     "water_2"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:amnesia",
     "1:whirlpool",
@@ -137,7 +127,7 @@
     "cobblemon.species.fettlekish.desc"
   ],
   "preEvolution": "cuppy",
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

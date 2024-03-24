@@ -17,14 +17,15 @@ public class Thistling extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         20),
                 List.of(Ability.EFFECT_SPORE), Ability.WATER_ABSORB,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 235,
                 0.5,
                 56, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("They are most commonly found during the Spring and Summer seasons. Winds will often scatter their highly allergic pollen into the air."),
-                List.of(),
+                List.of(new EvolutionEntry("withettle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.GROWTH,5),
@@ -48,8 +49,8 @@ public class Thistling extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

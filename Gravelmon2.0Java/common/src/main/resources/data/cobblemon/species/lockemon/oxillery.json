@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oxillery",
-  "nationalPokedexNumber": 2463,
+  "nationalPokedexNumber": 2762,
   "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.oxillery.desc"
   ],
   "preEvolution": "auditaur",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

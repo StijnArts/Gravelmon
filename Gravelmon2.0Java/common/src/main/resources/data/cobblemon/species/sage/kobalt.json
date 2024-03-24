@@ -49,21 +49,6 @@
     "monster",
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:steel",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:superpower",
     "1:sandstorm",
@@ -170,7 +155,7 @@
     "cobblemon.species.kobalt.desc"
   ],
   "preEvolution": "koblin",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wrigormort",
-  "nationalPokedexNumber": 1663,
+  "nationalPokedexNumber": 1673,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.wrigormort.desc"
   ],
   "preEvolution": "scavengore",
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

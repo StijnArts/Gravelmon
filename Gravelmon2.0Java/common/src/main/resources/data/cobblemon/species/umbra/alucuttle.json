@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "alucuttle",
-  "nationalPokedexNumber": 2559,
+  "nationalPokedexNumber": 2965,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -130,7 +130,7 @@
     "cobblemon.species.alucuttle.desc"
   ],
   "preEvolution": "hemocto",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

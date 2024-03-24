@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "perpetua",
-  "nationalPokedexNumber": 2458,
+  "nationalPokedexNumber": 2757,
   "primaryType": "psychic",
   "secondaryType": "poison",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.perpetua.desc"
   ],
   "preEvolution": "estoe",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

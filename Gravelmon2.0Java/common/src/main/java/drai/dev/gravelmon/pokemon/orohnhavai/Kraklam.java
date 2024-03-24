@@ -17,14 +17,15 @@ public class Kraklam extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         20),
                 List.of(Ability.SHELL_ARMOR,Ability.POISON_POINT,Ability.STORM_DRAIN), Ability.STORM_DRAIN,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 66, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.MONSTER),
                 List.of("Due to this invasive species, Shellder have declined on the islands. They seem to also have a taste for Slowpoke tails. Kraklam hide in the reef or near shores, waiting for prey. In a blink of an eye, their tentacle-like tongues grasp their prey and attack with their horn, releasing a paralyzing toxin."),
-                List.of(),
+                List.of(new EvolutionEntry("krakshen", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.WRING_OUT.getName()+"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,4),
@@ -47,14 +48,16 @@ public class Kraklam extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 3, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Kraklam");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

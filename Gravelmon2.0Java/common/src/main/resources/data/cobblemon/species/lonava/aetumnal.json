@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aetumnal",
-  "nationalPokedexNumber": 2413,
+  "nationalPokedexNumber": 2712,
   "primaryType": "ice",
   "abilities": [
     "keeneye",
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.aetumnal.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

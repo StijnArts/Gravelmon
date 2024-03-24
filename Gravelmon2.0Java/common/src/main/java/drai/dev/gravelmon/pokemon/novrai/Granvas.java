@@ -15,14 +15,15 @@ public class Granvas extends drai.dev.gravelmon.pokemon.Pokemon {
                         33,
                         68),
                 List.of(Ability.TRACE,Ability.TECHNICIAN,Ability.SAND_VEIL), Ability.SAND_VEIL,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.0,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It came into existence around the same time as the earliest humans. The markings on its face change hue to show its emotions."),
-                List.of(),
+                List.of(new EvolutionEntry("mezosaic", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.GROWL,3),
@@ -130,9 +131,9 @@ public class Granvas extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 36, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

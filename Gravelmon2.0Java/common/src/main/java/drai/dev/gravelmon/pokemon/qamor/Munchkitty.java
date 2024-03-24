@@ -17,14 +17,15 @@ public class Munchkitty extends drai.dev.gravelmon.pokemon.Pokemon {
                         42,
                         42),
                 List.of(Ability.CUTE_CHARM), Ability.FRIEND_GUARD,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                3, 165,
+                new Stats(0,0,0,0,0,0), 220,
                 0.75,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Munchkitty's portly body combined with its short legs results in a very clumsy Pokemon that often trips over itself or its fluffy tail."),
-                List.of(),
+                List.of(new EvolutionEntry("pompurr", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TICKLE,1),
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,4),
@@ -49,11 +50,11 @@ public class Munchkitty extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASSIST,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Munchkitty");

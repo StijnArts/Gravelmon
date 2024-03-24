@@ -15,7 +15,7 @@ public class Mimoth extends drai.dev.gravelmon.pokemon.Pokemon {
                         53,
                         82),
                 List.of(Ability.SHIELD_DUST), Ability.INTIMIDATE,
-                8, 165,
+                15, 165,
                 new Stats(0,2,0,0,1,0), 45,
                 0.5,
                 182, ExperienceGroup.MEDIUM_FAST,
@@ -97,10 +97,11 @@ public class Mimoth extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FAKE_OUT,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

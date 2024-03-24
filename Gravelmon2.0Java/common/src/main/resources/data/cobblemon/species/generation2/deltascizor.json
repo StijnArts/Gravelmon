@@ -6,6 +6,7 @@
   "secondaryType": "fighting",
   "abilities": [
     "toughclaws",
+    "icecleats",
     "h:superluck"
   ],
   "baseStats": {

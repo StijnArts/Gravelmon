@@ -15,7 +15,7 @@ public class Ikarma extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         110),
                 List.of(Ability.ANGER_POINT), Ability.COURAGEOUS,
-                8, 165,
+                20, 165,
                 new Stats(0,3,0,0,0,0), 3,
                 0.0,
                 297, ExperienceGroup.SLOW,
@@ -126,14 +126,14 @@ public class Ikarma extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Ikarma");
+        setCanFly(true);
 
     }
 

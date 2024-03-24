@@ -15,14 +15,15 @@ public class Protauri extends drai.dev.gravelmon.pokemon.Pokemon {
                         66,
                         56),
                 List.of(Ability.VICTORY_STAR,Ability.INSOMNIA,Ability.ANALYTIC), Ability.ANALYTIC,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 150,
                 0.5,
                 70, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("Though it is shy, it can be seen at night looking up at the stars. It will often follow around Clefairy, though scientists are unsure why."),
-                List.of(),
+                List.of(new EvolutionEntry("stargazaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORESIGHT,1),
                         new MoveLearnSetEntry(Move.MIRACLE_EYE,6),
@@ -119,8 +120,9 @@ public class Protauri extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EERIE_IMPULSE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 21, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

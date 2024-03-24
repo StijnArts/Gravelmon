@@ -15,14 +15,15 @@ public class Graemblin extends drai.dev.gravelmon.pokemon.Pokemon {
                         28,
                         48),
                 List.of(Ability.ANTICIPATION,Ability.INNARDS_OUT,Ability.HUSTLE), Ability.HUSTLE,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,0,0,0), 190,
                 0.25,
                 52, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.DRAGON),
                 List.of("It has a single eye and a single tooth, both of which may suddenly fall out of its head. It becomes meek and desperate if either of these are stolen from it."),
-                List.of(),
+                List.of(new EvolutionEntry("gangraeae", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MEAN_LOOK,1),
                         new MoveLearnSetEntry(Move.BEAT_UP,5),
@@ -131,9 +132,9 @@ public class Graemblin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COMEUPPANCE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

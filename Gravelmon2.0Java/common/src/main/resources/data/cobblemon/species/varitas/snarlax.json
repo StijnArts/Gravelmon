@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snarlax",
-  "nationalPokedexNumber": 1808,
+  "nationalPokedexNumber": 1879,
   "primaryType": "dark",
   "abilities": [
     "insomnia",
@@ -182,7 +182,7 @@
     "cobblemon.species.snarlax.desc"
   ],
   "preEvolution": "varitasianmunchlax",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

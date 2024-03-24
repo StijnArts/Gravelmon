@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barbavelry",
-  "nationalPokedexNumber": 2107,
+  "nationalPokedexNumber": 2178,
   "primaryType": "fighting",
   "abilities": [
     "angerpoint",
@@ -68,7 +68,7 @@
     "cobblemon.species.barbavelry.desc"
   ],
   "preEvolution": "bravelry",
-  "baseScale": 0.50625,
+  "baseScale": 0.6749999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

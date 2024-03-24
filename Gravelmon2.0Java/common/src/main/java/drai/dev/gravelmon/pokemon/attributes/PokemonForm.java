@@ -112,7 +112,7 @@ public class PokemonForm {
         this.spawnPresets = spawnPresets;
         this.dexEntries = dexEntries;
         this.dropAmount = dropAmount;
-        this.drops = drops;
+        this.drops = new ArrayList<>();
         this.spawnAntiConditions = spawnAntiConditions;
         this.baseScale = baseScale;
         this.portraitScale = portraitScale;
@@ -175,7 +175,7 @@ public class PokemonForm {
         this.spawnPresets = spawnPresets;
         this.dexEntries = dexEntries;
         this.dropAmount = dropAmount;
-        this.drops = drops;
+        this.drops = new ArrayList<>();
         this.spawnAntiConditions = spawnAntiConditions;
         this.baseScale = (double)(height*1.5)/10/8;
         this.portraitScale = 0.3;
@@ -353,5 +353,9 @@ public class PokemonForm {
 
     public String getPreEvolution() {
         return preEvolution;
+    }
+
+    public void setDropAmount(int i) {
+        dropAmount=i;
     }
 }

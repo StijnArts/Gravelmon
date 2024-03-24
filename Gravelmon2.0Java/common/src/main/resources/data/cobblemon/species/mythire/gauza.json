@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gauza",
-  "nationalPokedexNumber": 2653,
+  "nationalPokedexNumber": 3059,
   "primaryType": "ground",
   "abilities": [
     "mummy",
@@ -131,7 +131,22 @@
   "pokedex": [
     "cobblemon.species.gauza.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "gauza_underrap",
+      "variant": "level_up",
+      "result": "underrap",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

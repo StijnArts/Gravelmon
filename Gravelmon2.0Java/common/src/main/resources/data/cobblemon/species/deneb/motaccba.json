@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "motaccba",
-  "nationalPokedexNumber": 3240,
+  "nationalPokedexNumber": 3849,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
@@ -117,7 +117,7 @@
   "pokedex": [
     "cobblemon.species.motaccba.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

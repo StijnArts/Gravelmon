@@ -15,7 +15,7 @@ public class Survulture extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         104),
                 List.of(Ability.TINTED_LENS,Ability.STAKEOUT,Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,2), 60,
                 0.5,
                 177, ExperienceGroup.MEDIUM_FAST,
@@ -102,11 +102,11 @@ public class Survulture extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FORESIGHT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Survulture");

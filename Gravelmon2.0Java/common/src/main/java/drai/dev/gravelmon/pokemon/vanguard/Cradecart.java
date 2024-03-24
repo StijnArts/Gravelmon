@@ -93,10 +93,10 @@ public class Cradecart extends Pokemon {
                 List.of(Label.GEN5,Label.VANGUARD),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 35, 56, 0.9, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Cradecart");

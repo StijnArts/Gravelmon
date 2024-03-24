@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ospredator",
-  "nationalPokedexNumber": 2535,
+  "nationalPokedexNumber": 2941,
   "primaryType": "flying",
   "secondaryType": "dark",
   "abilities": [
@@ -110,7 +110,7 @@
     "cobblemon.species.ospredator.desc"
   ],
   "preEvolution": "osprowl",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

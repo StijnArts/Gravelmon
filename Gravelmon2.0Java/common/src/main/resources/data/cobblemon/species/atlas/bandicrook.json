@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bandicrook",
-  "nationalPokedexNumber": 3395,
+  "nationalPokedexNumber": 4300,
   "primaryType": "dark",
   "abilities": [
     "pickup",
@@ -116,7 +116,7 @@
     "cobblemon.species.bandicrook.desc"
   ],
   "preEvolution": "criminook",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

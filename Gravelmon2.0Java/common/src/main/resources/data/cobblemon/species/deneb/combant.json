@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "combant",
-  "nationalPokedexNumber": 3151,
+  "nationalPokedexNumber": 3760,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -61,6 +61,7 @@
     "29:xscissor",
     "35:counter",
     "37:jumpkick",
+    "41:magnumpunch",
     "47:bulkup",
     "49:highjumpkick",
     "59:flatter",
@@ -78,6 +79,7 @@
     "tm:poisonjab",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:batonpass",
     "tm:mudbomb",
     "tm:woodhammer",
@@ -87,8 +89,10 @@
     "tm:strength",
     "tm:rocksmash",
     "tutor:hiddenpower",
+    "tutor:shadowclamp",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:bugnoise",
     "tutor:dig",
     "tutor:iciclecrash",
     "egg:bugbuzzsound",
@@ -126,7 +130,7 @@
   "pokedex": [
     "cobblemon.species.combant.desc"
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

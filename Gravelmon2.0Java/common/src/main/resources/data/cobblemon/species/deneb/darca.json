@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "darca",
-  "nationalPokedexNumber": 3007,
+  "nationalPokedexNumber": 3616,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -64,6 +64,7 @@
     "44:raindance",
     "55:torment",
     "62:crunch",
+    "70:devastate",
     "tm:headbutt",
     "tm:rockslide",
     "tm:amnesia",
@@ -74,8 +75,10 @@
     "tm:haze",
     "tm:shadowball",
     "tm:triattack",
+    "tm:devastate",
     "tm:batonpass",
     "tm:mudbomb",
+    "tm:dragonbeat",
     "tm:nightslash",
     "tm:surf",
     "tm:strength",
@@ -83,6 +86,7 @@
     "tm:waterfall",
     "tutor:iciclecrash",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:toxic",
     "tutor:hydropump",
@@ -121,7 +125,7 @@
     "cobblemon.species.darca.desc"
   ],
   "preEvolution": "dorfin",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

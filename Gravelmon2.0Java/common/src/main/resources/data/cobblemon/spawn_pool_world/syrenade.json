@@ -7,7 +7,7 @@
       "id": "syrenade-1",
       "pokemon": "syrenade",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,7 +15,7 @@
       "level": "55-68",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

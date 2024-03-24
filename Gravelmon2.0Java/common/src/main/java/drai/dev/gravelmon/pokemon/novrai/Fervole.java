@@ -15,14 +15,15 @@ public class Fervole extends drai.dev.gravelmon.pokemon.Pokemon {
                         53,
                         32),
                 List.of(Ability.ROMANTIC,Ability.PICKUP,Ability.FRIEND_GUARD), Ability.FRIEND_GUARD,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 46, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Common in northern Novrai, this small Pokemon spends its life surrounded by others of its kind. They must be kept in pairs when owned as pets."),
-                List.of(),
+                List.of(new EvolutionEntry("volentine", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HOLD_HANDS,1),
                         new MoveLearnSetEntry(Move.HELPING_HAND,3),
@@ -109,8 +110,8 @@ public class Fervole extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURNING_JEALOUSY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 19, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

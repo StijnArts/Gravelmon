@@ -49,16 +49,6 @@
     "field",
     "human_like"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:metalclaw",
     "1:fakeout",
@@ -167,7 +157,7 @@
     "cobblemon.species.hyekuza.desc"
   ],
   "preEvolution": "pompagoon",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

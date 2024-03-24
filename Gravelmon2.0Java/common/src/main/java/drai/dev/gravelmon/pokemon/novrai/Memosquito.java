@@ -15,7 +15,7 @@ public class Memosquito extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         100),
                 List.of(Ability.UNNERVE,Ability.TELEPATHY,Ability.SIMPLE), Ability.SIMPLE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,2,0,1), 100,
                 0.5,
                 202, ExperienceGroup.FAST,
@@ -112,14 +112,14 @@ public class Memosquito extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 16, 31, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Memosquito");
+        setCanFly(true);
 
     }
 

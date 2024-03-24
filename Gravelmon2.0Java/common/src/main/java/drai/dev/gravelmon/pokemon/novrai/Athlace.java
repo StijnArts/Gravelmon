@@ -15,14 +15,15 @@ public class Athlace extends drai.dev.gravelmon.pokemon.Pokemon {
                         37,
                         62),
                 List.of(Ability.QUICK_FEET,Ability.MOXIE,Ability.RECEIVER), Ability.RECEIVER,
-                8, 165,
+                2, 165,
                 new Stats(0,1,0,0,0,0), 230,
                 0.75,
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It bashes its head against rocks and boulders to toughen itself up. To relax, it splashes around in mud puddles with others of its kind."),
-                List.of(),
+                List.of(new EvolutionEntry("athcleat", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.MUD_SPORT,5),
@@ -94,11 +95,11 @@ public class Athlace extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Athlace");

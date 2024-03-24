@@ -17,14 +17,15 @@ public class Encantomb extends drai.dev.gravelmon.pokemon.Pokemon {
                         115,
                         38),
                 List.of(Ability.PRESSURE), Ability.PRESSURE,
-                8, 165,
+                16, 165,
                 new Stats(0,0,1,0,1,0), 45,
                 0.5,
                 174, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MINERAL),
                 List.of("Mightiro who have fallen in battle rise up as an Encantomb. Encantomb's body is constructed from surrounding material around it such as dirt, bone, or chalk."),
-                List.of(),
+                List.of(new EvolutionEntry("gorsylum", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SUNNY_DAY,1),
                         new MoveLearnSetEntry(Move.ROCK_TOMB,20),
@@ -42,9 +43,9 @@ public class Encantomb extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_BALL,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

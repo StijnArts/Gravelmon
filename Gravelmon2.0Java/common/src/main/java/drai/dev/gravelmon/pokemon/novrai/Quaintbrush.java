@@ -15,14 +15,16 @@ public class Quaintbrush extends drai.dev.gravelmon.pokemon.Pokemon {
                         81,
                         22),
                 List.of(Ability.MAGICIAN), Ability.ILLUSION,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 150,
                 0.5,
                 57, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The fluid it leaks changes color depending on its current emotional state. Its entire body has an oddly malleable, almost liquid consistency."),
-                List.of(),
+                List.of(new EvolutionEntry("chloradise", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGIC_COAT,1),
                         new MoveLearnSetEntry(Move.PSYWAVE,4),
@@ -124,11 +126,12 @@ public class Quaintbrush extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MINIMIZE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Quaintbrush");

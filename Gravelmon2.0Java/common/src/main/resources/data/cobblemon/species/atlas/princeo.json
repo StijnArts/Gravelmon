@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "princeo",
-  "nationalPokedexNumber": 3471,
+  "nationalPokedexNumber": 4376,
   "primaryType": "ground",
   "abilities": [
     "runaway",
@@ -117,7 +117,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

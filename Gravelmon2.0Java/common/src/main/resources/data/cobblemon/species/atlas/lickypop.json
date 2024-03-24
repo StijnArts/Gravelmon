@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lickypop",
-  "nationalPokedexNumber": 3341,
+  "nationalPokedexNumber": 4244,
   "primaryType": "fairy",
   "abilities": [
     "keeneye",
@@ -56,6 +56,7 @@
     "16:return",
     "22:sweetscent",
     "28:endeavor",
+    "30:sugarrush",
     "38:dazzlinggleam",
     "43:lastresort",
     "tm:facade",

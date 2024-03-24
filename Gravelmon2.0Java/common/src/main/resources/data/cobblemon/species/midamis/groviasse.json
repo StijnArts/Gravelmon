@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "groviasse",
-  "nationalPokedexNumber": 2976,
+  "nationalPokedexNumber": 3496,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.groviasse.desc"
   ],
   "preEvolution": "davolee",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

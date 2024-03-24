@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "herokolus",
-  "nationalPokedexNumber": 3497,
+  "nationalPokedexNumber": 4402,
   "primaryType": "fighting",
   "abilities": [
     "sheerforce",
@@ -83,7 +83,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

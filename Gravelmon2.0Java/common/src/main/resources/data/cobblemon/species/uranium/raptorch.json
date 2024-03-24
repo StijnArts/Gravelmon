@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raptorch",
-  "nationalPokedexNumber": 1819,
+  "nationalPokedexNumber": 1890,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -128,7 +128,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

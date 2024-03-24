@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chambrawl",
-  "nationalPokedexNumber": 3315,
+  "nationalPokedexNumber": 4218,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -116,7 +116,7 @@
     "cobblemon.species.chambrawl.desc"
   ],
   "preEvolution": "berswade",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

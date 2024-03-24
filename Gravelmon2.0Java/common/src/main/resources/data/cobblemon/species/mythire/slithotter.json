@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slithotter",
-  "nationalPokedexNumber": 2625,
+  "nationalPokedexNumber": 3031,
   "primaryType": "poison",
   "abilities": [
     "damp",
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -70,12 +70,15 @@
     "tm:corrosivegas"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.slithotter.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "ottoil",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -90,7 +93,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -15,14 +15,15 @@ public class Jalopig extends drai.dev.gravelmon.pokemon.Pokemon {
                         36,
                         75),
                 List.of(Ability.TRAMPLE,Ability.MOTOR_DRIVE,Ability.HEAVY_METAL), Ability.HEAVY_METAL,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,1), 210,
                 0.5,
                 63, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("It races down the streets of Novrai, running over anything in its path. Trainers who aren't cautious may be sent flying after a collision with a Jalopig."),
-                List.of(),
+                List.of(new EvolutionEntry("hotrog", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUD_SPORT,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,4),
@@ -105,11 +106,11 @@ public class Jalopig extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METAL_SOUND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Jalopig");

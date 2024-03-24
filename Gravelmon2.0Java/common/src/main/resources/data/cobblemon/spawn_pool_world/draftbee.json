@@ -7,16 +7,15 @@
       "id": "draftbee-1",
       "pokemon": "draftbee",
       "presets": [
-          "natural"
+          "honey_tree"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "rare",
+      "level": "31-45",
+      "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_forest" ],
         "canSeeSky": true
       }
     }

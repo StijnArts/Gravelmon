@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nimflora",
-  "nationalPokedexNumber": 1830,
+  "nationalPokedexNumber": 1901,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
@@ -147,7 +147,7 @@
     "cobblemon.species.nimflora.desc"
   ],
   "preEvolution": "cubblfly",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

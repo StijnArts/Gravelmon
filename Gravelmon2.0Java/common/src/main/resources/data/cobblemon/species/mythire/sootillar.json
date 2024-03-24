@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sootillar",
-  "nationalPokedexNumber": 2603,
+  "nationalPokedexNumber": 3009,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -72,7 +72,22 @@
   "pokedex": [
     "cobblemon.species.sootillar.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "sootillar_cloakhrys",
+      "variant": "level_up",
+      "result": "cloakhrys",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 12
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

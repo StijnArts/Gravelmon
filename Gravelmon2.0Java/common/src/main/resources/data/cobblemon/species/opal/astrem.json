@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "astrem",
-  "nationalPokedexNumber": 1425,
+  "nationalPokedexNumber": 1435,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -71,7 +71,7 @@
     "58:calmmind",
     "66:futuresight",
     "73:airslash",
-    "80:cosmicpower",
+    "80:cosmicpowercosmic",
     "90:recover"  ],
   "labels": [
     "opal",
@@ -80,7 +80,7 @@
   "pokedex": [
     "cobblemon.species.astrem.desc"
   ],
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

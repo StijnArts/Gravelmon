@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coatlith",
-  "nationalPokedexNumber": 1892,
+  "nationalPokedexNumber": 1963,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -155,7 +155,7 @@
     "cobblemon.species.coatlith.desc"
   ],
   "preEvolution": "quetzoral",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

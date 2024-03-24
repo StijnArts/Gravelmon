@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hatenazemi",
-  "nationalPokedexNumber": 3241,
+  "nationalPokedexNumber": 3850,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -1588,7 +1588,7 @@
   "pokedex": [
     "cobblemon.species.hatenazemi.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

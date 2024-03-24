@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wispette",
-  "nationalPokedexNumber": 3439,
+  "nationalPokedexNumber": 4344,
   "primaryType": "ghost",
   "secondaryType": "fire",
   "abilities": [
@@ -104,7 +104,7 @@
     "cobblemon.species.wispette.desc"
   ],
   "preEvolution": "wisper",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

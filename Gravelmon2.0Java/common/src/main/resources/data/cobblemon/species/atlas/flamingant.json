@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flamingant",
-  "nationalPokedexNumber": 3379,
+  "nationalPokedexNumber": 4282,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
@@ -126,7 +126,7 @@
     "cobblemon.species.flamingant.desc"
   ],
   "preEvolution": "skibis",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

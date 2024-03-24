@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "remainstone",
-  "nationalPokedexNumber": 1583,
+  "nationalPokedexNumber": 1593,
   "primaryType": "rock",
   "secondaryType": "ghost",
   "abilities": [
@@ -141,7 +141,7 @@
   "pokedex": [
     "cobblemon.species.remainstone.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

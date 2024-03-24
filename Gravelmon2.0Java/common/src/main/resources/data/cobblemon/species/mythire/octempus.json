@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "octempus",
-  "nationalPokedexNumber": 2673,
+  "nationalPokedexNumber": 3079,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -49,6 +49,23 @@
     "water_3"
   ],
   "moves": [
+    "1:smokescreen",
+    "1:octazooka",
+    "1:entrainment",
+    "1:hypnosis",
+    "1:teeterdance",
+    "1:psywave",
+    "1:futuresight",
+    "1:telekinesis",
+    "1:wonderroom",
+    "1:flashcannon",
+    "1:autotomize",
+    "1:mirrorshot",
+    "1:powerwhip",
+    "1:block",
+    "1:copycat",
+    "1:mefirst",
+    "1:detect",
     "1:morningsun",
     "tm:bind",
     "tm:healbellsound",
@@ -72,12 +89,15 @@
     "tm:meteorbeam"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.octempus.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "tentalum",
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -92,7 +112,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 17,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "guilloceive",
-  "nationalPokedexNumber": 3443,
+  "nationalPokedexNumber": 4348,
   "primaryType": "ghost",
   "secondaryType": "steel",
   "abilities": [
@@ -125,7 +125,7 @@
     "cobblemon.species.guilloceive.desc"
   ],
   "preEvolution": "ghoulotine",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

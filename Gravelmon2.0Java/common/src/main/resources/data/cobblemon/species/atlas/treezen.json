@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "treezen",
-  "nationalPokedexNumber": 3433,
+  "nationalPokedexNumber": 4338,
   "primaryType": "grass",
   "secondaryType": "ice",
   "abilities": [
@@ -111,7 +111,7 @@
     "cobblemon.species.treezen.desc"
   ],
   "preEvolution": "freezef",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

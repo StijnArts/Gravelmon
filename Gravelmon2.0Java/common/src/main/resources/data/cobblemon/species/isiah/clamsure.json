@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "clamsure",
-  "nationalPokedexNumber": 2774,
+  "nationalPokedexNumber": 3294,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -65,7 +65,7 @@
     "cobblemon.species.clamsure.desc"
   ],
   "preEvolution": "cramic",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

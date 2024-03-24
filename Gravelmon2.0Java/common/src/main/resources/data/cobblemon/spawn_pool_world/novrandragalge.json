@@ -7,7 +7,7 @@
       "id": "novrandragalge-1",
       "pokemon": "novrandragalge",
       "presets": [
-          "natural"
+          "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,7 @@
       "level": "48-49",
       "weight": 1.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cometile",
-  "nationalPokedexNumber": 2242,
+  "nationalPokedexNumber": 2313,
   "primaryType": "dragon",
   "secondaryType": "steel",
   "abilities": [
@@ -84,7 +84,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

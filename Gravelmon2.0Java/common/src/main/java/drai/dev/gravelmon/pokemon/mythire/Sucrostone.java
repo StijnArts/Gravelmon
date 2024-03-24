@@ -15,7 +15,7 @@ public class Sucrostone extends drai.dev.gravelmon.pokemon.Pokemon {
                         135,
                         25),
                 List.of(Ability.WEAK_ARMOR,Ability.SWEET_VEIL,Ability.STRONG_JAW), Ability.STRONG_JAW,
-                8, 165,
+                16, 165,
                 new Stats(0,0,2,0,0,0), 80,
                 0.0,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -24,6 +24,19 @@ public class Sucrostone extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("The rocky shell covering Sucrostone's body is actually extremely sweet, like sugar. It eats by opening its shell and pulling food in with such speed that its inner body cannot be seen."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,1),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
+                        new MoveLearnSetEntry(Move.CHARM,1),
+                        new MoveLearnSetEntry(Move.PLAY_ROUGH,1),
+                        new MoveLearnSetEntry(Move.SWEET_SCENT,1),
+                        new MoveLearnSetEntry(Move.SWEET_DECAY,1),
+                        new MoveLearnSetEntry(Move.ROCK_POLISH,1),
+                        new MoveLearnSetEntry(Move.HEAD_SMASH,1),
+                        new MoveLearnSetEntry(Move.ROCK_BLAST,1),
+                        new MoveLearnSetEntry(Move.MAGIC_POWDER,1),
+                        new MoveLearnSetEntry(Move.MAGNITUDE,1),
+                        new MoveLearnSetEntry(Move.BITE,1),
+                        new MoveLearnSetEntry(Move.CRUNCH,1),
                         new MoveLearnSetEntry(Move.PSYCHIC_FANGS,1),
                         new MoveLearnSetEntry(Move.BIDE,"tm"),
                         new MoveLearnSetEntry(Move.BODY_PRESS,"tm"),
@@ -84,9 +97,9 @@ public class Sucrostone extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 45, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

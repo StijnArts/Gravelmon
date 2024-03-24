@@ -15,14 +15,15 @@ public class Gnoblety extends drai.dev.gravelmon.pokemon.Pokemon {
                         66,
                         82),
                 List.of(Ability.GREENTHUMB,Ability.HARVEST,Ability.CLOUD_NINE), Ability.CLOUD_NINE,
-                8, 165,
+                10, 165,
                 new Stats(0,0,2,0,0,0), 60,
                 0.5,
                 147, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("A wanderer by nature, it roams from place to place under the cover of night, carrying mysterious seeds. Plants sprout from the soil on which it walks."),
-                List.of(),
+                List.of(new EvolutionEntry("gnotorious", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"54")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GRASS_WHISTLE,1),
                         new MoveLearnSetEntry(Move.MUD_SHOT,10),
@@ -118,11 +119,11 @@ public class Gnoblety extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 48, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gnoblety");

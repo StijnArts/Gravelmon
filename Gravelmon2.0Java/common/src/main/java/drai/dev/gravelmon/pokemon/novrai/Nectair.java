@@ -15,14 +15,15 @@ public class Nectair extends drai.dev.gravelmon.pokemon.Pokemon {
                         38,
                         74),
                 List.of(Ability.SAP_SIPPER,Ability.GALE_WINGS,Ability.SPEED_BOOST), Ability.SPEED_BOOST,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 60, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.GRASS),
                 List.of("It resembles Novraian Cherubi so it can sneak up on them and feed on their sweet juices. It beats its wings over a hundred times per second."),
-                List.of(),
+                List.of(new EvolutionEntry("soarup", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.ABSORB,4),
@@ -101,14 +102,14 @@ public class Nectair extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BESTOW,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL, Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nectair");
+        setCanFly(true);
 
     }
 

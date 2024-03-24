@@ -15,7 +15,7 @@ public class Eruptide extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         79),
                 List.of(Ability.NUTRIENTRUNOFF,Ability.STORM_DRAIN,Ability.SOLAR_POWER), Ability.SOLAR_POWER,
-                8, 165,
+                12, 165,
                 new Stats(2,0,0,0,0,0), 30,
                 0.5,
                 177, ExperienceGroup.MEDIUM_SLOW,
@@ -111,9 +111,8 @@ public class Eruptide extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MORTAL_SPIN,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

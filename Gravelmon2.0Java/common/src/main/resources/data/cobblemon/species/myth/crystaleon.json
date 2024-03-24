@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crystaleon",
-  "nationalPokedexNumber": 2830,
+  "nationalPokedexNumber": 3350,
   "primaryType": "rock",
   "abilities": [
     "mirrorarmor",
@@ -93,7 +93,7 @@
   "pokedex": [
     "cobblemon.species.crystaleon.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "durtwurm",
-  "nationalPokedexNumber": 1989,
+  "nationalPokedexNumber": 2060,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -63,7 +63,7 @@
     "cobblemon.species.durtwurm.desc"
   ],
   "preEvolution": "squrmy",
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sisanne",
-  "nationalPokedexNumber": 3346,
+  "nationalPokedexNumber": 4249,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -128,7 +128,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

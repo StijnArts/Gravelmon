@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kamafura",
-  "nationalPokedexNumber": 3219,
+  "nationalPokedexNumber": 3828,
   "primaryType": "bug",
   "secondaryType": "grass",
   "abilities": [
@@ -76,6 +76,7 @@
     "tutor:synthesis",
     "tutor:leechlife",
     "tutor:batonpass",
+    "tutor:poisonleaf",
     "tutor:leafblade",
     "tutor:woodhammer",
     "egg:aircutter",
@@ -83,6 +84,7 @@
     "egg:ingrain",
     "egg:magicalleaf",
     "egg:ragepowder",
+    "egg:rapidgrowth",
     "egg:razorwind",
     "egg:silverwind"  ],
   "labels": [
@@ -92,7 +94,7 @@
   "pokedex": [
     "cobblemon.species.kamafura.desc"
   ],
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

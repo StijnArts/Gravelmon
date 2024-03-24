@@ -17,7 +17,7 @@ public class Fleuroma extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         75),
                 List.of(Ability.LEAF_GUARD,Ability.CHLOROPHYLL,Ability.NATURAL_CURE), Ability.NATURAL_CURE,
-                8, 165,
+                11, 165,
                 new Stats(2,0,0,0,0,0), 75,
                 0.5,
                 113, ExperienceGroup.MEDIUM_FAST,
@@ -38,11 +38,11 @@ public class Fleuroma extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of( new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fleuroma");

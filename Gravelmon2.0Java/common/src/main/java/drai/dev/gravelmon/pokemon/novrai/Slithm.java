@@ -15,14 +15,15 @@ public class Slithm extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         20),
                 List.of(Ability.SCRAPPY), Ability.SHELL_ARMOR,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 210,
                 0.5,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Its shell is hollow and makes a loud noise when struck. In exchange for providing it with shelter and water, it allows people to bang its shell to create music."),
-                List.of(),
+                List.of(new EvolutionEntry("spiroll", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,3),
@@ -97,11 +98,11 @@ public class Slithm extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 27, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Slithm");

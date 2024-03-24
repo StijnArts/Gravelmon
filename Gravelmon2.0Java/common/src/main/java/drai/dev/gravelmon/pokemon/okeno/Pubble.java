@@ -14,14 +14,15 @@ public class Pubble extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         40),
                 List.of(Ability.TORRENT), Ability.ROCK_HEAD,
-                8, 165,
+                6, 165,
                 new Stats(1,0,0,0,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
-                List.of("Name origin: puppy/pup + pebble / puddle / bubble The water starter line was the one that went through most changes. Initially Okeno was going to have a sea urchin + hedgehog line designed by my old deviantart friend cherrysnakecat (see Ursea and Eruchin). At some point I decided I'd like to have all starters be designs made by myself, so I tried making my own sea urchin line. I never ended up liking them fully, and so eventually this bush dog line was created."),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("bouldog", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.GROWL,5),
@@ -98,14 +99,15 @@ public class Pubble extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACID_SPRAY,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Pubble");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

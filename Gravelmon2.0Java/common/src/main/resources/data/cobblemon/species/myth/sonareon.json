@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sonareon",
-  "nationalPokedexNumber": 2837,
+  "nationalPokedexNumber": 3357,
   "primaryType": "sound",
   "abilities": [
     "unaware",
@@ -93,7 +93,7 @@
   "pokedex": [
     "cobblemon.species.sonareon.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "moltank",
-  "nationalPokedexNumber": 2093,
+  "nationalPokedexNumber": 2164,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.moltank.desc"
   ],
   "preEvolution": "melant",
-  "baseScale": 0.61875,
+  "baseScale": 0.8250000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

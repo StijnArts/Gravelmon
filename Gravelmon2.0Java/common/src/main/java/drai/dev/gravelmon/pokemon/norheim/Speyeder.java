@@ -17,13 +17,13 @@ public class Speyeder extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         80),
                 List.of(Ability.INTIMIDATE,Ability.HARVEST,Ability.FRISK), Ability.FRISK,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- Ingrain Grass - Leech LifeSTAB Bug - String Shot Bug - Sand Attack Ground 8 AstonishSTAB Ghost 11 InfestationSTAB Bug 13 Scary Face Normal 19 Bug BiteSTAB Bug 25 Sticky Web Bug 31 Shadow SneakSTAB Ghost 34 Spite Ghost 38 Dig Ground 41 Electroweb Electric 45 Skitter SmackSTAB Bug 50 Silk Trap Bug 55 Phantom ForceSTAB Ghost"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
@@ -46,9 +46,8 @@ public class Speyeder extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SNATCH,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 29, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

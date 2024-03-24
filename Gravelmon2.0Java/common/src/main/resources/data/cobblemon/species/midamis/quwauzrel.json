@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quwauzrel",
-  "nationalPokedexNumber": 2956,
+  "nationalPokedexNumber": 3476,
   "primaryType": "flying",
   "abilities": [
     "moody",
@@ -69,7 +69,7 @@
     "cobblemon.species.quwauzrel.desc"
   ],
   "preEvolution": "kwauwk",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

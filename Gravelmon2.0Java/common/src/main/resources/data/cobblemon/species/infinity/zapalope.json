@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zapalope",
-  "nationalPokedexNumber": 1325,
+  "nationalPokedexNumber": 1335,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -155,7 +155,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

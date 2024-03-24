@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kokipound",
-  "nationalPokedexNumber": 1265,
+  "nationalPokedexNumber": 1275,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -49,16 +49,6 @@
     "monster",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:leaftornado",
     "1:growl",

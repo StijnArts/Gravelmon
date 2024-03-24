@@ -15,14 +15,15 @@ public class Shivrr extends drai.dev.gravelmon.pokemon.Pokemon {
                         43,
                         52),
                 List.of(Ability.WEAK_ARMOR,Ability.DAMP,Ability.WATER_VEIL), Ability.WATER_VEIL,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 90,
                 0.5,
                 59, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("It is always melting, no matter what the temperature is. It appears unexpectedly, usually in early spring when the snow begins to thaw."),
-                List.of(),
+                List.of(new EvolutionEntry("icecreep", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,4),
@@ -92,11 +93,11 @@ public class Shivrr extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PURSUIT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Shivrr");

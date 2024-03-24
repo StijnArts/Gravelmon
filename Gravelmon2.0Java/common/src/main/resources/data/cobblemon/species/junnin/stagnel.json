@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "stagnel",
-  "nationalPokedexNumber": 2304,
+  "nationalPokedexNumber": 2375,
   "primaryType": "electric",
   "secondaryType": "steel",
   "abilities": [
@@ -117,7 +117,7 @@
     "cobblemon.species.stagnel.desc"
   ],
   "preEvolution": "insignel",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

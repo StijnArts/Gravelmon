@@ -17,7 +17,7 @@ public class Devostoric extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         70),
                 List.of(Ability.ROCK_HEAD,Ability.STURDY,Ability.STRONG_JAW), Ability.STRONG_JAW,
-                8, 165,
+                26, 165,
                 new Stats(0,1,1,0,0,0), 25,
                 0.667,
                 170, ExperienceGroup.SLOW,
@@ -51,14 +51,16 @@ public class Devostoric extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 33, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Devostoric");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boulderoach",
-  "nationalPokedexNumber": 2526,
+  "nationalPokedexNumber": 2932,
   "primaryType": "bug",
   "secondaryType": "rock",
   "abilities": [
@@ -121,7 +121,7 @@
     "cobblemon.species.boulderoach.desc"
   ],
   "preEvolution": "rockroach",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

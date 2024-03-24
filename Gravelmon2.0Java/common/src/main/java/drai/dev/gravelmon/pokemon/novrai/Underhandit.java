@@ -15,7 +15,7 @@ public class Underhandit extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         91),
                 List.of(Ability.PICKPOCKET,Ability.IRON_FIST,Ability.FRISK), Ability.FRISK,
-                8, 165,
+                7, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 179, ExperienceGroup.MEDIUM_SLOW,
@@ -104,11 +104,11 @@ public class Underhandit extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BEAT_UP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 49, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Underhandit");

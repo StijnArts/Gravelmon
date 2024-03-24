@@ -14,14 +14,15 @@ public class Lundrey extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         40),
                 List.of(Ability.STENCH,Ability.DAMP,Ability.WATER_COMPACTION), Ability.WATER_COMPACTION,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,1,0), 200,
                 0.5,
                 66, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Lundrey naturally exhale a pungent sweat-like smell. Keeping one indoors is usually seen as a problem, but some people seem to not mind it."),
-                List.of(),
+                List.of(new EvolutionEntry("dirthrown", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.BUBBLE,7),
@@ -56,11 +57,11 @@ public class Lundrey extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_RING,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 9, 31, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Lundrey");

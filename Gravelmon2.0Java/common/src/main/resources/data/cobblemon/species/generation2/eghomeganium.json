@@ -48,16 +48,6 @@
     "grass",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:apple",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:synthesis",
     "1:seismictoss",
@@ -162,7 +152,7 @@
     "cobblemon.species.eghomeganium.desc"
   ],
   "preEvolution": "eghobayleef",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,14 +15,15 @@ public class Platypull extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         34),
                 List.of(Ability.MAGNET_PULL), Ability.SURGE_SURFER,
-                8, 165,
+                4, 165,
                 new Stats(1,0,0,0,0,0), 220,
                 0.5,
                 49, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("It produces such a strong magnetic field that bits of metal are attracted to it. When it dives underwater, it even sometimes unearths valuable ore."),
-                List.of(),
+                List.of(new EvolutionEntry("magnetreme", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,4),
@@ -98,14 +99,15 @@ public class Platypull extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EGG_BOMB,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 32, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Platypull");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

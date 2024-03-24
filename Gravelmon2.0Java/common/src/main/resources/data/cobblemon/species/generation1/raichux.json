@@ -46,16 +46,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:xenolith",
-        "quantityRange": "1-1",
-        "percentage": 20
-      }
-    ]
-  },
   "moves": [
     "1:flashcannon",
     "1:voltswitch",

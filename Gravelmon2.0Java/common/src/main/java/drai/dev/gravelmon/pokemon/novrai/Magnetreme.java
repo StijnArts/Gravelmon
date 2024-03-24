@@ -15,7 +15,7 @@ public class Magnetreme extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         74),
                 List.of(Ability.MAGNET_PULL), Ability.SURGE_SURFER,
-                8, 165,
+                13, 165,
                 new Stats(0,0,2,0,0,0), 60,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -106,14 +106,15 @@ public class Magnetreme extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EGG_BOMB,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 47, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Magnetreme");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

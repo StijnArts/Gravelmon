@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "sombruja",
+  "nationalPokedexNumber": 3143,
+  "primaryType": "dark",
+  "secondaryType": "fairy",
+  "abilities": [
+    "tanglinghair",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 90,
+    "defence": 63,
+    "special_attack": 99,
+    "special_defence": 70,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "1:falsesurrender",
+    "15:singsound",
+    "20:brutalswing",
+    "27:drainingkiss",
+    "31:knockoff",
+    "36:nastyplot",
+    "41:playrough",
+    "48:nightdaze",
+    "55:partingshot",
+    "62:hypervoicesound",
+    "tm:dazzlinggleam",
+    "tm:darkpulse",
+    "tm:cottonguard",
+    "tm:afteryou"  ],
+  "labels": [
+    "qamor",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sombruja.desc"
+  ],
+  "preEvolution": "ciguapo",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ballistikon",
-  "nationalPokedexNumber": 2690,
+  "nationalPokedexNumber": 3096,
   "primaryType": "rock",
   "secondaryType": "steel",
   "abilities": [
@@ -49,6 +49,21 @@
     "water_3"
   ],
   "moves": [
+    "1:rollout",
+    "1:pinmissile",
+    "1:megahorn",
+    "1:withdraw",
+    "1:smartstrike",
+    "1:ancientpower",
+    "1:rapidspin",
+    "1:rockslide",
+    "1:gyroball",
+    "1:autotomize",
+    "1:steelroller",
+    "1:steamroller",
+    "1:metalclaw",
+    "1:bulletpunch",
+    "1:headlongrush",
     "1:irondefense",
     "tm:attract",
     "tm:bide",
@@ -125,7 +140,7 @@
   "pokedex": [
     "cobblemon.species.ballistikon.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -140,7 +155,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

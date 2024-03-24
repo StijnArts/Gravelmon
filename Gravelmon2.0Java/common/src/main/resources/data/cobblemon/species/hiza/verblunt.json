@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "verblunt",
-  "nationalPokedexNumber": 2232,
+  "nationalPokedexNumber": 2303,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -85,7 +85,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

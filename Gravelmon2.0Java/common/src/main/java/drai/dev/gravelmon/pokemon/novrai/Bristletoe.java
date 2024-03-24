@@ -15,14 +15,15 @@ public class Bristletoe extends drai.dev.gravelmon.pokemon.Pokemon {
                         66,
                         15),
                 List.of(Ability.STORM_DRAIN,Ability.LIGHTNING_ROD,Ability.DAZZLING), Ability.DAZZLING,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("It lives deep in the coldest waters of the ocean to keep its body temperature low. When two of them meet, the red organs on their backs will light up, and they will embrace."),
-                List.of(),
+                List.of(new EvolutionEntry("jollychaete", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.CONSTRICT,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,5),
@@ -109,11 +110,11 @@ public class Bristletoe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARGE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 7, 31, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bristletoe");

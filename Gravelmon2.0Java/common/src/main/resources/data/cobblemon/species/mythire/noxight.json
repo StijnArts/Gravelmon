@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "noxight",
-  "nationalPokedexNumber": 2635,
+  "nationalPokedexNumber": 3041,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -113,7 +113,7 @@
   "pokedex": [
     "cobblemon.species.noxight.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -128,7 +128,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 14,
   "weight": 165,
   "aspects": [],
 "features": [

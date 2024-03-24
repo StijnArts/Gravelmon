@@ -15,7 +15,7 @@ public class Toupary extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         60),
                 List.of(Ability.FLOWER_VEIL,Ability.SEED_SOWER,Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                8, 165,
+                7, 165,
                 new Stats(2,0,0,0,0,0), 80,
                 0.5,
                 177, ExperienceGroup.FAST,
@@ -111,8 +111,8 @@ public class Toupary extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

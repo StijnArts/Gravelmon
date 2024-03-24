@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fixinit",
-  "nationalPokedexNumber": 2014,
+  "nationalPokedexNumber": 2085,
   "primaryType": "fighting",
   "abilities": [
     "steelyspirit",
@@ -78,7 +78,7 @@
     "cobblemon.species.fixinit.desc"
   ],
   "preEvolution": "gunafix",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

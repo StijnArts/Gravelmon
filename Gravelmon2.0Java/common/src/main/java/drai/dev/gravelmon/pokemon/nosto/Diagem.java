@@ -15,13 +15,13 @@ public class Diagem extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         72),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                4, 165,
                 new Stats(0,1,1,0,0,0), 60,
                 0.0,
                 168, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("- ConfusionSTAB Psychic - Flash Normal 4 Rock ThrowSTAB Rock 8 PsywaveSTAB Psychic 11 Ancient PowerSTAB Rock 15 Hypnosis Psychic 19 Brutal Swing Dark 23 Bulldoze Ground 29 Magic Coat Psychic 34 Knock Off Dark 39 Zen HeadbuttSTAB Psychic 44 Rock SlideSTAB Rock 50 Stealth Rock Rock 57 PsyshockSTAB Psychic 65 Head SmashSTAB Rock"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FLASH,1),
@@ -40,14 +40,15 @@ public class Diagem extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAD_SMASH,65)                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.OCEAN_RUINS),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Diagem");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

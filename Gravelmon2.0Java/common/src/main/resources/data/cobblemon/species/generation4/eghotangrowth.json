@@ -49,16 +49,6 @@
     "monster",
     "mineral"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:redstone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:thundershock",
     "1:discharge",
@@ -158,7 +148,7 @@
     "cobblemon.species.eghotangrowth.desc"
   ],
   "preEvolution": "eghotangela",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

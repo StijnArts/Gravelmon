@@ -15,7 +15,7 @@ public class Superheron extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         115),
                 List.of(Ability.JUSTIFIED,Ability.BIG_PECKS,Ability.GUTS), Ability.GUTS,
-                8, 165,
+                17, 165,
                 new Stats(0,1,0,0,0,2), 45,
                 0.5,
                 227, ExperienceGroup.MEDIUM_FAST,
@@ -96,14 +96,14 @@ public class Superheron extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLAZE_KICK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 57, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Superheron");
+        setCanFly(true);
 
     }
 

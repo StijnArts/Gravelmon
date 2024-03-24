@@ -17,14 +17,16 @@ public class Umbrub extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         34),
                 List.of(Ability.INTIMIDATE), Ability.INTIMIDATE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,0), 250,
                 0.5,
                 50, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Umbrub eggs are laid inside stuffed animals so they have a nutritious meal upon hatching"),
-                List.of(),
+                List.of(new EvolutionEntry("trepinject", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VISE_GRIP,1),
                         new MoveLearnSetEntry(Move.HONE_CLAWS,5),
@@ -39,8 +41,8 @@ public class Umbrub extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPIKY_SHIELD,43)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "catatomb",
-  "nationalPokedexNumber": 2447,
+  "nationalPokedexNumber": 2746,
   "primaryType": "ghost",
   "secondaryType": "normal",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:keybone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:fakeout",
     "1:growl",
@@ -67,7 +77,7 @@
     "43:babydolleyes",
     "46:phantomforce",
     "egg:batonpass",
-    "egg:cosmicpower",
+    "egg:cosmicpowercosmic",
     "egg:fakeout",
     "egg:faketears",
     "egg:helpinghand",
@@ -88,7 +98,7 @@
     "cobblemon.species.catatomb.desc"
   ],
   "preEvolution": "catteraxe",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

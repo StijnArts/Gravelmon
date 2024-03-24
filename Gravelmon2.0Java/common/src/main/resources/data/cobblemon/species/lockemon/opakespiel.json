@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "opakespiel",
-  "nationalPokedexNumber": 2426,
+  "nationalPokedexNumber": 2725,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -76,7 +76,7 @@
     "cobblemon.species.opakespiel.desc"
   ],
   "preEvolution": "specoey",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

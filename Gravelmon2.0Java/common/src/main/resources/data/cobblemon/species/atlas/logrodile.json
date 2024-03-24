@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "logrodile",
-  "nationalPokedexNumber": 3370,
+  "nationalPokedexNumber": 4273,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -144,7 +144,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

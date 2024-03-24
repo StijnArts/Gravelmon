@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "desoray",
-  "nationalPokedexNumber": 2449,
+  "nationalPokedexNumber": 2748,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
@@ -82,7 +82,7 @@
   "pokedex": [
     "cobblemon.species.desoray.desc"
   ],
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

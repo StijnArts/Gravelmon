@@ -15,7 +15,7 @@ public class Kerratic extends drai.dev.gravelmon.pokemon.Pokemon {
                         66,
                         81),
                 List.of(Ability.TINTED_LENS,Ability.FRISK,Ability.CHLOROPHYLL), Ability.CHLOROPHYLL,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,1,0,0), 45,
                 0.5,
                 174, ExperienceGroup.MEDIUM_SLOW,
@@ -133,11 +133,11 @@ public class Kerratic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORRY_SEED,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kerratic");

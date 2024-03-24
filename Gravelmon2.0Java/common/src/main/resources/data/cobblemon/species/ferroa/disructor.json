@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "disructor",
-  "nationalPokedexNumber": 1481,
+  "nationalPokedexNumber": 1491,
   "primaryType": "electric",
   "secondaryType": "poison",
   "abilities": [
@@ -139,7 +139,7 @@
     "cobblemon.species.disructor.desc"
   ],
   "preEvolution": "erradio",
-  "baseScale": 0.8625,
+  "baseScale": 1.1500000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

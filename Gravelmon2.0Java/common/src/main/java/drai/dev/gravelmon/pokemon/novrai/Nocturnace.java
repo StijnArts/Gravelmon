@@ -15,7 +15,7 @@ public class Nocturnace extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         117),
                 List.of(Ability.BLAZE), Ability.SCAVENGE,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,0,3), 45,
                 0.875,
                 240, ExperienceGroup.MEDIUM_SLOW,
@@ -118,14 +118,14 @@ public class Nocturnace extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PURSUIT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Nocturnace");
+        setCanFly(true);
 
     }
 

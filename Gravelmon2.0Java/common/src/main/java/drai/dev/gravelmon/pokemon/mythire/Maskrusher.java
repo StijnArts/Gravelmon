@@ -24,7 +24,23 @@ public class Maskrusher extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("A solitary Pokemon that lives only in the deepest forests of Mythire. Seeing one standing tall in the woods is a rare sight to behold, but this Pokemon can charge with its rock-hard head at any intruder."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.BERSERKFURY,1),
+                        new MoveLearnSetEntry(Move.SKULL_BASH,1),
+                        new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
+                        new MoveLearnSetEntry(Move.DRAGON_DANCE,1),
+                        new MoveLearnSetEntry(Move.SOLID_KICK,1),
+                        new MoveLearnSetEntry(Move.REVERSAL,1),
+                        new MoveLearnSetEntry(Move.DETECT,1),
+                        new MoveLearnSetEntry(Move.FORESIGHT,1),
+                        new MoveLearnSetEntry(Move.SLAM,1),
+                        new MoveLearnSetEntry(Move.DRAGON_TAIL,1),
+                        new MoveLearnSetEntry(Move.DRAGON_CLAW,1),
+                        new MoveLearnSetEntry(Move.HEAD_SMASH,1),
+                        new MoveLearnSetEntry(Move.STOMP,1),
+                        new MoveLearnSetEntry(Move.BREAKING_SWIPE,1),
+                        new MoveLearnSetEntry(Move.NOBLE_ROAR,1),
+                        new MoveLearnSetEntry(Move.BELLY_DRUM,1),
+                        new MoveLearnSetEntry(Move.SCARY_FACE,1),
+                        new MoveLearnSetEntry(Move.BERSERK_FURY,1),
                         new MoveLearnSetEntry(Move.RETURN,"tm"),
                         new MoveLearnSetEntry(Move.HEARTFELTPULSE,"tm"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"tm"),
@@ -74,8 +90,8 @@ public class Maskrusher extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.JUMPSCARE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 56, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

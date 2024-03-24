@@ -15,7 +15,7 @@ public class Amalgarment extends drai.dev.gravelmon.pokemon.Pokemon {
                         115,
                         30),
                 List.of(Ability.STATIC,Ability.DAMP,Ability.FLUFFY), Ability.FLUFFY,
-                8, 165,
+                14, 165,
                 new Stats(1,0,0,0,1,0), 70,
                 0.5,
                 172, ExperienceGroup.MEDIUM_SLOW,
@@ -102,11 +102,11 @@ public class Amalgarment extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RISING_VOLTAGE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 28, 45, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Amalgarment");

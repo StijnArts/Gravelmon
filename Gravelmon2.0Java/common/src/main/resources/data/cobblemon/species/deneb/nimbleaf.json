@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nimbleaf",
-  "nationalPokedexNumber": 2990,
+  "nationalPokedexNumber": 3599,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -69,6 +69,7 @@
     "tm:shadowclaw",
     "tm:substitute",
     "tm:energyball",
+    "tm:poisonleaf",
     "tm:leechseed",
     "tm:irontail",
     "tm:triattack",
@@ -92,6 +93,7 @@
     "egg:ominouswind",
     "egg:outrage",
     "egg:poisonpowder",
+    "egg:rapidgrowth",
     "egg:razorwind",
     "egg:reflect",
     "egg:slash",
@@ -122,7 +124,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

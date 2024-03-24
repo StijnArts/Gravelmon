@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vilucard",
-  "nationalPokedexNumber": 1979,
+  "nationalPokedexNumber": 2050,
   "primaryType": "dark",
   "secondaryType": "poison",
   "abilities": [
@@ -84,7 +84,7 @@
     "cobblemon.species.vilucard.desc"
   ],
   "preEvolution": "minyan",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

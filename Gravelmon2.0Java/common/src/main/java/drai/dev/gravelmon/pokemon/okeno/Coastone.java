@@ -14,14 +14,15 @@ public class Coastone extends drai.dev.gravelmon.pokemon.Pokemon {
                         51,
                         25),
                 List.of(Ability.FILTER,Ability.SAND_VEIL,Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                8, 165,
+                10, 165,
                 new Stats(0,0,1,0,0,0), 125,
                 0.5,
                 66, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.WATER_3),
                 List.of("Coastone dig small caves, which end up serving as home for fish Pokemon. Although they seem to be covered in sand, they just have a rough spongy skin."),
-                List.of(),
+                List.of(new EvolutionEntry("sandieval", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"80")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,2),
@@ -44,8 +45,8 @@ public class Coastone extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAKE_DOWN,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 36, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

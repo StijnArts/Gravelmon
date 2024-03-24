@@ -1,0 +1,113 @@
+{
+  "implemented": true,
+  "name": "slickitty",
+  "nationalPokedexNumber": 2437,
+  "primaryType": "electric",
+  "abilities": [
+    "unburden",
+    "quickfeet",
+    "h:lightningrod"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 35,
+    "special_attack": 50,
+    "special_defence": 35,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 59,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:thunderwave",
+    "4:growl",
+    "6:leer",
+    "9:charge",
+    "11:thundershock",
+    "14:quickattack",
+    "17:honeclaws",
+    "20:bite",
+    "22:chargebeam",
+    "26:agility",
+    "29:discharge",
+    "33:electroball",
+    "37:thunderbolt",
+    "40:voltswitch",
+    "45:thunder",
+    "tm:charm",
+    "tm:irontail",
+    "tm:faketears",
+    "tm:shockwave",
+    "tm:nastyplot",
+    "tm:eerieimpulse"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.slickitty.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "slickitty_axeleraze",
+      "variant": "item_interact",
+      "result": "axeleraze",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

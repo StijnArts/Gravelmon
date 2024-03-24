@@ -4,7 +4,7 @@
   "nationalPokedexNumber": 1057,
   "primaryType": "normal",
   "abilities": [
-    "keeneye",
+    "content",
     "h:innerfocus"
   ],
   "baseStats": {
@@ -47,16 +47,6 @@
     "field",
     "human_like"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:cocao_beans",
-        "quantityRange": "1-2",
-        "percentage": 45
-      }
-    ]
-  },
   "moves": [
     "1:storedpower",
     "1:bide",
@@ -154,7 +144,7 @@
     "tutor:zenheadbutt",
     "egg:amnesia",
     "egg:ancientpower",
-    "egg:cosmicpower",
+    "egg:cosmicpowercosmic",
     "egg:darkpulse",
     "egg:heavyslam",
     "egg:mimic",
@@ -170,7 +160,7 @@
     "cobblemon.species.orangutao.desc"
   ],
   "preEvolution": "taomarin",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

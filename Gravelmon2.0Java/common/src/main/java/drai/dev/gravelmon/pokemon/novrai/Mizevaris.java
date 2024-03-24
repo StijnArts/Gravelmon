@@ -15,7 +15,7 @@ public class Mizevaris extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         60),
                 List.of(Ability.AVARICE), Ability.AVARICE,
-                8, 165,
+                28, 165,
                 new Stats(0,0,3,0,0,0), 3,
                 0.0,
                 279, ExperienceGroup.SLOW,
@@ -131,9 +131,10 @@ public class Mizevaris extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

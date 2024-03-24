@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bufaroon",
-  "nationalPokedexNumber": 2846,
+  "nationalPokedexNumber": 3366,
   "primaryType": "grass",
   "secondaryType": "normal",
   "abilities": [
@@ -90,7 +90,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

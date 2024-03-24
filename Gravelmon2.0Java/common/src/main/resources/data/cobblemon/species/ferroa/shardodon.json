@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shardodon",
-  "nationalPokedexNumber": 1456,
+  "nationalPokedexNumber": 1466,
   "primaryType": "rock",
   "abilities": [
     "sandveil",
@@ -105,7 +105,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

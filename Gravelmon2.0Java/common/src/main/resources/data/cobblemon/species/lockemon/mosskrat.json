@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mosskrat",
-  "nationalPokedexNumber": 2445,
+  "nationalPokedexNumber": 2744,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.mosskrat.desc"
   ],
   "preEvolution": "mosster",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

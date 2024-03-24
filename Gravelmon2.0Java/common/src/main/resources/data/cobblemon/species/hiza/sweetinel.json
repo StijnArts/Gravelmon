@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sweetinel",
-  "nationalPokedexNumber": 2140,
+  "nationalPokedexNumber": 2211,
   "primaryType": "fairy",
   "abilities": [
     "sweetveil",
@@ -72,7 +72,7 @@
     "cobblemon.species.sweetinel.desc"
   ],
   "preEvolution": "hizianlickitung",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -49,6 +49,7 @@
   ],
   "moves": [
     "egg:earthpower",
+    "egg:electroburst",
     "egg:dragonrage",
     "tm:flash",
     "tm:toxic",
@@ -62,6 +63,7 @@
     "tm:earthquake",
     "tm:return",
     "tm:dig",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:sandstorm",
@@ -78,7 +80,8 @@
     "15:magnitude",
     "19:bite",
     "25:dig",
-    "31:thunderbolt"  ],
+    "31:thunderbolt",
+    "37:boltblitz"  ],
   "labels": [
     "blazing_emerald",
     "gen5",

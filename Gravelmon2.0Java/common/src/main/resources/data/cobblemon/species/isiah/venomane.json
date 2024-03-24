@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "venomane",
-  "nationalPokedexNumber": 2736,
+  "nationalPokedexNumber": 3256,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -85,7 +85,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

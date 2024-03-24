@@ -17,14 +17,15 @@ public class Cariboo extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         65),
                 List.of(Ability.EARLY_BIRD), Ability.INSOMNIA,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                7, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- Leer Normal - TackleSTAB Normal - Astonish Ghost 4 Leer Normal 8 Spite Ghost 14 Horn AttackSTAB Normal 14 Fury AttackSTAB Normal 19 Haze Ice 22 Night Shade Ghost 26 StompSTAB Normal 30 Mist Ice 33 Hex Ghost 36 Confuse Ray Ghost 42 Ominous Wind Ghost 47 Life Dew Water 53 Horn Leech Grass 58 Aromatic Mist Fairy 64 Last ResortSTAB Normal"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("spectrelk", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dawn_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -45,8 +46,9 @@ public class Cariboo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BODY_SLAM,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 33, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

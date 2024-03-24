@@ -17,7 +17,7 @@ public class Scoprikon extends drai.dev.gravelmon.pokemon.Pokemon {
                         73,
                         73),
                 List.of(Ability.POISON_POINT,Ability.SWIFT_SWIM,Ability.INTIMIDATE), Ability.INTIMIDATE,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,2,0,0), 65,
                 0.5,
                 152, ExperienceGroup.ERRATIC,
@@ -50,14 +50,16 @@ public class Scoprikon extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 22, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Scoprikon");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

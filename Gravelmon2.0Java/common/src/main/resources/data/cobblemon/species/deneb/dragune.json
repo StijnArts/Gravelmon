@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragune",
-  "nationalPokedexNumber": 3068,
+  "nationalPokedexNumber": 3677,
   "primaryType": "dragon",
   "secondaryType": "water",
   "abilities": [
@@ -69,14 +69,17 @@
     "tm:haze",
     "tm:batonpass",
     "tm:confuseray",
+    "tm:dragonbeat",
     "tm:willowisp",
     "tm:surf",
     "tm:waterfall",
+    "tutor:bugnoise",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:hydropump",
     "tutor:nastyplot",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:toxic",
     "egg:aircutter",
     "egg:aurorabeam",
@@ -84,6 +87,7 @@
     "egg:dragonbreath",
     "egg:earthquake",
     "egg:firefang",
+    "egg:frostbite",
     "egg:gust",
     "egg:hyperbeam",
     "egg:icefang",
@@ -122,7 +126,7 @@
       ]   
  }
   ],
-  "baseScale": 1.03125,
+  "baseScale": 1.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

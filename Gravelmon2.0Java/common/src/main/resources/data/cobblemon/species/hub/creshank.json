@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "creshank",
-  "nationalPokedexNumber": 1342,
+  "nationalPokedexNumber": 1352,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -120,7 +120,7 @@
     "cobblemon.species.creshank.desc"
   ],
   "preEvolution": "yokid",
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

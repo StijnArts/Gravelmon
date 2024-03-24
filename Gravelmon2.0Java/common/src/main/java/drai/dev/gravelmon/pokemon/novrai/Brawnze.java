@@ -15,14 +15,15 @@ public class Brawnze extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         30),
                 List.of(Ability.MOXIE,Ability.SCRAPPY,Ability.PRIDEFULSTANCE), Ability.PRIDEFULSTANCE,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 150,
                 0.25,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("The more battles a Brawnze has won, the shinier its body becomes. Weak Brawnze may try to polish themselves with their tails to appear stronger."),
-                List.of(),
+                List.of(new EvolutionEntry("silvictor", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WORK_UP,1),
                         new MoveLearnSetEntry(Move.BIDE,5),
@@ -89,11 +90,11 @@ public class Brawnze extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SAND_ATTACK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Brawnze");

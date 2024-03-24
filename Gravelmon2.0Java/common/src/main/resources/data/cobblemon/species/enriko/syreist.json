@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "syreist",
-  "nationalPokedexNumber": 1648,
+  "nationalPokedexNumber": 1658,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -83,7 +83,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "elidon",
-  "nationalPokedexNumber": 3268,
+  "nationalPokedexNumber": 3877,
   "primaryType": "dragon",
   "abilities": [
     "moldbreaker",
@@ -59,6 +59,7 @@
     "37:crunch",
     "41:flamethrower",
     "49:dragondance",
+    "53:ragingflame",
     "57:outrage",
     "tm:waterpulse",
     "tm:ancientpower",
@@ -95,7 +96,7 @@
   "pokedex": [
     "cobblemon.species.elidon.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oracub",
-  "nationalPokedexNumber": 2484,
+  "nationalPokedexNumber": 2783,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -88,7 +88,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

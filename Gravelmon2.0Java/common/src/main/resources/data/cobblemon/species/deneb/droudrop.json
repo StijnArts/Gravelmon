@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "droudrop",
-  "nationalPokedexNumber": 3120,
+  "nationalPokedexNumber": 3729,
   "primaryType": "fire",
   "abilities": [
     "drought",
@@ -56,6 +56,7 @@
     "19:rollout",
     "23:takedown",
     "27:imprison",
+    "32:magmaring",
     "37:flamethrower",
     "41:willowisp",
     "45:solarbeam",
@@ -74,6 +75,7 @@
     "tm:shadowball",
     "tm:brickbreak",
     "tm:confuseray",
+    "tm:ragingflame",
     "tm:woodhammer",
     "tm:heatwave",
     "tm:focusblast",
@@ -82,6 +84,7 @@
     "tm:cut",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",

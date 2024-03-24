@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nidorimesummercoat",
-  "nationalPokedexNumber": 1995,
+  "nationalPokedexNumber": 2066,
   "primaryType": "ground",
   "abilities": [
     "sandveil",
@@ -88,7 +88,7 @@
       "requiredContext": "cobblemon:ice_stone"   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,0 +1,54 @@
+package drai.dev.gravelmon.pokemon.orbis;
+
+public class Monsewer extends drai.dev.gravelmon.pokemon.Pokemon {
+    public Monsewer() {
+        super("Monsewer",
+                Type.POISON,Type.GROUND,
+                new Stats(125,
+                        100,
+                        65,
+                        100,
+                        105,
+                        30),
+                List.of(Ability.WATER_ABSORB,Ability.STICKY_HOLD), Ability.STENCH,
+                26, 1680,
+                new Stats(2,0,0,0,0,0), 45,
+                0.5,
+                231, ExperienceGroup.FLUCTUATING,
+                70,
+                50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
+                List.of("Monsewer live in the sludge and muck of the cities sewers where they absorb anything they can to grow in size. Sewer canals are commonly blocked up by Monsewer hiding in large pipes and tunnels."),
+                List.of(),
+                List.of(
+                        new MoveLearnSetEntry(Move.SLUDGE,1),
+                        new MoveLearnSetEntry(Move.HARDEN,1),
+                        new MoveLearnSetEntry(Move.MUDSLAP,3),
+                        new MoveLearnSetEntry(Move.MUD_SPORT,5),
+                        new MoveLearnSetEntry(Move.POISON_GAS,8),
+                        new MoveLearnSetEntry(Move.SMOKESCREEN,12),
+                        new MoveLearnSetEntry(Move.MUD_BOMB,15),
+                        new MoveLearnSetEntry(Move.SLUDGE_WAVE,18),
+                        new MoveLearnSetEntry(Move.POISON_JAB,21),
+                        new MoveLearnSetEntry(Move.MUDDY_WATER,24),
+                        new MoveLearnSetEntry(Move.MINIMIZE,28),
+                        new MoveLearnSetEntry(Move.SWALLOW,31),
+                        new MoveLearnSetEntry(Move.STOCKPILE,31),
+                        new MoveLearnSetEntry(Move.BULLDOZE,36),
+                        new MoveLearnSetEntry(Move.TOXIC,45),
+                        new MoveLearnSetEntry(Move.GUNK_SHOT,50),
+                        new MoveLearnSetEntry(Move.BELCH,58)                        ),
+                List.of(Label.ORBIS),
+                0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
+           setLangFileName("Monsewer");
+
+    }
+
+
+}

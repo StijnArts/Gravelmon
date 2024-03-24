@@ -48,16 +48,6 @@
     "bug",
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:ancientpower",
     "1:stealthrock",
@@ -158,7 +148,7 @@
     "cobblemon.species.cahokisect.desc"
   ],
   "preEvolution": "pueblant",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

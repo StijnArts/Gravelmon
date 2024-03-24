@@ -17,14 +17,15 @@ public class Elfini extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         60),
                 List.of(Ability.LEAF_GUARD,Ability.DANCER,Ability.FRIEND_GUARD), Ability.FRIEND_GUARD,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 68, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
                 List.of("Elfini and Flabebe live in a colony somewhere deep in Umbropine Woods. Elfini and Flabebe like to dance at night in secret. Rings of flowers sprout unnaturally fast where they dance."),
-                List.of(),
+                List.of(new EvolutionEntry("aidelf", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,5),
@@ -47,10 +48,10 @@ public class Elfini extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

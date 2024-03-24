@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "titanice",
-  "nationalPokedexNumber": 1898,
+  "nationalPokedexNumber": 1969,
   "primaryType": "ice",
   "abilities": [
     "forewarn",
@@ -123,7 +123,7 @@
   "pokedex": [
     "cobblemon.species.titanice.desc"
   ],
-  "baseScale": 0.80625,
+  "baseScale": 1.075,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

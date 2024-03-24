@@ -15,7 +15,7 @@ public class Blockstack extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         55),
                 List.of(Ability.STURDY,Ability.STAMINA,Ability.NO_GUARD), Ability.NO_GUARD,
-                8, 165,
+                16, 165,
                 new Stats(0,0,1,0,1,0), 90,
                 0.5,
                 216, ExperienceGroup.FAST,
@@ -101,11 +101,11 @@ public class Blockstack extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DETECT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.ILLAGER_STRUCTURES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Blockstack");

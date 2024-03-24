@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yukidaru",
-  "nationalPokedexNumber": 3266,
+  "nationalPokedexNumber": 3875,
   "primaryType": "ice",
   "abilities": [
     "icebody",
@@ -65,6 +65,7 @@
     "55:dragondance",
     "64:dragonrush",
     "tm:waterpulse",
+    "tm:frostbite",
     "tm:dragonbreath",
     "tm:frustration",
     "tm:cut",
@@ -107,7 +108,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

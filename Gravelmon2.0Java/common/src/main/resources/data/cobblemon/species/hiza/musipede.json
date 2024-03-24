@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "musipede",
-  "nationalPokedexNumber": 2101,
+  "nationalPokedexNumber": 2172,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.musipede.desc"
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

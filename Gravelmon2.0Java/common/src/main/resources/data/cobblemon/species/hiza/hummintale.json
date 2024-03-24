@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hummintale",
-  "nationalPokedexNumber": 2050,
+  "nationalPokedexNumber": 2121,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
@@ -100,7 +100,7 @@
     "cobblemon.species.hummintale.desc"
   ],
   "preEvolution": "colibeak",
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

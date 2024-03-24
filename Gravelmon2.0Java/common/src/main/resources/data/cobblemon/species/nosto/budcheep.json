@@ -1,0 +1,130 @@
+{
+  "implemented": true,
+  "name": "budcheep",
+  "nationalPokedexNumber": 2842,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "tangledfeet",
+    "bigpecks",
+    "h:rattled"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 60,
+    "defence": 52,
+    "special_attack": 30,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 54,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:gust",
+    "4:peck",
+    "tm:dualwingbeat",
+    "tm:tailwind",
+    "tm:helpinghand",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:playrough",
+    "tm:sunnyday",
+    "tm:bulletseed",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:confide",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:echoedvoicesound",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:psychup",
+    "tm:return",
+    "tm:roundsound",
+    "tm:safeguard",
+    "tm:sleeptalksound",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:rest",
+    "tm:steelwing"  ],
+  "labels": [
+    "nosto",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.budcheep.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "budcheep_paratweet",
+      "variant": "level_up",
+      "result": "paratweet",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

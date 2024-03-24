@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "needlion",
-  "nationalPokedexNumber": 2063,
+  "nationalPokedexNumber": 2134,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -85,7 +85,7 @@
       "requiredContext": "cobblemon:moon_stone"   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

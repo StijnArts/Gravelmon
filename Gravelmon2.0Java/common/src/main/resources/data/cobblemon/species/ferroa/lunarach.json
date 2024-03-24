@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunarach",
-  "nationalPokedexNumber": 1531,
+  "nationalPokedexNumber": 1541,
   "primaryType": "psychic",
   "secondaryType": "bug",
   "abilities": [
@@ -114,7 +114,7 @@
     "tm:mindreader",
     "tm:simplebeam",
     "tm:toxicthread",
-    "tm:cosmicpower",
+    "tm:cosmicpowercosmic",
     "tm:psychocut",
     "tm:lunge",
     "tm:entrainment",
@@ -129,7 +129,7 @@
     "cobblemon.species.lunarach.desc"
   ],
   "preEvolution": "psyder",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vimanzia",
-  "nationalPokedexNumber": 3512,
+  "nationalPokedexNumber": 4417,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -58,7 +58,7 @@
     "37:airslash",
     "41:calmmind",
     "46:psyshock",
-    "50:cosmicpower",
+    "50:cosmicpowercosmic",
     "55:hurricane",
     "tm:explosion",
     "tm:facade",
@@ -106,7 +106,7 @@
     "cobblemon.species.vimanzia.desc"
   ],
   "preEvolution": "vimana",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

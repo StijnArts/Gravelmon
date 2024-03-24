@@ -14,7 +14,7 @@ public class Darskarf extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         106),
                 List.of(Ability.PICKUP,Ability.PICKPOCKET,Ability.HUSTLE), Ability.HUSTLE,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,0,2), 127,
                 0.5,
                 147, ExperienceGroup.MEDIUM_FAST,
@@ -48,10 +48,11 @@ public class Darskarf extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POISON_TAIL,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 22, 35, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -15,7 +15,7 @@ public class Mattreeze extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         45),
                 List.of(Ability.COTTON_DOWN,Ability.SNOWPLOW,Ability.THERMAL_EXCHANGE), Ability.THERMAL_EXCHANGE,
-                8, 165,
+                20, 165,
                 new Stats(0,0,2,0,0,0), 60,
                 0.5,
                 173, ExperienceGroup.FAST,
@@ -106,11 +106,11 @@ public class Mattreeze extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_BALL,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 39, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mattreeze");

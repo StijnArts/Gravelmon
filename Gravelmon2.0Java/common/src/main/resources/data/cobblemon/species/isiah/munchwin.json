@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "munchwin",
-  "nationalPokedexNumber": 2745,
+  "nationalPokedexNumber": 3265,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -153,7 +153,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

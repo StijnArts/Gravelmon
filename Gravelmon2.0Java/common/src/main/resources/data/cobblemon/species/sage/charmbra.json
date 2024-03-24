@@ -49,16 +49,6 @@
     "field",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:synchronoise",
     "1:nastyplot",
@@ -157,7 +147,7 @@
     "cobblemon.species.charmbra.desc"
   ],
   "preEvolution": "cobrasket",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

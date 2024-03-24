@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "injectoplasm",
-  "nationalPokedexNumber": 1649,
+  "nationalPokedexNumber": 1659,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.injectoplasm.desc"
   ],
   "preEvolution": "syreist",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

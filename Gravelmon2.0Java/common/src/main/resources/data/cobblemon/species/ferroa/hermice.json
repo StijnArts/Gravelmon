@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hermice",
-  "nationalPokedexNumber": 1520,
+  "nationalPokedexNumber": 1530,
   "primaryType": "ice",
   "secondaryType": "water",
   "abilities": [
@@ -104,7 +104,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

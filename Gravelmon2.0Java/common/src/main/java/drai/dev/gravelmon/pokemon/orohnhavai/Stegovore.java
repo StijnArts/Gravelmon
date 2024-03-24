@@ -17,7 +17,7 @@ public class Stegovore extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         40),
                 List.of(Ability.STURDY), Ability.BATTLE_ARMOR,
-                8, 165,
+                16, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.875,
                 177, ExperienceGroup.ERRATIC,
@@ -47,8 +47,8 @@ public class Stegovore extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 38, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "titanbex",
-  "nationalPokedexNumber": 2742,
+  "nationalPokedexNumber": 3262,
   "primaryType": "steel",
   "abilities": [
     "limber",
@@ -92,7 +92,7 @@
     "cobblemon.species.titanbex.desc"
   ],
   "preEvolution": "inbex",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -6,6 +6,7 @@
   "secondaryType": "fighting",
   "abilities": [
     "hustle",
+    "icecleats",
     "h:superluck"
   ],
   "baseStats": {

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skelevera",
-  "nationalPokedexNumber": 2169,
+  "nationalPokedexNumber": 2240,
   "primaryType": "ghost",
   "abilities": [
     "cursedbody",
@@ -83,7 +83,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

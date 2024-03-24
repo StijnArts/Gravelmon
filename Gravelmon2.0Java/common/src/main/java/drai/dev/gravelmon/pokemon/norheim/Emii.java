@@ -17,7 +17,7 @@ public class Emii extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         82),
                 List.of(Ability.PRANKSTER), Ability.PRANKSTER,
-                8, 165,
+                12, 165,
                 new Stats(0,1,0,2,0,0), 3,
                 1.0,
                 270, ExperienceGroup.MEDIUM_FAST,
@@ -36,8 +36,8 @@ public class Emii extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MISTY_EXPLOSION,72)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

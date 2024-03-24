@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coralony",
-  "nationalPokedexNumber": 3399,
+  "nationalPokedexNumber": 4304,
   "primaryType": "rock",
   "abilities": [
     "regenerator",
@@ -71,12 +71,12 @@
         },
         {
           "variant": "biome",
-          "biomeCondition": "#cobblemon:is_reef"
+          "biomeCondition": "#cobblemon:is_warm_ocean"
         }
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

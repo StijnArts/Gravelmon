@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slymander",
-  "nationalPokedexNumber": 3300,
+  "nationalPokedexNumber": 4203,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -124,7 +124,7 @@
     "cobblemon.species.slymander.desc"
   ],
   "preEvolution": "reparch",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

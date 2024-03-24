@@ -15,7 +15,7 @@ public class Lobstrike extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         80),
                 List.of(Ability.OVERGROW), Ability.TOUGH_CLAWS,
-                8, 165,
+                18, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.875,
                 240, ExperienceGroup.MEDIUM_SLOW,
@@ -109,14 +109,15 @@ public class Lobstrike extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SNAP_TRAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Lobstrike");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

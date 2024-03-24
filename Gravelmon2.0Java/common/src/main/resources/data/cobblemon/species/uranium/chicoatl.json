@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chicoatl",
-  "nationalPokedexNumber": 1890,
+  "nationalPokedexNumber": 1961,
   "primaryType": "grass",
   "abilities": [
     "sapsipper",
@@ -142,7 +142,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

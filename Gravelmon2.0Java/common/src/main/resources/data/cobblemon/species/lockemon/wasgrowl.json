@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wasgrowl",
-  "nationalPokedexNumber": 2480,
+  "nationalPokedexNumber": 2779,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -91,7 +91,7 @@
       ]   
  }
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

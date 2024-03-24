@@ -48,6 +48,16 @@
   "eggGroups": [
     "bug"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:preadite",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:quickattack",
     "6:silverwind",
@@ -88,7 +98,7 @@
     "cobblemon.species.mythiankleavor.desc"
   ],
   "preEvolution": "mythianscyther",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

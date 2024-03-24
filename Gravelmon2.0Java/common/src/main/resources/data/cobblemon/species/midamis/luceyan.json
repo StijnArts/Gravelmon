@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luceyan",
-  "nationalPokedexNumber": 2987,
+  "nationalPokedexNumber": 3507,
   "primaryType": "dark",
   "secondaryType": "dragon",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.luceyan.desc"
   ],
-  "baseScale": 0.61875,
+  "baseScale": 0.8250000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

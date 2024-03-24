@@ -15,14 +15,15 @@ public class Scuddle extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         40),
                 List.of(Ability.TORRENT), Ability.RAIN_DISH,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.WATER_1),
                 List.of("It's somewhat clumsy, so it spills the water it carries quite often. Plants that are accidentally watered this way grow much larger than normal."),
-                List.of(),
+                List.of(new EvolutionEntry("bubbeetle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.BUBBLE,4),
@@ -101,14 +102,15 @@ public class Scuddle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROTOTILLER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Scuddle");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

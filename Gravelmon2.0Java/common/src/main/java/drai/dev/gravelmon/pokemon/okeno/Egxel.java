@@ -14,14 +14,15 @@ public class Egxel extends drai.dev.gravelmon.pokemon.Pokemon {
                         96,
                         93),
                 List.of(Ability.QUICK_FEET,Ability.JUMPIN,Ability.HUGE_POWER), Ability.HUGE_POWER,
-                8, 165,
+                9, 165,
                 new Stats(1,0,0,0,0,1), 120,
                 0.5,
                 162, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Using their powerful feet, these Pokemon are capable of jumping over a whole two-story house! In a popular fairy tale, Egxel leapt over the sun to have its trainer's wish granted."),
-                List.of(),
+                List.of(new EvolutionEntry("egxiking", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.HAPPYSLAP,5),
@@ -43,9 +44,8 @@ public class Egxel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXTREME_SPEED,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 41, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

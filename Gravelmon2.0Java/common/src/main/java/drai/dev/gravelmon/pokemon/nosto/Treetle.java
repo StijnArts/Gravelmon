@@ -15,14 +15,15 @@ public class Treetle extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         31),
                 List.of(Ability.OVERGROW), Ability.SHEER_FORCE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 45,
                 0.875,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.GRASS),
                 List.of("When a Treetle finds a seed it likes, it holds onto it for the rest of its life. It doubles as a weapon which they use to defend themselves from predators in the wild."),
-                List.of(),
+                List.of(new EvolutionEntry("tumball", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -40,8 +41,8 @@ public class Treetle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASS_PLEDGE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

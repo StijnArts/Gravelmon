@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "heeleap",
-  "nationalPokedexNumber": 2658,
+  "nationalPokedexNumber": 3064,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
@@ -50,6 +50,14 @@
     "human_like"
   ],
   "moves": [
+    "1:bounce",
+    "1:skyuppercut",
+    "1:feintattack",
+    "1:feint",
+    "1:highjumpkick",
+    "1:jumpkick",
+    "1:acrobatics",
+    "1:agility",
     "tm:axekick",
     "tm:pounce",
     "tm:megakick"  ],
@@ -60,7 +68,22 @@
   "pokedex": [
     "cobblemon.species.heeleap.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "heeleap_sparroing",
+      "variant": "level_up",
+      "result": "sparroing",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -75,7 +98,7 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

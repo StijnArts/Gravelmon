@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yunesis",
-  "nationalPokedexNumber": 3047,
+  "nationalPokedexNumber": 3656,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -55,7 +55,9 @@
     "1:megahorn",
     "1:waterpulse",
     "23:mirrorshot",
+    "33:stardustcosmic",
     "45:ironhead",
+    "55:geoimpact",
     "tm:magnetbomb",
     "tm:thunderwave",
     "tm:headbutt",
@@ -74,6 +76,7 @@
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:shadowclamp",
     "tutor:hydropump",
     "egg:aircutter",
     "egg:calmmind",
@@ -89,6 +92,7 @@
     "egg:lightscreen",
     "egg:mirrorcoat",
     "egg:mudslap",
+    "egg:psyburn",
     "egg:psychup",
     "egg:raindance",
     "egg:reflect",
@@ -109,7 +113,7 @@
     "cobblemon.species.yunesis.desc"
   ],
   "preEvolution": "psycolt",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

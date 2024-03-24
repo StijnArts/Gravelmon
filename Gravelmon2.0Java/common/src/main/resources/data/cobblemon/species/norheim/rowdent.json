@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rowdent",
-  "nationalPokedexNumber": 2358,
+  "nationalPokedexNumber": 2576,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -111,7 +111,7 @@
     "cobblemon.species.rowdent.desc"
   ],
   "preEvolution": "norheimanrattata",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

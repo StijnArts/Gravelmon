@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bakpakrat",
-  "nationalPokedexNumber": 2537,
+  "nationalPokedexNumber": 2943,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -136,7 +136,7 @@
     "cobblemon.species.bakpakrat.desc"
   ],
   "preEvolution": "pakrat",
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

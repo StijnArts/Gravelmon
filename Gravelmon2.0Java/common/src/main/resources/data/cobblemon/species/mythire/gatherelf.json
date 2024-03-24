@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gatherelf",
-  "nationalPokedexNumber": 2614,
+  "nationalPokedexNumber": 3020,
   "primaryType": "fairy",
   "secondaryType": "ground",
   "abilities": [
@@ -103,12 +103,15 @@
     "tm:tickle"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gatherelf.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "helful",
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -123,7 +126,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 8,
+  "height": 11,
   "weight": 165,
   "aspects": [],
 "features": [

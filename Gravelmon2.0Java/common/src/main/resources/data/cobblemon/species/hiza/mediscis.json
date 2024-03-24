@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mediscis",
-  "nationalPokedexNumber": 2206,
+  "nationalPokedexNumber": 2277,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.mediscis.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

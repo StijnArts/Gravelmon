@@ -15,7 +15,7 @@ public class Aquarrior extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         80),
                 List.of(Ability.SHELL_ARMOR,Ability.JUSTIFIED,Ability.LONG_REACH), Ability.LONG_REACH,
-                8, 165,
+                19, 165,
                 new Stats(0,2,1,0,0,0), 45,
                 0.5,
                 225, ExperienceGroup.SLOW,
@@ -24,6 +24,21 @@ public class Aquarrior extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Aquarrior are guardians of the sea, but are feared. They will attack boats without provocation and drag the crew to the seafloor."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.SMART_STRIKE,1),
+                        new MoveLearnSetEntry(Move.QUICK_GUARD,1),
+                        new MoveLearnSetEntry(Move.BLOCK,1),
+                        new MoveLearnSetEntry(Move.RAZOR_SHELL,1),
+                        new MoveLearnSetEntry(Move.SUBMISSION,1),
+                        new MoveLearnSetEntry(Move.MACH_PUNCH,1),
+                        new MoveLearnSetEntry(Move.AQUA_TAIL,1),
+                        new MoveLearnSetEntry(Move.WATER_PULSE,1),
+                        new MoveLearnSetEntry(Move.BRINE,1),
+                        new MoveLearnSetEntry(Move.HORN_DRILL,1),
+                        new MoveLearnSetEntry(Move.HORN_ATTACK,1),
+                        new MoveLearnSetEntry(Move.SHELL_SMASH,1),
+                        new MoveLearnSetEntry(Move.RETALIATE,1),
+                        new MoveLearnSetEntry(Move.PAYBACK,1),
+                        new MoveLearnSetEntry(Move.SUCKER_PUNCH,1),
                         new MoveLearnSetEntry(Move.NOBLE_ROAR,1),
                         new MoveLearnSetEntry(Move.BLOCK,"tm"),
                         new MoveLearnSetEntry(Move.LAST_RESORT,"tm"),
@@ -55,14 +70,16 @@ public class Aquarrior extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCALE_SHOT,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 38, 46, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Aquarrior");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

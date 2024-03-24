@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aragaunt",
-  "nationalPokedexNumber": 2682,
+  "nationalPokedexNumber": 3088,
   "primaryType": "dark",
   "abilities": [
     "unnerve",
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -121,7 +121,22 @@
   "pokedex": [
     "cobblemon.species.aragaunt.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "aragaunt_trenchula",
+      "variant": "level_up",
+      "result": "trenchula",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -136,7 +151,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

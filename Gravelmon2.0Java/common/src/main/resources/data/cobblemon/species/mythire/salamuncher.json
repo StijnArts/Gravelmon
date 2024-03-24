@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "salamuncher",
-  "nationalPokedexNumber": 2630,
+  "nationalPokedexNumber": 3036,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -175,12 +175,15 @@
     "tm:psychicterrain"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.salamuncher.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "nooch",
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -195,7 +198,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 13,
   "weight": 165,
   "aspects": [],
 "features": [

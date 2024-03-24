@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pachirikku",
-  "nationalPokedexNumber": 3090,
+  "nationalPokedexNumber": 3699,
   "primaryType": "electric",
   "abilities": [
     "voltabsorb",
@@ -78,6 +78,8 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:bugnoise",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:rest",
@@ -118,7 +120,7 @@
     "cobblemon.species.pachirikku.desc"
   ],
   "preEvolution": "pachirisu",
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

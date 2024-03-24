@@ -15,14 +15,15 @@ public class Grenaize extends drai.dev.gravelmon.pokemon.Pokemon {
                         26,
                         68),
                 List.of(Ability.AFTERMATH,Ability.NO_GUARD,Ability.RECKLESS), Ability.RECKLESS,
-                8, 165,
+                1, 165,
                 new Stats(0,0,0,1,0,0), 220,
                 0.5,
                 58, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It can spontaneously raise its body temperature, causing itself to explode. It loves nothing more than waking up its Trainer by blowing up in their face."),
-                List.of(),
+                List.of(new EvolutionEntry("blastalk", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEAFAGE,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,4),
@@ -98,11 +99,11 @@ public class Grenaize extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DETECT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_ARID))),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Grenaize");

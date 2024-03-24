@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rascoon",
-  "nationalPokedexNumber": 1355,
+  "nationalPokedexNumber": 1365,
   "primaryType": "dark",
   "abilities": [
     "frisk",
@@ -139,7 +139,7 @@
     "cobblemon.species.rascoon.desc"
   ],
   "preEvolution": "thefcoon",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

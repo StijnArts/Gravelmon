@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chillade",
-  "nationalPokedexNumber": 2679,
+  "nationalPokedexNumber": 3085,
   "primaryType": "ice",
   "secondaryType": "steel",
   "abilities": [
@@ -48,6 +48,13 @@
     "mineral"
   ],
   "moves": [
+    "1:fling",
+    "1:powdersnow",
+    "1:iceshard",
+    "1:playnice",
+    "1:courtchange",
+    "1:tripleaxel",
+    "1:selfdestruct",
     "1:explosion",
     "22:magnetbomb",
     "tm:rockblast",
@@ -62,7 +69,22 @@
   "pokedex": [
     "cobblemon.species.chillade.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "chillade_chloradise",
+      "variant": "level_up",
+      "result": "chloradise",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

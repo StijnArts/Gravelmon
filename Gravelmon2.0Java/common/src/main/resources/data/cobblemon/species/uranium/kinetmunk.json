@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kinetmunk",
-  "nationalPokedexNumber": 1824,
+  "nationalPokedexNumber": 1895,
   "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.kinetmunk.desc"
   ],
   "preEvolution": "chyinmunk",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

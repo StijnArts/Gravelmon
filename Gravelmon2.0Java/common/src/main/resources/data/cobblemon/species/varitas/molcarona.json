@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "molcarona",
-  "nationalPokedexNumber": 1804,
+  "nationalPokedexNumber": 1875,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
@@ -63,7 +63,7 @@
     "40:psychic",
     "44:surf",
     "48:recover",
-    "52:cosmicpower",
+    "52:cosmicpowercosmic",
     "56:hydropump",
     "tm:waterpulse",
     "tm:hail",
@@ -104,7 +104,7 @@
     "cobblemon.species.molcarona.desc"
   ],
   "preEvolution": "carvesta",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

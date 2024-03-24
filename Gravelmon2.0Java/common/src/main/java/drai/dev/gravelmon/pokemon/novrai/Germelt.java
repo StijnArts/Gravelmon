@@ -15,14 +15,15 @@ public class Germelt extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         20),
                 List.of(Ability.ADAPTABILITY,Ability.ICE_BODY,Ability.FILTHYSURGE), Ability.FILTHYSURGE,
-                8, 165,
+                1, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 62, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("A strange species of Pokemon uncovered during excavations of an iceberg. It's highly infectious, but the ice that coats it seems to slow it down and keep it docile."),
-                List.of(),
+                List.of(new EvolutionEntry("contagice", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,4),
@@ -97,9 +98,11 @@ public class Germelt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GASTRO_ACID,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

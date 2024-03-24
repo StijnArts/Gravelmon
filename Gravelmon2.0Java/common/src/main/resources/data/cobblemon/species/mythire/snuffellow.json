@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snuffellow",
-  "nationalPokedexNumber": 2649,
+  "nationalPokedexNumber": 3055,
   "primaryType": "fire",
   "abilities": [
     "sniper",
@@ -48,7 +48,21 @@
     "monster"
   ],
   "moves": [
-  ],
+    "1:smog",
+    "1:yawn",
+    "6:ember",
+    "8:rockthrow",
+    "13:harden",
+    "20:clearsmog",
+    "22:ancientpower",
+    "27:incinerate",
+    "29:rockslide",
+    "34:lavaplume",
+    "36:amnesia",
+    "41:bodyslam",
+    "43:recover",
+    "48:flamethrower",
+    "50:earthpower"  ],
   "labels": [
     "mythire",
     "not_modeled"
@@ -56,7 +70,35 @@
   "pokedex": [
     "cobblemon.species.snuffellow.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "snuffellow_belostoke",
+      "variant": "level_up",
+      "result": "belostoke",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ },
+    {
+      "id": "snuffellow_hadrosmoke",
+      "variant": "level_up",
+      "result": "hadrosmoke",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:kings_rock"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +113,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 11,
   "weight": 165,
   "aspects": [],
 "features": [

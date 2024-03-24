@@ -5,7 +5,7 @@
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
-    "keeneye",
+    "siphon",
     "h:opportunist"
   ],
   "baseStats": {
@@ -47,16 +47,6 @@
   "eggGroups": [
     "bug"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:spider_eye",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:acupressure",
     "1:pursuit",

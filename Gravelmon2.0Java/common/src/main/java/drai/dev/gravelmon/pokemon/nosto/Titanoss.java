@@ -15,13 +15,13 @@ public class Titanoss extends drai.dev.gravelmon.pokemon.Pokemon {
                         84,
                         80),
                 List.of(Ability.OVERGROW), Ability.SHEER_FORCE,
-                8, 165,
+                21, 165,
                 new Stats(0,2,1,0,0,0), 45,
                 0.875,
                 241, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.GRASS),
-                List.of("Evo EarthquakeSTAB Ground - EarthquakeSTAB Ground - Wood HammerSTAB Grass - Hammer Arm Fighting - Rototiller Ground - Megahorn Bug - Pound Normal - Growth Normal 7 AbsorbSTAB Grass 12 Bug Bite Bug 16 Razor LeafSTAB Grass 21 Rock Throw Rock 26 Ingrain Grass 33 BulldozeSTAB Ground 35 Grassy GlideSTAB Grass 38 Stealth Rock Rock 42 Seed BombSTAB Grass 47 Stomping TantrumSTAB Ground 50 Rock Slide Rock 54 Bulk Up Fighting 60 Wood HammerSTAB Grass"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
@@ -42,8 +42,8 @@ public class Titanoss extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASS_PLEDGE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

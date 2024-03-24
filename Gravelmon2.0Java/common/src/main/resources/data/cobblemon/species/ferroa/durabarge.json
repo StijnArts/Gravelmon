@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "durabarge",
-  "nationalPokedexNumber": 1438,
+  "nationalPokedexNumber": 1448,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
@@ -146,7 +146,7 @@
     "cobblemon.species.durabarge.desc"
   ],
   "preEvolution": "helmhide",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

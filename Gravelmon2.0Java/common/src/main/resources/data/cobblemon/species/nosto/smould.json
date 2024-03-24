@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "smould",
+  "nationalPokedexNumber": 2896,
+  "primaryType": "grass",
+  "secondaryType": "psychic",
+  "abilities": [
+    "effectspore",
+    "h:chlorophyll"
+  ],
+  "baseStats": {
+    "hp": 76,
+    "attack": 54,
+    "defence": 76,
+    "special_attack": 100,
+    "special_defence": 80,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 196,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "45:spore",
+    "tm:thunderpunch",
+    "tm:firepunch",
+    "tm:grassyglide",
+    "tm:synthesis",
+    "tm:worryseed",
+    "tm:icepunch",
+    "tm:endeavor",
+    "tm:painsplit",
+    "tm:recycle",
+    "tm:snoresound",
+    "tm:expandingforce",
+    "tm:gravitycosmic",
+    "tm:magiccoat",
+    "tm:telekinesis",
+    "tm:wonderroom",
+    "tm:dazzlinggleam",
+    "tm:sunnyday",
+    "tm:willowisp",
+    "tm:aerialace",
+    "tm:shadowball",
+    "tm:bulletseed",
+    "tm:energyball",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:attract",
+    "tm:bodyslam",
+    "tm:confide",
+    "tm:cut",
+    "tm:echoedvoicesound",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:psychup",
+    "tm:return",
+    "tm:roundsound",
+    "tm:safeguard",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:poisonjab",
+    "tm:sludgebomb",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:calmmind",
+    "tm:dreameater",
+    "tm:lightscreen",
+    "tm:psychic",
+    "tm:psychicterrain",
+    "tm:psyshock",
+    "tm:reflect",
+    "tm:rest",
+    "tm:trickroom",
+    "8:absorb",
+    "12:astonish",
+    "16:confuseray",
+    "20:ingrain",
+    "25:megadrain",
+    "28:sleeppowder",
+    "32:moonlight",
+    "36:strengthsap",
+    "40:gigadrain",
+    "44:dazzlinggleam",
+    "48:spore",
+    "1:moonblast",
+    "1:dreameater"  ],
+  "labels": [
+    "nosto",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.smould.desc"
+  ],
+  "preEvolution": "loomstool",
+  "baseScale": 0.47500000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

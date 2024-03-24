@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scaracno",
-  "nationalPokedexNumber": 1761,
+  "nationalPokedexNumber": 1771,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -130,7 +130,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

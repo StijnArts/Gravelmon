@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lylapse",
-  "nationalPokedexNumber": 3070,
+  "nationalPokedexNumber": 3679,
   "primaryType": "ground",
   "abilities": [
     "pressure",
@@ -68,17 +68,20 @@
     "tm:irontail",
     "tm:triattack",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:surf",
     "tm:strength",
     "tm:rocksmash",
     "tm:waterfall",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
     "tutor:dig",
-    "tutor:nastyplot"  ],
+    "tutor:nastyplot",
+    "tutor:bugnoise"  ],
   "labels": [
     "deneb",
     "legendary",
@@ -87,7 +90,7 @@
   "pokedex": [
     "cobblemon.species.lylapse.desc"
   ],
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

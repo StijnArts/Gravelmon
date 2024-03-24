@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tentaclubble",
-  "nationalPokedexNumber": 2391,
+  "nationalPokedexNumber": 2690,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -129,7 +129,7 @@
     "cobblemon.species.tentaclubble.desc"
   ],
   "preEvolution": "bluboon",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

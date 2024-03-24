@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunartic",
-  "nationalPokedexNumber": 1645,
+  "nationalPokedexNumber": 1655,
   "primaryType": "fairy",
   "abilities": [
     "unnerve",
@@ -67,7 +67,7 @@
     "cobblemon.species.lunartic.desc"
   ],
   "preEvolution": "velveil",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

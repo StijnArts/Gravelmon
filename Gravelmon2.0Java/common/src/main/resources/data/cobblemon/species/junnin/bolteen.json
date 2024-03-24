@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bolteen",
-  "nationalPokedexNumber": 2291,
+  "nationalPokedexNumber": 2362,
   "primaryType": "electric",
   "abilities": [
     "static",
@@ -127,7 +127,7 @@
     "cobblemon.species.bolteen.desc"
   ],
   "preEvolution": "baybolt",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

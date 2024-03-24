@@ -90,12 +90,15 @@ public class Shrimputy extends Pokemon {
                 List.of(Label.URANIUM),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 27, 3.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_HILLS))),
-                List.of(SpawnPreset.UNDERWATER),
+                ), List.of(),
+                List.of(SpawnPreset.REEF),
                 0.21, 0.3,
                 List.of());
         this.setPortraitXYZ(0,1.8,0);
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
     }
 }

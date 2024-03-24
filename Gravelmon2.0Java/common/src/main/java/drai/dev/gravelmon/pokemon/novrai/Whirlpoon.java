@@ -15,14 +15,15 @@ public class Whirlpoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         23),
                 List.of(Ability.BATTLE_ARMOR), Ability.HEATPROOF,
-                8, 165,
+                4, 165,
                 new Stats(0,0,1,0,0,0), 150,
                 0.25,
                 70, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.MONSTER),
                 List.of("Staring into the darkness of its helmet instills a great unease about sailing for several days afterwards. It's often seen living alongside Dhelmise."),
-                List.of(),
+                List.of(new EvolutionEntry("sirenaut", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"46")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WHIRLPOOL,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,4),
@@ -110,14 +111,15 @@ public class Whirlpoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DESTINY_BOND,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 18, 42, 2.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Whirlpoon");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

@@ -15,14 +15,15 @@ public class Baytate extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         80),
                 List.of(Ability.REELIN), Ability.LONG_REACH,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 62, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("It attaches discarded Poke Balls to the end of its horn. When other Pokemon investigate the object, the ball opens to reveal a sharp hook."),
-                List.of(),
+                List.of(new EvolutionEntry("perilscope", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.LEER,5),
@@ -77,14 +78,16 @@ public class Baytate extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRUTAL_SWING,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 12, 33, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Baytate");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

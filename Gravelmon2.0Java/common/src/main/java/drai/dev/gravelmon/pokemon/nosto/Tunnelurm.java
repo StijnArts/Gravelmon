@@ -15,7 +15,7 @@ public class Tunnelurm extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         60),
                 List.of(Ability.SOLID_ROCK,Ability.ROCK_HEAD,Ability.SAND_FORCE), Ability.SAND_FORCE,
-                8, 165,
+                25, 165,
                 new Stats(0,1,1,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -87,9 +87,9 @@ public class Tunnelurm extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SMART_STRIKE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

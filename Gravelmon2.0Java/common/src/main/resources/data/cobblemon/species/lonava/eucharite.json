@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eucharite",
-  "nationalPokedexNumber": 2362,
+  "nationalPokedexNumber": 2661,
   "primaryType": "fighting",
   "secondaryType": "water",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.eucharite.desc"
   ],
   "preEvolution": "wicruet",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

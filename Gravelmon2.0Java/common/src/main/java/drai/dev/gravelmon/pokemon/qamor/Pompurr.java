@@ -17,8 +17,8 @@ public class Pompurr extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         100),
                 List.of(Ability.CUTE_CHARM), Ability.FRIEND_GUARD,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -51,11 +51,11 @@ public class Pompurr extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASSIST,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 51, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Pompurr");

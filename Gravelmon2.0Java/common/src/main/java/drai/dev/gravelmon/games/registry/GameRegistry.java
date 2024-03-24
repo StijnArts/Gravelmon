@@ -10,7 +10,7 @@ import java.util.*;
 public class GameRegistry {
     public static ArrayList<Game> games = new ArrayList<>();
     public static void registerGames(){
-        //TODO make pokemon that evolve using an item drop said item in their evolved form
+        //TODO add the better nether biomes to the nether biomes tags
         games.add(new GenerationOne());
         games.add(new GenerationTwo());
         games.add(new GenerationThree());
@@ -23,6 +23,7 @@ public class GameRegistry {
         GravelmonJsonGenerator.setDexCounter(1024);
         games.add(new Sage());
         games.add(new Realidea());
+        games.add(new Rica());
         games.add(new Infinity());
         games.add(new HUB());
         games.add(new Interregional());
@@ -32,6 +33,7 @@ public class GameRegistry {
         games.add(new Enriko());
         games.add(new Xenoverse());
         games.add(new Avoris());
+        games.add(new Oceane());
         games.add(new Varitas());
         games.add(new Aristos());
         games.add(new Uranium());
@@ -53,7 +55,9 @@ public class GameRegistry {
         games.add(new Isiah());
         games.add(new Myth());
         games.add(new Midamis());
+        games.add(new Okeno());
         games.add(new Deneb());
+        games.add(new Novrai());
         games.add(new Atlas());
     }
 }

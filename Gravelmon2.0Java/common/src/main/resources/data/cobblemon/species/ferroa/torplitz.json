@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "torplitz",
-  "nationalPokedexNumber": 1467,
+  "nationalPokedexNumber": 1477,
   "primaryType": "electric",
   "secondaryType": "water",
   "abilities": [
@@ -140,7 +140,7 @@
     "cobblemon.species.torplitz.desc"
   ],
   "preEvolution": "volray",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

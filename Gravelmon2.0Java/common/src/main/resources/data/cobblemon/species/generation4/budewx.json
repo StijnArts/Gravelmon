@@ -59,6 +59,7 @@
     "tm:venoshock",
     "tm:hiddenpower",
     "tm:protect",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:sludgebomb",
@@ -73,7 +74,8 @@
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",
-    "tutor:secretpower"  ],
+    "tutor:secretpower",
+    "tutor:soundbarrier"  ],
   "labels": [
     "xenoverse",
     "gen4",

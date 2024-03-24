@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "liedoro",
-  "nationalPokedexNumber": 3015,
+  "nationalPokedexNumber": 3624,
   "primaryType": "dark",
   "abilities": [
     "runaway",
@@ -75,6 +75,7 @@
     "tm:psychic",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:batonpass",
     "tm:confuseray",
     "tm:sludgebomb",
@@ -85,6 +86,7 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hydropump",
     "tutor:hiddenpower",
     "tutor:dig",
@@ -111,6 +113,7 @@
     "egg:psychup",
     "egg:raindance",
     "egg:return",
+    "egg:shadowclamp",
     "egg:snatch",
     "egg:spite",
     "egg:sunnyday",
@@ -127,7 +130,7 @@
     "cobblemon.species.liedoro.desc"
   ],
   "preEvolution": "liepus",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

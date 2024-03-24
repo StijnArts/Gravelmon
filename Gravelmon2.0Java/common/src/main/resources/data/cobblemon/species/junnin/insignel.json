@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "insignel",
-  "nationalPokedexNumber": 2303,
+  "nationalPokedexNumber": 2374,
   "primaryType": "electric",
   "secondaryType": "bug",
   "abilities": [
@@ -126,7 +126,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

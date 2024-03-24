@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wastenaut",
-  "nationalPokedexNumber": 1592,
+  "nationalPokedexNumber": 1602,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
@@ -53,7 +53,7 @@
     "7:smog",
     "12:refresh",
     "15:sludge",
-    "19:cosmicpower",
+    "19:cosmicpowercosmic",
     "22:clearsmog",
     "25:purify",
     "28:ominouswind",
@@ -141,7 +141,7 @@
     "cobblemon.species.wastenaut.desc"
   ],
   "preEvolution": "messoul",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

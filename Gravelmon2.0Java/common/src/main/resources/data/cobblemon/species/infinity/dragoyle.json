@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragoyle",
-  "nationalPokedexNumber": 1312,
+  "nationalPokedexNumber": 1322,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -149,7 +149,7 @@
     "cobblemon.species.dragoyle.desc"
   ],
   "preEvolution": "wardern",
-  "baseScale": 0.7125,
+  "baseScale": 0.9500000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

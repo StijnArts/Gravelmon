@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "finbred",
-  "nationalPokedexNumber": 1621,
+  "nationalPokedexNumber": 1631,
   "primaryType": "water",
   "abilities": [
     "strongjaw",
@@ -66,7 +66,7 @@
     "cobblemon.species.finbred.desc"
   ],
   "preEvolution": "gumuppi",
-  "baseScale": 0.46875,
+  "baseScale": 0.625,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

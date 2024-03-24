@@ -15,14 +15,15 @@ public class Dekoi extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         20),
                 List.of(Ability.SHED_SKIN,Ability.SCAVENGE,Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
-                8, 165,
+                9, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 52, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.BUG),
                 List.of("It wears the skin of its Magikarp prey as a disguise. Sometimes it's fished up by accident, but it's usually thrown back."),
-                List.of(),
+                List.of(new EvolutionEntry("imitacean", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.INFESTATION,1),
                         new MoveLearnSetEntry(Move.TACKLE,15),
@@ -85,14 +86,16 @@ public class Dekoi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 1, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN, Biome.IS_RIVER, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Dekoi");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

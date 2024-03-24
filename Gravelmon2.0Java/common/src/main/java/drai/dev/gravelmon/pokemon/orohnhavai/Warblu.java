@@ -21,14 +21,15 @@ public class Warblu extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         55),
                 List.of(Ability.BIG_PECKS,Ability.KEEN_EYE,Ability.EARLY_BIRD), Ability.EARLY_BIRD,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 53, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It appears that Warblu and the Winvern in the Avoris Region are at odds. They frequently quarrel over food. Unfortunately, its talons are no match to those of Winvern, and it surrenders its food to them."),
-                List.of(),
+                List.of(new EvolutionEntry("territore", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PECK,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,5),
@@ -50,14 +51,14 @@ public class Warblu extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEATHERRUSH,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 2, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Warblu");
+        setCanFly(true);
 
     }
 

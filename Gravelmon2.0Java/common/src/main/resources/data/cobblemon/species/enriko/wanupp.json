@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wanupp",
-  "nationalPokedexNumber": 1650,
+  "nationalPokedexNumber": 1660,
   "primaryType": "grass",
   "secondaryType": "poison",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.wanupp.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

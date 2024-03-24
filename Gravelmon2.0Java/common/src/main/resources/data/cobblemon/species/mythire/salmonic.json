@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "salmonic",
-  "nationalPokedexNumber": 2638,
+  "nationalPokedexNumber": 3044,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -149,7 +149,7 @@
   "pokedex": [
     "cobblemon.species.salmonic.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -164,7 +164,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 7,
   "weight": 165,
   "aspects": [],
 "features": [

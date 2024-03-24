@@ -46,16 +46,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:xenolith",
-        "quantityRange": "1-1",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:firepunch",
     "1:icepunch",
@@ -96,6 +86,7 @@
     "tm:raindance",
     "tm:roost",
     "tm:safeguard",
+    "tm:subwoofer",
     "tm:solarbeam",
     "tm:smackdown",
     "tm:thunderbolt",
@@ -178,7 +169,7 @@
   "pokedex": [
     "cobblemon.species.mewtwox.desc"
   ],
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

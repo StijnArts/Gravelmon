@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "faram",
-  "nationalPokedexNumber": 2764,
+  "nationalPokedexNumber": 3284,
   "primaryType": "normal",
   "abilities": [
     "rockhead",
@@ -106,7 +106,7 @@
     "cobblemon.species.faram.desc"
   ],
   "preEvolution": "goatee",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

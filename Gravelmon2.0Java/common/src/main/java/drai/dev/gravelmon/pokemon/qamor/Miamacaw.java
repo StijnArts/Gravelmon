@@ -17,7 +17,7 @@ public class Miamacaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         92),
                 List.of(Ability.BIG_PECKS), Ability.TANGLED_FEET,
-                8, 165,
+                9, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 155, ExperienceGroup.ERRATIC,
@@ -55,14 +55,15 @@ public class Miamacaw extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_CLAW,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 42, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Miamacaw");
+        setCanFly(true);
+
 
     }
 

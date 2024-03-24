@@ -55,6 +55,7 @@
     "12:bubblebeam",
     "19:acid",
     "25:thunderwave",
+    "30:thunderclap",
     "38:liquidation",
     "55:poisonjab",
     "tm:scald",
@@ -71,6 +72,7 @@
     "tm:thunderbolt",
     "tm:thunder",
     "tm:return",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:sludgebomb",
@@ -85,7 +87,8 @@
     "tm:flash",
     "tm:waterfall",
     "tm:dive",
-    "egg:smokescreen"  ],
+    "egg:smokescreen",
+    "egg:moonrazer"  ],
   "labels": [
     "blazing_emerald",
     "gen1",
@@ -96,7 +99,7 @@
     "cobblemon.species.hoenniantentacruel.desc"
   ],
   "preEvolution": "hoenniantentacool",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

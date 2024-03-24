@@ -48,21 +48,6 @@
     "water_1",
     "monster"
   ],
-  "drops": {
-    "amount": "5",
-    "entries": [
-      {
-        "item": "minecraft:prismarine",
-        "quantityRange": "4-8",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "4-8",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:bodyslam",
     "1:bellydrum",

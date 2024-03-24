@@ -14,13 +14,13 @@ public class Hoatrex extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         100),
                 List.of(Ability.PETRIFY), Ability.SOLAR_POWER,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                28, 165,
+                new Stats(0,0,0,0,0,0), 3,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("- Glare Normal - Splash Normal - Splash Normal - Sky Attack Flying 6 Ominous Wind Ghost 13 Dragon BreathSTAB Dragon 22 Dragon RageSTAB Dragon 29 TwisterSTAB Dragon 37 Heat WaveSTAB Fire 45 Punishment Dark 53 Dragon ClawSTAB Dragon 62 Overrule Dragon 70 Fire BlastSTAB Fire 79 Dragon PulseSTAB Dragon 87 Solar FlareSTAB Fire 94 Dragon RushSTAB Dragon"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SKY_ATTACK,1),
@@ -38,14 +38,13 @@ public class Hoatrex extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_RUSH,94)                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Hoatrex");
+        setCanFly(true);
 
     }
 

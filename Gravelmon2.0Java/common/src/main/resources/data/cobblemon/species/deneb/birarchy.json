@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "birarchy",
-  "nationalPokedexNumber": 3178,
+  "nationalPokedexNumber": 3787,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -60,6 +60,7 @@
     "37:crushclaw",
     "42:mirrormove",
     "45:bravebird",
+    "tutor:glide",
     "tutor:leer",
     "tutor:snarl",
     "tutor:feintattack",

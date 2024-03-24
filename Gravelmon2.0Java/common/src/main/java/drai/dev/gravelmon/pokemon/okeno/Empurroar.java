@@ -14,7 +14,7 @@ public class Empurroar extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         91),
                 List.of(Ability.CHLOROPHYLL,Ability.INTIMIDATE,Ability.COTTON_DOWN), Ability.COTTON_DOWN,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,0,3), 45,
                 0.5,
                 207, ExperienceGroup.MEDIUM_SLOW,
@@ -94,10 +94,10 @@ public class Empurroar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FAKE_OUT,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 56, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -15,14 +15,15 @@ public class Ambug extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         28),
                 List.of(Ability.SOLID_ROCK), Ability.CLEAR_BODY,
-                8, 165,
+                2, 165,
                 new Stats(0,0,1,0,0,0), 45,
                 0.5,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MINERAL),
                 List.of("The bug inside has been restored to life, but it is still immobile within the hardened amber. Its potent psychic powers let it survive even though it cannot breathe or eat."),
-                List.of(),
+                List.of(new EvolutionEntry("carambug", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.MUD_SPORT,4),
@@ -106,8 +107,8 @@ public class Ambug extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSIBULLET,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 35, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terrobalt",
-  "nationalPokedexNumber": 2115,
+  "nationalPokedexNumber": 2186,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.terrobalt.desc"
   ],
   "preEvolution": "kookabill",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

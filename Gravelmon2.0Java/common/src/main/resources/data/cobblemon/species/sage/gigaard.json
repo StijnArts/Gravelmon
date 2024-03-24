@@ -49,21 +49,6 @@
     "field",
     "mineral"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "cobblemon:hard_stone",
-        "quantityRange": "1-2",
-        "percentage": 10
-      },
-      {
-        "item": "minecraft:emerald_ore",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:crushclaw",
     "1:scratch",
@@ -153,7 +138,7 @@
     "cobblemon.species.gigaard.desc"
   ],
   "preEvolution": "terratetra",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

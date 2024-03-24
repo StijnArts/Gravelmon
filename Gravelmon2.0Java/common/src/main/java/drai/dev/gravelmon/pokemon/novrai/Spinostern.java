@@ -15,14 +15,15 @@ public class Spinostern extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         76),
                 List.of(Ability.SWIFT_SWIM), Ability.SHEER_FORCE,
-                8, 165,
+                11, 165,
                 new Stats(0,1,0,0,0,0), 45,
                 0.5,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_1),
                 List.of("An aquatic predator that swam in Novrai's oceans long ago. It floated just below the surface, letting its sail absorb sunlight as it closed in on its prey."),
-                List.of(),
+                List.of(new EvolutionEntry("Overroard", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,4),
@@ -114,14 +115,15 @@ public class Spinostern extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_RUSH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 11, 34, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Spinostern");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

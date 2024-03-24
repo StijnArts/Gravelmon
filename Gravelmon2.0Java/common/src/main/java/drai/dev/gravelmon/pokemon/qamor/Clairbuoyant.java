@@ -17,7 +17,7 @@ public class Clairbuoyant extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         67),
                 List.of(Ability.FOREWARN), Ability.GALE_WINGS,
-                8, 165,
+                22, 165,
                 new Stats(1,0,0,1,0,0), 75,
                 0.5,
                 180, ExperienceGroup.SLOW,
@@ -44,14 +44,17 @@ public class Clairbuoyant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 29, 43, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Clairbuoyant");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

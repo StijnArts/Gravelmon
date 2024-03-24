@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "squalucid",
-  "nationalPokedexNumber": 1435,
+  "nationalPokedexNumber": 1445,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -149,7 +149,7 @@
     "cobblemon.species.squalucid.desc"
   ],
   "preEvolution": "lamnaw",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

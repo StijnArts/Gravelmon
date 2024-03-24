@@ -170,11 +170,7 @@
   "drops": {
     "amount": "2",
     "entries": [
-      {
-        "item": "minecraft:lily_pad",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
+
     ]
       },
       "labels": [
@@ -199,16 +195,6 @@
     "water_1",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:lily_pad",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:uproar",
     "1:mudslide",
@@ -299,7 +285,7 @@
     "cobblemon.species.bullotus.desc"
   ],
   "preEvolution": "flowger",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

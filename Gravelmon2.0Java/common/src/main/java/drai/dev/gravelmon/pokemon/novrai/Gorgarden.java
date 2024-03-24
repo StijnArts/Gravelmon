@@ -15,14 +15,15 @@ public class Gorgarden extends drai.dev.gravelmon.pokemon.Pokemon {
                         51,
                         44),
                 List.of(Ability.LEAF_GUARD,Ability.TANGLING_HAIR,Ability.LONG_REACH), Ability.LONG_REACH,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 150,
                 0.25,
                 54, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.DRAGON),
                 List.of("Although it appears innocuous, if its population is left unchecked it can quickly overrun forests. It collects flowers it likes and weaves them into its vines."),
-                List.of(),
+                List.of(new EvolutionEntry("kudzusa", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.WRAP,4),
@@ -112,10 +113,10 @@ public class Gorgarden extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_PLAINS))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

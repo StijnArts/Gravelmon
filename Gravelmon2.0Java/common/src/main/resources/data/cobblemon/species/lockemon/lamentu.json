@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lamentu",
-  "nationalPokedexNumber": 2513,
+  "nationalPokedexNumber": 2812,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
@@ -132,7 +132,7 @@
   "pokedex": [
     "cobblemon.species.lamentu.desc"
   ],
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

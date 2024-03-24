@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gagokin",
-  "nationalPokedexNumber": 3221,
+  "nationalPokedexNumber": 3830,
   "primaryType": "steel",
   "abilities": [
     "download",
@@ -108,7 +108,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

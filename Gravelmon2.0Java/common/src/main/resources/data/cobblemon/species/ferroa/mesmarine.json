@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mesmarine",
-  "nationalPokedexNumber": 1524,
+  "nationalPokedexNumber": 1534,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
@@ -153,7 +153,7 @@
   "pokedex": [
     "cobblemon.species.mesmarine.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

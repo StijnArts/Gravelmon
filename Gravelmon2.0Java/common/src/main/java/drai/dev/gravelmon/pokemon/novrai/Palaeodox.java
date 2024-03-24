@@ -15,7 +15,7 @@ public class Palaeodox extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         52),
                 List.of(Ability.NEUTRALIZING_GAS,Ability.REALITYWARP,Ability.PSYCHIC_SURGE), Ability.PSYCHIC_SURGE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -124,14 +124,16 @@ public class Palaeodox extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BUBBLE_BEAM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 37, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Palaeodox");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

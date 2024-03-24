@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mannovolt",
-  "nationalPokedexNumber": 2557,
+  "nationalPokedexNumber": 2963,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -131,7 +131,7 @@
     "cobblemon.species.mannovolt.desc"
   ],
   "preEvolution": "zapouch",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

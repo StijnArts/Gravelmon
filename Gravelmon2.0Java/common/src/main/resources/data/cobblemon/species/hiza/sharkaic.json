@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sharkaic",
-  "nationalPokedexNumber": 2199,
+  "nationalPokedexNumber": 2270,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -85,7 +85,7 @@
       ]   
  }
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

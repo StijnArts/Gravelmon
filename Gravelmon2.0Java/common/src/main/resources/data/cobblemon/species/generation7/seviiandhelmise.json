@@ -113,7 +113,7 @@
   "pokedex": [
     "cobblemon.species.seviiandhelmise.desc"
   ],
-  "baseScale": 0.73125,
+  "baseScale": 0.975,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

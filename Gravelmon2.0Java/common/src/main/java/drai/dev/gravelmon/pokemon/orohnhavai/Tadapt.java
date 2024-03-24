@@ -17,14 +17,21 @@ public class Tadapt extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         80),
                 List.of(Ability.ADAPTABILITY), Ability.OVERCOAT,
-                8, 165,
+                3, 165,
                 new Stats(1,0,0,0,0,0), 45,
                 0.5,
                 60, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Tadapt's cell structure quickly configures itself to easily adapt to its surroundings. This allows it so they can withstand any harsh climate effects."),
-                List.of(),
+                List.of(new EvolutionEntry("thornment", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_JUNGLE.getId() + ":" + Biome.IS_JUNGLE.getName() +"\""))),
+                        new EvolutionEntry("phrilter", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_NETHER.getId() + ":" + Biome.IS_NETHER.getName() +"\""))),
+                        new EvolutionEntry("vortexol", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_DEEP_OCEAN.getId() + ":" + Biome.IS_DEEP_OCEAN.getName() +"\""))),
+                        new EvolutionEntry("elecko", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_ARID.getId() + ":" + Biome.IS_ARID.getName() +"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,5),
@@ -46,8 +53,8 @@ public class Tadapt extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 1, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

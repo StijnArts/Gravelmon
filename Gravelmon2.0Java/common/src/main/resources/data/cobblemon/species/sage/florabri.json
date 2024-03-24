@@ -48,21 +48,6 @@
     "grass",
     "flying"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:melon_seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:quiverdance",
     "1:jetstrike",
@@ -75,6 +60,7 @@
     "20:grasswhistle",
     "24:leaftornado",
     "28:agility",
+    "32:tempest",
     "36:gigadrain",
     "41:windshear",
     "46:synthesis",

@@ -15,16 +15,28 @@ public class Suravi extends drai.dev.gravelmon.pokemon.Pokemon {
                         136,
                         115),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                34, 165,
                 new Stats(0,0,0,0,3,0), 3,
                 0.0,
                 302, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("- Sacred FireSTAB Fire - Dragon EnergySTAB Dragon - Fire BlastSTAB Fire - Peck Flying - Mystical FireSTAB Fire - Mystic SongSTAB Dragon - Flame BurstSTAB Fire - Dragon RushSTAB Dragon - Air Slash Flying - Slash Normal - Setting SunSTAB Fire - Berserk Fury Dragon"),
+                List.of(""),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.BERSERKFURY,1),
+                        new MoveLearnSetEntry(Move.SACRED_FIRE,1),
+                        new MoveLearnSetEntry(Move.DRAGON_ENERGY,1),
+                        new MoveLearnSetEntry(Move.FIRE_BLAST,1),
+                        new MoveLearnSetEntry(Move.PECK,1),
+                        new MoveLearnSetEntry(Move.MYSTICAL_FIRE,1),
+                        new MoveLearnSetEntry(Move.MYSTIC_SONG,1),
+                        new MoveLearnSetEntry(Move.FLAME_BURST,1),
+                        new MoveLearnSetEntry(Move.DRAGON_RUSH,1),
+                        new MoveLearnSetEntry(Move.AIR_SLASH,1),
+                        new MoveLearnSetEntry(Move.SLASH,44),
+                        new MoveLearnSetEntry(Move.SETTING_SUN,48),
+                        new MoveLearnSetEntry(Move.BERSERK_FURY,1),
+
                         new MoveLearnSetEntry(Move.DRACO_METEOR,"tm"),
                         new MoveLearnSetEntry(Move.BURNING_JEALOUSY,"tm"),
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tm"),
@@ -104,8 +116,8 @@ public class Suravi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STEEL_WING,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

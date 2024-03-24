@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "knocust",
-  "nationalPokedexNumber": 2132,
+  "nationalPokedexNumber": 2203,
   "primaryType": "fighting",
   "secondaryType": "bug",
   "abilities": [
@@ -86,7 +86,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

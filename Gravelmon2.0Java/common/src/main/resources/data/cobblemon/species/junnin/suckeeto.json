@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "suckeeto",
-  "nationalPokedexNumber": 2298,
+  "nationalPokedexNumber": 2369,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -137,7 +137,7 @@
     "cobblemon.species.suckeeto.desc"
   ],
   "preEvolution": "bloatick",
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

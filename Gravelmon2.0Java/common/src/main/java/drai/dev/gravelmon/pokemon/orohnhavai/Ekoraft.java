@@ -17,14 +17,15 @@ public class Ekoraft extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         70),
                 List.of(Ability.OVERGROW), Ability.TECHNICIAN,
-                8, 165,
+                10, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("Ekoraft are skilled at crafting weapons and tools with tree branches. The tools they craft help them perform daily tasks such as collecting food and building shelter for them. They are very protective of their group and will defend its home with its life."),
-                List.of(),
+                List.of(new EvolutionEntry("expertri", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.VINE_WHIP,5),
@@ -49,8 +50,8 @@ public class Ekoraft extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE,  16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

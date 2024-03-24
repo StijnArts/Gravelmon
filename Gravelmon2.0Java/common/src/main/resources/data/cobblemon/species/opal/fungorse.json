@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fungorse",
-  "nationalPokedexNumber": 1417,
+  "nationalPokedexNumber": 1427,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -96,7 +96,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

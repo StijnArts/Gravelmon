@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fruitius",
-  "nationalPokedexNumber": 3216,
+  "nationalPokedexNumber": 3825,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -66,6 +66,7 @@
     "50:synthesis",
     "56:solarbeam",
     "61:leafstorm",
+    "66:dragonbeat",
     "tm:ancientpower",
     "tm:dragonbreath",
     "tm:leechseed",
@@ -85,6 +86,7 @@
     "egg:razorwind",
     "egg:earthquake",
     "egg:safeguard",
+    "egg:rapidgrowth",
     "egg:slam",
     "egg:bulletseed",
     "egg:mudslap",
@@ -101,7 +103,7 @@
   "pokedex": [
     "cobblemon.species.fruitius.desc"
   ],
-  "baseScale": 0.65625,
+  "baseScale": 0.875,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

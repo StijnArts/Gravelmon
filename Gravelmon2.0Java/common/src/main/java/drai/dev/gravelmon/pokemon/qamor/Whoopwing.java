@@ -17,14 +17,15 @@ public class Whoopwing extends drai.dev.gravelmon.pokemon.Pokemon {
                         38,
                         57),
                 List.of(Ability.BIG_PECKS), Ability.TANGLED_FEET,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 195,
                 0.5,
                 52, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Whoopwing are often found clumped together in thick flocks, sometimes blocking roadways and filling towns with a cacophony of squawks. Tourist often catch and bring Whoopwing back to their home region and unwillingly introduce them to its environment, making them common appearances in my unusual corners of the world."),
-                List.of(),
+                List.of(new EvolutionEntry("miamacaw", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,7),
@@ -52,14 +53,14 @@ public class Whoopwing extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_CLAW,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Whoopwing");
+        setCanFly(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "frostoss",
-  "nationalPokedexNumber": 2310,
+  "nationalPokedexNumber": 2381,
   "primaryType": "ice",
   "secondaryType": "fighting",
   "abilities": [
@@ -156,7 +156,7 @@
   "pokedex": [
     "cobblemon.species.frostoss.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -17,14 +17,15 @@ public class Zapillar extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         20),
                 List.of(Ability.VOLT_ABSORB,Ability.STATIC,Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 52, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Zapillar share energy with each other through the touch of their antennae. Groups of Zapillar will crawl over an enemy, electrocuting it until it is paralyzed."),
-                List.of(),
+                List.of(new EvolutionEntry("zapcoon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"10")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.LEECH_LIFE,4),
@@ -45,11 +46,11 @@ public class Zapillar extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TREE_TOP),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Zapillar");

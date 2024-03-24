@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arincess",
-  "nationalPokedexNumber": 3152,
+  "nationalPokedexNumber": 3761,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -66,7 +66,9 @@
     "41:extrasensory",
     "47:calmmind",
     "49:zenheadbutt",
+    "53:bugnoise",
     "59:swagger",
+    "61:psyburn",
     "tm:spikes",
     "tm:thunderwave",
     "tm:headbutt",
@@ -87,8 +89,10 @@
     "tm:cut",
     "tm:rocksmash",
     "tutor:hiddenpower",
+    "tutor:shadowclamp",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:bugnoise",
     "tutor:hydropump",
     "tutor:dig",
     "tutor:nastyplot",
@@ -103,6 +107,8 @@
     "egg:helpinghand",
     "egg:hiddenpower",
     "egg:hyperbeam",
+    "egg:hypnopulse",
+    "egg:latentpower",
     "egg:lightscreen",
     "egg:mudshot",
     "egg:powergemcrystal",
@@ -122,7 +128,7 @@
   "pokedex": [
     "cobblemon.species.arincess.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

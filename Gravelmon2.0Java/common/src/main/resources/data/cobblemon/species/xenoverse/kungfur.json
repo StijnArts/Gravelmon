@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kungfur",
-  "nationalPokedexNumber": 1716,
+  "nationalPokedexNumber": 1726,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -137,7 +137,7 @@
     "cobblemon.species.kungfur.desc"
   ],
   "preEvolution": "yemin",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,14 +15,15 @@ public class Snofresh extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         45),
                 List.of(Ability.AROMA_VEIL,Ability.ICE_BODY,Ability.NATURAL_CURE), Ability.NATURAL_CURE,
-                8, 165,
+                13, 165,
                 new Stats(2,0,0,0,0,0), 130,
                 0.5,
                 140, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
                 List.of("The effervescent aroma from the leaves of this Pokemon soothes the body and mind, so they're brewed to create teas and perfumes. Eaten raw, however, the leaves will freeze you solid!"),
-                List.of(),
+                List.of(new EvolutionEntry("snomatcha", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.INGRAIN,1),
                         new MoveLearnSetEntry(Move.LEAFAGE,6),
@@ -49,8 +50,8 @@ public class Snofresh extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLASH,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

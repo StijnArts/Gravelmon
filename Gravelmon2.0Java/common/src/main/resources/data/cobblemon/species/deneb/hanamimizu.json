@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hanamimizu",
-  "nationalPokedexNumber": 3247,
+  "nationalPokedexNumber": 3856,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -112,7 +112,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

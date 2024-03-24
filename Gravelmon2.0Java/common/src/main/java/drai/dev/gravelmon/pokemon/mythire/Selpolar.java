@@ -15,7 +15,7 @@ public class Selpolar extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         80),
                 List.of(Ability.TIDALSHIFT), Ability.TIDALSHIFT,
-                8, 165,
+                15, 165,
                 new Stats(2,0,0,0,0,0), 125,
                 0.5,
                 168, ExperienceGroup.SLOW,
@@ -24,6 +24,22 @@ public class Selpolar extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It can live on land by shifting its form to walk upright. However, it's most at home in the sea, where it serenades sailors passing by, sometimes to their doom."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.SING,1),
+                        new MoveLearnSetEntry(Move.SURF,1),
+                        new MoveLearnSetEntry(Move.DIVE,1),
+                        new MoveLearnSetEntry(Move.HAZE,1),
+                        new MoveLearnSetEntry(Move.MIST,1),
+                        new MoveLearnSetEntry(Move.ICY_WIND,1),
+                        new MoveLearnSetEntry(Move.FROST_BREATH,1),
+                        new MoveLearnSetEntry(Move.FREEZEDRY,1),
+                        new MoveLearnSetEntry(Move.AURORA_BEAM,1),
+                        new MoveLearnSetEntry(Move.WATER_SPOUT,1),
+                        new MoveLearnSetEntry(Move.BUBBLE,1),
+                        new MoveLearnSetEntry(Move.ENDEAVOR,1),
+                        new MoveLearnSetEntry(Move.HYPER_VOICE,1),
+                        new MoveLearnSetEntry(Move.RETALIATE,1),
+                        new MoveLearnSetEntry(Move.BODY_SLAM,1),
+                        new MoveLearnSetEntry(Move.ALLURING_VOICE,1),
                         new MoveLearnSetEntry(Move.HYDROKINESIS,1),
                         new MoveLearnSetEntry(Move.RETURN,"tm"),
                         new MoveLearnSetEntry(Move.HEARTFELTPULSE,"tm"),
@@ -65,14 +81,16 @@ public class Selpolar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDROKINESIS,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 44, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Selpolar");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

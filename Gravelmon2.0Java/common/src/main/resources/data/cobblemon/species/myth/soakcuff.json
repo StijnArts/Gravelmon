@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "soakcuff",
-  "nationalPokedexNumber": 2802,
+  "nationalPokedexNumber": 3322,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -94,7 +94,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

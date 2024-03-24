@@ -15,14 +15,15 @@ public class Romirror extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         50),
                 List.of(Ability.FRACTURE,Ability.MIRROR_ARMOR,Ability.MAGIC_BOUNCE), Ability.MAGIC_BOUNCE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 210,
                 0.0,
                 70, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Romirror is a vain Pokemon obsessed with keeping itself clean and free of cracks. Its brain cells are distributed across its shiny, reflective surface."),
-                List.of(),
+                List.of(new EvolutionEntry("resufflect", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.METAL_BURST.getName()+"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,1),
                         new MoveLearnSetEntry(Move.BIDE,5),
@@ -81,11 +82,11 @@ public class Romirror extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKILL_SWAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Romirror");

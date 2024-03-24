@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nocturvian",
-  "nationalPokedexNumber": 1538,
+  "nationalPokedexNumber": 1548,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -168,7 +168,7 @@
     "cobblemon.species.nocturvian.desc"
   ],
   "preEvolution": "clockoo",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lightwin",
-  "nationalPokedexNumber": 3338,
+  "nationalPokedexNumber": 4241,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
@@ -120,7 +120,7 @@
   "pokedex": [
     "cobblemon.species.lightwin.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

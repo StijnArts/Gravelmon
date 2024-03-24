@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leviathao",
-  "nationalPokedexNumber": 1961,
+  "nationalPokedexNumber": 2032,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -90,7 +90,7 @@
   "pokedex": [
     "cobblemon.species.leviathao.desc"
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

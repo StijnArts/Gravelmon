@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "enigmeon",
-  "nationalPokedexNumber": 2448,
+  "nationalPokedexNumber": 2747,
   "primaryType": "normal",
   "abilities": [
     "unaware",
@@ -69,7 +69,7 @@
     "53:slackoff",
     "57:holdback",
     "60:earthpower",
-    "64:cosmicpower",
+    "64:cosmicpowercosmic",
     "73:storedpower",
     "tm:roarsound",
     "tm:toxic",
@@ -129,7 +129,7 @@
     "cobblemon.species.enigmeon.desc"
   ],
   "preEvolution": "eevee",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

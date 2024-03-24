@@ -15,7 +15,7 @@ public class Orbitgami extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         81),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,2,0), 60,
                 0.5,
                 182, ExperienceGroup.MEDIUM_FAST,
@@ -108,14 +108,15 @@ public class Orbitgami extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METEORSHOWER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE, Biome.IS_BAMBOO)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Orbitgami");
+        setCanFly(true);
 
     }
 

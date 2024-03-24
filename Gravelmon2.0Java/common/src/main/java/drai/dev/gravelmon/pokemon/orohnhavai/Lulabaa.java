@@ -17,8 +17,8 @@ public class Lulabaa extends drai.dev.gravelmon.pokemon.Pokemon {
                         125,
                         75),
                 List.of(Ability.CUTE_CHARM,Ability.MAGIC_GUARD,Ability.CACOPHONY), Ability.CACOPHONY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                9, 165,
+                new Stats(0,0,0,0,0,0), 70,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -48,8 +48,9 @@ public class Lulabaa extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 24, 43, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

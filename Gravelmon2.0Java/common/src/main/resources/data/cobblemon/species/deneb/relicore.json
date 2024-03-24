@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "relicore",
-  "nationalPokedexNumber": 3134,
+  "nationalPokedexNumber": 3743,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -74,6 +74,7 @@
     "tm:substitute",
     "tm:icywind",
     "tm:haze",
+    "tm:devastate",
     "tm:confuseray",
     "tm:mudbomb",
     "tm:surf",
@@ -84,6 +85,7 @@
     "tutor:hiddenpower",
     "tutor:toxic",
     "tutor:hydropump",
+    "tutor:shadowclamp",
     "egg:ancientpower",
     "egg:aquatail",
     "egg:bounce",
@@ -119,7 +121,7 @@
     "cobblemon.species.relicore.desc"
   ],
   "preEvolution": "relicanth",
-  "baseScale": 0.6,
+  "baseScale": 0.7999999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

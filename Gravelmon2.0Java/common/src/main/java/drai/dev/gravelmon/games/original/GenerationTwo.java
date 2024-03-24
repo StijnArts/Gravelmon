@@ -36,10 +36,10 @@ public class GenerationTwo extends Game {
 
         pokemon.add(new VaritasianTogepi(175));
         pokemon.add(new VaritasianTogetic(176));
-//        pokemon.add(new VaritasianSudowoodo(185)); NOT FINISHED
+//        pokemon.add(new VaritasianSudowoodo(185)); Missing Art
         pokemon.add(new VaritasianWobbuffet(202));
-//        pokemon.add(new VaritasianMantine(226)); NOT FINISHED
-//        pokemon.add(new VaritasianKingdra(230)); NOT FINISHED
+//        pokemon.add(new VaritasianMantine(226)); Missing Art
+//        pokemon.add(new VaritasianKingdra(230)); Missing Art
         pokemon.add(new VaritasianPorygon2(233));
         pokemon.add(new VaritasianTyrogue(236));
         pokemon.add(new VaritasianHitmontop(237));
@@ -55,9 +55,9 @@ public class GenerationTwo extends Game {
         pokemon.add(new HizianMurkrow(198));
         pokemon.add(new HizianMisdreavus(200));
 
-//        pokemon.add(new NorheimanUnown(201)); NOT FINISHED
-//        pokemon.add(new NorheimanForretress(205)); NOT FINISHED
-//        pokemon.add(new NorheimanHoundour(228)); NOT FINISHED
+//        pokemon.add(new NorheimanUnown(201)); Missing Stats
+//        pokemon.add(new NorheimanForretress(205)); Missing Stats
+//        pokemon.add(new NorheimanHoundour(228)); Member of Line not finished
 
         //Aristosian
         pokemon.add(new AristosianSentret(161));
@@ -67,8 +67,8 @@ public class GenerationTwo extends Game {
         pokemon.add(new AristosianFlaaffy(180));
 
         //Avorian
-//        pokemon.add(new AvorianMareep(179)); NOT FINISHED
-//        pokemon.add(new AvorianFlaaffy(180)); NOT FINISHED
+//        pokemon.add(new AvorianMareep(179)); Member of Line not finished
+//        pokemon.add(new AvorianFlaaffy(180)); Member of Line not finished
 
         registerPokemonInfinityForms();
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "umiveil",
-  "nationalPokedexNumber": 1371,
+  "nationalPokedexNumber": 1381,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.umiveil.desc"
   ],
   "preEvolution": "marifin",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

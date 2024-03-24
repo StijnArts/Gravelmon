@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "endramodai",
-  "nationalPokedexNumber": 2514,
+  "nationalPokedexNumber": 2813,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
@@ -134,7 +134,7 @@
   "pokedex": [
     "cobblemon.species.endramodai.desc"
   ],
-  "baseScale": 3.0,
+  "baseScale": 4.0,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

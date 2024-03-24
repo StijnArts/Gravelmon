@@ -15,14 +15,15 @@ public class Spiroll extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         25),
                 List.of(Ability.SCRAPPY), Ability.SHELL_ARMOR,
-                8, 165,
+                7, 165,
                 new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 144, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("It crawls backwards with its shell in front of it. To frighten potential foes, it strikes the shell with its sturdy, toughened eyestalks."),
-                List.of(),
+                List.of(new EvolutionEntry("percusshell", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.ROLLOUT,8),
@@ -98,11 +99,11 @@ public class Spiroll extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 45, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Spiroll");

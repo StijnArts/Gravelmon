@@ -159,11 +159,7 @@
   "drops": {
     "amount": "2",
     "entries": [
-      {
-        "item": "minecraft:lily_pad",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
+
     ]
       },
       "labels": [
@@ -210,16 +206,6 @@
     "water_1",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:lily_pad",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:watergun",
     "4:tailwhip",

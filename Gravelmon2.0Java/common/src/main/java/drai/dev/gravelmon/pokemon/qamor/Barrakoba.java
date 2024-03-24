@@ -17,7 +17,7 @@ public class Barrakoba extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         44),
                 List.of(Ability.TORRENT), Ability.STAKEOUT,
-                8, 165,
+                20, 165,
                 new Stats(2,1,0,0,0,0), 45,
                 0.875,
                 239, ExperienceGroup.ERRATIC,
@@ -57,14 +57,16 @@ public class Barrakoba extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOUL_PLAY,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Barrakoba");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

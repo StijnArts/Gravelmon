@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "negawatt",
-  "nationalPokedexNumber": 2022,
+  "nationalPokedexNumber": 2093,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -78,7 +78,7 @@
     "cobblemon.species.negawatt.desc"
   ],
   "preEvolution": "insulatex",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,7 +15,7 @@ public class Chrystasis extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         30),
                 List.of(Ability.MARVEL_SCALE), Ability.FILTER,
-                8, 165,
+                28, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.5,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -23,7 +23,18 @@ public class Chrystasis extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
                 List.of("It's entombed itself in a crystal cocoon, but it will never hatch. Inside, its psychic power becomes so intense that it can still move around, even though its inner body slumbers within."),
                 List.of(),
-                List.of(
+                List.of(new MoveLearnSetEntry(Move.FLASH,1),
+                        new MoveLearnSetEntry(Move.DRAGON_CLAW,1),
+                        new MoveLearnSetEntry(Move.POWER_GEM,1),
+                        new MoveLearnSetEntry(Move.BREAKING_SWIPE,1),
+                        new MoveLearnSetEntry(Move.TEARFUL_LOOK,1),
+                        new MoveLearnSetEntry(Move.BARRIER,1),
+                        new MoveLearnSetEntry(Move.MAGIC_COAT,1),
+                        new MoveLearnSetEntry(Move.MIRACLE_EYE,1),
+                        new MoveLearnSetEntry(Move.PSYSHOCK,1),
+                        new MoveLearnSetEntry(Move.CONFUSION,1),
+                        new MoveLearnSetEntry(Move.FLAIL,1),
+                        new MoveLearnSetEntry(Move.COVET,1),
                         new MoveLearnSetEntry(Move.CRYSTALDEFENSE,1),
                         new MoveLearnSetEntry(Move.BLOCK,"tm"),
                         new MoveLearnSetEntry(Move.COVET,"tm"),
@@ -55,8 +66,8 @@ public class Chrystasis extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURNING_JEALOUSY,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 45, 58, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goabalt",
-  "nationalPokedexNumber": 3003,
+  "nationalPokedexNumber": 3612,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
@@ -76,7 +76,9 @@
     "tm:irondefense",
     "tm:zapcannon",
     "tm:shadowball",
+    "tm:devastate",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:discharge",
     "tm:nightslash",
     "tm:cut",
@@ -86,11 +88,13 @@
     "tutor:toxic",
     "tutor:dig",
     "tutor:iciclecrash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "egg:ancientpower",
     "egg:aquatail",
     "egg:bounce",
     "egg:bulldoze",
+    "egg:darkroarsound",
     "egg:endeavor",
     "egg:fissure",
     "egg:flashcannon",
@@ -103,6 +107,7 @@
     "egg:scaryface",
     "egg:snatch",
     "egg:spark",
+    "egg:stardustcosmic",
     "egg:sunnyday",
     "egg:wildcharge"  ],
   "labels": [
@@ -115,7 +120,7 @@
     "cobblemon.species.goabalt.desc"
   ],
   "preEvolution": "hornikel",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

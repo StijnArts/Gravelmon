@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dreadcap",
-  "nationalPokedexNumber": 2616,
+  "nationalPokedexNumber": 3022,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -90,12 +90,15 @@
     "tm:toxic"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dreadcap.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "rokkap",
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -110,7 +113,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

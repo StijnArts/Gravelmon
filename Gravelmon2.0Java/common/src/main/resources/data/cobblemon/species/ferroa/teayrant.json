@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "teayrant",
-  "nationalPokedexNumber": 1557,
+  "nationalPokedexNumber": 1567,
   "primaryType": "dragon",
   "abilities": [
     "ripen",
@@ -149,7 +149,7 @@
     "cobblemon.species.teayrant.desc"
   ],
   "preEvolution": "teayke",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

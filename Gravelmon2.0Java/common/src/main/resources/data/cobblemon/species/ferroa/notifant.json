@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "notifant",
-  "nationalPokedexNumber": 1484,
+  "nationalPokedexNumber": 1494,
   "primaryType": "steel",
   "secondaryType": "water",
   "abilities": [
@@ -121,7 +121,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

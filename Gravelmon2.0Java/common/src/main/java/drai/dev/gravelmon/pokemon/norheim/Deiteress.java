@@ -17,8 +17,8 @@ public class Deiteress extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         80),
                 List.of(Ability.FLOWER_VEIL), Ability.AROMA_VEIL,
-                8, 165,
-                new Stats(2,0,0,1,0,0), 0,
+                24, 165,
+                new Stats(2,0,0,1,0,0), 3,
                 0.0,
                 306, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -46,8 +46,8 @@ public class Deiteress extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LAST_RESORT,85)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

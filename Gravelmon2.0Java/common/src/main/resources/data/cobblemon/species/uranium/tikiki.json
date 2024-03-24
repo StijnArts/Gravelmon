@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tikiki",
-  "nationalPokedexNumber": 1886,
+  "nationalPokedexNumber": 1957,
   "primaryType": "grass",
   "abilities": [
     "vitalspirit",
@@ -154,7 +154,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

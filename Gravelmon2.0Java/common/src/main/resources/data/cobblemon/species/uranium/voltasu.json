@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "voltasu",
-  "nationalPokedexNumber": 1953,
+  "nationalPokedexNumber": 2024,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -166,7 +166,7 @@
       ]   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

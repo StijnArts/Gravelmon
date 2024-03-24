@@ -25,7 +25,12 @@ public class Grimapa extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("The defiler of the marshes and the Destroyer of the Hall of Heroes. Once Grimapa has contaminated the entire Old Growth of a foreign land, it will prey on Deiteress's weakened soul."),
                 List.of(),
-                List.of(
+                List.of(new MoveLearnSetEntry(Move.NEEDLE_ARM,1),
+                        new MoveLearnSetEntry(Move.LEECH_SEED,1),
+                        new MoveLearnSetEntry(Move.SCARY_FACE,1),
+                        new MoveLearnSetEntry(Move.LICK,1),
+                        new MoveLearnSetEntry(Move.BITE,1),
+                        new MoveLearnSetEntry(Move.TOXIC_SPIKES,1),
                         new MoveLearnSetEntry(Move.ROAR,1),
                         new MoveLearnSetEntry(Move.SWITCHEROO,6),
                         new MoveLearnSetEntry(Move.PAYBACK,16),
@@ -38,8 +43,8 @@ public class Grimapa extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,86)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 33, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

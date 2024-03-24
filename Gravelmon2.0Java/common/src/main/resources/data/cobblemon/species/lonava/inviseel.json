@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "inviseel",
-  "nationalPokedexNumber": 2405,
+  "nationalPokedexNumber": 2704,
   "primaryType": "dragon",
   "abilities": [
     "strongjaw",
@@ -119,7 +119,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

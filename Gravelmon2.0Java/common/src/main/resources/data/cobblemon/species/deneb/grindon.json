@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grindon",
-  "nationalPokedexNumber": 3063,
+  "nationalPokedexNumber": 3672,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -80,16 +80,19 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
+    "tutor:bugnoise",
     "tutor:dig",
     "egg:aquatail",
     "egg:dragonclaw",
     "egg:earthquake",
     "egg:firefang",
+    "egg:geoimpact",
     "egg:howlsound",
     "egg:icefang",
     "egg:lightscreen",
@@ -127,7 +130,7 @@
       ]   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

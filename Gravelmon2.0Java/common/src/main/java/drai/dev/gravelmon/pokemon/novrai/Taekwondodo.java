@@ -15,7 +15,7 @@ public class Taekwondodo extends drai.dev.gravelmon.pokemon.Pokemon {
                         91,
                         99),
                 List.of(Ability.CURSED_BODY,Ability.FINALE,Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                7, 165,
                 new Stats(0,2,0,0,0,0), 30,
                 0.5,
                 177, ExperienceGroup.SLOW,
@@ -119,8 +119,9 @@ public class Taekwondodo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKULL_BASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

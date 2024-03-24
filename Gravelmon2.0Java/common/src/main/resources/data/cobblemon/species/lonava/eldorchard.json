@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eldorchard",
-  "nationalPokedexNumber": 2409,
+  "nationalPokedexNumber": 2708,
   "primaryType": "grass",
   "abilities": [
     "harvest",
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.eldorchard.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

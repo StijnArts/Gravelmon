@@ -17,14 +17,15 @@ public class Fribitad extends drai.dev.gravelmon.pokemon.Pokemon {
                         42,
                         76),
                 List.of(Ability.GLUTTONY,Ability.LEAF_GUARD,Ability.PICKUP), Ability.PICKUP,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                3, 165,
+                new Stats(0,0,0,0,0,0), 160,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("With their vine tail, they swing from branch to branch to traverse through places. Because of their short arms, it uses its tail to grab and pickup items from out of reach."),
-                List.of(),
+                List.of(new EvolutionEntry("ribivine", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
                         new MoveLearnSetEntry(Move.PLUCK,5),
@@ -41,8 +42,8 @@ public class Fribitad extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

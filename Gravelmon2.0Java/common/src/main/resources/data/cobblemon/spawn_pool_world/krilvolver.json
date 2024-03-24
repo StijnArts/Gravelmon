@@ -7,7 +7,7 @@
       "id": "krilvolver-1",
       "pokemon": "krilvolver",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,11 +15,9 @@
       "level": "38-57",
       "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
-      },
-      "anticondition": {
-"biomes": [ "#cobblemon:is_hills" ]    }
+      }
     }
   ]
 }

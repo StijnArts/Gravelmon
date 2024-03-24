@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "detrarc",
-  "nationalPokedexNumber": 2460,
+  "nationalPokedexNumber": 2759,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
@@ -77,7 +77,7 @@
     "cobblemon.species.detrarc.desc"
   ],
   "preEvolution": "tooburm",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

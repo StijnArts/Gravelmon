@@ -15,14 +15,15 @@ public class Jigglwiggl extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         20),
                 List.of(Ability.EFFECT_SPORE,Ability.WATER_ABSORB,Ability.REGENERATOR), Ability.REGENERATOR,
-                8, 165,
+                2, 165,
                 new Stats(1,0,0,0,0,0), 200,
                 0.5,
                 52, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("An odd, fungal Pokemon that lives under the sea. Its body is sweet, but contains spores that begin to grow into new Jigglwiggl once ingested."),
-                List.of(),
+                List.of(new EvolutionEntry("bogglwoggl", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.POISON_POWDER,4),
@@ -101,9 +102,8 @@ public class Jigglwiggl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPORE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 26, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

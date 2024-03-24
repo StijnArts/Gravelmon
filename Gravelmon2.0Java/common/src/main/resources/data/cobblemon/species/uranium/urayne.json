@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "urayne",
-  "nationalPokedexNumber": 1965,
+  "nationalPokedexNumber": 2036,
   "primaryType": "nuclear",
   "abilities": [
     "keeneye",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:uranium_core",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:megapunch",
     "1:nuclearslash",
@@ -143,7 +153,7 @@
       "requiredContext": "gravelmon:uranium_core"   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

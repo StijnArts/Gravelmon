@@ -17,8 +17,8 @@ public class Wellmr extends drai.dev.gravelmon.pokemon.Pokemon {
                         187,
                         13),
                 List.of(Ability.BEAST_BOOST), Ability.BEAST_BOOST,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 165,
+                new Stats(0,0,0,0,0,0), 20,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -39,14 +39,13 @@ public class Wellmr extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_WHIP,74)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 45, 65, .06, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Wellmír");
+        setCanFly(true);
 
     }
 

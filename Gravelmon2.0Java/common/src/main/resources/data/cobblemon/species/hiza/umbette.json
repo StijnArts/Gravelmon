@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "umbette",
-  "nationalPokedexNumber": 2210,
+  "nationalPokedexNumber": 2281,
   "primaryType": "water",
   "abilities": [
     "static",
@@ -82,7 +82,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

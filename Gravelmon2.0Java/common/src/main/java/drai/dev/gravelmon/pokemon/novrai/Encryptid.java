@@ -15,7 +15,7 @@ public class Encryptid extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         120),
                 List.of(Ability.DOWNLOAD), Ability.ELECTRIC_SURGE,
-                8, 165,
+                21, 165,
                 new Stats(0,0,0,1,0,1), 45,
                 0.0,
                 175, ExperienceGroup.SLOW,
@@ -113,9 +113,9 @@ public class Encryptid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CUT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

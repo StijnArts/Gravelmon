@@ -7,7 +7,7 @@
       "id": "corsoreef-1",
       "pokemon": "corsoreef",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,7 +15,7 @@
       "level": "43-67",
       "weight": 5.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ]
+"biomes": [ "#cobblemon:is_warm_ocean" ]
       }
     }
   ]

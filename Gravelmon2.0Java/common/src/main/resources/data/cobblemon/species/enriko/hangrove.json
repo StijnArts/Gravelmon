@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hangrove",
-  "nationalPokedexNumber": 1623,
+  "nationalPokedexNumber": 1633,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -64,7 +64,7 @@
     "cobblemon.species.hangrove.desc"
   ],
   "preEvolution": "tangrue",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

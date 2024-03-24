@@ -17,7 +17,7 @@ public class Sephysar extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         110),
                 List.of(Ability.SWIFT_SWIM,Ability.WATER_VEIL,Ability.MOLD_BREAKER), Ability.MOLD_BREAKER,
-                8, 165,
+                31, 165,
                 new Stats(0,0,0,2,0,1), 15,
                 0.5,
                 270, ExperienceGroup.SLOW,
@@ -52,14 +52,15 @@ public class Sephysar extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 52, 70, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sephysar");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

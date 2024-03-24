@@ -15,7 +15,7 @@ public class Aloverity extends drai.dev.gravelmon.pokemon.Pokemon {
                         140,
                         70),
                 List.of(Ability.TRIAGE,Ability.WATER_VEIL,Ability.HEALER), Ability.HEALER,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.25,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -96,8 +96,8 @@ public class Aloverity extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BEACHTIDE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 56, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

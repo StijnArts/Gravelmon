@@ -15,7 +15,7 @@ public class Kudzusa extends drai.dev.gravelmon.pokemon.Pokemon {
                         101,
                         84),
                 List.of(Ability.GRASSY_SURGE,Ability.TANGLING_HAIR,Ability.LONG_REACH), Ability.LONG_REACH,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.25,
                 179, ExperienceGroup.MEDIUM_FAST,
@@ -117,10 +117,10 @@ public class Kudzusa extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUASH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, .9, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_PLAINS))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

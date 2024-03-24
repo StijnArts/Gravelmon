@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoppolat",
-  "nationalPokedexNumber": 1334,
+  "nationalPokedexNumber": 1344,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
@@ -110,7 +110,7 @@
   "pokedex": [
     "cobblemon.species.hoppolat.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

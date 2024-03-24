@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "haunk",
-  "nationalPokedexNumber": 1673,
+  "nationalPokedexNumber": 1683,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -78,7 +78,7 @@
       "requiredContext": "cobblemon:dusk_stone"   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

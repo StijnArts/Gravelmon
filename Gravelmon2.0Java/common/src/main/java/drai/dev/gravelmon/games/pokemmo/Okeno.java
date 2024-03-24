@@ -1,27 +1,6 @@
 package drai.dev.gravelmon.games.pokemmo;
 
-import drai.dev.gravelmon.pokemon.aristos.*;
-import drai.dev.gravelmon.pokemon.atlas.*;
-import drai.dev.gravelmon.pokemon.avoris.*;
-import drai.dev.gravelmon.pokemon.enriko.*;
-import drai.dev.gravelmon.pokemon.ferroa.*;
-import drai.dev.gravelmon.pokemon.hiza.*;
-import drai.dev.gravelmon.pokemon.hub.*;
-import drai.dev.gravelmon.pokemon.interregional.*;
-import drai.dev.gravelmon.pokemon.isiah.*;
-import drai.dev.gravelmon.pokemon.junnin.*;
-import drai.dev.gravelmon.pokemon.lonava.*;
-import drai.dev.gravelmon.pokemon.midamis.*;
-import drai.dev.gravelmon.pokemon.mythire.*;
-import drai.dev.gravelmon.pokemon.norheim.*;
-import drai.dev.gravelmon.pokemon.nosto.*;
-import drai.dev.gravelmon.pokemon.novrai.*;
-import drai.dev.gravelmon.pokemon.oceane.*;
 import drai.dev.gravelmon.pokemon.okeno.*;
-import drai.dev.gravelmon.pokemon.orohnhavai.*;
-import drai.dev.gravelmon.pokemon.qamor.*;
-import drai.dev.gravelmon.pokemon.rica.*;
-import drai.dev.gravelmon.pokemon.varitas.*;
 
 public class Okeno extends drai.dev.gravelmon.games.registry.Game {
     public Okeno() {
@@ -30,188 +9,188 @@ public class Okeno extends drai.dev.gravelmon.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Adobrick());
-        pokemon.add(new Adobuild());
-        pokemon.add(new Albagross());
-        pokemon.add(new Allergix());
-        pokemon.add(new Alpacoat());
-        pokemon.add(new Alpeak());
-        pokemon.add(new Amblush());
-        pokemon.add(new Amenemy());
-        pokemon.add(new Aracula());
-        pokemon.add(new Arantula());
-        pokemon.add(new Araukaizer());
-        pokemon.add(new Armodillo());
-        pokemon.add(new Artifire());
-        pokemon.add(new Astervoid());
-        pokemon.add(new Averidge());
-        pokemon.add(new Bboing());
-        pokemon.add(new Bacteary());
-        pokemon.add(new Barmor());
-        pokemon.add(new Batornado());
-        pokemon.add(new Battack());
-        pokemon.add(new Beakapow());
-        pokemon.add(new Beanstork());
-        pokemon.add(new Beetome());
-        pokemon.add(new Beherode());
-        pokemon.add(new Bleakonda());
-        pokemon.add(new Bombeetle());
-        pokemon.add(new Boshishe());
+//        pokemon.add(new Fruibat()); //Member of line not Finished
+//        pokemon.add(new Battack()); //Missing Art
+//        pokemon.add(new Batornado()); //Member of line not Finished
+        pokemon.add(new Pubble());
         pokemon.add(new Bouldog());
-        pokemon.add(new Brazilisk());
-        pokemon.add(new Bugaloo());
-        pokemon.add(new Bulwart());
-        pokemon.add(new Bysect());
-        pokemon.add(new Caballgon());
-        pokemon.add(new Carcahawk());
-        pokemon.add(new Carcaheat());
-        pokemon.add(new Carnation());
-        pokemon.add(new Carnaukaizer());
-        pokemon.add(new Celestapir());
-        pokemon.add(new Cerashell());
-        pokemon.add(new Chococoon());
-        pokemon.add(new Clustar());
-        pokemon.add(new Coastone());
-        pokemon.add(new Coathief());
-        pokemon.add(new Coisteed());
-        pokemon.add(new Concretech());
-        pokemon.add(new Coolshion());
-        pokemon.add(new Darbyss());
-        pokemon.add(new Darskarf());
-        pokemon.add(new Defecash());
-        pokemon.add(new Desbrine());
-        pokemon.add(new Desplash());
-        pokemon.add(new Destropod());
-        pokemon.add(new Digobite());
-        pokemon.add(new Dirthrown());
+        pokemon.add(new Vinagruff());
+        pokemon.add(new Punibara());
         pokemon.add(new Dopibara());
+        pokemon.add(new Coathief());
+        pokemon.add(new Darskarf());
+        pokemon.add(new Inscribble());
+        pokemon.add(new Pupage());
+        pokemon.add(new Beetome());
+        pokemon.add(new Hatchick());
+        pokemon.add(new Scuffowl());
+        pokemon.add(new Rudester());
+        pokemon.add(new Ookawatt());
+        pokemon.add(new Feygon());
+        pokemon.add(new Maligon());
+        pokemon.add(new Caballgon());
+        pokemon.add(new Squeezoa());
+        pokemon.add(new Lepikite());
+        pokemon.add(new Kitweed());
+        pokemon.add(new Felifluff());
+        pokemon.add(new Empurroar());
+        pokemon.add(new Puppug());
+        pokemon.add(new Boshishe());
+        pokemon.add(new Nyanyum());
+        pokemon.add(new Yummyan());
+        pokemon.add(new Grubait());
+        pokemon.add(new Chococoon());
+        pokemon.add(new Bombeetle());
+        pokemon.add(new Popkern());
+        pokemon.add(new Pipkorn());
+        pokemon.add(new Frirate());
+        pokemon.add(new Piratross());
+        pokemon.add(new Albagross());
+        pokemon.add(new Piglitt());
+        pokemon.add(new Porklay());
+        pokemon.add(new Javernaut());
+//        pokemon.add(new Barmor()); //Member of line not Finished
+//        pokemon.add(new Beakapow()); //Missing Art
+//        pokemon.add(new Kapony()); //Missing Art
+//        pokemon.add(new Coisteed()); //Missing Art
+//        pokemon.add(new Zebravery()); //Missing Art
+        pokemon.add(new Reekoral());
+        pokemon.add(new Bleakonda());
+        pokemon.add(new Ignew());
+        pokemon.add(new Metarock());
+        pokemon.add(new Beherode());
+        pokemon.add(new Tintap()); //Member of line not Finished
+        pokemon.add(new Taprint()); //Member of line not Finished
+//        pokemon.add(new Celestapir()); //Missing Art
+//        pokemon.add(new Shivurr()); //Member of line not Finished
+//        pokemon.add(new Carcaheat()); //Missing Art
+//        pokemon.add(new Carcahawk());
         pokemon.add(new Dormie());
         pokemon.add(new Dreamie());
-        pokemon.add(new Drillobite());
-        pokemon.add(new Drogaster());
-        pokemon.add(new Dullahaunt());
-        pokemon.add(new Duolecule());
-        pokemon.add(new Duskolony());
+//        pokemon.add(new Mudpole()); //Member of line not Finished
+//        pokemon.add(new Sapuddle()); //Missing Art
+//        pokemon.add(new Bulwart()); //Member of line not Finished
+        pokemon.add(new Sicada());
+        pokemon.add(new Maestring());
+//        pokemon.add(new Ferrenyou()); //Missing Art
+//        pokemon.add(new Ferrosaur()); //Member of line not Finished
+        pokemon.add(new Oxessory());
+        pokemon.add(new Inspark());
+        pokemon.add(new Flantern());
+        pokemon.add(new Artifire());
+        pokemon.add(new Explosipede());
+        pokemon.add(new Infurnace());
+        pokemon.add(new Plurshie());
+        pokemon.add(new Phantoshie());
+        pokemon.add(new Pawstiche());
+        pokemon.add(new Bugaloo());
+        pokemon.add(new Juggaloo());
+        pokemon.add(new Fountide());
+//        pokemon.add(new Seepling()); //Missing Art
+//        pokemon.add(new Sproutrop()); //Missing Art
+//        pokemon.add(new Carnaukaizer()); //Missing Art
+//        pokemon.add(new Araukaizer()); //Missing Art
+//        pokemon.add(new Pompuff()); //Missing Art
+        pokemon.add(new Troupican());
+//        pokemon.add(new Snoogle()); //Missing Art
+//        pokemon.add(new Coolshion()); //Missing Art
+//        pokemon.add(new Harmoset()); //Missing Art
+//        pokemon.add(new Amblush()); //Missing Art
+//        pokemon.add(new Scubeetle()); //Missing Art
+
+//        pokemon.add(new Pirambuouy()); //Missing Art
+//        pokemon.add(new Escagou()); //Member of line not Finished
+        pokemon.add(new Defecash());
+//        pokemon.add(new Nestling()); //Member of line not Finished
+//        pokemon.add(new Fernocious()); //Missing Art
+//        pokemon.add(new Slowris()); //Missing Art
+//        pokemon.add(new Soulverein()); //Missing Art
+//        pokemon.add(new Aracula()); //Missing Stats
+//        pokemon.add(new Arantula()); //Missing Stats
+        pokemon.add(new Frutifeye());
+        pokemon.add(new Guaraneye());
+//        pokemon.add(new Torquoise()); //Missing Art
+//        pokemon.add(new Lillama()); //Missing Art
+//        pokemon.add(new Alpacoat()); //Member of line not Finished
+//        pokemon.add(new Alpeak()); //Missing Art
+//        pokemon.add(new Soaraptor()); //Missing Art
+//        pokemon.add(new Lilquen()); //Missing Art
+//        pokemon.add(new Mosstatic()); //Missing Art
+//        pokemon.add(new Glowarm()); //Missing Art
+//        pokemon.add(new Digobite()); //Missing Art
+//        pokemon.add(new Drillobite()); //Member of line not Finished
+//        pokemon.add(new Magnit()); //Member of line not Finished
+        pokemon.add(new Coastone());
+        pokemon.add(new Sandieval());
+        pokemon.add(new Desplash());
+        pokemon.add(new Desbrine());
+        pokemon.add(new Destropod());
         pokemon.add(new Egcite());
         pokemon.add(new Egxel());
         pokemon.add(new Egxiking());
-        pokemon.add(new Elefancy());
-        pokemon.add(new Eleflutter());
-        pokemon.add(new Elefunn());
-        pokemon.add(new Empurroar());
-        pokemon.add(new Escagou());
-        pokemon.add(new Espetepse());
-        pokemon.add(new Explosipede());
-        pokemon.add(new Felifluff());
-        pokemon.add(new Fernocious());
-        pokemon.add(new Ferrenyou());
-        pokemon.add(new Ferrosaur());
-        pokemon.add(new Feygon());
-        pokemon.add(new Flantern());
-        pokemon.add(new Fountide());
-        pokemon.add(new Frirate());
-        pokemon.add(new Fruibat());
-        pokemon.add(new Frutifeye());
-        pokemon.add(new Gnetic());
-        pokemon.add(new Glowarm());
-        pokemon.add(new Gnatsure());
-        pokemon.add(new Goladillo());
-        pokemon.add(new Grubait());
-        pokemon.add(new Guaraneye());
-        pokemon.add(new Harmoset());
-        pokemon.add(new Hatchick());
-        pokemon.add(new Hoatrex());
-        pokemon.add(new Ignew());
-        pokemon.add(new Infurnace());
-        pokemon.add(new Inscribble());
-        pokemon.add(new Inspark());
-        pokemon.add(new Javernaut());
-        pokemon.add(new Juggaloo());
-        pokemon.add(new Kapony());
-        pokemon.add(new Kisadee());
-        pokemon.add(new Kitweed());
-        pokemon.add(new Komandant());
-        pokemon.add(new Kombatant());
-        pokemon.add(new Komrant());
-        pokemon.add(new Larvomit());
-        pokemon.add(new Lepikite());
-        pokemon.add(new Lillama());
-        pokemon.add(new Lilquen());
-        pokemon.add(new Lobstrom());
-        pokemon.add(new Lundrey());
-        pokemon.add(new Maestring());
-        pokemon.add(new Magnit());
-        pokemon.add(new Maligon());
-        pokemon.add(new Metarock());
-        pokemon.add(new Midnaught());
-        pokemon.add(new Mosstatic());
-        pokemon.add(new Mudpole());
-        pokemon.add(new Mycerial());
-        pokemon.add(new Narwartic());
-        pokemon.add(new Nestling());
-        pokemon.add(new Nyanyum());
-        pokemon.add(new Ohvni());
-        pokemon.add(new Ombrella());
-        pokemon.add(new Ookawatt());
-        pokemon.add(new Orthocoil());
-        pokemon.add(new Oxessory());
-        pokemon.add(new Pawstiche());
-        pokemon.add(new Phantoshie());
-        pokemon.add(new Piglitt());
-        pokemon.add(new Pipkorn());
-        pokemon.add(new Pirambuouy());
-        pokemon.add(new Piratross());
-        pokemon.add(new Plurshie());
-        pokemon.add(new Pompuff());
-        pokemon.add(new Popkern());
-        pokemon.add(new Porklay());
-        pokemon.add(new Pubble());
-        pokemon.add(new Punibara());
-        pokemon.add(new Pupage());
-        pokemon.add(new Puppug());
-        pokemon.add(new Pyrotile());
-        pokemon.add(new Reekoral());
-        pokemon.add(new Roacheap());
-        pokemon.add(new Roaproach());
-        pokemon.add(new Rodentoy());
-        pokemon.add(new Rorscharf());
-        pokemon.add(new Rose());
-        pokemon.add(new Rudester());
-        pokemon.add(new Sandieval());
-        pokemon.add(new Sapuddle());
-        pokemon.add(new Scubeetle());
-        pokemon.add(new Scuffowl());
-        pokemon.add(new Seepling());
-        pokemon.add(new Selveger());
-        pokemon.add(new Shivurr());
-        pokemon.add(new Shrimpish());
-        pokemon.add(new Sicada());
-        pokemon.add(new Slowris());
-        pokemon.add(new Snoogle());
-        pokemon.add(new Soaraptor());
-        pokemon.add(new Soulverein());
-        pokemon.add(new Spikips());
-        pokemon.add(new Sproutrop());
-        pokemon.add(new Squeakey());
-        pokemon.add(new Squeezoa());
-        pokemon.add(new Surfish());
-        pokemon.add(new Taprint());
-        pokemon.add(new Tiklok());
-        pokemon.add(new Tintap());
-        pokemon.add(new Torquoise());
-        pokemon.add(new Tricklock());
-        pokemon.add(new Tropiguana());
-        pokemon.add(new Troupican());
+        pokemon.add(new Bboing());
         pokemon.add(new Tutu());
-        pokemon.add(new Unfortunist());
+//        pokemon.add(new Elefunn()); //Missing Art
+//        pokemon.add(new Eleflutter()); //Missing Art
+//        pokemon.add(new Elefancy()); //Missing Art
+//        pokemon.add(new Armodillo()); //Missing Art
+//        pokemon.add(new Goladillo()); //Missing Art
+//        pokemon.add(new Adobrick()); //Missing Art
+//        pokemon.add(new Adobuild()); //Missing Art
+//        pokemon.add(new Concretech()); //Missing Art
+        pokemon.add(new Lundrey());
+        pokemon.add(new Dirthrown());
+//        pokemon.add(new Roacheap()); //Missing Art
+//        pokemon.add(new Roaproach()); //Missing Art
+//        pokemon.add(new Rorscharf()); //Missing Art
+//        pokemon.add(new Tiklok()); //Member of line not Finished
+//        pokemon.add(new Tricklock()); //Missing Art
+//        pokemon.add(new Midnaught()); //Missing Art
+//        pokemon.add(new Xyloathone()); //Missing Art
+//        pokemon.add(new Squeakey()); //Missing Art
+//        pokemon.add(new Rodentoy()); //Missing Art
+//        pokemon.add(new Virack()); //Missing Art
+//        pokemon.add(new Bacteary()); //Missing Art
+//        pokemon.add(new Allergix()); //Member of line not Finished
+        pokemon.add(new Duolecule());
         pokemon.add(new Valvacid());
-        pokemon.add(new Venemone());
-        pokemon.add(new Vinagruff());
-        pokemon.add(new Virack());
-        pokemon.add(new Warbleer());
-        pokemon.add(new Xyloathone());
-        pokemon.add(new Yummyan());
-        pokemon.add(new Zebravery());
+        pokemon.add(new Larvomit());
+        pokemon.add(new Drogaster());
+//        pokemon.add(new Bysect()); //Missing Art
+        pokemon.add(new Mycerial());
+        pokemon.add(new Unfortunist());
+        pokemon.add(new Dullahaunt());
+        pokemon.add(new Ombrella());
+//        pokemon.add(new Komrant()); //Missing Art
+//        pokemon.add(new Kombatant()); //Missing Art
+//        pokemon.add(new Komandant()); //Member of line not Finished
+//        pokemon.add(new Ohvni()); //Missing Art
+        pokemon.add(new Carnation());
+        pokemon.add(new Corsage());
+//        pokemon.add(new Kisadee()); //Missing Art
+//        pokemon.add(new Warbleer()); //Missing Art
+//        pokemon.add(new Gnatsure()); //Missing Art
+//        pokemon.add(new Averidge()); //Missing Art
+//        pokemon.add(new Beanstork()); //Missing Art
+//        pokemon.add(new Shrimpish()); //Missing Art
+//        pokemon.add(new Lobstrom()); //Missing Art
+//        pokemon.add(new Surfish()); //Missing Art
+//        pokemon.add(new Darbyss()); //Missing Art
+//        pokemon.add(new Amenemy()); //Missing Art
+//        pokemon.add(new Venemone()); //Missing Art
+//        pokemon.add(new Duskolony()); //Member of line not Finished
+//        pokemon.add(new Spikips()); //Missing Art
+//        pokemon.add(new Espetepse()); //Missing Art
+//        pokemon.add(new Orthocoil()); //Missing Art
+//        pokemon.add(new Cerashell()); //Missing Art
+//        pokemon.add(new Narwartic()); //Missing Art
+//        pokemon.add(new Pyrotile()); //Missing Art
+//        pokemon.add(new Tropiguana()); //Missing Art
+//        pokemon.add(new Brazilisk()); //Missing Art
+        pokemon.add(new Selveger());
+        pokemon.add(new Hoatrex());
+        pokemon.add(new Gnetic());
+
     }
 
 }

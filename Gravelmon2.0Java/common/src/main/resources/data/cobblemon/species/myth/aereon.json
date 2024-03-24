@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aereon",
-  "nationalPokedexNumber": 2833,
+  "nationalPokedexNumber": 3353,
   "primaryType": "flying",
   "abilities": [
     "airlock",
@@ -97,7 +97,7 @@
   "pokedex": [
     "cobblemon.species.aereon.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

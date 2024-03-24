@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vileech-1",
+      "pokemon": "vileech",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "2-22",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ]
+      }
+    }
+  ]
+}

@@ -15,14 +15,15 @@ public class Culprint extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         53),
                 List.of(Ability.PICKPOCKET,Ability.IRON_FIST,Ability.FRISK), Ability.FRISK,
-                8, 165,
+                2, 165,
                 new Stats(0,1,0,0,0,0), 150,
                 0.5,
                 65, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("Anything it sees, it tries to steal, leaving behind a distinctive, oily marking. A Culprint once single-handedly heisted a Poke Mart's entire supply of Burn Heals."),
-                List.of(),
+                List.of(new EvolutionEntry("underhandit", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.BURNING_JEALOUSY.getName()+"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FAKE_OUT,1),
                         new MoveLearnSetEntry(Move.FORESIGHT,4),
@@ -89,11 +90,11 @@ public class Culprint extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BEAT_UP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Culprint");

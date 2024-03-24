@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "basilux",
-  "nationalPokedexNumber": 3078,
+  "nationalPokedexNumber": 3687,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -87,6 +87,7 @@
     "tutor:synthesis",
     "tutor:petalblizzard",
     "tutor:refresh",
+    "tutor:rapidgrowth",
     "tutor:frenzyplant",
     "egg:bulletseed",
     "egg:charge",
@@ -96,6 +97,7 @@
     "egg:lightscreen",
     "egg:mirrorcoat",
     "egg:naturepower",
+    "egg:psyburn",
     "egg:shockwave",
     "egg:spark",
     "egg:teeterdance",
@@ -110,7 +112,7 @@
     "cobblemon.species.basilux.desc"
   ],
   "preEvolution": "basield",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

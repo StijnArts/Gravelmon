@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drizzella",
-  "nationalPokedexNumber": 2212,
+  "nationalPokedexNumber": 2283,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.drizzella.desc"
   ],
   "preEvolution": "parabella",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

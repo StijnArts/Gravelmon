@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coraga",
-  "nationalPokedexNumber": 3117,
+  "nationalPokedexNumber": 3726,
   "primaryType": "ground",
   "abilities": [
     "sandveil",
@@ -72,9 +72,12 @@
     "tm:irondefense",
     "tm:shadowball",
     "tm:triattack",
+    "tm:devastate",
     "tm:confuseray",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:woodhammer",
+    "tm:dragonbeat",
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
@@ -82,7 +85,8 @@
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:rest",
-    "tutor:toxic"  ],
+    "tutor:toxic",
+    "tutor:shadowclamp"  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -93,7 +97,7 @@
     "cobblemon.species.coraga.desc"
   ],
   "preEvolution": "yolkid",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

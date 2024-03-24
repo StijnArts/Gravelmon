@@ -41,7 +41,7 @@ public class Dumpchin extends drai.dev.gravelmon.pokemon.Pokemon {
                 ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 3, 22, 6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_REEF))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))),
                 List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());

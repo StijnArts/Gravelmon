@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tamareath",
-  "nationalPokedexNumber": 2666,
+  "nationalPokedexNumber": 3072,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -50,6 +50,12 @@
     "fairy"
   ],
   "moves": [
+    "1:ominouswind",
+    "1:destinybond",
+    "1:curse",
+    "1:tailwhip",
+    "1:moonlight",
+    "1:craftyshield",
     "1:fairywind",
     "tm:attract",
     "tm:bide",
@@ -100,7 +106,7 @@
   "pokedex": [
     "cobblemon.species.tamareath.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -115,7 +121,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 8,
+  "height": 3,
   "weight": 165,
   "aspects": [],
 "features": [

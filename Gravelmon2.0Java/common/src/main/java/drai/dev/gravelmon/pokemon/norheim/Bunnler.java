@@ -17,8 +17,8 @@ public class Bunnler extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         95),
                 List.of(Ability.PICKPOCKET,Ability.SNOW_CLOAK,Ability.QUICK_FEET), Ability.QUICK_FEET,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -48,11 +48,10 @@ public class Bunnler extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEINT_ATTACK,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 33, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bunnler");

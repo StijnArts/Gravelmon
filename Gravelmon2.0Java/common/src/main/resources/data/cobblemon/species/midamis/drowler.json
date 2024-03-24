@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drowler",
-  "nationalPokedexNumber": 2950,
+  "nationalPokedexNumber": 3470,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -88,7 +88,7 @@
       ]   
  }
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

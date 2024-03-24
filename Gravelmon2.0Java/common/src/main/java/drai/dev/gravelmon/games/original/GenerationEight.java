@@ -30,23 +30,23 @@ public class GenerationEight extends Game {
         pokemon.add(new NovranMorgrem(860));
         pokemon.add(new NovranGrimmsnarl(861));
 
-//        pokemon.add(new NorheimanRookidee(821)); NOT FINISHED
-//        pokemon.add(new NorheimanCorvisquire(822)); NOT FINISHED
+        pokemon.add(new NorheimanRookidee(821));
+        pokemon.add(new NorheimanCorvisquire(822));
         pokemon.add(new NorheimanFalinks(870));
 
-//        pokemon.add(new VaritasianHatenna(856)); NOT FINISHED
-//        pokemon.add(new VaritasianHattrem(857)); NOT FINISHED
-//        pokemon.add(new VaritasianImpidimp(859)); NOT FINISHED
-//        pokemon.add(new VaritasianMorgrem(860)); NOT FINISHED
+//        pokemon.add(new VaritasianHatenna(856)); Member of line Not Finished
+//        pokemon.add(new VaritasianHattrem(857)); Missing Art
+//        pokemon.add(new VaritasianImpidimp(859)); Member of line Not Finished
+//        pokemon.add(new VaritasianMorgrem(860)); Member of line Not Finished
         pokemon.add(new VaritasianMilcery(868));
         pokemon.add(new VaritasianAlcremie(869));
-//        pokemon.add(new VaritasianDreepy(885)); NOT FINISHED
-//        pokemon.add(new VaritasianDrakloak(886)); NOT FINISHED
-//        pokemon.add(new VaritasianDragapult(887)); NOT FINISHED
+//        pokemon.add(new VaritasianDreepy(885)); Member of line Not Finished
+//        pokemon.add(new VaritasianDrakloak(886)); Missing Art
+//        pokemon.add(new VaritasianDragapult(887)); Missing Art
 
-//        pokemon.add(new HavaiianBlipbug(824)); NOT FINISHED
-//        pokemon.add(new HavaiianDottler(825)); NOT FINISHED
-//        pokemon.add(new HavaiianOrbeetle(826)); NOT FINISHED
+//        pokemon.add(new HavaiianBlipbug(824)); Member of line Not Finished
+//        pokemon.add(new HavaiianDottler(825)); Missing Art
+//        pokemon.add(new HavaiianOrbeetle(826)); Missing Art
 //
         pokemon.add(new HizianSilicobra(843));
         pokemon.add(new HizianSandaconda(844));

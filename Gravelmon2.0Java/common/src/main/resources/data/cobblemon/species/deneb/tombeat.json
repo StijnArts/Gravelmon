@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tombeat",
-  "nationalPokedexNumber": 3177,
+  "nationalPokedexNumber": 3786,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -66,9 +66,11 @@
     "tm:frustration",
     "tm:recycle",
     "tm:fly",
+    "tutor:glide",
     "tutor:leer",
     "tutor:twister",
     "tutor:psywave",
+    "tutor:hypnopulse",
     "tutor:extrasensory",
     "tutor:confide",
     "tutor:uproar",
@@ -93,7 +95,7 @@
     "cobblemon.species.tombeat.desc"
   ],
   "preEvolution": "hyorhythm",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

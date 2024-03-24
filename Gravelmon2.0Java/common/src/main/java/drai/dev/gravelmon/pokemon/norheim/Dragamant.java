@@ -17,15 +17,19 @@ public class Dragamant extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         50),
                 List.of(Ability.CLEAR_BODY,Ability.STURDY,Ability.MIRROR_ARMOR), Ability.MIRROR_ARMOR,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                19, 165,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- Harden Normal - Dragon RageSTAB Dragon - Rock ThrowSTAB Rock - Stealth Rock Rock - Horn Attack Normal 8 Reflect Psychic 14 Rock TombSTAB Rock 18 Sharpen Normal 22 Mirror Shot Steel 28 Rock Polish Rock 32 Iron Defense Steel 36 Rock SlideSTAB Rock 40 Dragon ClawSTAB Dragon 44 Dragon Dance Dragon 48 Power GemSTAB Rock 54 Dragon RushSTAB Dragon 62 Stone EdgeSTAB Rock 68 Megahorn Bug"),
+                List.of(""),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.HORN_ATTACK,1),
+                        new MoveLearnSetEntry(Move.DRAGON_RAGE,1),
+                        new MoveLearnSetEntry(Move.ROCK_THROW,1),
+                        new MoveLearnSetEntry(Move.STEALTH_ROCK,1),
                         new MoveLearnSetEntry(Move.HORN_ATTACK,1),
                         new MoveLearnSetEntry(Move.REFLECT,8),
                         new MoveLearnSetEntry(Move.ROCK_TOMB,14),
@@ -42,11 +46,11 @@ public class Dragamant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEGAHORN,68)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.GEMSTONES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dragamant");

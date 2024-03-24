@@ -15,7 +15,7 @@ public class Cottontile extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         100),
                 List.of(Ability.FUR_COAT,Ability.OVERCOAT,Ability.SNOW_CLOAK), Ability.SNOW_CLOAK,
-                8, 165,
+                18, 165,
                 new Stats(0,1,0,0,1,0), 45,
                 0.5,
                 179, ExperienceGroup.MEDIUM_SLOW,
@@ -24,6 +24,17 @@ public class Cottontile extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("When it lies flat against the ground, it looks like a big pile of snow. Its body is actually very slender underneath its thick coat of fur, so it moves swiftly."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.COTTON_GUARD,1),
+                        new MoveLearnSetEntry(Move.ICE_FANG,1),
+                        new MoveLearnSetEntry(Move.SCRATCH,1),
+                        new MoveLearnSetEntry(Move.SLAM,1),
+                        new MoveLearnSetEntry(Move.ICE_BALL,1),
+                        new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
+                        new MoveLearnSetEntry(Move.MIST,1),
+                        new MoveLearnSetEntry(Move.AVALANCHE,1),
+                        new MoveLearnSetEntry(Move.BITE,1),
+                        new MoveLearnSetEntry(Move.CRUNCH,1),
+                        new MoveLearnSetEntry(Move.CRUSH_CLAW,1),
                         new MoveLearnSetEntry(Move.FURY_SWIPES,1),
                         new MoveLearnSetEntry(Move.AERIAL_ACE,"tm"),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
@@ -83,8 +94,8 @@ public class Cottontile extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 52, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "doomture",
-  "nationalPokedexNumber": 2222,
+  "nationalPokedexNumber": 2293,
   "primaryType": "poison",
   "secondaryType": "dragon",
   "abilities": [
@@ -119,7 +119,7 @@
     "cobblemon.species.doomture.desc"
   ],
   "preEvolution": "carriotten",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

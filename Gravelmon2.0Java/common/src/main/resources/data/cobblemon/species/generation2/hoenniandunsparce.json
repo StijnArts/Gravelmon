@@ -49,7 +49,7 @@
   ],
   "moves": [
     "egg:sleeptalksound",
-    "egg:cosmicpower",
+    "egg:cosmicpowercosmic",
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
@@ -65,6 +65,7 @@
     "tm:return",
     "tm:dig",
     "tm:shadowball",
+    "tm:shimmershot",
     "tm:shockwave",
     "tm:flamethrower",
     "tm:fireblast",
@@ -106,7 +107,7 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

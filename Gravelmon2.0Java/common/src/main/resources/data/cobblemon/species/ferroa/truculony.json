@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "truculony",
-  "nationalPokedexNumber": 1518,
+  "nationalPokedexNumber": 1528,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -134,7 +134,7 @@
     "cobblemon.species.truculony.desc"
   ],
   "preEvolution": "anemeany",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

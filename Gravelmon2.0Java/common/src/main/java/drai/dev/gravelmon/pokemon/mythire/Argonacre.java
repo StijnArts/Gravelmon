@@ -15,7 +15,7 @@ public class Argonacre extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         85),
                 List.of(Ability.DAZZLING,Ability.STONECUTTER,Ability.SNOW_CLOAK), Ability.SNOW_CLOAK,
-                8, 165,
+                15, 165,
                 new Stats(0,0,2,0,0,0), 125,
                 0.5,
                 165, ExperienceGroup.MEDIUM_SLOW,
@@ -24,7 +24,21 @@ public class Argonacre extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Argonacre are prized for their beautiful crystal shells, grown over the course of their whole lives. They were once plentiful, but poaching has made them rare."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.CRYSTALDEFENSE,1),
+                        new MoveLearnSetEntry(Move.POWER_GEM,1),
+                        new MoveLearnSetEntry(Move.GEM_CRASH,1),
+                        new MoveLearnSetEntry(Move.ANCIENT_POWER,1),
+                        new MoveLearnSetEntry(Move.ROLLOUT,1),
+                        new MoveLearnSetEntry(Move.BIND,1),
+                        new MoveLearnSetEntry(Move.POWER_WHIP,1),
+                        new MoveLearnSetEntry(Move.ROCK_POLISH,1),
+                        new MoveLearnSetEntry(Move.SHELL_SMASH,1),
+                        new MoveLearnSetEntry(Move.FLASH,1),
+                        new MoveLearnSetEntry(Move.DAZZLING_GLEAM,1),
+                        new MoveLearnSetEntry(Move.RAINBOW_GUST,1),
+                        new MoveLearnSetEntry(Move.MIRROR_COAT,1),
+                        new MoveLearnSetEntry(Move.TICKLE,1),
+                        new MoveLearnSetEntry(Move.SLAM,1),
+                        new MoveLearnSetEntry(Move.CRYSTAL_DEFENSE,1),
                         new MoveLearnSetEntry(Move.RETURN,"tm"),
                         new MoveLearnSetEntry(Move.HEARTFELTPULSE,"tm"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"tm"),
@@ -66,14 +80,17 @@ public class Argonacre extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 13, 33, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.OCEAN_MONUMENT),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Argonacre");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
+        setCanFly(true);
 
     }
 

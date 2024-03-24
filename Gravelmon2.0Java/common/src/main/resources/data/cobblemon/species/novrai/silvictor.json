@@ -1,0 +1,176 @@
+{
+  "implemented": true,
+  "name": "silvictor",
+  "nationalPokedexNumber": 4096,
+  "primaryType": "fighting",
+  "secondaryType": "steel",
+  "abilities": [
+    "moxie",
+    "ironfist",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 105,
+    "defence": 105,
+    "special_attack": 35,
+    "special_defence": 55,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:bide",
+    "8:rocksmash",
+    "13:autotomize",
+    "17:focusenergy",
+    "20:mirrorshot",
+    "22:retaliate",
+    "25:revenge",
+    "28:irondefense",
+    "32:coaching",
+    "38:focuspunch",
+    "43:ironhead",
+    "47:superpower",
+    "56:dynamicpunch",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:firepunch",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:superpower",
+    "tm:dualchop",
+    "tm:shockwave",
+    "tm:seismictoss",
+    "tm:endeavor",
+    "tm:snoresound",
+    "tm:focuspunch",
+    "tm:rapidspin",
+    "tm:poweruppunch",
+    "tm:closecombat",
+    "tm:focusenergy",
+    "tm:heavyslam",
+    "tm:steelbeam",
+    "tm:workup",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:thunderbolt",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:focusblast",
+    "tm:drainpunch",
+    "tm:curse",
+    "tm:flash",
+    "tm:payback",
+    "tm:rockpolish",
+    "tm:avalanche",
+    "tm:stoneedge",
+    "tm:thunderwave",
+    "tm:gyroball",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:naturalgift",
+    "tm:magnetrise",
+    "tm:confide",
+    "tm:bodypress",
+    "tm:smackdown",
+    "tm:attract",
+    "tm:strength",
+    "tm:metronome",
+    "tm:counter",
+    "tm:finalgambit",
+    "tm:laserfocus",
+    "tm:sandattack"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.silvictor.desc"
+  ],
+  "preEvolution": "brawnze",
+  "evolutions": [
+    {
+      "id": "silvictor_Goalden",
+      "variant": "level_up",
+      "result": "Goalden",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "time_range",
+          "range": day
+        },
+        {
+          "variant": "friendship",
+          "amount": 180
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

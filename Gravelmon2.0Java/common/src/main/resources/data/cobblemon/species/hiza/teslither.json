@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "teslither",
-  "nationalPokedexNumber": 2070,
+  "nationalPokedexNumber": 2141,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -82,7 +82,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

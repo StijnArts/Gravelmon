@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ledybulk",
-  "nationalPokedexNumber": 3100,
+  "nationalPokedexNumber": 3709,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -79,6 +79,7 @@
     "tm:signalbeam",
     "tm:poisonjab",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:batonpass",
     "tm:woodhammer",
     "tm:focusblast",
@@ -89,6 +90,7 @@
     "tutor:dig",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:bugnoise",
     "egg:aerialace",
     "egg:aircutter",
     "egg:bide",
@@ -100,6 +102,7 @@
     "egg:focuspunch",
     "egg:icepunch",
     "egg:knockoff",
+    "egg:magnumpunch",
     "egg:morningsun",
     "egg:ominouswind",
     "egg:protect",
@@ -121,7 +124,7 @@
     "cobblemon.species.ledybulk.desc"
   ],
   "preEvolution": "ledian",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

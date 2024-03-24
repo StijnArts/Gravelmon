@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bankarak",
-  "nationalPokedexNumber": 2633,
+  "nationalPokedexNumber": 3039,
   "primaryType": "steel",
   "secondaryType": "bug",
   "abilities": [
@@ -49,6 +49,21 @@
     "mineral"
   ],
   "moves": [
+    "1:payday",
+    "1:bugbite",
+    "1:stickyweb",
+    "1:spiderweb",
+    "1:crunch",
+    "1:gyroball",
+    "1:followme",
+    "1:flash",
+    "1:heavyslam",
+    "1:irondefense",
+    "1:scaryface",
+    "1:switcheroo",
+    "1:mirrorshot",
+    "1:mirrorcoat",
+    "1:powergemcrystal",
     "tm:bugbite",
     "tm:covet",
     "tm:electroweb",
@@ -71,12 +86,15 @@
     "tm:skittersmack"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.bankarak.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "deecoin",
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -91,7 +109,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 17,
   "weight": 165,
   "aspects": [],
 "features": [

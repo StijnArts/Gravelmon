@@ -14,7 +14,7 @@ public class Unfortunist extends drai.dev.gravelmon.pokemon.Pokemon {
                         117,
                         40),
                 List.of(Ability.POISON_TOUCH,Ability.LIQUID_OOZE,Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                8, 165,
+                13, 165,
                 new Stats(0,0,1,0,1,0), 60,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -54,9 +54,10 @@ public class Unfortunist extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NASTY_PLOT,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 29, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_MUSHROOM)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

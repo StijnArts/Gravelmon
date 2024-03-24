@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coropper",
-  "nationalPokedexNumber": 3115,
+  "nationalPokedexNumber": 3724,
   "primaryType": "bug",
   "abilities": [
     "limber",
@@ -62,6 +62,7 @@
     "45:protect",
     "51:bugbuzzsound",
     "53:workup",
+    "55:bugnoise",
     "tm:swordsdance",
     "tm:airslash",
     "tm:spikes",
@@ -80,7 +81,9 @@
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:nastyplot"  ],
+    "tutor:nastyplot",
+    "tutor:bugnoise",
+    "tutor:shadowclamp"  ],
   "labels": [
     "deneb",
     "not_modeled",
@@ -91,7 +94,7 @@
     "cobblemon.species.coropper.desc"
   ],
   "preEvolution": "yolkid",
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

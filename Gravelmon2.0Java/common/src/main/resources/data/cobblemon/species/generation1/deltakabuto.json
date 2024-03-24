@@ -93,6 +93,7 @@
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
@@ -138,7 +139,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

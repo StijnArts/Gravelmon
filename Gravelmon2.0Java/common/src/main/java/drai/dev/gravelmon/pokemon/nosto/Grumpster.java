@@ -15,7 +15,7 @@ public class Grumpster extends drai.dev.gravelmon.pokemon.Pokemon {
                         92,
                         65),
                 List.of(Ability.CHEEK_POUCH,Ability.PICKUP,Ability.GLUTTONY), Ability.GLUTTONY,
-                8, 165,
+                11, 165,
                 new Stats(0,0,1,0,1,0), 127,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
@@ -107,10 +107,10 @@ public class Grumpster extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 36, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -15,14 +15,15 @@ public class Snomint extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         35),
                 List.of(Ability.AROMA_VEIL,Ability.ICE_BODY,Ability.NATURAL_CURE), Ability.NATURAL_CURE,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 200,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FAIRY),
                 List.of("It's often seen playing in snow and leaf piles in the winter. It only thrives on clean water; Snomint is nowhere to be found in areas with dirty, polluted slush."),
-                List.of(),
+                List.of(new EvolutionEntry("snofresh", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.INGRAIN,1),
                         new MoveLearnSetEntry(Move.LEAFAGE,6),
@@ -49,8 +50,8 @@ public class Snomint extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLASH,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

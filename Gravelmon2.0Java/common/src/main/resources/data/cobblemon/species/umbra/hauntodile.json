@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hauntodile",
-  "nationalPokedexNumber": 2565,
+  "nationalPokedexNumber": 2971,
   "primaryType": "ghost",
   "abilities": [
     "cursedbody",
@@ -116,7 +116,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

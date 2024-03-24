@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bauldron",
-  "nationalPokedexNumber": 3441,
+  "nationalPokedexNumber": 4346,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -120,7 +120,7 @@
     "cobblemon.species.bauldron.desc"
   ],
   "preEvolution": "bubbauld",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

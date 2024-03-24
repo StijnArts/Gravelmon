@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caramelix",
-  "nationalPokedexNumber": 3342,
+  "nationalPokedexNumber": 4245,
   "primaryType": "fairy",
   "abilities": [
     "keeneye",
@@ -55,6 +55,7 @@
     "16:return",
     "22:sweetscent",
     "28:endeavor",
+    "30:sugarrush",
     "38:dazzlinggleam",
     "46:lastresort",
     "tm:facade",
@@ -105,7 +106,7 @@
     "cobblemon.species.caramelix.desc"
   ],
   "preEvolution": "lickypop",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

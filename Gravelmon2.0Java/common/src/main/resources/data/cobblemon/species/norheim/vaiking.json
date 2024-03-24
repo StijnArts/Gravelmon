@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vaiking",
-  "nationalPokedexNumber": 2359,
+  "nationalPokedexNumber": 2612,
   "primaryType": "steel",
   "secondaryType": "fighting",
   "abilities": [
@@ -145,7 +145,7 @@
     "cobblemon.species.vaiking.desc"
   ],
   "preEvolution": "norheimanfalinks",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

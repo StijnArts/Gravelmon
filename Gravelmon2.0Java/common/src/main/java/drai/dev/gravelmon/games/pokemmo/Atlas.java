@@ -33,42 +33,57 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Fawnlora());
         pokemon.add(new Botaneer());
         pokemon.add(new Forelk());
+
         pokemon.add(new Scurley());
         pokemon.add(new Burramble());
         pokemon.add(new Bramboom());
+
         pokemon.add(new Baneep());
         pokemon.add(new Bannawk());
         pokemon.add(new Phoenan());
+
         pokemon.add(new Instick());
         pokemon.add(new Inscepter());
         pokemon.add(new Chloradise());
+
         pokemon.add(new Nawdile());
         pokemon.add(new Aliblador());
         pokemon.add(new Razorvile());
+
+        //Fire
         pokemon.add(new Scorchet());
         pokemon.add(new Torchet());
         pokemon.add(new Regalient());
+
         pokemon.add(new Vulkidna());
         pokemon.add(new Heatreme());
         pokemon.add(new Ekiama());
+
         pokemon.add(new Ruflame());
         pokemon.add(new Reparch());
         pokemon.add(new Slymander());
+
         pokemon.add(new Barkindle());
         pokemon.add(new Wolflaze());
         pokemon.add(new Wolverize());
+
+        //Water
         pokemon.add(new Finjoy());
         pokemon.add(new Finlock());
         pokemon.add(new Gandolph());
+
         pokemon.add(new Pumpel());
         pokemon.add(new Hydrank());
         pokemon.add(new Hydromedary());
+
         pokemon.add(new Caimar());
         pokemon.add(new Torpeed());
         pokemon.add(new Damasoar());
+
         pokemon.add(new Watuber());
         pokemon.add(new Berswade());
         pokemon.add(new Chambrawl());
+
         pokemon.add(new Roachem());
         pokemon.add(new Enkroach());
         pokemon.add(new Squabling());
@@ -124,7 +139,7 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Tankton());
         var crocodily = new Crocodily();
         pokemon.add(crocodily);
-//        pokemon.add(new OkenianCrocodily(crocodily.getPokedexNumber())); NOT FINISHED
+//        pokemon.add(new OkenianCrocodily(crocodily.getPokedexNumber())); //Member of line not Finished
         pokemon.add(new Logrodile());
         pokemon.add(new Jawligator());
         pokemon.add(new Squirest());
@@ -143,7 +158,9 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Silxie());
         var dustar = new Dustar();
         pokemon.add(dustar);
-//        pokemon.add(new OkenianDustar(dustar.getPokedexNumber()));
+        pokemon.add(new OkenianDustar(dustar.getPokedexNumber()));
+        pokemon.add(new Clustar());
+        pokemon.add(new Astervoid());
         pokemon.add(new Compella());
         pokemon.add(new Esterite());
         pokemon.add(new Badgrow());
@@ -217,7 +234,7 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Wombabe());
         pokemon.add(new Korboral());
         pokemon.add(new Gemmo());
-////        pokemon.add(new Torrojo()); NOT FINISHED
+////        pokemon.add(new Torrojo()); Missing Art
         pokemon.add(new Barrose());
         pokemon.add(new Baobloat());
         pokemon.add(new Festiata());
@@ -256,8 +273,8 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Glacyak());
         pokemon.add(new Ragtoc());
         pokemon.add(new Chronotoc());
-//        pokemon.add(new Glacyte()); NOT FINISHED
-//        pokemon.add(new Zentipreeze()); NOT FINISHED
+//        pokemon.add(new Glacyte()); Missing Art
+//        pokemon.add(new Zentipreeze()); Member of line Not Finished
         pokemon.add(new Herokolus());
         pokemon.add(new Diskobolus());
         pokemon.add(new Atolus());
@@ -278,9 +295,9 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Yokeye());
         pokemon.add(new Ghouch());
         pokemon.add(new Spireye());
-//        pokemon.add(new Akute()); NOT FINISHED
-//        pokemon.add(new Oburious()); NOT FINISHED
-//        pokemon.add(new Anglondor()); NOT FINISHED
+//        pokemon.add(new Akute()); Member of line Not Finished
+//        pokemon.add(new Oburious()); Missing Art
+//        pokemon.add(new Anglondor()); Missing Art
         pokemon.add(new Polypus());
         pokemon.add(new Scubella());
         pokemon.add(new Galaguana());

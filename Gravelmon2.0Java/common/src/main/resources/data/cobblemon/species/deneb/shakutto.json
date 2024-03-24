@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shakutto",
-  "nationalPokedexNumber": 3205,
+  "nationalPokedexNumber": 3814,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -73,7 +73,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

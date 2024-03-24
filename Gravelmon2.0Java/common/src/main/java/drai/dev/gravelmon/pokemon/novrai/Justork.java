@@ -15,14 +15,15 @@ public class Justork extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         94),
                 List.of(Ability.JUSTIFIED,Ability.BIG_PECKS,Ability.GUTS), Ability.GUTS,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,0,0,1), 180,
                 0.5,
                 129, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It lives in urban areas, brooding on the tallest buildings. It soars down when it sees danger, but in its haste to show off it often misses the perpetrator."),
-                List.of(),
+                List.of(new EvolutionEntry("superheron", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
                         new MoveLearnSetEntry(Move.SAND_ATTACK,8),
@@ -85,14 +86,14 @@ public class Justork extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLAZE_KICK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 37, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO, Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Justork");
+        setCanFly(true);
 
     }
 

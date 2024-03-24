@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "decapasite",
-  "nationalPokedexNumber": 1647,
+  "nationalPokedexNumber": 1657,
   "primaryType": "bug",
   "secondaryType": "ghost",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.decapasite.desc"
   ],
   "preEvolution": "encyst",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

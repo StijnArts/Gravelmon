@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caprihorn",
-  "nationalPokedexNumber": 2407,
+  "nationalPokedexNumber": 2706,
   "primaryType": "psychic",
   "abilities": [
     "runaway",
@@ -134,7 +134,7 @@
   "pokedex": [
     "cobblemon.species.caprihorn.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -46,12 +46,15 @@ public class GenerationFive extends Game {
         pokemon.add(new VaritasianEelektrik(603));
         pokemon.add(new VaritasianEelektross(604));
 
-//        pokemon.add(new HavaiianOshawott(501)); NOT FINISHED
+//        pokemon.add(new HavaiianOshawott(501)); Member of line Not Finished
 
         pokemon.add(new InterianGenesect(649));
 
-//        pokemon.add(new NorheimanSigilyph(561)); NOT FINISHED
-//        pokemon.add(new NorheimanFoongus(590)); NOT FINISHED
+//        pokemon.add(new NostanTrubbish()); Missing Art
+//        pokemon.add(new NostanGarbodor()); Missing Art
+
+//        pokemon.add(new NorheimanSigilyph(561)); Missing Stats
+//        pokemon.add(new NorheimanFoongus(590)); Member of line Not finished
 
         pokemon.add(new HizianHeatmor(631));
         pokemon.add(new HizianDruddigon(621));

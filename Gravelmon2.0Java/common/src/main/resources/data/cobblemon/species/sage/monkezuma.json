@@ -5,6 +5,7 @@
   "primaryType": "fighting",
   "abilities": [
     "sheerforce",
+    "conditioning",
     "h:gorillatactics"
   ],
   "baseStats": {
@@ -47,16 +48,6 @@
     "human_like",
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:cocoa_beans",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:irontail",
     "1:armthrust",
@@ -133,7 +124,7 @@
     "cobblemon.species.monkezuma.desc"
   ],
   "preEvolution": "simayan",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

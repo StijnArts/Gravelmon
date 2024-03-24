@@ -15,14 +15,15 @@ public class Impyre extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         73),
                 List.of(Ability.BLAZE), Ability.SCAVENGE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 45,
                 0.875,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
                 List.of("It's always snuggling up with its Trainer for their body heat. It's advised to give it a hot water bottle and a blanket if it has to be on its own."),
-                List.of(),
+                List.of(new EvolutionEntry("incubat", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.EMBER,4),
@@ -107,14 +108,14 @@ public class Impyre extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PURSUIT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Impyre");
+        setCanFly(true);
 
     }
 

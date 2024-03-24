@@ -14,14 +14,15 @@ public class Porklay extends drai.dev.gravelmon.pokemon.Pokemon {
                         54,
                         46),
                 List.of(Ability.SUNSCREEN,Ability.THICK_FAT,Ability.SCRAPPY), Ability.SCRAPPY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                10, 165,
+                new Stats(0,0,0,0,0,0), 90,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Evo Knock BackSTAB Fighting - Tackle Normal - Mud-SlapSTAB Ground 6 Mud Sport Ground 12 Defense Curl Normal 18 Rollout Rock 24 Take Down Normal 29 Rototiller Ground 32 Mud BombSTAB Ground 38 Bulk Up Fighting 40 SubmissionSTAB Fighting 44 Body Slam Normal 52 EarthquakeSTAB Ground 60 Double-Edge Normal"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("javernaut", EvolutionType.TRADE, List.of(),
+                        List.of())),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.MUD_SPORT,6),
@@ -44,11 +45,11 @@ public class Porklay extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_CRASH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 38, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.NEAR_MUD),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Porklay");

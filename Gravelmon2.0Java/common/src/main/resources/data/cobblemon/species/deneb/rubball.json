@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rubball",
-  "nationalPokedexNumber": 3107,
+  "nationalPokedexNumber": 3716,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
@@ -70,8 +70,11 @@
     "tm:substitute",
     "tm:poisonjab",
     "tm:irondefense",
+    "tm:devastate",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:explosion",
+    "tutor:shadowclamp",
     "tutor:dig",
     "tutor:hiddenpower",
     "tutor:rest",
@@ -84,6 +87,7 @@
     "egg:endure",
     "egg:flail",
     "egg:flamewheel",
+    "egg:geoimpact",
     "egg:ironhead",
     "egg:lowkick",
     "egg:magnitude",
@@ -104,7 +108,7 @@
   "pokedex": [
     "cobblemon.species.rubball.desc"
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

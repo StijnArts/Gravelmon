@@ -15,14 +15,16 @@ public class Stargazaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         68),
                 List.of(Ability.VICTORY_STAR,Ability.INSOMNIA,Ability.ANALYTIC), Ability.ANALYTIC,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,2,0,0), 60,
                 0.5,
                 157, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("The patterns around its eyes glow brightly when it is happy. It eagerly works with astronomers to track the movements of stars and planets."),
-                List.of(),
+                List.of(new EvolutionEntry("kaijupiter", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TELEPORT,1),
                         new MoveLearnSetEntry(Move.TWISTER,12),
@@ -121,8 +123,9 @@ public class Stargazaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EERIE_IMPULSE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 46, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

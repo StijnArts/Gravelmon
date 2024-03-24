@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "conhagrant",
-  "nationalPokedexNumber": 1523,
+  "nationalPokedexNumber": 1533,
   "primaryType": "poison",
   "secondaryType": "fire",
   "abilities": [
@@ -144,7 +144,7 @@
     "cobblemon.species.conhagrant.desc"
   ],
   "preEvolution": "hagma",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

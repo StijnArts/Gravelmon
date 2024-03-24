@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hissiorite",
-  "nationalPokedexNumber": 2807,
+  "nationalPokedexNumber": 3327,
   "primaryType": "fire",
   "abilities": [
     "battlearmor",
@@ -93,7 +93,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dizasol",
-  "nationalPokedexNumber": 3039,
+  "nationalPokedexNumber": 3648,
   "primaryType": "dark",
   "abilities": [
     "pressure",
@@ -51,7 +51,9 @@
     "1:scratch",
     "1:feint",
     "1:leer",
+    "1:darkroarsound",
     "4:leer",
+    "7:darkroarsound",
     "10:pursuit",
     "13:taunt",
     "16:bite",
@@ -69,6 +71,7 @@
     "64:perishsongsound",
     "tm:waterpulse",
     "tm:thunderwave",
+    "tm:frostbite",
     "tm:frustration",
     "tm:psyshock",
     "tm:aerialace",
@@ -76,6 +79,7 @@
     "tm:cut",
     "tm:strength",
     "tm:flash",
+    "tutor:darkroarsound",
     "tutor:honeclaws",
     "tutor:roleplay",
     "tutor:punishment",
@@ -88,6 +92,7 @@
     "egg:bounce",
     "egg:counter",
     "egg:curse",
+    "egg:darkroarsound",
     "egg:doubleedge",
     "egg:feintattack",
     "egg:focusenergy",
@@ -112,7 +117,7 @@
     "cobblemon.species.dizasol.desc"
   ],
   "preEvolution": "absol",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

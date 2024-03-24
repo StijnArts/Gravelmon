@@ -15,14 +15,15 @@ public class Crable extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         66),
                 List.of(Ability.OVERGROW), Ability.TOUGH_CLAWS,
-                8, 165,
+                10, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 145, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FIELD),
                 List.of("It rubs its needle-covered arms together to build up charge. This also causes its needles to stand on end, making contact with it prickly and painful."),
-                List.of(),
+                List.of(new EvolutionEntry("lobstrike", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWTH,1),
                         new MoveLearnSetEntry(Move.VISE_GRIP,10),
@@ -102,14 +103,15 @@ public class Crable extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SNAP_TRAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Crable");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

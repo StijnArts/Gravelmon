@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "soponge",
-  "nationalPokedexNumber": 1515,
+  "nationalPokedexNumber": 1525,
   "primaryType": "normal",
   "abilities": [
     "waterabsorb",
@@ -146,7 +146,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

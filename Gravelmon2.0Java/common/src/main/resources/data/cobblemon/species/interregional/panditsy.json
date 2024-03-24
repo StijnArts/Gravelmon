@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "panditsy",
-  "nationalPokedexNumber": 1361,
+  "nationalPokedexNumber": 1371,
   "primaryType": "normal",
   "abilities": [
     "owntempo",
@@ -74,7 +74,7 @@
   "pokedex": [
     "cobblemon.species.panditsy.desc"
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

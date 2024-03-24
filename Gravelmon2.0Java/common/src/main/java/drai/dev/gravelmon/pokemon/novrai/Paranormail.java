@@ -15,14 +15,15 @@ public class Paranormail extends drai.dev.gravelmon.pokemon.Pokemon {
                         37,
                         105),
                 List.of(Ability.WANDERING_SPIRIT,Ability.WIND_RIDER,Ability.CLOUD_NINE), Ability.CLOUD_NINE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,2), 80,
                 0.5,
                 140, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Some believe it to be the restless spirit of a letter that was never mailed. It soars through the night sky, said to be looking for its long-gone recipient."),
-                List.of(),
+                List.of(new EvolutionEntry("deliveerie", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
                         new MoveLearnSetEntry(Move.PAY_DAY,10),
@@ -108,11 +109,11 @@ public class Paranormail extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASTONISH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 43, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Paranormail");

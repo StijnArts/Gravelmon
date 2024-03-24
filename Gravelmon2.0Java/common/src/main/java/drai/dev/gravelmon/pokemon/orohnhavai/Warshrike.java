@@ -21,7 +21,7 @@ public class Warshrike extends drai.dev.gravelmon.pokemon.Pokemon {
                         81,
                         95),
                 List.of(Ability.MOXIE,Ability.INTIMIDATE,Ability.RIVALRY), Ability.RIVALRY,
-                8, 165,
+                13, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.5,
                 214, ExperienceGroup.MEDIUM_SLOW,
@@ -51,14 +51,14 @@ public class Warshrike extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEATHERRUSH,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 54, 0.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Warshrike");
+        setCanFly(true);
 
     }
 

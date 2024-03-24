@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "batnana",
-  "nationalPokedexNumber": 1776,
+  "nationalPokedexNumber": 1786,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -114,7 +114,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nooch",
-  "nationalPokedexNumber": 2629,
+  "nationalPokedexNumber": 3035,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -142,7 +142,22 @@
   "pokedex": [
     "cobblemon.species.nooch.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "nooch_salamuncher",
+      "variant": "level_up",
+      "result": "salamuncher",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -157,7 +172,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 5,
   "weight": 165,
   "aspects": [],
 "features": [

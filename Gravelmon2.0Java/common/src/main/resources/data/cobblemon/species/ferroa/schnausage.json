@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "schnausage",
-  "nationalPokedexNumber": 1504,
+  "nationalPokedexNumber": 1514,
   "primaryType": "fire",
   "abilities": [
     "ballfetch",
@@ -117,7 +117,7 @@
     "cobblemon.species.schnausage.desc"
   ],
   "preEvolution": "hotdach",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

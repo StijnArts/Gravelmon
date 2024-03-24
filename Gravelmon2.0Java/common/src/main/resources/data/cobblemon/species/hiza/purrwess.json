@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "purrwess",
-  "nationalPokedexNumber": 2123,
+  "nationalPokedexNumber": 2194,
   "primaryType": "fairy",
   "abilities": [
     "furcoat",
@@ -104,7 +104,7 @@
     "cobblemon.species.purrwess.desc"
   ],
   "preEvolution": "hiziandelcatty",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

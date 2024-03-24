@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cottontile",
-  "nationalPokedexNumber": 2675,
+  "nationalPokedexNumber": 3081,
   "primaryType": "ice",
   "abilities": [
     "furcoat",
@@ -49,6 +49,17 @@
     "monster"
   ],
   "moves": [
+    "1:cottonguard",
+    "1:icefang",
+    "1:scratch",
+    "1:slam",
+    "1:iceball",
+    "1:defensecurl",
+    "1:mist",
+    "1:avalanche",
+    "1:bite",
+    "1:crunch",
+    "1:crushclaw",
     "1:furyswipes",
     "tm:aerialace",
     "tm:attract",
@@ -106,12 +117,15 @@
     "tm:zenheadbutt"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cottontile.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "furibal",
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -126,7 +140,7 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 8,
+  "height": 18,
   "weight": 165,
   "aspects": [],
 "features": [

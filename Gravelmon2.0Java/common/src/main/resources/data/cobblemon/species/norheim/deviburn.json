@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deviburn",
-  "nationalPokedexNumber": 2353,
+  "nationalPokedexNumber": 2635,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -70,7 +70,7 @@
   "pokedex": [
     "cobblemon.species.deviburn.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "timiby",
+  "nationalPokedexNumber": 2441,
+  "primaryType": "normal",
+  "secondaryType": "fighting",
+  "abilities": [
+    "rattled",
+    "runaway",
+    "h:ironfist"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 30,
+    "special_defence": 45,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.75,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:faketears",
+    "4:bide",
+    "8:lowkick",
+    "11:cometpunch",
+    "14:karatechop",
+    "18:focusenergy",
+    "22:machpunch",
+    "25:dizzypunch",
+    "28:endure",
+    "32:brickbreak",
+    "36:fakeout",
+    "39:flail",
+    "tm:doubleedge",
+    "tm:counter",
+    "tm:reversal",
+    "tm:focuspunch",
+    "tm:revenge",
+    "tm:payback",
+    "tm:quash"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.timiby.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "timiby_nervreck",
+      "variant": "level_up",
+      "result": "nervreck",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

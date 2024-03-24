@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hantama",
-  "nationalPokedexNumber": 3032,
+  "nationalPokedexNumber": 3641,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
@@ -78,8 +78,10 @@
     "tm:irontail",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:batonpass",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:woodhammer",
     "tm:focusblast",
     "tm:willowisp",
@@ -87,6 +89,7 @@
     "tm:cut",
     "tm:strength",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
@@ -111,6 +114,7 @@
     "egg:return",
     "egg:revenge",
     "egg:rollingkick",
+    "egg:shadowclamp",
     "egg:sunnyday",
     "egg:taunt",
     "egg:thunderpunch"  ],
@@ -121,7 +125,7 @@
   "pokedex": [
     "cobblemon.species.hantama.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "artickey",
-  "nationalPokedexNumber": 1706,
+  "nationalPokedexNumber": 1716,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.artickey.desc"
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

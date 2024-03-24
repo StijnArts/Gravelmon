@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lusigusi",
-  "nationalPokedexNumber": 1519,
+  "nationalPokedexNumber": 1529,
   "primaryType": "rock",
   "secondaryType": "bug",
   "abilities": [
@@ -134,7 +134,7 @@
   "pokedex": [
     "cobblemon.species.lusigusi.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

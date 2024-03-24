@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "krilvolver",
-  "nationalPokedexNumber": 1926,
+  "nationalPokedexNumber": 1997,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -119,7 +119,7 @@
     "cobblemon.species.krilvolver.desc"
   ],
   "preEvolution": "shrimputy",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

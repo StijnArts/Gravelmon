@@ -15,14 +15,15 @@ public class Peepsqueak extends drai.dev.gravelmon.pokemon.Pokemon {
                         43,
                         78),
                 List.of(Ability.RUBBERBODY), Ability.SOUNDPROOF,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 55, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("It's full of lighter-than-air gases which let it float through the sky. It's a common sight at carnivals, but it's terrified of darts."),
-                List.of(),
+                List.of(new EvolutionEntry("malloon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),
                         new MoveLearnSetEntry(Move.GUST,5),
@@ -97,14 +98,14 @@ public class Peepsqueak extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COUNTER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Peepsqueak");
+        setCanFly(true);
 
     }
 

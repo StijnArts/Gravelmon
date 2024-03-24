@@ -24,7 +24,23 @@ public class Aardpipe extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It sticks its nose into the burrows of Bug Pokemon and honks loudly to draw them out. However, it also has a habit of doing this through open windows, making it an annoyance."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.TRASH_TALK,1),
+                        new MoveLearnSetEntry(Move.HYPER_VOICE,1),
+                        new MoveLearnSetEntry(Move.ROUND,1),
+                        new MoveLearnSetEntry(Move.TEETER_DANCE,1),
+                        new MoveLearnSetEntry(Move.FOLLOW_ME,1),
+                        new MoveLearnSetEntry(Move.DUST_KICK,1),
+                        new MoveLearnSetEntry(Move.ENTRAINMENT,1),
+                        new MoveLearnSetEntry(Move.SCRATCH,1),
+                        new MoveLearnSetEntry(Move.SUPERSONIC,1),
+                        new MoveLearnSetEntry(Move.TAUNT,1),
+                        new MoveLearnSetEntry(Move.ODOR_SLEUTH,1),
+                        new MoveLearnSetEntry(Move.ASTONISH,1),
+                        new MoveLearnSetEntry(Move.WAKEUP_SLAP,1),
+                        new MoveLearnSetEntry(Move.UPROAR,1),
+                        new MoveLearnSetEntry(Move.WORK_UP,1),
                         new MoveLearnSetEntry(Move.STOMP,1),
+
                         new MoveLearnSetEntry(Move.AERIAL_ACE,"tm"),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.BIDE,"tm"),
@@ -89,8 +105,8 @@ public class Aardpipe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STOMPING_TANTRUM,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 36, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

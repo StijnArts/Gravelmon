@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gnabling",
-  "nationalPokedexNumber": 2035,
+  "nationalPokedexNumber": 2106,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -116,7 +116,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

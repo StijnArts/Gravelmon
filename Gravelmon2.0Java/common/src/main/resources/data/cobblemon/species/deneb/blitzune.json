@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blitzune",
-  "nationalPokedexNumber": 3023,
+  "nationalPokedexNumber": 3632,
   "primaryType": "electric",
   "secondaryType": "fairy",
   "abilities": [
@@ -68,8 +68,10 @@
     "tm:darkpulse",
     "tm:irontail",
     "tm:zapcannon",
+    "tm:devastate",
     "tm:batonpass",
     "tm:confuseray",
+    "tm:ragingflame",
     "tm:discharge",
     "tm:nightslash",
     "tm:strength",
@@ -80,6 +82,7 @@
     "tutor:iciclecrash",
     "tutor:nastyplot",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:toxic",
     "egg:block",
     "egg:doubleedge",
@@ -119,7 +122,7 @@
     "cobblemon.species.blitzune.desc"
   ],
   "preEvolution": "plasmox",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

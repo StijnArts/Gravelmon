@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lunapup",
-  "nationalPokedexNumber": 1980,
+  "nationalPokedexNumber": 2051,
   "primaryType": "ground",
   "secondaryType": "fighting",
   "abilities": [
@@ -95,7 +95,7 @@
       "requiredContext": "cobblemon:moon_stone"   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

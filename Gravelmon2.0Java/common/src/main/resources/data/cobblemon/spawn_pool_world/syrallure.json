@@ -7,7 +7,7 @@
       "id": "syrallure-1",
       "pokemon": "syrallure",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,7 +15,7 @@
       "level": "31-56",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

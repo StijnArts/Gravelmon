@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hagma",
-  "nationalPokedexNumber": 1522,
+  "nationalPokedexNumber": 1532,
   "primaryType": "poison",
   "secondaryType": "fire",
   "abilities": [
@@ -152,7 +152,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

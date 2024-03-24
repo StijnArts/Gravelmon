@@ -94,5 +94,7 @@ public class Chromite extends Pokemon {
                 List.of(SpawnPreset.UNDERWATER),
                 0.22, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
     }
 }

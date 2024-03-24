@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hiberneedle",
-  "nationalPokedexNumber": 3465,
+  "nationalPokedexNumber": 4370,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -102,7 +102,7 @@
     "cobblemon.species.hiberneedle.desc"
   ],
   "preEvolution": "prickub",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "equia",
-  "nationalPokedexNumber": 2324,
+  "nationalPokedexNumber": 2395,
   "primaryType": "fairy",
   "secondaryType": "water",
   "abilities": [
@@ -121,7 +121,7 @@
   "pokedex": [
     "cobblemon.species.equia.desc"
   ],
-  "baseScale": 0.525,
+  "baseScale": 0.7000000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spinerus",
-  "nationalPokedexNumber": 3225,
+  "nationalPokedexNumber": 3834,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.spinerus.desc"
   ],
   "preEvolution": "sailodon",
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

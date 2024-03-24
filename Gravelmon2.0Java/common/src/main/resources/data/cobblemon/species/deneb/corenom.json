@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "corenom",
-  "nationalPokedexNumber": 3114,
+  "nationalPokedexNumber": 3723,
   "primaryType": "poison",
   "abilities": [
     "waterveil",
@@ -81,6 +81,7 @@
     "tm:surf",
     "tm:flash",
     "tutor:hiddenpower",
+    "tutor:shadowclamp",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
@@ -96,7 +97,7 @@
     "cobblemon.species.corenom.desc"
   ],
   "preEvolution": "yolkid",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

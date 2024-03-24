@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "navighast",
-  "nationalPokedexNumber": 1930,
+  "nationalPokedexNumber": 2001,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
@@ -139,7 +139,7 @@
     "cobblemon.species.navighast.desc"
   ],
   "preEvolution": "skelerogue",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

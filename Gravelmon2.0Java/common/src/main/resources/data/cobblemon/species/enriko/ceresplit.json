@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ceresplit",
-  "nationalPokedexNumber": 1666,
+  "nationalPokedexNumber": 1676,
   "primaryType": "ground",
   "secondaryType": "fire",
   "abilities": [
@@ -58,7 +58,7 @@
     "24:bulldoze",
     "30:lavaplume",
     "34:earthquake",
-    "40:cosmicpower",
+    "40:cosmicpowercosmic",
     "46:shelltrap",
     "50:shellsmash",
     "54:flamethrower",
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.ceresplit.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

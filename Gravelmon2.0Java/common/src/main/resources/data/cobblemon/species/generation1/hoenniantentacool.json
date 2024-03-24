@@ -70,6 +70,7 @@
     "tm:thunderbolt",
     "tm:thunder",
     "tm:return",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:sludgebomb",
@@ -83,7 +84,8 @@
     "tm:flash",
     "tm:waterfall",
     "tm:dive",
-    "egg:smokescreen"  ],
+    "egg:smokescreen",
+    "egg:moonrazer"  ],
   "labels": [
     "blazing_emerald",
     "gen1",
@@ -107,7 +109,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

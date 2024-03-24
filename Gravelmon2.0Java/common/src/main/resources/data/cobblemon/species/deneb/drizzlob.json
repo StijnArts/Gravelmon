@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drizzlob",
-  "nationalPokedexNumber": 3119,
+  "nationalPokedexNumber": 3728,
   "primaryType": "water",
   "abilities": [
     "drizzle",
@@ -77,6 +77,7 @@
     "tm:haze",
     "tm:psychic",
     "tm:shadowball",
+    "tm:devastate",
     "tm:mudbomb",
     "tm:discharge",
     "tm:surf",
@@ -88,11 +89,13 @@
     "tutor:hiddenpower",
     "tutor:toxic",
     "tutor:hydropump",
+    "tutor:shadowclamp",
     "egg:acidspray",
     "egg:avalanche",
     "egg:barrier",
     "egg:bide",
     "egg:endure",
+    "egg:frostbite",
     "egg:hail",
     "egg:iceball",
     "egg:icebeam",
@@ -123,7 +126,7 @@
     "cobblemon.species.drizzlob.desc"
   ],
   "preEvolution": "lizzle",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

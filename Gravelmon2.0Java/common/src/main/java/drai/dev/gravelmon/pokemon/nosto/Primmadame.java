@@ -15,14 +15,15 @@ public class Primmadame extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         60),
                 List.of(Ability.QUEENLY_MAJESTY), Ability.QUEENLY_MAJESTY,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,1,1,0), 75,
                 0.0,
                 151, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("People try to keep close to them and use their floating bodies for protection from the downpour."),
-                List.of(),
+                List.of(new EvolutionEntry("primmoiselle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"43")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,1),
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,5),
@@ -72,14 +73,14 @@ public class Primmadame extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Primmadame");
 
     }
 

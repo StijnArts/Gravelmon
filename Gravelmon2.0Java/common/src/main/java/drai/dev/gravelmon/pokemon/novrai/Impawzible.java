@@ -15,7 +15,7 @@ public class Impawzible extends drai.dev.gravelmon.pokemon.Pokemon {
                         107,
                         123),
                 List.of(Ability.SOUNDPROOF,Ability.CONTRARY,Ability.PERPLEXING), Ability.PERPLEXING,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 174, ExperienceGroup.MEDIUM_FAST,
@@ -114,11 +114,11 @@ public class Impawzible extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.UPROAR,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 53, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Impawzible");

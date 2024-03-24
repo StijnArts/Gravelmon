@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "strawicked",
-  "nationalPokedexNumber": 3110,
+  "nationalPokedexNumber": 3719,
   "primaryType": "ghost",
   "secondaryType": "electric",
   "abilities": [
@@ -74,6 +74,7 @@
     "tm:psychic",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:confuseray",
     "tm:woodhammer",
     "tm:focusblast",
@@ -85,7 +86,9 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
+    "tutor:bugnoise",
     "tutor:rest",
     "tutor:toxic",
     "egg:bide",
@@ -107,6 +110,7 @@
     "egg:raindance",
     "egg:safeguard",
     "egg:sandstorm",
+    "egg:shadowclamp",
     "egg:shadowsneak",
     "egg:snatch",
     "egg:sunnyday",
@@ -122,7 +126,7 @@
     "cobblemon.species.strawicked.desc"
   ],
   "preEvolution": "strawick",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

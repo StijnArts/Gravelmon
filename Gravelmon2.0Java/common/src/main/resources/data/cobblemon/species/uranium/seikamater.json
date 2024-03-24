@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seikamater",
-  "nationalPokedexNumber": 1958,
+  "nationalPokedexNumber": 2029,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -47,6 +47,21 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:royal_jelly",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:leechlife",
     "1:scaryface",
@@ -125,7 +140,7 @@
     "cobblemon.species.seikamater.desc"
   ],
   "preEvolution": "smore",
-  "baseScale": 0.80625,
+  "baseScale": 1.075,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

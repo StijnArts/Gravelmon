@@ -15,7 +15,7 @@ public class Jawsome extends drai.dev.gravelmon.pokemon.Pokemon {
                         92,
                         57),
                 List.of(Ability.STRONG_JAW), Ability.INTIMIDATE,
-                8, 165,
+                7, 165,
                 new Stats(0,1,0,0,1,0), 90,
                 0.5,
                 156, ExperienceGroup.ERRATIC,
@@ -24,17 +24,27 @@ public class Jawsome extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Its strength lies in its jaws. It can retract its head inside its body to bite with its outer jaws."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.FIRE_FANG,1)                        ),
+                        new MoveLearnSetEntry(Move.WATERFALL,1),
+                        new MoveLearnSetEntry(Move.CRUNCH,1),
+                        new MoveLearnSetEntry(Move.ICE_FANG,1),
+                        new MoveLearnSetEntry(Move.FIRE_FANG,1),
+                        new MoveLearnSetEntry(Move.SCUTTLEHOP,1),
+                        new MoveLearnSetEntry(Move.BUBBLE,5),
+                        new MoveLearnSetEntry(Move.ABSORB,7),
+                        new MoveLearnSetEntry(Move.CRUNCH,37)
+                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 14, 33, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_WARM_OCEAN))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Jawsome");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

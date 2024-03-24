@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "femimic",
-  "nationalPokedexNumber": 1697,
+  "nationalPokedexNumber": 1707,
   "primaryType": "fairy",
   "secondaryType": "dark",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.femimic.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

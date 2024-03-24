@@ -115,16 +115,19 @@
     "tm:grassyglide"  ],
   "labels": [
     "novrai",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.novranhattrem.desc"
   ],
+  "preEvolution": "novranhatenna",
   "evolutions": [
     {
-      "id": "novranhattrem_novranhatterene",
+      "id": "novranhattrem_NovranHatterene",
       "variant": "level_up",
-      "result": "novranhatterene",
+      "result": "NovranHatterene",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [
@@ -135,7 +138,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

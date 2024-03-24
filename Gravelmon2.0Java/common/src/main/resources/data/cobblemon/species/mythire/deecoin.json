@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deecoin",
-  "nationalPokedexNumber": 2632,
+  "nationalPokedexNumber": 3038,
   "primaryType": "steel",
   "secondaryType": "bug",
   "abilities": [
@@ -49,7 +49,20 @@
     "mineral"
   ],
   "moves": [
-  ],
+    "1:protect",
+    "1:tackle",
+    "6:selfdestruct",
+    "9:bugbite",
+    "12:takedown",
+    "17:rapidspin",
+    "20:rollout",
+    "23:curse",
+    "28:spikes",
+    "31:payback",
+    "34:explosion",
+    "39:irondefense",
+    "42:gyroball",
+    "45:doubleedge"  ],
   "labels": [
     "mythire",
     "not_modeled"
@@ -57,7 +70,22 @@
   "pokedex": [
     "cobblemon.species.deecoin.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "deecoin_bankarak",
+      "variant": "level_up",
+      "result": "bankarak",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +100,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 2,
   "weight": 165,
   "aspects": [],
 "features": [

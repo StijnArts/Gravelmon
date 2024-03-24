@@ -14,14 +14,15 @@ public class Bugaloo extends drai.dev.gravelmon.pokemon.Pokemon {
                         48,
                         70),
                 List.of(Ability.LIMBER,Ability.UNBURDEN,Ability.PRANKSTER), Ability.PRANKSTER,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,1), 120,
                 0.5,
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.HUMAN_LIKE),
                 List.of("It can only move by hopping around. Bugaloo can juggle up to around twenty berries when happy."),
-                List.of(),
+                List.of(new EvolutionEntry("juggaloo", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,3),
@@ -56,11 +57,11 @@ public class Bugaloo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKITTER_SMACK,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 5, 26, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bugaloo");

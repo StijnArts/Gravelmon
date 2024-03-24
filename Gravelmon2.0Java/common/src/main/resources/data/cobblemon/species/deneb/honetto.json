@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "honetto",
-  "nationalPokedexNumber": 3263,
+  "nationalPokedexNumber": 3872,
   "primaryType": "poison",
   "abilities": [
     "adaptability",
@@ -121,7 +121,7 @@
   "pokedex": [
     "cobblemon.species.honetto.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

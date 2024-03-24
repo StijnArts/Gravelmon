@@ -15,14 +15,15 @@ public class Cambryo extends drai.dev.gravelmon.pokemon.Pokemon {
                         47,
                         45),
                 List.of(Ability.NEUTRALIZING_GAS,Ability.REALITYWARP,Ability.PSYCHIC_SURGE), Ability.PSYCHIC_SURGE,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.5,
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.WATER_3),
                 List.of("A very early Pokemon with a simple body plan. The bubble on its front end is filled with a mysterious gas, and it bursts when attacked to cause vivid hallucinations."),
-                List.of(),
+                List.of(new EvolutionEntry("palaeodox", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),
                         new MoveLearnSetEntry(Move.GROWL,3),
@@ -121,14 +122,16 @@ public class Cambryo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BUBBLE_BEAM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 11, 34, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Cambryo");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

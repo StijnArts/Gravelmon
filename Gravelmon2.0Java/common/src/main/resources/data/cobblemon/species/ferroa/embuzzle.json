@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "embuzzle",
-  "nationalPokedexNumber": 1460,
+  "nationalPokedexNumber": 1470,
   "primaryType": "dragon",
   "secondaryType": "flying",
   "abilities": [
@@ -176,7 +176,7 @@
     "cobblemon.species.embuzzle.desc"
   ],
   "preEvolution": "carrioon",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

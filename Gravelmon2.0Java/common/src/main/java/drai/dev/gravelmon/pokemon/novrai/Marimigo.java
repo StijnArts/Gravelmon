@@ -15,7 +15,7 @@ public class Marimigo extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         20),
                 List.of(Ability.REGENERATOR), Ability.SIMPLE,
-                8, 165,
+                2, 165,
                 new Stats(2,0,0,0,0,0), 200,
                 0.5,
                 158, ExperienceGroup.FAST,
@@ -118,14 +118,16 @@ public class Marimigo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COTTON_GUARD,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 4, 29, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Marimigo");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

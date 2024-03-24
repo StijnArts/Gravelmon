@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snofresh",
-  "nationalPokedexNumber": 2677,
+  "nationalPokedexNumber": 3083,
   "primaryType": "ice",
   "secondaryType": "grass",
   "abilities": [
@@ -75,12 +75,28 @@
     "tm:flash"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.snofresh.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "snomint",
+  "evolutions": [
+    {
+      "id": "snofresh_snomatcha",
+      "variant": "item_interact",
+      "result": "snomatcha",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:leaf_stone"   
+ }
+  ],
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -95,7 +111,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 13,
   "weight": 165,
   "aspects": [],
 "features": [

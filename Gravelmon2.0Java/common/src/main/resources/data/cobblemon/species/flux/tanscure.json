@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tanscure",
-  "nationalPokedexNumber": 1991,
+  "nationalPokedexNumber": 2062,
   "primaryType": "dark",
   "secondaryType": "normal",
   "abilities": [
@@ -82,7 +82,7 @@
     "cobblemon.species.tanscure.desc"
   ],
   "preEvolution": "tanupy",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -4,8 +4,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class OkenianCrocodily extends drai.dev.gravelmon.pokemon.Pokemon {
-    public OkenianCrocodily() {
-        super("Crocodily",
+    public OkenianCrocodily(int dex) {
+        super(dex, "Crocodily",
                 Type.DARK,Type.WATER,
                 new Stats(45,
                         81,

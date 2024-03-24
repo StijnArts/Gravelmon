@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "plummora",
-  "nationalPokedexNumber": 1806,
+  "nationalPokedexNumber": 1877,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.plummora.desc"
   ],
   "preEvolution": "trimmet",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

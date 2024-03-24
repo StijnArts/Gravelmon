@@ -17,14 +17,15 @@ public class Virchia extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         36),
                 List.of(Ability.FLOWER_VEIL), Ability.FLOWER_VEIL,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 36,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
                 List.of("It is generally known to be very friendly in its early days, and will seek out injured Pokemon to help even if it puts itself in danger."),
-                List.of(),
+                List.of(new EvolutionEntry("impetal", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.LEAFAGE,5),
@@ -42,8 +43,8 @@ public class Virchia extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLOWER_SHIELD,65)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,13 +15,13 @@ public class Oarful extends drai.dev.gravelmon.pokemon.Pokemon {
                         59,
                         110),
                 List.of(Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
-                8, 165,
+                23, 165,
                 new Stats(0,1,0,0,0,1), 60,
                 0.5,
                 183, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.DRAGON),
-                List.of("Evo Wrap Normal - Splash Normal - BubbleSTAB Water - Bite Dark - Crunch Dark - Scary Face Normal - Screech Normal - Dragon RageSTAB Dragon - Wish Normal 6 Water GunSTAB Water 12 Aqua SlapSTAB Water 17 Flail Normal 21 Aqua Ring Water 26 Water PulseSTAB Water 30 Bubble BeamSTAB Water 34 Dragon FangSTAB Dragon 38 Aqua JetSTAB Water 41 Soak Water 44 TwisterSTAB Dragon 47 Aqua TailSTAB Water 52 Crunch Dark 55 Dragon RushSTAB Dragon 58 LiquidationSTAB Water 62 Thrash Normal 66 Hydro PumpSTAB Water 71 Coil Poison 75 OutrageSTAB Dragon 80 Depth ChargeSTAB Water 86 Double-Edge Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WISH,1),
@@ -127,14 +127,15 @@ public class Oarful extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 35, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Oarful");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -15,7 +15,7 @@ public class Wrassuage extends drai.dev.gravelmon.pokemon.Pokemon {
                         128,
                         78),
                 List.of(Ability.HEALER,Ability.HYDRATION,Ability.NURTURER), Ability.NURTURER,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,2,0), 60,
                 0.5,
                 177, ExperienceGroup.MEDIUM_FAST,
@@ -95,14 +95,16 @@ public class Wrassuage extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHILLING_WATER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 33, 54, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Wrassuage");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

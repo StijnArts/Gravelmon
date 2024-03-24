@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "diskobolus",
-  "nationalPokedexNumber": 3498,
+  "nationalPokedexNumber": 4403,
   "primaryType": "fighting",
   "abilities": [
     "sheerforce",
@@ -86,7 +86,7 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luxpiravit",
-  "nationalPokedexNumber": 1421,
+  "nationalPokedexNumber": 1431,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
@@ -93,7 +93,7 @@
     "cobblemon.species.luxpiravit.desc"
   ],
   "preEvolution": "luravit",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

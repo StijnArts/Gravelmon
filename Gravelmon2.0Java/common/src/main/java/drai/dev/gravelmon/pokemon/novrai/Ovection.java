@@ -15,7 +15,7 @@ public class Ovection extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         50),
                 List.of(Ability.FLAME_BODY), Ability.LINGERING_AROMA,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,2,0), 60,
                 0.5,
                 167, ExperienceGroup.MEDIUM_FAST,
@@ -114,11 +114,11 @@ public class Ovection extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPIRIT_BREAK,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 45, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ovection");

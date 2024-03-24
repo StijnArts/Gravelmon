@@ -15,7 +15,7 @@ public class Migreat extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         130),
                 List.of(Ability.DROUGHT), Ability.MAGIC_GUARD,
-                8, 165,
+                24, 165,
                 new Stats(0,0,0,1,0,2), 3,
                 0.0,
                 270, ExperienceGroup.SLOW,
@@ -97,14 +97,16 @@ public class Migreat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Migreat");
+        setCanFly(true);
 
     }
 

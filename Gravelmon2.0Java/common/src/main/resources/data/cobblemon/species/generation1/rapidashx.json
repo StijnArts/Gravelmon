@@ -106,16 +106,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:xenolith",
-        "quantityRange": "1-1",
-        "percentage": 20
-      }
-    ]
-  },
   "moves": [
     "1:substitute",
     "1:magnetrise",

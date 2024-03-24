@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "infiris",
-  "nationalPokedexNumber": 2994,
+  "nationalPokedexNumber": 3603,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -61,6 +61,7 @@
     "39:irondefense",
     "43:flamethrower",
     "47:metalsound",
+    "51:stardustcosmic",
     "55:flareblitz",
     "tm:swordsdance",
     "tm:spikes",
@@ -71,6 +72,7 @@
     "tm:substitute",
     "tm:irondefense",
     "tm:triattack",
+    "tm:ragingflame",
     "tm:heatwave",
     "tm:discharge",
     "tm:willowisp",
@@ -78,7 +80,8 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
-    "tutor:cosmicpower",
+    "tutor:bugnoise",
+    "tutor:cosmicpowercosmic",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
@@ -86,6 +89,7 @@
     "egg:bulletpunch",
     "egg:hammerarm",
     "egg:lightscreen",
+    "egg:magmaring",
     "egg:magnitude",
     "egg:megapunch",
     "egg:mudslap",
@@ -126,7 +130,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

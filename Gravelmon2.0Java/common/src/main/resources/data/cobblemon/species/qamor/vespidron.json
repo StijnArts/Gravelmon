@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vespidron",
-  "nationalPokedexNumber": 2711,
+  "nationalPokedexNumber": 3227,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.vespidron.desc"
   ],
   "preEvolution": "qamorancombee",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

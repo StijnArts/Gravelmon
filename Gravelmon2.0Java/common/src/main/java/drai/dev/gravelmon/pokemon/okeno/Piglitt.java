@@ -14,14 +14,15 @@ public class Piglitt extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         40),
                 List.of(Ability.SUNSCREEN,Ability.THICK_FAT,Ability.SCRAPPY), Ability.SCRAPPY,
-                8, 165,
-                new Stats(0,0,1,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,1,0,0,0), 180,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They play in mud pits during hot days. By doing so, their skin becomes thicker and more resistant to attacks. Children love to chase Piglitt, because they get easily startled."),
-                List.of(),
+                List.of(new EvolutionEntry("porklay", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.MUD_SPORT,6),
@@ -43,11 +44,11 @@ public class Piglitt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_CRASH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.NEAR_MUD),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Piglitt");

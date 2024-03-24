@@ -47,16 +47,6 @@
   "eggGroups": [
     "bug"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:astonish",
     "1:scaryface",
@@ -70,6 +60,7 @@
     "21:screechsound",
     "25:webball",
     "29:hex",
+    "32:tempest",
     "36:whirlwind",
     "40:meanlook",
     "44:ominouswind",
@@ -135,7 +126,7 @@
     "cobblemon.species.mortasque.desc"
   ],
   "preEvolution": "maskoon",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "setsarec",
-  "nationalPokedexNumber": 2731,
+  "nationalPokedexNumber": 3251,
   "primaryType": "poison",
   "secondaryType": "rock",
   "abilities": [
@@ -130,7 +130,7 @@
     "cobblemon.species.setsarec.desc"
   ],
   "preEvolution": "Arbok",
-  "baseScale": 0.46875,
+  "baseScale": 0.625,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

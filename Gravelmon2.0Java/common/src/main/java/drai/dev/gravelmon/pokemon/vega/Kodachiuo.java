@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Kodachiuo extends Pokemon {
     public Kodachiuo() {
         super( "Kodachiuo",
@@ -65,10 +63,10 @@ public class Kodachiuo extends Pokemon {
                 List.of(Label.DENEB),
                 0,
                 List.of(), SpawnContext.SUBMERGED, SpawnPool.COMMON, 14, 28, 4.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_OCEAN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN, Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
+                List.of(SpawnPreset.REEF),
                 0.4, 0.3,
                 List.of());
         setCanBreathUnderwater(true);

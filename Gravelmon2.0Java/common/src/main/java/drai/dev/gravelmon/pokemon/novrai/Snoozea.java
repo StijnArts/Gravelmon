@@ -15,14 +15,15 @@ public class Snoozea extends drai.dev.gravelmon.pokemon.Pokemon {
                         47,
                         27),
                 List.of(Ability.SUNSCREEN), Ability.OBLIVIOUS,
-                8, 165,
+                2, 165,
                 new Stats(1,0,0,0,0,0), 240,
                 0.5,
                 53, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("It drifts across the surface of the ocean, basking in sunlight. At night, it sinks deep below the waves, though nobody knows where."),
-                List.of(),
+                List.of(new EvolutionEntry("sosola", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LIFE_DEW,1),
                         new MoveLearnSetEntry(Move.YAWN,8),
@@ -86,14 +87,17 @@ public class Snoozea extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 3, 22, 5.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN,Biome.IS_FREEZING))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Snoozea");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

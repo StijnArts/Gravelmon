@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mesoth",
-  "nationalPokedexNumber": 3533,
+  "nationalPokedexNumber": 4438,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -125,7 +125,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skeejack",
-  "nationalPokedexNumber": 2612,
+  "nationalPokedexNumber": 3018,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -25,7 +25,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -104,12 +104,15 @@
     "tm:flatter"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.skeejack.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "malignat",
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -124,7 +127,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

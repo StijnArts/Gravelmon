@@ -39,7 +39,7 @@ public class Furiousc extends drai.dev.gravelmon.pokemon.Pokemon {
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 31, 49, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_REEF))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))),
                 List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());

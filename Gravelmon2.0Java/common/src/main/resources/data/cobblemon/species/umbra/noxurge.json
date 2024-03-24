@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "noxurge",
-  "nationalPokedexNumber": 2580,
+  "nationalPokedexNumber": 2986,
   "primaryType": "poison",
   "secondaryType": "electric",
   "abilities": [
@@ -112,7 +112,7 @@
     "cobblemon.species.noxurge.desc"
   ],
   "preEvolution": "shoxin",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

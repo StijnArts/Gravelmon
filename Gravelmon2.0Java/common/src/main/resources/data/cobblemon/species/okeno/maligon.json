@@ -1,0 +1,110 @@
+{
+  "implemented": true,
+  "name": "maligon",
+  "nationalPokedexNumber": 3525,
+  "primaryType": "dragon",
+  "abilities": [
+    "keeneye",
+    "h:contrary"
+  ],
+  "baseStats": {
+    "hp": 63,
+    "attack": 78,
+    "defence": 74,
+    "special_attack": 74,
+    "special_defence": 58,
+    "speed": 58
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 145,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "5:meanlook",
+    "8:rage",
+    "10:fairywind",
+    "16:scaryface",
+    "19:luckychant",
+    "22:dragonrage",
+    "29:dragonbreath",
+    "33:pursuit",
+    "47:dragonclaw",
+    "55:outrage",
+    "tm:throatchop",
+    "tm:trick",
+    "tm:ominouswind",
+    "tm:nastyplot"  ],
+  "labels": [
+    "okeno",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.maligon.desc"
+  ],
+  "preEvolution": "feygon",
+  "evolutions": [
+    {
+      "id": "maligon_caballgon",
+      "variant": "level_up",
+      "result": "caballgon",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

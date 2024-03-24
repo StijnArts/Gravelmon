@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bidread",
-  "nationalPokedexNumber": 2891,
+  "nationalPokedexNumber": 3411,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.bidread.desc"
   ],
   "preEvolution": "biduane",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

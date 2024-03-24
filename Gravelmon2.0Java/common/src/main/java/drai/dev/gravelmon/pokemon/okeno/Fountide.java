@@ -14,7 +14,7 @@ public class Fountide extends drai.dev.gravelmon.pokemon.Pokemon {
                         92,
                         22),
                 List.of(Ability.SUCTION_CUPS,Ability.RAIN_DISH,Ability.DRIZZLE), Ability.DRIZZLE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,1,0,1,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -43,11 +43,11 @@ public class Fountide extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METEORSHOWER,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 33, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fountide");

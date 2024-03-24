@@ -47,16 +47,6 @@
   "eggGroups": [
     "water_2"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:pound",
     "1:watersport",

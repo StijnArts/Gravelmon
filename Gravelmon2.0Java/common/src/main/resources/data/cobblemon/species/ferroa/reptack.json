@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reptack",
-  "nationalPokedexNumber": 1431,
+  "nationalPokedexNumber": 1441,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -160,7 +160,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

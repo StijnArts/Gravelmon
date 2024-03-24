@@ -15,7 +15,7 @@ public class Sirenara extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         90),
                 List.of(Ability.RIVALRY,Ability.SUCTION_CUPS,Ability.HYDRATION), Ability.HYDRATION,
-                8, 165,
+                21, 165,
                 new Stats(0,0,0,2,0,0), 90,
                 0.0,
                 175, ExperienceGroup.SLOW,
@@ -24,7 +24,25 @@ public class Sirenara extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("It uses its mesmerizing voice and movements to attract Casanauta, but the call often summons hapless sailors who end up lost at sea. The embrace of a Sirenara is deadly, as it feeds on life energy."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.ALLURINGVOICE,1),
+                        new MoveLearnSetEntry(Move.DRAGON_PULSE,1),
+                        new MoveLearnSetEntry(Move.TWISTER,1),
+                        new MoveLearnSetEntry(Move.ATTRACT,1),
+                        new MoveLearnSetEntry(Move.CAPTIVATE,1),
+                        new MoveLearnSetEntry(Move.OUTRAGE,1),
+                        new MoveLearnSetEntry(Move.VENOM_DRENCH,1),
+                        new MoveLearnSetEntry(Move.TOXIC,1),
+                        new MoveLearnSetEntry(Move.ACID_SPRAY,1),
+                        new MoveLearnSetEntry(Move.POISON_JAB,1),
+                        new MoveLearnSetEntry(Move.SWEET_KISS,1),
+                        new MoveLearnSetEntry(Move.DRAINING_KISS,1),
+                        new MoveLearnSetEntry(Move.LOVE_LARIAT,1),
+                        new MoveLearnSetEntry(Move.BIND,1),
+                        new MoveLearnSetEntry(Move.OCTAZOOKA,1),
+                        new MoveLearnSetEntry(Move.DUAL_CHOP,1),
+                        new MoveLearnSetEntry(Move.HYPNOSIS,1),
+                        new MoveLearnSetEntry(Move.SYNCHRONOISE,1),
+                        new MoveLearnSetEntry(Move.NEUROTOXIN,1),
+                        new MoveLearnSetEntry(Move.ALLURING_VOICE,1),
                         new MoveLearnSetEntry(Move.RETURN,"tm"),
                         new MoveLearnSetEntry(Move.HEARTFELTPULSE,"tm"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"tm"),
@@ -72,14 +90,16 @@ public class Sirenara extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLURINGVOICE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 29, 44, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sirenara");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

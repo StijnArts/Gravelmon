@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jamberree",
-  "nationalPokedexNumber": 3034,
+  "nationalPokedexNumber": 3643,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -60,6 +60,7 @@
     "29:sunnyday",
     "33:gigadrain",
     "37:encore",
+    "40:rapidgrowth",
     "43:quiverdance",
     "47:solarbeam",
     "tm:swordsdance",
@@ -67,12 +68,14 @@
     "tm:substitute",
     "tm:energyball",
     "tm:darkpulse",
+    "tm:poisonleaf",
     "tm:leechseed",
     "tm:poisonjab",
     "tm:batonpass",
     "tm:sludgebomb",
     "tm:woodhammer",
     "tm:flash",
+    "tutor:bugnoise",
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:rest",
@@ -120,7 +123,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

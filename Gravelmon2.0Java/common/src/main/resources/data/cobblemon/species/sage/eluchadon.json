@@ -5,7 +5,7 @@
   "primaryType": "fighting",
   "secondaryType": "electric",
   "abilities": [
-    "keeneye",
+    "stubborn",
     "h:hugepower"
   ],
   "baseStats": {
@@ -48,16 +48,6 @@
     "human_like",
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:quickguard",
     "1:lowkick",
@@ -168,7 +158,7 @@
     "cobblemon.species.eluchadon.desc"
   ],
   "preEvolution": "luchito",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

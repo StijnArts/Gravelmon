@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "renemodo",
-  "nationalPokedexNumber": 3196,
+  "nationalPokedexNumber": 3805,
   "primaryType": "ice",
   "secondaryType": "electric",
   "abilities": [
@@ -95,7 +95,7 @@
     "cobblemon.species.renemodo.desc"
   ],
   "preEvolution": "remonisu",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

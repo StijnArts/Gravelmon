@@ -47,7 +47,7 @@ public class GenerationOne extends Game {
         pokemon.add(new QamoranHitmonchan(107));
         pokemon.add(new QamoranKoffing(109));
         pokemon.add(new QamoranWeezing(110));
-//        pokemon.add(new QamoranTangela(114)); NOT FINISHED
+//        pokemon.add(new QamoranTangela(114)); Missing Stats
 
         pokemon.add(new NostanDiglett(50));
         pokemon.add(new NostanDugtrio(51));
@@ -55,35 +55,35 @@ public class GenerationOne extends Game {
         pokemon.add(new NostanCloyster(91));
 
         pokemon.add(new NorheimanRattata(19));
-//        pokemon.add(new NorheimanDiglett(50)); NOT FINISHED
-//        pokemon.add(new NorheimanDugtrio(51)); NOT FINISHED
-//        pokemon.add(new NorheimanSeel(86)); NOT FINISHED
+//        pokemon.add(new NorheimanDiglett(50)); Missing Stats
+//        pokemon.add(new NorheimanDugtrio(51)); Missing Stats
+//        pokemon.add(new NorheimanSeel(86)); Missing Stats
         pokemon.add(new NorheimanShellder(90));
-//        pokemon.add(new NorheimanVoltorb(100)); NOT FINISHED
-//        pokemon.add(new NorheimanElectrode(101)); NOT FINISHED
+//        pokemon.add(new NorheimanVoltorb(100)); Missing Stats
+//        pokemon.add(new NorheimanElectrode(101)); Missing Stats
         pokemon.add(new NorheimanSeadra(117));
         pokemon.add(new NorheimanDitto(132));
-//        pokemon.add(new NorheimanDragonair(148)); NOT FINISHED
+//        pokemon.add(new NorheimanDragonair(148)); Missing Stats
 
-        pokemon.add(new VaritasianOnix(95)); //EVOLUTION NOT FINISHED
-        pokemon.add(new VaritasianCubone(104)); //EVOLUTION NOT FINISHED
-//        pokemon.add(new VaritasianMarowak(105)); NOT FINISHED
+//        pokemon.add(new VaritasianOnix(95)); //Member of line Not Finished
+//        pokemon.add(new VaritasianCubone(104)); //Member of line Not Finished
+//        pokemon.add(new VaritasianMarowak(105)); Missing Art
         pokemon.add(new VaritasianHitmonlee(106));
         pokemon.add(new VaritasianHitmonchan(107));
-//        pokemon.add(new VaritasianHorsea(116)); NOT FINISHED
-//        pokemon.add(new VaritasianSeadra(117)); NOT FINISHED
-//        pokemon.add(new VaritasianMrMime(122)); NOT FINISHED
+//        pokemon.add(new VaritasianHorsea(116)); Missing Stats
+//        pokemon.add(new VaritasianSeadra(117)); Missing Art
+//        pokemon.add(new VaritasianMrMime(122)); Missing Art
         pokemon.add(new VaritasianPorygon(137));
 
-//        pokemon.add(new HavaiianPoliwag(60)); NOT FINISHED
-//        pokemon.add(new HavaiianPoliwhirl(61)); NOT FINISHED
+//        pokemon.add(new HavaiianPoliwag(60)); //Member of line Not Finished
+//        pokemon.add(new HavaiianPoliwhirl(61)); Missing Art
         pokemon.add(new HavaiianGastly(92));
         pokemon.add(new HavaiianHaunter(93));
         pokemon.add(new HavaiianGengar(94));
-//        pokemon.add(new HavaiianKrabby(98)); NOT FINISHED
-//        pokemon.add(new HavaiianExeggcute(102)); NOT FINISHED
-//        pokemon.add(new HavaiianExeggutor(103)); NOT FINISHED
-//        pokemon.add(new HavaiianHorsea(116)); NOT FINISHED
+//        pokemon.add(new HavaiianKrabby(98)); Missing Stats
+//        pokemon.add(new HavaiianExeggcute(102)); Missing Art
+//        pokemon.add(new HavaiianExeggutor(103)); Missing Art
+//        pokemon.add(new HavaiianHorsea(116)); //Member of line Not Finished
 
         pokemon.add(new HizianVenonat(48));
         pokemon.add(new HizianVenomoth(49));
@@ -96,8 +96,8 @@ public class GenerationOne extends Game {
         pokemon.add(new AristosianBellsprout(69));
         pokemon.add(new AristosianWeepinbell(70));
         pokemon.add(new AristosianVictreebel(71));
-//        pokemon.add(new AristosianGrowlithe(58)); NOT FINISHED
-//        pokemon.add(new AristosianArcanine(59)); NOT FINISHED
+//        pokemon.add(new AristosianGrowlithe(58)); Missing Stats
+//        pokemon.add(new AristosianArcanine(59)); Missing Stats
         pokemon.add(new AristosianKangaskhan(115));
 
         pokemon.add(new AvorianMrMime(122));

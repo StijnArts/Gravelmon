@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mosdeng",
-  "nationalPokedexNumber": 2340,
+  "nationalPokedexNumber": 2550,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -136,7 +136,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

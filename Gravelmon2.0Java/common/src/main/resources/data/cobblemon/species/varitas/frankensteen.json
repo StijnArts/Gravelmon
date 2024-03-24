@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "frankensteen",
-  "nationalPokedexNumber": 1800,
+  "nationalPokedexNumber": 1871,
   "primaryType": "ghost",
   "secondaryType": "bug",
   "abilities": [
@@ -139,7 +139,7 @@
     "cobblemon.species.frankensteen.desc"
   ],
   "preEvolution": "varitasiansteenee",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

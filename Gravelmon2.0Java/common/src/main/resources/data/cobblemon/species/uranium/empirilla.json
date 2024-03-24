@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "empirilla",
-  "nationalPokedexNumber": 1845,
+  "nationalPokedexNumber": 1916,
   "primaryType": "fighting",
   "abilities": [
     "keeneye",
@@ -139,7 +139,7 @@
   "pokedex": [
     "cobblemon.species.empirilla.desc"
   ],
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -14,14 +14,15 @@ public class Sicada extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         60),
                 List.of(Ability.SWARM,Ability.TELEPATHY,Ability.CACOPHONY), Ability.CACOPHONY,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,1,0,0), 120,
                 0.5,
                 45, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Sicada send telepathic frequencies to gather in groups of three that sing together until one evolves. The remaining duo has to search for a new partner."),
-                List.of(),
+                List.of(new EvolutionEntry("maestring", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,4),
@@ -48,14 +49,14 @@ public class Sicada extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.IMPRISON,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_COLD))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sicada");
+        setCanFly(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "guldawn",
-  "nationalPokedexNumber": 3037,
+  "nationalPokedexNumber": 3646,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -70,13 +70,17 @@
     "tm:energyball",
     "tm:bravebird",
     "tm:batonpass",
+    "tm:ragingflame",
     "tm:heatwave",
+    "tm:dragonbeat",
     "tm:willowisp",
     "tm:featherdance",
     "tm:fly",
+    "tutor:bugnoise",
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:rest",
+    "tutor:shadowclamp",
     "tutor:toxic",
     "egg:aerialace",
     "egg:aircutter",
@@ -121,7 +125,7 @@
       ]   
  }
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

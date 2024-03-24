@@ -17,7 +17,7 @@ public class Shiveram extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         80),
                 List.of(Ability.SNOW_CLOAK,Ability.RECKLESS,Ability.FUR_COAT), Ability.FUR_COAT,
-                8, 165,
+                17, 165,
                 new Stats(0,0,3,0,0,0), 54,
                 0.5,
                 183, ExperienceGroup.ERRATIC,
@@ -43,10 +43,10 @@ public class Shiveram extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 47, .03, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING, Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

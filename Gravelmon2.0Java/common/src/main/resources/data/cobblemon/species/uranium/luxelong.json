@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luxelong",
-  "nationalPokedexNumber": 1946,
+  "nationalPokedexNumber": 2017,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
@@ -136,7 +136,7 @@
     "cobblemon.species.luxelong.desc"
   ],
   "preEvolution": "luxor",
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

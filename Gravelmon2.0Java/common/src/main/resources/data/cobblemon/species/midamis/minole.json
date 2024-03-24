@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "minole",
-  "nationalPokedexNumber": 2900,
+  "nationalPokedexNumber": 3420,
   "primaryType": "dark",
   "secondaryType": "ground",
   "abilities": [
@@ -88,7 +88,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

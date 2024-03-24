@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "porygonwes",
-  "nationalPokedexNumber": 1769,
+  "nationalPokedexNumber": 1779,
   "primaryType": "normal",
   "secondaryType": "sound",
   "abilities": [
@@ -64,6 +64,7 @@
     "50:magiccoat",
     "55:lockon",
     "60:boomburstsound",
+    "65:noiseburst",
     "tm:psyshock",
     "tm:toxic",
     "tm:hiddenpower",
@@ -74,6 +75,7 @@
     "tm:lightscreen",
     "tm:protect",
     "tm:raindance",
+    "tm:subwoofer",
     "tm:solarbeam",
     "tm:thunderbolt",
     "tm:thunder",

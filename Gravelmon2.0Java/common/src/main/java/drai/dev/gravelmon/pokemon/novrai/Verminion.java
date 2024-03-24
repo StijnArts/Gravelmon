@@ -15,14 +15,15 @@ public class Verminion extends drai.dev.gravelmon.pokemon.Pokemon {
                         53,
                         67),
                 List.of(Ability.SWARM,Ability.DEFIANT,Ability.FEROCIOUS), Ability.FEROCIOUS,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 70,
                 0.5,
                 64, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.DRAGON),
                 List.of("Alone, it's a relatively harmless and docile creature. If too many gather in the same area, they will begin to swarm, and they can strip all the foliage from an area in a matter of hours."),
-                List.of(),
+                List.of(new EvolutionEntry("abdominion", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUNCE,1),
                         new MoveLearnSetEntry(Move.RAGE,4),
@@ -109,8 +110,8 @@ public class Verminion extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCARY_FACE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

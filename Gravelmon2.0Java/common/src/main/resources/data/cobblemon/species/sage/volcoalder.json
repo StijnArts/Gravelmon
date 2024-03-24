@@ -48,16 +48,6 @@
   "eggGroups": [
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:magma",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:bodyslam",
     "1:earthpower",
@@ -143,7 +133,7 @@
     "cobblemon.species.volcoalder.desc"
   ],
   "preEvolution": "volcaroc",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

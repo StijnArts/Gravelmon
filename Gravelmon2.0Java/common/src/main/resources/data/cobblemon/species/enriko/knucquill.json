@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "knucquill",
-  "nationalPokedexNumber": 1609,
+  "nationalPokedexNumber": 1619,
   "primaryType": "ground",
   "secondaryType": "fighting",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.knucquill.desc"
   ],
   "preEvolution": "hogspur",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

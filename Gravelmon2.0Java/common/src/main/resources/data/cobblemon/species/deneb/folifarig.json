@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "folifarig",
-  "nationalPokedexNumber": 3040,
+  "nationalPokedexNumber": 3649,
   "primaryType": "normal",
   "secondaryType": "psychic",
   "abilities": [
@@ -82,6 +82,7 @@
     "tutor:magiccoat",
     "tutor:futuresight",
     "tutor:doubleedge",
+    "tutor:psyburn",
     "egg:foresight",
     "egg:foulplay",
     "egg:irontail",
@@ -90,6 +91,7 @@
     "egg:mirrorcoat",
     "egg:mudslap",
     "egg:powergemcrystal",
+    "egg:psyburn",
     "egg:psychup",
     "egg:safeguard",
     "egg:secretpower",
@@ -106,7 +108,7 @@
     "cobblemon.species.folifarig.desc"
   ],
   "preEvolution": "girafarig",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

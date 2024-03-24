@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "combound",
-  "nationalPokedexNumber": 3140,
+  "nationalPokedexNumber": 3749,
   "primaryType": "fighting",
   "secondaryType": "rock",
   "abilities": [
@@ -61,9 +61,11 @@
     "25:detect",
     "28:ancientpower",
     "30:doublehit",
+    "30:doubleshot",
     "33:bulkup",
     "39:drainpunch",
     "43:mindreader",
+    "48:magnumpunch",
     "54:rockpolish",
     "58:hammerarm",
     "69:closecombat",
@@ -75,6 +77,7 @@
     "tm:poisonjab",
     "tm:irondefense",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:mudbomb",
     "tm:woodhammer",
     "tm:focusblast",
@@ -96,6 +99,7 @@
     "egg:endure",
     "egg:firepunch",
     "egg:focuspunch",
+    "egg:geoimpact",
     "egg:gigaimpact",
     "egg:icepunch",
     "egg:lowkick",
@@ -104,6 +108,7 @@
     "egg:raindance",
     "egg:rockclimb",
     "egg:sandstorm",
+    "egg:stardustcosmic",
     "egg:sunnyday",
     "egg:superpower",
     "egg:thrash",
@@ -119,7 +124,7 @@
     "cobblemon.species.combound.desc"
   ],
   "preEvolution": "punchild",
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

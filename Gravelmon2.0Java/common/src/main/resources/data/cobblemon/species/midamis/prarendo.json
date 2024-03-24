@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "prarendo",
-  "nationalPokedexNumber": 2944,
+  "nationalPokedexNumber": 3464,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -84,7 +84,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

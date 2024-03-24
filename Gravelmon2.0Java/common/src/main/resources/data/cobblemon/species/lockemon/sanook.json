@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sanook",
-  "nationalPokedexNumber": 2439,
+  "nationalPokedexNumber": 2738,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -71,7 +71,7 @@
     "cobblemon.species.sanook.desc"
   ],
   "preEvolution": "rowviar",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

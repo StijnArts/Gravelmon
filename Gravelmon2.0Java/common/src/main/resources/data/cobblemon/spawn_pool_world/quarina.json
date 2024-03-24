@@ -7,16 +7,16 @@
       "id": "quarina-1",
       "pokemon": "quarina",
       "presets": [
-          "natural"
+          "freshwater"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
+      "context": "submerged",
+      "bucket": "rare",
       "level": "3-22",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_magical",
+"#cobblemon:is_forest" ],
         "canSeeSky": true
       }
     }

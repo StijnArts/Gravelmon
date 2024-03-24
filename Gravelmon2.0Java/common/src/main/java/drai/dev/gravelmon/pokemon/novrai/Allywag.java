@@ -15,14 +15,15 @@ public class Allywag extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         70),
                 List.of(Ability.SNIPER,Ability.OPPORTUNIST,Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 200,
                 0.5,
                 61, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("When it spies a human, it tries to entice them into following it. Without fail, it leads them into an ambush and takes their valuables."),
-                List.of(),
+                List.of(new EvolutionEntry("avigate", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.FORESIGHT,3),
@@ -87,11 +88,10 @@ public class Allywag extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCARY_FACE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Allywag");

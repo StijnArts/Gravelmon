@@ -15,14 +15,15 @@ public class Budcheep extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         40),
                 List.of(Ability.TANGLED_FEET,Ability.BIG_PECKS,Ability.RATTLED), Ability.RATTLED,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 54, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Budcheep are very friendly and common house pets. They come in many different colours."),
-                List.of(),
+                List.of(new EvolutionEntry("paratweet", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GUST,1),
                         new MoveLearnSetEntry(Move.PECK,4),
@@ -62,14 +63,14 @@ public class Budcheep extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STEEL_WING,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Budcheep");
+        setCanFly(true);
 
     }
 

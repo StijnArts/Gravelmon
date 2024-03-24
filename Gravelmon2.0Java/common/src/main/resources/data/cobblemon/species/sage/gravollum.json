@@ -48,16 +48,6 @@
   "eggGroups": [
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:sandstone",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:powertrick",
     "1:magnetrise",
@@ -72,7 +62,7 @@
     "18:hypnosis",
     "21:ancientpower",
     "25:mirrorcoat",
-    "28:cosmicpower",
+    "28:cosmicpowercosmic",
     "31:futuresight",
     "35:lockon",
     "39:powergemcrystal",
@@ -155,7 +145,7 @@
     "cobblemon.species.gravollum.desc"
   ],
   "preEvolution": "necronite",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

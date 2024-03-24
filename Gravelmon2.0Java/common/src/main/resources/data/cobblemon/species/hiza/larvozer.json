@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "larvozer",
-  "nationalPokedexNumber": 2182,
+  "nationalPokedexNumber": 2253,
   "primaryType": "bug",
   "abilities": [
     "bulletproof",
@@ -86,7 +86,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

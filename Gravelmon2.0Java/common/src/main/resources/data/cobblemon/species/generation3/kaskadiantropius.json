@@ -119,7 +119,7 @@
   "pokedex": [
     "cobblemon.species.kaskadiantropius.desc"
   ],
-  "baseScale": 0.75,
+  "baseScale": 1.0,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

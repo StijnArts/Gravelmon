@@ -100,7 +100,7 @@
     "cobblemon.species.relictentacruel.desc"
   ],
   "preEvolution": "relictentacool",
-  "baseScale": 0.6,
+  "baseScale": 0.7999999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

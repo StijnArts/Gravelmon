@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lamber",
-  "nationalPokedexNumber": 3358,
+  "nationalPokedexNumber": 4261,
   "primaryType": "fire",
   "abilities": [
     "flamebody",
@@ -119,7 +119,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

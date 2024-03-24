@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "salmosaultsaltwater",
-  "nationalPokedexNumber": 2004,
+  "nationalPokedexNumber": 2075,
   "primaryType": "water",
   "abilities": [
     "berserk",
@@ -78,7 +78,7 @@
     "cobblemon.species.salmosaultsaltwater.desc"
   ],
   "preEvolution": "salmini",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

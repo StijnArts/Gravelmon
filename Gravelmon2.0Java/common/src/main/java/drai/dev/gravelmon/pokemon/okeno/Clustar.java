@@ -14,14 +14,15 @@ public class Clustar extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         50),
                 List.of(Ability.LEVITATE), Ability.DARKHOLD,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,2,0,0), 110,
                 0.0,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.FAIRY),
                 List.of("The opposite forces each star emits is what keeps it levitating. If one of the two loses its glow, the other will lend its energy so that they can mantain balance."),
-                List.of(),
+                List.of(new EvolutionEntry("astervoid", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.TELEPORT,1),
                         new MoveLearnSetEntry(Move.MAGIC_POWDER,5),
@@ -46,14 +47,15 @@ public class Clustar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_SLIDE,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Clustar");
+        setCanFly(true);
 
     }
 

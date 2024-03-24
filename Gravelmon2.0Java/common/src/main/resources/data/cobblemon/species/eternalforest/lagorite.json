@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lagorite",
-  "nationalPokedexNumber": 2352,
+  "nationalPokedexNumber": 2562,
   "primaryType": "rock",
   "secondaryType": "dark",
   "abilities": [
@@ -210,7 +210,7 @@
     "cobblemon.species.lagorite.desc"
   ],
   "preEvolution": "rabball",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

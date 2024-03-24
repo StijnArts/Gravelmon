@@ -15,7 +15,7 @@ public class Damastrophe extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         90),
                 List.of(Ability.LIGHT_METAL,Ability.TECHNICIAN,Ability.MOTOR_DRIVE), Ability.MOTOR_DRIVE,
-                8, 165,
+                18, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.0,
                 180, ExperienceGroup.MEDIUM_FAST,
@@ -102,9 +102,8 @@ public class Damastrophe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

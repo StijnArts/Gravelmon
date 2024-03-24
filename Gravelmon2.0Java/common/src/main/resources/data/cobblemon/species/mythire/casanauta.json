@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "casanauta",
-  "nationalPokedexNumber": 2640,
+  "nationalPokedexNumber": 3046,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
@@ -30,12 +30,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -50,6 +50,19 @@
     "water_3"
   ],
   "moves": [
+    "1:attract",
+    "1:captivate",
+    "1:venomdrench",
+    "1:toxic",
+    "1:acidspray",
+    "1:poisonjab",
+    "1:sweetkiss",
+    "1:drainingkiss",
+    "1:bind",
+    "1:octazooka",
+    "1:dualchop",
+    "1:aquajet",
+    "1:crosspoison",
     "tm:return",
     "tm:frustration",
     "tm:hyperbeam",
@@ -91,12 +104,15 @@
     "tm:hypnosis"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.casanauta.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "cephamore",
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -111,7 +127,7 @@
     "special_defence": 0,
     "speed": 2
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

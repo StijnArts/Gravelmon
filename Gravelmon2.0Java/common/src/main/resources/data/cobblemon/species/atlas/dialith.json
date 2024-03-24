@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dialith",
-  "nationalPokedexNumber": 3351,
+  "nationalPokedexNumber": 4254,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
@@ -127,7 +127,7 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

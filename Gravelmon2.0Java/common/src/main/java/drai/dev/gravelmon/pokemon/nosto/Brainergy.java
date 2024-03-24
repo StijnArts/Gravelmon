@@ -21,9 +21,17 @@ public class Brainergy extends drai.dev.gravelmon.pokemon.Pokemon {
                 241, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Evo Tri Attack Normal"),
+                List.of(""),
                 List.of(),
-                List.of(
+                List.of(new MoveLearnSetEntry(Move.EERIE_IMPULSE,1),
+                        new MoveLearnSetEntry(Move.DISARMING_VOICE,4),
+                        new MoveLearnSetEntry(Move.CHARGE,7),
+                        new MoveLearnSetEntry(Move.ROLE_PLAY,11),
+                        new MoveLearnSetEntry(Move.SHOCK_WAVE,16),
+                        new MoveLearnSetEntry(Move.ALLY_SWITCH,20),
+                        new MoveLearnSetEntry(Move.PSYSHOCK,23),
+                        new MoveLearnSetEntry(Move.ELECTRIFY,28),
+                        new MoveLearnSetEntry(Move.PSYCHIC,33),
                         new MoveLearnSetEntry(Move.TRI_ATTACK,1),
                         new MoveLearnSetEntry(Move.SIGNAL_BEAM,"tm"),
                         new MoveLearnSetEntry(Move.MAGNET_RISE,"tm"),
@@ -94,11 +102,11 @@ public class Brainergy extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GYRO_BALL,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Brainergy");

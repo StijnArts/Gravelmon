@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "smalmon",
-  "nationalPokedexNumber": 3137,
+  "nationalPokedexNumber": 3746,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -61,6 +61,7 @@
     "37:aquatail",
     "43:magnitude",
     "47:scaryface",
+    "51:frostbite",
     "57:swagger",
     "tm:spikes",
     "tm:headbutt",

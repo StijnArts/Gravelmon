@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gassaster",
-  "nationalPokedexNumber": 3423,
+  "nationalPokedexNumber": 4328,
   "primaryType": "poison",
   "abilities": [
     "intimidate",
@@ -116,7 +116,7 @@
     "cobblemon.species.gassaster.desc"
   ],
   "preEvolution": "toxitube",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

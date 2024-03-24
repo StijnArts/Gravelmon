@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skideer",
-  "nationalPokedexNumber": 2495,
+  "nationalPokedexNumber": 2794,
   "primaryType": "ice",
   "abilities": [
     "pixilate",
@@ -87,7 +87,7 @@
       "requiredContext": "cobblemon:shiny_stone"   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

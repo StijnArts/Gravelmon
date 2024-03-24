@@ -15,14 +15,15 @@ public class Onychew extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         25),
                 List.of(Ability.STICKY_HOLD,Ability.TASTEBUDS,Ability.SWEET_VEIL), Ability.SWEET_VEIL,
-                8, 165,
+                15, 165,
                 new Stats(2,0,0,0,0,0), 60,
                 0.5,
                 139, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.FAIRY),
                 List.of("It synthesizes sweet, sticky sugar strands within its body. It fires these delectable threads at prey to bind them up in an instant."),
-                List.of(),
+                List.of(new EvolutionEntry("gummiwyrm", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:rare_candy")),
                 List.of(
                         new MoveLearnSetEntry(Move.JUICESPRAY,1),
                         new MoveLearnSetEntry(Move.SWEET_SCENT,7),
@@ -107,9 +108,8 @@ public class Onychew extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HONEYPOUR,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 38, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

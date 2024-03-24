@@ -48,16 +48,6 @@
   "eggGroups": [
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:obsidian",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:heavyslam",
     "1:firefang",
@@ -154,7 +144,7 @@
     "cobblemon.species.flarrapin.desc"
   ],
   "preEvolution": "shelosene",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

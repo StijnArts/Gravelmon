@@ -48,16 +48,6 @@
     "bug",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:seismictoss",
     "1:visegrip",
@@ -136,7 +126,7 @@
     "cobblemon.species.basilect.desc"
   ],
   "preEvolution": "dracoon",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

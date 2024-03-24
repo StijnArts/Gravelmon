@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slanbolos",
-  "nationalPokedexNumber": 1403,
+  "nationalPokedexNumber": 1413,
   "primaryType": "dark",
   "abilities": [
     "baddreams",
@@ -65,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.slanbolos.desc"
   ],
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mistoria",
-  "nationalPokedexNumber": 2698,
+  "nationalPokedexNumber": 3104,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -34,7 +34,7 @@
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -48,6 +48,19 @@
     "undiscovered"
   ],
   "moves": [
+    "1:lifedew",
+    "1:naturalgift",
+    "1:weatherball",
+    "1:waterpulse",
+    "1:aquaring",
+    "1:whirlpool",
+    "1:psychic",
+    "1:psychoshift",
+    "1:skillswap",
+    "1:powergemcrystal",
+    "1:healpulse",
+    "1:healbellsound",
+    "1:healblock",
     "tm:expandingforce",
     "tm:mistyexplosion",
     "tm:terrainpulse",
@@ -114,7 +127,7 @@
   "pokedex": [
     "cobblemon.species.mistoria.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.65,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -129,7 +142,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 8,
+  "height": 26,
   "weight": 165,
   "aspects": [],
 "features": [

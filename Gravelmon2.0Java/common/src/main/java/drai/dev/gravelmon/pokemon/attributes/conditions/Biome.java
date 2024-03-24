@@ -53,7 +53,6 @@ public enum Biome {
     IS_PEAK("#cobblemon","is_peak"),
     IS_PLAINS("#cobblemon","is_plains"),
     IS_PLATEAU("#cobblemon","is_plateau"),
-    IS_REEF("#cobblemon","is_reef"),
     IS_RIVER("#cobblemon","is_river"),
     IS_SANDY("#cobblemon","is_sandy"),
     IS_SAVANNA("#cobblemon","is_savanna"),

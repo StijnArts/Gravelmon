@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blubelrog",
-  "nationalPokedexNumber": 1841,
+  "nationalPokedexNumber": 1912,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -120,7 +120,7 @@
     "cobblemon.species.blubelrog.desc"
   ],
   "preEvolution": "folerog",
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

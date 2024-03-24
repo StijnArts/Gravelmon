@@ -15,14 +15,15 @@ public class Atlarv extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         60),
                 List.of(Ability.SHED_SKIN,Ability.SWARM,Ability.MULTISCALE), Ability.MULTISCALE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 45,
                 0.5,
                 40, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.DRAGON),
-                List.of("- Dragon BreathSTAB Dragon - String Shot Bug 6 Tackle Normal 13 Struggle BugSTAB Bug 18 TwisterSTAB Dragon 23 Mega Drain Grass 28 Tail Glow Bug 35 Bug BuzzSTAB Bug 41 Double-Edge Normal 48 Dragon PulseSTAB Dragon 51 Skitter SmackSTAB Bug 55 Dragon Dance Dragon 60 Giga Drain Grass 66 Draco MeteorSTAB Dragon"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("atlagon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"53")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.TACKLE,6),
@@ -95,10 +96,10 @@ public class Atlarv extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 1, 21, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

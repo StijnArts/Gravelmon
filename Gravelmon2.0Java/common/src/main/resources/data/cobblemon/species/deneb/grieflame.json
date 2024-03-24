@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grieflame",
-  "nationalPokedexNumber": 3105,
+  "nationalPokedexNumber": 3714,
   "primaryType": "fire",
   "secondaryType": "ghost",
   "abilities": [
@@ -72,17 +72,21 @@
     "tm:psychic",
     "tm:shadowball",
     "tm:confuseray",
+    "tm:ragingflame",
     "tm:heatwave",
     "tm:discharge",
     "tm:willowisp",
     "tm:flash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:nastyplot",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:bugnoise",
     "egg:acidarmor",
     "egg:curse",
+    "egg:cursedwrath",
     "egg:extrasensory",
     "egg:faketears",
     "egg:fireblast",
@@ -127,7 +131,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

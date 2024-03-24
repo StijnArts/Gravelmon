@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "feroceros",
-  "nationalPokedexNumber": 3051,
+  "nationalPokedexNumber": 3660,
   "primaryType": "steel",
   "secondaryType": "ground",
   "abilities": [
@@ -76,10 +76,12 @@
     "tm:irondefense",
     "tm:zapcannon",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:heatwave",
     "tm:discharge",
     "tm:strength",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:dig",
     "tutor:hiddenpower",
     "tutor:rest",
@@ -87,6 +89,7 @@
     "egg:ancientpower",
     "egg:firefang",
     "egg:flashcannon",
+    "egg:frostbite",
     "egg:gigaimpact",
     "egg:honeclaws",
     "egg:icefang",
@@ -117,7 +120,7 @@
     "cobblemon.species.feroceros.desc"
   ],
   "preEvolution": "rynos",
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

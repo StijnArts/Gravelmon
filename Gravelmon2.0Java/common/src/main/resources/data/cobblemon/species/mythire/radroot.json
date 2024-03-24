@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "radroot",
-  "nationalPokedexNumber": 2645,
+  "nationalPokedexNumber": 3051,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -49,6 +49,18 @@
     "grass"
   ],
   "moves": [
+    "1:snaptrap",
+    "5:synthesis",
+    "8:ingrain",
+    "13:bite",
+    "16:vinewhip",
+    "21:thunderfang",
+    "30:aromatherapy",
+    "35:petaldance",
+    "39:thunderwave",
+    "49:spore",
+    "54:powerwhip",
+    "60:electricterrain",
     "tm:return",
     "tm:frustration",
     "tm:facade",
@@ -79,7 +91,22 @@
   "pokedex": [
     "cobblemon.species.radroot.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "radroot_powaflowa",
+      "variant": "level_up",
+      "result": "powaflowa",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 24
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -94,7 +121,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 11,
   "weight": 165,
   "aspects": [],
 "features": [

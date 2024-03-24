@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crystabrawl",
-  "nationalPokedexNumber": 1575,
+  "nationalPokedexNumber": 1585,
   "primaryType": "psychic",
   "secondaryType": "fighting",
   "abilities": [
@@ -173,7 +173,7 @@
   "pokedex": [
     "cobblemon.species.crystabrawl.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

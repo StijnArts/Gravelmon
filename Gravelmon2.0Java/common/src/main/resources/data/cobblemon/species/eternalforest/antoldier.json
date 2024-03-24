@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "antoldier",
-  "nationalPokedexNumber": 2343,
+  "nationalPokedexNumber": 2553,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -137,7 +137,7 @@
     "cobblemon.species.antoldier.desc"
   ],
   "preEvolution": "antager",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

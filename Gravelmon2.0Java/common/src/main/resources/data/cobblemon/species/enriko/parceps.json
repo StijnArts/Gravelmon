@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "parceps",
-  "nationalPokedexNumber": 1611,
+  "nationalPokedexNumber": 1621,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.parceps.desc"
   ],
   "preEvolution": "raddash",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

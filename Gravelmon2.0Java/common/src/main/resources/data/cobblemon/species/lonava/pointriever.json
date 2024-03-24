@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pointriever",
-  "nationalPokedexNumber": 2401,
+  "nationalPokedexNumber": 2700,
   "primaryType": "normal",
   "abilities": [
     "scrappy",
@@ -96,7 +96,7 @@
     "cobblemon.species.pointriever.desc"
   ],
   "preEvolution": "ammutt",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

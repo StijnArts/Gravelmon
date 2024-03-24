@@ -15,8 +15,8 @@ public class Buldough extends drai.dev.gravelmon.pokemon.Pokemon {
                         64,
                         73),
                 List.of(Ability.SWEET_VEIL,Ability.CUTE_CHARM,Ability.DELICIOUS), Ability.DELICIOUS,
-                8, 165,
-                new Stats(0,1,0,0,0,1), 0,
+                6, 165,
+                new Stats(0,1,0,0,0,1), 120,
                 0.5,
                 164, ExperienceGroup.FAST,
                 70,
@@ -71,14 +71,13 @@ public class Buldough extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOLTIN,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 7, 28, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Buldough");
 
     }
 

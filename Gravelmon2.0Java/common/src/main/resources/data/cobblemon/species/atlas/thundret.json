@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "thundret",
-  "nationalPokedexNumber": 3435,
+  "nationalPokedexNumber": 4340,
   "primaryType": "electric",
   "abilities": [
     "voltabsorb",
@@ -121,7 +121,7 @@
     "cobblemon.species.thundret.desc"
   ],
   "preEvolution": "echidnum",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

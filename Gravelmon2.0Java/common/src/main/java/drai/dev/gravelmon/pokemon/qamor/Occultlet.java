@@ -17,14 +17,15 @@ public class Occultlet extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         58),
                 List.of(Ability.BLAZE), Ability.WANDERING_SPIRIT,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.875,
                 142, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Occultlet naturally produces a pattern that resembled flayed meat. This is to deter predators away, as they perceive the Pokemon to already be a corpse. They are said to posses innate supernatural powers, and their bones are used in several pagan rituals and religious practices."),
-                List.of(),
+                List.of(new EvolutionEntry("dambattoir", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.EMBER,6),
@@ -53,8 +54,9 @@ public class Occultlet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

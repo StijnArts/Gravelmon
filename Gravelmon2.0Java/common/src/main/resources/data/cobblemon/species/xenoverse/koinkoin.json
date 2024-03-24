@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "koinkoin",
-  "nationalPokedexNumber": 1730,
+  "nationalPokedexNumber": 1740,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -101,7 +101,7 @@
   "pokedex": [
     "cobblemon.species.koinkoin.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

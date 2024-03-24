@@ -15,14 +15,15 @@ public class Varanox extends drai.dev.gravelmon.pokemon.Pokemon {
                         42,
                         47),
                 List.of(Ability.FEROCIOUS,Ability.STENCH,Ability.QUICK_FEET), Ability.QUICK_FEET,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 75,
                 0.5,
                 60, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("Its noxious breath is a result of its diet. If its awful stench isn't enough to ward off enemies, it lunges forward to unleash a venomous bite."),
-                List.of(),
+                List.of(new EvolutionEntry("halitox", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.TACKLE,7),
@@ -107,8 +108,9 @@ public class Varanox extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASTONISH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 28, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

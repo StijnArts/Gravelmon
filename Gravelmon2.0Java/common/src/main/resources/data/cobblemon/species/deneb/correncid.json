@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "correncid",
-  "nationalPokedexNumber": 2998,
+  "nationalPokedexNumber": 3607,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -52,6 +52,7 @@
     "1:hydrocannon",
     "1:pound",
     "1:growl",
+    "1:cursedwrath",
     "1:bubble",
     "1:watersport",
     "8:bubble",
@@ -91,6 +92,7 @@
     "tutor:iciclecrash",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:shadowclamp",
     "tutor:nastyplot",
     "egg:acidspray",
     "egg:astonish",
@@ -100,6 +102,7 @@
     "egg:disable",
     "egg:dive",
     "egg:foresight",
+    "egg:frostbite",
     "egg:gunkshot",
     "egg:hail",
     "egg:hypnosis",
@@ -126,7 +129,7 @@
     "cobblemon.species.correncid.desc"
   ],
   "preEvolution": "hydrush",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

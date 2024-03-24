@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terragrip",
-  "nationalPokedexNumber": 2857,
+  "nationalPokedexNumber": 3377,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.terragrip.desc"
   ],
   "preEvolution": "terramite",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

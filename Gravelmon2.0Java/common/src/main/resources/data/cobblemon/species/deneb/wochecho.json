@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wochecho",
-  "nationalPokedexNumber": 3179,
+  "nationalPokedexNumber": 3788,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -61,6 +61,7 @@
     "42:crushclaw",
     "46:mirrormove",
     "52:bravebird",
+    "tutor:glide",
     "tutor:leer",
     "tutor:snarl",
     "tutor:feintattack",
@@ -111,7 +112,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

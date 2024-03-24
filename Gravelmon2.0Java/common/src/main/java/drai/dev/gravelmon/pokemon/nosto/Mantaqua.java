@@ -15,13 +15,13 @@ public class Mantaqua extends drai.dev.gravelmon.pokemon.Pokemon {
                         79,
                         99),
                 List.of(Ability.HYDRATION), Ability.WATER_VEIL,
-                8, 165,
+                14, 165,
                 new Stats(1,0,0,0,0,1), 150,
                 0.5,
                 155, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1),
-                List.of("- Tackle Normal - BubbleSTAB Water - Refresh Normal 5 Acid Armor Poison 9 Aqua SlapSTAB Water 11 Supersonic Normal 14 Bubble BeamSTAB Water 17 Aqua Ring Water 19 Glow Signal Psychic 21 Mist Ice 25 Air Slash Flying 29 Water PulseSTAB Water 31 Soak Water 34 Calm Mind Psychic 37 Life Dew Water 39 U-turn Bug 41 Bounce Flying 45 LiquidationSTAB Water 49 Safeguard Normal 51 Recover Normal 54 Moonlight Fairy 57 Beach TideSTAB Water 59 Heal Pulse Psychic 61 Sparkling AriaSTAB Water 65 Starstream Psychic 69 Vortex DrainSTAB Water 71 Hydro PumpSTAB Water 74 Healing Wish Psychic"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.REFRESH,1),
@@ -52,14 +52,16 @@ public class Mantaqua extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEALING_WISH,74)                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 13, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Mantaqua");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

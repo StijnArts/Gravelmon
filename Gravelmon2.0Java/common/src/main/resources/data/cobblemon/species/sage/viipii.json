@@ -46,16 +46,6 @@
   "eggGroups": [
     "ditto"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-1",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:yawn",
     "1:metronome",
@@ -163,7 +153,7 @@
   "pokedex": [
     "cobblemon.species.viipii.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rewaxation",
-  "nationalPokedexNumber": 2381,
+  "nationalPokedexNumber": 2680,
   "primaryType": "fire",
   "abilities": [
     "flashfire",
@@ -70,7 +70,7 @@
     "cobblemon.species.rewaxation.desc"
   ],
   "preEvolution": "mellowick",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

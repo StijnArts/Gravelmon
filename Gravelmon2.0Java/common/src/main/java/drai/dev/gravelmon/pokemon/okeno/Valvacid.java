@@ -14,7 +14,7 @@ public class Valvacid extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         70),
                 List.of(Ability.PRESSURE), Ability.CORROSION,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 170, ExperienceGroup.SLOW,
@@ -47,8 +47,8 @@ public class Valvacid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BREAKDOWN,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 33, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

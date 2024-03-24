@@ -17,14 +17,15 @@ public class Seasnug extends drai.dev.gravelmon.pokemon.Pokemon {
                         48,
                         40),
                 List.of(Ability.FOREWARN), Ability.GALE_WINGS,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 170,
                 0.5,
                 70, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("When a large amount of these Pokemon move out of an area abruptly, it is said to be a sign of a disaster that is soon to come."),
-                List.of(),
+                List.of(new EvolutionEntry("clairbuoyant", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,5),
@@ -41,14 +42,16 @@ public class Seasnug extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 4, 26, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Seasnug");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

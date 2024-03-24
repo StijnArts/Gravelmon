@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arowisen",
-  "nationalPokedexNumber": 2544,
+  "nationalPokedexNumber": 2950,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -125,7 +125,7 @@
     "cobblemon.species.arowisen.desc"
   ],
   "preEvolution": "simpaima",
-  "baseScale": 0.50625,
+  "baseScale": 0.6749999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kureigu",
-  "nationalPokedexNumber": 3206,
+  "nationalPokedexNumber": 3815,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -74,7 +74,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

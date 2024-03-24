@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yuffin",
-  "nationalPokedexNumber": 2111,
+  "nationalPokedexNumber": 2182,
   "primaryType": "flying",
   "secondaryType": "water",
   "abilities": [
@@ -81,7 +81,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

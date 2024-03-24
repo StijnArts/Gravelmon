@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yeteen",
-  "nationalPokedexNumber": 2258,
+  "nationalPokedexNumber": 2329,
   "primaryType": "grass",
   "secondaryType": "ice",
   "abilities": [
@@ -106,7 +106,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

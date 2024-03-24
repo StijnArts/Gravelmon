@@ -49,6 +49,7 @@
   ],
   "moves": [
     "egg:fissure",
+    "egg:crystalizecrystal",
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
@@ -62,6 +63,7 @@
     "tm:raindance",
     "tm:earthquake",
     "tm:return",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:sandstorm",
     "tm:rocktomb",
@@ -79,6 +81,8 @@
     "19:poisonjab",
     "26:accelerock",
     "33:spikes",
+    "38:geosplinter",
+    "44:stonesurge",
     "51:irondefense"  ],
   "labels": [
     "blazing_emerald",
@@ -88,7 +92,7 @@
   "pokedex": [
     "cobblemon.species.hoenniantoxapex.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

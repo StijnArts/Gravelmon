@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vintera",
-  "nationalPokedexNumber": 2248,
+  "nationalPokedexNumber": 2319,
   "primaryType": "ice",
   "abilities": [
     "snowwarning",
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.vintera.desc"
   ],
-  "baseScale": 0.69375,
+  "baseScale": 0.9249999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

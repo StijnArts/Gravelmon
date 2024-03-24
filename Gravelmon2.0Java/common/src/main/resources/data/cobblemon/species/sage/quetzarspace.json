@@ -47,16 +47,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "3",
-    "entries": [
-      {
-        "item": "minecraft:emerald_block",
-        "quantityRange": "3-10",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:scaryface",
     "1:twister",
@@ -65,7 +55,7 @@
     "23:airslash",
     "30:ancientpower",
     "38:powergemcrystal",
-    "44:cosmicpower",
+    "44:cosmicpowercosmic",
     "51:stoneedge",
     "64:dragondance",
     "71:hypervoicesound",
@@ -159,7 +149,7 @@
       ]   
  }
   ],
-  "baseScale": 1.35,
+  "baseScale": 1.8,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

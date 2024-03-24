@@ -15,14 +15,15 @@ public class Ohman extends drai.dev.gravelmon.pokemon.Pokemon {
                         15,
                         85),
                 List.of(Ability.RATTLED,Ability.RUN_AWAY,Ability.WIMP_OUT), Ability.WIMP_OUT,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,1), 160,
                 0.5,
                 53, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("When it's afraid, its electricity-producing organ goes into overdrive. This stimulates its muscles, causing it to dart away in a flash."),
-                List.of(),
+                List.of(new EvolutionEntry("ohmigosh", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.FLAIL,4),
@@ -106,9 +107,8 @@ public class Ohman extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAINING_KISS,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

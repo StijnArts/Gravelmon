@@ -15,14 +15,15 @@ public class Infestinal extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         23),
                 List.of(Ability.LIMBER,Ability.HYDRATION,Ability.POISON_POINT), Ability.POISON_POINT,
-                8, 165,
+                10, 165,
                 new Stats(0,1,0,0,0,0), 180,
                 0.5,
                 55, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.MONSTER),
                 List.of("It roots itself inside a rock and never leaves. At the bottom of the ocean, hundreds of Infestinal gather around underwater volcanoes, feeding on chemical eruptions."),
-                List.of(),
+                List.of(new EvolutionEntry("horrendible", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.INFESTATION,1),
                         new MoveLearnSetEntry(Move.ACID,6),
@@ -98,14 +99,16 @@ public class Infestinal extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Infestinal");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

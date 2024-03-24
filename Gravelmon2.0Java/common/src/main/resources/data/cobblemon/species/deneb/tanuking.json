@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tanuking",
-  "nationalPokedexNumber": 3094,
+  "nationalPokedexNumber": 3703,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -95,6 +95,7 @@
     "egg:endeavor",
     "egg:firepunch",
     "egg:followme",
+    "egg:frostbite",
     "egg:frustration",
     "egg:hammerarm",
     "egg:howlsound",
@@ -122,7 +123,7 @@
     "cobblemon.species.tanuking.desc"
   ],
   "preEvolution": "percussoon",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

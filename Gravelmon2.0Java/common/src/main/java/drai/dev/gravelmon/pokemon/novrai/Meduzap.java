@@ -15,14 +15,15 @@ public class Meduzap extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         51),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 180,
                 0.25,
                 66, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.WATER_3),
                 List.of("Though its body is soft like jelly, it has a composition similar to rock. Looking into its eyes leaves you with the feeling of pins and needles for hours."),
-                List.of(),
+                List.of(new EvolutionEntry("gorgowatt", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.SUPERSONIC,5),
@@ -109,8 +110,8 @@ public class Meduzap extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZAPWRAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SUMMER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

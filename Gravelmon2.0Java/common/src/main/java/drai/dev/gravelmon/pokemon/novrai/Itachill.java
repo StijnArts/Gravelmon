@@ -15,14 +15,15 @@ public class Itachill extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         61),
                 List.of(Ability.SNOW_CLOAK,Ability.STATIC,Ability.CHEEK_POUCH), Ability.CHEEK_POUCH,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 210,
                 0.5,
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("It's native to the coldest parts of Novrai, but migrates south during the summer. Groups of them huddle together to sleep to maximize the cold produced by their fur."),
-                List.of(),
+                List.of(new EvolutionEntry("itaffura", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SCRATCH,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,5),
@@ -108,8 +109,8 @@ public class Itachill extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AURORA_BEAM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 24, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

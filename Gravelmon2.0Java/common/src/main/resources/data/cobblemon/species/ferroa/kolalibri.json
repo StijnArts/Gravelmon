@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kolalibri",
-  "nationalPokedexNumber": 1440,
+  "nationalPokedexNumber": 1450,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -133,7 +133,7 @@
     "cobblemon.species.kolalibri.desc"
   ],
   "preEvolution": "imbirbe",
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

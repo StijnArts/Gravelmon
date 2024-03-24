@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "krillzaingel",
-  "nationalPokedexNumber": 3450,
+  "nationalPokedexNumber": 4355,
   "primaryType": "steel",
   "secondaryType": "fire",
   "abilities": [
@@ -117,7 +117,7 @@
   "pokedex": [
     "cobblemon.species.krillzaingel.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

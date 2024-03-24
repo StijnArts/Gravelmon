@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "novagon",
-  "nationalPokedexNumber": 2244,
+  "nationalPokedexNumber": 2315,
   "primaryType": "dragon",
   "secondaryType": "steel",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.novagon.desc"
   ],
   "preEvolution": "orbitalon",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -17,14 +17,15 @@ public class Ciguapo extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         75),
                 List.of(Ability.KEEN_EYE), Ability.DARKHOLD,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,1), 100,
                 0.5,
                 67, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("Ciguapo are actually quite timid towards humans and prefer to remain hidden, however they bond quickly with woman and feminine trainers. They especially love to play with trainers with long hair, and they appear to have an eye for women's hairstyles and fashion."),
-                List.of(),
+                List.of(new EvolutionEntry("sombruja", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"220")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.DOUBLE_TEAM,5),
@@ -44,9 +45,9 @@ public class Ciguapo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AFTER_YOU,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

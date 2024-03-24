@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ignuana",
-  "nationalPokedexNumber": 1550,
+  "nationalPokedexNumber": 1560,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -149,7 +149,7 @@
     "cobblemon.species.ignuana.desc"
   ],
   "preEvolution": "laharva",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

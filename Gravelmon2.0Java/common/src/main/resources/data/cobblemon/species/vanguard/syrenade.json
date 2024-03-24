@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "syrenade",
-  "nationalPokedexNumber": 2728,
+  "nationalPokedexNumber": 3248,
   "primaryType": "poison",
   "secondaryType": "sound",
   "abilities": [
@@ -140,7 +140,7 @@
     "cobblemon.species.syrenade.desc"
   ],
   "preEvolution": "syrallure",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,14 +15,15 @@ public class Clinglee extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         55),
                 List.of(Ability.CUTE_CHARM,Ability.RECKLESS,Ability.INNARDS_OUT), Ability.INNARDS_OUT,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,1,0), 200,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.MONSTER),
                 List.of("It is unsatisfied without the company of others, attaching its sticky body to passersby. If truly desperate for attention, it will release a pheromone from the valves on its head that attracts other Clinglee."),
-                List.of(),
+                List.of(new EvolutionEntry("valentox", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
                         new MoveLearnSetEntry(Move.CUDDLE,7),
@@ -46,9 +47,8 @@ public class Clinglee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

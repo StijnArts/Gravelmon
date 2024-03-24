@@ -15,14 +15,15 @@ public class Slugic extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         10),
                 List.of(Ability.MAGICIAN,Ability.PERPLEXING,Ability.MAGIC_BOUNCE), Ability.MAGIC_BOUNCE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 50, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.AMORPHOUS),
                 List.of("It grows and sheds many shells throughout its life. When it's threatened, it can pull itself entirely into its shell and disappear, reappearing in one of its old, abandoned shells."),
-                List.of(),
+                List.of(new EvolutionEntry("noudini", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PSYWAVE,1),
                         new MoveLearnSetEntry(Move.CONFUSION,5),
@@ -113,9 +114,9 @@ public class Slugic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METRONOME,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

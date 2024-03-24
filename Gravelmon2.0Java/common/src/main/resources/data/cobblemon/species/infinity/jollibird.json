@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jollibird",
-  "nationalPokedexNumber": 1305,
+  "nationalPokedexNumber": 1315,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -148,7 +148,7 @@
     "cobblemon.species.jollibird.desc"
   ],
   "preEvolution": "delibird",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

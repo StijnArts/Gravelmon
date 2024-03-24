@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "feegremin",
-  "nationalPokedexNumber": 2969,
+  "nationalPokedexNumber": 3489,
   "primaryType": "dark",
   "secondaryType": "water",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.feegremin.desc"
   ],
   "preEvolution": "feefish",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

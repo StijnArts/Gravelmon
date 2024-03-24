@@ -15,7 +15,7 @@ public class Noxight extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         100),
                 List.of(Ability.INTIMIDATE), Ability.LIQUID_OOZE,
-                8, 165,
+                14, 165,
                 new Stats(2,0,0,0,0,0), 100,
                 0.5,
                 170, ExperienceGroup.SLOW,
@@ -85,14 +85,15 @@ public class Noxight extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLWIND,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 14, 41, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Noxight");
+        setCanFly(true);
 
     }
 

@@ -22,7 +22,7 @@ public class NovranHattrem extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("Farmers will employ this form of Hattrem to care for their crops. When Impidimp tries to steal from the harvest, it will unleash its wrath."),
-                List.of(new EvolutionEntry("novranhatterene", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("NovranHatterene", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CUDDLE,1),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "baitatao",
-  "nationalPokedexNumber": 1960,
+  "nationalPokedexNumber": 2031,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -87,7 +87,7 @@
   "pokedex": [
     "cobblemon.species.baitatao.desc"
   ],
-  "baseScale": 0.61875,
+  "baseScale": 0.8250000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

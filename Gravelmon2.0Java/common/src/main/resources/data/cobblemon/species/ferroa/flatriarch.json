@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flatriarch",
-  "nationalPokedexNumber": 1544,
+  "nationalPokedexNumber": 1554,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -159,7 +159,7 @@
     "cobblemon.species.flatriarch.desc"
   ],
   "preEvolution": "tadpunk",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

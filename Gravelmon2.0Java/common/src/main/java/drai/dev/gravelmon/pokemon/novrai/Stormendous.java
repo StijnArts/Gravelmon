@@ -15,7 +15,7 @@ public class Stormendous extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         85),
                 List.of(Ability.CLOUD_NINE,Ability.SECONDWIND,Ability.AERILATE), Ability.AERILATE,
-                8, 165,
+                19, 165,
                 new Stats(0,2,0,1,0,0), 45,
                 0.5,
                 238, ExperienceGroup.MEDIUM_FAST,
@@ -103,8 +103,9 @@ public class Stormendous extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 44, 56, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

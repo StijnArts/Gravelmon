@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maelstream",
-  "nationalPokedexNumber": 3083,
+  "nationalPokedexNumber": 3692,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -82,10 +82,12 @@
     "tutor:nastyplot",
     "egg:blizzard",
     "egg:curse",
+    "egg:cursedwrath",
     "egg:disable",
     "egg:doubleteam",
     "egg:doubleedge",
     "egg:drillrun",
+    "egg:frostbite",
     "egg:icebeam",
     "egg:iciclecrash",
     "egg:muddywater",

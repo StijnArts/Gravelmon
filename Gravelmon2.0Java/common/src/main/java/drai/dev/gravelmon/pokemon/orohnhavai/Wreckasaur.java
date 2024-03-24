@@ -17,7 +17,7 @@ public class Wreckasaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         80),
                 List.of(Ability.ROCK_HEAD,Ability.RECKLESS,Ability.SHEER_FORCE), Ability.SHEER_FORCE,
-                8, 165,
+                22, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.875,
                 177, ExperienceGroup.ERRATIC,
@@ -49,8 +49,8 @@ public class Wreckasaur extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 38, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

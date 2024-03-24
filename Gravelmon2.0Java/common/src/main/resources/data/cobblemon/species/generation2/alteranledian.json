@@ -66,7 +66,7 @@
     "26:cometpunch",
     "32:batonpass",
     "37:lunge",
-    "43:cosmicpower",
+    "43:cosmicpowercosmic",
     "48:meteormash",
     "54:wish",
     "egg:wish",
@@ -79,7 +79,7 @@
   "pokedex": [
     "cobblemon.species.alteranledian.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

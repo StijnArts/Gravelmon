@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "amphibrea",
-  "nationalPokedexNumber": 2692,
+  "nationalPokedexNumber": 3098,
   "primaryType": "rock",
   "secondaryType": "poison",
   "abilities": [
@@ -49,6 +49,17 @@
     "amorphous"
   ],
   "moves": [
+    "1:tarshot",
+    "1:acidarmor",
+    "1:gastroacid",
+    "1:ancientpower",
+    "1:muddywater",
+    "1:sludgewave",
+    "1:gunkshot",
+    "1:smokescreen",
+    "1:smog",
+    "1:bounce",
+    "1:heavyslam",
     "tm:attract",
     "tm:bide",
     "tm:bodypress",
@@ -118,12 +129,15 @@
     "tm:willowisp"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.amphibrea.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "ribitar",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -138,7 +152,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

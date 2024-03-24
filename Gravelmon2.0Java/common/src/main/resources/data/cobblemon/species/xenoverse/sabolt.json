@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sabolt",
-  "nationalPokedexNumber": 1736,
+  "nationalPokedexNumber": 1746,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -47,6 +47,21 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:thundershock",
     "1:tackle",
@@ -135,7 +150,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -88,11 +88,11 @@ public class KaskadianDuosion extends Pokemon {
                 List.of(Label.LOCKEMON, Label.GEN5),
                 0, List.of(),
                 SpawnContext.SUBMERGED, SpawnPool.RARE, 32, 45, 1.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_TEMPERATE))),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Duosion");

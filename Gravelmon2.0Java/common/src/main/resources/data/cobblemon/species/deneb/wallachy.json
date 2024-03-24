@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wallachy",
-  "nationalPokedexNumber": 3173,
+  "nationalPokedexNumber": 3782,
   "primaryType": "normal",
   "abilities": [
     "intimidate",
@@ -84,6 +84,7 @@
     "egg:mudslap",
     "egg:chipaway",
     "egg:superpower",
+    "egg:magnumpunch",
     "egg:furyswipes",
     "egg:rockclimb"  ],
   "labels": [

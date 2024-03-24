@@ -15,7 +15,7 @@ public class Hypnode extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         70),
                 List.of(Ability.PRANKSTER), Ability.ANTICIPATION,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,1,0), 235,
                 0.5,
                 142, ExperienceGroup.FAST,
@@ -41,14 +41,15 @@ public class Hypnode extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEALING_WISH,55)                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 11, 34, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Hypnode");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

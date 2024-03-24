@@ -15,7 +15,7 @@ public class Celestorch extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         136),
                 List.of(Ability.LEVITATE,Ability.AFTERMATH,Ability.ANTICIPATION), Ability.ANTICIPATION,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 182, ExperienceGroup.MEDIUM_FAST,
@@ -107,14 +107,15 @@ public class Celestorch extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CELEBRATE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Celestorch");
+        setCanFly(true);
 
     }
 

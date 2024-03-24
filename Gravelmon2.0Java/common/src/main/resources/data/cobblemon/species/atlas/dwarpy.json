@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dwarpy",
-  "nationalPokedexNumber": 3508,
+  "nationalPokedexNumber": 4413,
   "primaryType": "normal",
   "abilities": [
     "pickup",
@@ -136,7 +136,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

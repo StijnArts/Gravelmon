@@ -15,7 +15,7 @@ public class Vermacrom extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         55),
                 List.of(Ability.EARTH_EATER,Ability.PRESSURE,Ability.OVERWHELMING), Ability.OVERWHELMING,
-                8, 165,
+                21, 165,
                 new Stats(1,0,1,0,0,0), 90,
                 0.5,
                 175, ExperienceGroup.SLOW,
@@ -24,6 +24,23 @@ public class Vermacrom extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Wherever Vermacrom burrows, its super-heated mouth leaves behind smooth tunnels in the earth. It's believed that as its body cools towards the end of its life, the charred debris left behind will eventually recombine into a new Vermacrom."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.LANDSLIDE,1),
+                        new MoveLearnSetEntry(Move.MAGNITUDE,1),
+                        new MoveLearnSetEntry(Move.EARTH_POWER,1),
+                        new MoveLearnSetEntry(Move.STOMPING_TANTRUM,1),
+                        new MoveLearnSetEntry(Move.DRILL_RUN,1),
+                        new MoveLearnSetEntry(Move.LEECH_LIFE,1),
+                        new MoveLearnSetEntry(Move.DIG,1),
+                        new MoveLearnSetEntry(Move.ERUPTION,1),
+                        new MoveLearnSetEntry(Move.FIRE_LASH,1),
+                        new MoveLearnSetEntry(Move.FLAME_BURST,1),
+                        new MoveLearnSetEntry(Move.INCINERATE,1),
+                        new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
+                        new MoveLearnSetEntry(Move.SOLAR_FLARE,1),
+                        new MoveLearnSetEntry(Move.COIL,1),
+                        new MoveLearnSetEntry(Move.WRING_OUT,1),
+                        new MoveLearnSetEntry(Move.RAPID_SPIN,1),
+                        new MoveLearnSetEntry(Move.FIRE_SPIN,1),
                         new MoveLearnSetEntry(Move.HYPER_DRILL,1),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.BIDE,"tm"),
@@ -91,9 +108,9 @@ public class Vermacrom extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 52, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

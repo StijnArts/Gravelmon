@@ -65,7 +65,7 @@
     "28:gravitycosmic",
     "32:meteormash",
     "36:earthpower",
-    "40:cosmicpower",
+    "40:cosmicpowercosmic",
     "44:moonblast",
     "48:calmmind"  ],
   "labels": [
@@ -95,7 +95,7 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

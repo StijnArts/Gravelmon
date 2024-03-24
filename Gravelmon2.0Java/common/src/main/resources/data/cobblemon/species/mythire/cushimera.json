@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cushimera",
-  "nationalPokedexNumber": 2634,
+  "nationalPokedexNumber": 3040,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -158,7 +158,7 @@
   "pokedex": [
     "cobblemon.species.cushimera.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -173,7 +173,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 8,
+  "height": 21,
   "weight": 165,
   "aspects": [],
 "features": [

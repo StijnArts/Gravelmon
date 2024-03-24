@@ -15,26 +15,38 @@ public class Reefam extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         60),
                 List.of(Ability.SWIFT_SWIM), Ability.RATTLED,
-                8, 165,
-                new Stats(0,0,0,0,0,1), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,1), 210,
                 0.5,
                 52, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("There is always one leader and two followers. The followers are completely dependant - should they lose their leader, they will wander aimlessly and starve. Two forms have been discovered in the Oceane region."),
-                List.of(),
+                List.of(new EvolutionEntry("appendash", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
-                        new MoveLearnSetEntry(Move.WATER_GUN,1)                        ),
+                        new MoveLearnSetEntry(Move.AQUA_JET,1),
+                        new MoveLearnSetEntry(Move.DRILL_RUN,1),
+                        new MoveLearnSetEntry(Move.LIQUIDATION,1),
+                        new MoveLearnSetEntry(Move.TEAM_UP,1),
+                        new MoveLearnSetEntry(Move.DRAGON_DARTS,1),
+                        new MoveLearnSetEntry(Move.RAINBOW_RUSH,1),
+                        new MoveLearnSetEntry(Move.INSTRUCT,1),
+                        new MoveLearnSetEntry(Move.ATTRACT,1),
+                        new MoveLearnSetEntry(Move.FOLLOW_ME,1),
+                        new MoveLearnSetEntry(Move.SWAGGER,1)),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 1, 19, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Reefam");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

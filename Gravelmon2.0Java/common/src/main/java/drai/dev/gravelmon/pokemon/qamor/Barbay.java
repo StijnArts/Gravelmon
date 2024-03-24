@@ -17,14 +17,15 @@ public class Barbay extends drai.dev.gravelmon.pokemon.Pokemon {
                         52,
                         48),
                 List.of(Ability.TORRENT), Ability.STAKEOUT,
-                8, 165,
+                7, 165,
                 new Stats(1,0,0,0,0,0), 45,
                 0.875,
                 63, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
                 List.of("Barbay spend most of their time in the safety of seaweed forests with other Barbay. They play fight with each other with their long noses, and even eventually learn to use this skill to hunt minor prey."),
-                List.of(),
+                List.of(new EvolutionEntry("makrabla", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.BUBBLE,6),
@@ -53,14 +54,16 @@ public class Barbay extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOUL_PLAY,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Barbay");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

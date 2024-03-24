@@ -15,14 +15,15 @@ public class Blashrew extends drai.dev.gravelmon.pokemon.Pokemon {
                         71,
                         50),
                 List.of(Ability.BLAZE), Ability.AFTERMATH,
-                8, 165,
+                9, 165,
                 new Stats(0,1,1,0,0,0), 45,
                 0.875,
                 152, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Its round body, which has a shell-like toughness and sheen, stores heat that can be expelled at will. Though playful, it can become aggressive in an instant if it or its allies are threatened."),
-                List.of(),
+                List.of(new EvolutionEntry("explodent", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.LEER,4),
@@ -73,9 +74,8 @@ public class Blashrew extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_CRIMSON))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

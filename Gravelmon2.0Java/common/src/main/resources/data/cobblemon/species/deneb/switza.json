@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "switza",
-  "nationalPokedexNumber": 3095,
+  "nationalPokedexNumber": 3704,
   "primaryType": "ice",
   "abilities": [
     "naturalcure",
@@ -72,12 +72,14 @@
     "tm:psychic",
     "tm:confuseray",
     "tm:explosion",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
+    "tutor:bugnoise",
     "tutor:iciclecrash"  ],
   "labels": [
     "deneb",
@@ -99,7 +101,7 @@
       "requiredContext": "cobblemon:dawn_stone"   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

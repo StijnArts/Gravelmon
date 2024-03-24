@@ -50,9 +50,9 @@ public class Enriko extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Cyanidae());
         pokemon.add(new Bagly());
         pokemon.add(new Haggage());
-//        pokemon.add(new Pooyo()); NOT FINISHED
-//        pokemon.add(new Poogurt()); NOT FINISHED
-//        pokemon.add(new Poolem()); NOT FINISHED
+//        pokemon.add(new Pooyo()); Missing Stats
+//        pokemon.add(new Poogurt()); Missing Stats
+//        pokemon.add(new Poolem()); Missing Stats
         pokemon.add(new Bulberry());
         pokemon.add(new Florascent());
         pokemon.add(new Gumuppi());
@@ -65,39 +65,39 @@ public class Enriko extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Lobbercut());
         pokemon.add(new Elekrab());
         pokemon.add(new Krustinger());
-//        pokemon.add(new Sakaline()); NOT FINISHED
-//        pokemon.add(new Amoebolt()); NOT FINISHED
+//        pokemon.add(new Sakaline()); Missing Stats
+//        pokemon.add(new Amoebolt()); Missing Stats
         pokemon.add(new Dumpchin());
         pokemon.add(new Urchimpale());
         pokemon.add(new Schwincer());
         pokemon.add(new Cleame());
         pokemon.add(new Furiousc());
-//        pokemon.add(new Clambat()); NOT FINISHED
-//        pokemon.add(new Mussuplex()); NOT FINISHED
-//        pokemon.add(new Maptus()); NOT FINISHED
-//        pokemon.add(new Diverguare()); NOT FINISHED
+//        pokemon.add(new Clambat()); Missing Stats
+//        pokemon.add(new Mussuplex()); Missing Stats
+//        pokemon.add(new Maptus()); Missing Stats
+//        pokemon.add(new Diverguare()); Missing Stats
         pokemon.add(new Fungusite());
         pokemon.add(new Controll());
         pokemon.add(new Decomposite());
         pokemon.add(new Dubalae());
         pokemon.add(new Batterode());
-//        pokemon.add(new Camelt()); NOT FINISHED
-//        pokemon.add(new Thermedary()); NOT FINISHED
+//        pokemon.add(new Camelt()); Missing Stats
+//        pokemon.add(new Thermedary()); Missing Stats
         pokemon.add(new Womblock());
         pokemon.add(new Harihary());
         pokemon.add(new Wigfoot());
         pokemon.add(new Fleesquach());
-//        pokemon.add(new Conkid()); NOT FINISHED
-//        pokemon.add(new Bonkrete()); NOT FINISHED
-//        pokemon.add(new Khancrete()); NOT FINISHED
-//        pokemon.add(new Cemu()); NOT FINISHED
-//        pokemon.add(new Solkiwi()); NOT FINISHED
-//        pokemon.add(new Osstillery()); NOT FINISHED
-//        pokemon.add(new Figura()); NOT FINISHED
-//        pokemon.add(new Tofigur()); NOT FINISHED
-//        pokemon.add(new Emdem()); NOT FINISHED
-//        pokemon.add(new Groney()); NOT FINISHED
-//        pokemon.add(new Meatburger()); NOT FINISHED
+//        pokemon.add(new Conkid()); Missing Stats
+//        pokemon.add(new Bonkrete()); Missing Stats
+//        pokemon.add(new Khancrete()); Missing Stats
+//        pokemon.add(new Cemu()); Missing Stats
+//        pokemon.add(new Solkiwi()); Missing Stats
+//        pokemon.add(new Osstillery()); Missing Stats
+//        pokemon.add(new Figura()); Missing Stats
+//        pokemon.add(new Tofigur()); Missing Stats
+//        pokemon.add(new Emdem()); Missing Stats
+//        pokemon.add(new Groney()); Missing Stats
+//        pokemon.add(new Meatburger()); Missing Stats
         pokemon.add(new Velveil());
         pokemon.add(new Lunartic());
         pokemon.add(new Encyst());
@@ -108,8 +108,8 @@ public class Enriko extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Sluggummy());
         pokemon.add(new Gumsopod());
         pokemon.add(new Whelasse());
-//        pokemon.add(new Derpants()); NOT FINISHED
-//        pokemon.add(new Laundronaut()); NOT FINISHED
+//        pokemon.add(new Derpants()); Missing Stats
+//        pokemon.add(new Laundronaut()); Missing Stats
         pokemon.add(new Chrone());
         pokemon.add(new Reconuisance());
         pokemon.add(new Wotwot());
@@ -123,137 +123,137 @@ public class Enriko extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Lymfite());
         pokemon.add(new Leukofite());
         pokemon.add(new Ceresplit());
-//        pokemon.add(new Probee()); NOT FINISHED
-//        pokemon.add(new Dysolony()); NOT FINISHED
-//        pokemon.add(new Tictoc()); NOT FINISHED
-//        pokemon.add(new Outatime()); NOT FINISHED
+//        pokemon.add(new Probee()); Missing Stats
+//        pokemon.add(new Dysolony()); Missing Stats
+//        pokemon.add(new Tictoc()); Missing Stats
+//        pokemon.add(new Outatime()); Missing Stats
         pokemon.add(new Wahundo());
         pokemon.add(new Swallet());
 
-//        pokemon.add(new Pleech()); NOT FINISHED
-//        pokemon.add(new Denartery()); NOT FINISHED
-//        pokemon.add(new Psyrus()); NOT FINISHED
-//        pokemon.add(new Adnaviria()); NOT FINISHED
-//        pokemon.add(new Caecarette()); NOT FINISHED
-//        pokemon.add(new Tobamander()); NOT FINISHED
+//        pokemon.add(new Pleech()); Missing Stats
+//        pokemon.add(new Denartery()); Missing Stats
+//        pokemon.add(new Psyrus()); Missing Stats
+//        pokemon.add(new Adnaviria()); Missing Stats
+//        pokemon.add(new Caecarette()); Missing Stats
+//        pokemon.add(new Tobamander()); Missing Stats
         pokemon.add(new Planeedle());
         pokemon.add(new Dualance());
-//        pokemon.add(new Ballooky()); NOT FINISHED
-//        pokemon.add(new Unseelium()); NOT FINISHED
-//        pokemon.add(new Ouronouro()); NOT FINISHED
-//        pokemon.add(new Uranug()); NOT FINISHED
-//        pokemon.add(new Oreium()); NOT FINISHED
-//        pokemon.add(new Nukemu()); NOT FINISHED
-//        pokemon.add(new Nomster()); NOT FINISHED
-//        pokemon.add(new Beavomnom()); NOT FINISHED
+//        pokemon.add(new Ballooky()); Missing Stats
+//        pokemon.add(new Unseelium()); Missing Stats
+//        pokemon.add(new Ouronouro()); Missing Stats
+//        pokemon.add(new Uranug()); Missing Stats
+//        pokemon.add(new Oreium()); Missing Stats
+//        pokemon.add(new Nukemu()); Missing Stats
+//        pokemon.add(new Nomster()); Missing Stats
+//        pokemon.add(new Beavomnom()); Missing Stats
         pokemon.add(new Fatfish());
         pokemon.add(new Blobhorent());
-//        pokemon.add(new Floundirt()); NOT FINISHED
-//        pokemon.add(new Gildefish()); NOT FINISHED
+//        pokemon.add(new Floundirt()); Missing Stats
+//        pokemon.add(new Gildefish()); Missing Stats
         pokemon.add(new Haunk());
         pokemon.add(new Apocalypso());
-//        pokemon.add(new Erfwerm()); NOT FINISHED
-//        pokemon.add(new Dunewyrm()); NOT FINISHED
+//        pokemon.add(new Erfwerm()); Missing Stats
+//        pokemon.add(new Dunewyrm()); Missing Stats
         pokemon.add(new Arcnid());
         pokemon.add(new Urinee());
         pokemon.add(new Turmoilet());
-//        pokemon.add(new Loameo()); NOT FINISHED
-//        pokemon.add(new Cupidtera()); NOT FINISHED
-//        pokemon.add(new Celibug()); NOT FINISHED
-//        pokemon.add(new Pumacle()); NOT FINISHED
-//        pokemon.add(new Tunicrust()); NOT FINISHED
+//        pokemon.add(new Loameo()); Missing Stats
+//        pokemon.add(new Cupidtera()); Missing Stats
+//        pokemon.add(new Celibug()); Missing Stats
+//        pokemon.add(new Pumacle()); Missing Stats
+//        pokemon.add(new Tunicrust()); Missing Stats
         pokemon.add(new Metrognome());
         pokemon.add(new Phonemon());
-//        pokemon.add(new Zuupie()); NOT FINISHED
-//        pokemon.add(new Cocarid()); NOT FINISHED
-//        pokemon.add(new Skelacian()); NOT FINISHED
-//        pokemon.add(new Tapunt()); NOT FINISHED
-//        pokemon.add(new Somniarch()); NOT FINISHED
-//        pokemon.add(new Khatut()); NOT FINISHED
-//        pokemon.add(new Cleocatra()); NOT FINISHED
-//        pokemon.add(new Cavitrio()); NOT FINISHED
-//        pokemon.add(new Cavitroupe()); NOT FINISHED
-//        pokemon.add(new Macatherm()); NOT FINISHED
-//        pokemon.add(new Geyserilla()); NOT FINISHED
-//        pokemon.add(new Hooptie()); NOT FINISHED
-//        pokemon.add(new Wreckyard()); NOT FINISHED
+//        pokemon.add(new Zuupie()); Missing Stats
+//        pokemon.add(new Cocarid()); Missing Stats
+//        pokemon.add(new Skelacian()); Missing Stats
+//        pokemon.add(new Tapunt()); Missing Stats
+//        pokemon.add(new Somniarch()); Missing Stats
+//        pokemon.add(new Khatut()); Missing Stats
+//        pokemon.add(new Cleocatra()); Missing Stats
+//        pokemon.add(new Cavitrio()); Missing Stats
+//        pokemon.add(new Cavitroupe()); Missing Stats
+//        pokemon.add(new Macatherm()); Missing Stats
+//        pokemon.add(new Geyserilla()); Missing Stats
+//        pokemon.add(new Hooptie()); Missing Stats
+//        pokemon.add(new Wreckyard()); Missing Stats
         pokemon.add(new Phantape());
         pokemon.add(new Monitasm());
         pokemon.add(new Nafugu());
         pokemon.add(new Exploseave());
-//        pokemon.add(new Weathermach()); NOT FINISHED
-//        pokemon.add(new Conductile()); NOT FINISHED
-//        pokemon.add(new Batterex()); NOT FINISHED
-//        pokemon.add(new Poyai()); NOT FINISHED
-//        pokemon.add(new Beaki()); NOT FINISHED
-//        pokemon.add(new Cockroast()); NOT FINISHED
-//        pokemon.add(new Roaspector()); NOT FINISHED
-//        pokemon.add(new Copperado()); NOT FINISHED
-//        pokemon.add(new Relode()); NOT FINISHED
+//        pokemon.add(new Weathermach()); Missing Stats
+//        pokemon.add(new Conductile()); Missing Stats
+//        pokemon.add(new Batterex()); Missing Stats
+//        pokemon.add(new Poyai()); Missing Stats
+//        pokemon.add(new Beaki()); Missing Stats
+//        pokemon.add(new Cockroast()); Missing Stats
+//        pokemon.add(new Roaspector()); Missing Stats
+//        pokemon.add(new Copperado()); Missing Stats
+//        pokemon.add(new Relode()); Missing Stats
         pokemon.add(new Snomagnon());
         pokemon.add(new Cromountain());
-//        pokemon.add(new Eyesoar()); NOT FINISHED
-//        pokemon.add(new Pteroculus()); NOT FINISHED
+//        pokemon.add(new Eyesoar()); Missing Stats
+//        pokemon.add(new Pteroculus()); Missing Stats
         pokemon.add(new Strelair());
         pokemon.add(new Reginaegle());
         pokemon.add(new Wyfern());
-//        pokemon.add(new Grippit()); NOT FINISHED
-//        pokemon.add(new Palmpale()); NOT FINISHED
-//        pokemon.add(new Jellysquish()); NOT FINISHED
-//        pokemon.add(new Phonowar()); NOT FINISHED
+//        pokemon.add(new Grippit()); Missing Stats
+//        pokemon.add(new Palmpale()); Missing Stats
+//        pokemon.add(new Jellysquish()); Missing Stats
+//        pokemon.add(new Phonowar()); Missing Stats
         pokemon.add(new Grubzero());
         pokemon.add(new Crystalis());
         pokemon.add(new Bugsled());
         pokemon.add(new Himilago());
-//        pokemon.add(new Volnellid()); NOT FINISHED
-//        pokemon.add(new Chenchor()); NOT FINISHED
-//        pokemon.add(new Foramini()); NOT FINISHED
-//        pokemon.add(new Structica()); NOT FINISHED
-//        pokemon.add(new Iceidic()); NOT FINISHED
-//        pokemon.add(new Galvanade()); NOT FINISHED
-//        pokemon.add(new Pinecoal()); NOT FINISHED
-//        pokemon.add(new Confurnace()); NOT FINISHED
-//        pokemon.add(new Slunny()); NOT FINISHED
-//        pokemon.add(new Lagawake()); NOT FINISHED
-//        pokemon.add(new Hibernabbit()); NOT FINISHED
-//        pokemon.add(new Chichera()); NOT FINISHED
-//        pokemon.add(new Ophifowl()); NOT FINISHED
-//        pokemon.add(new Gizzardon()); NOT FINISHED
+//        pokemon.add(new Volnellid()); Missing Stats
+//        pokemon.add(new Chenchor()); Missing Stats
+//        pokemon.add(new Foramini()); Missing Stats
+//        pokemon.add(new Structica()); Missing Stats
+//        pokemon.add(new Iceidic()); Missing Stats
+//        pokemon.add(new Galvanade()); Missing Stats
+//        pokemon.add(new Pinecoal()); Missing Stats
+//        pokemon.add(new Confurnace()); Missing Stats
+//        pokemon.add(new Slunny()); Missing Stats
+//        pokemon.add(new Lagawake()); Missing Stats
+//        pokemon.add(new Hibernabbit()); Missing Stats
+//        pokemon.add(new Chichera()); Missing Stats
+//        pokemon.add(new Ophifowl()); Missing Stats
+//        pokemon.add(new Gizzardon()); Missing Stats
         pokemon.add(new Porytleg());
         pokemon.add(new PorytlegZ());
-//        pokemon.add(new Golantern()); NOT FINISHED
-//        pokemon.add(new Spotnight()); NOT FINISHED
+//        pokemon.add(new Golantern()); Missing Stats
+//        pokemon.add(new Spotnight()); Missing Stats
         pokemon.add(new Urnymph());
         pokemon.add(new Monymph());
-//        pokemon.add(new Nuishot()); NOT FINISHED
-//        pokemon.add(new Watchtowl()); NOT FINISHED
+//        pokemon.add(new Nuishot()); Missing Stats
+//        pokemon.add(new Watchtowl()); Missing Stats
         pokemon.add(new Femimic());
         pokemon.add(new Tuncanny());
 
-//        pokemon.add(new Udderling()); NOT FINISHED
-//        pokemon.add(new Milkdud()); NOT FINISHED
-//        pokemon.add(new Piessano()); NOT FINISHED
-//        pokemon.add(new Fatom()); NOT FINISHED
+//        pokemon.add(new Udderling()); Missing Stats
+//        pokemon.add(new Milkdud()); Missing Stats
+//        pokemon.add(new Piessano()); Missing Stats
+//        pokemon.add(new Fatom()); Missing Stats
         pokemon.add(new Encelope());
         pokemon.add(new Controlyu());
         pokemon.add(new Magelorb());
         pokemon.add(new Discobrawl());
         pokemon.add(new Christrap());
-//        pokemon.add(new Natomy()); NOT FINISHED
-//        pokemon.add(new Pigid()); NOT FINISHED
-//        pokemon.add(new Bysoderm()); NOT FINISHED
+//        pokemon.add(new Natomy()); Missing Stats
+//        pokemon.add(new Pigid()); Missing Stats
+//        pokemon.add(new Bysoderm()); Missing Stats
         pokemon.add(new Rubbison());
         pokemon.add(new Microcosmic());
-//        pokemon.add(new Anexcell()); NOT FINISHED
-//        pokemon.add(new Goolony()); NOT FINISHED
-//        pokemon.add(new Stentorent()); NOT FINISHED
-//        pokemon.add(new Sleetus()); NOT FINISHED
+//        pokemon.add(new Anexcell()); Member of line Not Finished
+//        pokemon.add(new Goolony()); Member of line Not Finished
+//        pokemon.add(new Stentorent()); Missing Art
+//        pokemon.add(new Sleetus()); Missing Stats
         pokemon.add(new Artickey());
-//        pokemon.add(new Mettlemaw()); NOT FINISHED
-//        pokemon.add(new Scourgeon()); NOT FINISHED
-//        pokemon.add(new Tenanchre()); NOT FINISHED
-//        pokemon.add(new Draginas()); NOT FINISHED
-//        pokemon.add(new Fridgeraider()); NOT FINISHED
+//        pokemon.add(new Mettlemaw()); Missing Stats
+//        pokemon.add(new Scourgeon()); Missing Stats
+//        pokemon.add(new Tenanchre()); Missing Stats
+//        pokemon.add(new Draginas()); Missing Stats
+//        pokemon.add(new Fridgeraider()); Missing Art
         pokemon.add(new Biffka());
         pokemon.add(new Nutzen());
 

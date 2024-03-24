@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "buzzover",
-  "nationalPokedexNumber": 2146,
+  "nationalPokedexNumber": 2217,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -74,7 +74,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

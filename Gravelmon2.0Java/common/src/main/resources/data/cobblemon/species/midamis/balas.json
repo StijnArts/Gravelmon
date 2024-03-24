@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "balas",
-  "nationalPokedexNumber": 2989,
+  "nationalPokedexNumber": 3509,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.balas.desc"
   ],
-  "baseScale": 0.69375,
+  "baseScale": 0.9249999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

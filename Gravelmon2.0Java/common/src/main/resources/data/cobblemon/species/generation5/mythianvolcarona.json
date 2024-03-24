@@ -48,6 +48,16 @@
   "eggGroups": [
     "bug"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:pixie_dust",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:quiverdance",
     "1:fierydance",
@@ -83,7 +93,7 @@
     "cobblemon.species.mythianvolcarona.desc"
   ],
   "preEvolution": "mythianlarvesta",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

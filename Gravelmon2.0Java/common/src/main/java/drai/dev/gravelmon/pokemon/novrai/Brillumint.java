@@ -15,7 +15,7 @@ public class Brillumint extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         105),
                 List.of(Ability.DAZZLING,Ability.LEVITATE,Ability.ILLUMINATE), Ability.ILLUMINATE,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,3,0,0), 45,
                 0.0,
                 230, ExperienceGroup.SLOW,
@@ -89,11 +89,12 @@ public class Brillumint extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKILL_SWAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 56, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.IS_THUNDERING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Brillumint");

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "droudrum",
-  "nationalPokedexNumber": 3121,
+  "nationalPokedexNumber": 3730,
   "primaryType": "fire",
   "abilities": [
     "drought",
@@ -59,6 +59,7 @@
     "19:rollout",
     "23:takedown",
     "27:imprison",
+    "32:magmaring",
     "39:flamethrower",
     "45:willowisp",
     "51:solarbeam",
@@ -77,7 +78,9 @@
     "tm:psychic",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:confuseray",
+    "tm:ragingflame",
     "tm:woodhammer",
     "tm:heatwave",
     "tm:focusblast",
@@ -87,6 +90,7 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
@@ -125,7 +129,7 @@
     "cobblemon.species.droudrum.desc"
   ],
   "preEvolution": "droudrop",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

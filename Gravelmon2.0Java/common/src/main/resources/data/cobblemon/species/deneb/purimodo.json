@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "purimodo",
-  "nationalPokedexNumber": 3096,
+  "nationalPokedexNumber": 3705,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -64,6 +64,7 @@
     "57:blizzard",
     "62:sheercold",
     "tm:waterpulse",
+    "tm:frostbite",
     "tm:drainpunch",
     "tm:frustration",
     "tm:reflect",
@@ -86,7 +87,7 @@
     "cobblemon.species.purimodo.desc"
   ],
   "preEvolution": "switza",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

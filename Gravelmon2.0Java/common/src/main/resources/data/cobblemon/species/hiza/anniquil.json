@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "anniquil",
-  "nationalPokedexNumber": 2052,
+  "nationalPokedexNumber": 2123,
   "primaryType": "poison",
   "secondaryType": "normal",
   "abilities": [
@@ -107,7 +107,7 @@
     "cobblemon.species.anniquil.desc"
   ],
   "preEvolution": "porcupin",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

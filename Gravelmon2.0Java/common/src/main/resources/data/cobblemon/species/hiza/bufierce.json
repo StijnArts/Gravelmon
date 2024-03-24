@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bufierce",
-  "nationalPokedexNumber": 2124,
+  "nationalPokedexNumber": 2195,
   "primaryType": "fighting",
   "secondaryType": "ground",
   "abilities": [
@@ -91,7 +91,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

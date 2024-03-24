@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "velvelt",
-  "nationalPokedexNumber": 3043,
+  "nationalPokedexNumber": 3652,
   "primaryType": "normal",
   "abilities": [
     "intimidate",
@@ -80,6 +80,7 @@
     "tutor:dig",
     "tutor:iciclecrash",
     "tutor:hiddenpower",
+    "tutor:shadowclamp",
     "tutor:rest",
     "tutor:toxic",
     "egg:bellydrum",
@@ -131,7 +132,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

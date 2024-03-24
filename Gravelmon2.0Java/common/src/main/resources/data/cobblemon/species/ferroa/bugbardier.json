@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bugbardier",
-  "nationalPokedexNumber": 1442,
+  "nationalPokedexNumber": 1452,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -54,6 +54,7 @@
     "15:incinerate",
     "21:signalbeam",
     "29:smokescreen",
+    "33:firecracker",
     "40:bugbuzzsound",
     "45:spotlight",
     "50:doubleedge",
@@ -129,7 +130,7 @@
     "cobblemon.species.bugbardier.desc"
   ],
   "preEvolution": "blastun",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

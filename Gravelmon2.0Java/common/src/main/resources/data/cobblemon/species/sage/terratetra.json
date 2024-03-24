@@ -49,21 +49,6 @@
     "field",
     "mineral"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "cobblemon:hard_stone",
-        "quantityRange": "1-2",
-        "percentage": 10
-      },
-      {
-        "item": "minecraft:granite",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:crushclaw",
     "1:scratch",
@@ -168,7 +153,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

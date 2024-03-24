@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tentyrant",
-  "nationalPokedexNumber": 3018,
+  "nationalPokedexNumber": 3627,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -55,6 +55,7 @@
     "1:acid",
     "19:feintattack",
     "26:taunt",
+    "47:devastate",
     "tm:swordsdance",
     "tm:amnesia",
     "tm:substitute",
@@ -64,6 +65,7 @@
     "tm:poisonjab",
     "tm:shadowball",
     "tm:haze",
+    "tm:devastate",
     "tm:confuseray",
     "tm:sludgebomb",
     "tm:mudbomb",

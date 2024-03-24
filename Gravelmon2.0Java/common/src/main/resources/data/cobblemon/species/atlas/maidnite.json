@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maidnite",
-  "nationalPokedexNumber": 3340,
+  "nationalPokedexNumber": 4243,
   "primaryType": "fairy",
   "abilities": [
     "oblivious",
@@ -127,7 +127,7 @@
     "cobblemon.species.maidnite.desc"
   ],
   "preEvolution": "hoowhip",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "xenomite",
-  "nationalPokedexNumber": 1936,
+  "nationalPokedexNumber": 2007,
   "primaryType": "nuclear",
   "abilities": [
     "damp",
@@ -122,7 +122,7 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

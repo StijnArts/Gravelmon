@@ -14,7 +14,7 @@ public class Albagross extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         68),
                 List.of(Ability.SUPER_LUCK,Ability.SNIPER,Ability.AVARICE), Ability.AVARICE,
-                8, 165,
+                17, 165,
                 new Stats(1,2,0,0,0,0), 45,
                 0.5,
                 220, ExperienceGroup.MEDIUM_SLOW,
@@ -47,14 +47,14 @@ public class Albagross extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWITCHEROO,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Albagross");
+        setCanFly(true);
 
     }
 

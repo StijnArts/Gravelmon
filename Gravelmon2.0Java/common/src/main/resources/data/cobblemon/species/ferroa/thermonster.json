@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "thermonster",
-  "nationalPokedexNumber": 1558,
+  "nationalPokedexNumber": 1568,
   "primaryType": "normal",
   "secondaryType": "fire",
   "abilities": [
@@ -100,7 +100,7 @@
   "pokedex": [
     "cobblemon.species.thermonster.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

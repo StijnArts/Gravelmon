@@ -14,7 +14,7 @@ public class Dirthrown extends drai.dev.gravelmon.pokemon.Pokemon {
                         92,
                         47),
                 List.of(Ability.STENCH,Ability.DAMP,Ability.WATER_COMPACTION), Ability.WATER_COMPACTION,
-                8, 165,
+                15, 165,
                 new Stats(1,0,0,0,1,0), 90,
                 0.5,
                 160, ExperienceGroup.MEDIUM_SLOW,
@@ -56,11 +56,11 @@ public class Dirthrown extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_RING,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dirthrown");

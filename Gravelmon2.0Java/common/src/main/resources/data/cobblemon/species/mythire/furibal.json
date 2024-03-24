@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "furibal",
-  "nationalPokedexNumber": 2674,
+  "nationalPokedexNumber": 3080,
   "primaryType": "ice",
   "abilities": [
     "furcoat",
@@ -49,7 +49,72 @@
     "monster"
   ],
   "moves": [
-  ],
+    "1:cottonguard",
+    "1:icefang",
+    "1:scratch",
+    "1:slam",
+    "1:iceball",
+    "1:defensecurl",
+    "1:mist",
+    "1:avalanche",
+    "1:bite",
+    "1:crunch",
+    "1:crushclaw",
+    "1:furyswipes",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:auroraveil",
+    "tm:bide",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:breakingswipe",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragonrage",
+    "tm:dragontail",
+    "tm:earthquake",
+    "tm:echoedvoicesound",
+    "tm:eggbomb",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:frostbreath",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:snowscape",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:mimic",
+    "tm:playrough",
+    "tm:protect",
+    "tm:rage",
+    "tm:razorwind",
+    "tm:rest",
+    "tm:return",
+    "tm:roarsound",
+    "tm:rocksmash",
+    "tm:roundsound",
+    "tm:sleeptalksound",
+    "tm:strength",
+    "tm:substitute",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:throatchop",
+    "tm:thunderfang",
+    "tm:toxic",
+    "tm:tripleaxel",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:zenheadbutt"  ],
   "labels": [
     "mythire",
     "not_modeled"
@@ -57,7 +122,22 @@
   "pokedex": [
     "cobblemon.species.furibal.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "furibal_cottontile",
+      "variant": "level_up",
+      "result": "cottontile",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +152,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 7,
   "weight": 165,
   "aspects": [],
 "features": [

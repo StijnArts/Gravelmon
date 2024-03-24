@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.mysticbewear.desc"
   ],
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

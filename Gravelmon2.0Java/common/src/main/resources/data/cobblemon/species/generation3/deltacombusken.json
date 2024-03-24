@@ -57,7 +57,7 @@
     "16:doublehit",
     "20:heartstamp",
     "25:quickattack",
-    "31:cosmicpower",
+    "31:cosmicpowercosmic",
     "36:imprison",
     "42:powergemcrystal",
     "47:futuresight",
@@ -173,7 +173,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

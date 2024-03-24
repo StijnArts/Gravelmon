@@ -14,14 +14,15 @@ public class Frirate extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         42),
                 List.of(Ability.SUPER_LUCK,Ability.SNIPER,Ability.PICKPOCKET), Ability.PICKPOCKET,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("They need their parents to bring them fish to eat and loudly cry when hungry. This reveals their location to predators, and the results are tragic."),
-                List.of(),
+                List.of(new EvolutionEntry("piratross", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.HAZE,8),
@@ -48,13 +49,13 @@ public class Frirate extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Frirate");
+        setCanFly(true);
 
     }
 

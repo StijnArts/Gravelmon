@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ribitar",
-  "nationalPokedexNumber": 2691,
+  "nationalPokedexNumber": 3097,
   "primaryType": "rock",
   "secondaryType": "poison",
   "abilities": [
@@ -49,7 +49,17 @@
     "amorphous"
   ],
   "moves": [
-  ],
+    "1:tarshot",
+    "1:acidarmor",
+    "1:gastroacid",
+    "1:ancientpower",
+    "1:muddywater",
+    "1:sludgewave",
+    "1:gunkshot",
+    "1:smokescreen",
+    "1:smog",
+    "1:bounce",
+    "1:heavyslam"  ],
   "labels": [
     "mythire",
     "not_modeled"
@@ -57,7 +67,22 @@
   "pokedex": [
     "cobblemon.species.ribitar.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "ribitar_amphibrea",
+      "variant": "level_up",
+      "result": "amphibrea",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +97,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

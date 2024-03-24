@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grevetiery",
-  "nationalPokedexNumber": 3501,
+  "nationalPokedexNumber": 4406,
   "primaryType": "dark",
   "secondaryType": "ghost",
   "abilities": [
@@ -140,7 +140,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

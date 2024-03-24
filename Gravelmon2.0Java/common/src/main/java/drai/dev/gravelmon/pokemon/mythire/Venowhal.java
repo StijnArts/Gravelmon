@@ -15,7 +15,7 @@ public class Venowhal extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         106),
                 List.of(Ability.DEFIANT,Ability.SNOW_CLOAK,Ability.POISON_TOUCH), Ability.POISON_TOUCH,
-                8, 165,
+                23, 165,
                 new Stats(0,2,0,0,0,0), 70,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -122,14 +122,17 @@ public class Venowhal extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICYCHARGE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 25, 44, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_FROZEN_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Venowhal");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

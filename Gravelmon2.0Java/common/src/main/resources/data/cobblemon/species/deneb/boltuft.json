@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boltuft",
-  "nationalPokedexNumber": 3223,
+  "nationalPokedexNumber": 3832,
   "primaryType": "steel",
   "abilities": [
     "galewings",
@@ -104,7 +104,7 @@
   "pokedex": [
     "cobblemon.species.boltuft.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

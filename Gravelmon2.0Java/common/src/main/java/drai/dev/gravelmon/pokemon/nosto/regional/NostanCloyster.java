@@ -95,7 +95,7 @@ public class NostanCloyster extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AVALANCHE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 6, 31, 9, List.of(
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 33, 54, .9, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "discobrawl",
-  "nationalPokedexNumber": 1702,
+  "nationalPokedexNumber": 1712,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -68,7 +68,7 @@
     "cobblemon.species.discobrawl.desc"
   ],
   "preEvolution": "magelorb",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nidorimewintercoat",
-  "nationalPokedexNumber": 1995,
+  "nationalPokedexNumber": 2066,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -90,7 +90,7 @@
       "requiredContext": "cobblemon:ice_stone"   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

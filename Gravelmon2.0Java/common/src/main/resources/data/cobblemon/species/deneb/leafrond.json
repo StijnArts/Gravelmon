@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leafrond",
-  "nationalPokedexNumber": 2991,
+  "nationalPokedexNumber": 3600,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -57,6 +57,7 @@
     "20:falseswipe",
     "24:leaftornado",
     "28:whirlwind",
+    "32:guardianleaf",
     "37:airslash",
     "42:synthesis",
     "52:agility",
@@ -67,6 +68,7 @@
     "tm:shadowclaw",
     "tm:substitute",
     "tm:energyball",
+    "tm:poisonleaf",
     "tm:leechseed",
     "tm:irontail",
     "tm:triattack",
@@ -93,6 +95,7 @@
     "egg:ominouswind",
     "egg:outrage",
     "egg:poisonpowder",
+    "egg:rapidgrowth",
     "egg:razorwind",
     "egg:reflect",
     "egg:slash",
@@ -126,7 +129,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

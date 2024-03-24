@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dimwraith",
-  "nationalPokedexNumber": 2398,
+  "nationalPokedexNumber": 2697,
   "primaryType": "grass",
   "secondaryType": "ghost",
   "abilities": [
@@ -136,7 +136,7 @@
       "requiredContext": "cobblemon:fire_stone"   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

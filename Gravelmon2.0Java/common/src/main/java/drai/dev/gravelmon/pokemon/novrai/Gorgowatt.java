@@ -15,7 +15,7 @@ public class Gorgowatt extends drai.dev.gravelmon.pokemon.Pokemon {
                         117,
                         60),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,1,1,0), 45,
                 0.25,
                 177, ExperienceGroup.MEDIUM_SLOW,
@@ -116,8 +116,8 @@ public class Gorgowatt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZAPWRAP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SUMMER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

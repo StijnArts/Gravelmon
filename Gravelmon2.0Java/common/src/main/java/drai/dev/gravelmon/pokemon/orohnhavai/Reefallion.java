@@ -17,7 +17,7 @@ public class Reefallion extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         70),
                 List.of(Ability.TORRENT), Ability.REGENERATOR,
-                8, 165,
+                16, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -53,14 +53,15 @@ public class Reefallion extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE,  36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Reefallion");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "firoke",
-  "nationalPokedexNumber": 1849,
+  "nationalPokedexNumber": 1920,
   "primaryType": "bug",
   "secondaryType": "fire",
   "abilities": [
@@ -118,7 +118,7 @@
     "cobblemon.species.firoke.desc"
   ],
   "preEvolution": "smore",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

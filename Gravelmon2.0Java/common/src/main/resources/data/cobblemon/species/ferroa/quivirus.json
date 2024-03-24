@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quivirus",
-  "nationalPokedexNumber": 1474,
+  "nationalPokedexNumber": 1484,
   "primaryType": "poison",
   "secondaryType": "electric",
   "abilities": [
@@ -153,7 +153,7 @@
     "cobblemon.species.quivirus.desc"
   ],
   "preEvolution": "filsick",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

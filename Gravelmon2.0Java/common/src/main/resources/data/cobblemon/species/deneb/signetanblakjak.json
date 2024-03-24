@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "signetanblakjak",
-  "nationalPokedexNumber": 3026,
+  "nationalPokedexNumber": 3635,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
@@ -59,6 +59,7 @@
     "9:quickattack",
     "13:disable",
     "17:nightshade",
+    "18:hypnopulse",
     "23:uproar",
     "29:whirlwind",
     "29:wingattack",
@@ -76,7 +77,8 @@
     "tm:fly",
     "tm:flash",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
+    "tutor:bugnoise",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
@@ -98,6 +100,7 @@
     "egg:mudslap",
     "egg:nastyplot",
     "egg:ominouswind",
+    "egg:psyburn",
     "egg:rage",
     "egg:raindance",
     "egg:reflect",
@@ -116,7 +119,7 @@
     "cobblemon.species.signetanblakjak.desc"
   ],
   "preEvolution": "mintch",
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

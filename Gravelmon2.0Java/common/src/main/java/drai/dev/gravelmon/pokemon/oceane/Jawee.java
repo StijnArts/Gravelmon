@@ -15,14 +15,15 @@ public class Jawee extends drai.dev.gravelmon.pokemon.Pokemon {
                         74,
                         50),
                 List.of(Ability.STRONG_JAW), Ability.INTIMIDATE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 66, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("Its jaws are surprisingly powerful for a creature so small and squishy. Popular with beginner trainers who believe it to be in the best percentage."),
-                List.of(),
+                List.of(new EvolutionEntry("jawsome", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SCUTTLEHOP,1),
                         new MoveLearnSetEntry(Move.BUBBLE,5),
@@ -30,14 +31,16 @@ public class Jawee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRUNCH,37)                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_WARM_OCEAN))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Jawee");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

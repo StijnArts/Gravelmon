@@ -15,14 +15,15 @@ public class Kappow extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         30),
                 List.of(Ability.MAGMA_ARMOR,Ability.ANGER_SHELL,Ability.FLASH_FIRE), Ability.FLASH_FIRE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,1,0), 210,
                 0.5,
                 67, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Its tough scales render it impervious to the lava in which it lives. It cannot actually produce its own heat, so it must carry lava around in its shell."),
-                List.of(),
+                List.of(new EvolutionEntry("kappatoa", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.WITHDRAW,6),
@@ -106,9 +107,8 @@ public class Kappow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURN_UP,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND, Biome.IS_NETHER_DESERT))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

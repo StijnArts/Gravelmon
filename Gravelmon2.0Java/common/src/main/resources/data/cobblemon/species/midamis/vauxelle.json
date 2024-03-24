@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vauxelle",
-  "nationalPokedexNumber": 2867,
+  "nationalPokedexNumber": 3387,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
@@ -74,7 +74,7 @@
     "cobblemon.species.vauxelle.desc"
   ],
   "preEvolution": "vauxee",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

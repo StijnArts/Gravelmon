@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "celestroid",
-  "nationalPokedexNumber": 1594,
+  "nationalPokedexNumber": 1604,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
@@ -52,7 +52,7 @@
     "11:haze",
     "16:flash",
     "20:firespin",
-    "33:cosmicpower",
+    "33:cosmicpowercosmic",
     "42:heatwave",
     "50:wish",
     "66:healingwish",
@@ -132,7 +132,7 @@
     "cobblemon.species.celestroid.desc"
   ],
   "preEvolution": "celestar",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

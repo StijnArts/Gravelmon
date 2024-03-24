@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "caughtton",
+  "nationalPokedexNumber": 3999,
+  "primaryType": "normal",
+  "abilities": [
+    "static",
+    "symbiosis",
+    "h:fluffy"
+  ],
+  "baseStats": {
+    "hp": 64,
+    "attack": 59,
+    "defence": 28,
+    "special_attack": 34,
+    "special_defence": 49,
+    "speed": 76
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy"
+  ],
+  "moves": [
+    "1:charge",
+    "4:pound",
+    "8:doubleslap",
+    "12:helpinghand",
+    "15:assist",
+    "20:fakeout",
+    "24:dizzypunch",
+    "27:spark",
+    "31:tickle",
+    "33:megapunch",
+    "36:wakeupslap",
+    "42:crushgrip",
+    "45:electricterrain",
+    "49:lastresort",
+    "53:cottonguard",
+    "tm:recycle",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:knockoff",
+    "tm:yawn",
+    "tm:dualchop",
+    "tm:throatchop",
+    "tm:shockwave",
+    "tm:magiccoat",
+    "tm:snoresound",
+    "tm:focuspunch",
+    "tm:electricterrain",
+    "tm:poweruppunch",
+    "tm:encore",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:shadowball",
+    "tm:brickbreak",
+    "tm:facade",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:thief",
+    "tm:rocksmash",
+    "tm:chargebeam",
+    "tm:curse",
+    "tm:payback",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:naturalgift",
+    "tm:magnetrise",
+    "tm:confide",
+    "tm:attract",
+    "tm:bestow",
+    "tm:forcepalm",
+    "tm:nuzzle",
+    "tm:covet",
+    "tm:paraboliccharge",
+    "tm:watersport",
+    "tm:risingvoltage"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.caughtton.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "caughtton_amalgarment",
+      "variant": "level_up",
+      "result": "amalgarment",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 2,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

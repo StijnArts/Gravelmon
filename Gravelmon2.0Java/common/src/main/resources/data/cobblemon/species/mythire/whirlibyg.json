@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "whirlibyg",
-  "nationalPokedexNumber": 2660,
+  "nationalPokedexNumber": 3066,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.whirlibyg.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -82,7 +82,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 3,
   "weight": 165,
   "aspects": [],
 "features": [

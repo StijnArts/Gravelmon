@@ -17,8 +17,8 @@ public class Waugur extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         50),
                 List.of(Ability.LIQUID_OOZE,Ability.MUMMY,Ability.CURSED_BODY), Ability.CURSED_BODY,
-                8, 165,
-                new Stats(0,2,0,0,0,0), 0,
+                14, 165,
+                new Stats(0,2,0,0,0,0), 60,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -47,11 +47,12 @@ public class Waugur extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MIST,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 43, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Waugur");

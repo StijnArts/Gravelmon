@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "urnymph",
-  "nationalPokedexNumber": 1695,
+  "nationalPokedexNumber": 1705,
   "primaryType": "bug",
   "secondaryType": "rock",
   "abilities": [
@@ -84,7 +84,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

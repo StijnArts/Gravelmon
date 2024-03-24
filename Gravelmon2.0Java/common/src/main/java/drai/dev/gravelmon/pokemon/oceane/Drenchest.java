@@ -15,7 +15,7 @@ public class Drenchest extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         41),
                 List.of(Ability.JACKPOT,Ability.STEELWORKER,Ability.CURSED_BODY), Ability.CURSED_BODY,
-                8, 165,
+                10, 165,
                 new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 172, ExperienceGroup.MEDIUM_SLOW,
@@ -34,14 +34,16 @@ public class Drenchest extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GOLD_BREAKER,55)                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 11, 34, 5.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Drenchest");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

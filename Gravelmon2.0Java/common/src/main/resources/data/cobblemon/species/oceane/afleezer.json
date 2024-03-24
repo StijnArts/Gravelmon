@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "afleezer",
+  "nationalPokedexNumber": 1816,
+  "primaryType": "ice",
+  "secondaryType": "electric",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 95,
+    "defence": 55,
+    "special_attack": 95,
+    "special_defence": 50,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 10,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:abyssal_stone",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
+  "moves": [
+    "1:doubleedge",
+    "1:slackoff",
+    "1:aquatail",
+    "1:iciclecrash",
+    "1:pound",
+    "1:afteryou",
+    "1:cottonguard",
+    "1:bodyslam",
+    "1:frostbreath",
+    "1:growl",
+    "1:aquajet",
+    "1:slam",
+    "1:nuzzle"  ],
+  "labels": [
+    "oceane",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.afleezer.desc"
+  ],
+  "preEvolution": "fleezer",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

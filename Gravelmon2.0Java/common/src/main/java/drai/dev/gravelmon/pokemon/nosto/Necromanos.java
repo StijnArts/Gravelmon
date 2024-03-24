@@ -15,7 +15,7 @@ public class Necromanos extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         20),
                 List.of(Ability.SOULABSORB), Ability.INTIMIDATE,
-                8, 165,
+                15, 165,
                 new Stats(0,0,1,0,2,0), 45,
                 0.0,
                 225, ExperienceGroup.MEDIUM_SLOW,
@@ -111,11 +111,11 @@ public class Necromanos extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GYRO_BALL,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 45, 58, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Necromanos");

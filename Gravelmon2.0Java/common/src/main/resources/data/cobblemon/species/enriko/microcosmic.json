@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "microcosmic",
-  "nationalPokedexNumber": 1705,
+  "nationalPokedexNumber": 1715,
   "primaryType": "steel",
   "secondaryType": "grass",
   "abilities": [
@@ -62,7 +62,7 @@
     "40:solarbeam",
     "44:flashcannon",
     "50:rest",
-    "56:cosmicpower",
+    "56:cosmicpowercosmic",
     "60:meteormash"  ],
   "labels": [
     "enriko",
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.microcosmic.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

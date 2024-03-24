@@ -15,7 +15,7 @@ public class Valentox extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         95),
                 List.of(Ability.CUTE_CHARM,Ability.RECKLESS,Ability.INNARDS_OUT), Ability.INNARDS_OUT,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,1,1), 45,
                 0.5,
                 177, ExperienceGroup.MEDIUM_SLOW,
@@ -116,9 +116,8 @@ public class Valentox extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 43, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

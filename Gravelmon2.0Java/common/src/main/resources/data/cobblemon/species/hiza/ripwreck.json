@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ripwreck",
-  "nationalPokedexNumber": 2200,
+  "nationalPokedexNumber": 2271,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.ripwreck.desc"
   ],
   "preEvolution": "sharkaic",
-  "baseScale": 1.25625,
+  "baseScale": 1.675,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

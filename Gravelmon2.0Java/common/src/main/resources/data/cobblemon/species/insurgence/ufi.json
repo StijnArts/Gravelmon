@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ufi",
-  "nationalPokedexNumber": 1595,
+  "nationalPokedexNumber": 1605,
   "primaryType": "psychic",
   "secondaryType": "electric",
   "abilities": [
@@ -60,7 +60,7 @@
     "61:thunder",
     "69:wormholecosmic",
     "76:nanorepair",
-    "84:cosmicpower",
+    "84:cosmicpowercosmic",
     "91:storedpower",
     "99:darkmatter",
     "tm:calmmind",
@@ -114,6 +114,7 @@
     "tm:darkpulse",
     "tm:dazzlinggleam",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:skydrop",
     "tm:allyswitch",
     "tm:echoedvoicesound",

@@ -15,15 +15,21 @@ public class Atlagon extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         110),
                 List.of(Ability.SHED_SKIN,Ability.SWARM,Ability.MULTISCALE), Ability.MULTISCALE,
-                8, 165,
+                19, 165,
                 new Stats(0,0,0,2,0,1), 15,
                 0.5,
                 250, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.DRAGON),
-                List.of("- Tail Glow Bug - Skitter SmackSTAB Bug - Scale ShotSTAB Dragon - Mystical Fire Fire - Double-Edge Normal - Draco MeteorSTAB Dragon - Dragon BreathSTAB Dragon - String Shot Bug 6 Take Down Normal 13 Struggle BugSTAB Bug 18 TwisterSTAB Dragon 23 Giga Drain Grass 28 Tail Glow Bug 35 Bug BuzzSTAB Bug 41 Boomburst Normal 48 Rage Powder Bug 51 Skitter SmackSTAB Bug 55 Dragon Dance Dragon 60 Fire Blast Fire 66 Pollen PuffSTAB Bug 75 Hurricane Flying"),
+                List.of(""),
                 List.of(),
-                List.of(
+                List.of(new MoveLearnSetEntry(Move.TAIL_GLOW,1),
+                        new MoveLearnSetEntry(Move.SKITTER_SMACK,1),
+                        new MoveLearnSetEntry(Move.SCALE_SHOT,1),
+                        new MoveLearnSetEntry(Move.MYSTICAL_FIRE,1),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
+                        new MoveLearnSetEntry(Move.DRACO_METEOR,1),
+                        new MoveLearnSetEntry(Move.DRAGON_BREATH,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.TAKE_DOWN,6),
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,13),
@@ -108,14 +114,14 @@ public class Atlagon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 54, 68, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Atlagon");
+        setCanFly(true);
 
     }
 

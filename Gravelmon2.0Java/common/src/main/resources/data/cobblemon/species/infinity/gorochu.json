@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gorochu",
-  "nationalPokedexNumber": 1273,
+  "nationalPokedexNumber": 1283,
   "primaryType": "electric",
   "secondaryType": "fire",
   "abilities": [
@@ -48,16 +48,6 @@
     "field",
     "fairy"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:redstone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:thundershock",
     "1:tailwhip",
@@ -157,7 +147,7 @@
     "cobblemon.species.gorochu.desc"
   ],
   "preEvolution": "pikachu",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

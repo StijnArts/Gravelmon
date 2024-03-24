@@ -17,14 +17,15 @@ public class Slickitty extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         85),
                 List.of(Ability.UNBURDEN,Ability.QUICK_FEET,Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 59, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("These energetic speedy Pokemon love to chase after others. The static it generates in its fur is sure to shock whoever pets it."),
-                List.of(),
+                List.of(new EvolutionEntry("axeleraze", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
@@ -51,8 +52,8 @@ public class Slickitty extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

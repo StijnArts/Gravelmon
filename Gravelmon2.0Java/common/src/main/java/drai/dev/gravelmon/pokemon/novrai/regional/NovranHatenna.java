@@ -22,7 +22,7 @@ public class NovranHatenna extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FAIRY),
                 List.of("Its wide brim of hair contains cells that absorb sunlight, so it never has to eat. It causes other plants to grow large so it can hide below their leaves when frightened."),
-                List.of(new EvolutionEntry("novraihattrem", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("NovranHattrem", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PLAY_NICE,1),

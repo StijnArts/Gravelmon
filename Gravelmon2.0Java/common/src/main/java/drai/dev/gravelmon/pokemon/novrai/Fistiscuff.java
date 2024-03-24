@@ -15,14 +15,16 @@ public class Fistiscuff extends drai.dev.gravelmon.pokemon.Pokemon {
                         53,
                         48),
                 List.of(Ability.JUSTIFIED,Ability.COURAGEOUS,Ability.STEADFAST), Ability.STEADFAST,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,1,0), 90,
                 0.75,
                 54, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.FAIRY),
                 List.of("It has tremendous strength, but it will never attack an opponent unless hit first. If it sees another Pokemon being bullied, it will take it upon itself to break up the conflict."),
-                List.of(),
+                List.of(new EvolutionEntry("elegent", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),
                         new MoveLearnSetEntry(Move.DOUBLE_SLAP,5),
@@ -105,11 +107,11 @@ public class Fistiscuff extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VITAL_THROW,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fistiscuff");

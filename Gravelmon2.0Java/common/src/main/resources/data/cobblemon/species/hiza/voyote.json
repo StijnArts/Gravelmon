@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "voyote",
-  "nationalPokedexNumber": 2098,
+  "nationalPokedexNumber": 2169,
   "primaryType": "electric",
   "abilities": [
     "moxie",
@@ -66,7 +66,7 @@
     "cobblemon.species.voyote.desc"
   ],
   "preEvolution": "hunder",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

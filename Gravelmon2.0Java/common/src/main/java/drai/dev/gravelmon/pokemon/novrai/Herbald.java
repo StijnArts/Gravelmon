@@ -15,14 +15,17 @@ public class Herbald extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         35),
                 List.of(Ability.SAND_VEIL,Ability.KLUTZ,Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                8, 165,
+                4, 165,
                 new Stats(1,0,0,0,0,0), 180,
                 0.5,
                 66, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MINERAL),
                 List.of("It lives in the same areas as Tangela, and seems jealous of its long, flowing vines. Its soil quality is so poor that only a truly miraculous seed can grow within it."),
-                List.of(),
+                List.of(new EvolutionEntry("toupary", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.MUDSLAP,1),
                         new MoveLearnSetEntry(Move.MUD_SPORT,4),
@@ -93,8 +96,8 @@ public class Herbald extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

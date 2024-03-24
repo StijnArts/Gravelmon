@@ -15,7 +15,7 @@ public class Salmonic extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         125),
                 List.of(Ability.SWIFT_SWIM,Ability.HUSTLE,Ability.ANTICIPATION), Ability.ANTICIPATION,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,2), 200,
                 0.5,
                 151, ExperienceGroup.MEDIUM_SLOW,
@@ -121,14 +121,16 @@ public class Salmonic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MOONBLAST,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 11, 33, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Salmonic");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

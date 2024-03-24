@@ -15,14 +15,16 @@ public class Psyclops extends drai.dev.gravelmon.pokemon.Pokemon {
                         46,
                         37),
                 List.of(Ability.NO_GUARD,Ability.BERSERK,Ability.ANGER_POINT), Ability.ANGER_POINT,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,1,0,0), 90,
                 0.5,
                 66, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.MONSTER),
                 List.of("With its one great eye, it can immediately pinpoint its enemies' weak points. Unfortunately, its eye also serves as its own easily-targeted weak point."),
-                List.of(),
+                List.of(new EvolutionEntry("psyphemus", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.POWERUP_PUNCH,4),
@@ -133,8 +135,8 @@ public class Psyclops extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BODY_SLAM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 9, 31, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

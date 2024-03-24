@@ -17,7 +17,7 @@ public class Wintweasel extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         85),
                 List.of(Ability.SCRAPPY), Ability.SLUSH_RUSH,
-                8, 165,
+                19, 165,
                 new Stats(1,1,0,0,0,1), 25,
                 0.5,
                 234, ExperienceGroup.ERRATIC,
@@ -42,8 +42,8 @@ public class Wintweasel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASS_KNOT,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

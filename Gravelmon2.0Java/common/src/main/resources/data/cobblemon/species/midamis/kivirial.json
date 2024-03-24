@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kivirial",
-  "nationalPokedexNumber": 2984,
+  "nationalPokedexNumber": 3504,
   "primaryType": "steel",
   "secondaryType": "dragon",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.kivirial.desc"
   ],
   "preEvolution": "kiriliel",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

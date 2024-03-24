@@ -7,17 +7,17 @@
       "id": "deecoin-1",
       "pokemon": "deecoin",
       "presets": [
-          "natural"
+          "jungle_pyramid",
+          "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "bucket": "uncommon",
+      "level": "8-31",
+      "weight": 5.0,
       "condition": {
 "biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"#cobblemon:is_mountain" ]
       }
     }
   ]

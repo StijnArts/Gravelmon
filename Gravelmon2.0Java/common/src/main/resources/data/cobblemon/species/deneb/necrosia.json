@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "necrosia",
-  "nationalPokedexNumber": 3056,
+  "nationalPokedexNumber": 3665,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -75,14 +75,17 @@
     "tm:psychic",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:batonpass",
     "tm:sludgebomb",
+    "tm:ragingflame",
     "tm:discharge",
     "tm:willowisp",
     "tm:nightslash",
     "tm:cut",
     "tm:strength",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
@@ -116,7 +119,7 @@
     "cobblemon.species.necrosia.desc"
   ],
   "preEvolution": "yucarlia",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

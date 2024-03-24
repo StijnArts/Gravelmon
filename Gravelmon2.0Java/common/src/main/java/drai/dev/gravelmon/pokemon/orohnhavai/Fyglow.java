@@ -17,7 +17,7 @@ public class Fyglow extends drai.dev.gravelmon.pokemon.Pokemon {
                         20,
                         82),
                 List.of(Ability.COMPOUND_EYES,Ability.SWARM,Ability.SOLAR_POWER), Ability.SOLAR_POWER,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
@@ -84,14 +84,15 @@ public class Fyglow extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 7, 32, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_FOREST, Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Fyglow");
+        setCanFly(true);
 
     }
 

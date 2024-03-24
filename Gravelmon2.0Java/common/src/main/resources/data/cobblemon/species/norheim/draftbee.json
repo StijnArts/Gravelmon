@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "draftbee",
-  "nationalPokedexNumber": 2354,
+  "nationalPokedexNumber": 2587,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.draftbee.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

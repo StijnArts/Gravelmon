@@ -15,7 +15,7 @@ public class Ballistikon extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         105),
                 List.of(Ability.ROCK_HEAD), Ability.ROCK_HEAD,
-                8, 165,
+                15, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 172, ExperienceGroup.SLOW,
@@ -24,6 +24,22 @@ public class Ballistikon extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("With a vault from its arms, Ballistikon can roll into a rapid spin, tearing up the ground in its path. Its reinforced armor is so tough that it can use itself as a battering ram to crash through steel."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.ROLLOUT,1),
+                        new MoveLearnSetEntry(Move.PIN_MISSILE,1),
+                        new MoveLearnSetEntry(Move.MEGAHORN,1),
+                        new MoveLearnSetEntry(Move.WITHDRAW,1),
+                        new MoveLearnSetEntry(Move.SMART_STRIKE,1),
+                        new MoveLearnSetEntry(Move.ANCIENT_POWER,1),
+                        new MoveLearnSetEntry(Move.RAPID_SPIN,1),
+                        new MoveLearnSetEntry(Move.ROCK_SLIDE,1),
+                        new MoveLearnSetEntry(Move.GYRO_BALL,1),
+                        new MoveLearnSetEntry(Move.BOLT_IN,1),
+                        new MoveLearnSetEntry(Move.AUTOTOMIZE,1),
+                        new MoveLearnSetEntry(Move.STEEL_ROLLER,1),
+                        new MoveLearnSetEntry(Move.STEAMROLLER,1),
+                        new MoveLearnSetEntry(Move.METAL_CLAW,1),
+                        new MoveLearnSetEntry(Move.BULLET_PUNCH,1),
+                        new MoveLearnSetEntry(Move.HEADLONG_RUSH,1),
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,1),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.BIDE,"tm"),
@@ -95,11 +111,10 @@ public class Ballistikon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WAVE_CRASH,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 21, 46, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ballistikon");

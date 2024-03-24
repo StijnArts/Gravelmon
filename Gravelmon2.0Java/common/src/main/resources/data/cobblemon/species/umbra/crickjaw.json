@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crickjaw",
-  "nationalPokedexNumber": 2568,
+  "nationalPokedexNumber": 2974,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -99,7 +99,7 @@
     "cobblemon.species.crickjaw.desc"
   ],
   "preEvolution": "gichet",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

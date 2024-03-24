@@ -15,7 +15,7 @@ public class Barbarrage extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         30),
                 List.of(Ability.SKILL_LINK,Ability.MEGA_LAUNCHER,Ability.BOMBARDIER), Ability.BOMBARDIER,
-                8, 165,
+                11, 165,
                 new Stats(0,1,0,1,0,0), 75,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -43,14 +43,16 @@ public class Barbarrage extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLUDGE_BOMB,"tm")                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 35, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Barbarrage");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chargo",
-  "nationalPokedexNumber": 1267,
+  "nationalPokedexNumber": 1277,
   "primaryType": "fire",
   "abilities": [
     "reckless",
@@ -47,16 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:tailwhip",

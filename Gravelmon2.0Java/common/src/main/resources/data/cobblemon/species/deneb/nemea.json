@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nemea",
-  "nationalPokedexNumber": 3072,
+  "nationalPokedexNumber": 3681,
   "primaryType": "steel",
   "abilities": [
     "pressure",
@@ -54,7 +54,9 @@
     "33:ironhead",
     "41:metalsound",
     "49:crunch",
+    "57:stardustcosmic",
     "65:workup",
+    "73:geoimpact",
     "89:irondefense",
     "tm:swordsdance",
     "tm:magnetbomb",
@@ -68,16 +70,20 @@
     "tm:irondefense",
     "tm:shadowball",
     "tm:triattack",
+    "tm:devastate",
     "tm:sludgebomb",
+    "tm:ragingflame",
     "tm:nightslash",
     "tm:cut",
     "tm:strength",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:nastyplot"  ],
+    "tutor:nastyplot",
+    "tutor:bugnoise"  ],
   "labels": [
     "deneb",
     "legendary",
@@ -86,7 +92,7 @@
   "pokedex": [
     "cobblemon.species.nemea.desc"
   ],
-  "baseScale": 0.525,
+  "baseScale": 0.7000000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

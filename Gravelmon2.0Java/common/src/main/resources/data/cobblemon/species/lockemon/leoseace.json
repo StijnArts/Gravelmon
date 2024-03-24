@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leoseace",
-  "nationalPokedexNumber": 2512,
+  "nationalPokedexNumber": 2811,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -104,7 +104,7 @@
   "pokedex": [
     "cobblemon.species.leoseace.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

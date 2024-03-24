@@ -15,7 +15,7 @@ public class Memoram extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         85),
                 List.of(Ability.TELEPATHY,Ability.RATTLED,Ability.SYMBIOSIS), Ability.SYMBIOSIS,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,2,0), 90,
                 0.5,
                 172, ExperienceGroup.SLOW,
@@ -24,6 +24,17 @@ public class Memoram extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("This Pokemon can sense the feelings of others using the energy stored in its curved horns. If it detects ill will, it will repel the foe with ear-splitting wailing, signaling the rest of the herd to assist."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.AMNESIA,1),
+                        new MoveLearnSetEntry(Move.UPROAR,1),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,1),
+                        new MoveLearnSetEntry(Move.BODY_SLAM,1),
+                        new MoveLearnSetEntry(Move.HEALING_WISH,1),
+                        new MoveLearnSetEntry(Move.RESONATE,1),
+                        new MoveLearnSetEntry(Move.ZEN_HEADBUTT,1),
+                        new MoveLearnSetEntry(Move.MIRACLE_EYE,1),
+                        new MoveLearnSetEntry(Move.DREAM_EATER,1),
+                        new MoveLearnSetEntry(Move.REST,1),
+                        new MoveLearnSetEntry(Move.PSYCHO_KICK,1),
                         new MoveLearnSetEntry(Move.SUBCONJURE,1),
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm"),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
@@ -77,8 +88,9 @@ public class Memoram extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 17, 43, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nidoregus",
-  "nationalPokedexNumber": 1997,
+  "nationalPokedexNumber": 2068,
   "primaryType": "ground",
   "secondaryType": "ice",
   "abilities": [
@@ -79,7 +79,7 @@
     "cobblemon.species.nidoregus.desc"
   ],
   "preEvolution": "nidorimesummercoat",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

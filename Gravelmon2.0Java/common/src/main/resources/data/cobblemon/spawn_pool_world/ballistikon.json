@@ -7,17 +7,15 @@
       "id": "ballistikon-1",
       "pokemon": "ballistikon",
       "presets": [
-          "natural"
+          "shipwreck"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "21-46",
       "weight": 3.8,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
-        "canSeeSky": true
+"biomes": [ "#minecraft:is_ocean" ]
       }
     }
   ]

@@ -15,7 +15,7 @@ public class Coboom extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         84),
                 List.of(Ability.AFTERMATH,Ability.NO_GUARD,Ability.RECKLESS), Ability.RECKLESS,
-                8, 165,
+                14, 165,
                 new Stats(0,2,0,1,0,0), 45,
                 0.5,
                 236, ExperienceGroup.MEDIUM_FAST,
@@ -108,11 +108,11 @@ public class Coboom extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DETECT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 52, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_ARID))),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Coboom");

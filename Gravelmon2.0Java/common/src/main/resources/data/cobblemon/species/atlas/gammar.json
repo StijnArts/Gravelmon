@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gammar",
-  "nationalPokedexNumber": 3482,
+  "nationalPokedexNumber": 4387,
   "primaryType": "electric",
   "abilities": [
     "waterabsorb",
@@ -59,6 +59,7 @@
     "27:aquajet",
     "36:slam",
     "38:aquatail",
+    "42:thunderclap",
     "45:switcheroo",
     "49:wringout",
     "57:doubleshock",
@@ -135,7 +136,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

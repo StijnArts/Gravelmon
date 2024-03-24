@@ -7,7 +7,7 @@
       "id": "electeel-1",
       "pokemon": "electeel",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,7 @@
       "level": "16-46",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

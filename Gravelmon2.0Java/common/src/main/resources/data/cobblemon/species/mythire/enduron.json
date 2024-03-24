@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "enduron",
-  "nationalPokedexNumber": 2694,
+  "nationalPokedexNumber": 3100,
   "primaryType": "dragon",
   "secondaryType": "psychic",
   "abilities": [
@@ -49,15 +49,43 @@
     "monster"
   ],
   "moves": [
+    "1:flash",
+    "1:dragonclaw",
+    "1:powergemcrystal",
+    "1:breakingswipe",
+    "1:tearfullook",
+    "1:barrier",
+    "1:magiccoat",
+    "1:miracleeye",
+    "1:psyshock",
+    "1:confusion",
+    "1:flail",
+    "1:covet",
     "tm:scaleshot"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.enduron.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "timidon",
+  "evolutions": [
+    {
+      "id": "enduron_Chrystasis",
+      "variant": "item_interact",
+      "result": "Chrystasis",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone"   
+ }
+  ],
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +100,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

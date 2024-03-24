@@ -7,7 +7,7 @@
       "id": "soponge-1",
       "pokemon": "soponge",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "seafloor",
@@ -15,7 +15,7 @@
       "level": "6-27",
       "weight": 6.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

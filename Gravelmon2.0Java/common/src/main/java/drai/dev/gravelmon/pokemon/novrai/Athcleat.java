@@ -15,7 +15,7 @@ public class Athcleat extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         99),
                 List.of(Ability.QUICK_FEET,Ability.MOXIE,Ability.RECEIVER), Ability.RECEIVER,
-                8, 165,
+                4, 165,
                 new Stats(0,2,0,0,0,0), 70,
                 0.75,
                 175, ExperienceGroup.FAST,
@@ -97,11 +97,11 @@ public class Athcleat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 26, 43, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Athcleat");

@@ -6,6 +6,7 @@
   "secondaryType": "ground",
   "abilities": [
     "poisonpoint",
+    "conditioning",
     "h:roughskin"
   ],
   "baseStats": {
@@ -47,16 +48,6 @@
   "eggGroups": [
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:irontail",
     "1:skullbash",
@@ -133,7 +124,7 @@
     "cobblemon.species.ankillosore.desc"
   ],
   "preEvolution": "hornizard",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

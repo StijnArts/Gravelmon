@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "schwincer",
-  "nationalPokedexNumber": 1632,
+  "nationalPokedexNumber": 1642,
   "primaryType": "dark",
   "abilities": [
     "pickup",
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.schwincer.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

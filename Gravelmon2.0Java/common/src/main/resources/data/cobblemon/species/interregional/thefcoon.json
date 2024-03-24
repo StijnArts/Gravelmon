@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "thefcoon",
-  "nationalPokedexNumber": 1354,
+  "nationalPokedexNumber": 1364,
   "primaryType": "dark",
   "abilities": [
     "frisk",
@@ -85,7 +85,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

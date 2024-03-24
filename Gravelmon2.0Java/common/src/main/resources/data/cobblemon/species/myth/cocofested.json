@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cocofested",
-  "nationalPokedexNumber": 2818,
+  "nationalPokedexNumber": 3338,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -77,7 +77,7 @@
     "cobblemon.species.cocofested.desc"
   ],
   "preEvolution": "coconab",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

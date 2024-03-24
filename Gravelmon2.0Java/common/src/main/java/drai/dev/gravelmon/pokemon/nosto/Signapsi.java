@@ -15,15 +15,24 @@ public class Signapsi extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         39),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 40, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Signal Beam Bug Magnet Rise Electric Rising VoltageSTAB Electric Shock WaveSTAB Electric Pain Split Normal Snore Normal Expanding ForceSTAB Psychic Gravity Psychic Magic Coat Psychic Telekinesis Psychic Wonder Room Psychic U-turn Bug Dark Pulse Dark Embargo Dark Nasty Plot Dark Taunt Dark Charge BeamSTAB Electric Electric Terrain Electric ElectrocuteSTAB Electric ThunderSTAB Electric ThunderboltSTAB Electric Thunder Wave Electric Volt SwitchSTAB Electric Flame Charge Fire Flamethrower Fire Sunny Day Fire Will-O-Wisp Fire Energy Ball Grass Attract Normal Confide Normal Double Team Normal Echoed Voice Normal Facade Normal Flash Normal Frustration Normal Heartfelt Pulse Normal Hidden Power Normal Protect Normal Psych Up Normal Return Normal Round Normal Safeguard Normal Sleep Talk Normal Strength Normal Substitute Normal Swagger Normal Sludge Bomb Poison Sludge Wave Poison Toxic Poison Venoshock Poison Calm Mind Psychic Dream EaterSTAB Psychic Light Screen Psychic PsychicSTAB Psychic Psychic Terrain Psychic PsyshockSTAB Psychic Reflect Psychic Rest Psychic Trick Room Psychic Gyro Ball Steel"),
-                List.of(),
-                List.of(
+                List.of(new EvolutionEntry("reneuron", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
+                List.of(new MoveLearnSetEntry(Move.EERIE_IMPULSE,1),
+                        new MoveLearnSetEntry(Move.DISARMING_VOICE,4),
+                        new MoveLearnSetEntry(Move.CHARGE,7),
+                        new MoveLearnSetEntry(Move.ROLE_PLAY,11),
+                        new MoveLearnSetEntry(Move.SHOCK_WAVE,16),
+                        new MoveLearnSetEntry(Move.ALLY_SWITCH,20),
+                        new MoveLearnSetEntry(Move.PSYSHOCK,23),
+                        new MoveLearnSetEntry(Move.ELECTRIFY,28),
+                        new MoveLearnSetEntry(Move.PSYCHIC,33),
                         new MoveLearnSetEntry(Move.SIGNAL_BEAM,"tm"),
                         new MoveLearnSetEntry(Move.MAGNET_RISE,"tm"),
                         new MoveLearnSetEntry(Move.RISING_VOLTAGE,"tm"),
@@ -86,11 +95,11 @@ public class Signapsi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GYRO_BALL,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Signapsi");

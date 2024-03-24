@@ -49,16 +49,6 @@
     "monster",
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:hornattack",
     "1:tailwhip",
@@ -126,7 +116,7 @@
     "cobblemon.species.indrolith.desc"
   ],
   "preEvolution": "calphite",
-  "baseScale": 0.6,
+  "baseScale": 0.7999999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

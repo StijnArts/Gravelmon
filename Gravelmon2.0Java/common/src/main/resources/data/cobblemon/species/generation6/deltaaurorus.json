@@ -148,7 +148,7 @@
     "cobblemon.species.deltaaurorus.desc"
   ],
   "preEvolution": "deltaamaura",
-  "baseScale": 0.50625,
+  "baseScale": 0.6749999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hydrank",
-  "nationalPokedexNumber": 3308,
+  "nationalPokedexNumber": 4211,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -117,7 +117,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

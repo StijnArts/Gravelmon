@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skiito",
-  "nationalPokedexNumber": 2209,
+  "nationalPokedexNumber": 2280,
   "primaryType": "ice",
   "secondaryType": "bug",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.skiito.desc"
   ],
   "preEvolution": "mosfrigid",
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

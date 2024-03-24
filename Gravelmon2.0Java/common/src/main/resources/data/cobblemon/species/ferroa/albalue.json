@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "albalue",
-  "nationalPokedexNumber": 1514,
+  "nationalPokedexNumber": 1524,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -133,7 +133,7 @@
     "cobblemon.species.albalue.desc"
   ],
   "preEvolution": "buoybie",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

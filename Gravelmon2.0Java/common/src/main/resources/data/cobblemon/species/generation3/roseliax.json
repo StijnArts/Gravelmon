@@ -53,7 +53,7 @@
       {
         "item": "gravelmon:xenolith",
         "quantityRange": "1-1",
-        "percentage": 20
+        "percentage": 10
       }
     ]
   },
@@ -74,11 +74,13 @@
     "40:toxic",
     "43:perishsongsound",
     "46:synchronoise",
+    "50:noiseburst",
     "tm:roarsound",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
     "tm:protect",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:sludgebomb",
@@ -94,7 +96,8 @@
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",
-    "tutor:secretpower"  ],
+    "tutor:secretpower",
+    "tutor:soundbarrier"  ],
   "labels": [
     "xenoverse",
     "gen3",

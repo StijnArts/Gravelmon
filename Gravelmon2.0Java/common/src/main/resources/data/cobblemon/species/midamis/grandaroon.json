@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grandaroon",
-  "nationalPokedexNumber": 2847,
+  "nationalPokedexNumber": 3367,
   "primaryType": "grass",
   "secondaryType": "normal",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.grandaroon.desc"
   ],
   "preEvolution": "bufaroon",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

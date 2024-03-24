@@ -46,16 +46,6 @@
   "eggGroups": [
     "bug"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:iron_axe",
-        "quantityRange": "1-1",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:focusenergy",
     "1:covet",
@@ -132,7 +122,7 @@
   "pokedex": [
     "cobblemon.species.thoraxe.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "greapper",
-  "nationalPokedexNumber": 2160,
+  "nationalPokedexNumber": 2231,
   "primaryType": "steel",
   "secondaryType": "ghost",
   "abilities": [
@@ -75,7 +75,7 @@
     "cobblemon.species.greapper.desc"
   ],
   "preEvolution": "hizianpinsir",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "florown",
-  "nationalPokedexNumber": 2876,
+  "nationalPokedexNumber": 3396,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.florown.desc"
   ],
   "preEvolution": "petafleur",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

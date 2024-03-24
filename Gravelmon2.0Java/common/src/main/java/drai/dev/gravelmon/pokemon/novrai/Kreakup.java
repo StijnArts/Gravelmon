@@ -15,14 +15,15 @@ public class Kreakup extends drai.dev.gravelmon.pokemon.Pokemon {
                         66,
                         48),
                 List.of(Ability.AROMA_VEIL,Ability.RAIN_DISH,Ability.STORM_DRAIN), Ability.STORM_DRAIN,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,1,0), 90,
                 0.5,
                 67, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.WATER_1),
                 List.of("Thanks to the water it carries around, its steps are tottering and unstable. The older the Kreakup, the sweeter the water inside its head tastes."),
-                List.of(),
+                List.of(new EvolutionEntry("krackpot", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:leaf_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.GROWL,3),
@@ -87,11 +88,11 @@ public class Kreakup extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWEETDECAY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kreakup");

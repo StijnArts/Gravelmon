@@ -17,7 +17,7 @@ public class Armodieval extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         35),
                 List.of(Ability.STURDY,Ability.IRON_BARBS,Ability.HEATPROOF), Ability.HEATPROOF,
-                8, 165,
+                15, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.5,
                 195, ExperienceGroup.SLOW,
@@ -26,6 +26,10 @@ public class Armodieval extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Known also in the medieval times of the Pokemon world, Armodieval would protect and stand guard in a castle with its ultimate defense. Its unbreakable shield is made of solid titanium and can stop even the most powerful blast."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.POUND,1),
+                        new MoveLearnSetEntry(Move.HARDEN,1),
+                        new MoveLearnSetEntry(Move.PROTECT,1),
+                        new MoveLearnSetEntry(Move.ROLLOUT,1),
                         new MoveLearnSetEntry(Move.SPIKES,1),
                         new MoveLearnSetEntry(Move.HARDEN,5),
                         new MoveLearnSetEntry(Move.ROLLOUT,10),
@@ -42,8 +46,9 @@ public class Armodieval extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 63, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

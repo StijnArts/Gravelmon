@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "beliaddon",
-  "nationalPokedexNumber": 1957,
+  "nationalPokedexNumber": 2028,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -141,7 +141,7 @@
     "cobblemon.species.beliaddon.desc"
   ],
   "preEvolution": "fallengel",
-  "baseScale": 0.4875,
+  "baseScale": 0.65,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

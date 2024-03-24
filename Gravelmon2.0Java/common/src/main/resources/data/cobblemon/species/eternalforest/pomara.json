@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pomara",
-  "nationalPokedexNumber": 2348,
+  "nationalPokedexNumber": 2558,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
@@ -225,7 +225,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

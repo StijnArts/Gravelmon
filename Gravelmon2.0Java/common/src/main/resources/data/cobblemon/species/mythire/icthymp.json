@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "icthymp",
-  "nationalPokedexNumber": 2684,
+  "nationalPokedexNumber": 3090,
   "primaryType": "steel",
   "abilities": [
     "bulletproof",
@@ -28,12 +28,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -48,7 +48,20 @@
     "water_2"
   ],
   "moves": [
-  ],
+    "1:bind",
+    "1:charge",
+    "1:thundershock",
+    "1:visegrip",
+    "12:chargebeam",
+    "16:metalsound",
+    "20:autotomize",
+    "24:discharge",
+    "28:screechsound",
+    "32:geargrind",
+    "36:lockon",
+    "42:shiftgear",
+    "48:zapcannon",
+    "54:hyperbeam"  ],
   "labels": [
     "mythire",
     "not_modeled"
@@ -56,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.icthymp.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

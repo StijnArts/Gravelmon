@@ -15,7 +15,7 @@ public class Itaffura extends drai.dev.gravelmon.pokemon.Pokemon {
                         88,
                         108),
                 List.of(Ability.SNOW_CLOAK,Ability.FUR_COAT,Ability.CHEEK_POUCH), Ability.CHEEK_POUCH,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,2), 75,
                 0.5,
                 171, ExperienceGroup.FAST,
@@ -118,8 +118,8 @@ public class Itaffura extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AURORA_BEAM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 47, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

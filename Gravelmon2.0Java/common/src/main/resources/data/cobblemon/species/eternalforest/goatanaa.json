@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goatanaa",
-  "nationalPokedexNumber": 2346,
+  "nationalPokedexNumber": 2556,
   "primaryType": "normal",
   "abilities": [
     "sapsipper",
@@ -138,7 +138,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

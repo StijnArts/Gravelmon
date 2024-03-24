@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mementori",
-  "nationalPokedexNumber": 2702,
+  "nationalPokedexNumber": 3108,
   "primaryType": "flying",
   "secondaryType": "ghost",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -48,6 +48,19 @@
     "undiscovered"
   ],
   "moves": [
+    "1:ominouswind",
+    "1:skyattack",
+    "1:memento",
+    "1:darkpulse",
+    "1:embargo",
+    "1:perishsongsound",
+    "1:destinybond",
+    "1:shadowclaw",
+    "1:roost",
+    "1:featherdance",
+    "1:airslash",
+    "1:trick",
+    "1:steelwing",
     "1:sacredsword",
     "tm:mistyexplosion",
     "tm:dualwingbeat",
@@ -116,7 +129,7 @@
   "pokedex": [
     "cobblemon.species.mementori.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -131,7 +144,7 @@
     "special_defence": 0,
     "speed": 3
   },
-  "height": 8,
+  "height": 10,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -15,7 +15,7 @@ public class Krackpot extends drai.dev.gravelmon.pokemon.Pokemon {
                         101,
                         67),
                 List.of(Ability.AROMA_VEIL,Ability.HERBALIST,Ability.STORM_DRAIN), Ability.STORM_DRAIN,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,1,1,0), 45,
                 0.5,
                 170, ExperienceGroup.FAST,
@@ -99,11 +99,11 @@ public class Krackpot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWEETDECAY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 49, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Krackpot");

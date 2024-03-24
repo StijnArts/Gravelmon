@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snosquatch",
-  "nationalPokedexNumber": 1298,
+  "nationalPokedexNumber": 1308,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -147,7 +147,7 @@
     "cobblemon.species.snosquatch.desc"
   ],
   "preEvolution": "kidfoot",
-  "baseScale": 0.6375,
+  "baseScale": 0.85,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

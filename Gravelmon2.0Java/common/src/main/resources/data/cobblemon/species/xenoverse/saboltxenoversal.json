@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "saboltxenoversal",
-  "nationalPokedexNumber": 1736,
+  "nationalPokedexNumber": 1746,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
@@ -47,8 +47,29 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:eerieimpulse",
+    "1:darkeningbolt",
     "1:metalburst",
     "1:crunch",
     "1:meanlook",
@@ -68,6 +89,7 @@
     "23:suckerpunch",
     "28:scaryface",
     "32:thunderbolt",
+    "36:darkeningbolt",
     "40:nastyplot",
     "45:nightdaze",
     "51:glare",
@@ -142,7 +164,7 @@
       ]   
  }
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

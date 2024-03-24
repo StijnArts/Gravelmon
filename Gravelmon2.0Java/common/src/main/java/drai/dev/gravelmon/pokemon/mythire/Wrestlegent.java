@@ -15,7 +15,7 @@ public class Wrestlegent extends drai.dev.gravelmon.pokemon.Pokemon {
                         130,
                         55),
                 List.of(Ability.BODYGUARD), Ability.IRON_FIST,
-                8, 165,
+                19, 165,
                 new Stats(0,0,1,0,1,0), 45,
                 0.5,
                 172, ExperienceGroup.SLOW,
@@ -24,6 +24,20 @@ public class Wrestlegent extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Wrestlegent has a stern disposition and rarely ever shows any sign of emotion, but it has a kind heart deep down. When its friends are in danger, it will immediately pummel its enemies with cold fury to protect them."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.PIXIE_PUNCH,1),
+                        new MoveLearnSetEntry(Move.SPIRIT_BREAK,1),
+                        new MoveLearnSetEntry(Move.BLOCK,1),
+                        new MoveLearnSetEntry(Move.LOVE_LARIAT,1),
+                        new MoveLearnSetEntry(Move.PARTING_SHOT,1),
+                        new MoveLearnSetEntry(Move.BODY_PRESS,1),
+                        new MoveLearnSetEntry(Move.CIRCLE_THROW,1),
+                        new MoveLearnSetEntry(Move.WAKEUP_SLAP,1),
+                        new MoveLearnSetEntry(Move.SUBMISSION,1),
+                        new MoveLearnSetEntry(Move.RETALIATE,1),
+                        new MoveLearnSetEntry(Move.HELPING_HAND,1),
+                        new MoveLearnSetEntry(Move.SWAGGER,1),
+                        new MoveLearnSetEntry(Move.TEAM_UP,1),
+                        new MoveLearnSetEntry(Move.COUNTER,1),
                         new MoveLearnSetEntry(Move.COACHING,1),
                         new MoveLearnSetEntry(Move.FIRE_PUNCH,"tm"),
                         new MoveLearnSetEntry(Move.ICE_PUNCH,"tm"),
@@ -99,8 +113,8 @@ public class Wrestlegent extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,14 +15,18 @@ public class Wrassure extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         38),
                 List.of(Ability.HEALER,Ability.HYDRATION,Ability.NURTURER), Ability.NURTURER,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 220,
                 0.5,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("A helpful Pokemon that feeds on grime accumulated by others. Many aquatic Pokemon trust them, and will seek them out to get a cleaning."),
-                List.of(),
+                List.of(new EvolutionEntry("wrassuage", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"))),
+                        new EvolutionEntry("wrassassin", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.AQUASLAP,1),
                         new MoveLearnSetEntry(Move.CUDDLE,4),
@@ -92,14 +96,16 @@ public class Wrassure extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHILLING_WATER,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 4, 27, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Wrassure");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

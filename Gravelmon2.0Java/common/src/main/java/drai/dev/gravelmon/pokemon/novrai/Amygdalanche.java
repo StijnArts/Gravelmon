@@ -15,7 +15,7 @@ public class Amygdalanche extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         65),
                 List.of(Ability.NEUROFORCE,Ability.REFRIGERATE,Ability.FOREWARN), Ability.FOREWARN,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,3,0,0), 30,
                 0.5,
                 239, ExperienceGroup.SLOW,
@@ -108,8 +108,8 @@ public class Amygdalanche extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MAGIC_ROOM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 56, .04, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -189,6 +189,7 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:incinerate",
     "tm:skydrop",
     "tm:roundsound",
@@ -249,7 +250,7 @@
     "cobblemon.species.deltavolcarona.desc"
   ],
   "preEvolution": "deltalarvesta",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

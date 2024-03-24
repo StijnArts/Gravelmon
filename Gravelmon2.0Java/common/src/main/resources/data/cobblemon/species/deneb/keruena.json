@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "keruena",
-  "nationalPokedexNumber": 3246,
+  "nationalPokedexNumber": 3855,
   "primaryType": "dark",
   "abilities": [
     "intimidate",
@@ -68,6 +68,7 @@
     "42:crunch",
     "48:yawn",
     "60:suckerpunch",
+    "66:devastate",
     "tm:toxic",
     "tm:taunt",
     "tm:return",
@@ -88,6 +89,7 @@
     "egg:facade",
     "egg:uproar",
     "egg:playrough",
+    "egg:darkroarsound",
     "egg:entrainment",
     "egg:suckerpunch",
     "egg:covet",
@@ -99,7 +101,7 @@
   "pokedex": [
     "cobblemon.species.keruena.desc"
   ],
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

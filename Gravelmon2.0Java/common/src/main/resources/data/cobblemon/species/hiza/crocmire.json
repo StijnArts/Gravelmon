@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crocmire",
-  "nationalPokedexNumber": 2143,
+  "nationalPokedexNumber": 2214,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.crocmire.desc"
   ],
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

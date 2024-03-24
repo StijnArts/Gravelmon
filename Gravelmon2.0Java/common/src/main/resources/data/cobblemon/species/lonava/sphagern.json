@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sphagern",
-  "nationalPokedexNumber": 2387,
+  "nationalPokedexNumber": 2686,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -121,7 +121,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

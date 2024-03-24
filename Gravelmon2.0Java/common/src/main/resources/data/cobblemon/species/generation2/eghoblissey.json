@@ -48,16 +48,6 @@
   "eggGroups": [
     "fairy"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "cobblemon:oval_stone",
-        "quantityRange": "1-1",
-        "percentage": 20
-      }
-    ]
-  },
   "moves": [
     "1:crosschop",
     "1:helpinghand",
@@ -154,7 +144,7 @@
     "cobblemon.species.eghoblissey.desc"
   ],
   "preEvolution": "eghochansey",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

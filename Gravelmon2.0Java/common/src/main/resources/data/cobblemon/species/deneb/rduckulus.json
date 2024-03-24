@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rduckulus",
-  "nationalPokedexNumber": 3167,
+  "nationalPokedexNumber": 3776,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -77,11 +77,13 @@
     "tm:rockslide",
     "tm:shadowclaw",
     "tm:substitute",
+    "tm:poisonleaf",
     "tm:poisonjab",
     "tm:irontail",
     "tm:bravebird",
     "tm:brickbreak",
     "tm:triattack",
+    "tm:devastate",
     "tm:heatwave",
     "tm:focusblast",
     "tm:nightslash",
@@ -91,6 +93,7 @@
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
+    "tutor:shadowclamp",
     "egg:covet",
     "egg:curse",
     "egg:endeavor",
@@ -98,6 +101,7 @@
     "egg:foresight",
     "egg:frustration",
     "egg:gigaimpact",
+    "egg:glide",
     "egg:gust",
     "egg:hyperbeam",
     "egg:leafblade",
@@ -124,7 +128,7 @@
     "cobblemon.species.rduckulus.desc"
   ],
   "preEvolution": "farfetchd",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

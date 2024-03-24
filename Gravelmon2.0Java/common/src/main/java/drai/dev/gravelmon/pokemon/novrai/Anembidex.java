@@ -15,7 +15,7 @@ public class Anembidex extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         106),
                 List.of(Ability.SURGE_SURFER,Ability.PICKPOCKET,Ability.GALVANIZE), Ability.GALVANIZE,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,2), 80,
                 0.5,
                 174, ExperienceGroup.MEDIUM_FAST,
@@ -108,14 +108,16 @@ public class Anembidex extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BATON_PASS,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 33, 53, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Anembidex");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -148,7 +148,7 @@
   "pokedex": [
     "cobblemon.species.varitasianonix.desc"
   ],
-  "baseScale": 0.7875,
+  "baseScale": 1.05,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

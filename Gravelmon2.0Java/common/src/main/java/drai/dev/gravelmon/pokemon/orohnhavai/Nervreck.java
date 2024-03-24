@@ -17,14 +17,15 @@ public class Nervreck extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         65),
                 List.of(Ability.GUTS,Ability.NO_GUARD,Ability.IRON_FIST), Ability.IRON_FIST,
-                8, 165,
+                10, 165,
                 new Stats(1,1,0,0,0,0), 90,
                 0.75,
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Nervreck intimidate its foes by puffing up its chest. It will not back down from a battle no matter what. It releases its anger and tension by wrecking its surroundings. It is thecleffautic for them."),
-                List.of(),
+                List.of(new EvolutionEntry("wreckore", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ARM_THRUST,1),
                         new MoveLearnSetEntry(Move.BIDE,4),
@@ -51,8 +52,8 @@ public class Nervreck extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 41, 1.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

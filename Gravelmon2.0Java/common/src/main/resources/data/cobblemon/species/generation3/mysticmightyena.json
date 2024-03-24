@@ -75,7 +75,7 @@
     "cobblemon.species.mysticmightyena.desc"
   ],
   "preEvolution": "mysticpoochyena",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

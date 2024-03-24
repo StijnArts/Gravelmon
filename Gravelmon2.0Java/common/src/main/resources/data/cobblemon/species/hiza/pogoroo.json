@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pogoroo",
-  "nationalPokedexNumber": 2074,
+  "nationalPokedexNumber": 2145,
   "primaryType": "normal",
   "abilities": [
     "scrappy",
@@ -80,7 +80,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

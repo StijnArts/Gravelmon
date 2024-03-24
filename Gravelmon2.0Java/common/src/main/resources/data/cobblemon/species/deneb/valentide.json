@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "valentide",
-  "nationalPokedexNumber": 3157,
+  "nationalPokedexNumber": 3766,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
@@ -58,6 +58,7 @@
     "27:attract",
     "31:heartstamp",
     "37:calmmind",
+    "40:frostbite",
     "46:hypervoicesound",
     "51:safeguard",
     "55:blizzard",
@@ -80,6 +81,7 @@
     "tutor:rest",
     "tutor:hiddenpower",
     "tutor:toxic",
+    "tutor:bugnoise",
     "tutor:nastyplot",
     "egg:aquajet",
     "egg:bounce",
@@ -110,7 +112,7 @@
     "cobblemon.species.valentide.desc"
   ],
   "preEvolution": "luvdisc",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

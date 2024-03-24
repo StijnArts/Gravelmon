@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arugari",
-  "nationalPokedexNumber": 3274,
+  "nationalPokedexNumber": 3883,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
@@ -102,7 +102,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -17,7 +17,7 @@ public class Hamarrcal extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         80),
                 List.of(Ability.LIGHTNING_ROD), Ability.ELECTRIC_SURGE,
-                8, 165,
+                27, 165,
                 new Stats(0,2,2,0,0,0), 45,
                 0.0,
                 306, ExperienceGroup.ERRATIC,
@@ -45,14 +45,15 @@ public class Hamarrcal extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRACO_METEOR,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+            ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Hamarrcal");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

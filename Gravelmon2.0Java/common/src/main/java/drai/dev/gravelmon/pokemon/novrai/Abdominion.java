@@ -15,7 +15,7 @@ public class Abdominion extends drai.dev.gravelmon.pokemon.Pokemon {
                         77,
                         103),
                 List.of(Ability.SWARMINGSURGE,Ability.DEFIANT,Ability.FEROCIOUS), Ability.FEROCIOUS,
-                8, 165,
+                18, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 191, ExperienceGroup.SLOW,
@@ -127,8 +127,8 @@ public class Abdominion extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCARY_FACE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 55, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

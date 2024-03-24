@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pyrebolt",
-  "nationalPokedexNumber": 2235,
+  "nationalPokedexNumber": 2306,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -87,7 +87,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

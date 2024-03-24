@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aotius",
-  "nationalPokedexNumber": 1966,
+  "nationalPokedexNumber": 2037,
   "primaryType": "flying",
   "secondaryType": "fire",
   "abilities": [
@@ -59,7 +59,7 @@
   "pokedex": [
     "cobblemon.species.aotius.desc"
   ],
-  "baseScale": 0.9,
+  "baseScale": 1.2,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

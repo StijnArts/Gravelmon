@@ -53,36 +53,44 @@ public class Junnin extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Eucuwala());
         pokemon.add(new Gulacuff());
         pokemon.add(new Timberawl());
+
         pokemon.add(new Reptling());
         pokemon.add(new Rapteror());
         pokemon.add(new Velosaur());
+
         pokemon.add(new Yetini());
         pokemon.add(new Yeteen());
         pokemon.add(new Yetitan());
+
         pokemon.add(new Kindlemur());
         pokemon.add(new Burmurly());
         pokemon.add(new Merculey());
+
         pokemon.add(new Woolvry());
         pokemon.add(new Clokruel());
         pokemon.add(new Smoldrine());
+
         pokemon.add(new Batorch());
         pokemon.add(new Batrix());
         pokemon.add(new Vamfire());
+
         pokemon.add(new Dimetrus());
         pokemon.add(new Permidon());
         pokemon.add(new Lividon());
+
         pokemon.add(new Liqueel());
         pokemon.add(new Electeel());
         pokemon.add(new Emporeel());
+
         pokemon.add(new Lochsea());
         pokemon.add(new Nesshoal());
         pokemon.add(new Psyren());
-//        pokemon.add(new Aromutt()); NOT FINISHED
-//        pokemon.add(new Odorog()); NOT FINISHED
+//        pokemon.add(new Aromutt()); Missing Stats
+//        pokemon.add(new Odorog()); Missing Stats
         pokemon.add(new Chinchul());
         pokemon.add(new Chilleap());
-//        pokemon.add(new Chiquail()); NOT FINISHED
-//        pokemon.add(new Mavriquail()); NOT FINISHED
+//        pokemon.add(new Chiquail()); Missing Stats
+//        pokemon.add(new Mavriquail()); Missing Stats
         pokemon.add(new Jayzul());
         pokemon.add(new Jayzure());
         pokemon.add(new Hoppiler());
@@ -98,15 +106,15 @@ public class Junnin extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Dandyseed());
         pokemon.add(new Dandylie());
         pokemon.add(new Withereen());
-//        pokemon.add(new Quartzac()); NOT FINISHED
-//        pokemon.add(new Equazar()); NOT FINISHED
+//        pokemon.add(new Quartzac()); Missing Stats
+//        pokemon.add(new Equazar()); Missing Stats
         pokemon.add(new Campyre());
         pokemon.add(new Wildyre());
         pokemon.add(new Bloatick());
         pokemon.add(new Suckeeto());
-//        pokemon.add(new Stalad()); NOT FINISHED
-//        pokemon.add(new Stelimight()); NOT FINISHED
-//        pokemon.add(new Cavernight()); NOT FINISHED
+//        pokemon.add(new Stalad()); Missing Stats
+//        pokemon.add(new Stelimight()); Missing Stats
+//        pokemon.add(new Cavernight()); Missing Stats
         pokemon.add(new Sandstrum());
         pokemon.add(new Sanderon());
         pokemon.add(new Shoreking());
@@ -118,21 +126,21 @@ public class Junnin extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Coyoco());
         pokemon.add(new Stuckarp());
         pokemon.add(new Stuckry());
-//        pokemon.add(new Plubus()); NOT FINISHED
-//        pokemon.add(new Salamink()); NOT FINISHED
+//        pokemon.add(new Plubus()); Missing Stats
+//        pokemon.add(new Salamink()); Missing Stats
         pokemon.add(new Frostoss());
         pokemon.add(new Kaboo());
         pokemon.add(new Membry());
-//        pokemon.add(new Fawntia()); NOT FINISHED
-//        pokemon.add(new Reindolph()); NOT FINISHED
+//        pokemon.add(new Fawntia()); Missing Stats
+//        pokemon.add(new Reindolph()); Missing Stats
         pokemon.add(new Bansheet());
         pokemon.add(new Teepolter());
         pokemon.add(new Hoodloom());
         pokemon.add(new Cloacover());
         pokemon.add(new Indascent());
         pokemon.add(new Lamplume());
-//        pokemon.add(new Bottoil()); NOT FINISHED
-//        pokemon.add(new Cuncoldron()); NOT FINISHED
+//        pokemon.add(new Bottoil()); Missing Stats
+//        pokemon.add(new Cuncoldron()); Missing Stats
         pokemon.add(new Tarift());
         pokemon.add(new Tarzorus());
         pokemon.add(new Tuttby());

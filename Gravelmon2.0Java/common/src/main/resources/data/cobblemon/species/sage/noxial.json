@@ -166,11 +166,7 @@
   "drops": {
     "amount": "2",
     "entries": [
-      {
-        "item": "minecraft:glass_bottle",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
+
     ]
       },
       "labels": [
@@ -211,16 +207,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:poisongas",
     "1:smokescreen",
@@ -328,7 +314,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

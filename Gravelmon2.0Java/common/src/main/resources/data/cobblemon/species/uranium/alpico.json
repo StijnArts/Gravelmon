@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "alpico",
-  "nationalPokedexNumber": 1918,
+  "nationalPokedexNumber": 1989,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -131,7 +131,7 @@
     "cobblemon.species.alpico.desc"
   ],
   "preEvolution": "pufluff",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

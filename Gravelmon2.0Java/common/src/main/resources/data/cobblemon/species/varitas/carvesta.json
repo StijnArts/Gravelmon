@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "carvesta",
-  "nationalPokedexNumber": 1803,
+  "nationalPokedexNumber": 1874,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
@@ -63,7 +63,7 @@
     "40:psychic",
     "44:surf",
     "48:recover",
-    "52:cosmicpower",
+    "52:cosmicpowercosmic",
     "56:hydropump",
     "tm:waterpulse",
     "tm:hail",
@@ -116,7 +116,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

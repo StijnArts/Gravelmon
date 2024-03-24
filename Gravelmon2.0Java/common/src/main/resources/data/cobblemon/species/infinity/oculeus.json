@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oculeus",
-  "nationalPokedexNumber": 1328,
+  "nationalPokedexNumber": 1338,
   "primaryType": "psychic",
   "secondaryType": "cosmic",
   "abilities": [
@@ -192,7 +192,7 @@
   "pokedex": [
     "cobblemon.species.oculeus.desc"
   ],
-  "baseScale": 0.6,
+  "baseScale": 0.7999999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

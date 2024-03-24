@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sponee",
-  "nationalPokedexNumber": 1852,
+  "nationalPokedexNumber": 1923,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
@@ -110,7 +110,7 @@
   "pokedex": [
     "cobblemon.species.sponee.desc"
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

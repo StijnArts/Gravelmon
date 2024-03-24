@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jemineye",
-  "nationalPokedexNumber": 2483,
+  "nationalPokedexNumber": 2782,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -59,7 +59,7 @@
     "10:rockpolish",
     "15:rockslide",
     "20:zenheadbutt",
-    "25:cosmicpower",
+    "25:cosmicpowercosmic",
     "30:psychic",
     "35:stoneedge",
     "40:diamondstormcrystal",
@@ -72,7 +72,7 @@
   "pokedex": [
     "cobblemon.species.jemineye.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

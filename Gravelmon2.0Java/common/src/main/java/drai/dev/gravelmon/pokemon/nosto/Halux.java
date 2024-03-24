@@ -15,14 +15,15 @@ public class Halux extends drai.dev.gravelmon.pokemon.Pokemon {
                         53,
                         66),
                 List.of(Ability.PRESSURE,Ability.FOREWARN,Ability.MAGIC_BOUNCE), Ability.MAGIC_BOUNCE,
-                8, 165,
-                new Stats(0,0,0,1,0,0), 0,
+                4, 165,
+                new Stats(0,0,0,1,0,0), 160,
                 0.5,
                 61, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("- PsywaveSTAB Psychic - Miracle Eye Psychic 4 Fairy Wind Fairy 7 Echoed Voice Normal 9 Hypnosis Psychic 13 PsybeamSTAB Psychic 15 Purify Poison 18 Future SightSTAB Psychic 22 Draining Kiss Fairy 26 Role Play Psychic 30 Round Normal 34 PsyshockSTAB Psychic 39 Dazzling Gleam Fairy 41 Calm Mind Psychic 43 PsychicSTAB Psychic 50 Moonblast Fairy"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("visiangel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MIRACLE_EYE,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,4),
@@ -41,14 +42,14 @@ public class Halux extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MOONBLAST,50)                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Halux");
+        setCanFly(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rubbison",
-  "nationalPokedexNumber": 1704,
+  "nationalPokedexNumber": 1714,
   "primaryType": "grass",
   "secondaryType": "normal",
   "abilities": [
@@ -60,7 +60,7 @@
     "28:rollout",
     "32:rest",
     "36:solarbeam",
-    "40:cosmicpower",
+    "40:cosmicpowercosmic",
     "44:heavyslam",
     "48:storedpower",
     "54:hyperbeam"  ],
@@ -71,7 +71,7 @@
   "pokedex": [
     "cobblemon.species.rubbison.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

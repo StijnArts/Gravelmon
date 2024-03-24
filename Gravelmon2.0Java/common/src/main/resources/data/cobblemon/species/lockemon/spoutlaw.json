@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spoutlaw",
-  "nationalPokedexNumber": 2421,
+  "nationalPokedexNumber": 2720,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -92,7 +92,7 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

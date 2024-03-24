@@ -15,14 +15,15 @@ public class Cherm extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         41),
                 List.of(Ability.CHLOROPHYLL), Ability.OVERGROW,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 45, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.GRASS),
                 List.of("Often hunted by hungry predators, Cherm releases a sweet aroma from its body. The leaf on its head can be used to make tea."),
-                List.of(),
+                List.of(new EvolutionEntry("cherrish", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"14")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GRASSY_GLIDE,"tm"),
                         new MoveLearnSetEntry(Move.SYNTHESIS,"tm"),
@@ -66,10 +67,10 @@ public class Cherm extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER,Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

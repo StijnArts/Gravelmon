@@ -17,7 +17,7 @@ public class Molozard extends drai.dev.gravelmon.pokemon.Pokemon {
                         57,
                         126),
                 List.of(Ability.FRISK,Ability.LIMBER,Ability.DRY_SKIN), Ability.DRY_SKIN,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,1,0,1), 47,
                 0.5,
                 136, ExperienceGroup.ERRATIC,
@@ -49,8 +49,8 @@ public class Molozard extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 53, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

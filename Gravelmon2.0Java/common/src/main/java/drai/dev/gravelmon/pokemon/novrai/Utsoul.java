@@ -15,7 +15,7 @@ public class Utsoul extends drai.dev.gravelmon.pokemon.Pokemon {
                         150,
                         100),
                 List.of(Ability.INSOMNIA), Ability.LEVITATE,
-                8, 165,
+                19, 165,
                 new Stats(0,0,3,0,0,0), 3,
                 0.0,
                 297, ExperienceGroup.SLOW,
@@ -99,14 +99,16 @@ public class Utsoul extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SURF,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Utsoul");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

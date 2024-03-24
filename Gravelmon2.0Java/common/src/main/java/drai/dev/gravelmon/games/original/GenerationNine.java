@@ -19,7 +19,7 @@ public class GenerationNine extends Game {
 
         pokemon.add(new QamoranRabsca(954));
 
-//        pokemon.add(new NorheimanGlimmora(970)); NOT FINISHED
+//        pokemon.add(new NorheimanGlimmora(970)); Member of line not finished
 
         //Radical Red
         pokemon.add(new SeviianNymble(919));
@@ -33,8 +33,8 @@ public class GenerationNine extends Game {
         pokemon.add(new AyreianQuaxwell(913));
         pokemon.add(new AyreianQuaquaval(914));
 
-//        pokemon.add(new AristosianFlittle(955)); NOT FINISHED
+//        pokemon.add(new AristosianFlittle(955)); Missing Art
 
-//        pokemon.add(new AvorianCetitan(975)); NOT FINISHED
+//        pokemon.add(new AvorianCetitan(975)); Member of line not finished
     }
 }

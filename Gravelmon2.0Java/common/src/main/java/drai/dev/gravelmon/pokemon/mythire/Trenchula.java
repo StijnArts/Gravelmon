@@ -15,7 +15,7 @@ public class Trenchula extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         125),
                 List.of(Ability.UNNERVE,Ability.SKILL_LINK,Ability.TECHNICIAN), Ability.TECHNICIAN,
-                8, 165,
+                17, 165,
                 new Stats(0,1,0,0,0,1), 45,
                 0.5,
                 172, ExperienceGroup.MEDIUM_SLOW,
@@ -96,14 +96,14 @@ public class Trenchula extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TRANQUILIZE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 35, 53, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Trenchula");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

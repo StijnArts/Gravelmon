@@ -14,14 +14,15 @@ public class OkenianDustar extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         35),
                 List.of(Ability.LEVITATE), Ability.DARKHOLD,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.0,
                 65, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.FAIRY),
                 List.of("They crash from outer space into various parts of the world. This Pokemon is impish and mean, but its said that there's another kind of Dustar which are good-natured."),
-                List.of(),
+                List.of(new EvolutionEntry("clustar", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TELEPORT,1),
                         new MoveLearnSetEntry(Move.MAGIC_POWDER,5),
@@ -46,14 +47,15 @@ public class OkenianDustar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_SLIDE,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 24, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Dustar");
+        setCanFly(true);
 
     }
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wicoot",
-  "nationalPokedexNumber": 2508,
+  "nationalPokedexNumber": 2807,
   "primaryType": "psychic",
   "secondaryType": "dark",
   "abilities": [
@@ -117,7 +117,7 @@
   "pokedex": [
     "cobblemon.species.wicoot.desc"
   ],
-  "baseScale": 0.39375,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

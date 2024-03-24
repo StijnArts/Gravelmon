@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "steelke",
-  "nationalPokedexNumber": 2865,
+  "nationalPokedexNumber": 3385,
   "primaryType": "normal",
   "secondaryType": "steel",
   "abilities": [
@@ -77,7 +77,7 @@
     "cobblemon.species.steelke.desc"
   ],
   "preEvolution": "raniron",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

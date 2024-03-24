@@ -17,14 +17,15 @@ public class Bunbrisk extends drai.dev.gravelmon.pokemon.Pokemon {
                         63,
                         72),
                 List.of(Ability.SCRAPPY), Ability.SLUSH_RUSH,
-                8, 165,
+                9, 165,
                 new Stats(1,1,0,0,0,0), 100,
                 0.5,
                 147, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("Feudal Bunbrisk Feudal Form move swiftly through wintery forests. This form evolves from Frodent who face new challenges and enemies head on."),
-                List.of(),
+                List.of(new EvolutionEntry("wintweasel", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"gravelmon:foreign_hat")),
                 List.of(
                         new MoveLearnSetEntry(Move.SLASH,1),
                         new MoveLearnSetEntry(Move.MIST,16),
@@ -37,8 +38,8 @@ public class Bunbrisk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SACRED_SWORD,50)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 34, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

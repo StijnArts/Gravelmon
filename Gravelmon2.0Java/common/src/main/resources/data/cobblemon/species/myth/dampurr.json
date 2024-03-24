@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dampurr",
-  "nationalPokedexNumber": 2801,
+  "nationalPokedexNumber": 3321,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -86,7 +86,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

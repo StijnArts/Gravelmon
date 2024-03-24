@@ -15,14 +15,15 @@ public class Arctire extends drai.dev.gravelmon.pokemon.Pokemon {
                         33,
                         95),
                 List.of(Ability.SLUSH_RUSH), Ability.SPEED_BOOST,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 67, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It falls at high speeds from the peaks of snow-capped mountains. It gathers rocks and snow as it rolls, continuously growing bigger and stronger."),
-                List.of(),
+                List.of(new EvolutionEntry("iccelerate", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:ice_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_SPIN,1),
                         new MoveLearnSetEntry(Move.HARDEN,5),
@@ -95,8 +96,8 @@ public class Arctire extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENDURE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snowoof",
-  "nationalPokedexNumber": 3491,
+  "nationalPokedexNumber": 4396,
   "primaryType": "ice",
   "abilities": [
     "frisk",
@@ -100,7 +100,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

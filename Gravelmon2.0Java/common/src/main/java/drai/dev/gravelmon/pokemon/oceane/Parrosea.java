@@ -15,14 +15,15 @@ public class Parrosea extends drai.dev.gravelmon.pokemon.Pokemon {
                         38,
                         55),
                 List.of(Ability.SWIFT_SWIM), Ability.MULTISCALE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 54, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.WATER_2),
                 List.of("Parrosea's gills are so large that it can use them for short periods of flight. It's favourite food is Coralony, though they rely on their parents to feed them it."),
-                List.of(),
+                List.of(new EvolutionEntry("nauticaw", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.PECK,3),
@@ -37,14 +38,17 @@ public class Parrosea extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,43)                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 2, 23, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Parrosea");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
+        setCanFly(true);
 
     }
 

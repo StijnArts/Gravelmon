@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maskape",
-  "nationalPokedexNumber": 2765,
+  "nationalPokedexNumber": 3285,
   "primaryType": "normal",
   "abilities": [
     "intimidate",
@@ -78,7 +78,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

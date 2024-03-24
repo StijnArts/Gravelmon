@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kokismash",
-  "nationalPokedexNumber": 1266,
+  "nationalPokedexNumber": 1276,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -49,16 +49,6 @@
     "monster",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:drainpunch",
     "1:leaftornado",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "teayke",
-  "nationalPokedexNumber": 1556,
+  "nationalPokedexNumber": 1566,
   "primaryType": "dragon",
   "abilities": [
     "ripen",
@@ -118,7 +118,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

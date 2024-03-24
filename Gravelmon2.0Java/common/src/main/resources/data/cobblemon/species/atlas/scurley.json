@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scurley",
-  "nationalPokedexNumber": 3280,
+  "nationalPokedexNumber": 4183,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -114,7 +114,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

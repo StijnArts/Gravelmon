@@ -7,7 +7,7 @@
       "id": "diaduna-1",
       "pokemon": "diaduna",
       "presets": [
-          "underwater",
+          "reef",
           "near_magma"
       ],
       "type": "pokemon",
@@ -16,7 +16,7 @@
       "level": "28-54",
       "weight": 2.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef" ],
+"biomes": [ "#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

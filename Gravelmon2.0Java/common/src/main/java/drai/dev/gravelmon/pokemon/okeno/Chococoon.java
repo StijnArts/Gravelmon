@@ -14,14 +14,15 @@ public class Chococoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         16),
                 List.of(Ability.BATTLE_ARMOR,Ability.JAWBREAKER,Ability.OBLIVIOUS), Ability.OBLIVIOUS,
-                8, 165,
+                7, 165,
                 new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 130, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Its rock-hard shell is delicious, but almost impossible to eat. Its color darkens as it gets closer to evolving."),
-                List.of(),
+                List.of(new EvolutionEntry("bombeetle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PROTECT,10),
                         new MoveLearnSetEntry(Move.ENDURE,15),
@@ -30,9 +31,9 @@ public class Chococoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 24, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

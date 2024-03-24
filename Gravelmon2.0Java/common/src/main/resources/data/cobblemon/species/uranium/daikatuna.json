@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "daikatuna",
-  "nationalPokedexNumber": 1901,
+  "nationalPokedexNumber": 1972,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -117,7 +117,7 @@
     "cobblemon.species.daikatuna.desc"
   ],
   "preEvolution": "saidine",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

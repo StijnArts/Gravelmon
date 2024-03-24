@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "turbird",
-  "nationalPokedexNumber": 2606,
+  "nationalPokedexNumber": 3012,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -123,7 +123,22 @@
   "pokedex": [
     "cobblemon.species.turbird.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "turbird_aeracer",
+      "variant": "level_up",
+      "result": "aeracer",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -138,7 +153,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 3,
   "weight": 165,
   "aspects": [],
 "features": [

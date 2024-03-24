@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lanthan",
-  "nationalPokedexNumber": 1963,
+  "nationalPokedexNumber": 2034,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -131,7 +131,7 @@
   "pokedex": [
     "cobblemon.species.lanthan.desc"
   ],
-  "baseScale": 0.54375,
+  "baseScale": 0.725,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

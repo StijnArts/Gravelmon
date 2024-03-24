@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sparroing",
-  "nationalPokedexNumber": 2659,
+  "nationalPokedexNumber": 3065,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
@@ -50,17 +50,28 @@
     "human_like"
   ],
   "moves": [
+    "1:bounce",
+    "1:skyuppercut",
+    "1:feintattack",
+    "1:feint",
+    "1:highjumpkick",
+    "1:jumpkick",
+    "1:acrobatics",
+    "1:agility",
     "tm:axekick",
     "tm:pounce",
     "tm:megakick"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sparroing.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "heeleap",
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -75,7 +86,7 @@
     "special_defence": 1,
     "speed": 1
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

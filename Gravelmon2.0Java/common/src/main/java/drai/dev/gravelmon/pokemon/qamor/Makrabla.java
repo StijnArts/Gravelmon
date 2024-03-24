@@ -17,14 +17,15 @@ public class Makrabla extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         56),
                 List.of(Ability.TORRENT), Ability.STAKEOUT,
-                8, 165,
+                11, 165,
                 new Stats(1,1,0,0,0,0), 45,
                 0.875,
                 142, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
                 List.of("Makrabla love nothing more then picking fights on lesser Pokemon. They tend to keep in groups, and even start gangs and alliances to keep others away from their territory."),
-                List.of(),
+                List.of(new EvolutionEntry("barrakoba", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_SPORT,1),
                         new MoveLearnSetEntry(Move.BUBBLE,6),
@@ -53,14 +54,16 @@ public class Makrabla extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOUL_PLAY,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Makrabla");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

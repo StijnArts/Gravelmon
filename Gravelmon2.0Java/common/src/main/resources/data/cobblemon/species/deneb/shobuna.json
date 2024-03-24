@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shobuna",
-  "nationalPokedexNumber": 3183,
+  "nationalPokedexNumber": 3792,
   "primaryType": "water",
   "abilities": [
     "defeatist",
@@ -80,10 +80,12 @@
     "tutor:nastyplot",
     "egg:blizzard",
     "egg:curse",
+    "egg:cursedwrath",
     "egg:disable",
     "egg:doubleteam",
     "egg:doubleedge",
     "egg:drillrun",
+    "egg:frostbite",
     "egg:icebeam",
     "egg:iciclecrash",
     "egg:muddywater",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dearewl",
-  "nationalPokedexNumber": 1832,
+  "nationalPokedexNumber": 1903,
   "primaryType": "steel",
   "secondaryType": "rock",
   "abilities": [
@@ -126,7 +126,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

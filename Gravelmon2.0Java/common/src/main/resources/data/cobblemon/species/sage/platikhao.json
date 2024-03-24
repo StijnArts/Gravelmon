@@ -48,16 +48,6 @@
     "field",
     "water_1"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:potato",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:reversal",
     "1:rollingkick",
@@ -162,7 +152,7 @@
     "cobblemon.species.platikhao.desc"
   ],
   "preEvolution": "platypow",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

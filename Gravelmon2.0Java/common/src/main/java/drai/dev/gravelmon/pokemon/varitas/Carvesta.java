@@ -76,10 +76,10 @@ public class Carvesta extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.VARITAS),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 12, 43, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_WARM_OCEAN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Carvesta");

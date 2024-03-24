@@ -17,8 +17,8 @@ public class Valcurie extends drai.dev.gravelmon.pokemon.Pokemon {
                         86,
                         95),
                 List.of(Ability.NATURAL_CURE), Ability.BATTLE_ARMOR,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                18, 165,
+                new Stats(0,0,0,0,0,0), 3,
                 0.0,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -26,7 +26,14 @@ public class Valcurie extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("The queen of six former heroines and the last of her kind. Valcurie decides the fate of Pokemon; who may die with glory or to live to finish their story."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.FIRST_IMPRESSION,1),
+                        new MoveLearnSetEntry(Move.ATTRACT,1),
+                        new MoveLearnSetEntry(Move.CALM_MIND,1),
+                        new MoveLearnSetEntry(Move.QUICK_GUARD,1),
+                        new MoveLearnSetEntry(Move.SLASH,1),
+                        new MoveLearnSetEntry(Move.AERIAL_ACE,1),
                         new MoveLearnSetEntry(Move.SMART_STRIKE,1),
+
                         new MoveLearnSetEntry(Move.HEAL_PULSE,8),
                         new MoveLearnSetEntry(Move.POWER_TRICK,12),
                         new MoveLearnSetEntry(Move.SACRED_SWORD,23),
@@ -40,8 +47,8 @@ public class Valcurie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RETALIATE,80)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

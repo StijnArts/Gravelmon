@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pudet",
-  "nationalPokedexNumber": 2450,
+  "nationalPokedexNumber": 2749,
   "primaryType": "fighting",
   "abilities": [
     "scrappy",
@@ -91,7 +91,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -49,16 +49,6 @@
     "water_2",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:healpulse",
     "1:healingwish",
@@ -143,7 +133,7 @@
     "cobblemon.species.oarwish.desc"
   ],
   "preEvolution": "fortifry",
-  "baseScale": 0.4875,
+  "baseScale": 0.65,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

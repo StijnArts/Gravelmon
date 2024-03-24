@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eameiru",
-  "nationalPokedexNumber": 3215,
+  "nationalPokedexNumber": 3824,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -89,7 +89,7 @@
   "pokedex": [
     "cobblemon.species.eameiru.desc"
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.6,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

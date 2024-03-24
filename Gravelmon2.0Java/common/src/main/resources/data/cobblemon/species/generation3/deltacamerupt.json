@@ -154,6 +154,7 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:incinerate",
     "tm:roundsound",
     "tm:captivate",
@@ -192,7 +193,7 @@
     "cobblemon.species.deltacamerupt.desc"
   ],
   "preEvolution": "deltanumel",
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

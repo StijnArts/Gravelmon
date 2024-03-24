@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bubblea",
-  "nationalPokedexNumber": 1394,
+  "nationalPokedexNumber": 1404,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -73,7 +73,7 @@
   "pokedex": [
     "cobblemon.species.bubblea.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

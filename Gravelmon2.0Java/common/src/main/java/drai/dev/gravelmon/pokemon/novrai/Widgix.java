@@ -15,14 +15,15 @@ public class Widgix extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         50),
                 List.of(Ability.LIGHT_METAL,Ability.TECHNICIAN,Ability.PICKUP), Ability.PICKUP,
-                8, 165,
+                2, 165,
                 new Stats(0,0,1,0,0,0), 90,
                 0.0,
                 59, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Born from junk piles, it's a naturally inquisitive Pokemon. It collects small pieces of metal and assembles them into impressive if non-functional creations."),
-                List.of(),
+                List.of(new EvolutionEntry("damastrophe", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:metal_coat\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,3),
@@ -90,9 +91,8 @@ public class Widgix extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 35, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

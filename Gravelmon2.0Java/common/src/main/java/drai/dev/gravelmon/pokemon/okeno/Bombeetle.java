@@ -14,7 +14,7 @@ public class Bombeetle extends drai.dev.gravelmon.pokemon.Pokemon {
                         61,
                         72),
                 List.of(Ability.BATTLE_ARMOR,Ability.JAWBREAKER,Ability.GUTS), Ability.GUTS,
-                8, 165,
+                17, 165,
                 new Stats(0,3,0,0,0,0), 50,
                 0.5,
                 205, ExperienceGroup.MEDIUM_SLOW,
@@ -39,9 +39,9 @@ public class Bombeetle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 45, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

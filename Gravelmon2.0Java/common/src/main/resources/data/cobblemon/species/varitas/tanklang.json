@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tanklang",
-  "nationalPokedexNumber": 1810,
+  "nationalPokedexNumber": 1881,
   "primaryType": "steel",
   "secondaryType": "ground",
   "abilities": [
@@ -111,7 +111,7 @@
     "cobblemon.species.tanklang.desc"
   ],
   "preEvolution": "varitasianklang",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

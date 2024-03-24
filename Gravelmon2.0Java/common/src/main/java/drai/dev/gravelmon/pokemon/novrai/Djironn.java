@@ -15,14 +15,15 @@ public class Djironn extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         20),
                 List.of(Ability.STEELY_SPIRIT,Ability.FLAME_BODY,Ability.MAGICIAN), Ability.MAGICIAN,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,1,0,0), 120,
                 0.5,
                 70, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("It melts down metal and uses it to build an iron lamp in which to live. Its body naturally produces a lot of soot, so the lamp is often quite dirty."),
-                List.of(),
+                List.of(new EvolutionEntry("forgenie", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
                         new MoveLearnSetEntry(Move.METAL_SOUND,5),
@@ -106,11 +107,11 @@ public class Djironn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HAMMER_ARM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 28, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Djironn");

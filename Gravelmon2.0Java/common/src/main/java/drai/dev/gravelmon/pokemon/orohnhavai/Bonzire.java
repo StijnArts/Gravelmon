@@ -17,7 +17,7 @@ public class Bonzire extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         90),
                 List.of(Ability.FLASH_FIRE,Ability.VOLT_ABSORB,Ability.MOTOR_DRIVE), Ability.MOTOR_DRIVE,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 113, ExperienceGroup.MEDIUM_FAST,
@@ -38,11 +38,11 @@ public class Bonzire extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of( new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))),
+                List.of(SpawnPreset.NEAR_LAVA),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bonzire");

@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "caballgon",
+  "nationalPokedexNumber": 3526,
+  "primaryType": "dragon",
+  "abilities": [
+    "keeneye",
+    "h:contrary"
+  ],
+  "baseStats": {
+    "hp": 89,
+    "attack": 102,
+    "defence": 91,
+    "special_attack": 89,
+    "special_defence": 78,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "1:stompingtantrum",
+    "5:meanlook",
+    "8:rage",
+    "10:fairywind",
+    "16:scaryface",
+    "19:luckychant",
+    "22:dragonrage",
+    "29:dragonbreath",
+    "33:pursuit",
+    "50:dragonclaw",
+    "60:outrage",
+    "tm:throatchop",
+    "tm:trick",
+    "tm:ominouswind",
+    "tm:nastyplot"  ],
+  "labels": [
+    "okeno",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.caballgon.desc"
+  ],
+  "preEvolution": "maligon",
+  "baseScale": 0.5750000000000001,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 23,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

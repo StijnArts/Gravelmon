@@ -15,7 +15,7 @@ public class Fabulusk extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         97),
                 List.of(Ability.TORRENT), Ability.SERENE_GRACE,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,2,1,0), 45,
                 0.25,
                 241, ExperienceGroup.MEDIUM_SLOW,
@@ -110,14 +110,16 @@ public class Fabulusk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_SPORT,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Fabulusk");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

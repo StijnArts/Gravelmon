@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "jawile",
-  "nationalPokedexNumber": 3128,
+  "nationalPokedexNumber": 3737,
   "primaryType": "steel",
   "secondaryType": "fairy",
   "abilities": [
@@ -76,6 +76,7 @@
     "tm:irondefense",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:batonpass",
     "tm:sludgebomb",
     "tm:mudbomb",
@@ -84,7 +85,8 @@
     "tm:nightslash",
     "tm:strength",
     "tm:rocksmash",
-    "tutor:cosmicpower",
+    "tutor:shadowclamp",
+    "tutor:cosmicpowercosmic",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
@@ -109,6 +111,7 @@
     "egg:return",
     "egg:sandstorm",
     "egg:seismictoss",
+    "egg:shadowclamp",
     "egg:singsound",
     "egg:slam",
     "egg:stoneedge",
@@ -127,7 +130,7 @@
     "cobblemon.species.jawile.desc"
   ],
   "preEvolution": "mawile",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

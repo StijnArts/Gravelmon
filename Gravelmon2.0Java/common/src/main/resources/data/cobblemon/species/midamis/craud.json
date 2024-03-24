@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "craud",
-  "nationalPokedexNumber": 2942,
+  "nationalPokedexNumber": 3462,
   "primaryType": "bug",
   "secondaryType": "rock",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.craud.desc"
   ],
   "preEvolution": "crauwly",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

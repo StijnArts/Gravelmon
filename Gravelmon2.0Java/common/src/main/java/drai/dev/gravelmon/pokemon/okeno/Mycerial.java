@@ -14,14 +14,15 @@ public class Mycerial extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         20),
                 List.of(Ability.POISON_TOUCH,Ability.LIQUID_OOZE,Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                8, 165,
+                4, 165,
                 new Stats(0,0,1,0,0,0), 120,
                 0.5,
                 66, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It scatters white spores that have a sweet aroma to attract prey. Although tempting, people should not inhale them, as they coat the throat and cause bad coughing."),
-                List.of(),
+                List.of(new EvolutionEntry("unfortunist", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.HAZE,5),
@@ -54,9 +55,10 @@ public class Mycerial extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NASTY_PLOT,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 29, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_MUSHROOM)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -17,14 +17,15 @@ public class Velverette extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         35),
                 List.of(Ability.ANALYTIC,Ability.FRISK,Ability.JUSTIFIED), Ability.JUSTIFIED,
-                8, 165,
-                new Stats(0,0,0,1,0,0), 0,
+                3, 165,
+                new Stats(0,0,0,1,0,0), 190,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Velverette become easily envious of other Pokemon, no matter how petty and insignificant their desire may be."),
-                List.of(),
+                List.of(new EvolutionEntry("spinister", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,4),
@@ -41,9 +42,9 @@ public class Velverette extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_BALL,46)                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

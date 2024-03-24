@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shankrosite",
-  "nationalPokedexNumber": 1555,
+  "nationalPokedexNumber": 1565,
   "primaryType": "rock",
   "abilities": [
     "rockhead",
@@ -102,7 +102,7 @@
   "pokedex": [
     "cobblemon.species.shankrosite.desc"
   ],
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

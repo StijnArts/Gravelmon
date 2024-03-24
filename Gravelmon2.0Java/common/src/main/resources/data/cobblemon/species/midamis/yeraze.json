@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yeraze",
-  "nationalPokedexNumber": 2926,
+  "nationalPokedexNumber": 3446,
   "primaryType": "ice",
   "secondaryType": "fire",
   "abilities": [
@@ -77,7 +77,7 @@
     "cobblemon.species.yeraze.desc"
   ],
   "preEvolution": "irise",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

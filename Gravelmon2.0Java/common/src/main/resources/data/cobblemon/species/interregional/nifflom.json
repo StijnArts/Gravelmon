@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nifflom",
-  "nationalPokedexNumber": 1405,
+  "nationalPokedexNumber": 1415,
   "primaryType": "questionmark",
   "abilities": [
     "magicbounce",
@@ -65,7 +65,7 @@
   "pokedex": [
     "cobblemon.species.nifflom.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

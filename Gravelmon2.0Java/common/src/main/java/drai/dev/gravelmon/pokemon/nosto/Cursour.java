@@ -15,14 +15,15 @@ public class Cursour extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         40),
                 List.of(Ability.PLUS,Ability.MINUS,Ability.BATTERY), Ability.BATTERY,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 68, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("- Juice SpraySTAB Grass"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("frankensour", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.JUICESPRAY,1),
                         new MoveLearnSetEntry(Move.SIGNAL_BEAM,"tm"),
@@ -84,11 +85,11 @@ public class Cursour extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 2, 26, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Cursour");

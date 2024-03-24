@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "frozaiden",
-  "nationalPokedexNumber": 3010,
+  "nationalPokedexNumber": 3619,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -61,6 +61,7 @@
     "30:safeguard",
     "35:icebeam",
     "41:amnesia",
+    "45:frostbite",
     "50:blizzard",
     "56:sheercold",
     "tm:headbutt",
@@ -74,10 +75,11 @@
     "tm:confuseray",
     "tm:willowisp",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:rest",
     "tutor:toxic",
     "tutor:nastyplot",
+    "tutor:bugnoise",
     "tutor:iciclecrash",
     "egg:attract",
     "egg:aurorabeam",
@@ -124,7 +126,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

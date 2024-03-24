@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "duneon",
-  "nationalPokedexNumber": 2834,
+  "nationalPokedexNumber": 3354,
   "primaryType": "ground",
   "abilities": [
     "airlock",
@@ -100,7 +100,7 @@
   "pokedex": [
     "cobblemon.species.duneon.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

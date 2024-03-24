@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "malleamole",
-  "nationalPokedexNumber": 2578,
+  "nationalPokedexNumber": 2984,
   "primaryType": "steel",
   "abilities": [
     "toughclaws",
@@ -108,7 +108,7 @@
   "pokedex": [
     "cobblemon.species.malleamole.desc"
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

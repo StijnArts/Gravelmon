@@ -17,14 +17,15 @@ public class Spectipilla extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         34),
                 List.of(Ability.SWARM), Ability.SWARM,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 45, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Spectipilla are very curious and intelligent Pokemon with an insatiable appetite to learn new things, they are even able to learn to read several human languages. Spectipilla have very poor eyesight, but they are able to use their concave lens-like antenna to see the world around them."),
-                List.of(),
+                List.of(new EvolutionEntry("chrystalis", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,4),
@@ -41,11 +42,11 @@ public class Spectipilla extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYBEAM,"tm")                        ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_BOOKSHELVES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Spectipilla");

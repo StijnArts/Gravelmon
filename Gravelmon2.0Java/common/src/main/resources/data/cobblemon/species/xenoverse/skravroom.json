@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skravroom",
-  "nationalPokedexNumber": 1757,
+  "nationalPokedexNumber": 1767,
   "primaryType": "steel",
   "secondaryType": "sound",
   "abilities": [
@@ -54,11 +54,12 @@
       {
         "item": "gravelmon:spare_parts",
         "quantityRange": "1-1",
-        "percentage": 50
+        "percentage": 40
       }
     ]
   },
   "moves": [
+    "1:revup",
     "1:shiftgear",
     "1:screechsound",
     "1:rollout",
@@ -66,6 +67,7 @@
     "8:bugbite",
     "12:pursuit",
     "16:batonpass",
+    "20:revup",
     "24:steamroller",
     "29:autotomize",
     "34:uturn",
@@ -81,6 +83,7 @@
     "tm:taunt",
     "tm:hyperbeam",
     "tm:protect",
+    "tm:subwoofer",
     "tm:earthquake",
     "tm:return",
     "tm:doubleteam",
@@ -117,6 +120,7 @@
     "tutor:signalbeam",
     "tutor:sleeptalksound",
     "tutor:snoresound",
+    "tutor:soundbarrier",
     "tutor:strugglebug",
     "tutor:uproar"  ],
   "labels": [
@@ -129,7 +133,7 @@
     "cobblemon.species.skravroom.desc"
   ],
   "preEvolution": "vroombug",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gurangle",
-  "nationalPokedexNumber": 2922,
+  "nationalPokedexNumber": 3442,
   "primaryType": "electric",
   "secondaryType": "psychic",
   "abilities": [
@@ -70,7 +70,7 @@
     "cobblemon.species.gurangle.desc"
   ],
   "preEvolution": "pangel",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

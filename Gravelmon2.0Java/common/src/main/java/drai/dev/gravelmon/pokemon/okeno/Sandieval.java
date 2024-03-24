@@ -14,8 +14,8 @@ public class Sandieval extends drai.dev.gravelmon.pokemon.Pokemon {
                         88,
                         30),
                 List.of(Ability.FILTER,Ability.SAND_VEIL,Ability.WATER_ABSORB), Ability.WATER_ABSORB,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                50, 165,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.FLUCTUATING,
                 70,
@@ -24,6 +24,18 @@ public class Sandieval extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
+                        new MoveLearnSetEntry(Move.BUBBLE,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,2),
+                        new MoveLearnSetEntry(Move.YAWN,5),
+                        new MoveLearnSetEntry(Move.BUBBLE_BEAM,8),
+                        new MoveLearnSetEntry(Move.WATER_SPORT,11),
+                        new MoveLearnSetEntry(Move.AQUA_RING,17),
+                        new MoveLearnSetEntry(Move.SAND_TOMB,22),
+                        new MoveLearnSetEntry(Move.BRINE,27),
+                        new MoveLearnSetEntry(Move.BLOCK,32),
+                        new MoveLearnSetEntry(Move.BEACHTIDE,37),
+                        new MoveLearnSetEntry(Move.SANDSHOT,43),
+                        new MoveLearnSetEntry(Move.FISSURE,50),
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"tm"),
                         new MoveLearnSetEntry(Move.REEFBARRIER,"tm"),
                         new MoveLearnSetEntry(Move.MAGNITUDE,"tm"),
@@ -33,8 +45,8 @@ public class Sandieval extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAKE_DOWN,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 80, 85, .03, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

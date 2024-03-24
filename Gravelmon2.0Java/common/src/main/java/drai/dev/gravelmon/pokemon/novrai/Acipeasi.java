@@ -15,14 +15,15 @@ public class Acipeasi extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         50),
                 List.of(Ability.BATTERY,Ability.BERSERK,Ability.MAGNET_PULL), Ability.MAGNET_PULL,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,1,0,0), 200,
                 0.5,
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It defends itself by blowing raspberries, showering its opponents in acidic, electrified juice. This juice is used as a garnish in many dishes, but it must be diluted due to how sour it is."),
-                List.of(),
+                List.of(new EvolutionEntry("zestatic", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.JUICESPRAY,5),
@@ -101,11 +102,11 @@ public class Acipeasi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LEAF_STORM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SUMMER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Acipeasi");

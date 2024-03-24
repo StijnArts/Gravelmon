@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "haleet",
-  "nationalPokedexNumber": 2910,
+  "nationalPokedexNumber": 3430,
   "primaryType": "fairy",
   "secondaryType": "ice",
   "abilities": [
@@ -67,7 +67,7 @@
   "pokedex": [
     "cobblemon.species.haleet.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

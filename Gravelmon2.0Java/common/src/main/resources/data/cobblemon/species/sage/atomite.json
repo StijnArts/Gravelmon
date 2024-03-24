@@ -6,6 +6,7 @@
   "secondaryType": "electric",
   "abilities": [
     "lightningrod",
+    "eccentric",
     "h:adaptability"
   ],
   "baseStats": {
@@ -47,16 +48,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:spider_eye",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:charge",

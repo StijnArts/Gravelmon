@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "esterite",
-  "nationalPokedexNumber": 3388,
+  "nationalPokedexNumber": 4293,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -57,7 +57,7 @@
     "21:luckychant",
     "27:reflect",
     "32:signalbeam",
-    "36:cosmicpower",
+    "36:cosmicpowercosmic",
     "41:flashcannon",
     "45:powergemcrystal",
     "49:wish",
@@ -128,7 +128,7 @@
     "cobblemon.species.esterite.desc"
   ],
   "preEvolution": "compella",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

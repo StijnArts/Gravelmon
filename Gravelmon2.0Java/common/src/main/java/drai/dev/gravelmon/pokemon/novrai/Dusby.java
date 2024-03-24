@@ -15,14 +15,16 @@ public class Dusby extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         52),
                 List.of(Ability.EARLY_BIRD), Ability.BAD_DREAMS,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 51, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.MONSTER),
                 List.of("Colonies of them can be found living underneath beds in unswept rooms. It is skittish and flees as soon as it is seen, leaving only a trail of dust behind it."),
-                List.of(),
+                List.of(new EvolutionEntry("chloradise", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.ASTONISH,4),
@@ -119,11 +121,11 @@ public class Dusby extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 19, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dusby");

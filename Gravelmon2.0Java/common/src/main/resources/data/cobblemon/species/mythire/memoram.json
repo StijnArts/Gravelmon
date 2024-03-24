@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "memoram",
-  "nationalPokedexNumber": 2685,
+  "nationalPokedexNumber": 3091,
   "primaryType": "psychic",
   "abilities": [
     "telepathy",
@@ -49,6 +49,15 @@
     "fairy"
   ],
   "moves": [
+    "1:amnesia",
+    "1:uproar",
+    "1:takedown",
+    "1:bodyslam",
+    "1:healingwish",
+    "1:zenheadbutt",
+    "1:miracleeye",
+    "1:dreameater",
+    "1:rest",
     "tm:allyswitch",
     "tm:attract",
     "tm:bide",
@@ -106,7 +115,7 @@
   "pokedex": [
     "cobblemon.species.memoram.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -121,7 +130,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 8,
+  "height": 17,
   "weight": 165,
   "aspects": [],
 "features": [

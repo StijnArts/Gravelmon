@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kinettee",
-  "nationalPokedexNumber": 2916,
+  "nationalPokedexNumber": 3436,
   "primaryType": "fighting",
   "secondaryType": "dark",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.kinettee.desc"
   ],
   "preEvolution": "kinett",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

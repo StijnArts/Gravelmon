@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lukewran",
-  "nationalPokedexNumber": 3170,
+  "nationalPokedexNumber": 3779,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -70,14 +70,17 @@
     "tm:irondefense",
     "tm:confuseray",
     "tm:mudbomb",
+    "tm:ragingflame",
     "tm:heatwave",
     "tm:willowisp",
     "tm:explosion",
     "tm:rocksmash",
+    "tutor:shadowclamp",
     "tutor:hiddenpower",
     "tutor:rest",
     "tutor:toxic",
-    "tutor:dig"  ],
+    "tutor:dig",
+    "tutor:bugnoise"  ],
   "labels": [
     "vega",
     "legendary",
@@ -99,7 +102,7 @@
       "requiredContext": "cobblemon:fire_stone"   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

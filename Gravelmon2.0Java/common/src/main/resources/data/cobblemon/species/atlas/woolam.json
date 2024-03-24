@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "woolam",
-  "nationalPokedexNumber": 3417,
+  "nationalPokedexNumber": 4322,
   "primaryType": "normal",
   "abilities": [
     "furcoat",
@@ -118,7 +118,7 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

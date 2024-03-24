@@ -15,7 +15,7 @@ public class Heftersack extends drai.dev.gravelmon.pokemon.Pokemon {
                         78,
                         49),
                 List.of(Ability.GLUTTONY,Ability.STALWART,Ability.VITAL_SPIRIT), Ability.VITAL_SPIRIT,
-                8, 165,
+                19, 165,
                 new Stats(0,2,1,0,0,0), 45,
                 0.75,
                 232, ExperienceGroup.MEDIUM_SLOW,
@@ -118,8 +118,8 @@ public class Heftersack extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHIP_AWAY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 39, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

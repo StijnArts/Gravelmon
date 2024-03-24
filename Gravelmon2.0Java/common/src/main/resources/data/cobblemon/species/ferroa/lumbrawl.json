@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lumbrawl",
-  "nationalPokedexNumber": 1539,
+  "nationalPokedexNumber": 1549,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -137,7 +137,7 @@
   "pokedex": [
     "cobblemon.species.lumbrawl.desc"
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

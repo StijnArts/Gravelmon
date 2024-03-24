@@ -15,7 +15,7 @@ public class Magemeltre extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         110),
                 List.of(Ability.ARCANEOVERLOAD), Ability.NEUROFORCE,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,3,0,0), 3,
                 0.0,
                 285, ExperienceGroup.SLOW,
@@ -111,8 +111,8 @@ public class Magemeltre extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAT_WAVE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Motocyclops extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         145),
                 List.of(Ability.SPEED_BOOST), Ability.LIMBER,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -24,7 +24,20 @@ public class Motocyclops extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Motocyclops live for speed. At night, when people are all asleep, packs of this Pokemon race each other on the streets. Its spiked wheels maintain perfect traction even on rough or icy terrain."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.AGILITY,1),
+                        new MoveLearnSetEntry(Move.GRUDGE,1),
+                        new MoveLearnSetEntry(Move.SKULL_BASH,1),
+                        new MoveLearnSetEntry(Move.MALICE_STRIKE,1),
+                        new MoveLearnSetEntry(Move.ASTONISH,1),
+                        new MoveLearnSetEntry(Move.BOLT_IN,1),
+                        new MoveLearnSetEntry(Move.IRON_HEAD,1),
+                        new MoveLearnSetEntry(Move.UTURN,1),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,1),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
+                        new MoveLearnSetEntry(Move.DOUBLE_TEAM,1),
+                        new MoveLearnSetEntry(Move.SHIFT_GEAR,1),
                         new MoveLearnSetEntry(Move.STEEL_ROLLER,1),
+
                         new MoveLearnSetEntry(Move.RETURN,"tm"),
                         new MoveLearnSetEntry(Move.HEARTFELTPULSE,"tm"),
                         new MoveLearnSetEntry(Move.FRUSTRATION,"tm"),
@@ -68,11 +81,11 @@ public class Motocyclops extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ENERGYLOOP,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 45, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Motocyclops");

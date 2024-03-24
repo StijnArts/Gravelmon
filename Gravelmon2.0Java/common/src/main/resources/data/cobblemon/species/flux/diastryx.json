@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "diastryx",
-  "nationalPokedexNumber": 2034,
+  "nationalPokedexNumber": 2105,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
@@ -83,7 +83,7 @@
     "cobblemon.species.diastryx.desc"
   ],
   "preEvolution": "geogriff",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

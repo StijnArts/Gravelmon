@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mammolaya",
-  "nationalPokedexNumber": 3532,
+  "nationalPokedexNumber": 4437,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -109,7 +109,7 @@
     "cobblemon.species.mammolaya.desc"
   ],
   "preEvolution": "mampth",
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

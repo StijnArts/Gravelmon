@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tracton",
-  "nationalPokedexNumber": 1893,
+  "nationalPokedexNumber": 1964,
   "primaryType": "dragon",
   "secondaryType": "steel",
   "abilities": [
@@ -132,7 +132,7 @@
   "pokedex": [
     "cobblemon.species.tracton.desc"
   ],
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

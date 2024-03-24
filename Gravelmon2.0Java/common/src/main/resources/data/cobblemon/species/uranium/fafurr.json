@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fafurr",
-  "nationalPokedexNumber": 1923,
+  "nationalPokedexNumber": 1994,
   "primaryType": "ice",
   "secondaryType": "dragon",
   "abilities": [
@@ -144,7 +144,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

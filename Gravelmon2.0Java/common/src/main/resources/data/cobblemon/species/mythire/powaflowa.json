@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "powaflowa",
-  "nationalPokedexNumber": 2646,
+  "nationalPokedexNumber": 3052,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -49,6 +49,18 @@
     "grass"
   ],
   "moves": [
+    "1:paraboliccharge",
+    "1:iondeluge",
+    "1:thunderwave",
+    "1:charge",
+    "1:growth",
+    "1:petalblizzard",
+    "1:synthesis",
+    "1:ingrain",
+    "1:razorleaf",
+    "1:solarbeam",
+    "1:sunnyday",
+    "1:thunder",
     "1:thundershock",
     "tm:return",
     "tm:frustration",
@@ -77,12 +89,15 @@
     "tm:thunderwave"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.powaflowa.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "radroot",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -97,7 +112,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -15,7 +15,7 @@ public class Echolocave extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         100),
                 List.of(Ability.FRISK,Ability.KLUTZ,Ability.NO_GUARD), Ability.NO_GUARD,
-                8, 165,
+                17, 165,
                 new Stats(0,1,0,1,0,1), 45,
                 0.5,
                 234, ExperienceGroup.MEDIUM_FAST,
@@ -148,14 +148,14 @@ public class Echolocave extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METAL_SOUND,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 56, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Echolocave");
+        setCanFly(true);
 
     }
 

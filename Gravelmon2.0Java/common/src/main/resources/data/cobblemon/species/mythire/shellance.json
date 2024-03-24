@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shellance",
-  "nationalPokedexNumber": 2643,
+  "nationalPokedexNumber": 3049,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -30,12 +30,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -50,15 +50,41 @@
     "water_2"
   ],
   "moves": [
+    "1:leer",
+    "9:foresight",
+    "24:forcepalm",
+    "30:taunt",
+    "33:revenge",
+    "39:waterfall",
+    "43:refresh",
+    "47:wringout",
+    "51:batonpass",
+    "57:closecombat",
     "tm:scaleshot"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.shellance.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "mermor",
+  "evolutions": [
+    {
+      "id": "shellance_aquarrior",
+      "variant": "item_interact",
+      "result": "aquarrior",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone"   
+ }
+  ],
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -73,7 +99,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

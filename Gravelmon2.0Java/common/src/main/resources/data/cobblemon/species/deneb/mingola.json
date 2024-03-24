@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mingola",
-  "nationalPokedexNumber": 3089,
+  "nationalPokedexNumber": 3698,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -55,6 +55,7 @@
     "7:watergun",
     "11:watersport",
     "17:aquajet",
+    "21:glide",
     "28:whirlwind",
     "33:waterpulse",
     "40:agility",
@@ -84,6 +85,7 @@
     "egg:calmmind",
     "egg:doubleteam",
     "egg:endure",
+    "egg:frostbite",
     "egg:furyattack",
     "egg:magiccoat",
     "egg:mist",
@@ -109,7 +111,7 @@
     "cobblemon.species.mingola.desc"
   ],
   "preEvolution": "rivird",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "krustinger",
-  "nationalPokedexNumber": 1629,
+  "nationalPokedexNumber": 1639,
   "primaryType": "electric",
   "secondaryType": "fighting",
   "abilities": [
@@ -73,7 +73,7 @@
     "cobblemon.species.krustinger.desc"
   ],
   "preEvolution": "elekrab",
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

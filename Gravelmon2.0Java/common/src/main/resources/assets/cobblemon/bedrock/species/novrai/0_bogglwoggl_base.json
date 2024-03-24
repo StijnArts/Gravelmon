@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:bogglwoggl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:novrai_bogglwoggl",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/bogglwoggl.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/bogglwoggl_shiny.png"
+    }  ]
+}

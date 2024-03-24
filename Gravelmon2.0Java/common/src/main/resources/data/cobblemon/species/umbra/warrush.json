@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "warrush",
-  "nationalPokedexNumber": 2564,
+  "nationalPokedexNumber": 2970,
   "primaryType": "ground",
   "abilities": [
     "limber",
@@ -115,7 +115,7 @@
     "cobblemon.species.warrush.desc"
   ],
   "preEvolution": "accerval",
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

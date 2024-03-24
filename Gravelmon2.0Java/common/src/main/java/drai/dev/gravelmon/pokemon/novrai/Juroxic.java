@@ -15,7 +15,7 @@ public class Juroxic extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         107),
                 List.of(Ability.FEROCIOUS,Ability.STENCH,Ability.QUICK_FEET), Ability.QUICK_FEET,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,3,0,0), 30,
                 0.5,
                 270, ExperienceGroup.SLOW,
@@ -128,8 +128,9 @@ public class Juroxic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASTONISH,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 52, 70, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

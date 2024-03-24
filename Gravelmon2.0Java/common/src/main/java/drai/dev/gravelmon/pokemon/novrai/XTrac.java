@@ -15,14 +15,15 @@ public class XTrac extends drai.dev.gravelmon.pokemon.Pokemon {
                         41,
                         31),
                 List.of(Ability.HEATPROOF,Ability.ANALYTIC,Ability.POWER_OF_ALCHEMY), Ability.POWER_OF_ALCHEMY,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,1,0,0), 180,
                 0.0,
                 55, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("The result of a chemistry experiment gone awry. It mixes the goop in its body with other chemicals, not minding if it catches fire or explodes."),
-                List.of(),
+                List.of(new EvolutionEntry("xparament", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOG,1),
                         new MoveLearnSetEntry(Move.PSYWAVE,7),
@@ -105,9 +106,8 @@ public class XTrac extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRAVITY,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 35, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

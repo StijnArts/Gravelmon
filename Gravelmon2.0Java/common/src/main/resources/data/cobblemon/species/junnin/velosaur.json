@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "velosaur",
-  "nationalPokedexNumber": 2256,
+  "nationalPokedexNumber": 2327,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -93,7 +93,7 @@
     "cobblemon.species.velosaur.desc"
   ],
   "preEvolution": "rapteror",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,14 +15,15 @@ public class Snowitall extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         45),
                 List.of(Ability.NEUROFORCE,Ability.REFRIGERATE,Ability.FOREWARN), Ability.FOREWARN,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,1,0,0), 170,
                 0.5,
                 63, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Its body is squishy and delicate, so it uses a layer of ice to protect itself. It loves problem-solving and is naturally attracted to intelligent Trainers."),
-                List.of(),
+                List.of(new EvolutionEntry("subzerebrum", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),
                         new MoveLearnSetEntry(Move.TELEKINESIS,6),
@@ -100,8 +101,8 @@ public class Snowitall extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MAGIC_ROOM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 27, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

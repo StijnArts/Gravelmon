@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "almaria",
-  "nationalPokedexNumber": 3074,
+  "nationalPokedexNumber": 3683,
   "primaryType": "ghost",
   "abilities": [
     "levitate",
@@ -53,6 +53,7 @@
     "15:charm",
     "20:nightshade",
     "30:bide",
+    "35:hypnopulse",
     "40:safeguard",
     "50:heartstamp",
     "55:wish",
@@ -81,6 +82,7 @@
     "tm:shadowball",
     "tm:brickbreak",
     "tm:triattack",
+    "tm:devastate",
     "tm:batonpass",
     "tm:confuseray",
     "tm:focusblast",
@@ -91,12 +93,13 @@
     "tm:cut",
     "tm:rocksmash",
     "tutor:hiddenpower",
-    "tutor:cosmicpower",
+    "tutor:cosmicpowercosmic",
     "tutor:hydropump",
     "tutor:rest",
     "tutor:toxic",
     "tutor:iciclecrash",
-    "tutor:nastyplot"  ],
+    "tutor:nastyplot",
+    "tutor:bugnoise"  ],
   "labels": [
     "vega",
     "mythical",
@@ -108,7 +111,7 @@
     "cobblemon.species.almaria.desc"
   ],
   "preEvolution": "aldina",
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

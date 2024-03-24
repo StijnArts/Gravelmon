@@ -20,7 +20,7 @@ public class Yummyan extends drai.dev.gravelmon.pokemon.Pokemon {
                 170, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.FIELD),
-                List.of("- Play Nice Normal - Happy SlapSTAB Fairy 4 Baby-Doll Eyes Fairy 7 Double SlapSTAB Normal 10 Sweet Scent Normal 14 Encore Normal 18 CuddleSTAB Fairy 21 Sweet Kiss Fairy 25 Draining KissSTAB Fairy 30 Metronome Normal 34 Sugar Rush Normal 39 Double-EdgeSTAB Normal 44 Decorate Fairy 48 Wake-Up Slap Fighting 53 Sweet DecaySTAB Fairy 60 Heartfelt PulseSTAB Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HAPPYSLAP,1),
@@ -48,9 +48,9 @@ public class Yummyan extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 51, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "geigeroach",
-  "nationalPokedexNumber": 1940,
+  "nationalPokedexNumber": 2011,
   "primaryType": "bug",
   "secondaryType": "nuclear",
   "abilities": [
@@ -140,7 +140,7 @@
   "pokedex": [
     "cobblemon.species.geigeroach.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

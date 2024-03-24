@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rotpot",
-  "nationalPokedexNumber": 1532,
+  "nationalPokedexNumber": 1542,
   "primaryType": "grass",
   "secondaryType": "poison",
   "abilities": [
@@ -137,7 +137,7 @@
   "pokedex": [
     "cobblemon.species.rotpot.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

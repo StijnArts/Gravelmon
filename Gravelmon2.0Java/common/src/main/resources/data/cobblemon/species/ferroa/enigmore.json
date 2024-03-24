@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "enigmore",
-  "nationalPokedexNumber": 1581,
+  "nationalPokedexNumber": 1591,
   "primaryType": "psychic",
   "secondaryType": "rock",
   "abilities": [
@@ -99,7 +99,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

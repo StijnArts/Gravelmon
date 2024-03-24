@@ -17,14 +17,15 @@ public class Sharfin extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         60),
                 List.of(Ability.INTIMIDATE,Ability.SNIPER,Ability.SWIFT_SWIM), Ability.SWIFT_SWIM,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 220,
                 0.75,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Sharfin are known to sink small boats by slicing holes in them with its extremely sharp fin."),
-                List.of(),
+                List.of(new EvolutionEntry("thrashark", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.METAL_CLAW,5),
@@ -48,14 +49,16 @@ public class Sharfin extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sharfin");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

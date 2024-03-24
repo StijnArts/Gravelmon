@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scovilex",
-  "nationalPokedexNumber": 1741,
+  "nationalPokedexNumber": 1751,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -52,9 +52,9 @@
     "amount": "1",
     "entries": [
       {
-        "item": "gravelmon:xenolith",
+        "item": "gravelmon:inductive_ring",
         "quantityRange": "1-1",
-        "percentage": 20
+        "percentage": 40
       }
     ]
   },
@@ -77,6 +77,7 @@
     "1:flamewheel",
     "1:incinerate",
     "1:growth",
+    "40:hotchilipepper",
     "46:ragepowder",
     "52:energyball",
     "58:thunderbolt",
@@ -117,7 +118,7 @@
     "cobblemon.species.scovilex.desc"
   ],
   "preEvolution": "scovile",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

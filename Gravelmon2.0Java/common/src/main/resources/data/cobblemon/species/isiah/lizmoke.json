@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lizmoke",
-  "nationalPokedexNumber": 2790,
+  "nationalPokedexNumber": 3310,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -116,7 +116,7 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

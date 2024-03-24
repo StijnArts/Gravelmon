@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bonemancer",
-  "nationalPokedexNumber": 2171,
+  "nationalPokedexNumber": 2242,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
@@ -72,7 +72,7 @@
     "cobblemon.species.bonemancer.desc"
   ],
   "preEvolution": "orcleton",
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

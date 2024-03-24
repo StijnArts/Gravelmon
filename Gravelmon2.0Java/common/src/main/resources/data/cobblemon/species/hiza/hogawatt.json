@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hogawatt",
-  "nationalPokedexNumber": 2057,
+  "nationalPokedexNumber": 2128,
   "primaryType": "electric",
   "secondaryType": "ground",
   "abilities": [
@@ -71,7 +71,7 @@
     "cobblemon.species.hogawatt.desc"
   ],
   "preEvolution": "socklett",
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

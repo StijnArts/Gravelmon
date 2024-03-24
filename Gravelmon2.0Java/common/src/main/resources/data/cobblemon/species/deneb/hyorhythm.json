@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hyorhythm",
-  "nationalPokedexNumber": 3176,
+  "nationalPokedexNumber": 3785,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -61,9 +61,11 @@
     "42:razorwind",
     "46:featherdance",
     "51:hurricane",
+    "tutor:glide",
     "tutor:leer",
     "tutor:twister",
     "tutor:psywave",
+    "tutor:hypnopulse",
     "tutor:extrasensory",
     "tutor:confide",
     "tutor:uproar",
@@ -106,7 +108,7 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

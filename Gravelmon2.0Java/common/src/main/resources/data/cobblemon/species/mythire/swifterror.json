@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "swifterror",
-  "nationalPokedexNumber": 2608,
+  "nationalPokedexNumber": 3014,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -133,12 +133,15 @@
     "tm:chipaway"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.swifterror.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "aeracer",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -153,7 +156,7 @@
     "special_defence": 0,
     "speed": 3
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

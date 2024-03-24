@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "noshyu",
-  "nationalPokedexNumber": 3231,
+  "nationalPokedexNumber": 3840,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
@@ -52,7 +52,9 @@
     "1:tackle",
     "1:howlsound",
     "1:powdersnow",
+    "1:darkroarsound",
     "7:powdersnow",
+    "11:darkroarsound",
     "14:charm",
     "20:bite",
     "24:hail",
@@ -61,9 +63,11 @@
     "34:frostbreath",
     "39:roarsound",
     "43:crunch",
+    "53:frostbite",
     "61:haze",
     "68:blizzard",
     "tm:waterpulse",
+    "tm:frostbite",
     "tm:frustration",
     "tm:dig",
     "tm:aerialace",
@@ -110,7 +114,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

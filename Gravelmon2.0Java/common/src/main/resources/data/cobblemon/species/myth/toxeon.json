@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "toxeon",
-  "nationalPokedexNumber": 2831,
+  "nationalPokedexNumber": 3351,
   "primaryType": "poison",
   "abilities": [
     "poisontouch",
@@ -96,7 +96,7 @@
   "pokedex": [
     "cobblemon.species.toxeon.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

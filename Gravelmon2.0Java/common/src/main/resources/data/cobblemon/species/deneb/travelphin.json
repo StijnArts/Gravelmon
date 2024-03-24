@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "travelphin",
-  "nationalPokedexNumber": 3227,
+  "nationalPokedexNumber": 3836,
   "primaryType": "rock",
   "secondaryType": "water",
   "abilities": [
@@ -117,7 +117,7 @@
     "cobblemon.species.travelphin.desc"
   ],
   "preEvolution": "foreiphin",
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

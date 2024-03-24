@@ -21,14 +21,15 @@ public class Territore extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         73),
                 List.of(Ability.BIG_PECKS,Ability.INTIMIDATE,Ability.RIVALRY), Ability.RIVALRY,
-                8, 165,
+                6, 165,
                 new Stats(0,2,0,0,0,0), 120,
                 0.5,
                 117, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("These Pokemon are aggressive and territorial with Arctalon. Despite the fact that Arctalon's Ice-type moves put them at a disadvantage, they are incredibly skilled and shrewd in combat."),
-                List.of(),
+                List.of(new EvolutionEntry("warshrike", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,5),
@@ -50,14 +51,14 @@ public class Territore extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FEATHERRUSH,"tm")                        ),
                 List.of(Label.OROHNHAVAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 31, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WINTER, Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Territore");
+        setCanFly(true);
 
     }
 

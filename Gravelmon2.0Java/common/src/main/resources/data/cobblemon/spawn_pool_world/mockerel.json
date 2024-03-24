@@ -7,16 +7,15 @@
       "id": "mockerel-1",
       "pokemon": "mockerel",
       "presets": [
-          "natural"
+          "urban"
       ],
       "type": "pokemon",
-      "context": "grounded",
-      "bucket": "common",
-      "level": "3-22",
-      "weight": 3.8,
+      "context": "surface",
+      "bucket": "rare",
+      "level": "6-32",
+      "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_sky",
-"#cobblemon:is_mountain" ],
+"biomes": [ "#cobblemon:is_overworld" ],
         "canSeeSky": true
       }
     }

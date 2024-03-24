@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dundragon",
-  "nationalPokedexNumber": 2719,
+  "nationalPokedexNumber": 3239,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -162,7 +162,7 @@
     "cobblemon.species.dundragon.desc"
   ],
   "preEvolution": "dunmyth",
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

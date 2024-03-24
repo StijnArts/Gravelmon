@@ -17,25 +17,38 @@ public class Albacross extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         95),
                 List.of(Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                19, 165,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.BUBBLE,1),
+                        new MoveLearnSetEntry(Move.PECK,6),
+                        new MoveLearnSetEntry(Move.WATER_GUN,10),
+                        new MoveLearnSetEntry(Move.FURY_ATTACK,15),
+                        new MoveLearnSetEntry(Move.AQUA_JET,19),
+                        new MoveLearnSetEntry(Move.BITE,24),
+                        new MoveLearnSetEntry(Move.FEATHER_DANCE,28),
+                        new MoveLearnSetEntry(Move.BUBBLE_BEAM,33),
+                        new MoveLearnSetEntry(Move.GLARE,37),
+                        new MoveLearnSetEntry(Move.CRUNCH,42)
+                ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 33, 49, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Albacross");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setCanFly(true);
 
     }
 

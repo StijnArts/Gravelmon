@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spectorment",
-  "nationalPokedexNumber": 2562,
+  "nationalPokedexNumber": 2968,
   "primaryType": "ghost",
   "abilities": [
     "insomnia",
@@ -126,7 +126,7 @@
     "cobblemon.species.spectorment.desc"
   ],
   "preEvolution": "depressoul",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

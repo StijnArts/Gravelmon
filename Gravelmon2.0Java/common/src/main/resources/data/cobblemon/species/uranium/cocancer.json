@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cocancer",
-  "nationalPokedexNumber": 1868,
+  "nationalPokedexNumber": 1939,
   "primaryType": "grass",
   "secondaryType": "ground",
   "abilities": [
@@ -49,6 +49,16 @@
     "water_3",
     "grass"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon_coconut_milk",
+        "quantityRange": "1-1",
+        "percentage": 40
+      }
+    ]
+  },
   "moves": [
     "1:sandstorm",
     "1:sunnyday",
@@ -139,7 +149,7 @@
     "cobblemon.species.cocancer.desc"
   ],
   "preEvolution": "cararalm",
-  "baseScale": 0.69375,
+  "baseScale": 0.9249999999999999,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

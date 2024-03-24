@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cachoe",
-  "nationalPokedexNumber": 3384,
+  "nationalPokedexNumber": 4287,
   "primaryType": "bug",
   "abilities": [
     "shielddust",
@@ -80,7 +80,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

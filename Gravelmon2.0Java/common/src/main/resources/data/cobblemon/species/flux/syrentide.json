@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "syrentide",
-  "nationalPokedexNumber": 1983,
+  "nationalPokedexNumber": 2054,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -84,7 +84,7 @@
     "cobblemon.species.syrentide.desc"
   ],
   "preEvolution": "selkid",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

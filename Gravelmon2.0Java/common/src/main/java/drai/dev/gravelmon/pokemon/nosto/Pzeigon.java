@@ -15,16 +15,38 @@ public class Pzeigon extends drai.dev.gravelmon.pokemon.Pokemon {
                         89,
                         96),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                31, 165,
                 new Stats(0,0,3,0,0,0), 3,
                 0.0,
                 302, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("- Pound Normal - Tackle Normal - Water SpoutSTAB Water - Life Dew Water - Beach TideSTAB Water - Hydro PumpSTAB Water - Vortex DrainSTAB Water - Razor ShellSTAB Water - Tuck In Water - Reef Barrier Rock - Jab Normal - Berserk Fury Dragon - Embargo Dark - Flatter Dark - PaybackSTAB Dark - Jaw LockSTAB Dark - Memento Dark - Nasty Plot Dark - Night DazeSTAB Dark - Power TripSTAB Dark - CrunchSTAB Dark - Shell Smash Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.POUND,1),
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.WATER_SPOUT,1),
+                        new MoveLearnSetEntry(Move.LIFE_DEW,1),
+                        new MoveLearnSetEntry(Move.BEACH_TIDE,1),
+                        new MoveLearnSetEntry(Move.HYDRO_PUMP,1),
+                        new MoveLearnSetEntry(Move.VORTEX_DRAIN,1),
+                        new MoveLearnSetEntry(Move.RAZOR_SHELL,1),
+                        new MoveLearnSetEntry(Move.TUCK_IN,1),
+                        new MoveLearnSetEntry(Move.REEF_BARRIER,1),
+                        new MoveLearnSetEntry(Move.JAB,1),
+                        new MoveLearnSetEntry(Move.BERSERK_FURY,1),
+                        new MoveLearnSetEntry(Move.EMBARGO,1),
+                        new MoveLearnSetEntry(Move.FLATTER,1),
+                        new MoveLearnSetEntry(Move.PAYBACK,1),
+                        new MoveLearnSetEntry(Move.JAW_LOCK,1),
+                        new MoveLearnSetEntry(Move.MEMENTO,1),
+                        new MoveLearnSetEntry(Move.NASTY_PLOT,1),
+                        new MoveLearnSetEntry(Move.NIGHT_DAZE,1),
+                        new MoveLearnSetEntry(Move.POWER_TRIP,1),
+                        new MoveLearnSetEntry(Move.CRUNCH,1),
                         new MoveLearnSetEntry(Move.SHELL_SMASH,1),
+
                         new MoveLearnSetEntry(Move.LASH_OUT,"tm"),
                         new MoveLearnSetEntry(Move.SNORE,"tm"),
                         new MoveLearnSetEntry(Move.FLIP_TURN,"tm"),
@@ -95,14 +117,15 @@ public class Pzeigon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Pzeigon");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

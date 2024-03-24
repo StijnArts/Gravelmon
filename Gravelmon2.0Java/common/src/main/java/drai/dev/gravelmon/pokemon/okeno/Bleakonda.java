@@ -14,8 +14,8 @@ public class Bleakonda extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         58),
                 List.of(Ability.SHED_SKIN,Ability.DRY_SKIN,Ability.MERCILESS), Ability.MERCILESS,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 165,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -28,17 +28,36 @@ public class Bleakonda extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_BREATH,"tm"),
                         new MoveLearnSetEntry(Move.CAUSTIC_BREATH,"tm"),
                         new MoveLearnSetEntry(Move.COIL,"tm"),
-                        new MoveLearnSetEntry(Move.HYPNOSIS,"tm")                        ),
+                        new MoveLearnSetEntry(Move.HYPNOSIS,"tm") ,
+                        new MoveLearnSetEntry(Move.CONSTRICT,1),
+                        new MoveLearnSetEntry(Move.ACID,5),
+                        new MoveLearnSetEntry(Move.BITE,9),
+                        new MoveLearnSetEntry(Move.GLARE,13),
+                        new MoveLearnSetEntry(Move.POISON_TAIL,18),
+                        new MoveLearnSetEntry(Move.SLAM,21),
+                        new MoveLearnSetEntry(Move.SCARY_FACE,25),
+                        new MoveLearnSetEntry(Move.POISON_FANG,30),
+                        new MoveLearnSetEntry(Move.TOXIC,35),
+                        new MoveLearnSetEntry(Move.SUCKER_PUNCH,40),
+                        new MoveLearnSetEntry(Move.CORROSIVEBITE,45),
+                        new MoveLearnSetEntry(Move.VENOM_DRENCH,49),
+                        new MoveLearnSetEntry(Move.WRING_OUT,53),
+                        new MoveLearnSetEntry(Move.LICK,"tm"),
+                        new MoveLearnSetEntry(Move.DRAGON_BREATH,"tm"),
+                        new MoveLearnSetEntry(Move.CAUSTIC_BREATH,"tm"),
+                        new MoveLearnSetEntry(Move.COIL,"tm"),
+                        new MoveLearnSetEntry(Move.HYPNOSIS,"tm")),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 36, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Bleakonda");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

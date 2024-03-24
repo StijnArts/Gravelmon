@@ -24,13 +24,25 @@ public class Tasticky extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of(""),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("lickitung", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180")))),
+                List.of(new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
+                        new MoveLearnSetEntry(Move.LICK,1),
+                        new MoveLearnSetEntry(Move.ROLLOUT,6),
+                        new MoveLearnSetEntry(Move.SUPERSONIC,12),
+                        new MoveLearnSetEntry(Move.WRAP,18),
+                        new MoveLearnSetEntry(Move.DISABLE,24),
+                        new MoveLearnSetEntry(Move.STOMP,30),
+                        new MoveLearnSetEntry(Move.KNOCK_OFF,36),
+                        new MoveLearnSetEntry(Move.SCREECH,42),
+                        new MoveLearnSetEntry(Move.SLAM,48),
+                        new MoveLearnSetEntry(Move.POWER_WHIP,54),
+                        new MoveLearnSetEntry(Move.BELLY_DRUM,60)),
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 22, 1.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "falcher",
-  "nationalPokedexNumber": 2159,
+  "nationalPokedexNumber": 2230,
   "primaryType": "bug",
   "secondaryType": "fairy",
   "abilities": [
@@ -69,7 +69,7 @@
     "cobblemon.species.falcher.desc"
   ],
   "preEvolution": "hizianscyther",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

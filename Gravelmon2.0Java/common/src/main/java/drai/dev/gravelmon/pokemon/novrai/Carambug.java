@@ -15,7 +15,7 @@ public class Carambug extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         60),
                 List.of(Ability.GOOEY), Ability.CLEAR_BODY,
-                8, 165,
+                20, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
@@ -116,8 +116,8 @@ public class Carambug extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSIBULLET,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -15,7 +15,7 @@ public class Gnotorious extends drai.dev.gravelmon.pokemon.Pokemon {
                         112,
                         66),
                 List.of(Ability.GREENTHUMB,Ability.HARVEST,Ability.CLOUD_NINE), Ability.CLOUD_NINE,
-                8, 165,
+                18, 165,
                 new Stats(0,0,3,0,0,0), 30,
                 0.5,
                 270, ExperienceGroup.SLOW,
@@ -127,11 +127,11 @@ public class Gnotorious extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARM,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 54, 65, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CROPS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gnotorious");

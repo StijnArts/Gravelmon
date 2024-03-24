@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lauvader",
-  "nationalPokedexNumber": 2896,
+  "nationalPokedexNumber": 3416,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -64,7 +64,7 @@
     "cobblemon.species.lauvader.desc"
   ],
   "preEvolution": "lauvered",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

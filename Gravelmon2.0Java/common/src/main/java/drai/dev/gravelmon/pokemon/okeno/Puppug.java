@@ -14,14 +14,15 @@ public class Puppug extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         43),
                 List.of(Ability.PICKUP,Ability.FLAME_BODY,Ability.GLUTTONY), Ability.GLUTTONY,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 63, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Puppug love eating. Whenever they smell their favourite food they become agitated and start wiggling their tails. If you don't give them what they want, they'll spew flames."),
-                List.of(),
+                List.of(new EvolutionEntry("boshishe", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.FLAMEPOUNCE,5),
@@ -47,11 +48,11 @@ public class Puppug extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AMNESIA,"tm")                        ),
                 List.of(Label.OKENO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 29, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Puppug");

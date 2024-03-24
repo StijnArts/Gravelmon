@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "doree",
-  "nationalPokedexNumber": 2881,
+  "nationalPokedexNumber": 3401,
   "primaryType": "steel",
   "secondaryType": "ground",
   "abilities": [
@@ -81,7 +81,7 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

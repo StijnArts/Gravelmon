@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "electrocuke",
-  "nationalPokedexNumber": 1554,
+  "nationalPokedexNumber": 1564,
   "primaryType": "flying",
   "secondaryType": "electric",
   "abilities": [
@@ -117,7 +117,7 @@
     "cobblemon.species.electrocuke.desc"
   ],
   "preEvolution": "denkyu",
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

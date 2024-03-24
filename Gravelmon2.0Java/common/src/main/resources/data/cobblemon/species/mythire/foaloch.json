@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "foaloch",
-  "nationalPokedexNumber": 2620,
+  "nationalPokedexNumber": 3026,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -30,12 +30,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -50,7 +50,23 @@
     "grass"
   ],
   "moves": [
-  ],
+    "1:absorb",
+    "1:astonish",
+    "1:fakeout",
+    "1:flail",
+    "1:growl",
+    "1:knockoff",
+    "1:teeterdance",
+    "1:watergun",
+    "9:mist",
+    "12:megadrain",
+    "18:furyswipes",
+    "24:bubblebeam",
+    "30:leechseed",
+    "36:gigadrain",
+    "50:zenheadbutt",
+    "57:energyball",
+    "64:hydropump"  ],
   "labels": [
     "mythire",
     "not_modeled"
@@ -58,7 +74,20 @@
   "pokedex": [
     "cobblemon.species.foaloch.desc"
   ],
-  "baseScale": 0.15,
+  "evolutions": [
+    {
+      "id": "foaloch_neyloch",
+      "variant": "item_interact",
+      "result": "neyloch",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:water_stone"   
+ }
+  ],
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -73,7 +102,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chirocodile",
-  "nationalPokedexNumber": 1479,
+  "nationalPokedexNumber": 1489,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -144,7 +144,7 @@
     "cobblemon.species.chirocodile.desc"
   ],
   "preEvolution": "gavile",
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -15,7 +15,7 @@ public class Swordier extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         105),
                 List.of(Ability.TEMPER), Ability.STEADFAST,
-                8, 165,
+                16, 165,
                 new Stats(0,3,0,0,0,0), 45,
                 0.875,
                 241, ExperienceGroup.MEDIUM_SLOW,
@@ -24,17 +24,33 @@ public class Swordier extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Swordier's nose grew so long that it broke off. Now, it wields the sharp blade as a sword. Whenever a Swordier comes across another of its kind, they will bow, and battle each other. It is dangerous to try to intervene."),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.METAL_CLAW,1)                        ),
-                List.of(Label.OCEANE),
+                        new MoveLearnSetEntry(Move.METAL_CLAW,1),
+                        new MoveLearnSetEntry(Move.PECK,1),
+                new MoveLearnSetEntry(Move.LEER,1),
+                new MoveLearnSetEntry(Move.METAL_CLAW,5),
+                new MoveLearnSetEntry(Move.WATER_GUN,10),
+                new MoveLearnSetEntry(Move.FURY_CUTTER,15),
+                new MoveLearnSetEntry(Move.IRON_DEFENSE,20),
+                new MoveLearnSetEntry(Move.AQUA_JET,25),
+                new MoveLearnSetEntry(Move.SWORDS_DANCE,30),
+                new MoveLearnSetEntry(Move.IRON_HEAD,35),
+                new MoveLearnSetEntry(Move.AQUA_TAIL,40),
+                new MoveLearnSetEntry(Move.SACRED_SWORD,45),
+                new MoveLearnSetEntry(Move.HYDRO_PUMP,50),
+                new MoveLearnSetEntry(Move.IRON_TAIL,55),
+                new MoveLearnSetEntry(Move.AQUA_TAIL,60),
+                new MoveLearnSetEntry(Move.PAYBACK,65)),
+        List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+        ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+        ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Swordier");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

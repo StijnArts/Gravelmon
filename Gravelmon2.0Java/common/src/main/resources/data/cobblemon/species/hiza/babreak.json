@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "babreak",
-  "nationalPokedexNumber": 2104,
+  "nationalPokedexNumber": 2175,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -86,7 +86,7 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sucrostone",
-  "nationalPokedexNumber": 2657,
+  "nationalPokedexNumber": 3063,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -49,6 +49,18 @@
     "mineral"
   ],
   "moves": [
+    "1:takedown",
+    "1:doubleedge",
+    "1:charm",
+    "1:playrough",
+    "1:sweetscent",
+    "1:rockpolish",
+    "1:headsmash",
+    "1:rockblast",
+    "1:magicpowder",
+    "1:magnitude",
+    "1:bite",
+    "1:crunch",
     "1:psychicfangs",
     "tm:bide",
     "tm:bodypress",
@@ -109,12 +121,15 @@
     "tm:workup"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sucrostone.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "candore",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -129,7 +144,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

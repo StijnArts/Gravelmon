@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "serpensync",
-  "nationalPokedexNumber": 2815,
+  "nationalPokedexNumber": 3335,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -95,7 +95,7 @@
     "cobblemon.species.serpensync.desc"
   ],
   "preEvolution": "elinkee",
-  "baseScale": 0.46875,
+  "baseScale": 0.625,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

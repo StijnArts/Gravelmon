@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cactank",
-  "nationalPokedexNumber": 1454,
+  "nationalPokedexNumber": 1464,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -141,7 +141,7 @@
     "cobblemon.species.cactank.desc"
   ],
   "preEvolution": "cuptus",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

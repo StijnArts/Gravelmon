@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nephelith",
-  "nationalPokedexNumber": 1348,
+  "nationalPokedexNumber": 1358,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.nephelith.desc"
   ],
-  "baseScale": 0.76875,
+  "baseScale": 1.0250000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

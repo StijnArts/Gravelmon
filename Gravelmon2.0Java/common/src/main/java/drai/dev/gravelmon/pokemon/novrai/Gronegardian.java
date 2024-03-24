@@ -21,7 +21,7 @@ public class Gronegardian extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         65),
                 List.of(Ability.ARCANEOVERLOAD), Ability.FLOWER_VEIL,
-                8, 165,
+                19, 165,
                 new Stats(3,0,0,0,0,0), 3,
                 0.0,
                 285, ExperienceGroup.SLOW,
@@ -121,8 +121,8 @@ public class Gronegardian extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CUT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

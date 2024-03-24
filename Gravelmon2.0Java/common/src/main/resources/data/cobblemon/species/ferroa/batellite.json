@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "batellite",
-  "nationalPokedexNumber": 1587,
+  "nationalPokedexNumber": 1597,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
@@ -123,7 +123,7 @@
   "pokedex": [
     "cobblemon.species.batellite.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

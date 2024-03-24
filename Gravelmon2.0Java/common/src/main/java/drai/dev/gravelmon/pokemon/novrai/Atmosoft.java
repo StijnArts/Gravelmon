@@ -15,14 +15,16 @@ public class Atmosoft extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         83),
                 List.of(Ability.CLOUD_NINE,Ability.SECONDWIND,Ability.AERILATE), Ability.AERILATE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 200,
                 0.5,
                 52, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Its body is mostly composed of water. It is so lightweight that even the slightest breeze can send it flying through the air."),
-                List.of(),
+                List.of(new EvolutionEntry("nimbluff", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))
+                ),
                 List.of(
                         new MoveLearnSetEntry(Move.GUST,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
@@ -88,7 +90,7 @@ public class Atmosoft extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 4, 25, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

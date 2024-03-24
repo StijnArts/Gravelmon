@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sabroast",
-  "nationalPokedexNumber": 1816,
+  "nationalPokedexNumber": 1887,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -56,7 +56,7 @@
   "pokedex": [
     "cobblemon.species.sabroast.desc"
   ],
-  "baseScale": 0.61875,
+  "baseScale": 0.8250000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

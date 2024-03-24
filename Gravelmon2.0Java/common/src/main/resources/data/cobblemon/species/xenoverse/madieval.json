@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "madieval",
-  "nationalPokedexNumber": 1743,
+  "nationalPokedexNumber": 1753,
   "primaryType": "rock",
   "secondaryType": "fairy",
   "abilities": [
@@ -111,7 +111,7 @@
     "cobblemon.species.madieval.desc"
   ],
   "preEvolution": "excalibould",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

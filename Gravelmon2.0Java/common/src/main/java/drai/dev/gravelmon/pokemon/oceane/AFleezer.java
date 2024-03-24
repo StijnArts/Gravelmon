@@ -15,25 +15,39 @@ public class AFleezer extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         90),
                 List.of(Ability.RELENTLESS), Ability.RELENTLESS,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 165,
+                new Stats(0,0,0,0,0,0), 10,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("After Abyssal Evolution, it grows a tremendous horn made of ice that is charged with electricity. Stray bolts from the horn have left its thick hide covered in scars."),
                 List.of(),
-                List.of(                        ),
+                List.of(    new MoveLearnSetEntry(Move.DOUBLEEDGE,1),
+                        new MoveLearnSetEntry(Move.SLACK_OFF,1),
+                        new MoveLearnSetEntry(Move.AQUA_TAIL,1),
+                        new MoveLearnSetEntry(Move.ICICLE_CRASH,1),
+                        new MoveLearnSetEntry(Move.POUND,1),
+                        new MoveLearnSetEntry(Move.AFTER_YOU,1),
+                        new MoveLearnSetEntry(Move.COTTON_GUARD,1),
+                        new MoveLearnSetEntry(Move.BODY_SLAM,1),
+                        new MoveLearnSetEntry(Move.FROST_BREATH,1),
+                        new MoveLearnSetEntry(Move.GROWL,1),
+                        new MoveLearnSetEntry(Move.AQUA_JET,1),
+                        new MoveLearnSetEntry(Move.SLAM,1),
+                        new MoveLearnSetEntry(Move.NUZZLE,1)                    ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 35, 53, .0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("A-Fleezer");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

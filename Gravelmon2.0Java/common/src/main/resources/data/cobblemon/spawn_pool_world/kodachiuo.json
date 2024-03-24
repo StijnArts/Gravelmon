@@ -7,7 +7,7 @@
       "id": "kodachiuo-1",
       "pokemon": "kodachiuo",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -15,7 +15,7 @@
       "level": "14-28",
       "weight": 4.0,
       "condition": {
-"biomes": [ "#cobblemon:is_reef",
+"biomes": [ "#cobblemon:is_warm_ocean",
 "#minecraft:is_ocean" ],
         "canSeeSky": true
       }

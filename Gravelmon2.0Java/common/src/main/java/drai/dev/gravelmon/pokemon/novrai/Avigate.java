@@ -15,14 +15,15 @@ public class Avigate extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         105),
                 List.of(Ability.LEVITATE,Ability.OPPORTUNIST,Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,1), 90,
                 0.5,
                 152, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It's said that if you follow an Avigate while sailing, it will lead you to great riches. More often, though, it will rob sailors of their supplies."),
-                List.of(),
+                List.of(new EvolutionEntry("scurvessel", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"53")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SNATCH,1),
                         new MoveLearnSetEntry(Move.THIEF,15),
@@ -86,11 +87,10 @@ public class Avigate extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCARY_FACE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Avigate");

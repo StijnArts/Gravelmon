@@ -15,14 +15,15 @@ public class Bonsquire extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         25),
                 List.of(Ability.OVERCOAT,Ability.FLASH_FIRE,Ability.DROUGHT), Ability.DROUGHT,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,1,0,0), 200,
                 0.5,
                 53, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("It feeds on the glowing embers and kindling left from unattended campfires. During the dry season, its numbers increase dramatically."),
-                List.of(),
+                List.of(new EvolutionEntry("campsire", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,5),
@@ -91,11 +92,11 @@ public class Bonsquire extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRANCH_POKE,"tm")                        ),
                 List.of(Label.NOVRAI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 25, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
+                List.of(SpawnPreset.NEAR_CAMPFIRE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bonsquire");

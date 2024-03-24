@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "regalient",
-  "nationalPokedexNumber": 3294,
+  "nationalPokedexNumber": 4197,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -123,7 +123,7 @@
     "cobblemon.species.regalient.desc"
   ],
   "preEvolution": "torchet",
-  "baseScale": 0.35625,
+  "baseScale": 0.47500000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

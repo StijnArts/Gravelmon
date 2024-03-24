@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "raudren",
-  "nationalPokedexNumber": 2898,
+  "nationalPokedexNumber": 3418,
   "primaryType": "rock",
   "abilities": [
     "quickfeet",
@@ -77,7 +77,7 @@
     "cobblemon.species.raudren.desc"
   ],
   "preEvolution": "raunny",
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

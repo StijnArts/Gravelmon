@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lepiterros",
-  "nationalPokedexNumber": 3546,
+  "nationalPokedexNumber": 4451,
   "primaryType": "bug",
   "abilities": [
     "runaway",
@@ -53,7 +53,7 @@
     "22:gigadrain",
     "24:afteryou",
     "30:airslash",
-    "38:cosmicpower",
+    "38:cosmicpowercosmic",
     "42:bugbuzzsound",
     "50:hurricane",
     "58:healpulse",
@@ -66,7 +66,7 @@
   "pokedex": [
     "cobblemon.species.lepiterros.desc"
   ],
-  "baseScale": 0.31875,
+  "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

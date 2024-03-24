@@ -17,14 +17,15 @@ public class Finray extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         55),
                 List.of(Ability.SWIFT_SWIM,Ability.WATER_VEIL,Ability.MOLD_BREAKER), Ability.MOLD_BREAKER,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.5,
                 64, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.WATER_2),
                 List.of("It swims against strong currents by skillfully using its tail as a rudder. Its acute hearing allows it to evade any danger."),
-                List.of(),
+                List.of(new EvolutionEntry("ogoprowl", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,6),
@@ -53,14 +54,15 @@ public class Finray extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.OROHNHAVAI
 ),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Finray");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

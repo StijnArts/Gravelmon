@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wombopass",
-  "nationalPokedexNumber": 2214,
+  "nationalPokedexNumber": 2285,
   "primaryType": "electric",
   "secondaryType": "rock",
   "abilities": [
@@ -113,7 +113,7 @@
     "cobblemon.species.wombopass.desc"
   ],
   "preEvolution": "hiziannosepass",
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

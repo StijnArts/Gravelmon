@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sonoralope",
-  "nationalPokedexNumber": 2575,
+  "nationalPokedexNumber": 2981,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -124,7 +124,7 @@
     "cobblemon.species.sonoralope.desc"
   ],
   "preEvolution": "cackrabbit",
-  "baseScale": 0.7125,
+  "baseScale": 0.9500000000000001,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ascenteon",
-  "nationalPokedexNumber": 2836,
+  "nationalPokedexNumber": 3356,
   "primaryType": "dragon",
   "abilities": [
     "toughclaws",
@@ -96,7 +96,7 @@
   "pokedex": [
     "cobblemon.species.ascenteon.desc"
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,

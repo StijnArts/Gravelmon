@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "strawna",
-  "nationalPokedexNumber": 3035,
+  "nationalPokedexNumber": 3644,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -64,6 +64,7 @@
     "33:sunnyday",
     "39:gigadrain",
     "45:encore",
+    "50:rapidgrowth",
     "55:quiverdance",
     "61:solarbeam",
     "tm:swordsdance",
@@ -72,9 +73,11 @@
     "tm:substitute",
     "tm:energyball",
     "tm:darkpulse",
+    "tm:poisonleaf",
     "tm:leechseed",
     "tm:poisonjab",
     "tm:brickbreak",
+    "tm:devastate",
     "tm:batonpass",
     "tm:sludgebomb",
     "tm:woodhammer",
@@ -83,6 +86,7 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
+    "tutor:bugnoise",
     "tutor:hiddenpower",
     "tutor:nastyplot",
     "tutor:hydropump",
@@ -119,7 +123,7 @@
     "cobblemon.species.strawna.desc"
   ],
   "preEvolution": "jamberree",
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
