@@ -1,9 +1,14 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Illuseon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Illuseon() {
         super("Illuseon",
-                Type.???,
+                Type.QUESTION_MARK,
                 new Stats(130,
                         65,
                         60,

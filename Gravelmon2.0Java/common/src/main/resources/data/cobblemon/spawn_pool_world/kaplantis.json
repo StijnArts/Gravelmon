@@ -7,11 +7,10 @@
       "id": "kaplantis-1",
       "pokemon": "kaplantis",
       "presets": [
-          "ocean_monument",
-          "ocean_ruins"
+          "ocean_monument"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "submerged",
       "bucket": "ultra-rare",
       "level": "65-75",
       "weight": 6.0E-4,

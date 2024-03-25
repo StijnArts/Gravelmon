@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.nodorro;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Treecko extends drai.dev.gravelmon.pokemon.Pokemon {
     public Treecko() {
         super("Treecko",

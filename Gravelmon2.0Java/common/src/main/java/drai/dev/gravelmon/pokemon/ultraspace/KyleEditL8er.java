@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.ultraspace;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class KyleEditL8er extends drai.dev.gravelmon.pokemon.Pokemon {
     public KyleEditL8er() {
         super("KyleEditL8er",

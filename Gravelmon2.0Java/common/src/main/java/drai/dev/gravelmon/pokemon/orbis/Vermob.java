@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.orbis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Vermob extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vermob() {
         super("Vermob",

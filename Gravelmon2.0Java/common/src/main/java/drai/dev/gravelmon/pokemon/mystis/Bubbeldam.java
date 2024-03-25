@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.mystis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Bubbeldam extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bubbeldam() {
         super("Bubbeldam",

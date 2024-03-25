@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.otopo;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Jellestrial extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jellestrial() {
         super("Jellestrial",

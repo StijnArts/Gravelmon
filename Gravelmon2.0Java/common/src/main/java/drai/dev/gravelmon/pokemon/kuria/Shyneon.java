@@ -1,9 +1,14 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Shyneon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shyneon() {
         super("Shyneon",
-                Type.???,
+                Type.QUESTION_MARK,
                 new Stats(135,
                         70,
                         65,

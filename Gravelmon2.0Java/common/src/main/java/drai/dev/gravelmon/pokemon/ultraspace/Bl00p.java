@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.ultraspace;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Bl00p extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bl00p() {
         super("Bl00p",

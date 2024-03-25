@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.orbis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Burrorm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burrorm() {
         super("Burrorm",

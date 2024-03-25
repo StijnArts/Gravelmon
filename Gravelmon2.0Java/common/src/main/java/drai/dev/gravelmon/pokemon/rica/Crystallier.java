@@ -17,7 +17,7 @@ public class Crystallier extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         65),
                 List.of(Ability.DAZZLING), Ability.PSYCHIC_SURGE,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 179, ExperienceGroup.MEDIUM_SLOW,
@@ -95,11 +95,11 @@ public class Crystallier extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 52, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE, Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.AMETHYST_GEODE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Crystallier");

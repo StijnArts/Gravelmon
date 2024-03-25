@@ -91,7 +91,7 @@ public class Solmec extends drai.dev.gravelmon.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
-                List.of(SpawnPreset.TRAIL_RUINS, SpawnPreset.DESERT_PYRAMID),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Solmec");

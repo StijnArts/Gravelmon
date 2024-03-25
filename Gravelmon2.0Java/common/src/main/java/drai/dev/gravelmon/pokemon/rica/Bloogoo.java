@@ -17,14 +17,15 @@ public class Bloogoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         30),
                 List.of(Ability.RATTLED,Ability.INTIMIDATE,Ability.UNNERVE), Ability.UNNERVE,
-                8, 165,
+                6, 165,
                 new Stats(1,0,0,0,0,0), 200,
                 0.5,
                 62, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("This Pokemon tries to seem intimidating by flashing its giant blue tongue, but in reality it is very cowardly."),
-                List.of(),
+                List.of(new EvolutionEntry("lazyrd", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),
                         new MoveLearnSetEntry(Move.ACID,7),
@@ -86,8 +87,8 @@ public class Bloogoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GLARE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

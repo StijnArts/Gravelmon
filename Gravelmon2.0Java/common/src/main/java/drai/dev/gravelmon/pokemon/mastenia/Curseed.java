@@ -1,5 +1,15 @@
 package drai.dev.gravelmon.pokemon.mastenia;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Curseed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Curseed() {
         super("Curseed",
@@ -21,7 +31,7 @@ public class Curseed extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CURSE,1),
-                        new MoveLearnSetEntry(Move.FOREST'SCURSE,1)                        ),
+                        new MoveLearnSetEntry(Move.FORESTS_CURSE,1)                        ),
                 List.of(Label.MASTENIA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

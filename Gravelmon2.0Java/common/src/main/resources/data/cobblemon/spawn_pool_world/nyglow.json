@@ -7,8 +7,7 @@
       "id": "nyglow-1",
       "pokemon": "nyglow",
       "presets": [
-          "freshwater",
-          "natural"
+          "freshwater"
       ],
       "type": "pokemon",
       "context": "surface",

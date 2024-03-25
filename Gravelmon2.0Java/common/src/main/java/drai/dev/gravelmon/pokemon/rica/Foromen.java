@@ -17,7 +17,7 @@ public class Foromen extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         55),
                 List.of(Ability.BATTLE_ARMOR,Ability.PICKUP,Ability.CURSED_BODY), Ability.CURSED_BODY,
-                8, 165,
+                27, 165,
                 new Stats(0,0,3,0,0,0), 30,
                 0.5,
                 233, ExperienceGroup.MEDIUM_SLOW,
@@ -114,8 +114,9 @@ public class Foromen extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PHANTOM_FORCE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 48, 56, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

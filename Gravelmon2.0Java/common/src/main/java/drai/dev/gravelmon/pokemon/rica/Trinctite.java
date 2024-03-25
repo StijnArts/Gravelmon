@@ -17,14 +17,15 @@ public class Trinctite extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         35),
                 List.of(Ability.DAZZLING), Ability.PSYCHIC_SURGE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,1,0), 225,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Trinctite attach themselves to the ceilings of caves to sleep. A colony of Trinctite is a dazzling sight for spelunkers."),
-                List.of(),
+                List.of(new EvolutionEntry("crystallier", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.FLASH,6),
@@ -92,11 +93,11 @@ public class Trinctite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE, Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.AMETHYST_GEODE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Trinctite");

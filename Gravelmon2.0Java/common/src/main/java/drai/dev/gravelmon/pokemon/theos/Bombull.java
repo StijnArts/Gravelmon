@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.theos;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Bombull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bombull() {
         super("Bombull",

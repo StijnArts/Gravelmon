@@ -44,7 +44,7 @@ public class Deecoin extends drai.dev.gravelmon.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 31, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN))
                 ), List.of(),
-                List.of(SpawnPreset.JUNGLE_PYRAMID, SpawnPreset.DESERT_PYRAMID),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Deecoin");

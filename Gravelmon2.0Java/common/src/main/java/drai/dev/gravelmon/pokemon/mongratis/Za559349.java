@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.mongratis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Za559349 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Za559349() {
         super("Za559349",

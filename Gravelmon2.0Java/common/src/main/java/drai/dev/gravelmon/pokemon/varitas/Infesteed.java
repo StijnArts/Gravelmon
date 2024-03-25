@@ -17,7 +17,7 @@ public class Infesteed extends drai.dev.gravelmon.pokemon.Pokemon {
                         84,
                         80),
                 List.of(Ability.SWARM,Ability.REGENERATOR,Ability.UNNERVE), Ability.UNNERVE,
-                8, 165,
+                17, 165,
                 new Stats(2,0,0,0,0,0), 50,
                 0.5,
                 149, ExperienceGroup.MEDIUM_SLOW,
@@ -78,9 +78,9 @@ public class Infesteed extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOSHOCK,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 25, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

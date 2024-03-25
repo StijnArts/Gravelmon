@@ -7,11 +7,7 @@
       "id": "chesture-1",
       "pokemon": "chesture",
       "presets": [
-          "trail_ruins",
-          "jungle_pyramid",
-          "desert_pyramid",
-          "shipwreck",
-          "stronghold"
+          "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

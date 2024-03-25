@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.panjaea;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Gravyle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gravyle() {
         super("Gravyle",

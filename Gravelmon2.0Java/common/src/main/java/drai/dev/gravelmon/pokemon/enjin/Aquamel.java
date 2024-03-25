@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.enjin;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Aquamel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aquamel() {
         super("Aquamel",

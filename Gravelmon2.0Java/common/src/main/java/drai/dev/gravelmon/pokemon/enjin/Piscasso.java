@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.enjin;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Piscasso extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piscasso() {
         super("Piscasso",

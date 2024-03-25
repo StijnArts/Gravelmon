@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.otopo;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Coralpus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coralpus() {
         super("Coralpus",

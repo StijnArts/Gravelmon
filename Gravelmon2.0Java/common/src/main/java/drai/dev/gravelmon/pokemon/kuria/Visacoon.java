@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Visacoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Visacoon() {
         super("Visacoon",

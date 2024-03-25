@@ -1,5 +1,15 @@
 package drai.dev.gravelmon.pokemon.ultraspace;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Craycrane extends drai.dev.gravelmon.pokemon.Pokemon {
     public Craycrane() {
         super("Craycrane",

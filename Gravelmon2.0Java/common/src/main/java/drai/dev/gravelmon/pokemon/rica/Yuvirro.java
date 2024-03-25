@@ -17,7 +17,7 @@ public class Yuvirro extends drai.dev.gravelmon.pokemon.Pokemon {
                         68,
                         91),
                 List.of(Ability.BIG_PECKS), Ability.DRIZZLE,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,3,0,0), 60,
                 0.5,
                 216, ExperienceGroup.MEDIUM_FAST,
@@ -98,14 +98,14 @@ public class Yuvirro extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 47, 0.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Yuvirro");
+        setCanFly(true);
 
     }
 

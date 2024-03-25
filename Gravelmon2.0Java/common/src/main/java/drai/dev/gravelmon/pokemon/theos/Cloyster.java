@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.theos;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Cloyster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cloyster() {
         super("Cloyster",

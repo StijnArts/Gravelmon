@@ -7,8 +7,7 @@
       "id": "bankarak-1",
       "pokemon": "bankarak",
       "presets": [
-          "jungle_pyramid",
-          "desert_pyramid"
+          "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

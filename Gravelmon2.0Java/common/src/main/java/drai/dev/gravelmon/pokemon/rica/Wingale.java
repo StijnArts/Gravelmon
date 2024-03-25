@@ -17,14 +17,15 @@ public class Wingale extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         72),
                 List.of(Ability.BIG_PECKS), Ability.EARLY_BIRD,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,1,0,1), 120,
                 0.5,
                 135, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Wingale's rounded wings are perfectly adapted for flying through the dense rainforest understory. This Pokemon is a common sight amongst the tall almond trees in the Western Rainforest."),
-                List.of(),
+                List.of(new EvolutionEntry("yuvirro", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,5),
@@ -85,14 +86,14 @@ public class Wingale extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DEFOG,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 18, 32, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Wingale");
+        setCanFly(true);
 
     }
 

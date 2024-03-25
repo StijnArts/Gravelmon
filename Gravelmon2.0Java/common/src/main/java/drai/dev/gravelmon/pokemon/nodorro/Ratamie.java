@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.nodorro;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Ratamie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ratamie() {
         super("Ratamie",

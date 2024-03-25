@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.orbis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Caffiend extends drai.dev.gravelmon.pokemon.Pokemon {
     public Caffiend() {
         super("Caffiend",

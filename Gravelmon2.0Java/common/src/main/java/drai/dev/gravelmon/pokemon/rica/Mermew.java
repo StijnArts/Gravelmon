@@ -17,7 +17,7 @@ public class Mermew extends drai.dev.gravelmon.pokemon.Pokemon {
                         72,
                         45),
                 List.of(Ability.GLIMMER), Ability.CUTE_CHARM,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,1,0), 95,
                 0.875,
                 68, ExperienceGroup.MEDIUM_SLOW,
@@ -95,14 +95,15 @@ public class Mermew extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BELL,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 29, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Mermew");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

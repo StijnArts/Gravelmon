@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.ultraspace;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class XA12 extends drai.dev.gravelmon.pokemon.Pokemon {
     public XA12() {
         super("XA12",

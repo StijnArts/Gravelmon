@@ -17,14 +17,15 @@ public class Odorable extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         62),
                 List.of(Ability.POISON_TOUCH,Ability.FRISK,Ability.STRONG_JAW), Ability.STRONG_JAW,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 255,
                 0.5,
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("These Pokemon love to follow people around, but their toxic bite is dangerous: bites always become infected and can take weeks to heal."),
-                List.of(),
+                List.of(new EvolutionEntry("rabite", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.ODOR_SLEUTH,6),
@@ -98,8 +99,8 @@ public class Odorable extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

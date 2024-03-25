@@ -17,7 +17,7 @@ public class Impifaun extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         90),
                 List.of(Ability.SUPER_LUCK), Ability.PRANKSTER,
-                8, 165,
+                19, 165,
                 new Stats(0,2,0,0,0,0), 35,
                 0.5,
                 180, ExperienceGroup.MEDIUM_SLOW,
@@ -105,9 +105,8 @@ public class Impifaun extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 54, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -51,7 +51,7 @@ public class KaskadianBidoof extends Pokemon {
 
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
-                List.of(SpawnPreset.NATURAL, SpawnPreset.FRESHWATER),
+                List.of(SpawnPreset.FRESHWATER),
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Bidoof");

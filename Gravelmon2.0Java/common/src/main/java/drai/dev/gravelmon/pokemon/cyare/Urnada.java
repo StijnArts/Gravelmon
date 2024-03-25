@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.cyare;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Urnada extends drai.dev.gravelmon.pokemon.Pokemon {
     public Urnada() {
         super("Urnada",

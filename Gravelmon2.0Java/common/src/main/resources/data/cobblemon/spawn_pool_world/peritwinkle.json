@@ -8,8 +8,7 @@
       "pokemon": "peritwinkle",
       "presets": [
           "freshwater",
-          "natural",
-          "treetop"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

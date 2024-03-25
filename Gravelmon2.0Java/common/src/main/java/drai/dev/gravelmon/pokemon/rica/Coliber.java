@@ -17,14 +17,15 @@ public class Coliber extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         88),
                 List.of(Ability.SNIPER,Ability.EARLY_BIRD,Ability.DAZZLING), Ability.DAZZLING,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 67, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING,EggGroup.FAIRY),
                 List.of("Despite its small size, this Pokemon will eagerly attack anything it considers a threat. They establish a strict social hierarchy, but fights between flocks will often break out around a new food source."),
-                List.of(),
+                List.of(new EvolutionEntry("coliboom", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,5),
@@ -94,14 +95,14 @@ public class Coliber extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAINBOWGUST,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Coliber");
+        setCanFly(true);
 
     }
 

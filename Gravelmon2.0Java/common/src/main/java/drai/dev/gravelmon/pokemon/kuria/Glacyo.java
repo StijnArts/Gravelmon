@@ -1,9 +1,14 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Glacyo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glacyo() {
         super("Glacyo",
-                Type.???,
+                Type.QUESTION_MARK,
                 new Stats(58,
                         85,
                         103,

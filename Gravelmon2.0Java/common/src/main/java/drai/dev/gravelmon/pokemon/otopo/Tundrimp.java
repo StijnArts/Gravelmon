@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.otopo;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Tundrimp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tundrimp() {
         super("Tundrimp",

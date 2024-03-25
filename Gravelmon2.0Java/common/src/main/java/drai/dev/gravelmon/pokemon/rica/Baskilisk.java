@@ -17,14 +17,15 @@ public class Baskilisk extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         70),
                 List.of(Ability.SOLAR_POWER,Ability.DROUGHT,Ability.INTIMIDATE), Ability.INTIMIDATE,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,2,0,0), 75,
                 0.5,
                 144, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("Baskilisk can rear up on its hind legs to run away quickly from threats. It can even run directly across hot lava to make an escape."),
-                List.of(),
+                List.of(new EvolutionEntry("solana", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SINGE,6),
@@ -104,8 +105,8 @@ public class Baskilisk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AUTOTOMIZE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 42, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

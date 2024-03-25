@@ -17,13 +17,13 @@ public class Welking extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         65),
                 List.of(Ability.GLIMMER), Ability.GLIMMER,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,3,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_3),
-                List.of("- Roar Normal - Skull Bash Normal - Tackle Normal - Refresh Normal 6 Disarming VoiceSTAB Fairy 10 Sand Attack Ground 14 Happy SlapSTAB Fairy 18 Fake Out Normal 22 Life Dew Water 26 CuddleSTAB Fairy 31 Brine Water 35 Wish Normal 39 Hyper Voice Normal 42 Play RoughSTAB Fairy 46 Beach Tide Water 51 Last Resort Normal 57 Healing Wish Psychic"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.REFRESH,1),
@@ -105,14 +105,15 @@ public class Welking extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BELL,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 43, 58, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Welking");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

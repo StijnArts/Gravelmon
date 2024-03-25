@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.spion;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Packoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Packoon() {
         super("Packoon",

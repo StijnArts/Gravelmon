@@ -7,8 +7,7 @@
       "id": "terradobe-1",
       "pokemon": "terradobe",
       "presets": [
-          "trail_ruins",
-          "desert_pyramid"
+          "trail_ruins"
       ],
       "type": "pokemon",
       "context": "grounded",

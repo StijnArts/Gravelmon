@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.ottora;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Deeluge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Deeluge() {
         super("Deeluge",

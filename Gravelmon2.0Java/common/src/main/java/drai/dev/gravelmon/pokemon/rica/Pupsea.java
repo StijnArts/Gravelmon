@@ -17,14 +17,15 @@ public class Pupsea extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         40),
                 List.of(Ability.RATTLED,Ability.THICK_FAT,Ability.CUTE_CHARM), Ability.CUTE_CHARM,
-                8, 165,
+                5, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 54, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("Pupsea aren't skilled swimmers, so they spend most of their time on the beach. Because of their docile nature, they make good companions for children."),
-                List.of(),
+                List.of(new EvolutionEntry("blubbark", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,5),
@@ -92,14 +93,15 @@ public class Pupsea extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 24, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Pupsea");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

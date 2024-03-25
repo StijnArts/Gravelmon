@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.ruskow;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Carcashark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carcashark() {
         super("Carcashark",

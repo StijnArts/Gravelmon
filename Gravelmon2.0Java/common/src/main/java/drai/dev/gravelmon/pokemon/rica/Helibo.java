@@ -38,7 +38,8 @@ public class Helibo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHIFT_GEAR,42),
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,47),
                         new MoveLearnSetEntry(Move.HYPER_BEAM,52),
-                        new MoveLearnSetEntry(Move.STEEL_BEAM,58),new MoveLearnSetEntry(Move.IRON_HEAD,"tm"),
+                        new MoveLearnSetEntry(Move.STEEL_BEAM,58),
+                        new MoveLearnSetEntry(Move.IRON_HEAD,"tm"),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tm"),
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm"),
                         new MoveLearnSetEntry(Move.EXPLOSION,"tm"),
@@ -80,13 +81,13 @@ public class Helibo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 33, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
-        setLangFileName("Delibo");
+        setCanFly(true);
     }
 }

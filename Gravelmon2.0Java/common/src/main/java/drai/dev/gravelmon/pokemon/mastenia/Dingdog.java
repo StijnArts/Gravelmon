@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.mastenia;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Dingdog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dingdog() {
         super("Dingdog",

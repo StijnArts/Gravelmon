@@ -17,14 +17,15 @@ public class Clampurr extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         55),
                 List.of(Ability.GLIMMER), Ability.GLIMMER,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.875,
                 149, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_3),
-                List.of("- Tackle Normal - Refresh Normal 6 Disarming VoiceSTAB Fairy 10 Sand Attack Ground 14 Happy SlapSTAB Fairy 18 Fake Out Normal 22 Life Dew Water 26 CuddleSTAB Fairy 31 Brine Water 35 Wish Normal 39 Hyper Voice Normal 42 Play RoughSTAB Fairy 46 Beach Tide Water 51 Last Resort Normal 57 Healing Wish Psychic"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("welking", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:kings_rock\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.REFRESH,1),
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,6),
@@ -98,15 +99,15 @@ public class Clampurr extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_BELL,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 28, 43, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Clampurr");
-
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
     }
 
 

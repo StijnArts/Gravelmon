@@ -43,7 +43,7 @@ public class Nafugu extends drai.dev.gravelmon.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.OCEAN_MONUMENT, SpawnPreset.OCEAN_RUINS),
+                List.of(SpawnPreset.OCEAN_RUINS),
                 0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);

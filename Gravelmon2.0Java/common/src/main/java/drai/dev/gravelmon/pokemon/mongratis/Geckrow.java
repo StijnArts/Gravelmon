@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.mongratis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Geckrow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Geckrow() {
         super("Geckrow",

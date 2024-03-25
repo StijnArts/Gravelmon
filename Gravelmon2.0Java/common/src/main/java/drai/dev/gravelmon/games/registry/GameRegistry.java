@@ -4,6 +4,7 @@ import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.games.original.*;
 import drai.dev.gravelmon.games.pokemmo.*;
+import drai.dev.gravelmon.games.pokemmo.secondbatch.*;
 
 import java.util.*;
 
@@ -21,6 +22,7 @@ public class GameRegistry {
         games.add(new GenerationEight());
         games.add(new GenerationNine());
         GravelmonJsonGenerator.setDexCounter(1024);
+        games.add(new NeoNintendo());
         games.add(new Sage());
         games.add(new Realidea());
         games.add(new Rica());

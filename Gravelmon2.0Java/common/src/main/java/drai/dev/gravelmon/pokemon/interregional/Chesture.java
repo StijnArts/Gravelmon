@@ -49,7 +49,7 @@ public class Chesture extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 21, 54, 6, List.of(
                 ), List.of(),
-                List.of(SpawnPreset.TRAIL_RUINS, SpawnPreset.JUNGLE_PYRAMID, SpawnPreset.DESERT_PYRAMID, SpawnPreset.SHIP_WRECK, SpawnPreset.STRONGHOLD),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Chesture");

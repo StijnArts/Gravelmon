@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.terranov;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Baggi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Baggi() {
         super("Baggi",

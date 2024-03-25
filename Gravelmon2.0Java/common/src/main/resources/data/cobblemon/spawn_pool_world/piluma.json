@@ -7,7 +7,6 @@
       "id": "piluma-1",
       "pokemon": "piluma",
       "presets": [
-          "trail_ruins",
           "jungle_pyramid"
       ],
       "type": "pokemon",

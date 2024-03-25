@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.mongratis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Mob93185 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mob93185() {
         super("Mob93185",

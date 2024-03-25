@@ -1,9 +1,14 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Evercle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Evercle() {
         super("Evercle",
-                Type.WATER,Type.???,
+                Type.WATER,Type.QUESTION_MARK,
                 new Stats(95,
                         70,
                         70,

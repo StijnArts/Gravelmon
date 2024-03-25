@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.goetia;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Flamboa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flamboa() {
         super("Flamboa",

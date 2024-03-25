@@ -17,14 +17,15 @@ public class Cirritwirl extends drai.dev.gravelmon.pokemon.Pokemon {
                         53,
                         75),
                 List.of(Ability.CLOUD_NINE), Ability.SECONDWIND,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 68, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Cirritwirl drift through the sky in big flocks. It can spin about its tail like a top to whip up a tornado."),
-                List.of(),
+                List.of(new EvolutionEntry("torricane", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.RAPID_SPIN,6),
@@ -94,14 +95,14 @@ public class Cirritwirl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SQUALL,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 29, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Cirritwirl");
+        setCanFly(true);
 
     }
 

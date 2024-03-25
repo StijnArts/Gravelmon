@@ -17,14 +17,15 @@ public class Skurrel extends drai.dev.gravelmon.pokemon.Pokemon {
                         35,
                         67),
                 List.of(Ability.GUTS,Ability.CHEEK_POUCH,Ability.ADAPTABILITY), Ability.ADAPTABILITY,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 52, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Skurrel enjoy playing pranks. They sit high in trees and throw nuts at passersby."),
-                List.of(),
+                List.of(new EvolutionEntry("sparskia", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,5),
@@ -104,8 +105,8 @@ public class Skurrel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NUZZLE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

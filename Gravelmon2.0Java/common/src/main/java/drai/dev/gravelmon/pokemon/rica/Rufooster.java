@@ -17,7 +17,7 @@ public class Rufooster extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         110),
                 List.of(Ability.BIG_PECKS), Ability.BIG_PECKS,
-                8, 165,
+                10, 165,
                 new Stats(0,1,0,0,0,1), 45,
                 0.5,
                 218, ExperienceGroup.MEDIUM_FAST,
@@ -97,11 +97,11 @@ public class Rufooster extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 42, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE, Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Rufooster");

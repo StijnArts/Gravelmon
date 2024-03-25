@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.olysos;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Ladivy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ladivy() {
         super("Ladivy",

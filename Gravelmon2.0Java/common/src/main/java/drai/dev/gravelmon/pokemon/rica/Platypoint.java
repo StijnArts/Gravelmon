@@ -17,14 +17,15 @@ public class Platypoint extends drai.dev.gravelmon.pokemon.Pokemon {
                         47,
                         58),
                 List.of(Ability.POISON_POINT,Ability.POISON_TOUCH,Ability.SKILL_LINK), Ability.SKILL_LINK,
-                8, 165,
+                3, 165,
                 new Stats(0,1,0,0,0,0), 220,
                 0.5,
                 62, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("They can bristle the spines on their back when threatened. The spines contain a potent toxin that deters predators."),
-                List.of(),
+                List.of(new EvolutionEntry("platoxic", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.POISON_STING,5),
@@ -99,15 +100,15 @@ public class Platypoint extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 28, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Platypoint");
-
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
     }
 
 

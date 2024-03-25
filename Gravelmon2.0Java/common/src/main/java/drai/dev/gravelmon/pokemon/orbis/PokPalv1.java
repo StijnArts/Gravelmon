@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.orbis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class PokPalv1 extends drai.dev.gravelmon.pokemon.Pokemon {
     public PokPalv1() {
         super("PokPalv1",

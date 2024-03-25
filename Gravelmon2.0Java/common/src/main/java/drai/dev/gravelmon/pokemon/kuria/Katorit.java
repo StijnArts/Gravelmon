@@ -1,9 +1,14 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Katorit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Katorit() {
         super("Katorit",
-                Type.GRASS,Type.???,
+                Type.GRASS,Type.QUESTION_MARK,
                 new Stats(92,
                         70,
                         95,

@@ -17,14 +17,15 @@ public class Spoocap extends drai.dev.gravelmon.pokemon.Pokemon {
                         88,
                         40),
                 List.of(Ability.SOULABSORB), Ability.SOULABSORB,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 66, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.GRASS),
                 List.of("Legend says that this Pokemon is the spirit of a lost child. It sings songs, which carry throughout the forest, in hopes of attracting a friend."),
-                List.of(),
+                List.of(new EvolutionEntry("sporror", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SING,1),
                         new MoveLearnSetEntry(Move.CONFUSE_RAY,6),
@@ -89,9 +90,9 @@ public class Spoocap extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LOCKON,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 28, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_MAGICAL, Biome.IS_MUSHROOM)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

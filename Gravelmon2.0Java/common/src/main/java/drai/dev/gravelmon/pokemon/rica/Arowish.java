@@ -17,7 +17,7 @@ public class Arowish extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         93),
                 List.of(Ability.SWIFT_SWIM), Ability.INNER_FOCUS,
-                8, 165,
+                27, 165,
                 new Stats(0,0,0,2,0,0), 90,
                 0.5,
                 168, ExperienceGroup.FAST,
@@ -91,14 +91,16 @@ public class Arowish extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Arowish");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

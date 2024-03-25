@@ -1,5 +1,15 @@
 package drai.dev.gravelmon.pokemon.mystis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Sparcnidria extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sparcnidria() {
         super("Sparcnidria",
@@ -21,7 +31,7 @@ public class Sparcnidria extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.RAGE,1),
-                        new MoveLearnSetEntry(Move.LAND'SWRATH,1),
+                        new MoveLearnSetEntry(Move.LANDS_WRATH,1),
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.ROLLOUT,3),
                         new MoveLearnSetEntry(Move.SPITE,6),

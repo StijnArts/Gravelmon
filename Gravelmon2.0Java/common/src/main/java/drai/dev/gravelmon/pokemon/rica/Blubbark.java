@@ -17,14 +17,19 @@ public class Blubbark extends drai.dev.gravelmon.pokemon.Pokemon {
                         62,
                         60),
                 List.of(Ability.RATTLED,Ability.THICK_FAT,Ability.CUTE_CHARM), Ability.CUTE_CHARM,
-                8, 165,
+                9, 165,
                 new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 138, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.WATER_1),
                 List.of("They're faster when swimming than they are climbing around on land. Blubbark can be found frolicking in the waves along rocky shorelines."),
-                List.of(),
+                List.of(new EvolutionEntry("sealord", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=male\""))),
+                        new EvolutionEntry("merjestic", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.PROPERTY,"\"gender=female\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,5),
@@ -95,14 +100,15 @@ public class Blubbark extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 19, 38, .7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Blubbark");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

@@ -17,14 +17,15 @@ public class Impuck extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         60),
                 List.of(Ability.SUPER_LUCK), Ability.PRANKSTER,
-                8, 165,
+                9, 165,
                 new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE,EggGroup.FAIRY),
                 List.of("These trickster Pokemon play crude pranks on whoever happens to pass by. Impuck can imitate human voices with surprising accuracy, and love to lure people into booby traps."),
-                List.of(),
+                List.of(new EvolutionEntry("impifaun", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"gravelmon:ocarina")),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFIDE,1),
                         new MoveLearnSetEntry(Move.TAUNT,7),
@@ -101,9 +102,8 @@ public class Impuck extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

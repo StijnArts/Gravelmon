@@ -1,9 +1,14 @@
 package drai.dev.gravelmon.pokemon.terranov;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class GoreMagala extends drai.dev.gravelmon.pokemon.Pokemon {
     public GoreMagala() {
         super("GoreMagala",
-                Type.DARK,Type.???,
+                Type.DARK,Type.QUESTION_MARK,
                 new Stats(0,
                         0,
                         0,

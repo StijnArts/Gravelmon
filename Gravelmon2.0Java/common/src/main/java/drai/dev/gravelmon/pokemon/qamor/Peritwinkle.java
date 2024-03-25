@@ -53,7 +53,7 @@ public class Peritwinkle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
-                List.of(SpawnPreset.FRESHWATER, SpawnPreset.NATURAL, SpawnPreset.TREE_TOP),
+                List.of(SpawnPreset.FRESHWATER, SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Peritwinkle");

@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.mongratis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Lavare extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lavare() {
         super("Lavare",

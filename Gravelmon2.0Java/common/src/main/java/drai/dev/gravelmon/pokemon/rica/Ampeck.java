@@ -17,14 +17,15 @@ public class Ampeck extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         80),
                 List.of(Ability.SOUNDPROOF), Ability.VITAL_SPIRIT,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,1,0,0), 220,
                 0.5,
                 71, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Ampeck is an easy Pokemon to find due to its loud nature. These Pokemon defend their territory by creating loud, booming screeches. The loudest Ampeck wins."),
-                List.of(),
+                List.of(new EvolutionEntry("boombird", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.FURY_ATTACK,6),
@@ -87,14 +88,14 @@ public class Ampeck extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLY,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Ampeck");
+        setCanFly(true);
 
     }
 

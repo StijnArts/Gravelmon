@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.spion;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Manukare extends drai.dev.gravelmon.pokemon.Pokemon {
     public Manukare() {
         super("Manukare",

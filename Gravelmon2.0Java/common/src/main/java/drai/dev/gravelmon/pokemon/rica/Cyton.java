@@ -17,14 +17,15 @@ public class Cyton extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         40),
                 List.of(Ability.STICKY_HOLD,Ability.SHELL_ARMOR,Ability.HYDRATION), Ability.HYDRATION,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 57, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("Cyton have tough shells that protect them from attacks. They live among rocks on the coast, where they can withstand powerful waves breaking."),
-                List.of(),
+                List.of(new EvolutionEntry("kaidon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.BUBBLE,5),
@@ -96,14 +97,15 @@ public class Cyton extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_BEACH))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Cyton");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

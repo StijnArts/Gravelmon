@@ -17,13 +17,13 @@ public class Solios extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         100),
                 List.of(Ability.SOLAR_POWER), Ability.SOLAR_POWER,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,3,0,0), 20,
                 0.0,
                 270, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("bow down to the sun god"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.COSMIC_POWER,1),
@@ -40,8 +40,8 @@ public class Solios extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUNSTEEL_STRIKE,77)                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

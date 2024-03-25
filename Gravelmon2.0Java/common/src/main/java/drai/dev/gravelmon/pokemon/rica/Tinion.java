@@ -17,14 +17,15 @@ public class Tinion extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         42),
                 List.of(Ability.SHED_SKIN), Ability.DRY_SKIN,
-                8, 165,
+                6, 165,
                 new Stats(0,1,0,0,0,0), 240,
                 0.5,
                 54, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Tinion burrow underground during the day. They camouflage perfectly amongst tall grass."),
-                List.of(),
+                List.of(new EvolutionEntry("onioni", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
                         new MoveLearnSetEntry(Move.BIDE,6),
@@ -93,10 +94,10 @@ public class Tinion extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROTOTILLER,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

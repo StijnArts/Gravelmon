@@ -7,7 +7,6 @@
       "id": "herokolus-1",
       "pokemon": "herokolus",
       "presets": [
-          "jungle_pyramid",
           "trail_ruins"
       ],
       "type": "pokemon",

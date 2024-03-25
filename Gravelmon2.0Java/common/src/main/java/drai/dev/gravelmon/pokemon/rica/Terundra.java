@@ -17,7 +17,7 @@ public class Terundra extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         115),
                 List.of(Ability.KEEN_EYE,Ability.VITAL_SPIRIT,Ability.GALE_WINGS), Ability.GALE_WINGS,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,2), 90,
                 0.5,
                 161, ExperienceGroup.FAST,
@@ -90,14 +90,14 @@ public class Terundra extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AURORA_VEIL,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 22, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH, Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Terundra");
+        setCanFly(true);
 
     }
 

@@ -1,9 +1,14 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Mojicle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mojicle() {
         super("Mojicle",
-                Type.WATER,Type.???,
+                Type.WATER,Type.QUESTION_MARK,
                 new Stats(55,
                         40,
                         50,

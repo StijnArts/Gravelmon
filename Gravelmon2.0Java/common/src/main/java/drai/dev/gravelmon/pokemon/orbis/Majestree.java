@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.orbis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Majestree extends drai.dev.gravelmon.pokemon.Pokemon {
     public Majestree() {
         super("Majestree",
@@ -31,7 +36,7 @@ public class Majestree extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.INGRAIN,40),
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,44),
                         new MoveLearnSetEntry(Move.DYNAMICPUNCH,50),
-                        new MoveLearnSetEntry(Move.FOREST'SCURSE,52),
+                        new MoveLearnSetEntry(Move.FORESTS_CURSE,52),
                         new MoveLearnSetEntry(Move.BULLDOZE,"tm"),
                         new MoveLearnSetEntry(Move.POWERUP_PUNCH,"tm"),
                         new MoveLearnSetEntry(Move.ENERGY_BALL,"tm")                        ),

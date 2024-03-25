@@ -17,14 +17,17 @@ public class Delibo extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         88),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,1,0,0), 190,
                 0.0,
                 79, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Delibo was created by scientists to help deliver shipments to remote towns in Rica. This Pokemon can fly for days without rest and never gets lost."),
-                List.of(),
+                List.of(new EvolutionEntry("drocopter", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:dubious_disc"),
+                        new EvolutionEntry("helibo", EvolutionType.ITEM_INTERACT, false, List.of(),
+                                List.of(),List.of(),"cobblemon:upgrade")),
                 List.of(
                         new MoveLearnSetEntry(Move.MAGNET_BOMB,1),
                         new MoveLearnSetEntry(Move.LOCKON,7),
@@ -79,14 +82,14 @@ public class Delibo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 29, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Delibo");
+        setCanFly(true);
 
     }
 

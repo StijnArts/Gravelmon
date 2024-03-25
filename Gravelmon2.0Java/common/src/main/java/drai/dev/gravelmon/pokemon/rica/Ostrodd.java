@@ -17,14 +17,15 @@ public class Ostrodd extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         10),
                 List.of(Ability.SHELL_ARMOR), Ability.SHELL_ARMOR,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 58, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.BUG),
                 List.of("This unusual Pokemon resembles a Bug-type, but is actually a close relative of Krabby. Ostrodd can be found floating lazily in just about any pond."),
-                List.of(),
+                List.of(new EvolutionEntry("orbizarre", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.RAPID_SPIN,1),
                         new MoveLearnSetEntry(Move.BUBBLE,4),
@@ -106,14 +107,16 @@ public class Ostrodd extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 5, 23, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Ostrodd");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

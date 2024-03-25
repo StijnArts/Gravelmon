@@ -17,14 +17,15 @@ public class Bubbweed extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         53),
                 List.of(Ability.HYDRATION,Ability.STORM_DRAIN,Ability.TANGLING_HAIR), Ability.TANGLING_HAIR,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,1,0), 255,
                 0.5,
                 63, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.GRASS),
                 List.of("These Pokemon are often content to just float around with the current, but they can be powerful swimmers when needed. They use their kelp to bind enemies and prey."),
-                List.of(),
+                List.of(new EvolutionEntry("drifsea", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.WATER_SPORT,5),
@@ -92,14 +93,15 @@ public class Bubbweed extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LIQUIDATION,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 26, 4.6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN))),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Bubbweed");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

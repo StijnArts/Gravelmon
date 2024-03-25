@@ -17,7 +17,7 @@ public class Mirrorigus extends drai.dev.gravelmon.pokemon.Pokemon {
                         125,
                         25),
                 List.of(Ability.MUMMY), Ability.MUMMY,
-                8, 165,
+                17, 165,
                 new Stats(0,0,2,0,0,0), 90,
                 0.5,
                 169, ExperienceGroup.MEDIUM_FAST,

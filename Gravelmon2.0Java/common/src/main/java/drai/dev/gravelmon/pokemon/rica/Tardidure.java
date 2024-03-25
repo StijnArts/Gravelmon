@@ -17,7 +17,7 @@ public class Tardidure extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         70),
                 List.of(Ability.SHELL_ARMOR), Ability.MIRROR_ARMOR,
-                8, 165,
+                2, 165,
                 new Stats(0,0,2,0,0,0), 35,
                 0.5,
                 154, ExperienceGroup.FAST,
@@ -92,14 +92,14 @@ public class Tardidure extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 33, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Tardidure");
+        setCanFly(true);
 
     }
 

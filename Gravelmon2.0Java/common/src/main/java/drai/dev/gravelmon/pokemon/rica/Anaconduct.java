@@ -17,7 +17,7 @@ public class Anaconduct extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         100),
                 List.of(Ability.STRONG_JAW,Ability.MOTOR_DRIVE,Ability.TIGHTGRIP), Ability.TIGHTGRIP,
-                8, 165,
+                16, 165,
                 new Stats(0,1,0,0,0,1), 75,
                 0.5,
                 175, ExperienceGroup.MEDIUM_SLOW,
@@ -96,9 +96,8 @@ public class Anaconduct extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 48, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

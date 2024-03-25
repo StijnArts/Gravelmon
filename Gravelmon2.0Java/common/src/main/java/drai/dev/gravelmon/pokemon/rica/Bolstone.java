@@ -17,14 +17,15 @@ public class Bolstone extends drai.dev.gravelmon.pokemon.Pokemon {
                         76,
                         20),
                 List.of(Ability.SOLID_ROCK,Ability.SAND_FORCE,Ability.STURDY), Ability.STURDY,
-                8, 165,
+                10, 165,
                 new Stats(0,0,2,0,0,0), 120,
                 0.5,
                 140, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Bolstone spend most of their time hidden among boulders. They love to bask in the sun, but fight back if disturbed."),
-                List.of(),
+                List.of(new EvolutionEntry("terrouldite", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUD_SPORT,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,6),
@@ -84,9 +85,8 @@ public class Bolstone extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SANDSHOT,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 42, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN, Biome.IS_CAVE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

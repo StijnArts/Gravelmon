@@ -17,7 +17,7 @@ public class Merjestic extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         95),
                 List.of(Ability.COMPETITIVE,Ability.THICK_FAT,Ability.PIXILATE), Ability.PIXILATE,
-                8, 165,
+                13, 165,
                 new Stats(2,0,0,1,0,0), 45,
                 0.0,
                 225, ExperienceGroup.MEDIUM_SLOW,
@@ -101,14 +101,15 @@ public class Merjestic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 52, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Merjestic");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

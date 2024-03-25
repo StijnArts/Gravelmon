@@ -17,7 +17,7 @@ public class Tunnelid extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         115),
                 List.of(Ability.BATTLE_ARMOR), Ability.MIRROR_ARMOR,
-                8, 165,
+                76, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 184, ExperienceGroup.SLOW,
@@ -104,9 +104,9 @@ public class Tunnelid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAVY_SLAM,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

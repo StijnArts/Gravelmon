@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.otopo;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Unode extends drai.dev.gravelmon.pokemon.Pokemon {
     public Unode() {
         super("Unode",

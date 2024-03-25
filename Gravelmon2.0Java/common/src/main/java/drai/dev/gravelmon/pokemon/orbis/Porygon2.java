@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.orbis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Porygon2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Porygon2() {
         super("Porygon2",

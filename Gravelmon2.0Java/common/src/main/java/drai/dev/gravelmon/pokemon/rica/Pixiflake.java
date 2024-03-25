@@ -17,7 +17,7 @@ public class Pixiflake extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         112),
                 List.of(Ability.LEVITATE), Ability.SNOW_WARNING,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,2), 75,
                 0.0,
                 170, ExperienceGroup.ERRATIC,
@@ -88,8 +88,8 @@ public class Pixiflake extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLASH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

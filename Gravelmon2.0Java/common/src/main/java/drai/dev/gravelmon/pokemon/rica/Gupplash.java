@@ -17,14 +17,15 @@ public class Gupplash extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         80),
                 List.of(Ability.SWIFT_SWIM), Ability.FRIEND_GUARD,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 64, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("These Pokemon live in big schools and hate to be alone. When faced with a challenge, they team up to solve it."),
-                List.of(),
+                List.of(new EvolutionEntry("arowish", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WATER_GUN,1),
                         new MoveLearnSetEntry(Move.HELPING_HAND,7),
@@ -75,14 +76,16 @@ public class Gupplash extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Gupplash");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

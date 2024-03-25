@@ -1,9 +1,14 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Harestic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harestic() {
         super("Harestic",
-                Type.GRASS,Type.???,
+                Type.GRASS,Type.QUESTION_MARK,
                 new Stats(72,
                         55,
                         75,

@@ -17,7 +17,7 @@ public class Kaidon extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         48),
                 List.of(Ability.STICKY_HOLD,Ability.SHELL_ARMOR,Ability.HYDRATION), Ability.HYDRATION,
-                8, 165,
+                6, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 166, ExperienceGroup.SLOW,
@@ -98,14 +98,15 @@ public class Kaidon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BELCH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_BEACH))),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Kaidon");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

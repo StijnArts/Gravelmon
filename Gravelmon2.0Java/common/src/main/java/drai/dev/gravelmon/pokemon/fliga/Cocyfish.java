@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.fliga;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Cocyfish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cocyfish() {
         super("Cocyfish",

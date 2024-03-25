@@ -17,7 +17,7 @@ public class Sweetoad extends drai.dev.gravelmon.pokemon.Pokemon {
                         115,
                         50),
                 List.of(Ability.SUGARCOAT,Ability.STICKY_HOLD,Ability.GOOEY), Ability.GOOEY,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,2,0), 70,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -82,14 +82,15 @@ public class Sweetoad extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AROMATHERAPY,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 32, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sweetoad");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

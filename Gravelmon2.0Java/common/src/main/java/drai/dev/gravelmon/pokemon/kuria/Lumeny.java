@@ -1,9 +1,14 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Lumeny extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumeny() {
         super("Lumeny",
-                Type.LIGHT,Type.???,
+                Type.LIGHT,Type.QUESTION_MARK,
                 new Stats(100,
                         100,
                         100,

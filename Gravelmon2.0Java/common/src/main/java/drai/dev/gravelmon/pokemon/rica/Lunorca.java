@@ -17,7 +17,7 @@ public class Lunorca extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         85),
                 List.of(Ability.SWIFT_SWIM,Ability.TELEPATHY,Ability.FOREWARN), Ability.FOREWARN,
-                8, 165,
+                26, 165,
                 new Stats(0,0,0,2,0,0), 45,
                 0.5,
                 172, ExperienceGroup.MEDIUM_SLOW,
@@ -88,14 +88,17 @@ public class Lunorca extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 37, 51, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Lunorca");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

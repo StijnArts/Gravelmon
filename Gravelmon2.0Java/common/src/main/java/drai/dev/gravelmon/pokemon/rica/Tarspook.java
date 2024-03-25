@@ -17,7 +17,7 @@ public class Tarspook extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         118),
                 List.of(Ability.INSOMNIA), Ability.RATTLED,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,2), 75,
                 0.5,
                 165, ExperienceGroup.MEDIUM_SLOW,
@@ -96,9 +96,9 @@ public class Tarspook extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_SNEAK,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 7, 29, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

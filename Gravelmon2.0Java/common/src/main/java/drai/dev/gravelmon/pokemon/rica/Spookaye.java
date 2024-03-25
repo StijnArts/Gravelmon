@@ -17,7 +17,7 @@ public class Spookaye extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         115),
                 List.of(Ability.INSOMNIA), Ability.NIGHTSTALKER,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,1), 75,
                 0.5,
                 165, ExperienceGroup.MEDIUM_SLOW,

@@ -17,14 +17,15 @@ public class Minilith extends drai.dev.gravelmon.pokemon.Pokemon {
                         58,
                         13),
                 List.of(Ability.SOLID_ROCK,Ability.SAND_FORCE,Ability.STURDY), Ability.STURDY,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 255,
                 0.5,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Minilith cover themselves with dirt and pretend to be rocks. In just a few seconds, a Minilith can dig itself completely underground."),
-                List.of(),
+                List.of(new EvolutionEntry("bolstone", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUD_SPORT,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,6),
@@ -84,9 +85,8 @@ public class Minilith extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SANDSHOT,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN, Biome.IS_CAVE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

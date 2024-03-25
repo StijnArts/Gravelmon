@@ -17,14 +17,15 @@ public class Tapirunt extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         56),
                 List.of(Ability.QUICK_FEET), Ability.STATIC,
-                8, 165,
+                7, 165,
                 new Stats(1,0,0,0,0,0), 190,
                 0.5,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Tapirunt can be found wallowing in mud throughout the deep jungle. When disturbed, they will not hesitate to attack using their electricity."),
-                List.of(),
+                List.of(new EvolutionEntry("voltapir", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ODOR_SLEUTH,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,6),
@@ -91,8 +92,8 @@ public class Tapirunt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 8, 28, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

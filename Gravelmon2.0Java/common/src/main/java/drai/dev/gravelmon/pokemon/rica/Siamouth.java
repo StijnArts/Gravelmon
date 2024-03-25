@@ -17,7 +17,7 @@ public class Siamouth extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         90),
                 List.of(Ability.DEFIANT,Ability.ANGER_POINT,Ability.MOLD_BREAKER), Ability.MOLD_BREAKER,
-                8, 165,
+                9, 165,
                 new Stats(0,2,0,0,0,0), 90,
                 0.5,
                 165, ExperienceGroup.MEDIUM_FAST,
@@ -104,14 +104,16 @@ public class Siamouth extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 46, 1.2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Siamouth");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

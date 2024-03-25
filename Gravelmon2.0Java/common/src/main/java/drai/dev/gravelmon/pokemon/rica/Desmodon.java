@@ -17,7 +17,7 @@ public class Desmodon extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         85),
                 List.of(Ability.DRY_SKIN), Ability.TELEPATHY,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,3,0,0), 45,
                 0.5,
                 230, ExperienceGroup.MEDIUM_FAST,
@@ -114,14 +114,15 @@ public class Desmodon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 33, 54, .03, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND, Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD))),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Desmodon");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

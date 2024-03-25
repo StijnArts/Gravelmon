@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.orbis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Scovillain extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scovillain() {
         super("Scovillain",

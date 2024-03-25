@@ -17,14 +17,15 @@ public class Delphair extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         60),
                 List.of(Ability.RUN_AWAY), Ability.AIRBORNE,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,1,0,0), 45,
                 0.5,
                 72, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("These playful Pokemon can be seen leaping through clouds from a high altitude. They rarely come down to land."),
-                List.of(),
+                List.of(new EvolutionEntry("aerocea", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"52")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
                         new MoveLearnSetEntry(Move.AERIAL_ACE,8),
@@ -99,14 +100,14 @@ public class Delphair extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 32, 2.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Delphair");
+        setCanFly(true);
 
     }
 

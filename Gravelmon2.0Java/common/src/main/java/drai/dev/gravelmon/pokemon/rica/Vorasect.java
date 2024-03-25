@@ -17,7 +17,7 @@ public class Vorasect extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         125),
                 List.of(Ability.HUSTLE,Ability.QUICK_FEET,Ability.STRONG_JAW), Ability.STRONG_JAW,
-                8, 165,
+                10, 165,
                 new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 168, ExperienceGroup.MEDIUM_FAST,
@@ -106,8 +106,8 @@ public class Vorasect extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 51, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

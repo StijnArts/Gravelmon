@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "orcabyss",
-  "nationalPokedexNumber": 1334,
+  "nationalPokedexNumber": 1462,
   "primaryType": "water",
   "abilities": [
     "pressure",
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },

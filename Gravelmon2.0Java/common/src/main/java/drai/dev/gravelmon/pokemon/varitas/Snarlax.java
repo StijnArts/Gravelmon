@@ -17,7 +17,7 @@ public class Snarlax extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         30),
                 List.of(Ability.INSOMNIA,Ability.THICK_FAT,Ability.GLUTTONY), Ability.GLUTTONY,
-                8, 165,
+                21, 165,
                 new Stats(2,0,0,0,0,0), 25,
                 0.875,
                 189, ExperienceGroup.SLOW,

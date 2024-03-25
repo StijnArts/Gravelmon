@@ -17,14 +17,15 @@ public class Leaflit extends drai.dev.gravelmon.pokemon.Pokemon {
                         30,
                         75),
                 List.of(Ability.RATTLED), Ability.LEAF_GUARD,
-                8, 165,
+                2, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 58, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.FIELD),
                 List.of("Leaflit are abundant but can be difficult to spot because of their camouflage. When spotted, they will dash to make a getaway."),
-                List.of(),
+                List.of(new EvolutionEntry("fauxiage", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.LEAFTURN,7),
@@ -90,8 +91,8 @@ public class Leaflit extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FINAL_GAMBIT,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

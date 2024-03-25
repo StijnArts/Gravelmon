@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.mongratis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Tobishimi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tobishimi() {
         super("Tobishimi",

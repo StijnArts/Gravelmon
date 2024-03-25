@@ -17,14 +17,15 @@ public class Severm extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         15),
                 List.of(Ability.SWARM,Ability.REGENERATOR,Ability.UNNERVE), Ability.UNNERVE,
-                8, 165,
+                6, 165,
                 new Stats(1,0,0,0,0,0), 255,
                 0.5,
                 53, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("They like to make their homes in old stumps. Because of this, they can be dangerous to Phantump if the two meet."),
-                List.of(),
+                List.of(new EvolutionEntry("infesteed", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.INGRAIN,1),
                         new MoveLearnSetEntry(Move.BRANCH_POKE,3),
@@ -69,9 +70,9 @@ public class Severm extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOSHOCK,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 26, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

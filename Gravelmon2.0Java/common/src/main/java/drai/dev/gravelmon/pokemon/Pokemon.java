@@ -276,11 +276,22 @@ public class Pokemon {
         var evaluatedMons = new ArrayList<>();
         StringBuilder pokemonWithZeroCatchrate = new StringBuilder("Pokemon with 0 catch-rate: \n");
         StringBuilder pokemonWithZeroBaseStats = new StringBuilder("Pokemon with 0 Base Stats: \n");
+        StringBuilder pokemonWithMoreThanTwoSpawnPresets = new StringBuilder("Pokemon with more than 1 spawn preset: \n");
         for (Pokemon pokemon : pokemonRegistry) {
             if (pokemon.getCatchRate() == 0)
                 pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
             if (pokemon.getStats().getTotal() == 0)
                 pokemonWithZeroBaseStats.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
+            if(pokemon.spawnPresets.size()>1){
+                pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ")
+                        .append(pokemon.getCleanName()).append(", being: ");
+                for (var preset :
+                        pokemon.spawnPresets) {
+                    pokemonWithMoreThanTwoSpawnPresets.append(preset).append(",");
+                }
+                pokemonWithMoreThanTwoSpawnPresets.append("\n");
+            }
+
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
                 Pokemon result = pokemonRegistry.stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
                 if (result != null) {
@@ -356,6 +367,7 @@ public class Pokemon {
         System.out.println(pokemonThatEvolveIntoThemselves);
         System.out.println(pokemonWithZeroBaseStats);
         System.out.println(pokemonWithZeroCatchrate);
+        System.out.println(pokemonWithMoreThanTwoSpawnPresets);
         System.out.println("Evolution Items:");
         for (String item :
                 evolutionItems) {

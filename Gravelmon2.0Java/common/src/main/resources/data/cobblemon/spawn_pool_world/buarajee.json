@@ -7,8 +7,7 @@
       "id": "buarajee-1",
       "pokemon": "buarajee",
       "presets": [
-          "trail_ruins",
-          "jungle_pyramid"
+          "trail_ruins"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -17,7 +17,7 @@ public class Rabite extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         105),
                 List.of(Ability.POISON_TOUCH,Ability.FRISK,Ability.STRONG_JAW), Ability.STRONG_JAW,
-                8, 165,
+                10, 165,
                 new Stats(0,1,0,0,0,1), 75,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
@@ -100,8 +100,8 @@ public class Rabite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 42, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

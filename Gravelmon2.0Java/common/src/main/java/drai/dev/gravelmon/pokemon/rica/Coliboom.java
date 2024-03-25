@@ -17,7 +17,7 @@ public class Coliboom extends drai.dev.gravelmon.pokemon.Pokemon {
                         87,
                         130),
                 List.of(Ability.SNIPER,Ability.EARLY_BIRD,Ability.DAZZLING), Ability.DAZZLING,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 175, ExperienceGroup.FAST,
@@ -96,14 +96,14 @@ public class Coliboom extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAINBOWGUST,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 36, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Coliboom");
+        setCanFly(true);
 
     }
 

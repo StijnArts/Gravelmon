@@ -17,7 +17,7 @@ public class Conchorn extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         45),
                 List.of(Ability.POISON_POINT), Ability.POISON_POINT,
-                8, 165,
+                16, 165,
                 new Stats(0,0,2,0,0,0), 45,
                 0.5,
                 170, ExperienceGroup.MEDIUM_SLOW,
@@ -95,14 +95,16 @@ public class Conchorn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 41, 62, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Conchorn");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

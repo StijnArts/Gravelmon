@@ -42,7 +42,7 @@ public class Terradobe extends drai.dev.gravelmon.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 28, 4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SANDY))
                 ), List.of(),
-                List.of(SpawnPreset.TRAIL_RUINS, SpawnPreset.DESERT_PYRAMID),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Terradobe");

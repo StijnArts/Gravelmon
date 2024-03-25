@@ -17,7 +17,7 @@ public class Makakari extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         110),
                 List.of(Ability.INTIMIDATE), Ability.TECHNICIAN,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 186, ExperienceGroup.MEDIUM_FAST,
@@ -118,8 +118,8 @@ public class Makakari extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAIL_SLAP,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 43, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

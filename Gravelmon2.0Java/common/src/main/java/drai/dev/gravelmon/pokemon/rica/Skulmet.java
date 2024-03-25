@@ -17,14 +17,15 @@ public class Skulmet extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         40),
                 List.of(Ability.BATTLE_ARMOR,Ability.PICKUP,Ability.CURSED_BODY), Ability.CURSED_BODY,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 61, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MINERAL),
                 List.of("Skulmet gathers bones in order to protect itself. These Pokemon thrive wherever there is a lot of death."),
-                List.of(),
+                List.of(new EvolutionEntry("femurk", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.FURY_ATTACK,8),
@@ -105,8 +106,9 @@ public class Skulmet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PHANTOM_FORCE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 26, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

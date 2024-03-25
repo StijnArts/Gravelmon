@@ -24,7 +24,8 @@ public class Wyvet extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("This joyful Pokemon is drawn to bright colors. Trainers seeking Wyvet wear brightly-colored shirts to increase their chances of finding it."),
-                List.of(),
+                List.of(new EvolutionEntry("draybow", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"45")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
                         new MoveLearnSetEntry(Move.FAIRY_WIND,6),
@@ -112,14 +113,14 @@ public class Wyvet extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEAL_PULSE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 33, 5.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Wyvet");
+        setCanFly(true);
 
     }
 

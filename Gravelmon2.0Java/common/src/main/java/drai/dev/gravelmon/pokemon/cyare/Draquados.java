@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.cyare;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Draquados extends drai.dev.gravelmon.pokemon.Pokemon {
     public Draquados() {
         super("Draquados",

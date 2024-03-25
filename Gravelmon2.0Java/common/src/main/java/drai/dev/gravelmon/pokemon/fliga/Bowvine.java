@@ -1,5 +1,15 @@
 package drai.dev.gravelmon.pokemon.fliga;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Bowvine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bowvine() {
         super("Bowvine",
@@ -35,7 +45,7 @@ public class Bowvine extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPIKY_SHIELD,44),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,47),
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,52),
-                        new MoveLearnSetEntry(Move.NATURE'SCALL,56)                        ),
+                        new MoveLearnSetEntry(Move.NATURESCALL,56)                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(

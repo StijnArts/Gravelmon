@@ -17,14 +17,16 @@ public class Colobud extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         78),
                 List.of(Ability.PICKUP), Ability.TECHNICIAN,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,1), 220,
                 0.5,
                 70, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.GRASS),
                 List.of("Colobud traverse the jungles of Rica by swinging and jumping through trees. Big groups of Colobud are so noisy that they can be heard from half a mile away."),
-                List.of(),
+                List.of(new EvolutionEntry("makakari", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+
+                                Biome.IS_FLORAL.getId() + ":" + Biome.IS_FLORAL.getName() +"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARM,1),
                         new MoveLearnSetEntry(Move.VINE_WHIP,6),
@@ -102,8 +104,8 @@ public class Colobud extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAIL_SLAP,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 8, 28, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

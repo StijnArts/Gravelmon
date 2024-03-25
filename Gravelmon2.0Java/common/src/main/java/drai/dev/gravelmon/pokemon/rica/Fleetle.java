@@ -17,14 +17,15 @@ public class Fleetle extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         70),
                 List.of(Ability.HUSTLE,Ability.QUICK_FEET,Ability.RUN_AWAY), Ability.RUN_AWAY,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 62, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Fleetle come in many different colors and patterns, which are local to specific areas in Rica. Their bright colors warn predators of their foul taste."),
-                List.of(),
+                List.of(new EvolutionEntry("vorasect", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWIFT,1),
                         new MoveLearnSetEntry(Move.DETECT,6),
@@ -100,8 +101,8 @@ public class Fleetle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 6, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

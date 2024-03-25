@@ -7,8 +7,7 @@
       "id": "fulgnash-1",
       "pokemon": "fulgnash",
       "presets": [
-          "trail_ruins",
-          "illager_structures"
+          "trail_ruins"
       ],
       "type": "pokemon",
       "context": "grounded",

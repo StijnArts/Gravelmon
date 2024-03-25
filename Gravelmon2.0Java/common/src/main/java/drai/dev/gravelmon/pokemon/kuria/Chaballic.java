@@ -1,9 +1,19 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Chaballic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chaballic() {
         super("Chaballic",
-                Type.???,Type.DRAGON,
+                Type.QUESTION_MARK,Type.DRAGON,
                 new Stats(90,
                         71,
                         85,

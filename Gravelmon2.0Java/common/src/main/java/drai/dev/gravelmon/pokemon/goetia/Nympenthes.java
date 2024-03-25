@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.goetia;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Nympenthes extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nympenthes() {
         super("Nympenthes",

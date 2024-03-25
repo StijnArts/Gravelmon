@@ -17,7 +17,7 @@ public class Lumibuzz extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         41),
                 List.of(Ability.SWARM,Ability.ILLUMINATE,Ability.TINTED_LENS), Ability.TINTED_LENS,
-                8, 165,
+                14, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 182, ExperienceGroup.MEDIUM_SLOW,
@@ -74,8 +74,8 @@ public class Lumibuzz extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BUG_BUZZ,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 29, 47, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

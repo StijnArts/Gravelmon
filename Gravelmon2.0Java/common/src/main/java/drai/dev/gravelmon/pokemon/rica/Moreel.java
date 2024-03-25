@@ -17,14 +17,15 @@ public class Moreel extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         65),
                 List.of(Ability.MOXIE,Ability.RATTLED,Ability.SCAVENGE), Ability.SCAVENGE,
-                8, 165,
+                12, 165,
                 new Stats(0,1,0,0,0,0), 180,
                 0.5,
                 70, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Moreel is a feared predator in the open ocean. These Pokemon come out at night to hunt, but spend the daytime sleeping in dark crevices."),
-                List.of(),
+                List.of(new EvolutionEntry("darscale", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"42")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),
                         new MoveLearnSetEntry(Move.BITE,6),
@@ -103,14 +104,16 @@ public class Moreel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CLOSE_COMBAT,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 7, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Moreel");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

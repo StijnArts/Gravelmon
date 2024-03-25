@@ -17,14 +17,15 @@ public class Odonymph extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         50),
                 List.of(Ability.HUSTLE), Ability.HUSTLE,
-                8, 165,
+                5, 165,
                 new Stats(0,1,0,0,0,0), 120,
                 0.5,
                 57, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Hidden in the mud, Odonymph lunges at its prey in the blink of an eye. Its fast-moving claws slash prey before it can respond."),
-                List.of(),
+                List.of(new EvolutionEntry("nymbide", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.MUD_SPORT,1),
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,9),
@@ -84,8 +85,8 @@ public class Odonymph extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDSLAP,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

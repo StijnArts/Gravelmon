@@ -44,7 +44,7 @@ public class Fulgnash extends drai.dev.gravelmon.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.TRAIL_RUINS, SpawnPreset.ILLAGER_STRUCTURES),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fulgnash");

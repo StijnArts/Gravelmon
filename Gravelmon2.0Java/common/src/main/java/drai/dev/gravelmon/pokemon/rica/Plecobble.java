@@ -17,14 +17,15 @@ public class Plecobble extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         65),
                 List.of(Ability.BATTLE_ARMOR), Ability.SUCTION_CUPS,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 180,
                 0.5,
                 67, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("Plecobble latch onto rocks in fast-flowing rivers with their powerful suction mouth. Their thick armor protects them from any attacks."),
-                List.of(),
+                List.of(new EvolutionEntry("granikan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BUBBLE,1),
                         new MoveLearnSetEntry(Move.ROCK_POLISH,8),
@@ -97,14 +98,16 @@ public class Plecobble extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 8, 27, 2.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Plecobble");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

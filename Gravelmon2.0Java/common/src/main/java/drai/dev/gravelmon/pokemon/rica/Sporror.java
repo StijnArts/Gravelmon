@@ -17,7 +17,7 @@ public class Sporror extends drai.dev.gravelmon.pokemon.Pokemon {
                         105,
                         55),
                 List.of(Ability.SOULABSORB), Ability.SOULABSORB,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,2,0), 45,
                 0.5,
                 161, ExperienceGroup.MEDIUM_FAST,
@@ -82,9 +82,9 @@ public class Sporror extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.LOCKON,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 46, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY, Biome.IS_MAGICAL, Biome.IS_MUSHROOM)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

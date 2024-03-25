@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.tokas;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Oinklit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oinklit() {
         super("Oinklit",

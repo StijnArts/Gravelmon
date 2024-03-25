@@ -17,14 +17,15 @@ public class Snoosect extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         25),
                 List.of(Ability.SWARM,Ability.OBLIVIOUS,Ability.TINTED_LENS), Ability.TINTED_LENS,
-                8, 165,
+                6, 165,
                 new Stats(1,0,0,0,0,0), 90,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Snoosect spend most of their time asleep. Even when in a deep slumber, their antennae can sense incoming danger."),
-                List.of(),
+                List.of(new EvolutionEntry("lumibuzz", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.BIDE,1),
                         new MoveLearnSetEntry(Move.REST,7),
@@ -71,8 +72,8 @@ public class Snoosect extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BUG_BUZZ,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

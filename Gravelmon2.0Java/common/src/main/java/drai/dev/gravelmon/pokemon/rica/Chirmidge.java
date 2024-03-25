@@ -17,7 +17,7 @@ public class Chirmidge extends drai.dev.gravelmon.pokemon.Pokemon {
                         55,
                         112),
                 List.of(Ability.SWARM), Ability.SWIFTDODGE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,2), 120,
                 0.5,
                 145, ExperienceGroup.MEDIUM_FAST,
@@ -80,14 +80,14 @@ public class Chirmidge extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STICKY_WEB,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 15, 28, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Chirmidge");
+        setCanFly(true);
 
     }
 

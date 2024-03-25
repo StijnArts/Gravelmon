@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.goetia;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Sergeant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sergeant() {
         super("Sergeant",

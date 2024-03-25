@@ -17,14 +17,15 @@ public class Barnub extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         20),
                 List.of(Ability.FILTER,Ability.DRY_SKIN,Ability.TIGHTGRIP), Ability.TIGHTGRIP,
-                8, 165,
+                3, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 60, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.WATER_3),
                 List.of("This Pokemon eats by filtering particles out of the water. Because of its dislike of bright lights, Barnub tends to be found in very dark locations."),
-                List.of(),
+                List.of(new EvolutionEntry("detritan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:reaper_cloth\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.BIDE,6),
@@ -94,14 +95,16 @@ public class Barnub extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_BONE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 8, 29, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Barnub");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.fliga;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Grovyle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grovyle() {
         super("Grovyle",

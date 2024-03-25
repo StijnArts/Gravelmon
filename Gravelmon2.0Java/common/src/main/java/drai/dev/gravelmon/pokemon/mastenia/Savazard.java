@@ -1,5 +1,15 @@
 package drai.dev.gravelmon.pokemon.mastenia;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Savazard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Savazard() {
         super("Savazard",
@@ -10,7 +20,7 @@ public class Savazard extends drai.dev.gravelmon.pokemon.Pokemon {
                         102,
                         75,
                         70),
-                List.of(Ability.BLAZE), Ability.DRAGON'SMAW,
+                List.of(Ability.BLAZE), Ability.DRAGONS_MAW,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.87,

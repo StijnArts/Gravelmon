@@ -1644,11 +1644,45 @@ public enum Move {
     METEOR_SHOWER("meteorshower", false),
     HYDRO_PUNCH("hydropunch", false),
     FLYTRAP_FANG("flytrapfang", false),
-    NATURES_CALL("naturescall", false), CHERUB_ARROW("cherubarrow", false), BURNING_PASSION("burningpassion", false);
+    NATURES_CALL("naturescall", false),
+    CHERUB_ARROW("cherubarrow", false),
+    BURNING_PASSION("burningpassion", false),
+    DREDGE("dredge", false),
+    CAFFEINESIP("caffeinesip"),
+    PHANTOMHAND("phantomhand"),
+    DURESS("duress"),
+    MANAFROST("manafrost"),
+    PHANTORUSH("phantorush"),
+    SANDYSPLASH("sandysplash"),
+    AMBUSCADE("ambuscade"),
+    MAGNETLAUNCH("magnetlaunch"),
+    RESERVOIR("reservoir"),
+    ABYSSALDIVE("abyssaldive"),
+    SUGARSLAM("sugarslam"),
+    SHROUDEDSTRIKE("shroudedstrike"),
+    SHININGBLADE("shiningblade"),
+    LUMINOUSBLAST("luminousblast"),
+    DIVERT("divert"),
+    CHEERUP("cheerup"),
+    CLEANSINGLIGHT("cleansinglight"),
+    HOLYBLESSING("holyblessing"),
+    WONDROUSFLAME("wondrousflame"),
+    SMITE("smite"),
+    UPPERHAND("upperhand"),
+    DRAGONCHEER("dragoncheer", true),
+    SUPERCELLSLAM("supercellslam", true),
+    MYSTICORB("mysticorb"), OVERCONFIDENT("overconfident");
 
     private String name;
     private boolean implemented;
     private String typeOverwrite;
+
+
+    Move(String name){
+        this.name = name;
+        this.implemented = false;
+    }
+
     Move(String name, Boolean implemented){
         this.name = name;
         this.implemented = implemented;

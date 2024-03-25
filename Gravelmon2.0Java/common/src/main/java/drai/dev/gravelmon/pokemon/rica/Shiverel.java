@@ -17,14 +17,15 @@ public class Shiverel extends drai.dev.gravelmon.pokemon.Pokemon {
                         51,
                         80),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 220,
                 0.5,
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.AMORPHOUS),
                 List.of("Shiverel are always cold. They snuggle into their tail to get warm, but because they do not produce any body heat, they are unable to warm up."),
-                List.of(),
+                List.of(new EvolutionEntry("stoatzen", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"27")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),
                         new MoveLearnSetEntry(Move.ODOR_SLEUTH,6),
@@ -99,8 +100,9 @@ public class Shiverel extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWITCHEROO,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

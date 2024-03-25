@@ -17,14 +17,15 @@ public class Crabot extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         45),
                 List.of(Ability.SHELL_ARMOR), Ability.VOLT_ABSORB,
-                8, 165,
+                6, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3),
                 List.of("Crabot endlessly scour the jungle floor in search of food, never stopping to relax. Sometimes, swarms of up to 100 Crabot can form."),
-                List.of(),
+                List.of(new EvolutionEntry("craborg", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HARDEN,1),
                         new MoveLearnSetEntry(Move.METAL_SOUND,5),
@@ -120,9 +121,8 @@ public class Crabot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PINCH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 9, 29, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -37,7 +37,7 @@ public class Lauvader extends drai.dev.gravelmon.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 54, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.TRAIL_RUINS, SpawnPreset.JUNGLE_PYRAMID),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Lauvader");

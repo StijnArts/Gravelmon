@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.mastenia;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Bebushi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bebushi() {
         super("Bebushi",

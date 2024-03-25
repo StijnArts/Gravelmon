@@ -17,7 +17,7 @@ public class Sealord extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         65),
                 List.of(Ability.INTIMIDATE,Ability.THICK_FAT,Ability.ANGER_POINT), Ability.ANGER_POINT,
-                8, 165,
+                15, 165,
                 new Stats(3,0,0,0,0,0), 45,
                 1.0,
                 225, ExperienceGroup.MEDIUM_SLOW,
@@ -102,14 +102,15 @@ public class Sealord extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 52, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN, Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Sealord");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
 
     }
 

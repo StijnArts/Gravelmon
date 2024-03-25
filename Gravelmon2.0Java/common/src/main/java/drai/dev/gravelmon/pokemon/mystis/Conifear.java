@@ -1,5 +1,15 @@
 package drai.dev.gravelmon.pokemon.mystis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Conifear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conifear() {
         super("Conifear",
@@ -52,7 +62,7 @@ public class Conifear extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,1),
                         new MoveLearnSetEntry(Move.LEAFAGE,1),
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,1),
-                        new MoveLearnSetEntry(Move.FOREST'SCURSE,1),
+                        new MoveLearnSetEntry(Move.FORESTS_CURSE,1),
                         new MoveLearnSetEntry(Move.BLIZZARD,1),
                         new MoveLearnSetEntry(Move.ICE_PUNCH,1)                        ),
                 List.of(Label.MYSTIS),

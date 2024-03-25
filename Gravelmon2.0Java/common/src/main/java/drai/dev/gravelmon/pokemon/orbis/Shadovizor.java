@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.orbis;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Shadovizor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shadovizor() {
         super("Shadovizor",

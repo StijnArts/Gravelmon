@@ -1,0 +1,155 @@
+{
+  "implemented": true,
+  "name": "cirritwirl",
+  "nationalPokedexNumber": 1389,
+  "primaryType": "flying",
+  "abilities": [
+    "cloudnine",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 50,
+    "defence": 45,
+    "special_attack": 75,
+    "special_defence": 53,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 68,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:charm",
+    "6:rapidspin",
+    "9:defog",
+    "13:twister",
+    "18:whirlwind",
+    "27:silverwind",
+    "32:razorwind",
+    "37:featherdance",
+    "41:airslash",
+    "45:skyattack",
+    "50:tailwind",
+    "55:hurricane",
+    "60:weatherball",
+    "tm:weatherball",
+    "tm:heatwave",
+    "tm:icywind",
+    "tm:bounce",
+    "tm:airslash",
+    "tm:dualwingbeat",
+    "tm:healbellsound",
+    "tm:defog",
+    "tm:tailwind",
+    "tm:echoedvoicesound",
+    "tm:return",
+    "tm:frustration",
+    "tm:facade",
+    "tm:hiddenpower",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:focusblast",
+    "tm:uturn",
+    "tm:solarbeam",
+    "tm:thunder",
+    "tm:blizzard",
+    "tm:steelwing",
+    "tm:shadowball",
+    "tm:psychic",
+    "tm:dazzlinggleam",
+    "tm:protect",
+    "tm:swagger",
+    "tm:doubleteam",
+    "tm:attract",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:snowscape",
+    "tm:sandstorm",
+    "tm:roost",
+    "tm:taunt",
+    "tm:workup",
+    "tm:toxic",
+    "tm:cut",
+    "tm:fly",
+    "tm:icywind",
+    "tm:aircutter",
+    "tm:defog",
+    "tm:ominouswind",
+    "tm:fairywind"  ],
+  "labels": [
+    "rica",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cirritwirl.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cirritwirl_torricane",
+      "variant": "level_up",
+      "result": "torricane",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

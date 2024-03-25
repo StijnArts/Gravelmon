@@ -17,14 +17,15 @@ public class Archick extends drai.dev.gravelmon.pokemon.Pokemon {
                         37,
                         73),
                 List.of(Ability.KEEN_EYE,Ability.VITAL_SPIRIT,Ability.GALE_WINGS), Ability.GALE_WINGS,
-                8, 165,
+                3, 165,
                 new Stats(0,0,0,0,0,1), 255,
                 0.5,
                 54, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Archick are commonly found along the coast, especially in rocky areas. They can also be found flying over the sea."),
-                List.of(),
+                List.of(new EvolutionEntry("terundra", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHIRP,1),
                         new MoveLearnSetEntry(Move.FURY_ATTACK,6),
@@ -87,14 +88,14 @@ public class Archick extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AURORA_VEIL,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Archick");
+        setCanFly(true);
 
     }
 

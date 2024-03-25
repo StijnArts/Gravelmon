@@ -7,7 +7,7 @@
       "id": "drenchest-1",
       "pokemon": "drenchest",
       "presets": [
-          "underwater"
+          "shipwreck"
       ],
       "type": "pokemon",
       "context": "submerged",

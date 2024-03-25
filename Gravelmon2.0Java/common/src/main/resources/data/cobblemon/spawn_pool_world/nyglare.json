@@ -7,8 +7,7 @@
       "id": "nyglare-1",
       "pokemon": "nyglare",
       "presets": [
-          "freshwater",
-          "natural"
+          "freshwater"
       ],
       "type": "pokemon",
       "context": "surface",

@@ -17,7 +17,7 @@ public class Taekowl extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         100),
                 List.of(Ability.LIMBER), Ability.BIG_PECKS,
-                8, 165,
+                14, 165,
                 new Stats(0,2,0,0,0,0), 75,
                 0.5,
                 170, ExperienceGroup.MEDIUM_SLOW,
@@ -95,14 +95,14 @@ public class Taekowl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SKY_DROP,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 30, 45, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Taekowl");
+        setCanFly(true);
 
     }
 

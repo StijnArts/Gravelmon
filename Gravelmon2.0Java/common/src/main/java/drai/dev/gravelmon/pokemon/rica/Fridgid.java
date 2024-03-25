@@ -17,7 +17,7 @@ public class Fridgid extends drai.dev.gravelmon.pokemon.Pokemon {
                         87,
                         60),
                 List.of(Ability.REFRIGERATE), Ability.WATER_ABSORB,
-                8, 165,
+                58, 165,
                 new Stats(3,0,0,0,0,0), 45,
                 0.5,
                 187, ExperienceGroup.FLUCTUATING,
@@ -106,14 +106,16 @@ public class Fridgid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COLDSNAP,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 36, 56, 1.3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FROZEN_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Fridgid");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

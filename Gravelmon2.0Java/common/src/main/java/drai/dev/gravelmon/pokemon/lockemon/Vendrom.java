@@ -52,7 +52,7 @@ public class Vendrom extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.STRONGHOLD, SpawnPreset.UNDERWATER),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);

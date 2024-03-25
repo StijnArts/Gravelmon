@@ -17,7 +17,7 @@ public class Voltapir extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         78),
                 List.of(Ability.QUICK_FEET), Ability.STATIC,
-                8, 165,
+                14, 165,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 177, ExperienceGroup.MEDIUM_SLOW,
@@ -93,8 +93,8 @@ public class Voltapir extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 51, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

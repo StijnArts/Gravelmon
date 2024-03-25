@@ -17,14 +17,15 @@ public class Skunfume extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         62),
                 List.of(Ability.AROMA_VEIL), Ability.SERENE_GRACE,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 235,
                 0.5,
                 59, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FAIRY),
                 List.of("This Pokemon becomes active at night. Skunfume uses its sweet scent to attract Bug Pokemon to eat."),
-                List.of(),
+                List.of(new EvolutionEntry("perfessence", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SWEET_SCENT,1),
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,6),
@@ -95,14 +96,13 @@ public class Skunfume extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAINBOWGUST,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_SPOOKY))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Skunfume");
 
     }
 

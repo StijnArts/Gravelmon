@@ -17,7 +17,7 @@ public class Orbizarre extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         20),
                 List.of(Ability.SHELL_ARMOR), Ability.SHIELD_DUST,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,1,1,0), 120,
                 0.5,
                 151, ExperienceGroup.ERRATIC,
@@ -110,14 +110,16 @@ public class Orbizarre extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 25, 47, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST, Biome.IS_GRASSLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FRESHWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Orbizarre");
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

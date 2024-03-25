@@ -17,7 +17,7 @@ public class Solana extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         70),
                 List.of(Ability.SOLAR_POWER,Ability.DROUGHT,Ability.INTIMIDATE), Ability.INTIMIDATE,
-                8, 165,
+                22, 165,
                 new Stats(1,0,0,2,0,0), 35,
                 0.5,
                 236, ExperienceGroup.MEDIUM_SLOW,
@@ -101,8 +101,8 @@ public class Solana extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AUTOTOMIZE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 43, 61, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

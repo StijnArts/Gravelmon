@@ -7,8 +7,7 @@
       "id": "aristosiankangaskhan-1",
       "pokemon": "aristosiankangaskhan",
       "presets": [
-          "natural",
-          "wild"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

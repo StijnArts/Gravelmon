@@ -17,7 +17,7 @@ public class Fulgoryu extends drai.dev.gravelmon.pokemon.Pokemon {
                         85,
                         65),
                 List.of(Ability.WONDER_SKIN), Ability.WONDER_SKIN,
-                8, 165,
+                12, 165,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -41,14 +41,14 @@ public class Fulgoryu extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.QUIVER_DANCE,57)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 43, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Fulgoryu");
+        setCanFly(true);
 
     }
 

@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.olysos;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Tryprock extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tryprock() {
         super("Tryprock",

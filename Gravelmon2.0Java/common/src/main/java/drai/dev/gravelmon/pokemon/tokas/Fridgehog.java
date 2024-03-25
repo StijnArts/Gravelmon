@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.tokas;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Fridgehog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fridgehog() {
         super("Fridgehog",

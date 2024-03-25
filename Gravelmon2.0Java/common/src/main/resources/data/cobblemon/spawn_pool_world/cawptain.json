@@ -7,7 +7,6 @@
       "id": "cawptain-1",
       "pokemon": "cawptain",
       "presets": [
-          "natural",
           "shipwreck"
       ],
       "type": "pokemon",

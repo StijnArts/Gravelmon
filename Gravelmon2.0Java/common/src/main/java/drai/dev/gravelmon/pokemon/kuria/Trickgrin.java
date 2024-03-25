@@ -1,9 +1,14 @@
 package drai.dev.gravelmon.pokemon.kuria;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Trickgrin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trickgrin() {
         super("Trickgrin",
-                Type.DARK,Type.???,
+                Type.DARK,Type.QUESTION_MARK,
                 new Stats(40,
                         50,
                         40,

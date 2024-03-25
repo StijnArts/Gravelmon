@@ -7,7 +7,6 @@
       "id": "lauvered-1",
       "pokemon": "lauvered",
       "presets": [
-          "trail_ruins",
           "jungle_pyramid"
       ],
       "type": "pokemon",

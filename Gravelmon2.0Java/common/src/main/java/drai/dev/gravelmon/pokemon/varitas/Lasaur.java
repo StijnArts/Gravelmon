@@ -17,14 +17,15 @@ public class Lasaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         80),
                 List.of(Ability.LIGHTNING_ROD), Ability.GALVANIZE,
-                8, 165,
+                7, 165,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("It can concentrate a weak electric charge in the crest on its head. Though this only produces minor electric attacks, it also stimulates its brain, heightening its reflexes."),
-                List.of(),
+                List.of(new EvolutionEntry("lectosaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),
                         new MoveLearnSetEntry(Move.SCREECH,5),
@@ -40,8 +41,8 @@ public class Lasaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERBOLT,55)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 22, 38, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

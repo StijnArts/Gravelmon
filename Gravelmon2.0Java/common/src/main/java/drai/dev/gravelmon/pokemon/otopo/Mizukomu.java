@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.otopo;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Mizukomu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mizukomu() {
         super("Mizukomu",

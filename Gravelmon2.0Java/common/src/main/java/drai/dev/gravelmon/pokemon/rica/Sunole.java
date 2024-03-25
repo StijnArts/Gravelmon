@@ -17,14 +17,15 @@ public class Sunole extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         64),
                 List.of(Ability.SOLAR_POWER,Ability.KEEN_EYE,Ability.INTIMIDATE), Ability.INTIMIDATE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,0,0,0,1), 190,
                 0.5,
                 60, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of("Sunole basks on warm tree trunks to store energy for its Fire-type moves. When threatened, it flashes its brightly colored dewlap as a warning."),
-                List.of(),
+                List.of(new EvolutionEntry("baskilisk", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"22")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SINGE,6),
@@ -103,8 +104,8 @@ public class Sunole extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AUTOTOMIZE,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,5 +1,10 @@
 package drai.dev.gravelmon.pokemon.goetia;
 
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+
 public class Ashmodeus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ashmodeus() {
         super("Ashmodeus",

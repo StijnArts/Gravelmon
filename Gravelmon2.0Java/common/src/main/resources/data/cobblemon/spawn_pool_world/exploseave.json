@@ -7,8 +7,7 @@
       "id": "exploseave-1",
       "pokemon": "exploseave",
       "presets": [
-          "ocean_monument",
-          "ocean_ruins"
+          "ocean_monument"
       ],
       "type": "pokemon",
       "context": "submerged",

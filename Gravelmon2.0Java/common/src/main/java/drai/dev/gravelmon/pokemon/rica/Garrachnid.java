@@ -17,7 +17,7 @@ public class Garrachnid extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         108),
                 List.of(Ability.WEAK_ARMOR), Ability.HUSTLE,
-                8, 165,
+                5, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 163, ExperienceGroup.MEDIUM_FAST,
@@ -107,9 +107,9 @@ public class Garrachnid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FELL_STINGER,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -17,7 +17,7 @@ public class Bearserk extends drai.dev.gravelmon.pokemon.Pokemon {
                         70,
                         80),
                 List.of(Ability.FLAME_BODY), Ability.SHEER_FORCE,
-                8, 165,
+                18, 165,
                 new Stats(0,2,0,0,0,0), 45,
                 0.5,
                 186, ExperienceGroup.MEDIUM_FAST,
@@ -121,9 +121,8 @@ public class Bearserk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STRENGTH,"tm")                        ),
                 List.of(Label.RICA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 53, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
