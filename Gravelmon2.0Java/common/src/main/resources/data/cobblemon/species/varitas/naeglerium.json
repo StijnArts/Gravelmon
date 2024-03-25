@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 50,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -61,12 +61,15 @@
     "60:psychic"  ],
   "labels": [
     "varitas",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.naeglerium.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "preEvolution": "agitwin",
+  "baseScale": 0.35000000000000003,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -81,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 14,
   "weight": 165,
   "aspects": [],
 "features": [

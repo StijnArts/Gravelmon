@@ -24,7 +24,7 @@
     },
     "moving": {
         "fly": {
-            "canFly": false
+            "canFly": true
         },
         "canLook": true,
         "walk": {
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 60,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -63,12 +63,15 @@
     "57:quiverdance"  ],
   "labels": [
     "varitas",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fulgoryu.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "preEvolution": "beacoon",
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -83,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -18,7 +18,7 @@ public class Lasaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         80),
                 List.of(Ability.LIGHTNING_ROD), Ability.GALVANIZE,
                 7, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

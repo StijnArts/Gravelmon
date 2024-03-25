@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 60,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -68,7 +68,7 @@
   "pokedex": [
     "cobblemon.species.taranterror.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -83,7 +83,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 15,
   "weight": 165,
   "aspects": [],
 "features": [

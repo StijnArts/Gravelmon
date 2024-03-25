@@ -39,7 +39,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 50,
   "maleRatio": 0.25,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -50,15 +50,29 @@
     "human_like"
   ],
   "moves": [
-  ],
+    "1:mudslap",
+    "1:ingrain",
+    "3:fakeout",
+    "8:leafage",
+    "13:growth",
+    "18:headbutt",
+    "23:dig",
+    "28:grassknot",
+    "33:synthesis",
+    "38:petaldance",
+    "43:sunnyday",
+    "48:leafblade"  ],
   "labels": [
     "varitas",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.canopeace.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "preEvolution": "fretal",
+  "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -73,7 +87,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 12,
   "weight": 165,
   "aspects": [],
 "features": [

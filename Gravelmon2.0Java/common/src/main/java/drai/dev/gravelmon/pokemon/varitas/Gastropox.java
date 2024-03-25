@@ -18,7 +18,7 @@ public class Gastropox extends drai.dev.gravelmon.pokemon.Pokemon {
                         80),
                 List.of(Ability.POISON_TOUCH), Ability.POISON_TOUCH,
                 13, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

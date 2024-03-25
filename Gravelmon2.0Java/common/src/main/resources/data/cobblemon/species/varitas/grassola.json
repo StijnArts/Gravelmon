@@ -49,7 +49,21 @@
     "grass"
   ],
   "moves": [
-  ],
+    "1:flowershield",
+    "7:leechseed",
+    "9:vinewhip",
+    "12:sweetscent",
+    "16:megadrain",
+    "21:takedown",
+    "25:magicalleaf",
+    "29:charm",
+    "33:grassyterrain",
+    "36:petalblizzard",
+    "41:dazzlinggleam",
+    "45:aromatherapy",
+    "50:energyball",
+    "56:moonblast",
+    "63:petaldance"  ],
   "labels": [
     "varitas",
     "not_modeled"
@@ -57,7 +71,22 @@
   "pokedex": [
     "cobblemon.species.grassola.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "evolutions": [
+    {
+      "id": "grassola_graceola",
+      "variant": "level_up",
+      "result": "graceola",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -72,7 +101,7 @@
     "special_defence": 1,
     "speed": 0
   },
-  "height": 8,
+  "height": 6,
   "weight": 165,
   "aspects": [],
 "features": [

@@ -18,7 +18,7 @@ public class Canopeace extends drai.dev.gravelmon.pokemon.Pokemon {
                         40),
                 List.of(Ability.FILTER,Ability.FLOWER_VEIL,Ability.TANGLING_HAIR), Ability.TANGLING_HAIR,
                 12, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.25,
                 0, ExperienceGroup.ERRATIC,
                 70,

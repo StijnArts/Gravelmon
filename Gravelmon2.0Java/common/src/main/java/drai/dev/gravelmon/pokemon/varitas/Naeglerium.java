@@ -18,7 +18,7 @@ public class Naeglerium extends drai.dev.gravelmon.pokemon.Pokemon {
                         40),
                 List.of(Ability.MOODY), Ability.MOODY,
                 14, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

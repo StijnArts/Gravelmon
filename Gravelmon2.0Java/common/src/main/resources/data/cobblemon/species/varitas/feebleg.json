@@ -37,7 +37,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 220,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -56,7 +56,22 @@
   "pokedex": [
     "cobblemon.species.feebleg.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "evolutions": [
+    {
+      "id": "feebleg_webbind",
+      "variant": "level_up",
+      "result": "webbind",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 10
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -71,7 +86,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 3,
   "weight": 165,
   "aspects": [],
 "features": [

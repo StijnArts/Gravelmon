@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -69,7 +69,7 @@
   "pokedex": [
     "cobblemon.species.lectrosaur.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -84,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 16,
   "weight": 165,
   "aspects": [],
 "features": [

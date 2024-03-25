@@ -18,7 +18,7 @@ public class Pestilint extends drai.dev.gravelmon.pokemon.Pokemon {
                         20),
                 List.of(Ability.FLUFFY), Ability.SHIELD_DUST,
                 3, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 140,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

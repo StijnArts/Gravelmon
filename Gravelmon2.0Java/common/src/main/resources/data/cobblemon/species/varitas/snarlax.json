@@ -182,7 +182,7 @@
     "cobblemon.species.snarlax.desc"
   ],
   "preEvolution": "varitasianmunchlax",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -197,7 +197,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 21,
   "weight": 165,
   "aspects": [],
 "features": [

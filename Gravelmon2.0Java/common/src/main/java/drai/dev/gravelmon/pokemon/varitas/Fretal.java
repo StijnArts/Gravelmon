@@ -18,7 +18,7 @@ public class Fretal extends drai.dev.gravelmon.pokemon.Pokemon {
                         80),
                 List.of(Ability.RATTLED,Ability.FLOWER_VEIL,Ability.RUN_AWAY), Ability.RUN_AWAY,
                 6, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.25,
                 0, ExperienceGroup.ERRATIC,
                 70,

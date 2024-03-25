@@ -18,7 +18,7 @@ public class Lectrosaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         120),
                 List.of(Ability.LIGHTNING_ROD), Ability.GALVANIZE,
                 16, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

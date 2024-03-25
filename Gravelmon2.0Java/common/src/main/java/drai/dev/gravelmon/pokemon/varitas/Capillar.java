@@ -18,7 +18,7 @@ public class Capillar extends drai.dev.gravelmon.pokemon.Pokemon {
                         25),
                 List.of(Ability.SWARM), Ability.SWARM,
                 3, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

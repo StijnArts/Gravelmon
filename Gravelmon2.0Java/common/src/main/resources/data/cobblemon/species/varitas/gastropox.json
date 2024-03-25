@@ -37,7 +37,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 50,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
@@ -61,12 +61,15 @@
     "60:gunkshot"  ],
   "labels": [
     "varitas",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.gastropox.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "preEvolution": "germite",
+  "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,
     "height": 6.0,
@@ -81,7 +84,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 8,
+  "height": 13,
   "weight": 165,
   "aspects": [],
 "features": [

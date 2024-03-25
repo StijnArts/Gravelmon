@@ -23,7 +23,7 @@ public class Agitwin extends drai.dev.gravelmon.pokemon.Pokemon {
                         40),
                 List.of(Ability.MOODY), Ability.MOODY,
                 5, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

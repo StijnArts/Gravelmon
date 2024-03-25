@@ -18,7 +18,7 @@ public class Germite extends drai.dev.gravelmon.pokemon.Pokemon {
                         75),
                 List.of(Ability.POISON_TOUCH), Ability.POISON_TOUCH,
                 4, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
