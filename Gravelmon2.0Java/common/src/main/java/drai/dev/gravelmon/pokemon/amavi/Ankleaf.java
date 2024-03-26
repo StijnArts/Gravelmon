@@ -1,18 +1,10 @@
 package drai.dev.gravelmon.pokemon.amavi;
 
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
-import java.util.*;
-
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
-
 public class Ankleaf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ankleaf() {
         super("Ankleaf",
@@ -30,8 +22,9 @@ public class Ankleaf extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
-                List.of("- Tackle Normal 3 Growl Normal 6 Growth Normal 9 Vine WhipSTAB Grass 15 Body Slam Normal 21 Razor LeafSTAB Grass 25 Bonemerang Ground 32 Leech Seed Grass 35 Amnesia Psychic 42 Seed BombSTAB Grass 47 Bone Rush Ground"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("bashorn", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.GROWL,3),
@@ -46,8 +39,8 @@ public class Ankleaf extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BONE_RUSH,47)                        ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

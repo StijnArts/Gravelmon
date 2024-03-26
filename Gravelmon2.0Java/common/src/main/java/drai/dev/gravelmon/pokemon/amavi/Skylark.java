@@ -1,13 +1,10 @@
 package drai.dev.gravelmon.pokemon.amavi;
 
+
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
-
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 public class Skylark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skylark() {
         super("Skylark",
@@ -19,7 +16,7 @@ public class Skylark extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         127),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                15, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -27,11 +24,23 @@ public class Skylark extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(new MoveLearnSetEntry(Move.FLASH,6),
+                        new MoveLearnSetEntry(Move.THUNDER_SHOCK,9),
+                        new MoveLearnSetEntry(Move.THUNDER_WAVE,13),
+                        new MoveLearnSetEntry(Move.AIR_CUTTER,16),
+                        new MoveLearnSetEntry(Move.WHIRLWIND,21),
+                        new MoveLearnSetEntry(Move.SHOCK_WAVE,25),
+                        new MoveLearnSetEntry(Move.ROOST,30),
+                        new MoveLearnSetEntry(Move.DRILL_PECK,34),
+                        new MoveLearnSetEntry(Move.THUNDERBOLT,40),
+                        new MoveLearnSetEntry(Move.AGILITY,46),
+                        new MoveLearnSetEntry(Move.AIR_SLASH,53),
+                        new MoveLearnSetEntry(Move.THUNDER,61)                   ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 32, 54, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

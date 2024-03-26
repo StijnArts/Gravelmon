@@ -1,13 +1,10 @@
 package drai.dev.gravelmon.pokemon.amavi;
 
+
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
-
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 public class Lillake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lillake() {
         super("Lillake",
@@ -19,13 +16,13 @@ public class Lillake extends drai.dev.gravelmon.pokemon.Pokemon {
                         120,
                         45),
                 List.of(Ability.WATER_ABSORB), Ability.RAIN_DISH,
-                0, 0,
+                12, 0,
                 new Stats(1,0,0,0,1,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Route 2 - Mossy Meadow (Evolve)"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
@@ -41,14 +38,15 @@ public class Lillake extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDDY_WATER,42)                        ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 26, 46, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Lillake");
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

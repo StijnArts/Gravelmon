@@ -1,13 +1,10 @@
 package drai.dev.gravelmon.pokemon.amavi;
 
+
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
-
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 public class Beelzeboon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beelzeboon() {
         super("Beelzeboon",
@@ -25,7 +22,7 @@ public class Beelzeboon extends drai.dev.gravelmon.pokemon.Pokemon {
                 235, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.HUMAN_LIKE),
-                List.of("Location: Groveridge (Starter)"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -40,9 +37,8 @@ public class Beelzeboon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLAZE_KICK,48)                        ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

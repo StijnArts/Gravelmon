@@ -1,8 +1,34 @@
 package drai.dev.gravelmon.games.pokemmo;
 
-import drai.dev.gravelmon.pokemon.aristos.*;
+import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.pokemon.dhiome.*;
+import drai.dev.gravelmon.pokemon.mushi.*;
+import drai.dev.gravelmon.pokemon.theos.*;
+import drai.dev.gravelmon.pokemon.kuria.*;
+import drai.dev.gravelmon.pokemon.ottora.*;
+import drai.dev.gravelmon.pokemon.spion.*;
+import drai.dev.gravelmon.pokemon.mastenia.*;
+import drai.dev.gravelmon.pokemon.mongratis.*;
+import drai.dev.gravelmon.pokemon.ultraspace.*;
+import drai.dev.gravelmon.pokemon.urzavos.*;
+import drai.dev.gravelmon.pokemon.terranov.*;
+import drai.dev.gravelmon.pokemon.enjin.*;
+import drai.dev.gravelmon.pokemon.mystis.*;
+import drai.dev.gravelmon.pokemon.pastelisland.*;
+import drai.dev.gravelmon.pokemon.neonintendo.*;
+import drai.dev.gravelmon.pokemon.tokas.*;
+import drai.dev.gravelmon.pokemon.panjaea.*;
+import drai.dev.gravelmon.pokemon.cyare.*;
+import drai.dev.gravelmon.pokemon.olysos.*;
+import drai.dev.gravelmon.pokemon.nodorro.*;
+import drai.dev.gravelmon.pokemon.orbis.*;
+import drai.dev.gravelmon.pokemon.fliga.*;
+import drai.dev.gravelmon.pokemon.ruskow.*;
+import drai.dev.gravelmon.pokemon.otopo.*;
+import drai.dev.gravelmon.pokemon.goetia.*;
+import drai.dev.gravelmon.pokemon.ionos.*;
+import drai.dev.gravelmon.pokemon.lagoone.*;
 import drai.dev.gravelmon.pokemon.atlas.*;
-import drai.dev.gravelmon.pokemon.atlas.Barkindle;
 import drai.dev.gravelmon.pokemon.avoris.*;
 import drai.dev.gravelmon.pokemon.enriko.*;
 import drai.dev.gravelmon.pokemon.ferroa.*;
@@ -12,9 +38,7 @@ import drai.dev.gravelmon.pokemon.interregional.*;
 import drai.dev.gravelmon.pokemon.isiah.*;
 import drai.dev.gravelmon.pokemon.junnin.*;
 import drai.dev.gravelmon.pokemon.lonava.*;
-import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.mythire.*;
-import drai.dev.gravelmon.pokemon.norheim.*;
 import drai.dev.gravelmon.pokemon.nosto.*;
 import drai.dev.gravelmon.pokemon.novrai.*;
 import drai.dev.gravelmon.pokemon.oceane.*;
@@ -23,6 +47,11 @@ import drai.dev.gravelmon.pokemon.orohnhavai.*;
 import drai.dev.gravelmon.pokemon.qamor.*;
 import drai.dev.gravelmon.pokemon.rica.*;
 import drai.dev.gravelmon.pokemon.varitas.*;
+import drai.dev.gravelmon.pokemon.aristos.*;
+import drai.dev.gravelmon.pokemon.midamis.*;
+import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.atlas.Barkindle;
+
 
 public class Atlas extends drai.dev.gravelmon.games.registry.Game {
     public Atlas() {        super("Atlas");
@@ -188,8 +217,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Cindera());
         pokemon.add(new Caldona());
         pokemon.add(new Stelnova());
-        pokemon.add(new Ampin());
-        pokemon.add(new Sharquake());
         pokemon.add(new Bashbee());
         pokemon.add(new Woolam());
         pokemon.add(new Alpalaine());
@@ -229,10 +256,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Algrain());
         pokemon.add(new Kelpush());
         pokemon.add(new Kelprash());
-        pokemon.add(new Surchin());
-        pokemon.add(new Submurchin());
-        pokemon.add(new Wombabe());
-        pokemon.add(new Korboral());
         pokemon.add(new Gemmo());
 ////        pokemon.add(new Torrojo()); Missing Art
         pokemon.add(new Barrose());

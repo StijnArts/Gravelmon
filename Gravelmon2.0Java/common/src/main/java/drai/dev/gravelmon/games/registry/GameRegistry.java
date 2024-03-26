@@ -27,6 +27,7 @@ public class GameRegistry {
         games.add(new Realidea());
         games.add(new Rica());
         games.add(new Infinity());
+        games.add(new Dhiome());
         games.add(new HUB());
         games.add(new Interregional());
         games.add(new Opal());
@@ -61,5 +62,6 @@ public class GameRegistry {
         games.add(new Deneb());
         games.add(new Novrai());
         games.add(new Atlas());
+        games.add(new Amavi());
     }
 }

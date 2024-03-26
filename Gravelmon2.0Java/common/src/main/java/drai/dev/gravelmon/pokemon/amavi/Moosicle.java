@@ -1,13 +1,10 @@
 package drai.dev.gravelmon.pokemon.amavi;
 
+
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
-
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 public class Moosicle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moosicle() {
         super("Moosicle",

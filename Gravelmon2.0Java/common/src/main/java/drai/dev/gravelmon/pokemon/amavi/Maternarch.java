@@ -1,13 +1,10 @@
 package drai.dev.gravelmon.pokemon.amavi;
 
+
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
-
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 public class Maternarch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maternarch() {
         super("Maternarch",
@@ -27,11 +24,18 @@ public class Maternarch extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.STRING_SHOT,1),
+                        new MoveLearnSetEntry(Move.LEECH_LIFE,3),
+                        new MoveLearnSetEntry(Move.DIG,8),
+                        new MoveLearnSetEntry(Move.SLEEP_POWDER,12),
+                        new MoveLearnSetEntry(Move.CONFUSION,16),
+                        new MoveLearnSetEntry(Move.POISON_POWDER,20),
+                        new MoveLearnSetEntry(Move.FURY_CUTTER,24)                        ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 56, .03, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

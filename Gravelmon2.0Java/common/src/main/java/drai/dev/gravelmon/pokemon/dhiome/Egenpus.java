@@ -1,10 +1,10 @@
 package drai.dev.gravelmon.pokemon.dhiome;
 
+
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
-
 public class Egenpus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Egenpus() {
         super("Egenpus",

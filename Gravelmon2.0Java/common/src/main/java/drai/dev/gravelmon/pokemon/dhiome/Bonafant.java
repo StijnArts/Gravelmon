@@ -1,10 +1,10 @@
 package drai.dev.gravelmon.pokemon.dhiome;
 
+
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
-
 public class Bonafant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bonafant() {
         super("Bonafant",

@@ -1,13 +1,10 @@
 package drai.dev.gravelmon.pokemon.amavi;
 
+
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
-
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 public class Battaliant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Battaliant() {
         super("Battaliant",
@@ -19,19 +16,33 @@ public class Battaliant extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         59),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                7, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("guardiant", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
+                List.of(
+                        new MoveLearnSetEntry(Move.SCUTTLEHOP,1),
+                        new MoveLearnSetEntry(Move.LEER,5),
+                        new MoveLearnSetEntry(Move.ROCK_SMASH,7),
+                        new MoveLearnSetEntry(Move.FURY_ATTACK,11),
+                        new MoveLearnSetEntry(Move.PESTER,14),
+                        new MoveLearnSetEntry(Move.COUNTER,18),
+                        new MoveLearnSetEntry(Move.IRON_DEFENSE,21),
+                        new MoveLearnSetEntry(Move.STEAMROLLER,24),
+                        new MoveLearnSetEntry(Move.RAPID_SPIN,29),
+                        new MoveLearnSetEntry(Move.BUG_BUZZ,37),
+                        new MoveLearnSetEntry(Move.GYRO_BALL,44),
+                        new MoveLearnSetEntry(Move.DETECT,53),
+                        new MoveLearnSetEntry(Move.SUPERPOWER,57)              ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 23, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

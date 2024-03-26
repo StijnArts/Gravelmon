@@ -1,13 +1,10 @@
 package drai.dev.gravelmon.pokemon.amavi;
 
+
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
-
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 public class Impanzee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impanzee() {
         super("Impanzee",
@@ -25,8 +22,9 @@ public class Impanzee extends drai.dev.gravelmon.pokemon.Pokemon {
                 145, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.HUMAN_LIKE),
-                List.of("Location: Groveridge (Starter)"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("bulbasaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),
@@ -40,9 +38,8 @@ public class Impanzee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLAZE_KICK,49)                        ),
                 List.of(Label.AMAVI),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_FOREST))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
