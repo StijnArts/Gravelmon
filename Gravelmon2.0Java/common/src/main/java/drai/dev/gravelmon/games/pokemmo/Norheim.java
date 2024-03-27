@@ -122,7 +122,9 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Moleheimer());
 //        pokemon.add(new Potiti()); Missing Stats
 //        pokemon.add(new Potota()); Missing Stats
-        pokemon.add(new Tadit());
+        var tadit = new Tadit();
+        pokemon.add(tadit);
+//        pokemon.add(new MastenianTadit(tadit.getPokedexNumber()));   Missing Stats
         pokemon.add(new Ribhit());
 //        pokemon.add(new Thikachoo()); Missing Stats
 //        pokemon.add(new Surgeskit());
@@ -197,7 +199,9 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Phantocean()); Missing Stats
 //        pokemon.add(new Birdurr()); Missing Stats
 //        pokemon.add(new Mylili()); Missing Stats
-        pokemon.add(new Crudecay());
+        var crudecay = new Crudecay();
+        pokemon.add(crudecay);
+//        pokemon.add(new MastenianCrudecay(crudecay.getPokedexNumber()));  Missing Stats
         pokemon.add(new Hingjaw());
         pokemon.add(new Saberian());
         pokemon.add(new Wreggog());

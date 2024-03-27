@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ivysaur extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ivysaur(2) {
-        super("dex, Ivysaur",
+    public Ivysaur(int dex) {
+        super(dex, "Ivysaur",
                 Type.GRASS,Type.POISON,
                 new Stats(0,
                         0,

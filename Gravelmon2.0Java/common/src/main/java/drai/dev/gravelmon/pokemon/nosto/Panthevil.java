@@ -80,7 +80,7 @@ public class Panthevil extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,"tm"),
                         new MoveLearnSetEntry(Move.BOLTIN,"tm"),
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
-                List.of(Label.NOSTO),
+                List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 45, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),

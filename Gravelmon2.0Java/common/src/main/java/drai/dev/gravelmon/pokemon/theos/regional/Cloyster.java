@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cloyster extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cloyster(91) {
-        super("dex, Cloyster",
+    public Cloyster(int dex) {
+        super(dex, "Cloyster",
                 Type.WATER,Type.ICE,
                 new Stats(50,
                         95,

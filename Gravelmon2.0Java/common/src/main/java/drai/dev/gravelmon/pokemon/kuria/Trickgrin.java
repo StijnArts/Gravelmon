@@ -58,7 +58,7 @@ import java.util.*;
 public class Trickgrin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trickgrin() {
         super("Trickgrin",
-                Type.DARK,Type.???,
+                Type.DARK,Type.QUESTION_MARK,
                 new Stats(40,
                         50,
                         40,

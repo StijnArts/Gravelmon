@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Pikachu extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Pikachu(25) {
-        super("dex, Pikachu",
+    public Pikachu(int dex) {
+        super(dex, "Pikachu",
                 Type.ELECTRIC,
                 new Stats(35,
                         55,

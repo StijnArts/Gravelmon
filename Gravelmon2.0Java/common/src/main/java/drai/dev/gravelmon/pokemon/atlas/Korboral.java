@@ -76,7 +76,7 @@ public class Korboral extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,"tm"),
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 42, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),

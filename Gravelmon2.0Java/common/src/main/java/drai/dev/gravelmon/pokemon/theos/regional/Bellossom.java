@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Bellossom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Bellossom(182) {
-        super("dex, Bellossom",
+    public Bellossom(int dex) {
+        super(dex, "Bellossom",
                 Type.GRASS,Type.PSYCHIC,
                 new Stats(75,
                         80,

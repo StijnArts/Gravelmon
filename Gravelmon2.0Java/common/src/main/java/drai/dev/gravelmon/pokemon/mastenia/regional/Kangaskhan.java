@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Kangaskhan extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Kangaskhan(115) {
-        super("dex, Kangaskhan",
+    public Kangaskhan(int dex) {
+        super(dex, "Kangaskhan",
                 Type.NORMAL,
                 new Stats(0,
                         0,

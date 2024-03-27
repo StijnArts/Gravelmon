@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Jumpluff extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Jumpluff(189) {
-        super("dex, Jumpluff",
+    public Jumpluff(int dex) {
+        super(dex, "Jumpluff",
                 Type.GROUND,Type.GRASS,
                 new Stats(110,
                         55,

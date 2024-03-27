@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:gallowing",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:amavi_gallowing",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/amavi/gallowing.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/amavi/gallowing_shiny.png"
+    }  ]
+}

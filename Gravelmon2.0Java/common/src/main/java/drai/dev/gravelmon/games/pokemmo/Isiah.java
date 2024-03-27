@@ -17,6 +17,7 @@ import drai.dev.gravelmon.pokemon.isiah.*;
 import drai.dev.gravelmon.pokemon.atlas.Eldoredo;
 import drai.dev.gravelmon.pokemon.amavi.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
+import drai.dev.gravelmon.pokemon.isiah.Jelectric;
 import drai.dev.gravelmon.pokemon.mushi.*;
 import drai.dev.gravelmon.pokemon.theos.*;
 import drai.dev.gravelmon.pokemon.kuria.*;

@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.spion;
+package drai.dev.gravelmon.pokemon.spion.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cacnea extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cacnea(331) {
-        super("dex, Cacnea",
+    public Cacnea(int dex) {
+        super(dex, "Cacnea",
                 Type.GRASS,
                 new Stats(0,
                         0,

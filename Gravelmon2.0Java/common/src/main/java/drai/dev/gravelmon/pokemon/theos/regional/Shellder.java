@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Shellder extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Shellder(90) {
-        super("dex, Shellder",
+    public Shellder(int dex) {
+        super(dex, "Shellder",
                 Type.WATER,
                 new Stats(30,
                         65,

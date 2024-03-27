@@ -58,7 +58,7 @@ import java.util.*;
 public class Katorit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Katorit() {
         super("Katorit",
-                Type.GRASS,Type.???,
+                Type.GRASS,Type.QUESTION_MARK,
                 new Stats(92,
                         70,
                         95,

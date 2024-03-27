@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Venomoth extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Venomoth(49) {
-        super("dex, Venomoth",
+    public Venomoth(int dex) {
+        super(dex, "Venomoth",
                 Type.PSYCHIC,Type.POISON,
                 new Stats(70,
                         65,

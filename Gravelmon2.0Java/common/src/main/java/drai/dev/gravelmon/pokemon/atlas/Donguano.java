@@ -82,7 +82,7 @@ public class Donguano extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULK_UP,"tm"),
                         new MoveLearnSetEntry(Move.TAUNT,"tm"),
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 55, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),

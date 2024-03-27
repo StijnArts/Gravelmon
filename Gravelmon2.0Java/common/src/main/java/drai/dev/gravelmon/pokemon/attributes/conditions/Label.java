@@ -89,7 +89,7 @@ public enum Label {
     THEOS("theos"),
     TOKAS("tokas"),
     ULTRASPACE("ultraspace"),
-    URZAVOS("urzavos"), SPION("spion");
+    URZAVOS("urzavos"), SPION("spion"), NEO_NINTENDO("neonintendo"), PASTELL_ISLAND("pastel_island");
     private String name;
     Label(String name){
         this.name = name;

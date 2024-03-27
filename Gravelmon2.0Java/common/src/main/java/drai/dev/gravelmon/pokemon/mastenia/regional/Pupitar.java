@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Pupitar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Pupitar(247) {
-        super("dex, Pupitar",
+    public Pupitar(int dex) {
+        super(dex, "Pupitar",
                 Type.WATER,Type.GROUND,
                 new Stats(0,
                         0,

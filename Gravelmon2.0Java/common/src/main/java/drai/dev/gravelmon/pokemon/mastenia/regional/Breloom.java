@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Breloom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Breloom(286) {
-        super("dex, Breloom",
+    public Breloom(int dex) {
+        super(dex, "Breloom",
                 Type.DRAGON,Type.GRASS,
                 new Stats(0,
                         0,

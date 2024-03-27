@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Torchic extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Torchic(255) {
-        super("dex, Torchic",
+    public Torchic(int dex) {
+        super(dex, "Torchic",
                 Type.FAIRY,
                 new Stats(0,
                         0,

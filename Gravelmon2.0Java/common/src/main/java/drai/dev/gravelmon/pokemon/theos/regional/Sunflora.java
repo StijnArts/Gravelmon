@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Sunflora extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Sunflora(192) {
-        super("dex, Sunflora",
+    public Sunflora(int dex) {
+        super(dex, "Sunflora",
                 Type.GRASS,Type.FIRE,
                 new Stats(75,
                         75,

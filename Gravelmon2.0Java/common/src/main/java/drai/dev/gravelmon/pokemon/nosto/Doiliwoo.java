@@ -95,7 +95,7 @@ public class Doiliwoo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DREAM_EATER,"tm"),
                         new MoveLearnSetEntry(Move.REST,"tm"),
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm")                        ),
-                List.of(Label.NOSTO),
+                List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 33, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),

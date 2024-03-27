@@ -65,7 +65,7 @@ public class Savazard extends drai.dev.gravelmon.pokemon.Pokemon {
                         102,
                         75,
                         70),
-                List.of(Ability.BLAZE), Ability.DRAGON'SMAW,
+                List.of(Ability.BLAZE), Ability.DRAGONSMAW,
                 0, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.87,

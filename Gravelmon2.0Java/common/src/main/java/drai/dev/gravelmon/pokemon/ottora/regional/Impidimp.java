@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.ottora;
+package drai.dev.gravelmon.pokemon.ottora.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Impidimp extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Impidimp(859) {
-        super("dex, Impidimp",
+    public Impidimp(int dex) {
+        super(dex, "Impidimp",
                 Type.FAIRY,Type.FIGHTING,
                 new Stats(0,
                         0,

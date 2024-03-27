@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Larvitar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Larvitar(246) {
-        super("dex, Larvitar",
+    public Larvitar(int dex) {
+        super(dex, "Larvitar",
                 Type.WATER,Type.GROUND,
                 new Stats(0,
                         0,

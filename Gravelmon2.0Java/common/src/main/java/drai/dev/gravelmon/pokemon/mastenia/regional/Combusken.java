@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Combusken extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Combusken(256) {
-        super("dex, Combusken",
+    public Combusken(int dex) {
+        super(dex, "Combusken",
                 Type.FAIRY,Type.PSYCHIC,
                 new Stats(0,
                         0,

@@ -67,7 +67,6 @@ public class HUB extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Monstricity());
         pokemon.add(new Cadastrophe());
         pokemon.add(new Gobblin());
-        pokemon.add(new Nyarn());
         pokemon.add(new Sheetrick());
         pokemon.add(new Yokid());
         pokemon.add(new Creshank());

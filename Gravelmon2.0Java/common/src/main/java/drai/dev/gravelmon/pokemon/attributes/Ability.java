@@ -696,7 +696,7 @@ public enum Ability {
     PRISMATICPOWER("prismaticpower", false),
     EVAPORATION("evaporation", false),
     WARMHANDS("warmhands", false),
-    ACCLIMATIZE("acclimatize", false), ROCKFALL("rockfall", false), UPDRAFT("updraft", false), DREAMTRAP("dreamtrap", false);
+    ACCLIMATIZE("acclimatize", false), ROCKFALL("rockfall", false), UPDRAFT("updraft", false), DREAMTRAP("dreamtrap", false), DRAGONSMAW("dragonsmaw", true);
 
 
     private String name;

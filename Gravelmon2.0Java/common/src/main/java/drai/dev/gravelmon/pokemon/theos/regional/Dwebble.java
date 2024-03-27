@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Dwebble extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Dwebble(557) {
-        super("dex, Dwebble",
+    public Dwebble(int dex) {
+        super(dex, "Dwebble",
                 Type.WATER,Type.ROCK,
                 new Stats(50,
                         65,

@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Charmeleon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Charmeleon(5) {
-        super("dex, Charmeleon",
+    public Charmeleon(int dex) {
+        super(dex, "Charmeleon",
                 Type.FIRE,
                 new Stats(58,
                         64,

@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Illumise extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Illumise(314) {
-        super("dex, Illumise",
+    public Illumise(int dex) {
+        super(dex, "Illumise",
                 Type.BUG,Type.PSYCHIC,
                 new Stats(0,
                         0,

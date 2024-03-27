@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ariados extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ariados(168) {
-        super("dex, Ariados",
+    public Ariados(int dex) {
+        super(dex, "Ariados",
                 Type.BUG,Type.DARK,
                 new Stats(70,
                         90,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Rablin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rablin() {
         super("Rablin",
-                Type.NORMAL,Type.???,
+                Type.NORMAL,Type.QUESTION_MARK,
                 new Stats(65,
                         125,
                         70,

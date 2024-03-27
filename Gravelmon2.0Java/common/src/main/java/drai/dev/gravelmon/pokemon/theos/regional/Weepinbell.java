@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Weepinbell extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Weepinbell(70) {
-        super("dex, Weepinbell",
+    public Weepinbell(int dex) {
+        super(dex, "Weepinbell",
                 Type.GRASS,Type.DARK,
                 new Stats(70,
                         95,

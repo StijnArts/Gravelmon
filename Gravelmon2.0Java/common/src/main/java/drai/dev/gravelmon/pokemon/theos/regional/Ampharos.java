@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Ampharos extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Ampharos(181) {
-        super("dex, Ampharos",
+    public Ampharos(int dex) {
+        super(dex, "Ampharos",
                 Type.GRASS,
                 new Stats(90,
                         65,

@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Luxray extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Luxray(405) {
-        super("dex, Luxray",
+    public Luxray(int dex) {
+        super(dex, "Luxray",
                 Type.PSYCHIC,
                 new Stats(80,
                         95,

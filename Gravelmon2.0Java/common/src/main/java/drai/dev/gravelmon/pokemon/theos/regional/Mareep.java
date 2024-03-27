@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Mareep extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Mareep(179) {
-        super("dex, Mareep",
+    public Mareep(int dex) {
+        super(dex, "Mareep",
                 Type.GRASS,
                 new Stats(55,
                         30,

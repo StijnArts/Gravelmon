@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Flabb extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Flabb(669) {
-        super("dex, Flabb",
+    public Flabb(int dex) {
+        super(dex, "Flabb",
                 Type.GHOST,Type.FAIRY,
                 new Stats(44,
                         38,

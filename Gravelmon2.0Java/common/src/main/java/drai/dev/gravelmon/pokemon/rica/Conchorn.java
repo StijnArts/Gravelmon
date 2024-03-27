@@ -93,7 +93,7 @@ public class Conchorn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SURF,"tm"),
                         new MoveLearnSetEntry(Move.WATERFALL,"tm"),
                         new MoveLearnSetEntry(Move.DIVE,"tm")                        ),
-                List.of(Label.RICA),
+                List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 41, 62, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),

@@ -3,6 +3,9 @@ package drai.dev.gravelmon.games.pokemmo.secondbatch;
 
 import drai.dev.gravelmon.pokemon.amavi.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
+import drai.dev.gravelmon.pokemon.enjin.Enchantowl;
+import drai.dev.gravelmon.pokemon.enjin.Teleprog;
+import drai.dev.gravelmon.pokemon.enjin.regional.*;
 import drai.dev.gravelmon.pokemon.mushi.*;
 import drai.dev.gravelmon.pokemon.theos.*;
 import drai.dev.gravelmon.pokemon.kuria.*;
@@ -146,7 +149,7 @@ public class Enjin extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Teleprog());
 //        pokemon.add(new Clampere());   Missing Stats
 //        pokemon.add(new Balbuni());   Missing Stats
-        pokemon.add(new 268221());
+        pokemon.add(new Criseti());
 //        pokemon.add(new Anseti());   Missing Stats
 //        pokemon.add(new Macrochip());   Missing Stats
         pokemon.add(new Sloggin());

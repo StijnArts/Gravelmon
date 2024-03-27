@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:tendurse",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:amavi_tendurse",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/amavi/tendurse.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/amavi/tendurse_shiny.png"
+    }  ]
+}

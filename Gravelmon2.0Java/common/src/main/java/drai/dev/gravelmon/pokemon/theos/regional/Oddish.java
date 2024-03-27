@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Oddish extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Oddish(43) {
-        super("dex, Oddish",
+    public Oddish(int dex) {
+        super(dex, "Oddish",
                 Type.GRASS,Type.PSYCHIC,
                 new Stats(45,
                         50,

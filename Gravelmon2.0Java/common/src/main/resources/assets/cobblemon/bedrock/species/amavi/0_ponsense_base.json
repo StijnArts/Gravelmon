@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ponsense",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:amavi_ponsense",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/amavi/ponsense.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/amavi/ponsense_shiny.png"
+    }  ]
+}

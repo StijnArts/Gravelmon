@@ -38,7 +38,7 @@ public class Loomstool extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPORE,48),
                         new MoveLearnSetEntry(Move.MOONBLAST,1),
                         new MoveLearnSetEntry(Move.DREAM_EATER,1)),
-                List.of(Label.NOSTO),
+                List.of(Label.PASTEL_ISLAND),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 43, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MUSHROOM, Biome.IS_MAGICAL)),

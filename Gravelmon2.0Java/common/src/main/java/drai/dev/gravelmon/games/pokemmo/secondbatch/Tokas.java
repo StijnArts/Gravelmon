@@ -10,6 +10,7 @@ import drai.dev.gravelmon.pokemon.ottora.*;
 import drai.dev.gravelmon.pokemon.spion.*;
 import drai.dev.gravelmon.pokemon.mastenia.*;
 import drai.dev.gravelmon.pokemon.mongratis.*;
+import drai.dev.gravelmon.pokemon.tokas.regional.*;
 import drai.dev.gravelmon.pokemon.ultraspace.*;
 import drai.dev.gravelmon.pokemon.urzavos.*;
 import drai.dev.gravelmon.pokemon.terranov.*;

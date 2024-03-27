@@ -3,6 +3,7 @@ package drai.dev.gravelmon.games.pokemmo;
 import drai.dev.gravelmon.pokemon.amavi.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.mushi.*;
+import drai.dev.gravelmon.pokemon.nosto.Fauxmingo;
 import drai.dev.gravelmon.pokemon.theos.*;
 import drai.dev.gravelmon.pokemon.kuria.*;
 import drai.dev.gravelmon.pokemon.ottora.*;
@@ -79,8 +80,6 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Fabulusk());
         pokemon.add(new Cheekii());
         pokemon.add(new Grumpster());
-        pokemon.add(new Rascat());
-        pokemon.add(new Panthevil());
 //        pokemon.add(new Ferasquab()); //Missing Stats
 //        pokemon.add(new Streedove()); //Missing Stats
 //        pokemon.add(new Urbigeon()); //Missing Stats
@@ -161,9 +160,6 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Pigstyk());
         pokemon.add(new Lumboar());
         pokemon.add(new Hogstead());
-        pokemon.add(new Mycelil());
-        pokemon.add(new Loomstool());
-        pokemon.add(new Smould());
         pokemon.add(new Planebe());
         pokemon.add(new Staurbor());
         pokemon.add(new Mantaqua());
@@ -178,7 +174,6 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Tilow());
         pokemon.add(new Candhoul());
         pokemon.add(new Chandemise());
-        pokemon.add(new Doiliwoo());
         pokemon.add(new Novil());
         pokemon.add(new Azatome());
         pokemon.add(new Necromanos());

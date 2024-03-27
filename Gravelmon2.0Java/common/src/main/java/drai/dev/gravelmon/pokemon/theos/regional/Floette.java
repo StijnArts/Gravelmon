@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Floette extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Floette(670) {
-        super("dex, Floette",
+    public Floette(int dex) {
+        super(dex, "Floette",
                 Type.GHOST,Type.FAIRY,
                 new Stats(54,
                         45,

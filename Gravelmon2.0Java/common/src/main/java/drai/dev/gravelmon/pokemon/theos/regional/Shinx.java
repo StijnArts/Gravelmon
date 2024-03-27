@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Shinx extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Shinx(403) {
-        super("dex, Shinx",
+    public Shinx(int dex) {
+        super(dex, "Shinx",
                 Type.PSYCHIC,
                 new Stats(45,
                         40,

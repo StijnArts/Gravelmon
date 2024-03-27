@@ -134,8 +134,6 @@ public class Rica extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Drifsea());
         pokemon.add(new Starphin());
         pokemon.add(new Lunorca());
-        pokemon.add(new Snoosect());
-        pokemon.add(new Lumibuzz());
         pokemon.add(new Gupplash());
         pokemon.add(new Arowish());
         pokemon.add(new Tarspook());
@@ -195,8 +193,6 @@ public class Rica extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Dracoma()); //Missing Art
 //        pokemon.add(new Atmotail()); //Missing Art
 //        pokemon.add(new Predapex()); //Missing Art
-        pokemon.add(new Conium());
-        pokemon.add(new Conchorn());
         pokemon.add(new Barnub());
         pokemon.add(new Detritan());
         pokemon.add(new Moreel());

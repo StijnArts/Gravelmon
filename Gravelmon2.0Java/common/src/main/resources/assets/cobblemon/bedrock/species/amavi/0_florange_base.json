@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:florange",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:amavi_florange",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/amavi/florange.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/amavi/florange_shiny.png"
+    }  ]
+}

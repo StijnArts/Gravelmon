@@ -78,7 +78,7 @@ public class Volpaca extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm"),
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm"),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 20, 38, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),

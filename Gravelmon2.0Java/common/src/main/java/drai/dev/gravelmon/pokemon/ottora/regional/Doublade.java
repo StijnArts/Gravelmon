@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.ottora;
+package drai.dev.gravelmon.pokemon.ottora.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Doublade extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Doublade(680) {
-        super("dex, Doublade",
+    public Doublade(int dex) {
+        super(dex, "Doublade",
                 Type.GRASS,Type.GHOST,
                 new Stats(0,
                         0,

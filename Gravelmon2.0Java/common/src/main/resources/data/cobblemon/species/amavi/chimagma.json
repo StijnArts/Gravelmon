@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "chimagma",
+  "nationalPokedexNumber": 4614,
+  "primaryType": "dragon",
+  "secondaryType": "fire",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 125,
+    "defence": 75,
+    "special_attack": 125,
+    "special_defence": 50,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 0,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+
+  ],
+  "moves": [
+    "1:growl",
+    "1:tackle",
+    "7:rapidspin",
+    "11:taunt",
+    "14:breakingswipe",
+    "18:quickattack",
+    "23:bite",
+    "27:uturn",
+    "36:dragonclaw",
+    "40:shiftgear",
+    "45:dragonpulse",
+    "51:doubleedge",
+    "57:dragonrush"  ],
+  "labels": [
+    "amavi",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.chimagma.desc"
+  ],
+  "preEvolution": "tryphoon",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

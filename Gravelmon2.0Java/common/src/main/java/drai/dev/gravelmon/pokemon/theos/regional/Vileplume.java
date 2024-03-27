@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Vileplume extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Vileplume(45) {
-        super("dex, Vileplume",
+    public Vileplume(int dex) {
+        super(dex, "Vileplume",
                 Type.GRASS,Type.PSYCHIC,
                 new Stats(75,
                         80,

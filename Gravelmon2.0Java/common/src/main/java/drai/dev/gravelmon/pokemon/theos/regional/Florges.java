@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Florges extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Florges(671) {
-        super("dex, Florges",
+    public Florges(int dex) {
+        super(dex, "Florges",
                 Type.GHOST,Type.FAIRY,
                 new Stats(78,
                         65,

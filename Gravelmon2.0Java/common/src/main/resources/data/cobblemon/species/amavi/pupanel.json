@@ -1,0 +1,80 @@
+{
+  "implemented": true,
+  "name": "pupanel",
+  "nationalPokedexNumber": 4734,
+  "primaryType": "ice",
+  "secondaryType": "bug",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 35,
+    "defence": 70,
+    "special_attack": 75,
+    "special_defence": 95,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 0,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+
+  ],
+  "moves": [
+  ],
+  "labels": [
+    "amavi",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.pupanel.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 0,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

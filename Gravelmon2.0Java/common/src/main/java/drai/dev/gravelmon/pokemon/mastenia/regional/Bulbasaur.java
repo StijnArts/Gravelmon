@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Bulbasaur extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Bulbasaur(1) {
-        super("dex, Bulbasaur",
+    public Bulbasaur(int dex) {
+        super(dex, "Bulbasaur",
                 Type.GRASS,Type.POISON,
                 new Stats(0,
                         0,

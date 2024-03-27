@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:atlantice",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:amavi_atlantice",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/amavi/atlantice.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/amavi/atlantice_shiny.png"
+    }  ]
+}

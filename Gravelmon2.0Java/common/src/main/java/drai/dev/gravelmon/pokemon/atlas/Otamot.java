@@ -81,7 +81,7 @@ public class Otamot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_PULSE,"tm"),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm"),
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 20, 45, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Victreebel extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Victreebel(71) {
-        super("dex, Victreebel",
+    public Victreebel(int dex) {
+        super(dex, "Victreebel",
                 Type.GRASS,Type.DARK,
                 new Stats(90,
                         115,

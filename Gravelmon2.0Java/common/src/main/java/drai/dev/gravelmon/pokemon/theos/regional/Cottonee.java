@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Cottonee extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cottonee(546) {
-        super("dex, Cottonee",
+    public Cottonee(int dex) {
+        super(dex, "Cottonee",
                 Type.GRASS,Type.GROUND,
                 new Stats(40,
                         37,

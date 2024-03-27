@@ -66,7 +66,7 @@ public class Ampin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VOLT_SWITCH,"tm"),
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm"),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 27, 8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),

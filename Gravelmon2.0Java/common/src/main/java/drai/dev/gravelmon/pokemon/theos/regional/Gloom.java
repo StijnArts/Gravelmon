@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Gloom extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Gloom(44) {
-        super("dex, Gloom",
+    public Gloom(int dex) {
+        super(dex, "Gloom",
                 Type.GRASS,Type.PSYCHIC,
                 new Stats(60,
                         65,

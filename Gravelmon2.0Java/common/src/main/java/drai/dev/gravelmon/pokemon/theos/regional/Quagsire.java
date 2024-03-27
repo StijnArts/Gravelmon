@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Quagsire extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Quagsire(195) {
-        super("dex, Quagsire",
+    public Quagsire(int dex) {
+        super(dex, "Quagsire",
                 Type.WATER,Type.PSYCHIC,
                 new Stats(85,
                         65,

@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Whimsicott extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Whimsicott(547) {
-        super("dex, Whimsicott",
+    public Whimsicott(int dex) {
+        super(dex, "Whimsicott",
                 Type.GRASS,Type.GROUND,
                 new Stats(60,
                         95,

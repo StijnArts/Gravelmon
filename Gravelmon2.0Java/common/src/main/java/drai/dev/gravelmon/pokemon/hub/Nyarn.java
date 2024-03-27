@@ -78,7 +78,7 @@ public class Nyarn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm"),
                         new MoveLearnSetEntry(Move.UTURN,"tm"),
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
-                List.of(Label.HUB),
+                List.of(Label.SPION),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 43, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))

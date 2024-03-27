@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Bellsprout extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Bellsprout(69) {
-        super("dex, Bellsprout",
+    public Bellsprout(int dex) {
+        super(dex, "Bellsprout",
                 Type.GRASS,Type.DARK,
                 new Stats(50,
                         75,

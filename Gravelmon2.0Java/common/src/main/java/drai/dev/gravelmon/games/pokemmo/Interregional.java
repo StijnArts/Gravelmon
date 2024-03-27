@@ -91,9 +91,6 @@ public class Interregional extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Panditsy());
         pokemon.add(new Zangarsh());
         pokemon.add(new Beagasso());
-//        pokemon.add(new Stalagtic()); Missing Stats
-//        pokemon.add(new Conamite()); Missing Stats
-//        pokemon.add(new Archemite()); Missing Stats
 //        pokemon.add(new Onnidix()); Missing Stats
 //        pokemon.add(new Onnibud()); Missing Stats
 //        pokemon.add(new Vittion()); Missing Stats

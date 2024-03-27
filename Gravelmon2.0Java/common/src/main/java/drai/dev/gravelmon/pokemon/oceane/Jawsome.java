@@ -33,7 +33,7 @@ public class Jawsome extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ABSORB,7),
                         new MoveLearnSetEntry(Move.CRUNCH,37)
                         ),
-                List.of(Label.OCEANE),
+                List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 14, 33, 1.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),

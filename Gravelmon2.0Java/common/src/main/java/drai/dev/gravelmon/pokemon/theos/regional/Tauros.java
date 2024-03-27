@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Tauros extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Tauros(128) {
-        super("dex, Tauros",
+    public Tauros(int dex) {
+        super(dex, "Tauros",
                 Type.DARK,Type.NORMAL,
                 new Stats(75,
                         110,

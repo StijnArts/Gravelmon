@@ -33,7 +33,8 @@ public class NeoCacnea extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.HUMAN_LIKE),
                 List.of("They ram into cliff faces to toughen up their bodies, growing round bumps on their heads from the impact. A telltale rattling sound inside a Cacnea's arms warns that it's readying a painful spiked punch."),
-                List.of(),
+                List.of(new EvolutionEntry("cactussle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
                         new MoveLearnSetEntry(Move.POISON_STING,1),
@@ -138,8 +139,8 @@ public class NeoCacnea extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THORN_FALL,"tm")                        ),
                 List.of(Label.NEO_NINTENDO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

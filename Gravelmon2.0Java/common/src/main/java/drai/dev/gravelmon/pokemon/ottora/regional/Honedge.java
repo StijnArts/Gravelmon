@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.ottora;
+package drai.dev.gravelmon.pokemon.ottora.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Honedge extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Honedge(679) {
-        super("dex, Honedge",
+    public Honedge(int dex) {
+        super(dex, "Honedge",
                 Type.GRASS,Type.GHOST,
                 new Stats(0,
                         0,

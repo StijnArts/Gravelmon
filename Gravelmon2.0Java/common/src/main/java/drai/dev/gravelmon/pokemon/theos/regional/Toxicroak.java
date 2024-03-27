@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Toxicroak extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Toxicroak(454) {
-        super("dex, Toxicroak",
+    public Toxicroak(int dex) {
+        super(dex, "Toxicroak",
                 Type.POISON,Type.WATER,
                 new Stats(83,
                         106,

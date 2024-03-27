@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Luvdisc extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Luvdisc(370) {
-        super("dex, Luvdisc",
+    public Luvdisc(int dex) {
+        super(dex, "Luvdisc",
                 Type.WATER,
                 new Stats(0,
                         0,

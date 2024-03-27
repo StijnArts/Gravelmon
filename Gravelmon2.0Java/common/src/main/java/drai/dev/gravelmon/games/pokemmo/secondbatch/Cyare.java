@@ -1,60 +1,32 @@
 package drai.dev.gravelmon.games.pokemmo.secondbatch;
 
 
-import drai.dev.gravelmon.pokemon.amavi.*;
-import drai.dev.gravelmon.pokemon.dhiome.*;
-import drai.dev.gravelmon.pokemon.mushi.*;
-import drai.dev.gravelmon.pokemon.theos.*;
-import drai.dev.gravelmon.pokemon.kuria.*;
-import drai.dev.gravelmon.pokemon.ottora.*;
-import drai.dev.gravelmon.pokemon.spion.*;
-import drai.dev.gravelmon.pokemon.mastenia.*;
-import drai.dev.gravelmon.pokemon.mongratis.*;
-import drai.dev.gravelmon.pokemon.ultraspace.*;
-import drai.dev.gravelmon.pokemon.urzavos.*;
-import drai.dev.gravelmon.pokemon.terranov.*;
-import drai.dev.gravelmon.pokemon.enjin.*;
-import drai.dev.gravelmon.pokemon.mystis.*;
-import drai.dev.gravelmon.pokemon.pastelisland.*;
-import drai.dev.gravelmon.pokemon.neonintendo.*;
-import drai.dev.gravelmon.pokemon.tokas.*;
-import drai.dev.gravelmon.pokemon.panjaea.*;
+import drai.dev.gravelmon.pokemon.atlas.Bramboom;
+import drai.dev.gravelmon.pokemon.atlas.Burramble;
+import drai.dev.gravelmon.pokemon.atlas.Crebb;
+import drai.dev.gravelmon.pokemon.atlas.Crustocean;
+import drai.dev.gravelmon.pokemon.atlas.Donguano;
+import drai.dev.gravelmon.pokemon.atlas.Impac;
+import drai.dev.gravelmon.pokemon.atlas.Impers;
+import drai.dev.gravelmon.pokemon.atlas.Impie;
+import drai.dev.gravelmon.pokemon.atlas.Imploda;
+import drai.dev.gravelmon.pokemon.atlas.Impulso;
+import drai.dev.gravelmon.pokemon.atlas.Kotukoatl;
+import drai.dev.gravelmon.pokemon.atlas.Lamber;
+import drai.dev.gravelmon.pokemon.atlas.Otamot;
+import drai.dev.gravelmon.pokemon.atlas.Quetzap;
+import drai.dev.gravelmon.pokemon.atlas.Scurley;
+import drai.dev.gravelmon.pokemon.atlas.Sheruption;
+import drai.dev.gravelmon.pokemon.atlas.Shockatoo;
+import drai.dev.gravelmon.pokemon.atlas.Tinguano;
+import drai.dev.gravelmon.pokemon.atlas.Tomabi;
+import drai.dev.gravelmon.pokemon.atlas.Volpaca;
+import drai.dev.gravelmon.pokemon.rica.Conchorn;
+import drai.dev.gravelmon.pokemon.rica.Conium;
+import drai.dev.gravelmon.pokemon.rica.Lumibuzz;
+import drai.dev.gravelmon.pokemon.rica.Snoosect;
 import drai.dev.gravelmon.pokemon.cyare.*;
-import drai.dev.gravelmon.pokemon.olysos.*;
-import drai.dev.gravelmon.pokemon.nodorro.*;
-import drai.dev.gravelmon.pokemon.orbis.*;
-import drai.dev.gravelmon.pokemon.fliga.*;
-import drai.dev.gravelmon.pokemon.ruskow.*;
-import drai.dev.gravelmon.pokemon.otopo.*;
-import drai.dev.gravelmon.pokemon.goetia.*;
-import drai.dev.gravelmon.pokemon.ionos.*;
-import drai.dev.gravelmon.pokemon.lagoone.*;
-import drai.dev.gravelmon.pokemon.atlas.*;
-import drai.dev.gravelmon.pokemon.avoris.*;
-import drai.dev.gravelmon.pokemon.enriko.*;
-import drai.dev.gravelmon.pokemon.ferroa.*;
-import drai.dev.gravelmon.pokemon.hiza.*;
-import drai.dev.gravelmon.pokemon.hub.*;
-import drai.dev.gravelmon.pokemon.interregional.*;
-import drai.dev.gravelmon.pokemon.isiah.*;
-import drai.dev.gravelmon.pokemon.junnin.*;
-import drai.dev.gravelmon.pokemon.lonava.*;
-import drai.dev.gravelmon.pokemon.mythire.*;
-import drai.dev.gravelmon.pokemon.nosto.*;
-import drai.dev.gravelmon.pokemon.novrai.*;
-import drai.dev.gravelmon.pokemon.oceane.*;
-import drai.dev.gravelmon.pokemon.okeno.*;
-import drai.dev.gravelmon.pokemon.orohnhavai.*;
-import drai.dev.gravelmon.pokemon.qamor.*;
-import drai.dev.gravelmon.pokemon.rica.*;
-import drai.dev.gravelmon.pokemon.varitas.*;
-import drai.dev.gravelmon.pokemon.aristos.*;
-import drai.dev.gravelmon.pokemon.midamis.*;
-import drai.dev.gravelmon.pokemon.norheim.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
-import java.util.*;
 public class Cyare extends drai.dev.gravelmon.games.registry.Game {
     public Cyare() {
         super("Cyare");
@@ -180,7 +152,7 @@ public class Cyare extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Plecoast());   Missing Stats
 //        pokemon.add(new Aquana());   Missing Stats
 //        pokemon.add(new Sakano());   Missing Stats
-        pokemon.add(new Draphin());
+        pokemon.add(new DraphinCyare()); //Renamed from Draphin
         pokemon.add(new Crebb());
         pokemon.add(new Crustocean());
         pokemon.add(new Impie());

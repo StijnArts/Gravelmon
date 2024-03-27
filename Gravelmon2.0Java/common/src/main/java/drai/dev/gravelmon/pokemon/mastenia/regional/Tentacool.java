@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Tentacool extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Tentacool(72) {
-        super("dex, Tentacool",
+    public Tentacool(int dex) {
+        super(dex, "Tentacool",
                 Type.PSYCHIC,Type.WATER,
                 new Stats(0,
                         0,

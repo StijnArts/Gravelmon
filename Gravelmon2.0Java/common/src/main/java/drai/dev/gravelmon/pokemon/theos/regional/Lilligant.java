@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Lilligant extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Lilligant(549) {
-        super("dex, Lilligant",
+    public Lilligant(int dex) {
+        super(dex, "Lilligant",
                 Type.GRASS,Type.ICE,
                 new Stats(70,
                         60,

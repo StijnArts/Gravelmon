@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Heracross extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Heracross(214) {
-        super("dex, Heracross",
+    public Heracross(int dex) {
+        super(dex, "Heracross",
                 Type.BUG,Type.STEEL,
                 new Stats(85,
                         125,

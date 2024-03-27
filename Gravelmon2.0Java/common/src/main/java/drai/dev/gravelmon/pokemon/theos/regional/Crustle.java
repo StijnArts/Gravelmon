@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Crustle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Crustle(558) {
-        super("dex, Crustle",
+    public Crustle(int dex) {
+        super(dex, "Crustle",
                 Type.WATER,Type.ROCK,
                 new Stats(70,
                         105,

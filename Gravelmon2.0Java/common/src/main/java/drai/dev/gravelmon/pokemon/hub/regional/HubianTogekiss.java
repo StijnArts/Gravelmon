@@ -129,8 +129,8 @@ public class HubianTogekiss extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STORED_POWER,"tm")                        ),
                 List.of(Label.HUB),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 56, .09, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

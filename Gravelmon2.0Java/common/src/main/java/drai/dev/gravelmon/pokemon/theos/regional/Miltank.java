@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Miltank extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Miltank(241) {
-        super("dex, Miltank",
+    public Miltank(int dex) {
+        super(dex, "Miltank",
                 Type.FAIRY,Type.NORMAL,
                 new Stats(105,
                         80,

@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Spinarak extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Spinarak(167) {
-        super("dex, Spinarak",
+    public Spinarak(int dex) {
+        super(dex, "Spinarak",
                 Type.BUG,Type.DARK,
                 new Stats(40,
                         60,

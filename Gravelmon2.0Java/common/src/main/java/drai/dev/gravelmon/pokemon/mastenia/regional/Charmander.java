@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Charmander extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Charmander(4) {
-        super("dex, Charmander",
+    public Charmander(int dex) {
+        super(dex, "Charmander",
                 Type.FIRE,
                 new Stats(39,
                         52,

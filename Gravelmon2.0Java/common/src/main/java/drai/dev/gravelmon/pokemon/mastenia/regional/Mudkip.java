@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Mudkip extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Mudkip(258) {
-        super("dex, Mudkip",
+    public Mudkip(int dex) {
+        super(dex, "Mudkip",
                 Type.STEEL,
                 new Stats(0,
                         0,

@@ -1,106 +1,11 @@
 package drai.dev.gravelmon.games.pokemmo.secondbatch;
 
 
-import drai.dev.gravelmon.pokemon.amavi.*;
-import drai.dev.gravelmon.pokemon.dhiome.*;
-import drai.dev.gravelmon.pokemon.mushi.*;
 import drai.dev.gravelmon.pokemon.theos.*;
+import drai.dev.gravelmon.pokemon.theos.Yolkoo;
 import drai.dev.gravelmon.pokemon.theos.regional.*;
-import drai.dev.gravelmon.pokemon.kuria.*;
-import drai.dev.gravelmon.pokemon.ottora.*;
-import drai.dev.gravelmon.pokemon.spion.*;
-import drai.dev.gravelmon.pokemon.mastenia.*;
-import drai.dev.gravelmon.pokemon.mongratis.*;
-import drai.dev.gravelmon.pokemon.theos.Ampharos;
-import drai.dev.gravelmon.pokemon.theos.Arcanine;
-import drai.dev.gravelmon.pokemon.theos.Ariados;
-import drai.dev.gravelmon.pokemon.theos.Bellossom;
-import drai.dev.gravelmon.pokemon.theos.Bellsprout;
-import drai.dev.gravelmon.pokemon.theos.Cloyster;
-import drai.dev.gravelmon.pokemon.theos.Cottonee;
-import drai.dev.gravelmon.pokemon.theos.Croagunk;
-import drai.dev.gravelmon.pokemon.theos.Crustle;
-import drai.dev.gravelmon.pokemon.theos.Dwebble;
-import drai.dev.gravelmon.pokemon.theos.Flaaffy;
-import drai.dev.gravelmon.pokemon.theos.Floette;
-import drai.dev.gravelmon.pokemon.theos.Florges;
-import drai.dev.gravelmon.pokemon.theos.Gloom;
-import drai.dev.gravelmon.pokemon.theos.Growlithe;
-import drai.dev.gravelmon.pokemon.theos.Heracross;
-import drai.dev.gravelmon.pokemon.theos.Hoppip;
-import drai.dev.gravelmon.pokemon.theos.Jumpluff;
-import drai.dev.gravelmon.pokemon.theos.Lilligant;
-import drai.dev.gravelmon.pokemon.theos.Luxio;
-import drai.dev.gravelmon.pokemon.theos.Luxray;
-import drai.dev.gravelmon.pokemon.theos.Mareep;
-import drai.dev.gravelmon.pokemon.theos.Miltank;
-import drai.dev.gravelmon.pokemon.theos.Oddish;
-import drai.dev.gravelmon.pokemon.theos.Petilil;
-import drai.dev.gravelmon.pokemon.theos.Pichu;
-import drai.dev.gravelmon.pokemon.theos.Pikachu;
-import drai.dev.gravelmon.pokemon.theos.Quagsire;
-import drai.dev.gravelmon.pokemon.theos.Raichu;
-import drai.dev.gravelmon.pokemon.theos.Shellder;
-import drai.dev.gravelmon.pokemon.theos.Shinx;
-import drai.dev.gravelmon.pokemon.theos.Skiploom;
-import drai.dev.gravelmon.pokemon.theos.Spinarak;
-import drai.dev.gravelmon.pokemon.theos.Sunflora;
-import drai.dev.gravelmon.pokemon.theos.Sunkern;
-import drai.dev.gravelmon.pokemon.theos.Tauros;
-import drai.dev.gravelmon.pokemon.theos.Toxicroak;
-import drai.dev.gravelmon.pokemon.theos.Venomoth;
-import drai.dev.gravelmon.pokemon.theos.Venonat;
-import drai.dev.gravelmon.pokemon.theos.Victreebel;
-import drai.dev.gravelmon.pokemon.theos.Vileplume;
-import drai.dev.gravelmon.pokemon.theos.Weepinbell;
-import drai.dev.gravelmon.pokemon.theos.Whimsicott;
-import drai.dev.gravelmon.pokemon.theos.Yanma;
-import drai.dev.gravelmon.pokemon.theos.Yanmega;
-import drai.dev.gravelmon.pokemon.ultraspace.*;
-import drai.dev.gravelmon.pokemon.urzavos.*;
-import drai.dev.gravelmon.pokemon.terranov.*;
-import drai.dev.gravelmon.pokemon.enjin.*;
-import drai.dev.gravelmon.pokemon.mystis.*;
-import drai.dev.gravelmon.pokemon.pastelisland.*;
-import drai.dev.gravelmon.pokemon.neonintendo.*;
-import drai.dev.gravelmon.pokemon.tokas.*;
-import drai.dev.gravelmon.pokemon.panjaea.*;
-import drai.dev.gravelmon.pokemon.cyare.*;
-import drai.dev.gravelmon.pokemon.olysos.*;
-import drai.dev.gravelmon.pokemon.nodorro.*;
-import drai.dev.gravelmon.pokemon.orbis.*;
-import drai.dev.gravelmon.pokemon.fliga.*;
-import drai.dev.gravelmon.pokemon.ruskow.*;
-import drai.dev.gravelmon.pokemon.otopo.*;
-import drai.dev.gravelmon.pokemon.goetia.*;
-import drai.dev.gravelmon.pokemon.ionos.*;
-import drai.dev.gravelmon.pokemon.lagoone.*;
-import drai.dev.gravelmon.pokemon.atlas.*;
-import drai.dev.gravelmon.pokemon.avoris.*;
-import drai.dev.gravelmon.pokemon.enriko.*;
-import drai.dev.gravelmon.pokemon.ferroa.*;
-import drai.dev.gravelmon.pokemon.hiza.*;
-import drai.dev.gravelmon.pokemon.hub.*;
-import drai.dev.gravelmon.pokemon.interregional.*;
-import drai.dev.gravelmon.pokemon.isiah.*;
-import drai.dev.gravelmon.pokemon.junnin.*;
-import drai.dev.gravelmon.pokemon.lonava.*;
-import drai.dev.gravelmon.pokemon.mythire.*;
-import drai.dev.gravelmon.pokemon.nosto.*;
-import drai.dev.gravelmon.pokemon.novrai.*;
-import drai.dev.gravelmon.pokemon.oceane.*;
-import drai.dev.gravelmon.pokemon.okeno.*;
-import drai.dev.gravelmon.pokemon.orohnhavai.*;
-import drai.dev.gravelmon.pokemon.qamor.*;
-import drai.dev.gravelmon.pokemon.rica.*;
-import drai.dev.gravelmon.pokemon.varitas.*;
-import drai.dev.gravelmon.pokemon.aristos.*;
-import drai.dev.gravelmon.pokemon.midamis.*;
-import drai.dev.gravelmon.pokemon.norheim.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import drai.dev.gravelmon.pokemon.theos.regional.Flabb;
 
-import java.util.*;
 public class Theos extends drai.dev.gravelmon.games.registry.Game {
     public Theos() {
         super("Theos");
@@ -141,11 +46,11 @@ public class Theos extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Pichu(172));
         pokemon.add(new Pikachu(25));
         pokemon.add(new Raichu(26));
-        pokemon.add(new Chickoo());
+        pokemon.add(new Yolkoo()); //Renamed from Chickoo
         pokemon.add(new Cherishen());
         pokemon.add(new Roostuff());
         pokemon.add(new Sqworm());
-        pokemon.add(new Burroworm());
+        pokemon.add(new Tunnoworm()); //Renamed from Burroworm
         pokemon.add(new Mareep(179));
         pokemon.add(new Flaaffy(180));
         pokemon.add(new Ampharos(181));
@@ -164,7 +69,7 @@ public class Theos extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Stoatic());
         pokemon.add(new Seedlee());
         pokemon.add(new Petalite());
-        pokemon.add(new Humini());
+        pokemon.add(new Mofly()); //Renamed from Humini
         pokemon.add(new Humoth());
         pokemon.add(new Carefeely());
         pokemon.add(new Wooper(194));
@@ -207,15 +112,15 @@ public class Theos extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Gloom(44));
         pokemon.add(new Vileplume(45));
         pokemon.add(new Bellossom(182));
-        pokemon.add(new Snaptrap());
+        pokemon.add(new Venotrap()); //Renamed from Snaptrap
         pokemon.add(new Faupent());
         pokemon.add(new Croagunk(453));
         pokemon.add(new Toxicroak(454));
         pokemon.add(new Shroolie());
         pokemon.add(new Pixcess());
         pokemon.add(new Elegantus());
-        pokemon.add(new Slowth());
-        pokemon.add(new Mossloth());
+        pokemon.add(new Slicoth()); //Renamed from Slowth
+        pokemon.add(new Mosstire()); //Renamed from Mossloth
         pokemon.add(new Mantice());
         pokemon.add(new Mantislash());
         pokemon.add(new Bellsprout(69));

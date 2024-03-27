@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Yanma extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Yanma(193) {
-        super("dex, Yanma",
+    public Yanma(int dex) {
+        super(dex, "Yanma",
                 Type.BUG,Type.DRAGON,
                 new Stats(65,
                         75,

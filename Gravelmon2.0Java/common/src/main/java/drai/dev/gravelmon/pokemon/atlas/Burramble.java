@@ -83,7 +83,7 @@ public class Burramble extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm"),
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm"),
                         new MoveLearnSetEntry(Move.MUDSLAP,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),

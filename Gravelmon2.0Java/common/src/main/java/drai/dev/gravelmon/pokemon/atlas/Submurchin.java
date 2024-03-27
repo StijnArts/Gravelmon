@@ -92,7 +92,7 @@ public class Submurchin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,"tm"),
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
                         new MoveLearnSetEntry(Move.TRICK_ROOM,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 41, 53, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),

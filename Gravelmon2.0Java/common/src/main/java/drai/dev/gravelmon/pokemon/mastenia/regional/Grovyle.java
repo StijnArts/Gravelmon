@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Grovyle extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Grovyle(253) {
-        super("dex, Grovyle",
+    public Grovyle(int dex) {
+        super(dex, "Grovyle",
                 Type.FIGHTING,Type.DARK,
                 new Stats(0,
                         0,

@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Treecko extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Treecko(252) {
-        super("dex, Treecko",
+    public Treecko(int dex) {
+        super(dex, "Treecko",
                 Type.FIGHTING,
                 new Stats(0,
                         0,

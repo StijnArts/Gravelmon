@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Flaaffy extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Flaaffy(180) {
-        super("dex, Flaaffy",
+    public Flaaffy(int dex) {
+        super(dex, "Flaaffy",
                 Type.GRASS,
                 new Stats(70,
                         45,

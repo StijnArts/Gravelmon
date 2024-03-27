@@ -79,7 +79,7 @@ public class Kotukoatl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VOLT_SWITCH,"tm"),
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm"),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 56, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),

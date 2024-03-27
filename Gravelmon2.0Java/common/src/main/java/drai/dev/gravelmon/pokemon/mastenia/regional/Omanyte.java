@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Omanyte extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Omanyte(138) {
-        super("dex, Omanyte",
+    public Omanyte(int dex) {
+        super(dex, "Omanyte",
                 Type.ROCK,Type.WATER,
                 new Stats(0,
                         0,

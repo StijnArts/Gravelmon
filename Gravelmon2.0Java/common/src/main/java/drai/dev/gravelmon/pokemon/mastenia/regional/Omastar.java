@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Omastar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Omastar(139) {
-        super("dex, Omastar",
+    public Omastar(int dex) {
+        super(dex, "Omastar",
                 Type.ROCK,Type.WATER,
                 new Stats(0,
                         0,

@@ -23,6 +23,7 @@ import drai.dev.gravelmon.pokemon.atlas.Wilspri;
 import drai.dev.gravelmon.pokemon.amavi.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.mushi.*;
+import drai.dev.gravelmon.pokemon.orohnhavai.Abyssoul;
 import drai.dev.gravelmon.pokemon.theos.*;
 import drai.dev.gravelmon.pokemon.kuria.*;
 import drai.dev.gravelmon.pokemon.ottora.*;

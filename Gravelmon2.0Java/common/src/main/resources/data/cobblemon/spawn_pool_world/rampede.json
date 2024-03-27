@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rampede-1",
+      "pokemon": "rampede",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-39",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_highlands" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

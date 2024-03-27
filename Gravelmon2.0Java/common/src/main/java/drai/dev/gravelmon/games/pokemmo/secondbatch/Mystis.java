@@ -1,60 +1,11 @@
 package drai.dev.gravelmon.games.pokemmo.secondbatch;
 
 
-import drai.dev.gravelmon.pokemon.amavi.*;
-import drai.dev.gravelmon.pokemon.dhiome.*;
-import drai.dev.gravelmon.pokemon.mushi.*;
-import drai.dev.gravelmon.pokemon.theos.*;
-import drai.dev.gravelmon.pokemon.kuria.*;
-import drai.dev.gravelmon.pokemon.ottora.*;
-import drai.dev.gravelmon.pokemon.spion.*;
-import drai.dev.gravelmon.pokemon.mastenia.*;
-import drai.dev.gravelmon.pokemon.mongratis.*;
-import drai.dev.gravelmon.pokemon.ultraspace.*;
-import drai.dev.gravelmon.pokemon.urzavos.*;
-import drai.dev.gravelmon.pokemon.terranov.*;
-import drai.dev.gravelmon.pokemon.enjin.*;
+import drai.dev.gravelmon.pokemon.mystis.Dimshade;
+import drai.dev.gravelmon.pokemon.mystis.Pebblig;
+import drai.dev.gravelmon.pokemon.mystis.regional.*;
 import drai.dev.gravelmon.pokemon.mystis.*;
-import drai.dev.gravelmon.pokemon.pastelisland.*;
-import drai.dev.gravelmon.pokemon.neonintendo.*;
-import drai.dev.gravelmon.pokemon.tokas.*;
-import drai.dev.gravelmon.pokemon.panjaea.*;
-import drai.dev.gravelmon.pokemon.cyare.*;
-import drai.dev.gravelmon.pokemon.olysos.*;
-import drai.dev.gravelmon.pokemon.nodorro.*;
-import drai.dev.gravelmon.pokemon.orbis.*;
-import drai.dev.gravelmon.pokemon.fliga.*;
-import drai.dev.gravelmon.pokemon.ruskow.*;
-import drai.dev.gravelmon.pokemon.otopo.*;
-import drai.dev.gravelmon.pokemon.goetia.*;
-import drai.dev.gravelmon.pokemon.ionos.*;
-import drai.dev.gravelmon.pokemon.lagoone.*;
-import drai.dev.gravelmon.pokemon.atlas.*;
-import drai.dev.gravelmon.pokemon.avoris.*;
-import drai.dev.gravelmon.pokemon.enriko.*;
-import drai.dev.gravelmon.pokemon.ferroa.*;
-import drai.dev.gravelmon.pokemon.hiza.*;
-import drai.dev.gravelmon.pokemon.hub.*;
-import drai.dev.gravelmon.pokemon.interregional.*;
-import drai.dev.gravelmon.pokemon.isiah.*;
-import drai.dev.gravelmon.pokemon.junnin.*;
-import drai.dev.gravelmon.pokemon.lonava.*;
-import drai.dev.gravelmon.pokemon.mythire.*;
-import drai.dev.gravelmon.pokemon.nosto.*;
-import drai.dev.gravelmon.pokemon.novrai.*;
-import drai.dev.gravelmon.pokemon.oceane.*;
-import drai.dev.gravelmon.pokemon.okeno.*;
-import drai.dev.gravelmon.pokemon.orohnhavai.*;
-import drai.dev.gravelmon.pokemon.qamor.*;
-import drai.dev.gravelmon.pokemon.rica.*;
-import drai.dev.gravelmon.pokemon.varitas.*;
-import drai.dev.gravelmon.pokemon.aristos.*;
-import drai.dev.gravelmon.pokemon.midamis.*;
-import drai.dev.gravelmon.pokemon.norheim.*;
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
-import java.util.*;
 public class Mystis extends drai.dev.gravelmon.games.registry.Game {
     public Mystis() {
         super("Mystis");
@@ -66,7 +17,7 @@ public class Mystis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Larbor());
         pokemon.add(new Anbrosia());
         pokemon.add(new Lavat());
-        pokemon.add(new Flufflame());
+        pokemon.add(new Flamfluff()); //Renamed from Flufflame
         pokemon.add(new Demolecho());
         pokemon.add(new Crubble());
         pokemon.add(new Aquagator());
@@ -100,7 +51,7 @@ public class Mystis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Veilily());
         pokemon.add(new Meowtem());
         pokemon.add(new Nekomancer());
-        pokemon.add(new Zombark());
+        pokemon.add(new Lichuff()); //renamed from Zombark
         pokemon.add(new Decaynine());
         pokemon.add(new Raggedoll());
         pokemon.add(new Contamaggot());
@@ -139,7 +90,7 @@ public class Mystis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Treenket());
         pokemon.add(new Conifella());
         pokemon.add(new Conifear());
-        pokemon.add(new Pebblet());
+        pokemon.add(new Pebblig()); //Renamed from Pebblet
         pokemon.add(new Boaribble());
         pokemon.add(new Acheelys());
         pokemon.add(new Detonewt());
@@ -191,7 +142,7 @@ public class Mystis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Dunsparce(206));
         pokemon.add(new Dubsparce());
         pokemon.add(new Sparcnidria());
-        pokemon.add(new Dimwraith());
+        pokemon.add(new Dimshade()); //Renamed from Dimwraith
         pokemon.add(new Vertighoul());
         pokemon.add(new Ovizap());
         pokemon.add(new Zaptor());

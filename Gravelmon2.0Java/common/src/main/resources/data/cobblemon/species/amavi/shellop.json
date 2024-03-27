@@ -1,0 +1,109 @@
+{
+  "implemented": true,
+  "name": "shellop",
+  "nationalPokedexNumber": 4581,
+  "primaryType": "water",
+  "abilities": [
+    "torrent",
+    "h:filter"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 20,
+    "defence": 70,
+    "special_attack": 50,
+    "special_defence": 70,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3",
+    "amorphous"
+  ],
+  "moves": [
+    "1:chillingwater",
+    "6:lifedew",
+    "12:icywind",
+    "17:rapidspin",
+    "23:whirlpool",
+    "28:teatime",
+    "34:freezedry",
+    "39:powergemcrystal",
+    "45:sparklingariasound",
+    "50:irondefense",
+    "56:icespinner",
+    "61:hydropump",
+    "72:blizzard",
+    "78:soak",
+    "83:waterspout"  ],
+  "labels": [
+    "amavi",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.shellop.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "shellop_glossail",
+      "variant": "level_up",
+      "result": "glossail",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 204,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

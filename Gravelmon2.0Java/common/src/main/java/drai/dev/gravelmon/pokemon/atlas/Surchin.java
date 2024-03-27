@@ -41,7 +41,7 @@ public class Surchin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COUNTER,49),
                         new MoveLearnSetEntry(Move.QUASH,56),
                         new MoveLearnSetEntry(Move.MUDDY_WATER,61)                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 26, 37, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),

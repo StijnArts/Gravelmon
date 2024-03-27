@@ -127,7 +127,7 @@ public class Imploda extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm"),
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm"),
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 27, 41, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),

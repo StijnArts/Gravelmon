@@ -89,7 +89,7 @@ public class Crebb extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,"tm"),
                         new MoveLearnSetEntry(Move.TAUNT,"tm"),
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 3, 22, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),

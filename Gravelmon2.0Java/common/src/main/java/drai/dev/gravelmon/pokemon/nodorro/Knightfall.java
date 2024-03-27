@@ -58,7 +58,7 @@ import java.util.*;
 public class Knightfall extends drai.dev.gravelmon.pokemon.Pokemon {
     public Knightfall() {
         super("Knightfall",
-                
+                Type.QUESTION_MARK,
                 new Stats(0,
                         0,
                         0,

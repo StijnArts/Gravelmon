@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Wooper extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Wooper(194) {
-        super("dex, Wooper",
+    public Wooper(int dex) {
+        super(dex, "Wooper",
                 Type.WATER,Type.PSYCHIC,
                 new Stats(55,
                         25,

@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Petilil extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Petilil(548) {
-        super("dex, Petilil",
+    public Petilil(int dex) {
+        super(dex, "Petilil",
                 Type.GRASS,Type.ICE,
                 new Stats(45,
                         35,

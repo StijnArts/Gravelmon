@@ -58,7 +58,7 @@ import java.util.*;
 public class Crystail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crystail() {
         super("Crystail",
-                Type.???,
+                Type.QUESTION_MARK,
                 new Stats(58,
                         58,
                         58,

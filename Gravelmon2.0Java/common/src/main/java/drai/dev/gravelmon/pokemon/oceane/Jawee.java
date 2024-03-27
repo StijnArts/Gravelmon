@@ -29,7 +29,7 @@ public class Jawee extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BUBBLE,5),
                         new MoveLearnSetEntry(Move.ABSORB,7),
                         new MoveLearnSetEntry(Move.CRUNCH,37)                        ),
-                List.of(Label.OCEANE),
+                List.of(Label.GOETIA),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 1, 19, 5.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),

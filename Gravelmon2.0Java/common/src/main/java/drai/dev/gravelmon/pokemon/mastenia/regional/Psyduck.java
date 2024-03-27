@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.mastenia;
+package drai.dev.gravelmon.pokemon.mastenia.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Psyduck extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Psyduck(54) {
-        super("dex, Psyduck",
+    public Psyduck(int dex) {
+        super(dex, "Psyduck",
                 Type.POISON,Type.PSYCHIC,
                 new Stats(50,
                         62,

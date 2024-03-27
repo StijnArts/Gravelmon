@@ -57,7 +57,7 @@ public class Wombabe extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TAUNT,"tm"),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,"tm"),
                         new MoveLearnSetEntry(Move.TOXIC,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),

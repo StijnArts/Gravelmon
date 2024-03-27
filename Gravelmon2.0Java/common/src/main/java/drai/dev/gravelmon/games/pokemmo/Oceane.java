@@ -69,8 +69,6 @@ public class Oceane extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Ferossicle()); //Missing Stats
         pokemon.add(new Planten());
         pokemon.add(new Handren());
-        pokemon.add(new Jawee());
-        pokemon.add(new Jawsome());
 //        pokemon.add(new Digdog()); //NOT FINISHED
 //        pokemon.add(new Groundhound()); //Missing Stats
         pokemon.add(new Sweal());

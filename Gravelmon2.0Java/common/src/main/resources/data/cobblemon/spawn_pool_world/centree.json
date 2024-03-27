@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "centree-1",
+      "pokemon": "centree",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "40-59",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_plains" ]    }
+    }
+  ]
+}

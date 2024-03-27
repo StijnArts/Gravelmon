@@ -2,6 +2,7 @@ package drai.dev.gravelmon.games.pokemmo;
 
 import drai.dev.gravelmon.pokemon.amavi.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
+import drai.dev.gravelmon.pokemon.enriko.Metrognome;
 import drai.dev.gravelmon.pokemon.mushi.*;
 import drai.dev.gravelmon.pokemon.theos.*;
 import drai.dev.gravelmon.pokemon.kuria.*;

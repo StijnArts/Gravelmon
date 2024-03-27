@@ -70,7 +70,7 @@ public class Snoosect extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXTRASENSORY,"tm"),
                         new MoveLearnSetEntry(Move.NIGHT_SLASH,"tm"),
                         new MoveLearnSetEntry(Move.BUG_BUZZ,"tm")                        ),
-                List.of(Label.RICA),
+                List.of(Label.CYARE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

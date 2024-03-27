@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Hoppip extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Hoppip(187) {
-        super("dex, Hoppip",
+    public Hoppip(int dex) {
+        super(dex, "Hoppip",
                 Type.GROUND,Type.GRASS,
                 new Stats(50,
                         35,

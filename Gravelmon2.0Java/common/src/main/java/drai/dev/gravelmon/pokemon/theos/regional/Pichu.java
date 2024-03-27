@@ -1,4 +1,4 @@
-package drai.dev.gravelmon.pokemon.theos;
+package drai.dev.gravelmon.pokemon.theos.regional;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Pichu extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Pichu(172) {
-        super("dex, Pichu",
+    public Pichu(int dex) {
+        super(dex, "Pichu",
                 Type.ELECTRIC,
                 new Stats(20,
                         40,

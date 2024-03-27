@@ -56,8 +56,8 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class Volbeat extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Volbeat(313) {
-        super("dex, Volbeat",
+    public Volbeat(int dex) {
+        super(dex, "Volbeat",
                 Type.BUG,Type.ELECTRIC,
                 new Stats(0,
                         0,

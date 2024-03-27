@@ -85,7 +85,7 @@ public class Nebulent extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm"),
                         new MoveLearnSetEntry(Move.NASTY_PLOT,"tm"),
                         new MoveLearnSetEntry(Move.CORROSIVEBITE,"tm")                        ),
-                List.of(Label.ATLAS),
+                List.of(Label.DHIOME),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 5.6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL, Biome.IS_SANDY)),

@@ -2,6 +2,7 @@ package drai.dev.gravelmon.games.pokemmo;
 
 import drai.dev.gravelmon.pokemon.amavi.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
+import drai.dev.gravelmon.pokemon.fliga.Carcahawk;
 import drai.dev.gravelmon.pokemon.mushi.*;
 import drai.dev.gravelmon.pokemon.theos.*;
 import drai.dev.gravelmon.pokemon.kuria.*;
@@ -66,7 +67,9 @@ public class Okeno extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Vinagruff());
         pokemon.add(new Punibara());
         pokemon.add(new Dopibara());
-        pokemon.add(new Coathief());
+        var coathief = new Coathief();
+        pokemon.add(coathief);
+//        pokemon.add(new MastenianCoathief(coathief.getPokedexNumber()));   Missing Stats
         pokemon.add(new Darskarf());
         pokemon.add(new Inscribble());
         pokemon.add(new Pupage());
@@ -113,7 +116,7 @@ public class Okeno extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Celestapir()); //Missing Art
 //        pokemon.add(new Shivurr()); //Member of line not Finished
 //        pokemon.add(new Carcaheat()); //Missing Art
-//        pokemon.add(new Carcahawk());
+        pokemon.add(new Carcahawk());
         pokemon.add(new Dormie());
         pokemon.add(new Dreamie());
 //        pokemon.add(new Mudpole()); //Member of line not Finished

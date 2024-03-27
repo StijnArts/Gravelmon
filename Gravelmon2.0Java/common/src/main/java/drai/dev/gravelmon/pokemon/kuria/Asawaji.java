@@ -58,7 +58,7 @@ import java.util.*;
 public class Asawaji extends drai.dev.gravelmon.pokemon.Pokemon {
     public Asawaji() {
         super("Asawaji",
-                Type.???,
+                Type.QUESTION_MARK,
                 new Stats(63,
                         56,
                         78,

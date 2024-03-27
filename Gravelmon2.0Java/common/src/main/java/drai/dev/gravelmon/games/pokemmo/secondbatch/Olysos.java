@@ -4,6 +4,7 @@ package drai.dev.gravelmon.games.pokemmo.secondbatch;
 import drai.dev.gravelmon.pokemon.amavi.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.mushi.*;
+import drai.dev.gravelmon.pokemon.olysos.Grimlin;
 import drai.dev.gravelmon.pokemon.theos.*;
 import drai.dev.gravelmon.pokemon.kuria.*;
 import drai.dev.gravelmon.pokemon.ottora.*;
