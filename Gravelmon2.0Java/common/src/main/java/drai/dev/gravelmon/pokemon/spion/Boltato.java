@@ -8,7 +8,7 @@ import java.util.*;
 public class Boltato extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boltato() {
         super("Voltato",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(70,
                         48,
                         48,

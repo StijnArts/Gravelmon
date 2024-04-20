@@ -8,7 +8,7 @@ import java.util.*;
 public class Chassel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chassel() {
         super("Chassel",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(94,
                         70,
                         128,
@@ -17,7 +17,7 @@ public class Chassel extends drai.dev.gravelmon.pokemon.Pokemon {
                         81),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 17, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

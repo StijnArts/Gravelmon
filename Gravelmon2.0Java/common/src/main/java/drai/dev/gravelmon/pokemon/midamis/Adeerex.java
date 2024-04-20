@@ -8,7 +8,7 @@ import java.util.*;
 public class Adeerex extends drai.dev.gravelmon.pokemon.Pokemon {
     public Adeerex() {
         super("Adeerex",
-                Type.DARK,Type.ROCK,
+                Type.DARK, Type.ROCK,
                 new Stats(105,
                         140,
                         110,

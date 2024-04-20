@@ -7,7 +7,7 @@ import java.util.*;
 public class Sorbeak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sorbeak() {
         super("Sorbeak",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(76,
                         53,
                         43,

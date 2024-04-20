@@ -7,7 +7,7 @@ import java.util.*;
 public class Guilloceive extends drai.dev.gravelmon.pokemon.Pokemon {
     public Guilloceive() {
         super("Guilloceive",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(74,
                         130,
                         83,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sparkete extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sparkete() {
         super("Sparkete",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

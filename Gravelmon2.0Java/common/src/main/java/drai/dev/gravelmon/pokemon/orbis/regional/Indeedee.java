@@ -58,7 +58,7 @@ import java.util.*;
 public class Indeedee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Indeedee(int dex) {
         super(dex, "Indeedee",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(60,
                         65,
                         55,

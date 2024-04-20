@@ -58,7 +58,7 @@ import java.util.*;
 public class Bellsprout extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bellsprout(int dex) {
         super(dex, "Bellsprout",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(50,
                         75,
                         45,

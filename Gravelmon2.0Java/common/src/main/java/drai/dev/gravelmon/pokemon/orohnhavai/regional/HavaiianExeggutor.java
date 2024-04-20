@@ -9,7 +9,7 @@ import java.util.*;
 public class HavaiianExeggutor extends drai.dev.gravelmon.pokemon.Pokemon {
     public HavaiianExeggutor() {
         super("Exeggutor",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(95,
                         95,
                         85,

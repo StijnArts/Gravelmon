@@ -7,7 +7,7 @@ import java.util.*;
 public class Stellarva extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stellarva() {
         super("Stellarva",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(35,
                         32,
                         45,

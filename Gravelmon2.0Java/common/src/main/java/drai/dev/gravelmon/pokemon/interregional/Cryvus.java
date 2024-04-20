@@ -7,7 +7,7 @@ import java.util.*;
 public class Cryvus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cryvus() {
         super("Cryvus",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

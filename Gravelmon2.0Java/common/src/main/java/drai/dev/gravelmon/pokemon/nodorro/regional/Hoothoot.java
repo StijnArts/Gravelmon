@@ -58,7 +58,7 @@ import java.util.*;
 public class Hoothoot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hoothoot(int dex) {
         super(dex, "Hoothoot",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(50,
                         30,
                         40,

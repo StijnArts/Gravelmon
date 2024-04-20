@@ -6,7 +6,7 @@ import java.util.*;
 public class Midnaught extends drai.dev.gravelmon.pokemon.Pokemon {
     public Midnaught() {
         super("Midnaught",
-                Type.STEEL,Type.GHOST,
+                Type.STEEL, Type.GHOST,
                 new Stats(66,
                         119,
                         110,

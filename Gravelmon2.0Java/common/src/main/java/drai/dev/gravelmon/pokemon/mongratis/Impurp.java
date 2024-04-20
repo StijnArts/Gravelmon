@@ -58,7 +58,7 @@ import java.util.*;
 public class Impurp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impurp() {
         super("Impurp",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(44,
                         40,
                         34,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Purrleo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Purrleo() {
         super("Purrleo",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(55,
                         95,
                         75,

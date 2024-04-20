@@ -9,7 +9,7 @@ import java.util.*;
 public class Mochrema extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mochrema() {
         super("Mochrema",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(110,
                         30,
                         78,

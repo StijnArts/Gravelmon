@@ -58,7 +58,7 @@ import java.util.*;
 public class Diploracus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Diploracus() {
         super("Diploracus",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

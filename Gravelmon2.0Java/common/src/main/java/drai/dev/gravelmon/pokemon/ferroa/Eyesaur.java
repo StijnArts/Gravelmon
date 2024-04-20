@@ -7,7 +7,7 @@ import java.util.*;
 public class Eyesaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eyesaur() {
         super("Eyesaur",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(75,
                         65,
                         60,

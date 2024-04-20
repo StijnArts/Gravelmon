@@ -58,7 +58,7 @@ import java.util.*;
 public class Zigzagoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zigzagoon(int dex) {
         super(dex, "Zigzagoon",
-                Type.DARK,Type.NORMAL,
+                Type.DARK, Type.NORMAL,
                 new Stats(38,
                         30,
                         41,

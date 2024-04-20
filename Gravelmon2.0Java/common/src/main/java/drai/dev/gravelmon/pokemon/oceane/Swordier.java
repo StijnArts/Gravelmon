@@ -7,7 +7,7 @@ import java.util.*;
 public class Swordier extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swordier() {
         super("Swordier",
-                Type.STEEL,Type.FIGHTING,
+                Type.STEEL, Type.FIGHTING,
                 new Stats(80,
                         120,
                         70,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Falantern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Falantern() {
         super("Falantern",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

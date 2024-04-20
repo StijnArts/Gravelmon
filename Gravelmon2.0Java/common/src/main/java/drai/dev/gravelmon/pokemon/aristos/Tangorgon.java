@@ -9,7 +9,7 @@ import java.util.*;
 public class Tangorgon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tangorgon() {
         super("Tangorgon",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,
                         0,

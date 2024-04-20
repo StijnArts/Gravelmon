@@ -7,7 +7,7 @@ import java.util.*;
 public class Mafreozee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mafreozee() {
         super("Mafreozee",
-                Type.ICE,Type.PSYCHIC,
+                Type.ICE, Type.PSYCHIC,
                 new Stats(71,
                         61,
                         80,

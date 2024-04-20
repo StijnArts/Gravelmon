@@ -9,7 +9,7 @@ import java.util.*;
 public class Steinfjorir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Steinfjorir() {
         super("Steinfjorir",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(95,
                         125,
                         110,

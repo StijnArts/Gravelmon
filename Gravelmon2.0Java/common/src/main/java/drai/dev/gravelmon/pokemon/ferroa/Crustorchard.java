@@ -7,7 +7,7 @@ import java.util.*;
 public class Crustorchard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crustorchard() {
         super("Crustorchard",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(70,
                         90,
                         125,

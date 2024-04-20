@@ -7,7 +7,7 @@ import java.util.*;
 public class Verblunt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Verblunt() {
         super("Verblunt",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(80,
                         73,
                         80,

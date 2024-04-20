@@ -7,7 +7,7 @@ import java.util.*;
 public class Fistiscuff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fistiscuff() {
         super("Fistiscuff",
-                Type.FIGHTING,Type.FAIRY,
+                Type.FIGHTING, Type.FAIRY,
                 new Stats(42,
                         45,
                         45,

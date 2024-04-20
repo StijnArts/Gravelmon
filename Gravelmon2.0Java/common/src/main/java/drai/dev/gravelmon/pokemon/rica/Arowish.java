@@ -9,7 +9,7 @@ import java.util.*;
 public class Arowish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arowish() {
         super("Arowish",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(80,
                         57,
                         70,

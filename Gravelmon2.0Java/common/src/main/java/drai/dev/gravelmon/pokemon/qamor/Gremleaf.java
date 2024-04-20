@@ -9,7 +9,7 @@ import java.util.*;
 public class Gremleaf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gremleaf() {
         super("Gremleaf",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(65,
                         65,
                         55,

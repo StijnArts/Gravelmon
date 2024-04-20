@@ -58,7 +58,7 @@ import java.util.*;
 public class Douseidon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Douseidon() {
         super("Douseidon",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(81,
                         71,
                         80,

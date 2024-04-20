@@ -9,7 +9,7 @@ import java.util.*;
 public class Earmor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Earmor() {
         super("Earmor",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(65,
                         100,
                         120,

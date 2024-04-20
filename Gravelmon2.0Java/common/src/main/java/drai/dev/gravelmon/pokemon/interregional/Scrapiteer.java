@@ -7,7 +7,7 @@ import java.util.*;
 public class Scrapiteer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scrapiteer() {
         super("Scrapiteer",
-                Type.STEEL,Type.POISON,
+                Type.STEEL, Type.POISON,
                 new Stats(0,
                         0,
                         0,

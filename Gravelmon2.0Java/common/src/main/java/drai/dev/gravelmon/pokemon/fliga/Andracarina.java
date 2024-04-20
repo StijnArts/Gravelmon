@@ -58,7 +58,7 @@ import java.util.*;
 public class Andracarina extends drai.dev.gravelmon.pokemon.Pokemon {
     public Andracarina() {
         super("Andracarina",
-                Type.FLYING,Type.POISON,
+                Type.FLYING, Type.POISON,
                 new Stats(211,
                         41,
                         83,

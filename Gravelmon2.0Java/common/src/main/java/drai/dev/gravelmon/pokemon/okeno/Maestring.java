@@ -6,7 +6,7 @@ import java.util.*;
 public class Maestring extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maestring() {
         super("Maestring",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(72,
                         40,
                         68,

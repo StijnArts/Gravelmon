@@ -8,7 +8,7 @@ import java.util.*;
 public class Lavalux extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lavalux() {
         super("Lavalux",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(39,
                         33,
                         32,

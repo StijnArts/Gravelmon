@@ -58,7 +58,7 @@ import java.util.*;
 public class Coralegion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coralegion() {
         super("Coralegion",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(116,
                         100,
                         168,

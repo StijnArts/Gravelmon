@@ -58,7 +58,7 @@ import java.util.*;
 public class oxboy extends drai.dev.gravelmon.pokemon.Pokemon {
     public oxboy() {
         super("oxboy",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(69,
                         86,
                         80,

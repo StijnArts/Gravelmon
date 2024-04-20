@@ -8,7 +8,7 @@ import java.util.*;
 public class AvorianChemecko extends drai.dev.gravelmon.pokemon.Pokemon {
     public AvorianChemecko() {
         super("Chemecko",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(34,
                         54,
                         52,

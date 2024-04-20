@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranHuntail extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranHuntail(int dex) {
         super(dex, "Huntail",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(55,
                         104,
                         105,

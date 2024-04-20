@@ -7,7 +7,7 @@ import java.util.*;
 public class Torchurn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Torchurn() {
         super("Torchurn",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

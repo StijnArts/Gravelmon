@@ -8,7 +8,7 @@ import java.util.*;
 public class Agrarrior extends drai.dev.gravelmon.pokemon.Pokemon {
     public Agrarrior() {
         super("Agrarrior",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(110,
                         130,
                         90,

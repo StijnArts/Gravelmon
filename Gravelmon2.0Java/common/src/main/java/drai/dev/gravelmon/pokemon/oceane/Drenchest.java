@@ -7,7 +7,7 @@ import java.util.*;
 public class Drenchest extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drenchest() {
         super("Drenchest",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(102,
                         114,
                         100,

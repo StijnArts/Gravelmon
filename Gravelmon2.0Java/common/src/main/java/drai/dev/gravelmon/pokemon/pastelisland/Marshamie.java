@@ -58,7 +58,7 @@ import java.util.*;
 public class Marshamie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marshamie() {
         super("Marshamie",
-                Type.NORMAL,Type.FIRE,
+                Type.NORMAL, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

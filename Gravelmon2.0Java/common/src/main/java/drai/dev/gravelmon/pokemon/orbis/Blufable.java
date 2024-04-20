@@ -58,7 +58,7 @@ import java.util.*;
 public class Blufable extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blufable() {
         super("Blufable",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(95,
                         70,
                         73,

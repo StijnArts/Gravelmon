@@ -9,7 +9,7 @@ import java.util.*;
 public class QamoranWeezing extends drai.dev.gravelmon.pokemon.Pokemon {
     public QamoranWeezing(int dex) {
         super(dex, "Weezing",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(65,
                         65,
                         80,

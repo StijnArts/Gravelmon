@@ -7,7 +7,7 @@ import java.util.*;
 public class Grivern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grivern() {
         super("Grivern",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(25,
                         43,
                         40,

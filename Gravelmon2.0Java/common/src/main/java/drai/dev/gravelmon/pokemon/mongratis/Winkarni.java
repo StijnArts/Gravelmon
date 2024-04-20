@@ -58,7 +58,7 @@ import java.util.*;
 public class Winkarni extends drai.dev.gravelmon.pokemon.Pokemon {
     public Winkarni() {
         super("Winkarni",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

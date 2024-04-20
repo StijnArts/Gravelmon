@@ -58,7 +58,7 @@ import java.util.*;
 public class Noctowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Noctowl(int dex) {
         super(dex, "Noctowl",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(76,
                         56,
                         65,

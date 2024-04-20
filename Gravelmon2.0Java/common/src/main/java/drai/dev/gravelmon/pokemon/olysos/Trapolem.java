@@ -58,7 +58,7 @@ import java.util.*;
 public class Trapolem extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trapolem() {
         super("Trapolem",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

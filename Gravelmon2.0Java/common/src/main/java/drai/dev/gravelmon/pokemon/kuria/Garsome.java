@@ -58,7 +58,7 @@ import java.util.*;
 public class Garsome extends drai.dev.gravelmon.pokemon.Pokemon {
     public Garsome() {
         super("Garsome",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(121,
                         81,
                         91,

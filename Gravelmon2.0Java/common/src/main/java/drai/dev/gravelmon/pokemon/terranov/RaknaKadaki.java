@@ -58,7 +58,7 @@ import java.util.*;
 public class RaknaKadaki extends drai.dev.gravelmon.pokemon.Pokemon {
     public RaknaKadaki() {
         super("RaknaKadaki",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

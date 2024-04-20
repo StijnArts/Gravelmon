@@ -58,7 +58,7 @@ import java.util.*;
 public class Urstaunch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Urstaunch() {
         super("Urstaunch",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(100,
                         100,
                         130,

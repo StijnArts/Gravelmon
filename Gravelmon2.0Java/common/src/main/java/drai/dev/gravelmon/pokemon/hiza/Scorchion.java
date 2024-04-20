@@ -7,7 +7,7 @@ import java.util.*;
 public class Scorchion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scorchion() {
         super("Scorchion",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(81,
                         122,
                         80,

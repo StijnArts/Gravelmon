@@ -58,7 +58,7 @@ import java.util.*;
 public class Cactussle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cactussle() {
         super("Cactussle",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(90,
                         130,
                         85,

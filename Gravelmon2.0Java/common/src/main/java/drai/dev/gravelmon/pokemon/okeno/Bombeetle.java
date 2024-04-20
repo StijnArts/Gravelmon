@@ -6,7 +6,7 @@ import java.util.*;
 public class Bombeetle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bombeetle() {
         super("Bombeetle",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(84,
                         114,
                         84,

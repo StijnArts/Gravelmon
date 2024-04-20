@@ -7,7 +7,7 @@ import java.util.*;
 public class Bactiny extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bactiny() {
         super("Bactiny",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(30,
                         15,
                         15,

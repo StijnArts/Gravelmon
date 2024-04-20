@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianArmaldo extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianArmaldo(int dex) {
         super(dex, "Armaldo",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(75,
                         125,
                         100,

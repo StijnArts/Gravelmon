@@ -9,7 +9,7 @@ import java.util.*;
 public class Woodtryle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Woodtryle() {
         super("Woodtryle",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(75,
                         110,
                         105,

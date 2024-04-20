@@ -58,7 +58,7 @@ import java.util.*;
 public class Raccoustic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Raccoustic() {
         super("Raccoustic",
-                Type.SOUND,Type.DARK,
+                Type.SOUND, Type.DARK,
                 new Stats(75,
                         80,
                         65,

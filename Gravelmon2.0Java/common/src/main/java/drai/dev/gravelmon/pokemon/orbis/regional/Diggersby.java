@@ -58,7 +58,7 @@ import java.util.*;
 public class Diggersby extends drai.dev.gravelmon.pokemon.Pokemon {
     public Diggersby(int dex) {
         super(dex, "Diggersby",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(85,
                         56,
                         77,

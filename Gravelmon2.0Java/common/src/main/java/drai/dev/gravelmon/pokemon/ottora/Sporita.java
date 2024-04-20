@@ -58,7 +58,7 @@ import java.util.*;
 public class Sporita extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sporita() {
         super("Sporita",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

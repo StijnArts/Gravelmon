@@ -9,7 +9,7 @@ import java.util.*;
 public class Timiby extends drai.dev.gravelmon.pokemon.Pokemon {
     public Timiby() {
         super("Timiby",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(70,
                         60,
                         50,

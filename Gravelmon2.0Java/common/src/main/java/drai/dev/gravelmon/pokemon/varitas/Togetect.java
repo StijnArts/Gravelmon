@@ -9,7 +9,7 @@ import java.util.*;
 public class Togetect extends drai.dev.gravelmon.pokemon.Pokemon {
     public Togetect() {
         super("Togetect",
-                Type.FAIRY,Type.STEEL,
+                Type.FAIRY, Type.STEEL,
                 new Stats(70,
                         100,
                         115,

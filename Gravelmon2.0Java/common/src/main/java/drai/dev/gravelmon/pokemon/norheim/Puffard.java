@@ -9,7 +9,7 @@ import java.util.*;
 public class Puffard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Puffard() {
         super("Puffard",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(65,
                         65,
                         55,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Campullion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Campullion() {
         super("Campullion",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(100,
                         80,
                         70,

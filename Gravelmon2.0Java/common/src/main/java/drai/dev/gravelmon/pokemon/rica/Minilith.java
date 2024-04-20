@@ -9,7 +9,7 @@ import java.util.*;
 public class Minilith extends drai.dev.gravelmon.pokemon.Pokemon {
     public Minilith() {
         super("Minilith",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(45,
                         66,
                         90,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Fridgeraider extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fridgeraider() {
         super("Fridgeraider",
-                Type.ICE,Type.STEEL,
+                Type.ICE, Type.STEEL,
                 new Stats(60,
                         100,
                         120,

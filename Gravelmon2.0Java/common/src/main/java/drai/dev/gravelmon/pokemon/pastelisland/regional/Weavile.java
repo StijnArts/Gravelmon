@@ -58,7 +58,7 @@ import java.util.*;
 public class Weavile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Weavile(int dex) {
         super(dex, "Weavile",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(70,
                         120,
                         65,

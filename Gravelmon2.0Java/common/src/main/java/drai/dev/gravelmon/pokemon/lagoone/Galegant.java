@@ -58,7 +58,7 @@ import java.util.*;
 public class Galegant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Galegant() {
         super("Galegant",
-                Type.FLYING,Type.DRAGON,
+                Type.FLYING, Type.DRAGON,
                 new Stats(60,
                         70,
                         60,

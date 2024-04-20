@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanSeel extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanSeel(int dex) {
         super(dex, "Seel",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

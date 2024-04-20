@@ -8,7 +8,7 @@ import java.util.*;
 public class Cooclock extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cooclock() {
         super("Cooclock",
-                Type.FLYING,Type.PSYCHIC,
+                Type.FLYING, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

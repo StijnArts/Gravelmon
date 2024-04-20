@@ -9,7 +9,7 @@ import java.util.*;
 public class Effigeam extends drai.dev.gravelmon.pokemon.Pokemon {
     public Effigeam() {
         super("Effigeam",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(81,
                         75,
                         70,

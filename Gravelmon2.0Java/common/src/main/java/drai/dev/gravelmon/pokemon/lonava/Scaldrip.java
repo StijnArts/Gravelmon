@@ -7,7 +7,7 @@ import java.util.*;
 public class Scaldrip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scaldrip() {
         super("Scaldrip",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(54,
                         55,
                         42,

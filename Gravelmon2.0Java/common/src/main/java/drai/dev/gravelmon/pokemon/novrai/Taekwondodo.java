@@ -7,7 +7,7 @@ import java.util.*;
 public class Taekwondodo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Taekwondodo() {
         super("Taekwondodo",
-                Type.FIGHTING,Type.GHOST,
+                Type.FIGHTING, Type.GHOST,
                 new Stats(67,
                         107,
                         98,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Aquatick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aquatick() {
         super("Aquatick",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(70,
                         70,
                         50,

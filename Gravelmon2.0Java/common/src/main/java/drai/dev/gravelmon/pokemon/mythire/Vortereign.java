@@ -7,7 +7,7 @@ import java.util.*;
 public class Vortereign extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vortereign() {
         super("Vortereign",
-                Type.ICE,Type.ELECTRIC,
+                Type.ICE, Type.ELECTRIC,
                 new Stats(80,
                         134,
                         100,

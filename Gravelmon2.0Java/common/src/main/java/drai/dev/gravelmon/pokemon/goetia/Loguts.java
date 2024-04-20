@@ -58,7 +58,7 @@ import java.util.*;
 public class Loguts extends drai.dev.gravelmon.pokemon.Pokemon {
     public Loguts() {
         super("Loguts",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

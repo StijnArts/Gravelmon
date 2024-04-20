@@ -58,7 +58,7 @@ import java.util.*;
 public class Rancroak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rancroak() {
         super("Rancroak",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(70,
                         70,
                         70,

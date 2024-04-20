@@ -58,7 +58,7 @@ import java.util.*;
 public class Yanmega extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yanmega(int dex) {
         super(dex, "Yanmega",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(86,
                         76,
                         86,

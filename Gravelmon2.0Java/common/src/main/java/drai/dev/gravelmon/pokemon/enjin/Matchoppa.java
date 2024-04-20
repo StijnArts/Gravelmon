@@ -58,7 +58,7 @@ import java.util.*;
 public class Matchoppa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Matchoppa() {
         super("Matchoppa",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(40,
                         40,
                         40,

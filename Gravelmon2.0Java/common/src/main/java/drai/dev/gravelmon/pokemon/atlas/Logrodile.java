@@ -7,7 +7,7 @@ import java.util.*;
 public class Logrodile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Logrodile() {
         super("Logrodile",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(65,
                         87,
                         58,

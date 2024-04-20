@@ -8,7 +8,7 @@ import java.util.*;
 public class Bogidiboo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bogidiboo() {
         super("Bogidiboo",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(45,
                         35,
                         90,

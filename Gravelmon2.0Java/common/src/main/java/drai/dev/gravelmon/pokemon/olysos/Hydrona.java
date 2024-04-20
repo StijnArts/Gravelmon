@@ -58,7 +58,7 @@ import java.util.*;
 public class Hydrona extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hydrona() {
         super("Hydrona",
-                Type.DRAGON,Type.ICE,
+                Type.DRAGON, Type.ICE,
                 new Stats(0,
                         0,
                         0,

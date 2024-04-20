@@ -6,7 +6,7 @@ import java.util.*;
 public class Drogaster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drogaster() {
         super("Drogaster",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(126,
                         88,
                         55,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Nymbi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nymbi() {
         super("Nymbi",
-                Type.FIRE,Type.LIGHT,
+                Type.FIRE, Type.LIGHT,
                 new Stats(0,
                         0,
                         0,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Yummyan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yummyan() {
         super("Yummyan",
-                Type.FAIRY,Type.NORMAL,
+                Type.FAIRY, Type.NORMAL,
                 new Stats(112,
                         53,
                         70,

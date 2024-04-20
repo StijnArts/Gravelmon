@@ -6,7 +6,7 @@ import java.util.*;
 public class Dormie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dormie() {
         super("Dormie",
-                Type.FAIRY,Type.GROUND,
+                Type.FAIRY, Type.GROUND,
                 new Stats(33,
                         36,
                         66,

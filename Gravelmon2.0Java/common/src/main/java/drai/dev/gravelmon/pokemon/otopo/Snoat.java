@@ -58,7 +58,7 @@ import java.util.*;
 public class Snoat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snoat() {
         super("Snoat",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(85,
                         45,
                         54,

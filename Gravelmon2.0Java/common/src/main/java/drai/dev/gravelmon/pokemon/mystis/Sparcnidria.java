@@ -58,7 +58,7 @@ import java.util.*;
 public class Sparcnidria extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sparcnidria() {
         super("Sparcnidria",
-                Type.NORMAL,Type.DRAGON,
+                Type.NORMAL, Type.DRAGON,
                 new Stats(110,
                         105,
                         80,

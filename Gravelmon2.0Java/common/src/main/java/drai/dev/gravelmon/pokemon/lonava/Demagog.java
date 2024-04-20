@@ -7,7 +7,7 @@ import java.util.*;
 public class Demagog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Demagog() {
         super("Demagog",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(90,
                         130,
                         75,

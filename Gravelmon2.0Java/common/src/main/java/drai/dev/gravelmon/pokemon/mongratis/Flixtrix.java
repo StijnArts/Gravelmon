@@ -58,7 +58,7 @@ import java.util.*;
 public class Flixtrix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flixtrix() {
         super("Flixtrix",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

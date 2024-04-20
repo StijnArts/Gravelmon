@@ -58,7 +58,7 @@ import java.util.*;
 public class Arbomoss extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arbomoss() {
         super("Arbomoss",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(110,
                         65,
                         90,

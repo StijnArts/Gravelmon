@@ -7,7 +7,7 @@ import java.util.*;
 public class Maynoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maynoon() {
         super("Maynoon",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(70,
                         70,
                         50,

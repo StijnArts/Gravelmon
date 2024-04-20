@@ -58,7 +58,7 @@ import java.util.*;
 public class Trashic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trashic() {
         super("Trashic",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(30,
                         40,
                         35,

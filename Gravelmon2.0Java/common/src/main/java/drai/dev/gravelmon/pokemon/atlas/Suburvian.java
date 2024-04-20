@@ -7,7 +7,7 @@ import java.util.*;
 public class Suburvian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Suburvian() {
         super("Suburvian",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(82,
                         77,
                         57,

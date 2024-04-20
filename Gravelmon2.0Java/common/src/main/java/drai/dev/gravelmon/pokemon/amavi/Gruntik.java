@@ -8,7 +8,7 @@ import java.util.*;
 public class Gruntik extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gruntik() {
         super("Gruntik",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(50,
                         70,
                         50,
@@ -17,7 +17,7 @@ public class Gruntik extends drai.dev.gravelmon.pokemon.Pokemon {
                         70),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 3, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 220,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

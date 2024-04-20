@@ -58,7 +58,7 @@ import java.util.*;
 public class Tentacool extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tentacool(int dex) {
         super(dex, "Tentacool",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(0,
                         0,
                         0,

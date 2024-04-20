@@ -58,7 +58,7 @@ import java.util.*;
 public class Peruna extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peruna() {
         super("Peruna",
-                Type.FIGHTING,Type.ELECTRIC,
+                Type.FIGHTING, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

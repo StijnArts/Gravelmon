@@ -7,7 +7,7 @@ import java.util.*;
 public class Gnoblety extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gnoblety() {
         super("Gnoblety",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(60,
                         54,
                         84,

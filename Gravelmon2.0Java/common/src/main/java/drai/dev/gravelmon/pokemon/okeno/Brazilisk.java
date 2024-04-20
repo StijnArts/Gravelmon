@@ -6,7 +6,7 @@ import java.util.*;
 public class Brazilisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brazilisk() {
         super("Brazilisk",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(82,
                         123,
                         106,

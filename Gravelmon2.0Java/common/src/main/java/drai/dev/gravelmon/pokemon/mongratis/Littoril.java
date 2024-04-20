@@ -58,7 +58,7 @@ import java.util.*;
 public class Littoril extends drai.dev.gravelmon.pokemon.Pokemon {
     public Littoril() {
         super("Littoril",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Sirender extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sirender() {
         super("Sirender",
-                Type.DARK,Type.DRAGON,
+                Type.DARK, Type.DRAGON,
                 new Stats(85,
                         125,
                         55,
@@ -17,7 +17,7 @@ public class Sirender extends drai.dev.gravelmon.pokemon.Pokemon {
                         145),
                 List.of(Ability.CUTE_CHARM,Ability.ARENA_TRAP), Ability.INTIMIDATE,
                 14, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

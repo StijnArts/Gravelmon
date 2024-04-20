@@ -6,7 +6,7 @@ import java.util.*;
 public class Fernocious extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fernocious() {
         super("Fernocious",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(65,
                         120,
                         84,

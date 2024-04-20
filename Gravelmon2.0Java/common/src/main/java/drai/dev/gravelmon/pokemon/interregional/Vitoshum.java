@@ -7,7 +7,7 @@ import java.util.*;
 public class Vitoshum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vitoshum() {
         super("Vitoshum",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

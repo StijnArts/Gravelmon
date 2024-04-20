@@ -9,7 +9,7 @@ import java.util.*;
 public class Hingjaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hingjaw() {
         super("Hingjaw",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(100,
                         90,
                         90,

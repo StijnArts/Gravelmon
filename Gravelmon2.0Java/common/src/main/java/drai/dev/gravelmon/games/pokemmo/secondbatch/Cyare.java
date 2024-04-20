@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo.secondbatch;
 
 
+import drai.dev.gravelmon.pokemon.atlas.*;
 import drai.dev.gravelmon.pokemon.atlas.Bramboom;
 import drai.dev.gravelmon.pokemon.atlas.Burramble;
 import drai.dev.gravelmon.pokemon.atlas.Crebb;
@@ -40,11 +41,11 @@ public class Cyare extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Lamber());
         pokemon.add(new Volpaca());
         pokemon.add(new Sheruption());
-        pokemon.add(new Pengle());
-        pokemon.add(new Twaddle());
+//        pokemon.add(new Pengle()); Member of line Not Finished
+//        pokemon.add(new Twaddle()); Member of line Not Finished
 //        pokemon.add(new Pengalance());   Missing Art
-        pokemon.add(new Grubble());
-        pokemon.add(new Pupive());
+//        pokemon.add(new Grubble()); Member of line Not Finished
+//        pokemon.add(new Pupive()); Member of line Not Finished
 //        pokemon.add(new Waspen());   Missing Stats
 //        pokemon.add(new Glittle());   Missing Stats
 //        pokemon.add(new Lupupa());   Missing Stats
@@ -57,13 +58,13 @@ public class Cyare extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Shockatoo());
         pokemon.add(new Kotukoatl());
 //        pokemon.add(new Grainum());   Missing Stats
-        pokemon.add(new Tomabi());
-        pokemon.add(new Otamot());
+//        pokemon.add(new Tomabi()); Member of line Not Finished
+//        pokemon.add(new Otamot()); Member of line Not Finished
 //        pokemon.add(new Smulb());   Missing Stats
 //        pokemon.add(new Lillusion());   Missing Stats
 //        pokemon.add(new Putrigeist());   Missing Stats
 //        pokemon.add(new Bommy());   Missing Stats
-        pokemon.add(new Wubunny());
+//        pokemon.add(new Wubunny()); Member of line Not Finished
 //        pokemon.add(new Froskie());   Missing Stats
 //        pokemon.add(new Alpaline());   Missing Stats
 //        pokemon.add(new Musiquail());   Missing Stats
@@ -117,7 +118,7 @@ public class Cyare extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Haildeer());   Missing Stats
 //        pokemon.add(new Littull());   Missing Stats
 //        pokemon.add(new Nobull());   Missing Stats
-        pokemon.add(new Irritabull());
+//        pokemon.add(new Irritabull()); Member of line Not Finished
         pokemon.add(new Orukul());
         pokemon.add(new Tinguano());
         pokemon.add(new Donguano());
@@ -143,16 +144,16 @@ public class Cyare extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Armorca());   Missing Stats
 //        pokemon.add(new Shiverish());   Missing Stats
 //        pokemon.add(new Glacuda());   Missing Stats
-        pokemon.add(new Cryodra());
+//        pokemon.add(new Cryodra()); Member of line Not Finished
 //        pokemon.add(new Slimug());   Missing Stats
-        pokemon.add(new Segnapod());
+//        pokemon.add(new Segnapod()); Member of line Not Finished
 //        pokemon.add(new Brumbolt());   Missing Stats
 //        pokemon.add(new Incendaur());   Missing Stats
 //        pokemon.add(new Sukoi());   Missing Stats
 //        pokemon.add(new Plecoast());   Missing Stats
 //        pokemon.add(new Aquana());   Missing Stats
 //        pokemon.add(new Sakano());   Missing Stats
-        pokemon.add(new DraphinCyare()); //Renamed from Draphin
+//        pokemon.add(new DraphinCyare()); //Renamed from Draphin  Member of line Not Finished
         pokemon.add(new Crebb());
         pokemon.add(new Crustocean());
         pokemon.add(new Impie());
@@ -160,6 +161,7 @@ public class Cyare extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Impers());
         pokemon.add(new Imploda());
         pokemon.add(new Impac());
+        pokemon.add(new Imprism());
 //        pokemon.add(new Solare());   Missing Stats
 //        pokemon.add(new Glaciare());   Missing Stats
 //        pokemon.add(new Pluvare());   Missing Stats
@@ -175,7 +177,7 @@ public class Cyare extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Mamroth());   Missing Stats
 //        pokemon.add(new Frospine());   Missing Stats
 //        pokemon.add(new Phasmyst());   Missing Stats
-        pokemon.add(new Spectrice());
+//        pokemon.add(new Spectrice()); Member of line Not Finished
 //        pokemon.add(new Chibiryu());   Missing Stats
 //        pokemon.add(new Midryu());   Missing Stats
 //        pokemon.add(new Ryurai());   Missing Stats

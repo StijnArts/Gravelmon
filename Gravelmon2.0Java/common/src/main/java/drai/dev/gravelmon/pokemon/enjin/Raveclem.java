@@ -58,7 +58,7 @@ import java.util.*;
 public class Raveclem extends drai.dev.gravelmon.pokemon.Pokemon {
     public Raveclem() {
         super("Raveclem",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(70,
                         43,
                         95,
@@ -66,8 +66,8 @@ public class Raveclem extends drai.dev.gravelmon.pokemon.Pokemon {
                         115,
                         81),
                 List.of(Ability.STATIC,Ability.SHELL_ARMOR), Ability.DAZZLING,
-                0, 0,
-                new Stats(0,0,0,0,2,0), 0,
+                9, 0,
+                new Stats(0,0,0,0,2,0), 70,
                 0.5,
                 175, ExperienceGroup.SLOW,
                 70,
@@ -135,14 +135,15 @@ public class Raveclem extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCALD,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 32, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Raveclem");
+        setCanBreathUnderwater(true);
 
     }
 

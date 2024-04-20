@@ -7,7 +7,7 @@ import java.util.*;
 public class Phoeuck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phoeuck() {
         super("Phoeuck",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(90,
                         170,
                         70,

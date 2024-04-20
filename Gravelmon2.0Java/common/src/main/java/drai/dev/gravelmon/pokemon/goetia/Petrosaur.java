@@ -58,7 +58,7 @@ import java.util.*;
 public class Petrosaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Petrosaur() {
         super("Petrosaur",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

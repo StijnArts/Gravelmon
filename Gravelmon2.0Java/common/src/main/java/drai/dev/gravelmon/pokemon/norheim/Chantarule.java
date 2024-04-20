@@ -9,7 +9,7 @@ import java.util.*;
 public class Chantarule extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chantarule() {
         super("Chantarule",
-                Type.STEEL,Type.GRASS,
+                Type.STEEL, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

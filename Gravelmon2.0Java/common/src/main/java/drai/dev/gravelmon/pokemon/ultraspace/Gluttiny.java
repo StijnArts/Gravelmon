@@ -58,7 +58,7 @@ import java.util.*;
 public class Gluttiny extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gluttiny() {
         super("Gluttiny",
-                Type.DARK,Type.DRAGON,
+                Type.DARK, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

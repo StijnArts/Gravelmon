@@ -58,7 +58,7 @@ import java.util.*;
 public class Foresteer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Foresteer() {
         super("Foresteer",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(75,
                         60,
                         60,

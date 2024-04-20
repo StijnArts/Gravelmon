@@ -7,7 +7,7 @@ import java.util.*;
 public class Superheron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Superheron() {
         super("Superheron",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(80,
                         110,
                         80,

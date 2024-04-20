@@ -58,7 +58,7 @@ import java.util.*;
 public class Magusong extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magusong() {
         super("Magusong",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

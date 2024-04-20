@@ -58,7 +58,7 @@ import java.util.*;
 public class Salasander extends drai.dev.gravelmon.pokemon.Pokemon {
     public Salasander() {
         super("Salasander",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(0,
                         0,
                         0,

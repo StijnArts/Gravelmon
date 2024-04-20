@@ -7,7 +7,7 @@ import java.util.*;
 public class Volentine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Volentine() {
         super("Volentine",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(77,
                         80,
                         61,

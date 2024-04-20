@@ -6,7 +6,7 @@ import java.util.*;
 public class Pupage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pupage() {
         super("Pupage",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(40,
                         30,
                         60,

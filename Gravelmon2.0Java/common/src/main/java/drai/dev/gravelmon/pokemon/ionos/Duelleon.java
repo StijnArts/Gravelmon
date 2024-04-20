@@ -58,7 +58,7 @@ import java.util.*;
 public class Duelleon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Duelleon() {
         super("Duelleon",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

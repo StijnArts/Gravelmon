@@ -9,7 +9,7 @@ import java.util.*;
 public class Irise extends drai.dev.gravelmon.pokemon.Pokemon {
     public Irise() {
         super("Irise",
-                Type.ICE,Type.FIRE,
+                Type.ICE, Type.FIRE,
                 new Stats(45,
                         50,
                         45,

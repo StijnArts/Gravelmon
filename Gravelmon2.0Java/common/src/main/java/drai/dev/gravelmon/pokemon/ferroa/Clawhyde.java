@@ -7,7 +7,7 @@ import java.util.*;
 public class Clawhyde extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clawhyde() {
         super("Clawhyde",
-                Type.FIGHTING,Type.POISON,
+                Type.FIGHTING, Type.POISON,
                 new Stats(70,
                         112,
                         102,

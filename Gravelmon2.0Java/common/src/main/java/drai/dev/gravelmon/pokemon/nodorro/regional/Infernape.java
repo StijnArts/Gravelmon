@@ -58,7 +58,7 @@ import java.util.*;
 public class Infernape extends drai.dev.gravelmon.pokemon.Pokemon {
     public Infernape(int dex) {
         super(dex, "Infernape",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(80,
                         120,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Pearry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pearry() {
         super("Pearry",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(65,
                         82,
                         91,

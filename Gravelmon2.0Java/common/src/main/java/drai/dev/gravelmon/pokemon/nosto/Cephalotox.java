@@ -7,7 +7,7 @@ import java.util.*;
 public class Cephalotox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cephalotox() {
         super("Cephalotox",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(77,
                         22,
                         85,

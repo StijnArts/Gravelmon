@@ -58,7 +58,7 @@ import java.util.*;
 public class Buglowster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buglowster() {
         super("Buglowster",
-                Type.ELECTRIC,Type.BUG,
+                Type.ELECTRIC, Type.BUG,
                 new Stats(0,
                         0,
                         0,

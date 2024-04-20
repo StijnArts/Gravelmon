@@ -6,7 +6,7 @@ import java.util.*;
 public class Pirambuouy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pirambuouy() {
         super("Pirambuouy",
-                Type.ELECTRIC,Type.WATER,
+                Type.ELECTRIC, Type.WATER,
                 new Stats(76,
                         65,
                         80,

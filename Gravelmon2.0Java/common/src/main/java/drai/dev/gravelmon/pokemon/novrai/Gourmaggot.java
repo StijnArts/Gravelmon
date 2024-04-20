@@ -7,7 +7,7 @@ import java.util.*;
 public class Gourmaggot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gourmaggot() {
         super("Gourmaggot",
-                Type.BUG,Type.NORMAL,
+                Type.BUG, Type.NORMAL,
                 new Stats(80,
                         40,
                         40,

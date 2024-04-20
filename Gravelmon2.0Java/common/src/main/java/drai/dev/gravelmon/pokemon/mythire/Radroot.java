@@ -7,7 +7,7 @@ import java.util.*;
 public class Radroot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Radroot() {
         super("Radroot",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(42,
                         35,
                         45,

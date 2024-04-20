@@ -7,7 +7,7 @@ import java.util.*;
 public class Yokid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yokid() {
         super("Yokid",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(30,
                         50,
                         70,

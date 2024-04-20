@@ -58,7 +58,7 @@ import java.util.*;
 public class Termajesty extends drai.dev.gravelmon.pokemon.Pokemon {
     public Termajesty() {
         super("Termajesty",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

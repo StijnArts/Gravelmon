@@ -7,7 +7,7 @@ import java.util.*;
 public class Fumystic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fumystic() {
         super("Fumystic",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(50,
                         30,
                         30,

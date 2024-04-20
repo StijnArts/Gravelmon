@@ -7,7 +7,7 @@ import java.util.*;
 public class Krillzaingel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Krillzaingel() {
         super("Krillzaingel",
-                Type.STEEL,Type.FIRE,
+                Type.STEEL, Type.FIRE,
                 new Stats(40,
                         115,
                         40,

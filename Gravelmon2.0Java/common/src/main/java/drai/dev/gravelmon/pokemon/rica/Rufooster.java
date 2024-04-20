@@ -9,7 +9,7 @@ import java.util.*;
 public class Rufooster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rufooster() {
         super("Rufooster",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(70,
                         110,
                         60,

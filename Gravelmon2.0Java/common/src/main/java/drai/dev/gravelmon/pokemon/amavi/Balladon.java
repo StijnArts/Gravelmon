@@ -8,7 +8,7 @@ import java.util.*;
 public class Balladon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Balladon() {
         super("Balladon",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(45,
                         88,
                         66,

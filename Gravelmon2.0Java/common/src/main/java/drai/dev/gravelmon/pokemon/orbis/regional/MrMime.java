@@ -58,7 +58,7 @@ import java.util.*;
 public class MrMime extends drai.dev.gravelmon.pokemon.Pokemon {
     public MrMime(int dex) {
         super(dex, "MrMime",
-                Type.ICE,Type.PSYCHIC,
+                Type.ICE, Type.PSYCHIC,
                 new Stats(50,
                         65,
                         65,

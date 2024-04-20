@@ -58,7 +58,7 @@ import java.util.*;
 public class GossHarag extends drai.dev.gravelmon.pokemon.Pokemon {
     public GossHarag() {
         super("GossHarag",
-                Type.ICE,Type.DARK,
+                Type.ICE, Type.DARK,
                 new Stats(0,
                         0,
                         0,

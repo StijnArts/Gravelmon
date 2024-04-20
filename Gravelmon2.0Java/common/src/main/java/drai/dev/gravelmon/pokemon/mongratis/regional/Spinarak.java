@@ -58,7 +58,7 @@ import java.util.*;
 public class Spinarak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spinarak(int dex) {
         super(dex, "Spinarak",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(40,
                         60,
                         40,

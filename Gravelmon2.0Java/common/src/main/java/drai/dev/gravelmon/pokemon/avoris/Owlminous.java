@@ -13,7 +13,7 @@ import java.util.*;
 public class Owlminous extends drai.dev.gravelmon.pokemon.Pokemon {
     public Owlminous() {
         super("Owlminous",
-                Type.FLYING,Type.GHOST,
+                Type.FLYING, Type.GHOST,
                 new Stats(66,
                         95,
                         71,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Mosstatic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mosstatic() {
         super("Mosstatic",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(80,
                         20,
                         20,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Maliospi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maliospi() {
         super("Maliospi",
-                Type.FIGHTING,Type.WATER,
+                Type.FIGHTING, Type.WATER,
                 new Stats(53,
                         87,
                         40,

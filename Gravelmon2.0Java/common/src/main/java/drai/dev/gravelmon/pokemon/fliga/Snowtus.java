@@ -58,7 +58,7 @@ import java.util.*;
 public class Snowtus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snowtus() {
         super("Snowtus",
-                Type.GRASS,Type.ICE,
+                Type.GRASS, Type.ICE,
                 new Stats(55,
                         20,
                         20,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Cheervona extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cheervona() {
         super("Cheervona",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

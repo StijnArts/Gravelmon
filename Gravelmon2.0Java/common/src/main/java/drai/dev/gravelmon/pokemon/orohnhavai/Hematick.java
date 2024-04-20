@@ -9,7 +9,7 @@ import java.util.*;
 public class Hematick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hematick() {
         super("Hematick",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(50,
                         60,
                         45,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Mettlemaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mettlemaw() {
         super("Mettlemaw",
-                Type.STEEL,Type.FAIRY,
+                Type.STEEL, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

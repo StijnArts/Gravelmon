@@ -7,7 +7,7 @@ import java.util.*;
 public class Audibat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Audibat() {
         super("Audibat",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(48,
                         55,
                         30,

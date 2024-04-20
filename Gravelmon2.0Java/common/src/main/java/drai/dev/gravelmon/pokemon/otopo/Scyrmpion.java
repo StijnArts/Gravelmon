@@ -58,7 +58,7 @@ import java.util.*;
 public class Scyrmpion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scyrmpion() {
         super("Scyrmpion",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(0,
                         0,
                         0,

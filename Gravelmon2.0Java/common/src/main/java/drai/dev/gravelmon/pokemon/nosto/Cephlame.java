@@ -7,7 +7,7 @@ import java.util.*;
 public class Cephlame extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cephlame() {
         super("Cephlame",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(87,
                         67,
                         82,

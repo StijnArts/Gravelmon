@@ -58,7 +58,7 @@ import java.util.*;
 public class Dalamadur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dalamadur() {
         super("Dalamadur",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

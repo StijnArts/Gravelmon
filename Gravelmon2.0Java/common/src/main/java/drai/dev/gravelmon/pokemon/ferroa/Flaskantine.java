@@ -7,7 +7,7 @@ import java.util.*;
 public class Flaskantine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flaskantine() {
         super("Flaskantine",
-                Type.POISON,Type.ICE,
+                Type.POISON, Type.ICE,
                 new Stats(95,
                         72,
                         40,

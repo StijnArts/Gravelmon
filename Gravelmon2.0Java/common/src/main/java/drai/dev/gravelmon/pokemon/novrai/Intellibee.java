@@ -7,7 +7,7 @@ import java.util.*;
 public class Intellibee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Intellibee() {
         super("Intellibee",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(77,
                         89,
                         55,

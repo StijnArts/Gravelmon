@@ -9,7 +9,7 @@ import java.util.*;
 public class Terrouldite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terrouldite() {
         super("Terrouldite",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(83,
                         105,
                         143,

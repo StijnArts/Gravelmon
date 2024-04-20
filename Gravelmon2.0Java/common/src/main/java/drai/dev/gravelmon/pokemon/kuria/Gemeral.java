@@ -58,7 +58,7 @@ import java.util.*;
 public class Gemeral extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gemeral() {
         super("Gemeral",
-                Type.ROCK,Type.LIGHT,
+                Type.ROCK, Type.LIGHT,
                 new Stats(56,
                         40,
                         94,

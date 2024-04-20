@@ -58,7 +58,7 @@ import java.util.*;
 public class Platysus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Platysus() {
         super("Platysus",
-                Type.FIRE,Type.NORMAL,
+                Type.FIRE, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

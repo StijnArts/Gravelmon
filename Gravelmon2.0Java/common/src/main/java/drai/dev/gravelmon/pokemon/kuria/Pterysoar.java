@@ -58,7 +58,7 @@ import java.util.*;
 public class Pterysoar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pterysoar() {
         super("Pterysoar",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(80,
                         95,
                         55,

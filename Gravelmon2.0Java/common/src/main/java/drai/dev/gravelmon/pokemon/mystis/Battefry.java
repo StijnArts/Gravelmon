@@ -58,7 +58,7 @@ import java.util.*;
 public class Battefry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Battefry() {
         super("Battefry",
-                Type.ELECTRIC,Type.WATER,
+                Type.ELECTRIC, Type.WATER,
                 new Stats(50,
                         50,
                         30,

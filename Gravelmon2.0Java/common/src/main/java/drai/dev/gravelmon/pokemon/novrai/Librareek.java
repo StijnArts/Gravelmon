@@ -7,7 +7,7 @@ import java.util.*;
 public class Librareek extends drai.dev.gravelmon.pokemon.Pokemon {
     public Librareek() {
         super("Librareek",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(34,
                         58,
                         20,

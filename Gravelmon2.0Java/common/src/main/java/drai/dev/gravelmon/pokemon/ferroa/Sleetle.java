@@ -7,7 +7,7 @@ import java.util.*;
 public class Sleetle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sleetle() {
         super("Sleetle",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(53,
                         52,
                         42,

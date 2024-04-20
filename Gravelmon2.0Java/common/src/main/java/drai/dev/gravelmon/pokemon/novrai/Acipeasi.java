@@ -7,7 +7,7 @@ import java.util.*;
 public class Acipeasi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Acipeasi() {
         super("Acipeasi",
-                Type.ELECTRIC,Type.GRASS,
+                Type.ELECTRIC, Type.GRASS,
                 new Stats(40,
                         25,
                         35,

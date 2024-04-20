@@ -58,7 +58,7 @@ import java.util.*;
 public class Dwebble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dwebble(int dex) {
         super(dex, "Dwebble",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(50,
                         55,
                         65,

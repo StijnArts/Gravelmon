@@ -7,7 +7,7 @@ import java.util.*;
 public class Gluctose extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gluctose() {
         super("Gluctose",
-                Type.FAIRY,Type.DRAGON,
+                Type.FAIRY, Type.DRAGON,
                 new Stats(77,
                         31,
                         62,

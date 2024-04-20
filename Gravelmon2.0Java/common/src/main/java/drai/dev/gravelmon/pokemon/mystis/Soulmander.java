@@ -58,7 +58,7 @@ import java.util.*;
 public class Soulmander extends drai.dev.gravelmon.pokemon.Pokemon {
     public Soulmander() {
         super("Soulmander",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(70,
                         75,
                         50,

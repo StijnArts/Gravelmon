@@ -7,7 +7,7 @@ import java.util.*;
 public class Bullark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bullark() {
         super("Bullark",
-                Type.WATER,Type.FIGHTING,
+                Type.WATER, Type.FIGHTING,
                 new Stats(67,
                         67,
                         67,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Dayfly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dayfly() {
         super("Dayfly",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

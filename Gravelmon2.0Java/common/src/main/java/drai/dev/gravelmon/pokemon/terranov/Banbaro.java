@@ -58,7 +58,7 @@ import java.util.*;
 public class Banbaro extends drai.dev.gravelmon.pokemon.Pokemon {
     public Banbaro() {
         super("Banbaro",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Chiverna extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chiverna() {
         super("Chiverna",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

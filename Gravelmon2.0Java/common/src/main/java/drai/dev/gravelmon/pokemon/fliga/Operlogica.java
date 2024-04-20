@@ -58,7 +58,7 @@ import java.util.*;
 public class Operlogica extends drai.dev.gravelmon.pokemon.Pokemon {
     public Operlogica() {
         super("Operlogica",
-                Type.STEEL,Type.PSYCHIC,
+                Type.STEEL, Type.PSYCHIC,
                 new Stats(107,
                         101,
                         139,

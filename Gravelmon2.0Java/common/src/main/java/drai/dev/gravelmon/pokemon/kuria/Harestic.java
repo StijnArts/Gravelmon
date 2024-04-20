@@ -58,7 +58,7 @@ import java.util.*;
 public class Harestic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harestic() {
         super("Harestic",
-                Type.GRASS,Type.QUESTION_MARK,
+                Type.GRASS, Type.QUESTION_MARK,
                 new Stats(72,
                         55,
                         75,

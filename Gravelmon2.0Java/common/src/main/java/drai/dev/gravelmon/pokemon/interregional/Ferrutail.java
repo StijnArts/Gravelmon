@@ -7,7 +7,7 @@ import java.util.*;
 public class Ferrutail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ferrutail() {
         super("Ferrutail",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

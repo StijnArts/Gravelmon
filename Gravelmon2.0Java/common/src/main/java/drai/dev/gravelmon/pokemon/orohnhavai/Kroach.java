@@ -9,7 +9,7 @@ import java.util.*;
 public class Kroach extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kroach() {
         super("Kroach",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(42,
                         40,
                         46,

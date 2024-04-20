@@ -7,7 +7,7 @@ import java.util.*;
 public class Treetle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Treetle() {
         super("Treetle",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(70,
                         63,
                         64,

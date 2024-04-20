@@ -7,7 +7,7 @@ import java.util.*;
 public class Subzerebrum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Subzerebrum() {
         super("Subzerebrum",
-                Type.PSYCHIC,Type.ICE,
+                Type.PSYCHIC, Type.ICE,
                 new Stats(75,
                         30,
                         95,

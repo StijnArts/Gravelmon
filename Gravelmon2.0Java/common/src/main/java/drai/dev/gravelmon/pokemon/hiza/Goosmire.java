@@ -7,7 +7,7 @@ import java.util.*;
 public class Goosmire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Goosmire() {
         super("Goosmire",
-                Type.GROUND,Type.FLYING,
+                Type.GROUND, Type.FLYING,
                 new Stats(80,
                         64,
                         70,

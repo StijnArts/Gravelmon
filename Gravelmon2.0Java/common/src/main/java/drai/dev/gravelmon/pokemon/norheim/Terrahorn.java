@@ -9,7 +9,7 @@ import java.util.*;
 public class Terrahorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terrahorn() {
         super("Terrahorn",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(85,
                         105,
                         121,

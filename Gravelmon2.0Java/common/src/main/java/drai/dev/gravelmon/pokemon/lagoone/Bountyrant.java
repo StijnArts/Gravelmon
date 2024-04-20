@@ -58,7 +58,7 @@ import java.util.*;
 public class Bountyrant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bountyrant() {
         super("Bountyrant",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(70,
                         90,
                         150,

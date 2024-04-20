@@ -7,7 +7,7 @@ import java.util.*;
 public class Protauri extends drai.dev.gravelmon.pokemon.Pokemon {
     public Protauri() {
         super("Protauri",
-                Type.PSYCHIC,Type.DRAGON,
+                Type.PSYCHIC, Type.DRAGON,
                 new Stats(45,
                         32,
                         66,

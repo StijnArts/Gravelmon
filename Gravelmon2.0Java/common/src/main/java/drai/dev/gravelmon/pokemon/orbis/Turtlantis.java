@@ -58,7 +58,7 @@ import java.util.*;
 public class Turtlantis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Turtlantis() {
         super("Turtlantis",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(78,
                         83,
                         118,

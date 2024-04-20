@@ -9,7 +9,7 @@ import java.util.*;
 public class Femurk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Femurk() {
         super("Femurk",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(67,
                         95,
                         95,

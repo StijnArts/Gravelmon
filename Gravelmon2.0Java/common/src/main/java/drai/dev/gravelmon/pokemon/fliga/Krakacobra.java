@@ -58,7 +58,7 @@ import java.util.*;
 public class Krakacobra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Krakacobra() {
         super("Krakacobra",
-                Type.GROUND,Type.ELECTRIC,
+                Type.GROUND, Type.ELECTRIC,
                 new Stats(60,
                         92,
                         60,

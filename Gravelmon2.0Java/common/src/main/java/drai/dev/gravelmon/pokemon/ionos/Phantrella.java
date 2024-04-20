@@ -58,7 +58,7 @@ import java.util.*;
 public class Phantrella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phantrella() {
         super("Phantrella",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

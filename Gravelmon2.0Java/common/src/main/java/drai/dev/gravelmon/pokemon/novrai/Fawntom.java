@@ -7,7 +7,7 @@ import java.util.*;
 public class Fawntom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fawntom() {
         super("Fawntom",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(45,
                         85,
                         45,

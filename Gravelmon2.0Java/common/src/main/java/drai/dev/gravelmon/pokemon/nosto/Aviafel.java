@@ -7,7 +7,7 @@ import java.util.*;
 public class Aviafel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aviafel() {
         super("Aviafel",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(86,
                         100,
                         85,

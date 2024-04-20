@@ -7,7 +7,7 @@ import java.util.*;
 public class Swallet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swallet() {
         super("Swallet",
-                Type.DARK,Type.STEEL,
+                Type.DARK, Type.STEEL,
                 new Stats(75,
                         100,
                         25,

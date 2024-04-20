@@ -9,7 +9,7 @@ import java.util.*;
 public class Munsun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Munsun() {
         super("Munsun",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(70,
                         60,
                         90,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Aggroroo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aggroroo() {
         super("Aggroroo",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(98,
                         90,
                         68,

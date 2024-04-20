@@ -8,7 +8,7 @@ import java.util.*;
 public class Fumaji extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fumaji() {
         super("Fumaji",
-                Type.FIGHTING,Type.PSYCHIC,
+                Type.FIGHTING, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

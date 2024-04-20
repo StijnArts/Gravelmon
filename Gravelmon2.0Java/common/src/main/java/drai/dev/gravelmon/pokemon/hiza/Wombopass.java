@@ -7,7 +7,7 @@ import java.util.*;
 public class Wombopass extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wombopass() {
         super("Wombopass",
-                Type.ELECTRIC,Type.ROCK,
+                Type.ELECTRIC, Type.ROCK,
                 new Stats(80,
                         85,
                         125,

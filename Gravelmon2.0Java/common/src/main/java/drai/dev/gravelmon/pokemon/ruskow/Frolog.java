@@ -58,7 +58,7 @@ import java.util.*;
 public class Frolog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frolog() {
         super("Frolog",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(0,
                         0,
                         0,

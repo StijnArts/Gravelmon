@@ -7,7 +7,7 @@ import java.util.*;
 public class Ovection extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ovection() {
         super("Ovection",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(99,
                         75,
                         80,

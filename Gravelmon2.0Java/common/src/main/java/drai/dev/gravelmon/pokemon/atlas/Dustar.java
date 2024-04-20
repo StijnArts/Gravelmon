@@ -7,7 +7,7 @@ import java.util.*;
 public class Dustar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dustar() {
         super("Dustar",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(40,
                         30,
                         70,

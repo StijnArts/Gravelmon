@@ -7,7 +7,7 @@ import java.util.*;
 public class Wrassassin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wrassassin() {
         super("Wrassassin",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(75,
                         127,
                         50,

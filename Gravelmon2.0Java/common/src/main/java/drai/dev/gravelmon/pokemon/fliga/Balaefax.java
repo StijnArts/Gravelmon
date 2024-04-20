@@ -58,7 +58,7 @@ import java.util.*;
 public class Balaefax extends drai.dev.gravelmon.pokemon.Pokemon {
     public Balaefax() {
         super("Balaefax",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(70,
                         100,
                         80,

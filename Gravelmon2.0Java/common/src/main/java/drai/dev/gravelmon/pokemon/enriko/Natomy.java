@@ -7,7 +7,7 @@ import java.util.*;
 public class Natomy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Natomy() {
         super("Natomy",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

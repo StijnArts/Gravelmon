@@ -58,7 +58,7 @@ import java.util.*;
 public class Shinodea extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shinodea() {
         super("Shinodea",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(75,
                         100,
                         70,
@@ -102,14 +102,13 @@ public class Shinodea extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FINAL_GAMBIT,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Shinodea");
+        setCanFly(true);
 
     }
 

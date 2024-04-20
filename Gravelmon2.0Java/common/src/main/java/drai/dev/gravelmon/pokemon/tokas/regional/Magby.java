@@ -58,7 +58,7 @@ import java.util.*;
 public class Magby extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magby(int dex) {
         super(dex, "Magby",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

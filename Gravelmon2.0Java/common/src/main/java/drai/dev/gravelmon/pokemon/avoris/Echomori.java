@@ -13,7 +13,7 @@ import java.util.*;
 public class Echomori extends drai.dev.gravelmon.pokemon.Pokemon {
     public Echomori() {
         super("Echomori",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

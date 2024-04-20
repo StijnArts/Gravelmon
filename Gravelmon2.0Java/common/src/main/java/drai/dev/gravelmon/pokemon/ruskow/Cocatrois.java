@@ -58,7 +58,7 @@ import java.util.*;
 public class Cocatrois extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cocatrois() {
         super("Cocatrois",
-                Type.FLYING,Type.NORMAL,
+                Type.FLYING, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

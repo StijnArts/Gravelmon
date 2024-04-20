@@ -58,7 +58,7 @@ import java.util.*;
 public class Pidgeot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pidgeot(int dex) {
         super(dex, "Pidgeot",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(83,
                         80,
                         75,

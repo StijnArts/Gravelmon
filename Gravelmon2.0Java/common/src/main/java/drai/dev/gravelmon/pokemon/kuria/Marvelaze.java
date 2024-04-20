@@ -58,7 +58,7 @@ import java.util.*;
 public class Marvelaze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marvelaze() {
         super("Marvelaze",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(88,
                         55,
                         55,

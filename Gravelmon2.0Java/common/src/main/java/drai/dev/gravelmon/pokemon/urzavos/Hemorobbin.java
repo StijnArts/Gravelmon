@@ -58,7 +58,7 @@ import java.util.*;
 public class Hemorobbin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hemorobbin() {
         super("Hemorobbin",
-                Type.DARK,Type.BUG,
+                Type.DARK, Type.BUG,
                 new Stats(0,
                         0,
                         0,

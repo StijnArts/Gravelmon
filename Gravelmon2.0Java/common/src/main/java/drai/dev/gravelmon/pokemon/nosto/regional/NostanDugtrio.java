@@ -7,7 +7,7 @@ import java.util.*;
 public class NostanDugtrio extends drai.dev.gravelmon.pokemon.Pokemon {
     public NostanDugtrio(int dex) {
         super(dex, "Dugtrio",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(60,
                         80,
                         100,

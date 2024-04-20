@@ -7,7 +7,7 @@ import java.util.*;
 public class Dilophright extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dilophright() {
         super("Dilophright",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(90,
                         110,
                         85,

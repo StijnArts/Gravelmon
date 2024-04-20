@@ -7,7 +7,7 @@ import java.util.*;
 public class Pinkaboo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pinkaboo() {
         super("Pinkaboo",
-                Type.FAIRY,Type.NORMAL,
+                Type.FAIRY, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Smoliv extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smoliv(int dex) {
         super(dex, "Smoliv",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

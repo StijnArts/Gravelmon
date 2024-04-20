@@ -7,7 +7,7 @@ import java.util.*;
 public class Relmirror extends drai.dev.gravelmon.pokemon.Pokemon {
     public Relmirror() {
         super("Relmirror",
-                Type.STEEL,Type.FAIRY,
+                Type.STEEL, Type.FAIRY,
                 new Stats(70,
                         75,
                         105,

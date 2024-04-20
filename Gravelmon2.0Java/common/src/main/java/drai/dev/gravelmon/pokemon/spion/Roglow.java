@@ -58,7 +58,7 @@ import java.util.*;
 public class Roglow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roglow() {
         super("Roglow",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(40,
                         40,
                         80,

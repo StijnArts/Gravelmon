@@ -58,7 +58,7 @@ import java.util.*;
 public class Sarcofomoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sarcofomoth() {
         super("Sarcofomoth",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(90,
                         50,
                         63,

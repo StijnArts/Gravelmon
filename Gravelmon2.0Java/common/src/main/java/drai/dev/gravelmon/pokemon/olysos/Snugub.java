@@ -58,7 +58,7 @@ import java.util.*;
 public class Snugub extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snugub() {
         super("Snugub",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

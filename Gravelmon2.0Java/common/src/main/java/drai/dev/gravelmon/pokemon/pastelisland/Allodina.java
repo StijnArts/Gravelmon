@@ -58,7 +58,7 @@ import java.util.*;
 public class Allodina extends drai.dev.gravelmon.pokemon.Pokemon {
     public Allodina() {
         super("Allodina",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(60,
                         45,
                         77,

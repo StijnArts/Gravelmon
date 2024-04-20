@@ -9,7 +9,7 @@ import java.util.*;
 public class Resistreak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Resistreak() {
         super("Resistreak",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(79,
                         83,
                         97,

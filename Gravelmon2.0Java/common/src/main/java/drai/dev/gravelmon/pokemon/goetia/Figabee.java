@@ -58,7 +58,7 @@ import java.util.*;
 public class Figabee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Figabee() {
         super("Figabee",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

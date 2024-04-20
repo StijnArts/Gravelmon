@@ -58,7 +58,7 @@ import java.util.*;
 public class Elepod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elepod() {
         super("Elepod",
-                Type.ELECTRIC,Type.COSMIC,
+                Type.ELECTRIC, Type.COSMIC,
                 new Stats(60,
                         40,
                         50,

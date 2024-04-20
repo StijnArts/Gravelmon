@@ -58,7 +58,7 @@ import java.util.*;
 public class Pinjure extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pinjure() {
         super("Pinjure",
-                Type.NORMAL,Type.POISON,
+                Type.NORMAL, Type.POISON,
                 new Stats(55,
                         46,
                         54,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Glacicrawl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glacicrawl() {
         super("Glacicrawl",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(70,
                         60,
                         60,

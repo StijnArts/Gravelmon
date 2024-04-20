@@ -13,7 +13,7 @@ import java.util.*;
 public class Springily extends drai.dev.gravelmon.pokemon.Pokemon {
     public Springily() {
         super("Springily",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(60,
                         40,
                         40,

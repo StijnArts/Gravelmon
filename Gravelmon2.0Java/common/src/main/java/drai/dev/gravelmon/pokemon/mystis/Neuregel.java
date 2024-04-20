@@ -58,7 +58,7 @@ import java.util.*;
 public class Neuregel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Neuregel() {
         super("Neuregel",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(90,
                         60,
                         80,

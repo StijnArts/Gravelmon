@@ -7,7 +7,7 @@ import java.util.*;
 public class Fulgnash extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fulgnash() {
         super("Fulgnash",
-                Type.ELECTRIC,Type.DRAGON,
+                Type.ELECTRIC, Type.DRAGON,
                 new Stats(75,
                         100,
                         65,

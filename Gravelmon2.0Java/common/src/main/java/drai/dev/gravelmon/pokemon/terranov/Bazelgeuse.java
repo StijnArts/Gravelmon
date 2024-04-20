@@ -58,7 +58,7 @@ import java.util.*;
 public class Bazelgeuse extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bazelgeuse() {
         super("Bazelgeuse",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(120,
                         135,
                         90,

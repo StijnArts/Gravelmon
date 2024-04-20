@@ -9,7 +9,7 @@ import java.util.*;
 public class Coliboom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coliboom() {
         super("Coliboom",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(60,
                         95,
                         58,

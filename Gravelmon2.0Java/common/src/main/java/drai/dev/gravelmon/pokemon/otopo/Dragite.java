@@ -58,7 +58,7 @@ import java.util.*;
 public class Dragite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dragite() {
         super("Dragite",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

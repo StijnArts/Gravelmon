@@ -58,7 +58,7 @@ import java.util.*;
 public class Herculeo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Herculeo() {
         super("Herculeo",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(75,
                         125,
                         85,

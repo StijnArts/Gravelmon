@@ -7,7 +7,7 @@ import java.util.*;
 public class Remainstone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Remainstone() {
         super("Remainstone",
-                Type.ROCK,Type.GHOST,
+                Type.ROCK, Type.GHOST,
                 new Stats(70,
                         105,
                         40,

@@ -9,7 +9,7 @@ import java.util.*;
 public class QamoranHitmonchan extends drai.dev.gravelmon.pokemon.Pokemon {
     public QamoranHitmonchan(int dex) {
         super(dex, "Hitmonchan",
-                Type.FIGHTING,Type.FAIRY,
+                Type.FIGHTING, Type.FAIRY,
                 new Stats(50,
                         75,
                         85,

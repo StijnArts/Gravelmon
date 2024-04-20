@@ -7,7 +7,7 @@ import java.util.*;
 public class Oofoe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oofoe() {
         super("Oofoe",
-                Type.PSYCHIC,Type.STEEL,
+                Type.PSYCHIC, Type.STEEL,
                 new Stats(70,
                         35,
                         60,

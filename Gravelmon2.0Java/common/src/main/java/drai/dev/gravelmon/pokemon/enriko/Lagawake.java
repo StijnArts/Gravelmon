@@ -7,7 +7,7 @@ import java.util.*;
 public class Lagawake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lagawake() {
         super("Lagawake",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

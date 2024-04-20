@@ -58,7 +58,7 @@ import java.util.*;
 public class Gardial extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gardial() {
         super("Gardial",
-                Type.PSYCHIC,Type.FIRE,
+                Type.PSYCHIC, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

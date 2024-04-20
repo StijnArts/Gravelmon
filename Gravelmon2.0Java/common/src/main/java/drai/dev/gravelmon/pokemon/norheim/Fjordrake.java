@@ -9,7 +9,7 @@ import java.util.*;
 public class Fjordrake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fjordrake() {
         super("Fjordrake",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

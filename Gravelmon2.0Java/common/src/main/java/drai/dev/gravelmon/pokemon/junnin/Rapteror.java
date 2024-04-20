@@ -11,7 +11,7 @@ import java.util.*;
 public class Rapteror extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rapteror() {
         super("Rapteror",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(55,
                         92,
                         48,

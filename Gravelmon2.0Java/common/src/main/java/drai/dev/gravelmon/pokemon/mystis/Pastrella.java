@@ -58,7 +58,7 @@ import java.util.*;
 public class Pastrella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pastrella() {
         super("Pastrella",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(70,
                         50,
                         90,

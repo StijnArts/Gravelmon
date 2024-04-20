@@ -9,7 +9,7 @@ import java.util.*;
 public class Spelewink extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spelewink() {
         super("Spelewink",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(100,
                         60,
                         60,

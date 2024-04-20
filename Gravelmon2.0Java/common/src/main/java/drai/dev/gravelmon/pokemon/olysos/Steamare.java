@@ -58,7 +58,7 @@ import java.util.*;
 public class Steamare extends drai.dev.gravelmon.pokemon.Pokemon {
     public Steamare() {
         super("Steamare",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(85,
                         110,
                         115,

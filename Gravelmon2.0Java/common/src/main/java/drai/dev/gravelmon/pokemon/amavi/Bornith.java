@@ -8,7 +8,7 @@ import java.util.*;
 public class Bornith extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bornith() {
         super("Bornith",
-                Type.FLYING,Type.NORMAL,
+                Type.FLYING, Type.NORMAL,
                 new Stats(80,
                         15,
                         70,

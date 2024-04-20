@@ -58,7 +58,7 @@ import java.util.*;
 public class Infernoink extends drai.dev.gravelmon.pokemon.Pokemon {
     public Infernoink() {
         super("Infernoink",
-                Type.FIRE,Type.FIGHTING,
+                Type.FIRE, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

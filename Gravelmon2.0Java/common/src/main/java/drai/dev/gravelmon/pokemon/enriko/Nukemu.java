@@ -7,7 +7,7 @@ import java.util.*;
 public class Nukemu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nukemu() {
         super("Nukemu",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

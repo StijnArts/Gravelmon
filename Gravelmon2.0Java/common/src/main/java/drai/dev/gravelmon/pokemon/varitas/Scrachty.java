@@ -9,7 +9,7 @@ import java.util.*;
 public class Scrachty extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scrachty() {
         super("Scrachty",
-                Type.FLYING,Type.GROUND,
+                Type.FLYING, Type.GROUND,
                 new Stats(65,
                         90,
                         115,

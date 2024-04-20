@@ -7,7 +7,7 @@ import java.util.*;
 public class Chardine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chardine() {
         super("Chardine",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(60,
                         50,
                         70,

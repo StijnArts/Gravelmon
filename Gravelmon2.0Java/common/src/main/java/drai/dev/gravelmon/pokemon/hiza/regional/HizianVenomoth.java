@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianVenomoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianVenomoth(int dex) {
         super(dex, "Venomoth",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(80,
                         65,
                         60,

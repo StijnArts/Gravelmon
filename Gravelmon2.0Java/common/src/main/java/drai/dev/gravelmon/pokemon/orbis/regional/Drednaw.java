@@ -58,7 +58,7 @@ import java.util.*;
 public class Drednaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drednaw(int dex) {
         super(dex, "Drednaw",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(90,
                         115,
                         90,

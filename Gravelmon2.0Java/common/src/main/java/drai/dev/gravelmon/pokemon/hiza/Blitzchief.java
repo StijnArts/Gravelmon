@@ -7,7 +7,7 @@ import java.util.*;
 public class Blitzchief extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blitzchief() {
         super("Blitzchief",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(50,
                         95,
                         70,

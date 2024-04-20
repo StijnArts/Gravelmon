@@ -58,7 +58,7 @@ import java.util.*;
 public class GoreMagala extends drai.dev.gravelmon.pokemon.Pokemon {
     public GoreMagala() {
         super("GoreMagala",
-                Type.DARK,Type.QUESTION_MARK,
+                Type.DARK, Type.QUESTION_MARK,
                 new Stats(0,
                         0,
                         0,

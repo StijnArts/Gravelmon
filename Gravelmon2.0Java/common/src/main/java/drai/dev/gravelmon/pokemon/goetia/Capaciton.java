@@ -58,7 +58,7 @@ import java.util.*;
 public class Capaciton extends drai.dev.gravelmon.pokemon.Pokemon {
     public Capaciton() {
         super("Capaciton",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

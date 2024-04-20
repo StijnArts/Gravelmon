@@ -58,7 +58,7 @@ import java.util.*;
 public class Faupent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Faupent() {
         super("Faupent",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(70,
                         115,
                         60,

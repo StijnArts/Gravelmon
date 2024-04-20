@@ -7,7 +7,7 @@ import java.util.*;
 public class Aloverity extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aloverity() {
         super("Aloverity",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(100,
                         40,
                         75,

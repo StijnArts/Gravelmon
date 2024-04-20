@@ -58,7 +58,7 @@ import java.util.*;
 public class Charvil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Charvil() {
         super("Charvil",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(50,
                         70,
                         30,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Flawsy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flawsy() {
         super("Flawsy",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(30,
                         30,
                         40,

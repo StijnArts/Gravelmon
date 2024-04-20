@@ -9,7 +9,7 @@ import java.util.*;
 public class Dambattoir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dambattoir() {
         super("Dambattoir",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(90,
                         74,
                         86,

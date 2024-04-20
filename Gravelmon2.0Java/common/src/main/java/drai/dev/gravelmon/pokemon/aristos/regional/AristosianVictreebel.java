@@ -9,7 +9,7 @@ import java.util.*;
 public class AristosianVictreebel extends drai.dev.gravelmon.pokemon.Pokemon {
     public AristosianVictreebel(int dexNo) {
         super(dexNo,"AristosianVictreebel",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(80,
                         90,
                         65,

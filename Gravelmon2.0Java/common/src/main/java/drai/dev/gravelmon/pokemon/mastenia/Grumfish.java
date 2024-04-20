@@ -58,7 +58,7 @@ import java.util.*;
 public class Grumfish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grumfish() {
         super("Grumfish",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(0,
                         0,
                         0,

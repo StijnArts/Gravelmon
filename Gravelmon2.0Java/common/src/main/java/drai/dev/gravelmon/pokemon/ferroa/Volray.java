@@ -7,7 +7,7 @@ import java.util.*;
 public class Volray extends drai.dev.gravelmon.pokemon.Pokemon {
     public Volray() {
         super("Volray",
-                Type.ELECTRIC,Type.WATER,
+                Type.ELECTRIC, Type.WATER,
                 new Stats(58,
                         35,
                         40,

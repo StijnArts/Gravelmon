@@ -58,7 +58,7 @@ import java.util.*;
 public class Utsuki extends drai.dev.gravelmon.pokemon.Pokemon {
     public Utsuki() {
         super("Utsuki",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(137,
                         163,
                         83,

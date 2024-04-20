@@ -7,7 +7,7 @@ import java.util.*;
 public class Enduron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Enduron() {
         super("Enduron",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(50,
                         55,
                         100,

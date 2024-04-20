@@ -7,7 +7,7 @@ import java.util.*;
 public class Cambryo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cambryo() {
         super("Cambryo",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(85,
                         27,
                         46,

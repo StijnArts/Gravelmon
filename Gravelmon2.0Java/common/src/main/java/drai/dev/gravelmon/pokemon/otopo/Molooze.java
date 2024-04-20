@@ -58,7 +58,7 @@ import java.util.*;
 public class Molooze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Molooze() {
         super("Molooze",
-                Type.POISON,Type.ICE,
+                Type.POISON, Type.ICE,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Maliscuit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maliscuit() {
         super("Maliscuit",
-                Type.GROUND,Type.GHOST,
+                Type.GROUND, Type.GHOST,
                 new Stats(86,
                         74,
                         122,

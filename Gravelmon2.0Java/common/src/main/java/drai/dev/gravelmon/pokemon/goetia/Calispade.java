@@ -58,7 +58,7 @@ import java.util.*;
 public class Calispade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Calispade() {
         super("Calispade",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Edifierce extends drai.dev.gravelmon.pokemon.Pokemon {
     public Edifierce() {
         super("Edifierce",
-                Type.DRAGON,Type.GROUND,
+                Type.DRAGON, Type.GROUND,
                 new Stats(132,
                         84,
                         130,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Brewtrid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brewtrid() {
         super("Brewtrid",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

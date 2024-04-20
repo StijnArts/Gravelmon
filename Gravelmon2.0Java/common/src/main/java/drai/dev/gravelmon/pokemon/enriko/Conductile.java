@@ -7,7 +7,7 @@ import java.util.*;
 public class Conductile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conductile() {
         super("Conductile",
-                Type.DRAGON,Type.ELECTRIC,
+                Type.DRAGON, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

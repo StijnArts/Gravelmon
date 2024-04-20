@@ -7,7 +7,7 @@ import java.util.*;
 public class Babreak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Babreak() {
         super("Babreak",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(50,
                         85,
                         55,

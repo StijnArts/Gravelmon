@@ -7,7 +7,7 @@ import java.util.*;
 public class Clamsure extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clamsure() {
         super("Clamsure",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(70,
                         75,
                         110,

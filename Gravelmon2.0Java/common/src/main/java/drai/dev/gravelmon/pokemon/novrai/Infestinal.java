@@ -7,7 +7,7 @@ import java.util.*;
 public class Infestinal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Infestinal() {
         super("Infestinal",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(50,
                         55,
                         60,

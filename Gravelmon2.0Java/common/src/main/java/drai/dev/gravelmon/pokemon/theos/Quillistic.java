@@ -58,7 +58,7 @@ import java.util.*;
 public class Quillistic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quillistic() {
         super("Quillistic",
-                Type.POISON,Type.NORMAL,
+                Type.POISON, Type.NORMAL,
                 new Stats(80,
                         88,
                         93,

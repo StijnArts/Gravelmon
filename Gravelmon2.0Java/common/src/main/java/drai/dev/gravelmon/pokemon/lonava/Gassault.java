@@ -7,7 +7,7 @@ import java.util.*;
 public class Gassault extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gassault() {
         super("Gassault",
-                Type.FIGHTING,Type.GHOST,
+                Type.FIGHTING, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

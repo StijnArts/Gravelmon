@@ -7,7 +7,7 @@ import java.util.*;
 public class Victorelic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Victorelic() {
         super("Victorelic",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(60,
                         73,
                         150,

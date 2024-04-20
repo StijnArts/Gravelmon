@@ -58,7 +58,7 @@ import java.util.*;
 public class Lunuhu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lunuhu() {
         super("Lunuhu",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

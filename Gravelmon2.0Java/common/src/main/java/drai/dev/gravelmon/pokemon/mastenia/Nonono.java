@@ -58,7 +58,7 @@ import java.util.*;
 public class Nonono extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nonono() {
         super("Nonono",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

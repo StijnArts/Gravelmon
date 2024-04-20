@@ -9,7 +9,7 @@ import java.util.*;
 public class Skulmet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skulmet() {
         super("Skulmet",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(45,
                         70,
                         70,

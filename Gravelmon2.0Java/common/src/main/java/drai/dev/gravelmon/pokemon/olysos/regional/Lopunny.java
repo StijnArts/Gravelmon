@@ -58,7 +58,7 @@ import java.util.*;
 public class Lopunny extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lopunny(int dex) {
         super(dex, "Lopunny",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

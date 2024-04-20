@@ -58,7 +58,7 @@ import java.util.*;
 public class Chunderbolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chunderbolt() {
         super("Chunderbolt",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

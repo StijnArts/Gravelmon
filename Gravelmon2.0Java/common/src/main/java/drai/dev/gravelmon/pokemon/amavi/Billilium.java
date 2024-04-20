@@ -8,7 +8,7 @@ import java.util.*;
 public class Billilium extends drai.dev.gravelmon.pokemon.Pokemon {
     public Billilium() {
         super("Billilium",
-                Type.STEEL,Type.NORMAL,
+                Type.STEEL, Type.NORMAL,
                 new Stats(45,
                         70,
                         70,
@@ -17,7 +17,7 @@ public class Billilium extends drai.dev.gravelmon.pokemon.Pokemon {
                         50),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 7, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

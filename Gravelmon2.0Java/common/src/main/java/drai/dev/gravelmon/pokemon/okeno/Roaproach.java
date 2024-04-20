@@ -6,7 +6,7 @@ import java.util.*;
 public class Roaproach extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roaproach() {
         super("Roaproach",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(55,
                         99,
                         55,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Ballevo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ballevo() {
         super("Ballevo",
-                Type.POISON,Type.ELECTRIC,
+                Type.POISON, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

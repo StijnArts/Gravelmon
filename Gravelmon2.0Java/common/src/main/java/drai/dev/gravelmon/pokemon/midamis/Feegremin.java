@@ -9,7 +9,7 @@ import java.util.*;
 public class Feegremin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Feegremin() {
         super("Feegremin",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(87,
                         123,
                         102,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Fluminux extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fluminux() {
         super("Fluminux",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

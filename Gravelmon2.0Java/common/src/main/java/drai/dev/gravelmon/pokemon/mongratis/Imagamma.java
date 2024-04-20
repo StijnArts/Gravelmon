@@ -58,7 +58,7 @@ import java.util.*;
 public class Imagamma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Imagamma() {
         super("Imagamma",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

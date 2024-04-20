@@ -58,7 +58,7 @@ import java.util.*;
 public class Lemish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lemish() {
         super("Lemish",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(45,
                         55,
                         35,

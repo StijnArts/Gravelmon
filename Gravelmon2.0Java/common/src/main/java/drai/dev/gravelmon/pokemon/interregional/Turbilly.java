@@ -7,7 +7,7 @@ import java.util.*;
 public class Turbilly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Turbilly() {
         super("Turbilly",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(65,
                         80,
                         30,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Cascassidine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cascassidine() {
         super("Cascassidine",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(95,
                         105,
                         90,

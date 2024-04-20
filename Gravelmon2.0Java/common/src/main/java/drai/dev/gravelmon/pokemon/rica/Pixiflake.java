@@ -9,7 +9,7 @@ import java.util.*;
 public class Pixiflake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pixiflake() {
         super("Pixiflake",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(65,
                         40,
                         70,

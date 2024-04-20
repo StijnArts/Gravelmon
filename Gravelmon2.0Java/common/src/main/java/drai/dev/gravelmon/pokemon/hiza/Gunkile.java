@@ -7,7 +7,7 @@ import java.util.*;
 public class Gunkile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gunkile() {
         super("Gunkile",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(45,
                         66,
                         45,

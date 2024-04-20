@@ -6,7 +6,7 @@ import java.util.*;
 public class Coastone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coastone() {
         super("Coastone",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(55,
                         56,
                         100,

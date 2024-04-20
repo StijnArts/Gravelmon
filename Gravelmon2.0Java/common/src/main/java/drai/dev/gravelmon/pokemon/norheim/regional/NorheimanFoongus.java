@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanFoongus extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanFoongus() {
         super("Foongus",
-                Type.STEEL,Type.POISON,
+                Type.STEEL, Type.POISON,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Elefret extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elefret() {
         super("Elefret",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

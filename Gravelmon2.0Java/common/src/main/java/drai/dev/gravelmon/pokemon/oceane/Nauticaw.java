@@ -7,7 +7,7 @@ import java.util.*;
 public class Nauticaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nauticaw() {
         super("Nauticaw",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(58,
                         75,
                         50,

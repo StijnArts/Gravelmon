@@ -58,7 +58,7 @@ import java.util.*;
 public class Crypcoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crypcoon() {
         super("Crypcoon",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

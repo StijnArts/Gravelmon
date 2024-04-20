@@ -58,7 +58,7 @@ import java.util.*;
 public class Haffy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Haffy() {
         super("Haffy",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(52,
                         55,
                         53,

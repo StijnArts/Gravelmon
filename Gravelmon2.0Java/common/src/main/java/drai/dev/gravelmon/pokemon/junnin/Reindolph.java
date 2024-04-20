@@ -11,7 +11,7 @@ import java.util.*;
 public class Reindolph extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reindolph() {
         super("Reindolph",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(95,
                         80,
                         80,

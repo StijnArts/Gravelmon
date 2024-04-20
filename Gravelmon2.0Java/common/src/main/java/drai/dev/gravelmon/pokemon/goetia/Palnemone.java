@@ -58,7 +58,7 @@ import java.util.*;
 public class Palnemone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palnemone() {
         super("Palnemone",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

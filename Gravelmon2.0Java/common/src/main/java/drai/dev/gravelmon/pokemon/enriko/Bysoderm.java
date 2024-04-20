@@ -7,7 +7,7 @@ import java.util.*;
 public class Bysoderm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bysoderm() {
         super("Bysoderm",
-                Type.DARK,Type.ICE,
+                Type.DARK, Type.ICE,
                 new Stats(0,
                         0,
                         0,

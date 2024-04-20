@@ -8,7 +8,7 @@ import java.util.*;
 public class Polykelp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Polykelp() {
         super("Polykelp",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

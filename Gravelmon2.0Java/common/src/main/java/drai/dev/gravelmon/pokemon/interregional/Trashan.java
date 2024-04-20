@@ -7,7 +7,7 @@ import java.util.*;
 public class Trashan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trashan() {
         super("Trashan",
-                Type.STEEL,Type.POISON,
+                Type.STEEL, Type.POISON,
                 new Stats(0,
                         0,
                         0,

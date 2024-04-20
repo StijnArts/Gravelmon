@@ -58,7 +58,7 @@ import java.util.*;
 public class Bassacre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bassacre() {
         super("Bassacre",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(90,
                         100,
                         90,

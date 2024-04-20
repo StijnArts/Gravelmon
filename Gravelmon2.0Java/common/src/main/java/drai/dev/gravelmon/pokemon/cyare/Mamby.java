@@ -58,7 +58,7 @@ import java.util.*;
 public class Mamby extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mamby() {
         super("Mamby",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

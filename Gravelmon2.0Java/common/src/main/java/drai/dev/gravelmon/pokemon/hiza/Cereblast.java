@@ -7,7 +7,7 @@ import java.util.*;
 public class Cereblast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cereblast() {
         super("Cereblast",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(95,
                         85,
                         115,

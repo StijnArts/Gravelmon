@@ -58,7 +58,7 @@ import java.util.*;
 public class Coldier extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coldier() {
         super("Coldier",
-                Type.DARK,Type.ICE,
+                Type.DARK, Type.ICE,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Spiritnir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spiritnir() {
         super("Spiritnir",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(80,
                         80,
                         80,

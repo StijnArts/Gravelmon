@@ -7,7 +7,7 @@ import java.util.*;
 public class Piragmid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piragmid() {
         super("Piragmid",
-                Type.ROCK,Type.STEEL,
+                Type.ROCK, Type.STEEL,
                 new Stats(72,
                         45,
                         80,

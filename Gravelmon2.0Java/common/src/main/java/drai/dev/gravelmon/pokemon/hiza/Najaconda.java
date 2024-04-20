@@ -7,7 +7,7 @@ import java.util.*;
 public class Najaconda extends drai.dev.gravelmon.pokemon.Pokemon {
     public Najaconda() {
         super("Najaconda",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(80,
                         95,
                         95,

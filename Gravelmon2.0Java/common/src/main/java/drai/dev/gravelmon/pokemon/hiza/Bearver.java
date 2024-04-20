@@ -7,7 +7,7 @@ import java.util.*;
 public class Bearver extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bearver() {
         super("Bearver",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(110,
                         80,
                         75,

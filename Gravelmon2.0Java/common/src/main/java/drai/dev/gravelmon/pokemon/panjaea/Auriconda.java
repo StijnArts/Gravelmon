@@ -58,7 +58,7 @@ import java.util.*;
 public class Auriconda extends drai.dev.gravelmon.pokemon.Pokemon {
     public Auriconda() {
         super("Auriconda",
-                Type.STEEL,Type.POISON,
+                Type.STEEL, Type.POISON,
                 new Stats(0,
                         0,
                         0,

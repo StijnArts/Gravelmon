@@ -58,7 +58,7 @@ import java.util.*;
 public class Aggron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aggron(int dex) {
         super(dex, "Aggron",
-                Type.STEEL,Type.ROCK,
+                Type.STEEL, Type.ROCK,
                 new Stats(70,
                         115,
                         150,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Shiverish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shiverish() {
         super("Shiverish",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

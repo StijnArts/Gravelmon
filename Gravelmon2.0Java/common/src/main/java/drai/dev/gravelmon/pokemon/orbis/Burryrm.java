@@ -58,7 +58,7 @@ import java.util.*;
 public class Burryrm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burryrm() {
         super("Burryrm",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(85,
                         100,
                         80,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sasaggot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sasaggot() {
         super("Sasaggot",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(65,
                         118,
                         92,

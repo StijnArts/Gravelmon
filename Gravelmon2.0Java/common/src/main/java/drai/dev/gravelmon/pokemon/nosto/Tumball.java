@@ -7,7 +7,7 @@ import java.util.*;
 public class Tumball extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tumball() {
         super("Tumball",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(80,
                         92,
                         85,

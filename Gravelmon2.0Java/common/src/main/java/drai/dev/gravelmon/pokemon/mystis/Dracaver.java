@@ -58,7 +58,7 @@ import java.util.*;
 public class Dracaver extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dracaver() {
         super("Dracaver",
-                Type.DRAGON,Type.GHOST,
+                Type.DRAGON, Type.GHOST,
                 new Stats(100,
                         140,
                         80,

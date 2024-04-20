@@ -58,7 +58,7 @@ import java.util.*;
 public class Skoopy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skoopy() {
         super("Skoopy",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(50,
                         50,
                         35,

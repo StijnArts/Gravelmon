@@ -7,7 +7,7 @@ import java.util.*;
 public class Crocoxic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crocoxic() {
         super("Crocoxic",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(75,
                         91,
                         65,

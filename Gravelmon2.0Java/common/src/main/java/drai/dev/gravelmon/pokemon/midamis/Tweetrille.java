@@ -9,7 +9,7 @@ import java.util.*;
 public class Tweetrille extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tweetrille() {
         super("Tweetrille",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(45,
                         70,
                         65,

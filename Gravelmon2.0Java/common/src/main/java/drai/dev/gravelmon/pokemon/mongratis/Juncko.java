@@ -58,7 +58,7 @@ import java.util.*;
 public class Juncko extends drai.dev.gravelmon.pokemon.Pokemon {
     public Juncko() {
         super("Juncko",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(0,
                         0,
                         0,

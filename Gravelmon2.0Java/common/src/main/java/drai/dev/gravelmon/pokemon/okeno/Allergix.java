@@ -6,7 +6,7 @@ import java.util.*;
 public class Allergix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Allergix() {
         super("Allergix",
-                Type.POISON,Type.ICE,
+                Type.POISON, Type.ICE,
                 new Stats(165,
                         30,
                         40,

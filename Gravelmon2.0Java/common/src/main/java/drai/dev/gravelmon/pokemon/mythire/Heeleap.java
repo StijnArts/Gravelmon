@@ -7,7 +7,7 @@ import java.util.*;
 public class Heeleap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Heeleap() {
         super("Heeleap",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(55,
                         55,
                         40,

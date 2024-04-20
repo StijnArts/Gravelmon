@@ -9,7 +9,7 @@ import java.util.*;
 public class Greynine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Greynine() {
         super("Greynine",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(70,
                         70,
                         65,

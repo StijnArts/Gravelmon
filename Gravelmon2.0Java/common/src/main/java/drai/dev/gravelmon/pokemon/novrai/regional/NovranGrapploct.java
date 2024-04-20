@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranGrapploct extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranGrapploct(int dex) {
         super(dex, "Grapploct",
-                Type.FIGHTING,Type.POISON,
+                Type.FIGHTING, Type.POISON,
                 new Stats(80,
                         118,
                         90,

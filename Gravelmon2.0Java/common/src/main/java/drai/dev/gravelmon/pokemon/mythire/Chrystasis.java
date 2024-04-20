@@ -7,7 +7,7 @@ import java.util.*;
 public class Chrystasis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chrystasis() {
         super("Chrystasis",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(60,
                         80,
                         140,

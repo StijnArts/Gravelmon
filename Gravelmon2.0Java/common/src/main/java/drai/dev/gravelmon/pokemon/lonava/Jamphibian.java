@@ -7,7 +7,7 @@ import java.util.*;
 public class Jamphibian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jamphibian() {
         super("Jamphibian",
-                Type.FAIRY,Type.GROUND,
+                Type.FAIRY, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

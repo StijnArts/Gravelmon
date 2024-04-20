@@ -58,7 +58,7 @@ import java.util.*;
 public class Coronatox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coronatox() {
         super("Coronatox",
-                Type.POISON,Type.GROUND,
+                Type.POISON, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

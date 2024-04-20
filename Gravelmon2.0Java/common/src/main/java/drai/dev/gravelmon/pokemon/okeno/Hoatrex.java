@@ -6,7 +6,7 @@ import java.util.*;
 public class Hoatrex extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hoatrex() {
         super("Hoatrex",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(100,
                         80,
                         85,

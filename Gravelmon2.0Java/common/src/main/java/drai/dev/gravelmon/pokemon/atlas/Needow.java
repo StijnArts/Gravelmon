@@ -7,7 +7,7 @@ import java.util.*;
 public class Needow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Needow() {
         super("Needow",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(35,
                         60,
                         42,

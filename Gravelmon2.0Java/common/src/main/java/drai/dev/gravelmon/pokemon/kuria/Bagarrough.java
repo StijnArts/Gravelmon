@@ -58,7 +58,7 @@ import java.util.*;
 public class Bagarrough extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bagarrough() {
         super("Bagarrough",
-                Type.FIGHTING,Type.GROUND,
+                Type.FIGHTING, Type.GROUND,
                 new Stats(100,
                         125,
                         100,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Harminth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harminth() {
         super("Harminth",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(85,
                         60,
                         120,

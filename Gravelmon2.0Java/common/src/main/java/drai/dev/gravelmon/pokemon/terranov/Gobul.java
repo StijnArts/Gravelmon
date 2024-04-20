@@ -58,7 +58,7 @@ import java.util.*;
 public class Gobul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gobul() {
         super("Gobul",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Grizzle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grizzle() {
         super("Grizzle",
-                Type.NORMAL,Type.DARK,
+                Type.NORMAL, Type.DARK,
                 new Stats(85,
                         65,
                         45,

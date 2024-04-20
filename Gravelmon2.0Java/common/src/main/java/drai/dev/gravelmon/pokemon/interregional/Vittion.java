@@ -7,7 +7,7 @@ import java.util.*;
 public class Vittion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vittion() {
         super("Vittion",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(120,
                         105,
                         125,

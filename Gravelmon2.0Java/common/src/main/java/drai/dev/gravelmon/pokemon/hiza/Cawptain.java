@@ -7,7 +7,7 @@ import java.util.*;
 public class Cawptain extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cawptain() {
         super("Cawptain",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(70,
                         95,
                         70,

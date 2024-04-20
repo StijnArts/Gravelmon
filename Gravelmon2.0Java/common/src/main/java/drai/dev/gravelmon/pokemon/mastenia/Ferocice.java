@@ -58,7 +58,7 @@ import java.util.*;
 public class Ferocice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ferocice() {
         super("Ferocice",
-                Type.FIRE,Type.ICE,
+                Type.FIRE, Type.ICE,
                 new Stats(0,
                         0,
                         0,

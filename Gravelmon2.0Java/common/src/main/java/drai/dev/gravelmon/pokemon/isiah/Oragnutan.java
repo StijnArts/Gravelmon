@@ -7,7 +7,7 @@ import java.util.*;
 public class Oragnutan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oragnutan() {
         super("Oragnutan",
-                Type.FIGHTING,Type.BUG,
+                Type.FIGHTING, Type.BUG,
                 new Stats(0,
                         0,
                         0,

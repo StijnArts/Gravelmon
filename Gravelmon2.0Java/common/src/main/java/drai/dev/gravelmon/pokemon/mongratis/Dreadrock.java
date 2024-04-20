@@ -58,7 +58,7 @@ import java.util.*;
 public class Dreadrock extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dreadrock() {
         super("Dreadrock",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(65,
                         75,
                         90,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Antillery extends drai.dev.gravelmon.pokemon.Pokemon {
     public Antillery() {
         super("Antillery",
-                Type.ROCK,Type.NORMAL,
+                Type.ROCK, Type.NORMAL,
                 new Stats(60,
                         60,
                         60,

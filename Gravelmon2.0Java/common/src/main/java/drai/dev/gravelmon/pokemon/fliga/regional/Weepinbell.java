@@ -58,7 +58,7 @@ import java.util.*;
 public class Weepinbell extends drai.dev.gravelmon.pokemon.Pokemon {
     public Weepinbell(int dex) {
         super(dex, "Weepinbell",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(65,
                         90,
                         50,

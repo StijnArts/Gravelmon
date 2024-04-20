@@ -58,7 +58,7 @@ import java.util.*;
 public class Oiligator extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oiligator() {
         super("Oiligator",
-                Type.POISON,Type.GROUND,
+                Type.POISON, Type.GROUND,
                 new Stats(90,
                         120,
                         90,

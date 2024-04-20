@@ -7,7 +7,7 @@ import java.util.*;
 public class Hermish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hermish() {
         super("Hermish",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

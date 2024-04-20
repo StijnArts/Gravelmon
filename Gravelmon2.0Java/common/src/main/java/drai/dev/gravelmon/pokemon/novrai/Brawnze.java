@@ -7,7 +7,7 @@ import java.util.*;
 public class Brawnze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brawnze() {
         super("Brawnze",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(45,
                         90,
                         90,

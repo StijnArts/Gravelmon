@@ -58,7 +58,7 @@ import java.util.*;
 public class Peladra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peladra() {
         super("Peladra",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Jigglwiggl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jigglwiggl() {
         super("Jigglwiggl",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(98,
                         22,
                         46,

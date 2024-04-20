@@ -9,7 +9,7 @@ import java.util.*;
 public class AristosianSpinarak extends drai.dev.gravelmon.pokemon.Pokemon {
     public AristosianSpinarak(int dexNo) {
         super(dexNo,"AristosianSpinarak",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(40,
                         30,
                         40,

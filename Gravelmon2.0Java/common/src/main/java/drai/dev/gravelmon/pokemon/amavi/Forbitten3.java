@@ -8,7 +8,7 @@ import java.util.*;
 public class Forbitten3 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Forbitten3() {
         super("Forbitten",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(115,
                         30,
                         80,

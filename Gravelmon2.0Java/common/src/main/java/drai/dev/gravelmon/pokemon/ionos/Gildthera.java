@@ -58,7 +58,7 @@ import java.util.*;
 public class Gildthera extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gildthera() {
         super("Gildthera",
-                Type.DARK,Type.STEEL,
+                Type.DARK, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

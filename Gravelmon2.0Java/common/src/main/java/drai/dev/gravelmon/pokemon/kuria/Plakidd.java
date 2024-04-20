@@ -58,7 +58,7 @@ import java.util.*;
 public class Plakidd extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plakidd() {
         super("Plakidd",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(82,
                         103,
                         80,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Tatei extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tatei() {
         super("Tatei",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(58,
                         83,
                         42,

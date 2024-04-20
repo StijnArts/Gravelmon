@@ -58,7 +58,7 @@ import java.util.*;
 public class Zodiaking extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zodiaking() {
         super("Zodiaking",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(88,
                         88,
                         88,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Frothermia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frothermia() {
         super("Frothermia",
-                Type.ICE,Type.GHOST,
+                Type.ICE, Type.GHOST,
                 new Stats(555,
                         5,
                         50,

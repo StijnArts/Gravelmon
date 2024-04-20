@@ -7,7 +7,7 @@ import java.util.*;
 public class Blizzarcher extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blizzarcher() {
         super("Blizzarcher",
-                Type.ICE,Type.GHOST,
+                Type.ICE, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

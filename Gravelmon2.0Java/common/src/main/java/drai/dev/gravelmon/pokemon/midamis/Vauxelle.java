@@ -9,7 +9,7 @@ import java.util.*;
 public class Vauxelle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vauxelle() {
         super("Vauxelle",
-                Type.GROUND,Type.ELECTRIC,
+                Type.GROUND, Type.ELECTRIC,
                 new Stats(100,
                         56,
                         60,

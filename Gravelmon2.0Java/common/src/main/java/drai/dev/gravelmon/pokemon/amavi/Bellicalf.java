@@ -8,7 +8,7 @@ import java.util.*;
 public class Bellicalf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bellicalf() {
         super("Bellicalf",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(70,
                         75,
                         65,

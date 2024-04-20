@@ -58,7 +58,7 @@ import java.util.*;
 public class Gravatone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gravatone() {
         super("Gravatone",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(70,
                         105,
                         80,

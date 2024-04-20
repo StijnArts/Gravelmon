@@ -8,7 +8,7 @@ import java.util.*;
 public class Bonafant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bonafant() {
         super("Bonafant",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

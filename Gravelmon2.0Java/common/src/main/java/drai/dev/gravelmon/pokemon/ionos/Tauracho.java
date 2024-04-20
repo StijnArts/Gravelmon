@@ -58,7 +58,7 @@ import java.util.*;
 public class Tauracho extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tauracho() {
         super("Tauracho",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(80,
                         120,
                         101,

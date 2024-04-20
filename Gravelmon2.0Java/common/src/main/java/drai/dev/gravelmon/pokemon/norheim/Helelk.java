@@ -9,7 +9,7 @@ import java.util.*;
 public class Helelk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Helelk() {
         super("Helelk",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(0,
                         0,
                         0,

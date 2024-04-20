@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianAggron extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianAggron(int dex) {
         super(dex, "Aggron",
-                Type.GROUND,Type.ROCK,
+                Type.GROUND, Type.ROCK,
                 new Stats(70,
                         120,
                         170,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Spinox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spinox() {
         super("Spinox",
-                Type.ELECTRIC,Type.POISON,
+                Type.ELECTRIC, Type.POISON,
                 new Stats(60,
                         75,
                         58,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Chiraudio extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chiraudio() {
         super("Chiraudio",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(68,
                         87,
                         60,

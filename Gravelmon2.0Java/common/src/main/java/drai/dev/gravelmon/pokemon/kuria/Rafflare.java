@@ -58,7 +58,7 @@ import java.util.*;
 public class Rafflare extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rafflare() {
         super("Rafflare",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(89,
                         85,
                         84,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Alpacoat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Alpacoat() {
         super("Alpacoat",
-                Type.NORMAL,Type.ICE,
+                Type.NORMAL, Type.ICE,
                 new Stats(80,
                         80,
                         74,

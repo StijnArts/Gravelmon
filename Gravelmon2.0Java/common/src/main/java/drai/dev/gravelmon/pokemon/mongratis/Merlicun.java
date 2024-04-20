@@ -58,7 +58,7 @@ import java.util.*;
 public class Merlicun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Merlicun() {
         super("Merlicun",
-                Type.DRAGON,Type.BUG,
+                Type.DRAGON, Type.BUG,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sealeo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sealeo(int dex) {
         super(dex, "Sealeo",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(90,
                         60,
                         70,

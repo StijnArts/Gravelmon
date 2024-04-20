@@ -7,7 +7,7 @@ import java.util.*;
 public class Conflagrace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conflagrace() {
         super("Conflagrace",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(63,
                         71,
                         63,

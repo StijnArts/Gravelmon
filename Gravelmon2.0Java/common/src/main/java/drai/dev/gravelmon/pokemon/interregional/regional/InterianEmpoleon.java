@@ -7,7 +7,7 @@ import java.util.*;
 public class InterianEmpoleon extends drai.dev.gravelmon.pokemon.Pokemon {
     public InterianEmpoleon(int dex) {
         super(dex ,"Empoleon",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(0,
                         0,
                         0,

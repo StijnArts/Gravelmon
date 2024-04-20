@@ -58,7 +58,7 @@ import java.util.*;
 public class Anglure extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anglure() {
         super("Anglure",
-                Type.LIGHT,Type.GHOST,
+                Type.LIGHT, Type.GHOST,
                 new Stats(30,
                         30,
                         35,

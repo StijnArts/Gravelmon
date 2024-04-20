@@ -7,7 +7,7 @@ import java.util.*;
 public class Crable extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crable() {
         super("Crable",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(70,
                         88,
                         70,

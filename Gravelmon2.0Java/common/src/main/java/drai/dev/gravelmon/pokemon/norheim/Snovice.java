@@ -9,7 +9,7 @@ import java.util.*;
 public class Snovice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snovice() {
         super("Snovice",
-                Type.ICE,Type.PSYCHIC,
+                Type.ICE, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

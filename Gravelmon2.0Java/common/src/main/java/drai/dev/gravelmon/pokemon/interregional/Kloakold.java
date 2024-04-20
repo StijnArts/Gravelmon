@@ -7,7 +7,7 @@ import java.util.*;
 public class Kloakold extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kloakold() {
         super("Kloakold",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(60,
                         60,
                         80,

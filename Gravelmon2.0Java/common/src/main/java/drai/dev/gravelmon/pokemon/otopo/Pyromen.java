@@ -58,7 +58,7 @@ import java.util.*;
 public class Pyromen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyromen() {
         super("Pyromen",
-                Type.GHOST,Type.FIRE,
+                Type.GHOST, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

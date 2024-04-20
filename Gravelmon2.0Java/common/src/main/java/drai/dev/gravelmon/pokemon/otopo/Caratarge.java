@@ -58,7 +58,7 @@ import java.util.*;
 public class Caratarge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Caratarge() {
         super("Caratarge",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

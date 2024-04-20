@@ -58,7 +58,7 @@ import java.util.*;
 public class Drakloak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drakloak(int dex) {
         super(dex, "Drakloak",
-                Type.DRAGON,Type.GHOST,
+                Type.DRAGON, Type.GHOST,
                 new Stats(68,
                         80,
                         50,

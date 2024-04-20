@@ -9,7 +9,7 @@ import java.util.*;
 public class Trinctite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trinctite() {
         super("Trinctite",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(40,
                         20,
                         68,

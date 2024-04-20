@@ -8,7 +8,7 @@ import java.util.*;
 public class Rapunzilla extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rapunzilla() {
         super("Rapunzilla",
-                Type.DRAGON,Type.FAIRY,
+                Type.DRAGON, Type.FAIRY,
                 new Stats(95,
                         65,
                         90,
@@ -17,7 +17,7 @@ public class Rapunzilla extends drai.dev.gravelmon.pokemon.Pokemon {
                         68),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 13, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

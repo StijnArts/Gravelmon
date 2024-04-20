@@ -9,7 +9,7 @@ import java.util.*;
 public class Anenemy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anenemy() {
         super("Anenemy",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(85,
                         65,
                         150,

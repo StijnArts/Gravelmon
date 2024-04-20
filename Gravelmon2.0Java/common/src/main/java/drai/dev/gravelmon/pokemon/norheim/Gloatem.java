@@ -9,7 +9,7 @@ import java.util.*;
 public class Gloatem extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gloatem() {
         super("Gloatem",
-                Type.FIGHTING,Type.GROUND,
+                Type.FIGHTING, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

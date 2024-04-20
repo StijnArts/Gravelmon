@@ -58,7 +58,7 @@ import java.util.*;
 public class Drillbee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drillbee() {
         super("Drillbee",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(65,
                         70,
                         115,

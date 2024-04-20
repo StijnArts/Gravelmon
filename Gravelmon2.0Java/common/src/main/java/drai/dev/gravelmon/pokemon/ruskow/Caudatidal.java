@@ -58,7 +58,7 @@ import java.util.*;
 public class Caudatidal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Caudatidal() {
         super("Caudatidal",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

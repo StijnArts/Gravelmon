@@ -58,7 +58,7 @@ import java.util.*;
 public class Bubill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bubill() {
         super("Bubill",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(60,
                         79,
                         50,

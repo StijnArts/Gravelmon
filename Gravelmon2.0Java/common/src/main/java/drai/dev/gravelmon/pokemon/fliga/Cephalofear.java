@@ -58,7 +58,7 @@ import java.util.*;
 public class Cephalofear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cephalofear() {
         super("Cephalofear",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(74,
                         98,
                         63,

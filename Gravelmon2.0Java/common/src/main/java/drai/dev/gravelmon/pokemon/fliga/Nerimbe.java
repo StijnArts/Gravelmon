@@ -58,7 +58,7 @@ import java.util.*;
 public class Nerimbe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nerimbe() {
         super("Nerimbe",
-                Type.GRASS,Type.ICE,
+                Type.GRASS, Type.ICE,
                 new Stats(85,
                         50,
                         51,

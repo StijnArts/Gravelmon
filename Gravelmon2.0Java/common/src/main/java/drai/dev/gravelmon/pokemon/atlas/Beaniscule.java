@@ -7,7 +7,7 @@ import java.util.*;
 public class Beaniscule extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beaniscule() {
         super("Beaniscule",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(61,
                         60,
                         52,

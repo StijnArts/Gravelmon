@@ -9,7 +9,7 @@ import java.util.*;
 public class Geoglyphic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Geoglyphic() {
         super("Geoglyphic",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

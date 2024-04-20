@@ -9,7 +9,7 @@ import java.util.*;
 public class Prarendo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Prarendo() {
         super("Prarendo",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(75,
                         65,
                         55,

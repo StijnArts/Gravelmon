@@ -58,7 +58,7 @@ import java.util.*;
 public class Lollybog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lollybog() {
         super("Lollybog",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

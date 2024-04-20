@@ -7,7 +7,7 @@ import java.util.*;
 public class Primmella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Primmella() {
         super("Primmella",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(60,
                         35,
                         35,

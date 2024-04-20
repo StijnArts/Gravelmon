@@ -58,7 +58,7 @@ import java.util.*;
 public class Seadeek extends drai.dev.gravelmon.pokemon.Pokemon {
     public Seadeek() {
         super("Seadeek",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(60,
                         75,
                         50,

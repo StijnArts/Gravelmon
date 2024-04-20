@@ -7,7 +7,7 @@ import java.util.*;
 public class Bouldalo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bouldalo() {
         super("Bouldalo",
-                Type.NORMAL,Type.ROCK,
+                Type.NORMAL, Type.ROCK,
                 new Stats(70,
                         135,
                         80,

@@ -7,7 +7,7 @@ import java.util.*;
 public class NostanDiglett extends drai.dev.gravelmon.pokemon.Pokemon {
     public NostanDiglett(int dex) {
         super(dex, "Diglett",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(35,
                         45,
                         55,

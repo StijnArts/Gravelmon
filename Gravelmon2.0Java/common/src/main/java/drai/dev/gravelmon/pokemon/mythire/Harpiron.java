@@ -7,7 +7,7 @@ import java.util.*;
 public class Harpiron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harpiron() {
         super("Harpiron",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(65,
                         70,
                         105,

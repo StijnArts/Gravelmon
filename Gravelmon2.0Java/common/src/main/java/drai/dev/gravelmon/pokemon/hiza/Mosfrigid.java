@@ -7,7 +7,7 @@ import java.util.*;
 public class Mosfrigid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mosfrigid() {
         super("Mosfrigid",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(40,
                         70,
                         45,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Stunooki extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stunooki() {
         super("Stunooki",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(30,
                         60,
                         40,

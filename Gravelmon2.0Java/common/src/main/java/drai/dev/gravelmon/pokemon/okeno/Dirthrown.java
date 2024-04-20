@@ -6,7 +6,7 @@ import java.util.*;
 public class Dirthrown extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dirthrown() {
         super("Dirthrown",
-                Type.NORMAL,Type.POISON,
+                Type.NORMAL, Type.POISON,
                 new Stats(102,
                         80,
                         90,

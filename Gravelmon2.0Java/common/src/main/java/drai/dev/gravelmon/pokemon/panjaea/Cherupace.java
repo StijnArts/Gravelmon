@@ -58,7 +58,7 @@ import java.util.*;
 public class Cherupace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cherupace() {
         super("Cherupace",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

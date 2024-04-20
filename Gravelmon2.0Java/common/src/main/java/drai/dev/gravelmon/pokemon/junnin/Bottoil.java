@@ -11,7 +11,7 @@ import java.util.*;
 public class Bottoil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bottoil() {
         super("Bottoil",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Spoocap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spoocap() {
         super("Spoocap",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(45,
                         57,
                         35,

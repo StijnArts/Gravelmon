@@ -3,6 +3,9 @@ package drai.dev.gravelmon.pokemon;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import net.minecraft.core.*;
+import net.minecraft.core.registries.*;
+
 import java.util.*;
 
 public class Pokemon {
@@ -272,7 +275,12 @@ public class Pokemon {
         pokemonRegistry.add(this);
     }
 
-    public static void scanEvolutions() {
+    public static void postRegistration() {
+        /*//TODO validate biomes
+        var biomeRegistry = arg.lookupOrThrow(Registries.BIOME);
+        var biomeRegistry = arg.lookupOrThrow(Registries.);
+        biomeRegistry.get()
+*/
         var evaluatedMons = new ArrayList<>();
         StringBuilder pokemonWithZeroCatchrate = new StringBuilder("Pokemon with 0 catch-rate: \n");
         StringBuilder pokemonWithZeroBaseStats = new StringBuilder("Pokemon with 0 Base Stats: \n");
@@ -362,7 +370,6 @@ public class Pokemon {
                     }
                 }
             }
-
         }
         System.out.println(pokemonThatEvolveIntoThemselves);
         System.out.println(pokemonWithZeroBaseStats);

@@ -8,7 +8,7 @@ import java.util.*;
 public class Tanana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tanana() {
         super("Tanana",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(88,
                         130,
                         87,
@@ -17,7 +17,7 @@ public class Tanana extends drai.dev.gravelmon.pokemon.Pokemon {
                         54),
                 List.of(Ability.HARVEST,Ability.GLUTTONY), Ability.UNBURDEN,
                 9, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 40,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Triastick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Triastick() {
         super("Triastick",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

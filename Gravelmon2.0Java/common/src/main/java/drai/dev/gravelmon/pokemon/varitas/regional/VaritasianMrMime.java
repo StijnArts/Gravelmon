@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianMrMime extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianMrMime() {
         super("VaritasianMrMime",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

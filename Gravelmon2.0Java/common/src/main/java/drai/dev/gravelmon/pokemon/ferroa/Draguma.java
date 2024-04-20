@@ -7,7 +7,7 @@ import java.util.*;
 public class Draguma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Draguma() {
         super("Draguma",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

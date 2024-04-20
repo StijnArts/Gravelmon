@@ -7,7 +7,7 @@ import java.util.*;
 public class Ruffiguin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ruffiguin() {
         super("Ruffiguin",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(65,
                         130,
                         60,

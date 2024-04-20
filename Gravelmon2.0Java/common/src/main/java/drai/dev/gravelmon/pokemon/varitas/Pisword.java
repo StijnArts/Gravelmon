@@ -9,7 +9,7 @@ import java.util.*;
 public class Pisword extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pisword() {
         super("Pisword",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

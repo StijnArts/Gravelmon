@@ -9,7 +9,7 @@ import java.util.*;
 public class Scimitear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scimitear() {
         super("Scimitear",
-                Type.ELECTRIC,Type.FIRE,
+                Type.ELECTRIC, Type.FIRE,
                 new Stats(75,
                         120,
                         65,

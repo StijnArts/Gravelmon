@@ -2,21 +2,6 @@ package drai.dev.gravelmon.games.pokemmo.secondbatch;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
-import drai.dev.gravelmon.pokemon.mystis.*;
-import drai.dev.gravelmon.pokemon.pastelisland.*;
-import drai.dev.gravelmon.pokemon.neonintendo.*;
-import drai.dev.gravelmon.pokemon.tokas.*;
-import drai.dev.gravelmon.pokemon.panjaea.*;
-import drai.dev.gravelmon.pokemon.cyare.*;
-import drai.dev.gravelmon.pokemon.olysos.*;
-import drai.dev.gravelmon.pokemon.nodorro.*;
-import drai.dev.gravelmon.pokemon.orbis.*;
-import drai.dev.gravelmon.pokemon.fliga.*;
-import drai.dev.gravelmon.pokemon.ruskow.*;
-import drai.dev.gravelmon.pokemon.otopo.*;
-import drai.dev.gravelmon.pokemon.goetia.*;
-import drai.dev.gravelmon.pokemon.ionos.*;
-import drai.dev.gravelmon.pokemon.lagoone.*;
 
 public class Amavi extends drai.dev.gravelmon.games.registry.Game {
     public Amavi() {
@@ -150,7 +135,7 @@ public class Amavi extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Seally());
         pokemon.add(new Clownder());
         pokemon.add(new Booey());
-        pokemon.add(new eevern());
+        pokemon.add(new Eevern());
         pokemon.add(new Roargyle());
         pokemon.add(new Flamengon());
         pokemon.add(new Fantasmaug());
@@ -197,7 +182,7 @@ public class Amavi extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Purrbal());
         pokemon.add(new Papillow());
         pokemon.add(new Volvolt());
-        pokemon.add(new volvyrm());
+        pokemon.add(new Volvyrm());
         pokemon.add(new Nerincess());
         pokemon.add(new Equeena());
         pokemon.add(new Amphreina());

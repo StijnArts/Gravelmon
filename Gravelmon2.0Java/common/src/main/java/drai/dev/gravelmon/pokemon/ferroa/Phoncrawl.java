@@ -7,7 +7,7 @@ import java.util.*;
 public class Phoncrawl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phoncrawl() {
         super("Phoncrawl",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(45,
                         55,
                         75,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Terrevour extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terrevour() {
         super("Terrevour",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(85,
                         115,
                         70,

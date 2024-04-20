@@ -7,7 +7,7 @@ import java.util.*;
 public class Stalittle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stalittle() {
         super("Stalittle",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

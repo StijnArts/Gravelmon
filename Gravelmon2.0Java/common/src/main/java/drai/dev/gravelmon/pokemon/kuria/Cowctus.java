@@ -58,7 +58,7 @@ import java.util.*;
 public class Cowctus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cowctus() {
         super("Cowctus",
-                Type.GRASS,Type.STEEL,
+                Type.GRASS, Type.STEEL,
                 new Stats(80,
                         105,
                         105,

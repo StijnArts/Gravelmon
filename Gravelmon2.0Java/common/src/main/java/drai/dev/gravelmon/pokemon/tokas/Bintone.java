@@ -58,7 +58,7 @@ import java.util.*;
 public class Bintone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bintone() {
         super("Bintone",
-                Type.FLYING,Type.NORMAL,
+                Type.FLYING, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Hollowhusk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hollowhusk() {
         super("Hollowhusk",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(101,
                         100,
                         100,

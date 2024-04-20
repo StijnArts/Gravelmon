@@ -7,7 +7,7 @@ import java.util.*;
 public class Sentresha extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sentresha() {
         super("Sentresha",
-                Type.ELECTRIC,Type.GHOST,
+                Type.ELECTRIC, Type.GHOST,
                 new Stats(74,
                         80,
                         53,

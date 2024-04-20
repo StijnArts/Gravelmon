@@ -6,7 +6,7 @@ import java.util.*;
 public class Bugaloo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bugaloo() {
         super("Bugaloo",
-                Type.BUG,Type.NORMAL,
+                Type.BUG, Type.NORMAL,
                 new Stats(44,
                         32,
                         44,

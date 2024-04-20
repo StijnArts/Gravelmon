@@ -7,7 +7,7 @@ import java.util.*;
 public class Greapper extends drai.dev.gravelmon.pokemon.Pokemon {
     public Greapper() {
         super("Greapper",
-                Type.STEEL,Type.GHOST,
+                Type.STEEL, Type.GHOST,
                 new Stats(75,
                         140,
                         110,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Harpirit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harpirit() {
         super("Harpirit",
-                Type.GHOST,Type.SOUND,
+                Type.GHOST, Type.SOUND,
                 new Stats(60,
                         40,
                         50,

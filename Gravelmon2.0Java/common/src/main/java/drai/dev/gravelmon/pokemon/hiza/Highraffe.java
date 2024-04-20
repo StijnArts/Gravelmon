@@ -7,7 +7,7 @@ import java.util.*;
 public class Highraffe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Highraffe() {
         super("Highraffe",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(105,
                         90,
                         75,

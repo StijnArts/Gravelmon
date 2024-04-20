@@ -9,7 +9,7 @@ import java.util.*;
 public class Dunesparr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dunesparr() {
         super("Dunesparr",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(75,
                         100,
                         60,

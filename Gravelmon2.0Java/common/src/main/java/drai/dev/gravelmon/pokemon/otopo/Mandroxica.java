@@ -58,7 +58,7 @@ import java.util.*;
 public class Mandroxica extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mandroxica() {
         super("Mandroxica",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,
                         0,

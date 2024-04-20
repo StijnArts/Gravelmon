@@ -58,7 +58,7 @@ import java.util.*;
 public class Irritabull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Irritabull() {
         super("Irritabull",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(97,
                         130,
                         82,

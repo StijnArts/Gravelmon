@@ -7,7 +7,7 @@ import java.util.*;
 public class Allywag extends drai.dev.gravelmon.pokemon.Pokemon {
     public Allywag() {
         super("Allywag",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(35,
                         80,
                         15,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Frostyke extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frostyke() {
         super("Frostyke",
-                Type.SOUND,Type.ICE,
+                Type.SOUND, Type.ICE,
                 new Stats(48,
                         75,
                         50,

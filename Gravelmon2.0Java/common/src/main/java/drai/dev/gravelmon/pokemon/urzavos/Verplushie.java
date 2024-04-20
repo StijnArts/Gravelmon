@@ -58,7 +58,7 @@ import java.util.*;
 public class Verplushie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Verplushie() {
         super("Verplushie",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

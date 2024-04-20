@@ -7,7 +7,7 @@ import java.util.*;
 public class Cindera extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cindera() {
         super("Cindera",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(56,
                         57,
                         36,

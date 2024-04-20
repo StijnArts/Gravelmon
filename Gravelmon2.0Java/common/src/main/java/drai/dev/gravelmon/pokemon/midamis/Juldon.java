@@ -9,7 +9,7 @@ import java.util.*;
 public class Juldon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Juldon() {
         super("Juldon",
-                Type.PSYCHIC,Type.ROCK,
+                Type.PSYCHIC, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

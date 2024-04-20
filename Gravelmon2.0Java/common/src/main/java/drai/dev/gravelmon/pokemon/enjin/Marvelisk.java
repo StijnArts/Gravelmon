@@ -58,7 +58,7 @@ import java.util.*;
 public class Marvelisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marvelisk() {
         super("Marvelisk",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(79,
                         47,
                         157,
@@ -66,13 +66,13 @@ public class Marvelisk extends drai.dev.gravelmon.pokemon.Pokemon {
                         101,
                         47),
                 List.of(Ability.BEAST_BOOST), Ability.BEAST_BOOST,
-                0, 0,
+                31, 0,
                 new Stats(0,0,3,0,0,0), 45,
                 0.0,
                 257, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
-                List.of("Added Oct 27 2021. 'UB-Grandiose' Etymology: marvelous/marvellous + obelisk Evo line: Complete Origin: Created by JaneJewel for the April 2020 Around The World Fakeathon Day 1 prompt, Your Hometown/City/Country"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SIMPLE_BEAM,17),
@@ -114,14 +114,15 @@ public class Marvelisk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SANDSTORM,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Marvelisk");
+        setCanFly(true);
 
     }
 

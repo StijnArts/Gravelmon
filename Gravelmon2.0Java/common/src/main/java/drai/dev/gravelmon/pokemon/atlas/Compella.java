@@ -7,7 +7,7 @@ import java.util.*;
 public class Compella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Compella() {
         super("Compella",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(55,
                         40,
                         85,

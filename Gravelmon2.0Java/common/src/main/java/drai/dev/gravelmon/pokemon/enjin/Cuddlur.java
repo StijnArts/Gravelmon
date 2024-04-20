@@ -58,7 +58,7 @@ import java.util.*;
 public class Cuddlur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cuddlur() {
         super("Cuddlur",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(110,
                         80,
                         85,
@@ -66,7 +66,7 @@ public class Cuddlur extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         80),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                0, 0,
+                18, 0,
                 new Stats(2,0,0,0,0,0), 30,
                 0.5,
                 184, ExperienceGroup.SLOW,
@@ -196,13 +196,29 @@ public class Cuddlur extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLASH_CANNON,"tm"),
                         new MoveLearnSetEntry(Move.GYRO_BALL,"tm"),
                         new MoveLearnSetEntry(Move.SURF,"tm"),
-                        new MoveLearnSetEntry(Move.WATERFALL,"tm")                        ),
-                List.of(Label.ENJIN),
+                        new MoveLearnSetEntry(Move.WATERFALL,"tm"),
+                new MoveLearnSetEntry(Move.LEER,1),
+                new MoveLearnSetEntry(Move.DRAGON_BREATH,1),
+                new MoveLearnSetEntry(Move.TACKLE,1),
+                new MoveLearnSetEntry(Move.POWDER_SNOW,1),
+                new MoveLearnSetEntry(Move.DRAGON_RAGE,8),
+                new MoveLearnSetEntry(Move.BITE,12),
+                new MoveLearnSetEntry(Move.MIST,15),
+                new MoveLearnSetEntry(Move.ICE_SHARD,18),
+                new MoveLearnSetEntry(Move.HEADBUTT,21),
+                new MoveLearnSetEntry(Move.ICE_BALL,24),
+                new MoveLearnSetEntry(Move.CRUNCH,30),
+                new MoveLearnSetEntry(Move.WORK_UP,37),
+                new MoveLearnSetEntry(Move.DRAGON_RUSH,42),
+                new MoveLearnSetEntry(Move.MOUNTAIN_GALE,48),
+                new MoveLearnSetEntry(Move.THRASH,55)
+                ),
+        List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+        ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3.8, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
+                new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+        ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -11,7 +11,7 @@ import java.util.*;
 public class Sanderon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sanderon() {
         super("Sanderon",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(65,
                         65,
                         95,

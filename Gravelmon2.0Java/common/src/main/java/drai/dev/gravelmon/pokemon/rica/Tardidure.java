@@ -9,7 +9,7 @@ import java.util.*;
 public class Tardidure extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tardidure() {
         super("Tardidure",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(50,
                         10,
                         140,

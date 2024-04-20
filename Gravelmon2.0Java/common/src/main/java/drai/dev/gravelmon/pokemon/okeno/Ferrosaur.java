@@ -6,7 +6,7 @@ import java.util.*;
 public class Ferrosaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ferrosaur() {
         super("Ferrosaur",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(50,
                         115,
                         95,

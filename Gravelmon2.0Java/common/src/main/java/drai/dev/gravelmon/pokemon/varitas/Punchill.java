@@ -9,7 +9,7 @@ import java.util.*;
 public class Punchill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Punchill() {
         super("Punchill",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Titanoss extends drai.dev.gravelmon.pokemon.Pokemon {
     public Titanoss() {
         super("Titanoss",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(90,
                         118,
                         100,

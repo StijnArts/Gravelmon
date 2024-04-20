@@ -58,7 +58,7 @@ import java.util.*;
 public class Candicorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Candicorn() {
         super("Candicorn",
-                Type.FAIRY,Type.NORMAL,
+                Type.FAIRY, Type.NORMAL,
                 new Stats(78,
                         105,
                         70,

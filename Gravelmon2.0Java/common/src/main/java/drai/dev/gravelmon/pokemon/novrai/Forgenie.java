@@ -7,7 +7,7 @@ import java.util.*;
 public class Forgenie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Forgenie() {
         super("Forgenie",
-                Type.PSYCHIC,Type.FIRE,
+                Type.PSYCHIC, Type.FIRE,
                 new Stats(80,
                         90,
                         118,

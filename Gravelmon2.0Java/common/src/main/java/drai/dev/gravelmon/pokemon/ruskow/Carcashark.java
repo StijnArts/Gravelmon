@@ -58,7 +58,7 @@ import java.util.*;
 public class Carcashark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carcashark() {
         super("Carcashark",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

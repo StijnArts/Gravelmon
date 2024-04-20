@@ -58,7 +58,7 @@ import java.util.*;
 public class Kojaku extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kojaku() {
         super("Kojaku",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

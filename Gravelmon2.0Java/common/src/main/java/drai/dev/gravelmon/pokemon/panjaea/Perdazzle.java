@@ -58,7 +58,7 @@ import java.util.*;
 public class Perdazzle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Perdazzle() {
         super("Perdazzle",
-                Type.FLYING,Type.PSYCHIC,
+                Type.FLYING, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

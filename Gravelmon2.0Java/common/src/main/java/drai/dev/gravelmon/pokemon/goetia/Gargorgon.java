@@ -58,7 +58,7 @@ import java.util.*;
 public class Gargorgon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gargorgon() {
         super("Gargorgon",
-                Type.DRAGON,Type.GHOST,
+                Type.DRAGON, Type.GHOST,
                 new Stats(100,
                         65,
                         85,

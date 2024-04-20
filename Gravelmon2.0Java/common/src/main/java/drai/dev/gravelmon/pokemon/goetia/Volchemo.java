@@ -58,7 +58,7 @@ import java.util.*;
 public class Volchemo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Volchemo() {
         super("Volchemo",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

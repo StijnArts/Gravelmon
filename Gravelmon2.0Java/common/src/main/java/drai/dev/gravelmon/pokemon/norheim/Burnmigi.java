@@ -9,7 +9,7 @@ import java.util.*;
 public class Burnmigi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burnmigi() {
         super("Burnmigi",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

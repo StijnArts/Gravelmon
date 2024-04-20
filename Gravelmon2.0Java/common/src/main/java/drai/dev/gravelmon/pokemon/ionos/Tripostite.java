@@ -58,7 +58,7 @@ import java.util.*;
 public class Tripostite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tripostite() {
         super("Tripostite",
-                Type.PSYCHIC,Type.ROCK,
+                Type.PSYCHIC, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

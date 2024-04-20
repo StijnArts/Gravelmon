@@ -58,7 +58,7 @@ import java.util.*;
 public class Gormhyena extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gormhyena() {
         super("Gormhyena",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(101,
                         85,
                         96,

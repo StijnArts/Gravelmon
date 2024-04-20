@@ -58,7 +58,7 @@ import java.util.*;
 public class Psynapse extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psynapse() {
         super("Psynapse",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

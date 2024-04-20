@@ -58,7 +58,7 @@ import java.util.*;
 public class Chainslash extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chainslash() {
         super("Chainslash",
-                Type.GRASS,Type.STEEL,
+                Type.GRASS, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Sucrostone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sucrostone() {
         super("Sucrostone",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(50,
                         80,
                         170,

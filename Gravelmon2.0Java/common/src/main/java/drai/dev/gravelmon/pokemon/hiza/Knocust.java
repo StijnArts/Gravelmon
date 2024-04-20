@@ -7,7 +7,7 @@ import java.util.*;
 public class Knocust extends drai.dev.gravelmon.pokemon.Pokemon {
     public Knocust() {
         super("Knocust",
-                Type.FIGHTING,Type.BUG,
+                Type.FIGHTING, Type.BUG,
                 new Stats(50,
                         82,
                         82,

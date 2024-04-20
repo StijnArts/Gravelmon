@@ -58,7 +58,7 @@ import java.util.*;
 public class Butobeet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Butobeet() {
         super("Butobeet",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

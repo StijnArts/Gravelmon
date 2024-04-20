@@ -58,7 +58,7 @@ import java.util.*;
 public class Combee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Combee(int dex) {
         super(dex, "Combee",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(30,
                         30,
                         42,

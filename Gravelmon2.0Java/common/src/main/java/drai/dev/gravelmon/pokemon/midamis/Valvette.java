@@ -9,7 +9,7 @@ import java.util.*;
 public class Valvette extends drai.dev.gravelmon.pokemon.Pokemon {
     public Valvette() {
         super("Valvette",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(95,
                         100,
                         75,

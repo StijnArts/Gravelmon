@@ -9,7 +9,7 @@ import java.util.*;
 public class Chirpunch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chirpunch() {
         super("Chirpunch",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(50,
                         70,
                         40,

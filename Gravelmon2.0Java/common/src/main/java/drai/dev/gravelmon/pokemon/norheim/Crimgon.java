@@ -9,7 +9,7 @@ import java.util.*;
 public class Crimgon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crimgon() {
         super("Crimgon",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(70,
                         90,
                         130,

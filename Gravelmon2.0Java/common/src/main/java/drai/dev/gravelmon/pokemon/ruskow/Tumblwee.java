@@ -58,7 +58,7 @@ import java.util.*;
 public class Tumblwee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tumblwee() {
         super("Tumblwee",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

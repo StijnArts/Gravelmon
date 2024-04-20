@@ -58,7 +58,7 @@ import java.util.*;
 public class Mivota extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mivota() {
         super("Mivota",
-                Type.PSYCHIC,Type.FIRE,
+                Type.PSYCHIC, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

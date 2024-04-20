@@ -9,7 +9,7 @@ import java.util.*;
 public class Salrander extends drai.dev.gravelmon.pokemon.Pokemon {
     public Salrander() {
         super("Salrander",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(85,
                         55,
                         80,

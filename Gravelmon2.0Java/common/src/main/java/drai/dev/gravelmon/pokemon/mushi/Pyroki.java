@@ -8,7 +8,7 @@ import java.util.*;
 public class Pyroki extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyroki() {
         super("Pyroki",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(50,
                         55,
                         40,

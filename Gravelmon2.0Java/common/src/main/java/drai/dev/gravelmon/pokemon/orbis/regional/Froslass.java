@@ -58,7 +58,7 @@ import java.util.*;
 public class Froslass extends drai.dev.gravelmon.pokemon.Pokemon {
     public Froslass(int dex) {
         super(dex, "Froslass",
-                Type.ICE,Type.GHOST,
+                Type.ICE, Type.GHOST,
                 new Stats(70,
                         80,
                         70,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Bonfird extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bonfird() {
         super("Bonfird",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(35,
                         55,
                         49,

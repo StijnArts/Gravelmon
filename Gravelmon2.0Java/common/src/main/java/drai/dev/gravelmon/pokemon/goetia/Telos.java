@@ -58,7 +58,7 @@ import java.util.*;
 public class Telos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Telos() {
         super("Telos",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

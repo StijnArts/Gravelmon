@@ -9,7 +9,7 @@ import java.util.*;
 public class Malakele extends drai.dev.gravelmon.pokemon.Pokemon {
     public Malakele() {
         super("Malakele",
-                Type.GHOST,Type.FIGHTING,
+                Type.GHOST, Type.FIGHTING,
                 new Stats(55,
                         75,
                         40,

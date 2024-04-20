@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanShellder extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanShellder(int dex) {
         super(dex, "Shellder",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(50,
                         60,
                         90,

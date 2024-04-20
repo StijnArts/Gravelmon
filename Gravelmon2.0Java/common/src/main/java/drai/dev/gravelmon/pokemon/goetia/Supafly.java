@@ -58,7 +58,7 @@ import java.util.*;
 public class Supafly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Supafly() {
         super("Supafly",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

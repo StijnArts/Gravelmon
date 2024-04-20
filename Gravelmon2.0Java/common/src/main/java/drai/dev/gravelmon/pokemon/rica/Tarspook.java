@@ -9,7 +9,7 @@ import java.util.*;
 public class Tarspook extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tarspook() {
         super("Tarspook",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(60,
                         60,
                         60,

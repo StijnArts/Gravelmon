@@ -8,7 +8,7 @@ import java.util.*;
 public class Carafowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carafowl() {
         super("Carafowl",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

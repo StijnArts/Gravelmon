@@ -7,7 +7,7 @@ import java.util.*;
 public class Dragome extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dragome() {
         super("Dragome",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(110,
                         107,
                         120,

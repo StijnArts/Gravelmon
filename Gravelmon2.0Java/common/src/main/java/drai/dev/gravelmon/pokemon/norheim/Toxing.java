@@ -9,7 +9,7 @@ import java.util.*;
 public class Toxing extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toxing() {
         super("Toxing",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(45,
                         65,
                         45,

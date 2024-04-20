@@ -7,7 +7,7 @@ import java.util.*;
 public class Outatime extends drai.dev.gravelmon.pokemon.Pokemon {
     public Outatime() {
         super("Outatime",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

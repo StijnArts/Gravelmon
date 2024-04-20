@@ -8,7 +8,7 @@ import java.util.*;
 public class Noxisekt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Noxisekt() {
         super("Noxisekt",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(55,
                         75,
                         100,

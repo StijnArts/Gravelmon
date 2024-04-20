@@ -58,7 +58,7 @@ import java.util.*;
 public class Industove extends drai.dev.gravelmon.pokemon.Pokemon {
     public Industove() {
         super("Industove",
-                Type.STEEL,Type.FIRE,
+                Type.STEEL, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

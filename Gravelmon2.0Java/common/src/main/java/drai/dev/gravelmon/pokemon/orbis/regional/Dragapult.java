@@ -58,7 +58,7 @@ import java.util.*;
 public class Dragapult extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dragapult(int dex) {
         super(dex, "Dragapult",
-                Type.DRAGON,Type.GHOST,
+                Type.DRAGON, Type.GHOST,
                 new Stats(88,
                         120,
                         75,

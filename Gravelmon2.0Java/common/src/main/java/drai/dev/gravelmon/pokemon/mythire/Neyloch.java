@@ -7,7 +7,7 @@ import java.util.*;
 public class Neyloch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Neyloch() {
         super("Neyloch",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(70,
                         90,
                         70,

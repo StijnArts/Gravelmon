@@ -7,7 +7,7 @@ import java.util.*;
 public class Enigmore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Enigmore() {
         super("Enigmore",
-                Type.PSYCHIC,Type.ROCK,
+                Type.PSYCHIC, Type.ROCK,
                 new Stats(50,
                         55,
                         40,

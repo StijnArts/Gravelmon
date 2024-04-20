@@ -58,7 +58,7 @@ import java.util.*;
 public class Arbok extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arbok(int dex) {
         super(dex, "Arbok",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(0,
                         0,
                         0,

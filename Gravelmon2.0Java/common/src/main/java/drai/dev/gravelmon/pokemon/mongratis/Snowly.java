@@ -58,7 +58,7 @@ import java.util.*;
 public class Snowly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snowly() {
         super("Snowly",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(85,
                         60,
                         100,

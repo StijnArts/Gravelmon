@@ -58,7 +58,7 @@ import java.util.*;
 public class Lunapyon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lunapyon() {
         super("Lunapyon",
-                Type.FAIRY,Type.ELECTRIC,
+                Type.FAIRY, Type.ELECTRIC,
                 new Stats(70,
                         55,
                         65,

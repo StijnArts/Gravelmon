@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianCubone extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianCubone(int dex) {
         super(dex, "VaritasianCubone",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(50,
                         50,
                         95,

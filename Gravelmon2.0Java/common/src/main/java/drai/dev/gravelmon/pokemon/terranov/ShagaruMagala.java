@@ -58,7 +58,7 @@ import java.util.*;
 public class ShagaruMagala extends drai.dev.gravelmon.pokemon.Pokemon {
     public ShagaruMagala() {
         super("ShagaruMagala",
-                Type.DRAGON,Type.QUESTION_MARK,
+                Type.DRAGON, Type.QUESTION_MARK,
                 new Stats(0,
                         0,
                         0,

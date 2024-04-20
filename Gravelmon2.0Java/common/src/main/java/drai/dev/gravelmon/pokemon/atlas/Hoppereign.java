@@ -7,7 +7,7 @@ import java.util.*;
 public class Hoppereign extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hoppereign() {
         super("Hoppereign",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(82,
                         105,
                         76,

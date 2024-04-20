@@ -9,7 +9,7 @@ import java.util.*;
 public class AristosianTaillow extends drai.dev.gravelmon.pokemon.Pokemon {
     public AristosianTaillow() {
         super("Taillow",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(40,
                         30,
                         30,

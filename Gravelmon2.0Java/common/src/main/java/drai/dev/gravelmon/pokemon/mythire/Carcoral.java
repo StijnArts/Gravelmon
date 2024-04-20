@@ -7,7 +7,7 @@ import java.util.*;
 public class Carcoral extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carcoral() {
         super("Carcoral",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(70,
                         105,
                         130,

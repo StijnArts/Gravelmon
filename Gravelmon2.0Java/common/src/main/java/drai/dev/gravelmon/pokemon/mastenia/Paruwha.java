@@ -58,7 +58,7 @@ import java.util.*;
 public class Paruwha extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paruwha() {
         super("Paruwha",
-                Type.GROUND,Type.FLYING,
+                Type.GROUND, Type.FLYING,
                 new Stats(125,
                         125,
                         90,

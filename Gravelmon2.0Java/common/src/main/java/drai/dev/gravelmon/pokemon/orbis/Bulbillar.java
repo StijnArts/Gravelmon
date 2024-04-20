@@ -58,7 +58,7 @@ import java.util.*;
 public class Bulbillar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bulbillar() {
         super("Bulbillar",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(45,
                         20,
                         20,

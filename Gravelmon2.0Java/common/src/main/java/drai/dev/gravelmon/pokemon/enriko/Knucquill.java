@@ -7,7 +7,7 @@ import java.util.*;
 public class Knucquill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Knucquill() {
         super("Knucquill",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(75,
                         110,
                         90,

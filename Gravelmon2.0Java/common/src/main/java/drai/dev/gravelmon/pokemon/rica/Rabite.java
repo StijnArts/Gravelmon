@@ -9,7 +9,7 @@ import java.util.*;
 public class Rabite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rabite() {
         super("Rabite",
-                Type.NORMAL,Type.POISON,
+                Type.NORMAL, Type.POISON,
                 new Stats(75,
                         105,
                         70,

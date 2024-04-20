@@ -9,7 +9,7 @@ import java.util.*;
 public class Charctic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Charctic() {
         super("Charctic",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(75,
                         110,
                         75,

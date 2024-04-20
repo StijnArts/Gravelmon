@@ -58,7 +58,7 @@ import java.util.*;
 public class Visarab extends drai.dev.gravelmon.pokemon.Pokemon {
     public Visarab() {
         super("Visarab",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(72,
                         135,
                         96,

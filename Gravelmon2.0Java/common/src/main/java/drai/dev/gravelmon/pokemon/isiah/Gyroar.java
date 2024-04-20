@@ -7,7 +7,7 @@ import java.util.*;
 public class Gyroar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gyroar() {
         super("Gyroar",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

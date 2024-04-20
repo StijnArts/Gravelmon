@@ -9,7 +9,7 @@ import java.util.*;
 public class Dracoknight extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dracoknight() {
         super("Dracoknight",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(120,
                         80,
                         110,

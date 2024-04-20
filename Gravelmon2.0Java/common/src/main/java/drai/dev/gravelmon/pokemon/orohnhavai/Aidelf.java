@@ -9,7 +9,7 @@ import java.util.*;
 public class Aidelf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aidelf() {
         super("Aidelf",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(55,
                         34,
                         57,

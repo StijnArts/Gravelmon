@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianPorygon2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianPorygon2(int dex) {
         super(dex, "Porygon2",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(85,
                         105,
                         80,

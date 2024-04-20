@@ -58,7 +58,7 @@ import java.util.*;
 public class Kiwatt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kiwatt() {
         super("Kiwatt",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

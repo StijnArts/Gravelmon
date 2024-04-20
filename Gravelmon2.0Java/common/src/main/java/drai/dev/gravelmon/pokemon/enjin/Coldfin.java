@@ -58,7 +58,7 @@ import java.util.*;
 public class Coldfin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coldfin() {
         super("Coldfin",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Marifin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marifin() {
         super("Marifin",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(65,
                         55,
                         40,

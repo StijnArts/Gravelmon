@@ -7,7 +7,7 @@ import java.util.*;
 public class Eyesoar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eyesoar() {
         super("Eyesoar",
-                Type.FLYING,Type.FLYING,
+                Type.FLYING, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Cantarini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cantarini() {
         super("Cantarini",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Coarsent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coarsent() {
         super("Coarsent",
-                Type.WATER,Type.LIGHT,
+                Type.WATER, Type.LIGHT,
                 new Stats(0,
                         0,
                         0,

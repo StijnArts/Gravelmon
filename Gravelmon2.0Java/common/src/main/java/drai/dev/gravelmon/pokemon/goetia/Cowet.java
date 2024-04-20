@@ -58,7 +58,7 @@ import java.util.*;
 public class Cowet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cowet() {
         super("Cowet",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

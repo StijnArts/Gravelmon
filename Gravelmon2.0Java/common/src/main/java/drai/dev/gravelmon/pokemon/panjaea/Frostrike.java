@@ -58,7 +58,7 @@ import java.util.*;
 public class Frostrike extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frostrike() {
         super("Frostrike",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Flamfluff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flamfluff() {
         super("Flufflame",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(55,
                         55,
                         65,

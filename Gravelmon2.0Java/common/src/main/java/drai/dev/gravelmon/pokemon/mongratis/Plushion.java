@@ -58,7 +58,7 @@ import java.util.*;
 public class Plushion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plushion() {
         super("Plushion",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

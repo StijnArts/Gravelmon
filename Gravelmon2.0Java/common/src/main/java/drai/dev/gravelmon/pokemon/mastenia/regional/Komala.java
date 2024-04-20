@@ -58,7 +58,7 @@ import java.util.*;
 public class Komala extends drai.dev.gravelmon.pokemon.Pokemon {
     public Komala(int dex) {
         super(dex, "Komala",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

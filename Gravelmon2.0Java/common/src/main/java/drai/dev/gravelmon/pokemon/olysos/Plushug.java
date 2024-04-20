@@ -58,7 +58,7 @@ import java.util.*;
 public class Plushug extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plushug() {
         super("Plushug",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

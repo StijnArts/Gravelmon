@@ -11,7 +11,7 @@ import java.util.*;
 public class Psyren extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psyren() {
         super("Psyren",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(93,
                         65,
                         72,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Musiquail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Musiquail() {
         super("Musiquail",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

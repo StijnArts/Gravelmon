@@ -9,7 +9,7 @@ import java.util.*;
 public class Fluffaux extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fluffaux() {
         super("Fluffaux",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(48,
                         25,
                         45,

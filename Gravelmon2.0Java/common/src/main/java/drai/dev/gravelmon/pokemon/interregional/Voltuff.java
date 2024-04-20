@@ -7,7 +7,7 @@ import java.util.*;
 public class Voltuff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Voltuff() {
         super("Voltuff",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

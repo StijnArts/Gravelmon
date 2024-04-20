@@ -8,7 +8,7 @@ import java.util.*;
 public class Panome extends drai.dev.gravelmon.pokemon.Pokemon {
     public Panome() {
         super("Panome",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(90,
                         30,
                         80,
@@ -17,7 +17,7 @@ public class Panome extends drai.dev.gravelmon.pokemon.Pokemon {
                         40),
                 List.of(Ability.FLOWER_VEIL,Ability.SAP_SIPPER), Ability.CHLOROPHYLL,
                 7, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 130,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

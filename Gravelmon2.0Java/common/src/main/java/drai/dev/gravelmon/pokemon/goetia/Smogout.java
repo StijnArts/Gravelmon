@@ -58,7 +58,7 @@ import java.util.*;
 public class Smogout extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smogout() {
         super("Smogout",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(0,
                         0,
                         0,

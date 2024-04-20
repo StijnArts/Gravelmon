@@ -58,7 +58,7 @@ import java.util.*;
 public class Pidgey extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pidgey(int dex) {
         super(dex, "Pidgey",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(40,
                         45,
                         40,

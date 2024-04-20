@@ -8,7 +8,7 @@ import java.util.*;
 public class Grandowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grandowl() {
         super("Grandowl",
-                Type.FLYING,Type.PSYCHIC,
+                Type.FLYING, Type.PSYCHIC,
                 new Stats(48,
                         15,
                         45,

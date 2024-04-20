@@ -7,7 +7,7 @@ import java.util.*;
 public class Explodent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Explodent() {
         super("Explodent",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(96,
                         118,
                         105,

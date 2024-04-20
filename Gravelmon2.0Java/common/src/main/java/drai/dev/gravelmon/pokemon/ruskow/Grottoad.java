@@ -58,7 +58,7 @@ import java.util.*;
 public class Grottoad extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grottoad() {
         super("Grottoad",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(0,
                         0,
                         0,

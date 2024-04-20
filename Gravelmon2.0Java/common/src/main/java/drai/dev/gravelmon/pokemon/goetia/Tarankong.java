@@ -58,7 +58,7 @@ import java.util.*;
 public class Tarankong extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tarankong() {
         super("Tarankong",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(0,
                         0,
                         0,

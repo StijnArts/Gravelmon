@@ -58,7 +58,7 @@ import java.util.*;
 public class Swinub extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swinub(int dex) {
         super(dex, "Swinub",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(50,
                         50,
                         40,

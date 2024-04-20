@@ -9,7 +9,7 @@ import java.util.*;
 public class Poisapine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poisapine() {
         super("Poisapine",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(55,
                         50,
                         105,

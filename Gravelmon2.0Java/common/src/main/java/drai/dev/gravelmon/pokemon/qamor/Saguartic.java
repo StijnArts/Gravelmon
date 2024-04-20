@@ -9,7 +9,7 @@ import java.util.*;
 public class Saguartic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Saguartic() {
         super("Saguartic",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(100,
                         86,
                         108,

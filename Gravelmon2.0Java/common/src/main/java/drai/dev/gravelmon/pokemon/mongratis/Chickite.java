@@ -58,7 +58,7 @@ import java.util.*;
 public class Chickite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chickite() {
         super("Chickite",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

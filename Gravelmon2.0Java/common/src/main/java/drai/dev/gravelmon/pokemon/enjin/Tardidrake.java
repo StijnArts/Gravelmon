@@ -58,7 +58,7 @@ import java.util.*;
 public class Tardidrake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tardidrake() {
         super("Tardidrake",
-                Type.DRAGON,Type.GROUND,
+                Type.DRAGON, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

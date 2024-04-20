@@ -9,7 +9,7 @@ import java.util.*;
 public class Meerii extends drai.dev.gravelmon.pokemon.Pokemon {
     public Meerii() {
         super("Meerii",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(60,
                         90,
                         60,

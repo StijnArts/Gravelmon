@@ -9,7 +9,7 @@ import java.util.*;
 public class Delphair extends drai.dev.gravelmon.pokemon.Pokemon {
     public Delphair() {
         super("Delphair",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(65,
                         55,
                         55,

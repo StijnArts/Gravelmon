@@ -58,7 +58,7 @@ import java.util.*;
 public class Herocust extends drai.dev.gravelmon.pokemon.Pokemon {
     public Herocust() {
         super("Herocust",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Konchore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Konchore() {
         super("Konchore",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

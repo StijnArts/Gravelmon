@@ -58,7 +58,7 @@ import java.util.*;
 public class Blazelle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blazelle() {
         super("Blazelle",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

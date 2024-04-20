@@ -58,7 +58,7 @@ import java.util.*;
 public class Lumiscent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumiscent() {
         super("Lumiscent",
-                Type.GRASS,Type.LIGHT,
+                Type.GRASS, Type.LIGHT,
                 new Stats(75,
                         80,
                         65,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Armadealo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Armadealo() {
         super("Armadealo",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(80,
                         94,
                         102,

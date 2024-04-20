@@ -58,7 +58,7 @@ import java.util.*;
 public class Harpiveran extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harpiveran() {
         super("Harpiveran",
-                Type.GHOST,Type.DRAGON,
+                Type.GHOST, Type.DRAGON,
                 new Stats(120,
                         100,
                         100,

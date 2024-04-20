@@ -58,7 +58,7 @@ import java.util.*;
 public class Miralide extends drai.dev.gravelmon.pokemon.Pokemon {
     public Miralide() {
         super("Miralide",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(126,
                         62,
                         70,

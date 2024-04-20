@@ -58,7 +58,7 @@ import java.util.*;
 public class Fatalis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fatalis() {
         super("Fatalis",
-                Type.DRAGON,Type.FIRE,
+                Type.DRAGON, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

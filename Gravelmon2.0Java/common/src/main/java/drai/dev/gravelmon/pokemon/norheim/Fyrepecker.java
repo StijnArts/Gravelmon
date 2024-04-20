@@ -9,7 +9,7 @@ import java.util.*;
 public class Fyrepecker extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fyrepecker() {
         super("Fyrepecker",
-                Type.FLYING,Type.FIRE,
+                Type.FLYING, Type.FIRE,
                 new Stats(65,
                         115,
                         65,

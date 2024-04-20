@@ -58,7 +58,7 @@ import java.util.*;
 public class Resurexor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Resurexor() {
         super("Resurexor",
-                Type.DRAGON,Type.GROUND,
+                Type.DRAGON, Type.GROUND,
                 new Stats(96,
                         126,
                         96,

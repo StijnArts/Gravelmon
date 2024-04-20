@@ -8,7 +8,7 @@ import java.util.*;
 public class Sproutrop extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sproutrop() {
         super("Sproutrop",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(104,
                         64,
                         64,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Rhinolition extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rhinolition() {
         super("Rhinolition",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(95,
                         112,
                         65,

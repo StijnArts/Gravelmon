@@ -7,7 +7,7 @@ import java.util.*;
 public class Broogah extends drai.dev.gravelmon.pokemon.Pokemon {
     public Broogah() {
         super("Broogah",
-                Type.FIGHTING,Type.ROCK,
+                Type.FIGHTING, Type.ROCK,
                 new Stats(70,
                         80,
                         110,

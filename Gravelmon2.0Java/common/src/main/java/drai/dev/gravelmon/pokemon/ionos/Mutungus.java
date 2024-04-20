@@ -58,7 +58,7 @@ import java.util.*;
 public class Mutungus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mutungus() {
         super("Mutungus",
-                Type.POISON,Type.GRASS,
+                Type.POISON, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

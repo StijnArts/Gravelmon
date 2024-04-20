@@ -58,7 +58,7 @@ import java.util.*;
 public class Faigalope extends drai.dev.gravelmon.pokemon.Pokemon {
     public Faigalope() {
         super("Faigalope",
-                Type.FIRE,Type.FIGHTING,
+                Type.FIRE, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

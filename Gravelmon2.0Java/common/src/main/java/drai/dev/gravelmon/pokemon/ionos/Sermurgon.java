@@ -58,7 +58,7 @@ import java.util.*;
 public class Sermurgon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sermurgon() {
         super("Sermurgon",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Jarmalade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jarmalade() {
         super("Jarmalade",
-                Type.FAIRY,Type.GROUND,
+                Type.FAIRY, Type.GROUND,
                 new Stats(55,
                         45,
                         100,

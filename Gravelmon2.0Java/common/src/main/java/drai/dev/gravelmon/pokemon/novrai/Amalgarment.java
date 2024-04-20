@@ -7,7 +7,7 @@ import java.util.*;
 public class Amalgarment extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amalgarment() {
         super("Amalgarment",
-                Type.NORMAL,Type.ELECTRIC,
+                Type.NORMAL, Type.ELECTRIC,
                 new Stats(105,
                         85,
                         85,

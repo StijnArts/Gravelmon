@@ -7,7 +7,7 @@ import java.util.*;
 public class Bulbright extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bulbright() {
         super("Bulbright",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(55,
                         30,
                         65,

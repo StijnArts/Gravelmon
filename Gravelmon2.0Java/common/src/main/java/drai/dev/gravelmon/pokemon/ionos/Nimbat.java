@@ -58,7 +58,7 @@ import java.util.*;
 public class Nimbat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nimbat() {
         super("Nimbat",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(62,
                         60,
                         75,

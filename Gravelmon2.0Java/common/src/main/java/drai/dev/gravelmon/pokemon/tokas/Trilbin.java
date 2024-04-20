@@ -58,7 +58,7 @@ import java.util.*;
 public class Trilbin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trilbin() {
         super("Trilbin",
-                Type.FLYING,Type.NORMAL,
+                Type.FLYING, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

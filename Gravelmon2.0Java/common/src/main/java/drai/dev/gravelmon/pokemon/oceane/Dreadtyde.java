@@ -7,7 +7,7 @@ import java.util.*;
 public class Dreadtyde extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dreadtyde() {
         super("Dreadtyde",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(105,
                         90,
                         100,

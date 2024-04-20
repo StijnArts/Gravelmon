@@ -58,7 +58,7 @@ import java.util.*;
 public class Miserooze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Miserooze() {
         super("Miserooze",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

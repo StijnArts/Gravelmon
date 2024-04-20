@@ -58,7 +58,7 @@ import java.util.*;
 public class Freyurr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Freyurr() {
         super("Freyurr",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(70,
                         70,
                         60,

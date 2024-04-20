@@ -58,7 +58,7 @@ import java.util.*;
 public class Newtint extends drai.dev.gravelmon.pokemon.Pokemon {
     public Newtint() {
         super("Newtint",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(70,
                         60,
                         80,

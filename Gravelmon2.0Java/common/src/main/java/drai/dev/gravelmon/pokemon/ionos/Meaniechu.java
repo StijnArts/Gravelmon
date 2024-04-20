@@ -58,7 +58,7 @@ import java.util.*;
 public class Meaniechu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Meaniechu() {
         super("Meaniechu",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(60,
                         96,
                         55,

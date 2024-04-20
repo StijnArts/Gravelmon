@@ -58,7 +58,7 @@ import java.util.*;
 public class Behemoa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Behemoa() {
         super("Behemoa",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

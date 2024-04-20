@@ -9,7 +9,7 @@ import java.util.*;
 public class Intelix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Intelix() {
         super("Intelix",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(100,
                         100,
                         100,

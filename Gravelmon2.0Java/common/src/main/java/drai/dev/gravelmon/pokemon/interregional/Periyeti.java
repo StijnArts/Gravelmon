@@ -7,7 +7,7 @@ import java.util.*;
 public class Periyeti extends drai.dev.gravelmon.pokemon.Pokemon {
     public Periyeti() {
         super("Periyeti",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(100,
                         135,
                         75,

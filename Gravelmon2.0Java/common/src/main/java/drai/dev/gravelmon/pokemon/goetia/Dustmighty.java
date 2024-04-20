@@ -58,7 +58,7 @@ import java.util.*;
 public class Dustmighty extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dustmighty() {
         super("Dustmighty",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(0,
                         0,
                         0,

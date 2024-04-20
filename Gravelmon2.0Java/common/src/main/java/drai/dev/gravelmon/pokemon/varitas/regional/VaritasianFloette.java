@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianFloette extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianFloette(int dex) {
         super(dex, "Floette",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(54,
                         45,
                         47,

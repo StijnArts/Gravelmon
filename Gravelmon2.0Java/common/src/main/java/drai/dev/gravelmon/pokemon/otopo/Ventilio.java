@@ -58,7 +58,7 @@ import java.util.*;
 public class Ventilio extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ventilio() {
         super("Ventilio",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(50,
                         67,
                         43,

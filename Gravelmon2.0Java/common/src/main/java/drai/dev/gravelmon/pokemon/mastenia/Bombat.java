@@ -58,7 +58,7 @@ import java.util.*;
 public class Bombat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bombat() {
         super("Bombat",
-                Type.NORMAL,Type.FIRE,
+                Type.NORMAL, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

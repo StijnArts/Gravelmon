@@ -7,7 +7,7 @@ import java.util.*;
 public class Mambaboo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mambaboo() {
         super("Mambaboo",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(81,
                         65,
                         67,

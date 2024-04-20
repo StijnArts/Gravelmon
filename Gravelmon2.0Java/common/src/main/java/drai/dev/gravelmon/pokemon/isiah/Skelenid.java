@@ -7,7 +7,7 @@ import java.util.*;
 public class Skelenid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skelenid() {
         super("Skelenid",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

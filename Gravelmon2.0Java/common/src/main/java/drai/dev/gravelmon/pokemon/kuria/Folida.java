@@ -58,7 +58,7 @@ import java.util.*;
 public class Folida extends drai.dev.gravelmon.pokemon.Pokemon {
     public Folida() {
         super("Folida",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(58,
                         75,
                         50,

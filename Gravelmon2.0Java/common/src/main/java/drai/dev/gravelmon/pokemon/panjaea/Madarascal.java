@@ -58,7 +58,7 @@ import java.util.*;
 public class Madarascal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Madarascal() {
         super("Madarascal",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,
                         0,

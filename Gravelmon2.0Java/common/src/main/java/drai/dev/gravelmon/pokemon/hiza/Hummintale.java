@@ -7,7 +7,7 @@ import java.util.*;
 public class Hummintale extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hummintale() {
         super("Hummintale",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(50,
                         40,
                         50,

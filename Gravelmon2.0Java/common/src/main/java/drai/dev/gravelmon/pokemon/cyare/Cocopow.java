@@ -58,7 +58,7 @@ import java.util.*;
 public class Cocopow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cocopow() {
         super("Cocopow",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(50,
                         65,
                         130,
@@ -132,8 +132,8 @@ public class Cocopow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SEED_BOMB,"tm")                        ),
                 List.of(Label.CYARE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 31, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

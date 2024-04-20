@@ -10,7 +10,7 @@ import java.util.*;
 public class DeltaArcanine extends Pokemon {
     public DeltaArcanine(int dexNo) {
         super(dexNo,"DeltaArcanine",
-                Type.NORMAL,Type.DRAGON,
+                Type.NORMAL, Type.DRAGON,
                 new Stats(90, 110, 80, 100, 80, 95),
                 List.of(Ability.INNER_FOCUS,Ability.INTIMIDATE), Ability.MULTISCALE,
                 7, 190,

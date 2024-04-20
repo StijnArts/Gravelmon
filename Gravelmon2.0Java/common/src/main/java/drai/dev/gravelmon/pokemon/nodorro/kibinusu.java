@@ -58,7 +58,7 @@ import java.util.*;
 public class kibinusu extends drai.dev.gravelmon.pokemon.Pokemon {
     public kibinusu() {
         super("kibinusu",
-                Type.ELECTRIC,Type.LIGHT,
+                Type.ELECTRIC, Type.LIGHT,
                 new Stats(60,
                         85,
                         45,

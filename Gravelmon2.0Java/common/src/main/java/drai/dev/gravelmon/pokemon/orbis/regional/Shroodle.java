@@ -58,7 +58,7 @@ import java.util.*;
 public class Shroodle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shroodle(int dex) {
         super(dex, "Shroodle",
-                Type.POISON,Type.NORMAL,
+                Type.POISON, Type.NORMAL,
                 new Stats(40,
                         65,
                         35,

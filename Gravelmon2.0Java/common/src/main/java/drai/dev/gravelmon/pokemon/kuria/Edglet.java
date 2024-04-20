@@ -58,7 +58,7 @@ import java.util.*;
 public class Edglet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Edglet() {
         super("Edglet",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(48,
                         67,
                         50,

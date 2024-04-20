@@ -58,7 +58,7 @@ import java.util.*;
 public class Chillowisp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chillowisp() {
         super("Chillowisp",
-                Type.ICE,Type.FIRE,
+                Type.ICE, Type.FIRE,
                 new Stats(70,
                         60,
                         65,

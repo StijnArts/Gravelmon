@@ -58,7 +58,7 @@ import java.util.*;
 public class Nepolyp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nepolyp() {
         super("Nepolyp",
-                Type.POISON,Type.GRASS,
+                Type.POISON, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

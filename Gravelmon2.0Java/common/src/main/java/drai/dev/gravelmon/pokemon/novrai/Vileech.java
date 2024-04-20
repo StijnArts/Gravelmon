@@ -7,7 +7,7 @@ import java.util.*;
 public class Vileech extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vileech() {
         super("Vileech",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(55,
                         55,
                         40,

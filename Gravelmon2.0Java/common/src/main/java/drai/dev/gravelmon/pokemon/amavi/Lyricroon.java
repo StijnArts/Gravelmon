@@ -8,7 +8,7 @@ import java.util.*;
 public class Lyricroon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lyricroon() {
         super("Lyricroon",
-                Type.FLYING,Type.STEEL,
+                Type.FLYING, Type.STEEL,
                 new Stats(70,
                         50,
                         120,
@@ -17,7 +17,7 @@ public class Lyricroon extends drai.dev.gravelmon.pokemon.Pokemon {
                         70),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 9, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Canopeace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Canopeace() {
         super("Canopeace",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(125,
                         20,
                         100,

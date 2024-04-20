@@ -7,7 +7,7 @@ import java.util.*;
 public class Raptorado extends drai.dev.gravelmon.pokemon.Pokemon {
     public Raptorado() {
         super("Raptorado",
-                Type.GROUND,Type.FLYING,
+                Type.GROUND, Type.FLYING,
                 new Stats(78,
                         124,
                         75,

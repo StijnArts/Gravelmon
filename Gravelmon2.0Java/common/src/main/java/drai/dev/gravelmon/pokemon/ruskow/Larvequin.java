@@ -58,7 +58,7 @@ import java.util.*;
 public class Larvequin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larvequin() {
         super("Larvequin",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(0,
                         0,
                         0,

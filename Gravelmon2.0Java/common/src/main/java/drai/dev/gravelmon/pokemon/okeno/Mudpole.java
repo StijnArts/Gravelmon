@@ -6,7 +6,7 @@ import java.util.*;
 public class Mudpole extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mudpole() {
         super("Mudpole",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(52,
                         52,
                         42,

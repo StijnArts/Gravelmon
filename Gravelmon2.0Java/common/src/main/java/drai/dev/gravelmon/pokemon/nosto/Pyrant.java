@@ -7,7 +7,7 @@ import java.util.*;
 public class Pyrant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyrant() {
         super("Pyrant",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(35,
                         45,
                         38,

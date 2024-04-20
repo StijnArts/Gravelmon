@@ -58,7 +58,7 @@ import java.util.*;
 public class Taurion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Taurion() {
         super("Taurion",
-                Type.STEEL,Type.ICE,
+                Type.STEEL, Type.ICE,
                 new Stats(0,
                         0,
                         0,

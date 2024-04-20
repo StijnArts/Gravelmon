@@ -58,7 +58,7 @@ import java.util.*;
 public class Swanna extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swanna(int dex) {
         super(dex, "Swanna",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(75,
                         87,
                         63,

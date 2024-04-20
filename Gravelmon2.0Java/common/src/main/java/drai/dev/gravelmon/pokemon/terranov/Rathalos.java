@@ -58,7 +58,7 @@ import java.util.*;
 public class Rathalos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rathalos() {
         super("Rathalos",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(80,
                         100,
                         70,

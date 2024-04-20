@@ -9,7 +9,7 @@ import java.util.*;
 public class Kirinirik extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kirinirik() {
         super("Kirinirik",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

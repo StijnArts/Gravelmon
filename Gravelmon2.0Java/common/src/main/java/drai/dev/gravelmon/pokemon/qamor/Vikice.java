@@ -9,7 +9,7 @@ import java.util.*;
 public class Vikice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vikice() {
         super("Vikice",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(78,
                         117,
                         105,

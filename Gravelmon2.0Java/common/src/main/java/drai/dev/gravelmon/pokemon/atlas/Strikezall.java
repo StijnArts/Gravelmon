@@ -7,7 +7,7 @@ import java.util.*;
 public class Strikezall extends drai.dev.gravelmon.pokemon.Pokemon {
     public Strikezall() {
         super("Strikezall",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(88,
                         103,
                         88,

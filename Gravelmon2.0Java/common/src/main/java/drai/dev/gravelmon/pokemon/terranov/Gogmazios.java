@@ -58,7 +58,7 @@ import java.util.*;
 public class Gogmazios extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gogmazios() {
         super("Gogmazios",
-                Type.DARK,Type.STEEL,
+                Type.DARK, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

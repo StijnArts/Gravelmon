@@ -58,7 +58,7 @@ import java.util.*;
 public class Wimpod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wimpod(int dex) {
         super(dex, "Wimpod",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(25,
                         35,
                         40,

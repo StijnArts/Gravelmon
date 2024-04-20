@@ -7,7 +7,7 @@ import java.util.*;
 public class Novil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Novil() {
         super("Novil",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(75,
                         30,
                         70,

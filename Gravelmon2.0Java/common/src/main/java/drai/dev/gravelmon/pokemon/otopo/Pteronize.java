@@ -58,7 +58,7 @@ import java.util.*;
 public class Pteronize extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pteronize() {
         super("Pteronize",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(0,
                         0,
                         0,

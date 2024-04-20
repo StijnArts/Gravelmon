@@ -58,7 +58,7 @@ import java.util.*;
 public class Donguana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Donguana() {
         super("Donguana",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

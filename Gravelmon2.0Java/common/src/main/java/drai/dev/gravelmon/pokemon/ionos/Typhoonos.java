@@ -58,7 +58,7 @@ import java.util.*;
 public class Typhoonos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Typhoonos() {
         super("Typhoonos",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

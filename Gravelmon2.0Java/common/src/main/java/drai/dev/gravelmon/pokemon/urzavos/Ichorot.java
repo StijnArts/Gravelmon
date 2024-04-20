@@ -58,7 +58,7 @@ import java.util.*;
 public class Ichorot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ichorot() {
         super("Ichorot",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(100,
                         60,
                         70,

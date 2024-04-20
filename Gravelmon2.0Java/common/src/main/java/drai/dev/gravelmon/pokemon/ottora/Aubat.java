@@ -58,7 +58,7 @@ import java.util.*;
 public class Aubat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aubat() {
         super("Aubat",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(40,
                         30,
                         75,

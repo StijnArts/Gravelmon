@@ -58,7 +58,7 @@ import java.util.*;
 public class Folfaun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Folfaun() {
         super("Folfaun",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

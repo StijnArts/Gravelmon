@@ -7,7 +7,7 @@ import java.util.*;
 public class Aeracer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aeracer() {
         super("Aeracer",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(50,
                         60,
                         50,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Moosid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moosid() {
         super("Moosid",
-                Type.DARK,Type.NORMAL,
+                Type.DARK, Type.NORMAL,
                 new Stats(105,
                         73,
                         105,

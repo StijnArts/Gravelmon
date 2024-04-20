@@ -7,7 +7,7 @@ import java.util.*;
 public class Enkroach extends drai.dev.gravelmon.pokemon.Pokemon {
     public Enkroach() {
         super("Enkroach",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(80,
                         52,
                         93,

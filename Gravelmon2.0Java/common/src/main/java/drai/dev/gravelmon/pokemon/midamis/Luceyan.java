@@ -9,7 +9,7 @@ import java.util.*;
 public class Luceyan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Luceyan() {
         super("Luceyan",
-                Type.DARK,Type.DRAGON,
+                Type.DARK, Type.DRAGON,
                 new Stats(100,
                         125,
                         100,

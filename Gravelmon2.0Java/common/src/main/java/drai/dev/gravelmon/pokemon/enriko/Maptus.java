@@ -7,7 +7,7 @@ import java.util.*;
 public class Maptus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maptus() {
         super("Maptus",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(60,
                         70,
                         60,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Grannole extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grannole() {
         super("Grannole",
-                Type.DARK,Type.GROUND,
+                Type.DARK, Type.GROUND,
                 new Stats(110,
                         120,
                         90,

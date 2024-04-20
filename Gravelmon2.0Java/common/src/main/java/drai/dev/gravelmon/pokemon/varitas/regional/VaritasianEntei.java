@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianEntei extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianEntei(int dex) {
         super(dex,"Entei",
-                Type.FAIRY,Type.FIRE,
+                Type.FAIRY, Type.FIRE,
                 new Stats(115,
                         115,
                         85,

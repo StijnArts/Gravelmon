@@ -58,7 +58,7 @@ import java.util.*;
 public class Marill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marill(int dex) {
         super(dex, "Marill",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(70,
                         20,
                         50,

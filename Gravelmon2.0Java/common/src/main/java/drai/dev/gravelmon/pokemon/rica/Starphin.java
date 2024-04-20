@@ -9,7 +9,7 @@ import java.util.*;
 public class Starphin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Starphin() {
         super("Starphin",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(50,
                         44,
                         40,

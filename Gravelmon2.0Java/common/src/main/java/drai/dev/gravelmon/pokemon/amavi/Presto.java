@@ -8,7 +8,7 @@ import java.util.*;
 public class Presto extends drai.dev.gravelmon.pokemon.Pokemon {
     public Presto() {
         super("Presto",
-                Type.PSYCHIC,Type.DARK,
+                Type.PSYCHIC, Type.DARK,
                 new Stats(60,
                         45,
                         50,
@@ -17,7 +17,7 @@ public class Presto extends drai.dev.gravelmon.pokemon.Pokemon {
                         117),
                 List.of(Ability.MAGICIAN,Ability.MAGIC_GUARD), Ability.SUPER_LUCK,
                 15, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,

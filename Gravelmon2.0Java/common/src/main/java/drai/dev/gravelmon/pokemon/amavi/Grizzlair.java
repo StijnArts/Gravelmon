@@ -8,7 +8,7 @@ import java.util.*;
 public class Grizzlair extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grizzlair() {
         super("Grizzlair",
-                Type.FIGHTING,Type.BUG,
+                Type.FIGHTING, Type.BUG,
                 new Stats(88,
                         140,
                         122,
@@ -17,7 +17,7 @@ public class Grizzlair extends drai.dev.gravelmon.pokemon.Pokemon {
                         102),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 16, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 80,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

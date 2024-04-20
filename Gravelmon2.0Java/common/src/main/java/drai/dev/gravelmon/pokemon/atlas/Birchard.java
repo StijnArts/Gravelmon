@@ -9,7 +9,7 @@ import java.util.*;
 public class Birchard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Birchard() {
         super("Birchard",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(105,
                         90,
                         140,

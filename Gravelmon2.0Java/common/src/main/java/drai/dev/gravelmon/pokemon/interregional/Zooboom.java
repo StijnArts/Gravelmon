@@ -7,7 +7,7 @@ import java.util.*;
 public class Zooboom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zooboom() {
         super("Zooboom",
-                Type.ELECTRIC,Type.FIRE,
+                Type.ELECTRIC, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

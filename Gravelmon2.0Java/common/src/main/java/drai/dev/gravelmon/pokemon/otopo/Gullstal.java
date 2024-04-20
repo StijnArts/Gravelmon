@@ -58,7 +58,7 @@ import java.util.*;
 public class Gullstal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gullstal() {
         super("Gullstal",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(40,
                         30,
                         30,

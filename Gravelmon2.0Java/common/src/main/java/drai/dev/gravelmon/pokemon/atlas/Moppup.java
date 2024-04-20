@@ -7,7 +7,7 @@ import java.util.*;
 public class Moppup extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moppup() {
         super("Moppup",
-                Type.NORMAL,Type.WATER,
+                Type.NORMAL, Type.WATER,
                 new Stats(65,
                         50,
                         50,

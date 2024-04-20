@@ -58,7 +58,7 @@ import java.util.*;
 public class Maningauz extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maningauz() {
         super("Maningauz",
-                Type.GHOST,Type.FIGHTING,
+                Type.GHOST, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

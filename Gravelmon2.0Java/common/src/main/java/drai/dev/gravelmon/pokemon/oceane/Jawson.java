@@ -7,7 +7,7 @@ import java.util.*;
 public class Jawson extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jawson() {
         super("Jawson",
-                Type.STEEL,Type.DARK,
+                Type.STEEL, Type.DARK,
                 new Stats(67,
                         113,
                         42,

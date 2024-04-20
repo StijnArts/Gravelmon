@@ -7,7 +7,7 @@ import java.util.*;
 public class Crustgeist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crustgeist() {
         super("Crustgeist",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(70,
                         135,
                         50,

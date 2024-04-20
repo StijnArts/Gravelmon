@@ -9,7 +9,7 @@ import java.util.*;
 public class Corvhugen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Corvhugen() {
         super("Corvhugen",
-                Type.FLYING,Type.FIGHTING,
+                Type.FLYING, Type.FIGHTING,
                 new Stats(74,
                         115,
                         81,

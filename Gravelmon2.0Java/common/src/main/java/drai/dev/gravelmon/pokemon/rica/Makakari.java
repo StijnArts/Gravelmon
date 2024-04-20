@@ -9,7 +9,7 @@ import java.util.*;
 public class Makakari extends drai.dev.gravelmon.pokemon.Pokemon {
     public Makakari() {
         super("Makakari",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(80,
                         105,
                         70,

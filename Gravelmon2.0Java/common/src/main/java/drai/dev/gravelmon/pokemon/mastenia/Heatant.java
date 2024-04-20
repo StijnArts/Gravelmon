@@ -58,7 +58,7 @@ import java.util.*;
 public class Heatant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Heatant() {
         super("Heatant",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

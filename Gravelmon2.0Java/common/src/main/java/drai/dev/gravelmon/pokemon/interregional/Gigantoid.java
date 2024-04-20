@@ -7,7 +7,7 @@ import java.util.*;
 public class Gigantoid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gigantoid() {
         super("Gigantoid",
-                Type.GROUND,Type.FLYING,
+                Type.GROUND, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Jestar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jestar() {
         super("Jestar",
-                Type.PSYCHIC,Type.ROCK,
+                Type.PSYCHIC, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

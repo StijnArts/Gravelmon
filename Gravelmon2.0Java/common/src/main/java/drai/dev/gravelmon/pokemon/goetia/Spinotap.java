@@ -58,7 +58,7 @@ import java.util.*;
 public class Spinotap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spinotap() {
         super("Spinotap",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(0,
                         0,
                         0,

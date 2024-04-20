@@ -7,7 +7,7 @@ import java.util.*;
 public class Pekaboo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pekaboo() {
         super("Pekaboo",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(25,
                         60,
                         25,

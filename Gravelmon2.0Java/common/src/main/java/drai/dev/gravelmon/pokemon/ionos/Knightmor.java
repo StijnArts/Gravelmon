@@ -58,7 +58,7 @@ import java.util.*;
 public class Knightmor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Knightmor() {
         super("Knightmor",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(80,
                         109,
                         100,

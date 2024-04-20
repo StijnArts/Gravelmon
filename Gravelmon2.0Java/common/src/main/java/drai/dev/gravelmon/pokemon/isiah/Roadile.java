@@ -7,7 +7,7 @@ import java.util.*;
 public class Roadile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roadile() {
         super("Roadile",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(45,
                         60,
                         45,

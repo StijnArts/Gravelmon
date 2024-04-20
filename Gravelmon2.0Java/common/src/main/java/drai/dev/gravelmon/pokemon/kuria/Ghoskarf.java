@@ -58,7 +58,7 @@ import java.util.*;
 public class Ghoskarf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ghoskarf() {
         super("Ghoskarf",
-                Type.GHOST,Type.ICE,
+                Type.GHOST, Type.ICE,
                 new Stats(51,
                         92,
                         60,

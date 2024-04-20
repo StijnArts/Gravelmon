@@ -8,7 +8,7 @@ import java.util.*;
 public class Genbrisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Genbrisk() {
         super("Genbrisk",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Ostoe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ostoe() {
         super("Ostoe",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(45,
                         70,
                         50,

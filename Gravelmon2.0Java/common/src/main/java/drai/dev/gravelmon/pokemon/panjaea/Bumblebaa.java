@@ -58,7 +58,7 @@ import java.util.*;
 public class Bumblebaa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bumblebaa() {
         super("Bumblebaa",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(0,
                         0,
                         0,

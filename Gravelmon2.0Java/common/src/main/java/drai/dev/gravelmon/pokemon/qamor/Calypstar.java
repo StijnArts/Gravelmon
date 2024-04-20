@@ -9,7 +9,7 @@ import java.util.*;
 public class Calypstar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Calypstar() {
         super("Calypstar",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(112,
                         72,
                         72,

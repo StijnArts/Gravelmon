@@ -9,7 +9,7 @@ import java.util.*;
 public class Fencette extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fencette() {
         super("Fencette",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(85,
                         105,
                         80,

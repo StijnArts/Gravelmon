@@ -58,7 +58,7 @@ import java.util.*;
 public class Hikoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hikoon() {
         super("Hikoon",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

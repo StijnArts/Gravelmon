@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanSigilyph extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanSigilyph() {
         super("Sigilyph",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

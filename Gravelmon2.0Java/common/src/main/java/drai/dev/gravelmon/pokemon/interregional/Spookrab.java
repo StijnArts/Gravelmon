@@ -7,7 +7,7 @@ import java.util.*;
 public class Spookrab extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spookrab() {
         super("Spookrab",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(60,
                         100,
                         20,

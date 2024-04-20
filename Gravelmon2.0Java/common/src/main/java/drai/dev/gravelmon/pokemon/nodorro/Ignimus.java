@@ -58,7 +58,7 @@ import java.util.*;
 public class Ignimus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ignimus() {
         super("Ignimus",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(70,
                         64,
                         51,

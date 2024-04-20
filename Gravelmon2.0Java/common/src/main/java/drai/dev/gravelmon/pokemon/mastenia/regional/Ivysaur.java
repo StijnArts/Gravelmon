@@ -58,7 +58,7 @@ import java.util.*;
 public class Ivysaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ivysaur(int dex) {
         super(dex, "Ivysaur",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,
                         0,

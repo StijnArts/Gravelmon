@@ -58,7 +58,7 @@ import java.util.*;
 public class Ostretch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ostretch() {
         super("Ostretch",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(70,
                         105,
                         75,

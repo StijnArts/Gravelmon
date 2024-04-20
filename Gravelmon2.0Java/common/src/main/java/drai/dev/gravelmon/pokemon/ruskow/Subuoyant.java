@@ -58,7 +58,7 @@ import java.util.*;
 public class Subuoyant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Subuoyant() {
         super("Subuoyant",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

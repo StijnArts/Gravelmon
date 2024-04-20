@@ -9,7 +9,7 @@ import java.util.*;
 public class Sambranaust extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sambranaust() {
         super("Sambranaust",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(95,
                         85,
                         125,

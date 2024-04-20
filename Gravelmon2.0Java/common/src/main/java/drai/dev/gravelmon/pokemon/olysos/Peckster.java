@@ -58,7 +58,7 @@ import java.util.*;
 public class Peckster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peckster() {
         super("Peckster",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(50,
                         35,
                         30,

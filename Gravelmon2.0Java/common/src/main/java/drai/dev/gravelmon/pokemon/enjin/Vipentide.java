@@ -58,7 +58,7 @@ import java.util.*;
 public class Vipentide extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vipentide() {
         super("Vipentide",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(110,
                         70,
                         100,
@@ -66,8 +66,8 @@ public class Vipentide extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         60),
                 List.of(Ability.SWIFT_SWIM,Ability.FEROCIOUS), Ability.MERCILESS,
-                0, 0,
-                new Stats(2,0,0,0,0,0), 0,
+                18, 0,
+                new Stats(2,0,0,0,0,0), 30,
                 0.5,
                 187, ExperienceGroup.SLOW,
                 70,
@@ -187,14 +187,15 @@ public class Vipentide extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 37, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Vipentide");
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

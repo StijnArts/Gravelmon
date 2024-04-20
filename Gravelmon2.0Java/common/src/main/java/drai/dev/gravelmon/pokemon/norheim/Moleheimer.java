@@ -9,7 +9,7 @@ import java.util.*;
 public class Moleheimer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moleheimer() {
         super("Moleheimer",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(83,
                         92,
                         80,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Stalagrunt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stalagrunt() {
         super("Stalagrunt",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(55,
                         75,
                         65,

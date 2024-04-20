@@ -7,7 +7,7 @@ import java.util.*;
 public class Threevilasks extends drai.dev.gravelmon.pokemon.Pokemon {
     public Threevilasks() {
         super("Threevilasks",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(130,
                         65,
                         100,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Atomix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Atomix() {
         super("Atomix",
-                Type.ELECTRIC,Type.GHOST,
+                Type.ELECTRIC, Type.GHOST,
                 new Stats(60,
                         50,
                         50,

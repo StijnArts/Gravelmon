@@ -7,7 +7,7 @@ import java.util.*;
 public class Nezutama extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nezutama() {
         super("Nezutama",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(98,
                         63,
                         96,

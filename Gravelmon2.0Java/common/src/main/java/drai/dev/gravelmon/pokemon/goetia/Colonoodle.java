@@ -58,7 +58,7 @@ import java.util.*;
 public class Colonoodle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Colonoodle() {
         super("Colonoodle",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(0,
                         0,
                         0,

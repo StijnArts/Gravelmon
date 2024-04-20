@@ -9,7 +9,7 @@ import java.util.*;
 public class Rupsen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rupsen() {
         super("Rupsen",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(98,
                         90,
                         100,

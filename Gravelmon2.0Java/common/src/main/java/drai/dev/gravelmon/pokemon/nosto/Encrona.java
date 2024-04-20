@@ -7,7 +7,7 @@ import java.util.*;
 public class Encrona extends drai.dev.gravelmon.pokemon.Pokemon {
     public Encrona() {
         super("Encrona",
-                Type.FAIRY,Type.STEEL,
+                Type.FAIRY, Type.STEEL,
                 new Stats(90,
                         41,
                         97,

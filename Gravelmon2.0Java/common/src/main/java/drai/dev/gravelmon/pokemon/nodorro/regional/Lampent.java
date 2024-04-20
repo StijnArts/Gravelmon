@@ -58,7 +58,7 @@ import java.util.*;
 public class Lampent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lampent(int dex) {
         super(dex, "Lampent",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(75,
                         45,
                         65,

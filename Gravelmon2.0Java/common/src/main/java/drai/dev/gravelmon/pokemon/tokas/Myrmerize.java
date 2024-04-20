@@ -58,7 +58,7 @@ import java.util.*;
 public class Myrmerize extends drai.dev.gravelmon.pokemon.Pokemon {
     public Myrmerize() {
         super("Myrmerize",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Abdominion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Abdominion() {
         super("Abdominion",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(77,
                         129,
                         77,

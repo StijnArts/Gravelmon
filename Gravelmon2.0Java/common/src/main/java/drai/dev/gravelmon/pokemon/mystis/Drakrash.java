@@ -58,7 +58,7 @@ import java.util.*;
 public class Drakrash extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drakrash() {
         super("Drakrash",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(80,
                         105,
                         80,

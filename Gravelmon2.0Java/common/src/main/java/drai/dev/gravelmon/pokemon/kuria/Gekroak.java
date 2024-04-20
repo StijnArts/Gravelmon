@@ -58,7 +58,7 @@ import java.util.*;
 public class Gekroak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gekroak() {
         super("Gekroak",
-                Type.WATER,Type.SOUND,
+                Type.WATER, Type.SOUND,
                 new Stats(64,
                         62,
                         72,

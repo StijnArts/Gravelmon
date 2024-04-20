@@ -7,7 +7,7 @@ import java.util.*;
 public class Palaeodox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palaeodox() {
         super("Palaeodox",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(105,
                         40,
                         68,

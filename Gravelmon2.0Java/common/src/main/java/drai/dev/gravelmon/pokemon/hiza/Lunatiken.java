@@ -7,7 +7,7 @@ import java.util.*;
 public class Lunatiken extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lunatiken() {
         super("Lunatiken",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(77,
                         73,
                         86,

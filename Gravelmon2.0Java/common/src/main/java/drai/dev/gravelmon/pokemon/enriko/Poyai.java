@@ -7,7 +7,7 @@ import java.util.*;
 public class Poyai extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poyai() {
         super("Poyai",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

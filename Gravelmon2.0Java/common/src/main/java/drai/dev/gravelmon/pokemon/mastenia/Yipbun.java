@@ -58,7 +58,7 @@ import java.util.*;
 public class Yipbun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yipbun() {
         super("Yipbun",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(60,
                         102,
                         60,

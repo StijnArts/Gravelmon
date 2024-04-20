@@ -58,7 +58,7 @@ import java.util.*;
 public class Pikipek extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pikipek(int dex) {
         super(dex, "Pikipek",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(35,
                         75,
                         30,

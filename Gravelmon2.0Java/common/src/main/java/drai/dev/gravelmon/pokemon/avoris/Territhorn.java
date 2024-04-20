@@ -13,7 +13,7 @@ import java.util.*;
 public class Territhorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Territhorn() {
         super("Territhorn",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

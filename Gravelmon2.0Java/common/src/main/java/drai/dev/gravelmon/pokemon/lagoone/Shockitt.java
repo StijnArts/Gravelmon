@@ -58,7 +58,7 @@ import java.util.*;
 public class Shockitt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shockitt() {
         super("Shockitt",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(40,
                         50,
                         45,

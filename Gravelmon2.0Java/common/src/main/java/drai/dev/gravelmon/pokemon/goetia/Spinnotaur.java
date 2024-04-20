@@ -58,7 +58,7 @@ import java.util.*;
 public class Spinnotaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spinnotaur() {
         super("Spinnotaur",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(0,
                         0,
                         0,

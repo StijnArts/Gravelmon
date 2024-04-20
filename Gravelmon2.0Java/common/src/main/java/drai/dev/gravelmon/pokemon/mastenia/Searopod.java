@@ -58,7 +58,7 @@ import java.util.*;
 public class Searopod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Searopod() {
         super("Searopod",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(107,
                         86,
                         102,

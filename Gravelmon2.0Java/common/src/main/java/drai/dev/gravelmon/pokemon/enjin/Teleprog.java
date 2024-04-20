@@ -67,12 +67,12 @@ public class Teleprog extends drai.dev.gravelmon.pokemon.Pokemon {
                         70),
                 List.of(Ability.SUPERPOSITION), Ability.SUPERPOSITION,
                 2, 10,
-                new Stats(0,0,0,0,0,1), 0,
+                new Stats(0,0,0,0,0,1), 110,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Added Oct 27 2021 Etymology: teleport + frog Placeholder moveset"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TELEPORT,1),
@@ -129,8 +129,9 @@ public class Teleprog extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHICNOISE,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

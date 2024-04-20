@@ -58,7 +58,7 @@ import java.util.*;
 public class Anemace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anemace() {
         super("Anemace",
-                Type.POISON,Type.FIGHTING,
+                Type.POISON, Type.FIGHTING,
                 new Stats(90,
                         100,
                         100,

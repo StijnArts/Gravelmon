@@ -58,7 +58,7 @@ import java.util.*;
 public class Gorgana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gorgana() {
         super("Gorgana",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Scarasoil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scarasoil() {
         super("Scarasoil",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(55,
                         40,
                         70,

@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianSteenee extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianSteenee(int dex) {
         super(dex, "Steenee",
-                Type.GHOST,Type.BUG,
+                Type.GHOST, Type.BUG,
                 new Stats(52,
                         40,
                         48,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Gnarlic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gnarlic() {
         super("Gnarlic",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(56,
                         61,
                         66,

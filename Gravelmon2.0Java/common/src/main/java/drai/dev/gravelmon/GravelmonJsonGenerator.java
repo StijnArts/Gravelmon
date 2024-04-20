@@ -3,6 +3,7 @@ package drai.dev.gravelmon;
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.jsonwriters.*;
 import drai.dev.gravelmon.pokemon.*;
+import net.minecraft.core.*;
 
 public class GravelmonJsonGenerator
 {
@@ -11,7 +12,7 @@ public class GravelmonJsonGenerator
     public static void run(String resourcesDir)
     {
         GameRegistry.registerGames();
-        Pokemon.scanEvolutions();
+        Pokemon.postRegistration();
         JSONOutputGenerator.generate(resourcesDir);
     }
 

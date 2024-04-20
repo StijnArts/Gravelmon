@@ -58,7 +58,7 @@ import java.util.*;
 public class Wizarda extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wizarda() {
         super("Wizarda",
-                Type.DARK,Type.PSYCHIC,
+                Type.DARK, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Volcunn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Volcunn() {
         super("Volcunn",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

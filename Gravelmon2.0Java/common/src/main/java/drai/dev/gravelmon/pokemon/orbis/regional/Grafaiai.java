@@ -58,7 +58,7 @@ import java.util.*;
 public class Grafaiai extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grafaiai(int dex) {
         super(dex, "Grafaiai",
-                Type.POISON,Type.NORMAL,
+                Type.POISON, Type.NORMAL,
                 new Stats(63,
                         95,
                         65,

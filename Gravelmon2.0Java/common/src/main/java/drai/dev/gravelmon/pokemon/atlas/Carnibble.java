@@ -7,7 +7,7 @@ import java.util.*;
 public class Carnibble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carnibble() {
         super("Carnibble",
-                Type.ROCK,Type.DARK,
+                Type.ROCK, Type.DARK,
                 new Stats(45,
                         80,
                         65,

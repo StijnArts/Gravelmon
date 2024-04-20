@@ -58,7 +58,7 @@ import java.util.*;
 public class Ferocidile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ferocidile() {
         super("Ferocidile",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

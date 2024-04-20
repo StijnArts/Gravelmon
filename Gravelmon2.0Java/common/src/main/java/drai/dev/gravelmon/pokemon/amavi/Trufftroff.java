@@ -8,7 +8,7 @@ import java.util.*;
 public class Trufftroff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trufftroff() {
         super("Trufftroff",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(110,
                         93,
                         88,
@@ -17,7 +17,7 @@ public class Trufftroff extends drai.dev.gravelmon.pokemon.Pokemon {
                         33),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 15, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

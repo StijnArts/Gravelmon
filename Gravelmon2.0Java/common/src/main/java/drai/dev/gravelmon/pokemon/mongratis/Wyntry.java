@@ -58,7 +58,7 @@ import java.util.*;
 public class Wyntry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wyntry() {
         super("Wyntry",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(0,
                         0,
                         0,

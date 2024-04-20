@@ -58,7 +58,7 @@ import java.util.*;
 public class Audhroch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Audhroch() {
         super("Audhroch",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

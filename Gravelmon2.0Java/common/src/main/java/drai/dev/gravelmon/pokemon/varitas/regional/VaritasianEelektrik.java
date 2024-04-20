@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianEelektrik extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianEelektrik(int dex) {
         super(dex,"Eelektrik",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(65,
                         85,
                         70,

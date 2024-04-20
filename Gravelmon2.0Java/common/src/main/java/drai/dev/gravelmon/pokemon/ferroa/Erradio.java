@@ -7,7 +7,7 @@ import java.util.*;
 public class Erradio extends drai.dev.gravelmon.pokemon.Pokemon {
     public Erradio() {
         super("Erradio",
-                Type.ELECTRIC,Type.POISON,
+                Type.ELECTRIC, Type.POISON,
                 new Stats(60,
                         45,
                         55,

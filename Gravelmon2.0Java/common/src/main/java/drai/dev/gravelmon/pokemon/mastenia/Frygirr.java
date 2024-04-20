@@ -58,7 +58,7 @@ import java.util.*;
 public class Frygirr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frygirr() {
         super("Frygirr",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

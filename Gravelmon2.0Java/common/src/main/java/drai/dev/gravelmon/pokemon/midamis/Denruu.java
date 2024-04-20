@@ -9,7 +9,7 @@ import java.util.*;
 public class Denruu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Denruu() {
         super("Denruu",
-                Type.PSYCHIC,Type.DARK,
+                Type.PSYCHIC, Type.DARK,
                 new Stats(95,
                         110,
                         60,

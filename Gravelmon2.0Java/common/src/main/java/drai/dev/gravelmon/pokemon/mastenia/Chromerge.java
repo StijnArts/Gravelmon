@@ -58,7 +58,7 @@ import java.util.*;
 public class Chromerge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chromerge() {
         super("Chromerge",
-                Type.STEEL,Type.GHOST,
+                Type.STEEL, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

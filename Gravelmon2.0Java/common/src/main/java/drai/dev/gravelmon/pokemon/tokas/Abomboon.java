@@ -58,7 +58,7 @@ import java.util.*;
 public class Abomboon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Abomboon() {
         super("Abomboon",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

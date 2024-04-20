@@ -6,7 +6,7 @@ import java.util.*;
 public class Albagross extends drai.dev.gravelmon.pokemon.Pokemon {
     public Albagross() {
         super("Albagross",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(88,
                         118,
                         84,

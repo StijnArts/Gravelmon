@@ -58,7 +58,7 @@ import java.util.*;
 public class Veilily extends drai.dev.gravelmon.pokemon.Pokemon {
     public Veilily() {
         super("Veilily",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(100,
                         75,
                         90,

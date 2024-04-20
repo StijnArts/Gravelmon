@@ -58,7 +58,7 @@ import java.util.*;
 public class Draphin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Draphin() {
         super("Draphin",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

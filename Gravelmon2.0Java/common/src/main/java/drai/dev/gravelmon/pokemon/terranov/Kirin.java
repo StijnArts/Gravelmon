@@ -58,7 +58,7 @@ import java.util.*;
 public class Kirin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kirin() {
         super("Kirin",
-                Type.ELECTRIC,Type.FAIRY,
+                Type.ELECTRIC, Type.FAIRY,
                 new Stats(60,
                         90,
                         80,

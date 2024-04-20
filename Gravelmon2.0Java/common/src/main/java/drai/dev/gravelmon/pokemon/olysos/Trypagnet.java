@@ -58,7 +58,7 @@ import java.util.*;
 public class Trypagnet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trypagnet() {
         super("Trypagnet",
-                Type.ROCK,Type.STEEL,
+                Type.ROCK, Type.STEEL,
                 new Stats(60,
                         80,
                         120,

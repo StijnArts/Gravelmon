@@ -7,7 +7,7 @@ import java.util.*;
 public class Skiito extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skiito() {
         super("Skiito",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(51,
                         112,
                         60,

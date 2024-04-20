@@ -58,7 +58,7 @@ import java.util.*;
 public class Gaismagorm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gaismagorm() {
         super("Gaismagorm",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

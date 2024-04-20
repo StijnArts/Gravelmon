@@ -7,7 +7,7 @@ import java.util.*;
 public class Terbipan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terbipan() {
         super("Terbipan",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(75,
                         85,
                         68,

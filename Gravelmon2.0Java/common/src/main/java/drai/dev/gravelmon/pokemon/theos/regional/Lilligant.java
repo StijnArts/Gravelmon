@@ -58,7 +58,7 @@ import java.util.*;
 public class Lilligant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lilligant(int dex) {
         super(dex, "Lilligant",
-                Type.GRASS,Type.ICE,
+                Type.GRASS, Type.ICE,
                 new Stats(70,
                         60,
                         75,

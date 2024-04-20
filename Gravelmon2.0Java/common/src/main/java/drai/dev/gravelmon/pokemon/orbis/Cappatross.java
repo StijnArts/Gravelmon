@@ -58,7 +58,7 @@ import java.util.*;
 public class Cappatross extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cappatross() {
         super("Cappatross",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(85,
                         105,
                         65,

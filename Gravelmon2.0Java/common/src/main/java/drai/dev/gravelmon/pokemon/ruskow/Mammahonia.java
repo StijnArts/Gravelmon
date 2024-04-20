@@ -58,7 +58,7 @@ import java.util.*;
 public class Mammahonia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mammahonia() {
         super("Mammahonia",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(105,
                         95,
                         105,

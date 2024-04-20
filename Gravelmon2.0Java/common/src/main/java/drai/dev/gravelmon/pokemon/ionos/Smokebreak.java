@@ -58,7 +58,7 @@ import java.util.*;
 public class Smokebreak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smokebreak() {
         super("Smokebreak",
-                Type.DRAGON,Type.FIRE,
+                Type.DRAGON, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

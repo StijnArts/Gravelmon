@@ -58,7 +58,7 @@ import java.util.*;
 public class Kilokatta extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kilokatta() {
         super("Kilokatta",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(65,
                         96,
                         50,

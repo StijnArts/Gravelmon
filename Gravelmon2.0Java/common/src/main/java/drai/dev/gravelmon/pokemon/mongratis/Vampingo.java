@@ -58,7 +58,7 @@ import java.util.*;
 public class Vampingo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vampingo() {
         super("Vampingo",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

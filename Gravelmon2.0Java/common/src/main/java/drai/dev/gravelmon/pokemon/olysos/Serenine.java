@@ -58,7 +58,7 @@ import java.util.*;
 public class Serenine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Serenine() {
         super("Serenine",
-                Type.LIGHT,Type.GHOST,
+                Type.LIGHT, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

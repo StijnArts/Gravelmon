@@ -7,7 +7,7 @@ import java.util.*;
 public class Mouhemian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mouhemian() {
         super("Mouhemian",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

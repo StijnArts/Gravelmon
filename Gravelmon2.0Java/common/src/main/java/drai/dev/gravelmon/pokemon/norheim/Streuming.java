@@ -9,7 +9,7 @@ import java.util.*;
 public class Streuming extends drai.dev.gravelmon.pokemon.Pokemon {
     public Streuming() {
         super("Streuming",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(40,
                         60,
                         50,

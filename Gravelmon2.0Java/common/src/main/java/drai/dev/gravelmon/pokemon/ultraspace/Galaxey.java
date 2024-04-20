@@ -58,7 +58,7 @@ import java.util.*;
 public class Galaxey extends drai.dev.gravelmon.pokemon.Pokemon {
     public Galaxey() {
         super("Galaxey",
-                Type.PSYCHIC,Type.STEEL,
+                Type.PSYCHIC, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

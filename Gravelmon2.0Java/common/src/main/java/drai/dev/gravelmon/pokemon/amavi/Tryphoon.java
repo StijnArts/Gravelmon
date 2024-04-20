@@ -8,7 +8,7 @@ import java.util.*;
 public class Tryphoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tryphoon() {
         super("Tryphoon",
-                Type.DRAGON,Type.NORMAL,
+                Type.DRAGON, Type.NORMAL,
                 new Stats(65,
                         65,
                         65,
@@ -17,7 +17,7 @@ public class Tryphoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         65),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 9, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 120,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Tunnelurm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tunnelurm() {
         super("Tunnelurm",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(85,
                         110,
                         110,

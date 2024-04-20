@@ -9,7 +9,7 @@ import java.util.*;
 public class Petricus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Petricus() {
         super("Petricus",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(65,
                         50,
                         75,

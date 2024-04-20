@@ -58,7 +58,7 @@ import java.util.*;
 public class Scuffrel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scuffrel() {
         super("Scuffrel",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(66,
                         90,
                         76,

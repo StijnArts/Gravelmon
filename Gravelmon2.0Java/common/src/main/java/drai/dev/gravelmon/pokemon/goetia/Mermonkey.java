@@ -58,7 +58,7 @@ import java.util.*;
 public class Mermonkey extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mermonkey() {
         super("Mermonkey",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

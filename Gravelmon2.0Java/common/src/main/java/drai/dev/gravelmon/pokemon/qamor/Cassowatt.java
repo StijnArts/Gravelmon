@@ -9,7 +9,7 @@ import java.util.*;
 public class Cassowatt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cassowatt() {
         super("Cassowatt",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(58,
                         103,
                         61,

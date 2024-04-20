@@ -7,7 +7,7 @@ import java.util.*;
 public class Zexalax extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zexalax() {
         super("Zexalax",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(75,
                         60,
                         100,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Roostuff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roostuff() {
         super("Roostuff",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(80,
                         120,
                         85,

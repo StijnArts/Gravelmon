@@ -11,7 +11,7 @@ import java.util.*;
 public class Frostoss extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frostoss() {
         super("Frostoss",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(102,
                         78,
                         76,

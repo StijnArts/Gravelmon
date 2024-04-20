@@ -58,7 +58,7 @@ import java.util.*;
 public class Rathian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rathian() {
         super("Rathian",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(80,
                         110,
                         80,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Pixiechu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pixiechu() {
         super("Pixiechu",
-                Type.ELECTRIC,Type.FAIRY,
+                Type.ELECTRIC, Type.FAIRY,
                 new Stats(65,
                         75,
                         50,

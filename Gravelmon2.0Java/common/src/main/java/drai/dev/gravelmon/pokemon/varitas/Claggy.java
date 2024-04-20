@@ -9,7 +9,7 @@ import java.util.*;
 public class Claggy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Claggy() {
         super("Claggy",
-                Type.FLYING,Type.GROUND,
+                Type.FLYING, Type.GROUND,
                 new Stats(50,
                         75,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Porkupid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Porkupid() {
         super("Porkupid",
-                Type.FAIRY,Type.WATER,
+                Type.FAIRY, Type.WATER,
                 new Stats(0,
                         0,
                         0,

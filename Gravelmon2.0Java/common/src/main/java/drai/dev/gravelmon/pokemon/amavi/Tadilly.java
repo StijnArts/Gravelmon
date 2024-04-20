@@ -8,7 +8,7 @@ import java.util.*;
 public class Tadilly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tadilly() {
         super("Tadilly",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(60,
                         25,
                         55,
@@ -17,7 +17,7 @@ public class Tadilly extends drai.dev.gravelmon.pokemon.Pokemon {
                         25),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 4, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

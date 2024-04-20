@@ -58,7 +58,7 @@ import java.util.*;
 public class Bateeny extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bateeny() {
         super("Bateeny",
-                Type.FLYING,Type.GROUND,
+                Type.FLYING, Type.GROUND,
                 new Stats(35,
                         35,
                         34,

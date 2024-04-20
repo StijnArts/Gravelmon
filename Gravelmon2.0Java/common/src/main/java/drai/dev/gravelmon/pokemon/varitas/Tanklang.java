@@ -9,7 +9,7 @@ import java.util.*;
 public class Tanklang extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tanklang() {
         super("Tanklang",
-                Type.STEEL,Type.GROUND,
+                Type.STEEL, Type.GROUND,
                 new Stats(60,
                         100,
                         115,

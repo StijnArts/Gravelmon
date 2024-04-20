@@ -7,7 +7,7 @@ import java.util.*;
 public class Skirmaki extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skirmaki() {
         super("Skirmaki",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(72,
                         73,
                         53,

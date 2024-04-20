@@ -7,7 +7,7 @@ import java.util.*;
 public class Audibaah extends drai.dev.gravelmon.pokemon.Pokemon {
     public Audibaah() {
         super("Audibaah",
-                Type.FAIRY,Type.NORMAL,
+                Type.FAIRY, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

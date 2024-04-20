@@ -58,7 +58,7 @@ import java.util.*;
 public class Sparrawk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sparrawk() {
         super("Sparrawk",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

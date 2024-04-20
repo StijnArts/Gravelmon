@@ -58,7 +58,7 @@ import java.util.*;
 public class Baldawk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Baldawk() {
         super("Baldawk",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(60,
                         80,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Giftyrant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Giftyrant() {
         super("Giftyrant",
-                Type.NORMAL,Type.DRAGON,
+                Type.NORMAL, Type.DRAGON,
                 new Stats(100,
                         80,
                         70,

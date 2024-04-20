@@ -58,7 +58,7 @@ import java.util.*;
 public class Nuptielle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nuptielle() {
         super("Nuptielle",
-                Type.FAIRY,Type.FIRE,
+                Type.FAIRY, Type.FIRE,
                 new Stats(100,
                         100,
                         100,
@@ -66,7 +66,7 @@ public class Nuptielle extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         100),
                 List.of(Ability.WHITEVIRTUE), Ability.SERENE_GRACE,
-                0, 0,
+                21, 0,
                 new Stats(0,0,0,0,0,0), 3,
                 0.0,
                 0, ExperienceGroup.SLOW,
@@ -146,11 +146,12 @@ public class Nuptielle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm"),
                         new MoveLearnSetEntry(Move.REFLECT,"tm"),
                         new MoveLearnSetEntry(Move.REST,"tm")                        ),
-                List.of(Label.ENJIN),
+                List.of(Label.ENJIN, Label.LEGENDARY),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

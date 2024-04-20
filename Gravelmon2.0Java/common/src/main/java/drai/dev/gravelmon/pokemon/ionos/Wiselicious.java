@@ -58,7 +58,7 @@ import java.util.*;
 public class Wiselicious extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wiselicious() {
         super("Wiselicious",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(96,
                         68,
                         78,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Paranormail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paranormail() {
         super("Paranormail",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(66,
                         69,
                         49,

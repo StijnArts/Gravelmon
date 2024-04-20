@@ -58,7 +58,7 @@ import java.util.*;
 public class Bombun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bombun() {
         super("Bombun",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

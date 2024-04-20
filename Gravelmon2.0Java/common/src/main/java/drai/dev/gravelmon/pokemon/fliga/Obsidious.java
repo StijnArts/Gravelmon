@@ -58,7 +58,7 @@ import java.util.*;
 public class Obsidious extends drai.dev.gravelmon.pokemon.Pokemon {
     public Obsidious() {
         super("Obsidious",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(110,
                         60,
                         135,

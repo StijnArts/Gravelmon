@@ -58,7 +58,7 @@ import java.util.*;
 public class Parfumou extends drai.dev.gravelmon.pokemon.Pokemon {
     public Parfumou() {
         super("Parfumou",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(78,
                         71,
                         77,

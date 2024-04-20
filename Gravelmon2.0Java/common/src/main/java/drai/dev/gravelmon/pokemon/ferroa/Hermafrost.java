@@ -7,7 +7,7 @@ import java.util.*;
 public class Hermafrost extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hermafrost() {
         super("Hermafrost",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(60,
                         60,
                         150,

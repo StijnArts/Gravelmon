@@ -7,7 +7,7 @@ import java.util.*;
 public class Skite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skite() {
         super("Skite",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(40,
                         50,
                         30,

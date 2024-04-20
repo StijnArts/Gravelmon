@@ -58,7 +58,7 @@ import java.util.*;
 public class Hogriks extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hogriks() {
         super("Hogriks",
-                Type.GROUND,Type.ROCK,
+                Type.GROUND, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

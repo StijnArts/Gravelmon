@@ -58,7 +58,7 @@ import java.util.*;
 public class Sandygast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sandygast(int dex) {
         super(dex, "Sandygast",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(55,
                         55,
                         80,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Mosstrich extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mosstrich() {
         super("Mosstrich",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(74,
                         103,
                         72,

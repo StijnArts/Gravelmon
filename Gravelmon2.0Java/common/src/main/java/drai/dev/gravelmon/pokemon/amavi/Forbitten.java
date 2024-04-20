@@ -8,7 +8,7 @@ import java.util.*;
 public class Forbitten extends drai.dev.gravelmon.pokemon.Pokemon {
     public Forbitten() {
         super("Forbitten2",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(140,
                         70,
                         100,
@@ -17,7 +17,7 @@ public class Forbitten extends drai.dev.gravelmon.pokemon.Pokemon {
                         99),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 17, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 40,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

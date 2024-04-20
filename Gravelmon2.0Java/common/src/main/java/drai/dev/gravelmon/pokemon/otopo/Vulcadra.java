@@ -58,7 +58,7 @@ import java.util.*;
 public class Vulcadra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vulcadra() {
         super("Vulcadra",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(78,
                         84,
                         78,

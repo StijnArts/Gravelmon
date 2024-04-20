@@ -58,7 +58,7 @@ import java.util.*;
 public class Lanturn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lanturn(int dex) {
         super(dex, "Lanturn",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

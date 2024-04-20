@@ -9,7 +9,7 @@ import java.util.*;
 public class Auumbull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Auumbull() {
         super("Auumbull",
-                Type.PSYCHIC,Type.GROUND,
+                Type.PSYCHIC, Type.GROUND,
                 new Stats(100,
                         130,
                         100,

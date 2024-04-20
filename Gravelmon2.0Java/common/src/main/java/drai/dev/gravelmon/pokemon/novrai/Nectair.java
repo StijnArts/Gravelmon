@@ -7,7 +7,7 @@ import java.util.*;
 public class Nectair extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nectair() {
         super("Nectair",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(44,
                         46,
                         32,

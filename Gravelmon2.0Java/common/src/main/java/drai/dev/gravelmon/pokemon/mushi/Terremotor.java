@@ -8,7 +8,7 @@ import java.util.*;
 public class Terremotor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terremotor() {
         super("Terremotor",
-                Type.GROUND,Type.ELECTRIC,
+                Type.GROUND, Type.ELECTRIC,
                 new Stats(90,
                         130,
                         135,

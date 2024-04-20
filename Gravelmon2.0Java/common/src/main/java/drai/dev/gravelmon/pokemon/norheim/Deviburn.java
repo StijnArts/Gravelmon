@@ -9,7 +9,7 @@ import java.util.*;
 public class Deviburn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Deviburn() {
         super("Deviburn",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(76,
                         86,
                         66,

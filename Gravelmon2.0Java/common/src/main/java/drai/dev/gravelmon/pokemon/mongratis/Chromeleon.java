@@ -58,7 +58,7 @@ import java.util.*;
 public class Chromeleon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chromeleon() {
         super("Chromeleon",
-                Type.DARK,Type.STEEL,
+                Type.DARK, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

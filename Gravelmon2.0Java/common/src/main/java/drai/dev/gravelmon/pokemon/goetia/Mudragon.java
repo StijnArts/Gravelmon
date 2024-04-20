@@ -58,7 +58,7 @@ import java.util.*;
 public class Mudragon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mudragon() {
         super("Mudragon",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

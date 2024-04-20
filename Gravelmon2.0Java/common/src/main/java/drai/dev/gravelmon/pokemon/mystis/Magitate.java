@@ -58,7 +58,7 @@ import java.util.*;
 public class Magitate extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magitate() {
         super("Magitate",
-                Type.PSYCHIC,Type.DARK,
+                Type.PSYCHIC, Type.DARK,
                 new Stats(80,
                         110,
                         70,

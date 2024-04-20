@@ -58,7 +58,7 @@ import java.util.*;
 public class Vertighoul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vertighoul() {
         super("Vertighoul",
-                Type.DARK,Type.GHOST,
+                Type.DARK, Type.GHOST,
                 new Stats(60,
                         130,
                         90,

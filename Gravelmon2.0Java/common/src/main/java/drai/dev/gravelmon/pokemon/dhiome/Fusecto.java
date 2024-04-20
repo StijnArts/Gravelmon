@@ -8,7 +8,7 @@ import java.util.*;
 public class Fusecto extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fusecto() {
         super("Fusecto",
-                Type.FIGHTING,Type.BUG,
+                Type.FIGHTING, Type.BUG,
                 new Stats(0,
                         0,
                         0,

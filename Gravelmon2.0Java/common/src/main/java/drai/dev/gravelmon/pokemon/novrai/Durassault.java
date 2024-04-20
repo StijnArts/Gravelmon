@@ -7,7 +7,7 @@ import java.util.*;
 public class Durassault extends drai.dev.gravelmon.pokemon.Pokemon {
     public Durassault() {
         super("Durassault",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(80,
                         135,
                         105,

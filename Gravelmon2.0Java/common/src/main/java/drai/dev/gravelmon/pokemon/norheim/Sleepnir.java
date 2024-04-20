@@ -9,7 +9,7 @@ import java.util.*;
 public class Sleepnir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sleepnir() {
         super("Sleepnir",
-                Type.FIGHTING,Type.NORMAL,
+                Type.FIGHTING, Type.NORMAL,
                 new Stats(70,
                         90,
                         75,

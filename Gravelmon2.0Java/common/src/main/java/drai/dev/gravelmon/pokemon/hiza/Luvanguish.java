@@ -7,7 +7,7 @@ import java.util.*;
 public class Luvanguish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Luvanguish() {
         super("Luvanguish",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(53,
                         80,
                         65,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Navigale extends drai.dev.gravelmon.pokemon.Pokemon {
     public Navigale() {
         super("Navigale",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

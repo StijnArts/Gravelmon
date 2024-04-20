@@ -58,7 +58,7 @@ import java.util.*;
 public class Fuzzilk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fuzzilk() {
         super("Fuzzilk",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

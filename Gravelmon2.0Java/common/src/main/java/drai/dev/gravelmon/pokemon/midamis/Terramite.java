@@ -9,7 +9,7 @@ import java.util.*;
 public class Terramite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terramite() {
         super("Terramite",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(35,
                         40,
                         95,

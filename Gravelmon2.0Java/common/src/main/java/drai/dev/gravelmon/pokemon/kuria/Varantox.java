@@ -58,7 +58,7 @@ import java.util.*;
 public class Varantox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Varantox() {
         super("Varantox",
-                Type.POISON,Type.COSMIC,
+                Type.POISON, Type.COSMIC,
                 new Stats(80,
                         68,
                         110,

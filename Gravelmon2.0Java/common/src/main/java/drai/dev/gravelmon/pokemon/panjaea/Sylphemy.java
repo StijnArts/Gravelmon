@@ -58,7 +58,7 @@ import java.util.*;
 public class Sylphemy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sylphemy() {
         super("Sylphemy",
-                Type.FLYING,Type.GHOST,
+                Type.FLYING, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

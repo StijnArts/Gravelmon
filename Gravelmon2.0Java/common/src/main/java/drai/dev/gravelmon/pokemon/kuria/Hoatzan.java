@@ -58,7 +58,7 @@ import java.util.*;
 public class Hoatzan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hoatzan() {
         super("Hoatzan",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(65,
                         65,
                         65,

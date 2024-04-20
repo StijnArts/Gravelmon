@@ -58,7 +58,7 @@ import java.util.*;
 public class Flutterfly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flutterfly() {
         super("Flutterfly",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(70,
                         75,
                         50,

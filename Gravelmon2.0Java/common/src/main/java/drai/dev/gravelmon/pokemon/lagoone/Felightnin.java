@@ -58,7 +58,7 @@ import java.util.*;
 public class Felightnin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Felightnin() {
         super("Felightnin",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(55,
                         70,
                         60,

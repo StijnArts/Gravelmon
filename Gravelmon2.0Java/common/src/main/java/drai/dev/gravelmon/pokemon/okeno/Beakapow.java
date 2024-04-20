@@ -6,7 +6,7 @@ import java.util.*;
 public class Beakapow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beakapow() {
         super("Beakapow",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(60,
                         80,
                         123,

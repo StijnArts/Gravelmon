@@ -9,7 +9,7 @@ import java.util.*;
 public class Liotee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Liotee() {
         super("Liotee",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(55,
                         50,
                         40,

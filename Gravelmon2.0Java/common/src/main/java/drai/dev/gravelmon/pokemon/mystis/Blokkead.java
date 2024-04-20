@@ -58,7 +58,7 @@ import java.util.*;
 public class Blokkead extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blokkead() {
         super("Blokkead",
-                Type.ROCK,Type.NORMAL,
+                Type.ROCK, Type.NORMAL,
                 new Stats(100,
                         80,
                         100,

@@ -7,7 +7,7 @@ import java.util.*;
 public class MissingNo extends drai.dev.gravelmon.pokemon.Pokemon {
     public MissingNo() {
         super("MissingNo",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(0,
                         0,
                         0,

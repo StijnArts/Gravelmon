@@ -7,7 +7,7 @@ import java.util.*;
 public class Submalot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Submalot() {
         super("Submalot",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(113,
                         92,
                         101,

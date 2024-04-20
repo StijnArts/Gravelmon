@@ -9,7 +9,7 @@ import java.util.*;
 public class Wyvet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wyvet() {
         super("Wyvet",
-                Type.DRAGON,Type.FAIRY,
+                Type.DRAGON, Type.FAIRY,
                 new Stats(65,
                         28,
                         44,

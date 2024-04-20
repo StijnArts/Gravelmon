@@ -58,7 +58,7 @@ import java.util.*;
 public class Gubeluto extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gubeluto() {
         super("Gubeluto",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(0,
                         0,
                         0,

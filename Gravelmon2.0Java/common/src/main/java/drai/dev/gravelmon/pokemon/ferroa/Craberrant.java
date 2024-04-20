@@ -7,7 +7,7 @@ import java.util.*;
 public class Craberrant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Craberrant() {
         super("Craberrant",
-                Type.WATER,Type.BUG,
+                Type.WATER, Type.BUG,
                 new Stats(60,
                         115,
                         140,

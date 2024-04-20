@@ -9,7 +9,7 @@ import java.util.*;
 public class Gurangle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gurangle() {
         super("Gurangle",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(100,
                         80,
                         95,

@@ -11,7 +11,7 @@ import java.util.*;
 public class Pharoar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pharoar() {
         super("Pharoar",
-                Type.PSYCHIC,Type.GROUND,
+                Type.PSYCHIC, Type.GROUND,
                 new Stats(90,
                         83,
                         90,

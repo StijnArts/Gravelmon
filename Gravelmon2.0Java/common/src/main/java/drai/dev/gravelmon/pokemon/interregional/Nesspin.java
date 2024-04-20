@@ -7,7 +7,7 @@ import java.util.*;
 public class Nesspin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nesspin() {
         super("Nesspin",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(93,
                         83,
                         100,

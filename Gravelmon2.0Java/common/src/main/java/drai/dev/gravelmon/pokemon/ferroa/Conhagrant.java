@@ -7,7 +7,7 @@ import java.util.*;
 public class Conhagrant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conhagrant() {
         super("Conhagrant",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(70,
                         50,
                         65,

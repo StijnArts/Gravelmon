@@ -7,7 +7,7 @@ import java.util.*;
 public class Bulberry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bulberry() {
         super("Bulberry",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(70,
                         80,
                         70,

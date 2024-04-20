@@ -58,7 +58,7 @@ import java.util.*;
 public class Crucibat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crucibat() {
         super("Crucibat",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

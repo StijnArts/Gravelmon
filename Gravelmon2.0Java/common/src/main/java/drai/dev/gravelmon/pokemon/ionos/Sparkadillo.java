@@ -58,7 +58,7 @@ import java.util.*;
 public class Sparkadillo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sparkadillo() {
         super("Sparkadillo",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

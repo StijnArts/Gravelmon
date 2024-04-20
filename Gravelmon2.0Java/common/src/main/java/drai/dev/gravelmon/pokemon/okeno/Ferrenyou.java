@@ -6,7 +6,7 @@ import java.util.*;
 public class Ferrenyou extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ferrenyou() {
         super("Ferrenyou",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(35,
                         65,
                         55,

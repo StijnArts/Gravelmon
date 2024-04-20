@@ -7,7 +7,7 @@ import java.util.*;
 public class Nocturnace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nocturnace() {
         super("Nocturnace",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(71,
                         98,
                         71,

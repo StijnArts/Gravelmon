@@ -58,7 +58,7 @@ import java.util.*;
 public class Kangarain extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kangarain() {
         super("Kangarain",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

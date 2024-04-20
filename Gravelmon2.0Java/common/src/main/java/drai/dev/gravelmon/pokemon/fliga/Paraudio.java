@@ -58,7 +58,7 @@ import java.util.*;
 public class Paraudio extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paraudio() {
         super("Paraudio",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(60,
                         40,
                         55,

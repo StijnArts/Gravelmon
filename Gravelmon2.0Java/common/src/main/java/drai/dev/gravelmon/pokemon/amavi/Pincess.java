@@ -8,7 +8,7 @@ import java.util.*;
 public class Pincess extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pincess() {
         super("Pincess",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(44,
                         44,
                         44,
@@ -17,7 +17,7 @@ public class Pincess extends drai.dev.gravelmon.pokemon.Pokemon {
                         22),
                 List.of(Ability.COMPOUND_EYES,Ability.COMPETITIVE), Ability.STURDY,
                 1, 14,
-                new Stats(0,0,0,0,1,0), 0,
+                new Stats(0,0,0,0,1,0), 220,
                 0.0,
                 78, ExperienceGroup.MEDIUM_FAST,
                 70,

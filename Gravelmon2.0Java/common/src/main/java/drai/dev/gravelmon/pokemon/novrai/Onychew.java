@@ -7,7 +7,7 @@ import java.util.*;
 public class Onychew extends drai.dev.gravelmon.pokemon.Pokemon {
     public Onychew() {
         super("Onychew",
-                Type.FAIRY,Type.DRAGON,
+                Type.FAIRY, Type.DRAGON,
                 new Stats(99,
                         51,
                         84,

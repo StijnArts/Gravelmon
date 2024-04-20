@@ -7,7 +7,7 @@ import java.util.*;
 public class Poxadoodle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poxadoodle() {
         super("Poxadoodle",
-                Type.NORMAL,Type.POISON,
+                Type.NORMAL, Type.POISON,
                 new Stats(95,
                         70,
                         85,

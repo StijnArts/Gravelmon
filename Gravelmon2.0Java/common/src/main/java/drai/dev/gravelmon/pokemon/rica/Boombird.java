@@ -9,7 +9,7 @@ import java.util.*;
 public class Boombird extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boombird() {
         super("Boombird",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(70,
                         71,
                         65,

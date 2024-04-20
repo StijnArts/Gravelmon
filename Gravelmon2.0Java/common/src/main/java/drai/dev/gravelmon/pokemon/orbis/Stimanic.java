@@ -58,7 +58,7 @@ import java.util.*;
 public class Stimanic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stimanic() {
         super("Stimanic",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(73,
                         75,
                         80,

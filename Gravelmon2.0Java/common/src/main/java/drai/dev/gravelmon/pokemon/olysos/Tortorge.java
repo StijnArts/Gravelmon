@@ -58,7 +58,7 @@ import java.util.*;
 public class Tortorge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tortorge() {
         super("Tortorge",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(80,
                         70,
                         120,

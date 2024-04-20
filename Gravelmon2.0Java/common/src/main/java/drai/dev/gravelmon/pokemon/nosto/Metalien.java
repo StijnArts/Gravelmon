@@ -7,7 +7,7 @@ import java.util.*;
 public class Metalien extends drai.dev.gravelmon.pokemon.Pokemon {
     public Metalien() {
         super("Metalien",
-                Type.STEEL,Type.NORMAL,
+                Type.STEEL, Type.NORMAL,
                 new Stats(32,
                         56,
                         30,

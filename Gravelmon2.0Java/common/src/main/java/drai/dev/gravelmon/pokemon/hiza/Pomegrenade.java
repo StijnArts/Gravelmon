@@ -7,7 +7,7 @@ import java.util.*;
 public class Pomegrenade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pomegrenade() {
         super("Pomegrenade",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(42,
                         57,
                         75,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Piedow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piedow() {
         super("Piedow",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(60,
                         65,
                         50,

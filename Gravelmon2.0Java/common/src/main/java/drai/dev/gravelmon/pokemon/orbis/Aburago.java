@@ -58,7 +58,7 @@ import java.util.*;
 public class Aburago extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aburago() {
         super("Aburago",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(30,
                         20,
                         25,

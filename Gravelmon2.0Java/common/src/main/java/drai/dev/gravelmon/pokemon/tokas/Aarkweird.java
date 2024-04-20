@@ -58,7 +58,7 @@ import java.util.*;
 public class Aarkweird extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aarkweird() {
         super("Aarkweird",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

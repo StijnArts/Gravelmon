@@ -7,7 +7,7 @@ import java.util.*;
 public class Wolverize extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wolverize() {
         super("Wolverize",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(73,
                         106,
                         68,

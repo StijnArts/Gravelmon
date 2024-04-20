@@ -6,7 +6,7 @@ import java.util.*;
 public class Inspark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Inspark() {
         super("Inspark",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(40,
                         50,
                         35,

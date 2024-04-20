@@ -58,7 +58,7 @@ import java.util.*;
 public class Rodoll extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rodoll() {
         super("Rodoll",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

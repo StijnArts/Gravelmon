@@ -7,7 +7,7 @@ import java.util.*;
 public class Polluga extends drai.dev.gravelmon.pokemon.Pokemon {
     public Polluga() {
         super("Polluga",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(0,
                         0,
                         0,

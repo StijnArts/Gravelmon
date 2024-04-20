@@ -9,7 +9,7 @@ import java.util.*;
 public class Nerachi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nerachi() {
         super("Nerachi",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(126,
                         46,
                         90,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Tankton extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tankton() {
         super("Tankton",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(60,
                         85,
                         119,

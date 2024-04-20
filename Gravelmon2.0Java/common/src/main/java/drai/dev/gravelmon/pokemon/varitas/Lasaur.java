@@ -9,7 +9,7 @@ import java.util.*;
 public class Lasaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lasaur() {
         super("Lasaur",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(55,
                         70,
                         35,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Tennestrian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tennestrian() {
         super("Tennestrian",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

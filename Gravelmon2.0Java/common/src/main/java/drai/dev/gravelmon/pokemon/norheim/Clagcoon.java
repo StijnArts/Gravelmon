@@ -9,7 +9,7 @@ import java.util.*;
 public class Clagcoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clagcoon() {
         super("Clagcoon",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(80,
                         35,
                         70,

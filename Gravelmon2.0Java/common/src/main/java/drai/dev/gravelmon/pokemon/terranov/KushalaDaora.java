@@ -58,7 +58,7 @@ import java.util.*;
 public class KushalaDaora extends drai.dev.gravelmon.pokemon.Pokemon {
     public KushalaDaora() {
         super("KushalaDaora",
-                Type.FLYING,Type.DRAGON,
+                Type.FLYING, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Snole extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snole() {
         super("Snole",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(55,
                         58,
                         48,

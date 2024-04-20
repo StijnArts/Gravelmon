@@ -58,7 +58,7 @@ import java.util.*;
 public class Theftidee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Theftidee() {
         super("Theftidee",
-                Type.FAIRY,Type.DARK,
+                Type.FAIRY, Type.DARK,
                 new Stats(0,
                         0,
                         0,

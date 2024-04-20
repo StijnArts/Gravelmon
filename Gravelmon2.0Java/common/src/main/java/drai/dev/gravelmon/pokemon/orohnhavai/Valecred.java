@@ -9,7 +9,7 @@ import java.util.*;
 public class Valecred extends drai.dev.gravelmon.pokemon.Pokemon {
     public Valecred() {
         super("Valecred",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(80,
                         100,
                         70,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Slendurn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slendurn() {
         super("Slendurn",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(300,
                         45,
                         45,
@@ -17,7 +17,7 @@ public class Slendurn extends drai.dev.gravelmon.pokemon.Pokemon {
                         75),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 11, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

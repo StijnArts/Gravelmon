@@ -58,7 +58,7 @@ import java.util.*;
 public class Nymfaun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nymfaun() {
         super("Nymfaun",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

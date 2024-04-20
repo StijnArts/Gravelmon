@@ -11,7 +11,7 @@ import java.util.*;
 public class Tarzorus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tarzorus() {
         super("Tarzorus",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(70,
                         100,
                         160,

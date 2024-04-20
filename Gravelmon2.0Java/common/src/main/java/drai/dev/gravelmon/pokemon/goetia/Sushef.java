@@ -58,7 +58,7 @@ import java.util.*;
 public class Sushef extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sushef() {
         super("Sushef",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

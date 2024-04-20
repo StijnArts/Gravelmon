@@ -9,7 +9,7 @@ import java.util.*;
 public class Birdurr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Birdurr() {
         super("Birdurr",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

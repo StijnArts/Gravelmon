@@ -58,7 +58,7 @@ import java.util.*;
 public class Oricorio extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oricorio(int dex) {
         super(dex, "Oricorio",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(75,
                         70,
                         70,

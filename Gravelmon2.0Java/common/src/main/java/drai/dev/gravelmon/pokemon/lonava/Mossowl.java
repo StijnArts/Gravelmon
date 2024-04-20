@@ -7,7 +7,7 @@ import java.util.*;
 public class Mossowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mossowl() {
         super("Mossowl",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(95,
                         135,
                         120,

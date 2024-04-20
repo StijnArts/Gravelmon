@@ -6,7 +6,7 @@ import java.util.*;
 public class Vinagruff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vinagruff() {
         super("Vinagruff",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(98,
                         110,
                         90,

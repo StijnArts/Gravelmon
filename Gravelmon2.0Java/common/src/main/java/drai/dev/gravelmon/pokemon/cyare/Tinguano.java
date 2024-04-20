@@ -58,7 +58,7 @@ import java.util.*;
 public class Tinguano extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tinguano() {
         super("Tinguano",
-                Type.FIGHTING,Type.ROCK,
+                Type.FIGHTING, Type.ROCK,
                 new Stats(86,
                         70,
                         82,

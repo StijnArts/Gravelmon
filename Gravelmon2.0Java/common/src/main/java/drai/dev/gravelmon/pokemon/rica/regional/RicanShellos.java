@@ -9,7 +9,7 @@ import java.util.*;
 public class RicanShellos extends drai.dev.gravelmon.pokemon.Pokemon {
     public RicanShellos(int dex) {
         super(dex, "RicanShellos",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(76,
                         48,
                         48,

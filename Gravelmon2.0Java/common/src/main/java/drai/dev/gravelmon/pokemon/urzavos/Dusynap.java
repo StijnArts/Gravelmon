@@ -58,7 +58,7 @@ import java.util.*;
 public class Dusynap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dusynap() {
         super("Dusynap",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

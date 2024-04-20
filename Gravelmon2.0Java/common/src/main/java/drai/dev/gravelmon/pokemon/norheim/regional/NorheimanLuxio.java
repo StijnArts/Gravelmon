@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanLuxio extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanLuxio() {
         super("Luxio",
-                Type.ICE,Type.ELECTRIC,
+                Type.ICE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

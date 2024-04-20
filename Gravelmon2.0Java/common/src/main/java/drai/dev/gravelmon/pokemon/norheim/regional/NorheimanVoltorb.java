@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanVoltorb extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanVoltorb(int dex) {
         super(dex, "Voltorb",
-                Type.ELECTRIC,Type.ICE,
+                Type.ELECTRIC, Type.ICE,
                 new Stats(0,
                         0,
                         0,

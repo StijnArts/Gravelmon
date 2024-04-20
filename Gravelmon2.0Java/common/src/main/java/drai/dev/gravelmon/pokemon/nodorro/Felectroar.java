@@ -58,7 +58,7 @@ import java.util.*;
 public class Felectroar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Felectroar() {
         super("Felectroar",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(70,
                         104,
                         60,

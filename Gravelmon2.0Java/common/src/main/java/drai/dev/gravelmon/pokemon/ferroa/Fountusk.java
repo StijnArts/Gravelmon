@@ -7,7 +7,7 @@ import java.util.*;
 public class Fountusk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fountusk() {
         super("Fountusk",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(52,
                         64,
                         100,

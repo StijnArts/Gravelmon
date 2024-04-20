@@ -58,7 +58,7 @@ import java.util.*;
 public class Anbrosia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anbrosia() {
         super("Anbrosia",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(120,
                         55,
                         100,

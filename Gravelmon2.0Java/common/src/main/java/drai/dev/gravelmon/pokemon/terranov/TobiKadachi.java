@@ -58,7 +58,7 @@ import java.util.*;
 public class TobiKadachi extends drai.dev.gravelmon.pokemon.Pokemon {
     public TobiKadachi() {
         super("TobiKadachi",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -8,7 +8,7 @@ import java.util.*;
 public class AvorianMrMime extends drai.dev.gravelmon.pokemon.Pokemon {
     public AvorianMrMime(int dex) {
         super(dex,  "AvorianMrMime",
-                Type.FIGHTING,Type.FAIRY,
+                Type.FIGHTING, Type.FAIRY,
                 new Stats(60,
                         100,
                         65,

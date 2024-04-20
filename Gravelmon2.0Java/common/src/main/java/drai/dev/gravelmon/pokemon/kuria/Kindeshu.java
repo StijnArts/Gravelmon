@@ -58,7 +58,7 @@ import java.util.*;
 public class Kindeshu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kindeshu() {
         super("Kindeshu",
-                Type.GHOST,Type.LIGHT,
+                Type.GHOST, Type.LIGHT,
                 new Stats(61,
                         60,
                         98,

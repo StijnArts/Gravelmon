@@ -58,7 +58,7 @@ import java.util.*;
 public class Eruptle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eruptle() {
         super("Eruptle",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(85,
                         65,
                         75,

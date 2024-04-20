@@ -9,7 +9,7 @@ import java.util.*;
 public class Neptide extends drai.dev.gravelmon.pokemon.Pokemon {
     public Neptide() {
         super("Neptide",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

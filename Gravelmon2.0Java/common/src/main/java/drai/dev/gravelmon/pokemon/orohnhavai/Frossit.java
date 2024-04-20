@@ -9,7 +9,7 @@ import java.util.*;
 public class Frossit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frossit() {
         super("Frossit",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(90,
                         50,
                         75,

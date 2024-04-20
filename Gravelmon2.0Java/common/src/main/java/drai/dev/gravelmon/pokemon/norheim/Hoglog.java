@@ -9,7 +9,7 @@ import java.util.*;
 public class Hoglog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hoglog() {
         super("Hoglog",
-                Type.PSYCHIC,Type.GRASS,
+                Type.PSYCHIC, Type.GRASS,
                 new Stats(145,
                         80,
                         120,

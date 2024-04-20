@@ -9,7 +9,7 @@ import java.util.*;
 public class Tulipro extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tulipro() {
         super("Tulipro",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(65,
                         50,
                         65,

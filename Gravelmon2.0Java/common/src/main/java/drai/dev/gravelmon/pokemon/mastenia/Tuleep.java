@@ -58,7 +58,7 @@ import java.util.*;
 public class Tuleep extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tuleep() {
         super("Tuleep",
-                Type.PSYCHIC,Type.GRASS,
+                Type.PSYCHIC, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

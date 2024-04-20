@@ -58,7 +58,7 @@ import java.util.*;
 public class Cookrush extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cookrush() {
         super("Cookrush",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(50,
                         80,
                         90,

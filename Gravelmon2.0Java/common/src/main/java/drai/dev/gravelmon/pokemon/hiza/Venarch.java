@@ -7,7 +7,7 @@ import java.util.*;
 public class Venarch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Venarch() {
         super("Venarch",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

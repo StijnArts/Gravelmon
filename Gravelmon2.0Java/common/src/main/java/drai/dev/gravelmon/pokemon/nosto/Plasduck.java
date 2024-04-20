@@ -7,7 +7,7 @@ import java.util.*;
 public class Plasduck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plasduck() {
         super("Plasduck",
-                Type.NORMAL,Type.WATER,
+                Type.NORMAL, Type.WATER,
                 new Stats(43,
                         24,
                         32,

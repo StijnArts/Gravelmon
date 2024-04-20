@@ -9,7 +9,7 @@ import java.util.*;
 public class Wulcrush extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wulcrush() {
         super("Wulcrush",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(79,
                         116,
                         80,

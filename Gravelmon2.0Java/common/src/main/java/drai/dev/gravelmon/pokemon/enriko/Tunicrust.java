@@ -7,7 +7,7 @@ import java.util.*;
 public class Tunicrust extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tunicrust() {
         super("Tunicrust",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

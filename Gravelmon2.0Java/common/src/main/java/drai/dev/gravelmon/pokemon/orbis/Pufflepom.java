@@ -58,7 +58,7 @@ import java.util.*;
 public class Pufflepom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pufflepom() {
         super("Pufflepom",
-                Type.FIGHTING,Type.FAIRY,
+                Type.FIGHTING, Type.FAIRY,
                 new Stats(75,
                         115,
                         60,

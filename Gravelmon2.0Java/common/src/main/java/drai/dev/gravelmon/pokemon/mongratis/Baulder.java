@@ -58,7 +58,7 @@ import java.util.*;
 public class Baulder extends drai.dev.gravelmon.pokemon.Pokemon {
     public Baulder() {
         super("Baulder",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(55,
                         60,
                         65,

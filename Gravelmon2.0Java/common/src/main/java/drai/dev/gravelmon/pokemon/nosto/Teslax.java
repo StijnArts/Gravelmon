@@ -7,7 +7,7 @@ import java.util.*;
 public class Teslax extends drai.dev.gravelmon.pokemon.Pokemon {
     public Teslax() {
         super("Teslax",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(30,
                         20,
                         40,

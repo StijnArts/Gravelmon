@@ -58,7 +58,7 @@ import java.util.*;
 public class Buzzero extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buzzero() {
         super("Buzzero",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(57,
                         79,
                         66,

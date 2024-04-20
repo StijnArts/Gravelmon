@@ -58,7 +58,7 @@ import java.util.*;
 public class Chimchar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chimchar(int dex) {
         super(dex, "Chimchar",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(45,
                         64,
                         40,

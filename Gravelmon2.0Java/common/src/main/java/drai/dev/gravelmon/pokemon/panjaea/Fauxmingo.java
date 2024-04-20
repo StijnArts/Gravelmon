@@ -58,7 +58,7 @@ import java.util.*;
 public class Fauxmingo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fauxmingo() {
         super("Fauxmingo",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

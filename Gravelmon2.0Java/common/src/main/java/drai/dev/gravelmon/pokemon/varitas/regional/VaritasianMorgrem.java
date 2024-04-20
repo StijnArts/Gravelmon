@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianMorgrem extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianMorgrem(int dex) {
         super(dex,"Morgrem",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

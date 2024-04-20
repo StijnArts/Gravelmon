@@ -58,7 +58,7 @@ import java.util.*;
 public class Salmonock extends drai.dev.gravelmon.pokemon.Pokemon {
     public Salmonock() {
         super("Salmonock",
-                Type.ELECTRIC,Type.WATER,
+                Type.ELECTRIC, Type.WATER,
                 new Stats(110,
                         80,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sokukomu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sokukomu() {
         super("Sokukomu",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(40,
                         70,
                         70,

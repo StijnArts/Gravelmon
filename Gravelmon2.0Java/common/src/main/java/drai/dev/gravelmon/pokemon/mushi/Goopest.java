@@ -8,7 +8,7 @@ import java.util.*;
 public class Goopest extends drai.dev.gravelmon.pokemon.Pokemon {
     public Goopest() {
         super("Goopest",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(98,
                         65,
                         101,

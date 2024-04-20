@@ -7,7 +7,7 @@ import java.util.*;
 public class Barrose extends drai.dev.gravelmon.pokemon.Pokemon {
     public Barrose() {
         super("Barrose",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(70,
                         35,
                         60,

@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianNosepass extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianNosepass(int dex) {
         super(dex, "Nosepass",
-                Type.ELECTRIC,Type.ROCK,
+                Type.ELECTRIC, Type.ROCK,
                 new Stats(40,
                         65,
                         110,

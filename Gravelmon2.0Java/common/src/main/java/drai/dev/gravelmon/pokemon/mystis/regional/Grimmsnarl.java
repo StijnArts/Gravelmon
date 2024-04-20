@@ -58,7 +58,7 @@ import java.util.*;
 public class Grimmsnarl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grimmsnarl(int dex) {
         super(dex, "Grimmsnarl",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(95,
                         120,
                         110,

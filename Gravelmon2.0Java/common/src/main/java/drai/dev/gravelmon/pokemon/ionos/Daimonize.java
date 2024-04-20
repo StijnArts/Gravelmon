@@ -58,7 +58,7 @@ import java.util.*;
 public class Daimonize extends drai.dev.gravelmon.pokemon.Pokemon {
     public Daimonize() {
         super("Daimonize",
-                Type.ICE,Type.FIRE,
+                Type.ICE, Type.FIRE,
                 new Stats(80,
                         102,
                         79,

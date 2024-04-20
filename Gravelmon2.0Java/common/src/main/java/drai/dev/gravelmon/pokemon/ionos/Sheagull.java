@@ -58,7 +58,7 @@ import java.util.*;
 public class Sheagull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sheagull() {
         super("Sheagull",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(102,
                         65,
                         88,

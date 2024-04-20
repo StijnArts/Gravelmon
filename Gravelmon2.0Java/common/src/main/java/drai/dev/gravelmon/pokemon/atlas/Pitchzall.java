@@ -7,7 +7,7 @@ import java.util.*;
 public class Pitchzall extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pitchzall() {
         super("Pitchzall",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(55,
                         77,
                         56,

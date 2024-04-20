@@ -7,7 +7,7 @@ import java.util.*;
 public class Submurchin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Submurchin() {
         super("Submurchin",
-                Type.DARK,Type.STEEL,
+                Type.DARK, Type.STEEL,
                 new Stats(95,
                         95,
                         110,

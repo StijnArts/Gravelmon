@@ -7,7 +7,7 @@ import java.util.*;
 public class Frog2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frog2() {
         super("Frog2",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

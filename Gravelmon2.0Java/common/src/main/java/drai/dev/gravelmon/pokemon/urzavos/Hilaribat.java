@@ -58,7 +58,7 @@ import java.util.*;
 public class Hilaribat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hilaribat() {
         super("Hilaribat",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

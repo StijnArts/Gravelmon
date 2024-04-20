@@ -58,7 +58,7 @@ import java.util.*;
 public class Magboil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magboil() {
         super("Magboil",
-                Type.PSYCHIC,Type.BUG,
+                Type.PSYCHIC, Type.BUG,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Zapillar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zapillar() {
         super("Zapillar",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(40,
                         25,
                         30,

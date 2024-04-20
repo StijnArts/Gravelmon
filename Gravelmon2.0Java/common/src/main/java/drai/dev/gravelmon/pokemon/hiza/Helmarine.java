@@ -7,7 +7,7 @@ import java.util.*;
 public class Helmarine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Helmarine() {
         super("Helmarine",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(45,
                         40,
                         70,

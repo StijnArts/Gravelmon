@@ -58,7 +58,7 @@ import java.util.*;
 public class Giadrome extends drai.dev.gravelmon.pokemon.Pokemon {
     public Giadrome() {
         super("Giadrome",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

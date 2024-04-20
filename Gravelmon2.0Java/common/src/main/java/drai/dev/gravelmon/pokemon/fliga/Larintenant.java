@@ -58,7 +58,7 @@ import java.util.*;
 public class Larintenant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larintenant() {
         super("Larintenant",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(85,
                         90,
                         65,
@@ -66,7 +66,7 @@ public class Larintenant extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         90),
                 List.of(Ability.INNER_FOCUS,Ability.DRIZZLE), Ability.SWIFT_SWIM,
-                0, 0,
+                16, 0,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -149,8 +149,8 @@ public class Larintenant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOAK,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 33, 53, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

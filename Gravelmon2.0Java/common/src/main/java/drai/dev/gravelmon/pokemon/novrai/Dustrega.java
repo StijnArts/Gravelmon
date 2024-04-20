@@ -7,7 +7,7 @@ import java.util.*;
 public class Dustrega extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dustrega() {
         super("Dustrega",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(77,
                         44,
                         66,

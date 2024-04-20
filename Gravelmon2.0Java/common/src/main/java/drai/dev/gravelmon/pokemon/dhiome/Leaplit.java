@@ -8,7 +8,7 @@ import java.util.*;
 public class Leaplit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leaplit() {
         super("Leaplit",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

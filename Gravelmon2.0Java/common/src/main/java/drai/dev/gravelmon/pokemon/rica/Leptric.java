@@ -9,7 +9,7 @@ import java.util.*;
 public class Leptric extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leptric() {
         super("Leptric",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(50,
                         75,
                         50,

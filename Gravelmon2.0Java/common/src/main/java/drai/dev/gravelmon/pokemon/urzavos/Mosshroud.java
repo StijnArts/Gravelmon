@@ -58,7 +58,7 @@ import java.util.*;
 public class Mosshroud extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mosshroud() {
         super("Mosshroud",
-                Type.DARK,Type.GRASS,
+                Type.DARK, Type.GRASS,
                 new Stats(46,
                         42,
                         32,

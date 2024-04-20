@@ -9,7 +9,7 @@ import java.util.*;
 public class QamoranKoffing extends drai.dev.gravelmon.pokemon.Pokemon {
     public QamoranKoffing(int dex) {
         super(dex, "Koffing",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(40,
                         35,
                         55,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Volkydra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Volkydra() {
         super("Volkydra",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

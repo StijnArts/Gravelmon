@@ -58,7 +58,7 @@ import java.util.*;
 public class Detome extends drai.dev.gravelmon.pokemon.Pokemon {
     public Detome() {
         super("Detome",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

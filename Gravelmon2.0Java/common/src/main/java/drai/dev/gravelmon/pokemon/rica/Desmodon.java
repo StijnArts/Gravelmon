@@ -9,7 +9,7 @@ import java.util.*;
 public class Desmodon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Desmodon() {
         super("Desmodon",
-                Type.PSYCHIC,Type.FIGHTING,
+                Type.PSYCHIC, Type.FIGHTING,
                 new Stats(75,
                         80,
                         75,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Draybow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Draybow() {
         super("Draybow",
-                Type.DRAGON,Type.FAIRY,
+                Type.DRAGON, Type.FAIRY,
                 new Stats(90,
                         50,
                         70,

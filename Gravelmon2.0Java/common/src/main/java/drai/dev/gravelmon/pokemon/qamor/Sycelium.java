@@ -9,7 +9,7 @@ import java.util.*;
 public class Sycelium extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sycelium() {
         super("Sycelium",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(88,
                         44,
                         65,

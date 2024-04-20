@@ -58,7 +58,7 @@ import java.util.*;
 public class Palamute extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palamute() {
         super("Palamute",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(60,
                         105,
                         65,

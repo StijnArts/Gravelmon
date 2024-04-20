@@ -7,7 +7,7 @@ import java.util.*;
 public class Anembidex extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anembidex() {
         super("Anembidex",
-                Type.ELECTRIC,Type.WATER,
+                Type.ELECTRIC, Type.WATER,
                 new Stats(68,
                         99,
                         60,

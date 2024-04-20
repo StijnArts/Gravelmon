@@ -7,7 +7,7 @@ import java.util.*;
 public class Icee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Icee() {
         super("Icee",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(45,
                         70,
                         50,

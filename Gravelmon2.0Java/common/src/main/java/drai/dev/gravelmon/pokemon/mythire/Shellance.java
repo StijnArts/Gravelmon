@@ -7,7 +7,7 @@ import java.util.*;
 public class Shellance extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shellance() {
         super("Shellance",
-                Type.WATER,Type.FIGHTING,
+                Type.WATER, Type.FIGHTING,
                 new Stats(53,
                         80,
                         80,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Brickozuna extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brickozuna() {
         super("Brickozuna",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

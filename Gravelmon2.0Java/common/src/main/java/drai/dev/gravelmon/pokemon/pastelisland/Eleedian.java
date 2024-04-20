@@ -58,7 +58,7 @@ import java.util.*;
 public class Eleedian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eleedian() {
         super("Eleedian",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(68,
                         90,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Chimbat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chimbat() {
         super("Chimbat",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

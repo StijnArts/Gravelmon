@@ -58,7 +58,7 @@ import java.util.*;
 public class Sollord extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sollord() {
         super("Sollord",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

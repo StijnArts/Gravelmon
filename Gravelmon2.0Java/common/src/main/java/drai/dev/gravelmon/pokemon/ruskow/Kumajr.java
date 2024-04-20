@@ -58,7 +58,7 @@ import java.util.*;
 public class Kumajr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kumajr() {
         super("Kumajr",
-                Type.PSYCHIC,Type.FAIRY,
+                Type.PSYCHIC, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

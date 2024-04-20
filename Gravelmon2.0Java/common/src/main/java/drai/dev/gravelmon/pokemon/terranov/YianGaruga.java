@@ -58,7 +58,7 @@ import java.util.*;
 public class YianGaruga extends drai.dev.gravelmon.pokemon.Pokemon {
     public YianGaruga() {
         super("YianGaruga",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(60,
                         122,
                         90,

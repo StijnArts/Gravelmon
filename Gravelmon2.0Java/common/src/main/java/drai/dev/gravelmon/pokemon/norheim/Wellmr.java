@@ -9,7 +9,7 @@ import java.util.*;
 public class Wellmr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wellmr() {
         super("Wellmr",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(97,
                         93,
                         93,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Qwirm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Qwirm() {
         super("Qwirm",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(0,
                         0,
                         0,

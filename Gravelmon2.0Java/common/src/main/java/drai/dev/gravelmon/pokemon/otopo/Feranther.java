@@ -58,7 +58,7 @@ import java.util.*;
 public class Feranther extends drai.dev.gravelmon.pokemon.Pokemon {
     public Feranther() {
         super("Feranther",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(75,
                         90,
                         50,

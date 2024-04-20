@@ -7,7 +7,7 @@ import java.util.*;
 public class Terrapir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terrapir() {
         super("Terrapir",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(85,
                         75,
                         115,

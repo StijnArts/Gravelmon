@@ -7,7 +7,7 @@ import java.util.*;
 public class Forelk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Forelk() {
         super("Forelk",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(86,
                         72,
                         87,

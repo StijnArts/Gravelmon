@@ -58,7 +58,7 @@ import java.util.*;
 public class Cupidove extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cupidove() {
         super("Cupidove",
-                Type.FAIRY,Type.LIGHT,
+                Type.FAIRY, Type.LIGHT,
                 new Stats(0,
                         0,
                         0,

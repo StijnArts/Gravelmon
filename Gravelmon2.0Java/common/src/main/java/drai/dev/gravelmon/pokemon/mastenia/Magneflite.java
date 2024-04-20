@@ -58,7 +58,7 @@ import java.util.*;
 public class Magneflite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magneflite() {
         super("Magneflite",
-                Type.FLYING,Type.GRASS,
+                Type.FLYING, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

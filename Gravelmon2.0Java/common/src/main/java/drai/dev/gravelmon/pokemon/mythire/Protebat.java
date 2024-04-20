@@ -7,7 +7,7 @@ import java.util.*;
 public class Protebat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Protebat() {
         super("Protebat",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

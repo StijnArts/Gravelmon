@@ -58,7 +58,7 @@ import java.util.*;
 public class Bombull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bombull() {
         super("Bombull",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(80,
                         70,
                         95,

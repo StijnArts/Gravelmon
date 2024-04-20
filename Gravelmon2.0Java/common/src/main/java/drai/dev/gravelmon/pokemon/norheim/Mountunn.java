@@ -9,7 +9,7 @@ import java.util.*;
 public class Mountunn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mountunn() {
         super("Mountunn",
-                Type.ELECTRIC,Type.ROCK,
+                Type.ELECTRIC, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

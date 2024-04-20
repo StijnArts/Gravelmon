@@ -9,7 +9,7 @@ import java.util.*;
 public class Reavler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reavler() {
         super("Reavler",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(65,
                         95,
                         55,

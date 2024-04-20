@@ -8,7 +8,7 @@ import java.util.*;
 public class Pestrina extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pestrina() {
         super("Pestrina",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(74,
                         107,
                         75,

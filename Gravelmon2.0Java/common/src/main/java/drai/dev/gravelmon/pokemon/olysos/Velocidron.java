@@ -58,7 +58,7 @@ import java.util.*;
 public class Velocidron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Velocidron() {
         super("Velocidron",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

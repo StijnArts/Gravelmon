@@ -9,7 +9,7 @@ import java.util.*;
 public class HavaiianGengar extends drai.dev.gravelmon.pokemon.Pokemon {
     public HavaiianGengar(int dex) {
         super(dex, "HavaiianGengar",
-                Type.GHOST,Type.FIRE,
+                Type.GHOST, Type.FIRE,
                 new Stats(60,
                         60,
                         75,

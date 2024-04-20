@@ -7,7 +7,7 @@ import java.util.*;
 public class Survulture extends drai.dev.gravelmon.pokemon.Pokemon {
     public Survulture() {
         super("Survulture",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(73,
                         69,
                         92,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Thistance extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thistance() {
         super("Thistance",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(73,
                         98,
                         90,

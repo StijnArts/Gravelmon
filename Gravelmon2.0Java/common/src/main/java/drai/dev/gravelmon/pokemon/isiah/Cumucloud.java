@@ -7,7 +7,7 @@ import java.util.*;
 public class Cumucloud extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cumucloud() {
         super("Cumucloud",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(95,
                         50,
                         60,

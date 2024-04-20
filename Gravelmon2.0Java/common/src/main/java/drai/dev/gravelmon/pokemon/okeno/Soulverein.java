@@ -6,7 +6,7 @@ import java.util.*;
 public class Soulverein extends drai.dev.gravelmon.pokemon.Pokemon {
     public Soulverein() {
         super("Soulverein",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(95,
                         80,
                         90,

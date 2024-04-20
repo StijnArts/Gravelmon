@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianHattrem extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianHattrem() {
         super("Hattrem",
-                Type.PSYCHIC,Type.GROUND,
+                Type.PSYCHIC, Type.GROUND,
                 new Stats(57,
                         40,
                         65,

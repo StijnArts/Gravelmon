@@ -58,7 +58,7 @@ import java.util.*;
 public class Buckalf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buckalf() {
         super("Buckalf",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(90,
                         60,
                         76,

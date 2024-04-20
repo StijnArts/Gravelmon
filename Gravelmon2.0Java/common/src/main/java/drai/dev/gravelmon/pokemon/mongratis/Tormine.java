@@ -58,7 +58,7 @@ import java.util.*;
 public class Tormine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tormine() {
         super("Tormine",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(85,
                         88,
                         162,

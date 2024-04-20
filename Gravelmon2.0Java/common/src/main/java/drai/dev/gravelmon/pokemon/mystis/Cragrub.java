@@ -58,7 +58,7 @@ import java.util.*;
 public class Cragrub extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cragrub() {
         super("Cragrub",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(50,
                         30,
                         80,

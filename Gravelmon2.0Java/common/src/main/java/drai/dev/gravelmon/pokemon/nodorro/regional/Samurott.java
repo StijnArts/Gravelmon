@@ -58,7 +58,7 @@ import java.util.*;
 public class Samurott extends drai.dev.gravelmon.pokemon.Pokemon {
     public Samurott(int dex) {
         super(dex, "Samurott",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(67,
                         120,
                         71,

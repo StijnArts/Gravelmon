@@ -9,7 +9,7 @@ import java.util.*;
 public class Bubbweed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bubbweed() {
         super("Bubbweed",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(53,
                         42,
                         50,

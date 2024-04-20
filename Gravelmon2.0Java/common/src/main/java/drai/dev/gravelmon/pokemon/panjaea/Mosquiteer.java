@@ -58,7 +58,7 @@ import java.util.*;
 public class Mosquiteer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mosquiteer() {
         super("Mosquiteer",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

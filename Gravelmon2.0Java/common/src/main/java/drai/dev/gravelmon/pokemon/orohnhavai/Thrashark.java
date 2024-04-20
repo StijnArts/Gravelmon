@@ -9,7 +9,7 @@ import java.util.*;
 public class Thrashark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thrashark() {
         super("Thrashark",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(50,
                         100,
                         65,

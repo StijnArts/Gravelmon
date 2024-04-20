@@ -9,7 +9,7 @@ import java.util.*;
 public class Disgaze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Disgaze() {
         super("Disgaze",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(51,
                         61,
                         35,

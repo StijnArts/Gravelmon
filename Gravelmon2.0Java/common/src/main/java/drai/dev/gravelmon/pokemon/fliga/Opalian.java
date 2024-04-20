@@ -58,7 +58,7 @@ import java.util.*;
 public class Opalian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Opalian() {
         super("Opalian",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(70,
                         90,
                         85,

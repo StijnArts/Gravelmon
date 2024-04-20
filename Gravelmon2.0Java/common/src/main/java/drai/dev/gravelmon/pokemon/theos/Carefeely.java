@@ -58,7 +58,7 @@ import java.util.*;
 public class Carefeely extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carefeely() {
         super("Carefeely",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(105,
                         60,
                         85,

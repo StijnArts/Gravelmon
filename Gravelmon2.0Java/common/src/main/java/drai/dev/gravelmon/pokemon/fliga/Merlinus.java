@@ -58,7 +58,7 @@ import java.util.*;
 public class Merlinus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Merlinus() {
         super("Merlinus",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(90,
                         140,
                         80,

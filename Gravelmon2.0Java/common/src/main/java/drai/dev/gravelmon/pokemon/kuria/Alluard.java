@@ -58,7 +58,7 @@ import java.util.*;
 public class Alluard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Alluard() {
         super("Alluard",
-                Type.LIGHT,Type.GHOST,
+                Type.LIGHT, Type.GHOST,
                 new Stats(100,
                         70,
                         100,

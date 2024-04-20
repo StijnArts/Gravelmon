@@ -8,7 +8,7 @@ import java.util.*;
 public class Papillo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Papillo() {
         super("Papillo",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(180,
                         70,
                         80,
@@ -17,7 +17,7 @@ public class Papillo extends drai.dev.gravelmon.pokemon.Pokemon {
                         50),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 15, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

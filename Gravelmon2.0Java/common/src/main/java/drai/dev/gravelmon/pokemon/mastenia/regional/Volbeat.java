@@ -58,7 +58,7 @@ import java.util.*;
 public class Volbeat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Volbeat(int dex) {
         super(dex, "Volbeat",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

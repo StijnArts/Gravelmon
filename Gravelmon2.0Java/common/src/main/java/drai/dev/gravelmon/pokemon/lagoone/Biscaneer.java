@@ -58,7 +58,7 @@ import java.util.*;
 public class Biscaneer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Biscaneer() {
         super("Biscaneer",
-                Type.FAIRY,Type.DARK,
+                Type.FAIRY, Type.DARK,
                 new Stats(45,
                         60,
                         55,

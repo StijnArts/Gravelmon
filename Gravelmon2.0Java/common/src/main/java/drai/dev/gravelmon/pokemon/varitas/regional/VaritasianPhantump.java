@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianPhantump extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianPhantump(int dex) {
         super(dex, "Phantump",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(43,
                         60,
                         38,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Seasaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Seasaw() {
         super("Seasaw",
-                Type.ROCK,Type.DARK,
+                Type.ROCK, Type.DARK,
                 new Stats(55,
                         90,
                         65,

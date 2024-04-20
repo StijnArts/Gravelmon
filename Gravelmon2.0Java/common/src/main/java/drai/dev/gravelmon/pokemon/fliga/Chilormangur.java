@@ -58,7 +58,7 @@ import java.util.*;
 public class Chilormangur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chilormangur() {
         super("Chilormangur",
-                Type.WATER,Type.BUG,
+                Type.WATER, Type.BUG,
                 new Stats(71,
                         127,
                         113,

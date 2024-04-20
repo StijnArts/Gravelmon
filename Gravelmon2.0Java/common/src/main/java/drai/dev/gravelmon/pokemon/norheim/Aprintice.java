@@ -9,7 +9,7 @@ import java.util.*;
 public class Aprintice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aprintice() {
         super("Aprintice",
-                Type.ICE,Type.PSYCHIC,
+                Type.ICE, Type.PSYCHIC,
                 new Stats(47,
                         20,
                         30,

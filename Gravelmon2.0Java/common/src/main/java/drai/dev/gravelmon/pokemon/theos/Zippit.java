@@ -58,7 +58,7 @@ import java.util.*;
 public class Zippit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zippit() {
         super("Zippit",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(40,
                         45,
                         30,

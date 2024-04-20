@@ -9,7 +9,7 @@ import java.util.*;
 public class Galactix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Galactix() {
         super("Galactix",
-                Type.STEEL,Type.PSYCHIC,
+                Type.STEEL, Type.PSYCHIC,
                 new Stats(75,
                         85,
                         200,

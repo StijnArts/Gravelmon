@@ -7,7 +7,7 @@ import java.util.*;
 public class Strappen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Strappen() {
         super("Strappen",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(50,
                         65,
                         45,

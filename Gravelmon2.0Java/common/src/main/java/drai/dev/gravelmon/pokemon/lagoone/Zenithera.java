@@ -58,7 +58,7 @@ import java.util.*;
 public class Zenithera extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zenithera() {
         super("Zenithera",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(85,
                         100,
                         90,

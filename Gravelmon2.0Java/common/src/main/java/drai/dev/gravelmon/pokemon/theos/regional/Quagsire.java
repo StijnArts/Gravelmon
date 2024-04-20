@@ -58,7 +58,7 @@ import java.util.*;
 public class Quagsire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quagsire(int dex) {
         super(dex, "Quagsire",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(85,
                         65,
                         65,

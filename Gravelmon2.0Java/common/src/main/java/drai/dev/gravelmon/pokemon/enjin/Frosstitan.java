@@ -58,7 +58,7 @@ import java.util.*;
 public class Frosstitan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frosstitan() {
         super("Frosstitan",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(122,
                         111,
                         106,
@@ -175,8 +175,8 @@ public class Frosstitan extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 52, 64, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

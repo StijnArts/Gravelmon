@@ -58,7 +58,7 @@ import java.util.*;
 public class Murkrow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Murkrow(int dex) {
         super(dex, "Murkrow",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(60,
                         85,
                         42,

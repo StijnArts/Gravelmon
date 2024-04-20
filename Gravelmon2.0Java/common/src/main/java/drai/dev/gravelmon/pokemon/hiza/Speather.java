@@ -7,7 +7,7 @@ import java.util.*;
 public class Speather extends drai.dev.gravelmon.pokemon.Pokemon {
     public Speather() {
         super("Speather",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(80,
                         90,
                         70,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Ancaleana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ancaleana() {
         super("Ancaleana",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(105,
                         95,
                         83,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Soarup extends drai.dev.gravelmon.pokemon.Pokemon {
     public Soarup() {
         super("Soarup",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(74,
                         75,
                         57,

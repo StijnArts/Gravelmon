@@ -7,7 +7,7 @@ import java.util.*;
 public class Chemito extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chemito() {
         super("Chemito",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(35,
                         65,
                         35,

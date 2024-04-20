@@ -58,7 +58,7 @@ import java.util.*;
 public class Shroudice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shroudice() {
         super("Shroudice",
-                Type.GHOST,Type.ICE,
+                Type.GHOST, Type.ICE,
                 new Stats(66,
                         123,
                         80,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Leeceri extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leeceri() {
         super("Leeceri",
-                Type.DRAGON,Type.FAIRY,
+                Type.DRAGON, Type.FAIRY,
                 new Stats(95,
                         85,
                         85,

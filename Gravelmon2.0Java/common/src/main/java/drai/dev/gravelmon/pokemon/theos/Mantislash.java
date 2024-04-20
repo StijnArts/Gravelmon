@@ -58,7 +58,7 @@ import java.util.*;
 public class Mantislash extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mantislash() {
         super("Mantislash",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(65,
                         115,
                         60,

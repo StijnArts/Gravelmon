@@ -7,7 +7,7 @@ import java.util.*;
 public class Albalue extends drai.dev.gravelmon.pokemon.Pokemon {
     public Albalue() {
         super("Albalue",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(60,
                         80,
                         55,

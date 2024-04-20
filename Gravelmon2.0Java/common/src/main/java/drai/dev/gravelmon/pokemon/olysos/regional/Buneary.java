@@ -58,7 +58,7 @@ import java.util.*;
 public class Buneary extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buneary(int dex) {
         super(dex, "Buneary",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Bwug extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bwug() {
         super("Bwug",
-                Type.FAIRY,Type.BUG,
+                Type.FAIRY, Type.BUG,
                 new Stats(0,
                         0,
                         0,

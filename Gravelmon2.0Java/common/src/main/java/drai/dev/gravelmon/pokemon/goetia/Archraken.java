@@ -58,7 +58,7 @@ import java.util.*;
 public class Archraken extends drai.dev.gravelmon.pokemon.Pokemon {
     public Archraken() {
         super("Archraken",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

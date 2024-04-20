@@ -7,7 +7,7 @@ import java.util.*;
 public class Sealestial extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sealestial() {
         super("Sealestial",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(73,
                         50,
                         105,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Wyrmonger extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wyrmonger() {
         super("Wyrmonger",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(45,
                         59,
                         144,

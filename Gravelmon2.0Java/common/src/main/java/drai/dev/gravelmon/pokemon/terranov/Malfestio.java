@@ -58,7 +58,7 @@ import java.util.*;
 public class Malfestio extends drai.dev.gravelmon.pokemon.Pokemon {
     public Malfestio() {
         super("Malfestio",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

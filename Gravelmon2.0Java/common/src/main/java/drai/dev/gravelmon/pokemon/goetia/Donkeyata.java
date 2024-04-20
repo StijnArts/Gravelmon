@@ -58,7 +58,7 @@ import java.util.*;
 public class Donkeyata extends drai.dev.gravelmon.pokemon.Pokemon {
     public Donkeyata() {
         super("Donkeyata",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

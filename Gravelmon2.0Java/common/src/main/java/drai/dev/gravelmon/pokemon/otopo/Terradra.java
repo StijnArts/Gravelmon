@@ -58,7 +58,7 @@ import java.util.*;
 public class Terradra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terradra() {
         super("Terradra",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Lollilop extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lollilop() {
         super("Lollilop",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Lusigusi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lusigusi() {
         super("Lusigusi",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(60,
                         96,
                         125,

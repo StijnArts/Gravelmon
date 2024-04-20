@@ -9,7 +9,7 @@ import java.util.*;
 public class Kiell extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kiell() {
         super("Kiell",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(50,
                         65,
                         50,

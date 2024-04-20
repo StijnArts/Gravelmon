@@ -9,7 +9,7 @@ import java.util.*;
 public class Emperiegle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Emperiegle() {
         super("Emperiegle",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(90,
                         125,
                         72,

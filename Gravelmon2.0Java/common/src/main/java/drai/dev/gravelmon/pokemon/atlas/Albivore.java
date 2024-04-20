@@ -13,7 +13,7 @@ import java.util.*;
 public class Albivore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Albivore() {
         super("Albivore",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(64,
                         85,
                         52,

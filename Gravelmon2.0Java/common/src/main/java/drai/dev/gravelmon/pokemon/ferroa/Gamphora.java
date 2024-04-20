@@ -7,7 +7,7 @@ import java.util.*;
 public class Gamphora extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gamphora() {
         super("Gamphora",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(60,
                         45,
                         170,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Juvy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Juvy() {
         super("Juvy",
-                Type.FLYING,Type.DARK,
+                Type.FLYING, Type.DARK,
                 new Stats(35,
                         60,
                         30,

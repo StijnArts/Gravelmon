@@ -58,7 +58,7 @@ import java.util.*;
 public class Foliphant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Foliphant() {
         super("Foliphant",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(60,
                         60,
                         80,

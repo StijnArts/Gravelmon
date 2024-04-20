@@ -58,7 +58,7 @@ import java.util.*;
 public class Cereusaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cereusaur() {
         super("Cereusaur",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(90,
                         91,
                         103,

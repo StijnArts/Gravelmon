@@ -58,7 +58,7 @@ import java.util.*;
 public class Vulkynamo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vulkynamo() {
         super("Vulkynamo",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(70,
                         52,
                         50,

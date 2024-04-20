@@ -7,7 +7,7 @@ import java.util.*;
 public class Stinginger extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stinginger() {
         super("Stinginger",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(60,
                         105,
                         80,

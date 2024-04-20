@@ -7,7 +7,7 @@ import java.util.*;
 public class Tropiary extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tropiary() {
         super("Tropiary",
-                Type.GRASS,Type.STEEL,
+                Type.GRASS, Type.STEEL,
                 new Stats(77,
                         100,
                         121,

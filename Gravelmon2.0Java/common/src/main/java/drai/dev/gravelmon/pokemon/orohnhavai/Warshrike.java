@@ -13,7 +13,7 @@ import java.util.*;
 public class Warshrike extends drai.dev.gravelmon.pokemon.Pokemon {
     public Warshrike() {
         super("Warshrike",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(84,
                         110,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Mosaile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mosaile() {
         super("Mosaile",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

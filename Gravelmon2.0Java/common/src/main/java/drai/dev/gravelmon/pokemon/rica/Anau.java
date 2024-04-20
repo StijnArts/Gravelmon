@@ -9,7 +9,7 @@ import java.util.*;
 public class Anau extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anau() {
         super("Anau",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(60,
                         60,
                         105,

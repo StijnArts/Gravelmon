@@ -58,7 +58,7 @@ import java.util.*;
 public class Crustle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crustle(int dex) {
         super(dex, "Crustle",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(70,
                         105,
                         125,

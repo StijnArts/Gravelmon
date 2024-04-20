@@ -9,7 +9,7 @@ import java.util.*;
 public class Inferaid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Inferaid() {
         super("Inferaid",
-                Type.FIGHTING,Type.DARK,
+                Type.FIGHTING, Type.DARK,
                 new Stats(85,
                         100,
                         85,

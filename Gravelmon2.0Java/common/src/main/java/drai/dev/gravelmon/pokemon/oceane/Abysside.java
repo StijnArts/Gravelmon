@@ -7,7 +7,7 @@ import java.util.*;
 public class Abysside extends drai.dev.gravelmon.pokemon.Pokemon {
     public Abysside() {
         super("Abysside",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(0,
                         0,
                         0,

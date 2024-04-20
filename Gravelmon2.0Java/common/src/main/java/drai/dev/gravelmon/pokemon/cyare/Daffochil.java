@@ -58,7 +58,7 @@ import java.util.*;
 public class Daffochil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Daffochil() {
         super("Daffochil",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

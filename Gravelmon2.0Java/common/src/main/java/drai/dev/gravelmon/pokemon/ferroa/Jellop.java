@@ -7,7 +7,7 @@ import java.util.*;
 public class Jellop extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jellop() {
         super("Jellop",
-                Type.FIGHTING,Type.ELECTRIC,
+                Type.FIGHTING, Type.ELECTRIC,
                 new Stats(50,
                         60,
                         40,

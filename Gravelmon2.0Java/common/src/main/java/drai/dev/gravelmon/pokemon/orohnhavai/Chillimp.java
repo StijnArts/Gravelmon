@@ -9,7 +9,7 @@ import java.util.*;
 public class Chillimp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chillimp() {
         super("Chillimp",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

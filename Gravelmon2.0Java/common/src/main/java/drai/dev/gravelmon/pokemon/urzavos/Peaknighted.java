@@ -58,7 +58,7 @@ import java.util.*;
 public class Peaknighted extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peaknighted() {
         super("Peaknighted",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

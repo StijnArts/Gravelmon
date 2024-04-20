@@ -11,7 +11,7 @@ import java.util.*;
 public class Bloatick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bloatick() {
         super("Bloatick",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(43,
                         46,
                         78,

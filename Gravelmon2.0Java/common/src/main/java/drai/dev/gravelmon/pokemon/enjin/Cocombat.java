@@ -58,7 +58,7 @@ import java.util.*;
 public class Cocombat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cocombat() {
         super("Cocombat",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(90,
                         120,
                         80,
@@ -67,7 +67,7 @@ public class Cocombat extends drai.dev.gravelmon.pokemon.Pokemon {
                         115),
                 List.of(Ability.IRON_FIST), Ability.CHLOROPHYLL,
                 15, 644,
-                new Stats(0,2,0,0,0,0), 0,
+                new Stats(0,2,0,0,0,0), 60,
                 0.5,
                 180, ExperienceGroup.FAST,
                 70,
@@ -154,8 +154,8 @@ public class Cocombat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRST_IMPRESSION,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 53, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

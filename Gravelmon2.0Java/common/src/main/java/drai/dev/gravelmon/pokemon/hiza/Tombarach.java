@@ -7,7 +7,7 @@ import java.util.*;
 public class Tombarach extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tombarach() {
         super("Tombarach",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(112,
                         113,
                         130,

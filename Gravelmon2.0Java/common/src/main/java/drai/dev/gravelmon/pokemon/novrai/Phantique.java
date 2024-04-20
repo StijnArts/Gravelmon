@@ -7,7 +7,7 @@ import java.util.*;
 public class Phantique extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phantique() {
         super("Phantique",
-                Type.ROCK,Type.GHOST,
+                Type.ROCK, Type.GHOST,
                 new Stats(75,
                         80,
                         125,

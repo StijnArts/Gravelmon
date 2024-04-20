@@ -9,7 +9,7 @@ import java.util.*;
 public class Barrakoba extends drai.dev.gravelmon.pokemon.Pokemon {
     public Barrakoba() {
         super("Barrakoba",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(115,
                         111,
                         100,

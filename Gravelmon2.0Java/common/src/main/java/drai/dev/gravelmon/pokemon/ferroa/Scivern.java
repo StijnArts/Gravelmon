@@ -7,7 +7,7 @@ import java.util.*;
 public class Scivern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scivern() {
         super("Scivern",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

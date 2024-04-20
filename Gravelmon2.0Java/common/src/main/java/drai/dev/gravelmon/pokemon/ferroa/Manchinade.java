@@ -7,7 +7,7 @@ import java.util.*;
 public class Manchinade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Manchinade() {
         super("Manchinade",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(40,
                         50,
                         60,

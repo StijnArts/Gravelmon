@@ -58,7 +58,7 @@ import java.util.*;
 public class ShogunCeanataur extends drai.dev.gravelmon.pokemon.Pokemon {
     public ShogunCeanataur() {
         super("ShogunCeanataur",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(75,
                         110,
                         100,

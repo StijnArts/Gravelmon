@@ -7,7 +7,7 @@ import java.util.*;
 public class Reptide extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reptide() {
         super("Reptide",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(100,
                         80,
                         90,

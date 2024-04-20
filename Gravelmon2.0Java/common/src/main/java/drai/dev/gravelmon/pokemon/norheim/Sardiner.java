@@ -9,7 +9,7 @@ import java.util.*;
 public class Sardiner extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sardiner() {
         super("Sardiner",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(30,
                         10,
                         80,

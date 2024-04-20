@@ -58,7 +58,7 @@ import java.util.*;
 public class Faewren extends drai.dev.gravelmon.pokemon.Pokemon {
     public Faewren() {
         super("Faewren",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

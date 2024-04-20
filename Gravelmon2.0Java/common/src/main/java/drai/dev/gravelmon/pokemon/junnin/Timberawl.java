@@ -11,7 +11,7 @@ import java.util.*;
 public class Timberawl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Timberawl() {
         super("Timberawl",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(97,
                         105,
                         105,

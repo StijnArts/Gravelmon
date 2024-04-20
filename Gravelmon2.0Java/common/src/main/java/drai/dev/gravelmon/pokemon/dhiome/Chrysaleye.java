@@ -8,7 +8,7 @@ import java.util.*;
 public class Chrysaleye extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chrysaleye() {
         super("Chrysaleye",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

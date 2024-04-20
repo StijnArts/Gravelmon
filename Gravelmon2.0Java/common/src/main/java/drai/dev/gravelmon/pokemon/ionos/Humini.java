@@ -58,7 +58,7 @@ import java.util.*;
 public class Humini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Humini() {
         super("Humini",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

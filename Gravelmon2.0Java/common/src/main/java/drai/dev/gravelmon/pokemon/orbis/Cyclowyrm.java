@@ -58,7 +58,7 @@ import java.util.*;
 public class Cyclowyrm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cyclowyrm() {
         super("Cyclowyrm",
-                Type.FLYING,Type.DRAGON,
+                Type.FLYING, Type.DRAGON,
                 new Stats(60,
                         50,
                         50,

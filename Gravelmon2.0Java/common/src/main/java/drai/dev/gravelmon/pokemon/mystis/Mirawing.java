@@ -58,7 +58,7 @@ import java.util.*;
 public class Mirawing extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mirawing() {
         super("Mirawing",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(70,
                         60,
                         75,

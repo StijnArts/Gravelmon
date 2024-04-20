@@ -58,7 +58,7 @@ import java.util.*;
 public class Caconie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Caconie() {
         super("Caconie",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(99,
                         100,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Ovizap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ovizap() {
         super("Ovizap",
-                Type.ELECTRIC,Type.DRAGON,
+                Type.ELECTRIC, Type.DRAGON,
                 new Stats(45,
                         40,
                         55,

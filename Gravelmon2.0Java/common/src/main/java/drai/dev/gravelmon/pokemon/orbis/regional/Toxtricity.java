@@ -58,7 +58,7 @@ import java.util.*;
 public class Toxtricity extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toxtricity(int dex) {
         super(dex, "Toxtricity",
-                Type.ELECTRIC,Type.POISON,
+                Type.ELECTRIC, Type.POISON,
                 new Stats(75,
                         98,
                         70,

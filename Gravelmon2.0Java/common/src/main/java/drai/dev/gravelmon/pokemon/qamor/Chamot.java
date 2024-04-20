@@ -9,7 +9,7 @@ import java.util.*;
 public class Chamot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chamot() {
         super("Chamot",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(45,
                         30,
                         95,

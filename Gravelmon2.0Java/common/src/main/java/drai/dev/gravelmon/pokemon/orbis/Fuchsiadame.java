@@ -58,7 +58,7 @@ import java.util.*;
 public class Fuchsiadame extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fuchsiadame() {
         super("Fuchsiadame",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(100,
                         65,
                         60,

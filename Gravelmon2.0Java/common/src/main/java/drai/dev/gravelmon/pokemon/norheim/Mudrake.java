@@ -9,7 +9,7 @@ import java.util.*;
 public class Mudrake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mudrake() {
         super("Mudrake",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(65,
                         80,
                         75,

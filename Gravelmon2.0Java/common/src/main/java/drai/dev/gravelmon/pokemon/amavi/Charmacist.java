@@ -8,7 +8,7 @@ import java.util.*;
 public class Charmacist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Charmacist() {
         super("Charmacist",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(200,
                         40,
                         50,
@@ -17,7 +17,7 @@ public class Charmacist extends drai.dev.gravelmon.pokemon.Pokemon {
                         70),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 13, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

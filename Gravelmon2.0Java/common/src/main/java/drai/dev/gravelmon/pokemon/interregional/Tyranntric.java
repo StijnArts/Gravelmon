@@ -7,7 +7,7 @@ import java.util.*;
 public class Tyranntric extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tyranntric() {
         super("Tyranntric",
-                Type.ELECTRIC,Type.DRAGON,
+                Type.ELECTRIC, Type.DRAGON,
                 new Stats(70,
                         130,
                         90,

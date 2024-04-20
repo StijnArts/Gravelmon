@@ -9,7 +9,7 @@ import java.util.*;
 public class Drifsea extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drifsea() {
         super("Drifsea",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(82,
                         70,
                         76,

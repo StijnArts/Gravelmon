@@ -7,7 +7,7 @@ import java.util.*;
 public class Orbitalon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Orbitalon() {
         super("Orbitalon",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(50,
                         70,
                         60,

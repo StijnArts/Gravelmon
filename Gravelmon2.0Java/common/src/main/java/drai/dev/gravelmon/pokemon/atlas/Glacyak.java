@@ -7,7 +7,7 @@ import java.util.*;
 public class Glacyak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glacyak() {
         super("Glacyak",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(89,
                         105,
                         95,

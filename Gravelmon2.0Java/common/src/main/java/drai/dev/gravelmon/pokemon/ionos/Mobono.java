@@ -58,7 +58,7 @@ import java.util.*;
 public class Mobono extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mobono() {
         super("Mobono",
-                Type.FIGHTING,Type.DARK,
+                Type.FIGHTING, Type.DARK,
                 new Stats(0,
                         0,
                         0,

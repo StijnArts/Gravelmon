@@ -7,7 +7,7 @@ import java.util.*;
 public class Silvictor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Silvictor() {
         super("Silvictor",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(60,
                         105,
                         105,

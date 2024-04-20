@@ -7,7 +7,7 @@ import java.util.*;
 public class Fabulusk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fabulusk() {
         super("Fabulusk",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(77,
                         72,
                         73,

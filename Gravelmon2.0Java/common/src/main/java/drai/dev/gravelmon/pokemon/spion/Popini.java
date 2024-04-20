@@ -58,7 +58,7 @@ import java.util.*;
 public class Popini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Popini() {
         super("Popini",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(70,
                         30,
                         48,

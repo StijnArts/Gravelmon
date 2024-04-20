@@ -58,7 +58,7 @@ import java.util.*;
 public class Owleaf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Owleaf() {
         super("Owleaf",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

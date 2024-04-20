@@ -7,7 +7,7 @@ import java.util.*;
 public class Wisper extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wisper() {
         super("Wisper",
-                Type.GHOST,Type.FIRE,
+                Type.GHOST, Type.FIRE,
                 new Stats(40,
                         20,
                         30,

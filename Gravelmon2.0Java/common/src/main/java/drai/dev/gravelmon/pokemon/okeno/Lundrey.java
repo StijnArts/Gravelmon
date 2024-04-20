@@ -6,7 +6,7 @@ import java.util.*;
 public class Lundrey extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lundrey() {
         super("Lundrey",
-                Type.NORMAL,Type.POISON,
+                Type.NORMAL, Type.POISON,
                 new Stats(71,
                         35,
                         61,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Joulereign extends drai.dev.gravelmon.pokemon.Pokemon {
     public Joulereign() {
         super("Joulereign",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(60,
                         105,
                         52,

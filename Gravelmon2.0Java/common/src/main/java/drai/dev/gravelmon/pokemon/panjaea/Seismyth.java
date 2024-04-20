@@ -58,7 +58,7 @@ import java.util.*;
 public class Seismyth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Seismyth() {
         super("Seismyth",
-                Type.GROUND,Type.FLYING,
+                Type.GROUND, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Cockroast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cockroast() {
         super("Cockroast",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(45,
                         60,
                         40,

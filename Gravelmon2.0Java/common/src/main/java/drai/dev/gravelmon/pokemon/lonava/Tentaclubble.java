@@ -7,7 +7,7 @@ import java.util.*;
 public class Tentaclubble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tentaclubble() {
         super("Tentaclubble",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(70,
                         85,
                         110,

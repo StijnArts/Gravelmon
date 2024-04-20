@@ -58,7 +58,7 @@ import java.util.*;
 public class Carcahawk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carcahawk() {
         super("Carcahawk",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(70,
                         94,
                         72,
@@ -67,7 +67,7 @@ public class Carcahawk extends drai.dev.gravelmon.pokemon.Pokemon {
                         98),
                 List.of(Ability.FLASH_FIRE,Ability.FIERYSPIRIT), Ability.DROUGHT,
                 14, 0,
-                new Stats(0,1,0,0,0,1), 0,
+                new Stats(0,1,0,0,0,1), 40,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -128,7 +128,7 @@ public class Carcahawk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MIRROR_MOVE,"tm"),
                         new MoveLearnSetEntry(Move.SKY_DROP,"tm"),
                         new MoveLearnSetEntry(Move.FEATHERRUSH,"tm")                        ),
-                List.of(Label.FLIGA),
+                List.of(Label.OKENO),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 37, 54, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),

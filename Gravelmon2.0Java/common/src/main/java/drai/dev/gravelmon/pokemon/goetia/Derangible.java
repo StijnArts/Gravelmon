@@ -58,7 +58,7 @@ import java.util.*;
 public class Derangible extends drai.dev.gravelmon.pokemon.Pokemon {
     public Derangible() {
         super("Derangible",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -11,7 +11,7 @@ import java.util.*;
 public class Cavernight extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cavernight() {
         super("Cavernight",
-                Type.ROCK,Type.DARK,
+                Type.ROCK, Type.DARK,
                 new Stats(80,
                         80,
                         159,

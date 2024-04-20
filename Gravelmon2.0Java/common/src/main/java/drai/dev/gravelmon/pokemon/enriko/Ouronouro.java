@@ -7,7 +7,7 @@ import java.util.*;
 public class Ouronouro extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ouronouro() {
         super("Ouronouro",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

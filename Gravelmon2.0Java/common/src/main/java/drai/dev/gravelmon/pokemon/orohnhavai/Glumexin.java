@@ -9,7 +9,7 @@ import java.util.*;
 public class Glumexin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glumexin() {
         super("Glumexin",
-                Type.POISON,Type.ELECTRIC,
+                Type.POISON, Type.ELECTRIC,
                 new Stats(78,
                         54,
                         81,

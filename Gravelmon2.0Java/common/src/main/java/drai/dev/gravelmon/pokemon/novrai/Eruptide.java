@@ -7,7 +7,7 @@ import java.util.*;
 public class Eruptide extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eruptide() {
         super("Eruptide",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(187,
                         58,
                         40,

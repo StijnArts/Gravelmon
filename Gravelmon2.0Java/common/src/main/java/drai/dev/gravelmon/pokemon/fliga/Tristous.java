@@ -58,7 +58,7 @@ import java.util.*;
 public class Tristous extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tristous() {
         super("Tristous",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(120,
                         70,
                         80,

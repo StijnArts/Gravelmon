@@ -9,7 +9,7 @@ import java.util.*;
 public class Rewt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rewt() {
         super("Rewt",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(35,
                         35,
                         65,

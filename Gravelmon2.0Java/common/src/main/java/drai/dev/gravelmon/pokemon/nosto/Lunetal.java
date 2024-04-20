@@ -7,7 +7,7 @@ import java.util.*;
 public class Lunetal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lunetal() {
         super("Lunetal",
-                Type.STEEL,Type.NORMAL,
+                Type.STEEL, Type.NORMAL,
                 new Stats(58,
                         75,
                         50,

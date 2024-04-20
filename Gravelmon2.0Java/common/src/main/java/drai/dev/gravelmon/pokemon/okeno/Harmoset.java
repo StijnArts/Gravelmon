@@ -6,7 +6,7 @@ import java.util.*;
 public class Harmoset extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harmoset() {
         super("Harmoset",
-                Type.PSYCHIC,Type.FIGHTING,
+                Type.PSYCHIC, Type.FIGHTING,
                 new Stats(57,
                         70,
                         41,

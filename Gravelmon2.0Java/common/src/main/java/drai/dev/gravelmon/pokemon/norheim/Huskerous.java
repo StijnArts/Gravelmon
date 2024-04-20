@@ -9,7 +9,7 @@ import java.util.*;
 public class Huskerous extends drai.dev.gravelmon.pokemon.Pokemon {
     public Huskerous() {
         super("Huskerous",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(96,
                         98,
                         130,

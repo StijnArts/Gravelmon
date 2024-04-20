@@ -9,7 +9,7 @@ import java.util.*;
 public class Monsturge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Monsturge() {
         super("Monsturge",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

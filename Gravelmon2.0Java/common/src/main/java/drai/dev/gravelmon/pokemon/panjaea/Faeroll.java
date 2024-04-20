@@ -58,7 +58,7 @@ import java.util.*;
 public class Faeroll extends drai.dev.gravelmon.pokemon.Pokemon {
     public Faeroll() {
         super("Faeroll",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

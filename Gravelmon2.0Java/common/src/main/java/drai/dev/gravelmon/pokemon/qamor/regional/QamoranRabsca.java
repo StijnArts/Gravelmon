@@ -9,7 +9,7 @@ import java.util.*;
 public class QamoranRabsca extends drai.dev.gravelmon.pokemon.Pokemon {
     public QamoranRabsca(int dex) {
         super(dex, "Rabsca",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(75,
                         50,
                         100,

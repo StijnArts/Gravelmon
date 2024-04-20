@@ -58,7 +58,7 @@ import java.util.*;
 public class Solsaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Solsaur() {
         super("Solsaur",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Celefin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Celefin() {
         super("Celefin",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

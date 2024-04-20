@@ -58,7 +58,7 @@ import java.util.*;
 public class Senfetta extends drai.dev.gravelmon.pokemon.Pokemon {
     public Senfetta() {
         super("Senfetta",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(92,
                         68,
                         72,

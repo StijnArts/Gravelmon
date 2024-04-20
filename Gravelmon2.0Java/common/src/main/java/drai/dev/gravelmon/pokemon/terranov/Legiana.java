@@ -58,7 +58,7 @@ import java.util.*;
 public class Legiana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Legiana() {
         super("Legiana",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(71,
                         87,
                         75,

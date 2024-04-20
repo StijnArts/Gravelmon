@@ -58,7 +58,7 @@ import java.util.*;
 public class Tarexite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tarexite() {
         super("Tarexite",
-                Type.GROUND,Type.FIRE,
+                Type.GROUND, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

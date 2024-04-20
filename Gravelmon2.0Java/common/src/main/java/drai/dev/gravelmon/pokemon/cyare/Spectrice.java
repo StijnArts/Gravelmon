@@ -58,7 +58,7 @@ import java.util.*;
 public class Spectrice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spectrice() {
         super("Spectrice",
-                Type.ICE,Type.GHOST,
+                Type.ICE, Type.GHOST,
                 new Stats(90,
                         71,
                         80,

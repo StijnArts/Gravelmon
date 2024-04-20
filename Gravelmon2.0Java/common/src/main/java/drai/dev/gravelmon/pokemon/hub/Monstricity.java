@@ -7,7 +7,7 @@ import java.util.*;
 public class Monstricity extends drai.dev.gravelmon.pokemon.Pokemon {
     public Monstricity() {
         super("Monstricity",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(80,
                         100,
                         80,

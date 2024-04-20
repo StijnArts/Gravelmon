@@ -7,7 +7,7 @@ import java.util.*;
 public class Boxbuffer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boxbuffer() {
         super("Boxbuffer",
-                Type.FIGHTING,Type.POISON,
+                Type.FIGHTING, Type.POISON,
                 new Stats(110,
                         130,
                         40,

@@ -18,7 +18,7 @@ import java.util.*;
 public class NeoGeodude extends drai.dev.gravelmon.pokemon.Pokemon {
     public NeoGeodude(int dex) {
         super(dex, "Geodude",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(40,
                         75,
                         100,

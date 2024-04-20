@@ -58,7 +58,7 @@ import java.util.*;
 public class Scopper extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scopper() {
         super("Scopper",
-                Type.ELECTRIC,Type.BUG,
+                Type.ELECTRIC, Type.BUG,
                 new Stats(0,
                         0,
                         0,

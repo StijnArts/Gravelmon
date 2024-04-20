@@ -58,7 +58,7 @@ import java.util.*;
 public class Borpion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Borpion() {
         super("Borpion",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

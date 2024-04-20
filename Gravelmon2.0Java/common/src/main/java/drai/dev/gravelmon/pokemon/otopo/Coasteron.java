@@ -58,7 +58,7 @@ import java.util.*;
 public class Coasteron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coasteron() {
         super("Coasteron",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(50,
                         50,
                         50,

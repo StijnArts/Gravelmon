@@ -9,7 +9,7 @@ import java.util.*;
 public class Elefjant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elefjant() {
         super("Elefjant",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

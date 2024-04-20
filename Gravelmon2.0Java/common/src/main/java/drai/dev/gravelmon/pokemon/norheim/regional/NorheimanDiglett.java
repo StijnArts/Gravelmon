@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanDiglett extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanDiglett(int dex) {
         super(dex, "Diglett",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

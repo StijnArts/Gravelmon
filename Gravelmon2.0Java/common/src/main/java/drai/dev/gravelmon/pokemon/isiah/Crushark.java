@@ -7,7 +7,7 @@ import java.util.*;
 public class Crushark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crushark() {
         super("Crushark",
-                Type.WATER,Type.FIGHTING,
+                Type.WATER, Type.FIGHTING,
                 new Stats(104,
                         102,
                         123,

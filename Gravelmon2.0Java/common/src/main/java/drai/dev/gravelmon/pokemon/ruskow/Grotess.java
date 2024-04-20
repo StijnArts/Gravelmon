@@ -58,7 +58,7 @@ import java.util.*;
 public class Grotess extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grotess() {
         super("Grotess",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,
                         0,

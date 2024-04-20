@@ -13,7 +13,7 @@ import java.util.*;
 public class Faelily extends drai.dev.gravelmon.pokemon.Pokemon {
     public Faelily() {
         super("Faelily",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(80,
                         60,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Molore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Molore() {
         super("Molore",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(50,
                         60,
                         80,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Searell extends drai.dev.gravelmon.pokemon.Pokemon {
     public Searell() {
         super("Searell",
-                Type.NORMAL,Type.FIRE,
+                Type.NORMAL, Type.FIRE,
                 new Stats(65,
                         90,
                         65,

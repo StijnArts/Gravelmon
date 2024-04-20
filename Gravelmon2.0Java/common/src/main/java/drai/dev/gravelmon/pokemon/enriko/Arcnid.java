@@ -7,7 +7,7 @@ import java.util.*;
 public class Arcnid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arcnid() {
         super("Arcnid",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(75,
                         110,
                         100,

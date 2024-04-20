@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianDrakloak extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianDrakloak() {
         super("Drakloak",
-                Type.DRAGON,Type.WATER,
+                Type.DRAGON, Type.WATER,
                 new Stats(68,
                         80,
                         50,

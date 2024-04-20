@@ -58,7 +58,7 @@ import java.util.*;
 public class Octusy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Octusy() {
         super("Octusy",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

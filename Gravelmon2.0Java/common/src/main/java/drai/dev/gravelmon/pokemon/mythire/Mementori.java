@@ -7,7 +7,7 @@ import java.util.*;
 public class Mementori extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mementori() {
         super("Mementori",
-                Type.FLYING,Type.GHOST,
+                Type.FLYING, Type.GHOST,
                 new Stats(90,
                         120,
                         70,

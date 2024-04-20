@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianTogetic extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianTogetic(int dex) {
         super(dex, "Togetic",
-                Type.FAIRY,Type.STEEL,
+                Type.FAIRY, Type.STEEL,
                 new Stats(55,
                         70,
                         90,

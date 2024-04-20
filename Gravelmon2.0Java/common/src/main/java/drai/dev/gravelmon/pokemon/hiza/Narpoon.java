@@ -7,7 +7,7 @@ import java.util.*;
 public class Narpoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Narpoon() {
         super("Narpoon",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(60,
                         60,
                         30,

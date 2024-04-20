@@ -58,7 +58,7 @@ import java.util.*;
 public class Tublip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tublip() {
         super("Tublip",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(0,
                         0,
                         0,

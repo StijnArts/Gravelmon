@@ -58,7 +58,7 @@ import java.util.*;
 public class Rajang extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rajang() {
         super("Rajang",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(70,
                         140,
                         89,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Sporges extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sporges() {
         super("Sporges",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(78,
                         65,
                         68,

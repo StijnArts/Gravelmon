@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianAnorith extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianAnorith(int dex) {
         super(dex, "Anorith",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(45,
                         95,
                         50,

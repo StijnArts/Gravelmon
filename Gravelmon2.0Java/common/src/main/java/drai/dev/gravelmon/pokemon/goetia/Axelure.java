@@ -58,7 +58,7 @@ import java.util.*;
 public class Axelure extends drai.dev.gravelmon.pokemon.Pokemon {
     public Axelure() {
         super("Axelure",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

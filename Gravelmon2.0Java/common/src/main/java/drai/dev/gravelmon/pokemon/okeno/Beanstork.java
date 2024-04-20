@@ -12,7 +12,7 @@ import java.util.*;
 public class Beanstork extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beanstork() {
         super("Beanstork",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(65,
                         100,
                         50,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sarcospike extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sarcospike() {
         super("Sarcospike",
-                Type.STEEL,Type.FIRE,
+                Type.STEEL, Type.FIRE,
                 new Stats(80,
                         97,
                         125,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Overroard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Overroard() {
         super("Overroard",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(68,
                         122,
                         75,

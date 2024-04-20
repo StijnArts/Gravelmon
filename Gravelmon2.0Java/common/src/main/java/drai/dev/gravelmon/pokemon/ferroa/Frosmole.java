@@ -7,7 +7,7 @@ import java.util.*;
 public class Frosmole extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frosmole() {
         super("Frosmole",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(95,
                         115,
                         60,

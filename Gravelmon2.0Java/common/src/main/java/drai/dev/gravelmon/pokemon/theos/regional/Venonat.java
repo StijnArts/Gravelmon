@@ -58,7 +58,7 @@ import java.util.*;
 public class Venonat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Venonat(int dex) {
         super(dex, "Venonat",
-                Type.PSYCHIC,Type.POISON,
+                Type.PSYCHIC, Type.POISON,
                 new Stats(60,
                         55,
                         50,

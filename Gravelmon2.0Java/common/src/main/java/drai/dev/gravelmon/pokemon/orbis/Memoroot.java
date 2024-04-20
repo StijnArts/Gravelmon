@@ -58,7 +58,7 @@ import java.util.*;
 public class Memoroot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Memoroot() {
         super("Memoroot",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Chenileaf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chenileaf() {
         super("Chenileaf",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(35,
                         30,
                         25,

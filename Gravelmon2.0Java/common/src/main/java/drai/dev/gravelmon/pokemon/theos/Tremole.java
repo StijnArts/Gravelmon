@@ -58,7 +58,7 @@ import java.util.*;
 public class Tremole extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tremole() {
         super("Tremole",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(110,
                         105,
                         90,

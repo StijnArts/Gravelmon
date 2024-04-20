@@ -7,7 +7,7 @@ import java.util.*;
 public class Paratweet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paratweet() {
         super("Paratweet",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(72,
                         86,
                         72,

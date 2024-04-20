@@ -8,7 +8,7 @@ import java.util.*;
 public class Furatle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Furatle() {
         super("Furatle",
-                Type.FIGHTING,Type.POISON,
+                Type.FIGHTING, Type.POISON,
                 new Stats(0,
                         0,
                         0,

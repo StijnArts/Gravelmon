@@ -58,7 +58,7 @@ import java.util.*;
 public class Armorable extends drai.dev.gravelmon.pokemon.Pokemon {
     public Armorable() {
         super("Armorable",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(96,
                         70,
                         124,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Trawlossus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trawlossus() {
         super("Trawlossus",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(70,
                         80,
                         50,

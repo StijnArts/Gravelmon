@@ -7,7 +7,7 @@ import java.util.*;
 public class Snofresh extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snofresh() {
         super("Snofresh",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(100,
                         45,
                         35,

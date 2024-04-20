@@ -58,7 +58,7 @@ import java.util.*;
 public class Panseidon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Panseidon() {
         super("Panseidon",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

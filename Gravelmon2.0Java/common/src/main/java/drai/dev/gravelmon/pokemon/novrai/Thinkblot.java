@@ -7,7 +7,7 @@ import java.util.*;
 public class Thinkblot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thinkblot() {
         super("Thinkblot",
-                Type.DARK,Type.PSYCHIC,
+                Type.DARK, Type.PSYCHIC,
                 new Stats(28,
                         20,
                         25,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Aron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aron(int dex) {
         super(dex, "Aron",
-                Type.STEEL,Type.ROCK,
+                Type.STEEL, Type.ROCK,
                 new Stats(50,
                         70,
                         85,

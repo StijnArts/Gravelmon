@@ -58,7 +58,7 @@ import java.util.*;
 public class Pilomoss extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pilomoss() {
         super("Pilomoss",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(60,
                         45,
                         60,

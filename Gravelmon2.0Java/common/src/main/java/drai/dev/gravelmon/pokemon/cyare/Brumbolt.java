@@ -58,7 +58,7 @@ import java.util.*;
 public class Brumbolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brumbolt() {
         super("Brumbolt",
-                Type.NORMAL,Type.STEEL,
+                Type.NORMAL, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

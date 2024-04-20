@@ -6,7 +6,7 @@ import java.util.*;
 public class Soaraptor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Soaraptor() {
         super("Soaraptor",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(71,
                         84,
                         71,

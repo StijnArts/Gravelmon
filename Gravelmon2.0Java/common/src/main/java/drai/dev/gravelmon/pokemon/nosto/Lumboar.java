@@ -7,7 +7,7 @@ import java.util.*;
 public class Lumboar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumboar() {
         super("Lumboar",
-                Type.FAIRY,Type.ICE,
+                Type.FAIRY, Type.ICE,
                 new Stats(90,
                         63,
                         79,

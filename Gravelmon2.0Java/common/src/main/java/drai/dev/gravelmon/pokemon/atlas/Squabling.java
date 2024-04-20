@@ -7,7 +7,7 @@ import java.util.*;
 public class Squabling extends drai.dev.gravelmon.pokemon.Pokemon {
     public Squabling() {
         super("Squabling",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(60,
                         50,
                         40,

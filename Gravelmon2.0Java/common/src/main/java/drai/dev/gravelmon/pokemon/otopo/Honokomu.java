@@ -58,7 +58,7 @@ import java.util.*;
 public class Honokomu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Honokomu() {
         super("Honokomu",
-                Type.FIRE,Type.NORMAL,
+                Type.FIRE, Type.NORMAL,
                 new Stats(100,
                         70,
                         70,

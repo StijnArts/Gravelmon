@@ -7,7 +7,7 @@ import java.util.*;
 public class Gatherelf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gatherelf() {
         super("Gatherelf",
-                Type.FAIRY,Type.GROUND,
+                Type.FAIRY, Type.GROUND,
                 new Stats(80,
                         70,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Banshriek extends drai.dev.gravelmon.pokemon.Pokemon {
     public Banshriek() {
         super("Banshriek",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

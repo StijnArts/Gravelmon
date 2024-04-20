@@ -58,7 +58,7 @@ import java.util.*;
 public class Huntitan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Huntitan() {
         super("Huntitan",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

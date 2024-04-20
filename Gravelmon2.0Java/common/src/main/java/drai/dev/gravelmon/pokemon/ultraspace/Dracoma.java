@@ -58,7 +58,7 @@ import java.util.*;
 public class Dracoma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dracoma() {
         super("Dracoma",
-                Type.PSYCHIC,Type.DRAGON,
+                Type.PSYCHIC, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

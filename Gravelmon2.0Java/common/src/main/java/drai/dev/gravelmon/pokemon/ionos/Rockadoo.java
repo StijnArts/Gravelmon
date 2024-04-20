@@ -58,7 +58,7 @@ import java.util.*;
 public class Rockadoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rockadoo() {
         super("Rockadoo",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

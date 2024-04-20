@@ -58,7 +58,7 @@ import java.util.*;
 public class Flamdra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flamdra() {
         super("Flamdra",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(39,
                         52,
                         43,

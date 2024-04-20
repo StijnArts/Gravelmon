@@ -9,7 +9,7 @@ import java.util.*;
 public class Leeverge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leeverge() {
         super("Leeverge",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(95,
                         110,
                         90,

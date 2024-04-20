@@ -58,7 +58,7 @@ import java.util.*;
 public class Serpyre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Serpyre() {
         super("Serpyre",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(75,
                         80,
                         75,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Twinkluppy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Twinkluppy() {
         super("Twinkluppy",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

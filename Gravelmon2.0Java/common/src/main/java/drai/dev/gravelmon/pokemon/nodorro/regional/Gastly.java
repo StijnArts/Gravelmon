@@ -58,7 +58,7 @@ import java.util.*;
 public class Gastly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gastly(int dex) {
         super(dex, "Gastly",
-                Type.GHOST,Type.ICE,
+                Type.GHOST, Type.ICE,
                 new Stats(30,
                         30,
                         40,

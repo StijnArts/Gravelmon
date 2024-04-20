@@ -7,7 +7,7 @@ import java.util.*;
 public class Rokkap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rokkap() {
         super("Rokkap",
-                Type.ROCK,Type.DARK,
+                Type.ROCK, Type.DARK,
                 new Stats(40,
                         55,
                         80,

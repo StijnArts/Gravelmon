@@ -58,7 +58,7 @@ import java.util.*;
 public class Charybyss extends drai.dev.gravelmon.pokemon.Pokemon {
     public Charybyss() {
         super("Charybyss",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

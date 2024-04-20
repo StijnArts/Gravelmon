@@ -58,7 +58,7 @@ import java.util.*;
 public class Magixy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magixy() {
         super("Magixy",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

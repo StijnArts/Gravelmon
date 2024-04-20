@@ -58,7 +58,7 @@ import java.util.*;
 public class Barrenoose extends drai.dev.gravelmon.pokemon.Pokemon {
     public Barrenoose() {
         super("Barrenoose",
-                Type.FLYING,Type.GROUND,
+                Type.FLYING, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

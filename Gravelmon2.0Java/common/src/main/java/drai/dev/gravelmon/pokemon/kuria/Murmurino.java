@@ -58,7 +58,7 @@ import java.util.*;
 public class Murmurino extends drai.dev.gravelmon.pokemon.Pokemon {
     public Murmurino() {
         super("Murmurino",
-                Type.FIRE,Type.SOUND,
+                Type.FIRE, Type.SOUND,
                 new Stats(53,
                         66,
                         74,

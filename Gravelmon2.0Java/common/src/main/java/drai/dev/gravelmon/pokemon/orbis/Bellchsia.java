@@ -58,7 +58,7 @@ import java.util.*;
 public class Bellchsia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bellchsia() {
         super("Bellchsia",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

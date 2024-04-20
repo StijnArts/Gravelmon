@@ -9,7 +9,7 @@ import java.util.*;
 public class Crystallier extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crystallier() {
         super("Crystallier",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(70,
                         40,
                         100,

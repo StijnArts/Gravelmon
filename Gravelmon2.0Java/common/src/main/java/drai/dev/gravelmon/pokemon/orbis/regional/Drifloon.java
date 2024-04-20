@@ -58,7 +58,7 @@ import java.util.*;
 public class Drifloon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drifloon(int dex) {
         super(dex, "Drifloon",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(90,
                         50,
                         34,

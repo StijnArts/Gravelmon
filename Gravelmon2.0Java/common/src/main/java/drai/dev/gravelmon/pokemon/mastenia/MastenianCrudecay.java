@@ -8,7 +8,7 @@ import java.util.*;
 public class MastenianCrudecay extends drai.dev.gravelmon.pokemon.Pokemon {
     public MastenianCrudecay(int dex) {
         super(dex, "Crudecay",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

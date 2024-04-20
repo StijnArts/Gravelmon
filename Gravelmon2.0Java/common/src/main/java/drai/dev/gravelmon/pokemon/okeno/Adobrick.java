@@ -6,7 +6,7 @@ import java.util.*;
 public class Adobrick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Adobrick() {
         super("Adobrick",
-                Type.GROUND,Type.ROCK,
+                Type.GROUND, Type.ROCK,
                 new Stats(80,
                         100,
                         80,

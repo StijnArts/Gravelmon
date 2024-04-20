@@ -7,7 +7,7 @@ import java.util.*;
 public class Unicorn2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Unicorn2() {
         super("Unicorn2",
-                Type.PSYCHIC,Type.FAIRY,
+                Type.PSYCHIC, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

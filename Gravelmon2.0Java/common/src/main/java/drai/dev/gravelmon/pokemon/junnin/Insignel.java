@@ -11,7 +11,7 @@ import java.util.*;
 public class Insignel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Insignel() {
         super("Insignel",
-                Type.ELECTRIC,Type.BUG,
+                Type.ELECTRIC, Type.BUG,
                 new Stats(56,
                         58,
                         63,

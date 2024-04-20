@@ -58,7 +58,7 @@ import java.util.*;
 public class Beddybug extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beddybug() {
         super("Beddybug",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

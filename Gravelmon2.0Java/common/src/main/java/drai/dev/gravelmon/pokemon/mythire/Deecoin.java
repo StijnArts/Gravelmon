@@ -7,7 +7,7 @@ import java.util.*;
 public class Deecoin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Deecoin() {
         super("Deecoin",
-                Type.STEEL,Type.BUG,
+                Type.STEEL, Type.BUG,
                 new Stats(40,
                         55,
                         65,

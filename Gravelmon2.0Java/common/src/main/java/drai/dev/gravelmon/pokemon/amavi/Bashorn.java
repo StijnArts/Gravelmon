@@ -8,7 +8,7 @@ import java.util.*;
 public class Bashorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bashorn() {
         super("Bashorn",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(75,
                         95,
                         105,

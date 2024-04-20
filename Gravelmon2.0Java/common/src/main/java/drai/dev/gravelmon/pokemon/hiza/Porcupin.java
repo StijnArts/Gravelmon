@@ -7,7 +7,7 @@ import java.util.*;
 public class Porcupin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Porcupin() {
         super("Porcupin",
-                Type.POISON,Type.NORMAL,
+                Type.POISON, Type.NORMAL,
                 new Stats(40,
                         40,
                         42,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Waspen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Waspen() {
         super("Waspen",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

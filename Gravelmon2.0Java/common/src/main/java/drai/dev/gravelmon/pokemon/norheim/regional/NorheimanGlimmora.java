@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanGlimmora extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanGlimmora() {
         super("Glimmora",
-                Type.ICE,Type.POISON,
+                Type.ICE, Type.POISON,
                 new Stats(0,
                         0,
                         0,

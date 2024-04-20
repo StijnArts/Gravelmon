@@ -9,7 +9,7 @@ import java.util.*;
 public class Palosstone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palosstone() {
         super("Palosstone",
-                Type.ROCK,Type.GHOST,
+                Type.ROCK, Type.GHOST,
                 new Stats(120,
                         85,
                         115,

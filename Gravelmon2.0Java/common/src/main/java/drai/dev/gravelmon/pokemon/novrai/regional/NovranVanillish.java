@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranVanillish extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranVanillish(int dex) {
         super(dex, "Vanillish",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(51,
                         65,
                         65,

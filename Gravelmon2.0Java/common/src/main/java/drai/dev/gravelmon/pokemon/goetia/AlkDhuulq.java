@@ -58,7 +58,7 @@ import java.util.*;
 public class AlkDhuulq extends drai.dev.gravelmon.pokemon.Pokemon {
     public AlkDhuulq() {
         super("AlkDhuulq",
-                Type.DARK,Type.ROCK,
+                Type.DARK, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

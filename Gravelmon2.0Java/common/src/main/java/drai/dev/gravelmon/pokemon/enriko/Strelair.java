@@ -7,7 +7,7 @@ import java.util.*;
 public class Strelair extends drai.dev.gravelmon.pokemon.Pokemon {
     public Strelair() {
         super("Strelair",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(35,
                         85,
                         60,

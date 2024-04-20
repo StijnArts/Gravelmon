@@ -58,7 +58,7 @@ import java.util.*;
 public class Golmol extends drai.dev.gravelmon.pokemon.Pokemon {
     public Golmol() {
         super("Golmol",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(60,
                         85,
                         30,

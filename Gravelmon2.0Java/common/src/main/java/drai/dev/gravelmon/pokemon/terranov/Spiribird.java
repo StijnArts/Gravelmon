@@ -58,7 +58,7 @@ import java.util.*;
 public class Spiribird extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spiribird() {
         super("Spiribird",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(90,
                         30,
                         20,

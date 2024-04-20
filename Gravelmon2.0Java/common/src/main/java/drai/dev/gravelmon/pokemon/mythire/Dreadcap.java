@@ -7,7 +7,7 @@ import java.util.*;
 public class Dreadcap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dreadcap() {
         super("Dreadcap",
-                Type.ROCK,Type.DARK,
+                Type.ROCK, Type.DARK,
                 new Stats(70,
                         95,
                         105,

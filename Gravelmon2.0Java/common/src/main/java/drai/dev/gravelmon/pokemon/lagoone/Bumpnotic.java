@@ -58,7 +58,7 @@ import java.util.*;
 public class Bumpnotic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bumpnotic() {
         super("Bumpnotic",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(95,
                         60,
                         50,

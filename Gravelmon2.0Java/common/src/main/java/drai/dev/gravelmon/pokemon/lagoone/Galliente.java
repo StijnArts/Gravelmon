@@ -58,7 +58,7 @@ import java.util.*;
 public class Galliente extends drai.dev.gravelmon.pokemon.Pokemon {
     public Galliente() {
         super("Galliente",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(67,
                         70,
                         102,

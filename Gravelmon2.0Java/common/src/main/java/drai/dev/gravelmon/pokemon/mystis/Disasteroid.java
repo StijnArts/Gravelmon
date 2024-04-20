@@ -58,7 +58,7 @@ import java.util.*;
 public class Disasteroid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Disasteroid() {
         super("Disasteroid",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(80,
                         131,
                         100,

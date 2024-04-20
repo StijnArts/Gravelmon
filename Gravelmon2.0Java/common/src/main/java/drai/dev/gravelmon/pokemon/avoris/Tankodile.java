@@ -13,7 +13,7 @@ import java.util.*;
 public class Tankodile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tankodile() {
         super("Tankodile",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(0,
                         0,
                         0,

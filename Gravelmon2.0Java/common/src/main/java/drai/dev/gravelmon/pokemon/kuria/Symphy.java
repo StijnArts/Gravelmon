@@ -58,7 +58,7 @@ import java.util.*;
 public class Symphy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Symphy() {
         super("Symphy",
-                Type.ELECTRIC,Type.SOUND,
+                Type.ELECTRIC, Type.SOUND,
                 new Stats(60,
                         55,
                         55,

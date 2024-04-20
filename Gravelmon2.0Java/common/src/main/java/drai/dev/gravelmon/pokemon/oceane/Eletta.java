@@ -7,7 +7,7 @@ import java.util.*;
 public class Eletta extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eletta() {
         super("Eletta",
-                Type.ELECTRIC,Type.GHOST,
+                Type.ELECTRIC, Type.GHOST,
                 new Stats(40,
                         50,
                         40,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Floradocus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Floradocus() {
         super("Floradocus",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

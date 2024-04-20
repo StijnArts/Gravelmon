@@ -9,7 +9,7 @@ import java.util.*;
 public class Miamacaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Miamacaw() {
         super("Miamacaw",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(70,
                         90,
                         70,

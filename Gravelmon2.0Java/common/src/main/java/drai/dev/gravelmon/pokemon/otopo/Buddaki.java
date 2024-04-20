@@ -58,7 +58,7 @@ import java.util.*;
 public class Buddaki extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buddaki() {
         super("Buddaki",
-                Type.PSYCHIC,Type.FIGHTING,
+                Type.PSYCHIC, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

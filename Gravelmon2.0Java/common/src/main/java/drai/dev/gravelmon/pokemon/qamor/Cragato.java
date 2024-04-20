@@ -9,7 +9,7 @@ import java.util.*;
 public class Cragato extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cragato() {
         super("Cragato",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(57,
                         60,
                         69,

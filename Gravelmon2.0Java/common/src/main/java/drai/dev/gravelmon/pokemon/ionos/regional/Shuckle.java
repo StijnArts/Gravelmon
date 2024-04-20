@@ -58,7 +58,7 @@ import java.util.*;
 public class Shuckle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shuckle(int dex) {
         super(dex, "Shuckle",
-                Type.WATER,Type.BUG,
+                Type.WATER, Type.BUG,
                 new Stats(0,
                         0,
                         0,

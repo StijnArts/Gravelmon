@@ -8,7 +8,7 @@ import java.util.*;
 public class Ancervus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ancervus() {
         super("Ancervus",
-                Type.ROCK,Type.ICE,
+                Type.ROCK, Type.ICE,
                 new Stats(0,
                         0,
                         0,

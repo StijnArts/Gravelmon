@@ -7,7 +7,7 @@ import java.util.*;
 public class Gnotorious extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gnotorious() {
         super("Gnotorious",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(106,
                         82,
                         124,

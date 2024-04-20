@@ -7,7 +7,7 @@ import java.util.*;
 public class Cemu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cemu() {
         super("Cemu",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(60,
                         65,
                         50,

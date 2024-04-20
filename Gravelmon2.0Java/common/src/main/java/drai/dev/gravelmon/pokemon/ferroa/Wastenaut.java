@@ -7,7 +7,7 @@ import java.util.*;
 public class Wastenaut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wastenaut() {
         super("Wastenaut",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(135,
                         50,
                         50,

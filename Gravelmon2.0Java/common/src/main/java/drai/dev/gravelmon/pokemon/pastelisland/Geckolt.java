@@ -58,7 +58,7 @@ import java.util.*;
 public class Geckolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Geckolt() {
         super("Geckolt",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(90,
                         60,
                         65,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Moluschant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moluschant() {
         super("Moluschant",
-                Type.DARK,Type.PSYCHIC,
+                Type.DARK, Type.PSYCHIC,
                 new Stats(74,
                         59,
                         100,

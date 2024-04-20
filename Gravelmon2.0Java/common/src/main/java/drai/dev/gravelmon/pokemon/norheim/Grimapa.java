@@ -9,7 +9,7 @@ import java.util.*;
 public class Grimapa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grimapa() {
         super("Grimapa",
-                Type.DARK,Type.GRASS,
+                Type.DARK, Type.GRASS,
                 new Stats(140,
                         130,
                         100,

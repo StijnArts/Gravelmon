@@ -58,7 +58,7 @@ import java.util.*;
 public class Anglow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anglow() {
         super("Anglow",
-                Type.LIGHT,Type.GHOST,
+                Type.LIGHT, Type.GHOST,
                 new Stats(60,
                         50,
                         70,

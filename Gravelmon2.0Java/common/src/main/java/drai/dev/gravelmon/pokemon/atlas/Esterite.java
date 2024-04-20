@@ -7,7 +7,7 @@ import java.util.*;
 public class Esterite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Esterite() {
         super("Esterite",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(80,
                         40,
                         96,

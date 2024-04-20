@@ -7,7 +7,7 @@ import java.util.*;
 public class XLixir extends drai.dev.gravelmon.pokemon.Pokemon {
     public XLixir() {
         super("XLixir",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(55,
                         95,
                         140,

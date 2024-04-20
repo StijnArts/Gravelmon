@@ -7,7 +7,7 @@ import java.util.*;
 public class Hibernabbit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hibernabbit() {
         super("Hibernabbit",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranGorebyss extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranGorebyss(int dex) {
         super(dex, "Gorebyss",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(55,
                         84,
                         105,

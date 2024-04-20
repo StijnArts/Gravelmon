@@ -8,7 +8,7 @@ import java.util.*;
 public class Flavian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flavian() {
         super("Flavian",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Ashmodeus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ashmodeus() {
         super("Ashmodeus",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

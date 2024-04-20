@@ -7,7 +7,7 @@ import java.util.*;
 public class Dialith extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dialith() {
         super("Dialith",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(91,
                         89,
                         90,

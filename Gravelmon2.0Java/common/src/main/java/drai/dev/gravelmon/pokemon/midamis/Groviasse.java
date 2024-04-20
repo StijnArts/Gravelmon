@@ -9,7 +9,7 @@ import java.util.*;
 public class Groviasse extends drai.dev.gravelmon.pokemon.Pokemon {
     public Groviasse() {
         super("Groviasse",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(70,
                         90,
                         80,

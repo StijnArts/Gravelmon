@@ -58,7 +58,7 @@ import java.util.*;
 public class Titanice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Titanice() {
         super("Titanice",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

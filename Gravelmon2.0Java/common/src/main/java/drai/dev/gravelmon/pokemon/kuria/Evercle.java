@@ -58,7 +58,7 @@ import java.util.*;
 public class Evercle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Evercle() {
         super("Evercle",
-                Type.WATER,Type.QUESTION_MARK,
+                Type.WATER, Type.QUESTION_MARK,
                 new Stats(95,
                         70,
                         70,

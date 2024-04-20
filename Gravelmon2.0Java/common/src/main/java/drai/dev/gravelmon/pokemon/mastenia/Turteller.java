@@ -58,7 +58,7 @@ import java.util.*;
 public class Turteller extends drai.dev.gravelmon.pokemon.Pokemon {
     public Turteller() {
         super("Turteller",
-                Type.PSYCHIC,Type.STEEL,
+                Type.PSYCHIC, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

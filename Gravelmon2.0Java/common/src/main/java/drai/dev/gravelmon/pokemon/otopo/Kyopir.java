@@ -58,7 +58,7 @@ import java.util.*;
 public class Kyopir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kyopir() {
         super("Kyopir",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(80,
                         86,
                         63,

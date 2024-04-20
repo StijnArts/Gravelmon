@@ -7,7 +7,7 @@ import java.util.*;
 public class Phloxling extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phloxling() {
         super("Phloxling",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(63,
                         89,
                         55,

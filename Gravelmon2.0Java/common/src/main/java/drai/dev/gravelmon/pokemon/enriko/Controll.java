@@ -7,7 +7,7 @@ import java.util.*;
 public class Controll extends drai.dev.gravelmon.pokemon.Pokemon {
     public Controll() {
         super("Controll",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(60,
                         75,
                         50,

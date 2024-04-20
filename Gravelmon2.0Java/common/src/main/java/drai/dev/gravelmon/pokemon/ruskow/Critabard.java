@@ -58,7 +58,7 @@ import java.util.*;
 public class Critabard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Critabard() {
         super("Critabard",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

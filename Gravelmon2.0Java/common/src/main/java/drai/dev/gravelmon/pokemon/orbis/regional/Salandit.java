@@ -58,7 +58,7 @@ import java.util.*;
 public class Salandit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Salandit(int dex) {
         super(dex, "Salandit",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(48,
                         44,
                         40,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Baggi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Baggi() {
         super("Baggi",
-                Type.ICE,Type.PSYCHIC,
+                Type.ICE, Type.PSYCHIC,
                 new Stats(45,
                         30,
                         55,

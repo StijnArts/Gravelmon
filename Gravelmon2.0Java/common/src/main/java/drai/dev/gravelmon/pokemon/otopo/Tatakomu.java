@@ -58,7 +58,7 @@ import java.util.*;
 public class Tatakomu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tatakomu() {
         super("Tatakomu",
-                Type.FIGHTING,Type.NORMAL,
+                Type.FIGHTING, Type.NORMAL,
                 new Stats(70,
                         100,
                         40,

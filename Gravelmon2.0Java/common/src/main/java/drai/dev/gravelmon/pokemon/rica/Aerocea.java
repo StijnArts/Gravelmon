@@ -14,7 +14,7 @@ import java.util.*;
 public class Aerocea extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aerocea() {
         super("Aerocea",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(100,
                         75,
                         81,

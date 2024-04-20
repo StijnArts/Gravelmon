@@ -58,7 +58,7 @@ import java.util.*;
 public class Beegan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beegan() {
         super("Beegan",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

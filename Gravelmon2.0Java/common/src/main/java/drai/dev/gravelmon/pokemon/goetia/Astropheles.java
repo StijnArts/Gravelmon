@@ -58,7 +58,7 @@ import java.util.*;
 public class Astropheles extends drai.dev.gravelmon.pokemon.Pokemon {
     public Astropheles() {
         super("Astropheles",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

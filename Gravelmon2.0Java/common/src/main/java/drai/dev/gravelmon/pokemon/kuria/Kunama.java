@@ -58,7 +58,7 @@ import java.util.*;
 public class Kunama extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kunama() {
         super("Kunama",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(85,
                         85,
                         80,

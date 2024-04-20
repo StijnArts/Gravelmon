@@ -9,7 +9,7 @@ import java.util.*;
 public class Lemomi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lemomi() {
         super("Lemomi",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

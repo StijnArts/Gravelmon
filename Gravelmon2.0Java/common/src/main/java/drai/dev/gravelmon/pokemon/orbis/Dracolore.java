@@ -58,7 +58,7 @@ import java.util.*;
 public class Dracolore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dracolore() {
         super("Dracolore",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(95,
                         60,
                         79,

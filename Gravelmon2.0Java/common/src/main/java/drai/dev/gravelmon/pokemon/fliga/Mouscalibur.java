@@ -58,7 +58,7 @@ import java.util.*;
 public class Mouscalibur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mouscalibur() {
         super("Mouscalibur",
-                Type.FAIRY,Type.ELECTRIC,
+                Type.FAIRY, Type.ELECTRIC,
                 new Stats(65,
                         127,
                         41,

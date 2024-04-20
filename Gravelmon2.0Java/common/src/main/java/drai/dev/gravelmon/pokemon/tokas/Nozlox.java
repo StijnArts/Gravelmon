@@ -58,7 +58,7 @@ import java.util.*;
 public class Nozlox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nozlox() {
         super("Nozlox",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

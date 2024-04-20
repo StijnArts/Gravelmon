@@ -7,7 +7,7 @@ import java.util.*;
 public class Oarful extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oarful() {
         super("Oarful",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(89,
                         107,
                         83,

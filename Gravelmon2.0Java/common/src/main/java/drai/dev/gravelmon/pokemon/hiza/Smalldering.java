@@ -7,7 +7,7 @@ import java.util.*;
 public class Smalldering extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smalldering() {
         super("Smalldering",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(40,
                         44,
                         95,

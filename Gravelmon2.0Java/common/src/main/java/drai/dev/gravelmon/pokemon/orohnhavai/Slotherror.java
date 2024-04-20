@@ -9,7 +9,7 @@ import java.util.*;
 public class Slotherror extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slotherror() {
         super("Slotherror",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(117,
                         108,
                         77,

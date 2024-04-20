@@ -9,7 +9,7 @@ import java.util.*;
 public class Trairoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trairoo() {
         super("Trairoo",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(150,
                         50,
                         65,

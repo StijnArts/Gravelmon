@@ -9,7 +9,7 @@ import java.util.*;
 public class Cerecybim extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cerecybim() {
         super("Cerecybim",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(122,
                         60,
                         90,

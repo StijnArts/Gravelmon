@@ -7,7 +7,7 @@ import java.util.*;
 public class Buffhilla extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buffhilla() {
         super("Buffhilla",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(70,
                         60,
                         72,

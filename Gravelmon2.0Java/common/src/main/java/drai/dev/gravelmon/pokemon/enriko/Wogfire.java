@@ -7,7 +7,7 @@ import java.util.*;
 public class Wogfire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wogfire() {
         super("Wogfire",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(90,
                         85,
                         90,

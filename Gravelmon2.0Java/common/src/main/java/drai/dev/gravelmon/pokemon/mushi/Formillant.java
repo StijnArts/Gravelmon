@@ -8,7 +8,7 @@ import java.util.*;
 public class Formillant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Formillant() {
         super("Formillant",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(74,
                         85,
                         85,

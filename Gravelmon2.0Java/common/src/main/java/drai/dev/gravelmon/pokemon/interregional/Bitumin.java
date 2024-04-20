@@ -7,7 +7,7 @@ import java.util.*;
 public class Bitumin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bitumin() {
         super("Bitumin",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(50,
                         35,
                         80,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Locrush extends drai.dev.gravelmon.pokemon.Pokemon {
     public Locrush() {
         super("Locrush",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

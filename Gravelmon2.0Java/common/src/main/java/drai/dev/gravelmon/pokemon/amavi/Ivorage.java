@@ -8,7 +8,7 @@ import java.util.*;
 public class Ivorage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ivorage() {
         super("Ivorage",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(100,
                         140,
                         100,

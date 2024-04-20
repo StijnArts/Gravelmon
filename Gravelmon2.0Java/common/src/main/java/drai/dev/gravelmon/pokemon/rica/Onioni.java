@@ -9,7 +9,7 @@ import java.util.*;
 public class Onioni extends drai.dev.gravelmon.pokemon.Pokemon {
     public Onioni() {
         super("Onioni",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(84,
                         82,
                         63,

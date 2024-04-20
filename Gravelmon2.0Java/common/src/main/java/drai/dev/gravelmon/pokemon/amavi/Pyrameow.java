@@ -8,7 +8,7 @@ import java.util.*;
 public class Pyrameow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyrameow() {
         super("Pyrameow",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(46,
                         46,
                         78,
@@ -17,7 +17,7 @@ public class Pyrameow extends drai.dev.gravelmon.pokemon.Pokemon {
                         46),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 13, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

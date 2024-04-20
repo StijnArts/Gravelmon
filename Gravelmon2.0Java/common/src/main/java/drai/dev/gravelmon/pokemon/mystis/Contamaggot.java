@@ -58,7 +58,7 @@ import java.util.*;
 public class Contamaggot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Contamaggot() {
         super("Contamaggot",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(50,
                         50,
                         45,

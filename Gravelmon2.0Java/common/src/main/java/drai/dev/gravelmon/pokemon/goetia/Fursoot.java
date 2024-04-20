@@ -58,7 +58,7 @@ import java.util.*;
 public class Fursoot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fursoot() {
         super("Fursoot",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(0,
                         0,
                         0,

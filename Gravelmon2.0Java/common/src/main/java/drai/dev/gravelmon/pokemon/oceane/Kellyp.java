@@ -7,7 +7,7 @@ import java.util.*;
 public class Kellyp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kellyp() {
         super("Kellyp",
-                Type.STEEL,Type.GRASS,
+                Type.STEEL, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

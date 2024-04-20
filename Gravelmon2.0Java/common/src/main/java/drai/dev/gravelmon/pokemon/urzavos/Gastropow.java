@@ -58,7 +58,7 @@ import java.util.*;
 public class Gastropow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gastropow() {
         super("Gastropow",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(80,
                         68,
                         102,

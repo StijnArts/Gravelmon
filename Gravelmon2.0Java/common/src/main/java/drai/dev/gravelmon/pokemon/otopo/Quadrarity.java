@@ -58,7 +58,7 @@ import java.util.*;
 public class Quadrarity extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quadrarity() {
         super("Quadrarity",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(80,
                         30,
                         48,

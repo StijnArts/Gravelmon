@@ -7,7 +7,7 @@ import java.util.*;
 public class Liquphage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Liquphage() {
         super("Liquphage",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(46,
                         31,
                         31,

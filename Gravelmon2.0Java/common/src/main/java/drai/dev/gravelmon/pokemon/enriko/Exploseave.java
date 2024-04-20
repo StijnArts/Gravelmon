@@ -7,7 +7,7 @@ import java.util.*;
 public class Exploseave extends drai.dev.gravelmon.pokemon.Pokemon {
     public Exploseave() {
         super("Exploseave",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(50,
                         80,
                         150,

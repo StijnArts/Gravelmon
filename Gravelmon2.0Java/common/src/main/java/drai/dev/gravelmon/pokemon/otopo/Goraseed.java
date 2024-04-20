@@ -58,7 +58,7 @@ import java.util.*;
 public class Goraseed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Goraseed() {
         super("Goraseed",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,
                         0,

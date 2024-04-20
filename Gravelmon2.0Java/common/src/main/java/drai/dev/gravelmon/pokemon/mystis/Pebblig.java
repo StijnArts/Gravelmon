@@ -8,7 +8,7 @@ import java.util.*;
 public class Pebblig extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pebblig() {
         super("Pebblet",
-                Type.DARK,Type.ROCK,
+                Type.DARK, Type.ROCK,
                 new Stats(70,
                         80,
                         60,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Palmpale extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palmpale() {
         super("Palmpale",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

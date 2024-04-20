@@ -58,7 +58,7 @@ import java.util.*;
 public class Onyssilade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Onyssilade() {
         super("Onyssilade",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Elepath extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elepath() {
         super("Elepath",
-                Type.PSYCHIC,Type.GROUND,
+                Type.PSYCHIC, Type.GROUND,
                 new Stats(80,
                         52,
                         66,

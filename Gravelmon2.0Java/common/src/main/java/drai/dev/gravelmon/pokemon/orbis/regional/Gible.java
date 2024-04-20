@@ -58,7 +58,7 @@ import java.util.*;
 public class Gible extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gible(int dex) {
         super(dex, "Gible",
-                Type.DRAGON,Type.GROUND,
+                Type.DRAGON, Type.GROUND,
                 new Stats(58,
                         70,
                         45,

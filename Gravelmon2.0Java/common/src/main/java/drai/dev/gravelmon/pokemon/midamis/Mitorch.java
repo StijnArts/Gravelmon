@@ -9,7 +9,7 @@ import java.util.*;
 public class Mitorch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mitorch() {
         super("Mitorch",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(40,
                         45,
                         40,

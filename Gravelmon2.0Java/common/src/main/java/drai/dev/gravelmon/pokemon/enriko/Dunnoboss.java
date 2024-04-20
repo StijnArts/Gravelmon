@@ -7,7 +7,7 @@ import java.util.*;
 public class Dunnoboss extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dunnoboss() {
         super("Dunnoboss",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(100,
                         135,
                         90,

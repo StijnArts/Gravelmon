@@ -58,7 +58,7 @@ import java.util.*;
 public class Papilitite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Papilitite() {
         super("Papilitite",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Achiefd extends drai.dev.gravelmon.pokemon.Pokemon {
     public Achiefd() {
         super("Achiefd",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

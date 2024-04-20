@@ -7,7 +7,7 @@ import java.util.*;
 public class Meowster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Meowster() {
         super("Meowster",
-                Type.NORMAL,Type.DARK,
+                Type.NORMAL, Type.DARK,
                 new Stats(100,
                         85,
                         80,

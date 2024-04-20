@@ -7,7 +7,7 @@ import java.util.*;
 public class Chopteran extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chopteran() {
         super("Chopteran",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(135,
                         80,
                         70,

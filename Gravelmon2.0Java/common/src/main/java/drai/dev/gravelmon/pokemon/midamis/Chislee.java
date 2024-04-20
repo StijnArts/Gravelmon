@@ -9,7 +9,7 @@ import java.util.*;
 public class Chislee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chislee() {
         super("Chislee",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(65,
                         105,
                         80,

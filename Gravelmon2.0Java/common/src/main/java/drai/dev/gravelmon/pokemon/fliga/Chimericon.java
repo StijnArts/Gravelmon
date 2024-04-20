@@ -58,7 +58,7 @@ import java.util.*;
 public class Chimericon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chimericon() {
         super("Chimericon",
-                Type.DRAGON,Type.POISON,
+                Type.DRAGON, Type.POISON,
                 new Stats(91,
                         132,
                         82,

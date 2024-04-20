@@ -13,7 +13,7 @@ import java.util.*;
 public class Embuzzle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Embuzzle() {
         super("Embuzzle",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(80,
                         88,
                         75,

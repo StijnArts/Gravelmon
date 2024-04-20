@@ -13,7 +13,7 @@ public class AyreianNoctowl extends Pokemon {
                 Type.PSYCHIC, Type.FLYING,
                 new Stats(100,50,50,100,90,75),
                 List.of(Ability.INSOMNIA, Ability.MIRROR_ARMOR), Ability.TINTED_LENS,
-                7, 212,
+                16, 212,
                 new Stats(2,0,0,0,0,0), 120,
                 0.5,
                 52, ExperienceGroup.MEDIUM_FAST,

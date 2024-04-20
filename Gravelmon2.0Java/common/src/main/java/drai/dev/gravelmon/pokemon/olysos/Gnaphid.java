@@ -58,7 +58,7 @@ import java.util.*;
 public class Gnaphid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gnaphid() {
         super("Gnaphid",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

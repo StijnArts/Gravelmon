@@ -9,7 +9,7 @@ import java.util.*;
 public class Detritan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Detritan() {
         super("Detritan",
-                Type.ROCK,Type.GHOST,
+                Type.ROCK, Type.GHOST,
                 new Stats(45,
                         105,
                         90,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Scubeetle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scubeetle() {
         super("Scubeetle",
-                Type.WATER,Type.BUG,
+                Type.WATER, Type.BUG,
                 new Stats(100,
                         80,
                         80,

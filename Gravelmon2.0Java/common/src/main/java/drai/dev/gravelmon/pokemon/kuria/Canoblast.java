@@ -58,7 +58,7 @@ import java.util.*;
 public class Canoblast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Canoblast() {
         super("Canoblast",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(85,
                         90,
                         110,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sunflora extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sunflora(int dex) {
         super(dex, "Sunflora",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(75,
                         75,
                         55,

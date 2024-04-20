@@ -9,7 +9,7 @@ import java.util.*;
 public class Piplex extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piplex() {
         super("Piplex",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

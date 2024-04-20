@@ -58,7 +58,7 @@ import java.util.*;
 public class Burnslinger extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burnslinger() {
         super("Burnslinger",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(60,
                         90,
                         90,

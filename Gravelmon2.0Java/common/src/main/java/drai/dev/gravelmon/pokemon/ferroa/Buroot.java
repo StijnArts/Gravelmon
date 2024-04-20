@@ -7,7 +7,7 @@ import java.util.*;
 public class Buroot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buroot() {
         super("Buroot",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(40,
                         55,
                         50,

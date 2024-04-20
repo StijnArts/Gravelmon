@@ -58,7 +58,7 @@ import java.util.*;
 public class Munchmite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Munchmite() {
         super("Munchmite",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(75,
                         30,
                         45,

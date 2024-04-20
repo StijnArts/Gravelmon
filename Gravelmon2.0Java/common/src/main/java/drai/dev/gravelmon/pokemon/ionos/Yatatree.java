@@ -58,7 +58,7 @@ import java.util.*;
 public class Yatatree extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yatatree() {
         super("Yatatree",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

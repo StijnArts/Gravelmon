@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianPyroar extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianPyroar(int dex) {
         super(dex, "Pyroar",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(76,
                         119,
                         72,

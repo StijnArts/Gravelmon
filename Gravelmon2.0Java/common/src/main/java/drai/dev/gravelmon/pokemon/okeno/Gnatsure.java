@@ -6,7 +6,7 @@ import java.util.*;
 public class Gnatsure extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gnatsure() {
         super("Gnatsure",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(58,
                         58,
                         58,

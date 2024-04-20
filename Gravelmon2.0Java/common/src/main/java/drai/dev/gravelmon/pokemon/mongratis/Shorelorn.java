@@ -58,7 +58,7 @@ import java.util.*;
 public class Shorelorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shorelorn() {
         super("Shorelorn",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(80,
                         40,
                         70,

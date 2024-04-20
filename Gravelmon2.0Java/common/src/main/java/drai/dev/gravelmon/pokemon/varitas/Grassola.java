@@ -9,7 +9,7 @@ import java.util.*;
 public class Grassola extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grassola() {
         super("Grassola",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(65,
                         55,
                         95,

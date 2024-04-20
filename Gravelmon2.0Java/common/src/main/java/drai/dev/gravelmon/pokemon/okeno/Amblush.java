@@ -6,7 +6,7 @@ import java.util.*;
 public class Amblush extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amblush() {
         super("Amblush",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(75,
                         97,
                         67,

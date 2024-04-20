@@ -58,7 +58,7 @@ import java.util.*;
 public class Gecktricity extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gecktricity() {
         super("Gecktricity",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(63,
                         54,
                         52,

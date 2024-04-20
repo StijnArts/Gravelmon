@@ -8,7 +8,7 @@ import java.util.*;
 public class Arabat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arabat() {
         super("Arabat",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Brailien extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brailien() {
         super("Brailien",
-                Type.PSYCHIC,Type.STEEL,
+                Type.PSYCHIC, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

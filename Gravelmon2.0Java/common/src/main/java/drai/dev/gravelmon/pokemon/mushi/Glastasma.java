@@ -8,7 +8,7 @@ import java.util.*;
 public class Glastasma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glastasma() {
         super("Glastasma",
-                Type.GHOST,Type.ICE,
+                Type.GHOST, Type.ICE,
                 new Stats(54,
                         45,
                         75,

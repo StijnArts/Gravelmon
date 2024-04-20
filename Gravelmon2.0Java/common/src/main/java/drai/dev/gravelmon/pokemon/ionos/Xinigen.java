@@ -58,7 +58,7 @@ import java.util.*;
 public class Xinigen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Xinigen() {
         super("Xinigen",
-                Type.FLYING,Type.PSYCHIC,
+                Type.FLYING, Type.PSYCHIC,
                 new Stats(80,
                         110,
                         80,

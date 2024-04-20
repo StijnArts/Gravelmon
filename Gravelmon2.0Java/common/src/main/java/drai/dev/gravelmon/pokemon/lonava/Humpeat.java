@@ -7,7 +7,7 @@ import java.util.*;
 public class Humpeat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Humpeat() {
         super("Humpeat",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(80,
                         70,
                         100,

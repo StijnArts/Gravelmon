@@ -58,7 +58,7 @@ import java.util.*;
 public class Crickick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crickick() {
         super("Crickick",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(60,
                         120,
                         80,

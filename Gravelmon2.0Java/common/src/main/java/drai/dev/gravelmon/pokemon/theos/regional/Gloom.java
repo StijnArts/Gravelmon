@@ -58,7 +58,7 @@ import java.util.*;
 public class Gloom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gloom(int dex) {
         super(dex, "Gloom",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(60,
                         65,
                         70,

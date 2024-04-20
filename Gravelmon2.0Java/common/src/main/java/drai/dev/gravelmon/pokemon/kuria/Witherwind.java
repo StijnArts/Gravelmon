@@ -58,7 +58,7 @@ import java.util.*;
 public class Witherwind extends drai.dev.gravelmon.pokemon.Pokemon {
     public Witherwind() {
         super("Witherwind",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(78,
                         65,
                         65,

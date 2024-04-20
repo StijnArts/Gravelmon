@@ -9,7 +9,7 @@ import java.util.*;
 public class Shiverel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shiverel() {
         super("Shiverel",
-                Type.ICE,Type.GHOST,
+                Type.ICE, Type.GHOST,
                 new Stats(47,
                         25,
                         35,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Hoatstink extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hoatstink() {
         super("Hoatstink",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

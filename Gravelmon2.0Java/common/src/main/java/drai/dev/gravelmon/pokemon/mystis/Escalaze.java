@@ -58,7 +58,7 @@ import java.util.*;
 public class Escalaze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Escalaze() {
         super("Escalaze",
-                Type.STEEL,Type.FIGHTING,
+                Type.STEEL, Type.FIGHTING,
                 new Stats(80,
                         105,
                         130,

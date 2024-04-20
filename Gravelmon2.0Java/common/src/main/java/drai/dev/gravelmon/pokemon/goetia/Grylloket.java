@@ -58,7 +58,7 @@ import java.util.*;
 public class Grylloket extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grylloket() {
         super("Grylloket",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

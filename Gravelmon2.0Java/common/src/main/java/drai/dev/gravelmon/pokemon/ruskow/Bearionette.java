@@ -58,7 +58,7 @@ import java.util.*;
 public class Bearionette extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bearionette() {
         super("Bearionette",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

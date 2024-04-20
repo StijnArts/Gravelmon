@@ -58,7 +58,7 @@ import java.util.*;
 public class Jumpluff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jumpluff(int dex) {
         super(dex, "Jumpluff",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(110,
                         55,
                         70,

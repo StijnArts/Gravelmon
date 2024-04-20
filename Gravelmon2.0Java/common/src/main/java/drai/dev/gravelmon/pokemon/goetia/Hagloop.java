@@ -58,7 +58,7 @@ import java.util.*;
 public class Hagloop extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hagloop() {
         super("Hagloop",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

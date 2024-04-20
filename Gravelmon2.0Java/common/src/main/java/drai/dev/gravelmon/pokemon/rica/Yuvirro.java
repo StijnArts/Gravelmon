@@ -9,7 +9,7 @@ import java.util.*;
 public class Yuvirro extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yuvirro() {
         super("Yuvirro",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(84,
                         75,
                         68,

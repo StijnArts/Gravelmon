@@ -58,7 +58,7 @@ import java.util.*;
 public class Oreush extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oreush() {
         super("Oreush",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(50,
                         10,
                         50,

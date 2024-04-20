@@ -7,7 +7,7 @@ import java.util.*;
 public class Suravi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Suravi() {
         super("Suravi",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(96,
                         118,
                         89,

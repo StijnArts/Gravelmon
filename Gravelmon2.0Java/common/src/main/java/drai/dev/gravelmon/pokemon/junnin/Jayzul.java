@@ -11,7 +11,7 @@ import java.util.*;
 public class Jayzul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jayzul() {
         super("Jayzul",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(51,
                         53,
                         33,

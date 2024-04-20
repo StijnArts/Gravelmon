@@ -7,7 +7,7 @@ import java.util.*;
 public class Scourgeon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scourgeon() {
         super("Scourgeon",
-                Type.STEEL,Type.FAIRY,
+                Type.STEEL, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

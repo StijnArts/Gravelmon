@@ -58,7 +58,7 @@ import java.util.*;
 public class GreatGirros extends drai.dev.gravelmon.pokemon.Pokemon {
     public GreatGirros() {
         super("GreatGirros",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

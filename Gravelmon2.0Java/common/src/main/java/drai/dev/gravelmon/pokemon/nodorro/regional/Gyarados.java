@@ -58,7 +58,7 @@ import java.util.*;
 public class Gyarados extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gyarados(int dex) {
         super(dex, "Gyarados",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(90,
                         130,
                         80,

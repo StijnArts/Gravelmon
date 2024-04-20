@@ -58,7 +58,7 @@ import java.util.*;
 public class Spheal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spheal(int dex) {
         super(dex, "Spheal",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(70,
                         40,
                         50,

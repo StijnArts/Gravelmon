@@ -9,7 +9,7 @@ import java.util.*;
 public class Sweetoad extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sweetoad() {
         super("Sweetoad",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(80,
                         45,
                         65,

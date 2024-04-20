@@ -7,7 +7,7 @@ import java.util.*;
 public class Paperlane extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paperlane() {
         super("Paperlane",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(50,
                         80,
                         30,

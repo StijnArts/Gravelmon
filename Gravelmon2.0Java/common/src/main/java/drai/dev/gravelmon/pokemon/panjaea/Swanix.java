@@ -58,7 +58,7 @@ import java.util.*;
 public class Swanix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swanix() {
         super("Swanix",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

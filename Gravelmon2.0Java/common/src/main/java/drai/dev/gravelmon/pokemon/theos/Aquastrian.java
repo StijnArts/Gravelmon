@@ -58,7 +58,7 @@ import java.util.*;
 public class Aquastrian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aquastrian() {
         super("Aquastrian",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(75,
                         75,
                         65,

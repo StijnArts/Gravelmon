@@ -7,7 +7,7 @@ import java.util.*;
 public class Inscepter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Inscepter() {
         super("Inscepter",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(71,
                         77,
                         65,

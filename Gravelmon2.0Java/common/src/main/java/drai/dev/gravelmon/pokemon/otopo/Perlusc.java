@@ -58,7 +58,7 @@ import java.util.*;
 public class Perlusc extends drai.dev.gravelmon.pokemon.Pokemon {
     public Perlusc() {
         super("Perlusc",
-                Type.FAIRY,Type.WATER,
+                Type.FAIRY, Type.WATER,
                 new Stats(47,
                         43,
                         65,

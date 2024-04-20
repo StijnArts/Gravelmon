@@ -7,7 +7,7 @@ import java.util.*;
 public class Korboral extends drai.dev.gravelmon.pokemon.Pokemon {
     public Korboral() {
         super("Korboral",
-                Type.NORMAL,Type.GRASS,
+                Type.NORMAL, Type.GRASS,
                 new Stats(125,
                         80,
                         75,

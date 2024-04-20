@@ -58,7 +58,7 @@ import java.util.*;
 public class Wulvlacine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wulvlacine() {
         super("Wulvlacine",
-                Type.ROCK,Type.DARK,
+                Type.ROCK, Type.DARK,
                 new Stats(75,
                         128,
                         96,

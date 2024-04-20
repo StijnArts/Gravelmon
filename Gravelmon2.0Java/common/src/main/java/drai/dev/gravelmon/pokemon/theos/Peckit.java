@@ -58,7 +58,7 @@ import java.util.*;
 public class Peckit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peckit() {
         super("Peckit",
-                Type.FLYING,Type.GROUND,
+                Type.FLYING, Type.GROUND,
                 new Stats(40,
                         70,
                         60,

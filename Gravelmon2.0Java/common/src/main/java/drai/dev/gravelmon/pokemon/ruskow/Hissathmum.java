@@ -58,7 +58,7 @@ import java.util.*;
 public class Hissathmum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hissathmum() {
         super("Hissathmum",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,
                         0,

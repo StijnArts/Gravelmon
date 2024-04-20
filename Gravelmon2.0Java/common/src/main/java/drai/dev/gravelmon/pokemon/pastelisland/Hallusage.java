@@ -58,7 +58,7 @@ import java.util.*;
 public class Hallusage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hallusage() {
         super("Hallusage",
-                Type.PSYCHIC,Type.FAIRY,
+                Type.PSYCHIC, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

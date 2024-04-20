@@ -58,7 +58,7 @@ import java.util.*;
 public class Ibushi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ibushi() {
         super("Ibushi",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(160,
                         130,
                         75,

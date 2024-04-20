@@ -8,7 +8,7 @@ import java.util.*;
 public class Eternelk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eternelk() {
         super("Eternelk",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(90,
                         55,
                         70,
@@ -17,7 +17,7 @@ public class Eternelk extends drai.dev.gravelmon.pokemon.Pokemon {
                         80),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 16, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Mausomber extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mausomber() {
         super("Mausomber",
-                Type.GHOST,Type.ROCK,
+                Type.GHOST, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

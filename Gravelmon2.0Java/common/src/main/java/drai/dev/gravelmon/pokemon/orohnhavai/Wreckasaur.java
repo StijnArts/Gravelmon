@@ -9,7 +9,7 @@ import java.util.*;
 public class Wreckasaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wreckasaur() {
         super("Wreckasaur",
-                Type.ROCK,Type.STEEL,
+                Type.ROCK, Type.STEEL,
                 new Stats(80,
                         125,
                         90,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Powaflowa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Powaflowa() {
         super("Powaflowa",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(60,
                         40,
                         60,

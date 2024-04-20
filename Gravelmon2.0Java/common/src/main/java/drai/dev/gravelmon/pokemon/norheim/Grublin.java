@@ -9,7 +9,7 @@ import java.util.*;
 public class Grublin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grublin() {
         super("Grublin",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(40,
                         40,
                         20,

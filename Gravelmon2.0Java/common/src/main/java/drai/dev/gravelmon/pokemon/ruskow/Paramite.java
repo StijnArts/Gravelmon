@@ -58,7 +58,7 @@ import java.util.*;
 public class Paramite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paramite() {
         super("Paramite",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(0,
                         0,
                         0,

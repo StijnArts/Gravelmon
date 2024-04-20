@@ -7,7 +7,7 @@ import java.util.*;
 public class Champiant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Champiant() {
         super("Champiant",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(65,
                         60,
                         90,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Ukanlos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ukanlos() {
         super("Ukanlos",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

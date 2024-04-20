@@ -9,7 +9,7 @@ import java.util.*;
 public class tubeworm extends drai.dev.gravelmon.pokemon.Pokemon {
     public tubeworm() {
         super("tubeworm",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(40,
                         40,
                         110,

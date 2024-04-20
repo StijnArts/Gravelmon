@@ -9,7 +9,7 @@ import java.util.*;
 public class Helluster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Helluster() {
         super("Helluster",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(80,
                         145,
                         125,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Palmguana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palmguana() {
         super("Palmguana",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Fulgorough extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fulgorough() {
         super("Fulgorough",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(70,
                         87,
                         60,

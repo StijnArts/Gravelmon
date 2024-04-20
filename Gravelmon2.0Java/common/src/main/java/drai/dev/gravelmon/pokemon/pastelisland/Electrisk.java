@@ -58,7 +58,7 @@ import java.util.*;
 public class Electrisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Electrisk() {
         super("Electrisk",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(80,
                         70,
                         65,

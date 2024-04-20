@@ -9,7 +9,7 @@ import java.util.*;
 public class Veroxifye extends drai.dev.gravelmon.pokemon.Pokemon {
     public Veroxifye() {
         super("Veroxifye",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(70,
                         95,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Terraor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terraor() {
         super("Terraor",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

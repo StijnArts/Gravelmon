@@ -7,7 +7,7 @@ import java.util.*;
 public class Astroyatlas extends drai.dev.gravelmon.pokemon.Pokemon {
     public Astroyatlas() {
         super("Astroyatlas",
-                Type.COSMIC,Type.BUG,
+                Type.COSMIC, Type.BUG,
                 new Stats(120,
                         80,
                         90,

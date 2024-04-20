@@ -58,7 +58,7 @@ import java.util.*;
 public class Shockfull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shockfull() {
         super("Shockfull",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

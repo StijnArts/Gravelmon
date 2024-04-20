@@ -58,7 +58,7 @@ import java.util.*;
 public class Sizzlipede extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sizzlipede(int dex) {
         super(dex, "Sizzlipede",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(50,
                         65,
                         45,

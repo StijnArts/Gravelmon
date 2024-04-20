@@ -7,7 +7,7 @@ import java.util.*;
 public class Bullirt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bullirt() {
         super("Bullirt",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(56,
                         65,
                         45,

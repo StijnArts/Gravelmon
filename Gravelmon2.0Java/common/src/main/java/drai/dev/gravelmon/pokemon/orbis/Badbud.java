@@ -58,7 +58,7 @@ import java.util.*;
 public class Badbud extends drai.dev.gravelmon.pokemon.Pokemon {
     public Badbud() {
         super("Badbud",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(35,
                         65,
                         50,

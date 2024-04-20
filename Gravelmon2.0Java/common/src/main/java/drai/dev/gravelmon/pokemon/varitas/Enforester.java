@@ -9,7 +9,7 @@ import java.util.*;
 public class Enforester extends drai.dev.gravelmon.pokemon.Pokemon {
     public Enforester() {
         super("Enforester",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,
                         0,

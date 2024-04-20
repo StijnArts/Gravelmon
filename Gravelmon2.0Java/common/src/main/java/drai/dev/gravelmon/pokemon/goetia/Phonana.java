@@ -58,7 +58,7 @@ import java.util.*;
 public class Phonana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phonana() {
         super("Phonana",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(0,
                         0,
                         0,

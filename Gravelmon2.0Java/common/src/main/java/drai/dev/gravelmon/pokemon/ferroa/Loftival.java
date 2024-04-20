@@ -7,7 +7,7 @@ import java.util.*;
 public class Loftival extends drai.dev.gravelmon.pokemon.Pokemon {
     public Loftival() {
         super("Loftival",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(72,
                         82,
                         50,

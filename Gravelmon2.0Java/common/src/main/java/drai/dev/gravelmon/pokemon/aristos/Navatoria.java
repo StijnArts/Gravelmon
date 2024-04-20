@@ -9,7 +9,7 @@ import java.util.*;
 public class Navatoria extends drai.dev.gravelmon.pokemon.Pokemon {
     public Navatoria() {
         super("Navatoria",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(73,
                         40,
                         63,

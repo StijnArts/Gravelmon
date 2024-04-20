@@ -7,7 +7,7 @@ import java.util.*;
 public class Tarvial extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tarvial() {
         super("Tarvial",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(60,
                         100,
                         90,

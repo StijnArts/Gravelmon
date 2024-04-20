@@ -7,7 +7,7 @@ import java.util.*;
 public class Primmoiselle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Primmoiselle() {
         super("Primmoiselle",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(110,
                         55,
                         55,

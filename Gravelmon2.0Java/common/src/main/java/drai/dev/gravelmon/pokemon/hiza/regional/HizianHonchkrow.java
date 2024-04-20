@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianHonchkrow extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianHonchkrow(int dex) {
         super(dex, "Honchkrow",
-                Type.FLYING,Type.GRASS,
+                Type.FLYING, Type.GRASS,
                 new Stats(90,
                         125,
                         52,

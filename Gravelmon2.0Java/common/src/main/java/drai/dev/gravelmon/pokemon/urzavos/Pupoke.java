@@ -58,7 +58,7 @@ import java.util.*;
 public class Pupoke extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pupoke() {
         super("Pupoke",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

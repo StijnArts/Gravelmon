@@ -58,7 +58,7 @@ import java.util.*;
 public class Myotitan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Myotitan() {
         super("Myotitan",
-                Type.POISON,Type.FIGHTING,
+                Type.POISON, Type.FIGHTING,
                 new Stats(140,
                         125,
                         90,

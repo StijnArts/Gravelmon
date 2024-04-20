@@ -9,7 +9,7 @@ import java.util.*;
 public class Reefermal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reefermal() {
         super("Reefermal",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(60,
                         50,
                         80,

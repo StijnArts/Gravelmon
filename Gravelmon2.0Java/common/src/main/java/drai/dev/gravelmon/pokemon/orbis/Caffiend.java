@@ -58,7 +58,7 @@ import java.util.*;
 public class Caffiend extends drai.dev.gravelmon.pokemon.Pokemon {
     public Caffiend() {
         super("Caffiend",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(40,
                         45,
                         54,

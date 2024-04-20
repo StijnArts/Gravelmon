@@ -6,7 +6,7 @@ import java.util.*;
 public class Barmor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Barmor() {
         super("Barmor",
-                Type.GROUND,Type.FLYING,
+                Type.GROUND, Type.FLYING,
                 new Stats(38,
                         57,
                         77,

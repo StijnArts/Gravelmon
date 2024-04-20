@@ -7,7 +7,7 @@ import java.util.*;
 public class Reconuisance extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reconuisance() {
         super("Reconuisance",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(65,
                         95,
                         115,

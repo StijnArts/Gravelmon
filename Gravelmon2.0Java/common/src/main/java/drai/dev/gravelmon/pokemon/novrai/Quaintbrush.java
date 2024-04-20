@@ -7,7 +7,7 @@ import java.util.*;
 public class Quaintbrush extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quaintbrush() {
         super("Quaintbrush",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(40,
                         27,
                         53,

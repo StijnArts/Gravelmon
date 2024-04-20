@@ -7,7 +7,7 @@ import java.util.*;
 public class Solarelo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Solarelo() {
         super("Solarelo",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(127,
                         74,
                         70,

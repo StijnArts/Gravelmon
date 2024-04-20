@@ -9,7 +9,7 @@ import java.util.*;
 public class Whoopwing extends drai.dev.gravelmon.pokemon.Pokemon {
     public Whoopwing() {
         super("Whoopwing",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(45,
                         52,
                         39,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Giiem extends drai.dev.gravelmon.pokemon.Pokemon {
     public Giiem() {
         super("Giiem",
-                Type.DRAGON,Type.ROCK,
+                Type.DRAGON, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

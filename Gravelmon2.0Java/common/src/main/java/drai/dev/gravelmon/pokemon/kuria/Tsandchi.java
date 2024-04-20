@@ -58,7 +58,7 @@ import java.util.*;
 public class Tsandchi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tsandchi() {
         super("Tsandchi",
-                Type.FIGHTING,Type.GROUND,
+                Type.FIGHTING, Type.GROUND,
                 new Stats(70,
                         85,
                         50,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Contagice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Contagice() {
         super("Contagice",
-                Type.POISON,Type.ICE,
+                Type.POISON, Type.ICE,
                 new Stats(70,
                         85,
                         85,

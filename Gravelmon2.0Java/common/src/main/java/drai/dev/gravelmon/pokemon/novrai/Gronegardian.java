@@ -13,7 +13,7 @@ import java.util.*;
 public class Gronegardian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gronegardian() {
         super("Gronegardian",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(140,
                         105,
                         80,

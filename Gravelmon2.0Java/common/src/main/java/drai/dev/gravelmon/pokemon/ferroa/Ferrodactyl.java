@@ -7,7 +7,7 @@ import java.util.*;
 public class Ferrodactyl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ferrodactyl() {
         super("Ferrodactyl",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(70,
                         98,
                         83,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Rustail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rustail() {
         super("Rustail",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(70,
                         110,
                         100,

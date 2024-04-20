@@ -9,7 +9,7 @@ import java.util.*;
 public class Burnuki extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burnuki() {
         super("Burnuki",
-                Type.FIRE,Type.NORMAL,
+                Type.FIRE, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

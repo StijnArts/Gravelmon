@@ -58,7 +58,7 @@ import java.util.*;
 public class Hawkedge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hawkedge() {
         super("Hawkedge",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(68,
                         127,
                         90,

@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianImpidimp extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianImpidimp(int dex) {
         super(dex ,"Impidimp",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

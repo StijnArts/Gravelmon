@@ -7,7 +7,7 @@ import java.util.*;
 public class Dessibello extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dessibello() {
         super("Dessibello",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(130,
                         40,
                         75,

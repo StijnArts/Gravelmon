@@ -7,7 +7,7 @@ import java.util.*;
 public class Swirlsea extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swirlsea() {
         super("Swirlsea",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(40,
                         30,
                         30,

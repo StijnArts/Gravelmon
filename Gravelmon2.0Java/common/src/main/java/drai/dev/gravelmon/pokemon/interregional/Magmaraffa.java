@@ -7,7 +7,7 @@ import java.util.*;
 public class Magmaraffa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magmaraffa() {
         super("Magmaraffa",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(89,
                         113,
                         102,

@@ -58,7 +58,7 @@ import java.util.*;
 public class KuluYaKu extends drai.dev.gravelmon.pokemon.Pokemon {
     public KuluYaKu() {
         super("KuluYaKu",
-                Type.NORMAL,Type.ROCK,
+                Type.NORMAL, Type.ROCK,
                 new Stats(55,
                         75,
                         65,

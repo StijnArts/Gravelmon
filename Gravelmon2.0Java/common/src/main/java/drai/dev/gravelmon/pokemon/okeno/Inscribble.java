@@ -6,7 +6,7 @@ import java.util.*;
 public class Inscribble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Inscribble() {
         super("Inscribble",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(28,
                         30,
                         30,

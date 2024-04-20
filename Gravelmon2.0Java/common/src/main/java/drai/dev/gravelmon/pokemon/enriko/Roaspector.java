@@ -7,7 +7,7 @@ import java.util.*;
 public class Roaspector extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roaspector() {
         super("Roaspector",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

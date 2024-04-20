@@ -7,7 +7,7 @@ import java.util.*;
 public class Himilago extends drai.dev.gravelmon.pokemon.Pokemon {
     public Himilago() {
         super("Himilago",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(40,
                         80,
                         60,

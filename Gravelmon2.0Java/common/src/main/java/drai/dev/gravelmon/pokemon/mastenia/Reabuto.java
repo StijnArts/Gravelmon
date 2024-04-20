@@ -58,7 +58,7 @@ import java.util.*;
 public class Reabuto extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reabuto() {
         super("Reabuto",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(0,
                         0,
                         0,

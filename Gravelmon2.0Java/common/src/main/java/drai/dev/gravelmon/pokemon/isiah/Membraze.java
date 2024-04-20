@@ -7,7 +7,7 @@ import java.util.*;
 public class Membraze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Membraze() {
         super("Membraze",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(80,
                         88,
                         61,

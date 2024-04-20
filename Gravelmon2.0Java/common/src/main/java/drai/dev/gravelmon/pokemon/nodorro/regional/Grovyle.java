@@ -58,7 +58,7 @@ import java.util.*;
 public class Grovyle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grovyle(int dex) {
         super(dex, "Grovyle",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(60,
                         55,
                         50,

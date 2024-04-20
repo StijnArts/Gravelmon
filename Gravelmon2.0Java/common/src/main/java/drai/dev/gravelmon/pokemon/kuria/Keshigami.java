@@ -58,7 +58,7 @@ import java.util.*;
 public class Keshigami extends drai.dev.gravelmon.pokemon.Pokemon {
     public Keshigami() {
         super("Keshigami",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(75,
                         45,
                         106,

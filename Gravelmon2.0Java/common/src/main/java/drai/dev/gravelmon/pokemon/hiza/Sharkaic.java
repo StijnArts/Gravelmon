@@ -7,7 +7,7 @@ import java.util.*;
 public class Sharkaic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sharkaic() {
         super("Sharkaic",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(90,
                         100,
                         50,

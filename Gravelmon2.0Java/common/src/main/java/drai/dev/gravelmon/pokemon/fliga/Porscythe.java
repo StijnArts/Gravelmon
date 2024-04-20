@@ -58,7 +58,7 @@ import java.util.*;
 public class Porscythe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Porscythe() {
         super("Porscythe",
-                Type.STEEL,Type.DARK,
+                Type.STEEL, Type.DARK,
                 new Stats(55,
                         110,
                         70,

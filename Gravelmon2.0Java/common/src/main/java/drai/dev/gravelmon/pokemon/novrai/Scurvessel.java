@@ -7,7 +7,7 @@ import java.util.*;
 public class Scurvessel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scurvessel() {
         super("Scurvessel",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(70,
                         135,
                         50,

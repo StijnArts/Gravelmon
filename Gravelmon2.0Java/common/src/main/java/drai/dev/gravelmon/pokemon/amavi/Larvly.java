@@ -8,7 +8,7 @@ import java.util.*;
 public class Larvly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larvly() {
         super("Larvly",
-                Type.BUG,Type.NORMAL,
+                Type.BUG, Type.NORMAL,
                 new Stats(50,
                         10,
                         20,
@@ -17,7 +17,7 @@ public class Larvly extends drai.dev.gravelmon.pokemon.Pokemon {
                         20),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 5, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 230,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

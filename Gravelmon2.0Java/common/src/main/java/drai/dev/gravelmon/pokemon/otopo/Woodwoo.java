@@ -58,7 +58,7 @@ import java.util.*;
 public class Woodwoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Woodwoo() {
         super("Woodwoo",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

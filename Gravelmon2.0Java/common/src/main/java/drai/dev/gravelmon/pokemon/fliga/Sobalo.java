@@ -58,7 +58,7 @@ import java.util.*;
 public class Sobalo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sobalo() {
         super("Sobalo",
-                Type.PSYCHIC,Type.DARK,
+                Type.PSYCHIC, Type.DARK,
                 new Stats(62,
                         72,
                         63,

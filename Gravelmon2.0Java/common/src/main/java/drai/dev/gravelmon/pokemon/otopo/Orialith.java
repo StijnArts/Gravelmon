@@ -58,7 +58,7 @@ import java.util.*;
 public class Orialith extends drai.dev.gravelmon.pokemon.Pokemon {
     public Orialith() {
         super("Orialith",
-                Type.STEEL,Type.GHOST,
+                Type.STEEL, Type.GHOST,
                 new Stats(75,
                         60,
                         100,

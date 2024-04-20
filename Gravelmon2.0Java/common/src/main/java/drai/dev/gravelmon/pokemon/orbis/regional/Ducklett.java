@@ -58,7 +58,7 @@ import java.util.*;
 public class Ducklett extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ducklett(int dex) {
         super(dex, "Ducklett",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(62,
                         44,
                         50,

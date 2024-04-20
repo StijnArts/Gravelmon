@@ -58,7 +58,7 @@ import java.util.*;
 public class Conferocious extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conferocious() {
         super("Conferocious",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

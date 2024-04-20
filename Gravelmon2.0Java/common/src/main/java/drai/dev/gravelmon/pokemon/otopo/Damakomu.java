@@ -58,7 +58,7 @@ import java.util.*;
 public class Damakomu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Damakomu() {
         super("Damakomu",
-                Type.FAIRY,Type.NORMAL,
+                Type.FAIRY, Type.NORMAL,
                 new Stats(70,
                         70,
                         70,

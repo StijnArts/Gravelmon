@@ -58,7 +58,7 @@ import java.util.*;
 public class Parrate extends drai.dev.gravelmon.pokemon.Pokemon {
     public Parrate() {
         super("Parrate",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(80,
                         100,
                         60,

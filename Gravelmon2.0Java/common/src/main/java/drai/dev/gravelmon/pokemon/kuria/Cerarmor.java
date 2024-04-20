@@ -58,7 +58,7 @@ import java.util.*;
 public class Cerarmor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cerarmor() {
         super("Cerarmor",
-                Type.FIRE,Type.SOUND,
+                Type.FIRE, Type.SOUND,
                 new Stats(91,
                         99,
                         100,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Unmol extends drai.dev.gravelmon.pokemon.Pokemon {
     public Unmol() {
         super("Unmol",
-                Type.DARK,Type.GROUND,
+                Type.DARK, Type.GROUND,
                 new Stats(30,
                         35,
                         40,

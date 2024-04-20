@@ -58,7 +58,7 @@ import java.util.*;
 public class Aviculor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aviculor() {
         super("Aviculor",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(0,
                         0,
                         0,

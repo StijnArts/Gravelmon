@@ -9,7 +9,7 @@ import java.util.*;
 public class Tinion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tinion() {
         super("Tinion",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(52,
                         52,
                         45,

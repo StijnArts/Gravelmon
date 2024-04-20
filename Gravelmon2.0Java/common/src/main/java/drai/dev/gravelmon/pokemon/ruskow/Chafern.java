@@ -58,7 +58,7 @@ import java.util.*;
 public class Chafern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chafern() {
         super("Chafern",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

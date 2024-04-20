@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanCrawdaunt extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanCrawdaunt(int dex) {
         super(dex, "Crawdaunt",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

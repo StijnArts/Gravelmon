@@ -58,7 +58,7 @@ import java.util.*;
 public class Omanyte extends drai.dev.gravelmon.pokemon.Pokemon {
     public Omanyte(int dex) {
         super(dex, "Omanyte",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(0,
                         0,
                         0,

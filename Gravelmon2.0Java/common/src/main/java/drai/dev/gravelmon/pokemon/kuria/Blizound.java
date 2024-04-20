@@ -58,7 +58,7 @@ import java.util.*;
 public class Blizound extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blizound() {
         super("Blizound",
-                Type.SOUND,Type.ICE,
+                Type.SOUND, Type.ICE,
                 new Stats(88,
                         115,
                         80,

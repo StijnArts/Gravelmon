@@ -58,7 +58,7 @@ import java.util.*;
 public class Golduck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Golduck(int dex) {
         super(dex, "Golduck",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(80,
                         92,
                         82,

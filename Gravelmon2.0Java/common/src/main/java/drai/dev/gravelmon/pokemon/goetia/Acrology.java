@@ -58,7 +58,7 @@ import java.util.*;
 public class Acrology extends drai.dev.gravelmon.pokemon.Pokemon {
     public Acrology() {
         super("Acrology",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Furiousc extends drai.dev.gravelmon.pokemon.Pokemon {
     public Furiousc() {
         super("Furiousc",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(95,
                         60,
                         110,

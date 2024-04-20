@@ -7,7 +7,7 @@ import java.util.*;
 public class Khanstruct extends drai.dev.gravelmon.pokemon.Pokemon {
     public Khanstruct() {
         super("Khanstruct",
-                Type.FIGHTING,Type.ROCK,
+                Type.FIGHTING, Type.ROCK,
                 new Stats(99,
                         120,
                         154,

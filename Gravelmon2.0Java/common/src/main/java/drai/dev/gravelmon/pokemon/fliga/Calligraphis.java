@@ -58,7 +58,7 @@ import java.util.*;
 public class Calligraphis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Calligraphis() {
         super("Calligraphis",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(41,
                         73,
                         73,

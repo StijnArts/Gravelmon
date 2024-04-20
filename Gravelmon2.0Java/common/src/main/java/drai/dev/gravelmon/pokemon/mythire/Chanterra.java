@@ -7,7 +7,7 @@ import java.util.*;
 public class Chanterra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chanterra() {
         super("Chanterra",
-                Type.GROUND,Type.GHOST,
+                Type.GROUND, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

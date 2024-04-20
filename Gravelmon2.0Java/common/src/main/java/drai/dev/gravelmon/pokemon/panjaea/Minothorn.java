@@ -58,7 +58,7 @@ import java.util.*;
 public class Minothorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Minothorn() {
         super("Minothorn",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

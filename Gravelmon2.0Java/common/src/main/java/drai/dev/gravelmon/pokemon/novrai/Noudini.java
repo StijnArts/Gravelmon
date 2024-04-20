@@ -7,7 +7,7 @@ import java.util.*;
 public class Noudini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Noudini() {
         super("Noudini",
-                Type.PSYCHIC,Type.POISON,
+                Type.PSYCHIC, Type.POISON,
                 new Stats(85,
                         40,
                         85,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Larvitar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larvitar(int dex) {
         super(dex, "Larvitar",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

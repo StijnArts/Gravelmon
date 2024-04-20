@@ -9,7 +9,7 @@ import java.util.*;
 public class Dawreel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dawreel() {
         super("Dawreel",
-                Type.STEEL,Type.GROUND,
+                Type.STEEL, Type.GROUND,
                 new Stats(75,
                         55,
                         105,

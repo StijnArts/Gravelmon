@@ -9,7 +9,7 @@ import java.util.*;
 public class Hissteric extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hissteric() {
         super("Hissteric",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(76,
                         101,
                         84,

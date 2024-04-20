@@ -58,7 +58,7 @@ import java.util.*;
 public class Loafey extends drai.dev.gravelmon.pokemon.Pokemon {
     public Loafey() {
         super("Loafey",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

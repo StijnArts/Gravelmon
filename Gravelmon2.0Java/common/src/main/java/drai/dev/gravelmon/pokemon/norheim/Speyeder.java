@@ -9,7 +9,7 @@ import java.util.*;
 public class Speyeder extends drai.dev.gravelmon.pokemon.Pokemon {
     public Speyeder() {
         super("Speyeder",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(55,
                         90,
                         35,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Tutu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tutu() {
         super("Tutu",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(44,
                         80,
                         55,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Narcicle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Narcicle() {
         super("Narcicle",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(80,
                         90,
                         70,

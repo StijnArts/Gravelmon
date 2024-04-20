@@ -58,7 +58,7 @@ import java.util.*;
 public class Bihaund extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bihaund() {
         super("Bihaund",
-                Type.GHOST,Type.ICE,
+                Type.GHOST, Type.ICE,
                 new Stats(0,
                         0,
                         0,

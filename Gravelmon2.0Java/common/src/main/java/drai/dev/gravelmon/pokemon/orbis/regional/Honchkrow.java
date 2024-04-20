@@ -58,7 +58,7 @@ import java.util.*;
 public class Honchkrow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Honchkrow(int dex) {
         super(dex, "Honchkrow",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(100,
                         125,
                         52,

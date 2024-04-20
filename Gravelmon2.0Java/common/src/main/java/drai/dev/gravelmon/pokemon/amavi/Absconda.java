@@ -8,7 +8,7 @@ import java.util.*;
 public class Absconda extends drai.dev.gravelmon.pokemon.Pokemon {
     public Absconda() {
         super("Absconda",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(105,
                         30,
                         55,

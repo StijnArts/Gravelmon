@@ -58,7 +58,7 @@ import java.util.*;
 public class Iceteroid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Iceteroid() {
         super("Iceteroid",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(104,
                         116,
                         200,

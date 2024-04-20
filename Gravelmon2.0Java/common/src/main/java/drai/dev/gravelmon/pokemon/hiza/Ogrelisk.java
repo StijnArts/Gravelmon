@@ -7,7 +7,7 @@ import java.util.*;
 public class Ogrelisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ogrelisk() {
         super("Ogrelisk",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(90,
                         100,
                         100,

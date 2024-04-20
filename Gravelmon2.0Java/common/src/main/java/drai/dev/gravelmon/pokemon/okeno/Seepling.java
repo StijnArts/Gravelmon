@@ -12,7 +12,7 @@ import java.util.*;
 public class Seepling extends drai.dev.gravelmon.pokemon.Pokemon {
     public Seepling() {
         super("Seepling",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(90,
                         50,
                         50,

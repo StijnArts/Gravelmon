@@ -7,7 +7,7 @@ import java.util.*;
 public class Parrosea extends drai.dev.gravelmon.pokemon.Pokemon {
     public Parrosea() {
         super("Parrosea",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(40,
                         52,
                         35,

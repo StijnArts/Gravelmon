@@ -7,7 +7,7 @@ import java.util.*;
 public class Dynabuck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dynabuck() {
         super("Dynabuck",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(85,
                         140,
                         50,

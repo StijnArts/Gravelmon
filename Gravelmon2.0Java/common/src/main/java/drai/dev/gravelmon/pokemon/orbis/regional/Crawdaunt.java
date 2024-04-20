@@ -58,7 +58,7 @@ import java.util.*;
 public class Crawdaunt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crawdaunt(int dex) {
         super(dex, "Crawdaunt",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(63,
                         120,
                         85,

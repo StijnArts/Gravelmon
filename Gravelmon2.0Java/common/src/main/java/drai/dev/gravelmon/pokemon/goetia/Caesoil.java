@@ -58,7 +58,7 @@ import java.util.*;
 public class Caesoil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Caesoil() {
         super("Caesoil",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(0,
                         0,
                         0,

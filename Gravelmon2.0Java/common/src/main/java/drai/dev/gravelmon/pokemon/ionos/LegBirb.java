@@ -58,7 +58,7 @@ import java.util.*;
 public class LegBirb extends drai.dev.gravelmon.pokemon.Pokemon {
     public LegBirb() {
         super("LegBirb",
-                Type.PSYCHIC,Type.STEEL,
+                Type.PSYCHIC, Type.STEEL,
                 new Stats(150,
                         90,
                         95,

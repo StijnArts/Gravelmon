@@ -58,7 +58,7 @@ import java.util.*;
 public class Pyravis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyravis() {
         super("Pyravis",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(70,
                         70,
                         55,

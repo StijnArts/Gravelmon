@@ -58,7 +58,7 @@ import java.util.*;
 public class Rayquaza extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rayquaza(int dex) {
         super(dex, "Rayquaza",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(105,
                         150,
                         90,

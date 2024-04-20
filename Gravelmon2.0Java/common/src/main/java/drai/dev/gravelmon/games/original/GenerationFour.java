@@ -4,6 +4,7 @@ import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.fliga.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.hub.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
@@ -29,6 +30,12 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new FligianShellos(422));
+        pokemon.add(new FligianGastrodon(423));
+        pokemon.add(new FligianHappiny(440));
+        pokemon.add(new FligianGallade(475));
+        pokemon.add(new FligianDusknoir(477));
+
         pokemon.add(new RicanShellos(422));
         pokemon.add(new RicanGastrodon(423));
 

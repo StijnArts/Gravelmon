@@ -9,7 +9,7 @@ import java.util.*;
 public class Ruffski extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ruffski() {
         super("Ruffski",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(35,
                         70,
                         30,

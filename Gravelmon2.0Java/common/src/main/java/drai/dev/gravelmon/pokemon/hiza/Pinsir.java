@@ -7,7 +7,7 @@ import java.util.*;
 public class Pinsir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pinsir() {
         super("Pinsir",
-                Type.STEEL,Type.BUG,
+                Type.STEEL, Type.BUG,
                 new Stats(65,
                         125,
                         100,

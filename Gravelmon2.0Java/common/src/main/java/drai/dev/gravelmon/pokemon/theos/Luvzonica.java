@@ -58,7 +58,7 @@ import java.util.*;
 public class Luvzonica extends drai.dev.gravelmon.pokemon.Pokemon {
     public Luvzonica() {
         super("Luvzonica",
-                Type.FLYING,Type.GROUND,
+                Type.FLYING, Type.GROUND,
                 new Stats(65,
                         95,
                         95,

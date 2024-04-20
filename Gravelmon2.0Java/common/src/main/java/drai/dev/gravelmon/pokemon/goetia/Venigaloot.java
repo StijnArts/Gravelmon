@@ -58,7 +58,7 @@ import java.util.*;
 public class Venigaloot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Venigaloot() {
         super("Venigaloot",
-                Type.STEEL,Type.POISON,
+                Type.STEEL, Type.POISON,
                 new Stats(0,
                         0,
                         0,

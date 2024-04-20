@@ -9,7 +9,7 @@ import java.util.*;
 public class Felefox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Felefox() {
         super("Felefox",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(65,
                         50,
                         50,

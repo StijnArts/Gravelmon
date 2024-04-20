@@ -58,7 +58,7 @@ import java.util.*;
 public class Gendrome extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gendrome() {
         super("Gendrome",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

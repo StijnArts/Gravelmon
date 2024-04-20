@@ -58,7 +58,7 @@ import java.util.*;
 public class Bebushi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bebushi() {
         super("Bebushi",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

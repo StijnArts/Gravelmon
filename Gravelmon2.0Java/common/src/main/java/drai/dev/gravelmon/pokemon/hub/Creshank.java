@@ -7,7 +7,7 @@ import java.util.*;
 public class Creshank extends drai.dev.gravelmon.pokemon.Pokemon {
     public Creshank() {
         super("Creshank",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(55,
                         100,
                         70,

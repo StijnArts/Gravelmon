@@ -7,7 +7,7 @@ import java.util.*;
 public class Chooft extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chooft() {
         super("Chooft",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(45,
                         60,
                         35,

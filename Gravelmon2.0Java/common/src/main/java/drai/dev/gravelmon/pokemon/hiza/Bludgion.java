@@ -7,7 +7,7 @@ import java.util.*;
 public class Bludgion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bludgion() {
         super("Bludgion",
-                Type.ICE,Type.STEEL,
+                Type.ICE, Type.STEEL,
                 new Stats(81,
                         122,
                         60,

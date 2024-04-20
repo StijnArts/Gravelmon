@@ -58,7 +58,7 @@ import java.util.*;
 public class Florita extends drai.dev.gravelmon.pokemon.Pokemon {
     public Florita() {
         super("Florita",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

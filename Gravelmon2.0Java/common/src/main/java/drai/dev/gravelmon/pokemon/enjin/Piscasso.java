@@ -58,7 +58,7 @@ import java.util.*;
 public class Piscasso extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piscasso() {
         super("Piscasso",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(100,
                         75,
                         75,
@@ -66,7 +66,7 @@ public class Piscasso extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         75),
                 List.of(Ability.COLOR_CHANGE,Ability.MARVEL_SCALE), Ability.TRACE,
-                0, 0,
+                9, 0,
                 new Stats(2,0,0,0,0,0), 190,
                 0.5,
                 166, ExperienceGroup.MEDIUM_FAST,
@@ -167,14 +167,16 @@ public class Piscasso extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_SPORT,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 26, 44, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Piscasso");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
 
     }
 

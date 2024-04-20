@@ -9,7 +9,7 @@ import java.util.*;
 public class Haleet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Haleet() {
         super("Haleet",
-                Type.FAIRY,Type.ICE,
+                Type.FAIRY, Type.ICE,
                 new Stats(55,
                         65,
                         45,

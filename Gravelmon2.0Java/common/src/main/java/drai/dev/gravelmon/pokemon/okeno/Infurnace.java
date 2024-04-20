@@ -6,7 +6,7 @@ import java.util.*;
 public class Infurnace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Infurnace() {
         super("Infurnace",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(43,
                         103,
                         100,

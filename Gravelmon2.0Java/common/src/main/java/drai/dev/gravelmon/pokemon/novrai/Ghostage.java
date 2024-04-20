@@ -7,7 +7,7 @@ import java.util.*;
 public class Ghostage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ghostage() {
         super("Ghostage",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(34,
                         45,
                         25,

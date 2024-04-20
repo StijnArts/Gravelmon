@@ -58,7 +58,7 @@ import java.util.*;
 public class Starmie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Starmie(int dex) {
         super(dex, "Starmie",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(60,
                         75,
                         85,

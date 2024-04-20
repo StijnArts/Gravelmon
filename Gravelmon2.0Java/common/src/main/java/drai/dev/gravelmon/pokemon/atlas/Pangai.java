@@ -7,7 +7,7 @@ import java.util.*;
 public class Pangai extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pangai() {
         super("Pangai",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(80,
                         77,
                         66,

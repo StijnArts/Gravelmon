@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianAltaria extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianAltaria(int dex) {
         super(dex,"Altaria",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(75,
                         70,
                         90,

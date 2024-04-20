@@ -58,7 +58,7 @@ import java.util.*;
 public class Loticus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Loticus() {
         super("Loticus",
-                Type.WATER,Type.BUG,
+                Type.WATER, Type.BUG,
                 new Stats(0,
                         0,
                         0,

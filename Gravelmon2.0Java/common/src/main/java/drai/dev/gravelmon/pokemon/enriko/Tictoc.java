@@ -7,7 +7,7 @@ import java.util.*;
 public class Tictoc extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tictoc() {
         super("Tictoc",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(35,
                         20,
                         85,

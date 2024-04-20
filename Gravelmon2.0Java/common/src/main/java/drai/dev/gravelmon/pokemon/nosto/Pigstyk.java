@@ -7,7 +7,7 @@ import java.util.*;
 public class Pigstyk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pigstyk() {
         super("Pigstyk",
-                Type.FAIRY,Type.ICE,
+                Type.FAIRY, Type.ICE,
                 new Stats(65,
                         45,
                         59,

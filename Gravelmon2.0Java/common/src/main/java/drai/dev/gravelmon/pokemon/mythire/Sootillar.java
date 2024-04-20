@@ -7,7 +7,7 @@ import java.util.*;
 public class Sootillar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sootillar() {
         super("Sootillar",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(25,
                         20,
                         30,

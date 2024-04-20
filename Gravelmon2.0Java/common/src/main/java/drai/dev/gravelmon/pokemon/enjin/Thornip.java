@@ -58,7 +58,7 @@ import java.util.*;
 public class Thornip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thornip() {
         super("Thornip",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

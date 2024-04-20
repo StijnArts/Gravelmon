@@ -9,7 +9,7 @@ import java.util.*;
 public class Veefere extends drai.dev.gravelmon.pokemon.Pokemon {
     public Veefere() {
         super("Veefere",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(75,
                         80,
                         85,

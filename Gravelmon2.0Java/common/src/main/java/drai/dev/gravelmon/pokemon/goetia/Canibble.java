@@ -58,7 +58,7 @@ import java.util.*;
 public class Canibble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Canibble() {
         super("Canibble",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(0,
                         0,
                         0,

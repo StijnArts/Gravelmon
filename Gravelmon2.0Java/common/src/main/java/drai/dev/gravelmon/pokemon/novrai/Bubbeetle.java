@@ -7,7 +7,7 @@ import java.util.*;
 public class Bubbeetle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bubbeetle() {
         super("Bubbeetle",
-                Type.WATER,Type.BUG,
+                Type.WATER, Type.BUG,
                 new Stats(77,
                         52,
                         93,

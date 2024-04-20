@@ -11,7 +11,7 @@ import java.util.*;
 public class Lividon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lividon() {
         super("Lividon",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(120,
                         70,
                         120,

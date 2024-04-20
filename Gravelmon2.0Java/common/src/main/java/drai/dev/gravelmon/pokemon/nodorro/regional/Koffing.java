@@ -58,7 +58,7 @@ import java.util.*;
 public class Koffing extends drai.dev.gravelmon.pokemon.Pokemon {
     public Koffing(int dex) {
         super(dex, "Koffing",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(40,
                         64,
                         101,

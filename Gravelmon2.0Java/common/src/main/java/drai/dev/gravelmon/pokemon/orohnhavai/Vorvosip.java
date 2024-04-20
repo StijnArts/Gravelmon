@@ -9,7 +9,7 @@ import java.util.*;
 public class Vorvosip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vorvosip() {
         super("Vorvosip",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(70,
                         90,
                         60,

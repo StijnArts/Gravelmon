@@ -7,7 +7,7 @@ import java.util.*;
 public class Stegosear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stegosear() {
         super("Stegosear",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(90,
                         40,
                         50,

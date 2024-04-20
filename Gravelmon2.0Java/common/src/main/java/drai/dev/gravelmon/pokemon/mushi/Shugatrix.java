@@ -8,7 +8,7 @@ import java.util.*;
 public class Shugatrix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shugatrix() {
         super("Shugatrix",
-                Type.FAIRY,Type.ELECTRIC,
+                Type.FAIRY, Type.ELECTRIC,
                 new Stats(58,
                         102,
                         54,

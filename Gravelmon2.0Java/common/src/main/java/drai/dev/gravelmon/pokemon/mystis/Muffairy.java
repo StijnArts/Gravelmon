@@ -58,7 +58,7 @@ import java.util.*;
 public class Muffairy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Muffairy() {
         super("Muffairy",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(60,
                         10,
                         10,

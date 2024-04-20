@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianSilicobra extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianSilicobra(int dex) {
         super(dex, "Silicobra",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(52,
                         35,
                         75,

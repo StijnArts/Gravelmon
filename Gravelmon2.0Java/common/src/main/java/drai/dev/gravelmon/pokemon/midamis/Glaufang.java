@@ -9,7 +9,7 @@ import java.util.*;
 public class Glaufang extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glaufang() {
         super("Glaufang",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(85,
                         45,
                         55,

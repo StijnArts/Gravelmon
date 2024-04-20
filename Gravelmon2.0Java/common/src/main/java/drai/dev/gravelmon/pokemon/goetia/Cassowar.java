@@ -58,7 +58,7 @@ import java.util.*;
 public class Cassowar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cassowar() {
         super("Cassowar",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

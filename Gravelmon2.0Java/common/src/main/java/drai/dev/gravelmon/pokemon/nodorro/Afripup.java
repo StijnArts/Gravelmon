@@ -58,7 +58,7 @@ import java.util.*;
 public class Afripup extends drai.dev.gravelmon.pokemon.Pokemon {
     public Afripup() {
         super("Afripup",
-                Type.DARK,Type.GROUND,
+                Type.DARK, Type.GROUND,
                 new Stats(50,
                         79,
                         45,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Impetal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impetal() {
         super("Impetal",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(95,
                         98,
                         80,

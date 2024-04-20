@@ -7,7 +7,7 @@ import java.util.*;
 public class Cascarapace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cascarapace() {
         super("Cascarapace",
-                Type.WATER,Type.BUG,
+                Type.WATER, Type.BUG,
                 new Stats(97,
                         73,
                         112,

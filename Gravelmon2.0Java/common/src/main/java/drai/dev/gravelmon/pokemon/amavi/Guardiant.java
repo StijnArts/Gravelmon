@@ -8,7 +8,7 @@ import java.util.*;
 public class Guardiant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Guardiant() {
         super("Guardiant",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(65,
                         134,
                         126,
@@ -17,7 +17,7 @@ public class Guardiant extends drai.dev.gravelmon.pokemon.Pokemon {
                         78),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 14, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Golisopod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Golisopod(int dex) {
         super(dex, "Golisopod",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(75,
                         125,
                         140,

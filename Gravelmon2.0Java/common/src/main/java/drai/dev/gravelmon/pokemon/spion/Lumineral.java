@@ -58,7 +58,7 @@ import java.util.*;
 public class Lumineral extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumineral() {
         super("Lumineral",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(55,
                         58,
                         90,

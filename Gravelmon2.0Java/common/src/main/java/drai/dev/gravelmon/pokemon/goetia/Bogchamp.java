@@ -58,7 +58,7 @@ import java.util.*;
 public class Bogchamp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bogchamp() {
         super("Bogchamp",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

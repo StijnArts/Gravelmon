@@ -58,7 +58,7 @@ import java.util.*;
 public class Voishout extends drai.dev.gravelmon.pokemon.Pokemon {
     public Voishout() {
         super("Voishout",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(55,
                         67,
                         50,

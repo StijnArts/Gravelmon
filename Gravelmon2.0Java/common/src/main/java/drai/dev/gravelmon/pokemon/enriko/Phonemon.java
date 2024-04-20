@@ -7,7 +7,7 @@ import java.util.*;
 public class Phonemon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phonemon() {
         super("Phonemon",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(60,
                         85,
                         100,

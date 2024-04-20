@@ -9,7 +9,7 @@ import java.util.*;
 public class Biduane extends drai.dev.gravelmon.pokemon.Pokemon {
     public Biduane() {
         super("Biduane",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(40,
                         45,
                         50,

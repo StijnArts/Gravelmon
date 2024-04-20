@@ -58,7 +58,7 @@ import java.util.*;
 public class Palaices extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palaices() {
         super("Palaices",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

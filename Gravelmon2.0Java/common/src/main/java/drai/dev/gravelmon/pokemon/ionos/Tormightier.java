@@ -58,7 +58,7 @@ import java.util.*;
 public class Tormightier extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tormightier() {
         super("Tormightier",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(89,
                         97,
                         120,

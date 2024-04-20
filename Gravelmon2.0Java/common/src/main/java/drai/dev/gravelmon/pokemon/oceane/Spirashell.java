@@ -7,7 +7,7 @@ import java.util.*;
 public class Spirashell extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spirashell() {
         super("Spirashell",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(45,
                         28,
                         55,

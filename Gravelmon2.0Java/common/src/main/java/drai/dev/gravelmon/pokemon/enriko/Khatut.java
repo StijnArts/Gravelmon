@@ -7,7 +7,7 @@ import java.util.*;
 public class Khatut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Khatut() {
         super("Khatut",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

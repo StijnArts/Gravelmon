@@ -9,7 +9,7 @@ import java.util.*;
 public class Bidread extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bidread() {
         super("Bidread",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(90,
                         75,
                         60,

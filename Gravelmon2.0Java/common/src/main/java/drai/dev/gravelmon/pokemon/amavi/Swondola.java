@@ -8,7 +8,7 @@ import java.util.*;
 public class Swondola extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swondola() {
         super("Swondola",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(76,
                         50,
                         75,
@@ -17,7 +17,7 @@ public class Swondola extends drai.dev.gravelmon.pokemon.Pokemon {
                         119),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 10, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Forestusk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Forestusk() {
         super("Forestusk",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(90,
                         85,
                         105,

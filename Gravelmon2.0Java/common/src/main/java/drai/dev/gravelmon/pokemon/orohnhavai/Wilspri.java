@@ -9,7 +9,7 @@ import java.util.*;
 public class Wilspri extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wilspri() {
         super("Wilspri",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(50,
                         78,
                         56,

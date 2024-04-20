@@ -7,7 +7,7 @@ import java.util.*;
 public class Nephelith extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nephelith() {
         super("Nephelith",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(130,
                         121,
                         70,

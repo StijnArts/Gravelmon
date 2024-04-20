@@ -58,7 +58,7 @@ import java.util.*;
 public class Binduga extends drai.dev.gravelmon.pokemon.Pokemon {
     public Binduga() {
         super("Binduga",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

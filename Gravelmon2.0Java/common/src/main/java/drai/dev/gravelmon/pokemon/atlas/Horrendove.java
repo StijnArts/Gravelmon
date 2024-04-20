@@ -7,7 +7,7 @@ import java.util.*;
 public class Horrendove extends drai.dev.gravelmon.pokemon.Pokemon {
     public Horrendove() {
         super("Horrendove",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(112,
                         98,
                         73,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Tekichu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tekichu() {
         super("Tekichu",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

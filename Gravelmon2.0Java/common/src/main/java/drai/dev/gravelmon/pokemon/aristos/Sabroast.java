@@ -9,7 +9,7 @@ import java.util.*;
 public class Sabroast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sabroast() {
         super("Sabroast",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(67,
                         123,
                         67,

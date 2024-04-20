@@ -7,7 +7,7 @@ import java.util.*;
 public class Nodescape extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nodescape() {
         super("Nodescape",
-                Type.FAIRY,Type.ROCK,
+                Type.FAIRY, Type.ROCK,
                 new Stats(66,
                         63,
                         93,

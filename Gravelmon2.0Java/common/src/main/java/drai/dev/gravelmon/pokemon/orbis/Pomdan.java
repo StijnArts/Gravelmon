@@ -8,7 +8,7 @@ import java.util.*;
 public class Pomdan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pomdan() {
         super("Pompuff",
-                Type.FIGHTING,Type.FAIRY,
+                Type.FIGHTING, Type.FAIRY,
                 new Stats(50,
                         65,
                         30,

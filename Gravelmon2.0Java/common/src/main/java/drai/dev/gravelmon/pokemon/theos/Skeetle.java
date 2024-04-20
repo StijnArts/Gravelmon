@@ -58,7 +58,7 @@ import java.util.*;
 public class Skeetle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skeetle() {
         super("Skeetle",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(40,
                         50,
                         60,

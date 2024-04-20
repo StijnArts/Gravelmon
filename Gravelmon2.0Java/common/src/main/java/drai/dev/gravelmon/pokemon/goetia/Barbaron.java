@@ -58,7 +58,7 @@ import java.util.*;
 public class Barbaron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Barbaron() {
         super("Barbaron",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

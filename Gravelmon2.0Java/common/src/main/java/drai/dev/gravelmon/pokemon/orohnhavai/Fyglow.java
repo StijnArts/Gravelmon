@@ -9,7 +9,7 @@ import java.util.*;
 public class Fyglow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fyglow() {
         super("Fyglow",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(38,
                         50,
                         48,

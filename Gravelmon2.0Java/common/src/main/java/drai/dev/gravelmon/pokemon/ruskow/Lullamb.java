@@ -58,7 +58,7 @@ import java.util.*;
 public class Lullamb extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lullamb() {
         super("Lullamb",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

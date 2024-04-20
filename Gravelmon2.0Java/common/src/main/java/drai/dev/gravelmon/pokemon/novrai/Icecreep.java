@@ -7,7 +7,7 @@ import java.util.*;
 public class Icecreep extends drai.dev.gravelmon.pokemon.Pokemon {
     public Icecreep() {
         super("Icecreep",
-                Type.ICE,Type.DARK,
+                Type.ICE, Type.DARK,
                 new Stats(58,
                         105,
                         45,

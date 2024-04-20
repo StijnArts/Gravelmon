@@ -58,7 +58,7 @@ import java.util.*;
 public class Crestrike extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crestrike() {
         super("Crestrike",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

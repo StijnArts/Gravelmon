@@ -7,7 +7,7 @@ import java.util.*;
 public class Luminay extends drai.dev.gravelmon.pokemon.Pokemon {
     public Luminay() {
         super("Luminay",
-                Type.DRAGON,Type.WATER,
+                Type.DRAGON, Type.WATER,
                 new Stats(92,
                         80,
                         62,

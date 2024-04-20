@@ -58,7 +58,7 @@ import java.util.*;
 public class Tuskoble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tuskoble() {
         super("Tuskoble",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Bacteary extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bacteary() {
         super("Bacteary",
-                Type.POISON,Type.ICE,
+                Type.POISON, Type.ICE,
                 new Stats(100,
                         18,
                         30,

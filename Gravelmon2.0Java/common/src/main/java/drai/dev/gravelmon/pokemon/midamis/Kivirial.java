@@ -9,7 +9,7 @@ import java.util.*;
 public class Kivirial extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kivirial() {
         super("Kivirial",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(95,
                         130,
                         110,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Pyroad extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyroad() {
         super("Pyroad",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(120,
                         105,
                         110,

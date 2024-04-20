@@ -7,7 +7,7 @@ import java.util.*;
 public class Spectrance extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spectrance() {
         super("Spectrance",
-                Type.PSYCHIC,Type.DARK,
+                Type.PSYCHIC, Type.DARK,
                 new Stats(52,
                         86,
                         65,

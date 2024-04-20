@@ -58,7 +58,7 @@ import java.util.*;
 public class Glaceor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glaceor() {
         super("Glaceor",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(30,
                         60,
                         100,

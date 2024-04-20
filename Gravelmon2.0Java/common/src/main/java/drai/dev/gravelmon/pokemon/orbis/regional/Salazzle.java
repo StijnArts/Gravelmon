@@ -58,7 +58,7 @@ import java.util.*;
 public class Salazzle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Salazzle(int dex) {
         super(dex, "Salazzle",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(68,
                         64,
                         60,

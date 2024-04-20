@@ -7,7 +7,7 @@ import java.util.*;
 public class Sandray extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sandray() {
         super("Sandray",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(55,
                         52,
                         62,

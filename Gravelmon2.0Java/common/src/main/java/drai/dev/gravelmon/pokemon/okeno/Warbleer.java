@@ -6,7 +6,7 @@ import java.util.*;
 public class Warbleer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Warbleer() {
         super("Warbleer",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(62,
                         98,
                         72,

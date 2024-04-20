@@ -9,7 +9,7 @@ import java.util.*;
 public class Clastroid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clastroid() {
         super("Clastroid",
-                Type.ROCK,Type.ICE,
+                Type.ROCK, Type.ICE,
                 new Stats(40,
                         40,
                         70,

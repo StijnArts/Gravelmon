@@ -58,7 +58,7 @@ import java.util.*;
 public class Viperost extends drai.dev.gravelmon.pokemon.Pokemon {
     public Viperost() {
         super("Viperost",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(85,
                         60,
                         85,

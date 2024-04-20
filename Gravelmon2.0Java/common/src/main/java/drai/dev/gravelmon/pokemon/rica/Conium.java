@@ -9,7 +9,7 @@ import java.util.*;
 public class Conium extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conium() {
         super("Conium",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(50,
                         45,
                         100,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Blastun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blastun() {
         super("Blastun",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(50,
                         40,
                         45,

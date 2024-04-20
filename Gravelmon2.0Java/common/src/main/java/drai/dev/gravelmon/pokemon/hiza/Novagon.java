@@ -7,7 +7,7 @@ import java.util.*;
 public class Novagon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Novagon() {
         super("Novagon",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(65,
                         110,
                         95,

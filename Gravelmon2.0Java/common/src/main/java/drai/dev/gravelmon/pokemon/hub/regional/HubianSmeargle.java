@@ -7,7 +7,7 @@ import java.util.*;
 public class HubianSmeargle extends drai.dev.gravelmon.pokemon.Pokemon {
     public HubianSmeargle(int dex) {
         super(dex, "Smeargle",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(55,
                         20,
                         35,

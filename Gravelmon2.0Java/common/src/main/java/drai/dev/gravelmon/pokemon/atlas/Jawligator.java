@@ -7,7 +7,7 @@ import java.util.*;
 public class Jawligator extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jawligator() {
         super("Jawligator",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(81,
                         103,
                         80,

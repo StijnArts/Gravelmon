@@ -8,7 +8,7 @@ import java.util.*;
 public class Maimink extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maimink() {
         super("Maimink",
-                Type.NORMAL,Type.DARK,
+                Type.NORMAL, Type.DARK,
                 new Stats(70,
                         115,
                         55,

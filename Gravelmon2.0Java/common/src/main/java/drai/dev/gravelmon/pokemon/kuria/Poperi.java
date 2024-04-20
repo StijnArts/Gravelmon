@@ -58,7 +58,7 @@ import java.util.*;
 public class Poperi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poperi() {
         super("Poperi",
-                Type.POISON,Type.FIGHTING,
+                Type.POISON, Type.FIGHTING,
                 new Stats(65,
                         60,
                         54,

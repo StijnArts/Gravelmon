@@ -58,7 +58,7 @@ import java.util.*;
 public class Visacoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Visacoon() {
         super("Visacoon",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(52,
                         75,
                         106,

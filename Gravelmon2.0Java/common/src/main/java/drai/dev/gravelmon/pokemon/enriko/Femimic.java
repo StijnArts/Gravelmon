@@ -13,7 +13,7 @@ import java.util.*;
 public class Femimic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Femimic() {
         super("Femimic",
-                Type.FAIRY,Type.DARK,
+                Type.FAIRY, Type.DARK,
                 new Stats(85,
                         110,
                         50,

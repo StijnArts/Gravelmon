@@ -9,7 +9,7 @@ import java.util.*;
 public class Pengwin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pengwin() {
         super("Pengwin",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(50,
                         84,
                         60,

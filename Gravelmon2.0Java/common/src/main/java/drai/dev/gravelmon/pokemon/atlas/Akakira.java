@@ -13,7 +13,7 @@ import java.util.*;
 public class Akakira extends drai.dev.gravelmon.pokemon.Pokemon {
     public Akakira() {
         super("Akakira",
-                Type.ELECTRIC,Type.FIRE,
+                Type.ELECTRIC, Type.FIRE,
                 new Stats(65,
                         50,
                         65,

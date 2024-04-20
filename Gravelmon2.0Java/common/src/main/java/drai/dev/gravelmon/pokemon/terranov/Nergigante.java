@@ -58,7 +58,7 @@ import java.util.*;
 public class Nergigante extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nergigante() {
         super("Nergigante",
-                Type.DRAGON,Type.FIGHTING,
+                Type.DRAGON, Type.FIGHTING,
                 new Stats(90,
                         150,
                         110,

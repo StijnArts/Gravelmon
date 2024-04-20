@@ -7,7 +7,7 @@ import java.util.*;
 public class Hauntlass extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hauntlass() {
         super("Hauntlass",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(62,
                         103,
                         32,

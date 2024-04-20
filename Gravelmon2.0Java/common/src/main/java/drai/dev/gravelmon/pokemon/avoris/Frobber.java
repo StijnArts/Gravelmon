@@ -13,7 +13,7 @@ import java.util.*;
 public class Frobber extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frobber() {
         super("Frobber",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

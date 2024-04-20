@@ -7,7 +7,7 @@ import java.util.*;
 public class Theragong extends drai.dev.gravelmon.pokemon.Pokemon {
     public Theragong() {
         super("Theragong",
-                Type.STEEL,Type.FAIRY,
+                Type.STEEL, Type.FAIRY,
                 new Stats(55,
                         75,
                         85,

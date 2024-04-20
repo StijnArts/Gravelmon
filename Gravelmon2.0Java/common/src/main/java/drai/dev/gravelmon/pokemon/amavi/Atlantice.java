@@ -8,7 +8,7 @@ import java.util.*;
 public class Atlantice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Atlantice() {
         super("Atlantice",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(150,
                         45,
                         105,

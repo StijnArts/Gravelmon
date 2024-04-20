@@ -7,7 +7,7 @@ import java.util.*;
 public class Frosillade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frosillade() {
         super("Frosillade",
-                Type.ICE,Type.STEEL,
+                Type.ICE, Type.STEEL,
                 new Stats(70,
                         85,
                         130,

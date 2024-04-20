@@ -7,7 +7,7 @@ import java.util.*;
 public class Feliridge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Feliridge() {
         super("Feliridge",
-                Type.NORMAL,Type.ROCK,
+                Type.NORMAL, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

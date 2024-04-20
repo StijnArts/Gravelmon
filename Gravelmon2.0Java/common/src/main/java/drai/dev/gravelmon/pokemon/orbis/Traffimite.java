@@ -58,7 +58,7 @@ import java.util.*;
 public class Traffimite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Traffimite() {
         super("Traffimite",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(25,
                         35,
                         70,

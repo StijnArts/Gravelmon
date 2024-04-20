@@ -58,7 +58,7 @@ import java.util.*;
 public class Metalodon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Metalodon() {
         super("Metalodon",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -8,7 +8,7 @@ import java.util.*;
 public class AvorianCetitan extends drai.dev.gravelmon.pokemon.Pokemon {
     public AvorianCetitan() {
         super("Cetitan",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

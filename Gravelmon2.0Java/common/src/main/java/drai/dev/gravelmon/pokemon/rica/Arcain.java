@@ -9,7 +9,7 @@ import java.util.*;
 public class Arcain extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arcain() {
         super("Arcain",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(90,
                         80,
                         115,

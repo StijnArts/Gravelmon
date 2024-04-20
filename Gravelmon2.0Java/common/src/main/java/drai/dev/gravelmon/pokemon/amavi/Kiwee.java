@@ -8,7 +8,7 @@ import java.util.*;
 public class Kiwee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kiwee() {
         super("kiwatt",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(45,
                         85,
                         55,
@@ -17,7 +17,7 @@ public class Kiwee extends drai.dev.gravelmon.pokemon.Pokemon {
                         105),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 6, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

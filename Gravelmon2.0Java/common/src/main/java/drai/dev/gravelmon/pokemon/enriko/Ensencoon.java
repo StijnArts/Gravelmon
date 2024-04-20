@@ -7,7 +7,7 @@ import java.util.*;
 public class Ensencoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ensencoon() {
         super("Ensencoon",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(75,
                         75,
                         110,

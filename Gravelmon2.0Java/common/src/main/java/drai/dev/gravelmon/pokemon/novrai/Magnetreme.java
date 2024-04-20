@@ -7,7 +7,7 @@ import java.util.*;
 public class Magnetreme extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magnetreme() {
         super("Magnetreme",
-                Type.ELECTRIC,Type.STEEL,
+                Type.ELECTRIC, Type.STEEL,
                 new Stats(68,
                         72,
                         115,

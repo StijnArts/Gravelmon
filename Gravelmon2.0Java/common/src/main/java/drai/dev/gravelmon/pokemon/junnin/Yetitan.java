@@ -11,7 +11,7 @@ import java.util.*;
 public class Yetitan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yetitan() {
         super("Yetitan",
-                Type.GRASS,Type.ICE,
+                Type.GRASS, Type.ICE,
                 new Stats(91,
                         111,
                         99,

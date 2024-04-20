@@ -7,7 +7,7 @@ import java.util.*;
 public class Pepprex extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pepprex() {
         super("Pepprex",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(60,
                         60,
                         60,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Dracoma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dracoma() {
         super("Dracoma",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(50,
                         30,
                         30,

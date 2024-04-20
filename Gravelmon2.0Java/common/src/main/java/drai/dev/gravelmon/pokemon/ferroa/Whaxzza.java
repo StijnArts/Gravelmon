@@ -7,7 +7,7 @@ import java.util.*;
 public class Whaxzza extends drai.dev.gravelmon.pokemon.Pokemon {
     public Whaxzza() {
         super("Whaxzza",
-                Type.FIGHTING,Type.FIRE,
+                Type.FIGHTING, Type.FIRE,
                 new Stats(55,
                         61,
                         50,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Dazee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dazee() {
         super("Dazee",
-                Type.PSYCHIC,Type.GRASS,
+                Type.PSYCHIC, Type.GRASS,
                 new Stats(69,
                         30,
                         40,
@@ -17,7 +17,7 @@ public class Dazee extends drai.dev.gravelmon.pokemon.Pokemon {
                         50),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 7, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

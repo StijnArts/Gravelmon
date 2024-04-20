@@ -9,7 +9,7 @@ import java.util.*;
 public class Polighoul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Polighoul() {
         super("Polighoul",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(70,
                         95,
                         85,

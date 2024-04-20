@@ -58,7 +58,7 @@ import java.util.*;
 public class Tamindash extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tamindash() {
         super("Tamindash",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

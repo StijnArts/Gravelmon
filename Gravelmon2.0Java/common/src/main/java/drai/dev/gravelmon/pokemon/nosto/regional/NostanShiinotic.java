@@ -7,7 +7,7 @@ import java.util.*;
 public class NostanShiinotic extends drai.dev.gravelmon.pokemon.Pokemon {
     public NostanShiinotic() {
         super("Shiinotic",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,
                         0,

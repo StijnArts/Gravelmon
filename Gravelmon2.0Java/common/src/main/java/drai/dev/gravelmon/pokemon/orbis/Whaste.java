@@ -58,7 +58,7 @@ import java.util.*;
 public class Whaste extends drai.dev.gravelmon.pokemon.Pokemon {
     public Whaste() {
         super("Whaste",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(140,
                         70,
                         75,

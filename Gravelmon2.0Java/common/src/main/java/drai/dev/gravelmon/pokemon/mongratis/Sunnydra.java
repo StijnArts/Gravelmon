@@ -58,7 +58,7 @@ import java.util.*;
 public class Sunnydra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sunnydra() {
         super("Sunnydra",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(90,
                         90,
                         70,

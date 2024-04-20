@@ -7,7 +7,7 @@ import java.util.*;
 public class Orotolas extends drai.dev.gravelmon.pokemon.Pokemon {
     public Orotolas() {
         super("Orotolas",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(121,
                         120,
                         130,

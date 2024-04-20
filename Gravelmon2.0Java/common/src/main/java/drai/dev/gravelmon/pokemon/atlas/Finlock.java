@@ -7,7 +7,7 @@ import java.util.*;
 public class Finlock extends drai.dev.gravelmon.pokemon.Pokemon {
     public Finlock() {
         super("Finlock",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(60,
                         57,
                         50,

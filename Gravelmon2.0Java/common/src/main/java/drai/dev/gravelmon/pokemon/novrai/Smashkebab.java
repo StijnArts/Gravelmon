@@ -7,7 +7,7 @@ import java.util.*;
 public class Smashkebab extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smashkebab() {
         super("Smashkebab",
-                Type.FIRE,Type.FIGHTING,
+                Type.FIRE, Type.FIGHTING,
                 new Stats(63,
                         113,
                         75,

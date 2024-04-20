@@ -7,7 +7,7 @@ import java.util.*;
 public class Utsoul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Utsoul() {
         super("Utsoul",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(130,
                         80,
                         90,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Palodefena extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palodefena() {
         super("Palodefena",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

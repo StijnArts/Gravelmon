@@ -58,7 +58,7 @@ import java.util.*;
 public class Cryodra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cryodra() {
         super("Cryodra",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(142,
                         73,
                         79,

@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianRhydon extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianRhydon(int dex) {
         super(dex, "Rhydon",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(105,
                         130,
                         120,

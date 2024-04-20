@@ -7,7 +7,7 @@ import java.util.*;
 public class Churlice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Churlice() {
         super("Churlice",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

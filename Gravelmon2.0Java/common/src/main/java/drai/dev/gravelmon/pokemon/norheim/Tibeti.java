@@ -9,7 +9,7 @@ import java.util.*;
 public class Tibeti extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tibeti() {
         super("Tibeti",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Deerling extends drai.dev.gravelmon.pokemon.Pokemon {
     public Deerling(int dex) {
         super(dex, "Deerling",
-                Type.NORMAL,Type.GRASS,
+                Type.NORMAL, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

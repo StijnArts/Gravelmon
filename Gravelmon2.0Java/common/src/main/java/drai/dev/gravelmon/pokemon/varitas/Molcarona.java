@@ -9,7 +9,7 @@ import java.util.*;
 public class Molcarona extends drai.dev.gravelmon.pokemon.Pokemon {
     public Molcarona() {
         super("Molcarona",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(85,
                         60,
                         65,

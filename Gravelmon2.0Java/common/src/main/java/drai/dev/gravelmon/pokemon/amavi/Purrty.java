@@ -8,7 +8,7 @@ import java.util.*;
 public class Purrty extends drai.dev.gravelmon.pokemon.Pokemon {
     public Purrty() {
         super("Purrty",
-                Type.BUG,Type.NORMAL,
+                Type.BUG, Type.NORMAL,
                 new Stats(70,
                         33,
                         70,
@@ -17,7 +17,7 @@ public class Purrty extends drai.dev.gravelmon.pokemon.Pokemon {
                         58),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 7, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 140,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

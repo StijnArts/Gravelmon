@@ -58,7 +58,7 @@ import java.util.*;
 public class Asterish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Asterish() {
         super("Asterish",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

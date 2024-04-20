@@ -58,7 +58,7 @@ import java.util.*;
 public class Bobbilisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bobbilisk() {
         super("Bobbilisk",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

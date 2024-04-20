@@ -58,7 +58,7 @@ import java.util.*;
 public class Rockid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rockid() {
         super("Rockid",
-                Type.ROCK,Type.NORMAL,
+                Type.ROCK, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Servolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Servolt() {
         super("Servolt",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(30,
                         72,
                         31,

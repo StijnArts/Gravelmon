@@ -9,7 +9,7 @@ import java.util.*;
 public class Ribhit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ribhit() {
         super("Ribhit",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(96,
                         65,
                         65,

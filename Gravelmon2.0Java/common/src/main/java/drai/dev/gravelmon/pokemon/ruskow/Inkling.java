@@ -58,7 +58,7 @@ import java.util.*;
 public class Inkling extends drai.dev.gravelmon.pokemon.Pokemon {
     public Inkling() {
         super("Inkling",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

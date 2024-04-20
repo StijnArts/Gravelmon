@@ -7,7 +7,7 @@ import java.util.*;
 public class Slithair extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slithair() {
         super("Slithair",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(70,
                         85,
                         62,

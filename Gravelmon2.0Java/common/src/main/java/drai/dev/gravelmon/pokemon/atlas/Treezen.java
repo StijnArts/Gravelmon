@@ -7,7 +7,7 @@ import java.util.*;
 public class Treezen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Treezen() {
         super("Treezen",
-                Type.GRASS,Type.ICE,
+                Type.GRASS, Type.ICE,
                 new Stats(77,
                         77,
                         79,

@@ -9,7 +9,7 @@ import java.util.*;
 public class RicanGastrodon extends drai.dev.gravelmon.pokemon.Pokemon {
     public RicanGastrodon(int dex) {
         super(dex, "RicanGastrodon",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(111,
                         83,
                         68,

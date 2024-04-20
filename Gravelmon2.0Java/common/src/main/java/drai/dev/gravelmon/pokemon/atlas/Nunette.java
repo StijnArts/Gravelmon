@@ -7,7 +7,7 @@ import java.util.*;
 public class Nunette extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nunette() {
         super("Nunette",
-                Type.PSYCHIC,Type.FAIRY,
+                Type.PSYCHIC, Type.FAIRY,
                 new Stats(50,
                         35,
                         35,

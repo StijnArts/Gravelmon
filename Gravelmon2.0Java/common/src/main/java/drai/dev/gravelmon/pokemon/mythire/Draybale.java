@@ -7,7 +7,7 @@ import java.util.*;
 public class Draybale extends drai.dev.gravelmon.pokemon.Pokemon {
     public Draybale() {
         super("Draybale",
-                Type.DRAGON,Type.ELECTRIC,
+                Type.DRAGON, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

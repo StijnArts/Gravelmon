@@ -58,7 +58,7 @@ import java.util.*;
 public class Amoni extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amoni() {
         super("Amoni",
-                Type.ICE,Type.FIRE,
+                Type.ICE, Type.FIRE,
                 new Stats(35,
                         60,
                         30,

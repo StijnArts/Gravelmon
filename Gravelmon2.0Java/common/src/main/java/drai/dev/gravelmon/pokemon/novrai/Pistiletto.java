@@ -7,7 +7,7 @@ import java.util.*;
 public class Pistiletto extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pistiletto() {
         super("Pistiletto",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(89,
                         71,
                         57,

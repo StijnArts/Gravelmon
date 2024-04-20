@@ -9,7 +9,7 @@ import java.util.*;
 public class Cottoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cottoon() {
         super("Cottoon",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(50,
                         20,
                         40,

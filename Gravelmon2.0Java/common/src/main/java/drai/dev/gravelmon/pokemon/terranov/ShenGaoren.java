@@ -58,7 +58,7 @@ import java.util.*;
 public class ShenGaoren extends drai.dev.gravelmon.pokemon.Pokemon {
     public ShenGaoren() {
         super("ShenGaoren",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

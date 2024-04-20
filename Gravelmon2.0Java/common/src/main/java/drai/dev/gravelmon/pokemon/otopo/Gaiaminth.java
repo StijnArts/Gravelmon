@@ -58,7 +58,7 @@ import java.util.*;
 public class Gaiaminth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gaiaminth() {
         super("Gaiaminth",
-                Type.GROUND,Type.ROCK,
+                Type.GROUND, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

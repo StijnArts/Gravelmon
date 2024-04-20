@@ -58,7 +58,7 @@ import java.util.*;
 public class Croagunk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Croagunk(int dex) {
         super(dex, "Croagunk",
-                Type.POISON,Type.FIGHTING,
+                Type.POISON, Type.FIGHTING,
                 new Stats(48,
                         61,
                         40,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Teranium extends drai.dev.gravelmon.pokemon.Pokemon {
     public Teranium() {
         super("Teranium",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(91,
                         119,
                         82,

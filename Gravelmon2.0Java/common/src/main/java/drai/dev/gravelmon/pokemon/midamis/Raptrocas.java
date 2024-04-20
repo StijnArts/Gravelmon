@@ -9,7 +9,7 @@ import java.util.*;
 public class Raptrocas extends drai.dev.gravelmon.pokemon.Pokemon {
     public Raptrocas() {
         super("Raptrocas",
-                Type.FIGHTING,Type.ROCK,
+                Type.FIGHTING, Type.ROCK,
                 new Stats(60,
                         120,
                         80,

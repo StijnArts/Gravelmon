@@ -7,7 +7,7 @@ import java.util.*;
 public class Atlagon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Atlagon() {
         super("Atlagon",
-                Type.DRAGON,Type.BUG,
+                Type.DRAGON, Type.BUG,
                 new Stats(94,
                         63,
                         83,

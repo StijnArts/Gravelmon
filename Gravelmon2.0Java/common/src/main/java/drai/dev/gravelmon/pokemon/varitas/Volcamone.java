@@ -9,7 +9,7 @@ import java.util.*;
 public class Volcamone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Volcamone() {
         super("Volcamone",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

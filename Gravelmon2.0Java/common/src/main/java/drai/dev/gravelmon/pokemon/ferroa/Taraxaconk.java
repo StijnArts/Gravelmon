@@ -7,7 +7,7 @@ import java.util.*;
 public class Taraxaconk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Taraxaconk() {
         super("Taraxaconk",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(68,
                         98,
                         83,

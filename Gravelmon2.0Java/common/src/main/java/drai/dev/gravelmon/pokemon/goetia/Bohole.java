@@ -58,7 +58,7 @@ import java.util.*;
 public class Bohole extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bohole() {
         super("Bohole",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Tuscal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tuscal() {
         super("Tuscal",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

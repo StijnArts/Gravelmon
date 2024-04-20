@@ -58,7 +58,7 @@ import java.util.*;
 public class Crabbish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crabbish() {
         super("Crabbish",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(50,
                         85,
                         110,

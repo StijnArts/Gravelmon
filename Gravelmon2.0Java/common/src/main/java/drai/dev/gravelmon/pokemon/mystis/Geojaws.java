@@ -58,7 +58,7 @@ import java.util.*;
 public class Geojaws extends drai.dev.gravelmon.pokemon.Pokemon {
     public Geojaws() {
         super("Geojaws",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(70,
                         120,
                         85,

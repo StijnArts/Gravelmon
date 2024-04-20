@@ -58,7 +58,7 @@ import java.util.*;
 public class Stubhorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stubhorn() {
         super("Stubhorn",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

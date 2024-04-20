@@ -58,7 +58,7 @@ import java.util.*;
 public class Garpyre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Garpyre() {
         super("Garpyre",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

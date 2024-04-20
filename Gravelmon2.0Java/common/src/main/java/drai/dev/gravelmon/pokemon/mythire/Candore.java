@@ -7,7 +7,7 @@ import java.util.*;
 public class Candore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Candore() {
         super("Candore",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(30,
                         50,
                         100,

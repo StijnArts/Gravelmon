@@ -7,7 +7,7 @@ import java.util.*;
 public class Chronotoc extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chronotoc() {
         super("Chronotoc",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(60,
                         78,
                         99,

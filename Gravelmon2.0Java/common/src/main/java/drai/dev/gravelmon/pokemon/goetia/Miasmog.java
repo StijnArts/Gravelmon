@@ -58,7 +58,7 @@ import java.util.*;
 public class Miasmog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Miasmog() {
         super("Miasmog",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(0,
                         0,
                         0,

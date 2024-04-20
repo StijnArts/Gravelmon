@@ -6,7 +6,7 @@ import java.util.*;
 public class Guaraneye extends drai.dev.gravelmon.pokemon.Pokemon {
     public Guaraneye() {
         super("Guaraneye",
-                Type.PSYCHIC,Type.GRASS,
+                Type.PSYCHIC, Type.GRASS,
                 new Stats(59,
                         44,
                         107,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Pierrot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pierrot() {
         super("Pierrot",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Pawstry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pawstry() {
         super("Pawstry",
-                Type.FAIRY,Type.NORMAL,
+                Type.FAIRY, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

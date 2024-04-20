@@ -6,7 +6,7 @@ import java.util.*;
 public class Scuffowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scuffowl() {
         super("Scuffowl",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(65,
                         88,
                         70,

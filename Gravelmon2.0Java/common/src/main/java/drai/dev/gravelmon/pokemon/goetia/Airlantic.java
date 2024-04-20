@@ -58,7 +58,7 @@ import java.util.*;
 public class Airlantic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Airlantic() {
         super("Airlantic",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

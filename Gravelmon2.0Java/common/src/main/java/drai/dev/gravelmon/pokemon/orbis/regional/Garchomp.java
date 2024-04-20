@@ -58,7 +58,7 @@ import java.util.*;
 public class Garchomp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Garchomp(int dex) {
         super(dex, "Garchomp",
-                Type.DRAGON,Type.GROUND,
+                Type.DRAGON, Type.GROUND,
                 new Stats(108,
                         130,
                         95,

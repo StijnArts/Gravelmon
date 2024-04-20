@@ -58,7 +58,7 @@ import java.util.*;
 public class Heliark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Heliark() {
         super("Heliark",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(39,
                         82,
                         63,

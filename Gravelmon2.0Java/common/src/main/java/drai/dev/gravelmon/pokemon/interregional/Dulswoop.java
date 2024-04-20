@@ -7,7 +7,7 @@ import java.util.*;
 public class Dulswoop extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dulswoop() {
         super("Dulswoop",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(132,
                         72,
                         70,

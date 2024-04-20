@@ -7,7 +7,7 @@ import java.util.*;
 public class SwordFish2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public SwordFish2() {
         super("SwordFish2",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

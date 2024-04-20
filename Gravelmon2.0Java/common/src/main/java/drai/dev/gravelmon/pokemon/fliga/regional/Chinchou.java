@@ -58,7 +58,7 @@ import java.util.*;
 public class Chinchou extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chinchou(int dex) {
         super(dex, "Chinchou",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(75,
                         38,
                         38,

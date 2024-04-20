@@ -58,7 +58,7 @@ import java.util.*;
 public class Ignipala extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ignipala() {
         super("Ignipala",
-                Type.NORMAL,Type.FIRE,
+                Type.NORMAL, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

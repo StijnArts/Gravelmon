@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanFalinks extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanFalinks(int dex) {
         super(dex, "Falinks",
-                Type.STEEL,Type.FIGHTING,
+                Type.STEEL, Type.FIGHTING,
                 new Stats(65,
                         110,
                         120,

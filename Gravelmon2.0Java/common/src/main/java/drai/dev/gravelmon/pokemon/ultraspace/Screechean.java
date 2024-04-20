@@ -58,7 +58,7 @@ import java.util.*;
 public class Screechean extends drai.dev.gravelmon.pokemon.Pokemon {
     public Screechean() {
         super("Screechean",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

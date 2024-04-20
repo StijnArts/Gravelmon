@@ -7,7 +7,7 @@ import java.util.*;
 public class Auroreel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Auroreel() {
         super("Auroreel",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(60,
                         64,
                         52,

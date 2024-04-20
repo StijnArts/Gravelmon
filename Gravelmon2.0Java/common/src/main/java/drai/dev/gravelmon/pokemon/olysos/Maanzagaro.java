@@ -58,7 +58,7 @@ import java.util.*;
 public class Maanzagaro extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maanzagaro() {
         super("Maanzagaro",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(80,
                         145,
                         70,

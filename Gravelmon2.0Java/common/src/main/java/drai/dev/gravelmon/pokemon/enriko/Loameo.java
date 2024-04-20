@@ -7,7 +7,7 @@ import java.util.*;
 public class Loameo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Loameo() {
         super("Loameo",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

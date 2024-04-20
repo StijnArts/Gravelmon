@@ -7,7 +7,7 @@ import java.util.*;
 public class Imbirbe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Imbirbe() {
         super("Imbirbe",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(40,
                         60,
                         35,

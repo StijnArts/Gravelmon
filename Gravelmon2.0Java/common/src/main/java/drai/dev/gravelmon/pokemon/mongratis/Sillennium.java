@@ -58,7 +58,7 @@ import java.util.*;
 public class Sillennium extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sillennium() {
         super("Sillennium",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Kamabukee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kamabukee() {
         super("Kamabukee",
-                Type.GHOST,Type.FIGHTING,
+                Type.GHOST, Type.FIGHTING,
                 new Stats(69,
                         118,
                         95,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Sandozer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sandozer() {
         super("Sandozer",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(76,
                         86,
                         86,

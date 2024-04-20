@@ -9,7 +9,7 @@ import java.util.*;
 public class Mirrorigus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mirrorigus() {
         super("Mirrorigus",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(55,
                         77,
                         125,

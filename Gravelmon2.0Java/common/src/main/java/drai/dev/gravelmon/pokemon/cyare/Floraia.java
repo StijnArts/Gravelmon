@@ -58,7 +58,7 @@ import java.util.*;
 public class Floraia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Floraia() {
         super("Floraia",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

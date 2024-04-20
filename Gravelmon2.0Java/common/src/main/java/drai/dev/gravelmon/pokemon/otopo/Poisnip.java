@@ -58,7 +58,7 @@ import java.util.*;
 public class Poisnip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poisnip() {
         super("Poisnip",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Leetch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leetch() {
         super("Leetch",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(0,
                         0,
                         0,

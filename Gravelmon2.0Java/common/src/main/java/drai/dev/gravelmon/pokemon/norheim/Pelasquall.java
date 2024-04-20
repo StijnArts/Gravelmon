@@ -9,7 +9,7 @@ import java.util.*;
 public class Pelasquall extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pelasquall() {
         super("Pelasquall",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(87,
                         95,
                         75,

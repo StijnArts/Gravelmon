@@ -9,7 +9,7 @@ import java.util.*;
 public class Norsery extends drai.dev.gravelmon.pokemon.Pokemon {
     public Norsery() {
         super("Norsery",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

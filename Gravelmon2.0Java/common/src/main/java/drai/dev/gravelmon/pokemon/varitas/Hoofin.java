@@ -9,7 +9,7 @@ import java.util.*;
 public class Hoofin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hoofin() {
         super("Hoofin",
-                Type.NORMAL,Type.WATER,
+                Type.NORMAL, Type.WATER,
                 new Stats(0,
                         0,
                         0,

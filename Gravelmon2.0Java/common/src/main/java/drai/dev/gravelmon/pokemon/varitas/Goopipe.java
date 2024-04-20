@@ -9,7 +9,7 @@ import java.util.*;
 public class Goopipe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Goopipe() {
         super("Goopipe",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Trimmet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trimmet() {
         super("Trimmet",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(48,
                         35,
                         42,

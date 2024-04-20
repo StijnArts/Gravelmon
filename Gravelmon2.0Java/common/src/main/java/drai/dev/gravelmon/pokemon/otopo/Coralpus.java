@@ -58,7 +58,7 @@ import java.util.*;
 public class Coralpus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coralpus() {
         super("Coralpus",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(75,
                         75,
                         75,

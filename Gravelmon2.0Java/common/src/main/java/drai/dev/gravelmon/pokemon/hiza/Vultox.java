@@ -7,7 +7,7 @@ import java.util.*;
 public class Vultox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vultox() {
         super("Vultox",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(60,
                         70,
                         45,

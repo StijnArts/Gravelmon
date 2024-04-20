@@ -58,7 +58,7 @@ import java.util.*;
 public class Hayog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hayog() {
         super("Hayog",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

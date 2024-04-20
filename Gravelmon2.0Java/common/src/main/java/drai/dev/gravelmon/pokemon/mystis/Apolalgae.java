@@ -58,7 +58,7 @@ import java.util.*;
 public class Apolalgae extends drai.dev.gravelmon.pokemon.Pokemon {
     public Apolalgae() {
         super("Apolalgae",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(95,
                         30,
                         80,

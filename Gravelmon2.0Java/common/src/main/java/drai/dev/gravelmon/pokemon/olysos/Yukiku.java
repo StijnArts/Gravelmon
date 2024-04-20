@@ -58,7 +58,7 @@ import java.util.*;
 public class Yukiku extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yukiku() {
         super("Yukiku",
-                Type.ELECTRIC,Type.ICE,
+                Type.ELECTRIC, Type.ICE,
                 new Stats(0,
                         0,
                         0,

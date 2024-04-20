@@ -58,7 +58,7 @@ import java.util.*;
 public class TReggs extends drai.dev.gravelmon.pokemon.Pokemon {
     public TReggs() {
         super("TReggs",
-                Type.NORMAL,Type.DRAGON,
+                Type.NORMAL, Type.DRAGON,
                 new Stats(1,
                         0,
                         0,

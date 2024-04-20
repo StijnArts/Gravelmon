@@ -7,7 +7,7 @@ import java.util.*;
 public class Forlawn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Forlawn() {
         super("Forlawn",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(70,
                         65,
                         100,

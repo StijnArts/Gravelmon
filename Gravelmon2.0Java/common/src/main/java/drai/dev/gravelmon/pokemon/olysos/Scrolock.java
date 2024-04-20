@@ -58,7 +58,7 @@ import java.util.*;
 public class Scrolock extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scrolock() {
         super("Scrolock",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(75,
                         65,
                         120,

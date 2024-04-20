@@ -58,7 +58,7 @@ import java.util.*;
 public class Sirenatee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sirenatee() {
         super("Sirenatee",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

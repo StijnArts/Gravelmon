@@ -7,7 +7,7 @@ import java.util.*;
 public class Pitohood extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pitohood() {
         super("Pitohood",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(55,
                         82,
                         42,

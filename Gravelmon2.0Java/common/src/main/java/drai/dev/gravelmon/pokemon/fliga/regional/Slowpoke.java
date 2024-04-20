@@ -58,7 +58,7 @@ import java.util.*;
 public class Slowpoke extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slowpoke(int dex) {
         super(dex, "Slowpoke",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(90,
                         65,
                         65,

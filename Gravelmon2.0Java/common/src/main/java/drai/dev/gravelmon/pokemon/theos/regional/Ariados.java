@@ -58,7 +58,7 @@ import java.util.*;
 public class Ariados extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ariados(int dex) {
         super(dex, "Ariados",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(70,
                         90,
                         70,

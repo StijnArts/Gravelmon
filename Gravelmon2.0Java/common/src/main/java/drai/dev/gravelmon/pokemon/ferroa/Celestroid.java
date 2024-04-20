@@ -7,7 +7,7 @@ import java.util.*;
 public class Celestroid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Celestroid() {
         super("Celestroid",
-                Type.ICE,Type.FIRE,
+                Type.ICE, Type.FIRE,
                 new Stats(60,
                         90,
                         60,

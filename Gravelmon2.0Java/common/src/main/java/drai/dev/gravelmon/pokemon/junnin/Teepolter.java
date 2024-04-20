@@ -11,7 +11,7 @@ import java.util.*;
 public class Teepolter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Teepolter() {
         super("Teepolter",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(81,
                         87,
                         63,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Denkipede extends drai.dev.gravelmon.pokemon.Pokemon {
     public Denkipede() {
         super("Denkipede",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

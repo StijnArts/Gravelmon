@@ -9,7 +9,7 @@ import java.util.*;
 public class Battlefly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Battlefly() {
         super("Battlefly",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(55,
                         55,
                         65,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Judodo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Judodo() {
         super("Judodo",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

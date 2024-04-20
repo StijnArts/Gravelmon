@@ -58,7 +58,7 @@ import java.util.*;
 public class Aquana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aquana() {
         super("Aquana",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Selkreeper extends drai.dev.gravelmon.pokemon.Pokemon {
     public Selkreeper() {
         super("Selkreeper",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(105,
                         80,
                         55,

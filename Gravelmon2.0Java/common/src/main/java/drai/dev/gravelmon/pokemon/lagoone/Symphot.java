@@ -58,7 +58,7 @@ import java.util.*;
 public class Symphot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Symphot() {
         super("Symphot",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(79,
                         69,
                         77,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Cordysect extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cordysect() {
         super("Cordysect",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Uroshella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Uroshella() {
         super("Uroshella",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(77,
                         105,
                         70,

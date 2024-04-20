@@ -58,7 +58,7 @@ import java.util.*;
 public class Twinklyink extends drai.dev.gravelmon.pokemon.Pokemon {
     public Twinklyink() {
         super("Twinklyink",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

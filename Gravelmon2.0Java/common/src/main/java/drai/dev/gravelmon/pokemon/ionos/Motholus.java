@@ -58,7 +58,7 @@ import java.util.*;
 public class Motholus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Motholus() {
         super("Motholus",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(80,
                         71,
                         50,

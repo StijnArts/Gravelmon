@@ -58,7 +58,7 @@ import java.util.*;
 public class MimeJr extends drai.dev.gravelmon.pokemon.Pokemon {
     public MimeJr(int dex) {
         super(dex, "MimeJr",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class mara extends drai.dev.gravelmon.pokemon.Pokemon {
     public mara() {
         super("mara",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(110,
                         55,
                         65,

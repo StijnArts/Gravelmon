@@ -6,7 +6,7 @@ import java.util.*;
 public class Glowarm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glowarm() {
         super("Glowarm",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(60,
                         80,
                         68,

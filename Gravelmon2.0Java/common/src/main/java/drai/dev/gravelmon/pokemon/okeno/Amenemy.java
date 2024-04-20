@@ -6,7 +6,7 @@ import java.util.*;
 public class Amenemy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amenemy() {
         super("Amenemy",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(70,
                         55,
                         70,

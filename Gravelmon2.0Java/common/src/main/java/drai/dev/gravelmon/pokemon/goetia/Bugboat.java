@@ -58,7 +58,7 @@ import java.util.*;
 public class Bugboat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bugboat() {
         super("Bugboat",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(0,
                         0,
                         0,

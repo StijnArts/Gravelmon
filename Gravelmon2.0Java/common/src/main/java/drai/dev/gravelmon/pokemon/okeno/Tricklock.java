@@ -6,7 +6,7 @@ import java.util.*;
 public class Tricklock extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tricklock() {
         super("Tricklock",
-                Type.STEEL,Type.GHOST,
+                Type.STEEL, Type.GHOST,
                 new Stats(48,
                         77,
                         80,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Velverette extends drai.dev.gravelmon.pokemon.Pokemon {
     public Velverette() {
         super("Velverette",
-                Type.GHOST,Type.BUG,
+                Type.GHOST, Type.BUG,
                 new Stats(45,
                         43,
                         30,

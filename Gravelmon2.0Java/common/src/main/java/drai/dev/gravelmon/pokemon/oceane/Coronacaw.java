@@ -7,7 +7,7 @@ import java.util.*;
 public class Coronacaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coronacaw() {
         super("Coronacaw",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(70,
                         90,
                         75,

@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianScyther extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianScyther(int dex) {
         super(dex, "Scyther",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(70,
                         110,
                         80,

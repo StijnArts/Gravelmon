@@ -58,7 +58,7 @@ import java.util.*;
 public class Gossnow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gossnow() {
         super("Gossnow",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(104,
                         76,
                         75,
@@ -73,7 +73,8 @@ public class Gossnow extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER),
                 List.of("Because this species of Pokémon prefers to live alone, it is quickly enraged when provoked. It is capable of breaking through thick ice and rocks with its pure strength."),
-                List.of(),
+                List.of(new EvolutionEntry("frosstitan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"52")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.DRAGON_BREATH,1),
@@ -119,8 +120,8 @@ public class Gossnow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

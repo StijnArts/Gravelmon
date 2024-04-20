@@ -7,7 +7,7 @@ import java.util.*;
 public class Jayzure extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jayzure() {
         super("Jayzure",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(75,
                         81,
                         58,

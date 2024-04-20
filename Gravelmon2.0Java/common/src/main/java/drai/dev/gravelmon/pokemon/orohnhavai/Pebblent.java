@@ -9,7 +9,7 @@ import java.util.*;
 public class Pebblent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pebblent() {
         super("Pebblent",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(80,
                         50,
                         68,

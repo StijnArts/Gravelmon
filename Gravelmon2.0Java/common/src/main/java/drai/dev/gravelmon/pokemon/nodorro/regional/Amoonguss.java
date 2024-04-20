@@ -58,7 +58,7 @@ import java.util.*;
 public class Amoonguss extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amoonguss(int dex) {
         super(dex, "Amoonguss",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(100,
                         69,
                         90,

@@ -5,6 +5,7 @@ import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.fliga.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
@@ -29,6 +30,9 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new FligianVanillite(582));
+        pokemon.add(new FligianVanillish(583));
+
         pokemon.add(new NovranHerdier(507));
         pokemon.add(new NovranStoutland(508));
         pokemon.add(new NovranVanillite(583));

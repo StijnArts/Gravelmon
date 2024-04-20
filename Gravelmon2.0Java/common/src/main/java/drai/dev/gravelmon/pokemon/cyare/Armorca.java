@@ -58,7 +58,7 @@ import java.util.*;
 public class Armorca extends drai.dev.gravelmon.pokemon.Pokemon {
     public Armorca() {
         super("Armorca",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

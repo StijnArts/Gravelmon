@@ -58,7 +58,7 @@ import java.util.*;
 public class Stalagator extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stalagator() {
         super("Stalagator",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

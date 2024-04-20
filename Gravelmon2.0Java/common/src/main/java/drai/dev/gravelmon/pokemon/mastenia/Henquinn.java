@@ -58,7 +58,7 @@ import java.util.*;
 public class Henquinn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Henquinn() {
         super("Henquinn",
-                Type.FAIRY,Type.PSYCHIC,
+                Type.FAIRY, Type.PSYCHIC,
                 new Stats(70,
                         80,
                         70,

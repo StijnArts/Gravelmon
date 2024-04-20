@@ -9,7 +9,7 @@ import java.util.*;
 public class Fridgid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fridgid() {
         super("Fridgid",
-                Type.ICE,Type.STEEL,
+                Type.ICE, Type.STEEL,
                 new Stats(131,
                         85,
                         97,

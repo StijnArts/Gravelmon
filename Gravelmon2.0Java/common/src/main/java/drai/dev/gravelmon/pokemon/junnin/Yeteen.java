@@ -11,7 +11,7 @@ import java.util.*;
 public class Yeteen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yeteen() {
         super("Yeteen",
-                Type.GRASS,Type.ICE,
+                Type.GRASS, Type.ICE,
                 new Stats(77,
                         89,
                         63,

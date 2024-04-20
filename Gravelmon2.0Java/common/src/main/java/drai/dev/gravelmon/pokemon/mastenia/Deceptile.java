@@ -58,7 +58,7 @@ import java.util.*;
 public class Deceptile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Deceptile() {
         super("Deceptile",
-                Type.FIGHTING,Type.DARK,
+                Type.FIGHTING, Type.DARK,
                 new Stats(70,
                         115,
                         65,

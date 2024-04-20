@@ -58,7 +58,7 @@ import java.util.*;
 public class Crimsoni extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crimsoni() {
         super("Crimsoni",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(80,
                         125,
                         80,

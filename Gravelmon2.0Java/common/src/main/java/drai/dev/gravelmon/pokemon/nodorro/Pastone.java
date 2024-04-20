@@ -58,7 +58,7 @@ import java.util.*;
 public class Pastone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pastone() {
         super("Pastone",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(80,
                         90,
                         80,

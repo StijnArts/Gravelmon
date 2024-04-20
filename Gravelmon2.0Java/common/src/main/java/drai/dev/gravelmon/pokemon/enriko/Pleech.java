@@ -7,7 +7,7 @@ import java.util.*;
 public class Pleech extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pleech() {
         super("Pleech",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(30,
                         20,
                         50,

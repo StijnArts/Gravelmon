@@ -58,7 +58,7 @@ import java.util.*;
 public class Oceadon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oceadon() {
         super("Oceadon",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(109,
                         117,
                         93,

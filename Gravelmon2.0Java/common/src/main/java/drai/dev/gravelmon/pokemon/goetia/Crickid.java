@@ -58,7 +58,7 @@ import java.util.*;
 public class Crickid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crickid() {
         super("Crickid",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

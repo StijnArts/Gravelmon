@@ -58,7 +58,7 @@ import java.util.*;
 public class Necrophagus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Necrophagus() {
         super("Necrophagus",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

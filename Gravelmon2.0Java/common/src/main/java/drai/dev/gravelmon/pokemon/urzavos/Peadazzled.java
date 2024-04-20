@@ -58,7 +58,7 @@ import java.util.*;
 public class Peadazzled extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peadazzled() {
         super("Peadazzled",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

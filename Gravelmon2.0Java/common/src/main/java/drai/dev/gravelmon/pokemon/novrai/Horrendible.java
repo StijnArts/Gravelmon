@@ -7,7 +7,7 @@ import java.util.*;
 public class Horrendible extends drai.dev.gravelmon.pokemon.Pokemon {
     public Horrendible() {
         super("Horrendible",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(62,
                         168,
                         72,

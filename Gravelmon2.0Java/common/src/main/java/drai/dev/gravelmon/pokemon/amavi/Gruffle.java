@@ -8,7 +8,7 @@ import java.util.*;
 public class Gruffle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gruffle() {
         super("Gruffle",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(89,
                         69,
                         53,
@@ -17,7 +17,7 @@ public class Gruffle extends drai.dev.gravelmon.pokemon.Pokemon {
                         25),
                 List.of(Ability.GLUTTONY,Ability.ADAPTABILITY), Ability.WATER_ABSORB,
                 5, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 130,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

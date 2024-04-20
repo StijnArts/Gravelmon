@@ -7,7 +7,7 @@ import java.util.*;
 public class Himegami extends drai.dev.gravelmon.pokemon.Pokemon {
     public Himegami() {
         super("Himegami",
-                Type.NORMAL,Type.STEEL,
+                Type.NORMAL, Type.STEEL,
                 new Stats(63,
                         142,
                         41,

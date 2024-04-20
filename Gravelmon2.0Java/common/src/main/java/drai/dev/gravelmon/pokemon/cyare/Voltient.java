@@ -58,7 +58,7 @@ import java.util.*;
 public class Voltient extends drai.dev.gravelmon.pokemon.Pokemon {
     public Voltient() {
         super("Voltient",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

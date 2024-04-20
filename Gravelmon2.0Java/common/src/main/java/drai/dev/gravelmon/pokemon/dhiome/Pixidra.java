@@ -8,7 +8,7 @@ import java.util.*;
 public class Pixidra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pixidra() {
         super("Pixidra",
-                Type.FAIRY,Type.DRAGON,
+                Type.FAIRY, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

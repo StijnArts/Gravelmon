@@ -58,7 +58,7 @@ import java.util.*;
 public class Neprechaun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Neprechaun() {
         super("Neprechaun",
-                Type.POISON,Type.GRASS,
+                Type.POISON, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

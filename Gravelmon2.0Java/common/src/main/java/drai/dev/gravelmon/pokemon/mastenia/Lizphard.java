@@ -58,7 +58,7 @@ import java.util.*;
 public class Lizphard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lizphard() {
         super("Lizphard",
-                Type.DRAGON,Type.NORMAL,
+                Type.DRAGON, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

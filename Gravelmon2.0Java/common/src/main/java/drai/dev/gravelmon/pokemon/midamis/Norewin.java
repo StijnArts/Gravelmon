@@ -9,7 +9,7 @@ import java.util.*;
 public class Norewin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Norewin() {
         super("Norewin",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(65,
                         70,
                         105,

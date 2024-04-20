@@ -58,7 +58,7 @@ import java.util.*;
 public class Desertusk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Desertusk() {
         super("Desertusk",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

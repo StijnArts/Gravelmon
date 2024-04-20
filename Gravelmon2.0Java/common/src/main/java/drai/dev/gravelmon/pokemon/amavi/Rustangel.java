@@ -8,7 +8,7 @@ import java.util.*;
 public class Rustangel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rustangel() {
         super("Rustangel",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(65,
                         45,
                         135,
@@ -17,7 +17,7 @@ public class Rustangel extends drai.dev.gravelmon.pokemon.Pokemon {
                         50),
                 List.of(Ability.LEVITATE,Ability.MAGIC_BOUNCE), Ability.SERENE_GRACE,
                 14, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

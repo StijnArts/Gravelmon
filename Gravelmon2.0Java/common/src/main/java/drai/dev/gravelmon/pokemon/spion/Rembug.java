@@ -58,7 +58,7 @@ import java.util.*;
 public class Rembug extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rembug() {
         super("Rembug",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(98,
                         40,
                         75,

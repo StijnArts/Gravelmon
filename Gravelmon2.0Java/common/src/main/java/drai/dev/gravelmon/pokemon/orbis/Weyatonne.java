@@ -58,7 +58,7 @@ import java.util.*;
 public class Weyatonne extends drai.dev.gravelmon.pokemon.Pokemon {
     public Weyatonne() {
         super("Weyatonne",
-                Type.STEEL,Type.FIGHTING,
+                Type.STEEL, Type.FIGHTING,
                 new Stats(100,
                         120,
                         140,

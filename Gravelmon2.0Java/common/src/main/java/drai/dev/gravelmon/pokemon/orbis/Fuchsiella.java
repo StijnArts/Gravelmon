@@ -58,7 +58,7 @@ import java.util.*;
 public class Fuchsiella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fuchsiella() {
         super("Fuchsiella",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

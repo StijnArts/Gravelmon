@@ -9,7 +9,7 @@ import java.util.*;
 public class Stegrump extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stegrump() {
         super("Stegrump",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(75,
                         70,
                         90,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Mayflown extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mayflown() {
         super("Mayflown",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

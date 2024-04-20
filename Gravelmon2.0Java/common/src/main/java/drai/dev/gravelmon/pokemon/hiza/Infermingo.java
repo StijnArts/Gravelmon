@@ -7,7 +7,7 @@ import java.util.*;
 public class Infermingo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Infermingo() {
         super("Infermingo",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(55,
                         70,
                         69,

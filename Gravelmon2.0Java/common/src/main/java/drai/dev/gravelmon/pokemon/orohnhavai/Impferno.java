@@ -9,7 +9,7 @@ import java.util.*;
 public class Impferno extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impferno() {
         super("Impferno",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(60,
                         80,
                         60,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Vacule extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vacule() {
         super("Vacule",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(45,
                         40,
                         55,

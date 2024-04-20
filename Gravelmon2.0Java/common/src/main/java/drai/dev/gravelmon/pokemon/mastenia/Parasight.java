@@ -58,7 +58,7 @@ import java.util.*;
 public class Parasight extends drai.dev.gravelmon.pokemon.Pokemon {
     public Parasight() {
         super("Parasight",
-                Type.PSYCHIC,Type.BUG,
+                Type.PSYCHIC, Type.BUG,
                 new Stats(80,
                         105,
                         80,

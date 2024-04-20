@@ -58,7 +58,7 @@ import java.util.*;
 public class Poxopon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poxopon() {
         super("Poxopon",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

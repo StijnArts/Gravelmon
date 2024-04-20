@@ -58,7 +58,7 @@ import java.util.*;
 public class Bugbear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bugbear() {
         super("Bugbear",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(0,
                         0,
                         0,

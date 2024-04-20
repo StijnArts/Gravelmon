@@ -9,7 +9,7 @@ import java.util.*;
 public class Tunnelid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tunnelid() {
         super("Tunnelid",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(70,
                         100,
                         140,

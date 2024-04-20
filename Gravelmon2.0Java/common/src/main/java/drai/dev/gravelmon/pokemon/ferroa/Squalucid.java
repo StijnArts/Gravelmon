@@ -7,7 +7,7 @@ import java.util.*;
 public class Squalucid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Squalucid() {
         super("Squalucid",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(95,
                         70,
                         60,

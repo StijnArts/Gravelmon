@@ -58,7 +58,7 @@ import java.util.*;
 public class Pariahsite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pariahsite() {
         super("Pariahsite",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(0,
                         0,
                         0,

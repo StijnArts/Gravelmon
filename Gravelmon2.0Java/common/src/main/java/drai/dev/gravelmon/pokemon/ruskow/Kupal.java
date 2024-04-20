@@ -58,7 +58,7 @@ import java.util.*;
 public class Kupal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kupal() {
         super("Kupal",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

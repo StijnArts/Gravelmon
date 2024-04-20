@@ -14,7 +14,7 @@ import java.util.*;
 public class Agitwin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Agitwin() {
         super("Agitwin",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(70,
                         20,
                         60,

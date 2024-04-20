@@ -8,7 +8,7 @@ import java.util.*;
 public class Larvora extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larvora() {
         super("Larvora",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(0,
                         0,
                         0,

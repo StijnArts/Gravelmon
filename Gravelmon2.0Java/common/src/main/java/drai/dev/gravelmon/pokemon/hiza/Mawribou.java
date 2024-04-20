@@ -7,7 +7,7 @@ import java.util.*;
 public class Mawribou extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mawribou() {
         super("Mawribou",
-                Type.ICE,Type.DARK,
+                Type.ICE, Type.DARK,
                 new Stats(80,
                         175,
                         70,

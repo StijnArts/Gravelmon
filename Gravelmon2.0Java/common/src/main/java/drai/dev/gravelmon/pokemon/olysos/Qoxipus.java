@@ -58,7 +58,7 @@ import java.util.*;
 public class Qoxipus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Qoxipus() {
         super("Qoxipus",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Brusbime extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brusbime() {
         super("Brusbime",
-                Type.NORMAL,Type.STEEL,
+                Type.NORMAL, Type.STEEL,
                 new Stats(120,
                         99,
                         80,

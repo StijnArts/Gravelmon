@@ -7,7 +7,7 @@ import java.util.*;
 public class Pingushion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pingushion() {
         super("Pingushion",
-                Type.ICE,Type.STEEL,
+                Type.ICE, Type.STEEL,
                 new Stats(125,
                         87,
                         52,

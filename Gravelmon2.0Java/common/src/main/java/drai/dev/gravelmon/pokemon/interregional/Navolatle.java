@@ -7,7 +7,7 @@ import java.util.*;
 public class Navolatle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Navolatle() {
         super("Navolatle",
-                Type.STEEL,Type.DARK,
+                Type.STEEL, Type.DARK,
                 new Stats(50,
                         120,
                         150,

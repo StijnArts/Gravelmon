@@ -7,7 +7,7 @@ import java.util.*;
 public class Papernova extends drai.dev.gravelmon.pokemon.Pokemon {
     public Papernova() {
         super("Papernova",
-                Type.FAIRY,Type.FIRE,
+                Type.FAIRY, Type.FIRE,
                 new Stats(59,
                         37,
                         40,

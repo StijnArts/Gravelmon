@@ -58,7 +58,7 @@ import java.util.*;
 public class Psydaria extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psydaria() {
         super("Psydaria",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

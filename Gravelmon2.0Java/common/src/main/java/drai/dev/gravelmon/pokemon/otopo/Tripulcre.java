@@ -58,7 +58,7 @@ import java.util.*;
 public class Tripulcre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tripulcre() {
         super("Tripulcre",
-                Type.STEEL,Type.GHOST,
+                Type.STEEL, Type.GHOST,
                 new Stats(75,
                         80,
                         130,

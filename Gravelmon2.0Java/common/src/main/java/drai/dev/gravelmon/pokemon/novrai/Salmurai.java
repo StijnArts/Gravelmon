@@ -7,7 +7,7 @@ import java.util.*;
 public class Salmurai extends drai.dev.gravelmon.pokemon.Pokemon {
     public Salmurai() {
         super("Salmurai",
-                Type.FIGHTING,Type.WATER,
+                Type.FIGHTING, Type.WATER,
                 new Stats(78,
                         119,
                         90,

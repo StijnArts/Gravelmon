@@ -58,7 +58,7 @@ import java.util.*;
 public class Espinas extends drai.dev.gravelmon.pokemon.Pokemon {
     public Espinas() {
         super("Espinas",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

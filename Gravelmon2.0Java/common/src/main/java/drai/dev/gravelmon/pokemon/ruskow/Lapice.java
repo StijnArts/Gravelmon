@@ -58,7 +58,7 @@ import java.util.*;
 public class Lapice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lapice() {
         super("Lapice",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Lectraptor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lectraptor() {
         super("Lectraptor",
-                Type.ELECTRIC,Type.DRAGON,
+                Type.ELECTRIC, Type.DRAGON,
                 new Stats(80,
                         128,
                         75,

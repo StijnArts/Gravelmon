@@ -7,7 +7,7 @@ import java.util.*;
 public class Velosoil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Velosoil() {
         super("Velosoil",
-                Type.DRAGON,Type.ROCK,
+                Type.DRAGON, Type.ROCK,
                 new Stats(25,
                         90,
                         65,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Scragorge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scragorge() {
         super("Scragorge",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

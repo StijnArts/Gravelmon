@@ -7,7 +7,7 @@ import java.util.*;
 public class Crescoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crescoon() {
         super("Crescoon",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(45,
                         35,
                         83,

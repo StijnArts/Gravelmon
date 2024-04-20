@@ -7,7 +7,7 @@ import java.util.*;
 public class Malignat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Malignat() {
         super("Malignat",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(30,
                         45,
                         20,

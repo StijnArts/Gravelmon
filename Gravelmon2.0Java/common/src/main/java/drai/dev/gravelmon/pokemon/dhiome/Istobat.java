@@ -8,7 +8,7 @@ import java.util.*;
 public class Istobat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Istobat() {
         super("Istobat",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

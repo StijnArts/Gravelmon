@@ -7,7 +7,7 @@ import java.util.*;
 public class Djironn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Djironn() {
         super("Djironn",
-                Type.PSYCHIC,Type.FIRE,
+                Type.PSYCHIC, Type.FIRE,
                 new Stats(70,
                         60,
                         85,

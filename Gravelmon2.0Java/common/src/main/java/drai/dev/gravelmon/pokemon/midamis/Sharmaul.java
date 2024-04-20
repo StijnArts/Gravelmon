@@ -9,7 +9,7 @@ import java.util.*;
 public class Sharmaul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sharmaul() {
         super("Sharmaul",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(70,
                         100,
                         120,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Adepthawl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Adepthawl() {
         super("Adepthawl",
-                Type.ICE,Type.PSYCHIC,
+                Type.ICE, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

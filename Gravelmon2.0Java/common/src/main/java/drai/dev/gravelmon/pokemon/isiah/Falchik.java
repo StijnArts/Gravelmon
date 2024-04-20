@@ -7,7 +7,7 @@ import java.util.*;
 public class Falchik extends drai.dev.gravelmon.pokemon.Pokemon {
     public Falchik() {
         super("Falchik",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

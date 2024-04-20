@@ -58,7 +58,7 @@ import java.util.*;
 public class Sabroar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sabroar() {
         super("Sabroar",
-                Type.WATER,Type.FIGHTING,
+                Type.WATER, Type.FIGHTING,
                 new Stats(70,
                         80,
                         65,

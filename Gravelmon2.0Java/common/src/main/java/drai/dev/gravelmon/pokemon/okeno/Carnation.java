@@ -6,7 +6,7 @@ import java.util.*;
 public class Carnation extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carnation() {
         super("Carnation",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(77,
                         94,
                         110,

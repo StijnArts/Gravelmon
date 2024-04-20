@@ -58,7 +58,7 @@ import java.util.*;
 public class Magnezone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magnezone(int dex) {
         super(dex, "Magnezone",
-                Type.ELECTRIC,Type.STEEL,
+                Type.ELECTRIC, Type.STEEL,
                 new Stats(70,
                         70,
                         115,

@@ -213,7 +213,6 @@ public class Atlas extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Stalagrunt());
         pokemon.add(new Stalagang());
 
-        pokemon.add(new Imprism());
         pokemon.add(new Freezef());
         pokemon.add(new Treezen());
         pokemon.add(new Echidnum());

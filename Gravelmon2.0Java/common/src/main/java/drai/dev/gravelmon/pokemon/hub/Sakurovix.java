@@ -7,7 +7,7 @@ import java.util.*;
 public class Sakurovix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sakurovix() {
         super("Sakurovix",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(154,
                         80,
                         125,

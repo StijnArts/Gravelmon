@@ -9,7 +9,7 @@ import java.util.*;
 public class Nauticlown extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nauticlown() {
         super("Nauticlown",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

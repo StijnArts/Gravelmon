@@ -58,7 +58,7 @@ import java.util.*;
 public class Dracopuff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dracopuff() {
         super("Dracopuff",
-                Type.FAIRY,Type.DRAGON,
+                Type.FAIRY, Type.DRAGON,
                 new Stats(100,
                         80,
                         85,

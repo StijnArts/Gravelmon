@@ -9,7 +9,7 @@ import java.util.*;
 public class Nymphlora extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nymphlora() {
         super("Nymphlora",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(87,
                         75,
                         75,

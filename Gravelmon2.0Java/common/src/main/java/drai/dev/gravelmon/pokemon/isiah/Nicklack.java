@@ -7,7 +7,7 @@ import java.util.*;
 public class Nicklack extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nicklack() {
         super("Nicklack",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

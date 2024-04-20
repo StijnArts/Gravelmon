@@ -13,7 +13,7 @@ import java.util.*;
 public class Pyradoom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyradoom() {
         super("Pyradoom",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

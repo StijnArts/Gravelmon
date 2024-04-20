@@ -7,7 +7,7 @@ import java.util.*;
 public class Mampth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mampth() {
         super("Mampth",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(65,
                         100,
                         70,

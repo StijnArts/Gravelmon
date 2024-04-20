@@ -7,7 +7,7 @@ import java.util.*;
 public class Solstarian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Solstarian() {
         super("Solstarian",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(80,
                         105,
                         130,

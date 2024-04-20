@@ -58,7 +58,7 @@ import java.util.*;
 public class Walabrume extends drai.dev.gravelmon.pokemon.Pokemon {
     public Walabrume() {
         super("Walabrume",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Ceanataur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ceanataur() {
         super("Ceanataur",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(60,
                         65,
                         70,

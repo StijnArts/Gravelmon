@@ -58,7 +58,7 @@ import java.util.*;
 public class Trasphin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trasphin() {
         super("Trasphin",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(60,
                         50,
                         55,

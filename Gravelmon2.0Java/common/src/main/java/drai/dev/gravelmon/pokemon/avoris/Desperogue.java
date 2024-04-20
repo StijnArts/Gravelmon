@@ -13,7 +13,7 @@ import java.util.*;
 public class Desperogue extends drai.dev.gravelmon.pokemon.Pokemon {
     public Desperogue() {
         super("Desperogue",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,
                         0,

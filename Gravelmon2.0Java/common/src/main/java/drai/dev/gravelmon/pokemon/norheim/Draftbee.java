@@ -9,7 +9,7 @@ import java.util.*;
 public class Draftbee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Draftbee() {
         super("Draftbee",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(50,
                         75,
                         92,

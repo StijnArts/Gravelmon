@@ -9,7 +9,7 @@ import java.util.*;
 public class Hylamancer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hylamancer() {
         super("Hylamancer",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(90,
                         50,
                         74,

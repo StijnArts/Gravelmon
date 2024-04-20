@@ -7,7 +7,7 @@ import java.util.*;
 public class Hogawatt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hogawatt() {
         super("Hogawatt",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(65,
                         117,
                         60,

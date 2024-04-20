@@ -7,7 +7,7 @@ import java.util.*;
 public class Junkqual extends drai.dev.gravelmon.pokemon.Pokemon {
     public Junkqual() {
         super("Junkqual",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(97,
                         113,
                         103,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Fefae extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fefae() {
         super("Fefae",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

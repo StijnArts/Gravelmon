@@ -58,7 +58,7 @@ import java.util.*;
 public class Quolcano extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quolcano() {
         super("Quolcano",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(0,
                         0,
                         0,

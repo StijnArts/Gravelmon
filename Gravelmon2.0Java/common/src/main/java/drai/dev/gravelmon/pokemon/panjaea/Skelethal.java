@@ -58,7 +58,7 @@ import java.util.*;
 public class Skelethal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skelethal() {
         super("Skelethal",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Scarfly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scarfly() {
         super("Scarfly",
-                Type.FLYING,Type.ICE,
+                Type.FLYING, Type.ICE,
                 new Stats(55,
                         33,
                         67,

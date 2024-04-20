@@ -7,7 +7,7 @@ import java.util.*;
 public class Poolem extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poolem() {
         super("Poolem",
-                Type.GROUND,Type.ROCK,
+                Type.GROUND, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

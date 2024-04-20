@@ -58,7 +58,7 @@ import java.util.*;
 public class Skarawel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skarawel() {
         super("Skarawel",
-                Type.STEEL,Type.BUG,
+                Type.STEEL, Type.BUG,
                 new Stats(40,
                         70,
                         100,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Sharcastric extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sharcastric() {
         super("Sharcastric",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(130,
                         125,
                         70,

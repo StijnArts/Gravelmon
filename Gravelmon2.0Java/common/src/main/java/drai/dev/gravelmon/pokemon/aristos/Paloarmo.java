@@ -9,7 +9,7 @@ import java.util.*;
 public class Paloarmo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paloarmo() {
         super("Pharoar",
-                Type.GROUND,Type.NORMAL,
+                Type.GROUND, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

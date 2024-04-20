@@ -9,7 +9,7 @@ import java.util.*;
 public class Barbenin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Barbenin() {
         super("Barbenin",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(50,
                         50,
                         50,

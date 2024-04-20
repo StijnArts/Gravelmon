@@ -9,7 +9,7 @@ import java.util.*;
 public class Reefallion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reefallion() {
         super("Reefallion",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(90,
                         85,
                         110,

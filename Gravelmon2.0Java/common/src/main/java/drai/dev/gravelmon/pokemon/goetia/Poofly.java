@@ -58,7 +58,7 @@ import java.util.*;
 public class Poofly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poofly() {
         super("Poofly",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

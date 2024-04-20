@@ -58,7 +58,7 @@ import java.util.*;
 public class Knoknok extends drai.dev.gravelmon.pokemon.Pokemon {
     public Knoknok() {
         super("Knoknok",
-                Type.STEEL,Type.GHOST,
+                Type.STEEL, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Toxicroak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toxicroak(int dex) {
         super(dex, "Toxicroak",
-                Type.POISON,Type.FIGHTING,
+                Type.POISON, Type.FIGHTING,
                 new Stats(83,
                         106,
                         65,

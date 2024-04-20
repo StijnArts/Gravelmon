@@ -58,7 +58,7 @@ import java.util.*;
 public class Hagnoz extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hagnoz() {
         super("Hagnoz",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

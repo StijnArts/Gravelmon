@@ -58,7 +58,7 @@ import java.util.*;
 public class Primecleon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Primecleon() {
         super("Primecleon",
-                Type.ROCK,Type.NORMAL,
+                Type.ROCK, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

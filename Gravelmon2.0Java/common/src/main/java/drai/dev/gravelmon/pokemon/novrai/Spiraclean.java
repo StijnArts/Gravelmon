@@ -7,7 +7,7 @@ import java.util.*;
 public class Spiraclean extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spiraclean() {
         super("Spiraclean",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(75,
                         75,
                         95,

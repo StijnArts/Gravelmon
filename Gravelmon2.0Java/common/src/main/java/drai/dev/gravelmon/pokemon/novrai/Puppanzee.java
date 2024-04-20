@@ -7,7 +7,7 @@ import java.util.*;
 public class Puppanzee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Puppanzee() {
         super("Puppanzee",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(50,
                         74,
                         65,

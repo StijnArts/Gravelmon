@@ -6,7 +6,7 @@ import java.util.*;
 public class Kisadee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kisadee() {
         super("Kisadee",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(65,
                         88,
                         53,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Pupitar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pupitar(int dex) {
         super(dex, "Pupitar",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

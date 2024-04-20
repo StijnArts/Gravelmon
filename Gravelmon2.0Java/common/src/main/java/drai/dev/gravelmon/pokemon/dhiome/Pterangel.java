@@ -8,7 +8,7 @@ import java.util.*;
 public class Pterangel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pterangel() {
         super("Pterangel",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

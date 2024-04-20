@@ -58,7 +58,7 @@ import java.util.*;
 public class Sorcehorress extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sorcehorress() {
         super("Sorcehorress",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(90,
                         75,
                         100,

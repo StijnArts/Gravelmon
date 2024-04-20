@@ -58,7 +58,7 @@ import java.util.*;
 public class Biolazard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Biolazard() {
         super("Biolazard",
-                Type.POISON,Type.GROUND,
+                Type.POISON, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Artickey extends drai.dev.gravelmon.pokemon.Pokemon {
     public Artickey() {
         super("Artickey",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(25,
                         50,
                         75,

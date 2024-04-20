@@ -58,7 +58,7 @@ import java.util.*;
 public class Abyspook extends drai.dev.gravelmon.pokemon.Pokemon {
     public Abyspook() {
         super("Abyspook",
-                Type.GHOST,Type.FIRE,
+                Type.GHOST, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

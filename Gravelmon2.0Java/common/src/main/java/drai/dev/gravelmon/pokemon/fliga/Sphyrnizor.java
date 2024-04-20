@@ -58,7 +58,7 @@ import java.util.*;
 public class Sphyrnizor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sphyrnizor() {
         super("Sphyrnizor",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(70,
                         114,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Varanitor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Varanitor() {
         super("Varanitor",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(104,
                         80,
                         76,

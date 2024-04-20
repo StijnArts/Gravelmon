@@ -9,7 +9,7 @@ import java.util.*;
 public class Oreglyph extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oreglyph() {
         super("Oreglyph",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

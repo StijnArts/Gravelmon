@@ -58,7 +58,7 @@ import java.util.*;
 public class Weyabitt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Weyabitt() {
         super("Weyabitt",
-                Type.STEEL,Type.FIGHTING,
+                Type.STEEL, Type.FIGHTING,
                 new Stats(55,
                         80,
                         105,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Darscale extends drai.dev.gravelmon.pokemon.Pokemon {
     public Darscale() {
         super("Darscale",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(90,
                         130,
                         68,

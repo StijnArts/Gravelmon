@@ -11,7 +11,7 @@ import java.util.*;
 public class Treiarch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Treiarch() {
         super("Treiarch",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(77,
                         173,
                         200,

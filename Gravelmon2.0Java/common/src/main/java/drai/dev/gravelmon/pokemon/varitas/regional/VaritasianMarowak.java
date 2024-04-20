@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianMarowak extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianMarowak() {
         super("Marowak",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(60,
                         80,
                         110,

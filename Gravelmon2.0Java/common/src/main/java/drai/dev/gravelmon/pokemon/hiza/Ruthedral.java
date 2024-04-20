@@ -7,7 +7,7 @@ import java.util.*;
 public class Ruthedral extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ruthedral() {
         super("Ruthedral",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(90,
                         75,
                         110,

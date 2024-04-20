@@ -7,7 +7,7 @@ import java.util.*;
 public class Baobloat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Baobloat() {
         super("Baobloat",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(95,
                         71,
                         122,

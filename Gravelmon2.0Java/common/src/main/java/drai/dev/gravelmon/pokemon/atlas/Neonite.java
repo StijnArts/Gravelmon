@@ -7,7 +7,7 @@ import java.util.*;
 public class Neonite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Neonite() {
         super("Neonite",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(45,
                         53,
                         65,

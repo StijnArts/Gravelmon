@@ -9,7 +9,7 @@ import java.util.*;
 public class Aquarcher extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aquarcher() {
         super("Aquarcher",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(70,
                         98,
                         55,

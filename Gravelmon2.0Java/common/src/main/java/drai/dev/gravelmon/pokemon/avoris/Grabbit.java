@@ -13,7 +13,7 @@ import java.util.*;
 public class Grabbit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grabbit() {
         super("Grabbit",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

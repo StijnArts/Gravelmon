@@ -58,7 +58,7 @@ import java.util.*;
 public class Dingdog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dingdog() {
         super("Dingdog",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

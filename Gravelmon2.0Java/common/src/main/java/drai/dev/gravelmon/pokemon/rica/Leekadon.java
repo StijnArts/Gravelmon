@@ -9,7 +9,7 @@ import java.util.*;
 public class Leekadon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leekadon() {
         super("Leekadon",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(105,
                         100,
                         83,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Belfry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Belfry() {
         super("Belfry",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Faipan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Faipan() {
         super("Faipan",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(90,
                         75,
                         90,

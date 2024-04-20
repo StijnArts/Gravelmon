@@ -8,7 +8,7 @@ import java.util.*;
 public class Nymfawn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nymfawn() {
         super("Nymfawn",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(80,
                         20,
                         50,
@@ -17,7 +17,7 @@ public class Nymfawn extends drai.dev.gravelmon.pokemon.Pokemon {
                         50),
                 List.of(Ability.FLOWER_VEIL,Ability.SAP_SIPPER), Ability.CHLOROPHYLL,
                 4, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

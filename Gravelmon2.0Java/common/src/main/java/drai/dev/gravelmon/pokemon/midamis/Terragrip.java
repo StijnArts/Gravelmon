@@ -9,7 +9,7 @@ import java.util.*;
 public class Terragrip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terragrip() {
         super("Terragrip",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(95,
                         120,
                         100,

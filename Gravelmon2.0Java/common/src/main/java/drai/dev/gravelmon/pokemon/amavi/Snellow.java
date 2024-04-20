@@ -8,7 +8,7 @@ import java.util.*;
 public class Snellow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snellow() {
         super("Snellow",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(105,
                         45,
                         100,

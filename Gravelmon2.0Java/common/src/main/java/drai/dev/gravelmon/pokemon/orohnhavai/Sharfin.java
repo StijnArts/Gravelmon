@@ -9,7 +9,7 @@ import java.util.*;
 public class Sharfin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sharfin() {
         super("Sharfin",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(30,
                         80,
                         40,

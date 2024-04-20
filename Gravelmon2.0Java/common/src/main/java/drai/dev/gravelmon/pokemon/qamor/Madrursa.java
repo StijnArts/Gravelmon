@@ -9,7 +9,7 @@ import java.util.*;
 public class Madrursa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Madrursa() {
         super("Madrursa",
-                Type.FAIRY,Type.ICE,
+                Type.FAIRY, Type.ICE,
                 new Stats(77,
                         40,
                         50,

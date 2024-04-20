@@ -7,7 +7,7 @@ import java.util.*;
 public class Glyptic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glyptic() {
         super("Glyptic",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(77,
                         42,
                         56,

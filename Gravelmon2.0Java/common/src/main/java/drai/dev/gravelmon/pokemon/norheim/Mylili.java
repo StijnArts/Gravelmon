@@ -9,7 +9,7 @@ import java.util.*;
 public class Mylili extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mylili() {
         super("Mylili",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(0,
                         0,
                         0,

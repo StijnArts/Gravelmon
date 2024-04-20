@@ -58,7 +58,7 @@ import java.util.*;
 public class Slowbro extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slowbro(int dex) {
         super(dex, "Slowbro",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(95,
                         75,
                         110,

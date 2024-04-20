@@ -7,7 +7,7 @@ import java.util.*;
 public class Pheromage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pheromage() {
         super("Pheromage",
-                Type.BUG,Type.NORMAL,
+                Type.BUG, Type.NORMAL,
                 new Stats(106,
                         85,
                         93,

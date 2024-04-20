@@ -9,7 +9,7 @@ import java.util.*;
 public class Dormidge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dormidge() {
         super("Dormidge",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(50,
                         40,
                         60,

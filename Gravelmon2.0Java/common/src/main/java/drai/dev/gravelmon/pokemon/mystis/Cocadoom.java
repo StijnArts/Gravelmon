@@ -58,7 +58,7 @@ import java.util.*;
 public class Cocadoom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cocadoom() {
         super("Cocadoom",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(73,
                         85,
                         66,

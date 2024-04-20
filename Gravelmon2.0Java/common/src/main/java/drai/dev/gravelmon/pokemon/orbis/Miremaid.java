@@ -58,7 +58,7 @@ import java.util.*;
 public class Miremaid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Miremaid() {
         super("Miremaid",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(68,
                         95,
                         65,

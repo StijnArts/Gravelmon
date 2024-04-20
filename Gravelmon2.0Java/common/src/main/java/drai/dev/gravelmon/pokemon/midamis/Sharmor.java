@@ -9,7 +9,7 @@ import java.util.*;
 public class Sharmor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sharmor() {
         super("Sharmor",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(35,
                         55,
                         85,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Yinyan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yinyan() {
         super("Yinyan",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

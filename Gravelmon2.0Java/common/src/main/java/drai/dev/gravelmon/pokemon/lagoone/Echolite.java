@@ -58,7 +58,7 @@ import java.util.*;
 public class Echolite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Echolite() {
         super("Echolite",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(37,
                         30,
                         41,

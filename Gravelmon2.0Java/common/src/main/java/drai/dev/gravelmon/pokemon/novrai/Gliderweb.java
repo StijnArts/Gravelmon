@@ -7,7 +7,7 @@ import java.util.*;
 public class Gliderweb extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gliderweb() {
         super("Gliderweb",
-                Type.FLYING,Type.BUG,
+                Type.FLYING, Type.BUG,
                 new Stats(75,
                         85,
                         52,

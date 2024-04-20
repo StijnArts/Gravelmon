@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranDruddigon extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranDruddigon(int dex) {
         super(dex, "Druddigon",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(77,
                         120,
                         90,

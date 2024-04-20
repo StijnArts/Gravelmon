@@ -58,7 +58,7 @@ import java.util.*;
 public class Firerock2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Firerock2() {
         super("Firerock2",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(75,
                         115,
                         125,

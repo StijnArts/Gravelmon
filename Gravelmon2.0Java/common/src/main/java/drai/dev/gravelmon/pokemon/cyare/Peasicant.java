@@ -58,7 +58,7 @@ import java.util.*;
 public class Peasicant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peasicant() {
         super("Peasicant",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

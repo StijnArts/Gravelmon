@@ -9,7 +9,7 @@ import java.util.*;
 public class Niidrake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Niidrake() {
         super("Niidrake",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(79,
                         101,
                         113,

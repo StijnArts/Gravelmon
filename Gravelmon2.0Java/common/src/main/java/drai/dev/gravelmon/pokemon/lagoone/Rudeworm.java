@@ -58,7 +58,7 @@ import java.util.*;
 public class Rudeworm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rudeworm() {
         super("Rudeworm",
-                Type.DRAGON,Type.ROCK,
+                Type.DRAGON, Type.ROCK,
                 new Stats(64,
                         113,
                         112,

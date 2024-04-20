@@ -58,7 +58,7 @@ import java.util.*;
 public class Teddiursa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Teddiursa(int dex) {
         super(dex, "Teddiursa",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(65,
                         85,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Embat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Embat() {
         super("Embat",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

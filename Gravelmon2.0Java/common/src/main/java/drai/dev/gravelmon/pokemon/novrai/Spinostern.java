@@ -7,7 +7,7 @@ import java.util.*;
 public class Spinostern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spinostern() {
         super("Spinostern",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(54,
                         81,
                         54,

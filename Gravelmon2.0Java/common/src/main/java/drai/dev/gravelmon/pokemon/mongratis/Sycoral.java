@@ -58,7 +58,7 @@ import java.util.*;
 public class Sycoral extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sycoral() {
         super("Sycoral",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(0,
                         0,
                         0,

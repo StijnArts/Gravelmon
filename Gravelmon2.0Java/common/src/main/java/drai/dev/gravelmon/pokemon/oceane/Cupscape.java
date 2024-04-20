@@ -7,7 +7,7 @@ import java.util.*;
 public class Cupscape extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cupscape() {
         super("Cupscape",
-                Type.FAIRY,Type.ROCK,
+                Type.FAIRY, Type.ROCK,
                 new Stats(64,
                         34,
                         85,

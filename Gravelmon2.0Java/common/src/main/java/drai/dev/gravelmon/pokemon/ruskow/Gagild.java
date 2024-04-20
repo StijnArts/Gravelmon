@@ -58,7 +58,7 @@ import java.util.*;
 public class Gagild extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gagild() {
         super("Gagild",
-                Type.FLYING,Type.NORMAL,
+                Type.FLYING, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

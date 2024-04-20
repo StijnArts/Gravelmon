@@ -58,7 +58,7 @@ import java.util.*;
 public class Aegle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aegle() {
         super("Aegle",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

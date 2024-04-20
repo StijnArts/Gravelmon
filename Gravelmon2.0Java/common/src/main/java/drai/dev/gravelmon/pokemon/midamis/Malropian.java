@@ -9,7 +9,7 @@ import java.util.*;
 public class Malropian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Malropian() {
         super("Malropian",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(80,
                         60,
                         95,

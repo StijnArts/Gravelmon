@@ -58,7 +58,7 @@ import java.util.*;
 public class Phasmyst extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phasmyst() {
         super("Phasmyst",
-                Type.ICE,Type.GHOST,
+                Type.ICE, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

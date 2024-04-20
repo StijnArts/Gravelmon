@@ -58,7 +58,7 @@ import java.util.*;
 public class Magpick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magpick() {
         super("Magpick",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(40,
                         60,
                         30,

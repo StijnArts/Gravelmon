@@ -7,7 +7,7 @@ import java.util.*;
 public class Meloetta extends drai.dev.gravelmon.pokemon.Pokemon {
     public Meloetta() {
         super("Meloetta",
-                Type.NORMAL,Type.ELECTRIC,
+                Type.NORMAL, Type.ELECTRIC,
                 new Stats(100,
                         77,
                         77,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Naganadel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Naganadel(int dex) {
         super(dex, "Naganadel",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(73,
                         73,
                         73,

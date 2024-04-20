@@ -12,7 +12,7 @@ import java.util.*;
 public class Defecash extends drai.dev.gravelmon.pokemon.Pokemon {
     public Defecash() {
         super("Defecash",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(90,
                         83,
                         80,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Turbatic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Turbatic() {
         super("Turbatic",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

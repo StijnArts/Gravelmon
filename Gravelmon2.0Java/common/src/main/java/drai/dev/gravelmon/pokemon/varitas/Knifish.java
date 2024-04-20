@@ -9,7 +9,7 @@ import java.util.*;
 public class Knifish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Knifish() {
         super("Knifish",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

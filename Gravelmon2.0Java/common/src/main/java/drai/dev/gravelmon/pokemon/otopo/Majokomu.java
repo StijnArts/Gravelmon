@@ -58,7 +58,7 @@ import java.util.*;
 public class Majokomu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Majokomu() {
         super("Majokomu",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(70,
                         70,
                         70,

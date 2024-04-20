@@ -58,7 +58,7 @@ import java.util.*;
 public class Malloh extends drai.dev.gravelmon.pokemon.Pokemon {
     public Malloh() {
         super("Malloh",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

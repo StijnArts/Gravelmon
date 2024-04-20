@@ -58,7 +58,7 @@ import java.util.*;
 public class Shellicopter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shellicopter() {
         super("Shellicopter",
-                Type.FLYING,Type.BUG,
+                Type.FLYING, Type.BUG,
                 new Stats(0,
                         0,
                         0,

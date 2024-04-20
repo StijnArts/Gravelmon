@@ -8,7 +8,7 @@ import java.util.*;
 public class Delflauge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Delflauge() {
         super("Delflauge",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(80,
                         80,
                         80,
@@ -17,7 +17,7 @@ public class Delflauge extends drai.dev.gravelmon.pokemon.Pokemon {
                         80),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 8, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 130,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

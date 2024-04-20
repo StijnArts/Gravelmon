@@ -58,7 +58,7 @@ import java.util.*;
 public class Aukward extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aukward() {
         super("Aukward",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

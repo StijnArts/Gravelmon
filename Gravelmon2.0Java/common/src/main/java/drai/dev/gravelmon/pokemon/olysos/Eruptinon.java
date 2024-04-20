@@ -58,7 +58,7 @@ import java.util.*;
 public class Eruptinon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eruptinon() {
         super("Eruptinon",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(90,
                         105,
                         85,

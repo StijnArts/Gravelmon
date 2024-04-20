@@ -58,7 +58,7 @@ import java.util.*;
 public class Illumise extends drai.dev.gravelmon.pokemon.Pokemon {
     public Illumise(int dex) {
         super(dex, "Illumise",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

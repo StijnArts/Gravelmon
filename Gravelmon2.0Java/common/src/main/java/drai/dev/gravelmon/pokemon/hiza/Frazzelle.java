@@ -7,7 +7,7 @@ import java.util.*;
 public class Frazzelle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frazzelle() {
         super("Frazzelle",
-                Type.ELECTRIC,Type.GRASS,
+                Type.ELECTRIC, Type.GRASS,
                 new Stats(60,
                         80,
                         60,

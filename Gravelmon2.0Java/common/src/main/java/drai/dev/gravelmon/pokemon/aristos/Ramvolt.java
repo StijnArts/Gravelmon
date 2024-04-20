@@ -9,7 +9,7 @@ import java.util.*;
 public class Ramvolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ramvolt() {
         super("Ramvolt",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(95,
                         115,
                         85,

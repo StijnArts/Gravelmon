@@ -58,7 +58,7 @@ import java.util.*;
 public class Teostra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Teostra() {
         super("Teostra",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(90,
                         95,
                         108,

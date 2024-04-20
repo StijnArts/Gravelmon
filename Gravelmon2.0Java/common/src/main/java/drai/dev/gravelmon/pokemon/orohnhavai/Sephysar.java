@@ -9,7 +9,7 @@ import java.util.*;
 public class Sephysar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sephysar() {
         super("Sephysar",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(90,
                         80,
                         90,

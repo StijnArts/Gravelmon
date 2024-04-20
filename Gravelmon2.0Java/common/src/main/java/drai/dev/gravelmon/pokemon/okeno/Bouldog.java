@@ -6,7 +6,7 @@ import java.util.*;
 public class Bouldog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bouldog() {
         super("Bouldog",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(75,
                         80,
                         65,

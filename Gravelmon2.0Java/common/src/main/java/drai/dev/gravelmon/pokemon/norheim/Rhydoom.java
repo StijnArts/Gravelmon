@@ -9,7 +9,7 @@ import java.util.*;
 public class Rhydoom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rhydoom() {
         super("Rhydoom",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

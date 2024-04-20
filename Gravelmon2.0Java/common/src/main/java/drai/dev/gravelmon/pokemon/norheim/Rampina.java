@@ -9,7 +9,7 @@ import java.util.*;
 public class Rampina extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rampina() {
         super("Rampina",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

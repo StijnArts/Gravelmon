@@ -7,7 +7,7 @@ import java.util.*;
 public class Rayth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rayth() {
         super("Rayth",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(70,
                         110,
                         70,

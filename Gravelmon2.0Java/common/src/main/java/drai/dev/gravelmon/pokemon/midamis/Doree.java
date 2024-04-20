@@ -9,7 +9,7 @@ import java.util.*;
 public class Doree extends drai.dev.gravelmon.pokemon.Pokemon {
     public Doree() {
         super("Doree",
-                Type.STEEL,Type.GROUND,
+                Type.STEEL, Type.GROUND,
                 new Stats(45,
                         30,
                         65,

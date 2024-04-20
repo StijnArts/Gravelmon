@@ -7,7 +7,7 @@ import java.util.*;
 public class Tentpest extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tentpest() {
         super("Tentpest",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

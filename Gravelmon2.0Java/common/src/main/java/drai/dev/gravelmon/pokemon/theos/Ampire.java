@@ -58,7 +58,7 @@ import java.util.*;
 public class Ampire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ampire() {
         super("Ampire",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(85,
                         95,
                         80,

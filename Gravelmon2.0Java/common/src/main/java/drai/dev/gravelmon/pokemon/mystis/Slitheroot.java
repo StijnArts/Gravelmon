@@ -58,7 +58,7 @@ import java.util.*;
 public class Slitheroot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slitheroot() {
         super("Slitheroot",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(70,
                         40,
                         65,

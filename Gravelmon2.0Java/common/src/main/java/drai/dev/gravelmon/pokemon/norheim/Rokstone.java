@@ -9,7 +9,7 @@ import java.util.*;
 public class Rokstone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rokstone() {
         super("Rokstone",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(100,
                         75,
                         105,

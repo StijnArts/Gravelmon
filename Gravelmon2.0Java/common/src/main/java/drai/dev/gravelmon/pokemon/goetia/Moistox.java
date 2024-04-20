@@ -58,7 +58,7 @@ import java.util.*;
 public class Moistox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moistox() {
         super("Moistox",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

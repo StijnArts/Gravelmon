@@ -58,7 +58,7 @@ import java.util.*;
 public class Sweepmu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sweepmu() {
         super("Sweepmu",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(61,
                         83,
                         63,

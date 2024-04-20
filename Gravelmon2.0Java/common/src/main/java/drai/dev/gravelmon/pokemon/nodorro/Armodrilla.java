@@ -58,7 +58,7 @@ import java.util.*;
 public class Armodrilla extends drai.dev.gravelmon.pokemon.Pokemon {
     public Armodrilla() {
         super("Armodrilla",
-                Type.STEEL,Type.ROCK,
+                Type.STEEL, Type.ROCK,
                 new Stats(80,
                         130,
                         139,

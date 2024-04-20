@@ -58,7 +58,7 @@ import java.util.*;
 public class Minjin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Minjin() {
         super("Minjin",
-                Type.FLYING,Type.FAIRY,
+                Type.FLYING, Type.FAIRY,
                 new Stats(100,
                         80,
                         50,

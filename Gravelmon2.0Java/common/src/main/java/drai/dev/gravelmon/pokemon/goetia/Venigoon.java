@@ -58,7 +58,7 @@ import java.util.*;
 public class Venigoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Venigoon() {
         super("Venigoon",
-                Type.STEEL,Type.POISON,
+                Type.STEEL, Type.POISON,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Chickaring extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chickaring() {
         super("Chickaring",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(50,
                         55,
                         40,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Battack extends drai.dev.gravelmon.pokemon.Pokemon {
     public Battack() {
         super("Battack",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(70,
                         81,
                         65,

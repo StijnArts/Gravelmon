@@ -13,7 +13,7 @@ import java.util.*;
 public class Desperasca extends drai.dev.gravelmon.pokemon.Pokemon {
     public Desperasca() {
         super("Desperasca",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Crasquidor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crasquidor() {
         super("Crasquidor",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(70,
                         85,
                         60,

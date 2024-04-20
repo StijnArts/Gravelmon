@@ -9,7 +9,7 @@ import java.util.*;
 public class Darcastro extends drai.dev.gravelmon.pokemon.Pokemon {
     public Darcastro() {
         super("Darcastro",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(90,
                         130,
                         95,

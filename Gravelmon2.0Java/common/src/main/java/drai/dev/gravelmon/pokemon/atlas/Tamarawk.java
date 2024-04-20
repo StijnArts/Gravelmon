@@ -7,7 +7,7 @@ import java.util.*;
 public class Tamarawk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tamarawk() {
         super("Tamarawk",
-                Type.NORMAL,Type.ROCK,
+                Type.NORMAL, Type.ROCK,
                 new Stats(49,
                         73,
                         51,

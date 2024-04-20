@@ -7,7 +7,7 @@ import java.util.*;
 public class Peepsqueak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peepsqueak() {
         super("Peepsqueak",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(40,
                         32,
                         15,

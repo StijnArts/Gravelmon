@@ -58,7 +58,7 @@ import java.util.*;
 public class Adaptoad extends drai.dev.gravelmon.pokemon.Pokemon {
     public Adaptoad() {
         super("Adaptoad",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(153,
                         80,
                         57,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Bowvine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bowvine() {
         super("Bowvine",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(110,
                         125,
                         85,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Spikonsia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spikonsia() {
         super("Spikonsia",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

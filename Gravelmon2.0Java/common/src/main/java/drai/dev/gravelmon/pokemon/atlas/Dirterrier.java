@@ -7,7 +7,7 @@ import java.util.*;
 public class Dirterrier extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dirterrier() {
         super("Dirterrier",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(88,
                         108,
                         70,

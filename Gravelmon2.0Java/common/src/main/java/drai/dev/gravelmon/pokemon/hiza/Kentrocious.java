@@ -7,7 +7,7 @@ import java.util.*;
 public class Kentrocious extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kentrocious() {
         super("Kentrocious",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(120,
                         87,
                         62,

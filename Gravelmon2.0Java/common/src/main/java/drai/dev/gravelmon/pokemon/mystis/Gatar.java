@@ -58,7 +58,7 @@ import java.util.*;
 public class Gatar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gatar() {
         super("Gatar",
-                Type.POISON,Type.GROUND,
+                Type.POISON, Type.GROUND,
                 new Stats(50,
                         90,
                         50,

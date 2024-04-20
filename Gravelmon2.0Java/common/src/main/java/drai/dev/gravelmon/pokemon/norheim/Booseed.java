@@ -9,7 +9,7 @@ import java.util.*;
 public class Booseed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Booseed() {
         super("Booseed",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

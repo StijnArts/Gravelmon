@@ -9,7 +9,7 @@ import java.util.*;
 public class Weeduck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Weeduck() {
         super("Weeduck",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

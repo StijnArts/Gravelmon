@@ -58,7 +58,7 @@ import java.util.*;
 public class Geohertoad extends drai.dev.gravelmon.pokemon.Pokemon {
     public Geohertoad() {
         super("Geohertoad",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Swifterror extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swifterror() {
         super("Swifterror",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(70,
                         85,
                         70,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Ambrachios extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ambrachios() {
         super("Ambrachios",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

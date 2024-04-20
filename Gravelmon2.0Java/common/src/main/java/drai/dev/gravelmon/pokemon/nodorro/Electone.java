@@ -58,7 +58,7 @@ import java.util.*;
 public class Electone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Electone() {
         super("Electone",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(55,
                         80,
                         65,

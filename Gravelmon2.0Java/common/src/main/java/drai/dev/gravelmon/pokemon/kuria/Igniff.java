@@ -58,7 +58,7 @@ import java.util.*;
 public class Igniff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Igniff() {
         super("Igniff",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(69,
                         70,
                         64,

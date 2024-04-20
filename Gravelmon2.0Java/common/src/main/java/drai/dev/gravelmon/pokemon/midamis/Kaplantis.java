@@ -9,7 +9,7 @@ import java.util.*;
 public class Kaplantis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kaplantis() {
         super("Kaplantis",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(150,
                         60,
                         120,

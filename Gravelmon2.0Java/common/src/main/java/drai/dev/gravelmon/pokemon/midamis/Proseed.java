@@ -9,7 +9,7 @@ import java.util.*;
 public class Proseed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Proseed() {
         super("Proseed",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(35,
                         35,
                         40,

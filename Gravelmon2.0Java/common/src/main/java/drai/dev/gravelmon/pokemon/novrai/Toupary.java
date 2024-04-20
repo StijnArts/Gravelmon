@@ -7,7 +7,7 @@ import java.util.*;
 public class Toupary extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toupary() {
         super("Toupary",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(85,
                         85,
                         115,

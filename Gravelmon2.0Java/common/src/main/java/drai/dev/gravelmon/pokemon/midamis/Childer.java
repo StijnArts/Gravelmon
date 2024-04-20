@@ -9,7 +9,7 @@ import java.util.*;
 public class Childer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Childer() {
         super("Childer",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(40,
                         35,
                         65,

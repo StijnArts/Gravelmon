@@ -58,7 +58,7 @@ import java.util.*;
 public class Kryuu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kryuu() {
         super("Kryuu",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

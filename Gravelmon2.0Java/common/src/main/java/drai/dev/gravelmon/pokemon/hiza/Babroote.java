@@ -7,7 +7,7 @@ import java.util.*;
 public class Babroote extends drai.dev.gravelmon.pokemon.Pokemon {
     public Babroote() {
         super("Babroote",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(70,
                         112,
                         70,

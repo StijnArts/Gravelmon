@@ -9,7 +9,7 @@ import java.util.*;
 public class Temto extends drai.dev.gravelmon.pokemon.Pokemon {
     public Temto() {
         super("Temto",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Strickhen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Strickhen() {
         super("Strickhen",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

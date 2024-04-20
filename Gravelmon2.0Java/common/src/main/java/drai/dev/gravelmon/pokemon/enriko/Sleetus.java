@@ -7,7 +7,7 @@ import java.util.*;
 public class Sleetus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sleetus() {
         super("Sleetus",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

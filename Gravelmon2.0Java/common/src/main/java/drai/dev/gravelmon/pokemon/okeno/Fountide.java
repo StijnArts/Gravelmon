@@ -6,7 +6,7 @@ import java.util.*;
 public class Fountide extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fountide() {
         super("Fountide",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(52,
                         70,
                         118,

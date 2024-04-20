@@ -7,7 +7,7 @@ import java.util.*;
 public class Eldoredo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eldoredo() {
         super("Eldoredo",
-                Type.ROCK,Type.STEEL,
+                Type.ROCK, Type.STEEL,
                 new Stats(92,
                         83,
                         100,

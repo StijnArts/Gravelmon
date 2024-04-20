@@ -58,7 +58,7 @@ import java.util.*;
 public class Saffry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Saffry() {
         super("Saffry",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

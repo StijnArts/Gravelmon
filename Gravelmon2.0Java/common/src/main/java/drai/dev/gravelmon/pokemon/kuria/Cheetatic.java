@@ -58,7 +58,7 @@ import java.util.*;
 public class Cheetatic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cheetatic() {
         super("Cheetatic",
-                Type.NORMAL,Type.ELECTRIC,
+                Type.NORMAL, Type.ELECTRIC,
                 new Stats(60,
                         100,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Krakatori extends drai.dev.gravelmon.pokemon.Pokemon {
     public Krakatori() {
         super("Krakatori",
-                Type.DRAGON,Type.POISON,
+                Type.DRAGON, Type.POISON,
                 new Stats(0,
                         0,
                         0,

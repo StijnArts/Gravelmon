@@ -58,7 +58,7 @@ import java.util.*;
 public class Nerscylla extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nerscylla() {
         super("Nerscylla",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(0,
                         0,
                         0,

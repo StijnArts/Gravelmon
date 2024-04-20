@@ -58,7 +58,7 @@ import java.util.*;
 public class Marawder extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marawder() {
         super("Marawder",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(90,
                         120,
                         85,

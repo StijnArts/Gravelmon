@@ -7,7 +7,7 @@ import java.util.*;
 public class Solmec extends drai.dev.gravelmon.pokemon.Pokemon {
     public Solmec() {
         super("Solmec",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(110,
                         100,
                         102,

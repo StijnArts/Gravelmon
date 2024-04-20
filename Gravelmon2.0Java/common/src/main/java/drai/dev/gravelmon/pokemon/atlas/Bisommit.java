@@ -7,7 +7,7 @@ import java.util.*;
 public class Bisommit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bisommit() {
         super("Bisommit",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(101,
                         108,
                         110,

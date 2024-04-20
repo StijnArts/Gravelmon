@@ -7,7 +7,7 @@ import java.util.*;
 public class Orbitgami extends drai.dev.gravelmon.pokemon.Pokemon {
     public Orbitgami() {
         super("Orbitgami",
-                Type.FAIRY,Type.FIRE,
+                Type.FAIRY, Type.FIRE,
                 new Stats(102,
                         68,
                         55,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Dioduo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dioduo() {
         super("Dioduo",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

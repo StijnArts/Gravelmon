@@ -58,7 +58,7 @@ import java.util.*;
 public class Charger extends drai.dev.gravelmon.pokemon.Pokemon {
     public Charger() {
         super("Charger",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

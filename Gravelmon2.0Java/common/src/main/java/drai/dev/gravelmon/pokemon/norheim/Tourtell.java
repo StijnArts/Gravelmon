@@ -9,7 +9,7 @@ import java.util.*;
 public class Tourtell extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tourtell() {
         super("Tourtell",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(120,
                         70,
                         110,

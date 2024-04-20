@@ -58,7 +58,7 @@ import java.util.*;
 public class Sycanopy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sycanopy() {
         super("Sycanopy",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(105,
                         70,
                         85,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Abstrarts extends drai.dev.gravelmon.pokemon.Pokemon {
     public Abstrarts() {
         super("Abstrarts",
-                Type.STEEL,Type.PSYCHIC,
+                Type.STEEL, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

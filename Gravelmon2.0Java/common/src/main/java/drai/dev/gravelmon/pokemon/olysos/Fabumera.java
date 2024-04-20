@@ -58,7 +58,7 @@ import java.util.*;
 public class Fabumera extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fabumera() {
         super("Fabumera",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

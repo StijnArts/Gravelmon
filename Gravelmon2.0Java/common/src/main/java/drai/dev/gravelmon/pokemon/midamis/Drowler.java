@@ -9,7 +9,7 @@ import java.util.*;
 public class Drowler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drowler() {
         super("Drowler",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(60,
                         85,
                         65,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Macrabi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Macrabi() {
         super("Macrabi",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Brumalaise extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brumalaise() {
         super("Brumalaise",
-                Type.POISON,Type.ICE,
+                Type.POISON, Type.ICE,
                 new Stats(85,
                         105,
                         105,

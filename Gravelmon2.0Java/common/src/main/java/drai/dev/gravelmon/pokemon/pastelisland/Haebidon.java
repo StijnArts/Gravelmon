@@ -58,7 +58,7 @@ import java.util.*;
 public class Haebidon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Haebidon() {
         super("Haebidon",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(0,
                         0,
                         0,

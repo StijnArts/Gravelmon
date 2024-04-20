@@ -58,7 +58,7 @@ import java.util.*;
 public class Kanyonomi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kanyonomi() {
         super("Kanyonomi",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(99,
                         91,
                         80,

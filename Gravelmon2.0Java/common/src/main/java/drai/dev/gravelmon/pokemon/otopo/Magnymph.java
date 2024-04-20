@@ -58,7 +58,7 @@ import java.util.*;
 public class Magnymph extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magnymph() {
         super("Magnymph",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

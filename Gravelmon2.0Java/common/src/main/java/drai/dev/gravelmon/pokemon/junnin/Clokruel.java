@@ -11,7 +11,7 @@ import java.util.*;
 public class Clokruel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clokruel() {
         super("Clokruel",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(72,
                         85,
                         70,

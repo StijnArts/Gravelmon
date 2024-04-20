@@ -7,7 +7,7 @@ import java.util.*;
 public class Pteroculus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pteroculus() {
         super("Pteroculus",
-                Type.FLYING,Type.FLYING,
+                Type.FLYING, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

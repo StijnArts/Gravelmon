@@ -58,7 +58,7 @@ import java.util.*;
 public class Traffitron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Traffitron() {
         super("Traffitron",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(50,
                         60,
                         95,

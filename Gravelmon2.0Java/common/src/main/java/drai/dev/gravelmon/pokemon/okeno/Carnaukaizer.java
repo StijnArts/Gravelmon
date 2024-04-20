@@ -8,7 +8,7 @@ import java.util.*;
 public class Carnaukaizer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carnaukaizer() {
         super("Carnaukaizer",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(124,
                         94,
                         84,

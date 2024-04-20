@@ -9,7 +9,7 @@ import java.util.*;
 public class Awesurge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Awesurge() {
         super("Awesurge",
-                Type.ELECTRIC,Type.DRAGON,
+                Type.ELECTRIC, Type.DRAGON,
                 new Stats(95,
                         85,
                         85,

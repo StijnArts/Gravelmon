@@ -58,7 +58,7 @@ import java.util.*;
 public class Urzap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Urzap() {
         super("Urzap",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Plantis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plantis() {
         super("Plantis",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(45,
                         65,
                         60,

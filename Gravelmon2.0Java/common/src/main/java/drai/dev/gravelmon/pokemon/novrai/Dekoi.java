@@ -7,7 +7,7 @@ import java.util.*;
 public class Dekoi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dekoi() {
         super("Dekoi",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(30,
                         65,
                         90,

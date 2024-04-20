@@ -58,7 +58,7 @@ import java.util.*;
 public class Wisopotron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wisopotron() {
         super("Wisopotron",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(90,
                         100,
                         111,

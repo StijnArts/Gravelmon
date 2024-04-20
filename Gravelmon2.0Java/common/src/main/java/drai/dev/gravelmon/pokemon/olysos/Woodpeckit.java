@@ -58,7 +58,7 @@ import java.util.*;
 public class Woodpeckit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Woodpeckit() {
         super("Woodpeckit",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(35,
                         60,
                         40,

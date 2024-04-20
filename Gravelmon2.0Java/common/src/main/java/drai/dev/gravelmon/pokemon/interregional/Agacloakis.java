@@ -7,7 +7,7 @@ import java.util.*;
 public class Agacloakis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Agacloakis() {
         super("Agacloakis",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(73,
                         72,
                         74,

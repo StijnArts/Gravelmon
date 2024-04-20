@@ -7,7 +7,7 @@ import java.util.*;
 public class Needella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Needella() {
         super("Needella",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(72,
                         120,
                         76,

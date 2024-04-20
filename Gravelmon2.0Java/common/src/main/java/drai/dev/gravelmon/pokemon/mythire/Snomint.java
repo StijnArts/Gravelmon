@@ -7,7 +7,7 @@ import java.util.*;
 public class Snomint extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snomint() {
         super("Snomint",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(70,
                         35,
                         30,

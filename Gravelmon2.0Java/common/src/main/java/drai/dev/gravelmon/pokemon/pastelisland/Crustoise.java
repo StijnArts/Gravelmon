@@ -58,7 +58,7 @@ import java.util.*;
 public class Crustoise extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crustoise() {
         super("Crustoise",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(80,
                         60,
                         100,

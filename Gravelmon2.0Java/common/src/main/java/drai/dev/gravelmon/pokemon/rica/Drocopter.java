@@ -9,7 +9,7 @@ import java.util.*;
 public class Drocopter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drocopter() {
         super("Drocopter",
-                Type.STEEL,Type.DARK,
+                Type.STEEL, Type.DARK,
                 new Stats(60,
                         80,
                         80,

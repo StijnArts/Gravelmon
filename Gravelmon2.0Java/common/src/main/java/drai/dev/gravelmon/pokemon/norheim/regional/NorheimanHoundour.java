@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanHoundour extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanHoundour() {
         super("NorheimanHoundour",
-                Type.DARK,Type.ICE,
+                Type.DARK, Type.ICE,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Trashcargot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trashcargot() {
         super("Trashcargot",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(90,
                         60,
                         105,

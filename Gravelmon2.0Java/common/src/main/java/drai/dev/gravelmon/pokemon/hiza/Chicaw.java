@@ -7,7 +7,7 @@ import java.util.*;
 public class Chicaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chicaw() {
         super("Chicaw",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(40,
                         50,
                         40,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Dynamight extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dynamight() {
         super("Dynamight",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(75,
                         109,
                         72,

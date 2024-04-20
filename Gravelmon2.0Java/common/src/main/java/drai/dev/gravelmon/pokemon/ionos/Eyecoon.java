@@ -58,7 +58,7 @@ import java.util.*;
 public class Eyecoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eyecoon() {
         super("Eyecoon",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

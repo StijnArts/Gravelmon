@@ -58,7 +58,7 @@ import java.util.*;
 public class Frigivine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frigivine() {
         super("Frigivine",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

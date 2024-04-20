@@ -7,7 +7,7 @@ import java.util.*;
 public class Ballooky extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ballooky() {
         super("Ballooky",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(65,
                         40,
                         5,

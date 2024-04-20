@@ -7,7 +7,7 @@ import java.util.*;
 public class Wickvine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wickvine() {
         super("Wickvine",
-                Type.DARK,Type.GRASS,
+                Type.DARK, Type.GRASS,
                 new Stats(50,
                         83,
                         68,

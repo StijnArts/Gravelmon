@@ -7,7 +7,7 @@ import java.util.*;
 public class Blendulum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blendulum() {
         super("Blendulum",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(70,
                         47,
                         83,

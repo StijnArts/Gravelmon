@@ -58,7 +58,7 @@ import java.util.*;
 public class Rugrant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rugrant() {
         super("Rugrant",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

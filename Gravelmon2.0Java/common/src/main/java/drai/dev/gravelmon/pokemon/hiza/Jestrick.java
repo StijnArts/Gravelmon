@@ -7,7 +7,7 @@ import java.util.*;
 public class Jestrick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jestrick() {
         super("Jestrick",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(65,
                         80,
                         60,

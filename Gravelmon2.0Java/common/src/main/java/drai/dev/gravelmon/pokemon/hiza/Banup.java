@@ -7,7 +7,7 @@ import java.util.*;
 public class Banup extends drai.dev.gravelmon.pokemon.Pokemon {
     public Banup() {
         super("Banup",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(40,
                         60,
                         50,

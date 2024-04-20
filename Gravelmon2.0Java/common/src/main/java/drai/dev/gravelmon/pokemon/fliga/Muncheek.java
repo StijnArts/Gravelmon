@@ -58,7 +58,7 @@ import java.util.*;
 public class Muncheek extends drai.dev.gravelmon.pokemon.Pokemon {
     public Muncheek() {
         super("Muncheek",
-                Type.DARK,Type.NORMAL,
+                Type.DARK, Type.NORMAL,
                 new Stats(100,
                         85,
                         80,

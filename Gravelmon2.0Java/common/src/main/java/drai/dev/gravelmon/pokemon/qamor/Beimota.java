@@ -9,7 +9,7 @@ import java.util.*;
 public class Beimota extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beimota() {
         super("Beimota",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(75,
                         40,
                         50,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Nymfusha extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nymfusha() {
         super("Nymfusha",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(68,
                         60,
                         54,

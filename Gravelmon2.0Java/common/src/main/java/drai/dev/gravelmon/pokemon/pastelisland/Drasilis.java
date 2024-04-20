@@ -58,7 +58,7 @@ import java.util.*;
 public class Drasilis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drasilis() {
         super("Drasilis",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(58,
                         35,
                         85,

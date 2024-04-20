@@ -58,7 +58,7 @@ import java.util.*;
 public class Flattery extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flattery() {
         super("Flattery",
-                Type.ELECTRIC,Type.STEEL,
+                Type.ELECTRIC, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

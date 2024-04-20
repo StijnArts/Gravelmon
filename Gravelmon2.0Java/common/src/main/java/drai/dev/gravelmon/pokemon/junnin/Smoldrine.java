@@ -11,7 +11,7 @@ import java.util.*;
 public class Smoldrine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smoldrine() {
         super("Smoldrine",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(95,
                         110,
                         90,

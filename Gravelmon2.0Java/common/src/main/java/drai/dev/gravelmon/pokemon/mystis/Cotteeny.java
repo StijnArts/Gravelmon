@@ -58,7 +58,7 @@ import java.util.*;
 public class Cotteeny extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cotteeny() {
         super("Cotteeny",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

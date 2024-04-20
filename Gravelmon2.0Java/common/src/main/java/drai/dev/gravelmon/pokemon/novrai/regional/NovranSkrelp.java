@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranSkrelp extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranSkrelp(int dex) {
         super(dex, "Skrelp",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(50,
                         60,
                         60,

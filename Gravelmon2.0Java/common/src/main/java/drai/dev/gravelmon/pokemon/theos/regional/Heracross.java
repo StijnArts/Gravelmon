@@ -58,7 +58,7 @@ import java.util.*;
 public class Heracross extends drai.dev.gravelmon.pokemon.Pokemon {
     public Heracross(int dex) {
         super(dex, "Heracross",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(85,
                         125,
                         95,

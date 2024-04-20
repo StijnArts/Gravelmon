@@ -58,7 +58,7 @@ import java.util.*;
 public class Marinott extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marinott() {
         super("Marinott",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

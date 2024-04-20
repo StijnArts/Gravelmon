@@ -58,7 +58,7 @@ import java.util.*;
 public class Coldozer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coldozer() {
         super("Coldozer",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(65,
                         80,
                         90,

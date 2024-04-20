@@ -7,7 +7,7 @@ import java.util.*;
 public class Encelope extends drai.dev.gravelmon.pokemon.Pokemon {
     public Encelope() {
         super("Encelope",
-                Type.PSYCHIC,Type.DARK,
+                Type.PSYCHIC, Type.DARK,
                 new Stats(20,
                         15,
                         15,

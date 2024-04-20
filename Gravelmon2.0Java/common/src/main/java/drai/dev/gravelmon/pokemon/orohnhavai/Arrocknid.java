@@ -9,7 +9,7 @@ import java.util.*;
 public class Arrocknid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arrocknid() {
         super("Arrocknid",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(30,
                         75,
                         60,

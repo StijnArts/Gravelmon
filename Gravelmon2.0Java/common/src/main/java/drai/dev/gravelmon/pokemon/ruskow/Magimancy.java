@@ -58,7 +58,7 @@ import java.util.*;
 public class Magimancy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magimancy() {
         super("Magimancy",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

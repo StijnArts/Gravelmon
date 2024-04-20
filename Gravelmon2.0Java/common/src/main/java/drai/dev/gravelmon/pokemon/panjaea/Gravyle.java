@@ -58,7 +58,7 @@ import java.util.*;
 public class Gravyle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gravyle() {
         super("Gravyle",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

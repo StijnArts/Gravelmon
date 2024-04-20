@@ -7,7 +7,7 @@ import java.util.*;
 public class Rolloch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rolloch() {
         super("Rolloch",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

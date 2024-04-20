@@ -58,7 +58,7 @@ import java.util.*;
 public class Nuenflu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nuenflu() {
         super("Nuenflu",
-                Type.NORMAL,Type.ICE,
+                Type.NORMAL, Type.ICE,
                 new Stats(0,
                         0,
                         0,

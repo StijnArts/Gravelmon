@@ -58,7 +58,7 @@ import java.util.*;
 public class Reaphid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reaphid() {
         super("Reaphid",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Spikips extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spikips() {
         super("Spikips",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(60,
                         60,
                         80,

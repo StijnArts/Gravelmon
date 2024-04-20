@@ -6,7 +6,7 @@ import java.util.*;
 public class Larvomit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larvomit() {
         super("Larvomit",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(80,
                         34,
                         40,

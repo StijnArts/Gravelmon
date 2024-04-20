@@ -7,7 +7,7 @@ import java.util.*;
 public class Bananza extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bananza() {
         super("Bananza",
-                Type.POISON,Type.GRASS,
+                Type.POISON, Type.GRASS,
                 new Stats(105,
                         78,
                         83,

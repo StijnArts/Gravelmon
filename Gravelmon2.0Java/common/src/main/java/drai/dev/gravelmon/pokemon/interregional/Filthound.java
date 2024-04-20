@@ -7,7 +7,7 @@ import java.util.*;
 public class Filthound extends drai.dev.gravelmon.pokemon.Pokemon {
     public Filthound() {
         super("Filthound",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(130,
                         95,
                         100,

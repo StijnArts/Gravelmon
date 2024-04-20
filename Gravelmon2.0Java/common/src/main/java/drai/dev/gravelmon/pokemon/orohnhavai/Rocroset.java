@@ -9,7 +9,7 @@ import java.util.*;
 public class Rocroset extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rocroset() {
         super("Rocroset",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(95,
                         75,
                         78,

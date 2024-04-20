@@ -58,7 +58,7 @@ import java.util.*;
 public class Wawalle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wawalle() {
         super("Wawalle",
-                Type.DRAGON,Type.GRASS,
+                Type.DRAGON, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

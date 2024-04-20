@@ -58,7 +58,7 @@ import java.util.*;
 public class Brrzolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brrzolt() {
         super("Brrzolt",
-                Type.ICE,Type.ELECTRIC,
+                Type.ICE, Type.ELECTRIC,
                 new Stats(90,
                         130,
                         70,

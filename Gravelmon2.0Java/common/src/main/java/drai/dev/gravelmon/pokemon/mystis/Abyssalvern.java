@@ -58,7 +58,7 @@ import java.util.*;
 public class Abyssalvern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Abyssalvern() {
         super("Abyssalvern",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(120,
                         140,
                         140,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Expertri extends drai.dev.gravelmon.pokemon.Pokemon {
     public Expertri() {
         super("Expertri",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(85,
                         120,
                         90,

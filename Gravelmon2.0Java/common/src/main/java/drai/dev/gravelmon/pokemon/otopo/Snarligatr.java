@@ -58,7 +58,7 @@ import java.util.*;
 public class Snarligatr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snarligatr() {
         super("Snarligatr",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

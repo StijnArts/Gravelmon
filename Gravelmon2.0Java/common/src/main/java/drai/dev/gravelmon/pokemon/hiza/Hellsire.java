@@ -7,7 +7,7 @@ import java.util.*;
 public class Hellsire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hellsire() {
         super("Hellsire",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(125,
                         130,
                         95,

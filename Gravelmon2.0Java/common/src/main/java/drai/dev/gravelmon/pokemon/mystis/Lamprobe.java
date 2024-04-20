@@ -58,7 +58,7 @@ import java.util.*;
 public class Lamprobe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lamprobe() {
         super("Lamprobe",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(140,
                         60,
                         65,

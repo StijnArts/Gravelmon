@@ -7,7 +7,7 @@ import java.util.*;
 public class Mizevaris extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mizevaris() {
         super("Mizevaris",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(100,
                         130,
                         150,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Snowpent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snowpent() {
         super("Snowpent",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(60,
                         100,
                         30,

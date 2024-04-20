@@ -58,7 +58,7 @@ import java.util.*;
 public class Psyphon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psyphon() {
         super("Psyphon",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

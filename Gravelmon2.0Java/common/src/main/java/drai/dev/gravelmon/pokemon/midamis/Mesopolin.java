@@ -9,7 +9,7 @@ import java.util.*;
 public class Mesopolin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mesopolin() {
         super("Mesopolin",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(150,
                         120,
                         140,

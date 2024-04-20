@@ -58,7 +58,7 @@ import java.util.*;
 public class Heloisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Heloisk() {
         super("Heloisk",
-                Type.ELECTRIC,Type.FIRE,
+                Type.ELECTRIC, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

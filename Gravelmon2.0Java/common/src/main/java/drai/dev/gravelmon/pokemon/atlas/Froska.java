@@ -7,7 +7,7 @@ import java.util.*;
 public class Froska extends drai.dev.gravelmon.pokemon.Pokemon {
     public Froska() {
         super("Froska",
-                Type.ICE,Type.PSYCHIC,
+                Type.ICE, Type.PSYCHIC,
                 new Stats(53,
                         42,
                         67,

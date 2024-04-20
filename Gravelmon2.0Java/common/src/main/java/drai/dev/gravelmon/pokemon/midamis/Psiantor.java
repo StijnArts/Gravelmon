@@ -9,7 +9,7 @@ import java.util.*;
 public class Psiantor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psiantor() {
         super("Psiantor",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(100,
                         80,
                         95,

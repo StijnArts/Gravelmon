@@ -66,14 +66,19 @@ public class Snooz extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         22),
                 List.of(Ability.OBLIVIOUS,Ability.FOREWARN), Ability.INNER_FOCUS,
-                0, 0,
+                4, 0,
                 new Stats(0,0,0,0,1,0), 190,
                 0.5,
                 43, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Added Oct 28 2021. Etymology: corruption of snooze"),
-                List.of(),
+                List.of(new EvolutionEntry("drowzee", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
+                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day"))),
+                        new EvolutionEntry("enjinniandrowzee", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"180"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")))),
                 List.of(
                         new MoveLearnSetEntry(Move.REST,1),
                         new MoveLearnSetEntry(Move.SNORE,1),
@@ -116,11 +121,11 @@ public class Snooz extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 12, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA, Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.URBAN),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Snooz");

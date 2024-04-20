@@ -7,7 +7,7 @@ import java.util.*;
 public class Gargulchan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gargulchan() {
         super("Gargulchan",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(80,
                         100,
                         170,

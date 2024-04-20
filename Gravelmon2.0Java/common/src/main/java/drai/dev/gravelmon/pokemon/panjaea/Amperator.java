@@ -58,7 +58,7 @@ import java.util.*;
 public class Amperator extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amperator() {
         super("Amperator",
-                Type.ELECTRIC,Type.BUG,
+                Type.ELECTRIC, Type.BUG,
                 new Stats(0,
                         0,
                         0,

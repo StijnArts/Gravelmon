@@ -9,7 +9,7 @@ import java.util.*;
 public class Radizorb extends drai.dev.gravelmon.pokemon.Pokemon {
     public Radizorb() {
         super("Radizorb",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(57,
                         70,
                         58,

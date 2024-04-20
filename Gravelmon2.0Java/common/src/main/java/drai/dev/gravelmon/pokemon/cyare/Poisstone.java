@@ -58,7 +58,7 @@ import java.util.*;
 public class Poisstone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poisstone() {
         super("Poisstone",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

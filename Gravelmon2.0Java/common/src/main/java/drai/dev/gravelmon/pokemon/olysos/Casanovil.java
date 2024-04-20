@@ -58,7 +58,7 @@ import java.util.*;
 public class Casanovil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Casanovil() {
         super("Casanovil",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(70,
                         90,
                         60,

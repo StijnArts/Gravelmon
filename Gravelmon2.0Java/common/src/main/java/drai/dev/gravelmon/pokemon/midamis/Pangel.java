@@ -9,7 +9,7 @@ import java.util.*;
 public class Pangel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pangel() {
         super("Pangel",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(65,
                         45,
                         60,

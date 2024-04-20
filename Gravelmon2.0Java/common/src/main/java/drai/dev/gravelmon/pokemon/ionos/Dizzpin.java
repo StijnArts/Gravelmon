@@ -58,7 +58,7 @@ import java.util.*;
 public class Dizzpin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dizzpin() {
         super("Dizzpin",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(50,
                         85,
                         75,

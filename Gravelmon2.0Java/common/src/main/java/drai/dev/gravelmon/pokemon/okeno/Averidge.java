@@ -6,7 +6,7 @@ import java.util.*;
 public class Averidge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Averidge() {
         super("Averidge",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(68,
                         68,
                         86,

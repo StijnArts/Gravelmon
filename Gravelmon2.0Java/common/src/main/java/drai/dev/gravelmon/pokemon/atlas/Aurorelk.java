@@ -9,7 +9,7 @@ import java.util.*;
 public class Aurorelk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aurorelk() {
         super("Aurorelk",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(95,
                         70,
                         60,

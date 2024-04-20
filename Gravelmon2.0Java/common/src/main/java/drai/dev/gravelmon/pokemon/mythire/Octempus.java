@@ -7,7 +7,7 @@ import java.util.*;
 public class Octempus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Octempus() {
         super("Octempus",
-                Type.PSYCHIC,Type.STEEL,
+                Type.PSYCHIC, Type.STEEL,
                 new Stats(80,
                         65,
                         85,

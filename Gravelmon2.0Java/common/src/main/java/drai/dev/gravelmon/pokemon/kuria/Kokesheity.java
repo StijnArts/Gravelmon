@@ -58,7 +58,7 @@ import java.util.*;
 public class Kokesheity extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kokesheity() {
         super("Kokesheity",
-                Type.FAIRY,Type.LIGHT,
+                Type.FAIRY, Type.LIGHT,
                 new Stats(75,
                         65,
                         70,

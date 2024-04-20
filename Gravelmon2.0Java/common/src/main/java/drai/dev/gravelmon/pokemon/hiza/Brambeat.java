@@ -7,7 +7,7 @@ import java.util.*;
 public class Brambeat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brambeat() {
         super("Brambeat",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(52,
                         65,
                         57,

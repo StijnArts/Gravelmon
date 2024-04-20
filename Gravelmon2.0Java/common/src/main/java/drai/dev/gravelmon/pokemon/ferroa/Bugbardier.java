@@ -7,7 +7,7 @@ import java.util.*;
 public class Bugbardier extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bugbardier() {
         super("Bugbardier",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(65,
                         93,
                         70,

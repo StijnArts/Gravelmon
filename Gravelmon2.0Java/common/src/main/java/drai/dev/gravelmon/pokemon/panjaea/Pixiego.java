@@ -58,7 +58,7 @@ import java.util.*;
 public class Pixiego extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pixiego() {
         super("Pixiego",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

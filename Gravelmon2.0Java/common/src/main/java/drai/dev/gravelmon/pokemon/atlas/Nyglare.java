@@ -7,7 +7,7 @@ import java.util.*;
 public class Nyglare extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nyglare() {
         super("Nyglare",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(53,
                         60,
                         55,

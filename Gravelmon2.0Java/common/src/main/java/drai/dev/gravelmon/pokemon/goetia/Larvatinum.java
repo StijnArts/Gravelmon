@@ -58,7 +58,7 @@ import java.util.*;
 public class Larvatinum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larvatinum() {
         super("Larvatinum",
-                Type.FIGHTING,Type.POISON,
+                Type.FIGHTING, Type.POISON,
                 new Stats(0,
                         0,
                         0,

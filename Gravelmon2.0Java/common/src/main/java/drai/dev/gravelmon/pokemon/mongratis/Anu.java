@@ -58,7 +58,7 @@ import java.util.*;
 public class Anu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anu() {
         super("Anu",
-                Type.DARK,Type.PSYCHIC,
+                Type.DARK, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

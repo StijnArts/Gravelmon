@@ -58,7 +58,7 @@ import java.util.*;
 public class Caraegis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Caraegis() {
         super("Caraegis",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(100,
                         100,
                         110,

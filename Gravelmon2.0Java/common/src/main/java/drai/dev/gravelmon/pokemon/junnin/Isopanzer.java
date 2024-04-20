@@ -11,7 +11,7 @@ import java.util.*;
 public class Isopanzer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Isopanzer() {
         super("Isopanzer",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(77,
                         89,
                         112,

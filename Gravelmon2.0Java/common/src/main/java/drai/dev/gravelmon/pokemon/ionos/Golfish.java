@@ -58,7 +58,7 @@ import java.util.*;
 public class Golfish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Golfish() {
         super("Golfish",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

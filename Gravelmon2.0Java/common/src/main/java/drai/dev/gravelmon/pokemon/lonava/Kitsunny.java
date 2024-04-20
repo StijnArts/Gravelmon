@@ -7,7 +7,7 @@ import java.util.*;
 public class Kitsunny extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kitsunny() {
         super("Kitsunny",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(65,
                         50,
                         50,

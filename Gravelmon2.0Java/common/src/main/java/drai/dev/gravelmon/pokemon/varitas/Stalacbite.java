@@ -9,7 +9,7 @@ import java.util.*;
 public class Stalacbite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stalacbite() {
         super("Stalacbite",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

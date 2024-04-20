@@ -58,7 +58,7 @@ import java.util.*;
 public class Disix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Disix() {
         super("Disix",
-                Type.DRAGON,Type.ROCK,
+                Type.DRAGON, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

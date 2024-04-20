@@ -58,7 +58,7 @@ import java.util.*;
 public class Lavaleon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lavaleon() {
         super("Lavaleon",
-                Type.PSYCHIC,Type.FIRE,
+                Type.PSYCHIC, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

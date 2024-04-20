@@ -58,7 +58,7 @@ import java.util.*;
 public class Cryzlect extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cryzlect() {
         super("Cryzlect",
-                Type.ELECTRIC,Type.ROCK,
+                Type.ELECTRIC, Type.ROCK,
                 new Stats(70,
                         70,
                         110,

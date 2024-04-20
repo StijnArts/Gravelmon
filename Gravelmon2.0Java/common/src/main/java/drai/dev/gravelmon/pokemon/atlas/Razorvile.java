@@ -7,7 +7,7 @@ import java.util.*;
 public class Razorvile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Razorvile() {
         super("Razorvile",
-                Type.GRASS,Type.STEEL,
+                Type.GRASS, Type.STEEL,
                 new Stats(102,
                         107,
                         92,

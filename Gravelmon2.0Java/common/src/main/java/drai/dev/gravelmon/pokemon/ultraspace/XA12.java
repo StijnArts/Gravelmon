@@ -58,7 +58,7 @@ import java.util.*;
 public class XA12 extends drai.dev.gravelmon.pokemon.Pokemon {
     public XA12() {
         super("XA12",
-                Type.FLYING,Type.STEEL,
+                Type.FLYING, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

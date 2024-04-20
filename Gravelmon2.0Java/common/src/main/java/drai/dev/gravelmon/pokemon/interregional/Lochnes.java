@@ -7,7 +7,7 @@ import java.util.*;
 public class Lochnes extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lochnes() {
         super("Lochnes",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(65,
                         60,
                         100,

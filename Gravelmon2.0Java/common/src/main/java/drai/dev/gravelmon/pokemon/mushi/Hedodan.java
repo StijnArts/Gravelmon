@@ -8,7 +8,7 @@ import java.util.*;
 public class Hedodan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hedodan() {
         super("Hedodan",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(35,
                         60,
                         70,

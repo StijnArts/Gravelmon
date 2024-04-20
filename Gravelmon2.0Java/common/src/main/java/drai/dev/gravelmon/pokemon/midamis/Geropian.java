@@ -9,7 +9,7 @@ import java.util.*;
 public class Geropian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Geropian() {
         super("Geropian",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(40,
                         40,
                         40,

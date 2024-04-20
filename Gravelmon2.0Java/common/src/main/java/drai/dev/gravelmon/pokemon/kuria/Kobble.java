@@ -58,7 +58,7 @@ import java.util.*;
 public class Kobble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kobble() {
         super("Kobble",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(50,
                         120,
                         50,

@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianYamask extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianYamask(int dex) {
         super(dex, "Yamask",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(38,
                         30,
                         85,

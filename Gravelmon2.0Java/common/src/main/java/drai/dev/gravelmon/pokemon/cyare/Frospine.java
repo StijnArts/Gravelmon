@@ -58,7 +58,7 @@ import java.util.*;
 public class Frospine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frospine() {
         super("Frospine",
-                Type.ICE,Type.GHOST,
+                Type.ICE, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

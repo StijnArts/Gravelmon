@@ -58,7 +58,7 @@ import java.util.*;
 public class Guardihand extends drai.dev.gravelmon.pokemon.Pokemon {
     public Guardihand() {
         super("Guardihand",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(75,
                         120,
                         80,

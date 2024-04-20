@@ -6,7 +6,7 @@ import java.util.*;
 public class Roacheap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roacheap() {
         super("Roacheap",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(22,
                         78,
                         22,

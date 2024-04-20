@@ -58,7 +58,7 @@ import java.util.*;
 public class Grumbear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grumbear() {
         super("Grumbear",
-                Type.NORMAL,Type.DARK,
+                Type.NORMAL, Type.DARK,
                 new Stats(150,
                         85,
                         65,

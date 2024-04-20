@@ -7,7 +7,7 @@ import java.util.*;
 public class Flamaggedon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flamaggedon() {
         super("Flamaggedon",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(95,
                         65,
                         105,

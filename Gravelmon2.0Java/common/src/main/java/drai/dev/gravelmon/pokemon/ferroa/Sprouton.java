@@ -7,7 +7,7 @@ import java.util.*;
 public class Sprouton extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sprouton() {
         super("Sprouton",
-                Type.STEEL,Type.GRASS,
+                Type.STEEL, Type.GRASS,
                 new Stats(40,
                         55,
                         75,

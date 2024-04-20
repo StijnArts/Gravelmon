@@ -58,7 +58,7 @@ import java.util.*;
 public class Elfishoe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elfishoe() {
         super("Elfishoe",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(87,
                         55,
                         70,

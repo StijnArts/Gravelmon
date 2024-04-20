@@ -58,7 +58,7 @@ import java.util.*;
 public class Radarent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Radarent() {
         super("Radarent",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

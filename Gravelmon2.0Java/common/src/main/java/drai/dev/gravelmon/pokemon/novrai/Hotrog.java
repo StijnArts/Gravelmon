@@ -7,7 +7,7 @@ import java.util.*;
 public class Hotrog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hotrog() {
         super("Hotrog",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(73,
                         100,
                         105,

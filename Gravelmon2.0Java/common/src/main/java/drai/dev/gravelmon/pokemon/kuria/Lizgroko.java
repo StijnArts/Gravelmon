@@ -58,7 +58,7 @@ import java.util.*;
 public class Lizgroko extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lizgroko() {
         super("Lizgroko",
-                Type.POISON,Type.FIGHTING,
+                Type.POISON, Type.FIGHTING,
                 new Stats(75,
                         80,
                         64,

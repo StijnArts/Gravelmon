@@ -11,7 +11,7 @@ import java.util.*;
 public class Sandstrum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sandstrum() {
         super("Sandstrum",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(55,
                         48,
                         59,

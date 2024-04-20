@@ -7,7 +7,7 @@ import java.util.*;
 public class Lymfite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lymfite() {
         super("Lymfite",
-                Type.FIGHTING,Type.POISON,
+                Type.FIGHTING, Type.POISON,
                 new Stats(35,
                         65,
                         20,

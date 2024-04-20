@@ -58,7 +58,7 @@ import java.util.*;
 public class Crickute extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crickute() {
         super("Crickute",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(50,
                         50,
                         90,

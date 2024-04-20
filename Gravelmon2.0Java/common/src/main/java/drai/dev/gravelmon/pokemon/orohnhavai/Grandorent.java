@@ -9,7 +9,7 @@ import java.util.*;
 public class Grandorent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grandorent() {
         super("Grandorent",
-                Type.NORMAL,Type.GRASS,
+                Type.NORMAL, Type.GRASS,
                 new Stats(95,
                         60,
                         65,

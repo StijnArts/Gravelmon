@@ -58,7 +58,7 @@ import java.util.*;
 public class Sawface extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sawface() {
         super("Sawface",
-                Type.DARK,Type.STEEL,
+                Type.DARK, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

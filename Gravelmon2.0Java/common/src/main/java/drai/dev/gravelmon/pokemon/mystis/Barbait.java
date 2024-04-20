@@ -58,7 +58,7 @@ import java.util.*;
 public class Barbait extends drai.dev.gravelmon.pokemon.Pokemon {
     public Barbait() {
         super("Barbait",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(60,
                         55,
                         40,

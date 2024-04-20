@@ -58,7 +58,7 @@ import java.util.*;
 public class Deviljho extends drai.dev.gravelmon.pokemon.Pokemon {
     public Deviljho() {
         super("Deviljho",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(100,
                         140,
                         90,

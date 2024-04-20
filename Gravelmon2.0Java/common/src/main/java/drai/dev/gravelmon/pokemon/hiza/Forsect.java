@@ -7,7 +7,7 @@ import java.util.*;
 public class Forsect extends drai.dev.gravelmon.pokemon.Pokemon {
     public Forsect() {
         super("Forsect",
-                Type.FIGHTING,Type.BUG,
+                Type.FIGHTING, Type.BUG,
                 new Stats(83,
                         135,
                         92,

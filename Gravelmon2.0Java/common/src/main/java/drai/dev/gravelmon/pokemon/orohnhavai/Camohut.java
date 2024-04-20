@@ -9,7 +9,7 @@ import java.util.*;
 public class Camohut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Camohut() {
         super("Camohut",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(40,
                         50,
                         100,

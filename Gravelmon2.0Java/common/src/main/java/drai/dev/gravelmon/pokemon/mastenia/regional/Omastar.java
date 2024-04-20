@@ -58,7 +58,7 @@ import java.util.*;
 public class Omastar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Omastar(int dex) {
         super(dex, "Omastar",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(0,
                         0,
                         0,

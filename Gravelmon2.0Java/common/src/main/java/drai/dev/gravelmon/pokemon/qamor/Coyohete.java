@@ -9,7 +9,7 @@ import java.util.*;
 public class Coyohete extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coyohete() {
         super("Coyohete",
-                Type.FAIRY,Type.FIRE,
+                Type.FAIRY, Type.FIRE,
                 new Stats(100,
                         100,
                         98,

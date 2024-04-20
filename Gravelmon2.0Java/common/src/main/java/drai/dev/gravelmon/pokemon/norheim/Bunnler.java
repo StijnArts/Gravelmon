@@ -9,7 +9,7 @@ import java.util.*;
 public class Bunnler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bunnler() {
         super("Bunnler",
-                Type.DARK,Type.ICE,
+                Type.DARK, Type.ICE,
                 new Stats(75,
                         70,
                         50,

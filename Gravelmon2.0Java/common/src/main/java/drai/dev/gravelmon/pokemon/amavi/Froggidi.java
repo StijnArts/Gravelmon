@@ -8,7 +8,7 @@ import java.util.*;
 public class Froggidi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Froggidi() {
         super("Froggidi",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(0,
                         0,
                         0,

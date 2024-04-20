@@ -7,7 +7,7 @@ import java.util.*;
 public class Oogashroomga extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oogashroomga() {
         super("Oogashroomga",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(80,
                         70,
                         65,

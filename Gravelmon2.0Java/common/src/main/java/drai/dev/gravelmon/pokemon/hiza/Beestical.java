@@ -7,7 +7,7 @@ import java.util.*;
 public class Beestical extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beestical() {
         super("Beestical",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(101,
                         91,
                         60,

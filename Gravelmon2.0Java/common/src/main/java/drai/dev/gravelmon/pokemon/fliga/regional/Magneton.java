@@ -58,7 +58,7 @@ import java.util.*;
 public class Magneton extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magneton(int dex) {
         super(dex, "Magneton",
-                Type.ELECTRIC,Type.STEEL,
+                Type.ELECTRIC, Type.STEEL,
                 new Stats(50,
                         60,
                         95,

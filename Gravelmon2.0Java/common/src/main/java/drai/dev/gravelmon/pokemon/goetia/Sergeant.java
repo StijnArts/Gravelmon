@@ -58,7 +58,7 @@ import java.util.*;
 public class Sergeant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sergeant() {
         super("Sergeant",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

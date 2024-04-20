@@ -58,7 +58,7 @@ import java.util.*;
 public class Plasmakate extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plasmakate() {
         super("Plasmakate",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Seltas extends drai.dev.gravelmon.pokemon.Pokemon {
     public Seltas() {
         super("Seltas",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

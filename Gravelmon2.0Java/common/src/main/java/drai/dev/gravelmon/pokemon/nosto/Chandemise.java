@@ -7,7 +7,7 @@ import java.util.*;
 public class Chandemise extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chandemise() {
         super("Chandemise",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(70,
                         70,
                         82,

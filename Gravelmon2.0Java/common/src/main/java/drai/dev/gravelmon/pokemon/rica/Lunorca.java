@@ -9,7 +9,7 @@ import java.util.*;
 public class Lunorca extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lunorca() {
         super("Lunorca",
-                Type.FAIRY,Type.PSYCHIC,
+                Type.FAIRY, Type.PSYCHIC,
                 new Stats(78,
                         64,
                         60,

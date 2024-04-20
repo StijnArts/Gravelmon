@@ -58,7 +58,7 @@ import java.util.*;
 public class Whirliseed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Whirliseed() {
         super("Whirliseed",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(55,
                         55,
                         30,

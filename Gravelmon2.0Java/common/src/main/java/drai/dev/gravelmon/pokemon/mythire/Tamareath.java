@@ -7,7 +7,7 @@ import java.util.*;
 public class Tamareath extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tamareath() {
         super("Tamareath",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(80,
                         50,
                         70,

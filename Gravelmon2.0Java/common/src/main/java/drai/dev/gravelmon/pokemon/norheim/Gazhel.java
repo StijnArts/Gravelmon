@@ -9,7 +9,7 @@ import java.util.*;
 public class Gazhel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gazhel() {
         super("Gazhel",
-                Type.DRAGON,Type.GHOST,
+                Type.DRAGON, Type.GHOST,
                 new Stats(97,
                         117,
                         91,

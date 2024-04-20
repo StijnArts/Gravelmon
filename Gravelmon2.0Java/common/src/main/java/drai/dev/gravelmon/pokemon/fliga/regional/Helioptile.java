@@ -58,7 +58,7 @@ import java.util.*;
 public class Helioptile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Helioptile(int dex) {
         super(dex, "Helioptile",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(44,
                         38,
                         33,

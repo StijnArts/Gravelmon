@@ -58,7 +58,7 @@ import java.util.*;
 public class Trypolisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trypolisk() {
         super("Trypolisk",
-                Type.ROCK,Type.STEEL,
+                Type.ROCK, Type.STEEL,
                 new Stats(80,
                         110,
                         160,

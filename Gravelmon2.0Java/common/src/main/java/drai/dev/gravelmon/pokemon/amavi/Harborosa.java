@@ -8,7 +8,7 @@ import java.util.*;
 public class Harborosa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harborosa() {
         super("Harborosa",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(70,
                         130,
                         120,
@@ -17,7 +17,7 @@ public class Harborosa extends drai.dev.gravelmon.pokemon.Pokemon {
                         85),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 15, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

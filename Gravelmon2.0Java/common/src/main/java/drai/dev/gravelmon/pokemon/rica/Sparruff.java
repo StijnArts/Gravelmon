@@ -9,7 +9,7 @@ import java.util.*;
 public class Sparruff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sparruff() {
         super("Sparruff",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(48,
                         48,
                         35,

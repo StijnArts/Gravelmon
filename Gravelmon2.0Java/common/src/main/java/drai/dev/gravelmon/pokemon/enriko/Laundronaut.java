@@ -7,7 +7,7 @@ import java.util.*;
 public class Laundronaut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Laundronaut() {
         super("Laundronaut",
-                Type.POISON,Type.NORMAL,
+                Type.POISON, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

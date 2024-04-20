@@ -7,7 +7,7 @@ import java.util.*;
 public class Twoolepin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Twoolepin() {
         super("Twoolepin",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(60,
                         72,
                         55,

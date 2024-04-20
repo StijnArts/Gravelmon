@@ -7,7 +7,7 @@ import java.util.*;
 public class Excanth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Excanth() {
         super("Excanth",
-                Type.POISON,Type.ICE,
+                Type.POISON, Type.ICE,
                 new Stats(0,
                         0,
                         0,

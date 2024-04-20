@@ -9,7 +9,7 @@ import java.util.*;
 public class Carvesta extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carvesta() {
         super("Carvesta",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(55,
                         85,
                         55,

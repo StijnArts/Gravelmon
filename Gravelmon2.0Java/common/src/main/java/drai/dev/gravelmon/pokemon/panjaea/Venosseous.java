@@ -58,7 +58,7 @@ import java.util.*;
 public class Venosseous extends drai.dev.gravelmon.pokemon.Pokemon {
     public Venosseous() {
         super("Venosseous",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

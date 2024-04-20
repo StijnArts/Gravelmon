@@ -7,7 +7,7 @@ import java.util.*;
 public class Leukofite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leukofite() {
         super("Leukofite",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(60,
                         80,
                         60,

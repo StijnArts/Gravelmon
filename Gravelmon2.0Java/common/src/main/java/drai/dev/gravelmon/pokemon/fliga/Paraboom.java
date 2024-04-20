@@ -58,7 +58,7 @@ import java.util.*;
 public class Paraboom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paraboom() {
         super("Paraboom",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(100,
                         55,
                         80,

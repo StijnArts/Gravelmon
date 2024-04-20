@@ -58,7 +58,7 @@ import java.util.*;
 public class Inferpillar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Inferpillar() {
         super("Inferpillar",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(70,
                         35,
                         45,

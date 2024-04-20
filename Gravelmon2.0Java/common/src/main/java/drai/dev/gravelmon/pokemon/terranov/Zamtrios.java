@@ -58,7 +58,7 @@ import java.util.*;
 public class Zamtrios extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zamtrios() {
         super("Zamtrios",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

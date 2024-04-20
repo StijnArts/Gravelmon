@@ -58,7 +58,7 @@ import java.util.*;
 public class Wailnard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wailnard() {
         super("Wailnard",
-                Type.FLYING,Type.NORMAL,
+                Type.FLYING, Type.NORMAL,
                 new Stats(45,
                         55,
                         35,

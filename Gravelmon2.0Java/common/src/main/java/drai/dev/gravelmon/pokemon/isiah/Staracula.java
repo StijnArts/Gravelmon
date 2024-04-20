@@ -7,7 +7,7 @@ import java.util.*;
 public class Staracula extends drai.dev.gravelmon.pokemon.Pokemon {
     public Staracula() {
         super("Staracula",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

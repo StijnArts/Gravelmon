@@ -9,7 +9,7 @@ import java.util.*;
 public class Archick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Archick() {
         super("Archick",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(40,
                         32,
                         30,

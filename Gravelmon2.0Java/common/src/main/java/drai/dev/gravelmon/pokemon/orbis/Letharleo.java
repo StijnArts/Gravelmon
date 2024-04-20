@@ -58,7 +58,7 @@ import java.util.*;
 public class Letharleo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Letharleo() {
         super("Letharleo",
-                Type.NORMAL,Type.WATER,
+                Type.NORMAL, Type.WATER,
                 new Stats(140,
                         165,
                         80,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Bearserk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bearserk() {
         super("Bearserk",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(95,
                         126,
                         81,

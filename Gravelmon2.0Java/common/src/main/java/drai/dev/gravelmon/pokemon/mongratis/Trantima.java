@@ -58,7 +58,7 @@ import java.util.*;
 public class Trantima extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trantima() {
         super("Trantima",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

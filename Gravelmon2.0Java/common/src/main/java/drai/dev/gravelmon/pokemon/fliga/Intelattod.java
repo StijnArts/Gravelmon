@@ -58,7 +58,7 @@ import java.util.*;
 public class Intelattod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Intelattod() {
         super("Intelattod",
-                Type.PSYCHIC,Type.BUG,
+                Type.PSYCHIC, Type.BUG,
                 new Stats(65,
                         40,
                         90,

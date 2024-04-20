@@ -58,7 +58,7 @@ import java.util.*;
 public class Mosquick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mosquick() {
         super("Mosquick",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

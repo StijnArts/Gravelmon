@@ -7,7 +7,7 @@ import java.util.*;
 public class Mistoria extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mistoria() {
         super("Mistoria",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(115,
                         60,
                         60,

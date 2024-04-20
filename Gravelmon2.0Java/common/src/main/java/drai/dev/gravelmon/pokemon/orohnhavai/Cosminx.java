@@ -9,7 +9,7 @@ import java.util.*;
 public class Cosminx extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cosminx() {
         super("Cosminx",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(50,
                         80,
                         45,

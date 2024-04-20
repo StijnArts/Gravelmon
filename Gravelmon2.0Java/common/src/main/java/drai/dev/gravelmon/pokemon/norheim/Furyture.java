@@ -9,7 +9,7 @@ import java.util.*;
 public class Furyture extends drai.dev.gravelmon.pokemon.Pokemon {
     public Furyture() {
         super("Furyture",
-                Type.GHOST,Type.NORMAL,
+                Type.GHOST, Type.NORMAL,
                 new Stats(66,
                         88,
                         88,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Itcheep extends drai.dev.gravelmon.pokemon.Pokemon {
     public Itcheep() {
         super("Itcheep",
-                Type.NORMAL,Type.POISON,
+                Type.NORMAL, Type.POISON,
                 new Stats(50,
                         50,
                         50,

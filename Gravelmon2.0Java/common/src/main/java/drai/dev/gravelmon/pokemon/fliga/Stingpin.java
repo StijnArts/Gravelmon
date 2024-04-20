@@ -58,7 +58,7 @@ import java.util.*;
 public class Stingpin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stingpin() {
         super("Stingpin",
-                Type.DARK,Type.DRAGON,
+                Type.DARK, Type.DRAGON,
                 new Stats(67,
                         117,
                         69,

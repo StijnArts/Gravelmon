@@ -58,7 +58,7 @@ import java.util.*;
 public class Mantini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mantini() {
         super("Mantini",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

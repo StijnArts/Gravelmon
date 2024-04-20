@@ -9,7 +9,7 @@ import java.util.*;
 public class Grimgarmr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grimgarmr() {
         super("Grimgarmr",
-                Type.DARK,Type.ICE,
+                Type.DARK, Type.ICE,
                 new Stats(0,
                         0,
                         0,

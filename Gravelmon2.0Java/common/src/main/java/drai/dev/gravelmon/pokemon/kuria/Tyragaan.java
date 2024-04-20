@@ -58,7 +58,7 @@ import java.util.*;
 public class Tyragaan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tyragaan() {
         super("Tyragaan",
-                Type.GRASS,Type.LIGHT,
+                Type.GRASS, Type.LIGHT,
                 new Stats(91,
                         124,
                         90,

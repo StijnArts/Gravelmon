@@ -7,7 +7,7 @@ import java.util.*;
 public class Stalagrus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stalagrus() {
         super("Stalagrus",
-                Type.GROUND,Type.ROCK,
+                Type.GROUND, Type.ROCK,
                 new Stats(160,
                         95,
                         40,

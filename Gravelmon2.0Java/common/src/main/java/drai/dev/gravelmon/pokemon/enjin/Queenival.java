@@ -58,7 +58,7 @@ import java.util.*;
 public class Queenival extends drai.dev.gravelmon.pokemon.Pokemon {
     public Queenival() {
         super("Queenival",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

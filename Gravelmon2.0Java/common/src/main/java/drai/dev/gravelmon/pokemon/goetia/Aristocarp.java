@@ -58,7 +58,7 @@ import java.util.*;
 public class Aristocarp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aristocarp() {
         super("Aristocarp",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

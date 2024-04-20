@@ -6,7 +6,7 @@ import java.util.*;
 public class Duskolony extends drai.dev.gravelmon.pokemon.Pokemon {
     public Duskolony() {
         super("Duskolony",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(105,
                         96,
                         105,

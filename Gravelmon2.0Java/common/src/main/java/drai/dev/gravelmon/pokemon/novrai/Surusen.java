@@ -7,7 +7,7 @@ import java.util.*;
 public class Surusen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Surusen() {
         super("Surusen",
-                Type.GHOST,Type.ROCK,
+                Type.GHOST, Type.ROCK,
                 new Stats(110,
                         100,
                         150,

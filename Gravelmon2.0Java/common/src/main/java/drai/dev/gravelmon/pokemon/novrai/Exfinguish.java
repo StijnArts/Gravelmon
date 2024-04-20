@@ -7,7 +7,7 @@ import java.util.*;
 public class Exfinguish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Exfinguish() {
         super("Exfinguish",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(70,
                         123,
                         63,

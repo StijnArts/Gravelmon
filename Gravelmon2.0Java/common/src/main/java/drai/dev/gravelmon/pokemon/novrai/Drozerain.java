@@ -7,7 +7,7 @@ import java.util.*;
 public class Drozerain extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drozerain() {
         super("Drozerain",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(85,
                         125,
                         135,

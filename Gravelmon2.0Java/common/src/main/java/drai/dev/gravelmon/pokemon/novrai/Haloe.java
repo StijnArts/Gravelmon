@@ -7,7 +7,7 @@ import java.util.*;
 public class Haloe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Haloe() {
         super("Haloe",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(85,
                         25,
                         50,

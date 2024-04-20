@@ -9,7 +9,7 @@ import java.util.*;
 public class Vespidron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vespidron() {
         super("Vespidron",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(70,
                         81,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Ufo2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ufo2() {
         super("Ufo2",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(90,
                         51,
                         102,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Anewack extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anewack() {
         super("Anewack",
-                Type.POISON,Type.FIGHTING,
+                Type.POISON, Type.FIGHTING,
                 new Stats(50,
                         50,
                         60,

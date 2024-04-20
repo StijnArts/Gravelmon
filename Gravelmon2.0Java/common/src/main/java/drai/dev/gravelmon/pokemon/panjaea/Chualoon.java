@@ -58,7 +58,7 @@ import java.util.*;
 public class Chualoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chualoon() {
         super("Chualoon",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

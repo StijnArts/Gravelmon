@@ -8,7 +8,7 @@ import java.util.*;
 public class Fingel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fingel() {
         super("Fingel",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

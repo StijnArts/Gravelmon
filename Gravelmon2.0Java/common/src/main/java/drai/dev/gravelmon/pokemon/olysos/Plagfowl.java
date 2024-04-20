@@ -58,7 +58,7 @@ import java.util.*;
 public class Plagfowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plagfowl() {
         super("Plagfowl",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

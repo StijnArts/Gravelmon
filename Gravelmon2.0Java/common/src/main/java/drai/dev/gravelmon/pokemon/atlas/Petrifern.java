@@ -7,7 +7,7 @@ import java.util.*;
 public class Petrifern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Petrifern() {
         super("Petrifern",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(85,
                         30,
                         84,

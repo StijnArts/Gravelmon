@@ -8,7 +8,7 @@ import java.util.*;
 public class Tendurse extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tendurse() {
         super("Tendurse",
-                Type.PSYCHIC,Type.POISON,
+                Type.PSYCHIC, Type.POISON,
                 new Stats(120,
                         20,
                         20,
@@ -17,7 +17,7 @@ public class Tendurse extends drai.dev.gravelmon.pokemon.Pokemon {
                         48),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 6, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

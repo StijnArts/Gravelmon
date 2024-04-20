@@ -9,7 +9,7 @@ import java.util.*;
 public class AristosianNumel extends drai.dev.gravelmon.pokemon.Pokemon {
     public AristosianNumel(int dexNo) {
         super(dexNo,"AristosianNumel",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(60,
                         60,
                         40,

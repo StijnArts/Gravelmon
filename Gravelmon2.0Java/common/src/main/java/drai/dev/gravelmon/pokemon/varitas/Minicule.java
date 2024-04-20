@@ -9,7 +9,7 @@ import java.util.*;
 public class Minicule extends drai.dev.gravelmon.pokemon.Pokemon {
     public Minicule() {
         super("Minicule",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(60,
                         20,
                         50,

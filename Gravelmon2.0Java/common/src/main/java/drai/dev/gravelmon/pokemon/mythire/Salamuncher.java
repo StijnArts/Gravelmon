@@ -7,7 +7,7 @@ import java.util.*;
 public class Salamuncher extends drai.dev.gravelmon.pokemon.Pokemon {
     public Salamuncher() {
         super("Salamuncher",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(100,
                         60,
                         50,

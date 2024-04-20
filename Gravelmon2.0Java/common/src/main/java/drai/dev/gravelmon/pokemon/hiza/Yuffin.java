@@ -7,7 +7,7 @@ import java.util.*;
 public class Yuffin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yuffin() {
         super("Yuffin",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(48,
                         48,
                         42,

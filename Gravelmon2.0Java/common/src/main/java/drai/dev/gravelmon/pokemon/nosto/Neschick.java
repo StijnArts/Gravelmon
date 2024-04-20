@@ -7,7 +7,7 @@ import java.util.*;
 public class Neschick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Neschick() {
         super("Neschick",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(42,
                         68,
                         43,

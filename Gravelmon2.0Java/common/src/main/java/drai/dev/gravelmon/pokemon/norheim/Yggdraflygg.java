@@ -9,7 +9,7 @@ import java.util.*;
 public class Yggdraflygg extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yggdraflygg() {
         super("Yggdraflygg",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(85,
                         125,
                         70,

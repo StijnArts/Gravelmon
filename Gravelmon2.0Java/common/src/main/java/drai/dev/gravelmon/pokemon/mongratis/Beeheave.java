@@ -58,7 +58,7 @@ import java.util.*;
 public class Beeheave extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beeheave() {
         super("Beeheave",
-                Type.BUG,Type.NORMAL,
+                Type.BUG, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

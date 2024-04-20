@@ -58,7 +58,7 @@ import java.util.*;
 public class Huffalimp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Huffalimp() {
         super("Huffalimp",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Monsewer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Monsewer() {
         super("Monsewer",
-                Type.POISON,Type.GROUND,
+                Type.POISON, Type.GROUND,
                 new Stats(125,
                         100,
                         65,

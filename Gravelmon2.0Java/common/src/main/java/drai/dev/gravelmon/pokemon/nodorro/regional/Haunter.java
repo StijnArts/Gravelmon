@@ -58,7 +58,7 @@ import java.util.*;
 public class Haunter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Haunter(int dex) {
         super(dex, "Haunter",
-                Type.GHOST,Type.ICE,
+                Type.GHOST, Type.ICE,
                 new Stats(50,
                         50,
                         45,

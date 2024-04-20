@@ -58,7 +58,7 @@ import java.util.*;
 public class Jerbalm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jerbalm() {
         super("Jerbalm",
-                Type.ELECTRIC,Type.GHOST,
+                Type.ELECTRIC, Type.GHOST,
                 new Stats(60,
                         54,
                         60,
@@ -72,7 +72,7 @@ public class Jerbalm extends drai.dev.gravelmon.pokemon.Pokemon {
                 151, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Added Oct 27 2021. Etymology: jerboa + embalm Origin: Created by JaneJewel for the April 2020 Around The World Fakeathon Day 6 prompt, Egypt Habitat: deserts, tombs Evo line: ;)"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SNORE,"tm"),

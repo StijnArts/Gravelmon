@@ -9,7 +9,7 @@ import java.util.*;
 public class Growel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Growel() {
         super("Growel",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(60,
                         80,
                         90,

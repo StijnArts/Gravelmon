@@ -7,7 +7,7 @@ import java.util.*;
 public class Amygdalanche extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amygdalanche() {
         super("Amygdalanche",
-                Type.PSYCHIC,Type.ICE,
+                Type.PSYCHIC, Type.ICE,
                 new Stats(90,
                         40,
                         120,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Monitasm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Monitasm() {
         super("Monitasm",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(45,
                         30,
                         80,

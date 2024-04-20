@@ -7,7 +7,7 @@ import java.util.*;
 public class Cadastrophe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cadastrophe() {
         super("Cadastrophe",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(90,
                         120,
                         90,

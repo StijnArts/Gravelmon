@@ -7,7 +7,7 @@ import java.util.*;
 public class Nooch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nooch() {
         super("Nooch",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(70,
                         30,
                         35,

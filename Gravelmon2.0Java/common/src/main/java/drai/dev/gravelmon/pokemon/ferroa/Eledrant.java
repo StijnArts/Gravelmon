@@ -7,7 +7,7 @@ import java.util.*;
 public class Eledrant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eledrant() {
         super("Eledrant",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(68,
                         90,
                         120,

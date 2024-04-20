@@ -58,7 +58,7 @@ import java.util.*;
 public class Corozard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Corozard() {
         super("Corozard",
-                Type.POISON,Type.GROUND,
+                Type.POISON, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

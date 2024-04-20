@@ -58,7 +58,7 @@ import java.util.*;
 public class Gallocamp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gallocamp() {
         super("Gallocamp",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(55,
                         55,
                         65,

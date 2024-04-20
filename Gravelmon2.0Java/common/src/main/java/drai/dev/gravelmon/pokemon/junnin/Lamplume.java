@@ -11,7 +11,7 @@ import java.util.*;
 public class Lamplume extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lamplume() {
         super("Lamplume",
-                Type.FAIRY,Type.PSYCHIC,
+                Type.FAIRY, Type.PSYCHIC,
                 new Stats(84,
                         59,
                         65,

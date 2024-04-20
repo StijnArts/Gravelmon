@@ -7,7 +7,7 @@ import java.util.*;
 public class Torpeed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Torpeed() {
         super("Torpeed",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(65,
                         76,
                         58,

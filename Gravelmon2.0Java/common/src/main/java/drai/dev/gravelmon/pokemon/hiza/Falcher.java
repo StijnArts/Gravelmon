@@ -7,7 +7,7 @@ import java.util.*;
 public class Falcher extends drai.dev.gravelmon.pokemon.Pokemon {
     public Falcher() {
         super("Falcher",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(85,
                         130,
                         80,

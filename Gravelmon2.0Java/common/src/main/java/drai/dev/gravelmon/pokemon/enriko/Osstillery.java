@@ -7,7 +7,7 @@ import java.util.*;
 public class Osstillery extends drai.dev.gravelmon.pokemon.Pokemon {
     public Osstillery() {
         super("Osstillery",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

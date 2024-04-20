@@ -7,7 +7,7 @@ import java.util.*;
 public class Slithm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slithm() {
         super("Slithm",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(50,
                         65,
                         85,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Chillichoya extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chillichoya() {
         super("Chillichoya",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(62,
                         53,
                         70,

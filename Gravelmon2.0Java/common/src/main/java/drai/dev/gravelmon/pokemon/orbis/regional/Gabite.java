@@ -58,7 +58,7 @@ import java.util.*;
 public class Gabite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gabite(int dex) {
         super(dex, "Gabite",
-                Type.DRAGON,Type.GROUND,
+                Type.DRAGON, Type.GROUND,
                 new Stats(68,
                         90,
                         65,

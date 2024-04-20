@@ -9,7 +9,7 @@ import java.util.*;
 public class Abramadon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Abramadon() {
         super("Abramadon",
-                Type.PSYCHIC,Type.ROCK,
+                Type.PSYCHIC, Type.ROCK,
                 new Stats(70,
                         90,
                         80,

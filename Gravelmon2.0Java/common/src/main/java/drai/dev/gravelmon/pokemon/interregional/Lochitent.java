@@ -7,7 +7,7 @@ import java.util.*;
 public class Lochitent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lochitent() {
         super("Lochitent",
-                Type.GROUND,Type.ICE,
+                Type.GROUND, Type.ICE,
                 new Stats(100,
                         80,
                         120,

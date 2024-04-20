@@ -58,7 +58,7 @@ import java.util.*;
 public class Scaroyal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scaroyal() {
         super("Scaroyal",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

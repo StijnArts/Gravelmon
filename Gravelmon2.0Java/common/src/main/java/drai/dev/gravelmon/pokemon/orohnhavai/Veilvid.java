@@ -9,7 +9,7 @@ import java.util.*;
 public class Veilvid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Veilvid() {
         super("Veilvid",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(60,
                         50,
                         60,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Shiveram extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shiveram() {
         super("Shiveram",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(90,
                         90,
                         130,

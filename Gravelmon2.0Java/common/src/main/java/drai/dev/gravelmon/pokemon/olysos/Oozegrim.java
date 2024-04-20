@@ -58,7 +58,7 @@ import java.util.*;
 public class Oozegrim extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oozegrim() {
         super("Oozegrim",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(90,
                         50,
                         110,

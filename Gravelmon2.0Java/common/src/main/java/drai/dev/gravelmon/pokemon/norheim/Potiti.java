@@ -9,7 +9,7 @@ import java.util.*;
 public class Potiti extends drai.dev.gravelmon.pokemon.Pokemon {
     public Potiti() {
         super("Potiti",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

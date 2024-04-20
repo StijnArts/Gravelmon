@@ -58,7 +58,7 @@ import java.util.*;
 public class Mummoph extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mummoph() {
         super("Mummoph",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(60,
                         90,
                         65,

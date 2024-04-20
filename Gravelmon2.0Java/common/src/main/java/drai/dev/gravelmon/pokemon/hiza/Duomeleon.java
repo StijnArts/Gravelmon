@@ -7,7 +7,7 @@ import java.util.*;
 public class Duomeleon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Duomeleon() {
         super("Duomeleon",
-                Type.FIRE,Type.ICE,
+                Type.FIRE, Type.ICE,
                 new Stats(72,
                         42,
                         42,

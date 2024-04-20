@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianMantyke extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianMantyke() {
         super("Mantyke",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(45,
                         20,
                         50,

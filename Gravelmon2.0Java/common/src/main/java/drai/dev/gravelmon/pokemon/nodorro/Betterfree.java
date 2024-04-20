@@ -58,7 +58,7 @@ import java.util.*;
 public class Betterfree extends drai.dev.gravelmon.pokemon.Pokemon {
     public Betterfree() {
         super("Betterfree",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(72,
                         55,
                         65,

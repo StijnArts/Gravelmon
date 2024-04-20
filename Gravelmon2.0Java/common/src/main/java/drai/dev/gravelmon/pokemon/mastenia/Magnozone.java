@@ -58,7 +58,7 @@ import java.util.*;
 public class Magnozone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magnozone() {
         super("Magnozone",
-                Type.FLYING,Type.GRASS,
+                Type.FLYING, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

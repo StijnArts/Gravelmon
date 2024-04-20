@@ -58,7 +58,7 @@ import java.util.*;
 public class Amiesel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amiesel() {
         super("Amiesel",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(100,
                         64,
                         82,

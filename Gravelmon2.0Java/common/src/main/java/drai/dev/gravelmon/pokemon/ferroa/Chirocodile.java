@@ -7,7 +7,7 @@ import java.util.*;
 public class Chirocodile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chirocodile() {
         super("Chirocodile",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(80,
                         97,
                         61,

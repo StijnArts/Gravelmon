@@ -7,7 +7,7 @@ import java.util.*;
 public class Welweed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Welweed() {
         super("Welweed",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(45,
                         40,
                         50,

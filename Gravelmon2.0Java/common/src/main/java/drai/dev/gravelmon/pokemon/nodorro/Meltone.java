@@ -58,7 +58,7 @@ import java.util.*;
 public class Meltone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Meltone() {
         super("Meltone",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(65,
                         90,
                         95,

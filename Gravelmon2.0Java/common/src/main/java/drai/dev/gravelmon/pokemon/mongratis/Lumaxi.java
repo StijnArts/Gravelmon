@@ -58,7 +58,7 @@ import java.util.*;
 public class Lumaxi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumaxi() {
         super("Lumaxi",
-                Type.ELECTRIC,Type.FAIRY,
+                Type.ELECTRIC, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Tropius extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tropius(int dex) {
         super(dex, "Tropius",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(119,
                         78,
                         83,

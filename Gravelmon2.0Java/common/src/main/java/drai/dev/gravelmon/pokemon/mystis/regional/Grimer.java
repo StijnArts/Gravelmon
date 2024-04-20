@@ -58,7 +58,7 @@ import java.util.*;
 public class Grimer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grimer(int dex) {
         super(dex, "Grimer",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(80,
                         80,
                         50,

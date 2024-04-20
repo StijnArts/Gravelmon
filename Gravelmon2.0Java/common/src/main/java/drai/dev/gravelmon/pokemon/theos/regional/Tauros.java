@@ -58,7 +58,7 @@ import java.util.*;
 public class Tauros extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tauros(int dex) {
         super(dex, "Tauros",
-                Type.DARK,Type.NORMAL,
+                Type.DARK, Type.NORMAL,
                 new Stats(75,
                         110,
                         105,

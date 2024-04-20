@@ -9,7 +9,7 @@ import java.util.*;
 public class Obideion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Obideion() {
         super("Obideion",
-                Type.FAIRY,Type.WATER,
+                Type.FAIRY, Type.WATER,
                 new Stats(120,
                         70,
                         70,

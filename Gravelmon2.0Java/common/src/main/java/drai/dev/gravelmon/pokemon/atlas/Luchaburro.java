@@ -7,7 +7,7 @@ import java.util.*;
 public class Luchaburro extends drai.dev.gravelmon.pokemon.Pokemon {
     public Luchaburro() {
         super("Luchaburro",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(61,
                         128,
                         77,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Presigeont extends drai.dev.gravelmon.pokemon.Pokemon {
     public Presigeont() {
         super("Presigeont",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(115,
                         93,
                         65,

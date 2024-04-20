@@ -7,7 +7,7 @@ import java.util.*;
 public class Flatriarch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flatriarch() {
         super("Flatriarch",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(75,
                         104,
                         71,

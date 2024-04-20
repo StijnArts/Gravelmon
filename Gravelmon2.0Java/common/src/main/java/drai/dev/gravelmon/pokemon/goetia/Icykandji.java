@@ -58,7 +58,7 @@ import java.util.*;
 public class Icykandji extends drai.dev.gravelmon.pokemon.Pokemon {
     public Icykandji() {
         super("Icykandji",
-                Type.ICE,Type.POISON,
+                Type.ICE, Type.POISON,
                 new Stats(0,
                         0,
                         0,

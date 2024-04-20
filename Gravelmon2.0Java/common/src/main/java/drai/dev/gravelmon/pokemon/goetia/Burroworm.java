@@ -58,7 +58,7 @@ import java.util.*;
 public class Burroworm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burroworm() {
         super("Burroworm",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

@@ -13,7 +13,7 @@ import java.util.*;
 public class Attraknid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Attraknid() {
         super("Attraknid",
-                Type.DARK,Type.BUG,
+                Type.DARK, Type.BUG,
                 new Stats(0,
                         0,
                         0,

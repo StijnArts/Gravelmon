@@ -58,7 +58,7 @@ import java.util.*;
 public class Majestree extends drai.dev.gravelmon.pokemon.Pokemon {
     public Majestree() {
         super("Majestree",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(89,
                         132,
                         114,

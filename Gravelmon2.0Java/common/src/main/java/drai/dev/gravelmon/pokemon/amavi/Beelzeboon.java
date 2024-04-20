@@ -8,7 +8,7 @@ import java.util.*;
 public class Beelzeboon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beelzeboon() {
         super("Beelzeboon",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(75,
                         120,
                         70,

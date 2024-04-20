@@ -7,7 +7,7 @@ import java.util.*;
 public class Ribitar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ribitar() {
         super("Ribitar",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(70,
                         80,
                         52,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Sevris extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sevris() {
         super("Sevris",
-                Type.WATER,Type.BUG,
+                Type.WATER, Type.BUG,
                 new Stats(50,
                         45,
                         65,

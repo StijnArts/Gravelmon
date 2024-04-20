@@ -58,7 +58,7 @@ import java.util.*;
 public class Piroyata extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piroyata() {
         super("Piroyata",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(90,
                         90,
                         100,

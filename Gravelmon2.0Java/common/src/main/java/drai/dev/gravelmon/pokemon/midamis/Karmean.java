@@ -9,7 +9,7 @@ import java.util.*;
 public class Karmean extends drai.dev.gravelmon.pokemon.Pokemon {
     public Karmean() {
         super("Karmean",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(50,
                         60,
                         60,

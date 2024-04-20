@@ -58,7 +58,7 @@ import java.util.*;
 public class Venomoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Venomoth(int dex) {
         super(dex, "Venomoth",
-                Type.PSYCHIC,Type.POISON,
+                Type.PSYCHIC, Type.POISON,
                 new Stats(70,
                         65,
                         60,

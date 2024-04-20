@@ -8,7 +8,7 @@ import java.util.*;
 public class Stormandra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stormandra() {
         super("Stormandra",
-                Type.DRAGON,Type.ELECTRIC,
+                Type.DRAGON, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

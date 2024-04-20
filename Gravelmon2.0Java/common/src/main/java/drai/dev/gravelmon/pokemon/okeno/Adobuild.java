@@ -6,7 +6,7 @@ import java.util.*;
 public class Adobuild extends drai.dev.gravelmon.pokemon.Pokemon {
     public Adobuild() {
         super("Adobuild",
-                Type.GROUND,Type.ROCK,
+                Type.GROUND, Type.ROCK,
                 new Stats(90,
                         100,
                         100,

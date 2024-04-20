@@ -58,7 +58,7 @@ import java.util.*;
 public class Kaisaos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kaisaos() {
         super("Kaisaos",
-                Type.DARK,Type.PSYCHIC,
+                Type.DARK, Type.PSYCHIC,
                 new Stats(95,
                         115,
                         110,

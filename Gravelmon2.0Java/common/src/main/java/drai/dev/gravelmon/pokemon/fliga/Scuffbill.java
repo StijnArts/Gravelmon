@@ -58,7 +58,7 @@ import java.util.*;
 public class Scuffbill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scuffbill() {
         super("Scuffbill",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(45,
                         65,
                         35,

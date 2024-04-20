@@ -7,7 +7,7 @@ import java.util.*;
 public class Berswade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Berswade() {
         super("Berswade",
-                Type.WATER,Type.FIGHTING,
+                Type.WATER, Type.FIGHTING,
                 new Stats(76,
                         86,
                         61,

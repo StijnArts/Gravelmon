@@ -58,7 +58,7 @@ import java.util.*;
 public class DireMiralis extends drai.dev.gravelmon.pokemon.Pokemon {
     public DireMiralis() {
         super("DireMiralis",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

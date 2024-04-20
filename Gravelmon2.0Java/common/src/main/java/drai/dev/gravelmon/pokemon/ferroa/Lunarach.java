@@ -7,7 +7,7 @@ import java.util.*;
 public class Lunarach extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lunarach() {
         super("Lunarach",
-                Type.PSYCHIC,Type.BUG,
+                Type.PSYCHIC, Type.BUG,
                 new Stats(70,
                         100,
                         65,

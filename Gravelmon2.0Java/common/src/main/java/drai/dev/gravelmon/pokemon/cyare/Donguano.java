@@ -58,7 +58,7 @@ import java.util.*;
 public class Donguano extends drai.dev.gravelmon.pokemon.Pokemon {
     public Donguano() {
         super("Donguano",
-                Type.FIGHTING,Type.ROCK,
+                Type.FIGHTING, Type.ROCK,
                 new Stats(105,
                         96,
                         110,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Ladivy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ladivy() {
         super("Ladivy",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,
                         0,

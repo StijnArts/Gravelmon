@@ -9,7 +9,7 @@ import java.util.*;
 public class Steelke extends drai.dev.gravelmon.pokemon.Pokemon {
     public Steelke() {
         super("Steelke",
-                Type.NORMAL,Type.STEEL,
+                Type.NORMAL, Type.STEEL,
                 new Stats(85,
                         80,
                         95,

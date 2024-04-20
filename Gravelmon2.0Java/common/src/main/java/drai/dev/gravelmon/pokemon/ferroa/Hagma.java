@@ -7,7 +7,7 @@ import java.util.*;
 public class Hagma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hagma() {
         super("Hagma",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(55,
                         40,
                         45,

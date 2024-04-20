@@ -58,7 +58,7 @@ import java.util.*;
 public class Fowlest extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fowlest() {
         super("Fowlest",
-                Type.DRAGON,Type.POISON,
+                Type.DRAGON, Type.POISON,
                 new Stats(0,
                         0,
                         0,

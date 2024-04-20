@@ -58,7 +58,7 @@ import java.util.*;
 public class Talkoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Talkoo() {
         super("Talkoo",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(40,
                         50,
                         35,

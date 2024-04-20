@@ -58,7 +58,7 @@ import java.util.*;
 public class Shockter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shockter() {
         super("Shockter",
-                Type.ELECTRIC,Type.GHOST,
+                Type.ELECTRIC, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

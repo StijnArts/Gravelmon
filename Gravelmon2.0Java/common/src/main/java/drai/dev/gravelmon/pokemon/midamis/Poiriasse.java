@@ -9,7 +9,7 @@ import java.util.*;
 public class Poiriasse extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poiriasse() {
         super("Poiriasse",
-                Type.ICE,Type.POISON,
+                Type.ICE, Type.POISON,
                 new Stats(80,
                         90,
                         70,

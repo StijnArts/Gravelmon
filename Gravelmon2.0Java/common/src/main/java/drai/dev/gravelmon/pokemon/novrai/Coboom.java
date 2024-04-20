@@ -7,7 +7,7 @@ import java.util.*;
 public class Coboom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coboom() {
         super("Coboom",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(70,
                         139,
                         68,

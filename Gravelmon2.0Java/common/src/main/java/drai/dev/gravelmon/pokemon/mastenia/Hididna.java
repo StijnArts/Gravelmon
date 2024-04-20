@@ -58,7 +58,7 @@ import java.util.*;
 public class Hididna extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hididna() {
         super("Hididna",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

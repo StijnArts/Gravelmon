@@ -9,7 +9,7 @@ import java.util.*;
 public class Swirrell extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swirrell() {
         super("Swirrell",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(60,
                         76,
                         60,

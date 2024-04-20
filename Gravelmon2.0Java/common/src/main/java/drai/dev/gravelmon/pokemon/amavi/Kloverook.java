@@ -8,7 +8,7 @@ import java.util.*;
 public class Kloverook extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kloverook() {
         super("Kloverook",
-                Type.NORMAL,Type.ROCK,
+                Type.NORMAL, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

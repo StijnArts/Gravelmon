@@ -58,7 +58,7 @@ import java.util.*;
 public class Tecthanic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tecthanic() {
         super("Tecthanic",
-                Type.POISON,Type.GROUND,
+                Type.POISON, Type.GROUND,
                 new Stats(130,
                         80,
                         115,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Bulbasaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bulbasaur(int dex) {
         super(dex, "Bulbasaur",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,
                         0,

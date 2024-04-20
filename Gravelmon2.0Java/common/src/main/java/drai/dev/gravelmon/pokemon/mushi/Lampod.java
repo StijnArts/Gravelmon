@@ -8,7 +8,7 @@ import java.util.*;
 public class Lampod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lampod() {
         super("Lampod",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(63,
                         45,
                         55,

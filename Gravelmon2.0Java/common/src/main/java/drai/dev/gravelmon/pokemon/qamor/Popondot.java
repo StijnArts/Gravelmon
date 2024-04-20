@@ -9,7 +9,7 @@ import java.util.*;
 public class Popondot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Popondot() {
         super("Popondot",
-                Type.PSYCHIC,Type.FAIRY,
+                Type.PSYCHIC, Type.FAIRY,
                 new Stats(101,
                         92,
                         37,

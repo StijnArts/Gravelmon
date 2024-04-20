@@ -7,7 +7,7 @@ import java.util.*;
 public class Shivrr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shivrr() {
         super("Shivrr",
-                Type.ICE,Type.DARK,
+                Type.ICE, Type.DARK,
                 new Stats(36,
                         60,
                         28,

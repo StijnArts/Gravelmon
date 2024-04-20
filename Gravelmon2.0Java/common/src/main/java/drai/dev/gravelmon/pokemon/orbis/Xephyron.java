@@ -58,7 +58,7 @@ import java.util.*;
 public class Xephyron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Xephyron() {
         super("Xephyron",
-                Type.FLYING,Type.DRAGON,
+                Type.FLYING, Type.DRAGON,
                 new Stats(80,
                         95,
                         60,

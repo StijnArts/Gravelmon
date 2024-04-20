@@ -7,7 +7,7 @@ import java.util.*;
 public class Convird extends drai.dev.gravelmon.pokemon.Pokemon {
     public Convird() {
         super("Convird",
-                Type.FLYING,Type.DARK,
+                Type.FLYING, Type.DARK,
                 new Stats(60,
                         120,
                         60,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Vulcanox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vulcanox() {
         super("Vulcanox",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(100,
                         125,
                         145,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sparkatoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sparkatoo() {
         super("Sparkatoo",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

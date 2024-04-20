@@ -6,7 +6,7 @@ import java.util.*;
 public class Tropiguana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tropiguana() {
         super("Tropiguana",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(54,
                         80,
                         80,

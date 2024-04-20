@@ -58,7 +58,7 @@ import java.util.*;
 public class Cerebranch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cerebranch() {
         super("Cerebranch",
-                Type.PSYCHIC,Type.GRASS,
+                Type.PSYCHIC, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Floodle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Floodle() {
         super("Floodle",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(56,
                         45,
                         29,

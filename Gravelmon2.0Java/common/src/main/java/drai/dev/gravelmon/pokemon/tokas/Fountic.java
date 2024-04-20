@@ -58,7 +58,7 @@ import java.util.*;
 public class Fountic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fountic() {
         super("Fountic",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(0,
                         0,
                         0,

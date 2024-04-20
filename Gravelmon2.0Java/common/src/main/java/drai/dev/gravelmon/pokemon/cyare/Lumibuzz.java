@@ -58,7 +58,7 @@ import java.util.*;
 public class Lumibuzz extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumibuzz() {
         super("Lumibuzz",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(135,
                         60,
                         103,

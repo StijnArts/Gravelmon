@@ -58,7 +58,7 @@ import java.util.*;
 public class Elegantus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elegantus() {
         super("Elegantus",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(57,
                         90,
                         95,

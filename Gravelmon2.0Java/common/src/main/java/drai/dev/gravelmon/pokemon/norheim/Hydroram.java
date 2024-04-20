@@ -9,7 +9,7 @@ import java.util.*;
 public class Hydroram extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hydroram() {
         super("Hydroram",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

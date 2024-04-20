@@ -58,7 +58,7 @@ import java.util.*;
 public class Banditake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Banditake() {
         super("Banditake",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

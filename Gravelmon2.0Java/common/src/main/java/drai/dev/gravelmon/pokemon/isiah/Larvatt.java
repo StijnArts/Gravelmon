@@ -7,7 +7,7 @@ import java.util.*;
 public class Larvatt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larvatt() {
         super("Larvatt",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

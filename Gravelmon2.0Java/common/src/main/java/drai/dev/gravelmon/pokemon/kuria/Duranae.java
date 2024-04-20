@@ -58,7 +58,7 @@ import java.util.*;
 public class Duranae extends drai.dev.gravelmon.pokemon.Pokemon {
     public Duranae() {
         super("Duranae",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(60,
                         75,
                         60,

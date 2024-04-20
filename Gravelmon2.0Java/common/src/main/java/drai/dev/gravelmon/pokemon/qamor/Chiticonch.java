@@ -9,7 +9,7 @@ import java.util.*;
 public class Chiticonch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chiticonch() {
         super("Chiticonch",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(57,
                         69,
                         63,

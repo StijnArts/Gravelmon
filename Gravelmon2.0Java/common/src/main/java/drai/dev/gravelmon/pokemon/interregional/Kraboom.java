@@ -7,7 +7,7 @@ import java.util.*;
 public class Kraboom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kraboom() {
         super("Kraboom",
-                Type.ELECTRIC,Type.FIRE,
+                Type.ELECTRIC, Type.FIRE,
                 new Stats(50,
                         130,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Prismativern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Prismativern() {
         super("Prismativern",
-                Type.FAIRY,Type.DRAGON,
+                Type.FAIRY, Type.DRAGON,
                 new Stats(100,
                         90,
                         90,

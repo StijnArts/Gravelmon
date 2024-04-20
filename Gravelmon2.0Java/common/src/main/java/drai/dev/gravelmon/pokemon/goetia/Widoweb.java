@@ -58,7 +58,7 @@ import java.util.*;
 public class Widoweb extends drai.dev.gravelmon.pokemon.Pokemon {
     public Widoweb() {
         super("Widoweb",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Burrb extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burrb() {
         super("Burrb",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

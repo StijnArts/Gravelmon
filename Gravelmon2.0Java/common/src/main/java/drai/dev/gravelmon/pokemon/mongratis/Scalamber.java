@@ -58,7 +58,7 @@ import java.util.*;
 public class Scalamber extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scalamber() {
         super("Scalamber",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

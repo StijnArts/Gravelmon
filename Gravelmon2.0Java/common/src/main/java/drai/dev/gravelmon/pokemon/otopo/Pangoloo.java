@@ -58,7 +58,7 @@ import java.util.*;
 public class Pangoloo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pangoloo() {
         super("Pangoloo",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(70,
                         30,
                         200,

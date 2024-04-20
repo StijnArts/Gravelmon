@@ -9,7 +9,7 @@ import java.util.*;
 public class Florcoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Florcoon() {
         super("Florcoon",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(45,
                         55,
                         45,

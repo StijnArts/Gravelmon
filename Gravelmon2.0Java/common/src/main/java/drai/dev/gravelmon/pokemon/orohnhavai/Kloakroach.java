@@ -9,7 +9,7 @@ import java.util.*;
 public class Kloakroach extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kloakroach() {
         super("Kloakroach",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(76,
                         70,
                         84,

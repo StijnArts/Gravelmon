@@ -7,7 +7,7 @@ import java.util.*;
 public class Fluttereign extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fluttereign() {
         super("Fluttereign",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(60,
                         50,
                         45,

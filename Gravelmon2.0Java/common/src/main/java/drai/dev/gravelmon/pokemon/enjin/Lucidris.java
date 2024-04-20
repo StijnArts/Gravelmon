@@ -58,7 +58,7 @@ import java.util.*;
 public class Lucidris extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lucidris() {
         super("Lucidris",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(75,
                         45,
                         65,
@@ -73,7 +73,8 @@ public class Lucidris extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.WATER_3),
                 List.of("It entered a dormant state to outsmart the parasite feeding on its brainwaves. Now, the parasite defends Lucidris from predators until it is ready to evolve."),
-                List.of(),
+                List.of(new EvolutionEntry("chlorodra", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"38")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PROTECT,1),
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
@@ -107,14 +108,14 @@ public class Lucidris extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STEAMROLLER,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 24, 36, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Lucidris");
+        setCanBreathUnderwater(true);
 
     }
 

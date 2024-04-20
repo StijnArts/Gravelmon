@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanRattata extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanRattata(int dex) {
         super(dex, "Rattata",
-                Type.NORMAL,Type.DRAGON,
+                Type.NORMAL, Type.DRAGON,
                 new Stats(45,
                         65,
                         48,

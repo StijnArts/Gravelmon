@@ -7,7 +7,7 @@ import java.util.*;
 public class Grenaize extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grenaize() {
         super("Grenaize",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(22,
                         72,
                         30,

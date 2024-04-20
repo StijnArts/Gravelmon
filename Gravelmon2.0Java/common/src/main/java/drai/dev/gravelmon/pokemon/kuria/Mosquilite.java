@@ -58,7 +58,7 @@ import java.util.*;
 public class Mosquilite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mosquilite() {
         super("Mosquilite",
-                Type.BUG,Type.COSMIC,
+                Type.BUG, Type.COSMIC,
                 new Stats(65,
                         106,
                         80,

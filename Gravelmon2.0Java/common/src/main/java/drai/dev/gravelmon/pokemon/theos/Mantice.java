@@ -58,7 +58,7 @@ import java.util.*;
 public class Mantice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mantice() {
         super("Mantice",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(40,
                         80,
                         35,

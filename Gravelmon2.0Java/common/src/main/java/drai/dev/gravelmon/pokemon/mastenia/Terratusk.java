@@ -58,7 +58,7 @@ import java.util.*;
 public class Terratusk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terratusk() {
         super("Terratusk",
-                Type.ROCK,Type.NORMAL,
+                Type.ROCK, Type.NORMAL,
                 new Stats(75,
                         115,
                         120,

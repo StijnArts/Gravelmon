@@ -7,7 +7,7 @@ import java.util.*;
 public class Tessensei extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tessensei() {
         super("Tessensei",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

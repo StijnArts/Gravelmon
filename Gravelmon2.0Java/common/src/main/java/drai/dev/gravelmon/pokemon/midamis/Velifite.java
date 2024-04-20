@@ -9,7 +9,7 @@ import java.util.*;
 public class Velifite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Velifite() {
         super("Velifite",
-                Type.FIGHTING,Type.ROCK,
+                Type.FIGHTING, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

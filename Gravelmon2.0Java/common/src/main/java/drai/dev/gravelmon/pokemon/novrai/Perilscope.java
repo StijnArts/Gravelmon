@@ -7,7 +7,7 @@ import java.util.*;
 public class Perilscope extends drai.dev.gravelmon.pokemon.Pokemon {
     public Perilscope() {
         super("Perilscope",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(110,
                         100,
                         140,

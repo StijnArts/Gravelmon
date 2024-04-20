@@ -58,7 +58,7 @@ import java.util.*;
 public class Palico extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palico() {
         super("Palico",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(80,
                         85,
                         95,

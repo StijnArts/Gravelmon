@@ -7,7 +7,7 @@ import java.util.*;
 public class Serpentidal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Serpentidal() {
         super("Serpentidal",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(77,
                         85,
                         85,

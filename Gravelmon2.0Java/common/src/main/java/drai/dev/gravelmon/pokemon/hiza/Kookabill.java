@@ -7,7 +7,7 @@ import java.util.*;
 public class Kookabill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kookabill() {
         super("Kookabill",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(57,
                         60,
                         77,

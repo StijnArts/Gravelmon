@@ -7,7 +7,7 @@ import java.util.*;
 public class Resufflect extends drai.dev.gravelmon.pokemon.Pokemon {
     public Resufflect() {
         super("Resufflect",
-                Type.STEEL,Type.GHOST,
+                Type.STEEL, Type.GHOST,
                 new Stats(55,
                         115,
                         70,

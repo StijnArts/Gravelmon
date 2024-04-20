@@ -58,7 +58,7 @@ import java.util.*;
 public class Honarchee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Honarchee() {
         super("Honarchee",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(78,
                         113,
                         68,

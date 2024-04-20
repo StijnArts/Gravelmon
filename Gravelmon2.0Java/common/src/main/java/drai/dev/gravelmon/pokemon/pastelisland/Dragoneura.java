@@ -58,7 +58,7 @@ import java.util.*;
 public class Dragoneura extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dragoneura() {
         super("Dragoneura",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(80,
                         78,
                         80,

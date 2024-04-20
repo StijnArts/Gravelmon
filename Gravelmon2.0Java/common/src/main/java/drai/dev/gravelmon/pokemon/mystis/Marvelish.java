@@ -58,7 +58,7 @@ import java.util.*;
 public class Marvelish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marvelish() {
         super("Marvelish",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(130,
                         70,
                         95,

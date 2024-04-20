@@ -58,7 +58,7 @@ import java.util.*;
 public class Chrycirc extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chrycirc() {
         super("Chrycirc",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Coliber extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coliber() {
         super("Coliber",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(35,
                         67,
                         35,

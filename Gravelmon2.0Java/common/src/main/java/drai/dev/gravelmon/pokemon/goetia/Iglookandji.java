@@ -58,7 +58,7 @@ import java.util.*;
 public class Iglookandji extends drai.dev.gravelmon.pokemon.Pokemon {
     public Iglookandji() {
         super("Iglookandji",
-                Type.ICE,Type.POISON,
+                Type.ICE, Type.POISON,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianGliscor extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianGliscor(int dex) {
         super(dex, "Gliscor",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(75,
                         95,
                         125,

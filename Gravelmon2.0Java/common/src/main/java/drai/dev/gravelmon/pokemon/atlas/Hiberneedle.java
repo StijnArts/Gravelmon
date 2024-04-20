@@ -7,7 +7,7 @@ import java.util.*;
 public class Hiberneedle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hiberneedle() {
         super("Hiberneedle",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(70,
                         101,
                         122,

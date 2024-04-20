@@ -9,7 +9,7 @@ import java.util.*;
 public class Atrocean extends drai.dev.gravelmon.pokemon.Pokemon {
     public Atrocean() {
         super("Atrocean",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(90,
                         105,
                         80,

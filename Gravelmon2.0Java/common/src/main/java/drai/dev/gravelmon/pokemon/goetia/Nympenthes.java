@@ -58,7 +58,7 @@ import java.util.*;
 public class Nympenthes extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nympenthes() {
         super("Nympenthes",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

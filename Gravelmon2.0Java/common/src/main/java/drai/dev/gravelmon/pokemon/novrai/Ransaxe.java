@@ -7,7 +7,7 @@ import java.util.*;
 public class Ransaxe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ransaxe() {
         super("Ransaxe",
-                Type.STEEL,Type.FIGHTING,
+                Type.STEEL, Type.FIGHTING,
                 new Stats(85,
                         105,
                         130,

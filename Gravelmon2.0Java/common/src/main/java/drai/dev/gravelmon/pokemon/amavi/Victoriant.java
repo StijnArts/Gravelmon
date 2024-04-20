@@ -8,7 +8,7 @@ import java.util.*;
 public class Victoriant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Victoriant() {
         super("Victoriant",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(88,
                         44,
                         88,
@@ -17,7 +17,7 @@ public class Victoriant extends drai.dev.gravelmon.pokemon.Pokemon {
                         22),
                 List.of(Ability.COMPOUND_EYES,Ability.COMPETITIVE), Ability.STURDY,
                 7, 263,
-                new Stats(0,0,0,0,2,0), 0,
+                new Stats(0,0,0,0,2,0), 140,
                 0.0,
                 130, ExperienceGroup.ERRATIC,
                 70,

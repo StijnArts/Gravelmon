@@ -58,7 +58,7 @@ import java.util.*;
 public class Unode extends drai.dev.gravelmon.pokemon.Pokemon {
     public Unode() {
         super("Unode",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

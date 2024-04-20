@@ -7,7 +7,7 @@ import java.util.*;
 public class Eiseith extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eiseith() {
         super("Eiseith",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

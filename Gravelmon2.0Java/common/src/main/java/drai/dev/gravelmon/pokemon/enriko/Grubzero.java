@@ -7,7 +7,7 @@ import java.util.*;
 public class Grubzero extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grubzero() {
         super("Grubzero",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(45,
                         60,
                         45,

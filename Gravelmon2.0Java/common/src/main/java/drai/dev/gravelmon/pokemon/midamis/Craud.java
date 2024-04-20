@@ -9,7 +9,7 @@ import java.util.*;
 public class Craud extends drai.dev.gravelmon.pokemon.Pokemon {
     public Craud() {
         super("Craud",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(100,
                         90,
                         195,

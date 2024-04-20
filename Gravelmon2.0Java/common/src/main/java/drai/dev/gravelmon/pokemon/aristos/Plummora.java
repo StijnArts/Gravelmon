@@ -9,7 +9,7 @@ import java.util.*;
 public class Plummora extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plummora() {
         super("Plummora",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(83,
                         55,
                         90,

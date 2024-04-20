@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanSwinub extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanSwinub() {
         super("Swinub",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

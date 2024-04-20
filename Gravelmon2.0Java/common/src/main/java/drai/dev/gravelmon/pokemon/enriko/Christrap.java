@@ -7,7 +7,7 @@ import java.util.*;
 public class Christrap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Christrap() {
         super("Christrap",
-                Type.ICE,Type.POISON,
+                Type.ICE, Type.POISON,
                 new Stats(120,
                         100,
                         65,

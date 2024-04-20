@@ -58,7 +58,7 @@ import java.util.*;
 public class Duraludon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Duraludon(int dex) {
         super(dex, "Duraludon",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(70,
                         95,
                         115,

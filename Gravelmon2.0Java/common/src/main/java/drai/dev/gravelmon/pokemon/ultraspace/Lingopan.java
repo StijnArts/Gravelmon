@@ -58,7 +58,7 @@ import java.util.*;
 public class Lingopan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lingopan() {
         super("Lingopan",
-                Type.ELECTRIC,Type.FAIRY,
+                Type.ELECTRIC, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

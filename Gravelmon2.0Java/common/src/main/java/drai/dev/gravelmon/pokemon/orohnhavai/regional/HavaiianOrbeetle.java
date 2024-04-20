@@ -9,7 +9,7 @@ import java.util.*;
 public class HavaiianOrbeetle extends drai.dev.gravelmon.pokemon.Pokemon {
     public HavaiianOrbeetle() {
         super("Orbeetle",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(60,
                         45,
                         110,

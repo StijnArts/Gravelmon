@@ -9,7 +9,7 @@ import java.util.*;
 public class Granikan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Granikan() {
         super("Granikan",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(70,
                         90,
                         115,

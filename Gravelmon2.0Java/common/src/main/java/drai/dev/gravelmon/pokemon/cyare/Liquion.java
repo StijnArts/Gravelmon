@@ -58,7 +58,7 @@ import java.util.*;
 public class Liquion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Liquion() {
         super("Liquion",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

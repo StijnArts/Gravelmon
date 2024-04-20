@@ -7,7 +7,7 @@ import java.util.*;
 public class Roostegg extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roostegg() {
         super("Roostegg",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(75,
                         111,
                         70,

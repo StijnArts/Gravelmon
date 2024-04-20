@@ -6,7 +6,7 @@ import java.util.*;
 public class OkenianDustar extends drai.dev.gravelmon.pokemon.Pokemon {
     public OkenianDustar(int dex) {
         super(dex, "Dustar",
-                Type.DARK,Type.ROCK,
+                Type.DARK, Type.ROCK,
                 new Stats(40,
                         30,
                         70,

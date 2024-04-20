@@ -9,7 +9,7 @@ import java.util.*;
 public class Freil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Freil() {
         super("Freil",
-                Type.FIRE,Type.FIGHTING,
+                Type.FIRE, Type.FIGHTING,
                 new Stats(100,
                         90,
                         90,

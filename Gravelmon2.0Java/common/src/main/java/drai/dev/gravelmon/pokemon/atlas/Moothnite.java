@@ -7,7 +7,7 @@ import java.util.*;
 public class Moothnite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moothnite() {
         super("Moothnite",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(65,
                         50,
                         73,

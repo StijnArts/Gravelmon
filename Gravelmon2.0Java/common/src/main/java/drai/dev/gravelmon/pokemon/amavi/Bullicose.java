@@ -8,7 +8,7 @@ import java.util.*;
 public class Bullicose extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bullicose() {
         super("Bullicose",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(65,
                         105,
                         90,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Calvakair extends drai.dev.gravelmon.pokemon.Pokemon {
     public Calvakair() {
         super("Calvakair",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

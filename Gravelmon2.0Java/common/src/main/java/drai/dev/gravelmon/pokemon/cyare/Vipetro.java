@@ -58,7 +58,7 @@ import java.util.*;
 public class Vipetro extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vipetro() {
         super("Vipetro",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

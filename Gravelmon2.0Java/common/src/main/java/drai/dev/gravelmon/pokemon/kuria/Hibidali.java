@@ -58,7 +58,7 @@ import java.util.*;
 public class Hibidali extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hibidali() {
         super("Hibidali",
-                Type.GRASS,Type.LIGHT,
+                Type.GRASS, Type.LIGHT,
                 new Stats(90,
                         95,
                         60,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Witherscence extends drai.dev.gravelmon.pokemon.Pokemon {
     public Witherscence() {
         super("Witherscence",
-                Type.PSYCHIC,Type.GRASS,
+                Type.PSYCHIC, Type.GRASS,
                 new Stats(120,
                         50,
                         65,

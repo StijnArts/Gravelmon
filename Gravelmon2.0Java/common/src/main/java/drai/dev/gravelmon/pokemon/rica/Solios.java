@@ -9,7 +9,7 @@ import java.util.*;
 public class Solios extends drai.dev.gravelmon.pokemon.Pokemon {
     public Solios() {
         super("Solios",
-                Type.FIRE,Type.PSYCHIC,
+                Type.FIRE, Type.PSYCHIC,
                 new Stats(100,
                         100,
                         100,

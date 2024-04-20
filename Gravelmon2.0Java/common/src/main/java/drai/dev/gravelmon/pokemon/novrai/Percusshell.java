@@ -7,7 +7,7 @@ import java.util.*;
 public class Percusshell extends drai.dev.gravelmon.pokemon.Pokemon {
     public Percusshell() {
         super("Percusshell",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(96,
                         107,
                         140,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Kerohelion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kerohelion() {
         super("Kerohelion",
-                Type.NORMAL,Type.ROCK,
+                Type.NORMAL, Type.ROCK,
                 new Stats(120,
                         72,
                         84,

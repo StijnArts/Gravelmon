@@ -58,7 +58,7 @@ import java.util.*;
 public class Mabalone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mabalone() {
         super("Mabalone",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

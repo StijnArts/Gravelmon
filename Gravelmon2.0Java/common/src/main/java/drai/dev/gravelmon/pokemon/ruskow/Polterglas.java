@@ -58,7 +58,7 @@ import java.util.*;
 public class Polterglas extends drai.dev.gravelmon.pokemon.Pokemon {
     public Polterglas() {
         super("Polterglas",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

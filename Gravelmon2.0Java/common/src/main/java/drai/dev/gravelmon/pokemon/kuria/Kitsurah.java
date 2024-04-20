@@ -58,7 +58,7 @@ import java.util.*;
 public class Kitsurah extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kitsurah() {
         super("Kitsurah",
-                Type.FIRE,Type.COSMIC,
+                Type.FIRE, Type.COSMIC,
                 new Stats(80,
                         115,
                         80,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Syreist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Syreist() {
         super("Syreist",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(20,
                         60,
                         15,

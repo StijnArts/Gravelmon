@@ -8,7 +8,7 @@ import java.util.*;
 public class Tarpress extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tarpress() {
         super("Tarpress",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(135,
                         102,
                         108,

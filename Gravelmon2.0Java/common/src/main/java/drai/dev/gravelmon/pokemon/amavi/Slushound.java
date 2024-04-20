@@ -17,7 +17,7 @@ public class Slushound extends drai.dev.gravelmon.pokemon.Pokemon {
                         120),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 15, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

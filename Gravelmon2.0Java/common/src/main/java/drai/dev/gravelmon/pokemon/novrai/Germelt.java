@@ -7,7 +7,7 @@ import java.util.*;
 public class Germelt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Germelt() {
         super("Germelt",
-                Type.POISON,Type.ICE,
+                Type.POISON, Type.ICE,
                 new Stats(50,
                         65,
                         65,

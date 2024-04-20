@@ -58,7 +58,7 @@ import java.util.*;
 public class Eyeziant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eyeziant() {
         super("Eyeziant",
-                Type.ICE,Type.GHOST,
+                Type.ICE, Type.GHOST,
                 new Stats(65,
                         95,
                         105,
@@ -72,7 +72,7 @@ public class Eyeziant extends drai.dev.gravelmon.pokemon.Pokemon {
                 173, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.HUMAN_LIKE),
-                List.of("Added Oct 27 2021 Evo line: Complete Origin: Created by JaneJewel for the April 2020 Around The World Fakeathon Day 10 prompt, Nordics"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SPIKE_CANNON,1),
@@ -160,9 +160,9 @@ public class Eyeziant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 26, 57, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

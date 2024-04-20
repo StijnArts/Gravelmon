@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanElectrode extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanElectrode(int dex) {
         super(dex, "Electrode",
-                Type.ELECTRIC,Type.ICE,
+                Type.ELECTRIC, Type.ICE,
                 new Stats(0,
                         0,
                         0,

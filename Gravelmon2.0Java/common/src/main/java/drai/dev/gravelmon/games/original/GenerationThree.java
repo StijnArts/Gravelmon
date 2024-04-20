@@ -5,6 +5,8 @@ import drai.dev.gravelmon.pokemon.aristos.regional.*;
 import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.enjin.regional.*;
+import drai.dev.gravelmon.pokemon.fliga.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
@@ -29,6 +31,23 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new FligianTreecko(252));
+        pokemon.add(new FligianGrovyle(253));
+        pokemon.add(new FligianSceptile(254));
+        pokemon.add(new FligianRalts(280));
+        pokemon.add(new FligianKirlia(281));
+        pokemon.add(new FligianGardevoir(282));
+        pokemon.add(new FligianSlakoth(287));
+        pokemon.add(new FligianVigoroth(288));
+        pokemon.add(new FligianNincada(290));
+        pokemon.add(new FligianDuskull(355));
+        pokemon.add(new FligianDusclops(356));
+
+//        pokemon.add(new EnjinnianElectrike(309));Member of line Not Finished
+//        pokemon.add(new EnjinnianManectric(310));Member of line Not Finished
+
+        pokemon.add(new EnjinnianSableye(302));
+
         pokemon.add(new NeoCacnea(331));
 
         pokemon.add(new NovranHuntail(367));

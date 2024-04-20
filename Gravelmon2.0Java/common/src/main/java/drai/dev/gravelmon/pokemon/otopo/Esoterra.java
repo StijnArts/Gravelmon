@@ -58,7 +58,7 @@ import java.util.*;
 public class Esoterra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Esoterra() {
         super("Esoterra",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(120,
                         60,
                         140,

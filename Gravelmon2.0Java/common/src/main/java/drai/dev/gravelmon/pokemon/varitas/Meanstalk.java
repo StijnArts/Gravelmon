@@ -9,7 +9,7 @@ import java.util.*;
 public class Meanstalk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Meanstalk() {
         super("Meanstalk",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(70,
                         70,
                         50,

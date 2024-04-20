@@ -7,7 +7,7 @@ import java.util.*;
 public class Tobamander extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tobamander() {
         super("Tobamander",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

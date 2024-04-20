@@ -9,7 +9,7 @@ import java.util.*;
 public class Wailwhale extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wailwhale() {
         super("Wailwhale",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

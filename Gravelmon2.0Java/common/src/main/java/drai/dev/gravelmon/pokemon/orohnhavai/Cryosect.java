@@ -9,7 +9,7 @@ import java.util.*;
 public class Cryosect extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cryosect() {
         super("Cryosect",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(60,
                         70,
                         65,

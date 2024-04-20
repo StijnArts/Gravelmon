@@ -17,7 +17,7 @@ public class Echoral extends drai.dev.gravelmon.pokemon.Pokemon {
                         55),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 4, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

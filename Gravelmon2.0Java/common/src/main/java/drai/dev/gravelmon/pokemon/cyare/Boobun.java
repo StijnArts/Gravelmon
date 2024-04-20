@@ -58,7 +58,7 @@ import java.util.*;
 public class Boobun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boobun() {
         super("Boobun",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Ignikid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ignikid() {
         super("Ignikid",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(50,
                         65,
                         45,

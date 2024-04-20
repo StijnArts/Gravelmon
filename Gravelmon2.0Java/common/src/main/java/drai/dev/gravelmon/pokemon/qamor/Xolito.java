@@ -9,7 +9,7 @@ import java.util.*;
 public class Xolito extends drai.dev.gravelmon.pokemon.Pokemon {
     public Xolito() {
         super("Xolito",
-                Type.FAIRY,Type.FIRE,
+                Type.FAIRY, Type.FIRE,
                 new Stats(75,
                         60,
                         50,

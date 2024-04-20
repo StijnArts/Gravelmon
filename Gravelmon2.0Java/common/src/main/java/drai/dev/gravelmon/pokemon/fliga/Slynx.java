@@ -58,7 +58,7 @@ import java.util.*;
 public class Slynx extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slynx() {
         super("Slynx",
-                Type.FIGHTING,Type.NORMAL,
+                Type.FIGHTING, Type.NORMAL,
                 new Stats(67,
                         92,
                         71,

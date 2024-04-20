@@ -6,7 +6,7 @@ import java.util.*;
 public class Nyanyum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nyanyum() {
         super("Nyanyum",
-                Type.FAIRY,Type.NORMAL,
+                Type.FAIRY, Type.NORMAL,
                 new Stats(76,
                         37,
                         37,

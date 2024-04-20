@@ -6,7 +6,7 @@ import java.util.*;
 public class Beetome extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beetome() {
         super("Beetome",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(55,
                         80,
                         100,

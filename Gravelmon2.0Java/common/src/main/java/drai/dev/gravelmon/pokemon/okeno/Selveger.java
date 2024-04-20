@@ -6,7 +6,7 @@ import java.util.*;
 public class Selveger extends drai.dev.gravelmon.pokemon.Pokemon {
     public Selveger() {
         super("Selveger",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(103,
                         127,
                         90,

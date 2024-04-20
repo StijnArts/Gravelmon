@@ -7,7 +7,7 @@ import java.util.*;
 public class Wackyderm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wackyderm() {
         super("Wackyderm",
-                Type.PSYCHIC,Type.GROUND,
+                Type.PSYCHIC, Type.GROUND,
                 new Stats(113,
                         90,
                         109,

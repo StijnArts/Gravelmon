@@ -9,7 +9,7 @@ import java.util.*;
 public class Yeraze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yeraze() {
         super("Yeraze",
-                Type.ICE,Type.FIRE,
+                Type.ICE, Type.FIRE,
                 new Stats(60,
                         65,
                         60,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Odorable extends drai.dev.gravelmon.pokemon.Pokemon {
     public Odorable() {
         super("Odorable",
-                Type.NORMAL,Type.POISON,
+                Type.NORMAL, Type.POISON,
                 new Stats(45,
                         63,
                         40,

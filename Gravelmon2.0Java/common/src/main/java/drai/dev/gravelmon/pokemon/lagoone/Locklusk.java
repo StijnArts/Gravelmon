@@ -58,7 +58,7 @@ import java.util.*;
 public class Locklusk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Locklusk() {
         super("Locklusk",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(50,
                         70,
                         115,

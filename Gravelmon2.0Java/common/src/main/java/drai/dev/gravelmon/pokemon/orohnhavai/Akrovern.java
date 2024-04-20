@@ -9,7 +9,7 @@ import java.util.*;
 public class Akrovern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Akrovern() {
         super("Akrovern",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(90,
                         120,
                         110,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Prawnage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Prawnage() {
         super("Prawnage",
-                Type.DRAGON,Type.FAIRY,
+                Type.DRAGON, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

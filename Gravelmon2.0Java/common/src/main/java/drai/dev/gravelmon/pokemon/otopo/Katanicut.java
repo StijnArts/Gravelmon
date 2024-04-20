@@ -58,7 +58,7 @@ import java.util.*;
 public class Katanicut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Katanicut() {
         super("Katanicut",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(65,
                         95,
                         63,

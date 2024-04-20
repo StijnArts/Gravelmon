@@ -58,7 +58,7 @@ import java.util.*;
 public class ZorahMagdaros extends drai.dev.gravelmon.pokemon.Pokemon {
     public ZorahMagdaros() {
         super("ZorahMagdaros",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(250,
                         70,
                         250,

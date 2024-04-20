@@ -7,7 +7,7 @@ import java.util.*;
 public class Pinguin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pinguin() {
         super("Pinguin",
-                Type.ICE,Type.STEEL,
+                Type.ICE, Type.STEEL,
                 new Stats(85,
                         60,
                         40,

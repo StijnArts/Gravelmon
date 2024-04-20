@@ -6,7 +6,7 @@ import java.util.*;
 public class Troupican extends drai.dev.gravelmon.pokemon.Pokemon {
     public Troupican() {
         super("Troupican",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(80,
                         70,
                         72,

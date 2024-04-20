@@ -7,7 +7,7 @@ import java.util.*;
 public class Stelnova extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stelnova() {
         super("Stelnova",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(90,
                         91,
                         74,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Yamaki extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yamaki() {
         super("Yamaki",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(70,
                         200,
                         70,

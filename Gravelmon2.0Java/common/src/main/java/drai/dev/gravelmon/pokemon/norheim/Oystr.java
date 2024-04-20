@@ -9,7 +9,7 @@ import java.util.*;
 public class Oystr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oystr() {
         super("Oystr",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

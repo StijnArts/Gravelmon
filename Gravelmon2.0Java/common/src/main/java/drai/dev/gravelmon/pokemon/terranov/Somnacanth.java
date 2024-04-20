@@ -58,7 +58,7 @@ import java.util.*;
 public class Somnacanth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Somnacanth() {
         super("Somnacanth",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(0,
                         0,
                         0,

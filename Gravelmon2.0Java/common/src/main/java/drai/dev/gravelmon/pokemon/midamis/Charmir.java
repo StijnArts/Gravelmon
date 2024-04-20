@@ -9,7 +9,7 @@ import java.util.*;
 public class Charmir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Charmir() {
         super("Charmir",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(65,
                         70,
                         85,

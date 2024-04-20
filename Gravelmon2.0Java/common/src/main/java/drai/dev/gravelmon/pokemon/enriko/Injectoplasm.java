@@ -7,7 +7,7 @@ import java.util.*;
 public class Injectoplasm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Injectoplasm() {
         super("Injectoplasm",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(65,
                         100,
                         35,

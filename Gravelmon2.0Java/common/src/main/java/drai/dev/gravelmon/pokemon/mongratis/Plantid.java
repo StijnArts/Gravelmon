@@ -58,7 +58,7 @@ import java.util.*;
 public class Plantid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plantid() {
         super("Plantid",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(45,
                         50,
                         50,

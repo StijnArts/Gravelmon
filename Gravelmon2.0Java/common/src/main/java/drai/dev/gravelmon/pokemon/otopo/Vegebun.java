@@ -58,7 +58,7 @@ import java.util.*;
 public class Vegebun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vegebun() {
         super("Vegebun",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(70,
                         60,
                         90,

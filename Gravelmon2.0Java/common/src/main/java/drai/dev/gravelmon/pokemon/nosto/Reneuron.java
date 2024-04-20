@@ -7,7 +7,7 @@ import java.util.*;
 public class Reneuron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reneuron() {
         super("Reneuron",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(73,
                         49,
                         58,

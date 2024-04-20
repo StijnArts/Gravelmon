@@ -7,7 +7,7 @@ import java.util.*;
 public class Megatherice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Megatherice() {
         super("Megatherice",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(101,
                         121,
                         91,

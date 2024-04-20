@@ -58,7 +58,7 @@ import java.util.*;
 public class Sceptile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sceptile(int dex) {
         super(dex, "Sceptile",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(85,
                         65,
                         65,

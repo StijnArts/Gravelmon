@@ -58,7 +58,7 @@ import java.util.*;
 public class Surskit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Surskit(int dex) {
         super(dex, "Surskit",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(40,
                         30,
                         32,

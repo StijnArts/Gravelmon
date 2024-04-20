@@ -58,7 +58,7 @@ import java.util.*;
 public class Pacemeon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pacemeon() {
         super("Pacemeon",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(130,
                         80,
                         90,

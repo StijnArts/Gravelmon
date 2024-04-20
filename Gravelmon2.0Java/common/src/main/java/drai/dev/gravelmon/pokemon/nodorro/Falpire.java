@@ -58,7 +58,7 @@ import java.util.*;
 public class Falpire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Falpire() {
         super("Falpire",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(70,
                         90,
                         88,

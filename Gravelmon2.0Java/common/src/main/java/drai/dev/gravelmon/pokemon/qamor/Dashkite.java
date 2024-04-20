@@ -9,7 +9,7 @@ import java.util.*;
 public class Dashkite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dashkite() {
         super("Dashkite",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(40,
                         50,
                         36,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Karaggon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Karaggon() {
         super("Karaggon",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(73,
                         90,
                         88,

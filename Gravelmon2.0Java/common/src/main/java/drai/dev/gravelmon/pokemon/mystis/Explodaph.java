@@ -58,7 +58,7 @@ import java.util.*;
 public class Explodaph extends drai.dev.gravelmon.pokemon.Pokemon {
     public Explodaph() {
         super("Explodaph",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(40,
                         93,
                         62,

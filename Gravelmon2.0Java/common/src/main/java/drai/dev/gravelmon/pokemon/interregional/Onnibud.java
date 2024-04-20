@@ -7,7 +7,7 @@ import java.util.*;
 public class Onnibud extends drai.dev.gravelmon.pokemon.Pokemon {
     public Onnibud() {
         super("Onnibud",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(90,
                         75,
                         95,

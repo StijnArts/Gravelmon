@@ -58,7 +58,7 @@ import java.util.*;
 public class Parasquack extends drai.dev.gravelmon.pokemon.Pokemon {
     public Parasquack() {
         super("Parasquack",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

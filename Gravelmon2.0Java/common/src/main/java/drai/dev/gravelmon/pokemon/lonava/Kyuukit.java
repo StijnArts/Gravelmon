@@ -7,7 +7,7 @@ import java.util.*;
 public class Kyuukit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kyuukit() {
         super("Kyuukit",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(45,
                         40,
                         30,

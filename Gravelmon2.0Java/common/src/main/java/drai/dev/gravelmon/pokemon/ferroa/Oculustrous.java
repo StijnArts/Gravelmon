@@ -7,7 +7,7 @@ import java.util.*;
 public class Oculustrous extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oculustrous() {
         super("Oculustrous",
-                Type.PSYCHIC,Type.ROCK,
+                Type.PSYCHIC, Type.ROCK,
                 new Stats(70,
                         80,
                         60,

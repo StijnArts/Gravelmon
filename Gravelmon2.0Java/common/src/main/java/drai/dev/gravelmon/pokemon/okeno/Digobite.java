@@ -6,7 +6,7 @@ import java.util.*;
 public class Digobite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Digobite() {
         super("Digobite",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(32,
                         75,
                         50,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Suryala extends drai.dev.gravelmon.pokemon.Pokemon {
     public Suryala() {
         super("Suryala",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Pyrotile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyrotile() {
         super("Pyrotile",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(36,
                         55,
                         50,

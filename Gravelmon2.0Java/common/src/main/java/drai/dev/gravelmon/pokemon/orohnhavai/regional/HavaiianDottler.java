@@ -9,7 +9,7 @@ import java.util.*;
 public class HavaiianDottler extends drai.dev.gravelmon.pokemon.Pokemon {
     public HavaiianDottler() {
         super("Dottler",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(50,
                         35,
                         80,

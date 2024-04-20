@@ -58,7 +58,7 @@ import java.util.*;
 public class Nepixie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nepixie() {
         super("Nepixie",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

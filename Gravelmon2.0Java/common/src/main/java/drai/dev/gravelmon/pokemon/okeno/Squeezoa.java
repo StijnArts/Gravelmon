@@ -6,7 +6,7 @@ import java.util.*;
 public class Squeezoa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Squeezoa() {
         super("Squeezoa",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(130,
                         64,
                         92,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Spiroll extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spiroll() {
         super("Spiroll",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(62,
                         89,
                         111,

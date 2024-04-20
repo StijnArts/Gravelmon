@@ -6,6 +6,7 @@ import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.fliga.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
@@ -32,6 +33,10 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new FligianParas(46));
+        pokemon.add(new FligianParasect(47));
+        pokemon.add(new FligianChansey(113));
+
         pokemon.add(new NovranSlowpoke(79));
         pokemon.add(new NovranSlowbro(80));
         pokemon.add(new NovranGrimer(88));

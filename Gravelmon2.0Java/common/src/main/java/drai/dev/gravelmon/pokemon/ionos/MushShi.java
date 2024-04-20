@@ -58,7 +58,7 @@ import java.util.*;
 public class MushShi extends drai.dev.gravelmon.pokemon.Pokemon {
     public MushShi() {
         super("MushShi",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

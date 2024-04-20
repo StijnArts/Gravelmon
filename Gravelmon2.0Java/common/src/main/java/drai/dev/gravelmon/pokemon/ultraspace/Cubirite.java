@@ -58,7 +58,7 @@ import java.util.*;
 public class Cubirite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cubirite() {
         super("Cubirite",
-                Type.FIGHTING,Type.ROCK,
+                Type.FIGHTING, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

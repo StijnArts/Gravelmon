@@ -7,7 +7,7 @@ import java.util.*;
 public class Purrth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Purrth() {
         super("Purrth",
-                Type.DRAGON,Type.BUG,
+                Type.DRAGON, Type.BUG,
                 new Stats(40,
                         60,
                         55,

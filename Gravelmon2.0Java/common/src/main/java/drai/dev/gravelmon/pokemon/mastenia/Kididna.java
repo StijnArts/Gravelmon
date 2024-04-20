@@ -58,7 +58,7 @@ import java.util.*;
 public class Kididna extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kididna() {
         super("Kididna",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

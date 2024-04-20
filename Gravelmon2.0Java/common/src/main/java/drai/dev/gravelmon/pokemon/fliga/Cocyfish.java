@@ -58,7 +58,7 @@ import java.util.*;
 public class Cocyfish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cocyfish() {
         super("Cocyfish",
-                Type.DARK,Type.DRAGON,
+                Type.DARK, Type.DRAGON,
                 new Stats(108,
                         63,
                         93,

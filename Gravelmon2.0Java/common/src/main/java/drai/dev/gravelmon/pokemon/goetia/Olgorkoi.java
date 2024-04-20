@@ -58,7 +58,7 @@ import java.util.*;
 public class Olgorkoi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Olgorkoi() {
         super("Olgorkoi",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(0,
                         0,
                         0,

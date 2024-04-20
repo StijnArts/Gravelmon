@@ -9,7 +9,7 @@ import java.util.*;
 public class Emii extends drai.dev.gravelmon.pokemon.Pokemon {
     public Emii() {
         super("Emii",
-                Type.FAIRY,Type.DARK,
+                Type.FAIRY, Type.DARK,
                 new Stats(88,
                         95,
                         85,

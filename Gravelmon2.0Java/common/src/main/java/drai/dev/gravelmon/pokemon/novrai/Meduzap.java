@@ -7,7 +7,7 @@ import java.util.*;
 public class Meduzap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Meduzap() {
         super("Meduzap",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(61,
                         31,
                         42,

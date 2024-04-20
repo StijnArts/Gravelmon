@@ -7,7 +7,7 @@ import java.util.*;
 public class Vivantis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vivantis() {
         super("Vivantis",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(85,
                         85,
                         105,

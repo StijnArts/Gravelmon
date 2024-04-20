@@ -9,7 +9,7 @@ import java.util.*;
 public class Ciguapo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ciguapo() {
         super("Ciguapo",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(45,
                         55,
                         45,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Boltbat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boltbat() {
         super("Boltbat",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

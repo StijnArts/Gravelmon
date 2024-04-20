@@ -58,7 +58,7 @@ import java.util.*;
 public class Felinshii extends drai.dev.gravelmon.pokemon.Pokemon {
     public Felinshii() {
         super("Felinshii",
-                Type.GHOST,Type.FIGHTING,
+                Type.GHOST, Type.FIGHTING,
                 new Stats(82,
                         110,
                         62,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Pengerupt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pengerupt() {
         super("Pengerupt",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(90,
                         80,
                         91,

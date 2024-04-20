@@ -9,7 +9,7 @@ import java.util.*;
 public class Terradobe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terradobe() {
         super("Terradobe",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(88,
                         68,
                         120,

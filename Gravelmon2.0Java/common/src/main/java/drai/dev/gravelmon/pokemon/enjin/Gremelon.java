@@ -58,7 +58,7 @@ import java.util.*;
 public class Gremelon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gremelon() {
         super("Gremelon",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(55,
                         90,
                         60,

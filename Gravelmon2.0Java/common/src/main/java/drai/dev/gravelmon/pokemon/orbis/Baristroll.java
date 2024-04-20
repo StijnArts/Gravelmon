@@ -58,7 +58,7 @@ import java.util.*;
 public class Baristroll extends drai.dev.gravelmon.pokemon.Pokemon {
     public Baristroll() {
         super("Baristroll",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(85,
                         85,
                         85,

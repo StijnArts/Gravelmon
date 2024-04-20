@@ -8,7 +8,7 @@ import java.util.*;
 public class Pupod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pupod() {
         super("Pupod",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(0,
                         0,
                         0,

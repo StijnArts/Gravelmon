@@ -58,7 +58,7 @@ import java.util.*;
 public class Lumedi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumedi() {
         super("Lumedi",
-                Type.ELECTRIC,Type.FAIRY,
+                Type.ELECTRIC, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

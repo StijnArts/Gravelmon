@@ -7,7 +7,7 @@ import java.util.*;
 public class Cycrush extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cycrush() {
         super("Cycrush",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(68,
                         85,
                         120,

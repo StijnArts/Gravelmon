@@ -7,7 +7,7 @@ import java.util.*;
 public class Beanormous extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beanormous() {
         super("Beanormous",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(90,
                         80,
                         85,

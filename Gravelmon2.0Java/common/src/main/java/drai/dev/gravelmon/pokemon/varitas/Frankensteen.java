@@ -9,7 +9,7 @@ import java.util.*;
 public class Frankensteen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frankensteen() {
         super("Frankensteen",
-                Type.GHOST,Type.BUG,
+                Type.GHOST, Type.BUG,
                 new Stats(72,
                         120,
                         98,

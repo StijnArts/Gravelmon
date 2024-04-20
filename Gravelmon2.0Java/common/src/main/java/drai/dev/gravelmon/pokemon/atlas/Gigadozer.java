@@ -7,7 +7,7 @@ import java.util.*;
 public class Gigadozer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gigadozer() {
         super("Gigadozer",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(95,
                         138,
                         105,

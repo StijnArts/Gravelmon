@@ -58,7 +58,7 @@ import java.util.*;
 public class Mortoise extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mortoise() {
         super("Mortoise",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

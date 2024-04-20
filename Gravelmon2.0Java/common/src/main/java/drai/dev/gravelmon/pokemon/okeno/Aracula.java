@@ -6,7 +6,7 @@ import java.util.*;
 public class Aracula extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aracula() {
         super("Aracula",
-                Type.GHOST,Type.BUG,
+                Type.GHOST, Type.BUG,
                 new Stats(0,
                         0,
                         0,

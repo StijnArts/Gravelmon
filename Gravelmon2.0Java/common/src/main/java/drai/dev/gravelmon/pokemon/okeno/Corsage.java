@@ -6,7 +6,7 @@ import java.util.*;
 public class Corsage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Corsage() {
         super("Rose",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(77,
                         71,
                         120,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Volthroe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Volthroe() {
         super("Volthroe",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(65,
                         105,
                         50,

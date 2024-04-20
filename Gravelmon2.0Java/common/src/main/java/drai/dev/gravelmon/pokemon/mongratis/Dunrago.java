@@ -58,7 +58,7 @@ import java.util.*;
 public class Dunrago extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dunrago() {
         super("Dunrago",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

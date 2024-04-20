@@ -9,7 +9,7 @@ import java.util.*;
 public class Drazephir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drazephir() {
         super("Drazephir",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(80,
                         120,
                         80,

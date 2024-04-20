@@ -7,7 +7,7 @@ import java.util.*;
 public class Azatome extends drai.dev.gravelmon.pokemon.Pokemon {
     public Azatome() {
         super("Azatome",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(75,
                         60,
                         100,

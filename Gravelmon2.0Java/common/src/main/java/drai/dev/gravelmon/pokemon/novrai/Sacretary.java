@@ -7,7 +7,7 @@ import java.util.*;
 public class Sacretary extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sacretary() {
         super("Sacretary",
-                Type.DRAGON,Type.FIGHTING,
+                Type.DRAGON, Type.FIGHTING,
                 new Stats(73,
                         92,
                         63,

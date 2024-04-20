@@ -58,7 +58,7 @@ import java.util.*;
 public class Zaptor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zaptor() {
         super("Zaptor",
-                Type.ELECTRIC,Type.DRAGON,
+                Type.ELECTRIC, Type.DRAGON,
                 new Stats(65,
                         65,
                         55,

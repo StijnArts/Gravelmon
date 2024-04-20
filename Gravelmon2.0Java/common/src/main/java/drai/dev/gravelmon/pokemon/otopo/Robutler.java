@@ -58,7 +58,7 @@ import java.util.*;
 public class Robutler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Robutler() {
         super("Robutler",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(35,
                         25,
                         70,

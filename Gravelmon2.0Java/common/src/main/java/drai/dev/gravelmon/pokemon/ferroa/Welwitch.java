@@ -7,7 +7,7 @@ import java.util.*;
 public class Welwitch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Welwitch() {
         super("Welwitch",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(65,
                         60,
                         96,

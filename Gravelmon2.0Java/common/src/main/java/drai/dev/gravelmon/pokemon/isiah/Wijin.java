@@ -7,7 +7,7 @@ import java.util.*;
 public class Wijin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wijin() {
         super("Wijin",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

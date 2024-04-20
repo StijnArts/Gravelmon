@@ -58,7 +58,7 @@ import java.util.*;
 public class Zapupa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zapupa() {
         super("Zapupa",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

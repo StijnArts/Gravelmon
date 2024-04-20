@@ -58,7 +58,7 @@ import java.util.*;
 public class Yoppa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yoppa() {
         super("Yoppa",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(51,
                         39,
                         91,

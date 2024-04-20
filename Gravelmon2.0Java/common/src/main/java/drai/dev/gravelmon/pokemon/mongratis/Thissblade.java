@@ -58,7 +58,7 @@ import java.util.*;
 public class Thissblade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thissblade() {
         super("Thissblade",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

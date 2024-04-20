@@ -58,7 +58,7 @@ import java.util.*;
 public class Ramparent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ramparent() {
         super("Ramparent",
-                Type.NORMAL,Type.STEEL,
+                Type.NORMAL, Type.STEEL,
                 new Stats(70,
                         110,
                         110,

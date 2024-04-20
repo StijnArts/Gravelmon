@@ -7,7 +7,7 @@ import java.util.*;
 public class Tadpunk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tadpunk() {
         super("Tadpunk",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(50,
                         65,
                         35,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Candhoul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Candhoul() {
         super("Candhoul",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(60,
                         50,
                         65,

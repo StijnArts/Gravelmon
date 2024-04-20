@@ -58,7 +58,7 @@ import java.util.*;
 public class Vampeka extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vampeka() {
         super("Vampeka",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

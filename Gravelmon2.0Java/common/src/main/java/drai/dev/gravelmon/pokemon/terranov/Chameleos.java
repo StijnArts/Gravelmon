@@ -58,7 +58,7 @@ import java.util.*;
 public class Chameleos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chameleos() {
         super("Chameleos",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

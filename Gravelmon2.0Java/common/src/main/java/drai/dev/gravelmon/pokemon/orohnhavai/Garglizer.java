@@ -9,7 +9,7 @@ import java.util.*;
 public class Garglizer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Garglizer() {
         super("Garglizer",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(80,
                         120,
                         100,

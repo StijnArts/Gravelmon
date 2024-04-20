@@ -58,7 +58,7 @@ import java.util.*;
 public class Leonet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leonet() {
         super("Leonet",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

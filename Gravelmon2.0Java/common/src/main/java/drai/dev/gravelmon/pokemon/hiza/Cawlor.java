@@ -7,7 +7,7 @@ import java.util.*;
 public class Cawlor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cawlor() {
         super("Cawlor",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(50,
                         70,
                         50,

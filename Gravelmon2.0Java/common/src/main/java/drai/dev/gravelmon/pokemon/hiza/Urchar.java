@@ -7,7 +7,7 @@ import java.util.*;
 public class Urchar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Urchar() {
         super("Urchar",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(72,
                         90,
                         131,

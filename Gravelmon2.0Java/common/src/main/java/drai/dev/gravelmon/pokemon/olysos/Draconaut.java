@@ -58,7 +58,7 @@ import java.util.*;
 public class Draconaut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Draconaut() {
         super("Draconaut",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(45,
                         40,
                         50,

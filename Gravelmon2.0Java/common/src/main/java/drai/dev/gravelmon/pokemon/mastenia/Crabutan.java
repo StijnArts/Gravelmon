@@ -58,7 +58,7 @@ import java.util.*;
 public class Crabutan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crabutan() {
         super("Crabutan",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(73,
                         117,
                         90,

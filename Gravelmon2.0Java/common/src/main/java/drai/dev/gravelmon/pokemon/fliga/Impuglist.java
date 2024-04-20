@@ -58,7 +58,7 @@ import java.util.*;
 public class Impuglist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impuglist() {
         super("Impuglist",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(48,
                         90,
                         59,

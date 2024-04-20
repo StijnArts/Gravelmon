@@ -7,7 +7,7 @@ import java.util.*;
 public class AFleezer extends drai.dev.gravelmon.pokemon.Pokemon {
     public AFleezer() {
         super("AFleezer",
-                Type.ICE,Type.ELECTRIC,
+                Type.ICE, Type.ELECTRIC,
                 new Stats(75,
                         95,
                         55,

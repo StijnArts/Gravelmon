@@ -7,7 +7,7 @@ import java.util.*;
 public class Metrognome extends drai.dev.gravelmon.pokemon.Pokemon {
     public Metrognome() {
         super("Metrognome",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(55,
                         55,
                         35,

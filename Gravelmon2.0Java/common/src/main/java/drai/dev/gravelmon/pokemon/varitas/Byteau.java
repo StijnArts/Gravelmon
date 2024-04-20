@@ -9,7 +9,7 @@ import java.util.*;
 public class Byteau extends drai.dev.gravelmon.pokemon.Pokemon {
     public Byteau() {
         super("Byteau",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(0,
                         0,
                         0,

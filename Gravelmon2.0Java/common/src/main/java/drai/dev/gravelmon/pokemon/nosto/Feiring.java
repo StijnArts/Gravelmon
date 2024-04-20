@@ -7,7 +7,7 @@ import java.util.*;
 public class Feiring extends drai.dev.gravelmon.pokemon.Pokemon {
     public Feiring() {
         super("Feiring",
-                Type.FAIRY,Type.STEEL,
+                Type.FAIRY, Type.STEEL,
                 new Stats(51,
                         23,
                         40,

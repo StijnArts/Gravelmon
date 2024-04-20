@@ -58,7 +58,7 @@ import java.util.*;
 public class Artikit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Artikit() {
         super("Artikit",
-                Type.ROCK,Type.ICE,
+                Type.ROCK, Type.ICE,
                 new Stats(0,
                         0,
                         0,

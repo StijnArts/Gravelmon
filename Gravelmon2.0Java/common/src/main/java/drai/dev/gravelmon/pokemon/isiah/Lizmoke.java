@@ -7,7 +7,7 @@ import java.util.*;
 public class Lizmoke extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lizmoke() {
         super("Lizmoke",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(50,
                         80,
                         50,

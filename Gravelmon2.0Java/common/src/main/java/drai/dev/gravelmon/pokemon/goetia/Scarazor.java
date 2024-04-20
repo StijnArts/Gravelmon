@@ -58,7 +58,7 @@ import java.util.*;
 public class Scarazor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scarazor() {
         super("Scarazor",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

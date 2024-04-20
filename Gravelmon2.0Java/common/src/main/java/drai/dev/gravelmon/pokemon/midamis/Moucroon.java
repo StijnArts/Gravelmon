@@ -9,7 +9,7 @@ import java.util.*;
 public class Moucroon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moucroon() {
         super("Moucroon",
-                Type.FIGHTING,Type.GROUND,
+                Type.FIGHTING, Type.GROUND,
                 new Stats(80,
                         130,
                         65,

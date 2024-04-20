@@ -6,7 +6,7 @@ import java.util.*;
 public class Escagou extends drai.dev.gravelmon.pokemon.Pokemon {
     public Escagou() {
         super("Escagou",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(70,
                         70,
                         116,

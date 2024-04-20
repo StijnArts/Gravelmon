@@ -7,7 +7,7 @@ import java.util.*;
 public class Amplifly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amplifly() {
         super("Amplifly",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(110,
                         66,
                         55,

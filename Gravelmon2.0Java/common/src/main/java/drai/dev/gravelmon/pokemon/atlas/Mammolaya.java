@@ -13,7 +13,7 @@ import java.util.*;
 public class Mammolaya extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mammolaya() {
         super("Mammolaya",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(115,
                         140,
                         90,

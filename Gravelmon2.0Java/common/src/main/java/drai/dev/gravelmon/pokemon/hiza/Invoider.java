@@ -7,7 +7,7 @@ import java.util.*;
 public class Invoider extends drai.dev.gravelmon.pokemon.Pokemon {
     public Invoider() {
         super("Invoider",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(70,
                         60,
                         70,

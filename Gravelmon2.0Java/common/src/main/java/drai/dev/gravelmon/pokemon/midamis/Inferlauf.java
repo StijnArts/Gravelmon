@@ -9,7 +9,7 @@ import java.util.*;
 public class Inferlauf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Inferlauf() {
         super("Inferlauf",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(95,
                         75,
                         120,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Drakuleech extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drakuleech() {
         super("Drakuleech",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(60,
                         55,
                         75,

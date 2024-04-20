@@ -58,7 +58,7 @@ import java.util.*;
 public class Spikish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spikish() {
         super("Spikish",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

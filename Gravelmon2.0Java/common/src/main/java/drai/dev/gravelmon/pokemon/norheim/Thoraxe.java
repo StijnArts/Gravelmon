@@ -9,7 +9,7 @@ import java.util.*;
 public class Thoraxe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thoraxe() {
         super("Thoraxe",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

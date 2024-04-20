@@ -58,7 +58,7 @@ import java.util.*;
 public class Gulpy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gulpy() {
         super("Gulpy",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

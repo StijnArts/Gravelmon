@@ -7,7 +7,7 @@ import java.util.*;
 public class Noxight extends drai.dev.gravelmon.pokemon.Pokemon {
     public Noxight() {
         super("Noxight",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(120,
                         40,
                         40,

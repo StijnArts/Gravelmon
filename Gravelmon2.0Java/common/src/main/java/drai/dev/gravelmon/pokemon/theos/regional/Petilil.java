@@ -58,7 +58,7 @@ import java.util.*;
 public class Petilil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Petilil(int dex) {
         super(dex, "Petilil",
-                Type.GRASS,Type.ICE,
+                Type.GRASS, Type.ICE,
                 new Stats(45,
                         35,
                         50,

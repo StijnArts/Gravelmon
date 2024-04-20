@@ -7,7 +7,7 @@ import java.util.*;
 public class Whalpool extends drai.dev.gravelmon.pokemon.Pokemon {
     public Whalpool() {
         super("Whalpool",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(120,
                         75,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Tuffettry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tuffettry() {
         super("Tuffettry",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

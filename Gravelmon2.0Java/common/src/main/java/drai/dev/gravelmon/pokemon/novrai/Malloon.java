@@ -7,7 +7,7 @@ import java.util.*;
 public class Malloon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Malloon() {
         super("Malloon",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(83,
                         86,
                         35,

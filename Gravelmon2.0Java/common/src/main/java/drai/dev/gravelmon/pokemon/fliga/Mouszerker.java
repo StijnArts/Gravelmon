@@ -58,7 +58,7 @@ import java.util.*;
 public class Mouszerker extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mouszerker() {
         super("Mouszerker",
-                Type.FAIRY,Type.STEEL,
+                Type.FAIRY, Type.STEEL,
                 new Stats(133,
                         107,
                         81,

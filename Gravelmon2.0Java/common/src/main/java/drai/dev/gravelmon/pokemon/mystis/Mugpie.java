@@ -58,7 +58,7 @@ import java.util.*;
 public class Mugpie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mugpie() {
         super("Mugpie",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(80,
                         90,
                         60,

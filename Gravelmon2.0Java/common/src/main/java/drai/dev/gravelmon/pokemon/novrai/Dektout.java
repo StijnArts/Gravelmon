@@ -7,7 +7,7 @@ import java.util.*;
 public class Dektout extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dektout() {
         super("Dektout",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(65,
                         65,
                         65,

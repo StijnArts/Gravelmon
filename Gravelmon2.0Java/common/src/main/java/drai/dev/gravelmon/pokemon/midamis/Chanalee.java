@@ -9,7 +9,7 @@ import java.util.*;
 public class Chanalee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chanalee() {
         super("Chanalee",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(70,
                         80,
                         55,

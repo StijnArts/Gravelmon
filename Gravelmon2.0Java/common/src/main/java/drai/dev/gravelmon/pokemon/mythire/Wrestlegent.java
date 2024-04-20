@@ -7,7 +7,7 @@ import java.util.*;
 public class Wrestlegent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wrestlegent() {
         super("Wrestlegent",
-                Type.FIGHTING,Type.FAIRY,
+                Type.FIGHTING, Type.FAIRY,
                 new Stats(60,
                         75,
                         120,

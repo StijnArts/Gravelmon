@@ -58,7 +58,7 @@ import java.util.*;
 public class Helsteteri extends drai.dev.gravelmon.pokemon.Pokemon {
     public Helsteteri() {
         super("Helsteteri",
-                Type.FIGHTING,Type.DARK,
+                Type.FIGHTING, Type.DARK,
                 new Stats(82,
                         102,
                         77,

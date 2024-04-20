@@ -58,7 +58,7 @@ import java.util.*;
 public class Flowerbed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flowerbed() {
         super("Flowerbed",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(90,
                         70,
                         100,

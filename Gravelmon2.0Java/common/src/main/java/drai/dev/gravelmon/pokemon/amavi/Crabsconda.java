@@ -8,7 +8,7 @@ import java.util.*;
 public class Crabsconda extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crabsconda() {
         super("Crabsconda",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(100,
                         65,
                         70,
@@ -17,7 +17,7 @@ public class Crabsconda extends drai.dev.gravelmon.pokemon.Pokemon {
                         62),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 13, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 140,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

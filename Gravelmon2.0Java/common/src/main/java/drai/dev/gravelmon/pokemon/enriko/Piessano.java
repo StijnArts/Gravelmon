@@ -7,7 +7,7 @@ import java.util.*;
 public class Piessano extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piessano() {
         super("Piessano",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sproutot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sproutot() {
         super("Sproutot",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,
                         0,

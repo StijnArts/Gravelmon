@@ -7,7 +7,7 @@ import java.util.*;
 public class Conedian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conedian() {
         super("Conedian",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

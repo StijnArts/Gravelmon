@@ -9,7 +9,7 @@ import java.util.*;
 public class Jollibird extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jollibird() {
         super("Jollibird",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

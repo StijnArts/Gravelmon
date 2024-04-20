@@ -11,7 +11,7 @@ import java.util.*;
 public class Chiquail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chiquail() {
         super("Chiquail",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(66,
                         53,
                         42,

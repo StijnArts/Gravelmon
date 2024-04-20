@@ -9,7 +9,7 @@ import java.util.*;
 public class HavaiianExeggcute extends drai.dev.gravelmon.pokemon.Pokemon {
     public HavaiianExeggcute() {
         super("Exeggcute",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(45,
                         40,
                         80,

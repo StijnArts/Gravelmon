@@ -58,7 +58,7 @@ import java.util.*;
 public class Sennitoad extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sennitoad() {
         super("Sennitoad",
-                Type.WATER,Type.SOUND,
+                Type.WATER, Type.SOUND,
                 new Stats(84,
                         73,
                         92,

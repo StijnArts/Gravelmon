@@ -58,7 +58,7 @@ import java.util.*;
 public class Briarasp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Briarasp() {
         super("Briarasp",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

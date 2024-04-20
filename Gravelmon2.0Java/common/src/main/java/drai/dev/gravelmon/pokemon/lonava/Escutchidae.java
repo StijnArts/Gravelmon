@@ -7,7 +7,7 @@ import java.util.*;
 public class Escutchidae extends drai.dev.gravelmon.pokemon.Pokemon {
     public Escutchidae() {
         super("Escutchidae",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

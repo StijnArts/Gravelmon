@@ -7,7 +7,7 @@ import java.util.*;
 public class Glumbrella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glumbrella() {
         super("Glumbrella",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(50,
                         40,
                         45,

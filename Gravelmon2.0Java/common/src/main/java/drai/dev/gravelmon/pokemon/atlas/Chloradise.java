@@ -7,7 +7,7 @@ import java.util.*;
 public class Chloradise extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chloradise() {
         super("Chloradise",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(70,
                         110,
                         80,

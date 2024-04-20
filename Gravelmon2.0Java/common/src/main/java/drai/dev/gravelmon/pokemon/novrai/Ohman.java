@@ -7,7 +7,7 @@ import java.util.*;
 public class Ohman extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ohman() {
         super("Ohman",
-                Type.ELECTRIC,Type.FAIRY,
+                Type.ELECTRIC, Type.FAIRY,
                 new Stats(40,
                         35,
                         30,

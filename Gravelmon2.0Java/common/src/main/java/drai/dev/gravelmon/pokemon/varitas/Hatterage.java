@@ -9,7 +9,7 @@ import java.util.*;
 public class Hatterage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hatterage() {
         super("Hatterage",
-                Type.PSYCHIC,Type.GROUND,
+                Type.PSYCHIC, Type.GROUND,
                 new Stats(57,
                         90,
                         95,

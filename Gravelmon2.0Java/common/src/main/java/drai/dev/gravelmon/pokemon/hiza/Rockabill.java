@@ -7,7 +7,7 @@ import java.util.*;
 public class Rockabill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rockabill() {
         super("Rockabill",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(68,
                         113,
                         101,

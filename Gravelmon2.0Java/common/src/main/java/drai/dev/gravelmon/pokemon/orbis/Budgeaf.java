@@ -58,7 +58,7 @@ import java.util.*;
 public class Budgeaf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Budgeaf() {
         super("Budgeaf",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(52,
                         55,
                         40,

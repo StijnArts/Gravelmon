@@ -58,7 +58,7 @@ import java.util.*;
 public class Scarambi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scarambi() {
         super("Scarambi",
-                Type.DARK,Type.BUG,
+                Type.DARK, Type.BUG,
                 new Stats(0,
                         0,
                         0,

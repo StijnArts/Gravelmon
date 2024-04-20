@@ -58,7 +58,7 @@ import java.util.*;
 public class Troublweed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Troublweed() {
         super("Troublweed",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Palmfiend extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palmfiend() {
         super("Palmfiend",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(69,
                         71,
                         90,

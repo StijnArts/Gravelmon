@@ -9,7 +9,7 @@ import java.util.*;
 public class Yoikid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yoikid() {
         super("Yoikid",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

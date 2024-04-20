@@ -58,7 +58,7 @@ import java.util.*;
 public class Blizerpent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blizerpent() {
         super("Blizerpent",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(80,
                         80,
                         85,

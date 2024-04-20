@@ -58,7 +58,7 @@ import java.util.*;
 public class Mallocolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mallocolt() {
         super("Mallocolt",
-                Type.FAIRY,Type.NORMAL,
+                Type.FAIRY, Type.NORMAL,
                 new Stats(58,
                         65,
                         60,

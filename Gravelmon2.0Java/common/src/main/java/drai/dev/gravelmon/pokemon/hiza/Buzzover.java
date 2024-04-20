@@ -7,7 +7,7 @@ import java.util.*;
 public class Buzzover extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buzzover() {
         super("Buzzover",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(60,
                         50,
                         50,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sqworm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sqworm() {
         super("Sqworm",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(40,
                         50,
                         40,

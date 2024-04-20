@@ -58,7 +58,7 @@ import java.util.*;
 public class Trojaraffe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trojaraffe() {
         super("Trojaraffe",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

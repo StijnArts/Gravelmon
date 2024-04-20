@@ -58,7 +58,7 @@ import java.util.*;
 public class Costanut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Costanut() {
         super("Costanut",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(40,
                         75,
                         70,

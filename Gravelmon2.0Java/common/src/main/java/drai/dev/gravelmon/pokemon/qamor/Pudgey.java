@@ -9,7 +9,7 @@ import java.util.*;
 public class Pudgey extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pudgey() {
         super("Pudgey",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(100,
                         45,
                         75,

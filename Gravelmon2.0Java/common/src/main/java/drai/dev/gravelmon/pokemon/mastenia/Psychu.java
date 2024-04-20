@@ -58,7 +58,7 @@ import java.util.*;
 public class Psychu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psychu() {
         super("Psychu",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

@@ -13,7 +13,7 @@ import java.util.*;
 public class Territore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Territore() {
         super("Territore",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(66,
                         80,
                         53,

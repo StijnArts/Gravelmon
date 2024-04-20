@@ -58,7 +58,7 @@ import java.util.*;
 public class Monferno extends drai.dev.gravelmon.pokemon.Pokemon {
     public Monferno(int dex) {
         super(dex, "Monferno",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(65,
                         93,
                         55,

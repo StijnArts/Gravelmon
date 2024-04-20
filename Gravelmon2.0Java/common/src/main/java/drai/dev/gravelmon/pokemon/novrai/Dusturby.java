@@ -7,7 +7,7 @@ import java.util.*;
 public class Dusturby extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dusturby() {
         super("Dusturby",
-                Type.NORMAL,Type.DARK,
+                Type.NORMAL, Type.DARK,
                 new Stats(66,
                         101,
                         58,

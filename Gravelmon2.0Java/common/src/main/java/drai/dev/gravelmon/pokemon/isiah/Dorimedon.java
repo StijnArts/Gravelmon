@@ -7,7 +7,7 @@ import java.util.*;
 public class Dorimedon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dorimedon() {
         super("Dorimedon",
-                Type.PSYCHIC,Type.STEEL,
+                Type.PSYCHIC, Type.STEEL,
                 new Stats(70,
                         80,
                         70,

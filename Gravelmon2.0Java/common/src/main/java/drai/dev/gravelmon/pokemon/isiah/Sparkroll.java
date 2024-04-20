@@ -7,7 +7,7 @@ import java.util.*;
 public class Sparkroll extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sparkroll() {
         super("Sparkroll",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

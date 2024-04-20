@@ -58,7 +58,7 @@ import java.util.*;
 public class Glowva extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glowva() {
         super("Glowva",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(55,
                         30,
                         25,

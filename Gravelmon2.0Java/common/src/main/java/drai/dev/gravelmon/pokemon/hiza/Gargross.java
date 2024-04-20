@@ -7,7 +7,7 @@ import java.util.*;
 public class Gargross extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gargross() {
         super("Gargross",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(40,
                         55,
                         85,

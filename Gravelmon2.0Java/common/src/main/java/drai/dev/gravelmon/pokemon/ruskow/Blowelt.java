@@ -58,7 +58,7 @@ import java.util.*;
 public class Blowelt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blowelt() {
         super("Blowelt",
-                Type.STEEL,Type.FIRE,
+                Type.STEEL, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

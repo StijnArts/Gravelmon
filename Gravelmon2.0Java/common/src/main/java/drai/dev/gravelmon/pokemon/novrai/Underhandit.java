@@ -7,7 +7,7 @@ import java.util.*;
 public class Underhandit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Underhandit() {
         super("Underhandit",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(67,
                         133,
                         73,

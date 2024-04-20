@@ -9,7 +9,7 @@ import java.util.*;
 public class Causit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Causit() {
         super("Causit",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(40,
                         50,
                         40,

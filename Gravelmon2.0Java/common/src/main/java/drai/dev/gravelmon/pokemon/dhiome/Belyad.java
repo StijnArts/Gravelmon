@@ -8,7 +8,7 @@ import java.util.*;
 public class Belyad extends drai.dev.gravelmon.pokemon.Pokemon {
     public Belyad() {
         super("Belyad",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanMismagius extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanMismagius() {
         super("Mismagius",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

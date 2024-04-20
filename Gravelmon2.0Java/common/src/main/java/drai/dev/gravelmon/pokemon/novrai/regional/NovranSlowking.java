@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranSlowking extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranSlowking(int id) {
         super(id, "Slowking",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(95,
                         100,
                         80,

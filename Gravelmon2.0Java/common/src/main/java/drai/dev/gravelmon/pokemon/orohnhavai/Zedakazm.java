@@ -9,7 +9,7 @@ import java.util.*;
 public class Zedakazm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zedakazm() {
         super("Zedakazm",
-                Type.DARK,Type.GHOST,
+                Type.DARK, Type.GHOST,
                 new Stats(120,
                         150,
                         90,

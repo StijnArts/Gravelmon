@@ -58,7 +58,7 @@ import java.util.*;
 public class Orilepi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Orilepi() {
         super("Orilepi",
-                Type.BUG,Type.NORMAL,
+                Type.BUG, Type.NORMAL,
                 new Stats(65,
                         90,
                         45,

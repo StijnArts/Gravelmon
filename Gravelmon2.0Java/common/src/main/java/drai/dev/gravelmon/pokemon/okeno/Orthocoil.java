@@ -6,7 +6,7 @@ import java.util.*;
 public class Orthocoil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Orthocoil() {
         super("Orthocoil",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(40,
                         43,
                         91,

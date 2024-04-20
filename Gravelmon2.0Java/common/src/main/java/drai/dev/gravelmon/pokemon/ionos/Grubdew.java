@@ -58,7 +58,7 @@ import java.util.*;
 public class Grubdew extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grubdew() {
         super("Grubdew",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(30,
                         49,
                         50,

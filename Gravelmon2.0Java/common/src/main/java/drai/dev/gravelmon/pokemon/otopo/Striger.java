@@ -58,7 +58,7 @@ import java.util.*;
 public class Striger extends drai.dev.gravelmon.pokemon.Pokemon {
     public Striger() {
         super("Striger",
-                Type.WATER,Type.FIGHTING,
+                Type.WATER, Type.FIGHTING,
                 new Stats(85,
                         120,
                         85,

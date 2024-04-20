@@ -7,7 +7,7 @@ import java.util.*;
 public class Dryath extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dryath() {
         super("Dryath",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(50,
                         65,
                         50,

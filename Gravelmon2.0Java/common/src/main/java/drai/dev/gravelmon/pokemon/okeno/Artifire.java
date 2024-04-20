@@ -6,7 +6,7 @@ import java.util.*;
 public class Artifire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Artifire() {
         super("Artifire",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(35,
                         96,
                         35,

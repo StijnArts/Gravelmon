@@ -58,7 +58,7 @@ import java.util.*;
 public class Brambazard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brambazard() {
         super("Brambazard",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,
                         0,

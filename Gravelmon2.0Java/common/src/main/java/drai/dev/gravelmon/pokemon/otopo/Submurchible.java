@@ -58,7 +58,7 @@ import java.util.*;
 public class Submurchible extends drai.dev.gravelmon.pokemon.Pokemon {
     public Submurchible() {
         super("Submurchible",
-                Type.ICE,Type.FIRE,
+                Type.ICE, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

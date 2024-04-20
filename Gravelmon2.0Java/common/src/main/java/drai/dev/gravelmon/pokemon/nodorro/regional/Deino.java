@@ -58,7 +58,7 @@ import java.util.*;
 public class Deino extends drai.dev.gravelmon.pokemon.Pokemon {
     public Deino(int dex) {
         super(dex, "Deino",
-                Type.DARK,Type.DRAGON,
+                Type.DARK, Type.DRAGON,
                 new Stats(52,
                         65,
                         50,

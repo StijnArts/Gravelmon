@@ -58,7 +58,7 @@ import java.util.*;
 public class DaimyoHermitaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public DaimyoHermitaur() {
         super("DaimyoHermitaur",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(85,
                         60,
                         120,

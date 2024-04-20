@@ -58,7 +58,7 @@ import java.util.*;
 public class MrMind extends drai.dev.gravelmon.pokemon.Pokemon {
     public MrMind() {
         super("MrMind",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

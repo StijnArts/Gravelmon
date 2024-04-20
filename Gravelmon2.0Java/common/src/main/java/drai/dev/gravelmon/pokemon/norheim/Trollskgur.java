@@ -9,7 +9,7 @@ import java.util.*;
 public class Trollskgur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trollskgur() {
         super("Trollskgur",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(120,
                         80,
                         70,

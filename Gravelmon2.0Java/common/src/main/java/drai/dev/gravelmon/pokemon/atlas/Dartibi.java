@@ -7,7 +7,7 @@ import java.util.*;
 public class Dartibi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dartibi() {
         super("Dartibi",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(43,
                         70,
                         65,

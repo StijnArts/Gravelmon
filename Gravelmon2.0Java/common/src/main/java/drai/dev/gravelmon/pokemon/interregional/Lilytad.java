@@ -7,7 +7,7 @@ import java.util.*;
 public class Lilytad extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lilytad() {
         super("Lilytad",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

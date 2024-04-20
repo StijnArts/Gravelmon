@@ -58,7 +58,7 @@ import java.util.*;
 public class Nimbusk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nimbusk() {
         super("Nimbusk",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(84,
                         110,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Tarnavis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tarnavis() {
         super("Tarnavis",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(170,
                         80,
                         61,

@@ -58,7 +58,7 @@ import java.util.*;
 public class krakuid extends drai.dev.gravelmon.pokemon.Pokemon {
     public krakuid() {
         super("krakuid",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(135,
                         80,
                         60,

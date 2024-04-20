@@ -58,7 +58,7 @@ import java.util.*;
 public class Turbird extends drai.dev.gravelmon.pokemon.Pokemon {
     public Turbird() {
         super("Turbird",
-                Type.FLYING,Type.STEEL,
+                Type.FLYING, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

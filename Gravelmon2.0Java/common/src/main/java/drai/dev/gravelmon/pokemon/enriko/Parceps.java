@@ -7,7 +7,7 @@ import java.util.*;
 public class Parceps extends drai.dev.gravelmon.pokemon.Pokemon {
     public Parceps() {
         super("Parceps",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(75,
                         115,
                         90,

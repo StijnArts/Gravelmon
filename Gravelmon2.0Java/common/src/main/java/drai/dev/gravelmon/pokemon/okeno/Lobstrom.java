@@ -6,7 +6,7 @@ import java.util.*;
 public class Lobstrom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lobstrom() {
         super("Lobstrom",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(76,
                         123,
                         92,

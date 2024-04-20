@@ -6,7 +6,7 @@ import java.util.*;
 public class Ombrella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ombrella() {
         super("Ombrella",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(88,
                         52,
                         52,

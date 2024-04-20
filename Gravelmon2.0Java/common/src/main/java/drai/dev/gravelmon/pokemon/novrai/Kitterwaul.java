@@ -7,7 +7,7 @@ import java.util.*;
 public class Kitterwaul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kitterwaul() {
         super("Kitterwaul",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(41,
                         25,
                         28,

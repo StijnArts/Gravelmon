@@ -8,7 +8,7 @@ import java.util.*;
 public class Lulloon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lulloon() {
         super("Lulloon",
-                Type.FLYING,Type.NORMAL,
+                Type.FLYING, Type.NORMAL,
                 new Stats(50,
                         30,
                         50,
@@ -17,7 +17,7 @@ public class Lulloon extends drai.dev.gravelmon.pokemon.Pokemon {
                         50),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 3, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

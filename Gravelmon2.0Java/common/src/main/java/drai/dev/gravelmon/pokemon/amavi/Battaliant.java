@@ -8,7 +8,7 @@ import java.util.*;
 public class Battaliant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Battaliant() {
         super("Battaliant",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(58,
                         110,
                         79,
@@ -17,7 +17,7 @@ public class Battaliant extends drai.dev.gravelmon.pokemon.Pokemon {
                         59),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 7, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 140,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

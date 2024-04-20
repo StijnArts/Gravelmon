@@ -58,7 +58,7 @@ import java.util.*;
 public class Laelupus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Laelupus() {
         super("Laelupus",
-                Type.FIGHTING,Type.DARK,
+                Type.FIGHTING, Type.DARK,
                 new Stats(64,
                         70,
                         40,

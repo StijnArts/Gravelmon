@@ -58,7 +58,7 @@ import java.util.*;
 public class Khaheena extends drai.dev.gravelmon.pokemon.Pokemon {
     public Khaheena() {
         super("Khaheena",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(79,
                         100,
                         88,

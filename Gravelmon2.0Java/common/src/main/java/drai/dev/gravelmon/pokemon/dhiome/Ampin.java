@@ -8,7 +8,7 @@ import java.util.*;
 public class Ampin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ampin() {
         super("Ampin",
-                Type.GROUND,Type.ELECTRIC,
+                Type.GROUND, Type.ELECTRIC,
                 new Stats(50,
                         70,
                         40,

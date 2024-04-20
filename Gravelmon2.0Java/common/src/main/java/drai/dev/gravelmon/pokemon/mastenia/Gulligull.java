@@ -58,7 +58,7 @@ import java.util.*;
 public class Gulligull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gulligull() {
         super("Gulligull",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

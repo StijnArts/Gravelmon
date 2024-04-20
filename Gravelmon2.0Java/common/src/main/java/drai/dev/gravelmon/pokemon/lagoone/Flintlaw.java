@@ -58,7 +58,7 @@ import java.util.*;
 public class Flintlaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flintlaw() {
         super("Flintlaw",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(40,
                         70,
                         60,

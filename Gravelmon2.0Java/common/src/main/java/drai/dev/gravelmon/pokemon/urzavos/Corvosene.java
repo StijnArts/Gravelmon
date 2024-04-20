@@ -58,7 +58,7 @@ import java.util.*;
 public class Corvosene extends drai.dev.gravelmon.pokemon.Pokemon {
     public Corvosene() {
         super("Corvosene",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

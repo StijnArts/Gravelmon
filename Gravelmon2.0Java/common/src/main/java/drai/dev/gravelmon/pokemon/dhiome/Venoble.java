@@ -8,7 +8,7 @@ import java.util.*;
 public class Venoble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Venoble() {
         super("Venoble",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(75,
                         95,
                         80,

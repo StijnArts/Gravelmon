@@ -6,7 +6,7 @@ import java.util.*;
 public class Oxessory extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oxessory() {
         super("Oxessory",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(70,
                         66,
                         60,

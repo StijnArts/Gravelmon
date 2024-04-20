@@ -58,7 +58,7 @@ import java.util.*;
 public class Crustancient extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crustancient() {
         super("Crustancient",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

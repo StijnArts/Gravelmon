@@ -58,7 +58,7 @@ import java.util.*;
 public class Paolumu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paolumu() {
         super("Paolumu",
-                Type.FLYING,Type.FAIRY,
+                Type.FLYING, Type.FAIRY,
                 new Stats(100,
                         75,
                         50,

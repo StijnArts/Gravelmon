@@ -58,7 +58,7 @@ import java.util.*;
 public class Beedazzle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beedazzle() {
         super("Beedazzle",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Cosmite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cosmite() {
         super("Cosmite",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(65,
                         40,
                         90,

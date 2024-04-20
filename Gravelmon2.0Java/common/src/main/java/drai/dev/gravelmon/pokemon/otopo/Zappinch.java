@@ -58,7 +58,7 @@ import java.util.*;
 public class Zappinch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zappinch() {
         super("Zappinch",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(40,
                         20,
                         40,

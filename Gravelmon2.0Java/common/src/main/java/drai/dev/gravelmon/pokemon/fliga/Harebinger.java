@@ -58,7 +58,7 @@ import java.util.*;
 public class Harebinger extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harebinger() {
         super("Harebinger",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(81,
                         110,
                         79,

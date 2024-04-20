@@ -7,7 +7,7 @@ import java.util.*;
 public class Kappow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kappow() {
         super("Kappow",
-                Type.NORMAL,Type.FIRE,
+                Type.NORMAL, Type.FIRE,
                 new Stats(70,
                         40,
                         60,

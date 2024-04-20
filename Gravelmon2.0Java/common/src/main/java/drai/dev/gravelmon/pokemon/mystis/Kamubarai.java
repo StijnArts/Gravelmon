@@ -58,7 +58,7 @@ import java.util.*;
 public class Kamubarai extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kamubarai() {
         super("Kamubarai",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(80,
                         105,
                         75,

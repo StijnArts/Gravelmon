@@ -58,7 +58,7 @@ import java.util.*;
 public class Cockapoll extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cockapoll() {
         super("Cockapoll",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

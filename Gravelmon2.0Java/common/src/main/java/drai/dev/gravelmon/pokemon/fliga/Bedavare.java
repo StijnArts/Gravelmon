@@ -58,7 +58,7 @@ import java.util.*;
 public class Bedavare extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bedavare() {
         super("Bedavare",
-                Type.STEEL,Type.NORMAL,
+                Type.STEEL, Type.NORMAL,
                 new Stats(70,
                         80,
                         130,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Marlequin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marlequin() {
         super("Marlequin",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

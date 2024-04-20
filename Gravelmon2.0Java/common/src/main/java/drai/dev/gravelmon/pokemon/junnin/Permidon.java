@@ -11,7 +11,7 @@ import java.util.*;
 public class Permidon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Permidon() {
         super("Permidon",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(72,
                         65,
                         83,

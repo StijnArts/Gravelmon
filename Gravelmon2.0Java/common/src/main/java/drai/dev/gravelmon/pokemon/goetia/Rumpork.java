@@ -58,7 +58,7 @@ import java.util.*;
 public class Rumpork extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rumpork() {
         super("Rumpork",
-                Type.FAIRY,Type.WATER,
+                Type.FAIRY, Type.WATER,
                 new Stats(0,
                         0,
                         0,

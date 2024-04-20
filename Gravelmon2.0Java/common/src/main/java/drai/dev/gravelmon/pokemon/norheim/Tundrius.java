@@ -9,7 +9,7 @@ import java.util.*;
 public class Tundrius extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tundrius() {
         super("Tundrius",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

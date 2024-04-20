@@ -7,7 +7,7 @@ import java.util.*;
 public class Genie2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Genie2() {
         super("Genie2",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

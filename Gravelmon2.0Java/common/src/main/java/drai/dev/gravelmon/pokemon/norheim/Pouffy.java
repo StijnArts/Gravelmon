@@ -9,7 +9,7 @@ import java.util.*;
 public class Pouffy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pouffy() {
         super("Pouffy",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(45,
                         45,
                         35,

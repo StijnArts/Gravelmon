@@ -58,7 +58,7 @@ import java.util.*;
 public class Tidakeet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tidakeet() {
         super("Tidakeet",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(40,
                         35,
                         35,

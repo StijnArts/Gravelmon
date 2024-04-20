@@ -7,7 +7,7 @@ import java.util.*;
 public class Casanauta extends drai.dev.gravelmon.pokemon.Pokemon {
     public Casanauta() {
         super("Casanauta",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(70,
                         100,
                         60,

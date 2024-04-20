@@ -8,7 +8,7 @@ import java.util.*;
 public class Impanzee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impanzee() {
         super("Impanzee",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(70,
                         95,
                         50,
@@ -23,8 +23,8 @@ public class Impanzee extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.HUMAN_LIKE),
                 List.of(""),
-                List.of(new EvolutionEntry("bulbasaur", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
+                List.of(new EvolutionEntry("beelzeboon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),

@@ -58,7 +58,7 @@ import java.util.*;
 public class Fitorfly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fitorfly() {
         super("Fitorfly",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

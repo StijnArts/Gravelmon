@@ -58,7 +58,7 @@ import java.util.*;
 public class Cryosalis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cryosalis() {
         super("Cryosalis",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(0,
                         0,
                         0,

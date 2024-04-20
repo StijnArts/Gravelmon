@@ -4,6 +4,8 @@ import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.aristos.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.enjin.regional.*;
+import drai.dev.gravelmon.pokemon.fliga.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.hub.regional.*;
@@ -11,7 +13,6 @@ import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
-import drai.dev.gravelmon.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
@@ -28,6 +29,13 @@ public class GenerationTwo extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new FligianAipom(190));
+        pokemon.add(new FligianBlissey(242));
+        pokemon.add(new FligianQwilfish(211));
+
+        pokemon.add(new EnjinnianHoothoot(163));
+        pokemon.add(new EnjinnianNoctowl(164));
+
         pokemon.add(new NovranSudowoodo(185));
         pokemon.add(new NovranSlowking(199));
 
@@ -101,8 +109,6 @@ public class GenerationTwo extends Game {
         pokemon.add(new AyreianTotodile(158));
         pokemon.add(new AyreianCroconaw(159));
         pokemon.add(new AyreianFeraligatr(160));
-        pokemon.add(new AyreianHoothoot(163));
-        pokemon.add(new AyreianNoctowl(164));
         pokemon.add(new AyreianSpinarak(167));
         pokemon.add(new AyreianAriados(168));
         pokemon.add(new AyreianStantler(234));

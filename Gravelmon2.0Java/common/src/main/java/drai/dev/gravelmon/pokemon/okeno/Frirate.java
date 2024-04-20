@@ -6,7 +6,7 @@ import java.util.*;
 public class Frirate extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frirate() {
         super("Frirate",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(50,
                         55,
                         36,

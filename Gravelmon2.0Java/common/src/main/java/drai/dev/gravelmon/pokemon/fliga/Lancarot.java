@@ -58,7 +58,7 @@ import java.util.*;
 public class Lancarot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lancarot() {
         super("Lancarot",
-                Type.POISON,Type.FIGHTING,
+                Type.POISON, Type.FIGHTING,
                 new Stats(100,
                         130,
                         80,

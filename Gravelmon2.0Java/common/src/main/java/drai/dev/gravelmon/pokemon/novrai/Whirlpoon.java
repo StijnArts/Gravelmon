@@ -7,7 +7,7 @@ import java.util.*;
 public class Whirlpoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Whirlpoon() {
         super("Whirlpoon",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(58,
                         46,
                         99,

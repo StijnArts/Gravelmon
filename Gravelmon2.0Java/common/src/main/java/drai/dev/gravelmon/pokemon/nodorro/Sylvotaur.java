@@ -58,7 +58,7 @@ import java.util.*;
 public class Sylvotaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sylvotaur() {
         super("Sylvotaur",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(85,
                         130,
                         120,

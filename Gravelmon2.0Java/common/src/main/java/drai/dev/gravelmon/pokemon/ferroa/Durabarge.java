@@ -7,7 +7,7 @@ import java.util.*;
 public class Durabarge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Durabarge() {
         super("Durabarge",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(60,
                         70,
                         105,

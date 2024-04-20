@@ -7,7 +7,7 @@ import java.util.*;
 public class Psyder extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psyder() {
         super("Psyder",
-                Type.PSYCHIC,Type.BUG,
+                Type.PSYCHIC, Type.BUG,
                 new Stats(50,
                         60,
                         45,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Flamupet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flamupet() {
         super("Flamupet",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(50,
                         20,
                         35,

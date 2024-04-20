@@ -58,7 +58,7 @@ import java.util.*;
 public class Quetsun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quetsun() {
         super("Quetsun",
-                Type.FLYING,Type.DRAGON,
+                Type.FLYING, Type.DRAGON,
                 new Stats(100,
                         130,
                         70,

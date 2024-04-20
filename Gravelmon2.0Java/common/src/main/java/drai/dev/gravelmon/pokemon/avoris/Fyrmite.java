@@ -13,7 +13,7 @@ import java.util.*;
 public class Fyrmite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fyrmite() {
         super("Fyrmite",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

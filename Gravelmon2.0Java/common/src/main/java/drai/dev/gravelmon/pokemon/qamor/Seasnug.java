@@ -9,7 +9,7 @@ import java.util.*;
 public class Seasnug extends drai.dev.gravelmon.pokemon.Pokemon {
     public Seasnug() {
         super("Seasnug",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(74,
                         34,
                         48,

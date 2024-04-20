@@ -58,7 +58,7 @@ import java.util.*;
 public class Pinzineedl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pinzineedl() {
         super("Pinzineedl",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

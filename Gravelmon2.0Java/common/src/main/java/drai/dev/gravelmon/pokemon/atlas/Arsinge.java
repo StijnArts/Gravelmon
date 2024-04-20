@@ -9,7 +9,7 @@ import java.util.*;
 public class Arsinge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arsinge() {
         super("Arsinge",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(70,
                         70,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Hazarachi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hazarachi() {
         super("Hazarachi",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(97,
                         90,
                         108,

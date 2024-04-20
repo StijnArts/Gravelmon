@@ -58,7 +58,7 @@ import java.util.*;
 public class Arthuriac extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arthuriac() {
         super("Arthuriac",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(110,
                         125,
                         150,

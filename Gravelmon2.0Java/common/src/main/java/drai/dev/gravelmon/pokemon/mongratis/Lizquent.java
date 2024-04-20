@@ -58,7 +58,7 @@ import java.util.*;
 public class Lizquent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lizquent() {
         super("Lizquent",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(60,
                         120,
                         60,

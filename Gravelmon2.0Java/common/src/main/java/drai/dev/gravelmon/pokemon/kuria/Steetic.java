@@ -58,7 +58,7 @@ import java.util.*;
 public class Steetic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Steetic() {
         super("Steetic",
-                Type.NORMAL,Type.ELECTRIC,
+                Type.NORMAL, Type.ELECTRIC,
                 new Stats(40,
                         65,
                         40,

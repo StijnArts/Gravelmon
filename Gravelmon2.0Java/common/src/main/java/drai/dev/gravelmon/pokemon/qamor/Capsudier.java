@@ -9,7 +9,7 @@ import java.util.*;
 public class Capsudier extends drai.dev.gravelmon.pokemon.Pokemon {
     public Capsudier() {
         super("Capsudier",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(63,
                         25,
                         60,

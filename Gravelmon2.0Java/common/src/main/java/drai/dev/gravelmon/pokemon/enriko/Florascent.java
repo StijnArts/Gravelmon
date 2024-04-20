@@ -7,7 +7,7 @@ import java.util.*;
 public class Florascent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Florascent() {
         super("Florascent",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(115,
                         125,
                         105,

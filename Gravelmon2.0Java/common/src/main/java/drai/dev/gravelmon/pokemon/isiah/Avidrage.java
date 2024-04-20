@@ -7,7 +7,7 @@ import java.util.*;
 public class Avidrage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Avidrage() {
         super("Avidrage",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

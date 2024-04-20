@@ -7,7 +7,7 @@ import java.util.*;
 public class Horrifluff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Horrifluff() {
         super("Horrifluff",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(70,
                         114,
                         65,

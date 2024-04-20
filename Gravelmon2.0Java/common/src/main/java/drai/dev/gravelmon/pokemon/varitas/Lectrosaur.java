@@ -9,7 +9,7 @@ import java.util.*;
 public class Lectrosaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lectrosaur() {
         super("Lectrosaur",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(70,
                         95,
                         50,

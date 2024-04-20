@@ -58,7 +58,7 @@ import java.util.*;
 public class Slugcus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slugcus() {
         super("Slugcus",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Floette extends drai.dev.gravelmon.pokemon.Pokemon {
     public Floette(int dex) {
         super(dex, "Floette",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(54,
                         45,
                         47,

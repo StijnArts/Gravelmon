@@ -7,7 +7,7 @@ import java.util.*;
 public class Catastropod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Catastropod() {
         super("Catastropod",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(105,
                         140,
                         105,

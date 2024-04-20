@@ -58,7 +58,7 @@ import java.util.*;
 public class Subyss extends drai.dev.gravelmon.pokemon.Pokemon {
     public Subyss() {
         super("Subyss",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Balloonga extends drai.dev.gravelmon.pokemon.Pokemon {
     public Balloonga() {
         super("Balloonga",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(55,
                         55,
                         55,

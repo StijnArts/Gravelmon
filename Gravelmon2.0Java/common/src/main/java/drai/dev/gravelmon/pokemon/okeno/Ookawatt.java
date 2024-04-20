@@ -6,7 +6,7 @@ import java.util.*;
 public class Ookawatt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ookawatt() {
         super("Ookawatt",
-                Type.ELECTRIC,Type.WATER,
+                Type.ELECTRIC, Type.WATER,
                 new Stats(54,
                         86,
                         55,

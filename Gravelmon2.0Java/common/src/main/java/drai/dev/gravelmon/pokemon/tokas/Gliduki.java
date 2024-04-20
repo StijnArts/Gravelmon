@@ -58,7 +58,7 @@ import java.util.*;
 public class Gliduki extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gliduki() {
         super("Gliduki",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

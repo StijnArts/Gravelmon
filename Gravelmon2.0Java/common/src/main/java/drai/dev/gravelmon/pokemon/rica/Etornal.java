@@ -9,7 +9,7 @@ import java.util.*;
 public class Etornal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Etornal() {
         super("Etornal",
-                Type.GHOST,Type.ROCK,
+                Type.GHOST, Type.ROCK,
                 new Stats(95,
                         55,
                         140,

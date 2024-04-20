@@ -58,7 +58,7 @@ import java.util.*;
 public class Cocoolite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cocoolite() {
         super("Cocoolite",
-                Type.BUG,Type.COSMIC,
+                Type.BUG, Type.COSMIC,
                 new Stats(55,
                         40,
                         90,

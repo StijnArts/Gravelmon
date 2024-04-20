@@ -9,7 +9,7 @@ import java.util.*;
 public class Valkryce extends drai.dev.gravelmon.pokemon.Pokemon {
     public Valkryce() {
         super("Valkryce",
-                Type.ICE,Type.ELECTRIC,
+                Type.ICE, Type.ELECTRIC,
                 new Stats(78,
                         50,
                         67,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Forbiddron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Forbiddron() {
         super("Forbiddron",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

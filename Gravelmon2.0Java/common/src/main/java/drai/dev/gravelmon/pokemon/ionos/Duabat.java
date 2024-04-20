@@ -58,7 +58,7 @@ import java.util.*;
 public class Duabat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Duabat() {
         super("Duabat",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

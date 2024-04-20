@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanWailmer extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanWailmer(int dex) {
         super(dex, "Wailmer",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

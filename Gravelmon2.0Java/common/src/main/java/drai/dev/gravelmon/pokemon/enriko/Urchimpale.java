@@ -7,7 +7,7 @@ import java.util.*;
 public class Urchimpale extends drai.dev.gravelmon.pokemon.Pokemon {
     public Urchimpale() {
         super("Urchimpale",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(60,
                         120,
                         100,

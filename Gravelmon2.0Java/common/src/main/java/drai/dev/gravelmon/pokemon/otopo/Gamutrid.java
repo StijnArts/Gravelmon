@@ -58,7 +58,7 @@ import java.util.*;
 public class Gamutrid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gamutrid() {
         super("Gamutrid",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(80,
                         90,
                         90,

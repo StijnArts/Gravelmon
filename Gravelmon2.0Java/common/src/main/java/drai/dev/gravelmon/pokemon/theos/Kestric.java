@@ -58,7 +58,7 @@ import java.util.*;
 public class Kestric extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kestric() {
         super("Kestric",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(60,
                         75,
                         55,

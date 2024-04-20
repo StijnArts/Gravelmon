@@ -7,7 +7,7 @@ import java.util.*;
 public class Unseelium extends drai.dev.gravelmon.pokemon.Pokemon {
     public Unseelium() {
         super("Unseelium",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

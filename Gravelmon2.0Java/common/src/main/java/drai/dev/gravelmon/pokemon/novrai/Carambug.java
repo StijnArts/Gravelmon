@@ -7,7 +7,7 @@ import java.util.*;
 public class Carambug extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carambug() {
         super("Carambug",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(71,
                         64,
                         113,

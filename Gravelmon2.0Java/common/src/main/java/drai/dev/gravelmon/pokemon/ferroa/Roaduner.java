@@ -7,7 +7,7 @@ import java.util.*;
 public class Roaduner extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roaduner() {
         super("Roaduner",
-                Type.FLYING,Type.GROUND,
+                Type.FLYING, Type.GROUND,
                 new Stats(75,
                         100,
                         65,

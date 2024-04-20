@@ -58,7 +58,7 @@ import java.util.*;
 public class Tasmaniac extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tasmaniac() {
         super("Tasmaniac",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(70,
                         80,
                         70,

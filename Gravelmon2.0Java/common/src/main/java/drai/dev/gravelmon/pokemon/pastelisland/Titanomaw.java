@@ -58,7 +58,7 @@ import java.util.*;
 public class Titanomaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Titanomaw() {
         super("Titanomaw",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(60,
                         80,
                         80,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Figurina extends drai.dev.gravelmon.pokemon.Pokemon {
     public Figurina() {
         super("Figurina",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

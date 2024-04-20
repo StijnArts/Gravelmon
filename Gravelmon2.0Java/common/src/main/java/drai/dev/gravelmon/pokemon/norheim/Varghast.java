@@ -9,7 +9,7 @@ import java.util.*;
 public class Varghast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Varghast() {
         super("Varghast",
-                Type.FAIRY,Type.DARK,
+                Type.FAIRY, Type.DARK,
                 new Stats(78,
                         117,
                         80,

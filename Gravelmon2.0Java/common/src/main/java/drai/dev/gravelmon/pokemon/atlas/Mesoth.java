@@ -7,7 +7,7 @@ import java.util.*;
 public class Mesoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mesoth() {
         super("Mesoth",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(72,
                         81,
                         65,

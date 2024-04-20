@@ -9,7 +9,7 @@ import java.util.*;
 public class Voltapir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Voltapir() {
         super("Voltapir",
-                Type.GROUND,Type.ELECTRIC,
+                Type.GROUND, Type.ELECTRIC,
                 new Stats(115,
                         96,
                         70,

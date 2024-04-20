@@ -7,7 +7,7 @@ import java.util.*;
 public class Miserachnid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Miserachnid() {
         super("Miserachnid",
-                Type.DRAGON,Type.BUG,
+                Type.DRAGON, Type.BUG,
                 new Stats(90,
                         130,
                         115,

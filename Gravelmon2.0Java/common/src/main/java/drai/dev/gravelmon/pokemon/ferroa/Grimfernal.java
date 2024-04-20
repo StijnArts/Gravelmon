@@ -7,7 +7,7 @@ import java.util.*;
 public class Grimfernal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grimfernal() {
         super("Grimfernal",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(80,
                         80,
                         65,

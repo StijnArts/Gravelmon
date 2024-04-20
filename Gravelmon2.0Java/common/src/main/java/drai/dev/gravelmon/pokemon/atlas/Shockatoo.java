@@ -7,7 +7,7 @@ import java.util.*;
 public class Shockatoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shockatoo() {
         super("Shockatoo",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(60,
                         72,
                         55,

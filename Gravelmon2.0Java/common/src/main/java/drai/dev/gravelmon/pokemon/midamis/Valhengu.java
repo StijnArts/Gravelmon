@@ -9,7 +9,7 @@ import java.util.*;
 public class Valhengu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Valhengu() {
         super("Valhengu",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

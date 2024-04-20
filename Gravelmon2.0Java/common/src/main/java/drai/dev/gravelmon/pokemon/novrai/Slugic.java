@@ -7,7 +7,7 @@ import java.util.*;
 public class Slugic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slugic() {
         super("Slugic",
-                Type.PSYCHIC,Type.POISON,
+                Type.PSYCHIC, Type.POISON,
                 new Stats(41,
                         28,
                         51,

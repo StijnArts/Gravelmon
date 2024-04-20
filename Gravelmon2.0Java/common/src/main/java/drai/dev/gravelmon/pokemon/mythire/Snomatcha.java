@@ -7,7 +7,7 @@ import java.util.*;
 public class Snomatcha extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snomatcha() {
         super("Snomatcha",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(140,
                         50,
                         40,

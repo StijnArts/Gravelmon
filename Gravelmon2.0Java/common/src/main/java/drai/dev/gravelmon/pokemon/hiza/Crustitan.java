@@ -7,7 +7,7 @@ import java.util.*;
 public class Crustitan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crustitan() {
         super("Crustitan",
-                Type.STEEL,Type.DARK,
+                Type.STEEL, Type.DARK,
                 new Stats(105,
                         110,
                         135,

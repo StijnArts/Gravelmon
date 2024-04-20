@@ -58,7 +58,7 @@ import java.util.*;
 public class Sharcleave extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sharcleave() {
         super("Sharcleave",
-                Type.GRASS,Type.STEEL,
+                Type.GRASS, Type.STEEL,
                 new Stats(82,
                         130,
                         71,

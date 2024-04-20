@@ -9,7 +9,7 @@ import java.util.*;
 public class Netherval extends drai.dev.gravelmon.pokemon.Pokemon {
     public Netherval() {
         super("Netherval",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(90,
                         130,
                         100,

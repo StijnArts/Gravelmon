@@ -58,7 +58,7 @@ import java.util.*;
 public class Pythion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pythion() {
         super("Pythion",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Predageist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Predageist() {
         super("Predageist",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(75,
                         90,
                         65,

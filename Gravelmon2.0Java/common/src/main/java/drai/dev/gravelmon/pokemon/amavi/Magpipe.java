@@ -8,7 +8,7 @@ import java.util.*;
 public class Magpipe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magpipe() {
         super("Magpipe",
-                Type.FLYING,Type.STEEL,
+                Type.FLYING, Type.STEEL,
                 new Stats(100,
                         30,
                         100,
@@ -17,7 +17,7 @@ public class Magpipe extends drai.dev.gravelmon.pokemon.Pokemon {
                         30),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 6, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 160,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

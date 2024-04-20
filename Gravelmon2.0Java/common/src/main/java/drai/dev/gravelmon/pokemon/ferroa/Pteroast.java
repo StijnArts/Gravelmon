@@ -7,7 +7,7 @@ import java.util.*;
 public class Pteroast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pteroast() {
         super("Pteroast",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(40,
                         60,
                         50,

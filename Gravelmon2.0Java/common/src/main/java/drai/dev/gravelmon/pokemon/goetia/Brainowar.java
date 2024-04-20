@@ -58,7 +58,7 @@ import java.util.*;
 public class Brainowar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brainowar() {
         super("Brainowar",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

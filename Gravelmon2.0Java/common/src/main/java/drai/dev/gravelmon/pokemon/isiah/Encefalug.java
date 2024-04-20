@@ -7,7 +7,7 @@ import java.util.*;
 public class Encefalug extends drai.dev.gravelmon.pokemon.Pokemon {
     public Encefalug() {
         super("Encefalug",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(100,
                         50,
                         55,

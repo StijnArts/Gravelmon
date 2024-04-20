@@ -7,7 +7,7 @@ import java.util.*;
 public class Pigid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pigid() {
         super("Pigid",
-                Type.DARK,Type.ICE,
+                Type.DARK, Type.ICE,
                 new Stats(0,
                         0,
                         0,

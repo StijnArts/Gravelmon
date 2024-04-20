@@ -9,7 +9,7 @@ import java.util.*;
 public class Wintweasel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wintweasel() {
         super("Wintweasel",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(88,
                         106,
                         80,

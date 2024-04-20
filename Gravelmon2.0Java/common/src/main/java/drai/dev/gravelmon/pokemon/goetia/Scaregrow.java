@@ -58,7 +58,7 @@ import java.util.*;
 public class Scaregrow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scaregrow() {
         super("Scaregrow",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,
                         0,

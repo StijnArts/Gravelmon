@@ -58,7 +58,7 @@ import java.util.*;
 public class Toxel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toxel(int dex) {
         super(dex, "Toxel",
-                Type.ELECTRIC,Type.POISON,
+                Type.ELECTRIC, Type.POISON,
                 new Stats(40,
                         38,
                         35,

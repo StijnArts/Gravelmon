@@ -58,7 +58,7 @@ import java.util.*;
 public class Mediva extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mediva() {
         super("Mediva",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Flambagant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flambagant() {
         super("Flambagant",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(80,
                         80,
                         65,

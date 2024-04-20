@@ -58,7 +58,7 @@ import java.util.*;
 public class Stoatic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stoatic() {
         super("Stoatic",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(60,
                         55,
                         60,

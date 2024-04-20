@@ -7,7 +7,7 @@ import java.util.*;
 public class Pinecoal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pinecoal() {
         super("Pinecoal",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(50,
                         30,
                         80,

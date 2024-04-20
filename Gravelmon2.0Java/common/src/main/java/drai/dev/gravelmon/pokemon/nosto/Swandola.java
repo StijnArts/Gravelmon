@@ -7,7 +7,7 @@ import java.util.*;
 public class Swandola extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swandola() {
         super("Swandola",
-                Type.NORMAL,Type.WATER,
+                Type.NORMAL, Type.WATER,
                 new Stats(79,
                         75,
                         67,

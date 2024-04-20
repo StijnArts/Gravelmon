@@ -9,7 +9,7 @@ import java.util.*;
 public class Autricee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Autricee() {
         super("Autricee",
-                Type.ELECTRIC,Type.FAIRY,
+                Type.ELECTRIC, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Girafarig extends drai.dev.gravelmon.pokemon.Pokemon {
     public Girafarig(int dex) {
         super(dex, "Girafarig",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(70,
                         80,
                         65,

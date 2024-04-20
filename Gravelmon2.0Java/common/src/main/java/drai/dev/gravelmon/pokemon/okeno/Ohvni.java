@@ -6,7 +6,7 @@ import java.util.*;
 public class Ohvni extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ohvni() {
         super("Ohvni",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(51,
                         70,
                         90,

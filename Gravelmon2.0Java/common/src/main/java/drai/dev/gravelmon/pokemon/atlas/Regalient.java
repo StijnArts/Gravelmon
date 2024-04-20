@@ -7,7 +7,7 @@ import java.util.*;
 public class Regalient extends drai.dev.gravelmon.pokemon.Pokemon {
     public Regalient() {
         super("Regalient",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(85,
                         90,
                         78,

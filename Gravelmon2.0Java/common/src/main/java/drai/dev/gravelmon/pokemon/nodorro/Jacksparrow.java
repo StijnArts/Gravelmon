@@ -58,7 +58,7 @@ import java.util.*;
 public class Jacksparrow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jacksparrow() {
         super("Jacksparrow",
-                Type.STEEL,Type.DARK,
+                Type.STEEL, Type.DARK,
                 new Stats(67,
                         70,
                         94,

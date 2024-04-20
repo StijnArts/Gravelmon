@@ -58,7 +58,7 @@ import java.util.*;
 public class Phantitute extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phantitute() {
         super("Phantitute",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(80,
                         90,
                         100,

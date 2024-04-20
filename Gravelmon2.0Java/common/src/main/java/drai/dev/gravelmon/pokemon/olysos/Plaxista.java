@@ -58,7 +58,7 @@ import java.util.*;
 public class Plaxista extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plaxista() {
         super("Plaxista",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

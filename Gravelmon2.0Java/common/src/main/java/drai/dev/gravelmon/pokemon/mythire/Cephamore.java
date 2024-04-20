@@ -7,7 +7,7 @@ import java.util.*;
 public class Cephamore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cephamore() {
         super("Cephamore",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(40,
                         45,
                         45,

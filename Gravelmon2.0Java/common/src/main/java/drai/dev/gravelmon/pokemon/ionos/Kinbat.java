@@ -58,7 +58,7 @@ import java.util.*;
 public class Kinbat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kinbat() {
         super("Kinbat",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

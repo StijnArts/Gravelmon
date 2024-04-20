@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranLapras extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranLapras(int id) {
         super(id, "Lapras",
-                Type.DRAGON,Type.ELECTRIC,
+                Type.DRAGON, Type.ELECTRIC,
                 new Stats(130,
                         85,
                         80,

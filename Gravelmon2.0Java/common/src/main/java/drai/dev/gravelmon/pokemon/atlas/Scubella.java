@@ -9,7 +9,7 @@ import java.util.*;
 public class Scubella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scubella() {
         super("Scubella",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(90,
                         35,
                         55,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Porcupyre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Porcupyre() {
         super("Porcupyre",
-                Type.FIRE,Type.GRASS,
+                Type.FIRE, Type.GRASS,
                 new Stats(90,
                         80,
                         120,

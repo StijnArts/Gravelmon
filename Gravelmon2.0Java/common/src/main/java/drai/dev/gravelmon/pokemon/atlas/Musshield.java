@@ -7,7 +7,7 @@ import java.util.*;
 public class Musshield extends drai.dev.gravelmon.pokemon.Pokemon {
     public Musshield() {
         super("Musshield",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(50,
                         30,
                         100,

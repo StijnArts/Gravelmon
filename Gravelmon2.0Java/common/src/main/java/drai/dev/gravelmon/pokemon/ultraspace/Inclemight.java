@@ -58,7 +58,7 @@ import java.util.*;
 public class Inclemight extends drai.dev.gravelmon.pokemon.Pokemon {
     public Inclemight() {
         super("Inclemight",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Pinksqueek extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pinksqueek() {
         super("Pinksqueek",
-                Type.FAIRY,Type.NORMAL,
+                Type.FAIRY, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

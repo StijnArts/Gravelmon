@@ -7,7 +7,7 @@ import java.util.*;
 public class Cometile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cometile() {
         super("Cometile",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(40,
                         50,
                         50,

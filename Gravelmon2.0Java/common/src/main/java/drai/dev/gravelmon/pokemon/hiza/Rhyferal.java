@@ -7,7 +7,7 @@ import java.util.*;
 public class Rhyferal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rhyferal() {
         super("Rhyferal",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(110,
                         160,
                         125,

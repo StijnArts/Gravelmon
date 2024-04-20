@@ -58,7 +58,7 @@ import java.util.*;
 public class Sectalamp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sectalamp() {
         super("Sectalamp",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(105,
                         55,
                         60,

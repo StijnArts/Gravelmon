@@ -7,7 +7,7 @@ import java.util.*;
 public class Vermpent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vermpent() {
         super("Vermpent",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(95,
                         125,
                         100,

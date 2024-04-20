@@ -9,7 +9,7 @@ import java.util.*;
 public class Beatroot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beatroot() {
         super("Beatroot",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(95,
                         110,
                         80,

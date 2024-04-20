@@ -9,7 +9,7 @@ import java.util.*;
 public class Bidengel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bidengel() {
         super("Bidengel",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(75,
                         60,
                         70,

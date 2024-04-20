@@ -7,7 +7,7 @@ import java.util.*;
 public class Radiaze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Radiaze() {
         super("Radiaze",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(75,
                         95,
                         70,

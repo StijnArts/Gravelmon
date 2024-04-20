@@ -7,7 +7,7 @@ import java.util.*;
 public class Cupidtera extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cupidtera() {
         super("Cupidtera",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

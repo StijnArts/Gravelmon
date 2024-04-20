@@ -7,7 +7,7 @@ import java.util.*;
 public class Chirunner extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chirunner() {
         super("Chirunner",
-                Type.FLYING,Type.GROUND,
+                Type.FLYING, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

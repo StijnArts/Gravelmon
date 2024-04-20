@@ -7,7 +7,7 @@ import java.util.*;
 public class Angloch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Angloch() {
         super("Angloch",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

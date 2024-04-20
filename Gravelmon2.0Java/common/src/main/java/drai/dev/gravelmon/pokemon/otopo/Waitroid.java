@@ -58,7 +58,7 @@ import java.util.*;
 public class Waitroid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Waitroid() {
         super("Waitroid",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(60,
                         40,
                         90,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Oblittery extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oblittery() {
         super("Oblittery",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(55,
                         105,
                         75,

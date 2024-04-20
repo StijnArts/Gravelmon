@@ -58,7 +58,7 @@ import java.util.*;
 public class Choaking extends drai.dev.gravelmon.pokemon.Pokemon {
     public Choaking() {
         super("Choaking",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(65,
                         120,
                         140,

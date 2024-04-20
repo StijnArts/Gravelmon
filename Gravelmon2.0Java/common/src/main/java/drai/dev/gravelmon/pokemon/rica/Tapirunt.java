@@ -9,7 +9,7 @@ import java.util.*;
 public class Tapirunt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tapirunt() {
         super("Tapirunt",
-                Type.GROUND,Type.ELECTRIC,
+                Type.GROUND, Type.ELECTRIC,
                 new Stats(65,
                         59,
                         45,

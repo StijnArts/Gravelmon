@@ -9,7 +9,7 @@ import java.util.*;
 public class Anglondor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anglondor() {
         super("Anglondor",
-                Type.DARK,Type.DRAGON,
+                Type.DARK, Type.DRAGON,
                 new Stats(89,
                         123,
                         71,

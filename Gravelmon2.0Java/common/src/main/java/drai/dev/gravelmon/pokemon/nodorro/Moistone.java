@@ -58,7 +58,7 @@ import java.util.*;
 public class Moistone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moistone() {
         super("Moistone",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(60,
                         65,
                         60,

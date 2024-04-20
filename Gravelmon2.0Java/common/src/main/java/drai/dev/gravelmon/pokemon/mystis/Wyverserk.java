@@ -58,7 +58,7 @@ import java.util.*;
 public class Wyverserk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wyverserk() {
         super("Wyverserk",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(105,
                         170,
                         90,

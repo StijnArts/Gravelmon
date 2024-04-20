@@ -58,7 +58,7 @@ import java.util.*;
 public class Wreckidna extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wreckidna() {
         super("Wreckidna",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(72,
                         126,
                         98,

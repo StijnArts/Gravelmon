@@ -58,7 +58,7 @@ import java.util.*;
 public class Rogbaahl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rogbaahl() {
         super("Rogbaahl",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(65,
                         136,
                         86,

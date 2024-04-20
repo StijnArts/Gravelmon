@@ -58,7 +58,7 @@ import java.util.*;
 public class Levinity extends drai.dev.gravelmon.pokemon.Pokemon {
     public Levinity() {
         super("Levinity",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(75,
                         100,
                         85,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Incendaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Incendaur() {
         super("Incendaur",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Aurevora extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aurevora() {
         super("Aurevora",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

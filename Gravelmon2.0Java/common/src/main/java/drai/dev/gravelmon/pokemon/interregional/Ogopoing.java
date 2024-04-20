@@ -7,7 +7,7 @@ import java.util.*;
 public class Ogopoing extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ogopoing() {
         super("Ogopoing",
-                Type.DRAGON,Type.STEEL,
+                Type.DRAGON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

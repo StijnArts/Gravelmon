@@ -13,7 +13,7 @@ import java.util.*;
 public class Carabomb extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carabomb() {
         super("Carabomb",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

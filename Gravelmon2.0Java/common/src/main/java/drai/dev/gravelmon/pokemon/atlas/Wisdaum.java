@@ -7,7 +7,7 @@ import java.util.*;
 public class Wisdaum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wisdaum() {
         super("Wisdaum",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(110,
                         103,
                         66,

@@ -11,7 +11,7 @@ import java.util.*;
 public class Ploworm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ploworm() {
         super("Ploworm",
-                Type.STEEL,Type.BUG,
+                Type.STEEL, Type.BUG,
                 new Stats(34,
                         66,
                         54,

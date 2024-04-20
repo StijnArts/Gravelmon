@@ -58,7 +58,7 @@ import java.util.*;
 public class Kabby extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kabby() {
         super("Kabby",
-                Type.GROUND,Type.ICE,
+                Type.GROUND, Type.ICE,
                 new Stats(0,
                         0,
                         0,

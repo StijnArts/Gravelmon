@@ -58,7 +58,7 @@ import java.util.*;
 public class Gorgompost extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gorgompost() {
         super("Gorgompost",
-                Type.GROUND,Type.GHOST,
+                Type.GROUND, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

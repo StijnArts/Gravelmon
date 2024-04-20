@@ -58,7 +58,7 @@ import java.util.*;
 public class Cadavish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cadavish() {
         super("Cadavish",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

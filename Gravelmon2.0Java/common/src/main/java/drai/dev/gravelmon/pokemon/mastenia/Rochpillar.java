@@ -58,7 +58,7 @@ import java.util.*;
 public class Rochpillar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rochpillar() {
         super("Rochpillar",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

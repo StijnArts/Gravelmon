@@ -9,7 +9,7 @@ import java.util.*;
 public class Petafleur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Petafleur() {
         super("Petafleur",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(55,
                         55,
                         55,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Catfeine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Catfeine() {
         super("Catfeine",
-                Type.NORMAL,Type.FIRE,
+                Type.NORMAL, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

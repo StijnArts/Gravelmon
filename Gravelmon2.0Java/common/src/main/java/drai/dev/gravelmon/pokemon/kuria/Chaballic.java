@@ -58,7 +58,7 @@ import java.util.*;
 public class Chaballic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chaballic() {
         super("Chaballic",
-                Type.QUESTION_MARK,Type.DRAGON,
+                Type.QUESTION_MARK, Type.DRAGON,
                 new Stats(90,
                         71,
                         85,

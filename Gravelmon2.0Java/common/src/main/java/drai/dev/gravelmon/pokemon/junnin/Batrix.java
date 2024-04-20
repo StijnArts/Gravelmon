@@ -11,7 +11,7 @@ import java.util.*;
 public class Batrix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Batrix() {
         super("Batrix",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(54,
                         82,
                         59,

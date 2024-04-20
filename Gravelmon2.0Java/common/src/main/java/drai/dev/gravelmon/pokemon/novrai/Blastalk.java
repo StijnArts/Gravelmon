@@ -7,7 +7,7 @@ import java.util.*;
 public class Blastalk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blastalk() {
         super("Blastalk",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(52,
                         61,
                         87,

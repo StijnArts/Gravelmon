@@ -7,7 +7,7 @@ import java.util.*;
 public class Mushcary extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mushcary() {
         super("Mushcary",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(100,
                         80,
                         90,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Draligne extends drai.dev.gravelmon.pokemon.Pokemon {
     public Draligne() {
         super("Draligne",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(70,
                         106,
                         72,

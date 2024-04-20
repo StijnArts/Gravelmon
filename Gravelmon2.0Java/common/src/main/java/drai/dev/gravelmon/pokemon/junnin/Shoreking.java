@@ -11,7 +11,7 @@ import java.util.*;
 public class Shoreking extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shoreking() {
         super("Shoreking",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(85,
                         94,
                         123,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Centree extends drai.dev.gravelmon.pokemon.Pokemon {
     public Centree() {
         super("Centree",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(105,
                         40,
                         55,
@@ -17,7 +17,7 @@ public class Centree extends drai.dev.gravelmon.pokemon.Pokemon {
                         105),
                 List.of(Ability.FLOWER_VEIL,Ability.SAP_SIPPER), Ability.CHLOROPHYLL,
                 21, 1034,
-                new Stats(1,0,0,0,1,1), 0,
+                new Stats(1,0,0,0,1,1), 45,
                 0.25,
                 185, ExperienceGroup.MEDIUM_SLOW,
                 70,

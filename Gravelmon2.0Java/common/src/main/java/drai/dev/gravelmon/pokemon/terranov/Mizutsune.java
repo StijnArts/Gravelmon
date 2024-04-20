@@ -58,7 +58,7 @@ import java.util.*;
 public class Mizutsune extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mizutsune() {
         super("Mizutsune",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(98,
                         65,
                         71,

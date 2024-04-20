@@ -7,7 +7,7 @@ import java.util.*;
 public class Clockoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clockoo() {
         super("Clockoo",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(50,
                         50,
                         35,

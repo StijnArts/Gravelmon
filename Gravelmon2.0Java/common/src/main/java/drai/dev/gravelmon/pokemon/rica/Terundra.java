@@ -9,7 +9,7 @@ import java.util.*;
 public class Terundra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terundra() {
         super("Terundra",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(63,
                         65,
                         60,

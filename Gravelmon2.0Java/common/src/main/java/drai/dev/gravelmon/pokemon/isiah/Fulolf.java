@@ -7,7 +7,7 @@ import java.util.*;
 public class Fulolf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fulolf() {
         super("Fulolf",
-                Type.DARK,Type.STEEL,
+                Type.DARK, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

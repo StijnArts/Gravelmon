@@ -7,7 +7,7 @@ import java.util.*;
 public class Digloo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Digloo() {
         super("Digloo",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(80,
                         85,
                         52,

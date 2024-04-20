@@ -58,7 +58,7 @@ import java.util.*;
 public class Icypod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Icypod() {
         super("Icypod",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(0,
                         0,
                         0,

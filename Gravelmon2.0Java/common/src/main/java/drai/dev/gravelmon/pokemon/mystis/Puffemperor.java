@@ -58,7 +58,7 @@ import java.util.*;
 public class Puffemperor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Puffemperor() {
         super("Puffemperor",
-                Type.FLYING,Type.ICE,
+                Type.FLYING, Type.ICE,
                 new Stats(80,
                         64,
                         86,

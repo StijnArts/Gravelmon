@@ -6,7 +6,7 @@ import java.util.*;
 public class Lepikite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lepikite() {
         super("Lepikite",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(55,
                         30,
                         50,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Desertsnail2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Desertsnail2() {
         super("Desertsnail2",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(110,
                         65,
                         80,

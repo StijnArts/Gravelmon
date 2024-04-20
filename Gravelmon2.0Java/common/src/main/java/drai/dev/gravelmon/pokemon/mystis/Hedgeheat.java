@@ -58,7 +58,7 @@ import java.util.*;
 public class Hedgeheat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hedgeheat() {
         super("Hedgeheat",
-                Type.FIRE,Type.GRASS,
+                Type.FIRE, Type.GRASS,
                 new Stats(60,
                         40,
                         80,

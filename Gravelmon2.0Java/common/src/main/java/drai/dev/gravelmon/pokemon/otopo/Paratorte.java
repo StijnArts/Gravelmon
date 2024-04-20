@@ -58,7 +58,7 @@ import java.util.*;
 public class Paratorte extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paratorte() {
         super("Paratorte",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Esmezra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Esmezra() {
         super("Esmezra",
-                Type.DARK,Type.PSYCHIC,
+                Type.DARK, Type.PSYCHIC,
                 new Stats(75,
                         76,
                         55,

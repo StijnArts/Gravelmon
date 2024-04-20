@@ -58,7 +58,7 @@ import java.util.*;
 public class Scyllabyss extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scyllabyss() {
         super("Scyllabyss",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

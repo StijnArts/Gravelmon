@@ -7,7 +7,7 @@ import java.util.*;
 public class Reginaegle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reginaegle() {
         super("Reginaegle",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(50,
                         120,
                         95,

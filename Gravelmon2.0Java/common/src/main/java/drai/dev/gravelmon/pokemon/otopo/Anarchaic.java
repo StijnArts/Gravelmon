@@ -58,7 +58,7 @@ import java.util.*;
 public class Anarchaic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anarchaic() {
         super("Anarchaic",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(115,
                         140,
                         80,

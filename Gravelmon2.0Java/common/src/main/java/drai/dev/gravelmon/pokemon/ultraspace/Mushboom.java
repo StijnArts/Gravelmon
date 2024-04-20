@@ -58,7 +58,7 @@ import java.util.*;
 public class Mushboom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mushboom() {
         super("Mushboom",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,
                         0,

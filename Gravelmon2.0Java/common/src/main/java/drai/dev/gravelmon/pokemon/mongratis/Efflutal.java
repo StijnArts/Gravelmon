@@ -58,7 +58,7 @@ import java.util.*;
 public class Efflutal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Efflutal() {
         super("Efflutal",
-                Type.PSYCHIC,Type.FIRE,
+                Type.PSYCHIC, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

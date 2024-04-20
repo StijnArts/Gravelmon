@@ -9,7 +9,7 @@ import java.util.*;
 public class Tundrill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tundrill() {
         super("Tundrill",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(100,
                         57,
                         98,

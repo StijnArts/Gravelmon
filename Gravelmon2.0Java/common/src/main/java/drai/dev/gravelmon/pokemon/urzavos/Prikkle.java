@@ -58,7 +58,7 @@ import java.util.*;
 public class Prikkle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Prikkle() {
         super("Prikkle",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

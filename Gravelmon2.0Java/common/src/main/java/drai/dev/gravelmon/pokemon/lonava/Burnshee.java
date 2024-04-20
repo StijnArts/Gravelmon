@@ -7,7 +7,7 @@ import java.util.*;
 public class Burnshee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burnshee() {
         super("Burnshee",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

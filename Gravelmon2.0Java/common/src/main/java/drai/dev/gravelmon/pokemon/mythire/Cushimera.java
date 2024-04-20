@@ -7,7 +7,7 @@ import java.util.*;
 public class Cushimera extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cushimera() {
         super("Cushimera",
-                Type.NORMAL,Type.DRAGON,
+                Type.NORMAL, Type.DRAGON,
                 new Stats(100,
                         60,
                         40,

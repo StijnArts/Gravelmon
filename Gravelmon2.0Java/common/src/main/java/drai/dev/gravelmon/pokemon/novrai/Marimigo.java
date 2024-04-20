@@ -7,7 +7,7 @@ import java.util.*;
 public class Marimigo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marimigo() {
         super("Marimigo",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(105,
                         75,
                         85,

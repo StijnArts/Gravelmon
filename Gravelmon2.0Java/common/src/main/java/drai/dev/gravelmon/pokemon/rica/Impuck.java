@@ -9,7 +9,7 @@ import java.util.*;
 public class Impuck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impuck() {
         super("Impuck",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(55,
                         75,
                         45,

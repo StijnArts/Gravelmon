@@ -7,7 +7,7 @@ import java.util.*;
 public class Imitacean extends drai.dev.gravelmon.pokemon.Pokemon {
     public Imitacean() {
         super("Imitacean",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(79,
                         100,
                         125,

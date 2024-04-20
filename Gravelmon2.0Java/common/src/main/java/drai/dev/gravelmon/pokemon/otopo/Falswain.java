@@ -58,7 +58,7 @@ import java.util.*;
 public class Falswain extends drai.dev.gravelmon.pokemon.Pokemon {
     public Falswain() {
         super("Falswain",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

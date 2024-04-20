@@ -7,7 +7,7 @@ import java.util.*;
 public class Snooseat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snooseat() {
         super("Snooseat",
-                Type.NORMAL,Type.POISON,
+                Type.NORMAL, Type.POISON,
                 new Stats(40,
                         45,
                         70,

@@ -9,7 +9,7 @@ import java.util.*;
 public class HavaiianBlipbug extends drai.dev.gravelmon.pokemon.Pokemon {
     public HavaiianBlipbug() {
         super("Blipbug",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(25,
                         20,
                         20,

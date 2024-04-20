@@ -58,7 +58,7 @@ import java.util.*;
 public class Zamite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zamite() {
         super("Zamite",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

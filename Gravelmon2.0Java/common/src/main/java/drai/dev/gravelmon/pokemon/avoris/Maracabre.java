@@ -13,7 +13,7 @@ import java.util.*;
 public class Maracabre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maracabre() {
         super("Maracabre",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(85,
                         86,
                         67,

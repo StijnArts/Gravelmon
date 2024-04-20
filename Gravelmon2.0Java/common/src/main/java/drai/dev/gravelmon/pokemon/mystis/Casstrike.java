@@ -58,7 +58,7 @@ import java.util.*;
 public class Casstrike extends drai.dev.gravelmon.pokemon.Pokemon {
     public Casstrike() {
         super("Casstrike",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(80,
                         110,
                         75,

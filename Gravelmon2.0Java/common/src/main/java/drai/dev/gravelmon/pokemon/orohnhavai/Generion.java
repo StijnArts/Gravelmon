@@ -9,7 +9,7 @@ import java.util.*;
 public class Generion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Generion() {
         super("Generion",
-                Type.FAIRY,Type.FIRE,
+                Type.FAIRY, Type.FIRE,
                 new Stats(100,
                         90,
                         90,

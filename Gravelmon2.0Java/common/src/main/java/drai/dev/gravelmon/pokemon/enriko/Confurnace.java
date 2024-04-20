@@ -7,7 +7,7 @@ import java.util.*;
 public class Confurnace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Confurnace() {
         super("Confurnace",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

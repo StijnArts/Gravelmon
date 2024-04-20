@@ -7,7 +7,7 @@ import java.util.*;
 public class Freezef extends drai.dev.gravelmon.pokemon.Pokemon {
     public Freezef() {
         super("Freezef",
-                Type.GRASS,Type.ICE,
+                Type.GRASS, Type.ICE,
                 new Stats(56,
                         55,
                         49,

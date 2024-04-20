@@ -58,7 +58,7 @@ import java.util.*;
 public class Avipip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Avipip() {
         super("Avipip",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

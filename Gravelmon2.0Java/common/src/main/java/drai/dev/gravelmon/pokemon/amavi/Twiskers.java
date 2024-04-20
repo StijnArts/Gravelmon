@@ -8,7 +8,7 @@ import java.util.*;
 public class Twiskers extends drai.dev.gravelmon.pokemon.Pokemon {
     public Twiskers() {
         super("Twiskers",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

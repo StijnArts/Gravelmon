@@ -58,7 +58,7 @@ import java.util.*;
 public class Hazardip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hazardip() {
         super("Hazardip",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(80,
                         95,
                         70,

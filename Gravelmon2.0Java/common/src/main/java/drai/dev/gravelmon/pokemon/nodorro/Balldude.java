@@ -58,7 +58,7 @@ import java.util.*;
 public class Balldude extends drai.dev.gravelmon.pokemon.Pokemon {
     public Balldude() {
         super("Balldude",
-                Type.POISON,Type.ELECTRIC,
+                Type.POISON, Type.ELECTRIC,
                 new Stats(50,
                         55,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Feraligatr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Feraligatr(int dex) {
         super(dex, "Feraligatr",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

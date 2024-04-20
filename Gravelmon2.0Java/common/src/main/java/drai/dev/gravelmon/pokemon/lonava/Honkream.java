@@ -7,7 +7,7 @@ import java.util.*;
 public class Honkream extends drai.dev.gravelmon.pokemon.Pokemon {
     public Honkream() {
         super("Honkream",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

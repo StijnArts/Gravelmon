@@ -58,7 +58,7 @@ import java.util.*;
 public class Bathemoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bathemoth() {
         super("Bathemoth",
-                Type.FLYING,Type.GROUND,
+                Type.FLYING, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

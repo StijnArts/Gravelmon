@@ -58,7 +58,7 @@ import java.util.*;
 public class Drifblim extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drifblim(int dex) {
         super(dex, "Drifblim",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(150,
                         80,
                         44,

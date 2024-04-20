@@ -58,7 +58,7 @@ import java.util.*;
 public class Coolstroyr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coolstroyr() {
         super("Coolstroyr",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

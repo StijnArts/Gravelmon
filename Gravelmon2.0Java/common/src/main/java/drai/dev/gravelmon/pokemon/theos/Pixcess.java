@@ -58,7 +58,7 @@ import java.util.*;
 public class Pixcess extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pixcess() {
         super("Pixcess",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(57,
                         40,
                         65,

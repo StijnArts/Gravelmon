@@ -7,7 +7,7 @@ import java.util.*;
 public class Disructor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Disructor() {
         super("Disructor",
-                Type.ELECTRIC,Type.POISON,
+                Type.ELECTRIC, Type.POISON,
                 new Stats(68,
                         55,
                         110,

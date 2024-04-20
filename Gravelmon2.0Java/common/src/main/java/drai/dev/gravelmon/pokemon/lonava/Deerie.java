@@ -7,7 +7,7 @@ import java.util.*;
 public class Deerie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Deerie() {
         super("Deerie",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

@@ -13,7 +13,7 @@ import java.util.*;
 public class Skowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skowl() {
         super("Skowl",
-                Type.FLYING,Type.GHOST,
+                Type.FLYING, Type.GHOST,
                 new Stats(46,
                         65,
                         41,

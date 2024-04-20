@@ -58,7 +58,7 @@ import java.util.*;
 public class Bullvanize extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bullvanize() {
         super("Bullvanize",
-                Type.STEEL,Type.NORMAL,
+                Type.STEEL, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

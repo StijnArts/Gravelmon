@@ -9,7 +9,7 @@ import java.util.*;
 public class QamoranTyrogue extends drai.dev.gravelmon.pokemon.Pokemon {
     public QamoranTyrogue(int dex) {
         super(dex, "Tyrogue",
-                Type.FIGHTING,Type.FAIRY,
+                Type.FIGHTING, Type.FAIRY,
                 new Stats(35,
                         35,
                         35,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Colistroid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Colistroid() {
         super("Colistroid",
-                Type.ROCK,Type.ICE,
+                Type.ROCK, Type.ICE,
                 new Stats(60,
                         50,
                         100,

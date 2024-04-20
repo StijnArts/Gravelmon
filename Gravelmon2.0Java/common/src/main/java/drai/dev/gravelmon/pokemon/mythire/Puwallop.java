@@ -7,7 +7,7 @@ import java.util.*;
 public class Puwallop extends drai.dev.gravelmon.pokemon.Pokemon {
     public Puwallop() {
         super("Puwallop",
-                Type.FIGHTING,Type.POISON,
+                Type.FIGHTING, Type.POISON,
                 new Stats(0,
                         0,
                         0,

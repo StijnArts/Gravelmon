@@ -7,7 +7,7 @@ import java.util.*;
 public class Silvern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Silvern() {
         super("Silvern",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

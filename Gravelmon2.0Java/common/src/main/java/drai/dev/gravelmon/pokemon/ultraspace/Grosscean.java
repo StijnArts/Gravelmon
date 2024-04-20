@@ -58,7 +58,7 @@ import java.util.*;
 public class Grosscean extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grosscean() {
         super("Grosscean",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(0,
                         0,
                         0,

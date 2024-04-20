@@ -58,7 +58,7 @@ import java.util.*;
 public class Velosickle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Velosickle() {
         super("Velosickle",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

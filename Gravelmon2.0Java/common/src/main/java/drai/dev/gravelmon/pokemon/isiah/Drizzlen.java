@@ -7,7 +7,7 @@ import java.util.*;
 public class Drizzlen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drizzlen() {
         super("Drizzlen",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(62,
                         30,
                         40,

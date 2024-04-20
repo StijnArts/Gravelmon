@@ -7,7 +7,7 @@ import java.util.*;
 public class Decapasite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Decapasite() {
         super("Decapasite",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(90,
                         50,
                         110,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Morgrem extends drai.dev.gravelmon.pokemon.Pokemon {
     public Morgrem(int dex) {
         super(dex, "Morgrem",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(65,
                         60,
                         75,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Aklyteor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aklyteor() {
         super("Aklyteor",
-                Type.ROCK,Type.COSMIC,
+                Type.ROCK, Type.COSMIC,
                 new Stats(90,
                         135,
                         115,

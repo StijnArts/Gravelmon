@@ -7,7 +7,7 @@ import java.util.*;
 public class Narnail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Narnail() {
         super("Narnail",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(0,
                         0,
                         0,

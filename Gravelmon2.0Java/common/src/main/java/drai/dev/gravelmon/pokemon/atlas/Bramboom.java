@@ -7,7 +7,7 @@ import java.util.*;
 public class Bramboom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bramboom() {
         super("Bramboom",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(78,
                         115,
                         90,

@@ -58,7 +58,7 @@ import java.util.*;
 public class puppesite extends drai.dev.gravelmon.pokemon.Pokemon {
     public puppesite() {
         super("puppesite",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(60,
                         60,
                         80,

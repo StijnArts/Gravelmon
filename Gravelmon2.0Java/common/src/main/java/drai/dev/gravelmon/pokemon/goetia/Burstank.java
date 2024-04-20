@@ -58,7 +58,7 @@ import java.util.*;
 public class Burstank extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burstank() {
         super("Burstank",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

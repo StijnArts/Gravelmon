@@ -58,7 +58,7 @@ import java.util.*;
 public class Chandelure extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chandelure(int dex) {
         super(dex, "Chandelure",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(80,
                         55,
                         80,

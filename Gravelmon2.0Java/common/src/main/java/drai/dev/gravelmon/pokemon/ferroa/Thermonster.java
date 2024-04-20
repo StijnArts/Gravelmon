@@ -7,7 +7,7 @@ import java.util.*;
 public class Thermonster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thermonster() {
         super("Thermonster",
-                Type.NORMAL,Type.FIRE,
+                Type.NORMAL, Type.FIRE,
                 new Stats(55,
                         43,
                         123,

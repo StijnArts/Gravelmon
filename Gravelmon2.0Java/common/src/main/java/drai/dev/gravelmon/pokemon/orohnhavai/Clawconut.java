@@ -9,7 +9,7 @@ import java.util.*;
 public class Clawconut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clawconut() {
         super("Clawconut",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(45,
                         80,
                         65,

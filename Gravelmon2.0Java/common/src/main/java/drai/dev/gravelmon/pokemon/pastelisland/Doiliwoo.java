@@ -58,7 +58,7 @@ import java.util.*;
 public class Doiliwoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Doiliwoo() {
         super("Doiliwoo",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(71,
                         51,
                         32,

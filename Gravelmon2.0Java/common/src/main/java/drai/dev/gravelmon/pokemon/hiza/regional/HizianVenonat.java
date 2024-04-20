@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianVenonat extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianVenonat(int dex) {
         super(dex,"Venonat",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(60,
                         55,
                         50,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Toadsgool extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toadsgool() {
         super("Toadsgool",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Staretue extends drai.dev.gravelmon.pokemon.Pokemon {
     public Staretue() {
         super("Staretue",
-                Type.ROCK,Type.GHOST,
+                Type.ROCK, Type.GHOST,
                 new Stats(120,
                         140,
                         100,

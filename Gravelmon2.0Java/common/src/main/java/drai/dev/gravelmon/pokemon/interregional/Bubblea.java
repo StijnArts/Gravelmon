@@ -7,7 +7,7 @@ import java.util.*;
 public class Bubblea extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bubblea() {
         super("Bubblea",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(60,
                         60,
                         80,

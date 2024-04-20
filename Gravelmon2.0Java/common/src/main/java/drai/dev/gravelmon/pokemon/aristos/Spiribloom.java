@@ -9,7 +9,7 @@ import java.util.*;
 public class Spiribloom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spiribloom() {
         super("Spiribloom",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(50,
                         92,
                         108,

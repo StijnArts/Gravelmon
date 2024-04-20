@@ -9,7 +9,7 @@ import java.util.*;
 public class Earwick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Earwick() {
         super("Earwick",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(40,
                         50,
                         80,

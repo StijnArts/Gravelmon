@@ -58,7 +58,7 @@ import java.util.*;
 public class Draquados extends drai.dev.gravelmon.pokemon.Pokemon {
     public Draquados() {
         super("Draquados",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Mysoleum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mysoleum() {
         super("Mysoleum",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(95,
                         59,
                         132,

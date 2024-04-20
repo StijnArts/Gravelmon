@@ -7,7 +7,7 @@ import java.util.*;
 public class Utopion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Utopion() {
         super("Utopion",
-                Type.STEEL,Type.GRASS,
+                Type.STEEL, Type.GRASS,
                 new Stats(65,
                         55,
                         120,

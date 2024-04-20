@@ -58,7 +58,7 @@ import java.util.*;
 public class Mosstone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mosstone() {
         super("Mosstone",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(90,
                         125,
                         120,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Negagen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Negagen() {
         super("Negagen",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

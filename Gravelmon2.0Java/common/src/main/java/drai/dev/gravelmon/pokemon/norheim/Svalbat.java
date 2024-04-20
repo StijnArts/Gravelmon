@@ -9,7 +9,7 @@ import java.util.*;
 public class Svalbat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Svalbat() {
         super("Svalbat",
-                Type.DARK,Type.PSYCHIC,
+                Type.DARK, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

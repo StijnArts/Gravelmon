@@ -58,7 +58,7 @@ import java.util.*;
 public class Dadrone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dadrone() {
         super("Dadrone",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Crudecay extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crudecay() {
         super("Crudecay",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(106,
                         106,
                         60,

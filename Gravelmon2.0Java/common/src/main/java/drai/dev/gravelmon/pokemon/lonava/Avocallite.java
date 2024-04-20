@@ -7,7 +7,7 @@ import java.util.*;
 public class Avocallite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Avocallite() {
         super("Avocallite",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

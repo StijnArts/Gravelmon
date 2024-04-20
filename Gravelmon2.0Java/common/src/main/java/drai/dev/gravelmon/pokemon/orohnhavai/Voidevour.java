@@ -9,7 +9,7 @@ import java.util.*;
 public class Voidevour extends drai.dev.gravelmon.pokemon.Pokemon {
     public Voidevour() {
         super("Voidevour",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(123,
                         121,
                         113,

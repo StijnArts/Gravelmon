@@ -58,7 +58,7 @@ import java.util.*;
 public class Permafruff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Permafruff() {
         super("Permafruff",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Krakshen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Krakshen() {
         super("Krakshen",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(83,
                         110,
                         114,

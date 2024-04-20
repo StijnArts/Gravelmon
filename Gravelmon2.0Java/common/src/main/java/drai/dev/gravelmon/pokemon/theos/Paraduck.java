@@ -58,7 +58,7 @@ import java.util.*;
 public class Paraduck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paraduck() {
         super("Paraduck",
-                Type.FLYING,Type.GRASS,
+                Type.FLYING, Type.GRASS,
                 new Stats(60,
                         50,
                         70,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Shrisker extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shrisker() {
         super("Shrisker",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(80,
                         58,
                         50,

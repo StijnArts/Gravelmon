@@ -58,7 +58,7 @@ import java.util.*;
 public class Coldera extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coldera() {
         super("Coldera",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(50,
                         65,
                         70,

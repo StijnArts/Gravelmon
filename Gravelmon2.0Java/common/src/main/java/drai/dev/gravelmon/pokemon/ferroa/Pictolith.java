@@ -7,7 +7,7 @@ import java.util.*;
 public class Pictolith extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pictolith() {
         super("Pictolith",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(45,
                         55,
                         80,

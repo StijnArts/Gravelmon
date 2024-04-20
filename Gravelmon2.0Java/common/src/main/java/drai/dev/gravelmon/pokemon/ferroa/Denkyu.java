@@ -7,7 +7,7 @@ import java.util.*;
 public class Denkyu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Denkyu() {
         super("Denkyu",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(75,
                         35,
                         45,

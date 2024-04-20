@@ -58,7 +58,7 @@ import java.util.*;
 public class Ceadeus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ceadeus() {
         super("Ceadeus",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

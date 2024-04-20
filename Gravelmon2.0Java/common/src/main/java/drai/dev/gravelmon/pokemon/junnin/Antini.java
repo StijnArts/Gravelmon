@@ -11,7 +11,7 @@ import java.util.*;
 public class Antini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Antini() {
         super("Antini",
-                Type.ELECTRIC,Type.BUG,
+                Type.ELECTRIC, Type.BUG,
                 new Stats(40,
                         41,
                         49,

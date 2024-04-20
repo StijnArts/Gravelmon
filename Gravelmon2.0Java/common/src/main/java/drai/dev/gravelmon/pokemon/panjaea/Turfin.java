@@ -58,7 +58,7 @@ import java.util.*;
 public class Turfin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Turfin() {
         super("Turfin",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(0,
                         0,
                         0,

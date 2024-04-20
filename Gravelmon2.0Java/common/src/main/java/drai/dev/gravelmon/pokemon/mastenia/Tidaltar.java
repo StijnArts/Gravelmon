@@ -58,7 +58,7 @@ import java.util.*;
 public class Tidaltar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tidaltar() {
         super("Tidaltar",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(106,
                         110,
                         90,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Marelstorm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marelstorm() {
         super("Marelstorm",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

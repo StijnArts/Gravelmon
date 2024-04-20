@@ -58,7 +58,7 @@ import java.util.*;
 public class Webruiser extends drai.dev.gravelmon.pokemon.Pokemon {
     public Webruiser() {
         super("Webruiser",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Paladon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paladon() {
         super("Paladon",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

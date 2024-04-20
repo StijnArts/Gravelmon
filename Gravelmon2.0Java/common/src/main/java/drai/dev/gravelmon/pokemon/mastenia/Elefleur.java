@@ -58,7 +58,7 @@ import java.util.*;
 public class Elefleur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elefleur() {
         super("Elefleur",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

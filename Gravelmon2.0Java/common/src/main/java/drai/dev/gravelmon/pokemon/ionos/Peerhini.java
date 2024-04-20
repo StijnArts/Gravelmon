@@ -58,7 +58,7 @@ import java.util.*;
 public class Peerhini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peerhini() {
         super("Peerhini",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(50,
                         85,
                         40,

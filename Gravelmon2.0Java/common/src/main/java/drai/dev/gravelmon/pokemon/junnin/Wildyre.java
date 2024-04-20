@@ -11,7 +11,7 @@ import java.util.*;
 public class Wildyre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wildyre() {
         super("Wildyre",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(60,
                         75,
                         88,

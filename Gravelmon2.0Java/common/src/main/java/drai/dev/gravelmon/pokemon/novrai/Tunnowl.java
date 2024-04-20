@@ -7,7 +7,7 @@ import java.util.*;
 public class Tunnowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tunnowl() {
         super("Tunnowl",
-                Type.GROUND,Type.FLYING,
+                Type.GROUND, Type.FLYING,
                 new Stats(46,
                         65,
                         46,

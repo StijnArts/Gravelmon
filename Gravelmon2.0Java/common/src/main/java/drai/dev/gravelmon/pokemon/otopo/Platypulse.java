@@ -58,7 +58,7 @@ import java.util.*;
 public class Platypulse extends drai.dev.gravelmon.pokemon.Pokemon {
     public Platypulse() {
         super("Platypulse",
-                Type.POISON,Type.ELECTRIC,
+                Type.POISON, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

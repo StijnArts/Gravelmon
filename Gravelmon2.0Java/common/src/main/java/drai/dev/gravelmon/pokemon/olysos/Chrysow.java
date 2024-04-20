@@ -58,7 +58,7 @@ import java.util.*;
 public class Chrysow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chrysow() {
         super("Chrysow",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

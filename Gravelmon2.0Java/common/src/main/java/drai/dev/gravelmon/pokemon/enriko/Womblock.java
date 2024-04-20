@@ -7,7 +7,7 @@ import java.util.*;
 public class Womblock extends drai.dev.gravelmon.pokemon.Pokemon {
     public Womblock() {
         super("Womblock",
-                Type.NORMAL,Type.ROCK,
+                Type.NORMAL, Type.ROCK,
                 new Stats(95,
                         90,
                         120,

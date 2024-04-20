@@ -58,7 +58,7 @@ import java.util.*;
 public class Noctoa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Noctoa() {
         super("Noctoa",
-                Type.NORMAL,Type.DARK,
+                Type.NORMAL, Type.DARK,
                 new Stats(63,
                         95,
                         60,

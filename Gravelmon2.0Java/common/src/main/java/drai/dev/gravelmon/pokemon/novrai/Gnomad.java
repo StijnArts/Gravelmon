@@ -7,7 +7,7 @@ import java.util.*;
 public class Gnomad extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gnomad() {
         super("Gnomad",
-                Type.GROUND,Type.FAIRY,
+                Type.GROUND, Type.FAIRY,
                 new Stats(50,
                         42,
                         68,

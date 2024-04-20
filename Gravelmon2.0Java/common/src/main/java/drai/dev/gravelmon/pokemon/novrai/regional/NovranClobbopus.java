@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranClobbopus extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranClobbopus(int dex) {
         super(dex, "Clobbopus",
-                Type.FIGHTING,Type.POISON,
+                Type.FIGHTING, Type.POISON,
                 new Stats(70,
                         75,
                         50,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Oniion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oniion() {
         super("Oniion",
-                Type.DARK,Type.GRASS,
+                Type.DARK, Type.GRASS,
                 new Stats(100,
                         140,
                         90,

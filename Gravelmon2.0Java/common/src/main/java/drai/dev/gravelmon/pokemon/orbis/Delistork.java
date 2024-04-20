@@ -58,7 +58,7 @@ import java.util.*;
 public class Delistork extends drai.dev.gravelmon.pokemon.Pokemon {
     public Delistork() {
         super("Delistork",
-                Type.FLYING,Type.NORMAL,
+                Type.FLYING, Type.NORMAL,
                 new Stats(82,
                         90,
                         64,

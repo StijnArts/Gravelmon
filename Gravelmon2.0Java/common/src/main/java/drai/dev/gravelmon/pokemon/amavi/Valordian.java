@@ -8,7 +8,7 @@ import java.util.*;
 public class Valordian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Valordian() {
         super("Valordian",
-                Type.DRAGON,Type.FAIRY,
+                Type.DRAGON, Type.FAIRY,
                 new Stats(65,
                         140,
                         80,
@@ -17,7 +17,7 @@ public class Valordian extends drai.dev.gravelmon.pokemon.Pokemon {
                         111),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 15, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

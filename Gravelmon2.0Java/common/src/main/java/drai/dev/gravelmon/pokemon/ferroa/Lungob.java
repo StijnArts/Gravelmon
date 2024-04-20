@@ -7,7 +7,7 @@ import java.util.*;
 public class Lungob extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lungob() {
         super("Lungob",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(70,
                         20,
                         50,

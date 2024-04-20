@@ -7,7 +7,7 @@ import java.util.*;
 public class Banshed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Banshed() {
         super("Banshed",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

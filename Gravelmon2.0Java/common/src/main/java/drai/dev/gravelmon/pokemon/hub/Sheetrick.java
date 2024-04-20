@@ -7,7 +7,7 @@ import java.util.*;
 public class Sheetrick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sheetrick() {
         super("Sheetrick",
-                Type.GHOST,Type.NORMAL,
+                Type.GHOST, Type.NORMAL,
                 new Stats(50,
                         70,
                         67,

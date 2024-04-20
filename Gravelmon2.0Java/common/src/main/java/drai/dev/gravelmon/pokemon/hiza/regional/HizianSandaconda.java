@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianSandaconda extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianSandaconda(int dex) {
         super(dex, "Sandaconda",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(72,
                         65,
                         125,

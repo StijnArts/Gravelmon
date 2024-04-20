@@ -7,7 +7,7 @@ import java.util.*;
 public class Rubbison extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rubbison() {
         super("Rubbison",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(210,
                         75,
                         90,

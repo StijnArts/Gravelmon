@@ -58,7 +58,7 @@ import java.util.*;
 public class Mojicle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mojicle() {
         super("Mojicle",
-                Type.WATER,Type.QUESTION_MARK,
+                Type.WATER, Type.QUESTION_MARK,
                 new Stats(55,
                         40,
                         50,

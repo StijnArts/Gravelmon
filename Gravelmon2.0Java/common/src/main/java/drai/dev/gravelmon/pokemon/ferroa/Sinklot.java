@@ -7,7 +7,7 @@ import java.util.*;
 public class Sinklot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sinklot() {
         super("Sinklot",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(45,
                         25,
                         86,

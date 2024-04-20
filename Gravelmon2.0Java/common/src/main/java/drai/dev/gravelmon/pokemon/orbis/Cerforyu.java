@@ -58,7 +58,7 @@ import java.util.*;
 public class Cerforyu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cerforyu() {
         super("Cerforyu",
-                Type.NORMAL,Type.FIRE,
+                Type.NORMAL, Type.FIRE,
                 new Stats(225,
                         75,
                         5,

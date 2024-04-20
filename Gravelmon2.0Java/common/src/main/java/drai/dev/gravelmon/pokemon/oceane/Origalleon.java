@@ -7,7 +7,7 @@ import java.util.*;
 public class Origalleon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Origalleon() {
         super("Origalleon",
-                Type.ELECTRIC,Type.GHOST,
+                Type.ELECTRIC, Type.GHOST,
                 new Stats(93,
                         93,
                         67,

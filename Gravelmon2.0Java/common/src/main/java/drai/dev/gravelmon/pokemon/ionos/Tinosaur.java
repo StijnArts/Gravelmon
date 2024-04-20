@@ -58,7 +58,7 @@ import java.util.*;
 public class Tinosaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tinosaur() {
         super("Tinosaur",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

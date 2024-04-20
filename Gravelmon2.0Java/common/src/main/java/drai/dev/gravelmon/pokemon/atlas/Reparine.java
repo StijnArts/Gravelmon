@@ -7,7 +7,7 @@ import java.util.*;
 public class Reparine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reparine() {
         super("Reparine",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(81,
                         116,
                         123,

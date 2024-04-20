@@ -58,7 +58,7 @@ import java.util.*;
 public class Kerbunsta extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kerbunsta() {
         super("Kerbunsta",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(64,
                         73,
                         60,

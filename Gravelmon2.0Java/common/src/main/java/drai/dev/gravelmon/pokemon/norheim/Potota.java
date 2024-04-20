@@ -9,7 +9,7 @@ import java.util.*;
 public class Potota extends drai.dev.gravelmon.pokemon.Pokemon {
     public Potota() {
         super("Potota",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Slowking extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slowking(int dex) {
         super(dex, "Slowking",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(95,
                         75,
                         80,

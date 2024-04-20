@@ -58,7 +58,7 @@ import java.util.*;
 public class Tadbole extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tadbole() {
         super("Tadbole",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(0,
                         0,
                         0,

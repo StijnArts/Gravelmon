@@ -7,7 +7,7 @@ import java.util.*;
 public class Scargot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scargot() {
         super("Scargot",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(90,
                         50,
                         115,

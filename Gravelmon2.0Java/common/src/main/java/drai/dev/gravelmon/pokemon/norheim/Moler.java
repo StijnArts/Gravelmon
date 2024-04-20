@@ -9,7 +9,7 @@ import java.util.*;
 public class Moler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moler() {
         super("Moler",
-                Type.GROUND,Type.PSYCHIC,
+                Type.GROUND, Type.PSYCHIC,
                 new Stats(62,
                         56,
                         55,

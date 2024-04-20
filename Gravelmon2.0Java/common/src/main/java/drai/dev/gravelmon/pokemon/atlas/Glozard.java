@@ -7,7 +7,7 @@ import java.util.*;
 public class Glozard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glozard() {
         super("Glozard",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(40,
                         55,
                         44,

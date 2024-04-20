@@ -58,7 +58,7 @@ import java.util.*;
 public class Magisbook extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magisbook() {
         super("Magisbook",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(60,
                         110,
                         60,

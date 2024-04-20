@@ -7,7 +7,7 @@ import java.util.*;
 public class Carnosteus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carnosteus() {
         super("Carnosteus",
-                Type.ROCK,Type.DARK,
+                Type.ROCK, Type.DARK,
                 new Stats(63,
                         122,
                         111,

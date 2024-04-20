@@ -58,7 +58,7 @@ import java.util.*;
 public class Azurill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Azurill(int dex) {
         super(dex, "Azurill",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(50,
                         20,
                         40,

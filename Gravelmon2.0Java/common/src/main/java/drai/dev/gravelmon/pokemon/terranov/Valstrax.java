@@ -58,7 +58,7 @@ import java.util.*;
 public class Valstrax extends drai.dev.gravelmon.pokemon.Pokemon {
     public Valstrax() {
         super("Valstrax",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(75,
                         100,
                         100,

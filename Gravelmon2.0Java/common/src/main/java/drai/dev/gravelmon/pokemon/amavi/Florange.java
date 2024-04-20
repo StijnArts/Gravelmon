@@ -8,7 +8,7 @@ import java.util.*;
 public class Florange extends drai.dev.gravelmon.pokemon.Pokemon {
     public Florange() {
         super("Florange",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(130,
                         20,
                         66,
@@ -17,7 +17,7 @@ public class Florange extends drai.dev.gravelmon.pokemon.Pokemon {
                         112),
                 List.of(Ability.HARVEST), Ability.HARVEST,
                 7, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

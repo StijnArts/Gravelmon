@@ -9,7 +9,7 @@ import java.util.*;
 public class Wyrmundel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wyrmundel() {
         super("Wyrmundel",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(165,
                         100,
                         85,

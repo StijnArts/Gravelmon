@@ -9,7 +9,7 @@ import java.util.*;
 public class Chrystalis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chrystalis() {
         super("Chrystalis",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(34,
                         34,
                         29,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Prospecktor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Prospecktor() {
         super("Prospecktor",
-                Type.GROUND,Type.FLYING,
+                Type.GROUND, Type.FLYING,
                 new Stats(62,
                         88,
                         64,

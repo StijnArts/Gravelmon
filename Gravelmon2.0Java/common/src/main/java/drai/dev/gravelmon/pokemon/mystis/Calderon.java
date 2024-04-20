@@ -58,7 +58,7 @@ import java.util.*;
 public class Calderon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Calderon() {
         super("Calderon",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(80,
                         60,
                         80,

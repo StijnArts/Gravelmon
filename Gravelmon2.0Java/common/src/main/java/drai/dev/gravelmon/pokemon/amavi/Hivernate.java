@@ -8,7 +8,7 @@ import java.util.*;
 public class Hivernate extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hivernate() {
         super("Hivernate",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(125,
                         80,
                         140,
@@ -17,7 +17,7 @@ public class Hivernate extends drai.dev.gravelmon.pokemon.Pokemon {
                         45),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 13, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

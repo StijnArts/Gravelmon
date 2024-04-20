@@ -9,7 +9,7 @@ import java.util.*;
 public class Alliglacier extends drai.dev.gravelmon.pokemon.Pokemon {
     public Alliglacier() {
         super("Alliglacier",
-                Type.ICE,Type.DARK,
+                Type.ICE, Type.DARK,
                 new Stats(0,
                         0,
                         0,

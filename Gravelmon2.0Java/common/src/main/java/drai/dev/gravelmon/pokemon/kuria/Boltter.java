@@ -58,7 +58,7 @@ import java.util.*;
 public class Boltter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boltter() {
         super("Boltter",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(90,
                         98,
                         85,

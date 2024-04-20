@@ -7,7 +7,7 @@ import java.util.*;
 public class Bugsled extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bugsled() {
         super("Bugsled",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(120,
                         100,
                         80,

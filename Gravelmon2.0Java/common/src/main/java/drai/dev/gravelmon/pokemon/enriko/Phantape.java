@@ -7,7 +7,7 @@ import java.util.*;
 public class Phantape extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phantape() {
         super("Phantape",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(35,
                         20,
                         50,

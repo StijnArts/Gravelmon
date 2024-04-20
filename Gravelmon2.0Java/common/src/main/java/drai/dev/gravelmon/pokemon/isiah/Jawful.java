@@ -7,7 +7,7 @@ import java.util.*;
 public class Jawful extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jawful() {
         super("Jawful",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(65,
                         85,
                         75,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Phantamaron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phantamaron() {
         super("Phantamaron",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

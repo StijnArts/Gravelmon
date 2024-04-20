@@ -58,7 +58,7 @@ import java.util.*;
 public class Gallade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gallade(int dex) {
         super(dex, "Gallade",
-                Type.PSYCHIC,Type.FIGHTING,
+                Type.PSYCHIC, Type.FIGHTING,
                 new Stats(80,
                         125,
                         65,

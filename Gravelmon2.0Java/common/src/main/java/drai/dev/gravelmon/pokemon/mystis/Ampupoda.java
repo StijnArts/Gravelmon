@@ -58,7 +58,7 @@ import java.util.*;
 public class Ampupoda extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ampupoda() {
         super("Ampupoda",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(70,
                         125,
                         55,

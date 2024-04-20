@@ -58,7 +58,7 @@ import java.util.*;
 public class Larviathan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larviathan() {
         super("Larviathan",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

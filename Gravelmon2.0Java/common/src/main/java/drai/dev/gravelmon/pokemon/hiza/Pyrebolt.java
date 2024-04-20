@@ -7,7 +7,7 @@ import java.util.*;
 public class Pyrebolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyrebolt() {
         super("Pyrebolt",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(70,
                         75,
                         60,

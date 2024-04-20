@@ -58,7 +58,7 @@ import java.util.*;
 public class Carval extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carval() {
         super("Carval",
-                Type.GRASS,Type.STEEL,
+                Type.GRASS, Type.STEEL,
                 new Stats(90,
                         100,
                         100,

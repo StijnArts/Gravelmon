@@ -13,7 +13,7 @@ import java.util.*;
 public class Goosea extends drai.dev.gravelmon.pokemon.Pokemon {
     public Goosea() {
         super("Goosea",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(45,
                         40,
                         45,

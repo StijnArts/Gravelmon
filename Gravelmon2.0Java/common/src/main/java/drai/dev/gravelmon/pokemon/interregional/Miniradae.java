@@ -7,7 +7,7 @@ import java.util.*;
 public class Miniradae extends drai.dev.gravelmon.pokemon.Pokemon {
     public Miniradae() {
         super("Miniradae",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(65,
                         40,
                         140,

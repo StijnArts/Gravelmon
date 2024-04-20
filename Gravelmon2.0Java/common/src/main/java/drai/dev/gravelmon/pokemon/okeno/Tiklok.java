@@ -6,7 +6,7 @@ import java.util.*;
 public class Tiklok extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tiklok() {
         super("Tiklok",
-                Type.STEEL,Type.GHOST,
+                Type.STEEL, Type.GHOST,
                 new Stats(32,
                         62,
                         60,

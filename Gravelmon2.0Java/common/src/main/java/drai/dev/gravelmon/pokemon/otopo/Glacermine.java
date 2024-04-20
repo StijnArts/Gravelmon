@@ -58,7 +58,7 @@ import java.util.*;
 public class Glacermine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glacermine() {
         super("Glacermine",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

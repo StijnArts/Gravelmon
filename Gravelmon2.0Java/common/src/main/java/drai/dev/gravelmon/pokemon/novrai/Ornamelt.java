@@ -7,7 +7,7 @@ import java.util.*;
 public class Ornamelt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ornamelt() {
         super("Ornamelt",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(75,
                         75,
                         165,

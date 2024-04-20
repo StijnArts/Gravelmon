@@ -58,7 +58,7 @@ import java.util.*;
 public class Stageros extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stageros() {
         super("Stageros",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(0,
                         0,
                         0,

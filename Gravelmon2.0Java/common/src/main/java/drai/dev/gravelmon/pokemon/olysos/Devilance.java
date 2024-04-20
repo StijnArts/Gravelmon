@@ -58,7 +58,7 @@ import java.util.*;
 public class Devilance extends drai.dev.gravelmon.pokemon.Pokemon {
     public Devilance() {
         super("Devilance",
-                Type.GROUND,Type.FIRE,
+                Type.GROUND, Type.FIRE,
                 new Stats(85,
                         120,
                         70,

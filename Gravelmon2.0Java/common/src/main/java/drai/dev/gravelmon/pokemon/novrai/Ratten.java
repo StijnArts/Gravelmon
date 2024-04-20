@@ -7,7 +7,7 @@ import java.util.*;
 public class Ratten extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ratten() {
         super("Ratten",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(30,
                         49,
                         22,

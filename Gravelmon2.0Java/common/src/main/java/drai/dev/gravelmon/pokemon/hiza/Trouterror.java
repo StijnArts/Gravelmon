@@ -7,7 +7,7 @@ import java.util.*;
 public class Trouterror extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trouterror() {
         super("Trouterror",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(60,
                         85,
                         100,

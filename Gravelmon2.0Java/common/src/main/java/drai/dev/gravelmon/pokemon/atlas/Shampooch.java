@@ -7,7 +7,7 @@ import java.util.*;
 public class Shampooch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shampooch() {
         super("Shampooch",
-                Type.NORMAL,Type.WATER,
+                Type.NORMAL, Type.WATER,
                 new Stats(100,
                         90,
                         85,

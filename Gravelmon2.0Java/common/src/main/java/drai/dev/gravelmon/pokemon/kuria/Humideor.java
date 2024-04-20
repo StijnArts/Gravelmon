@@ -58,7 +58,7 @@ import java.util.*;
 public class Humideor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Humideor() {
         super("Humideor",
-                Type.WATER,Type.COSMIC,
+                Type.WATER, Type.COSMIC,
                 new Stats(90,
                         60,
                         100,

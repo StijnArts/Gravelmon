@@ -7,7 +7,7 @@ import java.util.*;
 public class Migreat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Migreat() {
         super("Migreat",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(85,
                         85,
                         85,

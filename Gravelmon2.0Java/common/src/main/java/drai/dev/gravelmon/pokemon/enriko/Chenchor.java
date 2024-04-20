@@ -7,7 +7,7 @@ import java.util.*;
 public class Chenchor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chenchor() {
         super("Chenchor",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,
                         0,

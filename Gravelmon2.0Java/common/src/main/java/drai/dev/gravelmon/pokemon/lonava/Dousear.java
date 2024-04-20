@@ -7,7 +7,7 @@ import java.util.*;
 public class Dousear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dousear() {
         super("Dousear",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(76,
                         64,
                         60,

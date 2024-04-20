@@ -7,7 +7,7 @@ import java.util.*;
 public class Artreelery extends drai.dev.gravelmon.pokemon.Pokemon {
     public Artreelery() {
         super("Artreelery",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(65,
                         105,
                         110,

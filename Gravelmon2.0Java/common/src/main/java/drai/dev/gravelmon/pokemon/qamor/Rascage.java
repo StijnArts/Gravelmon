@@ -9,7 +9,7 @@ import java.util.*;
 public class Rascage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rascage() {
         super("Rascage",
-                Type.ELECTRIC,Type.POISON,
+                Type.ELECTRIC, Type.POISON,
                 new Stats(87,
                         60,
                         76,

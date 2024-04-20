@@ -58,7 +58,7 @@ import java.util.*;
 public class Clavarma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clavarma() {
         super("Clavarma",
-                Type.STEEL,Type.FIRE,
+                Type.STEEL, Type.FIRE,
                 new Stats(55,
                         57,
                         85,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Gravios extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gravios() {
         super("Gravios",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(105,
                         100,
                         150,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Spranamos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spranamos() {
         super("Spranamos",
-                Type.POISON,Type.FIGHTING,
+                Type.POISON, Type.FIGHTING,
                 new Stats(100,
                         120,
                         94,

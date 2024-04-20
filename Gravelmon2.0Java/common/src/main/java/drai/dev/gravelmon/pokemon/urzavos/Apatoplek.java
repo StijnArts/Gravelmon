@@ -58,7 +58,7 @@ import java.util.*;
 public class Apatoplek extends drai.dev.gravelmon.pokemon.Pokemon {
     public Apatoplek() {
         super("Apatoplek",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

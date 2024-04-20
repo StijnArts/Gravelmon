@@ -7,7 +7,7 @@ import java.util.*;
 public class Ballistikon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ballistikon() {
         super("Ballistikon",
-                Type.ROCK,Type.STEEL,
+                Type.ROCK, Type.STEEL,
                 new Stats(70,
                         80,
                         130,

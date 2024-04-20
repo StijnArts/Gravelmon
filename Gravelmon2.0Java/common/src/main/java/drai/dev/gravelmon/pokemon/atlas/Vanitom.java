@@ -7,7 +7,7 @@ import java.util.*;
 public class Vanitom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vanitom() {
         super("Vanitom",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(106,
                         45,
                         65,

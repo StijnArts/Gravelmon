@@ -8,7 +8,7 @@ import java.util.*;
 public class Twirlisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Twirlisk() {
         super("Twirlisk",
-                Type.DRAGON,Type.FLYING,
+                Type.DRAGON, Type.FLYING,
                 new Stats(60,
                         60,
                         60,
@@ -17,7 +17,7 @@ public class Twirlisk extends drai.dev.gravelmon.pokemon.Pokemon {
                         60),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 6, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

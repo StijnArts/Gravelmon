@@ -9,7 +9,7 @@ import java.util.*;
 public class Flaero extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flaero() {
         super("Flaero",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(45,
                         55,
                         45,

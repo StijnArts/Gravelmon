@@ -7,7 +7,7 @@ import java.util.*;
 public class Heraldise extends drai.dev.gravelmon.pokemon.Pokemon {
     public Heraldise() {
         super("Heraldise",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

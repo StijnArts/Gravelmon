@@ -7,7 +7,7 @@ import java.util.*;
 public class Armust extends drai.dev.gravelmon.pokemon.Pokemon {
     public Armust() {
         super("Armust",
-                Type.ROCK,Type.DARK,
+                Type.ROCK, Type.DARK,
                 new Stats(65,
                         85,
                         95,

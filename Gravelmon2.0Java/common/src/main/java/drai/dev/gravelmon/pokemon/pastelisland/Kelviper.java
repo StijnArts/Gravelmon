@@ -58,7 +58,7 @@ import java.util.*;
 public class Kelviper extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kelviper() {
         super("Kelviper",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(120,
                         70,
                         115,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Combjorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Combjorn() {
         super("Combjorn",
-                Type.FIRE,Type.NORMAL,
+                Type.FIRE, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Talpastar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Talpastar() {
         super("Talpastar",
-                Type.DARK,Type.GROUND,
+                Type.DARK, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

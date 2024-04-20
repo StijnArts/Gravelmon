@@ -7,7 +7,7 @@ import java.util.*;
 public class Despairay extends drai.dev.gravelmon.pokemon.Pokemon {
     public Despairay() {
         super("Despairay",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(70,
                         100,
                         40,

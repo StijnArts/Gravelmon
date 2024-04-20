@@ -8,7 +8,7 @@ import java.util.*;
 public class Shreadly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shreadly() {
         super("Shreadly",
-                Type.ICE,Type.DARK,
+                Type.ICE, Type.DARK,
                 new Stats(55,
                         125,
                         55,
@@ -17,7 +17,7 @@ public class Shreadly extends drai.dev.gravelmon.pokemon.Pokemon {
                         125),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 11, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Nemesusa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nemesusa() {
         super("Nemesusa",
-                Type.DARK,Type.DRAGON,
+                Type.DARK, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

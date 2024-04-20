@@ -58,7 +58,7 @@ import java.util.*;
 public class Cerisefly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cerisefly() {
         super("Cerisefly",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(70,
                         40,
                         50,

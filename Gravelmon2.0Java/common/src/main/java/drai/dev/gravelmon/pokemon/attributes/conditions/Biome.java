@@ -1,5 +1,7 @@
 package drai.dev.gravelmon.pokemon.attributes.conditions;
 
+import net.minecraft.resources.*;
+
 public enum Biome {
     IS_DEEP_DARK("#cobblemon","is_deep_dark"),
     IS_ARID("#cobblemon","is_arid"),
@@ -80,6 +82,10 @@ public enum Biome {
     Biome(String id, String name){
         this.id = id;
         this.name = name;
+    }
+
+    public ResourceLocation getAsIdentifier(){
+        return new ResourceLocation(id.replaceAll("#", ""), name);
     }
 
     public String getId() {

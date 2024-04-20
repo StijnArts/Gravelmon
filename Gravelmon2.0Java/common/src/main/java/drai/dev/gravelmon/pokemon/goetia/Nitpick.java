@@ -58,7 +58,7 @@ import java.util.*;
 public class Nitpick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nitpick() {
         super("Nitpick",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Unfortunist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Unfortunist() {
         super("Unfortunist",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(66,
                         77,
                         117,

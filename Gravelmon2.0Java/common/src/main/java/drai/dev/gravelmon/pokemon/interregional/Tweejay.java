@@ -7,7 +7,7 @@ import java.util.*;
 public class Tweejay extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tweejay() {
         super("Tweejay",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

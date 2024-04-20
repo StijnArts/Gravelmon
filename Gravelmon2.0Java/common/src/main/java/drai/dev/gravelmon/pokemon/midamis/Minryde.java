@@ -9,7 +9,7 @@ import java.util.*;
 public class Minryde extends drai.dev.gravelmon.pokemon.Pokemon {
     public Minryde() {
         super("Minryde",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(80,
                         90,
                         115,

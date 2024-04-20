@@ -7,7 +7,7 @@ import java.util.*;
 public class Impostache extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impostache() {
         super("Impostache",
-                Type.DARK,Type.DRAGON,
+                Type.DARK, Type.DRAGON,
                 new Stats(80,
                         95,
                         70,

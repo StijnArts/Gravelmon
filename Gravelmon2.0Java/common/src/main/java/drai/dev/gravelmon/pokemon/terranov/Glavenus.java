@@ -58,7 +58,7 @@ import java.util.*;
 public class Glavenus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glavenus() {
         super("Glavenus",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(90,
                         120,
                         90,

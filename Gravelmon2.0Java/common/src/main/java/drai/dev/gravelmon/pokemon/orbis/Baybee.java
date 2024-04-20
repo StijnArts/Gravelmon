@@ -58,7 +58,7 @@ import java.util.*;
 public class Baybee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Baybee() {
         super("Baybee",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(30,
                         30,
                         80,

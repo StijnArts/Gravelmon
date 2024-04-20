@@ -58,7 +58,7 @@ import java.util.*;
 public class Toxwine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toxwine() {
         super("Toxwine",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(0,
                         0,
                         0,

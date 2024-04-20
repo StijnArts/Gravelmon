@@ -6,7 +6,7 @@ import java.util.*;
 public class Piratross extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piratross() {
         super("Piratross",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(62,
                         79,
                         50,

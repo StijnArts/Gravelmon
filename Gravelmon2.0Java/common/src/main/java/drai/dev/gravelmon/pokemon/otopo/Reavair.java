@@ -58,7 +58,7 @@ import java.util.*;
 public class Reavair extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reavair() {
         super("Reavair",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(55,
                         65,
                         32,

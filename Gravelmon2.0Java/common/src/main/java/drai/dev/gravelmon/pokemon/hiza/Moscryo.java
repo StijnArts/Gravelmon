@@ -7,7 +7,7 @@ import java.util.*;
 public class Moscryo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moscryo() {
         super("Moscryo",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(20,
                         45,
                         55,

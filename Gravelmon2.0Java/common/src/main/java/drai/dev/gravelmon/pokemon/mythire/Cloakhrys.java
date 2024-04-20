@@ -7,7 +7,7 @@ import java.util.*;
 public class Cloakhrys extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cloakhrys() {
         super("Cloakhrys",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(50,
                         35,
                         65,

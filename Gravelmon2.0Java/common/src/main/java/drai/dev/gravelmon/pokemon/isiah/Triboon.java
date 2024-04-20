@@ -7,7 +7,7 @@ import java.util.*;
 public class Triboon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Triboon() {
         super("Triboon",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(74,
                         113,
                         52,

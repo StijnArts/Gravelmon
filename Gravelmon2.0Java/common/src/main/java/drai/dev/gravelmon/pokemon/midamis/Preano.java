@@ -9,7 +9,7 @@ import java.util.*;
 public class Preano extends drai.dev.gravelmon.pokemon.Pokemon {
     public Preano() {
         super("Preano",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(50,
                         45,
                         0,

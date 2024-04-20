@@ -58,7 +58,7 @@ import java.util.*;
 public class Linoone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Linoone(int dex) {
         super(dex, "Linoone",
-                Type.DARK,Type.NORMAL,
+                Type.DARK, Type.NORMAL,
                 new Stats(78,
                         70,
                         61,

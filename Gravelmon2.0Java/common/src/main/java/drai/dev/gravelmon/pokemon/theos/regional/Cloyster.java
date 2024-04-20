@@ -58,7 +58,7 @@ import java.util.*;
 public class Cloyster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cloyster(int dex) {
         super(dex, "Cloyster",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(50,
                         95,
                         180,

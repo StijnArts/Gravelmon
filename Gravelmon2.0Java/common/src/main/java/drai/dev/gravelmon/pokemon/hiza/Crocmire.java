@@ -7,7 +7,7 @@ import java.util.*;
 public class Crocmire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crocmire() {
         super("Crocmire",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(135,
                         105,
                         115,

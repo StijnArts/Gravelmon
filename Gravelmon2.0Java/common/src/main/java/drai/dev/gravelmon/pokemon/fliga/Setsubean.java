@@ -58,7 +58,7 @@ import java.util.*;
 public class Setsubean extends drai.dev.gravelmon.pokemon.Pokemon {
     public Setsubean() {
         super("Setsubean",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(85,
                         89,
                         70,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Dodo1 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dodo1() {
         super("Dodo1",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

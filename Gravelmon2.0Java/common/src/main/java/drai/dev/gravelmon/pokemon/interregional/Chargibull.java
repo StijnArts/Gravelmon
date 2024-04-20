@@ -7,7 +7,7 @@ import java.util.*;
 public class Chargibull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chargibull() {
         super("Chargibull",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

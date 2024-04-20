@@ -6,7 +6,7 @@ import java.util.*;
 public class Explosipede extends drai.dev.gravelmon.pokemon.Pokemon {
     public Explosipede() {
         super("Explosipede",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(80,
                         110,
                         70,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Quezabeast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quezabeast() {
         super("Quezabeast",
-                Type.NORMAL,Type.DRAGON,
+                Type.NORMAL, Type.DRAGON,
                 new Stats(110,
                         110,
                         70,

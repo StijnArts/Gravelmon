@@ -58,7 +58,7 @@ import java.util.*;
 public class Tarturough extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tarturough() {
         super("Tarturough",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(62,
                         133,
                         82,

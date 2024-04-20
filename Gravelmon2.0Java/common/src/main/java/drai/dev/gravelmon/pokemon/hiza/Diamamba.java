@@ -7,7 +7,7 @@ import java.util.*;
 public class Diamamba extends drai.dev.gravelmon.pokemon.Pokemon {
     public Diamamba() {
         super("Diamamba",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(55,
                         70,
                         140,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Piloswine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piloswine(int dex) {
         super(dex, "Piloswine",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(100,
                         100,
                         80,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Nurstork extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nurstork() {
         super("Nurstork",
-                Type.FLYING,Type.FAIRY,
+                Type.FLYING, Type.FAIRY,
                 new Stats(120,
                         50,
                         80,

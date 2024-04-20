@@ -7,7 +7,7 @@ import java.util.*;
 public class Upchick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Upchick() {
         super("Upchick",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(46,
                         35,
                         38,

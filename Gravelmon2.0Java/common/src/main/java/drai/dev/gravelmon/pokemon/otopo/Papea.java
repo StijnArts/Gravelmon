@@ -58,7 +58,7 @@ import java.util.*;
 public class Papea extends drai.dev.gravelmon.pokemon.Pokemon {
     public Papea() {
         super("Papea",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(150,
                         5,
                         5,

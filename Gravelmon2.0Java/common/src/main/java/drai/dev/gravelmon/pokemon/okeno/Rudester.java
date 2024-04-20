@@ -6,7 +6,7 @@ import java.util.*;
 public class Rudester extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rudester() {
         super("Rudester",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(80,
                         100,
                         80,

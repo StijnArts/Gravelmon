@@ -7,7 +7,7 @@ import java.util.*;
 public class Flaringo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flaringo() {
         super("Flaringo",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(45,
                         65,
                         54,

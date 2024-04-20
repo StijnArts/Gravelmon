@@ -7,7 +7,7 @@ import java.util.*;
 public class Celestorch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Celestorch() {
         super("Celestorch",
-                Type.ICE,Type.FIRE,
+                Type.ICE, Type.FIRE,
                 new Stats(51,
                         114,
                         36,

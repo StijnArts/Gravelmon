@@ -58,7 +58,7 @@ import java.util.*;
 public class Bowlaphod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bowlaphod() {
         super("Bowlaphod",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(80,
                         75,
                         100,

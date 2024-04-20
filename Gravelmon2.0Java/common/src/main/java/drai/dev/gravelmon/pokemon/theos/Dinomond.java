@@ -58,7 +58,7 @@ import java.util.*;
 public class Dinomond extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dinomond() {
         super("Dinomond",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(70,
                         120,
                         100,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Diretom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Diretom() {
         super("Diretom",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(117,
                         38,
                         20,

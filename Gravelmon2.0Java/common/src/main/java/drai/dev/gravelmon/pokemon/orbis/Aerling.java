@@ -58,7 +58,7 @@ import java.util.*;
 public class Aerling extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aerling() {
         super("Aerling",
-                Type.FLYING,Type.DRAGON,
+                Type.FLYING, Type.DRAGON,
                 new Stats(45,
                         30,
                         40,

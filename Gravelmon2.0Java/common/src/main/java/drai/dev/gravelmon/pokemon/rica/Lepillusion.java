@@ -9,7 +9,7 @@ import java.util.*;
 public class Lepillusion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lepillusion() {
         super("Lepillusion",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(80,
                         50,
                         65,

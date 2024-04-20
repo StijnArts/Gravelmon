@@ -6,7 +6,7 @@ import java.util.*;
 public class Bulwart extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bulwart() {
         super("Bulwart",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(121,
                         113,
                         52,

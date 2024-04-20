@@ -7,7 +7,7 @@ import java.util.*;
 public class Entomortis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Entomortis() {
         super("Entomortis",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(85,
                         135,
                         105,

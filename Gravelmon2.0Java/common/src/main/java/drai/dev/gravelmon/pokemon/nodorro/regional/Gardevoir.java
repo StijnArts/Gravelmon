@@ -58,7 +58,7 @@ import java.util.*;
 public class Gardevoir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gardevoir(int dex) {
         super(dex, "Gardevoir",
-                Type.PSYCHIC,Type.FAIRY,
+                Type.PSYCHIC, Type.FAIRY,
                 new Stats(80,
                         65,
                         65,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Shocenti extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shocenti() {
         super("Shocenti",
-                Type.ELECTRIC,Type.BUG,
+                Type.ELECTRIC, Type.BUG,
                 new Stats(80,
                         120,
                         60,

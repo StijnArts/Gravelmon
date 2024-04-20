@@ -58,7 +58,7 @@ import java.util.*;
 public class Phanpunk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phanpunk() {
         super("Phanpunk",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Lohopper extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lohopper() {
         super("Lohopper",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(59,
                         79,
                         60,

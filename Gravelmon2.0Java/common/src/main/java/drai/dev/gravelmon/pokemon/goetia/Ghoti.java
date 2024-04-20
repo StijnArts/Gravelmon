@@ -58,7 +58,7 @@ import java.util.*;
 public class Ghoti extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ghoti() {
         super("Ghoti",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

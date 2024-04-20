@@ -58,7 +58,7 @@ import java.util.*;
 public class Kathekon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kathekon() {
         super("Kathekon",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

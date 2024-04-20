@@ -7,7 +7,7 @@ import java.util.*;
 public class Manna extends drai.dev.gravelmon.pokemon.Pokemon {
     public Manna() {
         super("Manna",
-                Type.PSYCHIC,Type.FAIRY,
+                Type.PSYCHIC, Type.FAIRY,
                 new Stats(100,
                         60,
                         60,

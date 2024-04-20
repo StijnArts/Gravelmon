@@ -58,7 +58,7 @@ import java.util.*;
 public class Pompet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pompet() {
         super("Pompet",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

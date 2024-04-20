@@ -9,7 +9,7 @@ import java.util.*;
 public class Cavacreep extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cavacreep() {
         super("Cavacreep",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(100,
                         93,
                         80,

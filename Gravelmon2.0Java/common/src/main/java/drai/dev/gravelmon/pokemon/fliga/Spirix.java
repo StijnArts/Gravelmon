@@ -58,7 +58,7 @@ import java.util.*;
 public class Spirix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spirix() {
         super("Spirix",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(103,
                         67,
                         71,

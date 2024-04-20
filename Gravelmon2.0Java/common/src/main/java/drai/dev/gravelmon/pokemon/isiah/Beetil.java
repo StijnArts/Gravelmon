@@ -7,7 +7,7 @@ import java.util.*;
 public class Beetil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beetil() {
         super("Beetil",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(60,
                         80,
                         90,

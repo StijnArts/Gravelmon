@@ -9,7 +9,7 @@ import java.util.*;
 public class Devostoric extends drai.dev.gravelmon.pokemon.Pokemon {
     public Devostoric() {
         super("Devostoric",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(75,
                         95,
                         120,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Venowhal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Venowhal() {
         super("Venowhal",
-                Type.ICE,Type.POISON,
+                Type.ICE, Type.POISON,
                 new Stats(99,
                         124,
                         54,

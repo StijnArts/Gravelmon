@@ -7,7 +7,7 @@ import java.util.*;
 public class Harmosoar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harmosoar() {
         super("Harmosoar",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Medusting extends drai.dev.gravelmon.pokemon.Pokemon {
     public Medusting() {
         super("Medusting",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

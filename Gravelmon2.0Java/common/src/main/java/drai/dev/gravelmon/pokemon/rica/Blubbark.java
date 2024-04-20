@@ -9,7 +9,7 @@ import java.util.*;
 public class Blubbark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blubbark() {
         super("Blubbark",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(90,
                         70,
                         60,

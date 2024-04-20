@@ -58,7 +58,7 @@ import java.util.*;
 public class Burielle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burielle() {
         super("Burielle",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(0,
                         0,
                         0,

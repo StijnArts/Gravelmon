@@ -58,7 +58,7 @@ import java.util.*;
 public class Peckussion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peckussion() {
         super("Peckussion",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(75,
                         120,
                         75,

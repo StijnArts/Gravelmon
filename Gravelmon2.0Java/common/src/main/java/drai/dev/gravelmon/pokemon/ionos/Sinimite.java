@@ -58,7 +58,7 @@ import java.util.*;
 public class Sinimite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sinimite() {
         super("Sinimite",
-                Type.PSYCHIC,Type.ROCK,
+                Type.PSYCHIC, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

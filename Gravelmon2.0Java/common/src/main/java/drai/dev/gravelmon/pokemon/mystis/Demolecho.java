@@ -58,7 +58,7 @@ import java.util.*;
 public class Demolecho extends drai.dev.gravelmon.pokemon.Pokemon {
     public Demolecho() {
         super("Demolecho",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(90,
                         60,
                         80,

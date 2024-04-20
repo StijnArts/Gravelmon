@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianDreepy extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianDreepy() {
         super("Dreepy",
-                Type.DRAGON,Type.WATER,
+                Type.DRAGON, Type.WATER,
                 new Stats(28,
                         60,
                         30,

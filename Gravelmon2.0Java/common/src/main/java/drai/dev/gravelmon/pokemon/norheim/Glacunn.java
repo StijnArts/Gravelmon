@@ -9,7 +9,7 @@ import java.util.*;
 public class Glacunn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glacunn() {
         super("Glacunn",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

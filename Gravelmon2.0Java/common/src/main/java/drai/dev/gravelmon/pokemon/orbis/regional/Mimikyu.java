@@ -58,7 +58,7 @@ import java.util.*;
 public class Mimikyu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mimikyu(int dex) {
         super(dex, "Mimikyu",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(55,
                         90,
                         80,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Komisaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Komisaur() {
         super("Komisaur",
-                Type.ROCK,Type.COSMIC,
+                Type.ROCK, Type.COSMIC,
                 new Stats(55,
                         70,
                         90,

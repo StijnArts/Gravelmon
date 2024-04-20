@@ -7,7 +7,7 @@ import java.util.*;
 public class Reflic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reflic() {
         super("Reflic",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(50,
                         40,
                         30,

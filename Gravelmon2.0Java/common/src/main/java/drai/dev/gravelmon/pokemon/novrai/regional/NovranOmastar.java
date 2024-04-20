@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranOmastar extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranOmastar(int id) {
         super(id, "Omastar",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(70,
                         60,
                         135,

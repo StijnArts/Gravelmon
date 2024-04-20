@@ -7,7 +7,7 @@ import java.util.*;
 public class Bannawk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bannawk() {
         super("Bannawk",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(58,
                         64,
                         60,

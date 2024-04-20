@@ -58,7 +58,7 @@ import java.util.*;
 public class Wurmidrake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wurmidrake() {
         super("Wurmidrake",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(47,
                         60,
                         46,

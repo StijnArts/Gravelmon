@@ -58,7 +58,7 @@ import java.util.*;
 public class Atmosfear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Atmosfear() {
         super("Atmosfear",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(85,
                         50,
                         60,

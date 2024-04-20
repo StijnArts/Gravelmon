@@ -7,7 +7,7 @@ import java.util.*;
 public class Silxie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Silxie() {
         super("Silxie",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(78,
                         55,
                         95,

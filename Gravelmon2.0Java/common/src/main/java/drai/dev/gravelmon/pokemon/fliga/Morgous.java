@@ -58,7 +58,7 @@ import java.util.*;
 public class Morgous extends drai.dev.gravelmon.pokemon.Pokemon {
     public Morgous() {
         super("Morgous",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(130,
                         105,
                         80,

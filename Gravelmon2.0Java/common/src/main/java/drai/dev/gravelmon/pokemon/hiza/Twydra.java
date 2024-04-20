@@ -7,7 +7,7 @@ import java.util.*;
 public class Twydra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Twydra() {
         super("Twydra",
-                Type.FIRE,Type.ICE,
+                Type.FIRE, Type.ICE,
                 new Stats(102,
                         72,
                         72,

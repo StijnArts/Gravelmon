@@ -58,7 +58,7 @@ import java.util.*;
 public class Werevine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Werevine() {
         super("Werevine",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(50,
                         90,
                         43,

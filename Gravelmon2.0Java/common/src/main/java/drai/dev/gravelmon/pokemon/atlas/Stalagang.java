@@ -7,7 +7,7 @@ import java.util.*;
 public class Stalagang extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stalagang() {
         super("Stalagang",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(65,
                         115,
                         110,

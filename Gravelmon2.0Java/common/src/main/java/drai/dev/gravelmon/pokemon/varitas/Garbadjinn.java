@@ -9,7 +9,7 @@ import java.util.*;
 public class Garbadjinn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Garbadjinn() {
         super("Garbadjinn",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(125,
                         75,
                         90,

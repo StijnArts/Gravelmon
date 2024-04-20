@@ -8,7 +8,7 @@ import java.util.*;
 public class Formidet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Formidet() {
         super("Formidet",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(56,
                         65,
                         70,

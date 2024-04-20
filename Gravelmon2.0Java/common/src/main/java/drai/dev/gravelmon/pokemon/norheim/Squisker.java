@@ -9,7 +9,7 @@ import java.util.*;
 public class Squisker extends drai.dev.gravelmon.pokemon.Pokemon {
     public Squisker() {
         super("Squisker",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(120,
                         120,
                         80,

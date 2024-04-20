@@ -9,7 +9,7 @@ import java.util.*;
 public class Stricklisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stricklisk() {
         super("Stricklisk",
-                Type.FIGHTING,Type.DRAGON,
+                Type.FIGHTING, Type.DRAGON,
                 new Stats(80,
                         95,
                         112,

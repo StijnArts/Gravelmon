@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianBounsweet extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianBounsweet(int dex) {
         super(dex, "Bounsweet",
-                Type.GHOST,Type.BUG,
+                Type.GHOST, Type.BUG,
                 new Stats(42,
                         30,
                         38,

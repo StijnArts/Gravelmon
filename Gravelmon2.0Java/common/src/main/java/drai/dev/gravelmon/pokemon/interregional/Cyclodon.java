@@ -7,7 +7,7 @@ import java.util.*;
 public class Cyclodon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cyclodon() {
         super("Cyclodon",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

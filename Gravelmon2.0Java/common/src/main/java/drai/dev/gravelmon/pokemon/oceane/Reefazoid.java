@@ -7,7 +7,7 @@ import java.util.*;
 public class Reefazoid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Reefazoid() {
         super("Reefazoid",
-                Type.FAIRY,Type.ROCK,
+                Type.FAIRY, Type.ROCK,
                 new Stats(97,
                         96,
                         126,

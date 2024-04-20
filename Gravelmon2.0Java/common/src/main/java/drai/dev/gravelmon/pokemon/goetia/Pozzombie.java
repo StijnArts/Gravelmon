@@ -58,7 +58,7 @@ import java.util.*;
 public class Pozzombie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pozzombie() {
         super("Pozzombie",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

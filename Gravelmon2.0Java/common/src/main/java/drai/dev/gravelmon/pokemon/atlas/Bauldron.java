@@ -7,7 +7,7 @@ import java.util.*;
 public class Bauldron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bauldron() {
         super("Bauldron",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(94,
                         54,
                         115,

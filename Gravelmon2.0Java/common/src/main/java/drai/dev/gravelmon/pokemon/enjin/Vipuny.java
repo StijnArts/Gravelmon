@@ -58,7 +58,7 @@ import java.util.*;
 public class Vipuny extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vipuny() {
         super("Vipuny",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(55,
                         30,
                         48,
@@ -66,14 +66,15 @@ public class Vipuny extends drai.dev.gravelmon.pokemon.Pokemon {
                         48,
                         40),
                 List.of(Ability.SWIFT_SWIM,Ability.CUTE_CHARM), Ability.RATTLED,
-                0, 0,
-                new Stats(1,0,0,0,0,0), 0,
+                6, 0,
+                new Stats(1,0,0,0,0,0), 160,
                 0.5,
                 52, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("It is hatched from 1 out of exactly 100 eggs laid by within a thick carpet of sea foam, which covers the young Vipuny for protection and buoyancy. Their natural defense is to wail loudly in hopes that it scares off its attacker."),
-                List.of(),
+                List.of(new EvolutionEntry("vipentide", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"210")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TEARFUL_LOOK,1),
                         new MoveLearnSetEntry(Move.FLAIL,1),
@@ -126,14 +127,15 @@ public class Vipuny extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.UNCOMMON, 9, 27, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Vipuny");
+        setCanSwim(true);
+        setAvoidsLand(true);
 
     }
 

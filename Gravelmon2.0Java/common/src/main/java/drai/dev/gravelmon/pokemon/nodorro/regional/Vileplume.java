@@ -58,7 +58,7 @@ import java.util.*;
 public class Vileplume extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vileplume(int dex) {
         super(dex, "Vileplume",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(75,
                         80,
                         85,

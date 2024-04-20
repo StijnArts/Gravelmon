@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranImpidimp extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranImpidimp(int dex) {
         super(dex, "Impidimp",
-                Type.DARK,Type.STEEL,
+                Type.DARK, Type.STEEL,
                 new Stats(45,
                         55,
                         45,

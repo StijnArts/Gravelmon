@@ -58,7 +58,7 @@ import java.util.*;
 public class Destructos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Destructos() {
         super("Destructos",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(80,
                         120,
                         100,

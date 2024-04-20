@@ -58,7 +58,7 @@ import java.util.*;
 public class Glowyrm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glowyrm() {
         super("Glowyrm",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

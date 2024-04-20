@@ -7,7 +7,7 @@ import java.util.*;
 public class Vimana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vimana() {
         super("Vimana",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(85,
                         51,
                         64,

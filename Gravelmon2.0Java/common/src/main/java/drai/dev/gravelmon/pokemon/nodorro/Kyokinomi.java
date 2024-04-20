@@ -58,7 +58,7 @@ import java.util.*;
 public class Kyokinomi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kyokinomi() {
         super("Kyokinomi",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

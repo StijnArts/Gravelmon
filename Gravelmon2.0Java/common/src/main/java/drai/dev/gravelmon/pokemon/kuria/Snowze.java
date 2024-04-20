@@ -58,7 +58,7 @@ import java.util.*;
 public class Snowze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snowze() {
         super("Snowze",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(140,
                         120,
                         80,

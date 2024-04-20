@@ -7,7 +7,7 @@ import java.util.*;
 public class Encreech extends drai.dev.gravelmon.pokemon.Pokemon {
     public Encreech() {
         super("Encreech",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(90,
                         95,
                         65,

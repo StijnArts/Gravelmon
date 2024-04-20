@@ -7,7 +7,7 @@ import java.util.*;
 public class Sharkastle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sharkastle() {
         super("Sharkastle",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(95,
                         85,
                         100,

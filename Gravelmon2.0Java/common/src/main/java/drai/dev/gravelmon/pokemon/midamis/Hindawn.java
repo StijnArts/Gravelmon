@@ -9,7 +9,7 @@ import java.util.*;
 public class Hindawn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hindawn() {
         super("Hindawn",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(70,
                         85,
                         65,

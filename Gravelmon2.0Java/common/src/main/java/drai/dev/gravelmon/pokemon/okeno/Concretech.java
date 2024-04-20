@@ -6,7 +6,7 @@ import java.util.*;
 public class Concretech extends drai.dev.gravelmon.pokemon.Pokemon {
     public Concretech() {
         super("Concretech",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(90,
                         130,
                         150,

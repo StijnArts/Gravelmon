@@ -58,7 +58,7 @@ import java.util.*;
 public class Snorlax extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snorlax(int dex) {
         super(dex, "Snorlax",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

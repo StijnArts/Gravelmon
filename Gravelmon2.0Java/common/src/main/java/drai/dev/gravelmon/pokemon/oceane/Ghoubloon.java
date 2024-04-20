@@ -7,7 +7,7 @@ import java.util.*;
 public class Ghoubloon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ghoubloon() {
         super("Ghoubloon",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(45,
                         60,
                         55,

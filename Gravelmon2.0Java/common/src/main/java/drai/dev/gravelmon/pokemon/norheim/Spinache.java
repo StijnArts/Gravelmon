@@ -9,7 +9,7 @@ import java.util.*;
 public class Spinache extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spinache() {
         super("Spinache",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(65,
                         70,
                         60,

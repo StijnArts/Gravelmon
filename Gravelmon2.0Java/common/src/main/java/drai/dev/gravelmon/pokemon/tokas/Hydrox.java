@@ -58,7 +58,7 @@ import java.util.*;
 public class Hydrox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hydrox() {
         super("Hydrox",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Sapuddle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sapuddle() {
         super("Sapuddle",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(90,
                         80,
                         40,

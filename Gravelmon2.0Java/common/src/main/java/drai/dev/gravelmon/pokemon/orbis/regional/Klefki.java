@@ -58,7 +58,7 @@ import java.util.*;
 public class Klefki extends drai.dev.gravelmon.pokemon.Pokemon {
     public Klefki(int dex) {
         super(dex, "Klefki",
-                Type.STEEL,Type.FAIRY,
+                Type.STEEL, Type.FAIRY,
                 new Stats(57,
                         80,
                         91,

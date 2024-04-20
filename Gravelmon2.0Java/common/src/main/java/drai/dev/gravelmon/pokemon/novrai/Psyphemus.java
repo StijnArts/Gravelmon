@@ -7,7 +7,7 @@ import java.util.*;
 public class Psyphemus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psyphemus() {
         super("Psyphemus",
-                Type.PSYCHIC,Type.FIGHTING,
+                Type.PSYCHIC, Type.FIGHTING,
                 new Stats(93,
                         98,
                         68,

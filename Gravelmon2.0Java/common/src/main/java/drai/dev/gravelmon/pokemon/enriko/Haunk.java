@@ -7,7 +7,7 @@ import java.util.*;
 public class Haunk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Haunk() {
         super("Haunk",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(50,
                         10,
                         30,

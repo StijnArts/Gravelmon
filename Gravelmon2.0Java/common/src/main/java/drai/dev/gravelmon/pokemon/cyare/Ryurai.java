@@ -58,7 +58,7 @@ import java.util.*;
 public class Ryurai extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ryurai() {
         super("Ryurai",
-                Type.ELECTRIC,Type.DRAGON,
+                Type.ELECTRIC, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Canifang extends drai.dev.gravelmon.pokemon.Pokemon {
     public Canifang() {
         super("Canifang",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(75,
                         110,
                         70,

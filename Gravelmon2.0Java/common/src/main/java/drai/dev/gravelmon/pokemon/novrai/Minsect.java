@@ -7,7 +7,7 @@ import java.util.*;
 public class Minsect extends drai.dev.gravelmon.pokemon.Pokemon {
     public Minsect() {
         super("Minsect",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(45,
                         42,
                         48,

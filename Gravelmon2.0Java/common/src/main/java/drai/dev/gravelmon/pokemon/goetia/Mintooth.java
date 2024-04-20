@@ -58,7 +58,7 @@ import java.util.*;
 public class Mintooth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mintooth() {
         super("Mintooth",
-                Type.FAIRY,Type.ROCK,
+                Type.FAIRY, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

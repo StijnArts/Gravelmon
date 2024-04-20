@@ -58,7 +58,7 @@ import java.util.*;
 public class Medusien extends drai.dev.gravelmon.pokemon.Pokemon {
     public Medusien() {
         super("Medusien",
-                Type.PSYCHIC,Type.STEEL,
+                Type.PSYCHIC, Type.STEEL,
                 new Stats(40,
                         20,
                         130,

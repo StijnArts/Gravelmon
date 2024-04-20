@@ -58,7 +58,7 @@ import java.util.*;
 public class Marisite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marisite() {
         super("Marisite",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(0,
                         0,
                         0,

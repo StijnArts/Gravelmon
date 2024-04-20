@@ -7,7 +7,7 @@ import java.util.*;
 public class Devilicious extends drai.dev.gravelmon.pokemon.Pokemon {
     public Devilicious() {
         super("Devilicious",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(60,
                         50,
                         90,

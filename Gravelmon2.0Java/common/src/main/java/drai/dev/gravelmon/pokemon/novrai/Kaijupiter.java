@@ -7,7 +7,7 @@ import java.util.*;
 public class Kaijupiter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kaijupiter() {
         super("Kaijupiter",
-                Type.PSYCHIC,Type.DRAGON,
+                Type.PSYCHIC, Type.DRAGON,
                 new Stats(95,
                         64,
                         88,

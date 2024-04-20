@@ -58,7 +58,7 @@ import java.util.*;
 public class Empoleon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Empoleon(int dex) {
         super(dex, "Empoleon",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(84,
                         86,
                         88,

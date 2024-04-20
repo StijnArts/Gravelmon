@@ -7,7 +7,7 @@ import java.util.*;
 public class Bonemancer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bonemancer() {
         super("Bonemancer",
-                Type.GHOST,Type.FIGHTING,
+                Type.GHOST, Type.FIGHTING,
                 new Stats(70,
                         100,
                         70,

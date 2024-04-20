@@ -9,7 +9,7 @@ import java.util.*;
 public class Kamurados extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kamurados() {
         super("Kamurados",
-                Type.WATER,Type.BUG,
+                Type.WATER, Type.BUG,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Phosos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phosos() {
         super("Phosos",
-                Type.LIGHT,Type.FLYING,
+                Type.LIGHT, Type.FLYING,
                 new Stats(110,
                         80,
                         90,

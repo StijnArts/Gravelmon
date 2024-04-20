@@ -58,7 +58,7 @@ import java.util.*;
 public class Catopact extends drai.dev.gravelmon.pokemon.Pokemon {
     public Catopact() {
         super("Catopact",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

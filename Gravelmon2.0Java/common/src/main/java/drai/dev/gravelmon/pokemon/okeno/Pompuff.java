@@ -6,7 +6,7 @@ import java.util.*;
 public class Pompuff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pompuff() {
         super("Pompuff",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(50,
                         35,
                         55,

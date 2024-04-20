@@ -8,7 +8,7 @@ import java.util.*;
 public class Gallowing extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gallowing() {
         super("Gallowing",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(50,
                         75,
                         65,
@@ -17,7 +17,7 @@ public class Gallowing extends drai.dev.gravelmon.pokemon.Pokemon {
                         70),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 6, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 160,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Walrein extends drai.dev.gravelmon.pokemon.Pokemon {
     public Walrein(int dex) {
         super(dex, "Walrein",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(110,
                         80,
                         90,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Nervreck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nervreck() {
         super("Nervreck",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(80,
                         90,
                         70,

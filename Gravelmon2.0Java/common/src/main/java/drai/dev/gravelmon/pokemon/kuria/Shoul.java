@@ -58,7 +58,7 @@ import java.util.*;
 public class Shoul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shoul() {
         super("Shoul",
-                Type.GHOST,Type.ICE,
+                Type.GHOST, Type.ICE,
                 new Stats(36,
                         61,
                         40,

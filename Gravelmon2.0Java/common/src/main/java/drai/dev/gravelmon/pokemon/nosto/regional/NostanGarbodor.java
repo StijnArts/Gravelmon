@@ -7,7 +7,7 @@ import java.util.*;
 public class NostanGarbodor extends drai.dev.gravelmon.pokemon.Pokemon {
     public NostanGarbodor() {
         super("Garbodor",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

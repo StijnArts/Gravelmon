@@ -7,7 +7,7 @@ import java.util.*;
 public class Magemeltre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magemeltre() {
         super("Magemeltre",
-                Type.FIRE,Type.PSYCHIC,
+                Type.FIRE, Type.PSYCHIC,
                 new Stats(80,
                         85,
                         65,

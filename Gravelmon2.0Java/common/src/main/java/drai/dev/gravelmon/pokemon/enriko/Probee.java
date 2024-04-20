@@ -7,7 +7,7 @@ import java.util.*;
 public class Probee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Probee() {
         super("Probee",
-                Type.PSYCHIC,Type.BUG,
+                Type.PSYCHIC, Type.BUG,
                 new Stats(0,
                         0,
                         0,

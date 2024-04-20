@@ -58,7 +58,7 @@ import java.util.*;
 public class Orcanfrak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Orcanfrak() {
         super("Orcanfrak",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(72,
                         70,
                         120,

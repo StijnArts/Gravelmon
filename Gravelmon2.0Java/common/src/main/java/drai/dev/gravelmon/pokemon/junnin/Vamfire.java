@@ -11,7 +11,7 @@ import java.util.*;
 public class Vamfire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vamfire() {
         super("Vamfire",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(72,
                         109,
                         83,

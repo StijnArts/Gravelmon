@@ -58,7 +58,7 @@ import java.util.*;
 public class Shalegion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shalegion() {
         super("Shalegion",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

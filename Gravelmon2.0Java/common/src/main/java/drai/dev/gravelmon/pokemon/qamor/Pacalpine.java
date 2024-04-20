@@ -9,7 +9,7 @@ import java.util.*;
 public class Pacalpine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pacalpine() {
         super("Pacalpine",
-                Type.ROCK,Type.ICE,
+                Type.ROCK, Type.ICE,
                 new Stats(93,
                         55,
                         120,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Narysite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Narysite() {
         super("Narysite",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(55,
                         21,
                         32,

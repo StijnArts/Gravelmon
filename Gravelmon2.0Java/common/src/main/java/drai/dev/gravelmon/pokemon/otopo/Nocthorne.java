@@ -58,7 +58,7 @@ import java.util.*;
 public class Nocthorne extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nocthorne() {
         super("Nocthorne",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(95,
                         115,
                         74,

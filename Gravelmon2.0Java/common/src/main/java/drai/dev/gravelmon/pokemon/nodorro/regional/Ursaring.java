@@ -58,7 +58,7 @@ import java.util.*;
 public class Ursaring extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ursaring(int dex) {
         super(dex, "Ursaring",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(100,
                         135,
                         81,

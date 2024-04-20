@@ -58,7 +58,7 @@ import java.util.*;
 public class Cascaprine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cascaprine() {
         super("Cascaprine",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Scovillain extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scovillain(int dex) {
         super(dex, "Scovillain",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(65,
                         108,
                         65,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Bonzire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bonzire() {
         super("Bonzire",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(75,
                         75,
                         60,

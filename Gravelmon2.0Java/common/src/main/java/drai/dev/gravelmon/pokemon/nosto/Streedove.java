@@ -7,7 +7,7 @@ import java.util.*;
 public class Streedove extends drai.dev.gravelmon.pokemon.Pokemon {
     public Streedove() {
         super("Streedove",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

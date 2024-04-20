@@ -58,7 +58,7 @@ import java.util.*;
 public class Scorperor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scorperor() {
         super("Scorperor",
-                Type.DARK,Type.BUG,
+                Type.DARK, Type.BUG,
                 new Stats(76,
                         126,
                         106,

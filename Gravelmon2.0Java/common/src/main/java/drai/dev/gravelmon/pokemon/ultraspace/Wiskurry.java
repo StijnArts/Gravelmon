@@ -58,7 +58,7 @@ import java.util.*;
 public class Wiskurry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wiskurry() {
         super("Wiskurry",
-                Type.NORMAL,Type.POISON,
+                Type.NORMAL, Type.POISON,
                 new Stats(0,
                         0,
                         0,

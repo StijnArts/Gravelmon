@@ -9,7 +9,7 @@ import java.util.*;
 public class Pumfin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pumfin() {
         super("Pumfin",
-                Type.DARK,Type.GRASS,
+                Type.DARK, Type.GRASS,
                 new Stats(66,
                         77,
                         76,

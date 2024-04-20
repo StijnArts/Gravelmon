@@ -58,7 +58,7 @@ import java.util.*;
 public class Astrowatt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Astrowatt() {
         super("Astrowatt",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(70,
                         35,
                         105,

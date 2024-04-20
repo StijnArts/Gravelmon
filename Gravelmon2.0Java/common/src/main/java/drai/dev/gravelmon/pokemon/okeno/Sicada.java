@@ -6,7 +6,7 @@ import java.util.*;
 public class Sicada extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sicada() {
         super("Sicada",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(34,
                         40,
                         30,

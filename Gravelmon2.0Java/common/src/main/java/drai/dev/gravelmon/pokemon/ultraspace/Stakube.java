@@ -58,7 +58,7 @@ import java.util.*;
 public class Stakube extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stakube() {
         super("Stakube",
-                Type.ROCK,Type.STEEL,
+                Type.ROCK, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

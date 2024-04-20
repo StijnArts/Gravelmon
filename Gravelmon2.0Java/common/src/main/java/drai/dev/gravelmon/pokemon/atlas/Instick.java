@@ -7,7 +7,7 @@ import java.util.*;
 public class Instick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Instick() {
         super("Instick",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(51,
                         64,
                         55,

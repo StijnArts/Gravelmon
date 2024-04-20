@@ -58,7 +58,7 @@ import java.util.*;
 public class Lunectric extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lunectric() {
         super("Lunectric",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(0,
                         0,
                         0,

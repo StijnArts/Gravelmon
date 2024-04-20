@@ -9,7 +9,7 @@ import java.util.*;
 public class Vaiking extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vaiking() {
         super("Vaiking",
-                Type.STEEL,Type.FIGHTING,
+                Type.STEEL, Type.FIGHTING,
                 new Stats(75,
                         120,
                         130,

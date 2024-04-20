@@ -7,7 +7,7 @@ import java.util.*;
 public class Shaltuff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shaltuff() {
         super("Shaltuff",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(55,
                         60,
                         55,

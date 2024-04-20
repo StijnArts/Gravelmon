@@ -7,7 +7,7 @@ import java.util.*;
 public class Luradune extends drai.dev.gravelmon.pokemon.Pokemon {
     public Luradune() {
         super("Luradune",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(60,
                         65,
                         70,

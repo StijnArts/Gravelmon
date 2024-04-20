@@ -9,7 +9,7 @@ import java.util.*;
 public class Raniron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Raniron() {
         super("Raniron",
-                Type.NORMAL,Type.STEEL,
+                Type.NORMAL, Type.STEEL,
                 new Stats(50,
                         55,
                         70,

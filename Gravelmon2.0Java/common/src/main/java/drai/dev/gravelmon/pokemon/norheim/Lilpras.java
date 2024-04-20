@@ -9,7 +9,7 @@ import java.util.*;
 public class Lilpras extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lilpras() {
         super("Lilpras",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(0,
                         0,
                         0,

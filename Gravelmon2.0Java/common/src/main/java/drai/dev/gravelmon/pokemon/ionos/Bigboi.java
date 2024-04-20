@@ -58,7 +58,7 @@ import java.util.*;
 public class Bigboi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bigboi() {
         super("Bigboi",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

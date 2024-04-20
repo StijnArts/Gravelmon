@@ -9,7 +9,7 @@ import java.util.*;
 public class Conchorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conchorn() {
         super("Conchorn",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(75,
                         70,
                         150,

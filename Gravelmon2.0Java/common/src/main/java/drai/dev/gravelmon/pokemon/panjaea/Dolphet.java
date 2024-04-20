@@ -58,7 +58,7 @@ import java.util.*;
 public class Dolphet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dolphet() {
         super("Dolphet",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

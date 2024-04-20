@@ -58,7 +58,7 @@ import java.util.*;
 public class Getzawyrm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Getzawyrm() {
         super("Getzawyrm",
-                Type.DRAGON,Type.GRASS,
+                Type.DRAGON, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

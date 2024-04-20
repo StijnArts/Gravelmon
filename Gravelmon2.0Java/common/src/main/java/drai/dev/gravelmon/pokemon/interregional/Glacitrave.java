@@ -7,7 +7,7 @@ import java.util.*;
 public class Glacitrave extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glacitrave() {
         super("Glacitrave",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

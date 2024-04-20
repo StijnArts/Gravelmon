@@ -67,13 +67,14 @@ public class Cocoward extends drai.dev.gravelmon.pokemon.Pokemon {
                         75),
                 List.of(Ability.RATTLED), Ability.CHLOROPHYLL,
                 9, 163,
-                new Stats(0,1,0,0,0,0), 0,
+                new Stats(0,1,0,0,0,0), 160,
                 0.5,
                 116, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.HUMAN_LIKE),
                 List.of("Cocoward spend their days resting under palm trees. They're not very good fighters, so they often just run for the hills when they sense danger."),
-                List.of(),
+                List.of(new EvolutionEntry("cocombat", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.SEEDSHOT,3),
@@ -148,11 +149,12 @@ public class Cocoward extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,"tm"),
                         new MoveLearnSetEntry(Move.MACH_PUNCH,"tm"),
                         new MoveLearnSetEntry(Move.LEECH_SEED,"tm"),
-                        new MoveLearnSetEntry(Move.FIRST_IMPRESSION,"tm")                        ),
+                        new MoveLearnSetEntry(Move.FIRST_IMPRESSION,"tm")
+                ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 26, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL_ISLAND)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -58,7 +58,7 @@ import java.util.*;
 public class Candelaria extends drai.dev.gravelmon.pokemon.Pokemon {
     public Candelaria() {
         super("Candelaria",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

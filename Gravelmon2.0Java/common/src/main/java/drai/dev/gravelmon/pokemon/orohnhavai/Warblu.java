@@ -13,7 +13,7 @@ import java.util.*;
 public class Warblu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Warblu() {
         super("Warblu",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(51,
                         62,
                         35,

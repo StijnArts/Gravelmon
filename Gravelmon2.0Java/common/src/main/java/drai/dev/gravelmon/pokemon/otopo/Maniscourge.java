@@ -58,7 +58,7 @@ import java.util.*;
 public class Maniscourge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maniscourge() {
         super("Maniscourge",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

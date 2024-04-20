@@ -58,7 +58,7 @@ import java.util.*;
 public class Cabochomp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cabochomp() {
         super("Cabochomp",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(40,
                         70,
                         40,

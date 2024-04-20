@@ -7,7 +7,7 @@ import java.util.*;
 public class Lumbrawl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumbrawl() {
         super("Lumbrawl",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(90,
                         105,
                         50,

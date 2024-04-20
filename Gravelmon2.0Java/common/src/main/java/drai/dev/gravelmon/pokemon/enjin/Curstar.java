@@ -58,7 +58,7 @@ import java.util.*;
 public class Curstar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Curstar() {
         super("Curstar",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(30,
                         40,
                         65,
@@ -98,14 +98,16 @@ public class Curstar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYBEAM,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 13, 33, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Curstar");
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
+
 
     }
 

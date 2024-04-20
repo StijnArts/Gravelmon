@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianSwablu extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianSwablu(int dex) {
         super(dex,"Swablu",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(45,
                         40,
                         60,

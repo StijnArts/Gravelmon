@@ -7,7 +7,7 @@ import java.util.*;
 public class Nautilite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nautilite() {
         super("Nautilite",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

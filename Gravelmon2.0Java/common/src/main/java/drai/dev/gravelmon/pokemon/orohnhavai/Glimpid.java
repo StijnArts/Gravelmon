@@ -9,7 +9,7 @@ import java.util.*;
 public class Glimpid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glimpid() {
         super("Glimpid",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(30,
                         35,
                         25,

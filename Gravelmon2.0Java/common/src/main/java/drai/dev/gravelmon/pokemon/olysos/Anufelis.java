@@ -58,7 +58,7 @@ import java.util.*;
 public class Anufelis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anufelis() {
         super("Anufelis",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(80,
                         140,
                         80,

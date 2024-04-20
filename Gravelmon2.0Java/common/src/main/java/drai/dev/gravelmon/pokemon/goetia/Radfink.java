@@ -58,7 +58,7 @@ import java.util.*;
 public class Radfink extends drai.dev.gravelmon.pokemon.Pokemon {
     public Radfink() {
         super("Radfink",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

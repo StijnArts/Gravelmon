@@ -58,7 +58,7 @@ import java.util.*;
 public class Peap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peap() {
         super("Peap",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

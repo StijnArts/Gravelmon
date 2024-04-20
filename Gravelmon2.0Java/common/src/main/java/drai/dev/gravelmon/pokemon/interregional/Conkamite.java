@@ -7,7 +7,7 @@ import java.util.*;
 public class Conkamite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conkamite() {
         super("Conkamite",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

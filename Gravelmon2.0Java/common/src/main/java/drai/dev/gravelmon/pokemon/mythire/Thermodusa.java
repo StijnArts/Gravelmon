@@ -7,7 +7,7 @@ import java.util.*;
 public class Thermodusa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thermodusa() {
         super("Thermodusa",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

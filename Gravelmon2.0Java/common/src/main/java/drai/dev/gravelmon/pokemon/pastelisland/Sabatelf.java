@@ -58,7 +58,7 @@ import java.util.*;
 public class Sabatelf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sabatelf() {
         super("Sabatelf",
-                Type.FAIRY,Type.STEEL,
+                Type.FAIRY, Type.STEEL,
                 new Stats(75,
                         75,
                         80,

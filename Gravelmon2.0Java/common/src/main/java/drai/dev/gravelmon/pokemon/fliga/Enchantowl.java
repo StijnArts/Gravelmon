@@ -58,7 +58,7 @@ import java.util.*;
 public class Enchantowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Enchantowl() {
         super("Enchantowl",
-                Type.PSYCHIC,Type.FAIRY,
+                Type.PSYCHIC, Type.FAIRY,
                 new Stats(105,
                         55,
                         75,

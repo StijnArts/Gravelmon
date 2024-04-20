@@ -9,7 +9,7 @@ import java.util.*;
 public class Twirpant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Twirpant() {
         super("Twirpant",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(55,
                         70,
                         65,

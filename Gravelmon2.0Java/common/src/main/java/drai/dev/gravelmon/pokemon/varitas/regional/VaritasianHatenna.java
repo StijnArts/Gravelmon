@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianHatenna extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianHatenna() {
         super("Hatenna",
-                Type.PSYCHIC,Type.GROUND,
+                Type.PSYCHIC, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

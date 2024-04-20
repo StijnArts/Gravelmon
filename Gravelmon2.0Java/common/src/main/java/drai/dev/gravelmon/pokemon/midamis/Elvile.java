@@ -9,7 +9,7 @@ import java.util.*;
 public class Elvile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elvile() {
         super("Elvile",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(90,
                         65,
                         95,

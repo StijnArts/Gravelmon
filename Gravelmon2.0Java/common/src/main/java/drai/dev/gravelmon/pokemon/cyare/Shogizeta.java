@@ -58,7 +58,7 @@ import java.util.*;
 public class Shogizeta extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shogizeta() {
         super("Shogizeta",
-                Type.PSYCHIC,Type.FIGHTING,
+                Type.PSYCHIC, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

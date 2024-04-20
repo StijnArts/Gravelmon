@@ -7,7 +7,7 @@ import java.util.*;
 public class Vermini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vermini() {
         super("Vermini",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(70,
                         30,
                         55,

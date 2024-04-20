@@ -58,7 +58,7 @@ import java.util.*;
 public class Conchle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conchle() {
         super("Conchle",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(50,
                         45,
                         92,

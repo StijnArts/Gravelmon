@@ -7,7 +7,7 @@ import java.util.*;
 public class Hauntberg extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hauntberg() {
         super("Hauntberg",
-                Type.ICE,Type.GHOST,
+                Type.ICE, Type.GHOST,
                 new Stats(105,
                         70,
                         100,

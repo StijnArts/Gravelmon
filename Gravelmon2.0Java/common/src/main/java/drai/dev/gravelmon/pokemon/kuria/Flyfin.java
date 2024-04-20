@@ -58,7 +58,7 @@ import java.util.*;
 public class Flyfin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flyfin() {
         super("Flyfin",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(53,
                         82,
                         52,

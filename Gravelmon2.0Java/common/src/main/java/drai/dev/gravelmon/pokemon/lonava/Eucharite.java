@@ -7,7 +7,7 @@ import java.util.*;
 public class Eucharite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eucharite() {
         super("Eucharite",
-                Type.FIGHTING,Type.WATER,
+                Type.FIGHTING, Type.WATER,
                 new Stats(70,
                         110,
                         70,

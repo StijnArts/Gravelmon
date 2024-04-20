@@ -6,7 +6,7 @@ import java.util.*;
 public class OkenianCrocodily extends drai.dev.gravelmon.pokemon.Pokemon {
     public OkenianCrocodily(int dex) {
         super(dex, "Crocodily",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(45,
                         81,
                         53,

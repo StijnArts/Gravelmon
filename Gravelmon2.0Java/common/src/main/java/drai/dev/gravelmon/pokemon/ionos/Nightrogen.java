@@ -58,7 +58,7 @@ import java.util.*;
 public class Nightrogen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nightrogen() {
         super("Nightrogen",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(190,
                         90,
                         70,

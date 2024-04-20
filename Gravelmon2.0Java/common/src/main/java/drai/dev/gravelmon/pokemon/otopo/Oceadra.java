@@ -58,7 +58,7 @@ import java.util.*;
 public class Oceadra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oceadra() {
         super("Oceadra",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

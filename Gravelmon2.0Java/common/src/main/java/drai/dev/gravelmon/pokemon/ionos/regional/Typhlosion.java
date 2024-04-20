@@ -58,7 +58,7 @@ import java.util.*;
 public class Typhlosion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Typhlosion(int dex) {
         super(dex, "Typhlosion",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,
                         0,

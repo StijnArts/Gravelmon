@@ -58,7 +58,7 @@ import java.util.*;
 public class Lairon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lairon(int dex) {
         super(dex, "Lairon",
-                Type.STEEL,Type.ROCK,
+                Type.STEEL, Type.ROCK,
                 new Stats(60,
                         90,
                         120,

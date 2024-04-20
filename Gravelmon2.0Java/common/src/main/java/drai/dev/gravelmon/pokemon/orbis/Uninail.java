@@ -58,7 +58,7 @@ import java.util.*;
 public class Uninail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Uninail() {
         super("Uninail",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

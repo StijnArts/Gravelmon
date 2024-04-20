@@ -58,7 +58,7 @@ import java.util.*;
 public class Stachick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stachick() {
         super("Stachick",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(40,
                         41,
                         34,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Cactank extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cactank() {
         super("Cactank",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(65,
                         65,
                         130,

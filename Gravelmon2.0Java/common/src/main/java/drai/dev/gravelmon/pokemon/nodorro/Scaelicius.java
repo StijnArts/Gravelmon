@@ -58,7 +58,7 @@ import java.util.*;
 public class Scaelicius extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scaelicius() {
         super("Scaelicius",
-                Type.FLYING,Type.DRAGON,
+                Type.FLYING, Type.DRAGON,
                 new Stats(80,
                         130,
                         95,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sovynik extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sovynik() {
         super("Sovynik",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Minotarge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Minotarge() {
         super("Minotarge",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(90,
                         105,
                         115,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Chickoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chickoo() {
         super("Chickoo",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

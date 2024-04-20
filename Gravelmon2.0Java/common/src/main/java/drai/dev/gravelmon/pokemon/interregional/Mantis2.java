@@ -7,7 +7,7 @@ import java.util.*;
 public class Mantis2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mantis2() {
         super("Mantis2",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

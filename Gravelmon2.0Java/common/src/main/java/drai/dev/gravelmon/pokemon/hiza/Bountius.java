@@ -7,7 +7,7 @@ import java.util.*;
 public class Bountius extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bountius() {
         super("Bountius",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(134,
                         75,
                         111,

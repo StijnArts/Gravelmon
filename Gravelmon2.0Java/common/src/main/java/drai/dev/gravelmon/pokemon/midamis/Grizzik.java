@@ -9,7 +9,7 @@ import java.util.*;
 public class Grizzik extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grizzik() {
         super("Grizzik",
-                Type.FIGHTING,Type.ICE,
+                Type.FIGHTING, Type.ICE,
                 new Stats(95,
                         130,
                         70,

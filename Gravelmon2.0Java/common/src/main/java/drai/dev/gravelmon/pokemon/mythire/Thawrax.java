@@ -7,7 +7,7 @@ import java.util.*;
 public class Thawrax extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thawrax() {
         super("Thawrax",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(70,
                         25,
                         145,

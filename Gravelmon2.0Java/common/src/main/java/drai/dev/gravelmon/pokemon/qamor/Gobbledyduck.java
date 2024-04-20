@@ -9,7 +9,7 @@ import java.util.*;
 public class Gobbledyduck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gobbledyduck() {
         super("Gobbledyduck",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(107,
                         96,
                         82,

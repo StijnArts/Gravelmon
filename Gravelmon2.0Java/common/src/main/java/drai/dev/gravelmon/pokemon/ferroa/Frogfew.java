@@ -13,7 +13,7 @@ import java.util.*;
 public class Frogfew extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frogfew() {
         super("Frogfew",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(65,
                         75,
                         40,

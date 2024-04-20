@@ -7,7 +7,7 @@ import java.util.*;
 public class Blowzzard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blowzzard() {
         super("Blowzzard",
-                Type.ICE,Type.POISON,
+                Type.ICE, Type.POISON,
                 new Stats(70,
                         75,
                         85,

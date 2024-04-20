@@ -58,7 +58,7 @@ import java.util.*;
 public class Sansque extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sansque() {
         super("Sansque",
-                Type.GROUND,Type.ROCK,
+                Type.GROUND, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

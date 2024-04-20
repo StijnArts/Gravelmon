@@ -7,7 +7,7 @@ import java.util.*;
 public class Nemosis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nemosis() {
         super("Nemosis",
-                Type.ELECTRIC,Type.WATER,
+                Type.ELECTRIC, Type.WATER,
                 new Stats(57,
                         65,
                         46,

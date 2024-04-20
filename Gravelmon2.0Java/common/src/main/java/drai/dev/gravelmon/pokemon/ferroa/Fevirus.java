@@ -7,7 +7,7 @@ import java.util.*;
 public class Fevirus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fevirus() {
         super("Fevirus",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(70,
                         98,
                         68,

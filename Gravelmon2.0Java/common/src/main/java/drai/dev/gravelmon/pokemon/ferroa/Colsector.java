@@ -7,7 +7,7 @@ import java.util.*;
 public class Colsector extends drai.dev.gravelmon.pokemon.Pokemon {
     public Colsector() {
         super("Colsector",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(65,
                         75,
                         130,

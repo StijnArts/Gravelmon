@@ -58,7 +58,7 @@ import java.util.*;
 public class Flaries extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flaries() {
         super("Flaries",
-                Type.GROUND,Type.FIRE,
+                Type.GROUND, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

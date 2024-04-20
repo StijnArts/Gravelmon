@@ -58,7 +58,7 @@ import java.util.*;
 public class Mamroth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mamroth() {
         super("Mamroth",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

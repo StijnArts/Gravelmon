@@ -58,7 +58,7 @@ import java.util.*;
 public class Flabb extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flabb(int dex) {
         super(dex, "Flabb",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(44,
                         38,
                         39,

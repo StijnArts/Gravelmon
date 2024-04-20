@@ -9,7 +9,7 @@ import java.util.*;
 public class Magnificant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magnificant() {
         super("Magnificant",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(100,
                         60,
                         60,

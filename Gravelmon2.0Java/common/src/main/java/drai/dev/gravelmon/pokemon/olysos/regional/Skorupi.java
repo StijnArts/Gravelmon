@@ -58,7 +58,7 @@ import java.util.*;
 public class Skorupi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skorupi(int dex) {
         super(dex, "Skorupi",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

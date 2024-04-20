@@ -7,7 +7,7 @@ import java.util.*;
 public class Shrimpnotize extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shrimpnotize() {
         super("Shrimpnotize",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

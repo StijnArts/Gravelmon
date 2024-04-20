@@ -58,7 +58,7 @@ import java.util.*;
 public class Mechoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mechoon() {
         super("Mechoon",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(60,
                         65,
                         80,

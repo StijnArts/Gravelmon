@@ -58,7 +58,7 @@ import java.util.*;
 public class Binacle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Binacle(int dex) {
         super(dex, "Binacle",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(42,
                         52,
                         67,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Brrbear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brrbear() {
         super("Brrbear",
-                Type.ICE,Type.ELECTRIC,
+                Type.ICE, Type.ELECTRIC,
                 new Stats(60,
                         40,
                         70,

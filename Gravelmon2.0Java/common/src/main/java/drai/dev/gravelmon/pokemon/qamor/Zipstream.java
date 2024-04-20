@@ -9,7 +9,7 @@ import java.util.*;
 public class Zipstream extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zipstream() {
         super("Zipstream",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(48,
                         74,
                         45,

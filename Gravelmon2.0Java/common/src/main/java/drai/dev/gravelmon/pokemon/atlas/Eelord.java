@@ -7,7 +7,7 @@ import java.util.*;
 public class Eelord extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eelord() {
         super("Eelord",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(85,
                         110,
                         72,

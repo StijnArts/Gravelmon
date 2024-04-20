@@ -8,7 +8,7 @@ import java.util.*;
 public class Bramoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bramoth() {
         super("Bramoth",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(75,
                         65,
                         60,

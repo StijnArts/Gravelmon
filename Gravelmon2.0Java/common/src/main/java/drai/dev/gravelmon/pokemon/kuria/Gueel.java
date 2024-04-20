@@ -58,7 +58,7 @@ import java.util.*;
 public class Gueel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gueel() {
         super("Gueel",
-                Type.STEEL,Type.LIGHT,
+                Type.STEEL, Type.LIGHT,
                 new Stats(55,
                         91,
                         115,

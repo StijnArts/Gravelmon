@@ -7,7 +7,7 @@ import java.util.*;
 public class Whirlibyg extends drai.dev.gravelmon.pokemon.Pokemon {
     public Whirlibyg() {
         super("Whirlibyg",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(40,
                         30,
                         40,

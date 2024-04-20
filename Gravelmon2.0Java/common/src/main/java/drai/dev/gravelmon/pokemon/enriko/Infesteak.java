@@ -7,7 +7,7 @@ import java.util.*;
 public class Infesteak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Infesteak() {
         super("Infesteak",
-                Type.FLYING,Type.POISON,
+                Type.FLYING, Type.POISON,
                 new Stats(60,
                         50,
                         120,

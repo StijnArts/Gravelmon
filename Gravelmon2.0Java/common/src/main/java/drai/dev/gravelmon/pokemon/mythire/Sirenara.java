@@ -7,7 +7,7 @@ import java.util.*;
 public class Sirenara extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sirenara() {
         super("Sirenara",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(70,
                         50,
                         80,

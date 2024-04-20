@@ -58,7 +58,7 @@ import java.util.*;
 public class Cawpin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cawpin() {
         super("Cawpin",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

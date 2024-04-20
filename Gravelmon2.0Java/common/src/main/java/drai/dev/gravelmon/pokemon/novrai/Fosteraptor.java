@@ -7,7 +7,7 @@ import java.util.*;
 public class Fosteraptor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fosteraptor() {
         super("Fosteraptor",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(130,
                         70,
                         85,

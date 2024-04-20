@@ -7,7 +7,7 @@ import java.util.*;
 public class Vomelet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vomelet() {
         super("Vomelet",
-                Type.POISON,Type.ROCK,
+                Type.POISON, Type.ROCK,
                 new Stats(85,
                         125,
                         100,

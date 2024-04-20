@@ -7,7 +7,7 @@ import java.util.*;
 public class Sphagern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sphagern() {
         super("Sphagern",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(60,
                         50,
                         70,

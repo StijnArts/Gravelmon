@@ -58,7 +58,7 @@ import java.util.*;
 public class Vibrava extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vibrava(int dex) {
         super(dex, "Vibrava",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

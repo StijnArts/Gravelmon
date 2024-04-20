@@ -58,7 +58,7 @@ import java.util.*;
 public class Alphayena extends drai.dev.gravelmon.pokemon.Pokemon {
     public Alphayena() {
         super("Alphayena",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

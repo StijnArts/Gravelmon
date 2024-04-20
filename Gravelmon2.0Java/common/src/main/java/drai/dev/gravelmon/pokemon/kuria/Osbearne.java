@@ -58,7 +58,7 @@ import java.util.*;
 public class Osbearne extends drai.dev.gravelmon.pokemon.Pokemon {
     public Osbearne() {
         super("Osbearne",
-                Type.SOUND,Type.STEEL,
+                Type.SOUND, Type.STEEL,
                 new Stats(100,
                         130,
                         100,

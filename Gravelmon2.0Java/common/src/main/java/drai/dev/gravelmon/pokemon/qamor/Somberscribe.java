@@ -9,7 +9,7 @@ import java.util.*;
 public class Somberscribe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Somberscribe() {
         super("Somberscribe",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(95,
                         125,
                         70,

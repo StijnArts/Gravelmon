@@ -9,7 +9,7 @@ import java.util.*;
 public class Paposy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paposy() {
         super("Paposy",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(80,
                         58,
                         52,

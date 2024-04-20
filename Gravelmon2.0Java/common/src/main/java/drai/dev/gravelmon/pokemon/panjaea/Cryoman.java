@@ -58,7 +58,7 @@ import java.util.*;
 public class Cryoman extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cryoman() {
         super("Cryoman",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

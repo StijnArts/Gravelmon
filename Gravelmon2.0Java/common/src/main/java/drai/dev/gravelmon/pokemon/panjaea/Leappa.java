@@ -58,7 +58,7 @@ import java.util.*;
 public class Leappa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leappa() {
         super("Leappa",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

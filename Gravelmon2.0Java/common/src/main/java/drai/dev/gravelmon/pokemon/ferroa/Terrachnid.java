@@ -7,7 +7,7 @@ import java.util.*;
 public class Terrachnid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terrachnid() {
         super("Terrachnid",
-                Type.DRAGON,Type.BUG,
+                Type.DRAGON, Type.BUG,
                 new Stats(62,
                         84,
                         70,

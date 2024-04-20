@@ -8,7 +8,7 @@ import java.util.*;
 public class MastenianTadit extends drai.dev.gravelmon.pokemon.Pokemon {
     public MastenianTadit(int dex) {
         super(dex, "Tadit",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

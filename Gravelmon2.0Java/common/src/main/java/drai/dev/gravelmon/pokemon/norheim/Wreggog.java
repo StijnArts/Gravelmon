@@ -9,7 +9,7 @@ import java.util.*;
 public class Wreggog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wreggog() {
         super("Wreggog",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(65,
                         70,
                         80,

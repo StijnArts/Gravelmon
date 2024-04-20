@@ -58,7 +58,7 @@ import java.util.*;
 public class Blobish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blobish() {
         super("Blobish",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(130,
                         75,
                         70,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Wintern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wintern() {
         super("Wintern",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(40,
                         55,
                         25,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Badgrow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Badgrow() {
         super("Badgrow",
-                Type.NORMAL,Type.DARK,
+                Type.NORMAL, Type.DARK,
                 new Stats(50,
                         60,
                         55,

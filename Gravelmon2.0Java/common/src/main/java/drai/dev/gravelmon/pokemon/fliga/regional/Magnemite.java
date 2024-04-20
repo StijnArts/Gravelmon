@@ -58,7 +58,7 @@ import java.util.*;
 public class Magnemite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magnemite(int dex) {
         super(dex, "Magnemite",
-                Type.ELECTRIC,Type.STEEL,
+                Type.ELECTRIC, Type.STEEL,
                 new Stats(25,
                         35,
                         70,

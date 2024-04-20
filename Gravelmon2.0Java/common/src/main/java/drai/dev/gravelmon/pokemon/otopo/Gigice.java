@@ -58,7 +58,7 @@ import java.util.*;
 public class Gigice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gigice() {
         super("Gigice",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

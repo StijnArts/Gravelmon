@@ -7,7 +7,7 @@ import java.util.*;
 public class Buover extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buover() {
         super("Buover",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(55,
                         40,
                         40,

@@ -58,7 +58,7 @@ import java.util.*;
 public class GreatBaggi extends drai.dev.gravelmon.pokemon.Pokemon {
     public GreatBaggi() {
         super("GreatBaggi",
-                Type.ICE,Type.PSYCHIC,
+                Type.ICE, Type.PSYCHIC,
                 new Stats(82,
                         73,
                         71,

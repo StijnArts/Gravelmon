@@ -7,7 +7,7 @@ import java.util.*;
 public class Lurkitopi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lurkitopi() {
         super("Lurkitopi",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(45,
                         75,
                         40,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Gyrogig extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gyrogig() {
         super("Gyrogig",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Flufflet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flufflet() {
         super("Flufflet",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

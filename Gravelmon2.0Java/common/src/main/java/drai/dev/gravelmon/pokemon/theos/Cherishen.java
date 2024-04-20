@@ -58,7 +58,7 @@ import java.util.*;
 public class Cherishen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cherishen() {
         super("Cherishen",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(120,
                         50,
                         70,

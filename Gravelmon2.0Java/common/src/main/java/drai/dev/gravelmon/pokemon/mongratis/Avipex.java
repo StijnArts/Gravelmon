@@ -58,7 +58,7 @@ import java.util.*;
 public class Avipex extends drai.dev.gravelmon.pokemon.Pokemon {
     public Avipex() {
         super("Avipex",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

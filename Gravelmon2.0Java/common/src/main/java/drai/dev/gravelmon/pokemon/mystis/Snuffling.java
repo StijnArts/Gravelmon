@@ -58,7 +58,7 @@ import java.util.*;
 public class Snuffling extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snuffling() {
         super("Snuffling",
-                Type.FLYING,Type.ICE,
+                Type.FLYING, Type.ICE,
                 new Stats(30,
                         30,
                         44,

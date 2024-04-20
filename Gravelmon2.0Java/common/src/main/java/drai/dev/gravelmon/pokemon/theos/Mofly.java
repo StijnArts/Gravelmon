@@ -8,7 +8,7 @@ import java.util.*;
 public class Mofly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mofly() {
         super("Humini",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(40,
                         45,
                         40,

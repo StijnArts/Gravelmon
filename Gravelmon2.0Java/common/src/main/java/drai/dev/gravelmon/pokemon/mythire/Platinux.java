@@ -7,7 +7,7 @@ import java.util.*;
 public class Platinux extends drai.dev.gravelmon.pokemon.Pokemon {
     public Platinux() {
         super("Platinux",
-                Type.ELECTRIC,Type.STEEL,
+                Type.ELECTRIC, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

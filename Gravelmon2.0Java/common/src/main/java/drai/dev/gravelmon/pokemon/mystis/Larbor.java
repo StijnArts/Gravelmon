@@ -58,7 +58,7 @@ import java.util.*;
 public class Larbor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larbor() {
         super("Larbor",
-                Type.GRASS,Type.BUG,
+                Type.GRASS, Type.BUG,
                 new Stats(90,
                         50,
                         75,

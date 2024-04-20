@@ -9,7 +9,7 @@ import java.util.*;
 public class Oarora extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oarora() {
         super("Oarora",
-                Type.DRAGON,Type.ICE,
+                Type.DRAGON, Type.ICE,
                 new Stats(70,
                         70,
                         60,

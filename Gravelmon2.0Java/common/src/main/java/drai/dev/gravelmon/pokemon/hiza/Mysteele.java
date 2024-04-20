@@ -7,7 +7,7 @@ import java.util.*;
 public class Mysteele extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mysteele() {
         super("Mysteele",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(88,
                         42,
                         85,

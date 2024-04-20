@@ -58,7 +58,7 @@ import java.util.*;
 public class Burbanda extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burbanda() {
         super("Burbanda",
-                Type.FIRE,Type.GRASS,
+                Type.FIRE, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

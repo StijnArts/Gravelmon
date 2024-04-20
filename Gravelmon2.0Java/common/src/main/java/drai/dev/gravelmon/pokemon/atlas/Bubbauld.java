@@ -7,7 +7,7 @@ import java.util.*;
 public class Bubbauld extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bubbauld() {
         super("Bubbauld",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(40,
                         40,
                         85,

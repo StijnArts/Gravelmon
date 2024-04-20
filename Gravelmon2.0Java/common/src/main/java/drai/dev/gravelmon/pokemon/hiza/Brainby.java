@@ -7,7 +7,7 @@ import java.util.*;
 public class Brainby extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brainby() {
         super("Brainby",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(50,
                         35,
                         50,

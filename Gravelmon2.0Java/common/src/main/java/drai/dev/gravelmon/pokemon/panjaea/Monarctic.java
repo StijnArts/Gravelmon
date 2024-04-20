@@ -58,7 +58,7 @@ import java.util.*;
 public class Monarctic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Monarctic() {
         super("Monarctic",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(0,
                         0,
                         0,

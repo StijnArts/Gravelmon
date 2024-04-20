@@ -58,7 +58,7 @@ import java.util.*;
 public class Varymite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Varymite() {
         super("Varymite",
-                Type.POISON,Type.COSMIC,
+                Type.POISON, Type.COSMIC,
                 new Stats(50,
                         44,
                         65,

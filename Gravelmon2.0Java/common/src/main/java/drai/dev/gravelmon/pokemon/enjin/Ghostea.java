@@ -66,14 +66,15 @@ public class Ghostea extends drai.dev.gravelmon.pokemon.Pokemon {
                         44,
                         40),
                 List.of(Ability.CURSED_BODY), Ability.CURSED_BODY,
-                0, 0,
+                3, 0,
                 new Stats(0,0,0,1,0,0), 190,
                 0.0,
                 42, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.AMORPHOUS),
-                List.of("Added Oct 27 2021 Evo line: Complete, but we still need to figure out the evo method from Ghostea to Sinistea Origin: Created by JaneJewel for the April 2020 Around The World Fakeathon Day 16 prompt, India"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("sinistea", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WITHDRAW,1),
                         new MoveLearnSetEntry(Move.ASTONISH,1),
@@ -103,11 +104,11 @@ public class Ghostea extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 17, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Ghostea");

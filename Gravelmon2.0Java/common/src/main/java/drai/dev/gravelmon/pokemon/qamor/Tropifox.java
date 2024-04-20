@@ -9,7 +9,7 @@ import java.util.*;
 public class Tropifox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tropifox() {
         super("Tropifox",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(80,
                         87,
                         60,

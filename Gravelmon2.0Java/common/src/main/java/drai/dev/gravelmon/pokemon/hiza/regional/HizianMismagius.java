@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianMismagius extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianMismagius(int dex) {
         super(dex, "Mismagius",
-                Type.FIRE,Type.PSYCHIC,
+                Type.FIRE, Type.PSYCHIC,
                 new Stats(60,
                         60,
                         60,

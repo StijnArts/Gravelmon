@@ -58,7 +58,7 @@ import java.util.*;
 public class Palossand extends drai.dev.gravelmon.pokemon.Pokemon {
     public Palossand(int dex) {
         super(dex, "Palossand",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(85,
                         75,
                         110,

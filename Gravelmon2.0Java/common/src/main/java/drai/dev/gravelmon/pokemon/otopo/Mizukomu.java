@@ -58,7 +58,7 @@ import java.util.*;
 public class Mizukomu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mizukomu() {
         super("Mizukomu",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(70,
                         40,
                         100,

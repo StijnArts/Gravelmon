@@ -58,7 +58,7 @@ import java.util.*;
 public class Beoleaf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beoleaf() {
         super("Beoleaf",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(40,
                         70,
                         30,

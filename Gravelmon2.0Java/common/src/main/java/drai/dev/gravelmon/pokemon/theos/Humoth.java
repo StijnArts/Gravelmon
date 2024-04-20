@@ -58,7 +58,7 @@ import java.util.*;
 public class Humoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Humoth() {
         super("Humoth",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(60,
                         55,
                         80,

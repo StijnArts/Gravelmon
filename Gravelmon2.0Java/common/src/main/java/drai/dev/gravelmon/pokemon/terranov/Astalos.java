@@ -58,7 +58,7 @@ import java.util.*;
 public class Astalos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Astalos() {
         super("Astalos",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(80,
                         100,
                         70,

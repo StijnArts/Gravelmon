@@ -58,7 +58,7 @@ import java.util.*;
 public class Gareed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gareed() {
         super("Gareed",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(41,
                         41,
                         51,

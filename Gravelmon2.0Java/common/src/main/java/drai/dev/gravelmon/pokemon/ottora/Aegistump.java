@@ -58,7 +58,7 @@ import java.util.*;
 public class Aegistump extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aegistump() {
         super("Aegistump",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

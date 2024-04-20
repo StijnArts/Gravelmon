@@ -7,7 +7,7 @@ import java.util.*;
 public class Wanupp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wanupp() {
         super("Wanupp",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(75,
                         25,
                         35,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Canvalith extends drai.dev.gravelmon.pokemon.Pokemon {
     public Canvalith() {
         super("Canvalith",
-                Type.ROCK,Type.FAIRY,
+                Type.ROCK, Type.FAIRY,
                 new Stats(55,
                         70,
                         150,

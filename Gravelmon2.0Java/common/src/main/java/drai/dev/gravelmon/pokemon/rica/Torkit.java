@@ -9,7 +9,7 @@ import java.util.*;
 public class Torkit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Torkit() {
         super("Torkit",
-                Type.ELECTRIC,Type.FIRE,
+                Type.ELECTRIC, Type.FIRE,
                 new Stats(60,
                         80,
                         50,

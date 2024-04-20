@@ -9,7 +9,7 @@ import java.util.*;
 public class Sinklutter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sinklutter() {
         super("Sinklutter",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

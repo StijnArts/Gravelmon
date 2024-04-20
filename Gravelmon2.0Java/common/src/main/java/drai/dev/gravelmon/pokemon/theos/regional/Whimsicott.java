@@ -58,7 +58,7 @@ import java.util.*;
 public class Whimsicott extends drai.dev.gravelmon.pokemon.Pokemon {
     public Whimsicott(int dex) {
         super(dex, "Whimsicott",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(60,
                         95,
                         75,

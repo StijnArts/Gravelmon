@@ -7,7 +7,7 @@ import java.util.*;
 public class Chrone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chrone() {
         super("Chrone",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(40,
                         65,
                         85,

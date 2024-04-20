@@ -9,7 +9,7 @@ import java.util.*;
 public class Boowee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boowee() {
         super("Boowee",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Notifant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Notifant() {
         super("Notifant",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(40,
                         45,
                         85,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Umiveil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Umiveil() {
         super("Umiveil",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(150,
                         75,
                         70,

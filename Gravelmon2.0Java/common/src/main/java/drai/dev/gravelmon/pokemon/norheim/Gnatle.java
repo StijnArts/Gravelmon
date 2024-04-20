@@ -9,7 +9,7 @@ import java.util.*;
 public class Gnatle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gnatle() {
         super("Gnatle",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(38,
                         45,
                         70,

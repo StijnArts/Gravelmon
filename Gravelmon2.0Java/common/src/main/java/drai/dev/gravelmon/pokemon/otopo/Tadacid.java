@@ -58,7 +58,7 @@ import java.util.*;
 public class Tadacid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tadacid() {
         super("Tadacid",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(40,
                         50,
                         40,

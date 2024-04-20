@@ -7,7 +7,7 @@ import java.util.*;
 public class Gandolph extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gandolph() {
         super("Gandolph",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(84,
                         72,
                         65,

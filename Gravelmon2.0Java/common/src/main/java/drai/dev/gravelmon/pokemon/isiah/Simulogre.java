@@ -7,7 +7,7 @@ import java.util.*;
 public class Simulogre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Simulogre() {
         super("Simulogre",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(80,
                         80,
                         120,

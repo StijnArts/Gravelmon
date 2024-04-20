@@ -11,7 +11,7 @@ import java.util.*;
 public class Cuncoldron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cuncoldron() {
         super("Cuncoldron",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

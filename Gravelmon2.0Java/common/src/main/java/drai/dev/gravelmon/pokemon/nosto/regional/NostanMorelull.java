@@ -7,7 +7,7 @@ import java.util.*;
 public class NostanMorelull extends drai.dev.gravelmon.pokemon.Pokemon {
     public NostanMorelull() {
         super("Morelull",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,
                         0,

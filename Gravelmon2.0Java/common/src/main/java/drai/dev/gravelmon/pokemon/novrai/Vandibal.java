@@ -7,7 +7,7 @@ import java.util.*;
 public class Vandibal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vandibal() {
         super("Vandibal",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(70,
                         55,
                         100,

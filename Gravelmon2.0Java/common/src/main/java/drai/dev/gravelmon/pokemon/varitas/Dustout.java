@@ -9,7 +9,7 @@ import java.util.*;
 public class Dustout extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dustout() {
         super("Dustout",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Peroleum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Peroleum() {
         super("Peroleum",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

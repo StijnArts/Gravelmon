@@ -7,7 +7,7 @@ import java.util.*;
 public class Skeejack extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skeejack() {
         super("Skeejack",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(60,
                         95,
                         55,

@@ -7,7 +7,7 @@ import java.util.*;
 public class InterianGenesect extends drai.dev.gravelmon.pokemon.Pokemon {
     public InterianGenesect(int dex) {
         super(dex ,"Genesect",
-                Type.ELECTRIC,Type.STEEL,
+                Type.ELECTRIC, Type.STEEL,
                 new Stats(100,
                         150,
                         130,

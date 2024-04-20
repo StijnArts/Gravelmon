@@ -13,7 +13,7 @@ import java.util.*;
 public class Dimwraith extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dimwraith() {
         super("Dimwraith",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(60,
                         80,
                         60,

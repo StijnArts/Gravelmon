@@ -13,7 +13,7 @@ import java.util.*;
 public class Ransap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ransap() {
         super("Ransap",
-                Type.DARK,Type.NORMAL,
+                Type.DARK, Type.NORMAL,
                 new Stats(94,
                         100,
                         65,

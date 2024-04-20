@@ -7,7 +7,7 @@ import java.util.*;
 public class Coloceros extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coloceros() {
         super("Coloceros",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(102,
                         93,
                         112,

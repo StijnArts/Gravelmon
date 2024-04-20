@@ -9,7 +9,7 @@ import java.util.*;
 public class Basshark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Basshark() {
         super("Basshark",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(95,
                         80,
                         75,

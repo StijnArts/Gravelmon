@@ -9,7 +9,7 @@ import java.util.*;
 public class Strikoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Strikoon() {
         super("Strikoon",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(105,
                         55,
                         95,

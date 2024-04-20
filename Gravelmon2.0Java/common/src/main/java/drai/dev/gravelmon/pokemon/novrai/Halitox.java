@@ -7,7 +7,7 @@ import java.util.*;
 public class Halitox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Halitox() {
         super("Halitox",
-                Type.DRAGON,Type.POISON,
+                Type.DRAGON, Type.POISON,
                 new Stats(65,
                         73,
                         69,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Scaroptu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scaroptu() {
         super("Scaroptu",
-                Type.DARK,Type.BUG,
+                Type.DARK, Type.BUG,
                 new Stats(0,
                         0,
                         0,

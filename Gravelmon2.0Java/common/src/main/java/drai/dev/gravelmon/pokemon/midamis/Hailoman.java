@@ -9,7 +9,7 @@ import java.util.*;
 public class Hailoman extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hailoman() {
         super("Hailoman",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(85,
                         85,
                         100,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Trepinject extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trepinject() {
         super("Trepinject",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(63,
                         105,
                         60,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Cuddlish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cuddlish() {
         super("Cuddlish",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(90,
                         60,
                         50,
@@ -17,7 +17,7 @@ public class Cuddlish extends drai.dev.gravelmon.pokemon.Pokemon {
                         40),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 6, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 150,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

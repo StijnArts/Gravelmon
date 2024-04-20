@@ -9,7 +9,7 @@ import java.util.*;
 public class Kvadract extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kvadract() {
         super("Kvadract",
-                Type.FAIRY,Type.DARK,
+                Type.FAIRY, Type.DARK,
                 new Stats(67,
                         59,
                         41,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Batnap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Batnap() {
         super("Batnap",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

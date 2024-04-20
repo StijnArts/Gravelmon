@@ -9,7 +9,7 @@ import java.util.*;
 public class Roomere extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roomere() {
         super("Roomere",
-                Type.GHOST,Type.FIRE,
+                Type.GHOST, Type.FIRE,
                 new Stats(110,
                         70,
                         50,

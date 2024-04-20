@@ -9,7 +9,7 @@ import java.util.*;
 public class Toxito extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toxito() {
         super("Toxito",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(95,
                         85,
                         60,

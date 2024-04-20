@@ -7,7 +7,7 @@ import java.util.*;
 public class Sandevil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sandevil() {
         super("Sandevil",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(80,
                         85,
                         80,

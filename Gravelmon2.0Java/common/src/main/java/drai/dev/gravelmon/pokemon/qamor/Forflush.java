@@ -9,7 +9,7 @@ import java.util.*;
 public class Forflush extends drai.dev.gravelmon.pokemon.Pokemon {
     public Forflush() {
         super("Forflush",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(54,
                         26,
                         52,

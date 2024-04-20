@@ -58,7 +58,7 @@ import java.util.*;
 public class Kikkyu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kikkyu() {
         super("Kikkyu",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

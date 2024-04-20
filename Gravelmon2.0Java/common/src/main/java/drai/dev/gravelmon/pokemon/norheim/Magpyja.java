@@ -9,7 +9,7 @@ import java.util.*;
 public class Magpyja extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magpyja() {
         super("Magpyja",
-                Type.FLYING,Type.DARK,
+                Type.FLYING, Type.DARK,
                 new Stats(70,
                         77,
                         75,

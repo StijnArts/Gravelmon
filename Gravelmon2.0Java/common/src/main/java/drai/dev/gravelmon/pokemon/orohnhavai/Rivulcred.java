@@ -9,7 +9,7 @@ import java.util.*;
 public class Rivulcred extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rivulcred() {
         super("Rivulcred",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(110,
                         70,
                         80,

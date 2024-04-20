@@ -7,7 +7,7 @@ import java.util.*;
 public class Feleye extends drai.dev.gravelmon.pokemon.Pokemon {
     public Feleye() {
         super("Feleye",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(80,
                         70,
                         70,

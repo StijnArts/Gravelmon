@@ -58,7 +58,7 @@ import java.util.*;
 public class D33z extends drai.dev.gravelmon.pokemon.Pokemon {
     public D33z() {
         super("D33z",
-                Type.DRAGON,Type.ELECTRIC,
+                Type.DRAGON, Type.ELECTRIC,
                 new Stats(120,
                         90,
                         110,

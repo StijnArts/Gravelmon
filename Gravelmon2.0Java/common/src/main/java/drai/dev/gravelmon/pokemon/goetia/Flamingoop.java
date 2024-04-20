@@ -58,7 +58,7 @@ import java.util.*;
 public class Flamingoop extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flamingoop() {
         super("Flamingoop",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,
                         0,

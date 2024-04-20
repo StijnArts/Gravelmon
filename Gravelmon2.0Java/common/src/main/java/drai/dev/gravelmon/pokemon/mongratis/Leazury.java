@@ -58,7 +58,7 @@ import java.util.*;
 public class Leazury extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leazury() {
         super("Leazury",
-                Type.STEEL,Type.DARK,
+                Type.STEEL, Type.DARK,
                 new Stats(0,
                         0,
                         0,

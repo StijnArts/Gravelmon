@@ -7,7 +7,7 @@ import java.util.*;
 public class Vespark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vespark() {
         super("Vespark",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(45,
                         50,
                         40,

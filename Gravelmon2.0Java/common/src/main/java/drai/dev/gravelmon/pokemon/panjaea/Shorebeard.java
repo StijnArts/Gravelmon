@@ -58,7 +58,7 @@ import java.util.*;
 public class Shorebeard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shorebeard() {
         super("Shorebeard",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

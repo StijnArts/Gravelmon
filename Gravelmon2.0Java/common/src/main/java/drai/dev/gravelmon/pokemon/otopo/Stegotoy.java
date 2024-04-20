@@ -58,7 +58,7 @@ import java.util.*;
 public class Stegotoy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stegotoy() {
         super("Stegotoy",
-                Type.FAIRY,Type.DRAGON,
+                Type.FAIRY, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

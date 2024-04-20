@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranSudowoodo extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranSudowoodo(int id) {
         super(id, "Sudowoodo",
-                Type.ROCK,Type.ICE,
+                Type.ROCK, Type.ICE,
                 new Stats(90,
                         125,
                         110,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Thistelle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thistelle() {
         super("Thistelle",
-                Type.POISON,Type.GRASS,
+                Type.POISON, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

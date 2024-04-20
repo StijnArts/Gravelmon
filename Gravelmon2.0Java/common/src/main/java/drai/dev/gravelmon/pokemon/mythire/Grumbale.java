@@ -7,7 +7,7 @@ import java.util.*;
 public class Grumbale extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grumbale() {
         super("Grumbale",
-                Type.DRAGON,Type.ELECTRIC,
+                Type.DRAGON, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

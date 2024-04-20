@@ -58,7 +58,7 @@ import java.util.*;
 public class Scavengila extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scavengila() {
         super("Scavengila",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(0,
                         0,
                         0,

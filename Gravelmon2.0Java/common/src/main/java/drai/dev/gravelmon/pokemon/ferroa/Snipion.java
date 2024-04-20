@@ -7,7 +7,7 @@ import java.util.*;
 public class Snipion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snipion() {
         super("Snipion",
-                Type.ROCK,Type.STEEL,
+                Type.ROCK, Type.STEEL,
                 new Stats(50,
                         80,
                         75,

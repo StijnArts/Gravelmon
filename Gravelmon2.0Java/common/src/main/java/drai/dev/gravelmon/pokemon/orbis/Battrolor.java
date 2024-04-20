@@ -58,7 +58,7 @@ import java.util.*;
 public class Battrolor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Battrolor() {
         super("Battrolor",
-                Type.ELECTRIC,Type.DRAGON,
+                Type.ELECTRIC, Type.DRAGON,
                 new Stats(85,
                         100,
                         80,

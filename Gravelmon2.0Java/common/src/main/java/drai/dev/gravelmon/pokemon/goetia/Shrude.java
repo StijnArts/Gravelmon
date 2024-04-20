@@ -58,7 +58,7 @@ import java.util.*;
 public class Shrude extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shrude() {
         super("Shrude",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

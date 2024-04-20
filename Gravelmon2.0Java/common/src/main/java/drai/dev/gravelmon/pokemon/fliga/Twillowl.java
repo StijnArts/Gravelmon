@@ -58,7 +58,7 @@ import java.util.*;
 public class Twillowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Twillowl() {
         super("Twillowl",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(54,
                         26,
                         40,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Karroot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Karroot() {
         super("Karroot",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(58,
                         61,
                         48,

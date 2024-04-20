@@ -7,7 +7,7 @@ import java.util.*;
 public class Gummiwyrm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gummiwyrm() {
         super("Gummiwyrm",
-                Type.FAIRY,Type.DRAGON,
+                Type.FAIRY, Type.DRAGON,
                 new Stats(134,
                         70,
                         106,

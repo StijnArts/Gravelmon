@@ -58,7 +58,7 @@ import java.util.*;
 public class Ussernaut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ussernaut() {
         super("Ussernaut",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

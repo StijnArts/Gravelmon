@@ -7,7 +7,7 @@ import java.util.*;
 public class Crystabrawl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crystabrawl() {
         super("Crystabrawl",
-                Type.PSYCHIC,Type.FIGHTING,
+                Type.PSYCHIC, Type.FIGHTING,
                 new Stats(70,
                         105,
                         90,

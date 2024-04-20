@@ -58,7 +58,7 @@ import java.util.*;
 public class Atlasect extends drai.dev.gravelmon.pokemon.Pokemon {
     public Atlasect() {
         super("Atlasect",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(75,
                         115,
                         100,

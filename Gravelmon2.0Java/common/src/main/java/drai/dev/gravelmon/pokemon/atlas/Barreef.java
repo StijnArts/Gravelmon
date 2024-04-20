@@ -7,7 +7,7 @@ import java.util.*;
 public class Barreef extends drai.dev.gravelmon.pokemon.Pokemon {
     public Barreef() {
         super("Barreef",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(79,
                         111,
                         134,

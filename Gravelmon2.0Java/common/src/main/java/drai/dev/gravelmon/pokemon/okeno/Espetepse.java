@@ -6,7 +6,7 @@ import java.util.*;
 public class Espetepse extends drai.dev.gravelmon.pokemon.Pokemon {
     public Espetepse() {
         super("Espetepse",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(111,
                         92,
                         90,

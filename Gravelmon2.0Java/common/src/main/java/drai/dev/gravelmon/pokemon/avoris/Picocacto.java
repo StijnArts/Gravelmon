@@ -13,7 +13,7 @@ import java.util.*;
 public class Picocacto extends drai.dev.gravelmon.pokemon.Pokemon {
     public Picocacto() {
         super("Picocacto",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

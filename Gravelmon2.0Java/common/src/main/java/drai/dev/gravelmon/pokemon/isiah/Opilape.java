@@ -7,7 +7,7 @@ import java.util.*;
 public class Opilape extends drai.dev.gravelmon.pokemon.Pokemon {
     public Opilape() {
         super("Opilape",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(0,
                         0,
                         0,

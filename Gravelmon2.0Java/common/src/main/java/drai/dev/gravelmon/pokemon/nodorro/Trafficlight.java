@@ -58,7 +58,7 @@ import java.util.*;
 public class Trafficlight extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trafficlight() {
         super("Trafficlight",
-                Type.LIGHT,Type.STEEL,
+                Type.LIGHT, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

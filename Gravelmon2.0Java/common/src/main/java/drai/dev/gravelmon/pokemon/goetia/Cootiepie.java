@@ -58,7 +58,7 @@ import java.util.*;
 public class Cootiepie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cootiepie() {
         super("Cootiepie",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

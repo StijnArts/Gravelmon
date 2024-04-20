@@ -7,7 +7,7 @@ import java.util.*;
 public class Shroudra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shroudra() {
         super("Shroudra",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(105,
                         95,
                         72,

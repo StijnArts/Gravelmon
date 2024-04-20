@@ -7,7 +7,7 @@ import java.util.*;
 public class Pearlizz extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pearlizz() {
         super("Pearlizz",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(75,
                         70,
                         60,

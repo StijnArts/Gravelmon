@@ -58,7 +58,7 @@ import java.util.*;
 public class Steelix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Steelix(int dex) {
         super(dex, "Steelix",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(70,
                         70,
                         150,

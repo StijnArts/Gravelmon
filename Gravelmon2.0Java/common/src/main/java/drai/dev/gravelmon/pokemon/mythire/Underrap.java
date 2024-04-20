@@ -7,7 +7,7 @@ import java.util.*;
 public class Underrap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Underrap() {
         super("Underrap",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(95,
                         90,
                         60,

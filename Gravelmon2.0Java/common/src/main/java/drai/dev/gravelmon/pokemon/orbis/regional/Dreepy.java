@@ -58,7 +58,7 @@ import java.util.*;
 public class Dreepy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dreepy(int dex) {
         super(dex, "Dreepy",
-                Type.DRAGON,Type.GHOST,
+                Type.DRAGON, Type.GHOST,
                 new Stats(28,
                         60,
                         30,

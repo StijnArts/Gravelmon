@@ -58,7 +58,7 @@ import java.util.*;
 public class Mosglet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mosglet() {
         super("Mosglet",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(130,
                         56,
                         33,

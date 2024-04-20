@@ -58,7 +58,7 @@ import java.util.*;
 public class Wermaid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wermaid() {
         super("Wermaid",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(85,
                         55,
                         110,

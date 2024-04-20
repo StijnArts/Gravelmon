@@ -7,7 +7,7 @@ import java.util.*;
 public class Camozoic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Camozoic() {
         super("Camozoic",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(85,
                         75,
                         90,

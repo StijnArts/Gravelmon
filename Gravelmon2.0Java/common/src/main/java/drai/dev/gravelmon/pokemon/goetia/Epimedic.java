@@ -58,7 +58,7 @@ import java.util.*;
 public class Epimedic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Epimedic() {
         super("Epimedic",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

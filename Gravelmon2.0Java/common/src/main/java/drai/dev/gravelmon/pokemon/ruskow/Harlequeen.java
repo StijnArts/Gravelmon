@@ -58,7 +58,7 @@ import java.util.*;
 public class Harlequeen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harlequeen() {
         super("Harlequeen",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(0,
                         0,
                         0,

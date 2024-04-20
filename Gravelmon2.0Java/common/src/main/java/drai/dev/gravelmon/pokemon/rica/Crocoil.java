@@ -9,7 +9,7 @@ import java.util.*;
 public class Crocoil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crocoil() {
         super("Crocoil",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(80,
                         63,
                         67,

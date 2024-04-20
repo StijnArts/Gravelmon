@@ -58,7 +58,7 @@ import java.util.*;
 public class Traplat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Traplat() {
         super("Traplat",
-                Type.GROUND,Type.STEEL,
+                Type.GROUND, Type.STEEL,
                 new Stats(40,
                         60,
                         60,

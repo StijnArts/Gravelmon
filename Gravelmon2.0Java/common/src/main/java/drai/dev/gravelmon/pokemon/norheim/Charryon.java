@@ -9,7 +9,7 @@ import java.util.*;
 public class Charryon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Charryon() {
         super("Charryon",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(85,
                         85,
                         75,

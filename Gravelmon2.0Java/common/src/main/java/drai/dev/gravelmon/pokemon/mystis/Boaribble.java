@@ -58,7 +58,7 @@ import java.util.*;
 public class Boaribble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boaribble() {
         super("Boaribble",
-                Type.DARK,Type.ROCK,
+                Type.DARK, Type.ROCK,
                 new Stats(100,
                         140,
                         100,

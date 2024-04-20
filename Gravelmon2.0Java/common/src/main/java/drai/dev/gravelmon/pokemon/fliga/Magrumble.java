@@ -58,7 +58,7 @@ import java.util.*;
 public class Magrumble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magrumble() {
         super("Magrumble",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(85,
                         50,
                         90,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Naviator extends drai.dev.gravelmon.pokemon.Pokemon {
     public Naviator() {
         super("Naviator",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(90,
                         129,
                         60,

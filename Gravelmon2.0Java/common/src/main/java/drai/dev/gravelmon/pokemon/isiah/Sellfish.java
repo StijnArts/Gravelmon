@@ -7,7 +7,7 @@ import java.util.*;
 public class Sellfish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sellfish() {
         super("Sellfish",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(70,
                         65,
                         140,

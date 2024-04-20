@@ -58,7 +58,7 @@ import java.util.*;
 public class Thorstle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thorstle() {
         super("Thorstle",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(60,
                         85,
                         75,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Pendelf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pendelf() {
         super("Pendelf",
-                Type.FAIRY,Type.STEEL,
+                Type.FAIRY, Type.STEEL,
                 new Stats(70,
                         41,
                         60,

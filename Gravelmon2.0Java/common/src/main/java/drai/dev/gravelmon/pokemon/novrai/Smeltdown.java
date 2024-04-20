@@ -7,7 +7,7 @@ import java.util.*;
 public class Smeltdown extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smeltdown() {
         super("Smeltdown",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(70,
                         45,
                         82,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Arctire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arctire() {
         super("Arctire",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(38,
                         76,
                         60,

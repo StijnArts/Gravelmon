@@ -9,7 +9,7 @@ import java.util.*;
 public class Spinister extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spinister() {
         super("Spinister",
-                Type.GHOST,Type.BUG,
+                Type.GHOST, Type.BUG,
                 new Stats(90,
                         75,
                         55,

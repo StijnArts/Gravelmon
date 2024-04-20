@@ -7,7 +7,7 @@ import java.util.*;
 public class Grevetiery extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grevetiery() {
         super("Grevetiery",
-                Type.DARK,Type.GHOST,
+                Type.DARK, Type.GHOST,
                 new Stats(60,
                         80,
                         50,

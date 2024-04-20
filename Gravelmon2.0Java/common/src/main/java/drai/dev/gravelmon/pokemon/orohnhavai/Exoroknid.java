@@ -9,7 +9,7 @@ import java.util.*;
 public class Exoroknid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Exoroknid() {
         super("Exoroknid",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(60,
                         100,
                         80,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Plasmagician extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plasmagician() {
         super("Plasmagician",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

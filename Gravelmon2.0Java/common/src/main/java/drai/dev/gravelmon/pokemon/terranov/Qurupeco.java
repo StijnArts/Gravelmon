@@ -58,7 +58,7 @@ import java.util.*;
 public class Qurupeco extends drai.dev.gravelmon.pokemon.Pokemon {
     public Qurupeco() {
         super("Qurupeco",
-                Type.FLYING,Type.NORMAL,
+                Type.FLYING, Type.NORMAL,
                 new Stats(70,
                         75,
                         75,

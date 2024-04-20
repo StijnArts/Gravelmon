@@ -9,7 +9,7 @@ import java.util.*;
 public class Gargobble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gargobble() {
         super("Gargobble",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(60,
                         90,
                         60,

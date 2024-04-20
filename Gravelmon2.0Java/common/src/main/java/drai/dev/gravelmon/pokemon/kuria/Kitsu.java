@@ -58,7 +58,7 @@ import java.util.*;
 public class Kitsu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kitsu() {
         super("Kitsu",
-                Type.FIRE,Type.COSMIC,
+                Type.FIRE, Type.COSMIC,
                 new Stats(79,
                         84,
                         66,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Sebrium extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sebrium() {
         super("Sebrium",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

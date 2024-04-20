@@ -7,7 +7,7 @@ import java.util.*;
 public class Vimanzia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vimanzia() {
         super("Vimanzia",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(103,
                         72,
                         76,

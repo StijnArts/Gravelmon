@@ -7,7 +7,7 @@ import java.util.*;
 public class Frankensour extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frankensour() {
         super("Frankensour",
-                Type.ELECTRIC,Type.GRASS,
+                Type.ELECTRIC, Type.GRASS,
                 new Stats(80,
                         60,
                         75,

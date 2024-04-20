@@ -7,7 +7,7 @@ import java.util.*;
 public class Goalden extends drai.dev.gravelmon.pokemon.Pokemon {
     public Goalden() {
         super("Goalden",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(90,
                         145,
                         145,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Wrigormort extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wrigormort() {
         super("Wrigormort",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(75,
                         95,
                         115,

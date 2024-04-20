@@ -7,7 +7,7 @@ import java.util.*;
 public class Drumbum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drumbum() {
         super("Drumbum",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(0,
                         0,
                         0,

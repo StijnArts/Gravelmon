@@ -9,7 +9,7 @@ import java.util.*;
 public class Stalagoyle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stalagoyle() {
         super("Stalagoyle",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

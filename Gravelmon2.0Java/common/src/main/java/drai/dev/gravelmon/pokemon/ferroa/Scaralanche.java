@@ -7,7 +7,7 @@ import java.util.*;
 public class Scaralanche extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scaralanche() {
         super("Scaralanche",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(140,
                         96,
                         66,

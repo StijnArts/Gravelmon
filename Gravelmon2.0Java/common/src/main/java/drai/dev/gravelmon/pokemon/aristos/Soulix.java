@@ -9,7 +9,7 @@ import java.util.*;
 public class Soulix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Soulix() {
         super("Soulix",
-                Type.ROCK,Type.GHOST,
+                Type.ROCK, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

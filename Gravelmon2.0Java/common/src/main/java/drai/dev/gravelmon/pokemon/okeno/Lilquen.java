@@ -6,7 +6,7 @@ import java.util.*;
 public class Lilquen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lilquen() {
         super("Lilquen",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(70,
                         15,
                         15,

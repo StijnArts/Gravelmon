@@ -7,7 +7,7 @@ import java.util.*;
 public class Ignuana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ignuana() {
         super("Ignuana",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(60,
                         120,
                         95,

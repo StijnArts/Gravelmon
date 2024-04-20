@@ -7,7 +7,7 @@ import java.util.*;
 public class HizianHeatmor extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianHeatmor(int dex) {
         super(dex, "Heatmor",
-                Type.POISON,Type.FIRE,
+                Type.POISON, Type.FIRE,
                 new Stats(85,
                         97,
                         66,

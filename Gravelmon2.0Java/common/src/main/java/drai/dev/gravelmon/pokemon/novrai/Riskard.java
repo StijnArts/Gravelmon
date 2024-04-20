@@ -7,7 +7,7 @@ import java.util.*;
 public class Riskard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Riskard() {
         super("Riskard",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(55,
                         55,
                         55,

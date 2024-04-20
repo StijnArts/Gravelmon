@@ -8,7 +8,7 @@ import java.util.*;
 public class Toxnail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toxnail() {
         super("Toxnail",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

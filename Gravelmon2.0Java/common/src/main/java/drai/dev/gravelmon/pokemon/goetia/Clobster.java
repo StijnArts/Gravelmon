@@ -58,7 +58,7 @@ import java.util.*;
 public class Clobster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clobster() {
         super("Clobster",
-                Type.DRAGON,Type.FIGHTING,
+                Type.DRAGON, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

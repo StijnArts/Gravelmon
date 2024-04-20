@@ -9,7 +9,7 @@ import java.util.*;
 public class Gattekat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gattekat() {
         super("Gattekat",
-                Type.GRASS,Type.ICE,
+                Type.GRASS, Type.ICE,
                 new Stats(87,
                         112,
                         71,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Roselia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roselia(int dex) {
         super(dex, "Roselia",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(60,
                         60,
                         45,

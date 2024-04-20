@@ -58,7 +58,7 @@ import java.util.*;
 public class Cisburn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cisburn() {
         super("Cisburn",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

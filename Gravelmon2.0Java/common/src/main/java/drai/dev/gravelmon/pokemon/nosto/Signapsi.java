@@ -7,7 +7,7 @@ import java.util.*;
 public class Signapsi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Signapsi() {
         super("Signapsi",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(49,
                         31,
                         48,

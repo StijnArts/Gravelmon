@@ -8,7 +8,7 @@ import java.util.*;
 public class Flamino extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flamino() {
         super("Flamino",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(65,
                         80,
                         85,

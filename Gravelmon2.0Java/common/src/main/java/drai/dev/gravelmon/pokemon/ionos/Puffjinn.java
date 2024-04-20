@@ -58,7 +58,7 @@ import java.util.*;
 public class Puffjinn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Puffjinn() {
         super("Puffjinn",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(140,
                         50,
                         100,

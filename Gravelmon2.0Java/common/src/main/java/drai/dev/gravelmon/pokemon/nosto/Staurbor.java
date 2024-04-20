@@ -7,7 +7,7 @@ import java.util.*;
 public class Staurbor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Staurbor() {
         super("Staurbor",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(98,
                         73,
                         113,

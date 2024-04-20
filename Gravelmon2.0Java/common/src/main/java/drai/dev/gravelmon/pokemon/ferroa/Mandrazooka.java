@@ -7,7 +7,7 @@ import java.util.*;
 public class Mandrazooka extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mandrazooka() {
         super("Mandrazooka",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(60,
                         80,
                         95,

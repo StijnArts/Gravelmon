@@ -58,7 +58,7 @@ import java.util.*;
 public class Roccoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roccoon() {
         super("Roccoon",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

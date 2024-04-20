@@ -7,7 +7,7 @@ import java.util.*;
 public class Sparroing extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sparroing() {
         super("Sparroing",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(75,
                         80,
                         50,

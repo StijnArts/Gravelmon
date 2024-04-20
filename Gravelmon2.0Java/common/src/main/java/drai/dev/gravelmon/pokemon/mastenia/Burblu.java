@@ -58,7 +58,7 @@ import java.util.*;
 public class Burblu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Burblu() {
         super("Burblu",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

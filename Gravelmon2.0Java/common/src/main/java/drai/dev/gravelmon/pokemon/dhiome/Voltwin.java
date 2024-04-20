@@ -8,7 +8,7 @@ import java.util.*;
 public class Voltwin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Voltwin() {
         super("Voltwin",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

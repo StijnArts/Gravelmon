@@ -8,7 +8,7 @@ import java.util.*;
 public class Stilbird extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stilbird() {
         super("Stilbird",
-                Type.FLYING,Type.GHOST,
+                Type.FLYING, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

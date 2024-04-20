@@ -7,7 +7,7 @@ import java.util.*;
 public class Altarath extends drai.dev.gravelmon.pokemon.Pokemon {
     public Altarath() {
         super("Altarath",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(72,
                         92,
                         78,

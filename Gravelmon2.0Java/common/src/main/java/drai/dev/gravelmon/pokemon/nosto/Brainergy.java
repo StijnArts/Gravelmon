@@ -7,7 +7,7 @@ import java.util.*;
 public class Brainergy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brainergy() {
         super("Brainergy",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(102,
                         51,
                         85,

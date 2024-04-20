@@ -7,7 +7,7 @@ import java.util.*;
 public class Possessum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Possessum() {
         super("Possessum",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(67,
                         98,
                         65,

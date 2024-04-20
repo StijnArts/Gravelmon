@@ -7,7 +7,7 @@ import java.util.*;
 public class Mudian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mudian() {
         super("Mudian",
-                Type.GROUND,Type.FLYING,
+                Type.GROUND, Type.FLYING,
                 new Stats(60,
                         55,
                         50,

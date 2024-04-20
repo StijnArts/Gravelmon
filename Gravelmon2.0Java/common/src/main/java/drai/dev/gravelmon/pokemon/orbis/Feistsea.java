@@ -58,7 +58,7 @@ import java.util.*;
 public class Feistsea extends drai.dev.gravelmon.pokemon.Pokemon {
     public Feistsea() {
         super("Feistsea",
-                Type.NORMAL,Type.WATER,
+                Type.NORMAL, Type.WATER,
                 new Stats(70,
                         80,
                         30,

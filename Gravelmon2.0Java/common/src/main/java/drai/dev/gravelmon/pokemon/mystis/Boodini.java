@@ -58,7 +58,7 @@ import java.util.*;
 public class Boodini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boodini() {
         super("Boodini",
-                Type.PSYCHIC,Type.GHOST,
+                Type.PSYCHIC, Type.GHOST,
                 new Stats(70,
                         60,
                         50,

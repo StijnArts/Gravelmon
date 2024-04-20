@@ -7,7 +7,7 @@ import java.util.*;
 public class Mimoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mimoth() {
         super("Mimoth",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(70,
                         99,
                         66,

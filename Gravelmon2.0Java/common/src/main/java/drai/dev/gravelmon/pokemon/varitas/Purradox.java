@@ -9,7 +9,7 @@ import java.util.*;
 public class Purradox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Purradox() {
         super("Purradox",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

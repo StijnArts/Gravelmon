@@ -7,7 +7,7 @@ import java.util.*;
 public class Elekto extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elekto() {
         super("Elekto",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Constellapin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Constellapin() {
         super("Constellapin",
-                Type.FAIRY,Type.PSYCHIC,
+                Type.FAIRY, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

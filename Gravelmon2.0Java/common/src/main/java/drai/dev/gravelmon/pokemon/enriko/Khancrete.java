@@ -7,7 +7,7 @@ import java.util.*;
 public class Khancrete extends drai.dev.gravelmon.pokemon.Pokemon {
     public Khancrete() {
         super("Khancrete",
-                Type.ROCK,Type.STEEL,
+                Type.ROCK, Type.STEEL,
                 new Stats(85,
                         160,
                         95,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Lumini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumini() {
         super("Lumini",
-                Type.ELECTRIC,Type.FAIRY,
+                Type.ELECTRIC, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

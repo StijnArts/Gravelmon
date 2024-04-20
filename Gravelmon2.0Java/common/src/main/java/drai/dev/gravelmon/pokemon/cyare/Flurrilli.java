@@ -58,7 +58,7 @@ import java.util.*;
 public class Flurrilli extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flurrilli() {
         super("Flurrilli",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

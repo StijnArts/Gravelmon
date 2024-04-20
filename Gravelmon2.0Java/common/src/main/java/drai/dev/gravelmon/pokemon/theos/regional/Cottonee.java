@@ -58,7 +58,7 @@ import java.util.*;
 public class Cottonee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cottonee(int dex) {
         super(dex, "Cottonee",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(40,
                         37,
                         60,

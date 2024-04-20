@@ -58,7 +58,7 @@ import java.util.*;
 public class KyleEditL8er extends drai.dev.gravelmon.pokemon.Pokemon {
     public KyleEditL8er() {
         super("KyleEditL8er",
-                Type.FLYING,Type.STEEL,
+                Type.FLYING, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

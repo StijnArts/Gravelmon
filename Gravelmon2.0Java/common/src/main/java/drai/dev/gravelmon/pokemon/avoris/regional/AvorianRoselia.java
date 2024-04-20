@@ -8,7 +8,7 @@ import java.util.*;
 public class AvorianRoselia extends drai.dev.gravelmon.pokemon.Pokemon {
     public AvorianRoselia(int dex) {
         super(dex,"AvorianRoselia",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(50,
                         60,
                         45,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Galaxalotl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Galaxalotl() {
         super("Galaxalotl",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

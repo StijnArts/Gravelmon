@@ -58,7 +58,7 @@ import java.util.*;
 public class Forcaken extends drai.dev.gravelmon.pokemon.Pokemon {
     public Forcaken() {
         super("Forcaken",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

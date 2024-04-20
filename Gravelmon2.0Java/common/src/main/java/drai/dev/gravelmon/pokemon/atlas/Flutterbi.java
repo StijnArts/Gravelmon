@@ -7,7 +7,7 @@ import java.util.*;
 public class Flutterbi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flutterbi() {
         super("Flutterbi",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(46,
                         42,
                         50,

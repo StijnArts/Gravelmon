@@ -7,7 +7,7 @@ import java.util.*;
 public class Visclaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Visclaw() {
         super("Visclaw",
-                Type.DRAGON,Type.GROUND,
+                Type.DRAGON, Type.GROUND,
                 new Stats(71,
                         44,
                         67,

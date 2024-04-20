@@ -7,7 +7,7 @@ import java.util.*;
 public class Moltank extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moltank() {
         super("Moltank",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(105,
                         70,
                         105,

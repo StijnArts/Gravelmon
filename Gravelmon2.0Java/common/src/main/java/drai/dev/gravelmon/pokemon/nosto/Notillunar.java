@@ -7,7 +7,7 @@ import java.util.*;
 public class Notillunar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Notillunar() {
         super("Notillunar",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

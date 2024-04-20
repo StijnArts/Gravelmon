@@ -58,7 +58,7 @@ import java.util.*;
 public class Squidgeist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Squidgeist() {
         super("Squidgeist",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(60,
                         40,
                         60,

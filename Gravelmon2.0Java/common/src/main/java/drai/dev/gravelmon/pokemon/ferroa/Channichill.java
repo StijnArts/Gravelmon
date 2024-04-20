@@ -7,7 +7,7 @@ import java.util.*;
 public class Channichill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Channichill() {
         super("Channichill",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(70,
                         120,
                         85,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Salfurrr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Salfurrr() {
         super("Salfurrr",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Whud extends drai.dev.gravelmon.pokemon.Pokemon {
     public Whud() {
         super("Whud",
-                Type.NORMAL,Type.WATER,
+                Type.NORMAL, Type.WATER,
                 new Stats(50,
                         90,
                         55,

@@ -8,7 +8,7 @@ import java.util.*;
 public class HizianPinsir extends drai.dev.gravelmon.pokemon.Pokemon {
     public HizianPinsir(int dex) {
         super(dex, "HizianPinsir",
-                Type.STEEL,Type.BUG,
+                Type.STEEL, Type.BUG,
                 new Stats(65,
                         125,
                         100,

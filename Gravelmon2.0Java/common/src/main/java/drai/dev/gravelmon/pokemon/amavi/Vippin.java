@@ -8,7 +8,7 @@ import java.util.*;
 public class Vippin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vippin() {
         super("Vippin",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(85,
                         20,
                         20,

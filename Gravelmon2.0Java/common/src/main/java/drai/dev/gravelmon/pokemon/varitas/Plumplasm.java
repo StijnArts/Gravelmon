@@ -9,7 +9,7 @@ import java.util.*;
 public class Plumplasm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plumplasm() {
         super("Plumplasm",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Colosseel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Colosseel() {
         super("Colosseel",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(101,
                         149,
                         82,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Barkana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Barkana() {
         super("Barkana",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(85,
                         90,
                         90,

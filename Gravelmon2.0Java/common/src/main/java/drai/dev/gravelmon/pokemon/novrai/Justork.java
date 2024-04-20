@@ -7,7 +7,7 @@ import java.util.*;
 public class Justork extends drai.dev.gravelmon.pokemon.Pokemon {
     public Justork() {
         super("Justork",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(50,
                         78,
                         58,

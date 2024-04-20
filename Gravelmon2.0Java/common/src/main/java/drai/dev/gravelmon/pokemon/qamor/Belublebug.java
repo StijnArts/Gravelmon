@@ -9,7 +9,7 @@ import java.util.*;
 public class Belublebug extends drai.dev.gravelmon.pokemon.Pokemon {
     public Belublebug() {
         super("Belublebug",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(99,
                         88,
                         77,

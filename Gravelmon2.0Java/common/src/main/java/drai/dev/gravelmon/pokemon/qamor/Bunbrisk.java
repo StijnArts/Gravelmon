@@ -9,7 +9,7 @@ import java.util.*;
 public class Bunbrisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bunbrisk() {
         super("Bunbrisk",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(78,
                         77,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Dragerg extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dragerg() {
         super("Dragerg",
-                Type.DRAGON,Type.FAIRY,
+                Type.DRAGON, Type.FAIRY,
                 new Stats(100,
                         100,
                         100,

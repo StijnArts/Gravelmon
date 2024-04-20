@@ -58,7 +58,7 @@ import java.util.*;
 public class Purazu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Purazu() {
         super("Purazu",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

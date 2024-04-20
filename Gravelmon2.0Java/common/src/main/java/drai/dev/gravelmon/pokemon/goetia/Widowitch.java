@@ -58,7 +58,7 @@ import java.util.*;
 public class Widowitch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Widowitch() {
         super("Widowitch",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

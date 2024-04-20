@@ -8,7 +8,7 @@ import java.util.*;
 public class Bandicute extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bandicute() {
         super("Bandicute",
-                Type.NORMAL,Type.DARK,
+                Type.NORMAL, Type.DARK,
                 new Stats(50,
                         75,
                         30,

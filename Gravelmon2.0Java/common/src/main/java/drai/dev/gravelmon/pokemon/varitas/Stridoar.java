@@ -9,7 +9,7 @@ import java.util.*;
 public class Stridoar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stridoar() {
         super("Stridoar",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(0,
                         0,
                         0,

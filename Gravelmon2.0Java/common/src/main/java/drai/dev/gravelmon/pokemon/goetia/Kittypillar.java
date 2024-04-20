@@ -58,7 +58,7 @@ import java.util.*;
 public class Kittypillar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kittypillar() {
         super("Kittypillar",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

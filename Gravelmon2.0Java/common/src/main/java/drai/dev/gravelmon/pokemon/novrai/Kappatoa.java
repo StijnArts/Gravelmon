@@ -7,7 +7,7 @@ import java.util.*;
 public class Kappatoa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kappatoa() {
         super("Kappatoa",
-                Type.NORMAL,Type.FIRE,
+                Type.NORMAL, Type.FIRE,
                 new Stats(102,
                         79,
                         86,

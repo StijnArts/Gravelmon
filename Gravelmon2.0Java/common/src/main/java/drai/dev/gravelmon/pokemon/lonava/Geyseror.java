@@ -7,7 +7,7 @@ import java.util.*;
 public class Geyseror extends drai.dev.gravelmon.pokemon.Pokemon {
     public Geyseror() {
         super("Geyseror",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(105,
                         89,
                         84,

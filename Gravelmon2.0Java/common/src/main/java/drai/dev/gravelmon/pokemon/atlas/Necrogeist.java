@@ -7,7 +7,7 @@ import java.util.*;
 public class Necrogeist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Necrogeist() {
         super("Necrogeist",
-                Type.DARK,Type.GHOST,
+                Type.DARK, Type.GHOST,
                 new Stats(70,
                         90,
                         70,

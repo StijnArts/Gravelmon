@@ -58,7 +58,7 @@ import java.util.*;
 public class Nosfernal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nosfernal() {
         super("Nosfernal",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(89,
                         65,
                         70,

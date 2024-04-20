@@ -8,7 +8,7 @@ import java.util.*;
 public class Veyerus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Veyerus() {
         super("Veyerus",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(45,
                         20,
                         60,
@@ -17,7 +17,7 @@ public class Veyerus extends drai.dev.gravelmon.pokemon.Pokemon {
                         170),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 4, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

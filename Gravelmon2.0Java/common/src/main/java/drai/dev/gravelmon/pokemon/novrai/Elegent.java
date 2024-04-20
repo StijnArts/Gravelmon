@@ -7,7 +7,7 @@ import java.util.*;
 public class Elegent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elegent() {
         super("Elegent",
-                Type.FIGHTING,Type.FAIRY,
+                Type.FIGHTING, Type.FAIRY,
                 new Stats(75,
                         75,
                         80,

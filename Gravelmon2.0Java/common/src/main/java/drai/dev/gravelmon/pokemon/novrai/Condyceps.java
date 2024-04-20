@@ -7,7 +7,7 @@ import java.util.*;
 public class Condyceps extends drai.dev.gravelmon.pokemon.Pokemon {
     public Condyceps() {
         super("Condyceps",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(108,
                         55,
                         67,

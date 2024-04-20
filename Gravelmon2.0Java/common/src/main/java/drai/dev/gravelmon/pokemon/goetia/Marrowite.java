@@ -58,7 +58,7 @@ import java.util.*;
 public class Marrowite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Marrowite() {
         super("Marrowite",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Flitch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flitch() {
         super("Flitch",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(0,
                         0,
                         0,

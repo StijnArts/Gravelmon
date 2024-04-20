@@ -10,7 +10,7 @@ import java.util.*;
 public class DeltaGrowlithe extends Pokemon {
     public DeltaGrowlithe(int dexNo) {
         super(dexNo,"DeltaGrowlithe",
-                Type.NORMAL,Type.DRAGON,
+                Type.NORMAL, Type.DRAGON,
                 new Stats(55, 70, 45, 70, 50, 60),
                 List.of(Ability.INNER_FOCUS,Ability.INTIMIDATE), Ability.MULTISCALE,
                 7, 190,

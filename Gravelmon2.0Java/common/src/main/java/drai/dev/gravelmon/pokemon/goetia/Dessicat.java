@@ -58,7 +58,7 @@ import java.util.*;
 public class Dessicat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dessicat() {
         super("Dessicat",
-                Type.GHOST,Type.ROCK,
+                Type.GHOST, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

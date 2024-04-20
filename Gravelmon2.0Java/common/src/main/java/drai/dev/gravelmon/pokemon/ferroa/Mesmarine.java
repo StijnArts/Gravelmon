@@ -7,7 +7,7 @@ import java.util.*;
 public class Mesmarine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mesmarine() {
         super("Mesmarine",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(55,
                         40,
                         150,

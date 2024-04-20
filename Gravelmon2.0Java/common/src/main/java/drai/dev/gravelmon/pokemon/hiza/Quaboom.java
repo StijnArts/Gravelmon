@@ -7,7 +7,7 @@ import java.util.*;
 public class Quaboom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quaboom() {
         super("Quaboom",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(40,
                         80,
                         130,

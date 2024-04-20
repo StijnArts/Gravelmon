@@ -9,7 +9,7 @@ import java.util.*;
 public class Bunbear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bunbear() {
         super("Bunbear",
-                Type.FIRE,Type.NORMAL,
+                Type.FIRE, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

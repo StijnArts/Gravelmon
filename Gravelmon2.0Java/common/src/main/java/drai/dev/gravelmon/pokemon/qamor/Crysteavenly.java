@@ -9,7 +9,7 @@ import java.util.*;
 public class Crysteavenly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crysteavenly() {
         super("Crysteavenly",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(70,
                         58,
                         50,

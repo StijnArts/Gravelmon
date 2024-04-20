@@ -9,7 +9,7 @@ import java.util.*;
 public class Saberian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Saberian() {
         super("Saberian",
-                Type.ROCK,Type.ICE,
+                Type.ROCK, Type.ICE,
                 new Stats(80,
                         140,
                         111,

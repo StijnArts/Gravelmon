@@ -58,7 +58,7 @@ import java.util.*;
 public class Embush extends drai.dev.gravelmon.pokemon.Pokemon {
     public Embush() {
         super("Embush",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

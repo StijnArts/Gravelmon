@@ -58,7 +58,7 @@ import java.util.*;
 public class Savazard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Savazard() {
         super("Savazard",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(102,
                         102,
                         83,

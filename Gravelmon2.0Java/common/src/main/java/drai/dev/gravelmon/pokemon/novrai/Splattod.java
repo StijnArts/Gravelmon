@@ -7,7 +7,7 @@ import java.util.*;
 public class Splattod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Splattod() {
         super("Splattod",
-                Type.POISON,Type.BUG,
+                Type.POISON, Type.BUG,
                 new Stats(35,
                         35,
                         55,

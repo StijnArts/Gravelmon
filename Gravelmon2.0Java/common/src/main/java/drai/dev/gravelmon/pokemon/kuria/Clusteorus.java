@@ -58,7 +58,7 @@ import java.util.*;
 public class Clusteorus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clusteorus() {
         super("Clusteorus",
-                Type.ROCK,Type.COSMIC,
+                Type.ROCK, Type.COSMIC,
                 new Stats(65,
                         85,
                         125,

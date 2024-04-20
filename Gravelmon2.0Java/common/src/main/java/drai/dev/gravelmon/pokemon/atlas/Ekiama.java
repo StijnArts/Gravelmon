@@ -7,7 +7,7 @@ import java.util.*;
 public class Ekiama extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ekiama() {
         super("Ekiama",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(100,
                         75,
                         98,

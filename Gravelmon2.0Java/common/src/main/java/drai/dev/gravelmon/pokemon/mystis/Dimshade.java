@@ -8,7 +8,7 @@ import java.util.*;
 public class Dimshade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dimshade() {
         super("Dimwraith",
-                Type.DARK,Type.GHOST,
+                Type.DARK, Type.GHOST,
                 new Stats(60,
                         80,
                         60,

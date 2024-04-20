@@ -7,7 +7,7 @@ import java.util.*;
 public class Grily extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grily() {
         super("Grily",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(50,
                         50,
                         65,

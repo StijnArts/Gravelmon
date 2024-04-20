@@ -18,7 +18,7 @@ import java.util.*;
 public class NeoGrotle extends drai.dev.gravelmon.pokemon.Pokemon {
     public NeoGrotle(int dex) {
         super(dex, "Grotle",
-                Type.FAIRY,Type.GROUND,
+                Type.FAIRY, Type.GROUND,
                 new Stats(75,
                         64,
                         75,

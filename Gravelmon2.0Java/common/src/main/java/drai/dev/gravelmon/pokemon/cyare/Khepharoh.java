@@ -58,7 +58,7 @@ import java.util.*;
 public class Khepharoh extends drai.dev.gravelmon.pokemon.Pokemon {
     public Khepharoh() {
         super("Khepharoh",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

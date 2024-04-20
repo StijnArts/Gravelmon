@@ -58,7 +58,7 @@ import java.util.*;
 public class Fairywoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fairywoo() {
         super("Fairywoo",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(36,
                         62,
                         52,

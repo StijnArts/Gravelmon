@@ -7,7 +7,7 @@ import java.util.*;
 public class Titanodon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Titanodon() {
         super("Titanodon",
-                Type.DRAGON,Type.ROCK,
+                Type.DRAGON, Type.ROCK,
                 new Stats(100,
                         135,
                         115,

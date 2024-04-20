@@ -58,7 +58,7 @@ import java.util.*;
 public class Budew extends drai.dev.gravelmon.pokemon.Pokemon {
     public Budew(int dex) {
         super(dex, "Budew",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(55,
                         30,
                         40,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Blubuoy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blubuoy() {
         super("Blubuoy",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(98,
                         55,
                         57,

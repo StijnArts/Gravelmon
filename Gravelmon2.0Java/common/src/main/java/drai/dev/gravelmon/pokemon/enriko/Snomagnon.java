@@ -7,7 +7,7 @@ import java.util.*;
 public class Snomagnon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snomagnon() {
         super("Snomagnon",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(50,
                         75,
                         50,

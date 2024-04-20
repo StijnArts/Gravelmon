@@ -6,7 +6,7 @@ import java.util.*;
 public class Porklay extends drai.dev.gravelmon.pokemon.Pokemon {
     public Porklay() {
         super("Porklay",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(80,
                         83,
                         85,

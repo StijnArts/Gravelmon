@@ -7,7 +7,7 @@ import java.util.*;
 public class Batellite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Batellite() {
         super("Batellite",
-                Type.FLYING,Type.FAIRY,
+                Type.FLYING, Type.FAIRY,
                 new Stats(70,
                         55,
                         100,

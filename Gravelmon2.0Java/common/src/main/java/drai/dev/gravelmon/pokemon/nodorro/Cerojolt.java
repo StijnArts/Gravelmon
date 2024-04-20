@@ -58,7 +58,7 @@ import java.util.*;
 public class Cerojolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cerojolt() {
         super("Cerojolt",
-                Type.GROUND,Type.ELECTRIC,
+                Type.GROUND, Type.ELECTRIC,
                 new Stats(105,
                         125,
                         80,

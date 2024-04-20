@@ -58,7 +58,7 @@ import java.util.*;
 public class Scruffian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scruffian() {
         super("Scruffian",
-                Type.DARK,Type.POISON,
+                Type.DARK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

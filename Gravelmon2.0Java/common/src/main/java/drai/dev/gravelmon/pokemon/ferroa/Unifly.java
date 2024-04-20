@@ -7,7 +7,7 @@ import java.util.*;
 public class Unifly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Unifly() {
         super("Unifly",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(30,
                         40,
                         40,

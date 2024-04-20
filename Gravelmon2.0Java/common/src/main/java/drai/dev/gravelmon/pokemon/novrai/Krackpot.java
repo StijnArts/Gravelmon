@@ -7,7 +7,7 @@ import java.util.*;
 public class Krackpot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Krackpot() {
         super("Krackpot",
-                Type.WATER,Type.FIRE,
+                Type.WATER, Type.FIRE,
                 new Stats(67,
                         83,
                         67,

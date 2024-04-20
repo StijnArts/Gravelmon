@@ -7,7 +7,7 @@ import java.util.*;
 public class Clinglee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clinglee() {
         super("Clinglee",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(40,
                         50,
                         45,

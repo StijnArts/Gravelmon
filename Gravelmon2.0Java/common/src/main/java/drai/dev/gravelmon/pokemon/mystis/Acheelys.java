@@ -58,7 +58,7 @@ import java.util.*;
 public class Acheelys extends drai.dev.gravelmon.pokemon.Pokemon {
     public Acheelys() {
         super("Acheelys",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(85,
                         90,
                         60,

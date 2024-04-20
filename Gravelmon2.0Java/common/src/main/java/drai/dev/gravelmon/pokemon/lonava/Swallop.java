@@ -7,7 +7,7 @@ import java.util.*;
 public class Swallop extends drai.dev.gravelmon.pokemon.Pokemon {
     public Swallop() {
         super("Swallop",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

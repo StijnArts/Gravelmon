@@ -7,7 +7,7 @@ import java.util.*;
 public class Chondrius extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chondrius() {
         super("Chondrius",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(70,
                         90,
                         70,

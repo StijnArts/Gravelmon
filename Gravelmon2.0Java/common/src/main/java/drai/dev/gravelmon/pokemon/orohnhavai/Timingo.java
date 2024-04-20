@@ -9,7 +9,7 @@ import java.util.*;
 public class Timingo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Timingo() {
         super("Timingo",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

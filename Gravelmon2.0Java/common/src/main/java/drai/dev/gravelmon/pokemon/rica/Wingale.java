@@ -9,7 +9,7 @@ import java.util.*;
 public class Wingale extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wingale() {
         super("Wingale",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(63,
                         63,
                         58,

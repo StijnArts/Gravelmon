@@ -58,7 +58,7 @@ import java.util.*;
 public class Pharature extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pharature() {
         super("Pharature",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(80,
                         102,
                         70,

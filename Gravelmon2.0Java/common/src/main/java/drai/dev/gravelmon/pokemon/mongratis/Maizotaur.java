@@ -58,7 +58,7 @@ import java.util.*;
 public class Maizotaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maizotaur() {
         super("Maizotaur",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(112,
                         98,
                         100,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Budy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Budy() {
         super("Budy",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(60,
                         35,
                         80,

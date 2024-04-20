@@ -58,7 +58,7 @@ import java.util.*;
 public class Zweilous extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zweilous(int dex) {
         super(dex, "Zweilous",
-                Type.DARK,Type.DRAGON,
+                Type.DARK, Type.DRAGON,
                 new Stats(72,
                         85,
                         70,

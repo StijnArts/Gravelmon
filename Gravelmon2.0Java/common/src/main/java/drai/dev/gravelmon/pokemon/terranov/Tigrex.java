@@ -58,7 +58,7 @@ import java.util.*;
 public class Tigrex extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tigrex() {
         super("Tigrex",
-                Type.FIGHTING,Type.GROUND,
+                Type.FIGHTING, Type.GROUND,
                 new Stats(80,
                         125,
                         80,

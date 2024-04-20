@@ -58,7 +58,7 @@ import java.util.*;
 public class Deoxavir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Deoxavir() {
         super("Deoxavir",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(50,
                         75,
                         50,

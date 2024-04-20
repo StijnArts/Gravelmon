@@ -58,7 +58,7 @@ import java.util.*;
 public class Teravat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Teravat() {
         super("Teravat",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(59,
                         40,
                         82,

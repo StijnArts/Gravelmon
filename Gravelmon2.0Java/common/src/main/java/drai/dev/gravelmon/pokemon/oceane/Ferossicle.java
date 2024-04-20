@@ -7,7 +7,7 @@ import java.util.*;
 public class Ferossicle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ferossicle() {
         super("Ferossicle",
-                Type.DRAGON,Type.GROUND,
+                Type.DRAGON, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

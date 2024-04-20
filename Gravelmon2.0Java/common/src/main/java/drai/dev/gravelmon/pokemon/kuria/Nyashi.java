@@ -58,7 +58,7 @@ import java.util.*;
 public class Nyashi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nyashi() {
         super("Nyashi",
-                Type.GHOST,Type.FIGHTING,
+                Type.GHOST, Type.FIGHTING,
                 new Stats(52,
                         70,
                         47,

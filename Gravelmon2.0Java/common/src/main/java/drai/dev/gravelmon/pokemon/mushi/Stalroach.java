@@ -8,7 +8,7 @@ import java.util.*;
 public class Stalroach extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stalroach() {
         super("Monstroach",
-                Type.DARK,Type.NORMAL,
+                Type.DARK, Type.NORMAL,
                 new Stats(77,
                         90,
                         105,

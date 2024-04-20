@@ -7,7 +7,7 @@ import java.util.*;
 public class Enchantice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Enchantice() {
         super("Enchantice",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(77,
                         85,
                         67,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Leavat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leavat() {
         super("Leavat",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(35,
                         45,
                         50,

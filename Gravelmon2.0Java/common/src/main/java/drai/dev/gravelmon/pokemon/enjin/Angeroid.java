@@ -58,7 +58,7 @@ import java.util.*;
 public class Angeroid extends drai.dev.gravelmon.pokemon.Pokemon {
     public Angeroid() {
         super("Angeroid",
-                Type.FIGHTING,Type.POISON,
+                Type.FIGHTING, Type.POISON,
                 new Stats(0,
                         0,
                         0,

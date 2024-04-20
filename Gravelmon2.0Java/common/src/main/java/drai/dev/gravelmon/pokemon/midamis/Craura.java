@@ -9,7 +9,7 @@ import java.util.*;
 public class Craura extends drai.dev.gravelmon.pokemon.Pokemon {
     public Craura() {
         super("Craura",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(65,
                         70,
                         65,

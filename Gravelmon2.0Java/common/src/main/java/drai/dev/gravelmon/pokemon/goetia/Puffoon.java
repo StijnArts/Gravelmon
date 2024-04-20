@@ -58,7 +58,7 @@ import java.util.*;
 public class Puffoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Puffoon() {
         super("Puffoon",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sableye extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sableye(int dex) {
         super(dex, "Sableye",
-                Type.DARK,Type.STEEL,
+                Type.DARK, Type.STEEL,
                 new Stats(50,
                         75,
                         95,

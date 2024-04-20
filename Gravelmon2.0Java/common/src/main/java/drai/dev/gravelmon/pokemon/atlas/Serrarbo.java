@@ -7,7 +7,7 @@ import java.util.*;
 public class Serrarbo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Serrarbo() {
         super("Serrarbo",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(100,
                         51,
                         124,

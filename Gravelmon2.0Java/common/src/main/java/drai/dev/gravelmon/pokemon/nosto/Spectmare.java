@@ -7,7 +7,7 @@ import java.util.*;
 public class Spectmare extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spectmare() {
         super("Spectmare",
-                Type.GHOST,Type.ROCK,
+                Type.GHOST, Type.ROCK,
                 new Stats(80,
                         135,
                         122,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Cyanidae extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cyanidae() {
         super("Cyanidae",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(75,
                         90,
                         50,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Boilord extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boilord() {
         super("Boilord",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(90,
                         125,
                         105,

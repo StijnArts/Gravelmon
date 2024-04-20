@@ -58,7 +58,7 @@ import java.util.*;
 public class Eruptor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eruptor() {
         super("Eruptor",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

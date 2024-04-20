@@ -7,7 +7,7 @@ import java.util.*;
 public class Chimneoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chimneoth() {
         super("Chimneoth",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(70,
                         50,
                         80,

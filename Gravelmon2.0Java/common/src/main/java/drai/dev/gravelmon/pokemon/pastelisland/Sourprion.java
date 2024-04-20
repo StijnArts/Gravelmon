@@ -58,7 +58,7 @@ import java.util.*;
 public class Sourprion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sourprion() {
         super("Sourprion",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(75,
                         99,
                         70,

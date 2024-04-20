@@ -58,7 +58,7 @@ import java.util.*;
 public class Regishard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Regishard() {
         super("Regishard",
-                Type.PSYCHIC,Type.DARK,
+                Type.PSYCHIC, Type.DARK,
                 new Stats(60,
                         98,
                         110,

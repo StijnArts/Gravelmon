@@ -9,7 +9,7 @@ import java.util.*;
 public class Sedavlin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sedavlin() {
         super("Sedavlin",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(60,
                         60,
                         90,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Magness extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magness() {
         super("Magness",
-                Type.ELECTRIC,Type.STEEL,
+                Type.ELECTRIC, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Toadrule extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toadrule() {
         super("Toadrule",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(0,
                         0,
                         0,

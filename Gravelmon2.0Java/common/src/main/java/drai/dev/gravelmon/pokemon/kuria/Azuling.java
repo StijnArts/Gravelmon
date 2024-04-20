@@ -58,7 +58,7 @@ import java.util.*;
 public class Azuling extends drai.dev.gravelmon.pokemon.Pokemon {
     public Azuling() {
         super("Azuling",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(45,
                         25,
                         30,

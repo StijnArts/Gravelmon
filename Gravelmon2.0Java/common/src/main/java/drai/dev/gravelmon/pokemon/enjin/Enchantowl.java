@@ -58,7 +58,7 @@ import java.util.*;
 public class Enchantowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Enchantowl() {
         super("Enchantowl",
-                Type.PSYCHIC,Type.FAIRY,
+                Type.PSYCHIC, Type.FAIRY,
                 new Stats(105,
                         55,
                         75,
@@ -66,8 +66,8 @@ public class Enchantowl extends drai.dev.gravelmon.pokemon.Pokemon {
                         125,
                         80),
                 List.of(Ability.INSOMNIA,Ability.MAGIC_BOUNCE), Ability.PSYCHIC_SURGE,
-                0, 0,
-                new Stats(1,0,0,0,1,1), 0,
+                18, 0,
+                new Stats(1,0,0,0,1,1), 30,
                 0.5,
                 239, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -172,13 +172,15 @@ public class Enchantowl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AGILITY,"tm")                        ),
                 List.of(Label.ENJIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 40, 51, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Enchantowl");
 
     }

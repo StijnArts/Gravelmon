@@ -7,7 +7,7 @@ import java.util.*;
 public class Sonoreef extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sonoreef() {
         super("Sonoreef",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(72,
                         55,
                         65,

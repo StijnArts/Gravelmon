@@ -58,7 +58,7 @@ import java.util.*;
 public class Vicera extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vicera() {
         super("Vicera",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(72,
                         84,
                         70,

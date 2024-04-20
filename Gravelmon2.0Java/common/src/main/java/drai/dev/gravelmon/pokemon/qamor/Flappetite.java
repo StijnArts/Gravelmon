@@ -9,7 +9,7 @@ import java.util.*;
 public class Flappetite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flappetite() {
         super("Flappetite",
-                Type.NORMAL,Type.DARK,
+                Type.NORMAL, Type.DARK,
                 new Stats(140,
                         80,
                         100,

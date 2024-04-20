@@ -58,7 +58,7 @@ import java.util.*;
 public class Volswine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Volswine() {
         super("Volswine",
-                Type.ELECTRIC,Type.GROUND,
+                Type.ELECTRIC, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

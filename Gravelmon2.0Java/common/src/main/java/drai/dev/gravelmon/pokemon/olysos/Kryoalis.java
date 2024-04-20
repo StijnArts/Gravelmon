@@ -58,7 +58,7 @@ import java.util.*;
 public class Kryoalis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kryoalis() {
         super("Kryoalis",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(80,
                         70,
                         80,

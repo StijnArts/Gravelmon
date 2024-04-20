@@ -9,7 +9,7 @@ import java.util.*;
 public class QamoranCubchoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public QamoranCubchoo(int dex) {
         super(dex, "Cubchoo",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(55,
                         60,
                         40,

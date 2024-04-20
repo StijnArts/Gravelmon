@@ -7,7 +7,7 @@ import java.util.*;
 public class Juroxic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Juroxic() {
         super("Juroxic",
-                Type.DRAGON,Type.POISON,
+                Type.DRAGON, Type.POISON,
                 new Stats(78,
                         112,
                         85,

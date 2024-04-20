@@ -9,7 +9,7 @@ import java.util.*;
 public class Camofirma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Camofirma() {
         super("Camofirma",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(93,
                         71,
                         122,

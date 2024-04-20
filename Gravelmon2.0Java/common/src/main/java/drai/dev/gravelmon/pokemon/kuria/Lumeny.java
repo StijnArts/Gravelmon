@@ -58,7 +58,7 @@ import java.util.*;
 public class Lumeny extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumeny() {
         super("Lumeny",
-                Type.LIGHT,Type.QUESTION_MARK,
+                Type.LIGHT, Type.QUESTION_MARK,
                 new Stats(100,
                         100,
                         100,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Flurse extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flurse() {
         super("Flurse",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(60,
                         50,
                         55,

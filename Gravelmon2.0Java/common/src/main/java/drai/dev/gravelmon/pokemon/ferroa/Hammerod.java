@@ -7,7 +7,7 @@ import java.util.*;
 public class Hammerod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hammerod() {
         super("Hammerod",
-                Type.STEEL,Type.DARK,
+                Type.STEEL, Type.DARK,
                 new Stats(60,
                         70,
                         100,

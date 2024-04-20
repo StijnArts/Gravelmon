@@ -7,7 +7,7 @@ import java.util.*;
 public class Metamarine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Metamarine() {
         super("Metamarine",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(90,
                         70,
                         130,

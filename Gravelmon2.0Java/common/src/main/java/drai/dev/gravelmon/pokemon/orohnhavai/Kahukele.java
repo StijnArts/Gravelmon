@@ -9,7 +9,7 @@ import java.util.*;
 public class Kahukele extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kahukele() {
         super("Kahukele",
-                Type.GHOST,Type.FIGHTING,
+                Type.GHOST, Type.FIGHTING,
                 new Stats(65,
                         110,
                         100,

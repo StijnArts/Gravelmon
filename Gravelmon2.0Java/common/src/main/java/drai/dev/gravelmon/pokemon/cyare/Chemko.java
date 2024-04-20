@@ -58,7 +58,7 @@ import java.util.*;
 public class Chemko extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chemko() {
         super("Chemko",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

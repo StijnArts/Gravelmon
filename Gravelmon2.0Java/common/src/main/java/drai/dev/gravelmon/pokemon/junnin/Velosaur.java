@@ -11,7 +11,7 @@ import java.util.*;
 public class Velosaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Velosaur() {
         super("Velosaur",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(90,
                         115,
                         65,

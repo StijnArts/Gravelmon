@@ -6,7 +6,7 @@ import java.util.*;
 public class Flantern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flantern() {
         super("Flantern",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(55,
                         65,
                         58,

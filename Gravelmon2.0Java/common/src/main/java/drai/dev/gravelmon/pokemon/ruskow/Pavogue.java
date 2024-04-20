@@ -58,7 +58,7 @@ import java.util.*;
 public class Pavogue extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pavogue() {
         super("Pavogue",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

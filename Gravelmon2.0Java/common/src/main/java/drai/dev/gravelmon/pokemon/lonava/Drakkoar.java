@@ -7,7 +7,7 @@ import java.util.*;
 public class Drakkoar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drakkoar() {
         super("Drakkoar",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

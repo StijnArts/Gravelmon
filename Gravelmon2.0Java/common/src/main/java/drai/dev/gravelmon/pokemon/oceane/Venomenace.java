@@ -7,7 +7,7 @@ import java.util.*;
 public class Venomenace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Venomenace() {
         super("Venomenace",
-                Type.DRAGON,Type.POISON,
+                Type.DRAGON, Type.POISON,
                 new Stats(94,
                         113,
                         113,

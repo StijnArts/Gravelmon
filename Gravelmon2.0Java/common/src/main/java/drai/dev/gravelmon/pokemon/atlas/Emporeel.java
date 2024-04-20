@@ -7,7 +7,7 @@ import java.util.*;
 public class Emporeel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Emporeel() {
         super("Emporeel",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(104,
                         80,
                         90,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Gelatini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gelatini() {
         super("Gelatini",
-                Type.PSYCHIC,Type.FIGHTING,
+                Type.PSYCHIC, Type.FIGHTING,
                 new Stats(60,
                         25,
                         65,
@@ -17,7 +17,7 @@ public class Gelatini extends drai.dev.gravelmon.pokemon.Pokemon {
                         47),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 7, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

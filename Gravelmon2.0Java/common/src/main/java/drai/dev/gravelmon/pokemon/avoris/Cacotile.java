@@ -13,7 +13,7 @@ import java.util.*;
 public class Cacotile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cacotile() {
         super("Cacotile",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(0,
                         0,
                         0,

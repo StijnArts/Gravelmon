@@ -7,7 +7,7 @@ import java.util.*;
 public class Psyclops extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psyclops() {
         super("Psyclops",
-                Type.PSYCHIC,Type.FIGHTING,
+                Type.PSYCHIC, Type.FIGHTING,
                 new Stats(62,
                         63,
                         36,

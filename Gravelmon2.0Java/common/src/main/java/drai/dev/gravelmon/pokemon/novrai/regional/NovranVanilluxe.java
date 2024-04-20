@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranVanilluxe extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranVanilluxe(int dex) {
         super(dex, "Vanilluxe",
-                Type.ICE,Type.GRASS,
+                Type.ICE, Type.GRASS,
                 new Stats(71,
                         95,
                         85,

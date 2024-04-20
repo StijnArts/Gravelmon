@@ -58,7 +58,7 @@ import java.util.*;
 public class Escargoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Escargoo() {
         super("Escargoo",
-                Type.POISON,Type.ICE,
+                Type.POISON, Type.ICE,
                 new Stats(100,
                         75,
                         125,

@@ -8,7 +8,7 @@ import java.util.*;
 public class AvorianFlaaffy extends drai.dev.gravelmon.pokemon.Pokemon {
     public AvorianFlaaffy() {
         super("Flaaffy",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

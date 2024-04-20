@@ -7,7 +7,7 @@ import java.util.*;
 public class Aviterate extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aviterate() {
         super("Aviterate",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(80,
                         90,
                         75,

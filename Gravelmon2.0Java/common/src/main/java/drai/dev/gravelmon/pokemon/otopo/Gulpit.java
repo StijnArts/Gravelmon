@@ -58,7 +58,7 @@ import java.util.*;
 public class Gulpit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gulpit() {
         super("Gulpit",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

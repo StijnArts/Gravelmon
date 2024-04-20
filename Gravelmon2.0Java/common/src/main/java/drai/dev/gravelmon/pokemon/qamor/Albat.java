@@ -9,7 +9,7 @@ import java.util.*;
 public class Albat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Albat() {
         super("Albat",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(55,
                         50,
                         48,

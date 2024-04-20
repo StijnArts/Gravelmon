@@ -58,7 +58,7 @@ import java.util.*;
 public class Papadoooge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Papadoooge() {
         super("Papadoooge",
-                Type.DARK,Type.GROUND,
+                Type.DARK, Type.GROUND,
                 new Stats(74,
                         95,
                         84,

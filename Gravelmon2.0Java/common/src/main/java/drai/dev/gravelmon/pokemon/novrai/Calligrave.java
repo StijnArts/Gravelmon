@@ -7,7 +7,7 @@ import java.util.*;
 public class Calligrave extends drai.dev.gravelmon.pokemon.Pokemon {
     public Calligrave() {
         super("Calligrave",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(54,
                         89,
                         68,

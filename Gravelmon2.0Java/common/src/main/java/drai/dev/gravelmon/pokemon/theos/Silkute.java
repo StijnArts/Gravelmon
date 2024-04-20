@@ -58,7 +58,7 @@ import java.util.*;
 public class Silkute extends drai.dev.gravelmon.pokemon.Pokemon {
     public Silkute() {
         super("Silkute",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(70,
                         30,
                         70,

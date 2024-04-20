@@ -58,7 +58,7 @@ import java.util.*;
 public class Echoplasm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Echoplasm() {
         super("Echoplasm",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

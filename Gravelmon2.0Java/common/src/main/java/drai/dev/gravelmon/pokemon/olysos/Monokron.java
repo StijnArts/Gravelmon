@@ -58,7 +58,7 @@ import java.util.*;
 public class Monokron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Monokron() {
         super("Monokron",
-                Type.STEEL,Type.PSYCHIC,
+                Type.STEEL, Type.PSYCHIC,
                 new Stats(85,
                         200,
                         120,

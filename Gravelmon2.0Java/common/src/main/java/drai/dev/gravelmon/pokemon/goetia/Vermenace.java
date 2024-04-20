@@ -58,7 +58,7 @@ import java.util.*;
 public class Vermenace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vermenace() {
         super("Vermenace",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(80,
                         90,
                         95,

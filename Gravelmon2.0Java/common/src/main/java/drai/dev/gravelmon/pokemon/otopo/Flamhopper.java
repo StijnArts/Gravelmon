@@ -58,7 +58,7 @@ import java.util.*;
 public class Flamhopper extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flamhopper() {
         super("Flamhopper",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(0,
                         0,
                         0,

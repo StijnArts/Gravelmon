@@ -7,7 +7,7 @@ import java.util.*;
 public class Monymph extends drai.dev.gravelmon.pokemon.Pokemon {
     public Monymph() {
         super("Monymph",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(80,
                         90,
                         120,

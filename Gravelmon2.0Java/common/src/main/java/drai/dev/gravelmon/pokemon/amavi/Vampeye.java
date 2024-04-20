@@ -8,7 +8,7 @@ import java.util.*;
 public class Vampeye extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vampeye() {
         super("Vampeye",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(145,
                         80,
                         55,
@@ -17,7 +17,7 @@ public class Vampeye extends drai.dev.gravelmon.pokemon.Pokemon {
                         70),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 16, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 40,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Lanidos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lanidos() {
         super("Lanidos",
-                Type.BUG,Type.FAIRY,
+                Type.BUG, Type.FAIRY,
                 new Stats(70,
                         40,
                         70,

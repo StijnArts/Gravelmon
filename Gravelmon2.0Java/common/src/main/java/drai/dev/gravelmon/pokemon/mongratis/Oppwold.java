@@ -58,7 +58,7 @@ import java.util.*;
 public class Oppwold extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oppwold() {
         super("Oppwold",
-                Type.GRASS,Type.STEEL,
+                Type.GRASS, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Conifella extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conifella() {
         super("Conifella",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(90,
                         80,
                         90,

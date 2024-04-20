@@ -58,7 +58,7 @@ import java.util.*;
 public class Koaninja extends drai.dev.gravelmon.pokemon.Pokemon {
     public Koaninja() {
         super("Koaninja",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

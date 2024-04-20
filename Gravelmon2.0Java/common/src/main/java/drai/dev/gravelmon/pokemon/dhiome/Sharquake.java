@@ -8,7 +8,7 @@ import java.util.*;
 public class Sharquake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sharquake() {
         super("Sharquake",
-                Type.GROUND,Type.ELECTRIC,
+                Type.GROUND, Type.ELECTRIC,
                 new Stats(70,
                         100,
                         55,

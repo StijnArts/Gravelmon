@@ -8,7 +8,7 @@ import java.util.*;
 public class Slycicle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slycicle() {
         super("Slycicle",
-                Type.ICE,Type.DARK,
+                Type.ICE, Type.DARK,
                 new Stats(40,
                         80,
                         40,
@@ -17,7 +17,7 @@ public class Slycicle extends drai.dev.gravelmon.pokemon.Pokemon {
                         100),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 6, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

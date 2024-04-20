@@ -9,7 +9,7 @@ import java.util.*;
 public class Hamarrcal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hamarrcal() {
         super("Hamarrcal",
-                Type.ELECTRIC,Type.ROCK,
+                Type.ELECTRIC, Type.ROCK,
                 new Stats(110,
                         140,
                         120,

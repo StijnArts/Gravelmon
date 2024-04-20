@@ -9,7 +9,7 @@ import java.util.*;
 public class Brewpod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brewpod() {
         super("Brewpod",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(70,
                         20,
                         30,

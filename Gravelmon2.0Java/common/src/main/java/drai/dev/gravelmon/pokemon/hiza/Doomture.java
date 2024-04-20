@@ -7,7 +7,7 @@ import java.util.*;
 public class Doomture extends drai.dev.gravelmon.pokemon.Pokemon {
     public Doomture() {
         super("Doomture",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(85,
                         115,
                         85,

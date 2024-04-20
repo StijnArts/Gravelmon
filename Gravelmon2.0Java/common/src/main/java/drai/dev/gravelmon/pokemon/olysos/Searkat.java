@@ -58,7 +58,7 @@ import java.util.*;
 public class Searkat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Searkat() {
         super("Searkat",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

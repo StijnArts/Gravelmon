@@ -58,7 +58,7 @@ import java.util.*;
 public class Injelligent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Injelligent() {
         super("Injelligent",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

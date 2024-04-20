@@ -7,7 +7,7 @@ import java.util.*;
 public class Cadavillar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cadavillar() {
         super("Cadavillar",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(55,
                         55,
                         60,

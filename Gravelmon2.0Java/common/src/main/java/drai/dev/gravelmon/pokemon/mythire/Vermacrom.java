@@ -7,7 +7,7 @@ import java.util.*;
 public class Vermacrom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vermacrom() {
         super("Vermacrom",
-                Type.GROUND,Type.FIRE,
+                Type.GROUND, Type.FIRE,
                 new Stats(100,
                         90,
                         110,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Cetoacean extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cetoacean() {
         super("Cetoacean",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

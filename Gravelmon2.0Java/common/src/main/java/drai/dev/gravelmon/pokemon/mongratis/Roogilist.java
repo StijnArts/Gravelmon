@@ -58,7 +58,7 @@ import java.util.*;
 public class Roogilist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roogilist() {
         super("Roogilist",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

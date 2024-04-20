@@ -9,7 +9,7 @@ import java.util.*;
 public class Pitopyre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pitopyre() {
         super("Pitopyre",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

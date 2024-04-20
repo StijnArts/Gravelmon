@@ -8,7 +8,7 @@ import java.util.*;
 public class Shisapien extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shisapien() {
         super("Shisapien",
-                Type.FIRE,Type.DARK,
+                Type.FIRE, Type.DARK,
                 new Stats(0,
                         0,
                         0,

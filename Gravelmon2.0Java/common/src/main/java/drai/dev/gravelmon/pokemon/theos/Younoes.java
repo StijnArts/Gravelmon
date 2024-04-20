@@ -58,7 +58,7 @@ import java.util.*;
 public class Younoes extends drai.dev.gravelmon.pokemon.Pokemon {
     public Younoes() {
         super("Younoes",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(80,
                         35,
                         55,

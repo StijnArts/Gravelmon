@@ -7,7 +7,7 @@ import java.util.*;
 public class Discobrawl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Discobrawl() {
         super("Discobrawl",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(75,
                         120,
                         80,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Aeroluga extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aeroluga() {
         super("Aeroluga",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(100,
                         100,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Charmatch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Charmatch() {
         super("Charmatch",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

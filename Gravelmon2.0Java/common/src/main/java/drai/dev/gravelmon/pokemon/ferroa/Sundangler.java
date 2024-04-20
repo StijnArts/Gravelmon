@@ -13,7 +13,7 @@ import java.util.*;
 public class Sundangler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sundangler() {
         super("Sundangler",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(140,
                         110,
                         60,

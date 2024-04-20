@@ -7,7 +7,7 @@ import java.util.*;
 public class Ballosh extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ballosh() {
         super("Ballosh",
-                Type.ICE,Type.POISON,
+                Type.ICE, Type.POISON,
                 new Stats(50,
                         45,
                         60,

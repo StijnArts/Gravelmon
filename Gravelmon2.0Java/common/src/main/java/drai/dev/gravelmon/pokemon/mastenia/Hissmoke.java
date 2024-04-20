@@ -58,7 +58,7 @@ import java.util.*;
 public class Hissmoke extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hissmoke() {
         super("Hissmoke",
-                Type.FIRE,Type.GRASS,
+                Type.FIRE, Type.GRASS,
                 new Stats(55,
                         110,
                         55,

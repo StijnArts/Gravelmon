@@ -7,7 +7,7 @@ import java.util.*;
 public class Orbranch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Orbranch() {
         super("Orbranch",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(69,
                         43,
                         79,

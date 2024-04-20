@@ -58,7 +58,7 @@ import java.util.*;
 public class Zomboo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zomboo() {
         super("Zomboo",
-                Type.GROUND,Type.GHOST,
+                Type.GROUND, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

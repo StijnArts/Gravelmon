@@ -58,7 +58,7 @@ import java.util.*;
 public class Ceryneer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ceryneer() {
         super("Ceryneer",
-                Type.ICE,Type.LIGHT,
+                Type.ICE, Type.LIGHT,
                 new Stats(0,
                         0,
                         0,

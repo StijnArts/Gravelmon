@@ -58,7 +58,7 @@ import java.util.*;
 public class Buzkin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buzkin() {
         super("Buzkin",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(40,
                         35,
                         30,

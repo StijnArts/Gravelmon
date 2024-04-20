@@ -7,7 +7,7 @@ import java.util.*;
 public class FlyTrap2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public FlyTrap2() {
         super("FlyTrap2",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

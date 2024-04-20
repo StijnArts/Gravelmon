@@ -58,7 +58,7 @@ import java.util.*;
 public class Magpeist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magpeist() {
         super("Magpeist",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(60,
                         100,
                         60,

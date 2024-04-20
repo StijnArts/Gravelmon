@@ -58,7 +58,7 @@ import java.util.*;
 public class Bunnimbus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bunnimbus() {
         super("Bunnimbus",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(95,
                         65,
                         75,

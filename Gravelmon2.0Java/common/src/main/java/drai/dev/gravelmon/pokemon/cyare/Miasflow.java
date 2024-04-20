@@ -58,7 +58,7 @@ import java.util.*;
 public class Miasflow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Miasflow() {
         super("Miasflow",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Lilpaca extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lilpaca() {
         super("Lilpaca",
-                Type.ROCK,Type.ICE,
+                Type.ROCK, Type.ICE,
                 new Stats(78,
                         25,
                         98,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Chainscraw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chainscraw() {
         super("Chainscraw",
-                Type.ROCK,Type.STEEL,
+                Type.ROCK, Type.STEEL,
                 new Stats(70,
                         125,
                         100,

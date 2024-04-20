@@ -7,7 +7,7 @@ import java.util.*;
 public class Zentipreeze extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zentipreeze() {
         super("Zentipreeze",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(80,
                         95,
                         50,

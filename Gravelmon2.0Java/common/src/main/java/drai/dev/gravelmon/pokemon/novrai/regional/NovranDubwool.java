@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranDubwool extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranDubwool(int dex) {
         super(dex, "Dubwool",
-                Type.STEEL,Type.NORMAL,
+                Type.STEEL, Type.NORMAL,
                 new Stats(72,
                         80,
                         120,

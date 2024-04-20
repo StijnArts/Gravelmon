@@ -58,7 +58,7 @@ import java.util.*;
 public class Spectreflek extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spectreflek() {
         super("Spectreflek",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

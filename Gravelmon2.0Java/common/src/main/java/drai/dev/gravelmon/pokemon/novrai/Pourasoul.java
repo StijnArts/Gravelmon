@@ -7,7 +7,7 @@ import java.util.*;
 public class Pourasoul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pourasoul() {
         super("Pourasoul",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(65,
                         60,
                         70,

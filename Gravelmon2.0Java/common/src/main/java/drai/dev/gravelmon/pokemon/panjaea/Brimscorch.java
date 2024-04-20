@@ -58,7 +58,7 @@ import java.util.*;
 public class Brimscorch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brimscorch() {
         super("Brimscorch",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Sporror extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sporror() {
         super("Sporror",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(75,
                         90,
                         45,

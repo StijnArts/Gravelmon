@@ -7,7 +7,7 @@ import java.util.*;
 public class Dodojo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dodojo() {
         super("Dodojo",
-                Type.FIGHTING,Type.GHOST,
+                Type.FIGHTING, Type.GHOST,
                 new Stats(57,
                         81,
                         55,

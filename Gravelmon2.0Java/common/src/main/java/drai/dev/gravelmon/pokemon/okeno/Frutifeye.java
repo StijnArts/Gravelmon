@@ -6,7 +6,7 @@ import java.util.*;
 public class Frutifeye extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frutifeye() {
         super("Frutifeye",
-                Type.PSYCHIC,Type.GRASS,
+                Type.PSYCHIC, Type.GRASS,
                 new Stats(45,
                         36,
                         36,

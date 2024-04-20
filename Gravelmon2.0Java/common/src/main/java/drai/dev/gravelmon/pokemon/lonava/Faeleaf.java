@@ -7,7 +7,7 @@ import java.util.*;
 public class Faeleaf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Faeleaf() {
         super("Faeleaf",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(100,
                         100,
                         100,

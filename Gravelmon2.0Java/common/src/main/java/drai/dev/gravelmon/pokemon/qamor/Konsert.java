@@ -9,7 +9,7 @@ import java.util.*;
 public class Konsert extends drai.dev.gravelmon.pokemon.Pokemon {
     public Konsert() {
         super("Konsert",
-                Type.DRAGON,Type.NORMAL,
+                Type.DRAGON, Type.NORMAL,
                 new Stats(92,
                         98,
                         73,

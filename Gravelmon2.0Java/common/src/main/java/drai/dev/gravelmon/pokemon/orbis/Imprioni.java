@@ -58,7 +58,7 @@ import java.util.*;
 public class Imprioni extends drai.dev.gravelmon.pokemon.Pokemon {
     public Imprioni() {
         super("Imprioni",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

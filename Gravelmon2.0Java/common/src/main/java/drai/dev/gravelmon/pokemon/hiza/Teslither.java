@@ -7,7 +7,7 @@ import java.util.*;
 public class Teslither extends drai.dev.gravelmon.pokemon.Pokemon {
     public Teslither() {
         super("Teslither",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(34,
                         32,
                         32,

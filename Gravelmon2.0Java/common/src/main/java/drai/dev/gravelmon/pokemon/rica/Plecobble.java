@@ -9,7 +9,7 @@ import java.util.*;
 public class Plecobble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plecobble() {
         super("Plecobble",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(50,
                         65,
                         80,

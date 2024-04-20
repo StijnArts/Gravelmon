@@ -7,7 +7,7 @@ import java.util.*;
 public class Kerratic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kerratic() {
         super("Kerratic",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(89,
                         103,
                         61,

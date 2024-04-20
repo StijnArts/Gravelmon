@@ -7,7 +7,7 @@ import java.util.*;
 public class Nymphemeral extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nymphemeral() {
         super("Nymphemeral",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(70,
                         70,
                         85,

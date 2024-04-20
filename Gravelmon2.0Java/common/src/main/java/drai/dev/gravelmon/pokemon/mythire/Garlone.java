@@ -7,7 +7,7 @@ import java.util.*;
 public class Garlone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Garlone() {
         super("Garlone",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

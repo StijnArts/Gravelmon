@@ -58,7 +58,7 @@ import java.util.*;
 public class Draquafin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Draquafin() {
         super("Draquafin",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(75,
                         142,
                         90,

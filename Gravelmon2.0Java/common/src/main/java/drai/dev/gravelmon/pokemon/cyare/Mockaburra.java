@@ -58,7 +58,7 @@ import java.util.*;
 public class Mockaburra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mockaburra() {
         super("Mockaburra",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

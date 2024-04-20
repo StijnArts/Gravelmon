@@ -9,7 +9,7 @@ import java.util.*;
 public class Ogoprowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ogoprowl() {
         super("Ogoprowl",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(60,
                         75,
                         55,

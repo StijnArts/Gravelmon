@@ -58,7 +58,7 @@ import java.util.*;
 public class Wiggler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wiggler() {
         super("Wiggler",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

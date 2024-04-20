@@ -58,7 +58,7 @@ import java.util.*;
 public class Noseferatu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Noseferatu() {
         super("Noseferatu",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

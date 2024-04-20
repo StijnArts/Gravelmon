@@ -58,7 +58,7 @@ import java.util.*;
 public class Drahoggon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drahoggon() {
         super("Drahoggon",
-                Type.DRAGON,Type.NORMAL,
+                Type.DRAGON, Type.NORMAL,
                 new Stats(110,
                         120,
                         90,

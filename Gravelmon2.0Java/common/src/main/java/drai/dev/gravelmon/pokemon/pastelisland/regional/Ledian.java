@@ -58,7 +58,7 @@ import java.util.*;
 public class Ledian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ledian(int dex) {
         super(dex, "Ledian",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(55,
                         60,
                         50,

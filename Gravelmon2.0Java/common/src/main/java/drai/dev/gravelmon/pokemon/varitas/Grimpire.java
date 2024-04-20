@@ -9,7 +9,7 @@ import java.util.*;
 public class Grimpire extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grimpire() {
         super("Grimpire",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

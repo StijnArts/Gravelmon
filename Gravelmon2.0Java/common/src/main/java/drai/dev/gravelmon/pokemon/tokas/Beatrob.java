@@ -58,7 +58,7 @@ import java.util.*;
 public class Beatrob extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beatrob() {
         super("Beatrob",
-                Type.FLYING,Type.NORMAL,
+                Type.FLYING, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

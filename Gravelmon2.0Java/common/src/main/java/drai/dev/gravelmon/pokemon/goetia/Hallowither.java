@@ -58,7 +58,7 @@ import java.util.*;
 public class Hallowither extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hallowither() {
         super("Hallowither",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(130,
                         80,
                         120,

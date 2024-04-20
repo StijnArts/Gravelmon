@@ -58,7 +58,7 @@ import java.util.*;
 public class Halseaon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Halseaon() {
         super("Halseaon",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(115,
                         60,
                         70,

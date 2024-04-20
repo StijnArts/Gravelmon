@@ -6,7 +6,7 @@ import java.util.*;
 public class Darbyss extends drai.dev.gravelmon.pokemon.Pokemon {
     public Darbyss() {
         super("Darbyss",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(75,
                         90,
                         80,

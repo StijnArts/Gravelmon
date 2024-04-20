@@ -58,7 +58,7 @@ import java.util.*;
 public class Luxuroe extends drai.dev.gravelmon.pokemon.Pokemon {
     public Luxuroe() {
         super("Luxuroe",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

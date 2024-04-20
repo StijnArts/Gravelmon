@@ -9,7 +9,7 @@ import java.util.*;
 public class Pompurr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pompurr() {
         super("Pompurr",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(64,
                         95,
                         50,

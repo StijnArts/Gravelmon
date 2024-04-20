@@ -11,7 +11,7 @@ import java.util.*;
 public class Equia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Equia() {
         super("Equia",
-                Type.FAIRY,Type.WATER,
+                Type.FAIRY, Type.WATER,
                 new Stats(96,
                         84,
                         118,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Rebone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rebone() {
         super("Rebone",
-                Type.DRAGON,Type.GHOST,
+                Type.DRAGON, Type.GHOST,
                 new Stats(70,
                         95,
                         50,

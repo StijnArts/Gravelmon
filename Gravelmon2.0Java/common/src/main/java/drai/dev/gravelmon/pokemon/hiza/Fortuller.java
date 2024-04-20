@@ -7,7 +7,7 @@ import java.util.*;
 public class Fortuller extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fortuller() {
         super("Fortuller",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(44,
                         28,
                         46,

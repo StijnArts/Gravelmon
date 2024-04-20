@@ -7,7 +7,7 @@ import java.util.*;
 public class Cursour extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cursour() {
         super("Cursour",
-                Type.ELECTRIC,Type.GRASS,
+                Type.ELECTRIC, Type.GRASS,
                 new Stats(60,
                         40,
                         45,

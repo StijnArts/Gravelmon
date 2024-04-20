@@ -7,7 +7,7 @@ import java.util.*;
 public class PorytlegZ extends drai.dev.gravelmon.pokemon.Pokemon {
     public PorytlegZ() {
         super("PorytlegZ",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(75,
                         90,
                         65,

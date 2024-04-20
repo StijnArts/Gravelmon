@@ -58,7 +58,7 @@ import java.util.*;
 public class Centiskorch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Centiskorch(int dex) {
         super(dex, "Centiskorch",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(100,
                         115,
                         65,

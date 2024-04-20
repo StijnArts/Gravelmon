@@ -7,7 +7,7 @@ import java.util.*;
 public class Harmorial extends drai.dev.gravelmon.pokemon.Pokemon {
     public Harmorial() {
         super("Harmorial",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(92,
                         70,
                         97,

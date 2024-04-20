@@ -58,7 +58,7 @@ import java.util.*;
 public class Skiploom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skiploom(int dex) {
         super(dex, "Skiploom",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(55,
                         45,
                         50,

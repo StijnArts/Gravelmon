@@ -7,7 +7,7 @@ import java.util.*;
 public class Heathling extends drai.dev.gravelmon.pokemon.Pokemon {
     public Heathling() {
         super("Heathling",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(25,
                         45,
                         35,

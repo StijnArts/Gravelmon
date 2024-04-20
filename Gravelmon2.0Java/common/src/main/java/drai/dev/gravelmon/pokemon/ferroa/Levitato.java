@@ -7,7 +7,7 @@ import java.util.*;
 public class Levitato extends drai.dev.gravelmon.pokemon.Pokemon {
     public Levitato() {
         super("Levitato",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(65,
                         75,
                         135,

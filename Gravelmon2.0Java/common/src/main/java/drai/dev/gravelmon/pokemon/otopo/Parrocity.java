@@ -58,7 +58,7 @@ import java.util.*;
 public class Parrocity extends drai.dev.gravelmon.pokemon.Pokemon {
     public Parrocity() {
         super("Parrocity",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(70,
                         35,
                         45,

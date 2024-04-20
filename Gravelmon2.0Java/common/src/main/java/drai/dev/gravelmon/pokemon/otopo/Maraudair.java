@@ -58,7 +58,7 @@ import java.util.*;
 public class Maraudair extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maraudair() {
         super("Maraudair",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

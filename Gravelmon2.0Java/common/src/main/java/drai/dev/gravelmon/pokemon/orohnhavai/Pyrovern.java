@@ -9,7 +9,7 @@ import java.util.*;
 public class Pyrovern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyrovern() {
         super("Pyrovern",
-                Type.FIRE,Type.DRAGON,
+                Type.FIRE, Type.DRAGON,
                 new Stats(75,
                         110,
                         80,

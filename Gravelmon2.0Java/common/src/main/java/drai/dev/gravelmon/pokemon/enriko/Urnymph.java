@@ -7,7 +7,7 @@ import java.util.*;
 public class Urnymph extends drai.dev.gravelmon.pokemon.Pokemon {
     public Urnymph() {
         super("Urnymph",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(30,
                         50,
                         80,

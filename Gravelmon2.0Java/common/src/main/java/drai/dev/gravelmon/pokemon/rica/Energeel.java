@@ -9,7 +9,7 @@ import java.util.*;
 public class Energeel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Energeel() {
         super("Energeel",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(75,
                         105,
                         75,

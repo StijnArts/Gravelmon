@@ -58,7 +58,7 @@ import java.util.*;
 public class Kankwart extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kankwart() {
         super("Kankwart",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(0,
                         0,
                         0,

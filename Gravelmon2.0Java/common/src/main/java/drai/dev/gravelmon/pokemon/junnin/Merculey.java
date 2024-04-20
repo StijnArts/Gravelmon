@@ -11,7 +11,7 @@ import java.util.*;
 public class Merculey extends drai.dev.gravelmon.pokemon.Pokemon {
     public Merculey() {
         super("Merculey",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(68,
                         109,
                         73,

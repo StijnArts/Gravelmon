@@ -7,7 +7,7 @@ import java.util.*;
 public class Sidepeck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sidepeck() {
         super("Sidepeck",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(38,
                         55,
                         40,

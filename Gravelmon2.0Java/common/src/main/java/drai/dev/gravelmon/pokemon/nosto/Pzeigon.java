@@ -7,7 +7,7 @@ import java.util.*;
 public class Pzeigon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pzeigon() {
         super("Pzeigon",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(115,
                         116,
                         136,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Sneacroach extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sneacroach() {
         super("Sneacroach",
-                Type.DARK,Type.NORMAL,
+                Type.DARK, Type.NORMAL,
                 new Stats(35,
                         65,
                         65,

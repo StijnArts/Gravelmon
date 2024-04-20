@@ -58,7 +58,7 @@ import java.util.*;
 public class Crabruner extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crabruner() {
         super("Crabruner",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(70,
                         129,
                         90,

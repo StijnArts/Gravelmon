@@ -58,7 +58,7 @@ import java.util.*;
 public class Rockillo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rockillo() {
         super("Rockillo",
-                Type.STEEL,Type.ROCK,
+                Type.STEEL, Type.ROCK,
                 new Stats(40,
                         70,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Beegarden extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beegarden() {
         super("Beegarden",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

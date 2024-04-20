@@ -58,7 +58,7 @@ import java.util.*;
 public class Mondrog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mondrog() {
         super("Mondrog",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Binarray extends drai.dev.gravelmon.pokemon.Pokemon {
     public Binarray() {
         super("Binarray",
-                Type.NORMAL,Type.ELECTRIC,
+                Type.NORMAL, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

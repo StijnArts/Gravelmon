@@ -58,7 +58,7 @@ import java.util.*;
 public class Tarantorch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tarantorch() {
         super("Tarantorch",
-                Type.FIRE,Type.BUG,
+                Type.FIRE, Type.BUG,
                 new Stats(0,
                         0,
                         0,

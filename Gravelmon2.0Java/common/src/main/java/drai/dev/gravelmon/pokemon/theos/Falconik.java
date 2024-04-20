@@ -58,7 +58,7 @@ import java.util.*;
 public class Falconik extends drai.dev.gravelmon.pokemon.Pokemon {
     public Falconik() {
         super("Falconik",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(80,
                         100,
                         70,

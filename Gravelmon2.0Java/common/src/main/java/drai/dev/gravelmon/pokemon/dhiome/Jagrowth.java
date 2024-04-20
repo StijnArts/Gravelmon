@@ -8,7 +8,7 @@ import java.util.*;
 public class Jagrowth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jagrowth() {
         super("Jagrowth",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(60,
                         70,
                         60,

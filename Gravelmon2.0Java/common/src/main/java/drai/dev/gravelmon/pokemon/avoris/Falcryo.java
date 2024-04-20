@@ -19,7 +19,7 @@ import java.util.*;
 public class Falcryo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Falcryo() {
         super("Falcryo",
-                Type.FLYING,Type.ICE,
+                Type.FLYING, Type.ICE,
                 new Stats(0,
                         0,
                         0,

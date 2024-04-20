@@ -58,7 +58,7 @@ import java.util.*;
 public class Leonier extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leonier() {
         super("Leonier",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

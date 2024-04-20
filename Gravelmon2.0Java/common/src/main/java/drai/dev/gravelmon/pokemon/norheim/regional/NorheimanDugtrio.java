@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanDugtrio extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanDugtrio(int dex) {
         super(dex, "Dugtrio",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

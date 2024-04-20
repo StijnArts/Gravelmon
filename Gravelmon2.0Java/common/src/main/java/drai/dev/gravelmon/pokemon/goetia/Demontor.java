@@ -58,7 +58,7 @@ import java.util.*;
 public class Demontor extends drai.dev.gravelmon.pokemon.Pokemon {
     public Demontor() {
         super("Demontor",
-                Type.DARK,Type.GHOST,
+                Type.DARK, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

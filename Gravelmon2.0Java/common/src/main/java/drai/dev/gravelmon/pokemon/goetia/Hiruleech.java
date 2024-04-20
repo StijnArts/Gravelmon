@@ -58,7 +58,7 @@ import java.util.*;
 public class Hiruleech extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hiruleech() {
         super("Hiruleech",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

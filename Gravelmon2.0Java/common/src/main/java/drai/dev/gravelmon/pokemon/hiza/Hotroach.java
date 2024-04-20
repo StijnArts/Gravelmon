@@ -7,7 +7,7 @@ import java.util.*;
 public class Hotroach extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hotroach() {
         super("Hotroach",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(40,
                         117,
                         70,

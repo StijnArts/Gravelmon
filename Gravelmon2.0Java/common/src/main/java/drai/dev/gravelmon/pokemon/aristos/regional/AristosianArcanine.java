@@ -9,7 +9,7 @@ import java.util.*;
 public class AristosianArcanine extends drai.dev.gravelmon.pokemon.Pokemon {
     public AristosianArcanine(int dexNo) {
         super(dexNo,"AristosianArcanine",
-                Type.ICE,Type.PSYCHIC,
+                Type.ICE, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

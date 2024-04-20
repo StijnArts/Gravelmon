@@ -58,7 +58,7 @@ import java.util.*;
 public class Pampurr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pampurr() {
         super("Pampurr",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(45,
                         35,
                         40,

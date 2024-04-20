@@ -7,7 +7,7 @@ import java.util.*;
 public class Tilow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tilow() {
         super("Tilow",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(30,
                         30,
                         32,

@@ -6,7 +6,7 @@ import java.util.*;
 public class Hatchick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hatchick() {
         super("Hatchick",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(55,
                         34,
                         58,

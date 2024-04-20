@@ -58,7 +58,7 @@ import java.util.*;
 public class Staticroak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Staticroak() {
         super("Staticroak",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(83,
                         106,
                         65,

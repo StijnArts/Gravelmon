@@ -7,7 +7,7 @@ import java.util.*;
 public class Lobstrike extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lobstrike() {
         super("Lobstrike",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(100,
                         121,
                         82,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Psyguana extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psyguana() {
         super("Psyguana",
-                Type.DRAGON,Type.PSYCHIC,
+                Type.DRAGON, Type.PSYCHIC,
                 new Stats(70,
                         120,
                         100,

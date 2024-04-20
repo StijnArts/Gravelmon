@@ -58,7 +58,7 @@ import java.util.*;
 public class Golem extends drai.dev.gravelmon.pokemon.Pokemon {
     public Golem(int dex) {
         super(dex, "Golem",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(80,
                         120,
                         130,

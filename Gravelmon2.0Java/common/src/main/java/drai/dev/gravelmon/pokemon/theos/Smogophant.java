@@ -58,7 +58,7 @@ import java.util.*;
 public class Smogophant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smogophant() {
         super("Smogophant",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(120,
                         70,
                         100,

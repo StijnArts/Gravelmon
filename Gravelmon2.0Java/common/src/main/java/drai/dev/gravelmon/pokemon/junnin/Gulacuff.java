@@ -11,7 +11,7 @@ import java.util.*;
 public class Gulacuff extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gulacuff() {
         super("Gulacuff",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(73,
                         78,
                         80,

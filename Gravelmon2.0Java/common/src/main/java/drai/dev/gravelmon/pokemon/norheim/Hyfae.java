@@ -9,7 +9,7 @@ import java.util.*;
 public class Hyfae extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hyfae() {
         super("Hyfae",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(125,
                         65,
                         65,

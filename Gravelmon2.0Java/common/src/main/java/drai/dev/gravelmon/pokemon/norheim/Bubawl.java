@@ -9,7 +9,7 @@ import java.util.*;
 public class Bubawl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bubawl() {
         super("Bubawl",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(88,
                         88,
                         50,

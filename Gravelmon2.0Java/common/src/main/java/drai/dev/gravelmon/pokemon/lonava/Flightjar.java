@@ -7,7 +7,7 @@ import java.util.*;
 public class Flightjar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flightjar() {
         super("Flightjar",
-                Type.FLYING,Type.GHOST,
+                Type.FLYING, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

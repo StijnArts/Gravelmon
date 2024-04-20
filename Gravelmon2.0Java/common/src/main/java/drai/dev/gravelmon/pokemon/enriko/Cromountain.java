@@ -7,7 +7,7 @@ import java.util.*;
 public class Cromountain extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cromountain() {
         super("Cromountain",
-                Type.ICE,Type.FIGHTING,
+                Type.ICE, Type.FIGHTING,
                 new Stats(85,
                         135,
                         80,

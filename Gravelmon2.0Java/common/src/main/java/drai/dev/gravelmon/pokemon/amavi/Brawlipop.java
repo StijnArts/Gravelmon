@@ -8,7 +8,7 @@ import java.util.*;
 public class Brawlipop extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brawlipop() {
         super("Brawlipop",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

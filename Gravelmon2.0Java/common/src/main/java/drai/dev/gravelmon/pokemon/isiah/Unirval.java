@@ -7,7 +7,7 @@ import java.util.*;
 public class Unirval extends drai.dev.gravelmon.pokemon.Pokemon {
     public Unirval() {
         super("Unirval",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(0,
                         0,
                         0,

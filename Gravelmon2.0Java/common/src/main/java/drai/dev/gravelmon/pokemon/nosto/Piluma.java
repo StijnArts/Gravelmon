@@ -7,7 +7,7 @@ import java.util.*;
 public class Piluma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piluma() {
         super("Piluma",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(40,
                         20,
                         75,

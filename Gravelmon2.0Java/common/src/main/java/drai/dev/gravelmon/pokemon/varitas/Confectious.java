@@ -9,7 +9,7 @@ import java.util.*;
 public class Confectious extends drai.dev.gravelmon.pokemon.Pokemon {
     public Confectious() {
         super("Confectious",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(95,
                         55,
                         70,

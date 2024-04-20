@@ -9,7 +9,7 @@ import java.util.*;
 public class Wreckore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wreckore() {
         super("Wreckore",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(95,
                         130,
                         80,

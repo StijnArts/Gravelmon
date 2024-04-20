@@ -9,7 +9,7 @@ import java.util.*;
 public class Mamoheim extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mamoheim() {
         super("Mamoheim",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

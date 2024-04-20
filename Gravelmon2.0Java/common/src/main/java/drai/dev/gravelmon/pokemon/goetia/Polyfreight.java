@@ -58,7 +58,7 @@ import java.util.*;
 public class Polyfreight extends drai.dev.gravelmon.pokemon.Pokemon {
     public Polyfreight() {
         super("Polyfreight",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

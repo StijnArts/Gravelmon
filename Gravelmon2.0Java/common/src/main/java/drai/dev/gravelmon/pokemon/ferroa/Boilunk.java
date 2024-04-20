@@ -7,7 +7,7 @@ import java.util.*;
 public class Boilunk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boilunk() {
         super("Boilunk",
-                Type.STEEL,Type.FIRE,
+                Type.STEEL, Type.FIRE,
                 new Stats(55,
                         65,
                         140,

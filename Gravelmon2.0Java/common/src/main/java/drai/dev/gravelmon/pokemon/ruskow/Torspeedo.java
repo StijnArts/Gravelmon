@@ -58,7 +58,7 @@ import java.util.*;
 public class Torspeedo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Torspeedo() {
         super("Torspeedo",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

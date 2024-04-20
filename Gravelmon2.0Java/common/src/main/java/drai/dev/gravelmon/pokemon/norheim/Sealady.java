@@ -9,7 +9,7 @@ import java.util.*;
 public class Sealady extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sealady() {
         super("Sealady",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

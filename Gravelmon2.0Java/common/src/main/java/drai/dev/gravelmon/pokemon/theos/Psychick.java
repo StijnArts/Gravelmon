@@ -58,7 +58,7 @@ import java.util.*;
 public class Psychick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psychick() {
         super("Psychick",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(40,
                         50,
                         55,

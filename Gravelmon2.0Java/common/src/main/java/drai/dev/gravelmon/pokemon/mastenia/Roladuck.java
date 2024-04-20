@@ -58,7 +58,7 @@ import java.util.*;
 public class Roladuck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roladuck() {
         super("Roladuck",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(0,
                         0,
                         0,

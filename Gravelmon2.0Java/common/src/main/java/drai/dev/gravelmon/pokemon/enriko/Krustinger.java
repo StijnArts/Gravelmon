@@ -7,7 +7,7 @@ import java.util.*;
 public class Krustinger extends drai.dev.gravelmon.pokemon.Pokemon {
     public Krustinger() {
         super("Krustinger",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(75,
                         85,
                         80,

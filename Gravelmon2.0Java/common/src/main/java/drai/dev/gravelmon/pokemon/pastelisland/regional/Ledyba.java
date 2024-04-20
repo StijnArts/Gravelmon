@@ -58,7 +58,7 @@ import java.util.*;
 public class Ledyba extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ledyba(int dex) {
         super(dex, "Ledyba",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(40,
                         40,
                         30,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Termulch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Termulch() {
         super("Termulch",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

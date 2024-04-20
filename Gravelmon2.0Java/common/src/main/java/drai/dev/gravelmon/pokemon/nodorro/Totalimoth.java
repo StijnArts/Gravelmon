@@ -58,7 +58,7 @@ import java.util.*;
 public class Totalimoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Totalimoth() {
         super("Totalimoth",
-                Type.BUG,Type.LIGHT,
+                Type.BUG, Type.LIGHT,
                 new Stats(101,
                         60,
                         102,

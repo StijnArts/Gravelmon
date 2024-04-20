@@ -58,7 +58,7 @@ import java.util.*;
 public class Victreebel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Victreebel(int dex) {
         super(dex, "Victreebel",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(90,
                         115,
                         75,

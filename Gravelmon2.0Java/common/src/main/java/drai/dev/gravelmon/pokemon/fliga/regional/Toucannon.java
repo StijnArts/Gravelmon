@@ -58,7 +58,7 @@ import java.util.*;
 public class Toucannon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toucannon(int dex) {
         super(dex, "Toucannon",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(80,
                         120,
                         75,

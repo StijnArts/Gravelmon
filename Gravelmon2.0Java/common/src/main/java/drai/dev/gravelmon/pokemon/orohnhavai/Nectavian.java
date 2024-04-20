@@ -9,7 +9,7 @@ import java.util.*;
 public class Nectavian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nectavian() {
         super("Nectavian",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(60,
                         85,
                         65,

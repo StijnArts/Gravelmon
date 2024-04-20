@@ -58,7 +58,7 @@ import java.util.*;
 public class Hypnocatrice extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hypnocatrice() {
         super("Hypnocatrice",
-                Type.PSYCHIC,Type.FIGHTING,
+                Type.PSYCHIC, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

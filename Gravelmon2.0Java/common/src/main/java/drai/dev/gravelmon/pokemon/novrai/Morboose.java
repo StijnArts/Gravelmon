@@ -7,7 +7,7 @@ import java.util.*;
 public class Morboose extends drai.dev.gravelmon.pokemon.Pokemon {
     public Morboose() {
         super("Morboose",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(95,
                         145,
                         85,

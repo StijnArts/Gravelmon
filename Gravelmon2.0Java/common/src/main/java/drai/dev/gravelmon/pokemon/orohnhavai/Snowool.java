@@ -9,7 +9,7 @@ import java.util.*;
 public class Snowool extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snowool() {
         super("Snowool",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(70,
                         61,
                         110,

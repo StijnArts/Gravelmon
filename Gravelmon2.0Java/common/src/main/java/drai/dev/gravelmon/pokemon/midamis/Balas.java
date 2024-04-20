@@ -9,7 +9,7 @@ import java.util.*;
 public class Balas extends drai.dev.gravelmon.pokemon.Pokemon {
     public Balas() {
         super("Balas",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(115,
                         115,
                         115,

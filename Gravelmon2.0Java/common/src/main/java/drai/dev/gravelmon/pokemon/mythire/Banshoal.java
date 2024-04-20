@@ -7,7 +7,7 @@ import java.util.*;
 public class Banshoal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Banshoal() {
         super("Banshoal",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Snareball extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snareball() {
         super("Snareball",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(65,
                         55,
                         127,

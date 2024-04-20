@@ -9,7 +9,7 @@ import java.util.*;
 public class Stoatzen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stoatzen() {
         super("Stoatzen",
-                Type.ICE,Type.GHOST,
+                Type.ICE, Type.GHOST,
                 new Stats(65,
                         45,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sootot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sootot() {
         super("Sootot",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(30,
                         35,
                         55,

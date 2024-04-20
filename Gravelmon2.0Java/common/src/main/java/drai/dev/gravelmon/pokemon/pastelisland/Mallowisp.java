@@ -58,7 +58,7 @@ import java.util.*;
 public class Mallowisp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mallowisp() {
         super("Mallowisp",
-                Type.GHOST,Type.FIRE,
+                Type.GHOST, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

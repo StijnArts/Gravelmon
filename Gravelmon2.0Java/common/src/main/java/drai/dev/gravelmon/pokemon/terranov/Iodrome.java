@@ -58,7 +58,7 @@ import java.util.*;
 public class Iodrome extends drai.dev.gravelmon.pokemon.Pokemon {
     public Iodrome() {
         super("Iodrome",
-                Type.POISON,Type.NORMAL,
+                Type.POISON, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

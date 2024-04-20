@@ -7,7 +7,7 @@ import java.util.*;
 public class Snowitall extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snowitall() {
         super("Snowitall",
-                Type.PSYCHIC,Type.ICE,
+                Type.PSYCHIC, Type.ICE,
                 new Stats(65,
                         20,
                         50,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Smould extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smould() {
         super("Smould",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(76,
                         54,
                         76,

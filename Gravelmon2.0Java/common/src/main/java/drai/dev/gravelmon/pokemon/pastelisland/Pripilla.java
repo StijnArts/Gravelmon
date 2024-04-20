@@ -58,7 +58,7 @@ import java.util.*;
 public class Pripilla extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pripilla() {
         super("Pripilla",
-                Type.BUG,Type.NORMAL,
+                Type.BUG, Type.NORMAL,
                 new Stats(45,
                         45,
                         20,

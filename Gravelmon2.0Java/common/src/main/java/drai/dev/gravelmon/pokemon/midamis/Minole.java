@@ -9,7 +9,7 @@ import java.util.*;
 public class Minole extends drai.dev.gravelmon.pokemon.Pokemon {
     public Minole() {
         super("Minole",
-                Type.DARK,Type.GROUND,
+                Type.DARK, Type.GROUND,
                 new Stats(50,
                         60,
                         60,

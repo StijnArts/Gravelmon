@@ -7,7 +7,7 @@ import java.util.*;
 public class Pestinox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pestinox() {
         super("Pestinox",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(80,
                         100,
                         80,

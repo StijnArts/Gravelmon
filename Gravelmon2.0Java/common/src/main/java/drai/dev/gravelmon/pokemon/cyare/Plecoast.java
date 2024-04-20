@@ -58,7 +58,7 @@ import java.util.*;
 public class Plecoast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plecoast() {
         super("Plecoast",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(0,
                         0,
                         0,

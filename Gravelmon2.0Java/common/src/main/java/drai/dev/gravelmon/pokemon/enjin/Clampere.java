@@ -58,7 +58,7 @@ import java.util.*;
 public class Clampere extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clampere() {
         super("Clampere",
-                Type.ELECTRIC,Type.BUG,
+                Type.ELECTRIC, Type.BUG,
                 new Stats(0,
                         0,
                         0,

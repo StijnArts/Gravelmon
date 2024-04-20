@@ -12,7 +12,7 @@ import java.util.*;
 public class Araukaizer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Araukaizer() {
         super("Araukaizer",
-                Type.GRASS,Type.ICE,
+                Type.GRASS, Type.ICE,
                 new Stats(84,
                         124,
                         94,

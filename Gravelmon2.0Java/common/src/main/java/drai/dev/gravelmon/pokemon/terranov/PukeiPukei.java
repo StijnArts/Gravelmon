@@ -58,7 +58,7 @@ import java.util.*;
 public class PukeiPukei extends drai.dev.gravelmon.pokemon.Pokemon {
     public PukeiPukei() {
         super("PukeiPukei",
-                Type.POISON,Type.GRASS,
+                Type.POISON, Type.GRASS,
                 new Stats(60,
                         50,
                         78,

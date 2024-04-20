@@ -9,7 +9,7 @@ import java.util.*;
 public class Minrok extends drai.dev.gravelmon.pokemon.Pokemon {
     public Minrok() {
         super("Minrok",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(55,
                         45,
                         85,

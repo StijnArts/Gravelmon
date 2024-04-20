@@ -9,7 +9,7 @@ import java.util.*;
 public class Brinarder extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brinarder() {
         super("Brinarder",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(91,
                         111,
                         79,

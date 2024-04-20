@@ -58,7 +58,7 @@ import java.util.*;
 public class Gryphoyal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gryphoyal() {
         super("Gryphoyal",
-                Type.GRASS,Type.DRAGON,
+                Type.GRASS, Type.DRAGON,
                 new Stats(70,
                         95,
                         65,

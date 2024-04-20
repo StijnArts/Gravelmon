@@ -58,7 +58,7 @@ import java.util.*;
 public class Za559349 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Za559349() {
         super("Za559349",
-                Type.ELECTRIC,Type.DARK,
+                Type.ELECTRIC, Type.DARK,
                 new Stats(0,
                         0,
                         0,

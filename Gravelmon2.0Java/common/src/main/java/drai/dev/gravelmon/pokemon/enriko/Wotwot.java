@@ -13,7 +13,7 @@ import java.util.*;
 public class Wotwot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wotwot() {
         super("Wotwot",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(80,
                         92,
                         70,

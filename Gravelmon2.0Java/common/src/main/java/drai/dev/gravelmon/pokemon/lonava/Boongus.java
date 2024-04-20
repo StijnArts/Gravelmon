@@ -7,7 +7,7 @@ import java.util.*;
 public class Boongus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boongus() {
         super("Boongus",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(40,
                         40,
                         35,

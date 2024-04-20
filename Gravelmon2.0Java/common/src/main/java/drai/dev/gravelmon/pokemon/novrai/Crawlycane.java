@@ -7,7 +7,7 @@ import java.util.*;
 public class Crawlycane extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crawlycane() {
         super("Crawlycane",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(76,
                         49,
                         56,

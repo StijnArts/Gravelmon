@@ -7,7 +7,7 @@ import java.util.*;
 public class Manecore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Manecore() {
         super("Manecore",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(60,
                         100,
                         70,

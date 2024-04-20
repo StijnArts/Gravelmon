@@ -58,7 +58,7 @@ import java.util.*;
 public class Grumpelstil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grumpelstil() {
         super("Grumpelstil",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(80,
                         120,
                         70,

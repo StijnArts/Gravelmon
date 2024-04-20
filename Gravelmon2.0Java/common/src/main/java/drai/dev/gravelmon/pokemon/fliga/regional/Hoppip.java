@@ -58,7 +58,7 @@ import java.util.*;
 public class Hoppip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hoppip(int dex) {
         super(dex, "Hoppip",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(35,
                         35,
                         40,

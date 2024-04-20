@@ -7,7 +7,7 @@ import java.util.*;
 public class Varanox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Varanox() {
         super("Varanox",
-                Type.DRAGON,Type.POISON,
+                Type.DRAGON, Type.POISON,
                 new Stats(48,
                         52,
                         50,

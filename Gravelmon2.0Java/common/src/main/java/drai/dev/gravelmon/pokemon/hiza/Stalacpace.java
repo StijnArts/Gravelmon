@@ -7,7 +7,7 @@ import java.util.*;
 public class Stalacpace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stalacpace() {
         super("Stalacpace",
-                Type.ROCK,Type.DARK,
+                Type.ROCK, Type.DARK,
                 new Stats(60,
                         100,
                         100,

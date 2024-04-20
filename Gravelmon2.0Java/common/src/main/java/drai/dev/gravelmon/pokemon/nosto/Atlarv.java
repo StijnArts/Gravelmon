@@ -7,7 +7,7 @@ import java.util.*;
 public class Atlarv extends drai.dev.gravelmon.pokemon.Pokemon {
     public Atlarv() {
         super("Atlarv",
-                Type.DRAGON,Type.BUG,
+                Type.DRAGON, Type.BUG,
                 new Stats(42,
                         34,
                         65,

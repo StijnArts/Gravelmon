@@ -58,7 +58,7 @@ import java.util.*;
 public class Diggbee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Diggbee() {
         super("Diggbee",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(72,
                         125,
                         92,

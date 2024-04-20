@@ -7,7 +7,7 @@ import java.util.*;
 public class Smolter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smolter() {
         super("Smolter",
-                Type.STEEL,Type.FIRE,
+                Type.STEEL, Type.FIRE,
                 new Stats(45,
                         55,
                         75,

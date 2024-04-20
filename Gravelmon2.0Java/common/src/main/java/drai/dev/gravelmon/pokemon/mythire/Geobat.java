@@ -7,7 +7,7 @@ import java.util.*;
 public class Geobat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Geobat() {
         super("Geobat",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

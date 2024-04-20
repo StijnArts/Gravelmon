@@ -7,7 +7,7 @@ import java.util.*;
 public class Electrocuke extends drai.dev.gravelmon.pokemon.Pokemon {
     public Electrocuke() {
         super("Electrocuke",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(130,
                         45,
                         75,

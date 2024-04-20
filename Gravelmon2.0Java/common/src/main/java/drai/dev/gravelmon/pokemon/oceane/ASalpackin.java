@@ -7,7 +7,7 @@ import java.util.*;
 public class ASalpackin extends drai.dev.gravelmon.pokemon.Pokemon {
     public ASalpackin() {
         super("ASalpackin",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

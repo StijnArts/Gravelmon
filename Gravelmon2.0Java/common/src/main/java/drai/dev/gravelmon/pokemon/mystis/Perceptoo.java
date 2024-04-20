@@ -58,7 +58,7 @@ import java.util.*;
 public class Perceptoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Perceptoo() {
         super("Perceptoo",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(43,
                         70,
                         36,

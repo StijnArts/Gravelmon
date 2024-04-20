@@ -58,7 +58,7 @@ import java.util.*;
 public class Wizzip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wizzip() {
         super("Wizzip",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(90,
                         100,
                         60,

@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranOmanyte extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranOmanyte(int id) {
         super(id, "Omanyte",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(35,
                         40,
                         110,

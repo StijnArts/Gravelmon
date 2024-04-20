@@ -11,7 +11,7 @@ import java.util.*;
 public class Andromini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Andromini() {
         super("Andromini",
-                Type.STEEL,Type.PSYCHIC,
+                Type.STEEL, Type.PSYCHIC,
                 new Stats(100,
                         100,
                         100,

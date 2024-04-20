@@ -7,7 +7,7 @@ import java.util.*;
 public class Ligniter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ligniter() {
         super("Ligniter",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(70,
                         55,
                         100,

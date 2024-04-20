@@ -7,7 +7,7 @@ import java.util.*;
 public class Crocodily extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crocodily() {
         super("Crocodily",
-                Type.GRASS,Type.WATER,
+                Type.GRASS, Type.WATER,
                 new Stats(45,
                         71,
                         38,

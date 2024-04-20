@@ -9,7 +9,7 @@ import java.util.*;
 public class Porygon0 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Porygon0() {
         super("Porygon0",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(85,
                         125,
                         55,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Wasplode extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wasplode() {
         super("Wasplode",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(65,
                         110,
                         65,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Vishuslayk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vishuslayk() {
         super("Vishuslayk",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(96,
                         145,
                         73,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Thikachoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thikachoo() {
         super("Thikachoo",
-                Type.ICE,Type.ELECTRIC,
+                Type.ICE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

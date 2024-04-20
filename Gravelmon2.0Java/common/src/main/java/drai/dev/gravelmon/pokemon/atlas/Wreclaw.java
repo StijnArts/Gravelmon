@@ -7,7 +7,7 @@ import java.util.*;
 public class Wreclaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wreclaw() {
         super("Wreclaw",
-                Type.NORMAL,Type.DARK,
+                Type.NORMAL, Type.DARK,
                 new Stats(80,
                         110,
                         85,

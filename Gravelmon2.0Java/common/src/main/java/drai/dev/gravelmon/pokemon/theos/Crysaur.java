@@ -58,7 +58,7 @@ import java.util.*;
 public class Crysaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crysaur() {
         super("Crysaur",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(65,
                         100,
                         80,

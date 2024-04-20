@@ -9,7 +9,7 @@ import java.util.*;
 public class Kombantis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kombantis() {
         super("Kombantis",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(85,
                         110,
                         80,

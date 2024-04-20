@@ -9,7 +9,7 @@ import java.util.*;
 public class Toxiver extends drai.dev.gravelmon.pokemon.Pokemon {
     public Toxiver() {
         super("Toxiver",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(66,
                         90,
                         65,

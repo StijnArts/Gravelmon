@@ -7,7 +7,7 @@ import java.util.*;
 public class Beatzza extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beatzza() {
         super("Beatzza",
-                Type.FIGHTING,Type.FIRE,
+                Type.FIGHTING, Type.FIRE,
                 new Stats(90,
                         90,
                         70,

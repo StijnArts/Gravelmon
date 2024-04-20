@@ -58,7 +58,7 @@ import java.util.*;
 public class Monstroach extends drai.dev.gravelmon.pokemon.Pokemon {
     public Monstroach() {
         super("Monstroach",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

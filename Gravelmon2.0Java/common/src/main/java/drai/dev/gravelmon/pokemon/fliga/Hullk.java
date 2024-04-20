@@ -58,7 +58,7 @@ import java.util.*;
 public class Hullk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hullk() {
         super("Hullk",
-                Type.STEEL,Type.FIRE,
+                Type.STEEL, Type.FIRE,
                 new Stats(127,
                         67,
                         191,

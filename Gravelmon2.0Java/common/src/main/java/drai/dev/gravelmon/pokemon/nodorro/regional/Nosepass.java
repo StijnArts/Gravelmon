@@ -58,7 +58,7 @@ import java.util.*;
 public class Nosepass extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nosepass(int dex) {
         super(dex, "Nosepass",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(60,
                         50,
                         80,

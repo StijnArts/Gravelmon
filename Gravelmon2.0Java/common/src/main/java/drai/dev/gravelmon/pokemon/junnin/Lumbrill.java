@@ -11,7 +11,7 @@ import java.util.*;
 public class Lumbrill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lumbrill() {
         super("Lumbrill",
-                Type.STEEL,Type.BUG,
+                Type.STEEL, Type.BUG,
                 new Stats(56,
                         118,
                         94,

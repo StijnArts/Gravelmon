@@ -13,7 +13,7 @@ import java.util.*;
 public class Flintzie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flintzie() {
         super("Flintzie",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(30,
                         62,
                         30,

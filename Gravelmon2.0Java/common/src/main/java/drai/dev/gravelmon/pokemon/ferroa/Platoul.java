@@ -7,7 +7,7 @@ import java.util.*;
 public class Platoul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Platoul() {
         super("Platoul",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(45,
                         55,
                         80,

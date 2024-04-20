@@ -58,7 +58,7 @@ import java.util.*;
 public class Blockodile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Blockodile() {
         super("Blockodile",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

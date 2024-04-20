@@ -7,7 +7,7 @@ import java.util.*;
 public class Galextrial extends drai.dev.gravelmon.pokemon.Pokemon {
     public Galextrial() {
         super("Galextrial",
-                Type.STEEL,Type.NORMAL,
+                Type.STEEL, Type.NORMAL,
                 new Stats(70,
                         113,
                         83,

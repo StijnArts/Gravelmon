@@ -58,7 +58,7 @@ import java.util.*;
 public class Leviathrus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leviathrus() {
         super("Leviathrus",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(80,
                         120,
                         100,

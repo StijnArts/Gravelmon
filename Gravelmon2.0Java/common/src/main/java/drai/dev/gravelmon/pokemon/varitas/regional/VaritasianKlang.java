@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianKlang extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianKlang(int dex) {
         super(dex, "Klang",
-                Type.STEEL,Type.GROUND,
+                Type.STEEL, Type.GROUND,
                 new Stats(60,
                         80,
                         95,

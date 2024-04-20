@@ -58,7 +58,7 @@ import java.util.*;
 public class Kakapow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kakapow() {
         super("Kakapow",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

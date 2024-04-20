@@ -7,7 +7,7 @@ import java.util.*;
 public class Hornaval extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hornaval() {
         super("Hornaval",
-                Type.ICE,Type.WATER,
+                Type.ICE, Type.WATER,
                 new Stats(80,
                         100,
                         70,

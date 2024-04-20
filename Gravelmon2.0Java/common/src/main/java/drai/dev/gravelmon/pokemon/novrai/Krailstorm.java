@@ -7,7 +7,7 @@ import java.util.*;
 public class Krailstorm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Krailstorm() {
         super("Krailstorm",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(105,
                         65,
                         90,

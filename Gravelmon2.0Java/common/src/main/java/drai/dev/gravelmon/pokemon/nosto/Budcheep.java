@@ -7,7 +7,7 @@ import java.util.*;
 public class Budcheep extends drai.dev.gravelmon.pokemon.Pokemon {
     public Budcheep() {
         super("Budcheep",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(55,
                         60,
                         52,

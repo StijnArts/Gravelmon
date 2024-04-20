@@ -7,7 +7,7 @@ import java.util.*;
 public class Velopard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Velopard() {
         super("Velopard",
-                Type.ICE,Type.ELECTRIC,
+                Type.ICE, Type.ELECTRIC,
                 new Stats(70,
                         72,
                         50,

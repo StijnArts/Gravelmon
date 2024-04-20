@@ -58,7 +58,7 @@ import java.util.*;
 public class Bisdawn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bisdawn() {
         super("Bisdawn",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Ambug extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ambug() {
         super("Ambug",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(71,
                         39,
                         86,

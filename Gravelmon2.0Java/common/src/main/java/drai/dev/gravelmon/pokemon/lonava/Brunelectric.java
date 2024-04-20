@@ -7,7 +7,7 @@ import java.util.*;
 public class Brunelectric extends drai.dev.gravelmon.pokemon.Pokemon {
     public Brunelectric() {
         super("Brunelectric",
-                Type.ELECTRIC,Type.STEEL,
+                Type.ELECTRIC, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

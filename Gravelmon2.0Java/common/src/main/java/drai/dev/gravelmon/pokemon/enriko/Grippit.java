@@ -7,7 +7,7 @@ import java.util.*;
 public class Grippit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grippit() {
         super("Grippit",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

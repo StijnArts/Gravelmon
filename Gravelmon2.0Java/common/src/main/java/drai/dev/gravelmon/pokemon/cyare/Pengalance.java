@@ -58,7 +58,7 @@ import java.util.*;
 public class Pengalance extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pengalance() {
         super("Pengalance",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(93,
                         76,
                         96,

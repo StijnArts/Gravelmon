@@ -58,7 +58,7 @@ import java.util.*;
 public class Weezing extends drai.dev.gravelmon.pokemon.Pokemon {
     public Weezing(int dex) {
         super(dex, "Weezing",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(60,
                         99,
                         120,

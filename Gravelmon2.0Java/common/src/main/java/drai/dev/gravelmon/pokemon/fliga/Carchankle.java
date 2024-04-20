@@ -58,7 +58,7 @@ import java.util.*;
 public class Carchankle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carchankle() {
         super("Carchankle",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(70,
                         70,
                         104,

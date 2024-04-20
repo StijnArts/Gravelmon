@@ -7,7 +7,7 @@ import java.util.*;
 public class Polyzap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Polyzap() {
         super("Polyzap",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(65,
                         85,
                         95,

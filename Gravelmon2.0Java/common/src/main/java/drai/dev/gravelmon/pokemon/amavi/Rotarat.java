@@ -8,7 +8,7 @@ import java.util.*;
 public class Rotarat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rotarat() {
         super("Rotarat",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(70,
                         70,
                         88,

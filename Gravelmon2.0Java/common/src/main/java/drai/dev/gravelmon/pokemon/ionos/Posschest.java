@@ -58,7 +58,7 @@ import java.util.*;
 public class Posschest extends drai.dev.gravelmon.pokemon.Pokemon {
     public Posschest() {
         super("Posschest",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

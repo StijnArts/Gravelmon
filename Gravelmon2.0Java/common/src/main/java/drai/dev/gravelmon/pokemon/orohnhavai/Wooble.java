@@ -9,7 +9,7 @@ import java.util.*;
 public class Wooble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wooble() {
         super("Wooble",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(60,
                         61,
                         90,

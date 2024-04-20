@@ -58,7 +58,7 @@ import java.util.*;
 public class Putrigeist extends drai.dev.gravelmon.pokemon.Pokemon {
     public Putrigeist() {
         super("Putrigeist",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

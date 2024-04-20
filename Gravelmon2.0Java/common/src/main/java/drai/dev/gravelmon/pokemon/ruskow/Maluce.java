@@ -58,7 +58,7 @@ import java.util.*;
 public class Maluce extends drai.dev.gravelmon.pokemon.Pokemon {
     public Maluce() {
         super("Maluce",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

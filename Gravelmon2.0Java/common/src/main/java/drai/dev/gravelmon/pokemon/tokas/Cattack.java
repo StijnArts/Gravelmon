@@ -58,7 +58,7 @@ import java.util.*;
 public class Cattack extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cattack() {
         super("Cattack",
-                Type.ELECTRIC,Type.FIGHTING,
+                Type.ELECTRIC, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

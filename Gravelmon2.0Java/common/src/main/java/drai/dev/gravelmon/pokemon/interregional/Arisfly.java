@@ -7,7 +7,7 @@ import java.util.*;
 public class Arisfly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arisfly() {
         super("Arisfly",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(70,
                         80,
                         125,

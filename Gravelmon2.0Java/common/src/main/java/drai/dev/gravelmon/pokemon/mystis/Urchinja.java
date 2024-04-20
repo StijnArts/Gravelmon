@@ -58,7 +58,7 @@ import java.util.*;
 public class Urchinja extends drai.dev.gravelmon.pokemon.Pokemon {
     public Urchinja() {
         super("Urchinja",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(50,
                         110,
                         55,

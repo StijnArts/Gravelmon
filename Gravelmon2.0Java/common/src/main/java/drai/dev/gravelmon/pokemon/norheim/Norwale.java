@@ -9,7 +9,7 @@ import java.util.*;
 public class Norwale extends drai.dev.gravelmon.pokemon.Pokemon {
     public Norwale() {
         super("Norwale",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Honedge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Honedge(int dex) {
         super(dex, "Honedge",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

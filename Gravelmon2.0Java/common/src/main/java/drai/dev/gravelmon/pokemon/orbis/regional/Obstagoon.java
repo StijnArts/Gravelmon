@@ -58,7 +58,7 @@ import java.util.*;
 public class Obstagoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Obstagoon(int dex) {
         super(dex, "Obstagoon",
-                Type.DARK,Type.NORMAL,
+                Type.DARK, Type.NORMAL,
                 new Stats(93,
                         90,
                         101,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Dhelmise extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dhelmise(int dex) {
         super(dex, "Dhelmise",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(70,
                         131,
                         100,

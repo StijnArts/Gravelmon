@@ -58,7 +58,7 @@ import java.util.*;
 public class Pavonix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pavonix() {
         super("Pavonix",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(90,
                         95,
                         75,

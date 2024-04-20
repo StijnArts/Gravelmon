@@ -58,7 +58,7 @@ import java.util.*;
 public class Yuheffo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yuheffo() {
         super("Yuheffo",
-                Type.STEEL,Type.ELECTRIC,
+                Type.STEEL, Type.ELECTRIC,
                 new Stats(51,
                         51,
                         51,

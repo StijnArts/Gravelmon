@@ -9,7 +9,7 @@ import java.util.*;
 public class Taekowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Taekowl() {
         super("Taekowl",
-                Type.FIGHTING,Type.FLYING,
+                Type.FIGHTING, Type.FLYING,
                 new Stats(85,
                         105,
                         70,

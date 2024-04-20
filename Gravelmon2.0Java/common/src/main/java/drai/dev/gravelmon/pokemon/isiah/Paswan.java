@@ -7,7 +7,7 @@ import java.util.*;
 public class Paswan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Paswan() {
         super("Paswan",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

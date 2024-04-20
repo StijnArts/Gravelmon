@@ -7,7 +7,7 @@ import java.util.*;
 public class Ikarma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ikarma() {
         super("Ikarma",
-                Type.GHOST,Type.FIGHTING,
+                Type.GHOST, Type.FIGHTING,
                 new Stats(100,
                         150,
                         80,

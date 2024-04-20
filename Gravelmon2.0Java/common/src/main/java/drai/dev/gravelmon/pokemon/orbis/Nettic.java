@@ -58,7 +58,7 @@ import java.util.*;
 public class Nettic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nettic() {
         super("Nettic",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(40,
                         65,
                         45,

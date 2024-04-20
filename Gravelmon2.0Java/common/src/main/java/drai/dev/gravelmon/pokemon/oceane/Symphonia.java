@@ -7,7 +7,7 @@ import java.util.*;
 public class Symphonia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Symphonia() {
         super("Symphonia",
-                Type.NORMAL,Type.BUG,
+                Type.NORMAL, Type.BUG,
                 new Stats(80,
                         70,
                         70,

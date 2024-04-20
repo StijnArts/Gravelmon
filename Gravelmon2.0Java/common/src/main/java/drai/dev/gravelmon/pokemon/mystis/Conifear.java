@@ -58,7 +58,7 @@ import java.util.*;
 public class Conifear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conifear() {
         super("Conifear",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(90,
                         110,
                         90,

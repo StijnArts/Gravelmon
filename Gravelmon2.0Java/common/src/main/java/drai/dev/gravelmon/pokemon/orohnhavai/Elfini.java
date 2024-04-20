@@ -9,7 +9,7 @@ import java.util.*;
 public class Elfini extends drai.dev.gravelmon.pokemon.Pokemon {
     public Elfini() {
         super("Elfini",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(40,
                         19,
                         37,

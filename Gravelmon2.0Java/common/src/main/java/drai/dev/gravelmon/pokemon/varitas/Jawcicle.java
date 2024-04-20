@@ -9,7 +9,7 @@ import java.util.*;
 public class Jawcicle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jawcicle() {
         super("Jawcicle",
-                Type.ICE,Type.DARK,
+                Type.ICE, Type.DARK,
                 new Stats(0,
                         0,
                         0,

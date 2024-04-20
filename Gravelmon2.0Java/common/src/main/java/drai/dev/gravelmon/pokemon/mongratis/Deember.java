@@ -58,7 +58,7 @@ import java.util.*;
 public class Deember extends drai.dev.gravelmon.pokemon.Pokemon {
     public Deember() {
         super("Deember",
-                Type.FIRE,Type.LIGHT,
+                Type.FIRE, Type.LIGHT,
                 new Stats(0,
                         0,
                         0,

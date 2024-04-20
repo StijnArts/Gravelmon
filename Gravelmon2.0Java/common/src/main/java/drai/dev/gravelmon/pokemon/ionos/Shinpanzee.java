@@ -58,7 +58,7 @@ import java.util.*;
 public class Shinpanzee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shinpanzee() {
         super("Shinpanzee",
-                Type.FIGHTING,Type.DARK,
+                Type.FIGHTING, Type.DARK,
                 new Stats(0,
                         0,
                         0,

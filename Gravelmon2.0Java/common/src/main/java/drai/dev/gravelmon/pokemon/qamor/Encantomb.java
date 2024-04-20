@@ -9,7 +9,7 @@ import java.util.*;
 public class Encantomb extends drai.dev.gravelmon.pokemon.Pokemon {
     public Encantomb() {
         super("Encantomb",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(90,
                         90,
                         120,

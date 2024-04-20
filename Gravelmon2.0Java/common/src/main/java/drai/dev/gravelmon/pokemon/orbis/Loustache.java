@@ -58,7 +58,7 @@ import java.util.*;
 public class Loustache extends drai.dev.gravelmon.pokemon.Pokemon {
     public Loustache() {
         super("Loustache",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(70,
                         85,
                         110,

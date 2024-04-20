@@ -58,7 +58,7 @@ import java.util.*;
 public class Dewott extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dewott(int dex) {
         super(dex, "Dewott",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(70,
                         68,
                         54,

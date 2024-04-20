@@ -9,7 +9,7 @@ import java.util.*;
 public class Spectrelk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spectrelk() {
         super("Spectrelk",
-                Type.GHOST,Type.NORMAL,
+                Type.GHOST, Type.NORMAL,
                 new Stats(75,
                         80,
                         65,

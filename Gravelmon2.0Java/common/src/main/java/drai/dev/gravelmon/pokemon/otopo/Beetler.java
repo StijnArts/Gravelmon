@@ -58,7 +58,7 @@ import java.util.*;
 public class Beetler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beetler() {
         super("Beetler",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

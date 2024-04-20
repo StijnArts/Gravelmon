@@ -7,7 +7,7 @@ import java.util.*;
 public class Pussour extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pussour() {
         super("Pussour",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(80,
                         120,
                         95,

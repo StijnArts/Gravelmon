@@ -58,7 +58,7 @@ import java.util.*;
 public class Nitmarig extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nitmarig() {
         super("Nitmarig",
-                Type.GHOST,Type.NORMAL,
+                Type.GHOST, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

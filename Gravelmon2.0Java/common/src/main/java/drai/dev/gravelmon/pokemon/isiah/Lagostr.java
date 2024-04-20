@@ -7,7 +7,7 @@ import java.util.*;
 public class Lagostr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lagostr() {
         super("Lagostr",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(80,
                         70,
                         65,

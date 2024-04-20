@@ -7,7 +7,7 @@ import java.util.*;
 public class Bloomare extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bloomare() {
         super("Bloomare",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(70,
                         75,
                         60,

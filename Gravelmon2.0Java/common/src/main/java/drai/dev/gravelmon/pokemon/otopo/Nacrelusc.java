@@ -58,7 +58,7 @@ import java.util.*;
 public class Nacrelusc extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nacrelusc() {
         super("Nacrelusc",
-                Type.FAIRY,Type.WATER,
+                Type.FAIRY, Type.WATER,
                 new Stats(0,
                         0,
                         0,

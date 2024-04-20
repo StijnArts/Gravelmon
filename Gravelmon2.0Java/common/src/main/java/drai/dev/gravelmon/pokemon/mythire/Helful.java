@@ -7,7 +7,7 @@ import java.util.*;
 public class Helful extends drai.dev.gravelmon.pokemon.Pokemon {
     public Helful() {
         super("Helful",
-                Type.FAIRY,Type.GROUND,
+                Type.FAIRY, Type.GROUND,
                 new Stats(50,
                         45,
                         40,

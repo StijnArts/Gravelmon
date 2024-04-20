@@ -58,7 +58,7 @@ import java.util.*;
 public class Colobbus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Colobbus() {
         super("Colobbus",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

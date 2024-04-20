@@ -58,7 +58,7 @@ import java.util.*;
 public class Dodonut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dodonut() {
         super("Dodonut",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(41,
                         40,
                         55,

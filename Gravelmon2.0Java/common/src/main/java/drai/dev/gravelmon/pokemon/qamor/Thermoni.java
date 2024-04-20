@@ -9,7 +9,7 @@ import java.util.*;
 public class Thermoni extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thermoni() {
         super("Thermoni",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(105,
                         100,
                         140,

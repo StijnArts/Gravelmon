@@ -7,7 +7,7 @@ import java.util.*;
 public class Wastered extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wastered() {
         super("Wastered",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

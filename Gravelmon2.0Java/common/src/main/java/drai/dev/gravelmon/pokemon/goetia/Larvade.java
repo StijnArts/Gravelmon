@@ -58,7 +58,7 @@ import java.util.*;
 public class Larvade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Larvade() {
         super("Larvade",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

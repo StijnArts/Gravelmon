@@ -7,7 +7,7 @@ import java.util.*;
 public class Valkite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Valkite() {
         super("Valkite",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

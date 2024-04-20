@@ -8,7 +8,7 @@ import java.util.*;
 public class Tunnoworm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tunnoworm() {
         super("Burroworm",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(103,
                         92,
                         61,

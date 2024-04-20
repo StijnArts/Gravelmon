@@ -58,7 +58,7 @@ import java.util.*;
 public class Gengar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gengar(int dex) {
         super(dex, "Gengar",
-                Type.GHOST,Type.ICE,
+                Type.GHOST, Type.ICE,
                 new Stats(60,
                         70,
                         60,

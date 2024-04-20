@@ -58,7 +58,7 @@ import java.util.*;
 public class Beelobuzz extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beelobuzz() {
         super("Beelobuzz",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

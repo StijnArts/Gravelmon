@@ -7,7 +7,7 @@ import java.util.*;
 public class Sandshar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sandshar() {
         super("Sandshar",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(40,
                         50,
                         70,

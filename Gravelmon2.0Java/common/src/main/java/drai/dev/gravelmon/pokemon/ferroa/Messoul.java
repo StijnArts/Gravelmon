@@ -7,7 +7,7 @@ import java.util.*;
 public class Messoul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Messoul() {
         super("Messoul",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(75,
                         45,
                         35,

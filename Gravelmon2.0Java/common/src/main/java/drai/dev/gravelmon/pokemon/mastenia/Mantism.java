@@ -58,7 +58,7 @@ import java.util.*;
 public class Mantism extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mantism() {
         super("Mantism",
-                Type.GHOST,Type.BUG,
+                Type.GHOST, Type.BUG,
                 new Stats(0,
                         0,
                         0,

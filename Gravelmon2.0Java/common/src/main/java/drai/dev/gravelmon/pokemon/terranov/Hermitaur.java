@@ -58,7 +58,7 @@ import java.util.*;
 public class Hermitaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hermitaur() {
         super("Hermitaur",
-                Type.BUG,Type.WATER,
+                Type.BUG, Type.WATER,
                 new Stats(60,
                         50,
                         85,

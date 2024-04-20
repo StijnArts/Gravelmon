@@ -58,7 +58,7 @@ import java.util.*;
 public class Skenteur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skenteur() {
         super("Skenteur",
-                Type.FAIRY,Type.POISON,
+                Type.FAIRY, Type.POISON,
                 new Stats(63,
                         41,
                         41,

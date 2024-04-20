@@ -58,7 +58,7 @@ import java.util.*;
 public class Cryscrawler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cryscrawler() {
         super("Cryscrawler",
-                Type.ROCK,Type.BUG,
+                Type.ROCK, Type.BUG,
                 new Stats(0,
                         0,
                         0,

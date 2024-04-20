@@ -9,7 +9,7 @@ import java.util.*;
 public class Indureion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Indureion() {
         super("Indureion",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(90,
                         100,
                         80,

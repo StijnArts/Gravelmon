@@ -58,7 +58,7 @@ import java.util.*;
 public class Haildeer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Haildeer() {
         super("Haildeer",
-                Type.ICE,Type.FLYING,
+                Type.ICE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

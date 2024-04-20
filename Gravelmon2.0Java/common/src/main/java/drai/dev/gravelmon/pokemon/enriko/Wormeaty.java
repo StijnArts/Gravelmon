@@ -7,7 +7,7 @@ import java.util.*;
 public class Wormeaty extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wormeaty() {
         super("Wormeaty",
-                Type.FLYING,Type.POISON,
+                Type.FLYING, Type.POISON,
                 new Stats(70,
                         60,
                         150,

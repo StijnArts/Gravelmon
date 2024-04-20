@@ -58,7 +58,7 @@ import java.util.*;
 public class Hoppercut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hoppercut() {
         super("Hoppercut",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(70,
                         120,
                         65,

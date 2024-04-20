@@ -58,7 +58,7 @@ import java.util.*;
 public class Grabbem extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grabbem() {
         super("Grabbem",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(60,
                         90,
                         60,

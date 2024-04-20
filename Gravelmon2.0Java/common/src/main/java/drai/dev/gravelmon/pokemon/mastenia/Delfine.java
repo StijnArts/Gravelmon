@@ -58,7 +58,7 @@ import java.util.*;
 public class Delfine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Delfine() {
         super("Delfine",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

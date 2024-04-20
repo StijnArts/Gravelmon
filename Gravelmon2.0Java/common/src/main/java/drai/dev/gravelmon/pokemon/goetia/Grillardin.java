@@ -58,7 +58,7 @@ import java.util.*;
 public class Grillardin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grillardin() {
         super("Grillardin",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(0,
                         0,
                         0,

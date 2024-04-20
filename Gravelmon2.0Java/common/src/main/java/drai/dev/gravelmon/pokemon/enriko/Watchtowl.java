@@ -7,7 +7,7 @@ import java.util.*;
 public class Watchtowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Watchtowl() {
         super("Watchtowl",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

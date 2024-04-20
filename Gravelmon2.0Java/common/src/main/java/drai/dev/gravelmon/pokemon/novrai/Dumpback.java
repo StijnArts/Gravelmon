@@ -7,7 +7,7 @@ import java.util.*;
 public class Dumpback extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dumpback() {
         super("Dumpback",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(132,
                         94,
                         100,

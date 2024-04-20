@@ -9,7 +9,7 @@ import java.util.*;
 public class Arblizen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arblizen() {
         super("Arblizen",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(60,
                         100,
                         55,

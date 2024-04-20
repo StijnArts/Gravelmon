@@ -58,7 +58,7 @@ import java.util.*;
 public class Wrapst extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wrapst() {
         super("Wrapst",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(30,
                         50,
                         44,

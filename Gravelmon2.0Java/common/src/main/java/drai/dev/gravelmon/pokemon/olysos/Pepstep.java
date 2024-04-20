@@ -58,7 +58,7 @@ import java.util.*;
 public class Pepstep extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pepstep() {
         super("Pepstep",
-                Type.GROUND,Type.FIRE,
+                Type.GROUND, Type.FIRE,
                 new Stats(45,
                         60,
                         40,

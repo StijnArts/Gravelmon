@@ -9,7 +9,7 @@ import java.util.*;
 public class Merjestic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Merjestic() {
         super("Merjestic",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(105,
                         65,
                         65,

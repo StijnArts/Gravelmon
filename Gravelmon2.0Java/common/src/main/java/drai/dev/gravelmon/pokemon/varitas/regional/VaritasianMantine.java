@@ -9,7 +9,7 @@ import java.util.*;
 public class VaritasianMantine extends drai.dev.gravelmon.pokemon.Pokemon {
     public VaritasianMantine() {
         super("Mantine",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(85,
                         40,
                         70,

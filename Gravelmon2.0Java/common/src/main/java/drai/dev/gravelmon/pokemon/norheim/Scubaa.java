@@ -9,7 +9,7 @@ import java.util.*;
 public class Scubaa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scubaa() {
         super("Scubaa",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

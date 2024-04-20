@@ -7,7 +7,7 @@ import java.util.*;
 public class Haresquatch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Haresquatch() {
         super("Haresquatch",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(122,
                         105,
                         90,

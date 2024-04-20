@@ -9,7 +9,7 @@ import java.util.*;
 public class Scoprikon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scoprikon() {
         super("Scoprikon",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(80,
                         85,
                         82,

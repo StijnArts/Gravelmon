@@ -7,7 +7,7 @@ import java.util.*;
 public class PixL extends drai.dev.gravelmon.pokemon.Pokemon {
     public PixL() {
         super("PixL",
-                Type.ELECTRIC,Type.BUG,
+                Type.ELECTRIC, Type.BUG,
                 new Stats(90,
                         54,
                         64,

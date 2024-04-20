@@ -7,7 +7,7 @@ import java.util.*;
 public class Celestar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Celestar() {
         super("Celestar",
-                Type.ICE,Type.FIRE,
+                Type.ICE, Type.FIRE,
                 new Stats(45,
                         60,
                         45,

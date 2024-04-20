@@ -7,7 +7,7 @@ import java.util.*;
 public class Lemunk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lemunk() {
         super("Lemunk",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(60,
                         50,
                         30,

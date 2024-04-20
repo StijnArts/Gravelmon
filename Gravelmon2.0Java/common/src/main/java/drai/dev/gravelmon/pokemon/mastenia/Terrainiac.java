@@ -58,7 +58,7 @@ import java.util.*;
 public class Terrainiac extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terrainiac() {
         super("Terrainiac",
-                Type.DARK,Type.GRASS,
+                Type.DARK, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

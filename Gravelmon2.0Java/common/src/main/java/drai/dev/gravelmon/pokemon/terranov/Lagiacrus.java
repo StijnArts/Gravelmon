@@ -58,7 +58,7 @@ import java.util.*;
 public class Lagiacrus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lagiacrus() {
         super("Lagiacrus",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(120,
                         70,
                         85,

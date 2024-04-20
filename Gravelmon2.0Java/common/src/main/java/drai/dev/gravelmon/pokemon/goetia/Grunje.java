@@ -58,7 +58,7 @@ import java.util.*;
 public class Grunje extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grunje() {
         super("Grunje",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

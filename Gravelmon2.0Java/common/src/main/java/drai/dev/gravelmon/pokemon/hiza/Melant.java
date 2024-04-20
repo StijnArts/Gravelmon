@@ -7,7 +7,7 @@ import java.util.*;
 public class Melant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Melant() {
         super("Melant",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(65,
                         45,
                         65,

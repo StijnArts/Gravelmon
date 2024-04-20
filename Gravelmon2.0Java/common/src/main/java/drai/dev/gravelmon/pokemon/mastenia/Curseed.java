@@ -58,7 +58,7 @@ import java.util.*;
 public class Curseed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Curseed() {
         super("Curseed",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

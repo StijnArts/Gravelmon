@@ -7,7 +7,7 @@ import java.util.*;
 public class Encyst extends drai.dev.gravelmon.pokemon.Pokemon {
     public Encyst() {
         super("Encyst",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(25,
                         30,
                         20,

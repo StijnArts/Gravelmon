@@ -58,7 +58,7 @@ import java.util.*;
 public class Dunymph extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dunymph() {
         super("Dunymph",
-                Type.BUG,Type.NORMAL,
+                Type.BUG, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

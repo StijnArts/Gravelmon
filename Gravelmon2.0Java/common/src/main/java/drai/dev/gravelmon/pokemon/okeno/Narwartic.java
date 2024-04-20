@@ -6,7 +6,7 @@ import java.util.*;
 public class Narwartic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Narwartic() {
         super("Narwartic",
-                Type.ICE,Type.ELECTRIC,
+                Type.ICE, Type.ELECTRIC,
                 new Stats(96,
                         95,
                         80,

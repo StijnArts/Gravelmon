@@ -9,7 +9,7 @@ import java.util.*;
 public class Clairbuoyant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clairbuoyant() {
         super("Clairbuoyant",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(110,
                         50,
                         60,

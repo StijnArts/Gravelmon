@@ -58,7 +58,7 @@ import java.util.*;
 public class Bactearia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bactearia() {
         super("Bactearia",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(0,
                         0,
                         0,

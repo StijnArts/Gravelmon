@@ -18,7 +18,7 @@ import java.util.*;
 public class NeoCacnea extends drai.dev.gravelmon.pokemon.Pokemon {
     public NeoCacnea(int dex) {
         super(dex, "Cacnea",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(65,
                         85,
                         65,

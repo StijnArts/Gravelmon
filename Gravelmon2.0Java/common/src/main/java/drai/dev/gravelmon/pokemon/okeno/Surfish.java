@@ -6,7 +6,7 @@ import java.util.*;
 public class Surfish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Surfish() {
         super("Surfish",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(60,
                         60,
                         60,

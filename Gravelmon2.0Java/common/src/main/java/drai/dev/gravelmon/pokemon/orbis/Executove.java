@@ -58,7 +58,7 @@ import java.util.*;
 public class Executove extends drai.dev.gravelmon.pokemon.Pokemon {
     public Executove() {
         super("Executove",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(65,
                         65,
                         42,

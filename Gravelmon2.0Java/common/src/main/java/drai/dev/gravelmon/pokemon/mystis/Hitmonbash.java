@@ -58,7 +58,7 @@ import java.util.*;
 public class Hitmonbash extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hitmonbash() {
         super("Hitmonbash",
-                Type.FIGHTING,Type.GHOST,
+                Type.FIGHTING, Type.GHOST,
                 new Stats(50,
                         110,
                         69,

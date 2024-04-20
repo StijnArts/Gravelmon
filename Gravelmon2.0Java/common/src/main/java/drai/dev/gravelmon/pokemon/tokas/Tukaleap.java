@@ -58,7 +58,7 @@ import java.util.*;
 public class Tukaleap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tukaleap() {
         super("Tukaleap",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

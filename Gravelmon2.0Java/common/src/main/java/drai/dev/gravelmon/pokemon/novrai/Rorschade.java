@@ -7,7 +7,7 @@ import java.util.*;
 public class Rorschade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rorschade() {
         super("Rorschade",
-                Type.DARK,Type.PSYCHIC,
+                Type.DARK, Type.PSYCHIC,
                 new Stats(48,
                         35,
                         40,

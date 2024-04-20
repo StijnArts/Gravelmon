@@ -9,7 +9,7 @@ import java.util.*;
 public class Rowdent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rowdent() {
         super("Rowdent",
-                Type.NORMAL,Type.DRAGON,
+                Type.NORMAL, Type.DRAGON,
                 new Stats(62,
                         84,
                         60,

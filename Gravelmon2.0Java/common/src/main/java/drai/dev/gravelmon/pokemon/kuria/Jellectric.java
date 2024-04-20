@@ -58,7 +58,7 @@ import java.util.*;
 public class Jellectric extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jellectric() {
         super("Jellectric",
-                Type.ELECTRIC,Type.COSMIC,
+                Type.ELECTRIC, Type.COSMIC,
                 new Stats(90,
                         70,
                         60,

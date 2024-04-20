@@ -9,7 +9,7 @@ import java.util.*;
 public class NorheimanUnown extends drai.dev.gravelmon.pokemon.Pokemon {
     public NorheimanUnown(int dex) {
         super(dex , "Unown",
-                Type.PSYCHIC,Type.ROCK,
+                Type.PSYCHIC, Type.ROCK,
                 new Stats(48,
                         48,
                         72,

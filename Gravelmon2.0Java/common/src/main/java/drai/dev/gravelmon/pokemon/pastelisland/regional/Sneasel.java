@@ -58,7 +58,7 @@ import java.util.*;
 public class Sneasel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sneasel(int dex) {
         super(dex, "Sneasel",
-                Type.DARK,Type.FIRE,
+                Type.DARK, Type.FIRE,
                 new Stats(55,
                         95,
                         55,

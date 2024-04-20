@@ -58,7 +58,7 @@ import java.util.*;
 public class Malease extends drai.dev.gravelmon.pokemon.Pokemon {
     public Malease() {
         super("Malease",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

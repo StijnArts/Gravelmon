@@ -7,7 +7,7 @@ import java.util.*;
 public class Sirenaut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sirenaut() {
         super("Sirenaut",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(73,
                         66,
                         110,

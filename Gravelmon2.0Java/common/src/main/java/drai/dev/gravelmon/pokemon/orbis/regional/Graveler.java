@@ -58,7 +58,7 @@ import java.util.*;
 public class Graveler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Graveler(int dex) {
         super(dex, "Graveler",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(55,
                         95,
                         115,

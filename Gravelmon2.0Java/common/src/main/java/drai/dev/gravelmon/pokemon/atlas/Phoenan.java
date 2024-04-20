@@ -7,7 +7,7 @@ import java.util.*;
 public class Phoenan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phoenan() {
         super("Phoenan",
-                Type.GRASS,Type.FLYING,
+                Type.GRASS, Type.FLYING,
                 new Stats(77,
                         77,
                         72,

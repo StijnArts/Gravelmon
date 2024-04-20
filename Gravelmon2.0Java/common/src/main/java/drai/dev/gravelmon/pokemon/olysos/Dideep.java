@@ -58,7 +58,7 @@ import java.util.*;
 public class Dideep extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dideep() {
         super("Dideep",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

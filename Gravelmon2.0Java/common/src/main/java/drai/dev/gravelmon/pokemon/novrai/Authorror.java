@@ -7,7 +7,7 @@ import java.util.*;
 public class Authorror extends drai.dev.gravelmon.pokemon.Pokemon {
     public Authorror() {
         super("Authorror",
-                Type.GHOST,Type.DARK,
+                Type.GHOST, Type.DARK,
                 new Stats(66,
                         128,
                         104,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Cykit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cykit() {
         super("Cykit",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(40,
                         50,
                         40,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Sombruja extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sombruja() {
         super("Sombruja",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(60,
                         90,
                         63,

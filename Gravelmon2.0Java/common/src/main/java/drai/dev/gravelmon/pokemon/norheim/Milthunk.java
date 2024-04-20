@@ -9,7 +9,7 @@ import java.util.*;
 public class Milthunk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Milthunk() {
         super("Milthunk",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

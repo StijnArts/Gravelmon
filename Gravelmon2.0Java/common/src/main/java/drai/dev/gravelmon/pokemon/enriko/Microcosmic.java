@@ -7,7 +7,7 @@ import java.util.*;
 public class Microcosmic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Microcosmic() {
         super("Microcosmic",
-                Type.STEEL,Type.GRASS,
+                Type.STEEL, Type.GRASS,
                 new Stats(120,
                         80,
                         110,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Koalove extends drai.dev.gravelmon.pokemon.Pokemon {
     public Koalove() {
         super("Koalove",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(120,
                         129,
                         70,
@@ -17,7 +17,7 @@ public class Koalove extends drai.dev.gravelmon.pokemon.Pokemon {
                         68),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 13, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

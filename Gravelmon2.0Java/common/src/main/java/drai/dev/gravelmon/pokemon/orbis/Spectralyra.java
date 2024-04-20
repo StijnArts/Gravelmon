@@ -58,7 +58,7 @@ import java.util.*;
 public class Spectralyra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Spectralyra() {
         super("Spectralyra",
-                Type.GRASS,Type.GHOST,
+                Type.GRASS, Type.GHOST,
                 new Stats(63,
                         79,
                         84,

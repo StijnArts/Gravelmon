@@ -58,7 +58,7 @@ import java.util.*;
 public class Growlain extends drai.dev.gravelmon.pokemon.Pokemon {
     public Growlain() {
         super("Growlain",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(80,
                         120,
                         130,

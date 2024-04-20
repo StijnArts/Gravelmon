@@ -7,7 +7,7 @@ import java.util.*;
 public class Torplitz extends drai.dev.gravelmon.pokemon.Pokemon {
     public Torplitz() {
         super("Torplitz",
-                Type.ELECTRIC,Type.WATER,
+                Type.ELECTRIC, Type.WATER,
                 new Stats(126,
                         67,
                         60,

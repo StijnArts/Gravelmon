@@ -58,7 +58,7 @@ import java.util.*;
 public class Chatart extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chatart() {
         super("Chatart",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Sawsbuck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sawsbuck(int dex) {
         super(dex, "Sawsbuck",
-                Type.NORMAL,Type.GRASS,
+                Type.NORMAL, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

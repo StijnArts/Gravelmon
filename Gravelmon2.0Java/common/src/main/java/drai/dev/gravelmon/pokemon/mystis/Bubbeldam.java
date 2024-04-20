@@ -58,7 +58,7 @@ import java.util.*;
 public class Bubbeldam extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bubbeldam() {
         super("Bubbeldam",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(60,
                         60,
                         80,

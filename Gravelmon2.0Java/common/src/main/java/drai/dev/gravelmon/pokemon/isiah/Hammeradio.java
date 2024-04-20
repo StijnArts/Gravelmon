@@ -7,7 +7,7 @@ import java.util.*;
 public class Hammeradio extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hammeradio() {
         super("Hammeradio",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

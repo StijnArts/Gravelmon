@@ -6,7 +6,7 @@ import java.util.*;
 public class Egxiking extends drai.dev.gravelmon.pokemon.Pokemon {
     public Egxiking() {
         super("Egxiking",
-                Type.NORMAL,Type.FIRE,
+                Type.NORMAL, Type.FIRE,
                 new Stats(111,
                         50,
                         90,

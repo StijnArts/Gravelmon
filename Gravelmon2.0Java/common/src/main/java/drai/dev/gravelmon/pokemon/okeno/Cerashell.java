@@ -6,7 +6,7 @@ import java.util.*;
 public class Cerashell extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cerashell() {
         super("Cerashell",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(60,
                         67,
                         110,

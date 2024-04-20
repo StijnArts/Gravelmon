@@ -6,7 +6,7 @@ import java.util.*;
 public class Pipkorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pipkorn() {
         super("Pipkorn",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(65,
                         45,
                         40,

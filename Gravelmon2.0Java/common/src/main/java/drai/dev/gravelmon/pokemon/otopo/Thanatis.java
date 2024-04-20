@@ -58,7 +58,7 @@ import java.util.*;
 public class Thanatis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thanatis() {
         super("Thanatis",
-                Type.GHOST,Type.FIGHTING,
+                Type.GHOST, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Plagarata extends drai.dev.gravelmon.pokemon.Pokemon {
     public Plagarata() {
         super("Plagarata",
-                Type.NORMAL,Type.POISON,
+                Type.NORMAL, Type.POISON,
                 new Stats(0,
                         0,
                         0,

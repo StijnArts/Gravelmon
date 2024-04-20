@@ -13,7 +13,7 @@ import java.util.*;
 public class Neinei extends drai.dev.gravelmon.pokemon.Pokemon {
     public Neinei() {
         super("Neinei",
-                Type.FLYING,Type.WATER,
+                Type.FLYING, Type.WATER,
                 new Stats(90,
                         50,
                         60,

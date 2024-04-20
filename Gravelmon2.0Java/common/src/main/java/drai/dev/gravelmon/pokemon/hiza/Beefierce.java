@@ -7,7 +7,7 @@ import java.util.*;
 public class Beefierce extends drai.dev.gravelmon.pokemon.Pokemon {
     public Beefierce() {
         super("Beefierce",
-                Type.FIGHTING,Type.GROUND,
+                Type.FIGHTING, Type.GROUND,
                 new Stats(104,
                         120,
                         88,

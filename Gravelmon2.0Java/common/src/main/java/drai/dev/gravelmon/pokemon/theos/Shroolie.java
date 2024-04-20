@@ -58,7 +58,7 @@ import java.util.*;
 public class Shroolie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shroolie() {
         super("Shroolie",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(42,
                         30,
                         45,

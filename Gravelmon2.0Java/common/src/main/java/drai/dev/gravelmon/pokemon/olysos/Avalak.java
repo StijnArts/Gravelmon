@@ -58,7 +58,7 @@ import java.util.*;
 public class Avalak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Avalak() {
         super("Avalak",
-                Type.GROUND,Type.ICE,
+                Type.GROUND, Type.ICE,
                 new Stats(0,
                         0,
                         0,

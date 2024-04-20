@@ -7,7 +7,7 @@ import java.util.*;
 public class Stalagoliath extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stalagoliath() {
         super("Stalagoliath",
-                Type.ROCK,Type.DARK,
+                Type.ROCK, Type.DARK,
                 new Stats(70,
                         120,
                         115,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Gorilloquy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gorilloquy() {
         super("Gorilloquy",
-                Type.NORMAL,Type.FIGHTING,
+                Type.NORMAL, Type.FIGHTING,
                 new Stats(90,
                         134,
                         105,

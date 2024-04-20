@@ -58,7 +58,7 @@ import java.util.*;
 public class Inkap extends drai.dev.gravelmon.pokemon.Pokemon {
     public Inkap() {
         super("Inkap",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

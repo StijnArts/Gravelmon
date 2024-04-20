@@ -9,7 +9,7 @@ import java.util.*;
 public class Impifaun extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impifaun() {
         super("Impifaun",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(80,
                         110,
                         80,

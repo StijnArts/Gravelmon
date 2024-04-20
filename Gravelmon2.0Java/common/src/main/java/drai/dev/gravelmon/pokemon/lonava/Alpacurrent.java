@@ -7,7 +7,7 @@ import java.util.*;
 public class Alpacurrent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Alpacurrent() {
         super("Alpacurrent",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(60,
                         110,
                         50,

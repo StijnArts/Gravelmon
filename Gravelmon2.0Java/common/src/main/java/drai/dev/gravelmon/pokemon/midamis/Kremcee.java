@@ -9,7 +9,7 @@ import java.util.*;
 public class Kremcee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kremcee() {
         super("Kremcee",
-                Type.DARK,Type.NORMAL,
+                Type.DARK, Type.NORMAL,
                 new Stats(75,
                         65,
                         70,

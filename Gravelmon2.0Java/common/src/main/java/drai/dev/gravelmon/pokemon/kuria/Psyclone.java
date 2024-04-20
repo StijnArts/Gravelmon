@@ -58,7 +58,7 @@ import java.util.*;
 public class Psyclone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psyclone() {
         super("Psyclone",
-                Type.FLYING,Type.PSYCHIC,
+                Type.FLYING, Type.PSYCHIC,
                 new Stats(75,
                         50,
                         60,

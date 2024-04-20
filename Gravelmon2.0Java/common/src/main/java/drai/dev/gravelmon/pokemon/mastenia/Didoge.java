@@ -58,7 +58,7 @@ import java.util.*;
 public class Didoge extends drai.dev.gravelmon.pokemon.Pokemon {
     public Didoge() {
         super("Didoge",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

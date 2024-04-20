@@ -7,7 +7,7 @@ import java.util.*;
 public class Onnidix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Onnidix() {
         super("Onnidix",
-                Type.GRASS,Type.FIRE,
+                Type.GRASS, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

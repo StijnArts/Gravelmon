@@ -58,7 +58,7 @@ import java.util.*;
 public class Probopass extends drai.dev.gravelmon.pokemon.Pokemon {
     public Probopass(int dex) {
         super(dex, "Probopass",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(75,
                         70,
                         135,

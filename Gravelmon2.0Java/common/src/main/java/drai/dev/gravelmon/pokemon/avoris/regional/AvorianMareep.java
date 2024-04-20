@@ -8,7 +8,7 @@ import java.util.*;
 public class AvorianMareep extends drai.dev.gravelmon.pokemon.Pokemon {
     public AvorianMareep() {
         super("Mareep",
-                Type.PSYCHIC,Type.ELECTRIC,
+                Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(55,
                         40,
                         40,

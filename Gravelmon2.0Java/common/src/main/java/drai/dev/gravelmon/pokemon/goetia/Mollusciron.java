@@ -58,7 +58,7 @@ import java.util.*;
 public class Mollusciron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mollusciron() {
         super("Mollusciron",
-                Type.STEEL,Type.POISON,
+                Type.STEEL, Type.POISON,
                 new Stats(0,
                         0,
                         0,

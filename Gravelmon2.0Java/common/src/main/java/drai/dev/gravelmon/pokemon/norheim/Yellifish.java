@@ -9,7 +9,7 @@ import java.util.*;
 public class Yellifish extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yellifish() {
         super("Yellifish",
-                Type.GHOST,Type.PSYCHIC,
+                Type.GHOST, Type.PSYCHIC,
                 new Stats(65,
                         30,
                         53,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Magikarp extends drai.dev.gravelmon.pokemon.Pokemon {
     public Magikarp(int dex) {
         super(dex, "Magikarp",
-                Type.POISON,Type.WATER,
+                Type.POISON, Type.WATER,
                 new Stats(30,
                         30,
                         40,

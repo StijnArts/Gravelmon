@@ -7,7 +7,7 @@ import java.util.*;
 public class Itaffura extends drai.dev.gravelmon.pokemon.Pokemon {
     public Itaffura() {
         super("Itaffura",
-                Type.ELECTRIC,Type.ICE,
+                Type.ELECTRIC, Type.ICE,
                 new Stats(65,
                         63,
                         59,

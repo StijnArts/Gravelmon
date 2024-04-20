@@ -9,7 +9,7 @@ import java.util.*;
 public class Pyrstack extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyrstack() {
         super("Pyrstack",
-                Type.GROUND,Type.FIRE,
+                Type.GROUND, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

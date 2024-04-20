@@ -7,7 +7,7 @@ import java.util.*;
 public class Hayataga extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hayataga() {
         super("Hayataga",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(50,
                         60,
                         55,

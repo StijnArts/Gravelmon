@@ -9,7 +9,7 @@ import java.util.*;
 public class Quadrossal extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quadrossal() {
         super("Quadrossal",
-                Type.WATER,Type.ICE,
+                Type.WATER, Type.ICE,
                 new Stats(140,
                         100,
                         110,

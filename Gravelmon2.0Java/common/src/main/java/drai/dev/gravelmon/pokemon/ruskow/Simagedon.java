@@ -58,7 +58,7 @@ import java.util.*;
 public class Simagedon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Simagedon() {
         super("Simagedon",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

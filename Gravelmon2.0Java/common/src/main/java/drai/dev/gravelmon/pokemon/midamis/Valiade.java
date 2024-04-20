@@ -9,7 +9,7 @@ import java.util.*;
 public class Valiade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Valiade() {
         super("Valiade",
-                Type.DRAGON,Type.WATER,
+                Type.DRAGON, Type.WATER,
                 new Stats(120,
                         70,
                         115,

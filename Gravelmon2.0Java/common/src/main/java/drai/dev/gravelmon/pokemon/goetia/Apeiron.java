@@ -58,7 +58,7 @@ import java.util.*;
 public class Apeiron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Apeiron() {
         super("Apeiron",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(90,
                         65,
                         120,

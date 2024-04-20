@@ -58,7 +58,7 @@ import java.util.*;
 public class Murkreep extends drai.dev.gravelmon.pokemon.Pokemon {
     public Murkreep() {
         super("Murkreep",
-                Type.DARK,Type.GRASS,
+                Type.DARK, Type.GRASS,
                 new Stats(70,
                         106,
                         90,

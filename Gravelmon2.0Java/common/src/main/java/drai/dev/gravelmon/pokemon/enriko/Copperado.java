@@ -7,7 +7,7 @@ import java.util.*;
 public class Copperado extends drai.dev.gravelmon.pokemon.Pokemon {
     public Copperado() {
         super("Copperado",
-                Type.STEEL,Type.ROCK,
+                Type.STEEL, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

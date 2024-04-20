@@ -9,7 +9,7 @@ import java.util.*;
 public class Kamiyin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kamiyin() {
         super("Kamiyin",
-                Type.GHOST,Type.DRAGON,
+                Type.GHOST, Type.DRAGON,
                 new Stats(130,
                         100,
                         125,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Duskito extends drai.dev.gravelmon.pokemon.Pokemon {
     public Duskito() {
         super("Duskito",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(0,
                         0,
                         0,

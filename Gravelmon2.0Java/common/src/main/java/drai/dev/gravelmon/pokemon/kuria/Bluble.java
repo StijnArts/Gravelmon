@@ -58,7 +58,7 @@ import java.util.*;
 public class Bluble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bluble() {
         super("Bluble",
-                Type.WATER,Type.COSMIC,
+                Type.WATER, Type.COSMIC,
                 new Stats(50,
                         30,
                         60,

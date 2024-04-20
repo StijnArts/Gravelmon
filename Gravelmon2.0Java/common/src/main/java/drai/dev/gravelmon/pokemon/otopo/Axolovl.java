@@ -58,7 +58,7 @@ import java.util.*;
 public class Axolovl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Axolovl() {
         super("Axolovl",
-                Type.FAIRY,Type.PSYCHIC,
+                Type.FAIRY, Type.PSYCHIC,
                 new Stats(100,
                         100,
                         100,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Moortaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moortaur() {
         super("Moortaur",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(95,
                         110,
                         125,

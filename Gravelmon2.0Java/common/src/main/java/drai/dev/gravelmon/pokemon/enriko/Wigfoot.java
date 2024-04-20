@@ -7,7 +7,7 @@ import java.util.*;
 public class Wigfoot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wigfoot() {
         super("Wigfoot",
-                Type.NORMAL,Type.GROUND,
+                Type.NORMAL, Type.GROUND,
                 new Stats(80,
                         80,
                         120,

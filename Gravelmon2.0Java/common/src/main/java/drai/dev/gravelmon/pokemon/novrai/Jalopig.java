@@ -7,7 +7,7 @@ import java.util.*;
 public class Jalopig extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jalopig() {
         super("Jalopig",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(43,
                         64,
                         64,

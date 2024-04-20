@@ -9,7 +9,7 @@ import java.util.*;
 public class Heimdrake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Heimdrake() {
         super("Heimdrake",
-                Type.DRAGON,Type.ELECTRIC,
+                Type.DRAGON, Type.ELECTRIC,
                 new Stats(90,
                         90,
                         90,

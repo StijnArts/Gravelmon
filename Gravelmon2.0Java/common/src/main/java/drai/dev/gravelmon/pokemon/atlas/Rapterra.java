@@ -7,7 +7,7 @@ import java.util.*;
 public class Rapterra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rapterra() {
         super("Rapterra",
-                Type.DRAGON,Type.ROCK,
+                Type.DRAGON, Type.ROCK,
                 new Stats(60,
                         115,
                         75,

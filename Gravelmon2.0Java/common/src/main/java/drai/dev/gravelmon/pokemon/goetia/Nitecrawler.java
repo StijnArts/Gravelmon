@@ -58,7 +58,7 @@ import java.util.*;
 public class Nitecrawler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Nitecrawler() {
         super("Nitecrawler",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(70,
                         125,
                         65,

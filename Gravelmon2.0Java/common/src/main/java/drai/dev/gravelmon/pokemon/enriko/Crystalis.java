@@ -7,7 +7,7 @@ import java.util.*;
 public class Crystalis extends drai.dev.gravelmon.pokemon.Pokemon {
     public Crystalis() {
         super("Crystalis",
-                Type.BUG,Type.ICE,
+                Type.BUG, Type.ICE,
                 new Stats(65,
                         65,
                         95,

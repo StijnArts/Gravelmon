@@ -7,7 +7,7 @@ import java.util.*;
 public class Carriotten extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carriotten() {
         super("Carriotten",
-                Type.POISON,Type.DRAGON,
+                Type.POISON, Type.DRAGON,
                 new Stats(60,
                         95,
                         70,

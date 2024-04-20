@@ -7,7 +7,7 @@ import java.util.*;
 public class Medissin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Medissin() {
         super("Medissin",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(52,
                         40,
                         43,

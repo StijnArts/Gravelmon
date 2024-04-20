@@ -7,7 +7,7 @@ import java.util.*;
 public class Pterai extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pterai() {
         super("Pterai",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(45,
                         55,
                         65,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Lulabaa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lulabaa() {
         super("Lulabaa",
-                Type.NORMAL,Type.FAIRY,
+                Type.NORMAL, Type.FAIRY,
                 new Stats(100,
                         35,
                         75,

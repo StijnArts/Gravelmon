@@ -7,7 +7,7 @@ import java.util.*;
 public class Mechrazore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mechrazore() {
         super("Mechrazore",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(170,
                         140,
                         130,

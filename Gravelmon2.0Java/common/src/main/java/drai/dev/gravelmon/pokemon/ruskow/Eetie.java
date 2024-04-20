@@ -58,7 +58,7 @@ import java.util.*;
 public class Eetie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eetie() {
         super("Eetie",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

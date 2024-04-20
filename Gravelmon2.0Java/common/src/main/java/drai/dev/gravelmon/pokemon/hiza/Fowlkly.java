@@ -7,7 +7,7 @@ import java.util.*;
 public class Fowlkly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fowlkly() {
         super("Fowlkly",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(43,
                         43,
                         53,

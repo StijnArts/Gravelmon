@@ -58,7 +58,7 @@ import java.util.*;
 public class Polaragon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Polaragon() {
         super("Polaragon",
-                Type.BUG,Type.ELECTRIC,
+                Type.BUG, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

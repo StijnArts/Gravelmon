@@ -9,7 +9,7 @@ import java.util.*;
 public class Naeglerium extends drai.dev.gravelmon.pokemon.Pokemon {
     public Naeglerium() {
         super("Naeglerium",
-                Type.POISON,Type.PSYCHIC,
+                Type.POISON, Type.PSYCHIC,
                 new Stats(105,
                         50,
                         90,

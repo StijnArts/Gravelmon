@@ -58,7 +58,7 @@ import java.util.*;
 public class Rustank extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rustank() {
         super("Rustank",
-                Type.FIGHTING,Type.STEEL,
+                Type.FIGHTING, Type.STEEL,
                 new Stats(40,
                         60,
                         40,

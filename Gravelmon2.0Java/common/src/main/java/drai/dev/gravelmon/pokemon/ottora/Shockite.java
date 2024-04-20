@@ -58,7 +58,7 @@ import java.util.*;
 public class Shockite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shockite() {
         super("Shockite",
-                Type.FLYING,Type.ELECTRIC,
+                Type.FLYING, Type.ELECTRIC,
                 new Stats(67,
                         64,
                         51,

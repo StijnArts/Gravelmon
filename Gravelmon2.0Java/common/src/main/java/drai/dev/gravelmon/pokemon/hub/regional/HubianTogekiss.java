@@ -7,7 +7,7 @@ import java.util.*;
 public class HubianTogekiss extends drai.dev.gravelmon.pokemon.Pokemon {
     public HubianTogekiss(int dex) {
         super(dex, "Togekiss",
-                Type.FAIRY,Type.PSYCHIC,
+                Type.FAIRY, Type.PSYCHIC,
                 new Stats(85,
                         50,
                         95,

@@ -60,8 +60,10 @@ public class GameRegistry {
         games.add(new Midamis());
         games.add(new Okeno());
         games.add(new Deneb());
+        games.add(new Enjin());
         games.add(new Novrai());
         games.add(new Atlas());
         games.add(new Amavi());
+        games.add(new Cyare());
     }
 }

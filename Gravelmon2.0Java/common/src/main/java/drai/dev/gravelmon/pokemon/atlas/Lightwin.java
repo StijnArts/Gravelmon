@@ -7,7 +7,7 @@ import java.util.*;
 public class Lightwin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lightwin() {
         super("Lightwin",
-                Type.FLYING,Type.FAIRY,
+                Type.FLYING, Type.FAIRY,
                 new Stats(95,
                         45,
                         55,

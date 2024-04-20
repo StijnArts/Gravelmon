@@ -58,7 +58,7 @@ import java.util.*;
 public class Fomen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fomen() {
         super("Fomen",
-                Type.FAIRY,Type.GHOST,
+                Type.FAIRY, Type.GHOST,
                 new Stats(71,
                         30,
                         52,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Jyuratodus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jyuratodus() {
         super("Jyuratodus",
-                Type.WATER,Type.GROUND,
+                Type.WATER, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

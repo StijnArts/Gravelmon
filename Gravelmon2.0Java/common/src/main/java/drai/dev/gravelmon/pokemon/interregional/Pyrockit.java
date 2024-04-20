@@ -7,7 +7,7 @@ import java.util.*;
 public class Pyrockit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pyrockit() {
         super("Pyrockit",
-                Type.ELECTRIC,Type.FIRE,
+                Type.ELECTRIC, Type.FIRE,
                 new Stats(0,
                         0,
                         0,

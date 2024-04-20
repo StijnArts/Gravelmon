@@ -7,7 +7,7 @@ import java.util.*;
 public class Ceresplit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ceresplit() {
         super("Ceresplit",
-                Type.GROUND,Type.FIRE,
+                Type.GROUND, Type.FIRE,
                 new Stats(90,
                         50,
                         100,

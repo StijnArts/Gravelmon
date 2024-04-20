@@ -58,7 +58,7 @@ import java.util.*;
 public class Narwa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Narwa() {
         super("Narwa",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

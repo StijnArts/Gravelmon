@@ -7,7 +7,7 @@ import java.util.*;
 public class Iccelerate extends drai.dev.gravelmon.pokemon.Pokemon {
     public Iccelerate() {
         super("Iccelerate",
-                Type.ICE,Type.ROCK,
+                Type.ICE, Type.ROCK,
                 new Stats(66,
                         109,
                         84,

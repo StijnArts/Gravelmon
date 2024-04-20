@@ -7,7 +7,7 @@ import java.util.*;
 public class Vempress extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vempress() {
         super("Vempress",
-                Type.POISON,Type.FAIRY,
+                Type.POISON, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Julimese extends drai.dev.gravelmon.pokemon.Pokemon {
     public Julimese() {
         super("Julimese",
-                Type.GRASS,Type.ELECTRIC,
+                Type.GRASS, Type.ELECTRIC,
                 new Stats(71,
                         59,
                         71,

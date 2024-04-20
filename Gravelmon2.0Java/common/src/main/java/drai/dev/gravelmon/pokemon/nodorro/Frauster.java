@@ -58,7 +58,7 @@ import java.util.*;
 public class Frauster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Frauster() {
         super("Frauster",
-                Type.ICE,Type.DARK,
+                Type.ICE, Type.DARK,
                 new Stats(100,
                         129,
                         92,

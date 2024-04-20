@@ -58,7 +58,7 @@ import java.util.*;
 public class Dracurrent extends drai.dev.gravelmon.pokemon.Pokemon {
     public Dracurrent() {
         super("Dracurrent",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(84,
                         87,
                         76,

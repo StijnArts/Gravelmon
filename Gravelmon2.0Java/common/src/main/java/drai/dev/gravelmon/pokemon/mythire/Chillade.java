@@ -7,7 +7,7 @@ import java.util.*;
 public class Chillade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chillade() {
         super("Chillade",
-                Type.ICE,Type.STEEL,
+                Type.ICE, Type.STEEL,
                 new Stats(40,
                         55,
                         80,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Sliezen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sliezen() {
         super("Sliezen",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

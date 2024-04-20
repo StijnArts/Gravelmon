@@ -58,7 +58,7 @@ import java.util.*;
 public class Atroceros extends drai.dev.gravelmon.pokemon.Pokemon {
     public Atroceros() {
         super("Atroceros",
-                Type.GROUND,Type.BUG,
+                Type.GROUND, Type.BUG,
                 new Stats(120,
                         150,
                         120,

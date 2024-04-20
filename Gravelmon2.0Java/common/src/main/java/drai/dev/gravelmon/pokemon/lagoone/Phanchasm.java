@@ -58,7 +58,7 @@ import java.util.*;
 public class Phanchasm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phanchasm() {
         super("Phanchasm",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(80,
                         120,
                         40,

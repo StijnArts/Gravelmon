@@ -6,7 +6,7 @@ import java.util.*;
 public class Lillama extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lillama() {
         super("Lillama",
-                Type.NORMAL,Type.ICE,
+                Type.NORMAL, Type.ICE,
                 new Stats(51,
                         57,
                         46,

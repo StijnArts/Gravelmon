@@ -58,7 +58,7 @@ import java.util.*;
 public class Icestalk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Icestalk() {
         super("Icestalk",
-                Type.DARK,Type.ICE,
+                Type.DARK, Type.ICE,
                 new Stats(0,
                         0,
                         0,

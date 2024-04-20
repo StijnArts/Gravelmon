@@ -9,7 +9,7 @@ import java.util.*;
 public class Veneedle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Veneedle() {
         super("Veneedle",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(30,
                         30,
                         80,

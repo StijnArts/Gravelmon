@@ -7,7 +7,7 @@ import java.util.*;
 public class Sauntler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sauntler() {
         super("Sauntler",
-                Type.DARK,Type.GHOST,
+                Type.DARK, Type.GHOST,
                 new Stats(40,
                         65,
                         40,

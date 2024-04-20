@@ -9,7 +9,7 @@ import java.util.*;
 public class Bufaroon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bufaroon() {
         super("Bufaroon",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(65,
                         75,
                         60,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Villamya extends drai.dev.gravelmon.pokemon.Pokemon {
     public Villamya() {
         super("Villamya",
-                Type.DRAGON,Type.GRASS,
+                Type.DRAGON, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

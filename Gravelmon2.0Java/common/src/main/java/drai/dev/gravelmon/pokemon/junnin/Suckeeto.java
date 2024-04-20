@@ -11,7 +11,7 @@ import java.util.*;
 public class Suckeeto extends drai.dev.gravelmon.pokemon.Pokemon {
     public Suckeeto() {
         super("Suckeeto",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(51,
                         75,
                         98,

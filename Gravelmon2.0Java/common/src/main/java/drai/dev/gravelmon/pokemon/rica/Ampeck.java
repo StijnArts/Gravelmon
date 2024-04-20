@@ -9,7 +9,7 @@ import java.util.*;
 public class Ampeck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ampeck() {
         super("Ampeck",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(50,
                         50,
                         45,

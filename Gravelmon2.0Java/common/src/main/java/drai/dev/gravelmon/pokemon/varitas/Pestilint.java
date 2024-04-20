@@ -9,7 +9,7 @@ import java.util.*;
 public class Pestilint extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pestilint() {
         super("Pestilint",
-                Type.BUG,Type.NORMAL,
+                Type.BUG, Type.NORMAL,
                 new Stats(80,
                         40,
                         105,

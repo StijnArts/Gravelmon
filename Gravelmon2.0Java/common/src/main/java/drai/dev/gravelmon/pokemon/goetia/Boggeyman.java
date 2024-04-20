@@ -58,7 +58,7 @@ import java.util.*;
 public class Boggeyman extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boggeyman() {
         super("Boggeyman",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

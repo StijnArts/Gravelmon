@@ -58,7 +58,7 @@ import java.util.*;
 public class Stormaroo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stormaroo() {
         super("Stormaroo",
-                Type.WATER,Type.ELECTRIC,
+                Type.WATER, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

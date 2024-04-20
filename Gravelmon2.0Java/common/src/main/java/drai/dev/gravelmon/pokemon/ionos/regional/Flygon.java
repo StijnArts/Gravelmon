@@ -58,7 +58,7 @@ import java.util.*;
 public class Flygon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Flygon(int dex) {
         super(dex, "Flygon",
-                Type.BUG,Type.DRAGON,
+                Type.BUG, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

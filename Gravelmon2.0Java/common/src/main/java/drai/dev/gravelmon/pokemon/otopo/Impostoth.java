@@ -58,7 +58,7 @@ import java.util.*;
 public class Impostoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impostoth() {
         super("Impostoth",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(60,
                         80,
                         50,

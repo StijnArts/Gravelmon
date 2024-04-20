@@ -9,7 +9,7 @@ import java.util.*;
 public class Taranturem extends drai.dev.gravelmon.pokemon.Pokemon {
     public Taranturem() {
         super("Taranturem",
-                Type.GHOST,Type.BUG,
+                Type.GHOST, Type.BUG,
                 new Stats(130,
                         150,
                         110,

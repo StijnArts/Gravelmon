@@ -7,7 +7,7 @@ import java.util.*;
 public class Skelacian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skelacian() {
         super("Skelacian",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

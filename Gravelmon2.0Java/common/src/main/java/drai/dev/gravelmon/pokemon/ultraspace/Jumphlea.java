@@ -58,7 +58,7 @@ import java.util.*;
 public class Jumphlea extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jumphlea() {
         super("Jumphlea",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

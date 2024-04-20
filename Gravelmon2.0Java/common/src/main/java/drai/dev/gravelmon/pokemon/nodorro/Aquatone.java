@@ -58,7 +58,7 @@ import java.util.*;
 public class Aquatone extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aquatone() {
         super("Aquatone",
-                Type.ROCK,Type.WATER,
+                Type.ROCK, Type.WATER,
                 new Stats(70,
                         90,
                         75,

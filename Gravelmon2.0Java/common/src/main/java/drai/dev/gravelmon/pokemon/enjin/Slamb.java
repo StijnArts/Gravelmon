@@ -58,7 +58,7 @@ import java.util.*;
 public class Slamb extends drai.dev.gravelmon.pokemon.Pokemon {
     public Slamb() {
         super("Slamb",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

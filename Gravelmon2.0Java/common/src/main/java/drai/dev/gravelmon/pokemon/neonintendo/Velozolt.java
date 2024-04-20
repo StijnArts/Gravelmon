@@ -58,7 +58,7 @@ import java.util.*;
 public class Velozolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Velozolt() {
         super("Velozolt",
-                Type.ELECTRIC,Type.ROCK,
+                Type.ELECTRIC, Type.ROCK,
                 new Stats(60,
                         100,
                         70,

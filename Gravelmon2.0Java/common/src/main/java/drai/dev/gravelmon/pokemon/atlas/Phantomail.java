@@ -7,7 +7,7 @@ import java.util.*;
 public class Phantomail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Phantomail() {
         super("Phantomail",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(60,
                         105,
                         100,

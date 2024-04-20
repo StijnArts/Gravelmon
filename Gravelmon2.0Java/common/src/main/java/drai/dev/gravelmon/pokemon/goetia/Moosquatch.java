@@ -58,7 +58,7 @@ import java.util.*;
 public class Moosquatch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moosquatch() {
         super("Moosquatch",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

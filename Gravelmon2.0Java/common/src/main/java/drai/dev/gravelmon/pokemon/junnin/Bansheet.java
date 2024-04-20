@@ -11,7 +11,7 @@ import java.util.*;
 public class Bansheet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bansheet() {
         super("Bansheet",
-                Type.NORMAL,Type.GHOST,
+                Type.NORMAL, Type.GHOST,
                 new Stats(32,
                         59,
                         36,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Buoybie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buoybie() {
         super("Buoybie",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(40,
                         40,
                         35,

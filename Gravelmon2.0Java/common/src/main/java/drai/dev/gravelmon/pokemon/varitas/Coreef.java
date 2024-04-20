@@ -9,7 +9,7 @@ import java.util.*;
 public class Coreef extends drai.dev.gravelmon.pokemon.Pokemon {
     public Coreef() {
         super("Coreef",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

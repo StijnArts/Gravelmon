@@ -58,7 +58,7 @@ import java.util.*;
 public class Amphibula extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amphibula() {
         super("Amphibula",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

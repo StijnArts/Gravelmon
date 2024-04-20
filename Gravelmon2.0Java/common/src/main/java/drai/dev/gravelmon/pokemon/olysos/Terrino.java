@@ -58,7 +58,7 @@ import java.util.*;
 public class Terrino extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terrino() {
         super("Terrino",
-                Type.ROCK,Type.NORMAL,
+                Type.ROCK, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

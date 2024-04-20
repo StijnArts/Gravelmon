@@ -8,7 +8,7 @@ import java.util.*;
 public class Insensei extends drai.dev.gravelmon.pokemon.Pokemon {
     public Insensei() {
         super("Insensei",
-                Type.FIGHTING,Type.POISON,
+                Type.FIGHTING, Type.POISON,
                 new Stats(79,
                         127,
                         87,
@@ -17,7 +17,7 @@ public class Insensei extends drai.dev.gravelmon.pokemon.Pokemon {
                         87),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 12, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

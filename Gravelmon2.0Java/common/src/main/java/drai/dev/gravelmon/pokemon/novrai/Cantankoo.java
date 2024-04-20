@@ -7,7 +7,7 @@ import java.util.*;
 public class Cantankoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cantankoo() {
         super("Cantankoo",
-                Type.DARK,Type.BUG,
+                Type.DARK, Type.BUG,
                 new Stats(55,
                         115,
                         75,

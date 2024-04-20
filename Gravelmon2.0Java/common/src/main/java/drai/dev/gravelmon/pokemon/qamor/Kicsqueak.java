@@ -9,7 +9,7 @@ import java.util.*;
 public class Kicsqueak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kicsqueak() {
         super("Kicsqueak",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(43,
                         35,
                         46,

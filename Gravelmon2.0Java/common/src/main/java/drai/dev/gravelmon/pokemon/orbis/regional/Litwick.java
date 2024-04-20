@@ -58,7 +58,7 @@ import java.util.*;
 public class Litwick extends drai.dev.gravelmon.pokemon.Pokemon {
     public Litwick(int dex) {
         super(dex, "Litwick",
-                Type.GHOST,Type.FIRE,
+                Type.GHOST, Type.FIRE,
                 new Stats(50,
                         30,
                         55,

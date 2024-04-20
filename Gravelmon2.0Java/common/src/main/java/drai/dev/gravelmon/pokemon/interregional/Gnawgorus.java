@@ -7,7 +7,7 @@ import java.util.*;
 public class Gnawgorus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gnawgorus() {
         super("Gnawgorus",
-                Type.WATER,Type.DARK,
+                Type.WATER, Type.DARK,
                 new Stats(115,
                         90,
                         120,

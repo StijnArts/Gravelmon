@@ -58,7 +58,7 @@ import java.util.*;
 public class Jumblweed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jumblweed() {
         super("Jumblweed",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

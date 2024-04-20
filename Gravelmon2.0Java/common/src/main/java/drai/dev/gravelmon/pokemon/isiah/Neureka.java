@@ -7,7 +7,7 @@ import java.util.*;
 public class Neureka extends drai.dev.gravelmon.pokemon.Pokemon {
     public Neureka() {
         super("Neureka",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(70,
                         40,
                         40,

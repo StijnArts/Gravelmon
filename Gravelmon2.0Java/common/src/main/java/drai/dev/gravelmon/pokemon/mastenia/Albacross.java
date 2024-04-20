@@ -58,7 +58,7 @@ import java.util.*;
 public class Albacross extends drai.dev.gravelmon.pokemon.Pokemon {
     public Albacross() {
         super("Albacross",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

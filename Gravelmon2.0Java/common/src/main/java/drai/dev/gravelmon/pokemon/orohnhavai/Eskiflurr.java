@@ -9,7 +9,7 @@ import java.util.*;
 public class Eskiflurr extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eskiflurr() {
         super("Eskiflurr",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(96,
                         32,
                         77,

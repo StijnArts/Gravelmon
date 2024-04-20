@@ -9,7 +9,7 @@ import java.util.*;
 public class Stegovore extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stegovore() {
         super("Stegovore",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(95,
                         95,
                         125,

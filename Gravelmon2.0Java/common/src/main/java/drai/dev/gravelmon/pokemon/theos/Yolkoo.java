@@ -8,7 +8,7 @@ import java.util.*;
 public class Yolkoo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Yolkoo() {
         super("Chickoo",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(50,
                         40,
                         40,

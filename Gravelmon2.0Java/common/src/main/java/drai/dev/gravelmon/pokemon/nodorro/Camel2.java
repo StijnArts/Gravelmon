@@ -58,7 +58,7 @@ import java.util.*;
 public class Camel2 extends drai.dev.gravelmon.pokemon.Pokemon {
     public Camel2() {
         super("Camel2",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(100,
                         75,
                         100,

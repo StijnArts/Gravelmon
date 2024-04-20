@@ -58,7 +58,7 @@ import java.util.*;
 public class Gargamin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gargamin() {
         super("Gargamin",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

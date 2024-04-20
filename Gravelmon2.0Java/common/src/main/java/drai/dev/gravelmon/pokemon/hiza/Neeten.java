@@ -7,7 +7,7 @@ import java.util.*;
 public class Neeten extends drai.dev.gravelmon.pokemon.Pokemon {
     public Neeten() {
         super("Neeten",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(50,
                         65,
                         40,

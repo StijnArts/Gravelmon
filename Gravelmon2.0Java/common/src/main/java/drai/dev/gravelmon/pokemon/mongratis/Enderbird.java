@@ -58,7 +58,7 @@ import java.util.*;
 public class Enderbird extends drai.dev.gravelmon.pokemon.Pokemon {
     public Enderbird() {
         super("Enderbird",
-                Type.GHOST,Type.POISON,
+                Type.GHOST, Type.POISON,
                 new Stats(0,
                         0,
                         0,

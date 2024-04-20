@@ -7,7 +7,7 @@ import java.util.*;
 public class Hydrotaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hydrotaur() {
         super("Hydrotaur",
-                Type.WATER,Type.FIGHTING,
+                Type.WATER, Type.FIGHTING,
                 new Stats(80,
                         108,
                         82,

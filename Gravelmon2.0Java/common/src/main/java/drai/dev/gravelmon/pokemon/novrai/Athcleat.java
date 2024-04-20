@@ -7,7 +7,7 @@ import java.util.*;
 public class Athcleat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Athcleat() {
         super("Athcleat",
-                Type.FIGHTING,Type.GROUND,
+                Type.FIGHTING, Type.GROUND,
                 new Stats(68,
                         122,
                         85,

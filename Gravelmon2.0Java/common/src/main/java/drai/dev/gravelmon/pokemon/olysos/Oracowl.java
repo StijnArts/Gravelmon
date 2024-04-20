@@ -58,7 +58,7 @@ import java.util.*;
 public class Oracowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oracowl() {
         super("Oracowl",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

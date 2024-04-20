@@ -58,7 +58,7 @@ import java.util.*;
 public class Adhesnail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Adhesnail() {
         super("Adhesnail",
-                Type.POISON,Type.STEEL,
+                Type.POISON, Type.STEEL,
                 new Stats(100,
                         70,
                         110,

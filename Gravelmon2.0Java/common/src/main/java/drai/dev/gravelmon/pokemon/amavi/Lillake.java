@@ -8,7 +8,7 @@ import java.util.*;
 public class Lillake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lillake() {
         super("Lillake",
-                Type.WATER,Type.GRASS,
+                Type.WATER, Type.GRASS,
                 new Stats(100,
                         50,
                         80,
@@ -17,7 +17,7 @@ public class Lillake extends drai.dev.gravelmon.pokemon.Pokemon {
                         45),
                 List.of(Ability.WATER_ABSORB), Ability.RAIN_DISH,
                 12, 0,
-                new Stats(1,0,0,0,1,0), 0,
+                new Stats(1,0,0,0,1,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

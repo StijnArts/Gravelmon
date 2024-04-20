@@ -7,7 +7,7 @@ import java.util.*;
 public class Glacyte extends drai.dev.gravelmon.pokemon.Pokemon {
     public Glacyte() {
         super("Glacyte",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(65,
                         55,
                         95,

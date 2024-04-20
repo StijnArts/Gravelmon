@@ -6,7 +6,7 @@ import java.util.*;
 public class Arantula extends drai.dev.gravelmon.pokemon.Pokemon {
     public Arantula() {
         super("Arantula",
-                Type.GHOST,Type.BUG,
+                Type.GHOST, Type.BUG,
                 new Stats(0,
                         0,
                         0,

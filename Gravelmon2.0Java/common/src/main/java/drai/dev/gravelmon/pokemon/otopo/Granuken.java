@@ -58,7 +58,7 @@ import java.util.*;
 public class Granuken extends drai.dev.gravelmon.pokemon.Pokemon {
     public Granuken() {
         super("Granuken",
-                Type.GROUND,Type.ROCK,
+                Type.GROUND, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

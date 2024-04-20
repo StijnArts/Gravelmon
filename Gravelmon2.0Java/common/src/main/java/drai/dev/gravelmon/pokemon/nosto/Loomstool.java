@@ -7,7 +7,7 @@ import java.util.*;
 public class Loomstool extends drai.dev.gravelmon.pokemon.Pokemon {
     public Loomstool() {
         super("Loomstool",
-                Type.GRASS,Type.PSYCHIC,
+                Type.GRASS, Type.PSYCHIC,
                 new Stats(50,
                         40,
                         45,

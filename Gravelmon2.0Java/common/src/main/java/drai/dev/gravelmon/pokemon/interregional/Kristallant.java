@@ -7,7 +7,7 @@ import java.util.*;
 public class Kristallant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kristallant() {
         super("Kristallant",
-                Type.BUG,Type.ROCK,
+                Type.BUG, Type.ROCK,
                 new Stats(45,
                         25,
                         95,

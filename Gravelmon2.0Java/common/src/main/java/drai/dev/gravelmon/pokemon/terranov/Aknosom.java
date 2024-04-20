@@ -58,7 +58,7 @@ import java.util.*;
 public class Aknosom extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aknosom() {
         super("Aknosom",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Twisbee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Twisbee() {
         super("Twisbee",
-                Type.BUG,Type.GRASS,
+                Type.BUG, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

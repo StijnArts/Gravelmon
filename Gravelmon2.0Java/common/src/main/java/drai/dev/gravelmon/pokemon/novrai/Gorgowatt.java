@@ -7,7 +7,7 @@ import java.util.*;
 public class Gorgowatt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gorgowatt() {
         super("Gorgowatt",
-                Type.ROCK,Type.ELECTRIC,
+                Type.ROCK, Type.ELECTRIC,
                 new Stats(96,
                         41,
                         74,

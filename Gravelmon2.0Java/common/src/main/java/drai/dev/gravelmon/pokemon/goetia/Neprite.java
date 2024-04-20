@@ -58,7 +58,7 @@ import java.util.*;
 public class Neprite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Neprite() {
         super("Neprite",
-                Type.FAIRY,Type.GRASS,
+                Type.FAIRY, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Baobash extends drai.dev.gravelmon.pokemon.Pokemon {
     public Baobash() {
         super("Baobash",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(95,
                         100,
                         85,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Psyfan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psyfan() {
         super("Psyfan",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(65,
                         75,
                         80,

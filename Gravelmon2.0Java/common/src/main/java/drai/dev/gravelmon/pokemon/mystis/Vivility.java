@@ -58,7 +58,7 @@ import java.util.*;
 public class Vivility extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vivility() {
         super("Vivility",
-                Type.FLYING,Type.GRASS,
+                Type.FLYING, Type.GRASS,
                 new Stats(110,
                         90,
                         100,

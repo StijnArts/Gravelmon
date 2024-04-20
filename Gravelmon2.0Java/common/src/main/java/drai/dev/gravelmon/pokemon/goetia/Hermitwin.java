@@ -58,7 +58,7 @@ import java.util.*;
 public class Hermitwin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hermitwin() {
         super("Hermitwin",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Armanzer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Armanzer() {
         super("Armanzer",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(95,
                         95,
                         195,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Urbigeon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Urbigeon() {
         super("Urbigeon",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

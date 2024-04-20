@@ -18,7 +18,7 @@ import java.util.*;
 public class NeoTurtwig extends drai.dev.gravelmon.pokemon.Pokemon {
     public NeoTurtwig(int dex) {
         super(dex, "Turtwig",
-                Type.FAIRY,Type.GROUND,
+                Type.FAIRY, Type.GROUND,
                 new Stats(55,
                         55,
                         55,

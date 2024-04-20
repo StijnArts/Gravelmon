@@ -18,7 +18,7 @@ import java.util.*;
 public class NeoZubat extends drai.dev.gravelmon.pokemon.Pokemon {
     public NeoZubat(int dex) {
         super(dex, "Zubat",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(50,
                         55,
                         35,

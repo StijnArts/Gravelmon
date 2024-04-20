@@ -8,7 +8,7 @@ import java.util.*;
 public class Tanklyo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tanklyo() {
         super("Tanklyo",
-                Type.GRASS,Type.ROCK,
+                Type.GRASS, Type.ROCK,
                 new Stats(95,
                         120,
                         140,

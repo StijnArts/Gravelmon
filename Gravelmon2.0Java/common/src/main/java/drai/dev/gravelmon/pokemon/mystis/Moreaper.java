@@ -58,7 +58,7 @@ import java.util.*;
 public class Moreaper extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moreaper() {
         super("Moreaper",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(70,
                         60,
                         50,

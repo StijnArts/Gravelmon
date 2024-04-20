@@ -58,7 +58,7 @@ import java.util.*;
 public class Psyzul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Psyzul() {
         super("Psyzul",
-                Type.FLYING,Type.PSYCHIC,
+                Type.FLYING, Type.PSYCHIC,
                 new Stats(65,
                         55,
                         50,

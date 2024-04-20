@@ -58,7 +58,7 @@ import java.util.*;
 public class Serpendage extends drai.dev.gravelmon.pokemon.Pokemon {
     public Serpendage() {
         super("Serpendage",
-                Type.GHOST,Type.ICE,
+                Type.GHOST, Type.ICE,
                 new Stats(65,
                         120,
                         55,

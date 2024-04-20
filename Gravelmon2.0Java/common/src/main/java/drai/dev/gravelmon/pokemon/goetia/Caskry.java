@@ -58,7 +58,7 @@ import java.util.*;
 public class Caskry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Caskry() {
         super("Caskry",
-                Type.GHOST,Type.ROCK,
+                Type.GHOST, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

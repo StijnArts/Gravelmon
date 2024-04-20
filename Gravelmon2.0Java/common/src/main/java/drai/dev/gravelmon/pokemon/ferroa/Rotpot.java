@@ -7,7 +7,7 @@ import java.util.*;
 public class Rotpot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Rotpot() {
         super("Rotpot",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(75,
                         65,
                         105,

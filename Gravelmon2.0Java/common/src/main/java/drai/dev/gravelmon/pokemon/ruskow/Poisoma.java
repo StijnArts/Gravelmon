@@ -58,7 +58,7 @@ import java.util.*;
 public class Poisoma extends drai.dev.gravelmon.pokemon.Pokemon {
     public Poisoma() {
         super("Poisoma",
-                Type.POISON,Type.GROUND,
+                Type.POISON, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

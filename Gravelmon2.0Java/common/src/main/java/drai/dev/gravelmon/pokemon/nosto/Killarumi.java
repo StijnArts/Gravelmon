@@ -7,7 +7,7 @@ import java.util.*;
 public class Killarumi extends drai.dev.gravelmon.pokemon.Pokemon {
     public Killarumi() {
         super("Killarumi",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(49,
                         40,
                         109,

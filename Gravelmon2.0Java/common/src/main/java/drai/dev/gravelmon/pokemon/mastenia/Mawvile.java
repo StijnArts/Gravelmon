@@ -58,7 +58,7 @@ import java.util.*;
 public class Mawvile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mawvile() {
         super("Mawvile",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

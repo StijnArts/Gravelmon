@@ -9,7 +9,7 @@ import java.util.*;
 public class Kittry extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kittry() {
         super("Kittry",
-                Type.FAIRY,Type.NORMAL,
+                Type.FAIRY, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

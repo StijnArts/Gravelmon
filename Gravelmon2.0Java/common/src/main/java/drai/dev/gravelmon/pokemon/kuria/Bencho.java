@@ -58,7 +58,7 @@ import java.util.*;
 public class Bencho extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bencho() {
         super("Bencho",
-                Type.WATER,Type.FIGHTING,
+                Type.WATER, Type.FIGHTING,
                 new Stats(77,
                         116,
                         95,

@@ -8,7 +8,7 @@ import java.util.*;
 public class Aquariell extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aquariell() {
         super("Aquariell",
-                Type.WATER,Type.FAIRY,
+                Type.WATER, Type.FAIRY,
                 new Stats(100,
                         65,
                         80,
@@ -17,7 +17,7 @@ public class Aquariell extends drai.dev.gravelmon.pokemon.Pokemon {
                         20),
                 List.of(Ability.MARVEL_SCALE), Ability.MARVEL_SCALE,
                 14, 1950,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

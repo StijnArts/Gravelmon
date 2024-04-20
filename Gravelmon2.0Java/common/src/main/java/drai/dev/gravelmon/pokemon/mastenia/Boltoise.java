@@ -58,7 +58,7 @@ import java.util.*;
 public class Boltoise extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boltoise() {
         super("Boltoise",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(84,
                         133,
                         100,

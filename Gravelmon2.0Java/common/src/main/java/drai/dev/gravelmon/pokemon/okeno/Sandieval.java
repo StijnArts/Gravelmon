@@ -6,7 +6,7 @@ import java.util.*;
 public class Sandieval extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sandieval() {
         super("Sandieval",
-                Type.GROUND,Type.WATER,
+                Type.GROUND, Type.WATER,
                 new Stats(77,
                         80,
                         200,

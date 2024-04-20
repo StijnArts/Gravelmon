@@ -7,7 +7,7 @@ import java.util.*;
 public class Mesmoth extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mesmoth() {
         super("Mesmoth",
-                Type.BUG,Type.PSYCHIC,
+                Type.BUG, Type.PSYCHIC,
                 new Stats(73,
                         53,
                         53,

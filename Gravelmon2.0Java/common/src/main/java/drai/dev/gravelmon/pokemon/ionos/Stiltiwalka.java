@@ -58,7 +58,7 @@ import java.util.*;
 public class Stiltiwalka extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stiltiwalka() {
         super("Stiltiwalka",
-                Type.PSYCHIC,Type.GHOST,
+                Type.PSYCHIC, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

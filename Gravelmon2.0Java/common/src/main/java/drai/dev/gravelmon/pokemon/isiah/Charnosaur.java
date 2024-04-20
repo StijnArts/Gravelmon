@@ -7,7 +7,7 @@ import java.util.*;
 public class Charnosaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Charnosaur() {
         super("Charnosaur",
-                Type.ROCK,Type.FIRE,
+                Type.ROCK, Type.FIRE,
                 new Stats(60,
                         110,
                         77,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Derpants extends drai.dev.gravelmon.pokemon.Pokemon {
     public Derpants() {
         super("Derpants",
-                Type.POISON,Type.NORMAL,
+                Type.POISON, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

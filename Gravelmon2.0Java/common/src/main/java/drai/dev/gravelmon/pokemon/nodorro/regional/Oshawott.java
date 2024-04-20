@@ -58,7 +58,7 @@ import java.util.*;
 public class Oshawott extends drai.dev.gravelmon.pokemon.Pokemon {
     public Oshawott(int dex) {
         super(dex, "Oshawott",
-                Type.WATER,Type.GHOST,
+                Type.WATER, Type.GHOST,
                 new Stats(58,
                         50,
                         43,

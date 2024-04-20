@@ -58,7 +58,7 @@ import java.util.*;
 public class Prudexwell extends drai.dev.gravelmon.pokemon.Pokemon {
     public Prudexwell() {
         super("Prudexwell",
-                Type.GHOST,Type.LIGHT,
+                Type.GHOST, Type.LIGHT,
                 new Stats(80,
                         70,
                         65,

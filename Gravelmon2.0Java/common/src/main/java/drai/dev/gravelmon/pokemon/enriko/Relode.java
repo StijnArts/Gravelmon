@@ -7,7 +7,7 @@ import java.util.*;
 public class Relode extends drai.dev.gravelmon.pokemon.Pokemon {
     public Relode() {
         super("Relode",
-                Type.STEEL,Type.ROCK,
+                Type.STEEL, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

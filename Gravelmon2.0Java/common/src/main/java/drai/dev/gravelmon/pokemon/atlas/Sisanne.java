@@ -7,7 +7,7 @@ import java.util.*;
 public class Sisanne extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sisanne() {
         super("Sisanne",
-                Type.PSYCHIC,Type.FAIRY,
+                Type.PSYCHIC, Type.FAIRY,
                 new Stats(73,
                         48,
                         48,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Safauna extends drai.dev.gravelmon.pokemon.Pokemon {
     public Safauna() {
         super("Safauna",
-                Type.FAIRY,Type.FIGHTING,
+                Type.FAIRY, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

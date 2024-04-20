@@ -9,7 +9,7 @@ import java.util.*;
 public class Aleglarlure extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aleglarlure() {
         super("Aleglarlure",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(75,
                         124,
                         95,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Hairibble extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hairibble() {
         super("Hairibble",
-                Type.GROUND,Type.POISON,
+                Type.GROUND, Type.POISON,
                 new Stats(52,
                         79,
                         64,

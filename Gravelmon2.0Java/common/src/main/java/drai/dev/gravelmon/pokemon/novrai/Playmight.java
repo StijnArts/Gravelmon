@@ -7,7 +7,7 @@ import java.util.*;
 public class Playmight extends drai.dev.gravelmon.pokemon.Pokemon {
     public Playmight() {
         super("Playmight",
-                Type.FIGHTING,Type.ROCK,
+                Type.FIGHTING, Type.ROCK,
                 new Stats(77,
                         77,
                         93,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Ferasquab extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ferasquab() {
         super("Ferasquab",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

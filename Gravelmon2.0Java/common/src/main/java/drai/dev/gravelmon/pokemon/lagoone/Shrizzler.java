@@ -58,7 +58,7 @@ import java.util.*;
 public class Shrizzler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shrizzler() {
         super("Shrizzler",
-                Type.FIRE,Type.WATER,
+                Type.FIRE, Type.WATER,
                 new Stats(35,
                         50,
                         44,

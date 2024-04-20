@@ -58,7 +58,7 @@ import java.util.*;
 public class Wooper extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wooper(int dex) {
         super(dex, "Wooper",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(55,
                         25,
                         25,

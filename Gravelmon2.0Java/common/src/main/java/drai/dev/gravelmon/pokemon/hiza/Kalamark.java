@@ -7,7 +7,7 @@ import java.util.*;
 public class Kalamark extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kalamark() {
         super("Kalamark",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(65,
                         125,
                         60,

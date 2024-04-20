@@ -58,7 +58,7 @@ import java.util.*;
 public class Shroomlet extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shroomlet() {
         super("Shroomlet",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(60,
                         30,
                         20,

@@ -9,7 +9,7 @@ import java.util.*;
 public class Mountox extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mountox() {
         super("Mountox",
-                Type.GROUND,Type.ICE,
+                Type.GROUND, Type.ICE,
                 new Stats(0,
                         0,
                         0,

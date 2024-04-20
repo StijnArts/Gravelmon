@@ -7,7 +7,7 @@ import java.util.*;
 public class Carriannon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carriannon() {
         super("Carriannon",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(99,
                         68,
                         71,

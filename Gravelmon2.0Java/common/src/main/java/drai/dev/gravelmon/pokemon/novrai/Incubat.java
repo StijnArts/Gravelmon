@@ -7,7 +7,7 @@ import java.util.*;
 public class Incubat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Incubat() {
         super("Incubat",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(66,
                         72,
                         58,

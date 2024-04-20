@@ -58,7 +58,7 @@ import java.util.*;
 public class Statikub extends drai.dev.gravelmon.pokemon.Pokemon {
     public Statikub() {
         super("Statikub",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

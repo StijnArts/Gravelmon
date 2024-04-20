@@ -7,7 +7,7 @@ import java.util.*;
 public class Hogstead extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hogstead() {
         super("Hogstead",
-                Type.FAIRY,Type.ICE,
+                Type.FAIRY, Type.ICE,
                 new Stats(114,
                         95,
                         110,

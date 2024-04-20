@@ -6,7 +6,7 @@ import java.util.*;
 public class Alpeak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Alpeak() {
         super("Alpeak",
-                Type.NORMAL,Type.ICE,
+                Type.NORMAL, Type.ICE,
                 new Stats(102,
                         94,
                         90,

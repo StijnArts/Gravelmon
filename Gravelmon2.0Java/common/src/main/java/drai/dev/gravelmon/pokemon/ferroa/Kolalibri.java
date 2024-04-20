@@ -7,7 +7,7 @@ import java.util.*;
 public class Kolalibri extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kolalibri() {
         super("Kolalibri",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(60,
                         100,
                         70,

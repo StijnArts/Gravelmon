@@ -58,7 +58,7 @@ import java.util.*;
 public class Protagobits extends drai.dev.gravelmon.pokemon.Pokemon {
     public Protagobits() {
         super("Protagobits",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(70,
                         80,
                         115,

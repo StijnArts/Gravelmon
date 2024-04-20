@@ -7,7 +7,7 @@ import java.util.*;
 public class Cacold extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cacold() {
         super("Cacold",
-                Type.ICE,Type.BUG,
+                Type.ICE, Type.BUG,
                 new Stats(90,
                         68,
                         72,

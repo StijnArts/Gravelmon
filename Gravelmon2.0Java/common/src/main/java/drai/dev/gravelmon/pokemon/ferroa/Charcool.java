@@ -7,7 +7,7 @@ import java.util.*;
 public class Charcool extends drai.dev.gravelmon.pokemon.Pokemon {
     public Charcool() {
         super("Charcool",
-                Type.ROCK,Type.GRASS,
+                Type.ROCK, Type.GRASS,
                 new Stats(70,
                         100,
                         90,

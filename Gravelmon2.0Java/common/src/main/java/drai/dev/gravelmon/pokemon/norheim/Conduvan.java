@@ -9,7 +9,7 @@ import java.util.*;
 public class Conduvan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Conduvan() {
         super("Conduvan",
-                Type.STEEL,Type.NORMAL,
+                Type.STEEL, Type.NORMAL,
                 new Stats(157,
                         81,
                         101,

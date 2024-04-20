@@ -6,7 +6,7 @@ import java.util.*;
 public class Carcaheat extends drai.dev.gravelmon.pokemon.Pokemon {
     public Carcaheat() {
         super("Carcaheat",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(37,
                         77,
                         37,

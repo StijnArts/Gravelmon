@@ -11,7 +11,7 @@ import java.util.*;
 public class Tarift extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tarift() {
         super("Tarift",
-                Type.GROUND,Type.DRAGON,
+                Type.GROUND, Type.DRAGON,
                 new Stats(40,
                         65,
                         110,

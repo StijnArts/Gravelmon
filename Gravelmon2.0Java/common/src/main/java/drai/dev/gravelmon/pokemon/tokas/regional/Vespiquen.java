@@ -58,7 +58,7 @@ import java.util.*;
 public class Vespiquen extends drai.dev.gravelmon.pokemon.Pokemon {
     public Vespiquen(int dex) {
         super(dex, "Vespiquen",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(70,
                         80,
                         102,

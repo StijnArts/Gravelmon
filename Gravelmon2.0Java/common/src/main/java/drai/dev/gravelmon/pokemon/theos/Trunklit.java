@@ -58,7 +58,7 @@ import java.util.*;
 public class Trunklit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trunklit() {
         super("Trunklit",
-                Type.FIRE,Type.GROUND,
+                Type.FIRE, Type.GROUND,
                 new Stats(80,
                         45,
                         70,

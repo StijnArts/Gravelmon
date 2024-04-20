@@ -58,7 +58,7 @@ import java.util.*;
 public class Eaglory extends drai.dev.gravelmon.pokemon.Pokemon {
     public Eaglory() {
         super("Eaglory",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

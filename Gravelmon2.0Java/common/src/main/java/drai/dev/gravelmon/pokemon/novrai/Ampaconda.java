@@ -7,7 +7,7 @@ import java.util.*;
 public class Ampaconda extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ampaconda() {
         super("Ampaconda",
-                Type.GROUND,Type.ELECTRIC,
+                Type.GROUND, Type.ELECTRIC,
                 new Stats(98,
                         112,
                         87,

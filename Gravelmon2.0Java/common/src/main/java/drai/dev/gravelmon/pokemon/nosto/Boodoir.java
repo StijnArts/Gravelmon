@@ -7,7 +7,7 @@ import java.util.*;
 public class Boodoir extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boodoir() {
         super("Boodoir",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(80,
                         100,
                         90,

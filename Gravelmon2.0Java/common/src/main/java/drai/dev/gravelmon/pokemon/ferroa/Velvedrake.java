@@ -7,7 +7,7 @@ import java.util.*;
 public class Velvedrake extends drai.dev.gravelmon.pokemon.Pokemon {
     public Velvedrake() {
         super("Velvedrake",
-                Type.ICE,Type.DRAGON,
+                Type.ICE, Type.DRAGON,
                 new Stats(110,
                         65,
                         70,

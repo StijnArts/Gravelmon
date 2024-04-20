@@ -58,7 +58,7 @@ import java.util.*;
 public class Scrafty extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scrafty(int dex) {
         super(dex, "Scrafty",
-                Type.DARK,Type.FIGHTING,
+                Type.DARK, Type.FIGHTING,
                 new Stats(65,
                         90,
                         115,

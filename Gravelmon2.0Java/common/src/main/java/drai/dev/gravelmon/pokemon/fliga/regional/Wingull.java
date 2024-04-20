@@ -58,7 +58,7 @@ import java.util.*;
 public class Wingull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wingull(int dex) {
         super(dex, "Wingull",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(40,
                         30,
                         30,

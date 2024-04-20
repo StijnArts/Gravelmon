@@ -58,7 +58,7 @@ import java.util.*;
 public class Effighast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Effighast() {
         super("Effighast",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Cleocatra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cleocatra() {
         super("Cleocatra",
-                Type.NORMAL,Type.PSYCHIC,
+                Type.NORMAL, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

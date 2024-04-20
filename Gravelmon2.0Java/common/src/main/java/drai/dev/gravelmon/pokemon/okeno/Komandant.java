@@ -6,7 +6,7 @@ import java.util.*;
 public class Komandant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Komandant() {
         super("Komandant",
-                Type.BUG,Type.STEEL,
+                Type.BUG, Type.STEEL,
                 new Stats(75,
                         124,
                         135,

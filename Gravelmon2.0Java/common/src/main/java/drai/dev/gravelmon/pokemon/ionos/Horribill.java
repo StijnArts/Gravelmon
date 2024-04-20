@@ -58,7 +58,7 @@ import java.util.*;
 public class Horribill extends drai.dev.gravelmon.pokemon.Pokemon {
     public Horribill() {
         super("Horribill",
-                Type.DARK,Type.FLYING,
+                Type.DARK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

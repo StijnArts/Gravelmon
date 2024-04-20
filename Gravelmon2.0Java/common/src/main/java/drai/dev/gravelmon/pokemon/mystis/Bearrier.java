@@ -58,7 +58,7 @@ import java.util.*;
 public class Bearrier extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bearrier() {
         super("Bearrier",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(70,
                         50,
                         80,

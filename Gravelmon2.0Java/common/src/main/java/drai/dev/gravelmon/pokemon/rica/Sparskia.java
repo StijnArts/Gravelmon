@@ -9,7 +9,7 @@ import java.util.*;
 public class Sparskia extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sparskia() {
         super("Sparskia",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(65,
                         90,
                         62,

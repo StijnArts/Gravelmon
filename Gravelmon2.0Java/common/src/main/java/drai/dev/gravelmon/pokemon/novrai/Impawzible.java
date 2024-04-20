@@ -7,7 +7,7 @@ import java.util.*;
 public class Impawzible extends drai.dev.gravelmon.pokemon.Pokemon {
     public Impawzible() {
         super("Impawzible",
-                Type.DARK,Type.FAIRY,
+                Type.DARK, Type.FAIRY,
                 new Stats(61,
                         49,
                         48,

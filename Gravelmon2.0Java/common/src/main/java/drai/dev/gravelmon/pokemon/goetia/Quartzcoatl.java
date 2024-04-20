@@ -58,7 +58,7 @@ import java.util.*;
 public class Quartzcoatl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quartzcoatl() {
         super("Quartzcoatl",
-                Type.ROCK,Type.FLYING,
+                Type.ROCK, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Ryuvern extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ryuvern() {
         super("Ryuvern",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(110,
                         118,
                         92,

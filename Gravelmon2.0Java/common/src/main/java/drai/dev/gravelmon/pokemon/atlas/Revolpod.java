@@ -7,7 +7,7 @@ import java.util.*;
 public class Revolpod extends drai.dev.gravelmon.pokemon.Pokemon {
     public Revolpod() {
         super("Revolpod",
-                Type.BUG,Type.FIGHTING,
+                Type.BUG, Type.FIGHTING,
                 new Stats(55,
                         95,
                         100,

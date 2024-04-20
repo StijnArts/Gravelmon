@@ -58,7 +58,7 @@ import java.util.*;
 public class Astrowl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Astrowl() {
         super("Astrowl",
-                Type.PSYCHIC,Type.FLYING,
+                Type.PSYCHIC, Type.FLYING,
                 new Stats(74,
                         53,
                         55,

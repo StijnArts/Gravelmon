@@ -7,7 +7,7 @@ import java.util.*;
 public class Decomposite extends drai.dev.gravelmon.pokemon.Pokemon {
     public Decomposite() {
         super("Decomposite",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(70,
                         115,
                         60,

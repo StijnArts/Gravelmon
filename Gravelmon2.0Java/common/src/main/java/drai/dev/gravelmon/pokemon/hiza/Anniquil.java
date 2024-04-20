@@ -7,7 +7,7 @@ import java.util.*;
 public class Anniquil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anniquil() {
         super("Anniquil",
-                Type.POISON,Type.NORMAL,
+                Type.POISON, Type.NORMAL,
                 new Stats(55,
                         90,
                         90,

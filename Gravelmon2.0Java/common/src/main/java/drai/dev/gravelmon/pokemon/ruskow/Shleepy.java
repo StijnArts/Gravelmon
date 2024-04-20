@@ -58,7 +58,7 @@ import java.util.*;
 public class Shleepy extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shleepy() {
         super("Shleepy",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

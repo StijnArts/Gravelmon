@@ -58,7 +58,7 @@ import java.util.*;
 public class Lotiluna extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lotiluna() {
         super("Lotiluna",
-                Type.WATER,Type.BUG,
+                Type.WATER, Type.BUG,
                 new Stats(0,
                         0,
                         0,

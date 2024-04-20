@@ -58,7 +58,7 @@ import java.util.*;
 public class Furrbee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Furrbee() {
         super("Furrbee",
-                Type.BUG,Type.FLYING,
+                Type.BUG, Type.FLYING,
                 new Stats(90,
                         50,
                         60,

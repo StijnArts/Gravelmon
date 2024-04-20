@@ -13,7 +13,7 @@ import java.util.*;
 public class Pierceed extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pierceed() {
         super("Pierceed",
-                Type.GRASS,Type.FIGHTING,
+                Type.GRASS, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Shockatiel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shockatiel() {
         super("Shockatiel",
-                Type.ELECTRIC,Type.FLYING,
+                Type.ELECTRIC, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

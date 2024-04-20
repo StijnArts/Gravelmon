@@ -58,7 +58,7 @@ import java.util.*;
 public class Abyssmulk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Abyssmulk() {
         super("Abyssmulk",
-                Type.DARK,Type.ELECTRIC,
+                Type.DARK, Type.ELECTRIC,
                 new Stats(145,
                         98,
                         77,

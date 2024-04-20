@@ -9,7 +9,7 @@ import java.util.*;
 public class Buarajee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buarajee() {
         super("Buarajee",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(110,
                         130,
                         100,

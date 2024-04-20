@@ -9,7 +9,7 @@ import java.util.*;
 public class Seascull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Seascull() {
         super("Seascull",
-                Type.POISON,Type.FLYING,
+                Type.POISON, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

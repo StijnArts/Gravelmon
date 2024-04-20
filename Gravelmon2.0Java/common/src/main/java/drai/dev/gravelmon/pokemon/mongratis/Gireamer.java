@@ -58,7 +58,7 @@ import java.util.*;
 public class Gireamer extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gireamer() {
         super("Gireamer",
-                Type.PSYCHIC,Type.NORMAL,
+                Type.PSYCHIC, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

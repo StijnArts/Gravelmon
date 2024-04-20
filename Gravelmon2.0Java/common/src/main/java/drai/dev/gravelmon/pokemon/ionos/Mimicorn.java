@@ -58,7 +58,7 @@ import java.util.*;
 public class Mimicorn extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mimicorn() {
         super("Mimicorn",
-                Type.DARK,Type.GRASS,
+                Type.DARK, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

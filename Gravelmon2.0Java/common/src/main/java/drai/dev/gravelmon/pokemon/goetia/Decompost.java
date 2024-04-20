@@ -58,7 +58,7 @@ import java.util.*;
 public class Decompost extends drai.dev.gravelmon.pokemon.Pokemon {
     public Decompost() {
         super("Decompost",
-                Type.GROUND,Type.GHOST,
+                Type.GROUND, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

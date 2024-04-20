@@ -58,7 +58,7 @@ import java.util.*;
 public class Mamoswine extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mamoswine(int dex) {
         super(dex, "Mamoswine",
-                Type.ICE,Type.GROUND,
+                Type.ICE, Type.GROUND,
                 new Stats(110,
                         130,
                         80,

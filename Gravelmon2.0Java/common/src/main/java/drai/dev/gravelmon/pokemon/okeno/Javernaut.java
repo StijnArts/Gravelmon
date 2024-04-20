@@ -6,7 +6,7 @@ import java.util.*;
 public class Javernaut extends drai.dev.gravelmon.pokemon.Pokemon {
     public Javernaut() {
         super("Javernaut",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(110,
                         125,
                         80,

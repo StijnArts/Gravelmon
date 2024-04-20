@@ -7,7 +7,7 @@ import java.util.*;
 public class Stargazaur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stargazaur() {
         super("Stargazaur",
-                Type.PSYCHIC,Type.DRAGON,
+                Type.PSYCHIC, Type.DRAGON,
                 new Stats(80,
                         58,
                         72,

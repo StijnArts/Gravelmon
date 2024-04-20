@@ -58,7 +58,7 @@ import java.util.*;
 public class Grizzwave extends drai.dev.gravelmon.pokemon.Pokemon {
     public Grizzwave() {
         super("Grizzwave",
-                Type.SOUND,Type.DARK,
+                Type.SOUND, Type.DARK,
                 new Stats(90,
                         100,
                         50,

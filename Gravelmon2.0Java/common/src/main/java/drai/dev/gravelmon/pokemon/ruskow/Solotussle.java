@@ -58,7 +58,7 @@ import java.util.*;
 public class Solotussle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Solotussle() {
         super("Solotussle",
-                Type.ROCK,Type.FIGHTING,
+                Type.ROCK, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

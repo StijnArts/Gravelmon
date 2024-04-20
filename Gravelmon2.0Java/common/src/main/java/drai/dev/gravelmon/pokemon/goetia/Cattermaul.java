@@ -58,7 +58,7 @@ import java.util.*;
 public class Cattermaul extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cattermaul() {
         super("Cattermaul",
-                Type.BUG,Type.POISON,
+                Type.BUG, Type.POISON,
                 new Stats(0,
                         0,
                         0,

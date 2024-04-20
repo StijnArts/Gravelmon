@@ -8,7 +8,7 @@ import java.util.*;
 public class Apocolisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Apocolisk() {
         super("Apocolisk",
-                Type.DRAGON,Type.DARK,
+                Type.DRAGON, Type.DARK,
                 new Stats(200,
                         200,
                         200,

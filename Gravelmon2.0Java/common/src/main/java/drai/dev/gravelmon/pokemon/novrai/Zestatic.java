@@ -7,7 +7,7 @@ import java.util.*;
 public class Zestatic extends drai.dev.gravelmon.pokemon.Pokemon {
     public Zestatic() {
         super("Zestatic",
-                Type.ELECTRIC,Type.GRASS,
+                Type.ELECTRIC, Type.GRASS,
                 new Stats(65,
                         45,
                         75,

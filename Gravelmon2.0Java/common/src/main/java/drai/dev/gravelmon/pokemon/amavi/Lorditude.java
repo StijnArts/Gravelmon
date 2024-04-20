@@ -8,7 +8,7 @@ import java.util.*;
 public class Lorditude extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lorditude() {
         super("Lorditude",
-                Type.NORMAL,Type.STEEL,
+                Type.NORMAL, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

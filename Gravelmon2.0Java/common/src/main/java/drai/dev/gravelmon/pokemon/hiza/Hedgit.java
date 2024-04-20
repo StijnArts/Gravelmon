@@ -7,7 +7,7 @@ import java.util.*;
 public class Hedgit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hedgit() {
         super("Hedgit",
-                Type.GRASS,Type.STEEL,
+                Type.GRASS, Type.STEEL,
                 new Stats(30,
                         70,
                         80,

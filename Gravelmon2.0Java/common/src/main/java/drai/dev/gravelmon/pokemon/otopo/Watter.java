@@ -58,7 +58,7 @@ import java.util.*;
 public class Watter extends drai.dev.gravelmon.pokemon.Pokemon {
     public Watter() {
         super("Watter",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(55,
                         67,
                         43,

@@ -58,7 +58,7 @@ import java.util.*;
 public class Embay extends drai.dev.gravelmon.pokemon.Pokemon {
     public Embay() {
         super("Embay",
-                Type.FIRE,Type.FAIRY,
+                Type.FIRE, Type.FAIRY,
                 new Stats(44,
                         35,
                         35,

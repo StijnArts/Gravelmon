@@ -9,7 +9,7 @@ import java.util.*;
 public class Gorsylum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gorsylum() {
         super("Gorsylum",
-                Type.GHOST,Type.DRAGON,
+                Type.GHOST, Type.DRAGON,
                 new Stats(90,
                         150,
                         104,

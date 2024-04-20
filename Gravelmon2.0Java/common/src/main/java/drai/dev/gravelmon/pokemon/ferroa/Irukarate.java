@@ -7,7 +7,7 @@ import java.util.*;
 public class Irukarate extends drai.dev.gravelmon.pokemon.Pokemon {
     public Irukarate() {
         super("Irukarate",
-                Type.FIGHTING,Type.ELECTRIC,
+                Type.FIGHTING, Type.ELECTRIC,
                 new Stats(65,
                         95,
                         60,

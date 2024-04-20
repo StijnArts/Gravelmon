@@ -9,7 +9,7 @@ import java.util.*;
 public class Tadit extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tadit() {
         super("Tadit",
-                Type.WATER,Type.NORMAL,
+                Type.WATER, Type.NORMAL,
                 new Stats(40,
                         45,
                         40,

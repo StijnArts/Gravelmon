@@ -58,7 +58,7 @@ import java.util.*;
 public class Lushan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lushan() {
         super("Lushan",
-                Type.ROCK,Type.LIGHT,
+                Type.ROCK, Type.LIGHT,
                 new Stats(86,
                         70,
                         114,

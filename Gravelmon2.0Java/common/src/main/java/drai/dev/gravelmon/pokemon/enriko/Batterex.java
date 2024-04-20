@@ -7,7 +7,7 @@ import java.util.*;
 public class Batterex extends drai.dev.gravelmon.pokemon.Pokemon {
     public Batterex() {
         super("Batterex",
-                Type.DRAGON,Type.ELECTRIC,
+                Type.DRAGON, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

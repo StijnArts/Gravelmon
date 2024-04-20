@@ -58,7 +58,7 @@ import java.util.*;
 public class Monstauk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Monstauk() {
         super("Monstauk",
-                Type.GHOST,Type.WATER,
+                Type.GHOST, Type.WATER,
                 new Stats(0,
                         0,
                         0,

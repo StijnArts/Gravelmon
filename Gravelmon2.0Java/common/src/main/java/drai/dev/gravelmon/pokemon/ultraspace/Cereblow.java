@@ -58,7 +58,7 @@ import java.util.*;
 public class Cereblow extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cereblow() {
         super("Cereblow",
-                Type.FIRE,Type.GHOST,
+                Type.FIRE, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

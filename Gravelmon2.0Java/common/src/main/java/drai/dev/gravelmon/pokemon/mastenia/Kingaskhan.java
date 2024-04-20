@@ -58,7 +58,7 @@ import java.util.*;
 public class Kingaskhan extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kingaskhan() {
         super("Kingaskhan",
-                Type.FIGHTING,Type.NORMAL,
+                Type.FIGHTING, Type.NORMAL,
                 new Stats(100,
                         120,
                         90,

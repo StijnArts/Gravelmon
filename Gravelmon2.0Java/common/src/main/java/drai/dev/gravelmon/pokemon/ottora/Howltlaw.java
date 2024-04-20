@@ -58,7 +58,7 @@ import java.util.*;
 public class Howltlaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Howltlaw() {
         super("Howltlaw",
-                Type.GROUND,Type.DARK,
+                Type.GROUND, Type.DARK,
                 new Stats(0,
                         0,
                         0,

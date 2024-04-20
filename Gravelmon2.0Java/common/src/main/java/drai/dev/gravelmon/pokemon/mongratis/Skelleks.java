@@ -58,7 +58,7 @@ import java.util.*;
 public class Skelleks extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skelleks() {
         super("Skelleks",
-                Type.GHOST,Type.ELECTRIC,
+                Type.GHOST, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

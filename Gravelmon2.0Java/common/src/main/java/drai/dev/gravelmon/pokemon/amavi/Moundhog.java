@@ -8,7 +8,7 @@ import java.util.*;
 public class Moundhog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moundhog() {
         super("Moundhog",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(60,
                         40,
                         60,
@@ -17,7 +17,7 @@ public class Moundhog extends drai.dev.gravelmon.pokemon.Pokemon {
                         68),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 4, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 210,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

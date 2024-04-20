@@ -7,7 +7,7 @@ import java.util.*;
 public class Colibeak extends drai.dev.gravelmon.pokemon.Pokemon {
     public Colibeak() {
         super("Colibeak",
-                Type.FAIRY,Type.FLYING,
+                Type.FAIRY, Type.FLYING,
                 new Stats(30,
                         20,
                         40,

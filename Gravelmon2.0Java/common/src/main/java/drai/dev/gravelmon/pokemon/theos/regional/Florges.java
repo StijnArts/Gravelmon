@@ -58,7 +58,7 @@ import java.util.*;
 public class Florges extends drai.dev.gravelmon.pokemon.Pokemon {
     public Florges(int dex) {
         super(dex, "Florges",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(78,
                         65,
                         68,

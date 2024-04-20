@@ -58,7 +58,7 @@ import java.util.*;
 public class Gingerbeard extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gingerbeard() {
         super("Gingerbeard",
-                Type.FAIRY,Type.DARK,
+                Type.FAIRY, Type.DARK,
                 new Stats(70,
                         105,
                         75,

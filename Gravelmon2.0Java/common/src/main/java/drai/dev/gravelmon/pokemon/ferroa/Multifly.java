@@ -7,7 +7,7 @@ import java.util.*;
 public class Multifly extends drai.dev.gravelmon.pokemon.Pokemon {
     public Multifly() {
         super("Multifly",
-                Type.BUG,Type.DARK,
+                Type.BUG, Type.DARK,
                 new Stats(75,
                         62,
                         50,

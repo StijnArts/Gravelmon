@@ -7,7 +7,7 @@ import java.util.*;
 public class Terrobalt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Terrobalt() {
         super("Terrobalt",
-                Type.STEEL,Type.FLYING,
+                Type.STEEL, Type.FLYING,
                 new Stats(77,
                         96,
                         113,

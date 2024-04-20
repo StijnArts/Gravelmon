@@ -7,7 +7,7 @@ import java.util.*;
 public class Cerebarrel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cerebarrel() {
         super("Cerebarrel",
-                Type.PSYCHIC,Type.WATER,
+                Type.PSYCHIC, Type.WATER,
                 new Stats(47,
                         39,
                         72,

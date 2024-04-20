@@ -9,7 +9,7 @@ import java.util.*;
 public class Waugur extends drai.dev.gravelmon.pokemon.Pokemon {
     public Waugur() {
         super("Waugur",
-                Type.POISON,Type.GHOST,
+                Type.POISON, Type.GHOST,
                 new Stats(60,
                         102,
                         70,

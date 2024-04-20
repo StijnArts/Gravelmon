@@ -7,7 +7,7 @@ import java.util.*;
 public class Diagem extends drai.dev.gravelmon.pokemon.Pokemon {
     public Diagem() {
         super("Diagem",
-                Type.ROCK,Type.PSYCHIC,
+                Type.ROCK, Type.PSYCHIC,
                 new Stats(77,
                         124,
                         100,

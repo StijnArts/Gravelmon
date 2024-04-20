@@ -58,7 +58,7 @@ import java.util.*;
 public class Lunagaron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lunagaron() {
         super("Lunagaron",
-                Type.ICE,Type.DARK,
+                Type.ICE, Type.DARK,
                 new Stats(75,
                         115,
                         100,

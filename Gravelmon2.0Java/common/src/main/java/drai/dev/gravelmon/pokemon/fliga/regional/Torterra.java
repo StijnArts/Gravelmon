@@ -58,7 +58,7 @@ import java.util.*;
 public class Torterra extends drai.dev.gravelmon.pokemon.Pokemon {
     public Torterra(int dex) {
         super(dex, "Torterra",
-                Type.GRASS,Type.GROUND,
+                Type.GRASS, Type.GROUND,
                 new Stats(95,
                         109,
                         105,

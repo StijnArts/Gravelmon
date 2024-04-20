@@ -7,7 +7,7 @@ import java.util.*;
 public class Disastar extends drai.dev.gravelmon.pokemon.Pokemon {
     public Disastar() {
         super("Disastar",
-                Type.DRAGON,Type.GROUND,
+                Type.DRAGON, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

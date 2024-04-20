@@ -7,7 +7,7 @@ import java.util.*;
 public class Ripwreck extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ripwreck() {
         super("Ripwreck",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(100,
                         120,
                         87,

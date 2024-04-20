@@ -58,7 +58,7 @@ import java.util.*;
 public class Galahaus extends drai.dev.gravelmon.pokemon.Pokemon {
     public Galahaus() {
         super("Galahaus",
-                Type.ICE,Type.FAIRY,
+                Type.ICE, Type.FAIRY,
                 new Stats(100,
                         100,
                         100,

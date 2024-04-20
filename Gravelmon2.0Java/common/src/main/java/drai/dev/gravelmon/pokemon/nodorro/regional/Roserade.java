@@ -58,7 +58,7 @@ import java.util.*;
 public class Roserade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Roserade(int dex) {
         super(dex, "Roserade",
-                Type.GRASS,Type.POISON,
+                Type.GRASS, Type.POISON,
                 new Stats(85,
                         70,
                         55,

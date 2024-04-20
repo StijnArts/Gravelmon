@@ -8,7 +8,7 @@ import java.util.*;
 public class Mountiful extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mountiful() {
         super("Mountiful",
-                Type.GROUND,Type.GRASS,
+                Type.GROUND, Type.GRASS,
                 new Stats(82,
                         99,
                         99,
@@ -17,7 +17,7 @@ public class Mountiful extends drai.dev.gravelmon.pokemon.Pokemon {
                         99),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 13, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

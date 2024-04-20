@@ -7,7 +7,7 @@ import java.util.*;
 public class Octomuray extends drai.dev.gravelmon.pokemon.Pokemon {
     public Octomuray() {
         super("Octomuray",
-                Type.STEEL,Type.WATER,
+                Type.STEEL, Type.WATER,
                 new Stats(0,
                         0,
                         0,

@@ -7,7 +7,7 @@ import java.util.*;
 public class NovranHattrem extends drai.dev.gravelmon.pokemon.Pokemon {
     public NovranHattrem(int dex) {
         super(dex, "Hattrem",
-                Type.GRASS,Type.FAIRY,
+                Type.GRASS, Type.FAIRY,
                 new Stats(57,
                         40,
                         65,

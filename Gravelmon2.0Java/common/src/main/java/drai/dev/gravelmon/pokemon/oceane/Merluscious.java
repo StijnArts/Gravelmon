@@ -7,7 +7,7 @@ import java.util.*;
 public class Merluscious extends drai.dev.gravelmon.pokemon.Pokemon {
     public Merluscious() {
         super("Merluscious",
-                Type.ROCK,Type.POISON,
+                Type.ROCK, Type.POISON,
                 new Stats(61,
                         104,
                         64,

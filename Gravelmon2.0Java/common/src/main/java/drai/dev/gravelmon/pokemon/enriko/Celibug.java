@@ -7,7 +7,7 @@ import java.util.*;
 public class Celibug extends drai.dev.gravelmon.pokemon.Pokemon {
     public Celibug() {
         super("Celibug",
-                Type.DRAGON,Type.FAIRY,
+                Type.DRAGON, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

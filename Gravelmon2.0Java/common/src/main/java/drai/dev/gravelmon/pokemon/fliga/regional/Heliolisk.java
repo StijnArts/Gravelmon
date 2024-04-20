@@ -58,7 +58,7 @@ import java.util.*;
 public class Heliolisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Heliolisk(int dex) {
         super(dex, "Heliolisk",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(62,
                         55,
                         52,

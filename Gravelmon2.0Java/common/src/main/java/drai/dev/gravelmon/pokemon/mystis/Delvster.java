@@ -58,7 +58,7 @@ import java.util.*;
 public class Delvster extends drai.dev.gravelmon.pokemon.Pokemon {
     public Delvster() {
         super("Delvster",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(95,
                         121,
                         126,

@@ -7,7 +7,7 @@ import java.util.*;
 public class Needoon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Needoon() {
         super("Needoon",
-                Type.BUG,Type.GHOST,
+                Type.BUG, Type.GHOST,
                 new Stats(46,
                         68,
                         82,
