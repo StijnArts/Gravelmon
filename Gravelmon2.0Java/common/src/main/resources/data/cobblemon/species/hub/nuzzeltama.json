@@ -1,0 +1,143 @@
+{
+  "implemented": true,
+  "name": "nuzzeltama",
+  "nationalPokedexNumber": 1478,
+  "primaryType": "electric",
+  "secondaryType": "ice",
+  "abilities": [
+    "thickfat",
+    "h:thickfat"
+  ],
+  "baseStats": {
+    "hp": 98,
+    "attack": 78,
+    "defence": 106,
+    "special_attack": 80,
+    "special_defence": 83,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 152,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "field"
+  ],
+  "moves": [
+    "1:charm",
+    "12:rollout",
+    "15:spark",
+    "18:softboiled",
+    "23:protect",
+    "29:electroball",
+    "34:takedown",
+    "38:irondefense",
+    "42:zingzap",
+    "56:icebeam",
+    "62:sheercold",
+    "tm:attract",
+    "tm:bide",
+    "tm:blizzard",
+    "tm:bodyslam",
+    "tm:bubblebeam",
+    "tm:chargebeam",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:echoedvoicesound",
+    "tm:eggbomb",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:frostbreath",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:gyroball",
+    "tm:snowscape",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:metronome",
+    "tm:mimic",
+    "tm:payday",
+    "tm:protect",
+    "tm:rage",
+    "tm:rest",
+    "tm:return",
+    "tm:roundsound",
+    "tm:shadowball",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:takedown",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:voltswitch",
+    "tm:watergun",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:doubleedge",
+    "tm:selfdestruct",
+    "tm:softboiled"  ],
+  "labels": [
+    "hub",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.nuzzeltama.desc"
+  ],
+  "preEvolution": "nezutama",
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

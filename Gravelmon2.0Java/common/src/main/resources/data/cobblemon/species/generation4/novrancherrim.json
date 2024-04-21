@@ -1,0 +1,168 @@
+{
+  "implemented": true,
+  "name": "novrancherrim",
+  "nationalPokedexNumber": 421,
+  "primaryType": "fire",
+  "secondaryType": "ghost",
+  "abilities": [
+    "dryskin",
+    "h:flashfire"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 60,
+    "special_attack": 107,
+    "special_defence": 68,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "grass"
+  ],
+  "moves": [
+    "1:moonlight",
+    "4:ember",
+    "6:growth",
+    "9:spite",
+    "12:astonish",
+    "14:helpinghand",
+    "18:firespin",
+    "21:shadowsneak",
+    "23:raindance",
+    "28:hex",
+    "32:willowisp",
+    "35:flamethrower",
+    "41:inferno",
+    "45:phantomforce",
+    "50:burnup",
+    "56:destinybond",
+    "tm:defog",
+    "tm:seedbomb",
+    "tm:recycle",
+    "tm:floralhealing",
+    "tm:synthesis",
+    "tm:foulplay",
+    "tm:tailwind",
+    "tm:mysticalfire",
+    "tm:phantomforce",
+    "tm:endeavor",
+    "tm:suckerpunch",
+    "tm:magiccoat",
+    "tm:snoresound",
+    "tm:ominouswind",
+    "tm:pollenpuff",
+    "tm:solarblade",
+    "tm:weatherball",
+    "tm:poltergeist",
+    "tm:bulletseed",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:gigadrain",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:airslash",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:painsplit",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:overheat",
+    "tm:energyball",
+    "tm:curse",
+    "tm:willowisp",
+    "tm:acrobatics",
+    "tm:flash",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:swordsdance",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:naturalgift",
+    "tm:darkpulse",
+    "tm:confide",
+    "tm:scorchingsands",
+    "tm:trailblaze",
+    "tm:powerwhip",
+    "tm:attract",
+    "tm:hex",
+    "tm:cut",
+    "tm:heatwave",
+    "tm:hurricane",
+    "tm:leaftornado",
+    "tm:healingwish",
+    "tm:leafstorm",
+    "tm:naturepower",
+    "tm:whirlwind"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.novrancherrim.desc"
+  ],
+  "preEvolution": "novrancherubi",
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

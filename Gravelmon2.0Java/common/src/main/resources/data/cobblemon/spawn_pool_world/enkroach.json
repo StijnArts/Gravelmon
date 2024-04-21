@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "enkroach-1",
+      "pokemon": "enkroach",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "15-31",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "implemented": true,
+  "name": "hypnode",
+  "nationalPokedexNumber": 1984,
+  "primaryType": "psychic",
+  "abilities": [
+    "prankster",
+    "h:anticipation"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 45,
+    "defence": 55,
+    "special_attack": 85,
+    "special_defence": 95,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 235,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2"
+  ],
+  "moves": [
+    "1:teleport",
+    "6:hypnosis",
+    "13:bubble",
+    "16:magiccoat",
+    "19:psywave",
+    "23:helpinghand",
+    "27:magicroom",
+    "31:allyswitch",
+    "35:psychic",
+    "39:followme",
+    "42:psychicterrain",
+    "46:skillswap",
+    "50:psychoshift",
+    "55:healingwish"  ],
+  "labels": [
+    "oceane",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hypnode.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

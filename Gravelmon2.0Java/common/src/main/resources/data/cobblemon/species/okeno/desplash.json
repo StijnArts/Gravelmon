@@ -1,0 +1,111 @@
+{
+  "implemented": true,
+  "name": "desplash",
+  "nationalPokedexNumber": 3729,
+  "primaryType": "water",
+  "abilities": [
+    "swiftswim",
+    "h:vitalspirit"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:watersport",
+    "7:encore",
+    "10:quickattack",
+    "17:bubblebeam",
+    "21:swiftcosmic",
+    "24:aquajet",
+    "28:swagger",
+    "31:brine",
+    "35:batonpass",
+    "47:hydropump",
+    "tm:splash",
+    "tm:covet",
+    "tm:workup",
+    "tm:soak",
+    "tm:watergun",
+    "tm:waterfall",
+    "tm:flipturn"  ],
+  "labels": [
+    "okeno",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.desplash.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "desplash_desbrine",
+      "variant": "level_up",
+      "result": "desbrine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

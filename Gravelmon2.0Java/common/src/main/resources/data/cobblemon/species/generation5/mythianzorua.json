@@ -1,0 +1,119 @@
+{
+  "implemented": true,
+  "name": "mythianzorua",
+  "nationalPokedexNumber": 570,
+  "primaryType": "fire",
+  "abilities": [
+    "illusion",
+    "h:flamebody"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 60,
+    "defence": 40,
+    "special_attack": 85,
+    "special_defence": 40,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 66,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:leer",
+    "4:torment",
+    "8:ember",
+    "12:flamewheel",
+    "16:willowisp",
+    "20:taunt",
+    "24:firefang",
+    "28:overheat",
+    "32:agility",
+    "36:imprison",
+    "40:nightdaze",
+    "44:nastyplot",
+    "48:foulplay",
+    "egg:snatch",
+    "egg:stockpile",
+    "egg:furyswipes",
+    "egg:counter",
+    "egg:reversal",
+    "egg:uproar",
+    "egg:swallow",
+    "egg:mefirst",
+    "egg:revenge",
+    "egg:finalgambit",
+    "egg:switcheroo"  ],
+  "labels": [
+    "gen5",
+    "myth",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mythianzorua.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "mythianzorua_MythianZoroark",
+      "variant": "level_up",
+      "result": "MythianZoroark",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 38,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

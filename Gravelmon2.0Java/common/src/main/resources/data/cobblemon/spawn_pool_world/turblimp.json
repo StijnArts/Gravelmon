@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "turblimp-1",
+      "pokemon": "turblimp",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-57",
+      "weight": 1.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands",
+"#cobblemon:is_sky" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

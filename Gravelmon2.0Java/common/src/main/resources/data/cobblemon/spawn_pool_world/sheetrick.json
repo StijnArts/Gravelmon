@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sheetrick-1",
+      "pokemon": "sheetrick",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-56",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "timeRange": "night",
+        "canSeeSky": false
+      }
+    }
+  ]
+}

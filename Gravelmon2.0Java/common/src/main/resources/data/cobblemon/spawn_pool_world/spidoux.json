@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "spidoux-1",
+      "pokemon": "spidoux",
+      "presets": [
+          "near_berry_bush"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "2-25",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

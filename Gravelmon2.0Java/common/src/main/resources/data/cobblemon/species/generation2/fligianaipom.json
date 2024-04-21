@@ -1,0 +1,139 @@
+{
+  "implemented": true,
+  "name": "fligianaipom",
+  "nationalPokedexNumber": 190,
+  "primaryType": "ghost",
+  "abilities": [
+    "pickup",
+    "receiver",
+    "h:skilllink"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 70,
+    "defence": 85,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 166,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:leer",
+    "1:scratch",
+    "5:boneclub",
+    "9:astonish",
+    "12:dig",
+    "16:shadowsneak",
+    "20:furyswipes",
+    "24:bonemerang",
+    "28:snatch",
+    "32:screechsound",
+    "36:bonerush",
+    "40:poltergeist",
+    "44:skillswap",
+    "48:shadowbone",
+    "52:moonlight",
+    "56:endeavor",
+    "60:fling",
+    "tm:firepunch",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:spikes",
+    "tm:knockoff",
+    "tm:superpower",
+    "tm:stealthrock",
+    "tm:gunkshot",
+    "tm:ironhead",
+    "tm:shadowclaw",
+    "tm:painsplit",
+    "tm:curse",
+    "tm:drainpunch",
+    "tm:shadowclaw",
+    "tm:grudge"  ],
+  "labels": [
+    "fliga",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.fligianaipom.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "fligianaipom_slambizom",
+      "variant": "level_up",
+      "result": "slambizom",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:thick_club"
+        }
+      ]   
+ },
+    {
+      "id": "fligianaipom_macaqdeath",
+      "variant": "level_up",
+      "result": "macaqdeath",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:empty_skull"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

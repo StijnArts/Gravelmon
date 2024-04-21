@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "travelphin-1",
+      "pokemon": "travelphin",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "22-34",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#minecraft:is_deep_ocean" ],
+        "maxY": 30
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ponyata-1",
+      "pokemon": "ponyata",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-26",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

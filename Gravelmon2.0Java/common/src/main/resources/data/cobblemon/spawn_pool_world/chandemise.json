@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chandemise-1",
+      "pokemon": "chandemise",
+      "presets": [
+          "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "48-58",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

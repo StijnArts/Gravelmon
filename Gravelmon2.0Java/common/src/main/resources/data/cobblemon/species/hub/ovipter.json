@@ -1,0 +1,133 @@
+{
+  "implemented": true,
+  "name": "ovipter",
+  "nationalPokedexNumber": 1479,
+  "primaryType": "normal",
+  "abilities": [
+    "shellarmor",
+    "pickup",
+    "h:quickfeet"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 85,
+    "defence": 80,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 98
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 86,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "flying"
+  ],
+  "moves": [
+    "1:leer",
+    "5:sandattack",
+    "7:peck",
+    "11:thief",
+    "15:pluck",
+    "19:headbutt",
+    "23:softboiled",
+    "27:eggbomb",
+    "36:fling",
+    "41:skullbash",
+    "47:foulplay",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:bide",
+    "tm:bodyslam",
+    "tm:brickbreak",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:dragonclaw",
+    "tm:eggbomb",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:megakick",
+    "tm:mimic",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:protect",
+    "tm:rage",
+    "tm:rest",
+    "tm:return",
+    "tm:rocksmash",
+    "tm:roost",
+    "tm:roundsound",
+    "tm:shadowclaw",
+    "tm:skullbash",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:thief",
+    "tm:torment",
+    "tm:toxic",
+    "tm:workup",
+    "tm:doubleedge",
+    "tm:uturn",
+    "tm:xscissor",
+    "tm:softboiled"  ],
+  "labels": [
+    "hub",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ovipter.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

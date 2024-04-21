@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bubblea-1",
+      "pokemon": "bubblea",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "7-34",
+      "weight": 4.0,
+      "condition": {
+
+      }
+    }
+  ]
+}

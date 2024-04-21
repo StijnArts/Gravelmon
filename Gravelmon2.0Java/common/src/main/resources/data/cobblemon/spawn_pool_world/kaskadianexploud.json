@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kaskadianexploud-1",
+      "pokemon": "kaskadianexploud",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "45-60",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "grindon-1",
+      "pokemon": "grindon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "22-34",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

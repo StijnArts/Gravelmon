@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "blitzchief-1",
+      "pokemon": "blitzchief",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "25-46",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

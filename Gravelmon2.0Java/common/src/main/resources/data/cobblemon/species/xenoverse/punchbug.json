@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "punchbug",
+  "nationalPokedexNumber": 1877,
+  "primaryType": "bug",
+  "secondaryType": "fighting",
+  "abilities": [
+    "swarm",
+    "battlearmor",
+    "h:hugepower"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 73,
+    "defence": 85,
+    "special_attack": 38,
+    "special_defence": 64,
+    "speed": 15
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 32,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:protect",
+    "1:tackle",
+    "1:harden",
+    "5:furyattack",
+    "10:furycutter",
+    "12:focusenergy",
+    "16:armthrust",
+    "18:protect",
+    "22:headbutt",
+    "28:seismictoss",
+    "33:bodyslam",
+    "38:counter",
+    "42:smackdown",
+    "48:megahorn",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:protect",
+    "tm:smackdown",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:leechlife",
+    "tm:rocktomb",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:roundsound",
+    "tm:swordsdance",
+    "tm:poweruppunch",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "egg:pinmissile",
+    "egg:submission",
+    "egg:stormthrow",
+    "egg:bulletpunch",
+    "egg:rockblast",
+    "tutor:block",
+    "tutor:bugbite",
+    "tutor:drainpunch",
+    "tutor:lowkick",
+    "tutor:secretpower",
+    "tutor:signalbeam",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:strugglebug",
+    "tutor:superpower"  ],
+  "labels": [
+    "xenoverse",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.punchbug.desc"
+  ],
+  "preEvolution": "beefle",
+  "evolutions": [
+    {
+      "id": "punchbug_hercurcules",
+      "variant": "level_up",
+      "result": "hercurcules",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 328,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

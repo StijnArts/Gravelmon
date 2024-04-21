@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "trenchula-1",
+      "pokemon": "trenchula",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "35-53",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ]
+      }
+    }
+  ]
+}

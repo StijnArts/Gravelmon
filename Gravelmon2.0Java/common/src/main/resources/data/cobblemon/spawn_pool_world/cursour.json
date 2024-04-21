@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cursour-1",
+      "pokemon": "cursour",
+      "presets": [
+          "near_crops"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "2-26",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

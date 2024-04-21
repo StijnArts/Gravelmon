@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kaskadianreuniclus-1",
+      "pokemon": "kaskadianreuniclus",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "32-45",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold",
+"#cobblemon:is_temperate" ]    }
+    }
+  ]
+}

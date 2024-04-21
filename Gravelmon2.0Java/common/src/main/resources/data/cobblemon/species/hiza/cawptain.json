@@ -1,0 +1,126 @@
+{
+  "implemented": true,
+  "name": "cawptain",
+  "nationalPokedexNumber": 2275,
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "abilities": [
+    "pickpocket",
+    "h:anticipation"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 95,
+    "defence": 70,
+    "special_attack": 90,
+    "special_defence": 60,
+    "speed": 100
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:growl",
+    "4:peck",
+    "9:roundsound",
+    "13:singsound",
+    "17:quickattack",
+    "21:wingattack",
+    "26:featherdance",
+    "30:agility",
+    "32:roost",
+    "36:thief",
+    "38:takedown",
+    "41:drillpeck",
+    "45:nightslash",
+    "54:bravebird",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:roost",
+    "tm:frustration",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:roundsound",
+    "tm:steelwing",
+    "tm:skydrop",
+    "tm:acrobatics",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:fly",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:snarl",
+    "tm:darkpulse",
+    "tm:confide"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cawptain.desc"
+  ],
+  "preEvolution": "cawlor",
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

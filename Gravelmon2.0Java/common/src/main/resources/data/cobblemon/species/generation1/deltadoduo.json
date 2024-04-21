@@ -1,0 +1,173 @@
+{
+  "implemented": true,
+  "name": "deltadoduo",
+  "nationalPokedexNumber": 84,
+  "primaryType": "psychic",
+  "abilities": [
+    "compoundeyes",
+    "trace",
+    "h:psychocall"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 85,
+    "defence": 45,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:peck",
+    "1:growl",
+    "5:psywave",
+    "9:miracleeye",
+    "13:psybeam",
+    "17:mindreader",
+    "21:lowkick",
+    "25:psychocut",
+    "29:hypnosis",
+    "33:workup",
+    "37:drillpeck",
+    "41:synchronoise",
+    "45:zenheadbutt",
+    "49:futuresight",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:lowsweep",
+    "tm:focusblast",
+    "tm:energyball",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:chargebeam",
+    "tm:psyshock",
+    "tm:skillswap",
+    "tm:shadowclaw",
+    "tm:psychup",
+    "tm:poisonjab",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:sleeptalksound",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:lunarcannon",
+    "tm:allyswitch",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:pluck",
+    "tm:secretpower",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:bounce",
+    "tutor:drillrun",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:gravitycosmic",
+    "tutor:helpinghand",
+    "tutor:hypervoicesound",
+    "tutor:hypnosis",
+    "tutor:knockoff",
+    "tutor:lowkick",
+    "tutor:magiccoat",
+    "tutor:magicroom",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:snoresound",
+    "tutor:superpower",
+    "tutor:trick",
+    "tutor:uproar",
+    "tutor:wonderroom",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "gen1",
+    "insurgence"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltadoduo.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltadoduo_deltadodrio",
+      "variant": "level_up",
+      "result": "deltadodrio",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ]   
+ }
+  ],
+  "baseScale": 1.3,
+  "hitbox": {
+    "width": 0.6,
+    "height": 1.4,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 392,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

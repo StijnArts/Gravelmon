@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "reconuisance-1",
+      "pokemon": "reconuisance",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-54",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "algrain-1",
+      "pokemon": "algrain",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "4-25",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "snomagnon-1",
+      "pokemon": "snomagnon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-37",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

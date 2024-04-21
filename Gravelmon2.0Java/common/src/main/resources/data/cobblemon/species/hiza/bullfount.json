@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "bullfount",
+  "nationalPokedexNumber": 2271,
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "abilities": [
+    "torrent",
+    "h:rockhead"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 65,
+    "special_attack": 54,
+    "special_defence": 85,
+    "speed": 56
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.75,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:tailwhip",
+    "6:bubble",
+    "11:furyattack",
+    "16:focusenergy",
+    "19:whirlpool",
+    "20:poweruppunch",
+    "25:bubblebeam",
+    "27:aquatail",
+    "30:brickbreak",
+    "33:submission",
+    "36:ironhead",
+    "39:raindance",
+    "40:hydropump",
+    "44:headcharge",
+    "50:focuspunch",
+    "61:closecombat",
+    "tm:workup",
+    "tm:snowscape",
+    "tm:bulkup",
+    "tm:taunt",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:lowsweep",
+    "tm:fling",
+    "tm:smartstrike",
+    "tm:bulldoze",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:confide",
+    "tm:doubleedge",
+    "tm:headsmash",
+    "tm:fakeout",
+    "tm:counter",
+    "tm:focusblast",
+    "tm:waterspout",
+    "tm:aquajet"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bullfount.desc"
+  ],
+  "preEvolution": "bubbalo",
+  "evolutions": [
+    {
+      "id": "bullfount_hydrotaur",
+      "variant": "level_up",
+      "result": "hydrotaur",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

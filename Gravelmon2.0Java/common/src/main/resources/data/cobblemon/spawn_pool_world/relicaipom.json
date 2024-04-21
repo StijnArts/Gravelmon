@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "relicaipom-1",
+      "pokemon": "relicaipom",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "15-36",
+      "weight": 5.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_plains",
+"#cobblemon:is_plateau" ]    }
+    }
+  ]
+}

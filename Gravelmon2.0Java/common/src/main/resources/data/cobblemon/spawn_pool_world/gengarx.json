@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gengarx-1",
+      "pokemon": "gengarx",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "36-57",
+      "weight": 1.2,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ]
+      }
+    }
+  ]
+}

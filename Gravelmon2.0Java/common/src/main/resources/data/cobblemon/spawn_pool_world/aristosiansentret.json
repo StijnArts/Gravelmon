@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aristosiansentret-1",
+      "pokemon": "aristosiansentret",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "4-21",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest",
+"#cobblemon:is_lush" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_winter" ]    }
+    }
+  ]
+}

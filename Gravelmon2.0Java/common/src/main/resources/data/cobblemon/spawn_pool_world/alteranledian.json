@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "alteranledian-1",
+      "pokemon": "alteranledian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-39",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ]
+      }
+    }
+  ]
+}

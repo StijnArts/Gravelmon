@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "effigeam-1",
+      "pokemon": "effigeam",
+      "presets": [
+          "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "28-41",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

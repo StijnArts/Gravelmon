@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "quezabeast-1",
+      "pokemon": "quezabeast",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "41-65",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

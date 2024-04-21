@@ -1,0 +1,122 @@
+{
+  "implemented": true,
+  "name": "khthonion",
+  "nationalPokedexNumber": 4054,
+  "primaryType": "grass",
+  "secondaryType": "ghost",
+  "abilities": [
+    "stench",
+    "dryskin",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 55,
+    "defence": 80,
+    "special_attack": 120,
+    "special_defence": 97,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:wrap",
+    "1:astonish",
+    "1:absorb",
+    "7:faketears",
+    "10:stunspore",
+    "14:megadrain",
+    "18:nightshade",
+    "21:tearfullook",
+    "24:ingrain",
+    "29:hex",
+    "35:gigadrain",
+    "39:worryseed",
+    "43:shadowball",
+    "48:grudge",
+    "54:wringout",
+    "60:leafstorm",
+    "tm:recycle",
+    "tm:snoresound",
+    "tm:shadowball",
+    "tm:attract",
+    "tm:confide",
+    "tm:facade",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:return",
+    "tm:roundsound",
+    "tm:secretpower",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:rest",
+    "tm:poisonpowder",
+    "tm:leechseed",
+    "tm:painsplit",
+    "tm:destinybond",
+    "tm:strengthsap",
+    "tm:acidspray"  ],
+  "labels": [
+    "enjin",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.khthonion.desc"
+  ],
+  "preEvolution": "nostroot",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 220,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

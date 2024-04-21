@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tutu-1",
+      "pokemon": "tutu",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "9-31",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

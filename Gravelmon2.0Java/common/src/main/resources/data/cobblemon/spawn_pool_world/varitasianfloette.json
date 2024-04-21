@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "varitasianfloette-1",
+      "pokemon": "varitasianfloette",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "19-35",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

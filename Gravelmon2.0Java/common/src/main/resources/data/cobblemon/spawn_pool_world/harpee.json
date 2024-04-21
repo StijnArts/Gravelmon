@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "harpee-1",
+      "pokemon": "harpee",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

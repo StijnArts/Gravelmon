@@ -1,0 +1,107 @@
+{
+  "implemented": true,
+  "name": "sliterfall",
+  "nationalPokedexNumber": 2466,
+  "primaryType": "water",
+  "abilities": [
+    "torrent",
+    "h:waterabsorb"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 55,
+    "defence": 50,
+    "special_attack": 60,
+    "special_defence": 60,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon",
+    "water_1"
+  ],
+  "moves": [
+    "1:leer",
+    "1:watergun",
+    "5:smokescreen",
+    "10:twister",
+    "15:focusenergy",
+    "20:dragonbreath",
+    "25:bubblebeam",
+    "30:agility",
+    "35:waterpulse",
+    "40:dragonpulse",
+    "45:hydropump",
+    "50:dragondance",
+    "55:raindance"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.sliterfall.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sliterfall_rivestic",
+      "variant": "level_up",
+      "result": "rivestic",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

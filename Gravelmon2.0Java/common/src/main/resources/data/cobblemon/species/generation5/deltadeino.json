@@ -1,0 +1,183 @@
+{
+  "implemented": true,
+  "name": "deltadeino",
+  "nationalPokedexNumber": 633,
+  "primaryType": "ground",
+  "secondaryType": "poison",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 65,
+    "defence": 50,
+    "special_attack": 45,
+    "special_defence": 50,
+    "speed": 38
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:bite",
+    "1:magnitude",
+    "4:coil",
+    "9:poisonfang",
+    "12:acidspray",
+    "17:bulldoze",
+    "20:wrap",
+    "25:crosspoison",
+    "28:crunch",
+    "32:earthpower",
+    "38:glare",
+    "42:gunkshot",
+    "48:venoshock",
+    "50:venomdrench",
+    "58:hypervoicesound",
+    "62:earthquake",
+    "tm:bulldoze",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:dragonpulse",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:protect",
+    "tm:snatch",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:irontail",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:sludgewave",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:focusblast",
+    "tm:dragontail",
+    "tm:payback",
+    "tm:retaliate",
+    "tm:stoneedge",
+    "tm:venoshock",
+    "tm:rockslide",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:dracojet",
+    "tm:sleeptalksound",
+    "tm:achillesheel",
+    "tm:incinerate",
+    "tm:echoedvoicesound",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:corrode",
+    "tm:confide",
+    "tm:infestation",
+    "tm:secretpower",
+    "tm:rocksmash",
+    "tm:workup",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:ancientpower",
+    "tutor:aquatail",
+    "tutor:bind",
+    "tutor:bodyslam",
+    "tutor:dig",
+    "tutor:earthpower",
+    "tutor:endure",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:gunkshot",
+    "tutor:headbutt",
+    "tutor:hypervoicesound",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:stealthrock",
+    "tutor:superfang",
+    "tutor:uproar"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltadeino.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltadeino_deltazweilous",
+      "variant": "level_up",
+      "result": "deltazweilous",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 173,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

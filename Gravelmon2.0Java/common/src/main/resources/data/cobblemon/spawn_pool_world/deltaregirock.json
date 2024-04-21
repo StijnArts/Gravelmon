@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltaregirock-1",
+      "pokemon": "deltaregirock",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "69-80",
+      "weight": 3.0E-5,
+      "condition": {
+"biomes": [ "#cobblemon:is_sandy" ]
+      }
+    }
+  ]
+}

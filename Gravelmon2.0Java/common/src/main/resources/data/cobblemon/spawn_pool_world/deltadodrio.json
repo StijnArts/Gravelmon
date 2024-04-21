@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltadodrio-1",
+      "pokemon": "deltadodrio",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "28-49",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

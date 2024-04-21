@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kaskadianambipom-1",
+      "pokemon": "kaskadianambipom",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "32-48",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain",
+"#cobblemon:is_volvanic" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_forest" ]    }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bufaroon-1",
+      "pokemon": "bufaroon",
+      "presets": [
+          "near_berry_bush"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-46",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

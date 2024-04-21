@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "squignite-1",
+      "pokemon": "squignite",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "16-46",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle",
+"#cobblemon:is_volvanic" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

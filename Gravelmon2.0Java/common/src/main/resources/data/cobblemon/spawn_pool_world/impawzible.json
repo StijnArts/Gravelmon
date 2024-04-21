@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "impawzible-1",
+      "pokemon": "impawzible",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-53",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

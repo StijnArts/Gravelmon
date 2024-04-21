@@ -1,0 +1,103 @@
+{
+  "implemented": true,
+  "name": "yummyan",
+  "nationalPokedexNumber": 3687,
+  "primaryType": "fairy",
+  "secondaryType": "normal",
+  "abilities": [
+    "sweetveil",
+    "pastelveil",
+    "h:friendguard"
+  ],
+  "baseStats": {
+    "hp": 112,
+    "attack": 53,
+    "defence": 70,
+    "special_attack": 70,
+    "special_defence": 84,
+    "speed": 66
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 170,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "field"
+  ],
+  "moves": [
+    "4:babydolleyes",
+    "7:doubleslap",
+    "10:sweetscent",
+    "14:encore",
+    "21:sweetkiss",
+    "25:drainingkiss",
+    "30:metronome",
+    "34:sugarrush",
+    "39:doubleedge",
+    "44:decorate",
+    "48:wakeupslap",
+    "tm:singsound",
+    "tm:defensecurl",
+    "tm:rollout",
+    "tm:roleplay",
+    "tm:healpulse",
+    "tm:healingwish",
+    "tm:charm",
+    "tm:playrough"  ],
+  "labels": [
+    "okeno",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.yummyan.desc"
+  ],
+  "preEvolution": "nyanyum",
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

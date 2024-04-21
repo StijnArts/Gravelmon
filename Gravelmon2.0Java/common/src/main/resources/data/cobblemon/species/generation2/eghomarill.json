@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "eghomarill",
+  "nationalPokedexNumber": 183,
+  "primaryType": "rock",
+  "secondaryType": "fighting",
+  "abilities": [
+    "hugepower",
+    "h:dryskin"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 20,
+    "special_defence": 30,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 78,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 26,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "moves": [
+    "1:karatechop",
+    "1:rollout",
+    "1:stealthrock",
+    "1:faketears",
+    "4:tackle",
+    "9:mudslap",
+    "13:quickattack",
+    "16:flail",
+    "18:rockthrow",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:raindance",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:smackdown",
+    "tm:return",
+    "tm:dig",
+    "tm:brickbreak",
+    "tm:flamethrower",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:lowsweep",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:fling",
+    "tm:quash",
+    "tm:retaliate",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:dragontail",
+    "tm:workup",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:rocksmash",
+    "tm:strength",
+    "tutor:aquatail",
+    "tutor:drainpunch",
+    "tutor:foulplay",
+    "tutor:magnetrise",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:rollout",
+    "tutor:stealthrock",
+    "tutor:superpower",
+    "tutor:zenheadbutt",
+    "egg:bodyslam",
+    "egg:encore",
+    "egg:poweruppunch",
+    "egg:taunt",
+    "egg:wish"  ],
+  "labels": [
+    "infinity",
+    "gen2",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.eghomarill.desc"
+  ],
+  "preEvolution": "eghoazurill",
+  "evolutions": [
+    {
+      "id": "eghomarill_eghoazumarill",
+      "variant": "level_up",
+      "result": "eghoazumarill",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 150,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

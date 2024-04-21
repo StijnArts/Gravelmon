@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kaskadiandiggersby-1",
+      "pokemon": "kaskadiandiggersby",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "20-40",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ]
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_forest",
+"#cobblemon:is_plains" ]    }
+    }
+  ]
+}

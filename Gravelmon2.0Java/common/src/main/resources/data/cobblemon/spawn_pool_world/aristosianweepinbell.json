@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "aristosianweepinbell-1",
+      "pokemon": "aristosianweepinbell",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-39",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

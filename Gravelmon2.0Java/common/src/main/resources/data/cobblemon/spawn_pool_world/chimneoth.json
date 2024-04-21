@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chimneoth-1",
+      "pokemon": "chimneoth",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "23-38",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

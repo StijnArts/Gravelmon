@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shepatrol-1",
+      "pokemon": "shepatrol",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "22-54",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

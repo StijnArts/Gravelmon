@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreianpidgeotto-1",
+      "pokemon": "ayreianpidgeotto",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-35",
+      "weight": 0.9,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

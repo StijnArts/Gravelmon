@@ -1,0 +1,143 @@
+{
+  "implemented": true,
+  "name": "croakraze",
+  "nationalPokedexNumber": 1925,
+  "primaryType": "fire",
+  "secondaryType": "ground",
+  "abilities": [
+    "blaze",
+    "h:speedboost"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 110,
+    "defence": 70,
+    "special_attack": 110,
+    "special_defence": 70,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 147,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 41,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:flareblitz",
+    "1:drillrun",
+    "1:rockpolish",
+    "1:tackle",
+    "1:sandattack",
+    "1:ember",
+    "9:fling",
+    "12:flamewheel",
+    "15:takedown",
+    "20:mudbomb",
+    "25:bodyslam",
+    "30:firespin",
+    "34:bounce",
+    "37:lavaplume",
+    "44:drillrun",
+    "51:flamethrower",
+    "58:flareblitz",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:aerialace",
+    "tm:torment",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:overheat",
+    "tm:scald",
+    "tm:fling",
+    "tm:willowisp",
+    "tm:acrobatics",
+    "tm:gigaimpact",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:wildcharge",
+    "egg:headsmash",
+    "egg:doubleedge",
+    "egg:spikes",
+    "egg:zenheadbutt",
+    "egg:eruption",
+    "tutor:blastburn",
+    "tutor:scorchedashes",
+    "tutor:secretpower"  ],
+  "labels": [
+    "sage",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.croakraze.desc"
+  ],
+  "preEvolution": "bullverin",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 477,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

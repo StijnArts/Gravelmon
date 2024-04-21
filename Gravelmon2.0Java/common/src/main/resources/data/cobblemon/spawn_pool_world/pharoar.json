@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pharoar-1",
+      "pokemon": "pharoar",
+      "presets": [
+          "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "51-65",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

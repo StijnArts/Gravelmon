@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "norewin",
+  "nationalPokedexNumber": 3565,
+  "primaryType": "ice",
+  "secondaryType": "flying",
+  "abilities": [
+    "earlybird",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 70,
+    "defence": 105,
+    "special_attack": 85,
+    "special_defence": 105,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "dragon"
+  ],
+  "moves": [
+    "1:peck",
+    "5:powdersnow",
+    "10:gust",
+    "13:icywind",
+    "17:singsound",
+    "22:aircutter",
+    "26:frostbreath",
+    "30:airslash",
+    "35:roost",
+    "41:avalanche",
+    "44:screechsound",
+    "50:aurorabeam",
+    "57:sheercold"  ],
+  "labels": [
+    "midamis",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.norewin.desc"
+  ],
+  "preEvolution": "childer",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

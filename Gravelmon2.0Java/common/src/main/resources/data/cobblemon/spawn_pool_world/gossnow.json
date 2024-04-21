@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gossnow-1",
+      "pokemon": "gossnow",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "29-45",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

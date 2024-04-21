@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gronegardian-1",
+      "pokemon": "gronegardian",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-65",
+      "weight": 0.01,
+      "condition": {
+"biomes": [ "#cobblemon:is_floral" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

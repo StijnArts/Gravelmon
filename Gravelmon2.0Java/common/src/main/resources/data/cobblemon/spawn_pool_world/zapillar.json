@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "zapillar-1",
+      "pokemon": "zapillar",
+      "presets": [
+          "treetop"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "implemented": true,
+  "name": "inscepter",
+  "nationalPokedexNumber": 4375,
+  "primaryType": "grass",
+  "secondaryType": "bug",
+  "abilities": [
+    "overgrow",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 71,
+    "attack": 77,
+    "defence": 65,
+    "special_attack": 63,
+    "special_defence": 58,
+    "speed": 71
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "bug"
+  ],
+  "moves": [
+    "1:pound",
+    "4:leer",
+    "6:absorb",
+    "11:bugbite",
+    "13:camouflage",
+    "16:leaftornado",
+    "20:grasswhistle",
+    "23:sweetscent",
+    "29:naturepower",
+    "35:slash",
+    "38:growth",
+    "44:bugbuzzsound",
+    "50:leafblade",
+    "58:woodhammer",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:brickbreak",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:doubleteam",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:infestation",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roundsound",
+    "tm:shadowclaw",
+    "tm:signalbeam",
+    "tm:sleeptalksound",
+    "tm:solarbeam",
+    "tm:strugglebug",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thief",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:workup",
+    "tm:xscissor"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.inscepter.desc"
+  ],
+  "preEvolution": "instick",
+  "evolutions": [
+    {
+      "id": "inscepter_chloradise",
+      "variant": "level_up",
+      "result": "chloradise",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

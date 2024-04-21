@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fligiangastrodon-1",
+      "pokemon": "fligiangastrodon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "26-43",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

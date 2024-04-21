@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "regalocera",
+  "nationalPokedexNumber": 3098,
+  "primaryType": "bug",
+  "secondaryType": "flying",
+  "abilities": [
+    "tintedlens",
+    "h:shielddust"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 50,
+    "defence": 50,
+    "special_attack": 90,
+    "special_defence": 90,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 185,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "12:bugbite",
+    "16:stunspore",
+    "16:poisonpowder",
+    "20:silverwind",
+    "23:sleeppowder",
+    "25:whirlwind",
+    "29:aircutter",
+    "33:defendorder",
+    "37:ragepowder",
+    "41:quiverdance",
+    "48:attackorder",
+    "55:bugbuzzsound",
+    "62:healorder",
+    "69:hurricane",
+    "tm:psyshock",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:roost",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:leechlife",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:steelwing",
+    "tm:energyball",
+    "tm:acrobatics",
+    "tm:gigaimpact",
+    "tm:infestation",
+    "tm:dreameater",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:naturepower",
+    "tm:dazzlinggleam",
+    "tm:confide",
+    "tutor:snoresound",
+    "tutor:electroweb",
+    "tutor:defog",
+    "tutor:bugbite",
+    "tutor:gigadrain",
+    "tutor:signalbeam",
+    "tutor:tailwind"  ],
+  "labels": [
+    "umbra",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.regalocera.desc"
+  ],
+  "preEvolution": "superbpa",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 403,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

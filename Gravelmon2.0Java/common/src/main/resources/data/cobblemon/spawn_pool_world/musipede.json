@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "musipede-1",
+      "pokemon": "musipede",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "13-54",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

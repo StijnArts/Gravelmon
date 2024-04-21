@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "triboon-1",
+      "pokemon": "triboon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "7-33",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical_island",
+"#cobblemon:is_savanna" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

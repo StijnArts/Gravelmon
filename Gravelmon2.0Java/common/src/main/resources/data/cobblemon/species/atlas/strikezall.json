@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "strikezall",
+  "nationalPokedexNumber": 4457,
+  "primaryType": "fighting",
+  "secondaryType": "steel",
+  "abilities": [
+    "pickup",
+    "ballfetch",
+    "h:bulletproof"
+  ],
+  "baseStats": {
+    "hp": 88,
+    "attack": 103,
+    "defence": 88,
+    "special_attack": 66,
+    "special_defence": 78,
+    "speed": 98
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like"
+  ],
+  "moves": [
+    "1:leer",
+    "5:doublehit",
+    "10:gyroball",
+    "15:slam",
+    "20:circlethrow",
+    "25:fling",
+    "30:vitalthrow",
+    "43:irondefense",
+    "50:ironhead",
+    "60:focuspunch",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:roundsound",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:drainpunch",
+    "tm:bulletseed",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:flashcannon",
+    "tm:gyroball",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:thief",
+    "tm:brutalswing",
+    "tm:poisonjab",
+    "tm:sludgebomb",
+    "tm:icepunch",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:sandstorm",
+    "tm:stealthrock",
+    "tm:bulkup",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:stormthrow"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.strikezall.desc"
+  ],
+  "preEvolution": "pitchzall",
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

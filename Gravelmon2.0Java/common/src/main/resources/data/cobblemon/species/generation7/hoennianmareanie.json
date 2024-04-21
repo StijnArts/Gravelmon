@@ -1,0 +1,125 @@
+{
+  "implemented": true,
+  "name": "hoennianmareanie",
+  "nationalPokedexNumber": 747,
+  "primaryType": "rock",
+  "secondaryType": "poison",
+  "abilities": [
+    "poisonpoint",
+    "h:solidrock"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 53,
+    "defence": 92,
+    "special_attack": 33,
+    "special_defence": 52,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 61,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "1:peck",
+    "5:harden",
+    "8:poisonsting",
+    "14:rockthrow",
+    "20:spikecannon",
+    "25:recover",
+    "29:poisonjab",
+    "34:accelerock",
+    "tm:scald",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:earthquake",
+    "tm:return",
+    "tm:shimmershot",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:secretpower",
+    "tm:rest",
+    "tm:attract",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "egg:fissure",
+    "egg:crystalizecrystal"  ],
+  "labels": [
+    "blazing_emerald",
+    "gen7",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoennianmareanie.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "hoennianmareanie_hoenniantoxapex",
+      "variant": "level_up",
+      "result": "hoenniantoxapex",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 213,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

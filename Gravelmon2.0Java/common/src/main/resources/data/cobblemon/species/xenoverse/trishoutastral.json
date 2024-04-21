@@ -1,0 +1,216 @@
+{
+  "implemented": true,
+  "name": "trishoutastral",
+  "nationalPokedexNumber": 1855,
+  "primaryType": "fire",
+  "secondaryType": "sound",
+  "abilities": [
+    "voicetuning",
+    "h:voicetuning"
+  ],
+  "baseStats": {
+    "hp": 143,
+    "attack": 140,
+    "defence": 90,
+    "special_attack": 140,
+    "special_defence": 94,
+    "speed": 93
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "slow",
+  "eggCycles": 41,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 40
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:ember",
+    "1:tackle",
+    "6:babble",
+    "9:howlsound",
+    "13:takedown",
+    "18:firefang",
+    "23:uproar",
+    "28:screechsound",
+    "32:flamethrower",
+    "36:hypervoicesound",
+    "40:swagger",
+    "45:boomburstsound",
+    "51:inferno",
+    "56:crunch",
+    "61:flareblitz",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:subwoofer",
+    "tm:solarbeam",
+    "tm:earthquake",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:thief",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:overheat",
+    "tm:fling",
+    "tm:willowisp",
+    "tm:gigaimpact",
+    "tm:bulldoze",
+    "tm:swagger",
+    "tm:substitute",
+    "tutor:blastburn",
+    "tutor:covet",
+    "tutor:heatwave",
+    "tutor:hypervoicesound",
+    "tutor:irontail",
+    "tutor:scorchedashes",
+    "tutor:secretpower",
+    "tutor:sleeptalksound",
+    "tutor:snoresound",
+    "tutor:soundbarrier",
+    "tutor:soundpledge",
+    "tutor:uproar"  ],
+  "labels": [
+    "xenoverse",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.trishoutastral.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "trishoutastral_trishout",
+      "variant": "level_up",
+      "result": "trishout",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ]   
+ },
+    {
+      "id": "trishoutastral_trishoutterrestrial",
+      "variant": "level_up",
+      "result": "trishoutterrestrial",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:terrestrial_ring"
+        }
+      ]   
+ },
+    {
+      "id": "trishoutastral_trishoutxenoversal",
+      "variant": "level_up",
+      "result": "trishoutxenoversal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "gravelmon:xenoversal_ring"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.775,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 31,
+  "weight": 790,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

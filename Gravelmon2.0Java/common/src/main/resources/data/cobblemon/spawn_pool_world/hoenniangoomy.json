@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoenniangoomy-1",
+      "pokemon": "hoenniangoomy",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+  ]
+}

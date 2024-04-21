@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chainite-1",
+      "pokemon": "chainite",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "43-67",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

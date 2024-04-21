@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pyrade-1",
+      "pokemon": "pyrade",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "32-44",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hubiantogekiss-1",
+      "pokemon": "hubiantogekiss",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "43-56",
+      "weight": 0.09,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

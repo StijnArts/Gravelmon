@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kaskadiansolosis-1",
+      "pokemon": "kaskadiansolosis",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "rare",
+      "level": "5-30",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold",
+"#cobblemon:is_temperate" ]    }
+    }
+  ]
+}

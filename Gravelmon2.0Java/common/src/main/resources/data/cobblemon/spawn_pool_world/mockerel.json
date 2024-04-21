@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mockerel-1",
+      "pokemon": "mockerel",
+      "presets": [
+          "urban"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "rare",
+      "level": "6-32",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_overworld" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

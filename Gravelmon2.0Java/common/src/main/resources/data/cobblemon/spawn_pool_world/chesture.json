@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chesture-1",
+      "pokemon": "chesture",
+      "presets": [
+          "jungle_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "21-54",
+      "weight": 6.0,
+      "condition": {
+
+      }
+    }
+  ]
+}

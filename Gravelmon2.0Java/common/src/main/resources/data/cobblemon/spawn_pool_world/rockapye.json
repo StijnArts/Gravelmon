@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rockapye-1",
+      "pokemon": "rockapye",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "3-22",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "timeRange": "day",
+        "canSeeSky": false
+      }
+    }
+  ]
+}

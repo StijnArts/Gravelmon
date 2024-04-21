@@ -1,0 +1,136 @@
+{
+  "implemented": true,
+  "name": "hoodloom",
+  "nationalPokedexNumber": 2544,
+  "primaryType": "dark",
+  "abilities": [
+    "pickpocket",
+    "h:stakeout"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 75,
+    "defence": 42,
+    "special_attack": 75,
+    "special_defence": 94,
+    "speed": 79
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 175,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 44,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:pursuit",
+    "6:astonish",
+    "10:doubleteam",
+    "15:taunt",
+    "18:thief",
+    "22:fakeout",
+    "25:slash",
+    "29:taunt",
+    "31:honeclaws",
+    "35:shadowclaw",
+    "39:fling",
+    "42:feintattack",
+    "45:switcheroo",
+    "51:grudge",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:frustration",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hypnosis",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:roundsound",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalksound",
+    "tm:sludgebomb",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thief",
+    "tm:toxic",
+    "tm:trickroom",
+    "tm:uturn",
+    "tm:workup"  ],
+  "labels": [
+    "isiah",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hoodloom.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "hoodloom_cloacover",
+      "variant": "item_interact",
+      "result": "cloacover",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone"   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

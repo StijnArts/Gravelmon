@@ -1,0 +1,149 @@
+{
+  "implemented": true,
+  "name": "guilloceive",
+  "nationalPokedexNumber": 4514,
+  "primaryType": "ghost",
+  "secondaryType": "steel",
+  "abilities": [
+    "strongjaw",
+    "hypercutter",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 74,
+    "attack": 130,
+    "defence": 83,
+    "special_attack": 40,
+    "special_defence": 83,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 35,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "mineral"
+  ],
+  "moves": [
+    "1:phantomforce",
+    "6:spite",
+    "10:scaryface",
+    "15:bite",
+    "19:sharpen",
+    "23:mirrorshot",
+    "27:shadowsneak",
+    "30:slash",
+    "35:nightslash",
+    "39:metalburst",
+    "43:nightslash",
+    "48:metalsound",
+    "50:phantomforce",
+    "54:guillotine",
+    "tm:bide",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dreameater",
+    "tm:earthquake",
+    "tm:facade",
+    "tm:fissure",
+    "tm:flashcannon",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:hex",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypnosis",
+    "tm:leechlife",
+    "tm:lightscreen",
+    "tm:mimic",
+    "tm:nastyplot",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:rage",
+    "tm:razorwind",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roundsound",
+    "tm:sandstorm",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:torment",
+    "tm:toxic",
+    "tm:xscissor"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.guilloceive.desc"
+  ],
+  "preEvolution": "ghoulotine",
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 20,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

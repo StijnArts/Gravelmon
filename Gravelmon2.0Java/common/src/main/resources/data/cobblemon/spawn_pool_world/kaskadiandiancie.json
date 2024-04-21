@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kaskadiandiancie-1",
+      "pokemon": "kaskadiandiancie",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-70",
+      "weight": 2.0E-5,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain",
+"#cobblemon:is_sky" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "atmosoft-1",
+      "pokemon": "atmosoft",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "4-25",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_sky",
+"#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

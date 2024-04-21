@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "bufierce",
+  "nationalPokedexNumber": 2353,
+  "primaryType": "fighting",
+  "secondaryType": "ground",
+  "abilities": [
+    "rattled",
+    "h:rattled"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 95,
+    "defence": 55,
+    "special_attack": 20,
+    "special_defence": 55,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.75,
+  "shoulderMountable": false,
+  "baseExperienceYield": 69,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:defensecurl",
+    "1:hornattack",
+    "1:rollout",
+    "1:sunnyday",
+    "7:bulldoze",
+    "14:taunt",
+    "21:rapidspin",
+    "28:brickbreak",
+    "35:stompingtantrum",
+    "42:knockoff",
+    "49:earthquake",
+    "56:gigaimpact",
+    "63:closecombat",
+    "70:endeavor",
+    "77:megahorn",
+    "84:headsmash",
+    "91:headlongrush"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.bufierce.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "bufierce_chloradise",
+      "variant": "level_up",
+      "result": "chloradise",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        },
+        {
+          "variant": "time_range",
+          "range": day
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

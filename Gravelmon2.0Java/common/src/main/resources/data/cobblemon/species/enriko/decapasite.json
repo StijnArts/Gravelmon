@@ -1,0 +1,93 @@
+{
+  "implemented": true,
+  "name": "decapasite",
+  "nationalPokedexNumber": 1792,
+  "primaryType": "bug",
+  "secondaryType": "ghost",
+  "abilities": [
+    "unnerve",
+    "levitate",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 50,
+    "defence": 110,
+    "special_attack": 80,
+    "special_defence": 90,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 65,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 160,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous",
+    "bug"
+  ],
+  "moves": [
+    "1:infestation",
+    "28:infestation",
+    "32:protect",
+    "36:signalbeam",
+    "40:shadowball",
+    "44:gigadrain",
+    "50:shadowforce",
+    "56:destinybond",
+    "60:leechlife"  ],
+  "labels": [
+    "enriko",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.decapasite.desc"
+  ],
+  "preEvolution": "encyst",
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

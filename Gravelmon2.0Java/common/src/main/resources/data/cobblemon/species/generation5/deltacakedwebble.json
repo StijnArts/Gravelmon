@@ -1,0 +1,177 @@
+{
+  "implemented": true,
+  "name": "deltacakedwebble",
+  "nationalPokedexNumber": 557,
+  "primaryType": "fairy",
+  "secondaryType": "normal",
+  "abilities": [
+    "owntempo",
+    "scrappy",
+    "h:simple"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 85,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 65,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:pound",
+    "5:fairywind",
+    "7:sweetscent",
+    "11:mist",
+    "13:powdersnow",
+    "17:chipaway",
+    "19:workup",
+    "23:dazzlinggleam",
+    "24:mistyterrain",
+    "29:facade",
+    "31:aurorabeam",
+    "35:playrough",
+    "37:shellsmash",
+    "41:flail",
+    "43:gigaimpact",
+    "tm:bulldoze",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:snatch",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:recycle",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:skillswap",
+    "tm:embargo",
+    "tm:retaliate",
+    "tm:gigaimpact",
+    "tm:psychup",
+    "tm:thunderwave",
+    "tm:wildcharge",
+    "tm:xscissor",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:trickroom",
+    "tm:smackdown",
+    "tm:sleeptalksound",
+    "tm:dazzlinggleam",
+    "tm:achillesheel",
+    "tm:lunarcannon",
+    "tm:roundsound",
+    "tm:captivate",
+    "tm:confide",
+    "tm:secretpower",
+    "tm:flash",
+    "tm:rocksmash",
+    "tm:workup",
+    "tm:strength",
+    "tutor:acid",
+    "tutor:afteryou",
+    "tutor:block",
+    "tutor:bulletseed",
+    "tutor:celebrate",
+    "tutor:counter",
+    "tutor:covet",
+    "tutor:dig",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:gravitycosmic",
+    "tutor:headbutt",
+    "tutor:healbellsound",
+    "tutor:helpinghand",
+    "tutor:icywind",
+    "tutor:knockoff",
+    "tutor:lastresort",
+    "tutor:magiccoat",
+    "tutor:mimic",
+    "tutor:roleplay",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
+    "tutor:wonderroom"  ],
+  "labels": [
+    "gen5",
+    "insurgence",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deltacakedwebble.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "deltacakedwebble_deltacakecrustle",
+      "variant": "level_up",
+      "result": "deltacakecrustle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 34
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 78,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

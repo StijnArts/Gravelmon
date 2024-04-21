@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "papernova-1",
+      "pokemon": "papernova",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove",
+"#cobblemon:is_bamboo" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

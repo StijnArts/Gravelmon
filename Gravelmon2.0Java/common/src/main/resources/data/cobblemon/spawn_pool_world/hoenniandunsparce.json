@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hoenniandunsparce-1",
+      "pokemon": "hoenniandunsparce",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-41",
+      "weight": 1.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ],
+        "canSeeSky": false,
+        "maxY": 20
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_deep_dark" ]    }
+    }
+  ]
+}

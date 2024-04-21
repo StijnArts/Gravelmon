@@ -1,0 +1,143 @@
+{
+  "implemented": true,
+  "name": "cowatti",
+  "nationalPokedexNumber": 1054,
+  "primaryType": "electric",
+  "abilities": [
+    "static",
+    "pickup",
+    "h:motordrive"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 151,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "fairy"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "5:thundershock",
+    "10:quickattack",
+    "15:supersonic",
+    "18:sonicboomsound",
+    "21:electroball",
+    "24:furyswipes",
+    "29:charge",
+    "34:voltswitch",
+    "39:reflect",
+    "42:chargebeam",
+    "45:signalbeam",
+    "48:thunderbolt",
+    "53:overdrive",
+    "58:agility",
+    "63:thunder",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:echoedvoicesound",
+    "tm:chargebeam",
+    "tm:endure",
+    "tm:gigaimpact",
+    "tm:flash",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:sleeptalksound",
+    "tm:cut",
+    "tutor:helpinghand",
+    "tutor:irontail",
+    "tutor:magnetrise",
+    "tutor:mudslap",
+    "tutor:signalbeam",
+    "tutor:snoresound",
+    "tutor:swiftcosmic",
+    "tutor:uproar",
+    "egg:batonpass",
+    "egg:bounce",
+    "egg:charm",
+    "egg:endeavor",
+    "egg:irontail",
+    "egg:odorsleuth",
+    "egg:superfang",
+    "egg:yawn"  ],
+  "labels": [
+    "sage",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cowatti.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 116,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

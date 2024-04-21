@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sandstrum-1",
+      "pokemon": "sandstrum",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

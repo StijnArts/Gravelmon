@@ -1,0 +1,156 @@
+{
+  "implemented": true,
+  "name": "bulbright",
+  "nationalPokedexNumber": 4170,
+  "primaryType": "electric",
+  "secondaryType": "psychic",
+  "abilities": [
+    "dazzling",
+    "levitate",
+    "h:illuminate"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 30,
+    "defence": 65,
+    "special_attack": 105,
+    "special_defence": 45,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 110,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 131,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:hiddenpower",
+    "12:spark",
+    "14:confuseray",
+    "16:chargebeam",
+    "20:lightscreen",
+    "24:risingvoltage",
+    "27:signalbeam",
+    "31:lusterpurge",
+    "37:discharge",
+    "40:spotlight",
+    "44:psyshock",
+    "49:thunderbolt",
+    "tm:headbutt",
+    "tm:zenheadbutt",
+    "tm:recycle",
+    "tm:trick",
+    "tm:shockwave",
+    "tm:magiccoat",
+    "tm:snoresound",
+    "tm:electricterrain",
+    "tm:psychicterrain",
+    "tm:powergemcrystal",
+    "tm:storedpower",
+    "tm:psyshock",
+    "tm:calmmind",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:return",
+    "tm:psychic",
+    "tm:shadowball",
+    "tm:reflect",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:signalbeam",
+    "tm:chargebeam",
+    "tm:curse",
+    "tm:flash",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:trickroom",
+    "tm:wildcharge",
+    "tm:triattack",
+    "tm:naturalgift",
+    "tm:magnetrise",
+    "tm:dazzlinggleam",
+    "tm:confide",
+    "tm:skillswap"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bulbright.desc"
+  ],
+  "preEvolution": "dimwatt",
+  "evolutions": [
+    {
+      "id": "bulbright_brillumint",
+      "variant": "level_up",
+      "result": "brillumint",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 38
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

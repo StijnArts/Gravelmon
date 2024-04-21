@@ -1,0 +1,191 @@
+{
+  "implemented": true,
+  "name": "varitasianmunchlax",
+  "nationalPokedexNumber": 446,
+  "primaryType": "dark",
+  "abilities": [
+    "pickup",
+    "thickfat",
+    "h:gluttony"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 135,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 85,
+    "speed": 5
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 78,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:lastresort",
+    "4:defensecurl",
+    "9:amnesia",
+    "12:bite",
+    "17:chipaway",
+    "20:screechsound",
+    "25:bodyslam",
+    "28:stockpile",
+    "33:swallow",
+    "36:rollout",
+    "41:fling",
+    "44:bellydrum",
+    "49:thief",
+    "50:snatch",
+    "57:lastresort",
+    "tm:firepunch",
+    "tm:icepunch",
+    "tm:thunderpunch",
+    "tm:snoresound",
+    "tm:icywind",
+    "tm:uproar",
+    "tm:focuspunch",
+    "tm:superpower",
+    "tm:recycle",
+    "tm:snatch",
+    "tm:hypervoicesound",
+    "tm:covet",
+    "tm:shockwave",
+    "tm:waterpulse",
+    "tm:lastresort",
+    "tm:seedbomb",
+    "tm:zenheadbutt",
+    "tm:gunkshot",
+    "tm:afteryou",
+    "tm:stompingtantrum",
+    "tm:flamethrower",
+    "tm:surf",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:solarbeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:toxic",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:fireblast",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:protect",
+    "tm:sandstorm",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:shadowball",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:fling",
+    "tm:roundsound",
+    "tm:bulldoze",
+    "tm:workup",
+    "tm:confide",
+    "tm:megapunch",
+    "tm:megakick",
+    "tm:bodyslam",
+    "tm:doubleedge",
+    "tm:payday",
+    "tm:counter",
+    "tm:seismictoss",
+    "tm:rage",
+    "tm:mimic",
+    "tm:bide",
+    "tm:metronome",
+    "tm:selfdestruct",
+    "tm:takedown",
+    "tm:bubblebeam",
+    "tm:watergun",
+    "tm:submission",
+    "tm:skullbash",
+    "tm:psywave",
+    "tm:whirlwind",
+    "tm:doubleedge",
+    "tm:counter",
+    "tm:selfdestruct",
+    "tm:lick",
+    "tm:curse",
+    "tm:charm",
+    "tm:pursuit",
+    "tm:naturalgift",
+    "tm:belch"  ],
+  "labels": [
+    "varitas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.varitasianmunchlax.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "varitasianmunchlax_snarlax",
+      "variant": "level_up",
+      "result": "snarlax",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

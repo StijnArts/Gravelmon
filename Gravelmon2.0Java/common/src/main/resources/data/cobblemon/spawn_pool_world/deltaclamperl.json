@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltaclamperl-1",
+      "pokemon": "deltaclamperl",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "15-34",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ]
+      }
+    }
+  ]
+}

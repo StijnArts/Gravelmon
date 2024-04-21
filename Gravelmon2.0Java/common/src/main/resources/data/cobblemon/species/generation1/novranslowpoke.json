@@ -1,0 +1,160 @@
+{
+  "implemented": true,
+  "name": "novranslowpoke",
+  "nationalPokedexNumber": 79,
+  "primaryType": "bug",
+  "abilities": [
+    "honeygather",
+    "thickfat",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 65,
+    "defence": 65,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 15
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 63,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "moves": [
+    "1:growl",
+    "5:infestation",
+    "9:sweetscent",
+    "14:bugbite",
+    "18:headbutt",
+    "35:slackoff",
+    "40:lunge",
+    "44:rest",
+    "48:bugbuzzsound",
+    "57:spitup",
+    "tm:headbutt",
+    "tm:zenheadbutt",
+    "tm:recycle",
+    "tm:floralhealing",
+    "tm:yawn",
+    "tm:refresh",
+    "tm:lunge",
+    "tm:snoresound",
+    "tm:bugbite",
+    "tm:pollenpuff",
+    "tm:skittersmack",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:earthquake",
+    "tm:return",
+    "tm:sludgebomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:signalbeam",
+    "tm:curse",
+    "tm:bulldoze",
+    "tm:venoshock",
+    "tm:infestation",
+    "tm:irontail",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:triattack",
+    "tm:naturalgift",
+    "tm:confide",
+    "tm:attract",
+    "tm:leechlife",
+    "tm:aquatail",
+    "tm:strength",
+    "tm:stomp",
+    "tm:bellydrum",
+    "tm:petaldance",
+    "tm:mudsport",
+    "tm:belch"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.novranslowpoke.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "novranslowpoke_novranslowbro",
+      "variant": "level_up",
+      "result": "novranslowbro",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 37
+        }
+      ]   
+ },
+    {
+      "id": "novranslowpoke_novranslowking",
+      "variant": "item_interact",
+      "result": "novranslowking",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "minecraft:honey_bottle"   
+ }
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

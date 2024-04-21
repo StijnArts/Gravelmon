@@ -1,0 +1,159 @@
+{
+  "implemented": true,
+  "name": "ragnarow",
+  "nationalPokedexNumber": 1244,
+  "primaryType": "water",
+  "secondaryType": "dragon",
+  "abilities": [
+    "unburden",
+    "torrent",
+    "h:defiant"
+  ],
+  "baseStats": {
+    "hp": 115,
+    "attack": 90,
+    "defence": 105,
+    "special_attack": 85,
+    "special_defence": 80,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 25,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 189,
+  "experienceGroup": "slow",
+  "eggCycles": 100,
+  "eggGroups": [
+    "dragon",
+    "water_1"
+  ],
+  "moves": [
+    "1:tailwind",
+    "1:whirlpool",
+    "1:dragonrage",
+    "5:howlsound",
+    "10:endure",
+    "15:waterpulse",
+    "19:mist",
+    "24:bite",
+    "29:scaryface",
+    "33:raindance",
+    "38:brine",
+    "43:curse",
+    "43:dragontail",
+    "48:aquatail",
+    "54:dragonpulse",
+    "60:crunch",
+    "66:hydropump",
+    "71:outrage",
+    "tm:honeclaws",
+    "tm:dragonclaw",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hail",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:doubleteam",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:scald",
+    "tm:endure",
+    "tm:rocksmash",
+    "tm:gigaimpact",
+    "tm:bulldoze",
+    "tm:dragontail",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:sleeptalksound",
+    "tm:waterpulse",
+    "tm:depthcharge",
+    "tm:standoff",
+    "tm:cut",
+    "tm:surf",
+    "tm:strength",
+    "tm:dive",
+    "tm:waterfall",
+    "tutor:ancientpower",
+    "tutor:avalanche",
+    "tutor:aquatail",
+    "tutor:counter",
+    "tutor:doubleedge",
+    "tutor:dracometeor",
+    "tutor:dragonpulse",
+    "tutor:endeavor",
+    "tutor:hypervoicesound",
+    "tutor:icywind",
+    "tutor:irondefense",
+    "tutor:ironhead",
+    "tutor:magiccoat",
+    "tutor:mudslap",
+    "tutor:outrage",
+    "tutor:secretpower",
+    "tutor:snoresound",
+    "tutor:superpower",
+    "tutor:tailwind",
+    "tutor:waterpledge",
+    "tutor:zenheadbutt"  ],
+  "labels": [
+    "sage",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ragnarow.desc"
+  ],
+  "preEvolution": "draggar",
+  "baseScale": 0.7999999999999999,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 32,
+  "weight": 1478,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

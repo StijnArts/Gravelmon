@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "grasquatch-1",
+      "pokemon": "grasquatch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "34-47",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "isRaining": true,
+        "canSeeSky": true
+      }
+    }
+  ]
+}

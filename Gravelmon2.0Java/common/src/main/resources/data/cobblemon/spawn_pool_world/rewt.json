@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rewt-1",
+      "pokemon": "rewt",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp",
+"#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

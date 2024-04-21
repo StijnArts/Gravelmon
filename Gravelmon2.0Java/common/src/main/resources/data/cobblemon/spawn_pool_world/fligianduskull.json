@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fligianduskull-1",
+      "pokemon": "fligianduskull",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#minecraft:is_deep_ocean" ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "varitasiansteenee-1",
+      "pokemon": "varitasiansteenee",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "18-29",
+      "weight": 0.18,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ]
+      }
+    }
+  ]
+}

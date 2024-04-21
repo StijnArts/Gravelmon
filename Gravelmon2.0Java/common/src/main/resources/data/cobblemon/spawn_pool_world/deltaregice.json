@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltaregice-1",
+      "pokemon": "deltaregice",
+      "presets": [
+          "water_surface"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "ultra-rare",
+      "level": "69-80",
+      "weight": 0.003,
+      "condition": {
+"biomes": [ "#cobblemon:is_sandy" ],
+        "isThundering": true
+      }
+    }
+  ]
+}

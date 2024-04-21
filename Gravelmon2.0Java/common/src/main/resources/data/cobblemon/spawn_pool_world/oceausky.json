@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "oceausky-1",
+      "pokemon": "oceausky",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "65-75",
+      "weight": 6.0E-4,
+      "condition": {
+"biomes": [ "#cobblemon:is_frozen" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

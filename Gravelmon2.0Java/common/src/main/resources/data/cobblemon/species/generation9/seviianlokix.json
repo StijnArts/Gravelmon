@@ -1,0 +1,131 @@
+{
+  "implemented": true,
+  "name": "seviianlokix",
+  "nationalPokedexNumber": 920,
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "abilities": [
+    "swarm",
+    "h:tintedlens"
+  ],
+  "baseStats": {
+    "hp": 71,
+    "attack": 102,
+    "defence": 78,
+    "special_attack": 52,
+    "special_defence": 55,
+    "speed": 92
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 158,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:leer",
+    "1:tackle",
+    "1:lunge",
+    "1:pounce",
+    "4:strugglebug",
+    "6:astonish",
+    "9:dragonbreath",
+    "11:doublekick",
+    "14:screechsound",
+    "18:endure",
+    "22:bugbite",
+    "26:breakingswipe",
+    "30:agility",
+    "34:dualchop",
+    "41:firstimpression",
+    "44:bounce",
+    "48:axekick",
+    "58:scaleshot",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:brickbreak",
+    "tm:dragonclaw",
+    "tm:dragondance",
+    "tm:dualchop",
+    "tm:facade",
+    "tm:hiddenpower",
+    "tm:leechseed",
+    "tm:lowkick",
+    "tm:lowsweep",
+    "tm:protect",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:scaleshot",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:thief",
+    "tm:toxic",
+    "tm:trailblaze",
+    "tm:tripleaxel",
+    "tm:uturn",
+    "tm:xscissor",
+    "tutor:bugbite",
+    "tutor:bugbuzzsound",
+    "tutor:dracometeor",
+    "egg:counter",
+    "egg:skittersmack"  ],
+  "labels": [
+    "radicalred",
+    "gen9",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.seviianlokix.desc"
+  ],
+  "preEvolution": "seviiannymble",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 175,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

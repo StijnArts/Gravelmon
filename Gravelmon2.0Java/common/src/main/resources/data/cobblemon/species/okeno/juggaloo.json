@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "juggaloo",
+  "nationalPokedexNumber": 3721,
+  "primaryType": "bug",
+  "secondaryType": "normal",
+  "abilities": [
+    "limber",
+    "unburden",
+    "h:prankster"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 75,
+    "defence": 55,
+    "special_attack": 55,
+    "special_defence": 85,
+    "speed": 108
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 160,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug",
+    "human_like"
+  ],
+  "moves": [
+    "1:splash",
+    "6:defensecurl",
+    "9:rollout",
+    "12:doubleslap",
+    "15:encore",
+    "18:helpinghand",
+    "21:strugglebug",
+    "24:dizzypunch",
+    "27:flatter",
+    "30:batonpass",
+    "33:uturn",
+    "36:acrobatics",
+    "39:trick",
+    "41:bounce",
+    "48:lunge",
+    "54:mefirst",
+    "tm:playrough",
+    "tm:roleplay",
+    "tm:magiccoat",
+    "tm:wakeupslap",
+    "tm:knockoff",
+    "tm:teeterdance",
+    "tm:fakeout",
+    "tm:simplebeam",
+    "tm:tickle",
+    "tm:copycat",
+    "tm:entrainment",
+    "tm:afteryou",
+    "tm:bestow",
+    "tm:skittersmack"  ],
+  "labels": [
+    "okeno",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.juggaloo.desc"
+  ],
+  "preEvolution": "bugaloo",
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

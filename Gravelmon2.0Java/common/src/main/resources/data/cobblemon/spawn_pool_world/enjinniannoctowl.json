@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "enjinniannoctowl-1",
+      "pokemon": "enjinniannoctowl",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-43",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

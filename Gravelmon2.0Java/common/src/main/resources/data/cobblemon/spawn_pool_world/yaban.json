@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "yaban-1",
+      "pokemon": "yaban",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "25-40",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_bamboo" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

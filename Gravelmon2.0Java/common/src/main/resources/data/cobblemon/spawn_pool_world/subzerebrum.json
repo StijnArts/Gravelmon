@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "subzerebrum-1",
+      "pokemon": "subzerebrum",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "31-44",
+      "weight": 0.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

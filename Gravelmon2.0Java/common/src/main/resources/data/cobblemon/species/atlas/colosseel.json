@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "colosseel",
+  "nationalPokedexNumber": 4557,
+  "primaryType": "ice",
+  "secondaryType": "dragon",
+  "abilities": [
+    "sheerforce",
+    "h:strongjaw"
+  ],
+  "baseStats": {
+    "hp": 101,
+    "attack": 149,
+    "defence": 82,
+    "special_attack": 73,
+    "special_defence": 65,
+    "speed": 62
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 248,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "dragon"
+  ],
+  "moves": [
+    "1:iciclecrash",
+    "5:powdersnow",
+    "8:wrap",
+    "12:rocktomb",
+    "15:dragonrage",
+    "19:icefang",
+    "24:dig",
+    "28:avalanche",
+    "35:iceshard",
+    "42:iciclecrash",
+    "49:snowscape",
+    "56:freezedry",
+    "61:coil",
+    "70:outrage",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:roundsound",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:scald",
+    "tm:surf",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:aerialace",
+    "tm:flashcannon",
+    "tm:gyroball",
+    "tm:shadowball",
+    "tm:darkpulse",
+    "tm:brutalswing",
+    "tm:sludgebomb",
+    "tm:blizzard",
+    "tm:icebeam",
+    "tm:freezedry",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:dig",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:dazzlinggleam",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:snowscape",
+    "tm:stealthrock",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:thunderwave",
+    "tm:aurorabeam",
+    "tm:dragonbreath",
+    "tm:shadowsneak",
+    "tm:coil"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.colosseel.desc"
+  ],
+  "preEvolution": "fraxeel",
+  "baseScale": 0.7000000000000001,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 28,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

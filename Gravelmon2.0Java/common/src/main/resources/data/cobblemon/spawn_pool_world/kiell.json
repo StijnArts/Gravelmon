@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kiell-1",
+      "pokemon": "kiell",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "1-19",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "artickey",
+  "nationalPokedexNumber": 1851,
+  "primaryType": "rock",
+  "secondaryType": "psychic",
+  "abilities": [
+    "sturdy",
+    "serenegrace",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 25,
+    "attack": 50,
+    "defence": 75,
+    "special_attack": 45,
+    "special_defence": 90,
+    "speed": 20
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 150,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 120,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:tackle",
+    "5:teleport",
+    "7:kinesis",
+    "10:accelerock",
+    "13:recover",
+    "16:psybeam",
+    "20:ancientpower",
+    "24:rollout",
+    "28:agility",
+    "32:calmmind",
+    "36:rockslide",
+    "40:extrasensory",
+    "44:powergemcrystal",
+    "48:futuresight",
+    "54:storedpower"  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.artickey.desc"
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

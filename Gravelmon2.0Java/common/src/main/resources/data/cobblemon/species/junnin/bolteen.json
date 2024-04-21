@@ -1,0 +1,151 @@
+{
+  "implemented": true,
+  "name": "bolteen",
+  "nationalPokedexNumber": 2520,
+  "primaryType": "electric",
+  "abilities": [
+    "static",
+    "hustle",
+    "h:motordrive"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 53,
+    "defence": 65,
+    "special_attack": 91,
+    "special_defence": 70,
+    "speed": 91
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 152,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:spark",
+    "20:swiftcosmic",
+    "25:thief",
+    "30:tickle",
+    "35:electroball",
+    "40:assist",
+    "45:rest",
+    "50:fling",
+    "60:discharge",
+    "64:naturalgift",
+    "69:thunder",
+    "tm:signalbeam",
+    "tm:risingvoltage",
+    "tm:shockwave",
+    "tm:afteryou",
+    "tm:endeavor",
+    "tm:snoresound",
+    "tm:thief",
+    "tm:chargebeam",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:counter",
+    "tm:karatechop",
+    "tm:dazzlinggleam",
+    "tm:playrough",
+    "tm:grassknot",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:attract",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:fakeout",
+    "tm:flash",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:mimic",
+    "tm:protect",
+    "tm:refresh",
+    "tm:return",
+    "tm:roundsound",
+    "tm:secretpower",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:toxic",
+    "tm:agility",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:rest",
+    "tm:trick",
+    "tm:flatter",
+    "tm:nuzzle",
+    "tm:charm",
+    "tm:astonish",
+    "tm:fakeout",
+    "tm:copycat",
+    "tm:covet",
+    "tm:playnice",
+    "tm:splash",
+    "tm:stomp",
+    "tm:swagger"  ],
+  "labels": [
+    "junnin",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bolteen.desc"
+  ],
+  "preEvolution": "baybolt",
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

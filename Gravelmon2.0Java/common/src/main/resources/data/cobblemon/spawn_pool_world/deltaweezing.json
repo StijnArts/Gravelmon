@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "deltaweezing-1",
+      "pokemon": "deltaweezing",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-57",
+      "weight": 2.0,
+      "condition": {
+        "canSeeSky": true,
+        "isThundering": true
+      }
+    }
+  ]
+}

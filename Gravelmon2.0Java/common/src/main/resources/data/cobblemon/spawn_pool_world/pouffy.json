@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pouffy-1",
+      "pokemon": "pouffy",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_coast" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_beach" ]    }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "leekadon-1",
+      "pokemon": "leekadon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_savanna" ]    }
+    }
+  ]
+}

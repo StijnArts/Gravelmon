@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "sandemonium",
+  "nationalPokedexNumber": 4535,
+  "primaryType": "rock",
+  "secondaryType": "dark",
+  "abilities": [
+    "roughskin",
+    "defiant",
+    "h:sandforce"
+  ],
+  "baseStats": {
+    "hp": 103,
+    "attack": 121,
+    "defence": 127,
+    "special_attack": 54,
+    "special_defence": 89,
+    "speed": 41
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 241,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "dragon"
+  ],
+  "moves": [
+    "1:scratch",
+    "3:sandattack",
+    "8:furyswipes",
+    "13:sandtomb",
+    "17:screechsound",
+    "21:smackdown",
+    "24:camouflage",
+    "30:sandstorm",
+    "34:crunch",
+    "39:wideguard",
+    "44:honeclaws",
+    "50:earthquake",
+    "55:spikes",
+    "62:fissure",
+    "70:headsmash",
+    "tm:facade",
+    "tm:naturepower",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:roundsound",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:darkpulse",
+    "tm:brutalswing",
+    "tm:poisonjab",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:firepunch",
+    "tm:icepunch",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:sandstorm",
+    "tm:roarsound",
+    "tm:bulkup",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:suckerpunch",
+    "tm:pursuit",
+    "tm:nightslash",
+    "tm:agility",
+    "tm:outrage",
+    "tm:magnitude"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sandemonium.desc"
+  ],
+  "preEvolution": "sandevil",
+  "baseScale": 0.7000000000000001,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 28,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

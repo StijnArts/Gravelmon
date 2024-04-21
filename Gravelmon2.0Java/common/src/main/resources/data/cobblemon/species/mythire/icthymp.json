@@ -1,0 +1,93 @@
+{
+  "implemented": true,
+  "name": "icthymp",
+  "nationalPokedexNumber": 3242,
+  "primaryType": "steel",
+  "abilities": [
+    "bulletproof",
+    "h:propellertail"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 35,
+    "special_defence": 60,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "moves": [
+    "1:bind",
+    "1:charge",
+    "1:thundershock",
+    "1:visegrip",
+    "12:chargebeam",
+    "16:metalsound",
+    "20:autotomize",
+    "24:discharge",
+    "28:screechsound",
+    "32:geargrind",
+    "36:lockon",
+    "42:shiftgear",
+    "48:zapcannon",
+    "54:hyperbeam"  ],
+  "labels": [
+    "mythire",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.icthymp.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

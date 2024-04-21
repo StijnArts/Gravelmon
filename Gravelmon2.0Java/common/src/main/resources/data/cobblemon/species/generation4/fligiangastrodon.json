@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "fligiangastrodon",
+  "nationalPokedexNumber": 423,
+  "primaryType": "water",
+  "secondaryType": "ghost",
+  "abilities": [
+    "keeneye",
+    "h:waterveil"
+  ],
+  "baseStats": {
+    "hp": 111,
+    "attack": 105,
+    "defence": 73,
+    "special_attack": 62,
+    "special_defence": 92,
+    "speed": 32
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 166,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "amorphous"
+  ],
+  "moves": [
+    "1:scratch",
+    "2:lick",
+    "4:babydolleyes",
+    "7:waterpulse",
+    "11:hypnosis",
+    "16:bite",
+    "22:raindance",
+    "29:shadowclaw",
+    "37:razorshell",
+    "46:recover",
+    "50:crunch",
+    "tm:snoresound",
+    "tm:icywind",
+    "tm:painsplit",
+    "tm:waterpulse",
+    "tm:curse",
+    "tm:chillingwater",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:thunderfang",
+    "tm:surf",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:hyperbeam",
+    "tm:earthquake",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:waterfall",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:protect",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:snowscape",
+    "tm:facade",
+    "tm:rocktomb",
+    "tm:gigaimpact",
+    "tm:stoneedge",
+    "tm:sludgewave",
+    "tm:roundsound",
+    "tm:scald",
+    "tm:bulldoze",
+    "tm:confide",
+    "tm:infestation",
+    "tm:rocksmash",
+    "tm:chillingwater"  ],
+  "labels": [
+    "fliga",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.fligiangastrodon.desc"
+  ],
+  "preEvolution": "fligianshellos",
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 299,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,140 @@
+{
+  "implemented": true,
+  "name": "relicweezing",
+  "nationalPokedexNumber": 110,
+  "primaryType": "fire",
+  "secondaryType": "steel",
+  "abilities": [
+    "aftermath",
+    "h:whitesmoke"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 85,
+    "defence": 125,
+    "special_attack": 90,
+    "special_defence": 75,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 20,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 172,
+  "experienceGroup": "slow",
+  "eggCycles": 51,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:earthpower",
+    "1:doublehit",
+    "1:firespin",
+    "1:clearsmog",
+    "1:leer",
+    "7:ember",
+    "10:smokescreen",
+    "16:haze",
+    "21:magnetbomb",
+    "26:flamewheel",
+    "29:selfdestruct",
+    "31:gyroball",
+    "37:willowisp",
+    "39:explosion",
+    "43:fireblast",
+    "50:ironhead",
+    "58:burnup",
+    "63:memento",
+    "69:morningsun",
+    "tm:workup",
+    "tm:toxic",
+    "tm:venoshock",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:frustration",
+    "tm:return",
+    "tm:shadowball",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:sludgebomb",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:thief",
+    "tm:roundsound",
+    "tm:overheat",
+    "tm:brutalswing",
+    "tm:willowisp",
+    "tm:embargo",
+    "tm:explosion",
+    "tm:gyroball",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:snarl",
+    "tm:darkpulse",
+    "tm:confide",
+    "tm:endeavor",
+    "tm:gastroacid",
+    "tm:heatwave",
+    "tm:painsplit",
+    "tm:stealthrock"  ],
+  "labels": [
+    "phoenix_rising",
+    "gen1",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.relicweezing.desc"
+  ],
+  "preEvolution": "relickoffing",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 2590,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

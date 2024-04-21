@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "novrancranidos-1",
+      "pokemon": "novrancranidos",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "11-36",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

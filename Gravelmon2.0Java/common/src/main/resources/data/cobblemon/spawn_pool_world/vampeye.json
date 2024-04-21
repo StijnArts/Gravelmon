@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "vampeye-1",
+      "pokemon": "vampeye",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "35-54",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#minecraft:is_deep_ocean" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_beach" ]    }
+    }
+  ]
+}

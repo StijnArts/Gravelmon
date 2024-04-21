@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "snofa-1",
+      "pokemon": "snofa",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-54",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy_forest" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "alpacurrent",
+  "nationalPokedexNumber": 2852,
+  "primaryType": "electric",
+  "secondaryType": "normal",
+  "abilities": [
+    "lightningrod",
+    "h:fluffy"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 110,
+    "defence": 50,
+    "special_attack": 85,
+    "special_defence": 95,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 168,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:growl",
+    "9:thunderwave",
+    "13:quickattack",
+    "17:thundershock",
+    "21:cottonguard",
+    "25:stomp",
+    "29:shockwave",
+    "33:electricterrain",
+    "37:discharge",
+    "41:spitup",
+    "45:doubleedge",
+    "52:thunderbolt",
+    "58:wildcharge"  ],
+  "labels": [
+    "lonava",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.alpacurrent.desc"
+  ],
+  "preEvolution": "chooft",
+  "baseScale": 0.47500000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "beimota-1",
+      "pokemon": "beimota",
+      "presets": [
+          "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "37-59",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_spooky" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

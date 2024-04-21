@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "sedavlin",
+  "nationalPokedexNumber": 2567,
+  "primaryType": "bug",
+  "secondaryType": "grass",
+  "abilities": [
+    "swarm",
+    "chlorophyll",
+    "h:shielddust"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 60,
+    "defence": 90,
+    "special_attack": 95,
+    "special_defence": 70,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:razorleaf",
+    "12:razorleaf",
+    "16:protect",
+    "20:stunspore",
+    "24:sleeppowder",
+    "26:airslash",
+    "28:gigadrain",
+    "32:silverwind",
+    "36:cottonguard",
+    "40:cottonspore",
+    "45:energyball",
+    "50:petaldance",
+    "54:bugbuzzsound",
+    "61:quiverdance"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.sedavlin.desc"
+  ],
+  "preEvolution": "cottoon",
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

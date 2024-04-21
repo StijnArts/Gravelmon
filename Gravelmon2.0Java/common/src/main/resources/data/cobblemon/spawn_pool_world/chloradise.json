@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chloradise-1",
+      "pokemon": "chloradise",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.8,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_winter",
+"#cobblemon:is_summer" ]    }
+    }
+  ]
+}

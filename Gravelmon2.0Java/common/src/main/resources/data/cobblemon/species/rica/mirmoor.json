@@ -1,0 +1,159 @@
+{
+  "implemented": true,
+  "name": "mirmoor",
+  "nationalPokedexNumber": 1269,
+  "primaryType": "water",
+  "abilities": [
+    "torrent",
+    "h:torrent"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 60,
+    "defence": 48,
+    "special_attack": 48,
+    "special_defence": 48,
+    "speed": 48
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1"
+  ],
+  "moves": [
+    "1:growl",
+    "7:watergun",
+    "9:mudsport",
+    "12:focusenergy",
+    "15:headbutt",
+    "18:waterpulse",
+    "22:assurance",
+    "26:swagger",
+    "30:bodyslam",
+    "35:muddywater",
+    "39:workup",
+    "43:suckerpunch",
+    "48:hydropump",
+    "54:thrash",
+    "tm:waterpledge",
+    "tm:bodyslam",
+    "tm:superpower",
+    "tm:muddywater",
+    "tm:icefang",
+    "tm:icywind",
+    "tm:foulplay",
+    "tm:knockoff",
+    "tm:sludgewave",
+    "tm:playrough",
+    "tm:swordsdance",
+    "tm:surf",
+    "tm:icebeam",
+    "tm:strength",
+    "tm:toxic",
+    "tm:doubleteam",
+    "tm:waterfall",
+    "tm:rest",
+    "tm:rockslide",
+    "tm:substitute",
+    "tm:thief",
+    "tm:protect",
+    "tm:sludgebomb",
+    "tm:swagger",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:shadowball",
+    "tm:rocksmash",
+    "tm:snowscape",
+    "tm:torment",
+    "tm:facade",
+    "tm:taunt",
+    "tm:brickbreak",
+    "tm:dive",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:bulkup",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:darkpulse",
+    "tm:focusblast",
+    "tm:stoneedge",
+    "tm:scald",
+    "tm:dragontail",
+    "tm:workup",
+    "tm:brutalswing",
+    "tm:powertrip",
+    "tm:aquajet"  ],
+  "labels": [
+    "rica",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.mirmoor.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "mirmoor_sloowin",
+      "variant": "level_up",
+      "result": "sloowin",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

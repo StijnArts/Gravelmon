@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "hatchick",
+  "nationalPokedexNumber": 3672,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "earlybird",
+    "runaway",
+    "h:weakarmor"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 34,
+    "defence": 58,
+    "special_attack": 34,
+    "special_defence": 34,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "field"
+  ],
+  "moves": [
+    "1:scratch"  ],
+  "labels": [
+    "okeno",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hatchick.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "hatchick_scuffowl",
+      "variant": "level_up",
+      "result": "scuffowl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 15
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

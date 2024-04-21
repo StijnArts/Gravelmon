@@ -1,0 +1,102 @@
+{
+  "implemented": true,
+  "name": "slotherror",
+  "nationalPokedexNumber": 2646,
+  "primaryType": "rock",
+  "secondaryType": "fighting",
+  "abilities": [
+    "toughclaws",
+    "angerpoint",
+    "h:moldbreaker"
+  ],
+  "baseStats": {
+    "hp": 117,
+    "attack": 108,
+    "defence": 77,
+    "special_attack": 61,
+    "special_defence": 77,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+
+  ],
+  "moves": [
+    "1:crushclaw",
+    "1:scratch",
+    "1:sandattack",
+    "4:harden",
+    "7:lick",
+    "10:odorsleuth",
+    "14:mudslap",
+    "17:furyswipes",
+    "20:smackdown",
+    "24:bugbite",
+    "24:rockblast",
+    "28:mudslide",
+    "32:slash",
+    "37:honeclaws",
+    "41:dig",
+    "45:rockpolish",
+    "50:rockslide",
+    "54:curse",
+    "58:doubleedge"  ],
+  "labels": [
+    "orohnhavai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.slotherror.desc"
+  ],
+  "preEvolution": "therasloth",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "voltapir-1",
+      "pokemon": "voltapir",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "33-51",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

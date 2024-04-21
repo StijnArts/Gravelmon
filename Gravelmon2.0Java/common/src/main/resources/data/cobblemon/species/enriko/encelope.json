@@ -1,0 +1,110 @@
+{
+  "implemented": true,
+  "name": "encelope",
+  "nationalPokedexNumber": 1844,
+  "primaryType": "psychic",
+  "secondaryType": "dark",
+  "abilities": [
+    "analytic",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 20,
+    "attack": 15,
+    "defence": 15,
+    "special_attack": 95,
+    "special_defence": 100,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 170,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "amorphous"
+  ],
+  "moves": [
+    "1:gravitycosmic",
+    "5:bind",
+    "7:bite",
+    "10:confusion",
+    "13:poisonfang",
+    "17:crunch",
+    "21:psybeam",
+    "23:confuseray",
+    "26:facade",
+    "30:snarl",
+    "36:sludgebomb",
+    "40:psychic",
+    "43:amnesia",
+    "46:darkpulse",
+    "50:synchronoise"  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.encelope.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "encelope_controlyu",
+      "variant": "level_up",
+      "result": "controlyu",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "amnesia"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}
