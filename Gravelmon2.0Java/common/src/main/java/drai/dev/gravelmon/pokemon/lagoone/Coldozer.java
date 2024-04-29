@@ -73,13 +73,27 @@ public class Coldozer extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of(""),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("frosterror", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"52")))),
+                List.of(
+                        new MoveLearnSetEntry(Move.TAIL_WHIP,1),
+                        new MoveLearnSetEntry(Move.POWDER_SNOW,4),
+                        new MoveLearnSetEntry(Move.STOMP,12),
+                        new MoveLearnSetEntry(Move.BIDE,16),
+                        new MoveLearnSetEntry(Move.ROCK_SLIDE,20),
+                        new MoveLearnSetEntry(Move.ANCIENT_POWER,24),
+                        new MoveLearnSetEntry(Move.MIST,28),
+                        new MoveLearnSetEntry(Move.ICICLE_SPEAR,32),
+                        new MoveLearnSetEntry(Move.ENDURE,40),
+                        new MoveLearnSetEntry(Move.ROCK_POLISH,44),
+                        new MoveLearnSetEntry(Move.ICICLE_CRASH,48),
+                        new MoveLearnSetEntry(Move.STONE_EDGE,52),
+                        new MoveLearnSetEntry(Move.BLIZZARD,58)
+                ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 46, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FREEZING))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

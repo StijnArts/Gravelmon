@@ -8,7 +8,7 @@
       "pokemon": "twygnet",
       "presets": [
           "water_surface",
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "surface",

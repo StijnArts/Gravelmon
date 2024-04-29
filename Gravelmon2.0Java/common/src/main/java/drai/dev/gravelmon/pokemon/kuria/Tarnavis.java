@@ -74,12 +74,29 @@ public class Tarnavis extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_2,EggGroup.WATER_1),
                 List.of("Tarnavis were used as ocean transportation for all of recorded history. Their large bodies allow for multiple people to be ferried from one place to another easily."),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.POISON_STING,1),
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.HARDEN,4),
+                        new MoveLearnSetEntry(Move.WATER_GUN,8),
+                        new MoveLearnSetEntry(Move.FELL_STINGER,12),
+                        new MoveLearnSetEntry(Move.MINIMIZE,16),
+                        new MoveLearnSetEntry(Move.SPIKES,20),
+                        new MoveLearnSetEntry(Move.BRINE,24),
+                        new MoveLearnSetEntry(Move.POISON_JAB,28),
+                        new MoveLearnSetEntry(Move.PIN_MISSILE,32),
+                        new MoveLearnSetEntry(Move.TOXIC_SPIKES,36),
+                        new MoveLearnSetEntry(Move.SPIT_UP,40),
+                        new MoveLearnSetEntry(Move.STOCKPILE,40),
+                        new MoveLearnSetEntry(Move.TOXIC,44),
+                        new MoveLearnSetEntry(Move.AQUA_TAIL,48),
+                        new MoveLearnSetEntry(Move.ACUPRESSURE,52),
+                        new MoveLearnSetEntry(Move.DESTINY_BOND,56)
+                ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 55, 59, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

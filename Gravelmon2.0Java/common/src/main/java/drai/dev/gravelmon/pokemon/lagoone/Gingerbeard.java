@@ -74,14 +74,29 @@ public class Gingerbeard extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.WRING_OUT,1),
+                        new MoveLearnSetEntry(Move.TORMENT,7),
+                        new MoveLearnSetEntry(Move.ASTONISH,13),
+                        new MoveLearnSetEntry(Move.HYPNOSIS,19),
+                        new MoveLearnSetEntry(Move.FAIRY_LOCK,23),
+                        new MoveLearnSetEntry(Move.RAINBOWGUST,29),
+                        new MoveLearnSetEntry(Move.QUASH,31),
+                        new MoveLearnSetEntry(Move.TRICK_ROOM,37),
+                        new MoveLearnSetEntry(Move.DAZZLING_GLEAM,43),
+                        new MoveLearnSetEntry(Move.SUCKER_PUNCH,47),
+                        new MoveLearnSetEntry(Move.TOPSYTURVY,53),
+                        new MoveLearnSetEntry(Move.MEMENTO,59),
+                        new MoveLearnSetEntry(Move.RAINBOWRUSH,67),
+                        new MoveLearnSetEntry(Move.FOUL_PLAY,73)
+                ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.SHIP_WRECK),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gingerbeard");

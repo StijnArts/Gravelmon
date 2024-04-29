@@ -7,7 +7,7 @@
       "id": "hotroach-1",
       "pokemon": "hotroach",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

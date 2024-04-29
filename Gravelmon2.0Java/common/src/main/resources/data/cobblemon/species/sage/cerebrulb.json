@@ -129,14 +129,11 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.cerebrulb.desc"
   ],
-  "preEvolution": "neureka",
   "baseScale": 0.19999999999999998,
   "hitbox": {
     "width": 6.0,

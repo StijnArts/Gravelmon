@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:gargorgon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:goetia_gargorgon",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/goetia/gargorgon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/gargorgon_shiny.png"
+    }  ]
+}

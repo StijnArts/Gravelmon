@@ -7,7 +7,7 @@
       "id": "rorschade-1",
       "pokemon": "rorschade",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

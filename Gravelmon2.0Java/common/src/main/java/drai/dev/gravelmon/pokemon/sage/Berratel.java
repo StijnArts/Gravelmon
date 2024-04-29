@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Berratel extends Pokemon {
     public Berratel() {
         super("Berratel",
@@ -122,7 +120,7 @@ public class Berratel extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.5, 0.5,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

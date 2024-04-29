@@ -7,7 +7,7 @@
       "id": "puppond-1",
       "pokemon": "puppond",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

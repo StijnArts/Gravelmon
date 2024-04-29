@@ -1,0 +1,116 @@
+{
+  "implemented": true,
+  "name": "duranae",
+  "nationalPokedexNumber": 3588,
+  "primaryType": "ground",
+  "secondaryType": "bug",
+  "abilities": [
+    "battlearmor",
+    "sturdy",
+    "h:sheerforce"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 75,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "bug"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:stringshot",
+    "1:defensecurl",
+    "3:mudslap",
+    "5:sandattack",
+    "8:rollout",
+    "12:bugbite",
+    "16:dig",
+    "20:spikes",
+    "23:magnitude",
+    "24:stickyweb",
+    "27:mudbomb",
+    "34:xscissor",
+    "38:whirlwind",
+    "42:stealthrock",
+    "46:earthquake",
+    "48:bugbuzzsound",
+    "53:shellsmash",
+    "57:gunkshot",
+    "60:fissure"  ],
+  "labels": [
+    "kuria",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.duranae.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "duranae_atroceros",
+      "variant": "level_up",
+      "result": "atroceros",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 214,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

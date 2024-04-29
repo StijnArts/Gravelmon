@@ -7,7 +7,7 @@
       "id": "trairoo-1",
       "pokemon": "trairoo",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

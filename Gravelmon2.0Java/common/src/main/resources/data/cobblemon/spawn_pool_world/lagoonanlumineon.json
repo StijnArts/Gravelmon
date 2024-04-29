@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lagoonanlumineon-1",
+      "pokemon": "lagoonanlumineon",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "common",
+      "level": "36-54",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#minecraft:is_deep_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

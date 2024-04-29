@@ -7,7 +7,7 @@
       "id": "nutzen-1",
       "pokemon": "nutzen",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

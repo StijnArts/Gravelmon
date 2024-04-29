@@ -1,7 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo.secondbatch;
 
 
-import drai.dev.gravelmon.pokemon.ionos.MimeJr;
+import drai.dev.gravelmon.pokemon.ionos.IonosianMimeJr;
 import drai.dev.gravelmon.pokemon.orbis.Pomdan;
 import drai.dev.gravelmon.pokemon.orbis.regional.*;
 import drai.dev.gravelmon.pokemon.orbis.*;
@@ -127,7 +127,7 @@ public class Orbis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Exploud(295));
         pokemon.add(new Scraggy(559));
         pokemon.add(new Scrafty(560));
-        pokemon.add(new MimeJr(439));
+        pokemon.add(new IonosianMimeJr(439));
         pokemon.add(new MrMime(122));
         pokemon.add(new MrRime(866));
 //        pokemon.add(new Vermob());   Missing Stats
@@ -150,7 +150,7 @@ public class Orbis extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Uninail());   Missing Stats
 //        pokemon.add(new Desertusk());   Missing Stats
 //        pokemon.add(new Burrorm());   Missing Stats
-        pokemon.add(new Burryrm());
+//        pokemon.add(new Burryrm());  Member of line Not Finished
         pokemon.add(new Baybee());
         pokemon.add(new Drillbee());
         pokemon.add(new Diggbee());

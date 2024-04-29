@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Borubotto extends Pokemon {
     public Borubotto() {
         super( "Borubotto",
@@ -64,7 +62,7 @@ public class Borubotto extends Pokemon {
                 List.of(), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 59, 0.1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD))
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.4, 0.3,
                 List.of());
     }

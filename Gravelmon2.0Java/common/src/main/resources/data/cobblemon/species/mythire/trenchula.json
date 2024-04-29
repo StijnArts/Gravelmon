@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trenchula",
-  "nationalPokedexNumber": 3241,
+  "nationalPokedexNumber": 3320,
   "primaryType": "dark",
   "abilities": [
     "unnerve",
@@ -118,11 +118,14 @@
     "tm:psychocut"  ],
   "labels": [
     "mythire",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.trenchula.desc"
   ],
+  "preEvolution": "minarac",
   "baseScale": 0.425,
   "hitbox": {
     "width": 6.0,

@@ -73,7 +73,8 @@ public class Beani extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Beani are born in a somewhat atypical fashion. While they're completely capable of hatching normally, farmers like to plant the eggs in the ground and keep them safe until the Beani is born. Beani are universally beloved due to secreting a salty liquid that is often used by chefs."),
-                List.of(),
+                List.of(new EvolutionEntry("setsubean", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
                         new MoveLearnSetEntry(Move.VINE_WHIP,1),
                         new MoveLearnSetEntry(Move.GROWTH,1),
@@ -97,7 +98,7 @@ public class Beani extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.FLIGA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

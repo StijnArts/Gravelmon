@@ -7,7 +7,7 @@
       "id": "meowster-1",
       "pokemon": "meowster",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

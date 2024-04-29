@@ -67,7 +67,7 @@ public class Larintenant extends drai.dev.gravelmon.pokemon.Pokemon {
                         90),
                 List.of(Ability.INNER_FOCUS,Ability.DRIZZLE), Ability.SWIFT_SWIM,
                 16, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

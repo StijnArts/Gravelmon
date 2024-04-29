@@ -7,7 +7,7 @@
       "id": "techknot-1",
       "pokemon": "techknot",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

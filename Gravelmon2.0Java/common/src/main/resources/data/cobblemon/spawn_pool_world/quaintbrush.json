@@ -7,7 +7,7 @@
       "id": "quaintbrush-1",
       "pokemon": "quaintbrush",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

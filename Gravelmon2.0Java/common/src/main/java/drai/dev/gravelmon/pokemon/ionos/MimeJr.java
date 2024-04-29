@@ -51,14 +51,15 @@ import drai.dev.gravelmon.pokemon.varitas.*;
 import drai.dev.gravelmon.pokemon.aristos.*;
 import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.crozoic.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 public class MimeJr extends drai.dev.gravelmon.pokemon.Pokemon {
-    public MimeJr(int dex) {
-        super(dex, "MimeJr",
-                Type.DARK, Type.FAIRY,
+    public MimeJr() {
+        super("MimeJr",
+                Type.DARK,Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

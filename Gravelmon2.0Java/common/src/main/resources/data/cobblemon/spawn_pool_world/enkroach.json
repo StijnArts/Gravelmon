@@ -7,7 +7,7 @@
       "id": "enkroach-1",
       "pokemon": "enkroach",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

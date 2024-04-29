@@ -7,7 +7,7 @@
       "id": "ratsy-1",
       "pokemon": "ratsy",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

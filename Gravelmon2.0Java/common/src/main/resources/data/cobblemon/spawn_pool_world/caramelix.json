@@ -7,7 +7,7 @@
       "id": "caramelix-1",
       "pokemon": "caramelix",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

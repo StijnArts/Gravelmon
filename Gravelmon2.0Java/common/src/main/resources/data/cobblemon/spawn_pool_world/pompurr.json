@@ -7,7 +7,7 @@
       "id": "pompurr-1",
       "pokemon": "pompurr",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -97,7 +97,7 @@ public class Shampooch extends drai.dev.gravelmon.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Shampooch");

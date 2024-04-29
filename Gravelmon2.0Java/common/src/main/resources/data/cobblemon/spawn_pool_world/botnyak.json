@@ -7,7 +7,7 @@
       "id": "botnyak-1",
       "pokemon": "botnyak",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

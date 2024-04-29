@@ -7,7 +7,7 @@
       "id": "tropiary-1",
       "pokemon": "tropiary",
       "presets": [
-          "urban",
+          "village",
           "foliage"
       ],
       "type": "pokemon",

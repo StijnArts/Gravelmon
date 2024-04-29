@@ -7,7 +7,7 @@
       "id": "kitkin-1",
       "pokemon": "kitkin",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

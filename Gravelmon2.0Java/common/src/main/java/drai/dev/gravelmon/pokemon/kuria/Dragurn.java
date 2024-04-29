@@ -73,15 +73,33 @@ public class Dragurn extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("When born Dragurn find a vessel to hide within to protect themselves from predators. They will stay in their new-found homes all of their life."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("bulbasaur", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DRAGON_PULSE.getName()+"\"")))),
+                List.of(            new MoveLearnSetEntry(Move.LEER,1),
+                        new MoveLearnSetEntry(Move.SCRATCH,1),
+                        new MoveLearnSetEntry(Move.BITE,3),
+                        new MoveLearnSetEntry(Move.FALSE_SWIPE,6),
+                        new MoveLearnSetEntry(Move.ASSURANCE,9),
+                        new MoveLearnSetEntry(Move.TAUNT,12),
+                        new MoveLearnSetEntry(Move.SLASH,15),
+                        new MoveLearnSetEntry(Move.DRAGON_CLAW,18),
+                        new MoveLearnSetEntry(Move.METAL_CLAW,21),
+                        new MoveLearnSetEntry(Move.CRUNCH,24),
+                        new MoveLearnSetEntry(Move.DRAGON_DANCE,27),
+                        new MoveLearnSetEntry(Move.BREAKING_SWIPE,30),
+                        new MoveLearnSetEntry(Move.IRON_HEAD,33),
+                        new MoveLearnSetEntry(Move.DRAGON_PULSE,36),
+                        new MoveLearnSetEntry(Move.SWORDS_DANCE,39),
+                        new MoveLearnSetEntry(Move.OUTRAGE,42),
+                        new MoveLearnSetEntry(Move.GUILLOTINE,45),
+                        new MoveLearnSetEntry(Move.GIGA_IMPACT,48)            ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 29, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dragurn");

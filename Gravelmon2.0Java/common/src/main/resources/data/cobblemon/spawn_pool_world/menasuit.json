@@ -7,7 +7,7 @@
       "id": "menasuit-1",
       "pokemon": "menasuit",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

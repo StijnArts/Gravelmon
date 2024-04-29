@@ -7,7 +7,7 @@
       "id": "signapsi-1",
       "pokemon": "signapsi",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

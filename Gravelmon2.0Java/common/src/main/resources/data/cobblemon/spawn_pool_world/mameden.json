@@ -7,7 +7,7 @@
       "id": "mameden-1",
       "pokemon": "mameden",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

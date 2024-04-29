@@ -7,7 +7,7 @@
       "id": "delibo-1",
       "pokemon": "delibo",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

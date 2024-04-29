@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class AyreianDugtrio extends Pokemon {
     public AyreianDugtrio(int dexNo) {
         super(dexNo,"AyreianDugtrio",
@@ -100,7 +98,7 @@ public class AyreianDugtrio extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_FOREST))),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Dugtrio");

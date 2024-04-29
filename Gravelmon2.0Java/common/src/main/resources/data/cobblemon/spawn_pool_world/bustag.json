@@ -7,7 +7,7 @@
       "id": "bustag-1",
       "pokemon": "bustag",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "hurdwall-1",
       "pokemon": "hurdwall",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

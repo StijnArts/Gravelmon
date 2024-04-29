@@ -7,7 +7,7 @@
       "id": "beagasso-1",
       "pokemon": "beagasso",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

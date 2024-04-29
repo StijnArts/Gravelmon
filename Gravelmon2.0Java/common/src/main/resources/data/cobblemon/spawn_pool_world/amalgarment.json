@@ -7,7 +7,7 @@
       "id": "amalgarment-1",
       "pokemon": "amalgarment",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -6,8 +6,6 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
-import java.util.*;
-
 public class HoennianPinsir extends Pokemon {
     public HoennianPinsir(int dexNo) {
         super(dexNo,"HoennianPinsir",
@@ -67,7 +65,7 @@ public class HoennianPinsir extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_TEMPERATE))),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Pinsir");

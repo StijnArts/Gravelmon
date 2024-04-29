@@ -114,7 +114,7 @@ public class Mobipup extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3.8, List.of(
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mobipup");

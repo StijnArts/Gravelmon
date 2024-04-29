@@ -72,8 +72,9 @@ public class Oiphinae extends drai.dev.gravelmon.pokemon.Pokemon {
                 143, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_2,EggGroup.DRAGON),
-                List.of("- Pound Normal - Smokescreen Normal 5 Aqua Slap Water 8 Poison Gas Poison 10 SludgeSTAB Poison 12 Aqua Ring Water 17 Acid SpraySTAB Poison 20 U-turn Bug 25 Toxic Poison 28 Muddy Water Water 33 Sludge WaveSTAB Poison 36 Coil Poison 41 BelchSTAB Poison 44 Wring Out Normal 49 Gunk ShotSTAB Poison 53 Jaw Lock Dark"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("hazarachi", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:moon_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),
                         new MoveLearnSetEntry(Move.POUND,1),
@@ -99,14 +100,16 @@ public class Oiphinae extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOM_DRENCH,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 21, 43, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_MAGMA, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Oiphinae");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
 
     }
 

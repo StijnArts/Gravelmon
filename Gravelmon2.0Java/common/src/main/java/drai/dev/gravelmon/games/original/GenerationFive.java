@@ -11,6 +11,7 @@ import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.interregional.regional.*;
+import drai.dev.gravelmon.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
@@ -30,6 +31,9 @@ public class GenerationFive extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new IonosianKarrablast(588));   Missing Art
+//        pokemon.add(new IonosianDruddigon(621));   Missing Stats
+
         pokemon.add(new FligianVanillite(582));
         pokemon.add(new FligianVanillish(583));
 

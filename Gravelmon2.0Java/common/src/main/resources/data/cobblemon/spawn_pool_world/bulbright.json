@@ -7,7 +7,7 @@
       "id": "bulbright-1",
       "pokemon": "bulbright",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

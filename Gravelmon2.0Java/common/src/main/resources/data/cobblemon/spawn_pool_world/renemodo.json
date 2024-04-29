@@ -7,7 +7,7 @@
       "id": "renemodo-1",
       "pokemon": "renemodo",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

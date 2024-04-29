@@ -17,6 +17,15 @@ public class Stats {
         this.speed = speed;
     }
 
+    public Stats(Stats other, double factor) {
+        this.HP = (int) (other.HP * factor);
+        this.attack = (int) (other.attack * factor);
+        this.defense = (int) (other.defense * factor);
+        this.specialAttack = (int) (other.specialAttack * factor);
+        this.specialDefense = (int) (other.specialDefense * factor);
+        this.speed = (int) (other.speed * factor);
+    }
+
     public int getHP() {
         return HP;
     }
@@ -43,5 +52,9 @@ public class Stats {
 
     public int getTotal() {
         return  HP + attack + defense + specialAttack + specialDefense + speed;
+    }
+
+    public boolean isEmpty() {
+        return HP == 0 || attack == 0 || defense == 0 || specialAttack == 0 || specialDefense == 0 || speed == 0;
     }
 }

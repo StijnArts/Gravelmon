@@ -7,7 +7,7 @@
       "id": "quivirus-1",
       "pokemon": "quivirus",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

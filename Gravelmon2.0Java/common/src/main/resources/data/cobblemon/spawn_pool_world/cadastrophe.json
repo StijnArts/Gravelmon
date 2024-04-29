@@ -7,7 +7,7 @@
       "id": "cadastrophe-1",
       "pokemon": "cadastrophe",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

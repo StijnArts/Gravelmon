@@ -37,7 +37,7 @@ public class Urinee extends drai.dev.gravelmon.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 2, List.of(
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Urinee");

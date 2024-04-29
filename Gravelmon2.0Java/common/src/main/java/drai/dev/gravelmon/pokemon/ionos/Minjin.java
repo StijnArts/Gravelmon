@@ -66,8 +66,8 @@ public class Minjin extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         130),
                 List.of(Ability.AERILATE), Ability.AERILATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -96,7 +96,7 @@ public class Minjin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOOMBURST,88)                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0012, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

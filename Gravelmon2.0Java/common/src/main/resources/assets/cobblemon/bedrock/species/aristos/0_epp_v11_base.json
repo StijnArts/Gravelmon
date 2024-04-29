@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:epp_v11",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:aristos_epp_v11",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/aristos/epp_v11.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/aristos/epp_v11_shiny.png"
+    }  ]
+}

@@ -72,8 +72,9 @@ public class Scarasoil extends drai.dev.gravelmon.pokemon.Pokemon {
                 66, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.BUG,EggGroup.MINERAL),
-                List.of("- Tackle Normal - String Shot Bug - Defense Curl Normal 3 Mud-SlapSTAB Ground 5 Sand Attack Ground 8 Rollout Rock 12 Bug BiteSTAB Bug 16 DigSTAB Ground 20 Spikes Ground 23 MagnitudeSTAB Ground 24 Sticky Web Bug 27 Mud BombSTAB Ground 34 X-ScissorSTAB Bug 38 Whirlwind Normal 42 Stealth Rock Rock 46 EarthquakeSTAB Ground 48 Bug BuzzSTAB Bug 53 Shell Smash Normal 57 Gunk Shot Poison 60 FissureSTAB Ground"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("bowlaphod", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.STRING_SHOT,1),
@@ -97,8 +98,8 @@ public class Scarasoil extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FISSURE,60)                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

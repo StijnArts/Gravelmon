@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class AmazeAllDrifblim extends Pokemon {
     public AmazeAllDrifblim(int dexNo) {
         super(dexNo,"AmazeAllDrifblim",
@@ -89,7 +87,7 @@ public class AmazeAllDrifblim extends Pokemon {
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 48, 1.6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE))
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Drifblim");

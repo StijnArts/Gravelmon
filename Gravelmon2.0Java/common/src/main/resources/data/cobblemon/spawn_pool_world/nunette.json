@@ -7,7 +7,7 @@
       "id": "nunette-1",
       "pokemon": "nunette",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

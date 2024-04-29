@@ -66,7 +66,7 @@ public class Hullk extends drai.dev.gravelmon.pokemon.Pokemon {
                         53,
                         23),
                 List.of(Ability.BEAST_BOOST), Ability.BEAST_BOOST,
-                0, 0,
+                58, 0,
                 new Stats(0,0,3,0,0,0), 45,
                 0.0,
                 231, ExperienceGroup.SLOW,
@@ -74,12 +74,22 @@ public class Hullk extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Codename: UB-027 Titan. A member of an Ultra Beast family. It's flames that burn from it's presumed mouth never peter out, even in rain. It can emit such a bright light that it can give the illusion of a sunrise at midnight."),
                 List.of(),
-                List.of(                        ),
+                List.of(         new MoveLearnSetEntry(Move.ANCIENT_POWER,1),
+                        new MoveLearnSetEntry(Move.LOCKON,1),
+                        new MoveLearnSetEntry(Move.INCINERATE,1),
+                        new MoveLearnSetEntry(Move.WIDE_GUARD,1),
+                        new MoveLearnSetEntry(Move.METAL_CLAW,10),
+                        new MoveLearnSetEntry(Move.FIRE_PUNCH,19),
+                        new MoveLearnSetEntry(Move.WILLOWISP,28),
+                        new MoveLearnSetEntry(Move.IRON_HEAD,37),
+                        new MoveLearnSetEntry(Move.INFERNO,46),
+                        new MoveLearnSetEntry(Move.HEAVY_SLAM,55),
+                        new MoveLearnSetEntry(Move.DYNAMICPUNCH,64),
+                        new MoveLearnSetEntry(Move.FLARE_BLITZ,73)               ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

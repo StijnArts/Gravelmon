@@ -7,7 +7,7 @@
       "id": "reneuron-1",
       "pokemon": "reneuron",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "canvalith-1",
       "pokemon": "canvalith",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

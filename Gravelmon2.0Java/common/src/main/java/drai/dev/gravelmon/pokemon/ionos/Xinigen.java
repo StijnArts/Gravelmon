@@ -66,8 +66,8 @@ public class Xinigen extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         120),
                 List.of(Ability.MAGIC_GUARD), Ability.MAGIC_GUARD,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                35, 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -95,7 +95,7 @@ public class Xinigen extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAZOR_WIND,93)                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

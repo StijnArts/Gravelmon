@@ -7,7 +7,7 @@
       "id": "sisanne-1",
       "pokemon": "sisanne",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "injectoplasm-1",
       "pokemon": "injectoplasm",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

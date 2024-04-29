@@ -73,13 +73,28 @@ public class Stalagtic extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL),
                 List.of("Stalagtic are often too small to see unless they're on the move. Because of this, many step on their spiked top and get seriously injured."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("conamite", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
+                List.of(
+                        new MoveLearnSetEntry(Move.HARDEN,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,5),
+                        new MoveLearnSetEntry(Move.ROCK_THROW,8),
+                        new MoveLearnSetEntry(Move.SHARPEN,12),
+                        new MoveLearnSetEntry(Move.SPIKE_CANNON,16),
+                        new MoveLearnSetEntry(Move.ASSURANCE,20),
+                        new MoveLearnSetEntry(Move.ROCK_BLAST,25),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,29),
+                        new MoveLearnSetEntry(Move.DRILL_RUN,32),
+                        new MoveLearnSetEntry(Move.ROCK_SLIDE,36),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,41),
+                        new MoveLearnSetEntry(Move.SUCKER_PUNCH,45),
+                        new MoveLearnSetEntry(Move.SHELL_SMASH,49),
+                        new MoveLearnSetEntry(Move.HEAD_SMASH,53)
+                ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

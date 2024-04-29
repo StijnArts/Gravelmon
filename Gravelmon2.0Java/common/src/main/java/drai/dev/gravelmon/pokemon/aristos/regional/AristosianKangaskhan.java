@@ -16,14 +16,14 @@ public class AristosianKangaskhan extends drai.dev.gravelmon.pokemon.Pokemon {
                         40,
                         80,
                         90),
-                List.of(Ability.EARLY_BIRD,Ability.SCRAPPY,Ability.INNER_FOCUS), Ability.INNER_FOCUS,
+                List.of(Ability.EARLY_BIRD,Ability.SCRAPPY), Ability.INNER_FOCUS,
                 22, 800,
                 new Stats(2,0,0,0,0,0), 45,
                 0.5,
                 172, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("- Comet PunchSTAB Normal - Leer Normal 7 Fake OutSTAB Normal 10 Tail Whip Normal 13 Bite Dark 19 Double HitSTAB Normal 22 RageSTAB Normal 25 Mega PunchSTAB Normal 31 Chip AwaySTAB Normal 34 Dizzy PunchSTAB Normal 37 Crunch Dark 43 Endure Normal 46 Outrage Dragon 49 Sucker Punch Dark 50 Reversal Fighting"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -141,7 +141,7 @@ public class AristosianKangaskhan extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CIRCLE_THROW,"tm")                        ),
                 List.of(Label.ARISTOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 49, 10, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 24, 49, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

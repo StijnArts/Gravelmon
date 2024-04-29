@@ -66,8 +66,8 @@ public class Carchankle extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         90),
                 List.of(Ability.SANDBATH), Ability.MIMICRY,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                14, 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -130,14 +130,17 @@ public class Carchankle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 23, 44, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Carchankle");
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
+
 
     }
 

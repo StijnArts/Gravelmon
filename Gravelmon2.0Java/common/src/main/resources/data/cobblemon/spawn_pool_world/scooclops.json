@@ -7,7 +7,7 @@
       "id": "scooclops-1",
       "pokemon": "scooclops",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

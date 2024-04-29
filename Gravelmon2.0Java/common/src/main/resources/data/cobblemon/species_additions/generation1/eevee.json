@@ -22,6 +22,46 @@
    "requiredContext": "gravelmon:air_stone"
   },
   {
+   "id": "eevee_astreon",
+   "variant": "item_interact",
+   "result": "astreon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "gravelmon:astral_stone"
+  },
+  {
+   "id": "eevee_illuseon",
+   "variant": "item_interact",
+   "result": "illuseon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "gravelmon:dusk_stone"
+  },
+  {
+   "id": "eevee_typheon",
+   "variant": "item_interact",
+   "result": "typheon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "gravelmon:air_stone"
+  },
+  {
+   "id": "eevee_shyneon",
+   "variant": "item_interact",
+   "result": "shyneon",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "cobblemon:shiny_stone"
+  },
+  {
    "id": "eevee_champeon",
    "variant": "level_up",
    "result": "champeon",
@@ -35,6 +75,19 @@
     {
      "variant": "held_item",
      "itemCondition": "cobblemon:black_belt"
+    }
+   ]
+  },
+  {
+   "id": "eevee_icheon",
+   "variant": "level_up",
+   "result": "icheon",
+   "consumeHeldItem": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:throat_spray"
     }
    ]
   },

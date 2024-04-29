@@ -16,7 +16,7 @@ public enum SpawnPreset {
     TREE_TOP("treetop"),
     UNDERLAVA("underlava"),
     UNDERWATER("underwater"),
-    URBAN("urban"),
+    VILLAGE("village"),
     HONEY_TREE("honey_tree"),
     MANSION("mansion"),
     MINESHAFT("mineshaft"),

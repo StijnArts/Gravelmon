@@ -7,7 +7,7 @@
       "id": "discobrawl-1",
       "pokemon": "discobrawl",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

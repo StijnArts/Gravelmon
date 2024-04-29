@@ -74,6 +74,9 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.midamis","Midamis");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.novrai","Novrai");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.atlas","Atlas");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.fliga","Fliga");
         LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.orohnhavai","Orohn-Havai");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.kuria","Kuria");
+        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.lagoone","Lagoone");
     }
 }

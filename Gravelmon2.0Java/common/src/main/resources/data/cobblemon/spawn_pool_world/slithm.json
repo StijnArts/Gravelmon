@@ -7,7 +7,7 @@
       "id": "slithm-1",
       "pokemon": "slithm",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "dunnoboss-1",
       "pokemon": "dunnoboss",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

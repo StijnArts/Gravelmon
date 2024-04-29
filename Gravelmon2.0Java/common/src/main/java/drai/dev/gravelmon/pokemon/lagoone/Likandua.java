@@ -73,12 +73,24 @@ public class Likandua extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of(""),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("tamanozzle", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"21")))),
+                List.of(
+                        new MoveLearnSetEntry(Move.POUND,1),
+                        new MoveLearnSetEntry(Move.QUICK_ATTACK,7),
+                        new MoveLearnSetEntry(Move.CHARM,11),
+                        new MoveLearnSetEntry(Move.BOUNCE,15),
+                        new MoveLearnSetEntry(Move.QUICK_ATTACK,19),
+                        new MoveLearnSetEntry(Move.UPROAR,22),
+                        new MoveLearnSetEntry(Move.JUMP_KICK,26),
+                        new MoveLearnSetEntry(Move.MEGA_KICK,30),
+                        new MoveLearnSetEntry(Move.AGILITY,33),
+                        new MoveLearnSetEntry(Move.HIGH_JUMP_KICK,46)
+                ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -7,7 +7,7 @@
       "id": "filsick-1",
       "pokemon": "filsick",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

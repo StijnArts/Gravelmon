@@ -7,7 +7,7 @@
       "id": "mockerel-1",
       "pokemon": "mockerel",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "surface",

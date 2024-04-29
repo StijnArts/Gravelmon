@@ -7,7 +7,7 @@
       "id": "breame-1",
       "pokemon": "breame",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

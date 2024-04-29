@@ -7,7 +7,7 @@
       "id": "mattreeze-1",
       "pokemon": "mattreeze",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

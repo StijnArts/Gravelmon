@@ -74,12 +74,26 @@ public class Varantox extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.BUG,EggGroup.MONSTER),
                 List.of("Varantox hunts prey by putting webs coated in a powerful poison which can distort the reality around it. They use this to disorient those they trap."),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.WRAP,1),
+                        new MoveLearnSetEntry(Move.LEER,4),
+                        new MoveLearnSetEntry(Move.BITE,7),
+                        new MoveLearnSetEntry(Move.ACID,11),
+                        new MoveLearnSetEntry(Move.PURSUIT,14),
+                        new MoveLearnSetEntry(Move.POISON_FANG,19),
+                        new MoveLearnSetEntry(Move.SLAM,22),
+                        new MoveLearnSetEntry(Move.GLARE,25),
+                        new MoveLearnSetEntry(Move.CRUNCH,30),
+                        new MoveLearnSetEntry(Move.ACID_SPRAY,35),
+                        new MoveLearnSetEntry(Move.COIL,41),
+                        new MoveLearnSetEntry(Move.TOXIC,46),
+                        new MoveLearnSetEntry(Move.SLUDGE_BOMB,51),
+                        new MoveLearnSetEntry(Move.MOONLIGHT,55),
+                        new MoveLearnSetEntry(Move.GUNK_SHOT,60)                ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 40, 56, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

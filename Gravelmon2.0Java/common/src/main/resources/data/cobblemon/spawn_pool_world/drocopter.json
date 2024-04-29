@@ -7,7 +7,7 @@
       "id": "drocopter-1",
       "pokemon": "drocopter",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

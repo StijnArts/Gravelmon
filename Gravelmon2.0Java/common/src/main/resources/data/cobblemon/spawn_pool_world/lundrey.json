@@ -7,7 +7,7 @@
       "id": "lundrey-1",
       "pokemon": "lundrey",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

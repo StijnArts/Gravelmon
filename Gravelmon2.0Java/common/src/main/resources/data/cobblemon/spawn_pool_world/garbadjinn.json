@@ -7,7 +7,7 @@
       "id": "garbadjinn-1",
       "pokemon": "garbadjinn",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

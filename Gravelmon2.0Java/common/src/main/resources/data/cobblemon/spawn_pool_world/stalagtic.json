@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "stalagtic-1",
+      "pokemon": "stalagtic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ]
+      }
+    }
+  ]
+}

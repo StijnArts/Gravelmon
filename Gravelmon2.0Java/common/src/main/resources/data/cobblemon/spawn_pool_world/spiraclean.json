@@ -7,7 +7,7 @@
       "id": "spiraclean-1",
       "pokemon": "spiraclean",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

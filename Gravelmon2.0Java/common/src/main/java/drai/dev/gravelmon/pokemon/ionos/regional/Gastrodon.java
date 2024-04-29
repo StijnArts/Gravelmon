@@ -51,6 +51,7 @@ import drai.dev.gravelmon.pokemon.varitas.*;
 import drai.dev.gravelmon.pokemon.aristos.*;
 import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.crozoic.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
@@ -58,7 +59,7 @@ import java.util.*;
 public class Gastrodon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gastrodon(int dex) {
         super(dex, "Gastrodon",
-                Type.WATER, Type.POISON,
+                Type.WATER,Type.POISON,
                 new Stats(0,
                         0,
                         0,

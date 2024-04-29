@@ -123,7 +123,7 @@ public class Snareball extends drai.dev.gravelmon.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.IS_RAINING,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Snareball");

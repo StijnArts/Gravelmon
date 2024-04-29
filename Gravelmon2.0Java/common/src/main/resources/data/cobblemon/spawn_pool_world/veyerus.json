@@ -7,7 +7,7 @@
       "id": "veyerus-1",
       "pokemon": "veyerus",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

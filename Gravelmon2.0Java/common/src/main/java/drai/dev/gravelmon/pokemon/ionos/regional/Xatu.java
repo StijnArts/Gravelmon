@@ -51,6 +51,7 @@ import drai.dev.gravelmon.pokemon.varitas.*;
 import drai.dev.gravelmon.pokemon.aristos.*;
 import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.crozoic.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
@@ -58,7 +59,7 @@ import java.util.*;
 public class Xatu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Xatu(int dex) {
         super(dex, "Xatu",
-                Type.FLYING, Type.GHOST,
+                Type.FLYING,Type.GHOST,
                 new Stats(0,
                         0,
                         0,

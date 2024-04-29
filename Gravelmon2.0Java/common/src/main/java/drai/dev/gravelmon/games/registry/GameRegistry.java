@@ -3,7 +3,7 @@ package drai.dev.gravelmon.games.registry;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.games.*;
 import drai.dev.gravelmon.games.original.*;
-import drai.dev.gravelmon.games.pokemmo.*;
+import drai.dev.gravelmon.games.pokemmo.firstbatch.*;
 import drai.dev.gravelmon.games.pokemmo.secondbatch.*;
 
 import java.util.*;
@@ -28,6 +28,7 @@ public class GameRegistry {
         games.add(new Rica());
         games.add(new Infinity());
         games.add(new Dhiome());
+        games.add(new Lagoone());
         games.add(new HUB());
         games.add(new Interregional());
         games.add(new Opal());
@@ -46,24 +47,29 @@ public class GameRegistry {
         games.add(new OrohnHavai());
         games.add(new EternalForest());
         games.add(new Norheim());
+        games.add(new Crozoic());
         games.add(new Lonava());
         games.add(new Lockemon());
         games.add(new Nosto());
         games.add(new Umbra());
         games.add(new BlazingEmerald());
         games.add(new Mythire());
+        games.add(new Fliga());
         games.add(new Daybreak());
         games.add(new Qamor());
         games.add(new Vanguard());
+        games.add(new Kuria());
         games.add(new Isiah());
         games.add(new Myth());
         games.add(new Midamis());
         games.add(new Okeno());
         games.add(new Deneb());
         games.add(new Enjin());
+        games.add(new Ionos());
         games.add(new Novrai());
         games.add(new Atlas());
         games.add(new Amavi());
         games.add(new Cyare());
+        games.add(new Goetia());
     }
 }

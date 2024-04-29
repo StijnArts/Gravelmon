@@ -7,7 +7,7 @@
       "id": "paraboom-1",
       "pokemon": "paraboom",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

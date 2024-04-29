@@ -7,7 +7,7 @@
       "id": "oreon-1",
       "pokemon": "oreon",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

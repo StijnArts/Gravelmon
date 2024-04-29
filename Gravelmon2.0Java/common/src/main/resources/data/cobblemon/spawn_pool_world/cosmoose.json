@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cosmoose-1",
+      "pokemon": "cosmoose",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "36-51",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

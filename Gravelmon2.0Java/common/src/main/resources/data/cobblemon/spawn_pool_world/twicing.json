@@ -7,7 +7,7 @@
       "id": "twicing-1",
       "pokemon": "twicing",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

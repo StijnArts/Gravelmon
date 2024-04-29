@@ -4,12 +4,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
-
-import java.util.*;
-
 public class Wotwot extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wotwot() {
         super("Wotwot",
@@ -53,7 +47,7 @@ public class Wotwot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Wotwot");

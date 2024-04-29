@@ -7,7 +7,7 @@
       "id": "bboing-1",
       "pokemon": "bboing",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

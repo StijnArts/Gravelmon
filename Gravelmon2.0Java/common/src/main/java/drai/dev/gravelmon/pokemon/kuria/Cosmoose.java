@@ -74,11 +74,22 @@ public class Cosmoose extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(    new MoveLearnSetEntry(Move.CONFUSION,1),
+                        new MoveLearnSetEntry(Move.KINESIS,5),
+                        new MoveLearnSetEntry(Move.LUCKY_CHANT,7),
+                        new MoveLearnSetEntry(Move.PSYBEAM,12),
+                        new MoveLearnSetEntry(Move.HIDDEN_POWER,18),
+                        new MoveLearnSetEntry(Move.SAFEGUARD,20),
+                        new MoveLearnSetEntry(Move.PSYSHOCK,25),
+                        new MoveLearnSetEntry(Move.CONFUSE_RAY,29),
+                        new MoveLearnSetEntry(Move.CALM_MIND,33),
+                        new MoveLearnSetEntry(Move.PSYCHIC,37),
+                        new MoveLearnSetEntry(Move.PSYCH_UP,41),
+                        new MoveLearnSetEntry(Move.RECOVER,57)             ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 51, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -7,7 +7,7 @@
       "id": "wahundo-1",
       "pokemon": "wahundo",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

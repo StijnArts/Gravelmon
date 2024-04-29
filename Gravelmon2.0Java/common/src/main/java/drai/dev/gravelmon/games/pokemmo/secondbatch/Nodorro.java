@@ -22,9 +22,6 @@ public class Nodorro extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Feloam());
         pokemon.add(new Mistiger());
         pokemon.add(new Torahaze());
-        pokemon.add(new Pidgey(16));
-        pokemon.add(new Pidgeotto(17));
-        pokemon.add(new Pidgeot(18));
         pokemon.add(new Haffy());
         pokemon.add(new Baldawk());
         pokemon.add(new Stoadent());
@@ -66,7 +63,7 @@ public class Nodorro extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Machoke(67));
         pokemon.add(new Machamp(68));
         pokemon.add(new hakid());
-//        pokemon.add(new 514063());   Missing Stats
+//        pokemon.add(new Hackile());   Missing Stats
 //        pokemon.add(new Conkeldurr(534));   Missing Art
         pokemon.add(new furanea());
         pokemon.add(new Taranchusk());

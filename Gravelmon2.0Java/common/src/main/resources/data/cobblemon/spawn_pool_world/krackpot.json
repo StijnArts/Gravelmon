@@ -7,7 +7,7 @@
       "id": "krackpot-1",
       "pokemon": "krackpot",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

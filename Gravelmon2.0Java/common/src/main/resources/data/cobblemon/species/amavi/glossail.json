@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glossail",
-  "nationalPokedexNumber": 4616,
+  "nationalPokedexNumber": 4953,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -76,9 +76,9 @@
   "preEvolution": "shellop",
   "evolutions": [
     {
-      "id": "glossail_bulbasaur",
+      "id": "glossail_Atlantice",
       "variant": "level_up",
-      "result": "bulbasaur",
+      "result": "Atlantice",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

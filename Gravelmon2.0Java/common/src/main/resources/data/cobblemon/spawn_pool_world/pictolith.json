@@ -7,7 +7,7 @@
       "id": "pictolith-1",
       "pokemon": "pictolith",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "remonisu-1",
       "pokemon": "remonisu",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -67,7 +67,7 @@ public class Tarturough extends drai.dev.gravelmon.pokemon.Pokemon {
                         62),
                 List.of(Ability.HEATRUSH,Ability.STAMINA), Ability.ANGER_POINT,
                 18, 1103,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 40,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -112,9 +112,8 @@ public class Tarturough extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BRUTAL_SWING,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 53, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -74,16 +74,35 @@ public class Jellectric extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
                 List.of("Sometimes people mistake Jellectric for stars when stargazing. The electricty that it conducts within its body is strong enough to be felt throughout an entire star system."),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.NUZZLE,1),
+                        new MoveLearnSetEntry(Move.BUBBLE,1),
+                        new MoveLearnSetEntry(Move.CHARGE,5),
+                        new MoveLearnSetEntry(Move.ELECTROWEB,10),
+                        new MoveLearnSetEntry(Move.BUBBLE_BEAM,16),
+                        new MoveLearnSetEntry(Move.MINIMIZE,21),
+                        new MoveLearnSetEntry(Move.BRINE,25),
+                        new MoveLearnSetEntry(Move.RECOVER,30),
+                        new MoveLearnSetEntry(Move.DISCHARGE,36),
+                        new MoveLearnSetEntry(Move.ACID_ARMOR,41),
+                        new MoveLearnSetEntry(Move.RAIN_DANCE,45),
+                        new MoveLearnSetEntry(Move.MUDDY_WATER,50),
+                        new MoveLearnSetEntry(Move.THUNDER,56),
+                        new MoveLearnSetEntry(Move.ELECTRIFY,61)
+                ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 33, 48, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Jellectric");
 
     }

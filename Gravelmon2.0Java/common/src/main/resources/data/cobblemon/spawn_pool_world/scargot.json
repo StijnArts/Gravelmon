@@ -7,7 +7,7 @@
       "id": "scargot-1",
       "pokemon": "scargot",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

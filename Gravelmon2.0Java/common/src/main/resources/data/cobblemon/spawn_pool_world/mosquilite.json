@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mosquilite-1",
+      "pokemon": "mosquilite",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "15-32",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#minecraft:is_end" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

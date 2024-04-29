@@ -67,7 +67,7 @@ public class Cocyfish extends drai.dev.gravelmon.pokemon.Pokemon {
                         53),
                 List.of(Ability.SOULABSORB,Ability.SIMPLE), Ability.GLUTTONY,
                 20, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -95,14 +95,15 @@ public class Cocyfish extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DESTINY_BOND,65)                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Cocyfish");
+        setCanFly(true);
 
     }
 

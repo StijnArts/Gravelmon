@@ -10,7 +10,7 @@ import java.util.*;
 
 public class Pokemon {
     public static String pokemonThatEvolveIntoThemselves = "Encountered pokemon that evolve into Themselves:";
-    public static ArrayList<Pokemon> pokemonRegistry = new ArrayList<>();
+    public static Map<String, Pokemon> pokemonRegistry = new HashMap<>();
     String name;
     Stats stats;
     Type primaryType;
@@ -272,20 +272,17 @@ public class Pokemon {
 //            this.hitboxHeight = Math.max((height*1.5),0.1);
 //        }
         this.portraitScale = 0.3;
-        pokemonRegistry.add(this);
+        pokemonRegistry.put(this.name.toLowerCase().replaceAll("\\W",""), this);
     }
 
     public static void postRegistration() {
-        /*//TODO validate biomes
-        var biomeRegistry = arg.lookupOrThrow(Registries.BIOME);
-        var biomeRegistry = arg.lookupOrThrow(Registries.);
-        biomeRegistry.get()
-*/
+        //TODO assign pre-evolutions stats based on the final evolution if they have empty stats
+        List<Pokemon> zeroStatPokemon = new ArrayList<>();
         var evaluatedMons = new ArrayList<>();
         StringBuilder pokemonWithZeroCatchrate = new StringBuilder("Pokemon with 0 catch-rate: \n");
         StringBuilder pokemonWithZeroBaseStats = new StringBuilder("Pokemon with 0 Base Stats: \n");
         StringBuilder pokemonWithMoreThanTwoSpawnPresets = new StringBuilder("Pokemon with more than 1 spawn preset: \n");
-        for (Pokemon pokemon : pokemonRegistry) {
+        for (Pokemon pokemon : pokemonRegistry.values()) {
             if (pokemon.getCatchRate() == 0)
                 pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
             if (pokemon.getStats().getTotal() == 0)
@@ -300,8 +297,12 @@ public class Pokemon {
                 pokemonWithMoreThanTwoSpawnPresets.append("\n");
             }
 
+            if(pokemon.stats.isEmpty()){
+                zeroStatPokemon.add(pokemon);
+            }
+
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
-                Pokemon result = pokemonRegistry.stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                Pokemon result = pokemonRegistry.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
                 if (result != null) {
                     if (evolutionEntry.getRequiredContext() != null) {
                         addItemAsDrop(pokemon, evolutionEntry.getRequiredContext(), result);
@@ -341,7 +342,7 @@ public class Pokemon {
                     pokemonWithZeroBaseStats.append(form.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", Aspect: ").append(form.getAspects()).append(",\n");
                 for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
                     String resultName = evolutionEntry.getResult();
-                    PokemonForm result = pokemonRegistry.stream()
+                    PokemonForm result = pokemonRegistry.values().stream()
                             .filter(p -> p.getName().equalsIgnoreCase(resultName))
                             .map(Pokemon::getForms).flatMap(List::stream).filter(pokemonForm -> new HashSet<>(pokemonForm.getAspects()).containsAll(evolutionEntry.getAspects())).findFirst().orElse(null);
                     if (result != null) {
@@ -377,9 +378,24 @@ public class Pokemon {
         System.out.println(pokemonWithMoreThanTwoSpawnPresets);
         System.out.println("Evolution Items:");
         for (String item :
-                evolutionItems) {
-            System.out.println(item+",");
+                evolutionItems) {System.out.println(item+",");
         }
+
+        for (int i = zeroStatPokemon.size()-1; i > -1; i--) {
+            var pokemon = zeroStatPokemon.get(i);
+            if (!pokemon.evolutions.isEmpty()) {
+                var pokemonToCopy = pokemon.evolutions.stream()
+                        .map(evolutionEntry -> evolutionEntry.getResult().toLowerCase())
+                        .filter(result -> pokemonRegistry.containsKey(result))
+                        .map(result -> pokemonRegistry.get(result))
+                        .min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
+                if (pokemonToCopy.isPresent()) {
+                    var evolutionStats = pokemonToCopy.get().stats;
+                    pokemon.stats = new Stats(evolutionStats, 0.7);
+                }
+            }
+        }
+
     }
 
     public static List<String> evolutionItems = new ArrayList<>();

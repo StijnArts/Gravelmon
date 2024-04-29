@@ -7,7 +7,7 @@
       "id": "pixl-1",
       "pokemon": "pixl",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

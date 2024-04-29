@@ -7,7 +7,7 @@
       "id": "eledrant-1",
       "pokemon": "eledrant",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

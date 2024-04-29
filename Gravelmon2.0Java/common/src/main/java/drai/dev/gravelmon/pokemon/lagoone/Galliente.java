@@ -74,16 +74,34 @@ public class Galliente extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("They are slow and laid back Pokémon who spend most of their time resting, but when wind currents blow, its sail lits up allowing it to move at an impressive high speed."),
                 List.of(),
-                List.of(                        ),
+                List.of(     new MoveLearnSetEntry(Move.TACKLE, 1),
+                        new MoveLearnSetEntry(Move.HARDEN, 1),
+                        new MoveLearnSetEntry(Move.METAL_CLAW, 1),
+                        new MoveLearnSetEntry(Move.FLAME_CHARGE, 1),
+                        new MoveLearnSetEntry(Move.ROAR, 12),
+                        new MoveLearnSetEntry(Move.ANCIENT_POWER, 16),
+                        new MoveLearnSetEntry(Move.PROTECT, 20),
+                        new MoveLearnSetEntry(Move.LAVA_PLUME, 24),
+                        new MoveLearnSetEntry(Move.ROCK_SLIDE, 28),
+                        new MoveLearnSetEntry(Move.STEALTH_ROCK, 35),
+                        new MoveLearnSetEntry(Move.BODY_PRESS, 40),
+                        new MoveLearnSetEntry(Move.ROCK_POLISH, 48),
+                        new MoveLearnSetEntry(Move.HEAVY_SLAM, 56),
+                        new MoveLearnSetEntry(Move.STONE_EDGE, 64),
+                        new MoveLearnSetEntry(Move.FLARE_BLITZ, 72),
+                        new MoveLearnSetEntry(Move.METEOR_BEAM, 80),
+                        new MoveLearnSetEntry(Move.ERUPTION, 88)            ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Galliente");
 
     }

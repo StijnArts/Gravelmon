@@ -7,7 +7,7 @@
       "id": "chimneoth-1",
       "pokemon": "chimneoth",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

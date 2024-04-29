@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shulongastral",
-  "nationalPokedexNumber": 1856,
+  "nationalPokedexNumber": 1914,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -73,22 +73,22 @@
       {
         "item": "gravelmon:terrestrial_ring",
         "quantityRange": "1-1",
-        "percentage": 40
+        "percentage": 10
       },
       {
         "item": "gravelmon:xenoversal_ring",
         "quantityRange": "1-1",
-        "percentage": 40
+        "percentage": 10
       },
       {
         "item": "gravelmon:terrestrial_ring",
         "quantityRange": "1-1",
-        "percentage": 10
+        "percentage": 40
       },
       {
         "item": "gravelmon:xenoversal_ring",
         "quantityRange": "1-1",
-        "percentage": 10
+        "percentage": 40
       }
     ]
   },

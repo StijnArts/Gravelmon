@@ -7,7 +7,7 @@
       "id": "larvly-1",
       "pokemon": "larvly",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

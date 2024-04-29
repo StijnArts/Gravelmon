@@ -7,7 +7,7 @@
       "id": "thinkblot-1",
       "pokemon": "thinkblot",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -125,14 +125,11 @@
     "egg:twineedle"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.trenchula.desc"
   ],
-  "preEvolution": "minarac",
   "baseScale": 0.27499999999999997,
   "hitbox": {
     "width": 6.0,

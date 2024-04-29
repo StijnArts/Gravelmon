@@ -73,17 +73,37 @@ public class Heliark extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.WATER_2),
                 List.of(""),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("oceadon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
+                List.of(      new MoveLearnSetEntry(Move.PURSUIT,1),
+                        new MoveLearnSetEntry(Move.BITE,1),
+                        new MoveLearnSetEntry(Move.THIEF,1),
+                        new MoveLearnSetEntry(Move.FLAIL,1),
+                        new MoveLearnSetEntry(Move.AQUA_JET,6),
+                        new MoveLearnSetEntry(Move.NIGHT_SHADE,11),
+                        new MoveLearnSetEntry(Move.MIST,15),
+                        new MoveLearnSetEntry(Move.POISON_FANG,19),
+                        new MoveLearnSetEntry(Move.SHADOW_SNEAK,25),
+                        new MoveLearnSetEntry(Move.AGILITY,31),
+                        new MoveLearnSetEntry(Move.ICE_SHARD,33),
+                        new MoveLearnSetEntry(Move.CRUNCH,38),
+                        new MoveLearnSetEntry(Move.AQUA_TAIL,42),
+                        new MoveLearnSetEntry(Move.FLING,49),
+                        new MoveLearnSetEntry(Move.PHANTOM_FORCE,57),
+                        new MoveLearnSetEntry(Move.HYDRO_PUMP,66)                  ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Heliark");
 
     }

@@ -7,7 +7,7 @@
       "id": "impac-1",
       "pokemon": "impac",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

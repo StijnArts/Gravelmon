@@ -7,7 +7,7 @@
       "id": "chillow-1",
       "pokemon": "chillow",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

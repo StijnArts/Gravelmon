@@ -72,7 +72,7 @@ public class Tragobite extends drai.dev.gravelmon.pokemon.Pokemon {
                 120, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
-                List.of("- Sand Attack Ground - Tackle Normal 5 Bite Dark 8 Mud-SlapSTAB Ground 12 Camouflage Normal 16 DigSTAB Ground 20 Rock Tomb Rock 24 Crunch Dark 28 Sand TombSTAB Ground 32 Ambuscade Ground 36 Stealth Rock Rock 40 Fire Fang Fire 43 Wide Guard Rock 45 Amnesia Psychic 48 EarthquakeSTAB Ground 51 FissureSTAB Ground"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
@@ -121,9 +121,9 @@ public class Tragobite extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCARY_FACE,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 34, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

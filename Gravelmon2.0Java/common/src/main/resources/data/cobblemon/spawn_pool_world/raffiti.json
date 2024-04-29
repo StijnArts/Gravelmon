@@ -7,7 +7,7 @@
       "id": "raffiti-1",
       "pokemon": "raffiti",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,8 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo.secondbatch;
 
 
-import drai.dev.gravelmon.pokemon.lagoone.Anewack;
-import drai.dev.gravelmon.pokemon.lagoone.regional.*;
+import drai.dev.gravelmon.pokemon.lagoone.Anepunch;
 import drai.dev.gravelmon.pokemon.lagoone.*;
 
 public class Lagoone extends drai.dev.gravelmon.games.registry.Game {
@@ -32,7 +31,7 @@ public class Lagoone extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Palmfiend());
         pokemon.add(new Golmol());
         pokemon.add(new Phanchasm());
-        pokemon.add(new Anewack()); //Renamed from Anenemy
+        pokemon.add(new Anepunch()); //Renamed from anenemy
         pokemon.add(new Anemace());
         pokemon.add(new Anedusa());
         pokemon.add(new Dynamight());
@@ -48,7 +47,6 @@ public class Lagoone extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Bountyrant());
         pokemon.add(new Biscaneer());
         pokemon.add(new Gingerbeard());
-        pokemon.add(new Sableye(302));
         pokemon.add(new Pesteeny());
         pokemon.add(new Tadwobble());
         pokemon.add(new Madhopple());
@@ -66,6 +64,15 @@ public class Lagoone extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Coldera());
         pokemon.add(new Coldozer());
         pokemon.add(new Frosterror());
+        pokemon.add(new Scubeel()); //Renamed from moreel
+        pokemon.add(new Clankeel());
+        pokemon.add(new Nimbun());
+        pokemon.add(new Raizinger());
+        pokemon.add(new Sandime());
+        pokemon.add(new Starena());
+        pokemon.add(new Gloomineon());
+        pokemon.add(new Boulblin());
+        pokemon.add(new Colossalgae());
     }
 
 }

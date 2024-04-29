@@ -1,0 +1,160 @@
+{
+  "implemented": true,
+  "name": "weeduza",
+  "nationalPokedexNumber": 2103,
+  "primaryType": "grass",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 80,
+    "defence": 59,
+    "special_attack": 35,
+    "special_defence": 31,
+    "speed": 31
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 0,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+
+  ],
+  "moves": [
+    "1:absorb",
+    "1:bind",
+    "4:stunspore",
+    "8:growth",
+    "12:megadrain",
+    "16:vinewhip",
+    "20:poisonpowder",
+    "24:ancientpower",
+    "28:knockoff",
+    "32:gigadrain",
+    "36:sleeppowder",
+    "40:slam",
+    "44:tickle",
+    "48:powerwhip",
+    "52:ingrain",
+    "56:grassyterrain"  ],
+  "labels": [
+    "aristos",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.weeduza.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "weeduza_tangela",
+      "variant": "level_up",
+      "result": "tangela",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        }
+      ]   
+ },
+    {
+      "id": "weeduza_qamorantangela",
+      "variant": "level_up",
+      "result": "qamorantangela",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#minecraft:is_ocean"
+        }
+      ]   
+ },
+    {
+      "id": "weeduza_hoenniantangela",
+      "variant": "level_up",
+      "result": "hoenniantangela",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_badlands"
+        }
+      ]   
+ },
+    {
+      "id": "weeduza_eghotangela",
+      "variant": "level_up",
+      "result": "eghotangela",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "#minecraft:is_end"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

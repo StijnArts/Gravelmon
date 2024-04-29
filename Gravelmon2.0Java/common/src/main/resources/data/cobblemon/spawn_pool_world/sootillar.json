@@ -7,7 +7,7 @@
       "id": "sootillar-1",
       "pokemon": "sootillar",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

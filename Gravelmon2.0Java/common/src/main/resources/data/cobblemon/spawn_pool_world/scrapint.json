@@ -7,7 +7,7 @@
       "id": "scrapint-1",
       "pokemon": "scrapint",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "athlace-1",
       "pokemon": "athlace",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

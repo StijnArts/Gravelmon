@@ -7,7 +7,7 @@
       "id": "filthound-1",
       "pokemon": "filthound",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

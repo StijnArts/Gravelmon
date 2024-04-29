@@ -51,7 +51,7 @@ public class Bunnler extends drai.dev.gravelmon.pokemon.Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 33, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bunnler");

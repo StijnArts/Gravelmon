@@ -7,7 +7,7 @@
       "id": "garlikid-1",
       "pokemon": "garlikid",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

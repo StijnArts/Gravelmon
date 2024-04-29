@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "atlantice",
-  "nationalPokedexNumber": 4617,
+  "nationalPokedexNumber": 4954,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -65,11 +65,14 @@
     "83:waterspout"  ],
   "labels": [
     "amavi",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.atlantice.desc"
   ],
+  "preEvolution": "glossail",
   "baseScale": 0.375,
   "hitbox": {
     "width": 6.0,

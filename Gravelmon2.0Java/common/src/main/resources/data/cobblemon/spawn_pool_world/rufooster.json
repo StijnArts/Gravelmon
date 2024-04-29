@@ -8,7 +8,7 @@
       "pokemon": "rufooster",
       "presets": [
           "natural",
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

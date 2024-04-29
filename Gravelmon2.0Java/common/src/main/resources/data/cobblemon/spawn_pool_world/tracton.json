@@ -7,7 +7,7 @@
       "id": "tracton-1",
       "pokemon": "tracton",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

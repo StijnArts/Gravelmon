@@ -7,7 +7,7 @@
       "id": "puppug-1",
       "pokemon": "puppug",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -58,7 +58,7 @@ import java.util.*;
 public class Trickgrin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trickgrin() {
         super("Trickgrin",
-                Type.DARK, Type.QUESTION_MARK,
+                Type.DARK, Type.FAIRY,
                 new Stats(40,
                         50,
                         40,
@@ -74,14 +74,29 @@ public class Trickgrin extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.HUMAN_LIKE),
                 List.of("Trickgrin act innocent during day and aren't found very often in daylight, but at night they appear everywhere, ready to take whatever catches their eyes. Trickgrin are natural rivals to Delibird."),
                 List.of(),
-                List.of(                        ),
+                List.of(            new MoveLearnSetEntry(Move.DISARMING_VOICE,1),
+                        new MoveLearnSetEntry(Move.CHARM,4),
+                        new MoveLearnSetEntry(Move.PURSUIT,7),
+                        new MoveLearnSetEntry(Move.ATTRACT,10),
+                        new MoveLearnSetEntry(Move.DRAINING_KISS,13),
+                        new MoveLearnSetEntry(Move.CONFIDE,16),
+                        new MoveLearnSetEntry(Move.FEINT_ATTACK,19),
+                        new MoveLearnSetEntry(Move.DAZZLING_GLEAM,25),
+                        new MoveLearnSetEntry(Move.MISTY_TERRAIN,28),
+                        new MoveLearnSetEntry(Move.NEW_MOON,31),
+                        new MoveLearnSetEntry(Move.FLATTER,34),
+                        new MoveLearnSetEntry(Move.DARK_PULSE,37),
+                        new MoveLearnSetEntry(Move.LOVELY_KISS,40),
+                        new MoveLearnSetEntry(Move.MOONBLAST,43),
+                        new MoveLearnSetEntry(Move.MOONLIGHT,46),
+                        new MoveLearnSetEntry(Move.LUNAR_CANNON,50)            ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 45, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Trickgrin");

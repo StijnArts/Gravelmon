@@ -7,7 +7,7 @@
       "id": "helibo-1",
       "pokemon": "helibo",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

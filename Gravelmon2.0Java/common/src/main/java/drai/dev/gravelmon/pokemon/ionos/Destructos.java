@@ -66,8 +66,8 @@ public class Destructos extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         49),
                 List.of(Ability.MAGIC_BOUNCE,Ability.SHEER_FORCE), Ability.IRON_FIST,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -108,11 +108,10 @@ public class Destructos extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_HAMMER,"tm")                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Destructos");

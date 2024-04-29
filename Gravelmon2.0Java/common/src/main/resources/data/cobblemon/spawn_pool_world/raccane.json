@@ -7,7 +7,7 @@
       "id": "raccane-1",
       "pokemon": "raccane",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "calligraphis",
+  "nationalPokedexNumber": 3413,
+  "primaryType": "ghost",
+  "secondaryType": "water",
+  "abilities": [
+    "beastboost",
+    "h:beastboost"
+  ],
+  "baseStats": {
+    "hp": 41,
+    "attack": 73,
+    "defence": 73,
+    "special_attack": 107,
+    "special_defence": 113,
+    "speed": 163
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 257,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:tackle",
+    "4:watergun",
+    "7:agility",
+    "9:nightshade",
+    "13:spite",
+    "17:waterpulse",
+    "20:singsound",
+    "21:nightmare",
+    "22:heartstamp",
+    "26:flail",
+    "31:grudge",
+    "34:takedown",
+    "37:ominouswind",
+    "40:aquaring",
+    "42:soak",
+    "46:hydropump",
+    "49:phantomforce"  ],
+  "labels": [
+    "fliga",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.calligraphis.desc"
+  ],
+  "baseScale": 0.85,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 34,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

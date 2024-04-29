@@ -7,7 +7,7 @@
       "id": "singlaze-1",
       "pokemon": "singlaze",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

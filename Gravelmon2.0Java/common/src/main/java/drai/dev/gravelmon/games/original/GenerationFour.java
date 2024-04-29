@@ -10,6 +10,9 @@ import drai.dev.gravelmon.pokemon.hub.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
 import drai.dev.gravelmon.pokemon.interregional.regional.*;
+import drai.dev.gravelmon.pokemon.ionos.*;
+import drai.dev.gravelmon.pokemon.ionos.regional.*;
+import drai.dev.gravelmon.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
@@ -30,6 +33,14 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new LagoonanFinneon(456));
+        pokemon.add(new LagoonanLumineon(457));
+
+//        pokemon.add(new IonosianShellos(422));   Missing Stats
+//        pokemon.add(new IonosianGastrodon(423));   Missing Art
+//        pokemon.add(new IonosianMimeJr(439));   Missing Art
+//        pokemon.add(new IonosianMunchlax(446));   Missing Stats
+
         pokemon.add(new FligianShellos(422));
         pokemon.add(new FligianGastrodon(423));
         pokemon.add(new FligianHappiny(440));

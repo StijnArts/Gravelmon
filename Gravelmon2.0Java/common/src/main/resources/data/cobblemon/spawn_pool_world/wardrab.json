@@ -7,7 +7,7 @@
       "id": "wardrab-1",
       "pokemon": "wardrab",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

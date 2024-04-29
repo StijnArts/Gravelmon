@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Hazekonko extends Pokemon {
     public Hazekonko() {
         super( "Hazekonko",
@@ -74,7 +72,7 @@ public class Hazekonko extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 16, 37, 5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD))
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.4, 0.3,
                 List.of());
     }

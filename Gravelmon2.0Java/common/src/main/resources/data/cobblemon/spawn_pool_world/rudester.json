@@ -7,7 +7,7 @@
       "id": "rudester-1",
       "pokemon": "rudester",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

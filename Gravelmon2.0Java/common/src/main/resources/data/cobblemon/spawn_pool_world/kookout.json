@@ -7,7 +7,7 @@
       "id": "kookout-1",
       "pokemon": "kookout",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

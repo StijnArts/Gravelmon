@@ -67,21 +67,38 @@ public class Mouscalibur extends drai.dev.gravelmon.pokemon.Pokemon {
                         93),
                 List.of(Ability.LIGHTNING_ROD), Ability.TECHNICIAN,
                 14, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 40,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Mouscalibur are valiant defenders of both trainers both physical and digital. When it sees people bullying others online, it will personally track them down and destroy the device they most favor."),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.TAIL_WHIP,1),
+                        new MoveLearnSetEntry(Move.THUNDER_SHOCK,6),
+                        new MoveLearnSetEntry(Move.MACH_BOLT,11),
+                        new MoveLearnSetEntry(Move.THUNDER_WAVE,15),
+                        new MoveLearnSetEntry(Move.PURSUIT,20),
+                        new MoveLearnSetEntry(Move.SPARK,25),
+                        new MoveLearnSetEntry(Move.FEINT_ATTACK,29),
+                        new MoveLearnSetEntry(Move.ENERGIZE,34),
+                        new MoveLearnSetEntry(Move.DISCHARGE,39),
+                        new MoveLearnSetEntry(Move.VENGEANCE,43),
+                        new MoveLearnSetEntry(Move.AGILITY,48),
+                        new MoveLearnSetEntry(Move.DARK_RESOLVE,53),
+                        new MoveLearnSetEntry(Move.THUNDER,57),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,62)
+                ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"day")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Mouscalibur");

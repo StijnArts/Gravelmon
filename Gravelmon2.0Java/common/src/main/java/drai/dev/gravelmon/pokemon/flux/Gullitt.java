@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Gullitt extends Pokemon {
     public Gullitt() {
         super("Gullitt",
@@ -53,7 +51,7 @@ public class Gullitt extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP, Biome.IS_COAST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
         setCanFly(true);

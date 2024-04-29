@@ -73,13 +73,27 @@ public class Nyashi extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.HUMAN_LIKE),
                 List.of("There were rumors that Nyashi are actually deceased Pokémon, due to their pale, cold skin, and slow breathing pattern. However, numerous researches debunked that theory."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("felinshii", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
+                List.of(
+                        new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
+                        new MoveLearnSetEntry(Move.BONE_CLUB,6),
+                        new MoveLearnSetEntry(Move.DISABLE,9),
+                        new MoveLearnSetEntry(Move.FOCUS_ENERGY,14),
+                        new MoveLearnSetEntry(Move.SHADOW_PUNCH,17),
+                        new MoveLearnSetEntry(Move.PURSUIT,22),
+                        new MoveLearnSetEntry(Move.MEAN_LOOK,25),
+                        new MoveLearnSetEntry(Move.SHADOW_BONE,27),
+                        new MoveLearnSetEntry(Move.BONE_RUSH,34),
+                        new MoveLearnSetEntry(Move.TORMENT,39),
+                        new MoveLearnSetEntry(Move.CURSE,45),
+                        new MoveLearnSetEntry(Move.SHADOW_BALL,50),
+                        new MoveLearnSetEntry(Move.BONEMERANG,53)           ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

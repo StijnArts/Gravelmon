@@ -7,7 +7,7 @@
       "id": "snareball-1",
       "pokemon": "snareball",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

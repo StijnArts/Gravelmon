@@ -67,13 +67,14 @@ public class Sproutle extends drai.dev.gravelmon.pokemon.Pokemon {
                         20),
                 List.of(Ability.SOLID_ROCK,Ability.CHLOROPHYLL), Ability.TANGLED_FEET,
                 8, 346,
-                new Stats(0,0,1,0,0,0), 0,
+                new Stats(0,0,1,0,0,0), 210,
                 0.5,
                 55, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS,EggGroup.MONSTER),
                 List.of("Sproutle were originally just regular pots that were filled with leftover soil that was used to host Beani, enchanting it and thusly bringing Sproutle to life. These small pots love to find seeds to put into their head to see what they bloom into."),
-                List.of(),
+                List.of(new EvolutionEntry("dyramic", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:sun_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.HARDEN,1),
@@ -113,11 +114,11 @@ public class Sproutle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BODY_PRESS,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sproutle");

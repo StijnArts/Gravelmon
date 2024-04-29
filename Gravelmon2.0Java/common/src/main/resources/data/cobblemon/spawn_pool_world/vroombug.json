@@ -7,7 +7,7 @@
       "id": "vroombug-1",
       "pokemon": "vroombug",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "jalopig-1",
       "pokemon": "jalopig",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "ponyata-1",
       "pokemon": "ponyata",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

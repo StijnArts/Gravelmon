@@ -11,6 +11,7 @@ import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.hub.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.novrai.regional.*;
@@ -29,6 +30,21 @@ public class GenerationTwo extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new IonosianBayleef(153));   Missing Stats
+//        pokemon.add(new IonosianMeganium(154));   Missing Stats
+//        pokemon.add(new IonosianCyndaquil(155));   Missing Art
+//        pokemon.add(new IonosianQuilava(156));   Missing Stats
+//        pokemon.add(new IonosianTyphlosion(157));   Missing Stats
+//        pokemon.add(new IonosianTotodile(158));   Missing Stats
+//        pokemon.add(new IonosianCroconaw(159));   Missing Stats
+//        pokemon.add(new IonosianFeraligatr(160));   Missing Stats
+//        pokemon.add(new IonosianNatu(177));   Missing Stats
+//        pokemon.add(new IonosianXatu(178));   Missing Stats
+//        pokemon.add(new IonosianGirafarig(203));   Missing Stats
+//        pokemon.add(new IonosianGranbull(210));   Missing Stats
+//        pokemon.add(new IonosianShuckle(213));   Missing Stats
+//        pokemon.add(new IonosianSmoochum(238));   Missing Stats
+
         pokemon.add(new FligianAipom(190));
         pokemon.add(new FligianBlissey(242));
         pokemon.add(new FligianQwilfish(211));

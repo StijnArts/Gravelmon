@@ -7,7 +7,7 @@
       "id": "pointriever-1",
       "pokemon": "pointriever",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

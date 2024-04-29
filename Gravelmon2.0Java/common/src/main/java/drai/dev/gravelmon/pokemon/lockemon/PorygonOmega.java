@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class PorygonOmega extends Pokemon {
     public PorygonOmega() {
         super("PorygonOmega",
@@ -51,7 +49,7 @@ public class PorygonOmega extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 56, 1.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD))
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
         setLangFileName("Porygon-Omega");

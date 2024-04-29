@@ -67,7 +67,7 @@ public class Helsteteri extends drai.dev.gravelmon.pokemon.Pokemon {
                         87),
                 List.of(Ability.MULTISCALE,Ability.REELIN), Ability.INTIMIDATE,
                 16, 50,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -142,14 +142,16 @@ public class Helsteteri extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SNARL,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 9, 28, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Helsteteri");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
 
     }
 

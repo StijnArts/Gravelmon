@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class EghoTangrowth extends Pokemon {
     public EghoTangrowth(int dexNo) {
         super(dexNo,"EghoTangrowth",
@@ -118,7 +116,7 @@ public class EghoTangrowth extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.39, 0.3,
                 List.of());
         this.setLangFileName("Tangrowth");

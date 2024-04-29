@@ -67,7 +67,7 @@ public class Dyramic extends drai.dev.gravelmon.pokemon.Pokemon {
                         30),
                 List.of(Ability.SOLID_ROCK,Ability.IRON_FIST), Ability.REFLEXSTRIKE,
                 15, 815,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 173, ExperienceGroup.MEDIUM_FAST,
                 70,
@@ -119,11 +119,11 @@ public class Dyramic extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BODY_PRESS,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 33, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Dyramic");

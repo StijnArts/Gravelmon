@@ -7,7 +7,7 @@
       "id": "culprint-1",
       "pokemon": "culprint",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

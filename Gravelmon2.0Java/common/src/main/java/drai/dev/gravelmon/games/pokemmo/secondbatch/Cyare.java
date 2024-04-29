@@ -185,7 +185,7 @@ public class Cyare extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Greequine());   Missing Stats
 //        pokemon.add(new Orequine());   Missing Stats
 //        pokemon.add(new Draquados());   Missing Stats
-//        pokemon.add(new 711814());   Missing Stats
+//        pokemon.add(new 711814());  Missing Stats
     }
 
 }

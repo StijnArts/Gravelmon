@@ -7,7 +7,7 @@
       "id": "garbagull-1",
       "pokemon": "garbagull",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

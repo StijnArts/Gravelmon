@@ -7,7 +7,7 @@
       "id": "gullitt-1",
       "pokemon": "gullitt",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

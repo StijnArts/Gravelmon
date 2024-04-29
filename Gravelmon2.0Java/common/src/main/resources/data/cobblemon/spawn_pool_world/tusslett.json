@@ -8,7 +8,7 @@
       "pokemon": "tusslett",
       "presets": [
           "natural",
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

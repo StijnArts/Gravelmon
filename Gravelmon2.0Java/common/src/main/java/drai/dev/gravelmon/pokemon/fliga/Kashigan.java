@@ -72,7 +72,7 @@ public class Kashigan extends drai.dev.gravelmon.pokemon.Pokemon {
                 240, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Scratch Normal - Tail Whip Normal - Lick Ghost - Moonlight Fairy 5 EmberSTAB Fire 11 Disarming VoiceSTAB Fairy 14 Flame ChargeSTAB Fire 17 Draining KissSTAB Fairy 20 Fire SpinSTAB Fire 25 Lucky Chant Normal 27 Cosmic Power Psychic 35 FlamethrowerSTAB Fire 38 Will-O-Wisp Fire 41 MoonblastSTAB Fairy 43 Sunny Day Fire 46 Calm Mind Psychic 49 Psyshock Psychic"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),
@@ -97,11 +97,11 @@ public class Kashigan extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 26, 45, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Kashigan");

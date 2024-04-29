@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Ratsy extends Pokemon {
     public Ratsy() {
         super("Ratsy",
@@ -75,7 +73,7 @@ public class Ratsy extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.21, 0.3,
                 List.of());
         this.setPortraitXYZ(0,1.8,0);

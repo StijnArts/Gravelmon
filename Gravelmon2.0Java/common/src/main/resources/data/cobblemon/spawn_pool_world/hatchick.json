@@ -7,7 +7,7 @@
       "id": "hatchick-1",
       "pokemon": "hatchick",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

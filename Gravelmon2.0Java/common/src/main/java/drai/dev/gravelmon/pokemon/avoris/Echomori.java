@@ -5,23 +5,18 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
 import java.util.*;
 
-
-import drai.dev.gravelmon.pokemon.attributes.*;
-import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
-
 public class Echomori extends drai.dev.gravelmon.pokemon.Pokemon {
     public Echomori() {
         super("Echomori",
                 Type.ELECTRIC, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(65,
+                        64,
+                        40,
+                        110,
+                        88,
+                        110),
                 List.of(Ability.SUPERCHARGE), Ability.CACOPHONY,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
@@ -46,11 +41,11 @@ public class Echomori extends drai.dev.gravelmon.pokemon.Pokemon {
                         ),
                 List.of(Label.AVORIS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 9, 36, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Echomori");

@@ -7,7 +7,7 @@
       "id": "ovection-1",
       "pokemon": "ovection",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

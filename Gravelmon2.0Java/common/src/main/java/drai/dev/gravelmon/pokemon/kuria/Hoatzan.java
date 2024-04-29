@@ -74,11 +74,22 @@ public class Hoatzan extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.FLYING),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(              new MoveLearnSetEntry(Move.PECK,1),
+                        new MoveLearnSetEntry(Move.GROWL,1),
+                        new MoveLearnSetEntry(Move.ACID,6),
+                        new MoveLearnSetEntry(Move.RECYCLE,12),
+                        new MoveLearnSetEntry(Move.PLUCK,16),
+                        new MoveLearnSetEntry(Move.CROSS_POISON,22),
+                        new MoveLearnSetEntry(Move.FLING,26),
+                        new MoveLearnSetEntry(Move.ROOST,32),
+                        new MoveLearnSetEntry(Move.FLY,36),
+                        new MoveLearnSetEntry(Move.GUNK_SHOT,42),
+                        new MoveLearnSetEntry(Move.GASTRO_ACID,46),
+                        new MoveLearnSetEntry(Move.BELCH,52)          ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 44, 58, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

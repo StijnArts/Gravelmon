@@ -14,7 +14,7 @@ public class Mastenia extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Kididna());   Missing Stats
 //        pokemon.add(new Hididna());   Missing Stats
         pokemon.add(new Wreckidna());
-//        pokemon.add(new 863404());   Missing Stats
+//        pokemon.add(new Platykid());   Missing Stats
 //        pokemon.add(new Platysus());   Missing Stats
         pokemon.add(new Searopod());
 //        pokemon.add(new Bwibble());   Missing Stats
@@ -108,20 +108,13 @@ public class Mastenia extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Shroomish(285));   Missing Stats
 //        pokemon.add(new Breloom(286));   Missing Stats
 //        pokemon.add(new Roladuck());   Missing Stats
-//        pokemon.add(new 199838());   Missing Stats
-//        pokemon.add(new 648530());   Missing Stats
+//        pokemon.add(new Wandix());   Missing Stats
+//        pokemon.add(new Steadix());   Missing Stats
 //        pokemon.add(new Magneflite());   Missing Stats
 //        pokemon.add(new Magnozone());   Missing Stats
         pokemon.add(new Larvicous());
         pokemon.add(new Flyterror());
-//        pokemon.add(new 807224());   Missing Art
-//        pokemon.add(new 467710());   Missing Art
-//        pokemon.add(new 564170());   Missing Art
-//        pokemon.add(new 609968());   Missing Art
 //        pokemon.add(new Mantism());   Missing Stats
-//        pokemon.add(new 876833());   Missing Art
-//        pokemon.add(new 16256());   Missing Art
-//        pokemon.add(new 109527());   Missing Art
 //        pokemon.add(new Larvresta());   Missing Stats
 //        pokemon.add(new Lunamoth());   Missing Stats
 //        pokemon.add(new Mothumbra());   Missing Stats
@@ -135,8 +128,6 @@ public class Mastenia extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Yipbun());
 //        pokemon.add(new Detome());   Missing Stats
         pokemon.add(new Rogbaahl());
-//        pokemon.add(new 691895());   Missing Art
-//        pokemon.add(new 84124());   Missing Art
 //        pokemon.add(new Reabuto());   Missing Stats
 //        pokemon.add(new Mawvile());   Missing Stats
 //        pokemon.add(new Omanyte(138));   Missing Stats
@@ -152,9 +143,9 @@ public class Mastenia extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Hissmoke());
         pokemon.add(new Wulvlacine());
         pokemon.add(new Terratusk());
-//        pokemon.add(new 707317());   Missing Stats
+//        pokemon.add(new Drump()); Member of line Not Finished  Missing Stats
 //        pokemon.add(new 778589());   Missing Art
-        pokemon.add(new D33z());
+//        pokemon.add(new Fredoron()); Member of line Not Finished
 //        pokemon.add(new Larvitar(246));   Missing Stats
 //        pokemon.add(new Pupitar(247));   Missing Stats
         pokemon.add(new Tidaltar());

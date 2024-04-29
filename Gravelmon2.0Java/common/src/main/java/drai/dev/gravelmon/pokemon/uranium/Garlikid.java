@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Garlikid extends Pokemon {
     public Garlikid() {
         super("Garlikid",
@@ -115,7 +113,7 @@ public class Garlikid extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, 0.00006, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE))
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.21, 0.3,
                 List.of());
         this.setPortraitXYZ(0,1.8,0);

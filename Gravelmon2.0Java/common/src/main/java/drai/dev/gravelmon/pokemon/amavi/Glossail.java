@@ -23,7 +23,7 @@ public class Glossail extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.AMORPHOUS),
                 List.of(""),
-                List.of(new EvolutionEntry("bulbasaur", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Atlantice", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHILLING_WATER,1),

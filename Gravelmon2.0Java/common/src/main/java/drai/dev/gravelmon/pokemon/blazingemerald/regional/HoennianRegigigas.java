@@ -6,8 +6,6 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
-import java.util.*;
-
 public class HoennianRegigigas extends Pokemon {
     public HoennianRegigigas(int dexNo) {
         super(dexNo,"HoennianRegigigas",
@@ -80,7 +78,7 @@ public class HoennianRegigigas extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_TEMPERATE))),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Regigigas");

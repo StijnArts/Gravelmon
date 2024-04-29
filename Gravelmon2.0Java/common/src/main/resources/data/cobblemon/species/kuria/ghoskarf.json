@@ -1,0 +1,108 @@
+{
+  "implemented": true,
+  "name": "ghoskarf",
+  "nationalPokedexNumber": 3616,
+  "primaryType": "ghost",
+  "secondaryType": "ice",
+  "abilities": [
+    "magicbounce",
+    "h:slushrush"
+  ],
+  "baseStats": {
+    "hp": 51,
+    "attack": 92,
+    "defence": 60,
+    "special_attack": 55,
+    "special_defence": 83,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 106,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:leer",
+    "7:shadowsneak",
+    "10:spite",
+    "14:metalclaw",
+    "17:iceshard",
+    "19:taunt",
+    "22:shadowclaw",
+    "25:block",
+    "36:swagger",
+    "47:swordsdance",
+    "52:memento"  ],
+  "labels": [
+    "kuria",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ghoskarf.desc"
+  ],
+  "preEvolution": "shoul",
+  "evolutions": [
+    {
+      "id": "ghoskarf_shroudice",
+      "variant": "level_up",
+      "result": "shroudice",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 55
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 45,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

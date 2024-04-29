@@ -7,7 +7,7 @@
       "id": "batterode-1",
       "pokemon": "batterode",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

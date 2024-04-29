@@ -41,7 +41,7 @@ public class Tropiary extends drai.dev.gravelmon.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SPRING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN, SpawnPreset.FOLIAGE),
+                List.of(SpawnPreset.VILLAGE, SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Tropiary");

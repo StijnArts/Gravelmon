@@ -51,6 +51,7 @@ import drai.dev.gravelmon.pokemon.varitas.*;
 import drai.dev.gravelmon.pokemon.aristos.*;
 import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.crozoic.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 
@@ -58,7 +59,7 @@ import java.util.*;
 public class Starmie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Starmie(int dex) {
         super(dex, "Starmie",
-                Type.STEEL, Type.FIRE,
+                Type.STEEL,Type.FIRE,
                 new Stats(0,
                         0,
                         0,

@@ -66,8 +66,8 @@ public class Puffjinn extends drai.dev.gravelmon.pokemon.Pokemon {
                         150,
                         60),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                36, 0,
+                new Stats(0,0,0,0,0,0), 3,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -94,7 +94,7 @@ public class Puffjinn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLIZZARD,88)                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

@@ -7,7 +7,7 @@
       "id": "switza-1",
       "pokemon": "switza",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

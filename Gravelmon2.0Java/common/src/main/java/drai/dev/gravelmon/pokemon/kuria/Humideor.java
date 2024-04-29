@@ -74,16 +74,32 @@ public class Humideor extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.AMORPHOUS),
                 List.of("Humideor keeps everything in a kilometer distance humid merely by being there. Due to the water released from its ears, it requires constant absorption of liters of water to survive."),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.FLIP_TURN,1),
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.GROWL,1),
+                        new MoveLearnSetEntry(Move.WATER_GUN,1),
+                        new MoveLearnSetEntry(Move.SUPERSONIC,1),
+                        new MoveLearnSetEntry(Move.AQUA_JET,11),
+                        new MoveLearnSetEntry(Move.BITE,15),
+                        new MoveLearnSetEntry(Move.ECHOLOCATE,20),
+                        new MoveLearnSetEntry(Move.FROST_BREATH,26),
+                        new MoveLearnSetEntry(Move.LIQUIDATION,31),
+                        new MoveLearnSetEntry(Move.BODY_SLAM,37),
+                        new MoveLearnSetEntry(Move.SAFEGUARD,42),
+                        new MoveLearnSetEntry(Move.SUPERPOWER,48),
+                        new MoveLearnSetEntry(Move.WATER_SPOUT,52)
+                ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 51, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN, Biome.IS_END)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Humideor");
 
     }

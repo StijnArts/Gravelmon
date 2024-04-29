@@ -114,14 +114,11 @@
     "egg:toxicspikes"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.sanguito.desc"
   ],
-  "preEvolution": "toxito",
   "baseScale": 0.17500000000000002,
   "hitbox": {
     "width": 6.0,

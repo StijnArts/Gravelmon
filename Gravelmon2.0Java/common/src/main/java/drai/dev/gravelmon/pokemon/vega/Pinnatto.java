@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Pinnatto extends Pokemon {
     public Pinnatto() {
         super( "Pinnatto",
@@ -65,7 +63,7 @@ public class Pinnatto extends Pokemon {
                 List.of(), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 25, 7.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD))
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.4, 0.3,
                 List.of());
     }

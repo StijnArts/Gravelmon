@@ -7,7 +7,7 @@
       "id": "moppup-1",
       "pokemon": "moppup",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Cefireon extends Pokemon {
     public Cefireon() {
         super("Cefireon",
@@ -46,7 +44,7 @@ public class Cefireon extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.24, 0.3,
                 List.of());
         this.setPreEvolution("eevee");

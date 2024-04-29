@@ -7,7 +7,7 @@
       "id": "suburvian-1",
       "pokemon": "suburvian",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

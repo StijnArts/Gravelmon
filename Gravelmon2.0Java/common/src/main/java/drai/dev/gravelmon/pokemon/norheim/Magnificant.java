@@ -17,7 +17,7 @@ public class Magnificant extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         67),
                 List.of(Ability.TINTED_LENS,Ability.SOLAR_POWER,Ability.DROUGHT), Ability.DROUGHT,
-                8, 165,
+                15, 165,
                 new Stats(0,0,0,0,0,0), 0,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
@@ -25,11 +25,21 @@ public class Magnificant extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(          new MoveLearnSetEntry(Move.EMBER,1),
+                        new MoveLearnSetEntry(Move.MUDSLAP,7),
+                        new MoveLearnSetEntry(Move.TWINEEDLE,12),
+                        new MoveLearnSetEntry(Move.SMOKESCREEN,16),
+                        new MoveLearnSetEntry(Move.SILVER_WIND,20),
+                        new MoveLearnSetEntry(Move.FIRE_SPIN,24),
+                        new MoveLearnSetEntry(Move.SILVER_WIND,28),
+                        new MoveLearnSetEntry(Move.SIGNAL_BEAM,34),
+                        new MoveLearnSetEntry(Move.FLAMETHROWER,38),
+                        new MoveLearnSetEntry(Move.QUIVER_DANCE,44),
+                        new MoveLearnSetEntry(Move.ERUPTION,50)             ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 34, 56, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

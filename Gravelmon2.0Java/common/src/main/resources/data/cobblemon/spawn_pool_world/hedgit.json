@@ -7,7 +7,7 @@
       "id": "hedgit-1",
       "pokemon": "hedgit",
       "presets": [
-          "urban",
+          "village",
           "foliage"
       ],
       "type": "pokemon",

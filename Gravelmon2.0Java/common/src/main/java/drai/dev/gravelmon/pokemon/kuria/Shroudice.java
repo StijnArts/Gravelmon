@@ -74,11 +74,28 @@ public class Shroudice extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("During a blizzard in a tundra, Shroudice will appear, just staring at lost travelers, waiting for their actions. Because it looks fairly human from a distance, people will sometimes approach, only to get their souls sealed in its mirror."),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.LEER,1),
+                        new MoveLearnSetEntry(Move.SHADOW_SNEAK,7),
+                        new MoveLearnSetEntry(Move.SPITE,10),
+                        new MoveLearnSetEntry(Move.METAL_CLAW,14),
+                        new MoveLearnSetEntry(Move.ICE_SHARD,17),
+                        new MoveLearnSetEntry(Move.TAUNT,19),
+                        new MoveLearnSetEntry(Move.SHADOW_CLAW,22),
+                        new MoveLearnSetEntry(Move.BLOCK,25),
+                        new MoveLearnSetEntry(Move.NUGGETFLING,28),
+                        new MoveLearnSetEntry(Move.MALICESTRIKE,32),
+                        new MoveLearnSetEntry(Move.SWAGGER,36),
+                        new MoveLearnSetEntry(Move.CRYSTALDEFENSE,40),
+                        new MoveLearnSetEntry(Move.ICEBLADE,44),
+                        new MoveLearnSetEntry(Move.SWORDS_DANCE,47),
+                        new MoveLearnSetEntry(Move.MEMENTO,52)
+                ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 55, 65, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.IS_RAINING,"true"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

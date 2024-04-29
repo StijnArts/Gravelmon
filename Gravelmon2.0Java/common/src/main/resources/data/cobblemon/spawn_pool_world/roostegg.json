@@ -7,7 +7,7 @@
       "id": "roostegg-1",
       "pokemon": "roostegg",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

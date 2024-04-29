@@ -11,6 +11,7 @@ import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
@@ -33,6 +34,14 @@ public class GenerationOne extends Game {
 
     @Override
     public void registerPokemon() {
+
+//        pokemon.add(new IonosianEkans(23));   Missing Stats
+//        pokemon.add(new IonosianArbok(24));   Missing Stats
+//        pokemon.add(new IonosianHypno(97));   Missing Stats
+//        pokemon.add(new IonosianStarmie(121));   Missing Stats
+//        pokemon.add(new IonosianJynx(124));   Missing Stats
+//        pokemon.add(new IonosianSnorlax(143));   Missing Stats
+
         pokemon.add(new FligianParas(46));
         pokemon.add(new FligianParasect(47));
         pokemon.add(new FligianChansey(113));
@@ -101,8 +110,8 @@ public class GenerationOne extends Game {
         pokemon.add(new AristosianBellsprout(69));
         pokemon.add(new AristosianWeepinbell(70));
         pokemon.add(new AristosianVictreebel(71));
-//        pokemon.add(new AristosianGrowlithe(58)); Missing Stats
-//        pokemon.add(new AristosianArcanine(59)); Missing Stats
+        pokemon.add(new AristosianGrowlithe(58));
+        pokemon.add(new AristosianArcanine(59));
         pokemon.add(new AristosianKangaskhan(115));
 
         pokemon.add(new AvorianMrMime(122));

@@ -7,7 +7,7 @@
       "id": "bakeko-1",
       "pokemon": "bakeko",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -25,6 +25,23 @@
      "minLevel": 28
     }
    ]
+  },
+  {
+   "id": "farfetchd_achiefd",
+   "variant": "level_up",
+   "result": "achiefd",
+   "consumeHeldItem": true,
+   "learnableMoves": ["revenge"],
+   "requirements": [
+    {
+     "variant": "time_range",
+     "range": "day"
+    },
+    {
+     "variant": "held_item",
+     "itemCondition": "cobblemon:medicinal_leek"
+    }
+   ]
   }
  ],
    "moves": [

@@ -7,7 +7,7 @@
       "id": "eucharite-1",
       "pokemon": "eucharite",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

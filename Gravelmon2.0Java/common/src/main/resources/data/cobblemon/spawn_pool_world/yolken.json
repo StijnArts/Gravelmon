@@ -7,7 +7,7 @@
       "id": "yolken-1",
       "pokemon": "yolken",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

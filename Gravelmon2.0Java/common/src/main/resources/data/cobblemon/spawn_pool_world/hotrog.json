@@ -7,7 +7,7 @@
       "id": "hotrog-1",
       "pokemon": "hotrog",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

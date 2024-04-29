@@ -7,7 +7,7 @@
       "id": "munchwin-1",
       "pokemon": "munchwin",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

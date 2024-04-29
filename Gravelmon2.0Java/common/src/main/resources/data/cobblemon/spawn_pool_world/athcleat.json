@@ -7,7 +7,7 @@
       "id": "athcleat-1",
       "pokemon": "athcleat",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

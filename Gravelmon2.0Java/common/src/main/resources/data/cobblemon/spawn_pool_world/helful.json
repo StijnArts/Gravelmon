@@ -7,7 +7,7 @@
       "id": "helful-1",
       "pokemon": "helful",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

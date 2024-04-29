@@ -7,7 +7,7 @@
       "id": "dimwatt-1",
       "pokemon": "dimwatt",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

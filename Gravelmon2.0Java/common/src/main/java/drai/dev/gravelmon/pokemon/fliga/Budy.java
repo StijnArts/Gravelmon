@@ -73,7 +73,8 @@ public class Budy extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.GRASS),
                 List.of("Budys frequently try to replicate how humans look and act by growing their moss out. They often have a hard time deciding what rocks to pick and how much they should grow, leading to a lopsided body."),
-                List.of(),
+                List.of(new EvolutionEntry("growdup", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"210")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONSTRICT,1),
                         new MoveLearnSetEntry(Move.ABSORB,1),
@@ -144,8 +145,8 @@ public class Budy extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WRING_OUT,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

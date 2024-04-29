@@ -6,7 +6,7 @@
     {
       "id": "dragon_masgot-1",
       "pokemon": "masgot dragon",
-      "presets": [ "urban"],
+      "presets": [ "village"],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",

@@ -7,7 +7,7 @@
       "id": "gatherelf-1",
       "pokemon": "gatherelf",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

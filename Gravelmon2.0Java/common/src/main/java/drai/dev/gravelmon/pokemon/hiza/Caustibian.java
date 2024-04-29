@@ -23,7 +23,8 @@ public class Caustibian extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1,EggGroup.MONSTER),
                 List.of("They mark their territory by leaving toxic slime puddles behind. This slime dries out over a short time and becomes safe to touch."),
                 List.of(),
-                List.of(    new MoveLearnSetEntry(Move.POUND,1),
+                List.of(
+                        new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.YAWN,5),
                         new MoveLearnSetEntry(Move.POISON_GAS,8),
                         new MoveLearnSetEntry(Move.SLUDGE,10),

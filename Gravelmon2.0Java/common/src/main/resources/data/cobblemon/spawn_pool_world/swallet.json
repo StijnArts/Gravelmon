@@ -7,7 +7,7 @@
       "id": "swallet-1",
       "pokemon": "swallet",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

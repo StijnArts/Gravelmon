@@ -7,7 +7,7 @@
       "id": "harmorial-1",
       "pokemon": "harmorial",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

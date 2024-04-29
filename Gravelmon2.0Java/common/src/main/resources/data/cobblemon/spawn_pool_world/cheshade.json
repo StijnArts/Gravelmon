@@ -7,7 +7,7 @@
       "id": "cheshade-1",
       "pokemon": "cheshade",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

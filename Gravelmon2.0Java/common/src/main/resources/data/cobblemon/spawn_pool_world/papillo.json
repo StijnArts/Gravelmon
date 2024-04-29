@@ -7,7 +7,7 @@
       "id": "papillo-1",
       "pokemon": "papillo",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

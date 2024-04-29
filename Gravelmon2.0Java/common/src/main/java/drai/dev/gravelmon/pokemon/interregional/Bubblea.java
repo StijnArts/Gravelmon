@@ -44,7 +44,7 @@ public class Bubblea extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 7, 34, 4, List.of(
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);

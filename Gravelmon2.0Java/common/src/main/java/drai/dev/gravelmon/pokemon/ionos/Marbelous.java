@@ -66,14 +66,15 @@ public class Marbelous extends drai.dev.gravelmon.pokemon.Pokemon {
                         91,
                         40),
                 List.of(Ability.MAGIC_BOUNCE,Ability.ROCK_HEAD), Ability.IRON_FIST,
-                0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                9, 0,
+                new Stats(0,0,0,0,0,0), 90,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("This Pokémon lingers in the past and imagines itself as a guard of royal a palace. Truth is however that Marbelous hobbles among the ruins of destroyed buildings from a long time ago, all by itself. The marble shield on its right side has the shape of a wheel of cheese and doesn't need carrying."),
-                List.of(),
+                List.of(new EvolutionEntry("destructos", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.BULK_UP.getName()+"\"")))	),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.DETECT,1),
@@ -101,11 +102,10 @@ public class Marbelous extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULLET_PUNCH,"tm")                        ),
                 List.of(Label.IONOS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 27, 38, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPRING))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.TRAIL_RUINS),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Marbelous");

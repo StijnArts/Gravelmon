@@ -7,7 +7,7 @@
       "id": "brainergy-1",
       "pokemon": "brainergy",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "fevirus-1",
       "pokemon": "fevirus",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

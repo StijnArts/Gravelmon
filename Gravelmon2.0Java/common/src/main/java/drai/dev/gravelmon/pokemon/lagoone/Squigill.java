@@ -73,18 +73,37 @@ public class Squigill extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_2),
                 List.of("Its slippery skin allow its body to never dry while out of water. It prefers live by very clean waters so it is always migrating to new areas."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("whirlamari", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
+                List.of(
+                        new MoveLearnSetEntry(Move.CHARM,1),
+                        new MoveLearnSetEntry(Move.BUBBLE,6),
+                        new MoveLearnSetEntry(Move.SUPERSONIC,9),
+                        new MoveLearnSetEntry(Move.AQUA_JET,11),
+                        new MoveLearnSetEntry(Move.PSYWAVE,15),
+                        new MoveLearnSetEntry(Move.SWIFT,19),
+                        new MoveLearnSetEntry(Move.WATER_PULSE,24),
+                        new MoveLearnSetEntry(Move.PSYBEAM,28),
+                        new MoveLearnSetEntry(Move.AQUA_RING,31),
+                        new MoveLearnSetEntry(Move.EXTRASENSORY,35),
+                        new MoveLearnSetEntry(Move.AGILITY,39),
+                        new MoveLearnSetEntry(Move.HYDRO_PUMP,44),
+                        new MoveLearnSetEntry(Move.STARSTREAM,48),
+                        new MoveLearnSetEntry(Move.SOAK,52),
+                        new MoveLearnSetEntry(Move.WATER_SPOUT,58)
+                ),
                 List.of(Label.LAGOONE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Squigill");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setLangFileName("Squigill");
 
     }
 

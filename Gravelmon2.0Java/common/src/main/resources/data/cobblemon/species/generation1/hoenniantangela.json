@@ -84,11 +84,14 @@
   "labels": [
     "blazing_emerald",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoenniantangela.desc"
   ],
+  "preEvolution": "weeduza",
   "evolutions": [
     {
       "id": "hoenniantangela_hoenniantangrowth",

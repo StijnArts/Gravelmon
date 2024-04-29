@@ -7,7 +7,7 @@
       "id": "merlicun-1",
       "pokemon": "merlicun",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

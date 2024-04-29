@@ -7,7 +7,7 @@
       "id": "borubotto-1",
       "pokemon": "borubotto",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

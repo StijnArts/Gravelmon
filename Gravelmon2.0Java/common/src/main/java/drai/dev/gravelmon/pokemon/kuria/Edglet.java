@@ -73,17 +73,33 @@ public class Edglet extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of("Edglet are fierce and territorial. When born, they begin to grow a sharp horn-like appendage on their head that is sharp enough to slice an Onix in half."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("hawkedge", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
+                List.of(            new MoveLearnSetEntry(Move.PECK,1),
+                        new MoveLearnSetEntry(Move.SWITCHEROO,1),
+                        new MoveLearnSetEntry(Move.THIEF,1),
+                        new MoveLearnSetEntry(Move.PLUCK,1),
+                        new MoveLearnSetEntry(Move.MIMIC,12),
+                        new MoveLearnSetEntry(Move.BEAT_UP,15),
+                        new MoveLearnSetEntry(Move.ROLE_PLAY,22),
+                        new MoveLearnSetEntry(Move.AIR_SLASH,27),
+                        new MoveLearnSetEntry(Move.PSYCH_UP,32),
+                        new MoveLearnSetEntry(Move.FOUL_PLAY,37),
+                        new MoveLearnSetEntry(Move.HURRICANE,44),
+                        new MoveLearnSetEntry(Move.PARTING_SHOT,49),
+                        new MoveLearnSetEntry(Move.SHADOW_SNEAK,"egg"),
+                        new MoveLearnSetEntry(Move.DRILL_PECK,"egg"),
+                        new MoveLearnSetEntry(Move.BATON_PASS,"egg")            ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Edglet");
 
     }

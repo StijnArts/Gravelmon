@@ -1,0 +1,98 @@
+{
+  "implemented": true,
+  "name": "hawkedge",
+  "nationalPokedexNumber": 3581,
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "abilities": [
+    "rivalry",
+    "hustle",
+    "h:steelworker"
+  ],
+  "baseStats": {
+    "hp": 68,
+    "attack": 127,
+    "defence": 90,
+    "special_attack": 50,
+    "special_defence": 76,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 162,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:peck",
+    "1:switcheroo",
+    "1:thief",
+    "1:pluck",
+    "12:mimic",
+    "15:beatup",
+    "22:roleplay",
+    "27:airslash",
+    "32:psychup",
+    "37:foulplay",
+    "44:hurricane",
+    "49:partingshot",
+    "egg:shadowsneak",
+    "egg:drillpeck",
+    "egg:batonpass"  ],
+  "labels": [
+    "kuria",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hawkedge.desc"
+  ],
+  "preEvolution": "edglet",
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 355,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -137,11 +137,14 @@
   "labels": [
     "infinity",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghotangela.desc"
   ],
+  "preEvolution": "weeduza",
   "evolutions": [
     {
       "id": "eghotangela_eghotangrowth",

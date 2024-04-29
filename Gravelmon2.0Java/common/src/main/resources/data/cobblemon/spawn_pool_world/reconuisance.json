@@ -7,7 +7,7 @@
       "id": "reconuisance-1",
       "pokemon": "reconuisance",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

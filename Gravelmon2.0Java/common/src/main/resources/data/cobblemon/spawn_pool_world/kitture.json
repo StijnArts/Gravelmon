@@ -7,7 +7,7 @@
       "id": "kitture-1",
       "pokemon": "kitture",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

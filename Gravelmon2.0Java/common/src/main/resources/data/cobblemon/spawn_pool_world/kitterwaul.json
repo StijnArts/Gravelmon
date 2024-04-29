@@ -7,7 +7,7 @@
       "id": "kitterwaul-1",
       "pokemon": "kitterwaul",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

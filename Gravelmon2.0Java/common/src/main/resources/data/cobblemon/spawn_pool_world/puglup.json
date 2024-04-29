@@ -7,7 +7,7 @@
       "id": "puglup-1",
       "pokemon": "puglup",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

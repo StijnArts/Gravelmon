@@ -7,7 +7,7 @@
       "id": "gagokin-1",
       "pokemon": "gagokin",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

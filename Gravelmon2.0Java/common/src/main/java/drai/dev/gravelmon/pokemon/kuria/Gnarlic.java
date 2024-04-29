@@ -73,13 +73,29 @@ public class Gnarlic extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.GRASS),
                 List.of("Often found roaming farms to aid farmers, Gnarlic scare away birds with bursts of flames. They like to hoard objects they finds in their nests."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("garsome", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"44")))),
+                List.of(
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.SELFDESTRUCT,5),
+                        new MoveLearnSetEntry(Move.RAZOR_LEAF,9),
+                        new MoveLearnSetEntry(Move.FLAME_CHARGE,12),
+                        new MoveLearnSetEntry(Move.BULLET_SEED,17),
+                        new MoveLearnSetEntry(Move.RAPID_SPIN,20),
+                        new MoveLearnSetEntry(Move.BIDE,23),
+                        new MoveLearnSetEntry(Move.FLAME_BURST,27),
+                        new MoveLearnSetEntry(Move.SEED_BOMB,31),
+                        new MoveLearnSetEntry(Move.EXPLOSION,34),
+                        new MoveLearnSetEntry(Move.INFERNO,39),
+                        new MoveLearnSetEntry(Move.PETAL_BLIZZARD,42),
+                        new MoveLearnSetEntry(Move.SYNTHESIS,45)
+                ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 38, .6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

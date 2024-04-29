@@ -74,11 +74,26 @@ public class Cerarmor extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.EMBER,1),
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.BABBLE,6),
+                        new MoveLearnSetEntry(Move.HOWL,9),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,13),
+                        new MoveLearnSetEntry(Move.FIRE_FANG,18),
+                        new MoveLearnSetEntry(Move.UPROAR,23),
+                        new MoveLearnSetEntry(Move.SCREECH,28),
+                        new MoveLearnSetEntry(Move.FLAMETHROWER,32),
+                        new MoveLearnSetEntry(Move.HYPER_VOICE,36),
+                        new MoveLearnSetEntry(Move.SWAGGER,40),
+                        new MoveLearnSetEntry(Move.BOOMBURST,45),
+                        new MoveLearnSetEntry(Move.INFERNO,51),
+                        new MoveLearnSetEntry(Move.CRUNCH,56),
+                        new MoveLearnSetEntry(Move.FLARE_BLITZ,61)         ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 31, 53, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

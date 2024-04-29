@@ -7,7 +7,7 @@
       "id": "shampooch-1",
       "pokemon": "shampooch",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

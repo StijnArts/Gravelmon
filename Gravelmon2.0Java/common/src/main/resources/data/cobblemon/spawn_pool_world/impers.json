@@ -7,7 +7,7 @@
       "id": "impers-1",
       "pokemon": "impers",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "sheetrick-1",
       "pokemon": "sheetrick",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "elegent-1",
       "pokemon": "elegent",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

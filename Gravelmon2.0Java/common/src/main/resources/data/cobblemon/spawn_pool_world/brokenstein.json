@@ -7,7 +7,7 @@
       "id": "brokenstein-1",
       "pokemon": "brokenstein",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

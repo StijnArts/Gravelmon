@@ -7,7 +7,7 @@
       "id": "bagly-1",
       "pokemon": "bagly",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "pinnatto-1",
       "pokemon": "pinnatto",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

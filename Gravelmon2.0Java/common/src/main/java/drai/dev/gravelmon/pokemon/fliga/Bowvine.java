@@ -67,12 +67,12 @@ public class Bowvine extends drai.dev.gravelmon.pokemon.Pokemon {
                         80),
                 List.of(Ability.RECKLESS,Ability.NATURAL_CURE), Ability.CUD_CHEW,
                 17, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- TackleSTAB Normal - LeafageSTAB Grass - Growl Normal 5 Sand Attack Ground 9 Bullet SeedSTAB Grass 12 BideSTAB Normal 16 HeadbuttSTAB Normal 20 Leech Seed Grass 24 Growth Normal 29 High Horsepower Ground 35 Fruit Munch Grass 39 Head ChargeSTAB Normal 44 Spiky Shield Grass 47 Zen Headbutt Psychic 52 Wood HammerSTAB Grass 56 Nature's Call Grass"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GROWL,1),
@@ -93,11 +93,11 @@ public class Bowvine extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NATURESCALL,56)                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 44, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.FOLIAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bowvine");

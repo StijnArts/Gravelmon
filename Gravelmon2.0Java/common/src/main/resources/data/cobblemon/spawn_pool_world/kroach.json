@@ -7,7 +7,7 @@
       "id": "kroach-1",
       "pokemon": "kroach",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

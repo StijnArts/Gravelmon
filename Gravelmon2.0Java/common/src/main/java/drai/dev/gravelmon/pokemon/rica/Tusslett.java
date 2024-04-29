@@ -96,7 +96,7 @@ public class Tusslett extends drai.dev.gravelmon.pokemon.Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE, Biome.IS_ARID)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL, SpawnPreset.URBAN),
+                List.of(SpawnPreset.NATURAL, SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Tusslett");

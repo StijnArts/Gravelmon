@@ -7,7 +7,7 @@
       "id": "honetto-1",
       "pokemon": "honetto",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

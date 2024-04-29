@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class AyreianMuk extends Pokemon {
     public AyreianMuk(int dexNo) {
         super(dexNo,"AyreianMuk",
@@ -119,7 +117,7 @@ public class AyreianMuk extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Muk");

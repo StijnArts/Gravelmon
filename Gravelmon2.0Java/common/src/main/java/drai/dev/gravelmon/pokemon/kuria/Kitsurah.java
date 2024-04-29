@@ -74,13 +74,29 @@ public class Kitsurah extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("Kitsurah have free control over local gravity and can use this to float. They draw and compress rocks to their arms so when they punch, they really pack a punch!"),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.EMBER,1),
+                        new MoveLearnSetEntry(Move.GROWL,1),
+                        new MoveLearnSetEntry(Move.QUICK_ATTACK,5),
+                        new MoveLearnSetEntry(Move.SMOKESCREEN,8),
+                        new MoveLearnSetEntry(Move.FLAME_CHARGE,12),
+                        new MoveLearnSetEntry(Move.DOUBLE_TEAM,17),
+                        new MoveLearnSetEntry(Move.BITE,20),
+                        new MoveLearnSetEntry(Move.FIRE_FANG,24),
+                        new MoveLearnSetEntry(Move.AGILITY,29),
+                        new MoveLearnSetEntry(Move.CRUNCH,32),
+                        new MoveLearnSetEntry(Move.EXTREME_SPEED,36),
+                        new MoveLearnSetEntry(Move.WILD_CHARGE,41),
+                        new MoveLearnSetEntry(Move.INFERNO,44),
+                        new MoveLearnSetEntry(Move.SPEED_SWAP,48),
+                        new MoveLearnSetEntry(Move.FLARE_BLITZ,53)
+                ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER, Biome.IS_WINTER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

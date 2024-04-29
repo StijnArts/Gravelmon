@@ -7,7 +7,7 @@
       "id": "durassault-1",
       "pokemon": "durassault",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

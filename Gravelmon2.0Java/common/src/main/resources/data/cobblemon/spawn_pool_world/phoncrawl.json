@@ -7,7 +7,7 @@
       "id": "phoncrawl-1",
       "pokemon": "phoncrawl",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

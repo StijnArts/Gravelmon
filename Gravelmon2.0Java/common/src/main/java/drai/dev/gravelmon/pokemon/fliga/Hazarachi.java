@@ -66,7 +66,7 @@ public class Hazarachi extends drai.dev.gravelmon.pokemon.Pokemon {
                         95,
                         60),
                 List.of(Ability.DRY_SKIN), Ability.LIQUID_OOZE,
-                29, 1483,
+                19, 1483,
                 new Stats(0,0,0,0,3,0), 45,
                 0.875,
                 240, ExperienceGroup.MEDIUM_SLOW,
@@ -119,14 +119,16 @@ public class Hazarachi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VENOM_DRENCH,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 38, 59, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_MAGMA, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
-           setLangFileName("Hazarachi");
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
 
     }
 

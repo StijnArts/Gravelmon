@@ -6,6 +6,7 @@ import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.novrai.regional.*;
@@ -23,6 +24,8 @@ public class GenerationSix extends Game {
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new IonosianInkay(686));   Missing Art
+
         pokemon.add(new NovranSkrelp(690));
         pokemon.add(new NovranDragalge(691));
 

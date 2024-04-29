@@ -7,7 +7,7 @@
       "id": "imploda-1",
       "pokemon": "imploda",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

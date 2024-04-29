@@ -165,7 +165,7 @@ public class Panjaea extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Fluffrie());   Missing Stats
 //        pokemon.add(new Flufflame());   Missing Stats
 //        pokemon.add(new Fluffury());   Missing Stats
-//        pokemon.add(new 390990());   Missing Stats
+//        pokemon.add(new Cherokid());   Missing Stats
 //        pokemon.add(new 478173());   Missing Stats
 //        pokemon.add(new Bristern());   Missing Stats
 //        pokemon.add(new Larostache());   Missing Stats

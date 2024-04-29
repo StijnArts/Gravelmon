@@ -167,6 +167,7 @@ public class Kuria extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Icheon());
         pokemon.add(new Fulgeon());
         pokemon.add(new Shyneon());
+
         pokemon.add(new Asawaji());
         pokemon.add(new Chichaw());
         pokemon.add(new Terrevour());

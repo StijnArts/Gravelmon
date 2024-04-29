@@ -6,8 +6,6 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 import drai.dev.gravelmon.util.*;
 
-import java.util.*;
-
 public class Oreon extends Pokemon {
     public Oreon() {
         super("Oreon",
@@ -56,7 +54,7 @@ public class Oreon extends Pokemon {
                 SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 34, 56, 0.001, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.19, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

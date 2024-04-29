@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Pomparunt extends Pokemon {
     public Pomparunt() {
         super("Pomparunt",
@@ -94,7 +92,7 @@ public class Pomparunt extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

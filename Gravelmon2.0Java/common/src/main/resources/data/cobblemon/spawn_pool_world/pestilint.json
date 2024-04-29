@@ -7,7 +7,7 @@
       "id": "pestilint-1",
       "pokemon": "pestilint",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

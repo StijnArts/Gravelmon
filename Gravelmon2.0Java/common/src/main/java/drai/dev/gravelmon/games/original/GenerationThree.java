@@ -11,6 +11,8 @@ import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.ionos.regional.*;
+import drai.dev.gravelmon.pokemon.lagoone.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 //import drai.dev.gravelmon.pokemon.neonintendo.*;
 import drai.dev.gravelmon.pokemon.neonintendo.regional.*;
@@ -31,6 +33,12 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
+        pokemon.add(new LagoonanSableye(302));
+
+//        pokemon.add(new IonosianTrapinch(328));   Missing Stats
+//        pokemon.add(new IonosianVibrava(329));   Missing Stats
+//        pokemon.add(new IonosianFlygon(330));   Missing Stats
+
         pokemon.add(new FligianTreecko(252));
         pokemon.add(new FligianGrovyle(253));
         pokemon.add(new FligianSceptile(254));

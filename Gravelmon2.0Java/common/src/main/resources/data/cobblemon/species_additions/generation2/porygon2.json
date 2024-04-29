@@ -27,6 +27,23 @@
    ]
   },
   {
+   "id": "porygon2_porygony",
+   "variant": "level_up",
+   "result": "porygony",
+   "consumeHeldItem": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#minecraft:is_end"
+    },
+    {
+     "variant": "level",
+     "minLevel": 33
+    }
+   ]
+  },
+  {
    "id": "porygon2_porygonwes",
    "variant": "level_up",
    "result": "porygonwes",

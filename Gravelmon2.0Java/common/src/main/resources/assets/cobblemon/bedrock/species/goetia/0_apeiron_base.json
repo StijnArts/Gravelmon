@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:apeiron",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:goetia_apeiron",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/goetia/apeiron.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/apeiron_shiny.png"
+    }  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trishoutterrestrial",
-  "nationalPokedexNumber": 1855,
+  "nationalPokedexNumber": 1913,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
@@ -51,24 +51,24 @@
     "amount": "1",
     "entries": [
       {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
         "item": "gravelmon:terrestrial_ring",
         "quantityRange": "1-1",
         "percentage": 40
-      },
-      {
-        "item": "gravelmon:xenoversal_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:terrestrial_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:xenoversal_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
       },
       {
         "item": "gravelmon:terrestrial_ring",

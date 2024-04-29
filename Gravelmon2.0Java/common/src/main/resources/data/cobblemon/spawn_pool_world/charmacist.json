@@ -7,7 +7,7 @@
       "id": "charmacist-1",
       "pokemon": "charmacist",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

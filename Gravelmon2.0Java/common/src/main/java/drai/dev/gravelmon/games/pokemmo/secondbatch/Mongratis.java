@@ -183,7 +183,7 @@ public class Mongratis extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Colobbus());   Missing Stats
 //        pokemon.add(new Dialapis());   Missing Stats
 //        pokemon.add(new Chickite());   Missing Stats
-//        pokemon.add(new 305224());   Missing Stats
+//        pokemon.add(new Kitiary());   Missing Stats
 //        pokemon.add(new Turbatic());   Missing Stats
 //        pokemon.add(new Mondrog());   Missing Stats
 //        pokemon.add(new Anxiust());   Missing Stats
@@ -266,7 +266,7 @@ public class Mongratis extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Flooie());   Missing Stats
 //        pokemon.add(new Flobal());   Missing Stats
 //        pokemon.add(new Snagatoof());   Missing Stats
-//        pokemon.add(new 300666());   Missing Stats
+//        pokemon.add(new Snagajin());   Missing Stats
 //        pokemon.add(new Burrb());   Missing Stats
 //        pokemon.add(new Spikonsia());   Missing Stats
 //        pokemon.add(new Varmot());   Missing Stats

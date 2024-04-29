@@ -7,7 +7,7 @@
       "id": "konsert-1",
       "pokemon": "konsert",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

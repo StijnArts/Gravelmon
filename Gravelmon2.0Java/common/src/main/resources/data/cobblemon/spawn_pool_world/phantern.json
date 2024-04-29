@@ -7,7 +7,7 @@
       "id": "phantern-1",
       "pokemon": "phantern",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

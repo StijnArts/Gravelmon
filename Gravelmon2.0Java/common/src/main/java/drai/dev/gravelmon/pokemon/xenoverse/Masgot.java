@@ -5,8 +5,6 @@ import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
-import java.util.*;
-
 public class Masgot extends Pokemon {
     public Masgot() {
         super("Masgot",
@@ -1125,7 +1123,7 @@ public class Masgot extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.3, 0.3
                 ),new PokemonForm(
                         "Dragon", false,
@@ -1195,7 +1193,7 @@ public class Masgot extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.3, 0.3
                 ),new PokemonForm(
                         "Fairy", false,
@@ -1265,7 +1263,7 @@ public class Masgot extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.3, 0.3
                 )));
         this.setPortraitXYZ(0.1,2.0,0.0);

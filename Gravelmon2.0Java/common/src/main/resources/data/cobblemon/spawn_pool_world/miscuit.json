@@ -7,7 +7,7 @@
       "id": "miscuit-1",
       "pokemon": "miscuit",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

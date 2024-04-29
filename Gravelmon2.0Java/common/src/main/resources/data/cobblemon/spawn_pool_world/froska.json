@@ -7,7 +7,7 @@
       "id": "froska-1",
       "pokemon": "froska",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -73,12 +73,27 @@ public class Amoni extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of(""),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("adizine", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"night")
+                                ))),
+                List.of(
+                        new MoveLearnSetEntry(Move.LIGHTUP,1),
+                        new MoveLearnSetEntry(Move.POWDER_SNOW,5),
+                        new MoveLearnSetEntry(Move.HAZE,11),
+                        new MoveLearnSetEntry(Move.FLASH,16),
+                        new MoveLearnSetEntry(Move.FIRE_SPIN,20),
+                        new MoveLearnSetEntry(Move.ICYCHARGE,26),
+                        new MoveLearnSetEntry(Move.COSMIC_POWER,33),
+                        new MoveLearnSetEntry(Move.METEORSHOWER,38),
+                        new MoveLearnSetEntry(Move.HEAT_WAVE,42),
+                        new MoveLearnSetEntry(Move.WISH,48),
+                        new MoveLearnSetEntry(Move.SOLARFLARE,52)
+                ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 28, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

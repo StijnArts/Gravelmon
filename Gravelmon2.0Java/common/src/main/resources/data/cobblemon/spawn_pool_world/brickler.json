@@ -7,7 +7,7 @@
       "id": "brickler-1",
       "pokemon": "brickler",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

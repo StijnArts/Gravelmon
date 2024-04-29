@@ -40,7 +40,7 @@ public class Discobrawl extends drai.dev.gravelmon.pokemon.Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Discobrawl");

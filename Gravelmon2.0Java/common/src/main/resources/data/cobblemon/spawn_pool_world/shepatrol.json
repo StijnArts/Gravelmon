@@ -7,7 +7,7 @@
       "id": "shepatrol-1",
       "pokemon": "shepatrol",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

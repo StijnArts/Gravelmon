@@ -7,7 +7,7 @@
       "id": "shivirus-1",
       "pokemon": "shivirus",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

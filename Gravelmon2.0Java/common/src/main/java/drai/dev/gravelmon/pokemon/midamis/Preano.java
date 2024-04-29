@@ -12,7 +12,7 @@ public class Preano extends drai.dev.gravelmon.pokemon.Pokemon {
                 Type.GRASS, Type.ELECTRIC,
                 new Stats(50,
                         45,
-                        0,
+                        50,
                         75,
                         45,
                         30),

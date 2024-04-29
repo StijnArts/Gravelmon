@@ -7,7 +7,7 @@
       "id": "bunnler-1",
       "pokemon": "bunnler",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

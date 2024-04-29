@@ -73,13 +73,22 @@ public class Pebbuin extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MINERAL,EggGroup.FLYING),
                 List.of("Although they aren't capable of long term flight, Pebbuin can lift off the ground just long enough to launch itself at an opponent. They don't hurt much, though."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("pengerupt", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
+                List.of(          new MoveLearnSetEntry(Move.BITE,1),
+                        new MoveLearnSetEntry(Move.ROLLOUT,8),
+                        new MoveLearnSetEntry(Move.SMOKESCREEN,15),
+                        new MoveLearnSetEntry(Move.EMBER,22),
+                        new MoveLearnSetEntry(Move.YAWN,29),
+                        new MoveLearnSetEntry(Move.ROCK_BLAST,36),
+                        new MoveLearnSetEntry(Move.INCINERATE,43),
+                        new MoveLearnSetEntry(Move.ANCIENT_POWER,50),
+                        new MoveLearnSetEntry(Move.FLAME_CHARGE,57),
+                        new MoveLearnSetEntry(Move.EXPLOSION,64)              ),
                 List.of(Label.KURIA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 28, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

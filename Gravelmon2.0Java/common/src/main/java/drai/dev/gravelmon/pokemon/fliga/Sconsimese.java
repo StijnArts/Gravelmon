@@ -72,8 +72,9 @@ public class Sconsimese extends drai.dev.gravelmon.pokemon.Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Scratch Normal - Tail Whip Normal - Lick Ghost - Moonlight Fairy 5 EmberSTAB Fire 11 Disarming Voice Fairy 14 Flame ChargeSTAB Fire 17 Draining Kiss Fairy 20 Fire SpinSTAB Fire 25 Lucky Chant Normal 27 Charm Fairy 35 FlamethrowerSTAB Fire 38 Will-O-Wisp Fire 41 Moonblast Fairy 43 Sunny Day Fire 47 InfernoSTAB Fire"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("kashigan", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),
                         new MoveLearnSetEntry(Move.TAIL_WHIP,1),
@@ -137,11 +138,11 @@ public class Sconsimese extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
                 List.of(Label.FLIGA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Sconsimese");

@@ -7,7 +7,7 @@
       "id": "impie-1",
       "pokemon": "impie",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",
