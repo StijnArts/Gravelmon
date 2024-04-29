@@ -22,7 +22,7 @@ public class Picocacto extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.SNIPER,Ability.SAND_VEIL,Ability.STAKEOUT), Ability.STAKEOUT,
                 6, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,

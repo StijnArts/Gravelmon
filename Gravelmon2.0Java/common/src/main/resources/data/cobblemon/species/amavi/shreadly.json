@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shreadly",
-  "nationalPokedexNumber": 5024,
+  "nationalPokedexNumber": 5220,
   "primaryType": "ice",
   "secondaryType": "dark",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:powdersnow",

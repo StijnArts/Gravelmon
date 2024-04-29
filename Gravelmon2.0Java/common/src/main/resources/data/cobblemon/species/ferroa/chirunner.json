@@ -1,0 +1,106 @@
+{
+  "implemented": true,
+  "name": "chirunner",
+  "nationalPokedexNumber": 1695,
+  "primaryType": "flying",
+  "secondaryType": "ground",
+  "abilities": [
+    "quickfeet",
+    "sandveil",
+    "h:stakeout"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 70,
+    "defence": 45,
+    "special_attack": 35,
+    "special_defence": 42,
+    "speed": 94
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 49,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:scratch",
+    "1:aerialace",
+    "1:agility",
+    "1:doubleteam",
+    "1:airslash",
+    "1:slash",
+    "1:nightslash",
+    "1:spikes",
+    "1:pursuit",
+    "1:extremespeed",
+    "1:sandstorm"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.chirunner.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "chirunner_roaduner",
+      "variant": "level_up",
+      "result": "roaduner",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 21
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

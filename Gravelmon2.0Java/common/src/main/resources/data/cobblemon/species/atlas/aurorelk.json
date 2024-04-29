@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aurorelk",
-  "nationalPokedexNumber": 4939,
+  "nationalPokedexNumber": 5135,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:aurorabeam",

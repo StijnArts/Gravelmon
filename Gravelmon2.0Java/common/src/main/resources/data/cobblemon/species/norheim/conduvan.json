@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "conduvan",
-  "nationalPokedexNumber": 2871,
+  "nationalPokedexNumber": 3067,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:block",

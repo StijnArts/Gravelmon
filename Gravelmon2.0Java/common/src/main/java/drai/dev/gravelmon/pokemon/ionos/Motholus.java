@@ -67,7 +67,7 @@ public class Motholus extends drai.dev.gravelmon.pokemon.Pokemon {
                         79),
                 List.of(Ability.INTIMIDATE,Ability.SWARM), Ability.SHADOW_TAG,
                 0, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

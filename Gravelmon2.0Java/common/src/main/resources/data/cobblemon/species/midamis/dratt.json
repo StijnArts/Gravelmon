@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dratt",
-  "nationalPokedexNumber": 3923,
+  "nationalPokedexNumber": 4119,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "tm:attract",

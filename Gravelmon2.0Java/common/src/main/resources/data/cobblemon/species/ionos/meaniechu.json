@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "meaniechu",
-  "nationalPokedexNumber": 4378,
+  "nationalPokedexNumber": 4574,
   "primaryType": "electric",
   "secondaryType": "fighting",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:sandattack",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rowdent",
-  "nationalPokedexNumber": 2798,
+  "nationalPokedexNumber": 2994,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

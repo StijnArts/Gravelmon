@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pangai",
-  "nationalPokedexNumber": 4824,
+  "nationalPokedexNumber": 5020,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:petaldance",

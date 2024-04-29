@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "minole",
-  "nationalPokedexNumber": 3874,
+  "nationalPokedexNumber": 4070,
   "primaryType": "dark",
   "secondaryType": "ground",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

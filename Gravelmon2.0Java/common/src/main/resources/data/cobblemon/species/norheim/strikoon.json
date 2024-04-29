@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "strikoon",
-  "nationalPokedexNumber": 2795,
+  "nationalPokedexNumber": 2991,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:counter"  ],

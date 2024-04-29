@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "moleheimer",
-  "nationalPokedexNumber": 2816,
+  "nationalPokedexNumber": 3012,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:confusion",

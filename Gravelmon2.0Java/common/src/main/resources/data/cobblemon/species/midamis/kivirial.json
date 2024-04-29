@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kivirial",
-  "nationalPokedexNumber": 3958,
+  "nationalPokedexNumber": 4154,
   "primaryType": "steel",
   "secondaryType": "dragon",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:spikes",

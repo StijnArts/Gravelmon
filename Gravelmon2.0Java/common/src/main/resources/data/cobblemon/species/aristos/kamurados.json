@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kamurados",
-  "nationalPokedexNumber": 2102,
+  "nationalPokedexNumber": 2296,
   "primaryType": "water",
   "secondaryType": "bug",
   "abilities": [
@@ -38,14 +38,14 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

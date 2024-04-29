@@ -58,20 +58,20 @@ public class Interregional extends drai.dev.gravelmon.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new Leafrog()); Member(s) of set not finished
-//        pokemon.add(new Ribbush()); Member(s) of set not finished
-//        pokemon.add(new Agacloakis()); Member(s) of set not finished
-//        pokemon.add(new Giraze()); Missing Stats
-//        pokemon.add(new Bonfah()); Missing Stats
-//        pokemon.add(new Magmaraffa()); Missing Stats
-//        pokemon.add(new Damphant()); Missing Stats
-//        pokemon.add(new Droophant()); Missing Stats
-//        pokemon.add(new Cyclodon()); Missing Stats
-//        pokemon.add(new Solcorn()); Missing Stats
-//        pokemon.add(new Ferrutail()); Missing Stats
-//        pokemon.add(new Tweejay()); Missing Stats
-//        pokemon.add(new Marchawk()); Missing Stats
-//        pokemon.add(new Harmosoar()); Missing Stats
+        pokemon.add(new Leafrog());
+        pokemon.add(new Ribbush());
+        pokemon.add(new Agacloakis());
+        pokemon.add(new Giraze());
+        pokemon.add(new Bonfah());
+        pokemon.add(new Magmaraffa());
+        pokemon.add(new Damphant());
+        pokemon.add(new Droophant());
+        pokemon.add(new Cyclodon());
+        pokemon.add(new Solcorn());
+        pokemon.add(new Ferrutail());
+        pokemon.add(new Tweejay());
+        pokemon.add(new Marchawk());
+        pokemon.add(new Harmosoar());
         pokemon.add(new Pipillar());
         pokemon.add(new Vicoon());
         pokemon.add(new Arisfly());
@@ -84,30 +84,30 @@ public class Interregional extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Gleamuse());
         pokemon.add(new Spookrab());
         pokemon.add(new Crustgeist());
-//        pokemon.add(new Hermish()); Missing Stats
-//        pokemon.add(new Conkamite()); Missing Stats
-//        pokemon.add(new Whirm()); Missing Stats
-//        pokemon.add(new Grappore()); Missing Stats
+        pokemon.add(new Hermish());
+        pokemon.add(new Conkamite());
+        pokemon.add(new Whirm());
+        pokemon.add(new Grappore());
         pokemon.add(new Panditsy());
         pokemon.add(new Zangarsh());
         pokemon.add(new Beagasso());
-//        pokemon.add(new Onnidix()); Missing Stats
-//        pokemon.add(new Onnibud()); Missing Stats
-//        pokemon.add(new Vittion()); Missing Stats
+        pokemon.add(new Onnidix());
+        pokemon.add(new Onnibud());
+        pokemon.add(new Vittion());
         pokemon.add(new Maskost());
         pokemon.add(new Tomaskost());
         pokemon.add(new Threevilasks());
-//        pokemon.add(new Ogopoing()); Missing Stats
-//        pokemon.add(new Ogospiral()); Missing Stats
-//        pokemon.add(new Nesspin()); Missing Stats
+        pokemon.add(new Ogopoing());
+        pokemon.add(new Ogospiral());
+        pokemon.add(new Nesspin());
         pokemon.add(new Bitumin());
         pokemon.add(new Ligniter());
         pokemon.add(new Conflaracite());
-//        pokemon.add(new Pyrockit()); Missing Stats
-//        pokemon.add(new Zooboom()); Missing Stats
-//        pokemon.add(new Kraboom()); Missing Stats
-//        pokemon.add(new Audibaah()); Missing Stats
-//        pokemon.add(new Bellabaah()); Missing Stats
+        pokemon.add(new Pyrockit());
+        pokemon.add(new Zooboom());
+        pokemon.add(new Kraboom());
+        pokemon.add(new Audibaah());
+        pokemon.add(new Bellabaah());
         pokemon.add(new Marifin());
         pokemon.add(new Umiveil());
         pokemon.add(new Sniffreze());
@@ -126,43 +126,43 @@ public class Interregional extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Quisewer());
         pokemon.add(new Bactiny());
         pokemon.add(new Liquphage());
-//        pokemon.add(new Katakun()); Missing Stats
-//        pokemon.add(new Shurisan()); Missing Stats
+        pokemon.add(new Katakun());
+        pokemon.add(new Shurisan());
         pokemon.add(new Shaltuff());
         pokemon.add(new Gnawgorus());
-//        pokemon.add(new Polluga()); Missing Stats
-//        pokemon.add(new Junkqual()); Missing Stats
-//        pokemon.add(new Trashan()); Missing Stats
-//        pokemon.add(new Scrapiteer()); Missing Stats
+        pokemon.add(new Polluga());
+        pokemon.add(new Junkqual());
+        pokemon.add(new Trashan());
+        pokemon.add(new Scrapiteer());
         pokemon.add(new Cactabit());
         pokemon.add(new Gymnozard());
 //        pokemon.add(new Lilytad()); Missing Art
-//        pokemon.add(new Tuxechik()); Missing Stats
-//        pokemon.add(new Juavarrior()); Missing Stats
-//        pokemon.add(new Luxereguin()); Missing Stats
-//        pokemon.add(new Sliezen()); Missing Stats
-//        pokemon.add(new Glacitrave()); Missing Stats
+        pokemon.add(new Tuxechik());
+        pokemon.add(new Juavarrior());
+        pokemon.add(new Luxereguin());
+        pokemon.add(new Sliezen());
+        pokemon.add(new Glacitrave());
         pokemon.add(new Oofoe());
         pokemon.add(new Intellifoe());
 
-//        pokemon.add(new Zallut()); Missing Stats
-//        pokemon.add(new Zerbrahg()); Missing Stats
-//        pokemon.add(new Cryvus()); Missing Stats
-//        pokemon.add(new Etheeria()); Missing Stats
-//        pokemon.add(new Shocalf()); Missing Stats
-//        pokemon.add(new Voltuff()); Missing Stats
-//        pokemon.add(new Chargibull()); Missing Stats
-//        pokemon.add(new Sebrium()); Missing Stats
-//        pokemon.add(new Kirastrum()); Missing Stats
-//        pokemon.add(new Vitoshum()); Missing Stats
+        pokemon.add(new Zallut());
+        pokemon.add(new Zerbrahg());
+        pokemon.add(new Cryvus());
+        pokemon.add(new Etheeria());
+        pokemon.add(new Shocalf());
+        pokemon.add(new Voltuff());
+        pokemon.add(new Chargibull());
+        pokemon.add(new Sebrium());
+        pokemon.add(new Kirastrum());
+        pokemon.add(new Vitoshum());
         pokemon.add(new Bubblea());
         pokemon.add(new Chesture());
         pokemon.add(new Acard());
         pokemon.add(new Hiveum());
-//        pokemon.add(new Gigantoid()); Missing Stats
+        pokemon.add(new Gigantoid());
 //        pokemon.add(new Exwahyzee()); Missing Art
         pokemon.add(new Periyeti());
-//        pokemon.add(new Magness()); Missing Stats
+        pokemon.add(new Magness());
         pokemon.add(new Tyranntric());
         pokemon.add(new Phoeuck());
         pokemon.add(new Metamarine());

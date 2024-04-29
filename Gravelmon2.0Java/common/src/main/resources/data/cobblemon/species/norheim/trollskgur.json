@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trollskgur",
-  "nationalPokedexNumber": 2864,
+  "nationalPokedexNumber": 3060,
   "primaryType": "fairy",
   "secondaryType": "grass",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:sleeppowder",

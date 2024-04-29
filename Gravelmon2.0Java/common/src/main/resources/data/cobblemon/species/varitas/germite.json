@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "germite",
-  "nationalPokedexNumber": 2072,
+  "nationalPokedexNumber": 2266,
   "primaryType": "poison",
   "abilities": [
     "poisontouch",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bubble",

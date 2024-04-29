@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glacyak",
-  "nationalPokedexNumber": 4898,
+  "nationalPokedexNumber": 5094,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:stomp",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boileror",
-  "nationalPokedexNumber": 3977,
+  "nationalPokedexNumber": 4173,
   "primaryType": "fire",
   "secondaryType": "ice",
   "abilities": [
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 70,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,

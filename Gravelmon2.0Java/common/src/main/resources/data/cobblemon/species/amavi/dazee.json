@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dazee",
-  "nationalPokedexNumber": 4986,
+  "nationalPokedexNumber": 5182,
   "primaryType": "psychic",
   "secondaryType": "grass",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:foresight",

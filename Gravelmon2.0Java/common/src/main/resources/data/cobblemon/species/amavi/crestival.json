@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crestival",
-  "nationalPokedexNumber": 5071,
+  "nationalPokedexNumber": 5267,
   "primaryType": "dragon",
   "secondaryType": "fire",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

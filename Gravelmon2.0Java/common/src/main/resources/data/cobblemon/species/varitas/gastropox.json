@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gastropox",
-  "nationalPokedexNumber": 2073,
+  "nationalPokedexNumber": 2267,
   "primaryType": "poison",
   "abilities": [
     "poisontouch",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:icywind",

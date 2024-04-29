@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spirix",
-  "nationalPokedexNumber": 3396,
+  "nationalPokedexNumber": 3592,
   "primaryType": "fairy",
   "secondaryType": "ghost",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:singsound",

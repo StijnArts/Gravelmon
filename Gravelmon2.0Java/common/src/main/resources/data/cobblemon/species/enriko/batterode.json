@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "batterode",
-  "nationalPokedexNumber": 1842,
+  "nationalPokedexNumber": 1911,
   "primaryType": "electric",
   "secondaryType": "poison",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:thundershock",

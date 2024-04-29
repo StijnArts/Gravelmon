@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flamengon",
-  "nationalPokedexNumber": 5056,
+  "nationalPokedexNumber": 5252,
   "primaryType": "dragon",
   "secondaryType": "fighting",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:doublekick",

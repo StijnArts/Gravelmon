@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tryphoon",
-  "nationalPokedexNumber": 4984,
+  "nationalPokedexNumber": 5180,
   "primaryType": "dragon",
   "secondaryType": "normal",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

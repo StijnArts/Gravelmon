@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slanbolos",
-  "nationalPokedexNumber": 1610,
+  "nationalPokedexNumber": 1662,
   "primaryType": "dark",
   "abilities": [
     "baddreams",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:disable",

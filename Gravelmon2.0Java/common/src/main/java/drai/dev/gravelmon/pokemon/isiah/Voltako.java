@@ -15,14 +15,15 @@ public class Voltako extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.SUCTION_CUPS), Ability.STATIC,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 165,
+                new Stats(0,0,0,0,0,0), 110,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Lick Ghost - Leer Normal - Thunder ShockSTAB Electric 6 Thunder ShockSTAB Electric 8 Thunder Wave Electric 12 Flash Normal 16 Confuse Ray Ghost 20 Feint Attack Dark 24 Body Slam Normal 28 SparkSTAB Electric 32 Camouflage Normal 38 Screech Normal 44 Amnesia Psychic 50 DischargeSTAB Electric 56 ThunderSTAB Electric"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("raigeko", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:thunder_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,1),
                         new MoveLearnSetEntry(Move.THUNDER_SHOCK,6),
@@ -39,8 +40,8 @@ public class Voltako extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER,56)                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 43, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sabroast",
-  "nationalPokedexNumber": 2109,
+  "nationalPokedexNumber": 2303,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
   ],

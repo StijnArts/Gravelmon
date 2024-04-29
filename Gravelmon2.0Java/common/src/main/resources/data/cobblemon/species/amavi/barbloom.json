@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "barbloom",
-  "nationalPokedexNumber": 4997,
+  "nationalPokedexNumber": 5193,
   "primaryType": "poison",
   "secondaryType": "grass",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:mudsport",

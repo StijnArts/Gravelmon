@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "saguartic",
-  "nationalPokedexNumber": 3525,
+  "nationalPokedexNumber": 3721,
   "primaryType": "ice",
   "secondaryType": "grass",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:ingrain",

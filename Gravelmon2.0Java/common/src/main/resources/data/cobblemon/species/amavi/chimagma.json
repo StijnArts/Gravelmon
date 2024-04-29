@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chimagma",
-  "nationalPokedexNumber": 4985,
+  "nationalPokedexNumber": 5181,
   "primaryType": "dragon",
   "secondaryType": "fire",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

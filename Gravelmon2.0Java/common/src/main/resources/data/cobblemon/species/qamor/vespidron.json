@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vespidron",
-  "nationalPokedexNumber": 3538,
+  "nationalPokedexNumber": 3734,
   "primaryType": "steel",
   "secondaryType": "flying",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

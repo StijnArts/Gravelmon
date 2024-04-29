@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terrevour",
-  "nationalPokedexNumber": 3670,
+  "nationalPokedexNumber": 3866,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -66,11 +66,14 @@
     "39:thrash"  ],
   "labels": [
     "kuria",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.terrevour.desc"
   ],
+  "preEvolution": "chichaw",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,

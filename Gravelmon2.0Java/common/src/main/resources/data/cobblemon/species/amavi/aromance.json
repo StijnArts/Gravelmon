@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aromance",
-  "nationalPokedexNumber": 4996,
+  "nationalPokedexNumber": 5192,
   "primaryType": "poison",
   "abilities": [
     "keeneye",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:pound",

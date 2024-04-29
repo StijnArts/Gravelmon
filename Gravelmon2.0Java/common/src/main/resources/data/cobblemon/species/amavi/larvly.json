@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "larvly",
-  "nationalPokedexNumber": 5009,
+  "nationalPokedexNumber": 5205,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bite",

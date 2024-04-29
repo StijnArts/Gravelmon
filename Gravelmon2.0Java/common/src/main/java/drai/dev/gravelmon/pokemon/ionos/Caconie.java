@@ -67,7 +67,7 @@ public class Caconie extends drai.dev.gravelmon.pokemon.Pokemon {
                         80),
                 List.of(Ability.LEVITATE), Ability.LEVITATE,
                 17, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

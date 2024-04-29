@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tropifox",
-  "nationalPokedexNumber": 3423,
+  "nationalPokedexNumber": 3619,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:scaryface",

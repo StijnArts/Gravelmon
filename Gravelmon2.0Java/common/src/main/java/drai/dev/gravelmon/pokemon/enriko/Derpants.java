@@ -8,15 +8,15 @@ public class Derpants extends drai.dev.gravelmon.pokemon.Pokemon {
     public Derpants() {
         super("Derpants",
                 Type.POISON, Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(72,
+                        34,
+                        44,
+                        54,
+                        55,
+                        56),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 160,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -47,7 +47,7 @@ public class Derpants extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 11, 33, 4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kombantis",
-  "nationalPokedexNumber": 2687,
+  "nationalPokedexNumber": 2883,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:laserfocus",

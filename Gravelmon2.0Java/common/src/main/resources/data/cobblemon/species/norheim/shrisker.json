@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shrisker",
-  "nationalPokedexNumber": 2821,
+  "nationalPokedexNumber": 3017,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:tailwhip",

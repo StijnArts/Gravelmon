@@ -28,7 +28,7 @@ public class Falcryo extends drai.dev.gravelmon.pokemon.Pokemon {
                         126),
                 List.of(Ability.INTIMIDATE,Ability.OVERCOAT), Ability.PERMAFROST,
                 15, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bulpy",
-  "nationalPokedexNumber": 1563,
+  "nationalPokedexNumber": 1577,
   "primaryType": "normal",
   "abilities": [
     "cutecharm",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

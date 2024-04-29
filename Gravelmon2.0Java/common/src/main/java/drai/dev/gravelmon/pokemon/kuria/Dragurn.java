@@ -73,7 +73,7 @@ public class Dragurn extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("When born Dragurn find a vessel to hide within to protect themselves from predators. They will stay in their new-found homes all of their life."),
-                List.of(new EvolutionEntry("bulbasaur", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Drajinn", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.DRAGON_PULSE.getName()+"\"")))),
                 List.of(            new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.SCRATCH,1),

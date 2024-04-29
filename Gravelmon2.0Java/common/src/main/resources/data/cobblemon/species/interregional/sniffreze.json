@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sniffreze",
-  "nationalPokedexNumber": 1579,
+  "nationalPokedexNumber": 1608,
   "primaryType": "ice",
   "abilities": [
     "keeneye",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:powdersnow",

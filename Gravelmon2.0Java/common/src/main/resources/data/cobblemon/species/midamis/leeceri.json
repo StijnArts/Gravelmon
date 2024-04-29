@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leeceri",
-  "nationalPokedexNumber": 3955,
+  "nationalPokedexNumber": 4151,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:babydolleyes",

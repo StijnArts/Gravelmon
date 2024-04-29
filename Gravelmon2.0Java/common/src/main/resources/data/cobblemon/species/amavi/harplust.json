@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harplust",
-  "nationalPokedexNumber": 5075,
+  "nationalPokedexNumber": 5271,
   "primaryType": "poison",
   "secondaryType": "flying",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:moonblast",

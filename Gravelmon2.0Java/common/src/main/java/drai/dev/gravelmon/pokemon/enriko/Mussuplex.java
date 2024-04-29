@@ -8,12 +8,12 @@ public class Mussuplex extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mussuplex() {
         super("Mussuplex",
                 Type.FIGHTING, Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(70,
+                        80,
+                        120,
+                        30,
+                        80,
+                        25),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 15, 165,
                 new Stats(0,0,0,0,0,0), 90,
@@ -51,7 +51,6 @@ public class Mussuplex extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);
-        setCanSwim(true);
         setAvoidsLand(true);
 
     }

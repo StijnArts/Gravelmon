@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gallostone",
-  "nationalPokedexNumber": 3371,
+  "nationalPokedexNumber": 3567,
   "primaryType": "rock",
   "abilities": [
     "illuminate",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:pound",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maliospi",
-  "nationalPokedexNumber": 3376,
+  "nationalPokedexNumber": 3572,
   "primaryType": "fighting",
   "secondaryType": "water",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:watergun",

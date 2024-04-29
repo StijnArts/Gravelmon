@@ -22,7 +22,7 @@ public class Aromaphant extends drai.dev.gravelmon.pokemon.Pokemon {
                         56),
                 List.of(Ability.HEALER,Ability.SERENE_GRACE,Ability.AROMA_VEIL), Ability.AROMA_VEIL,
                 15, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.25,
                 0, ExperienceGroup.ERRATIC,
                 70,

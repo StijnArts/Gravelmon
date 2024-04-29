@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "criwely",
-  "nationalPokedexNumber": 3914,
+  "nationalPokedexNumber": 4110,
   "primaryType": "bug",
   "abilities": [
     "rockhead",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:furycutter",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "peerhini",
-  "nationalPokedexNumber": 4399,
+  "nationalPokedexNumber": 4595,
   "primaryType": "normal",
   "secondaryType": "ghost",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:lifedew",

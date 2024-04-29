@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glacyo",
-  "nationalPokedexNumber": 3701,
+  "nationalPokedexNumber": 3897,
   "primaryType": "questionmark",
   "abilities": [
     "levitate",
@@ -44,7 +44,7 @@
   "experienceGroup": "slow",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

@@ -8,12 +8,12 @@ public class Amoebolt extends drai.dev.gravelmon.pokemon.Pokemon {
     public Amoebolt() {
         super("Amoebolt",
                 Type.WATER, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(90,
+                        30,
+                        75,
+                        105,
+                        90,
+                        65),
                 List.of(Ability.POISON_HEAL), Ability.COLOR_CHANGE,
                 17, 165,
                 new Stats(0,0,0,2,0,0), 80,
@@ -39,7 +39,7 @@ public class Amoebolt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,65)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 22, 43, 2, List.of(
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 22, 43, .56, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

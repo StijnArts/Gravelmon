@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pinxie",
-  "nationalPokedexNumber": 2725,
+  "nationalPokedexNumber": 2921,
   "primaryType": "fairy",
   "abilities": [
     "immunity",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:teleport",

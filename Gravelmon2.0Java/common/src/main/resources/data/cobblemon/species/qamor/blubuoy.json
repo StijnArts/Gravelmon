@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blubuoy",
-  "nationalPokedexNumber": 3518,
+  "nationalPokedexNumber": 3714,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bubble",

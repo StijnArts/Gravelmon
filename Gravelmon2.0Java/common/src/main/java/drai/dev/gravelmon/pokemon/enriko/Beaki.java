@@ -15,8 +15,8 @@ public class Beaki extends drai.dev.gravelmon.pokemon.Pokemon {
                         65,
                         85),
                 List.of(Ability.SOUNDPROOF,Ability.STALL,Ability.CACOPHONY), Ability.CACOPHONY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                22, 165,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -42,13 +42,14 @@ public class Beaki extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AEROBLAST,60)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 35, 52, .3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Beaki");
 
     }

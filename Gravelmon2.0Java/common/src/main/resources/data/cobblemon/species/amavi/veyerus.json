@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "veyerus",
-  "nationalPokedexNumber": 5015,
+  "nationalPokedexNumber": 5211,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:harden",

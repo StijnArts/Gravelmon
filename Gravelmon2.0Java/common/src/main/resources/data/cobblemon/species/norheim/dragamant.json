@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragamant",
-  "nationalPokedexNumber": 2844,
+  "nationalPokedexNumber": 3040,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:hornattack",

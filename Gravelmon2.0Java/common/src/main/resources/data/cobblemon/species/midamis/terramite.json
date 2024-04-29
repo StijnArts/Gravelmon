@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terramite",
-  "nationalPokedexNumber": 3830,
+  "nationalPokedexNumber": 4026,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:furycutter",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dunesparr",
-  "nationalPokedexNumber": 2860,
+  "nationalPokedexNumber": 3056,
   "primaryType": "ground",
   "secondaryType": "poison",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bite",

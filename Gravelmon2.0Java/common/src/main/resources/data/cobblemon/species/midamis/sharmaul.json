@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sharmaul",
-  "nationalPokedexNumber": 3902,
+  "nationalPokedexNumber": 4098,
   "primaryType": "steel",
   "secondaryType": "water",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:withdraw",

@@ -8,15 +8,15 @@ public class Confurnace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Confurnace() {
         super("Confurnace",
                 Type.GRASS, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(67,
+                        76,
+                        65,
+                        125,
+                        76,
+                        86),
                 List.of(Ability.WATER_ABSORB), Ability.FLAME_BODY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                16, 165,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -41,8 +41,8 @@ public class Confurnace extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,60)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 54, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

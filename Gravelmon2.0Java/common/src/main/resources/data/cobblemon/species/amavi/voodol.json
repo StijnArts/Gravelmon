@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "voodol",
-  "nationalPokedexNumber": 5027,
+  "nationalPokedexNumber": 5223,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:astonish",

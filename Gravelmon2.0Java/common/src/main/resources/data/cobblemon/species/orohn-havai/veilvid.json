@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "veilvid",
-  "nationalPokedexNumber": 2677,
+  "nationalPokedexNumber": 2873,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bubble",

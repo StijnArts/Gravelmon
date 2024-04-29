@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chichaw",
-  "nationalPokedexNumber": 3669,
+  "nationalPokedexNumber": 3865,
   "primaryType": "ground",
   "abilities": [
     "sandforce",
@@ -73,9 +73,9 @@
   ],
   "evolutions": [
     {
-      "id": "chichaw_bulbasaur",
+      "id": "chichaw_Terrevour",
       "variant": "level_up",
-      "result": "bulbasaur",
+      "result": "Terrevour",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

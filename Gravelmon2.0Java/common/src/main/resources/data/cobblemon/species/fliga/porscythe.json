@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "porscythe",
-  "nationalPokedexNumber": 3391,
+  "nationalPokedexNumber": 3587,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:beatup",

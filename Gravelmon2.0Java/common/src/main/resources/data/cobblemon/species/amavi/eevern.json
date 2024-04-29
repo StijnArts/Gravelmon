@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eevern",
-  "nationalPokedexNumber": 5054,
+  "nationalPokedexNumber": 5250,
   "primaryType": "dragon",
   "secondaryType": "normal",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

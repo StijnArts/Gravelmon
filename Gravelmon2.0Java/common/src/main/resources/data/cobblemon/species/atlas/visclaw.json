@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "visclaw",
-  "nationalPokedexNumber": 4937,
+  "nationalPokedexNumber": 5133,
   "primaryType": "dragon",
   "secondaryType": "ground",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:harden",

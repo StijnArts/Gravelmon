@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "clagcoon",
-  "nationalPokedexNumber": 2826,
+  "nationalPokedexNumber": 3022,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:stringshot",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tangorgon",
-  "nationalPokedexNumber": 2104,
+  "nationalPokedexNumber": 2298,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -38,14 +38,14 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:faketears",

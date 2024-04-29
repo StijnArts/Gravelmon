@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yamaki",
-  "nationalPokedexNumber": 3651,
+  "nationalPokedexNumber": 3847,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "fast",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:harden",

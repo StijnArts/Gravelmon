@@ -22,7 +22,7 @@ public class Bombeezle extends drai.dev.gravelmon.pokemon.Pokemon {
                         70),
                 List.of(Ability.INFILTRATOR,Ability.SKILL_LINK,Ability.AFTERMATH), Ability.AFTERMATH,
                 12, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

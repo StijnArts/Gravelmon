@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "moundhog",
-  "nationalPokedexNumber": 4977,
+  "nationalPokedexNumber": 5173,
   "primaryType": "ground",
   "secondaryType": "grass",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:dig",

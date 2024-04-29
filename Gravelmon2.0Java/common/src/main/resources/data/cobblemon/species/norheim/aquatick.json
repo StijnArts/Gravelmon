@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aquatick",
-  "nationalPokedexNumber": 2825,
+  "nationalPokedexNumber": 3021,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:stringshot",

@@ -30,7 +30,7 @@ public enum Type {
     PLASTIC("plastic"),
     LIGHT("light"),
     SLIME("slime"),
-    CRYSTAL("crytal"),
+    CRYSTAL("crystal"),
     QUESTION_MARK("questionmark");
     private String name;
     Type(String name){

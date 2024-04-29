@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caltarcite",
-  "nationalPokedexNumber": 2909,
+  "nationalPokedexNumber": 3105,
   "primaryType": "rock",
   "abilities": [
     "rockhead",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:defensecurl",

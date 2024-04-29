@@ -22,7 +22,7 @@ public class Sipsap extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.PICKUP,Ability.HONEY_GATHER,Ability.EARLY_BIRD), Ability.EARLY_BIRD,
                 7, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,

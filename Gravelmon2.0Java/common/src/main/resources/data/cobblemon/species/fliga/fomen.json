@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fomen",
-  "nationalPokedexNumber": 3395,
+  "nationalPokedexNumber": 3591,
   "primaryType": "fairy",
   "secondaryType": "ghost",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:singsound",

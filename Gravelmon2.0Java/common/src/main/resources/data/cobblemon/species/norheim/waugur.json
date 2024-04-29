@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "waugur",
-  "nationalPokedexNumber": 2843,
+  "nationalPokedexNumber": 3039,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:iceshard",

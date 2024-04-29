@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "purrty",
-  "nationalPokedexNumber": 5010,
+  "nationalPokedexNumber": 5206,
   "primaryType": "bug",
   "secondaryType": "normal",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bite",

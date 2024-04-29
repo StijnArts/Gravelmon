@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "terragrip",
-  "nationalPokedexNumber": 3831,
+  "nationalPokedexNumber": 4027,
   "primaryType": "bug",
   "secondaryType": "steel",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:furycutter",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "valbear",
-  "nationalPokedexNumber": 2862,
+  "nationalPokedexNumber": 3058,
   "primaryType": "ice",
   "secondaryType": "fighting",
   "abilities": [
@@ -39,14 +39,14 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 30,
   "maleRatio": 1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:aquajet",

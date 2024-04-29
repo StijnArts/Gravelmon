@@ -22,7 +22,7 @@ public class Elescent extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.HEALER,Ability.SERENE_GRACE,Ability.AROMA_VEIL), Ability.AROMA_VEIL,
                 4, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.25,
                 0, ExperienceGroup.ERRATIC,
                 70,

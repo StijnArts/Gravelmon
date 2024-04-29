@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dokuduru",
-  "nationalPokedexNumber": 3511,
+  "nationalPokedexNumber": 3707,
   "primaryType": "psychic",
   "abilities": [
     "owntempo",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "tm:drumbeating",

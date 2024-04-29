@@ -16,13 +16,14 @@ public class Pinecoal extends drai.dev.gravelmon.pokemon.Pokemon {
                         20),
                 List.of(Ability.WATER_ABSORB,Ability.FLARE_BOOST,Ability.FLAME_BODY), Ability.FLAME_BODY,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.GRASS),
                 List.of("It falls from trees in the cold parts of Enriko. To reproduce, it requires to be bathed in the heat of a forest fire to spread it's seeds."),
-                List.of(),
+                List.of(new EvolutionEntry("confurnace", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,5),
@@ -41,8 +42,8 @@ public class Pinecoal extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EXPLOSION,60)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

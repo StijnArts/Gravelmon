@@ -17,7 +17,7 @@ public class Malevoness extends drai.dev.gravelmon.pokemon.Pokemon {
                         55),
                 List.of(Ability.COMPOUND_EYES,Ability.CUTE_CHARM,Ability.TINTED_LENS), Ability.TINTED_LENS,
                 14, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

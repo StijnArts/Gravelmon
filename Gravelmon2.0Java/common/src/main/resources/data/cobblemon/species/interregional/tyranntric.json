@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tyranntric",
-  "nationalPokedexNumber": 1606,
+  "nationalPokedexNumber": 1658,
   "primaryType": "electric",
   "secondaryType": "dragon",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:shockwave",

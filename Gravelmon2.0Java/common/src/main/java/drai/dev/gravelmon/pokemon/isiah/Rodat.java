@@ -15,13 +15,13 @@ public class Rodat extends drai.dev.gravelmon.pokemon.Pokemon {
                         42,
                         83),
                 List.of(Ability.STENCH), Ability.INFILTRATOR,
-                8, 165,
+                7, 165,
                 new Stats(2,0,0,0,0,0), 127,
                 0.5,
                 145, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- TackleSTAB Normal 3 Tail Whip Normal 6 Bite Dark 8 Quick AttackSTAB Normal 11 Sand Attack Ground 13 Taunt Dark 16 Crunch Dark 18 Tickle Normal 20 Poison Fang Poison 22 Hyper FangSTAB Normal 25 Screech Normal 29 Chip AwaySTAB Normal 32 Sucker Punch Dark 36 Swagger Normal 39 Super FangSTAB Normal 43 Double-EdgeSTAB Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
@@ -42,8 +42,8 @@ public class Rodat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,43)                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 41, 1.1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mannbrann",
-  "nationalPokedexNumber": 2850,
+  "nationalPokedexNumber": 3046,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:meditate",

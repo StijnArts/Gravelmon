@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tarturough",
-  "nationalPokedexNumber": 3398,
+  "nationalPokedexNumber": 3594,
   "primaryType": "dark",
   "secondaryType": "fire",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:ember",

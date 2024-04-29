@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bugsled",
-  "nationalPokedexNumber": 1894,
+  "nationalPokedexNumber": 2030,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:stringshot",

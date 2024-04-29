@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "petricus",
-  "nationalPokedexNumber": 3933,
+  "nationalPokedexNumber": 4129,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:peck",

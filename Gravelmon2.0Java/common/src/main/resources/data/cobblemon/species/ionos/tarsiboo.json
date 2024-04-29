@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tarsiboo",
-  "nationalPokedexNumber": 4398,
+  "nationalPokedexNumber": 4594,
   "primaryType": "normal",
   "abilities": [
     "keeneye",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:lifedew",

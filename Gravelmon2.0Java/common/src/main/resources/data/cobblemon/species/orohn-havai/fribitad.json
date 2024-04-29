@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fribitad",
-  "nationalPokedexNumber": 2695,
+  "nationalPokedexNumber": 2891,
   "primaryType": "grass",
   "abilities": [
     "gluttony",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:vinewhip",

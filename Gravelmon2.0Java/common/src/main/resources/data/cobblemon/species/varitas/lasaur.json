@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lasaur",
-  "nationalPokedexNumber": 2094,
+  "nationalPokedexNumber": 2288,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:charge",

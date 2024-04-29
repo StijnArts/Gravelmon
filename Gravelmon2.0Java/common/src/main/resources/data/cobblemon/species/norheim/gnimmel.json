@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gnimmel",
-  "nationalPokedexNumber": 2800,
+  "nationalPokedexNumber": 2996,
   "primaryType": "normal",
   "abilities": [
     "overcoat",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:tackle",

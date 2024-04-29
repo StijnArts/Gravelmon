@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "filthound",
-  "nationalPokedexNumber": 1564,
+  "nationalPokedexNumber": 1578,
   "primaryType": "normal",
   "secondaryType": "ground",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

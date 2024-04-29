@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trickabod",
-  "nationalPokedexNumber": 5101,
+  "nationalPokedexNumber": 5297,
   "primaryType": "ghost",
   "secondaryType": "fire",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:wrap",

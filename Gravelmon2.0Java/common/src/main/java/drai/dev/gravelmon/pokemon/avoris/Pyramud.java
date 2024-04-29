@@ -22,7 +22,7 @@ public class Pyramud extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.SHELL_ARMOR,Ability.DRY_SKIN,Ability.WEAK_ARMOR), Ability.WEAK_ARMOR,
                 6, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 160,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

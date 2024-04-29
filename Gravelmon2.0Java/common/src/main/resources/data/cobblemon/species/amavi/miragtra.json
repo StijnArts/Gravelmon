@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "miragtra",
-  "nationalPokedexNumber": 5103,
+  "nationalPokedexNumber": 5299,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:crosspoison",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gelatini",
-  "nationalPokedexNumber": 4999,
+  "nationalPokedexNumber": 5195,
   "primaryType": "psychic",
   "secondaryType": "fighting",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:vacuumwave",

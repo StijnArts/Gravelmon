@@ -68,7 +68,7 @@ public class Mumby extends drai.dev.gravelmon.pokemon.Pokemon {
                         20),
                 List.of(Ability.MUMMY), Ability.MUMMY,
                 4, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eternelk",
-  "nationalPokedexNumber": 4989,
+  "nationalPokedexNumber": 5185,
   "primaryType": "psychic",
   "secondaryType": "flying",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:attract",

@@ -22,7 +22,7 @@ public class Desperogue extends drai.dev.gravelmon.pokemon.Pokemon {
                         60),
                 List.of(Ability.HUSTLE,Ability.SAND_RUSH,Ability.RIVALRY), Ability.RIVALRY,
                 13, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

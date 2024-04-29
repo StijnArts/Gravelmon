@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rokstone",
-  "nationalPokedexNumber": 2839,
+  "nationalPokedexNumber": 3035,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:trickroom",

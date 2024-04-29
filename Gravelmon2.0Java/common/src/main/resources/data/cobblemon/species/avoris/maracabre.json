@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maracabre",
-  "nationalPokedexNumber": 1999,
+  "nationalPokedexNumber": 2189,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:ingrain",

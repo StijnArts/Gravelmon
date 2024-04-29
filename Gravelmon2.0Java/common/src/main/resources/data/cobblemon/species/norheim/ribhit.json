@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ribhit",
-  "nationalPokedexNumber": 2818,
+  "nationalPokedexNumber": 3014,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:splash",

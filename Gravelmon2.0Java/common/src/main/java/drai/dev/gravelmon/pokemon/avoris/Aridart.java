@@ -17,7 +17,7 @@ public class Aridart extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.ROUGH_SKIN,Ability.SAND_RUSH,Ability.DRY_SKIN), Ability.DRY_SKIN,
                 3, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 180,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "xinigen",
-  "nationalPokedexNumber": 4393,
+  "nationalPokedexNumber": 4589,
   "primaryType": "flying",
   "secondaryType": "psychic",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:confusion",

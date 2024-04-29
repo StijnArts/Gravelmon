@@ -15,14 +15,15 @@ public class Lightile extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.SUCTION_CUPS), Ability.STATIC,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Lick Ghost 3 Leer Normal 5 Thunder ShockSTAB Electric 7 Thunder Wave Electric 11 Flash Normal 15 Confuse Ray Ghost 19 Feint Attack Dark 25 SparkSTAB Electric 29 Camouflage Normal 37 Screech Normal 45 DischargeSTAB Electric"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("voltako", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"20")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),
                         new MoveLearnSetEntry(Move.LEER,3),
@@ -37,8 +38,8 @@ public class Lightile extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DISCHARGE,45)                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

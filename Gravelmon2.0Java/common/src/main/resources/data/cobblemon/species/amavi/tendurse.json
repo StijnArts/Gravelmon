@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tendurse",
-  "nationalPokedexNumber": 5012,
+  "nationalPokedexNumber": 5208,
   "primaryType": "psychic",
   "secondaryType": "poison",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:acid",

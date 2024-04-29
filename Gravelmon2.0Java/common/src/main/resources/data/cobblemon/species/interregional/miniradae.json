@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "miniradae",
-  "nationalPokedexNumber": 1588,
+  "nationalPokedexNumber": 1617,
   "primaryType": "bug",
   "secondaryType": "rock",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:furycutter",

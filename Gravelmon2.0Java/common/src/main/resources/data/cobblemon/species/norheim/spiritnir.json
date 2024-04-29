@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spiritnir",
-  "nationalPokedexNumber": 2876,
+  "nationalPokedexNumber": 3072,
   "primaryType": "ghost",
   "secondaryType": "steel",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:destinybond",

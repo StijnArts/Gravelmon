@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spelewink",
-  "nationalPokedexNumber": 2868,
+  "nationalPokedexNumber": 3064,
   "primaryType": "poison",
   "secondaryType": "fairy",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

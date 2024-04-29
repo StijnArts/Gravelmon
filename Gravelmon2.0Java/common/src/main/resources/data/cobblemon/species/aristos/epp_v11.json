@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "epp_v11",
-  "nationalPokedexNumber": 2106,
+  "nationalPokedexNumber": 2300,
   "primaryType": "electric",
   "abilities": [
     "adaptability",
@@ -37,14 +37,14 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:harden",

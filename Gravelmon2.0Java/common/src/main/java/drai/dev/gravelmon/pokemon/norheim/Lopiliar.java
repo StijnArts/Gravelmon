@@ -68,7 +68,7 @@ public class Lopiliar extends drai.dev.gravelmon.pokemon.Pokemon {
                         78),
                 List.of(Ability.KEEN_EYE,Ability.INFILTRATOR), Ability.MAGICIAN,
                 13, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 56,
                 -1,
                 0, ExperienceGroup.ERRATIC,
                 70,

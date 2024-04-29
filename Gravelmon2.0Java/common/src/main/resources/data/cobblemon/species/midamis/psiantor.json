@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "psiantor",
-  "nationalPokedexNumber": 3922,
+  "nationalPokedexNumber": 4118,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:supersonic",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lochitent",
-  "nationalPokedexNumber": 1584,
+  "nationalPokedexNumber": 1613,
   "primaryType": "ground",
   "secondaryType": "ice",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:acid",

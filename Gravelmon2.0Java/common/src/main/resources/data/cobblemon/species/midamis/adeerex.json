@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "adeerex",
-  "nationalPokedexNumber": 3952,
+  "nationalPokedexNumber": 4148,
   "primaryType": "dark",
   "secondaryType": "rock",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:rockblast",

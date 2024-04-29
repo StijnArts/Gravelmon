@@ -22,7 +22,7 @@ public class Fyrmite extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.SWARM,Ability.FLASH_FIRE,Ability.FLAME_BODY), Ability.FLAME_BODY,
                 3, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 255,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

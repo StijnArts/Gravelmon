@@ -68,7 +68,7 @@ public class Safian extends drai.dev.gravelmon.pokemon.Pokemon {
                         50),
                 List.of(Ability.HEALER,Ability.NATURAL_CURE), Ability.WONDER_GUARD,
                 7, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

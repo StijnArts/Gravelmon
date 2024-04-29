@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maskost",
-  "nationalPokedexNumber": 1571,
+  "nationalPokedexNumber": 1592,
   "primaryType": "ghost",
   "abilities": [
     "cursedbody",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:astonish",

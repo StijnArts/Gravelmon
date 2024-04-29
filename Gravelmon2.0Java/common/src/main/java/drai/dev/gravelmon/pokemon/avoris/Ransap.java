@@ -22,7 +22,7 @@ public class Ransap extends drai.dev.gravelmon.pokemon.Pokemon {
                         76),
                 List.of(Ability.STICKY_HOLD,Ability.HONEY_GATHER,Ability.INSOMNIA), Ability.INSOMNIA,
                 17, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,

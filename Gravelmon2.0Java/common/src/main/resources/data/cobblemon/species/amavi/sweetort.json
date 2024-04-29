@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sweetort",
-  "nationalPokedexNumber": 5062,
+  "nationalPokedexNumber": 5258,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

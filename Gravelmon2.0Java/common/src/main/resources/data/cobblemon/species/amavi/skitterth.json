@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skitterth",
-  "nationalPokedexNumber": 5029,
+  "nationalPokedexNumber": 5225,
   "primaryType": "ground",
   "abilities": [
     "keeneye",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:sandattack",

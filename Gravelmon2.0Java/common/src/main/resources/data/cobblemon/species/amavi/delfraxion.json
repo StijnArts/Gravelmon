@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "delfraxion",
-  "nationalPokedexNumber": 5048,
+  "nationalPokedexNumber": 5244,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:flipturn",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tadapt",
-  "nationalPokedexNumber": 2738,
+  "nationalPokedexNumber": 2934,
   "primaryType": "normal",
   "abilities": [
     "adaptability",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

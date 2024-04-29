@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "earmor",
-  "nationalPokedexNumber": 3852,
+  "nationalPokedexNumber": 4048,
   "primaryType": "ground",
   "secondaryType": "bug",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:sandattack",

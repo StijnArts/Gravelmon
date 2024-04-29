@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "echidnum",
-  "nationalPokedexNumber": 4842,
+  "nationalPokedexNumber": 5038,
   "primaryType": "electric",
   "abilities": [
     "voltabsorb",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:barrier",

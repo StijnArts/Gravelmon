@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "akrilles",
-  "nationalPokedexNumber": 5042,
+  "nationalPokedexNumber": 5238,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:tailwhip",

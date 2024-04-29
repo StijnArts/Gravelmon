@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lopiliar",
-  "nationalPokedexNumber": 2838,
+  "nationalPokedexNumber": 3034,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -39,14 +39,14 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 56,
   "maleRatio": -1.0,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:milkdrink",

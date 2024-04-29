@@ -16,7 +16,7 @@ public class Hooptie extends drai.dev.gravelmon.pokemon.Pokemon {
                         90),
                 List.of(Ability.STEAM_ENGINE,Ability.SPEED_BOOST,Ability.CORROSION), Ability.CORROSION,
                 9, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 150,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

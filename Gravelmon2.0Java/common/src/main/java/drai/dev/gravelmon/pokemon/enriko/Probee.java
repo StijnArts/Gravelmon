@@ -8,21 +8,22 @@ public class Probee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Probee() {
         super("Probee",
                 Type.PSYCHIC, Type.BUG,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(56,
+                        33,
+                        37,
+                        49,
+                        64,
+                        55),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Each individual Probee is nearly identical. They have weak telepathic abilities, mostly used to communicate with eachother."),
-                List.of(),
+                List.of(new EvolutionEntry("dysolony", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CONFUSION,1),
                         new MoveLearnSetEntry(Move.LIGHT_SCREEN,1),
@@ -43,8 +44,9 @@ public class Probee extends drai.dev.gravelmon.pokemon.Pokemon {
                         ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

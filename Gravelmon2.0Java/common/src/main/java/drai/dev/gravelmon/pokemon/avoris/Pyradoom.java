@@ -22,7 +22,7 @@ public class Pyradoom extends drai.dev.gravelmon.pokemon.Pokemon {
                         40),
                 List.of(Ability.SHELL_ARMOR,Ability.WATER_COMPACTION,Ability.SAND_FORCE), Ability.SAND_FORCE,
                 12, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

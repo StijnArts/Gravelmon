@@ -22,7 +22,7 @@ public class Skewern extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.HUSTLE,Ability.SUPER_LUCK,Ability.SKILL_LINK), Ability.SKILL_LINK,
                 4, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 160,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "canoling",
-  "nationalPokedexNumber": 3629,
+  "nationalPokedexNumber": 3825,
   "primaryType": "fighting",
   "abilities": [
     "megalauncher",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bide",

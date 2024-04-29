@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grizzik",
-  "nationalPokedexNumber": 3936,
+  "nationalPokedexNumber": 4132,
   "primaryType": "fighting",
   "secondaryType": "ice",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:powdersnow",

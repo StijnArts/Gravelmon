@@ -22,7 +22,7 @@ public class Tankodile extends drai.dev.gravelmon.pokemon.Pokemon {
                         77),
                 List.of(Ability.ROUGH_SKIN,Ability.DAMP,Ability.STORM_DRAIN), Ability.STORM_DRAIN,
                 22, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

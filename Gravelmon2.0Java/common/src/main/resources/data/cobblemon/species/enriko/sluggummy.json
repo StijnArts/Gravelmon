@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sluggummy",
-  "nationalPokedexNumber": 1854,
+  "nationalPokedexNumber": 1933,
   "primaryType": "fairy",
   "abilities": [
     "gooey",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:harden",

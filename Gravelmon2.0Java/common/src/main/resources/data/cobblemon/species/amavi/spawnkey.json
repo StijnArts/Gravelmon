@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spawnkey",
-  "nationalPokedexNumber": 4949,
+  "nationalPokedexNumber": 5145,
   "primaryType": "fire",
   "abilities": [
     "blaze",
@@ -44,7 +44,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pelasquall",
-  "nationalPokedexNumber": 2790,
+  "nationalPokedexNumber": 2986,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bubble",

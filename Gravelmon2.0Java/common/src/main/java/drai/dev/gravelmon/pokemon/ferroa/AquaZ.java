@@ -8,14 +8,14 @@ public class AquaZ extends drai.dev.gravelmon.pokemon.Pokemon {
     public AquaZ() {
         super("AquaZ",
                 Type.WATER, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(75,
+                        55,
+                        65,
+                        95,
+                        75,
+                        85),
                 List.of(Ability.PROPELLER_TAIL), Ability.CALCULATE,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,0,0), 45,
                 0.0,
                 0, ExperienceGroup.SLOW,
@@ -74,13 +74,15 @@ public class AquaZ extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HYDROKINESIS,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 23, 45, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Aqua-Z");
 
     }

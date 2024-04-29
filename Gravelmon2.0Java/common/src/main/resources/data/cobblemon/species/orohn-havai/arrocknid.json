@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arrocknid",
-  "nationalPokedexNumber": 2707,
+  "nationalPokedexNumber": 2903,
   "primaryType": "rock",
   "secondaryType": "bug",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

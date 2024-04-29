@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kujee",
-  "nationalPokedexNumber": 3938,
+  "nationalPokedexNumber": 4134,
   "primaryType": "rock",
   "secondaryType": "fighting",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:harden",

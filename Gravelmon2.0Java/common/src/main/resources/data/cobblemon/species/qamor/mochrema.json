@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mochrema",
-  "nationalPokedexNumber": 3459,
+  "nationalPokedexNumber": 3655,
   "primaryType": "ground",
   "secondaryType": "fairy",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:mudslap",

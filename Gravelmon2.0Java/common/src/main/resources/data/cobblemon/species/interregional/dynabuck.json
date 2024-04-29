@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dynabuck",
-  "nationalPokedexNumber": 1586,
+  "nationalPokedexNumber": 1615,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

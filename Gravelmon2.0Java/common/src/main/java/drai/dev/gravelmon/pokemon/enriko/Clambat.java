@@ -23,9 +23,7 @@ public class Clambat extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.WATER_1),
                 List.of("Its long tongue is pure, densely packed muscle. It punches holes in the tidepool rocks to build its home inside of."),
                 List.of(new EvolutionEntry("mussuplex", EvolutionType.ITEM_INTERACT, false, List.of(),
-                        List.of(),List.of(),"cobblemon:water_stone")
-
-                ),
+                        List.of(),List.of(),"cobblemon:water_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.LICK,1),
                         new MoveLearnSetEntry(Move.POUND,5),
@@ -54,7 +52,6 @@ public class Clambat extends drai.dev.gravelmon.pokemon.Pokemon {
                 0.28, 0.3,
                 List.of());
         setCanBreathUnderwater(true);
-        setCanSwim(true);
         setAvoidsLand(true);
 
     }

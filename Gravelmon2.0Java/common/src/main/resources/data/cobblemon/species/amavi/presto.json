@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "presto",
-  "nationalPokedexNumber": 5020,
+  "nationalPokedexNumber": 5216,
   "primaryType": "psychic",
   "secondaryType": "dark",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:teleport",

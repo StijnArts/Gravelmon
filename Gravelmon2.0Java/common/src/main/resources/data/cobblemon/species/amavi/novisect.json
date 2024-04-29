@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "novisect",
-  "nationalPokedexNumber": 4990,
+  "nationalPokedexNumber": 5186,
   "primaryType": "fighting",
   "secondaryType": "bug",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:armthrust",

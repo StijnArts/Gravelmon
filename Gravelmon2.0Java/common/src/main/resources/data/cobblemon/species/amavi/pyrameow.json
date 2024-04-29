@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pyrameow",
-  "nationalPokedexNumber": 5035,
+  "nationalPokedexNumber": 5231,
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:astonish",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "princeo",
-  "nationalPokedexNumber": 4875,
+  "nationalPokedexNumber": 5071,
   "primaryType": "ground",
   "abilities": [
     "runaway",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

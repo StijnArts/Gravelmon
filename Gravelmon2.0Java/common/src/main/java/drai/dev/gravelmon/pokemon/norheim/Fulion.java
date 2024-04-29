@@ -68,7 +68,7 @@ public class Fulion extends drai.dev.gravelmon.pokemon.Pokemon {
                         75),
                 List.of(Ability.STEELY_SPIRIT), Ability.STEELY_SPIRIT,
                 17, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 56,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

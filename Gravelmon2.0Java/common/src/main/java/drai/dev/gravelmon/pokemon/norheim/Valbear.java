@@ -68,7 +68,7 @@ public class Valbear extends drai.dev.gravelmon.pokemon.Pokemon {
                         70),
                 List.of(Ability.SNOW_CLOAK,Ability.SLUSH_RUSH), Ability.GUTS,
                 21, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 30,
                 1.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

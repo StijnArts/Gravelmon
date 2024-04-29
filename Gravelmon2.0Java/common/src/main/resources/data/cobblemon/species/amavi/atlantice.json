@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "atlantice",
-  "nationalPokedexNumber": 4954,
+  "nationalPokedexNumber": 5150,
   "primaryType": "water",
   "secondaryType": "ice",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:chillingwater",

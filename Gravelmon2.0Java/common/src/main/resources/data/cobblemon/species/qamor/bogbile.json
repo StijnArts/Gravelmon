@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bogbile",
-  "nationalPokedexNumber": 3492,
+  "nationalPokedexNumber": 3688,
   "primaryType": "dragon",
   "abilities": [
     "corrosion",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bite",

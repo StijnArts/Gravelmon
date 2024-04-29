@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reileo",
-  "nationalPokedexNumber": 4876,
+  "nationalPokedexNumber": 5072,
   "primaryType": "ground",
   "abilities": [
     "intimidate",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

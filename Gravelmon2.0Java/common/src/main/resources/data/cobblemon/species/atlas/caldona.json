@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caldona",
-  "nationalPokedexNumber": 4828,
+  "nationalPokedexNumber": 5024,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "6:rockpolish",

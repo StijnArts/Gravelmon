@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "urinee",
-  "nationalPokedexNumber": 1879,
+  "nationalPokedexNumber": 1982,
   "primaryType": "water",
   "abilities": [
     "hustle",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bubble",

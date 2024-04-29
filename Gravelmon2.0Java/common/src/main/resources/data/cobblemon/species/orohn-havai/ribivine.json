@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ribivine",
-  "nationalPokedexNumber": 2696,
+  "nationalPokedexNumber": 2892,
   "primaryType": "grass",
   "abilities": [
     "chlorophyll",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:vinewhip",

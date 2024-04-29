@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flawsy",
-  "nationalPokedexNumber": 3920,
+  "nationalPokedexNumber": 4116,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:supersonic",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "billilium",
-  "nationalPokedexNumber": 4974,
+  "nationalPokedexNumber": 5170,
   "primaryType": "steel",
   "secondaryType": "normal",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "11:copycat",

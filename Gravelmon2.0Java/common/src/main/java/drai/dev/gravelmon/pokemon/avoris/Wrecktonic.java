@@ -17,7 +17,7 @@ public class Wrecktonic extends drai.dev.gravelmon.pokemon.Pokemon {
                         65),
                 List.of(Ability.ROUGH_SKIN,Ability.ROCK_HEAD,Ability.DRY_SKIN), Ability.DRY_SKIN,
                 19, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 40,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

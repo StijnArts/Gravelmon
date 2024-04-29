@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chloradise",
-  "nationalPokedexNumber": 4713,
+  "nationalPokedexNumber": 4909,
   "primaryType": "grass",
   "secondaryType": "bug",
   "abilities": [
@@ -114,7 +114,7 @@
   "pokedex": [
     "cobblemon.species.chloradise.desc"
   ],
-  "preEvolution": "chillade",
+  "preEvolution": "bufierce",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

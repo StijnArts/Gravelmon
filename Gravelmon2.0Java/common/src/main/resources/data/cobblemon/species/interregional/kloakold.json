@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kloakold",
-  "nationalPokedexNumber": 1580,
+  "nationalPokedexNumber": 1609,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:powdersnow",

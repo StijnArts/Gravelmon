@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "guardiant",
-  "nationalPokedexNumber": 4970,
+  "nationalPokedexNumber": 5166,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "5:leer",

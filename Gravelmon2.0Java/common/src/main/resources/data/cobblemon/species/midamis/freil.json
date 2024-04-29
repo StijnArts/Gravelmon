@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "freil",
-  "nationalPokedexNumber": 3893,
+  "nationalPokedexNumber": 4089,
   "primaryType": "fire",
   "secondaryType": "fighting",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:tackle",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hallowither",
-  "nationalPokedexNumber": 5140,
+  "nationalPokedexNumber": 5336,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:astonish",

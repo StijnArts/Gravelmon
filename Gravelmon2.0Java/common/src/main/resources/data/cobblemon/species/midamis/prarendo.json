@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "prarendo",
-  "nationalPokedexNumber": 3918,
+  "nationalPokedexNumber": 4114,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:charge",

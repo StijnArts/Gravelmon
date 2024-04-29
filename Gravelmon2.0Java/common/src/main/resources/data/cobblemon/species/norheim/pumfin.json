@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pumfin",
-  "nationalPokedexNumber": 2830,
+  "nationalPokedexNumber": 3026,
   "primaryType": "dark",
   "secondaryType": "grass",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:roarsound",

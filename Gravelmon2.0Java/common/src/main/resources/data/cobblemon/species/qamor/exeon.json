@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "exeon",
-  "nationalPokedexNumber": 3542,
+  "nationalPokedexNumber": 3738,
   "primaryType": "questionmark",
   "abilities": [
     "keeneye",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:sandattack",

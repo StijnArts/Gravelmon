@@ -1671,7 +1671,13 @@ public enum Move {
     UPPERHAND("upperhand"),
     DRAGONCHEER("dragoncheer", true),
     SUPERCELLSLAM("supercellslam", true),
-    MYSTICORB("mysticorb"), OVERCONFIDENT("overconfident"), CANNONSHOOT("cannonshoot"), WINDBLOW("windblow");
+    MYSTICORB("mysticorb"),
+    OVERCONFIDENT("overconfident"),
+    CANNONSHOOT("cannonshoot"),
+    WINDBLOW("windblow"),
+    SAND_SHOT("sandshot"),
+    CLONE_ATTACK("cloneattack"),
+    HOOK_CLAW("hookclaw"), HAPPY_SLAP("happyslap"), FESTIVE_SHOT("festiveshot"), CHEERFUL_SHOUT("cheerfulshout"), FIRE_CRACKER("firecracker");
 
     private String name;
     private boolean implemented;

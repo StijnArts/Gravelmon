@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "twygnet",
-  "nationalPokedexNumber": 4964,
+  "nationalPokedexNumber": 5160,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:tackle",

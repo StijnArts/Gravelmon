@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "poisapine",
-  "nationalPokedexNumber": 3854,
+  "nationalPokedexNumber": 4050,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:spikecannon",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yggdraflygg",
-  "nationalPokedexNumber": 2827,
+  "nationalPokedexNumber": 3023,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:stringshot",

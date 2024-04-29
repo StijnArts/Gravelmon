@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "toxiver",
-  "nationalPokedexNumber": 2832,
+  "nationalPokedexNumber": 3028,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:poisonsting",

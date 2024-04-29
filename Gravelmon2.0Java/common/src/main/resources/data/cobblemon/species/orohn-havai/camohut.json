@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "camohut",
-  "nationalPokedexNumber": 2746,
+  "nationalPokedexNumber": 2942,
   "primaryType": "ground",
   "secondaryType": "dragon",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:pound",

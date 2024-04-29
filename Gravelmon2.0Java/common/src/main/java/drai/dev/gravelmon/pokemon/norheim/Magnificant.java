@@ -18,7 +18,7 @@ public class Magnificant extends drai.dev.gravelmon.pokemon.Pokemon {
                         67),
                 List.of(Ability.TINTED_LENS,Ability.SOLAR_POWER,Ability.DROUGHT), Ability.DROUGHT,
                 15, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 60,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

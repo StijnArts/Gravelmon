@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "batterex",
+  "nationalPokedexNumber": 2010,
+  "primaryType": "dragon",
+  "secondaryType": "electric",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 98,
+    "attack": 85,
+    "defence": 85,
+    "special_attack": 48,
+    "special_defence": 76,
+    "speed": 95
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "1:perfectglare",
+    "1:electroweb",
+    "1:eerieimpulse",
+    "1:coil",
+    "1:leer",
+    "1:wrap",
+    "1:covet",
+    "1:faketears",
+    "18:attract",
+    "24:flail",
+    "30:hiss",
+    "36:followme",
+    "41:dragonbreath",
+    "45:coil",
+    "51:wringout",
+    "57:dragonpulse",
+    "62:perfectglare",
+    "67:discharge"  ],
+  "labels": [
+    "enriko",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.batterex.desc"
+  ],
+  "preEvolution": "conductile",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -15,24 +15,43 @@ public class Tweejay extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                4, 165,
+                new Stats(0,0,0,0,0,0), 200,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("marchawk", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
+                List.of(        new MoveLearnSetEntry(Move.PECK,1),
+                        new MoveLearnSetEntry(Move.TWISTER,1),
+                        new MoveLearnSetEntry(Move.LEER,4),
+                        new MoveLearnSetEntry(Move.QUICK_ATTACK,7),
+                        new MoveLearnSetEntry(Move.WING_ATTACK,10),
+                        new MoveLearnSetEntry(Move.HELPING_HAND,13),
+                        new MoveLearnSetEntry(Move.JET_STRIKE,16),
+                        new MoveLearnSetEntry(Move.PSYCH_UP,20),
+                        new MoveLearnSetEntry(Move.SUBMISSION,24),
+                        new MoveLearnSetEntry(Move.SWAGGER,28),
+                        new MoveLearnSetEntry(Move.DRILL_PECK,32),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,36),
+                        new MoveLearnSetEntry(Move.STEEL_WING,40),
+                        new MoveLearnSetEntry(Move.CRUSH_CLAW,44),
+                        new MoveLearnSetEntry(Move.DRILL_RUN,48),
+                        new MoveLearnSetEntry(Move.STANDOFF,52),
+                        new MoveLearnSetEntry(Move.BRAVE_BIRD,56),
+                        new MoveLearnSetEntry(Move.LAST_RESORT,60)                ),
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS, Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Tweejay");
 
     }

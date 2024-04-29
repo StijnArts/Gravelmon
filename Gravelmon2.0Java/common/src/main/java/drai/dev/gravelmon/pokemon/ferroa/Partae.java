@@ -7,7 +7,7 @@ import java.util.*;
 public class Partae extends drai.dev.gravelmon.pokemon.Pokemon {
     public Partae() {
         super("Partae",
-                Type.FIRE, Type.FAIRY,
+                Type.FLYING, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,
@@ -15,16 +15,34 @@ public class Partae extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.FIERYSPIRIT), Ability.DANCER,
-                8, 165,
+                4, 165,
                 new Stats(0,0,0,0,0,1), 225,
                 0.5,
                 64, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FAIRY,EggGroup.HUMAN_LIKE),
                 List.of("On special occasions, a flame lights on the wick on its head, counting down to something. Once the wick is fully burned away, Partae becomes overcome with vigor and it begins to dance all night long."),
-                List.of(),
+                List.of(new EvolutionEntry("loftival", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"210")))),
                 List.of(
-                        new MoveLearnSetEntry(Move.WARMEMBRACE,1),
+                        new MoveLearnSetEntry(Move.HAPPY_SLAP,1),
+                        new MoveLearnSetEntry(Move.PLAY_NICE,1),
+                        new MoveLearnSetEntry(Move.CELEBRATE,1),
+                        new MoveLearnSetEntry(Move.DECORATE,5),
+                        new MoveLearnSetEntry(Move.GUST,7),
+                        new MoveLearnSetEntry(Move.HELPING_HAND,11),
+                        new MoveLearnSetEntry(Move.CUDDLE,14),
+                        new MoveLearnSetEntry(Move.ENCORE,18),
+                        new MoveLearnSetEntry(Move.AIR_CUTTER,21),
+                        new MoveLearnSetEntry(Move.BESTOW,25),
+                        new MoveLearnSetEntry(Move.RAINBOW_GUST,28),
+                        new MoveLearnSetEntry(Move.WISH,32),
+                        new MoveLearnSetEntry(Move.PLAY_ROUGH,35),
+                        new MoveLearnSetEntry(Move.UPROAR,38),
+                        new MoveLearnSetEntry(Move.TEETER_DANCE,42),
+                        new MoveLearnSetEntry(Move.FESTIVE_SHOT,45),
+                        new MoveLearnSetEntry(Move.ENTRAINMENT,49),
+
                         new MoveLearnSetEntry(Move.ALLY_SWITCH,"tm"),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.BIDE,"tm"),
@@ -68,11 +86,11 @@ public class Partae extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"tm")                        ),
                 List.of(Label.FERROA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Partae");

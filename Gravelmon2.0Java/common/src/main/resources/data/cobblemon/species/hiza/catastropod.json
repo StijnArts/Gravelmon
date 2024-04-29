@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "catastropod",
-  "nationalPokedexNumber": 2539,
+  "nationalPokedexNumber": 2735,
   "primaryType": "fire",
   "secondaryType": "water",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:firespin",

@@ -15,13 +15,13 @@ public class Beetil extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         70),
                 List.of(Ability.SHELL_ARMOR,Ability.KEEN_EYE,Ability.SAP_SIPPER), Ability.SAP_SIPPER,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 165,
+                new Stats(0,0,0,0,0,0), 40,
                 0.5,
                 178, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("It eats leaves."),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -40,13 +40,14 @@ public class Beetil extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.IRON_DEFENSE,"tm")                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 22, 41, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SUMMER))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Beetil");
 
     }

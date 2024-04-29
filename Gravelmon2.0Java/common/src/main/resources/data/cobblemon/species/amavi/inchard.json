@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "inchard",
-  "nationalPokedexNumber": 5104,
+  "nationalPokedexNumber": 5300,
   "primaryType": "ice",
   "secondaryType": "bug",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:attract",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oceausky",
-  "nationalPokedexNumber": 1611,
+  "nationalPokedexNumber": 1663,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:jetpunch",

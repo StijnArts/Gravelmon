@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rivulcred",
-  "nationalPokedexNumber": 2754,
+  "nationalPokedexNumber": 2950,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:aquajet",

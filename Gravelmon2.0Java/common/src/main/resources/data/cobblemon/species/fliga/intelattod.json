@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "intelattod",
-  "nationalPokedexNumber": 3382,
+  "nationalPokedexNumber": 3578,
   "primaryType": "psychic",
   "secondaryType": "bug",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:confusion",

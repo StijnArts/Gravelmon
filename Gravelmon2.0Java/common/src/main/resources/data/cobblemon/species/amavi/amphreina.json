@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "amphreina",
-  "nationalPokedexNumber": 5090,
+  "nationalPokedexNumber": 5286,
   "primaryType": "water",
   "secondaryType": "fairy",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:echoedvoicesound",

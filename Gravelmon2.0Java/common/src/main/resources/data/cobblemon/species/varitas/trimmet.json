@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trimmet",
-  "nationalPokedexNumber": 2065,
+  "nationalPokedexNumber": 2259,
   "primaryType": "fairy",
   "secondaryType": "flying",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "medium_fast",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:fairywind",

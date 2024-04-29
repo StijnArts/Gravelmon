@@ -68,7 +68,7 @@ public class Antle extends drai.dev.gravelmon.pokemon.Pokemon {
                         60),
                 List.of(Ability.SWARM), Ability.SWARM,
                 4, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.90,
                 0, ExperienceGroup.ERRATIC,
                 70,

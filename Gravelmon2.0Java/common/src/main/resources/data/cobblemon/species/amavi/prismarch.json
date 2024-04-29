@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "prismarch",
-  "nationalPokedexNumber": 5106,
+  "nationalPokedexNumber": 5302,
   "primaryType": "ice",
   "secondaryType": "bug",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:attract",

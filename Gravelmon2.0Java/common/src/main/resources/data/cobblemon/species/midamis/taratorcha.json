@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "taratorcha",
-  "nationalPokedexNumber": 3829,
+  "nationalPokedexNumber": 4025,
   "primaryType": "fire",
   "secondaryType": "bug",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:stringshot",

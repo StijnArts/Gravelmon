@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "veefere",
-  "nationalPokedexNumber": 3844,
+  "nationalPokedexNumber": 4040,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bind",

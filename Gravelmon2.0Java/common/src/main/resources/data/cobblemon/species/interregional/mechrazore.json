@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mechrazore",
-  "nationalPokedexNumber": 1609,
+  "nationalPokedexNumber": 1661,
   "primaryType": "steel",
   "secondaryType": "dragon",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

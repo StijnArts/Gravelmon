@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gargorgon",
-  "nationalPokedexNumber": 5138,
+  "nationalPokedexNumber": 5334,
   "primaryType": "dragon",
   "secondaryType": "ghost",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:dragonpulse",

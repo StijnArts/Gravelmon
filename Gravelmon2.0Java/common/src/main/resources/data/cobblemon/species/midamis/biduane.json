@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "biduane",
-  "nationalPokedexNumber": 3863,
+  "nationalPokedexNumber": 4059,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "medium_slow",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:confide",

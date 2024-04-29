@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eyecoon",
-  "nationalPokedexNumber": 4384,
+  "nationalPokedexNumber": 4580,
   "primaryType": "bug",
   "secondaryType": "ghost",
   "abilities": [
@@ -38,14 +38,14 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 150,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:meanlook",

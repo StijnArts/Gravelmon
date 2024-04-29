@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mousummit",
-  "nationalPokedexNumber": 1996,
+  "nationalPokedexNumber": 2169,
   "primaryType": "ice",
   "secondaryType": "normal",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:tackle",

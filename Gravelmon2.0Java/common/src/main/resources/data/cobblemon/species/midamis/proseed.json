@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "proseed",
-  "nationalPokedexNumber": 3876,
+  "nationalPokedexNumber": 4072,
   "primaryType": "poison",
   "secondaryType": "psychic",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:smog",

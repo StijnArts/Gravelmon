@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nifflom",
-  "nationalPokedexNumber": 1612,
+  "nationalPokedexNumber": 1664,
   "primaryType": "questionmark",
   "abilities": [
     "magicbounce",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:rapidspin",

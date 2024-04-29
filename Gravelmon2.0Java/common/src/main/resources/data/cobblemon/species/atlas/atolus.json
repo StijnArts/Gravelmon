@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "atolus",
-  "nationalPokedexNumber": 4903,
+  "nationalPokedexNumber": 5099,
   "primaryType": "fighting",
   "abilities": [
     "sheerforce",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

@@ -68,8 +68,8 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Sharby());
         pokemon.add(new Lamnaw());
         pokemon.add(new Squalucid());
-//        pokemon.add(new Chirunner()); Missing Stats
-//        pokemon.add(new Roaduner()); Missing Stats
+        pokemon.add(new Chirunner());
+        pokemon.add(new Roaduner());
 //        pokemon.add(new Misthary()); Member of line Not Finished
         pokemon.add(new Hoppoint());
         pokemon.add(new Helmhide());
@@ -122,8 +122,8 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Notifant());
         pokemon.add(new Fountusk());
         pokemon.add(new Eledrant());
-//        pokemon.add(new Wraggle()); Missing Stats
-//        pokemon.add(new Wranglash()); Missing Stats
+        pokemon.add(new Wraggle());
+        pokemon.add(new Wranglash());
         pokemon.add(new Hayataga());
         pokemon.add(new Welweed());
         pokemon.add(new Welwitch());
@@ -140,13 +140,15 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Germasaur());
         pokemon.add(new Flaskantine());
         pokemon.add(new Flingzer());
-//        pokemon.add(new Partae()); Missing Stats
-//        pokemon.add(new LostIslandsPartae()); Missing Stats
-//        pokemon.add(new Loftival()); Missing Stats
-//        pokemon.add(new LostIslandsLoftival()); Missing Stats
+        var partae = new Partae();
+        pokemon.add(partae);
+        pokemon.add(new LostIslandsPartae(partae.getPokedexNumber()));
+        var loftival = new Loftival();
+        pokemon.add(loftival);
+        pokemon.add(new LostIslandsLoftival(loftival.getPokedexNumber()));
         pokemon.add(new Hotdach());
         pokemon.add(new Schnausage());
-//        pokemon.add(new Hammerod()); Missing Stats
+        pokemon.add(new Hammerod());
         pokemon.add(new Pictolith());
         pokemon.add(new Canvalith());
         pokemon.add(new Sinklot());
@@ -210,7 +212,7 @@ public class Ferroa extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Sleetle());
         pokemon.add(new Cacold());
         pokemon.add(new Scaralanche());
-//        pokemon.add(new AquaZ()); Missing Stats
+        pokemon.add(new AquaZ());
         pokemon.add(new Auroreel());
         pokemon.add(new Lurelit());
         pokemon.add(new Grimfernal());

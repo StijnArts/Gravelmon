@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "menasuit",
-  "nationalPokedexNumber": 2070,
+  "nationalPokedexNumber": 2264,
   "primaryType": "ghost",
   "abilities": [
     "shadowtag",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:growl",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drajinn",
-  "nationalPokedexNumber": 3649,
+  "nationalPokedexNumber": 3845,
   "primaryType": "dragon",
   "abilities": [
     "sturdy",
@@ -67,11 +67,14 @@
     "48:gigaimpact"  ],
   "labels": [
     "kuria",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.drajinn.desc"
   ],
+  "preEvolution": "dragurn",
   "baseScale": 0.3,
   "hitbox": {
     "width": 6.0,

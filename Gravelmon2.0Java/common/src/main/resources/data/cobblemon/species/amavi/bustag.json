@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bustag",
-  "nationalPokedexNumber": 5069,
+  "nationalPokedexNumber": 5265,
   "primaryType": "ghost",
   "secondaryType": "normal",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:roleplay",

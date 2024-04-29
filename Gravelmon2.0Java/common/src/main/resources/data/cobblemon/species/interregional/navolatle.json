@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "navolatle",
-  "nationalPokedexNumber": 1582,
+  "nationalPokedexNumber": 1611,
   "primaryType": "steel",
   "secondaryType": "dark",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:fakeout",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mouszerker",
-  "nationalPokedexNumber": 3406,
+  "nationalPokedexNumber": 3602,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:pound",

@@ -22,7 +22,7 @@ public class Grabbit extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.STICKY_HOLD,Ability.PICKUP,Ability.PICKPOCKET), Ability.PICKPOCKET,
                 3, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,

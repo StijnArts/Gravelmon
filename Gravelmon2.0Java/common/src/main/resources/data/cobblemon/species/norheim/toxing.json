@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "toxing",
-  "nationalPokedexNumber": 2831,
+  "nationalPokedexNumber": 3027,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:poisonsting",

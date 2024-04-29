@@ -22,7 +22,7 @@ public class Frobber extends drai.dev.gravelmon.pokemon.Pokemon {
                         35),
                 List.of(Ability.STICKY_HOLD,Ability.POISON_TOUCH,Ability.PICKPOCKET), Ability.PICKPOCKET,
                 11, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,

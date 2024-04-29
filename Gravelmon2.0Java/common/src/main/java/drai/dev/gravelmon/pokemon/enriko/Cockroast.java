@@ -15,14 +15,15 @@ public class Cockroast extends drai.dev.gravelmon.pokemon.Pokemon {
                         45,
                         65),
                 List.of(Ability.SHIELD_DUST,Ability.ADAPTABILITY,Ability.FLAME_BODY), Ability.FLAME_BODY,
-                8, 165,
+                11, 165,
                 new Stats(0,0,0,0,0,0), 245,
                 0.8,
                 64, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.BUG),
-                List.of("hippowdonroast live in packs, sharing their body heat to keep their nests warm. They are widely regarded as pests due to how well they can adapt to urban environments."),
-                List.of(),
+                List.of("cockroast live in packs, sharing their body heat to keep their nests warm. They are widely regarded as pests due to how well they can adapt to urban environments."),
+                List.of(new EvolutionEntry("roaspector", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.MUDSLAP,7),
@@ -37,9 +38,8 @@ public class Cockroast extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ERUPTION,50)                        ),
                 List.of(Label.ENRIKO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 32, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

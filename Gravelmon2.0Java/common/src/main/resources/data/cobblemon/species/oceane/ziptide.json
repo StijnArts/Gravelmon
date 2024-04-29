@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ziptide",
-  "nationalPokedexNumber": 2046,
+  "nationalPokedexNumber": 2240,
   "primaryType": "electric",
   "abilities": [
     "anticipation",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:agility",

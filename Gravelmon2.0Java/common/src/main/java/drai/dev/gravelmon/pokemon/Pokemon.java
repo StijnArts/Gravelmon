@@ -7,6 +7,7 @@ import net.minecraft.core.*;
 import net.minecraft.core.registries.*;
 
 import java.util.*;
+import java.util.stream.*;
 
 public class Pokemon {
     public static String pokemonThatEvolveIntoThemselves = "Encountered pokemon that evolve into Themselves:";
@@ -282,10 +283,11 @@ public class Pokemon {
         StringBuilder pokemonWithZeroCatchrate = new StringBuilder("Pokemon with 0 catch-rate: \n");
         StringBuilder pokemonWithZeroBaseStats = new StringBuilder("Pokemon with 0 Base Stats: \n");
         StringBuilder pokemonWithMoreThanTwoSpawnPresets = new StringBuilder("Pokemon with more than 1 spawn preset: \n");
-        for (Pokemon pokemon : pokemonRegistry.values()) {
+        var sortedPokemonList = pokemonRegistry.values().stream().sorted(Comparator.comparing(pokemon -> pokemon.pokedexNumber)).toList();
+        for (var pokemon : sortedPokemonList) {
             if (pokemon.getCatchRate() == 0)
                 pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
-            if (pokemon.getStats().getTotal() == 0)
+            if (pokemon.getStats().isEmpty())
                 pokemonWithZeroBaseStats.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
             if(pokemon.spawnPresets.size()>1){
                 pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ")
@@ -296,7 +298,10 @@ public class Pokemon {
                 }
                 pokemonWithMoreThanTwoSpawnPresets.append("\n");
             }
-
+            if(pokemon.getEggGroups().isEmpty()){
+                pokemon.eggGroups = new ArrayList<>(pokemon.eggGroups);
+                pokemon.eggGroups.add(EggGroup.FIELD);
+            }
             if(pokemon.stats.isEmpty()){
                 zeroStatPokemon.add(pokemon);
             }
@@ -373,12 +378,11 @@ public class Pokemon {
             }
         }
         System.out.println(pokemonThatEvolveIntoThemselves);
-        System.out.println(pokemonWithZeroBaseStats);
+//        System.out.println(pokemonWithZeroBaseStats);
         System.out.println(pokemonWithZeroCatchrate);
         System.out.println(pokemonWithMoreThanTwoSpawnPresets);
         System.out.println("Evolution Items:");
-        for (String item :
-                evolutionItems) {System.out.println(item+",");
+        for (String item : evolutionItems) {System.out.println(item+",");
         }
 
         for (int i = zeroStatPokemon.size()-1; i > -1; i--) {
@@ -393,6 +397,12 @@ public class Pokemon {
                     var evolutionStats = pokemonToCopy.get().stats;
                     pokemon.stats = new Stats(evolutionStats, 0.7);
                 }
+            }
+        }
+
+        for (var pokemon : sortedPokemonList) {
+            if(pokemon.baseExperienceYield == 0){
+                pokemon.baseExperienceYield = 512/(pokemon.stats.getHP()/255);
             }
         }
 

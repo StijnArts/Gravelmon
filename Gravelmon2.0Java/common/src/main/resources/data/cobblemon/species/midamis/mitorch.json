@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mitorch",
-  "nationalPokedexNumber": 3828,
+  "nationalPokedexNumber": 4024,
   "primaryType": "fire",
   "secondaryType": "bug",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:stringshot",

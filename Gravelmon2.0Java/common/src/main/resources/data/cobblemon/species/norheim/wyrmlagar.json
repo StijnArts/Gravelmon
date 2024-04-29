@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wyrmlagar",
-  "nationalPokedexNumber": 2829,
+  "nationalPokedexNumber": 3025,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "7:bugbite",

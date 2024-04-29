@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "preano",
-  "nationalPokedexNumber": 3917,
+  "nationalPokedexNumber": 4113,
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:charge",

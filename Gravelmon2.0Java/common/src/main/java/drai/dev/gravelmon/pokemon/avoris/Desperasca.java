@@ -22,7 +22,7 @@ public class Desperasca extends drai.dev.gravelmon.pokemon.Pokemon {
                         99),
                 List.of(Ability.DEFIANT,Ability.SAND_FORCE,Ability.STEADFAST), Ability.STEADFAST,
                 14, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -22,7 +22,7 @@ public class Arctalon extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.INTIMIDATE,Ability.OVERCOAT), Ability.PERMAFROST,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 140,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crickochet",
-  "nationalPokedexNumber": 3541,
+  "nationalPokedexNumber": 3737,
   "primaryType": "bug",
   "abilities": [
     "keeneye",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:furycutter",

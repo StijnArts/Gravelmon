@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "calaloof",
-  "nationalPokedexNumber": 3362,
+  "nationalPokedexNumber": 3558,
   "primaryType": "normal",
   "abilities": [
     "cutecharm",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:astonish",

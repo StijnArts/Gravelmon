@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snhail",
-  "nationalPokedexNumber": 2845,
+  "nationalPokedexNumber": 3041,
   "primaryType": "ice",
   "abilities": [
     "snowwarning",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:spikes",

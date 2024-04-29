@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pipsicle",
-  "nationalPokedexNumber": 2734,
+  "nationalPokedexNumber": 2930,
   "primaryType": "ice",
   "abilities": [
     "refrigerate",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:astonish",

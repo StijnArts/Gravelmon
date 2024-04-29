@@ -18,7 +18,7 @@ public class Kangazad extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.EARLY_BIRD,Ability.SCRAPPY), Ability.INNER_FOCUS,
                 5, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

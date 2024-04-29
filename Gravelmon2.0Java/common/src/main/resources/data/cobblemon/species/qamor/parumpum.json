@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "parumpum",
-  "nationalPokedexNumber": 3510,
+  "nationalPokedexNumber": 3706,
   "primaryType": "psychic",
   "abilities": [
     "owntempo",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "tm:drumbeating",

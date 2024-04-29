@@ -18,7 +18,7 @@ public class Boileror extends drai.dev.gravelmon.pokemon.Pokemon {
                         93),
                 List.of(Ability.RECKLESS,Ability.MOUNTAINEER), Ability.THICK_FAT,
                 17, 0,
-                new Stats(0,2,0,0,0,0), 0,
+                new Stats(0,2,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,

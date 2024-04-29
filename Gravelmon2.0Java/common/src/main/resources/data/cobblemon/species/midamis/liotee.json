@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "liotee",
-  "nationalPokedexNumber": 3897,
+  "nationalPokedexNumber": 4093,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:charge",

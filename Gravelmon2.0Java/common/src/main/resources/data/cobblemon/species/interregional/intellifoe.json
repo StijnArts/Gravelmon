@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "intellifoe",
-  "nationalPokedexNumber": 1600,
+  "nationalPokedexNumber": 1640,
   "primaryType": "psychic",
   "secondaryType": "steel",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:confusion",

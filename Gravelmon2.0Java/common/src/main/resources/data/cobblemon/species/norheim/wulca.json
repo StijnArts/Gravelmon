@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wulca",
-  "nationalPokedexNumber": 2869,
+  "nationalPokedexNumber": 3065,
   "primaryType": "water",
   "abilities": [
     "keeneye",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

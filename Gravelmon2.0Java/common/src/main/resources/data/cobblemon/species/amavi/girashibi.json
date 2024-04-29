@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "girashibi",
-  "nationalPokedexNumber": 5022,
+  "nationalPokedexNumber": 5218,
   "primaryType": "electric",
   "secondaryType": "steel",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:playnice",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "foratt",
-  "nationalPokedexNumber": 3925,
+  "nationalPokedexNumber": 4121,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

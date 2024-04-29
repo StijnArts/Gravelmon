@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kinettee",
-  "nationalPokedexNumber": 3890,
+  "nationalPokedexNumber": 4086,
   "primaryType": "fighting",
   "secondaryType": "dark",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:leer",

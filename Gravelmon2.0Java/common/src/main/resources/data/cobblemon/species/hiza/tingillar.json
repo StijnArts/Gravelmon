@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tingillar",
-  "nationalPokedexNumber": 2358,
+  "nationalPokedexNumber": 2552,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -44,7 +44,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:stringshot",

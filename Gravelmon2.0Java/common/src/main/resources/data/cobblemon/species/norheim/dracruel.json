@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dracruel",
-  "nationalPokedexNumber": 2874,
+  "nationalPokedexNumber": 3070,
   "primaryType": "dark",
   "secondaryType": "dragon",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:bite",

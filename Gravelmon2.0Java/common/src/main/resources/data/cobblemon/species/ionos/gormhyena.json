@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gormhyena",
-  "nationalPokedexNumber": 4389,
+  "nationalPokedexNumber": 4585,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:scratch",

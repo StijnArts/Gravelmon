@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "charmacist",
-  "nationalPokedexNumber": 5013,
+  "nationalPokedexNumber": 5209,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:acid",

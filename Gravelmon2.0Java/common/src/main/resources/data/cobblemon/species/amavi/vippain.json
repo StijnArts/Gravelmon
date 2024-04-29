@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vippain",
-  "nationalPokedexNumber": 4992,
+  "nationalPokedexNumber": 5188,
   "primaryType": "poison",
   "secondaryType": "dark",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:harden",

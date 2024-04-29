@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snowoof",
-  "nationalPokedexNumber": 4895,
+  "nationalPokedexNumber": 5091,
   "primaryType": "ice",
   "abilities": [
     "frisk",
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "tm:facade",

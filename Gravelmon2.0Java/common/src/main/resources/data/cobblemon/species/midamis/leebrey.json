@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leebrey",
-  "nationalPokedexNumber": 3954,
+  "nationalPokedexNumber": 4150,
   "primaryType": "dragon",
   "secondaryType": "fairy",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:babydolleyes",

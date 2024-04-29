@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cuddlish",
-  "nationalPokedexNumber": 5049,
+  "nationalPokedexNumber": 5245,
   "primaryType": "ghost",
   "secondaryType": "dark",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:pursuit",

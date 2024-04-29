@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "maternarch",
-  "nationalPokedexNumber": 4973,
+  "nationalPokedexNumber": 5169,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:stringshot",

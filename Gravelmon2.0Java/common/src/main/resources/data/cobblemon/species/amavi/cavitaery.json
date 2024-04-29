@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cavitaery",
-  "nationalPokedexNumber": 5081,
+  "nationalPokedexNumber": 5277,
   "primaryType": "fairy",
   "secondaryType": "rock",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:sandattack",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bitumin",
-  "nationalPokedexNumber": 1574,
+  "nationalPokedexNumber": 1598,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -45,7 +45,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:rapidspin",

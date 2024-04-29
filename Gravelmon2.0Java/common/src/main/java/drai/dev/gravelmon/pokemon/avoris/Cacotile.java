@@ -22,7 +22,7 @@ public class Cacotile extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.ROUGH_SKIN,Ability.DAMP,Ability.WATER_ABSORB), Ability.WATER_ABSORB,
                 4, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 170,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

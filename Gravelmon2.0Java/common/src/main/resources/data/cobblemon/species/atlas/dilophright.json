@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dilophright",
-  "nationalPokedexNumber": 4927,
+  "nationalPokedexNumber": 5123,
   "primaryType": "poison",
   "secondaryType": "dragon",
   "abilities": [
@@ -46,7 +46,7 @@
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:gastroacid",

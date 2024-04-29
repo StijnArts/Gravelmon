@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "caconie",
-  "nationalPokedexNumber": 4392,
+  "nationalPokedexNumber": 4588,
   "primaryType": "ghost",
   "secondaryType": "ground",
   "abilities": [
@@ -38,14 +38,14 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 30,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,
   "experienceGroup": "erratic",
   "eggCycles": 50,
   "eggGroups": [
-
+    "field"
   ],
   "moves": [
     "1:astonish",

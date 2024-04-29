@@ -68,7 +68,7 @@ public class Pharumm extends drai.dev.gravelmon.pokemon.Pokemon {
                         50),
                 List.of(Ability.MUMMY), Ability.MUMMY,
                 8, 0,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 80,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

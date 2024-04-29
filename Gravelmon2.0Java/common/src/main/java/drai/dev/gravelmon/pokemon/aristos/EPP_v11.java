@@ -18,7 +18,7 @@ public class EPP_v11 extends drai.dev.gravelmon.pokemon.Pokemon {
                         90),
                 List.of(Ability.ADAPTABILITY), Ability.ANALYTIC,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
