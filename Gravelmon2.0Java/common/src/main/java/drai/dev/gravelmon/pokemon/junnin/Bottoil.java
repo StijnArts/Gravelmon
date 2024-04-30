@@ -19,16 +19,28 @@ public class Bottoil extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.AFTERMATH), Ability.AFTERMATH,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("- AcidSTAB Poison - Acid Armor Poison - Acid SpraySTAB Poison - Poison Gas Poison - AstonishSTAB Ghost - Shadow BallSTAB Ghost - Memento Dark - Clear SmogSTAB Poison - Gastro Acid Poison - SludgeSTAB Poison - Sludge BombSTAB Poison"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("cuncoldron", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"29")))),
                 List.of(
+                        new MoveLearnSetEntry(Move.ACID,1),
+                        new MoveLearnSetEntry(Move.ACID_ARMOR,1),
+                        new MoveLearnSetEntry(Move.ACID_SPRAY,1),
+                        new MoveLearnSetEntry(Move.POISON_GAS,1),
+                        new MoveLearnSetEntry(Move.ASTONISH,1),
+                        new MoveLearnSetEntry(Move.SHADOW_BALL,1),
+                        new MoveLearnSetEntry(Move.MEMENTO,1),
+                        new MoveLearnSetEntry(Move.CLEAR_SMOG,1),
+                        new MoveLearnSetEntry(Move.GASTRO_ACID,1),
+                        new MoveLearnSetEntry(Move.SLUDGE,1),
                         new MoveLearnSetEntry(Move.SLUDGE_BOMB,1),
+
                         new MoveLearnSetEntry(Move.SMOKEBOMB,"tm"),
                         new MoveLearnSetEntry(Move.BURNING_JEALOUSY,"tm"),
                         new MoveLearnSetEntry(Move.SNORE,"tm"),
@@ -62,11 +74,10 @@ public class Bottoil extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURNINGSNEEZE,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SWAMP))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.ILLAGER_STRUCTURES),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bottoil");

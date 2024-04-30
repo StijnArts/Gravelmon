@@ -11,12 +11,12 @@ public class Lonava extends drai.dev.gravelmon.games.registry.Game {
     public void registerPokemon() {
         pokemon.add(new Wicruet());
         pokemon.add(new Eucharite());
-//        pokemon.add(new Punkyhunk()); Missing Stats
-//        pokemon.add(new Carvesque()); Missing Stats
-//        pokemon.add(new Palodefena()); Missing Stats
-//        pokemon.add(new Paloshield()); Missing Stats
-//        pokemon.add(new Escutchidae()); Missing Stats
-//        pokemon.add(new Mouhemian()); Missing Stats
+        pokemon.add(new Punkyhunk()); Missing Stats
+        pokemon.add(new Carvesque()); Missing Stats
+        pokemon.add(new Palodefena()); Missing Stats
+        pokemon.add(new Paloshield()); Missing Stats
+        pokemon.add(new Escutchidae()); Missing Stats
+        pokemon.add(new Mouhemian()); Missing Stats
         pokemon.add(new Herburrow());
         pokemon.add(new Professherb());
         pokemon.add(new Yoink());
