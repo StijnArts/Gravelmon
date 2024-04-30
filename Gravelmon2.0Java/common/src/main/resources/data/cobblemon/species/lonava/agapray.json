@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "agapray",
+  "nationalPokedexNumber": 3154,
+  "primaryType": "fairy",
+  "abilities": [
+    "healer",
+    "h:naturalcure"
+  ],
+  "baseStats": {
+    "hp": 105,
+    "attack": 50,
+    "defence": 85,
+    "special_attack": 70,
+    "special_defence": 85,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 140,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 390,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "human_like"
+  ],
+  "moves": [
+    "1:helpinghand",
+    "5:babydolleyes",
+    "13:fairywind",
+    "17:attract",
+    "25:singsound",
+    "29:drainingkiss",
+    "33:fling",
+    "37:healpulse",
+    "41:afteryou",
+    "45:healingwish",
+    "49:playrough",
+    "53:lightscreen",
+    "57:doubleedge",
+    "tm:mistyexplosion",
+    "tm:helpinghand",
+    "tm:snoresound",
+    "tm:dazzlinggleam",
+    "tm:mistyterrain",
+    "tm:attract",
+    "tm:confide",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:return",
+    "tm:roundsound",
+    "tm:safeguard",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:toxic",
+    "tm:calmmind",
+    "tm:rest",
+    "tm:heartstamp",
+    "tm:teleport"  ],
+  "labels": [
+    "lonava",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.agapray.desc"
+  ],
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 13,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

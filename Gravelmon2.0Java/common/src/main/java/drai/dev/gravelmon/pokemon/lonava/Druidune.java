@@ -8,21 +8,22 @@ public class Druidune extends drai.dev.gravelmon.pokemon.Pokemon {
     public Druidune() {
         super("Druidune",
                 Type.GROUND,
-                new Stats(55,
-                        75,
-                        80,
-                        55,
-                        45,
-                        15),
+                new Stats(0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0),
                 List.of(Ability.SAND_VEIL,Ability.ARENA_TRAP,Ability.SAND_FORCE), Ability.SAND_FORCE,
-                8, 165,
+                5, 165,
                 new Stats(0,0,1,0,0,0), 190,
                 0.5,
                 64, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
                 List.of("Druidune are usually found on beaches, where they like to blend in amongst the sand dunes. The extensive roots of its kelp antlers help its body maintain form on windy days."),
-                List.of(),
+                List.of(new EvolutionEntry("pagune", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:soft_sand")),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.ASTONISH,4),
@@ -64,8 +65,8 @@ public class Druidune extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHORE_UP,"tm")                        ),
                 List.of(Label.LONAVA),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

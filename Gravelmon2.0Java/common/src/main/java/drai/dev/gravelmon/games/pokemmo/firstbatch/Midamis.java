@@ -192,10 +192,10 @@ public class Midamis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Poiriasse());
         pokemon.add(new Groviasse());
         pokemon.add(new Denruu());
-//        pokemon.add(new Velifite()); Missing Stats
-//        pokemon.add(new Raptrocas()); Missing Stats
-//        pokemon.add(new Juldon()); Missing Stats
-//        pokemon.add(new Abramadon()); Missing Stats
+        pokemon.add(new Velifite());
+        pokemon.add(new Raptrocas());
+        pokemon.add(new Juldon());
+        pokemon.add(new Abramadon());
         pokemon.add(new Adeerex());
         pokemon.add(new Leebrio());
         pokemon.add(new Leebrey());
@@ -205,11 +205,11 @@ public class Midamis extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Kivirial());
         pokemon.add(new Mesopolin());
         pokemon.add(new Kaplantis());
-//        pokemon.add(new Valhengu()); Missing Stats
+        pokemon.add(new Valhengu());
         pokemon.add(new Luceyan());
         pokemon.add(new Kamiyin());
         pokemon.add(new Balas());
-//        pokemon.add(new Autricee()); Missing Stats
+        pokemon.add(new Autricee());
     }
 
 }

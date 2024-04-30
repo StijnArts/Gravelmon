@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "burnshee",
+  "nationalPokedexNumber": 3158,
+  "primaryType": "fire",
+  "secondaryType": "ghost",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 56,
+    "attack": 45,
+    "defence": 45,
+    "special_attack": 98,
+    "special_defence": 78,
+    "speed": 76
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 80,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:confuseray",
+    "4:astonish",
+    "6:ember",
+    "9:shadowsneak",
+    "14:nightshade",
+    "21:firespin",
+    "24:incinerate",
+    "28:willowisp",
+    "31:hex",
+    "36:curse",
+    "40:firelash",
+    "44:shadowball",
+    "47:memento",
+    "50:painsplit",
+    "54:poltergeist"  ],
+  "labels": [
+    "lonava",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.burnshee.desc"
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}
