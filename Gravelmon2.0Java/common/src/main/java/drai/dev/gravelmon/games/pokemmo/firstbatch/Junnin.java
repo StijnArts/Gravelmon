@@ -112,12 +112,12 @@ public class Junnin extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Lochsea());
         pokemon.add(new Nesshoal());
         pokemon.add(new Psyren());
-//        pokemon.add(new Aromutt()); Missing Stats
-//        pokemon.add(new Odorog()); Missing Stats
+        pokemon.add(new Aromutt());
+        pokemon.add(new Odorog());
         pokemon.add(new Chinchul());
         pokemon.add(new Chilleap());
-//        pokemon.add(new Chiquail()); Missing Stats
-//        pokemon.add(new Mavriquail()); Missing Stats
+        pokemon.add(new Chiquail());
+        pokemon.add(new Mavriquail());
         pokemon.add(new Jayzul());
         pokemon.add(new Jayzure());
         pokemon.add(new Hoppiler());
@@ -133,15 +133,15 @@ public class Junnin extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Dandyseed());
         pokemon.add(new Dandylie());
         pokemon.add(new Withereen());
-//        pokemon.add(new Quartzac()); Missing Stats
-//        pokemon.add(new Equazar()); Missing Stats
+        pokemon.add(new Quartzac());
+        pokemon.add(new Equazar());
         pokemon.add(new Campyre());
         pokemon.add(new Wildyre());
         pokemon.add(new Bloatick());
         pokemon.add(new Suckeeto());
-//        pokemon.add(new Stalad()); Missing Stats
-//        pokemon.add(new Stelimight()); Missing Stats
-//        pokemon.add(new Cavernight()); Missing Stats
+        pokemon.add(new Stalad());
+        pokemon.add(new Stelimight());
+        pokemon.add(new Cavernight());
         pokemon.add(new Sandstrum());
         pokemon.add(new Sanderon());
         pokemon.add(new Shoreking());
@@ -153,21 +153,21 @@ public class Junnin extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Coyoco());
         pokemon.add(new Stuckarp());
         pokemon.add(new Stuckry());
-//        pokemon.add(new Plubus()); Missing Stats
-//        pokemon.add(new Salamink()); Missing Stats
+        pokemon.add(new Plubus());
+        pokemon.add(new Salamink());
         pokemon.add(new Frostoss());
         pokemon.add(new Kaboo());
         pokemon.add(new Membry());
-//        pokemon.add(new Fawntia()); Missing Stats
-//        pokemon.add(new Reindolph()); Missing Stats
+        pokemon.add(new Fawntia());
+        pokemon.add(new Reindolph());
         pokemon.add(new Bansheet());
         pokemon.add(new Teepolter());
         pokemon.add(new Hoodloom());
         pokemon.add(new Cloacover());
         pokemon.add(new Indascent());
         pokemon.add(new Lamplume());
-//        pokemon.add(new Bottoil()); Missing Stats
-//        pokemon.add(new Cuncoldron()); Missing Stats
+        pokemon.add(new Bottoil());
+        pokemon.add(new Cuncoldron());
         pokemon.add(new Tarift());
         pokemon.add(new Tarzorus());
         pokemon.add(new Tuttby());

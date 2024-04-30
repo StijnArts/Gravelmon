@@ -8,20 +8,20 @@ public class Fulolf extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fulolf() {
         super("Fulolf",
                 Type.DARK, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(79,
+                        112,
+                        65,
+                        65,
+                        44,
+                        89),
                 List.of(Ability.INTIMIDATE), Ability.NIGHTSTALKER,
-                8, 165,
+                17, 165,
                 new Stats(0,0,0,0,0,0), 50,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("- Scratch Normal - Howl Normal - Fury Swipes Normal 3 Iron Defense Steel 6 Hone Claws Dark 9 BiteSTAB Dark 12 Scary Face Normal 15 Metal ClawSTAB Steel 19 Slash Normal 22 CrunchSTAB Dark 26 Shadow Claw Ghost 29 Chip Away Normal 33 Roar Normal 36 Revenge Fighting 40 PursuitSTAB Dark 44 Iron TailSTAB Steel 48 Night SlashSTAB Dark 51 Moonlight Fairy 55 Iron HeadSTAB Steel 58 Parting Shot Dark 62 False SurrenderSTAB Dark 67 Flash CannonSTAB Steel 74 Darkest LariatSTAB Dark"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FURY_SWIPES,1),
@@ -95,10 +95,11 @@ public class Fulolf extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MOONBLAST,"tm")                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 27, 53, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());

@@ -19,14 +19,15 @@ public class Aromutt extends drai.dev.gravelmon.pokemon.Pokemon {
                         50,
                         60),
                 List.of(Ability.FOREWARN,Ability.PICKUP,Ability.FRIEND_GUARD), Ability.FRIEND_GUARD,
-                8, 165,
+                4, 165,
                 new Stats(0,1,0,0,0,0), 244,
                 0.5,
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
                 List.of("Aromutt has an amazing sense of smell that lets it seek out lost people and things. It is known as the Domestic Pokemon because it can only be found in captivity. It only lives with humans in cities and towns."),
-                List.of(),
+                List.of(new EvolutionEntry("odorog", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
@@ -81,11 +82,11 @@ public class Aromutt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARM,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Aromutt");

@@ -144,87 +144,87 @@ public class Isiah extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Cramic());
         pokemon.add(new Clamsure());
         pokemon.add(new Sweetweet());
-        pokemon.add(new Paswan()); 
-        pokemon.add(new Lampea()); Missing Stats
-        pokemon.add(new Bullama()); Missing Stats
-        pokemon.add(new Kelbanast()); Missing Stats
-        pokemon.add(new Tessent()); Missing Stats
-        pokemon.add(new Tessensei()); Missing Stats
-        pokemon.add(new Wastered()); Missing Stats
-        pokemon.add(new Hammeradio()); Missing Stats
-        pokemon.add(new Eice()); Missing Stats
-        pokemon.add(new Dreice()); Missing Stats
-        pokemon.add(new Icigloo()); Missing Stats
-        pokemon.add(new Wijin()); Missing Stats
-        pokemon.add(new Summojin()); Missing Stats
-        pokemon.add(new Raggal()); Missing Stats
-        pokemon.add(new Dollipop()); Missing Stats
-        pokemon.add(new Pompadame()); Missing Stats
-        pokemon.add(new Pelurche()); Missing Stats
-        pokemon.add(new Beargue()); Missing Stats
-        pokemon.add(new Urslash()); Missing Stats
+        pokemon.add(new Paswan());
+        pokemon.add(new Lampea());
+        pokemon.add(new Bullama());
+        pokemon.add(new Kelbanast());
+        pokemon.add(new Tessent());
+        pokemon.add(new Tessensei());
+        pokemon.add(new Wastered());
+        pokemon.add(new Hammeradio());
+        pokemon.add(new Eice());
+        pokemon.add(new Dreice());
+        pokemon.add(new Icigloo());
+        pokemon.add(new Wijin());
+        pokemon.add(new Summojin());
+        pokemon.add(new Raggal());
+        pokemon.add(new Dollipop());
+        pokemon.add(new Pompadame());
+        pokemon.add(new Pelurche());
+        pokemon.add(new Beargue());
+        pokemon.add(new Urslash());
         pokemon.add(new Froska());
         pokemon.add(new Mafreozee());
-        pokemon.add(new Ribone()); Missing Stats
-        pokemon.add(new Skelenid()); Missing Stats
+        pokemon.add(new Ribone());
+        pokemon.add(new Skelenid());
         pokemon.add(new Ugnulash());
         pokemon.add(new Nuspice());
         pokemon.add(new Pepprex());
-        pokemon.add(new Anemulp()); Missing Stats
-        pokemon.add(new Illuquid()); Missing Stats
-        pokemon.add(new Crasquidor()); Member of line Not Finished
+        pokemon.add(new Anemulp());
+        pokemon.add(new Illuquid());
+        pokemon.add(new Crasquidor());
 
         pokemon.add(new Celluler());
         pokemon.add(new Paperlane());
         pokemon.add(new Himegami());
         pokemon.add(new Jawful());
-        pokemon.add(new Opilape()); Missing Stats
-        pokemon.add(new Oragnutan()); Missing Stats
-        pokemon.add(new Possasse()); Missing Stats
-        pokemon.add(new Vasegeist()); Missing Stats
-        pokemon.add(new Slipole()); Missing Stats
-        pokemon.add(new Pengoof()); Missing Stats
-        pokemon.add(new Rolloch()); Missing Stats
-        pokemon.add(new Bouldart()); Missing Stats
-        pokemon.add(new Gyroar()); Missing Stats
+        pokemon.add(new Opilape());
+        pokemon.add(new Oragnutan());
+        pokemon.add(new Possasse());
+        pokemon.add(new Vasegeist());
+        pokemon.add(new Slipole());
+        pokemon.add(new Pengoof());
+        pokemon.add(new Rolloch());
+        pokemon.add(new Bouldart());
+        pokemon.add(new Gyroar());
         pokemon.add(new Nuggle());
         pokemon.add(new Piragmid());
         pokemon.add(new Eldoredo());
-        pokemon.add(new Crimera()); Missing Stats
-        pokemon.add(new Chiverna()); Missing Stats
+        pokemon.add(new Crimera());
+        pokemon.add(new Chiverna());
         pokemon.add(new Sellfish());
         pokemon.add(new Junkid());
         pokemon.add(new Tankyard());
-        pokemon.add(new Narnail()); Missing Stats
-        pokemon.add(new Unirval()); Missing Stats
-        pokemon.add(new Elekto()); Missing Stats
-        pokemon.add(new Ambrachios()); Missing Stats
+        pokemon.add(new Narnail());
+        pokemon.add(new Unirval());
+        pokemon.add(new Elekto());
+        pokemon.add(new Ambrachios());
         pokemon.add(new Lizmoke());
         pokemon.add(new Charnosaur());
         pokemon.add(new Germinell());
         pokemon.add(new Hyriginell());
-        pokemon.add(new Larvatt()); Missing Stats
-        pokemon.add(new Sparkroll()); Missing Stats
-        pokemon.add(new Megawatt()); Missing Stats
-        pokemon.add(new Fulolf()); Missing Stats
-        pokemon.add(new Teekaboo()); Missing Stats
-        pokemon.add(new Pendodoom()); Missing Stats
-        pokemon.add(new Piczarre()); Missing Stats
+        pokemon.add(new Larvatt());
+        pokemon.add(new Sparkroll());
+        pokemon.add(new Megawatt());
+        pokemon.add(new Fulolf());
+        pokemon.add(new Teekaboo());
+        pokemon.add(new Pendodoom());
+        pokemon.add(new Piczarre());
         pokemon.add(new Dorimedon());
-        pokemon.add(new Lapot()); Missing Stats
-        pokemon.add(new Simulogre()); Missing Stats
-        pokemon.add(new Falchik()); Missing Stats
-        pokemon.add(new Valkite()); Missing Stats
-        pokemon.add(new Calvakair()); Missing Stats
-        pokemon.add(new Cetoacean()); Missing Stats
-        pokemon.add(new Nicklack()); Missing Stats
-        pokemon.add(new Silvern()); Missing Stats
-        pokemon.add(new Avidrage()); Missing Stats
-        pokemon.add(new Valialty()); Missing Stats
-        pokemon.add(new Oweesage()); Missing Stats
-        pokemon.add(new Koslich()); Missing Stats
-        pokemon.add(new Eiseith()); Missing Stats
-        pokemon.add(new Excanth()); Missing Stats
+        pokemon.add(new Lapot());
+        pokemon.add(new Simulogre());
+        pokemon.add(new Falchik());
+        pokemon.add(new Valkite());
+        pokemon.add(new Calvakair());
+        pokemon.add(new Cetoacean());
+        pokemon.add(new Nicklack());
+        pokemon.add(new Silvern());
+        pokemon.add(new Avidrage());
+        pokemon.add(new Valialty());
+        pokemon.add(new Oweesage());
+        pokemon.add(new Koslich());
+        pokemon.add(new Eiseith());
+        pokemon.add(new Excanth());
     }
 
 }

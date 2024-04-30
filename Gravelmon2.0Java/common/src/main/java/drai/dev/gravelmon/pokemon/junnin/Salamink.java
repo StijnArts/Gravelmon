@@ -12,14 +12,14 @@ public class Salamink extends drai.dev.gravelmon.pokemon.Pokemon {
     public Salamink() {
         super("Salamink",
                 Type.WATER,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(56,
+                        33,
+                        57,
+                        78,
+                        66,
+                        87),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
+                14, 165,
                 new Stats(0,0,0,0,0,0), 0,
                 0.5,
                 0, ExperienceGroup.FLUCTUATING,
@@ -71,16 +71,32 @@ public class Salamink extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SURF,"tm"),
                         new MoveLearnSetEntry(Move.WATERFALL,"tm"),
                         new MoveLearnSetEntry(Move.WHIRLPOOL,"tm"),
-                        new MoveLearnSetEntry(Move.SPLASH,"tm")                        ),
-                List.of(Label.JUNNIN),
+                        new MoveLearnSetEntry(Move.SPLASH,"tm"),
+        new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
+                new MoveLearnSetEntry(Move.ABSORB,6),
+                new MoveLearnSetEntry(Move.BIDE,12),
+                new MoveLearnSetEntry(Move.IRON_DEFENSE,17),
+                new MoveLearnSetEntry(Move.MINIMIZE,20),
+                new MoveLearnSetEntry(Move.SAFEGUARD,24),
+                new MoveLearnSetEntry(Move.MIRROR_COAT,28),
+                new MoveLearnSetEntry(Move.ENDURE,32),
+                new MoveLearnSetEntry(Move.METAL_BURST,37),
+                new MoveLearnSetEntry(Move.AQUA_RING,41),
+                new MoveLearnSetEntry(Move.FLASH_CANNON,45),
+                new MoveLearnSetEntry(Move.SOAK,50),
+                new MoveLearnSetEntry(Move.ENDEAVOR,55)
+                ),
+        List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+        ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 11, 37, 1, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_CAVE))
+        ), List.of(),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Salamink");
 
     }

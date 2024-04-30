@@ -12,15 +12,15 @@ public class Mavriquail extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mavriquail() {
         super("Mavriquail",
                 Type.NORMAL, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(77,
+                        83,
+                        49,
+                        53,
+                        53,
+                        79),
                 List.of(Ability.UNBURDEN), Ability.PINWHEEL,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                13, 165,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -91,13 +91,14 @@ public class Mavriquail extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAZOR_WIND,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 28, 47, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_PLAINS)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Mavriquail");
 
     }

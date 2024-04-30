@@ -19,14 +19,15 @@ public class Stalad extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.STURDY), Ability.WEAK_ARMOR,
-                8, 165,
-                new Stats(0,0,1,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,1,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("- Bide Normal - Flash Normal 4 Rock ThrowSTAB Rock 8 Defense Curl Normal 12 Spikes Ground 15 Magnitude Ground 19 Rock Polish Rock 23 Explosion Normal 27 Rock SlideSTAB Rock 31 Rock TombSTAB Rock 35 Power GemSTAB Rock 39 Echoed Voice Normal 43 Smack DownSTAB Rock"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("stelimight", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"25")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FLASH,1),
                         new MoveLearnSetEntry(Move.ROCK_THROW,4),
@@ -69,9 +70,9 @@ public class Stalad extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FLAIL,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DRIPSTONE)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

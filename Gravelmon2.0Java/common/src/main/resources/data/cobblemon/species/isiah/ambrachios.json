@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "ambrachios",
+  "nationalPokedexNumber": 4040,
+  "primaryType": "rock",
+  "secondaryType": "electric",
+  "abilities": [
+    "static",
+    "h:static"
+  ],
+  "baseStats": {
+    "hp": 110,
+    "attack": 65,
+    "defence": 59,
+    "special_attack": 98,
+    "special_defence": 107,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:chargebeam",
+    "7:thunderwave",
+    "13:chargebeam",
+    "19:rockthrow",
+    "25:endure",
+    "31:ancientpower",
+    "37:takedown",
+    "40:stomp",
+    "46:roarsound",
+    "55:powergemcrystal",
+    "67:screechsound",
+    "73:doubleedge"  ],
+  "labels": [
+    "isiah",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ambrachios.desc"
+  ],
+  "preEvolution": "elekto",
+  "baseScale": 0.875,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 35,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

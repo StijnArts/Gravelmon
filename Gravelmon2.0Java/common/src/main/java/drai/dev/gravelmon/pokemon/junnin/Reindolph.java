@@ -19,7 +19,7 @@ public class Reindolph extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         95),
                 List.of(Ability.SLUSH_RUSH), Ability.SNOW_CLOAK,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 179, ExperienceGroup.MEDIUM_FAST,
@@ -27,7 +27,22 @@ public class Reindolph extends drai.dev.gravelmon.pokemon.Pokemon {
                 50, List.of(EggGroup.FIELD),
                 List.of("Reindolph can fly through the air for short distances. No one knows how it can do this, but some suspect it has to do with its crystal hooves."),
                 List.of(),
-                List.of(
+                List.of(new MoveLearnSetEntry(Move.ASTONISH,1),
+                        new MoveLearnSetEntry(Move.DOUBLE_TEAM,1),
+                        new MoveLearnSetEntry(Move.HEADBUTT,1),
+                        new MoveLearnSetEntry(Move.LEER,1),
+                        new MoveLearnSetEntry(Move.POWDER_SNOW,1),
+                        new MoveLearnSetEntry(Move.SHEER_COLD,1),
+                        new MoveLearnSetEntry(Move.ICE_SHARD,15),
+                        new MoveLearnSetEntry(Move.PROTECT,20),
+                        new MoveLearnSetEntry(Move.ICY_WIND,25),
+                        new MoveLearnSetEntry(Move.FROST_BREATH,30),
+                        new MoveLearnSetEntry(Move.BITE,35),
+                        new MoveLearnSetEntry(Move.ICE_FANG,40),
+                        new MoveLearnSetEntry(Move.SNOWSCAPE,47),
+                        new MoveLearnSetEntry(Move.WEATHER_BALL,54),
+                        new MoveLearnSetEntry(Move.CRUNCH,61),
+                        new MoveLearnSetEntry(Move.BLIZZARD,68),
                         new MoveLearnSetEntry(Move.ICYCHARGE,45),
                         new MoveLearnSetEntry(Move.SIGNAL_BEAM,"tm"),
                         new MoveLearnSetEntry(Move.TRIPLE_AXEL,"tm"),
@@ -97,13 +112,15 @@ public class Reindolph extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 35, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Reindolph");
 
     }

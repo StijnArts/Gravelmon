@@ -8,20 +8,20 @@ public class Ambrachios extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ambrachios() {
         super("Ambrachios",
                 Type.ROCK, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(110,
+                        65,
+                        59,
+                        98,
+                        107,
+                        55),
                 List.of(Ability.STATIC), Ability.STATIC,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                35, 165,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.MONSTER),
-                List.of("- Tackle Normal - Tail Whip Normal - Thunder Wave Electric - Charge BeamSTAB Electric 7 Thunder Wave Electric 13 Charge BeamSTAB Electric 19 Rock ThrowSTAB Rock 25 Endure Normal 31 Ancient PowerSTAB Rock 37 Take Down Normal 40 Stomp Normal 46 Roar Normal 55 Power GemSTAB Rock 67 Screech Normal 73 Double-Edge Normal"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE_BEAM,1),
@@ -38,8 +38,8 @@ public class Ambrachios extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,73)                        ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 41, 58, .8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_OLD_GROWTH_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

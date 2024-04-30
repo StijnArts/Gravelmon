@@ -15,7 +15,7 @@ import drai.dev.gravelmon.pokemon.lagoone.*;
 
 public class NeoNintendo extends drai.dev.gravelmon.games.registry.Game {
     public NeoNintendo() {
-        super("Neo Nintendo");
+        super("NeoNintendo");
     } //DONE
 
     @Override

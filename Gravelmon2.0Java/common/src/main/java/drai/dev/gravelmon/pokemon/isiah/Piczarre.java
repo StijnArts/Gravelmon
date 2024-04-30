@@ -8,29 +8,43 @@ public class Piczarre extends drai.dev.gravelmon.pokemon.Pokemon {
     public Piczarre() {
         super("Piczarre",
                 Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(75,
+                        68,
+                        58,
+                        97,
+                        97,
+                        44),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                13, 165,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.SPLASH,1),
+                        new MoveLearnSetEntry(Move.ASTONISH,7),
+                        new MoveLearnSetEntry(Move.WATER_SPORT,12),
+                        new MoveLearnSetEntry(Move.CONFUSION,16),
+                        new MoveLearnSetEntry(Move.HYPNOSIS,19),
+                        new MoveLearnSetEntry(Move.MAGIC_COAT,22),
+                        new MoveLearnSetEntry(Move.PSYBEAM,25),
+                        new MoveLearnSetEntry(Move.MUDDY_WATER,29),
+                        new MoveLearnSetEntry(Move.RECOVER,33),
+                        new MoveLearnSetEntry(Move.AMNESIA,37),
+                        new MoveLearnSetEntry(Move.PSYCHIC,40),
+                        new MoveLearnSetEntry(Move.MIRROR_COAT,44),
+                        new MoveLearnSetEntry(Move.PSYCHO_SHIFT,48)
+                ),
                 List.of(Label.ISIAH),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 23, 48, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.MANSION),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Piczarre");

@@ -12,15 +12,15 @@ public class Odorog extends drai.dev.gravelmon.pokemon.Pokemon {
     public Odorog() {
         super("Odorog",
                 Type.NORMAL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(80,
+                        86,
+                        65,
+                        55,
+                        70,
+                        77),
                 List.of(Ability.FOREWARN,Ability.PICKUP,Ability.FRIEND_GUARD), Ability.FRIEND_GUARD,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 165,
+                new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
@@ -90,11 +90,11 @@ public class Odorog extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CHARM,"tm")                        ),
                 List.of(Label.JUNNIN),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 25, 42, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Odorog");
