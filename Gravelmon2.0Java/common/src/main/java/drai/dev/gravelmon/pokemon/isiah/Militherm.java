@@ -5,15 +5,10 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class Militherm extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Militherm() {
+    public Militherm(Stats stats) {
         super("Militherm",
                 Type.BUG, Type.FIRE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 16, 165,
                 new Stats(0,0,0,0,0,0), 45,

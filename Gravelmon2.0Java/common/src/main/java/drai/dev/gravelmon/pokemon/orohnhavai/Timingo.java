@@ -24,7 +24,8 @@ public class Timingo extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of("Timingo are very shy Pokemon who are not as confident as their evolved form, Flambagant. They easily get embarrassed so they hide their face in shame. By learning to be confident, it grows closer to evolving. They hide their true feelings from people and by doing so, their psychic ability grows stronger."),
-                List.of(),
+                List.of(new EvolutionEntry("flambagant", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.BABYDOLL_EYES,1),
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,1),

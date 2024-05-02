@@ -22,7 +22,7 @@ public class Falchik extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of(""),
-                List.of(new EvolutionEntry("valkite", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Valkite", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),

@@ -22,7 +22,7 @@ public class Valkite extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.FLYING),
                 List.of(""),
-                List.of(new EvolutionEntry("calvakair", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Calvakair", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"53")))),
                 List.of(
                         new MoveLearnSetEntry(Move.QUICK_ATTACK,1),

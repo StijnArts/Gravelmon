@@ -10,12 +10,7 @@ public class Adepthawl extends drai.dev.gravelmon.pokemon.Pokemon {
     public Adepthawl(Stats stats) {
         super("Adepthawl",
                 Type.ICE, Type.PSYCHIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SECRETINSIGHT,Ability.SNOW_WARNING,Ability.TELEPATHY), Ability.TELEPATHY,
                 17, 165,
                 new Stats(0,0,0,0,0,0), 45,

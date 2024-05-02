@@ -5,7 +5,7 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class Unirval extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Unirval() {
+    public Unirval(Stats stats) {
         super("Unirval",
                 Type.WATER, Type.ICE,
                 new Stats(0,

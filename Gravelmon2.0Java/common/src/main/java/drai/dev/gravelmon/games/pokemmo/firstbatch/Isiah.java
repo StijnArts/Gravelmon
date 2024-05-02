@@ -13,6 +13,7 @@ import drai.dev.gravelmon.pokemon.atlas.Muscolin;
 import drai.dev.gravelmon.pokemon.atlas.Nuggle;
 import drai.dev.gravelmon.pokemon.atlas.Piragmid;
 import drai.dev.gravelmon.pokemon.atlas.Tankyard;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.isiah.*;
 import drai.dev.gravelmon.pokemon.atlas.Eldoredo;
 import drai.dev.gravelmon.pokemon.amavi.*;
@@ -67,6 +68,8 @@ import drai.dev.gravelmon.pokemon.aristos.*;
 import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
 
+import java.util.*;
+
 public class Isiah extends drai.dev.gravelmon.games.registry.Game {
     public Isiah() {
         super("Isiah");
@@ -90,7 +93,8 @@ public class Isiah extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Beetil());
         pokemon.add(new Matrimite());
         pokemon.add(new Gremite());
-        pokemon.add(new Militherm());
+        pokemon.add(new Militherm(new Stats(434, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(StatType.ATTACK, StatType.ATTACK, StatType.SPEED))));
         pokemon.add(new Lightile());
         pokemon.add(new Voltako());
         pokemon.add(new Raigeko());
@@ -196,7 +200,8 @@ public class Isiah extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Junkid());
         pokemon.add(new Tankyard());
         pokemon.add(new Narnail());
-        pokemon.add(new Unirval());
+        pokemon.add(new Unirval(new Stats(474, StatArchetype.BULKY_PHYSICAL_ATTACKER,
+                List.of(StatType.SPEED))));
         pokemon.add(new Elekto());
         pokemon.add(new Ambrachios());
         pokemon.add(new Lizmoke());
