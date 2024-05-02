@@ -59,7 +59,7 @@ import java.util.*;
 public class Chillaxo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chillaxo() {
         super("Chillaxo",
-                Type.NORMAL,Type.ICE,
+                Type.NORMAL, Type.ICE,
                 new Stats(0,
                         0,
                         0,
@@ -74,7 +74,8 @@ public class Chillaxo extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                 List.of("It creates an ice barrier around its body to store rations for later. If the barrier is broken, it hurriedly gathers up as much of its food as it can hold and runs away."),
-                List.of(),
+                List.of(new EvolutionEntry("kulapack", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.STUFF_CHEEKS,1),
                         new MoveLearnSetEntry(Move.SPIT_UP,1),
@@ -131,9 +132,8 @@ public class Chillaxo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 32, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -59,7 +59,7 @@ import java.util.*;
 public class Antle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Antle() {
         super("Antle",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(45,
                         50,
                         15,

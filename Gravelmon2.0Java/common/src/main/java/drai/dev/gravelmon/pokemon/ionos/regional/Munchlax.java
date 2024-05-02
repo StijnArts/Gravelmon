@@ -59,7 +59,7 @@ import java.util.*;
 public class Munchlax extends drai.dev.gravelmon.pokemon.Pokemon {
     public Munchlax(int dex) {
         super(dex, "Munchlax",
-                Type.GRASS,Type.NORMAL,
+                Type.GRASS, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

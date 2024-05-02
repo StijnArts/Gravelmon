@@ -73,18 +73,29 @@ public class Sharpunk extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.WATER_1),
-                List.of("Based on: Concavenator"),
-                List.of(),
-                List.of(                        ),
+                List.of(""),
+                List.of(new EvolutionEntry("spurocious", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
+                List.of(
+                        new MoveLearnSetEntry(Move.SHEDFANGS,1),
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.BRUTAL_SWING,1),
+                        new MoveLearnSetEntry(Move.NIGHT_SLASH,1),
+                        new MoveLearnSetEntry(Move.BITE,1),
+                        new MoveLearnSetEntry(Move.NEEDLE_ARM,1),
+                        new MoveLearnSetEntry(Move.PURSUIT,1),
+                        new MoveLearnSetEntry(Move.OBSTRUCT,1),
+                        new MoveLearnSetEntry(Move.CRUNCH,1)
+                ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DESERT, Biome.IS_LUSH))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_WATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
            setLangFileName("Sharpunk");
 
     }

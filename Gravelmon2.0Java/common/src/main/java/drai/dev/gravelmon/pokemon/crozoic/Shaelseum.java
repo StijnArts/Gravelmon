@@ -59,7 +59,7 @@ import java.util.*;
 public class Shaelseum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shaelseum() {
         super("Shaelseum",
-                Type.ROCK,Type.GHOST,
+                Type.ROCK, Type.GHOST,
                 new Stats(50,
                         60,
                         150,

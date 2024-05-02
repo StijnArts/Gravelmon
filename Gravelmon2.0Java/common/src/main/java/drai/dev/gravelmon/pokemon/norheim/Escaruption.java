@@ -8,7 +8,7 @@ import java.util.*;
 public class Escaruption extends drai.dev.gravelmon.pokemon.Pokemon {
     public Escaruption(Stats stats) {
         super("Escaruption",
-                Type.FIRE,Type.ROCK,
+                Type.FIRE, Type.ROCK,
                 stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 18, 0,

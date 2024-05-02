@@ -59,7 +59,7 @@ import java.util.*;
 public class Totodile extends drai.dev.gravelmon.pokemon.Pokemon {
     public Totodile(int dex) {
         super(dex, "Totodile",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

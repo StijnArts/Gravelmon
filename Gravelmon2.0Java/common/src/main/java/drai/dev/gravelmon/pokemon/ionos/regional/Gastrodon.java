@@ -59,7 +59,7 @@ import java.util.*;
 public class Gastrodon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gastrodon(int dex) {
         super(dex, "Gastrodon",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

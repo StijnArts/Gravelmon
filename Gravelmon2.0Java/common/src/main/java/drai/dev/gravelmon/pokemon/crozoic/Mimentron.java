@@ -59,7 +59,7 @@ import java.util.*;
 public class Mimentron extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mimentron() {
         super("Mimentron",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(60,
                         85,
                         50,
@@ -92,9 +92,8 @@ public class Mimentron extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOLLOW_ME,"tm")                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 29, 46, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

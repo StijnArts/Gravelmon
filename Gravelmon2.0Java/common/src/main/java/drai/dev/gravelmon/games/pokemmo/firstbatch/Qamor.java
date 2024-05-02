@@ -124,8 +124,7 @@ public class Qamor extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Ancaleana());
         pokemon.add(new Belublebug());
 //        pokemon.add(new Wibble()); Members of line not finished
-        pokemon.add(new Norsery(new Stats(345, StatArchetype.FAST_SUPPORT,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_DEFENCE))));
+        pokemon.add(new Norsery(new Stats(345, StatArchetype.FAST_SUPPORT, List.of(StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Forflush());
         pokemon.add(new Sycelium());
         pokemon.add(new Cerecybim());

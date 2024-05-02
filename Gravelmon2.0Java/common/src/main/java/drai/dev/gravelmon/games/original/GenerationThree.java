@@ -68,11 +68,11 @@ public class GenerationThree extends Game {
         pokemon.add(new QamoranGrumpig(326));
 
         pokemon.add(new NorheimanMasquerain(284, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(Stats.StatType.HP))));
+                List.of(StatType.HP))));
         pokemon.add(new NorheimanWailmer(320));
         pokemon.add(new NorheimanNumel(322));
         pokemon.add(new NorheimanCorphish(341));
-        pokemon.add(new NorheimanCrawdaunt(342, new Stats(468, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(Stats.StatType.HP))));
+        pokemon.add(new NorheimanCrawdaunt(342, new Stats(468, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))));
 
         pokemon.add(new VaritasianSwablu(333));
         pokemon.add(new VaritasianAltaria(334));

@@ -59,7 +59,7 @@ import java.util.*;
 public class Trapinch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Trapinch(int dex) {
         super(dex, "Trapinch",
-                Type.BUG,Type.GROUND,
+                Type.BUG, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

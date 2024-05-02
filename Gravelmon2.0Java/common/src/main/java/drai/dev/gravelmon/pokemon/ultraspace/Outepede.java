@@ -59,7 +59,7 @@ import java.util.*;
 public class Outepede extends drai.dev.gravelmon.pokemon.Pokemon {
     public Outepede() {
         super("Outepede",
-                Type.DRAGON,Type.ICE,
+                Type.DRAGON, Type.ICE,
                 new Stats(0,
                         0,
                         0,

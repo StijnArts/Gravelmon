@@ -59,7 +59,7 @@ import java.util.*;
 public class Shellos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Shellos(int dex) {
         super(dex, "Shellos",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,

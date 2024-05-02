@@ -18,7 +18,7 @@ public class Thoriller extends drai.dev.gravelmon.pokemon.Pokemon {
                         40),
                 List.of(Ability.SHIELD_DUST,Ability.ANGER_POINT), Ability.RUN_AWAY,
                 0, 0,
-                new Stats(0,1,0,0,0,0), 0,
+                new Stats(0,1,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brunelectric",
-  "nationalPokedexNumber": 3326,
+  "nationalPokedexNumber": 3369,
   "primaryType": "electric",
   "secondaryType": "steel",
   "abilities": [
@@ -38,7 +38,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,

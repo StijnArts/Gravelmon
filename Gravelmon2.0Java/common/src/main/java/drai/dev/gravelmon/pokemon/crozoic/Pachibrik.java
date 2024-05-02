@@ -59,7 +59,7 @@ import java.util.*;
 public class Pachibrik extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pachibrik() {
         super("Pachibrik",
-                Type.ICE,Type.NORMAL,
+                Type.ICE, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,
@@ -74,7 +74,8 @@ public class Pachibrik extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
                 List.of("By forming and shoveling blocks of ice with its nose, it diligently builds sturdy barriers to protect its herd."),
-                List.of(),
+                List.of(new EvolutionEntry("pachicorn", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PROTECT,1),
                         new MoveLearnSetEntry(Move.CRYSTALDEFENSE,1),
@@ -92,9 +93,8 @@ public class Pachibrik extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULLDOZE,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 32, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

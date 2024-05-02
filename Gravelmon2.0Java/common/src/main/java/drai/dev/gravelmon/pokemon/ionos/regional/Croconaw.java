@@ -59,7 +59,7 @@ import java.util.*;
 public class Croconaw extends drai.dev.gravelmon.pokemon.Pokemon {
     public Croconaw(int dex) {
         super(dex, "Croconaw",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

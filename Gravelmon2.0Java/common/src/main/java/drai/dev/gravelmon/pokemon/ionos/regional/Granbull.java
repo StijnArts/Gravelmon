@@ -59,7 +59,7 @@ import java.util.*;
 public class Granbull extends drai.dev.gravelmon.pokemon.Pokemon {
     public Granbull(int dex) {
         super(dex, "Granbull",
-                Type.FAIRY,Type.DARK,
+                Type.FAIRY, Type.DARK,
                 new Stats(0,
                         0,
                         0,

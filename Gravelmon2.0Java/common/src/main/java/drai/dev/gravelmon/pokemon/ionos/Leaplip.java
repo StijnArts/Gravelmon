@@ -59,7 +59,7 @@ import java.util.*;
 public class Leaplip extends drai.dev.gravelmon.pokemon.Pokemon {
     public Leaplip() {
         super("Leaplip",
-                Type.WATER,Type.FLYING,
+                Type.WATER, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

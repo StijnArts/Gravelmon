@@ -59,7 +59,7 @@ import java.util.*;
 public class Xatu extends drai.dev.gravelmon.pokemon.Pokemon {
     public Xatu(int dex) {
         super(dex, "Xatu",
-                Type.FLYING,Type.GHOST,
+                Type.FLYING, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

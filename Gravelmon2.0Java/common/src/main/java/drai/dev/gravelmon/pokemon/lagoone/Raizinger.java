@@ -59,7 +59,7 @@ import java.util.*;
 public class Raizinger extends drai.dev.gravelmon.pokemon.Pokemon {
     public Raizinger() {
         super("Raizinger",
-                Type.ELECTRIC,Type.WATER,
+                Type.ELECTRIC, Type.WATER,
                 new Stats(50,
                         40,
                         90,

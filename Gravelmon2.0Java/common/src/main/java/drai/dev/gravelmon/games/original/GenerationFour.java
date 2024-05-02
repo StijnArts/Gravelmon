@@ -66,7 +66,7 @@ public class GenerationFour extends Game {
 //        pokemon.add(new NorheimanLuxio(404)); Missing Art
 //        pokemon.add(new NorheimanLuxray(405)); Member of line Not Finished
         pokemon.add(new NorheimanMismagius(429, new Stats(495, StatArchetype.FAST_SPECIAL_WALL,
-                List.of(Stats.StatType.SPECIAL_ATTACK))));
+                List.of(StatType.SPECIAL_ATTACK))));
 
 //        pokemon.add(new VaritasianBonsly(438)); Member of line Not Finished
 //        pokemon.add(new VaritasianMimeJr(439)); Missing Art
@@ -76,7 +76,7 @@ public class GenerationFour extends Game {
         pokemon.add(new InterianPiplup(393));
         pokemon.add(new InterianPrinplup(394));
         pokemon.add(new InterianEmpoleon(395, new Stats(534, StatArchetype.FAST_SPECIAL_WALL,
-                List.of(Stats.StatType.SPECIAL_ATTACK))));
+                List.of(StatType.SPECIAL_ATTACK))));
         pokemon.add(new InterianArceus(493));
 //
         pokemon.add(new HubianTogekiss(468));

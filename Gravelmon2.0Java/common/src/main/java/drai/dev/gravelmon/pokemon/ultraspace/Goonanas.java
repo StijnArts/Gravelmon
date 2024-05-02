@@ -59,7 +59,7 @@ import java.util.*;
 public class Goonanas extends drai.dev.gravelmon.pokemon.Pokemon {
     public Goonanas() {
         super("Goonanas",
-                Type.POISON,Type.GROUND,
+                Type.POISON, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

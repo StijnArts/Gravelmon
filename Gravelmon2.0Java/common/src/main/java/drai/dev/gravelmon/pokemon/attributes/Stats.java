@@ -28,7 +28,7 @@ public class Stats {
         this.speed = (int) (other.speed * factor);
     }
 
-    public Stats(int baseStatTotal, StatArchetype archetype, List<Stats.StatType> preferredStats) {
+    public Stats(int baseStatTotal, StatArchetype archetype, List<StatType> preferredStats) {
         this(new Stats(archetype, preferredStats), baseStatTotal / 600d);
     }
 
@@ -95,6 +95,4 @@ public class Stats {
     public boolean isEmpty() {
         return HP == 0 || attack == 0 || defence == 0 || specialAttack == 0 || specialDefence == 0 || speed == 0;
     }
-
-    public enum StatType {HP, ATTACK, DEFENCE, SPECIAL_ATTACK, SPECIAL_DEFENCE, SPEED}
 }

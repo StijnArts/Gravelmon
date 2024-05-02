@@ -59,7 +59,7 @@ import java.util.*;
 public class Angligh extends drai.dev.gravelmon.pokemon.Pokemon {
     public Angligh() {
         super("Angligh",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

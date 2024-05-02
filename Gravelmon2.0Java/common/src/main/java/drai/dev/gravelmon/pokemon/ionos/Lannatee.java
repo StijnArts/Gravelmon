@@ -59,7 +59,7 @@ import java.util.*;
 public class Lannatee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lannatee() {
         super("Lannatee",
-                Type.FIRE,Type.FLYING,
+                Type.FIRE, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

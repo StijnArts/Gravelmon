@@ -59,7 +59,7 @@ import java.util.*;
 public class Starena extends drai.dev.gravelmon.pokemon.Pokemon {
     public Starena() {
         super("Starena",
-                Type.GROUND,Type.FIGHTING,
+                Type.GROUND, Type.FIGHTING,
                 new Stats(82,
                         115,
                         105,

@@ -59,7 +59,7 @@ import java.util.*;
 public class Buggisk extends drai.dev.gravelmon.pokemon.Pokemon {
     public Buggisk() {
         super("Buggisk",
-                Type.DARK,Type.WATER,
+                Type.DARK, Type.WATER,
                 new Stats(0,
                         0,
                         0,

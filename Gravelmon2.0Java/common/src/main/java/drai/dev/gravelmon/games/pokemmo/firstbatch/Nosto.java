@@ -78,7 +78,7 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Pepinch());
         pokemon.add(new Torpepo());
         pokemon.add(new Melauncher(new Stats(563, StatArchetype.PHYSICAL_WALL,
-                List.of(Stats.StatType.DEFENCE))));
+                List.of(StatType.DEFENCE))));
         pokemon.add(new Charrat());
         pokemon.add(new Blashrew());
         pokemon.add(new Explodent());
@@ -93,7 +93,7 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Ferasquab());
         pokemon.add(new Streedove());
         pokemon.add(new Urbigeon(new Stats(492, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(Stats.StatType.SPECIAL_ATTACK))));
+                List.of(StatType.SPECIAL_ATTACK))));
         pokemon.add(new Principillar());
         pokemon.add(new Kookoon());
         pokemon.add(new Fluttereign());
@@ -106,16 +106,15 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Melabuzz());
         pokemon.add(new Mieltz());
         pokemon.add(new Mieltzar(new Stats(405, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
-                List.of(Stats.StatType.SPECIAL_DEFENCE))));
+                List.of(StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Budcheep());
         pokemon.add(new Paratweet());
         pokemon.add(new Pinksqueek());
-        pokemon.add(new Pinkaboo(new Stats(425, StatArchetype.BULKY_SUPPORT,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
+        pokemon.add(new Pinkaboo(new Stats(425, StatArchetype.BULKY_SUPPORT, List.of(StatType.SPEED))));
         pokemon.add(new Stalittle());
         pokemon.add(new Sedinane());
         pokemon.add(new Carrauntain(new Stats(501, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER,
-                List.of(Stats.StatType.ATTACK))));
+                List.of(StatType.ATTACK))));
         pokemon.add(new Tuburrow());
         pokemon.add(new Tunnelurm());
         pokemon.add(new Audibat());
@@ -135,8 +134,7 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Metalien());
         pokemon.add(new Lunetal());
         pokemon.add(new Galextrial());
-        pokemon.add(new Shrimpond(new Stats(312, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
+        pokemon.add(new Shrimpond(new Stats(312, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         pokemon.add(new Pekaboo());
         pokemon.add(new Pitohood());
         pokemon.add(new Aviafel());
@@ -147,14 +145,12 @@ public class Nosto extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Visiangel());
         pokemon.add(new Marshun());
         pokemon.add(new Brailien());
-        pokemon.add(new Cereboost(new Stats(567, StatArchetype.BULKY_SPECIAL_ATTACKER,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
+        pokemon.add(new Cereboost(new Stats(567, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         pokemon.add(new Pix());
         pokemon.add(new PixE());
         pokemon.add(new PixL());
         pokemon.add(new Twinkluppy());
-        pokemon.add(new Notillunar(new Stats(421, StatArchetype.FAST_SUPPORT,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
+        pokemon.add(new Notillunar(new Stats(421, StatArchetype.FAST_SUPPORT, List.of(StatType.SPEED))));
 //        pokemon.add(new dog());Member of line Not Finished
         pokemon.add(new Rosinella());
         pokemon.add(new Sinsenella());

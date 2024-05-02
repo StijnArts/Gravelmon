@@ -59,7 +59,7 @@ import java.util.*;
 public class Aylien extends drai.dev.gravelmon.pokemon.Pokemon {
     public Aylien() {
         super("Aylien",
-                Type.GHOST,Type.NORMAL,
+                Type.GHOST, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

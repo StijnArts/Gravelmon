@@ -59,7 +59,7 @@ import java.util.*;
 public class Barbaris extends drai.dev.gravelmon.pokemon.Pokemon {
     public Barbaris() {
         super("Barbaris",
-                Type.STEEL,Type.NORMAL,
+                Type.STEEL, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,

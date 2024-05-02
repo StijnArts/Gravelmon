@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "torpepo",
-  "nationalPokedexNumber": 3490,
+  "nationalPokedexNumber": 3533,
   "primaryType": "grass",
   "abilities": [
     "overgrow",
@@ -37,7 +37,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,

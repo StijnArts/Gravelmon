@@ -59,7 +59,7 @@ import java.util.*;
 public class Chantabrute extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chantabrute() {
         super("Chantabrute",
-                Type.STEEL,Type.POISON,
+                Type.STEEL, Type.POISON,
                 new Stats(75,
                         92,
                         87,

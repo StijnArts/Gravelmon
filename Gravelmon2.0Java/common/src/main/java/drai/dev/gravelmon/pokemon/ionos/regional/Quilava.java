@@ -59,7 +59,7 @@ import java.util.*;
 public class Quilava extends drai.dev.gravelmon.pokemon.Pokemon {
     public Quilava(int dex) {
         super(dex, "Quilava",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,
                         0,

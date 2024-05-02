@@ -74,7 +74,8 @@ public class Stunge extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_3,EggGroup.AMORPHOUS),
                 List.of("At the slightest hint of danger, it expunges all of the stored liquid in its body, causing its venomous spines to shoot outward in all directions."),
-                List.of(),
+                List.of(new EvolutionEntry("bristilt", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.PIN_MISSILE,1),
                         new MoveLearnSetEntry(Move.SOAKUP,1),
@@ -91,13 +92,15 @@ public class Stunge extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC_SPIKES,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.RARE, 13, 32, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Stunge");
 
     }

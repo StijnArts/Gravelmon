@@ -59,7 +59,7 @@ import java.util.*;
 public class Cerbenos extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cerbenos() {
         super("Cerbenos",
-                Type.FIRE,Type.STEEL,
+                Type.FIRE, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

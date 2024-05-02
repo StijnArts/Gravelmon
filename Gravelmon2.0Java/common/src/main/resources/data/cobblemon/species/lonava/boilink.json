@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boilink",
-  "nationalPokedexNumber": 3310,
+  "nationalPokedexNumber": 3353,
   "primaryType": "fire",
   "abilities": [
     "keeneye",
@@ -37,7 +37,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 70,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,

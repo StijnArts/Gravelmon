@@ -16,7 +16,7 @@ public class Torpepo extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.OVERGROW), Ability.MEGA_LAUNCHER,
                 12, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,

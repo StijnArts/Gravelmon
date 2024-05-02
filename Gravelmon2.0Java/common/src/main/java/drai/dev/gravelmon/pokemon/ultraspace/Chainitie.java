@@ -59,7 +59,7 @@ import java.util.*;
 public class Chainitie extends drai.dev.gravelmon.pokemon.Pokemon {
     public Chainitie() {
         super("Chainitie",
-                Type.GHOST,Type.STEEL,
+                Type.GHOST, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

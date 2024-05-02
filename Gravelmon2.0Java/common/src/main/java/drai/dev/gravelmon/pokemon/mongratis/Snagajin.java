@@ -8,7 +8,7 @@ import java.util.*;
 public class Snagajin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Snagajin() {
         super("Snagajin",
-                Type.DRAGON,Type.GHOST,
+                Type.DRAGON, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

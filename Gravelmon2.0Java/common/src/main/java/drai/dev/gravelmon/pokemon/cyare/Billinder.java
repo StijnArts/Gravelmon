@@ -59,7 +59,7 @@ import java.util.*;
 public class Billinder extends drai.dev.gravelmon.pokemon.Pokemon {
     public Billinder() {
         super("Billinder",
-                Type.ICE,Type.PSYCHIC,
+                Type.ICE, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

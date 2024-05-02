@@ -74,12 +74,12 @@ public class GenerationOne extends Game {
         pokemon.add(new NorheimanRattata(19));
         pokemon.add(new NorheimanDiglett(50));
         pokemon.add(new NorheimanDugtrio(51, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(Stats.StatType.SPEED))));
+                List.of(StatType.SPEED))));
         pokemon.add(new NorheimanSeel(86));
         pokemon.add(new NorheimanShellder(90));
         pokemon.add(new NorheimanVoltorb(100));
         pokemon.add(new NorheimanElectrode(101, new Stats(490, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(Stats.StatType.HP))));
+                List.of(StatType.HP))));
         pokemon.add(new NorheimanSeadra(117));
         pokemon.add(new NorheimanDitto(132));
         pokemon.add(new NorheimanDragonair(148));

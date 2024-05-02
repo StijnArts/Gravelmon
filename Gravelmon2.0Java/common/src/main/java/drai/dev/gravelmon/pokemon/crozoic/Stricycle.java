@@ -59,7 +59,7 @@ import java.util.*;
 public class Stricycle extends drai.dev.gravelmon.pokemon.Pokemon {
     public Stricycle() {
         super("Stricycle",
-                Type.ELECTRIC,Type.NORMAL,
+                Type.ELECTRIC, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,
@@ -73,8 +73,9 @@ public class Stricycle extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD,EggGroup.FLYING),
-                List.of("Based on: Ornithomimus"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("mimentron", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))),
                 List.of(
                         new MoveLearnSetEntry(Move.SAND_ATTACK,1),
                         new MoveLearnSetEntry(Move.AGILITY,1),
@@ -91,9 +92,8 @@ public class Stricycle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOLLOW_ME,"tm")                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 32, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

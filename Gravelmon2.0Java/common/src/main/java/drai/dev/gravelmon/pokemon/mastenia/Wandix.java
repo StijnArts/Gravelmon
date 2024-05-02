@@ -59,7 +59,7 @@ import java.util.*;
 public class Wandix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Wandix() {
         super("Wandix",
-                Type.ROCK,Type.DRAGON,
+                Type.ROCK, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

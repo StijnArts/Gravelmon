@@ -59,7 +59,7 @@ import java.util.*;
 public class Steadix extends drai.dev.gravelmon.pokemon.Pokemon {
     public Steadix() {
         super("Steadix",
-                Type.STEEL,Type.DRAGON,
+                Type.STEEL, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

@@ -59,7 +59,7 @@ import java.util.*;
 public class Tranoler extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tranoler() {
         super("Tranoler",
-                Type.ELECTRIC,Type.PSYCHIC,
+                Type.ELECTRIC, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

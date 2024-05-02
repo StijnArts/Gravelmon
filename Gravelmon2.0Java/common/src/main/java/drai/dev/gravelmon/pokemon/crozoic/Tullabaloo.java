@@ -59,7 +59,7 @@ import java.util.*;
 public class Tullabaloo extends drai.dev.gravelmon.pokemon.Pokemon {
     public Tullabaloo() {
         super("Tullabaloo",
-                Type.PSYCHIC,Type.POISON,
+                Type.PSYCHIC, Type.POISON,
                 new Stats(0,
                         0,
                         0,

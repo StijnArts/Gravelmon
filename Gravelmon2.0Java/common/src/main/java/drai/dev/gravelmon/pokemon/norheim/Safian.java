@@ -59,7 +59,7 @@ import java.util.*;
 public class Safian extends drai.dev.gravelmon.pokemon.Pokemon {
     public Safian() {
         super("Safian",
-                Type.GHOST,Type.FAIRY,
+                Type.GHOST, Type.FAIRY,
                 new Stats(140,
                         50,
                         80,

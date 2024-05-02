@@ -59,7 +59,7 @@ import java.util.*;
 public class Cyndaquil extends drai.dev.gravelmon.pokemon.Pokemon {
     public Cyndaquil(int dex) {
         super(dex, "Cyndaquil",
-                Type.FIRE,Type.POISON,
+                Type.FIRE, Type.POISON,
                 new Stats(0,
                         0,
                         0,

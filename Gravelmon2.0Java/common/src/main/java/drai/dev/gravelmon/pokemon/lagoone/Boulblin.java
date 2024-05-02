@@ -59,7 +59,7 @@ import java.util.*;
 public class Boulblin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Boulblin() {
         super("Boulblin",
-                Type.ROCK,Type.GROUND,
+                Type.ROCK, Type.GROUND,
                 new Stats(75,
                         112,
                         62,

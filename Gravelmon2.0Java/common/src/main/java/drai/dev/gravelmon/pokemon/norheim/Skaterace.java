@@ -59,7 +59,7 @@ import java.util.*;
 public class Skaterace extends drai.dev.gravelmon.pokemon.Pokemon {
     public Skaterace() {
         super("Skaterace",
-                Type.PSYCHIC,Type.STEEL,
+                Type.PSYCHIC, Type.STEEL,
                 new Stats(70,
                         115,
                         85,

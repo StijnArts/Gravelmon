@@ -59,7 +59,7 @@ import java.util.*;
 public class Hypno extends drai.dev.gravelmon.pokemon.Pokemon {
     public Hypno(int dex) {
         super(dex, "Hypno",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

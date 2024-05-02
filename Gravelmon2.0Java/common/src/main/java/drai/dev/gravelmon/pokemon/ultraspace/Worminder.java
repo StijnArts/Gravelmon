@@ -59,7 +59,7 @@ import java.util.*;
 public class Worminder extends drai.dev.gravelmon.pokemon.Pokemon {
     public Worminder() {
         super("Worminder",
-                Type.PSYCHIC,Type.BUG,
+                Type.PSYCHIC, Type.BUG,
                 new Stats(0,
                         0,
                         0,

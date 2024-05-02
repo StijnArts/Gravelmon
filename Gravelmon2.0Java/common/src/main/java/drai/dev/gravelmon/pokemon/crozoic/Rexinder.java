@@ -73,8 +73,9 @@ public class Rexinder extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.DRAGON),
-                List.of("Based on: Tarbosaurus"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("tarboraze", EvolutionType.ITEM_INTERACT, false, List.of(),
+                        List.of(),List.of(),"cobblemon:fire_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.NOBLE_ROAR,1),
                         new MoveLearnSetEntry(Move.OUTRAGE,1),
@@ -87,9 +88,8 @@ public class Rexinder extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRUNCH,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 32, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS, Biome.IS_VOLCANIC, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

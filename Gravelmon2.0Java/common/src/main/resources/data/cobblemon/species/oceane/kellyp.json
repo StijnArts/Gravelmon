@@ -9,12 +9,12 @@
     "h:keeneye"
   ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 49,
+    "attack": 75,
+    "defence": 52,
+    "special_attack": 26,
+    "special_defence": 52,
+    "speed": 89
   },
   "behaviour": {
     "resting": {
@@ -69,9 +69,9 @@
   ],
   "evolutions": [
     {
-      "id": "kellyp_bulbasaur",
+      "id": "kellyp_ferrush",
       "variant": "level_up",
-      "result": "bulbasaur",
+      "result": "ferrush",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

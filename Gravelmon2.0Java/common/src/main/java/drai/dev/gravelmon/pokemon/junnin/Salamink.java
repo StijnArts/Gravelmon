@@ -20,7 +20,7 @@ public class Salamink extends drai.dev.gravelmon.pokemon.Pokemon {
                         87),
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 14, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 70,
                 0.5,
                 0, ExperienceGroup.FLUCTUATING,
                 70,

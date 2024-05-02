@@ -59,7 +59,7 @@ import java.util.*;
 public class Jynx extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jynx(int dex) {
         super(dex, "Jynx",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

@@ -59,7 +59,7 @@ import java.util.*;
 public class Protovin extends drai.dev.gravelmon.pokemon.Pokemon {
     public Protovin() {
         super("Protovin",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

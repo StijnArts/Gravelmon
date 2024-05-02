@@ -59,7 +59,7 @@ import java.util.*;
 public class Jewereel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Jewereel() {
         super("Jewereel",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(0,
                         0,
                         0,

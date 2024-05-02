@@ -8,7 +8,7 @@ import java.util.*;
 public class Anepunch extends drai.dev.gravelmon.pokemon.Pokemon {
     public Anepunch() {
         super("Anenemy",
-                Type.POISON,Type.FIGHTING,
+                Type.POISON, Type.FIGHTING,
                 new Stats(50,
                         50,
                         60,

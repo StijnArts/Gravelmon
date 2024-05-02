@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "threemasune",
-  "nationalPokedexNumber": 3343,
+  "nationalPokedexNumber": 3386,
   "primaryType": "ground",
   "abilities": [
     "keeneye",
@@ -37,7 +37,7 @@
         }
     }
   },
-  "catchRate": 0,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "baseExperienceYield": 60,

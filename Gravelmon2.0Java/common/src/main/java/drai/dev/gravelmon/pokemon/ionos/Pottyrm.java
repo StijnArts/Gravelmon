@@ -59,7 +59,7 @@ import java.util.*;
 public class Pottyrm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pottyrm() {
         super("Pottyrm",
-                Type.DRAGON,Type.FAIRY,
+                Type.DRAGON, Type.FAIRY,
                 new Stats(0,
                         0,
                         0,

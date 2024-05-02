@@ -59,7 +59,7 @@ import java.util.*;
 public class Gloomineon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Gloomineon() {
         super("Gloomineon",
-                Type.GHOST,Type.FLYING,
+                Type.GHOST, Type.FLYING,
                 new Stats(89,
                         89,
                         76,

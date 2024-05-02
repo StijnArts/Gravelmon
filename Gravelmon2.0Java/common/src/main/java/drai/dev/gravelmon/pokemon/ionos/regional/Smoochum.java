@@ -59,7 +59,7 @@ import java.util.*;
 public class Smoochum extends drai.dev.gravelmon.pokemon.Pokemon {
     public Smoochum(int dex) {
         super(dex, "Smoochum",
-                Type.WATER,Type.PSYCHIC,
+                Type.WATER, Type.PSYCHIC,
                 new Stats(0,
                         0,
                         0,

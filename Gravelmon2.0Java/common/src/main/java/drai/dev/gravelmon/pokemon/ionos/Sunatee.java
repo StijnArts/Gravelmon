@@ -59,7 +59,7 @@ import java.util.*;
 public class Sunatee extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sunatee() {
         super("Sunatee",
-                Type.FIRE,Type.ELECTRIC,
+                Type.FIRE, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

@@ -59,7 +59,7 @@ import java.util.*;
 public class Relido extends drai.dev.gravelmon.pokemon.Pokemon {
     public Relido() {
         super("919588",
-                Type.WATER,Type.ROCK,
+                Type.WATER, Type.ROCK,
                 new Stats(0,
                         0,
                         0,

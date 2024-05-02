@@ -59,7 +59,7 @@ import java.util.*;
 public class Kaidalope extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kaidalope() {
         super("Kaidalope",
-                Type.FIRE,Type.FIGHTING,
+                Type.FIRE, Type.FIGHTING,
                 new Stats(0,
                         0,
                         0,

@@ -2,6 +2,9 @@ package drai.dev.gravelmon.games.pokemmo.secondbatch;
 
 
 import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+
+import java.util.*;
 
 public class Amavi extends drai.dev.gravelmon.games.registry.Game {
     public Amavi() {
@@ -52,8 +55,8 @@ public class Amavi extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Chimagma());
         pokemon.add(new Dazee());
         pokemon.add(new Mesmerilla());
-//        pokemon.add(new Cooclock());   Missing Stats
-//        pokemon.add(new Grandowl()); Member of line Not Finished
+        pokemon.add(new Cooclock());
+        pokemon.add(new Grandowl());
         pokemon.add(new Santler());
         pokemon.add(new Eternelk());
         pokemon.add(new Novisect());
@@ -91,8 +94,8 @@ public class Amavi extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Presto());
         pokemon.add(new Kirashibi());
         pokemon.add(new Girashibi());
-//        pokemon.add(new Twiskers());   Missing Stats
-//        pokemon.add(new Rotarat()); Member of line Not Finished
+        pokemon.add(new Twiskers());
+        pokemon.add(new Rotarat());
 //        pokemon.add(new Bellicalf());   Missing Art
 //        pokemon.add(new Bullicose());   Missing Art
 //        pokemon.add(new Shifawn());   Missing Art
@@ -102,13 +105,13 @@ public class Amavi extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Shreadly());
         pokemon.add(new Shilver());
         pokemon.add(new Slushound());
-//        pokemon.add(new Auburnt());   Missing Stats
-//        pokemon.add(new Pyrote());Member of line Not Finished
+        pokemon.add(new Auburnt());
+        pokemon.add(new Pyrote());
         pokemon.add(new Voodol());
         pokemon.add(new Slendurn());
-//        pokemon.add(new Arident());   Missing Stats
-//        pokemon.add(new Gorock());   Missing Stats
-//        pokemon.add(new Ivorage());Member of line Not Finished
+        pokemon.add(new Arident());
+        pokemon.add(new Gorock());
+        pokemon.add(new Ivorage());
         pokemon.add(new Skitterth());
         pokemon.add(new Scaveach());
         pokemon.add(new Chassel());
@@ -190,9 +193,9 @@ public class Amavi extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Molit());
         pokemon.add(new Luminose());
         pokemon.add(new Damsleros());
-//        pokemon.add(new Ribbidi());   Missing Stats
-//        pokemon.add(new Froggidi());   Missing Stats
-//        pokemon.add(new Bogidiboo());Member of line Not Finished
+        pokemon.add(new Ribbidi());
+        pokemon.add(new Froggidi());
+        pokemon.add(new Bogidiboo());
         pokemon.add(new Vampint());
         pokemon.add(new Vasquito());
         pokemon.add(new Mosveratu());
@@ -206,9 +209,9 @@ public class Amavi extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Pupanel());
         pokemon.add(new Prismarch());
         pokemon.add(new Magester());
-//        pokemon.add(new Bornith());Member of line Not Finished
-//        pokemon.add(new Nurstork());Member of line Not Finished
-//        pokemon.add(new Stilbird());   Missing Stats
+        pokemon.add(new Bornith());
+        pokemon.add(new Nurstork());
+        pokemon.add(new Stilbird(new Stats(500, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
 //        pokemon.add(new Frooroot());Member of line Not Finished
 //        pokemon.add(new Harrot());Member of line Not Finished
 //        pokemon.add(new Agrarrior());   Missing Art

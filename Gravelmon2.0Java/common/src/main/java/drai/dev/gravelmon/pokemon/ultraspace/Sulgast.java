@@ -59,7 +59,7 @@ import java.util.*;
 public class Sulgast extends drai.dev.gravelmon.pokemon.Pokemon {
     public Sulgast() {
         super("Sulgast",
-                Type.DARK,Type.GHOST,
+                Type.DARK, Type.GHOST,
                 new Stats(0,
                         0,
                         0,

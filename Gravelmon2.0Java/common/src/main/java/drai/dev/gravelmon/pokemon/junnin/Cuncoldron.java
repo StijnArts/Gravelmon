@@ -20,7 +20,7 @@ public class Cuncoldron extends drai.dev.gravelmon.pokemon.Pokemon {
                         45),
                 List.of(Ability.AFTERMATH), Ability.AFTERMATH,
                 14, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.SLOW,
                 70,

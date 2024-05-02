@@ -59,7 +59,7 @@ import java.util.*;
 public class Pikoral extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pikoral() {
         super("Pikoral",
-                Type.WATER,Type.POISON,
+                Type.WATER, Type.POISON,
                 new Stats(0,
                         0,
                         0,
@@ -74,7 +74,8 @@ public class Pikoral extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_2),
                 List.of("It's teamed up with a kind of stinging coral. The coral allows it to hide among the reef, as well as attack predators when it's in danger."),
-                List.of(),
+                List.of(new EvolutionEntry("crestoral", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"26")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CORAL_BREAK,1),
                         new MoveLearnSetEntry(Move.POISONDART,1),
@@ -130,13 +131,16 @@ public class Pikoral extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SUBMERGED, SpawnPool.RARE, 12, 32, 7, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Pikoral");
 
     }

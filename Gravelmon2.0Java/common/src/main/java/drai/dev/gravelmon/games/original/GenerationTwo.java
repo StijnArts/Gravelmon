@@ -83,8 +83,7 @@ public class GenerationTwo extends Game {
         pokemon.add(new HizianMisdreavus(200));
 
         pokemon.add(new NorheimanUnown(201));
-        pokemon.add(new NorheimanForretress(205, new Stats(465, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.HP))));
+        pokemon.add(new NorheimanForretress(205, new Stats(465, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))));
         pokemon.add(new NorheimanHoundour(228));
 
         //Aristosian

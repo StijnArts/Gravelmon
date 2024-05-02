@@ -25,8 +25,7 @@ public class GenerationSeven extends Game {
         pokemon.add(new QamoranSandygast(769));
 
         pokemon.add(new NostanMorelull(755));
-        pokemon.add(new NostanShiinotic(756, new Stats(405, StatArchetype.SPECIAL_WALL,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
+        pokemon.add(new NostanShiinotic(756, new Stats(405, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
 
         pokemon.add(new VaritasianBounsweet(761));
         pokemon.add(new VaritasianSteenee(762));

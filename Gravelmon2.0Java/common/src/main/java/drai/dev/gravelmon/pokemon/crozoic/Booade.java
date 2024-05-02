@@ -59,7 +59,7 @@ import java.util.*;
 public class Booade extends drai.dev.gravelmon.pokemon.Pokemon {
     public Booade() {
         super("Booade",
-                Type.GHOST,Type.NORMAL,
+                Type.GHOST, Type.NORMAL,
                 new Stats(0,
                         0,
                         0,
@@ -73,8 +73,9 @@ public class Booade extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS,EggGroup.MONSTER),
-                List.of("Based on: Those rubber monster finger puppets!"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("fauxnidon", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FACADE,1),
                         new MoveLearnSetEntry(Move.SHED_TAIL,1),
@@ -90,9 +91,8 @@ public class Booade extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SHADOW_PUNCH,1)                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 32, 2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

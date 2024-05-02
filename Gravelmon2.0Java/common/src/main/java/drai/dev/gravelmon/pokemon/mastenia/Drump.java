@@ -59,7 +59,7 @@ import java.util.*;
 public class Drump extends drai.dev.gravelmon.pokemon.Pokemon {
     public Drump() {
         super("Drump",
-                Type.DRAGON,Type.ELECTRIC,
+                Type.DRAGON, Type.ELECTRIC,
                 new Stats(0,
                         0,
                         0,

@@ -287,8 +287,6 @@ public class Pokemon {
         for (var pokemon : sortedPokemonList) {
             if (pokemon.getCatchRate() == 0)
                 pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
-            if (pokemon.getStats().isEmpty())
-                pokemonWithZeroBaseStats.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
             if(pokemon.spawnPresets.size()>1){
                 pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ")
                         .append(pokemon.getCleanName()).append(", being: ");
@@ -404,7 +402,11 @@ public class Pokemon {
             if(pokemon.baseExperienceYield == 0){
                 pokemon.baseExperienceYield = 512/(pokemon.stats.getHP()/255);
             }
+            if(pokemon.stats.isEmpty()){
+                pokemonWithZeroBaseStats.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
+            }
         }
+        System.out.println(pokemonWithZeroBaseStats);
 
     }
 

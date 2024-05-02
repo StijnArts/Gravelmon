@@ -59,7 +59,7 @@ import java.util.*;
 public class Druddigon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Druddigon(int dex) {
         super(dex, "Druddigon",
-                Type.DRAGON,Type.GROUND,
+                Type.DRAGON, Type.GROUND,
                 new Stats(0,
                         0,
                         0,

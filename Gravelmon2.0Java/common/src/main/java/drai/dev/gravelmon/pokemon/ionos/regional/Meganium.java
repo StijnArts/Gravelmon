@@ -59,7 +59,7 @@ import java.util.*;
 public class Meganium extends drai.dev.gravelmon.pokemon.Pokemon {
     public Meganium(int dex) {
         super(dex, "Meganium",
-                Type.GRASS,Type.DARK,
+                Type.GRASS, Type.DARK,
                 new Stats(0,
                         0,
                         0,

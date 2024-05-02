@@ -59,7 +59,7 @@ import java.util.*;
 public class Pharumm extends drai.dev.gravelmon.pokemon.Pokemon {
     public Pharumm() {
         super("Pharumm",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(60,
                         90,
                         65,

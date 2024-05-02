@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "brainibash-1",
+      "pokemon": "brainibash",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-26",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_badlands",
+"#cobblemon:is_lush" ]
+      }
+    }
+  ]
+}

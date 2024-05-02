@@ -59,7 +59,7 @@ import java.util.*;
 public class Kitiary extends drai.dev.gravelmon.pokemon.Pokemon {
     public Kitiary() {
         super("Kitiary",
-                Type.NORMAL,Type.FLYING,
+                Type.NORMAL, Type.FLYING,
                 new Stats(0,
                         0,
                         0,

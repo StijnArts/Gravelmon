@@ -59,7 +59,7 @@ import java.util.*;
 public class Clankeel extends drai.dev.gravelmon.pokemon.Pokemon {
     public Clankeel() {
         super("Clankeel",
-                Type.WATER,Type.STEEL,
+                Type.WATER, Type.STEEL,
                 new Stats(70,
                         100,
                         130,

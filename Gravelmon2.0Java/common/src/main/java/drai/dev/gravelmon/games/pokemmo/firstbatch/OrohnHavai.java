@@ -143,7 +143,7 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Pebblent());
         pokemon.add(new Rocroset());
         pokemon.add(new Granderosa(new Stats(512, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
-                List.of(Stats.StatType.DEFENCE))));
+                List.of(StatType.DEFENCE))));
         pokemon.add(new Reefermal());
         pokemon.add(new Veilvid());
         pokemon.add(new Brambarb());
@@ -184,17 +184,14 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Wreckasaur());
         pokemon.add(new Arrocknid());
         pokemon.add(new Exoroknid());
-        pokemon.add(new Kragodon(new Stats(415, StatArchetype.PHYSICAL_WALL,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.HP))));
+        pokemon.add(new Kragodon(new Stats(415, StatArchetype.PHYSICAL_WALL, List.of(StatType.HP))));
         pokemon.add(new Therasloth());
         pokemon.add(new Slotherror());
-        pokemon.add(new Pitopyre(new Stats(378, StatArchetype.SPECIAL_ATTACKER,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
+        pokemon.add(new Pitopyre(new Stats(378, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         pokemon.add(new Wooble());
         pokemon.add(new Snowool());
         pokemon.add(new Shiveram());
-        pokemon.add(new Burnuki(new Stats(388, StatArchetype.SPECIAL_ATTACKER,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
+        pokemon.add(new Burnuki(new Stats(388, StatArchetype.SPECIAL_ATTACKER, List.of(StatType.SPEED))));
         pokemon.add(new Turtelisk());
         pokemon.add(new Karaggon());
         pokemon.add(new Akrovern());
@@ -208,8 +205,7 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Purswayer());
         pokemon.add(new Fortibal());
         pokemon.add(new Armodieval());
-        pokemon.add(new Chillimp(new Stats(345, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_DEFENCE))));
+        pokemon.add(new Chillimp(new Stats(345, StatArchetype.FAST_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Pinxie());
         pokemon.add(new Cosminx());
 //        pokemon.add(new Konchore()); Missing Stats
@@ -231,8 +227,7 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Trillowee());
 
         pokemon.add(new Oreglyph());
-        pokemon.add(new Geoglyphic(new Stats(476, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_DEFENCE))));
+        pokemon.add(new Geoglyphic(new Stats(476, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
 //        pokemon.add(new Eskiflurr()); Missing art
         pokemon.add(new Tasticky());
         pokemon.add(new Tadapt());
@@ -253,8 +248,7 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Polighoul()); Missing art
         pokemon.add(new Alpheon());
         pokemon.add(new Eveon());
-        pokemon.add(new Tekichu(new Stats(410, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
-                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_DEFENCE))));
+        pokemon.add(new Tekichu(new Stats(410, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Finray());
         pokemon.add(new Ogoprowl());
         pokemon.add(new Sephysar());

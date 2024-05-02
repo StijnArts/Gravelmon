@@ -62,11 +62,14 @@
     "62:leafstorm"  ],
   "labels": [
     "oceane",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ferrush.desc"
   ],
+  "preEvolution": "kellyp",
   "baseScale": 0.45,
   "hitbox": {
     "width": 6.0,

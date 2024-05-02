@@ -59,7 +59,7 @@ import java.util.*;
 public class Scubargon extends drai.dev.gravelmon.pokemon.Pokemon {
     public Scubargon() {
         super("Scubargon",
-                Type.WATER,Type.DRAGON,
+                Type.WATER, Type.DRAGON,
                 new Stats(0,
                         0,
                         0,

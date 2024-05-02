@@ -73,9 +73,19 @@ public class Razaury extends drai.dev.gravelmon.pokemon.Pokemon {
                 0, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MONSTER,EggGroup.FIELD),
-                List.of("Based on: Beipiaosaurus"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("therislash", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM,"\"cobblemon:razor_claw\"")))),
                 List.of(
+                        new MoveLearnSetEntry(Move.NIGHT_SLASH,1),
+                        new MoveLearnSetEntry(Move.CROSS_CHOP,1),
+                        new MoveLearnSetEntry(Move.AERIAL_ACE,1),
+                        new MoveLearnSetEntry(Move.SLASH,1),
+                        new MoveLearnSetEntry(Move.FURY_SWIPES,1),
+                        new MoveLearnSetEntry(Move.XSCISSOR,1),
+                        new MoveLearnSetEntry(Move.HONE_CLAWS,1),
+                        new MoveLearnSetEntry(Move.BELLY_DRUM,1),
+                        new MoveLearnSetEntry(Move.FURY_CUTTER,1),
                         new MoveLearnSetEntry(Move.AERIAL_ACE,"tm"),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.BIDE,"tm"),
@@ -123,9 +133,8 @@ public class Razaury extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.XSCISSOR,"tm")                        ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 13, 43, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUSH, Biome.IS_JUNGLE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

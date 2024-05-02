@@ -59,7 +59,7 @@ import java.util.*;
 public class Mumby extends drai.dev.gravelmon.pokemon.Pokemon {
     public Mumby() {
         super("Mumby",
-                Type.GHOST,Type.GROUND,
+                Type.GHOST, Type.GROUND,
                 new Stats(30,
                         50,
                         44,

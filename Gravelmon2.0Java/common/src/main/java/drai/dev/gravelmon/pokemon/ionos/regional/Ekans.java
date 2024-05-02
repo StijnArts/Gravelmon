@@ -59,7 +59,7 @@ import java.util.*;
 public class Ekans extends drai.dev.gravelmon.pokemon.Pokemon {
     public Ekans(int dex) {
         super(dex, "Ekans",
-                Type.POISON,Type.DARK,
+                Type.POISON, Type.DARK,
                 new Stats(0,
                         0,
                         0,

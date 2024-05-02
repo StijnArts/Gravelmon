@@ -59,7 +59,7 @@ import java.util.*;
 public class Surveilant extends drai.dev.gravelmon.pokemon.Pokemon {
     public Surveilant() {
         super("Surveilant",
-                Type.BUG,Type.FIRE,
+                Type.BUG, Type.FIRE,
                 new Stats(0,
                         0,
                         0,
@@ -74,13 +74,15 @@ public class Surveilant extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.BUG),
                 List.of("Using a string of silk, it hangs from the branches of trees claimed by Hellantern, staking out for potential threats. These trees are considered extremely dangerous to trespass near."),
-                List.of(),
-                List.of(                        ),
+                List.of(new EvolutionEntry("Hellantern", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
+                List.of(
+                        new MoveLearnSetEntry(Move.HARDEN,1)
+                ),
                 List.of(Label.CROZOIC),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 15, 25, 1.4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_LUSH))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -59,7 +59,7 @@ import java.util.*;
 public class Moschievous extends drai.dev.gravelmon.pokemon.Pokemon {
     public Moschievous() {
         super("Moschievous",
-                Type.GHOST,Type.GRASS,
+                Type.GHOST, Type.GRASS,
                 new Stats(0,
                         0,
                         0,

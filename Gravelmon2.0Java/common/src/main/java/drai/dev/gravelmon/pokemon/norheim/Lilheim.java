@@ -59,7 +59,7 @@ import java.util.*;
 public class Lilheim extends drai.dev.gravelmon.pokemon.Pokemon {
     public Lilheim() {
         super("Lilheim",
-                Type.DRAGON,Type.WATER,
+                Type.DRAGON, Type.WATER,
                 new Stats(0,
                         0,
                         0,

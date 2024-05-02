@@ -59,7 +59,7 @@ import java.util.*;
 public class Fulion extends drai.dev.gravelmon.pokemon.Pokemon {
     public Fulion() {
         super("Fulion",
-                Type.STEEL,Type.FIRE,
+                Type.STEEL, Type.FIRE,
                 new Stats(75,
                         100,
                         100,
