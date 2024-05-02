@@ -53,7 +53,7 @@ public class CefiranDiglett extends Pokemon {
                 ),
                 List.of(Label.GEN1,Label.OPAL),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 25, 2.0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 5, 25, 9.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

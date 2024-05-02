@@ -38,8 +38,7 @@ public class Valecred extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SOLAR_BEAM,46),
                         new MoveLearnSetEntry(Move.HYPER_BEAM,56),
                         new MoveLearnSetEntry(Move.DRACO_METEOR,65)               ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),

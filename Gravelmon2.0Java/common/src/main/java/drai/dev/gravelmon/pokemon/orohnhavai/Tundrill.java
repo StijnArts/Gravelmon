@@ -42,8 +42,7 @@ public class Tundrill extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EARTHQUAKE,38),
                         new MoveLearnSetEntry(Move.SPIKES,42),
                         new MoveLearnSetEntry(Move.BLOCK,47)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 23, 54, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SANDY)),

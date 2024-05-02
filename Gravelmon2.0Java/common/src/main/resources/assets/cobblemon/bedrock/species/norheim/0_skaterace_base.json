@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:skaterace",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:norheim_skaterace",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/skaterace.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/skaterace_shiny.png"
+    }  ]
+}

@@ -43,8 +43,7 @@ public class Armodieval extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.METAL_BURST,52),
                         new MoveLearnSetEntry(Move.SELFDESTRUCT,58),
                         new MoveLearnSetEntry(Move.GYRO_BALL,64)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 63, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS, Biome.IS_MOUNTAIN)),

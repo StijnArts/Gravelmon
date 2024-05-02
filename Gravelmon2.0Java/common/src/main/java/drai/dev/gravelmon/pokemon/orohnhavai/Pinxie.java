@@ -39,8 +39,7 @@ public class Pinxie extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_GEM,43),
                         new MoveLearnSetEntry(Move.WISH,48),
                         new MoveLearnSetEntry(Move.MOONBLAST,54)       ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN, Biome.IS_PLATEAU)),

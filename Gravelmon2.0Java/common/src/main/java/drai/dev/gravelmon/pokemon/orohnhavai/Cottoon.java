@@ -31,8 +31,7 @@ public class Cottoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COTTON_GUARD,7),
                         new MoveLearnSetEntry(Move.COTTON_SPORE,14),
                         new MoveLearnSetEntry(Move.LEECH_SEED,20)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 17, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

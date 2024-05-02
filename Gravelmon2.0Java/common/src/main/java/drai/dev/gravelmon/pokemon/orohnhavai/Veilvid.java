@@ -39,8 +39,7 @@ public class Veilvid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GIGA_DRAIN,40),
                         new MoveLearnSetEntry(Move.WRING_OUT,45),
                         new MoveLearnSetEntry(Move.POWER_WHIP,50)        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 9, 32, 1.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),

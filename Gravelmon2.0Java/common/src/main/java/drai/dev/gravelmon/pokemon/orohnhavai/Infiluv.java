@@ -43,8 +43,7 @@ public class Infiluv extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEALING_WISH,50),
                         new MoveLearnSetEntry(Move.MISTY_EXPLOSION,60)
                 ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),

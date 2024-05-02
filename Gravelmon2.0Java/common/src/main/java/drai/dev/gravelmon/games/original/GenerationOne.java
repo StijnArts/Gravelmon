@@ -2,6 +2,7 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.aristos.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
@@ -26,6 +27,8 @@ import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
+
+import java.util.*;
 
 public class GenerationOne extends Game {
     public GenerationOne() {
@@ -61,7 +64,7 @@ public class GenerationOne extends Game {
         pokemon.add(new QamoranHitmonchan(107));
         pokemon.add(new QamoranKoffing(109));
         pokemon.add(new QamoranWeezing(110));
-//        pokemon.add(new QamoranTangela(114)); Missing Stats
+        pokemon.add(new QamoranTangela(114));
 
         pokemon.add(new NostanDiglett(50));
         pokemon.add(new NostanDugtrio(51));
@@ -69,22 +72,24 @@ public class GenerationOne extends Game {
         pokemon.add(new NostanCloyster(91));
 
         pokemon.add(new NorheimanRattata(19));
-//        pokemon.add(new NorheimanDiglett(50)); Missing Stats
-//        pokemon.add(new NorheimanDugtrio(51)); Missing Stats
-//        pokemon.add(new NorheimanSeel(86)); Missing Stats
+        pokemon.add(new NorheimanDiglett(50));
+        pokemon.add(new NorheimanDugtrio(51, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPEED))));
+        pokemon.add(new NorheimanSeel(86));
         pokemon.add(new NorheimanShellder(90));
-//        pokemon.add(new NorheimanVoltorb(100)); Missing Stats
-//        pokemon.add(new NorheimanElectrode(101)); Missing Stats
+        pokemon.add(new NorheimanVoltorb(100));
+        pokemon.add(new NorheimanElectrode(101, new Stats(490, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.HP))));
         pokemon.add(new NorheimanSeadra(117));
         pokemon.add(new NorheimanDitto(132));
-//        pokemon.add(new NorheimanDragonair(148)); Missing Stats
+        pokemon.add(new NorheimanDragonair(148));
 
-//        pokemon.add(new VaritasianOnix(95)); //Member of line Not Finished
-//        pokemon.add(new VaritasianCubone(104)); //Member of line Not Finished
+//        pokemon.add(new VaritasianOnix(95)); Member of line Not Finished
+//        pokemon.add(new VaritasianCubone(104)); Member of line Not Finished
 //        pokemon.add(new VaritasianMarowak(105)); Missing Art
         pokemon.add(new VaritasianHitmonlee(106));
         pokemon.add(new VaritasianHitmonchan(107));
-//        pokemon.add(new VaritasianHorsea(116)); Missing Stats
+//        pokemon.add(new VaritasianHorsea(116)); Member of line Not Finished
 //        pokemon.add(new VaritasianSeadra(117)); Missing Art
 //        pokemon.add(new VaritasianMrMime(122)); Missing Art
         pokemon.add(new VaritasianPorygon(137));
@@ -105,7 +110,7 @@ public class GenerationOne extends Game {
         pokemon.add(new HizianRhyhorn(111));
         pokemon.add(new HizianRhydon(112));
         pokemon.add(new HizianScyther(123));
-        pokemon.add(new HizianPinsir(123));
+        pokemon.add(new HizianPinsir(127));
 
         pokemon.add(new AristosianBellsprout(69));
         pokemon.add(new AristosianWeepinbell(70));

@@ -51,8 +51,7 @@ public class Alpheon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CAPTIVATE,"tm"),
                         new MoveLearnSetEntry(Move.SYNCHRONOISE,"tm"),
                         new MoveLearnSetEntry(Move.STORED_POWER,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 0.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),

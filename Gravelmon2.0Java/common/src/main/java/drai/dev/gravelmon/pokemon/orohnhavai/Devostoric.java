@@ -48,8 +48,7 @@ public class Devostoric extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AQUA_JET,"tm"),
                         new MoveLearnSetEntry(Move.WIDE_GUARD,"tm"),
                         new MoveLearnSetEntry(Move.ROCK_SMASH,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 33, 56, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),

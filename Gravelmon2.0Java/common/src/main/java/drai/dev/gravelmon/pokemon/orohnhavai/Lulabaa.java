@@ -45,8 +45,7 @@ public class Lulabaa extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,"tm"),
                         new MoveLearnSetEntry(Move.CALM_MIND,"tm"),
                         new MoveLearnSetEntry(Move.HEAL_PULSE,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 24, 43, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),

@@ -1,0 +1,121 @@
+{
+  "implemented": true,
+  "name": "norheimanfoongus",
+  "nationalPokedexNumber": 590,
+  "primaryType": "steel",
+  "secondaryType": "poison",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 52,
+    "attack": 64,
+    "defence": 60,
+    "special_attack": 39,
+    "special_defence": 60,
+    "speed": 31
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:belch",
+    "1:recycle",
+    "1:smog",
+    "1:tackle",
+    "1:leer",
+    "1:clearsmog",
+    "5:poisongas",
+    "10:bite",
+    "14:stomp",
+    "19:mirrorshot",
+    "23:autotomize",
+    "25:crosspoison",
+    "28:bodyslam",
+    "32:ironhead",
+    "37:crunch",
+    "41:toxicspikes",
+    "46:nastyplot",
+    "50:sludgebomb"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.norheimanfoongus.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "norheimanfoongus_Chantarule",
+      "variant": "item_interact",
+      "result": "Chantarule",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:shiny_stone"   
+ },
+    {
+      "id": "norheimanfoongus_Chantabrute",
+      "variant": "item_interact",
+      "result": "Chantabrute",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:dusk_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

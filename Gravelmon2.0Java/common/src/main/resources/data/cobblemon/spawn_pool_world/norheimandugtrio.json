@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "norheimandugtrio-1",
+      "pokemon": "norheimandugtrio",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "26-46",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

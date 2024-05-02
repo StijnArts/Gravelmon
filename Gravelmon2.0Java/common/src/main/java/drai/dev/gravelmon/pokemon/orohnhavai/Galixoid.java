@@ -42,8 +42,7 @@ public class Galixoid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAPID_SPIN,45),
                         new MoveLearnSetEntry(Move.ICICLE_CRASH,51),
                         new MoveLearnSetEntry(Move.METEOR_BEAM,55)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 63, .02, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

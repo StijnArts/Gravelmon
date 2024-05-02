@@ -18,13 +18,14 @@ public class Gloatem extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.INNER_FOCUS,Ability.SAND_SPIT,Ability.SCRAPPY), Ability.SCRAPPY,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 160,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Gloatem usually stand incredibly still, waiting for the target to attack. Its moustache like arms can pack a real swing and punch."),
-                List.of(),
+                List.of(new EvolutionEntry("aydoliman", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"35")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FOCUS_ENERGY,1),
                         new MoveLearnSetEntry(Move.AFTER_YOU,8),
@@ -35,14 +36,15 @@ public class Gloatem extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AMNESIA,35),
                         new MoveLearnSetEntry(Move.REVERSAL,40),
                         new MoveLearnSetEntry(Move.FOCUS_PUNCH,45),
-                        new MoveLearnSetEntry(Move.EARTH_POWER,55)                        ),
+                        new MoveLearnSetEntry(Move.EARTH_POWER,55)
+                ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Gloatem");

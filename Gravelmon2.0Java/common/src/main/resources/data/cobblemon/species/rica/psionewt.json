@@ -118,9 +118,9 @@
   "preEvolution": "tadport",
   "evolutions": [
     {
-      "id": "psionewt_psionewt",
+      "id": "psionewt_Desmodon",
       "variant": "item_interact",
-      "result": "psionewt",
+      "result": "Desmodon",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

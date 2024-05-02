@@ -2,12 +2,15 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.aristos.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
+
+import java.util.*;
 
 public class GenerationNine extends Game {
     public GenerationNine() {
@@ -19,7 +22,8 @@ public class GenerationNine extends Game {
 
         pokemon.add(new QamoranRabsca(954));
 
-//        pokemon.add(new NorheimanGlimmora(970)); Member of line not finished
+        pokemon.add(new NorheimanGlimmora(970, new Stats(525, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(Stats.StatType.SPECIAL_DEFENCE))));
 
         //Radical Red
         pokemon.add(new SeviianNymble(919));

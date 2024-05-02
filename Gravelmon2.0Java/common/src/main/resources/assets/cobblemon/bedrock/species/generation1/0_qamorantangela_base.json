@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:qamorantangela",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_qamorantangela",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/qamorantangela.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/qamorantangela_shiny.png"
+    }  ]
+}

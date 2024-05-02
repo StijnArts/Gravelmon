@@ -38,8 +38,7 @@ public class Twirpant extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CROSS_CHOP,41),
                         new MoveLearnSetEntry(Move.DETECT,48),
                         new MoveLearnSetEntry(Move.SUPERPOWER,52)            ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

@@ -5,23 +5,18 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class Notillunar extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Notillunar() {
+    public Notillunar(Stats stats) {
         super("Notillunar",
                 Type.WATER, Type.FAIRY,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 165,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_1),
-                List.of("- Wish Normal - Aqua Ring Water - MoonblastSTAB Fairy - Moonlight Fairy"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MOONLIGHT,1),
@@ -56,16 +51,36 @@ public class Notillunar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RAIN_DANCE,"tm"),
                         new MoveLearnSetEntry(Move.SURF,"tm"),
                         new MoveLearnSetEntry(Move.TORPEDODASH,"tm"),
-                        new MoveLearnSetEntry(Move.WATERFALL,"tm")                        ),
-                List.of(Label.NOSTO),
+                        new MoveLearnSetEntry(Move.WATERFALL,"tm"),
+        new MoveLearnSetEntry(Move.DISARMING_VOICE,1),
+                new MoveLearnSetEntry(Move.GROWL,1),
+                new MoveLearnSetEntry(Move.POUND,1),
+                new MoveLearnSetEntry(Move.WATER_GUN,1),
+                new MoveLearnSetEntry(Move.AQUA_JET,9),
+                new MoveLearnSetEntry(Move.BABYDOLL_EYES,12),
+                new MoveLearnSetEntry(Move.ICY_WIND,15),
+                new MoveLearnSetEntry(Move.SING,20),
+                new MoveLearnSetEntry(Move.BUBBLE_BEAM,25),
+                new MoveLearnSetEntry(Move.ENCORE,30),
+                new MoveLearnSetEntry(Move.MISTY_TERRAIN,35),
+                new MoveLearnSetEntry(Move.HYPER_VOICE,40),
+                new MoveLearnSetEntry(Move.MOONBLAST,45),
+                new MoveLearnSetEntry(Move.HYDRO_PUMP,50)          ),
+        List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+        ), SpawnContext.SUBMERGED, SpawnPool.RARE, 31, 53, .3, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
+                new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                new SpawnCondition(SpawnConditionType.IS_RAINING,"false"),
+                new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+        ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
+        setCanFly(true);
            setLangFileName("Notillunar");
 
     }

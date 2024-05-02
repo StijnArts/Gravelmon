@@ -17,14 +17,15 @@ public class Snovice extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.CLEAR_BODY,Ability.SNOW_WARNING,Ability.TELEPATHY), Ability.TELEPATHY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                5, 165,
+                new Stats(0,0,0,0,0,0), 220,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("On certain days on the winter calendar, a landscape of a forgotten region will be displayed inside a Snovice’s head; a snowglobe working like a map."),
-                List.of(),
+                List.of(new EvolutionEntry("aprintice", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.POWDER_SNOW,1),
                         new MoveLearnSetEntry(Move.DETECT,5),
@@ -40,8 +41,8 @@ public class Snovice extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WISH,52)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kragodon-1",
+      "pokemon": "kragodon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-46",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_tundra" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

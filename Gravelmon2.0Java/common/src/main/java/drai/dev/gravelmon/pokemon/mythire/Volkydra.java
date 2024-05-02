@@ -15,14 +15,15 @@ public class Volkydra extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.BLAZE), Ability.CONTRARY,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
                 List.of("If it winds up in danger, this Pokemon paralyzes its enemies with a single glare, then escapes into the grass. With enough focus from its eyes, this Pokemon can light fires from a distance."),
-                List.of(),
+                List.of(new EvolutionEntry("thermodusa", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.EMBER,6),
@@ -67,8 +68,8 @@ public class Volkydra extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERTAIL,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED,SpawnPool.ULTRA_RARE, 16, 46, 2.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

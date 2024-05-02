@@ -61,8 +61,8 @@ public class GenerationFive extends Game {
 //        pokemon.add(new NostanTrubbish()); Missing Art
 //        pokemon.add(new NostanGarbodor()); Missing Art
 
-//        pokemon.add(new NorheimanSigilyph(561)); Missing Stats
-//        pokemon.add(new NorheimanFoongus(590)); Member of line Not finished
+        pokemon.add(new NorheimanSigilyph(561));
+        pokemon.add(new NorheimanFoongus(590));
 
         pokemon.add(new HizianHeatmor(631));
         pokemon.add(new HizianDruddigon(621));

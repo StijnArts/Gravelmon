@@ -39,8 +39,7 @@ public class Pixiechu extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DISCHARGE,42),
                         new MoveLearnSetEntry(Move.LIGHT_SCREEN,45),
                         new MoveLearnSetEntry(Move.MOONBLAST,50)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 27, 49, .02, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),

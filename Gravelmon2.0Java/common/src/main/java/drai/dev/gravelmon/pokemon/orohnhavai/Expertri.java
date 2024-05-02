@@ -48,8 +48,7 @@ public class Expertri extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_WHIP,"tm"),
                         new MoveLearnSetEntry(Move.QUICK_GUARD,"tm"),
                         new MoveLearnSetEntry(Move.POWERUP_PUNCH,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE,  36, 58, 0.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),

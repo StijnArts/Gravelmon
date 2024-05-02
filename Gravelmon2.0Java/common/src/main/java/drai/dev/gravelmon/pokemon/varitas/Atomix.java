@@ -17,8 +17,8 @@ public class Atomix extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         110),
                 List.of(Ability.GALVANIZE), Ability.AFTERMATH,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                6, 165,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -47,9 +47,8 @@ public class Atomix extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MEMENTO,60)                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

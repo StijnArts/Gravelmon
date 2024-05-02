@@ -49,8 +49,7 @@ public class Arrocknid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEMODRAIN,"tm"),
                         new MoveLearnSetEntry(Move.STICKY_WEB,"tm"),
                         new MoveLearnSetEntry(Move.TOMBSTONER,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 37, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_CAVE)),

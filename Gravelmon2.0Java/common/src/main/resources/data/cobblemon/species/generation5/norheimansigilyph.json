@@ -1,0 +1,93 @@
+{
+  "implemented": true,
+  "name": "norheimansigilyph",
+  "nationalPokedexNumber": 561,
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "abilities": [
+    "magicguard",
+    "h:tintedlens"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 103,
+    "defence": 80,
+    "special_attack": 58,
+    "special_defence": 80,
+    "speed": 97
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:wingattack",
+    "3:peck",
+    "5:spikecannon",
+    "8:grassknot",
+    "10:assurance",
+    "14:screechsound",
+    "20:spikyshield",
+    "28:pluck",
+    "34:roost",
+    "47:nightslash",
+    "50:honeclaws",
+    "55:airslash",
+    "60:foulplay",
+    "67:bravebird"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.norheimansigilyph.desc"
+  ],
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -48,8 +48,7 @@ public class Radiaze extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.EARTH_POWER,"tm"),
                         new MoveLearnSetEntry(Move.FLASH_CANNON,"tm"),
                         new MoveLearnSetEntry(Move.THUNDERTAIL,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

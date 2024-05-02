@@ -111,7 +111,6 @@ public class Goetia extends drai.dev.gravelmon.games.registry.Game {
 //        pokemon.add(new Mayflown());   Missing Stats
 //        pokemon.add(new Bleech());   Missing Stats
 //        pokemon.add(new Hiruleech());   Missing Stats
-//        pokemon.add(new Lumini());   Missing Stats
 //        pokemon.add(new Lampupa());   Missing Stats
 //        pokemon.add(new Glowyrm());   Missing Stats
 //        pokemon.add(new Decompost());   Missing Stats

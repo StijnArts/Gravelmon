@@ -7,17 +7,12 @@ import java.util.*;
 
 
 public class Grimpire extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Grimpire() {
+    public Grimpire(Stats stats) {
         super("Grimpire",
                 Type.DARK, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.UNBURDEN), Ability.FRISK,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,0,0), 30,
                 1.0,
                 0, ExperienceGroup.ERRATIC,

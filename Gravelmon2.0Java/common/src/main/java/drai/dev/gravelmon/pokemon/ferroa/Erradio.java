@@ -114,8 +114,7 @@ public class Erradio extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.FERROA),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 4, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.END_CITY),
                 0.28, 0.3,

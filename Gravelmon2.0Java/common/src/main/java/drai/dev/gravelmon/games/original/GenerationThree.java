@@ -2,6 +2,7 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.aristos.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.avoris.regional.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
@@ -25,6 +26,8 @@ import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
+
+import java.util.*;
 
 public class GenerationThree extends Game {
     public GenerationThree() {
@@ -64,11 +67,12 @@ public class GenerationThree extends Game {
         pokemon.add(new QamoranSpoink(325));
         pokemon.add(new QamoranGrumpig(326));
 
-//        pokemon.add(new NorheimanMasquerain(284)); Missing Stats
-//        pokemon.add(new NorheimanWailmer(320)); Missing Stats
+        pokemon.add(new NorheimanMasquerain(284, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.HP))));
+        pokemon.add(new NorheimanWailmer(320));
         pokemon.add(new NorheimanNumel(322));
-//        pokemon.add(new NorheimanCorphish(341)); Missing Stats
-//        pokemon.add(new NorheimanCrawdaunt(342)); Missing Stats
+        pokemon.add(new NorheimanCorphish(341));
+        pokemon.add(new NorheimanCrawdaunt(342, new Stats(468, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(Stats.StatType.HP))));
 
         pokemon.add(new VaritasianSwablu(333));
         pokemon.add(new VaritasianAltaria(334));

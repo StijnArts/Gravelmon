@@ -38,8 +38,7 @@ public class Tasticky extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SLAM,48),
                         new MoveLearnSetEntry(Move.POWER_WHIP,54),
                         new MoveLearnSetEntry(Move.BELLY_DRUM,60)),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 1, 22, 1.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),

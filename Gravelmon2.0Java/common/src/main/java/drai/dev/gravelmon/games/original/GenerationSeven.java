@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.flux.regional.*;
@@ -12,6 +13,8 @@ import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
+import java.util.*;
+
 public class GenerationSeven extends Game {
     public GenerationSeven() {
         super("generation7");
@@ -21,8 +24,9 @@ public class GenerationSeven extends Game {
     public void registerPokemon() {
         pokemon.add(new QamoranSandygast(769));
 
-//        pokemon.add(new NostanMorelull(755)); Missing Stats
-//        pokemon.add(new NostanShiinotic(756)); Missing Stats
+        pokemon.add(new NostanMorelull(755));
+        pokemon.add(new NostanShiinotic(756, new Stats(405, StatArchetype.SPECIAL_WALL,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
 
         pokemon.add(new VaritasianBounsweet(761));
         pokemon.add(new VaritasianSteenee(762));

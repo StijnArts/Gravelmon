@@ -31,8 +31,7 @@ public class Kroach extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ASSURANCE,6),
                         new MoveLearnSetEntry(Move.BUG_BITE,11),
                         new MoveLearnSetEntry(Move.BIDE,15)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST))

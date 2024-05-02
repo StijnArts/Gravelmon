@@ -41,8 +41,7 @@ public class Reefermal extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,54),
                         new MoveLearnSetEntry(Move.BURN_UP,60),
                         new MoveLearnSetEntry(Move.BELLY_DRUM,64)              ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 9, 34, 1, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),

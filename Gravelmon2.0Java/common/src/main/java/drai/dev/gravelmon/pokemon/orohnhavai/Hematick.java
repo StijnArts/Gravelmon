@@ -47,8 +47,7 @@ public class Hematick extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SWALLOW,"tm"),
                         new MoveLearnSetEntry(Move.TICKLE,"tm"),
                         new MoveLearnSetEntry(Move.VENOM_DRENCH,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SWAMP)),

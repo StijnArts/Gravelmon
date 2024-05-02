@@ -73,7 +73,7 @@ public class Ferociraptor extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.DRAGON),
                 List.of(""),
-                List.of(new EvolutionEntry("pterysaor", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Pterysoar", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"33")))),
                 List.of(           new MoveLearnSetEntry(Move.HARDEN, 1),
                         new MoveLearnSetEntry(Move.ROCK_THROW, 1),

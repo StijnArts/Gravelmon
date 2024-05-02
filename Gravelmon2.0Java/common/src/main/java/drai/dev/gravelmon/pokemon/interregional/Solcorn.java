@@ -22,7 +22,7 @@ public class Solcorn extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("furrutail", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Ferrutail", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"17")))),
                 List.of(      new MoveLearnSetEntry(Move.POUND,1),
                         new MoveLearnSetEntry(Move.HELPING_HAND,5),

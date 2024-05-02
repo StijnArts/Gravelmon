@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "agapray",
-  "nationalPokedexNumber": 3154,
+  "nationalPokedexNumber": 3332,
   "primaryType": "fairy",
   "abilities": [
     "healer",
@@ -86,11 +86,14 @@
     "tm:teleport"  ],
   "labels": [
     "lonava",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.agapray.desc"
   ],
+  "preEvolution": "charitot",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

@@ -35,8 +35,7 @@ public class Frossit extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COVET,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tm"),
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 28, 45, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),

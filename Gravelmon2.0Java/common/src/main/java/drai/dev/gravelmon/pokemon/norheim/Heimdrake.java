@@ -17,8 +17,8 @@ public class Heimdrake extends drai.dev.gravelmon.pokemon.Pokemon {
                         80,
                         100),
                 List.of(Ability.SWIFT_SWIM,Ability.OWN_TEMPO,Ability.LIGHTNING_ROD), Ability.LIGHTNING_ROD,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                21, 165,
+                new Stats(0,0,0,0,0,0), 45,
                 0.75,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -42,16 +42,19 @@ public class Heimdrake extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SCALD,"tm"),
                         new MoveLearnSetEntry(Move.HURRICANE,"tm"),
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,"tm"),
-                        new MoveLearnSetEntry(Move.AQUA_RING,"tm")                        ),
+                        new MoveLearnSetEntry(Move.AQUA_RING,"tm")
+                ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SURFACE, SpawnPool.RARE, 41, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.28, 0.3,
                 List.of());
+        setAvoidsLand(true);
+        setCanSwim(true);
            setLangFileName("Heimdrake");
 
     }

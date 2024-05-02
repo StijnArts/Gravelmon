@@ -24,7 +24,7 @@ public class Lasaur extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of("It can concentrate a weak electric charge in the crest on its head. Though this only produces minor electric attacks, it also stimulates its brain, heightening its reflexes."),
-                List.of(new EvolutionEntry("lectosaur", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Lectrosaur", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.CHARGE,1),

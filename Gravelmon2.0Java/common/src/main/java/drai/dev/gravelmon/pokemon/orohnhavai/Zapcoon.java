@@ -43,8 +43,7 @@ public class Zapcoon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SIGNAL_BEAM,"tm"),
                         new MoveLearnSetEntry(Move.ELECTROWEB,"tm"),
                         new MoveLearnSetEntry(Move.PARABOLIC_CHARGE,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 11, 18, .6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),

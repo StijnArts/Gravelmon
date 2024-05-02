@@ -48,8 +48,7 @@ public class Aidelf extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COPYCAT,"tm"),
                         new MoveLearnSetEntry(Move.QUIVER_DANCE,"tm"),
                         new MoveLearnSetEntry(Move.DAZZLING_GLEAM,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 21, 37, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FLORAL)),

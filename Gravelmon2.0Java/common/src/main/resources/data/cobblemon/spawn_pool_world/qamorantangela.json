@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "qamorantangela-1",
+      "pokemon": "qamorantangela",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "12-29",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

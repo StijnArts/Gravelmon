@@ -7,23 +7,18 @@ import java.util.*;
 
 
 public class Dustout extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Dustout() {
+    public Dustout(Stats stats) {
         super("Dustout",
                 Type.NORMAL, Type.GROUND,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SERENE_GRACE,Ability.SAND_VEIL,Ability.POISON_HEAL), Ability.POISON_HEAL,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                19, 165,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- RageSTAB Normal - Defense Curl Normal - Poison Sting Poison - Fell Stinger Bug 3 Rollout Rock 6 Spite Ghost 8 Pursuit Dark 11 Screech Normal 13 Mud-SlapSTAB Ground 16 Yawn Normal 18 Ancient Power Rock 21 Body SlamSTAB Normal 23 Drill RunSTAB Ground 26 Roost Flying 28 Take DownSTAB Normal 31 Coil Poison 33 DigSTAB Ground 36 Glare Normal 38 Double-EdgeSTAB Normal 41 EndeavorSTAB Normal 43 Air Slash Flying 46 Dragon Rush Dragon 48 Endure Normal 51 FlailSTAB Normal 60 EarthquakeSTAB Ground"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.FELL_STINGER,1),
@@ -125,9 +120,8 @@ public class Dustout extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEX,"tm")                        ),
                 List.of(Label.VARITAS),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 43, 61, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

@@ -135,11 +135,14 @@
     "tm:mudbomb"  ],
   "labels": [
     "rica",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.desmodon.desc"
   ],
+  "preEvolution": "psionewt",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

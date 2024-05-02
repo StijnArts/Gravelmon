@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "plumplasm-1",
+      "pokemon": "plumplasm",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "13-45",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_deep_dark" ]
+      }
+    }
+  ]
+}

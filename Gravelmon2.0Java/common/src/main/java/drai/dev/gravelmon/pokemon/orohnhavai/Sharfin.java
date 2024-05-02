@@ -46,8 +46,7 @@ public class Sharfin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FOUL_PLAY,"tm"),
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm"),
                         new MoveLearnSetEntry(Move.JAW_LOCK,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),

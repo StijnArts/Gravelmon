@@ -2,6 +2,7 @@ package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.aristos.regional.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.enjin.regional.*;
@@ -11,9 +12,9 @@ import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.hub.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
-import drai.dev.gravelmon.pokemon.ionos.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.norheim.regional.*;
 import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
@@ -22,6 +23,8 @@ import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
+
+import java.util.*;
 
 public class GenerationTwo extends Game {
     public GenerationTwo() {
@@ -79,9 +82,10 @@ public class GenerationTwo extends Game {
         pokemon.add(new HizianMurkrow(198));
         pokemon.add(new HizianMisdreavus(200));
 
-//        pokemon.add(new NorheimanUnown(201)); Missing Stats
-//        pokemon.add(new NorheimanForretress(205)); Missing Stats
-//        pokemon.add(new NorheimanHoundour(228)); Member of Line not finished
+        pokemon.add(new NorheimanUnown(201));
+        pokemon.add(new NorheimanForretress(205, new Stats(465, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.HP))));
+        pokemon.add(new NorheimanHoundour(228));
 
         //Aristosian
         pokemon.add(new AristosianSentret(161));

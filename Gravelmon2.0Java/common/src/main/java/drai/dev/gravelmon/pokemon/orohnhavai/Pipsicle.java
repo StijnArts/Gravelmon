@@ -42,8 +42,7 @@ public class Pipsicle extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_BEAM,44),
                         new MoveLearnSetEntry(Move.BLIZZARD,52),
                         new MoveLearnSetEntry(Move.SHEER_COLD,60)              ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 6, 31, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FREEZING)),

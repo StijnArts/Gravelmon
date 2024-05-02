@@ -7,34 +7,45 @@ import java.util.*;
 
 
 public class NorheimanCrawdaunt extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanCrawdaunt(int dex) {
+    public NorheimanCrawdaunt(int dex, Stats stats) {
         super(dex, "Crawdaunt",
                 Type.WATER, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                11, 165,
+                new Stats(0,0,0,0,0,0), 155,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.BUBBLE,5),
+                        new MoveLearnSetEntry(Move.FLASH,9),
+                        new MoveLearnSetEntry(Move.HEADBUTT,13),
+                        new MoveLearnSetEntry(Move.CAPTIVATE,16),
+                        new MoveLearnSetEntry(Move.BUBBLE_BEAM,20),
+                        new MoveLearnSetEntry(Move.IRON_TAIL,24),
+                        new MoveLearnSetEntry(Move.CHIP_AWAY,28),
+                        new MoveLearnSetEntry(Move.ANCIENT_POWER,32),
+                        new MoveLearnSetEntry(Move.AQUA_TAIL,35),
+                        new MoveLearnSetEntry(Move.IRON_HEAD,39),
+                        new MoveLearnSetEntry(Move.MIRROR_COAT,43),
+                        new MoveLearnSetEntry(Move.HYDRO_PUMP,47)
+                ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 30, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Crawdaunt");
 
     }

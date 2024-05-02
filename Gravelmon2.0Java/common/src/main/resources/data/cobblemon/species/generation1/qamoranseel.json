@@ -75,9 +75,9 @@
   ],
   "evolutions": [
     {
-      "id": "qamoranseel_gobbledyduck",
+      "id": "qamoranseel_QamoranDewgong",
       "variant": "item_interact",
-      "result": "gobbledyduck",
+      "result": "QamoranDewgong",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

@@ -7,8 +7,8 @@ import java.util.*;
 
 
 public class QamoranTangrowth extends drai.dev.gravelmon.pokemon.Pokemon {
-    public QamoranTangrowth() {
-        super("Tangrowth",
+    public QamoranTangrowth(int dex) {
+        super(dex, "Tangrowth",
                 Type.WATER, Type.DRAGON,
                 new Stats(100,
                         110,
@@ -17,20 +17,34 @@ public class QamoranTangrowth extends drai.dev.gravelmon.pokemon.Pokemon {
                         125,
                         50),
                 List.of(Ability.DELICIOUS), Ability.REGENERATOR,
-                8, 165,
+                20, 165,
                 new Stats(0,0,0,0,2,0), 30,
                 0.5,
                 187, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("Evo ScaldSTAB Water"),
+                List.of(""),
                 List.of(),
                 List.of(
-                        new MoveLearnSetEntry(Move.SCALD,1)                        ),
+
+                        new MoveLearnSetEntry(Move.WATER_GUN,1),
+                        new MoveLearnSetEntry(Move.SUPERSONIC,3),
+                        new MoveLearnSetEntry(Move.FLASH,7),
+                        new MoveLearnSetEntry(Move.THUNDER_WAVE,13),
+                        new MoveLearnSetEntry(Move.WATER_PULSE,16),
+                        new MoveLearnSetEntry(Move.SAFEGUARD,20),
+                        new MoveLearnSetEntry(Move.MAGNET_RISE,24),
+                        new MoveLearnSetEntry(Move.BRINE,28),
+                        new MoveLearnSetEntry(Move.MEMENTO,33),
+                        new MoveLearnSetEntry(Move.SCREECH,38),
+                        new MoveLearnSetEntry(Move.RAIN_DANCE,43),
+                        new MoveLearnSetEntry(Move.RECOVER,49),
+                        new MoveLearnSetEntry(Move.HYDRO_PUMP,55)
+                ),
                 List.of(Label.QAMOR),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 36, 56, .2, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_CHERRY_GROVE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

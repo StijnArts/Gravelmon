@@ -83,8 +83,7 @@ public class InterianGenesect extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.INTERREGIONAL),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 70, 70, 0.00003, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

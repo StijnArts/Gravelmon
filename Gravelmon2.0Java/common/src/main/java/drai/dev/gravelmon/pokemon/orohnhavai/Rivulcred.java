@@ -38,8 +38,7 @@ public class Rivulcred extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.OUTRAGE,62),
                         new MoveLearnSetEntry(Move.HYPER_BEAM,70),
                         new MoveLearnSetEntry(Move.ORIGIN_PULSE,78)                     ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),

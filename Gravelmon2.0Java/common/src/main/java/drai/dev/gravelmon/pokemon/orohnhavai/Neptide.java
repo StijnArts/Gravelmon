@@ -26,8 +26,7 @@ public class Neptide extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(""),
                 List.of(),
                 List.of(                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

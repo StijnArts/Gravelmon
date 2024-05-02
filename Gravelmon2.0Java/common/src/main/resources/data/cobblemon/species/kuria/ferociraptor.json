@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ferociraptor",
-  "nationalPokedexNumber": 3947,
+  "nationalPokedexNumber": 4172,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -78,9 +78,9 @@
   ],
   "evolutions": [
     {
-      "id": "ferociraptor_pterysaor",
+      "id": "ferociraptor_Pterysoar",
       "variant": "level_up",
-      "result": "pterysaor",
+      "result": "Pterysoar",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

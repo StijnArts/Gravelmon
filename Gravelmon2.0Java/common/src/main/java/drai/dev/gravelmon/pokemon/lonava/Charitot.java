@@ -22,7 +22,7 @@ public class Charitot extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.UNDISCOVERED),
                 List.of("Charitot are unconditionally kind from the moment they hatch. Regardless of their trainer's intentions, it will support them. When it reaches evolution, it'll try to steer its trainer towards a more charitable path, usually with success."),
-                List.of(new EvolutionEntry("agapre", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Agapray", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190")))),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),

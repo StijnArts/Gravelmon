@@ -45,8 +45,7 @@ public class Turtelisk extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,"tm"),
                         new MoveLearnSetEntry(Move.DRAGON_RUSH,"tm"),
                         new MoveLearnSetEntry(Move.IRON_HEAD,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

@@ -15,7 +15,7 @@ public class Fulgorough extends drai.dev.gravelmon.pokemon.Pokemon {
                         60,
                         118),
                 List.of(Ability.GUTS,Ability.NO_GUARD,Ability.DEFIANT), Ability.DEFIANT,
-                8, 165,
+                13, 165,
                 new Stats(0,0,0,0,0,2), 45,
                 0.5,
                 168, ExperienceGroup.MEDIUM_SLOW,
@@ -24,6 +24,23 @@ public class Fulgorough extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Brash and extremely confident, it takes its territory by putting on a fearsome display with its horn and wings, but it flees if it ends up outmatched in a fight."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.SLAM,1),
+                        new MoveLearnSetEntry(Move.BUG_BUZZ,1),
+                        new MoveLearnSetEntry(Move.PARTING_SHOT,1),
+                        new MoveLearnSetEntry(Move.SWAGGER,1),
+                        new MoveLearnSetEntry(Move.OUTRAGE,1),
+                        new MoveLearnSetEntry(Move.RAGE_POWDER,1),
+                        new MoveLearnSetEntry(Move.LUNGE,1),
+                        new MoveLearnSetEntry(Move.FURY_CUTTER,1),
+                        new MoveLearnSetEntry(Move.DRAGON_RUSH,1),
+                        new MoveLearnSetEntry(Move.DRAGON_CLAW,1),
+                        new MoveLearnSetEntry(Move.CLOSE_COMBAT,1),
+                        new MoveLearnSetEntry(Move.DETECT,1),
+                        new MoveLearnSetEntry(Move.FINAL_GAMBIT,1),
+                        new MoveLearnSetEntry(Move.BEAT_UP,1),
+                        new MoveLearnSetEntry(Move.CRUNCH,1),
+                        new MoveLearnSetEntry(Move.LEER,1),
+                        new MoveLearnSetEntry(Move.ME_FIRST,1),
                         new MoveLearnSetEntry(Move.FIRST_IMPRESSION,1),
                         new MoveLearnSetEntry(Move.MEGA_KICK,"tm"),
                         new MoveLearnSetEntry(Move.PIN_MISSILE,"tm"),
@@ -93,11 +110,11 @@ public class Fulgorough extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_RAGE,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 31, 54, .4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Fulgorough");

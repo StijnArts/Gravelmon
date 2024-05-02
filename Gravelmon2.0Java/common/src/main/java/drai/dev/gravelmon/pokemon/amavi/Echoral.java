@@ -23,7 +23,7 @@ public class Echoral extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of(""),
-                List.of(new EvolutionEntry("delfauge", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Delflauge", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"19")))),
                 List.of(           new MoveLearnSetEntry(Move.FLIP_TURN,1),
                         new MoveLearnSetEntry(Move.TACKLE,1),

@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo.firstbatch;
 
 import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.mushi.*;
 import drai.dev.gravelmon.pokemon.theos.*;
@@ -51,6 +52,8 @@ import drai.dev.gravelmon.pokemon.aristos.*;
 import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
 
+import java.util.*;
+
 public class Oceane extends drai.dev.gravelmon.games.registry.Game {
     public Oceane() {
         super("Oceane");
@@ -58,19 +61,22 @@ public class Oceane extends drai.dev.gravelmon.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-//        pokemon.add(new Bublit()); //Missing Stats
-//        pokemon.add(new Nautilite());//Missing Stats
-//        pokemon.add(new Tentalcyon()); //Missing Stats
+        pokemon.add(new Bublit());
+        pokemon.add(new Nautilite());
+        pokemon.add(new Tentalcyon(new Stats(537, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
         pokemon.add(new Friney());
         pokemon.add(new Ripplier());
         pokemon.add(new Swordier());
-//        pokemon.add(new Nomstar()); //Missing Stats
-//        pokemon.add(new Disastar()); //Missing Stats
-//        pokemon.add(new Ferossicle()); //Missing Stats
+        pokemon.add(new Nomstar());
+        pokemon.add(new Disastar());
+        pokemon.add(new Ferossicle(new Stats(542, StatArchetype.BULKY_PHYSICAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.HP))));
         pokemon.add(new Planten());
         pokemon.add(new Handren());
-//        pokemon.add(new Digdog()); //NOT FINISHED
-//        pokemon.add(new Groundhound()); //Missing Stats
+        pokemon.add(new Digdog());
+        pokemon.add(new Groundhound(new Stats(432, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.DEFENCE))));
         pokemon.add(new Sweal());
         pokemon.add(new Fleezer());
         pokemon.add(new AFleezer());
@@ -86,9 +92,11 @@ public class Oceane extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Appendash());
         pokemon.add(new Nutsy());
         pokemon.add(new Jawson());
-//        pokemon.add(new Merbebi()); //Missing Stats
-//        pokemon.add(new Shrimpnotize()); //Missing Stats
-//        pokemon.add(new Phantamaron()); //Missing Stats
+        pokemon.add(new Merbebi());
+        pokemon.add(new Shrimpnotize(new Stats(457, StatArchetype.SPECIAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
+        pokemon.add(new Phantamaron(new Stats(423, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Rayscal());
         pokemon.add(new Rayth());
         pokemon.add(new Minusplus());
@@ -111,46 +119,51 @@ public class Oceane extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Drenchest());
         pokemon.add(new Medissin());
         pokemon.add(new Mambaboo());
-//        pokemon.add(new Floink()); //Member of line Not Finished
-//        pokemon.add(new AFloink()); //Missing Stats
+        pokemon.add(new Floink());
+//        pokemon.add(new AFloink()); Missing Stats
         pokemon.add(new Hypnode());
         pokemon.add(new Cupscape());
         pokemon.add(new Nodescape());
         pokemon.add(new Reefazoid());
-//        pokemon.add(new Amusea()); //Missing Stats
-//        pokemon.add(new Finfetti()); //Missing Stats
-//        pokemon.add(new Harlefin()); //Missing Stats
+        pokemon.add(new Amusea());
+        pokemon.add(new Finfetti());
+        pokemon.add(new Harlefin(new Stats(517, StatArchetype.SPECIAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Ziptide());
         pokemon.add(new Moreen());
-//        pokemon.add(new Salpackin()); //Missing Stats
-//        pokemon.add(new ASalpackin()); //Missing Stats
+        pokemon.add(new Salpackin(new Stats(376, StatArchetype.FAST_SUPPORT,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
+//        pokemon.add(new ASalpackin()); Missing Stats
         pokemon.add(new Eletta());
         pokemon.add(new Sentresha());
         pokemon.add(new Origalleon());
-//        pokemon.add(new Tatatot()); //Missing Stats
-//        pokemon.add(new Drumbum()); //Missing Stats
-//        pokemon.add(new Symphonia()); //Member of line Not Finished
+        pokemon.add(new Tatatot());
+        pokemon.add(new Drumbum());
+        pokemon.add(new Symphonia());
         pokemon.add(new Camozoic());
-//        pokemon.add(new Churlice()); //Missing Stats
-//        pokemon.add(new Torchurn()); //Missing Stats
-//        pokemon.add(new Altarath()); //NOT FINISHED
-//        pokemon.add(new Topsee()); //Missing Stats
-//        pokemon.add(new Hallucid()); //Missing Stats
-//        pokemon.add(new Spectrance()); //Member of line Not Finished
+        pokemon.add(new Churlice());
+        pokemon.add(new Torchurn());
+        pokemon.add(new Altarath());
+        pokemon.add(new Topsee());
+        pokemon.add(new Hallucid());
+        pokemon.add(new Spectrance());
         pokemon.add(new Grasstache());
         pokemon.add(new Papalgae());
         pokemon.add(new Lavrassire());
         pokemon.add(new Mamagma());
-//        pokemon.add(new Kellyp()); //Missing Stats
-//        pokemon.add(new Ferrush()); //Missing Stats
-//        pokemon.add(new Bwobble()); //Member of line Not Finished
-//        pokemon.add(new Noxical()); //Missing Stats
-//        pokemon.add(new Venomenace()); //Member of line Not Finished
-//        pokemon.add(new Octomuray()); //Missing Stats
+        pokemon.add(new Kellyp());
+        pokemon.add(new Ferrush(new Stats(498, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
+        pokemon.add(new Bwobble());
+        pokemon.add(new Noxical());
+        pokemon.add(new Venomenace());
+        pokemon.add(new Octomuray(new Stats(484, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.DEFENCE))));
         pokemon.add(new Cycaroon());
         pokemon.add(new Argoceane());
         pokemon.add(new Dreadtyde());
-//        pokemon.add(new Abysside()); //Missing Stats
+        pokemon.add(new Abysside(new Stats(640, StatArchetype.SPECIAL_WALL,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_ATTACK))));
     }
 
 }

@@ -48,8 +48,7 @@ public class Barbenin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POISON_JAB,"tm"),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,"tm"),
                         new MoveLearnSetEntry(Move.SCALD,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 1, 25, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),

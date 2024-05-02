@@ -1,56 +1,9 @@
 package drai.dev.gravelmon.games.pokemmo.firstbatch;
 
-import drai.dev.gravelmon.pokemon.amavi.*;
-import drai.dev.gravelmon.pokemon.dhiome.*;
-import drai.dev.gravelmon.pokemon.mushi.*;
-import drai.dev.gravelmon.pokemon.theos.*;
-import drai.dev.gravelmon.pokemon.kuria.*;
-import drai.dev.gravelmon.pokemon.ottora.*;
-import drai.dev.gravelmon.pokemon.spion.*;
-import drai.dev.gravelmon.pokemon.mastenia.*;
-import drai.dev.gravelmon.pokemon.mongratis.*;
-import drai.dev.gravelmon.pokemon.ultraspace.*;
-import drai.dev.gravelmon.pokemon.urzavos.*;
-import drai.dev.gravelmon.pokemon.terranov.*;
-import drai.dev.gravelmon.pokemon.enjin.*;
-import drai.dev.gravelmon.pokemon.mystis.*;
-import drai.dev.gravelmon.pokemon.pastelisland.*;
-import drai.dev.gravelmon.pokemon.neonintendo.*;
-import drai.dev.gravelmon.pokemon.tokas.*;
-import drai.dev.gravelmon.pokemon.panjaea.*;
-import drai.dev.gravelmon.pokemon.cyare.*;
-import drai.dev.gravelmon.pokemon.olysos.*;
-import drai.dev.gravelmon.pokemon.nodorro.*;
-import drai.dev.gravelmon.pokemon.orbis.*;
-import drai.dev.gravelmon.pokemon.fliga.*;
-import drai.dev.gravelmon.pokemon.ruskow.*;
-import drai.dev.gravelmon.pokemon.otopo.*;
-import drai.dev.gravelmon.pokemon.goetia.*;
-import drai.dev.gravelmon.pokemon.ionos.*;
-import drai.dev.gravelmon.pokemon.lagoone.*;
-import drai.dev.gravelmon.pokemon.atlas.*;
-import drai.dev.gravelmon.pokemon.avoris.*;
-import drai.dev.gravelmon.pokemon.enriko.*;
-import drai.dev.gravelmon.pokemon.ferroa.*;
-import drai.dev.gravelmon.pokemon.hiza.*;
-import drai.dev.gravelmon.pokemon.hub.*;
-import drai.dev.gravelmon.pokemon.interregional.*;
-import drai.dev.gravelmon.pokemon.isiah.*;
-import drai.dev.gravelmon.pokemon.junnin.*;
-import drai.dev.gravelmon.pokemon.lonava.*;
-import drai.dev.gravelmon.pokemon.mythire.*;
-import drai.dev.gravelmon.pokemon.nosto.*;
-import drai.dev.gravelmon.pokemon.novrai.*;
-import drai.dev.gravelmon.pokemon.oceane.*;
-import drai.dev.gravelmon.pokemon.okeno.*;
-import drai.dev.gravelmon.pokemon.orohnhavai.*;
-import drai.dev.gravelmon.pokemon.qamor.*;
-import drai.dev.gravelmon.pokemon.rica.*;
-import drai.dev.gravelmon.pokemon.varitas.*;
-import drai.dev.gravelmon.pokemon.aristos.*;
-import drai.dev.gravelmon.pokemon.midamis.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
 
+import java.util.*;
 
 public class Norheim extends drai.dev.gravelmon.games.registry.Game {
     public Norheim() {
@@ -62,30 +15,30 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Gnatle());
         pokemon.add(new Growel());
         pokemon.add(new Huskerous());
-//        pokemon.add(new Lilyquack()); Missing Stats
-//        pokemon.add(new Weeduck()); Missing Stats
-//        pokemon.add(new Elegander()); Missing Stats
-//        pokemon.add(new Minkit()); Missing Stats
-//        pokemon.add(new Freicat()); Missing Stats
-//        pokemon.add(new Gattekat()); Missing Stats
-//        pokemon.add(new Bunbear()); Missing Stats
-//        pokemon.add(new Combjorn()); Missing Stats
-//        pokemon.add(new Burnbjorn()); Missing Stats
-//        pokemon.add(new Ignewt()); Missing Stats
-//        pokemon.add(new Hexelotl()); Missing Stats
-//        pokemon.add(new Hylamancer()); Missing Stats
-//        pokemon.add(new Calfyr()); Missing Stats
-//        pokemon.add(new Pyrelk()); Missing Stats
-//        pokemon.add(new Helelk()); Missing Stats
+        pokemon.add(new Lilyquack());
+        pokemon.add(new Weeduck());
+        pokemon.add(new Elegander());
+        pokemon.add(new Minkit());
+        pokemon.add(new Freicat());
+        pokemon.add(new Gattekat());
+        pokemon.add(new Bunbear());
+        pokemon.add(new Combjorn());
+        pokemon.add(new Burnbjorn());
+        pokemon.add(new Ignewt());
+        pokemon.add(new Hexelotl());
+        pokemon.add(new Hylamancer());
+        pokemon.add(new Calfyr());
+        pokemon.add(new Pyrelk());
+        pokemon.add(new Helelk());
         pokemon.add(new Pouffy());
         pokemon.add(new Puffard());
         pokemon.add(new Pelasquall());
         pokemon.add(new Buppie());
         pokemon.add(new Bubawl());
         pokemon.add(new Brinarder());
-//        pokemon.add(new Bayby()); Missing Stats
-//        pokemon.add(new Tuscal()); Missing Stats
-//        pokemon.add(new Norwale()); Missing Stats
+        pokemon.add(new Bayby());
+        pokemon.add(new Tuscal());
+        pokemon.add(new Norwale());
         pokemon.add(new Larver());
         pokemon.add(new Strikoon());
         pokemon.add(new Battlefly());
@@ -94,53 +47,58 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Lemini());
         pokemon.add(new Gnimmel());
         pokemon.add(new Wolverage());
-//        pokemon.add(new Beboink()); Missing Stats
-//        pokemon.add(new Yoikid()); Missing Stats
-//        pokemon.add(new Hyfae()); Missing Stats
+        pokemon.add(new Beboink());
+        pokemon.add(new Yoikid());
+        pokemon.add(new Hyfae());
         pokemon.add(new Shrumin());
         pokemon.add(new Ignikid());
         pokemon.add(new Furyture());
         pokemon.add(new Speyeder());
-//        pokemon.add(new Thoriller()); Member of line Not Finished
-//        pokemon.add(new Thormite());   Missing Stats
+        pokemon.add(new Thoriller());
+        pokemon.add(new Thormite());
         pokemon.add(new Birdler());
         pokemon.add(new Magpyja());
-//        pokemon.add(new Beberin()); Missing Stats
-//        pokemon.add(new Nimbairy()); Missing Stats
+        pokemon.add(new Beberin());
+        pokemon.add(new Nimbairy());
         pokemon.add(new Bomblebee());
         pokemon.add(new Draftbee());
-//        pokemon.add(new Snootsnoot()); Missing Stats
-//        pokemon.add(new Snowl()); Missing Stats
+        pokemon.add(new Snootsnoot());
+        pokemon.add(new Snowl());
         pokemon.add(new Wispear());
         pokemon.add(new Roomere());
-//        pokemon.add(new Scubaa()); Missing Stats
-//        pokemon.add(new Hydroram()); Missing Stats
-//        pokemon.add(new Chantarule()); Member of line Not Finished
-//        pokemon.add(new Chantabrute());  Missing Stats
+        pokemon.add(new Scubaa());
+        pokemon.add(new Hydroram());
+        pokemon.add(new Chantarule());
+        pokemon.add(new Chantabrute());
 
         pokemon.add(new Bunnler());
         pokemon.add(new Spinache());
         pokemon.add(new Beatroot());
         pokemon.add(new Moler());
         pokemon.add(new Moleheimer());
-//        pokemon.add(new Potiti()); Missing Stats
-//        pokemon.add(new Potota()); Missing Stats
+        pokemon.add(new Potiti());
+        pokemon.add(new Potota(new Stats(476, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.HP))));
         var tadit = new Tadit();
         pokemon.add(tadit);
 //        pokemon.add(new MastenianTadit(tadit.getPokedexNumber()));   Missing Stats
         pokemon.add(new Ribhit());
-//        pokemon.add(new Thikachoo()); Missing Stats
-//        pokemon.add(new Surgeskit());
+        pokemon.add(new Thikachoo(new Stats(435, StatArchetype.BULKY_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.HP))));
+        pokemon.add(new Surgeskit());
         pokemon.add(new Firipeck());
         pokemon.add(new Fyrepecker());
-//        pokemon.add(new Bwug()); Member of line Not Finished
-//        pokemon.add(new Bwairy()); Missing Stats
+        pokemon.add(new Bwug());
+        pokemon.add(new Bwairy(new Stats(456, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPEED))));
         pokemon.add(new Shrisker());
         pokemon.add(new Swirrell());
         pokemon.add(new Meerii());
-//        pokemon.add(new Laxish()); Missing Stats
+        pokemon.add(new Laxish(new Stats(387, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.SPEED))));
         pokemon.add(new Tourtell());
-//        pokemon.add(new Thistelle()); Missing Stats
+        pokemon.add(new Thistelle(new Stats(407, StatArchetype.BULKY_SUPPORT,
+                List.of(Stats.StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Aquatick());
         pokemon.add(new Clagcoon());
         pokemon.add(new Yggdraflygg());
@@ -152,59 +110,73 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Toxiver());
         pokemon.add(new Antle());
         pokemon.add(new Magnificant());
-//        pokemon.add(new Pyrstack()); Missing Stats
+        pokemon.add(new Pyrstack(new Stats(456, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Corvhugen());
         pokemon.add(new Vaiking());
         pokemon.add(new Fulion());
         pokemon.add(new Lopiliar());
         pokemon.add(new Rokstone());
-//        pokemon.add(new Temto()); Missing Stats
+        pokemon.add(new Temto(new Stats(456, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Witherscence());
         pokemon.add(new Slickle());
         pokemon.add(new Stricklisk());
 //        pokemon.add(new Mudrake()); Missing Art
 //        pokemon.add(new Niidrake()); Member of Line not Finished
-//        pokemon.add(new Eolid());  Missing Stats
-//        pokemon.add(new Eosoli());  Missing Stats
-//        pokemon.add(new Eoterra()); Member of line Not Finished
-//        pokemon.add(new Tibeti()); Missing Stats
-//        pokemon.add(new Greynine()); Missing Stats
+        pokemon.add(new Eolid());
+        pokemon.add(new Eosoli());
+        pokemon.add(new Eoterra());
+        pokemon.add(new Tibeti());
+        pokemon.add(new Greynine());
         pokemon.add(new Waugur());
-//        pokemon.add(new Svalbat()); Missing Stats
-//        pokemon.add(new Svalor()); Missing Stats
-//        pokemon.add(new Escaruption()); Missing Stats
+        pokemon.add(new Svalbat());
+        pokemon.add(new Svalor(new Stats(440, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPEED))));
+        pokemon.add(new Escaruption(new Stats(578, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.DEFENCE))));
         pokemon.add(new Dragamant());
         pokemon.add(new Snhail());
-//        pokemon.add(new Foulfoal()); Missing Stats
-//        pokemon.add(new Sleepnir()); Missing Stats
-//        pokemon.add(new Kittry()); Missing Stats
-//        pokemon.add(new Pawstry()); Missing Stats
+        pokemon.add(new Foulfoal());
+        pokemon.add(new Sleepnir());
+        pokemon.add(new Kittry());
+        pokemon.add(new Pawstry(new Stats(510, StatArchetype.MIXED_ATTACKER,
+                List.of(Stats.StatType.HP))));
         pokemon.add(new Cariboo());
         pokemon.add(new Spectrelk());
-//        pokemon.add(new Flaki()); Missing Stats
-//        pokemon.add(new Oarora()); Missing Stats
-//        pokemon.add(new Jaggagon()); Missing Stats
-//        pokemon.add(new Snovice()); Missing Stats
-//        pokemon.add(new Aprintice()); Missing Stats
-//        pokemon.add(new Adepthawl()); Missing Stats
-//        pokemon.add(new Sealady()); Missing Stats
+        pokemon.add(new Flaki());
+        pokemon.add(new Oarora());
+        pokemon.add(new Jaggagon(new Stats(477, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.ATTACK))));
+        pokemon.add(new Snovice());
+        pokemon.add(new Aprintice());
+        pokemon.add(new Adepthawl(new Stats(567, StatArchetype.SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
+        pokemon.add(new Sealady(new Stats(475, StatArchetype.SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPEED))));
         pokemon.add(new Streuming());
         pokemon.add(new Basshark());
         pokemon.add(new Mannbrann());
         pokemon.add(new Sardiner());
         pokemon.add(new Charctic());
         pokemon.add(new Pengwin());
-//        pokemon.add(new Lilheim());  Missing Stats
-//        pokemon.add(new Heimdrake()); Member of line Not Finished
-//        pokemon.add(new Lilpras());// Missing Stats
-//        pokemon.add(new Queendra());// Missing Stats
-//        pokemon.add(new Seascull());// Missing Stats
+        pokemon.add(new Lilheim());
+        pokemon.add(new Heimdrake());
+        pokemon.add(new Lilpras());
+        pokemon.add(new Queendra(new Stats(540, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
+        pokemon.add(new Seascull(new Stats(440, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
         pokemon.add(new Charryon());
-//        pokemon.add(new Wailwhale()); Missing Stats
-//        pokemon.add(new Yellifish()); Missing Stats
-//        pokemon.add(new Phantocean()); Missing Stats
-//        pokemon.add(new Birdurr()); Missing Stats
-//        pokemon.add(new Mylili()); Missing Stats
+        pokemon.add(new Wailwhale(new Stats(500, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.HP))));
+        pokemon.add(new Yellifish());
+        pokemon.add(new Phantocean(new Stats(498, StatArchetype.BULKY_SPECIAL_ATTACKER,
+                List.of())));
+        pokemon.add(new Birdurr(new Stats(376, StatArchetype.SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
+        pokemon.add(new Mylili(new Stats(387, StatArchetype.MIXED_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
         var crudecay = new Crudecay();
         pokemon.add(crudecay);
 //        pokemon.add(new MastenianCrudecay(crudecay.getPokedexNumber()));  Missing Stats
@@ -212,57 +184,80 @@ public class Norheim extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Saberian());
         pokemon.add(new Wreggog());
         pokemon.add(new Terrahorn());
-//        pokemon.add(new Thoraxe()); Missing Stats
+        pokemon.add(new Thoraxe(new Stats(500, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.DEFENCE))));
         pokemon.add(new Dunesparr());
-//        pokemon.add(new Milthunk());// Missing Stats
+        pokemon.add(new Milthunk(new Stats(490, StatArchetype.BULKY_SUPPORT,
+                List.of(Stats.StatType.DEFENCE))));
         pokemon.add(new Deviburn());
         pokemon.add(new Valbear());
-//        pokemon.add(new Mountox());// Missing Stats
-//        pokemon.add(new Rampina()); Missing Stats
-//        pokemon.add(new Permaent());// Missing Stats
-//        pokemon.add(new Uldidi());// Missing Stats
-//        pokemon.add(new Hulding());// Missing Stats
-//        pokemon.add(new Huldamer());// Missing Stats
+        pokemon.add(new Mountox(new Stats(460, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.DEFENCE))));
+        pokemon.add(new Rampina(new Stats(456, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
+        pokemon.add(new Permaent(new Stats(494, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
+        pokemon.add(new Uldidi());
+        pokemon.add(new Hulding());
+        pokemon.add(new Huldamer(new Stats(567, StatArchetype.BULKY_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
 
-//        pokemon.add(new Booseed()); Missing Stats
-//        pokemon.add(new Glowghast()); Missing Stats
+        pokemon.add(new Booseed());
+        pokemon.add(new Glowghast(new Stats(512, StatArchetype.BULKY_SUPPORT,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
         pokemon.add(new Anenome());
         pokemon.add(new Trollskgur());
-//        pokemon.add(new Sampig());  Missing Stats
-//        pokemon.add(new Bloorn());  Missing Stats
-//        pokemon.add(new Lansor()); Missing Stats
-//        pokemon.add(new Rhydoom()); Missing Stats
+        pokemon.add(new Sampig(new Stats(412, StatArchetype.SPECIAL_WALL,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
+        pokemon.add(new Bloorn(new Stats(387, StatArchetype.BULKY_SUPPORT,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
+        pokemon.add(new Lansor(new Stats(500, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.SPEED))));
+        pokemon.add(new Rhydoom(new Stats(485, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.HP))));
         pokemon.add(new Crimgon());
-//        pokemon.add(new Slamander()); Missing Stats
-//        pokemon.add(new Gloatem()); Missing Stats
-//        pokemon.add(new Aydoliman()); Missing Stats
-//        pokemon.add(new Elefjant()); Missing Stats
-//        pokemon.add(new Mamoheim()); Missing Stats
-//        pokemon.add(new Tundrius()); Missing Stats
-//        pokemon.add(new Missacko());  Missing Stats
-//        pokemon.add(new Grimgarmr()); Missing Stats
+        pokemon.add(new Slamander(new Stats(452, StatArchetype.PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.ATTACK))));
+        pokemon.add(new Gloatem());
+        pokemon.add(new Aydoliman(new Stats(487, StatArchetype.SLOW_PHYSICALLY_BULKY_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
+        pokemon.add(new Elefjant());
+        pokemon.add(new Mamoheim(new Stats(532, StatArchetype.PHYSICAL_WALL,
+                List.of(Stats.StatType.DEFENCE))));
+        pokemon.add(new Tundrius(new Stats(460, StatArchetype.SPECIAL_WALL,
+                List.of(Stats.StatType.SPECIAL_DEFENCE))));
+        pokemon.add(new Missacko(new Stats(453, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.SPEED))));
+        pokemon.add(new Grimgarmr(new Stats(500, StatArchetype.MIXED_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
         pokemon.add(new Reavler());
         pokemon.add(new Safian());
-//        pokemon.add(new Skatini()); Missing Stats
-//        pokemon.add(new Skaterace()); Member of line Not Finished
+        pokemon.add(new Skatini());
+        pokemon.add(new Skaterace());
         pokemon.add(new Spelewink());
-//        pokemon.add(new Burnmigi()); Missing Stats
-//        pokemon.add(new Fjordrake()); Missing Stats
+        pokemon.add(new Burnmigi(new Stats(431, StatArchetype.MIXED_ATTACKER,
+                List.of(Stats.StatType.ATTACK))));
+        pokemon.add(new Fjordrake(new Stats(512, StatArchetype.BULKY_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
         pokemon.add(new Wulca());
         pokemon.add(new Wulcrush());
-//        pokemon.add(new Oystr()); Missing Stats
-//        pokemon.add(new Monsturge()); Missing Stats
-//        pokemon.add(new Chiwowwa()); Missing Stats
-//        pokemon.add(new Woofurr()); Missing Stats
-//        pokemon.add(new Varghast()); Missing Stats
-//        pokemon.add(new Dracoknight()); Missing Stats
-//        pokemon.add(new Kiderr()); Missing Stats
-//        pokemon.add(new Goaterr()); Missing Stats
-//        pokemon.add(new Goathorr()); Missing Stats
-//        pokemon.add(new Afunn()); Missing Stats
-//        pokemon.add(new Volcunn()); Missing Stats
-//        pokemon.add(new Mountunn()); Missing Stats
-//        pokemon.add(new Glacunn()); Missing Stats
+        pokemon.add(new Oystr());
+        pokemon.add(new Monsturge(new Stats(487, StatArchetype.FAST_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.SPEED))));
+        pokemon.add(new Chiwowwa());
+        pokemon.add(new Woofurr());
+        pokemon.add(new Varghast());
+        pokemon.add(new Dracoknight());
+        pokemon.add(new Kiderr());
+        pokemon.add(new Goaterr());
+        pokemon.add(new Goathorr());
+        pokemon.add(new Afunn());
+        pokemon.add(new Volcunn(new Stats(534, StatArchetype.PHYSICAL_WALL,
+                List.of(Stats.StatType.SPECIAL_DEFENCE))));
+        pokemon.add(new Mountunn(new Stats(534, StatArchetype.SPECIAL_WALL,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
+        pokemon.add(new Glacunn(new Stats(534, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
         pokemon.add(new Conduvan());
         pokemon.add(new Wellmr());
         pokemon.add(new Gazhel());

@@ -45,8 +45,7 @@ public class Kraklam extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MUDDY_WATER,"tm"),
                         new MoveLearnSetEntry(Move.BRINE,"tm"),
                         new MoveLearnSetEntry(Move.RAZOR_SHELL,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 3, 22, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),

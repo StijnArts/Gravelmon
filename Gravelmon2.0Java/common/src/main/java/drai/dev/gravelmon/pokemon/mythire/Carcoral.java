@@ -15,7 +15,7 @@ public class Carcoral extends drai.dev.gravelmon.pokemon.Pokemon {
                         110,
                         50),
                 List.of(Ability.TORRENT), Ability.LIQUID_OOZE,
-                8, 165,
+                20, 165,
                 new Stats(0,0,3,0,0,0), 45,
                 0.875,
                 239, ExperienceGroup.MEDIUM_SLOW,
@@ -129,13 +129,13 @@ public class Carcoral extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Carcoral");
 
     }

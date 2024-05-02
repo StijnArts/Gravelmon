@@ -26,8 +26,7 @@ public class Emperiegle extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("With their fatal talons and razor sharp beaks, Emperiegle patrol the skies protecting their territory and young. If anyone dares to come too close, there's the possibility they may lose their life."),
                 List.of(),
                 List.of(                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

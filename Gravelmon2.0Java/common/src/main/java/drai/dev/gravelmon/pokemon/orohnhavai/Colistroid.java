@@ -42,8 +42,7 @@ public class Colistroid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_GEM,39),
                         new MoveLearnSetEntry(Move.RAPID_SPIN,45),
                         new MoveLearnSetEntry(Move.ICICLE_CRASH,51)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 46, .2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

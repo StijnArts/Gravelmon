@@ -36,8 +36,8 @@ public class GenerationEight extends Game {
 
 //        pokemon.add(new VaritasianHatenna(856)); Member of line Not Finished
 //        pokemon.add(new VaritasianHattrem(857)); Missing Art
-//        pokemon.add(new VaritasianImpidimp(859)); Member of line Not Finished
-//        pokemon.add(new VaritasianMorgrem(860)); Member of line Not Finished
+        pokemon.add(new VaritasianImpidimp(859));
+        pokemon.add(new VaritasianMorgrem(860));
         pokemon.add(new VaritasianMilcery(868));
         pokemon.add(new VaritasianAlcremie(869));
 //        pokemon.add(new VaritasianDreepy(885)); Member of line Not Finished

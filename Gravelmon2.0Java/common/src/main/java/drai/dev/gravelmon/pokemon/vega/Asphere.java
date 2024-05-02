@@ -98,8 +98,7 @@ public class Asphere extends Pokemon {
                 List.of(Label.VEGA, Label.LEGENDARY),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 70, 0.000002, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY, "true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.21, 0.3,
@@ -121,8 +120,7 @@ public class Asphere extends Pokemon {
                         List.of(Label.VEGA),
                         0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 12, 34, 0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
-                        new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                         List.of(SpawnPreset.NATURAL),
                         1.4, 0.3),
@@ -144,8 +142,7 @@ public class Asphere extends Pokemon {
                                 List.of(Label.VEGA),
                                 0, List.of(
                         ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 12, 34, 0, List.of(
-                                new BiomeSpawnCondition(List.of(Biome.IS_END)),
-                                new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
+                                new BiomeSpawnCondition(List.of(Biome.IS_END))
                         ), List.of(),
                                 List.of(SpawnPreset.NATURAL),
                                 1.4, 0.3)));

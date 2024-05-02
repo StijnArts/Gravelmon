@@ -7,29 +7,38 @@ import java.util.*;
 
 
 public class Permaent extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Permaent() {
+    public Permaent(Stats stats) {
         super("Permaent",
                 Type.GRASS, Type.ICE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SNOW_WARNING), Ability.SOUNDPROOF,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 165,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.RAZOR_LEAF,1),
+                        new MoveLearnSetEntry(Move.ICY_WIND,13),
+                        new MoveLearnSetEntry(Move.MIST,16),
+                        new MoveLearnSetEntry(Move.AVALANCHE,19),
+                        new MoveLearnSetEntry(Move.NATURAL_GIFT,22),
+                        new MoveLearnSetEntry(Move.LEAF_TORNADO,26),
+                        new MoveLearnSetEntry(Move.FRUITMUNCH,32),
+                        new MoveLearnSetEntry(Move.ICE_BEAM,37),
+                        new MoveLearnSetEntry(Move.SNOWSCAPE,43),
+                        new MoveLearnSetEntry(Move.ENERGY_BALL,48),
+                        new MoveLearnSetEntry(Move.SWEETDECAY,52),
+                        new MoveLearnSetEntry(Move.BLIZZARD,55),
+                        new MoveLearnSetEntry(Move.SHEER_COLD,60)
+                ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.RARE, 40, 49, 1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

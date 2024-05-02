@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.pokemmo.firstbatch;
 
 import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.mushi.*;
 import drai.dev.gravelmon.pokemon.qamor.Albacross;
@@ -51,6 +52,8 @@ import drai.dev.gravelmon.pokemon.varitas.*;
 import drai.dev.gravelmon.pokemon.aristos.*;
 import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
+
+import java.util.*;
 
 public class Qamor extends drai.dev.gravelmon.games.registry.Game {
     public Qamor() {
@@ -120,8 +123,9 @@ public class Qamor extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Paposy());
         pokemon.add(new Ancaleana());
         pokemon.add(new Belublebug());
-//        pokemon.add(new Wibble()); //Members of line not finished
-//        pokemon.add(new Norsery()); //Missing Stats
+//        pokemon.add(new Wibble()); Members of line not finished
+        pokemon.add(new Norsery(new Stats(345, StatArchetype.FAST_SUPPORT,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Forflush());
         pokemon.add(new Sycelium());
         pokemon.add(new Cerecybim());

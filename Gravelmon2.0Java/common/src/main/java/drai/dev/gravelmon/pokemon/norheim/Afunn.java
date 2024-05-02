@@ -17,14 +17,19 @@ public class Afunn extends drai.dev.gravelmon.pokemon.Pokemon {
                         75,
                         10),
                 List.of(Ability.SOLID_ROCK), Ability.SOLID_ROCK,
-                8, 165,
+                13, 165,
                 new Stats(0,1,1,0,0,0), 50,
                 0.0,
                 78, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL),
-                List.of("- Harden Normal - Tackle Normal 6 Rock BlastSTAB Rock 12 Tar Shot Rock 18 IncinerateSTAB Fire 24 Amnesia Psychic 30 Heat CrashSTAB Fire 36 Sandstorm Rock 42 Take Down Normal 48 Ancient PowerSTAB Rock 54 Trick Room Psychic 60 Zen Headbutt Psychic"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("volcunn", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"))),
+                        new EvolutionEntry("Mountunn", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40"))),
+                        new EvolutionEntry("Glacunn", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),
                         new MoveLearnSetEntry(Move.ROCK_BLAST,6),
@@ -39,9 +44,8 @@ public class Afunn extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,60)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 34, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_FREEZING, Biome.IS_VOLCANIC))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

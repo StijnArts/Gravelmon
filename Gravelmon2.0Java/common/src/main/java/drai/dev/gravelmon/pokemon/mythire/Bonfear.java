@@ -8,14 +8,14 @@ public class Bonfear extends drai.dev.gravelmon.pokemon.Pokemon {
     public Bonfear() {
         super("Bonfear",
                 Type.FIRE, Type.ICE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(76,
+                        87,
+                        56,
+                        95,
+                        65,
+                        97),
                 List.of(Ability.FLASH_FIRE,Ability.ILLUMINATE,Ability.PRESSURE), Ability.PRESSURE,
-                8, 165,
+                16, 165,
                 new Stats(0,0,0,0,0,0), 60,
                 0.5,
                 0, ExperienceGroup.SLOW,
@@ -24,6 +24,20 @@ public class Bonfear extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("The lantern it carries absorbs heat, so everything around it becomes cold. No matter how much warmth it steals, however, Bonfear is always shivering."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.LICK,1),
+                        new MoveLearnSetEntry(Move.EMBER,1),
+                        new MoveLearnSetEntry(Move.SMOG,4),
+                        new MoveLearnSetEntry(Move.TAUNT,7),
+                        new MoveLearnSetEntry(Move.ASSURANCE,10),
+                        new MoveLearnSetEntry(Move.ICE_FANG,13),
+                        new MoveLearnSetEntry(Move.FIRE_FANG,17),
+                        new MoveLearnSetEntry(Move.HEADBUTT,21),
+                        new MoveLearnSetEntry(Move.SCREECH,25),
+                        new MoveLearnSetEntry(Move.FLAME_CHARGE,28),
+                        new MoveLearnSetEntry(Move.SWAGGER,32),
+                        new MoveLearnSetEntry(Move.ICICLE_SPEAR,36),
+                        new MoveLearnSetEntry(Move.UPROAR,41),
+                        new MoveLearnSetEntry(Move.GUNK_SHOT,50),
                         new MoveLearnSetEntry(Move.AERIAL_ACE,"tm"),
                         new MoveLearnSetEntry(Move.ATTRACT,"tm"),
                         new MoveLearnSetEntry(Move.AURA_SPHERE,"tm"),
@@ -96,11 +110,11 @@ public class Bonfear extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILLOWISP,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 13, 35, 3, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.NEAR_CAMPFIRE),
                 0.28, 0.3,
                 List.of());
            setLangFileName("Bonfear");

@@ -49,8 +49,7 @@ public class Slickitty extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.NASTY_PLOT,"tm"),
                         new MoveLearnSetEntry(Move.THUNDERTAIL,"tm"),
                         new MoveLearnSetEntry(Move.EERIE_IMPULSE,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

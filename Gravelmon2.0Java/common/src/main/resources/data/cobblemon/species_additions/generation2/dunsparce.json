@@ -51,6 +51,19 @@
       "move": "skydrop"
      }
     ]
+   },
+   {
+    "id": "dunsparce_dustout",
+    "variant": "level_up",
+    "result": "dustout",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [
+     {
+      "variant": "has_move",
+      "move": "dig"
+     }
+    ]
    }
  ],
    "moves": [

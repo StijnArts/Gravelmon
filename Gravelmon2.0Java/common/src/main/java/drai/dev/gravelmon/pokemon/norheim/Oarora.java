@@ -17,8 +17,8 @@ public class Oarora extends drai.dev.gravelmon.pokemon.Pokemon {
                         100,
                         80),
                 List.of(Ability.LEVITATE,Ability.MAGIC_BOUNCE,Ability.PSYCHIC_SURGE), Ability.PSYCHIC_SURGE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                15, 165,
+                new Stats(0,0,0,0,0,0), 50,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
@@ -42,8 +42,9 @@ public class Oarora extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.COIL,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 38, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

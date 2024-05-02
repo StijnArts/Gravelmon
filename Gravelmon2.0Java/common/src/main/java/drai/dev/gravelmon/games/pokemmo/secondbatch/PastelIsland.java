@@ -115,9 +115,6 @@ public class PastelIsland extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Shellder(90));
         pokemon.add(new Cloyster(91));
         pokemon.add(new Doiliwoo());
-//        pokemon.add(new Stalittle());   Missing Stats
-//        pokemon.add(new Sedinane());   Missing Stats
-//        pokemon.add(new Carrauntain());   Missing Stats
         pokemon.add(new Sneasel(215));
         pokemon.add(new Weavile(461));
         pokemon.add(new Dametal());
@@ -139,9 +136,6 @@ public class PastelIsland extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Happiny(440));
         pokemon.add(new Chansey(113));
         pokemon.add(new Bossey());
-//        pokemon.add(new Marshun());   Missing Stats
-//        pokemon.add(new Brailien());   Missing Stats
-//        pokemon.add(new Cereboost());   Missing Stats
 //        pokemon.add(new PsyEye());   Missing Stats
 //        pokemon.add(new Hyprentice());   Missing Stats
 //        pokemon.add(new Hallusage());   Missing Stats

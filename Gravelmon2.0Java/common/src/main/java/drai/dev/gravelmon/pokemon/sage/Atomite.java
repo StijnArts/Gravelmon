@@ -90,8 +90,7 @@ public class Atomite extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:spider_eye",90, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 17, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.2, 0.3,

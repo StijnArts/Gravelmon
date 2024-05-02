@@ -5,23 +5,18 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class Cereboost extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Cereboost() {
+    public Cereboost(Stats stats) {
         super("Cereboost",
                 Type.PSYCHIC, Type.STEEL,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.ADAPTABILITY,Ability.ANALYTIC,Ability.CONTRARY), Ability.CONTRARY,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                23, 165,
+                new Stats(0,0,0,0,0,0), 30,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("15 Glow SignalSTAB Psychic 45 StarstreamSTAB Psychic"),
+                List.of(""),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.GLOWSIGNAL,15),
@@ -112,16 +107,32 @@ public class Cereboost extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOLTIN,"tm"),
                         new MoveLearnSetEntry(Move.FLASH_CANNON,"tm"),
                         new MoveLearnSetEntry(Move.GYRO_BALL,"tm"),
-                        new MoveLearnSetEntry(Move.RAIN_DANCE,"tm")                        ),
-                List.of(Label.NOSTO),
+                        new MoveLearnSetEntry(Move.RAIN_DANCE,"tm"),
+        new MoveLearnSetEntry(Move.CONFUSION,1),
+                new MoveLearnSetEntry(Move.TACKLE,1),
+                new MoveLearnSetEntry(Move.CONFUSE_RAY,4),
+                new MoveLearnSetEntry(Move.PAYBACK,8),
+                new MoveLearnSetEntry(Move.IMPRISON,12),
+                new MoveLearnSetEntry(Move.GYRO_BALL,16),
+                new MoveLearnSetEntry(Move.HYPNOSIS,20),
+                new MoveLearnSetEntry(Move.SAFEGUARD,24),
+                new MoveLearnSetEntry(Move.EXTRASENSORY,28),
+                new MoveLearnSetEntry(Move.HEAVY_SLAM,32),
+                new MoveLearnSetEntry(Move.IRON_DEFENSE,36),
+                new MoveLearnSetEntry(Move.METAL_SOUND,40),
+                new MoveLearnSetEntry(Move.FUTURE_SIGHT,44)
+                ),
+        List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(),
+        ), SpawnContext.GROUNDED, SpawnPool.RARE, 56, 65, .1, List.of(
+                new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),
+                new SpawnCondition(SpawnConditionType.TIMERANGE,"night"),
+                new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+        ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Cereboost");
 
     }

@@ -68,11 +68,14 @@
     "53:leafstorm"  ],
   "labels": [
     "qamor",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.qamorandewgong.desc"
   ],
+  "preEvolution": "qamoranseel",
   "baseScale": 0.525,
   "hitbox": {
     "width": 6.0,

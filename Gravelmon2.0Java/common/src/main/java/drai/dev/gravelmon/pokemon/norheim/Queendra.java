@@ -7,23 +7,18 @@ import java.util.*;
 
 
 public class Queendra extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Queendra() {
+    public Queendra(Stats stats) {
         super("Queendra",
                 Type.DRAGON,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.SWIFT_SWIM,Ability.SNIPER,Ability.OUTBURST), Ability.OUTBURST,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 165,
+                new Stats(0,0,0,0,0,0), 45,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("Evo Dragon PulseSTAB Dragon"),
+                List.of(""),
                 List.of(),
                 List.of(new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.THUNDER_WAVE,1),
@@ -42,7 +37,7 @@ public class Queendra extends drai.dev.gravelmon.pokemon.Pokemon {
                 ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 45, 58, .18, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 45, 58, .18, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

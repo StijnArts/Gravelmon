@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "norheimanglimmora-1",
+      "pokemon": "norheimanglimmora",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "35-54",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

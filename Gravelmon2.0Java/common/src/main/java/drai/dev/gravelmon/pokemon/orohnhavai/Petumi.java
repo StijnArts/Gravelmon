@@ -44,8 +44,7 @@ public class Petumi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MAGICAL_LEAF,"tm"),
                         new MoveLearnSetEntry(Move.DISARMING_VOICE,"tm"),
                         new MoveLearnSetEntry(Move.FLOWER_SHIELD,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),

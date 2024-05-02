@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "venomenace-1",
+      "pokemon": "venomenace",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "ultra-rare",
+      "level": "64-75",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#minecraft:is_deep_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -18,13 +18,14 @@ public class Snootsnoot extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.SNOW_CLOAK,Ability.ICE_BODY,Ability.SNOW_WARNING), Ability.SNOW_WARNING,
                 8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of("Their eyes work like the fire of a snow lantern; shining and flickering. Only the ones with the greatest endurance make it through the winter."),
-                List.of(),
+                List.of(new EvolutionEntry("snowl", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ASTONISH,1),
                         new MoveLearnSetEntry(Move.POWDER_SNOW,8),
@@ -38,9 +39,10 @@ public class Snootsnoot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HURRICANE,55)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SNOWY_FOREST, Biome.IS_TUNDRA)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
+                        new SpawnCondition(SpawnConditionType.TIMERANGE,"night")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

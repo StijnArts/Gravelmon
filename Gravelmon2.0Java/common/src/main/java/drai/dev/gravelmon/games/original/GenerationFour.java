@@ -1,6 +1,7 @@
 package drai.dev.gravelmon.games.original;
 
 import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
@@ -25,6 +26,8 @@ import drai.dev.gravelmon.pokemon.rica.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
+
+import java.util.*;
 
 public class GenerationFour extends Game {
     public GenerationFour() {
@@ -57,21 +60,23 @@ public class GenerationFour extends Game {
         pokemon.add(new NovranCherrim(421));
 
         pokemon.add(new QamoranCombee(415));
-//        pokemon.add(new QamoranTangrowth(465)); Missing Stats
+        pokemon.add(new QamoranTangrowth(465));
 
 //        pokemon.add(new NorheimanShinx(403)); Member of line Not Finished
 //        pokemon.add(new NorheimanLuxio(404)); Missing Art
 //        pokemon.add(new NorheimanLuxray(405)); Member of line Not Finished
-//        pokemon.add(new NorheimanMismagius(429)); Missing Stats
+        pokemon.add(new NorheimanMismagius(429, new Stats(495, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
 
 //        pokemon.add(new VaritasianBonsly(438)); Member of line Not Finished
 //        pokemon.add(new VaritasianMimeJr(439)); Missing Art
         pokemon.add(new VaritasianMunchlax(446));
 //        pokemon.add(new VaritasianMantyke(458)); Member of line Not Finished
 
-//        pokemon.add(new InterianPiplup(393)); Missing Stats
-//        pokemon.add(new InterianPrinplup(394)); Missing Stats
-//        pokemon.add(new InterianEmpoleon(395)); Missing Stats
+        pokemon.add(new InterianPiplup(393));
+        pokemon.add(new InterianPrinplup(394));
+        pokemon.add(new InterianEmpoleon(395, new Stats(534, StatArchetype.FAST_SPECIAL_WALL,
+                List.of(Stats.StatType.SPECIAL_ATTACK))));
         pokemon.add(new InterianArceus(493));
 //
         pokemon.add(new HubianTogekiss(468));

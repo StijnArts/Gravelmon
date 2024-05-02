@@ -51,8 +51,7 @@ public class Finray extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WATER_PULSE,"tm"),
                         new MoveLearnSetEntry(Move.DRAGON_PULSE,"tm"),
                         new MoveLearnSetEntry(Move.ICE_FANG,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 3, 22, 5.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_RIVER)),

@@ -44,8 +44,7 @@ public class Stegrump extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.MAGNITUDE,"tm"),
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"tm"),
                         new MoveLearnSetEntry(Move.ROCK_CLIMB,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 21, 45, 5.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND)),

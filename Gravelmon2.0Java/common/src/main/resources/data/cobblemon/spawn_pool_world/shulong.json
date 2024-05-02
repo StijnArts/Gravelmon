@@ -16,8 +16,7 @@
       "weight": 8.0,
       "condition": {
 "biomes": [ "#cobblemon:is_jungle",
-"#minecraft:is_end" ],
-        "canSeeSky": true
+"#minecraft:is_end" ]
       }
     }
   ]

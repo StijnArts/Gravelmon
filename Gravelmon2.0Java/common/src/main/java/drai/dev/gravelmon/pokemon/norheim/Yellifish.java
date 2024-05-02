@@ -17,14 +17,15 @@ public class Yellifish extends drai.dev.gravelmon.pokemon.Pokemon {
                         90,
                         60),
                 List.of(Ability.CLEAR_BODY), Ability.WATER_ABSORB,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                7, 165,
+                new Stats(0,0,0,0,0,0), 190,
                 0.5,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
-                List.of("- Eerie Impulse Electric 4 AstonishSTAB Ghost 7 Barrier Psychic 14 Aqua Ring Water 18 ConfusionSTAB Psychic 22 Confuse Ray Ghost 26 PsywaveSTAB Psychic 32 Acid Armor Poison 37 Shadow BallSTAB Ghost 40 Screech Normal 44 PsyshockSTAB Psychic"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("phantocean", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.EERIE_IMPULSE,1),
                         new MoveLearnSetEntry(Move.ASTONISH,4),
@@ -43,13 +44,16 @@ public class Yellifish extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ACID_SPRAY,"tm")                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 6, 28, 6, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setCanBreathUnderwater(true);
+        setAvoidsLand(true);
            setLangFileName("Yellifish");
 
     }

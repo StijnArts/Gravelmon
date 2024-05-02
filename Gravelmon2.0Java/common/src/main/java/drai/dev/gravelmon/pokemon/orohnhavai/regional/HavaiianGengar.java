@@ -81,8 +81,7 @@ public class HavaiianGengar extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BURNING_JEALOUSY,"tm"),
                         new MoveLearnSetEntry(Move.POLTERGEIST,"tm")
                         ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 36, 50, .06, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_VOLCANIC, Biome.IS_NETHER_SOUL_FIRE))

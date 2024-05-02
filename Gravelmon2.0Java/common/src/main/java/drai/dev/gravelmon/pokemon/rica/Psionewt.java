@@ -24,7 +24,7 @@ public class Psionewt extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(EggGroup.WATER_1),
                 List.of("Psionewt walks slowly, so it teleports when in a hurry. This Pokemon concentrates psychic energy in its skin."),
-                List.of(new EvolutionEntry("psionewt", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("Desmodon", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.SPLASH,1),

@@ -52,10 +52,10 @@ public class NorheimanSeadra extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,
                 List.of());
+        setCanSwim(true);
+        setAvoidsLand(true);
+        setCanBreathUnderwater(true);
            setLangFileName("Seadra");
-setCanSwim(true);
-setAvoidsLand(true);
-setCanBreathUnderwater(true);
     }
 
 

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pterysoar",
-  "nationalPokedexNumber": 3948,
+  "nationalPokedexNumber": 4173,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
@@ -63,11 +63,14 @@
     "61:stoneedge"  ],
   "labels": [
     "kuria",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pterysoar.desc"
   ],
+  "preEvolution": "ferociraptor",
   "evolutions": [
     {
       "id": "pterysoar_hoatzan",

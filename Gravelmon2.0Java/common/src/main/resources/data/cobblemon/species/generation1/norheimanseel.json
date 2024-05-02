@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "norheimanseel",
+  "nationalPokedexNumber": 86,
+  "primaryType": "water",
+  "secondaryType": "fairy",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 58,
+    "attack": 30,
+    "defence": 50,
+    "special_attack": 72,
+    "special_defence": 55,
+    "speed": 63
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.87,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:echoedvoicesound",
+    "1:growl",
+    "5:bubble",
+    "8:disarmingvoicesound",
+    "13:singsound",
+    "15:whirlpool",
+    "20:drainingkiss",
+    "22:charm",
+    "27:bubblebeam",
+    "29:lifedew",
+    "34:brine",
+    "36:calmmind",
+    "41:hypervoicesound",
+    "43:sparklingariasound",
+    "48:raindance",
+    "50:moonblast",
+    "55:perishsongsound",
+    "57:hydropump"  ],
+  "labels": [
+    "norheim",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.norheimanseel.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "norheimanseel_sealady",
+      "variant": "level_up",
+      "result": "sealady",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.17500000000000002,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 7,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

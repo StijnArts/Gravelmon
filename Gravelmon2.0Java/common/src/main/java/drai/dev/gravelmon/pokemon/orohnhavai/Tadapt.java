@@ -50,8 +50,7 @@ public class Tadapt extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.RECOVER,"tm"),
                         new MoveLearnSetEntry(Move.DARK_PULSE,"tm"),
                         new MoveLearnSetEntry(Move.MUD_BOMB,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 1, 22, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),

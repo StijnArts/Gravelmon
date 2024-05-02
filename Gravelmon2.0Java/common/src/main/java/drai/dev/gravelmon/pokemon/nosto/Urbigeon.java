@@ -5,25 +5,32 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class Urbigeon extends drai.dev.gravelmon.pokemon.Pokemon {
-    public Urbigeon() {
+    public Urbigeon(Stats stats) {
         super("Urbigeon",
                 Type.POISON, Type.FLYING,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                17, 165,
+                new Stats(0,0,0,0,0,0), 45,
                 0.5,
                 0, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FLYING),
-                List.of("Knock Off Dark Snatch Dark Dual WingbeatSTAB Flying Tailwind Flying Snore Normal Corrosive Gas Poison Gunk ShotSTAB Poison Toxic FumesSTAB Poison Dark Pulse Dark Fling Dark Nasty Plot Dark Payback Dark Taunt Dark Thief Dark Torment Dark Charge Beam Electric Stun Jab Electric Thunder Wave Electric Dazzling Gleam Fairy Focus Blast Fighting Low Sweep Fighting AcrobaticsSTAB Flying Aerial AceSTAB Flying Defog Flying Feather SlashSTAB Flying FlySTAB Flying Roost Flying Sky DropSTAB Flying Malice Strike Ghost Shadow Ball Ghost Shadow Claw Ghost Attract Normal Body Slam Normal Confide Normal Cut Normal Double Team Normal Double-Edge Normal Echoed Voice Normal Facade Normal Flash Normal Frustration Normal Giga Impact Normal Heartfelt Pulse Normal Hidden Power Normal Hyper Beam Normal Protect Normal Psych Up Normal Return Normal Round Normal Sleep Talk Normal Strength Normal Substitute Normal Swagger Normal Swords Dance Normal Work Up Normal Filthy Terrain Poison Poison JabSTAB Poison Sludge BombSTAB Poison Sludge WaveSTAB Poison Toxic Poison VenoshockSTAB Poison Rest Psychic Steel Wing Steel"),
+                List.of(""),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.PECK,1),
+                        new MoveLearnSetEntry(Move.GROWL,1),
+                        new MoveLearnSetEntry(Move.ACID,6),
+                        new MoveLearnSetEntry(Move.RECYCLE,12),
+                        new MoveLearnSetEntry(Move.PLUCK,16),
+                        new MoveLearnSetEntry(Move.CROSS_POISON,22),
+                        new MoveLearnSetEntry(Move.FLING,26),
+                        new MoveLearnSetEntry(Move.ROOST,32),
+                        new MoveLearnSetEntry(Move.FLY,36),
+                        new MoveLearnSetEntry(Move.GUNK_SHOT,42),
+                        new MoveLearnSetEntry(Move.GASTRO_ACID,46),
+                        new MoveLearnSetEntry(Move.BELCH,52),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tm"),
                         new MoveLearnSetEntry(Move.SNATCH,"tm"),
                         new MoveLearnSetEntry(Move.DUAL_WINGBEAT,"tm"),
@@ -89,13 +96,14 @@ public class Urbigeon extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.STEEL_WING,"tm")                        ),
                 List.of(Label.NOSTO),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 34, 54, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TEMPERATE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.VILLAGE),
                 0.28, 0.3,
                 List.of());
+        setCanFly(true);
            setLangFileName("Urbigeon");
 
     }

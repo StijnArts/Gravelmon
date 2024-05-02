@@ -43,8 +43,7 @@ public class Camohut extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BULK_UP,52),
                         new MoveLearnSetEntry(Move.EARTHQUAKE,57),
                         new MoveLearnSetEntry(Move.OUTRAGE,62)              ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 7, 31, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),

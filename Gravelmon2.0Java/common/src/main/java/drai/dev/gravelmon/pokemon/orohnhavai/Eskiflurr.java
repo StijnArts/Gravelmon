@@ -26,8 +26,7 @@ public class Eskiflurr extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Eskiflurr have very soft and silky fur that lock in heat to help it withstand extremely cold temperatures while the ice crystals lining its body help it to endure extreme heat. This species is in danger of extinction because its highly valuable fur and ice crystals being used for clothing and jewelry, making them hard to find in the wild or with Trainers."),
                 List.of(),
                 List.of(                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

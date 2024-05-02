@@ -46,8 +46,7 @@ public class Wreckasaur extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICE_FANG,"tm"),
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm"),
                         new MoveLearnSetEntry(Move.CHIP_AWAY,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 38, 56, .4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BADLANDS)),

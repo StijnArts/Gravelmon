@@ -45,8 +45,7 @@ public class Sensarat extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.SPIT_UP,"tm"),
                         new MoveLearnSetEntry(Move.SWALLOW,"tm"),
                         new MoveLearnSetEntry(Move.RECYCLE,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 21, 43, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE))

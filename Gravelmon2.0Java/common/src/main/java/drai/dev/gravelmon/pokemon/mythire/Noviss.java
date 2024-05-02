@@ -15,14 +15,15 @@ public class Noviss extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.BLAZE), Ability.CONTRARY,
-                8, 165,
+                9, 165,
                 new Stats(0,0,0,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DRAGON,EggGroup.MONSTER),
                 List.of("It has a piercing stare, and never seems to take its eyes off something it's interested in, often sitting motionless for hours. One lick from its tongue can cause paralysis."),
-                List.of(),
+                List.of(new EvolutionEntry("volkydra", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.EMBER,6),
@@ -67,8 +68,8 @@ public class Noviss extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERTAIL,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -8,12 +8,12 @@
     "h:keeneye"
   ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 40,
+    "attack": 59,
+    "defence": 46,
+    "special_attack": 38,
+    "special_defence": 51,
+    "speed": 60
   },
   "behaviour": {
     "resting": {
@@ -70,9 +70,9 @@
   ],
   "evolutions": [
     {
-      "id": "solcorn_furrutail",
+      "id": "solcorn_Ferrutail",
       "variant": "level_up",
-      "result": "furrutail",
+      "result": "Ferrutail",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

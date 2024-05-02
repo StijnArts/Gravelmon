@@ -12,7 +12,26 @@
     "move": "acrobatics"
    }
   ]
- }],
+ },
+  {
+   "id": "wingull_seascull",
+   "variant": "level_up",
+   "result": "seascull",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#cobblemon:is_cold"
+    },
+    {
+     "variant": "level",
+     "minLevel": 30
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:growl",
     "1:watergun",

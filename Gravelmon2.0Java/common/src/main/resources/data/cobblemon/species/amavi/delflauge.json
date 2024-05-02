@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "delflauge",
-  "nationalPokedexNumber": 5394,
+  "nationalPokedexNumber": 5619,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -63,11 +63,14 @@
     "52:waterspout"  ],
   "labels": [
     "amavi",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.delflauge.desc"
   ],
+  "preEvolution": "echoral",
   "evolutions": [
     {
       "id": "delflauge_delfraxion",

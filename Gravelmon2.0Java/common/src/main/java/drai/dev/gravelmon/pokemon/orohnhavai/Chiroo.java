@@ -41,8 +41,7 @@ public class Chiroo extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRILL_PECK,56),
                         new MoveLearnSetEntry(Move.BATON_PASS,61),
                         new MoveLearnSetEntry(Move.WIDE_GUARD,66)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 19, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),

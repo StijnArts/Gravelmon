@@ -42,8 +42,7 @@ public class Zedakazm extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRUDGE,79),
                         new MoveLearnSetEntry(Move.DESTINY_BOND,85),
                         new MoveLearnSetEntry(Move.GIGA_IMPACT,91)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 55, 65, .01, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_NETHER_SOUL_SAND, Biome.IS_NETHER_SOUL_FIRE))

@@ -15,7 +15,7 @@ public class Venomenace extends drai.dev.gravelmon.pokemon.Pokemon {
                         98,
                         84),
                 List.of(Ability.POISON_POINT), Ability.POISON_POINT,
-                8, 165,
+                24, 165,
                 new Stats(0,2,1,0,0,0), 45,
                 0.5,
                 270, ExperienceGroup.SLOW,
@@ -24,6 +24,15 @@ public class Venomenace extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Fuelled by an unforgiving rage, it's driven by the revenge of every memory of suffering. Using its large, broad wings it effortlessly flies across the depths and breathes a volley of poison miasma on those down below."),
                 List.of(),
                 List.of(
+                        new MoveLearnSetEntry(Move.DRAGON_CLAW,1),
+                        new MoveLearnSetEntry(Move.POISON_JAB,1),
+                        new MoveLearnSetEntry(Move.POISON_STING,1),
+                        new MoveLearnSetEntry(Move.TOXIC_SPIKES,1),
+                        new MoveLearnSetEntry(Move.TWISTER,1),
+                        new MoveLearnSetEntry(Move.DRAGON_BREATH,1),
+                        new MoveLearnSetEntry(Move.OUTRAGE,1),
+                        new MoveLearnSetEntry(Move.SWAGGER,1),
+                        new MoveLearnSetEntry(Move.SCARY_FACE,1),
                         new MoveLearnSetEntry(Move.AQUA_TAIL,1),
                         new MoveLearnSetEntry(Move.FIRE_BLAST,"tm"),
                         new MoveLearnSetEntry(Move.THUNDER,"tm"),
@@ -36,13 +45,15 @@ public class Venomenace extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm")                        ),
                 List.of(Label.OCEANE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 64, 75, .1, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
+        setCanSwim(true);
            setLangFileName("Venomenace");
 
     }

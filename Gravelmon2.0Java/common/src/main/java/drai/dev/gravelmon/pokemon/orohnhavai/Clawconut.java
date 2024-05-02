@@ -39,8 +39,7 @@ public class Clawconut extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CRABHAMMER,38),
                         new MoveLearnSetEntry(Move.WIDE_GUARD,42),
                         new MoveLearnSetEntry(Move.STONE_EDGE,46)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),

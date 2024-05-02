@@ -44,8 +44,7 @@ public class Grandorent extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.AGILITY,"tm"),
                         new MoveLearnSetEntry(Move.SUPER_FANG,"tm"),
                         new MoveLearnSetEntry(Move.PLAY_ROUGH,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 15, 34, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),

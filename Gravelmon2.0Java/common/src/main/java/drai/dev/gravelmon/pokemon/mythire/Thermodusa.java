@@ -8,14 +8,15 @@ public class Thermodusa extends drai.dev.gravelmon.pokemon.Pokemon {
     public Thermodusa() {
         super("Thermodusa",
                 Type.FIRE, Type.ELECTRIC,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                new Stats(86,
+                        109,
+                        87,
+                        68,
+                        87,
+                        86
+                ),
                 List.of(Ability.BLAZE), Ability.CONTRARY,
-                8, 165,
+                18, 165,
                 new Stats(0,0,0,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
@@ -76,8 +77,8 @@ public class Thermodusa extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDERTAIL,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 36, 58, 0.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TROPICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

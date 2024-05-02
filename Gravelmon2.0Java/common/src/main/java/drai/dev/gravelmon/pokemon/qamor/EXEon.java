@@ -121,8 +121,7 @@ public class EXEon extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of(Label.QAMOR),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 44, 56, 0.1, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

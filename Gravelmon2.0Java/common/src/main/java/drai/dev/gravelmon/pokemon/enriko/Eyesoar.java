@@ -22,7 +22,7 @@ public class Eyesoar extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of("Their single eye grants them impressive night vision, but they lack depth perception. They gorge themselves on blood at night."),
-                List.of(new EvolutionEntry("eyesoar", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Pteroculus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"31")))),
                 List.of(     new MoveLearnSetEntry(Move.LEER,1),
                         new MoveLearnSetEntry(Move.ACID,5),

@@ -49,8 +49,7 @@ public class Flaero extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.THUNDER_FANG,"tm"),
                         new MoveLearnSetEntry(Move.FIRE_FANG,"tm"),
                         new MoveLearnSetEntry(Move.HEMODRAIN,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_CAVE, Biome.IS_NETHER_FOREST))

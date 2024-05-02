@@ -40,8 +40,7 @@ public class Clastroid extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PROTECT,33),
                         new MoveLearnSetEntry(Move.POWER_GEM,36),
                         new MoveLearnSetEntry(Move.ICICLE_CRASH,40)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 11, 32, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

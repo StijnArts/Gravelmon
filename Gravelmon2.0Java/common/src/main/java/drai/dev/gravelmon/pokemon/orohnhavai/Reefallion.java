@@ -50,8 +50,7 @@ public class Reefallion extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BLOCK,"tm"),
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"tm"),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE,  36, 58, 0.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lasaur",
-  "nationalPokedexNumber": 2288,
+  "nationalPokedexNumber": 2343,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -69,9 +69,9 @@
   ],
   "evolutions": [
     {
-      "id": "lasaur_lectosaur",
+      "id": "lasaur_Lectrosaur",
       "variant": "level_up",
-      "result": "lectosaur",
+      "result": "Lectrosaur",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [

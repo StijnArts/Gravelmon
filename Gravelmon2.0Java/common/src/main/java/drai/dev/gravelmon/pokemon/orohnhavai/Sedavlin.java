@@ -40,8 +40,7 @@ public class Sedavlin extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PETAL_DANCE,50),
                         new MoveLearnSetEntry(Move.BUG_BUZZ,54),
                         new MoveLearnSetEntry(Move.QUIVER_DANCE,61)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 12, 31, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

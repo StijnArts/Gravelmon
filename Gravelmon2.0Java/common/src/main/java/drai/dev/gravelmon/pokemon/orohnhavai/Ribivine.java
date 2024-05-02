@@ -40,8 +40,7 @@ public class Ribivine extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_WHIP,45),
                         new MoveLearnSetEntry(Move.AGILITY,50),
                         new MoveLearnSetEntry(Move.SWORDS_DANCE,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 25, 43, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

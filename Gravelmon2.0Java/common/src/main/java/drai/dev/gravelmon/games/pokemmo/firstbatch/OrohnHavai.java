@@ -21,6 +21,7 @@ import drai.dev.gravelmon.pokemon.atlas.Trillowee;
 import drai.dev.gravelmon.pokemon.atlas.Turtelisk;
 import drai.dev.gravelmon.pokemon.atlas.Wilspri;
 import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.dhiome.*;
 import drai.dev.gravelmon.pokemon.mushi.*;
 import drai.dev.gravelmon.pokemon.orohnhavai.Abyssoul;
@@ -72,6 +73,8 @@ import drai.dev.gravelmon.pokemon.aristos.*;
 import drai.dev.gravelmon.pokemon.midamis.*;
 import drai.dev.gravelmon.pokemon.norheim.*;
 
+import java.util.*;
+
 public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
     public OrohnHavai() {
         super("Orohn-Havai");
@@ -94,8 +97,8 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Warblu());
         pokemon.add(new Territore());
         pokemon.add(new Warshrike());
-//        pokemon.add(new Troopant()); //Missing art
-//        pokemon.add(new Antzooka()); //Missing art
+//        pokemon.add(new Troopant()); Missing art
+//        pokemon.add(new Antzooka()); Missing art
         pokemon.add(new Goosea());
         pokemon.add(new Neinei());
         pokemon.add(new Zapillar());
@@ -137,9 +140,10 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Trairoo());
         pokemon.add(new Luvenny());
         pokemon.add(new Suavenny());
-//        pokemon.add(new Pebblent()); //Member of line not finished
-//        pokemon.add(new Rocroset()); //Member of line not finished
-//        pokemon.add(new Granderosa()); //Missing Stats
+        pokemon.add(new Pebblent());
+        pokemon.add(new Rocroset());
+        pokemon.add(new Granderosa(new Stats(512, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(Stats.StatType.DEFENCE))));
         pokemon.add(new Reefermal());
         pokemon.add(new Veilvid());
         pokemon.add(new Brambarb());
@@ -167,10 +171,10 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Meritrot());
         pokemon.add(new Stalliot());
         pokemon.add(new Carosella());
-//        pokemon.add(new Timingo()); //Missing Stats
-//        pokemon.add(new Flambagant()); //Member of line not finished
-//        pokemon.add(new Glimpid()); //Member of line not finished
-//        pokemon.add(new Cryosect()); //Missing Art
+        pokemon.add(new Timingo());
+        pokemon.add(new Flambagant());
+//        pokemon.add(new Glimpid()); Member of line not finished
+//        pokemon.add(new Cryosect()); Missing Art
         pokemon.add(new Hematick());
         pokemon.add(new Vorvosip());
         pokemon.add(new Stegrump());
@@ -180,14 +184,17 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Wreckasaur());
         pokemon.add(new Arrocknid());
         pokemon.add(new Exoroknid());
-//        pokemon.add(new Kragodon()); //Missing Stats
+        pokemon.add(new Kragodon(new Stats(415, StatArchetype.PHYSICAL_WALL,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.HP))));
         pokemon.add(new Therasloth());
         pokemon.add(new Slotherror());
-//        pokemon.add(new Pitopyre()); //Missing Stats
+        pokemon.add(new Pitopyre(new Stats(378, StatArchetype.SPECIAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
         pokemon.add(new Wooble());
         pokemon.add(new Snowool());
         pokemon.add(new Shiveram());
-//        pokemon.add(new Burnuki()); //Missing Stats
+        pokemon.add(new Burnuki(new Stats(388, StatArchetype.SPECIAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPEED))));
         pokemon.add(new Turtelisk());
         pokemon.add(new Karaggon());
         pokemon.add(new Akrovern());
@@ -197,24 +204,25 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Clastroid());
         pokemon.add(new Colistroid());
         pokemon.add(new Galixoid());
-//        pokemon.add(new Ferobite()); //Missing Stats
-//        pokemon.add(new Purswayer()); //Member of line not finished
+        pokemon.add(new Ferobite());
+        pokemon.add(new Purswayer());
         pokemon.add(new Fortibal());
         pokemon.add(new Armodieval());
-//        pokemon.add(new Chillimp()); //Missing Stats
+        pokemon.add(new Chillimp(new Stats(345, StatArchetype.FAST_SPECIAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Pinxie());
         pokemon.add(new Cosminx());
-//        pokemon.add(new Konchore()); //Missing Stats
-//        pokemon.add(new Neptide()); //Missing Stats
-//        pokemon.add(new Lemomi()); //Missing Stats
-//        pokemon.add(new Shelmissy()); //Missing Stats
-//        pokemon.add(new Empressea()); //Missing Stats
+//        pokemon.add(new Konchore()); Missing Stats
+//        pokemon.add(new Neptide()); Missing Art
+//        pokemon.add(new Lemomi()); Missing Stats
+//        pokemon.add(new Shelmissy()); Missing Art
+//        pokemon.add(new Empressea()); Missing Art
         pokemon.add(new Sharfin());
         pokemon.add(new Thrashark());
         pokemon.add(new Abyssoul());
         pokemon.add(new Voidevour());
-//        pokemon.add(new Gargobble()); //Missing Art
-//        pokemon.add(new Garglizer()); //Member of line not finished
+//        pokemon.add(new Gargobble()); Missing Art
+//        pokemon.add(new Garglizer()); Member of line not finished
         pokemon.add(new Ruffski());
         pokemon.add(new Arblizen());
         pokemon.add(new Siberizen());
@@ -222,9 +230,10 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Wilspri());
         pokemon.add(new Trillowee());
 
-//        pokemon.add(new Oreglyph()); //Missing Stats
-//        pokemon.add(new Geoglyphic()); //Missing Stats
-//        pokemon.add(new Eskiflurr()); //Missing art
+        pokemon.add(new Oreglyph());
+        pokemon.add(new Geoglyphic(new Stats(476, StatArchetype.SLOW_BULKY_SPECIAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_DEFENCE))));
+//        pokemon.add(new Eskiflurr()); Missing art
         pokemon.add(new Tasticky());
         pokemon.add(new Tadapt());
         pokemon.add(new Thornment());
@@ -233,36 +242,37 @@ public class OrohnHavai extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Elecko());
         pokemon.add(new Foxsye());
         pokemon.add(new Veroxifye());
-//        pokemon.add(new Chainect()); //Missing art
-//        pokemon.add(new Chainector()); //Missing art
+//        pokemon.add(new Chainect()); Missing art
+//        pokemon.add(new Chainector()); Missing art
         pokemon.add(new Tundrill());
-//        pokemon.add(new Malakele()); //Missing art
-//        pokemon.add(new Kahukele()); //Missing art
+//        pokemon.add(new Malakele()); Missing art
+//        pokemon.add(new Kahukele()); Missing art
         pokemon.add(new Camohut());
         pokemon.add(new Camofirma());
         pokemon.add(new Fyglow());
-//        pokemon.add(new Polighoul()); //Missing art
+//        pokemon.add(new Polighoul()); Missing art
         pokemon.add(new Alpheon());
         pokemon.add(new Eveon());
-//        pokemon.add(new Tekichu()); //Missing Stats
+        pokemon.add(new Tekichu(new Stats(410, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER,
+                List.of(drai.dev.gravelmon.pokemon.attributes.Stats.StatType.SPECIAL_DEFENCE))));
         pokemon.add(new Finray());
         pokemon.add(new Ogoprowl());
         pokemon.add(new Sephysar());
-//        pokemon.add(new Vexigon()); //Member of line not finished
-//        pokemon.add(new Noxareo()); //Missing art
-//        pokemon.add(new Darcastro()); //Member of line not finished
+//        pokemon.add(new Vexigon()); Member of line not finished
+//        pokemon.add(new Noxareo()); Missing art
+//        pokemon.add(new Darcastro()); Member of line not finished
         pokemon.add(new Rivulcred());
         pokemon.add(new Valecred());
-//        pokemon.add(new Drazephir()); //Missing art
+//        pokemon.add(new Drazephir()); Missing art
         pokemon.add(new Netherval());
         pokemon.add(new Quadrossal());
         pokemon.add(new Infiluv());
-//        pokemon.add(new Obideion()); //Missing art
-//        pokemon.add(new Generion()); //Missing art
-//        pokemon.add(new Indureion()); //Missing art
+//        pokemon.add(new Obideion()); Missing art
+//        pokemon.add(new Generion()); Missing art
+//        pokemon.add(new Indureion()); Missing art
         pokemon.add(new Zedakazm());
-//        pokemon.add(new Intelix()); //Missing art
-//        pokemon.add(new Nectavian()); //Missing art
+//        pokemon.add(new Intelix()); Missing art
+//        pokemon.add(new Nectavian()); Missing art
 
     }
 

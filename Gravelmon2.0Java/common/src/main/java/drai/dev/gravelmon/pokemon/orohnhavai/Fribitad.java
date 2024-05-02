@@ -39,8 +39,7 @@ public class Fribitad extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.VINESWING,40),
                         new MoveLearnSetEntry(Move.POWER_WHIP,45),
                         new MoveLearnSetEntry(Move.AGILITY,50)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

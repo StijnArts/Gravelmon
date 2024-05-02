@@ -40,8 +40,7 @@ public class Netherval extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.CROSS_CHOP,78),
                         new MoveLearnSetEntry(Move.THUNDER,85),
                         new MoveLearnSetEntry(Move.ERUPTION,92)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 65, 75, .0006, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_NETHER_WASTELAND))

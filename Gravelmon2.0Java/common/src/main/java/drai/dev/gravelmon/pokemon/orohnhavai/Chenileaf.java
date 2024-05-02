@@ -31,8 +31,7 @@ public class Chenileaf extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ABSORB,5),
                         new MoveLearnSetEntry(Move.STRUGGLE_BUG,9),
                         new MoveLearnSetEntry(Move.MEGA_DRAIN,13)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 11, 3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

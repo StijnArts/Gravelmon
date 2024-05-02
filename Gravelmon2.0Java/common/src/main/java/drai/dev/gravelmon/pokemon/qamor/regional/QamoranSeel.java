@@ -25,7 +25,7 @@ public class QamoranSeel extends Pokemon {
                     70,
                     50, List.of(EggGroup.WATER_1,EggGroup.FIELD),
                     List.of("In the Qamor Region, Seel have adapted to living in the warm, humid wetlands to the east. Their diet now mostly composes of sea grass, and they are such slow swimmers that they often get themselves covered in moss and algae."),
-                    List.of(new EvolutionEntry("gobbledyduck", EvolutionType.ITEM_INTERACT, false, List.of(),
+                    List.of(new EvolutionEntry("QamoranDewgong", EvolutionType.ITEM_INTERACT, false, List.of(),
                             List.of(),List.of(),"cobblemon:water_stone")),
                     List.of(
                             new MoveLearnSetEntry(Move.HEADBUTT,1),

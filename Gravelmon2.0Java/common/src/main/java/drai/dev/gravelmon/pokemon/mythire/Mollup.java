@@ -15,14 +15,15 @@ public class Mollup extends drai.dev.gravelmon.pokemon.Pokemon {
                         0,
                         0),
                 List.of(Ability.TORRENT), Ability.LIQUID_OOZE,
-                8, 165,
+                6, 165,
                 new Stats(0,0,0,0,0,0), 45,
                 0.875,
                 0, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1,EggGroup.WATER_3),
                 List.of("On its tail is a coral polyp that is slowly growing. When this Pokemon eats, it feeds the polyp too, and they will eventually evolve together."),
-                List.of(),
+                List.of(new EvolutionEntry("polypod", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
                         new MoveLearnSetEntry(Move.DEFENSE_CURL,1),
                         new MoveLearnSetEntry(Move.WATER_GUN,6),
@@ -58,13 +59,13 @@ public class Mollup extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ROCK_BLAST,"tm")                        ),
                 List.of(Label.MYTHIRE),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), SpawnContext.SEAFLOOR, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF, SpawnPreset.UNDERWATER),
                 0.28, 0.3,
                 List.of());
+        setCanBreathUnderwater(true);
            setLangFileName("Mollup");
 
     }

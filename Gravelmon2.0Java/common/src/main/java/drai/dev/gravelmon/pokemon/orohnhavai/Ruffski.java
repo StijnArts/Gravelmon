@@ -41,8 +41,7 @@ public class Ruffski extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.ICICLE_CRASH,41),
                         new MoveLearnSetEntry(Move.DOUBLEEDGE,46),
                         new MoveLearnSetEntry(Move.MEGAHORN,50)                    ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:thoriller",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:norheim_thoriller",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/norheim/thoriller.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/norheim/thoriller_shiny.png"
+    }  ]
+}

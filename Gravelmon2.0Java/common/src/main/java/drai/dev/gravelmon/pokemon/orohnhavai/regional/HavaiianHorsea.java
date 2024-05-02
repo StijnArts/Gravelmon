@@ -92,8 +92,7 @@ public class HavaiianHorsea extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.DRAGON_BREATH,"tm"),
                         new MoveLearnSetEntry(Move.MUDDY_WATER,"tm"),
                         new MoveLearnSetEntry(Move.CLEAR_SMOG,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

@@ -81,8 +81,7 @@ public class Fyglow extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WILD_CHARGE,"tm"),
                         new MoveLearnSetEntry(Move.WORK_UP,"tm"),
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 7, 32, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_GRASSLAND, Biome.IS_FOREST, Biome.IS_SWAMP)),

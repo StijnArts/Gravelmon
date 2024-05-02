@@ -59,15 +59,15 @@ public class Mythire extends drai.dev.gravelmon.games.registry.Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new Glimruff()); Missing Stats
-        pokemon.add(new Gildog()); Missing Stats
-        pokemon.add(new Heraldise()); Missing Stats
-        pokemon.add(new Noviss()); Missing Stats
-        pokemon.add(new Volkydra()); Missing Stats
-        pokemon.add(new Thermodusa()); Missing Stats
-        pokemon.add(new Mollup()); Missing Stats
-        pokemon.add(new Polypod()); Missing Stats
-        pokemon.add(new Carcoral()); Missing Stats
+        pokemon.add(new Glimruff());
+        pokemon.add(new Gildog());
+        pokemon.add(new Heraldise());
+        pokemon.add(new Noviss());
+        pokemon.add(new Volkydra());
+        pokemon.add(new Thermodusa());
+        pokemon.add(new Mollup());
+        pokemon.add(new Polypod());
+        pokemon.add(new Carcoral());
         pokemon.add(new Shrewpy());
         pokemon.add(new Rattotem());
         pokemon.add(new Sootillar());
@@ -99,13 +99,13 @@ public class Mythire extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Nooch());
         pokemon.add(new Salamuncher());
         pokemon.add(new Mockerel());
-        pokemon.add(new Geobat()); Missing Stats
-        pokemon.add(new Protebat()); Missing Stats
+        pokemon.add(new Geobat());
+        pokemon.add(new Protebat());
         pokemon.add(new Deecoin());
         pokemon.add(new Bankarak());
         pokemon.add(new Cushimera());
-        pokemon.add(new Fungotta()); Missing Stats
-        pokemon.add(new Chanterra()); Missing Stats
+        pokemon.add(new Fungotta());
+        pokemon.add(new Chanterra());
         pokemon.add(new Noxight());
         pokemon.add(new Strappen());
         pokemon.add(new Ruffiguin());
@@ -113,15 +113,15 @@ public class Mythire extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Cephamore());
         pokemon.add(new Casanauta());
         pokemon.add(new Sirenara());
-        pokemon.add(new Platinux()); Missing Stats
+        pokemon.add(new Platinux());
         pokemon.add(new Mermor());
         pokemon.add(new Shellance());
         pokemon.add(new Aquarrior());
-        pokemon.add(new Banshoal()); Missing Stats
+        pokemon.add(new Banshoal());
         pokemon.add(new Radroot());
         pokemon.add(new Powaflowa());
-        pokemon.add(new Hooligrub()); Missing Stats
-        pokemon.add(new Fulgorough()); Missing Stats
+        pokemon.add(new Hooligrub());
+        pokemon.add(new Fulgorough());
         pokemon.add(new Argonacre());
         pokemon.add(new Gargarool());
         pokemon.add(new Snuffellow());
@@ -133,20 +133,20 @@ public class Mythire extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Thawrax());
         pokemon.add(new Candore());
         pokemon.add(new Sucrostone());
-        pokemon.add(new Knotyors()); Missing Stats
+        pokemon.add(new Knotyors());
         pokemon.add(new Heeleap());
         pokemon.add(new Sparroing());
         pokemon.add(new Whirlibyg());
-        pokemon.add(new Alpurr()); Missing Stats
-        pokemon.add(new Feliridge()); Missing Stats
+        pokemon.add(new Alpurr());
+        pokemon.add(new Feliridge());
         pokemon.add(new Scooclops());
         pokemon.add(new Motocyclops());
-        pokemon.add(new Draybale()); Missing Stats
-        pokemon.add(new Grumbale()); Missing Stats
+        pokemon.add(new Draybale());
+        pokemon.add(new Grumbale());
         pokemon.add(new Clinglee());
         pokemon.add(new Valentox());
         pokemon.add(new Pastryderm());
-        pokemon.add(new Bonfear()); Missing Stats
+        pokemon.add(new Bonfear());
         pokemon.add(new Tamareath());
         pokemon.add(new Facadino());
         pokemon.add(new Maskilisk());
@@ -168,8 +168,8 @@ public class Mythire extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Trenchula());
         pokemon.add(new Icthymp());
         pokemon.add(new Memoram());
-        pokemon.add(new Puwallop()); Missing Stats
-        pokemon.add(new Boxbuffer()); Missing Stats
+        pokemon.add(new Puwallop());
+        pokemon.add(new Boxbuffer());
         pokemon.add(new Shelswap());
         pokemon.add(new Vermacrom());
         pokemon.add(new Lodie());
@@ -186,7 +186,7 @@ public class Mythire extends drai.dev.gravelmon.games.registry.Game {
         pokemon.add(new Vortereign());
         pokemon.add(new Pestinox());
         pokemon.add(new Solstarian());
-        pokemon.add(new Garlone()); Missing Stats
+        pokemon.add(new Garlone());
         pokemon.add(new Mementori());
 
     }

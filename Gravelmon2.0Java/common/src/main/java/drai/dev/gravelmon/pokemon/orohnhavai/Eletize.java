@@ -81,8 +81,7 @@ public class Eletize extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.TOXIC,"tm"),
                         new MoveLearnSetEntry(Move.ELECTRIC_TERRAIN,"tm"),
                         new MoveLearnSetEntry(Move.SHADOW_CLAW,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

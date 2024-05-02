@@ -42,8 +42,7 @@ public class Voidevour extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PAIN_SPLIT,43),
                         new MoveLearnSetEntry(Move.CRUNCH,47),
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,53)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 36, 54, .5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),

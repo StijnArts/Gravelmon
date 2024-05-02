@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lectrosaur",
-  "nationalPokedexNumber": 2289,
+  "nationalPokedexNumber": 2344,
   "primaryType": "rock",
   "secondaryType": "electric",
   "abilities": [
@@ -64,11 +64,14 @@
     "65:zapcannon"  ],
   "labels": [
     "varitas",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lectrosaur.desc"
   ],
+  "preEvolution": "lasaur",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

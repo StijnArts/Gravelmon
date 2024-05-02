@@ -63,8 +63,7 @@ public class Reginalous extends Pokemon {
                 List.of(Label.XENOVERSE),
                 6, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 75, 85, 0.0001, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 1, 0.7,

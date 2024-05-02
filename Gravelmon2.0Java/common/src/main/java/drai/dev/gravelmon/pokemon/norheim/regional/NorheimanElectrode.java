@@ -7,29 +7,37 @@ import java.util.*;
 
 
 public class NorheimanElectrode extends drai.dev.gravelmon.pokemon.Pokemon {
-    public NorheimanElectrode(int dex) {
+    public NorheimanElectrode(int dex, Stats stats) {
         super(dex, "Electrode",
                 Type.ELECTRIC, Type.ICE,
-                new Stats(0,
-                        0,
-                        0,
-                        0,
-                        0,
-                        0),
+                stats,
                 List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
-                8, 165,
-                new Stats(0,0,0,0,0,0), 0,
+                12, 165,
+                new Stats(0,0,0,0,0,0), 60,
                 0.0,
                 0, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(),
                 List.of(""),
                 List.of(),
-                List.of(                        ),
+                List.of(
+                        new MoveLearnSetEntry(Move.CHARM,1),
+                        new MoveLearnSetEntry(Move.ROLLOUT,12),
+                        new MoveLearnSetEntry(Move.SPARK,15),
+                        new MoveLearnSetEntry(Move.SOFTBOILED,18),
+                        new MoveLearnSetEntry(Move.PROTECT,23),
+                        new MoveLearnSetEntry(Move.ELECTRO_BALL,29),
+                        new MoveLearnSetEntry(Move.TAKE_DOWN,34),
+                        new MoveLearnSetEntry(Move.IRON_DEFENSE,38),
+                        new MoveLearnSetEntry(Move.ZING_ZAP,42),
+                        new MoveLearnSetEntry(Move.ICYCHARGE,50),
+                        new MoveLearnSetEntry(Move.ICE_BEAM,56),
+                        new MoveLearnSetEntry(Move.SHEER_COLD,62)
+                ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 54, .5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

@@ -47,8 +47,7 @@ public class Ekopi extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.POWER_WHIP,"tm"),
                         new MoveLearnSetEntry(Move.QUICK_GUARD,"tm"),
                         new MoveLearnSetEntry(Move.POWERUP_PUNCH,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SAVANNA)),

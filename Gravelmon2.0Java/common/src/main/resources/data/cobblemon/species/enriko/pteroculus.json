@@ -65,11 +65,14 @@
     "47:outrage"  ],
   "labels": [
     "enriko",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pteroculus.desc"
   ],
+  "preEvolution": "eyesoar",
   "baseScale": 0.39999999999999997,
   "hitbox": {
     "width": 6.0,

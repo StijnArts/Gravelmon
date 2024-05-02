@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "norheimanvoltorb-1",
+      "pokemon": "norheimanvoltorb",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "8-33",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_mountain" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

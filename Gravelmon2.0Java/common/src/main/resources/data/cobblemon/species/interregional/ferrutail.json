@@ -64,11 +64,14 @@
     "45:hypervoicesound"  ],
   "labels": [
     "interregional",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ferrutail.desc"
   ],
+  "preEvolution": "solcorn",
   "baseScale": 0.325,
   "hitbox": {
     "width": 6.0,

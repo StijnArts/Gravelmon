@@ -40,8 +40,7 @@ public class Shiveram extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REST,36),
                         new MoveLearnSetEntry(Move.BLIZZARD,41),
                         new MoveLearnSetEntry(Move.HEAD_CHARGE,44)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 31, 47, .03, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FREEZING, Biome.IS_SNOWY)),

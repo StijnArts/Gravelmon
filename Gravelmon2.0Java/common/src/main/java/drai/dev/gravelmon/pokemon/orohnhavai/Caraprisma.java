@@ -40,8 +40,7 @@ public class Caraprisma extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.HEALING_WISH,46),
                         new MoveLearnSetEntry(Move.RAINBOWRUSH,50),
                         new MoveLearnSetEntry(Move.HYDRO_PUMP,55)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 21, 53, 2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),

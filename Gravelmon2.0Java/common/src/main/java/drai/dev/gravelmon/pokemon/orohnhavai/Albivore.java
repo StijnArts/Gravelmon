@@ -26,8 +26,7 @@ public class Albivore extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Albivore are known to be great hunters, due to their keen eyesight. They often perch high on treetops and cliffs, waiting to spot their next prey."),
                 List.of(),
                 List.of(                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

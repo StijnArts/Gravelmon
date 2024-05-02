@@ -36,8 +36,7 @@ public class Kloakroach extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.PARTING_SHOT,32),
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,38),
                         new MoveLearnSetEntry(Move.QUASH,40)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 32, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),

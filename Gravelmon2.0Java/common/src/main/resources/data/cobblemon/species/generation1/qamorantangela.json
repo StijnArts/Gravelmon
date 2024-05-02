@@ -1,0 +1,109 @@
+{
+  "implemented": true,
+  "name": "qamorantangela",
+  "nationalPokedexNumber": 114,
+  "primaryType": "water",
+  "abilities": [
+    "keeneye",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 77,
+    "defence": 35,
+    "special_attack": 70,
+    "special_defence": 87,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:watergun",
+    "3:supersonic",
+    "7:flash",
+    "13:thunderwave",
+    "16:waterpulse",
+    "20:safeguard",
+    "24:magnetrise",
+    "28:brine",
+    "33:memento",
+    "38:screechsound",
+    "43:raindance",
+    "49:recover",
+    "55:hydropump"  ],
+  "labels": [
+    "qamor",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.qamorantangela.desc"
+  ],
+  "preEvolution": "weeduza",
+  "evolutions": [
+    {
+      "id": "qamorantangela_qamoranTangrowth",
+      "variant": "level_up",
+      "result": "qamoranTangrowth",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

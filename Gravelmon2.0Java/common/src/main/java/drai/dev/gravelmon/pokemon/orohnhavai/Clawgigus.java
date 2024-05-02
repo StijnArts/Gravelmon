@@ -39,8 +39,7 @@ public class Clawgigus extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.WIDE_GUARD,44),
                         new MoveLearnSetEntry(Move.STONE_EDGE,50),
                         new MoveLearnSetEntry(Move.WOOD_HAMMER,56)                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 41, 59, .45, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_BEACH)),

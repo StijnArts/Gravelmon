@@ -26,8 +26,7 @@ public class Noxareo extends drai.dev.gravelmon.pokemon.Pokemon {
                 List.of("Noxareo enjoy causing ruckus for their own amusement. These troublesome Pokemon are known for causing damage with their reckless behavior. Studies show that its recklessness pumps itself up with energy and gets other Noxareo pumped up. However, they get too carried away and end up causing tremendous damage."),
                 List.of(),
                 List.of(                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

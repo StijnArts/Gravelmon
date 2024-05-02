@@ -46,8 +46,7 @@ public class Molozard extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REVENGE,"tm"),
                         new MoveLearnSetEntry(Move.KNOCK_OFF,"tm"),
                         new MoveLearnSetEntry(Move.SUCKER_PUNCH,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 34, 53, .3, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

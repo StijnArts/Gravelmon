@@ -18,13 +18,15 @@ public class Beboink extends drai.dev.gravelmon.pokemon.Pokemon {
                         0),
                 List.of(Ability.CHLOROPHYLL,Ability.SOUNDPROOF,Ability.EARLY_BIRD), Ability.EARLY_BIRD,
                 8, 165,
-                new Stats(0,0,0,1,0,0), 0,
+                new Stats(0,0,0,1,0,0), 255,
                 0.5,
                 36, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.GRASS),
-                List.of("- Splash Normal - AbsorbSTAB Grass 4 Growl Normal 7 Grass Whistle Grass 10 Uproar Normal 14 Growth Normal 19 Mega DrainSTAB Grass 24 Teeter Dance Normal 28 Natural Gift Normal 34 Encore Normal 38 Giga DrainSTAB Grass 44 Sunny Day Fire 46 Hyper Voice Normal 50 Synthesis Grass 58 Boomburst Normal"),
-                List.of(),
+                List.of(""),
+                List.of(new EvolutionEntry("Yoikid", EvolutionType.LEVEL_UP, List.of(),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.FRIENDSHIP,"190"),
+                                new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME,"day")))),
                 List.of(
                         new MoveLearnSetEntry(Move.ABSORB,1),
                         new MoveLearnSetEntry(Move.GROWL,4),
@@ -42,8 +44,8 @@ public class Beboink extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.BOOMBURST,58)                        ),
                 List.of(Label.NORHEIM),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 4, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_TAIGA)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),

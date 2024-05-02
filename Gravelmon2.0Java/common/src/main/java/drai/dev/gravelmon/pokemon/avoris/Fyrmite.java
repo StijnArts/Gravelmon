@@ -28,7 +28,7 @@ public class Fyrmite extends drai.dev.gravelmon.pokemon.Pokemon {
                 70,
                 50, List.of(),
                 List.of("They are most active during the summer and autumn, feeding on leaves and twigs. They get aggravated easily and may sting you, leaving serious burns. They launch themselves like a rocket missile towards their foes."),
-                List.of(new EvolutionEntry("fyrmite", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("Carabomb", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"15")))),
                 List.of(            new MoveLearnSetEntry(Move.EMBER,1),
                         new MoveLearnSetEntry(Move.SMOKESCREEN,1),

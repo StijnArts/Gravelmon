@@ -88,8 +88,7 @@ public class Stalliot extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.GRASSY_TERRAIN,"tm"),
                         new MoveLearnSetEntry(Move.MISTY_TERRAIN,"tm"),
                         new MoveLearnSetEntry(Move.PSYCHIC_TERRAIN,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),

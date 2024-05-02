@@ -46,8 +46,7 @@ public class Timiby extends drai.dev.gravelmon.pokemon.Pokemon {
                         new MoveLearnSetEntry(Move.REVENGE,"tm"),
                         new MoveLearnSetEntry(Move.PAYBACK,"tm"),
                         new MoveLearnSetEntry(Move.QUASH,"tm")                        ),
-                List.of(Label.OROHNHAVAI
-),
+                List.of(Label.OROHNHAVAI),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 1, 22, 5.4, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_HIGHLANDS)),
