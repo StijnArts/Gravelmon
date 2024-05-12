@@ -7,7 +7,6 @@ import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.enjin.regional.*;
 import drai.dev.gravelmon.pokemon.fliga.regional.*;
-import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.hub.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
@@ -19,7 +18,6 @@ import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
-import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
@@ -48,19 +46,6 @@ public class GenerationTwo extends Game {
 //        pokemon.add(new IonosianShuckle(213));   Missing Stats
 //        pokemon.add(new IonosianSmoochum(238));   Missing Stats
 
-        pokemon.add(new FligianAipom(190));
-        pokemon.add(new FligianBlissey(242));
-        pokemon.add(new FligianQwilfish(211));
-
-        pokemon.add(new EnjinnianHoothoot(163));
-        pokemon.add(new EnjinnianNoctowl(164));
-
-        pokemon.add(new NovranSudowoodo(185));
-        pokemon.add(new NovranSlowking(199));
-
-        pokemon.add(new QamoranTyrogue(236));
-        pokemon.add(new QamoranHitmontop(237));
-
         pokemon.add(new VaritasianTogepi(175));
         pokemon.add(new VaritasianTogetic(176));
 //        pokemon.add(new VaritasianSudowoodo(185)); Missing Art
@@ -73,29 +58,6 @@ public class GenerationTwo extends Game {
         pokemon.add(new VaritasianRaikou(243));
         pokemon.add(new VaritasianEntei(244));
         pokemon.add(new VaritasianSuicune(245));
-
-        pokemon.add(new HubianTogepi(175));
-        pokemon.add(new HubianTogetic(176));
-        pokemon.add(new HubianSmeargle(235));
-
-        pokemon.add(new HizianGligar(207));
-        pokemon.add(new HizianMurkrow(198));
-        pokemon.add(new HizianMisdreavus(200));
-
-        pokemon.add(new NorheimanUnown(201));
-        pokemon.add(new NorheimanForretress(205, new Stats(465, StatArchetype.SLOW_BULKY_PHYSICAL_ATTACKER, List.of(StatType.HP))));
-        pokemon.add(new NorheimanHoundour(228));
-
-        //Aristosian
-        pokemon.add(new AristosianSentret(161));
-        pokemon.add(new AristosianFurret(162));
-        pokemon.add(new AristosianSpinarak(167));
-        pokemon.add(new AristosianMareep(179));
-        pokemon.add(new AristosianFlaaffy(180));
-
-        //Avorian
-//        pokemon.add(new AvorianMareep(179)); Member of Line not finished
-//        pokemon.add(new AvorianFlaaffy(180)); Member of Line not finished
 
         registerPokemonInfinityForms();
 
@@ -111,9 +73,6 @@ public class GenerationTwo extends Game {
         pokemon.add(new SeviianMantine(226));
 
         addMythianPokemon();
-
-        //Pokemon Flux
-        pokemon.add(new AlteranLedian(166));
 
         //Daybreak
         pokemon.add(new ArmiranTyranitar(248));
@@ -131,11 +90,6 @@ public class GenerationTwo extends Game {
         pokemon.add(new AyreianSpinarak(167));
         pokemon.add(new AyreianAriados(168));
         pokemon.add(new AyreianStantler(234));
-
-        //Phoenix Rising
-        pokemon.add(new RelicLedyba(165));
-        pokemon.add(new RelicLedian(166));
-        pokemon.add(new RelicAipom(190));
 
         //Kaskadian
         pokemon.add(new KaskadianMarill(183));

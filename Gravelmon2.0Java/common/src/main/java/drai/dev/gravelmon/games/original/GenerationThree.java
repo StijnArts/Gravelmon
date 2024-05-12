@@ -8,7 +8,6 @@ import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.enjin.regional.*;
 import drai.dev.gravelmon.pokemon.fliga.regional.*;
-import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
@@ -22,7 +21,6 @@ import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
-import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
@@ -36,64 +34,13 @@ public class GenerationThree extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new LagoonanSableye(302));
 
 //        pokemon.add(new IonosianTrapinch(328));   Missing Stats
 //        pokemon.add(new IonosianVibrava(329));   Missing Stats
 //        pokemon.add(new IonosianFlygon(330));   Missing Stats
 
-        pokemon.add(new FligianTreecko(252));
-        pokemon.add(new FligianGrovyle(253));
-        pokemon.add(new FligianSceptile(254));
-        pokemon.add(new FligianRalts(280));
-        pokemon.add(new FligianKirlia(281));
-        pokemon.add(new FligianGardevoir(282));
-        pokemon.add(new FligianSlakoth(287));
-        pokemon.add(new FligianVigoroth(288));
-        pokemon.add(new FligianNincada(290));
-        pokemon.add(new FligianDuskull(355));
-        pokemon.add(new FligianDusclops(356));
-
-//        pokemon.add(new EnjinnianElectrike(309));Member of line Not Finished
-//        pokemon.add(new EnjinnianManectric(310));Member of line Not Finished
-
-        pokemon.add(new EnjinnianSableye(302));
-
-        pokemon.add(new NeoCacnea(331));
-
-        pokemon.add(new NovranHuntail(367));
-        pokemon.add(new NovranGorebyss(368));
-
-        pokemon.add(new QamoranSpoink(325));
-        pokemon.add(new QamoranGrumpig(326));
-
-        pokemon.add(new NorheimanMasquerain(284, new Stats(454, StatArchetype.FAST_SPECIAL_ATTACKER,
-                List.of(StatType.HP))));
-        pokemon.add(new NorheimanWailmer(320));
-        pokemon.add(new NorheimanNumel(322));
-        pokemon.add(new NorheimanCorphish(341));
-        pokemon.add(new NorheimanCrawdaunt(342, new Stats(468, StatArchetype.BULKY_SPECIAL_ATTACKER, List.of(StatType.HP))));
-
         pokemon.add(new VaritasianSwablu(333));
         pokemon.add(new VaritasianAltaria(334));
-
-        pokemon.add(new HizianNosepass(299));
-        pokemon.add(new HizianSkitty(300));
-        pokemon.add(new HizianDelcatty(301));
-        pokemon.add(new HizianAron(304));
-        pokemon.add(new HizianLairon(305));
-        pokemon.add(new HizianAggron(306));
-        pokemon.add(new HizianLileep(345));
-        pokemon.add(new HizianCradily(346));
-        pokemon.add(new HizianAnorith(347));
-        pokemon.add(new HizianArmaldo(348));
-        pokemon.add(new HizianTropius(357));
-        pokemon.add(new HizianLuvdisc(370));
-
-//        pokemon.add(new AristosianNumel(322)); Missing Art
-//        pokemon.add(new AristosianTaillow(276)); Member of line not finished
-//        pokemon.add(new AristosianNosepass(299)); Missing Art
-        pokemon.add(new AristosianTropius(357));
 
         pokemon.add(new AvorianRoselia(315));
 
@@ -106,10 +53,6 @@ public class GenerationThree extends Game {
         //Radical Red
         pokemon.add(new SeviianFeebas(349));
         pokemon.add(new SeviianMilotic(350));
-
-        //Pokemon Flux
-        pokemon.add(new AlteranShroomish(285));
-        pokemon.add(new AlteranBreloom(286));
 
         //Daybreak
         pokemon.add(new ArmiranSceptile(254));
@@ -134,10 +77,6 @@ public class GenerationThree extends Game {
         pokemon.add(new AyreianLunatone(337));
         pokemon.add(new AyreianRelicanth(369));
         pokemon.add(new AyreianLuvdisc(370));
-
-        //Phoenix Rising
-        pokemon.add(new RelicRoselia(315));
-        pokemon.add(new RelicSpinda(327));
 
         //Kaskadian
         pokemon.add(new KaskadianExploud(295));

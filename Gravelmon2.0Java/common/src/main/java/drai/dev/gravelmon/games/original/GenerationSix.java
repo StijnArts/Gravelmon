@@ -12,7 +12,6 @@ import drai.dev.gravelmon.pokemon.myth.regional.*;
 import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
-import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
@@ -26,19 +25,10 @@ public class GenerationSix extends Game {
     public void registerPokemon() {
 //        pokemon.add(new IonosianInkay(686));   Missing Art
 
-        pokemon.add(new NovranSkrelp(690));
-        pokemon.add(new NovranDragalge(691));
-
         pokemon.add(new VaritasianFlabebe(669));
         pokemon.add(new VaritasianFloette(670));
         pokemon.add(new VaritasianPhantump(708));
         pokemon.add(new VaritasianTrevenant(709));
-
-        pokemon.add(new HizianLitleo(667));
-        pokemon.add(new HizianPyroar(668));
-
-//        pokemon.add(new AristosianLitleo(667)); Missing Art
-
 
         //Pokemon Insurgance
         pokemon.add(new DeltaFroakie(656));
@@ -92,10 +82,6 @@ public class GenerationSix extends Game {
         pokemon.add(new AyreianGourgeist(711));
         pokemon.add(new AyreianNoibat(714));
         pokemon.add(new AyreianNoivern(715));
-
-        //Phoenix Rising
-        pokemon.add(new RelicSkiddo(672));
-        pokemon.add(new RelicGogoat(673));
 
         //Kaskadian
         pokemon.add(new KaskadianBunnelby(659));

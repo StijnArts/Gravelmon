@@ -131,7 +131,7 @@
   "pokedex": [
     "cobblemon.species.kaskadianlapras.desc"
   ],
-  "preEvolution": "lilpras",
+  "preEvolution": "pressie",
   "baseScale": 0.5499999999999999,
   "hitbox": {
     "width": 6.0,

@@ -21,7 +21,6 @@ import drai.dev.gravelmon.pokemon.novrai.regional.*;
 import drai.dev.gravelmon.pokemon.opalo.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
-import drai.dev.gravelmon.pokemon.phoenixrising.regional.*;
 import drai.dev.gravelmon.pokemon.rica.regional.*;
 import drai.dev.gravelmon.pokemon.vanguard.regional.*;
 import drai.dev.gravelmon.pokemon.varitas.regional.*;
@@ -36,56 +35,19 @@ public class GenerationFour extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new LagoonanFinneon(456));
-        pokemon.add(new LagoonanLumineon(457));
 
 //        pokemon.add(new IonosianShellos(422));   Missing Stats
 //        pokemon.add(new IonosianGastrodon(423));   Missing Art
 //        pokemon.add(new IonosianMimeJr(439));   Missing Art
 //        pokemon.add(new IonosianMunchlax(446));   Missing Stats
 
-        pokemon.add(new FligianShellos(422));
-        pokemon.add(new FligianGastrodon(423));
-        pokemon.add(new FligianHappiny(440));
-        pokemon.add(new FligianGallade(475));
-        pokemon.add(new FligianDusknoir(477));
-
         pokemon.add(new RicanShellos(422));
         pokemon.add(new RicanGastrodon(423));
-
-        pokemon.add(new NovranCranidos(408));
-        pokemon.add(new NovranRampardos(409));
-        pokemon.add(new NovranBonsly(438));
-        pokemon.add(new NovranCherubi(420));
-        pokemon.add(new NovranCherrim(421));
-
-        pokemon.add(new QamoranCombee(415));
-        pokemon.add(new QamoranTangrowth(465));
-
-//        pokemon.add(new NorheimanShinx(403)); Member of line Not Finished
-//        pokemon.add(new NorheimanLuxio(404)); Missing Art
-//        pokemon.add(new NorheimanLuxray(405)); Member of line Not Finished
-        pokemon.add(new NorheimanMismagius(429, new Stats(495, StatArchetype.FAST_SPECIAL_WALL,
-                List.of(StatType.SPECIAL_ATTACK))));
 
 //        pokemon.add(new VaritasianBonsly(438)); Member of line Not Finished
 //        pokemon.add(new VaritasianMimeJr(439)); Missing Art
         pokemon.add(new VaritasianMunchlax(446));
 //        pokemon.add(new VaritasianMantyke(458)); Member of line Not Finished
-
-        pokemon.add(new InterianPiplup(393));
-        pokemon.add(new InterianPrinplup(394));
-        pokemon.add(new InterianEmpoleon(395, new Stats(534, StatArchetype.FAST_SPECIAL_WALL,
-                List.of(StatType.SPECIAL_ATTACK))));
-        pokemon.add(new InterianArceus(493));
-//
-        pokemon.add(new HubianTogekiss(468));
-
-        pokemon.add(new HizianMismagius(429));
-        pokemon.add(new HizianHonchkrow(430));
-        pokemon.add(new HizianGliscor(472));
-        pokemon.add(new HizianSkorupi(451));
-        pokemon.add(new HizianDrapion(452));
 
         //Pokemon Infinity
         pokemon.add(new EghoHappiny(440));
@@ -123,11 +85,6 @@ public class GenerationFour extends Game {
         pokemon.add(new AyreianRoserade(407));
         pokemon.add(new AyreianDrifloon(425));
         pokemon.add(new AyreianDrifblim(426));
-
-        //Phoenix Rising
-        pokemon.add(new RelicBudew(406));
-        pokemon.add(new RelicRoserade(407));
-        pokemon.add(new RelicAmbipom(424));
 
         //Kaskadian
         pokemon.add(new KaskadianBidoof(399));

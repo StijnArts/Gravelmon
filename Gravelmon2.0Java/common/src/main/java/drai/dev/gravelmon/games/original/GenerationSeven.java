@@ -4,7 +4,6 @@ import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
-import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.lockemon.regional.*;
 import drai.dev.gravelmon.pokemon.nosto.regional.*;
 import drai.dev.gravelmon.pokemon.qamor.regional.*;
@@ -22,10 +21,6 @@ public class GenerationSeven extends Game {
 
     @Override
     public void registerPokemon() {
-        pokemon.add(new QamoranSandygast(769));
-
-        pokemon.add(new NostanMorelull(755));
-        pokemon.add(new NostanShiinotic(756, new Stats(405, StatArchetype.SPECIAL_WALL, List.of(StatType.SPEED))));
 
         pokemon.add(new VaritasianBounsweet(761));
         pokemon.add(new VaritasianSteenee(762));
@@ -46,9 +41,6 @@ public class GenerationSeven extends Game {
         //Radical Red
         pokemon.add(new SeviianWishiwashi(746));
         pokemon.add(new SeviianDhelmise(781));
-
-        //Pokemon Flux
-        pokemon.add(new DeepWishiwashi(746));
 
         //Vanguard
         pokemon.add(new AyreianYungoos(734));

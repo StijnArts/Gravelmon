@@ -6,7 +6,6 @@ import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
 import drai.dev.gravelmon.pokemon.daybreak.regional.*;
 import drai.dev.gravelmon.pokemon.fliga.regional.*;
-import drai.dev.gravelmon.pokemon.flux.regional.*;
 import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
@@ -34,19 +33,6 @@ public class GenerationFive extends Game {
 //        pokemon.add(new IonosianKarrablast(588));   Missing Art
 //        pokemon.add(new IonosianDruddigon(621));   Missing Stats
 
-        pokemon.add(new FligianVanillite(582));
-        pokemon.add(new FligianVanillish(583));
-
-        pokemon.add(new NovranHerdier(507));
-        pokemon.add(new NovranStoutland(508));
-        pokemon.add(new NovranVanillite(583));
-        pokemon.add(new NovranVanillish(584));
-        pokemon.add(new NovranVanilluxe(585));
-        pokemon.add(new NovranDruddigon(621));
-
-        pokemon.add(new QamoranCubchoo(613));
-        pokemon.add(new QamoranBeartic(614));
-
         pokemon.add(new VaritasianYamask(562));
         pokemon.add(new VaritasianKlink(599));
         pokemon.add(new VaritasianKlang(600));
@@ -54,20 +40,8 @@ public class GenerationFive extends Game {
         pokemon.add(new VaritasianEelektrik(603));
         pokemon.add(new VaritasianEelektross(604));
 
-//        pokemon.add(new HavaiianOshawott(501)); Member of line Not Finished
-
-        pokemon.add(new InterianGenesect(649));
-
 //        pokemon.add(new NostanTrubbish()); Missing Art
 //        pokemon.add(new NostanGarbodor()); Missing Art
-
-        pokemon.add(new NorheimanSigilyph(561));
-        pokemon.add(new NorheimanFoongus(590));
-
-        pokemon.add(new HizianHeatmor(631));
-        pokemon.add(new HizianDruddigon(621));
-
-        pokemon.add(new AvorianMaractus(556));
 
         //Pokemon Infinity
         pokemon.add(new EghoTrubbish(568));
@@ -147,9 +121,6 @@ public class GenerationFive extends Game {
         pokemon.add(new SeviianZebstrika(523));
 
         addMythianPokemon();
-
-        //Pokemon Flux
-        pokemon.add(new AlteranZorua(570));
 
         //Daybreak
         pokemon.add(new ArmiranRoggenrola(524));

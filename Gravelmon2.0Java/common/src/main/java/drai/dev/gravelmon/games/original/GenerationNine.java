@@ -20,11 +20,6 @@ public class GenerationNine extends Game {
     @Override
     public void registerPokemon() {
 
-        pokemon.add(new QamoranRabsca(954));
-
-        pokemon.add(new NorheimanGlimmora(970, new Stats(525, StatArchetype.FAST_SPECIAL_WALL,
-                List.of(StatType.SPECIAL_DEFENCE))));
-
         //Radical Red
         pokemon.add(new SeviianNymble(919));
         pokemon.add(new SeviianLokix(920));
