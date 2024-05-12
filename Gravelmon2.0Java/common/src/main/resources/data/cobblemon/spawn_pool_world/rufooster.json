@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rufooster-1",
+      "pokemon": "rufooster",
+      "presets": [
+          "natural",
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "28-42",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_temperate",
+"#cobblemon:is_arid" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

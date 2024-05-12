@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:visarab",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kuria_visarab",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/kuria/visarab.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuria/visarab_shiny.png"
+    }  ]
+}

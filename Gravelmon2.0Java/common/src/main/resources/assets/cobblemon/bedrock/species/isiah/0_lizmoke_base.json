@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:lizmoke",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:isiah_lizmoke",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/isiah/lizmoke.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/isiah/lizmoke_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wicktrive",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:atlas_wicktrive",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/wicktrive.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/wicktrive_shiny.png"
+    }  ]
+}

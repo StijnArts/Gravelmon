@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:binarray",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:varitas_binarray",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/varitas/binarray.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/varitas/binarray_shiny.png"
+    }  ]
+}

@@ -1,0 +1,159 @@
+{
+  "implemented": true,
+  "name": "armirangarchomp",
+  "nationalPokedexNumber": 445,
+  "primaryType": "dragon",
+  "secondaryType": "fairy",
+  "abilities": [
+    "roughskin",
+    "h:pressure"
+  ],
+  "baseStats": {
+    "hp": 108,
+    "attack": 110,
+    "defence": 85,
+    "special_attack": 110,
+    "special_defence": 95,
+    "speed": 102
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 270,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "0:crunch",
+    "1:crunch",
+    "1:dualchop",
+    "1:firefang",
+    "1:tackle",
+    "1:sandattack",
+    "1:dragonrage",
+    "1:fairylock",
+    "3:sandattack",
+    "7:dragonrage",
+    "13:fairylock",
+    "15:takedown",
+    "19:playrough",
+    "28:slash",
+    "33:dragonclaw",
+    "40:dazzlinggleam",
+    "55:dragonrush",
+    "61:moonblast",
+    "tm:dragonclaw",
+    "tm:roarsound",
+    "tm:toxic",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:hyperbeam",
+    "tm:protect",
+    "tm:raindance",
+    "tm:frustration",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:doubleteam",
+    "tm:flamethrower",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:roundsound",
+    "tm:falseswipe",
+    "tm:fling",
+    "tm:shadowclaw",
+    "tm:gigaimpact",
+    "tm:swordsdance",
+    "tm:dragontail",
+    "tm:poisonjab",
+    "tm:swagger",
+    "tm:substitute",
+    "tm:rocksmash",
+    "tm:cut",
+    "tm:surf",
+    "tm:strength",
+    "tm:waterfall",
+    "tm:stealthrock",
+    "tm:dazzlinggleam",
+    "tutor:brickbreak",
+    "tutor:stealthrock",
+    "tutor:rocktomb",
+    "tutor:poisonjab",
+    "tutor:sandstorm",
+    "tutor:moonblast",
+    "tutor:playrough",
+    "tutor:ironhead",
+    "tutor:dracometeor",
+    "tutor:dragonrage",
+    "tutor:dragontail",
+    "tutor:aquatail",
+    "tutor:dragonpulse",
+    "tutor:dualchop",
+    "tutor:laserfocus",
+    "tutor:outrage",
+    "tutor:snoresound",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:swagger"  ],
+  "labels": [
+    "gen4",
+    "daybreak",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.armirangarchomp.desc"
+  ],
+  "preEvolution": "Gabite",
+  "baseScale": 0.47500000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 950,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "raptorado-1",
+      "pokemon": "raptorado",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "39-57",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

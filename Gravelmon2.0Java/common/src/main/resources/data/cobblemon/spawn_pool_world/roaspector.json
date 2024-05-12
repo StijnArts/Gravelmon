@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "roaspector-1",
+      "pokemon": "roaspector",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "33-52",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_volvanic" ]
+      }
+    }
+  ]
+}

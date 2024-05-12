@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:prospectre",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lockemon_prospectre",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lockemon/prospectre.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lockemon/prospectre_shiny.png"
+    }  ]
+}

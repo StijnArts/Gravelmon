@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:stalittle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nosto_stalittle",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/nosto/stalittle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/nosto/stalittle_shiny.png"
+    }  ]
+}

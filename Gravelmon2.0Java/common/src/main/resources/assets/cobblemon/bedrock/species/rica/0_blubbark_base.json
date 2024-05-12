@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:blubbark",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:rica_blubbark",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/rica/blubbark.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/rica/blubbark_shiny.png"
+    }  ]
+}

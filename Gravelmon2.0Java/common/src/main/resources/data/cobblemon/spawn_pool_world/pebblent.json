@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pebblent-1",
+      "pokemon": "pebblent",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "12-28",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ]
+      }
+    }
+  ]
+}

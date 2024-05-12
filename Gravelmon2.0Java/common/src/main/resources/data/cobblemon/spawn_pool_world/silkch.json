@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "silkch-1",
+      "pokemon": "silkch",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "1-11",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

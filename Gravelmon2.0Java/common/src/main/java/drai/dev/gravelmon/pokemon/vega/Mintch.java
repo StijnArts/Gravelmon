@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.vega;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -20,7 +21,10 @@ public class Mintch extends Pokemon {
                 39, List.of(EggGroup.FLYING),
                 List.of("It builds its nest out of hardened mud. Sometimes, a Taillow will take over the nest for itself."),
                 List.of(new EvolutionEntry("blakjak", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
+                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18"))),
+                        new EvolutionEntry("signetanblakjak", EvolutionType.LEVEL_UP, List.of(),
+                                List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18"),
+                                        new EvolutionRequirementEntry(EvolutionRequirementCondition.BIOME,"\""+ Biome.IS_SPOOKY.getId() + ":" + Biome.IS_SPOOKY.getName() +"\"")))),
                 List.of(
                         new MoveLearnSetEntry(Move.FORESIGHT,1),
                         new MoveLearnSetEntry(Move.PECK,1),
@@ -88,7 +92,7 @@ public class Mintch extends Pokemon {
                         new MoveLearnSetEntry(Move.STEEL_WING,"egg"),
                         new MoveLearnSetEntry(Move.SUNNY_DAY,"egg")
                         ),
-                List.of(Label.VEGA),
+                List.of(Label.DENEB),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 21, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD)),

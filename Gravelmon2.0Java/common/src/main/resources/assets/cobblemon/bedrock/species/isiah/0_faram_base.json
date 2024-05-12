@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:faram",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:isiah_faram",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/isiah/faram.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/isiah/faram_shiny.png"
+    }  ]
+}

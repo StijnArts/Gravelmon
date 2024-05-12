@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.radicalred;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -107,7 +108,7 @@ public class SeviianNoivern extends Pokemon {
                 ),
                 List.of(Label.RADICAL_RED, Label.GEN6),
                 0, List.of(),
-                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 12, 34, 0.2, List.of(
+                SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 54, 67, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),

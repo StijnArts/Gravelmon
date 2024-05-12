@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -94,9 +95,9 @@ public class Fettlekish extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
                 ), SpawnContext.SUBMERGED, SpawnPool.UNCOMMON, 30, 45, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_LUKEWARM_OCEAN))
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN, Biome.IS_LUKEWARM_OCEAN))
                 ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
+                List.of(SpawnPreset.UNDERWATER, SpawnPreset.REEF),
                 0.4, 0.5,
                 List.of());
         this.setCanSwim(true);

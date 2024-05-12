@@ -7,7 +7,7 @@
       "id": "obsideon-1",
       "pokemon": "obsideon",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,4 +1,15 @@
 {"target": "cobblemon:Bonsly",
+ "evolutions": [
+  {
+   "id": "bonsly_amazeallsudowoodo",
+   "variant": "item_interact",
+   "result": "amazeallsudowoodo",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [],
+   "requiredContext": "gravelmon:amaze_drive"
+  }
+ ],
    "moves": [
     "1:copycat",
     "1:faketears",

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:grannole",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:midamis_grannole",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/midamis/grannole.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/midamis/grannole_shiny.png"
+    }  ]
+}

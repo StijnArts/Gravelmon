@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:magnetreme",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:novrai_magnetreme",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/magnetreme.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/magnetreme_shiny.png"
+    }  ]
+}

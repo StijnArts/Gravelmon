@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:xyloathone",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:okeno_xyloathone",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/okeno/xyloathone.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/xyloathone_shiny.png"
+    }  ]
+}

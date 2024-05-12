@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hizianmismagius-1",
+      "pokemon": "hizianmismagius",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "39-50",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_island",
+"#cobblemon:is_jungle" ],
+        "canSeeSky": true,
+        "timeRange": "night"
+      }
+    }
+  ]
+}

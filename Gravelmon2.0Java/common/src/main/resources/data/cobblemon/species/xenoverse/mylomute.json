@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mylomute",
-  "nationalPokedexNumber": 1114,
+  "nationalPokedexNumber": 2094,
   "primaryType": "normal",
   "secondaryType": "ice",
   "abilities": [
@@ -109,15 +109,18 @@
     "tutor:uproar"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mylomute.desc"
   ],
-  "baseScale": 0.3375,
+  "preEvolution": "hikiloo",
+  "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

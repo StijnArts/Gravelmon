@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:valvette",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:midamis_valvette",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/midamis/valvette.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/midamis/valvette_shiny.png"
+    }  ]
+}

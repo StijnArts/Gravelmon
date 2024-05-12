@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:bagarrough",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kuria_bagarrough",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/kuria/bagarrough.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuria/bagarrough_shiny.png"
+    }  ]
+}

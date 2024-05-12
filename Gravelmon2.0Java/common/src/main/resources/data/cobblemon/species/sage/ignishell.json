@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ignishell",
-  "nationalPokedexNumber": 1226,
+  "nationalPokedexNumber": 1151,
   "primaryType": "fire",
   "abilities": [
     "shellarmor",
@@ -47,16 +47,6 @@
   "eggGroups": [
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:obsidian",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:leer",
     "1:tackle",
@@ -143,10 +133,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

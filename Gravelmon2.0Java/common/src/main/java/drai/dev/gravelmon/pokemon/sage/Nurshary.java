@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Nurshary extends Pokemon {
                 179, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.WATER_2, EggGroup.FAIRY),
-                List.of("Nurshary’s maternal instinct extends beyond its own children. It will often adopt sick or injured Pokémon, caring for them until they return to health."),
+                List.of("Nurshary’s maternal instinct extends beyond its own children. It will often adopt sick or injured Pokemon, caring for them until they return to health."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WIDE_GUARD,1),
@@ -102,10 +103,10 @@ public class Nurshary extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 12, 48, 6.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERWATER),
+                List.of(SpawnPreset.REEF),
                 0.4, 0.3,
                 List.of());
         this.setCanSwim(true);

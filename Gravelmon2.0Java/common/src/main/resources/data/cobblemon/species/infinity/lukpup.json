@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lukpup",
-  "nationalPokedexNumber": 1329,
+  "nationalPokedexNumber": 1396,
   "primaryType": "fairy",
   "abilities": [
     "fluffy",
@@ -47,16 +47,6 @@
     "dragon",
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:healpulse",
     "1:tackle",
@@ -129,7 +119,7 @@
     "egg:agility",
     "egg:aquaring",
     "egg:charm",
-    "egg:cosmicpower",
+    "egg:cosmicpowercosmic",
     "egg:earthpower",
     "egg:memento",
     "egg:psyshock",
@@ -156,10 +146,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

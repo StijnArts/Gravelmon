@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "carrauntain-1",
+      "pokemon": "carrauntain",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "41-65",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave",
+"#cobblemon:is_dripstone" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

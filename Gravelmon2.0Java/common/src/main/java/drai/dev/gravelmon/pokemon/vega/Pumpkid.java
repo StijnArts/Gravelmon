@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.vega;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -94,11 +95,10 @@ public class Pumpkid extends Pokemon {
                         new MoveLearnSetEntry(Move.SWIFT,"egg"),
                         new MoveLearnSetEntry(Move.WILD_GROWTH,"egg")
                         ),
-                List.of(Label.VEGA),
+                List.of(Label.DENEB),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 8, 28, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.43, 0.3,

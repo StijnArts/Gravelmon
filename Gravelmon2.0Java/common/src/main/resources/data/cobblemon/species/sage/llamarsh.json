@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "llamarsh",
-  "nationalPokedexNumber": 1117,
+  "nationalPokedexNumber": 1042,
   "primaryType": "normal",
   "abilities": [
     "rivalry",
+    "braveheart",
     "h:defiant"
   ],
   "baseStats": {
@@ -46,21 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:berries",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:swagger",
     "1:tackle",
@@ -123,11 +109,14 @@
     "egg:takedown"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.llamarsh.desc"
   ],
+  "preEvolution": "fawning",
   "evolutions": [
     {
       "id": "llamarsh_buckston",
@@ -143,10 +132,10 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

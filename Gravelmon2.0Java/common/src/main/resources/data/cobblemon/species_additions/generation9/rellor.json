@@ -1,5 +1,23 @@
 {"target": "cobblemon:Rellor",
-   "moves": [
+ "evolutions": [
+  {
+   "id": "rellor_qamoranrabsca",
+   "variant": "level_up",
+   "result": "qamoranrabsca",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+    "revivalblessing"
+   ],
+   "requirements": [
+    {
+     "variant": "blocks_traveled",
+     "amount": 1000
+    }
+   ]
+  }
+ ],
+
+ "moves": [
     "1:defensecurl",
     "1:tackle",
     "4:sandattack",

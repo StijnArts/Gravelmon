@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:mambaboo",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:oceane_mambaboo",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/oceane/mambaboo.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oceane/mambaboo_shiny.png"
+    }  ]
+}

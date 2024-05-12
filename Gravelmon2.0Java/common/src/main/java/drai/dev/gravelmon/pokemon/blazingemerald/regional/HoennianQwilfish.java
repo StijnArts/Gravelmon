@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
@@ -63,7 +64,7 @@ public class HoennianQwilfish extends Pokemon {
                 0, List.of(),
                 SpawnContext.SEAFLOOR, SpawnPool.UNCOMMON, 20, 44, 10.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN))
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_REEF))),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_WARM_OCEAN))),
                 List.of(SpawnPreset.UNDERWATER),
                 0.19, 0.3,
                 List.of());

@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "hornizard",
-  "nationalPokedexNumber": 1294,
+  "nationalPokedexNumber": 1219,
   "primaryType": "poison",
   "abilities": [
     "poisonpoint",
+    "conditioning",
     "h:roughskin"
   ],
   "baseStats": {
@@ -46,16 +47,6 @@
   "eggGroups": [
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:ancientpower",
     "1:tackle",
@@ -117,11 +108,14 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hornizard.desc"
   ],
+  "preEvolution": "gilla",
   "evolutions": [
     {
       "id": "hornizard_ankillosore",
@@ -137,10 +131,10 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

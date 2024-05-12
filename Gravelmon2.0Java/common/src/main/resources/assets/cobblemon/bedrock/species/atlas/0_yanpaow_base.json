@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:yanpaow",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:atlas_yanpaow",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/yanpaow.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/yanpaow_shiny.png"
+    }  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "brutoad",
-  "nationalPokedexNumber": 1338,
+  "nationalPokedexNumber": 1405,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -49,16 +49,6 @@
     "monster",
     "water_1"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "2:tailwhip",
@@ -160,11 +150,14 @@
     "egg:yawn"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.brutoad.desc"
   ],
+  "preEvolution": "darpole",
   "evolutions": [
     {
       "id": "brutoad_godfrogger",
@@ -180,10 +173,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

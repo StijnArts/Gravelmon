@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:fleuroma",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:orohn-havai_fleuroma",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/orohn-havai/fleuroma.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/orohn-havai/fleuroma_shiny.png"
+    }  ]
+}

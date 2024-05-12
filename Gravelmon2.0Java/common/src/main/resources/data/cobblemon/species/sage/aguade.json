@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "aguade",
-  "nationalPokedexNumber": 1106,
+  "nationalPokedexNumber": 1031,
   "primaryType": "water",
   "abilities": [
     "torrent",
@@ -47,21 +47,6 @@
     "water_1",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:prismarine",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-1",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:scratch",
     "1:tailwhip",

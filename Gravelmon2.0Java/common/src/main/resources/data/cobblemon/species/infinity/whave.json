@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "whave",
-  "nationalPokedexNumber": 1392,
+  "nationalPokedexNumber": 1457,
   "primaryType": "water",
   "abilities": [
     "hydration",
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": false
+            "avoidsLand": true
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": false
+            "canBreatheUnderwater": true
         }
     }
   },
@@ -157,10 +157,10 @@
       ]   
  }
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chiripe",
-  "nationalPokedexNumber": 1161,
+  "nationalPokedexNumber": 2143,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -113,8 +113,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

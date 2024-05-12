@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "peblock-1",
+      "pokemon": "peblock",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

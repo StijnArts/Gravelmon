@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Burnaram extends Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.FIELD),
-                List.of("The Pokémon puts on some bulk after evolving as it learns better to control its body. They can stand still for hours, meditating."),
+                List.of("The Pokemon puts on some bulk after evolving as it learns better to control its body. They can stand still for hours, meditating."),
                 List.of(new EvolutionEntry("psysteed", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

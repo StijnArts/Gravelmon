@@ -69,6 +69,7 @@
     "24:agility",
     "28:slam",
     "30:fakeout",
+    "32:subwoofer",
     "36:hypervoicesound",
     "40:reflect",
     "44:boomburstsound",
@@ -95,6 +96,7 @@
     "tutor:irontail",
     "tutor:knockoff",
     "tutor:snoresound",
+    "tutor:soundbarrier",
     "tutor:uproar"  ],
   "labels": [
     "xenoverse",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bouwee",
-  "nationalPokedexNumber": 1168,
+  "nationalPokedexNumber": 1093,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
@@ -49,16 +49,6 @@
     "bug",
     "water_3"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:splash",
     "1:watersport",
@@ -142,8 +132,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

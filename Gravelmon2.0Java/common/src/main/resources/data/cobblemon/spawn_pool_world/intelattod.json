@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "intelattod-1",
+      "pokemon": "intelattod",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "13-33",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_temperate" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

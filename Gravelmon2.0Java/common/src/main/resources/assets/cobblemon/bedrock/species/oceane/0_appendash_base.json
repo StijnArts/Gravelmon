@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:appendash",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:oceane_appendash",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/oceane/appendash.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oceane/appendash_shiny.png"
+    }  ]
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltalanturn",
-  "nationalPokedexNumber": 170,
+  "nationalPokedexNumber": 171,
   "primaryType": "ghost",
   "secondaryType": "fire",
   "abilities": [
@@ -105,6 +105,7 @@
     "tm:sleeptalksound",
     "tm:dazzlinggleam",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:incinerate",
     "tm:allyswitch",
     "tm:roundsound",
@@ -134,11 +135,13 @@
     "tutor:wonderroom"  ],
   "labels": [
     "gen2",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltalanturn.desc"
   ],
+  "preEvolution": "deltachinchou",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.2,

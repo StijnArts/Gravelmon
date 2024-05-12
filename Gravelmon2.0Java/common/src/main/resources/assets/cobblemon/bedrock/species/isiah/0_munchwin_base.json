@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:munchwin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:isiah_munchwin",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/isiah/munchwin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/isiah/munchwin_shiny.png"
+    }  ]
+}

@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "dauvall",
+  "nationalPokedexNumber": 4549,
+  "primaryType": "dark",
+  "abilities": [
+    "prankster",
+    "h:prankster"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:sweetkiss",
+    "1:encore",
+    "1:willowisp",
+    "1:astonish",
+    "1:iceshard",
+    "5:whirlwind",
+    "10:dragonrage",
+    "13:feintattack",
+    "18:thunderwave",
+    "21:toxicspikes",
+    "26:detect",
+    "29:gyroball",
+    "34:spiderweb",
+    "37:sandtomb",
+    "42:grasswhistle",
+    "45:sandstorm",
+    "50:aquaring",
+    "53:gravitycosmic"  ],
+  "labels": [
+    "midamis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.dauvall.desc"
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

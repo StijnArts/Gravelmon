@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:kaskadianexploud",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_kaskadianexploud",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/kaskadianexploud.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/kaskadianexploud_shiny.png"
+    }  ]
+}

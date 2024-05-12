@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaserperior",
-  "nationalPokedexNumber": 496,
+  "nationalPokedexNumber": 497,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -142,15 +142,17 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaserperior.desc"
   ],
-  "baseScale": 0.61875,
+  "preEvolution": "deltaservine",
+  "baseScale": 0.8250000000000001,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

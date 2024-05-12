@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:vulkidna",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:atlas_vulkidna",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/atlas/vulkidna.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/atlas/vulkidna_shiny.png"
+    }  ]
+}

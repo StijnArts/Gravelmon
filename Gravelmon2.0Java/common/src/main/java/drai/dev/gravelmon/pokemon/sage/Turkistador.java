@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Turkistador extends Pokemon {
                 232, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING, EggGroup.FIELD),
-                List.of("Turkistador often moves into other Pokémon's nests, stubbornly refusing to leave until the old inhabitant gives up and flees."),
+                List.of("Turkistador often moves into other Pokemon's nests, stubbornly refusing to leave until the old inhabitant gives up and flees."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),

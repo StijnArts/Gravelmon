@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Wereyena extends Pokemon {
                 197, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 39, List.of(EggGroup.FIELD),
-                List.of("In rare occasion, when Mightyena are exposed to pure moonlight, they will evolve into Wereyena. Legends said that these Pokémon were just transformed humans."),
+                List.of("In rare occasion, when Mightyena are exposed to pure moonlight, they will evolve into Wereyena. Legends said that these Pokemon were just transformed humans."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MOONBLAST,1),

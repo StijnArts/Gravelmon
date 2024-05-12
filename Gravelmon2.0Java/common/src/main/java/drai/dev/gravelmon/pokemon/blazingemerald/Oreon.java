@@ -3,9 +3,8 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import drai.dev.gravelmon.util.*;
-
 import java.util.*;
+import drai.dev.gravelmon.util.*;
 
 public class Oreon extends Pokemon {
     public Oreon() {
@@ -50,12 +49,12 @@ public class Oreon extends Pokemon {
                         new MoveLearnSetEntry(Move.CUT,"tm"),
                         new MoveLearnSetEntry(Move.WISH,"egg")
                         ),
-                List.of(Label.BLAZING_EMERALD),
+                List.of(Label.BLAZING_EMERALD, Label.JOKE),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 34, 56, 0.001, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL))
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.19, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

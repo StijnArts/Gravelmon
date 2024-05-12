@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:spectrance",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:oceane_spectrance",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/oceane/spectrance.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oceane/spectrance_shiny.png"
+    }  ]
+}

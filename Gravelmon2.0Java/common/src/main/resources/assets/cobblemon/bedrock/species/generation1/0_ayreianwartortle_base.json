@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreianwartortle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_ayreianwartortle",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianwartortle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/ayreianwartortle_shiny.png"
+    }  ]
+}

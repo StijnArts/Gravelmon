@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltatorterra",
-  "nationalPokedexNumber": 388,
+  "nationalPokedexNumber": 389,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -133,15 +133,17 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltatorterra.desc"
   ],
-  "baseScale": 0.4125,
+  "preEvolution": "deltagrotle",
+  "baseScale": 0.5499999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

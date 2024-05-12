@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pangolash",
-  "nationalPokedexNumber": 1225,
+  "nationalPokedexNumber": 1150,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -49,16 +49,6 @@
     "grass",
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:dead_bush",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:spikes",
     "1:irondefense",
@@ -126,15 +116,18 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.pangolash.desc"
   ],
-  "baseScale": 0.1875,
+  "preEvolution": "diloweed",
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

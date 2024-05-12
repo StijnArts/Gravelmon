@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:aromaphant",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:avoris_aromaphant",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/avoris/aromaphant.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/avoris/aromaphant_shiny.png"
+    }  ]
+}

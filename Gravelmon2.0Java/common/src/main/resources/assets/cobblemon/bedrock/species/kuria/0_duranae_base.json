@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:duranae",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kuria_duranae",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/kuria/duranae.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuria/duranae_shiny.png"
+    }  ]
+}

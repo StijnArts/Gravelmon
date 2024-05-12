@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadratini",
-  "nationalPokedexNumber": 143,
+  "nationalPokedexNumber": 147,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -134,7 +134,7 @@
   "evolutions": [
     {
       "id": "deltadratini_deltadragonair",
-      "variant": "item_interact",
+      "variant": "level_up",
       "result": "deltadragonair",
       "consumeHeldItem": false,
       "learnableMoves": [],
@@ -146,10 +146,10 @@
       ]   
  }
   ],
-  "baseScale": 0.3375,
+  "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

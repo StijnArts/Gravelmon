@@ -1,0 +1,118 @@
+{
+  "implemented": true,
+  "name": "strelair",
+  "nationalPokedexNumber": 2021,
+  "primaryType": "grass",
+  "secondaryType": "flying",
+  "abilities": [
+    "waterabsorb",
+    "h:aerilate"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 85,
+    "defence": 60,
+    "special_attack": 85,
+    "special_defence": 40,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 84,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "flying"
+  ],
+  "moves": [
+    "1:growl",
+    "3:peck",
+    "6:sandattack",
+    "9:vinewhip",
+    "12:gust",
+    "16:growth",
+    "22:razorleaf",
+    "26:acrobatics",
+    "30:aromaticmist",
+    "34:wingattack",
+    "38:petaldance",
+    "44:doubleedge",
+    "48:bravebird",
+    "54:shellsmash"  ],
+  "labels": [
+    "enriko",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.strelair.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "strelair_reginaegle",
+      "variant": "item_interact",
+      "result": "reginaegle",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:leaf_stone"   
+ },
+    {
+      "id": "strelair_wyfern",
+      "variant": "item_interact",
+      "result": "wyfern",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:sun_stone"   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

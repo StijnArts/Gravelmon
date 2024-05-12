@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cefiransnover-1",
+      "pokemon": "cefiransnover",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "10-39",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_swamp" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

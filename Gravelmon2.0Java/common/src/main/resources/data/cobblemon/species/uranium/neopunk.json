@@ -1,0 +1,152 @@
+{
+  "implemented": true,
+  "name": "neopunk",
+  "nationalPokedexNumber": 2490,
+  "primaryType": "psychic",
+  "secondaryType": "electric",
+  "abilities": [
+    "minus",
+    "h:minus"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 100,
+    "defence": 65,
+    "special_attack": 120,
+    "special_defence": 60,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 100,
+  "eggGroups": [
+    "dragon"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:charge",
+    "1:spark",
+    "1:thunderpunch",
+    "1:psywave",
+    "1:confusion",
+    "1:detect",
+    "1:teleport",
+    "4:confusion",
+    "9:thunderwave",
+    "12:shockwave",
+    "20:chargebeam",
+    "23:psywave",
+    "28:cosmicpowercosmic",
+    "37:discharge",
+    "44:psychic",
+    "49:voltswitch",
+    "62:psychocut",
+    "tm:attract",
+    "tm:bounce",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:chargebeam",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypervoicesound",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:magnetrise",
+    "tm:nastyplot",
+    "tm:protect",
+    "tm:psychup",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roarsound",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:secretpower",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:thunder",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:uproar",
+    "tm:wonderroom"  ],
+  "labels": [
+    "uranium",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.neopunk.desc"
+  ],
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 401,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

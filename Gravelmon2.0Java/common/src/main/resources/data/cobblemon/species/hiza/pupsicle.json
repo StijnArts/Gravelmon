@@ -1,0 +1,106 @@
+{
+  "implemented": true,
+  "name": "pupsicle",
+  "nationalPokedexNumber": 2767,
+  "primaryType": "ice",
+  "abilities": [
+    "icebody",
+    "h:permafrost"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 50,
+    "special_defence": 50,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 58,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:growl",
+    "7:encore",
+    "11:flatter",
+    "16:icywind",
+    "18:brine",
+    "26:aurorabeam",
+    "29:echoedvoicesound",
+    "32:icebeam",
+    "35:snowscape",
+    "44:freezedry",
+    "48:disable",
+    "50:blizzard"  ],
+  "labels": [
+    "hiza",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.pupsicle.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "pupsicle_frozeal",
+      "variant": "level_up",
+      "result": "frozeal",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

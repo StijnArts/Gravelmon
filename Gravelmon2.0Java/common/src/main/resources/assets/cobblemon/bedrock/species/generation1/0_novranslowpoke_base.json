@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:novranslowpoke",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_novranslowpoke",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/novranslowpoke.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/novranslowpoke_shiny.png"
+    }  ]
+}

@@ -1,0 +1,144 @@
+{
+  "implemented": true,
+  "name": "nurturse",
+  "nationalPokedexNumber": 2937,
+  "primaryType": "fairy",
+  "abilities": [
+    "naturalcure",
+    "triage",
+    "h:healer"
+  ],
+  "baseStats": {
+    "hp": 140,
+    "attack": 65,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 65
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 55,
+  "maleRatio": 0.25,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like",
+    "fairy"
+  ],
+  "moves": [
+    "5:helpinghand",
+    "8:doubleslap",
+    "12:refresh",
+    "16:metronome",
+    "20:bestow",
+    "24:disarmingvoicesound",
+    "29:healpulse",
+    "35:drainingkiss",
+    "40:hypervoicesound",
+    "46:calmmind",
+    "53:moonblast",
+    "60:healingwish",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:roundsound",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:drainpunch",
+    "tm:energyball",
+    "tm:grassknot",
+    "tm:fireblast",
+    "tm:flamethrower",
+    "tm:firepunch",
+    "tm:chargebeam",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:thunderpunch",
+    "tm:shadowball",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:icepunch",
+    "tm:dazzlinggleam",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:calmmind",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:hypnosis",
+    "tm:trickroom",
+    "tm:mistyterrain",
+    "tm:psychicterrain",
+    "tm:sweetkiss",
+    "tm:charm",
+    "tm:healbellsound",
+    "tm:faketears",
+    "tm:luckychant",
+    "tm:entrainment"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.nurturse.desc"
+  ],
+  "preEvolution": "nursee",
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "hoenniantangela",
-  "nationalPokedexNumber": 95,
+  "nationalPokedexNumber": 114,
   "primaryType": "fighting",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "barbednest",
+    "h:barbednest"
   ],
   "baseStats": {
     "hp": 65,
@@ -61,6 +61,7 @@
     "tm:earthquake",
     "tm:return",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:sludgebomb",
     "tm:sandstorm",
     "tm:rocktomb",
@@ -70,22 +71,27 @@
     "tm:attract",
     "tm:thief",
     "1:leer",
+    "4:heavypunch",
     "10:razorleaf",
     "13:revenge",
     "19:knockoff",
     "22:bulkup",
     "28:needlearm",
+    "34:bramblebash",
     "37:poisonjab",
     "40:fakeout",
     "47:submission"  ],
   "labels": [
     "blazing_emerald",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoenniantangela.desc"
   ],
+  "preEvolution": "weeduza",
   "evolutions": [
     {
       "id": "hoenniantangela_hoenniantangrowth",
@@ -101,10 +107,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

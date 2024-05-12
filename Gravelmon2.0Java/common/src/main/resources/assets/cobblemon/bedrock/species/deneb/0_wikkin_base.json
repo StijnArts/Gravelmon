@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wikkin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:deneb_wikkin",
+      "model": "cobblemon:deneb_wikkin.geo",
+      "texture": "cobblemon:textures/pokemon/deneb/wikkin/wikkin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/deneb/wikkin/wikkin_shiny.png"
+    }  ]
+}

@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "trishout",
-  "nationalPokedexNumber": 1100,
+  "nationalPokedexNumber": 2078,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
     "keeneye",
-    "h:keeneye"
+    "h:voicetuning"
   ],
   "baseStats": {
     "hp": 58,
@@ -47,9 +47,35 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:terrestrial_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "gravelmon:xenoversal_ring",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:ember",
     "1:tackle",
+    "6:babble",
     "9:howlsound",
     "13:takedown",
     "18:firefang",
@@ -69,6 +95,7 @@
     "tm:taunt",
     "tm:hyperbeam",
     "tm:protect",
+    "tm:subwoofer",
     "tm:solarbeam",
     "tm:earthquake",
     "tm:return",
@@ -93,9 +120,12 @@
     "tutor:heatwave",
     "tutor:hypervoicesound",
     "tutor:irontail",
+    "tutor:scorchedashes",
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
+    "tutor:soundbarrier",
+    "tutor:soundpledge",
     "tutor:uproar"  ],
   "labels": [
     "xenoverse"

@@ -7,7 +7,7 @@
       "id": "xochi-1",
       "pokemon": "xochi",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

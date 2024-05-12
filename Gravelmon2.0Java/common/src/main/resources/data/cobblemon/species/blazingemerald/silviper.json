@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "silviper",
-  "nationalPokedexNumber": 1179,
+  "nationalPokedexNumber": 3725,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -48,23 +48,15 @@
     "dragon",
     "field"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:silver_scale",
-        "quantityRange": "1-1",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:swordsdance",
     "10:leechlife",
     "20:poisonfang",
     "30:crunch",
     "40:irontail",
+    "50:fangbarrage",
     "60:poisontail",
+    "70:virugait",
     "80:spikes",
     "90:hyperfang",
     "tm:toxic",
@@ -84,6 +76,7 @@
     "tm:return",
     "tm:dig",
     "tm:shadowball",
+    "tm:shimmershot",
     "tm:reflect",
     "tm:flamethrower",
     "tm:sludgebomb",
@@ -99,6 +92,7 @@
     "tm:cut",
     "tm:strength",
     "tm:rocksmash",
+    "egg:frostbite",
     "egg:shadowsneak"  ],
   "labels": [
     "blazing_emerald",
@@ -109,10 +103,10 @@
     "cobblemon.species.silviper.desc"
   ],
   "preEvolution": "seviper",
-  "baseScale": 0.7125,
+  "baseScale": 0.9500000000000001,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

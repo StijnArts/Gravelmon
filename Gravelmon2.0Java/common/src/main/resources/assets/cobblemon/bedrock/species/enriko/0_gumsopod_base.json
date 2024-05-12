@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:gumsopod",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:enriko_gumsopod",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enriko/gumsopod.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enriko/gumsopod_shiny.png"
+    }  ]
+}

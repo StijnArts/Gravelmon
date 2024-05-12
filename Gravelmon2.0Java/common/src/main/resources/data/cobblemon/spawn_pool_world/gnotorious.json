@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gnotorious-1",
+      "pokemon": "gnotorious",
+      "presets": [
+          "near_crops"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "54-65",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

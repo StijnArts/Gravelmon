@@ -1,22 +1,77 @@
 package drai.dev.gravelmon.games.original;
 
-import drai.dev.gravelmon.games.*;
+import drai.dev.gravelmon.games.registry.*;
+import drai.dev.gravelmon.pokemon.avoris.regional.*;
+import drai.dev.gravelmon.pokemon.azure.regional.*;
 import drai.dev.gravelmon.pokemon.blazingemerald.regional.*;
+import drai.dev.gravelmon.pokemon.daybreak.regional.*;
+import drai.dev.gravelmon.pokemon.fliga.regional.*;
+import drai.dev.gravelmon.pokemon.flux.regional.*;
+import drai.dev.gravelmon.pokemon.hiza.regional.*;
 import drai.dev.gravelmon.pokemon.infinity.regional.*;
 import drai.dev.gravelmon.pokemon.insurgence.delta.*;
+import drai.dev.gravelmon.pokemon.interregional.regional.*;
+import drai.dev.gravelmon.pokemon.ionos.regional.*;
+import drai.dev.gravelmon.pokemon.lockemon.regional.*;
+import drai.dev.gravelmon.pokemon.myth.regional.*;
+import drai.dev.gravelmon.pokemon.norheim.regional.*;
+import drai.dev.gravelmon.pokemon.novrai.regional.*;
+import drai.dev.gravelmon.pokemon.opalo.regional.*;
+import drai.dev.gravelmon.pokemon.orohnhavai.regional.*;
+import drai.dev.gravelmon.pokemon.qamor.regional.*;
 import drai.dev.gravelmon.pokemon.radicalred.*;
+import drai.dev.gravelmon.pokemon.vanguard.regional.*;
+import drai.dev.gravelmon.pokemon.varitas.regional.*;
 import drai.dev.gravelmon.pokemon.xenoverse.xspecies.*;
 
-public class GenerationFive extends Original {
+public class GenerationFive extends Game {
     public GenerationFive() {
         super("generation5");
     }
 
     @Override
     public void registerPokemon() {
+//        pokemon.add(new IonosianKarrablast(588));   Missing Art
+//        pokemon.add(new IonosianDruddigon(621));   Missing Stats
+
+        pokemon.add(new FligianVanillite(582));
+        pokemon.add(new FligianVanillish(583));
+
+        pokemon.add(new NovranHerdier(507));
+        pokemon.add(new NovranStoutland(508));
+        pokemon.add(new NovranVanillite(583));
+        pokemon.add(new NovranVanillish(584));
+        pokemon.add(new NovranVanilluxe(585));
+        pokemon.add(new NovranDruddigon(621));
+
+        pokemon.add(new QamoranCubchoo(613));
+        pokemon.add(new QamoranBeartic(614));
+
+        pokemon.add(new VaritasianYamask(562));
+        pokemon.add(new VaritasianKlink(599));
+        pokemon.add(new VaritasianKlang(600));
+        pokemon.add(new VaritasianTynamo(602));
+        pokemon.add(new VaritasianEelektrik(603));
+        pokemon.add(new VaritasianEelektross(604));
+
+//        pokemon.add(new HavaiianOshawott(501)); Member of line Not Finished
+
+        pokemon.add(new InterianGenesect(649));
+
+//        pokemon.add(new NostanTrubbish()); Missing Art
+//        pokemon.add(new NostanGarbodor()); Missing Art
+
+        pokemon.add(new NorheimanSigilyph(561));
+        pokemon.add(new NorheimanFoongus(590));
+
+        pokemon.add(new HizianHeatmor(631));
+        pokemon.add(new HizianDruddigon(621));
+
+        pokemon.add(new AvorianMaractus(556));
+
         //Pokemon Infinity
-        pokemon.add(new EhgoTrubbish(568));
-        pokemon.add(new EhgoGarbodor(569));
+        pokemon.add(new EghoTrubbish(568));
+        pokemon.add(new EghoGarbodor(569));
 
         //Pokemon Insurgance
         pokemon.add(new DeltaSnivy(495));
@@ -91,5 +146,55 @@ public class GenerationFive extends Original {
         pokemon.add(new SeviianBlitzle(522));
         pokemon.add(new SeviianZebstrika(523));
 
+        addMythianPokemon();
+
+        //Pokemon Flux
+        pokemon.add(new AlteranZorua(570));
+
+        //Daybreak
+        pokemon.add(new ArmiranRoggenrola(524));
+        pokemon.add(new ArmiranBoldore(525));
+        pokemon.add(new ArmiranGigalith(526));
+
+        //Vanguard
+        pokemon.add(new AyreianDwebble(557));
+        pokemon.add(new AyreianArchen(566));
+        pokemon.add(new AyreianArcheops(566));
+        pokemon.add(new AyreianMinccino(572));
+        pokemon.add(new AyreianCinccino(573));
+        pokemon.add(new AyreianDucklett(580));
+        pokemon.add(new AyreianSwanna(581));
+        pokemon.add(new AyreianVanillite(582));
+        pokemon.add(new AyreianVanillish(583));
+        pokemon.add(new AyreianVanniluxe(584));
+
+        //Kaskadian
+        pokemon.add(new KaskadianExcadrill(530));
+        pokemon.add(new KaskadianGurdurr(533));
+        pokemon.add(new KaskadianConkeldurr(534));
+        pokemon.add(new KaskadianSolosis(577));
+        pokemon.add(new KaskadianDuosion(578));
+        pokemon.add(new KaskadianReuniclus(579));
+        pokemon.add(new KaskadianGolett(622));
+
+        //Azure (Mystic)
+        pokemon.add(new MysticSolosis(577));
+        pokemon.add(new MysticDuosion(578));
+        pokemon.add(new MysticReuniclus(579));
+
+        //Pokemon Opalo
+        pokemon.add(new CefiranPetilil(548));
+        pokemon.add(new CefiranLilligant(549));
+        pokemon.add(new CefiranGothitelle(576));
+        pokemon.add(new CefiranGolett(622));
+        pokemon.add(new CefiranGolurk(623));
+
+    }
+
+    private void addMythianPokemon() {
+        pokemon.add(new MythianZorua(570));
+        pokemon.add(new MythianZoroark(571));
+        pokemon.add(new MythianLarvesta(636));
+        pokemon.add(new MythianVolcarona(637));
     }
 }

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreianaggron-1",
+      "pokemon": "ayreianaggron",
+      "presets": [
+          "near_lava"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "42-67",
+      "weight": 2.0,
+      "condition": {
+
+      }
+    }
+  ]
+}

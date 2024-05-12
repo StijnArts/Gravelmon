@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -94,8 +95,7 @@ public class Shulong extends Pokemon {
                 List.of(Label.XENOVERSE),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_END)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),
                 0.9, 1,

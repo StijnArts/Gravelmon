@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lavoon",
-  "nationalPokedexNumber": 1292,
+  "nationalPokedexNumber": 1217,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -49,16 +49,6 @@
     "water_2",
     "water_3"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:magma",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:singsound",
     "1:wrap",
@@ -139,15 +129,18 @@
     "egg:soak"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.lavoon.desc"
   ],
-  "baseScale": 1.275,
+  "preEvolution": "glocto",
+  "baseScale": 1.7,
   "hitbox": {
-    "width": 1.7307692307692306,
-    "height": 1.7307692307692306,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

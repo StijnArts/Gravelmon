@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianseel",
-  "nationalPokedexNumber": 85,
+  "nationalPokedexNumber": 86,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -63,12 +63,14 @@
     "tm:pursuit",
     "tm:hiddenpower",
     "tm:freezedry",
+    "tm:veiledsky",
     "tm:icebeam",
     "tm:blizzard",
     "tm:protect",
     "tm:raindance",
     "tm:return",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:facade",
     "tm:secretpower",
     "tm:rest",
@@ -80,6 +82,7 @@
     "21:knockoff",
     "29:slackoff",
     "37:icepunch",
+    "41:knucklefins",
     "49:bulkup"  ],
   "labels": [
     "blazing_emerald",
@@ -104,10 +107,10 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

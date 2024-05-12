@@ -7,7 +7,7 @@
       "id": "volcoalder-1",
       "pokemon": "volcoalder",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

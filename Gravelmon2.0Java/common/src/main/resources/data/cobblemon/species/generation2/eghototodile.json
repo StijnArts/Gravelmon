@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghototodile",
-  "nationalPokedexNumber": 157,
+  "nationalPokedexNumber": 158,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -48,16 +48,6 @@
     "monster",
     "water_1"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:agility",
     "1:poisonsting",

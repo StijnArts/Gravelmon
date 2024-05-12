@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wispern",
-  "nationalPokedexNumber": 1289,
+  "nationalPokedexNumber": 1214,
   "primaryType": "ghost",
   "secondaryType": "fire",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:stick",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:wrap",
     "1:incinerate",
@@ -158,10 +148,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

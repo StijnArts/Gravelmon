@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slurpuffx",
-  "nationalPokedexNumber": 684,
+  "nationalPokedexNumber": 685,
   "primaryType": "poison",
   "abilities": [
     "poisontouch",
@@ -52,7 +52,7 @@
       {
         "item": "gravelmon:xenolith",
         "quantityRange": "1-1",
-        "percentage": 20
+        "percentage": 40
       }
     ]
   },
@@ -82,6 +82,7 @@
     "tm:protect",
     "tm:raindance",
     "tm:safeguard",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:flamethrower",
@@ -106,15 +107,17 @@
   "labels": [
     "xenoverse",
     "gen6",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.slurpuffx.desc"
   ],
-  "baseScale": 0.15,
+  "preEvolution": "swirlixx",
+  "baseScale": 0.19999999999999998,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

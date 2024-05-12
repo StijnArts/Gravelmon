@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trenchula",
-  "nationalPokedexNumber": 1212,
+  "nationalPokedexNumber": 1137,
   "primaryType": "bug",
   "secondaryType": "ground",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "bug"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:rapidspin",
     "1:stringshot",
@@ -140,10 +130,10 @@
   "pokedex": [
     "cobblemon.species.trenchula.desc"
   ],
-  "baseScale": 0.20625,
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

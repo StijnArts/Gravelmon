@@ -1,0 +1,27 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "snoozea-1",
+      "pokemon": "snoozea",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "surface",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 5.8,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold_ocean",
+"#cobblemon:is_freezing" ]    }
+    }
+  ]
+}

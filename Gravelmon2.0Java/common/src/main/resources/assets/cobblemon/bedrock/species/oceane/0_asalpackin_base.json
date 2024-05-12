@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:asalpackin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:oceane_asalpackin",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/oceane/asalpackin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/oceane/asalpackin_shiny.png"
+    }  ]
+}

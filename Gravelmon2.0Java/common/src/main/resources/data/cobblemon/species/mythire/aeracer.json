@@ -1,0 +1,165 @@
+{
+  "implemented": true,
+  "name": "aeracer",
+  "nationalPokedexNumber": 3748,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye",
+    "h:galewings"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 50,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "6:gust",
+    "9:quickattack",
+    "12:focusenergy",
+    "14:sonicboomsound",
+    "17:wingattack",
+    "22:pluck",
+    "25:agility",
+    "29:drillpeck",
+    "37:doubleteam",
+    "42:tailwind",
+    "46:mirrormove",
+    "50:extremespeed",
+    "55:bravebird",
+    "tm:safeguard",
+    "tm:airslash",
+    "tm:closecombat",
+    "tm:zenheadbutt",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:bide",
+    "tm:cut",
+    "tm:doubleedge",
+    "tm:doubleteam",
+    "tm:echoedvoicesound",
+    "tm:eggbomb",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fly",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:lowsweep",
+    "tm:mimic",
+    "tm:protect",
+    "tm:rage",
+    "tm:raindance",
+    "tm:razorwind",
+    "tm:rest",
+    "tm:return",
+    "tm:roost",
+    "tm:roundsound",
+    "tm:skullbash",
+    "tm:skyattack",
+    "tm:sleeptalksound",
+    "tm:steelwing",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swiftcosmic",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:thief",
+    "tm:torment",
+    "tm:toxic",
+    "tm:uturn",
+    "tm:whirlwind",
+    "tm:fakeout",
+    "tm:furyattack",
+    "tm:aircutter",
+    "tm:skullbash",
+    "tm:airslash",
+    "tm:quickguard",
+    "tm:steelwing",
+    "tm:razorwind",
+    "tm:zenheadbutt",
+    "tm:suddenstrike",
+    "tm:chipaway"  ],
+  "labels": [
+    "mythire",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.aeracer.desc"
+  ],
+  "preEvolution": "turbird",
+  "evolutions": [
+    {
+      "id": "aeracer_swifterror",
+      "variant": "level_up",
+      "result": "swifterror",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 11,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

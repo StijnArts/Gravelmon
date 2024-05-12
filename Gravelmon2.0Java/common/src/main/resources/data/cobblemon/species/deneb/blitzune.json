@@ -1,0 +1,146 @@
+{
+  "implemented": true,
+  "name": "blitzune",
+  "nationalPokedexNumber": 4703,
+  "primaryType": "electric",
+  "secondaryType": "fairy",
+  "abilities": [
+    "static",
+    "h:lightningrod"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 90,
+    "defence": 70,
+    "special_attack": 105,
+    "special_defence": 75,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 60,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 164,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "1:thundershock",
+    "20:bite",
+    "25:shockwave",
+    "34:lightscreen",
+    "39:thunderbolt",
+    "43:crunch",
+    "tm:magnetbomb",
+    "tm:thunderwave",
+    "tm:headbutt",
+    "tm:rockslide",
+    "tm:shadowclaw",
+    "tm:amnesia",
+    "tm:substitute",
+    "tm:signalbeam",
+    "tm:darkpulse",
+    "tm:irontail",
+    "tm:zapcannon",
+    "tm:devastate",
+    "tm:batonpass",
+    "tm:confuseray",
+    "tm:ragingflame",
+    "tm:discharge",
+    "tm:nightslash",
+    "tm:strength",
+    "tm:flash",
+    "tm:rocksmash",
+    "tutor:dig",
+    "tutor:hiddenpower",
+    "tutor:iciclecrash",
+    "tutor:nastyplot",
+    "tutor:rest",
+    "tutor:shadowclamp",
+    "tutor:toxic",
+    "egg:block",
+    "egg:doubleedge",
+    "egg:flail",
+    "egg:flashcannon",
+    "egg:frustration",
+    "egg:gigaimpact",
+    "egg:endure",
+    "egg:hyperbeam",
+    "egg:ironhead",
+    "egg:lightscreen",
+    "egg:metalsound",
+    "egg:mirrorcoat",
+    "egg:mudslap",
+    "egg:nastyplot",
+    "egg:overheat",
+    "egg:rage",
+    "egg:raindance",
+    "egg:rapidspin",
+    "egg:reflect",
+    "egg:return",
+    "egg:roarsound",
+    "egg:rocktomb",
+    "egg:safeguard",
+    "egg:screechsound",
+    "egg:skullbash",
+    "egg:stoneedge",
+    "egg:thunderfang",
+    "egg:wildcharge"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.blitzune.desc"
+  ],
+  "preEvolution": "plasmox",
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 451,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

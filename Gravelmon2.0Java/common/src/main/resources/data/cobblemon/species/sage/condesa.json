@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "condesa",
-  "nationalPokedexNumber": 1195,
+  "nationalPokedexNumber": 1120,
   "primaryType": "rock",
   "secondaryType": "flying",
   "abilities": [
@@ -49,21 +49,6 @@
     "flying",
     "mineral"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:egg",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:ironhead",
     "1:peck",
@@ -144,15 +129,18 @@
     "egg:whirlwind"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.condesa.desc"
   ],
-  "baseScale": 0.2625,
+  "preEvolution": "sedirrot",
+  "baseScale": 0.35000000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

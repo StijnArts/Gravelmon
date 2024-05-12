@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Kokismash extends Pokemon {
                 236, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.MONSTER, EggGroup.GRASS),
-                List.of("These Pokémon are gentle in nature, despite their intimidating demeanor. They enjoy dancing, sparring, and lifting heavy things. They like to protect smaller friends."),
+                List.of("These Pokemon are gentle in nature, despite their intimidating demeanor. They enjoy dancing, sparring, and lifting heavy things. They like to protect smaller friends."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAIN_PUNCH,1),

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ailember",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:rica_ailember",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/rica/ailember.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/rica/ailember_shiny.png"
+    }  ]
+}

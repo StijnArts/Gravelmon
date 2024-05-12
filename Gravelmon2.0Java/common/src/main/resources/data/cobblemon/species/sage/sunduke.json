@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sunduke",
-  "nationalPokedexNumber": 1288,
+  "nationalPokedexNumber": 1213,
   "primaryType": "grass",
   "abilities": [
     "sunbathe",
@@ -47,16 +47,6 @@
   "eggGroups": [
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "cobblemon:sun_stone",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:feintattack",
     "1:sweetscent",
@@ -115,15 +105,18 @@
     "tutor:worryseed"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.sunduke.desc"
   ],
-  "baseScale": 0.2625,
+  "preEvolution": "drosire",
+  "baseScale": 0.35000000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

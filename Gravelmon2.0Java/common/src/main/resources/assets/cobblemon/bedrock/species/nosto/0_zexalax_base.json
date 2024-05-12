@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:zexalax",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:nosto_zexalax",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/nosto/zexalax.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/nosto/zexalax_shiny.png"
+    }  ]
+}

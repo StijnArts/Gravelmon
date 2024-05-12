@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dodonut-1",
+      "pokemon": "dodonut",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "8-29",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_tropical_island" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

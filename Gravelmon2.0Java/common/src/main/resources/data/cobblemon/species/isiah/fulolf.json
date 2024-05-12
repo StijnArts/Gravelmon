@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "fulolf",
+  "nationalPokedexNumber": 4359,
+  "primaryType": "dark",
+  "secondaryType": "steel",
+  "abilities": [
+    "intimidate",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 79,
+    "attack": 112,
+    "defence": 65,
+    "special_attack": 65,
+    "special_defence": 44,
+    "speed": 89
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:furyswipes",
+    "3:irondefense",
+    "6:honeclaws",
+    "9:bite",
+    "12:scaryface",
+    "15:metalclaw",
+    "19:slash",
+    "22:crunch",
+    "26:shadowclaw",
+    "29:chipaway",
+    "33:roarsound",
+    "36:revenge",
+    "40:pursuit",
+    "44:irontail",
+    "48:nightslash",
+    "51:moonlight",
+    "55:ironhead",
+    "58:partingshot",
+    "62:falsesurrender",
+    "67:flashcannon",
+    "74:darkestlariat",
+    "tm:lashout",
+    "tm:throatchop",
+    "tm:burningjealousy",
+    "tm:drainpunch",
+    "tm:endeavor",
+    "tm:snoresound",
+    "tm:superfang",
+    "tm:bulletpunch",
+    "tm:steelbeam",
+    "tm:uturn",
+    "tm:darkpulse",
+    "tm:embargo",
+    "tm:foulplay",
+    "tm:quash",
+    "tm:snarl",
+    "tm:taunt",
+    "tm:torment",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:focusblast",
+    "tm:fireblast",
+    "tm:attract",
+    "tm:batonpass",
+    "tm:bodyslam",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:encore",
+    "tm:endure",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:flash",
+    "tm:focusenergy",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:hypervoicesound",
+    "tm:naturalgift",
+    "tm:protect",
+    "tm:return",
+    "tm:roundsound",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:rest",
+    "tm:gyroball",
+    "tm:irontail",
+    "tm:moonblast"  ],
+  "labels": [
+    "isiah",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.fulolf.desc"
+  ],
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

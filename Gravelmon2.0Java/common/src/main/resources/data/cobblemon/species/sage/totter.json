@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "totter",
-  "nationalPokedexNumber": 1170,
+  "nationalPokedexNumber": 1095,
   "primaryType": "water",
   "abilities": [
     "speedboost",
@@ -47,16 +47,6 @@
   "eggGroups": [
     "water_1"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:watergun",
     "4:tailwhip",
@@ -149,10 +139,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

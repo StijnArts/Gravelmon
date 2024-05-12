@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "chimpoca",
-  "nationalPokedexNumber": 1278,
+  "nationalPokedexNumber": 1203,
   "primaryType": "fighting",
   "abilities": [
     "sheerforce",
+    "conditioning",
     "h:gorillatactics"
   ],
   "baseStats": {
@@ -47,16 +48,6 @@
     "human_like",
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:cocoa_beans",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:armthrust",
     "1:leer",
@@ -138,10 +129,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pipkorn-1",
+      "pokemon": "pipkorn",
+      "presets": [
+          "near_crops"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "21-44",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_temperate" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

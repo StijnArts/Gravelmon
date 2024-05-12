@@ -5,6 +5,7 @@ import drai.dev.gravelmon.pokemon.attributes.conditions.*;
 import java.util.*;
 
 public class PokemonForm {
+    public String preEvolution;
     private String name;
     private Type primaryType;
     private Type secondaryType;
@@ -81,7 +82,11 @@ public class PokemonForm {
     ) {
         this.name = name;
         this.primaryType = primaryType;
-        this.abilities = abilities;
+        this.abilities = new ArrayList<>();
+        this.abilities.addAll(abilities);
+        if(this.abilities.size() > 2){
+            this.abilities.remove(2);
+        }
         this.hiddenAbility = hiddenAbility;
         this.stats = stats;
         this.catchRate = catchRate;
@@ -107,7 +112,7 @@ public class PokemonForm {
         this.spawnPresets = spawnPresets;
         this.dexEntries = dexEntries;
         this.dropAmount = dropAmount;
-        this.drops = drops;
+        this.drops = new ArrayList<>();
         this.spawnAntiConditions = spawnAntiConditions;
         this.baseScale = baseScale;
         this.portraitScale = portraitScale;
@@ -170,7 +175,7 @@ public class PokemonForm {
         this.spawnPresets = spawnPresets;
         this.dexEntries = dexEntries;
         this.dropAmount = dropAmount;
-        this.drops = drops;
+        this.drops = new ArrayList<>();
         this.spawnAntiConditions = spawnAntiConditions;
         this.baseScale = (double)(height*1.5)/10/8;
         this.portraitScale = 0.3;
@@ -178,6 +183,13 @@ public class PokemonForm {
         this.labels.add(Label.NOT_MODELED);
     }
 
+    public void setPreEvolution(String cleanName) {
+        if(cleanName.equalsIgnoreCase("eevee")){
+            this.labels.add(Label.EEVEELUTION);
+        }
+        this.labels.add(Label.FAKEMON_EVOLUTION);
+        this.preEvolution = cleanName;
+    }
     public boolean hasSeparateModel() {
         return hasSeparateModel;
     }
@@ -337,5 +349,13 @@ public class PokemonForm {
 
     public void setBaseScale(double scale) {
         this.baseScale = scale;
+    }
+
+    public String getPreEvolution() {
+        return preEvolution;
+    }
+
+    public void setDropAmount(int i) {
+        dropAmount=i;
     }
 }

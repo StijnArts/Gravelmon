@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaLuxio extends Pokemon {
                 127, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon's poison is potent enough to cause fainting just from standing downwind of it."),
+                List.of("This Pokemon's poison is potent enough to cause fainting just from standing downwind of it."),
                 List.of(new EvolutionEntry("deltaluxray", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))
                 ),

@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "corsage",
+  "nationalPokedexNumber": 4666,
+  "primaryType": "grass",
+  "secondaryType": "fairy",
+  "abilities": [
+    "flowerveil",
+    "h:chlorophyll"
+  ],
+  "baseStats": {
+    "hp": 77,
+    "attack": 71,
+    "defence": 120,
+    "special_attack": 84,
+    "special_defence": 97,
+    "speed": 81
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "human_like"
+  ],
+  "moves": [
+    "3:healpulse",
+    "5:razorleaf",
+    "8:grassknot",
+    "11:disarmingvoicesound",
+    "15:helpinghand",
+    "24:magicalleaf",
+    "29:faketears",
+    "32:smellingsalts",
+    "35:grassyterrain",
+    "39:mirrorcoat",
+    "43:flowershield",
+    "50:petaldance",
+    "56:floralhealing",
+    "tm:leafstorm"  ],
+  "labels": [
+    "okeno",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.corsage.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

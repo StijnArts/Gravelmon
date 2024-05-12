@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "somberado",
-  "nationalPokedexNumber": 1199,
+  "nationalPokedexNumber": 1124,
   "primaryType": "dark",
   "secondaryType": "ghost",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:bulletseed",
     "1:lockon",
@@ -142,10 +132,10 @@
   "pokedex": [
     "cobblemon.species.somberado.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

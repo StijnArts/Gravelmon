@@ -1,0 +1,126 @@
+{
+  "implemented": true,
+  "name": "polypod",
+  "nationalPokedexNumber": 3740,
+  "primaryType": "water",
+  "abilities": [
+    "torrent",
+    "h:liquidooze"
+  ],
+  "baseStats": {
+    "hp": 49,
+    "attack": 73,
+    "defence": 91,
+    "special_attack": 45,
+    "special_defence": 77,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "water_3"
+  ],
+  "moves": [
+    "1:defensecurl",
+    "6:watergun",
+    "10:rockthrow",
+    "14:recycle",
+    "18:bubblebeam",
+    "22:camouflage",
+    "26:rocktomb",
+    "34:acidarmor",
+    "37:aquatail",
+    "48:soak",
+    "52:stoneedge",
+    "tm:bind",
+    "tm:helpinghand",
+    "tm:lowkick",
+    "tm:recycle",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:waterpulse",
+    "tm:aquatail",
+    "tm:icywind",
+    "tm:stealthrock",
+    "tm:earthpower",
+    "tm:gastroacid",
+    "tm:gunkshot",
+    "tm:liquidation",
+    "tm:wideguard",
+    "tm:acidspray",
+    "tm:liquidation",
+    "tm:rockblast"  ],
+  "labels": [
+    "mythire",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.polypod.desc"
+  ],
+  "preEvolution": "mollup",
+  "evolutions": [
+    {
+      "id": "polypod_carcoral",
+      "variant": "level_up",
+      "result": "carcoral",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

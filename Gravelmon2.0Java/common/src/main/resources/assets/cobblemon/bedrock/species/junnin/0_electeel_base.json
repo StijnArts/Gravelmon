@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:electeel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:junnin_electeel",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/junnin/electeel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/junnin/electeel_shiny.png"
+    }  ]
+}

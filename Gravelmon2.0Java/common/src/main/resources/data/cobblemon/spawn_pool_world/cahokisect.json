@@ -7,7 +7,7 @@
       "id": "cahokisect-1",
       "pokemon": "cahokisect",
       "presets": [
-          "desert_temple"
+          "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

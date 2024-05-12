@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreianarchen",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_ayreianarchen",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianarchen.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianarchen_shiny.png"
+    }  ]
+}

@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "chicaw-1",
+      "pokemon": "chicaw",
+      "presets": [
+          "shipwreck"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_winter" ]    }
+    }
+  ]
+}

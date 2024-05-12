@@ -1,0 +1,98 @@
+{
+  "implemented": true,
+  "name": "gloomineon",
+  "nationalPokedexNumber": 1535,
+  "primaryType": "ghost",
+  "secondaryType": "flying",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 89,
+    "attack": 89,
+    "defence": 76,
+    "special_attack": 89,
+    "special_defence": 91,
+    "speed": 116
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 20,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 260,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_2"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:growl",
+    "1:singsound",
+    "5:gust",
+    "9:shadowsneak",
+    "14:whirlwind",
+    "19:gravitywavecosmic",
+    "23:razorwind",
+    "27:safeguard",
+    "32:ominouswind",
+    "37:airslash",
+    "41:magiccoat",
+    "45:shadowball",
+    "50:lightscreen",
+    "50:reflect",
+    "55:typhoon"  ],
+  "labels": [
+    "lagoone",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.gloomineon.desc"
+  ],
+  "preEvolution": "lagoonanlumineon",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 17,
+  "weight": 390,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

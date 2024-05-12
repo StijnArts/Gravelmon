@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:khanstruct",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:novrai_khanstruct",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/novrai/khanstruct.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/novrai/khanstruct_shiny.png"
+    }  ]
+}

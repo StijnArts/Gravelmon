@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:sweetilt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:qamor_sweetilt",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/qamor/sweetilt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/qamor/sweetilt_shiny.png"
+    }  ]
+}

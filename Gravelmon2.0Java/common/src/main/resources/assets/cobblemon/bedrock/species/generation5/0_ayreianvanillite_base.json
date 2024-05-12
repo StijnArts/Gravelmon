@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreianvanillite",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation5_ayreianvanillite",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianvanillite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation5/ayreianvanillite_shiny.png"
+    }  ]
+}

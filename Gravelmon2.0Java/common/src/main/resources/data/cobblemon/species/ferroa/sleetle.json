@@ -1,0 +1,112 @@
+{
+  "implemented": true,
+  "name": "sleetle",
+  "nationalPokedexNumber": 1828,
+  "primaryType": "ice",
+  "secondaryType": "bug",
+  "abilities": [
+    "stalwart",
+    "damp",
+    "h:icebody"
+  ],
+  "baseStats": {
+    "hp": 53,
+    "attack": 52,
+    "defence": 42,
+    "special_attack": 48,
+    "special_defence": 40,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 55,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "tm:bugbite",
+    "tm:covet",
+    "tm:electroweb",
+    "tm:recycle",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:irondefense",
+    "tm:signalbeam",
+    "tm:icywind",
+    "tm:magiccoat",
+    "tm:ironhead",
+    "tm:earthpower",
+    "tm:stompingtantrum",
+    "tm:skittersmack",
+    "tm:steelroller",
+    "tm:terrainpulse",
+    "tm:steamroller"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.sleetle.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sleetle_cacold",
+      "variant": "level_up",
+      "result": "cacold",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 31
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hailoman",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:midamis_hailoman",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/midamis/hailoman.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/midamis/hailoman_shiny.png"
+    }  ]
+}

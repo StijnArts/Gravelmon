@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:sproutrop",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:okeno_sproutrop",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/okeno/sproutrop.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/sproutrop_shiny.png"
+    }  ]
+}

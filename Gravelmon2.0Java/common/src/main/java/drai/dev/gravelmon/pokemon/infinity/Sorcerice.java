@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Sorcerice extends Pokemon {
                 244, ExperienceGroup.MEDIUM_FAST,
                 70,
                 39, List.of(EggGroup.HUMAN_LIKE),
-                List.of("This Pokémon's elemental abilities are so powerful that it must live in isolation while maintaining constant focus to prevent itself from freezing everything around it."),
+                List.of("This Pokemon's elemental abilities are so powerful that it must live in isolation while maintaining constant focus to prevent itself from freezing everything around it."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BRAIN_FREEZE,1),

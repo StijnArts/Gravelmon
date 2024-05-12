@@ -1,0 +1,163 @@
+{
+  "implemented": true,
+  "name": "deepwishiwashi",
+  "nationalPokedexNumber": 746,
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "abilities": [
+    "schooling",
+    "h:schooling"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 20,
+    "defence": 20,
+    "special_attack": 25,
+    "special_defence": 25,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 61,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+"forms": [    {
+      "name": "School",
+      "primaryType": "ghost",
+      "secondaryType": "dragon",
+      "abilities": [
+    "schooling",
+    "h:schooling"
+      ],
+      "baseScale": 1.9125,
+        "hitbox": {
+          "width": 6.0,
+          "height": 6.0,
+          "fixed": false
+      },
+      "baseStats": {
+        "hp": 45,
+        "attack": 130,
+        "defence": 140,
+        "special_attack": 135,
+        "special_defence": 140,
+        "speed": 30
+      },
+      "catchRate": 61,
+      "maleRatio": 0.5,
+      "baseExperienceYield": 61,
+      "baseFriendship": 70,
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "fast",
+      "eggCycles": 51,
+      "eggGroups": [
+    "water_2"
+  ],  "drops": {
+    "amount": "0",
+    "entries": [
+
+    ]
+      },
+      "labels": [
+    "radicalred",
+    "gen1",
+    "not_modeled"
+      ],
+      "aspects": [
+        "school"
+      ],
+      "height": 10,
+      "weight": 2130,
+      "cannotDynamax": false,
+      "battleOnly": true
+    }
+],
+  "baseExperienceYield": 61,
+  "experienceGroup": "fast",
+  "eggCycles": 51,
+  "eggGroups": [
+    "water_2"
+  ],
+  "moves": [
+    "1:watergun",
+    "1:flash",
+    "4:whirlpool",
+    "8:beatup",
+    "12:signalbeam",
+    "16:faketears",
+    "20:payback",
+    "24:scaryface",
+    "28:darkpulse",
+    "32:liquidation",
+    "36:aquaring",
+    "40:foulplay",
+    "44:hydropump",
+    "48:topsyturvy",
+    "tm:waterpulse",
+    "tm:hail",
+    "tm:protect",
+    "tm:raindance",
+    "tm:endure",
+    "tm:bulldoze",
+    "egg:flipturn",
+    "egg:confuseray",
+    "egg:brine",
+    "egg:soak",
+    "egg:dive"  ],
+  "labels": [
+    "radicalred",
+    "gen7",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.deepwishiwashi.desc"
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 2,
+  "weight": 3,
+  "aspects": [],
+"features": [
+"school"
+  ],  "cannotDynamax": false
+}

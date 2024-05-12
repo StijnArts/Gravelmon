@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:bodmeast",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lonava_bodmeast",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lonava/bodmeast.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/bodmeast_shiny.png"
+    }  ]
+}

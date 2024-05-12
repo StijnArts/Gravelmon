@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "iguadium",
-  "nationalPokedexNumber": 1107,
+  "nationalPokedexNumber": 1032,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -48,21 +48,6 @@
     "water_1",
     "monster"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:prismarine",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-1",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:scratch",
     "1:tailwhip",
@@ -163,11 +148,14 @@
     "egg:superpower",
     "egg:waterpulse"  ],
   "labels": [
-    "sage"
+    "sage",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.iguadium.desc"
   ],
+  "preEvolution": "aguade",
   "evolutions": [
     {
       "id": "iguadium_aguanaut",

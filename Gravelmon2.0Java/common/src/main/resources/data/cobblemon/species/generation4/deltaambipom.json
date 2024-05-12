@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaambipom",
-  "nationalPokedexNumber": 416,
+  "nationalPokedexNumber": 424,
   "primaryType": "ghost",
   "secondaryType": "normal",
   "abilities": [
@@ -179,15 +179,17 @@
   "labels": [
     "gen2",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaambipom.desc"
   ],
-  "baseScale": 0.225,
+  "preEvolution": "deltaaipom",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

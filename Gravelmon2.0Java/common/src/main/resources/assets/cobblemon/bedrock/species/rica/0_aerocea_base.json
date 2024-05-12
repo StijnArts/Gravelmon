@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:aerocea",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:rica_aerocea",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/rica/aerocea.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/rica/aerocea_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:stalad",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:junnin_stalad",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/junnin/stalad.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/junnin/stalad_shiny.png"
+    }  ]
+}

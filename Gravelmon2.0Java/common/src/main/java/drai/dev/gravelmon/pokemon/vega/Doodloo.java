@@ -3,12 +3,13 @@ package drai.dev.gravelmon.pokemon.vega;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
 public class Doodloo extends Pokemon {
-    public Doodloo(int dexNo) {
-        super(dexNo,"Doodloo",
+    public Doodloo() {
+        super("Doodloo",
                 Type.NORMAL,
                 new Stats(70, 30, 45, 30, 35, 65),
                 List.of(Ability.OWN_TEMPO), Ability.LIMBER,
@@ -32,13 +33,13 @@ public class Doodloo extends Pokemon {
                         new MoveLearnSetEntry(Move.SKETCH,81),
                         new MoveLearnSetEntry(Move.SKETCH,91)
                         ),
-                List.of(Label.VEGA),
-                0, List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 44, 0.6, List.of(
+                List.of(Label.DENEB),
+                0, List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 44, 5.6, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day")
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.4, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreiannosepass",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_ayreiannosepass",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreiannosepass.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/ayreiannosepass_shiny.png"
+    }  ]
+}

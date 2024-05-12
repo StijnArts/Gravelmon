@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:stoatzen",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:rica_stoatzen",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/rica/stoatzen.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/rica/stoatzen_shiny.png"
+    }  ]
+}

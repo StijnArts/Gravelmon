@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltahoothoot",
-  "nationalPokedexNumber": 157,
+  "nationalPokedexNumber": 163,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
@@ -138,10 +138,10 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

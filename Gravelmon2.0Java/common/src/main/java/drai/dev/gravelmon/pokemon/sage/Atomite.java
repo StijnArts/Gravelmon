@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Atomite extends Pokemon {
                 56, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.AMORPHOUS),
-                List.of("Atomite is the smallest known Pokémon. Sometimes a big group of Atomite will group together to mimic the shape of something else."),
+                List.of("Atomite is the smallest known Pokemon. Sometimes a big group of Atomite will group together to mimic the shape of something else."),
                 List.of(new EvolutionEntry("orbatom", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "36")))),
                 List.of(
@@ -89,8 +90,7 @@ public class Atomite extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:spider_eye",90, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 2, 17, 3.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                        new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.2, 0.3,

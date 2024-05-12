@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cofagrigusx",
-  "nationalPokedexNumber": 562,
+  "nationalPokedexNumber": 563,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:xenolith",
-        "quantityRange": "1-1",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:trickroom",
     "1:withdraw",
@@ -105,15 +95,17 @@
   "labels": [
     "xenoverse",
     "gen5",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.cofagrigusx.desc"
   ],
-  "baseScale": 0.28125,
+  "preEvolution": "yamaskx",
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

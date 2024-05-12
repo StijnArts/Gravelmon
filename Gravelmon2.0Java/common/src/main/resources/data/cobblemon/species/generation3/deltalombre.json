@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltalombre",
-  "nationalPokedexNumber": 270,
+  "nationalPokedexNumber": 271,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
@@ -138,11 +138,13 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltalombre.desc"
   ],
+  "preEvolution": "deltalotad",
   "evolutions": [
     {
       "id": "deltalombre_deltaludicolo",
@@ -156,10 +158,10 @@
       "requiredContext": "cobblemon:water_stone"   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

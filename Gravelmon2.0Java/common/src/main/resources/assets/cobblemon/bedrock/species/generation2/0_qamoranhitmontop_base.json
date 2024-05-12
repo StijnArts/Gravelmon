@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:qamoranhitmontop",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation2_qamoranhitmontop",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation2/qamoranhitmontop.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation2/qamoranhitmontop_shiny.png"
+    }  ]
+}

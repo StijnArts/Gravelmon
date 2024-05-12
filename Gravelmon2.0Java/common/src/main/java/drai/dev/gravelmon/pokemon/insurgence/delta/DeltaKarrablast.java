@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaKarrablast extends Pokemon {
                 63, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by bradleyinabox. For unknown reasons, this Pokémon is extremely friendly towards Shelmet."),
+                List.of("A Delta Species discovered by bradleyinabox. For unknown reasons, this Pokemon is extremely friendly towards Shelmet."),
                 List.of(new EvolutionEntry("deltaescavalier", EvolutionType.TRADE, List.of(),
                         List.of())),
                 List.of(

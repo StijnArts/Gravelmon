@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:sniponge",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:isiah_sniponge",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/isiah/sniponge.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/isiah/sniponge_shiny.png"
+    }  ]
+}

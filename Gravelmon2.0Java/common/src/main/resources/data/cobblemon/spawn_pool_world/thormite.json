@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "thormite-1",
+      "pokemon": "thormite",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "26-39",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

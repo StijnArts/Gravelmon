@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cefiranflygon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_cefiranflygon",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/cefiranflygon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/cefiranflygon_shiny.png"
+    }  ]
+}

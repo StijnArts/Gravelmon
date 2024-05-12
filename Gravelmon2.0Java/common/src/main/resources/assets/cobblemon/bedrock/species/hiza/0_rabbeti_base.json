@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:rabbeti",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:hiza_rabbeti",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/hiza/rabbeti.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/hiza/rabbeti_shiny.png"
+    }  ]
+}

@@ -1,9 +1,10 @@
 {
   "implemented": true,
   "name": "avalynx",
-  "nationalPokedexNumber": 1115,
+  "nationalPokedexNumber": 1040,
   "primaryType": "ice",
   "abilities": [
+    "iceslick",
     "snowcloak",
     "h:slushrush"
   ],
@@ -117,15 +118,18 @@
     "egg:thunderfang"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.avalynx.desc"
   ],
-  "baseScale": 0.20625,
+  "preEvolution": "cubzero",
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ferrenyou",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:okeno_ferrenyou",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/okeno/ferrenyou.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/okeno/ferrenyou_shiny.png"
+    }  ]
+}

@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "pounther",
-  "nationalPokedexNumber": 1154,
+  "nationalPokedexNumber": 1079,
   "primaryType": "normal",
   "abilities": [
     "limber",
+    "adrenaline",
     "h:unburden"
   ],
   "baseStats": {
@@ -46,16 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "cobblemon:quick_claw",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:growl",
     "1:scratch",
@@ -149,10 +140,10 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

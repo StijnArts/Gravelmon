@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Sabolt extends Pokemon {
                 64, ExperienceGroup.SLOW,
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
-                List.of("Information about this Pokémon is shrouded in mystery. It is said to have appeared after a power outage."),
+                List.of("Information about this Pokemon is shrouded in mystery. It is said to have appeared after a power outage."),
                 List.of(new EvolutionEntry("saboltterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
                         new EvolutionEntry("saboltxenoversal", EvolutionType.LEVEL_UP, false, List.of(),

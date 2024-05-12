@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaremoraid",
-  "nationalPokedexNumber": 213,
+  "nationalPokedexNumber": 223,
   "primaryType": "fire",
   "abilities": [
     "heatproof",
@@ -140,10 +140,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

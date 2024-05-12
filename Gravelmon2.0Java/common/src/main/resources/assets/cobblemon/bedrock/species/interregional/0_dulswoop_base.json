@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:dulswoop",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:interregional_dulswoop",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/interregional/dulswoop.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/interregional/dulswoop_shiny.png"
+    }  ]
+}

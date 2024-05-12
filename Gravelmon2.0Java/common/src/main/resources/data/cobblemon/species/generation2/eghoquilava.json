@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghoquilava",
-  "nationalPokedexNumber": 155,
+  "nationalPokedexNumber": 156,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:gunpowder",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:flamewheel",
     "1:tackle",
@@ -144,11 +134,13 @@
   "labels": [
     "gen2",
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghoquilava.desc"
   ],
+  "preEvolution": "eghocyndaquil",
   "evolutions": [
     {
       "id": "eghoquilava_eghotyphlosion",
@@ -164,10 +156,10 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

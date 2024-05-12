@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadrifblim",
-  "nationalPokedexNumber": 425,
+  "nationalPokedexNumber": 426,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -140,15 +140,17 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltadrifblim.desc"
   ],
-  "baseScale": 0.225,
+  "preEvolution": "deltadrifloon",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

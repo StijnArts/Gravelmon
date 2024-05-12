@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaMisdreavus extends Pokemon {
                 87, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by EchoTheThird. This Pokémon does its best to bring everyone into the holiday spirit. It's only happy when everyone else is."),
+                List.of("A Delta Species discovered by EchoTheThird. This Pokemon does its best to bring everyone into the holiday spirit. It's only happy when everyone else is."),
                 List.of(new EvolutionEntry("deltamismagius", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:shiny_stone")),
                 List.of(

@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaPidgeotto extends Pokemon {
                 122, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokémon stealthily creeps around caves and labyrinths, hoping to catch intruders off guard with its glare. It avoids mirrors and pools of water at all costs."),
+                List.of("This Pokemon stealthily creeps around caves and labyrinths, hoping to catch intruders off guard with its glare. It avoids mirrors and pools of water at all costs."),
                 List.of(new EvolutionEntry("deltapidgeot", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

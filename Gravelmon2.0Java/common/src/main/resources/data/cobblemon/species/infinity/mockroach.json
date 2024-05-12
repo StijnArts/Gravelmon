@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mockroach",
-  "nationalPokedexNumber": 1371,
+  "nationalPokedexNumber": 1438,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -119,10 +119,10 @@
   "pokedex": [
     "cobblemon.species.mockroach.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

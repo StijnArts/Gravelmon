@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gachigachoo",
-  "nationalPokedexNumber": 1124,
+  "nationalPokedexNumber": 2105,
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
@@ -60,6 +60,7 @@
     "34:shockwave",
     "40:frostbreath",
     "45:tailslap",
+    "51:frostbite",
     "55:discharge",
     "tm:toxic",
     "tm:hail",
@@ -97,10 +98,10 @@
   "pokedex": [
     "cobblemon.species.gachigachoo.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

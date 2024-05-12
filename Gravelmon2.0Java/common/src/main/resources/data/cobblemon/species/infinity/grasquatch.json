@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grasquatch",
-  "nationalPokedexNumber": 1366,
+  "nationalPokedexNumber": 1433,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -144,15 +144,18 @@
     "egg:yawn"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.grasquatch.desc"
   ],
-  "baseScale": 0.5625,
+  "preEvolution": "kidfoot",
+  "baseScale": 0.75,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

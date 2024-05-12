@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:tarotoad",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:umbra_tarotoad",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/umbra/tarotoad.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/umbra/tarotoad_shiny.png"
+    },
+    {
+      "aspects": [
+        "female"
+      ],
+      "texture": "cobblemon:textures/pokemon/umbra/tarotoad_female.png"
+    },
+    {
+      "aspects": [
+        "female",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/umbra/tarotoad_female_shiny.png"
+    }
+  ]
+}

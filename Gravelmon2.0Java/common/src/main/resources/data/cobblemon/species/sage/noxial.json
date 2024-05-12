@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "noxial",
-  "nationalPokedexNumber": 1201,
+  "nationalPokedexNumber": 1126,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -56,8 +56,8 @@
       ],
       "baseScale": 0.16875,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -166,11 +166,7 @@
   "drops": {
     "amount": "2",
     "entries": [
-      {
-        "item": "minecraft:glass_bottle",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
+
     ]
       },
       "labels": [
@@ -211,16 +207,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:poisongas",
     "1:smokescreen",
@@ -301,11 +287,14 @@
     "egg:smokescreen"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.noxial.desc"
   ],
+  "preEvolution": "phlask",
   "evolutions": [
     {
       "id": "noxial_fumighast",
@@ -325,10 +314,10 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kaskadianbellsprout-1",
+      "pokemon": "kaskadianbellsprout",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "7-30",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_plains" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_arid",
+"#cobblemon:is_cold" ]    }
+    }
+  ]
+}

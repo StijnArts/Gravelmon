@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghooddish",
-  "nationalPokedexNumber": 22,
+  "nationalPokedexNumber": 43,
   "primaryType": "ghost",
   "secondaryType": "poison",
   "abilities": [
@@ -48,16 +48,6 @@
     "amorphous",
     "monster"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:memento",
     "1:taunt",
@@ -147,8 +137,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

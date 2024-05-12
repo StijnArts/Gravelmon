@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nodescape-1",
+      "pokemon": "nodescape",
+      "presets": [
+          "reef"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "2-23",
+      "weight": 5.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ]
+      }
+    }
+  ]
+}

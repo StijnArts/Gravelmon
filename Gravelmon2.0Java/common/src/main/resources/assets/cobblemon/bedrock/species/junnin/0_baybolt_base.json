@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:baybolt",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:junnin_baybolt",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/junnin/baybolt.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/junnin/baybolt_shiny.png"
+    }  ]
+}

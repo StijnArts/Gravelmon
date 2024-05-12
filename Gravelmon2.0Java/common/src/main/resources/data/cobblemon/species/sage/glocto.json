@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glocto",
-  "nationalPokedexNumber": 1291,
+  "nationalPokedexNumber": 1216,
   "primaryType": "water",
   "secondaryType": "fire",
   "abilities": [
@@ -49,16 +49,6 @@
     "water_2",
     "water_3"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:magma",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:wrap",
     "1:smokescreen",
@@ -142,10 +132,10 @@
       ]   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

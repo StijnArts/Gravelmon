@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pyrockit",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:interregional_pyrockit",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/interregional/pyrockit.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/interregional/pyrockit_shiny.png"
+    }  ]
+}

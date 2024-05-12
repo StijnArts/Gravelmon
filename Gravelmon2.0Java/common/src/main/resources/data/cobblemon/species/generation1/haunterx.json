@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "haunterx",
-  "nationalPokedexNumber": 92,
+  "nationalPokedexNumber": 93,
   "primaryType": "dragon",
   "abilities": [
     "oblivious",
@@ -100,11 +100,13 @@
   "labels": [
     "xenoverse",
     "gen1",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.haunterx.desc"
   ],
+  "preEvolution": "gastlyx",
   "evolutions": [
     {
       "id": "haunterx_gengarx",
@@ -118,10 +120,10 @@
       "requiredContext": "gravelmon:xenolith"   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

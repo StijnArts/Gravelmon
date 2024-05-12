@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "varaquake",
+  "nationalPokedexNumber": 3298,
+  "primaryType": "ground",
+  "secondaryType": "rock",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 101,
+    "attack": 86,
+    "defence": 120,
+    "special_attack": 35,
+    "special_defence": 78,
+    "speed": 43
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster",
+    "water_1"
+  ],
+  "moves": [
+    "1:dig",
+    "1:headsmash",
+    "1:irontail",
+    "1:drillrun",
+    "1:sandstorm",
+    "1:rockpolish",
+    "1:magnitude",
+    "1:thrash",
+    "1:crunch",
+    "tm:aquatail",
+    "tm:attract",
+    "tm:bide",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:cut",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragonrage",
+    "tm:dragontail",
+    "tm:drillrun",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:heavyslam",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:mimic",
+    "tm:outrage",
+    "tm:payback",
+    "tm:poisonfang",
+    "tm:protect",
+    "tm:rage",
+    "tm:rest",
+    "tm:return",
+    "tm:roarsound",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:roundsound",
+    "tm:sandstorm",
+    "tm:scaleshot",
+    "tm:scorchingsands",
+    "tm:secretpower",
+    "tm:skullbash",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:snoresound",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:takedown",
+    "tm:throatchop",
+    "tm:wildcharge"  ],
+  "labels": [
+    "crozoic",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.varaquake.desc"
+  ],
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 20,
+  "weight": 3053,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

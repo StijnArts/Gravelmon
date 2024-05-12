@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaelectivire",
-  "nationalPokedexNumber": 465,
+  "nationalPokedexNumber": 466,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -121,6 +121,7 @@
     "tm:steelwing",
     "tm:darkpulse",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
@@ -177,15 +178,17 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaelectivire.desc"
   ],
-  "baseScale": 0.20625,
+  "preEvolution": "deltaelectabuzz",
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

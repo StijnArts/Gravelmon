@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "orett",
-  "nationalPokedexNumber": 1256,
+  "nationalPokedexNumber": 1181,
   "primaryType": "steel",
   "abilities": [
     "shedskin",
@@ -48,16 +48,6 @@
     "mineral",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:iron_ore",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "4:harden",
@@ -137,10 +127,10 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

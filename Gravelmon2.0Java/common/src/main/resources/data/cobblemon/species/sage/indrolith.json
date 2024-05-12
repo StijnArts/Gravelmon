@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "indrolith",
-  "nationalPokedexNumber": 1235,
+  "nationalPokedexNumber": 1160,
   "primaryType": "rock",
   "secondaryType": "ground",
   "abilities": [
@@ -49,16 +49,6 @@
     "monster",
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:hornattack",
     "1:tailwhip",
@@ -118,15 +108,18 @@
     "egg:thrash"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.indrolith.desc"
   ],
-  "baseScale": 0.6,
+  "preEvolution": "calphite",
+  "baseScale": 0.7999999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Kokiseed extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.MONSTER, EggGroup.GRASS),
-                List.of("A small seed-like Pokémon that enjoys dancing at festivals. It scatters its leaves around for pizaz. It will sometimes try to imitate stronger Pokémon fighting."),
+                List.of("A small seed-like Pokemon that enjoys dancing at festivals. It scatters its leaves around for pizaz. It will sometimes try to imitate stronger Pokemon fighting."),
                 List.of(new EvolutionEntry("kokipound", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

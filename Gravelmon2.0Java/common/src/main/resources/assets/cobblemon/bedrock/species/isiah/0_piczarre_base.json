@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:piczarre",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:isiah_piczarre",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/isiah/piczarre.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/isiah/piczarre_shiny.png"
+    }  ]
+}

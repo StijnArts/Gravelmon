@@ -23,10 +23,10 @@ public class PoserJSONWriter {
     private static void writePokemon(Pokemon pokemon, Game game, String dir) throws IOException {
         if(pokemon.isNew()&&!pokemon.isModeled()) {
             String fileContents = "{\n" +
-                    "  \"portraitScale\": " + pokemon.getProfileScale() + ",\n" +
-                    "  \"portraitTranslation\": [" + pokemon.getProfileTranslationX() + ", " + pokemon.getProfileTranslationY() + ", " + pokemon.getProfileTranslationZ() + "],\n" +
-                    "  \"profileScale\": " + pokemon.getPortraitScale() + ",\n" +
-                    "  \"profileTranslation\": [" + pokemon.getPortraitTranslationX() + ", " + pokemon.getPortraitTranslationY() + ", " + pokemon.getPortraitTranslationZ() + "],\n" +
+                    "  \"portraitScale\": 0.165,\n" +
+                    "  \"portraitTranslation\": [0.0, 1.4, 0.0],\n" +
+                    "  \"profileScale\": 0.22,\n" +
+                    "  \"profileTranslation\": [0.0, 1.55, -20.0],\n" +
                     "  \"poses\": {\n" +
                     "    \"profile\": {\n" +
                     "      \"poseName\": \"profile\",\n" +

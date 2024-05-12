@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
@@ -74,7 +75,7 @@ public class Drasparath extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "false"),
                         new SpawnCondition(SpawnConditionType.MAXY, "0")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.19, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

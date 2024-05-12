@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:plubus",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:junnin_plubus",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/junnin/plubus.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/junnin/plubus_shiny.png"
+    }  ]
+}

@@ -1,0 +1,120 @@
+{
+  "implemented": true,
+  "name": "vitisquash",
+  "nationalPokedexNumber": 3479,
+  "primaryType": "normal",
+  "secondaryType": "grass",
+  "abilities": [
+    "ripen",
+    "h:harvest"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 85,
+    "defence": 70,
+    "special_attack": 45,
+    "special_defence": 70,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 170,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 143,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like",
+    "field"
+  ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:bacchus_laurel",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+  "moves": [
+    "1:sweetscent",
+    "1:tackle",
+    "5:absorb",
+    "7:growth",
+    "10:razorleaf",
+    "13:helpinghand",
+    "16:flail",
+    "20:megadrain",
+    "23:grassyterrain",
+    "29:seedbomb",
+    "34:energyball",
+    "37:leechseed",
+    "42:terrainpulse",
+    "egg:memento",
+    "egg:strengthsap",
+    "egg:synthesis",
+    "egg:weatherball"  ],
+  "labels": [
+    "lockemon",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.vitisquash.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "vitisquash_dionysseur",
+      "variant": "item_interact",
+      "result": "dionysseur",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "gravelmon:bacchus_laurel"   
+ }
+  ],
+  "baseScale": 0.27499999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 11,
+  "weight": 131,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

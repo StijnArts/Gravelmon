@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kairoglyph",
-  "nationalPokedexNumber": 1221,
+  "nationalPokedexNumber": 1146,
   "primaryType": "ground",
   "secondaryType": "psychic",
   "abilities": [
@@ -49,16 +49,6 @@
     "field",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:sandstone",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:psychoshift",
     "1:miracleeye",
@@ -77,6 +67,7 @@
     "32:ancientpower",
     "36:mudslide",
     "40:sandstorm",
+    "43:tempest",
     "46:psyshock",
     "52:earthpower",
     "58:healblock",
@@ -162,15 +153,18 @@
     "egg:memento"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.kairoglyph.desc"
   ],
-  "baseScale": 0.2625,
+  "preEvolution": "cairup",
+  "baseScale": 0.35000000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

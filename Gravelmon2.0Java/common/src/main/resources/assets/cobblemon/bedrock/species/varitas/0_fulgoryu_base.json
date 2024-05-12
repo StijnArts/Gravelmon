@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:fulgoryu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:varitas_fulgoryu",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/varitas/fulgoryu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/varitas/fulgoryu_shiny.png"
+    }  ]
+}

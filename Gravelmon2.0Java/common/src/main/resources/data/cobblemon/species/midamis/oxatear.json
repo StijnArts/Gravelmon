@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "oxatear",
+  "nationalPokedexNumber": 4436,
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "abilities": [
+    "torrent",
+    "h:drizzle"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 115,
+    "defence": 95,
+    "special_attack": 75,
+    "special_defence": 75,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_1",
+    "field"
+  ],
+  "moves": [
+    "1:aquajet",
+    "40:raindance",
+    "47:closecombat",
+    "54:aquatail",
+    "61:hydropump",
+    "tm:takedown",
+    "tm:mist",
+    "tm:confusion",
+    "tm:substitute",
+    "tm:endure",
+    "tm:mirrorcoat",
+    "tm:brine"  ],
+  "labels": [
+    "midamis",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.oxatear.desc"
+  ],
+  "preEvolution": "aqualf",
+  "baseScale": 0.47500000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 19,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

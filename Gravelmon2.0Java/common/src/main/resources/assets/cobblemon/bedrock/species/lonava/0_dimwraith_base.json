@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:dimwraith",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lonava_dimwraith",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lonava/dimwraith.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/dimwraith_shiny.png"
+    }  ]
+}

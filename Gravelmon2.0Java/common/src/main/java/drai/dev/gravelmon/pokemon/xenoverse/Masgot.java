@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 import java.util.*;
 
 public class Masgot extends Pokemon {
@@ -18,7 +17,7 @@ public class Masgot extends Pokemon {
                 111, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.UNDISCOVERED),
-                List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -88,7 +87,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.FIRE),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -157,7 +156,7 @@ public class Masgot extends Pokemon {
                                 70,
                                 32, List.of(EggGroup.UNDISCOVERED),
                                 List.of(Aspect.GHOST),
-                                List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                                List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                                 List.of(),
                                 List.of(
                                         new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -227,7 +226,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.ICE),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -297,7 +296,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.DARK),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.TWINEEDLE,1),
@@ -367,7 +366,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.ELECTRIC),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -438,7 +437,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.FIGHTING),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -508,7 +507,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.FLYING),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -578,7 +577,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.GRASS),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -648,7 +647,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.ROCK),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -718,7 +717,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.POISON),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -788,7 +787,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.GROUND),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -858,7 +857,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.STEEL),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -914,7 +913,7 @@ public class Masgot extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.UNDERGROUND),
+                        List.of(SpawnPreset.NATURAL),
                         0.3, 0.3
                 ),new PokemonForm(
                         "Water", false,
@@ -928,7 +927,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.WATER),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -998,7 +997,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.SOUND),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -1068,7 +1067,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.PSYCHIC),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -1124,7 +1123,7 @@ public class Masgot extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.3, 0.3
                 ),new PokemonForm(
                         "Dragon", false,
@@ -1138,7 +1137,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.DRAGON),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -1194,7 +1193,7 @@ public class Masgot extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_BAMBOO)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.3, 0.3
                 ),new PokemonForm(
                         "Fairy", false,
@@ -1208,7 +1207,7 @@ public class Masgot extends Pokemon {
                         70,
                         32, List.of(EggGroup.UNDISCOVERED),
                         List.of(Aspect.FAIRY),
-                        List.of("It defends from predators assuming the form of bigger Pokémon. It is very popular among Bug Maniacs."),
+                        List.of("It defends from predators assuming the form of bigger Pokemon. It is very popular among Bug Maniacs."),
                         List.of(),
                         List.of(
                                 new MoveLearnSetEntry(Move.INFESTATION,1),
@@ -1264,7 +1263,7 @@ public class Masgot extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_MAGICAL)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                        List.of(SpawnPreset.URBAN),
+                        List.of(SpawnPreset.VILLAGE),
                         0.3, 0.3
                 )));
         this.setPortraitXYZ(0.1,2.0,0.0);

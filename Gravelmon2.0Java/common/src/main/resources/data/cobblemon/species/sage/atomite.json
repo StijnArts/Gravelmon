@@ -1,11 +1,12 @@
 {
   "implemented": true,
   "name": "atomite",
-  "nationalPokedexNumber": 1203,
+  "nationalPokedexNumber": 1128,
   "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
     "lightningrod",
+    "eccentric",
     "h:adaptability"
   ],
   "baseStats": {
@@ -47,16 +48,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:spider_eye",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:charge",
@@ -143,8 +134,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

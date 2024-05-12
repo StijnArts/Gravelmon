@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "canSeeSky": true,
+    "neededBaseBlocks": [
+      "minecraft:grass_block",
+      "minecraft:stone",
+      "minecraft:deepslate",
+      "minecraft:netherrack",
+      "minecraft:soul_sand",
+      "minecraft:gravel",
+      "minecraft:soul_soil"
+     ],
+     "neededNearbyBlocks": [
+      "minecraft:magma_block"
+     ]
+  }
+}

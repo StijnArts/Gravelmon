@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "destropod",
+  "nationalPokedexNumber": 4649,
+  "primaryType": "water",
+  "abilities": [
+    "swiftswim",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 80,
+    "special_attack": 90,
+    "special_defence": 85,
+    "speed": 85
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "water_1"
+  ],
+  "moves": [
+    "1:recover",
+    "1:roarsound",
+    "1:surf",
+    "1:outrage",
+    "1:twister",
+    "1:brine",
+    "1:aquatail",
+    "tm:splash",
+    "tm:covet",
+    "tm:workup",
+    "tm:soak",
+    "tm:watergun",
+    "tm:waterfall",
+    "tm:flipturn"  ],
+  "labels": [
+    "okeno",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.destropod.desc"
+  ],
+  "preEvolution": "desbrine",
+  "baseScale": 0.525,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 21,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

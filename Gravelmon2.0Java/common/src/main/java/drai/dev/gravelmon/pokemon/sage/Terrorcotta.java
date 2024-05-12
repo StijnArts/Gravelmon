@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 import java.util.*;
 
 public class Terrorcotta extends Pokemon {
@@ -107,7 +106,7 @@ public class Terrorcotta extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.6, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

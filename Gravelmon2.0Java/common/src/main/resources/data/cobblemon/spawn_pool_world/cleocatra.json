@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cleocatra-1",
+      "pokemon": "cleocatra",
+      "presets": [
+          "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "33-54",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

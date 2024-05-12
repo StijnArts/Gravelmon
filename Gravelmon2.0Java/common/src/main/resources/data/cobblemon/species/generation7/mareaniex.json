@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mareaniex",
-  "nationalPokedexNumber": 715,
+  "nationalPokedexNumber": 747,
   "primaryType": "poison",
   "secondaryType": "fire",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:bind",
     "1:poisonsting",
@@ -108,8 +118,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

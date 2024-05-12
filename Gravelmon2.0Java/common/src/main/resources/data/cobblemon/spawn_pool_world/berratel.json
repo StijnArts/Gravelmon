@@ -7,7 +7,7 @@
       "id": "berratel-1",
       "pokemon": "berratel",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

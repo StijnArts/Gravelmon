@@ -1,0 +1,170 @@
+{
+  "implemented": true,
+  "name": "kappow",
+  "nationalPokedexNumber": 5267,
+  "primaryType": "normal",
+  "secondaryType": "fire",
+  "abilities": [
+    "magmaarmor",
+    "angershell",
+    "h:flashfire"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 40,
+    "defence": 60,
+    "special_attack": 65,
+    "special_defence": 70,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 210,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 67,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:ember",
+    "6:withdraw",
+    "9:smokescreen",
+    "13:smog",
+    "20:headbutt",
+    "24:rockthrow",
+    "27:lavaplume",
+    "29:scorchingsands",
+    "33:seismictoss",
+    "35:chipaway",
+    "38:earthpower",
+    "42:magmastorm",
+    "44:wideguard",
+    "49:wringout",
+    "51:fissure",
+    "55:eruption",
+    "60:ragingfury",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:earthpower",
+    "tm:hypervoicesound",
+    "tm:yawn",
+    "tm:snoresound",
+    "tm:rapidspin",
+    "tm:focusenergy",
+    "tm:weatherball",
+    "tm:scaleshot",
+    "tm:roarsound",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:solarbeam",
+    "tm:return",
+    "tm:flamethrower",
+    "tm:sandstorm",
+    "tm:fireblast",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:flamecharge",
+    "tm:rest",
+    "tm:luckychant",
+    "tm:rocksmash",
+    "tm:ancientpower",
+    "tm:overheat",
+    "tm:curse",
+    "tm:willowisp",
+    "tm:explosion",
+    "tm:payback",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:gyroball",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:flashcannon",
+    "tm:triattack",
+    "tm:naturalgift",
+    "tm:darkpulse",
+    "tm:confide",
+    "tm:scorchingsands",
+    "tm:bodypress",
+    "tm:smackdown",
+    "tm:attract",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:rockclimb",
+    "tm:heatwave",
+    "tm:firespin",
+    "tm:skullbash",
+    "tm:dragonbreath",
+    "tm:bide",
+    "tm:mudbomb",
+    "tm:burnup"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.kappow.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "kappow_kappatoa",
+      "variant": "item_interact",
+      "result": "kappatoa",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:fire_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "norheimanunown-1",
+      "pokemon": "norheimanunown",
+      "presets": [
+          "ruined_portal"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "3-22",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_snowy" ]
+      }
+    }
+  ]
+}

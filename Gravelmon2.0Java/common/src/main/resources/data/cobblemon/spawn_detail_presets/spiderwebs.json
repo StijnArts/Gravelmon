@@ -2,7 +2,6 @@
   "condition": {
     "neededNearbyBlocks": [
       "minecraft:cobweb"
-     ],
-     "maxLight": 12
+     ]
   }
 }

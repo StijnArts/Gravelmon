@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "howlequin",
-  "nationalPokedexNumber": 1243,
+  "nationalPokedexNumber": 1168,
   "primaryType": "dark",
   "secondaryType": "normal",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:bone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:barrage",
     "1:growl",
@@ -149,15 +139,18 @@
     "egg:pursuit"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.howlequin.desc"
   ],
-  "baseScale": 0.2625,
+  "preEvolution": "chihaha",
+  "baseScale": 0.35000000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

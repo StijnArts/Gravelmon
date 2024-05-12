@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phlask",
-  "nationalPokedexNumber": 1200,
+  "nationalPokedexNumber": 1125,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:glass_bottle",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:poisongas",
     "1:smokescreen",
@@ -177,8 +167,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

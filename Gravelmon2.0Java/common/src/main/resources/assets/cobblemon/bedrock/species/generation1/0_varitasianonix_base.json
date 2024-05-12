@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:varitasianonix",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_varitasianonix",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/varitasianonix.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/varitasianonix_shiny.png"
+    }  ]
+}

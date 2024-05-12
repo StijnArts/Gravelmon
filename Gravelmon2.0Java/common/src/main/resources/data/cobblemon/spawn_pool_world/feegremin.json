@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "feegremin-1",
+      "pokemon": "feegremin",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "35-58",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

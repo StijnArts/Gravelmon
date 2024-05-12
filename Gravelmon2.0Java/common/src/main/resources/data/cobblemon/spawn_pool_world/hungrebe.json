@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hungrebe-1",
+      "pokemon": "hungrebe",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "23-43",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_freezing",
+"#cobblemon:is_lush" ]
+      }
+    }
+  ]
+}

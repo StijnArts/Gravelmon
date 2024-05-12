@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cosmoose",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kuria_cosmoose",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/kuria/cosmoose.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuria/cosmoose_shiny.png"
+    }  ]
+}

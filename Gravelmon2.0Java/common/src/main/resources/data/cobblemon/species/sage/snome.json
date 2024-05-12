@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snome",
-  "nationalPokedexNumber": 1130,
+  "nationalPokedexNumber": 1055,
   "primaryType": "ice",
   "abilities": [
     "permafrost",
@@ -47,16 +47,6 @@
   "eggGroups": [
     "human_like"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:ice",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:defensecurl",
     "1:taunt",
@@ -143,10 +133,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

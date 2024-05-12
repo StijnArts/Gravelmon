@@ -1,4 +1,19 @@
 {"target": "cobblemon:Eldegoss",
+ "evolutions": [
+  {
+   "id": "eldegoss_witherscence",
+   "variant": "level_up",
+   "result": "witherscence",
+   "consumeHeldItem": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "biome",
+     "biomeCondition": "#cobblemon:is_autumn"
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:leafage",
     "1:rapidspin",

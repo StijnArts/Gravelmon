@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:bassrotom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation4_bassrotom",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/bassrotom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/bassrotom_shiny.png"
+    }  ]
+}

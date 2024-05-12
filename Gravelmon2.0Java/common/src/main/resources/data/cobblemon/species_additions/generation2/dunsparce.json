@@ -25,7 +25,46 @@
      "minLevel": 42
     }
    ]
-  }
+  },
+  {
+   "id": "dunsparce_dunmyth",
+   "variant": "level_up",
+   "result": "dunmyth",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 26
+    }
+   ]
+  },
+   {
+    "id": "dunsparce_dunseraph",
+    "variant": "level_up",
+    "result": "dunseraph",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [
+     {
+      "variant": "has_move",
+      "move": "skydrop"
+     }
+    ]
+   },
+   {
+    "id": "dunsparce_dustout",
+    "variant": "level_up",
+    "result": "dustout",
+    "consumeHeldItem": false,
+    "learnableMoves": [],
+    "requirements": [
+     {
+      "variant": "has_move",
+      "move": "dig"
+     }
+    ]
+   }
  ],
    "moves": [
     "1:defensecurl",
@@ -51,6 +90,7 @@
     "46:endure",
     "48:doubleedge",
     "52:endeavor",
+    "65:skydrop",
     "egg:agility",
     "egg:ancientpower",
     "egg:aquatail",

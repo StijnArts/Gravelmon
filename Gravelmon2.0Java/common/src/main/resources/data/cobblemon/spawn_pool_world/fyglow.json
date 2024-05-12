@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fyglow-1",
+      "pokemon": "fyglow",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "7-32",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland",
+"#cobblemon:is_forest",
+"#cobblemon:is_swamp" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

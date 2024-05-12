@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadragonite",
-  "nationalPokedexNumber": 148,
+  "nationalPokedexNumber": 149,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -168,15 +168,17 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltadragonite.desc"
   ],
-  "baseScale": 0.4125,
+  "preEvolution": "deltadragonair",
+  "baseScale": 0.5499999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

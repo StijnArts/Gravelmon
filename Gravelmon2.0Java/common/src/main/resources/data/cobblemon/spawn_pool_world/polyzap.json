@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "polyzap-1",
+      "pokemon": "polyzap",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "30-52",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_warm_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

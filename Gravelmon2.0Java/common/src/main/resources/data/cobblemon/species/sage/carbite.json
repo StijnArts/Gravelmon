@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "carbite",
-  "nationalPokedexNumber": 1311,
+  "nationalPokedexNumber": 1236,
   "primaryType": "dragon",
   "abilities": [
     "pressure",
     "pressure",
-    "h:keeneye"
+    "h:conditioning"
   ],
   "baseStats": {
     "hp": 45,
@@ -48,16 +48,6 @@
     "mineral",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:deepslate",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:rage",
     "1:harden",
@@ -130,10 +120,10 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

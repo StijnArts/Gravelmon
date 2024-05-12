@@ -1,0 +1,114 @@
+{
+  "implemented": true,
+  "name": "avorianmaractus",
+  "nationalPokedexNumber": 556,
+  "primaryType": "ghost",
+  "secondaryType": "grass",
+  "abilities": [
+    "serenegrace",
+    "h:wanderingspirit"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 86,
+    "defence": 67,
+    "special_attack": 106,
+    "special_defence": 67,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:ingrain",
+    "4:growth",
+    "8:megadrain",
+    "12:teeterdance",
+    "16:suckerpunch",
+    "20:shadowpunch",
+    "24:gigadrain",
+    "28:scaryface",
+    "32:shadowball",
+    "36:petalblizzard",
+    "40:curse",
+    "44:willowisp",
+    "48:hex",
+    "52:quiverdance",
+    "56:petaldance",
+    "60:destinybond"  ],
+  "labels": [
+    "avoris",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.avorianmaractus.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "avorianmaractus_maracabre",
+      "variant": "level_up",
+      "result": "maracabre",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 36
+        },
+        {
+          "variant": "time_range",
+          "range": night
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.25,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 10,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

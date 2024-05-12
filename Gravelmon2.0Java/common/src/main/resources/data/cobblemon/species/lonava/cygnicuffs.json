@@ -1,0 +1,105 @@
+{
+  "implemented": true,
+  "name": "cygnicuffs",
+  "nationalPokedexNumber": 3343,
+  "primaryType": "normal",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 53,
+    "attack": 67,
+    "defence": 37,
+    "special_attack": 31,
+    "special_defence": 53,
+    "speed": 54
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 220,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:peck",
+    "1:leer",
+    "13:quickattack",
+    "17:wingattack",
+    "21:doubleteam",
+    "25:endeavor",
+    "29:detect",
+    "33:aerialace",
+    "38:takedown",
+    "43:swagger",
+    "48:drillpeck",
+    "54:finalgambit"  ],
+  "labels": [
+    "lonava",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.cygnicuffs.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "cygnicuffs_swallop",
+      "variant": "level_up",
+      "result": "swallop",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 23
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

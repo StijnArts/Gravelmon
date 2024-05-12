@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "montegrew",
-  "nationalPokedexNumber": 1142,
+  "nationalPokedexNumber": 1067,
   "primaryType": "grass",
   "abilities": [
     "allure",
@@ -47,16 +47,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:destinybond",
     "1:spite",
@@ -145,15 +135,18 @@
     "egg:sweetkiss"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.montegrew.desc"
   ],
-  "baseScale": 0.225,
+  "preEvolution": "growmeo",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

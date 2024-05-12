@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Anvelid extends Pokemon {
                 151, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.MINERAL, EggGroup.DRAGON),
-                List.of("Anvelid incubates inside mineral-rich cave walls in order to grow. However, it will ferociously attack any Pokémon or people who disturb its hibernation."),
+                List.of("Anvelid incubates inside mineral-rich cave walls in order to grow. However, it will ferociously attack any Pokemon or people who disturb its hibernation."),
                 List.of(new EvolutionEntry("magroplex", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"43")))),
                 List.of(
@@ -91,7 +92,7 @@ public class Anvelid extends Pokemon {
                         new SpawnCondition(SpawnConditionType.MAXY,"0"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.3, 0.5,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

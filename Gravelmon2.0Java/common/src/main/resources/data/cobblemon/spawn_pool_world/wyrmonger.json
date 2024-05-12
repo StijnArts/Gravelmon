@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wyrmonger-1",
+      "pokemon": "wyrmonger",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-65",
+      "weight": 0.01,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_wasteland" ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:cradecart",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vanguard_cradecart",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/vanguard/cradecart.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/cradecart_shiny.png"
+    }  ]
+}

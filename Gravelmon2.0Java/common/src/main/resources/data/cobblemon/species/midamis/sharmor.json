@@ -1,0 +1,109 @@
+{
+  "implemented": true,
+  "name": "sharmor",
+  "nationalPokedexNumber": 4510,
+  "primaryType": "steel",
+  "secondaryType": "water",
+  "abilities": [
+    "sturdy",
+    "h:sturdy"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 55,
+    "defence": 85,
+    "special_attack": 55,
+    "special_defence": 45,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:withdraw",
+    "6:watergun",
+    "9:watersport",
+    "15:bubblebeam",
+    "19:purify",
+    "21:mudshot",
+    "25:waterpulse",
+    "29:soak",
+    "35:recycle",
+    "39:metalsound",
+    "42:metalburst",
+    "45:muddywater",
+    "48:teeterdance",
+    "52:waterspout",
+    "56:gastroacid"  ],
+  "labels": [
+    "midamis",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.sharmor.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "sharmor_sharmaul",
+      "variant": "level_up",
+      "result": "sharmaul",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 40
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

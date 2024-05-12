@@ -1,0 +1,96 @@
+{
+  "implemented": true,
+  "name": "ivorage",
+  "nationalPokedexNumber": 5652,
+  "primaryType": "rock",
+  "secondaryType": "fire",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 140,
+    "defence": 100,
+    "special_attack": 90,
+    "special_defence": 80,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:defensecurl",
+    "5:smog",
+    "8:smokescreen",
+    "12:pursuit",
+    "15:protect",
+    "19:incinerate",
+    "23:rockblast",
+    "28:flamewheel",
+    "32:sharpen",
+    "37:steamroller",
+    "41:stoneedge",
+    "43:flareblitz",
+    "46:rockclimb",
+    "50:rockwrecker"  ],
+  "labels": [
+    "amavi",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ivorage.desc"
+  ],
+  "preEvolution": "gorock",
+  "baseScale": 0.5750000000000001,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 23,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:pearry",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:kuria_pearry",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/kuria/pearry.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kuria/pearry_shiny.png"
+    }  ]
+}

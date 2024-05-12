@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ploworm-1",
+      "pokemon": "ploworm",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "2-25",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_lush",
+"#cobblemon:is_spring",
+"#cobblemon:is_autumn" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

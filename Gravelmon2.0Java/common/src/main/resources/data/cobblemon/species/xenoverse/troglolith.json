@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "troglolith",
-  "nationalPokedexNumber": 1131,
+  "nationalPokedexNumber": 2113,
   "primaryType": "rock",
   "secondaryType": "normal",
   "abilities": [
@@ -122,15 +122,18 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.troglolith.desc"
   ],
-  "baseScale": 0.24375,
+  "preEvolution": "rockapye",
+  "baseScale": 0.325,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

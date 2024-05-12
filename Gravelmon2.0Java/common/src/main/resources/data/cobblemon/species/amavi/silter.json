@@ -1,0 +1,125 @@
+{
+  "implemented": true,
+  "name": "silter",
+  "nationalPokedexNumber": 5664,
+  "primaryType": "water",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 30,
+    "attack": 22,
+    "defence": 40,
+    "special_attack": 33,
+    "special_defence": 49,
+    "speed": 10
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 170,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:splash",
+    "3:growl",
+    "6:astonish",
+    "12:watergun",
+    "15:mist",
+    "18:waterpulse",
+    "21:heavyslam",
+    "24:brine",
+    "27:whirlpool",
+    "30:dive",
+    "33:clamp"  ],
+  "labels": [
+    "amavi",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.silter.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "silter_aquariell",
+      "variant": "level_up",
+      "result": "aquariell",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        },
+        {
+          "variant": "time_range",
+          "range": night
+        }
+      ]   
+ },
+    {
+      "id": "silter_akrilles",
+      "variant": "level_up",
+      "result": "akrilles",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 190
+        },
+        {
+          "variant": "time_range",
+          "range": day
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

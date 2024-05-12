@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:faipan",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:midamis_faipan",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/midamis/faipan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/midamis/faipan_shiny.png"
+    }  ]
+}

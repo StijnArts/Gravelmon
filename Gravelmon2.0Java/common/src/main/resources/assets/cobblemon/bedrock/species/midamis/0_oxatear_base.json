@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:oxatear",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:midamis_oxatear",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/midamis/oxatear.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/midamis/oxatear_shiny.png"
+    }  ]
+}

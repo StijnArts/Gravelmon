@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -115,7 +116,7 @@ public class Wardern extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.34, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

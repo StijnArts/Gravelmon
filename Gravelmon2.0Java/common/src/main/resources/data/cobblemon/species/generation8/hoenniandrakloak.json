@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoenniandrakloak",
-  "nationalPokedexNumber": 885,
+  "nationalPokedexNumber": 886,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -66,6 +66,7 @@
     "tm:thunder",
     "tm:return",
     "tm:shadowball",
+    "tm:shimmershot",
     "tm:shockwave",
     "tm:flamethrower",
     "tm:sludgebomb",
@@ -91,11 +92,13 @@
   "labels": [
     "blazing_emerald",
     "gen8",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoenniandrakloak.desc"
   ],
+  "preEvolution": "hoenniandreepy",
   "evolutions": [
     {
       "id": "hoenniandrakloak_hoenniandragapult",
@@ -111,10 +114,10 @@
       ]   
  }
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

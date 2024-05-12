@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghomeganium",
-  "nationalPokedexNumber": 153,
+  "nationalPokedexNumber": 154,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -48,16 +48,6 @@
     "grass",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:apple",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:synthesis",
     "1:seismictoss",
@@ -155,15 +145,17 @@
   "labels": [
     "gen2",
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghomeganium.desc"
   ],
-  "baseScale": 0.43125,
+  "preEvolution": "eghobayleef",
+  "baseScale": 0.5750000000000001,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

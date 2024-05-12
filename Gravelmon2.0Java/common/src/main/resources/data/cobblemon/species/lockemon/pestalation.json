@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "pestalation",
+  "nationalPokedexNumber": 3521,
+  "primaryType": "flying",
+  "secondaryType": "poison",
+  "abilities": [
+    "steelworker",
+    "beastboost",
+    "h:pollution"
+  ],
+  "baseStats": {
+    "hp": 111,
+    "attack": 111,
+    "defence": 111,
+    "special_attack": 111,
+    "special_defence": 111,
+    "speed": 111
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 257,
+  "experienceGroup": "slow",
+  "eggCycles": 200,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:absorb",
+    "1:astonish",
+    "1:meanlook",
+    "1:screechsound",
+    "1:supersonic",
+    "15:poisonfang",
+    "20:quickguard",
+    "27:aircutter",
+    "34:bite",
+    "41:haze",
+    "48:venoshock",
+    "55:confuseray",
+    "62:airslash",
+    "69:leechlife"  ],
+  "labels": [
+    "lockemon",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.pestalation.desc"
+  ],
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 337,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

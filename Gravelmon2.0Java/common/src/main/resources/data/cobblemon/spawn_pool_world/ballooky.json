@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ballooky-1",
+      "pokemon": "ballooky",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "3-22",
+      "weight": 6.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

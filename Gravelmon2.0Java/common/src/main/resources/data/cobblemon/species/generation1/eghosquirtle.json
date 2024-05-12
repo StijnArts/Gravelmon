@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghosquirtle",
-  "nationalPokedexNumber": 6,
+  "nationalPokedexNumber": 7,
   "primaryType": "water",
   "abilities": [
     "serenegrace",
@@ -48,16 +48,6 @@
     "water_1",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:tailwhip",

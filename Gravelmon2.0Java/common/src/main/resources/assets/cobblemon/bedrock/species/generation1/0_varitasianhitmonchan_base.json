@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:varitasianhitmonchan",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation1_varitasianhitmonchan",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation1/varitasianhitmonchan.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation1/varitasianhitmonchan_shiny.png"
+    }  ]
+}

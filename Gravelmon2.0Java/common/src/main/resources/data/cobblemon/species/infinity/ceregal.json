@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ceregal",
-  "nationalPokedexNumber": 1376,
+  "nationalPokedexNumber": 1443,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -133,15 +133,18 @@
     "egg:taunt"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.ceregal.desc"
   ],
-  "baseScale": 0.4125,
+  "preEvolution": "dragalis",
+  "baseScale": 0.5499999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

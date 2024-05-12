@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "lostislandsloftival-1",
+      "pokemon": "lostislandsloftival",
+      "presets": [
+          "village"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-52",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_arid" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

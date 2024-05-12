@@ -7,7 +7,7 @@
       "id": "gravollum-1",
       "pokemon": "gravollum",
       "presets": [
-          "ruined_structures"
+          "jungle_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

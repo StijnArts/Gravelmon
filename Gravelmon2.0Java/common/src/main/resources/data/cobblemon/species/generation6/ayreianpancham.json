@@ -1,0 +1,187 @@
+{
+  "implemented": true,
+  "name": "ayreianpancham",
+  "nationalPokedexNumber": 674,
+  "primaryType": "fire",
+  "secondaryType": "fighting",
+  "abilities": [
+    "ironfist",
+    "moldbreaker",
+    "h:scrappy"
+  ],
+  "baseStats": {
+    "hp": 67,
+    "attack": 82,
+    "defence": 62,
+    "special_attack": 43,
+    "special_defence": 46,
+    "speed": 48
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 128,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 70,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "4:armthrust",
+    "8:flamecharge",
+    "12:taunt",
+    "16:lowsweep",
+    "20:workup",
+    "24:firepunch",
+    "28:slash",
+    "33:crunch",
+    "36:bodyslam",
+    "40:partingshot",
+    "44:entrainment",
+    "tutor:aerialace",
+    "tutor:attract",
+    "tutor:block",
+    "tutor:bodyslam",
+    "tutor:brickbreak",
+    "tutor:bulkup",
+    "tutor:bulldoze",
+    "tutor:coaching",
+    "tutor:confide",
+    "tutor:covet",
+    "tutor:crunch",
+    "tutor:cut",
+    "tutor:darkpulse",
+    "tutor:dig",
+    "tutor:doubleteam",
+    "tutor:drainpunch",
+    "tutor:dualchop",
+    "tutor:echoedvoicesound",
+    "tutor:endeavor",
+    "tutor:endure",
+    "tutor:facade",
+    "tutor:falseswipe",
+    "tutor:firepunch",
+    "tutor:fling",
+    "tutor:focuspunch",
+    "tutor:foulplay",
+    "tutor:frustration",
+    "tutor:grassknot",
+    "tutor:gunkshot",
+    "tutor:helpinghand",
+    "tutor:hiddenpower",
+    "tutor:hypervoicesound",
+    "tutor:icepunch",
+    "tutor:ironhead",
+    "tutor:knockoff",
+    "tutor:lashout",
+    "tutor:lowkick",
+    "tutor:lowsweep",
+    "tutor:megakick",
+    "tutor:megapunch",
+    "tutor:payback",
+    "tutor:poweruppunch",
+    "tutor:protect",
+    "tutor:raindance",
+    "tutor:rest",
+    "tutor:retaliate",
+    "tutor:return",
+    "tutor:roarsound",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rocktomb",
+    "tutor:roundsound",
+    "tutor:shadowclaw",
+    "tutor:sleeptalksound",
+    "tutor:sludgebomb",
+    "tutor:snatch",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:stoneedge",
+    "tutor:strength",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:superpower",
+    "tutor:surf",
+    "tutor:swagger",
+    "tutor:swordsdance",
+    "tutor:taunt",
+    "tutor:thunderpunch",
+    "tutor:torment",
+    "tutor:toxic",
+    "tutor:uproar",
+    "tutor:workup",
+    "tutor:zenheadbutt",
+    "egg:quash",
+    "egg:quickguard",
+    "egg:stormthrow",
+    "egg:powertrip",
+    "egg:seismictoss"  ],
+  "labels": [
+    "gen6",
+    "vanguard",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianpancham.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "ayreianpancham_ayreianpangoro",
+      "variant": "level_up",
+      "result": "ayreianpangoro",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 80,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

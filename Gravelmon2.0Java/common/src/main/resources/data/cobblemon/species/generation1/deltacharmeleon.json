@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltacharmeleon",
-  "nationalPokedexNumber": 4,
+  "nationalPokedexNumber": 5,
   "primaryType": "ghost",
   "secondaryType": "dragon",
   "abilities": [
@@ -107,6 +107,7 @@
     "tm:frostbreath",
     "tm:darkpulse",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:incinerate",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -146,11 +147,13 @@
     "tutor:uproar"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltacharmeleon.desc"
   ],
+  "preEvolution": "deltacharmander",
   "evolutions": [
     {
       "id": "deltacharmeleon_deltacharizard",

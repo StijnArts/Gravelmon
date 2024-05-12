@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:flamelin",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:realideasystem_flamelin",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/realideasystem/flamelin.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/realideasystem/flamelin_shiny.png"
+    }  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:vipentide",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:enjin_vipentide",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enjin/vipentide.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/vipentide_shiny.png"
+    }  ]
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sniponge-1",
+      "pokemon": "sniponge",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "32-45",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#minecraft:is_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

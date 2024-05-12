@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltamisdreavus",
-  "nationalPokedexNumber": 195,
+  "nationalPokedexNumber": 200,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -100,6 +100,7 @@
     "tm:achillesheel",
     "tm:avalanche",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:skydrop",
     "tm:allyswitch",
     "tm:echoedvoicesound",
@@ -152,10 +153,10 @@
       "requiredContext": "cobblemon:shiny_stone"   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

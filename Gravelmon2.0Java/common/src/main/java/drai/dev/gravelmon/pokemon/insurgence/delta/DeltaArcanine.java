@@ -3,13 +3,14 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
 public class DeltaArcanine extends Pokemon {
     public DeltaArcanine(int dexNo) {
         super(dexNo,"DeltaArcanine",
-                Type.NORMAL,Type.DRAGON,
+                Type.NORMAL, Type.DRAGON,
                 new Stats(90, 110, 80, 100, 80, 95),
                 List.of(Ability.INNER_FOCUS,Ability.INTIMIDATE), Ability.MULTISCALE,
                 7, 190,
@@ -18,7 +19,7 @@ public class DeltaArcanine extends Pokemon {
                 194, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("If placed in front of castles or temples, this Pokémon will watch the entrance without moving. Its strength is determined by its claws, teeth, and eyes."),
+                List.of("If placed in front of castles or temples, this Pokemon will watch the entrance without moving. Its strength is determined by its claws, teeth, and eyes."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ANCIENT_ROAR,1),

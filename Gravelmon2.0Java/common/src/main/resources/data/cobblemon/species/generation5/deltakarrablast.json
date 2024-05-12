@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltakarrablast",
-  "nationalPokedexNumber": 587,
+  "nationalPokedexNumber": 588,
   "primaryType": "fairy",
   "abilities": [
     "heatproof",
@@ -99,6 +99,7 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -144,10 +145,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

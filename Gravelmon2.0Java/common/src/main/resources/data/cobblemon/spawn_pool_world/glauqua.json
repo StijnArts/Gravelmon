@@ -7,20 +7,21 @@
       "id": "glauqua-1",
       "pokemon": "glauqua",
       "presets": [
-          "water_surface"
+          "water_surface",
+          "reef"
       ],
       "type": "pokemon",
-      "context": "surface",
+      "context": "submerged",
       "bucket": "common",
       "level": "3-22",
       "weight": 4.5,
       "condition": {
 "biomes": [ "#cobblemon:is_lukewarm_ocean",
-"#cobblemon:is_reef" ],
+"#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#cobblemon:is_deep",
+"biomes": [ "#minecraft:is_deep_ocean",
 "#cobblemon:is_freshwater" ]    }
     }
   ]

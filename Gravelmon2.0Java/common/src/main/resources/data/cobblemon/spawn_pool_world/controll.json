@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "controll-1",
+      "pokemon": "controll",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "28-43",
+      "weight": 2.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_mushroom" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

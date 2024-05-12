@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:dundragon",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vanguard_dundragon",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/vanguard/dundragon.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/dundragon_shiny.png"
+    }  ]
+}

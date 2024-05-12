@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dracoknight-1",
+      "pokemon": "dracoknight",
+      "presets": [
+          "near_water"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "55-65",
+      "weight": 0.2,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

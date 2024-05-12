@@ -1,0 +1,135 @@
+{
+  "implemented": true,
+  "name": "snoosect",
+  "nationalPokedexNumber": 5747,
+  "primaryType": "bug",
+  "abilities": [
+    "swarm",
+    "oblivious",
+    "h:tintedlens"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 45,
+    "defence": 60,
+    "special_attack": 45,
+    "special_defence": 45,
+    "speed": 25
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:bide",
+    "7:rest",
+    "12:snoresound",
+    "16:strugglebug",
+    "20:sleeptalksound",
+    "24:bodyslam",
+    "29:amnesia",
+    "33:slackoff",
+    "38:bugbuzzsound",
+    "44:yawn",
+    "50:endeavor",
+    "tm:bodyslam",
+    "tm:bodypress",
+    "tm:electroweb",
+    "tm:healbellsound",
+    "tm:echoedvoicesound",
+    "tm:return",
+    "tm:frustration",
+    "tm:facade",
+    "tm:hiddenpower",
+    "tm:xscissor",
+    "tm:infestation",
+    "tm:signalbeam",
+    "tm:shadowclaw",
+    "tm:protect",
+    "tm:swagger",
+    "tm:doubleteam",
+    "tm:attract",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:thunderwave",
+    "tm:cut",
+    "tm:slash",
+    "tm:metalclaw",
+    "tm:moonlight",
+    "tm:extrasensory",
+    "tm:nightslash",
+    "tm:bugbuzzsound"  ],
+  "labels": [
+    "cyare",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.snoosect.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "snoosect_lumibuzz",
+      "variant": "item_interact",
+      "result": "lumibuzz",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:thunder_stone"   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

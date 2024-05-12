@@ -7,16 +7,15 @@
       "id": "trenchula-1",
       "pokemon": "trenchula",
       "presets": [
-          "natural"
+          "near_water"
       ],
       "type": "pokemon",
-      "context": "grounded",
+      "context": "seafloor",
       "bucket": "uncommon",
-      "level": "27-41",
-      "weight": 1.7,
+      "level": "35-53",
+      "weight": 0.5,
       "condition": {
-"biomes": [ "#cobblemon:is_desert" ],
-        "canSeeSky": true
+"biomes": [ "#cobblemon:is_cave" ]
       }
     }
   ]

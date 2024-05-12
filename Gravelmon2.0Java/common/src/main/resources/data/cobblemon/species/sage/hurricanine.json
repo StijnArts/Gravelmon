@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hurricanine",
-  "nationalPokedexNumber": 1162,
+  "nationalPokedexNumber": 1087,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -49,16 +49,6 @@
     "field",
     "water_1"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:bone",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:thunderfang",
     "1:tackle",
@@ -129,15 +119,18 @@
     "egg:mist"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hurricanine.desc"
   ],
-  "baseScale": 0.20625,
+  "preEvolution": "pawter",
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

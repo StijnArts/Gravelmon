@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mortasque",
-  "nationalPokedexNumber": 1165,
+  "nationalPokedexNumber": 1090,
   "primaryType": "bug",
   "secondaryType": "flying",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "bug"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:astonish",
     "1:scaryface",
@@ -70,6 +60,7 @@
     "21:screechsound",
     "25:webball",
     "29:hex",
+    "32:tempest",
     "36:whirlwind",
     "40:meanlook",
     "44:ominouswind",
@@ -127,15 +118,18 @@
     "tutor:worryseed"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mortasque.desc"
   ],
-  "baseScale": 0.24375,
+  "preEvolution": "maskoon",
+  "baseScale": 0.325,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

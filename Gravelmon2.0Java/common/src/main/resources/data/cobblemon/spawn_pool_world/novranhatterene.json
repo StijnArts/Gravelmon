@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "novranhatterene-1",
+      "pokemon": "novranhatterene",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "42-55",
+      "weight": 0.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_grassland" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

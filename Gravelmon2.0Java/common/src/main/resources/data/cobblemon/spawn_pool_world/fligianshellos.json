@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "fligianshellos-1",
+      "pokemon": "fligianshellos",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "7-27",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

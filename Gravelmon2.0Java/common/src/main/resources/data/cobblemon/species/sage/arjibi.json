@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "arjibi",
-  "nationalPokedexNumber": 1283,
+  "nationalPokedexNumber": 1208,
   "primaryType": "normal",
   "abilities": [
     "infiltrator",
@@ -153,10 +153,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

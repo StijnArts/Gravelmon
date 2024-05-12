@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "luxflon",
-  "nationalPokedexNumber": 1170,
+  "nationalPokedexNumber": 2152,
   "primaryType": "ground",
   "secondaryType": "steel",
   "abilities": [
@@ -48,7 +48,8 @@
     "undiscovered"
   ],
   "moves": [
-    "1:cosmicpower",
+    "1:astrallance",
+    "1:cosmicpowercosmic",
     "1:gravitycosmic",
     "7:bulldoze",
     "14:ironhead",
@@ -59,6 +60,7 @@
     "48:recover",
     "55:earthpower",
     "63:extrasensory",
+    "70:astrallance",
     "75:barrier",
     "82:aurasphere",
     "88:geomancy",
@@ -116,10 +118,10 @@
   "pokedex": [
     "cobblemon.species.luxflon.desc"
   ],
-  "baseScale": 1.6875,
+  "baseScale": 2.25,
   "hitbox": {
-    "width": 2.5961538461538463,
-    "height": 2.5961538461538463,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

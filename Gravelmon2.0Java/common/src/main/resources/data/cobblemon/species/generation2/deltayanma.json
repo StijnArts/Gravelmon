@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltayanma",
-  "nationalPokedexNumber": 192,
+  "nationalPokedexNumber": 193,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -151,10 +151,10 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

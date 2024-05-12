@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class Caranox extends Pokemon {
                 151, ExperienceGroup.MEDIUM_FAST,
                 70,
                 39, List.of(EggGroup.BUG),
-                List.of("Caranox defends its home aggressively, attacking anything it sees as a threat. It often assaults bigger Pokémon and sprays them with burning acids."),
+                List.of("Caranox defends its home aggressively, attacking anything it sees as a threat. It often assaults bigger Pokemon and sprays them with burning acids."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.WEB_BALL,1),

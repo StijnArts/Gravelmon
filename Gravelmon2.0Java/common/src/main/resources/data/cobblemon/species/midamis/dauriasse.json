@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "dauriasse",
+  "nationalPokedexNumber": 4557,
+  "primaryType": "dark",
+  "secondaryType": "steel",
+  "abilities": [
+    "intimidate",
+    "h:angerpoint"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 110,
+    "defence": 90,
+    "special_attack": 80,
+    "special_defence": 70,
+    "speed": 80
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "human_like",
+    "water_1"
+  ],
+  "moves": [
+    "1:sandattack",
+    "5:charm",
+    "10:wakeupslap",
+    "15:disable",
+    "20:bodyslam",
+    "25:feintattack",
+    "30:irontail",
+    "35:ironhead",
+    "40:willowisp",
+    "45:bulldoze",
+    "50:honeclaws",
+    "55:suckerpunch",
+    "tm:headbutt",
+    "tm:watergun",
+    "tm:splash",
+    "tm:fakeout",
+    "tm:soak"  ],
+  "labels": [
+    "midamis",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.dauriasse.desc"
+  ],
+  "preEvolution": "davolee",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

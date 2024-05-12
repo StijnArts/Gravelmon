@@ -1,11 +1,12 @@
 {
   "implemented": true,
   "name": "deltascyther",
-  "nationalPokedexNumber": 114,
+  "nationalPokedexNumber": 123,
   "primaryType": "ice",
   "secondaryType": "fighting",
   "abilities": [
     "hustle",
+    "icecleats",
     "h:superluck"
   ],
   "baseStats": {

@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "poolem-1",
+      "pokemon": "poolem",
+      "presets": [
+          "near_crops"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "36-54",
+      "weight": 0.2,
+      "condition": {
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:dolphin1",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:lonava_dolphin1",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/lonava/dolphin1.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/lonava/dolphin1_shiny.png"
+    }  ]
+}

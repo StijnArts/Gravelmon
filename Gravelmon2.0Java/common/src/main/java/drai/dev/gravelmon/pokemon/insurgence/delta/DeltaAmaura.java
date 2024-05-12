@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaAmaura extends Pokemon {
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by Steads42. This Pokémon floats around unnoticed in the ocean until it comes into contact with humans and greets them."),
+                List.of("A Delta Species discovered by Steads42. This Pokemon floats around unnoticed in the ocean until it comes into contact with humans and greets them."),
                 List.of(new EvolutionEntry("deltaaurorus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"39"),
                                 new EvolutionRequirementEntry(EvolutionRequirementCondition.TIME, "day")))),
@@ -106,9 +107,10 @@ public class DeltaAmaura extends Pokemon {
                 List.of(Label.GEN6,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.SURFACE, SpawnPool.RARE, 12, 34, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_WARM_OCEAN))
+                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.REEF),
                 0.30, 0.3,
                 List.of());
         this.setLangFileName("Amaura");

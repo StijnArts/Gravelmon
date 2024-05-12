@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snosquatch",
-  "nationalPokedexNumber": 1365,
+  "nationalPokedexNumber": 1432,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -139,15 +139,18 @@
     "egg:yawn"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.snosquatch.desc"
   ],
-  "baseScale": 0.6375,
+  "preEvolution": "kidfoot",
+  "baseScale": 0.85,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

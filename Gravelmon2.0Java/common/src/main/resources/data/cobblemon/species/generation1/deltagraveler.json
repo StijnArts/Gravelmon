@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltagraveler",
-  "nationalPokedexNumber": 74,
+  "nationalPokedexNumber": 75,
   "primaryType": "psychic",
   "secondaryType": "rock",
   "abilities": [
@@ -166,11 +166,13 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltagraveler.desc"
   ],
+  "preEvolution": "deltageodude",
   "evolutions": [
     {
       "id": "deltagraveler_deltagolem",
@@ -183,10 +185,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

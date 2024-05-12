@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:bombeezle",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:avoris_bombeezle",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/avoris/bombeezle.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/avoris/bombeezle_shiny.png"
+    }  ]
+}

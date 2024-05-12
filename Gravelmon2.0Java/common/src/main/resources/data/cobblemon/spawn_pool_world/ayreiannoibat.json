@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ayreiannoibat-1",
+      "pokemon": "ayreiannoibat",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-50",
+      "weight": 9.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": true,
+        "timeRange": "day"
+      }
+    }
+  ]
+}

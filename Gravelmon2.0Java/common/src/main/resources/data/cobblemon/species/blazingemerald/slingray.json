@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "slingray",
-  "nationalPokedexNumber": 1183,
+  "nationalPokedexNumber": 3729,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
     "rockhead",
-    "h:keeneye"
+    "h:siegedrive"
   ],
   "baseStats": {
     "hp": 47,
@@ -76,6 +76,7 @@
     "tm:dig",
     "tm:shadowball",
     "tm:brickbreak",
+    "tm:shimmershot",
     "tm:sludgebomb",
     "tm:sandstorm",
     "tm:rocktomb",
@@ -91,7 +92,9 @@
     "25:rockblast",
     "28:weatherball",
     "32:accelerock",
+    "35:stonesurge",
     "43:aurasphere",
+    "46:rubblerush",
     "50:zapcannon",
     "53:uturn",
     "58:lockon",
@@ -106,10 +109,10 @@
     "cobblemon.species.slingray.desc"
   ],
   "preEvolution": "remoraid",
-  "baseScale": 0.375,
+  "baseScale": 0.5,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,206 @@
+{
+  "implemented": true,
+  "name": "varitasiantogetic",
+  "nationalPokedexNumber": 176,
+  "primaryType": "fairy",
+  "secondaryType": "steel",
+  "abilities": [
+    "mirrorarmor",
+    "serenegrace",
+    "h:superluck"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 70,
+    "defence": 90,
+    "special_attack": 80,
+    "special_defence": 80,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "flying",
+    "fairy"
+  ],
+  "moves": [
+    "1:magicalleaf",
+    "5:metronome",
+    "9:sweetkiss",
+    "13:yawn",
+    "14:fairywind",
+    "17:encore",
+    "21:followme",
+    "25:bestow",
+    "29:wish",
+    "33:ancientpower",
+    "37:steelwing",
+    "41:batonpass",
+    "45:doubleedge",
+    "49:lastresort",
+    "53:afteryou",
+    "tm:snoresound",
+    "tm:healbellsound",
+    "tm:heatwave",
+    "tm:focuspunch",
+    "tm:trick",
+    "tm:magiccoat",
+    "tm:endeavor",
+    "tm:hypervoicesound",
+    "tm:signalbeam",
+    "tm:covet",
+    "tm:shockwave",
+    "tm:waterpulse",
+    "tm:tailwind",
+    "tm:lastresort",
+    "tm:drainpunch",
+    "tm:zenheadbutt",
+    "tm:defog",
+    "tm:telekinesis",
+    "tm:afteryou",
+    "tm:fly",
+    "tm:flamethrower",
+    "tm:hyperbeam",
+    "tm:solarbeam",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:psychic",
+    "tm:doubleteam",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:fireblast",
+    "tm:dreameater",
+    "tm:rest",
+    "tm:substitute",
+    "tm:protect",
+    "tm:swagger",
+    "tm:steelwing",
+    "tm:attract",
+    "tm:sleeptalksound",
+    "tm:return",
+    "tm:frustration",
+    "tm:safeguard",
+    "tm:hiddenpower",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:psychup",
+    "tm:shadowball",
+    "tm:facade",
+    "tm:brickbreak",
+    "tm:aerialace",
+    "tm:roost",
+    "tm:fling",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:psyshock",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:workup",
+    "tm:confide",
+    "tm:dazzlinggleam",
+    "tm:smartstrike",
+    "tm:megapunch",
+    "tm:megakick",
+    "tm:bodyslam",
+    "tm:doubleedge",
+    "tm:counter",
+    "tm:seismictoss",
+    "tm:rage",
+    "tm:mimic",
+    "tm:bide",
+    "tm:metronome",
+    "tm:eggbomb",
+    "tm:swiftcosmic",
+    "tm:softboiled",
+    "tm:triattack",
+    "tm:razorwind",
+    "tm:whirlwind",
+    "tm:takedown",
+    "tm:teleport",
+    "tm:skullbash",
+    "tm:psywave",
+    "tm:peck",
+    "tm:mirrormove",
+    "tm:foresight",
+    "tm:present",
+    "tm:morningsun",
+    "tm:futuresight",
+    "tm:secretpower",
+    "tm:extrasensory",
+    "tm:psychoshift",
+    "tm:luckychant",
+    "tm:nastyplot",
+    "tm:storedpower"  ],
+  "labels": [
+    "varitas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.varitasiantogetic.desc"
+  ],
+  "preEvolution": "varitasiantogepi",
+  "evolutions": [
+    {
+      "id": "varitasiantogetic_togetect",
+      "variant": "level_up",
+      "result": "togetect",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "has_move",
+          "move": "steelwing"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 8,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

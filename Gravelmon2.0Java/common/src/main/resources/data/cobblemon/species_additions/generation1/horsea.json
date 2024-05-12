@@ -1,4 +1,20 @@
 {"target": "cobblemon:Horsea",
+ "evolutions": [
+  {
+   "id": "horsea_norheimanseadra",
+   "variant": "level_up",
+   "result": "norheimanseadra",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 32
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:bubble",
     "1:leer",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wardern",
-  "nationalPokedexNumber": 1378,
+  "nationalPokedexNumber": 1445,
   "primaryType": "rock",
   "secondaryType": "dragon",
   "abilities": [
@@ -138,11 +138,14 @@
     "egg:tailwind"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.wardern.desc"
   ],
+  "preEvolution": "gargon",
   "evolutions": [
     {
       "id": "wardern_dragoyle",
@@ -158,10 +161,10 @@
       ]   
  }
   ],
-  "baseScale": 0.4125,
+  "baseScale": 0.5499999999999999,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

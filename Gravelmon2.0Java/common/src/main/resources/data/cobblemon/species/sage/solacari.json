@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "solacari",
-  "nationalPokedexNumber": 1236,
+  "nationalPokedexNumber": 1161,
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "flying"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:feather",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:focusenergy",
     "1:covet",
@@ -134,10 +124,10 @@
   "pokedex": [
     "cobblemon.species.solacari.desc"
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

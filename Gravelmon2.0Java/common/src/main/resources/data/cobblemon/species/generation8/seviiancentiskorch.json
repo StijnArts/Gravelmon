@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviiancentiskorch",
-  "nationalPokedexNumber": 850,
+  "nationalPokedexNumber": 851,
   "primaryType": "ground",
   "secondaryType": "bug",
   "abilities": [
@@ -98,15 +98,17 @@
   "labels": [
     "radicalred",
     "gen8",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviiancentiskorch.desc"
   ],
-  "baseScale": 0.5625,
+  "preEvolution": "seviiansizzlipede",
+  "baseScale": 0.75,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:teranigrade",
+  "order": 10,
+  "variations": [
+    {
+      "aspects": [
+        "poison"
+     ],
+      "poser": "cobblemon:vanguard_teranigrade",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/vanguard/fire_teranigrade.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "poison",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/fire_teranigrade_shiny.png"
+    }  ]
+}

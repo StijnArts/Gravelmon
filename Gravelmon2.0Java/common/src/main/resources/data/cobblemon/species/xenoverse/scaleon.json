@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scaleon",
-  "nationalPokedexNumber": 1154,
+  "nationalPokedexNumber": 2136,
   "primaryType": "dragon",
   "abilities": [
     "hypercutter",
@@ -47,6 +47,7 @@
     "field"
   ],
   "moves": [
+    "1:dragonpledge",
     "1:helpinghand",
     "1:tackle",
     "1:tailwhip",
@@ -117,6 +118,7 @@
     "tutor:bounce",
     "tutor:covet",
     "tutor:dracometeor",
+    "tutor:dragonendurance",
     "tutor:dragonpulse",
     "tutor:dualchop",
     "tutor:healbellsound",
@@ -136,10 +138,10 @@
   "pokedex": [
     "cobblemon.species.scaleon.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

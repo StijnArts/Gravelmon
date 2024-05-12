@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:oldeture",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:ionos_oldeture",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/ionos/oldeture.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/ionos/oldeture_shiny.png"
+    }  ]
+}

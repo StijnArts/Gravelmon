@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +20,7 @@ public class DeltaDratini extends Pokemon {
                 70,
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by PokeNerd123. Because its body constantly releases electrical energy, it prefers to hide within the depths of the ocean."),
-                List.of(new EvolutionEntry("deltadragonair", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("deltadragonair", EvolutionType.LEVEL_UP, false, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL, "30")))),
                 List.of(
                         new MoveLearnSetEntry(Move.WRAP,1),

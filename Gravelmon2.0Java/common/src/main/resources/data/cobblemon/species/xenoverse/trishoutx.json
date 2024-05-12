@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "trishoutx",
-  "nationalPokedexNumber": 1100,
+  "nationalPokedexNumber": 2078,
   "primaryType": "fire",
   "secondaryType": "sound",
   "abilities": [
@@ -50,6 +50,7 @@
   "moves": [
     "1:ember",
     "1:tackle",
+    "6:babble",
     "9:howlsound",
     "13:takedown",
     "18:firefang",
@@ -69,10 +70,10 @@
   "pokedex": [
     "cobblemon.species.trishoutx.desc"
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

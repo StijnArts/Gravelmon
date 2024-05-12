@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shellance-1",
+      "pokemon": "shellance",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "28-41",
+      "weight": 1.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_beach" ],
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_cold" ]    }
+    }
+  ]
+}

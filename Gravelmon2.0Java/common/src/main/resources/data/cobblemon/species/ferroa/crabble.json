@@ -1,0 +1,180 @@
+{
+  "implemented": true,
+  "name": "crabble",
+  "nationalPokedexNumber": 1686,
+  "primaryType": "grass",
+  "abilities": [
+    "overgrow",
+    "h:harvest"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 60,
+    "defence": 65,
+    "special_attack": 45,
+    "special_defence": 55,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "water_3"
+  ],
+  "moves": [
+    "1:harden",
+    "13:workup",
+    "17:razorleaf",
+    "21:wideguard",
+    "25:rollout",
+    "29:crushclaw",
+    "33:gravapple",
+    "39:ingrain",
+    "43:protect",
+    "46:woodhammer",
+    "tm:grasspledge",
+    "tm:block",
+    "tm:bugbite",
+    "tm:lastresort",
+    "tm:recycle",
+    "tm:snatch",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:worryseed",
+    "tm:gigadrain",
+    "tm:irondefense",
+    "tm:signalbeam",
+    "tm:stealthrock",
+    "tm:synthesis",
+    "tm:endeavor",
+    "tm:focuspunch",
+    "tm:ironhead",
+    "tm:painsplit",
+    "tm:seedbomb",
+    "tm:zenheadbutt",
+    "tm:drainpunch",
+    "tm:dualchop",
+    "tm:earthpower",
+    "tm:knockoff",
+    "tm:stompingtantrum",
+    "tm:throatchop",
+    "tm:skittersmack",
+    "tm:grassyglide",
+    "tm:terrainpulse",
+    "tm:calmmind",
+    "tm:toxic",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:taunt",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:safeguard",
+    "tm:frustration",
+    "tm:solarbeam",
+    "tm:smackdown",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:reflect",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:torment",
+    "tm:facade",
+    "tm:rest",
+    "tm:attract",
+    "tm:thief",
+    "tm:roundsound",
+    "tm:energyball",
+    "tm:fling",
+    "tm:explosion",
+    "tm:shadowclaw",
+    "tm:payback",
+    "tm:rockpolish",
+    "tm:gyroball",
+    "tm:swordsdance",
+    "tm:rockslide",
+    "tm:xscissor",
+    "tm:infestation",
+    "tm:grassknot",
+    "tm:sleeptalksound",
+    "tm:uturn",
+    "tm:substitute",
+    "tm:naturepower",
+    "tm:crabhammer",
+    "tm:honeclaws",
+    "tm:naturalgift",
+    "tm:furycutter",
+    "tm:irondefense",
+    "tm:smackdown",
+    "tm:appleacid"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.crabble.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "crabble_carapoma",
+      "variant": "level_up",
+      "result": "carapoma",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

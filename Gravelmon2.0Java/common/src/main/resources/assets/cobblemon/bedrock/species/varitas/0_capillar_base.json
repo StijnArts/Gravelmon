@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:capillar",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:varitas_capillar",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/varitas/capillar.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/varitas/capillar_shiny.png"
+    }  ]
+}

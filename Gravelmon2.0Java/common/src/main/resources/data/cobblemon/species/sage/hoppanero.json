@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoppanero",
-  "nationalPokedexNumber": 1159,
+  "nationalPokedexNumber": 1084,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -49,16 +49,6 @@
     "field",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:seeds",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:charm",
@@ -132,11 +122,14 @@
     "egg:nastyplot"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.hoppanero.desc"
   ],
+  "preEvolution": "peppit",
   "evolutions": [
     {
       "id": "hoppanero_scovalope",
@@ -161,10 +154,10 @@
       "requiredContext": "cobblemon:leaf_stone"   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

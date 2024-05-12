@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:winvern",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:avoris_winvern",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/avoris/winvern.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/avoris/winvern_shiny.png"
+    }  ]
+}

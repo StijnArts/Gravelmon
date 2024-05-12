@@ -1,0 +1,147 @@
+{
+  "implemented": true,
+  "name": "pixe",
+  "nationalPokedexNumber": 3599,
+  "primaryType": "electric",
+  "abilities": [
+    "download",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 48,
+    "attack": 48,
+    "defence": 63,
+    "special_attack": 96,
+    "special_defence": 96,
+    "speed": 48
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "tm:bugbite",
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:feintattack",
+    "tm:nastyplot",
+    "tm:detect",
+    "tm:drainpunch",
+    "tm:shadowpunch",
+    "tm:helpinghand",
+    "tm:hypervoicesound",
+    "tm:luckychant",
+    "tm:mimic",
+    "tm:snoresound",
+    "tm:yawn",
+    "tm:acidarmor",
+    "tm:trick",
+    "tm:autotomize",
+    "tm:strugglebug",
+    "tm:uturn",
+    "tm:embargo",
+    "tm:fling",
+    "tm:taunt",
+    "tm:thief",
+    "tm:chargebeam",
+    "tm:electricterrain",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:voltswitch",
+    "tm:shadowball",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:facade",
+    "tm:flash",
+    "tm:frustration",
+    "tm:hiddenpower",
+    "tm:protect",
+    "tm:return",
+    "tm:roundsound",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:toxic",
+    "tm:rest",
+    "tm:switcheroo",
+    "tm:electroweb",
+    "tm:astonish",
+    "tm:curse",
+    "tm:bide",
+    "tm:rage",
+    "tm:supersonic",
+    "tm:barrier",
+    "tm:guardswap",
+    "tm:metalsound"  ],
+  "labels": [
+    "nosto",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.pixe.desc"
+  ],
+  "preEvolution": "pix",
+  "evolutions": [
+    {
+      "id": "pixe_pixl",
+      "variant": "trade",
+      "result": "pixl",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ]   
+ }
+  ],
+  "baseScale": 0.125,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 5,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

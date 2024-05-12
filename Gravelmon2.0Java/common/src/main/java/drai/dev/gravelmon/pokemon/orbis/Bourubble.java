@@ -1,0 +1,111 @@
+package drai.dev.gravelmon.pokemon.orbis;
+
+
+import drai.dev.gravelmon.pokemon.amavi.*;
+import drai.dev.gravelmon.pokemon.dhiome.*;
+import drai.dev.gravelmon.pokemon.mushi.*;
+import drai.dev.gravelmon.pokemon.theos.*;
+import drai.dev.gravelmon.pokemon.kuria.*;
+import drai.dev.gravelmon.pokemon.ottora.*;
+import drai.dev.gravelmon.pokemon.spion.*;
+import drai.dev.gravelmon.pokemon.mastenia.*;
+import drai.dev.gravelmon.pokemon.mongratis.*;
+import drai.dev.gravelmon.pokemon.ultraspace.*;
+import drai.dev.gravelmon.pokemon.urzavos.*;
+import drai.dev.gravelmon.pokemon.terranov.*;
+import drai.dev.gravelmon.pokemon.enjin.*;
+import drai.dev.gravelmon.pokemon.mystis.*;
+import drai.dev.gravelmon.pokemon.pastelisland.*;
+import drai.dev.gravelmon.pokemon.neonintendo.*;
+import drai.dev.gravelmon.pokemon.tokas.*;
+import drai.dev.gravelmon.pokemon.panjaea.*;
+import drai.dev.gravelmon.pokemon.cyare.*;
+import drai.dev.gravelmon.pokemon.olysos.*;
+import drai.dev.gravelmon.pokemon.nodorro.*;
+import drai.dev.gravelmon.pokemon.orbis.*;
+import drai.dev.gravelmon.pokemon.fliga.*;
+import drai.dev.gravelmon.pokemon.ruskow.*;
+import drai.dev.gravelmon.pokemon.otopo.*;
+import drai.dev.gravelmon.pokemon.goetia.*;
+import drai.dev.gravelmon.pokemon.ionos.*;
+import drai.dev.gravelmon.pokemon.lagoone.*;
+import drai.dev.gravelmon.pokemon.atlas.*;
+import drai.dev.gravelmon.pokemon.avoris.*;
+import drai.dev.gravelmon.pokemon.enriko.*;
+import drai.dev.gravelmon.pokemon.ferroa.*;
+import drai.dev.gravelmon.pokemon.hiza.*;
+import drai.dev.gravelmon.pokemon.hub.*;
+import drai.dev.gravelmon.pokemon.interregional.*;
+import drai.dev.gravelmon.pokemon.isiah.*;
+import drai.dev.gravelmon.pokemon.junnin.*;
+import drai.dev.gravelmon.pokemon.lonava.*;
+import drai.dev.gravelmon.pokemon.mythire.*;
+import drai.dev.gravelmon.pokemon.nosto.*;
+import drai.dev.gravelmon.pokemon.novrai.*;
+import drai.dev.gravelmon.pokemon.oceane.*;
+import drai.dev.gravelmon.pokemon.okeno.*;
+import drai.dev.gravelmon.pokemon.orohnhavai.*;
+import drai.dev.gravelmon.pokemon.qamor.*;
+import drai.dev.gravelmon.pokemon.rica.*;
+import drai.dev.gravelmon.pokemon.varitas.*;
+import drai.dev.gravelmon.pokemon.aristos.*;
+import drai.dev.gravelmon.pokemon.midamis.*;
+import drai.dev.gravelmon.pokemon.norheim.*;
+import drai.dev.gravelmon.pokemon.attributes.*;
+import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
+import java.util.*;
+public class Bourubble extends drai.dev.gravelmon.pokemon.Pokemon {
+    public Bourubble() {
+        super("Bourubble",
+                Type.ROCK,
+                new Stats(86,
+                        128,
+                        127,
+                        53,
+                        67,
+                        54),
+                List.of(Ability.STEELWORKER), Ability.STEELWORKER,
+                24, 4700,
+                new Stats(0,2,1,0,0,0), 45,
+                0.5,
+                231, ExperienceGroup.SLOW,
+                70,
+                50, List.of(EggGroup.MINERAL),
+                List.of("Evo Hammer Arm Fighting - Sand Attack Ground - Tackle Normal 5 Sharpen Normal 8 Rock ThrowSTAB Rock 11 Metal Claw Steel 16 Metal Sound Steel 19 Sandstorm Rock 22 Rock SlideSTAB Rock 28 Autotomize Steel 31 Block Normal 34 Body Slam Normal 38 Metal Burst Steel 41 Wide Guard Rock 48 Heavy Slam Steel 53 Double-Edge Normal 60 Rock WreckerSTAB Rock"),
+                List.of(),
+                List.of(
+                        new MoveLearnSetEntry(Move.SAND_ATTACK,1),
+                        new MoveLearnSetEntry(Move.HAMMER_ARM,1),
+                        new MoveLearnSetEntry(Move.TACKLE,1),
+                        new MoveLearnSetEntry(Move.SHARPEN,5),
+                        new MoveLearnSetEntry(Move.ROCK_THROW,8),
+                        new MoveLearnSetEntry(Move.METAL_CLAW,11),
+                        new MoveLearnSetEntry(Move.METAL_SOUND,16),
+                        new MoveLearnSetEntry(Move.SANDSTORM,19),
+                        new MoveLearnSetEntry(Move.ROCK_SLIDE,22),
+                        new MoveLearnSetEntry(Move.AUTOTOMIZE,28),
+                        new MoveLearnSetEntry(Move.BLOCK,31),
+                        new MoveLearnSetEntry(Move.BODY_SLAM,34),
+                        new MoveLearnSetEntry(Move.METAL_BURST,38),
+                        new MoveLearnSetEntry(Move.WIDE_GUARD,41),
+                        new MoveLearnSetEntry(Move.HEAVY_SLAM,48),
+                        new MoveLearnSetEntry(Move.DOUBLEEDGE,53),
+                        new MoveLearnSetEntry(Move.ROCK_WRECKER,60),
+                        new MoveLearnSetEntry(Move.EARTHQUAKE,"tm"),
+                        new MoveLearnSetEntry(Move.GYRO_BALL,"tm")                        ),
+                List.of(Label.ORBIS),
+                0, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 22, 3.8, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_SKY, Biome.IS_MOUNTAIN)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
+                ), List.of(),
+                List.of(SpawnPreset.NATURAL),
+                0.28, 0.3,
+                List.of());
+           setLangFileName("Bourubble");
+
+    }
+
+
+}

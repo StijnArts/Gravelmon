@@ -1,0 +1,166 @@
+{
+  "implemented": true,
+  "name": "costraw",
+  "nationalPokedexNumber": 2404,
+  "primaryType": "poison",
+  "secondaryType": "psychic",
+  "abilities": [
+    "shedskin",
+    "infiltrator",
+    "h:telepathy"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 40,
+    "defence": 40,
+    "special_attack": 55,
+    "special_defence": 55,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "eggGroups": [
+    "monster",
+    "dragon"
+  ],
+  "moves": [
+    "1:wrap",
+    "1:leer",
+    "8:leechlife",
+    "13:confusion",
+    "16:acid",
+    "20:megadrain",
+    "24:confuseray",
+    "28:sludge",
+    "32:stockpile",
+    "34:spitup",
+    "34:swallow",
+    "38:sludgebomb",
+    "41:toxic",
+    "44:psychic",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:calmmind",
+    "tm:captivate",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:facade",
+    "tm:flamethrower",
+    "tm:foulplay",
+    "tm:frustration",
+    "tm:gastroacid",
+    "tm:gigadrain",
+    "tm:gunkshot",
+    "tm:hiddenpower",
+    "tm:icebeam",
+    "tm:infestation",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:nastyplot",
+    "tm:ominouswind",
+    "tm:painsplit",
+    "tm:pluck",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:psychup",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:rest",
+    "tm:return",
+    "tm:roleplay",
+    "tm:safeguard",
+    "tm:seedbomb",
+    "tm:signalbeam",
+    "tm:skillswap",
+    "tm:sleeptalksound",
+    "tm:sludgebomb",
+    "tm:spite",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:zenheadbutt",
+    "egg:psychic",
+    "egg:slam",
+    "egg:spite",
+    "egg:beatup",
+    "egg:poisonfang"  ],
+  "labels": [
+    "uranium",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.costraw.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "costraw_trawpint",
+      "variant": "level_up",
+      "result": "trawpint",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 28
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.19999999999999998,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 8,
+  "weight": 69,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:enjinniansableye",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_enjinniansableye",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/enjinniansableye.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/enjinniansableye_shiny.png"
+    }  ]
+}

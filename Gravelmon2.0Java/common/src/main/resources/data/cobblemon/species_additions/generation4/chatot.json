@@ -12,6 +12,19 @@
      "minLevel": 42
     }
    ]
+  },
+  {
+   "id": "chatot_symphot",
+   "variant": "level_up",
+   "result": "symphot",
+   "consumeHeldItem": false,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 42
+    }
+   ]
   }
  ],
    "moves": [

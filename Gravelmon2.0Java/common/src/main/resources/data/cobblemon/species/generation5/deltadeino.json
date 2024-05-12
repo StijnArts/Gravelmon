@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadeino",
-  "nationalPokedexNumber": 631,
+  "nationalPokedexNumber": 633,
   "primaryType": "ground",
   "secondaryType": "poison",
   "abilities": [
@@ -159,10 +159,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.19999999999999998,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

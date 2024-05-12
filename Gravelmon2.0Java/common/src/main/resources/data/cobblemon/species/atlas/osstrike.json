@@ -1,0 +1,129 @@
+{
+  "implemented": true,
+  "name": "osstrike",
+  "nationalPokedexNumber": 5482,
+  "primaryType": "fighting",
+  "abilities": [
+    "quickfeet",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 103,
+    "defence": 67,
+    "special_attack": 57,
+    "special_defence": 65,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field",
+    "flying"
+  ],
+  "moves": [
+    "1:pound",
+    "5:peck",
+    "10:leer",
+    "14:doublekick",
+    "17:detect",
+    "21:lowsweep",
+    "25:wingattack",
+    "29:agility",
+    "37:bounce",
+    "40:megakick",
+    "44:jumpkick",
+    "49:laserfocus",
+    "55:highhorsepower",
+    "61:highjumpkick",
+    "tm:facade",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:return",
+    "tm:roundsound",
+    "tm:echoedvoicesound",
+    "tm:brickbreak",
+    "tm:focusblast",
+    "tm:uturn",
+    "tm:flamecharge",
+    "tm:aerialace",
+    "tm:acrobatics",
+    "tm:steelwing",
+    "tm:thief",
+    "tm:poisonjab",
+    "tm:rockslide",
+    "tm:smackdown",
+    "tm:bulldoze",
+    "tm:attract",
+    "tm:doubleteam",
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:swagger",
+    "tm:workup",
+    "tm:raindance",
+    "tm:sunnyday",
+    "tm:bulkup",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:toxic",
+    "tm:roost",
+    "tm:defog"  ],
+  "labels": [
+    "atlas",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.osstrike.desc"
+  ],
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

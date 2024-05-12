@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dunkywunkr",
-  "nationalPokedexNumber": 1233,
+  "nationalPokedexNumber": 1158,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -49,16 +49,6 @@
     "water_2",
     "monster"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:headbutt",
     "1:tailwhip",
@@ -122,15 +112,18 @@
     "egg:zenheadbutt"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.dunkywunkr.desc"
   ],
-  "baseScale": 0.31875,
+  "preEvolution": "dinkywink",
+  "baseScale": 0.425,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

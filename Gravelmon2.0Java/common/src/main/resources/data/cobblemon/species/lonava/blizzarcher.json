@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "blizzarcher",
+  "nationalPokedexNumber": 3413,
+  "primaryType": "ice",
+  "secondaryType": "ghost",
+  "abilities": [
+    "keeneye",
+    "h:keeneye"
+  ],
+  "baseStats": {
+    "hp": 44,
+    "attack": 45,
+    "defence": 56,
+    "special_attack": 123,
+    "special_defence": 67,
+    "speed": 123
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:growl",
+    "7:encore",
+    "11:flatter",
+    "16:icywind",
+    "18:brine",
+    "29:aurorabeam",
+    "32:echoedvoicesound",
+    "36:icebeam",
+    "40:snowscape",
+    "44:hex",
+    "48:freezedry",
+    "50:shadowball",
+    "54:disable",
+    "57:blizzard",
+    "60:sheercold"  ],
+  "labels": [
+    "lonava",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.blizzarcher.desc"
+  ],
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

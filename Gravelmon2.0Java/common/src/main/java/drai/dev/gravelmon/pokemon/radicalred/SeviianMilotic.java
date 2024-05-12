@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.radicalred;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -12,7 +13,7 @@ public class SeviianMilotic extends Pokemon {
                 Type.WATER, Type.GROUND,
                 new Stats(95, 60, 84, 105, 125, 81),
                 List.of(Ability.MARVEL_SCALE, Ability.COMPETITIVE), Ability.SERENE_GRACE,
-                62, 1620,
+                31, 1620,
                 new Stats(0, 0, 0, 0, 2, 0), 60,
                 0.5,
                 189, ExperienceGroup.ERRATIC,

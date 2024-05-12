@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "egohiss",
-  "nationalPokedexNumber": 1159,
+  "nationalPokedexNumber": 2141,
   "primaryType": "dragon",
   "abilities": [
     "shedskin",
@@ -56,6 +56,7 @@
     "12:faketears",
     "18:attract",
     "24:flail",
+    "30:hiss",
     "36:followme",
     "41:dragonbreath",
     "45:coil",
@@ -84,14 +85,18 @@
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
-    "tutor:substitute"  ],
+    "tutor:substitute",
+    "tutor:velvetscales"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.egohiss.desc"
   ],
+  "preEvolution": "dusmee",
   "evolutions": [
     {
       "id": "egohiss_egorgeon",
@@ -107,10 +112,10 @@
       ]   
  }
   ],
-  "baseScale": 0.525,
+  "baseScale": 0.7000000000000001,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

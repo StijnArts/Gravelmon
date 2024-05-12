@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltagardevoir",
-  "nationalPokedexNumber": 281,
+  "nationalPokedexNumber": 282,
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
@@ -197,11 +197,13 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen1",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltagardevoir.desc"
   ],
+  "preEvolution": "deltakirlia",
   "baseScale": 0.9,
   "hitbox": {
     "width": 0.6,

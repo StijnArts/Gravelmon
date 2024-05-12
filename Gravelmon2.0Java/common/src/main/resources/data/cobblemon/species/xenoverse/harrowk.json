@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "harrowk",
-  "nationalPokedexNumber": 1102,
+  "nationalPokedexNumber": 2082,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -108,15 +108,18 @@
     "egg:airslash"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.harrowk.desc"
   ],
-  "baseScale": 0.2625,
+  "preEvolution": "shawkbird",
+  "baseScale": 0.35000000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

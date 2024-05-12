@@ -1,0 +1,95 @@
+{
+  "implemented": true,
+  "name": "qamorantangrowth",
+  "nationalPokedexNumber": 465,
+  "primaryType": "water",
+  "secondaryType": "dragon",
+  "abilities": [
+    "keeneye",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 110,
+    "defence": 50,
+    "special_attack": 100,
+    "special_defence": 125,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 30,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 187,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass"
+  ],
+  "moves": [
+    "1:watergun",
+    "3:supersonic",
+    "7:flash",
+    "13:thunderwave",
+    "16:waterpulse",
+    "20:safeguard",
+    "24:magnetrise",
+    "28:brine",
+    "33:memento",
+    "38:screechsound",
+    "43:raindance",
+    "49:recover",
+    "55:hydropump"  ],
+  "labels": [
+    "qamor",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.qamorantangrowth.desc"
+  ],
+  "preEvolution": "qamorantangela",
+  "baseScale": 0.5,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 20,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

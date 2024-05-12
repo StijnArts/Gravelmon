@@ -1,0 +1,108 @@
+{
+  "implemented": true,
+  "name": "velverette",
+  "nationalPokedexNumber": 3968,
+  "primaryType": "ghost",
+  "secondaryType": "bug",
+  "abilities": [
+    "analytic",
+    "frisk",
+    "h:justified"
+  ],
+  "baseStats": {
+    "hp": 45,
+    "attack": 43,
+    "defence": 30,
+    "special_attack": 75,
+    "special_defence": 40,
+    "speed": 35
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 190,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:stringshot",
+    "4:shadowsneak",
+    "8:spiderweb",
+    "12:bugbite",
+    "15:confuseray",
+    "19:craftyshield",
+    "22:strugglebug",
+    "25:hex",
+    "29:snatch",
+    "32:nightshade",
+    "38:signalbeam",
+    "42:nastyplot",
+    "46:shadowball"  ],
+  "labels": [
+    "qamor",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.velverette.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "velverette_spinister",
+      "variant": "level_up",
+      "result": "spinister",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

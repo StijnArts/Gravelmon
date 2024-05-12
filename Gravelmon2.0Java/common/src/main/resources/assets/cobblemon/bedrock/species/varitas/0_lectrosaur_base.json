@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:lectrosaur",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:varitas_lectrosaur",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/varitas/lectrosaur.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/varitas/lectrosaur_shiny.png"
+    }  ]
+}

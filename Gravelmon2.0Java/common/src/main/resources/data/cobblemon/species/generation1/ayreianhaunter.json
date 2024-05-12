@@ -1,0 +1,189 @@
+{
+  "implemented": true,
+  "name": "ayreianhaunter",
+  "nationalPokedexNumber": 93,
+  "primaryType": "fire",
+  "secondaryType": "ghost",
+  "abilities": [
+    "levitate",
+    "h:levitate"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 90,
+    "defence": 45,
+    "special_attack": 95,
+    "special_defence": 90,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 90,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 142,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 26,
+  "eggGroups": [
+    "amorphous"
+  ],
+  "moves": [
+    "1:firepunch",
+    "1:shadowpunch",
+    "1:lick",
+    "1:confuseray",
+    "4:ember",
+    "8:meanlook",
+    "12:hypnosis",
+    "16:spite",
+    "20:pursuit",
+    "24:hex",
+    "30:shadowclaw",
+    "36:suckerpunch",
+    "39:flamethrower",
+    "42:darkpulse",
+    "48:shadowball",
+    "54:destinybond",
+    "60:poltergeist",
+    "tutor:allyswitch",
+    "tutor:attract",
+    "tutor:confide",
+    "tutor:confuseray",
+    "tutor:corrosivegas",
+    "tutor:darkpulse",
+    "tutor:dazzlinggleam",
+    "tutor:doubleteam",
+    "tutor:dreameater",
+    "tutor:embargo",
+    "tutor:encore",
+    "tutor:endure",
+    "tutor:energyball",
+    "tutor:explosion",
+    "tutor:facade",
+    "tutor:firepunch",
+    "tutor:fling",
+    "tutor:foulplay",
+    "tutor:frustration",
+    "tutor:gigadrain",
+    "tutor:hex",
+    "tutor:hiddenpower",
+    "tutor:icepunch",
+    "tutor:icywind",
+    "tutor:infestation",
+    "tutor:knockoff",
+    "tutor:painsplit",
+    "tutor:payback",
+    "tutor:poisonjab",
+    "tutor:poltergeist",
+    "tutor:protect",
+    "tutor:psychic",
+    "tutor:psychup",
+    "tutor:raindance",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:roundsound",
+    "tutor:scaryface",
+    "tutor:selfdestruct",
+    "tutor:shadowball",
+    "tutor:shadowclaw",
+    "tutor:skillswap",
+    "tutor:skittersmack",
+    "tutor:sleeptalksound",
+    "tutor:sludgebomb",
+    "tutor:sludgewave",
+    "tutor:snatch",
+    "tutor:snoresound",
+    "tutor:spite",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:taunt",
+    "tutor:telekinesis",
+    "tutor:thief",
+    "tutor:thunder",
+    "tutor:thunderbolt",
+    "tutor:thunderpunch",
+    "tutor:torment",
+    "tutor:toxic",
+    "tutor:trick",
+    "tutor:trickroom",
+    "tutor:uproar",
+    "tutor:venoshock",
+    "tutor:willowisp",
+    "tutor:wonderroom",
+    "egg:perishsongsound",
+    "egg:haze",
+    "egg:astonish",
+    "egg:grudge",
+    "egg:disable",
+    "egg:clearsmog",
+    "egg:smog",
+    "egg:reflecttype",
+    "egg:toxic"  ],
+  "labels": [
+    "vanguard",
+    "gen1",
+    "not_modeled",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.ayreianhaunter.desc"
+  ],
+  "preEvolution": "ayreiangastly",
+  "evolutions": [
+    {
+      "id": "ayreianhaunter_Ayreiangengar",
+      "variant": "level_up",
+      "result": "Ayreiangengar",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 41
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.39999999999999997,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 16,
+  "weight": 1,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

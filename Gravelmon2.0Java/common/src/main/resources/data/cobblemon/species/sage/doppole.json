@@ -1,9 +1,10 @@
 {
   "implemented": true,
   "name": "doppole",
-  "nationalPokedexNumber": 1246,
+  "nationalPokedexNumber": 1171,
   "primaryType": "normal",
   "abilities": [
+    "feisty",
     "prankster",
     "h:pickup"
   ],
@@ -47,16 +48,6 @@
     "monster",
     "fairy"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "cobblemon:poke_ball",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:rage",
     "1:defensecurl",
@@ -158,8 +149,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

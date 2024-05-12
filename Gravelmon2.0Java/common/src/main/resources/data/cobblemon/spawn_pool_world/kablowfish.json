@@ -7,7 +7,7 @@
       "id": "kablowfish-1",
       "pokemon": "kablowfish",
       "presets": [
-          "underwater"
+          "reef"
       ],
       "type": "pokemon",
       "context": "submerged",
@@ -16,7 +16,7 @@
       "weight": 1.2,
       "condition": {
 "biomes": [ "#cobblemon:is_lukewarm_ocean",
-"#cobblemon:is_reef" ],
+"#cobblemon:is_warm_ocean" ],
         "canSeeSky": true
       }
     }

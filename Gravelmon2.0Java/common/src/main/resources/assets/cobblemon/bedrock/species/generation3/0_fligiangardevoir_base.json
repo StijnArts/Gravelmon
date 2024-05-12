@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:fligiangardevoir",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_fligiangardevoir",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/fligiangardevoir.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/fligiangardevoir_shiny.png"
+    }  ]
+}

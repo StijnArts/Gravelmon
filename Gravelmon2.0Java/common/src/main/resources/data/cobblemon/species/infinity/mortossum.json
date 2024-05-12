@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mortossum",
-  "nationalPokedexNumber": 1384,
+  "nationalPokedexNumber": 1449,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -48,16 +48,6 @@
     "amorphous",
     "monster"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:teeterdance",
     "1:disarmingvoicesound",
@@ -141,15 +131,17 @@
     "egg:solarbeam"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.mortossum.desc"
   ],
+  "preEvolution": "eghogloom",
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

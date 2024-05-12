@@ -10,7 +10,8 @@ public enum EvolutionRequirementCondition {
     HELD_ITEM("held_item", "itemCondition"),
     PROPERTY("properties", "target"),
     FRIENDSHIP("friendship", "amount"),
-    PARTY_MEMBER("party_member", "target");
+    PARTY_MEMBER("party_member", "target"),
+    BIOME("biome", "biomeCondition");
     private String name;
     private String condition;
     EvolutionRequirementCondition(String name, String condition){

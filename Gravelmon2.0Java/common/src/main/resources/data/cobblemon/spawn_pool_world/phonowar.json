@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "phonowar-1",
+      "pokemon": "phonowar",
+      "presets": [
+          "underwater"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "33-44",
+      "weight": 0.4,
+      "condition": {
+"biomes": [ "#cobblemon:is_frozen" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

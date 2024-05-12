@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kidfoot",
-  "nationalPokedexNumber": 1364,
+  "nationalPokedexNumber": 1431,
   "primaryType": "normal",
   "abilities": [
     "forewarn",
@@ -154,10 +154,10 @@
       "requiredContext": "cobblemon:leaf_stone"   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

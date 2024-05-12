@@ -1,0 +1,148 @@
+{
+  "implemented": true,
+  "name": "slymander",
+  "nationalPokedexNumber": 5340,
+  "primaryType": "fire",
+  "abilities": [
+    "blaze",
+    "h:regenerator"
+  ],
+  "baseStats": {
+    "hp": 72,
+    "attack": 108,
+    "defence": 75,
+    "special_attack": 98,
+    "special_defence": 70,
+    "speed": 107
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.875,
+  "shoulderMountable": false,
+  "baseExperienceYield": 239,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "monster"
+  ],
+  "moves": [
+    "1:superpower",
+    "2:leer",
+    "7:ember",
+    "10:taunt",
+    "14:fakeout",
+    "19:firefang",
+    "23:slam",
+    "26:swagger",
+    "31:flameburst",
+    "35:facade",
+    "41:recover",
+    "46:stormthrow",
+    "52:partingshot",
+    "60:flareblitz",
+    "tm:honeclaws",
+    "tm:firepledge",
+    "tm:blastburn",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:attract",
+    "tm:brickbreak",
+    "tm:brutalswing",
+    "tm:darkpulse",
+    "tm:doubleteam",
+    "tm:dragonclaw",
+    "tm:dragonpulse",
+    "tm:dragontail",
+    "tm:energyball",
+    "tm:facade",
+    "tm:falseswipe",
+    "tm:fireblast",
+    "tm:firepunch",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:lightscreen",
+    "tm:overheat",
+    "tm:poisonjab",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:roarsound",
+    "tm:roundsound",
+    "tm:shadowclaw",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:taunt",
+    "tm:thief",
+    "tm:thunderpunch",
+    "tm:toxic",
+    "tm:willowisp",
+    "tm:workup",
+    "tm:suckerpunch",
+    "tm:autotomize",
+    "tm:flamecharge",
+    "tm:dragontail"  ],
+  "labels": [
+    "atlas",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.slymander.desc"
+  ],
+  "preEvolution": "reparch",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

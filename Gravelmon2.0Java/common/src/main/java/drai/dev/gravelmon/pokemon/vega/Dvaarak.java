@@ -3,12 +3,13 @@ package drai.dev.gravelmon.pokemon.vega;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
 public class Dvaarak extends Pokemon {
-    public Dvaarak(int dexNo) {
-        super(dexNo,"Dvaarak",
+    public Dvaarak() {
+        super("Dvaarak",
                 Type.GROUND, Type.STEEL,
                 new Stats(86, 110, 70, 55, 50, 94),
                 List.of(Ability.ARENA_TRAP), Ability.SAND_VEIL,
@@ -94,12 +95,12 @@ public class Dvaarak extends Pokemon {
                         new MoveLearnSetEntry(Move.WORK_UP,"egg"),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"egg")
                         ),
-                List.of(Label.VEGA),
+                List.of(Label.DENEB),
                 0, List.of(), SpawnContext.GROUNDED, SpawnPool.RARE, 16, 44, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.UNDERGROUND),
+                List.of(SpawnPreset.NATURAL),
                 0.4, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

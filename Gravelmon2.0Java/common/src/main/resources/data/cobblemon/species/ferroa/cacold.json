@@ -1,0 +1,115 @@
+{
+  "implemented": true,
+  "name": "cacold",
+  "nationalPokedexNumber": 1829,
+  "primaryType": "ice",
+  "secondaryType": "bug",
+  "abilities": [
+    "stalwart",
+    "damp",
+    "h:icebody"
+  ],
+  "baseStats": {
+    "hp": 90,
+    "attack": 68,
+    "defence": 72,
+    "special_attack": 60,
+    "special_defence": 70,
+    "speed": 40
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "tm:bugbite",
+    "tm:covet",
+    "tm:electroweb",
+    "tm:recycle",
+    "tm:snoresound",
+    "tm:uproar",
+    "tm:irondefense",
+    "tm:signalbeam",
+    "tm:icywind",
+    "tm:magiccoat",
+    "tm:ironhead",
+    "tm:earthpower",
+    "tm:stompingtantrum",
+    "tm:skittersmack",
+    "tm:steelroller",
+    "tm:terrainpulse",
+    "tm:steamroller"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.cacold.desc"
+  ],
+  "preEvolution": "sleetle",
+  "evolutions": [
+    {
+      "id": "cacold_scaralanche",
+      "variant": "level_up",
+      "result": "scaralanche",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_spring"
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.15,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 6,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

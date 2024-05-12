@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:varitasianimpidimp",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation8_varitasianimpidimp",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation8/varitasianimpidimp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation8/varitasianimpidimp_shiny.png"
+    }  ]
+}

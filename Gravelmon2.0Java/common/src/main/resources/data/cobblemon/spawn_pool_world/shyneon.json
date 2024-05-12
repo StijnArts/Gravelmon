@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shyneon-1",
+      "pokemon": "shyneon",
+      "presets": [
+          "amethyst_geode"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "44-56",
+      "weight": 1.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cave" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

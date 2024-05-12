@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "macabra",
-  "nationalPokedexNumber": 1146,
+  "nationalPokedexNumber": 1071,
   "primaryType": "dark",
   "abilities": [
     "psychout",
@@ -47,16 +47,6 @@
     "field",
     "monster"
   ],
-  "drops": {
-    "amount": "4",
-    "entries": [
-      {
-        "item": "minecraft:wool",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:magiccoat",
     "1:scratch",
@@ -153,10 +143,10 @@
   "pokedex": [
     "cobblemon.species.macabra.desc"
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

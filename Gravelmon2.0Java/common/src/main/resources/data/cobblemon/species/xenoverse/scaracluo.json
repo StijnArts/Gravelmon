@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scaracluo",
-  "nationalPokedexNumber": 1148,
+  "nationalPokedexNumber": 2130,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -110,11 +110,14 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.scaracluo.desc"
   ],
+  "preEvolution": "scaracno",
   "evolutions": [
     {
       "id": "scaracluo_Scarphasmo",
@@ -128,10 +131,10 @@
       "requiredContext": "cobblemon:dusk_stone"   
  }
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

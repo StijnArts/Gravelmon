@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaescavalier",
-  "nationalPokedexNumber": 588,
+  "nationalPokedexNumber": 589,
   "primaryType": "fairy",
   "abilities": [
     "heatproof",
@@ -111,6 +111,7 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -147,15 +148,17 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltaescavalier.desc"
   ],
-  "baseScale": 0.1875,
+  "preEvolution": "deltakarrablast",
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

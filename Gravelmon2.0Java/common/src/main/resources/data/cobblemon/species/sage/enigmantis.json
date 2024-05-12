@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "enigmantis",
-  "nationalPokedexNumber": 1282,
+  "nationalPokedexNumber": 1207,
   "primaryType": "bug",
   "secondaryType": "psychic",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "bug"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:scratch",
     "1:meditate",
@@ -107,7 +97,7 @@
     "tm:substitute",
     "tm:sleeptalksound",
     "tm:cut",
-    "egg:cosmicpower",
+    "egg:cosmicpowercosmic",
     "egg:hypnosis",
     "egg:magicroom",
     "egg:meditate",
@@ -117,15 +107,18 @@
     "egg:slash"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.enigmantis.desc"
   ],
-  "baseScale": 0.20625,
+  "preEvolution": "enigmite",
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltagirafarig",
-  "nationalPokedexNumber": 200,
+  "nationalPokedexNumber": 203,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
@@ -51,8 +51,8 @@
       ],
       "baseScale": 0.28125,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -215,10 +215,10 @@
   "pokedex": [
     "cobblemon.species.deltagirafarig.desc"
   ],
-  "baseScale": 0.28125,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

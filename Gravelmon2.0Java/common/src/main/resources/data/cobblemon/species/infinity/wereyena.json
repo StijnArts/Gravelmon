@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "wereyena",
-  "nationalPokedexNumber": 1362,
+  "nationalPokedexNumber": 1429,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -168,10 +168,10 @@
     "cobblemon.species.wereyena.desc"
   ],
   "preEvolution": "mightyena",
-  "baseScale": 0.43125,
+  "baseScale": 0.5750000000000001,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

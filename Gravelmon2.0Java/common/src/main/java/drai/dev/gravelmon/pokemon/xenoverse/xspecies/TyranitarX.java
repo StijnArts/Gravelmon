@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -93,7 +94,7 @@ public class TyranitarX extends Pokemon {
                 SpawnContext.GROUNDED, SpawnPool.RARE, 55, 70, 0.5, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.END_CITY),
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Tyranitar");

@@ -1,0 +1,162 @@
+{
+  "implemented": true,
+  "name": "novranherdier",
+  "nationalPokedexNumber": 507,
+  "primaryType": "normal",
+  "secondaryType": "ice",
+  "abilities": [
+    "intimidate",
+    "slushrush",
+    "h:snowwarning"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 80,
+    "defence": 65,
+    "special_attack": 35,
+    "special_defence": 65,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 120,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 130,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:bite",
+    "10:babydolleyes",
+    "12:helpinghand",
+    "15:workup",
+    "20:takedown",
+    "24:crunch",
+    "29:roarsound",
+    "33:retaliate",
+    "36:auroraveil",
+    "38:reversal",
+    "42:lastresort",
+    "44:blizzard",
+    "47:playrough",
+    "53:gigaimpact",
+    "tm:headbutt",
+    "tm:hypervoicesound",
+    "tm:yawn",
+    "tm:shockwave",
+    "tm:icywind",
+    "tm:snoresound",
+    "tm:focusenergy",
+    "tm:firefang",
+    "tm:icefang",
+    "tm:thunderfang",
+    "tm:weatherball",
+    "tm:workup",
+    "tm:roarsound",
+    "tm:snowscape",
+    "tm:hiddenpower",
+    "tm:sunnyday",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:protect",
+    "tm:raindance",
+    "tm:thunderbolt",
+    "tm:return",
+    "tm:shadowball",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:facade",
+    "tm:rest",
+    "tm:rocksmash",
+    "tm:curse",
+    "tm:payback",
+    "tm:gigaimpact",
+    "tm:avalanche",
+    "tm:thunderwave",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:snarl",
+    "tm:naturalgift",
+    "tm:confide",
+    "tm:trailblaze",
+    "tm:icespinner",
+    "tm:attract",
+    "tm:auroraveil",
+    "tm:surf",
+    "tm:strength",
+    "tm:rockclimb",
+    "tm:psychicfangs",
+    "tm:afteryou",
+    "tm:howlsound",
+    "tm:pursuit",
+    "tm:charm",
+    "tm:bonerush"  ],
+  "labels": [
+    "novrai",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.novranherdier.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "novranherdier_novranstoutland",
+      "variant": "level_up",
+      "result": "novranstoutland",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.225,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 9,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
@@ -24,13 +25,13 @@ public class Metunn extends Pokemon {
                 List.of(
                         new MoveLearnSetEntry(Move.HIDDEN_POWER,1)
                 ),
-                List.of(Label.BLAZING_EMERALD),
+                List.of(Label.BLAZING_EMERALD, Label.JOKE),
                 1, List.of(
                         new ItemDrop("gravelmon:ancient_glyph",10, 1,1)),
                 SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 70, 100, 0.0001, List.of(
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 0.19, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

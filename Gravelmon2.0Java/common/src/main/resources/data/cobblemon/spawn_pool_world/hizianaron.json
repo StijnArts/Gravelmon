@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hizianaron-1",
+      "pokemon": "hizianaron",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-27",
+      "weight": 7.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert",
+"#cobblemon:is_badlands" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

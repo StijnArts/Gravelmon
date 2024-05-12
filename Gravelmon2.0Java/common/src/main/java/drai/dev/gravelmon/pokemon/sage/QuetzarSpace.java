@@ -3,12 +3,13 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
 public class QuetzarSpace extends Pokemon {
-    public QuetzarSpace() {
-        super(1327,"QuetzarSpace",
+    public QuetzarSpace(int dexNo) {
+        super(dexNo,"QuetzarSpace",
                 Type.DRAGON, Type.PSYCHIC,
                 new Stats(105, 85, 105, 160, 125, 90),
                 List.of(Ability.PRESSURE), Ability.CLOUD_NINE,
@@ -112,7 +113,7 @@ public class QuetzarSpace extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.MINY,"271")
                 ), List.of(),
-                List.of(SpawnPreset.RUINED_STRUCTURES),
+                List.of(SpawnPreset.JUNGLE_PYRAMID),
                 1.4, 0.5,
                 List.of());
         this.setLangFileName("Quetzar");

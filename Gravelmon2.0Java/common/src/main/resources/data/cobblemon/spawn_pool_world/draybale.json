@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "draybale-1",
+      "pokemon": "draybale",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "5-26",
+      "weight": 4.5,
+      "condition": {
+"biomes": [ "minecraft:cherry_grove" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

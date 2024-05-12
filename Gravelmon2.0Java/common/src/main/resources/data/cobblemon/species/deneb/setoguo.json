@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "name": "setoguo",
+  "nationalPokedexNumber": 4919,
+  "primaryType": "normal",
+  "abilities": [
+    "rivalry",
+    "h:hustle"
+  ],
+  "baseStats": {
+    "hp": 73,
+    "attack": 99,
+    "defence": 82,
+    "special_attack": 77,
+    "special_defence": 62,
+    "speed": 107
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 180,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "4:bite",
+    "8:quickattack",
+    "13:howlsound",
+    "16:doublekick",
+    "20:odorsleuth",
+    "25:takedown",
+    "28:roarsound",
+    "32:crunch",
+    "37:workup",
+    "40:superfang",
+    "44:doubleedge"  ],
+  "labels": [
+    "deneb",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.setoguo.desc"
+  ],
+  "preEvolution": "setohachi",
+  "baseScale": 0.325,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 3
+  },
+  "height": 13,
+  "weight": 589,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

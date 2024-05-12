@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "whirlpoon-1",
+      "pokemon": "whirlpoon",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "submerged",
+      "bucket": "uncommon",
+      "level": "18-42",
+      "weight": 2.8,
+      "condition": {
+"biomes": [ "#minecraft:is_deep_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

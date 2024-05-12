@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:stagnel",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:junnin_stagnel",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/junnin/stagnel.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/junnin/stagnel_shiny.png"
+    }  ]
+}

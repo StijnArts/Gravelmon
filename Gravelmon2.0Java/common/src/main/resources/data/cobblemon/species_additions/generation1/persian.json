@@ -12,6 +12,16 @@
      "move": "faengrush"
     }
    ]
+  },
+  {
+   "id": "persian_slynx",
+   "variant": "item_interact",
+   "result": "slynx",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "cobblemon:razor_claw"
   }
  ],
    "moves": [

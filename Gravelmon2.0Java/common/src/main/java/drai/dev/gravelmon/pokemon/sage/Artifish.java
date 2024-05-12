@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 import java.util.*;
 
 public class Artifish extends Pokemon {
@@ -18,7 +17,7 @@ public class Artifish extends Pokemon {
                 165, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.MONSTER, EggGroup.FAIRY),
-                List.of("Despite its predator-like appearance, Artifish is very kind and laid back. It uses its Poké Ball bait to play with other Pokémon."),
+                List.of("Despite its predator-like appearance, Artifish is very kind and laid back. It uses its Poke Ball bait to play with other Pokemon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.RAGE,1),
@@ -118,7 +117,7 @@ public class Artifish extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.4, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

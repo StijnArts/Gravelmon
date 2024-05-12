@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chameleohm",
-  "nationalPokedexNumber": 1270,
+  "nationalPokedexNumber": 1195,
   "primaryType": "electric",
   "abilities": [
     "analytic",
@@ -48,16 +48,6 @@
     "field",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:redstone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:lick",
     "1:charge",
@@ -139,15 +129,18 @@
     "egg:zapcannon"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chameleohm.desc"
   ],
-  "baseScale": 0.28125,
+  "preEvolution": "telsion",
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

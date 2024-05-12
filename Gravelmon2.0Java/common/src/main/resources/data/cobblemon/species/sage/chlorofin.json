@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chlorofin",
-  "nationalPokedexNumber": 1190,
+  "nationalPokedexNumber": 1115,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -49,16 +49,6 @@
     "water_2",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:aquaring",
     "1:watergun",
@@ -145,15 +135,18 @@
     "egg:watersport"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chlorofin.desc"
   ],
-  "baseScale": 0.3,
+  "preEvolution": "leafish",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

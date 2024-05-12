@@ -7,7 +7,7 @@
       "id": "pottle-1",
       "pokemon": "pottle",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

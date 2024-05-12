@@ -3,9 +3,8 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import drai.dev.gravelmon.util.*;
-
 import java.util.*;
+import drai.dev.gravelmon.util.*;
 
 public class HoennianRegigigas extends Pokemon {
     public HoennianRegigigas(int dexNo) {
@@ -79,7 +78,7 @@ public class HoennianRegigigas extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_ARID, Biome.IS_TEMPERATE))),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Regigigas");

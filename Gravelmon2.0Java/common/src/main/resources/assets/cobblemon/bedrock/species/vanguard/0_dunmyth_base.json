@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:dunmyth",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:vanguard_dunmyth",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/vanguard/dunmyth.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/vanguard/dunmyth_shiny.png"
+    }  ]
+}

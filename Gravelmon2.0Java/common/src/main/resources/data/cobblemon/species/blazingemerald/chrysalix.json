@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "chrysalix",
-  "nationalPokedexNumber": 1182,
+  "nationalPokedexNumber": 3728,
   "primaryType": "rock",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "crystalcase",
+    "h:crystalcase"
   ],
   "baseStats": {
     "hp": 80,
@@ -71,6 +71,7 @@
     "tm:earthquake",
     "tm:return",
     "tm:dig",
+    "tm:shimmershot",
     "tm:sandstorm",
     "tm:rocktomb",
     "tm:gigaimpact",
@@ -87,15 +88,17 @@
     "egg:hydrocannon"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.chrysalix.desc"
   ],
-  "baseScale": 1.6125,
+  "preEvolution": "hoennianonix",
+  "baseScale": 1.075,
   "hitbox": {
-    "width": 2.3076923076923075,
-    "height": 2.3076923076923075,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -107,7 +110,7 @@
     "special_defence": 3,
     "speed": 0
   },
-  "height": 86,
+  "height": 43,
   "weight": 3000,
   "aspects": [],
 "features": [

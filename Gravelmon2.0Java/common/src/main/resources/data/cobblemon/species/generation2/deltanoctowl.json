@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltanoctowl",
-  "nationalPokedexNumber": 163,
+  "nationalPokedexNumber": 164,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
@@ -123,15 +123,17 @@
   "labels": [
     "gen2",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltanoctowl.desc"
   ],
-  "baseScale": 0.3,
+  "preEvolution": "deltahoothoot",
+  "baseScale": 0.39999999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

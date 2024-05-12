@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cuppy",
-  "nationalPokedexNumber": 1177,
+  "nationalPokedexNumber": 1102,
   "primaryType": "water",
   "abilities": [
     "speedboost",
@@ -47,16 +47,6 @@
   "eggGroups": [
     "water_2"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:raw_cod",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:pound",
     "1:watersport",
@@ -131,8 +121,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

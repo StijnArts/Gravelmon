@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltahuntail",
-  "nationalPokedexNumber": 366,
+  "nationalPokedexNumber": 367,
   "primaryType": "dragon",
   "secondaryType": "dark",
   "abilities": [
@@ -98,6 +98,7 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:incinerate",
     "tm:roundsound",
     "tm:captivate",
@@ -129,15 +130,17 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltahuntail.desc"
   ],
-  "baseScale": 0.31875,
+  "preEvolution": "deltaclamperl",
+  "baseScale": 0.425,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

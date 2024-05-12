@@ -1,0 +1,127 @@
+{
+  "implemented": true,
+  "name": "hiziancradily",
+  "nationalPokedexNumber": 346,
+  "primaryType": "grass",
+  "secondaryType": "ghost",
+  "abilities": [
+    "perishbody",
+    "h:perishbody"
+  ],
+  "baseStats": {
+    "hp": 86,
+    "attack": 81,
+    "defence": 97,
+    "special_attack": 107,
+    "special_defence": 81,
+    "speed": 43
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 173,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "water_3"
+  ],
+  "moves": [
+    "1:astonish",
+    "1:defensecurl",
+    "1:rollout",
+    "5:absorb",
+    "9:rapidspin",
+    "13:bulletseed",
+    "17:infestation",
+    "21:hex",
+    "25:megadrain",
+    "29:disable",
+    "35:phantomforce",
+    "40:gigadrain",
+    "45:curse",
+    "50:painsplit",
+    "55:powerwhip",
+    "egg:beatup",
+    "egg:block",
+    "egg:leechseed",
+    "egg:shadowsneak",
+    "egg:strengthsap",
+    "tm:scaryface",
+    "tm:protect",
+    "tm:confuseray",
+    "tm:thief",
+    "tm:trailblaze",
+    "tm:pounce",
+    "tm:facade",
+    "tm:hex",
+    "tm:nightshade",
+    "tm:endure",
+    "tm:bulletseed",
+    "tm:sleeptalksound",
+    "tm:seedbomb",
+    "tm:grassknot",
+    "tm:rest",
+    "tm:spikes",
+    "tm:substitute",
+    "tm:gigadrain",
+    "tm:shadowball",
+    "tm:energyball",
+    "tm:grassyterrain",
+    "tm:phantomforce",
+    "tm:leafstorm",
+    "tm:solarbeam",
+    "tm:terablast"  ],
+  "labels": [
+    "hiza",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.hiziancradily.desc"
+  ],
+  "preEvolution": "hizianlileep",
+  "baseScale": 0.375,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 15,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

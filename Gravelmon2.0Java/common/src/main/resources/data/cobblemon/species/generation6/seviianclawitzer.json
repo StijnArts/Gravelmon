@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviianclawitzer",
-  "nationalPokedexNumber": 692,
+  "nationalPokedexNumber": 693,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -54,10 +54,10 @@
     "1:healpulse",
     "1:strugglebug",
     "1:torment",
-    "1:vicegrip",
+    "1:visegrip",
     "1:waterpulse",
     "7:torment",
-    "9:vicegrip",
+    "9:visegrip",
     "12:pursuit",
     "16:flail",
     "20:silverwind",
@@ -108,15 +108,17 @@
   "labels": [
     "radicalred",
     "gen6",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.seviianclawitzer.desc"
   ],
-  "baseScale": 0.24375,
+  "preEvolution": "seviianclauncher",
+  "baseScale": 0.325,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

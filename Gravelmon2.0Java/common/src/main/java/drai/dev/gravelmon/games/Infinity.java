@@ -13,7 +13,6 @@ public class Infinity extends Game {
         //Lukpup line
         pokemon.add(new Lukpup());
         pokemon.add(new Lukagon());
-
         //Kokiseed line
         pokemon.add(new Kokiseed());
         pokemon.add(new Kokipound());
@@ -101,11 +100,8 @@ public class Infinity extends Game {
         pokemon.add(new Dragoyle());
 
         pokemon.add(new PorygonX());
-        pokemon.add(new Oculeus());
 
-        pokemon.add(new Arkhaos());
-
-        //Ehgo Oddish line
+        //Egho Oddish line
         pokemon.add(new Viledoom());
         pokemon.add(new Mortossum());
 
@@ -131,5 +127,9 @@ public class Infinity extends Game {
         pokemon.add(new Joltalope());
 
         pokemon.add(new Mewthree());
+
+        pokemon.add(new Oculeus());
+
+        pokemon.add(new Arkhaos());
     }
 }

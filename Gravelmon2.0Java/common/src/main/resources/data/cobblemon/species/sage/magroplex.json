@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magroplex",
-  "nationalPokedexNumber": 1258,
+  "nationalPokedexNumber": 1183,
   "primaryType": "steel",
   "abilities": [
     "shedskin",
@@ -48,16 +48,6 @@
     "mineral",
     "dragon"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:iron_ore",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:thrash",
     "1:spikes",
@@ -129,15 +119,18 @@
     "egg:stealthrock"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.magroplex.desc"
   ],
-  "baseScale": 0.9375,
+  "preEvolution": "anvelid",
+  "baseScale": 1.25,
   "hitbox": {
-    "width": 1.4423076923076923,
-    "height": 1.4423076923076923,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

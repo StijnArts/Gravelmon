@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quecko",
-  "nationalPokedexNumber": 1314,
+  "nationalPokedexNumber": 1239,
   "primaryType": "grass",
   "abilities": [
     "leafguard",
@@ -48,16 +48,6 @@
     "dragon",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:vinewhip",
     "1:twister",
@@ -67,6 +57,7 @@
     "19:leafshield",
     "24:poisonfang",
     "29:growth",
+    "33:tempest",
     "38:leafblade",
     "43:agility",
     "47:aromatherapy",
@@ -128,10 +119,10 @@
       ]   
  }
   ],
-  "baseScale": 0.16875,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

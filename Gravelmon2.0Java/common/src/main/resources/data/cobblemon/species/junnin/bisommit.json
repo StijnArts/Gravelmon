@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "bisommit",
+  "nationalPokedexNumber": 2859,
+  "primaryType": "grass",
+  "secondaryType": "ground",
+  "abilities": [
+    "rockhead",
+    "h:grassysurge"
+  ],
+  "baseStats": {
+    "hp": 101,
+    "attack": 108,
+    "defence": 110,
+    "special_attack": 63,
+    "special_defence": 86,
+    "speed": 43
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 179,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "8:bide",
+    "12:megadrain",
+    "16:magnitude",
+    "19:leechseed",
+    "23:takedown",
+    "27:grassyterrain",
+    "30:hornleech",
+    "34:yawn",
+    "40:zenheadbutt",
+    "45:doubleedge",
+    "50:earthquake",
+    "55:amnesia",
+    "60:headsmash",
+    "66:woodhammer",
+    "tm:attract",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:bulldoze",
+    "tm:bulletseed",
+    "tm:doubleteam",
+    "tm:earthquake",
+    "tm:energyball",
+    "tm:facade",
+    "tm:focusblast",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:naturepower",
+    "tm:protect",
+    "tm:raindance",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockslide",
+    "tm:roundsound",
+    "tm:sandstorm",
+    "tm:shadowball",
+    "tm:sleeptalksound",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:wildcharge",
+    "tm:workup",
+    "tm:headcharge"  ],
+  "labels": [
+    "isiah",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.bisommit.desc"
+  ],
+  "preEvolution": "buffhilla",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

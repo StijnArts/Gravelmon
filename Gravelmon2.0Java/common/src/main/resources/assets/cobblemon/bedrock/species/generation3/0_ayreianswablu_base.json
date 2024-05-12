@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:ayreianswablu",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_ayreianswablu",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianswablu.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/ayreianswablu_shiny.png"
+    }  ]
+}

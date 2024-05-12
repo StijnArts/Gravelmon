@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "wendingo",
-  "nationalPokedexNumber": 1302,
+  "nationalPokedexNumber": 1227,
   "primaryType": "ice",
   "abilities": [
     "intimidate",
+    "ironjaw",
     "h:snowcloak"
   ],
   "baseStats": {
@@ -46,16 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:ice",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:odorsleuth",
     "1:scratch",
@@ -145,10 +136,10 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

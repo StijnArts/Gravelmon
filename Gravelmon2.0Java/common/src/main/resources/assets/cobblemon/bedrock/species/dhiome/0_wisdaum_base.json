@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:wisdaum",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:dhiome_wisdaum",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/dhiome/wisdaum.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/wisdaum_shiny.png"
+    }  ]
+}

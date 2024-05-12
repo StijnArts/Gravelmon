@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviiancarnivine",
-  "nationalPokedexNumber": 486,
+  "nationalPokedexNumber": 455,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -116,10 +116,10 @@
   "pokedex": [
     "cobblemon.species.seviiancarnivine.desc"
   ],
-  "baseScale": 0.2625,
+  "baseScale": 0.35000000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

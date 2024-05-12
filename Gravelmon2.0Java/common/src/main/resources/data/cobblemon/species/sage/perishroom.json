@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "perishroom",
-  "nationalPokedexNumber": 1150,
+  "nationalPokedexNumber": 1075,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -48,21 +48,6 @@
   "eggGroups": [
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:red_mushroom",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:moss",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:nightshade",
     "1:bide",
@@ -131,15 +116,18 @@
     "egg:pursuit"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.perishroom.desc"
   ],
-  "baseScale": 0.20625,
+  "preEvolution": "kertruffle",
+  "baseScale": 0.27499999999999997,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

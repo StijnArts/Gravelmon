@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:hiziancradily",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation3_hiziancradily",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation3/hiziancradily.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation3/hiziancradily_shiny.png"
+    }  ]
+}

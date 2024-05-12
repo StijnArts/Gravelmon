@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "peckabone",
-  "nationalPokedexNumber": 1145,
+  "nationalPokedexNumber": 2127,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -113,11 +113,14 @@
     "tutor:stealthrock"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.peckabone.desc"
   ],
+  "preEvolution": "chikaboo",
   "evolutions": [
     {
       "id": "peckabone_Rexquiem",
@@ -131,10 +134,10 @@
       "requiredContext": "cobblemon:dusk_stone"   
  }
   ],
-  "baseScale": 0.24375,
+  "baseScale": 0.325,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

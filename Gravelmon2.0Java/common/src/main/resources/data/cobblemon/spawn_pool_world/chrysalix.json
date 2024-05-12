@@ -7,7 +7,7 @@
       "id": "chrysalix-1",
       "pokemon": "chrysalix",
       "presets": [
-          "underground"
+          "natural"
       ],
       "type": "pokemon",
       "context": "grounded",

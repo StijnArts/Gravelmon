@@ -1,0 +1,93 @@
+{
+  "implemented": true,
+  "name": "mouscalibur",
+  "nationalPokedexNumber": 3926,
+  "primaryType": "fairy",
+  "secondaryType": "electric",
+  "abilities": [
+    "lightningrod",
+    "h:technician"
+  ],
+  "baseStats": {
+    "hp": 65,
+    "attack": 127,
+    "defence": 41,
+    "special_attack": 107,
+    "special_defence": 42,
+    "speed": 93
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 40,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 60,
+  "experienceGroup": "erratic",
+  "eggCycles": 50,
+  "eggGroups": [
+    "field"
+  ],
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "6:thundershock",
+    "15:thunderwave",
+    "20:pursuit",
+    "25:spark",
+    "29:feintattack",
+    "39:discharge",
+    "48:agility",
+    "57:thunder",
+    "62:doubleedge"  ],
+  "labels": [
+    "fliga",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.mouscalibur.desc"
+  ],
+  "preEvolution": "mousprite",
+  "baseScale": 0.35000000000000003,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 14,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltabudew",
-  "nationalPokedexNumber": 405,
+  "nationalPokedexNumber": 406,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -91,6 +91,7 @@
     "tm:darkpulse",
     "tm:dazzlinggleam",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -148,8 +149,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

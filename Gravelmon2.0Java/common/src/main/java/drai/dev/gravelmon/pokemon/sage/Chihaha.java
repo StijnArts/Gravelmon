@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 import java.util.*;
 
 public class Chihaha extends Pokemon {
@@ -102,10 +101,9 @@ public class Chihaha extends Pokemon {
                         new ItemDrop("minecraft:bone",50, 1,2)
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 3, 28, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
-                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

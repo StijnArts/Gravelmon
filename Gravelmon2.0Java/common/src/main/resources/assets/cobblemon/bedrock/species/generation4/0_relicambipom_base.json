@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:relicambipom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:generation4_relicambipom",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/generation4/relicambipom.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/generation4/relicambipom_shiny.png"
+    }  ]
+}

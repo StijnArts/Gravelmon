@@ -7,7 +7,7 @@
       "id": "pomparunt-1",
       "pokemon": "pomparunt",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

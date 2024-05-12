@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghotyphlosion",
-  "nationalPokedexNumber": 156,
+  "nationalPokedexNumber": 157,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:gunpowder",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:shockwave",
     "1:firepledge",
@@ -151,15 +141,17 @@
   "labels": [
     "gen2",
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.eghotyphlosion.desc"
   ],
-  "baseScale": 0.35625,
+  "preEvolution": "eghoquilava",
+  "baseScale": 0.47500000000000003,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

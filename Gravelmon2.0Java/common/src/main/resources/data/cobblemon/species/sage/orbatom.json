@@ -1,11 +1,12 @@
 {
   "implemented": true,
   "name": "orbatom",
-  "nationalPokedexNumber": 1204,
+  "nationalPokedexNumber": 1129,
   "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
     "lightningrod",
+    "eccentric",
     "h:adaptability"
   ],
   "baseStats": {
@@ -47,16 +48,6 @@
   "eggGroups": [
     "amorphous"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:spider_eye",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:heatwave",
     "1:tackle",
@@ -128,15 +119,18 @@
     "tutor:wonderroom"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.orbatom.desc"
   ],
+  "preEvolution": "atomite",
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

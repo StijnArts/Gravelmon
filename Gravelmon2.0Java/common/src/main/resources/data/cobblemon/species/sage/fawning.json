@@ -1,10 +1,11 @@
 {
   "implemented": true,
   "name": "fawning",
-  "nationalPokedexNumber": 1116,
+  "nationalPokedexNumber": 1041,
   "primaryType": "normal",
   "abilities": [
     "rivalry",
+    "braveheart",
     "h:defiant"
   ],
   "baseStats": {
@@ -46,21 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      },
-      {
-        "item": "minecraft:berries",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:growl",
@@ -140,10 +126,10 @@
       ]   
  }
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

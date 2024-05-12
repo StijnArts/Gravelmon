@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "blastine-1",
+      "pokemon": "blastine",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "rare",
+      "level": "3-22",
+      "weight": 4.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_cold_ocean" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

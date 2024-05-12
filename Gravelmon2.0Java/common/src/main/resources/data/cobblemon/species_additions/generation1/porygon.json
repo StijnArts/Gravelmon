@@ -1,4 +1,23 @@
 {"target": "cobblemon:Porygon",
+ "evolutions": [
+  {
+   "id": "porygon_EPP_v11",
+   "variant": "level_up",
+   "result": "EPP_v11",
+   "consumeHeldItem": true,
+   "learnableMoves": [],
+   "requirements": [
+    {
+     "variant": "level",
+     "minLevel": 30
+    },
+    {
+     "variant": "weather",
+     "isRaining": true
+    }
+   ]
+  }
+ ],
    "moves": [
     "1:conversion",
     "1:sharpen",

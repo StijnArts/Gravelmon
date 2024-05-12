@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fatail",
-  "nationalPokedexNumber": 1138,
+  "nationalPokedexNumber": 2120,
   "primaryType": "fairy",
   "secondaryType": "poison",
   "abilities": [
@@ -101,15 +101,18 @@
     "egg:spite"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.fatail.desc"
   ],
-  "baseScale": 0.225,
+  "preEvolution": "manticoeur",
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

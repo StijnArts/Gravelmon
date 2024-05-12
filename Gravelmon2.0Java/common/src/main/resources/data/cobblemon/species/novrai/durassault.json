@@ -1,0 +1,156 @@
+{
+  "implemented": true,
+  "name": "durassault",
+  "nationalPokedexNumber": 5126,
+  "primaryType": "electric",
+  "secondaryType": "fighting",
+  "abilities": [
+    "voltabsorb",
+    "ironfist",
+    "h:battery"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 135,
+    "defence": 105,
+    "special_attack": 45,
+    "special_defence": 85,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 230,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "mineral"
+  ],
+  "moves": [
+    "1:acid",
+    "12:chargebeam",
+    "14:poweruppunch",
+    "16:spark",
+    "20:taunt",
+    "24:forcepalm",
+    "27:acidspray",
+    "31:thunderpunch",
+    "37:drainpunch",
+    "46:wildcharge",
+    "52:hammerarm",
+    "55:plasmafists",
+    "60:gigaimpact",
+    "tm:headbutt",
+    "tm:irondefense",
+    "tm:lowkick",
+    "tm:ironhead",
+    "tm:recycle",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:superpower",
+    "tm:throatchop",
+    "tm:shockwave",
+    "tm:seismictoss",
+    "tm:snoresound",
+    "tm:focuspunch",
+    "tm:electricterrain",
+    "tm:poweruppunch",
+    "tm:closecombat",
+    "tm:focusenergy",
+    "tm:heavyslam",
+    "tm:bulkup",
+    "tm:hiddenpower",
+    "tm:taunt",
+    "tm:hyperbeam",
+    "tm:lightscreen",
+    "tm:protect",
+    "tm:raindance",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:earthquake",
+    "tm:return",
+    "tm:brickbreak",
+    "tm:rocktomb",
+    "tm:facade",
+    "tm:rest",
+    "tm:thief",
+    "tm:rocksmash",
+    "tm:signalbeam",
+    "tm:focusblast",
+    "tm:chargebeam",
+    "tm:drainpunch",
+    "tm:curse",
+    "tm:flash",
+    "tm:explosion",
+    "tm:gigaimpact",
+    "tm:stoneedge",
+    "tm:voltswitch",
+    "tm:thunderwave",
+    "tm:bulldoze",
+    "tm:rockslide",
+    "tm:poisonjab",
+    "tm:grassknot",
+    "tm:swagger",
+    "tm:sleeptalksound",
+    "tm:substitute",
+    "tm:wildcharge",
+    "tm:naturalgift",
+    "tm:magnetrise",
+    "tm:confide",
+    "tm:bodypress",
+    "tm:stompingtantrum",
+    "tm:strength"  ],
+  "labels": [
+    "novrai",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.durassault.desc"
+  ],
+  "preEvolution": "oblittery",
+  "baseScale": 0.425,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 17,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:gastrohm",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:enjin_gastrohm",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/enjin/gastrohm.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/enjin/gastrohm_shiny.png"
+    }  ]
+}

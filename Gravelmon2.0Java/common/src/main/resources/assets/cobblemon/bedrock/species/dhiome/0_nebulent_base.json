@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:nebulent",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:dhiome_nebulent",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/dhiome/nebulent.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/dhiome/nebulent_shiny.png"
+    }  ]
+}

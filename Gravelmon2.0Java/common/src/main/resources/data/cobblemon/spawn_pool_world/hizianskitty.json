@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hizianskitty-1",
+      "pokemon": "hizianskitty",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "1-15",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical",
+"#cobblemon:is_floral" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

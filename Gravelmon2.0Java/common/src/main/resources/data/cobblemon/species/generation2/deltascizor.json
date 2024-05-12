@@ -1,11 +1,12 @@
 {
   "implemented": true,
   "name": "deltascizor",
-  "nationalPokedexNumber": 206,
+  "nationalPokedexNumber": 212,
   "primaryType": "ice",
   "secondaryType": "fighting",
   "abilities": [
     "toughclaws",
+    "icecleats",
     "h:superluck"
   ],
   "baseStats": {
@@ -199,11 +200,13 @@
     "tutor:waterpulse"  ],
   "labels": [
     "gen2",
-    "insurgence"
+    "insurgence",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltascizor.desc"
   ],
+  "preEvolution": "deltascyther",
   "baseScale": 0.85,
   "hitbox": {
     "width": 1.1,

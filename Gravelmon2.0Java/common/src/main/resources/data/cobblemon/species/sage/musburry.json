@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "musburry",
-  "nationalPokedexNumber": 1138,
+  "nationalPokedexNumber": 1063,
   "primaryType": "normal",
   "secondaryType": "grass",
   "abilities": [
@@ -48,26 +48,6 @@
     "field",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:sweet_berry",
-        "quantityRange": "1-3",
-        "percentage": 40
-      },
-      {
-        "item": "minecraft:glow_berry",
-        "quantityRange": "1-3",
-        "percentage": 40
-      },
-      {
-        "item": "cobblemon:berry_sweet",
-        "quantityRange": "1-2",
-        "percentage": 20
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -170,8 +150,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviianclauncher",
-  "nationalPokedexNumber": 704,
+  "nationalPokedexNumber": 692,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -52,7 +52,7 @@
     "1:splash",
     "1:strugglebug",
     "7:torment",
-    "9:vicegrip",
+    "9:visegrip",
     "12:pursuit",
     "16:flail",
     "20:silverwind",
@@ -119,10 +119,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

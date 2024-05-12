@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaTreecko extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by SixteenDraws. It takes up residence within dojos where it trains against humans and Pokémon alike."),
+                List.of("A Delta Species discovered by SixteenDraws. It takes up residence within dojos where it trains against humans and Pokemon alike."),
                 List.of(new EvolutionEntry("deltagrovyle", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

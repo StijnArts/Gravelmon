@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pincess-1",
+      "pokemon": "pincess",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "1-14",
+      "weight": 3.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_savanna" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

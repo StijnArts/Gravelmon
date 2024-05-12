@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lintle",
-  "nationalPokedexNumber": 1273,
+  "nationalPokedexNumber": 1198,
   "primaryType": "bug",
   "abilities": [
     "serenegrace",
@@ -48,16 +48,6 @@
     "bug",
     "fairy"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:string",
-        "quantityRange": "1-2",
-        "percentage": 90
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:charm",
@@ -128,8 +118,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "diloweed",
-  "nationalPokedexNumber": 1224,
+  "nationalPokedexNumber": 1149,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -49,16 +49,6 @@
     "grass",
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:dead_bush",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:rockpolish",
     "1:rapidspin",
@@ -140,10 +130,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

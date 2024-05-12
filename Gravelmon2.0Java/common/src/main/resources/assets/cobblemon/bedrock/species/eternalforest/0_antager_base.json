@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:antager",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:eternalforest_antager",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/eternalforest/antager.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/eternalforest/antager_shiny.png"
+    }  ]
+}

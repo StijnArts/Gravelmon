@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "veroxifye-1",
+      "pokemon": "veroxifye",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "31-49",
+      "weight": 0.3,
+      "condition": {
+"biomes": [ "#cobblemon:is_forest" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      },
+      "anticondition": {
+"biomes": [ "#cobblemon:is_summer" ]    }
+    }
+  ]
+}

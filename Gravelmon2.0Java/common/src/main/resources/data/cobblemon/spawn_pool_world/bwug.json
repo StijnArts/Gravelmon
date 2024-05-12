@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bwug-1",
+      "pokemon": "bwug",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "2-25",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_old_growth_taiga" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -1,4 +1,16 @@
 {"target": "cobblemon:Spritzee",
+ "evolutions": [
+  {
+   "id": "spritzee_miasmedic",
+   "variant": "item_interact",
+   "result": "miasmedic",
+   "consumeHeldItem": false,
+   "learnableMoves": [
+   ],
+   "requirements": [],
+   "requiredContext": "gravelmon:aromatic_herb"
+  }
+ ],
    "moves": [
     "1:fairywind",
     "1:sweetscent",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "koberus",
-  "nationalPokedexNumber": 1124,
+  "nationalPokedexNumber": 1049,
   "primaryType": "dark",
   "secondaryType": "fire",
   "abilities": [
@@ -137,15 +137,18 @@
     "egg:rollout"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.koberus.desc"
   ],
-  "baseScale": 0.24375,
+  "preEvolution": "koblin",
+  "baseScale": 0.325,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tilow-1",
+      "pokemon": "tilow",
+      "presets": [
+          "mansion"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "7-25",
+      "weight": 5.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_magical" ],
+        "canSeeSky": false
+      }
+    }
+  ]
+}

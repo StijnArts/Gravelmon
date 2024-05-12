@@ -1,0 +1,91 @@
+{
+  "implemented": true,
+  "name": "hullk",
+  "nationalPokedexNumber": 3936,
+  "primaryType": "steel",
+  "secondaryType": "fire",
+  "abilities": [
+    "beastboost",
+    "h:beastboost"
+  ],
+  "baseStats": {
+    "hp": 127,
+    "attack": 67,
+    "defence": 191,
+    "special_attack": 109,
+    "special_defence": 53,
+    "speed": 23
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 231,
+  "experienceGroup": "slow",
+  "eggCycles": 50,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:ancientpower",
+    "1:lockon",
+    "1:incinerate",
+    "1:wideguard",
+    "10:metalclaw",
+    "19:firepunch",
+    "28:willowisp",
+    "37:ironhead",
+    "46:inferno",
+    "55:heavyslam",
+    "64:dynamicpunch",
+    "73:flareblitz"  ],
+  "labels": [
+    "fliga",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.hullk.desc"
+  ],
+  "baseScale": 1.45,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 3,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 58,
+  "weight": 0,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaTorchic extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by NoNameDummy. From birth it has the ability to give orders to other wild Pokémon and have them obey without question."),
+                List.of("A Delta Species discovered by NoNameDummy. From birth it has the ability to give orders to other wild Pokemon and have them obey without question."),
                 List.of(new EvolutionEntry("deltacombusken", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(
@@ -118,7 +119,7 @@ public class DeltaTorchic extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 3, 22, 8.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT))
                 ), List.of(),
-                List.of(SpawnPreset.DESERT_TEMPLE),
+                List.of(SpawnPreset.DESERT_PYRAMID),
                 0.2, 0.3,
                 List.of());
         this.setLangFileName("Torchic");

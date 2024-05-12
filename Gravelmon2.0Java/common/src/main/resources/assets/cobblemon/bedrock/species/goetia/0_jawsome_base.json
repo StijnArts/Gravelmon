@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:jawsome",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:goetia_jawsome",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/goetia/jawsome.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/goetia/jawsome_shiny.png"
+    }  ]
+}

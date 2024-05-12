@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -18,7 +19,7 @@ public class DeltaGorebyss extends Pokemon {
                 170, ExperienceGroup.ERRATIC,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A friendly creature which prefers to share its living space with other cave-dwelling Pokémon. It prefers the warmth of tropical climates."),
+                List.of("A friendly creature which prefers to share its living space with other cave-dwelling Pokemon. It prefers the warmth of tropical climates."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DRAGON_BREATH,1),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "comossus",
-  "nationalPokedexNumber": 1307,
+  "nationalPokedexNumber": 1232,
   "primaryType": "rock",
   "secondaryType": "grass",
   "abilities": [
@@ -48,16 +48,6 @@
     "mineral",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:mossy_cobblestone",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:flashcannon",
     "1:chargebeam",
@@ -149,15 +139,18 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.comossus.desc"
   ],
-  "baseScale": 0.825,
+  "preEvolution": "grolem",
+  "baseScale": 1.0999999999999999,
   "hitbox": {
-    "width": 1.1538461538461537,
-    "height": 1.1538461538461537,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

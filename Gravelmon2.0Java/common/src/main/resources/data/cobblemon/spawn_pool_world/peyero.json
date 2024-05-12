@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "peyero-1",
+      "pokemon": "peyero",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "6-19",
+      "weight": 8.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_nether_wasteland" ]
+      }
+    }
+  ]
+}

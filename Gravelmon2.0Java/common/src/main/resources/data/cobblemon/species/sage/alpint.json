@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "alpint",
-  "nationalPokedexNumber": 1173,
+  "nationalPokedexNumber": 1098,
   "primaryType": "grass",
   "abilities": [
     "angerpoint",
@@ -48,16 +48,6 @@
     "field",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:spruce_sapling",
-        "quantityRange": "1-2",
-        "percentage": 100
-      }
-    ]
-  },
   "moves": [
     "1:defensecurl",
     "1:tackle",
@@ -154,10 +144,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1875,
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

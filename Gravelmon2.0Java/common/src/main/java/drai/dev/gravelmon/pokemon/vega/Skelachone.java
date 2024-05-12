@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.vega;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+import java.util.*;
 
 import java.util.*;
 
@@ -92,7 +93,7 @@ public class Skelachone extends Pokemon {
                         new MoveLearnSetEntry(Move.STARFREEZE,"egg"),
                         new MoveLearnSetEntry(Move.TORMENT,"egg")
                         ),
-                List.of(Label.VEGA),
+                List.of(Label.DENEB),
                 0, List.of(), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 36, 54, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),

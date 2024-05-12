@@ -7,7 +7,7 @@
       "id": "pueblant-1",
       "pokemon": "pueblant",
       "presets": [
-          "desert_temple"
+          "desert_pyramid"
       ],
       "type": "pokemon",
       "context": "grounded",

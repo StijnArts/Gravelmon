@@ -1,0 +1,97 @@
+{
+  "implemented": true,
+  "name": "phenelpha",
+  "nationalPokedexNumber": 4426,
+  "primaryType": "fire",
+  "secondaryType": "flying",
+  "abilities": [
+    "flamebody",
+    "h:flamebody"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 70,
+    "defence": 80,
+    "special_attack": 120,
+    "special_defence": 145,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": true
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 3,
+  "maleRatio": -1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 250,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 100,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "moves": [
+    "1:flamewheel",
+    "3:peck",
+    "6:willowisp",
+    "10:wingattack",
+    "14:protect",
+    "18:roost",
+    "23:flamethrower",
+    "28:tailglow",
+    "32:nastyplot",
+    "35:calmmind",
+    "39:airslash",
+    "44:hurricane",
+    "55:flashcannon",
+    "60:encore",
+    "65:toxic",
+    "70:hyperbeam",
+    "75:ancientpower",
+    "80:blastburn"  ],
+  "labels": [
+    "myth",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.phenelpha.desc"
+  ],
+  "baseScale": 0.3,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 12,
+  "weight": 679,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

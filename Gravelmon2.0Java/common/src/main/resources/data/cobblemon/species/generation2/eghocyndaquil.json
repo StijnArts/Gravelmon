@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghocyndaquil",
-  "nationalPokedexNumber": 154,
+  "nationalPokedexNumber": 155,
   "primaryType": "fire",
   "secondaryType": "electric",
   "abilities": [
@@ -47,16 +47,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:gunpowder",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:leer",
@@ -161,10 +151,10 @@
       ]   
  }
   ],
-  "baseScale": 0.1,
+  "baseScale": 0.125,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

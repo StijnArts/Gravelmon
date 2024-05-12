@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "psysteed",
-  "nationalPokedexNumber": 1336,
+  "nationalPokedexNumber": 1403,
   "primaryType": "fire",
   "secondaryType": "psychic",
   "abilities": [
@@ -48,16 +48,6 @@
   "eggGroups": [
     "field"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:leather",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -74,7 +64,7 @@
     "38:calmmind",
     "40:futuresight",
     "43:flareblitz",
-    "45:cosmicpower",
+    "45:cosmicpowercosmic",
     "47:jumpkick",
     "49:extrasensory",
     "52:flamethrower",
@@ -152,15 +142,18 @@
     "egg:outrage"  ],
   "labels": [
     "infinity",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.psysteed.desc"
   ],
-  "baseScale": 0.375,
+  "preEvolution": "burnaram",
+  "baseScale": 0.5,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,158 @@
+{
+  "implemented": true,
+  "name": "snomatcha",
+  "nationalPokedexNumber": 3833,
+  "primaryType": "ice",
+  "secondaryType": "grass",
+  "abilities": [
+    "aromaveil",
+    "icebody",
+    "h:naturalcure"
+  ],
+  "baseStats": {
+    "hp": 140,
+    "attack": 50,
+    "defence": 40,
+    "special_attack": 100,
+    "special_defence": 110,
+    "speed": 60
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 175,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "grass",
+    "fairy"
+  ],
+  "moves": [
+    "1:seedbomb",
+    "tm:defog",
+    "tm:healbellsound",
+    "tm:recycle",
+    "tm:worryseed",
+    "tm:gigadrain",
+    "tm:synthesis",
+    "tm:icywind",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:seedbomb",
+    "tm:wonderroom",
+    "tm:grassyglide",
+    "tm:mistyexplosion",
+    "tm:hyperbeam",
+    "tm:magicalleaf",
+    "tm:solarbeam",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:safeguard",
+    "tm:selfdestruct",
+    "tm:rest",
+    "tm:snoresound",
+    "tm:protect",
+    "tm:icywind",
+    "tm:gigadrain",
+    "tm:charm",
+    "tm:attract",
+    "tm:snowscape",
+    "tm:facade",
+    "tm:helpinghand",
+    "tm:imprison",
+    "tm:weatherball",
+    "tm:bulletseed",
+    "tm:iciclespear",
+    "tm:avalanche",
+    "tm:roundsound",
+    "tm:bulldoze",
+    "tm:grassyterrain",
+    "tm:smartstrike",
+    "tm:breakingswipe",
+    "tm:stompingtantrum",
+    "tm:bodyslam",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:focusenergy",
+    "tm:metronome",
+    "tm:triattack",
+    "tm:substitute",
+    "tm:endure",
+    "tm:sleeptalksound",
+    "tm:encore",
+    "tm:uproar",
+    "tm:taunt",
+    "tm:trick",
+    "tm:calmmind",
+    "tm:gyroball",
+    "tm:seedbomb",
+    "tm:energyball",
+    "tm:flashcannon",
+    "tm:leafstorm",
+    "tm:grassknot",
+    "tm:heavyslam",
+    "tm:storedpower",
+    "tm:bodypress",
+    "tm:blizzard",
+    "tm:magicalleaf",
+    "tm:cottonspore",
+    "tm:iceball",
+    "tm:mist",
+    "tm:lifedew",
+    "tm:whirlpool",
+    "tm:strangesteam",
+    "tm:flash"  ],
+  "labels": [
+    "mythire",
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
+  ],
+  "pokedex": [
+    "cobblemon.species.snomatcha.desc"
+  ],
+  "preEvolution": "snofresh",
+  "baseScale": 0.65,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 26,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

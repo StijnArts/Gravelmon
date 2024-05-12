@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scarphasmo",
-  "nationalPokedexNumber": 1149,
+  "nationalPokedexNumber": 2131,
   "primaryType": "ghost",
   "secondaryType": "psychic",
   "abilities": [
@@ -125,15 +125,18 @@
     "egg:spite"  ],
   "labels": [
     "xenoverse",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.scarphasmo.desc"
   ],
-  "baseScale": 0.3375,
+  "preEvolution": "scaracluo",
+  "baseScale": 0.45,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

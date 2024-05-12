@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltagoodra",
-  "nationalPokedexNumber": 705,
+  "nationalPokedexNumber": 706,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -142,15 +142,17 @@
   "labels": [
     "gen6",
     "insurgence",
-    "not_modeled"
+    "not_modeled",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.deltagoodra.desc"
   ],
-  "baseScale": 0.375,
+  "preEvolution": "deltasliggoo",
+  "baseScale": 0.5,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

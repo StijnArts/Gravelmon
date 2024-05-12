@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shyleonx",
-  "nationalPokedexNumber": 1100,
+  "nationalPokedexNumber": 2077,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
@@ -69,10 +69,10 @@
   "pokedex": [
     "cobblemon.species.shyleonx.desc"
   ],
-  "baseScale": 0.1125,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

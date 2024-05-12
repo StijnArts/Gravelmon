@@ -1,0 +1,100 @@
+{
+  "implemented": true,
+  "name": "swirlsea",
+  "nationalPokedexNumber": 2210,
+  "primaryType": "bug",
+  "secondaryType": "poison",
+  "abilities": [
+    "poisontouch",
+    "h:poisonpoint"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 30,
+    "defence": 30,
+    "special_attack": 40,
+    "special_defence": 30,
+    "speed": 30
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": true
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+        }
+    }
+  },
+  "catchRate": 255,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 40,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug",
+    "water_3"
+  ],
+  "moves": [
+    "1:stringshot",
+    "4:poisonsting",
+    "8:bubble",
+    "tm:acidarmor",
+    "tm:shellsmash"  ],
+  "labels": [
+    "oceane",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.swirlsea.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "swirlsea_spirashell",
+      "variant": "level_up",
+      "result": "spirashell",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 10
+        }
+      ]   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "plecobble-1",
+      "pokemon": "plecobble",
+      "presets": [
+          "freshwater"
+      ],
+      "type": "pokemon",
+      "context": "seafloor",
+      "bucket": "uncommon",
+      "level": "8-27",
+      "weight": 2.5,
+      "condition": {
+"biomes": [ "#cobblemon:is_river" ],
+        "canSeeSky": true
+      }
+    }
+  ]
+}

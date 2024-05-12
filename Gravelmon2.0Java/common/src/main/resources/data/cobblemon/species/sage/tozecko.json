@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tozecko",
-  "nationalPokedexNumber": 1315,
+  "nationalPokedexNumber": 1240,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -49,16 +49,6 @@
     "dragon",
     "grass"
   ],
-  "drops": {
-    "amount": "2",
-    "entries": [
-      {
-        "item": "minecraft:seeds",
-        "quantityRange": "1-2",
-        "percentage": 50
-      }
-    ]
-  },
   "moves": [
     "1:featherdance",
     "1:vinewhip",
@@ -69,6 +59,7 @@
     "19:leafshield",
     "24:poisonfang",
     "29:growth",
+    "33:tempest",
     "38:leafblade",
     "43:agility",
     "43:dragonrush",
@@ -123,15 +114,18 @@
     "egg:roost"  ],
   "labels": [
     "sage",
-    "not_modeled"
+    "not_modeled",
+    "fakemon",
+    "fakemonevolution"
   ],
   "pokedex": [
     "cobblemon.species.tozecko.desc"
   ],
-  "baseScale": 0.54375,
+  "preEvolution": "quecko",
+  "baseScale": 0.725,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "wrecktonic-1",
+      "pokemon": "wrecktonic",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "53-64",
+      "weight": 0.1,
+      "condition": {
+"biomes": [ "#cobblemon:is_desert" ],
+        "timeRange": "day",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-
 import java.util.*;
 
 public class Berratel extends Pokemon {
@@ -18,7 +17,7 @@ public class Berratel extends Pokemon {
                 167, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.FIELD),
-                List.of("Berratel eats so many berries that its fur is permanently stained. It waits for other Pokémon to gather berries, and then mugs them for an easy meal."),
+                List.of("Berratel eats so many berries that its fur is permanently stained. It waits for other Pokemon to gather berries, and then mugs them for an easy meal."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SEED_BOMB,1),
@@ -121,7 +120,7 @@ public class Berratel extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_FOREST)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_SNOWY))),
-                List.of(SpawnPreset.URBAN),
+                List.of(SpawnPreset.VILLAGE),
                 0.5, 0.5,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

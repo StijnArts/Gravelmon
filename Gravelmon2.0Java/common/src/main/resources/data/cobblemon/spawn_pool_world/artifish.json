@@ -7,7 +7,7 @@
       "id": "artifish-1",
       "pokemon": "artifish",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

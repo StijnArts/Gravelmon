@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "hoennianonix",
-  "nationalPokedexNumber": 87,
+  "nationalPokedexNumber": 95,
   "primaryType": "rock",
   "secondaryType": "ice",
   "abilities": [
-    "keeneye",
-    "h:keeneye"
+    "crystalcase",
+    "h:crystalcase"
   ],
   "baseStats": {
     "hp": 55,
@@ -68,6 +68,7 @@
     "tm:earthquake",
     "tm:return",
     "tm:dig",
+    "tm:shimmershot",
     "tm:sandstorm",
     "tm:rocktomb",
     "tm:facade",
@@ -107,10 +108,10 @@
       ]   
  }
   ],
-  "baseScale": 1.14375,
+  "baseScale": 1.5250000000000001,
   "hitbox": {
-    "width": 1.7307692307692306,
-    "height": 1.7307692307692306,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

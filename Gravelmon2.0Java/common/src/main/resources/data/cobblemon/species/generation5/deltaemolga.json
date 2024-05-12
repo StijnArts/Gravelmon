@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaemolga",
-  "nationalPokedexNumber": 579,
+  "nationalPokedexNumber": 587,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -158,6 +158,7 @@
     "tm:acrobatics",
     "tm:darkpulse",
     "tm:achillesheel",
+    "tm:lunarcannon",
     "tm:incinerate",
     "tm:roundsound",
     "tm:captivate",

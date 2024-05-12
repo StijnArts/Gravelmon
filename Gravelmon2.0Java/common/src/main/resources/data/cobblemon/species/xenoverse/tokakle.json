@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tokakle",
-  "nationalPokedexNumber": 1150,
+  "nationalPokedexNumber": 2132,
   "primaryType": "sound",
   "abilities": [
     "simple",
@@ -52,8 +52,8 @@
       ],
       "baseScale": 0.4,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -104,6 +104,7 @@
     "tm:taunt",
     "tm:lightscreen",
     "tm:protect",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:torment",
@@ -163,8 +164,8 @@
       ],
       "baseScale": 0.4,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -215,6 +216,7 @@
     "tm:taunt",
     "tm:lightscreen",
     "tm:protect",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:torment",
@@ -274,8 +276,8 @@
       ],
       "baseScale": 0.4,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -326,6 +328,7 @@
     "tm:taunt",
     "tm:lightscreen",
     "tm:protect",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:torment",
@@ -385,8 +388,8 @@
       ],
       "baseScale": 0.4,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -437,6 +440,7 @@
     "tm:taunt",
     "tm:lightscreen",
     "tm:protect",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:torment",
@@ -496,8 +500,8 @@
       ],
       "baseScale": 0.4,
         "hitbox": {
-          "width": 3.0,
-          "height": 3.0,
+          "width": 6.0,
+          "height": 6.0,
           "fixed": false
       },
       "baseStats": {
@@ -548,6 +552,7 @@
     "tm:taunt",
     "tm:lightscreen",
     "tm:protect",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:torment",
@@ -625,6 +630,7 @@
     "tm:taunt",
     "tm:lightscreen",
     "tm:protect",
+    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:torment",
@@ -661,10 +667,10 @@
   "pokedex": [
     "cobblemon.species.tokakle.desc"
   ],
-  "baseScale": 0.13125,
+  "baseScale": 0.17500000000000002,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,

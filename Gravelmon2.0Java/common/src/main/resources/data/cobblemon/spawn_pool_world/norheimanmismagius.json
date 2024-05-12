@@ -1,0 +1,24 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "norheimanmismagius-1",
+      "pokemon": "norheimanmismagius",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "39-50",
+      "weight": 0.6,
+      "condition": {
+"biomes": [ "#cobblemon:is_taiga" ],
+        "timeRange": "night",
+        "canSeeSky": true
+      }
+    }
+  ]
+}

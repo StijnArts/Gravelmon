@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nomobjeka-1",
+      "pokemon": "nomobjeka",
+      "presets": [
+          "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "16-47",
+      "weight": 11.0,
+      "condition": {
+"biomes": [ "#cobblemon:is_jungle" ],
+        "timeRange": "night"
+      }
+    }
+  ]
+}

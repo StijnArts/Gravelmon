@@ -1,0 +1,137 @@
+{
+  "implemented": true,
+  "name": "psyder",
+  "nationalPokedexNumber": 1796,
+  "primaryType": "psychic",
+  "secondaryType": "bug",
+  "abilities": [
+    "keeneye",
+    "h:analytic"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 45,
+    "special_attack": 50,
+    "special_defence": 55,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+        "canSleep": true,
+        "willSleepOnBed": false,        "depth": "normal",
+        "light": "0-6"
+    },
+    "moving": {
+        "fly": {
+            "canFly": false
+        },
+        "canLook": true,
+        "walk": {
+            "canWalk": true,
+            "avoidsLand": false
+        },
+        "swim": {
+            "swimSpeed": 0.1,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false
+        }
+    }
+  },
+  "catchRate": 160,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 62,
+  "experienceGroup": "medium_fast",
+  "eggCycles": 50,
+  "eggGroups": [
+    "bug"
+  ],
+  "moves": [
+    "1:acupressure",
+    "5:confusion",
+    "9:hypnosis",
+    "12:psywave",
+    "15:furycutter",
+    "17:miracleeye",
+    "28:spiderweb",
+    "32:bugbuzzsound",
+    "35:moonlight",
+    "38:psychicfangs",
+    "42:trickroom",
+    "45:moonblast",
+    "48:stickyweb",
+    "52:healingwish",
+    "tm:bugbite",
+    "tm:electroweb",
+    "tm:healbellsound",
+    "tm:shockwave",
+    "tm:snoresound",
+    "tm:afteryou",
+    "tm:allyswitch",
+    "tm:bounce",
+    "tm:gravitycosmic",
+    "tm:signalbeam",
+    "tm:spite",
+    "tm:telekinesis",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:trick",
+    "tm:wonderroom",
+    "tm:dualchop",
+    "tm:foulplay",
+    "tm:knockoff",
+    "tm:skillswap",
+    "tm:superfang",
+    "tm:expandingforce",
+    "tm:skittersmack",
+    "tm:mindreader",
+    "tm:simplebeam",
+    "tm:toxicthread",
+    "tm:cosmicpowercosmic",
+    "tm:psychocut",
+    "tm:lunge",
+    "tm:entrainment",
+    "tm:teeterdance"  ],
+  "labels": [
+    "ferroa",
+    "not_modeled"
+  ],
+  "pokedex": [
+    "cobblemon.species.psyder.desc"
+  ],
+  "evolutions": [
+    {
+      "id": "psyder_lunarach",
+      "variant": "item_interact",
+      "result": "lunarach",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+
+      ],
+      "requiredContext": "cobblemon:moon_stone"   
+ }
+  ],
+  "baseScale": 0.1,
+  "hitbox": {
+    "width": 6.0,
+    "height": 6.0,
+    "fixed": false
+  },
+  "baseFriendship": 70,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 3,
+  "weight": 165,
+  "aspects": [],
+"features": [
+
+  ],  "cannotDynamax": false
+}

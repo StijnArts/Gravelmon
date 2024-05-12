@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:demonagave",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:eternalforest_demonagave",
+      "model": "cobblemon:cutout_gravelmon.geo",
+      "texture": "cobblemon:textures/pokemon/eternalforest/demonagave.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/eternalforest/demonagave_shiny.png"
+    }  ]
+}

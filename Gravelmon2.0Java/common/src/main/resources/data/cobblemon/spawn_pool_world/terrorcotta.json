@@ -7,7 +7,7 @@
       "id": "terrorcotta-1",
       "pokemon": "terrorcotta",
       "presets": [
-          "urban"
+          "village"
       ],
       "type": "pokemon",
       "context": "grounded",

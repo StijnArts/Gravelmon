@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaminun",
-  "nationalPokedexNumber": 311,
+  "nationalPokedexNumber": 312,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -104,6 +104,7 @@
     "tm:achillesheel",
     "tm:avalanche",
     "tm:silverwind",
+    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -148,8 +149,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 3.0,
-    "height": 3.0,
+    "width": 6.0,
+    "height": 6.0,
     "fixed": false
   },
   "baseFriendship": 70,
