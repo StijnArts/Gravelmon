@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltagolem",
-  "nationalPokedexNumber": 76,
+  "nationalPokedexNumber": 75,
   "primaryType": "psychic",
   "secondaryType": "rock",
   "abilities": [
@@ -171,17 +171,15 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltagolem.desc"
   ],
-  "preEvolution": "deltagraveler",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

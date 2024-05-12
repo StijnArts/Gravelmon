@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lumishroom",
-  "nationalPokedexNumber": 1074,
+  "nationalPokedexNumber": 1149,
   "primaryType": "poison",
   "secondaryType": "electric",
   "abilities": [
@@ -48,6 +48,21 @@
   "eggGroups": [
     "grass"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:flash",
     "1:bide",
@@ -117,18 +132,15 @@
     "egg:pursuit"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.lumishroom.desc"
   ],
-  "preEvolution": "kertruffle",
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

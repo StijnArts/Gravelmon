@@ -1,9 +1,9 @@
 {"target": "cobblemon:Ledian",
  "evolutions": [
   {
-   "id": "ledian_ledybulk",
+   "id": "ledian_ledibulk",
    "variant": "level_up",
-   "result": "ledybulk",
+   "result": "ledibulk",
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [

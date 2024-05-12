@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaquilava",
-  "nationalPokedexNumber": 156,
+  "nationalPokedexNumber": 155,
   "primaryType": "electric",
   "secondaryType": "steel",
   "abilities": [
@@ -140,13 +140,11 @@
   "labels": [
     "gen2",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaquilava.desc"
   ],
-  "preEvolution": "deltacyndaquil",
   "evolutions": [
     {
       "id": "deltaquilava_deltatyphlosion",
@@ -162,10 +160,10 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

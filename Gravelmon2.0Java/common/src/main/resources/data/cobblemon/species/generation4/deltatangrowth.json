@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltatangrowth",
-  "nationalPokedexNumber": 465,
+  "nationalPokedexNumber": 454,
   "primaryType": "ground",
   "secondaryType": "fighting",
   "abilities": [
@@ -141,17 +141,15 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltatangrowth.desc"
   ],
-  "preEvolution": "deltatangela",
-  "baseScale": 0.5,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

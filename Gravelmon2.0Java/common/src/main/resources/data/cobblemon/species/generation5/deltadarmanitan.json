@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadarmanitan",
-  "nationalPokedexNumber": 555,
+  "nationalPokedexNumber": 554,
   "primaryType": "dark",
   "secondaryType": "ghost",
   "abilities": [
@@ -107,7 +107,6 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:incinerate",
     "tm:allyswitch",
     "tm:roundsound",
@@ -144,13 +143,11 @@
     "tutor:uproar"  ],
   "labels": [
     "gen5",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltadarmanitan.desc"
   ],
-  "preEvolution": "deltadarumaka",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.4,

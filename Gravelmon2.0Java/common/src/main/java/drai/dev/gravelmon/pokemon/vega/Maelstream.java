@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.vega;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Maelstream extends Pokemon {
                 143, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.WATER_1, EggGroup.WATER_2),
-                List.of("When it swims at high speed, it can't see its surroundings, so it often collides with walls or other Pokemon."),
+                List.of("When it swims at high speed, it can't see its surroundings, so it often collides with walls or other Pokémon."),
                 List.of(new EvolutionEntry("skelachone", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
@@ -79,7 +78,7 @@ public class Maelstream extends Pokemon {
                         new MoveLearnSetEntry(Move.STARFREEZE,"egg"),
                         new MoveLearnSetEntry(Move.TORMENT,"egg")
                         ),
-                List.of(Label.DENEB),
+                List.of(Label.VEGA),
                 0, List.of(), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 16, 29, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

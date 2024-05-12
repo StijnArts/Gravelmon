@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "machima",
-  "nationalPokedexNumber": 1249,
+  "nationalPokedexNumber": 1324,
   "primaryType": "flying",
   "secondaryType": "ghost",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "3",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "3-10",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:tailwind",
     "1:gust",
@@ -104,10 +114,10 @@
   "pokedex": [
     "cobblemon.species.machima.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

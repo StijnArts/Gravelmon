@@ -1,15 +1,4 @@
 {"target": "cobblemon:Drifloon",
- "evolutions": [
-  {
-   "id": "bonsly_amazealldrifblim",
-   "variant": "item_interact",
-   "result": "amazealldrifblim",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [],
-   "requiredContext": "gravelmon:amaze_drive"
-  }
- ],
    "moves": [
     "1:astonish",
     "1:constrict",

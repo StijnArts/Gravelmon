@@ -1,23 +1,4 @@
 {"target": "cobblemon:Pupitar",
- "evolutions": [
-  {
-   "id": "pupitar_armirantyranitar",
-   "variant": "level_up",
-   "result": "armirantyranitar",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "has_move",
-     "move": "eruption"
-    },
-    {
-     "variant": "level",
-     "minLevel": 50
-    }
-   ]
-  }
- ],
    "moves": [
     "1:leer",
     "1:payback",
@@ -36,7 +17,6 @@
     "37:stoneedge",
     "42:thrash",
     "47:sandstorm",
-    "48:eruption",
     "52:hyperbeam",
     "tm:aerialace",
     "tm:assurance",

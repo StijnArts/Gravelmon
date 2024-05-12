@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Pebblosa extends Pokemon {
                 67, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.FIELD, EggGroup.MINERAL),
-                List.of("It loves to collect rocks from different mountains and caves by carrying them in its mouth. When threatened, Pebblosa will spit them at other Pokemon. "),
+                List.of("It loves to collect rocks from different mountains and caves by carrying them in its mouth. When threatened, Pebblosa will spit them at other Pokémon. "),
                 List.of(new EvolutionEntry("terratetra", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"24")))),
                 List.of(

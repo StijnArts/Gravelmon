@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "snogre",
-  "nationalPokedexNumber": 1056,
+  "nationalPokedexNumber": 1131,
   "primaryType": "ice",
   "abilities": [
     "permafrost",
@@ -47,6 +47,16 @@
   "eggGroups": [
     "human_like"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:frostslash",
     "1:defensecurl",
@@ -131,18 +141,15 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.snogre.desc"
   ],
-  "preEvolution": "snome",
-  "baseScale": 0.45,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

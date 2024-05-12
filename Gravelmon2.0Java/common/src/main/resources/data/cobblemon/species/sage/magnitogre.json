@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "magnitogre",
-  "nationalPokedexNumber": 1135,
+  "nationalPokedexNumber": 1210,
   "primaryType": "steel",
   "abilities": [
     "motordrive",
@@ -47,6 +47,16 @@
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:iron_block",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:spikes",
     "1:metalsound",
@@ -126,10 +136,10 @@
   "pokedex": [
     "cobblemon.species.magnitogre.desc"
   ],
-  "baseScale": 0.75,
+  "baseScale": 0.5625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

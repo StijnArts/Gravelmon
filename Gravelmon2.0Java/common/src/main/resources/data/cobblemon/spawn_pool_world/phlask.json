@@ -7,7 +7,7 @@
       "id": "phlask-1",
       "pokemon": "phlask",
       "presets": [
-          "village"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",

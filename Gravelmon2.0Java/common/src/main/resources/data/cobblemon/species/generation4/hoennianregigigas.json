@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianregigigas",
-  "nationalPokedexNumber": 486,
+  "nationalPokedexNumber": 465,
   "primaryType": "ghost",
   "abilities": [
     "clearbody",
@@ -53,7 +53,6 @@
     "1:shadowpunch",
     "40:bonerush",
     "50:revenge",
-    "60:blackout",
     "70:gigaimpact",
     "80:focuspunch",
     "90:destinybond",
@@ -63,7 +62,6 @@
     "tm:pursuit",
     "tm:hiddenpower",
     "tm:sunnyday",
-    "tm:veiledsky",
     "tm:icebeam",
     "tm:blizzard",
     "tm:hyperbeam",
@@ -79,7 +77,6 @@
     "tm:return",
     "tm:psychic",
     "tm:shadowball",
-    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:flamethrower",
@@ -95,8 +92,7 @@
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
-    "egg:sheercold",
-    "egg:darkbargain"  ],
+    "egg:sheercold"  ],
   "labels": [
     "blazing_emerald",
     "gen1",
@@ -105,10 +101,10 @@
   "pokedex": [
     "cobblemon.species.hoennianregigigas.desc"
   ],
-  "baseScale": 0.525,
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

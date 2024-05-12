@@ -10,33 +10,6 @@
  },
  "evolutions": [
   {
-   "id": "zangoose_sevicrush",
-   "variant": "level_up",
-   "result": "sevicrush",
-   "consumeHeldItem": true,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "party_member",
-     "target": "zangoose",
-     "contains": true
-    }
-   ]
-  },
-  {
-   "id": "seviper_sevicrush",
-   "variant": "item_interact",
-   "result": "sevicrush",
-   "consumeHeldItem": true,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "held_item",
-     "itemCondition": "cobblemon:dusk_stone"
-    }
-   ]
-  },
-  {
    "id": "seviper_silviper",
    "variant": "item_interact",
    "result": "silviper",

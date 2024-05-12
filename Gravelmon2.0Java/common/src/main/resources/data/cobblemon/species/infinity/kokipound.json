@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kokipound",
-  "nationalPokedexNumber": 1399,
+  "nationalPokedexNumber": 1332,
   "primaryType": "grass",
   "secondaryType": "fighting",
   "abilities": [
@@ -49,6 +49,16 @@
     "monster",
     "grass"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:leaftornado",
     "1:growl",
@@ -135,14 +145,11 @@
     "egg:skullbash",
     "egg:sludge"  ],
   "labels": [
-    "infinity",
-    "fakemon",
-    "fakemonevolution"
+    "infinity"
   ],
   "pokedex": [
     "cobblemon.species.kokipound.desc"
   ],
-  "preEvolution": "kokiseed",
   "evolutions": [
     {
       "id": "kokipound_kokismash",

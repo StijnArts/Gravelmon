@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "roseliax",
-  "nationalPokedexNumber": 315,
+  "nationalPokedexNumber": 379,
   "primaryType": "sound",
   "secondaryType": "poison",
   "abilities": [
@@ -53,7 +53,7 @@
       {
         "item": "gravelmon:xenolith",
         "quantityRange": "1-1",
-        "percentage": 10
+        "percentage": 20
       }
     ]
   },
@@ -74,13 +74,11 @@
     "40:toxic",
     "43:perishsongsound",
     "46:synchronoise",
-    "50:noiseburst",
     "tm:roarsound",
     "tm:toxic",
     "tm:venoshock",
     "tm:hiddenpower",
     "tm:protect",
-    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:sludgebomb",
@@ -96,18 +94,15 @@
     "tm:poisonjab",
     "tm:swagger",
     "tm:substitute",
-    "tutor:secretpower",
-    "tutor:soundbarrier"  ],
+    "tutor:secretpower"  ],
   "labels": [
     "xenoverse",
     "gen3",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.roseliax.desc"
   ],
-  "preEvolution": "budewx",
   "evolutions": [
     {
       "id": "roseliax_roseradex",
@@ -123,8 +118,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

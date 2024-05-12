@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "drosire",
-  "nationalPokedexNumber": 1212,
+  "nationalPokedexNumber": 1287,
   "primaryType": "grass",
   "abilities": [
     "sunbathe",
@@ -47,6 +47,16 @@
   "eggGroups": [
     "grass"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:cactus",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:constrict",
     "1:sweetscent",
@@ -133,10 +143,10 @@
       "requiredContext": "cobblemon:sun_stone"   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

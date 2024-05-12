@@ -1,24 +1,4 @@
 {"target": "cobblemon:Snover",
- "evolutions": [
-  {
-   "id": "snover_permaent",
-   "variant": "level_up",
-   "result": "permaent",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [
-    {
-     "variant": "biome",
-     "biomeCondition": "#cobblemon:is_taiga"
-    },
-    {
-     "variant": "level",
-     "minLevel": 40
-    }
-   ]
-  }
- ],
    "moves": [
     "1:leer",
     "1:powdersnow",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "yemin",
-  "nationalPokedexNumber": 2083,
+  "nationalPokedexNumber": 1103,
   "primaryType": "normal",
   "secondaryType": "fighting",
   "abilities": [
@@ -144,10 +144,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

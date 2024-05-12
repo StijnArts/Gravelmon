@@ -1,13 +1,13 @@
 {
   "implemented": true,
   "name": "pressaur",
-  "nationalPokedexNumber": 1237,
+  "nationalPokedexNumber": 1312,
   "primaryType": "dragon",
   "secondaryType": "rock",
   "abilities": [
     "pressure",
     "pressure",
-    "h:conditioning"
+    "h:keeneye"
   ],
   "baseStats": {
     "hp": 75,
@@ -49,6 +49,16 @@
     "mineral",
     "dragon"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:deepslate",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:rage",
     "1:harden",
@@ -101,14 +111,11 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.pressaur.desc"
   ],
-  "preEvolution": "carbite",
   "evolutions": [
     {
       "id": "pressaur_diamat",
@@ -124,10 +131,10 @@
       ]   
  }
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

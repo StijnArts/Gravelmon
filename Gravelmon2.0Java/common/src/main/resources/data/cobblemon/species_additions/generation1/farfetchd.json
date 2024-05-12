@@ -1,7 +1,7 @@
 {"target": "cobblemon:farfetchd",
  "evolutions": [
   {
-   "id": "farfetchd_mallarki",
+   "id": "farfetchd_rduckulus",
    "variant": "level_up",
    "result": "Mallarki",
    "consumeHeldItem": false,
@@ -10,36 +10,6 @@
     {
      "variant": "level",
      "minLevel": 28
-    }
-   ]
-  },
-  {
-   "id": "farfetchd_rduckulus",
-   "variant": "level_up",
-   "result": "rduckulus",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "level",
-     "minLevel": 28
-    }
-   ]
-  },
-  {
-   "id": "farfetchd_achiefd",
-   "variant": "level_up",
-   "result": "achiefd",
-   "consumeHeldItem": true,
-   "learnableMoves": ["revenge"],
-   "requirements": [
-    {
-     "variant": "time_range",
-     "range": "day"
-    },
-    {
-     "variant": "held_item",
-     "itemCondition": "cobblemon:medicinal_leek"
     }
    ]
   }

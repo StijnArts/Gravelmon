@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "orcabyss",
-  "nationalPokedexNumber": 1458,
+  "nationalPokedexNumber": 1393,
   "primaryType": "water",
   "abilities": [
     "pressure",
@@ -29,12 +29,12 @@
         "canLook": true,
         "walk": {
             "canWalk": true,
-            "avoidsLand": true
+            "avoidsLand": false
         },
         "swim": {
             "swimSpeed": 0.1,
             "canSwimInWater": true,
-            "canBreatheUnderwater": true
+            "canBreatheUnderwater": false
         }
     }
   },
@@ -144,18 +144,15 @@
     "egg:snarl"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.orcabyss.desc"
   ],
-  "preEvolution": "whave",
-  "baseScale": 1.0,
+  "baseScale": 0.75,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
     "fixed": false
   },
   "baseFriendship": 70,

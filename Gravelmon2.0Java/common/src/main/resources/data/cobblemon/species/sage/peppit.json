@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "peppit",
-  "nationalPokedexNumber": 1083,
+  "nationalPokedexNumber": 1158,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -49,6 +49,16 @@
     "field",
     "grass"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:growth",
@@ -141,8 +151,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

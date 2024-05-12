@@ -3,13 +3,12 @@ package drai.dev.gravelmon.pokemon.insurgence;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
 public class UFI extends Pokemon {
-    public UFI() {
-        super("UFI",
+    public UFI(int pokedexNo) {
+        super(pokedexNo,"UFI",
                 Type.PSYCHIC, Type.ELECTRIC,
                 new Stats(100, 100,100,100,100,100),
                 List.of(Ability.EVENT_HORIZON), Ability.EVENT_HORIZON,

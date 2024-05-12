@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "basilect",
-  "nationalPokedexNumber": 1235,
+  "nationalPokedexNumber": 1310,
   "primaryType": "bug",
   "secondaryType": "dragon",
   "abilities": [
@@ -48,9 +48,19 @@
     "bug",
     "dragon"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:seismictoss",
-    "1:visegrip",
+    "1:vicegrip",
     "1:stringshot",
     "1:poisonsting",
     "10:twineedle",
@@ -118,18 +128,15 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.basilect.desc"
   ],
-  "preEvolution": "dracoon",
-  "baseScale": 0.5,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

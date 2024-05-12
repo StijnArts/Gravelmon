@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianpawniard",
-  "nationalPokedexNumber": 624,
+  "nationalPokedexNumber": 604,
   "primaryType": "fairy",
   "secondaryType": "steel",
   "abilities": [
@@ -65,7 +65,6 @@
     "tm:protect",
     "tm:return",
     "tm:brickbreak",
-    "tm:shimmershot",
     "tm:reflect",
     "tm:sandstorm",
     "tm:facade",
@@ -100,10 +99,10 @@
       ]   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

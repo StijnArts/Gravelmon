@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "glacieros",
-  "nationalPokedexNumber": 1437,
+  "nationalPokedexNumber": 1370,
   "primaryType": "ice",
   "secondaryType": "ground",
   "abilities": [
@@ -115,19 +115,16 @@
     "egg:ironhead",
     "egg:slackoff"  ],
   "labels": [
-    "infinity",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "sage",
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.glacieros.desc"
   ],
-  "preEvolution": "iceros",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

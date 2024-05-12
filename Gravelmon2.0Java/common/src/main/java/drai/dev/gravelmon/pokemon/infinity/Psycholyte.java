@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Psycholyte extends Pokemon {
                 100, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 62, List.of(EggGroup.GRASS),
-                List.of("Upon evolution, this Pokemon goes hunting for a suitable stick. They form a strong bond with the chosen stick and use it to channel its psychic powers."),
+                List.of("Upon evolution, this Pokémon goes hunting for a suitable stick. They form a strong bond with the chosen stick and use it to channel its psychic powers."),
                 List.of(new EvolutionEntry("shroomage", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.ENERGY_BALL, "")),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

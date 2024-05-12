@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviiandodrio",
-  "nationalPokedexNumber": 85,
+  "nationalPokedexNumber": 84,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -121,17 +121,15 @@
   "labels": [
     "radicalred",
     "gen1",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.seviiandodrio.desc"
   ],
-  "preEvolution": "seviiandoduo",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skullarva",
-  "nationalPokedexNumber": 1088,
+  "nationalPokedexNumber": 1163,
   "primaryType": "bug",
   "abilities": [
     "intimidate",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "bug"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:astonish",
     "1:scaryface",
@@ -78,8 +88,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

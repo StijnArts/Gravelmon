@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltasquirtle",
-  "nationalPokedexNumber": 7,
+  "nationalPokedexNumber": 6,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -110,7 +110,6 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",

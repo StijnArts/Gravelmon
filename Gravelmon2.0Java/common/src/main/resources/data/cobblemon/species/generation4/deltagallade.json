@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltagallade",
-  "nationalPokedexNumber": 475,
+  "nationalPokedexNumber": 469,
   "primaryType": "electric",
   "secondaryType": "ice",
   "abilities": [
@@ -203,13 +203,11 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen1",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltagallade.desc"
   ],
-  "preEvolution": "deltakirlia",
   "baseScale": 1.0,
   "hitbox": {
     "width": 0.6,

@@ -1,8 +1,8 @@
 {
   "implemented": true,
   "name": "deltafrogadier",
-  "nationalPokedexNumber": 657,
-  "primaryType": "grass",
+  "nationalPokedexNumber": 656,
+  "primaryType": "water",
   "abilities": [
     "steadfast",
     "h:prankster"
@@ -134,13 +134,11 @@
   "labels": [
     "gen6",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltafrogadier.desc"
   ],
-  "preEvolution": "deltafroakie",
   "evolutions": [
     {
       "id": "deltafrogadier_deltagreninja",
@@ -156,10 +154,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

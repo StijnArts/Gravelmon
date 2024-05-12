@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaYamask extends Pokemon {
                 61, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by Palfi. This Pokemon formed from radioactive waste that was carelessly dumped in landfills."),
+                List.of("A Delta Species discovered by Palfi. This Pokémon formed from radioactive waste that was carelessly dumped in landfills."),
                 List.of(new EvolutionEntry("deltacofagrigus", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"34")))),
                 List.of(

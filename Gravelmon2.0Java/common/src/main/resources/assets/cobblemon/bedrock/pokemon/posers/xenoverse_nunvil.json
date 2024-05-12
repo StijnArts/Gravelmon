@@ -1,8 +1,8 @@
 {
-  "portraitScale": 0.165,
-  "portraitTranslation": [0.0, 1.4, 0.0],
-  "profileScale": 0.22,
-  "profileTranslation": [0.0, 1.55, -20.0],
+  "portraitScale": 0.001,
+  "portraitTranslation": [0.0, 1.0, 0.0],
+  "profileScale": 0.3,
+  "profileTranslation": [0.1, 2.0, 0.0],
   "poses": {
     "profile": {
       "poseName": "profile",

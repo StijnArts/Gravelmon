@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "bawlfrog",
-  "nationalPokedexNumber": 3730,
+  "nationalPokedexNumber": 1184,
   "primaryType": "water",
   "secondaryType": "normal",
   "abilities": [
-    "empathy",
-    "h:empathy"
+    "keeneye",
+    "h:keeneye"
   ],
   "baseStats": {
     "hp": 190,
@@ -55,7 +55,6 @@
     "17:uproar",
     "24:whirlpool",
     "32:flail",
-    "38:weepywail",
     "43:painsplit",
     "48:waterspout",
     "tm:scald",
@@ -63,7 +62,6 @@
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
-    "tm:veiledsky",
     "tm:icebeam",
     "tm:blizzard",
     "tm:hyperbeam",
@@ -75,7 +73,6 @@
     "tm:return",
     "tm:psychic",
     "tm:shadowball",
-    "tm:shimmershot",
     "tm:reflect",
     "tm:sludgebomb",
     "tm:gigaimpact",
@@ -89,16 +86,15 @@
     "egg:followme"  ],
   "labels": [
     "blazing_emerald",
-    "joke",
     "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.bawlfrog.desc"
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

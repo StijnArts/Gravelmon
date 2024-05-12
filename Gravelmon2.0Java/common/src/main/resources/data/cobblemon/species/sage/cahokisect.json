@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cahokisect",
-  "nationalPokedexNumber": 1142,
+  "nationalPokedexNumber": 1217,
   "primaryType": "bug",
   "secondaryType": "rock",
   "abilities": [
@@ -48,6 +48,16 @@
     "bug",
     "mineral"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:ancientpower",
     "1:stealthrock",
@@ -140,18 +150,15 @@
     "egg:scaryface"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.cahokisect.desc"
   ],
-  "preEvolution": "pueblant",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

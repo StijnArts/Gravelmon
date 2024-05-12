@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianmaractus",
-  "nationalPokedexNumber": 556,
+  "nationalPokedexNumber": 625,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -63,7 +63,6 @@
     "tm:solarbeam",
     "tm:return",
     "tm:shadowball",
-    "tm:shimmershot",
     "tm:flamethrower",
     "tm:sludgebomb",
     "tm:sandstorm",
@@ -81,7 +80,6 @@
     "17:torment",
     "20:smog",
     "25:rapidspin",
-    "28:kindleseed",
     "33:needlearm",
     "36:scaryface",
     "41:heatwave"  ],
@@ -93,10 +91,10 @@
   "pokedex": [
     "cobblemon.species.hoennianmaractus.desc"
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

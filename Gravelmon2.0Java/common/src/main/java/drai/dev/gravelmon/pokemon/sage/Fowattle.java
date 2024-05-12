@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Fowattle extends Pokemon {
                 142, ExperienceGroup.FAST,
                 70,
                 50, List.of(EggGroup.FLYING, EggGroup.FIELD),
-                List.of("As Fowattle grows bigger and bolder, it becomes somewhat of a bully. Rather than foraging on its own, it prefers to steal food from weaker Pokemon."),
+                List.of("As Fowattle grows bigger and bolder, it becomes somewhat of a bully. Rather than foraging on its own, it prefers to steal food from weaker Pokémon."),
                 List.of(new EvolutionEntry("turkistador", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"37")))),
                 List.of(

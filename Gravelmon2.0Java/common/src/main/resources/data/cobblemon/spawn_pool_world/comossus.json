@@ -7,7 +7,7 @@
       "id": "comossus-1",
       "pokemon": "comossus",
       "presets": [
-          "jungle_pyramid"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

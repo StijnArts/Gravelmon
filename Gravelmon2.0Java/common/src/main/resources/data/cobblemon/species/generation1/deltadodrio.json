@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadodrio",
-  "nationalPokedexNumber": 85,
+  "nationalPokedexNumber": 84,
   "primaryType": "psychic",
   "abilities": [
     "compoundeyes",
@@ -103,7 +103,6 @@
     "tm:sleeptalksound",
     "tm:dazzlinggleam",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:roundsound",
     "tm:captivate",
@@ -136,13 +135,11 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen1",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltadodrio.desc"
   ],
-  "preEvolution": "deltadoduo",
   "baseScale": 1.6,
   "hitbox": {
     "width": 0.6,

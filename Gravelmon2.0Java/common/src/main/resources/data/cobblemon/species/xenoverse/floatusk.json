@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "floatusk",
-  "nationalPokedexNumber": 2150,
+  "nationalPokedexNumber": 1168,
   "primaryType": "water",
   "secondaryType": "fighting",
   "abilities": [
@@ -91,14 +91,11 @@
     "tutor:secretpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.floatusk.desc"
   ],
-  "preEvolution": "inflant",
   "evolutions": [
     {
       "id": "floatusk_swelephant",
@@ -114,10 +111,10 @@
       ]   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -20,7 +19,7 @@ public class DeltaSolosis extends Pokemon {
                 70,
                 50, List.of(EggGroup.DELTA),
                 List.of("A Delta Species discovered by Steads42. Its survival is dependent upon its soul remaining bound to its rock."),
-                List.of(new EvolutionEntry("deltaduosion", EvolutionType.LEVEL_UP, List.of(),
+                List.of(new EvolutionEntry("deltasolosis", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"32")))),
                 List.of(
                         new MoveLearnSetEntry(Move.LEER,1),
@@ -116,7 +115,8 @@ public class DeltaSolosis extends Pokemon {
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 5, 35, 9.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,

@@ -1,32 +1,4 @@
 {"target": "cobblemon:Magcargo",
- "evolutions": [
-  {
-   "id": "magcargo_magukigai",
-   "variant": "level_up",
-   "result": "magukigai",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "level",
-     "minLevel": 54
-    }
-   ]
-  },
-  {
-   "id": "magcargo_escaruption",
-   "variant": "level_up",
-   "result": "escaruption",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "level",
-     "minLevel": 54
-    }
-   ]
-  }
- ],
    "moves": [
     "1:earthpower",
     "1:ember",

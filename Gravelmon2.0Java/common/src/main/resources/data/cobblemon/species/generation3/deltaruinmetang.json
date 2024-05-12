@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaruinmetang",
-  "nationalPokedexNumber": 375,
+  "nationalPokedexNumber": 374,
   "primaryType": "grass",
   "secondaryType": "rock",
   "abilities": [
@@ -140,13 +140,11 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaruinmetang.desc"
   ],
-  "preEvolution": "deltaruinbeldum",
   "evolutions": [
     {
       "id": "deltaruinmetang_deltaruinmetagross",
@@ -162,10 +160,10 @@
       ]   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

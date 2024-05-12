@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nurshary",
-  "nationalPokedexNumber": 1162,
+  "nationalPokedexNumber": 1237,
   "primaryType": "water",
   "abilities": [
     "healer",
@@ -48,6 +48,16 @@
     "water_2",
     "fairy"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:wideguard",
     "1:safeguard",
@@ -132,10 +142,10 @@
   "pokedex": [
     "cobblemon.species.nurshary.desc"
   ],
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

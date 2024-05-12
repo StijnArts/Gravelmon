@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "larvabidae",
-  "nationalPokedexNumber": 1059,
+  "nationalPokedexNumber": 1134,
   "primaryType": "bug",
   "abilities": [
     "swarm",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "bug"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:stringshot",
     "1:poisonsting",
@@ -150,8 +160,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

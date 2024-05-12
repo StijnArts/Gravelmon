@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "zangoro",
-  "nationalPokedexNumber": 3726,
+  "nationalPokedexNumber": 1180,
   "primaryType": "normal",
   "secondaryType": "dark",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:murky_claw",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "egg:jumpkick",
     "egg:poisonjab",
@@ -58,7 +68,6 @@
     "tm:pursuit",
     "tm:hiddenpower",
     "tm:sunnyday",
-    "tm:veiledsky",
     "tm:icebeam",
     "tm:blizzard",
     "tm:hyperbeam",
@@ -74,7 +83,6 @@
     "tm:dig",
     "tm:shadowball",
     "tm:brickbreak",
-    "tm:shimmershot",
     "tm:shockwave",
     "tm:flamethrower",
     "tm:fireblast",
@@ -103,10 +111,10 @@
     "cobblemon.species.zangoro.desc"
   ],
   "preEvolution": "zangoose",
-  "baseScale": 0.5,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

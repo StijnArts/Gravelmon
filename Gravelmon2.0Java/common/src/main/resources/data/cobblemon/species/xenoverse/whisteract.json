@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "whisteract",
-  "nationalPokedexNumber": 2090,
+  "nationalPokedexNumber": 1110,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -54,7 +54,7 @@
       {
         "item": "gravelmon:dread_pendant",
         "quantityRange": "1-1",
-        "percentage": 40
+        "percentage": 50
       }
     ]
   },
@@ -118,7 +118,6 @@
     "tutor:gravitycosmic",
     "tutor:magiccoat",
     "tutor:magicroom",
-    "tutor:magicwall",
     "tutor:painsplit",
     "tutor:roleplay",
     "tutor:secretpower",
@@ -130,18 +129,15 @@
     "tutor:wonderroom"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.whisteract.desc"
   ],
-  "preEvolution": "nunvil",
-  "baseScale": 0.3,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

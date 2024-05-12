@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltatrevenant",
-  "nationalPokedexNumber": 709,
+  "nationalPokedexNumber": 708,
   "primaryType": "fairy",
   "secondaryType": "fighting",
   "abilities": [
@@ -113,7 +113,6 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:avalanche",
-    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
@@ -147,17 +146,15 @@
   "labels": [
     "gen6",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltatrevenant.desc"
   ],
-  "preEvolution": "deltaphantump",
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

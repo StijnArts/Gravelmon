@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vectol",
-  "nationalPokedexNumber": 1091,
+  "nationalPokedexNumber": 1166,
   "primaryType": "poison",
   "abilities": [
     "voltabsorb",
@@ -72,7 +72,6 @@
     "30:signalbeam",
     "34:substitute",
     "37:crosspoison",
-    "41:corrupt",
     "45:gigadrain",
     "48:acupressure",
     "52:poisonjab",
@@ -150,8 +149,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

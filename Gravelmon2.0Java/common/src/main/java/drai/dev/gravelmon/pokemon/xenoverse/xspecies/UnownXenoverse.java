@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse.xspecies;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -29,7 +28,7 @@ public class UnownXenoverse extends Pokemon {
                 ), SpawnContext.GROUNDED, SpawnPool.COMMON, 12, 20, 3.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_END))
                 ), List.of(),
-                List.of(SpawnPreset.END_CITY),
+                List.of(SpawnPreset.RUINED_STRUCTURES),
                 0.29, 0.3,
                 List.of());
         this.setLangFileName("Unown");

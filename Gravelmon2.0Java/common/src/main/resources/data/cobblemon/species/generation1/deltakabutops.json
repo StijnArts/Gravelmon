@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltakabutops",
-  "nationalPokedexNumber": 141,
+  "nationalPokedexNumber": 140,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -109,7 +109,6 @@
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:silverwind",
-    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:snarl",
@@ -140,17 +139,15 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltakabutops.desc"
   ],
-  "preEvolution": "deltakabuto",
-  "baseScale": 0.325,
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

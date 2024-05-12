@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoenniandunsparce",
-  "nationalPokedexNumber": 206,
+  "nationalPokedexNumber": 171,
   "primaryType": "normal",
   "secondaryType": "electric",
   "abilities": [
@@ -49,7 +49,7 @@
   ],
   "moves": [
     "egg:sleeptalksound",
-    "egg:cosmicpowercosmic",
+    "egg:cosmicpower",
     "tm:strength",
     "tm:flash",
     "tm:rocksmash",
@@ -65,7 +65,6 @@
     "tm:return",
     "tm:dig",
     "tm:shadowball",
-    "tm:shimmershot",
     "tm:shockwave",
     "tm:flamethrower",
     "tm:fireblast",
@@ -92,25 +91,10 @@
   "pokedex": [
     "cobblemon.species.hoenniandunsparce.desc"
   ],
-  "evolutions": [
-    {
-      "id": "hoenniandunsparce_drasparath",
-      "variant": "level_up",
-      "result": "drasparath",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 40
-        }
-      ]   
- }
-  ],
-  "baseScale": 0.325,
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sharpedox",
-  "nationalPokedexNumber": 319,
+  "nationalPokedexNumber": 318,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -54,7 +54,7 @@
       {
         "item": "gravelmon:xenolith",
         "quantityRange": "1-1",
-        "percentage": 40
+        "percentage": 50
       }
     ]
   },
@@ -115,13 +115,11 @@
     "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
-    "gen3",
-    "fakemonevolution"
+    "gen3"
   ],
   "pokedex": [
     "cobblemon.species.sharpedox.desc"
   ],
-  "preEvolution": "carvanhax",
   "baseScale": 1.0,
   "hitbox": {
     "width": 0.9,

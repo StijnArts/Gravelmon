@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaservine",
-  "nationalPokedexNumber": 496,
+  "nationalPokedexNumber": 495,
   "primaryType": "water",
   "abilities": [
     "multiscale",
@@ -127,13 +127,11 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaservine.desc"
   ],
-  "preEvolution": "deltasnivy",
   "evolutions": [
     {
       "id": "deltaservine_deltaserperior",
@@ -149,10 +147,10 @@
       ]   
  }
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

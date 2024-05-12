@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eeveeon",
-  "nationalPokedexNumber": 1422,
+  "nationalPokedexNumber": 1355,
   "primaryType": "normal",
   "abilities": [
     "adaptability",
@@ -69,7 +69,7 @@
     "53:slackoff",
     "57:holdback",
     "60:earthpower",
-    "64:cosmicpowercosmic",
+    "64:cosmicpower",
     "73:storedpower",
     "tm:roarsound",
     "tm:toxic",

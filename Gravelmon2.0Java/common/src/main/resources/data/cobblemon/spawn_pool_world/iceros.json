@@ -7,7 +7,7 @@
       "id": "iceros-1",
       "pokemon": "iceros",
       "presets": [
-          "natural"
+          "underground"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sorcerice",
-  "nationalPokedexNumber": 1427,
+  "nationalPokedexNumber": 1360,
   "primaryType": "ice",
   "secondaryType": "psychic",
   "abilities": [
@@ -160,10 +160,10 @@
     "cobblemon.species.sorcerice.desc"
   ],
   "preEvolution": "jynx",
-  "baseScale": 0.525,
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

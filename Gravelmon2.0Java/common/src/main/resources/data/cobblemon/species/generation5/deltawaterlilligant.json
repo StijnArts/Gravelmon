@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltawaterlilligant",
-  "nationalPokedexNumber": 549,
+  "nationalPokedexNumber": 548,
   "primaryType": "water",
   "abilities": [
     "stormdrain",
@@ -123,17 +123,15 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltawaterlilligant.desc"
   ],
-  "preEvolution": "deltawaterpetilil",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

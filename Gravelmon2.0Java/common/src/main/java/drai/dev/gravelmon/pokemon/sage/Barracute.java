@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -92,7 +91,7 @@ public class Barracute extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
                 ), SpawnContext.SEAFLOOR, SpawnPool.COMMON, 10, 30, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_WARM_OCEAN, Biome.IS_LUKEWARM_OCEAN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_LUKEWARM_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),

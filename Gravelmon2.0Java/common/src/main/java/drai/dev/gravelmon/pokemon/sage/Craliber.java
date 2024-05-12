@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Craliber extends Pokemon {
                 60, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_3, EggGroup.MINERAL),
-                List.of("Hatched near undersea mineral deposits, this Pokemon develops a sturdy shell. Its body rotates, helping it maintain course at high speeds."),
+                List.of("Hatched near undersea mineral deposits, this Pokémon develops a sturdy shell. Its body rotates, helping it maintain course at high speeds."),
                 List.of(new EvolutionEntry("crawglock", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"23")))),
                 List.of(
@@ -105,7 +104,7 @@ public class Craliber extends Pokemon {
                 2, List.of(
                         new ItemDrop("minecraft:raw_cod",90, 1,2)
                 ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 4, 25, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_COLD_OCEAN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_REEF, Biome.IS_COLD_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.UNDERWATER),

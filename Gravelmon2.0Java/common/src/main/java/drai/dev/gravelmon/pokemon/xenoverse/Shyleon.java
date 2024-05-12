@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Shyleon extends Pokemon {
                 64, ExperienceGroup.SLOW,
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
-                List.of("An exceptionally timid Pokemon always wearing a mask that covers it face. The mask itself seems to be its power source."),
+                List.of("An exceptionally timid Pokémon always wearing a mask that covers it face. The mask itself seems to be its power source."),
                 List.of(new EvolutionEntry("shyleonterrestrial", EvolutionType.LEVEL_UP, false, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:terrestrial_ring\""))),
                         new EvolutionEntry("shyleonxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
@@ -91,7 +90,8 @@ public class Shyleon extends Pokemon {
                 List.of(Label.XENOVERSE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 3, 22, 8.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_END))
+                        new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE, Biome.IS_END)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.9, 1,

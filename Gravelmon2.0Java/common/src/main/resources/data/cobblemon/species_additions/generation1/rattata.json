@@ -1,15 +1,4 @@
 {"target": "cobblemon:Rattata",
- "evolutions": [
-  {
-   "id": "rattata_kaskadianraticate",
-   "variant": "item_interact",
-   "result": "kaskadianraticate",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [],
-   "requiredContext": "cobblemon:ice_stone"
-  }
- ],
    "moves": [
     "1:tackle",
     "1:tailwhip",

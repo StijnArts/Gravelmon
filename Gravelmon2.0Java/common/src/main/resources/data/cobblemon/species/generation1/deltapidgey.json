@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltapidgey",
-  "nationalPokedexNumber": 16,
+  "nationalPokedexNumber": 9,
   "primaryType": "dark",
   "secondaryType": "dragon",
   "abilities": [
@@ -112,7 +112,6 @@
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:silverwind",
-    "tm:lunarcannon",
     "tm:skydrop",
     "tm:echoedvoicesound",
     "tm:roundsound",

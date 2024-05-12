@@ -7,7 +7,7 @@
       "id": "deltagraveler-1",
       "pokemon": "deltagraveler",
       "presets": [
-          "jungle_pyramid"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghoazumarill",
-  "nationalPokedexNumber": 184,
+  "nationalPokedexNumber": 183,
   "primaryType": "rock",
   "secondaryType": "fighting",
   "abilities": [
@@ -48,6 +48,16 @@
     "field",
     "fairy"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:reversal",
     "1:karatechop",
@@ -124,17 +134,15 @@
   "labels": [
     "infinity",
     "gen2",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.eghoazumarill.desc"
   ],
-  "preEvolution": "eghomarill",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

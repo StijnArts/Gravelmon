@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltawailord",
-  "nationalPokedexNumber": 321,
+  "nationalPokedexNumber": 320,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
@@ -141,13 +141,11 @@
     "tutor:waterpulse"  ],
   "labels": [
     "gen3",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltawailord.desc"
   ],
-  "preEvolution": "deltawailmer",
   "baseScale": 2.0,
   "hitbox": {
     "width": 3.2,

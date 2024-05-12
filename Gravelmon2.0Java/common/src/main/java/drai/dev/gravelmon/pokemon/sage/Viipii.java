@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Viipii extends Pokemon {
                 155, ExperienceGroup.ERRATIC,
                 70,
                 51, List.of(EggGroup.DITTO),
-                List.of("Although they are friendly to most Pokemon, in the wild, groups of Viipii are known to bicker and fight over nothing for days on end."),
+                List.of("Although they are friendly to most Pokémon, in the wild, groups of Viipii are known to bicker and fight over nothing for days on end."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.YAWN,1),

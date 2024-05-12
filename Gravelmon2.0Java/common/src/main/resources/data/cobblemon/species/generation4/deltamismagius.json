@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltamismagius",
-  "nationalPokedexNumber": 429,
+  "nationalPokedexNumber": 428,
   "primaryType": "ice",
   "secondaryType": "fairy",
   "abilities": [
@@ -98,7 +98,6 @@
     "tm:achillesheel",
     "tm:avalanche",
     "tm:silverwind",
-    "tm:lunarcannon",
     "tm:skydrop",
     "tm:allyswitch",
     "tm:echoedvoicesound",
@@ -134,17 +133,15 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltamismagius.desc"
   ],
-  "preEvolution": "deltamisdreavus",
-  "baseScale": 0.225,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

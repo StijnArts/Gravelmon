@@ -12,7 +12,6 @@ public class Xenoverse extends Game {
 
     @Override
     public void registerPokemon() {
-        //TODO STARTER SET
         Pokemon shyleon = new Shyleon();
         pokemon.add(shyleon);
         pokemon.add(new ShyleonTerrestrial(shyleon.getPokedexNumber()));

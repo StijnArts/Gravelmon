@@ -1,11 +1,10 @@
 {
   "implemented": true,
   "name": "magowl",
-  "nationalPokedexNumber": 1111,
+  "nationalPokedexNumber": 1186,
   "primaryType": "psychic",
   "abilities": [
     "conundrum",
-    "eccentric",
     "h:magician"
   ],
   "baseStats": {
@@ -48,6 +47,16 @@
     "field",
     "flying"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:peck",
     "1:teleport",
@@ -60,8 +69,7 @@
     "28:meanlook",
     "32:extrasensory",
     "36:psybolt",
-    "41:tempest",
-    "45:cosmicpowercosmic",
+    "45:cosmicpower",
     "49:secretpower",
     "54:psychic",
     "62:futuresight",
@@ -121,7 +129,7 @@
     "tutor:zenheadbutt",
     "egg:amnesia",
     "egg:aurasphere",
-    "egg:cosmicpowercosmic",
+    "egg:cosmicpower",
     "egg:destinybond",
     "egg:psychoshift",
     "egg:roost"  ],
@@ -132,10 +140,10 @@
   "pokedex": [
     "cobblemon.species.magowl.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

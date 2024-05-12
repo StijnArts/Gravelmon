@@ -7,7 +7,7 @@
       "id": "doppole-1",
       "pokemon": "doppole",
       "presets": [
-          "village"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",

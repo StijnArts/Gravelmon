@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltacakecrustle",
-  "nationalPokedexNumber": 558,
+  "nationalPokedexNumber": 557,
   "primaryType": "fairy",
   "secondaryType": "normal",
   "abilities": [
@@ -111,7 +111,6 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:avalanche",
-    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:confide",
@@ -149,17 +148,15 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltacakecrustle.desc"
   ],
-  "preEvolution": "deltacakedwebble",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

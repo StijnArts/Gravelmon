@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dracoon",
-  "nationalPokedexNumber": 1234,
+  "nationalPokedexNumber": 1309,
   "primaryType": "bug",
   "abilities": [
     "unaware",
@@ -47,6 +47,16 @@
     "bug",
     "dragon"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:harden",
     "1:stringshot",
@@ -79,14 +89,11 @@
     "tm:sleeptalksound"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.dracoon.desc"
   ],
-  "preEvolution": "larvyn",
   "evolutions": [
     {
       "id": "dracoon_basilect",
@@ -102,10 +109,10 @@
       ]   
  }
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chimaooze",
-  "nationalPokedexNumber": 2134,
+  "nationalPokedexNumber": 1152,
   "primaryType": "poison",
   "secondaryType": "ground",
   "abilities": [
@@ -51,8 +51,8 @@
       ],
       "baseScale": 1.4625,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 3.0,
+          "height": 3.0,
           "fixed": false
       },
       "baseStats": {
@@ -167,8 +167,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

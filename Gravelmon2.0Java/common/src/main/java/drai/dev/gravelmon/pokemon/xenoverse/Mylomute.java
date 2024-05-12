@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Mylomute extends Pokemon {
                 195, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.AMORPHOUS, EggGroup.MINERAL),
-                List.of("Extremely loyal and intelligent Pokemon. It is widely used for pulling sleds since it can scent the safe route even in a blizzard."),
+                List.of("Extremely loyal and intelligent Pokémon. It is widely used for pulling sleds since it can scent the safe route even in a blizzard."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BLIZZARD,1),

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dreamdery",
-  "nationalPokedexNumber": 1070,
+  "nationalPokedexNumber": 1145,
   "primaryType": "psychic",
   "abilities": [
     "psychout",
@@ -47,6 +47,16 @@
     "field",
     "fairy"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:wool",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:growl",
     "1:yawn",
@@ -138,10 +148,10 @@
   "pokedex": [
     "cobblemon.species.dreamdery.desc"
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

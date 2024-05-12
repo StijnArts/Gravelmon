@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flowger",
-  "nationalPokedexNumber": 1108,
+  "nationalPokedexNumber": 1183,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -56,8 +56,8 @@
       ],
       "baseScale": 0.05625,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 3.0,
+          "height": 3.0,
           "fixed": false
       },
       "baseStats": {
@@ -159,7 +159,11 @@
   "drops": {
     "amount": "2",
     "entries": [
-
+      {
+        "item": "minecraft:lily_pad",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
     ]
       },
       "labels": [
@@ -206,6 +210,16 @@
     "water_1",
     "grass"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:lily_pad",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:watergun",
     "4:tailwhip",
@@ -309,8 +323,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

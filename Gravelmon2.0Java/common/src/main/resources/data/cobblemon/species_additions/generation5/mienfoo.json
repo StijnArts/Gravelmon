@@ -1,17 +1,4 @@
 {"target": "cobblemon:Mienfoo",
- "evolutions": [
-  {
-   "id": "mienfoo_mienflux",
-   "variant": "item_interact",
-   "result": "mienflux",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-    "thunderpunch"
-   ],
-   "requirements": [],
-   "requiredContext": "cobblemon:thunder_stone"
-  }
-  ],
    "moves": [
     "1:detect",
     "1:pound",

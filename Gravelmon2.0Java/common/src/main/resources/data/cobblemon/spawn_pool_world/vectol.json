@@ -7,7 +7,7 @@
       "id": "vectol-1",
       "pokemon": "vectol",
       "presets": [
-          "village"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",

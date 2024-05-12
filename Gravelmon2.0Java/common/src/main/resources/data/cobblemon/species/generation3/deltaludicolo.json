@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaludicolo",
-  "nationalPokedexNumber": 272,
+  "nationalPokedexNumber": 271,
   "primaryType": "psychic",
   "secondaryType": "water",
   "abilities": [
@@ -97,7 +97,6 @@
     "tm:darkpulse",
     "tm:dazzlinggleam",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -147,17 +146,15 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaludicolo.desc"
   ],
-  "preEvolution": "deltalombre",
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

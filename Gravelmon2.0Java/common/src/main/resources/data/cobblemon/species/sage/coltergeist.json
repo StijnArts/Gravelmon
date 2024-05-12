@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "coltergeist",
-  "nationalPokedexNumber": 1165,
+  "nationalPokedexNumber": 1240,
   "primaryType": "ghost",
   "abilities": [
     "perforate",
@@ -48,6 +48,16 @@
     "field",
     "amorphous"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:dead_bush",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:smog",
     "1:smokescreen",
@@ -119,10 +129,10 @@
       ]   
  }
   ],
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

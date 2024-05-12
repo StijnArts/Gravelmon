@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltatentacool",
-  "nationalPokedexNumber": 72,
+  "nationalPokedexNumber": 59,
   "primaryType": "grass",
   "secondaryType": "poison",
   "abilities": [
@@ -146,10 +146,10 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

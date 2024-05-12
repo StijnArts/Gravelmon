@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaspiderbeldum",
-  "nationalPokedexNumber": 374,
+  "nationalPokedexNumber": 368,
   "primaryType": "ground",
   "secondaryType": "bug",
   "abilities": [
@@ -81,10 +81,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

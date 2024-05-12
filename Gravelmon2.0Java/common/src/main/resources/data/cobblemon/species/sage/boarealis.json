@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "boarealis",
-  "nationalPokedexNumber": 1132,
+  "nationalPokedexNumber": 1207,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
@@ -49,6 +49,16 @@
     "field",
     "fairy"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:leer",
     "1:confusion",
@@ -61,7 +71,7 @@
     "27:psybeam",
     "31:moonlight",
     "35:payback",
-    "40:cosmicpowercosmic",
+    "40:cosmicpower",
     "44:zenheadbutt",
     "48:magiccoat",
     "53:discharge",
@@ -150,10 +160,10 @@
   "pokedex": [
     "cobblemon.species.boarealis.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

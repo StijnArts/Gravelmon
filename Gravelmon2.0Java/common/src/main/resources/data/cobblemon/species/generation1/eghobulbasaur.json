@@ -49,6 +49,16 @@
     "grass",
     "monster"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:cactus",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:growl",

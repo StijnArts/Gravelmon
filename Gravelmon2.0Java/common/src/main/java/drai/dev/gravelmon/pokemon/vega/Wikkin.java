@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.vega;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Wikkin extends Pokemon {
                 179, ExperienceGroup.FAST,
                 70,
                 39, List.of(EggGroup.GRASS, EggGroup.FAIRY),
-                List.of("It carries a single leaf with it at all times. With one wave of the leaf, all surrounding Pokemon start to smile. "),
+                List.of("It carries a single leaf with it at all times. With one wave of the leaf, all surrounding Pokémon start to smile. "),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.NIGHT_SHADE,1),
@@ -94,10 +93,11 @@ public class Wikkin extends Pokemon {
                         new MoveLearnSetEntry(Move.SWIFT,"egg"),
                         new MoveLearnSetEntry(Move.WILD_GROWTH,"egg")
                         ),
-                List.of(Label.DENEB),
+                List.of(Label.VEGA),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 32, 51, 0.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY))
+                        new BiomeSpawnCondition(List.of(Biome.IS_SPOOKY)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.43, 0.3,

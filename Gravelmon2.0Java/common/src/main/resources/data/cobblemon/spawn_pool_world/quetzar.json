@@ -7,7 +7,7 @@
       "id": "quetzar-1",
       "pokemon": "quetzar",
       "presets": [
-          "jungle_pyramid"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

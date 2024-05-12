@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "paramoth",
-  "nationalPokedexNumber": 1200,
+  "nationalPokedexNumber": 1275,
   "primaryType": "bug",
   "abilities": [
     "serenegrace",
@@ -48,6 +48,16 @@
     "bug",
     "fairy"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:swordsdance",
     "1:sweetscent",
@@ -132,18 +142,15 @@
     "egg:wish"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.paramoth.desc"
   ],
-  "preEvolution": "silkinder",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

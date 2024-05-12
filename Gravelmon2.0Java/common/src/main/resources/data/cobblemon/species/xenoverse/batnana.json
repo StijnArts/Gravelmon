@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "batnana",
-  "nationalPokedexNumber": 2144,
+  "nationalPokedexNumber": 1162,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -91,14 +91,11 @@
     "tutor:secretpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.batnana.desc"
   ],
-  "preEvolution": "chiripe",
   "evolutions": [
     {
       "id": "batnana_vesperfum",
@@ -114,10 +111,10 @@
       ]   
  }
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

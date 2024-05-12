@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scovile",
-  "nationalPokedexNumber": 2109,
+  "nationalPokedexNumber": 1128,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -48,16 +48,6 @@
     "grass",
     "dragon"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:inductive_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
   "moves": [
     "1:growth",
     "1:vinewhip",
@@ -77,14 +67,11 @@
     "tm:dragonclaw"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.scovile.desc"
   ],
-  "preEvolution": "pepequeno",
   "evolutions": [
     {
       "id": "scovile_scovilex",
@@ -98,10 +85,10 @@
       "requiredContext": "gravelmon:inductive_ring"   
  }
   ],
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

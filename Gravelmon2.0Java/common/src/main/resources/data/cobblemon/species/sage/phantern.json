@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "phantern",
-  "nationalPokedexNumber": 1215,
+  "nationalPokedexNumber": 1290,
   "primaryType": "ghost",
   "secondaryType": "fire",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:paper",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:wrap",
     "1:incinerate",
@@ -125,18 +135,15 @@
     "tutor:wonderroom"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.phantern.desc"
   ],
-  "preEvolution": "wispern",
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

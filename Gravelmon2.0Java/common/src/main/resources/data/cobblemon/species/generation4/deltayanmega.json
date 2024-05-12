@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltayanmega",
-  "nationalPokedexNumber": 469,
+  "nationalPokedexNumber": 467,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -143,17 +143,15 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltayanmega.desc"
   ],
-  "preEvolution": "deltayanma",
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

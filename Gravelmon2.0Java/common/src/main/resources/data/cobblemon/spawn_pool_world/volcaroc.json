@@ -7,7 +7,7 @@
       "id": "volcaroc-1",
       "pokemon": "volcaroc",
       "presets": [
-          "natural"
+          "underground"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -7,7 +7,7 @@
       "id": "dragoyle-1",
       "pokemon": "dragoyle",
       "presets": [
-          "jungle_pyramid"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

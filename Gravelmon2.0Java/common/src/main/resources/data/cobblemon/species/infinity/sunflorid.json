@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "sunflorid",
-  "nationalPokedexNumber": 1426,
+  "nationalPokedexNumber": 1359,
   "primaryType": "grass",
   "secondaryType": "fire",
   "abilities": [
@@ -142,10 +142,10 @@
     "cobblemon.species.sunflorid.desc"
   ],
   "preEvolution": "sunflora",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

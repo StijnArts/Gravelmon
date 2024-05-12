@@ -3,13 +3,12 @@ package drai.dev.gravelmon.pokemon.vega;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
 public class Tentyrant extends Pokemon {
-    public Tentyrant() {
-        super("Tentyrant",
+    public Tentyrant(int dexNo) {
+        super(dexNo, "Tentyrant",
                 Type.WATER, Type.DARK,
                 new Stats(90, 70, 65, 95, 135, 110),
                 List.of(Ability.CLEAR_BODY, Ability.IMMUNITY), Ability.RAIN_DISH,
@@ -86,7 +85,7 @@ public class Tentyrant extends Pokemon {
                         new MoveLearnSetEntry(Move.WATER_GUN,"egg"),
                         new MoveLearnSetEntry(Move.WAVE_SPLASH,"egg")
                         ),
-                List.of(Label.DENEB),
+                List.of(Label.VEGA),
                 0, List.of(), SpawnContext.SUBMERGED, SpawnPool.RARE, 39, 49, 2.0, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false"),

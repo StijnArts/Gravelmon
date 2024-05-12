@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "turkistador",
-  "nationalPokedexNumber": 1118,
+  "nationalPokedexNumber": 1193,
   "primaryType": "ground",
   "secondaryType": "flying",
   "abilities": [
@@ -49,6 +49,21 @@
     "flying",
     "field"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:leer",
     "1:tackle",
@@ -60,7 +75,6 @@
     "19:aircutter",
     "22:tailwind",
     "25:mudshot",
-    "29:tempest",
     "33:roost",
     "37:mudslide",
     "43:sandstorm",
@@ -132,18 +146,15 @@
     "egg:weatherball"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.turkistador.desc"
   ],
-  "preEvolution": "fowattle",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

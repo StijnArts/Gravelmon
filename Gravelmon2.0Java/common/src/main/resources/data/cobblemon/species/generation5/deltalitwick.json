@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltalitwick",
-  "nationalPokedexNumber": 607,
+  "nationalPokedexNumber": 591,
   "primaryType": "fairy",
   "secondaryType": "fire",
   "abilities": [
@@ -99,7 +99,6 @@
     "tm:sleeptalksound",
     "tm:dazzlinggleam",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:incinerate",
     "tm:allyswitch",
     "tm:roundsound",
@@ -150,8 +149,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

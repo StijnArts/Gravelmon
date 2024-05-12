@@ -8,15 +8,12 @@ public enum SpawnPreset {
     NATURAL("natural"),
     REDSTONE("redstone"),
     RIVER("river"),
-    JUNGLE_PYRAMID("jungle_pyramid"),
-    ANCIENT_CITY("ancient_city"),
-    OCEAN_RUINS("ocean_ruins"),
-    RUINED_PORTAL("ruined_portal"),
-    TRAIL_RUINS("trail_ruins"),
+    RUINED_STRUCTURES("ruined_structures"),
     TREE_TOP("treetop"),
+    UNDERGROUND("underground"),
     UNDERLAVA("underlava"),
     UNDERWATER("underwater"),
-    VILLAGE("village"),
+    URBAN("urban"),
     HONEY_TREE("honey_tree"),
     MANSION("mansion"),
     MINESHAFT("mineshaft"),
@@ -26,17 +23,7 @@ public enum SpawnPreset {
     SPIDERWEBS("spiderwebs"),
     AMETHYST_GEODE("amethyst_geode"),
     WATER_SURFACE("water_surface"),
-    DESERT_PYRAMID("desert_pyramid"),
-    NEAR_LAVA("near_lava"),
-    NEAR_CAMPFIRE("near_campfire"),
-    NEAR_CROPS("near_crops"),
-    NEAR_MAGMA("near_magma"),
-    ILLAGER_STRUCTURES("illager_structures"),
-    GEMSTONES("gemstones"),
-    STRONGHOLD("stronghold"),
-    SHIP_WRECK("shipwreck"),
-    END_CITY("end_city"), WILD("wild"), NEAR_BOOKSHELVES("near_bookshelves"), REEF("reef"), NEAR_MUD("near_mud");
-
+    DESERT_TEMPLE("desert_temple"), NEAR_LAVA("near_lava"), NEAR_CAMPFIRE("near_campfire"), NEAR_CROPS("near_crops");
     SpawnPreset(String name){
         this.name = name;
     }

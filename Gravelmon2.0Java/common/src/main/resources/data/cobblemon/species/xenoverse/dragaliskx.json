@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dragaliskx",
-  "nationalPokedexNumber": 2153,
+  "nationalPokedexNumber": 1172,
   "primaryType": "ground",
   "secondaryType": "ice",
   "abilities": [
@@ -48,7 +48,6 @@
     "undiscovered"
   ],
   "moves": [
-    "1:voidstar",
     "1:haze",
     "14:freezedry",
     "20:nastyplot",
@@ -58,7 +57,6 @@
     "48:glaciate",
     "55:earthpower",
     "63:icebeam",
-    "70:voidstar",
     "75:fissure",
     "82:outrage",
     "88:hyperbeam",
@@ -85,10 +83,10 @@
   "pokedex": [
     "cobblemon.species.dragaliskx.desc"
   ],
-  "baseScale": 0.625,
+  "baseScale": 0.46875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 40,

@@ -1,8 +1,8 @@
 {
   "implemented": true,
   "name": "deltafroakie",
-  "nationalPokedexNumber": 656,
-  "primaryType": "grass",
+  "nationalPokedexNumber": 523,
+  "primaryType": "water",
   "abilities": [
     "steadfast",
     "h:prankster"
@@ -150,8 +150,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

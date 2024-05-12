@@ -1,22 +1,5 @@
 {"target": "cobblemon:Magikarp",
- "evolutions": [
-  {
-   "id": "magikarp_kamurados",
-   "variant": "level_up",
-   "result": "kamurados",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "party_member",
-     "target": "dekoi",
-     "contains": true
-    }
-   ]
-  }
- ],
-
- "moves": [
+   "moves": [
     "1:splash",
     "15:tackle",
     "25:flail",

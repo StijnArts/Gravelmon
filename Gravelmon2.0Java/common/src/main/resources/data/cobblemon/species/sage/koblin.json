@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "koblin",
-  "nationalPokedexNumber": 1048,
+  "nationalPokedexNumber": 1123,
   "primaryType": "dark",
   "abilities": [
     "runaway",
@@ -47,6 +47,21 @@
   "eggGroups": [
     "monster"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:stone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:scratch",
     "1:howlsound",
@@ -155,10 +170,10 @@
       ]   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

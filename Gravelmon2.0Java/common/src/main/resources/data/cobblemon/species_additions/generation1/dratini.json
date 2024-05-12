@@ -1,24 +1,4 @@
 {"target": "cobblemon:Dratini",
- "evolutions": [
-  {
-   "id": "dratini_norheimandragonair",
-   "variant": "level_up",
-   "result": "norheimandragonair",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [
-    {
-     "variant": "biome",
-     "biomeCondition": "#cobblemon:is_cold"
-    },
-    {
-     "variant": "level",
-     "minLevel": 30
-    }
-   ]
-  }
- ],
    "moves": [
     "1:leer",
     "1:wrap",

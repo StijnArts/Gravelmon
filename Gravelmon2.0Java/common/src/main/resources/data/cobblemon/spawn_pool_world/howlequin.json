@@ -7,7 +7,7 @@
       "id": "howlequin-1",
       "pokemon": "howlequin",
       "presets": [
-          "village"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",

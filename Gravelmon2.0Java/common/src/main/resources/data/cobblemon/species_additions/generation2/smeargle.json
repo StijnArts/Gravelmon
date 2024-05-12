@@ -1,20 +1,4 @@
 {"target": "cobblemon:Smeargle",
- "evolutions": [
-  {
-   "id": "smeargle_beagasso",
-   "variant": "level_up",
-   "result": "beagasso",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [
-    {
-     "variant": "level",
-     "minLevel": 39
-    }
-   ]
-  }
- ],
    "moves": [
     "1:sketch",
     "tutor:captivate",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grimfowl",
-  "nationalPokedexNumber": 1425,
+  "nationalPokedexNumber": 1358,
   "primaryType": "dark",
   "secondaryType": "flying",
   "abilities": [
@@ -47,6 +47,21 @@
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:nightdaze",
     "1:foulplay",
@@ -116,17 +131,15 @@
     "egg:whirlwind"  ],
   "labels": [
     "infinity",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.grimfowl.desc"
   ],
-  "preEvolution": "eghonoctowl",
-  "baseScale": 0.6,
+  "baseScale": 0.45,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

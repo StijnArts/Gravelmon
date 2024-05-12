@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghocharmander",
-  "nationalPokedexNumber": 4,
+  "nationalPokedexNumber": 3,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -49,6 +49,16 @@
     "dragon",
     "monster"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:coal",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:scratch",
     "1:growl",

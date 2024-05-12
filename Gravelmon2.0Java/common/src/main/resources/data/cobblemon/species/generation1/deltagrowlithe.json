@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltagrowlithe",
-  "nationalPokedexNumber": 58,
+  "nationalPokedexNumber": 51,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -162,10 +162,10 @@
       "requiredContext": "cobblemon:shiny_stone"   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

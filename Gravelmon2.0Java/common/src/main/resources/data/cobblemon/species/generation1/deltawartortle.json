@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltawartortle",
-  "nationalPokedexNumber": 8,
+  "nationalPokedexNumber": 7,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -115,7 +115,6 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -164,13 +163,11 @@
     "tutor:vacuumwave"  ],
   "labels": [
     "gen1",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltawartortle.desc"
   ],
-  "preEvolution": "deltasquirtle",
   "evolutions": [
     {
       "id": "deltawartortle_deltablastoise",

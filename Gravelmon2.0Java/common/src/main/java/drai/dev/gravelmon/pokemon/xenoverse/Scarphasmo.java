@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Scarphasmo extends Pokemon {
                 247, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 32, List.of(EggGroup.AMORPHOUS, EggGroup.MONSTER),
-                List.of("According to several tales, a mad scientist created this creature by combining parts of different Pokemon."),
+                List.of("According to several tales, a mad scientist created this creature by combining parts of different Pokémon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SUBMISSION,1),

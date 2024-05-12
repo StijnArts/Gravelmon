@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltanumel",
-  "nationalPokedexNumber": 322,
+  "nationalPokedexNumber": 321,
   "primaryType": "poison",
   "abilities": [
     "poisonpoint",
@@ -130,10 +130,10 @@
       ]   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

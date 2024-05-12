@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltacakedwebble",
-  "nationalPokedexNumber": 557,
+  "nationalPokedexNumber": 558,
   "primaryType": "fairy",
   "secondaryType": "normal",
   "abilities": [
@@ -97,7 +97,6 @@
     "tm:sleeptalksound",
     "tm:dazzlinggleam",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:confide",
@@ -155,8 +154,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

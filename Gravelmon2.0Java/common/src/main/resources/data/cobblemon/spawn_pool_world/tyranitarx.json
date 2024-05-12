@@ -7,7 +7,7 @@
       "id": "tyranitarx-1",
       "pokemon": "tyranitarx",
       "presets": [
-          "end_city"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

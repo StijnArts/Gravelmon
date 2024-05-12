@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "penglacier",
-  "nationalPokedexNumber": 1045,
+  "nationalPokedexNumber": 1120,
   "primaryType": "ice",
   "secondaryType": "rock",
   "abilities": [
@@ -49,6 +49,21 @@
     "field",
     "mineral"
   ],
+  "drops": {
+    "amount": "5",
+    "entries": [
+      {
+        "item": "minecraft:dirt",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:rockblast",
     "1:pound",
@@ -147,18 +162,15 @@
     "egg:skullbash"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.penglacier.desc"
   ],
-  "preEvolution": "pengliff",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

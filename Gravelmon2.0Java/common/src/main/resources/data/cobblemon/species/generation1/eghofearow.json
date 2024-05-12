@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghofearow",
-  "nationalPokedexNumber": 22,
+  "nationalPokedexNumber": 21,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -47,6 +47,21 @@
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:nightslash",
     "1:drillpeck",
@@ -123,13 +138,11 @@
     "egg:whirlwind"  ],
   "labels": [
     "infinity",
-    "gen1",
-    "fakemonevolution"
+    "gen1"
   ],
   "pokedex": [
     "cobblemon.species.eghofearow.desc"
   ],
-  "preEvolution": "eghospearow",
   "baseScale": 1.2,
   "hitbox": {
     "width": 1.0,

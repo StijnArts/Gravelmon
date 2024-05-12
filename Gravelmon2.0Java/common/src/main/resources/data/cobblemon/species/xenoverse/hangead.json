@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hangead",
-  "nationalPokedexNumber": 2088,
+  "nationalPokedexNumber": 1108,
   "primaryType": "psychic",
   "secondaryType": "ghost",
   "abilities": [
@@ -54,7 +54,7 @@
       {
         "item": "gravelmon:dread_pendant",
         "quantityRange": "1-1",
-        "percentage": 40
+        "percentage": 50
       }
     ]
   },
@@ -137,18 +137,15 @@
     "tutor:wonderroom"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.hangead.desc"
   ],
-  "preEvolution": "puppillon",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

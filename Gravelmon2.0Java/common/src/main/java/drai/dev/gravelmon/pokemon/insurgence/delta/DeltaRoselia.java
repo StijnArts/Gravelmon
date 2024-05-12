@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaRoselia extends Pokemon {
                 140, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokemon can be found on clear nights, dancing before the moon. If discovered, it puts onlookers to sleep and flees into the shadows."),
+                List.of("This Pokémon can be found on clear nights, dancing before the moon. If discovered, it puts onlookers to sleep and flees into the shadows."),
                 List.of(new EvolutionEntry("deltaroserade", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(

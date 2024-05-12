@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianskarmory",
-  "nationalPokedexNumber": 227,
+  "nationalPokedexNumber": 217,
   "primaryType": "steel",
   "secondaryType": "fire",
   "abilities": [
@@ -51,7 +51,6 @@
     "1:spikes",
     "1:peck",
     "10:steelwing",
-    "13:sizzlebeak",
     "16:cut",
     "26:blazekick",
     "29:whirlwind",
@@ -64,7 +63,6 @@
     "tm:sunnyday",
     "tm:protect",
     "tm:return",
-    "tm:shimmershot",
     "tm:sandstorm",
     "tm:bravebird",
     "tm:gigaimpact",
@@ -91,10 +89,10 @@
   "pokedex": [
     "cobblemon.species.hoennianskarmory.desc"
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

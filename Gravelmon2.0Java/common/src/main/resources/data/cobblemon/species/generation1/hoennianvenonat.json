@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianvenonat",
-  "nationalPokedexNumber": 48,
+  "nationalPokedexNumber": 85,
   "primaryType": "bug",
   "secondaryType": "dark",
   "abilities": [
@@ -62,7 +62,6 @@
     "tm:toxic",
     "tm:hiddenpower",
     "tm:sunnyday",
-    "tm:veiledsky",
     "tm:lightscreen",
     "tm:protect",
     "tm:raindance",
@@ -74,14 +73,13 @@
     "tm:psychic",
     "tm:shadowball",
     "tm:brickbreak",
-    "tm:shimmershot",
     "tm:shockwave",
     "tm:facade",
     "tm:secretpower",
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "egg:cosmicpowercosmic"  ],
+    "egg:cosmicpower"  ],
   "labels": [
     "blazing_emerald",
     "gen1",
@@ -120,10 +118,10 @@
       ]   
  }
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

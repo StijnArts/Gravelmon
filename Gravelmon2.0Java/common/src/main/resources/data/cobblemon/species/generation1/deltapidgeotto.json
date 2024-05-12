@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltapidgeotto",
-  "nationalPokedexNumber": 17,
+  "nationalPokedexNumber": 16,
   "primaryType": "dark",
   "secondaryType": "dragon",
   "abilities": [
@@ -114,7 +114,6 @@
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:silverwind",
-    "tm:lunarcannon",
     "tm:skydrop",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -161,13 +160,11 @@
     "tutor:uproar"  ],
   "labels": [
     "gen1",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltapidgeotto.desc"
   ],
-  "preEvolution": "deltapidgey",
   "evolutions": [
     {
       "id": "deltapidgeotto_deltapidgeot",

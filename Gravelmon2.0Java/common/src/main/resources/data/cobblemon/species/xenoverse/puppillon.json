@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "puppillon",
-  "nationalPokedexNumber": 2087,
+  "nationalPokedexNumber": 1107,
   "primaryType": "psychic",
   "secondaryType": "dark",
   "abilities": [
@@ -54,7 +54,7 @@
       {
         "item": "gravelmon:dread_pendant",
         "quantityRange": "1-1",
-        "percentage": 10
+        "percentage": 20
       }
     ]
   },
@@ -149,10 +149,10 @@
       "requiredContext": "gravelmon:dread_pendant"   
  }
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

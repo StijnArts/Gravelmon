@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "flairees",
-  "nationalPokedexNumber": 1030,
+  "nationalPokedexNumber": 1105,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -47,6 +47,21 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "6",
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "1-2",
+        "percentage": 20
+      },
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 80
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -136,14 +151,11 @@
     "egg:takedown",
     "egg:thrash"  ],
   "labels": [
-    "sage",
-    "fakemon",
-    "fakemonevolution"
+    "sage"
   ],
   "pokedex": [
     "cobblemon.species.flairees.desc"
   ],
-  "preEvolution": "pyroat",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.5,

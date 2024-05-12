@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "reindigo",
-  "nationalPokedexNumber": 2122,
+  "nationalPokedexNumber": 1140,
   "primaryType": "dark",
   "abilities": [
     "defeatist",
@@ -119,18 +119,15 @@
     "tutor:superpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.reindigo.desc"
   ],
-  "preEvolution": "reindear",
-  "baseScale": 0.625,
+  "baseScale": 0.46875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

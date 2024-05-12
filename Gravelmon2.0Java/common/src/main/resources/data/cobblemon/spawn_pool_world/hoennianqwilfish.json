@@ -19,7 +19,7 @@
       },
       "anticondition": {
 "biomes": [ "#cobblemon:is_cold",
-"#cobblemon:is_warm_ocean" ]    }
+"#cobblemon:is_reef" ]    }
     }
   ]
 }

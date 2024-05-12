@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "greninjax",
-  "nationalPokedexNumber": 658,
+  "nationalPokedexNumber": 720,
   "primaryType": "fire",
   "secondaryType": "dark",
   "abilities": [
@@ -47,8 +47,17 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
-    "1:firekunai",
     "1:nightdaze",
     "1:haze",
     "1:nightslash",
@@ -71,7 +80,6 @@
     "56:haze",
     "60:fireblast",
     "70:nightslash",
-    "75:firekunai",
     "tm:calmmind",
     "tm:toxic",
     "tm:hiddenpower",
@@ -122,10 +130,10 @@
   "pokedex": [
     "cobblemon.species.greninjax.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,11 +1,10 @@
 {
   "implemented": true,
   "name": "jawgodon",
-  "nationalPokedexNumber": 1211,
+  "nationalPokedexNumber": 1286,
   "primaryType": "water",
   "abilities": [
     "scavenger",
-    "ironjaw",
     "h:swiftswim"
   ],
   "baseStats": {
@@ -48,6 +47,16 @@
     "water_2",
     "monster"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:poisonfang",
     "1:bite",
@@ -122,18 +131,15 @@
     "egg:thunderfang"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.jawgodon.desc"
   ],
-  "preEvolution": "barracute",
-  "baseScale": 0.5,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

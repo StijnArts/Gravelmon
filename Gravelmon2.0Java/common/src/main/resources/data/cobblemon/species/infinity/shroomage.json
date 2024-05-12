@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shroomage",
-  "nationalPokedexNumber": 1452,
+  "nationalPokedexNumber": 1387,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -121,18 +121,15 @@
     "egg:spore"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.shroomage.desc"
   ],
-  "preEvolution": "psycholyte",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

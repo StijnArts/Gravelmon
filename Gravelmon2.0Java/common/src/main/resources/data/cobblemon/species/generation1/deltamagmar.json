@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltamagmar",
-  "nationalPokedexNumber": 126,
+  "nationalPokedexNumber": 125,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
@@ -125,13 +125,11 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltamagmar.desc"
   ],
-  "preEvolution": "deltamagby",
   "evolutions": [
     {
       "id": "deltamagmar_deltamagmortar",
@@ -147,10 +145,10 @@
       ]   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

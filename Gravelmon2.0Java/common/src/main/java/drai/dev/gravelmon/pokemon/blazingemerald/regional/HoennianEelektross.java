@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
@@ -77,7 +76,7 @@ public class HoennianEelektross extends Pokemon {
                         new SpawnCondition(SpawnConditionType.MAXY, "40"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERGROUND),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Eelektross");

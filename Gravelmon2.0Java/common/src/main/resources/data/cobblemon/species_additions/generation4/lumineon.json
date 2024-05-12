@@ -1,15 +1,4 @@
 {"target": "cobblemon:Lumineon",
- "evolutions": [
-  {
-   "id": "lumineon_tetoraito",
-   "variant": "item_interact",
-   "result": "tetoraito",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [],
-   "requiredContext": "cobblemon:water_stone"
-  }
-  ],
    "moves": [
     "1:attract",
     "1:gust",

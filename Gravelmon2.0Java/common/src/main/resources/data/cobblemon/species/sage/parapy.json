@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "parapy",
-  "nationalPokedexNumber": 1201,
+  "nationalPokedexNumber": 1276,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
@@ -49,6 +49,16 @@
     "water_2",
     "bug"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:leechlife",
     "2:withdraw",
@@ -133,10 +143,10 @@
       ]   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

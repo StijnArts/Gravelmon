@@ -7,7 +7,7 @@
       "id": "deltaruinbeldum-1",
       "pokemon": "deltaruinbeldum",
       "presets": [
-          "jungle_pyramid"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

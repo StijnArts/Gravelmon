@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chelonite",
-  "nationalPokedexNumber": 1133,
+  "nationalPokedexNumber": 1208,
   "primaryType": "psychic",
   "secondaryType": "rock",
   "abilities": [
@@ -49,6 +49,16 @@
     "monster",
     "mineral"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:deepslate",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:withdraw",
     "1:rockthrow",
@@ -59,7 +69,7 @@
     "24:psybeam",
     "28:ancientpower",
     "33:stealthrock",
-    "37:cosmicpowercosmic",
+    "37:cosmicpower",
     "42:asteroidshot",
     "46:psychic",
     "51:asteroidbelt",
@@ -144,10 +154,10 @@
       "requiredContext": "cobblemon:moon_stone"   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

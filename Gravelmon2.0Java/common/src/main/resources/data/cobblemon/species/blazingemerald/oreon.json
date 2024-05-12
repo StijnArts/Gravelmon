@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oreon",
-  "nationalPokedexNumber": 3719,
+  "nationalPokedexNumber": 1173,
   "primaryType": "poison",
   "abilities": [
     "stickyhold",
@@ -47,7 +47,6 @@
     "field"
   ],
   "moves": [
-    "1:cookie_cut",
     "5:milkdrink",
     "14:lick",
     "22:acid",
@@ -65,7 +64,6 @@
     "tm:return",
     "tm:dig",
     "tm:shadowball",
-    "tm:shimmershot",
     "tm:sludgebomb",
     "tm:gigaimpact",
     "tm:facade",
@@ -76,7 +74,6 @@
     "egg:wish"  ],
   "labels": [
     "blazing_emerald",
-    "joke",
     "not_modeled",
     "eeveelution",
     "fakemonevolution"
@@ -85,10 +82,10 @@
     "cobblemon.species.oreon.desc"
   ],
   "preEvolution": "eevee",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

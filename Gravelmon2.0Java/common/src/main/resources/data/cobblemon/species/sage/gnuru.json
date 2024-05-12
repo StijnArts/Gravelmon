@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gnuru",
-  "nationalPokedexNumber": 1107,
+  "nationalPokedexNumber": 1182,
   "primaryType": "psychic",
   "abilities": [
     "innerfocus",
@@ -47,6 +47,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:bulldoze",
     "1:tackle",
@@ -138,18 +148,15 @@
     "egg:takedown"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.gnuru.desc"
   ],
-  "preEvolution": "psybex",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

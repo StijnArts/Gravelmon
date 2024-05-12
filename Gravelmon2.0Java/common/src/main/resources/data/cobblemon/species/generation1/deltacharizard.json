@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltacharizard",
-  "nationalPokedexNumber": 6,
+  "nationalPokedexNumber": 5,
   "primaryType": "ghost",
   "secondaryType": "dragon",
   "abilities": [
@@ -117,7 +117,6 @@
     "36:dragondance",
     "41:shadowball",
     "47:dragonpulse",
-    "56:lunarcannon",
     "62:phantomforce",
     "71:dragonrush",
     "77:outrage",
@@ -173,7 +172,6 @@
     "tm:acrobatics",
     "tm:darkpulse",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:incinerate",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -218,13 +216,11 @@
     "tutor:uproar"  ],
   "labels": [
     "gen1",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltacharizard.desc"
   ],
-  "preEvolution": "deltacharmeleon",
   "baseScale": 1.35,
   "hitbox": {
     "width": 1.0,
@@ -240,7 +236,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "height": 17,
+  "height": 11,
   "weight": 419,
   "aspects": [],
 "features": [

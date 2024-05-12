@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -120,7 +119,8 @@ public class DeltaHeatmor extends Pokemon {
                 List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.UNCOMMON, 18, 51, 2.0, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.22, 0.3,

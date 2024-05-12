@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "erace",
-  "nationalPokedexNumber": 1247,
+  "nationalPokedexNumber": 1322,
   "primaryType": "steel",
   "secondaryType": "electric",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "3",
+    "entries": [
+      {
+        "item": "minecraft:redstone_block",
+        "quantityRange": "3-10",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:ancientpower",
     "1:lockon",
@@ -107,10 +117,10 @@
   "pokedex": [
     "cobblemon.species.erace.desc"
   ],
-  "baseScale": 0.725,
+  "baseScale": 0.54375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

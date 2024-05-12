@@ -3,14 +3,13 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
 public class DeltaRuinMetagross extends Pokemon {
     public DeltaRuinMetagross(int dexNo) {
         super(dexNo,"DeltaRuinMetagross",
-                Type.GRASS, Type.ROCK,
+                Type.GROUND, Type.BUG,
                 new Stats(80, 135, 130, 95, 90, 70),
                 List.of(Ability.STURDY), Ability.ROCK_HEAD,
                 16, 5500,
@@ -19,7 +18,7 @@ public class DeltaRuinMetagross extends Pokemon {
                 270, ExperienceGroup.SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("After two altered Metang fuse into this Pokemon, all but the exterior of its body is composed of crystal. Additional crystals allow it to break free of its rocky shell."),
+                List.of("After two altered Metang fuse into this Pokémon, all but the exterior of its body is composed of crystal. Additional crystals allow it to break free of its rocky shell."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.STEALTH_ROCK,1),
@@ -134,7 +133,7 @@ public class DeltaRuinMetagross extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.JUNGLE_PYRAMID),
+                List.of(SpawnPreset.RUINED_STRUCTURES),
                 0.19, 0.3,
                 List.of(new PokemonForm(
                         "Mega", true,

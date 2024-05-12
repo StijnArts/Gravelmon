@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "capig",
-  "nationalPokedexNumber": 1037,
+  "nationalPokedexNumber": 1112,
   "primaryType": "normal",
   "abilities": [
     "thickfat",
@@ -47,6 +47,26 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "cobblemon:quick_claw",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:wool",
+        "quantityRange": "1-2",
+        "percentage": 45
+      },
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 45
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:defensecurl",
@@ -143,8 +163,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tapufinix",
-  "nationalPokedexNumber": 788,
+  "nationalPokedexNumber": 787,
   "primaryType": "psychic",
   "secondaryType": "dark",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:snarl",
     "1:energyball",
@@ -109,10 +119,10 @@
   "pokedex": [
     "cobblemon.species.tapufinix.desc"
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

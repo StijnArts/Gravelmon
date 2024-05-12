@@ -1,34 +1,4 @@
 {"target": "cobblemon:Surskit",
- "evolutions": [
-  {
-   "id": "surskit_norheimanmasquerain",
-   "variant": "level_up",
-   "result": "norheimanmasquerain",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [
-    {
-     "variant": "biome",
-     "biomeCondition": "#cobblemon:is_taiga"
-    },
-    {
-     "variant": "level",
-     "minLevel": 22
-    }
-   ]
-  },
-  {
-   "id": "surskit_surgeskit",
-   "variant": "item_interact",
-   "result": "surgeskit",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [],
-   "requiredContext": "cobblemon:thunderstone"
-  }
- ],
    "moves": [
     "1:bubble",
     "1:watergun",

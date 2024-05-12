@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Whave extends Pokemon {
                 120, ExperienceGroup.SLOW,
                 70,
                 62, List.of(EggGroup.WATER_2, EggGroup.FIELD),
-                List.of("An outgoing whale Pokemon that generally dwells in the deep seas. It is playful with other Pokemon as long as it's not battling."),
+                List.of("An outgoing whale Pokémon that generally dwells in the deep seas. It is playful with other Pokémon as long as it's not battling."),
                 List.of(new EvolutionEntry("orcabyss", EvolutionType.LEVEL_UP, List.of(new MoveLearnSetEntry(Move.CALM_MIND, "")),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"52")))),
                 List.of(
@@ -119,9 +118,6 @@ public class Whave extends Pokemon {
                 List.of(SpawnPreset.UNDERWATER),
                 0.29, 0.3,
                 List.of());
-        setCanSwim(true);
-        setCanBreathUnderwater(true);
-        setAvoidsLand(true);
         this.setPortraitXYZ(0.1,2.0,0.0);
     }
 }

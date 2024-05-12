@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "ornitherb",
-  "nationalPokedexNumber": 1222,
+  "nationalPokedexNumber": 1297,
   "primaryType": "grass",
   "abilities": [
     "unnerve",
@@ -48,6 +48,16 @@
     "grass",
     "dragon"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:ancientpower",
     "1:scratch",
@@ -110,14 +120,11 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.ornitherb.desc"
   ],
-  "preEvolution": "bazilisk",
   "evolutions": [
     {
       "id": "ornitherb_dilophlora",
@@ -133,10 +140,10 @@
       ]   
  }
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

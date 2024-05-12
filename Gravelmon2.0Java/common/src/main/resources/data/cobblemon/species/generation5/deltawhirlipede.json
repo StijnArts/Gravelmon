@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltawhirlipede",
-  "nationalPokedexNumber": 544,
+  "nationalPokedexNumber": 543,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -125,13 +125,11 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltawhirlipede.desc"
   ],
-  "preEvolution": "deltavenipede",
   "evolutions": [
     {
       "id": "deltawhirlipede_deltascolipede",
@@ -147,10 +145,10 @@
       ]   
  }
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

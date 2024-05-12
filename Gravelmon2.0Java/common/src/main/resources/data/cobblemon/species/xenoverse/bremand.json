@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bremand",
-  "nationalPokedexNumber": 2086,
+  "nationalPokedexNumber": 1106,
   "primaryType": "ghost",
   "secondaryType": "sound",
   "abilities": [
@@ -54,8 +54,8 @@
       ],
       "baseScale": 0.09375,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 3.0,
+          "height": 3.0,
           "fixed": false
       },
       "baseStats": {
@@ -94,16 +94,13 @@
     "30:uproar",
     "35:helpinghand",
     "40:overdrive",
-    "45:electroswing",
     "50:thunderbolt",
     "55:boomburstsound",
-    "60:wilddance",
     "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:taunt",
     "tm:protect",
-    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:rest",
@@ -125,7 +122,6 @@
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
-    "tutor:soundbarrier",
     "tutor:uproar"  ],
   "drops": {
     "amount": "0",
@@ -158,8 +154,8 @@
       ],
       "baseScale": 0.09375,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 3.0,
+          "height": 3.0,
           "fixed": false
       },
       "baseStats": {
@@ -201,13 +197,11 @@
     "45:bellydrum",
     "50:hammerarm",
     "55:boomburstsound",
-    "60:wilddance",
     "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:taunt",
     "tm:protect",
-    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:rest",
@@ -229,7 +223,6 @@
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
-    "tutor:soundbarrier",
     "tutor:uproar"  ],
   "drops": {
     "amount": "0",
@@ -262,8 +255,8 @@
       ],
       "baseScale": 0.09375,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 3.0,
+          "height": 3.0,
           "fixed": false
       },
       "baseStats": {
@@ -302,16 +295,13 @@
     "30:uproar",
     "35:helpinghand",
     "40:crunch",
-    "45:bluenote",
     "50:foulplay",
     "55:boomburstsound",
-    "60:wilddance",
     "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:taunt",
     "tm:protect",
-    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:rest",
@@ -333,7 +323,6 @@
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
-    "tutor:soundbarrier",
     "tutor:uproar"  ],
   "drops": {
     "amount": "0",
@@ -371,16 +360,13 @@
     "30:uproar",
     "35:helpinghand",
     "40:ominouswind",
-    "45:discofever",
     "50:phantomforce",
     "55:boomburstsound",
-    "60:wilddance",
     "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
     "tm:taunt",
     "tm:protect",
-    "tm:subwoofer",
     "tm:return",
     "tm:doubleteam",
     "tm:rest",
@@ -402,7 +388,6 @@
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
-    "tutor:soundbarrier",
     "tutor:uproar"  ],
   "labels": [
     "xenoverse",
@@ -411,10 +396,10 @@
   "pokedex": [
     "cobblemon.species.bremand.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

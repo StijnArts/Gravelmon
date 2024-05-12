@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoenniandodrio",
-  "nationalPokedexNumber": 85,
+  "nationalPokedexNumber": 73,
   "primaryType": "flying",
   "secondaryType": "ground",
   "abilities": [
@@ -70,7 +70,6 @@
     "tm:protect",
     "tm:earthquake",
     "tm:return",
-    "tm:shimmershot",
     "tm:sandstorm",
     "tm:rocktomb",
     "tm:bravebird",

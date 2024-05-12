@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadunsparce",
-  "nationalPokedexNumber": 206,
+  "nationalPokedexNumber": 203,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
@@ -153,10 +153,10 @@
   "pokedex": [
     "cobblemon.species.deltadunsparce.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltacofagrigus",
-  "nationalPokedexNumber": 563,
+  "nationalPokedexNumber": 562,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
@@ -135,17 +135,15 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltacofagrigus.desc"
   ],
-  "preEvolution": "deltayamask",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

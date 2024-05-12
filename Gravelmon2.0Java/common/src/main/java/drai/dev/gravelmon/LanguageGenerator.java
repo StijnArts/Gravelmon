@@ -41,51 +41,5 @@ public class LanguageGenerator {
         LangJSONWriter.writeTranslationKey("item.gravelmon.magic_cookie","Magic Cookie");
         LangJSONWriter.writeTranslationKey("item.gravelmon.dread_pendant","Dread Pendant");
         LangJSONWriter.writeTranslationKey("item.gravelmon.spare_parts","Spare Parts");
-
-        //Starters
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.ayreikanto","Ayrei - Kanto");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.eghokanto","Egho - Kanto");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.ayreijohto","Ayrei - Johto");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.eghojohto","Egho - Johto");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.torren","Torren");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.post_catastrophe","Hoenn - Post Catastrophe");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.zakos","Zakos");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.the_eternal_forest","Eternal Forest");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.altera","Altera");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.egho","Egho");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.kaskade","Kaskade");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.iberia","Iberia");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.cefiran","Cefiran");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.esoteria","Esoteria");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.urobos","Urobos");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.vereshad","Vereshad");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.eldiw","Eldiw");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.xenoverse","Xenoverse");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.signet","Signet");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.rica","Rica");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.ferroa","Ferroa");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.enriko","Enriko");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.tandor","Tandor");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.hiza","Hiza");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.junnin","Junnin");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.nosto","Nosto");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.qamor","Qamor");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.isiah","Isiah");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.midamis","Midamis");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.novrai","Novrai");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.atlas","Atlas");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.fliga","Fliga");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.orohnhavai","Orohn-Havai");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.kuria","Kuria");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.amavi","Amavi");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.mythire","Mythire");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.interregional","Interregional");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.lagoone","Lagoone");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.norheim","Norheim");
-        LangJSONWriter.writeTranslationKey("cobblemon.starterselection.category.oceane","Oceane");
-
-
-
-        LangJSONWriter.writeTranslationKey("cobblemon.species.eppv11.name","EPP_v1.1");
     }
 }

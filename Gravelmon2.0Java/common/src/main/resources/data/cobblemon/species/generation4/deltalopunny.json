@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltalopunny",
-  "nationalPokedexNumber": 428,
+  "nationalPokedexNumber": 427,
   "primaryType": "fighting",
   "abilities": [
     "unburden",
@@ -249,13 +249,11 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen4",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltalopunny.desc"
   ],
-  "preEvolution": "deltabuneary",
   "baseScale": 0.6,
   "hitbox": {
     "width": 1.4,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltasliggoo",
-  "nationalPokedexNumber": 705,
+  "nationalPokedexNumber": 704,
   "primaryType": "ground",
   "secondaryType": "water",
   "abilities": [
@@ -123,13 +123,11 @@
   "labels": [
     "gen6",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltasliggoo.desc"
   ],
-  "preEvolution": "deltagoomy",
   "evolutions": [
     {
       "id": "deltasliggoo_deltagoodra",
@@ -145,10 +143,10 @@
       ]   
  }
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

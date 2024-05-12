@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
 import java.util.*;
 
 public class Guardeon extends Pokemon {
@@ -98,7 +99,7 @@ public class Guardeon extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "day"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
+                List.of(SpawnPreset.URBAN),
                 0.27, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -13,7 +12,7 @@ public class DeltaCharizard extends Pokemon {
                 Type.GHOST, Type.DRAGON,
                 new Stats(78, 84, 78, 109, 85, 100),
                 List.of(Ability.SPIRIT_CALL), Ability.DARK_AURA,
-                17, 419,
+                11, 419,
                 new Stats(0,0,0,3,0,0), 45,
                 0.875,
                 267, ExperienceGroup.MEDIUM_SLOW,

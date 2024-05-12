@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "galvantulax",
-  "nationalPokedexNumber": 596,
+  "nationalPokedexNumber": 595,
   "primaryType": "bug",
   "secondaryType": "ice",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:beatup",
     "1:bugbite",
@@ -98,13 +108,11 @@
     "tutor:strugglebug"  ],
   "labels": [
     "xenoverse",
-    "gen5",
-    "fakemonevolution"
+    "gen5"
   ],
   "pokedex": [
     "cobblemon.species.galvantulax.desc"
   ],
-  "preEvolution": "joltikx",
   "baseScale": 1.0,
   "hitbox": {
     "width": 1.0,

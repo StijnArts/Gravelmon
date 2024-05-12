@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vultergyst",
-  "nationalPokedexNumber": 1156,
+  "nationalPokedexNumber": 1231,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
@@ -48,6 +48,21 @@
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:sandstorm",
     "1:crushclaw",
@@ -113,18 +128,15 @@
     "egg:whirlwind"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.vultergyst.desc"
   ],
-  "preEvolution": "necrow",
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

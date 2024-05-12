@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pengliff",
-  "nationalPokedexNumber": 1044,
+  "nationalPokedexNumber": 1119,
   "primaryType": "ice",
   "abilities": [
     "permafrost",
@@ -48,6 +48,21 @@
     "field",
     "mineral"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:dirt",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:pound",
     "1:harden",
@@ -152,10 +167,10 @@
       ]   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

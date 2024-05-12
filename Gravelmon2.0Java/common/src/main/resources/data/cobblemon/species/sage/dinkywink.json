@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dinkywink",
-  "nationalPokedexNumber": 1157,
+  "nationalPokedexNumber": 1232,
   "primaryType": "water",
   "secondaryType": "rock",
   "abilities": [
@@ -49,6 +49,16 @@
     "water_2",
     "monster"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:headbutt",
     "1:tailwhip",
@@ -120,10 +130,10 @@
       ]   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

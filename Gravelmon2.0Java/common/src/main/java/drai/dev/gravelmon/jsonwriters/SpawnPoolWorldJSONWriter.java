@@ -4,7 +4,6 @@ import drai.dev.gravelmon.games.registry.*;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.io.*;
 import java.nio.file.*;
@@ -159,7 +158,7 @@ public class SpawnPoolWorldJSONWriter {
                 } else {
                     fileContents += ",\n";
                 }
-                fileContents += "\""+biome.getId()+":"+biome.getName()+"\"";
+                fileContents += "\"#"+biome.getId()+":"+biome.getName()+"\"";
             }
             fileContents+=" ]";
         } else {

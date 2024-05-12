@@ -1,12 +1,11 @@
 {
   "implemented": true,
   "name": "burrmudail",
-  "nationalPokedexNumber": 1047,
+  "nationalPokedexNumber": 1122,
   "primaryType": "ice",
   "secondaryType": "flying",
   "abilities": [
     "keeneye",
-    "iceslick",
     "h:superluck"
   ],
   "baseStats": {
@@ -48,6 +47,21 @@
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:ice",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:haze",
     "1:pound",
@@ -57,7 +71,6 @@
     "11:swiftcosmic",
     "14:icywind",
     "17:mist",
-    "21:tempest",
     "24:doubleteam",
     "27:aurorabeam",
     "31:featherdance",
@@ -121,18 +134,15 @@
     "egg:whirlwind"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.burrmudail.desc"
   ],
-  "preEvolution": "bluffin",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

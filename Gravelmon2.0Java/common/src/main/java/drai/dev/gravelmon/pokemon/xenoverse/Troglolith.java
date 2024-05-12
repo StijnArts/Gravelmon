@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Troglolith extends Pokemon {
                 181, ExperienceGroup.MEDIUM_FAST,
                 70,
                 32, List.of(EggGroup.HUMAN_LIKE, EggGroup.FIELD),
-                List.of("It is supposed to be the missing evolutionary link. In ancient times, males and females used to raise wild Pokemon in two very different ways."),
+                List.of("It is supposed to be the missing evolutionary link. In ancient times, males and females used to raise wild Pokémon in two very different ways."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TACKLE,1),

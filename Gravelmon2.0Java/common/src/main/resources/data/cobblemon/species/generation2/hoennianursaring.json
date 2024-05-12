@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianursaring",
-  "nationalPokedexNumber": 217,
+  "nationalPokedexNumber": 216,
   "primaryType": "normal",
   "secondaryType": "fire",
   "abilities": [
@@ -59,7 +59,6 @@
     "30:flamewheel",
     "37:slash",
     "43:flareblitz",
-    "49:wildroarsound",
     "tm:roarsound",
     "tm:toxic",
     "tm:pursuit",
@@ -72,7 +71,6 @@
     "tm:earthquake",
     "tm:return",
     "tm:dig",
-    "tm:shimmershot",
     "tm:flamethrower",
     "tm:fireblast",
     "tm:facade",
@@ -89,13 +87,11 @@
     "egg:seismictoss"  ],
   "labels": [
     "gen2",
-    "blazing_emerald",
-    "fakemonevolution"
+    "blazing_emerald"
   ],
   "pokedex": [
     "cobblemon.species.hoennianursaring.desc"
   ],
-  "preEvolution": "hoennianteddiursa",
   "baseScale": 1.1,
   "hitbox": {
     "width": 1.8,

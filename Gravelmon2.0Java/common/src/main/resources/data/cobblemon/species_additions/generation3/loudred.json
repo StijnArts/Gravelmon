@@ -1,24 +1,4 @@
 {"target": "cobblemon:Loudred",
- "evolutions": [
-  {
-   "id": "loudred_kaskadianexploud",
-   "variant": "level_up",
-   "result": "kaskadianexploud",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [
-    {
-     "variant": "biome",
-     "biomeCondition": "#cobblemon:is_cold"
-    },
-    {
-     "variant": "level",
-     "minLevel": 40
-    }
-   ]
-  }
- ],
    "moves": [
     "1:astonish",
     "1:bite",

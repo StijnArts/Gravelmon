@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "necronite",
-  "nationalPokedexNumber": 1147,
+  "nationalPokedexNumber": 1222,
   "primaryType": "rock",
   "secondaryType": "psychic",
   "abilities": [
@@ -59,7 +59,7 @@
     "18:hypnosis",
     "21:ancientpower",
     "25:mirrorcoat",
-    "28:cosmicpowercosmic",
+    "28:cosmicpower",
     "31:futuresight",
     "35:lockon",
     "41:powergemcrystal",
@@ -151,10 +151,10 @@
       ]   
  }
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

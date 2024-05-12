@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghotrubbish",
-  "nationalPokedexNumber": 568,
+  "nationalPokedexNumber": 458,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:rotten_flesh",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:mudslap",
     "1:smog",
@@ -151,10 +161,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

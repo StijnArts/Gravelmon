@@ -1,13 +1,13 @@
 {
   "implemented": true,
   "name": "diamat",
-  "nationalPokedexNumber": 1238,
+  "nationalPokedexNumber": 1313,
   "primaryType": "dragon",
   "secondaryType": "rock",
   "abilities": [
     "clearbody",
     "sheerforce",
-    "h:conditioning"
+    "h:keeneye"
   ],
   "baseStats": {
     "hp": 95,
@@ -49,6 +49,16 @@
     "mineral",
     "dragon"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:diamond",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:sharpen",
     "1:rockpolish",
@@ -121,18 +131,15 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.diamat.desc"
   ],
-  "preEvolution": "pressaur",
-  "baseScale": 0.5,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

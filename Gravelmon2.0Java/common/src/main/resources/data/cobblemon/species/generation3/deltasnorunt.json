@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltasnorunt",
-  "nationalPokedexNumber": 361,
+  "nationalPokedexNumber": 350,
   "primaryType": "fire",
   "abilities": [
     "whitesmoke",
@@ -148,10 +148,10 @@
       "requiredContext": "cobblemon:dawn_stone"   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

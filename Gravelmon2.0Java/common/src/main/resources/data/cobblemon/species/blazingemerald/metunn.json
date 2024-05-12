@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "metunn",
-  "nationalPokedexNumber": 3732,
+  "nationalPokedexNumber": 1186,
   "primaryType": "psychic",
   "secondaryType": "ghost",
   "abilities": [
@@ -47,11 +47,20 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:ancient_glyph",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:hiddenpower"  ],
   "labels": [
     "blazing_emerald",
-    "joke",
     "not_modeled",
     "fakemonevolution"
   ],
@@ -59,10 +68,10 @@
     "cobblemon.species.metunn.desc"
   ],
   "preEvolution": "unown",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -6,7 +6,7 @@
     {
       "id": "psychic_masgot-1",
       "pokemon": "masgot psychic",
-      "presets": [ "village"],
+      "presets": [ "urban"],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",

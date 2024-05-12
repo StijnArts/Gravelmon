@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianeelektrik",
-  "nationalPokedexNumber": 603,
+  "nationalPokedexNumber": 602,
   "primaryType": "ground",
   "secondaryType": "electric",
   "abilities": [
@@ -56,7 +56,6 @@
     "19:magnitude",
     "26:dig",
     "34:crunch",
-    "43:boltblitz",
     "tm:toxic",
     "tm:pursuit",
     "tm:hiddenpower",
@@ -69,7 +68,6 @@
     "tm:earthquake",
     "tm:return",
     "tm:dig",
-    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:flamethrower",
@@ -85,18 +83,15 @@
     "tm:flash",
     "tm:rocksmash",
     "egg:earthpower",
-    "egg:electroburst",
     "egg:dragonrage"  ],
   "labels": [
     "blazing_emerald",
     "gen5",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.hoennianeelektrik.desc"
   ],
-  "preEvolution": "hoenniantynamo",
   "evolutions": [
     {
       "id": "hoennianeelektrik_hoennianeelektross",
@@ -110,10 +105,10 @@
       "requiredContext": "cobblemon:thunder_stone"   
  }
   ],
-  "baseScale": 0.7000000000000001,
+  "baseScale": 0.525,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gigaard",
-  "nationalPokedexNumber": 1053,
+  "nationalPokedexNumber": 1128,
   "primaryType": "normal",
   "secondaryType": "rock",
   "abilities": [
@@ -49,6 +49,21 @@
     "field",
     "mineral"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "cobblemon:hard_stone",
+        "quantityRange": "1-2",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:emerald_ore",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:crushclaw",
     "1:scratch",
@@ -130,18 +145,15 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.gigaard.desc"
   ],
-  "preEvolution": "terratetra",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -7,7 +7,7 @@
       "id": "gigantusk-1",
       "pokemon": "gigantusk",
       "presets": [
-          "natural"
+          "underground"
       ],
       "type": "pokemon",
       "context": "grounded",

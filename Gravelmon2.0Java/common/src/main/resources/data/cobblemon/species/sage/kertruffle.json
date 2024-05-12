@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kertruffle",
-  "nationalPokedexNumber": 1072,
+  "nationalPokedexNumber": 1147,
   "primaryType": "poison",
   "abilities": [
     "effectspore",
@@ -47,6 +47,21 @@
   "eggGroups": [
     "grass"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:brown_mushroom",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:red_mushroom",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:bide",
     "1:tackle",
@@ -161,10 +176,10 @@
       ]   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

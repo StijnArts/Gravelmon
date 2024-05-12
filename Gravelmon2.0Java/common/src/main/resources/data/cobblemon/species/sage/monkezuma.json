@@ -1,11 +1,10 @@
 {
   "implemented": true,
   "name": "monkezuma",
-  "nationalPokedexNumber": 1205,
+  "nationalPokedexNumber": 1280,
   "primaryType": "fighting",
   "abilities": [
     "sheerforce",
-    "conditioning",
     "h:gorillatactics"
   ],
   "baseStats": {
@@ -48,6 +47,16 @@
     "human_like",
     "field"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:cocoa_beans",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:irontail",
     "1:armthrust",
@@ -116,18 +125,15 @@
     "egg:quickguard"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.monkezuma.desc"
   ],
-  "preEvolution": "simayan",
-  "baseScale": 0.5,
+  "baseScale": 0.375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

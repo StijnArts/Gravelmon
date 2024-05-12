@@ -3,6 +3,7 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
+
 import java.util.*;
 
 public class Chegrin extends Pokemon {
@@ -17,7 +18,7 @@ public class Chegrin extends Pokemon {
                 65, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 51, List.of(EggGroup.FIELD),
-                List.of("Chegrin takes delight in playing tricks on smaller Pokemon, scaring them with its flexible tail, but all too often, it ends up accidentally scaring itself."),
+                List.of("Chegrin takes delight in playing tricks on smaller Pokémon, scaring them with its flexible tail, but all too often, it ends up accidentally scaring itself."),
                 List.of(new EvolutionEntry("cheshade", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:dusk_stone")),
                 List.of(
@@ -104,7 +105,7 @@ public class Chegrin extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true"),
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night")
                 ), List.of(),
-                List.of(SpawnPreset.VILLAGE),
+                List.of(SpawnPreset.URBAN),
                 0.3, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

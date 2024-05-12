@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class SaboltTerrestrial extends Pokemon {
                 64, ExperienceGroup.SLOW,
                 70,
                 41, List.of(EggGroup.UNDISCOVERED),
-                List.of("It looks like the Red Energy had somehow affected this Pokemon. Wrapped in the darkness of its cloak, it shoots thunderbolts all of sudden."),
+                List.of("It looks like the Red Energy had somehow affected this Pokémon. Wrapped in the darkness of its cloak, it shoots thunderbolts all of sudden."),
                 List.of(new EvolutionEntry("sabolt", EvolutionType.LEVEL_UP, false, List.of(), List.of()),
                         new EvolutionEntry("saboltxenoversal", EvolutionType.LEVEL_UP, false, List.of(),
                                 List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HELD_ITEM, "\"gravelmon:xenoversal_ring\"")))),

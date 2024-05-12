@@ -7,7 +7,7 @@
       "id": "chegrin-1",
       "pokemon": "chegrin",
       "presets": [
-          "village"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Darpole extends Pokemon {
                 63, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.MONSTER, EggGroup.WATER_1),
-                List.of("This Pokemon likes to play pranks on trainers who get too close to the edge of a pond, and then dive down into the water where it can't be reached."),
+                List.of("This Pokémon likes to play pranks on trainers who get too close to the edge of a pond, and then dive down into the water where it can't be reached."),
                 List.of(new EvolutionEntry("brutoad", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"16")))),
                 List.of(

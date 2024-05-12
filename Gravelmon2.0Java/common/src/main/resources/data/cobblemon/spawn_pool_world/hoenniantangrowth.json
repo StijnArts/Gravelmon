@@ -7,7 +7,7 @@
       "id": "hoenniantangrowth-1",
       "pokemon": "hoenniantangrowth",
       "presets": [
-          "village"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",

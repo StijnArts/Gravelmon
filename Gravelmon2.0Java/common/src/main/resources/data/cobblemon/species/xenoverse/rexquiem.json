@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rexquiem",
-  "nationalPokedexNumber": 2128,
+  "nationalPokedexNumber": 1146,
   "primaryType": "ground",
   "secondaryType": "dark",
   "abilities": [
@@ -125,18 +125,15 @@
     "tutor:stealthrock"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.rexquiem.desc"
   ],
-  "preEvolution": "peckabone",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

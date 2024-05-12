@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kobalt",
-  "nationalPokedexNumber": 1050,
+  "nationalPokedexNumber": 1125,
   "primaryType": "dark",
   "secondaryType": "steel",
   "abilities": [
@@ -49,6 +49,21 @@
     "monster",
     "mineral"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:steel",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:superpower",
     "1:sandstorm",
@@ -147,18 +162,15 @@
     "egg:rollout"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.kobalt.desc"
   ],
-  "preEvolution": "koblin",
-  "baseScale": 0.325,
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

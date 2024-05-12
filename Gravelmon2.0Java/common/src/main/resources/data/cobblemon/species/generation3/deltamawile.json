@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltamawile",
-  "nationalPokedexNumber": 303,
+  "nationalPokedexNumber": 302,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -53,8 +53,8 @@
       ],
       "baseScale": 0.09375,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 3.0,
+          "height": 3.0,
           "fixed": false
       },
       "baseStats": {
@@ -175,7 +175,6 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:echoedvoicesound",
     "tm:roundsound",
     "tm:captivate",
@@ -231,10 +230,10 @@
   "pokedex": [
     "cobblemon.species.deltamawile.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

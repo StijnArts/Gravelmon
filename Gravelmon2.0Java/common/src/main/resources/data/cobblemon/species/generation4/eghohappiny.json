@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghohappiny",
-  "nationalPokedexNumber": 440,
+  "nationalPokedexNumber": 350,
   "primaryType": "fighting",
   "secondaryType": "fairy",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:oval_stone",
+        "quantityRange": "1-1",
+        "percentage": 20
+      }
+    ]
+  },
   "moves": [
     "1:helpinghand",
     "1:karatechop",
@@ -162,10 +172,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

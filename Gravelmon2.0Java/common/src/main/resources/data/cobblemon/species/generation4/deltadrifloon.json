@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadrifloon",
-  "nationalPokedexNumber": 425,
+  "nationalPokedexNumber": 424,
   "primaryType": "fire",
   "secondaryType": "flying",
   "abilities": [
@@ -156,8 +156,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

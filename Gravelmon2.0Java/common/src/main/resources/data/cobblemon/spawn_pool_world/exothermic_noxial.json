@@ -6,7 +6,7 @@
     {
       "id": "exothermic_noxial-1",
       "pokemon": "noxial exothermic",
-      "presets": [ "village"],
+      "presets": [ "urban"],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "uncommon",

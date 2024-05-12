@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviiandhelmise",
-  "nationalPokedexNumber": 781,
+  "nationalPokedexNumber": 746,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -113,10 +113,10 @@
   "pokedex": [
     "cobblemon.species.seviiandhelmise.desc"
   ],
-  "baseScale": 0.975,
+  "baseScale": 0.73125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

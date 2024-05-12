@@ -1,24 +1,5 @@
 {"target": "cobblemon:Budew",
- "evolutions": [
-  {
-   "id": "budew_avorianroselia",
-   "variant": "level_up",
-   "result": "avorianroselia",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "friendship",
-     "amount": 160
-    },
-    {
-     "variant": "time_range",
-     "range": "day"
-    }
-   ]
-  }
- ],
- "moves": [
+   "moves": [
     "1:absorb",
     "1:growth",
     "1:stunspore",

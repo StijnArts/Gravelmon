@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianteddiursa",
-  "nationalPokedexNumber": 216,
+  "nationalPokedexNumber": 213,
   "primaryType": "normal",
   "secondaryType": "fire",
   "abilities": [
@@ -70,7 +70,6 @@
     "tm:return",
     "tm:dig",
     "tm:brickbreak",
-    "tm:shimmershot",
     "tm:flamethrower",
     "tm:fireblast",
     "tm:facade",

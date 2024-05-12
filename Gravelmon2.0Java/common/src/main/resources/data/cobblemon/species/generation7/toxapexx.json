@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "toxapexx",
-  "nationalPokedexNumber": 748,
+  "nationalPokedexNumber": 747,
   "primaryType": "poison",
   "secondaryType": "fire",
   "abilities": [
@@ -53,7 +53,7 @@
       {
         "item": "gravelmon:xenolith",
         "quantityRange": "1-1",
-        "percentage": 40
+        "percentage": 20
       }
     ]
   },
@@ -112,17 +112,15 @@
   "labels": [
     "xenoverse",
     "gen7",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.toxapexx.desc"
   ],
-  "preEvolution": "mareaniex",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

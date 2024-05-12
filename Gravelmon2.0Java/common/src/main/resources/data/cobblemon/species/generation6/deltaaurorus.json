@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaaurorus",
-  "nationalPokedexNumber": 699,
+  "nationalPokedexNumber": 698,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -141,17 +141,15 @@
   "labels": [
     "gen6",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaaurorus.desc"
   ],
-  "preEvolution": "deltaamaura",
-  "baseScale": 0.6749999999999999,
+  "baseScale": 0.50625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

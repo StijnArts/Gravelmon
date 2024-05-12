@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "leafish",
-  "nationalPokedexNumber": 1114,
+  "nationalPokedexNumber": 1189,
   "primaryType": "water",
   "secondaryType": "grass",
   "abilities": [
@@ -49,6 +49,16 @@
     "water_2",
     "grass"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:splash",
     "1:watergun",
@@ -147,8 +157,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

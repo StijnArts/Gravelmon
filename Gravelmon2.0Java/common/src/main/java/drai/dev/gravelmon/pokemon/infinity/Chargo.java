@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Chargo extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.FIELD),
-                List.of("A mountain Pokemon that is kept around villages to keep people warm. They are ditzy and must be watched around flammable things."),
+                List.of("A mountain Pokémon that is kept around villages to keep people warm. They are ditzy and must be watched around flammable things."),
                 List.of(new EvolutionEntry("burnaram", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"18")))),
                 List.of(

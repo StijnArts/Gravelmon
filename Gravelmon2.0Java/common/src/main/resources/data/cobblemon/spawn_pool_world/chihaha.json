@@ -7,7 +7,7 @@
       "id": "chihaha-1",
       "pokemon": "chihaha",
       "presets": [
-          "village"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",
@@ -16,6 +16,7 @@
       "weight": 3.0,
       "condition": {
 "biomes": [ "#cobblemon:is_spooky" ],
+        "canSeeSky": true,
         "timeRange": "night"
       }
     }

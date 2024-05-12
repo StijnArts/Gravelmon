@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Zapalope extends Pokemon {
                 105, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 20, List.of(EggGroup.GRASS, EggGroup.FAIRY),
-                List.of("A Pokemon that zips through dense forests with ease. Its electrical energy allows it to move at high speeds. You can tell a Zapalope trail by the singed edges of the plants around it."),
+                List.of("A Pokémon that zips through dense forests with ease. Its electrical energy allows it to move at high speeds. You can tell a Zapalope trail by the singed edges of the plants around it."),
                 List.of(new EvolutionEntry("joltalope", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.HORN_LEECH.getName()+"\"")))),
                 List.of(

@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaMedicham extends Pokemon {
                 144, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A deep love for nature runs through this Pokemon's veins. It will immediately begin dancing to music featuring pipes or cymbals."),
+                List.of("A deep love for nature runs through this Pokémon's veins. It will immediately begin dancing to music featuring pipes or cymbals."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.MOONBLAST,1),

@@ -1,25 +1,5 @@
 {"target": "cobblemon:Grovyle",
- "evolutions": [
-  {
-   "id": "grovyle_armiransceptile",
-   "variant": "level_up",
-   "result": "armiransceptile",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [
-    {
-     "variant": "biome",
-     "biomeCondition": "#cobblemon:is_swamp"
-    },
-    {
-     "variant": "level",
-     "minLevel": 36
-    }
-   ]
-  }
-],
-  "moves": [
+   "moves": [
     "1:absorb",
     "1:energyball",
     "1:falseswipe",

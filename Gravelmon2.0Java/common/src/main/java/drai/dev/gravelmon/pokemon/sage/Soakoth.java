@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Soakoth extends Pokemon {
                 170, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.WATER_1),
-                List.of("Soakoth drifts nonchalantly along river rapids as if they were a gentle stream. Pokemon that can't swim sometimes climb on its belly to cross bodies of water."),
+                List.of("Soakoth drifts nonchalantly along river rapids as if they were a gentle stream. Pokémon that can't swim sometimes climb on its belly to cross bodies of water."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HAMMER_ARM,1),

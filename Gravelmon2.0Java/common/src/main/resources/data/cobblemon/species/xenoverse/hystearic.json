@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hystearic",
-  "nationalPokedexNumber": 2106,
+  "nationalPokedexNumber": 1125,
   "primaryType": "grass",
   "secondaryType": "sound",
   "abilities": [
@@ -53,7 +53,6 @@
     "1:absorb",
     "6:supersonic",
     "10:ingrain",
-    "14:babble",
     "18:megadrain",
     "22:screechsound",
     "26:echoedvoicesound",
@@ -69,7 +68,6 @@
     "tm:sunnyday",
     "tm:taunt",
     "tm:protect",
-    "tm:subwoofer",
     "tm:solarbeam",
     "tm:return",
     "tm:doubleteam",
@@ -95,7 +93,6 @@
     "tutor:seedbomb",
     "tutor:sleeptalksound",
     "tutor:snoresound",
-    "tutor:soundbarrier",
     "tutor:synthesis"  ],
   "labels": [
     "xenoverse"

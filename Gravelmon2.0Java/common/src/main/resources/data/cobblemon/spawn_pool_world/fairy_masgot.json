@@ -6,7 +6,7 @@
     {
       "id": "fairy_masgot-1",
       "pokemon": "masgot fairy",
-      "presets": [ "village"],
+      "presets": [ "urban"],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "rare",

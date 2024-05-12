@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "egholombre",
-  "nationalPokedexNumber": 271,
+  "nationalPokedexNumber": 270,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -125,13 +125,11 @@
   "labels": [
     "infinity",
     "gen3",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.egholombre.desc"
   ],
-  "preEvolution": "egholotad",
   "evolutions": [
     {
       "id": "egholombre_egholudicolo",
@@ -145,10 +143,10 @@
       "requiredContext": "cobblemon:fire_stone"   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

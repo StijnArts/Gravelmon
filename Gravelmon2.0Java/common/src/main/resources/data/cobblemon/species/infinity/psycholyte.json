@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "psycholyte",
-  "nationalPokedexNumber": 1451,
+  "nationalPokedexNumber": 1386,
   "primaryType": "grass",
   "secondaryType": "psychic",
   "abilities": [
@@ -110,14 +110,11 @@
     "egg:spore"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.psycholyte.desc"
   ],
-  "preEvolution": "mushling",
   "evolutions": [
     {
       "id": "psycholyte_shroomage",
@@ -133,10 +130,10 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

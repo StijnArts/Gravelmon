@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "girafaraf",
-  "nationalPokedexNumber": 1455,
+  "nationalPokedexNumber": 1390,
   "primaryType": "fairy",
   "secondaryType": "psychic",
   "abilities": [
@@ -165,10 +165,10 @@
     "cobblemon.species.girafaraf.desc"
   ],
   "preEvolution": "girafarig",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.43125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

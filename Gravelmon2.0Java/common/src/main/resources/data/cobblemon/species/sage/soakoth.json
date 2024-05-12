@@ -1,11 +1,10 @@
 {
   "implemented": true,
   "name": "soakoth",
-  "nationalPokedexNumber": 1186,
+  "nationalPokedexNumber": 1261,
   "primaryType": "water",
   "abilities": [
     "swiftswim",
-    "content",
     "h:regenerator"
   ],
   "baseStats": {
@@ -47,6 +46,16 @@
   "eggGroups": [
     "water_1"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:hammerarm",
     "1:recycle",
@@ -113,18 +122,15 @@
     "tm:waterfall"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.soakoth.desc"
   ],
-  "preEvolution": "chilloth",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

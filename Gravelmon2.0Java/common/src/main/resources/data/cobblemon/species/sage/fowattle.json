@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fowattle",
-  "nationalPokedexNumber": 1117,
+  "nationalPokedexNumber": 1192,
   "primaryType": "ground",
   "secondaryType": "flying",
   "abilities": [
@@ -49,6 +49,21 @@
     "flying",
     "field"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:egg",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:leer",
     "1:tackle",
@@ -60,7 +75,6 @@
     "19:aircutter",
     "22:tailwind",
     "25:mudshot",
-    "29:tempest",
     "33:roost",
     "37:mudslide",
     "41:sandstorm",
@@ -126,14 +140,11 @@
     "egg:weatherball"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.fowattle.desc"
   ],
-  "preEvolution": "quibble",
   "evolutions": [
     {
       "id": "fowattle_turkistador",
@@ -149,10 +160,10 @@
       ]   
  }
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

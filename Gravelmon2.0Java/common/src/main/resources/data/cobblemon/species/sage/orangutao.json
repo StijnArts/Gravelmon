@@ -1,10 +1,10 @@
 {
   "implemented": true,
   "name": "orangutao",
-  "nationalPokedexNumber": 1058,
+  "nationalPokedexNumber": 1133,
   "primaryType": "normal",
   "abilities": [
-    "content",
+    "keeneye",
     "h:innerfocus"
   ],
   "baseStats": {
@@ -47,6 +47,16 @@
     "field",
     "human_like"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:cocao_beans",
+        "quantityRange": "1-2",
+        "percentage": 45
+      }
+    ]
+  },
   "moves": [
     "1:storedpower",
     "1:bide",
@@ -144,7 +154,7 @@
     "tutor:zenheadbutt",
     "egg:amnesia",
     "egg:ancientpower",
-    "egg:cosmicpowercosmic",
+    "egg:cosmicpower",
     "egg:darkpulse",
     "egg:heavyslam",
     "egg:mimic",
@@ -152,18 +162,15 @@
     "egg:yawn"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.orangutao.desc"
   ],
-  "preEvolution": "taomarin",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shulongx",
-  "nationalPokedexNumber": 2079,
+  "nationalPokedexNumber": 1100,
   "primaryType": "water",
   "secondaryType": "dragon",
   "abilities": [
@@ -70,10 +70,10 @@
   "pokedex": [
     "cobblemon.species.shulongx.desc"
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

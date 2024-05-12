@@ -3,14 +3,13 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
 public class DeltaGreninja extends Pokemon {
     public DeltaGreninja(int dexNo) {
         super(dexNo,"DeltaGreninja",
-                Type.GRASS, Type.FIRE,
+                Type.WATER,
                 new Stats(72, 95, 67, 103, 71, 122),
                 List.of(Ability.STEADFAST), Ability.PRANKSTER,
                 15, 400,

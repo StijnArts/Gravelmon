@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Obsideon extends Pokemon {
                 184, ExperienceGroup.MEDIUM_FAST,
                 70,
                 35, List.of(EggGroup.FIELD),
-                List.of("Among mountainous Pokemon, it is relatively faster. It rams its obsidian covered spine against Graveler and Onix as a way of playing around to get them to chase it."),
+                List.of("Among mountainous Pokémon, it is relatively faster. It rams its obsidian covered spine against Graveler and Onix as a way of playing around to get them to chase it."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PRESSURIZE,1),
@@ -116,7 +115,7 @@ public class Obsideon extends Pokemon {
                         new SpawnCondition(SpawnConditionType.TIMERANGE, "night"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERGROUND),
                 0.27, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

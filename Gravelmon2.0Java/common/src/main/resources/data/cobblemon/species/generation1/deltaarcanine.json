@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaarcanine",
-  "nationalPokedexNumber": 59,
+  "nationalPokedexNumber": 58,
   "primaryType": "normal",
   "secondaryType": "dragon",
   "abilities": [
@@ -147,17 +147,15 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaarcanine.desc"
   ],
-  "preEvolution": "deltagrowlithe",
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

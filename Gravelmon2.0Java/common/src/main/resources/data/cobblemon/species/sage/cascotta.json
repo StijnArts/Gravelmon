@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "cascotta",
-  "nationalPokedexNumber": 1096,
+  "nationalPokedexNumber": 1171,
   "primaryType": "water",
   "abilities": [
     "speedboost",
@@ -47,6 +47,16 @@
   "eggGroups": [
     "water_1"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:aquaring",
     "1:watergun",
@@ -122,14 +132,11 @@
     "egg:waterpulse"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.cascotta.desc"
   ],
-  "preEvolution": "totter",
   "evolutions": [
     {
       "id": "cascotta_lutrajet",
@@ -145,10 +152,10 @@
       ]   
  }
   ],
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

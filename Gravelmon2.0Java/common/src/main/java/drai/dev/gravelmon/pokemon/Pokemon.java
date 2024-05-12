@@ -3,15 +3,12 @@ package drai.dev.gravelmon.pokemon;
 import drai.dev.gravelmon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import net.minecraft.core.*;
-import net.minecraft.core.registries.*;
 
 import java.util.*;
-import java.util.stream.*;
 
 public class Pokemon {
     public static String pokemonThatEvolveIntoThemselves = "Encountered pokemon that evolve into Themselves:";
-    public static Map<String, Pokemon> pokemonRegistry = new HashMap<>();
+    public static ArrayList<Pokemon> pokemonRegistry = new ArrayList<>();
     String name;
     Stats stats;
     Type primaryType;
@@ -82,7 +79,7 @@ public class Pokemon {
         this(name, primaryType, secondaryType, new Stats(10,10,10,10,10,10),List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 10,10,new Stats(0,0,0,0,0,0),255, 0.5, 50, ExperienceGroup.MEDIUM_FAST, 70, 30, List.of(EggGroup.UNDISCOVERED),
                 List.of(""), evolutions, List.of(new MoveLearnSetEntry(Move.TACKLE,1), new MoveLearnSetEntry(Move.GROWL, 1)),labels, 0, List.of(),SpawnContext.GROUNDED,
-                SpawnPool.COMMON, 1,1,0,List.of(), List.of(),List.of(SpawnPreset.ANCIENT_CITY),0.4,0.4,List.of());
+                SpawnPool.COMMON, 1,1,0,List.of(), List.of(),List.of(SpawnPreset.RUINED_STRUCTURES),0.4,0.4,List.of());
         this.setSecondaryType(secondaryType);
     }
 
@@ -90,7 +87,7 @@ public class Pokemon {
         this(dexNo, name, primaryType, secondaryType, new Stats(10,10,10,10,10,10),List.of(Ability.KEEN_EYE), Ability.KEEN_EYE,
                 10,10,new Stats(0,0,0,0,0,0),255, 0.5, 50, ExperienceGroup.MEDIUM_FAST, 70, 30, List.of(EggGroup.UNDISCOVERED),
                 List.of(""), evolutions, List.of(new MoveLearnSetEntry(Move.TACKLE,1), new MoveLearnSetEntry(Move.GROWL, 1)),labels, 0, List.of(),SpawnContext.GROUNDED,
-                SpawnPool.COMMON, 1,1,0,List.of(), List.of(),List.of(SpawnPreset.ANCIENT_CITY),0.4,0.4,List.of());
+                SpawnPool.COMMON, 1,1,0,List.of(), List.of(),List.of(SpawnPreset.RUINED_STRUCTURES),0.4,0.4,List.of());
         this.setSecondaryType(secondaryType);
     }
 
@@ -227,24 +224,20 @@ public class Pokemon {
                    int minSpawnLevel, int maxSpawnLevel, double spawnWeight, List<SpawnCondition> spawnConditions,
                    List<SpawnCondition> spawnAntiConditions, List<SpawnPreset> spawnPresets,
                    List<PokemonForm> forms) {
-        this.name = getClass().getSimpleName();
+        this.name = name;
         this.stats = stats;
         this.primaryType = primaryType;
         this.secondaryType = null;
-        this.abilities = new ArrayList<>();
-               this.abilities.addAll(abilities);
-        if(this.abilities.size() > 2){
-            this.abilities.remove(2);
-        }
+        this.abilities = abilities;
         this.hiddenAbility = hiddenAbility;
         this.catchRate = catchRate;
         this.maleRatio = maleRatio;
-        this.baseExperienceYield = baseExperienceYield == 0 ? 60 : baseExperienceYield;
+        this.baseExperienceYield = baseExperienceYield;
         this.experienceGroup = experienceGroup;
         this.eggCycles = eggCycles;
         this.eggGroups = eggGroups;
         this.dropAmount = dropAmount;
-        this.drops = new ArrayList<>();
+        this.drops = drops;
         this.pokedexNumber = GravelmonJsonGenerator.getDexCounter();
         this.forms = forms;
         this.learnSet = learnSet;
@@ -264,179 +257,40 @@ public class Pokemon {
         this.spawnConditions = spawnConditions;
         this.spawnAntiConditions = spawnAntiConditions;
         this.spawnPresets = spawnPresets;
-        this.baseScale = Math.max((height*1.5) /10/6,0.1);
-//        if(height > 50){
-            this.hitboxWidth = 6;
-            this.hitboxHeight = 6;
-//        } else {
-//            this.hitboxWidth = Math.max((height*1.5),0.1);
-//            this.hitboxHeight = Math.max((height*1.5),0.1);
-//        }
+        this.baseScale = Math.max((height*1.5) /10/8,0.1);
+        if(height/10 > 10){
+            this.hitboxWidth = 5;
+            this.hitboxHeight = 5;
+        } else if(height/10 < 4){
+            this.hitboxWidth = 3;
+            this.hitboxHeight = 3;
+        } else {
+            this.hitboxWidth = (height/10 * 1.5) / 4 / 1.3;
+            this.hitboxHeight = (height/10 * 1.5) / 4 / 1.3;
+        }
         this.portraitScale = 0.3;
-        pokemonRegistry.put(this.name.toLowerCase().replaceAll("\\W",""), this);
+        pokemonRegistry.add(this);
     }
 
-    public static void postRegistration() {
-        //TODO assign pre-evolutions stats based on the final evolution if they have empty stats
-        List<Pokemon> zeroStatPokemon = new ArrayList<>();
-        var evaluatedMons = new ArrayList<>();
-        StringBuilder pokemonWithZeroCatchrate = new StringBuilder("Pokemon with 0 catch-rate: \n");
-        StringBuilder pokemonWithZeroBaseStats = new StringBuilder("Pokemon with 0 Base Stats: \n");
-        StringBuilder pokemonWithMoreThanTwoSpawnPresets = new StringBuilder("Pokemon with more than 1 spawn preset: \n");
-        var sortedPokemonList = pokemonRegistry.values().stream().sorted(Comparator.comparing(pokemon -> pokemon.pokedexNumber)).toList();
-        for (var pokemon : sortedPokemonList) {
-            if (pokemon.getCatchRate() == 0)
-                pokemonWithZeroCatchrate.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
-            if(pokemon.spawnPresets.size()>1){
-                pokemonWithMoreThanTwoSpawnPresets.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ")
-                        .append(pokemon.getCleanName()).append(", being: ");
-                for (var preset :
-                        pokemon.spawnPresets) {
-                    pokemonWithMoreThanTwoSpawnPresets.append(preset).append(",");
-                }
-                pokemonWithMoreThanTwoSpawnPresets.append("\n");
-            }
-            if(pokemon.getEggGroups().isEmpty()){
-                pokemon.eggGroups = new ArrayList<>(pokemon.eggGroups);
-                pokemon.eggGroups.add(EggGroup.FIELD);
-            }
-            if(pokemon.stats.isEmpty()){
-                zeroStatPokemon.add(pokemon);
-            }
-
+    public static void scanEvolutions() {
+        for (Pokemon pokemon : pokemonRegistry) {
             for (EvolutionEntry evolutionEntry : pokemon.getEvolutions()) {
-                Pokemon result = pokemonRegistry.values().stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
-                if (result != null) {
-                    if (evolutionEntry.getRequiredContext() != null) {
-                        addItemAsDrop(pokemon, evolutionEntry.getRequiredContext(), result);
-                    } else {
-                        evolutionEntry.getRequirements().stream()
-                                .filter(entry -> entry.getCondition().equals("itemCondition"))
-                                .forEach(entry -> addItemAsDrop(pokemon, entry.getConditionParameter().replace("\"", ""), result));
-                    }
-                    if (result.getLangFileName() != null) {
-                        if (result.getLangFileName().equalsIgnoreCase(pokemon.getName())) continue;
-                        if (pokemon.getLangFileName() != null) {
-                            if (result.getLangFileName().equalsIgnoreCase(pokemon.getLangFileName())) continue;
-                        }
-                    } else if (pokemon.getLangFileName() != null) {
-                        if (pokemon.getLangFileName().equalsIgnoreCase(result.getName())) continue;
-                    }
-
-                    if (evaluatedMons.contains(result)) continue;
-                    evaluatedMons.add(result);
-                    if (result.preEvolution != null) {
+                Pokemon result = pokemonRegistry.stream().filter(p -> p.getName().equalsIgnoreCase(evolutionEntry.getResult())).findFirst().orElse(null);
+                if(result != null){
+                    if(result.preEvolution!=null){
                         continue;
                     }
-                    if (result.getCleanName().equals(pokemon.getCleanName())) {
-                        pokemonThatEvolveIntoThemselves += pokemon.getCleanName() + ",\n";
+                    if(result.getCleanName().equals(pokemon.getCleanName())){
+                        pokemonThatEvolveIntoThemselves+=pokemon.getCleanName()+",\n";
                     }
-                    if (!isBasedOnOriginalPokemon(pokemon)) {
+                    if(!isBasedOnOriginalPokemon(pokemon)){
                         result.getLabels().add(Label.FAKEMON);
                     }
                     result.setPreEvolution(pokemon.getCleanName());
                 }
             }
-            var evaluatedForms = new ArrayList<>();
-            for (PokemonForm form : pokemon.getForms()) {
-                if (pokemon.getCatchRate() == 0)
-                    pokemonWithZeroCatchrate.append(pokemon.getCleanName()).append(", Aspect: ").append(form.getAspects()).append(",\n");
-                if (form.getStats().getTotal() == 0)
-                    pokemonWithZeroBaseStats.append(form.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(", Aspect: ").append(form.getAspects()).append(",\n");
-                for (EvolutionEntry evolutionEntry : form.getEvolutions()) {
-                    String resultName = evolutionEntry.getResult();
-                    PokemonForm result = pokemonRegistry.values().stream()
-                            .filter(p -> p.getName().equalsIgnoreCase(resultName))
-                            .map(Pokemon::getForms).flatMap(List::stream).filter(pokemonForm -> new HashSet<>(pokemonForm.getAspects()).containsAll(evolutionEntry.getAspects())).findFirst().orElse(null);
-                    if (result != null) {
-                        if (evolutionEntry.getRequiredContext() != null) {
-                            addItemAsDrop(form, evolutionEntry.getRequiredContext(), result);
-                        } else {
-                            evolutionEntry.getRequirements().stream()
-                                    .filter(entry -> entry.getCondition().equals("itemCondition"))
-                                    .forEach(entry -> addItemAsDrop(form, entry.getConditionParameter().replace("\"", ""), result));
-                        }
-
-
-                        if (evaluatedForms.contains(result)) continue;
-                        evaluatedForms.add(result);
-                        if (result.preEvolution != null) {
-                            continue;
-                        }
-                        if (result.getCleanName().equals(pokemon.getCleanName())) {
-                            pokemonThatEvolveIntoThemselves += pokemon.getCleanName() + ", Aspect: " + evolutionEntry.getAspects() + ",\n";
-                        }
-                        if (!isBasedOnOriginalPokemon(pokemon)) {
-                            result.getLabels().add(Label.FAKEMON);
-                        }
-                        String aspect = evolutionEntry.getAspects().stream().findFirst().isEmpty() ? "" : " form=" + evolutionEntry.getAspects().stream().findFirst().get().getName();
-                        result.setPreEvolution(pokemon.getCleanName() + aspect);
-                    }
-                }
-            }
         }
         System.out.println(pokemonThatEvolveIntoThemselves);
-//        System.out.println(pokemonWithZeroBaseStats);
-        System.out.println(pokemonWithZeroCatchrate);
-        System.out.println(pokemonWithMoreThanTwoSpawnPresets);
-        System.out.println("Evolution Items:");
-        for (String item : evolutionItems) {System.out.println(item+",");
-        }
-
-        for (int i = zeroStatPokemon.size()-1; i > -1; i--) {
-            var pokemon = zeroStatPokemon.get(i);
-            if (!pokemon.evolutions.isEmpty()) {
-                var pokemonToCopy = pokemon.evolutions.stream()
-                        .map(evolutionEntry -> evolutionEntry.getResult().toLowerCase())
-                        .filter(result -> pokemonRegistry.containsKey(result))
-                        .map(result -> pokemonRegistry.get(result))
-                        .min(Comparator.comparing(pokemon1 -> pokemon1.stats.getTotal()));
-                if (pokemonToCopy.isPresent()) {
-                    var evolutionStats = pokemonToCopy.get().stats;
-                    pokemon.stats = new Stats(evolutionStats, 0.7);
-                }
-            }
-        }
-
-        for (var pokemon : sortedPokemonList) {
-            if(pokemon.baseExperienceYield == 0){
-                pokemon.baseExperienceYield = 512/(pokemon.stats.getHP()/255);
-            }
-            if(pokemon.stats.isEmpty()){
-                pokemonWithZeroBaseStats.append(pokemon.getLabels().stream().findFirst().orElse(Label.MISSING).getName()).append(": ").append(pokemon.getCleanName()).append(",\n");
-            }
-        }
-        System.out.println(pokemonWithZeroBaseStats);
-
-    }
-
-    public static List<String> evolutionItems = new ArrayList<>();
-    private static void addItemAsDrop(PokemonForm form, String evolutionEntry, PokemonForm result) {
-        if(evolutionEntry.contains("gravelmon")){
-            if(!evolutionItems.contains(evolutionEntry)){
-                evolutionItems.add(evolutionEntry);
-            }
-            result.setDropAmount(1);
-            result.getDrops().add(new ItemDrop(evolutionEntry,40, 1,1));
-            form.setDropAmount(1);
-            form.getDrops().add(new ItemDrop(evolutionEntry,10, 1,1));
-        }
-    }
-
-    private static void addItemAsDrop(Pokemon form, String evolutionEntry, Pokemon result) {
-        if(evolutionEntry.contains("gravelmon")){
-            if(!evolutionItems.contains(evolutionEntry)){
-                evolutionItems.add(evolutionEntry);
-            }
-            result.setDropAmount(1);
-            result.getDrops().add(new ItemDrop(evolutionEntry,40, 1,1));
-            form.setDropAmount(1);
-            form.getDrops().add(new ItemDrop(evolutionEntry,10, 1,1));
-        }
-    }
-
-    private void setDropAmount(int i) {
-        dropAmount = i;
     }
 
     private static boolean isBasedOnOriginalPokemon(Pokemon pokemon) {
@@ -444,21 +298,12 @@ public class Pokemon {
         for (Label label : pokemon.labels) {
             String generationLabel = "gen";
             for (int i = 1; i < 10; i++) {
-                if (label.getName().equalsIgnoreCase(generationLabel + i)) {
+                if(label.getName().equalsIgnoreCase(generationLabel+i)){
                     isEvoOfAPreviousPokemon = true;
-                    break;
                 }
             }
         }
         return isEvoOfAPreviousPokemon;
-    }
-
-    protected void setPreEvolution(String cleanName) {
-        if(cleanName.equalsIgnoreCase("eevee")){
-            this.labels.add(Label.EEVEELUTION);
-        }
-        this.labels.add(Label.FAKEMON_EVOLUTION);
-        this.preEvolution = cleanName;
     }
 
     public void setShoulderMountable(boolean shoulderMountable) {
@@ -832,6 +677,14 @@ public class Pokemon {
             double newFormHitboxWidth = (double)forms.getHeight()/10;
             double newFormHitboxHeight = (double)forms.getHeight()/10;
             setHitbox(newFormHitboxWidth,newFormHitboxHeight);});
+    }
+
+    protected void setPreEvolution(String cleanName) {
+        if(cleanName.equalsIgnoreCase("eevee")){
+            this.labels.add(Label.EEVEELUTION);
+        }
+        this.labels.add(Label.FAKEMON_EVOLUTION);
+        this.preEvolution = cleanName;
     }
 
     public String getPreEvolution() {

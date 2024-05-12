@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "fumighast",
-  "nationalPokedexNumber": 1127,
+  "nationalPokedexNumber": 1202,
   "primaryType": "poison",
   "secondaryType": "ghost",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:glass_bottle",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:poisongas",
     "1:smokescreen",
@@ -135,18 +145,15 @@
     "egg:smokescreen"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.fumighast.desc"
   ],
-  "preEvolution": "noxial",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

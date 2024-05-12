@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "gengarx",
-  "nationalPokedexNumber": 94,
+  "nationalPokedexNumber": 93,
   "primaryType": "dragon",
   "secondaryType": "psychic",
   "abilities": [
@@ -54,7 +54,7 @@
       {
         "item": "gravelmon:xenolith",
         "quantityRange": "1-1",
-        "percentage": 40
+        "percentage": 50
       }
     ]
   },
@@ -130,17 +130,15 @@
   "labels": [
     "xenoverse",
     "gen1",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.gengarx.desc"
   ],
-  "preEvolution": "haunterx",
-  "baseScale": 0.525,
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

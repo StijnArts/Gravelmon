@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaroserade",
-  "nationalPokedexNumber": 407,
+  "nationalPokedexNumber": 406,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -126,7 +126,6 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
-    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -154,22 +153,19 @@
     "40:lovelykiss",
     "43:moonblast",
     "46:moonlight",
-    "50:lunarcannon",
     "55:hurricane"  ],
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaroserade.desc"
   ],
-  "preEvolution": "deltaroselia",
-  "baseScale": 0.225,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

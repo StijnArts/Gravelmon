@@ -7,7 +7,7 @@
       "id": "erion-1",
       "pokemon": "erion",
       "presets": [
-          "jungle_pyramid"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

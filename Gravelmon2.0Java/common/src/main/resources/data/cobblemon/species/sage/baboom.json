@@ -1,12 +1,11 @@
 {
   "implemented": true,
   "name": "baboom",
-  "nationalPokedexNumber": 1224,
+  "nationalPokedexNumber": 1299,
   "primaryType": "electric",
   "secondaryType": "dark",
   "abilities": [
     "moxie",
-    "adrenaline",
     "h:ironfist"
   ],
   "baseStats": {
@@ -49,6 +48,16 @@
     "human_like",
     "field"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:sonicboomsound",
     "1:charge",
@@ -144,10 +153,10 @@
   "pokedex": [
     "cobblemon.species.baboom.desc"
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

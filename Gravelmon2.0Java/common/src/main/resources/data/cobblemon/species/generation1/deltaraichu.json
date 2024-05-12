@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaraichu",
-  "nationalPokedexNumber": 26,
+  "nationalPokedexNumber": 25,
   "primaryType": "flying",
   "secondaryType": "fairy",
   "abilities": [
@@ -93,7 +93,6 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
-    "tm:lunarcannon",
     "tm:skydrop",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -142,17 +141,15 @@
   "labels": [
     "insurgence",
     "gen1",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaraichu.desc"
   ],
-  "preEvolution": "deltapikachu",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

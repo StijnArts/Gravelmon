@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dilophlora",
-  "nationalPokedexNumber": 1223,
+  "nationalPokedexNumber": 1298,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -49,6 +49,16 @@
     "grass",
     "dragon"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:uturn",
     "1:dualchop",
@@ -144,18 +154,15 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.dilophlora.desc"
   ],
-  "preEvolution": "ornitherb",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

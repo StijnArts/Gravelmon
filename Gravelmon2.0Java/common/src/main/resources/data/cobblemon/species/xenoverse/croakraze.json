@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "croakraze",
-  "nationalPokedexNumber": 2148,
+  "nationalPokedexNumber": 1166,
   "primaryType": "fire",
   "secondaryType": "ground",
   "abilities": [
@@ -107,22 +107,18 @@
     "egg:zenheadbutt",
     "egg:eruption",
     "tutor:blastburn",
-    "tutor:scorchedashes",
     "tutor:secretpower"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.croakraze.desc"
   ],
-  "preEvolution": "bullverin",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

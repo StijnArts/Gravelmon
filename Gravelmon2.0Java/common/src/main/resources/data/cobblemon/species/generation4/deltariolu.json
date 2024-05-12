@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltariolu",
-  "nationalPokedexNumber": 447,
+  "nationalPokedexNumber": 446,
   "primaryType": "dark",
   "abilities": [
     "justified",
@@ -101,7 +101,6 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",

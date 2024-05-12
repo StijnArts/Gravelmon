@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "platypow",
-  "nationalPokedexNumber": 1100,
+  "nationalPokedexNumber": 1175,
   "primaryType": "fighting",
   "secondaryType": "poison",
   "abilities": [
@@ -48,6 +48,16 @@
     "field",
     "water_1"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:potato",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:rage",
     "1:tailwhip",
@@ -157,10 +167,10 @@
       ]   
  }
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

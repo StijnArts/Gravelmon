@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghowartortle",
-  "nationalPokedexNumber": 8,
+  "nationalPokedexNumber": 7,
   "primaryType": "water",
   "secondaryType": "flying",
   "abilities": [
@@ -49,6 +49,16 @@
     "water_1",
     "monster"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:foggystrike",
     "1:nimbusfist",
@@ -129,13 +139,11 @@
     "egg:waterspout"  ],
   "labels": [
     "gen1",
-    "infinity",
-    "fakemonevolution"
+    "infinity"
   ],
   "pokedex": [
     "cobblemon.species.eghowartortle.desc"
   ],
-  "preEvolution": "eghosquirtle",
   "evolutions": [
     {
       "id": "eghowartortle_eghoblastoise",

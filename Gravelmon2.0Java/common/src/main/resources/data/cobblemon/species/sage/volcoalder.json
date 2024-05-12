@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "volcoalder",
-  "nationalPokedexNumber": 1078,
+  "nationalPokedexNumber": 1153,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:magma",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:bodyslam",
     "1:earthpower",
@@ -125,18 +135,15 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.volcoalder.desc"
   ],
-  "preEvolution": "volcaroc",
-  "baseScale": 0.45,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

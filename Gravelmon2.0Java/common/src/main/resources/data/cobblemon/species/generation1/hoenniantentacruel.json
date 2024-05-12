@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoenniantentacruel",
-  "nationalPokedexNumber": 73,
+  "nationalPokedexNumber": 72,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -55,7 +55,6 @@
     "12:bubblebeam",
     "19:acid",
     "25:thunderwave",
-    "30:thunderclap",
     "38:liquidation",
     "55:poisonjab",
     "tm:scald",
@@ -72,7 +71,6 @@
     "tm:thunderbolt",
     "tm:thunder",
     "tm:return",
-    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:sludgebomb",
@@ -87,22 +85,19 @@
     "tm:flash",
     "tm:waterfall",
     "tm:dive",
-    "egg:smokescreen",
-    "egg:moonrazer"  ],
+    "egg:smokescreen"  ],
   "labels": [
     "blazing_emerald",
     "gen1",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.hoenniantentacruel.desc"
   ],
-  "preEvolution": "hoenniantentacool",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

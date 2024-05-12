@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "drasparath",
-  "nationalPokedexNumber": 3723,
+  "nationalPokedexNumber": 1177,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
-    "aircontrol",
-    "h:aircontrol"
+    "keeneye",
+    "h:keeneye"
   ],
   "baseStats": {
     "hp": 80,
@@ -63,7 +63,6 @@
     "40:ancientpower",
     "40:thunder",
     "44:triattack",
-    "49:cloudburst",
     "tm:roarsound",
     "tm:toxic",
     "tm:hiddenpower",
@@ -77,7 +76,6 @@
     "tm:return",
     "tm:dig",
     "tm:shadowball",
-    "tm:shimmershot",
     "tm:shockwave",
     "tm:flamethrower",
     "tm:fireblast",
@@ -91,21 +89,19 @@
     "tm:flash",
     "tm:rocksmash",
     "egg:sleeptalksound",
-    "egg:cosmicpowercosmic"  ],
+    "egg:cosmicpower"  ],
   "labels": [
     "blazing_emerald",
     "gen2",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.drasparath.desc"
   ],
-  "preEvolution": "hoenniandunsparce",
-  "baseScale": 1.2249999999999999,
+  "baseScale": 0.91875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
     "fixed": false
   },
   "baseFriendship": 70,

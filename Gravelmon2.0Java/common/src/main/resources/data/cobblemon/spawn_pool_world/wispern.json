@@ -7,7 +7,7 @@
       "id": "wispern-1",
       "pokemon": "wispern",
       "presets": [
-          "village"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",

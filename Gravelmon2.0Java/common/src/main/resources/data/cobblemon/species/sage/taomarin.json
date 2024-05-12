@@ -1,10 +1,10 @@
 {
   "implemented": true,
   "name": "taomarin",
-  "nationalPokedexNumber": 1057,
+  "nationalPokedexNumber": 1132,
   "primaryType": "normal",
   "abilities": [
-    "content",
+    "keeneye",
     "h:innerfocus"
   ],
   "baseStats": {
@@ -47,6 +47,16 @@
     "field",
     "human_like"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:cocao_beans",
+        "quantityRange": "1-2",
+        "percentage": 45
+      }
+    ]
+  },
   "moves": [
     "1:bide",
     "1:acupressure",
@@ -137,7 +147,7 @@
     "tutor:zenheadbutt",
     "egg:amnesia",
     "egg:ancientpower",
-    "egg:cosmicpowercosmic",
+    "egg:cosmicpower",
     "egg:darkpulse",
     "egg:heavyslam",
     "egg:mimic",
@@ -165,10 +175,10 @@
       ]   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

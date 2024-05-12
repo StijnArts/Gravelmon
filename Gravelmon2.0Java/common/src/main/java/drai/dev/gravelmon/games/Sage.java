@@ -434,9 +434,8 @@ public class Sage extends Game {
 
         pokemon.add(new Yacuma());
 
-        var quetzar = new Quetzar();
-        pokemon.add(quetzar);
-        pokemon.add(new QuetzarSpace(quetzar.getPokedexNumber()));
+        pokemon.add(new Quetzar());
+        pokemon.add(new QuetzarSpace());
 
         pokemon.add(new Xochi());
 

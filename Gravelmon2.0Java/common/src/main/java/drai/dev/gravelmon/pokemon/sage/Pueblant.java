@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -110,7 +109,7 @@ public class Pueblant extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DESERT)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.DESERT_PYRAMID),
+                List.of(SpawnPreset.DESERT_TEMPLE),
                 0.2, 0.5,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

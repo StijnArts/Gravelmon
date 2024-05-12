@@ -7,7 +7,7 @@
       "id": "deltaruinmetang-1",
       "pokemon": "deltaruinmetang",
       "presets": [
-          "jungle_pyramid"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
@@ -45,7 +44,7 @@ public class Vitellion extends Pokemon {
                         new MoveLearnSetEntry(Move.COSMIC_POWER,45),
                         new MoveLearnSetEntry(Move.SHADE_TRANCE,50)
                         ),
-                List.of(Label.BLAZING_EMERALD, Label.JOKE),
+                List.of(Label.BLAZING_EMERALD),
                 0, List.of(),
                 SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 10, 40, 0.001, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),

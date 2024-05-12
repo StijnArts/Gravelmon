@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaweezing",
-  "nationalPokedexNumber": 110,
+  "nationalPokedexNumber": 109,
   "primaryType": "electric",
   "secondaryType": "flying",
   "abilities": [
@@ -146,13 +146,11 @@
     "tutor:waterpulse"  ],
   "labels": [
     "gen1",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltaweezing.desc"
   ],
-  "preEvolution": "deltakoffing",
   "baseScale": 1.2,
   "hitbox": {
     "width": 1.3,

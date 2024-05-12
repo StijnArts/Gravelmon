@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "charmbra",
-  "nationalPokedexNumber": 1144,
+  "nationalPokedexNumber": 1219,
   "primaryType": "ground",
   "secondaryType": "poison",
   "abilities": [
@@ -49,6 +49,16 @@
     "field",
     "dragon"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:synchronoise",
     "1:nastyplot",
@@ -139,18 +149,15 @@
     "egg:swallow"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.charmbra.desc"
   ],
-  "preEvolution": "cobrasket",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

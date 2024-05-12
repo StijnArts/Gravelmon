@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltalucario",
-  "nationalPokedexNumber": 448,
+  "nationalPokedexNumber": 447,
   "primaryType": "dark",
   "secondaryType": "ground",
   "abilities": [
@@ -188,7 +188,6 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -239,13 +238,11 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen4",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltalucario.desc"
   ],
-  "preEvolution": "deltariolu",
   "baseScale": 1.1,
   "hitbox": {
     "width": 0.8,

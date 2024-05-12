@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crawglock",
-  "nationalPokedexNumber": 1113,
+  "nationalPokedexNumber": 1188,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -49,13 +49,23 @@
     "water_3",
     "mineral"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:watergun",
     "1:harden",
     "1:mudbomb",
     "1:bulletseed",
     "1:vacuumwave",
-    "1:visegrip",
+    "1:vicegrip",
     "4:focusenergy",
     "7:aquajet",
     "11:sonicboomsound",
@@ -149,18 +159,15 @@
     "egg:waterpulse"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.crawglock.desc"
   ],
-  "preEvolution": "craliber",
-  "baseScale": 0.225,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

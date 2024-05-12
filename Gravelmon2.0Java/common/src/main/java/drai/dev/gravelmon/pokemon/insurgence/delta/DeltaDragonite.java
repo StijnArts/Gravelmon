@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaDragonite extends Pokemon {
                 300, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A courageous and kind Pokemon, it braves storms to lead shipwrecked crews to land. It can travel underwater at a speed of 400 knots."),
+                List.of("A courageous and kind Pokémon, it braves storms to lead shipwrecked crews to land. It can travel underwater at a speed of 400 knots."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ZAP_CANNON,1),

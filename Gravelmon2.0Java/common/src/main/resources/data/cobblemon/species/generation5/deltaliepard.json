@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaliepard",
-  "nationalPokedexNumber": 510,
+  "nationalPokedexNumber": 509,
   "primaryType": "ghost",
   "secondaryType": "fairy",
   "abilities": [
@@ -125,7 +125,6 @@
     "tm:darkpulse",
     "tm:dazzlinggleam",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -168,17 +167,15 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaliepard.desc"
   ],
-  "preEvolution": "deltapurrloin",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

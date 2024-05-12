@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltalairon",
-  "nationalPokedexNumber": 305,
+  "nationalPokedexNumber": 304,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -143,13 +143,11 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltalairon.desc"
   ],
-  "preEvolution": "deltaaron",
   "evolutions": [
     {
       "id": "deltalairon_deltaaggron",
@@ -165,10 +163,10 @@
       ]   
  }
   ],
-  "baseScale": 0.225,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

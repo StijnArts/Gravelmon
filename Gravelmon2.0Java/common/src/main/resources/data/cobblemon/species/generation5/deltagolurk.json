@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltagolurk",
-  "nationalPokedexNumber": 623,
+  "nationalPokedexNumber": 622,
   "primaryType": "fighting",
   "secondaryType": "steel",
   "abilities": [
@@ -139,17 +139,15 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltagolurk.desc"
   ],
-  "preEvolution": "deltagolett",
-  "baseScale": 0.7000000000000001,
+  "baseScale": 0.525,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

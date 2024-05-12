@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -132,7 +131,7 @@ public class DeltaHoopa extends Pokemon {
                         new MoveLearnSetEntry(Move.WATER_PULSE,"tutor"),
                         new MoveLearnSetEntry(Move.ZEN_HEADBUTT,"tutor")
                         ),
-                List.of(Label.GEN6,Label.INSURGENCE),
+                List.of(Label.GEN5,Label.INSURGENCE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 50, 70, 0.00002, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_MOUNTAIN, Biome.IS_SKY)),

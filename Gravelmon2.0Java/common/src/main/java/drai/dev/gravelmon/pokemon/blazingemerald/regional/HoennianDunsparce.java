@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.blazingemerald.regional;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
@@ -21,8 +20,7 @@ public class HoennianDunsparce extends Pokemon {
                 70,
                 51, List.of(EggGroup.FIELD),
                 List.of("This Pokemon's eyesight is so poor that it can barely see objects directly in front of it. It escapes predators by shocking them with its electric tail."),
-                List.of(new EvolutionEntry("drasparath", EvolutionType.LEVEL_UP, List.of(),
-                        List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"40")))),
+                List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SLEEP_TALK,"egg"),
                         new MoveLearnSetEntry(Move.COSMIC_POWER,"egg"),
@@ -68,7 +66,7 @@ public class HoennianDunsparce extends Pokemon {
                         new SpawnCondition(SpawnConditionType.CANSEESKY, "false"),
                         new SpawnCondition(SpawnConditionType.MAXY, "20")
                 ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK))),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERGROUND),
                 0.19, 0.3,
                 List.of());
         this.setLangFileName("Dunsparce");

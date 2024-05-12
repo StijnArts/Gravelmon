@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "mewtwox",
-  "nationalPokedexNumber": 150,
+  "nationalPokedexNumber": 132,
   "primaryType": "psychic",
   "abilities": [
     "protean",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:firepunch",
     "1:icepunch",
@@ -86,7 +96,6 @@
     "tm:raindance",
     "tm:roost",
     "tm:safeguard",
-    "tm:subwoofer",
     "tm:solarbeam",
     "tm:smackdown",
     "tm:thunderbolt",
@@ -169,10 +178,10 @@
   "pokedex": [
     "cobblemon.species.mewtwox.desc"
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -7,7 +7,7 @@
       "id": "deltagolem-1",
       "pokemon": "deltagolem",
       "presets": [
-          "jungle_pyramid"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

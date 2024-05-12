@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaDrifloon extends Pokemon {
                 70, ExperienceGroup.FLUCTUATING,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by yungbro. It is formed by the passionate spirits of people and Pokemon."),
+                List.of("A Delta Species discovered by yungbro. It is formed by the passionate spirits of people and Pokémon."),
                 List.of(new EvolutionEntry("deltadrifblim", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"28")))
                 ),

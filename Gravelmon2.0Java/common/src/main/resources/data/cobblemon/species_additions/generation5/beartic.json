@@ -1,24 +1,4 @@
 {"target": "cobblemon:Beartic",
- "evolutions": [
-  {
-   "id": "beartic_valbear",
-   "variant": "level_up",
-   "result": "valbear",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [
-    {
-     "variant": "biome",
-     "biomeCondition": "#cobblemon:is_snowy_forest"
-    },
-    {
-     "variant": "level",
-     "minLevel": 52
-    }
-   ]
-  }
- ],
    "moves": [
     "1:aquajet",
     "1:bide",

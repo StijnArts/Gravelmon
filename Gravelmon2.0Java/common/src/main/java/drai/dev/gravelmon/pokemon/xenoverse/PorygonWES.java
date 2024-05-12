@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class PorygonWES extends Pokemon {
                 241, ExperienceGroup.MEDIUM_FAST,
                 70,
                 39, List.of(EggGroup.MINERAL),
-                List.of("It was updated with the most cutting-edge technology ever created. It was originally meant to be an assistant in PokeWES."),
+                List.of("It was updated with the most cutting-edge technology ever created. It was originally meant to be an assistant in PokéWES."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.TRICK_ROOM,1),
@@ -80,7 +79,8 @@ public class PorygonWES extends Pokemon {
                 List.of(Label.XENOVERSE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.RARE, 44, 56, 2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_END))
+                        new BiomeSpawnCondition(List.of(Biome.IS_END)),
+                        new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
                 List.of(SpawnPreset.NATURAL),
                 0.28, 0.3,

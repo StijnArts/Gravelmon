@@ -1,20 +1,4 @@
 {"target": "cobblemon:Tropius",
- "evolutions": [
-  {
-   "id": "tropius_fruitius",
-   "variant": "level_up",
-   "result": "fruitius",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [
-    {
-     "variant": "friendship",
-     "amount": 160
-    }
-   ]
-  }
- ],
    "moves": [
     "1:growth",
     "1:gust",

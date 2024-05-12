@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "hoennianduosion",
-  "nationalPokedexNumber": 578,
+  "nationalPokedexNumber": 577,
   "primaryType": "psychic",
   "secondaryType": "grass",
   "abilities": [
-    "fruitrition",
-    "h:fruitrition"
+    "keeneye",
+    "h:keeneye"
   ],
   "baseStats": {
     "hp": 65,
@@ -64,7 +64,6 @@
     "tm:return",
     "tm:psychic",
     "tm:shadowball",
-    "tm:shimmershot",
     "tm:reflect",
     "tm:shockwave",
     "tm:flamethrower",
@@ -79,7 +78,6 @@
     "1:poisonpowder",
     "7:confusion",
     "13:magicalleaf",
-    "20:ripen",
     "28:synthesis",
     "32:psybeam",
     "38:megadrain",
@@ -90,13 +88,11 @@
   "labels": [
     "blazing_emerald",
     "gen5",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.hoennianduosion.desc"
   ],
-  "preEvolution": "hoenniansolosis",
   "evolutions": [
     {
       "id": "hoennianduosion_hoennianreuniclus",
@@ -116,10 +112,10 @@
       ]   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

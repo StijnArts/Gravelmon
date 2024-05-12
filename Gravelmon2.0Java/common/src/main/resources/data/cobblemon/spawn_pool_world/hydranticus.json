@@ -7,20 +7,20 @@
       "id": "hydranticus-1",
       "pokemon": "hydranticus",
       "presets": [
-          "reef"
+          "water_surface"
       ],
       "type": "pokemon",
-      "context": "submerged",
+      "context": "surface",
       "bucket": "rare",
       "level": "35-56",
       "weight": 3.5,
       "condition": {
 "biomes": [ "#cobblemon:is_lukewarm_ocean",
-"#cobblemon:is_warm_ocean" ],
+"#cobblemon:is_reef" ],
         "canSeeSky": true
       },
       "anticondition": {
-"biomes": [ "#minecraft:is_deep_ocean",
+"biomes": [ "#cobblemon:is_deep",
 "#cobblemon:is_freshwater" ]    }
     }
   ]

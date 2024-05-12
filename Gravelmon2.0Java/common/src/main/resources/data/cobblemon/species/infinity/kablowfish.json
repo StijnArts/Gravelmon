@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kablowfish",
-  "nationalPokedexNumber": 1440,
+  "nationalPokedexNumber": 1373,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -132,10 +132,10 @@
     "cobblemon.species.kablowfish.desc"
   ],
   "preEvolution": "qwilfish",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

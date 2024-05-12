@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "viipii",
-  "nationalPokedexNumber": 1184,
+  "nationalPokedexNumber": 1259,
   "primaryType": "normal",
   "abilities": [
     "cutecharm",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "ditto"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-1",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:yawn",
     "1:metronome",
@@ -153,10 +163,10 @@
   "pokedex": [
     "cobblemon.species.viipii.desc"
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

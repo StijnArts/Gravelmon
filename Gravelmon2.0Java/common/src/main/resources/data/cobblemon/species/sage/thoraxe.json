@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "thoraxe",
-  "nationalPokedexNumber": 1173,
+  "nationalPokedexNumber": 1248,
   "primaryType": "bug",
   "abilities": [
     "heatproof",
@@ -46,6 +46,16 @@
   "eggGroups": [
     "bug"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:iron_axe",
+        "quantityRange": "1-1",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:focusenergy",
     "1:covet",
@@ -122,10 +132,10 @@
   "pokedex": [
     "cobblemon.species.thoraxe.desc"
   ],
-  "baseScale": 0.3,
+  "baseScale": 0.225,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

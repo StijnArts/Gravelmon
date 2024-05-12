@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "draggar",
-  "nationalPokedexNumber": 1243,
+  "nationalPokedexNumber": 1318,
   "primaryType": "water",
   "abilities": [
     "unburden",
@@ -48,6 +48,16 @@
     "dragon",
     "water_1"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:spruce_log",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:whirlpool",
     "1:dragonrage",
@@ -129,10 +139,10 @@
       ]   
  }
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

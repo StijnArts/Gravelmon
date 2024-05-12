@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "scubug",
-  "nationalPokedexNumber": 1094,
+  "nationalPokedexNumber": 1169,
   "primaryType": "bug",
   "secondaryType": "water",
   "abilities": [
@@ -49,6 +49,16 @@
     "bug",
     "water_3"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:flash",
     "1:whirlpool",
@@ -119,18 +129,15 @@
     "egg:scald"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.scubug.desc"
   ],
-  "preEvolution": "bouwee",
-  "baseScale": 0.225,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviianursaring",
-  "nationalPokedexNumber": 217,
+  "nationalPokedexNumber": 216,
   "primaryType": "ghost",
   "secondaryType": "fighting",
   "abilities": [
@@ -131,17 +131,15 @@
   "labels": [
     "radicalred",
     "gen2",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.seviianursaring.desc"
   ],
-  "preEvolution": "seviianteddiursa",
-  "baseScale": 0.45,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

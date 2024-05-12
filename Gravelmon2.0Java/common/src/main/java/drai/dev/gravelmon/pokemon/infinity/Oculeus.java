@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -162,7 +161,7 @@ public class Oculeus extends Pokemon {
                         ),
                 List.of(Label.INFINITY),
                 0, List.of(
-                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 70, 70, 0.00001, List.of(
+                ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 70, 70, 0.0001, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_OVERWORLD)),
                         new SpawnCondition(SpawnConditionType.MINY,"300"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")

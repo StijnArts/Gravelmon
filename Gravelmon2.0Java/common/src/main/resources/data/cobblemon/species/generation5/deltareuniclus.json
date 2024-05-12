@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltareuniclus",
-  "nationalPokedexNumber": 579,
+  "nationalPokedexNumber": 578,
   "primaryType": "ghost",
   "secondaryType": "rock",
   "abilities": [
@@ -114,7 +114,6 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:roundsound",
     "tm:captivate",
     "tm:confide",
@@ -155,17 +154,15 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltareuniclus.desc"
   ],
-  "preEvolution": "deltaduosion",
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

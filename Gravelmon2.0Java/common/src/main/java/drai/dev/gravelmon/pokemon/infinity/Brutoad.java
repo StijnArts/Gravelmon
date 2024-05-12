@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Brutoad extends Pokemon {
                 142, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 52, List.of(EggGroup.MONSTER, EggGroup.WATER_1),
-                List.of("Brutoad are known to be aggressive and territorial, following orders from a stronger lead Pokemon. Their fins are sharp on the edges."),
+                List.of("Brutoad are known to be aggressive and territorial, following orders from a stronger lead Pokémon. Their fins are sharp on the edges."),
                 List.of(new EvolutionEntry("godfrogger", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"36")))),
                 List.of(

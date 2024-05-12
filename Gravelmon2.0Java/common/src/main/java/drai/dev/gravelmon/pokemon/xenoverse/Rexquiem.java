@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Rexquiem extends Pokemon {
                 247, ExperienceGroup.SLOW,
                 70,
                 32, List.of(EggGroup.FLYING, EggGroup.FIELD),
-                List.of("Said to only reveal to people and Pokemon about to die to drag them to the afterlife. It is also known as 'the Emissary of the Devil'."),
+                List.of("Said to only reveal to people and Pokémon about to die to drag them to the afterlife. It is also known as 'the Emissary of the Devil'."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BONE_CLUB,1),

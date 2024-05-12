@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaTangrowth extends Pokemon {
                 187, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A vicious Pokemon which spreads its tendrils beneath the ground, ensnaring unsuspecting trespassers. It uses their cries for help to lure more prey."),
+                List.of("A vicious Pokémon which spreads its tendrils beneath the ground, ensnaring unsuspecting trespassers. It uses their cries for help to lure more prey."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HAMMER_ARM,1),

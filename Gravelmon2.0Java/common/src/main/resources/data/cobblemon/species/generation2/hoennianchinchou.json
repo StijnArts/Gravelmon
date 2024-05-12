@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianchinchou",
-  "nationalPokedexNumber": 170,
+  "nationalPokedexNumber": 248,
   "primaryType": "water",
   "secondaryType": "ghost",
   "abilities": [
@@ -57,7 +57,6 @@
     "tm:toxic",
     "tm:hail",
     "tm:hiddenpower",
-    "tm:veiledsky",
     "tm:icebeam",
     "tm:blizzard",
     "tm:protect",
@@ -68,7 +67,6 @@
     "tm:thunder",
     "tm:return",
     "tm:shadowball",
-    "tm:shimmershot",
     "tm:shockwave",
     "tm:facade",
     "tm:secretpower",
@@ -81,7 +79,6 @@
     "17:waterpulse",
     "17:willowisp",
     "29:confuseray",
-    "37:abyssallure",
     "41:shadowsneak",
     "46:hydropump"  ],
   "labels": [
@@ -105,10 +102,10 @@
       "requiredContext": "cobblemon:dusk_stone"   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadragonair",
-  "nationalPokedexNumber": 148,
+  "nationalPokedexNumber": 147,
   "primaryType": "water",
   "secondaryType": "electric",
   "abilities": [
@@ -131,17 +131,15 @@
   "labels": [
     "gen1",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltadragonair.desc"
   ],
-  "preEvolution": "deltadratini",
   "evolutions": [
     {
       "id": "deltadragonair_deltadragonite",
-      "variant": "level_up",
+      "variant": "item_interact",
       "result": "deltadragonite",
       "consumeHeldItem": false,
       "learnableMoves": [],
@@ -153,10 +151,10 @@
       ]   
  }
   ],
-  "baseScale": 1.0,
+  "baseScale": 0.75,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
     "fixed": false
   },
   "baseFriendship": 70,

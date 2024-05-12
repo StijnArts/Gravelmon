@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tapukokox",
-  "nationalPokedexNumber": 785,
+  "nationalPokedexNumber": 771,
   "primaryType": "flying",
   "secondaryType": "dark",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:quickattack",
     "1:thunderwave",
@@ -103,10 +113,10 @@
   "pokedex": [
     "cobblemon.species.tapukokox.desc"
   ],
-  "baseScale": 0.45,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "godfrogger",
-  "nationalPokedexNumber": 1406,
+  "nationalPokedexNumber": 1339,
   "primaryType": "water",
   "secondaryType": "dark",
   "abilities": [
@@ -49,6 +49,16 @@
     "monster",
     "water_1"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "2:tailwhip",
@@ -159,18 +169,15 @@
     "egg:yawn"  ],
   "labels": [
     "infinity",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.godfrogger.desc"
   ],
-  "preEvolution": "brutoad",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

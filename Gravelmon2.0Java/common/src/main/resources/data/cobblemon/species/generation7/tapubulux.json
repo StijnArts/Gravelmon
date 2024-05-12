@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tapubulux",
-  "nationalPokedexNumber": 787,
+  "nationalPokedexNumber": 786,
   "primaryType": "dragon",
   "secondaryType": "dark",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:dragonbreath",
     "1:superpower",
@@ -101,10 +111,10 @@
   "pokedex": [
     "cobblemon.species.tapubulux.desc"
   ],
-  "baseScale": 0.47500000000000003,
+  "baseScale": 0.35625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

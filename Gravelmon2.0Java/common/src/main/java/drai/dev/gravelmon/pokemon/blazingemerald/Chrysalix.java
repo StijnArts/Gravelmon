@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.blazingemerald;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 import drai.dev.gravelmon.util.*;
 
 import java.util.*;
@@ -14,7 +13,7 @@ public class Chrysalix extends Pokemon {
                 Type.ROCK, Type.ICE,
                 new Stats(80, 45, 75, 90, 200, 60),
                 List.of(Ability.CRYSTAL_CASE), Ability.CRYSTAL_CASE,
-                UnitConverter.feetToMeters(14, 3), UnitConverter.lbsToKg(6614),
+                UnitConverter.feetToMeters(28, 3), UnitConverter.lbsToKg(6614),
                 new Stats(1,1,0,0,3,0), 45,
                 0.5,
                 167, ExperienceGroup.MEDIUM_FAST,
@@ -69,7 +68,7 @@ public class Chrysalix extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_COLD, Biome.IS_FREEZING)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(new BiomeSpawnCondition(List.of())),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERGROUND),
                 0.19, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

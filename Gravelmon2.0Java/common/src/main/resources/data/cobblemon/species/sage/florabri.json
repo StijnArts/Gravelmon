@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "florabri",
-  "nationalPokedexNumber": 1026,
+  "nationalPokedexNumber": 1101,
   "primaryType": "grass",
   "secondaryType": "flying",
   "abilities": [
@@ -48,6 +48,21 @@
     "grass",
     "flying"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:melon_seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:quiverdance",
     "1:jetstrike",
@@ -60,7 +75,6 @@
     "20:grasswhistle",
     "24:leaftornado",
     "28:agility",
-    "32:tempest",
     "36:gigadrain",
     "41:windshear",
     "46:synthesis",
@@ -117,14 +131,11 @@
     "egg:synthesis",
     "egg:worryseed"  ],
   "labels": [
-    "sage",
-    "fakemon",
-    "fakemonevolution"
+    "sage"
   ],
   "pokedex": [
     "cobblemon.species.florabri.desc"
   ],
-  "preEvolution": "foliat",
   "evolutions": [
     {
       "id": "florabri_floressum",

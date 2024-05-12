@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltahaxorus",
-  "nationalPokedexNumber": 612,
+  "nationalPokedexNumber": 611,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -152,17 +152,15 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltahaxorus.desc"
   ],
-  "preEvolution": "deltafraxure",
-  "baseScale": 0.45,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

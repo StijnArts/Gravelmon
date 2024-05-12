@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltatyphlosion",
-  "nationalPokedexNumber": 157,
+  "nationalPokedexNumber": 156,
   "primaryType": "electric",
   "secondaryType": "steel",
   "abilities": [
@@ -51,8 +51,8 @@
       ],
       "baseScale": 0.31875,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 3.0,
+          "height": 3.0,
           "fixed": false
       },
       "baseStats": {
@@ -108,8 +108,8 @@
       ],
       "baseScale": 0.31875,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 3.0,
+          "height": 3.0,
           "fixed": false
       },
       "baseStats": {
@@ -271,17 +271,15 @@
   "labels": [
     "gen2",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltatyphlosion.desc"
   ],
-  "preEvolution": "deltaquilava",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

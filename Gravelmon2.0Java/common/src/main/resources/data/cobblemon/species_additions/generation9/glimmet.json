@@ -1,24 +1,4 @@
 {"target": "cobblemon:Glimmet",
- "evolutions": [
-  {
-   "id": "glimmet_norheimanglimmora",
-   "variant": "level_up",
-   "result": "norheimanglimmora",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [
-    {
-     "variant": "biome",
-     "biomeCondition": "#cobblemon:is_freezing"
-    },
-    {
-     "variant": "level",
-     "minLevel": 35
-    }
-   ]
-  }
- ],
    "moves": [
     "1:harden",
     "1:rockthrow",

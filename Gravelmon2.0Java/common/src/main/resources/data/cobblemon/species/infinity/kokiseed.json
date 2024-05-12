@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "kokiseed",
-  "nationalPokedexNumber": 1398,
+  "nationalPokedexNumber": 1331,
   "primaryType": "grass",
   "abilities": [
     "owntempo",
@@ -48,6 +48,16 @@
     "monster",
     "grass"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:growl",
     "1:pound",

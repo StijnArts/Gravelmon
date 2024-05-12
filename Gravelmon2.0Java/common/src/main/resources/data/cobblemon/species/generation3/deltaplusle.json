@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaplusle",
-  "nationalPokedexNumber": 311,
+  "nationalPokedexNumber": 308,
   "primaryType": "fire",
   "secondaryType": "fairy",
   "abilities": [
@@ -105,7 +105,6 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
-    "tm:lunarcannon",
     "tm:incinerate",
     "tm:allyswitch",
     "tm:echoedvoicesound",
@@ -149,8 +148,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

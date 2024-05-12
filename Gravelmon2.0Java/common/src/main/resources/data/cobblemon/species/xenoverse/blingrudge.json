@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "blingrudge",
-  "nationalPokedexNumber": 2092,
+  "nationalPokedexNumber": 1112,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
@@ -119,18 +119,15 @@
     "tutor:stealthrock"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.blingrudge.desc"
   ],
-  "preEvolution": "blingrimm",
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

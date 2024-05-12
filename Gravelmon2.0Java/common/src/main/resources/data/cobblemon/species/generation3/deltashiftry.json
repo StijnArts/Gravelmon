@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltashiftry",
-  "nationalPokedexNumber": 275,
+  "nationalPokedexNumber": 274,
   "primaryType": "electric",
   "abilities": [
     "voltabsorb",
@@ -132,17 +132,15 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltashiftry.desc"
   ],
-  "preEvolution": "deltanuzleaf",
-  "baseScale": 0.325,
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

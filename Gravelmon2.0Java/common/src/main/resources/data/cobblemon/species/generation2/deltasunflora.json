@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltasunflora",
-  "nationalPokedexNumber": 192,
+  "nationalPokedexNumber": 191,
   "primaryType": "fire",
   "secondaryType": "poison",
   "abilities": [
@@ -52,8 +52,8 @@
       ],
       "baseScale": 0.15,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 3.0,
+          "height": 3.0,
           "fixed": false
       },
       "baseStats": {
@@ -200,17 +200,15 @@
   "labels": [
     "gen2",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltasunflora.desc"
   ],
-  "preEvolution": "deltasunkern",
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

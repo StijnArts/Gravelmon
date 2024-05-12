@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltabisharp",
-  "nationalPokedexNumber": 625,
+  "nationalPokedexNumber": 624,
   "primaryType": "flying",
   "secondaryType": "fighting",
   "abilities": [
@@ -52,8 +52,8 @@
       ],
       "baseScale": 0.3,
         "hitbox": {
-          "width": 6.0,
-          "height": 6.0,
+          "width": 3.0,
+          "height": 3.0,
           "fixed": false
       },
       "baseStats": {
@@ -209,17 +209,15 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltabisharp.desc"
   ],
-  "preEvolution": "deltapawniard",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

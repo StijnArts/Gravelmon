@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "silkinder",
-  "nationalPokedexNumber": 1199,
+  "nationalPokedexNumber": 1274,
   "primaryType": "bug",
   "abilities": [
     "serenegrace",
@@ -48,6 +48,16 @@
     "bug",
     "fairy"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:sweetscent",
     "1:tackle",
@@ -119,14 +129,11 @@
     "egg:wish"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.silkinder.desc"
   ],
-  "preEvolution": "lintle",
   "evolutions": [
     {
       "id": "silkinder_paramoth",
@@ -142,10 +149,10 @@
       ]   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

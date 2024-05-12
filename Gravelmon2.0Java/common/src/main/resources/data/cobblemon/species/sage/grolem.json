@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "grolem",
-  "nationalPokedexNumber": 1231,
+  "nationalPokedexNumber": 1306,
   "primaryType": "rock",
   "secondaryType": "grass",
   "abilities": [
@@ -48,6 +48,16 @@
     "mineral",
     "grass"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:mossy_cobblestone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:bide",
     "1:rockthrow",
@@ -149,10 +159,10 @@
       ]   
  }
   ],
-  "baseScale": 0.19999999999999998,
+  "baseScale": 0.15,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

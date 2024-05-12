@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltadarumaka",
-  "nationalPokedexNumber": 554,
+  "nationalPokedexNumber": 549,
   "primaryType": "dark",
   "secondaryType": "ghost",
   "abilities": [
@@ -101,7 +101,6 @@
     "tm:sleeptalksound",
     "tm:darkpulse",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:incinerate",
     "tm:allyswitch",
     "tm:roundsound",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "darpole",
-  "nationalPokedexNumber": 1404,
+  "nationalPokedexNumber": 1337,
   "primaryType": "water",
   "abilities": [
     "pickpocket",
@@ -48,6 +48,16 @@
     "monster",
     "water_1"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "2:tailwhip",
@@ -152,10 +162,10 @@
       ]   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

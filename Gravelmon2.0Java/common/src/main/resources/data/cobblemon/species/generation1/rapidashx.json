@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "rapidashx",
-  "nationalPokedexNumber": 78,
+  "nationalPokedexNumber": 77,
   "primaryType": "flying",
   "abilities": [
     "keeneye",
@@ -106,6 +106,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 20
+      }
+    ]
+  },
   "moves": [
     "1:substitute",
     "1:magnetrise",
@@ -167,13 +177,11 @@
     "tutor:tailwind"  ],
   "labels": [
     "xenoverse",
-    "gen1",
-    "fakemonevolution"
+    "gen1"
   ],
   "pokedex": [
     "cobblemon.species.rapidashx.desc"
   ],
-  "preEvolution": "ponytax",
   "baseScale": 1.25,
   "hitbox": {
     "width": 0.9,

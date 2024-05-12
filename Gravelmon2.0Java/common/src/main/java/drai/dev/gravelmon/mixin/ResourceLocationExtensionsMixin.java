@@ -11,5 +11,6 @@ public class ResourceLocationExtensionsMixin {
 
     @Inject(method = "asIdentifierDefaultingNamespace", at =@At("HEAD"), remap = false, cancellable = true)
     private static void injectPokeballs(String name, String name2, CallbackInfoReturnable<PokeBall> cir){
+        System.out.println("As IdentifierDefaulting Namespace " + name + "," + name2);
     }
 }

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghomuk",
-  "nationalPokedexNumber": 89,
+  "nationalPokedexNumber": 88,
   "primaryType": "poison",
   "secondaryType": "rock",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "amorphous"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:basalt",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:poisongas",
     "1:metalclaw",
@@ -134,13 +144,11 @@
   "labels": [
     "infinity",
     "gen1",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.eghomuk.desc"
   ],
-  "preEvolution": "eghogrimer",
   "evolutions": [
     {
       "id": "eghomuk_oozma",
@@ -154,10 +162,10 @@
       "requiredContext": "cobblemon:fire_stone"   
  }
   ],
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

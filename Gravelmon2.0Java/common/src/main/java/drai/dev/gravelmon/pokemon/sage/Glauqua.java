@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -89,16 +88,14 @@ public class Glauqua extends Pokemon {
                 List.of(Label.SAGE),
                 4, List.of(
                         new ItemDrop("minecraft:slime_ball",100, 1,2)
-                ), SpawnContext.SUBMERGED, SpawnPool.COMMON, 3, 22, 4.5, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN,Biome.IS_WARM_OCEAN)),
+                ), SpawnContext.SURFACE, SpawnPool.COMMON, 3, 22, 4.5, List.of(
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN,Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
-                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN,Biome.IS_FRESHWATER))),
-                List.of(SpawnPreset.WATER_SURFACE, SpawnPreset.REEF),
+                ), List.of(new BiomeSpawnCondition(List.of(Biome.IS_DEEP,Biome.IS_FRESHWATER))),
+                List.of(SpawnPreset.WATER_SURFACE),
                 0.3, 0.5,
                 List.of());
         this.setCanFly(true);
-        setCanBreathUnderwater(true);
-        setCanSwim(true);
         this.setPortraitXYZ(0.1,2.0,0.0);
     }
 }

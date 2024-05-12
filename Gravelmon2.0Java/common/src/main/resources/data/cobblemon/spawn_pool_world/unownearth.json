@@ -7,7 +7,7 @@
       "id": "unownearth-1",
       "pokemon": "unownearth",
       "presets": [
-          "end_city"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

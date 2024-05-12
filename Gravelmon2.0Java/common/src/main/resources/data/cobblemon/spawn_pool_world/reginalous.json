@@ -15,7 +15,8 @@
       "level": "75-85",
       "weight": 1.0E-4,
       "condition": {
-"biomes": [ "#minecraft:is_end" ]
+"biomes": [ "#minecraft:is_end" ],
+        "canSeeSky": true
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "egorgeon",
-  "nationalPokedexNumber": 2142,
+  "nationalPokedexNumber": 1160,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
@@ -50,7 +50,6 @@
     "human_like"
   ],
   "moves": [
-    "1:perfectglare",
     "1:electroweb",
     "1:eerieimpulse",
     "1:coil",
@@ -60,13 +59,11 @@
     "1:faketears",
     "18:attract",
     "24:flail",
-    "30:hiss",
     "36:followme",
     "41:dragonbreath",
     "45:coil",
     "51:wringout",
     "57:dragonpulse",
-    "62:perfectglare",
     "67:discharge",
     "tm:toxic",
     "tm:hiddenpower",
@@ -106,22 +103,18 @@
     "tutor:secretpower",
     "tutor:shockwave",
     "tutor:signalbeam",
-    "tutor:sleeptalksound",
-    "tutor:velvetscales"  ],
+    "tutor:sleeptalksound"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.egorgeon.desc"
   ],
-  "preEvolution": "egohiss",
-  "baseScale": 1.0,
+  "baseScale": 0.75,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
     "fixed": false
   },
   "baseFriendship": 70,

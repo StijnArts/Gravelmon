@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pyroat",
-  "nationalPokedexNumber": 1029,
+  "nationalPokedexNumber": 1104,
   "primaryType": "fire",
   "secondaryType": "rock",
   "abilities": [
@@ -47,6 +47,21 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "1-2",
+        "percentage": 20
+      },
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 80
+      }
+    ]
+  },
   "moves": [
     "1:tackle",
     "1:tailwhip",
@@ -123,14 +138,11 @@
     "egg:takedown",
     "egg:thrash"  ],
   "labels": [
-    "sage",
-    "fakemon",
-    "fakemonevolution"
+    "sage"
   ],
   "pokedex": [
     "cobblemon.species.pyroat.desc"
   ],
-  "preEvolution": "kidling",
   "evolutions": [
     {
       "id": "pyroat_flairees",

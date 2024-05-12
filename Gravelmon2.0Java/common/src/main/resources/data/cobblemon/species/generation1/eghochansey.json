@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghochansey",
-  "nationalPokedexNumber": 113,
+  "nationalPokedexNumber": 90,
   "primaryType": "fighting",
   "secondaryType": "fairy",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "fairy"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "cobblemon:oval_stone",
+        "quantityRange": "1-1",
+        "percentage": 20
+      }
+    ]
+  },
   "moves": [
     "1:poweruppunch",
     "1:helpinghand",
@@ -138,13 +148,11 @@
   "labels": [
     "infinity",
     "gen1",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.eghochansey.desc"
   ],
-  "preEvolution": "eghohappiny",
   "evolutions": [
     {
       "id": "eghochansey_eghoblissey",
@@ -160,10 +168,10 @@
       ]   
  }
   ],
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

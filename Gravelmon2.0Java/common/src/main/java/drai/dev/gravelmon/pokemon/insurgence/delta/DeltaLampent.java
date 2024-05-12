@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -20,7 +19,7 @@ public class DeltaLampent extends Pokemon {
                 70,
                 50, List.of(EggGroup.DELTA),
                 List.of("It has been known to appear next to children having nightmares, basking them in its warmth and eliminating all negative thoughts and emotions."),
-                List.of(new EvolutionEntry("deltachandelure", EvolutionType.ITEM_INTERACT, false, List.of(),
+                List.of(new EvolutionEntry("deltalampent", EvolutionType.ITEM_INTERACT, false, List.of(),
                         List.of(),List.of(),"cobblemon:shiny_stone")),
                 List.of(
                         new MoveLearnSetEntry(Move.EMBER,1),

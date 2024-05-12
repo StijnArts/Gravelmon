@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "artifish",
-  "nationalPokedexNumber": 1172,
+  "nationalPokedexNumber": 1247,
   "primaryType": "normal",
   "abilities": [
     "klutz",
@@ -48,6 +48,26 @@
     "monster",
     "fairy"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "cobblemon:poke_ball",
+        "quantityRange": "1-2",
+        "percentage": 40
+      },
+      {
+        "item": "cobblemon:great_ball",
+        "quantityRange": "1-2",
+        "percentage": 30
+      },
+      {
+        "item": "cobblemon:ultra_ball",
+        "quantityRange": "1-2",
+        "percentage": 10
+      }
+    ]
+  },
   "moves": [
     "1:rage",
     "1:defensecurl",
@@ -138,18 +158,15 @@
     "egg:yawn"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.artifish.desc"
   ],
-  "preEvolution": "doppole",
-  "baseScale": 0.225,
+  "baseScale": 0.16875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

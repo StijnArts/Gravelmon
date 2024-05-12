@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaKabutops extends Pokemon {
                 71, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokemon's changes during evolution led to it becoming a carnivore instead of an herbivore. It hovers above trees in search of prey."),
+                List.of("This Pokémon's changes during evolution led to it becoming a carnivore instead of an herbivore. It hovers above trees in search of prey."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.PSYCHO_CUT,1),

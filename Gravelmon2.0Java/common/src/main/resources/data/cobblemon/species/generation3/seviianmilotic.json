@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviianmilotic",
-  "nationalPokedexNumber": 350,
+  "nationalPokedexNumber": 349,
   "primaryType": "water",
   "secondaryType": "ground",
   "abilities": [
@@ -117,17 +117,15 @@
   "labels": [
     "radicalred",
     "gen3",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.seviianmilotic.desc"
   ],
-  "preEvolution": "seviianfeebas",
-  "baseScale": 0.775,
+  "baseScale": 1.1625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.7307692307692306,
+    "height": 1.7307692307692306,
     "fixed": false
   },
   "baseFriendship": 70,
@@ -139,7 +137,7 @@
     "special_defence": 2,
     "speed": 0
   },
-  "height": 31,
+  "height": 62,
   "weight": 1620,
   "aspects": [],
 "features": [

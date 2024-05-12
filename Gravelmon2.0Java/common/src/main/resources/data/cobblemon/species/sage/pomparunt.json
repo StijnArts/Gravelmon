@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pomparunt",
-  "nationalPokedexNumber": 1174,
+  "nationalPokedexNumber": 1249,
   "primaryType": "dark",
   "abilities": [
     "pickpocket",
@@ -48,6 +48,16 @@
     "field",
     "human_like"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:astonish",
     "1:growl",
@@ -136,8 +146,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -7,7 +7,7 @@
       "id": "skravroom-1",
       "pokemon": "skravroom",
       "presets": [
-          "village"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",

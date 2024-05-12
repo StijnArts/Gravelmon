@@ -1,15 +1,4 @@
 {"target": "cobblemon:Spinda",
- "evolutions": [
-  {
-   "id": "spinda_panditsy",
-   "variant": "item_interact",
-   "result": "panditsy",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [],
-   "requiredContext": "cobblemon:moon_stone"
-  }
- ],
    "moves": [
     "1:tackle",
     "5:copycat",

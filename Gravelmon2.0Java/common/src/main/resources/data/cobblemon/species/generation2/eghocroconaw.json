@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghocroconaw",
-  "nationalPokedexNumber": 159,
+  "nationalPokedexNumber": 158,
   "primaryType": "water",
   "secondaryType": "poison",
   "abilities": [
@@ -48,6 +48,16 @@
     "monster",
     "water_1"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:sludge",
     "1:poisontail",
@@ -151,13 +161,11 @@
   "labels": [
     "gen2",
     "infinity",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.eghocroconaw.desc"
   ],
-  "preEvolution": "eghototodile",
   "evolutions": [
     {
       "id": "eghocroconaw_eghoferaligatr",
@@ -173,10 +181,10 @@
       ]   
  }
   ],
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

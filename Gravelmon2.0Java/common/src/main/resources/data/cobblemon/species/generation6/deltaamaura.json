@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaamaura",
-  "nationalPokedexNumber": 698,
+  "nationalPokedexNumber": 658,
   "primaryType": "grass",
   "secondaryType": "water",
   "abilities": [
@@ -153,10 +153,10 @@
       ]   
  }
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

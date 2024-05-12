@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltahoopa",
-  "nationalPokedexNumber": 720,
+  "nationalPokedexNumber": 715,
   "primaryType": "flying",
   "abilities": [
     "cloudnine",
@@ -111,7 +111,6 @@
     "tm:dazzlinggleam",
     "tm:achillesheel",
     "tm:silverwind",
-    "tm:lunarcannon",
     "tm:skydrop",
     "tm:allyswitch",
     "tm:echoedvoicesound",
@@ -153,7 +152,7 @@
     "tutor:waterpulse",
     "tutor:zenheadbutt"  ],
   "labels": [
-    "gen6",
+    "gen5",
     "insurgence",
     "not_modeled"
   ],
@@ -173,10 +172,10 @@
       "requiredContext": "minecraft:bottle"   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

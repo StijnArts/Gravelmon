@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "craliber",
-  "nationalPokedexNumber": 1112,
+  "nationalPokedexNumber": 1187,
   "primaryType": "water",
   "secondaryType": "steel",
   "abilities": [
@@ -49,10 +49,20 @@
     "water_3",
     "mineral"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:watergun",
     "1:harden",
-    "1:visegrip",
+    "1:vicegrip",
     "4:focusenergy",
     "7:aquajet",
     "11:sonicboomsound",
@@ -150,8 +160,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

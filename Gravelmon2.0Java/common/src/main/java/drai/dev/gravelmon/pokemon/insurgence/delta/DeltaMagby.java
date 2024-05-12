@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaMagby extends Pokemon {
                 72, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A Delta Species discovered by Ubodot. Though it is a Water-type Pokemon, it is incapable of breathing underwater and aims to hold its breath longer everyday."),
+                List.of("A Delta Species discovered by Ubodot. Though it is a Water-type Pokémon, it is incapable of breathing underwater and aims to hold its breath longer everyday."),
                 List.of(new EvolutionEntry("deltamagmar", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.LEVEL,"30")))),
                 List.of(

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "shibalbat",
-  "nationalPokedexNumber": 1104,
+  "nationalPokedexNumber": 1179,
   "primaryType": "rock",
   "secondaryType": "fire",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "mineral"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:gold_ingot",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:hypervoicesound",
     "1:rockthrow",
@@ -56,7 +66,7 @@
     "18:ancientpower",
     "24:moonlight",
     "30:lavaplume",
-    "36:cosmicpowercosmic",
+    "36:cosmicpower",
     "42:wideguard",
     "48:powergemcrystal",
     "54:meanlook",
@@ -130,10 +140,10 @@
   "pokedex": [
     "cobblemon.species.shibalbat.desc"
   ],
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

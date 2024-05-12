@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "tuliep",
-  "nationalPokedexNumber": 1068,
+  "nationalPokedexNumber": 1143,
   "primaryType": "grass",
   "abilities": [
     "allure",
@@ -48,6 +48,16 @@
     "grass",
     "human_like"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:absorb",
     "1:charm",
@@ -141,10 +151,10 @@
       ]   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

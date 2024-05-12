@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "nobunata",
-  "nationalPokedexNumber": 1105,
+  "nationalPokedexNumber": 1180,
   "primaryType": "normal",
   "abilities": [
     "aftermath",
@@ -48,6 +48,16 @@
     "field",
     "fairy"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "cobblemon:rare_candy",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:endure",
     "1:present",
@@ -151,10 +161,10 @@
   "pokedex": [
     "cobblemon.species.nobunata.desc"
   ],
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

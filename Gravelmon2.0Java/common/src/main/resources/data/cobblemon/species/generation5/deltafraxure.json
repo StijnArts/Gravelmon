@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltafraxure",
-  "nationalPokedexNumber": 611,
+  "nationalPokedexNumber": 610,
   "primaryType": "water",
   "abilities": [
     "strongjaw",
@@ -129,13 +129,11 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltafraxure.desc"
   ],
-  "preEvolution": "deltaaxew",
   "evolutions": [
     {
       "id": "deltafraxure_deltahaxorus",
@@ -151,10 +149,10 @@
       ]   
  }
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

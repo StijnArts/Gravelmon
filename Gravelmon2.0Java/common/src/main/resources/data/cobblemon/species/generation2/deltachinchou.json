@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltachinchou",
-  "nationalPokedexNumber": 170,
+  "nationalPokedexNumber": 164,
   "primaryType": "ghost",
   "secondaryType": "fire",
   "abilities": [
@@ -97,7 +97,6 @@
     "tm:sleeptalksound",
     "tm:dazzlinggleam",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:incinerate",
     "tm:allyswitch",
     "tm:roundsound",

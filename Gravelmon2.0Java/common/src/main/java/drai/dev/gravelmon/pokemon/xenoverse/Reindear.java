@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.xenoverse;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Reindear extends Pokemon {
                 64, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 32, List.of(EggGroup.MONSTER, EggGroup.FIELD),
-                List.of("It judges the behavior of other Pokemon, then marks them with tags. It rewards with a gift those who have been nice."),
+                List.of("It judges the behavior of other Pokémon, then marks them with tags. It rewards with a gift those who have been nice."),
                 List.of(new EvolutionEntry("reindigo", EvolutionType.LEVEL_UP, List.of(),
                         List.of(new EvolutionRequirementEntry(EvolutionRequirementCondition.HAS_MOVE,"\""+Move.FRUSTRATION.getName()+"\"")))),
                 List.of(

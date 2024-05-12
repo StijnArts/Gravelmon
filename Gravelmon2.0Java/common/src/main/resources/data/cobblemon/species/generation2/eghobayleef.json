@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghobayleef",
-  "nationalPokedexNumber": 153,
+  "nationalPokedexNumber": 152,
   "primaryType": "grass",
   "secondaryType": "dragon",
   "abilities": [
@@ -48,6 +48,16 @@
     "grass",
     "dragon"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:apple",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:batonpass",
     "1:triattack",
@@ -138,13 +148,11 @@
   "labels": [
     "gen2",
     "infinity",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.eghobayleef.desc"
   ],
-  "preEvolution": "eghochikorita",
   "evolutions": [
     {
       "id": "eghobayleef_eghomeganium",
@@ -160,10 +168,10 @@
       ]   
  }
   ],
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

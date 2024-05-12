@@ -8,22 +8,6 @@
    }
   ]
  },
- "evolutions": [
-  {
-   "id": "skarmory_eameiru",
-   "variant": "level_up",
-   "result": "eameiru",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [
-    {
-     "variant": "friendship",
-     "amount": 160
-    }
-   ]
-  }
- ],
    "moves": [
     "1:leer",
     "1:peck",

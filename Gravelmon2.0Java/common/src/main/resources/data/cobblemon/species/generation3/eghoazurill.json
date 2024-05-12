@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghoazurill",
-  "nationalPokedexNumber": 298,
+  "nationalPokedexNumber": 272,
   "primaryType": "normal",
   "secondaryType": "rock",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:rollout",
     "1:stealthrock",
@@ -129,8 +139,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Glacieros extends Pokemon {
                 140, ExperienceGroup.ERRATIC,
                 70,
                 48, List.of(EggGroup.MONSTER, EggGroup.FIELD),
-                List.of("Glacieros shares a common ancestor with the Rhyhorn family. The horn is encased in ice, which makes up about half of the total body weight of these Pokemon."),
+                List.of("Glacieros shares a common ancestor with the Rhyhorn family. The horn is encased in ice, which makes up about half of the total body weight of these Pokémon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.DRILL_RUN,1),
@@ -88,13 +87,13 @@ public class Glacieros extends Pokemon {
                         new MoveLearnSetEntry(Move.IRON_HEAD,"egg"),
                         new MoveLearnSetEntry(Move.SLACK_OFF,"egg")
                         ),
-                List.of(Label.INFINITY),
+                List.of(Label.SAGE),
                 0, List.of(
                 ), SpawnContext.GROUNDED, SpawnPool.ULTRA_RARE, 31, 46, 0.2, List.of(
                         new BiomeSpawnCondition(List.of(Biome.IS_SNOWY)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.NATURAL),
+                List.of(SpawnPreset.UNDERGROUND),
                 0.43, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

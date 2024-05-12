@@ -1,12 +1,11 @@
 {
   "implemented": true,
   "name": "ankillosore",
-  "nationalPokedexNumber": 1220,
+  "nationalPokedexNumber": 1295,
   "primaryType": "poison",
   "secondaryType": "ground",
   "abilities": [
     "poisonpoint",
-    "conditioning",
     "h:roughskin"
   ],
   "baseStats": {
@@ -48,6 +47,16 @@
   "eggGroups": [
     "monster"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:irontail",
     "1:skullbash",
@@ -116,18 +125,15 @@
     "tm:strength"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.ankillosore.desc"
   ],
-  "preEvolution": "hornizard",
-  "baseScale": 0.425,
+  "baseScale": 0.31875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

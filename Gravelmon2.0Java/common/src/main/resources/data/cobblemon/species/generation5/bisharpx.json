@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "bisharpx",
-  "nationalPokedexNumber": 625,
+  "nationalPokedexNumber": 596,
   "primaryType": "fire",
   "secondaryType": "steel",
   "abilities": [
@@ -94,7 +94,6 @@
     "tm:substitute",
     "tm:flashcannon",
     "tm:wildcharge",
-    "tutor:scorchedashes",
     "tutor:secretpower"  ],
   "labels": [
     "xenoverse",
@@ -104,10 +103,10 @@
   "pokedex": [
     "cobblemon.species.bisharpx.desc"
   ],
-  "baseScale": 0.5499999999999999,
+  "baseScale": 0.4125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

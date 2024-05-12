@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltablastoise",
-  "nationalPokedexNumber": 9,
+  "nationalPokedexNumber": 8,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -178,7 +178,6 @@
     "tm:darkpulse",
     "tm:achillesheel",
     "tm:avalanche",
-    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -229,13 +228,11 @@
     "tutor:vacuumwave"  ],
   "labels": [
     "gen1",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltablastoise.desc"
   ],
-  "preEvolution": "deltawartortle",
   "baseScale": 1.3,
   "hitbox": {
     "width": 1.1,

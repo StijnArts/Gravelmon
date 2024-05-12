@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "smashiary",
-  "nationalPokedexNumber": 1192,
+  "nationalPokedexNumber": 1267,
   "primaryType": "fighting",
   "secondaryType": "flying",
   "abilities": [
@@ -48,6 +48,16 @@
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 100
+      }
+    ]
+  },
   "moves": [
     "1:blazekick",
     "1:pound",
@@ -132,10 +142,10 @@
   "pokedex": [
     "cobblemon.species.smashiary.desc"
   ],
-  "baseScale": 0.325,
+  "baseScale": 0.24375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

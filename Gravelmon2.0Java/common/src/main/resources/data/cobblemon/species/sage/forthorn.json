@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "forthorn",
-  "nationalPokedexNumber": 1164,
+  "nationalPokedexNumber": 1239,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
@@ -49,6 +49,16 @@
     "grass",
     "human_like"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:dead_bush",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:helpinghand",
     "1:worryseed",
@@ -136,18 +146,15 @@
     "egg:stunspore"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.forthorn.desc"
   ],
-  "preEvolution": "loneleaf",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

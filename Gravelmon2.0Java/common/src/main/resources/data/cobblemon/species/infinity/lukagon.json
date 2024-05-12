@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "lukagon",
-  "nationalPokedexNumber": 1397,
+  "nationalPokedexNumber": 1330,
   "primaryType": "fairy",
   "secondaryType": "dragon",
   "abilities": [
@@ -48,6 +48,16 @@
     "dragon",
     "field"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:dragondance",
     "1:dragonrush",
@@ -128,25 +138,22 @@
     "egg:agility",
     "egg:aquaring",
     "egg:charm",
-    "egg:cosmicpowercosmic",
+    "egg:cosmicpower",
     "egg:earthpower",
     "egg:memento",
     "egg:psyshock",
     "egg:worryseed"  ],
   "labels": [
     "infinity",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.lukagon.desc"
   ],
-  "preEvolution": "lukpup",
-  "baseScale": 0.6,
+  "baseScale": 0.45,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

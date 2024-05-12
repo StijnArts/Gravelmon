@@ -7,7 +7,7 @@
       "id": "metunn-1",
       "pokemon": "metunn",
       "presets": [
-          "jungle_pyramid"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltazweilous",
-  "nationalPokedexNumber": 634,
+  "nationalPokedexNumber": 633,
   "primaryType": "ground",
   "secondaryType": "poison",
   "abilities": [
@@ -142,13 +142,11 @@
   "labels": [
     "gen5",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltazweilous.desc"
   ],
-  "preEvolution": "deltadeino",
   "evolutions": [
     {
       "id": "deltazweilous_deltahydreigon",
@@ -164,10 +162,10 @@
       ]   
  }
   ],
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

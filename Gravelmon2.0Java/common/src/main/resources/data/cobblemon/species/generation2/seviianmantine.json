@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "seviianmantine",
-  "nationalPokedexNumber": 226,
+  "nationalPokedexNumber": 217,
   "primaryType": "electric",
   "secondaryType": "poison",
   "abilities": [
@@ -107,17 +107,15 @@
   "labels": [
     "radicalred",
     "gen2",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.seviianmantine.desc"
   ],
-  "preEvolution": "seviianmantyke",
-  "baseScale": 0.525,
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

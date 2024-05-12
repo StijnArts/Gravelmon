@@ -7,7 +7,7 @@
       "id": "deltaelectivire-1",
       "pokemon": "deltaelectivire",
       "presets": [
-          "jungle_pyramid"
+          "ruined_structures"
       ],
       "type": "pokemon",
       "context": "grounded",

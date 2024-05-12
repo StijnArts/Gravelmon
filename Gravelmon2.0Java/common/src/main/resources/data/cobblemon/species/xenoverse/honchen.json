@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "honchen",
-  "nationalPokedexNumber": 2096,
+  "nationalPokedexNumber": 1116,
   "primaryType": "dragon",
   "abilities": [
     "dryskin",
@@ -96,11 +96,9 @@
     "egg:whirlwind",
     "egg:dragonbreath",
     "egg:haze",
-    "egg:hiss",
     "tutor:aircutter",
     "tutor:bind",
     "tutor:dracometeor",
-    "tutor:dragonendurance",
     "tutor:dragonpulse",
     "tutor:heatwave",
     "tutor:hurricane",
@@ -110,22 +108,18 @@
     "tutor:sleeptalksound",
     "tutor:snoresound",
     "tutor:tailwind",
-    "tutor:velvetscales",
     "tutor:waterpulse"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.honchen.desc"
   ],
-  "preEvolution": "kidoon",
-  "baseScale": 1.2,
+  "baseScale": 0.9,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.1538461538461537,
+    "height": 1.1538461538461537,
     "fixed": false
   },
   "baseFriendship": 70,

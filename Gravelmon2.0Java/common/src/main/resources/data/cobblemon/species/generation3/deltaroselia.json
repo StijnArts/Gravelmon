@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltaroselia",
-  "nationalPokedexNumber": 315,
+  "nationalPokedexNumber": 312,
   "primaryType": "dark",
   "secondaryType": "fairy",
   "abilities": [
@@ -64,7 +64,6 @@
     "40:lovelykiss",
     "43:moonblast",
     "46:moonlight",
-    "50:lunarcannon",
     "tm:calmmind",
     "tm:toxic",
     "tm:hiddenpower",
@@ -110,7 +109,6 @@
     "tm:darkpulse",
     "tm:dazzlinggleam",
     "tm:achillesheel",
-    "tm:lunarcannon",
     "tm:allyswitch",
     "tm:echoedvoicesound",
     "tm:roundsound",
@@ -151,13 +149,11 @@
   "labels": [
     "gen3",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaroselia.desc"
   ],
-  "preEvolution": "deltabudew",
   "evolutions": [
     {
       "id": "deltaroselia_deltaroserade",
@@ -173,8 +169,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

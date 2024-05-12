@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "oarwish",
-  "nationalPokedexNumber": 1191,
+  "nationalPokedexNumber": 1266,
   "primaryType": "water",
   "secondaryType": "psychic",
   "abilities": [
@@ -49,6 +49,16 @@
     "water_2",
     "dragon"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:healpulse",
     "1:healingwish",
@@ -125,18 +135,15 @@
     "egg:whirlpool"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.oarwish.desc"
   ],
-  "preEvolution": "fortifry",
-  "baseScale": 0.65,
+  "baseScale": 0.4875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

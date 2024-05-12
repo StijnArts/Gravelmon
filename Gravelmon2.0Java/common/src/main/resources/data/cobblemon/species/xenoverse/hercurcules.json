@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hercurcules",
-  "nationalPokedexNumber": 2101,
+  "nationalPokedexNumber": 1121,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -111,18 +111,15 @@
     "tutor:superpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.hercurcules.desc"
   ],
-  "preEvolution": "punchbug",
-  "baseScale": 0.45,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoenniandragapult",
-  "nationalPokedexNumber": 887,
+  "nationalPokedexNumber": 886,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -63,7 +63,6 @@
     "tm:thunder",
     "tm:return",
     "tm:shadowball",
-    "tm:shimmershot",
     "tm:shockwave",
     "tm:flamethrower",
     "tm:sludgebomb",
@@ -93,22 +92,19 @@
     "39:firespin",
     "42:dragonpulse",
     "46:flamewheel",
-    "50:devildarts",
     "62:blastburn"  ],
   "labels": [
     "blazing_emerald",
     "gen8",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.hoenniandragapult.desc"
   ],
-  "preEvolution": "hoenniandrakloak",
-  "baseScale": 0.7999999999999999,
+  "baseScale": 0.6,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

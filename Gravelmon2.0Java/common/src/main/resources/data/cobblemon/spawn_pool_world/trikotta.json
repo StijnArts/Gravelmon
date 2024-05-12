@@ -7,7 +7,7 @@
       "id": "trikotta-1",
       "pokemon": "trikotta",
       "presets": [
-          "village"
+          "urban"
       ],
       "type": "pokemon",
       "context": "grounded",

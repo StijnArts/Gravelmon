@@ -1,11 +1,10 @@
 {
   "implemented": true,
   "name": "buckston",
-  "nationalPokedexNumber": 1043,
+  "nationalPokedexNumber": 1118,
   "primaryType": "normal",
   "abilities": [
     "rivalry",
-    "braveheart",
     "h:defiant"
   ],
   "baseStats": {
@@ -47,6 +46,21 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:berries",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:megahorn",
     "1:swagger",
@@ -116,18 +130,15 @@
     "egg:takedown"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.buckston.desc"
   ],
-  "preEvolution": "llamarsh",
-  "baseScale": 0.45,
+  "baseScale": 0.3375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

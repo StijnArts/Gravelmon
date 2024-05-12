@@ -1,20 +1,4 @@
 {"target": "cobblemon:Primeape",
- "evolutions": [
-
-{
- "id": "primeape",
- "variant": "level_up",
- "result": "empirilla",
- "consumeHeldItem": true,
- "learnableMoves": [],
- "requirements": [
-  {
-   "variant": "held_item",
-   "itemCondition": "gravelmon:jungle_crown"
-  }
- ]
-}
- ],
    "moves": [
     "1:fling",
     "1:focusenergy",

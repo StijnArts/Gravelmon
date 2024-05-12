@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "xochi",
-  "nationalPokedexNumber": 1252,
+  "nationalPokedexNumber": 1327,
   "primaryType": "psychic",
   "secondaryType": "fire",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "3",
+    "entries": [
+      {
+        "item": "minecraft:wheat",
+        "quantityRange": "3-10",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:ember",
     "1:healbellsound",
@@ -117,10 +127,10 @@
   "pokedex": [
     "cobblemon.species.xochi.desc"
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

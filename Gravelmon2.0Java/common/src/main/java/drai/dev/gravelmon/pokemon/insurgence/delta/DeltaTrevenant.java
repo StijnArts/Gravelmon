@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaTrevenant extends Pokemon {
                 166, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("It guards the forest and would lay down its life to protect weaker Pokemon."),
+                List.of("It guards the forest and would lay down its life to protect weaker Pokémon."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SACRED_SWORD,1),

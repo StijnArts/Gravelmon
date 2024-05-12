@@ -7,7 +7,7 @@
       "id": "glacieros-1",
       "pokemon": "glacieros",
       "presets": [
-          "natural"
+          "underground"
       ],
       "type": "pokemon",
       "context": "grounded",

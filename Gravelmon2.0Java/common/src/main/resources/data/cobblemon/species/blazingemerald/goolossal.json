@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "goolossal",
-  "nationalPokedexNumber": 3727,
+  "nationalPokedexNumber": 1181,
   "primaryType": "fairy",
   "abilities": [
     "liquidooze",
@@ -49,15 +49,10 @@
   "moves": [
     "5:covet",
     "10:bubblebeam",
-    "15:dazzledust",
     "20:recover",
-    "25:moonrazer",
     "30:yawn",
-    "49:miresurge",
-    "57:ragingwaves",
     "66:amnesia",
     "75:hydrocannon",
-    "46:miresurge",
     "tm:trickroom",
     "tm:dragonclaw",
     "tm:scald",
@@ -85,7 +80,6 @@
     "tm:rest",
     "tm:attract",
     "tm:thief",
-    "tm:cataclysm",
     "tm:surf",
     "tm:strength",
     "tm:rocksmash",
@@ -94,17 +88,15 @@
     "egg:hydropump"  ],
   "labels": [
     "blazing_emerald",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.goolossal.desc"
   ],
-  "preEvolution": "hoenniangoomy",
-  "baseScale": 1.7,
+  "baseScale": 1.275,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 1.7307692307692306,
+    "height": 1.7307692307692306,
     "fixed": false
   },
   "baseFriendship": 70,

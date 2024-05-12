@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "vitellion",
-  "nationalPokedexNumber": 3731,
+  "nationalPokedexNumber": 1185,
   "primaryType": "questionmark",
   "abilities": [
-    "amalgam",
-    "h:amalgam"
+    "keeneye",
+    "h:keeneye"
   ],
   "baseStats": {
     "hp": 250,
@@ -65,20 +65,18 @@
     "30:helpinghand",
     "35:toxic",
     "40:shadowsneak",
-    "45:cosmicpowercosmic",
-    "50:shadetrance"  ],
+    "45:cosmicpower"  ],
   "labels": [
     "blazing_emerald",
-    "joke",
     "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.vitellion.desc"
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

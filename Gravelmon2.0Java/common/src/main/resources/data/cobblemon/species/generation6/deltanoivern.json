@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltanoivern",
-  "nationalPokedexNumber": 715,
+  "nationalPokedexNumber": 714,
   "primaryType": "grass",
   "secondaryType": "steel",
   "abilities": [
@@ -166,17 +166,15 @@
   "labels": [
     "gen6",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltanoivern.desc"
   ],
-  "preEvolution": "deltanoibat",
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

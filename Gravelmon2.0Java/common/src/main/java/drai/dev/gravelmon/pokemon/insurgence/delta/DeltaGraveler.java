@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -144,7 +143,7 @@ public class DeltaGraveler extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_JUNGLE)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.JUNGLE_PYRAMID),
+                List.of(SpawnPreset.RUINED_STRUCTURES),
                 0.28, 0.3,
                 List.of());
         this.setLangFileName("Graveler");

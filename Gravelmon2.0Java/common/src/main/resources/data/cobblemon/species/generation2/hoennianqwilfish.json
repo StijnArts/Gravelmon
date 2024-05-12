@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hoennianqwilfish",
-  "nationalPokedexNumber": 211,
+  "nationalPokedexNumber": 206,
   "primaryType": "poison",
   "secondaryType": "steel",
   "abilities": [
@@ -49,7 +49,6 @@
   ],
   "moves": [
     "egg:taunt",
-    "egg:ragingwaves",
     "egg:hypervoicesound",
     "tm:surf",
     "tm:waterfall",
@@ -66,7 +65,6 @@
     "tm:irontail",
     "tm:return",
     "tm:shadowball",
-    "tm:shimmershot",
     "tm:shockwave",
     "tm:sludgebomb",
     "tm:sandstorm",
@@ -81,9 +79,7 @@
     "10:ironhead",
     "10:smog",
     "19:pinmissile",
-    "28:whirlpool",
-    "37:toxifume",
-    "46:carbonize"  ],
+    "28:whirlpool"  ],
   "labels": [
     "blazing_emerald",
     "gen2",
@@ -92,10 +88,10 @@
   "pokedex": [
     "cobblemon.species.hoennianqwilfish.desc"
   ],
-  "baseScale": 0.17500000000000002,
+  "baseScale": 0.13125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

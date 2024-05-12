@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "punchbug",
-  "nationalPokedexNumber": 2100,
+  "nationalPokedexNumber": 1120,
   "primaryType": "bug",
   "secondaryType": "fighting",
   "abilities": [
@@ -100,14 +100,11 @@
     "tutor:superpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.punchbug.desc"
   ],
-  "preEvolution": "beefle",
   "evolutions": [
     {
       "id": "punchbug_hercurcules",
@@ -123,10 +120,10 @@
       ]   
  }
   ],
-  "baseScale": 0.15,
+  "baseScale": 0.1125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

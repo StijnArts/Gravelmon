@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "hyekuza",
-  "nationalPokedexNumber": 1176,
+  "nationalPokedexNumber": 1251,
   "primaryType": "dark",
   "secondaryType": "fighting",
   "abilities": [
@@ -49,6 +49,16 @@
     "field",
     "human_like"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:metalclaw",
     "1:fakeout",
@@ -149,18 +159,15 @@
     "egg:quickguard"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.hyekuza.desc"
   ],
-  "preEvolution": "pompagoon",
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

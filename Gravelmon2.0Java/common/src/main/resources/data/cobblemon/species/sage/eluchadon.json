@@ -1,11 +1,11 @@
 {
   "implemented": true,
   "name": "eluchadon",
-  "nationalPokedexNumber": 1230,
+  "nationalPokedexNumber": 1305,
   "primaryType": "fighting",
   "secondaryType": "electric",
   "abilities": [
-    "stubborn",
+    "keeneye",
     "h:hugepower"
   ],
   "baseStats": {
@@ -48,6 +48,16 @@
     "human_like",
     "field"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:quickguard",
     "1:lowkick",
@@ -150,18 +160,15 @@
     "egg:wideguard"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.eluchadon.desc"
   ],
-  "preEvolution": "luchito",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

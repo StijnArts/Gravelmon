@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaLiepard extends Pokemon {
                 156, ExperienceGroup.MEDIUM_FAST,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("This Pokemon makes use of illusions and trickery to catch its prey."),
+                List.of("This Pokémon makes use of illusions and trickery to catch its prey."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.BULLET_SEED,1),

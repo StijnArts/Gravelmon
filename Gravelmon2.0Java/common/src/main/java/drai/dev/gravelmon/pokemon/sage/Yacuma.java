@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -85,7 +84,7 @@ public class Yacuma extends Pokemon {
                 3, List.of(
                         new ItemDrop("minecraft:prismarine",90, 3,10)
                 ), SpawnContext.SUBMERGED, SpawnPool.ULTRA_RARE, 50, 55, 0.0005, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP_OCEAN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_DEEP)),
                         new SpawnCondition(SpawnConditionType.MAXY,"10"),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),

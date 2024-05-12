@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "chegrin",
-  "nationalPokedexNumber": 1169,
+  "nationalPokedexNumber": 1244,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:barrage",
     "1:growl",
@@ -142,10 +152,10 @@
       "requiredContext": "cobblemon:dusk_stone"   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

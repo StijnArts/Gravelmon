@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "spiritombx",
-  "nationalPokedexNumber": 442,
+  "nationalPokedexNumber": 407,
   "primaryType": "ghost",
   "secondaryType": "grass",
   "abilities": [
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "1",
+    "entries": [
+      {
+        "item": "gravelmon:xenolith",
+        "quantityRange": "1-1",
+        "percentage": 20
+      }
+    ]
+  },
   "moves": [
     "1:confuseray",
     "1:growth",
@@ -90,7 +100,6 @@
     "tm:substitute",
     "tm:trickroom",
     "tutor:gigadrain",
-    "tutor:hawthorns",
     "tutor:painsplit",
     "tutor:secretpower",
     "tutor:seedbomb",

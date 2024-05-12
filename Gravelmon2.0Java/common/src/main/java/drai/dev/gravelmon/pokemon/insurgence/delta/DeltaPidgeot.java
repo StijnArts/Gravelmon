@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.insurgence.delta;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class DeltaPidgeot extends Pokemon {
                 216, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 50, List.of(EggGroup.DELTA),
-                List.of("A living creature that looks directly into this Pokemon's eyes will be turned to stone. It breaks off very small pieces of its victims to help digest food."),
+                List.of("A living creature that looks directly into this Pokémon's eyes will be turned to stone. It breaks off very small pieces of its victims to help digest food."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.SNARL,1),

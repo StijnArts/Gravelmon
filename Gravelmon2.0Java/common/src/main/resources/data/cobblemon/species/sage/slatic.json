@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "slatic",
-  "nationalPokedexNumber": 1193,
+  "nationalPokedexNumber": 1268,
   "primaryType": "electric",
   "abilities": [
     "analytic",
@@ -48,6 +48,16 @@
     "field",
     "dragon"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:redstone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:lick",
     "1:scratch",
@@ -144,8 +154,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

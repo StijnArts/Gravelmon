@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "crakling",
-  "nationalPokedexNumber": 1241,
+  "nationalPokedexNumber": 1316,
   "primaryType": "fire",
   "abilities": [
     "aftermath",
@@ -48,6 +48,16 @@
     "dragon",
     "monster"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:gunpowder",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:ember",
     "1:causticbreath",
@@ -131,10 +141,10 @@
       ]   
  }
   ],
-  "baseScale": 0.25,
+  "baseScale": 0.1875,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

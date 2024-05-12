@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Erion extends Pokemon {
                 261, ExperienceGroup.SLOW,
                 70,
                 200, List.of(EggGroup.UNDISCOVERED),
-                List.of("Erion is an industrial titan, ravenously consuming fuel and spewing it out as toxic smog. Plants and Pokemon in its wake wither and gasp for air."),
+                List.of("Erion is an industrial titan, ravenously consuming fuel and spewing it out as toxic smog. Plants and Pokémon in its wake wither and gasp for air."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.ANCIENT_POWER,1),
@@ -89,7 +88,7 @@ public class Erion extends Pokemon {
                         new BiomeSpawnCondition(List.of(Biome.IS_DEEP_DARK)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"false")
                 ), List.of(),
-                List.of(SpawnPreset.JUNGLE_PYRAMID),
+                List.of(SpawnPreset.RUINED_STRUCTURES),
                 1.4, 0.5,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

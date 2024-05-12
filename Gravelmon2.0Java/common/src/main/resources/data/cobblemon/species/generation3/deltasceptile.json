@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "deltasceptile",
-  "nationalPokedexNumber": 254,
+  "nationalPokedexNumber": 253,
   "primaryType": "dragon",
   "secondaryType": "fighting",
   "abilities": [
@@ -162,13 +162,11 @@
     "tutor:zenheadbutt"  ],
   "labels": [
     "gen3",
-    "insurgence",
-    "fakemonevolution"
+    "insurgence"
   ],
   "pokedex": [
     "cobblemon.species.deltasceptile.desc"
   ],
-  "preEvolution": "deltagrovyle",
   "baseScale": 1.1,
   "hitbox": {
     "width": 1.0,

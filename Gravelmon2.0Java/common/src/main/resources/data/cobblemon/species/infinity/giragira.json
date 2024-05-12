@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "giragira",
-  "nationalPokedexNumber": 1456,
+  "nationalPokedexNumber": 1391,
   "primaryType": "dark",
   "secondaryType": "psychic",
   "abilities": [
-    "strongjaw",
-    "strongjaw",
+    "pixilate",
+    "pixilate",
     "h:sapsipper"
   ],
   "baseStats": {
@@ -112,10 +112,10 @@
     "cobblemon.species.giragira.desc"
   ],
   "preEvolution": "girafarig",
-  "baseScale": 0.5750000000000001,
+  "baseScale": 0.43125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

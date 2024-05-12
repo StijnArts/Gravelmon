@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "pikachuxfemale",
-  "nationalPokedexNumber": 25,
+  "nationalPokedexNumber": 149,
   "primaryType": "fairy",
   "abilities": [
     "keeneye",
@@ -93,8 +93,7 @@
     "tutor:covet",
     "tutor:helpinghand",
     "tutor:irontail",
-    "tutor:knockoff",
-    "tutor:magicwall"  ],
+    "tutor:knockoff"  ],
   "labels": [
     "xenoverse",
     "gen1"

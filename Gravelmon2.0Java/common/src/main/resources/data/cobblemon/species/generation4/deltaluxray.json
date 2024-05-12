@@ -1,12 +1,11 @@
 {
   "implemented": true,
   "name": "deltaluxray",
-  "nationalPokedexNumber": 405,
+  "nationalPokedexNumber": 404,
   "primaryType": "steel",
   "secondaryType": "poison",
   "abilities": [
     "poisontouch",
-    "vampiric",
     "h:keeneye"
   ],
   "baseStats": {
@@ -141,17 +140,15 @@
   "labels": [
     "gen4",
     "insurgence",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.deltaluxray.desc"
   ],
-  "preEvolution": "deltaluxio",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

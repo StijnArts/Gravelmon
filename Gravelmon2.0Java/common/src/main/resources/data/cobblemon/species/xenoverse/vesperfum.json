@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "vesperfum",
-  "nationalPokedexNumber": 2145,
+  "nationalPokedexNumber": 1163,
   "primaryType": "grass",
   "secondaryType": "dark",
   "abilities": [
@@ -106,18 +106,15 @@
     "tutor:secretpower"  ],
   "labels": [
     "xenoverse",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.vesperfum.desc"
   ],
-  "preEvolution": "batnana",
-  "baseScale": 0.35000000000000003,
+  "baseScale": 0.2625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

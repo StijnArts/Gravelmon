@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.infinity;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -100,10 +99,10 @@ public class Kablowfish extends Pokemon {
                 List.of(Label.INFINITY),
                 0, List.of(
                 ), SpawnContext.SUBMERGED, SpawnPool.RARE, 44, 56, 1.2, List.of(
-                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN,Biome.IS_WARM_OCEAN)),
+                        new BiomeSpawnCondition(List.of(Biome.IS_LUKEWARM_OCEAN,Biome.IS_REEF)),
                         new SpawnCondition(SpawnConditionType.CANSEESKY,"true")
                 ), List.of(),
-                List.of(SpawnPreset.REEF),
+                List.of(SpawnPreset.UNDERWATER),
                 0.34, 0.3,
                 List.of());
         this.setPortraitXYZ(0.1,2.0,0.0);

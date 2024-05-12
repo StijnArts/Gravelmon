@@ -1,23 +1,4 @@
 {"target": "cobblemon:Gabite",
- "evolutions": [
-  {
-   "id": "gabite_armirangarchomp",
-   "variant": "level_up",
-   "result": "armirangarchomp",
-   "consumeHeldItem": false,
-   "learnableMoves": [],
-   "requirements": [
-    {
-     "variant": "has_move",
-     "move": "fairyrush"
-    },
-    {
-     "variant": "level",
-     "minLevel": 48
-    }
-   ]
-  }
- ],
    "moves": [
     "1:dragonbreath",
     "1:dragonrage",
@@ -37,7 +18,6 @@
     "34:slash",
     "40:dig",
     "42:dragonclaw",
-    "47:fairyrush",
     "49:dragonrush",
     "50:dig",
     "58:sandstorm",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "quezsparce",
-  "nationalPokedexNumber": 1409,
+  "nationalPokedexNumber": 1342,
   "primaryType": "fairy",
   "secondaryType": "ground",
   "abilities": [
@@ -189,10 +189,10 @@
     "cobblemon.species.quezsparce.desc"
   ],
   "preEvolution": "dunsparce",
-  "baseScale": 0.6,
+  "baseScale": 0.45,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

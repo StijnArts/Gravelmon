@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "squink",
-  "nationalPokedexNumber": 1130,
+  "nationalPokedexNumber": 1205,
   "primaryType": "poison",
   "abilities": [
     "liquidooze",
@@ -48,6 +48,16 @@
     "water_3",
     "amorphous"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:raw_cod",
+        "quantityRange": "1-2",
+        "percentage": 90
+      }
+    ]
+  },
   "moves": [
     "1:smog",
     "1:constrict",
@@ -143,10 +153,10 @@
       ]   
  }
   ],
-  "baseScale": 0.125,
+  "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

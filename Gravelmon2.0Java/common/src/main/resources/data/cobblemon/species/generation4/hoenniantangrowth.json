@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "hoenniantangrowth",
-  "nationalPokedexNumber": 465,
+  "nationalPokedexNumber": 442,
   "primaryType": "fighting",
   "secondaryType": "dark",
   "abilities": [
-    "barbednest",
-    "h:barbednest"
+    "keeneye",
+    "h:keeneye"
   ],
   "baseStats": {
     "hp": 100,
@@ -49,12 +49,10 @@
   ],
   "moves": [
     "1:leer",
-    "4:heavypunch",
     "10:razorleaf",
     "13:revenge",
     "19:knockoff",
     "22:bulkup",
-    "28:bramblebash",
     "32:needlearm",
     "37:cheapshot",
     "43:poisonjab",
@@ -65,14 +63,12 @@
     "tm:bulletseed",
     "tm:hiddenpower",
     "tm:sunnyday",
-    "tm:veiledsky",
     "tm:hyperbeam",
     "tm:protect",
     "tm:raindance",
     "tm:earthquake",
     "tm:return",
     "tm:brickbreak",
-    "tm:shimmershot",
     "tm:sludgebomb",
     "tm:sandstorm",
     "tm:rocktomb",
@@ -89,17 +85,15 @@
   "labels": [
     "blazing_emerald",
     "gen4",
-    "not_modeled",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.hoenniantangrowth.desc"
   ],
-  "preEvolution": "hoenniantangela",
-  "baseScale": 0.525,
+  "baseScale": 0.39375,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

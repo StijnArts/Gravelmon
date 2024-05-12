@@ -11,6 +11,8 @@
      ],
      "neededNearbyBlocks": [
       "minecraft:lava"
-     ]
+     ],
+     "timeRange": "day",
+     "minY": 61
   }
 }

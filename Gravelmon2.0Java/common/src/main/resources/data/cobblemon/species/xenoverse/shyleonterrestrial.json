@@ -1,12 +1,12 @@
 {
   "implemented": true,
   "name": "shyleonterrestrial",
-  "nationalPokedexNumber": 2077,
+  "nationalPokedexNumber": 1101,
   "primaryType": "grass",
   "secondaryType": "fairy",
   "abilities": [
     "quickfeet",
-    "h:junglespirit"
+    "h:keeneye"
   ],
   "baseStats": {
     "hp": 88,
@@ -47,41 +47,6 @@
   "eggGroups": [
     "undiscovered"
   ],
-  "drops": {
-    "amount": "1",
-    "entries": [
-      {
-        "item": "gravelmon:terrestrial_ring",
-        "quantityRange": "1-1",
-        "percentage": 40
-      },
-      {
-        "item": "gravelmon:xenoversal_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:terrestrial_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:xenoversal_ring",
-        "quantityRange": "1-1",
-        "percentage": 10
-      },
-      {
-        "item": "gravelmon:terrestrial_ring",
-        "quantityRange": "1-1",
-        "percentage": 40
-      },
-      {
-        "item": "gravelmon:terrestrial_ring",
-        "quantityRange": "1-1",
-        "percentage": 40
-      }
-    ]
-  },
   "moves": [
     "1:teeterdance",
     "1:psychup",
@@ -96,7 +61,6 @@
     "28:agility",
     "32:gigadrain",
     "36:dazzlinggleam",
-    "38:magicwall",
     "40:synthesis",
     "45:moonblast",
     "48:earthpower",
@@ -129,14 +93,11 @@
     "tm:dazzlinggleam",
     "tutor:bind",
     "tutor:covet",
-    "tutor:fairypledge",
     "tutor:frenzyplant",
     "tutor:gigadrain",
-    "tutor:hawthorns",
     "tutor:irontail",
     "tutor:magiccoat",
     "tutor:magicroom",
-    "tutor:magicwall",
     "tutor:secretpower",
     "tutor:seedbomb",
     "tutor:sleeptalksound",

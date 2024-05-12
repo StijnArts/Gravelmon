@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "faeralynx",
-  "nationalPokedexNumber": 1410,
+  "nationalPokedexNumber": 1343,
   "primaryType": "fairy",
   "secondaryType": "dark",
   "abilities": [
@@ -142,10 +142,10 @@
     "cobblemon.species.faeralynx.desc"
   ],
   "preEvolution": "persian",
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

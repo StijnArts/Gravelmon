@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "skurrow",
-  "nationalPokedexNumber": 1123,
+  "nationalPokedexNumber": 1198,
   "primaryType": "ground",
   "abilities": [
     "dryskin",
@@ -131,10 +131,10 @@
   "pokedex": [
     "cobblemon.species.skurrow.desc"
   ],
-  "baseScale": 0.375,
+  "baseScale": 0.28125,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "electabuzzx",
-  "nationalPokedexNumber": 125,
+  "nationalPokedexNumber": 94,
   "primaryType": "fire",
   "abilities": [
     "aftermath",
@@ -102,18 +102,15 @@
     "tutor:heatwave",
     "tutor:lowkick",
     "tutor:outrage",
-    "tutor:scorchedashes",
     "tutor:secretpower",
     "tutor:snoresound"  ],
   "labels": [
     "xenoverse",
-    "gen1",
-    "fakemonevolution"
+    "gen1"
   ],
   "pokedex": [
     "cobblemon.species.electabuzzx.desc"
   ],
-  "preEvolution": "elekidx",
   "evolutions": [
     {
       "id": "electabuzzx_electaburst",

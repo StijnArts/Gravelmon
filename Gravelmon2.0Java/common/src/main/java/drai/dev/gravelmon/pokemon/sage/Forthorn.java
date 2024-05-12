@@ -3,7 +3,6 @@ package drai.dev.gravelmon.pokemon.sage;
 import drai.dev.gravelmon.pokemon.*;
 import drai.dev.gravelmon.pokemon.attributes.*;
 import drai.dev.gravelmon.pokemon.attributes.conditions.*;
-import java.util.*;
 
 import java.util.*;
 
@@ -19,7 +18,7 @@ public class Forthorn extends Pokemon {
                 168, ExperienceGroup.MEDIUM_SLOW,
                 70,
                 76, List.of(EggGroup.GRASS, EggGroup.HUMAN_LIKE),
-                List.of("Forthorn masquerades as a guardian of the forest, scaring off intruders to awe its fellow Pokemon. In reality, it is quite bashful and desires acceptance."),
+                List.of("Forthorn masquerades as a guardian of the forest, scaring off intruders to awe its fellow Pokémon. In reality, it is quite bashful and desires acceptance."),
                 List.of(),
                 List.of(
                         new MoveLearnSetEntry(Move.HELPING_HAND,1),

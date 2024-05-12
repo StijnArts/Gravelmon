@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "eghocharmeleon",
-  "nationalPokedexNumber": 5,
+  "nationalPokedexNumber": 4,
   "primaryType": "fire",
   "secondaryType": "dragon",
   "abilities": [
@@ -49,6 +49,16 @@
     "dragon",
     "monster"
   ],
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:coal",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:flameburst",
     "1:nailflick",
@@ -134,13 +144,11 @@
     "egg:outrage"  ],
   "labels": [
     "gen1",
-    "infinity",
-    "fakemonevolution"
+    "infinity"
   ],
   "pokedex": [
     "cobblemon.species.eghocharmeleon.desc"
   ],
-  "preEvolution": "eghocharmander",
   "evolutions": [
     {
       "id": "eghocharmeleon_eghocharizard",

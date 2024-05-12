@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "dusmee",
-  "nationalPokedexNumber": 2140,
+  "nationalPokedexNumber": 1158,
   "primaryType": "dragon",
   "abilities": [
     "shedskin",
@@ -55,7 +55,6 @@
     "12:faketears",
     "18:attract",
     "24:flail",
-    "30:hiss",
     "36:followme",
     "40:dragonbreath",
     "46:wringout",
@@ -83,8 +82,7 @@
     "tutor:secretpower",
     "tutor:sleeptalksound",
     "tutor:snoresound",
-    "tutor:substitute",
-    "tutor:velvetscales"  ],
+    "tutor:substitute"  ],
   "labels": [
     "xenoverse",
     "not_modeled"
@@ -107,10 +105,10 @@
       ]   
  }
   ],
-  "baseScale": 0.39999999999999997,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

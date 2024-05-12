@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "desoula",
-  "nationalPokedexNumber": 1154,
+  "nationalPokedexNumber": 1229,
   "primaryType": "ghost",
   "secondaryType": "flying",
   "abilities": [
@@ -48,6 +48,21 @@
   "eggGroups": [
     "flying"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1-2",
+        "percentage": 50
+      },
+      {
+        "item": "minecraft:feather",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:nightshade",
     "1:sandattack",
@@ -139,8 +154,8 @@
   ],
   "baseScale": 0.1,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,

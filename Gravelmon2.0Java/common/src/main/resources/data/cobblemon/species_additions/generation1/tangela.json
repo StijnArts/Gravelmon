@@ -1,16 +1,4 @@
 {"target": "cobblemon:Tangela",
- "evolutions": [
-  {
-   "id": "tangela_tangorgon",
-   "variant": "item_interact",
-   "result": "tangorgon",
-   "consumeHeldItem": false,
-   "learnableMoves": [
-   ],
-   "requirements": [],
-   "requiredContext": "gravelmon:dusk_stone"
-  }
- ],
    "moves": [
     "1:absorb",
     "1:bind",

@@ -1,7 +1,7 @@
 {
   "implemented": true,
   "name": "capulilly",
-  "nationalPokedexNumber": 1069,
+  "nationalPokedexNumber": 1144,
   "primaryType": "grass",
   "abilities": [
     "allure",
@@ -47,6 +47,16 @@
   "eggGroups": [
     "undiscovered"
   ],
+  "drops": {
+    "amount": "4",
+    "entries": [
+      {
+        "item": "minecraft:seeds",
+        "quantityRange": "1-2",
+        "percentage": 50
+      }
+    ]
+  },
   "moves": [
     "1:destinybond",
     "1:spite",
@@ -131,18 +141,15 @@
     "egg:teeterdance"  ],
   "labels": [
     "sage",
-    "not_modeled",
-    "fakemon",
-    "fakemonevolution"
+    "not_modeled"
   ],
   "pokedex": [
     "cobblemon.species.capulilly.desc"
   ],
-  "preEvolution": "tuliep",
-  "baseScale": 0.27499999999999997,
+  "baseScale": 0.20625,
   "hitbox": {
-    "width": 6.0,
-    "height": 6.0,
+    "width": 3.0,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 70,
