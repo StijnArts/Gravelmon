@@ -16,6 +16,7 @@
   {
    "id": "porygon2_porygonx",
    "variant": "level_up",
+          "permanent": true,
    "result": "porygonx",
    "consumeHeldItem": true,
    "learnableMoves": [],
@@ -29,6 +30,7 @@
   {
    "id": "porygon2_porygonwes",
    "variant": "level_up",
+          "permanent": true,
    "result": "porygonwes",
    "consumeHeldItem": true,
    "learnableMoves": [],
