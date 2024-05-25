@@ -245,6 +245,7 @@
    "id": "eevee_bandeon",
    "variant": "level_up",
    "result": "bandeon",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [
@@ -258,6 +259,7 @@
    "id": "eevee_scaleon",
    "variant": "level_up",
    "result": "scaleon",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [
@@ -303,12 +305,13 @@
    "id": "eevee_combateon",
    "variant": "level_up",
    "result": "combateon",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [
     {
      "variant": "has_move",
-     "move": "bugbite"
+     "move": "machpunch"
     }
    ]
   },
@@ -317,6 +320,7 @@
    "variant": "level_up",
    "result": "crystaleon",
    "consumeHeldItem": false,
+   "permanent": true,
    "learnableMoves": [
    ],
    "requirements": [
@@ -348,6 +352,7 @@
    "id": "eevee_spectreon",
    "variant": "level_up",
    "result": "spectreon",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [
@@ -376,6 +381,7 @@
    "variant": "level_up",
    "result": "duneon",
    "consumeHeldItem": false,
+   "permanent": true,
    "learnableMoves": [
    ],
    "requirements": [
@@ -413,6 +419,7 @@
    "id": "eevee_sonareon",
    "variant": "level_up",
    "result": "sonareon",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [
@@ -432,6 +439,7 @@
    "result": "nucleon",
    "consumeHeldItem": false,
    "learnableMoves": [],
+   "permanent": true,
    "requirements": [
     {
      "variant": "level",
@@ -450,6 +458,7 @@
    "variant": "level_up",
    "result": "alpheon",
    "consumeHeldItem": false,
+   "permanent": true,
    "learnableMoves": [
    ],
    "requirements": [
@@ -468,6 +477,7 @@
    "variant": "level_up",
    "result": "eveon",
    "consumeHeldItem": false,
+   "permanent": true,
    "learnableMoves": [
    ],
    "requirements": [

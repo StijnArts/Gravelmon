@@ -3,6 +3,7 @@
   {
    "id": "lillipup_novranherdier",
    "variant": "level_up",
+   "permanent": true,
    "result": "novranherdier",
    "consumeHeldItem": false,
    "learnableMoves": [],

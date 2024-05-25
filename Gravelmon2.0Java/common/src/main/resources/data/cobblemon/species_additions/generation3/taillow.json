@@ -5,6 +5,7 @@
    "variant": "level_up",
    "result": "armiranswellow",
    "consumeHeldItem": false,
+   "permanent": true,
    "learnableMoves": [
    ],
    "requirements": [

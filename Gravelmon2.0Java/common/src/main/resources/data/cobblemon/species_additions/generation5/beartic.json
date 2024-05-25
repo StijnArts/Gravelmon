@@ -4,6 +4,7 @@
    "id": "beartic_valbear",
    "variant": "level_up",
    "result": "valbear",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [
    ],

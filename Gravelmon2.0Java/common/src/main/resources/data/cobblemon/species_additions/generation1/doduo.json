@@ -4,6 +4,7 @@
    "id": "doduo_hoenniandodrio",
    "variant": "level_up",
    "result": "hoenniandodrio",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [

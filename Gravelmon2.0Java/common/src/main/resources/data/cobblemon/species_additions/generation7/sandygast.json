@@ -5,6 +5,7 @@
    "variant": "level_up",
    "result": "kaskadianpalossand",
    "consumeHeldItem": false,
+   "permanent": true,
    "learnableMoves": [
    ],
    "requirements": [
