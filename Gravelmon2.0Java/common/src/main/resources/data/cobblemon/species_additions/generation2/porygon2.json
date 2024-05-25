@@ -32,6 +32,7 @@
    "variant": "level_up",
    "result": "porygony",
    "consumeHeldItem": true,
+   "permanent": true,
    "learnableMoves": [],
    "requirements": [
     {

@@ -4,6 +4,7 @@
    "id": "hypno_suripitto",
    "variant": "level_up",
    "result": "suripitto",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [

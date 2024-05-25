@@ -4,6 +4,7 @@
    "id": "trapinch_CefiranGothitelle",
    "variant": "level_up",
    "result": "CefiranGothitelle",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [
    ],

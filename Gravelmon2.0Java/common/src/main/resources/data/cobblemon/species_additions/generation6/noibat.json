@@ -4,6 +4,7 @@
    "id": "noibat_mythiannoivern",
    "variant": "level_up",
    "result": "mythiannoivern",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [],
    "requirements": [

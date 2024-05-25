@@ -14,6 +14,7 @@
    "variant": "level_up",
    "result": "draftbee",
    "consumeHeldItem": false,
+   "permanent": true,
    "learnableMoves": [
    ],
    "requirements": [

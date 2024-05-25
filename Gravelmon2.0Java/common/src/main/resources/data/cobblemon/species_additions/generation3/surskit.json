@@ -4,6 +4,7 @@
    "id": "surskit_norheimanmasquerain",
    "variant": "level_up",
    "result": "norheimanmasquerain",
+   "permanent": true,
    "consumeHeldItem": false,
    "learnableMoves": [
    ],

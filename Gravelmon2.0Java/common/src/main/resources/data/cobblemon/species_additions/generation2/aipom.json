@@ -6,6 +6,7 @@
    "result": "kaskadianambipom",
    "consumeHeldItem": false,
    "learnableMoves": [],
+   "permanent": true,
    "requirements": [
     {
      "variant": "has_move",

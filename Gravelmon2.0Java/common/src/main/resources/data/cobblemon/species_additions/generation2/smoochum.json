@@ -6,6 +6,7 @@
  "result": "espeon",
  "consumeHeldItem": false,
  "learnableMoves": [],
+ "permanent": true,
  "requirements": [
   {
    "variant": "friendship",
