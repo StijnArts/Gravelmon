@@ -1,9 +1,9 @@
 {
   "head": "head",
   "portraitScale": 1.6,
-  "portraitTranslation": [-1.0, 0.8, 0.0],
-  "profileScale": 1,
-  "profileTranslation": [0.0, 1.55, -20.0],
+  "portraitTranslation": [-1.0, 0, 0.0],
+  "profileScale": 0.5,
+  "profileTranslation": [0.0, 1, -20.0],
   "cry":  "bedrock(nidorook, cry)",
   "poses": {
     "portrait": {
