@@ -83,7 +83,8 @@
           "variant": "has_move",
           "move": "allyswitch"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

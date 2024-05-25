@@ -78,7 +78,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:hard_stone"   
+      "requiredContext": "cobblemon:hard_stone",
+      "permanent": true   
  },
     {
       "id": "eevern_flamengon",
@@ -89,7 +90,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:black_belt"   
+      "requiredContext": "cobblemon:black_belt",
+      "permanent": true   
  },
     {
       "id": "eevern_fantasmaug",
@@ -100,7 +102,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:sharp_beak"   
+      "requiredContext": "cobblemon:sharp_beak",
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

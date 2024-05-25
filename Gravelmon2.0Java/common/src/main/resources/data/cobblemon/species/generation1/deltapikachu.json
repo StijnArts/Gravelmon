@@ -168,7 +168,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:moon_stone"   
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
  },
     {
       "id": "deltapikachu_deltaraichu",
@@ -179,7 +180,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:shiny_stone"   
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

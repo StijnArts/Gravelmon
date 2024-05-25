@@ -151,7 +151,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dubious_disc"   
+      "requiredContext": "cobblemon:dubious_disc",
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

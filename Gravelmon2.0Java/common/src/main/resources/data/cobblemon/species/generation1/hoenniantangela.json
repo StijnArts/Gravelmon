@@ -101,7 +101,8 @@
           "variant": "has_move",
           "move": "needlearm"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

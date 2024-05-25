@@ -135,7 +135,8 @@
           "variant": "has_move",
           "move": "toxic"
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "eghogloom_mortossum",
@@ -149,7 +150,8 @@
           "variant": "friendship",
           "amount": 160
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

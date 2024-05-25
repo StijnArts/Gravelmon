@@ -78,7 +78,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:leaf_stone"   
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

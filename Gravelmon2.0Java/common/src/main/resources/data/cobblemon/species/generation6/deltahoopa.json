@@ -170,7 +170,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "minecraft:bottle"   
+      "requiredContext": "minecraft:bottle",
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

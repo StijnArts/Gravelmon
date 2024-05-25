@@ -98,7 +98,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dawn_stone"   
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

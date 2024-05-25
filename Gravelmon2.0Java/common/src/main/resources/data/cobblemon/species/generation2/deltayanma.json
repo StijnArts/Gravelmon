@@ -148,7 +148,8 @@
           "variant": "has_move",
           "move": "ancientpower"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.3,

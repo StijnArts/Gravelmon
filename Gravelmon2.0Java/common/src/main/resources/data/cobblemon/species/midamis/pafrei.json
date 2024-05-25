@@ -89,7 +89,8 @@
           "target": "gender=female",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "pafrei_freil",
@@ -107,7 +108,8 @@
           "target": "gender=male",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

@@ -84,7 +84,8 @@
           "variant": "has_move",
           "move": "dragonpulse"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

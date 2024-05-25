@@ -78,7 +78,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.35000000000000003,

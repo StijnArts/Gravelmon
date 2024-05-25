@@ -113,7 +113,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:xenolith"   
+      "requiredContext": "gravelmon:xenolith",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

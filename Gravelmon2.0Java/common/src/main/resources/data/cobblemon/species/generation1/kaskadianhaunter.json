@@ -131,7 +131,8 @@
           "variant": "has_move",
           "move": "mist"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.39999999999999997,

@@ -158,7 +158,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:upgrade"   
+      "requiredContext": "cobblemon:upgrade",
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

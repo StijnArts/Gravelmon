@@ -142,7 +142,8 @@
           "variant": "level",
           "minLevel": 30
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "deltakirlia_deltagallade",
@@ -157,7 +158,8 @@
           "contains": true
         }
       ],
-      "requiredContext": "cobblemon:dawn_stone"   
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.9,

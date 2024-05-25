@@ -78,7 +78,8 @@
           "variant": "has_move",
           "move": "skyuppercut"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

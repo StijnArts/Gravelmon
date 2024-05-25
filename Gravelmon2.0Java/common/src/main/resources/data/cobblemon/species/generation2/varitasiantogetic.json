@@ -179,7 +179,8 @@
           "variant": "has_move",
           "move": "steelwing"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

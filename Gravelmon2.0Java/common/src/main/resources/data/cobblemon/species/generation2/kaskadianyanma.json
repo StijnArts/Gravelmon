@@ -115,7 +115,8 @@
           "variant": "has_move",
           "move": "dragonsdice"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.3,

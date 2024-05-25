@@ -159,7 +159,8 @@
       "learnableMoves": [],
       "requirements": [
 
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutxenoversal_trishoutterrestrial",
@@ -172,7 +173,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:terrestrial_ring"
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutxenoversal_trishoutastral",
@@ -189,7 +191,8 @@
           "variant": "level",
           "minLevel": 50
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "trishoutxenoversal_trishoutastral",
@@ -206,7 +209,8 @@
           "variant": "level",
           "minLevel": 50
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.39999999999999997,

@@ -93,7 +93,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:bacchus_laurel"   
+      "requiredContext": "gravelmon:bacchus_laurel",
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

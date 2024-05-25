@@ -117,7 +117,8 @@
           "variant": "has_move",
           "move": "raindance"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

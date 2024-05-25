@@ -141,7 +141,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:sun_stone"   
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

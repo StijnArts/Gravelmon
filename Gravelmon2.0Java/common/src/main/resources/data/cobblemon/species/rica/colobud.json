@@ -139,7 +139,8 @@
           "variant": "biome",
           "biomeCondition": "#cobblemon:is_floral"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

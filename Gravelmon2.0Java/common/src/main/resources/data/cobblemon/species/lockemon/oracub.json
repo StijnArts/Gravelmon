@@ -85,7 +85,8 @@
           "variant": "has_move",
           "move": "ominouswind"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

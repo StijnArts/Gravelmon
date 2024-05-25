@@ -126,7 +126,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:electirizer"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

@@ -105,7 +105,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:keybone"   
+      "requiredContext": "gravelmon:keybone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

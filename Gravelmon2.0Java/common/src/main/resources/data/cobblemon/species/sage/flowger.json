@@ -181,7 +181,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:water_stone"
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true
     },
     {
       "id": "blue_flowger_bullotus",
@@ -192,7 +193,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:leaf_stone"
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true
     }
   ],
       "cannotDynamax": false,
@@ -293,7 +295,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:water_stone"   
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
  },
     {
       "id": "flowger_bullotus",
@@ -304,7 +307,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:leaf_stone"   
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

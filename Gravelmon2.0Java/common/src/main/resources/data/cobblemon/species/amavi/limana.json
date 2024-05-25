@@ -72,7 +72,8 @@
           "variant": "attack_defence_ratio",
           "ratio": DEFENCE_HIGHER
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "limana_tanana",
@@ -85,7 +86,8 @@
           "variant": "attack_defence_ratio",
           "ratio": ATTACK_HIGHER
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "limana_florange",
@@ -98,7 +100,8 @@
           "variant": "friendship",
           "amount": 220
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

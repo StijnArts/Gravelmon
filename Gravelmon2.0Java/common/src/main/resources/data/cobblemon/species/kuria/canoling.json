@@ -78,7 +78,8 @@
           "variant": "has_move",
           "move": "irondefense"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

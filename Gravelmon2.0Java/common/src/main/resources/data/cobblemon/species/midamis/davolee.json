@@ -81,7 +81,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dusk_stone"   
+      "requiredContext": "cobblemon:dusk_stone",
+      "permanent": true   
  },
     {
       "id": "davolee_poiriasse",
@@ -92,7 +93,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:shiny_stone"   
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
  },
     {
       "id": "davolee_groviasse",
@@ -103,7 +105,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dawn_stone"   
+      "requiredContext": "cobblemon:dawn_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

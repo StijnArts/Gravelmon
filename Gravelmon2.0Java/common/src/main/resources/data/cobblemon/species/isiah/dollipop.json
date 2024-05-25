@@ -84,7 +84,8 @@
           "variant": "friendship",
           "amount": 210
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

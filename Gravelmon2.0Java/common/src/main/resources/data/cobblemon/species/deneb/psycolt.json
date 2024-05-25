@@ -116,7 +116,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:moon_stone"   
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
  },
     {
       "id": "psycolt_yunesis",
@@ -127,7 +128,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:sun_stone"   
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

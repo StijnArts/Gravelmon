@@ -82,7 +82,8 @@
           "target": "Hypnode",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

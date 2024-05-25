@@ -84,7 +84,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:metal_coat"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

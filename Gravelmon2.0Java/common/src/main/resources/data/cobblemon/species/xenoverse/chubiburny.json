@@ -119,7 +119,8 @@
           "target": "birigiri",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

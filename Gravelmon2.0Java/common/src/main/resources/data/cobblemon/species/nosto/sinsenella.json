@@ -83,7 +83,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:shiny_stone"   
+      "requiredContext": "cobblemon:shiny_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

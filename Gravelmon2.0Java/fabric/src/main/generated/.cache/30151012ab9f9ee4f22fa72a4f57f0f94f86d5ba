@@ -1,12 +1,12 @@
-// 1.20.1	2024-05-13T20:39:49.8201938	Gravelmon/Model Definitions
+// 1.20.1	2024-05-25T11:26:28.803875	Gravelmon/Model Definitions
 8a58a4786186f46fa85fd8af9dacd3ac2ff149d1 assets\gravelmon\models\item\spare_parts.json
 82682822322760bdeb84e6d4bb8663aaa7b6822c assets\gravelmon\models\item\mystic_stone.json
 3d1c5cd9d004b8afd47d6b9978ea93c5e5a167d2 assets\gravelmon\models\item\quantum_upgrade.json
 4cbd469503a70cdca1d640f96f050c9477dee667 assets\gravelmon\blockstates\solid_stone_ore.json
 735242ebeab586dca95a29637405bd5c805efcf3 assets\gravelmon\models\item\magic_cookie.json
 22d725d091d8178e82c127a2909fb8216f70e614 assets\gravelmon\models\block\deepslate_solid_stone_ore.json
-6d2c65018fb47c4a6f1ac418912a0b202eef7e31 assets\gravelmon\models\item\xenolith.json
 4c7d6b0d6383ed3f790833c6048a6add02b83328 assets\gravelmon\models\item\astral_stone_ore_block_item.json
+6d2c65018fb47c4a6f1ac418912a0b202eef7e31 assets\gravelmon\models\item\xenolith.json
 d61bbe5eea9341e70be3aff59ef69a687efa2ec4 assets\gravelmon\models\item\zerix.json
 af4ad6d72ca2b92e2b68ee25b50c2edb507a0ec8 assets\gravelmon\models\block\deepslate_mystic_stone_ore.json
 e3754a0894d8297676e97a5c6547c5594fb8a4ec assets\gravelmon\models\item\aquix.json
@@ -51,6 +51,6 @@ ad0aa8b1fa4603edf8241fb57fe64795b540ee53 assets\gravelmon\models\item\dread_pend
 2ed5e16c5312e85af469904c86018f74792c0731 assets\gravelmon\models\block\mystic_stone_ore.json
 104104918e04a401ee8145acd3f1bcb0cc7f3e6b assets\gravelmon\blockstates\deepslate_astral_stone_ore.json
 c8546f7fb195df722bc2107b899b499f8766e7cf assets\gravelmon\blockstates\mystic_stone_ore.json
-cf61e61deef800b2f7e13e92a98986be4bab8ddb assets\gravelmon\models\block\solid_stone_ore.json
 f28cac34adce0a19962b308e85faf5896b812934 assets\gravelmon\models\item\xenoversal_ring.json
+cf61e61deef800b2f7e13e92a98986be4bab8ddb assets\gravelmon\models\block\solid_stone_ore.json
 1be22d633cd8f274c48e6533120800d969650373 assets\gravelmon\models\item\kaleidoscope.json

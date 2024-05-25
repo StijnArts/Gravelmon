@@ -117,7 +117,8 @@
           "variant": "has_move",
           "move": "frustration"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

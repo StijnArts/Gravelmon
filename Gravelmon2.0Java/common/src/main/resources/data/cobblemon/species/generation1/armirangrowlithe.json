@@ -153,7 +153,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:water_stone"   
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

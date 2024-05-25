@@ -145,7 +145,8 @@
           "variant": "held_item",
           "itemCondition": "gravelmon:corrupted_disc"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

@@ -129,7 +129,8 @@
           "target": "gender=female",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "calfpint_tauros",
@@ -147,7 +148,8 @@
           "target": "gender=male",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "calfpint_tauros form=paldean-breed-combat",
@@ -165,7 +167,8 @@
           "target": "gender=male",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "calfpint_tauros form=paldean-breed-blaze",
@@ -183,7 +186,8 @@
           "target": "gender=male",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "calfpint_tauros form=paldean-breed-aqua",
@@ -201,7 +205,8 @@
           "target": "gender=male",
           "contains": true
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

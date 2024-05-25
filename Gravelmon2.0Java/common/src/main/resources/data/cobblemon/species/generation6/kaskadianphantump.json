@@ -128,7 +128,8 @@
           "variant": "biome",
           "biomeCondition": "#cobblemon:is_spooky"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

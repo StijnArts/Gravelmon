@@ -118,7 +118,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:kings_rock"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

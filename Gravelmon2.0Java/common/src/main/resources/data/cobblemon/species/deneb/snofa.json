@@ -114,7 +114,8 @@
           "variant": "has_move",
           "move": "crunch"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

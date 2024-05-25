@@ -126,7 +126,8 @@
           "variant": "level",
           "minLevel": 18
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "mintch_signetanblakjak",
@@ -143,7 +144,8 @@
           "variant": "biome",
           "biomeCondition": "#cobblemon:is_spooky"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.8,

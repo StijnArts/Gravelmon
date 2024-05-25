@@ -97,7 +97,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:pixie_dust"   
+      "requiredContext": "gravelmon:pixie_dust",
+      "permanent": true   
  }
   ],
   "baseScale": 0.27499999999999997,

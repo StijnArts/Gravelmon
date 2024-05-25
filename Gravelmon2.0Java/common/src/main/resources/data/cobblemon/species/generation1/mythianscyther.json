@@ -107,7 +107,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:fire_stone"   
+      "requiredContext": "cobblemon:fire_stone",
+      "permanent": true   
  },
     {
       "id": "mythianscyther_mythiankleavor",
@@ -118,7 +119,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:preadite"   
+      "requiredContext": "gravelmon:preadite",
+      "permanent": true   
  }
   ],
   "baseScale": 0.375,

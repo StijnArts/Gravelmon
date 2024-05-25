@@ -90,7 +90,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:water_stone"   
+      "requiredContext": "cobblemon:water_stone",
+      "permanent": true   
  },
     {
       "id": "yolkid_coropper",
@@ -101,7 +102,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:leaf_stone"   
+      "requiredContext": "cobblemon:leaf_stone",
+      "permanent": true   
  },
     {
       "id": "yolkid_coruda",
@@ -112,7 +114,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:sun_stone"   
+      "requiredContext": "cobblemon:sun_stone",
+      "permanent": true   
  },
     {
       "id": "yolkid_coraga",
@@ -123,7 +126,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:moon_stone"   
+      "requiredContext": "cobblemon:moon_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

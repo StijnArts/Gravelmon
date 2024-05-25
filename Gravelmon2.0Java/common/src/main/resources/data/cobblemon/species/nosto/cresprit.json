@@ -85,7 +85,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:reaper_cloth"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.19999999999999998,

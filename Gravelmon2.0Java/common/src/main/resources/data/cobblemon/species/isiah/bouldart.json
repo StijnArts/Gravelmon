@@ -91,7 +91,8 @@
           "variant": "level",
           "minLevel": 48
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.375,

@@ -80,7 +80,8 @@
           "variant": "has_move",
           "move": "petaldance"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

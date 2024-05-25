@@ -112,7 +112,8 @@
           "variant": "has_move",
           "move": "wildcharge"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.3,

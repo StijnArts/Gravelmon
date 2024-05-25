@@ -83,7 +83,8 @@
           "variant": "friendship",
           "amount": 190
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

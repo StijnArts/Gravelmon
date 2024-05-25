@@ -136,7 +136,8 @@
           "variant": "has_move",
           "move": "dig"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

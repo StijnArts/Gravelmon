@@ -126,7 +126,8 @@
           "variant": "attack_defence_ratio",
           "ratio": ATTACK_HIGHER
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "varitasiantyrogue_varitasianhitmonlee",
@@ -143,7 +144,8 @@
           "variant": "attack_defence_ratio",
           "ratio": DEFENCE_HIGHER
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "varitasiantyrogue_varitasianhitmontop",
@@ -160,7 +162,8 @@
           "variant": "attack_defence_ratio",
           "ratio": EQUAL
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

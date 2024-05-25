@@ -125,7 +125,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:spare_parts"   
+      "requiredContext": "gravelmon:spare_parts",
+      "permanent": true   
  }
   ],
   "baseScale": 0.25,

@@ -194,7 +194,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:burn_heal"
         }
-      ]
+      ],
+      "permanent": true
     }
   ],
       "cannotDynamax": false,
@@ -311,7 +312,8 @@
           "variant": "held_item",
           "itemCondition": "cobblemon:ice_heal"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.225,

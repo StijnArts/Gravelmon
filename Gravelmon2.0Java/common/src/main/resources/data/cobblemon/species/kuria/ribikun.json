@@ -78,7 +78,8 @@
           "variant": "has_move",
           "move": "acidarmor"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

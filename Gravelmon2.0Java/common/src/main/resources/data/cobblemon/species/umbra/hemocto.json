@@ -133,7 +133,8 @@
           "variant": "biome",
           "biomeCondition": "#cobblemon:is_ocean"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

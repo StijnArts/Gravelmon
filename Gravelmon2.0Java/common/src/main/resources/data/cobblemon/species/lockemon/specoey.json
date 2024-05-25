@@ -85,7 +85,8 @@
           "variant": "has_move",
           "move": "roleplay"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.1,

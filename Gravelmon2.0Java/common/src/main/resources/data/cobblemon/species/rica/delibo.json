@@ -114,7 +114,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:dubious_disc"   
+      "requiredContext": "cobblemon:dubious_disc",
+      "permanent": true   
  },
     {
       "id": "delibo_helibo",
@@ -125,7 +126,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "cobblemon:upgrade"   
+      "requiredContext": "cobblemon:upgrade",
+      "permanent": true   
  }
   ],
   "baseScale": 0.17500000000000002,

@@ -84,7 +84,8 @@
           "variant": "level",
           "minLevel": 35
         }
-      ]   
+      ],
+      "permanent": true   
  },
     {
       "id": "karmean_hailoman",
@@ -97,7 +98,8 @@
           "variant": "attack_defence_ratio",
           "ratio": DEFENCE_HIGHER
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.125,

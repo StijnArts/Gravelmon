@@ -90,7 +90,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:abyssal_stone"   
+      "requiredContext": "gravelmon:abyssal_stone",
+      "permanent": true   
  }
   ],
   "baseScale": 0.375,

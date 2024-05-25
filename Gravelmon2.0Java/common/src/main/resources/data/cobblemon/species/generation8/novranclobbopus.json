@@ -148,7 +148,8 @@
           "variant": "has_move",
           "move": "poisonjab"
         }
-      ]   
+      ],
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,

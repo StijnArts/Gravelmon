@@ -137,7 +137,8 @@
       "requirements": [
 
       ],
-      "requiredContext": "gravelmon:dread_pendant"   
+      "requiredContext": "gravelmon:dread_pendant",
+      "permanent": true   
  }
   ],
   "baseScale": 0.15,
